@@ -22,16 +22,15 @@ class ImmediateRankUIPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ImmediateRankUIPanel);
-// Type: ::ImmediateRankUIPanel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies RankModel::Rank, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ImmediateRankUIPanel*
+// CS Name: ImmediateRankUIPanel
 class CORDL_TYPE ImmediateRankUIPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _prevImmediateRank, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__prevImmediateRank, put = __cordl_internal_set__prevImmediateRank)) ::GlobalNamespace::__RankModel__Rank _prevImmediateRank;
+  __declspec(property(get = __cordl_internal_get__prevImmediateRank, put = __cordl_internal_set__prevImmediateRank)) ::GlobalNamespace::RankModel_Rank _prevImmediateRank;
 
   /// @brief Field _prevRelativeScore, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__prevRelativeScore, put = __cordl_internal_set__prevRelativeScore)) float_t _prevRelativeScore;
@@ -50,20 +49,20 @@ public:
   /// @brief Field _stringBuilder, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x3b422ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange, addr 0x3ba39dc, size 0x4, virtual false, abstract: false, final false
   inline void HandleRelativeScoreAndImmediateRankCounterRelativeScoreOrImmediateRankDidChange();
 
   static inline ::GlobalNamespace::ImmediateRankUIPanel* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x3b420e4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x3ba37d4, size 0x16c, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Start, addr 0x3b42020, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba3710, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get__prevImmediateRank() const;
+  constexpr ::GlobalNamespace::RankModel_Rank const& __cordl_internal_get__prevImmediateRank() const;
 
-  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get__prevImmediateRank();
+  constexpr ::GlobalNamespace::RankModel_Rank& __cordl_internal_get__prevImmediateRank();
 
   constexpr float_t const& __cordl_internal_get__prevRelativeScore() const;
 
@@ -81,11 +80,11 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__relativeScoreText();
 
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__stringBuilder() const;
+
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
-
-  constexpr void __cordl_internal_set__prevImmediateRank(::GlobalNamespace::__RankModel__Rank value);
+  constexpr void __cordl_internal_set__prevImmediateRank(::GlobalNamespace::RankModel_Rank value);
 
   constexpr void __cordl_internal_set__prevRelativeScore(float_t value);
 
@@ -97,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3b422f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba39e0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,6 +112,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ImmediateRankUIPanel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ImmediateRankUIPanel(ImmediateRankUIPanel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4406 };
 
   /// @brief Field _rankText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
@@ -130,16 +132,11 @@ public:
   float_t ____prevRelativeScore;
 
   /// @brief Field _prevImmediateRank, offset: 0x44, size: 0x4, def value: None
-  ::GlobalNamespace::__RankModel__Rank ____prevImmediateRank;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4394 };
+  ::GlobalNamespace::RankModel_Rank ____prevImmediateRank;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ImmediateRankUIPanel, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____rankText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____relativeScoreText) == 0x28, "Offset mismatch!");
@@ -151,6 +148,8 @@ static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____stringBuilde
 static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____prevRelativeScore) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ImmediateRankUIPanel, ____prevImmediateRank) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ImmediateRankUIPanel, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ImmediateRankUIPanel);

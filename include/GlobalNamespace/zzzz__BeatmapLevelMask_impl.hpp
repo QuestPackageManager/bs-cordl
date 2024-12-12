@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapLevelMask.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelMask_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelMask._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)()>(&::GlobalNamespace::BeatmapLevelMask::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26e7b60;
+  constexpr static std::size_t addrs = 0x271a1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelMask*>::get(), ".ctor",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)(::StringW)>(&::GlobalNamespace::BeatmapLevelMask::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26e7c48;
+  constexpr static std::size_t addrs = 0x271a2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)(::System::Collections::Generic::HashSet_1<::StringW>*)>(
     &::GlobalNamespace::BeatmapLevelMask::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x26e7ce0;
+  constexpr static std::size_t addrs = 0x271a37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelMask::*)(::StringW)>(&::GlobalNamespace::BeatmapLevelMask::Contains)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26e7e74;
+  constexpr static std::size_t addrs = 0x271a510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)(::StringW)>(&::GlobalNamespace::BeatmapLevelMask::AddLevel)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26e7ed4;
+  constexpr static std::size_t addrs = 0x271a570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BeatmapLevelMask::Serialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26e7f34;
+  constexpr static std::size_t addrs = 0x271a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelMask::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BeatmapLevelMask::Deserialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26e8138;
+  constexpr static std::size_t addrs = 0x271a7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapLevelMask::*)()>(&::GlobalNamespace::BeatmapLevelMask::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26e81e4;
+  constexpr static std::size_t addrs = 0x271a880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapLevelMask::*)()>(&::GlobalNamespace::BeatmapLevelMask::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26e8268;
+  constexpr static std::size_t addrs = 0x271a904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelMask::*)(::GlobalNamespace::BeatmapLevelMask*)>(
     &::GlobalNamespace::BeatmapLevelMask::Equals)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26e8288;
+  constexpr static std::size_t addrs = 0x271a924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelMask::*)(::System::Object*)>(&::GlobalNamespace::BeatmapLevelMask::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26e82a8;
+  constexpr static std::size_t addrs = 0x271a944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,27 +166,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr GlobalNamespace::BeatmapLevelMask::operator ::LiteNetLib::Utils::INetSerializable*() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BeatmapLevelMask::i___LiteNetLib__Utils__INetSerializable() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
-constexpr GlobalNamespace::BeatmapLevelMask::operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>* GlobalNamespace::BeatmapLevelMask::i___System__IEquatable_1___GlobalNamespace__BeatmapLevelMask__() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::BitMaskSparse*& GlobalNamespace::BeatmapLevelMask::__cordl_internal_get__bloomFilter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFilter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BitMaskSparse*> const& GlobalNamespace::BeatmapLevelMask::__cordl_internal_get__bloomFilter() const {
+constexpr ::GlobalNamespace::BitMaskSparse* const& GlobalNamespace::BeatmapLevelMask::__cordl_internal_get__bloomFilter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFilter;
 }
@@ -194,25 +178,16 @@ constexpr void GlobalNamespace::BeatmapLevelMask::__cordl_internal_set__bloomFil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>());
-}
 inline void GlobalNamespace::BeatmapLevelMask::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelMask*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor(::StringW level) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>(level));
 }
 inline void GlobalNamespace::BeatmapLevelMask::_ctor(::StringW level) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelMask*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level);
-}
-inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>(levelSet));
 }
 inline void GlobalNamespace::BeatmapLevelMask::_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -264,6 +239,31 @@ inline bool GlobalNamespace::BeatmapLevelMask::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelMask*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>());
+}
+inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor(::StringW level) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>(level));
+}
+inline ::GlobalNamespace::BeatmapLevelMask* GlobalNamespace::BeatmapLevelMask::New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelMask*>(levelSet));
+}
+/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+constexpr GlobalNamespace::BeatmapLevelMask::operator ::LiteNetLib::Utils::INetSerializable*() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BeatmapLevelMask::i___LiteNetLib__Utils__INetSerializable() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
+constexpr GlobalNamespace::BeatmapLevelMask::operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>* GlobalNamespace::BeatmapLevelMask::i___System__IEquatable_1___GlobalNamespace__BeatmapLevelMask__() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelMask::BeatmapLevelMask() {}

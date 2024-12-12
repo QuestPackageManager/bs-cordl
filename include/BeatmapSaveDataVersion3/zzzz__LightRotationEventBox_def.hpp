@@ -37,11 +37,10 @@ class LightRotationEventBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightRotationEventBox);
-// Type: BeatmapSaveDataVersion3::LightRotationEventBox
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.Axis, BeatmapSaveDataCommon.DistributionParamType, BeatmapSaveDataCommon.EaseType, BeatmapSaveDataVersion3.EventBox
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightRotationEventBox*
+// CS Name: BeatmapSaveDataVersion3.LightRotationEventBox
 class CORDL_TYPE LightRotationEventBox : public ::BeatmapSaveDataVersion3::EventBox {
 public:
   // Declarations
@@ -99,9 +98,9 @@ public:
 
   constexpr ::BeatmapSaveDataCommon::EaseType& __cordl_internal_get_i();
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>*& __cordl_internal_get_l();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* const& __cordl_internal_get_l() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>*> const& __cordl_internal_get_l() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>*& __cordl_internal_get_l();
 
   constexpr int32_t const& __cordl_internal_get_r() const;
 
@@ -129,31 +128,31 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x26d478c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27060fc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t rotationDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent,
                     ::BeatmapSaveDataCommon::EaseType rotationDistributionEaseType, ::BeatmapSaveDataCommon::Axis axis, bool flipRotation,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method get_axis, addr 0x26d4754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x27060c4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::Axis get_axis();
 
-  /// @brief Method get_flipRotation, addr 0x26d475c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_flipRotation, addr 0x27060cc, size 0x10, virtual false, abstract: false, final false
   inline bool get_flipRotation();
 
-  /// @brief Method get_lightRotationBaseDataList, addr 0x26d4784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightRotationBaseDataList, addr 0x27060f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* get_lightRotationBaseDataList();
 
-  /// @brief Method get_rotationDistributionEaseType, addr 0x26d477c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionEaseType, addr 0x27060ec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_rotationDistributionEaseType();
 
-  /// @brief Method get_rotationDistributionParam, addr 0x26d4744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParam, addr 0x27060b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationDistributionParam();
 
-  /// @brief Method get_rotationDistributionParamType, addr 0x26d474c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionParamType, addr 0x27060bc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_rotationDistributionParamType();
 
-  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x26d476c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDistributionShouldAffectFirstBaseEvent, addr 0x27060dc, size 0x10, virtual false, abstract: false, final false
   inline bool get_rotationDistributionShouldAffectFirstBaseEvent();
 
 protected:
@@ -169,6 +168,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventBox", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightRotationEventBox(LightRotationEventBox const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13408 };
 
   /// @brief Field s, offset: 0x20, size: 0x4, def value: None
   float_t ___s;
@@ -191,14 +193,9 @@ public:
   /// @brief Field l, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationBaseData*>* ___l;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13377 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightRotationEventBox, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationEventBox, ___s) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationEventBox, ___t) == 0x24, "Offset mismatch!");
@@ -212,6 +209,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationEventBox, ___b) =
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationEventBox, ___i) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightRotationEventBox, ___l) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightRotationEventBox, 0x40>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightRotationEventBox);

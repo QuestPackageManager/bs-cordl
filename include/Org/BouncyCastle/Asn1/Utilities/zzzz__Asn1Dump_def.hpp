@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Dump)
@@ -29,43 +28,42 @@ class Asn1Dump;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Utilities::Asn1Dump);
-// Type: Org.BouncyCastle.Asn1.Utilities::Asn1Dump
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Utilities {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Utilities::Asn1Dump*
+// CS Name: Org.BouncyCastle.Asn1.Utilities.Asn1Dump
 class CORDL_TYPE Asn1Dump : public ::System::Object {
 public:
   // Declarations
   /// @brief Field NewLine, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NewLine, put = setStaticF_NewLine)) ::StringW NewLine;
+  __declspec(property(get = getStaticF_NewLine, put = setStaticF_NewLine)) ::StringW NewLine;
 
-  /// @brief Method AsString, addr 0x24c71f0, size 0x2628, virtual false, abstract: false, final false
+  /// @brief Method AsString, addr 0x24fa4dc, size 0x2628, virtual false, abstract: false, final false
   static inline void AsString(::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::Asn1Object* obj, ::System::Text::StringBuilder* buf);
 
-  /// @brief Method DumpAsString, addr 0x24ca4d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x24fd7c4, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method DumpAsString, addr 0x24ca530, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x24fd81c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
 
-  /// @brief Method DumpAsString, addr 0x24ca360, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method DumpAsString, addr 0x24fd64c, size 0x178, virtual false, abstract: false, final false
   static inline ::StringW DumpAsString(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Utilities::Asn1Dump* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24c71e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fa4d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method calculateAscString, addr 0x24ca608, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method calculateAscString, addr 0x24fd8f4, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW calculateAscString(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method dumpBinaryDataAsString, addr 0x24c9818, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method dumpBinaryDataAsString, addr 0x24fcb04, size 0x26c, virtual false, abstract: false, final false
   static inline ::StringW dumpBinaryDataAsString(::StringW indent, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   static inline ::StringW getStaticF_NewLine();
 
-  /// @brief Method outputApplicationSpecific, addr 0x24c9a84, size 0x8dc, virtual false, abstract: false, final false
+  /// @brief Method outputApplicationSpecific, addr 0x24fcd70, size 0x8dc, virtual false, abstract: false, final false
   static inline ::StringW outputApplicationSpecific(::StringW type, ::StringW indent, bool verbose, ::Org::BouncyCastle::Asn1::DerApplicationSpecific* app);
 
   static inline void setStaticF_NewLine(::StringW value);

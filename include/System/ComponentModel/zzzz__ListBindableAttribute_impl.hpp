@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ListBindableAttribute::*)(bool)>(
     &::System::ComponentModel::ListBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f2028;
+  constexpr static std::size_t addrs = 0x445333c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::get_ListBindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f2050;
+  constexpr static std::size_t addrs = 0x4453364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListBindableAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ListBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43f2058;
+  constexpr static std::size_t addrs = 0x445336c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f20f0;
+  constexpr static std::size_t addrs = 0x4453404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43f20f8;
+  constexpr static std::size_t addrs = 0x445340c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,9 +131,6 @@ inline ::System::ComponentModel::ListBindableAttribute* System::ComponentModel::
   return ::cordl_internals::getStaticField<::System::ComponentModel::ListBindableAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListBindableAttribute*>::get>();
 }
-inline ::System::ComponentModel::ListBindableAttribute* System::ComponentModel::ListBindableAttribute::New_ctor(bool listBindable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ListBindableAttribute*>(listBindable));
-}
 inline void System::ComponentModel::ListBindableAttribute::_ctor(bool listBindable) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListBindableAttribute*>::get(), ".ctor",
@@ -159,6 +156,9 @@ inline bool System::ComponentModel::ListBindableAttribute::IsDefaultAttribute() 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListBindableAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::ListBindableAttribute* System::ComponentModel::ListBindableAttribute::New_ctor(bool listBindable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ListBindableAttribute*>(listBindable));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ListBindableAttribute::ListBindableAttribute() {}

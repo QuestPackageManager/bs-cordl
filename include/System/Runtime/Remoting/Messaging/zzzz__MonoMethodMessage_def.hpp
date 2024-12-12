@@ -4,9 +4,12 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__CallType_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoMethodMessage)
@@ -27,21 +30,6 @@ class AsyncResult;
 }
 namespace System::Runtime::Remoting::Messaging {
 struct CallType;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IInternalMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
@@ -67,11 +55,11 @@ class MonoMethodMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MonoMethodMessage);
-// Type: System.Runtime.Remoting.Messaging::MonoMethodMessage
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Remoting.Messaging.CallType, System.Runtime.Remoting.Messaging.IInternalMessage, System.Runtime.Remoting.Messaging.IMessage,
+// System.Runtime.Remoting.Messaging.IMethodCallMessage, System.Runtime.Remoting.Messaging.IMethodMessage, System.Runtime.Remoting.Messaging.IMethodReturnMessage
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::MonoMethodMessage*
+// CS Name: System.Runtime.Remoting.Messaging.MonoMethodMessage
 class CORDL_TYPE MonoMethodMessage : public ::System::Object {
 public:
   // Declarations
@@ -163,17 +151,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*() noexcept;
 
-  /// @brief Method GetArg, addr 0x3c90040, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x3cf01b4, size 0x34, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t arg_num);
 
-  /// @brief Method GetMethodInfo, addr 0x3c8fbdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x3cefd50, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetMethodInfo(::System::Type* type, ::StringW methodName);
 
-  /// @brief Method InitMessage, addr 0x3c8f768, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method InitMessage, addr 0x3cef8dc, size 0x274, virtual false, abstract: false, final false
   inline void InitMessage(::System::Reflection::RuntimeMethodInfo* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method NeedsOutProcessing, addr 0x3c90228, size 0x8c, virtual false, abstract: false, final false
-  inline bool NeedsOutProcessing(ByRef<int32_t> outCount);
+  /// @brief Method NeedsOutProcessing, addr 0x3cf039c, size 0x8c, virtual false, abstract: false, final false
+  inline bool NeedsOutProcessing(::ByRef<int32_t> outCount);
 
   static inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* New_ctor(::System::Reflection::MethodBase* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
@@ -182,10 +170,10 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* New_ctor(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x3c90210, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x3cf0384, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x3c90218, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x3cf038c, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_arg_types() const;
@@ -196,29 +184,29 @@ public:
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_args();
 
-  constexpr ::System::Runtime::Remoting::Messaging::AsyncResult*& __cordl_internal_get_asyncResult();
+  constexpr ::System::Runtime::Remoting::Messaging::AsyncResult* const& __cordl_internal_get_asyncResult() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::AsyncResult*> const& __cordl_internal_get_asyncResult() const;
+  constexpr ::System::Runtime::Remoting::Messaging::AsyncResult*& __cordl_internal_get_asyncResult();
 
   constexpr ::System::Runtime::Remoting::Messaging::CallType const& __cordl_internal_get_call_type() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::CallType& __cordl_internal_get_call_type();
 
+  constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext* const& __cordl_internal_get_ctx() const;
+
   constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& __cordl_internal_get_ctx();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const& __cordl_internal_get_ctx() const;
+  constexpr ::System::Exception* const& __cordl_internal_get_exc() const;
 
   constexpr ::System::Exception*& __cordl_internal_get_exc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_exc() const;
+  constexpr ::System::Runtime::Remoting::Identity* const& __cordl_internal_get_identity() const;
 
   constexpr ::System::Runtime::Remoting::Identity*& __cordl_internal_get_identity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Identity*> const& __cordl_internal_get_identity() const;
+  constexpr ::System::Reflection::RuntimeMethodInfo* const& __cordl_internal_get_method() const;
 
   constexpr ::System::Reflection::RuntimeMethodInfo*& __cordl_internal_get_method();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeMethodInfo*> const& __cordl_internal_get_method() const;
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_methodSignature() const;
 
@@ -228,13 +216,13 @@ public:
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_names();
 
+  constexpr ::System::Runtime::Remoting::Messaging::MCMDictionary* const& __cordl_internal_get_properties() const;
+
   constexpr ::System::Runtime::Remoting::Messaging::MCMDictionary*& __cordl_internal_get_properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MCMDictionary*> const& __cordl_internal_get_properties() const;
+  constexpr ::System::Object* const& __cordl_internal_get_rval() const;
 
   constexpr ::System::Object*& __cordl_internal_get_rval();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_rval() const;
 
   constexpr ::StringW const& __cordl_internal_get_uri() const;
 
@@ -266,58 +254,58 @@ public:
 
   constexpr void __cordl_internal_set_uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c8f9dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cefb50, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method .ctor, addr 0x3c8faa4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cefc18, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* minfo, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> out_args);
 
-  /// @brief Method .ctor, addr 0x3c8fc8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cefe00, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> in_args);
 
-  /// @brief Method get_ArgCount, addr 0x3c8fd2c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x3cefea0, size 0x38, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x3c8fde0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x3ceff54, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_AsyncResult, addr 0x3c90220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncResult, addr 0x3cf0394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::AsyncResult* get_AsyncResult();
 
-  /// @brief Method get_CallType, addr 0x3c8fd64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CallType, addr 0x3cefed8, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::CallType get_CallType();
 
-  /// @brief Method get_Exception, addr 0x3c90074, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Exception, addr 0x3cf01e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_LogicalCallContext, addr 0x3c8fde8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x3ceff5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase, addr 0x3c8fdf8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x3ceff6c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x3c8fe00, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x3ceff74, size 0x80, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x3c8fe80, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x3cefff4, size 0x11c, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_OutArgCount, addr 0x3c9007c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_OutArgCount, addr 0x3cf01f0, size 0x64, virtual true, abstract: false, final true
   inline int32_t get_OutArgCount();
 
-  /// @brief Method get_OutArgs, addr 0x3c900e0, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method get_OutArgs, addr 0x3cf0254, size 0x128, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_Properties, addr 0x3c8fcc4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_Properties, addr 0x3cefe38, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_ReturnValue, addr 0x3c90208, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ReturnValue, addr 0x3cf037c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_ReturnValue();
 
-  /// @brief Method get_TypeName, addr 0x3c8ff9c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x3cf0110, size 0x94, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x3c90030, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x3cf01a4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IInternalMessage"
@@ -335,10 +323,10 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodReturnMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodReturnMessage* i___System__Runtime__Remoting__Messaging__IMethodReturnMessage() noexcept;
 
-  /// @brief Method set_LogicalCallContext, addr 0x3c8fdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LogicalCallContext, addr 0x3ceff64, size 0x8, virtual false, abstract: false, final false
   inline void set_LogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* value);
 
-  /// @brief Method set_Uri, addr 0x3c90038, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Uri, addr 0x3cf01ac, size 0x8, virtual true, abstract: false, final true
   inline void set_Uri(::StringW value);
 
 protected:
@@ -354,6 +342,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoMethodMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoMethodMessage(MonoMethodMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3179 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::RuntimeMethodInfo* ___method;
@@ -394,14 +385,9 @@ public:
   /// @brief Field methodSignature, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___methodSignature;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3179 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MonoMethodMessage, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MonoMethodMessage, ___method) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MonoMethodMessage, ___args) == 0x18, "Offset mismatch!");
@@ -427,6 +413,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::MonoMethodMessage
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MonoMethodMessage, ___identity) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::MonoMethodMessage, ___methodSignature) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::MonoMethodMessage, 0x78>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::MonoMethodMessage);

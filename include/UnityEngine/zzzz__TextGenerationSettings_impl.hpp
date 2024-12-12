@@ -8,19 +8,15 @@
 #include "UnityEngine/zzzz__VerticalWrapMode_impl.hpp"
 #include "UnityEngine/zzzz__TextGenerationSettings_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
-#include "UnityEngine/zzzz__HorizontalWrapMode_def.hpp"
-#include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "UnityEngine/zzzz__VerticalWrapMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextGenerationSettings.CompareColors
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::UnityEngine::TextGenerationSettings::CompareColors)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x48ec260;
+  constexpr static std::size_t addrs = 0x49508f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::TextGenerationSettings::CompareVector2)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x48ec398;
+  constexpr static std::size_t addrs = 0x4950a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerationSettings::Equals)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x48ec460;
+  constexpr static std::size_t addrs = 0x4950af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +77,7 @@ inline bool UnityEngine::TextGenerationSettings::Equals(::UnityEngine::TextGener
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextGenerationSettings>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "",
+// Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineSpacing", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "richText", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "scaleFactor", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontStyle",
 // ty: "::UnityEngine::FontStyle", modifiers: "", def_value: Some("{}") }, CppParam { name: "textAnchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: Some("{}") }, CppParam { name:

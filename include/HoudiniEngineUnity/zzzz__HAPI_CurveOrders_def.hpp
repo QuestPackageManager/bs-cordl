@@ -12,11 +12,10 @@ struct HAPI_CurveOrders;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveOrders);
-// Type: HoudiniEngineUnity::HAPI_CurveOrders
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_CurveOrders
+// CS Name: HoudiniEngineUnity.HAPI_CurveOrders
 struct CORDL_TYPE HAPI_CurveOrders {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_CurveOrders(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_CURVE_ORDER_CUBIC value: static_cast<int32_t>(0x4)
+  /// @brief Field HAPI_CURVE_ORDER_CUBIC value: I32(4)
   static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_CUBIC;
 
-  /// @brief Field HAPI_CURVE_ORDER_INVALID value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_CURVE_ORDER_INVALID value: I32(1)
   static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_INVALID;
 
-  /// @brief Field HAPI_CURVE_ORDER_LINEAR value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_CURVE_ORDER_LINEAR value: I32(2)
   static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_LINEAR;
 
-  /// @brief Field HAPI_CURVE_ORDER_QUADRATIC value: static_cast<int32_t>(0x3)
+  /// @brief Field HAPI_CURVE_ORDER_QUADRATIC value: I32(3)
   static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_QUADRATIC;
 
-  /// @brief Field HAPI_CURVE_ORDER_VARYING value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_CURVE_ORDER_VARYING value: I32(0)
   static ::HoudiniEngineUnity::HAPI_CurveOrders const HAPI_CURVE_ORDER_VARYING;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11694 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveOrders, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CurveOrders, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CurveOrders, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveOrders, "HoudiniEngineUnity", "HAPI_CurveOrders");

@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRSpatialAnchors::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRSpatialAnchors::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4015030;
+  constexpr static std::size_t addrs = 0x40750dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,15 +25,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::OVR::OpenVR::CVRSpatialAnchors.CreateSpatialAnchorFromDescriptor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(::StringW, ByRef<uint32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(::StringW, ::ByRef<uint32_t>)>(
     &::OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401513c;
+  constexpr static std::size_t addrs = 0x40751e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "CreateSpatialAnchorFromDescriptor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(),
+                                                                               "CreateSpatialAnchorFromDescriptor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -41,16 +42,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(
-    uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ByRef<uint32_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose)> {
+    uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4015164;
+  constexpr static std::size_t addrs = 0x4075210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "CreateSpatialAnchorFromPose", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -58,16 +60,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(
-    uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ByRef<::OVR::OpenVR::SpatialAnchorPose_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose)> {
+    uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x401518c;
+  constexpr static std::size_t addrs = 0x4075238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "GetSpatialAnchorPose", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -75,16 +77,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::CVRSpatialAnchors::*)(
-    uint32_t, ::System::Text::StringBuilder*, ByRef<uint32_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor)> {
+    uint32_t, ::System::Text::StringBuilder*, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40151b0;
+  constexpr static std::size_t addrs = 0x407525c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "GetSpatialAnchorDescriptor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -100,47 +102,48 @@ constexpr void OVR::OpenVR::CVRSpatialAnchors::__cordl_internal_set_FnTable(::OV
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
-inline ::OVR::OpenVR::CVRSpatialAnchors* OVR::OpenVR::CVRSpatialAnchors::New_ctor(::System::IntPtr pInterface) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRSpatialAnchors*>(pInterface));
-}
 inline void OVR::OpenVR::CVRSpatialAnchors::_ctor(::System::IntPtr pInterface) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pInterface);
 }
-inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ByRef<uint32_t> pHandleOut) {
+inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor(::StringW pchDescriptor, ::ByRef<uint32_t> pHandleOut) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "CreateSpatialAnchorFromDescriptor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRSpatialAnchorError, false>(this, ___internal_method, pchDescriptor, pHandleOut);
 }
 inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin,
-                                                                                                        ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ByRef<uint32_t> pHandleOut) {
+                                                                                                        ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPose, ::ByRef<uint32_t> pHandleOut) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "CreateSpatialAnchorFromPose", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRSpatialAnchorError, false>(this, ___internal_method, unDeviceIndex, eOrigin, pPose, pHandleOut);
 }
 inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose(uint32_t unHandle, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin,
-                                                                                                 ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut) {
+                                                                                                 ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t> pPoseOut) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "GetSpatialAnchorPose", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OVR::OpenVR::ETrackingUniverseOrigin>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRSpatialAnchorError, false>(this, ___internal_method, unHandle, eOrigin, pPoseOut);
 }
 inline ::OVR::OpenVR::EVRSpatialAnchorError OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor(uint32_t unHandle, ::System::Text::StringBuilder* pchDescriptorOut,
-                                                                                                       ByRef<uint32_t> punDescriptorBufferLenInOut) {
+                                                                                                       ::ByRef<uint32_t> punDescriptorBufferLenInOut) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRSpatialAnchors*>::get(), "GetSpatialAnchorDescriptor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::OVR::OpenVR::EVRSpatialAnchorError, false>(this, ___internal_method, unHandle, pchDescriptorOut, punDescriptorBufferLenInOut);
+}
+inline ::OVR::OpenVR::CVRSpatialAnchors* OVR::OpenVR::CVRSpatialAnchors::New_ctor(::System::IntPtr pInterface) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRSpatialAnchors*>(pInterface));
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRSpatialAnchors::CVRSpatialAnchors() {}

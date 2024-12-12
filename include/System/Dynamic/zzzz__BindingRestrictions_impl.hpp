@@ -14,154 +14,138 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 // Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode::__BindingRestrictions__TestBuilder__AndNode(int32_t Depth, ::System::Linq::Expressions::Expression* Node) noexcept {
+// Some("{}") }]
+constexpr ::System::Dynamic::TestBuilder_BindingRestrictions_AndNode::TestBuilder_BindingRestrictions_AndNode(int32_t Depth, ::System::Linq::Expressions::Expression* Node) noexcept {
   this->Depth = Depth;
   this->Node = Node;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode::__BindingRestrictions__TestBuilder__AndNode() {}
-//  Writing Method size for method: ::System::Dynamic::__BindingRestrictions__TestBuilder.Append
+constexpr ::System::Dynamic::TestBuilder_BindingRestrictions_AndNode::TestBuilder_BindingRestrictions_AndNode() {}
+//  Writing Method size for method: ::System::Dynamic::BindingRestrictions_TestBuilder.Append
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__TestBuilder::*)(::System::Dynamic::BindingRestrictions*)>(
-    &::System::Dynamic::__BindingRestrictions__TestBuilder::Append)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)(::System::Dynamic::BindingRestrictions*)>(
+    &::System::Dynamic::BindingRestrictions_TestBuilder::Append)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4098f4c;
+  constexpr static std::size_t addrs = 0x40fa260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::BindingRestrictions*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Dynamic::__BindingRestrictions__TestBuilder.ToExpression
+//  Writing Method size for method: ::System::Dynamic::BindingRestrictions_TestBuilder.ToExpression
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__TestBuilder::*)()>(
-    &::System::Dynamic::__BindingRestrictions__TestBuilder::ToExpression)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::BindingRestrictions_TestBuilder::*)()>(
+    &::System::Dynamic::BindingRestrictions_TestBuilder::ToExpression)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x409910c;
+  constexpr static std::size_t addrs = 0x40fa420;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
                                                                                "ToExpression", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Dynamic::__BindingRestrictions__TestBuilder.Push
+//  Writing Method size for method: ::System::Dynamic::BindingRestrictions_TestBuilder.Push
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__TestBuilder::*)(::System::Linq::Expressions::Expression*, int32_t)>(
-    &::System::Dynamic::__BindingRestrictions__TestBuilder::Push)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)(::System::Linq::Expressions::Expression*, int32_t)>(
+    &::System::Dynamic::BindingRestrictions_TestBuilder::Push)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4098fd8;
+  constexpr static std::size_t addrs = 0x40fa2ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Dynamic::__BindingRestrictions__TestBuilder._ctor
+//  Writing Method size for method: ::System::Dynamic::BindingRestrictions_TestBuilder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__TestBuilder::*)()>(
-    &::System::Dynamic::__BindingRestrictions__TestBuilder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)()>(
+    &::System::Dynamic::BindingRestrictions_TestBuilder::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40991e0;
+  constexpr static std::size_t addrs = 0x40fa4f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*& System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_get__unique() {
+constexpr ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*& System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_get__unique() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unique;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*> const&
-System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_get__unique() const {
+constexpr ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* const& System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_get__unique() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unique;
 }
-constexpr void System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_set__unique(::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* value) {
+constexpr void System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_set__unique(::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unique)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*& System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_get__tests() {
+constexpr ::System::Collections::Generic::Stack_1<::System::Dynamic::TestBuilder_BindingRestrictions_AndNode>*& System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_get__tests() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tests;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*> const&
-System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_get__tests() const {
+constexpr ::System::Collections::Generic::Stack_1<::System::Dynamic::TestBuilder_BindingRestrictions_AndNode>* const&
+System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_get__tests() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tests;
 }
 constexpr void
-System::Dynamic::__BindingRestrictions__TestBuilder::__cordl_internal_set__tests(::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>* value) {
+System::Dynamic::BindingRestrictions_TestBuilder::__cordl_internal_set__tests(::System::Collections::Generic::Stack_1<::System::Dynamic::TestBuilder_BindingRestrictions_AndNode>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tests)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Dynamic::__BindingRestrictions__TestBuilder::Append(::System::Dynamic::BindingRestrictions* restrictions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::BindingRestrictions*>::get() })));
+inline void System::Dynamic::BindingRestrictions_TestBuilder::Append(::System::Dynamic::BindingRestrictions* restrictions) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::BindingRestrictions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, restrictions);
 }
-inline ::System::Linq::Expressions::Expression* System::Dynamic::__BindingRestrictions__TestBuilder::ToExpression() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(),
+inline ::System::Linq::Expressions::Expression* System::Dynamic::BindingRestrictions_TestBuilder::ToExpression() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
                                                                              "ToExpression", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
 }
-inline void System::Dynamic::__BindingRestrictions__TestBuilder::Push(::System::Linq::Expressions::Expression* node, int32_t depth) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline void System::Dynamic::BindingRestrictions_TestBuilder::Push(::System::Linq::Expressions::Expression* node, int32_t depth) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(), "Push", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, depth);
 }
-inline ::System::Dynamic::__BindingRestrictions__TestBuilder* System::Dynamic::__BindingRestrictions__TestBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::__BindingRestrictions__TestBuilder*>());
-}
-inline void System::Dynamic::__BindingRestrictions__TestBuilder::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__BindingRestrictions__TestBuilder*>::get(),
+inline void System::Dynamic::BindingRestrictions_TestBuilder::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Dynamic::BindingRestrictions_TestBuilder* System::Dynamic::BindingRestrictions_TestBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::BindingRestrictions_TestBuilder*>());
+}
 // Ctor Parameters []
-constexpr ::System::Dynamic::__BindingRestrictions__TestBuilder::__BindingRestrictions__TestBuilder() {}
+constexpr ::System::Dynamic::BindingRestrictions_TestBuilder::BindingRestrictions_TestBuilder() {}
 // Ctor Parameters []
-constexpr ::System::Dynamic::__BindingRestrictions__BindingRestrictionsProxy::__BindingRestrictions__BindingRestrictionsProxy() {}
+constexpr ::System::Dynamic::BindingRestrictions_BindingRestrictionsProxy::BindingRestrictions_BindingRestrictionsProxy() {}
 //  Writing Method size for method: ::System::Dynamic::BindingRestrictions._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions::*)()>(&::System::Dynamic::BindingRestrictions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4098924;
+  constexpr static std::size_t addrs = 0x40f9c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Dynamic::BindingRestrictions.GetExpression
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::BindingRestrictions::*)()>(
-    &::System::Dynamic::BindingRestrictions::GetExpression)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), 4));
     return ___internal_method;
   }
 };
@@ -171,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::BindingRestrictions::*)(::System::Dynamic::BindingRestrictions*)>(&::System::Dynamic::BindingRestrictions::Merge)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x409892c;
+  constexpr static std::size_t addrs = 0x40f9c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4098a8c;
+  constexpr static std::size_t addrs = 0x40f9da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4098bb4;
+  constexpr static std::size_t addrs = 0x40f9ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::System::Object*)>(
     &::System::Dynamic::BindingRestrictions::GetInstanceRestriction)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4098cfc;
+  constexpr static std::size_t addrs = 0x40fa010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::BindingRestrictions::*)()>(
     &::System::Dynamic::BindingRestrictions::ToExpression)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4098e2c;
+  constexpr static std::size_t addrs = 0x40fa140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), "ToExpression",
@@ -247,9 +231,6 @@ inline void System::Dynamic::BindingRestrictions::setStaticF_Empty(::System::Dyn
 }
 inline ::System::Dynamic::BindingRestrictions* System::Dynamic::BindingRestrictions::getStaticF_Empty() {
   return ::cordl_internals::getStaticField<::System::Dynamic::BindingRestrictions*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get>();
-}
-inline ::System::Dynamic::BindingRestrictions* System::Dynamic::BindingRestrictions::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::BindingRestrictions*>());
 }
 inline void System::Dynamic::BindingRestrictions::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), ".ctor",
@@ -291,6 +272,9 @@ inline ::System::Linq::Expressions::Expression* System::Dynamic::BindingRestrict
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), "ToExpression",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method);
+}
+inline ::System::Dynamic::BindingRestrictions* System::Dynamic::BindingRestrictions::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::BindingRestrictions*>());
 }
 // Ctor Parameters []
 constexpr ::System::Dynamic::BindingRestrictions::BindingRestrictions() {}

@@ -11,63 +11,62 @@
 #include "GlobalNamespace/zzzz__SetSaberGlowColor_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair._ctor
+//  Writing Method size for method: ::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::*)()>(
-    &::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::*)()>(
+    &::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b86a00;
+  constexpr static std::size_t addrs = 0x3be8250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_get_tintColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_get_tintColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tintColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_get_tintColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_get_tintColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tintColor;
 }
-constexpr void GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_set_tintColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_set_tintColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tintColor = value;
 }
-constexpr ::StringW& GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_get_property() {
+constexpr ::StringW& GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_get_property() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
-constexpr ::StringW const& GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_get_property() const {
+constexpr ::StringW const& GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_get_property() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___property;
 }
-constexpr void GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__cordl_internal_set_property(::StringW value) {
+constexpr void GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::__cordl_internal_set_property(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___property)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair* GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>());
-}
-inline void GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair* GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair::__SetSaberGlowColor__PropertyTintColorPair() {}
+constexpr ::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair::SetSaberGlowColor_PropertyTintColorPair() {}
 //  Writing Method size for method: ::GlobalNamespace::SetSaberGlowColor.set_saberType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SetSaberGlowColor::set_saberType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b86350;
+  constexpr static std::size_t addrs = 0x3be7ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::Start)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b86978;
+  constexpr static std::size_t addrs = 0x3be81c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor*>::get(), "Start",
@@ -94,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::SetColors)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3b86864;
+  constexpr static std::size_t addrs = 0x3be80b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor*>::get(), "SetColors",
@@ -107,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SetSaberGlowColor::*)()>(&::GlobalNamespace::SetSaberGlowColor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b869f8;
+  constexpr static std::size_t addrs = 0x3be8248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor*>::get(), ".ctor",
@@ -139,18 +138,18 @@ constexpr void GlobalNamespace::SetSaberGlowColor::__cordl_internal_set__meshRen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>*>&
+constexpr ::ArrayW<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>*>&
 GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__propertyTintColorPairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyTintColorPairs;
 }
-constexpr ::ArrayW<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>*> const&
 GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__propertyTintColorPairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____propertyTintColorPairs;
 }
 constexpr void GlobalNamespace::SetSaberGlowColor::__cordl_internal_set__propertyTintColorPairs(
-    ::ArrayW<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*, ::Array<::GlobalNamespace::__SetSaberGlowColor__PropertyTintColorPair*>*> value) {
+    ::ArrayW<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*, ::Array<::GlobalNamespace::SetSaberGlowColor_PropertyTintColorPair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyTintColorPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -158,7 +157,7 @@ constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::SetSaberGlowColor::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__colorManager() const {
+constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
@@ -170,7 +169,7 @@ constexpr ::UnityEngine::MaterialPropertyBlock*& GlobalNamespace::SetSaberGlowCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlock;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__materialPropertyBlock() const {
+constexpr ::UnityEngine::MaterialPropertyBlock* const& GlobalNamespace::SetSaberGlowColor::__cordl_internal_get__materialPropertyBlock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlock;
 }
@@ -206,13 +205,13 @@ inline void GlobalNamespace::SetSaberGlowColor::SetColors() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SetSaberGlowColor* GlobalNamespace::SetSaberGlowColor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberGlowColor*>());
-}
 inline void GlobalNamespace::SetSaberGlowColor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SetSaberGlowColor*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SetSaberGlowColor* GlobalNamespace::SetSaberGlowColor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SetSaberGlowColor*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SetSaberGlowColor::SetSaberGlowColor() {}

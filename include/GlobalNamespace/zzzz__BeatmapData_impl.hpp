@@ -1,5 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapData.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_impl.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -8,7 +10,6 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInTimeRowProcessor_def.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -18,114 +19,111 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::*)(
-    ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::*)(
+    ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2680154;
+  constexpr static std::size_t addrs = 0x26b470c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem.CompareTo
+//  Writing Method size for method: ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem.CompareTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::*)(
-    ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*)>(&::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::CompareTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::*)(
+    ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*)>(&::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::CompareTo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2680894;
+  constexpr static std::size_t addrs = 0x26b4e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
-constexpr GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::operator ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*() noexcept {
-  return static_cast<::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>"
-constexpr ::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*
-GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::i___System__IComparable_1___GlobalNamespace____BeatmapData__BeatmapDataBinaryHeapItem__() noexcept {
-  return static_cast<::System::IComparable_1<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::__cordl_internal_get_node() {
+constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*& GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::__cordl_internal_get_node() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const&
-GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::__cordl_internal_get_node() const {
+constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* const& GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::__cordl_internal_get_node() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
-constexpr void GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::__cordl_internal_set_node(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value) {
+constexpr void GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::__cordl_internal_set_node(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___node)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*
-GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::New_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>(node));
-}
-inline void GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
+inline void GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-inline int32_t GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::CompareTo(::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem* other) {
+inline int32_t GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::CompareTo(::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, other);
 }
+inline ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*
+GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::New_ctor(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>(node));
+}
+/// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>"
+constexpr GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::operator ::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>*() noexcept {
+  return static_cast<::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>"
+constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>*
+GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::i___System__IComparable_1___GlobalNamespace__BeatmapData_BeatmapDataBinaryHeapItem__() noexcept {
+  return static_cast<::System::IComparable_1<::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem*>*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapData__BeatmapDataBinaryHeapItem::__BeatmapData__BeatmapDataBinaryHeapItem() {}
-template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() {
+constexpr ::GlobalNamespace::BeatmapData_BeatmapDataBinaryHeapItem::BeatmapData_BeatmapDataBinaryHeapItem() {}
+template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeGroupIdentifiers;
 }
-template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() const {
+template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::__cordl_internal_get_subtypeGroupIdentifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtypeGroupIdentifiers;
 }
-template <typename T> constexpr void GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::__cordl_internal_set_subtypeGroupIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+template <typename T> constexpr void GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::__cordl_internal_set_subtypeGroupIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___subtypeGroupIdentifiers, value);
 }
-template <typename T> inline ::GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>* GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>*>());
-}
-template <typename T> inline void GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename T> inline void GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline bool GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::_GetBeatmapDataItemsMerged_b__0(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* head) {
+inline bool GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::_GetBeatmapDataItemsMerged_b__0(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* head) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>*>::get(), "<GetBeatmapDataItemsMerged>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>*>::get(), "<GetBeatmapDataItemsMerged>b__0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, head);
 }
+template <typename T> inline ::GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>* GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::__BeatmapData____c__DisplayClass46_0_1<T>::__BeatmapData____c__DisplayClass46_0_1() {}
+template <typename T> constexpr ::GlobalNamespace::BeatmapData___c__DisplayClass46_0_1<T>::BeatmapData___c__DisplayClass46_0_1() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapData.get_updateAllBeatmapDataOnInsert
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_updateAllBeatmapDataOnInsert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f520;
+  constexpr static std::size_t addrs = 0x26b3ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(bool)>(&::GlobalNamespace::BeatmapData::set_updateAllBeatmapDataOnInsert)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x267f528;
+  constexpr static std::size_t addrs = 0x26b3ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_allBeatmapDataItems)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x267f534;
+  constexpr static std::size_t addrs = 0x26b3aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(),
@@ -167,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_areValid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x267f5d8;
+  constexpr static std::size_t addrs = 0x26b3b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "get_areValid",
@@ -180,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_numberOfLines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f5e8;
+  constexpr static std::size_t addrs = 0x26b3ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "get_numberOfLines",
@@ -193,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_cuttableNotesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f5f0;
+  constexpr static std::size_t addrs = 0x26b3ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "get_cuttableNotesCount",
@@ -206,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(int32_t)>(&::GlobalNamespace::BeatmapData::set_cuttableNotesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f5f8;
+  constexpr static std::size_t addrs = 0x26b3bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_obstaclesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f600;
+  constexpr static std::size_t addrs = 0x26b3bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "get_obstaclesCount",
@@ -233,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(int32_t)>(&::GlobalNamespace::BeatmapData::set_obstaclesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f608;
+  constexpr static std::size_t addrs = 0x26b3bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::get_bombsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f610;
+  constexpr static std::size_t addrs = 0x26b3bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "get_bombsCount",
@@ -260,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(int32_t)>(&::GlobalNamespace::BeatmapData::set_bombsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f618;
+  constexpr static std::size_t addrs = 0x26b3bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::GlobalNamespace::BeatmapData::*)()>(
     &::GlobalNamespace::BeatmapData::get_specialBasicBeatmapEventKeywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267f620;
+  constexpr static std::size_t addrs = 0x26b3bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +289,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*)>(
     &::GlobalNamespace::BeatmapData::add_beatmapEventDataWasInsertedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f628;
+  constexpr static std::size_t addrs = 0x26b3be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +306,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*)>(
     &::GlobalNamespace::BeatmapData::remove_beatmapEventDataWasInsertedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f6d8;
+  constexpr static std::size_t addrs = 0x26b3c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +323,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*)>(
     &::GlobalNamespace::BeatmapData::add_beatmapEventDataWillBeRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f788;
+  constexpr static std::size_t addrs = 0x26b3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -342,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*)>(
     &::GlobalNamespace::BeatmapData::remove_beatmapEventDataWillBeRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f838;
+  constexpr static std::size_t addrs = 0x26b3df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::System::Action_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::BeatmapData::add_beatmapEventDataWasRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f8e8;
+  constexpr static std::size_t addrs = 0x26b3ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -373,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::System::Action_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::BeatmapData::remove_beatmapEventDataWasRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x267f998;
+  constexpr static std::size_t addrs = 0x26b3f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -387,7 +385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(int32_t)>(&::GlobalNamespace::BeatmapData::_ctor)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x26757bc;
+  constexpr static std::size_t addrs = 0x26a9d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -402,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapData::*)(::StringW)>(
     &::GlobalNamespace::BeatmapData::IsBasicEventSpecialKeywordEnabled)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x267fa48;
+  constexpr static std::size_t addrs = 0x26b4000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::BeatmapData::AddBeatmapObjectData)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x26759ec;
+  constexpr static std::size_t addrs = 0x26a9f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -432,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::BeatmapData::AddBeatmapObjectDataInOrder)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2677464;
+  constexpr static std::size_t addrs = 0x26ab9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -447,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapData::InsertBeatmapEventData)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2675950;
+  constexpr static std::size_t addrs = 0x26a9ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapData::InsertBeatmapEventDataInOrder)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x267740c;
+  constexpr static std::size_t addrs = 0x26ab99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -477,7 +475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapEventData*)>(
     &::GlobalNamespace::BeatmapData::RemoveBeatmapEventData)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x267fc74;
+  constexpr static std::size_t addrs = 0x26b422c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)(::StringW)>(
     &::GlobalNamespace::BeatmapData::AddSpecialBasicBeatmapEventKeyword)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26775cc;
+  constexpr static std::size_t addrs = 0x26abb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::ProcessRemainingData)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x267fdf0;
+  constexpr static std::size_t addrs = 0x26b43a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "ProcessRemainingData",
@@ -519,7 +517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::ProcessAndSortBeatmapData)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x267fe0c;
+  constexpr static std::size_t addrs = 0x26b43c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(),
@@ -532,7 +530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (::GlobalNamespace::BeatmapData::*)()>(&::GlobalNamespace::BeatmapData::GetCopy)> {
   constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x268017c;
+  constexpr static std::size_t addrs = 0x26b4734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), "GetCopy",
@@ -546,7 +544,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapData* (
     ::GlobalNamespace::BeatmapData::*)(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::BeatmapData::GetFilteredCopy)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x26804f8;
+  constexpr static std::size_t addrs = 0x26b4ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -563,7 +561,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapData::*)(::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(
     &::GlobalNamespace::BeatmapData::InsertToAllBeatmapData)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x267faa0;
+  constexpr static std::size_t addrs = 0x26b4058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,14 +571,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapData"
-constexpr GlobalNamespace::BeatmapData::operator ::GlobalNamespace::IReadonlyBeatmapData*() noexcept {
-  return static_cast<::GlobalNamespace::IReadonlyBeatmapData*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapData"
-constexpr ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapData::i___GlobalNamespace__IReadonlyBeatmapData() noexcept {
-  return static_cast<::GlobalNamespace::IReadonlyBeatmapData*>(static_cast<void*>(this));
-}
 constexpr bool& GlobalNamespace::BeatmapData::__cordl_internal_get__updateAllBeatmapDataOnInsert_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateAllBeatmapDataOnInsert_k__BackingField;
@@ -634,7 +624,7 @@ GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWasInsertedEv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWasInsertedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* const&
 GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWasInsertedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWasInsertedEvent;
@@ -649,7 +639,7 @@ GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWillBeRemoved
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWillBeRemovedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* const&
 GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWillBeRemovedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWillBeRemovedEvent;
@@ -663,8 +653,7 @@ constexpr ::System::Action_1<::GlobalNamespace::BeatmapEventData*>*& GlobalNames
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWasRemovedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BeatmapEventData*>*> const&
-GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWasRemovedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::BeatmapEventData*>* const& GlobalNamespace::BeatmapData::__cordl_internal_get_beatmapEventDataWasRemovedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataWasRemovedEvent;
 }
@@ -676,8 +665,7 @@ constexpr ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allBeatmapData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>*> const&
-GlobalNamespace::BeatmapData::__cordl_internal_get__allBeatmapData() const {
+constexpr ::GlobalNamespace::ISortedList_1<::GlobalNamespace::BeatmapDataItem*>* const& GlobalNamespace::BeatmapData::__cordl_internal_get__allBeatmapData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allBeatmapData;
 }
@@ -690,8 +678,7 @@ GlobalNamespace::BeatmapData::__cordl_internal_get__allBeatmapDataItemToNodeMap(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allBeatmapDataItemToNodeMap;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BeatmapDataItem*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* const&
 GlobalNamespace::BeatmapData::__cordl_internal_get__allBeatmapDataItemToNodeMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allBeatmapDataItemToNodeMap;
@@ -705,7 +692,7 @@ constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamesp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataItemsPerTypeAndId;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>*> const&
+constexpr ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<::GlobalNamespace::BeatmapDataItem*>* const&
 GlobalNamespace::BeatmapData::__cordl_internal_get__beatmapDataItemsPerTypeAndId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataItemsPerTypeAndId;
@@ -730,8 +717,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialBasicBeatmapEventKeywords;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const&
-GlobalNamespace::BeatmapData::__cordl_internal_get__specialBasicBeatmapEventKeywords() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::BeatmapData::__cordl_internal_get__specialBasicBeatmapEventKeywords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialBasicBeatmapEventKeywords;
 }
@@ -743,8 +729,7 @@ constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*& GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectsInTimeRowProcessor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*> const&
-GlobalNamespace::BeatmapData::__cordl_internal_get__beatmapObjectsInTimeRowProcessor() const {
+constexpr ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* const& GlobalNamespace::BeatmapData::__cordl_internal_get__beatmapObjectsInTimeRowProcessor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectsInTimeRowProcessor;
 }
@@ -885,9 +870,6 @@ inline void GlobalNamespace::BeatmapData::remove_beatmapEventDataWasRemovedEvent
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapEventData*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::BeatmapData* GlobalNamespace::BeatmapData::New_ctor(int32_t numberOfLines) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapData*>(numberOfLines));
-}
 inline void GlobalNamespace::BeatmapData::_ctor(int32_t numberOfLines) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -993,7 +975,6 @@ inline ::GlobalNamespace::BeatmapData* GlobalNamespace::BeatmapData::GetFiltered
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapData*, false>(this, ___internal_method, processDataItem);
 }
-/// @param node: ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* (default: nullptr)
 inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*
 GlobalNamespace::BeatmapData::InsertToAllBeatmapData(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1001,6 +982,17 @@ GlobalNamespace::BeatmapData::InsertToAllBeatmapData(::GlobalNamespace::BeatmapD
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*, false>(this, ___internal_method, beatmapDataItem, node);
+}
+inline ::GlobalNamespace::BeatmapData* GlobalNamespace::BeatmapData::New_ctor(int32_t numberOfLines) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapData*>(numberOfLines));
+}
+/// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapData"
+constexpr GlobalNamespace::BeatmapData::operator ::GlobalNamespace::IReadonlyBeatmapData*() noexcept {
+  return static_cast<::GlobalNamespace::IReadonlyBeatmapData*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapData"
+constexpr ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapData::i___GlobalNamespace__IReadonlyBeatmapData() noexcept {
+  return static_cast<::GlobalNamespace::IReadonlyBeatmapData*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapData::BeatmapData() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RandomObjectPicker_1)
 // Forward declare root types
@@ -13,13 +12,12 @@ template <typename T> class RandomObjectPicker_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RandomObjectPicker_1);
-// Type: ::RandomObjectPicker`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::RandomObjectPicker`1<T>*
+// CS Name: RandomObjectPicker`1<T>
 class CORDL_TYPE RandomObjectPicker_1 : public ::System::Object {
 public:
   // Declarations
@@ -77,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RandomObjectPicker_1(RandomObjectPicker_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16425 };
+
   /// @brief Field _objects, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____objects;
 
@@ -85,9 +86,6 @@ public:
 
   /// @brief Field _minimumPickInterval, offset: 0x1c, size: 0x4, def value: None
   float_t ____minimumPickInterval;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

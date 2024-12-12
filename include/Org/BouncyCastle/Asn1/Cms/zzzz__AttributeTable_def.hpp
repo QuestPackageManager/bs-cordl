@@ -36,11 +36,10 @@ class AttributeTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AttributeTable);
-// Type: Org.BouncyCastle.Asn1.Cms::AttributeTable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::AttributeTable*
+// CS Name: Org.BouncyCastle.Asn1.Cms.AttributeTable
 class CORDL_TYPE AttributeTable : public ::System::Object {
 public:
   // Declarations
@@ -51,16 +50,16 @@ public:
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
-  /// @brief Method Add, addr 0x22cb8cc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x22febb8, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Add(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType, ::Org::BouncyCastle::Asn1::Asn1Encodable* attrValue);
 
-  /// @brief Method AddAttribute, addr 0x22ca174, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x22fd460, size 0x348, virtual false, abstract: false, final false
   inline void AddAttribute(::Org::BouncyCastle::Asn1::Cms::Attribute* a);
 
-  /// @brief Method Get, addr 0x22ca7b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x22fdaa4, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attribute* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetAll, addr 0x22ca7bc, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method GetAll, addr 0x22fdaa8, size 0x4b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* GetAll(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
@@ -73,46 +72,46 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method Remove, addr 0x22cb9ac, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x22fec98, size 0xec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* Remove(::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType);
 
-  /// @brief Method ToAsn1EncodableVector, addr 0x22cb198, size 0x6cc, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1EncodableVector, addr 0x22fe484, size 0x6cc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector();
 
-  /// @brief Method ToAttributes, addr 0x22cb864, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ToAttributes, addr 0x22feb50, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* ToAttributes();
 
-  /// @brief Method ToDictionary, addr 0x22cb0dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x22fe3c8, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
-  /// @brief Method ToHashtable, addr 0x22cb138, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToHashtable, addr 0x22fe424, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
+
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_attributes() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
-
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x22ca5a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd890, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::Attributes* attrs);
 
-  /// @brief Method .ctor, addr 0x22c9d68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd054, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
-  /// @brief Method .ctor, addr 0x22c9de0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd0cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x22ca4bc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd7a8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method .ctor, addr 0x22c9e58, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fd144, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method get_Count, addr 0x22cac70, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x22fdf5c, size 0x46c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x22ca5e0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x22fd8cc, size 0x1d8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attribute* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
 protected:
@@ -129,18 +128,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeTable(AttributeTable const&) = delete;
 
-  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___attributes;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 57 };
+
+  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::IDictionary* ___attributes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::AttributeTable, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::AttributeTable, ___attributes) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::AttributeTable, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::AttributeTable);

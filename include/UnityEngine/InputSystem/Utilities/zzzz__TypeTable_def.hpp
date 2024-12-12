@@ -23,101 +23,99 @@ namespace UnityEngine::InputSystem::Utilities {
 struct InternedString;
 }
 namespace UnityEngine::InputSystem::Utilities {
-class __TypeTable____c;
+class TypeTable___c;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-class __TypeTable____c;
+class TypeTable___c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct TypeTable;
 }
 // Write type traits
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__TypeTable____c);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TypeTable___c);
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::TypeTable);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::TypeTable::<>c*
-class CORDL_TYPE __TypeTable____c : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.TypeTable/<>c
+class CORDL_TYPE TypeTable___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Utilities::__TypeTable____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Utilities::TypeTable___c* __9;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__2_0;
+  __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__2_0;
 
-  static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* New_ctor();
+  static inline ::UnityEngine::InputSystem::Utilities::TypeTable___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4510510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4571824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_names>b__2_0, addr 0x4510518, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_names>b__2_0, addr 0x457182c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _get_names_b__2_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  static inline ::UnityEngine::InputSystem::Utilities::__TypeTable____c* getStaticF___9();
+  static inline ::UnityEngine::InputSystem::Utilities::TypeTable___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9(::UnityEngine::InputSystem::Utilities::__TypeTable____c* value);
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Utilities::TypeTable___c* value);
 
   static inline void setStaticF___9__2_0(::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypeTable____c();
+  constexpr TypeTable___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeTable____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypeTable____c(__TypeTable____c&&) = delete;
+  TypeTable___c(TypeTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypeTable____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypeTable___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypeTable____c(__TypeTable____c const&) = delete;
+  TypeTable___c(TypeTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7117 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::__TypeTable____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::TypeTable___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::TypeTable
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::TypeTable
+// CS Name: UnityEngine.InputSystem.Utilities.TypeTable
 struct CORDL_TYPE TypeTable {
 public:
   // Declarations
-  using __c = ::UnityEngine::InputSystem::Utilities::__TypeTable____c;
+  using __c = ::UnityEngine::InputSystem::Utilities::TypeTable___c;
 
   __declspec(property(get = get_internedNames)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* internedNames;
 
   __declspec(property(get = get_names)) ::System::Collections::Generic::IEnumerable_1<::StringW>* names;
 
-  /// @brief Method AddTypeRegistration, addr 0x4510260, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddTypeRegistration, addr 0x4571574, size 0x160, virtual false, abstract: false, final false
   inline void AddTypeRegistration(::StringW name, ::System::Type* type);
 
-  /// @brief Method FindNameForType, addr 0x4510044, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method FindNameForType, addr 0x4571358, size 0x21c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindNameForType(::System::Type* type);
 
-  /// @brief Method Initialize, addr 0x450ffd0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45712e4, size 0x74, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LookupTypeRegistration, addr 0x45103c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LookupTypeRegistration, addr 0x45716d4, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Type* LookupTypeRegistration(::StringW name);
 
-  /// @brief Method get_internedNames, addr 0x450ff80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_internedNames, addr 0x4571294, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_internedNames();
 
-  /// @brief Method get_names, addr 0x450fe5c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method get_names, addr 0x4571170, size 0x124, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_names();
 
   // Ctor Parameters []
@@ -128,23 +126,23 @@ public:
   // None }]
   constexpr TypeTable(::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table) noexcept;
 
-  /// @brief Field table, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field table, offset: 0x0, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* table;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::TypeTable, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Utilities::TypeTable, table) == 0x0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::TypeTable, 0x8>, "Size mismatch!");
+
 } // namespace UnityEngine::InputSystem::Utilities
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::__TypeTable____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::__TypeTable____c*, "UnityEngine.InputSystem.Utilities", "TypeTable/<>c");
+NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::TypeTable___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::TypeTable___c*, "UnityEngine.InputSystem.Utilities", "TypeTable/<>c");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::TypeTable, "UnityEngine.InputSystem.Utilities", "TypeTable");

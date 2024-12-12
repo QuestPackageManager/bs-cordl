@@ -9,84 +9,83 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__SendMouseEvents_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::__SendMouseEvents__HitInfo.SendMessage
+//  Writing Method size for method: ::UnityEngine::SendMouseEvents_HitInfo.SendMessage
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__SendMouseEvents__HitInfo::*)(::StringW)>(
-    &::UnityEngine::__SendMouseEvents__HitInfo::SendMessage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SendMouseEvents_HitInfo::*)(::StringW)>(&::UnityEngine::SendMouseEvents_HitInfo::SendMessage)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x488584c;
+  constexpr static std::size_t addrs = 0x48e9edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "SendMessage", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "SendMessage", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::__SendMouseEvents__HitInfo.op_Implicit_bool
+//  Writing Method size for method: ::UnityEngine::SendMouseEvents_HitInfo.op_Implicit_bool
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::__SendMouseEvents__HitInfo)>(&::UnityEngine::__SendMouseEvents__HitInfo::op_Implicit_bool)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents_HitInfo::op_Implicit_bool)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48857ac;
+  constexpr static std::size_t addrs = 0x48e9e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::__SendMouseEvents__HitInfo.Compare
+//  Writing Method size for method: ::UnityEngine::SendMouseEvents_HitInfo.Compare
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::__SendMouseEvents__HitInfo, ::UnityEngine::__SendMouseEvents__HitInfo)>(
-    &::UnityEngine::__SendMouseEvents__HitInfo::Compare)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo, ::UnityEngine::SendMouseEvents_HitInfo)>(
+    &::UnityEngine::SendMouseEvents_HitInfo::Compare)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4885870;
+  constexpr static std::size_t addrs = 0x48e9f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::__SendMouseEvents__HitInfo::SendMessage(::StringW name) {
+inline void UnityEngine::SendMouseEvents_HitInfo::SendMessage(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "SendMessage", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "SendMessage", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
-inline bool UnityEngine::__SendMouseEvents__HitInfo::op_Implicit_bool(::UnityEngine::__SendMouseEvents__HitInfo exists) {
+inline bool UnityEngine::SendMouseEvents_HitInfo::op_Implicit_bool(::UnityEngine::SendMouseEvents_HitInfo exists) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, exists);
 }
-inline bool UnityEngine::__SendMouseEvents__HitInfo::Compare(::UnityEngine::__SendMouseEvents__HitInfo lhs, ::UnityEngine::__SendMouseEvents__HitInfo rhs) {
+inline bool UnityEngine::SendMouseEvents_HitInfo::Compare(::UnityEngine::SendMouseEvents_HitInfo lhs, ::UnityEngine::SendMouseEvents_HitInfo rhs) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__SendMouseEvents__HitInfo>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents_HitInfo>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
 }
-// Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
-// modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::__SendMouseEvents__HitInfo::__SendMouseEvents__HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept {
+// Ctor Parameters [CppParam { name: "target", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: Some("{}") }, CppParam { name: "camera", ty: "::UnityW<::UnityEngine::Camera>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::SendMouseEvents_HitInfo::SendMouseEvents_HitInfo(::UnityW<::UnityEngine::GameObject> target, ::UnityW<::UnityEngine::Camera> camera) noexcept {
   this->target = target;
   this->camera = camera;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__SendMouseEvents__HitInfo::__SendMouseEvents__HitInfo() {}
+constexpr ::UnityEngine::SendMouseEvents_HitInfo::SendMouseEvents_HitInfo() {}
 //  Writing Method size for method: ::UnityEngine::SendMouseEvents.UpdateMouse
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::UpdateMouse)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x48847fc;
+  constexpr static std::size_t addrs = 0x48e8e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "UpdateMouse",
@@ -99,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::SetMouseMoved)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48849c0;
+  constexpr static std::size_t addrs = 0x48e9050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "SetMouseMoved",
@@ -112,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::SendMouseEvents::DoSendMouseEvents)> {
   constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x4884a1c;
+  constexpr static std::size_t addrs = 0x48e90ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,15 +123,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::SendMouseEvents.SendEvents
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::__SendMouseEvents__HitInfo)>(&::UnityEngine::SendMouseEvents::SendEvents)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents::SendEvents)> {
   constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x4885384;
+  constexpr static std::size_t addrs = 0x48e9a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "SendEvents", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
     return ___internal_method;
   }
 };
@@ -142,31 +141,31 @@ inline void UnityEngine::SendMouseEvents::setStaticF_s_MouseUsed(bool value) {
 inline bool UnityEngine::SendMouseEvents::getStaticF_s_MouseUsed() {
   return ::cordl_internals::getStaticField<bool, "s_MouseUsed", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>();
 }
-inline void UnityEngine::SendMouseEvents::setStaticF_m_LastHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_LastHit",
+inline void UnityEngine::SendMouseEvents::setStaticF_m_LastHit(::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_LastHit",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>(
-      std::forward<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>>(value));
+      std::forward<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_LastHit() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_LastHit",
+inline ::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_LastHit() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_LastHit",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>();
 }
-inline void UnityEngine::SendMouseEvents::setStaticF_m_MouseDownHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_MouseDownHit",
+inline void UnityEngine::SendMouseEvents::setStaticF_m_MouseDownHit(::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_MouseDownHit",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>(
-      std::forward<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>>(value));
+      std::forward<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_MouseDownHit() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_MouseDownHit",
+inline ::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_MouseDownHit() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_MouseDownHit",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>();
 }
-inline void UnityEngine::SendMouseEvents::setStaticF_m_CurrentHit(::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_CurrentHit",
+inline void UnityEngine::SendMouseEvents::setStaticF_m_CurrentHit(::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_CurrentHit",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>(
-      std::forward<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>>(value));
+      std::forward<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_CurrentHit() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::__SendMouseEvents__HitInfo, ::Array<::UnityEngine::__SendMouseEvents__HitInfo>*>, "m_CurrentHit",
+inline ::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*> UnityEngine::SendMouseEvents::getStaticF_m_CurrentHit() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::SendMouseEvents_HitInfo, ::Array<::UnityEngine::SendMouseEvents_HitInfo>*>, "m_CurrentHit",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get>();
 }
 inline void UnityEngine::SendMouseEvents::setStaticF_m_Cameras(::ArrayW<::UnityW<::UnityEngine::Camera>, ::Array<::UnityW<::UnityEngine::Camera>>*> value) {
@@ -222,11 +221,11 @@ inline void UnityEngine::SendMouseEvents::DoSendMouseEvents(int32_t skipRTCamera
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, skipRTCameras);
 }
-inline void UnityEngine::SendMouseEvents::SendEvents(int32_t i, ::UnityEngine::__SendMouseEvents__HitInfo hit) {
+inline void UnityEngine::SendMouseEvents::SendEvents(int32_t i, ::UnityEngine::SendMouseEvents_HitInfo hit) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "SendEvents", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::__SendMouseEvents__HitInfo>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SendMouseEvents_HitInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, i, hit);
 }
 // Ctor Parameters []

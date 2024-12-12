@@ -12,11 +12,10 @@ struct EVRApplicationType;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRApplicationType);
-// Type: OVR.OpenVR::EVRApplicationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRApplicationType
+// CS Name: OVR.OpenVR.EVRApplicationType
 struct CORDL_TYPE EVRApplicationType {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRApplicationType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field VRApplication_Background value: static_cast<int32_t>(0x3)
+  /// @brief Field VRApplication_Background value: I32(3)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Background;
 
-  /// @brief Field VRApplication_Bootstrapper value: static_cast<int32_t>(0x7)
+  /// @brief Field VRApplication_Bootstrapper value: I32(7)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Bootstrapper;
 
-  /// @brief Field VRApplication_Max value: static_cast<int32_t>(0x8)
+  /// @brief Field VRApplication_Max value: I32(8)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Max;
 
-  /// @brief Field VRApplication_Other value: static_cast<int32_t>(0x0)
+  /// @brief Field VRApplication_Other value: I32(0)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Other;
 
-  /// @brief Field VRApplication_Overlay value: static_cast<int32_t>(0x2)
+  /// @brief Field VRApplication_Overlay value: I32(2)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Overlay;
 
-  /// @brief Field VRApplication_Scene value: static_cast<int32_t>(0x1)
+  /// @brief Field VRApplication_Scene value: I32(1)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Scene;
 
-  /// @brief Field VRApplication_SteamWatchdog value: static_cast<int32_t>(0x6)
+  /// @brief Field VRApplication_SteamWatchdog value: I32(6)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_SteamWatchdog;
 
-  /// @brief Field VRApplication_Utility value: static_cast<int32_t>(0x4)
+  /// @brief Field VRApplication_Utility value: I32(4)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_Utility;
 
-  /// @brief Field VRApplication_VRMonitor value: static_cast<int32_t>(0x5)
+  /// @brief Field VRApplication_VRMonitor value: I32(5)
   static ::OVR::OpenVR::EVRApplicationType const VRApplication_VRMonitor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8916 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRApplicationType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationType, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationType, "OVR.OpenVR", "EVRApplicationType");

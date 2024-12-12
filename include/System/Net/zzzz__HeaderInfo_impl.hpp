@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HeaderInfo::*)(::StringW, bool, bool, bool, ::System::Net::HeaderParser*)>(
     &::System::Net::HeaderInfo::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4446024;
+  constexpr static std::size_t addrs = 0x44a7338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ constexpr ::System::Net::HeaderParser*& System::Net::HeaderInfo::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parser;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HeaderParser*> const& System::Net::HeaderInfo::__cordl_internal_get_Parser() const {
+constexpr ::System::Net::HeaderParser* const& System::Net::HeaderInfo::__cordl_internal_get_Parser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Parser;
 }
@@ -80,9 +80,6 @@ constexpr void System::Net::HeaderInfo::__cordl_internal_set_AllowMultiValues(bo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___AllowMultiValues = value;
 }
-inline ::System::Net::HeaderInfo* System::Net::HeaderInfo::New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HeaderInfo*>(name, requestRestricted, responseRestricted, multi, p));
-}
 inline void System::Net::HeaderInfo::_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HeaderInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -90,6 +87,9 @@ inline void System::Net::HeaderInfo::_ctor(::StringW name, bool requestRestricte
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HeaderParser*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, requestRestricted, responseRestricted, multi, p);
+}
+inline ::System::Net::HeaderInfo* System::Net::HeaderInfo::New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HeaderInfo*>(name, requestRestricted, responseRestricted, multi, p));
 }
 // Ctor Parameters []
 constexpr ::System::Net::HeaderInfo::HeaderInfo() {}

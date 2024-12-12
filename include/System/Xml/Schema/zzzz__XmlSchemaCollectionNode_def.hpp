@@ -18,11 +18,10 @@ class XmlSchemaCollectionNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaCollectionNode);
-// Type: System.Xml.Schema::XmlSchemaCollectionNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaCollectionNode*
+// CS Name: System.Xml.Schema.XmlSchemaCollectionNode
 class CORDL_TYPE XmlSchemaCollectionNode : public ::System::Object {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_namespaceUri();
 
+  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_schema() const;
+
   constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_schema();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& __cordl_internal_get_schema() const;
+  constexpr ::System::Xml::Schema::SchemaInfo* const& __cordl_internal_get_schemaInfo() const;
 
   constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_schemaInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __cordl_internal_get_schemaInfo() const;
 
   constexpr void __cordl_internal_set_namespaceUri(::StringW value);
 
@@ -61,22 +60,22 @@ public:
 
   constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  /// @brief Method .ctor, addr 0x42587c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9adc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Schema, addr 0x4258934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Schema, addr 0x42b9c48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Schema();
 
-  /// @brief Method get_SchemaInfo, addr 0x4258924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaInfo, addr 0x42b9c38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_SchemaInfo();
 
-  /// @brief Method set_NamespaceURI, addr 0x425891c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NamespaceURI, addr 0x42b9c30, size 0x8, virtual false, abstract: false, final false
   inline void set_NamespaceURI(::StringW value);
 
-  /// @brief Method set_Schema, addr 0x425893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Schema, addr 0x42b9c50, size 0x8, virtual false, abstract: false, final false
   inline void set_Schema(::System::Xml::Schema::XmlSchema* value);
 
-  /// @brief Method set_SchemaInfo, addr 0x425892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaInfo, addr 0x42b9c40, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
 protected:
@@ -93,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaCollectionNode(XmlSchemaCollectionNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7656 };
+
   /// @brief Field namespaceUri, offset: 0x10, size: 0x8, def value: None
   ::StringW ___namespaceUri;
 
@@ -102,19 +104,16 @@ public:
   /// @brief Field schema, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ___schema;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7631 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCollectionNode, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollectionNode, ___namespaceUri) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollectionNode, ___schemaInfo) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollectionNode, ___schema) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCollectionNode, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaCollectionNode);

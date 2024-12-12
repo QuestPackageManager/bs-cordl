@@ -9,23 +9,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TreeInstance)
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine {
 struct TreeInstance;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TreeInstance);
-// Type: UnityEngine::TreeInstance
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::TreeInstance
+// CS Name: UnityEngine.TreeInstance
 struct CORDL_TYPE TreeInstance {
 public:
   // Declarations
@@ -39,6 +32,12 @@ public:
   // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "temporaryDistance", ty: "float_t", modifiers: "", def_value: None }]
   constexpr TreeInstance(::UnityEngine::Vector3 position, float_t widthScale, float_t heightScale, float_t rotation, ::UnityEngine::Color32 color, ::UnityEngine::Color32 lightmapColor,
                          int32_t prototypeIndex, float_t temporaryDistance) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18126 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -64,17 +63,9 @@ public:
   /// @brief Field temporaryDistance, offset: 0x24, size: 0x4, def value: None
   float_t temporaryDistance;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18046 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TreeInstance, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TreeInstance, position) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TreeInstance, widthScale) == 0xc, "Offset mismatch!");
@@ -90,6 +81,8 @@ static_assert(offsetof(::UnityEngine::TreeInstance, lightmapColor) == 0x1c, "Off
 static_assert(offsetof(::UnityEngine::TreeInstance, prototypeIndex) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TreeInstance, temporaryDistance) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TreeInstance, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TreeInstance, "UnityEngine", "TreeInstance");

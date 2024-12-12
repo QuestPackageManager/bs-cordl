@@ -14,15 +14,14 @@ struct FontAssetCreationSettings;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::FontAssetCreationSettings);
-// Type: TMPro::FontAssetCreationSettings
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 101, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::FontAssetCreationSettings
+// CS Name: TMPro.FontAssetCreationSettings
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47719e8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d2cfc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 
@@ -41,6 +40,12 @@ public:
   constexpr FontAssetCreationSettings(::StringW sourceFontFileName, ::StringW sourceFontFileGUID, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding, int32_t packingMode,
                                       int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence, ::StringW referencedFontAssetGUID,
                                       ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode, bool includeFontFeatures) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14476 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
   /// @brief Field sourceFontFileName, offset: 0x0, size: 0x8, def value: None
   ::StringW sourceFontFileName;
@@ -90,17 +95,9 @@ public:
   /// @brief Field includeFontFeatures, offset: 0x54, size: 0x1, def value: None
   bool includeFontFeatures;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14442 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::FontAssetCreationSettings, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileName) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileGUID) == 0x8, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyleModifier) ==
 static_assert(offsetof(::TMPro::FontAssetCreationSettings, renderMode) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::FontAssetCreationSettings, includeFontFeatures) == 0x54, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::FontAssetCreationSettings, 0x58>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");

@@ -1,25 +1,24 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_ShelfToolData.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::__HEU_ShelfToolData__ToolType(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType::HEU_ShelfToolData_ToolType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::__HEU_ShelfToolData__ToolType() {}
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::GENERATOR{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::OPERATOR_SINGLE{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::OPERATOR_MULTI{ static_cast<int32_t>(0x2) };
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType HoudiniEngineUnity::__HEU_ShelfToolData__ToolType::BATCH{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType::HEU_ShelfToolData_ToolType() {}
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType HoudiniEngineUnity::HEU_ShelfToolData_ToolType::GENERATOR{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType HoudiniEngineUnity::HEU_ShelfToolData_ToolType::OPERATOR_SINGLE{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType HoudiniEngineUnity::HEU_ShelfToolData_ToolType::OPERATOR_MULTI{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType HoudiniEngineUnity::HEU_ShelfToolData_ToolType::BATCH{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_ShelfToolData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ShelfToolData::*)()>(&::HoudiniEngineUnity::HEU_ShelfToolData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3a2ee4c;
+  constexpr static std::size_t addrs = 0x3a85abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfToolData*>::get(), ".ctor",
@@ -39,15 +38,15 @@ constexpr void HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_set__name
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType& HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_get__toolType() {
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType& HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_get__toolType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toolType;
 }
-constexpr ::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType const& HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_get__toolType() const {
+constexpr ::HoudiniEngineUnity::HEU_ShelfToolData_ToolType const& HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_get__toolType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toolType;
 }
-constexpr void HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_set__toolType(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType value) {
+constexpr void HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_set__toolType(::HoudiniEngineUnity::HEU_ShelfToolData_ToolType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____toolType = value;
 }
@@ -123,13 +122,13 @@ constexpr void HoudiniEngineUnity::HEU_ShelfToolData::__cordl_internal_set__json
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jsonPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_ShelfToolData* HoudiniEngineUnity::HEU_ShelfToolData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ShelfToolData*>());
-}
 inline void HoudiniEngineUnity::HEU_ShelfToolData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ShelfToolData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_ShelfToolData* HoudiniEngineUnity::HEU_ShelfToolData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ShelfToolData*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ShelfToolData::HEU_ShelfToolData() {}

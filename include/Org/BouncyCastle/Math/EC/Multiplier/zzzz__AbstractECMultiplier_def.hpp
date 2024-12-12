@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AbstractECMultiplier)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class ECMultiplier;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -20,29 +18,28 @@ class AbstractECMultiplier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier);
-// Type: Org.BouncyCastle.Math.EC.Multiplier::AbstractECMultiplier
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier, System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::AbstractECMultiplier*
+// CS Name: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
 class CORDL_TYPE AbstractECMultiplier : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*() noexcept;
 
-  /// @brief Method CheckResult, addr 0x2482774, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x24b5a60, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method Multiply, addr 0x2482698, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x24b5984, size 0xdc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MultiplyPositive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MultiplyPositive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2482780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b5a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"

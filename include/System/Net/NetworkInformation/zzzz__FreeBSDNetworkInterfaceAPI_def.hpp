@@ -11,17 +11,16 @@ class FreeBSDNetworkInterfaceAPI;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI);
-// Type: System.Net.NetworkInformation::FreeBSDNetworkInterfaceAPI
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.MacOsNetworkInterfaceAPI
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::FreeBSDNetworkInterfaceAPI*
+// CS Name: System.Net.NetworkInformation.FreeBSDNetworkInterfaceAPI
 class CORDL_TYPE FreeBSDNetworkInterfaceAPI : public ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4388fb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ea2cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   FreeBSDNetworkInterfaceAPI(FreeBSDNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

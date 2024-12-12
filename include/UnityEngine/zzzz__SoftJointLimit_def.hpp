@@ -12,11 +12,10 @@ struct SoftJointLimit;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::SoftJointLimit);
-// Type: UnityEngine::SoftJointLimit
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::SoftJointLimit
+// CS Name: UnityEngine.SoftJointLimit
 struct CORDL_TYPE SoftJointLimit {
 public:
   // Declarations
@@ -32,40 +31,40 @@ public:
 
   __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method get_bounciness, addr 0x488e5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bounciness, addr 0x48f2c4c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bounciness();
 
-  /// @brief Method get_bouncyness, addr 0x488e5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bouncyness, addr 0x48f2c84, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bouncyness();
 
-  /// @brief Method get_contactDistance, addr 0x488e5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactDistance, addr 0x48f2c5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_contactDistance();
 
-  /// @brief Method get_damper, addr 0x488e5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x48f2c78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_limit, addr 0x488e5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x48f2c3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_spring, addr 0x488e5dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x48f2c6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method set_bounciness, addr 0x488e5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bounciness, addr 0x48f2c54, size 0x8, virtual false, abstract: false, final false
   inline void set_bounciness(float_t value);
 
-  /// @brief Method set_bouncyness, addr 0x488e5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bouncyness, addr 0x48f2c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_bouncyness(float_t value);
 
-  /// @brief Method set_contactDistance, addr 0x488e5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contactDistance, addr 0x48f2c64, size 0x8, virtual false, abstract: false, final false
   inline void set_contactDistance(float_t value);
 
-  /// @brief Method set_damper, addr 0x488e5f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x48f2c80, size 0x4, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_limit, addr 0x488e5b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_limit, addr 0x48f2c44, size 0x8, virtual false, abstract: false, final false
   inline void set_limit(float_t value);
 
-  /// @brief Method set_spring, addr 0x488e5e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x48f2c74, size 0x4, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
   // Ctor Parameters []
@@ -76,6 +75,12 @@ public:
   // "m_ContactDistance", ty: "float_t", modifiers: "", def_value: None }]
   constexpr SoftJointLimit(float_t m_Limit, float_t m_Bounciness, float_t m_ContactDistance) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15712 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field m_Limit, offset: 0x0, size: 0x4, def value: None
   float_t m_Limit;
 
@@ -85,22 +90,16 @@ public:
   /// @brief Field m_ContactDistance, offset: 0x8, size: 0x4, def value: None
   float_t m_ContactDistance;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15677 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SoftJointLimit, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SoftJointLimit, m_Limit) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::SoftJointLimit, m_Bounciness) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::SoftJointLimit, m_ContactDistance) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SoftJointLimit, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SoftJointLimit, "UnityEngine", "SoftJointLimit");

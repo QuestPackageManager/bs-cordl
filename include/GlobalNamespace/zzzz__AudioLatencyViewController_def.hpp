@@ -39,11 +39,10 @@ class AudioLatencyViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioLatencyViewController);
-// Type: ::AudioLatencyViewController
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AudioLatencyViewController*
+// CS Name: AudioLatencyViewController
 class CORDL_TYPE AudioLatencyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -82,30 +81,30 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeSettingsList, put = __cordl_internal_set__volumeSettingsList)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>
       _volumeSettingsList;
 
-  /// @brief Method DidActivate, addr 0x3bbeb20, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af6f3c, size 0x284, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bbee4c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af725c, size 0xf0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAmbientVolumeChanged, addr 0x3bbf048, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAmbientVolumeChanged, addr 0x3af7460, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAmbientVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x3bbf08c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x3af74a4, size 0x50, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleVolumeChanged, addr 0x3bbf014, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleVolumeChanged, addr 0x3af742c, size 0x34, virtual false, abstract: false, final false
   inline void HandleVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bbef34, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3af734c, size 0xe0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x3bbedb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3af71c0, size 0x9c, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x3bbf064, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x3af747c, size 0x28, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__ambientSettingsList() const;
@@ -124,9 +123,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__overrideAudioLatencyToggle();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__setupCanvasGroup() const;
 
@@ -140,9 +139,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr ::UnityW<::GlobalNamespace::VisualMetronome> const& __cordl_internal_get__visualMetronome() const;
 
@@ -174,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x3bbf0dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af74f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -190,6 +189,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AudioLatencyViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AudioLatencyViewController(AudioLatencyViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4941 };
 
   /// @brief Field _setupCanvasGroup, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____setupCanvasGroup;
@@ -224,14 +226,9 @@ public:
   /// @brief Field _toggleBinder, offset: 0xc8, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4921 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____setupCanvasGroup) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____volumeSettingsList) == 0x80, "Offset mismatch!");
@@ -253,6 +250,8 @@ static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____settin
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____audioManager) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____toggleBinder) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xd0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioLatencyViewController);

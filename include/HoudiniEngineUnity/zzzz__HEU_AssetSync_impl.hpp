@@ -12,108 +12,108 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback._ctor
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::*)(::System::Object*, ::System::IntPtr)>(
-    &::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3a05b10;
+  constexpr static std::size_t addrs = 0x3a5c780;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback.Invoke
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::*)(::HoudiniEngineUnity::HEU_AssetSync*)>(
-    &::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::*)(::HoudiniEngineUnity::HEU_AssetSync*)>(
+    &::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a05c10;
+  constexpr static std::size_t addrs = 0x3a5c880;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback.BeginInvoke
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IAsyncResult* (::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::*)(::HoudiniEngineUnity::HEU_AssetSync*, ::System::AsyncCallback*, ::System::Object*)>(
-        &::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::BeginInvoke)> {
+    static_cast<::System::IAsyncResult* (::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::*)(::HoudiniEngineUnity::HEU_AssetSync*, ::System::AsyncCallback*, ::System::Object*)>(
+        &::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a05c24;
+  constexpr static std::size_t addrs = 0x3a5c894;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback.EndInvoke
+//  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::*)(::System::IAsyncResult*)>(
-    &::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::*)(::System::IAsyncResult*)>(
+    &::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a05c44;
+  constexpr static std::size_t addrs = 0x3a5c8b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>(object, method));
-}
-inline void HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(),
+inline void HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::Invoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync) {
+inline void HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::Invoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assetSync);
 }
-inline ::System::IAsyncResult* HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync, ::System::AsyncCallback* callback,
-                                                                                                   ::System::Object* object) {
+inline ::System::IAsyncResult* HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync, ::System::AsyncCallback* callback,
+                                                                                                ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, assetSync, callback, object);
 }
-inline void HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::EndInvoke(::System::IAsyncResult* result) {
+inline void HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
+inline ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback* HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback::__HEU_AssetSync__AssetSyncCallback() {}
+constexpr ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback::HEU_AssetSync_AssetSyncCallback() {}
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)()>(&::HoudiniEngineUnity::HEU_AssetSync::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a05690;
+  constexpr static std::size_t addrs = 0x3a5c300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), "OnEnable",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)()>(&::HoudiniEngineUnity::HEU_AssetSync::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a05694;
+  constexpr static std::size_t addrs = 0x3a5c304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), "OnDestroy",
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::StringW, ::StringW, ::UnityEngine::Transform*, ::UnityEngine::Vector3)>(&::HoudiniEngineUnity::HEU_AssetSync::InitializeAsset)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3a056a0;
+  constexpr static std::size_t addrs = 0x3a5c310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* (::HoudiniEngineUnity::HEU_AssetSync::*)()>(
     &::HoudiniEngineUnity::HEU_AssetSync::CreateThreadedTask)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3a05798;
+  constexpr static std::size_t addrs = 0x3a5c408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(),
@@ -169,15 +169,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync.SetLoadCallback
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback*)>(
     &::HoudiniEngineUnity::HEU_AssetSync::SetLoadCallback)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a05804;
+  constexpr static std::size_t addrs = 0x3a5c474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), "SetLoadCallback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback*>::get() })));
     return ___internal_method;
   }
 };
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(::HoudiniEngineUnity::HEU_SessionBase*)>(
     &::HoudiniEngineUnity::HEU_AssetSync::SetupLoadTask)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3a0583c;
+  constexpr static std::size_t addrs = 0x3a5c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,10 +199,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_AssetSync.OnLoadComplete
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData*)>(
     &::HoudiniEngineUnity::HEU_AssetSync::OnLoadComplete)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a058b0;
+  constexpr static std::size_t addrs = 0x3a5c520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)()>(&::HoudiniEngineUnity::HEU_AssetSync::Resync)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a05968;
+  constexpr static std::size_t addrs = 0x3a5c5d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_AssetSync::*)()>(&::HoudiniEngineUnity::HEU_AssetSync::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a059a0;
+  constexpr static std::size_t addrs = 0x3a5c610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), ".ctor",
@@ -238,15 +238,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_get__onAssetLoaded() {
+constexpr ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback*& HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_get__onAssetLoaded() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAssetLoaded;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_get__onAssetLoaded() const {
+constexpr ::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback* const& HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_get__onAssetLoaded() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onAssetLoaded;
 }
-constexpr void HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value) {
+constexpr void HoudiniEngineUnity::HEU_AssetSync::__cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::HEU_AssetSync_AssetSyncCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onAssetLoaded)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -287,10 +287,10 @@ inline ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* HoudiniEngineUnity::HEU_As
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::HEU_AssetSync::SetLoadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* callback) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), "SetLoadCallback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*>::get() })));
+inline void HoudiniEngineUnity::HEU_AssetSync::SetLoadCallback(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback* callback) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), "SetLoadCallback", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadCallback*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback);
 }
 inline void HoudiniEngineUnity::HEU_AssetSync::SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session) {
@@ -298,7 +298,7 @@ inline void HoudiniEngineUnity::HEU_AssetSync::SetupLoadTask(::HoudiniEngineUnit
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, session);
 }
-inline void HoudiniEngineUnity::HEU_AssetSync::OnLoadComplete(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData) {
+inline void HoudiniEngineUnity::HEU_AssetSync::OnLoadComplete(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo_HEU_LoadData* loadData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, loadData);
@@ -308,13 +308,13 @@ inline void HoudiniEngineUnity::HEU_AssetSync::Resync() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::HEU_AssetSync* HoudiniEngineUnity::HEU_AssetSync::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetSync*>());
-}
 inline void HoudiniEngineUnity::HEU_AssetSync::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_AssetSync*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_AssetSync* HoudiniEngineUnity::HEU_AssetSync::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_AssetSync*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_AssetSync::HEU_AssetSync() {}

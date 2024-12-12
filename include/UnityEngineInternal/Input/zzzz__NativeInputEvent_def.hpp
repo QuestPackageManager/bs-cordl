@@ -8,20 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputEvent)
-namespace UnityEngineInternal::Input {
-struct NativeInputEventType;
-}
 // Forward declare root types
 namespace UnityEngineInternal::Input {
 struct NativeInputEvent;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEvent);
-// Type: UnityEngineInternal.Input::NativeInputEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, packing: Some(1), specified_packing: Some(1) }
+// Dependencies UnityEngineInternal.Input.NativeInputEventType
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// CS Name: ::UnityEngineInternal.Input::NativeInputEvent
+// CS Name: UnityEngineInternal.Input.NativeInputEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE NativeInputEvent {
 public:
@@ -157,7 +153,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

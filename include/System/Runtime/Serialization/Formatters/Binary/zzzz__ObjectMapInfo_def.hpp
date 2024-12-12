@@ -4,7 +4,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectMapInfo)
@@ -17,11 +16,10 @@ class ObjectMapInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);
-// Type: System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.ObjectMapInfo
 class CORDL_TYPE ObjectMapInfo : public ::System::Object {
 public:
   // Declarations
@@ -64,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ca4c38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d04dac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x3ca4c78, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x3d04dec, size 0x13c, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
 protected:
@@ -84,6 +82,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectMapInfo(ObjectMapInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3280 };
+
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;
 
@@ -96,14 +97,9 @@ public:
   /// @brief Field memberTypes, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___memberTypes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3280 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___objectId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___numMembers) == 0x14, "Offset mismatch!");
@@ -111,6 +107,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Obj
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___memberNames) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, ___memberTypes) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo);

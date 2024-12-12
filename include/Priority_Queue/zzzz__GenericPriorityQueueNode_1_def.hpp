@@ -12,13 +12,12 @@ template <typename TPriority> class GenericPriorityQueueNode_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::GenericPriorityQueueNode_1);
-// Type: Priority_Queue::GenericPriorityQueueNode`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TPriority>
 // Is value type: false
-// CS Name: ::Priority_Queue::GenericPriorityQueueNode`1<TPriority>*
+// CS Name: Priority_Queue.GenericPriorityQueueNode`1<TPriority>
 class CORDL_TYPE GenericPriorityQueueNode_1 : public ::System::Object {
 public:
   // Declarations
@@ -92,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericPriorityQueueNode_1(GenericPriorityQueueNode_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16935 };
+
   /// @brief Field <Priority>k__BackingField, offset: 0x10, size: 0x8, def value: None
   TPriority ____Priority_k__BackingField;
 
@@ -100,9 +102,6 @@ public:
 
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x20, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

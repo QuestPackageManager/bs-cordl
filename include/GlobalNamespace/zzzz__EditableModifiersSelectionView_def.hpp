@@ -20,11 +20,10 @@ class EditableModifiersSelectionView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EditableModifiersSelectionView);
-// Type: ::EditableModifiersSelectionView
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ModifiersSelectionView
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EditableModifiersSelectionView*
+// CS Name: EditableModifiersSelectionView
 class CORDL_TYPE EditableModifiersSelectionView : public ::GlobalNamespace::ModifiersSelectionView {
 public:
   // Declarations
@@ -53,13 +52,13 @@ public:
 
   static inline ::GlobalNamespace::EditableModifiersSelectionView* New_ctor();
 
-  /// @brief Method SetGameplayModifiers, addr 0x3aa198c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x3afee20, size 0x60, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method SetVisibility, addr 0x3aa1958, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x3afedec, size 0x28, virtual false, abstract: false, final false
   inline void SetVisibility(bool visible);
 
-  /// @brief Method Setup, addr 0x3aa1980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3afee14, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool showClearButton);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
@@ -92,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3aa1b54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afefe8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clearButton, addr 0x3aa18d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearButton, addr 0x3afed68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
-  /// @brief Method get_editButton, addr 0x3aa18cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editButton, addr 0x3afed60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
-  /// @brief Method get_interactable, addr 0x3aa18dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x3afed70, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_showClearButton, addr 0x3aa1944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showClearButton, addr 0x3afedd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_showClearButton();
 
-  /// @brief Method set_interactable, addr 0x3aa18e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x3afed78, size 0x60, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_showClearButton, addr 0x3aa194c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_showClearButton, addr 0x3afede0, size 0xc, virtual false, abstract: false, final false
   inline void set_showClearButton(bool value);
 
 protected:
@@ -127,6 +126,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditableModifiersSelectionView(EditableModifiersSelectionView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4972 };
+
   /// @brief Field _editButton, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
@@ -142,14 +144,9 @@ public:
   /// @brief Field <showClearButton>k__BackingField, offset: 0x51, size: 0x1, def value: None
   bool ____showClearButton_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4952 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableModifiersSelectionView, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____editButton) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____clearButton) == 0x40, "Offset mismatch!");
@@ -159,6 +156,8 @@ static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____mo
 static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____interactable) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EditableModifiersSelectionView, ____showClearButton_k__BackingField) == 0x51, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EditableModifiersSelectionView, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EditableModifiersSelectionView);

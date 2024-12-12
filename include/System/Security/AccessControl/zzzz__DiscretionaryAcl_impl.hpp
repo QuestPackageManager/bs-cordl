@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)(bool, bool, int32_t)>(
     &::System::Security::AccessControl::DiscretionaryAcl::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c63ce4;
+  constexpr static std::size_t addrs = 0x3cc3e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::AccessControlType, ::System::Security::Principal::SecurityIdentifier*, int32_t, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags)>(&::System::Security::AccessControl::DiscretionaryAcl::AddAccess)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c63cf0;
+  constexpr static std::size_t addrs = 0x3cc3e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)()>(
     &::System::Security::AccessControl::DiscretionaryAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c63eb8;
+  constexpr static std::size_t addrs = 0x3cc402c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c63f00;
+  constexpr static std::size_t addrs = 0x3cc4074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceQualifier (*)(::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceQualifier)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c63e5c;
+  constexpr static std::size_t addrs = 0x3cc3fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::DiscretionaryAcl::IsAceMeaningless)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3c63f10;
+  constexpr static std::size_t addrs = 0x3cc4084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,9 +107,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Security::AccessControl::DiscretionaryAcl* System::Security::AccessControl::DiscretionaryAcl::New_ctor(bool isContainer, bool isDS, int32_t capacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::DiscretionaryAcl*>(isContainer, isDS, capacity));
-}
 inline void System::Security::AccessControl::DiscretionaryAcl::_ctor(bool isContainer, bool isDS, int32_t capacity) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::DiscretionaryAcl*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -149,6 +146,9 @@ inline bool System::Security::AccessControl::DiscretionaryAcl::IsAceMeaningless(
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::DiscretionaryAcl*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ace);
+}
+inline ::System::Security::AccessControl::DiscretionaryAcl* System::Security::AccessControl::DiscretionaryAcl::New_ctor(bool isContainer, bool isDS, int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::DiscretionaryAcl*>(isContainer, isDS, capacity));
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::DiscretionaryAcl::DiscretionaryAcl() {}

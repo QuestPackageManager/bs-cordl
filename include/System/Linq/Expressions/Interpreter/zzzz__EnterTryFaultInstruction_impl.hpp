@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40620e0;
+  constexpr static std::size_t addrs = 0x40c33f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4062108;
+  constexpr static std::size_t addrs = 0x40c341c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_ProducedContinuations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062148;
+  constexpr static std::size_t addrs = 0x40c345c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::TryFaultHandler* (
     ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_Handler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062150;
+  constexpr static std::size_t addrs = 0x40c3464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(
     ::System::Linq::Expressions::Interpreter::TryFaultHandler*)>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::SetTryHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062158;
+  constexpr static std::size_t addrs = 0x40c346c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::Run)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4062160;
+  constexpr static std::size_t addrs = 0x40c3474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,17 +101,13 @@ constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler*& System::Li
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tryHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::TryFaultHandler*> const&
-System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::__cordl_internal_get__tryHandler() const {
+constexpr ::System::Linq::Expressions::Interpreter::TryFaultHandler* const& System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::__cordl_internal_get__tryHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tryHandler;
 }
 constexpr void System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::__cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryFaultHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tryHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::New_ctor(int32_t targetIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction*>(targetIndex));
 }
 inline void System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::_ctor(int32_t targetIndex) {
   static auto* ___internal_method =
@@ -148,6 +144,9 @@ inline int32_t System::Linq::Expressions::Interpreter::EnterTryFaultInstruction:
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction* System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::New_ctor(int32_t targetIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction*>(targetIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::EnterTryFaultInstruction() {}

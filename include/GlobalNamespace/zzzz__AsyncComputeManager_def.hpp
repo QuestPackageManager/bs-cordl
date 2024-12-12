@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncComputeManager)
 namespace GlobalNamespace {
@@ -10,9 +12,6 @@ template <typename T> class AsyncComputeOperation_1;
 }
 namespace GlobalNamespace {
 class AsyncComputeOperation;
-}
-namespace GlobalNamespace {
-class IAsyncComputeManager;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class BlockingCollection_1;
@@ -23,20 +22,16 @@ template <typename TResult> class Task_1;
 namespace System::Threading {
 class Thread;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class AsyncComputeManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeManager);
-// Type: ::AsyncComputeManager
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IAsyncComputeManager, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AsyncComputeManager*
+// CS Name: AsyncComputeManager
 class CORDL_TYPE AsyncComputeManager : public ::System::Object {
 public:
   // Declarations
@@ -59,25 +54,24 @@ public:
   /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
 
-  /// @brief Method BeginOperation, addr 0x2283de8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method BeginOperation, addr 0x22b70d4, size 0x58, virtual true, abstract: false, final true
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
 
-  /// @brief Method ComputeThreadRun, addr 0x2283e40, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method ComputeThreadRun, addr 0x22b712c, size 0x160, virtual false, abstract: false, final false
   inline void ComputeThreadRun();
 
-  /// @brief Method Dispose, addr 0x2283d80, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22b706c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
 
+  constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* const& __cordl_internal_get__asyncComputeRequests() const;
+
   constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*& __cordl_internal_get__asyncComputeRequests();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>*> const&
-  __cordl_internal_get__asyncComputeRequests() const;
+  constexpr ::System::Threading::Thread* const& __cordl_internal_get__computeThread() const;
 
   constexpr ::System::Threading::Thread*& __cordl_internal_get__computeThread();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__computeThread() const;
 
   constexpr bool const& __cordl_internal_get__disposed() const;
 
@@ -89,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x2283c40, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b6f2c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IAsyncComputeManager"
@@ -112,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncComputeManager(AsyncComputeManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14681 };
+
   /// @brief Field _asyncComputeRequests, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation*>* ____asyncComputeRequests;
 
@@ -121,19 +118,16 @@ public:
   /// @brief Field _disposed, offset: 0x20, size: 0x1, def value: None
   bool ____disposed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14647 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AsyncComputeManager, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AsyncComputeManager, ____asyncComputeRequests) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AsyncComputeManager, ____computeThread) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AsyncComputeManager, ____disposed) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AsyncComputeManager, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AsyncComputeManager);

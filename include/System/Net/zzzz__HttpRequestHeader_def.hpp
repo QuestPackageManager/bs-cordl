@@ -12,11 +12,10 @@ struct HttpRequestHeader;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::HttpRequestHeader);
-// Type: System.Net::HttpRequestHeader
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::HttpRequestHeader
+// CS Name: System.Net.HttpRequestHeader
 struct CORDL_TYPE HttpRequestHeader {
 public:
   // Declarations
@@ -84,144 +83,144 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HttpRequestHeader(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Accept value: static_cast<int32_t>(0x14)
+  /// @brief Field Accept value: I32(20)
   static ::System::Net::HttpRequestHeader const Accept;
 
-  /// @brief Field AcceptCharset value: static_cast<int32_t>(0x15)
+  /// @brief Field AcceptCharset value: I32(21)
   static ::System::Net::HttpRequestHeader const AcceptCharset;
 
-  /// @brief Field AcceptEncoding value: static_cast<int32_t>(0x16)
+  /// @brief Field AcceptEncoding value: I32(22)
   static ::System::Net::HttpRequestHeader const AcceptEncoding;
 
-  /// @brief Field AcceptLanguage value: static_cast<int32_t>(0x17)
+  /// @brief Field AcceptLanguage value: I32(23)
   static ::System::Net::HttpRequestHeader const AcceptLanguage;
 
-  /// @brief Field Allow value: static_cast<int32_t>(0xa)
+  /// @brief Field Allow value: I32(10)
   static ::System::Net::HttpRequestHeader const Allow;
 
-  /// @brief Field Authorization value: static_cast<int32_t>(0x18)
+  /// @brief Field Authorization value: I32(24)
   static ::System::Net::HttpRequestHeader const Authorization;
 
-  /// @brief Field CacheControl value: static_cast<int32_t>(0x0)
+  /// @brief Field CacheControl value: I32(0)
   static ::System::Net::HttpRequestHeader const CacheControl;
 
-  /// @brief Field Connection value: static_cast<int32_t>(0x1)
+  /// @brief Field Connection value: I32(1)
   static ::System::Net::HttpRequestHeader const Connection;
 
-  /// @brief Field ContentEncoding value: static_cast<int32_t>(0xd)
+  /// @brief Field ContentEncoding value: I32(13)
   static ::System::Net::HttpRequestHeader const ContentEncoding;
 
-  /// @brief Field ContentLanguage value: static_cast<int32_t>(0xe)
+  /// @brief Field ContentLanguage value: I32(14)
   static ::System::Net::HttpRequestHeader const ContentLanguage;
 
-  /// @brief Field ContentLength value: static_cast<int32_t>(0xb)
+  /// @brief Field ContentLength value: I32(11)
   static ::System::Net::HttpRequestHeader const ContentLength;
 
-  /// @brief Field ContentLocation value: static_cast<int32_t>(0xf)
+  /// @brief Field ContentLocation value: I32(15)
   static ::System::Net::HttpRequestHeader const ContentLocation;
 
-  /// @brief Field ContentMd5 value: static_cast<int32_t>(0x10)
+  /// @brief Field ContentMd5 value: I32(16)
   static ::System::Net::HttpRequestHeader const ContentMd5;
 
-  /// @brief Field ContentRange value: static_cast<int32_t>(0x11)
+  /// @brief Field ContentRange value: I32(17)
   static ::System::Net::HttpRequestHeader const ContentRange;
 
-  /// @brief Field ContentType value: static_cast<int32_t>(0xc)
+  /// @brief Field ContentType value: I32(12)
   static ::System::Net::HttpRequestHeader const ContentType;
 
-  /// @brief Field Cookie value: static_cast<int32_t>(0x19)
+  /// @brief Field Cookie value: I32(25)
   static ::System::Net::HttpRequestHeader const Cookie;
 
-  /// @brief Field Date value: static_cast<int32_t>(0x2)
+  /// @brief Field Date value: I32(2)
   static ::System::Net::HttpRequestHeader const Date;
 
-  /// @brief Field Expect value: static_cast<int32_t>(0x1a)
+  /// @brief Field Expect value: I32(26)
   static ::System::Net::HttpRequestHeader const Expect;
 
-  /// @brief Field Expires value: static_cast<int32_t>(0x12)
+  /// @brief Field Expires value: I32(18)
   static ::System::Net::HttpRequestHeader const Expires;
 
-  /// @brief Field From value: static_cast<int32_t>(0x1b)
+  /// @brief Field From value: I32(27)
   static ::System::Net::HttpRequestHeader const From;
 
-  /// @brief Field Host value: static_cast<int32_t>(0x1c)
+  /// @brief Field Host value: I32(28)
   static ::System::Net::HttpRequestHeader const Host;
 
-  /// @brief Field IfMatch value: static_cast<int32_t>(0x1d)
+  /// @brief Field IfMatch value: I32(29)
   static ::System::Net::HttpRequestHeader const IfMatch;
 
-  /// @brief Field IfModifiedSince value: static_cast<int32_t>(0x1e)
+  /// @brief Field IfModifiedSince value: I32(30)
   static ::System::Net::HttpRequestHeader const IfModifiedSince;
 
-  /// @brief Field IfNoneMatch value: static_cast<int32_t>(0x1f)
+  /// @brief Field IfNoneMatch value: I32(31)
   static ::System::Net::HttpRequestHeader const IfNoneMatch;
 
-  /// @brief Field IfRange value: static_cast<int32_t>(0x20)
+  /// @brief Field IfRange value: I32(32)
   static ::System::Net::HttpRequestHeader const IfRange;
 
-  /// @brief Field IfUnmodifiedSince value: static_cast<int32_t>(0x21)
+  /// @brief Field IfUnmodifiedSince value: I32(33)
   static ::System::Net::HttpRequestHeader const IfUnmodifiedSince;
 
-  /// @brief Field KeepAlive value: static_cast<int32_t>(0x3)
+  /// @brief Field KeepAlive value: I32(3)
   static ::System::Net::HttpRequestHeader const KeepAlive;
 
-  /// @brief Field LastModified value: static_cast<int32_t>(0x13)
+  /// @brief Field LastModified value: I32(19)
   static ::System::Net::HttpRequestHeader const LastModified;
 
-  /// @brief Field MaxForwards value: static_cast<int32_t>(0x22)
+  /// @brief Field MaxForwards value: I32(34)
   static ::System::Net::HttpRequestHeader const MaxForwards;
 
-  /// @brief Field Pragma value: static_cast<int32_t>(0x4)
+  /// @brief Field Pragma value: I32(4)
   static ::System::Net::HttpRequestHeader const Pragma;
 
-  /// @brief Field ProxyAuthorization value: static_cast<int32_t>(0x23)
+  /// @brief Field ProxyAuthorization value: I32(35)
   static ::System::Net::HttpRequestHeader const ProxyAuthorization;
 
-  /// @brief Field Range value: static_cast<int32_t>(0x25)
+  /// @brief Field Range value: I32(37)
   static ::System::Net::HttpRequestHeader const Range;
 
-  /// @brief Field Referer value: static_cast<int32_t>(0x24)
+  /// @brief Field Referer value: I32(36)
   static ::System::Net::HttpRequestHeader const Referer;
 
-  /// @brief Field Te value: static_cast<int32_t>(0x26)
+  /// @brief Field Te value: I32(38)
   static ::System::Net::HttpRequestHeader const Te;
 
-  /// @brief Field Trailer value: static_cast<int32_t>(0x5)
+  /// @brief Field Trailer value: I32(5)
   static ::System::Net::HttpRequestHeader const Trailer;
 
-  /// @brief Field TransferEncoding value: static_cast<int32_t>(0x6)
+  /// @brief Field TransferEncoding value: I32(6)
   static ::System::Net::HttpRequestHeader const TransferEncoding;
 
-  /// @brief Field Translate value: static_cast<int32_t>(0x27)
+  /// @brief Field Translate value: I32(39)
   static ::System::Net::HttpRequestHeader const Translate;
 
-  /// @brief Field Upgrade value: static_cast<int32_t>(0x7)
+  /// @brief Field Upgrade value: I32(7)
   static ::System::Net::HttpRequestHeader const Upgrade;
 
-  /// @brief Field UserAgent value: static_cast<int32_t>(0x28)
+  /// @brief Field UserAgent value: I32(40)
   static ::System::Net::HttpRequestHeader const UserAgent;
 
-  /// @brief Field Via value: static_cast<int32_t>(0x8)
+  /// @brief Field Via value: I32(8)
   static ::System::Net::HttpRequestHeader const Via;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x9)
+  /// @brief Field Warning value: I32(9)
   static ::System::Net::HttpRequestHeader const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9583 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpRequestHeader, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpRequestHeader, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpRequestHeader, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpRequestHeader, "System.Net", "HttpRequestHeader");

@@ -16,11 +16,10 @@ class EncoderReplacementFallbackBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderReplacementFallbackBuffer);
-// Type: System.Text::EncoderReplacementFallbackBuffer
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Text.EncoderFallbackBuffer
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::EncoderReplacementFallbackBuffer*
+// CS Name: System.Text.EncoderReplacementFallbackBuffer
 class CORDL_TYPE EncoderReplacementFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
@@ -35,21 +34,21 @@ public:
   /// @brief Field _strDefault, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x3c19310, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c7942c, size 0x140, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x3c19450, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c7956c, size 0x210, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3c19660, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3c7977c, size 0x50, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x3c196b0, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x3c797cc, size 0x30, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x3c196ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c79808, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -70,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c1920c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c79328, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x3c196e0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3c797fc, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncoderReplacementFallbackBuffer(EncoderReplacementFallbackBuffer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2851 };
+
   /// @brief Field _strDefault, offset: 0x30, size: 0x8, def value: None
   ::StringW ____strDefault;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field _fallbackIndex, offset: 0x3c, size: 0x4, def value: None
   int32_t ____fallbackIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2851 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::EncoderReplacementFallbackBuffer, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____strDefault) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____fallbackCount) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::EncoderReplacementFallbackBuffer, ____fallbackIndex) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::EncoderReplacementFallbackBuffer, 0x40>, "Size mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::EncoderReplacementFallbackBuffer);

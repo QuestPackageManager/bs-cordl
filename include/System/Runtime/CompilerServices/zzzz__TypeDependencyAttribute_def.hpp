@@ -12,11 +12,10 @@ class TypeDependencyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeDependencyAttribute);
-// Type: System.Runtime.CompilerServices::TypeDependencyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::TypeDependencyAttribute*
+// CS Name: System.Runtime.CompilerServices.TypeDependencyAttribute
 class CORDL_TYPE TypeDependencyAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb9788, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d198fc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeDependencyAttribute(TypeDependencyAttribute const&) = delete;
 
-  /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___typeName;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3416 };
+
+  /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___typeName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TypeDependencyAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::TypeDependencyAttribute, ___typeName) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TypeDependencyAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::TypeDependencyAttribute);

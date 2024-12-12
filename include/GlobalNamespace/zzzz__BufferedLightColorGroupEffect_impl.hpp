@@ -13,73 +13,73 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::BufferedLightColorGroupEffect_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BufferedLightColorGroupEffect__InitData::*)(
-    ::GlobalNamespace::LightGroup*, ::GlobalNamespace::MaterialPropertyBlockController*)>(&::GlobalNamespace::__BufferedLightColorGroupEffect__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect_InitData::*)(
+    ::GlobalNamespace::LightGroup*, ::GlobalNamespace::MaterialPropertyBlockController*)>(&::GlobalNamespace::BufferedLightColorGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b2a6c0;
+  constexpr static std::size_t addrs = 0x3b8bc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightGroup*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MaterialPropertyBlockController*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::LightGroup>& GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_get_lightGroup() {
+constexpr ::UnityW<::GlobalNamespace::LightGroup>& GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_get_lightGroup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
-constexpr ::UnityW<::GlobalNamespace::LightGroup> const& GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_get_lightGroup() const {
+constexpr ::UnityW<::GlobalNamespace::LightGroup> const& GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_get_lightGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightGroup;
 }
-constexpr void GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_set_lightGroup(::UnityW<::GlobalNamespace::LightGroup> value) {
+constexpr void GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_set_lightGroup(::UnityW<::GlobalNamespace::LightGroup> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_get_materialPropertyBlockController() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_get_materialPropertyBlockController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialPropertyBlockController;
 }
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_get_materialPropertyBlockController() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_get_materialPropertyBlockController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialPropertyBlockController;
 }
-constexpr void GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
+constexpr void GlobalNamespace::BufferedLightColorGroupEffect_InitData::__cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*
-GlobalNamespace::__BufferedLightColorGroupEffect__InitData::New_ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*>(lightGroup, materialPropertyBlockController));
-}
-inline void GlobalNamespace::__BufferedLightColorGroupEffect__InitData::_ctor(::GlobalNamespace::LightGroup* lightGroup,
-                                                                              ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController) {
+inline void GlobalNamespace::BufferedLightColorGroupEffect_InitData::_ctor(::GlobalNamespace::LightGroup* lightGroup,
+                                                                           ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightGroup*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MaterialPropertyBlockController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightGroup, materialPropertyBlockController);
 }
+inline ::GlobalNamespace::BufferedLightColorGroupEffect_InitData*
+GlobalNamespace::BufferedLightColorGroupEffect_InitData::New_ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BufferedLightColorGroupEffect_InitData*>(lightGroup, materialPropertyBlockController));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData::__BufferedLightColorGroupEffect__InitData() {}
+constexpr ::GlobalNamespace::BufferedLightColorGroupEffect_InitData::BufferedLightColorGroupEffect_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::BufferedLightColorGroupEffect._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect::*)(
-    ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*, ::GlobalNamespace::ColorManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
+    ::GlobalNamespace::BufferedLightColorGroupEffect_InitData*, ::GlobalNamespace::ColorManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::BufferedLightColorGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x3b29f70;
+  constexpr static std::size_t addrs = 0x3b8b508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BufferedLightColorGroupEffect_InitData*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorManager*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
     return ___internal_method;
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect::*)()>(
     &::GlobalNamespace::BufferedLightColorGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b2a2ac;
+  constexpr static std::size_t addrs = 0x3b8b844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(
     &::GlobalNamespace::BufferedLightColorGroupEffect::HandleColorBoostBeatmapEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b2a3c4;
+  constexpr static std::size_t addrs = 0x3b8b95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::BufferedLightColorGroupEffect::HandleColorChangeBeatmapEvent)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b2a3e0;
+  constexpr static std::size_t addrs = 0x3b8b978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BufferedLightColorGroupEffect::*)()>(
     &::GlobalNamespace::BufferedLightColorGroupEffect::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3b2a4bc;
+  constexpr static std::size_t addrs = 0x3b8ba54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BufferedLightColorGroupEffect::*)(
     ::GlobalNamespace::EnvironmentColorType, bool, float_t)>(&::GlobalNamespace::BufferedLightColorGroupEffect::GetColor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b2a5c4;
+  constexpr static std::size_t addrs = 0x3b8bb5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::BufferedLightColorG
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__colorManager() const {
+constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
@@ -188,8 +188,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Buffe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -201,8 +200,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Buffe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorBoostBeatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::BufferedLightColorGroupEffect::__cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorBoostBeatmapDataCallbackWrapper;
 }
@@ -320,16 +318,11 @@ inline void GlobalNamespace::BufferedLightColorGroupEffect::setStaticF__elementI
 inline int32_t GlobalNamespace::BufferedLightColorGroupEffect::getStaticF__elementIdBufferPropertyId() {
   return ::cordl_internals::getStaticField<int32_t, "_elementIdBufferPropertyId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect*>::get>();
 }
-inline ::GlobalNamespace::BufferedLightColorGroupEffect* GlobalNamespace::BufferedLightColorGroupEffect::New_ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData,
-                                                                                                                  ::GlobalNamespace::ColorManager* colorManager,
-                                                                                                                  ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BufferedLightColorGroupEffect*>(initData, colorManager, beatmapCallbacksController));
-}
-inline void GlobalNamespace::BufferedLightColorGroupEffect::_ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
+inline void GlobalNamespace::BufferedLightColorGroupEffect::_ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                                                                   ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BufferedLightColorGroupEffect__InitData*>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BufferedLightColorGroupEffect_InitData*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorManager*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData, colorManager, beatmapCallbacksController);
@@ -361,6 +354,11 @@ inline ::UnityEngine::Color GlobalNamespace::BufferedLightColorGroupEffect::GetC
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BufferedLightColorGroupEffect*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorType, colorBoost, brightness);
+}
+inline ::GlobalNamespace::BufferedLightColorGroupEffect* GlobalNamespace::BufferedLightColorGroupEffect::New_ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData,
+                                                                                                                  ::GlobalNamespace::ColorManager* colorManager,
+                                                                                                                  ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BufferedLightColorGroupEffect*>(initData, colorManager, beatmapCallbacksController));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BufferedLightColorGroupEffect::BufferedLightColorGroupEffect() {}

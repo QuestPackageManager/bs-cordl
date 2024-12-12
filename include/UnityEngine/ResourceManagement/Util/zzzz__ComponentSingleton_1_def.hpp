@@ -12,18 +12,17 @@ template <typename T> class ComponentSingleton_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::Util::ComponentSingleton_1);
-// Type: UnityEngine.ResourceManagement.Util::ComponentSingleton`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::ComponentSingleton`1<T>*
+// CS Name: UnityEngine.ResourceManagement.Util.ComponentSingleton`1<T>
 class CORDL_TYPE ComponentSingleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) T s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) T s_Instance;
 
   /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
@@ -70,7 +69,7 @@ public:
   ComponentSingleton_1(ComponentSingleton_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

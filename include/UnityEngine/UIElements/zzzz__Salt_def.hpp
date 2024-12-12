@@ -12,11 +12,10 @@ struct Salt;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::Salt);
-// Type: UnityEngine.UIElements::Salt
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::Salt
+// CS Name: UnityEngine.UIElements.Salt
 struct CORDL_TYPE Salt {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Salt(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ClassSalt value: static_cast<int32_t>(0x13)
+  /// @brief Field ClassSalt value: I32(19)
   static ::UnityEngine::UIElements::Salt const ClassSalt;
 
-  /// @brief Field IdSalt value: static_cast<int32_t>(0x11)
+  /// @brief Field IdSalt value: I32(17)
   static ::UnityEngine::UIElements::Salt const IdSalt;
 
-  /// @brief Field TagNameSalt value: static_cast<int32_t>(0xd)
+  /// @brief Field TagNameSalt value: I32(13)
   static ::UnityEngine::UIElements::Salt const TagNameSalt;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6162 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Salt, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::Salt, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Salt, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Salt, "UnityEngine.UIElements", "Salt");

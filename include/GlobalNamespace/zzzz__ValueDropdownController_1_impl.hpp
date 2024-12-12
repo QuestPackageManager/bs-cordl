@@ -10,40 +10,40 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-template <typename T> inline void GlobalNamespace::__ValueDropdownController_1____c<T>::setStaticF___9(::GlobalNamespace::__ValueDropdownController_1____c<T>* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__ValueDropdownController_1____c<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get>(
-      std::forward<::GlobalNamespace::__ValueDropdownController_1____c<T>*>(value));
+template <typename T> inline void GlobalNamespace::ValueDropdownController_1___c<T>::setStaticF___9(::GlobalNamespace::ValueDropdownController_1___c<T>* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::ValueDropdownController_1___c<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get>(
+      std::forward<::GlobalNamespace::ValueDropdownController_1___c<T>*>(value));
 }
-template <typename T> inline ::GlobalNamespace::__ValueDropdownController_1____c<T>* GlobalNamespace::__ValueDropdownController_1____c<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__ValueDropdownController_1____c<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get>();
+template <typename T> inline ::GlobalNamespace::ValueDropdownController_1___c<T>* GlobalNamespace::ValueDropdownController_1___c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::ValueDropdownController_1___c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get>();
 }
-template <typename T> inline void GlobalNamespace::__ValueDropdownController_1____c<T>::setStaticF___9__9_0(::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* value) {
+template <typename T> inline void GlobalNamespace::ValueDropdownController_1___c<T>::setStaticF___9__9_0(::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>*, "<>9__9_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get>(
       std::forward<::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>*>(value));
 }
-template <typename T> inline ::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* GlobalNamespace::__ValueDropdownController_1____c<T>::getStaticF___9__9_0() {
+template <typename T> inline ::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>* GlobalNamespace::ValueDropdownController_1___c<T>::getStaticF___9__9_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Tuple_2<T, ::StringW>*, ::StringW>*, "<>9__9_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get>();
 }
-template <typename T> inline ::GlobalNamespace::__ValueDropdownController_1____c<T>* GlobalNamespace::__ValueDropdownController_1____c<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ValueDropdownController_1____c<T>*>());
-}
-template <typename T> inline void GlobalNamespace::__ValueDropdownController_1____c<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get(),
+template <typename T> inline void GlobalNamespace::ValueDropdownController_1___c<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::StringW GlobalNamespace::__ValueDropdownController_1____c<T>::_Start_b__9_0(::System::Tuple_2<T, ::StringW>* x) {
+template <typename T> inline ::StringW GlobalNamespace::ValueDropdownController_1___c<T>::_Start_b__9_0(::System::Tuple_2<T, ::StringW>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ValueDropdownController_1____c<T>*>::get(), "<Start>b__9_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1___c<T>*>::get(), "<Start>b__9_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<T, ::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
 }
+template <typename T> inline ::GlobalNamespace::ValueDropdownController_1___c<T>* GlobalNamespace::ValueDropdownController_1___c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ValueDropdownController_1___c<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::__ValueDropdownController_1____c<T>::__ValueDropdownController_1____c() {}
+template <typename T> constexpr ::GlobalNamespace::ValueDropdownController_1___c<T>::ValueDropdownController_1___c() {}
 template <typename T> constexpr ::UnityW<::HMUI::SimpleTextDropdown>& GlobalNamespace::ValueDropdownController_1<T>::__cordl_internal_get__simpleTextDropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____simpleTextDropdown;
@@ -60,8 +60,7 @@ template <typename T> constexpr ::System::Action_2<int32_t, T>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, T>*> const& GlobalNamespace::ValueDropdownController_1<T>::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+template <typename T> constexpr ::System::Action_2<int32_t, T>* const& GlobalNamespace::ValueDropdownController_1<T>::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
@@ -74,8 +73,7 @@ template <typename T> constexpr ::System::Collections::Generic::IReadOnlyList_1<
   return this->____namedValues;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>*> const&
-GlobalNamespace::ValueDropdownController_1<T>::__cordl_internal_get__namedValues() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<T, ::StringW>*>* const& GlobalNamespace::ValueDropdownController_1<T>::__cordl_internal_get__namedValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namedValues;
 }
@@ -146,13 +144,13 @@ template <typename T> inline void GlobalNamespace::ValueDropdownController_1<T>:
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropdownWithTableView, idx);
 }
-template <typename T> inline ::GlobalNamespace::ValueDropdownController_1<T>* GlobalNamespace::ValueDropdownController_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ValueDropdownController_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::ValueDropdownController_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ValueDropdownController_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::ValueDropdownController_1<T>* GlobalNamespace::ValueDropdownController_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ValueDropdownController_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::ValueDropdownController_1<T>::ValueDropdownController_1() {}

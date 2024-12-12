@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(int32_t)>(&::GlobalNamespace::PageControl::SetPagesCount)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3a9e150;
+  constexpr static std::size_t addrs = 0x3afb5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(int32_t)>(&::GlobalNamespace::PageControl::SetSelectedPageIndex)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a9e524;
+  constexpr static std::size_t addrs = 0x3afb9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(bool)>(&::GlobalNamespace::PageControl::SetVisible)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3aa756c;
+  constexpr static std::size_t addrs = 0x3b04a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)()>(&::GlobalNamespace::PageControl::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3aa759c;
+  constexpr static std::size_t addrs = 0x3b04a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControl*>::get(), ".ctor",
@@ -101,8 +101,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Pag
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeElements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>*> const&
-GlobalNamespace::PageControl::__cordl_internal_get__activeElements() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PageControlElement>>* const& GlobalNamespace::PageControl::__cordl_internal_get__activeElements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeElements;
 }
@@ -114,8 +113,7 @@ constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::Pa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveElements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>*> const&
-GlobalNamespace::PageControl::__cordl_internal_get__inactiveElements() const {
+constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::PageControlElement>>* const& GlobalNamespace::PageControl::__cordl_internal_get__inactiveElements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveElements;
 }
@@ -165,13 +163,13 @@ inline void GlobalNamespace::PageControl::SetVisible(bool isVisible) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isVisible);
 }
-inline ::GlobalNamespace::PageControl* GlobalNamespace::PageControl::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PageControl*>());
-}
 inline void GlobalNamespace::PageControl::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControl*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PageControl* GlobalNamespace::PageControl::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PageControl*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PageControl::PageControl() {}

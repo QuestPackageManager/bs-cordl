@@ -18,11 +18,10 @@ class EnvironmentAudioEffectsPlayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentAudioEffectsPlayer);
-// Type: ::EnvironmentAudioEffectsPlayer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentAudioEffectsPlayer*
+// CS Name: EnvironmentAudioEffectsPlayer
 class CORDL_TYPE EnvironmentAudioEffectsPlayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method PlayEffect, addr 0x3a79454, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x3ad086c, size 0x64, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x3a794b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad08d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSource, addr 0x3a7944c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSource, addr 0x3ad0864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
 protected:
@@ -62,18 +61,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentAudioEffectsPlayer(EnvironmentAudioEffectsPlayer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4006 };
+
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentAudioEffectsPlayer, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentAudioEffectsPlayer, ____audioSource) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentAudioEffectsPlayer, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentAudioEffectsPlayer);

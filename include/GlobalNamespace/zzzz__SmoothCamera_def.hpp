@@ -22,11 +22,10 @@ class SmoothCamera;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SmoothCamera);
-// Type: ::SmoothCamera
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SmoothCamera*
+// CS Name: SmoothCamera
 class CORDL_TYPE SmoothCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -51,19 +50,19 @@ public:
   /// @brief Field _thirdPersonPosition, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition)) ::UnityEngine::Vector3 _thirdPersonPosition;
 
-  /// @brief Method Init, addr 0x3b89d90, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3beb5a8, size 0x1a8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method LateUpdate, addr 0x3b89f78, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3beb790, size 0x1f4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b89f58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3beb770, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b89f38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3beb750, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -108,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b8a16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3beb984, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,6 +123,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SmoothCamera(SmoothCamera const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4688 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;
@@ -146,14 +148,9 @@ public:
   /// @brief Field _positionSmooth, offset: 0x50, size: 0x4, def value: None
   float_t ____positionSmooth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4676 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothCamera, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____camera) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____mainCamera) == 0x28, "Offset mismatch!");
@@ -167,6 +164,8 @@ static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____thirdPersonEnabled) 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____rotationSmooth) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SmoothCamera, ____positionSmooth) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SmoothCamera, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SmoothCamera);

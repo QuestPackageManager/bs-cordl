@@ -26,41 +26,40 @@ class RevocationDetailsBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::RevocationDetailsBuilder);
-// Type: Org.BouncyCastle.Cmp::RevocationDetailsBuilder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cmp::RevocationDetailsBuilder*
+// CS Name: Org.BouncyCastle.Cmp.RevocationDetailsBuilder
 class CORDL_TYPE RevocationDetailsBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _templateBuilder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__templateBuilder, put = __cordl_internal_set__templateBuilder)) ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* _templateBuilder;
 
-  /// @brief Method Build, addr 0x26196c4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x264c9b0, size 0xac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetails* Build();
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* New_ctor();
 
-  /// @brief Method SetIssuer, addr 0x26195d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x264c8c4, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetPublicKey, addr 0x26195a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x264c894, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey);
 
-  /// @brief Method SetSerialNumber, addr 0x2619608, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x264c8f4, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetSubject, addr 0x2619694, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x264c980, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
+
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* const& __cordl_internal_get__templateBuilder() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*& __cordl_internal_get__templateBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*> const& __cordl_internal_get__templateBuilder() const;
-
   constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
 
-  /// @brief Method .ctor, addr 0x2619770, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264ca5c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,18 +76,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevocationDetailsBuilder(RevocationDetailsBuilder const&) = delete;
 
-  /// @brief Field _templateBuilder, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* ____templateBuilder;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 609 };
+
+  /// @brief Field _templateBuilder, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* ____templateBuilder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cmp::RevocationDetailsBuilder, ____templateBuilder) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::RevocationDetailsBuilder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::RevocationDetailsBuilder);

@@ -4,17 +4,16 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BcpgInputStream)
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream_PartialInputStream;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class Packet;
-}
-namespace Org::BouncyCastle::Bcpg {
-class __BcpgInputStream__PartialInputStream;
 }
 namespace System::IO {
 class Stream;
@@ -24,17 +23,16 @@ namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
-class __BcpgInputStream__PartialInputStream;
+class BcpgInputStream_PartialInputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgInputStream);
-MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream);
-// Type: ::PartialInputStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream);
+// Dependencies Org.BouncyCastle.Utilities.IO.BaseInputStream
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::BcpgInputStream::PartialInputStream*
-class CORDL_TYPE __BcpgInputStream__PartialInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
+// CS Name: Org.BouncyCastle.Bcpg.BcpgInputStream/PartialInputStream
+class CORDL_TYPE BcpgInputStream_PartialInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field dataLength, offset 0x3c, size 0x4
@@ -46,24 +44,24 @@ public:
   /// @brief Field partial, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_partial, put = __cordl_internal_set_partial)) bool partial;
 
-  static inline ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
+  static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
-  /// @brief Method Read, addr 0x2610d64, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2644050, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadByte, addr 0x2610b8c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x2643e78, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadPartialDataLength, addr 0x2610c34, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ReadPartialDataLength, addr 0x2643f20, size 0x130, virtual false, abstract: false, final false
   inline int32_t ReadPartialDataLength();
 
   constexpr int32_t const& __cordl_internal_get_dataLength() const;
 
   constexpr int32_t& __cordl_internal_get_dataLength();
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_m_in();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream* const& __cordl_internal_get_m_in() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& __cordl_internal_get_m_in() const;
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_m_in();
 
   constexpr bool const& __cordl_internal_get_partial() const;
 
@@ -75,22 +73,25 @@ public:
 
   constexpr void __cordl_internal_set_partial(bool value);
 
-  /// @brief Method .ctor, addr 0x260eb50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641e3c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn, bool partial, int32_t dataLength);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BcpgInputStream__PartialInputStream();
+  constexpr BcpgInputStream_PartialInputStream();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BcpgInputStream__PartialInputStream", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BcpgInputStream__PartialInputStream(__BcpgInputStream__PartialInputStream&&) = delete;
+  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BcpgInputStream__PartialInputStream", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BcpgInputStream_PartialInputStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BcpgInputStream__PartialInputStream(__BcpgInputStream__PartialInputStream const&) = delete;
+  BcpgInputStream_PartialInputStream(BcpgInputStream_PartialInputStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 552 };
 
   /// @brief Field m_in, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::BcpgInputStream* ___m_in;
@@ -101,30 +102,26 @@ public:
   /// @brief Field dataLength, offset: 0x3c, size: 0x4, def value: None
   int32_t ___dataLength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 552 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, 0x40>, "Size mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream, ___m_in) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___m_in) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream, ___partial) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___partial) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream, ___dataLength) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream, ___dataLength) == 0x3c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream, 0x40>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
-// Type: Org.BouncyCastle.Bcpg::BcpgInputStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.IO.BaseInputStream
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::BcpgInputStream*
+// CS Name: Org.BouncyCastle.Bcpg.BcpgInputStream
 class CORDL_TYPE BcpgInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
-  using PartialInputStream = ::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream;
+  using PartialInputStream = ::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream;
 
   /// @brief Field m_in, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_in, put = __cordl_internal_set_m_in)) ::System::IO::Stream* m_in;
@@ -135,38 +132,38 @@ public:
   /// @brief Field nextB, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_nextB, put = __cordl_internal_set_nextB)) int32_t nextB;
 
-  /// @brief Method Close, addr 0x2610b24, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2643e10, size 0x68, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method NextPacketTag, addr 0x260e3d8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method NextPacketTag, addr 0x26416c4, size 0xe0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag NextPacketTag();
 
-  /// @brief Method Read, addr 0x260e2b0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x264159c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAll, addr 0x260e360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadAll, addr 0x264164c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll();
 
-  /// @brief Method ReadByte, addr 0x260e270, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x264155c, size 0x40, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method ReadFully, addr 0x260e3bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x26416a8, size 0x1c, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method ReadFully, addr 0x260e368, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ReadFully, addr 0x2641654, size 0x54, virtual false, abstract: false, final false
   inline void ReadFully(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t off, int32_t len);
 
-  /// @brief Method ReadPacket, addr 0x260e4b8, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x26417a4, size 0x698, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::Packet* ReadPacket();
 
-  /// @brief Method Wrap, addr 0x260e1b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Wrap, addr 0x264149c, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* Wrap(::System::IO::Stream* inStr);
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_m_in();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_m_in() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_in() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_in();
 
   constexpr bool const& __cordl_internal_get_next() const;
 
@@ -182,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set_nextB(int32_t value);
 
-  /// @brief Method .ctor, addr 0x260e244, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2641530, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:
@@ -199,6 +196,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BcpgInputStream(BcpgInputStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 553 };
+
   /// @brief Field m_in, offset: 0x30, size: 0x8, def value: None
   ::System::IO::Stream* ___m_in;
 
@@ -208,22 +208,19 @@ public:
   /// @brief Field nextB, offset: 0x3c, size: 0x4, def value: None
   int32_t ___nextB;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 553 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::BcpgInputStream, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___m_in) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___next) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::BcpgInputStream, ___nextB) == 0x3c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::BcpgInputStream, 0x40>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::BcpgInputStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::BcpgInputStream*, "Org.BouncyCastle.Bcpg", "BcpgInputStream");
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::__BcpgInputStream__PartialInputStream*, "Org.BouncyCastle.Bcpg", "BcpgInputStream/PartialInputStream");
+NEED_NO_BOX(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::BcpgInputStream_PartialInputStream*, "Org.BouncyCastle.Bcpg", "BcpgInputStream/PartialInputStream");

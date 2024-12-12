@@ -12,11 +12,10 @@ struct INVALIDATION_FLAGS;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::INVALIDATION_FLAGS);
-// Type: LIV.SDK.Unity::INVALIDATION_FLAGS
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::INVALIDATION_FLAGS
+// CS Name: LIV.SDK.Unity.INVALIDATION_FLAGS
 struct CORDL_TYPE INVALIDATION_FLAGS {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr INVALIDATION_FLAGS(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field EXCLUDE_BEHAVIOURS value: static_cast<uint32_t>(0x70000008u)
+  /// @brief Field EXCLUDE_BEHAVIOURS value: U32(1879048200)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const EXCLUDE_BEHAVIOURS;
 
-  /// @brief Field HMD_CAMERA value: static_cast<uint32_t>(0x8040201u)
+  /// @brief Field HMD_CAMERA value: U32(134480385)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const HMD_CAMERA;
 
-  /// @brief Field MR_CAMERA_PREFAB value: static_cast<uint32_t>(0x804u)
+  /// @brief Field MR_CAMERA_PREFAB value: U32(2052)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const MR_CAMERA_PREFAB;
 
-  /// @brief Field NONE value: static_cast<uint32_t>(0x4020100u)
+  /// @brief Field NONE value: U32(67240192)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const NONE;
 
-  /// @brief Field STAGE value: static_cast<uint32_t>(0x80402u)
+  /// @brief Field STAGE value: U32(525314)
   static ::LIV::SDK::Unity::INVALIDATION_FLAGS const STAGE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17300 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::INVALIDATION_FLAGS, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::INVALIDATION_FLAGS, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::INVALIDATION_FLAGS, 0x4>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::INVALIDATION_FLAGS, "LIV.SDK.Unity", "INVALIDATION_FLAGS");

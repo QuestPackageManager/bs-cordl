@@ -18,11 +18,10 @@ class LockRecursionException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::LockRecursionException);
-// Type: System.Threading::LockRecursionException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::LockRecursionException*
+// CS Name: System.Threading.LockRecursionException
 class CORDL_TYPE LockRecursionException : public ::System::Exception {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Threading::LockRecursionException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3deba68, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4bb14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3debb28, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4bbd4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3debac0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4bb6c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

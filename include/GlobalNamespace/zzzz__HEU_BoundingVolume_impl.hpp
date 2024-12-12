@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Collider> (::GlobalNamespace::HEU_BoundingVolume::*)()>(
     &::GlobalNamespace::HEU_BoundingVolume::get_BoundingCollider)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39ac2d8;
+  constexpr static std::size_t addrs = 0x3a02f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_BoundingVolume*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* (
     ::GlobalNamespace::HEU_BoundingVolume::*)()>(&::GlobalNamespace::HEU_BoundingVolume::GetAllIntersectingObjects)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x39ac320;
+  constexpr static std::size_t addrs = 0x3a02f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_BoundingVolume*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_BoundingVolume::*)()>(&::GlobalNamespace::HEU_BoundingVolume::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ac630;
+  constexpr static std::size_t addrs = 0x3a032a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_BoundingVolume*>::get(), ".ctor",
@@ -56,13 +56,13 @@ inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject
                                                                              "GetAllIntersectingObjects", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::HEU_BoundingVolume* GlobalNamespace::HEU_BoundingVolume::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HEU_BoundingVolume*>());
-}
 inline void GlobalNamespace::HEU_BoundingVolume::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_BoundingVolume*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HEU_BoundingVolume* GlobalNamespace::HEU_BoundingVolume::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HEU_BoundingVolume*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HEU_BoundingVolume::HEU_BoundingVolume() {}

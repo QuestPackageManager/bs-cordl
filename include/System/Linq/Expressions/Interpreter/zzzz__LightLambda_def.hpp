@@ -4,8 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightLambda)
@@ -25,10 +23,10 @@ namespace System::Linq::Expressions::Interpreter {
 class LightDelegateCreator;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __LightLambda__DebugViewPrinter;
+class LightLambda_DebugViewPrinter;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __LightLambda____c__DisplayClass74_0;
+class LightLambda___c__DisplayClass74_0;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -56,21 +54,20 @@ namespace System::Linq::Expressions::Interpreter {
 class LightLambda;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __LightLambda__DebugViewPrinter;
+class LightLambda_DebugViewPrinter;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __LightLambda____c__DisplayClass74_0;
+class LightLambda___c__DisplayClass74_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LightLambda);
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter);
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0);
-// Type: ::DebugViewPrinter
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter);
+MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0);
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::LightLambda::DebugViewPrinter*
-class CORDL_TYPE __LightLambda__DebugViewPrinter : public ::System::Object {
+// CS Name: System.Linq.Expressions.Interpreter.LightLambda/DebugViewPrinter
+class CORDL_TYPE LightLambda_DebugViewPrinter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _handlerEnter, offset 0x20, size 0x8
@@ -88,48 +85,48 @@ public:
   /// @brief Field _tryStart, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__tryStart, put = __cordl_internal_set__tryStart)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _tryStart;
 
-  /// @brief Method AddHandlerExit, addr 0x4085fa0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddHandlerExit, addr 0x40e72b4, size 0xa4, virtual false, abstract: false, final false
   inline void AddHandlerExit(int32_t index);
 
-  /// @brief Method AddTryStart, addr 0x4085ecc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddTryStart, addr 0x40e71e0, size 0xd4, virtual false, abstract: false, final false
   inline void AddTryStart(int32_t index);
 
-  /// @brief Method Analyze, addr 0x4085c40, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Analyze, addr 0x40e6f54, size 0x28c, virtual false, abstract: false, final false
   inline void Analyze();
 
-  /// @brief Method Dedent, addr 0x408607c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Dedent, addr 0x40e7390, size 0x38, virtual false, abstract: false, final false
   inline void Dedent();
 
-  /// @brief Method EmitExits, addr 0x4086590, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EmitExits, addr 0x40e78a4, size 0xd4, virtual false, abstract: false, final false
   inline void EmitExits(::System::Text::StringBuilder* sb, int32_t index);
 
-  /// @brief Method Indent, addr 0x4086044, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Indent, addr 0x40e7358, size 0x38, virtual false, abstract: false, final false
   inline void Indent();
 
-  static inline ::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter);
+  static inline ::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter);
 
-  /// @brief Method ToString, addr 0x40860b4, size 0x4dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40e73c8, size 0x4dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* const& __cordl_internal_get__handlerEnter() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__handlerEnter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const& __cordl_internal_get__handlerEnter() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get__handlerExit() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get__handlerExit();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get__handlerExit() const;
 
   constexpr ::StringW const& __cordl_internal_get__indent() const;
 
   constexpr ::StringW& __cordl_internal_get__indent();
 
+  constexpr ::System::Linq::Expressions::Interpreter::Interpreter* const& __cordl_internal_get__interpreter() const;
+
   constexpr ::System::Linq::Expressions::Interpreter::Interpreter*& __cordl_internal_get__interpreter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::Interpreter*> const& __cordl_internal_get__interpreter() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get__tryStart() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get__tryStart();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get__tryStart() const;
 
   constexpr void __cordl_internal_set__handlerEnter(::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* value);
 
@@ -141,22 +138,25 @@ public:
 
   constexpr void __cordl_internal_set__tryStart(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x4083e74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e5188, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LightLambda__DebugViewPrinter();
+  constexpr LightLambda_DebugViewPrinter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LightLambda__DebugViewPrinter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LightLambda__DebugViewPrinter(__LightLambda__DebugViewPrinter&&) = delete;
+  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LightLambda__DebugViewPrinter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda_DebugViewPrinter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LightLambda__DebugViewPrinter(__LightLambda__DebugViewPrinter const&) = delete;
+  LightLambda_DebugViewPrinter(LightLambda_DebugViewPrinter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13953 };
 
   /// @brief Field _interpreter, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::Interpreter* ____interpreter;
@@ -173,31 +173,27 @@ public:
   /// @brief Field _indent, offset: 0x30, size: 0x8, def value: None
   ::StringW ____indent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13919 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, 0x38>, "Size mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, ____interpreter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, ____interpreter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, ____tryStart) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, ____tryStart) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, ____handlerEnter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, ____handlerEnter) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, ____handlerExit) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, ____handlerExit) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, ____indent) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter, ____indent) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter, 0x38>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
-// Type: ::<>c__DisplayClass74_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::LightLambda::<>c__DisplayClass74_0*
-class CORDL_TYPE __LightLambda____c__DisplayClass74_0 : public ::System::Object {
+// CS Name: System.Linq.Expressions.Interpreter.LightLambda/<>c__DisplayClass74_0
+class CORDL_TYPE LightLambda___c__DisplayClass74_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delegateType, offset 0x18, size 0x8
@@ -206,39 +202,42 @@ public:
   /// @brief Field targetMethod, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_targetMethod, put = __cordl_internal_set_targetMethod)) ::System::Reflection::MethodInfo* targetMethod;
 
-  static inline ::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0* New_ctor();
+  static inline ::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0* New_ctor();
 
-  /// @brief Method <MakeRunDelegateCtor>b__0, addr 0x4086664, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <MakeRunDelegateCtor>b__0, addr 0x40e7978, size 0x30, virtual false, abstract: false, final false
   inline ::System::Delegate* _MakeRunDelegateCtor_b__0(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
+
+  constexpr ::System::Type* const& __cordl_internal_get_delegateType() const;
 
   constexpr ::System::Type*& __cordl_internal_get_delegateType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_delegateType() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_targetMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_targetMethod();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_targetMethod() const;
 
   constexpr void __cordl_internal_set_delegateType(::System::Type* value);
 
   constexpr void __cordl_internal_set_targetMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x4084968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e5c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LightLambda____c__DisplayClass74_0();
+  constexpr LightLambda___c__DisplayClass74_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LightLambda____c__DisplayClass74_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LightLambda____c__DisplayClass74_0(__LightLambda____c__DisplayClass74_0&&) = delete;
+  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LightLambda____c__DisplayClass74_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LightLambda___c__DisplayClass74_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LightLambda____c__DisplayClass74_0(__LightLambda____c__DisplayClass74_0 const&) = delete;
+  LightLambda___c__DisplayClass74_0(LightLambda___c__DisplayClass74_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13954 };
 
   /// @brief Field targetMethod, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___targetMethod;
@@ -246,30 +245,26 @@ public:
   /// @brief Field delegateType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___delegateType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13920 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0, ___targetMethod) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0, ___targetMethod) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0, ___delegateType) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0, ___delegateType) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
-// Type: System.Linq.Expressions.Interpreter::LightLambda
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::LightLambda*
+// CS Name: System.Linq.Expressions.Interpreter.LightLambda
 class CORDL_TYPE LightLambda : public ::System::Object {
 public:
   // Declarations
-  using DebugViewPrinter = ::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter;
+  using DebugViewPrinter = ::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter;
 
-  using __c__DisplayClass74_0 = ::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0;
+  using __c__DisplayClass74_0 = ::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0;
 
   __declspec(property(get = get_DebugView)) ::StringW DebugView;
 
@@ -285,20 +280,20 @@ public:
   __declspec(property(get = __cordl_internal_get__interpreter, put = __cordl_internal_set__interpreter)) ::System::Linq::Expressions::Interpreter::Interpreter* _interpreter;
 
   /// @brief Field _runCache, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF__runCache,
       put = setStaticF__runCache)) ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* _runCache;
 
-  /// @brief Method CreateCustomDelegate, addr 0x4084fe0, size 0x91c, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomDelegate, addr 0x40e62f4, size 0x91c, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateCustomDelegate(::System::Type* delegateType);
 
-  /// @brief Method GetRunDelegateCtor, addr 0x4083f80, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetRunDelegateCtor, addr 0x40e5294, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* GetRunDelegateCtor(::System::Type* delegateType);
 
-  /// @brief Method MakeDelegate, addr 0x4083bc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x40e4ed4, size 0x88, virtual false, abstract: false, final false
   inline ::System::Delegate* MakeDelegate(::System::Type* delegateType);
 
-  /// @brief Method MakeFrame, addr 0x4083d28, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MakeFrame, addr 0x40e503c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* MakeFrame();
 
   /// @brief Method MakeRun0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -361,10 +356,10 @@ public:
   template <typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename TRet>
   static inline ::System::Delegate* MakeRun9(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
 
-  /// @brief Method MakeRunDelegateCtor, addr 0x4084100, size 0x868, virtual false, abstract: false, final false
+  /// @brief Method MakeRunDelegateCtor, addr 0x40e5414, size 0x868, virtual false, abstract: false, final false
   static inline ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>* MakeRunDelegateCtor(::System::Type* delegateType);
 
-  /// @brief Method MakeRunVoid0, addr 0x4083d8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MakeRunVoid0, addr 0x40e50a0, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Delegate* MakeRunVoid0(::System::Linq::Expressions::Interpreter::LightLambda* lambda);
 
   /// @brief Method MakeRunVoid1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -426,7 +421,7 @@ public:
   New_ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator,
            ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
-  /// @brief Method Run, addr 0x40858fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x40e6c10, size 0x160, virtual false, abstract: false, final false
   inline ::System::Object* Run(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
   /// @brief Method Run0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -487,10 +482,10 @@ public:
   template <typename T0, typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename TRet>
   inline TRet Run9(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
 
-  /// @brief Method RunVoid, addr 0x4085a5c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RunVoid, addr 0x40e6d70, size 0x154, virtual false, abstract: false, final false
   inline ::System::Object* RunVoid(::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method RunVoid0, addr 0x4083c48, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RunVoid0, addr 0x40e4f5c, size 0xe0, virtual false, abstract: false, final false
   inline void RunVoid0();
 
   /// @brief Method RunVoid1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -548,19 +543,19 @@ public:
   inline void RunVoid9(T0 arg0, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
 
   /// @brief Method RunVoidRef2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T0, typename T1> inline void RunVoidRef2(ByRef<T0> arg0, ByRef<T1> arg1);
+  template <typename T0, typename T1> inline void RunVoidRef2(::ByRef<T0> arg0, ::ByRef<T1> arg1);
 
   constexpr ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> const& __cordl_internal_get__closure() const;
 
   constexpr ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>& __cordl_internal_get__closure();
 
+  constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator* const& __cordl_internal_get__delegateCreator() const;
+
   constexpr ::System::Linq::Expressions::Interpreter::LightDelegateCreator*& __cordl_internal_get__delegateCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::LightDelegateCreator*> const& __cordl_internal_get__delegateCreator() const;
+  constexpr ::System::Linq::Expressions::Interpreter::Interpreter* const& __cordl_internal_get__interpreter() const;
 
   constexpr ::System::Linq::Expressions::Interpreter::Interpreter*& __cordl_internal_get__interpreter();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::Interpreter*> const& __cordl_internal_get__interpreter() const;
 
   constexpr void __cordl_internal_set__closure(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> value);
 
@@ -568,13 +563,13 @@ public:
 
   constexpr void __cordl_internal_set__interpreter(::System::Linq::Expressions::Interpreter::Interpreter* value);
 
-  /// @brief Method .ctor, addr 0x4083b80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e4e94, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LightDelegateCreator* delegateCreator,
                     ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Func_2<::System::Linq::Expressions::Interpreter::LightLambda*, ::System::Delegate*>*>* getStaticF__runCache();
 
-  /// @brief Method get_DebugView, addr 0x4083e08, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DebugView, addr 0x40e511c, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW get_DebugView();
 
   static inline void
@@ -594,6 +589,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightLambda(LightLambda const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13955 };
+
   /// @brief Field _closure, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> ____closure;
 
@@ -603,24 +601,21 @@ public:
   /// @brief Field _delegateCreator, offset: 0x20, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::LightDelegateCreator* ____delegateCreator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13921 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LightLambda, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda, ____closure) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda, ____interpreter) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::LightLambda, ____delegateCreator) == 0x20, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::LightLambda, 0x28>, "Size mismatch!");
+
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightLambda);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightLambda*, "System.Linq.Expressions.Interpreter", "LightLambda");
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LightLambda__DebugViewPrinter*, "System.Linq.Expressions.Interpreter", "LightLambda/DebugViewPrinter");
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LightLambda____c__DisplayClass74_0*, "System.Linq.Expressions.Interpreter", "LightLambda/<>c__DisplayClass74_0");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightLambda_DebugViewPrinter*, "System.Linq.Expressions.Interpreter", "LightLambda/DebugViewPrinter");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0*, "System.Linq.Expressions.Interpreter", "LightLambda/<>c__DisplayClass74_0");

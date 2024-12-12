@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoRichPresencePlatformHandler.hpp"
+#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
-#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoRichPresencePlatformHandler.get_currentPresenceApiName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::get_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acbe2c;
+  constexpr static std::size_t addrs = 0x3b2b470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::StringW)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::set_currentPresenceApiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acbe34;
+  constexpr static std::size_t addrs = 0x3b2b478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)(::GlobalNamespace::IRichPresenceData*)>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::SetPresence)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3acbe3c;
+  constexpr static std::size_t addrs = 0x3b2b480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::Clear)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acbee4;
+  constexpr static std::size_t addrs = 0x3b2b528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::NoRichPresencePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3acbf34;
+  constexpr static std::size_t addrs = 0x3b2b578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(),
@@ -76,14 +76,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
-constexpr GlobalNamespace::NoRichPresencePlatformHandler::operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept {
-  return static_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
-constexpr ::GlobalNamespace::IRichPresencePlatformHandler* GlobalNamespace::NoRichPresencePlatformHandler::i___GlobalNamespace__IRichPresencePlatformHandler() noexcept {
-  return static_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(static_cast<void*>(this));
-}
 constexpr ::StringW& GlobalNamespace::NoRichPresencePlatformHandler::__cordl_internal_get__currentPresenceApiName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPresenceApiName_k__BackingField;
@@ -119,13 +111,21 @@ inline void GlobalNamespace::NoRichPresencePlatformHandler::Clear() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoRichPresencePlatformHandler* GlobalNamespace::NoRichPresencePlatformHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoRichPresencePlatformHandler*>());
-}
 inline void GlobalNamespace::NoRichPresencePlatformHandler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoRichPresencePlatformHandler*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoRichPresencePlatformHandler* GlobalNamespace::NoRichPresencePlatformHandler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoRichPresencePlatformHandler*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
+constexpr GlobalNamespace::NoRichPresencePlatformHandler::operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept {
+  return static_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
+constexpr ::GlobalNamespace::IRichPresencePlatformHandler* GlobalNamespace::NoRichPresencePlatformHandler::i___GlobalNamespace__IRichPresencePlatformHandler() noexcept {
+  return static_cast<::GlobalNamespace::IRichPresencePlatformHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoRichPresencePlatformHandler::NoRichPresencePlatformHandler() {}

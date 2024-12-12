@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DrawParams::*)()>(&::UnityEngine::UIElements::UIR::DrawParams::Reset)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x4952ea4;
+  constexpr static std::size_t addrs = 0x49b77b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DrawParams*>::get(), "Reset",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DrawParams::*)()>(&::UnityEngine::UIElements::UIR::DrawParams::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x494ec6c;
+  constexpr static std::size_t addrs = 0x49b357c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DrawParams*>::get(), ".ctor",
@@ -39,7 +39,7 @@ constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>*& Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___view;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>*> const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_view() const {
+constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_view() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___view;
 }
@@ -51,7 +51,7 @@ constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Rect>*& UnityEn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scissor;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::Rect>*> const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_scissor() const {
+constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Rect>* const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_scissor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scissor;
 }
@@ -63,8 +63,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderT
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___renderTexture;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>*> const&
-UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_renderTexture() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>* const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_renderTexture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___renderTexture;
 }
@@ -76,8 +75,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Materia
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultMaterial;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> const&
-UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_defaultMaterial() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* const& UnityEngine::UIElements::UIR::DrawParams::__cordl_internal_get_defaultMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultMaterial;
 }
@@ -104,13 +102,13 @@ inline void UnityEngine::UIElements::UIR::DrawParams::Reset() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::UIR::DrawParams* UnityEngine::UIElements::UIR::DrawParams::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::DrawParams*>());
-}
 inline void UnityEngine::UIElements::UIR::DrawParams::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DrawParams*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::DrawParams* UnityEngine::UIElements::UIR::DrawParams::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::DrawParams*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::DrawParams::DrawParams() {}

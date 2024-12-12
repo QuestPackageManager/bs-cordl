@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::CharConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::CharConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43e79c0;
+  constexpr static std::size_t addrs = 0x4448cd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::CharConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::CharConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x43e7a88;
+  constexpr static std::size_t addrs = 0x4448d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::CharConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::CharConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x43e7bb8;
+  constexpr static std::size_t addrs = 0x4448ecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CharConverter::*)()>(&::System::ComponentModel::CharConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e7d40;
+  constexpr static std::size_t addrs = 0x4449054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CharConverter*>::get(), ".ctor",
@@ -83,13 +83,13 @@ inline ::System::Object* System::ComponentModel::CharConverter::ConvertFrom(::Sy
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CharConverter*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, context, culture, value);
 }
-inline ::System::ComponentModel::CharConverter* System::ComponentModel::CharConverter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::CharConverter*>());
-}
 inline void System::ComponentModel::CharConverter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CharConverter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::CharConverter* System::ComponentModel::CharConverter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::CharConverter*>());
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::CharConverter::CharConverter() {}

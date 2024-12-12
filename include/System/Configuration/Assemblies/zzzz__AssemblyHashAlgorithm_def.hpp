@@ -12,11 +12,10 @@ struct AssemblyHashAlgorithm;
 }
 // Write type traits
 MARK_VAL_T(::System::Configuration::Assemblies::AssemblyHashAlgorithm);
-// Type: System.Configuration.Assemblies::AssemblyHashAlgorithm
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Configuration::Assemblies {
 // Is value type: true
-// CS Name: ::System.Configuration.Assemblies::AssemblyHashAlgorithm
+// CS Name: System.Configuration.Assemblies.AssemblyHashAlgorithm
 struct CORDL_TYPE AssemblyHashAlgorithm {
 public:
   // Declarations
@@ -49,25 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AssemblyHashAlgorithm(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field MD5 value: static_cast<int32_t>(0x8003)
+  /// @brief Field MD5 value: I32(32771)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const MD5;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const None;
 
-  /// @brief Field SHA1 value: static_cast<int32_t>(0x8004)
+  /// @brief Field SHA1 value: I32(32772)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA1;
 
-  /// @brief Field SHA256 value: static_cast<int32_t>(0x800c)
+  /// @brief Field SHA256 value: I32(32780)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA256;
 
-  /// @brief Field SHA384 value: static_cast<int32_t>(0x800d)
+  /// @brief Field SHA384 value: I32(32781)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA384;
 
-  /// @brief Field SHA512 value: static_cast<int32_t>(0x800e)
+  /// @brief Field SHA512 value: I32(32782)
   static ::System::Configuration::Assemblies::AssemblyHashAlgorithm const SHA512;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,12 +72,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Configuration::Assemblies::AssemblyHashAlgorithm, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Configuration::Assemblies::AssemblyHashAlgorithm, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Configuration::Assemblies::AssemblyHashAlgorithm, 0x4>, "Size mismatch!");
 
 } // namespace System::Configuration::Assemblies
 DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::Assemblies::AssemblyHashAlgorithm, "System.Configuration.Assemblies", "AssemblyHashAlgorithm");

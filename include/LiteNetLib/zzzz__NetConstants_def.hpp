@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetConstants)
 // Forward declare root types
@@ -13,19 +12,18 @@ class NetConstants;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetConstants);
-// Type: LiteNetLib::NetConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::NetConstants*
+// CS Name: LiteNetLib.NetConstants
 class CORDL_TYPE NetConstants : public ::System::Object {
 public:
   // Declarations
   /// @brief Field MaxPacketSize, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_MaxPacketSize, put = setStaticF_MaxPacketSize)) int32_t MaxPacketSize;
+  __declspec(property(get = getStaticF_MaxPacketSize, put = setStaticF_MaxPacketSize)) int32_t MaxPacketSize;
 
   /// @brief Field PossibleMtu, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PossibleMtu, put = setStaticF_PossibleMtu)) ::ArrayW<int32_t, ::Array<int32_t>*> PossibleMtu;
+  __declspec(property(get = getStaticF_PossibleMtu, put = setStaticF_PossibleMtu)) ::ArrayW<int32_t, ::Array<int32_t>*> PossibleMtu;
 
   static inline int32_t getStaticF_MaxPacketSize();
 
@@ -89,7 +87,7 @@ public:
   static constexpr int32_t SocketTTL{ static_cast<int32_t>(0xff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16495 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16531 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

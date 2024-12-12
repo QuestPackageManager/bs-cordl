@@ -1,119 +1,118 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerStatusModel.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusModel_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusModel_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__UriBuilder_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::*)()>(
-    &::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::*)()>(
+    &::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269fb8c;
+  constexpr static std::size_t addrs = 0x26d48c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*>&
-GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::__cordl_internal_get_data() {
+GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::__cordl_internal_get_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> const&
-GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::__cordl_internal_get_data() const {
+GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr void GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::__cordl_internal_set_data(
+constexpr void GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::__cordl_internal_set_data(
     ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB* GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB*>());
-}
-inline void GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::_ctor() {
+inline void GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB* GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerStatusModel__MultiplayerStatusDataFB::__MultiplayerStatusModel__MultiplayerStatusDataFB() {}
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9.MoveNext
+constexpr ::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB::MultiplayerStatusModel_MultiplayerStatusDataFB() {}
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::*)()>(
-    &::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::*)()>(
+    &::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MoveNext)> {
   constexpr static std::size_t size = 0x868;
-  constexpr static std::size_t addrs = 0x269fb94;
+  constexpr static std::size_t addrs = 0x26d48c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26a03fc;
+  constexpr static std::size_t addrs = 0x26d5130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9>::get(),
-                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
+inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9>::get(),
-                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::MultiplayerStatusModel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9(
+// "::GlobalNamespace::MultiplayerStatusModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_uriBuilder_5__2", ty: "::System::UriBuilder*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::MultiplayerStatusData*> __t__builder, ::GlobalNamespace::MultiplayerStatusModel* __4__this,
     ::System::UriBuilder* _uriBuilder_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -123,13 +122,13 @@ constexpr ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9::__MultiplayerStatusModel___GetMultiplayerStatusAsyncInternal_d__9() {}
+constexpr ::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusModel.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x269f94c;
+  constexpr static std::size_t addrs = 0x26d4680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel*>::get(), "Init",
@@ -143,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* (
     ::GlobalNamespace::MultiplayerStatusModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::MultiplayerStatusModel::GetMultiplayerStatusAsync)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x269f97c;
+  constexpr static std::size_t addrs = 0x26d46b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerStatusModel::*)()>(
     &::GlobalNamespace::MultiplayerStatusModel::IsAvailabilityTaskValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x269f9e8;
+  constexpr static std::size_t addrs = 0x26d471c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel*>::get(),
@@ -171,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::StartRequest)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x269f964;
+  constexpr static std::size_t addrs = 0x26d4698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel*>::get(),
@@ -185,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* (
     ::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::GetMultiplayerStatusAsyncInternal)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x269fa44;
+  constexpr static std::size_t addrs = 0x26d4778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusModel::*)()>(&::GlobalNamespace::MultiplayerStatusModel::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x269fb2c;
+  constexpr static std::size_t addrs = 0x26d4860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel*>::get(), ".ctor",
@@ -207,19 +206,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
-constexpr GlobalNamespace::MultiplayerStatusModel::operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerStatusModel*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
-constexpr ::GlobalNamespace::IMultiplayerStatusModel* GlobalNamespace::MultiplayerStatusModel::i___GlobalNamespace__IMultiplayerStatusModel() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerStatusModel*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::INetworkConfig*& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__networkConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__networkConfig() const {
+constexpr ::GlobalNamespace::INetworkConfig* const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__networkConfig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
@@ -231,7 +222,7 @@ constexpr ::System::Net::Http::HttpClient*& GlobalNamespace::MultiplayerStatusMo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpClient*> const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__client() const {
+constexpr ::System::Net::Http::HttpClient* const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__client() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
@@ -243,8 +234,7 @@ constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*> const&
-GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__request() const {
+constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* const& GlobalNamespace::MultiplayerStatusModel::__cordl_internal_get__request() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____request;
 }
@@ -280,13 +270,21 @@ inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusDa
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerStatusModel* GlobalNamespace::MultiplayerStatusModel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerStatusModel*>());
-}
 inline void GlobalNamespace::MultiplayerStatusModel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusModel*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerStatusModel* GlobalNamespace::MultiplayerStatusModel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerStatusModel*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
+constexpr GlobalNamespace::MultiplayerStatusModel::operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerStatusModel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
+constexpr ::GlobalNamespace::IMultiplayerStatusModel* GlobalNamespace::MultiplayerStatusModel::i___GlobalNamespace__IMultiplayerStatusModel() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerStatusModel*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerStatusModel::MultiplayerStatusModel() {}

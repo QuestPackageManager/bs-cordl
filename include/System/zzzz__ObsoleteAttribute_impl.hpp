@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObsoleteAttribute::*)()>(&::System::ObsoleteAttribute::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d98d5c;
+  constexpr static std::size_t addrs = 0x3df8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), ".ctor",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObsoleteAttribute::*)(::StringW)>(&::System::ObsoleteAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d98d7c;
+  constexpr static std::size_t addrs = 0x3df8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObsoleteAttribute::*)(::StringW, bool)>(&::System::ObsoleteAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d98da8;
+  constexpr static std::size_t addrs = 0x3df8e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObsoleteAttribute::*)()>(&::System::ObsoleteAttribute::get_Message)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d98dd8;
+  constexpr static std::size_t addrs = 0x3df8e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), "get_Message",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ObsoleteAttribute::*)()>(&::System::ObsoleteAttribute::get_IsError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d98de0;
+  constexpr static std::size_t addrs = 0x3df8e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), "get_IsError",
@@ -93,25 +93,16 @@ constexpr void System::ObsoleteAttribute::__cordl_internal_set__error(bool value
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____error = value;
 }
-inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>());
-}
 inline void System::ObsoleteAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>(message));
 }
 inline void System::ObsoleteAttribute::_ctor(::StringW message) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
-}
-inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor(::StringW message, bool error) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>(message, error));
 }
 inline void System::ObsoleteAttribute::_ctor(::StringW message, bool error) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,6 +119,15 @@ inline bool System::ObsoleteAttribute::get_IsError() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObsoleteAttribute*>::get(), "get_IsError",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>());
+}
+inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>(message));
+}
+inline ::System::ObsoleteAttribute* System::ObsoleteAttribute::New_ctor(::StringW message, bool error) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObsoleteAttribute*>(message, error));
 }
 // Ctor Parameters []
 constexpr ::System::ObsoleteAttribute::ObsoleteAttribute() {}

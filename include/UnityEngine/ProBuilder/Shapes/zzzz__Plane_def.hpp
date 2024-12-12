@@ -27,11 +27,10 @@ class Plane;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Plane);
-// Type: UnityEngine.ProBuilder.Shapes::Plane
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::Plane*
+// CS Name: UnityEngine.ProBuilder.Shapes.Plane
 class CORDL_TYPE Plane : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
@@ -41,12 +40,12 @@ public:
   /// @brief Field m_WidthSegments, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WidthSegments, put = __cordl_internal_set_m_WidthSegments)) int32_t m_WidthSegments;
 
-  /// @brief Method CopyShape, addr 0x46eeeec, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4750200, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Plane* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46eef98, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x47502ac, size 0x258, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   constexpr int32_t const& __cordl_internal_get_m_HeightSegments() const;
@@ -61,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WidthSegments(int32_t value);
 
-  /// @brief Method .ctor, addr 0x46ef1f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4750504, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Plane(Plane const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14343 };
+
   /// @brief Field m_HeightSegments, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_HeightSegments;
 
   /// @brief Field m_WidthSegments, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_WidthSegments;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14309 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Plane, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_HeightSegments) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Plane, ___m_WidthSegments) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Plane, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Plane);

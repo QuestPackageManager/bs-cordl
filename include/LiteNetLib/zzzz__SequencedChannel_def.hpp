@@ -18,11 +18,10 @@ class SequencedChannel;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::SequencedChannel);
-// Type: LiteNetLib::SequencedChannel
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LiteNetLib.BaseChannel
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::SequencedChannel*
+// CS Name: LiteNetLib.SequencedChannel
 class CORDL_TYPE SequencedChannel : public ::LiteNetLib::BaseChannel {
 public:
   // Declarations
@@ -52,23 +51,23 @@ public:
 
   static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method ProcessPacket, addr 0x3a64d5c, size 0x208, virtual true, abstract: false, final false
+  /// @brief Method ProcessPacket, addr 0x3abb9cc, size 0x208, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets, addr 0x3a64a50, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method SendNextPackets, addr 0x3abb6c0, size 0x30c, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
+  constexpr ::LiteNetLib::NetPacket* const& __cordl_internal_get__ackPacket() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__ackPacket() const;
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__ackPacket();
 
   constexpr uint8_t const& __cordl_internal_get__id() const;
 
   constexpr uint8_t& __cordl_internal_get__id();
 
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__lastPacket();
+  constexpr ::LiteNetLib::NetPacket* const& __cordl_internal_get__lastPacket() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__lastPacket() const;
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__lastPacket();
 
   constexpr int64_t const& __cordl_internal_get__lastPacketSendTime() const;
 
@@ -106,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__remoteSequence(uint16_t value);
 
-  /// @brief Method .ctor, addr 0x3a60754, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ab73c4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
 protected:
@@ -122,6 +121,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SequencedChannel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SequencedChannel(SequencedChannel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16561 };
 
   /// @brief Field _localSequence, offset: 0x28, size: 0x4, def value: None
   int32_t ____localSequence;
@@ -147,14 +149,9 @@ public:
   /// @brief Field _lastPacketSendTime, offset: 0x48, size: 0x8, def value: None
   int64_t ____lastPacketSendTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16525 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::SequencedChannel, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::SequencedChannel, ____localSequence) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::SequencedChannel, ____remoteSequence) == 0x2c, "Offset mismatch!");
@@ -170,6 +167,8 @@ static_assert(offsetof(::LiteNetLib::SequencedChannel, ____mustSendAck) == 0x40,
 static_assert(offsetof(::LiteNetLib::SequencedChannel, ____id) == 0x41, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::SequencedChannel, ____lastPacketSendTime) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::SequencedChannel, 0x50>, "Size mismatch!");
 
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::SequencedChannel);

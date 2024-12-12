@@ -1,5 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerLevelFinishedController.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
@@ -10,254 +13,249 @@
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelFinishedController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)(int32_t)>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)(int32_t)>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b4c260;
+  constexpr static std::size_t addrs = 0x3badc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b4c56c;
+  constexpr static std::size_t addrs = 0x3badf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::MoveNext)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x3b4c570;
+  constexpr static std::size_t addrs = 0x3badf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4ca14;
+  constexpr static std::size_t addrs = 0x3bae420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b4ca1c;
+  constexpr static std::size_t addrs = 0x3bae428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::*)()>(
+    &::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4ca54;
+  constexpr static std::size_t addrs = 0x3bae460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr int32_t& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get_localPlayerResults() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___localPlayerResults;
+}
+constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults* const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get_localPlayerResults() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___localPlayerResults;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localPlayerResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController>& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr float_t& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__waitStartTime_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____waitStartTime_5__2;
+}
+constexpr float_t const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__waitStartTime_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____waitStartTime_5__2;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set__waitStartTime_5__2(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____waitStartTime_5__2 = value;
+}
+constexpr bool& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__isPlayingAlone_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPlayingAlone_5__3;
+}
+constexpr bool const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__isPlayingAlone_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____isPlayingAlone_5__3;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set__isPlayingAlone_5__3(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____isPlayingAlone_5__3 = value;
+}
+constexpr float_t& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__resultsTimeoutLength_5__4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resultsTimeoutLength_5__4;
+}
+constexpr float_t const& GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_get__resultsTimeoutLength_5__4() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____resultsTimeoutLength_5__4;
+}
+constexpr void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::__cordl_internal_set__resultsTimeoutLength_5__4(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____resultsTimeoutLength_5__4 = value;
+}
+inline void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20* GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20*>(__1__state));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get_localPlayerResults() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___localPlayerResults;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const&
-GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get_localPlayerResults() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___localPlayerResults;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set_localPlayerResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localPlayerResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController>& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> const&
-GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLevelFinishedController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr float_t& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__waitStartTime_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____waitStartTime_5__2;
-}
-constexpr float_t const& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__waitStartTime_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____waitStartTime_5__2;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set__waitStartTime_5__2(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____waitStartTime_5__2 = value;
-}
-constexpr bool& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__isPlayingAlone_5__3() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isPlayingAlone_5__3;
-}
-constexpr bool const& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__isPlayingAlone_5__3() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isPlayingAlone_5__3;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set__isPlayingAlone_5__3(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____isPlayingAlone_5__3 = value;
-}
-constexpr float_t& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__resultsTimeoutLength_5__4() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____resultsTimeoutLength_5__4;
-}
-constexpr float_t const& GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_get__resultsTimeoutLength_5__4() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____resultsTimeoutLength_5__4;
-}
-constexpr void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__cordl_internal_set__resultsTimeoutLength_5__4(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____resultsTimeoutLength_5__4 = value;
-}
-inline ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*
-GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>(__1__state));
-}
-inline void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::_ctor(int32_t __1__state) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
-                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__20::__MultiplayerLevelFinishedController___StartLevelFinished_d__20() {}
+constexpr ::GlobalNamespace::MultiplayerLevelFinishedController__StartLevelFinished_d__20::MultiplayerLevelFinishedController__StartLevelFinished_d__20() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelFinishedController.add_allResultsCollectedEvent
 template <>
 
@@ -265,7 +263,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b4bbb8;
+  constexpr static std::size_t addrs = 0x3bad5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +280,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*)>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::remove_allResultsCollectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b4bc68;
+  constexpr static std::size_t addrs = 0x3bad674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_gameResultsReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4bd18;
+  constexpr static std::size_t addrs = 0x3bad724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -313,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(&::GlobalNamespace::MultiplayerLevelFinishedController::get_otherPlayersCompletionResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4bd20;
+  constexpr static std::size_t addrs = 0x3bad72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerLevelCompletionResults* (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::get_localPlayerResults)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4bd28;
+  constexpr static std::size_t addrs = 0x3bad734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -342,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::Start)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3b4bd30;
+  constexpr static std::size_t addrs = 0x3bad73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -356,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::OnDestroy)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3b4bf8c;
+  constexpr static std::size_t addrs = 0x3bad998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -370,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerLevelFinishedController::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::StartLevelFinished)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b4c1f4;
+  constexpr static std::size_t addrs = 0x3badc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b4c288;
+  constexpr static std::size_t addrs = 0x3badc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandlePlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b4c2a8;
+  constexpr static std::size_t addrs = 0x3badcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)(
     ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLevelFinishedController::HandleRpcLevelFinished)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3b4c2dc;
+  constexpr static std::size_t addrs = 0x3badce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelFinishedController::*)()>(
     &::GlobalNamespace::MultiplayerLevelFinishedController::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b4c4f0;
+  constexpr static std::size_t addrs = 0x3badefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
@@ -443,8 +441,7 @@ constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& GlobalNamesp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelEndActionsPublisher;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const&
-GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__levelEndActionsPublisher() const {
+constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__levelEndActionsPublisher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelEndActionsPublisher;
 }
@@ -456,7 +453,7 @@ constexpr ::GlobalNamespace::IGameplayRpcManager*& GlobalNamespace::MultiplayerL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__rpcManager() const {
+constexpr ::GlobalNamespace::IGameplayRpcManager* const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__rpcManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcManager;
 }
@@ -468,8 +465,7 @@ constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
-GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
@@ -481,7 +477,7 @@ constexpr ::GlobalNamespace::BeatmapBasicData*& GlobalNamespace::MultiplayerLeve
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapBasicData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapBasicData*> const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__beatmapBasicData() const {
+constexpr ::GlobalNamespace::BeatmapBasicData* const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__beatmapBasicData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapBasicData;
 }
@@ -494,8 +490,8 @@ GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get_allRes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allResultsCollectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
+                             ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* const&
 GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get_allResultsCollectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allResultsCollectedEvent;
@@ -510,7 +506,7 @@ GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__other
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayersCompletionResults;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* const&
 GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__otherPlayersCompletionResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayersCompletionResults;
@@ -524,8 +520,7 @@ constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerResults;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const&
-GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__localPlayerResults() const {
+constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults* const& GlobalNamespace::MultiplayerLevelFinishedController::__cordl_internal_get__localPlayerResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerResults;
 }
@@ -626,13 +621,13 @@ inline void GlobalNamespace::MultiplayerLevelFinishedController::HandleRpcLevelF
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId, results);
 }
-inline ::GlobalNamespace::MultiplayerLevelFinishedController* GlobalNamespace::MultiplayerLevelFinishedController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLevelFinishedController*>());
-}
 inline void GlobalNamespace::MultiplayerLevelFinishedController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelFinishedController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLevelFinishedController* GlobalNamespace::MultiplayerLevelFinishedController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLevelFinishedController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelFinishedController::MultiplayerLevelFinishedController() {}

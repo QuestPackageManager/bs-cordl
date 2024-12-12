@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ScoreController.hpp"
+#include "GlobalNamespace/zzzz__IScoreController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
@@ -10,11 +11,11 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__GoodCutScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
-#include "GlobalNamespace/zzzz__IScoreController_def.hpp"
 #include "GlobalNamespace/zzzz__MissScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeadAndObstacleInteraction_def.hpp"
+#include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::GlobalNamespace::ScoreController::add_scoreDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b880ec;
+  constexpr static std::size_t addrs = 0x3be9934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::GlobalNamespace::ScoreController::remove_scoreDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8819c;
+  constexpr static std::size_t addrs = 0x3be99e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_2<int32_t, float_t>*)>(
     &::GlobalNamespace::ScoreController::add_multiplierDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8824c;
+  constexpr static std::size_t addrs = 0x3be9a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_2<int32_t, float_t>*)>(
     &::GlobalNamespace::ScoreController::remove_multiplierDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b882fc;
+  constexpr static std::size_t addrs = 0x3be9b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_1<::GlobalNamespace::ScoringElement*>*)>(
     &::GlobalNamespace::ScoreController::add_scoringForNoteStartedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b883ac;
+  constexpr static std::size_t addrs = 0x3be9bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_1<::GlobalNamespace::ScoringElement*>*)>(
     &::GlobalNamespace::ScoreController::remove_scoringForNoteStartedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8845c;
+  constexpr static std::size_t addrs = 0x3be9ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_1<::GlobalNamespace::ScoringElement*>*)>(
     &::GlobalNamespace::ScoreController::add_scoringForNoteFinishedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b8850c;
+  constexpr static std::size_t addrs = 0x3be9d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::System::Action_1<::GlobalNamespace::ScoringElement*>*)>(
     &::GlobalNamespace::ScoreController::remove_scoringForNoteFinishedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b885bc;
+  constexpr static std::size_t addrs = 0x3be9e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::get_invalidated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8866c;
+  constexpr static std::size_t addrs = 0x3be9eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "get_invalidated",
@@ -158,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::get_multipliedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b88674;
+  constexpr static std::size_t addrs = 0x3be9ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(),
@@ -172,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreController::*)()>(
     &::GlobalNamespace::ScoreController::get_immediateMaxPossibleMultipliedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8867c;
+  constexpr static std::size_t addrs = 0x3be9ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -186,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::get_modifiedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b88684;
+  constexpr static std::size_t addrs = 0x3be9ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "get_modifiedScore",
@@ -200,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreController::*)()>(
     &::GlobalNamespace::ScoreController::get_immediateMaxPossibleModifiedScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8868c;
+  constexpr static std::size_t addrs = 0x3be9ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(bool)>(&::GlobalNamespace::ScoreController::SetEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b88694;
+  constexpr static std::size_t addrs = 0x3be9edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,8 +228,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::Start)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3b886a0;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x3be9ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "Start",
@@ -240,8 +241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::OnDestroy)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3b888e0;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x3bea124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "OnDestroy",
@@ -253,8 +254,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::LateUpdate)> {
-  constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x3b88abc;
+  constexpr static std::size_t size = 0x79c;
+  constexpr static std::size_t addrs = 0x3bea2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "LateUpdate",
@@ -268,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::ScoreController::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b89498;
+  constexpr static std::size_t addrs = 0x3beacb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -281,15 +282,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::ScoreController::*)(::GlobalNamespace::NoteController*, ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::ScoreController::HandleNoteWasCut)> {
+    static_cast<void (::GlobalNamespace::ScoreController::*)(::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::ScoreController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3b89534;
+  constexpr static std::size_t addrs = 0x3bead4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -299,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::ScoreController::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b89768;
+  constexpr static std::size_t addrs = 0x3beaf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)()>(
     &::GlobalNamespace::ScoreController::HandlePlayerHeadDidEnterObstacles)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b898c0;
+  constexpr static std::size_t addrs = 0x3beb0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)(::GlobalNamespace::ScoringElement*)>(
     &::GlobalNamespace::ScoreController::DespawnScoringElement)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3b89318;
+  constexpr static std::size_t addrs = 0x3beab30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreController::*)()>(&::GlobalNamespace::ScoreController::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b8992c;
+  constexpr static std::size_t addrs = 0x3beb144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), ".ctor",
@@ -351,14 +352,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IScoreController"
-constexpr GlobalNamespace::ScoreController::operator ::GlobalNamespace::IScoreController*() noexcept {
-  return static_cast<::GlobalNamespace::IScoreController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IScoreController"
-constexpr ::GlobalNamespace::IScoreController* GlobalNamespace::ScoreController::i___GlobalNamespace__IScoreController() noexcept {
-  return static_cast<::GlobalNamespace::IScoreController*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& GlobalNamespace::ScoreController::__cordl_internal_get__gameplayModifiersModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
@@ -375,7 +368,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::ScoreControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::ScoreController::__cordl_internal_get__gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::ScoreController::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
@@ -387,7 +380,7 @@ constexpr ::GlobalNamespace::IGameEnergyCounter*& GlobalNamespace::ScoreControll
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameEnergyCounter*> const& GlobalNamespace::ScoreController::__cordl_internal_get__gameEnergyCounter() const {
+constexpr ::GlobalNamespace::IGameEnergyCounter* const& GlobalNamespace::ScoreController::__cordl_internal_get__gameEnergyCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
@@ -399,7 +392,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::ScoreContro
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::ScoreController::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::ScoreController::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -419,39 +412,51 @@ constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__audioTime
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__GoodCutScoringElement__Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__goodCutScoringElementPool() {
+constexpr ::GlobalNamespace::RecPlayBehaviour_State*& GlobalNamespace::ScoreController::__cordl_internal_get__recPlayState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____recPlayState;
+}
+constexpr ::GlobalNamespace::RecPlayBehaviour_State* const& GlobalNamespace::ScoreController::__cordl_internal_get__recPlayState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____recPlayState;
+}
+constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__recPlayState(::GlobalNamespace::RecPlayBehaviour_State* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recPlayState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::GoodCutScoringElement_Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__goodCutScoringElementPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutScoringElementPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__GoodCutScoringElement__Pool*> const& GlobalNamespace::ScoreController::__cordl_internal_get__goodCutScoringElementPool() const {
+constexpr ::GlobalNamespace::GoodCutScoringElement_Pool* const& GlobalNamespace::ScoreController::__cordl_internal_get__goodCutScoringElementPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goodCutScoringElementPool;
 }
-constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__goodCutScoringElementPool(::GlobalNamespace::__GoodCutScoringElement__Pool* value) {
+constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__goodCutScoringElementPool(::GlobalNamespace::GoodCutScoringElement_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goodCutScoringElementPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BadCutScoringElement__Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__badCutScoringElementPool() {
+constexpr ::GlobalNamespace::BadCutScoringElement_Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__badCutScoringElementPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutScoringElementPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BadCutScoringElement__Pool*> const& GlobalNamespace::ScoreController::__cordl_internal_get__badCutScoringElementPool() const {
+constexpr ::GlobalNamespace::BadCutScoringElement_Pool* const& GlobalNamespace::ScoreController::__cordl_internal_get__badCutScoringElementPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutScoringElementPool;
 }
-constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__badCutScoringElementPool(::GlobalNamespace::__BadCutScoringElement__Pool* value) {
+constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__badCutScoringElementPool(::GlobalNamespace::BadCutScoringElement_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badCutScoringElementPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MissScoringElement__Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__missScoringElementPool() {
+constexpr ::GlobalNamespace::MissScoringElement_Pool*& GlobalNamespace::ScoreController::__cordl_internal_get__missScoringElementPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missScoringElementPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MissScoringElement__Pool*> const& GlobalNamespace::ScoreController::__cordl_internal_get__missScoringElementPool() const {
+constexpr ::GlobalNamespace::MissScoringElement_Pool* const& GlobalNamespace::ScoreController::__cordl_internal_get__missScoringElementPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missScoringElementPool;
 }
-constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__missScoringElementPool(::GlobalNamespace::__MissScoringElement__Pool* value) {
+constexpr void GlobalNamespace::ScoreController::__cordl_internal_set__missScoringElementPool(::GlobalNamespace::MissScoringElement_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missScoringElementPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -471,7 +476,7 @@ constexpr ::System::Action_2<int32_t, int32_t>*& GlobalNamespace::ScoreControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, int32_t>*> const& GlobalNamespace::ScoreController::__cordl_internal_get_scoreDidChangeEvent() const {
+constexpr ::System::Action_2<int32_t, int32_t>* const& GlobalNamespace::ScoreController::__cordl_internal_get_scoreDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoreDidChangeEvent;
 }
@@ -483,7 +488,7 @@ constexpr ::System::Action_2<int32_t, float_t>*& GlobalNamespace::ScoreControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplierDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, float_t>*> const& GlobalNamespace::ScoreController::__cordl_internal_get_multiplierDidChangeEvent() const {
+constexpr ::System::Action_2<int32_t, float_t>* const& GlobalNamespace::ScoreController::__cordl_internal_get_multiplierDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplierDidChangeEvent;
 }
@@ -495,8 +500,7 @@ constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& GlobalNamespa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringForNoteStartedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get_scoringForNoteStartedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>* const& GlobalNamespace::ScoreController::__cordl_internal_get_scoringForNoteStartedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringForNoteStartedEvent;
 }
@@ -508,8 +512,7 @@ constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>*& GlobalNamespa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringForNoteFinishedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ScoringElement*>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get_scoringForNoteFinishedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::ScoringElement*>* const& GlobalNamespace::ScoreController::__cordl_internal_get_scoringForNoteFinishedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scoringForNoteFinishedEvent;
 }
@@ -521,8 +524,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Gam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get__gameplayModifierParams() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& GlobalNamespace::ScoreController::__cordl_internal_get__gameplayModifierParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifierParams;
 }
@@ -606,7 +608,7 @@ constexpr ::GlobalNamespace::ScoreMultiplierCounter*& GlobalNamespace::ScoreCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxScoreMultiplierCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScoreMultiplierCounter*> const& GlobalNamespace::ScoreController::__cordl_internal_get__maxScoreMultiplierCounter() const {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter* const& GlobalNamespace::ScoreController::__cordl_internal_get__maxScoreMultiplierCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxScoreMultiplierCounter;
 }
@@ -618,7 +620,7 @@ constexpr ::GlobalNamespace::ScoreMultiplierCounter*& GlobalNamespace::ScoreCont
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreMultiplierCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScoreMultiplierCounter*> const& GlobalNamespace::ScoreController::__cordl_internal_get__scoreMultiplierCounter() const {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter* const& GlobalNamespace::ScoreController::__cordl_internal_get__scoreMultiplierCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreMultiplierCounter;
 }
@@ -630,8 +632,7 @@ constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::Sco
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedNoteTimesWithoutScoringElements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get__sortedNoteTimesWithoutScoringElements() const {
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::ScoreController::__cordl_internal_get__sortedNoteTimesWithoutScoringElements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedNoteTimesWithoutScoringElements;
 }
@@ -644,8 +645,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedScoringElementsWithoutMultiplier;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get__sortedScoringElementsWithoutMultiplier() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* const& GlobalNamespace::ScoreController::__cordl_internal_get__sortedScoringElementsWithoutMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sortedScoringElementsWithoutMultiplier;
 }
@@ -658,8 +658,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringElementsWithMultiplier;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get__scoringElementsWithMultiplier() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* const& GlobalNamespace::ScoreController::__cordl_internal_get__scoringElementsWithMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringElementsWithMultiplier;
 }
@@ -671,8 +670,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringElementsToRemove;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>*> const&
-GlobalNamespace::ScoreController::__cordl_internal_get__scoringElementsToRemove() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ScoringElement*>* const& GlobalNamespace::ScoreController::__cordl_internal_get__scoringElementsToRemove() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoringElementsToRemove;
 }
@@ -782,11 +780,11 @@ inline void GlobalNamespace::ScoreController::HandleNoteWasSpawned(::GlobalNames
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::ScoreController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::ScoreController::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController, noteCutInfo);
 }
 inline void GlobalNamespace::ScoreController::HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController) {
@@ -807,13 +805,21 @@ inline void GlobalNamespace::ScoreController::DespawnScoringElement(::GlobalName
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScoringElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scoringElement);
 }
-inline ::GlobalNamespace::ScoreController* GlobalNamespace::ScoreController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreController*>());
-}
 inline void GlobalNamespace::ScoreController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScoreController* GlobalNamespace::ScoreController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IScoreController"
+constexpr GlobalNamespace::ScoreController::operator ::GlobalNamespace::IScoreController*() noexcept {
+  return static_cast<::GlobalNamespace::IScoreController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IScoreController"
+constexpr ::GlobalNamespace::IScoreController* GlobalNamespace::ScoreController::i___GlobalNamespace__IScoreController() noexcept {
+  return static_cast<::GlobalNamespace::IScoreController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreController::ScoreController() {}

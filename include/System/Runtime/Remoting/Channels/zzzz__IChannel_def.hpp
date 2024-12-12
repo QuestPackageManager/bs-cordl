@@ -12,11 +12,10 @@ class IChannel;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannel);
-// Type: System.Runtime.Remoting.Channels::IChannel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::IChannel*
+// CS Name: System.Runtime.Remoting.Channels.IChannel
 class CORDL_TYPE IChannel {
 public:
   // Declarations
@@ -24,15 +23,11 @@ public:
 
   __declspec(property(get = get_ChannelPriority)) int32_t ChannelPriority;
 
-  /// @brief Method get_ChannelName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ChannelName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ChannelPriority, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_ChannelPriority();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IChannel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IChannel(IChannel&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

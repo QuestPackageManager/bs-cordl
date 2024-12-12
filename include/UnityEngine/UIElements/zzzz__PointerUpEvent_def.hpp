@@ -10,86 +10,84 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class __PointerUpEvent____c;
+class PointerUpEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
-class __PointerUpEvent____c;
+class PointerUpEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerUpEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__PointerUpEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::PointerUpEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::PointerUpEvent::<>c*
-class CORDL_TYPE __PointerUpEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.PointerUpEvent/<>c
+class CORDL_TYPE PointerUpEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__PointerUpEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerUpEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__PointerUpEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::PointerUpEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49cc63c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a30f4c, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerUpEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49cc634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a30f44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__PointerUpEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::PointerUpEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__PointerUpEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::PointerUpEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerUpEvent____c();
+  constexpr PointerUpEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerUpEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PointerUpEvent____c(__PointerUpEvent____c&&) = delete;
+  PointerUpEvent___c(PointerUpEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerUpEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerUpEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PointerUpEvent____c(__PointerUpEvent____c const&) = delete;
+  PointerUpEvent___c(PointerUpEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5912 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PointerUpEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerUpEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::PointerUpEvent
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 262, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerUpEvent*
+// CS Name: UnityEngine.UIElements.PointerUpEvent
 class CORDL_TYPE PointerUpEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__PointerUpEvent____c;
+  using __c = ::UnityEngine::UIElements::PointerUpEvent___c;
 
-  /// @brief Method Init, addr 0x49cc0ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a309fc, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49cc13c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a30a4c, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49cc290, size 0x348, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a30ba0, size 0x348, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x49cc240, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a30b50, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +105,7 @@ public:
   PointerUpEvent(PointerUpEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -117,5 +115,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Pointer
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerUpEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerUpEvent*, "UnityEngine.UIElements", "PointerUpEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__PointerUpEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PointerUpEvent____c*, "UnityEngine.UIElements", "PointerUpEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::PointerUpEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerUpEvent___c*, "UnityEngine.UIElements", "PointerUpEvent/<>c");

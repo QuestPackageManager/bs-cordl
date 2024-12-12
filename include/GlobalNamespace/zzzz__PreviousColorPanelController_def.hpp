@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreviousColorPanelController)
 namespace HMUI {
@@ -29,11 +28,10 @@ class PreviousColorPanelController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PreviousColorPanelController);
-// Type: ::PreviousColorPanelController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PreviousColorPanelController*
+// CS Name: PreviousColorPanelController
 class CORDL_TYPE PreviousColorPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -56,30 +54,30 @@ public:
   /// @brief Field colorWasSelectedEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_colorWasSelectedEvent, put = __cordl_internal_set_colorWasSelectedEvent)) ::System::Action_1<::UnityEngine::Color>* colorWasSelectedEvent;
 
-  /// @brief Method AddColor, addr 0x3bc51fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColor, addr 0x3c25310, size 0xa4, virtual false, abstract: false, final false
   inline void AddColor(::UnityEngine::Color color);
 
-  /// @brief Method Awake, addr 0x3bc5120, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c25234, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DiscardUpcomingColor, addr 0x3bc52a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method DiscardUpcomingColor, addr 0x3c253b4, size 0xc, virtual false, abstract: false, final false
   inline void DiscardUpcomingColor();
 
   static inline ::GlobalNamespace::PreviousColorPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bc51e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c252f4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <Awake>b__9_0, addr 0x3bc52c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__9_0, addr 0x3c253d4, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__9_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
@@ -93,9 +91,9 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__graphicsColor();
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorWasSelectedEvent();
+  constexpr ::System::Action_1<::UnityEngine::Color>* const& __cordl_internal_get_colorWasSelectedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorWasSelectedEvent() const;
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorWasSelectedEvent();
 
   constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -109,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x3bc52ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c253c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorWasSelectedEvent, addr 0x3bc4fc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorWasSelectedEvent, addr 0x3c250d4, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method remove_colorWasSelectedEvent, addr 0x3bc5070, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorWasSelectedEvent, addr 0x3c25184, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorWasSelectedEvent(::System::Action_1<::UnityEngine::Color>* value);
 
 protected:
@@ -131,6 +129,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PreviousColorPanelController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PreviousColorPanelController(PreviousColorPanelController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18991 };
+
+  /// @brief Field kMaxColors offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxColors{ static_cast<int32_t>(0x2) };
 
   /// @brief Field _graphics, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____graphics;
@@ -150,17 +154,9 @@ public:
   /// @brief Field _graphicsColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____graphicsColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18871 };
-
-  /// @brief Field kMaxColors offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxColors{ static_cast<int32_t>(0x2) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PreviousColorPanelController, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PreviousColorPanelController, ____graphics) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PreviousColorPanelController, ____button) == 0x28, "Offset mismatch!");
@@ -172,6 +168,8 @@ static_assert(offsetof(::GlobalNamespace::PreviousColorPanelController, ____butt
 static_assert(offsetof(::GlobalNamespace::PreviousColorPanelController, ____color) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PreviousColorPanelController, ____graphicsColor) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PreviousColorPanelController, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PreviousColorPanelController);

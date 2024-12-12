@@ -39,13 +39,13 @@ template <typename TObject, typename TObjectDependency> class ChainOperation_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::ChainOperation_2);
-// Type: UnityEngine.ResourceManagement::ChainOperation`2
-// SizeInfo { instance_size: 288, native_size: 281, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
+// UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
 namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject, typename TObjectDependency>
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement::ChainOperation`2<TObject,TObjectDependency>*
+// CS Name: UnityEngine.ResourceManagement.ChainOperation`2<TObject,TObjectDependency>
 class CORDL_TYPE ChainOperation_2 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
@@ -110,18 +110,17 @@ public:
   /// @brief Method ReleaseDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const& __cordl_internal_get_m_CachedOnWrappedCompleted() const;
+
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*& __cordl_internal_get_m_CachedOnWrappedCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-  __cordl_internal_get_m_CachedOnWrappedCompleted() const;
+  constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
+                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const&
+  __cordl_internal_get_m_Callback() const;
 
   constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
   __cordl_internal_get_m_Callback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
-                                                                 ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-  __cordl_internal_get_m_Callback() const;
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> const& __cordl_internal_get_m_DepOp() const;
 
@@ -181,6 +180,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChainOperation_2(ChainOperation_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15587 };
+
   /// @brief Field m_DepOp, offset: 0x98, size: 0x20, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency> ___m_DepOp;
 
@@ -202,9 +204,6 @@ public:
 
   /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x118, size: 0x1, def value: None
   bool ___m_ReleaseDependenciesOnFailure;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

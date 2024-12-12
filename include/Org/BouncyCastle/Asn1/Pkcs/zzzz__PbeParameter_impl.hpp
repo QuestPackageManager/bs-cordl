@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetInstance)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x23d9948;
+  constexpr static std::size_t addrs = 0x240cc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23d9adc;
+  constexpr static std::size_t addrs = 0x240cdc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x23d9bc0;
+  constexpr static std::size_t addrs = 0x240ceac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetSalt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23d9c70;
+  constexpr static std::size_t addrs = 0x240cf5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>::get(), "GetSalt",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::get_IterationCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23d9c90;
+  constexpr static std::size_t addrs = 0x240cf7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x23d9cac;
+  constexpr static std::size_t addrs = 0x240cf98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___salt;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& Org::BouncyCastle::Asn1::Pkcs::PbeParameter::__cordl_internal_get_salt() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Pkcs::PbeParameter::__cordl_internal_get_salt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___salt;
 }
@@ -113,7 +113,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Pkcs:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Pkcs::PbeParameter::__cordl_internal_get_iterationCount() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Pkcs::PbeParameter::__cordl_internal_get_iterationCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterationCount;
 }
@@ -127,17 +127,11 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* Org::BouncyCastle::Asn1::P
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>(salt, iterationCount));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::PbeParameter::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -160,6 +154,12 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Pbe
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* Org::BouncyCastle::Asn1::Pkcs::PbeParameter::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::PbeParameter*>(salt, iterationCount));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter::PbeParameter() {}

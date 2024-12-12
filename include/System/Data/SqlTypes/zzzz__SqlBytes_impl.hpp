@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "System/Data/SqlTypes/SqlBytes.hpp"
+#include "System/Data/SqlTypes/zzzz__INullable_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBytesCharsState_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
+#include "System/Xml/Serialization/zzzz__IXmlSerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBytes_def.hpp"
-#include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBinary_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
-#include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x415e5fc;
+  constexpr static std::size_t addrs = 0x41bf910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Data::SqlTypes::SqlBytes::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x415e630;
+  constexpr static std::size_t addrs = 0x41bf944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::System::Data::SqlTypes::SqlBinary)>(
     &::System::Data::SqlTypes::SqlBytes::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x415e680;
+  constexpr static std::size_t addrs = 0x41bf994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x415e718;
+  constexpr static std::size_t addrs = 0x41bfa2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_IsNull",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Data::SqlTypes::SqlBytes::*)()>(
     &::System::Data::SqlTypes::SqlBytes::get_Buffer)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x415e728;
+  constexpr static std::size_t addrs = 0x41bfa3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_Buffer",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::get_Length)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x415e8a8;
+  constexpr static std::size_t addrs = 0x41bfbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_Length",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Data::SqlTypes::SqlBytes::*)()>(
     &::System::Data::SqlTypes::SqlBytes::get_Value)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x415e94c;
+  constexpr static std::size_t addrs = 0x41bfc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_Value",
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::SetNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x415e620;
+  constexpr static std::size_t addrs = 0x41bf934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "SetNull",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::CopyStreamToBuffer)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x415e760;
+  constexpr static std::size_t addrs = 0x41bfa74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "CopyStreamToBuffer",
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlBytes::*)()>(&::System::Data::SqlTypes::SqlBytes::FStream)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x415e750;
+  constexpr static std::size_t addrs = 0x41bfa64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "FStream",
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Data::SqlTypes::SqlBytes::SetBuffer)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x415eb54;
+  constexpr static std::size_t addrs = 0x41bfe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlBytes::*)()>(
     &::System::Data::SqlTypes::SqlBytes::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x415eb7c;
+  constexpr static std::size_t addrs = 0x41bfe90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::System::Xml::XmlReader*)>(
     &::System::Data::SqlTypes::SqlBytes::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x415eb84;
+  constexpr static std::size_t addrs = 0x41bfe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::System::Xml::XmlWriter*)>(
     &::System::Data::SqlTypes::SqlBytes::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x415ed48;
+  constexpr static std::size_t addrs = 0x41c005c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(
     &::System::Data::SqlTypes::SqlBytes::GetXsdType)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x415ee7c;
+  constexpr static std::size_t addrs = 0x41c0190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::SqlTypes::SqlBytes::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Data::SqlTypes::SqlBytes::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x415ef08;
+  constexpr static std::size_t addrs = 0x41c021c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SqlTypes::SqlBytes* (*)()>(&::System::Data::SqlTypes::SqlBytes::get_Null)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x415ef40;
+  constexpr static std::size_t addrs = 0x41c0254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_Null",
@@ -257,30 +257,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Data::SqlTypes::INullable"
-constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Data::SqlTypes::INullable*() noexcept {
-  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Data::SqlTypes::INullable"
-constexpr ::System::Data::SqlTypes::INullable* System::Data::SqlTypes::SqlBytes::i___System__Data__SqlTypes__INullable() noexcept {
-  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
-constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Xml::Serialization::IXmlSerializable*() noexcept {
-  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
-constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlBytes::i___System__Xml__Serialization__IXmlSerializable() noexcept {
-  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Data::SqlTypes::SqlBytes::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Data::SqlTypes::SqlBytes::__cordl_internal_get__rgbBuf() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rgbBuf;
@@ -309,7 +285,7 @@ constexpr ::System::IO::Stream*& System::Data::SqlTypes::SqlBytes::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Data::SqlTypes::SqlBytes::__cordl_internal_get__stream() const {
+constexpr ::System::IO::Stream* const& System::Data::SqlTypes::SqlBytes::__cordl_internal_get__stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
@@ -341,25 +317,16 @@ constexpr void System::Data::SqlTypes::SqlBytes::__cordl_internal_set__rgbWorkBu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rgbWorkBuf)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>());
-}
 inline void System::Data::SqlTypes::SqlBytes::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>(buffer));
 }
 inline void System::Data::SqlTypes::SqlBytes::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer);
-}
-inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor(::System::Data::SqlTypes::SqlBinary value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>(value));
 }
 inline void System::Data::SqlTypes::SqlBytes::_ctor(::System::Data::SqlTypes::SqlBinary value) {
   static auto* ___internal_method =
@@ -445,6 +412,39 @@ inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::get
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlBytes*>::get(), "get_Null",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Data::SqlTypes::SqlBytes*, false>(nullptr, ___internal_method);
+}
+inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>());
+}
+inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>(buffer));
+}
+inline ::System::Data::SqlTypes::SqlBytes* System::Data::SqlTypes::SqlBytes::New_ctor(::System::Data::SqlTypes::SqlBinary value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::SqlTypes::SqlBytes*>(value));
+}
+/// @brief Convert operator to "::System::Data::SqlTypes::INullable"
+constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Data::SqlTypes::INullable*() noexcept {
+  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Data::SqlTypes::INullable"
+constexpr ::System::Data::SqlTypes::INullable* System::Data::SqlTypes::SqlBytes::i___System__Data__SqlTypes__INullable() noexcept {
+  return static_cast<::System::Data::SqlTypes::INullable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
+constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Xml::Serialization::IXmlSerializable*() noexcept {
+  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
+constexpr ::System::Xml::Serialization::IXmlSerializable* System::Data::SqlTypes::SqlBytes::i___System__Xml__Serialization__IXmlSerializable() noexcept {
+  return static_cast<::System::Xml::Serialization::IXmlSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Data::SqlTypes::SqlBytes::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Data::SqlTypes::SqlBytes::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Data::SqlTypes::SqlBytes::SqlBytes() {}

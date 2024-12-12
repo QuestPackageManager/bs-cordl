@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializerNamespaces::*)()>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43045c8;
+  constexpr static std::size_t addrs = 0x43658dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializerNamespaces::*)(::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::Add)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43045d0;
+  constexpr static std::size_t addrs = 0x43658e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializerNamespaces::*)(::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::AddInternal)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4304684;
+  constexpr static std::size_t addrs = 0x4365998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> (
     ::System::Xml::Serialization::XmlSerializerNamespaces::*)()>(&::System::Xml::Serialization::XmlSerializerNamespaces::ToArray)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4304724;
+  constexpr static std::size_t addrs = 0x4365a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::XmlSerializerNamespaces::*)()>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4304c60;
+  constexpr static std::size_t addrs = 0x4365f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Xml::Serialization::XmlSerializerNamespaces::*)()>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::get_NamespaceList)> {
   constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x430482c;
+  constexpr static std::size_t addrs = 0x4365b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Xml::Serialization::XmlSerializerNamespaces::*)()>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::get_Namespaces)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43046c0;
+  constexpr static std::size_t addrs = 0x43659d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializerNamespaces::*)(::System::Collections::Hashtable*)>(
     &::System::Xml::Serialization::XmlSerializerNamespaces::set_Namespaces)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4304c84;
+  constexpr static std::size_t addrs = 0x4365f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,16 +124,13 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Serialization::XmlSeri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaces;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Serialization::XmlSerializerNamespaces::__cordl_internal_get_namespaces() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Serialization::XmlSerializerNamespaces::__cordl_internal_get_namespaces() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaces;
 }
 constexpr void System::Xml::Serialization::XmlSerializerNamespaces::__cordl_internal_set_namespaces(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Serialization::XmlSerializerNamespaces* System::Xml::Serialization::XmlSerializerNamespaces::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializerNamespaces*>());
 }
 inline void System::Xml::Serialization::XmlSerializerNamespaces::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(),
@@ -177,6 +174,9 @@ inline void System::Xml::Serialization::XmlSerializerNamespaces::set_Namespaces(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializerNamespaces*>::get(), "set_Namespaces", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Xml::Serialization::XmlSerializerNamespaces* System::Xml::Serialization::XmlSerializerNamespaces::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializerNamespaces*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlSerializerNamespaces::XmlSerializerNamespaces() {}

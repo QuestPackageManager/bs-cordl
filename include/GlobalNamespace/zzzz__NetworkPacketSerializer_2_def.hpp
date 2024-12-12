@@ -3,34 +3,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INetworkPacketSerializer_1_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPacketSerializer_2)
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSerializer_1;
-}
-namespace GlobalNamespace {
 template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__6_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
+template <typename TType, typename TData> class NetworkPacketSerializer_2___c__DisplayClass10_0;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass4_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass5_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass7_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass8_0_1;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
@@ -70,48 +68,47 @@ namespace GlobalNamespace {
 template <typename TType, typename TData> class NetworkPacketSerializer_2;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__6_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
+template <typename TType, typename TData> class NetworkPacketSerializer_2___c__DisplayClass10_0;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass4_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass5_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass7_0_1;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+template <typename TType, typename TData, typename TPacket> class NetworkPacketSerializer_2___c__DisplayClass8_0_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1);
-// Type: ::<>c__6`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__6_1);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass4_0_1);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass5_0_1);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass7_0_1);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass8_0_1);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__6`1<TType,TData,TPacket>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__6_1 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__6`1<TType,TData,TPacket>
+class CORDL_TYPE NetworkPacketSerializer_2___c__6_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::NetworkPacketSerializer_2___c__6_1<TType, TData, TPacket>* __9;
 
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<TData, TPacket>* __9__6_0;
+  __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<TData, TPacket>* __9__6_0;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__6_1<TType, TData, TPacket>* New_ctor();
 
   /// @brief Method <RegisterCallback>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__6_0(TData data);
@@ -119,56 +116,55 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* getStaticF___9();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__6_1<TType, TData, TPacket>* getStaticF___9();
 
   static inline ::System::Func_2<TData, TPacket>* getStaticF___9__6_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* value);
+  static inline void setStaticF___9(::GlobalNamespace::NetworkPacketSerializer_2___c__6_1<TType, TData, TPacket>* value);
 
   static inline void setStaticF___9__6_0(::System::Func_2<TData, TPacket>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__6_1();
+  constexpr NetworkPacketSerializer_2___c__6_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__6_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__6_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__6_1(__NetworkPacketSerializer_2____c__6_1&&) = delete;
+  NetworkPacketSerializer_2___c__6_1(NetworkPacketSerializer_2___c__6_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__6_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__6_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__6_1(__NetworkPacketSerializer_2____c__6_1 const&) = delete;
+  NetworkPacketSerializer_2___c__6_1(NetworkPacketSerializer_2___c__6_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass10_0
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass10_0<TType,TData>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass10_0 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__DisplayClass10_0<TType,TData>
+class CORDL_TYPE NetworkPacketSerializer_2___c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subSubSerializer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subSubSerializer, put = __cordl_internal_set_subSubSerializer)) ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0<TType, TData>* New_ctor();
 
   /// @brief Method <RegisterSubSerializer>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterSubSerializer_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
 
-  constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& __cordl_internal_get_subSubSerializer();
+  constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* const& __cordl_internal_get_subSubSerializer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> const& __cordl_internal_get_subSubSerializer() const;
+  constexpr ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*& __cordl_internal_get_subSubSerializer();
 
   constexpr void __cordl_internal_set_subSubSerializer(::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* value);
 
@@ -178,48 +174,47 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__DisplayClass10_0();
+  constexpr NetworkPacketSerializer_2___c__DisplayClass10_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass10_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__DisplayClass10_0(__NetworkPacketSerializer_2____c__DisplayClass10_0&&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass10_0(NetworkPacketSerializer_2___c__DisplayClass10_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass10_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass10_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__DisplayClass10_0(__NetworkPacketSerializer_2____c__DisplayClass10_0 const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass10_0(NetworkPacketSerializer_2___c__DisplayClass10_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14898 };
 
   /// @brief Field subSubSerializer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* ___subSubSerializer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass4_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass4_0`1<TType,TData,TPacket>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass4_0_1 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__DisplayClass4_0`1<TType,TData,TPacket>
+class CORDL_TYPE NetworkPacketSerializer_2___c__DisplayClass4_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action_1<TPacket>* callback;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass4_0_1<TType, TData, TPacket>* New_ctor();
 
   /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__0(TPacket packet, TData data);
 
-  constexpr ::System::Action_1<TPacket>*& __cordl_internal_get_callback();
+  constexpr ::System::Action_1<TPacket>* const& __cordl_internal_get_callback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TPacket>*> const& __cordl_internal_get_callback() const;
+  constexpr ::System::Action_1<TPacket>*& __cordl_internal_get_callback();
 
   constexpr void __cordl_internal_set_callback(::System::Action_1<TPacket>* value);
 
@@ -229,35 +224,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__DisplayClass4_0_1();
+  constexpr NetworkPacketSerializer_2___c__DisplayClass4_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__DisplayClass4_0_1(__NetworkPacketSerializer_2____c__DisplayClass4_0_1&&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass4_0_1(NetworkPacketSerializer_2___c__DisplayClass4_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass4_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__DisplayClass4_0_1(__NetworkPacketSerializer_2____c__DisplayClass4_0_1 const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass4_0_1(NetworkPacketSerializer_2___c__DisplayClass4_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14899 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TPacket>* ___callback;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass5_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass5_0`1<TType,TData,TPacket>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass5_0_1 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__DisplayClass5_0`1<TType,TData,TPacket>
+class CORDL_TYPE NetworkPacketSerializer_2___c__DisplayClass5_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
@@ -266,7 +260,7 @@ public:
   /// @brief Field constructor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_constructor, put = __cordl_internal_set_constructor)) ::System::Func_1<TPacket>* constructor;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass5_0_1<TType, TData, TPacket>* New_ctor();
 
   /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__0(TPacket packet, TData data);
@@ -274,13 +268,13 @@ public:
   /// @brief Method <RegisterCallback>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__1(TData data);
 
+  constexpr ::System::Action_1<TPacket>* const& __cordl_internal_get_callback() const;
+
   constexpr ::System::Action_1<TPacket>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TPacket>*> const& __cordl_internal_get_callback() const;
+  constexpr ::System::Func_1<TPacket>* const& __cordl_internal_get_constructor() const;
 
   constexpr ::System::Func_1<TPacket>*& __cordl_internal_get_constructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TPacket>*> const& __cordl_internal_get_constructor() const;
 
   constexpr void __cordl_internal_set_callback(::System::Action_1<TPacket>* value);
 
@@ -292,16 +286,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__DisplayClass5_0_1();
+  constexpr NetworkPacketSerializer_2___c__DisplayClass5_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__DisplayClass5_0_1(__NetworkPacketSerializer_2____c__DisplayClass5_0_1&&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass5_0_1(NetworkPacketSerializer_2___c__DisplayClass5_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass5_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass5_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__DisplayClass5_0_1(__NetworkPacketSerializer_2____c__DisplayClass5_0_1 const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass5_0_1(NetworkPacketSerializer_2___c__DisplayClass5_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14900 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TPacket>* ___callback;
@@ -309,34 +306,30 @@ public:
   /// @brief Field constructor, offset: 0x18, size: 0x8, def value: None
   ::System::Func_1<TPacket>* ___constructor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14866 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass7_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass7_0`1<TType,TData,TPacket>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass7_0_1 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__DisplayClass7_0`1<TType,TData,TPacket>
+class CORDL_TYPE NetworkPacketSerializer_2___c__DisplayClass7_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field constructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_constructor, put = __cordl_internal_set_constructor)) ::System::Func_1<TPacket>* constructor;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass7_0_1<TType, TData, TPacket>* New_ctor();
 
   /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__0(TData data);
 
-  constexpr ::System::Func_1<TPacket>*& __cordl_internal_get_constructor();
+  constexpr ::System::Func_1<TPacket>* const& __cordl_internal_get_constructor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TPacket>*> const& __cordl_internal_get_constructor() const;
+  constexpr ::System::Func_1<TPacket>*& __cordl_internal_get_constructor();
 
   constexpr void __cordl_internal_set_constructor(::System::Func_1<TPacket>* value);
 
@@ -346,35 +339,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__DisplayClass7_0_1();
+  constexpr NetworkPacketSerializer_2___c__DisplayClass7_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__DisplayClass7_0_1(__NetworkPacketSerializer_2____c__DisplayClass7_0_1&&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass7_0_1(NetworkPacketSerializer_2___c__DisplayClass7_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass7_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass7_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__DisplayClass7_0_1(__NetworkPacketSerializer_2____c__DisplayClass7_0_1 const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass7_0_1(NetworkPacketSerializer_2___c__DisplayClass7_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14901 };
 
   /// @brief Field constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<TPacket>* ___constructor;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass8_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass8_0`1<TType,TData,TPacket>*
-class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass8_0_1 : public ::System::Object {
+// CS Name: NetworkPacketSerializer`2/<>c__DisplayClass8_0`1<TType,TData,TPacket>
+class CORDL_TYPE NetworkPacketSerializer_2___c__DisplayClass8_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x18, size 0x8
@@ -386,7 +378,7 @@ public:
   /// @brief Field deserialize, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_deserialize, put = __cordl_internal_set_deserialize)) ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* deserialize;
 
-  static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass8_0_1<TType, TData, TPacket>* New_ctor();
 
   /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
@@ -394,17 +386,17 @@ public:
   /// @brief Method <RegisterCallback>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__1(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
 
+  constexpr ::System::Action_2<TPacket, TData>* const& __cordl_internal_get_callback() const;
+
   constexpr ::System::Action_2<TPacket, TData>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TPacket, TData>*> const& __cordl_internal_get_callback() const;
+  constexpr ::System::Func_2<TData, TPacket>* const& __cordl_internal_get_constructor() const;
 
   constexpr ::System::Func_2<TData, TPacket>*& __cordl_internal_get_constructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TData, TPacket>*> const& __cordl_internal_get_constructor() const;
+  constexpr ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* const& __cordl_internal_get_deserialize() const;
 
   constexpr ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>*& __cordl_internal_get_deserialize();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>*> const& __cordl_internal_get_deserialize() const;
 
   constexpr void __cordl_internal_set_callback(::System::Action_2<TPacket, TData>* value);
 
@@ -418,16 +410,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkPacketSerializer_2____c__DisplayClass8_0_1();
+  constexpr NetworkPacketSerializer_2___c__DisplayClass8_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkPacketSerializer_2____c__DisplayClass8_0_1(__NetworkPacketSerializer_2____c__DisplayClass8_0_1&&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass8_0_1(NetworkPacketSerializer_2___c__DisplayClass8_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass8_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2___c__DisplayClass8_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkPacketSerializer_2____c__DisplayClass8_0_1(__NetworkPacketSerializer_2____c__DisplayClass8_0_1 const&) = delete;
+  NetworkPacketSerializer_2___c__DisplayClass8_0_1(NetworkPacketSerializer_2___c__DisplayClass8_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14902 };
 
   /// @brief Field constructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TData, TPacket>* ___constructor;
@@ -438,34 +433,30 @@ public:
   /// @brief Field deserialize, offset: 0x20, size: 0x8, def value: None
   ::System::Func_4<::LiteNetLib::Utils::NetDataReader*, int32_t, TData, TPacket>* ___deserialize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14868 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::NetworkPacketSerializer`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INetworkPacketSerializer`1<TData>, INetworkPacketSubSerializer`1<TData>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// CS Name: ::NetworkPacketSerializer`2<TType,TData>*
+// CS Name: NetworkPacketSerializer`2<TType,TData>
 class CORDL_TYPE NetworkPacketSerializer_2 : public ::System::Object {
 public:
   // Declarations
-  template <typename TPacket> using __c__6_1 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>;
+  template <typename TPacket> using __c__6_1 = ::GlobalNamespace::NetworkPacketSerializer_2___c__6_1<TType, TData, TPacket>;
 
-  using __c__DisplayClass10_0 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>;
+  using __c__DisplayClass10_0 = ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0<TType, TData>;
 
-  template <typename TPacket> using __c__DisplayClass4_0_1 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>;
+  template <typename TPacket> using __c__DisplayClass4_0_1 = ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass4_0_1<TType, TData, TPacket>;
 
-  template <typename TPacket> using __c__DisplayClass5_0_1 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>;
+  template <typename TPacket> using __c__DisplayClass5_0_1 = ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass5_0_1<TType, TData, TPacket>;
 
-  template <typename TPacket> using __c__DisplayClass7_0_1 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>;
+  template <typename TPacket> using __c__DisplayClass7_0_1 = ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass7_0_1<TType, TData, TPacket>;
 
-  template <typename TPacket> using __c__DisplayClass8_0_1 = ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>;
+  template <typename TPacket> using __c__DisplayClass8_0_1 = ::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass8_0_1<TType, TData, TPacket>;
 
   /// @brief Field _internalWriter, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__internalWriter, put = __cordl_internal_set__internalWriter)) ::LiteNetLib::Utils::NetDataWriter* _internalWriter;
@@ -540,7 +531,7 @@ public:
   inline void SerializePacketInternal(::LiteNetLib::Utils::NetDataWriter* externalWriter, ::LiteNetLib::Utils::INetSerializable* packet, bool prependLength);
 
   /// @brief Method TryGetPacketType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetPacketType(::System::Type* type, ByRef<uint8_t> packetType, ByRef<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer);
+  inline bool TryGetPacketType(::System::Type* type, ::ByRef<uint8_t> packetType, ::ByRef<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer);
 
   /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void UnregisterCallback(TType packetType);
@@ -548,23 +539,21 @@ public:
   /// @brief Method UnregisterSubSerializer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnregisterSubSerializer(TType packetType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer);
 
+  constexpr ::LiteNetLib::Utils::NetDataWriter* const& __cordl_internal_get__internalWriter() const;
+
   constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__internalWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__internalWriter() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* const& __cordl_internal_get__messsageHandlers() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>*& __cordl_internal_get__messsageHandlers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>*> const&
-  __cordl_internal_get__messsageHandlers() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>* const& __cordl_internal_get__subSerializerRegistry() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>*& __cordl_internal_get__subSerializerRegistry();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*, uint8_t>*> const&
-  __cordl_internal_get__subSerializerRegistry() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>* const& __cordl_internal_get__typeRegistry() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>*& __cordl_internal_get__typeRegistry();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, uint8_t>*> const& __cordl_internal_get__typeRegistry() const;
 
   constexpr void __cordl_internal_set__internalWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
@@ -597,6 +586,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPacketSerializer_2(NetworkPacketSerializer_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14903 };
+
   /// @brief Field _messsageHandlers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<uint8_t, ::System::Action_3<::LiteNetLib::Utils::NetDataReader*, int32_t, TData>*>* ____messsageHandlers;
 
@@ -609,17 +601,14 @@ public:
   /// @brief Field _internalWriter, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataWriter* ____internalWriter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14869 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2, "", "NetworkPacketSerializer`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1, "", "NetworkPacketSerializer`2/<>c__6`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0, "", "NetworkPacketSerializer`2/<>c__DisplayClass10_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass4_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass5_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass7_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass8_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__6_1, "", "NetworkPacketSerializer`2/<>c__6`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass10_0, "", "NetworkPacketSerializer`2/<>c__DisplayClass10_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass4_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass4_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass5_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass5_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass7_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass7_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPacketSerializer_2___c__DisplayClass8_0_1, "", "NetworkPacketSerializer`2/<>c__DisplayClass8_0`1");

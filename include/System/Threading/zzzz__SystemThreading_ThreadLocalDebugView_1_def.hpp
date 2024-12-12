@@ -11,13 +11,12 @@ template <typename T> class SystemThreading_ThreadLocalDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::SystemThreading_ThreadLocalDebugView_1);
-// Type: System.Threading::SystemThreading_ThreadLocalDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Threading::SystemThreading_ThreadLocalDebugView`1<T>*
+// CS Name: System.Threading.SystemThreading_ThreadLocalDebugView`1<T>
 class CORDL_TYPE SystemThreading_ThreadLocalDebugView_1 : public ::System::Object {
 public:
   // Declarations

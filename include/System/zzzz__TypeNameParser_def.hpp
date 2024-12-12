@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeNameParser)
 namespace System::Reflection {
@@ -31,18 +30,17 @@ class TypeNameParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TypeNameParser);
-// Type: System::TypeNameParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::TypeNameParser*
+// CS Name: System.TypeNameParser
 class CORDL_TYPE TypeNameParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetType, addr 0x3dd11ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3e31258, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                         ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
-                                        ByRef<::System::Threading::StackCrawlMark> stackMark);
+                                        ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
 protected:
   // Ctor Parameters []

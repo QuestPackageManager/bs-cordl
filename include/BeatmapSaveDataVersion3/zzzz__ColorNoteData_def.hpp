@@ -21,11 +21,10 @@ class ColorNoteData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ColorNoteData);
-// Type: BeatmapSaveDataVersion3::ColorNoteData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.NoteColorType, BeatmapSaveDataCommon.NoteCutDirection, BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::ColorNoteData*
+// CS Name: BeatmapSaveDataVersion3.ColorNoteData
 class CORDL_TYPE ColorNoteData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -87,22 +86,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4b44, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27064b4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color, ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset);
 
-  /// @brief Method get_angleOffset, addr 0x26d4b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angleOffset, addr 0x270649c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_angleOffset();
 
-  /// @brief Method get_color, addr 0x26d4b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x27064a4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_color();
 
-  /// @brief Method get_cutDirection, addr 0x26d4b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x27064ac, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_layer, addr 0x26d4b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x2706494, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x26d4b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x270648c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:
@@ -119,6 +118,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorNoteData(ColorNoteData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
+
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
@@ -134,14 +136,9 @@ public:
   /// @brief Field d, offset: 0x24, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ___d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13385 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ColorNoteData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::ColorNoteData, ___x) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::ColorNoteData, ___y) == 0x18, "Offset mismatch!");
@@ -151,6 +148,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::ColorNoteData, ___a) == 0x1c, 
 static_assert(offsetof(::BeatmapSaveDataVersion3::ColorNoteData, ___c) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::ColorNoteData, ___d) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ColorNoteData, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::ColorNoteData);

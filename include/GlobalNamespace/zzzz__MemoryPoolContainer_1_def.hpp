@@ -20,13 +20,12 @@ template <typename T> class MemoryPoolContainer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MemoryPoolContainer_1);
-// Type: ::MemoryPoolContainer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::MemoryPoolContainer`1<T>*
+// CS Name: MemoryPoolContainer`1<T>
 class CORDL_TYPE MemoryPoolContainer_1 : public ::System::Object {
 public:
   // Declarations
@@ -52,13 +51,13 @@ public:
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Spawn();
 
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>* const& __cordl_internal_get__activeItems() const;
+
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __cordl_internal_get__activeItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __cordl_internal_get__activeItems() const;
+  constexpr ::Zenject::IMemoryPool_1<T>* const& __cordl_internal_get__memoryPool() const;
 
   constexpr ::Zenject::IMemoryPool_1<T>*& __cordl_internal_get__memoryPool();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __cordl_internal_get__memoryPool() const;
 
   constexpr void __cordl_internal_set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
 
@@ -84,14 +83,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolContainer_1(MemoryPoolContainer_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16421 };
+
   /// @brief Field _activeItems, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<T>* ____activeItems;
 
   /// @brief Field _memoryPool, offset: 0x18, size: 0x8, def value: None
   ::Zenject::IMemoryPool_1<T>* ____memoryPool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

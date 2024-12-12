@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ListSettingsController_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PresetsSettingsController)
@@ -20,11 +19,10 @@ class PresetsSettingsController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PresetsSettingsController);
-// Type: ::PresetsSettingsController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ListSettingsController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PresetsSettingsController*
+// CS Name: PresetsSettingsController
 class CORDL_TYPE PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
@@ -43,27 +41,27 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent)) ::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x3bac5dc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x3c0ef54, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x3bac538, size 0xa4, virtual true, abstract: false, final false
-  inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
+  /// @brief Method GetInitValues, addr 0x3c0eeb0, size 0xa4, virtual true, abstract: false, final false
+  inline bool GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements);
 
-  /// @brief Method GetValue, addr 0x3bac47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3c0edf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method SetInteractable, addr 0x3bac504, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x3c0ee7c, size 0x34, virtual false, abstract: false, final false
   inline void SetInteractable(bool interactable);
 
-  /// @brief Method SetNumberOfElementsLimit, addr 0x3bac4e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetNumberOfElementsLimit, addr 0x3c0ee5c, size 0x20, virtual false, abstract: false, final false
   inline void SetNumberOfElementsLimit(int32_t numberOfElementsLimit);
 
-  /// @brief Method SetValue, addr 0x3bac484, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3c0edfc, size 0x60, virtual false, abstract: false, final false
   inline void SetValue(int32_t index);
 
-  /// @brief Method TextForValue, addr 0x3bac5fc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x3c0ef74, size 0x50, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr int32_t const& __cordl_internal_get__customIndex() const;
@@ -82,9 +80,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO>& __cordl_internal_get__presets();
 
-  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueDidChangeEvent();
+  constexpr ::System::Action_1<int32_t>* const& __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueDidChangeEvent() const;
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueDidChangeEvent();
 
   constexpr void __cordl_internal_set__customIndex(int32_t value);
 
@@ -96,13 +94,13 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bac64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0efc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x3bac31c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x3c0ec94, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x3bac3cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x3c0ed44, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -119,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PresetsSettingsController(PresetsSettingsController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4856 };
+
   /// @brief Field _presets, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedPresetsSO> ____presets;
 
@@ -134,14 +135,9 @@ public:
   /// @brief Field valueDidChangeEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___valueDidChangeEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4839 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PresetsSettingsController, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____presets) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____limitNumberOfElements) == 0x38, "Offset mismatch!");
@@ -151,6 +147,8 @@ static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____numberO
 static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____customIndex) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ___valueDidChangeEvent) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PresetsSettingsController, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PresetsSettingsController);

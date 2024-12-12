@@ -3,24 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfDoublePipelineIterationParameters)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KdfDoublePipelineIterationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::KdfDoublePipelineIterationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IDerivationParameters, System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfDoublePipelineIterationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.KdfDoublePipelineIterationParameters
 class CORDL_TYPE KdfDoublePipelineIterationParameters : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +27,7 @@ public:
   __declspec(property(get = get_R)) int32_t R;
 
   /// @brief Field UNUSED_R, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_UNUSED_R, put = setStaticF_UNUSED_R)) int32_t UNUSED_R;
+  __declspec(property(get = getStaticF_UNUSED_R, put = setStaticF_UNUSED_R)) int32_t UNUSED_R;
 
   __declspec(property(get = get_UseCounter)) bool UseCounter;
 
@@ -50,11 +46,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method CreateWithCounter, addr 0x238a760, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateWithCounter, addr 0x23bda4c, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter, addr 0x238a7d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateWithoutCounter, addr 0x23bdac0, size 0x88, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
@@ -85,21 +81,21 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0x238a604, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23bd8f0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
   static inline int32_t getStaticF_UNUSED_R();
 
-  /// @brief Method get_FixedInputData, addr 0x238a8c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x23bdbb4, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_Ki, addr 0x238a85c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x23bdb48, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_R, addr 0x238a8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x23bdbac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_UseCounter, addr 0x238a8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCounter, addr 0x23bdba4, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
@@ -121,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KdfDoublePipelineIterationParameters(KdfDoublePipelineIterationParameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1062 };
+
   /// @brief Field ki, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___ki;
 
@@ -133,14 +132,9 @@ public:
   /// @brief Field fixedInputData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___fixedInputData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1062 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, ___ki) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, ___useCounter) == 0x18, "Offset mismatch!");
@@ -148,6 +142,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelin
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, ___r) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, ___fixedInputData) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters);

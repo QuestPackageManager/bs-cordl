@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
@@ -36,13 +38,12 @@ template <typename T> class MirroredNoteController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MirroredNoteController_1);
-// Type: ::MirroredNoteController`1
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INoteControllerNoteDidPassJumpThreeQuartersEvent, INoteControllerNoteDidStartDissolvingEvent, NoteControllerBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::MirroredNoteController`1<T>*
+// CS Name: MirroredNoteController`1<T>
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
 public:
   // Declarations
@@ -110,23 +111,21 @@ public:
   /// @brief Method UpdatePositionAndRotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotation();
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __cordl_internal_get__didInitEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* const& __cordl_internal_get__didInitEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*> const& __cordl_internal_get__didInitEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>*& __cordl_internal_get__didInitEvent();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__followedNoteTransform() const;
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__followedNoteTransform();
 
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* const& __cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const;
+
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*& __cordl_internal_get__noteDidPassJumpThreeQuartersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>*> const&
-  __cordl_internal_get__noteDidPassJumpThreeQuartersEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* const& __cordl_internal_get__noteDidStartDissolvingEvent() const;
 
   constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*& __cordl_internal_get__noteDidStartDissolvingEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*> const&
-  __cordl_internal_get__noteDidStartDissolvingEvent() const;
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__noteTransform() const;
 
@@ -183,6 +182,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MirroredNoteController_1(MirroredNoteController_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4108 };
+
   /// @brief Field _noteTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____noteTransform;
 
@@ -200,9 +202,6 @@ public:
 
   /// @brief Field _noteDidStartDissolvingEvent, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* ____noteDidStartDissolvingEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongList)
 // Forward declare root types
@@ -13,11 +12,10 @@ class LongList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::LongList);
-// Type: System.Runtime.Serialization::LongList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::LongList*
+// CS Name: System.Runtime.Serialization.LongList
 class CORDL_TYPE LongList : public ::System::Object {
 public:
   // Declarations
@@ -37,23 +35,23 @@ public:
   /// @brief Field m_values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values)) ::ArrayW<int64_t, ::Array<int64_t>*> m_values;
 
-  /// @brief Method Add, addr 0x3c9a028, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3cfa19c, size 0x80, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method EnlargeArray, addr 0x3c9a314, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x3cfa488, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method MoveNext, addr 0x3c98380, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x3cf84f4, size 0x80, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method RemoveElement, addr 0x3c99f74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RemoveElement, addr 0x3cfa0e8, size 0x8c, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method StartEnumeration, addr 0x3c98334, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StartEnumeration, addr 0x3cf84a8, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
@@ -80,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c9a020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfa194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c9a2a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cfa41c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method get_Count, addr 0x3c9a39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3cfa510, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Current, addr 0x3c98340, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x3cf84b4, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
 protected:
@@ -106,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LongList(LongList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3221 };
+
   /// @brief Field m_values, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int64_t, ::Array<int64_t>*> ___m_values;
 
@@ -118,14 +119,9 @@ public:
   /// @brief Field m_currentItem, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_currentItem;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3221 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::LongList, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::LongList, ___m_values) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::LongList, ___m_count) == 0x18, "Offset mismatch!");
@@ -133,6 +129,8 @@ static_assert(offsetof(::System::Runtime::Serialization::LongList, ___m_count) =
 static_assert(offsetof(::System::Runtime::Serialization::LongList, ___m_totalItems) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::LongList, ___m_currentItem) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::LongList, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::LongList);

@@ -14,9 +14,6 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> struct ValueListBuilder_1;
-}
 namespace System::Collections {
 class Hashtable;
 }
@@ -38,45 +35,44 @@ struct RegexWriter;
 }
 // Write type traits
 MARK_VAL_T(::System::Text::RegularExpressions::RegexWriter);
-// Type: System.Text.RegularExpressions::RegexWriter
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ValueListBuilder`1<T>
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// CS Name: ::System.Text.RegularExpressions::RegexWriter
+// CS Name: System.Text.RegularExpressions.RegexWriter
 struct CORDL_TYPE RegexWriter {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x43c72a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x44285bc, size 0x54, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Emit, addr 0x43c7ec8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x44291dc, size 0xc8, virtual false, abstract: false, final false
   inline void Emit(int32_t op);
 
-  /// @brief Method Emit, addr 0x43c72fc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x4428610, size 0x130, virtual false, abstract: false, final false
   inline void Emit(int32_t op, int32_t opd1);
 
-  /// @brief Method Emit, addr 0x43c7f90, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x44292a4, size 0x190, virtual false, abstract: false, final false
   inline void Emit(int32_t op, int32_t opd1, int32_t opd2);
 
-  /// @brief Method EmitFragment, addr 0x43c742c, size 0xa38, virtual false, abstract: false, final false
+  /// @brief Method EmitFragment, addr 0x4428740, size 0xa38, virtual false, abstract: false, final false
   inline void EmitFragment(int32_t nodetype, ::System::Text::RegularExpressions::RegexNode* node, int32_t curIndex);
 
-  /// @brief Method MapCapnum, addr 0x43c8268, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MapCapnum, addr 0x442957c, size 0xb4, virtual false, abstract: false, final false
   inline int32_t MapCapnum(int32_t capnum);
 
-  /// @brief Method PatchJump, addr 0x43c7e64, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PatchJump, addr 0x4429178, size 0x64, virtual false, abstract: false, final false
   inline void PatchJump(int32_t offset, int32_t jumpDest);
 
-  /// @brief Method RegexCodeFromRegexTree, addr 0x43c6e20, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method RegexCodeFromRegexTree, addr 0x4428134, size 0x488, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method StringCode, addr 0x43c8120, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method StringCode, addr 0x4429434, size 0x148, virtual false, abstract: false, final false
   inline int32_t StringCode(::StringW str);
 
-  /// @brief Method Write, addr 0x43c6d3c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x4428050, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method .ctor, addr 0x43c6bf8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4427f0c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<int32_t> emittedSpan, ::System::Span_1<int32_t> intStackSpan);
 
   // Ctor Parameters []
@@ -91,6 +87,12 @@ public:
   constexpr RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted, ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
                         ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash, ::System::Collections::Generic::List_1<::StringW>* _stringTable,
                         ::System::Collections::Hashtable* _caps, int32_t _trackCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9247 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field _emitted, offset: 0x0, size: 0x20, def value: None
   ::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted;
@@ -110,17 +112,9 @@ public:
   /// @brief Field _trackCount, offset: 0x58, size: 0x4, def value: None
   int32_t _trackCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9222 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexWriter, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _emitted) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _intStack) == 0x20, "Offset mismatch!");
@@ -132,6 +126,8 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _stringT
 static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _caps) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexWriter, _trackCount) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexWriter, 0x60>, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexWriter, "System.Text.RegularExpressions", "RegexWriter");

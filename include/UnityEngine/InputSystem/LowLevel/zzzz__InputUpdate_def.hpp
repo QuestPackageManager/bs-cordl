@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputUpdate)
@@ -13,53 +12,58 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__SerializedState;
+struct InputUpdate_SerializedState;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__UpdateStepCount;
+struct InputUpdate_UpdateStepCount;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
 class InputUpdate;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__SerializedState;
+struct InputUpdate_SerializedState;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InputUpdate__UpdateStepCount;
+struct InputUpdate_UpdateStepCount;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputUpdate);
-MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState);
-MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount);
-// Type: ::UpdateStepCount
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState);
+MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount);
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// CS Name: ::InputUpdate::UpdateStepCount
-struct CORDL_TYPE __InputUpdate__UpdateStepCount {
+// CS Name: UnityEngine.InputSystem.LowLevel.InputUpdate/UpdateStepCount
+struct CORDL_TYPE InputUpdate_UpdateStepCount {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) uint32_t value;
 
-  /// @brief Method OnBeforeUpdate, addr 0x45ae05c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x460f370, size 0x18, virtual false, abstract: false, final false
   inline void OnBeforeUpdate();
 
-  /// @brief Method OnUpdate, addr 0x45ae0fc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x460f410, size 0x1c, virtual false, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method get_value, addr 0x45ae23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x460f550, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_value();
 
-  /// @brief Method set_value, addr 0x45ae244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x460f558, size 0x8, virtual false, abstract: false, final false
   inline void set_value(uint32_t value);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputUpdate__UpdateStepCount();
+  constexpr InputUpdate_UpdateStepCount();
 
   // Ctor Parameters [CppParam { name: "m_WasUpdated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_value_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr __InputUpdate__UpdateStepCount(bool m_WasUpdated, uint32_t _value_k__BackingField) noexcept;
+  constexpr InputUpdate_UpdateStepCount(bool m_WasUpdated, uint32_t _value_k__BackingField) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6959 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field m_WasUpdated, offset: 0x0, size: 0x1, def value: None
   bool m_WasUpdated;
@@ -67,110 +71,101 @@ public:
   /// @brief Field <value>k__BackingField, offset: 0x4, size: 0x4, def value: None
   uint32_t _value_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6934 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, 0x8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, m_WasUpdated) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, m_WasUpdated) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, _value_k__BackingField) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, _value_k__BackingField) == 0x4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Type: ::SerializedState
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.LowLevel.InputUpdate::UpdateStepCount, UnityEngine.InputSystem.LowLevel.InputUpdateType
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// CS Name: ::InputUpdate::SerializedState
-struct CORDL_TYPE __InputUpdate__SerializedState {
+// CS Name: UnityEngine.InputSystem.LowLevel.InputUpdate/SerializedState
+struct CORDL_TYPE InputUpdate_SerializedState {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputUpdate__SerializedState();
+  constexpr InputUpdate_SerializedState();
 
   // Ctor Parameters [CppParam { name: "lastUpdateType", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: None }, CppParam { name: "playerUpdateStepCount", ty:
-  // "::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount", modifiers: "", def_value: None }]
-  constexpr __InputUpdate__SerializedState(::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType,
-                                           ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount playerUpdateStepCount) noexcept;
+  // "::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount", modifiers: "", def_value: None }]
+  constexpr InputUpdate_SerializedState(::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType,
+                                        ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount playerUpdateStepCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6960 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
 
   /// @brief Field lastUpdateType, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType;
 
   /// @brief Field playerUpdateStepCount, offset: 0x4, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount playerUpdateStepCount;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6935 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+  ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount playerUpdateStepCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, 0xc>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState, lastUpdateType) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, lastUpdateType) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState, playerUpdateStepCount) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, playerUpdateStepCount) == 0x4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState, 0xc>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Type: UnityEngine.InputSystem.LowLevel::InputUpdate
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.InputSystem.LowLevel.InputUpdate::UpdateStepCount, UnityEngine.InputSystem.LowLevel.InputUpdateType
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdate*
+// CS Name: UnityEngine.InputSystem.LowLevel.InputUpdate
 class CORDL_TYPE InputUpdate : public ::System::Object {
 public:
   // Declarations
-  using SerializedState = ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState;
+  using SerializedState = ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState;
 
-  using UpdateStepCount = ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount;
+  using UpdateStepCount = ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount;
 
   /// @brief Field s_LatestUpdateType, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_LatestUpdateType, put = setStaticF_s_LatestUpdateType)) ::UnityEngine::InputSystem::LowLevel::InputUpdateType s_LatestUpdateType;
+  __declspec(property(get = getStaticF_s_LatestUpdateType, put = setStaticF_s_LatestUpdateType)) ::UnityEngine::InputSystem::LowLevel::InputUpdateType s_LatestUpdateType;
 
   /// @brief Field s_PlayerUpdateStepCount, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_PlayerUpdateStepCount,
-                             put = setStaticF_s_PlayerUpdateStepCount)) ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount s_PlayerUpdateStepCount;
+  __declspec(property(get = getStaticF_s_PlayerUpdateStepCount, put = setStaticF_s_PlayerUpdateStepCount)) ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount s_PlayerUpdateStepCount;
 
   /// @brief Field s_UpdateStepCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_UpdateStepCount, put = setStaticF_s_UpdateStepCount)) uint32_t s_UpdateStepCount;
+  __declspec(property(get = getStaticF_s_UpdateStepCount, put = setStaticF_s_UpdateStepCount)) uint32_t s_UpdateStepCount;
 
-  /// @brief Method GetUpdateTypeForPlayer, addr 0x45ae210, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateTypeForPlayer, addr 0x460f524, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask);
 
-  /// @brief Method IsPlayerUpdate, addr 0x45ae230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsPlayerUpdate, addr 0x460f544, size 0xc, virtual false, abstract: false, final false
   static inline bool IsPlayerUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method OnBeforeUpdate, addr 0x45adfdc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeUpdate, addr 0x460f2f0, size 0x80, virtual false, abstract: false, final false
   static inline void OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method OnUpdate, addr 0x45ae074, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnUpdate, addr 0x460f388, size 0x88, virtual false, abstract: false, final false
   static inline void OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
 
-  /// @brief Method Restore, addr 0x45ae17c, size 0x94, virtual false, abstract: false, final false
-  static inline void Restore(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState state);
+  /// @brief Method Restore, addr 0x460f490, size 0x94, virtual false, abstract: false, final false
+  static inline void Restore(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState state);
 
-  /// @brief Method Save, addr 0x45ae118, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState Save();
+  /// @brief Method Save, addr 0x460f42c, size 0x64, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState Save();
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType getStaticF_s_LatestUpdateType();
 
-  static inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount getStaticF_s_PlayerUpdateStepCount();
+  static inline ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount getStaticF_s_PlayerUpdateStepCount();
 
   static inline uint32_t getStaticF_s_UpdateStepCount();
 
   static inline void setStaticF_s_LatestUpdateType(::UnityEngine::InputSystem::LowLevel::InputUpdateType value);
 
-  static inline void setStaticF_s_PlayerUpdateStepCount(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount value);
+  static inline void setStaticF_s_PlayerUpdateStepCount(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount value);
 
   static inline void setStaticF_s_UpdateStepCount(uint32_t value);
 
@@ -189,7 +184,7 @@ public:
   InputUpdate(InputUpdate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,5 +194,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 } // namespace UnityEngine::InputSystem::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::InputUpdate);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputUpdate*, "UnityEngine.InputSystem.LowLevel", "InputUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, "UnityEngine.InputSystem.LowLevel", "InputUpdate/SerializedState");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, "UnityEngine.InputSystem.LowLevel", "InputUpdate/UpdateStepCount");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState, "UnityEngine.InputSystem.LowLevel", "InputUpdate/SerializedState");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, "UnityEngine.InputSystem.LowLevel", "InputUpdate/UpdateStepCount");

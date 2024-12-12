@@ -3,34 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StablePriorityQueue_1)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
-namespace Priority_Queue {
-template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -40,19 +31,18 @@ namespace Priority_Queue {
 template <typename T> class StablePriorityQueue_1;
 }
 namespace Priority_Queue {
-template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
+template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::StablePriorityQueue_1);
-MARK_GEN_REF_PTR_T(::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22);
-// Type: ::<GetEnumerator>d__22
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::StablePriorityQueue`1::<GetEnumerator>d__22<T>*
-class CORDL_TYPE __StablePriorityQueue_1___GetEnumerator_d__22 : public ::System::Object {
+// CS Name: Priority_Queue.StablePriorityQueue`1/<GetEnumerator>d__22<T>
+class CORDL_TYPE StablePriorityQueue_1__GetEnumerator_d__22 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
@@ -83,7 +73,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>* New_ctor(int32_t __1__state);
+  static inline ::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
@@ -105,9 +95,9 @@ public:
 
   constexpr T& __cordl_internal_get___2__current();
 
-  constexpr ::Priority_Queue::StablePriorityQueue_1<T>*& __cordl_internal_get___4__this();
+  constexpr ::Priority_Queue::StablePriorityQueue_1<T>* const& __cordl_internal_get___4__this() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::StablePriorityQueue_1<T>*> const& __cordl_internal_get___4__this() const;
+  constexpr ::Priority_Queue::StablePriorityQueue_1<T>*& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
@@ -136,16 +126,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StablePriorityQueue_1___GetEnumerator_d__22();
+  constexpr StablePriorityQueue_1__GetEnumerator_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StablePriorityQueue_1___GetEnumerator_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueue_1__GetEnumerator_d__22", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StablePriorityQueue_1___GetEnumerator_d__22(__StablePriorityQueue_1___GetEnumerator_d__22&&) = delete;
+  StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StablePriorityQueue_1___GetEnumerator_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueue_1__GetEnumerator_d__22", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StablePriorityQueue_1___GetEnumerator_d__22(__StablePriorityQueue_1___GetEnumerator_d__22 const&) = delete;
+  StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16941 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -159,24 +152,21 @@ public:
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16902 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Type: Priority_Queue::StablePriorityQueue`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Priority_Queue.IFixedSizePriorityQueue`2<TItem, TPriority>, Priority_Queue.IPriorityQueue`2<TItem, TPriority>, System.Collections.Generic.IEnumerable`1<T>,
+// System.Collections.IEnumerable, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Priority_Queue::StablePriorityQueue`1<T>*
+// CS Name: Priority_Queue.StablePriorityQueue`1<T>
 class CORDL_TYPE StablePriorityQueue_1 : public ::System::Object {
 public:
   // Declarations
-  using _GetEnumerator_d__22 = ::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>;
+  using _GetEnumerator_d__22 = ::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22<T>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -308,6 +298,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StablePriorityQueue_1(StablePriorityQueue_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16942 };
+
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;
 
@@ -317,12 +310,9 @@ public:
   /// @brief Field _numNodesEverEnqueued, offset: 0x20, size: 0x8, def value: None
   int64_t ____numNodesEverEnqueued;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16903 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::StablePriorityQueue_1, "Priority_Queue", "StablePriorityQueue`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22, "Priority_Queue", "StablePriorityQueue`1/<GetEnumerator>d__22");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22, "Priority_Queue", "StablePriorityQueue`1/<GetEnumerator>d__22");

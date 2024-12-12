@@ -4,13 +4,9 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__EventAttributes_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoEventInfo)
-namespace System::Reflection {
-struct EventAttributes;
-}
 namespace System::Reflection {
 class MethodInfo;
 }
@@ -23,11 +19,10 @@ struct MonoEventInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MonoEventInfo);
-// Type: System.Reflection::MonoEventInfo
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.EventAttributes
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MonoEventInfo
+// CS Name: System.Reflection.MonoEventInfo
 struct CORDL_TYPE MonoEventInfo {
 public:
   // Declarations
@@ -43,6 +38,12 @@ public:
   constexpr MonoEventInfo(::System::Type* declaring_type, ::System::Type* reflected_type, ::StringW name, ::System::Reflection::MethodInfo* add_method, ::System::Reflection::MethodInfo* remove_method,
                           ::System::Reflection::MethodInfo* raise_method, ::System::Reflection::EventAttributes attrs,
                           ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> other_methods) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3521 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field declaring_type, offset: 0x0, size: 0x8, def value: None
   ::System::Type* declaring_type;
@@ -68,17 +69,9 @@ public:
   /// @brief Field other_methods, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> other_methods;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3521 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoEventInfo, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MonoEventInfo, declaring_type) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoEventInfo, reflected_type) == 0x8, "Offset mismatch!");
@@ -94,6 +87,8 @@ static_assert(offsetof(::System::Reflection::MonoEventInfo, raise_method) == 0x2
 static_assert(offsetof(::System::Reflection::MonoEventInfo, attrs) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::MonoEventInfo, other_methods) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MonoEventInfo, 0x40>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MonoEventInfo, "System.Reflection", "MonoEventInfo");

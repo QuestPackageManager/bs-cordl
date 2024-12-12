@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Serialization/zzzz__ObjectMap_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListMap)
@@ -23,11 +22,10 @@ class ListMap;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::ListMap);
-// Type: System.Xml.Serialization::ListMap
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.ObjectMap
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::ListMap*
+// CS Name: System.Xml.Serialization.ListMap
 class CORDL_TYPE ListMap : public ::System::Xml::Serialization::ObjectMap {
 public:
   // Declarations
@@ -41,22 +39,22 @@ public:
   /// @brief Field _itemInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__itemInfo, put = __cordl_internal_set__itemInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList* _itemInfo;
 
-  /// @brief Method Equals, addr 0x43308b4, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4391bc8, size 0x164, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method FindElement, addr 0x43302ac, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x43915c0, size 0x31c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::StringW elementName, ::StringW ns);
 
-  /// @brief Method FindElement, addr 0x432a0d4, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x438b3e8, size 0x860, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object* ob, int32_t index, ::System::Object* memberValue);
 
-  /// @brief Method FindTextElement, addr 0x43305c8, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method FindTextElement, addr 0x43918dc, size 0x2ec, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindTextElement();
 
-  /// @brief Method GetArrayType, addr 0x4329ecc, size 0x208, virtual false, abstract: false, final false
-  inline void GetArrayType(int32_t itemCount, ByRef<::StringW> localName, ByRef<::StringW> ns);
+  /// @brief Method GetArrayType, addr 0x438b1e0, size 0x208, virtual false, abstract: false, final false
+  inline void GetArrayType(int32_t itemCount, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns);
 
-  /// @brief Method GetHashCode, addr 0x4330a18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4391d2c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Xml::Serialization::ListMap* New_ctor();
@@ -65,24 +63,24 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__choiceMember();
 
-  constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList*& __cordl_internal_get__itemInfo();
+  constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList* const& __cordl_internal_get__itemInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlTypeMapElementInfoList*> const& __cordl_internal_get__itemInfo() const;
+  constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList*& __cordl_internal_get__itemInfo();
 
   constexpr void __cordl_internal_set__choiceMember(::StringW value);
 
   constexpr void __cordl_internal_set__itemInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
 
-  /// @brief Method .ctor, addr 0x4330a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4391d34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ItemInfo, addr 0x433029c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemInfo, addr 0x43915b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* get_ItemInfo();
 
-  /// @brief Method set_ChoiceMember, addr 0x4330294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ChoiceMember, addr 0x43915a8, size 0x8, virtual false, abstract: false, final false
   inline void set_ChoiceMember(::StringW value);
 
-  /// @brief Method set_ItemInfo, addr 0x43302a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemInfo, addr 0x43915b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
 
 protected:
@@ -99,23 +97,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListMap(ListMap const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7465 };
+
   /// @brief Field _itemInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlTypeMapElementInfoList* ____itemInfo;
 
   /// @brief Field _choiceMember, offset: 0x18, size: 0x8, def value: None
   ::StringW ____choiceMember;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7440 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::ListMap, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::ListMap, ____itemInfo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::ListMap, ____choiceMember) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::ListMap, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::ListMap);

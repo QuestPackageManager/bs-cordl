@@ -11,104 +11,84 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UI::__DefaultControls__IFactoryControls.CreateGameObject
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::__DefaultControls__IFactoryControls::*)(
-    ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::__DefaultControls__IFactoryControls::CreateGameObject)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__IFactoryControls*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__IFactoryControls*>::get(), 0));
-    return ___internal_method;
-  }
-};
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::__DefaultControls__IFactoryControls::CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__IFactoryControls*>::get(), 0)));
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_IFactoryControls::CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_IFactoryControls*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, name, components);
 }
-//  Writing Method size for method: ::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory.CreateGameObject
+//  Writing Method size for method: ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory.CreateGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::*)(
-    ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::CreateGameObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::*)(
+    ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::CreateGameObject)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48f7630;
+  constexpr static std::size_t addrs = 0x495bde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get(), "CreateGameObject", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get(), "CreateGameObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::*)()>(
-    &::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::*)()>(
+    &::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48f769c;
+  constexpr static std::size_t addrs = 0x495be4c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UI::__DefaultControls__IFactoryControls"
-constexpr UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::operator ::UnityEngine::UI::__DefaultControls__IFactoryControls*() noexcept {
-  return static_cast<::UnityEngine::UI::__DefaultControls__IFactoryControls*>(static_cast<void*>(this));
+inline void UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::setStaticF_Default(::UnityEngine::UI::DefaultControls_IFactoryControls* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UI::DefaultControls_IFactoryControls*, "Default",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get>(
+      std::forward<::UnityEngine::UI::DefaultControls_IFactoryControls*>(value));
 }
-/// @brief Convert to "::UnityEngine::UI::__DefaultControls__IFactoryControls"
-constexpr ::UnityEngine::UI::__DefaultControls__IFactoryControls* UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::i___UnityEngine__UI____DefaultControls__IFactoryControls() noexcept {
-  return static_cast<::UnityEngine::UI::__DefaultControls__IFactoryControls*>(static_cast<void*>(this));
+inline ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::getStaticF_Default() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UI::DefaultControls_IFactoryControls*, "Default",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get>();
 }
-inline void UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::setStaticF_Default(::UnityEngine::UI::__DefaultControls__IFactoryControls* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UI::__DefaultControls__IFactoryControls*, "Default",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get>(
-      std::forward<::UnityEngine::UI::__DefaultControls__IFactoryControls*>(value));
-}
-inline ::UnityEngine::UI::__DefaultControls__IFactoryControls* UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::getStaticF_Default() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UI::__DefaultControls__IFactoryControls*, "Default",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get>();
-}
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::CreateGameObject(::StringW name,
-                                                                                                                       ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::CreateGameObject(::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get(), "CreateGameObject", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get(), "CreateGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, name, components);
 }
-inline ::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory* UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>());
-}
-inline void UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory* UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>());
+}
+/// @brief Convert operator to "::UnityEngine::UI::DefaultControls_IFactoryControls"
+constexpr UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::operator ::UnityEngine::UI::DefaultControls_IFactoryControls*() noexcept {
+  return static_cast<::UnityEngine::UI::DefaultControls_IFactoryControls*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::DefaultControls_IFactoryControls"
+constexpr ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::i___UnityEngine__UI__DefaultControls_IFactoryControls() noexcept {
+  return static_cast<::UnityEngine::UI::DefaultControls_IFactoryControls*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__DefaultControls__DefaultRuntimeFactory::__DefaultControls__DefaultRuntimeFactory() {}
-// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "background", ty:
-// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "knob", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "mask", ty:
-// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::UI::__DefaultControls__Resources::__DefaultControls__Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background,
-                                                                                        ::UnityW<::UnityEngine::Sprite> inputField, ::UnityW<::UnityEngine::Sprite> knob,
-                                                                                        ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
-                                                                                        ::UnityW<::UnityEngine::Sprite> mask) noexcept {
+constexpr ::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::DefaultControls_DefaultRuntimeFactory() {}
+// Ctor Parameters [CppParam { name: "standard", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "background", ty: "::UnityW<::UnityEngine::Sprite>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "inputField", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "knob", ty:
+// "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "checkmark", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "dropdown", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}") }, CppParam { name: "mask", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: Some("{}")
+// }]
+constexpr ::UnityEngine::UI::DefaultControls_Resources::DefaultControls_Resources(::UnityW<::UnityEngine::Sprite> standard, ::UnityW<::UnityEngine::Sprite> background,
+                                                                                  ::UnityW<::UnityEngine::Sprite> inputField, ::UnityW<::UnityEngine::Sprite> knob,
+                                                                                  ::UnityW<::UnityEngine::Sprite> checkmark, ::UnityW<::UnityEngine::Sprite> dropdown,
+                                                                                  ::UnityW<::UnityEngine::Sprite> mask) noexcept {
   this->standard = standard;
   this->background = background;
   this->inputField = inputField;
@@ -118,13 +98,13 @@ constexpr ::UnityEngine::UI::__DefaultControls__Resources::__DefaultControls__Re
   this->mask = mask;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__DefaultControls__Resources::__DefaultControls__Resources() {}
+constexpr ::UnityEngine::UI::DefaultControls_Resources::DefaultControls_Resources() {}
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.get_factory
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__DefaultControls__IFactoryControls* (*)()>(&::UnityEngine::UI::DefaultControls::get_factory)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::DefaultControls_IFactoryControls* (*)()>(&::UnityEngine::UI::DefaultControls::get_factory)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48f2d78;
+  constexpr static std::size_t addrs = 0x4957528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "get_factory",
@@ -138,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::StringW, ::UnityEngine::Vector2, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x48f2dd0;
+  constexpr static std::size_t addrs = 0x4957580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::StringW, ::UnityEngine::GameObject*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls::CreateUIObject)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x48f2f30;
+  constexpr static std::size_t addrs = 0x49576e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x48f3158;
+  constexpr static std::size_t addrs = 0x4957908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -185,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48f3234;
+  constexpr static std::size_t addrs = 0x49579e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(
     &::UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x48f3058;
+  constexpr static std::size_t addrs = 0x4957808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48f3294;
+  constexpr static std::size_t addrs = 0x4957a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,175 +208,175 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreatePanel
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreatePanel)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x48f3378;
+  constexpr static std::size_t addrs = 0x4957b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreatePanel", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateButton
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateButton)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x48f3968;
+  constexpr static std::size_t addrs = 0x4958118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateButton", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateText
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateText)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x48f3d54;
+  constexpr static std::size_t addrs = 0x4958504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateText", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateImage
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateImage)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x48f3ef4;
+  constexpr static std::size_t addrs = 0x49586a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateImage", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateRawImage
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateRawImage)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x48f4030;
+  constexpr static std::size_t addrs = 0x49587e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateRawImage", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateSlider
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateSlider)> {
   constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x48f416c;
+  constexpr static std::size_t addrs = 0x495891c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateSlider", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateScrollbar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateScrollbar)> {
   constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x48f4828;
+  constexpr static std::size_t addrs = 0x4958fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateScrollbar", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateToggle
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateToggle)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x48f4ca4;
+  constexpr static std::size_t addrs = 0x4959454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateToggle", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateInputField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateInputField)> {
   constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x48f5218;
+  constexpr static std::size_t addrs = 0x49599c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateInputField", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateDropdown
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateDropdown)> {
   constexpr static std::size_t size = 0x122c;
-  constexpr static std::size_t addrs = 0x48f583c;
+  constexpr static std::size_t addrs = 0x4959fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateDropdown", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UI::DefaultControls.CreateScrollView
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::__DefaultControls__Resources)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateScrollView)> {
   constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x48f6c80;
+  constexpr static std::size_t addrs = 0x495b430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateScrollView", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UI::DefaultControls::setStaticF_m_CurrentFactory(::UnityEngine::UI::__DefaultControls__IFactoryControls* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UI::__DefaultControls__IFactoryControls*, "m_CurrentFactory",
+inline void UnityEngine::UI::DefaultControls::setStaticF_m_CurrentFactory(::UnityEngine::UI::DefaultControls_IFactoryControls* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UI::DefaultControls_IFactoryControls*, "m_CurrentFactory",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get>(
-      std::forward<::UnityEngine::UI::__DefaultControls__IFactoryControls*>(value));
+      std::forward<::UnityEngine::UI::DefaultControls_IFactoryControls*>(value));
 }
-inline ::UnityEngine::UI::__DefaultControls__IFactoryControls* UnityEngine::UI::DefaultControls::getStaticF_m_CurrentFactory() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UI::__DefaultControls__IFactoryControls*, "m_CurrentFactory",
+inline ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::DefaultControls::getStaticF_m_CurrentFactory() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UI::DefaultControls_IFactoryControls*, "m_CurrentFactory",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get>();
 }
 inline void UnityEngine::UI::DefaultControls::setStaticF_s_ThickElementSize(::UnityEngine::Vector2 value) {
@@ -441,10 +421,10 @@ inline void UnityEngine::UI::DefaultControls::setStaticF_s_TextColor(::UnityEngi
 inline ::UnityEngine::Color UnityEngine::UI::DefaultControls::getStaticF_s_TextColor() {
   return ::cordl_internals::getStaticField<::UnityEngine::Color, "s_TextColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get>();
 }
-inline ::UnityEngine::UI::__DefaultControls__IFactoryControls* UnityEngine::UI::DefaultControls::get_factory() {
+inline ::UnityEngine::UI::DefaultControls_IFactoryControls* UnityEngine::UI::DefaultControls::get_factory() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "get_factory",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__DefaultControls__IFactoryControls*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::DefaultControls_IFactoryControls*, false>(nullptr, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateUIElementRoot(::StringW name, ::UnityEngine::Vector2 size,
                                                                                                  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> components) {
@@ -489,70 +469,70 @@ inline void UnityEngine::UI::DefaultControls::SetLayerRecursively(::UnityEngine:
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, go, layer);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreatePanel(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreatePanel(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreatePanel", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateButton(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateButton(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateButton", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateText(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateText(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateText", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateImage(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateImage(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateImage", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateRawImage(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateRawImage(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateRawImage", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateSlider(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateSlider(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateSlider", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateScrollbar(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateScrollbar(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateScrollbar", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateToggle(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateToggle(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateToggle", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateInputField(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateInputField(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateInputField", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateDropdown(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateDropdown(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateDropdown", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
-inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateScrollView(::UnityEngine::UI::__DefaultControls__Resources resources) {
+inline ::UnityW<::UnityEngine::GameObject> UnityEngine::UI::DefaultControls::CreateScrollView(::UnityEngine::UI::DefaultControls_Resources resources) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "CreateScrollView", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__DefaultControls__Resources>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
 }
 // Ctor Parameters []

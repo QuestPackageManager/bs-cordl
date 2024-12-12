@@ -13,49 +13,48 @@ namespace System {
 class Object;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __LessThanInstruction__LessThanChar;
+namespace GlobalNamespace {
+class LessThanInstruction_LessThanChar;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanChar);
-// Type: ::LessThanChar
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::LessThanInstruction_LessThanChar);
+// Dependencies System.Linq.Expressions.Interpreter.LessThanInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LessThanInstruction::LessThanChar*
-class CORDL_TYPE __LessThanInstruction__LessThanChar : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.LessThanInstruction/LessThanChar
+class CORDL_TYPE LessThanInstruction_LessThanChar : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanChar* New_ctor(::System::Object* nullValue);
+  static inline ::GlobalNamespace::LessThanInstruction_LessThanChar* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x4073b80, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d4e94, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4073860, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d4b74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LessThanInstruction__LessThanChar();
+  constexpr LessThanInstruction_LessThanChar();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanInstruction__LessThanChar", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LessThanInstruction__LessThanChar(__LessThanInstruction__LessThanChar&&) = delete;
+  LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanInstruction__LessThanChar", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanChar", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LessThanInstruction__LessThanChar(__LessThanInstruction__LessThanChar const&) = delete;
+  LessThanInstruction_LessThanChar(LessThanInstruction_LessThanChar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13913 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanChar, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanInstruction_LessThanChar, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanChar);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanChar*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanChar");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LessThanInstruction_LessThanChar);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanInstruction_LessThanChar*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanChar");

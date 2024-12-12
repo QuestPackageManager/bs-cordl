@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Globalization::Bootstring::*)(char16_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::Bootstring::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d54484;
+  constexpr static std::size_t addrs = 0x3db45f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::Bootstring::*)(::StringW, int32_t)>(
     &::System::Globalization::Bootstring::Encode)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3d53a40;
+  constexpr static std::size_t addrs = 0x3db3bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Globalization::Bootstring::*)(int32_t)>(&::System::Globalization::Bootstring::EncodeDigit)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d544f0;
+  constexpr static std::size_t addrs = 0x3db4664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::Bootstring::*)(char16_t)>(&::System::Globalization::Bootstring::DecodeDigit)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d54580;
+  constexpr static std::size_t addrs = 0x3db46f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::Bootstring::*)(int32_t, int32_t, bool)>(
     &::System::Globalization::Bootstring::Adapt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d54508;
+  constexpr static std::size_t addrs = 0x3db467c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::Bootstring::*)(::StringW, int32_t)>(
     &::System::Globalization::Bootstring::Decode)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x3d541ac;
+  constexpr static std::size_t addrs = 0x3db4320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,10 +190,6 @@ constexpr void System::Globalization::Bootstring::__cordl_internal_set_initial_n
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___initial_n = value;
 }
-inline ::System::Globalization::Bootstring* System::Globalization::Bootstring::New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp,
-                                                                                        int32_t initialBias, int32_t initialN) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::Bootstring*>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN));
-}
 inline void System::Globalization::Bootstring::_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::Bootstring*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -233,6 +229,10 @@ inline ::StringW System::Globalization::Bootstring::Decode(::StringW s, int32_t 
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::Bootstring*>::get(), "Decode", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, s, offset);
+}
+inline ::System::Globalization::Bootstring* System::Globalization::Bootstring::New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp,
+                                                                                        int32_t initialBias, int32_t initialN) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::Bootstring*>(delimiter, baseNum, tmin, tmax, skew, damp, initialBias, initialN));
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::Bootstring::Bootstring() {}

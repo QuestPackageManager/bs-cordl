@@ -16,11 +16,10 @@ class TransitionTimingSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransitionTimingSO);
-// Type: ::TransitionTimingSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EaseType, PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TransitionTimingSO*
+// CS Name: TransitionTimingSO
 class CORDL_TYPE TransitionTimingSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -48,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x4476f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x4476f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x44d8278, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x4476f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x44d8270, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransitionTimingSO(TransitionTimingSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18218 };
+
   /// @brief Field _easeType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
   /// @brief Field _easeDuration, offset: 0x1c, size: 0x4, def value: None
   float_t ____easeDuration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18138 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransitionTimingSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeType) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TransitionTimingSO, ____easeDuration) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransitionTimingSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransitionTimingSO);

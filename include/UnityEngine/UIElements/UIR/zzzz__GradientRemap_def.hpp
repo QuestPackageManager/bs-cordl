@@ -14,11 +14,10 @@ class GradientRemap;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GradientRemap);
-// Type: UnityEngine.UIElements.UIR::GradientRemap
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.RectInt, UnityEngine.UIElements.TextureId, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::GradientRemap*
+// CS Name: UnityEngine.UIElements.UIR.GradientRemap
 class CORDL_TYPE GradientRemap : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations
@@ -39,7 +38,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method Reset, addr 0x494d98c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49b229c, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_atlas() const;
@@ -54,9 +53,9 @@ public:
 
   constexpr ::UnityEngine::RectInt& __cordl_internal_get_location();
 
-  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_next();
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& __cordl_internal_get_next() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const& __cordl_internal_get_next() const;
+  constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& __cordl_internal_get_next();
 
   constexpr int32_t const& __cordl_internal_get_origIndex() const;
 
@@ -72,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_origIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x494d930, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b2240, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GradientRemap(GradientRemap const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6408 };
+
   /// @brief Field origIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___origIndex;
 
@@ -104,14 +106,9 @@ public:
   /// @brief Field atlas, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::UIElements::TextureId ___atlas;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6383 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GradientRemap, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___origIndex) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___destIndex) == 0x1c, "Offset mismatch!");
@@ -121,6 +118,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___locatio
 static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___next) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientRemap, ___atlas) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GradientRemap, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::GradientRemap);

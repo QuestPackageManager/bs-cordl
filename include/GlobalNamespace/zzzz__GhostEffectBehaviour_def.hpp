@@ -4,19 +4,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
-#include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GhostEffectBehaviour)
 namespace GlobalNamespace {
-struct __GhostEffectBehaviour__EndBehavior;
+struct GhostEffectBehaviour_EndBehavior;
 }
 namespace GlobalNamespace {
-struct __GhostEffectBehaviour__GhostEffectType;
+struct GhostEffectBehaviour_GhostEffectType;
 }
 namespace System {
 class Object;
@@ -41,38 +39,37 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __GhostEffectBehaviour__EndBehavior;
+struct GhostEffectBehaviour_EndBehavior;
 }
 namespace GlobalNamespace {
-struct __GhostEffectBehaviour__GhostEffectType;
+struct GhostEffectBehaviour_GhostEffectType;
 }
 namespace GlobalNamespace {
 class GhostEffectBehaviour;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior);
-MARK_VAL_T(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType);
+MARK_VAL_T(::GlobalNamespace::GhostEffectBehaviour_EndBehavior);
+MARK_VAL_T(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType);
 MARK_REF_PTR_T(::GlobalNamespace::GhostEffectBehaviour);
-// Type: ::EndBehavior
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::GhostEffectBehaviour::EndBehavior
-struct CORDL_TYPE __GhostEffectBehaviour__EndBehavior {
+// CS Name: GhostEffectBehaviour/EndBehavior
+struct CORDL_TYPE GhostEffectBehaviour_EndBehavior {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GhostEffectBehaviour__EndBehavior_Unwrapped
-  enum struct ____GhostEffectBehaviour__EndBehavior_Unwrapped : int32_t {
+  /// @brief Nested struct __GhostEffectBehaviour_EndBehavior_Unwrapped
+  enum struct __GhostEffectBehaviour_EndBehavior_Unwrapped : int32_t {
     __E_DisableAll = static_cast<int32_t>(0x0),
     __E_DisableCopies = static_cast<int32_t>(0x1),
     __E_Nothing = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GhostEffectBehaviour__EndBehavior_Unwrapped() const noexcept {
-    return static_cast<____GhostEffectBehaviour__EndBehavior_Unwrapped>(this->value__);
+  constexpr operator __GhostEffectBehaviour_EndBehavior_Unwrapped() const noexcept {
+    return static_cast<__GhostEffectBehaviour_EndBehavior_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -82,56 +79,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GhostEffectBehaviour__EndBehavior();
+  constexpr GhostEffectBehaviour_EndBehavior();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GhostEffectBehaviour__EndBehavior(int32_t value__) noexcept;
+  constexpr GhostEffectBehaviour_EndBehavior(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field DisableAll value: I32(0)
+  static ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const DisableAll;
 
-  /// @brief Field DisableAll value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const DisableAll;
+  /// @brief Field DisableCopies value: I32(1)
+  static ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const DisableCopies;
 
-  /// @brief Field DisableCopies value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const DisableCopies;
-
-  /// @brief Field Nothing value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const Nothing;
+  /// @brief Field Nothing value: I32(2)
+  static ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const Nothing;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour_EndBehavior, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectBehaviour_EndBehavior, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::GhostEffectType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::GhostEffectBehaviour::GhostEffectType
-struct CORDL_TYPE __GhostEffectBehaviour__GhostEffectType {
+// CS Name: GhostEffectBehaviour/GhostEffectType
+struct CORDL_TYPE GhostEffectBehaviour_GhostEffectType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GhostEffectBehaviour__GhostEffectType_Unwrapped
-  enum struct ____GhostEffectBehaviour__GhostEffectType_Unwrapped : int32_t {
+  /// @brief Nested struct __GhostEffectBehaviour_GhostEffectType_Unwrapped
+  enum struct __GhostEffectBehaviour_GhostEffectType_Unwrapped : int32_t {
     __E_TextMeshPro = static_cast<int32_t>(0x0),
     __E_Canvas = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GhostEffectBehaviour__GhostEffectType_Unwrapped() const noexcept {
-    return static_cast<____GhostEffectBehaviour__GhostEffectType_Unwrapped>(this->value__);
+  constexpr operator __GhostEffectBehaviour_GhostEffectType_Unwrapped() const noexcept {
+    return static_cast<__GhostEffectBehaviour_GhostEffectType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -141,45 +137,44 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GhostEffectBehaviour__GhostEffectType();
+  constexpr GhostEffectBehaviour_GhostEffectType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GhostEffectBehaviour__GhostEffectType(int32_t value__) noexcept;
+  constexpr GhostEffectBehaviour_GhostEffectType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Canvas value: I32(1)
+  static ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const Canvas;
 
-  /// @brief Field Canvas value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const Canvas;
-
-  /// @brief Field TextMeshPro value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const TextMeshPro;
+  /// @brief Field TextMeshPro value: I32(0)
+  static ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const TextMeshPro;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5201 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectBehaviour_GhostEffectType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::GhostEffectBehaviour
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EaseType, GhostEffectBehaviour::EndBehavior, GhostEffectBehaviour::GhostEffectType, UnityEngine.Playables.PlayableBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GhostEffectBehaviour*
+// CS Name: GhostEffectBehaviour
 class CORDL_TYPE GhostEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  using EndBehavior = ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior;
+  using EndBehavior = ::GlobalNamespace::GhostEffectBehaviour_EndBehavior;
 
-  using GhostEffectType = ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType;
+  using GhostEffectType = ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType;
 
   /// @brief Field _canvasGroups, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__canvasGroups,
@@ -193,7 +188,7 @@ public:
   __declspec(property(get = __cordl_internal_get__distanceMultiplier, put = __cordl_internal_set__distanceMultiplier)) ::UnityEngine::Vector3 _distanceMultiplier;
 
   /// @brief Field _endBehavior, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get__endBehavior, put = __cordl_internal_set__endBehavior)) ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior _endBehavior;
+  __declspec(property(get = __cordl_internal_get__endBehavior, put = __cordl_internal_set__endBehavior)) ::GlobalNamespace::GhostEffectBehaviour_EndBehavior _endBehavior;
 
   /// @brief Field _endLocalPosition, offset 0x50, size 0xc
   __declspec(property(get = __cordl_internal_get__endLocalPosition, put = __cordl_internal_set__endLocalPosition)) ::UnityEngine::Vector3 _endLocalPosition;
@@ -208,7 +203,7 @@ public:
   __declspec(property(get = __cordl_internal_get__ghostEffectTransform, put = __cordl_internal_set__ghostEffectTransform)) ::UnityW<::UnityEngine::Transform> _ghostEffectTransform;
 
   /// @brief Field _ghostEffectType, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType)) ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
+  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType)) ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType _ghostEffectType;
 
   /// @brief Field _positionEasing, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__positionEasing, put = __cordl_internal_set__positionEasing)) ::GlobalNamespace::EaseType _positionEasing;
@@ -241,15 +236,15 @@ public:
   __declspec(property(get = __cordl_internal_get_textMeshPros, put = __cordl_internal_set_textMeshPros)) ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>
       textMeshPros;
 
-  /// @brief Method EnableObjects, addr 0x3ad4388, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EnableObjects, addr 0x3b339cc, size 0x114, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
   static inline ::GlobalNamespace::GhostEffectBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x3ad41f8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x3b3383c, size 0x190, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame, addr 0x3ad449c, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b33ae0, size 0x430, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroups() const;
@@ -264,9 +259,9 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__distanceMultiplier();
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const& __cordl_internal_get__endBehavior() const;
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior const& __cordl_internal_get__endBehavior() const;
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior& __cordl_internal_get__endBehavior();
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_EndBehavior& __cordl_internal_get__endBehavior();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__endLocalPosition() const;
 
@@ -284,9 +279,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__ghostEffectTransform();
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __cordl_internal_get__ghostEffectType();
+  constexpr ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType& __cordl_internal_get__ghostEffectType();
 
   constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__positionEasing() const;
 
@@ -308,21 +303,21 @@ public:
 
   constexpr bool& __cordl_internal_get__useStartTransform();
 
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_alphaCurve() const;
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_alphaCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_alphaCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_distanceCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_distanceCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_distanceCurve() const;
 
   constexpr float_t const& __cordl_internal_get_progress() const;
 
   constexpr float_t& __cordl_internal_get_progress();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_sizeCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get_sizeCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_sizeCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_sizeCurve();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get_textMeshPros() const;
 
@@ -334,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set__distanceMultiplier(::UnityEngine::Vector3 value);
 
-  constexpr void __cordl_internal_set__endBehavior(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior value);
+  constexpr void __cordl_internal_set__endBehavior(::GlobalNamespace::GhostEffectBehaviour_EndBehavior value);
 
   constexpr void __cordl_internal_set__endLocalPosition(::UnityEngine::Vector3 value);
 
@@ -344,7 +339,7 @@ public:
 
   constexpr void __cordl_internal_set__ghostEffectTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
+  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType value);
 
   constexpr void __cordl_internal_set__positionEasing(::GlobalNamespace::EaseType value);
 
@@ -366,7 +361,7 @@ public:
 
   constexpr void __cordl_internal_set_textMeshPros(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
-  /// @brief Method .ctor, addr 0x3ad48cc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b33f10, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -382,6 +377,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GhostEffectBehaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GhostEffectBehaviour(GhostEffectBehaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5202 };
 
   /// @brief Field alphaCurve, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___alphaCurve;
@@ -417,7 +415,7 @@ public:
   ::GlobalNamespace::EaseType ____positionEasing;
 
   /// @brief Field _endBehavior, offset: 0x6c, size: 0x4, def value: None
-  ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior ____endBehavior;
+  ::GlobalNamespace::GhostEffectBehaviour_EndBehavior ____endBehavior;
 
   /// @brief Field progress, offset: 0x70, size: 0x4, def value: None
   float_t ___progress;
@@ -429,7 +427,7 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> ____canvasGroups;
 
   /// @brief Field _ghostEffectType, offset: 0x88, size: 0x4, def value: None
-  ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType ____ghostEffectType;
+  ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType ____ghostEffectType;
 
   /// @brief Field _ghostEffectTransform, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____ghostEffectTransform;
@@ -440,14 +438,9 @@ public:
   /// @brief Field _finished, offset: 0xa4, size: 0x1, def value: None
   bool ____finished;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5182 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectBehaviour, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___alphaCurve) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ___sizeCurve) == 0x18, "Offset mismatch!");
@@ -486,8 +479,10 @@ static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____direction) =
 
 static_assert(offsetof(::GlobalNamespace::GhostEffectBehaviour, ____finished) == 0xa4, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GhostEffectBehaviour, 0xa8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType, "", "GhostEffectBehaviour/GhostEffectType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectBehaviour_EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectBehaviour_GhostEffectType, "", "GhostEffectBehaviour/GhostEffectType");
 NEED_NO_BOX(::GlobalNamespace::GhostEffectBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GhostEffectBehaviour*, "", "GhostEffectBehaviour");

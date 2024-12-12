@@ -10,24 +10,19 @@ class INotifyPropertyChanging;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::INotifyPropertyChanging);
-// Type: System.ComponentModel::INotifyPropertyChanging
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::INotifyPropertyChanging*
+// CS Name: System.ComponentModel.INotifyPropertyChanging
 class CORDL_TYPE INotifyPropertyChanging {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "INotifyPropertyChanging", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INotifyPropertyChanging(INotifyPropertyChanging&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "INotifyPropertyChanging", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INotifyPropertyChanging(INotifyPropertyChanging const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,11 +12,10 @@ class RazorDirectiveAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::RazorDirectiveAttribute);
-// Type: JetBrains.Annotations::RazorDirectiveAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::RazorDirectiveAttribute*
+// CS Name: JetBrains.Annotations.RazorDirectiveAttribute
 class CORDL_TYPE RazorDirectiveAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Directive_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c870, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af1180, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW directive);
 
-  /// @brief Method get_Directive, addr 0x4a8c898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Directive, addr 0x4af11a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Directive();
 
-  /// @brief Method set_Directive, addr 0x4a8c8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Directive, addr 0x4af11b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Directive(::StringW value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RazorDirectiveAttribute(RazorDirectiveAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18508 };
+
   /// @brief Field <Directive>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Directive_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorDirectiveAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::RazorDirectiveAttribute, ____Directive_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorDirectiveAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::RazorDirectiveAttribute);

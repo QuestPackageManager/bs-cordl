@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CallbacksInTime::*)()>(&::GlobalNamespace::CallbacksInTime::get_isEmpty)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a82860;
+  constexpr static std::size_t addrs = 0x3adae2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CallbacksInTime*>::get(), "get_isEmpty",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(float_t)>(&::GlobalNamespace::CallbacksInTime::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a83a98;
+  constexpr static std::size_t addrs = 0x3adc13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::AddCallback)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3a83b70;
+  constexpr static std::size_t addrs = 0x3adc214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataCallbackWrapper*)>(
     &::GlobalNamespace::CallbacksInTime::RemoveCallback)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3a82674;
+  constexpr static std::size_t addrs = 0x3adac40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a82a4c;
+  constexpr static std::size_t addrs = 0x3adb018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CallbacksInTime::*)(::System::Type*, ::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::CallbacksInTime::CallCallbacks)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x3a83e60;
+  constexpr static std::size_t addrs = 0x3adc504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +102,7 @@ constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::Be
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastProcessedNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*> const&
-GlobalNamespace::CallbacksInTime::__cordl_internal_get_lastProcessedNode() const {
+constexpr ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* const& GlobalNamespace::CallbacksInTime::__cordl_internal_get_lastProcessedNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastProcessedNode;
 }
@@ -127,7 +126,7 @@ constexpr ::GlobalNamespace::BeatmapEventData*& GlobalNamespace::CallbacksInTime
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataForCallbacksAfterNodeRemoval;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& GlobalNamespace::CallbacksInTime::__cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval() const {
+constexpr ::GlobalNamespace::BeatmapEventData* const& GlobalNamespace::CallbacksInTime::__cordl_internal_get_beatmapEventDataForCallbacksAfterNodeRemoval() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapEventDataForCallbacksAfterNodeRemoval;
 }
@@ -141,8 +140,8 @@ GlobalNamespace::CallbacksInTime::__cordl_internal_get__callbacksWithSubtypeIden
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacksWithSubtypeIdentifier;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_2<::System::Type*, int32_t>,
+                                                       ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const&
 GlobalNamespace::CallbacksInTime::__cordl_internal_get__callbacksWithSubtypeIdentifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacksWithSubtypeIdentifier;
@@ -157,8 +156,7 @@ GlobalNamespace::CallbacksInTime::__cordl_internal_get__callbacks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacks;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDataCallbackWrapper*>*>* const&
 GlobalNamespace::CallbacksInTime::__cordl_internal_get__callbacks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callbacks;
@@ -172,9 +170,6 @@ inline bool GlobalNamespace::CallbacksInTime::get_isEmpty() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CallbacksInTime*>::get(), "get_isEmpty",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::CallbacksInTime* GlobalNamespace::CallbacksInTime::New_ctor(float_t aheadTime) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CallbacksInTime*>(aheadTime));
 }
 inline void GlobalNamespace::CallbacksInTime::_ctor(float_t aheadTime) {
   static auto* ___internal_method =
@@ -206,6 +201,9 @@ inline void GlobalNamespace::CallbacksInTime::CallCallbacks(::System::Type* beat
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapEventDataType, beatmapDataItem);
+}
+inline ::GlobalNamespace::CallbacksInTime* GlobalNamespace::CallbacksInTime::New_ctor(float_t aheadTime) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CallbacksInTime*>(aheadTime));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CallbacksInTime::CallbacksInTime() {}

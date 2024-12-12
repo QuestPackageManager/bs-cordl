@@ -12,11 +12,10 @@ struct SecurityAction;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Permissions::SecurityAction);
-// Type: System.Security.Permissions::SecurityAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Permissions {
 // Is value type: true
-// CS Name: ::System.Security.Permissions::SecurityAction
+// CS Name: System.Security.Permissions.SecurityAction
 struct CORDL_TYPE SecurityAction {
 public:
   // Declarations
@@ -52,31 +51,28 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SecurityAction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Demand value: static_cast<int32_t>(0x2)
+  /// @brief Field Demand value: I32(2)
   static ::System::Security::Permissions::SecurityAction const Demand;
 
-  /// @brief Field Deny value: static_cast<int32_t>(0x4)
+  /// @brief Field Deny value: I32(4)
   static ::System::Security::Permissions::SecurityAction const Deny;
 
-  /// @brief Field InheritanceDemand value: static_cast<int32_t>(0x7)
+  /// @brief Field InheritanceDemand value: I32(7)
   static ::System::Security::Permissions::SecurityAction const InheritanceDemand;
 
-  /// @brief Field LinkDemand value: static_cast<int32_t>(0x6)
+  /// @brief Field LinkDemand value: I32(6)
   static ::System::Security::Permissions::SecurityAction const LinkDemand;
 
-  /// @brief Field PermitOnly value: static_cast<int32_t>(0x5)
+  /// @brief Field PermitOnly value: I32(5)
   static ::System::Security::Permissions::SecurityAction const PermitOnly;
 
-  /// @brief Field RequestMinimum value: static_cast<int32_t>(0x8)
+  /// @brief Field RequestMinimum value: I32(8)
   static ::System::Security::Permissions::SecurityAction const RequestMinimum;
 
-  /// @brief Field RequestOptional value: static_cast<int32_t>(0x9)
+  /// @brief Field RequestOptional value: I32(9)
   static ::System::Security::Permissions::SecurityAction const RequestOptional;
 
-  /// @brief Field RequestRefuse value: static_cast<int32_t>(0xa)
+  /// @brief Field RequestRefuse value: I32(10)
   static ::System::Security::Permissions::SecurityAction const RequestRefuse;
 
   /// @brief IL2CPP Metadata Type Index
@@ -85,15 +81,18 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field Assert value: static_cast<int32_t>(0x3)
+  /// @brief Field Assert value: I32(3)
   static ::System::Security::Permissions::SecurityAction const _cordl_Assert;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Permissions::SecurityAction, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Permissions::SecurityAction, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Permissions::SecurityAction, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Permissions
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Permissions::SecurityAction, "System.Security.Permissions", "SecurityAction");

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int64_t (::Org::BouncyCastle::Utilities::Zlib::Adler32::*)(int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::Adler32::adler32)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x25a5964;
+  constexpr static std::size_t addrs = 0x25d8c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::Adler32::*)()>(&::Org::BouncyCastle::Utilities::Zlib::Adler32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a5c84;
+  constexpr static std::size_t addrs = 0x25d8f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::Adler32*>::get(), ".ctor",
@@ -40,13 +40,13 @@ inline int64_t Org::BouncyCastle::Utilities::Zlib::Adler32::adler32(int64_t adle
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, adler, buf, index, len);
 }
-inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* Org::BouncyCastle::Utilities::Zlib::Adler32::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::Adler32*>());
-}
 inline void Org::BouncyCastle::Utilities::Zlib::Adler32::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::Adler32*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* Org::BouncyCastle::Utilities::Zlib::Adler32::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Zlib::Adler32*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Zlib::Adler32::Adler32() {}

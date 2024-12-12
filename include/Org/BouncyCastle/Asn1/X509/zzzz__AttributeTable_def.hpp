@@ -29,18 +29,17 @@ class AttributeTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttributeTable);
-// Type: Org.BouncyCastle.Asn1.X509::AttributeTable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::AttributeTable*
+// CS Name: Org.BouncyCastle.Asn1.X509.AttributeTable
 class CORDL_TYPE AttributeTable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::IDictionary* attributes;
 
-  /// @brief Method Get, addr 0x24d11b4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x25044a0, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* Get(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::System::Collections::Hashtable* attrs);
@@ -51,28 +50,28 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeTable* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
-  /// @brief Method ToDictionary, addr 0x24d1308, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToDictionary, addr 0x25045f4, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* ToDictionary();
 
-  /// @brief Method ToHashtable, addr 0x24d12a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ToHashtable, addr 0x2504594, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* ToHashtable();
+
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_attributes() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
-
   constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x24d0e7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504168, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* attrs);
 
-  /// @brief Method .ctor, addr 0x24d0e04, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25040f0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* attrs);
 
-  /// @brief Method .ctor, addr 0x24d103c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2504328, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* s);
 
-  /// @brief Method .ctor, addr 0x24d0ef4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25041e0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* v);
 
 protected:
@@ -89,18 +88,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeTable(AttributeTable const&) = delete;
 
-  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___attributes;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 343 };
+
+  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::IDictionary* ___attributes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::AttributeTable, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::AttributeTable, ___attributes) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::AttributeTable, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::AttributeTable);

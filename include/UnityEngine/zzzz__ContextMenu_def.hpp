@@ -13,11 +13,10 @@ class ContextMenu;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ContextMenu);
-// Type: UnityEngine::ContextMenu
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ContextMenu*
+// CS Name: UnityEngine.ContextMenu
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
   // Declarations
@@ -54,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x48456d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6404, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x4845708, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a643c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x4845744, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6478, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContextMenu(ContextMenu const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10859 };
+
   /// @brief Field menuItem, offset: 0x10, size: 0x8, def value: None
   ::StringW ___menuItem;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field priority, offset: 0x1c, size: 0x4, def value: None
   int32_t ___priority;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10826 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ContextMenu, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ContextMenu, ___menuItem) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContextMenu, ___validate) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContextMenu, ___priority) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ContextMenu, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::ContextMenu);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RevocationKey)
 namespace Org::BouncyCastle::Bcpg {
@@ -19,11 +18,10 @@ class RevocationKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::RevocationKey);
-// Type: Org.BouncyCastle.Bcpg::RevocationKey
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::RevocationKey*
+// CS Name: Org.BouncyCastle.Bcpg.RevocationKey
 class CORDL_TYPE RevocationKey : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
@@ -31,11 +29,11 @@ public:
 
   __declspec(property(get = get_SignatureClass)) ::Org::BouncyCastle::Bcpg::RevocationKeyTag SignatureClass;
 
-  /// @brief Method CreateData, addr 0x260a1d8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x263d4c4, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method GetFingerprint, addr 0x260a2d8, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetFingerprint, addr 0x263d5c4, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFingerprint();
 
   static inline ::Org::BouncyCastle::Bcpg::RevocationKey* New_ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -43,17 +41,17 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::RevocationKey* New_ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass,
                                                                    ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method .ctor, addr 0x260a13c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d428, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x260a184, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d470, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool isCritical, ::Org::BouncyCastle::Bcpg::RevocationKeyTag signatureClass, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint);
 
-  /// @brief Method get_Algorithm, addr 0x260a2ac, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x263d598, size 0x2c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_SignatureClass, addr 0x260a284, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureClass, addr 0x263d570, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::RevocationKeyTag get_SignatureClass();
 
 protected:

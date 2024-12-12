@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::get_magneticField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4565318;
+  constexpr static std::size_t addrs = 0x45c662c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::MagneticFieldSensor*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::set_magneticField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4565320;
+  constexpr static std::size_t addrs = 0x45c6634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::MagneticFieldSensor* (*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4565328;
+  constexpr static std::size_t addrs = 0x45c663c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::MagneticFieldSensor*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::MagneticFieldSensor*)>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4565370;
+  constexpr static std::size_t addrs = 0x45c6684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45653bc;
+  constexpr static std::size_t addrs = 0x45c66d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4565410;
+  constexpr static std::size_t addrs = 0x45c6724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4565494;
+  constexpr static std::size_t addrs = 0x45c67a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::MagneticFieldSensor::*)()>(
     &::UnityEngine::InputSystem::MagneticFieldSensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456550c;
+  constexpr static std::size_t addrs = 0x45c6820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::MagneticFieldSensor*>::get(), ".ctor",
@@ -127,8 +127,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::In
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____magneticField_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const&
-UnityEngine::InputSystem::MagneticFieldSensor::__cordl_internal_get__magneticField_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& UnityEngine::InputSystem::MagneticFieldSensor::__cordl_internal_get__magneticField_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____magneticField_k__BackingField;
 }
@@ -182,13 +181,13 @@ inline void UnityEngine::InputSystem::MagneticFieldSensor::FinishSetup() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::MagneticFieldSensor*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::MagneticFieldSensor* UnityEngine::InputSystem::MagneticFieldSensor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::MagneticFieldSensor*>());
-}
 inline void UnityEngine::InputSystem::MagneticFieldSensor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::MagneticFieldSensor*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::MagneticFieldSensor* UnityEngine::InputSystem::MagneticFieldSensor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::MagneticFieldSensor*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::MagneticFieldSensor::MagneticFieldSensor() {}

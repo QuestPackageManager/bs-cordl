@@ -11,17 +11,16 @@ class JsonIgnoreAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonIgnoreAttribute);
-// Type: Newtonsoft.Json::JsonIgnoreAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonIgnoreAttribute*
+// CS Name: Newtonsoft.Json.JsonIgnoreAttribute
 class CORDL_TYPE JsonIgnoreAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonIgnoreAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e1a9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7aa58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   JsonIgnoreAttribute(JsonIgnoreAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

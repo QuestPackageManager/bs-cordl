@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerPlacementErrorCode, ::BGNet::Core::GameLift::PlayerSessionInfo*, int32_t, ::StringW, ::StringW, ::StringW, ::StringW)>(
     &::BGNet::Core::GameLift::GetMultiplayerInstanceResponse::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22bae60;
+  constexpr static std::size_t addrs = 0x22ee14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,10 +24,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @param ticketId: ::StringW (default: nullptr)
-/// @param ticketStatus: ::StringW (default: nullptr)
-/// @param placementId: ::StringW (default: nullptr)
-/// @param placementStatus: ::StringW (default: nullptr)
 inline void BGNet::Core::GameLift::GetMultiplayerInstanceResponse::_ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo,
                                                                          int32_t pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,9 +36,9 @@ inline void BGNet::Core::GameLift::GetMultiplayerInstanceResponse::_ctor(::Globa
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, errorCode, playerSessionInfo, pollIntervalMs, ticketId, ticketStatus, placementId, placementStatus);
 }
 // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: Some("{}") }, CppParam { name: "playerSessionInfo", ty:
-// "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "ticketId", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "placementId", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
+// "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "ticketId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "placementId", ty:
+// "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse::GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode,
                                                                                                   ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs,
                                                                                                   ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId,

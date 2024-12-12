@@ -16,32 +16,31 @@ class Security;
 }
 // Write type traits
 MARK_REF_PTR_T(::crypto::Security);
-// Type: crypto::Security
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace crypto {
 // Is value type: false
-// CS Name: ::crypto::Security*
+// CS Name: crypto.Security
 class CORDL_TYPE Security : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeHash, addr 0x2414c54, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash, addr 0x2447f40, size 0x164, virtual false, abstract: false, final false
   static inline ::StringW ComputeHash(::StringW text, ::StringW salt);
 
-  /// @brief Method CreateCipher, addr 0x2414ec0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x24481ac, size 0x214, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateCipher(bool isEncryption, ::StringW key, ::StringW iv);
 
-  /// @brief Method Decrypt, addr 0x2414db8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Decrypt, addr 0x24480a4, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW Decrypt(::StringW cipherText, ::StringW key, ::StringW iv);
 
-  /// @brief Method Encrypt, addr 0x24150d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Encrypt, addr 0x24483c0, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW Encrypt(::StringW plainText, ::StringW key, ::StringW iv);
 
-  /// @brief Method GenerateText, addr 0x24151c8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GenerateText, addr 0x24484b4, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW GenerateText(int32_t size);
 
   static inline ::crypto::Security* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241528c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2448578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

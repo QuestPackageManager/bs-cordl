@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*>, ::System::Reflection::MethodInfo*, int32_t)>(
     &::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x408371c;
+  constexpr static std::size_t addrs = 0x40e4a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::Update)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x408376c;
+  constexpr static std::size_t addrs = 0x40e4a80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(
     &::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::UndefineTemps)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x40839c0;
+  constexpr static std::size_t addrs = 0x40e4cd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ constexpr ::System::Reflection::MethodInfo*& System::Linq::Expressions::Interpre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::__cordl_internal_get__indexer() const {
+constexpr ::System::Reflection::MethodInfo* const& System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::__cordl_internal_get__indexer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indexer;
 }
@@ -104,12 +104,6 @@ constexpr void System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater* System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::New_ctor(
-    ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
-    ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
-    int32_t argumentIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater*>(obj, args, indexer, argumentIndex));
-}
 inline void System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::_ctor(
     ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
     ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
@@ -135,6 +129,12 @@ inline void System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::Und
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instructions, locals);
+}
+inline ::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater* System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::New_ctor(
+    ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
+    ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
+    int32_t argumentIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater*>(obj, args, indexer, argumentIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater::IndexMethodByRefUpdater() {}

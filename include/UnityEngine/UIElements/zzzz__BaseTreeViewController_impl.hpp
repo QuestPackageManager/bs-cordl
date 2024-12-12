@@ -17,86 +17,84 @@
 #include "UnityEngine/UIElements/zzzz__ReusableTreeViewItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewItemWrapper_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::*)()>(
-    &::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::*)()>(
+    &::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4912450;
+  constexpr static std::size_t addrs = 0x4976c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0._PostInitRegistration_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0._PostInitRegistration_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::*)()>(
-    &::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::_PostInitRegistration_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::*)()>(
+    &::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::_PostInitRegistration_b__0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4915120;
+  constexpr static std::size_t addrs = 0x49798d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0*>::get(),
                                                  "<PostInitRegistration>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::BaseTreeViewController*& UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_get___4__this() {
+constexpr ::UnityEngine::UIElements::BaseTreeViewController*& UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseTreeViewController*> const&
-UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityEngine::UIElements::BaseTreeViewController* const& UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::BaseTreeViewController* value) {
+constexpr void UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::BaseTreeViewController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::ReusableTreeViewItem*& UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_get_treeItem() {
+constexpr ::UnityEngine::UIElements::ReusableTreeViewItem*& UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_get_treeItem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___treeItem;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ReusableTreeViewItem*> const&
-UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_get_treeItem() const {
+constexpr ::UnityEngine::UIElements::ReusableTreeViewItem* const& UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_get_treeItem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___treeItem;
 }
-constexpr void UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__cordl_internal_set_treeItem(::UnityEngine::UIElements::ReusableTreeViewItem* value) {
+constexpr void UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::__cordl_internal_set_treeItem(::UnityEngine::UIElements::ReusableTreeViewItem* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___treeItem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0* UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0*>());
-}
-inline void UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::_ctor() {
+inline void UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::_PostInitRegistration_b__0() {
+inline void UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::_PostInitRegistration_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0*>::get(),
                                                "<PostInitRegistration>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0* UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__BaseTreeViewController____c__DisplayClass20_0::__BaseTreeViewController____c__DisplayClass20_0() {}
+constexpr ::UnityEngine::UIElements::BaseTreeViewController___c__DisplayClass20_0::BaseTreeViewController___c__DisplayClass20_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController.get_baseTreeView
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseTreeView* (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::get_baseTreeView)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49115c0;
+  constexpr static std::size_t addrs = 0x4975d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
@@ -110,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::get_itemsSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491163c;
+  constexpr static std::size_t addrs = 0x4975dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::System::Collections::IList*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::set_itemsSource)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4911644;
+  constexpr static std::size_t addrs = 0x4975df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::RebuildTree)> {
   constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x4911690;
+  constexpr static std::size_t addrs = 0x4975e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
@@ -156,75 +154,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetRootItemIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4911bb4;
+  constexpr static std::size_t addrs = 0x4976364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
                                                                                "GetRootItemIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController.GetAllItemIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (
-    ::UnityEngine::UIElements::BaseTreeViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::UIElements::BaseTreeViewController::GetAllItemIds)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 22));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController.GetParentId
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
-    &::UnityEngine::UIElements::BaseTreeViewController::GetParentId)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 23));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController.GetChildrenIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (
-    ::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseTreeViewController::GetChildrenIds)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 24));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseTreeViewController.Move
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, int32_t, int32_t, bool)>(
-    &::UnityEngine::UIElements::BaseTreeViewController::Move)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 25));
     return ___internal_method;
   }
 };
@@ -234,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4911bbc;
+  constexpr static std::size_t addrs = 0x497636c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::BaseTreeViewController::InvokeBindItem)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4911ec4;
+  constexpr static std::size_t addrs = 0x4976674;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::InvokeDestroyItem)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x49121a0;
+  constexpr static std::size_t addrs = 0x4976950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::UnityEngine::UIElements::ReusableTreeViewItem*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::PostInitRegistration)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x4911c6c;
+  constexpr static std::size_t addrs = 0x497641c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::OnItemPointerUp)> {
   constexpr static std::size_t size = 0x620;
-  constexpr static std::size_t addrs = 0x49125b8;
+  constexpr static std::size_t addrs = 0x4976d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -312,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::BaseTreeViewController::OnToggleValueChanged)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4912c7c;
+  constexpr static std::size_t addrs = 0x497742c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -327,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetIndexForId)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4913e08;
+  constexpr static std::size_t addrs = 0x49785b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetIdForIndex)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4913f00;
+  constexpr static std::size_t addrs = 0x49786b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -359,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::HasChildren)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4914004;
+  constexpr static std::size_t addrs = 0x49787b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::Exists)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x491408c;
+  constexpr static std::size_t addrs = 0x497883c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::HasChildrenByIndex)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49120e0;
+  constexpr static std::size_t addrs = 0x4976890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (
     ::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(&::UnityEngine::UIElements::BaseTreeViewController::GetChildrenIdsByIndex)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4912bd8;
+  constexpr static std::size_t addrs = 0x4977388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -420,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetChildIndexForId)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x49140e4;
+  constexpr static std::size_t addrs = 0x4978894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetIndentationDepth)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4914464;
+  constexpr static std::size_t addrs = 0x4978c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -450,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::GetIndentationDepthByIndex)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4911fd4;
+  constexpr static std::size_t addrs = 0x4976784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::CanChangeExpandedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49144cc;
+  constexpr static std::size_t addrs = 0x4978c7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::IsExpanded)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49144d4;
+  constexpr static std::size_t addrs = 0x4978c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -496,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::IsExpandedByIndex)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x491200c;
+  constexpr static std::size_t addrs = 0x49767bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, bool, bool)>(
     &::UnityEngine::UIElements::BaseTreeViewController::ExpandItemByIndex)> {
   constexpr static std::size_t size = 0xb14;
-  constexpr static std::size_t addrs = 0x49132f4;
+  constexpr static std::size_t addrs = 0x4977aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -527,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, bool, bool)>(
     &::UnityEngine::UIElements::BaseTreeViewController::ExpandItem)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x4914b68;
+  constexpr static std::size_t addrs = 0x4979318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -543,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, bool)>(
     &::UnityEngine::UIElements::BaseTreeViewController::CollapseItemByIndex)> {
   constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x4912dc4;
+  constexpr static std::size_t addrs = 0x4977574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,7 +492,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, bool)>(
     &::UnityEngine::UIElements::BaseTreeViewController::CollapseItem)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4914d50;
+  constexpr static std::size_t addrs = 0x4979500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::RegenerateWrappers)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4911b04;
+  constexpr static std::size_t addrs = 0x49762b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
@@ -585,10 +519,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(
-    ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t, ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>)>(
+    ::System::Collections::Generic::IEnumerable_1<int32_t>*, int32_t, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>)>(
     &::UnityEngine::UIElements::BaseTreeViewController::CreateWrappers)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x4914538;
+  constexpr static std::size_t addrs = 0x4978ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -596,7 +530,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -606,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::IsIndexValid)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4913fa4;
+  constexpr static std::size_t addrs = 0x4978754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -621,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::BaseTreeViewController::RaiseItemParentChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4914ecc;
+  constexpr static std::size_t addrs = 0x497967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseTreeViewController::*)()>(
     &::UnityEngine::UIElements::BaseTreeViewController::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4914ee8;
+  constexpr static std::size_t addrs = 0x4979698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(),
@@ -648,8 +582,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeItems;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::TreeItem>*> const&
-UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_TreeItems() const {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::TreeItem>* const& UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_TreeItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeItems;
 }
@@ -661,7 +594,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootIndices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_RootIndices() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_RootIndices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RootIndices;
 }
@@ -673,8 +606,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tree
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemWrappers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*> const&
-UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_ItemWrappers() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>* const& UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_ItemWrappers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ItemWrappers;
 }
@@ -686,8 +618,7 @@ constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::UIEl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeItemIdsWithItemWrappers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const&
-UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_TreeItemIdsWithItemWrappers() const {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_TreeItemIdsWithItemWrappers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeItemIdsWithItemWrappers;
 }
@@ -699,7 +630,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Tree
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrapperInsertionList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>* const&
 UnityEngine::UIElements::BaseTreeViewController::__cordl_internal_get_m_WrapperInsertionList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WrapperInsertionList;
@@ -752,7 +683,6 @@ inline ::System::Collections::Generic::IEnumerable_1<int32_t>* UnityEngine::UIEl
                                                                              "GetRootItemIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method);
 }
-/// @param rootIds: ::System::Collections::Generic::IEnumerable_1<int32_t>* (default: nullptr)
 inline ::System::Collections::Generic::IEnumerable_1<int32_t>* UnityEngine::UIElements::BaseTreeViewController::GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 22)));
@@ -768,8 +698,6 @@ inline ::System::Collections::Generic::IEnumerable_1<int32_t>* UnityEngine::UIEl
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method, id);
 }
-/// @param childIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-/// @param rebuildTree: bool (default: true)
 inline void UnityEngine::UIElements::BaseTreeViewController::Move(int32_t id, int32_t newParentId, int32_t childIndex, bool rebuildTree) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), 25)));
@@ -876,7 +804,6 @@ inline bool UnityEngine::UIElements::BaseTreeViewController::IsExpandedByIndex(i
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
 }
-/// @param refresh: bool (default: true)
 inline void UnityEngine::UIElements::BaseTreeViewController::ExpandItemByIndex(int32_t index, bool expandAllChildren, bool refresh) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), "ExpandItemByIndex", std::span<Il2CppClass const* const, 0>(),
@@ -884,7 +811,6 @@ inline void UnityEngine::UIElements::BaseTreeViewController::ExpandItemByIndex(i
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, expandAllChildren, refresh);
 }
-/// @param refresh: bool (default: true)
 inline void UnityEngine::UIElements::BaseTreeViewController::ExpandItem(int32_t id, bool expandAllChildren, bool refresh) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), "ExpandItem", std::span<Il2CppClass const* const, 0>(),
@@ -910,12 +836,12 @@ inline void UnityEngine::UIElements::BaseTreeViewController::RegenerateWrappers(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseTreeViewController::CreateWrappers(::System::Collections::Generic::IEnumerable_1<int32_t>* treeViewItemIds, int32_t depth,
-                                                                            ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*> wrappers) {
+                                                                            ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*> wrappers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), "CreateWrappers", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TreeViewItemWrapper>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, treeViewItemIds, depth, wrappers);
 }
 inline bool UnityEngine::UIElements::BaseTreeViewController::IsIndexValid(int32_t index) {
@@ -930,13 +856,13 @@ inline void UnityEngine::UIElements::BaseTreeViewController::RaiseItemParentChan
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, newParentId);
 }
-inline ::UnityEngine::UIElements::BaseTreeViewController* UnityEngine::UIElements::BaseTreeViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseTreeViewController*>());
-}
 inline void UnityEngine::UIElements::BaseTreeViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseTreeViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::BaseTreeViewController* UnityEngine::UIElements::BaseTreeViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseTreeViewController*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BaseTreeViewController::BaseTreeViewController() {}

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementInit)
@@ -11,9 +12,6 @@ template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Linq::Expressions {
 class Expression;
-}
-namespace System::Linq::Expressions {
-class IArgumentProvider;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -24,11 +22,10 @@ class ElementInit;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ElementInit);
-// Type: System.Linq.Expressions::ElementInit
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.IArgumentProvider, System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::ElementInit*
+// CS Name: System.Linq.Expressions.ElementInit
 class CORDL_TYPE ElementInit : public ::System::Object {
 public:
   // Declarations
@@ -49,29 +46,28 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x404c8a0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x40adbb4, size 0x58, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
+
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get__AddMethod_k__BackingField() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__AddMethod_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get__AddMethod_k__BackingField() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* const& __cordl_internal_get__Arguments_k__BackingField() const;
 
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*& __cordl_internal_get__Arguments_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> const&
-  __cordl_internal_get__Arguments_k__BackingField() const;
 
   constexpr void __cordl_internal_set__AddMethod_k__BackingField(::System::Reflection::MethodInfo* value);
 
   constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_AddMethod, addr 0x404c890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddMethod, addr 0x40adba4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
-  /// @brief Method get_ArgumentCount, addr 0x404c8f8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentCount, addr 0x40adc0c, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Arguments, addr 0x404c898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x40adbac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Arguments();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -91,23 +87,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElementInit(ElementInit const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13665 };
+
   /// @brief Field <AddMethod>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____AddMethod_k__BackingField;
 
   /// @brief Field <Arguments>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* ____Arguments_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13631 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ElementInit, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::ElementInit, ____AddMethod_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::ElementInit, ____Arguments_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ElementInit, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::ElementInit);

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationBaseData::*)(
     float_t, bool, ::GlobalNamespace::EaseType, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(&::GlobalNamespace::LightRotationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2688fa8;
+  constexpr static std::size_t addrs = 0x26bd798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,10 +96,6 @@ constexpr void GlobalNamespace::LightRotationBaseData::__cordl_internal_set_rota
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rotationDirection = value;
 }
-inline ::GlobalNamespace::LightRotationBaseData* GlobalNamespace::LightRotationBaseData::New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType,
-                                                                                                  float_t rotation, int32_t loopsCount, ::GlobalNamespace::LightRotationDirection rotationDirection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationBaseData*>(beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection));
-}
 inline void GlobalNamespace::LightRotationBaseData::_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                                                           ::GlobalNamespace::LightRotationDirection rotationDirection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,6 +105,10 @@ inline void GlobalNamespace::LightRotationBaseData::_ctor(float_t beat, bool use
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightRotationDirection>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection);
+}
+inline ::GlobalNamespace::LightRotationBaseData* GlobalNamespace::LightRotationBaseData::New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType,
+                                                                                                  float_t rotation, int32_t loopsCount, ::GlobalNamespace::LightRotationDirection rotationDirection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationBaseData*>(beat, usePreviousEventRotationValue, easeType, rotation, loopsCount, rotationDirection));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationBaseData::LightRotationBaseData() {}

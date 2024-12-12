@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::IndexFilter* (::BeatmapSaveDataVersion3::EventBox::*)()>(
     &::BeatmapSaveDataVersion3::EventBox::get_indexFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4194;
+  constexpr static std::size_t addrs = 0x2705b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::EventBox*>::get(), "get_indexFilter",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::EventBox::*)()>(
     &::BeatmapSaveDataVersion3::EventBox::get_beatDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d419c;
+  constexpr static std::size_t addrs = 0x2705b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::EventBox*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::EventBox::*)()>(
     &::BeatmapSaveDataVersion3::EventBox::get_beatDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d41a4;
+  constexpr static std::size_t addrs = 0x2705b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::EventBox*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::EventBox::*)(
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType)>(&::BeatmapSaveDataVersion3::EventBox::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26d41ac;
+  constexpr static std::size_t addrs = 0x2705b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ constexpr ::BeatmapSaveDataVersion3::IndexFilter*& BeatmapSaveDataVersion3::Even
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::IndexFilter*> const& BeatmapSaveDataVersion3::EventBox::__cordl_internal_get_f() const {
+constexpr ::BeatmapSaveDataVersion3::IndexFilter* const& BeatmapSaveDataVersion3::EventBox::__cordl_internal_get_f() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___f;
 }
@@ -115,10 +115,6 @@ inline ::BeatmapSaveDataCommon::DistributionParamType BeatmapSaveDataVersion3::E
                                                                              "get_beatDistributionParamType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataCommon::DistributionParamType, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::EventBox* BeatmapSaveDataVersion3::EventBox::New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
-                                                                                        ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::EventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType));
-}
 inline void BeatmapSaveDataVersion3::EventBox::_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
                                                      ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType) {
   static auto* ___internal_method =
@@ -127,6 +123,10 @@ inline void BeatmapSaveDataVersion3::EventBox::_ctor(::BeatmapSaveDataVersion3::
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::DistributionParamType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParam, beatDistributionParamType);
+}
+inline ::BeatmapSaveDataVersion3::EventBox* BeatmapSaveDataVersion3::EventBox::New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
+                                                                                        ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::EventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::EventBox::EventBox() {}

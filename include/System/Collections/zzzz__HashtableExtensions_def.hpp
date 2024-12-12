@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(HashtableExtensions)
 namespace System::Collections {
 class Hashtable;
@@ -18,16 +17,15 @@ class HashtableExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::HashtableExtensions);
-// Type: System.Collections::HashtableExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::HashtableExtensions*
+// CS Name: System.Collections.HashtableExtensions
 class CORDL_TYPE HashtableExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ByRef<T> value);
+  template <typename T> static inline bool TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ::ByRef<T> value);
 
 protected:
   // Ctor Parameters []
@@ -44,7 +42,7 @@ public:
   HashtableExtensions(HashtableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9479 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

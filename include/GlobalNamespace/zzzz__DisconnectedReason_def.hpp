@@ -12,11 +12,10 @@ struct DisconnectedReason;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::DisconnectedReason);
-// Type: ::DisconnectedReason
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::DisconnectedReason
+// CS Name: DisconnectedReason
 struct CORDL_TYPE DisconnectedReason {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DisconnectedReason(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ClientConnectionClosed value: static_cast<int32_t>(0x8)
+  /// @brief Field ClientConnectionClosed value: I32(8)
   static ::GlobalNamespace::DisconnectedReason const ClientConnectionClosed;
 
-  /// @brief Field Kicked value: static_cast<int32_t>(0x4)
+  /// @brief Field Kicked value: I32(4)
   static ::GlobalNamespace::DisconnectedReason const Kicked;
 
-  /// @brief Field MasterServerUnreachable value: static_cast<int32_t>(0x7)
+  /// @brief Field MasterServerUnreachable value: I32(7)
   static ::GlobalNamespace::DisconnectedReason const MasterServerUnreachable;
 
-  /// @brief Field NetworkDisconnected value: static_cast<int32_t>(0x9)
+  /// @brief Field NetworkDisconnected value: I32(9)
   static ::GlobalNamespace::DisconnectedReason const NetworkDisconnected;
 
-  /// @brief Field ServerAtCapacity value: static_cast<int32_t>(0x5)
+  /// @brief Field ServerAtCapacity value: I32(5)
   static ::GlobalNamespace::DisconnectedReason const ServerAtCapacity;
 
-  /// @brief Field ServerConnectionClosed value: static_cast<int32_t>(0x6)
+  /// @brief Field ServerConnectionClosed value: I32(6)
   static ::GlobalNamespace::DisconnectedReason const ServerConnectionClosed;
 
-  /// @brief Field ServerTerminated value: static_cast<int32_t>(0xa)
+  /// @brief Field ServerTerminated value: I32(10)
   static ::GlobalNamespace::DisconnectedReason const ServerTerminated;
 
-  /// @brief Field Timeout value: static_cast<int32_t>(0x3)
+  /// @brief Field Timeout value: I32(3)
   static ::GlobalNamespace::DisconnectedReason const Timeout;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x1)
+  /// @brief Field Unknown value: I32(1)
   static ::GlobalNamespace::DisconnectedReason const Unknown;
 
-  /// @brief Field UserInitiated value: static_cast<int32_t>(0x2)
+  /// @brief Field UserInitiated value: I32(2)
   static ::GlobalNamespace::DisconnectedReason const UserInitiated;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14723 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectedReason, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DisconnectedReason, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectedReason, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectedReason, "", "DisconnectedReason");

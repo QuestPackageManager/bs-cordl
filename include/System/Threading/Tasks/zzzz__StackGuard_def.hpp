@@ -12,23 +12,22 @@ class StackGuard;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::StackGuard);
-// Type: System.Threading.Tasks::StackGuard
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::StackGuard*
+// CS Name: System.Threading.Tasks.StackGuard
 class CORDL_TYPE StackGuard : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  /// @brief Method EndInliningScope, addr 0x3e07ebc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x3e67f68, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method TryBeginInliningScope, addr 0x3e07e7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x3e67f28, size 0x40, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
   constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
@@ -37,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e00bd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e60c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,21 +53,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StackGuard(StackGuard const&) = delete;
 
-  /// @brief Field m_inliningDepth, offset: 0x10, size: 0x4, def value: None
-  int32_t ___m_inliningDepth;
-
   /// @brief Field MAX_UNCHECKED_INLINING_DEPTH offset 0xffffffff size 0x4
   static constexpr int32_t MAX_UNCHECKED_INLINING_DEPTH{ static_cast<int32_t>(0x14) };
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2796 };
 
+  /// @brief Field m_inliningDepth, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_inliningDepth;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StackGuard, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::Tasks::StackGuard, ___m_inliningDepth) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StackGuard, 0x18>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::StackGuard);

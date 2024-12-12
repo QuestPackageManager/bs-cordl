@@ -29,13 +29,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByMethod_5);
-// Type: Zenject::SubContainerCreatorByMethod`5
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.SubContainerCreatorByMethodBase
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
 // Is value type: false
-// CS Name: ::Zenject::SubContainerCreatorByMethod`5<TParam1,TParam2,TParam3,TParam4,TParam5>*
+// CS Name: Zenject.SubContainerCreatorByMethod`5<TParam1,TParam2,TParam3,TParam4,TParam5>
 class CORDL_TYPE SubContainerCreatorByMethod_5 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
   // Declarations
@@ -50,9 +49,9 @@ public:
   New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
            ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* installMethod);
 
-  constexpr ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*& __cordl_internal_get__installMethod();
+  constexpr ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* const& __cordl_internal_get__installMethod() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*> const& __cordl_internal_get__installMethod() const;
+  constexpr ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*& __cordl_internal_get__installMethod();
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* value);
 
@@ -74,11 +73,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByMethod_5(SubContainerCreatorByMethod_5 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12589 };
+
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* ____installMethod;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

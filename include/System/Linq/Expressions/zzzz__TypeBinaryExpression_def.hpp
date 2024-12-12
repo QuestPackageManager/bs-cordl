@@ -24,11 +24,10 @@ class TypeBinaryExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::TypeBinaryExpression);
-// Type: System.Linq.Expressions::TypeBinaryExpression
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.ExpressionType
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::TypeBinaryExpression*
+// CS Name: System.Linq.Expressions.TypeBinaryExpression
 class CORDL_TYPE TypeBinaryExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -51,26 +50,26 @@ public:
   /// @brief Field <TypeOperand>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__TypeOperand_k__BackingField, put = __cordl_internal_set__TypeOperand_k__BackingField)) ::System::Type* _TypeOperand_k__BackingField;
 
-  /// @brief Method Accept, addr 0x405a69c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40bb9b0, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
   static inline ::System::Linq::Expressions::TypeBinaryExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand,
                                                                             ::System::Linq::Expressions::ExpressionType nodeType);
 
-  /// @brief Method Update, addr 0x40562f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40b7608, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::TypeBinaryExpression* Update(::System::Linq::Expressions::Expression* expression);
 
-  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Expression_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
 
   constexpr ::System::Linq::Expressions::ExpressionType const& __cordl_internal_get__NodeType_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get__NodeType_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__TypeOperand_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__TypeOperand_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__TypeOperand_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__TypeOperand_k__BackingField();
 
   constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression* value);
 
@@ -78,19 +77,19 @@ public:
 
   constexpr void __cordl_internal_set__TypeOperand_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x405a598, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bb8ac, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand, ::System::Linq::Expressions::ExpressionType nodeType);
 
-  /// @brief Method get_Expression, addr 0x405a68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x40bb9a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_NodeType, addr 0x405a684, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40bb998, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x405a618, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x40bb92c, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeOperand, addr 0x405a694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOperand, addr 0x40bb9a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_TypeOperand();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeBinaryExpression(TypeBinaryExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13735 };
+
   /// @brief Field <NodeType>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ____NodeType_k__BackingField;
 
@@ -116,19 +118,16 @@ public:
   /// @brief Field <TypeOperand>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ____TypeOperand_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13701 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::TypeBinaryExpression, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::TypeBinaryExpression, ____NodeType_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::TypeBinaryExpression, ____Expression_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::TypeBinaryExpression, ____TypeOperand_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::TypeBinaryExpression, 0x28>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::TypeBinaryExpression);

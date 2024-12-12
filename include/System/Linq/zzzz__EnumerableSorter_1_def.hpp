@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumerableSorter_1)
 // Forward declare root types
@@ -13,20 +12,19 @@ template <typename TElement> class EnumerableSorter_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::EnumerableSorter_1);
-// Type: System.Linq::EnumerableSorter`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// CS Name: ::System.Linq::EnumerableSorter`1<TElement>*
+// CS Name: System.Linq.EnumerableSorter`1<TElement>
 class CORDL_TYPE EnumerableSorter_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CompareKeys, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t CompareKeys(int32_t index1, int32_t index2);
 
-  /// @brief Method ComputeKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ComputeKeys, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
 
   static inline ::System::Linq::EnumerableSorter_1<TElement>* New_ctor();
@@ -55,7 +53,7 @@ public:
   EnumerableSorter_1(EnumerableSorter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13603 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

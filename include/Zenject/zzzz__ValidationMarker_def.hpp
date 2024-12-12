@@ -14,11 +14,10 @@ class ValidationMarker;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ValidationMarker);
-// Type: Zenject::ValidationMarker
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ValidationMarker*
+// CS Name: Zenject.ValidationMarker
 class CORDL_TYPE ValidationMarker : public ::System::Object {
 public:
   // Declarations
@@ -40,30 +39,30 @@ public:
 
   constexpr bool& __cordl_internal_get__InstantiateFailed_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__MarkedType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__MarkedType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__MarkedType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__MarkedType_k__BackingField();
 
   constexpr void __cordl_internal_set__InstantiateFailed_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ad4fe4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b398f4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x4aeffbc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b548cc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x4aefff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x4b54900, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x4af0004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x4b54914, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x4aefff8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x4b54908, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x4af000c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x4b5491c, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:
@@ -80,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationMarker(ValidationMarker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12703 };
+
   /// @brief Field <InstantiateFailed>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____InstantiateFailed_k__BackingField;
 
   /// @brief Field <MarkedType>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____MarkedType_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12670 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::ValidationMarker, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::ValidationMarker, ____InstantiateFailed_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::ValidationMarker, ____MarkedType_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::ValidationMarker, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ValidationMarker);

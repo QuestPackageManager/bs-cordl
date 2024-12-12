@@ -5,14 +5,13 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SafeAreaRectChecker)
 namespace GlobalNamespace {
 class MainCamera;
 }
 namespace GlobalNamespace {
-class __SafeAreaRectChecker__InitData;
+class SafeAreaRectChecker_InitData;
 }
 namespace UnityEngine {
 class GameObject;
@@ -28,23 +27,22 @@ namespace GlobalNamespace {
 class SafeAreaRectChecker;
 }
 namespace GlobalNamespace {
-class __SafeAreaRectChecker__InitData;
+class SafeAreaRectChecker_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SafeAreaRectChecker);
-MARK_REF_PTR_T(::GlobalNamespace::__SafeAreaRectChecker__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SafeAreaRectChecker_InitData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SafeAreaRectChecker::InitData*
-class CORDL_TYPE __SafeAreaRectChecker__InitData : public ::System::Object {
+// CS Name: SafeAreaRectChecker/InitData
+class CORDL_TYPE SafeAreaRectChecker_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field checkingEnabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_checkingEnabled, put = __cordl_internal_set_checkingEnabled)) bool checkingEnabled;
 
-  static inline ::GlobalNamespace::__SafeAreaRectChecker__InitData* New_ctor(bool checkingEnabled);
+  static inline ::GlobalNamespace::SafeAreaRectChecker_InitData* New_ctor(bool checkingEnabled);
 
   constexpr bool const& __cordl_internal_get_checkingEnabled() const;
 
@@ -52,46 +50,45 @@ public:
 
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3b99dc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfbf14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SafeAreaRectChecker__InitData();
+  constexpr SafeAreaRectChecker_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SafeAreaRectChecker__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SafeAreaRectChecker__InitData(__SafeAreaRectChecker__InitData&&) = delete;
+  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SafeAreaRectChecker__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SafeAreaRectChecker__InitData(__SafeAreaRectChecker__InitData const&) = delete;
+  SafeAreaRectChecker_InitData(SafeAreaRectChecker_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4761 };
 
   /// @brief Field checkingEnabled, offset: 0x10, size: 0x1, def value: None
   bool ___checkingEnabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4745 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SafeAreaRectChecker__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker_InitData, ___checkingEnabled) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SafeAreaRectChecker__InitData, ___checkingEnabled) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SafeAreaRectChecker_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SafeAreaRectChecker
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SafeAreaRectChecker*
+// CS Name: SafeAreaRectChecker
 class CORDL_TYPE SafeAreaRectChecker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__SafeAreaRectChecker__InitData;
+  using InitData = ::GlobalNamespace::SafeAreaRectChecker_InitData;
 
   /// @brief Field _activeObjectWhenInsideSafeArea, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__activeObjectWhenInsideSafeArea, put = __cordl_internal_set__activeObjectWhenInsideSafeArea)) ::UnityW<::UnityEngine::GameObject>
@@ -105,7 +102,7 @@ public:
   __declspec(property(get = __cordl_internal_get__corners, put = __cordl_internal_set__corners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _corners;
 
   /// @brief Field _initData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__SafeAreaRectChecker__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::SafeAreaRectChecker_InitData* _initData;
 
   /// @brief Field _mainCamera, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera)) ::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
@@ -127,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method Start, addr 0x3b99b18, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bfbc68, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b99b7c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bfbccc, size 0x1e4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
@@ -145,9 +142,9 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__corners();
 
-  constexpr ::GlobalNamespace::__SafeAreaRectChecker__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::SafeAreaRectChecker_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SafeAreaRectChecker__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::SafeAreaRectChecker_InitData*& __cordl_internal_get__initData();
 
   constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
@@ -179,7 +176,7 @@ public:
 
   constexpr void __cordl_internal_set__corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SafeAreaRectChecker__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::SafeAreaRectChecker_InitData* value);
 
   constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
@@ -193,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3b99d60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfbeb0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,6 +206,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SafeAreaRectChecker", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SafeAreaRectChecker(SafeAreaRectChecker const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4762 };
 
   /// @brief Field _minAngleX, offset: 0x20, size: 0x4, def value: None
   float_t ____minAngleX;
@@ -238,16 +238,11 @@ public:
   ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
   /// @brief Field _initData, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::__SafeAreaRectChecker__InitData* ____initData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4746 };
+  ::GlobalNamespace::SafeAreaRectChecker_InitData* ____initData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SafeAreaRectChecker, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____minAngleX) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____maxAngleX) == 0x24, "Offset mismatch!");
@@ -268,8 +263,10 @@ static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____mainCamera) =
 
 static_assert(offsetof(::GlobalNamespace::SafeAreaRectChecker, ____initData) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SafeAreaRectChecker, 0x60>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SafeAreaRectChecker);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SafeAreaRectChecker*, "", "SafeAreaRectChecker");
-NEED_NO_BOX(::GlobalNamespace::__SafeAreaRectChecker__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SafeAreaRectChecker__InitData*, "", "SafeAreaRectChecker/InitData");
+NEED_NO_BOX(::GlobalNamespace::SafeAreaRectChecker_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SafeAreaRectChecker_InitData*, "", "SafeAreaRectChecker/InitData");

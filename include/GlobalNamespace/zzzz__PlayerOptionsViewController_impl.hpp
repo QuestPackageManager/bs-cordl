@@ -10,30 +10,30 @@
 //  Writing Method size for method: ::GlobalNamespace::PlayerOptionsViewController.add_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::HMUI::ViewController*>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb2974;
+  constexpr static std::size_t addrs = 0x3c15ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::ViewController>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::ViewController*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerOptionsViewController.remove_didFinishEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::UnityW<::HMUI::ViewController>>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(::System::Action_1<::HMUI::ViewController*>*)>(
     &::GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb2a24;
+  constexpr static std::size_t addrs = 0x3c15b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::ViewController>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::ViewController*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PlayerOptionsViewController::DidActivate)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3bb2ad4;
+  constexpr static std::size_t addrs = 0x3c15c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)(bool, bool)>(
     &::GlobalNamespace::PlayerOptionsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3bb2f04;
+  constexpr static std::size_t addrs = 0x3c16048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(&::GlobalNamespace::PlayerOptionsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb2ff8;
+  constexpr static std::size_t addrs = 0x3c1613c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), ".ctor",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerOptionsViewController::*)()>(
     &::GlobalNamespace::PlayerOptionsViewController::_DidActivate_b__6_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb3000;
+  constexpr static std::size_t addrs = 0x3c16144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(),
@@ -136,7 +136,7 @@ constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::ViewController>>*> const& GlobalNamespace::PlayerOptionsViewController::__cordl_internal_get_didFinishEvent() const {
+constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>* const& GlobalNamespace::PlayerOptionsViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
@@ -144,16 +144,16 @@ constexpr void GlobalNamespace::PlayerOptionsViewController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value) {
+inline void GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::ViewController>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::ViewController*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value) {
+inline void GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::HMUI::ViewController>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::HMUI::ViewController*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::PlayerOptionsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -166,9 +166,6 @@ inline void GlobalNamespace::PlayerOptionsViewController::DidDeactivate(bool rem
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline ::GlobalNamespace::PlayerOptionsViewController* GlobalNamespace::PlayerOptionsViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerOptionsViewController*>());
-}
 inline void GlobalNamespace::PlayerOptionsViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -178,6 +175,9 @@ inline void GlobalNamespace::PlayerOptionsViewController::_DidActivate_b__6_0() 
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerOptionsViewController*>::get(),
                                                                              "<DidActivate>b__6_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PlayerOptionsViewController* GlobalNamespace::PlayerOptionsViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerOptionsViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerOptionsViewController::PlayerOptionsViewController() {}

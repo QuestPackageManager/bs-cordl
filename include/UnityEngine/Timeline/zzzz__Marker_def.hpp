@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Marker)
-namespace UnityEngine::Timeline {
-class IMarker;
-}
 namespace UnityEngine::Timeline {
 class TrackAsset;
 }
@@ -18,11 +16,10 @@ class Marker;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::Marker);
-// Type: UnityEngine.Timeline::Marker
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject, UnityEngine.Timeline.IMarker
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::Marker*
+// CS Name: UnityEngine.Timeline.Marker
 class CORDL_TYPE Marker : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -41,10 +38,10 @@ public:
 
   static inline ::UnityEngine::Timeline::Marker* New_ctor();
 
-  /// @brief Method OnInitialize, addr 0x47c3008, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnInitialize, addr 0x482431c, size 0x4, virtual true, abstract: false, final false
   inline void OnInitialize(::UnityEngine::Timeline::TrackAsset* aPent);
 
-  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x47c2ebc, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.IMarker.Initialize, addr 0x48241d0, size 0x14c, virtual true, abstract: false, final true
   inline void UnityEngine_Timeline_IMarker_Initialize(::UnityEngine::Timeline::TrackAsset* parentTrack);
 
   constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get__parent_k__BackingField() const;
@@ -59,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  /// @brief Method .ctor, addr 0x47c300c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4824320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parent, addr 0x47c2e34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_parent, addr 0x4824148, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
-  /// @brief Method get_time, addr 0x47c2e44, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x4824158, size 0x8, virtual true, abstract: false, final true
   inline double_t get_time();
 
   /// @brief Convert to "::UnityEngine::Timeline::IMarker"
   constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
 
-  /// @brief Method set_parent, addr 0x47c2e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x4824150, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method set_time, addr 0x47c2e4c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method set_time, addr 0x4824160, size 0x70, virtual true, abstract: false, final true
   inline void set_time(double_t value);
 
 protected:
@@ -91,23 +88,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Marker(Marker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15846 };
+
   /// @brief Field m_Time, offset: 0x18, size: 0x8, def value: None
   double_t ___m_Time;
 
   /// @brief Field <parent>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Timeline::TrackAsset> ____parent_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15811 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::Marker, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::Marker, ___m_Time) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Timeline::Marker, ____parent_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::Marker, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::Marker);

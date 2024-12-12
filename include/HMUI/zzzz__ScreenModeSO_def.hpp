@@ -14,11 +14,10 @@ class ScreenModeSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ScreenModeSO);
-// Type: HMUI::ScreenModeSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ScreenModeSO*
+// CS Name: HMUI.ScreenModeSO
 class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -29,16 +28,16 @@ public:
 
   static inline ::HMUI::ScreenModeSO* New_ctor();
 
-  constexpr ::HMUI::ScreenModeData*& __cordl_internal_get__data();
+  constexpr ::HMUI::ScreenModeData* const& __cordl_internal_get__data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& __cordl_internal_get__data() const;
+  constexpr ::HMUI::ScreenModeData*& __cordl_internal_get__data();
 
   constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method .ctor, addr 0x2256e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x228956c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_data, addr 0x2256e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_data, addr 0x2289564, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenModeSO(ScreenModeSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16807 };
+
   /// @brief Field _data, offset: 0x18, size: 0x8, def value: None
   ::HMUI::ScreenModeData* ____data;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ScreenModeSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ScreenModeSO, ____data) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ScreenModeSO, 0x20>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ScreenModeSO);

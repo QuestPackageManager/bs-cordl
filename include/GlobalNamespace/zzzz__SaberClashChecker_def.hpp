@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberClashChecker)
@@ -24,11 +23,10 @@ class SaberClashChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberClashChecker);
-// Type: ::SaberClashChecker
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberClashChecker*
+// CS Name: SaberClashChecker
 class CORDL_TYPE SaberClashChecker : public ::System::Object {
 public:
   // Declarations
@@ -47,16 +45,17 @@ public:
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  /// @brief Method AreSabersClashing, addr 0x3b85888, size 0x164, virtual false, abstract: false, final false
-  inline bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
+  /// @brief Method AreSabersClashing, addr 0x3be70d8, size 0x164, virtual false, abstract: false, final false
+  inline bool AreSabersClashing(::ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method Init, addr 0x3b8586c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3be70bc, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method SegmentToSegmentDist, addr 0x3b859ec, size 0x268, virtual false, abstract: false, final false
-  inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
+  /// @brief Method SegmentToSegmentDist, addr 0x3be723c, size 0x268, virtual false, abstract: false, final false
+  inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB,
+                                      ::ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__clashingPoint() const;
 
@@ -88,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method .ctor, addr 0x3b85c54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be74a4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +104,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberClashChecker(SaberClashChecker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4654 };
+
+  /// @brief Field kIgnoredTime offset 0xffffffff size 0x4
+  static constexpr float_t kIgnoredTime{ static_cast<float_t>(0.1f) };
+
+  /// @brief Field kMinDistanceToClash offset 0xffffffff size 0x4
+  static constexpr float_t kMinDistanceToClash{ static_cast<float_t>(0.1f) };
+
   /// @brief Field _sabersAreClashing, offset: 0x10, size: 0x1, def value: None
   bool ____sabersAreClashing;
 
@@ -120,20 +128,9 @@ public:
   /// @brief Field _prevGetFrameNum, offset: 0x30, size: 0x4, def value: None
   int32_t ____prevGetFrameNum;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4642 };
-
-  /// @brief Field kIgnoredTime offset 0xffffffff size 0x4
-  static constexpr float_t kIgnoredTime{ 0.1 };
-
-  /// @brief Field kMinDistanceToClash offset 0xffffffff size 0x4
-  static constexpr float_t kMinDistanceToClash{ 0.08 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberClashChecker, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberClashChecker, ____sabersAreClashing) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberClashChecker, ____clashingPoint) == 0x14, "Offset mismatch!");
@@ -143,6 +140,8 @@ static_assert(offsetof(::GlobalNamespace::SaberClashChecker, ____leftSaber) == 0
 static_assert(offsetof(::GlobalNamespace::SaberClashChecker, ____rightSaber) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberClashChecker, ____prevGetFrameNum) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberClashChecker, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberClashChecker);

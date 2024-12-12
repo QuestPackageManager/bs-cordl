@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2663680;
+  constexpr static std::size_t addrs = 0x269696c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26636c0;
+  constexpr static std::size_t addrs = 0x26969ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(
     ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*)>(&::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x266374c;
+  constexpr static std::size_t addrs = 0x2696a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26637f0;
+  constexpr static std::size_t addrs = 0x2696adc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26637f8;
+  constexpr static std::size_t addrs = 0x2696ae4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::Copy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2663888;
+  constexpr static std::size_t addrs = 0x2696b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,18 +112,11 @@ inline ::StringW Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::ge
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>());
-}
 inline void Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*
-Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>(other));
 }
 inline void Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,6 +141,13 @@ inline ::Org::BouncyCastle::Utilities::IMemoable* Org::BouncyCastle::Crypto::Dig
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Utilities::IMemoable*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>());
+}
+inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*
+Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest* other) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest*>(other));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::Gost3411_2012_256Digest() {}

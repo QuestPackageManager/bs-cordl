@@ -6,8 +6,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>*&
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> const& UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_get_next() const {
+template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>* const& UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -27,19 +26,19 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___data, value);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::AppendTo(ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {
+template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::AppendTo(::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>::get(), "AppendTo", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, first);
-}
-template <typename T> inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* UnityEngine::UIElements::UIR::BasicNode_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>());
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* UnityEngine::UIElements::UIR::BasicNode_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>::BasicNode_1() {}

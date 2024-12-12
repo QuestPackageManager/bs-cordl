@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/JumpReceiver.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpReceiver.get_jumpToDestinationValid
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::get_jumpToDestinationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3970568;
+  constexpr static std::size_t addrs = 0x39c5a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(bool)>(&::GlobalNamespace::JumpReceiver::set_jumpToDestinationValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3970570;
+  constexpr static std::size_t addrs = 0x39c5a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::GlobalNamespace::JumpReceiver::OnNotify)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x397057c;
+  constexpr static std::size_t addrs = 0x39c5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39706bc;
+  constexpr static std::size_t addrs = 0x39c5ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), ".ctor",
@@ -63,14 +63,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
-constexpr GlobalNamespace::JumpReceiver::operator ::UnityEngine::Playables::INotificationReceiver*() noexcept {
-  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
-constexpr ::UnityEngine::Playables::INotificationReceiver* GlobalNamespace::JumpReceiver::i___UnityEngine__Playables__INotificationReceiver() noexcept {
-  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
-}
 constexpr bool& GlobalNamespace::JumpReceiver::__cordl_internal_get__jumpToDestinationValid_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpToDestinationValid_k__BackingField;
@@ -102,13 +94,21 @@ inline void GlobalNamespace::JumpReceiver::OnNotify(::UnityEngine::Playables::Pl
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, origin, notification, context);
 }
-inline ::GlobalNamespace::JumpReceiver* GlobalNamespace::JumpReceiver::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::JumpReceiver*>());
-}
 inline void GlobalNamespace::JumpReceiver::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::JumpReceiver* GlobalNamespace::JumpReceiver::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::JumpReceiver*>());
+}
+/// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
+constexpr GlobalNamespace::JumpReceiver::operator ::UnityEngine::Playables::INotificationReceiver*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+constexpr ::UnityEngine::Playables::INotificationReceiver* GlobalNamespace::JumpReceiver::i___UnityEngine__Playables__INotificationReceiver() noexcept {
+  return static_cast<::UnityEngine::Playables::INotificationReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JumpReceiver::JumpReceiver() {}

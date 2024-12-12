@@ -1,24 +1,23 @@
 #pragma once
 // IWYU pragma private; include "Unity/XR/Oculus/Development.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Unity/XR/Oculus/zzzz__Development_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Development_def.hpp"
 #include "Unity/XR/Oculus/zzzz__Development_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache::__Development__UserDeveloperModeSettingCache(int32_t value__) noexcept {
+constexpr ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache::Development_UserDeveloperModeSettingCache(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache::__Development__UserDeveloperModeSettingCache() {}
-constexpr ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache::NoUserSettingCached{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache::UserSettingFalse{ static_cast<int32_t>(0x1) };
-constexpr ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache::UserSettingTrue{ static_cast<int32_t>(0x2) };
+constexpr ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache::Development_UserDeveloperModeSettingCache() {}
+constexpr ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache Unity::XR::Oculus::Development_UserDeveloperModeSettingCache::NoUserSettingCached{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache Unity::XR::Oculus::Development_UserDeveloperModeSettingCache::UserSettingFalse{ static_cast<int32_t>(0x1) };
+constexpr ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache Unity::XR::Oculus::Development_UserDeveloperModeSettingCache::UserSettingTrue{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::Unity::XR::Oculus::Development.TrySetDeveloperMode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::XR::Oculus::Development::TrySetDeveloperMode)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d07f0;
+  constexpr static std::size_t addrs = 0x4831b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::Development::OverrideDeveloperModeStart)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47d0848;
+  constexpr static std::size_t addrs = 0x4831b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Development*>::get(),
@@ -45,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::Development::OverrideDeveloperModeStop)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47d0924;
+  constexpr static std::size_t addrs = 0x4831c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Development*>::get(),
@@ -53,13 +52,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void Unity::XR::Oculus::Development::setStaticF_s_CachedMode(::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache value) {
-  ::cordl_internals::setStaticField<::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache, "s_CachedMode",
+inline void Unity::XR::Oculus::Development::setStaticF_s_CachedMode(::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache value) {
+  ::cordl_internals::setStaticField<::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache, "s_CachedMode",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Development*>::get>(
-      std::forward<::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache>(value));
+      std::forward<::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache>(value));
 }
-inline ::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache Unity::XR::Oculus::Development::getStaticF_s_CachedMode() {
-  return ::cordl_internals::getStaticField<::Unity::XR::Oculus::__Development__UserDeveloperModeSettingCache, "s_CachedMode",
+inline ::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache Unity::XR::Oculus::Development::getStaticF_s_CachedMode() {
+  return ::cordl_internals::getStaticField<::Unity::XR::Oculus::Development_UserDeveloperModeSettingCache, "s_CachedMode",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Development*>::get>();
 }
 inline void Unity::XR::Oculus::Development::TrySetDeveloperMode(bool active) {

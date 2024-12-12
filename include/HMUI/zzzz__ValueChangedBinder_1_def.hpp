@@ -23,13 +23,12 @@ template <typename T> class ValueChangedBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::HMUI::ValueChangedBinder_1);
-// Type: HMUI::ValueChangedBinder`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::HMUI::ValueChangedBinder`1<T>*
+// CS Name: HMUI.ValueChangedBinder`1<T>
 class CORDL_TYPE ValueChangedBinder_1 : public ::System::Object {
 public:
   // Declarations
@@ -55,10 +54,9 @@ public:
 
   static inline ::HMUI::ValueChangedBinder_1<T>* New_ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>*& __cordl_internal_get__bindings();
+  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* const& __cordl_internal_get__bindings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>*> const&
-  __cordl_internal_get__bindings() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>*& __cordl_internal_get__bindings();
 
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* value);
 
@@ -85,11 +83,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValueChangedBinder_1(ValueChangedBinder_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16026 };
+
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* ____bindings;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15991 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

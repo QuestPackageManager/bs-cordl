@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnownTerminals)
 // Forward declare root types
@@ -13,21 +12,20 @@ class KnownTerminals;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::KnownTerminals);
-// Type: System::KnownTerminals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::KnownTerminals*
+// CS Name: System.KnownTerminals
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ansi, addr 0x3dd53c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x3e35470, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
-  /// @brief Method get_linux, addr 0x3dd52e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_linux, addr 0x3e35390, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
 
-  /// @brief Method get_xterm, addr 0x3dd5354, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_xterm, addr 0x3e35400, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
 
 protected:

@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTranslationBeatmapEventDataBox)
 namespace GlobalNamespace {
+struct BeatmapEventDataBox_DistributionParamType;
+}
+namespace GlobalNamespace {
 class BeatmapEventData;
 }
 namespace GlobalNamespace {
@@ -29,9 +32,6 @@ struct LightAxis;
 namespace GlobalNamespace {
 class LightTranslationBaseData;
 }
-namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
@@ -44,11 +44,10 @@ class LightTranslationBeatmapEventDataBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventDataBox);
-// Type: ::LightTranslationBeatmapEventDataBox
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapEventDataBox, LightAxis
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightTranslationBeatmapEventDataBox*
+// CS Name: LightTranslationBeatmapEventDataBox
 class CORDL_TYPE LightTranslationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
@@ -71,12 +70,12 @@ public:
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataBox*
-  New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
-           ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType gapDistributionParamType,
+  New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
+           ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType gapDistributionParamType,
            bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
            ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method Unpack, addr 0x2689244, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method Unpack, addr 0x26bda34, size 0x4d0, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
                      ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
@@ -89,10 +88,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*& __cordl_internal_get__lightTranslationBaseDataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* const& __cordl_internal_get__lightTranslationBaseDataList() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*> const&
-  __cordl_internal_get__lightTranslationBaseDataList() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*& __cordl_internal_get__lightTranslationBaseDataList();
 
   constexpr float_t const& __cordl_internal_get__translationDirection() const;
 
@@ -106,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set__translationDirection(float_t value);
 
-  /// @brief Method .ctor, addr 0x2689014, size 0x230, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
-                    ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType gapDistributionParamType,
+  /// @brief Method .ctor, addr 0x26bd804, size 0x230, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
+                    ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType gapDistributionParamType,
                     bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList);
 
-  /// @brief Method get_beatStep, addr 0x268900c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_beatStep, addr 0x26bd7fc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_subtypeIdentifier, addr 0x2689004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeIdentifier, addr 0x26bd7f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
 protected:
@@ -132,6 +130,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTranslationBeatmapEventDataBox(LightTranslationBeatmapEventDataBox const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12915 };
+
   /// @brief Field _lightTranslationBaseDataList, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* ____lightTranslationBaseDataList;
 
@@ -144,14 +145,9 @@ public:
   /// @brief Field _beatStep, offset: 0x48, size: 0x4, def value: None
   float_t ____beatStep;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12881 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationBeatmapEventDataBox, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventDataBox, ____lightTranslationBaseDataList) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventDataBox, ____axis) == 0x40, "Offset mismatch!");
@@ -159,6 +155,8 @@ static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventDataBox, _
 static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventDataBox, ____translationDirection) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightTranslationBeatmapEventDataBox, ____beatStep) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightTranslationBeatmapEventDataBox, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightTranslationBeatmapEventDataBox);

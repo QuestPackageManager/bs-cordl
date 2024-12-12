@@ -12,11 +12,10 @@ struct AtlasPopulationMode;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::AtlasPopulationMode);
-// Type: TMPro::AtlasPopulationMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::AtlasPopulationMode
+// CS Name: TMPro.AtlasPopulationMode
 struct CORDL_TYPE AtlasPopulationMode {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AtlasPopulationMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Dynamic value: static_cast<int32_t>(0x1)
+  /// @brief Field Dynamic value: I32(1)
   static ::TMPro::AtlasPopulationMode const Dynamic;
 
-  /// @brief Field Static value: static_cast<int32_t>(0x0)
+  /// @brief Field Static value: I32(0)
   static ::TMPro::AtlasPopulationMode const Static;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14471 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::AtlasPopulationMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::AtlasPopulationMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::AtlasPopulationMode, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::AtlasPopulationMode, "TMPro", "AtlasPopulationMode");

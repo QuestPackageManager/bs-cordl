@@ -17,11 +17,10 @@ class SingletonMarkRegistry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::Internal::SingletonMarkRegistry);
-// Type: Zenject.Internal::SingletonMarkRegistry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::Zenject.Internal::SingletonMarkRegistry*
+// CS Name: Zenject.Internal.SingletonMarkRegistry
 class CORDL_TYPE SingletonMarkRegistry : public ::System::Object {
 public:
   // Declarations
@@ -31,30 +30,30 @@ public:
   /// @brief Field _boundSingletons, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__boundSingletons, put = __cordl_internal_set__boundSingletons)) ::System::Collections::Generic::HashSet_1<::System::Type*>* _boundSingletons;
 
-  /// @brief Method MarkNonSingleton, addr 0x4af0108, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method MarkNonSingleton, addr 0x4b54a18, size 0xac, virtual false, abstract: false, final false
   inline void MarkNonSingleton(::System::Type* type);
 
-  /// @brief Method MarkSingleton, addr 0x4af01b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method MarkSingleton, addr 0x4b54ac4, size 0xd4, virtual false, abstract: false, final false
   inline void MarkSingleton(::System::Type* type);
 
   static inline ::Zenject::Internal::SingletonMarkRegistry* New_ctor();
 
-  /// @brief Method Unmark, addr 0x4af0288, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Unmark, addr 0x4b54b98, size 0x6c, virtual false, abstract: false, final false
   inline void Unmark(::System::Type* type);
+
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& __cordl_internal_get__boundNonSingletons() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundNonSingletons();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__boundNonSingletons() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>* const& __cordl_internal_get__boundSingletons() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__boundSingletons();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__boundSingletons() const;
 
   constexpr void __cordl_internal_set__boundNonSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
   constexpr void __cordl_internal_set__boundSingletons(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  /// @brief Method .ctor, addr 0x4af02f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b54c04, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SingletonMarkRegistry(SingletonMarkRegistry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12705 };
+
   /// @brief Field _boundSingletons, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____boundSingletons;
 
   /// @brief Field _boundNonSingletons, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::System::Type*>* ____boundNonSingletons;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12672 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::SingletonMarkRegistry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::Internal::SingletonMarkRegistry, ____boundSingletons) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::Internal::SingletonMarkRegistry, ____boundNonSingletons) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::SingletonMarkRegistry, 0x20>, "Size mismatch!");
 
 } // namespace Zenject::Internal
 NEED_NO_BOX(::Zenject::Internal::SingletonMarkRegistry);

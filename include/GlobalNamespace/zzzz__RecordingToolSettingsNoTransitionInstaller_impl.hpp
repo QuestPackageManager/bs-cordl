@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ad837c;
+  constexpr static std::size_t addrs = 0x3b37d7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::*)()>(
     &::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad83c0;
+  constexpr static std::size_t addrs = 0x3b37dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,7 @@ constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& GlobalNamespace::Reco
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const&
-GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__cordl_internal_get__recordingToolSceneSetupData() const {
+constexpr ::GlobalNamespace::RecordingToolSceneSetupData* const& GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::__cordl_internal_get__recordingToolSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____recordingToolSceneSetupData;
 }
@@ -69,14 +68,14 @@ inline void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::Install
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
-inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller*>());
-}
 inline void GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller::RecordingToolSettingsNoTransitionInstaller() {}

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(RemoteActivator)
 namespace System::Runtime::Remoting::Activation {
@@ -20,11 +21,10 @@ class RemoteActivator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivator);
-// Type: System.Runtime.Remoting.Activation::RemoteActivator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MarshalByRefObject, System.Runtime.Remoting.Activation.IActivator
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Activation::RemoteActivator*
+// CS Name: System.Runtime.Remoting.Activation.RemoteActivator
 class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {
 public:
   // Declarations
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x3c83e70, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x3ce3fe4, size 0x360, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator, addr 0x3c841d0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x3ce4344, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

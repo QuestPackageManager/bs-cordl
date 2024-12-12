@@ -21,11 +21,10 @@ class MultiplayerLobbyCenterStageLayoutAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator);
-// Type: ::MultiplayerLobbyCenterStageLayoutAnimator
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLobbyCenterStageLayoutAnimator*
+// CS Name: MultiplayerLobbyCenterStageLayoutAnimator
 class CORDL_TYPE MultiplayerLobbyCenterStageLayoutAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -45,18 +44,18 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Move, addr 0x3ba6ac8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3c09454, size 0x138, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3ba6a44, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3c093d0, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown, addr 0x3ba6c00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3c0958c, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method <Move>b__7_0, addr 0x3ba6ca8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Move>b__7_0, addr 0x3c09634, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__nextLevelBasePosition() const;
@@ -89,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3ba6ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0962c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -106,6 +105,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLobbyCenterStageLayoutAnimator(MultiplayerLobbyCenterStageLayoutAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4830 };
+
   /// @brief Field _nextLevelTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____nextLevelTransform;
 
@@ -121,14 +123,9 @@ public:
   /// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4813 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, ____nextLevelTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, ____nextLevelBasePosition) == 0x28, "Offset mismatch!");
@@ -138,6 +135,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnima
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, ____transitionDuration) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, ____tweeningManager) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator);

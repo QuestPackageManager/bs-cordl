@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsMac)
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,11 +21,10 @@ class TlsMac;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsMac);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsMac
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsMac*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsMac
 class CORDL_TYPE TlsMac : public ::System::Object {
 public:
   // Declarations
@@ -52,25 +50,25 @@ public:
   /// @brief Field secret, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret)) ::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
 
-  /// @brief Method CalculateMac, addr 0x23fdc70, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0x2430f5c, size 0x2f4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length);
 
-  /// @brief Method CalculateMacConstantTime, addr 0x23fe138, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method CalculateMacConstantTime, addr 0x2431424, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMacConstantTime(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length, int32_t fullLength,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> dummyData);
 
-  /// @brief Method GetDigestBlockCount, addr 0x23fe3bc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetDigestBlockCount, addr 0x24316a8, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetDigestBlockCount(int32_t inputLength);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method Truncate, addr 0x23fe3cc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Truncate, addr 0x24316b8, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Truncate(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& __cordl_internal_get_context() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
   constexpr int32_t const& __cordl_internal_get_digestBlockSize() const;
 
@@ -80,9 +78,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_digestOverhead();
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac* const& __cordl_internal_get_mac() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mac() const;
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
 
   constexpr int32_t const& __cordl_internal_get_macLength() const;
 
@@ -104,13 +102,13 @@ public:
 
   constexpr void __cordl_internal_set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23fd7b8, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2430aa4, size 0x3fc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method get_MacSecret, addr 0x23fdc60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSecret, addr 0x2430f4c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MacSecret();
 
-  /// @brief Method get_Size, addr 0x23fdc68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x2430f54, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:
@@ -126,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsMac", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TlsMac(TlsMac const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1311 };
 
   /// @brief Field context, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsContext* ___context;
@@ -145,14 +146,9 @@ public:
   /// @brief Field macLength, offset: 0x30, size: 0x4, def value: None
   int32_t ___macLength;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1311 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsMac, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsMac, ___context) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsMac, ___secret) == 0x18, "Offset mismatch!");
@@ -164,6 +160,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsMac, ___digestBlockS
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsMac, ___digestOverhead) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsMac, ___macLength) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsMac, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsMac);

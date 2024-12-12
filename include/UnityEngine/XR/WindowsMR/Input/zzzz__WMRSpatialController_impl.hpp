@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0b4;
+  constexpr static std::size_t addrs = 0x453b3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_joystick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0bc;
+  constexpr static std::size_t addrs = 0x453b3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0c4;
+  constexpr static std::size_t addrs = 0x453b3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector2Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0cc;
+  constexpr static std::size_t addrs = 0x453b3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0d4;
+  constexpr static std::size_t addrs = 0x453b3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0dc;
+  constexpr static std::size_t addrs = 0x453b3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0e4;
+  constexpr static std::size_t addrs = 0x453b3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0ec;
+  constexpr static std::size_t addrs = 0x453b400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0f4;
+  constexpr static std::size_t addrs = 0x453b408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_menu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da0fc;
+  constexpr static std::size_t addrs = 0x453b410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da104;
+  constexpr static std::size_t addrs = 0x453b418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da10c;
+  constexpr static std::size_t addrs = 0x453b420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da114;
+  constexpr static std::size_t addrs = 0x453b428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da11c;
+  constexpr static std::size_t addrs = 0x453b430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_joystickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da124;
+  constexpr static std::size_t addrs = 0x453b438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_joystickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da12c;
+  constexpr static std::size_t addrs = 0x453b440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da134;
+  constexpr static std::size_t addrs = 0x453b448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_touchpadClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da13c;
+  constexpr static std::size_t addrs = 0x453b450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da144;
+  constexpr static std::size_t addrs = 0x453b458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_touchpadTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da14c;
+  constexpr static std::size_t addrs = 0x453b460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da154;
+  constexpr static std::size_t addrs = 0x453b468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -328,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da15c;
+  constexpr static std::size_t addrs = 0x453b470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da164;
+  constexpr static std::size_t addrs = 0x453b478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da16c;
+  constexpr static std::size_t addrs = 0x453b480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_batteryLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da174;
+  constexpr static std::size_t addrs = 0x453b488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_batteryLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da17c;
+  constexpr static std::size_t addrs = 0x453b490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da184;
+  constexpr static std::size_t addrs = 0x453b498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_sourceLossRisk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da18c;
+  constexpr static std::size_t addrs = 0x453b4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da194;
+  constexpr static std::size_t addrs = 0x453b4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -449,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_sourceLossMitigationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da19c;
+  constexpr static std::size_t addrs = 0x453b4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da1a4;
+  constexpr static std::size_t addrs = 0x453b4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_pointerPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da1ac;
+  constexpr static std::size_t addrs = 0x453b4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -495,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (
     ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::get_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da1b4;
+  constexpr static std::size_t addrs = 0x453b4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -510,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)(
     ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::set_pointerRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da1bc;
+  constexpr static std::size_t addrs = 0x453b4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -525,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::FinishSetup)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x44da1c4;
+  constexpr static std::size_t addrs = 0x453b4d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -541,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::*)()>(
     &::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44da528;
+  constexpr static std::size_t addrs = 0x453b83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -554,8 +554,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystick_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__joystick_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector2Control* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__joystick_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystick_k__BackingField;
 }
@@ -567,8 +566,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpad_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpad_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector2Control* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpad_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpad_k__BackingField;
 }
@@ -580,8 +578,7 @@ constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& UnityEngine::XR::W
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grip_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__grip_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__grip_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____grip_k__BackingField;
 }
@@ -593,8 +590,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gripPressed_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__gripPressed_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__gripPressed_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gripPressed_k__BackingField;
 }
@@ -606,8 +602,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menu_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__menu_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__menu_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menu_k__BackingField;
 }
@@ -619,8 +614,7 @@ constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& UnityEngine::XR::W
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trigger_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__trigger_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__trigger_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trigger_k__BackingField;
 }
@@ -632,8 +626,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triggerPressed_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__triggerPressed_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__triggerPressed_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triggerPressed_k__BackingField;
 }
@@ -645,8 +638,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickClicked_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__joystickClicked_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__joystickClicked_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____joystickClicked_k__BackingField;
 }
@@ -658,8 +650,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpadClicked_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpadClicked_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpadClicked_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpadClicked_k__BackingField;
 }
@@ -671,8 +662,7 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& UnityEngine::XR:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpadTouched_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpadTouched_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__touchpadTouched_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____touchpadTouched_k__BackingField;
 }
@@ -684,8 +674,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deviceVelocity_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__deviceVelocity_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__deviceVelocity_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deviceVelocity_k__BackingField;
 }
@@ -697,8 +686,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deviceAngularVelocity_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__deviceAngularVelocity_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__deviceAngularVelocity_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deviceAngularVelocity_k__BackingField;
 }
@@ -711,8 +699,7 @@ constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& UnityEngine::XR::W
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLevel_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__batteryLevel_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__batteryLevel_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____batteryLevel_k__BackingField;
 }
@@ -724,8 +711,7 @@ constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& UnityEngine::XR::W
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sourceLossRisk_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__sourceLossRisk_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__sourceLossRisk_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sourceLossRisk_k__BackingField;
 }
@@ -737,7 +723,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sourceLossMitigationDirection_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const&
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const&
 UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__sourceLossMitigationDirection_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sourceLossMitigationDirection_k__BackingField;
@@ -752,8 +738,7 @@ constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& UnityEngine::XR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPosition_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__pointerPosition_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__pointerPosition_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerPosition_k__BackingField;
 }
@@ -765,8 +750,7 @@ constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& UnityEngine:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerRotation_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const&
-UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__pointerRotation_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& UnityEngine::XR::WindowsMR::Input::WMRSpatialController::__cordl_internal_get__pointerRotation_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointerRotation_k__BackingField;
 }
@@ -969,13 +953,13 @@ inline void UnityEngine::XR::WindowsMR::Input::WMRSpatialController::FinishSetup
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::WMRSpatialController*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController* UnityEngine::XR::WindowsMR::Input::WMRSpatialController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::WindowsMR::Input::WMRSpatialController*>());
-}
 inline void UnityEngine::XR::WindowsMR::Input::WMRSpatialController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::WindowsMR::Input::WMRSpatialController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController* UnityEngine::XR::WindowsMR::Input::WMRSpatialController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::WindowsMR::Input::WMRSpatialController*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::WindowsMR::Input::WMRSpatialController::WMRSpatialController() {}

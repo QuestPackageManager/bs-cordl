@@ -11,73 +11,72 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__SongPacksDropdown____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::SongPacksDropdown___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SongPacksDropdown____c::*)()>(&::GlobalNamespace::__SongPacksDropdown____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown___c::*)()>(&::GlobalNamespace::SongPacksDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af6e94;
+  constexpr static std::size_t addrs = 0x3b566ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__SongPacksDropdown____c._LazyInit_b__7_0
+//  Writing Method size for method: ::GlobalNamespace::SongPacksDropdown___c._LazyInit_b__7_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SongPacksDropdown____c::*)(::StringW)>(
-    &::GlobalNamespace::__SongPacksDropdown____c::_LazyInit_b__7_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongPacksDropdown___c::*)(::StringW)>(
+    &::GlobalNamespace::SongPacksDropdown___c::_LazyInit_b__7_0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3af6e9c;
+  constexpr static std::size_t addrs = 0x3b566f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get(), "<LazyInit>b__7_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get(), "<LazyInit>b__7_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__SongPacksDropdown____c::setStaticF___9(::GlobalNamespace::__SongPacksDropdown____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__SongPacksDropdown____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get>(
-      std::forward<::GlobalNamespace::__SongPacksDropdown____c*>(value));
+inline void GlobalNamespace::SongPacksDropdown___c::setStaticF___9(::GlobalNamespace::SongPacksDropdown___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::SongPacksDropdown___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get>(
+      std::forward<::GlobalNamespace::SongPacksDropdown___c*>(value));
 }
-inline ::GlobalNamespace::__SongPacksDropdown____c* GlobalNamespace::__SongPacksDropdown____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__SongPacksDropdown____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get>();
+inline ::GlobalNamespace::SongPacksDropdown___c* GlobalNamespace::SongPacksDropdown___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::SongPacksDropdown___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get>();
 }
-inline void GlobalNamespace::__SongPacksDropdown____c::setStaticF___9__7_0(::System::Func_2<::StringW, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get>(
+inline void GlobalNamespace::SongPacksDropdown___c::setStaticF___9__7_0(::System::Func_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__7_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get>(
       std::forward<::System::Func_2<::StringW, ::StringW>*>(value));
 }
-inline ::System::Func_2<::StringW, ::StringW>* GlobalNamespace::__SongPacksDropdown____c::getStaticF___9__7_0() {
+inline ::System::Func_2<::StringW, ::StringW>* GlobalNamespace::SongPacksDropdown___c::getStaticF___9__7_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::StringW, ::StringW>*, "<>9__7_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get>();
 }
-inline ::GlobalNamespace::__SongPacksDropdown____c* GlobalNamespace::__SongPacksDropdown____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SongPacksDropdown____c*>());
-}
-inline void GlobalNamespace::__SongPacksDropdown____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get(), ".ctor",
+inline void GlobalNamespace::SongPacksDropdown___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__SongPacksDropdown____c::_LazyInit_b__7_0(::StringW serializedName) {
+inline ::StringW GlobalNamespace::SongPacksDropdown___c::_LazyInit_b__7_0(::StringW serializedName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SongPacksDropdown____c*>::get(), "<LazyInit>b__7_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown___c*>::get(), "<LazyInit>b__7_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, serializedName);
 }
+inline ::GlobalNamespace::SongPacksDropdown___c* GlobalNamespace::SongPacksDropdown___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPacksDropdown___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SongPacksDropdown____c::__SongPacksDropdown____c() {}
+constexpr ::GlobalNamespace::SongPacksDropdown___c::SongPacksDropdown___c() {}
 //  Writing Method size for method: ::GlobalNamespace::SongPacksDropdown.add_didSelectCellWithIdxEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SongPacksDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af6794;
+  constexpr static std::size_t addrs = 0x3b55fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::SongPacksDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af6844;
+  constexpr static std::size_t addrs = 0x3b5609c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::LazyInit)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3af68f4;
+  constexpr static std::size_t addrs = 0x3b5614c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(), "LazyInit",
@@ -119,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3af6a9c;
+  constexpr static std::size_t addrs = 0x3b562f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(), "Start",
@@ -132,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3af6b34;
+  constexpr static std::size_t addrs = 0x3b5638c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(), "OnDestroy",
@@ -146,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::System::Collections::Generic::List_1<::StringW>*)>(
     &::GlobalNamespace::SongPacksDropdown::SetOverrideSongPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af6c04;
+  constexpr static std::size_t addrs = 0x3b5645c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPacksDropdown::*)()>(
     &::GlobalNamespace::SongPacksDropdown::GetSelectedSongPackMask)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3af6c0c;
+  constexpr static std::size_t addrs = 0x3b56464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(),
@@ -175,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPacksDropdown::SelectCellWithSongPackMask)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af6ca4;
+  constexpr static std::size_t addrs = 0x3b564fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SongPacksDropdown::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPacksDropdown::GetIdxForSongPackMask)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3af6d54;
+  constexpr static std::size_t addrs = 0x3b565ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::SongPacksDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3af6e0c;
+  constexpr static std::size_t addrs = 0x3b56664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPacksDropdown::*)()>(&::GlobalNamespace::SongPacksDropdown::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af6e30;
+  constexpr static std::size_t addrs = 0x3b56688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(), ".ctor",
@@ -244,7 +243,7 @@ constexpr ::GlobalNamespace::SongPackMasksModel*& GlobalNamespace::SongPacksDrop
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get__songPackMasksModel() const {
+constexpr ::GlobalNamespace::SongPackMasksModel* const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get__songPackMasksModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
@@ -256,7 +255,7 @@ constexpr ::System::Action_1<int32_t>*& GlobalNamespace::SongPacksDropdown::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
@@ -280,7 +279,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& GlobalNamespace::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackSerializedNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get__songPackSerializedNames() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& GlobalNamespace::SongPacksDropdown::__cordl_internal_get__songPackSerializedNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackSerializedNames;
 }
@@ -345,13 +344,13 @@ inline void GlobalNamespace::SongPacksDropdown::HandleSimpleTextDropdownDidSelec
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropdownWithTableView, idx);
 }
-inline ::GlobalNamespace::SongPacksDropdown* GlobalNamespace::SongPacksDropdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPacksDropdown*>());
-}
 inline void GlobalNamespace::SongPacksDropdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPacksDropdown*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SongPacksDropdown* GlobalNamespace::SongPacksDropdown::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongPacksDropdown*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongPacksDropdown::SongPacksDropdown() {}

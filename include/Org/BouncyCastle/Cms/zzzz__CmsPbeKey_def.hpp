@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsPbeKey)
@@ -14,20 +14,16 @@ class AlgorithmIdentifier;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 class CmsPbeKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsPbeKey);
-// Type: Org.BouncyCastle.Cms::CmsPbeKey
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsPbeKey*
+// CS Name: Org.BouncyCastle.Cms.CmsPbeKey
 class CORDL_TYPE CmsPbeKey : public ::System::Object {
 public:
   // Declarations
@@ -53,16 +49,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Finalize, addr 0x262524c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2658538, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetEncoded, addr 0x26253f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x26586dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetEncoded, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
-  /// @brief Method GetSalt, addr 0x2625364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x2658650, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
@@ -91,31 +87,31 @@ public:
 
   constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2625044, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658330, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x2624f14, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2658200, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor, addr 0x2625008, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26582f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor, addr 0x2624ed0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26581bc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method get_Algorithm, addr 0x2625370, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x265865c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Format, addr 0x26253b0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x265869c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method get_IterationCount, addr 0x2625368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IterationCount, addr 0x2658654, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Password, addr 0x26252f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x26585e4, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method get_Salt, addr 0x2625308, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Salt, addr 0x26585f4, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
@@ -135,6 +131,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CmsPbeKey(CmsPbeKey const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 642 };
+
   /// @brief Field password, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> ___password;
 
@@ -144,19 +143,16 @@ public:
   /// @brief Field iterationCount, offset: 0x20, size: 0x4, def value: None
   int32_t ___iterationCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 642 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsPbeKey, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsPbeKey, ___password) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsPbeKey, ___salt) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsPbeKey, ___iterationCount) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsPbeKey, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsPbeKey);

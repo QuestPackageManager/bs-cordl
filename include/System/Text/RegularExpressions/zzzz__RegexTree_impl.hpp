@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, ::System::Collections::Hashtable*,
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Text::RegularExpressions::RegexOptions)>(&::System::Text::RegularExpressions::RegexTree::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43c0d44;
+  constexpr static std::size_t addrs = 0x4422058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ constexpr ::System::Text::RegularExpressions::RegexNode*& System::Text::RegularE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Root;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_Root() const {
+constexpr ::System::Text::RegularExpressions::RegexNode* const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_Root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Root;
 }
@@ -44,7 +44,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_Caps() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_Caps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
@@ -80,7 +80,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CapNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_CapNames() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::RegexTree::__cordl_internal_get_CapNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CapNames;
 }
@@ -112,13 +112,6 @@ constexpr void System::Text::RegularExpressions::RegexTree::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Options = value;
 }
-inline ::System::Text::RegularExpressions::RegexTree* System::Text::RegularExpressions::RegexTree::New_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps,
-                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
-                                                                                                            ::System::Collections::Hashtable* capNames,
-                                                                                                            ::ArrayW<::StringW, ::Array<::StringW>*> capsList,
-                                                                                                            ::System::Text::RegularExpressions::RegexOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexTree*>(root, caps, capNumList, capTop, capNames, capsList, options));
-}
 inline void System::Text::RegularExpressions::RegexTree::_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps,
                                                                ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop, ::System::Collections::Hashtable* capNames,
                                                                ::ArrayW<::StringW, ::Array<::StringW>*> capsList, ::System::Text::RegularExpressions::RegexOptions options) {
@@ -132,6 +125,13 @@ inline void System::Text::RegularExpressions::RegexTree::_ctor(::System::Text::R
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, root, caps, capNumList, capTop, capNames, capsList, options);
+}
+inline ::System::Text::RegularExpressions::RegexTree* System::Text::RegularExpressions::RegexTree::New_ctor(::System::Text::RegularExpressions::RegexNode* root, ::System::Collections::Hashtable* caps,
+                                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*> capNumList, int32_t capTop,
+                                                                                                            ::System::Collections::Hashtable* capNames,
+                                                                                                            ::ArrayW<::StringW, ::Array<::StringW>*> capsList,
+                                                                                                            ::System::Text::RegularExpressions::RegexOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexTree*>(root, caps, capNumList, capTop, capNames, capsList, options));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexTree::RegexTree() {}

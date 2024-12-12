@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::FloatTween::*)()>(&::Tweening::FloatTween::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44784ac;
+  constexpr static std::size_t addrs = 0x44d97c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::FloatTween*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Tweening::FloatTween::*)(float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t)>(&::Tweening::FloatTween::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44784f4;
+  constexpr static std::size_t addrs = 0x44d9808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tweening::FloatTween::*)(float_t)>(&::Tweening::FloatTween::GetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4478584;
+  constexpr static std::size_t addrs = 0x44d9898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,20 +60,11 @@ inline ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_
   return ::cordl_internals::getStaticField<::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>*,
                                            "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::FloatTween*>::get>();
 }
-inline ::Tweening::FloatTween* Tweening::FloatTween::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::FloatTween*>());
-}
 inline void Tweening::FloatTween::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::FloatTween*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param delay: float_t (default: 0.0)
-inline ::Tweening::FloatTween* Tweening::FloatTween::New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
-                                                              float_t delay) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::FloatTween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
-}
-/// @param delay: float_t (default: 0.0)
 inline void Tweening::FloatTween::_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::FloatTween*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -87,6 +78,13 @@ inline float_t Tweening::FloatTween::GetValue(float_t t) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::FloatTween*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, t);
+}
+inline ::Tweening::FloatTween* Tweening::FloatTween::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::FloatTween*>());
+}
+inline ::Tweening::FloatTween* Tweening::FloatTween::New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType,
+                                                              float_t delay) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::FloatTween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
 }
 // Ctor Parameters []
 constexpr ::Tweening::FloatTween::FloatTween() {}

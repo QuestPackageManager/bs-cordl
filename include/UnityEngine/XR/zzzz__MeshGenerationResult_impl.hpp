@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/MeshGenerationResult.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationStatus_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshVertexAttributes_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationResult_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationStatus_def.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_def.hpp"
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::MeshId (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_MeshId)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a851e0;
+  constexpr static std::size_t addrs = 0x4ae9af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_MeshId",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a851ec;
+  constexpr static std::size_t addrs = 0x4ae9afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Mesh",
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshCollider> (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_MeshCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a851f4;
+  constexpr static std::size_t addrs = 0x4ae9b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::MeshGenerationStatus (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a851fc;
+  constexpr static std::size_t addrs = 0x4ae9b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Status",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::MeshVertexAttributes (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85204;
+  constexpr static std::size_t addrs = 0x4ae9b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Attributes",
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a8520c;
+  constexpr static std::size_t addrs = 0x4ae9b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Position",
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a85218;
+  constexpr static std::size_t addrs = 0x4ae9b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Rotation",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::XR::MeshGenerationResult::*)()>(
     &::UnityEngine::XR::MeshGenerationResult::get_Scale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a85224;
+  constexpr static std::size_t addrs = 0x4ae9b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_Scale",
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshGenerationResult::*)(::System::Object*)>(
     &::UnityEngine::XR::MeshGenerationResult::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a85230;
+  constexpr static std::size_t addrs = 0x4ae9b40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshGenerationResult::*)(::UnityEngine::XR::MeshGenerationResult)>(
     &::UnityEngine::XR::MeshGenerationResult::Equals)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4a852c0;
+  constexpr static std::size_t addrs = 0x4ae9bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::MeshGenerationResult::*)()>(&::UnityEngine::XR::MeshGenerationResult::GetHashCode)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x4a85484;
+  constexpr static std::size_t addrs = 0x4ae9d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,14 +171,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
-constexpr UnityEngine::XR::MeshGenerationResult::operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
-constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* UnityEngine::XR::MeshGenerationResult::i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::XR::MeshId UnityEngine::XR::MeshGenerationResult::get_MeshId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), "get_MeshId",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -235,12 +227,20 @@ inline int32_t UnityEngine::XR::MeshGenerationResult::GetHashCode() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::MeshGenerationResult>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
+constexpr UnityEngine::XR::MeshGenerationResult::operator ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>"
+constexpr ::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>* UnityEngine::XR::MeshGenerationResult::i___System__IEquatable_1___UnityEngine__XR__MeshGenerationResult_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::XR::MeshGenerationResult>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "_MeshId_k__BackingField", ty: "::UnityEngine::XR::MeshId", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Mesh_k__BackingField", ty:
-// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_Attributes_k__BackingField", ty: "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Rotation_k__BackingField", ty:
-// "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
+// "::UnityW<::UnityEngine::Mesh>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_MeshCollider_k__BackingField", ty: "::UnityW<::UnityEngine::MeshCollider>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_Status_k__BackingField", ty: "::UnityEngine::XR::MeshGenerationStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Attributes_k__BackingField", ty:
+// "::UnityEngine::XR::MeshVertexAttributes", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Timestamp_k__BackingField", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_Position_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Rotation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_Scale_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::MeshGenerationResult::MeshGenerationResult(::UnityEngine::XR::MeshId _MeshId_k__BackingField, ::UnityW<::UnityEngine::Mesh> _Mesh_k__BackingField,
                                                                         ::UnityW<::UnityEngine::MeshCollider> _MeshCollider_k__BackingField,
                                                                         ::UnityEngine::XR::MeshGenerationStatus _Status_k__BackingField,

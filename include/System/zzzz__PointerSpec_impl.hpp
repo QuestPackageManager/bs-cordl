@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/PointerSpec.hpp"
+#include "System/zzzz__ModifierSpec_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PointerSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::PointerSpec._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::PointerSpec::*)(int32_t)>(&::System::PointerSpec::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3de1888;
+  constexpr static std::size_t addrs = 0x3e41934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::PointerSpec::*)(::System::Type*)>(&::System::PointerSpec::Resolve)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3de18b0;
+  constexpr static std::size_t addrs = 0x3e4195c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (::System::PointerSpec::*)(::System::Text::StringBuilder*)>(
     &::System::PointerSpec::Append)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3de1904;
+  constexpr static std::size_t addrs = 0x3e419b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::PointerSpec::*)()>(&::System::PointerSpec::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3de192c;
+  constexpr static std::size_t addrs = 0x3e419d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,14 +62,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::ModifierSpec"
-constexpr System::PointerSpec::operator ::System::ModifierSpec*() noexcept {
-  return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ModifierSpec"
-constexpr ::System::ModifierSpec* System::PointerSpec::i___System__ModifierSpec() noexcept {
-  return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
-}
 constexpr int32_t& System::PointerSpec::__cordl_internal_get_pointer_level() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pointer_level;
@@ -81,9 +73,6 @@ constexpr int32_t const& System::PointerSpec::__cordl_internal_get_pointer_level
 constexpr void System::PointerSpec::__cordl_internal_set_pointer_level(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pointer_level = value;
-}
-inline ::System::PointerSpec* System::PointerSpec::New_ctor(int32_t pointer_level) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::PointerSpec*>(pointer_level));
 }
 inline void System::PointerSpec::_ctor(int32_t pointer_level) {
   static auto* ___internal_method =
@@ -107,6 +96,17 @@ inline ::StringW System::PointerSpec::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::PointerSpec*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::PointerSpec* System::PointerSpec::New_ctor(int32_t pointer_level) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::PointerSpec*>(pointer_level));
+}
+/// @brief Convert operator to "::System::ModifierSpec"
+constexpr System::PointerSpec::operator ::System::ModifierSpec*() noexcept {
+  return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ModifierSpec"
+constexpr ::System::ModifierSpec* System::PointerSpec::i___System__ModifierSpec() noexcept {
+  return static_cast<::System::ModifierSpec*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::PointerSpec::PointerSpec() {}

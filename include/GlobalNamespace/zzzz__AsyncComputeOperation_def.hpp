@@ -16,11 +16,10 @@ class AsyncComputeOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation);
-// Type: ::AsyncComputeOperation
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AsyncComputeOperation*
+// CS Name: AsyncComputeOperation
 class CORDL_TYPE AsyncComputeOperation : public ::System::Object {
 public:
   // Declarations
@@ -34,14 +33,14 @@ public:
 
   __declspec(property(get = get_hasTimedOut)) bool hasTimedOut;
 
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Execute(bool disposed);
 
   static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
 
-  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
+  constexpr ::System::Diagnostics::Stopwatch* const& __cordl_internal_get__stopwatch() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
+  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
   constexpr int32_t const& __cordl_internal_get__timeoutMs() const;
 
@@ -51,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2284054, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b7340, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method get_elapsedTime, addr 0x2283fa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedTime, addr 0x22b728c, size 0x84, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut, addr 0x2284024, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasTimedOut, addr 0x22b7310, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncComputeOperation(AsyncComputeOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14682 };
+
   /// @brief Field _timeoutMs, offset: 0x10, size: 0x4, def value: None
   int32_t ____timeoutMs;
 
   /// @brief Field _stopwatch, offset: 0x18, size: 0x8, def value: None
   ::System::Diagnostics::Stopwatch* ____stopwatch;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14648 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AsyncComputeOperation, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AsyncComputeOperation, ____timeoutMs) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AsyncComputeOperation, ____stopwatch) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AsyncComputeOperation, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AsyncComputeOperation);

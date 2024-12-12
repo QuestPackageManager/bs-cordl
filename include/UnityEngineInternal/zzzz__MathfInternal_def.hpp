@@ -12,23 +12,22 @@ struct MathfInternal;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngineInternal::MathfInternal);
-// Type: UnityEngineInternal::MathfInternal
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngineInternal {
 // Is value type: true
-// CS Name: ::UnityEngineInternal::MathfInternal
+// CS Name: UnityEngineInternal.MathfInternal
 #pragma pack(push, 0)
 struct CORDL_TYPE MathfInternal {
 public:
   // Declarations
   /// @brief Field FloatMinDenormal, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FloatMinDenormal, put = setStaticF_FloatMinDenormal)) float_t FloatMinDenormal;
+  __declspec(property(get = getStaticF_FloatMinDenormal, put = setStaticF_FloatMinDenormal)) float_t FloatMinDenormal;
 
   /// @brief Field FloatMinNormal, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_FloatMinNormal, put = setStaticF_FloatMinNormal)) float_t FloatMinNormal;
+  __declspec(property(get = getStaticF_FloatMinNormal, put = setStaticF_FloatMinNormal)) float_t FloatMinNormal;
 
   /// @brief Field IsFlushToZeroEnabled, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsFlushToZeroEnabled, put = setStaticF_IsFlushToZeroEnabled)) bool IsFlushToZeroEnabled;
+  __declspec(property(get = getStaticF_IsFlushToZeroEnabled, put = setStaticF_IsFlushToZeroEnabled)) bool IsFlushToZeroEnabled;
 
   static inline float_t getStaticF_FloatMinDenormal();
 
@@ -47,7 +46,7 @@ public:
   constexpr MathfInternal();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10534 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

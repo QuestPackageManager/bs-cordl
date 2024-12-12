@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::StringW)>(&::Org::BouncyCastle::Crypto::Check::DataLength)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x24149e0;
+  constexpr static std::size_t addrs = 0x2447ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Check::DataLength)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2414a28;
+  constexpr static std::size_t addrs = 0x2447d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::StringW)>(
     &::Org::BouncyCastle::Crypto::Check::OutputLength)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2414a8c;
+  constexpr static std::size_t addrs = 0x2447d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Check::*)()>(&::Org::BouncyCastle::Crypto::Check::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2414af4;
+  constexpr static std::size_t addrs = 0x2447de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Check*>::get(), ".ctor",
@@ -85,13 +85,13 @@ inline void Org::BouncyCastle::Crypto::Check::OutputLength(::ArrayW<uint8_t, ::A
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, buf, off, len, msg);
 }
-inline ::Org::BouncyCastle::Crypto::Check* Org::BouncyCastle::Crypto::Check::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Check*>());
-}
 inline void Org::BouncyCastle::Crypto::Check::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Check*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Check* Org::BouncyCastle::Crypto::Check::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Check*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Check::Check() {}

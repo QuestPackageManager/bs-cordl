@@ -15,25 +15,24 @@ class ThreadPoolGlobals;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ThreadPoolGlobals);
-// Type: System.Threading::ThreadPoolGlobals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ThreadPoolGlobals*
+// CS Name: System.Threading.ThreadPoolGlobals
 class CORDL_TYPE ThreadPoolGlobals : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enableWorkerTracking, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_enableWorkerTracking, put = setStaticF_enableWorkerTracking)) bool enableWorkerTracking;
+  __declspec(property(get = getStaticF_enableWorkerTracking, put = setStaticF_enableWorkerTracking)) bool enableWorkerTracking;
 
   /// @brief Field processorCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_processorCount, put = setStaticF_processorCount)) int32_t processorCount;
+  __declspec(property(get = getStaticF_processorCount, put = setStaticF_processorCount)) int32_t processorCount;
 
   /// @brief Field vmTpInitialized, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_vmTpInitialized, put = setStaticF_vmTpInitialized)) bool vmTpInitialized;
+  __declspec(property(get = getStaticF_vmTpInitialized, put = setStaticF_vmTpInitialized)) bool vmTpInitialized;
 
   /// @brief Field workQueue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_workQueue, put = setStaticF_workQueue)) ::System::Threading::ThreadPoolWorkQueue* workQueue;
+  __declspec(property(get = getStaticF_workQueue, put = setStaticF_workQueue)) ::System::Threading::ThreadPoolWorkQueue* workQueue;
 
   static inline bool getStaticF_enableWorkerTracking();
 

@@ -15,11 +15,10 @@ class PemGenerationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException);
-// Type: Org.BouncyCastle.Utilities.IO.Pem::PemGenerationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemGenerationException*
+// CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemGenerationException
 class CORDL_TYPE PemGenerationException : public ::System::Exception {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25a461c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7908, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25a4674, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7960, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25a46dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d79c8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

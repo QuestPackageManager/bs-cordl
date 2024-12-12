@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoPauseGamePause.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPauseGamePause_def.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoPauseGamePause.get_isPaused
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::get_isPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b48cf4;
+  constexpr static std::size_t addrs = 0x3baa3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), "get_isPaused",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::add_didPauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b48cfc;
+  constexpr static std::size_t addrs = 0x3baa3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::remove_didPauseEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b48d98;
+  constexpr static std::size_t addrs = 0x3baa488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::add_willResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b48e34;
+  constexpr static std::size_t addrs = 0x3baa524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::remove_willResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b48ed0;
+  constexpr static std::size_t addrs = 0x3baa5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::add_didResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b48f6c;
+  constexpr static std::size_t addrs = 0x3baa65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)(::System::Action*)>(
     &::GlobalNamespace::NoPauseGamePause::remove_didResumeEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b49008;
+  constexpr static std::size_t addrs = 0x3baa6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::Pause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b490a4;
+  constexpr static std::size_t addrs = 0x3baa794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), "Pause",
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::WillResume)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b490c8;
+  constexpr static std::size_t addrs = 0x3baa7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), "WillResume",
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::Resume)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b490e4;
+  constexpr static std::size_t addrs = 0x3baa7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), "Resume",
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPauseGamePause::*)()>(&::GlobalNamespace::NoPauseGamePause::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b49104;
+  constexpr static std::size_t addrs = 0x3baa7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), ".ctor",
@@ -159,19 +159,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IGamePause"
-constexpr GlobalNamespace::NoPauseGamePause::operator ::GlobalNamespace::IGamePause*() noexcept {
-  return static_cast<::GlobalNamespace::IGamePause*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IGamePause"
-constexpr ::GlobalNamespace::IGamePause* GlobalNamespace::NoPauseGamePause::i___GlobalNamespace__IGamePause() noexcept {
-  return static_cast<::GlobalNamespace::IGamePause*>(static_cast<void*>(this));
-}
 constexpr ::System::Action*& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_didPauseEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPauseEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_didPauseEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_didPauseEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPauseEvent;
 }
@@ -183,7 +175,7 @@ constexpr ::System::Action*& GlobalNamespace::NoPauseGamePause::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___willResumeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_willResumeEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_willResumeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___willResumeEvent;
 }
@@ -195,7 +187,7 @@ constexpr ::System::Action*& GlobalNamespace::NoPauseGamePause::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didResumeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_didResumeEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::NoPauseGamePause::__cordl_internal_get_didResumeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didResumeEvent;
 }
@@ -271,13 +263,21 @@ inline void GlobalNamespace::NoPauseGamePause::Resume() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoPauseGamePause* GlobalNamespace::NoPauseGamePause::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoPauseGamePause*>());
-}
 inline void GlobalNamespace::NoPauseGamePause::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPauseGamePause*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoPauseGamePause* GlobalNamespace::NoPauseGamePause::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoPauseGamePause*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IGamePause"
+constexpr GlobalNamespace::NoPauseGamePause::operator ::GlobalNamespace::IGamePause*() noexcept {
+  return static_cast<::GlobalNamespace::IGamePause*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IGamePause"
+constexpr ::GlobalNamespace::IGamePause* GlobalNamespace::NoPauseGamePause::i___GlobalNamespace__IGamePause() noexcept {
+  return static_cast<::GlobalNamespace::IGamePause*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoPauseGamePause::NoPauseGamePause() {}

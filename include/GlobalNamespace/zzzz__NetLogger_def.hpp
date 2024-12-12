@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "LiteNetLib/zzzz__INetLogger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetLogger)
-namespace LiteNetLib {
-class INetLogger;
-}
 namespace LiteNetLib {
 struct NetLogLevel;
 }
@@ -22,11 +19,10 @@ class NetLogger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetLogger);
-// Type: ::NetLogger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LiteNetLib.INetLogger, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetLogger*
+// CS Name: NetLogger
 class CORDL_TYPE NetLogger : public ::System::Object {
 public:
   // Declarations
@@ -35,10 +31,10 @@ public:
 
   static inline ::GlobalNamespace::NetLogger* New_ctor();
 
-  /// @brief Method WriteNet, addr 0x22a7ae4, size 0x194, virtual true, abstract: false, final true
+  /// @brief Method WriteNet, addr 0x22dadd0, size 0x194, virtual true, abstract: false, final true
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method .ctor, addr 0x22a7c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22daf64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::LiteNetLib::INetLogger"
@@ -59,7 +55,7 @@ public:
   NetLogger(NetLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14859 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

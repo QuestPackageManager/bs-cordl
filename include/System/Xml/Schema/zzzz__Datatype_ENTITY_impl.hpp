@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_ENTITY::*)()>(
     &::System::Xml::Schema::Datatype_ENTITY::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434abc8;
+  constexpr static std::size_t addrs = 0x43abedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_ENTITY::*)()>(
     &::System::Xml::Schema::Datatype_ENTITY::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434abd0;
+  constexpr static std::size_t addrs = 0x43abee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_ENTITY::*)()>(&::System::Xml::Schema::Datatype_ENTITY::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4342a40;
+  constexpr static std::size_t addrs = 0x43a3d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_ENTITY*>::get(), ".ctor",
@@ -57,13 +57,13 @@ inline ::System::Xml::XmlTokenizedType System::Xml::Schema::Datatype_ENTITY::get
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_ENTITY*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlTokenizedType, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::Datatype_ENTITY* System::Xml::Schema::Datatype_ENTITY::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_ENTITY*>());
-}
 inline void System::Xml::Schema::Datatype_ENTITY::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_ENTITY*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_ENTITY* System::Xml::Schema::Datatype_ENTITY::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_ENTITY*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_ENTITY::Datatype_ENTITY() {}

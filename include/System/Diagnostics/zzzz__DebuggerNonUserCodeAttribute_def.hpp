@@ -11,17 +11,16 @@ class DebuggerNonUserCodeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerNonUserCodeAttribute);
-// Type: System.Diagnostics::DebuggerNonUserCodeAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::DebuggerNonUserCodeAttribute*
+// CS Name: System.Diagnostics.DebuggerNonUserCodeAttribute
 class CORDL_TYPE DebuggerNonUserCodeAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::DebuggerNonUserCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d54db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db4f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

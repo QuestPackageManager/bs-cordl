@@ -3,115 +3,115 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
-//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion.get_isEmpty
+//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion.get_isEmpty
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::*)()>(
-    &::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::get_isEmpty)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::*)()>(
+    &::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::get_isEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x450961c;
+  constexpr static std::size_t addrs = 0x456a930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), "get_isEmpty",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), "get_isEmpty",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::*)(uint32_t, uint32_t)>(
-    &::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::*)(uint32_t, uint32_t)>(
+    &::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450962c;
+  constexpr static std::size_t addrs = 0x456a940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::*)(uint32_t, uint32_t, uint32_t)>(
-    &::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::*)(uint32_t, uint32_t, uint32_t)>(
+    &::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4509634;
+  constexpr static std::size_t addrs = 0x456a948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion.Overlap
+//  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion.Overlap
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion (
-    ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::*)(::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion)>(
-    &::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::Overlap)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion (
+    ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::*)(::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion)>(
+    &::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::Overlap)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4509640;
+  constexpr static std::size_t addrs = 0x456a954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), "Overlap", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), "Overlap", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get() })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::get_isEmpty() {
+inline bool UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::get_isEmpty() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), "get_isEmpty",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), "get_isEmpty",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::_ctor(uint32_t bitOffset, uint32_t sizeInBits) {
+inline void UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::_ctor(uint32_t bitOffset, uint32_t sizeInBits) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bitOffset, sizeInBits);
 }
-inline void UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::_ctor(uint32_t byteOffset, uint32_t bitOffset, uint32_t sizeInBits) {
+inline void UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::_ctor(uint32_t byteOffset, uint32_t bitOffset, uint32_t sizeInBits) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, byteOffset, bitOffset, sizeInBits);
 }
-inline ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion
-UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::Overlap(::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion other) {
+inline ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion
+UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::Overlap(::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get(), "Overlap", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion, false>(this, ___internal_method, other);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get(), "Overlap", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion, false>(this, ___internal_method, other);
 }
 // Ctor Parameters [CppParam { name: "bitOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeInBits", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::__MemoryHelpers__BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept {
+constexpr ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::MemoryHelpers_BitRegion(uint32_t bitOffset, uint32_t sizeInBits) noexcept {
   this->bitOffset = bitOffset;
   this->sizeInBits = sizeInBits;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion::__MemoryHelpers__BitRegion() {}
+constexpr ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion::MemoryHelpers_BitRegion() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::MemoryHelpers.Compare
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion)>(&::UnityEngine::InputSystem::Utilities::MemoryHelpers::Compare)> {
+    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion)>(&::UnityEngine::InputSystem::Utilities::MemoryHelpers::Compare)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4508d60;
+  constexpr static std::size_t addrs = 0x456a074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers*>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get() })));
     return ___internal_method;
   }
 };
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ComputeFollowingByteOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4508f08;
+  constexpr static std::size_t addrs = 0x456a21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t, bool)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::WriteSingleBit)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4508f18;
+  constexpr static std::size_t addrs = 0x456a22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<void>, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ReadSingleBit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4508da4;
+  constexpr static std::size_t addrs = 0x456a0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::MemCpyBitRegion)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4508f48;
+  constexpr static std::size_t addrs = 0x456a25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, uint32_t, uint32_t,
                                                                                            ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Utilities::MemoryHelpers::MemCmpBitRegion)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4508dc0;
+  constexpr static std::size_t addrs = 0x456a0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int32_t, uint8_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::MemSet)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4509038;
+  constexpr static std::size_t addrs = 0x456a34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, int32_t, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::MemCpyMasked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45090d4;
+  constexpr static std::size_t addrs = 0x456a3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ReadMultipleBitsAsUInt)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x45018e0;
+  constexpr static std::size_t addrs = 0x4562bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::WriteUIntAsMultipleBits)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4509158;
+  constexpr static std::size_t addrs = 0x456a46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ReadTwosComplementMultipleBitsAsInt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44ff94c;
+  constexpr static std::size_t addrs = 0x4560c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::WriteIntAsTwosComplementMultipleBits)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44ffa80;
+  constexpr static std::size_t addrs = 0x4560d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ReadExcessKMultipleBitsAsInt)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4509304;
+  constexpr static std::size_t addrs = 0x456a618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::WriteIntAsExcessKMultipleBits)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4509328;
+  constexpr static std::size_t addrs = 0x456a63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::ReadMultipleBitsAsNormalizedUInt)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x450933c;
+  constexpr static std::size_t addrs = 0x456a650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint32_t, uint32_t, float_t)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::WriteNormalizedUIntAsMultipleBits)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4509384;
+  constexpr static std::size_t addrs = 0x456a698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t, bool)>(
     &::UnityEngine::InputSystem::Utilities::MemoryHelpers::SetBitsInBuffer)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x45093d4;
+  constexpr static std::size_t addrs = 0x456a6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::MemoryHelpers::AlignNatural)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4509598;
+  constexpr static std::size_t addrs = 0x456a8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,12 +398,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline bool UnityEngine::InputSystem::Utilities::MemoryHelpers::Compare(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2,
-                                                                        ::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion region) {
+                                                                        ::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion region) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers*>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::__MemoryHelpers__BitRegion>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::MemoryHelpers_BitRegion>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ptr1, ptr2, region);
 }
 inline uint32_t UnityEngine::InputSystem::Utilities::MemoryHelpers::ComputeFollowingByteOffset(uint32_t byteOffset, uint32_t sizeInBits) {
@@ -434,7 +434,6 @@ inline void UnityEngine::InputSystem::Utilities::MemoryHelpers::MemCpyBitRegion(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, destination, source, bitOffset, bitCount);
 }
-/// @param mask: ::cordl_internals::Ptr<void> (default: nullptr)
 inline bool UnityEngine::InputSystem::Utilities::MemoryHelpers::MemCmpBitRegion(::cordl_internals::Ptr<void> ptr1, ::cordl_internals::Ptr<void> ptr2, uint32_t bitOffset, uint32_t bitCount,
                                                                                 ::cordl_internals::Ptr<void> mask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -533,11 +532,12 @@ inline void UnityEngine::InputSystem::Utilities::MemoryHelpers::SetBitsInBuffer(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, buffer, byteOffset, bitOffset, sizeInBits, value);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::Utilities::MemoryHelpers::Swap(ByRef<TValue> a, ByRef<TValue> b) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers*>::get(), "Swap",
-      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+template <typename TValue> inline void UnityEngine::InputSystem::Utilities::MemoryHelpers::Swap(::ByRef<TValue> a, ::ByRef<TValue> b) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::MemoryHelpers*>::get(), "Swap",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, a, b);

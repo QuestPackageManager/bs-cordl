@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixupEnum_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueFixup)
@@ -30,11 +29,10 @@ class ValueFixup;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixup);
-// Type: System.Runtime.Serialization.Formatters.Binary::ValueFixup
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixup*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.ValueFixup
 class CORDL_TYPE ValueFixup : public ::System::Object {
 public:
   // Declarations
@@ -60,9 +58,9 @@ public:
   __declspec(property(get = __cordl_internal_get_valueFixupEnum, put = __cordl_internal_set_valueFixupEnum)) ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum valueFixupEnum;
 
   /// @brief Field valueInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_valueInfo, put = setStaticF_valueInfo)) ::System::Reflection::MemberInfo* valueInfo;
+  __declspec(property(get = getStaticF_valueInfo, put = setStaticF_valueInfo)) ::System::Reflection::MemberInfo* valueInfo;
 
-  /// @brief Method Fixup, addr 0x3ca9bf0, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x3d09d64, size 0x308, virtual false, abstract: false, final false
   inline void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
@@ -70,13 +68,13 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Object* memberObject, ::StringW memberName,
                                                                                            ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
+  constexpr ::System::Array* const& __cordl_internal_get_arrayObj() const;
+
   constexpr ::System::Array*& __cordl_internal_get_arrayObj();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __cordl_internal_get_arrayObj() const;
+  constexpr ::System::Object* const& __cordl_internal_get_header() const;
 
   constexpr ::System::Object*& __cordl_internal_get_header();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_header() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_indexMap() const;
 
@@ -86,13 +84,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_memberName();
 
+  constexpr ::System::Object* const& __cordl_internal_get_memberObject() const;
+
   constexpr ::System::Object*& __cordl_internal_get_memberObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_memberObject() const;
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* const& __cordl_internal_get_objectInfo() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*& __cordl_internal_get_objectInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*> const& __cordl_internal_get_objectInfo() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum const& __cordl_internal_get_valueFixupEnum() const;
 
@@ -112,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
 
-  /// @brief Method .ctor, addr 0x3caa790, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0a904, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
-  /// @brief Method .ctor, addr 0x3caac2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0ada0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
   static inline ::System::Reflection::MemberInfo* getStaticF_valueInfo();
@@ -135,6 +133,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ValueFixup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ValueFixup(ValueFixup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3296 };
 
   /// @brief Field valueFixupEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum ___valueFixupEnum;
@@ -157,14 +158,9 @@ public:
   /// @brief Field memberName, offset: 0x40, size: 0x8, def value: None
   ::StringW ___memberName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3296 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ValueFixup, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___valueFixupEnum) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___arrayObj) == 0x18, "Offset mismatch!");
@@ -178,6 +174,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Val
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___objectInfo) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ValueFixup, ___memberName) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ValueFixup, 0x48>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ValueFixup);

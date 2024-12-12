@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexRunner)
@@ -23,11 +22,10 @@ class RegexRunner;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunner);
-// Type: System.Text.RegularExpressions::RegexRunner
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// CS Name: ::System.Text.RegularExpressions::RegexRunner*
+// CS Name: System.Text.RegularExpressions.RegexRunner
 class CORDL_TYPE RegexRunner : public ::System::Object {
 public:
   // Declarations
@@ -85,79 +83,79 @@ public:
   /// @brief Field runtrackpos, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_runtrackpos, put = __cordl_internal_set_runtrackpos)) int32_t runtrackpos;
 
-  /// @brief Method Capture, addr 0x43be980, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x441fc94, size 0x60, virtual false, abstract: false, final false
   inline void Capture(int32_t capnum, int32_t start, int32_t end);
 
-  /// @brief Method CheckTimeout, addr 0x43be83c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CheckTimeout, addr 0x441fb50, size 0x10, virtual false, abstract: false, final false
   inline void CheckTimeout();
 
-  /// @brief Method Crawl, addr 0x43c6b60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Crawl, addr 0x4427e74, size 0x5c, virtual false, abstract: false, final false
   inline void Crawl(int32_t i);
 
-  /// @brief Method Crawlpos, addr 0x43bea10, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Crawlpos, addr 0x441fd24, size 0x24, virtual false, abstract: false, final false
   inline int32_t Crawlpos();
 
-  /// @brief Method DoCheckTimeout, addr 0x43c68b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DoCheckTimeout, addr 0x4427bc8, size 0xcc, virtual false, abstract: false, final false
   inline void DoCheckTimeout();
 
-  /// @brief Method DoubleCrawl, addr 0x43c6ac0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleCrawl, addr 0x4427dd4, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleCrawl();
 
-  /// @brief Method DoubleStack, addr 0x43c6980, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleStack, addr 0x4427c94, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleStack();
 
-  /// @brief Method DoubleTrack, addr 0x43c6a20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DoubleTrack, addr 0x4427d34, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleTrack();
 
-  /// @brief Method EnsureStorage, addr 0x43bc89c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EnsureStorage, addr 0x441dbb0, size 0x48, virtual false, abstract: false, final false
   inline void EnsureStorage();
 
-  /// @brief Method FindFirstChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method FindFirstChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool FindFirstChar();
 
-  /// @brief Method Go, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Go, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Go();
 
-  /// @brief Method InitMatch, addr 0x43c669c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method InitMatch, addr 0x44279b0, size 0x1d4, virtual false, abstract: false, final false
   inline void InitMatch();
 
-  /// @brief Method InitTrackCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InitTrackCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InitTrackCount();
 
-  /// @brief Method IsBoundary, addr 0x43bea34, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsBoundary, addr 0x441fd48, size 0x100, virtual false, abstract: false, final false
   inline bool IsBoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsECMABoundary, addr 0x43beb34, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsECMABoundary, addr 0x441fe48, size 0x100, virtual false, abstract: false, final false
   inline bool IsECMABoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsMatched, addr 0x43be84c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsMatched, addr 0x441fb60, size 0x20, virtual false, abstract: false, final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method MatchIndex, addr 0x43bec34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchIndex, addr 0x441ff48, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength, addr 0x43bec54, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MatchLength, addr 0x441ff68, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchLength(int32_t cap);
 
   static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
 
-  /// @brief Method Popcrawl, addr 0x43c6bbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Popcrawl, addr 0x4427ed0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t Popcrawl();
 
-  /// @brief Method Scan, addr 0x43c6338, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Scan, addr 0x442764c, size 0x330, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen,
                                                          bool quick, ::System::TimeSpan timeout);
 
-  /// @brief Method StartTimeoutWatch, addr 0x43c6668, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method StartTimeoutWatch, addr 0x442797c, size 0x34, virtual false, abstract: false, final false
   inline void StartTimeoutWatch();
 
-  /// @brief Method TidyMatch, addr 0x43c6870, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TidyMatch, addr 0x4427b84, size 0x44, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
 
-  /// @brief Method TransferCapture, addr 0x43be86c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method TransferCapture, addr 0x441fb80, size 0x114, virtual false, abstract: false, final false
   inline void TransferCapture(int32_t capnum, int32_t uncapnum, int32_t start, int32_t end);
 
-  /// @brief Method Uncapture, addr 0x43be9e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Uncapture, addr 0x441fcf4, size 0x30, virtual false, abstract: false, final false
   inline void Uncapture();
 
   constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
@@ -184,13 +182,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_runcrawlpos();
 
+  constexpr ::System::Text::RegularExpressions::Match* const& __cordl_internal_get_runmatch() const;
+
   constexpr ::System::Text::RegularExpressions::Match*& __cordl_internal_get_runmatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& __cordl_internal_get_runmatch() const;
+  constexpr ::System::Text::RegularExpressions::Regex* const& __cordl_internal_get_runregex() const;
 
   constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get_runregex();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __cordl_internal_get_runregex() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runstack() const;
 
@@ -268,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_runtrackpos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43bc778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x441da8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -284,6 +282,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RegexRunner(RegexRunner const&) = delete;
+
+  /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
+  static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9244 };
 
   /// @brief Field runtextbeg, offset: 0x10, size: 0x4, def value: None
   int32_t ___runtextbeg;
@@ -339,17 +343,9 @@ public:
   /// @brief Field _timeoutChecksToSkip, offset: 0x7c, size: 0x4, def value: None
   int32_t ____timeoutChecksToSkip;
 
-  /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
-  static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9219 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexRunner, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ___runtextbeg) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ___runtextend) == 0x14, "Offset mismatch!");
@@ -385,6 +381,8 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ____igno
 static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ____timeoutOccursAt) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ____timeoutChecksToSkip) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexRunner, 0x80>, "Size mismatch!");
 
 } // namespace System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexRunner);

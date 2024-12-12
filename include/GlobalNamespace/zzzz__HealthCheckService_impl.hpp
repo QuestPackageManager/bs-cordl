@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/HealthCheckService.hpp"
+#include "GlobalNamespace/zzzz__IHealthCheckService_impl.hpp"
+#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthCheckService_def.hpp"
-#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Net/zzzz__HttpListener_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HealthCheckService._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthCheckService::*)(int32_t)>(&::GlobalNamespace::HealthCheckService::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x229662c;
+  constexpr static std::size_t addrs = 0x22c9918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthCheckService::*)()>(&::GlobalNamespace::HealthCheckService::Dispose)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2296720;
+  constexpr static std::size_t addrs = 0x22c9a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthCheckService*>::get(), "Dispose",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthCheckService::*)()>(&::GlobalNamespace::HealthCheckService::PollUpdate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x22967c4;
+  constexpr static std::size_t addrs = 0x22c9ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthCheckService*>::get(), "PollUpdate",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthCheckService::*)()>(&::GlobalNamespace::HealthCheckService::Run)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x2296858;
+  constexpr static std::size_t addrs = 0x22c9b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthCheckService*>::get(), "Run",
@@ -61,30 +61,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IHealthCheckService"
-constexpr GlobalNamespace::HealthCheckService::operator ::GlobalNamespace::IHealthCheckService*() noexcept {
-  return static_cast<::GlobalNamespace::IHealthCheckService*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IHealthCheckService"
-constexpr ::GlobalNamespace::IHealthCheckService* GlobalNamespace::HealthCheckService::i___GlobalNamespace__IHealthCheckService() noexcept {
-  return static_cast<::GlobalNamespace::IHealthCheckService*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::IPollable"
-constexpr GlobalNamespace::HealthCheckService::operator ::GlobalNamespace::IPollable*() noexcept {
-  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IPollable"
-constexpr ::GlobalNamespace::IPollable* GlobalNamespace::HealthCheckService::i___GlobalNamespace__IPollable() noexcept {
-  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::HealthCheckService::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::HealthCheckService::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr int32_t& GlobalNamespace::HealthCheckService::__cordl_internal_get__port() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____port;
@@ -101,7 +77,7 @@ constexpr ::System::Threading::Thread*& GlobalNamespace::HealthCheckService::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runThread;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& GlobalNamespace::HealthCheckService::__cordl_internal_get__runThread() const {
+constexpr ::System::Threading::Thread* const& GlobalNamespace::HealthCheckService::__cordl_internal_get__runThread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____runThread;
 }
@@ -125,7 +101,7 @@ constexpr ::System::Threading::ManualResetEvent*& GlobalNamespace::HealthCheckSe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manualResetEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& GlobalNamespace::HealthCheckService::__cordl_internal_get__manualResetEvent() const {
+constexpr ::System::Threading::ManualResetEvent* const& GlobalNamespace::HealthCheckService::__cordl_internal_get__manualResetEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____manualResetEvent;
 }
@@ -137,16 +113,13 @@ constexpr ::System::Net::HttpListener*& GlobalNamespace::HealthCheckService::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& GlobalNamespace::HealthCheckService::__cordl_internal_get__listener() const {
+constexpr ::System::Net::HttpListener* const& GlobalNamespace::HealthCheckService::__cordl_internal_get__listener() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
 constexpr void GlobalNamespace::HealthCheckService::__cordl_internal_set__listener(::System::Net::HttpListener* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____listener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::HealthCheckService* GlobalNamespace::HealthCheckService::New_ctor(int32_t port) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthCheckService*>(port));
 }
 inline void GlobalNamespace::HealthCheckService::_ctor(int32_t port) {
   static auto* ___internal_method =
@@ -168,6 +141,33 @@ inline void GlobalNamespace::HealthCheckService::Run() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthCheckService*>::get(), "Run",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HealthCheckService* GlobalNamespace::HealthCheckService::New_ctor(int32_t port) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthCheckService*>(port));
+}
+/// @brief Convert operator to "::GlobalNamespace::IHealthCheckService"
+constexpr GlobalNamespace::HealthCheckService::operator ::GlobalNamespace::IHealthCheckService*() noexcept {
+  return static_cast<::GlobalNamespace::IHealthCheckService*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IHealthCheckService"
+constexpr ::GlobalNamespace::IHealthCheckService* GlobalNamespace::HealthCheckService::i___GlobalNamespace__IHealthCheckService() noexcept {
+  return static_cast<::GlobalNamespace::IHealthCheckService*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IPollable"
+constexpr GlobalNamespace::HealthCheckService::operator ::GlobalNamespace::IPollable*() noexcept {
+  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPollable"
+constexpr ::GlobalNamespace::IPollable* GlobalNamespace::HealthCheckService::i___GlobalNamespace__IPollable() noexcept {
+  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::HealthCheckService::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::HealthCheckService::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HealthCheckService::HealthCheckService() {}

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Date::DateTimeObject::*)(::System::DateTime)>(
     &::Org::BouncyCastle::Utilities::Date::DateTimeObject::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25966f8;
+  constexpr static std::size_t addrs = 0x25c99e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Utilities::Date::DateTimeObject::*)()>(
     &::Org::BouncyCastle::Utilities::Date::DateTimeObject::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a051c;
+  constexpr static std::size_t addrs = 0x25d3808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeObject*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Utilities::Date::DateTimeObject::*)()>(
     &::Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25a0524;
+  constexpr static std::size_t addrs = 0x25d3810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,9 +61,6 @@ constexpr void Org::BouncyCastle::Utilities::Date::DateTimeObject::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___dt = value;
 }
-inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* Org::BouncyCastle::Utilities::Date::DateTimeObject::New_ctor(::System::DateTime dt) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Date::DateTimeObject*>(dt));
-}
 inline void Org::BouncyCastle::Utilities::Date::DateTimeObject::_ctor(::System::DateTime dt) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeObject*>::get(), ".ctor",
@@ -79,6 +76,9 @@ inline ::StringW Org::BouncyCastle::Utilities::Date::DateTimeObject::ToString() 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Date::DateTimeObject*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* Org::BouncyCastle::Utilities::Date::DateTimeObject::New_ctor(::System::DateTime dt) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Date::DateTimeObject*>(dt));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject::DateTimeObject() {}

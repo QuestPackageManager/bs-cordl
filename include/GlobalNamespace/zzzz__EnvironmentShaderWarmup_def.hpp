@@ -3,28 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentShaderWarmup)
+namespace GlobalNamespace {
+class EnvironmentShaderWarmup__Start_d__6;
+}
 namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
 class MainCamera;
 }
-namespace GlobalNamespace {
-class __EnvironmentShaderWarmup___Start_d__6;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -40,17 +36,16 @@ namespace GlobalNamespace {
 class EnvironmentShaderWarmup;
 }
 namespace GlobalNamespace {
-class __EnvironmentShaderWarmup___Start_d__6;
+class EnvironmentShaderWarmup__Start_d__6;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentShaderWarmup);
-MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6);
-// Type: ::<Start>d__6
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentShaderWarmup::<Start>d__6*
-class CORDL_TYPE __EnvironmentShaderWarmup___Start_d__6 : public ::System::Object {
+// CS Name: EnvironmentShaderWarmup/<Start>d__6
+class CORDL_TYPE EnvironmentShaderWarmup__Start_d__6 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -75,30 +70,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3a72f84, size 0x444, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ac9ccc, size 0x444, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a733c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3aca110, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a733d0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3aca118, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a73408, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3aca150, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3a72f80, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ac9cc8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> const& __cordl_internal_get___4__this() const;
 
@@ -110,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> value);
 
-  /// @brief Method .ctor, addr 0x3a72f50, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac9c98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -125,16 +120,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EnvironmentShaderWarmup___Start_d__6();
+  constexpr EnvironmentShaderWarmup__Start_d__6();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentShaderWarmup___Start_d__6", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__6", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EnvironmentShaderWarmup___Start_d__6(__EnvironmentShaderWarmup___Start_d__6&&) = delete;
+  EnvironmentShaderWarmup__Start_d__6(EnvironmentShaderWarmup__Start_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentShaderWarmup___Start_d__6", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup__Start_d__6", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EnvironmentShaderWarmup___Start_d__6(__EnvironmentShaderWarmup___Start_d__6 const&) = delete;
+  EnvironmentShaderWarmup__Start_d__6(EnvironmentShaderWarmup__Start_d__6 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3971 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -145,30 +143,26 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3968 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::EnvironmentShaderWarmup
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentShaderWarmup*
+// CS Name: EnvironmentShaderWarmup
 class CORDL_TYPE EnvironmentShaderWarmup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _Start_d__6 = ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6;
+  using _Start_d__6 = ::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6;
 
   /// @brief Field _gameScenesManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
@@ -185,7 +179,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x3a72ef0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ac9c38, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -212,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__parentingTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3a72f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ac9cc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,6 +223,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentShaderWarmup(EnvironmentShaderWarmup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3972 };
+
+  /// @brief Field kNumberOfColumns offset 0xffffffff size 0x4
+  static constexpr int32_t kNumberOfColumns{ static_cast<int32_t>(0x4) };
+
+  /// @brief Field kNumberOfRows offset 0xffffffff size 0x4
+  static constexpr int32_t kNumberOfRows{ static_cast<int32_t>(0x4) };
+
   /// @brief Field _materials, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____materials;
 
@@ -241,20 +244,9 @@ public:
   /// @brief Field _parentingTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____parentingTransform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3969 };
-
-  /// @brief Field kNumberOfColumns offset 0xffffffff size 0x4
-  static constexpr int32_t kNumberOfColumns{ static_cast<int32_t>(0x4) };
-
-  /// @brief Field kNumberOfRows offset 0xffffffff size 0x4
-  static constexpr int32_t kNumberOfRows{ static_cast<int32_t>(0x4) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmup, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup, ____materials) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup, ____mainCamera) == 0x28, "Offset mismatch!");
@@ -263,8 +255,10 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup, ____gameScene
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentShaderWarmup, ____parentingTransform) == 0x38, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmup, 0x40>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentShaderWarmup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");
-NEED_NO_BOX(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6*, "", "EnvironmentShaderWarmup/<Start>d__6");
+NEED_NO_BOX(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentShaderWarmup__Start_d__6*, "", "EnvironmentShaderWarmup/<Start>d__6");

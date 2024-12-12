@@ -7,83 +7,81 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerEnterEvent)
 namespace UnityEngine::UIElements {
-class __PointerEnterEvent____c;
+class PointerEnterEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerEnterEvent;
 }
 namespace UnityEngine::UIElements {
-class __PointerEnterEvent____c;
+class PointerEnterEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerEnterEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__PointerEnterEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::PointerEnterEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::PointerEnterEvent::<>c*
-class CORDL_TYPE __PointerEnterEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.PointerEnterEvent/<>c
+class CORDL_TYPE PointerEnterEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__PointerEnterEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerEnterEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__PointerEnterEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::PointerEnterEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49cd1cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a31adc, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerEnterEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49cd1c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a31ad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__PointerEnterEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::PointerEnterEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__PointerEnterEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::PointerEnterEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerEnterEvent____c();
+  constexpr PointerEnterEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerEnterEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PointerEnterEvent____c(__PointerEnterEvent____c&&) = delete;
+  PointerEnterEvent___c(PointerEnterEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerEnterEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerEnterEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PointerEnterEvent____c(__PointerEnterEvent____c const&) = delete;
+  PointerEnterEvent___c(PointerEnterEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PointerEnterEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerEnterEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::PointerEnterEvent
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 262, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerEnterEvent*
+// CS Name: UnityEngine.UIElements.PointerEnterEvent
 class CORDL_TYPE PointerEnterEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerEnterEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__PointerEnterEvent____c;
+  using __c = ::UnityEngine::UIElements::PointerEnterEvent___c;
 
-  /// @brief Method Init, addr 0x49cd0b4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a319c4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49cd108, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a31a18, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerEnterEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49cd114, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a31a24, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,7 +99,7 @@ public:
   PointerEnterEvent(PointerEnterEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -111,5 +109,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Pointer
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerEnterEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerEnterEvent*, "UnityEngine.UIElements", "PointerEnterEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__PointerEnterEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PointerEnterEvent____c*, "UnityEngine.UIElements", "PointerEnterEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::PointerEnterEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerEnterEvent___c*, "UnityEngine.UIElements", "PointerEnterEvent/<>c");

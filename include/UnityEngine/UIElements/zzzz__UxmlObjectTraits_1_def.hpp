@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseUxmlTraits_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(UxmlObjectTraits_1)
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -18,18 +17,17 @@ template <typename T> class UxmlObjectTraits_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlObjectTraits_1);
-// Type: UnityEngine.UIElements::UxmlObjectTraits`1
-// SizeInfo { instance_size: 24, native_size: 17, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseUxmlTraits
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlObjectTraits`1<T>*
+// CS Name: UnityEngine.UIElements.UxmlObjectTraits`1<T>
 class CORDL_TYPE UxmlObjectTraits_1 : public ::UnityEngine::UIElements::BaseUxmlTraits {
 public:
   // Declarations
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Init(ByRef<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+  inline void Init(::ByRef<T> obj, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlObjectTraits_1<T>* New_ctor();
 
@@ -51,7 +49,7 @@ public:
   UxmlObjectTraits_1(UxmlObjectTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,247 +1,246 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRScreenFade.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScreenFade_def.hpp"
 #include "GlobalNamespace/zzzz__OVRScreenFade_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25._ctor
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)(int32_t)>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)(int32_t)>(
+    &::GlobalNamespace::OVRScreenFade__Fade_d__25::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fe1b9c;
+  constexpr static std::size_t addrs = 0x4041c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
+    &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fe1bf0;
+  constexpr static std::size_t addrs = 0x4041c9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(&::GlobalNamespace::OVRScreenFade__Fade_d__25::MoveNext)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3fe1bf4;
+  constexpr static std::size_t addrs = 0x4041ca0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
-                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), "MoveNext",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
+    &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe1d08;
+  constexpr static std::size_t addrs = 0x4041db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
+    &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fe1d10;
+  constexpr static std::size_t addrs = 0x4041dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), "System.Collections.IEnumerator.Reset",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRScreenFade___Fade_d__25.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRScreenFade__Fade_d__25.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__OVRScreenFade___Fade_d__25::*)()>(
-    &::GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRScreenFade__Fade_d__25::*)()>(
+    &::GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe1d48;
+  constexpr static std::size_t addrs = 0x4041df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__OVRScreenFade___Fade_d__25::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__OVRScreenFade___Fade_d__25::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__OVRScreenFade___Fade_d__25::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__OVRScreenFade___Fade_d__25::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__OVRScreenFade___Fade_d__25::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__OVRScreenFade___Fade_d__25::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRScreenFade>& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRScreenFade>& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRScreenFade> const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRScreenFade> const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRScreenFade> value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRScreenFade> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get_startAlpha() {
+constexpr float_t& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get_startAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startAlpha;
 }
-constexpr float_t const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get_startAlpha() const {
+constexpr float_t const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get_startAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startAlpha;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set_startAlpha(float_t value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set_startAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startAlpha = value;
 }
-constexpr float_t& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get_endAlpha() {
+constexpr float_t& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get_endAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endAlpha;
 }
-constexpr float_t const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get_endAlpha() const {
+constexpr float_t const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get_endAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endAlpha;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set_endAlpha(float_t value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set_endAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endAlpha = value;
 }
-constexpr float_t& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get__elapsedTime_5__2() {
+constexpr float_t& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get__elapsedTime_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr float_t const& GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_get__elapsedTime_5__2() const {
+constexpr float_t const& GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_get__elapsedTime_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__2;
 }
-constexpr void GlobalNamespace::__OVRScreenFade___Fade_d__25::__cordl_internal_set__elapsedTime_5__2(float_t value) {
+constexpr void GlobalNamespace::OVRScreenFade__Fade_d__25::__cordl_internal_set__elapsedTime_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__2 = value;
 }
-inline ::GlobalNamespace::__OVRScreenFade___Fade_d__25* GlobalNamespace::__OVRScreenFade___Fade_d__25::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>(__1__state));
-}
-inline void GlobalNamespace::__OVRScreenFade___Fade_d__25::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRScreenFade__Fade_d__25::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__OVRScreenFade___Fade_d__25::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+inline void GlobalNamespace::OVRScreenFade__Fade_d__25::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__OVRScreenFade___Fade_d__25::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
-                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool GlobalNamespace::OVRScreenFade__Fade_d__25::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), "MoveNext",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(), "System.Collections.IEnumerator.Reset",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(), "System.Collections.IEnumerator.Reset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__OVRScreenFade___Fade_d__25::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRScreenFade__Fade_d__25::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRScreenFade___Fade_d__25*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade__Fade_d__25*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::OVRScreenFade__Fade_d__25* GlobalNamespace::OVRScreenFade__Fade_d__25::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRScreenFade__Fade_d__25*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::OVRScreenFade__Fade_d__25::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* GlobalNamespace::OVRScreenFade__Fade_d__25::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::OVRScreenFade__Fade_d__25::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRScreenFade__Fade_d__25::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::OVRScreenFade__Fade_d__25::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::OVRScreenFade__Fade_d__25::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRScreenFade___Fade_d__25::__OVRScreenFade___Fade_d__25() {}
+constexpr ::GlobalNamespace::OVRScreenFade__Fade_d__25::OVRScreenFade__Fade_d__25() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRScreenFade.get_instance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRScreenFade> (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRScreenFade* (*)()>(&::GlobalNamespace::OVRScreenFade::get_instance)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3fe1234;
+  constexpr static std::size_t addrs = 0x40412e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_instance",
@@ -254,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRScreenFade*)>(&::GlobalNamespace::OVRScreenFade::set_instance)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3fe127c;
+  constexpr static std::size_t addrs = 0x4041328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::get_currentAlpha)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3fe12c8;
+  constexpr static std::size_t addrs = 0x4041374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_currentAlpha",
@@ -281,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::Start)> {
   constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x3fe1380;
+  constexpr static std::size_t addrs = 0x404142c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "Start",
@@ -294,7 +293,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeIn)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fe1818;
+  constexpr static std::size_t addrs = 0x40418c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "FadeIn",
@@ -307,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::FadeOut)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fe18b4;
+  constexpr static std::size_t addrs = 0x4041960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "FadeOut",
@@ -320,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(int32_t)>(&::GlobalNamespace::OVRScreenFade::OnLevelFinishedLoading)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fe18dc;
+  constexpr static std::size_t addrs = 0x4041988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnEnable)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fe1904;
+  constexpr static std::size_t addrs = 0x40419b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "OnEnable",
@@ -347,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::OnDestroy)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3fe191c;
+  constexpr static std::size_t addrs = 0x40419c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "OnDestroy",
@@ -360,7 +359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetUIFade)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3fe1a70;
+  constexpr static std::size_t addrs = 0x4041b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)(float_t)>(&::GlobalNamespace::OVRScreenFade::SetExplicitFade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe1b94;
+  constexpr static std::size_t addrs = 0x4041c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRScreenFade::*)(float_t, float_t)>(
     &::GlobalNamespace::OVRScreenFade::Fade)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3fe1840;
+  constexpr static std::size_t addrs = 0x40418ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::SetMaterialAlpha)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3fe1a8c;
+  constexpr static std::size_t addrs = 0x4041b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "SetMaterialAlpha",
@@ -416,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScreenFade::*)()>(&::GlobalNamespace::OVRScreenFade::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3fe1bc4;
+  constexpr static std::size_t addrs = 0x4041c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), ".ctor",
@@ -556,18 +555,18 @@ constexpr void GlobalNamespace::OVRScreenFade::__cordl_internal_set_isFading(boo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isFading = value;
 }
-inline void GlobalNamespace::OVRScreenFade::setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value) {
-  ::cordl_internals::setStaticField<::UnityW<::GlobalNamespace::OVRScreenFade>, "<instance>k__BackingField",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>(std::forward<::UnityW<::GlobalNamespace::OVRScreenFade>>(value));
+inline void GlobalNamespace::OVRScreenFade::setStaticF__instance_k__BackingField(::GlobalNamespace::OVRScreenFade* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::OVRScreenFade*, "<instance>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>(
+      std::forward<::GlobalNamespace::OVRScreenFade*>(value));
 }
-inline ::UnityW<::GlobalNamespace::OVRScreenFade> GlobalNamespace::OVRScreenFade::getStaticF__instance_k__BackingField() {
-  return ::cordl_internals::getStaticField<::UnityW<::GlobalNamespace::OVRScreenFade>, "<instance>k__BackingField",
+inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::getStaticF__instance_k__BackingField() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::OVRScreenFade*, "<instance>k__BackingField",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get>();
 }
-inline ::UnityW<::GlobalNamespace::OVRScreenFade> GlobalNamespace::OVRScreenFade::get_instance() {
+inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), "get_instance",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRScreenFade>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRScreenFade*, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::OVRScreenFade::set_instance(::GlobalNamespace::OVRScreenFade* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -634,13 +633,13 @@ inline void GlobalNamespace::OVRScreenFade::SetMaterialAlpha() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRScreenFade*>());
-}
 inline void GlobalNamespace::OVRScreenFade::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScreenFade*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRScreenFade* GlobalNamespace::OVRScreenFade::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRScreenFade*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRScreenFade::OVRScreenFade() {}

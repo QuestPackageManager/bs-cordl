@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72a0;
+  constexpr static std::size_t addrs = 0x491b930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_prefab",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(::UnityEngine::GameObject*)>(&::UnityEngine::TreePrototype::set_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72a8;
+  constexpr static std::size_t addrs = 0x491b938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72b0;
+  constexpr static std::size_t addrs = 0x491b940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_bendFactor",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(float_t)>(&::UnityEngine::TreePrototype::set_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72b8;
+  constexpr static std::size_t addrs = 0x491b948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_navMeshLod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72c0;
+  constexpr static std::size_t addrs = 0x491b950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_navMeshLod",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b72c8;
+  constexpr static std::size_t addrs = 0x491b958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), ".ctor",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::System::Object*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48b72d0;
+  constexpr static std::size_t addrs = 0x491b960;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b7444;
+  constexpr static std::size_t addrs = 0x491bad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::UnityEngine::TreePrototype*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48b7334;
+  constexpr static std::size_t addrs = 0x491b9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,9 +189,6 @@ inline int32_t UnityEngine::TreePrototype::get_navMeshLod() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::TreePrototype* UnityEngine::TreePrototype::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TreePrototype*>());
-}
 inline void UnityEngine::TreePrototype::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -212,6 +209,9 @@ inline bool UnityEngine::TreePrototype::Equals(::UnityEngine::TreePrototype* oth
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TreePrototype*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline ::UnityEngine::TreePrototype* UnityEngine::TreePrototype::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TreePrototype*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TreePrototype::TreePrototype() {}

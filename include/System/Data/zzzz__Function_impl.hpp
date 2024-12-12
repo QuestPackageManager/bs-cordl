@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Function::*)(
     ::StringW, ::System::Data::FunctionId, ::System::Type*, bool, bool, int32_t, ::System::Type*, ::System::Type*, ::System::Type*)>(&::System::Data::Function::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x40effcc;
+  constexpr static std::size_t addrs = 0x41512e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ constexpr ::System::Type*& System::Data::Function::__cordl_internal_get__result(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____result;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Data::Function::__cordl_internal_get__result() const {
+constexpr ::System::Type* const& System::Data::Function::__cordl_internal_get__result() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____result;
 }
@@ -116,10 +116,6 @@ inline void System::Data::Function::setStaticF_s_functionName(::ArrayW<::StringW
 inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Data::Function::getStaticF_s_functionName() {
   return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "s_functionName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Function*>::get>();
 }
-inline ::System::Data::Function* System::Data::Function::New_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList,
-                                                                  int32_t argumentCount, ::System::Type* a1, ::System::Type* a2, ::System::Type* a3) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Function*>(name, id, result, IsValidateArguments, IsVariantArgumentList, argumentCount, a1, a2, a3));
-}
 inline void System::Data::Function::_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount,
                                           ::System::Type* a1, ::System::Type* a2, ::System::Type* a3) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -131,6 +127,10 @@ inline void System::Data::Function::_ctor(::StringW name, ::System::Data::Functi
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, id, result, IsValidateArguments, IsVariantArgumentList, argumentCount, a1, a2, a3);
+}
+inline ::System::Data::Function* System::Data::Function::New_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList,
+                                                                  int32_t argumentCount, ::System::Type* a1, ::System::Type* a2, ::System::Type* a3) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Function*>(name, id, result, IsValidateArguments, IsVariantArgumentList, argumentCount, a1, a2, a3));
 }
 // Ctor Parameters []
 constexpr ::System::Data::Function::Function() {}

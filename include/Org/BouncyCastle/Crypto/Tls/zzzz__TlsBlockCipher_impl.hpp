@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsBlockCipher.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsMac* (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::get_WriteMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e9c34;
+  constexpr static std::size_t addrs = 0x241cf20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsMac* (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::get_ReadMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e9c3c;
+  constexpr static std::size_t addrs = 0x241cf28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::IDigest*,
     ::Org::BouncyCastle::Crypto::IDigest*, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0xb58;
-  constexpr static std::size_t addrs = 0x23e9c44;
+  constexpr static std::size_t addrs = 0x241cf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::GetPlaintextLimit)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23ea79c;
+  constexpr static std::size_t addrs = 0x241da88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::EncodePlaintext)> {
   constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x23ea89c;
+  constexpr static std::size_t addrs = 0x241db88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::DecodeCiphertext)> {
   constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x23eaeec;
+  constexpr static std::size_t addrs = 0x241e1d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::CheckPaddingConstantTime)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x23eb398;
+  constexpr static std::size_t addrs = 0x241e684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::ChooseExtraPadBlocks)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23eb540;
+  constexpr static std::size_t addrs = 0x241e82c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::LowestBitSet)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23eb5e8;
+  constexpr static std::size_t addrs = 0x241e8d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,19 +157,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
-constexpr Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_context() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_context() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
@@ -217,7 +209,7 @@ constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& Org::BouncyCastle::Crypto:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptCipher;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_encryptCipher() const {
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_encryptCipher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptCipher;
 }
@@ -229,7 +221,7 @@ constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& Org::BouncyCastle::Crypto:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decryptCipher;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_decryptCipher() const {
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_decryptCipher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decryptCipher;
 }
@@ -241,7 +233,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& Org::BouncyCastle::Crypto::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mWriteMac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_mWriteMac() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac* const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_mWriteMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mWriteMac;
 }
@@ -253,7 +245,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& Org::BouncyCastle::Crypto::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mReadMac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_mReadMac() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac* const& Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::__cordl_internal_get_mReadMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mReadMac;
 }
@@ -270,14 +262,6 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* Org::BouncyCastle::Crypto::Tls:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::TlsMac*, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
-                                                                                                                  ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
-                                                                                                                  ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher,
-                                                                                                                  ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
-                                                                                                                  ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher*>(context, clientWriteCipher, serverWriteCipher, clientWriteDigest, serverWriteDigest, cipherKeySize));
 }
 inline void Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
                                                                   ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
@@ -323,6 +307,22 @@ inline int32_t Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::LowestBitSet(int3
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
+                                                                                                                  ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
+                                                                                                                  ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher,
+                                                                                                                  ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
+                                                                                                                  ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher*>(context, clientWriteCipher, serverWriteCipher, clientWriteDigest, serverWriteDigest, cipherKeySize));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
+constexpr Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher::TlsBlockCipher() {}

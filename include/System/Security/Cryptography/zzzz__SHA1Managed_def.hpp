@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__SHA1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SHA1Managed)
 // Forward declare root types
@@ -13,11 +12,10 @@ class SHA1Managed;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Managed);
-// Type: System.Security.Cryptography::SHA1Managed
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.SHA1
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::SHA1Managed*
+// CS Name: System.Security.Cryptography.SHA1Managed
 class CORDL_TYPE SHA1Managed : public ::System::Security::Cryptography::SHA1 {
 public:
   // Declarations
@@ -33,30 +31,30 @@ public:
   /// @brief Field _stateSHA1, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__stateSHA1, put = __cordl_internal_set__stateSHA1)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _stateSHA1;
 
-  /// @brief Method HashCore, addr 0x3c47d50, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3ca7ec4, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x3c47ed4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3ca8048, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x3c47d0c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3ca7e80, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeState, addr 0x3c47c88, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeState, addr 0x3ca7dfc, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
   static inline ::System::Security::Cryptography::SHA1Managed* New_ctor();
 
-  /// @brief Method SHAExpand, addr 0x3c485b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SHAExpand, addr 0x3ca8728, size 0x3c, virtual false, abstract: false, final false
   static inline void SHAExpand(::cordl_internals::Ptr<uint32_t> x);
 
-  /// @brief Method SHATransform, addr 0x3c48080, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method SHATransform, addr 0x3ca81f4, size 0x3ec, virtual false, abstract: false, final false
   static inline void SHATransform(::cordl_internals::Ptr<uint32_t> expandedBuffer, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method _EndHash, addr 0x3c47ed8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method _EndHash, addr 0x3ca804c, size 0x1a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method _HashData, addr 0x3c47d54, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method _HashData, addr 0x3ca7ec8, size 0x180, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
@@ -83,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__stateSHA1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c47bb8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ca7d2c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SHA1Managed(SHA1Managed const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2958 };
+
   /// @brief Field _buffer, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____buffer;
 
@@ -112,14 +113,9 @@ public:
   /// @brief Field _expandedBuffer, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ____expandedBuffer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2958 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::SHA1Managed, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::SHA1Managed, ____buffer) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::SHA1Managed, ____count) == 0x30, "Offset mismatch!");
@@ -127,6 +123,8 @@ static_assert(offsetof(::System::Security::Cryptography::SHA1Managed, ____count)
 static_assert(offsetof(::System::Security::Cryptography::SHA1Managed, ____stateSHA1) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::SHA1Managed, ____expandedBuffer) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::SHA1Managed, 0x48>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::SHA1Managed);

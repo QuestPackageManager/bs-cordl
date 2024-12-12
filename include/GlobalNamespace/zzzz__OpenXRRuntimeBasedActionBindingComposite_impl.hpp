@@ -7,9 +7,9 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397bad4;
+  constexpr static std::size_t addrs = 0x39d1e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
-    ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude)> {
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x397badc;
+  constexpr static std::size_t addrs = 0x39d1e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397bb50;
+  constexpr static std::size_t addrs = 0x39d1ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)()>(
     &::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x397bb54;
+  constexpr static std::size_t addrs = 0x39d1ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,13 +88,13 @@ constexpr void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___otherRuntimes = value;
 }
-inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
 }
-inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), 8)));
@@ -106,14 +106,14 @@ inline void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::Init() {
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>());
-}
 inline void GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::OpenXRRuntimeBasedActionBindingComposite() {}

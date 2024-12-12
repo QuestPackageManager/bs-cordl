@@ -96,9 +96,9 @@ template <typename T> inline T TMPro::TMP_TextProcessingStack_1<T>::PreviousItem
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_DefaultItem", ty: "T", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "m_DefaultItem", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Capacity", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_RolloverSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::TMPro::TMP_TextProcessingStack_1<T>::TMP_TextProcessingStack_1(::ArrayW<T, ::Array<T>*> itemStack, int32_t index, T m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize,
                                                                            int32_t m_Count) noexcept {

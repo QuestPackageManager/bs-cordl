@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlSerializerFactory)
 namespace System::Collections {
@@ -28,31 +27,30 @@ class XmlSerializerFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializerFactory);
-// Type: System.Xml.Serialization::XmlSerializerFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializerFactory*
+// CS Name: System.Xml.Serialization.XmlSerializerFactory
 class CORDL_TYPE XmlSerializerFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field serializersBySource, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_serializersBySource, put = setStaticF_serializersBySource)) ::System::Collections::Hashtable* serializersBySource;
+  __declspec(property(get = getStaticF_serializersBySource, put = setStaticF_serializersBySource)) ::System::Collections::Hashtable* serializersBySource;
 
-  /// @brief Method CreateSerializer, addr 0x432c1a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x438d4bc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type);
 
-  /// @brief Method CreateSerializer, addr 0x432c1bc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x438d4d0, size 0x26c, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlAttributeOverrides* overrides,
                                                                        ::ArrayW<::System::Type*, ::Array<::System::Type*>*> extraTypes, ::System::Xml::Serialization::XmlRootAttribute* root,
                                                                        ::StringW defaultNamespace);
 
-  /// @brief Method CreateSerializer, addr 0x432c428, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CreateSerializer, addr 0x438d73c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializer* CreateSerializer(::System::Type* type, ::System::Xml::Serialization::XmlRootAttribute* root);
 
   static inline ::System::Xml::Serialization::XmlSerializerFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432c1a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438d4b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_serializersBySource();
@@ -74,7 +72,7 @@ public:
   XmlSerializerFactory(XmlSerializerFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7422 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

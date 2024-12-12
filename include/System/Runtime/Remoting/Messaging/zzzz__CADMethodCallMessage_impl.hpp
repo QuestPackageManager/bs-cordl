@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c88594;
+  constexpr static std::size_t addrs = 0x3ce8708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::CADMethodCallMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::Create)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c82274;
+  constexpr static std::size_t addrs = 0x3ce23e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(
     ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::CADMethodCallMessage::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3c8859c;
+  constexpr static std::size_t addrs = 0x3ce8710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArguments)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3c88788;
+  constexpr static std::size_t addrs = 0x3ce88fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c888c0;
+  constexpr static std::size_t addrs = 0x3ce8a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_PropertiesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c888d0;
+  constexpr static std::size_t addrs = 0x3ce8a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,10 +120,6 @@ inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* System::Run
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMessage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*, false>(nullptr, ___internal_method, callMsg);
 }
-inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*
-System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(callMsg));
-}
 inline void System::Runtime::Remoting::Messaging::CADMethodCallMessage::_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -147,6 +143,10 @@ inline int32_t System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_P
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>::get(), "get_PropertiesCount",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*
+System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(callMsg));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::CADMethodCallMessage::CADMethodCallMessage() {}

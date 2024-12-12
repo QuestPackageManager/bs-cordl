@@ -3,8 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AttributeCertificateHolder)
@@ -26,14 +27,8 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace System {
-class ICloneable;
 }
 namespace System {
 class Object;
@@ -44,11 +39,10 @@ class AttributeCertificateHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::AttributeCertificateHolder);
-// Type: Org.BouncyCastle.X509::AttributeCertificateHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.X509.Store.IX509Selector, System.ICloneable, System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::AttributeCertificateHolder*
+// CS Name: Org.BouncyCastle.X509.AttributeCertificateHolder
 class CORDL_TYPE AttributeCertificateHolder : public ::System::Object {
 public:
   // Declarations
@@ -69,40 +63,40 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x25b84e4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x25eb7d0, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Equals, addr 0x25b8a7c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25ebd68, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GenerateGeneralNames, addr 0x25b7a64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeneralNames, addr 0x25ead50, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GenerateGeneralNames(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
-  /// @brief Method GetEntityNames, addr 0x25b8450, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetEntityNames, addr 0x25eb73c, size 0x2c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetEntityNames();
 
-  /// @brief Method GetHashCode, addr 0x25b8b24, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25ebe10, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIssuer, addr 0x25b847c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetIssuer, addr 0x25eb768, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetIssuer();
 
-  /// @brief Method GetNames, addr 0x25b8120, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetNames, addr 0x25eb40c, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetNames(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
 
-  /// @brief Method GetObjectDigest, addr 0x25b7f28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectDigest, addr 0x25eb214, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetObjectDigest();
 
-  /// @brief Method GetPrincipals, addr 0x25b8280, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method GetPrincipals, addr 0x25eb56c, size 0x1d0, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509Name*, ::Array<::Org::BouncyCastle::Asn1::X509::X509Name*>*> GetPrincipals(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-  /// @brief Method Match, addr 0x25b8b40, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Match, addr 0x25ebe2c, size 0x8c, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
-  /// @brief Method Match, addr 0x25b85bc, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method Match, addr 0x25eb8a8, size 0x4c0, virtual false, abstract: false, final false
   inline bool Match(::Org::BouncyCastle::X509::X509Certificate* x509Cert);
 
-  /// @brief Method MatchesDN, addr 0x25b7f98, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method MatchesDN, addr 0x25eb284, size 0x188, virtual false, abstract: false, final false
   inline bool MatchesDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::GeneralNames* targets);
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* New_ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
@@ -116,37 +110,37 @@ public:
 
   static inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Holder*& __cordl_internal_get_holder();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Holder* const& __cordl_internal_get_holder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Holder*> const& __cordl_internal_get_holder() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::Holder*& __cordl_internal_get_holder();
 
   constexpr void __cordl_internal_set_holder(::Org::BouncyCastle::Asn1::X509::Holder* value);
 
-  /// @brief Method .ctor, addr 0x25b7af4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eade0, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x25b7d50, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eb03c, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(int32_t digestedObjectType, ::StringW digestAlgorithm, ::StringW otherObjectTypeID, ::ArrayW<uint8_t, ::Array<uint8_t>*> objectDigest);
 
-  /// @brief Method .ctor, addr 0x25b7978, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eac64, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuerName, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x25b7ccc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eafb8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* principal);
 
-  /// @brief Method .ctor, addr 0x25b7944, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25eac30, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DigestAlgorithm, addr 0x25b7ee4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithm, addr 0x25eb1d0, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_DigestAlgorithm();
 
-  /// @brief Method get_DigestedObjectType, addr 0x25b7eac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_DigestedObjectType, addr 0x25eb198, size 0x38, virtual false, abstract: false, final false
   inline int32_t get_DigestedObjectType();
 
-  /// @brief Method get_OtherObjectTypeID, addr 0x25b7f64, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_OtherObjectTypeID, addr 0x25eb250, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_OtherObjectTypeID();
 
-  /// @brief Method get_SerialNumber, addr 0x25b84ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x25eb798, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
@@ -169,18 +163,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeCertificateHolder(AttributeCertificateHolder const&) = delete;
 
-  /// @brief Field holder, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::Holder* ___holder;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1852 };
+
+  /// @brief Field holder, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::X509::Holder* ___holder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::AttributeCertificateHolder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::X509::AttributeCertificateHolder, ___holder) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::AttributeCertificateHolder, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::AttributeCertificateHolder);

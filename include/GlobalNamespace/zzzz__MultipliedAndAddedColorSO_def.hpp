@@ -18,11 +18,10 @@ class MultipliedAndAddedColorSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultipliedAndAddedColorSO);
-// Type: ::MultipliedAndAddedColorSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ColorSO, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultipliedAndAddedColorSO*
+// CS Name: MultipliedAndAddedColorSO
 class CORDL_TYPE MultipliedAndAddedColorSO : public ::GlobalNamespace::ColorSO {
 public:
   // Declarations
@@ -57,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x266c370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x266c308, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x26a01b0, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultipliedAndAddedColorSO(MultipliedAndAddedColorSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18834 };
+
   /// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleColorSO> ____baseColor;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field _addColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____addColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18904 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultipliedAndAddedColorSO, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultipliedAndAddedColorSO, ____baseColor) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultipliedAndAddedColorSO, ____multiplierColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultipliedAndAddedColorSO, ____addColor) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultipliedAndAddedColorSO, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultipliedAndAddedColorSO);

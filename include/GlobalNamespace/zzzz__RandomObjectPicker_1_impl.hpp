@@ -38,17 +38,11 @@ template <typename T> constexpr void GlobalNamespace::RandomObjectPicker_1<T>::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minimumPickInterval = value;
 }
-template <typename T> inline ::GlobalNamespace::RandomObjectPicker_1<T>* GlobalNamespace::RandomObjectPicker_1<T>::New_ctor(T obj, float_t minimumPickInterval) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomObjectPicker_1<T>*>(obj, minimumPickInterval));
-}
 template <typename T> inline void GlobalNamespace::RandomObjectPicker_1<T>::_ctor(T obj, float_t minimumPickInterval) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomObjectPicker_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, minimumPickInterval);
-}
-template <typename T> inline ::GlobalNamespace::RandomObjectPicker_1<T>* GlobalNamespace::RandomObjectPicker_1<T>::New_ctor(::ArrayW<T, ::Array<T>*> objects, float_t minimumPickInterval) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomObjectPicker_1<T>*>(objects, minimumPickInterval));
 }
 template <typename T> inline void GlobalNamespace::RandomObjectPicker_1<T>::_ctor(::ArrayW<T, ::Array<T>*> objects, float_t minimumPickInterval) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -61,6 +55,12 @@ template <typename T> inline T GlobalNamespace::RandomObjectPicker_1<T>::PickRan
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomObjectPicker_1<T>*>::get(),
                                                                              "PickRandomObject", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::RandomObjectPicker_1<T>* GlobalNamespace::RandomObjectPicker_1<T>::New_ctor(T obj, float_t minimumPickInterval) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomObjectPicker_1<T>*>(obj, minimumPickInterval));
+}
+template <typename T> inline ::GlobalNamespace::RandomObjectPicker_1<T>* GlobalNamespace::RandomObjectPicker_1<T>::New_ctor(::ArrayW<T, ::Array<T>*> objects, float_t minimumPickInterval) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RandomObjectPicker_1<T>*>(objects, minimumPickInterval));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::RandomObjectPicker_1<T>::RandomObjectPicker_1() {}

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)()>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2648c1c;
+  constexpr static std::size_t addrs = 0x267bf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(bool)>(&::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::SetDirectSignature)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2648c24;
+  constexpr static std::size_t addrs = 0x267bf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(
         &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::WithSignedAttributeGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2648c30;
+  constexpr static std::size_t addrs = 0x267bf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* (::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(
         &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::WithUnsignedAttributeGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2648c38;
+  constexpr static std::size_t addrs = 0x267bf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::Build)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2648c40;
+  constexpr static std::size_t addrs = 0x267bf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::Build)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2648e64;
+  constexpr static std::size_t addrs = 0x267c150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*)>(
     &::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::CreateGenerator)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2648d68;
+  constexpr static std::size_t addrs = 0x267c054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__cordl_internal_get_signedGen() const {
+constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__cordl_internal_get_signedGen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
@@ -148,17 +148,13 @@ constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const&
-Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__cordl_internal_get_unsignedGen() const {
+constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* const& Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__cordl_internal_get_unsignedGen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
 constexpr void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::__cordl_internal_set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unsignedGen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder*>());
 }
 inline void Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder*>::get(),
@@ -208,6 +204,9 @@ inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::Si
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::SignerInfoGenerator*, false>(this, ___internal_method, contentSigner, sigId);
+}
+inline ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder* Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder::SignerInfoGeneratorBuilder() {}

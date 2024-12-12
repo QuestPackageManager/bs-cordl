@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x48456d0;
+  constexpr static std::size_t addrs = 0x48a6404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW, bool)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4845708;
+  constexpr static std::size_t addrs = 0x48a643c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContextMenu::*)(::StringW, bool, int32_t)>(&::UnityEngine::ContextMenu::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4845744;
+  constexpr static std::size_t addrs = 0x48a6478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,17 +81,11 @@ constexpr void UnityEngine::ContextMenu::__cordl_internal_set_priority(int32_t v
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___priority = value;
 }
-inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName));
-}
 inline void UnityEngine::ContextMenu::_ctor(::StringW itemName) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ContextMenu*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemName);
-}
-inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName, bool isValidateFunction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName, isValidateFunction));
 }
 inline void UnityEngine::ContextMenu::_ctor(::StringW itemName, bool isValidateFunction) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,15 +93,21 @@ inline void UnityEngine::ContextMenu::_ctor(::StringW itemName, bool isValidateF
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemName, isValidateFunction);
 }
-inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName, isValidateFunction, priority));
-}
 inline void UnityEngine::ContextMenu::_ctor(::StringW itemName, bool isValidateFunction, int32_t priority) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ContextMenu*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemName, isValidateFunction, priority);
+}
+inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName));
+}
+inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName, bool isValidateFunction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName, isValidateFunction));
+}
+inline ::UnityEngine::ContextMenu* UnityEngine::ContextMenu::New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ContextMenu*>(itemName, isValidateFunction, priority));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ContextMenu::ContextMenu() {}

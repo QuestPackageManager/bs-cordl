@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::ByteStack::*)(int32_t)>(&::System::Xml::ByteStack::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x41df4c4;
+  constexpr static std::size_t addrs = 0x42407d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::ByteStack::*)(uint8_t)>(&::System::Xml::ByteStack::Push)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x41df534;
+  constexpr static std::size_t addrs = 0x4240848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Xml::ByteStack::*)()>(&::System::Xml::ByteStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41df604;
+  constexpr static std::size_t addrs = 0x4240918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::ByteStack*>::get(), "Pop",
@@ -91,9 +91,6 @@ constexpr void System::Xml::ByteStack::__cordl_internal_set_size(int32_t value) 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
-inline ::System::Xml::ByteStack* System::Xml::ByteStack::New_ctor(int32_t growthRate) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::ByteStack*>(growthRate));
-}
 inline void System::Xml::ByteStack::_ctor(int32_t growthRate) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::ByteStack*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -110,6 +107,9 @@ inline uint8_t System::Xml::ByteStack::Pop() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::ByteStack*>::get(), "Pop",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method);
+}
+inline ::System::Xml::ByteStack* System::Xml::ByteStack::New_ctor(int32_t growthRate) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::ByteStack*>(growthRate));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::ByteStack::ByteStack() {}

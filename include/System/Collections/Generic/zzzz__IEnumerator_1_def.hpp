@@ -3,26 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IEnumerator_1)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::IEnumerator_1);
-// Type: System.Collections.Generic::IEnumerator`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerator, System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::IEnumerator`1<T>*
+// CS Name: System.Collections.Generic.IEnumerator`1<T>
 class CORDL_TYPE IEnumerator_1 {
 public:
   // Declarations
@@ -34,7 +29,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Current, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -42,10 +37,6 @@ public:
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IEnumerator_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IEnumerator_1(IEnumerator_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnumerator_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

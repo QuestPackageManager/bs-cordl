@@ -8,23 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichTextTagAttribute)
-namespace TMPro {
-struct TagUnitType;
-}
-namespace TMPro {
-struct TagValueType;
-}
 // Forward declare root types
 namespace TMPro {
 struct RichTextTagAttribute;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::RichTextTagAttribute);
-// Type: TMPro::RichTextTagAttribute
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies TMPro.TagUnitType, TMPro.TagValueType
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::RichTextTagAttribute
+// CS Name: TMPro.RichTextTagAttribute
 struct CORDL_TYPE RichTextTagAttribute {
 public:
   // Declarations
@@ -36,6 +29,12 @@ public:
   // name: "valueType", ty: "::TMPro::TagValueType", modifiers: "", def_value: None }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "valueLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "unitType", ty: "::TMPro::TagUnitType", modifiers: "", def_value: None }]
   constexpr RichTextTagAttribute(int32_t nameHashCode, int32_t valueHashCode, ::TMPro::TagValueType valueType, int32_t valueStartIndex, int32_t valueLength, ::TMPro::TagUnitType unitType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14443 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field nameHashCode, offset: 0x0, size: 0x4, def value: None
   int32_t nameHashCode;
@@ -55,17 +54,9 @@ public:
   /// @brief Field unitType, offset: 0x14, size: 0x4, def value: None
   ::TMPro::TagUnitType unitType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14409 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::RichTextTagAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::RichTextTagAttribute, nameHashCode) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::RichTextTagAttribute, valueHashCode) == 0x4, "Offset mismatch!");
@@ -77,6 +68,8 @@ static_assert(offsetof(::TMPro::RichTextTagAttribute, valueStartIndex) == 0xc, "
 static_assert(offsetof(::TMPro::RichTextTagAttribute, valueLength) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::RichTextTagAttribute, unitType) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::RichTextTagAttribute, 0x18>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::RichTextTagAttribute, "TMPro", "RichTextTagAttribute");

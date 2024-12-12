@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::Intrinsics::V64DebugView::*)(::Unity::Burst::Intrinsics::v64)>(
     &::Unity::Burst::Intrinsics::V64DebugView::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44c4fe4;
+  constexpr static std::size_t addrs = 0x45262f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_Byte)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44c500c;
+  constexpr static std::size_t addrs = 0x4526320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_Byte",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t, ::Array<int8_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_SByte)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44c50e4;
+  constexpr static std::size_t addrs = 0x45263f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_SByte",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint16_t, ::Array<uint16_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_UShort)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44c51bc;
+  constexpr static std::size_t addrs = 0x45264d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_UShort",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int16_t, ::Array<int16_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_SShort)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44c5254;
+  constexpr static std::size_t addrs = 0x4526568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_SShort",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_UInt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44c52ec;
+  constexpr static std::size_t addrs = 0x4526600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_UInt",
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_SInt)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44c5364;
+  constexpr static std::size_t addrs = 0x4526678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_SInt",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_Float)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44c53dc;
+  constexpr static std::size_t addrs = 0x45266f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_Float",
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t, ::Array<int64_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_SLong)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44c5454;
+  constexpr static std::size_t addrs = 0x4526768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_SLong",
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_ULong)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44c54bc;
+  constexpr static std::size_t addrs = 0x45267d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_ULong",
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<double_t, ::Array<double_t>*> (::Unity::Burst::Intrinsics::V64DebugView::*)()>(
     &::Unity::Burst::Intrinsics::V64DebugView::get_Double)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44c5524;
+  constexpr static std::size_t addrs = 0x4526838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_Double",
@@ -170,9 +170,6 @@ constexpr ::Unity::Burst::Intrinsics::v64 const& Unity::Burst::Intrinsics::V64De
 constexpr void Unity::Burst::Intrinsics::V64DebugView::__cordl_internal_set_m_Value(::Unity::Burst::Intrinsics::v64 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Value = value;
-}
-inline ::Unity::Burst::Intrinsics::V64DebugView* Unity::Burst::Intrinsics::V64DebugView::New_ctor(::Unity::Burst::Intrinsics::v64 value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::Intrinsics::V64DebugView*>(value));
 }
 inline void Unity::Burst::Intrinsics::V64DebugView::_ctor(::Unity::Burst::Intrinsics::v64 value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -229,6 +226,9 @@ inline ::ArrayW<double_t, ::Array<double_t>*> Unity::Burst::Intrinsics::V64Debug
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::Intrinsics::V64DebugView*>::get(), "get_Double",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<double_t, ::Array<double_t>*>, false>(this, ___internal_method);
+}
+inline ::Unity::Burst::Intrinsics::V64DebugView* Unity::Burst::Intrinsics::V64DebugView::New_ctor(::Unity::Burst::Intrinsics::v64 value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::Intrinsics::V64DebugView*>(value));
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::Intrinsics::V64DebugView::V64DebugView() {}

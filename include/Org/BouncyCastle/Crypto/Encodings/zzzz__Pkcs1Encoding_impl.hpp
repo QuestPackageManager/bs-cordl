@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Encodings/Pkcs1Encoding.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Encodings/zzzz__Pkcs1Encoding_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_StrictLengthEnabled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x230bc64;
+  constexpr static std::size_t addrs = 0x233ef50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(),
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::set_StrictLengthEnabled)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x230bcd4;
+  constexpr static std::size_t addrs = 0x233efc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x230be68;
+  constexpr static std::size_t addrs = 0x233f154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x230beec;
+  constexpr static std::size_t addrs = 0x233f1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x230bf78;
+  constexpr static std::size_t addrs = 0x233f264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230c014;
+  constexpr static std::size_t addrs = 0x233f300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(),
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x230c01c;
+  constexpr static std::size_t addrs = 0x233f308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(),
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Init)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x230c0dc;
+  constexpr static std::size_t addrs = 0x233f3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetInputBlockSize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x230c3b0;
+  constexpr static std::size_t addrs = 0x233f69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(),
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)()>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x230c468;
+  constexpr static std::size_t addrs = 0x233f754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(),
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::ProcessBlock)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x230c520;
+  constexpr static std::size_t addrs = 0x233f80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::EncodeBlock)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x230c818;
+  constexpr static std::size_t addrs = 0x233fb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::CheckPkcs1Encoding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x230cb1c;
+  constexpr static std::size_t addrs = 0x233fe08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlockOrRandom)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x230cbc0;
+  constexpr static std::size_t addrs = 0x233feac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlock)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x230c530;
+  constexpr static std::size_t addrs = 0x233f81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x230ceb8;
+  constexpr static std::size_t addrs = 0x23401a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,19 +248,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
-constexpr Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::__cordl_internal_get_random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -271,7 +264,7 @@ constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___engine;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::__cordl_internal_get_engine() const {
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* const& Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::__cordl_internal_get_engine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___engine;
 }
@@ -371,17 +364,11 @@ inline void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::set_StrictLengt
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher));
-}
 inline void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cipher);
-}
-inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher, pLen));
 }
 inline void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -389,10 +376,6 @@ inline void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(::Org::Bo
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cipher, pLen);
-}
-inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher,
-                                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> fallback) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher, fallback));
 }
 inline void Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::ArrayW<uint8_t, ::Array<uint8_t>*> fallback) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -469,6 +452,24 @@ inline int32_t Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart(ui
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, type, block);
+}
+inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher));
+}
+inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, int32_t pLen) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher, pLen));
+}
+inline ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher,
+                                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> fallback) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*>(cipher, fallback));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+constexpr Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::Pkcs1Encoding() {}

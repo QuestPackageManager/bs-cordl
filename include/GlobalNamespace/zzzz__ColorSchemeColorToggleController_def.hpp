@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ColorSchemeColorToggleController)
 namespace UnityEngine::UI {
 class Graphic;
@@ -21,11 +20,10 @@ class ColorSchemeColorToggleController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorToggleController);
-// Type: ::ColorSchemeColorToggleController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSchemeColorToggleController*
+// CS Name: ColorSchemeColorToggleController
 class CORDL_TYPE ColorSchemeColorToggleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -55,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  /// @brief Method .ctor, addr 0x3b934cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf5440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x3b92d70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3bf5370, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_toggle, addr 0x3b934c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_toggle, addr 0x3bf5368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
-  /// @brief Method set_color, addr 0x3b92dc0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3bf53a8, size 0x98, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -81,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeColorToggleController(ColorSchemeColorToggleController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4736 };
+
   /// @brief Field _colorGraphics, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____colorGraphics;
 
   /// @brief Field _toggle, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4720 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeColorToggleController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorToggleController, ____colorGraphics) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorToggleController, ____toggle) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeColorToggleController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeColorToggleController);

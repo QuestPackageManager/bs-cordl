@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StackTraceUtility)
 namespace System::Diagnostics {
@@ -19,27 +18,26 @@ class StackTraceUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::StackTraceUtility);
-// Type: UnityEngine::StackTraceUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::StackTraceUtility*
+// CS Name: UnityEngine.StackTraceUtility
 class CORDL_TYPE StackTraceUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field projectFolder, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_projectFolder, put = setStaticF_projectFolder)) ::StringW projectFolder;
+  __declspec(property(get = getStaticF_projectFolder, put = setStaticF_projectFolder)) ::StringW projectFolder;
 
-  /// @brief Method ExtractFormattedStackTrace, addr 0x484b874, size 0x70c, virtual false, abstract: false, final false
+  /// @brief Method ExtractFormattedStackTrace, addr 0x48ac534, size 0x70c, virtual false, abstract: false, final false
   static inline ::StringW ExtractFormattedStackTrace(::System::Diagnostics::StackTrace* stackTrace);
 
-  /// @brief Method ExtractStackTrace, addr 0x484b718, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ExtractStackTrace, addr 0x48ac3d8, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW ExtractStackTrace();
 
-  /// @brief Method ExtractStringFromExceptionInternal, addr 0x484bf80, size 0x35c, virtual false, abstract: false, final false
-  static inline void ExtractStringFromExceptionInternal(::System::Object* exceptiono, ByRef<::StringW> message, ByRef<::StringW> stackTrace);
+  /// @brief Method ExtractStringFromExceptionInternal, addr 0x48acc40, size 0x35c, virtual false, abstract: false, final false
+  static inline void ExtractStringFromExceptionInternal(::System::Object* exceptiono, ::ByRef<::StringW> message, ::ByRef<::StringW> stackTrace);
 
-  /// @brief Method SetProjectFolder, addr 0x484b63c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetProjectFolder, addr 0x48ac2fc, size 0xdc, virtual false, abstract: false, final false
   static inline void SetProjectFolder(::StringW folder);
 
   static inline ::StringW getStaticF_projectFolder();
@@ -61,7 +59,7 @@ public:
   StackTraceUtility(StackTraceUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

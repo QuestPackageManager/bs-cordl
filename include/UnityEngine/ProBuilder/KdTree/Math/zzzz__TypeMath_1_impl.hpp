@@ -1,17 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/Math/TypeMath_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__TypeMath_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
-/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
-template <typename T> constexpr UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
-template <typename T>
-constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::i___UnityEngine__ProBuilder__KdTree__ITypeMath_1_T_() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
-}
 template <typename T> inline int32_t UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::Compare(T a, T b) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -96,13 +87,22 @@ template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, a, b);
 }
-template <typename T> inline ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>());
-}
 template <typename T> inline void UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>());
+}
+/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
+template <typename T> constexpr UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
+template <typename T>
+constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::i___UnityEngine__ProBuilder__KdTree__ITypeMath_1_T_() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::TypeMath_1() {}

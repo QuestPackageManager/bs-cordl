@@ -16,35 +16,30 @@ class IWebProxy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::IWebProxy);
-// Type: System.Net::IWebProxy
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::IWebProxy*
+// CS Name: System.Net.IWebProxy
 class CORDL_TYPE IWebProxy {
 public:
   // Declarations
   __declspec(property(get = get_Credentials)) ::System::Net::ICredentials* Credentials;
 
-  /// @brief Method GetProxy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetProxy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Uri* GetProxy(::System::Uri* destination);
 
-  /// @brief Method IsBypassed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsBypassed, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsBypassed(::System::Uri* host);
 
-  /// @brief Method get_Credentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Credentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Net::ICredentials* get_Credentials();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IWebProxy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IWebProxy(IWebProxy&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IWebProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IWebProxy(IWebProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9629 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

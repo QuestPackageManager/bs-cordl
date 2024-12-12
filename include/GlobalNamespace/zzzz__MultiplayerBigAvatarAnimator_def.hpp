@@ -33,11 +33,10 @@ class MultiplayerBigAvatarAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBigAvatarAnimator);
-// Type: ::MultiplayerBigAvatarAnimator
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerBigAvatarAnimator*
+// CS Name: MultiplayerBigAvatarAnimator
 class CORDL_TYPE MultiplayerBigAvatarAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,30 +61,30 @@ public:
   /// @brief Field _tweeningManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x3b53204, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x3bb49ac, size 0x1d0, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method HideInstant, addr 0x3b53528, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x3bb4ccc, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x3b67340, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3bc8a7c, size 0x1c8, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::MultiplayerBigAvatarAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b672b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc89f4, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b67508, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3bc8c44, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method <InitIfNeeded>b__8_0, addr 0x3b67590, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_0, addr 0x3bc8ccc, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_1, addr 0x3b67608, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_1, addr 0x3bc8d44, size 0x78, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__8_2, addr 0x3b67680, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__8_2, addr 0x3bc8dbc, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__8_2();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__avatarTransform() const;
@@ -104,13 +103,13 @@ public:
 
   constexpr bool& __cordl_internal_get__initialized();
 
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__scaleDownTween() const;
+
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleDownTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleDownTween() const;
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__scaleUpTween() const;
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -130,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b67580, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc8cbc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,6 +145,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBigAvatarAnimator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBigAvatarAnimator(MultiplayerBigAvatarAnimator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
 
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;
@@ -168,14 +170,9 @@ public:
   /// @brief Field _initialized, offset: 0x50, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4538 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBigAvatarAnimator, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarAnimator, ____displayedScale) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarAnimator, ____hologramRays) == 0x28, "Offset mismatch!");
@@ -189,6 +186,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarAnimator, ____scal
 static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarAnimator, ____scaleDownTween) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBigAvatarAnimator, ____initialized) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBigAvatarAnimator, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBigAvatarAnimator);

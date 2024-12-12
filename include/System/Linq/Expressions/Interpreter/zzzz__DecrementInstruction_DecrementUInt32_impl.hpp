@@ -3,51 +3,49 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__DecrementInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DecrementInstruction_DecrementUInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32.Run
+//  Writing Method size for method: ::GlobalNamespace::DecrementInstruction_DecrementUInt32.Run
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::*)(
-    ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::Run)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::DecrementInstruction_DecrementUInt32::*)(
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::DecrementInstruction_DecrementUInt32::Run)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4063878;
+  constexpr static std::size_t addrs = 0x40c4b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>::get(), 8));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>::get(), 8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32._ctor
+//  Writing Method size for method: ::GlobalNamespace::DecrementInstruction_DecrementUInt32._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::*)()>(
-    &::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DecrementInstruction_DecrementUInt32::*)()>(
+    &::GlobalNamespace::DecrementInstruction_DecrementUInt32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40635bc;
+  constexpr static std::size_t addrs = 0x40c48d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline int32_t System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>::get(), 8)));
+inline int32_t GlobalNamespace::DecrementInstruction_DecrementUInt32::Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
 }
-inline ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32* System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>());
-}
-inline void System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::DecrementInstruction_DecrementUInt32::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::DecrementInstruction_DecrementUInt32* GlobalNamespace::DecrementInstruction_DecrementUInt32::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DecrementInstruction_DecrementUInt32*>());
+}
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::__DecrementInstruction__DecrementUInt32::__DecrementInstruction__DecrementUInt32() {}
+constexpr ::GlobalNamespace::DecrementInstruction_DecrementUInt32::DecrementInstruction_DecrementUInt32() {}

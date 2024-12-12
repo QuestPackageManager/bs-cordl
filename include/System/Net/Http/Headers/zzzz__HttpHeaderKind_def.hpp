@@ -12,11 +12,10 @@ struct HttpHeaderKind;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Http::Headers::HttpHeaderKind);
-// Type: System.Net.Http.Headers::HttpHeaderKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Http::Headers {
 // Is value type: true
-// CS Name: ::System.Net.Http.Headers::HttpHeaderKind
+// CS Name: System.Net.Http.Headers.HttpHeaderKind
 struct CORDL_TYPE HttpHeaderKind {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HttpHeaderKind(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Content value: static_cast<int32_t>(0x4)
+  /// @brief Field Content value: I32(4)
   static ::System::Net::Http::Headers::HttpHeaderKind const Content;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Net::Http::Headers::HttpHeaderKind const None;
 
-  /// @brief Field Request value: static_cast<int32_t>(0x1)
+  /// @brief Field Request value: I32(1)
   static ::System::Net::Http::Headers::HttpHeaderKind const Request;
 
-  /// @brief Field Response value: static_cast<int32_t>(0x2)
+  /// @brief Field Response value: I32(2)
   static ::System::Net::Http::Headers::HttpHeaderKind const Response;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpHeaderKind, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::Headers::HttpHeaderKind, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HttpHeaderKind, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::HttpHeaderKind, "System.Net.Http.Headers", "HttpHeaderKind");

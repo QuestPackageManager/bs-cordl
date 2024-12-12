@@ -3,53 +3,53 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData._ctor
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData::*)(float_t, float_t)>(
-    &::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::*)(float_t, float_t)>(
+    &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2232a4c;
+  constexpr static std::size_t addrs = 0x225e014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData::_ctor(float_t songTime, float_t yOffset) {
+inline void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::_ctor(float_t songTime, float_t yOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songTime, yOffset);
 }
 // Ctor Parameters [CppParam { name: "songTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "yOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData(float_t songTime, float_t yOffset) noexcept {
+constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData(float_t songTime, float_t yOffset) noexcept {
   this->songTime = songTime;
   this->yOffset = yOffset;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData() {}
+constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)(
-    ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::IBeatmapObjectSpawnController*, float_t, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData)>(
+    ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::IJumpOffsetYProvider*, ::GlobalNamespace::IVariableMovementDataProvider*, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x22328f8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x225de58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAudioTimeSource*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapObjectSpawnController*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IJumpOffsetYProvider*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVariableMovementDataProvider*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::ManualUpdate)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2232a54;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x225e01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::GetJumpOffsetYAtJumpStartSongTime)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x2232bcc;
+  constexpr static std::size_t addrs = 0x225e190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,18 +107,18 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpDurationToDesiredZPosition = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*>&
+constexpr ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*>&
 GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__yJumpOffsetBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yJumpOffsetBuffer;
 }
-constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> const&
+constexpr ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*> const&
 GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__yJumpOffsetBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yJumpOffsetBuffer;
 }
 constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_set__yJumpOffsetBuffer(
-    ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value) {
+    ::ArrayW<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData, ::Array<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____yJumpOffsetBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -126,7 +126,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BeatmapObjectAv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -134,34 +134,27 @@ constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__beatmapObjectSpawnController() {
+constexpr ::GlobalNamespace::IJumpOffsetYProvider*& GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__jumpOffsetYProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
+  return this->____jumpOffsetYProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const&
-GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__beatmapObjectSpawnController() const {
+constexpr ::GlobalNamespace::IJumpOffsetYProvider* const& GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_get__jumpOffsetYProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapObjectSpawnController;
+  return this->____jumpOffsetYProvider;
 }
-constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value) {
+constexpr void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::__cordl_internal_set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectSpawnController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jumpOffsetYProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*
-GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController,
-                                                                  float_t moveToPlayerHeadTParam, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>(audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData));
-}
-inline void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
-                                                                           ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,
-                                                                           ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData noteSpawnData) {
+inline void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
+                                                                           ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider, float_t moveToPlayerHeadTParam) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAudioTimeSource*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapObjectSpawnController*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioTimeSource, beatmapObjectSpawnController, moveToPlayerHeadTParam, noteSpawnData);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IJumpOffsetYProvider*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVariableMovementDataProvider*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioTimeSource, jumpOffsetYProvider, variableMovementDataProvider, moveToPlayerHeadTParam);
 }
 inline void GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::ManualUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>::get(),
@@ -173,6 +166,12 @@ inline float_t GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::GetJumpO
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>::get(), "GetJumpOffsetYAtJumpStartSongTime",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, lastDeltaTime);
+}
+inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*
+GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider,
+                                                                  ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider, float_t moveToPlayerHeadTParam) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*>(audioTimeSource, jumpOffsetYProvider, variableMovementDataProvider, moveToPlayerHeadTParam));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::BeatmapObjectAvoidanceYOffsetEvaluator() {}

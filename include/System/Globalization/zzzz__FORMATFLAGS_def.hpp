@@ -12,11 +12,10 @@ struct FORMATFLAGS;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::FORMATFLAGS);
-// Type: System.Globalization::FORMATFLAGS
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::FORMATFLAGS
+// CS Name: System.Globalization.FORMATFLAGS
 struct CORDL_TYPE FORMATFLAGS {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FORMATFLAGS(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Globalization::FORMATFLAGS const None;
 
-  /// @brief Field UseDigitPrefixInTokens value: static_cast<int32_t>(0x20)
+  /// @brief Field UseDigitPrefixInTokens value: I32(32)
   static ::System::Globalization::FORMATFLAGS const UseDigitPrefixInTokens;
 
-  /// @brief Field UseGenitiveMonth value: static_cast<int32_t>(0x1)
+  /// @brief Field UseGenitiveMonth value: I32(1)
   static ::System::Globalization::FORMATFLAGS const UseGenitiveMonth;
 
-  /// @brief Field UseHebrewParsing value: static_cast<int32_t>(0x8)
+  /// @brief Field UseHebrewParsing value: I32(8)
   static ::System::Globalization::FORMATFLAGS const UseHebrewParsing;
 
-  /// @brief Field UseLeapYearMonth value: static_cast<int32_t>(0x2)
+  /// @brief Field UseLeapYearMonth value: I32(2)
   static ::System::Globalization::FORMATFLAGS const UseLeapYearMonth;
 
-  /// @brief Field UseSpacesInDayNames value: static_cast<int32_t>(0x10)
+  /// @brief Field UseSpacesInDayNames value: I32(16)
   static ::System::Globalization::FORMATFLAGS const UseSpacesInDayNames;
 
-  /// @brief Field UseSpacesInMonthNames value: static_cast<int32_t>(0x4)
+  /// @brief Field UseSpacesInMonthNames value: I32(4)
   static ::System::Globalization::FORMATFLAGS const UseSpacesInMonthNames;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::FORMATFLAGS, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::FORMATFLAGS, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::FORMATFLAGS, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::FORMATFLAGS, "System.Globalization", "FORMATFLAGS");

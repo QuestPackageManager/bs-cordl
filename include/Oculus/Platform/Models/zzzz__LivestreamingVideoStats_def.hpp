@@ -16,11 +16,10 @@ class LivestreamingVideoStats;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingVideoStats);
-// Type: Oculus.Platform.Models::LivestreamingVideoStats
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LivestreamingVideoStats*
+// CS Name: Oculus.Platform.Models.LivestreamingVideoStats
 class CORDL_TYPE LivestreamingVideoStats : public ::System::Object {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f30c5c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90d08, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -70,6 +69,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LivestreamingVideoStats(LivestreamingVideoStats const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15538 };
+
   /// @brief Field CommentCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___CommentCount;
 
@@ -79,19 +81,16 @@ public:
   /// @brief Field TotalViews, offset: 0x18, size: 0x8, def value: None
   ::StringW ___TotalViews;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15503 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LivestreamingVideoStats, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LivestreamingVideoStats, ___CommentCount) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LivestreamingVideoStats, ___ReactionCount) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LivestreamingVideoStats, ___TotalViews) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LivestreamingVideoStats, 0x20>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LivestreamingVideoStats);

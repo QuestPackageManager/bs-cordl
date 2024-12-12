@@ -21,11 +21,10 @@ class GuestNameButtonsListItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItem);
-// Type: ::GuestNameButtonsListItem
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GuestNameButtonsListItem*
+// CS Name: GuestNameButtonsListItem
 class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,21 +41,21 @@ public:
 
   __declspec(property(put = set_nameText)) ::StringW nameText;
 
-  /// @brief Method Awake, addr 0x3ba3348, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c05cd4, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
 
-  /// @brief Method <Awake>b__7_0, addr 0x3ba33e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__7_0, addr 0x3c05d6c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__7_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::System::Action*& __cordl_internal_get__buttonPressed();
+  constexpr ::System::Action* const& __cordl_internal_get__buttonPressed() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__buttonPressed() const;
+  constexpr ::System::Action*& __cordl_internal_get__buttonPressed();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
@@ -68,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3ba33d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c05d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_buttonPressed, addr 0x3ba3340, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonPressed, addr 0x3c05ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonPressed(::System::Action* value);
 
-  /// @brief Method set_nameText, addr 0x3ba331c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_nameText, addr 0x3c05ca8, size 0x24, virtual false, abstract: false, final false
   inline void set_nameText(::StringW value);
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GuestNameButtonsListItem(GuestNameButtonsListItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4805 };
+
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
@@ -100,19 +102,16 @@ public:
   /// @brief Field _buttonPressed, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ____buttonPressed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4788 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GuestNameButtonsListItem, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____nameText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____button) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GuestNameButtonsListItem, ____buttonPressed) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GuestNameButtonsListItem, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GuestNameButtonsListItem);

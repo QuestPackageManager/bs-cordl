@@ -11,11 +11,10 @@ class SafeHandleMinusOneIsInvalid;
 }
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid);
-// Type: Microsoft.Win32.SafeHandles::SafeHandleMinusOneIsInvalid
-// SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.InteropServices.SafeHandle
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// CS Name: ::Microsoft.Win32.SafeHandles::SafeHandleMinusOneIsInvalid*
+// CS Name: Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
 class CORDL_TYPE SafeHandleMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle {
 public:
   // Declarations
@@ -23,10 +22,10 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid* New_ctor(bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x3c0d7d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c6d8e4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool ownsHandle);
 
-  /// @brief Method get_IsInvalid, addr 0x3c0d814, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsInvalid, addr 0x3c6d928, size 0x40, virtual true, abstract: false, final false
   inline bool get_IsInvalid();
 
 protected:

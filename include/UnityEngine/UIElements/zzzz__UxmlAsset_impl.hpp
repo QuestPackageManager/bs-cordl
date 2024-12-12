@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UxmlAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlAsset.get_fullTypeName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_fullTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3ceb0;
+  constexpr static std::size_t addrs = 0x4aa17c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "get_fullTypeName",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3ceb8;
+  constexpr static std::size_t addrs = 0x4aa17c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "get_id",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_orderInDocument)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3cec0;
+  constexpr static std::size_t addrs = 0x4aa17d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(),
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlAsset::*)()>(&::UnityEngine::UIElements::UxmlAsset::get_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3cec8;
+  constexpr static std::size_t addrs = 0x4aa17d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "get_parentId",
@@ -59,16 +59,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlAsset.TryGetAttributeValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ByRef<::StringW>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::ByRef<::StringW>)>(
     &::UnityEngine::UIElements::UxmlAsset::TryGetAttributeValue)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a3ced0;
+  constexpr static std::size_t addrs = 0x4aa17e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(),
-                                                                               "TryGetAttributeValue", std::span<Il2CppClass const* const, 0>(),
-                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "TryGetAttributeValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::UxmlAsset::SetAttribute)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a3cfa0;
+  constexpr static std::size_t addrs = 0x4aa18b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlAsset::*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::UxmlAsset::SetOrAddProperty)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4a3cfa4;
+  constexpr static std::size_t addrs = 0x4aa18b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,14 +102,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
-constexpr UnityEngine::UIElements::UxmlAsset::operator ::UnityEngine::UIElements::IUxmlAttributes*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IUxmlAttributes*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
-constexpr ::UnityEngine::UIElements::IUxmlAttributes* UnityEngine::UIElements::UxmlAsset::i___UnityEngine__UIElements__IUxmlAttributes() noexcept {
-  return static_cast<::UnityEngine::UIElements::IUxmlAttributes*>(static_cast<void*>(this));
-}
 constexpr ::StringW& UnityEngine::UIElements::UxmlAsset::__cordl_internal_get_m_FullTypeName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FullTypeName;
@@ -162,7 +154,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& UnityEngine::UIEle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Properties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& UnityEngine::UIElements::UxmlAsset::__cordl_internal_get_m_Properties() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& UnityEngine::UIElements::UxmlAsset::__cordl_internal_get_m_Properties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Properties;
 }
@@ -190,10 +182,11 @@ inline int32_t UnityEngine::UIElements::UxmlAsset::get_parentId() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::UxmlAsset::TryGetAttributeValue(::StringW propertyName, ByRef<::StringW> value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "TryGetAttributeValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+inline bool UnityEngine::UIElements::UxmlAsset::TryGetAttributeValue(::StringW propertyName, ::ByRef<::StringW> value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(),
+                                                                             "TryGetAttributeValue", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, propertyName, value);
 }
 inline void UnityEngine::UIElements::UxmlAsset::SetAttribute(::StringW name, ::StringW value) {
@@ -207,6 +200,14 @@ inline void UnityEngine::UIElements::UxmlAsset::SetOrAddProperty(::StringW prope
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlAsset*>::get(), "SetOrAddProperty", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, propertyName, propertyValue);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
+constexpr UnityEngine::UIElements::UxmlAsset::operator ::UnityEngine::UIElements::IUxmlAttributes*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IUxmlAttributes*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
+constexpr ::UnityEngine::UIElements::IUxmlAttributes* UnityEngine::UIElements::UxmlAsset::i___UnityEngine__UIElements__IUxmlAttributes() noexcept {
+  return static_cast<::UnityEngine::UIElements::IUxmlAttributes*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlAsset::UxmlAsset() {}

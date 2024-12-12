@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Empty)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -21,29 +19,28 @@ class Empty;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Empty);
-// Type: System::Empty
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.ISerializable
 namespace System {
 // Is value type: false
-// CS Name: ::System::Empty*
+// CS Name: System.Empty
 class CORDL_TYPE Empty : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) ::System::Empty* Value;
+  __declspec(property(get = getStaticF_Value, put = setStaticF_Value)) ::System::Empty* Value;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3dbcab8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3e1cb64, size 0x68, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Empty* New_ctor();
 
-  /// @brief Method ToString, addr 0x3dbca70, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e1cb1c, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3dbca68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e1cb14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Empty* getStaticF_Value();

@@ -10,8 +10,7 @@ constexpr ::Unity::Properties::PropertyGetter_2<TContainer, TValue>*& Unity::Pro
   return this->___m_Getter;
 }
 template <typename TContainer, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::PropertyGetter_2<TContainer, TValue>*> const&
-Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_m_Getter() const {
+constexpr ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* const& Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_m_Getter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Getter;
 }
@@ -26,8 +25,7 @@ constexpr ::Unity::Properties::PropertySetter_2<TContainer, TValue>*& Unity::Pro
   return this->___m_Setter;
 }
 template <typename TContainer, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::Unity::Properties::PropertySetter_2<TContainer, TValue>*> const&
-Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_m_Setter() const {
+constexpr ::Unity::Properties::PropertySetter_2<TContainer, TValue>* const& Unity::Properties::DelegateProperty_2<TContainer, TValue>::__cordl_internal_get_m_Setter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Setter;
 }
@@ -54,14 +52,6 @@ template <typename TContainer, typename TValue> inline ::StringW Unity::Properti
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DelegateProperty_2<TContainer, TValue>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @param setter: ::Unity::Properties::PropertySetter_2<TContainer,TValue>* (default: nullptr)
-template <typename TContainer, typename TValue>
-inline ::Unity::Properties::DelegateProperty_2<TContainer, TValue>*
-Unity::Properties::DelegateProperty_2<TContainer, TValue>::New_ctor(::StringW name, ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* getter,
-                                                                    ::Unity::Properties::PropertySetter_2<TContainer, TValue>* setter) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::DelegateProperty_2<TContainer, TValue>*>(name, getter, setter));
-}
-/// @param setter: ::Unity::Properties::PropertySetter_2<TContainer,TValue>* (default: nullptr)
 template <typename TContainer, typename TValue>
 inline void Unity::Properties::DelegateProperty_2<TContainer, TValue>::_ctor(::StringW name, ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* getter,
                                                                              ::Unity::Properties::PropertySetter_2<TContainer, TValue>* setter) {
@@ -71,6 +61,12 @@ inline void Unity::Properties::DelegateProperty_2<TContainer, TValue>::_ctor(::S
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Properties::PropertyGetter_2<TContainer, TValue>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Properties::PropertySetter_2<TContainer, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, getter, setter);
+}
+template <typename TContainer, typename TValue>
+inline ::Unity::Properties::DelegateProperty_2<TContainer, TValue>*
+Unity::Properties::DelegateProperty_2<TContainer, TValue>::New_ctor(::StringW name, ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* getter,
+                                                                    ::Unity::Properties::PropertySetter_2<TContainer, TValue>* setter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::DelegateProperty_2<TContainer, TValue>*>(name, getter, setter));
 }
 // Ctor Parameters []
 template <typename TContainer, typename TValue> constexpr ::Unity::Properties::DelegateProperty_2<TContainer, TValue>::DelegateProperty_2() {}

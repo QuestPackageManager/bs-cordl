@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::IntToByteArray)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2609cf8;
+  constexpr static std::size_t addrs = 0x263cfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)(
     ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2609d98;
+  constexpr static std::size_t addrs = 0x263d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)(
     ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, bool, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2609de0;
+  constexpr static std::size_t addrs = 0x263d0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::*)()>(
     &::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::GetPreferences)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2609e34;
+  constexpr static std::size_t addrs = 0x263d120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>::get(),
@@ -72,10 +72,6 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::Sig::Prefer
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, v);
 }
-inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical,
-                                                                                                                        bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>(type, critical, isLongLength, data));
-}
 inline void Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,10 +80,6 @@ inline void Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor(::Org::Boun
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, critical, isLongLength, data);
-}
-inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical,
-                                                                                                                        ::ArrayW<int32_t, ::Array<int32_t>*> preferences) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>(type, critical, preferences));
 }
 inline void Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -101,6 +93,14 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> Org::BouncyCastle::Bcpg::Sig::Prefer
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>::get(),
                                                                              "GetPreferences", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical,
+                                                                                                                        bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>(type, critical, isLongLength, data));
+}
+inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical,
+                                                                                                                        ::ArrayW<int32_t, ::Array<int32_t>*> preferences) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*>(type, critical, preferences));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms::PreferredAlgorithms() {}

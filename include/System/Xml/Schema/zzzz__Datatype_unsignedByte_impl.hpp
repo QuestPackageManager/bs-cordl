@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_unsignedByte::*)()>(
     &::System::Xml::Schema::Datatype_unsignedByte::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434d60c;
+  constexpr static std::size_t addrs = 0x43ae920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_unsignedByte::*)()>(
     &::System::Xml::Schema::Datatype_unsignedByte::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434d664;
+  constexpr static std::size_t addrs = 0x43ae978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_unsignedByte::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_unsignedByte::Compare)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x434d66c;
+  constexpr static std::size_t addrs = 0x43ae980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedByte::*)()>(
     &::System::Xml::Schema::Datatype_unsignedByte::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434d700;
+  constexpr static std::size_t addrs = 0x43aea14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedByte::*)()>(
     &::System::Xml::Schema::Datatype_unsignedByte::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434d758;
+  constexpr static std::size_t addrs = 0x43aea6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,10 +88,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_unsignedByte::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::System::Object*>)>(
+    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_unsignedByte::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_unsignedByte::TryParseValue)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x434d7b0;
+  constexpr static std::size_t addrs = 0x43aeac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_unsignedByte::*)()>(&::System::Xml::Schema::Datatype_unsignedByte::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43431f0;
+  constexpr static std::size_t addrs = 0x43a4504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedByte*>::get(), ".ctor",
@@ -162,18 +162,18 @@ inline ::System::Type* System::Xml::Schema::Datatype_unsignedByte::get_ListValue
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::System::Exception* System::Xml::Schema::Datatype_unsignedByte::TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr,
-                                                                                      ByRef<::System::Object*> typedValue) {
+                                                                                      ::ByRef<::System::Object*> typedValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedByte*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, s, nameTable, nsmgr, typedValue);
-}
-inline ::System::Xml::Schema::Datatype_unsignedByte* System::Xml::Schema::Datatype_unsignedByte::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_unsignedByte*>());
 }
 inline void System::Xml::Schema::Datatype_unsignedByte::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedByte*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_unsignedByte* System::Xml::Schema::Datatype_unsignedByte::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_unsignedByte*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_unsignedByte::Datatype_unsignedByte() {}

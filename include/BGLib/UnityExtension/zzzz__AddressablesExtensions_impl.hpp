@@ -13,57 +13,55 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 template <typename T>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>&
-BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_get_asyncOperationHandle() {
+BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_get_asyncOperationHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncOperationHandle;
 }
 template <typename T>
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> const&
-BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_get_asyncOperationHandle() const {
+BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_get_asyncOperationHandle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncOperationHandle;
 }
 template <typename T>
-constexpr void BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_set_asyncOperationHandle(
+constexpr void BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_set_asyncOperationHandle(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___asyncOperationHandle = value;
 }
-template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_get_taskSource() {
+template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_get_taskSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___taskSource;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const&
-BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_get_taskSource() const {
+constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>* const& BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_get_taskSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___taskSource;
 }
 template <typename T>
-constexpr void BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
+constexpr void BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::__cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___taskSource, value);
 }
-template <typename T> inline ::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>* BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>*>());
-}
-template <typename T> inline void BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::_ctor() {
+template <typename T> inline void BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline void
-BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::_GetAwaiter_g__SetResult_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
+inline void BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::_GetAwaiter_g__SetResult_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> handle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>*>::get(), "<GetAwaiter>g__SetResult|0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>*>::get(), "<GetAwaiter>g__SetResult|0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handle);
 }
+template <typename T> inline ::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>* BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::BGLib::UnityExtension::__AddressablesExtensions____c__DisplayClass3_0_1<T>::__AddressablesExtensions____c__DisplayClass3_0_1() {}
+template <typename T> constexpr ::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>::AddressablesExtensions___c__DisplayClass3_0_1() {}
 template <typename T>
 inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::IList_1<T>*>*
 BGLib::UnityExtension::AddressablesExtensions::LoadContentAsync(::UnityEngine::AddressableAssets::IKeyEvaluator* label) {

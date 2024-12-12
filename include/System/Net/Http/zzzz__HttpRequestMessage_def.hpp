@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpRequestMessage)
@@ -16,9 +17,6 @@ namespace System::Net::Http {
 class HttpMethod;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Uri;
 }
 namespace System {
@@ -30,11 +28,10 @@ class HttpRequestMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::HttpRequestMessage);
-// Type: System.Net.Http::HttpRequestMessage
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::System.Net.Http::HttpRequestMessage*
+// CS Name: System.Net.Http.HttpRequestMessage
 class CORDL_TYPE HttpRequestMessage : public ::System::Object {
 public:
   // Declarations
@@ -72,52 +69,52 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x41b78a0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4218bb4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x41b78b0, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4218bc4, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method IsAllowedAbsoluteUri, addr 0x41b7754, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedAbsoluteUri, addr 0x4218a68, size 0x14c, virtual false, abstract: false, final false
   static inline bool IsAllowedAbsoluteUri(::System::Uri* uri);
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor();
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method SetIsUsed, addr 0x41b4e40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetIsUsed, addr 0x4216154, size 0x1c, virtual false, abstract: false, final false
   inline bool SetIsUsed();
 
-  /// @brief Method ToString, addr 0x41b78e4, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4218bf8, size 0x280, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get__Content_k__BackingField();
+  constexpr ::System::Net::Http::HttpContent* const& __cordl_internal_get__Content_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __cordl_internal_get__Content_k__BackingField() const;
+  constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get__Content_k__BackingField();
 
   constexpr bool const& __cordl_internal_get_disposed() const;
 
   constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
+  constexpr ::System::Net::Http::Headers::HttpRequestHeaders* const& __cordl_internal_get_headers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
+  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
 
   constexpr bool const& __cordl_internal_get_is_used() const;
 
   constexpr bool& __cordl_internal_get_is_used();
 
+  constexpr ::System::Net::Http::HttpMethod* const& __cordl_internal_get_method() const;
+
   constexpr ::System::Net::Http::HttpMethod*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMethod*> const& __cordl_internal_get_method() const;
+  constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
 
   constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
+  constexpr ::System::Version* const& __cordl_internal_get_version() const;
 
   constexpr ::System::Version*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
   constexpr void __cordl_internal_set__Content_k__BackingField(::System::Net::Http::HttpContent* value);
 
@@ -133,37 +130,37 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x41b758c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42188a0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x41b4b08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4215e1c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method get_Content, addr 0x41b76d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42189e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method get_Headers, addr 0x41b1638, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x421294c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
 
-  /// @brief Method get_Method, addr 0x41b7744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x4218a58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpMethod* get_Method();
 
-  /// @brief Method get_RequestUri, addr 0x41b774c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestUri, addr 0x4218a60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method get_Version, addr 0x41b15d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x42128e8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Content, addr 0x41b76dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42189f0, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method set_Method, addr 0x41b7628, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_Method, addr 0x421893c, size 0xac, virtual false, abstract: false, final false
   inline void set_Method(::System::Net::Http::HttpMethod* value);
 
-  /// @brief Method set_RequestUri, addr 0x41b1ed8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_RequestUri, addr 0x42131ec, size 0xe0, virtual false, abstract: false, final false
   inline void set_RequestUri(::System::Uri* value);
 
 protected:
@@ -179,6 +176,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpRequestMessage(HttpRequestMessage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16689 };
 
   /// @brief Field headers, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::Headers::HttpRequestHeaders* ___headers;
@@ -201,14 +201,9 @@ public:
   /// @brief Field <Content>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ____Content_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16651 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpRequestMessage, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::HttpRequestMessage, ___headers) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::HttpRequestMessage, ___method) == 0x18, "Offset mismatch!");
@@ -222,6 +217,8 @@ static_assert(offsetof(::System::Net::Http::HttpRequestMessage, ___is_used) == 0
 static_assert(offsetof(::System::Net::Http::HttpRequestMessage, ___disposed) == 0x31, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::HttpRequestMessage, ____Content_k__BackingField) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpRequestMessage, 0x40>, "Size mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpRequestMessage);

@@ -15,11 +15,10 @@ class BasicLevelParamsPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BasicLevelParamsPanel);
-// Type: ::BasicLevelParamsPanel
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BasicLevelParamsPanel*
+// CS Name: BasicLevelParamsPanel
 class CORDL_TYPE BasicLevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__durationText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa0184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afd618, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bpm, addr 0x3aa013c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bpm, addr 0x3afd5d0, size 0x48, virtual false, abstract: false, final false
   inline void set_bpm(float_t value);
 
-  /// @brief Method set_duration, addr 0x3aa0108, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3afd59c, size 0x34, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasicLevelParamsPanel(BasicLevelParamsPanel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4964 };
+
   /// @brief Field _durationText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____durationText;
 
   /// @brief Field _bpmText, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____bpmText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4944 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicLevelParamsPanel, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BasicLevelParamsPanel, ____durationText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BasicLevelParamsPanel, ____bpmText) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicLevelParamsPanel, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicLevelParamsPanel);

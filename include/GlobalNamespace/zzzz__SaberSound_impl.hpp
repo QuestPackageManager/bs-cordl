@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSound::*)()>(&::GlobalNamespace::SaberSound::Start)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b86370;
+  constexpr static std::size_t addrs = 0x3be7bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSound::*)()>(&::GlobalNamespace::SaberSound::Update)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3b8639c;
+  constexpr static std::size_t addrs = 0x3be7bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), "Update",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSound::*)()>(&::GlobalNamespace::SaberSound::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b86568;
+  constexpr static std::size_t addrs = 0x3be7db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), ".ctor",
@@ -73,7 +73,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::SaberSound::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitchBySpeedCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::SaberSound::__cordl_internal_get__pitchBySpeedCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::SaberSound::__cordl_internal_get__pitchBySpeedCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pitchBySpeedCurve;
 }
@@ -85,7 +85,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::SaberSound::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gainBySpeedCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::SaberSound::__cordl_internal_get__gainBySpeedCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::SaberSound::__cordl_internal_get__gainBySpeedCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gainBySpeedCurve;
 }
@@ -175,13 +175,13 @@ inline void GlobalNamespace::SaberSound::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SaberSound* GlobalNamespace::SaberSound::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberSound*>());
-}
 inline void GlobalNamespace::SaberSound::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSound*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SaberSound* GlobalNamespace::SaberSound::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberSound*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberSound::SaberSound() {}

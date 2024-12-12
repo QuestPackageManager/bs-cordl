@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)(::UnityEngine::UI::Image*)>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::set_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39912bc;
+  constexpr static std::size_t addrs = 0x39e7e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Image> (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39912c4;
+  constexpr static std::size_t addrs = 0x39e7e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTextWithIconTableCell*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)(::StringW)>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::set_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39912cc;
+  constexpr static std::size_t addrs = 0x39e7e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(
     &::GlobalNamespace::SimpleTextWithIconTableCell::get_text)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39912f0;
+  constexpr static std::size_t addrs = 0x39e7e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTextWithIconTableCell*>::get(),
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleTextWithIconTableCell::*)()>(&::GlobalNamespace::SimpleTextWithIconTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3991314;
+  constexpr static std::size_t addrs = 0x39e7e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTextWithIconTableCell*>::get(), ".ctor",
@@ -121,13 +121,13 @@ inline ::StringW GlobalNamespace::SimpleTextWithIconTableCell::get_text() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SimpleTextWithIconTableCell* GlobalNamespace::SimpleTextWithIconTableCell::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleTextWithIconTableCell*>());
-}
 inline void GlobalNamespace::SimpleTextWithIconTableCell::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTextWithIconTableCell*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SimpleTextWithIconTableCell* GlobalNamespace::SimpleTextWithIconTableCell::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleTextWithIconTableCell*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTextWithIconTableCell::SimpleTextWithIconTableCell() {}

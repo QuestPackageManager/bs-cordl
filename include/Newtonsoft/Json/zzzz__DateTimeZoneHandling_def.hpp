@@ -12,11 +12,10 @@ struct DateTimeZoneHandling;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::DateTimeZoneHandling);
-// Type: Newtonsoft.Json::DateTimeZoneHandling
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::Newtonsoft.Json::DateTimeZoneHandling
+// CS Name: Newtonsoft.Json.DateTimeZoneHandling
 struct CORDL_TYPE DateTimeZoneHandling {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DateTimeZoneHandling(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Local value: static_cast<int32_t>(0x0)
+  /// @brief Field Local value: I32(0)
   static ::Newtonsoft::Json::DateTimeZoneHandling const Local;
 
-  /// @brief Field RoundtripKind value: static_cast<int32_t>(0x3)
+  /// @brief Field RoundtripKind value: I32(3)
   static ::Newtonsoft::Json::DateTimeZoneHandling const RoundtripKind;
 
-  /// @brief Field Unspecified value: static_cast<int32_t>(0x2)
+  /// @brief Field Unspecified value: I32(2)
   static ::Newtonsoft::Json::DateTimeZoneHandling const Unspecified;
 
-  /// @brief Field Utc value: static_cast<int32_t>(0x1)
+  /// @brief Field Utc value: I32(1)
   static ::Newtonsoft::Json::DateTimeZoneHandling const Utc;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10046 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::DateTimeZoneHandling, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::DateTimeZoneHandling, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::DateTimeZoneHandling, 0x4>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::DateTimeZoneHandling, "Newtonsoft.Json", "DateTimeZoneHandling");

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MonoAsyncCall)
 namespace System {
 class Object;
@@ -16,11 +15,10 @@ class MonoAsyncCall;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MonoAsyncCall);
-// Type: System::MonoAsyncCall
-// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::MonoAsyncCall*
+// CS Name: System.MonoAsyncCall
 class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
   // Declarations
@@ -48,25 +46,25 @@ public:
 
   constexpr ::System::IntPtr& __cordl_internal_get_cb_method();
 
+  constexpr ::System::Object* const& __cordl_internal_get_cb_target() const;
+
   constexpr ::System::Object*& __cordl_internal_get_cb_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_cb_target() const;
+  constexpr ::System::Object* const& __cordl_internal_get_msg() const;
 
   constexpr ::System::Object*& __cordl_internal_get_msg();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_msg() const;
+  constexpr ::System::Object* const& __cordl_internal_get_out_args() const;
 
   constexpr ::System::Object*& __cordl_internal_get_out_args();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_out_args() const;
+  constexpr ::System::Object* const& __cordl_internal_get_res() const;
 
   constexpr ::System::Object*& __cordl_internal_get_res();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_res() const;
+  constexpr ::System::Object* const& __cordl_internal_get_state() const;
 
   constexpr ::System::Object*& __cordl_internal_get_state();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
   constexpr void __cordl_internal_set_cb_method(::System::IntPtr value);
 
@@ -80,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3dd5514, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e355c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,6 +94,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoAsyncCall", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoAsyncCall(MonoAsyncCall const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2608 };
 
   /// @brief Field msg, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___msg;
@@ -115,14 +116,9 @@ public:
   /// @brief Field out_args, offset: 0x38, size: 0x8, def value: None
   ::System::Object* ___out_args;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2608 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::MonoAsyncCall, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::MonoAsyncCall, ___msg) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::MonoAsyncCall, ___cb_method) == 0x18, "Offset mismatch!");
@@ -134,6 +130,8 @@ static_assert(offsetof(::System::MonoAsyncCall, ___state) == 0x28, "Offset misma
 static_assert(offsetof(::System::MonoAsyncCall, ___res) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::MonoAsyncCall, ___out_args) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::MonoAsyncCall, 0x40>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MonoAsyncCall);

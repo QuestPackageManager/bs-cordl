@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)(::System::Action*)>(
     &::GlobalNamespace::GameServerListDetailTableCell::add_joinServerButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b962ec;
+  constexpr static std::size_t addrs = 0x3bf83f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)(::System::Action*)>(
     &::GlobalNamespace::GameServerListDetailTableCell::remove_joinServerButtonWasPressedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b96388;
+  constexpr static std::size_t addrs = 0x3bf848c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::Start)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b96424;
+  constexpr static std::size_t addrs = 0x3bf8528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b964c8;
+  constexpr static std::size_t addrs = 0x3bf85cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListDetailTableCell::*)()>(
     &::GlobalNamespace::GameServerListDetailTableCell::_Start_b__5_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b96528;
+  constexpr static std::size_t addrs = 0x3bf862c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(),
@@ -95,7 +95,7 @@ constexpr ::System::Action*& GlobalNamespace::GameServerListDetailTableCell::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joinServerButtonWasPressedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::GameServerListDetailTableCell::__cordl_internal_get_joinServerButtonWasPressedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::GameServerListDetailTableCell::__cordl_internal_get_joinServerButtonWasPressedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___joinServerButtonWasPressedEvent;
 }
@@ -107,7 +107,7 @@ constexpr ::HMUI::ButtonBinder*& GlobalNamespace::GameServerListDetailTableCell:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::GameServerListDetailTableCell::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& GlobalNamespace::GameServerListDetailTableCell::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
@@ -132,9 +132,6 @@ inline void GlobalNamespace::GameServerListDetailTableCell::Start() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameServerListDetailTableCell* GlobalNamespace::GameServerListDetailTableCell::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerListDetailTableCell*>());
-}
 inline void GlobalNamespace::GameServerListDetailTableCell::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -144,6 +141,9 @@ inline void GlobalNamespace::GameServerListDetailTableCell::_Start_b__5_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListDetailTableCell*>::get(),
                                                                              "<Start>b__5_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GameServerListDetailTableCell* GlobalNamespace::GameServerListDetailTableCell::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerListDetailTableCell*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerListDetailTableCell::GameServerListDetailTableCell() {}

@@ -4,87 +4,86 @@
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
-//  Writing Method size for method: ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration._ctor
+//  Writing Method size for method: ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::*)()>(
-    &::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::*)()>(
+    &::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41ea300;
+  constexpr static std::size_t addrs = 0x424b614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_prefix() {
+constexpr ::StringW& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_prefix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
-constexpr ::StringW const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_prefix() const {
+constexpr ::StringW const& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_prefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefix;
 }
-constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_set_prefix(::StringW value) {
+constexpr void System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_set_prefix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Linq::XNamespace*& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_ns() {
+constexpr ::System::Xml::Linq::XNamespace*& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_ns() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_ns() const {
+constexpr ::System::Xml::Linq::XNamespace* const& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_ns() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ns;
 }
-constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_set_ns(::System::Xml::Linq::XNamespace* value) {
+constexpr void System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_set_ns(::System::Xml::Linq::XNamespace* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ns)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_scope() {
+constexpr int32_t& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_scope() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
-constexpr int32_t const& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_scope() const {
+constexpr int32_t const& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_scope() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scope;
 }
-constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_set_scope(int32_t value) {
+constexpr void System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_set_scope(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scope = value;
 }
-constexpr ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*& System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_prev() {
+constexpr ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_prev() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*> const&
-System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_get_prev() const {
+constexpr ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* const& System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_get_prev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
-constexpr void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__cordl_internal_set_prev(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* value) {
+constexpr void System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::__cordl_internal_set_prev(::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___prev)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*>());
-}
-inline void System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::_ctor() {
+inline void System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*>());
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::__NamespaceResolver__NamespaceDeclaration() {}
+constexpr ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration::NamespaceResolver_NamespaceDeclaration() {}
 //  Writing Method size for method: ::System::Xml::Linq::NamespaceResolver.PushScope
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PushScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41ea1f4;
+  constexpr static std::size_t addrs = 0x424b508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver>::get(), "PushScope",
@@ -97,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PopScope)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x41ea2a0;
+  constexpr static std::size_t addrs = 0x424b5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver>::get(), "PopScope",
@@ -111,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::NamespaceResolver::Add)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x41ea204;
+  constexpr static std::size_t addrs = 0x424b518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::NamespaceResolver::AddFirst)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x41ea088;
+  constexpr static std::size_t addrs = 0x424b39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::NamespaceResolver::*)(::System::Xml::Linq::XNamespace*, bool)>(
     &::System::Xml::Linq::NamespaceResolver::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x41e9fac;
+  constexpr static std::size_t addrs = 0x424b2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,10 +184,10 @@ inline ::StringW System::Xml::Linq::NamespaceResolver::GetPrefixOfNamespace(::Sy
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, ns, allowDefaultNamespace);
 }
 // Ctor Parameters [CppParam { name: "_scope", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_declaration", ty:
-// "::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_rover", ty:
-// "::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::System::Xml::Linq::NamespaceResolver::NamespaceResolver(int32_t _scope, ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* _declaration,
-                                                                    ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* _rover) noexcept {
+// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_rover", ty:
+// "::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration*", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::Linq::NamespaceResolver::NamespaceResolver(int32_t _scope, ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _declaration,
+                                                                    ::System::Xml::Linq::NamespaceResolver_NamespaceDeclaration* _rover) noexcept {
   this->_scope = _scope;
   this->_declaration = _declaration;
   this->_rover = _rover;

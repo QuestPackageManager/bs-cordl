@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CipherFactory)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -28,27 +27,26 @@ class CipherFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::CipherFactory);
-// Type: Org.BouncyCastle.Crypto.Utilities::CipherFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Utilities::CipherFactory*
+// CS Name: Org.BouncyCastle.Crypto.Utilities.CipherFactory
 class CORDL_TYPE CipherFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rc2Ekb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
+  __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
 
-  /// @brief Method CreateCipher, addr 0x2410230, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x244351c, size 0x38c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method CreateContentCipher, addr 0x240fae4, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x2442dd0, size 0x74c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x240fadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2442dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Ekb();

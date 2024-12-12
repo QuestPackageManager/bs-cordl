@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsBlockCipher)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
@@ -31,11 +28,10 @@ class TlsBlockCipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsBlockCipher
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCipher, System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsBlockCipher*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsBlockCipher
 class CORDL_TYPE TlsBlockCipher : public ::System::Object {
 public:
   // Declarations
@@ -70,51 +66,51 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method CheckPaddingConstantTime, addr 0x23eb398, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CheckPaddingConstantTime, addr 0x241e684, size 0x1a8, virtual true, abstract: false, final false
   inline int32_t CheckPaddingConstantTime(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t blockSize, int32_t macSize);
 
-  /// @brief Method ChooseExtraPadBlocks, addr 0x23eb540, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ChooseExtraPadBlocks, addr 0x241e82c, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ChooseExtraPadBlocks(::Org::BouncyCastle::Security::SecureRandom* r, int32_t max);
 
-  /// @brief Method DecodeCiphertext, addr 0x23eaeec, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x241e1d8, size 0x4ac, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x23ea89c, size 0x650, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x241db88, size 0x650, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x23ea79c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x241da88, size 0x100, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method LowestBitSet, addr 0x23eb5e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method LowestBitSet, addr 0x241e8d4, size 0x28, virtual true, abstract: false, final false
   inline int32_t LowestBitSet(int32_t x);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
                                                                            ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                            ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize);
 
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& __cordl_internal_get_context() const;
+
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_decryptCipher() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_decryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_decryptCipher() const;
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& __cordl_internal_get_encryptCipher() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_encryptCipher();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_encryptCipher() const;
 
   constexpr bool const& __cordl_internal_get_encryptThenMac() const;
 
   constexpr bool& __cordl_internal_get_encryptThenMac();
 
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac* const& __cordl_internal_get_mReadMac() const;
+
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_mReadMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_mReadMac() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac* const& __cordl_internal_get_mWriteMac() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_mWriteMac();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_mWriteMac() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_randomData() const;
 
@@ -140,14 +136,14 @@ public:
 
   constexpr void __cordl_internal_set_useExplicitIV(bool value);
 
-  /// @brief Method .ctor, addr 0x23e9c44, size 0xb58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x241cf30, size 0xb58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize);
 
-  /// @brief Method get_ReadMac, addr 0x23e9c3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMac, addr 0x241cf28, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_ReadMac();
 
-  /// @brief Method get_WriteMac, addr 0x23e9c34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMac, addr 0x241cf20, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_WriteMac();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
@@ -166,6 +162,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TlsBlockCipher", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TlsBlockCipher(TlsBlockCipher const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1288 };
 
   /// @brief Field context, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsContext* ___context;
@@ -191,14 +190,9 @@ public:
   /// @brief Field mReadMac, offset: 0x40, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsMac* ___mReadMac;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1288 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, ___context) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, ___randomData) == 0x18, "Offset mismatch!");
@@ -214,6 +208,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, ___decr
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, ___mWriteMac) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, ___mReadMac) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher, 0x48>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher);

@@ -5,49 +5,47 @@
 #include "UnityEngine/UIElements/zzzz__PopupField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGenericMenu_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PopupField_1_def.hpp"
-template <typename T> constexpr T& UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_get_item() {
+template <typename T> constexpr T& UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_get_item() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___item;
 }
-template <typename T> constexpr T const& UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_get_item() const {
+template <typename T> constexpr T const& UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_get_item() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___item;
 }
-template <typename T> constexpr void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_set_item(T value) {
+template <typename T> constexpr void UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_set_item(T value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___item, value);
 }
-template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1<T>*& UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1<T>*& UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PopupField_1<T>*> const&
-UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1<T>* const& UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__cordl_internal_set___4__this(::UnityEngine::UIElements::PopupField_1<T>* value) {
+template <typename T> constexpr void UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::__cordl_internal_set___4__this(::UnityEngine::UIElements::PopupField_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
-template <typename T> inline ::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>* UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>*>());
-}
-template <typename T> inline void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::_ctor() {
+template <typename T> inline void UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::_AddMenuItems_b__0() {
+template <typename T> inline void UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::_AddMenuItems_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>*>::get(),
-                                               "<AddMenuItems>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>*>::get(), "<AddMenuItems>b__0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>* UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::__PopupField_1____c__DisplayClass26_0<T>::__PopupField_1____c__DisplayClass26_0() {}
+template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1___c__DisplayClass26_0<T>::PopupField_1___c__DisplayClass26_0() {}
 template <typename T> constexpr int32_t& UnityEngine::UIElements::PopupField_1<T>::__cordl_internal_get_m_Index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Index;
@@ -112,11 +110,6 @@ template <typename T> inline void UnityEngine::UIElements::PopupField_1<T>::set_
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-/// @param label: ::StringW (default: nullptr)
-template <typename T> inline ::UnityEngine::UIElements::PopupField_1<T>* UnityEngine::UIElements::PopupField_1<T>::New_ctor(::StringW label) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PopupField_1<T>*>(label));
-}
-/// @param label: ::StringW (default: nullptr)
 template <typename T> inline void UnityEngine::UIElements::PopupField_1<T>::_ctor(::StringW label) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupField_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -133,6 +126,9 @@ template <typename T> inline void UnityEngine::UIElements::PopupField_1<T>::Chan
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupField_1<T>*>::get(), "ChangeValueFromMenu",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, menuItem);
+}
+template <typename T> inline ::UnityEngine::UIElements::PopupField_1<T>* UnityEngine::UIElements::PopupField_1<T>::New_ctor(::StringW label) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PopupField_1<T>*>(label));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PopupField_1<T>::PopupField_1() {}

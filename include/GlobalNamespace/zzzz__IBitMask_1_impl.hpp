@@ -1,15 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IBitMask_1.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-/// @brief Convert operator to "::System::IEquatable_1<T>"
-template <typename T> constexpr GlobalNamespace::IBitMask_1<T>::operator ::System::IEquatable_1<T>*() noexcept {
-  return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<T>"
-template <typename T> constexpr ::System::IEquatable_1<T>* GlobalNamespace::IBitMask_1<T>::i___System__IEquatable_1_T_() noexcept {
-  return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
-}
 template <typename T> inline int32_t GlobalNamespace::IBitMask_1<T>::get_bitCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBitMask_1<T>*>::get(), 0)));
@@ -24,4 +16,12 @@ template <typename T> inline uint64_t GlobalNamespace::IBitMask_1<T>::GetBits(in
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBitMask_1<T>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method, offset, count);
+}
+/// @brief Convert operator to "::System::IEquatable_1<T>"
+template <typename T> constexpr GlobalNamespace::IBitMask_1<T>::operator ::System::IEquatable_1<T>*() noexcept {
+  return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<T>"
+template <typename T> constexpr ::System::IEquatable_1<T>* GlobalNamespace::IBitMask_1<T>::i___System__IEquatable_1_T_() noexcept {
+  return static_cast<::System::IEquatable_1<T>*>(static_cast<void*>(this));
 }

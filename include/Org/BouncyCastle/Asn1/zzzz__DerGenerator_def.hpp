@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerGenerator)
 namespace System::IO {
@@ -16,11 +15,10 @@ class DerGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerGenerator);
-// Type: Org.BouncyCastle.Asn1::DerGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Generator
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::DerGenerator*
+// CS Name: Org.BouncyCastle.Asn1.DerGenerator
 class CORDL_TYPE DerGenerator : public ::Org::BouncyCastle::Asn1::Asn1Generator {
 public:
   // Declarations
@@ -37,16 +35,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method WriteDerEncoded, addr 0x2604874, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2637b60, size 0x34, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStr, int32_t tag, ::System::IO::Stream* inStr);
 
-  /// @brief Method WriteDerEncoded, addr 0x2604734, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2637a20, size 0x60, virtual false, abstract: false, final false
   static inline void WriteDerEncoded(::System::IO::Stream* outStream, int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteDerEncoded, addr 0x2604794, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WriteDerEncoded, addr 0x2637a80, size 0xe0, virtual false, abstract: false, final false
   inline void WriteDerEncoded(int32_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method WriteLength, addr 0x2604680, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method WriteLength, addr 0x263796c, size 0xb4, virtual false, abstract: false, final false
   static inline void WriteLength(::System::IO::Stream* outStr, int32_t length);
 
   constexpr bool const& __cordl_internal_get__isExplicit() const;
@@ -67,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set__tagged(bool value);
 
-  /// @brief Method .ctor, addr 0x2604608, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26378f4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x2604634, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2637920, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:
@@ -87,6 +85,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DerGenerator(DerGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 508 };
+
   /// @brief Field _tagged, offset: 0x18, size: 0x1, def value: None
   bool ____tagged;
 
@@ -96,19 +97,16 @@ public:
   /// @brief Field _tagNo, offset: 0x1c, size: 0x4, def value: None
   int32_t ____tagNo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 508 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerGenerator, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____tagged) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____isExplicit) == 0x19, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::DerGenerator, ____tagNo) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::DerGenerator, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::DerGenerator);

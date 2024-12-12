@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractECLookupTable)
-namespace Org::BouncyCastle::Math::EC {
-class ECLookupTable;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -18,11 +16,10 @@ class AbstractECLookupTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractECLookupTable);
-// Type: Org.BouncyCastle.Math.EC::AbstractECLookupTable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.ECLookupTable, System.Object
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::AbstractECLookupTable*
+// CS Name: Org.BouncyCastle.Math.EC.AbstractECLookupTable
 class CORDL_TYPE AbstractECLookupTable : public ::System::Object {
 public:
   // Declarations
@@ -31,18 +28,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECLookupTable"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECLookupTable*() noexcept;
 
-  /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Lookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x241ad6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x244e058, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x241a998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x244dc84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Size, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECLookupTable"

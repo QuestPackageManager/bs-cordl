@@ -12,90 +12,90 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::*)()>(
-    &::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::*)()>(
+    &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bae668;
+  constexpr static std::size_t addrs = 0x3c11084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c._SetData_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c._SetData_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::*)(
-    ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(&::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::_SetData_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::*)(
+    ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_SetData_b__10_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3bae670;
+  constexpr static std::size_t addrs = 0x3c1108c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get(),
                                                  "<SetData>b__10_0", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::setStaticF___9(::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get>(
-      std::forward<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>(value));
+inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::setStaticF___9(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get>(
+      std::forward<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>(value));
 }
-inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get>();
+inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c* GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get>();
 }
-inline void GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::setStaticF___9__10_0(::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::setStaticF___9__10_0(::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
   ::cordl_internals::setStaticField<::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get>(
       std::forward<::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>(value));
 }
-inline ::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::getStaticF___9__10_0() {
+inline ::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::getStaticF___9__10_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get>();
 }
-inline ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c* GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>());
-}
-inline void GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::_ctor() {
+inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::_SetData_b__10_0(::GlobalNamespace::BeatmapCharacteristicSO* a, ::GlobalNamespace::BeatmapCharacteristicSO* b) {
+inline int32_t GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_SetData_b__10_0(::GlobalNamespace::BeatmapCharacteristicSO* a, ::GlobalNamespace::BeatmapCharacteristicSO* b) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>::get(),
                                                "<SetData>b__10_0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, a, b);
 }
+inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c* GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapCharacteristicSegmentedControlController____c::__BeatmapCharacteristicSegmentedControlController____c() {}
+constexpr ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::BeatmapCharacteristicSegmentedControlController___c() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController.add_didSelectBeatmapCharacteristicEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+    ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::add_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3badb24;
+  constexpr static std::size_t addrs = 0x3c10540;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "add_didSelectBeatmapCharacteristicEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(),
+                                                 "add_didSelectBeatmapCharacteristicEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -103,17 +103,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
+    ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::remove_didSelectBeatmapCharacteristicEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3badbd4;
+  constexpr static std::size_t addrs = 0x3c105f0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "remove_didSelectBeatmapCharacteristicEvent",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(),
+                                                 "remove_didSelectBeatmapCharacteristicEvent", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                     ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (
     ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::get_selectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3badc84;
+  constexpr static std::size_t addrs = 0x3c106a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3badc8c;
+  constexpr static std::size_t addrs = 0x3c106a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3badd1c;
+  constexpr static std::size_t addrs = 0x3c10738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,18 +166,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, ::GlobalNamespace::BeatmapCharacteristicSO*,
-    ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData)> {
+    ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristicSO*>*, ::GlobalNamespace::BeatmapCharacteristicSO*,
+    ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>*)>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData)> {
   constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x3baddec;
+  constexpr static std::size_t addrs = 0x3c10808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -187,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::HandleBeatmapCharacteristicSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bae504;
+  constexpr static std::size_t addrs = 0x3c10f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bae58c;
+  constexpr static std::size_t addrs = 0x3c10fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,19 +224,18 @@ constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____segmentedControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*&
+constexpr ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__cordl_internal_get_didSelectBeatmapCharacteristicEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__cordl_internal_get_didSelectBeatmapCharacteristicEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectBeatmapCharacteristicEvent;
 }
 constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__cordl_internal_set_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+    ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectBeatmapCharacteristicEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -258,7 +256,7 @@ GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentlyAvailableBeatmapCharacteristics;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const&
 GlobalNamespace::BeatmapCharacteristicSegmentedControlController::__cordl_internal_get__currentlyAvailableBeatmapCharacteristics() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentlyAvailableBeatmapCharacteristics;
@@ -270,21 +268,21 @@ constexpr void GlobalNamespace::BeatmapCharacteristicSegmentedControlController:
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::add_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "add_didSelectBeatmapCharacteristicEvent",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+    ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(),
+                                               "add_didSelectBeatmapCharacteristicEvent", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                   ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::remove_didSelectBeatmapCharacteristicEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "remove_didSelectBeatmapCharacteristicEvent",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+    ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(),
+                                               "remove_didSelectBeatmapCharacteristicEvent", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
+                                                   ::System::Action_2<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, ::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GlobalNamespace::BeatmapCharacteristicSegmentedControlController::get_selectedBeatmapCharacteristic() {
@@ -306,15 +304,14 @@ inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::On
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void
-GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* beatmapCharacteristics,
+GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristicSO*>* beatmapCharacteristics,
                                                                           ::GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic,
-                                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics) {
+                                                                          ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>* notAllowedCharacteristics) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapCharacteristics, selectedBeatmapCharacteristic, notAllowedCharacteristics);
 }
 inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::HandleBeatmapCharacteristicSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx) {
@@ -325,14 +322,14 @@ inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::Ha
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, segmentedControl, cellIdx);
 }
-inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* GlobalNamespace::BeatmapCharacteristicSegmentedControlController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>());
-}
 inline void GlobalNamespace::BeatmapCharacteristicSegmentedControlController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* GlobalNamespace::BeatmapCharacteristicSegmentedControlController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::BeatmapCharacteristicSegmentedControlController() {}

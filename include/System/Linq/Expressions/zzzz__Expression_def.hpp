@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Expression)
@@ -48,6 +46,87 @@ class ExpressionVisitor;
 }
 namespace System::Linq::Expressions {
 template <typename TDelegate> class Expression_1;
+}
+namespace System::Linq::Expressions {
+class Expression_BinaryExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_BlockExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_CatchBlockProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_ConditionalExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_ConstantExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_DebugInfoExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_DefaultExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_ExtensionInfo;
+}
+namespace System::Linq::Expressions {
+class Expression_GotoExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_IndexExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_InvocationExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_LabelExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_LambdaExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_ListInitExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_LoopExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_MemberExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_MemberInitExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_MethodCallExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_NewArrayExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_NewExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_ParameterExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_RuntimeVariablesExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_SwitchCaseProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_SwitchExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_TryExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_TypeBinaryExpressionProxy;
+}
+namespace System::Linq::Expressions {
+class Expression_UnaryExpressionProxy;
 }
 namespace System::Linq::Expressions {
 struct GotoExpressionKind;
@@ -94,87 +173,6 @@ class TypeBinaryExpression;
 namespace System::Linq::Expressions {
 class UnaryExpression;
 }
-namespace System::Linq::Expressions {
-class __Expression__BinaryExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__BlockExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__CatchBlockProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__ConditionalExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__ConstantExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__DebugInfoExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__DefaultExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__ExtensionInfo;
-}
-namespace System::Linq::Expressions {
-class __Expression__GotoExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__IndexExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__InvocationExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__LabelExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__LambdaExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__ListInitExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__LoopExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__MemberExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__MemberInitExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__MethodCallExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__NewArrayExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__NewExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__ParameterExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__RuntimeVariablesExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__SwitchCaseProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__SwitchExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__TryExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__TypeBinaryExpressionProxy;
-}
-namespace System::Linq::Expressions {
-class __Expression__UnaryExpressionProxy;
-}
 namespace System::Reflection {
 struct BindingFlags;
 }
@@ -213,927 +211,900 @@ namespace System::Linq::Expressions {
 class Expression;
 }
 namespace System::Linq::Expressions {
-class __Expression__BinaryExpressionProxy;
+class Expression_BinaryExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__BlockExpressionProxy;
+class Expression_BlockExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__CatchBlockProxy;
+class Expression_CatchBlockProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__ConditionalExpressionProxy;
+class Expression_ConditionalExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__ConstantExpressionProxy;
+class Expression_ConstantExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__DebugInfoExpressionProxy;
+class Expression_DebugInfoExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__DefaultExpressionProxy;
+class Expression_DefaultExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__ExtensionInfo;
+class Expression_ExtensionInfo;
 }
 namespace System::Linq::Expressions {
-class __Expression__GotoExpressionProxy;
+class Expression_GotoExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__IndexExpressionProxy;
+class Expression_IndexExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__InvocationExpressionProxy;
+class Expression_InvocationExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__LabelExpressionProxy;
+class Expression_LabelExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__LambdaExpressionProxy;
+class Expression_LambdaExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__ListInitExpressionProxy;
+class Expression_ListInitExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__LoopExpressionProxy;
+class Expression_LoopExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__MemberExpressionProxy;
+class Expression_MemberExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__MemberInitExpressionProxy;
+class Expression_MemberInitExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__MethodCallExpressionProxy;
+class Expression_MethodCallExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__NewArrayExpressionProxy;
+class Expression_NewArrayExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__NewExpressionProxy;
+class Expression_NewExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__ParameterExpressionProxy;
+class Expression_ParameterExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__RuntimeVariablesExpressionProxy;
+class Expression_RuntimeVariablesExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__SwitchCaseProxy;
+class Expression_SwitchCaseProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__SwitchExpressionProxy;
+class Expression_SwitchExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__TryExpressionProxy;
+class Expression_TryExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__TypeBinaryExpressionProxy;
+class Expression_TypeBinaryExpressionProxy;
 }
 namespace System::Linq::Expressions {
-class __Expression__UnaryExpressionProxy;
+class Expression_UnaryExpressionProxy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Expression);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__BinaryExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__BlockExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__CatchBlockProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__ConditionalExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__ConstantExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__DebugInfoExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__DefaultExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__ExtensionInfo);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__GotoExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__IndexExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__InvocationExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__LabelExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__LambdaExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__ListInitExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__LoopExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__MemberExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__MemberInitExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__MethodCallExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__NewArrayExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__NewExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__ParameterExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__RuntimeVariablesExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__SwitchCaseProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__SwitchExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__TryExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__TypeBinaryExpressionProxy);
-MARK_REF_PTR_T(::System::Linq::Expressions::__Expression__UnaryExpressionProxy);
-// Type: ::BinaryExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_BinaryExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_BlockExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_CatchBlockProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_ConditionalExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_ConstantExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_DebugInfoExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_DefaultExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_ExtensionInfo);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_GotoExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_IndexExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_InvocationExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_LabelExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_LambdaExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_ListInitExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_LoopExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_MemberExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_MemberInitExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_MethodCallExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_NewArrayExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_NewExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_ParameterExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_RuntimeVariablesExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_SwitchCaseProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_SwitchExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_TryExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_TypeBinaryExpressionProxy);
+MARK_REF_PTR_T(::System::Linq::Expressions::Expression_UnaryExpressionProxy);
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::BinaryExpressionProxy*
-class CORDL_TYPE __Expression__BinaryExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/BinaryExpressionProxy
+class CORDL_TYPE Expression_BinaryExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__BinaryExpressionProxy();
+  constexpr Expression_BinaryExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__BinaryExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_BinaryExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__BinaryExpressionProxy(__Expression__BinaryExpressionProxy&&) = delete;
+  Expression_BinaryExpressionProxy(Expression_BinaryExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__BinaryExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_BinaryExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__BinaryExpressionProxy(__Expression__BinaryExpressionProxy const&) = delete;
+  Expression_BinaryExpressionProxy(Expression_BinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13614 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__BinaryExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_BinaryExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::BlockExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::BlockExpressionProxy*
-class CORDL_TYPE __Expression__BlockExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/BlockExpressionProxy
+class CORDL_TYPE Expression_BlockExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__BlockExpressionProxy();
+  constexpr Expression_BlockExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__BlockExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_BlockExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__BlockExpressionProxy(__Expression__BlockExpressionProxy&&) = delete;
+  Expression_BlockExpressionProxy(Expression_BlockExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__BlockExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_BlockExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__BlockExpressionProxy(__Expression__BlockExpressionProxy const&) = delete;
+  Expression_BlockExpressionProxy(Expression_BlockExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__BlockExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_BlockExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::CatchBlockProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::CatchBlockProxy*
-class CORDL_TYPE __Expression__CatchBlockProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/CatchBlockProxy
+class CORDL_TYPE Expression_CatchBlockProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__CatchBlockProxy();
+  constexpr Expression_CatchBlockProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__CatchBlockProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_CatchBlockProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__CatchBlockProxy(__Expression__CatchBlockProxy&&) = delete;
+  Expression_CatchBlockProxy(Expression_CatchBlockProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__CatchBlockProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_CatchBlockProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__CatchBlockProxy(__Expression__CatchBlockProxy const&) = delete;
+  Expression_CatchBlockProxy(Expression_CatchBlockProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__CatchBlockProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_CatchBlockProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::ConditionalExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::ConditionalExpressionProxy*
-class CORDL_TYPE __Expression__ConditionalExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/ConditionalExpressionProxy
+class CORDL_TYPE Expression_ConditionalExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__ConditionalExpressionProxy();
+  constexpr Expression_ConditionalExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ConditionalExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ConditionalExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__ConditionalExpressionProxy(__Expression__ConditionalExpressionProxy&&) = delete;
+  Expression_ConditionalExpressionProxy(Expression_ConditionalExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ConditionalExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ConditionalExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__ConditionalExpressionProxy(__Expression__ConditionalExpressionProxy const&) = delete;
+  Expression_ConditionalExpressionProxy(Expression_ConditionalExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ConditionalExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_ConditionalExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::ConstantExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::ConstantExpressionProxy*
-class CORDL_TYPE __Expression__ConstantExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/ConstantExpressionProxy
+class CORDL_TYPE Expression_ConstantExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__ConstantExpressionProxy();
+  constexpr Expression_ConstantExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ConstantExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ConstantExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__ConstantExpressionProxy(__Expression__ConstantExpressionProxy&&) = delete;
+  Expression_ConstantExpressionProxy(Expression_ConstantExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ConstantExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ConstantExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__ConstantExpressionProxy(__Expression__ConstantExpressionProxy const&) = delete;
+  Expression_ConstantExpressionProxy(Expression_ConstantExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ConstantExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_ConstantExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::DebugInfoExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::DebugInfoExpressionProxy*
-class CORDL_TYPE __Expression__DebugInfoExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/DebugInfoExpressionProxy
+class CORDL_TYPE Expression_DebugInfoExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__DebugInfoExpressionProxy();
+  constexpr Expression_DebugInfoExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__DebugInfoExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_DebugInfoExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__DebugInfoExpressionProxy(__Expression__DebugInfoExpressionProxy&&) = delete;
+  Expression_DebugInfoExpressionProxy(Expression_DebugInfoExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__DebugInfoExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_DebugInfoExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__DebugInfoExpressionProxy(__Expression__DebugInfoExpressionProxy const&) = delete;
+  Expression_DebugInfoExpressionProxy(Expression_DebugInfoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__DebugInfoExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_DebugInfoExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::DefaultExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::DefaultExpressionProxy*
-class CORDL_TYPE __Expression__DefaultExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/DefaultExpressionProxy
+class CORDL_TYPE Expression_DefaultExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__DefaultExpressionProxy();
+  constexpr Expression_DefaultExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__DefaultExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_DefaultExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__DefaultExpressionProxy(__Expression__DefaultExpressionProxy&&) = delete;
+  Expression_DefaultExpressionProxy(Expression_DefaultExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__DefaultExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_DefaultExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__DefaultExpressionProxy(__Expression__DefaultExpressionProxy const&) = delete;
+  Expression_DefaultExpressionProxy(Expression_DefaultExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__DefaultExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_DefaultExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::GotoExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::GotoExpressionProxy*
-class CORDL_TYPE __Expression__GotoExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/GotoExpressionProxy
+class CORDL_TYPE Expression_GotoExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__GotoExpressionProxy();
+  constexpr Expression_GotoExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__GotoExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_GotoExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__GotoExpressionProxy(__Expression__GotoExpressionProxy&&) = delete;
+  Expression_GotoExpressionProxy(Expression_GotoExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__GotoExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_GotoExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__GotoExpressionProxy(__Expression__GotoExpressionProxy const&) = delete;
+  Expression_GotoExpressionProxy(Expression_GotoExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__GotoExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_GotoExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::IndexExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::IndexExpressionProxy*
-class CORDL_TYPE __Expression__IndexExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/IndexExpressionProxy
+class CORDL_TYPE Expression_IndexExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__IndexExpressionProxy();
+  constexpr Expression_IndexExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__IndexExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_IndexExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__IndexExpressionProxy(__Expression__IndexExpressionProxy&&) = delete;
+  Expression_IndexExpressionProxy(Expression_IndexExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__IndexExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_IndexExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__IndexExpressionProxy(__Expression__IndexExpressionProxy const&) = delete;
+  Expression_IndexExpressionProxy(Expression_IndexExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__IndexExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_IndexExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::InvocationExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::InvocationExpressionProxy*
-class CORDL_TYPE __Expression__InvocationExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/InvocationExpressionProxy
+class CORDL_TYPE Expression_InvocationExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__InvocationExpressionProxy();
+  constexpr Expression_InvocationExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__InvocationExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_InvocationExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__InvocationExpressionProxy(__Expression__InvocationExpressionProxy&&) = delete;
+  Expression_InvocationExpressionProxy(Expression_InvocationExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__InvocationExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_InvocationExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__InvocationExpressionProxy(__Expression__InvocationExpressionProxy const&) = delete;
+  Expression_InvocationExpressionProxy(Expression_InvocationExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__InvocationExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_InvocationExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::LabelExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::LabelExpressionProxy*
-class CORDL_TYPE __Expression__LabelExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/LabelExpressionProxy
+class CORDL_TYPE Expression_LabelExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__LabelExpressionProxy();
+  constexpr Expression_LabelExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LabelExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LabelExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__LabelExpressionProxy(__Expression__LabelExpressionProxy&&) = delete;
+  Expression_LabelExpressionProxy(Expression_LabelExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LabelExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LabelExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__LabelExpressionProxy(__Expression__LabelExpressionProxy const&) = delete;
+  Expression_LabelExpressionProxy(Expression_LabelExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13624 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__LabelExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_LabelExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::LambdaExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::LambdaExpressionProxy*
-class CORDL_TYPE __Expression__LambdaExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/LambdaExpressionProxy
+class CORDL_TYPE Expression_LambdaExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__LambdaExpressionProxy();
+  constexpr Expression_LambdaExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LambdaExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LambdaExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__LambdaExpressionProxy(__Expression__LambdaExpressionProxy&&) = delete;
+  Expression_LambdaExpressionProxy(Expression_LambdaExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LambdaExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LambdaExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__LambdaExpressionProxy(__Expression__LambdaExpressionProxy const&) = delete;
+  Expression_LambdaExpressionProxy(Expression_LambdaExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13625 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__LambdaExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_LambdaExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::ListInitExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::ListInitExpressionProxy*
-class CORDL_TYPE __Expression__ListInitExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/ListInitExpressionProxy
+class CORDL_TYPE Expression_ListInitExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__ListInitExpressionProxy();
+  constexpr Expression_ListInitExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ListInitExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ListInitExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__ListInitExpressionProxy(__Expression__ListInitExpressionProxy&&) = delete;
+  Expression_ListInitExpressionProxy(Expression_ListInitExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ListInitExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ListInitExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__ListInitExpressionProxy(__Expression__ListInitExpressionProxy const&) = delete;
+  Expression_ListInitExpressionProxy(Expression_ListInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ListInitExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_ListInitExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::LoopExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::LoopExpressionProxy*
-class CORDL_TYPE __Expression__LoopExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/LoopExpressionProxy
+class CORDL_TYPE Expression_LoopExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__LoopExpressionProxy();
+  constexpr Expression_LoopExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LoopExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LoopExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__LoopExpressionProxy(__Expression__LoopExpressionProxy&&) = delete;
+  Expression_LoopExpressionProxy(Expression_LoopExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__LoopExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_LoopExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__LoopExpressionProxy(__Expression__LoopExpressionProxy const&) = delete;
+  Expression_LoopExpressionProxy(Expression_LoopExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__LoopExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_LoopExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::MemberExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::MemberExpressionProxy*
-class CORDL_TYPE __Expression__MemberExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/MemberExpressionProxy
+class CORDL_TYPE Expression_MemberExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__MemberExpressionProxy();
+  constexpr Expression_MemberExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MemberExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__MemberExpressionProxy(__Expression__MemberExpressionProxy&&) = delete;
+  Expression_MemberExpressionProxy(Expression_MemberExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MemberExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__MemberExpressionProxy(__Expression__MemberExpressionProxy const&) = delete;
+  Expression_MemberExpressionProxy(Expression_MemberExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__MemberExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_MemberExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::MemberInitExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::MemberInitExpressionProxy*
-class CORDL_TYPE __Expression__MemberInitExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/MemberInitExpressionProxy
+class CORDL_TYPE Expression_MemberInitExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__MemberInitExpressionProxy();
+  constexpr Expression_MemberInitExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MemberInitExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberInitExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__MemberInitExpressionProxy(__Expression__MemberInitExpressionProxy&&) = delete;
+  Expression_MemberInitExpressionProxy(Expression_MemberInitExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MemberInitExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MemberInitExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__MemberInitExpressionProxy(__Expression__MemberInitExpressionProxy const&) = delete;
+  Expression_MemberInitExpressionProxy(Expression_MemberInitExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__MemberInitExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_MemberInitExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::MethodCallExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::MethodCallExpressionProxy*
-class CORDL_TYPE __Expression__MethodCallExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/MethodCallExpressionProxy
+class CORDL_TYPE Expression_MethodCallExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__MethodCallExpressionProxy();
+  constexpr Expression_MethodCallExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MethodCallExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MethodCallExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__MethodCallExpressionProxy(__Expression__MethodCallExpressionProxy&&) = delete;
+  Expression_MethodCallExpressionProxy(Expression_MethodCallExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__MethodCallExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_MethodCallExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__MethodCallExpressionProxy(__Expression__MethodCallExpressionProxy const&) = delete;
+  Expression_MethodCallExpressionProxy(Expression_MethodCallExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__MethodCallExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_MethodCallExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::NewArrayExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::NewArrayExpressionProxy*
-class CORDL_TYPE __Expression__NewArrayExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/NewArrayExpressionProxy
+class CORDL_TYPE Expression_NewArrayExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__NewArrayExpressionProxy();
+  constexpr Expression_NewArrayExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__NewArrayExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_NewArrayExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__NewArrayExpressionProxy(__Expression__NewArrayExpressionProxy&&) = delete;
+  Expression_NewArrayExpressionProxy(Expression_NewArrayExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__NewArrayExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_NewArrayExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__NewArrayExpressionProxy(__Expression__NewArrayExpressionProxy const&) = delete;
+  Expression_NewArrayExpressionProxy(Expression_NewArrayExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__NewArrayExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_NewArrayExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::NewExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::NewExpressionProxy*
-class CORDL_TYPE __Expression__NewExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/NewExpressionProxy
+class CORDL_TYPE Expression_NewExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__NewExpressionProxy();
+  constexpr Expression_NewExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__NewExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_NewExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__NewExpressionProxy(__Expression__NewExpressionProxy&&) = delete;
+  Expression_NewExpressionProxy(Expression_NewExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__NewExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_NewExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__NewExpressionProxy(__Expression__NewExpressionProxy const&) = delete;
+  Expression_NewExpressionProxy(Expression_NewExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__NewExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_NewExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::ParameterExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::ParameterExpressionProxy*
-class CORDL_TYPE __Expression__ParameterExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/ParameterExpressionProxy
+class CORDL_TYPE Expression_ParameterExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__ParameterExpressionProxy();
+  constexpr Expression_ParameterExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ParameterExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ParameterExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__ParameterExpressionProxy(__Expression__ParameterExpressionProxy&&) = delete;
+  Expression_ParameterExpressionProxy(Expression_ParameterExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ParameterExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ParameterExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__ParameterExpressionProxy(__Expression__ParameterExpressionProxy const&) = delete;
+  Expression_ParameterExpressionProxy(Expression_ParameterExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ParameterExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_ParameterExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::RuntimeVariablesExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::RuntimeVariablesExpressionProxy*
-class CORDL_TYPE __Expression__RuntimeVariablesExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/RuntimeVariablesExpressionProxy
+class CORDL_TYPE Expression_RuntimeVariablesExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__RuntimeVariablesExpressionProxy();
+  constexpr Expression_RuntimeVariablesExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__RuntimeVariablesExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_RuntimeVariablesExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__RuntimeVariablesExpressionProxy(__Expression__RuntimeVariablesExpressionProxy&&) = delete;
+  Expression_RuntimeVariablesExpressionProxy(Expression_RuntimeVariablesExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__RuntimeVariablesExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_RuntimeVariablesExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__RuntimeVariablesExpressionProxy(__Expression__RuntimeVariablesExpressionProxy const&) = delete;
+  Expression_RuntimeVariablesExpressionProxy(Expression_RuntimeVariablesExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__RuntimeVariablesExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_RuntimeVariablesExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::SwitchCaseProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::SwitchCaseProxy*
-class CORDL_TYPE __Expression__SwitchCaseProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/SwitchCaseProxy
+class CORDL_TYPE Expression_SwitchCaseProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__SwitchCaseProxy();
+  constexpr Expression_SwitchCaseProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__SwitchCaseProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchCaseProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__SwitchCaseProxy(__Expression__SwitchCaseProxy&&) = delete;
+  Expression_SwitchCaseProxy(Expression_SwitchCaseProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__SwitchCaseProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchCaseProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__SwitchCaseProxy(__Expression__SwitchCaseProxy const&) = delete;
+  Expression_SwitchCaseProxy(Expression_SwitchCaseProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13635 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__SwitchCaseProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_SwitchCaseProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::SwitchExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::SwitchExpressionProxy*
-class CORDL_TYPE __Expression__SwitchExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/SwitchExpressionProxy
+class CORDL_TYPE Expression_SwitchExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__SwitchExpressionProxy();
+  constexpr Expression_SwitchExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__SwitchExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__SwitchExpressionProxy(__Expression__SwitchExpressionProxy&&) = delete;
+  Expression_SwitchExpressionProxy(Expression_SwitchExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__SwitchExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_SwitchExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__SwitchExpressionProxy(__Expression__SwitchExpressionProxy const&) = delete;
+  Expression_SwitchExpressionProxy(Expression_SwitchExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13636 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__SwitchExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_SwitchExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::TryExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::TryExpressionProxy*
-class CORDL_TYPE __Expression__TryExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/TryExpressionProxy
+class CORDL_TYPE Expression_TryExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__TryExpressionProxy();
+  constexpr Expression_TryExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__TryExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_TryExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__TryExpressionProxy(__Expression__TryExpressionProxy&&) = delete;
+  Expression_TryExpressionProxy(Expression_TryExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__TryExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_TryExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__TryExpressionProxy(__Expression__TryExpressionProxy const&) = delete;
+  Expression_TryExpressionProxy(Expression_TryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13637 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__TryExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_TryExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::TypeBinaryExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::TypeBinaryExpressionProxy*
-class CORDL_TYPE __Expression__TypeBinaryExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/TypeBinaryExpressionProxy
+class CORDL_TYPE Expression_TypeBinaryExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__TypeBinaryExpressionProxy();
+  constexpr Expression_TypeBinaryExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__TypeBinaryExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_TypeBinaryExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__TypeBinaryExpressionProxy(__Expression__TypeBinaryExpressionProxy&&) = delete;
+  Expression_TypeBinaryExpressionProxy(Expression_TypeBinaryExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__TypeBinaryExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_TypeBinaryExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__TypeBinaryExpressionProxy(__Expression__TypeBinaryExpressionProxy const&) = delete;
+  Expression_TypeBinaryExpressionProxy(Expression_TypeBinaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__TypeBinaryExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_TypeBinaryExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::UnaryExpressionProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::UnaryExpressionProxy*
-class CORDL_TYPE __Expression__UnaryExpressionProxy : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/UnaryExpressionProxy
+class CORDL_TYPE Expression_UnaryExpressionProxy : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__UnaryExpressionProxy();
+  constexpr Expression_UnaryExpressionProxy();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__UnaryExpressionProxy", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_UnaryExpressionProxy", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__UnaryExpressionProxy(__Expression__UnaryExpressionProxy&&) = delete;
+  Expression_UnaryExpressionProxy(Expression_UnaryExpressionProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__UnaryExpressionProxy", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_UnaryExpressionProxy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__UnaryExpressionProxy(__Expression__UnaryExpressionProxy const&) = delete;
+  Expression_UnaryExpressionProxy(Expression_UnaryExpressionProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13639 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__UnaryExpressionProxy, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_UnaryExpressionProxy, 0x10>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: ::ExtensionInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.ExpressionType, System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::Expression::ExtensionInfo*
-class CORDL_TYPE __Expression__ExtensionInfo : public ::System::Object {
+// CS Name: System.Linq.Expressions.Expression/ExtensionInfo
+class CORDL_TYPE Expression_ExtensionInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field NodeType, offset 0x10, size 0x4
@@ -1146,9 +1117,9 @@ public:
 
   constexpr ::System::Linq::Expressions::ExpressionType& __cordl_internal_get_NodeType();
 
-  constexpr ::System::Type*& __cordl_internal_get_Type();
+  constexpr ::System::Type* const& __cordl_internal_get_Type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_Type() const;
+  constexpr ::System::Type*& __cordl_internal_get_Type();
 
   constexpr void __cordl_internal_set_NodeType(::System::Linq::Expressions::ExpressionType value);
 
@@ -1157,16 +1128,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Expression__ExtensionInfo();
+  constexpr Expression_ExtensionInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ExtensionInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ExtensionInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Expression__ExtensionInfo(__Expression__ExtensionInfo&&) = delete;
+  Expression_ExtensionInfo(Expression_ExtensionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Expression__ExtensionInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Expression_ExtensionInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Expression__ExtensionInfo(__Expression__ExtensionInfo const&) = delete;
+  Expression_ExtensionInfo(Expression_ExtensionInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13640 };
 
   /// @brief Field NodeType, offset: 0x10, size: 0x4, def value: None
   ::System::Linq::Expressions::ExpressionType ___NodeType;
@@ -1174,80 +1148,76 @@ public:
   /// @brief Field Type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___Type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13606 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::__Expression__ExtensionInfo, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Expression_ExtensionInfo, ___NodeType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::__Expression__ExtensionInfo, ___NodeType) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Expression_ExtensionInfo, ___Type) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::__Expression__ExtensionInfo, ___Type) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expression_ExtensionInfo, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
-// Type: System.Linq.Expressions::Expression
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::Expression*
+// CS Name: System.Linq.Expressions.Expression
 class CORDL_TYPE Expression : public ::System::Object {
 public:
   // Declarations
-  using BinaryExpressionProxy = ::System::Linq::Expressions::__Expression__BinaryExpressionProxy;
+  using BinaryExpressionProxy = ::System::Linq::Expressions::Expression_BinaryExpressionProxy;
 
-  using BlockExpressionProxy = ::System::Linq::Expressions::__Expression__BlockExpressionProxy;
+  using BlockExpressionProxy = ::System::Linq::Expressions::Expression_BlockExpressionProxy;
 
-  using CatchBlockProxy = ::System::Linq::Expressions::__Expression__CatchBlockProxy;
+  using CatchBlockProxy = ::System::Linq::Expressions::Expression_CatchBlockProxy;
 
-  using ConditionalExpressionProxy = ::System::Linq::Expressions::__Expression__ConditionalExpressionProxy;
+  using ConditionalExpressionProxy = ::System::Linq::Expressions::Expression_ConditionalExpressionProxy;
 
-  using ConstantExpressionProxy = ::System::Linq::Expressions::__Expression__ConstantExpressionProxy;
+  using ConstantExpressionProxy = ::System::Linq::Expressions::Expression_ConstantExpressionProxy;
 
-  using DebugInfoExpressionProxy = ::System::Linq::Expressions::__Expression__DebugInfoExpressionProxy;
+  using DebugInfoExpressionProxy = ::System::Linq::Expressions::Expression_DebugInfoExpressionProxy;
 
-  using DefaultExpressionProxy = ::System::Linq::Expressions::__Expression__DefaultExpressionProxy;
+  using DefaultExpressionProxy = ::System::Linq::Expressions::Expression_DefaultExpressionProxy;
 
-  using ExtensionInfo = ::System::Linq::Expressions::__Expression__ExtensionInfo;
+  using ExtensionInfo = ::System::Linq::Expressions::Expression_ExtensionInfo;
 
-  using GotoExpressionProxy = ::System::Linq::Expressions::__Expression__GotoExpressionProxy;
+  using GotoExpressionProxy = ::System::Linq::Expressions::Expression_GotoExpressionProxy;
 
-  using IndexExpressionProxy = ::System::Linq::Expressions::__Expression__IndexExpressionProxy;
+  using IndexExpressionProxy = ::System::Linq::Expressions::Expression_IndexExpressionProxy;
 
-  using InvocationExpressionProxy = ::System::Linq::Expressions::__Expression__InvocationExpressionProxy;
+  using InvocationExpressionProxy = ::System::Linq::Expressions::Expression_InvocationExpressionProxy;
 
-  using LabelExpressionProxy = ::System::Linq::Expressions::__Expression__LabelExpressionProxy;
+  using LabelExpressionProxy = ::System::Linq::Expressions::Expression_LabelExpressionProxy;
 
-  using LambdaExpressionProxy = ::System::Linq::Expressions::__Expression__LambdaExpressionProxy;
+  using LambdaExpressionProxy = ::System::Linq::Expressions::Expression_LambdaExpressionProxy;
 
-  using ListInitExpressionProxy = ::System::Linq::Expressions::__Expression__ListInitExpressionProxy;
+  using ListInitExpressionProxy = ::System::Linq::Expressions::Expression_ListInitExpressionProxy;
 
-  using LoopExpressionProxy = ::System::Linq::Expressions::__Expression__LoopExpressionProxy;
+  using LoopExpressionProxy = ::System::Linq::Expressions::Expression_LoopExpressionProxy;
 
-  using MemberExpressionProxy = ::System::Linq::Expressions::__Expression__MemberExpressionProxy;
+  using MemberExpressionProxy = ::System::Linq::Expressions::Expression_MemberExpressionProxy;
 
-  using MemberInitExpressionProxy = ::System::Linq::Expressions::__Expression__MemberInitExpressionProxy;
+  using MemberInitExpressionProxy = ::System::Linq::Expressions::Expression_MemberInitExpressionProxy;
 
-  using MethodCallExpressionProxy = ::System::Linq::Expressions::__Expression__MethodCallExpressionProxy;
+  using MethodCallExpressionProxy = ::System::Linq::Expressions::Expression_MethodCallExpressionProxy;
 
-  using NewArrayExpressionProxy = ::System::Linq::Expressions::__Expression__NewArrayExpressionProxy;
+  using NewArrayExpressionProxy = ::System::Linq::Expressions::Expression_NewArrayExpressionProxy;
 
-  using NewExpressionProxy = ::System::Linq::Expressions::__Expression__NewExpressionProxy;
+  using NewExpressionProxy = ::System::Linq::Expressions::Expression_NewExpressionProxy;
 
-  using ParameterExpressionProxy = ::System::Linq::Expressions::__Expression__ParameterExpressionProxy;
+  using ParameterExpressionProxy = ::System::Linq::Expressions::Expression_ParameterExpressionProxy;
 
-  using RuntimeVariablesExpressionProxy = ::System::Linq::Expressions::__Expression__RuntimeVariablesExpressionProxy;
+  using RuntimeVariablesExpressionProxy = ::System::Linq::Expressions::Expression_RuntimeVariablesExpressionProxy;
 
-  using SwitchCaseProxy = ::System::Linq::Expressions::__Expression__SwitchCaseProxy;
+  using SwitchCaseProxy = ::System::Linq::Expressions::Expression_SwitchCaseProxy;
 
-  using SwitchExpressionProxy = ::System::Linq::Expressions::__Expression__SwitchExpressionProxy;
+  using SwitchExpressionProxy = ::System::Linq::Expressions::Expression_SwitchExpressionProxy;
 
-  using TryExpressionProxy = ::System::Linq::Expressions::__Expression__TryExpressionProxy;
+  using TryExpressionProxy = ::System::Linq::Expressions::Expression_TryExpressionProxy;
 
-  using TypeBinaryExpressionProxy = ::System::Linq::Expressions::__Expression__TypeBinaryExpressionProxy;
+  using TypeBinaryExpressionProxy = ::System::Linq::Expressions::Expression_TypeBinaryExpressionProxy;
 
-  using UnaryExpressionProxy = ::System::Linq::Expressions::__Expression__UnaryExpressionProxy;
+  using UnaryExpressionProxy = ::System::Linq::Expressions::Expression_UnaryExpressionProxy;
 
   __declspec(property(get = get_CanReduce)) bool CanReduce;
 
@@ -1256,421 +1226,421 @@ public:
   __declspec(property(get = get_Type)) ::System::Type* Type;
 
   /// @brief Field s_lambdaDelegateCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_lambdaDelegateCache,
-                             put = setStaticF_s_lambdaDelegateCache)) ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* s_lambdaDelegateCache;
+  __declspec(property(get = getStaticF_s_lambdaDelegateCache,
+                      put = setStaticF_s_lambdaDelegateCache)) ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* s_lambdaDelegateCache;
 
   /// @brief Field s_lambdaFactories, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_lambdaFactories, put = setStaticF_s_lambdaFactories)) ::System::Dynamic::Utils::CacheDict_2<
+  __declspec(property(get = getStaticF_s_lambdaFactories, put = setStaticF_s_lambdaFactories)) ::System::Dynamic::Utils::CacheDict_2<
       ::System::Type*, ::System::Func_5<::System::Linq::Expressions::Expression*, ::StringW, bool,
                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Linq::Expressions::LambdaExpression*>*>*
       s_lambdaFactories;
 
   /// @brief Field s_legacyCtorSupportTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_legacyCtorSupportTable, put = setStaticF_s_legacyCtorSupportTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<
-      ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>* s_legacyCtorSupportTable;
+  __declspec(property(get = getStaticF_s_legacyCtorSupportTable, put = setStaticF_s_legacyCtorSupportTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<
+      ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression_ExtensionInfo*>* s_legacyCtorSupportTable;
 
-  /// @brief Method Accept, addr 0x403f644, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x40a0958, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method Add, addr 0x4036b0c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4097e20, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Add(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                    ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AddAssign, addr 0x403a488, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AddAssign, addr 0x409b79c, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method AddAssignChecked, addr 0x403bfc0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AddAssignChecked, addr 0x409d2d4, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                 ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method AddChecked, addr 0x4036d50, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method AddChecked, addr 0x4098064, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AddChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method And, addr 0x4038114, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method And, addr 0x4099428, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* And(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                    ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AndAlso, addr 0x403cec0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AndAlso, addr 0x409e1d4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAlso(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method AndAlso, addr 0x403835c, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method AndAlso, addr 0x4099670, size 0x4ec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAlso(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                        ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method AndAssign, addr 0x403a720, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method AndAssign, addr 0x409ba34, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* AndAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method ApplyTypeArgs, addr 0x4045998, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ApplyTypeArgs, addr 0x40a6cac, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* ApplyTypeArgs(::System::Reflection::MethodInfo* m, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArgs);
 
-  /// @brief Method ArrayAccess, addr 0x4040364, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ArrayAccess, addr 0x40a1678, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* ArrayAccess(::System::Linq::Expressions::Expression* array,
                                                                           ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> indexes);
 
-  /// @brief Method ArrayAccess, addr 0x403feb0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method ArrayAccess, addr 0x40a11c4, size 0x4b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* ArrayAccess(::System::Linq::Expressions::Expression* array,
                                                                           ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* indexes);
 
-  /// @brief Method ArrayIndex, addr 0x4039e64, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ArrayIndex, addr 0x409b178, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ArrayIndex(::System::Linq::Expressions::Expression* array, ::System::Linq::Expressions::Expression* index);
 
-  /// @brief Method ArrayLength, addr 0x4048330, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ArrayLength, addr 0x40a9644, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* ArrayLength(::System::Linq::Expressions::Expression* array);
 
-  /// @brief Method Assign, addr 0x403284c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Assign, addr 0x4093b60, size 0x1ec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Assign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method Block, addr 0x403d2f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409e60c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Block, addr 0x403d3b4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409e6c8, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Block, addr 0x403d4a4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409e7b8, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Block, addr 0x403d5c8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409e8dc, size 0x150, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3,
                                                                     ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Block, addr 0x403d718, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409ea2c, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x403d7a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409eab8, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> expressions);
 
-  /// @brief Method Block, addr 0x403d82c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409eb40, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x403db58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409ee6c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> expressions);
 
-  /// @brief Method Block, addr 0x403d8c8, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409ebdc, size 0x22c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Block, addr 0x403daf4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x409ee08, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> expressions);
 
-  /// @brief Method Block, addr 0x4032c74, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x4093f88, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* Block(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method BlockCore, addr 0x403e5d0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method BlockCore, addr 0x409f8e4, size 0x388, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* BlockCore(::System::Type* type,
                                                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method Break, addr 0x403f674, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Break, addr 0x40a0988, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Break(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Call, addr 0x4044f84, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a6298, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Call, addr 0x4045090, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a63a4, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Call, addr 0x4045214, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a6528, size 0x1f0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Call, addr 0x4045404, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a6718, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                                                                         ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Call, addr 0x404458c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a58a0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
-  /// @brief Method Call, addr 0x4044660, size 0x924, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a5974, size 0x924, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Call, addr 0x4033a34, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x4094d48, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Linq::Expressions::Expression* instance, ::StringW methodName,
                                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments,
                                                                         ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
-  /// @brief Method Call, addr 0x4043c38, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a4f4c, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Call, addr 0x4033b94, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x4094ea8, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Call, addr 0x4033cdc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x4094ff0, size 0x1b0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Call, addr 0x4043d9c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a50b0, size 0x218, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Call, addr 0x4043fb4, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a52c8, size 0x280, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                         ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Call, addr 0x4044234, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a5548, size 0x2f0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                         ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                         ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Call, addr 0x4044524, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a5838, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method,
                                                                         ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
-  /// @brief Method Call, addr 0x40445f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x40a590c, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MethodCallExpression* Call(::System::Reflection::MethodInfo* method,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Coalesce, addr 0x40399b8, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method Coalesce, addr 0x409accc, size 0x4ac, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Coalesce(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Condition, addr 0x4034138, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Condition, addr 0x409544c, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Condition(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                               ::System::Linq::Expressions::Expression* ifFalse);
 
-  /// @brief Method Condition, addr 0x403ed8c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Condition, addr 0x40a00a0, size 0x288, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Condition(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                               ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
-  /// @brief Method Constant, addr 0x403f17c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x40a0490, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(::System::Object* value);
 
-  /// @brief Method Constant, addr 0x4033ef4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Constant, addr 0x4095208, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConstantExpression* Constant(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method Convert, addr 0x4033e8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x40951a0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Convert(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method Convert, addr 0x404850c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x40a9820, size 0x210, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Convert(::System::Linq::Expressions::Expression* expression, ::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ConvertChecked, addr 0x404871c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ConvertChecked, addr 0x40a9a30, size 0x22c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* ConvertChecked(::System::Linq::Expressions::Expression* expression, ::System::Type* type, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method CreateLambda, addr 0x40428f4, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method CreateLambda, addr 0x40a3c08, size 0x46c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression* CreateLambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                                                                             ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Decrement, addr 0x404922c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Decrement, addr 0x40aa540, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Decrement(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Default, addr 0x403f1d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Default, addr 0x40a04ec, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::DefaultExpression* Default(::System::Type* type);
 
-  /// @brief Method Divide, addr 0x40378b8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Divide, addr 0x4098bcc, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Divide(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method DivideAssign, addr 0x403a9b8, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method DivideAssign, addr 0x409bccc, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* DivideAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                             ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Empty, addr 0x403f0d4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Empty, addr 0x40a03e8, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::DefaultExpression* Empty();
 
-  /// @brief Method Equal, addr 0x403c788, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x409da9c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Equal(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method Equal, addr 0x4039510, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x409a824, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Equal(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                      ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ExclusiveOr, addr 0x4039770, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ExclusiveOr, addr 0x409aa84, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ExclusiveOr(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                            ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ExclusiveOrAssign, addr 0x403ac50, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ExclusiveOrAssign, addr 0x409bf64, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ExclusiveOrAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                  ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Field, addr 0x4043678, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Field, addr 0x40a498c, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Field(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Field, addr 0x4043814, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Field, addr 0x40a4b28, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Field(::System::Linq::Expressions::Expression* expression, ::StringW fieldName);
 
-  /// @brief Method FindMethod, addr 0x4045660, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x40a6974, size 0x250, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* type, ::StringW methodName, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArgs,
                                                              ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args,
                                                              ::System::Reflection::BindingFlags flags);
 
-  /// @brief Method GetComparisonOperator, addr 0x403cc7c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetComparisonOperator, addr 0x409df90, size 0x244, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetComparisonOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW opName,
                                                                                      ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull);
 
-  /// @brief Method GetEqualityComparisonOperator, addr 0x403c7f4, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityComparisonOperator, addr 0x409db08, size 0x41c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetEqualityComparisonOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW opName,
                                                                                              ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                              bool liftToNull);
 
-  /// @brief Method GetInvokeMethod, addr 0x4041190, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetInvokeMethod, addr 0x40a24a4, size 0x208, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetInvokeMethod(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method GetMethodBasedAssignOperator, addr 0x40355dc, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedAssignOperator, addr 0x40968f0, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetMethodBasedAssignOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                                             ::System::Linq::Expressions::Expression* right, ::System::Reflection::MethodInfo* method,
                                                                                             ::System::Linq::Expressions::LambdaExpression* conversion, bool liftToNull);
 
-  /// @brief Method GetMethodBasedBinaryOperator, addr 0x4034d68, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedBinaryOperator, addr 0x409607c, size 0x59c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetMethodBasedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                                             ::System::Linq::Expressions::Expression* right, ::System::Reflection::MethodInfo* method, bool liftToNull);
 
-  /// @brief Method GetMethodBasedCoercionOperator, addr 0x4049f34, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedCoercionOperator, addr 0x40ab248, size 0x398, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetMethodBasedCoercionOperator(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand,
                                                                                              ::System::Type* convertToType, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GetMethodBasedUnaryOperator, addr 0x40499f4, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetMethodBasedUnaryOperator, addr 0x40aad08, size 0x3a4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetMethodBasedUnaryOperator(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand,
                                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GetOptimizedBlockExpression, addr 0x403dd0c, size 0x8c4, virtual false, abstract: false, final false
+  /// @brief Method GetOptimizedBlockExpression, addr 0x409f020, size 0x8c4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BlockExpression* GetOptimizedBlockExpression(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method GetParametersForValidation, addr 0x4041398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParametersForValidation, addr 0x40a26ac, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParametersForValidation(::System::Reflection::MethodBase* method,
                                                                                                                                           ::System::Linq::Expressions::ExpressionType nodeKind);
 
-  /// @brief Method GetResultTypeOfShift, addr 0x403d190, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetResultTypeOfShift, addr 0x409e4a4, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Type* GetResultTypeOfShift(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method GetUserDefinedAssignOperatorOrThrow, addr 0x4035cd8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedAssignOperatorOrThrow, addr 0x4096fec, size 0x268, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedAssignOperatorOrThrow(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                                    ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                                    ::System::Linq::Expressions::LambdaExpression* conversion, bool liftToNull);
 
-  /// @brief Method GetUserDefinedBinaryOperator, addr 0x403477c, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperator, addr 0x4095a90, size 0x3d0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                             ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                             bool liftToNull);
 
-  /// @brief Method GetUserDefinedBinaryOperator, addr 0x4034b4c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperator, addr 0x4095e60, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetUserDefinedBinaryOperator(::System::Linq::Expressions::ExpressionType binaryType, ::System::Type* leftType, ::System::Type* rightType,
                                                                                ::StringW name);
 
-  /// @brief Method GetUserDefinedBinaryOperatorOrThrow, addr 0x4035abc, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedBinaryOperatorOrThrow, addr 0x4096dd0, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GetUserDefinedBinaryOperatorOrThrow(::System::Linq::Expressions::ExpressionType binaryType, ::StringW name,
                                                                                                    ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                                    bool liftToNull);
 
-  /// @brief Method GetUserDefinedCoercion, addr 0x4049e4c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedCoercion, addr 0x40ab160, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedCoercion(::System::Linq::Expressions::ExpressionType coercionType, ::System::Linq::Expressions::Expression* expression,
                                                                                      ::System::Type* convertToType);
 
-  /// @brief Method GetUserDefinedCoercionOrThrow, addr 0x4049d98, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedCoercionOrThrow, addr 0x40ab0ac, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedCoercionOrThrow(::System::Linq::Expressions::ExpressionType coercionType,
                                                                                             ::System::Linq::Expressions::Expression* expression, ::System::Type* convertToType);
 
-  /// @brief Method GetUserDefinedUnaryOperator, addr 0x40496f0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedUnaryOperator, addr 0x40aaa04, size 0x304, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedUnaryOperator(::System::Linq::Expressions::ExpressionType unaryType, ::StringW name,
                                                                                           ::System::Linq::Expressions::Expression* operand);
 
-  /// @brief Method GetUserDefinedUnaryOperatorOrThrow, addr 0x404956c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetUserDefinedUnaryOperatorOrThrow, addr 0x40aa880, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* GetUserDefinedUnaryOperatorOrThrow(::System::Linq::Expressions::ExpressionType unaryType, ::StringW name,
                                                                                                  ::System::Linq::Expressions::Expression* operand);
 
-  /// @brief Method Goto, addr 0x403f98c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x40a0ca0, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Goto(::System::Linq::Expressions::LabelTarget* target, ::System::Type* type);
 
-  /// @brief Method Goto, addr 0x403f9f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x40a0d0c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Goto(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method GreaterThan, addr 0x40392b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x409a5c4, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GreaterThan(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                            ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method GreaterThanOrEqual, addr 0x40393e0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GreaterThanOrEqual, addr 0x409a6f4, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* GreaterThanOrEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                                   ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IfThen, addr 0x403f014, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IfThen, addr 0x40a0328, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* IfThen(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method Increment, addr 0x404908c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Increment, addr 0x40aa3a0, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Increment(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Invoke, addr 0x404108c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a23a0, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Invoke, addr 0x40326f0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4093a04, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0);
 
-  /// @brief Method Invoke, addr 0x40413b4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a26c8, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Invoke, addr 0x4041568, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a287c, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2);
 
-  /// @brief Method Invoke, addr 0x404176c, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a2a80, size 0x25c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                           ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Invoke, addr 0x40419c8, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a2cdc, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression, ::System::Linq::Expressions::Expression* arg0,
                                                                           ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                           ::System::Linq::Expressions::Expression* arg3, ::System::Linq::Expressions::Expression* arg4);
 
-  /// @brief Method Invoke, addr 0x4041c7c, size 0x8d4, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x40a2f90, size 0x8d4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::InvocationExpression* Invoke(::System::Linq::Expressions::Expression* expression,
                                                                           ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method IsCompatible, addr 0x4045a4c, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method IsCompatible, addr 0x40a6d60, size 0x240, virtual false, abstract: false, final false
   static inline bool IsCompatible(::System::Reflection::MethodBase* m, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
-  /// @brief Method IsFalse, addr 0x4047e50, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsFalse, addr 0x40a9164, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* IsFalse(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IsLiftingConditionalLogicalOperator, addr 0x4035f40, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsLiftingConditionalLogicalOperator, addr 0x4097254, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsLiftingConditionalLogicalOperator(::System::Type* left, ::System::Type* right, ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::ExpressionType binaryType);
 
-  /// @brief Method IsNullComparison, addr 0x403609c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsNullComparison, addr 0x40973b0, size 0x100, virtual false, abstract: false, final false
   static inline bool IsNullComparison(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method IsNullConstant, addr 0x403619c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsNullConstant, addr 0x40974b0, size 0x84, virtual false, abstract: false, final false
   static inline bool IsNullConstant(::System::Linq::Expressions::Expression* e);
 
-  /// @brief Method IsSimpleShift, addr 0x403d098, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsSimpleShift, addr 0x409e3ac, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsSimpleShift(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method IsTrue, addr 0x4047ff0, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsTrue, addr 0x40a9304, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* IsTrue(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method IsValidLiftedConditionalLogicalOperator, addr 0x4036844, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsValidLiftedConditionalLogicalOperator, addr 0x4097b58, size 0x104, virtual false, abstract: false, final false
   static inline bool IsValidLiftedConditionalLogicalOperator(::System::Type* left, ::System::Type* right,
                                                              ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> pms);
 
-  /// @brief Method Label, addr 0x4042558, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a386c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelExpression* Label(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Label, addr 0x40425b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a38c4, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelExpression* Label(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* defaultValue);
 
-  /// @brief Method Label, addr 0x4042684, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a3998, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label();
 
-  /// @brief Method Label, addr 0x40427ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a3b00, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::StringW name);
 
-  /// @brief Method Label, addr 0x404289c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a3bb0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::System::Type* type);
 
-  /// @brief Method Label, addr 0x4042728, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Label, addr 0x40a3a3c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LabelTarget* Label(::System::Type* type, ::StringW name);
 
   /// @brief Method Lambda, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1693,354 +1663,354 @@ public:
   static inline ::System::Linq::Expressions::Expression_1<TDelegate>* Lambda(::System::Linq::Expressions::Expression* body, bool tailCall,
                                                                              ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Lambda, addr 0x4042dd4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Lambda, addr 0x40a40e8, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression* Lambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
 
-  /// @brief Method Lambda, addr 0x4042d60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Lambda, addr 0x40a4074, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LambdaExpression*
   Lambda(::System::Type* delegateType, ::System::Linq::Expressions::Expression* body,
          ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*> parameters);
 
-  /// @brief Method LeftShift, addr 0x403a26c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LeftShift, addr 0x409b580, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LeftShift(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                          ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method LeftShiftAssign, addr 0x403aee8, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method LeftShiftAssign, addr 0x409c1fc, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LeftShiftAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method LessThan, addr 0x4039050, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x409a364, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LessThan(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method LessThanOrEqual, addr 0x4039180, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method LessThanOrEqual, addr 0x409a494, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* LessThanOrEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Loop, addr 0x404354c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Loop, addr 0x40a4860, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::LoopExpression* Loop(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::LabelTarget* _cordl_break,
                                                                   ::System::Linq::Expressions::LabelTarget* _cordl_continue);
 
-  /// @brief Method MakeBinary, addr 0x4032668, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MakeBinary, addr 0x409397c, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MakeBinary(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                           ::System::Linq::Expressions::Expression* right, bool liftToNull, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MakeBinary, addr 0x4031204, size 0xa30, virtual false, abstract: false, final false
+  /// @brief Method MakeBinary, addr 0x4092518, size 0xa30, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MakeBinary(::System::Linq::Expressions::ExpressionType binaryType, ::System::Linq::Expressions::Expression* left,
                                                                           ::System::Linq::Expressions::Expression* right, bool liftToNull, ::System::Reflection::MethodInfo* method,
                                                                           ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MakeCatchBlock, addr 0x403eb00, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method MakeCatchBlock, addr 0x409fe14, size 0x28c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::CatchBlock* MakeCatchBlock(::System::Type* type, ::System::Linq::Expressions::ParameterExpression* variable, ::System::Linq::Expressions::Expression* body,
                                                                         ::System::Linq::Expressions::Expression* filter);
 
-  /// @brief Method MakeGoto, addr 0x403f72c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method MakeGoto, addr 0x40a0a40, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* MakeGoto(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target,
                                                                       ::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method MakeIndex, addr 0x4032de8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MakeIndex, addr 0x40940fc, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* MakeIndex(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                                         ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method MakeIndexProperty, addr 0x40403c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MakeIndexProperty, addr 0x40a16dc, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* MakeIndexProperty(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer, ::StringW paramName,
                                                                                 ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* argList);
 
-  /// @brief Method MakeMemberAccess, addr 0x4032ab0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method MakeMemberAccess, addr 0x4093dc4, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* MakeMemberAccess(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MemberInfo* member);
 
-  /// @brief Method MakeOpAssignUnary, addr 0x404a380, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method MakeOpAssignUnary, addr 0x40ab694, size 0x294, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* MakeOpAssignUnary(::System::Linq::Expressions::ExpressionType kind, ::System::Linq::Expressions::Expression* expression,
                                                                                 ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MakeTry, addr 0x4046598, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method MakeTry, addr 0x40a78ac, size 0x234, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TryExpression* MakeTry(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
                                                                     ::System::Linq::Expressions::Expression* fault,
                                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method MakeUnary, addr 0x4047378, size 0x54c, virtual false, abstract: false, final false
+  /// @brief Method MakeUnary, addr 0x40a868c, size 0x54c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* MakeUnary(::System::Linq::Expressions::ExpressionType unaryType, ::System::Linq::Expressions::Expression* operand, ::System::Type* type,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Modulo, addr 0x4037b00, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Modulo, addr 0x4098e14, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Modulo(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ModuloAssign, addr 0x403b154, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ModuloAssign, addr 0x409c468, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ModuloAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                             ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Multiply, addr 0x4037428, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x409873c, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Multiply(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method MultiplyAssign, addr 0x403b3ec, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAssign, addr 0x409c700, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                               ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MultiplyAssignChecked, addr 0x403c4f0, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAssignChecked, addr 0x409d804, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                      ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method MultiplyChecked, addr 0x4037670, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method MultiplyChecked, addr 0x4098984, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* MultiplyChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Negate, addr 0x40478c4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x40a8bd8, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Negate(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NegateChecked, addr 0x4047a9c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method NegateChecked, addr 0x40a8db0, size 0x1d8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* NegateChecked(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NewArrayBounds, addr 0x4046100, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method NewArrayBounds, addr 0x40a7414, size 0x2a4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayBounds(::System::Type* type, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* bounds);
 
-  /// @brief Method NewArrayInit, addr 0x4045c8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NewArrayInit, addr 0x40a6fa0, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayInit(::System::Type* type,
                                                                               ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> initializers);
 
-  /// @brief Method NewArrayInit, addr 0x4045cf0, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method NewArrayInit, addr 0x40a7004, size 0x410, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::NewArrayExpression* NewArrayInit(::System::Type* type,
                                                                               ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* initializers);
 
   static inline ::System::Linq::Expressions::Expression* New_ctor();
 
-  /// @brief Method Not, addr 0x404a2cc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Not, addr 0x40ab5e0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Not(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Not, addr 0x4047c74, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Not, addr 0x40a8f88, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Not(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method NotEqual, addr 0x403cc10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NotEqual, addr 0x409df24, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* NotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method NotEqual, addr 0x4039640, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method NotEqual, addr 0x409a954, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* NotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, bool liftToNull,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method OnesComplement, addr 0x4048190, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method OnesComplement, addr 0x40a94a4, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* OnesComplement(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Or, addr 0x4038848, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Or, addr 0x4099b5c, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Or(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                   ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method OrAssign, addr 0x403b684, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method OrAssign, addr 0x409c998, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* OrAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method OrElse, addr 0x4038a90, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method OrElse, addr 0x4099da4, size 0x5c0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* OrElse(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                       ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Parameter, addr 0x40463a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Parameter, addr 0x40a76b8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Parameter(::System::Type* type);
 
-  /// @brief Method Parameter, addr 0x4033814, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Parameter, addr 0x4094b28, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Parameter(::System::Type* type, ::StringW name);
 
-  /// @brief Method ParameterIsAssignable, addr 0x403545c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ParameterIsAssignable, addr 0x4096770, size 0xa4, virtual false, abstract: false, final false
   static inline bool ParameterIsAssignable(::System::Reflection::ParameterInfo* pi, ::System::Type* argType);
 
-  /// @brief Method PostDecrementAssign, addr 0x4049504, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PostDecrementAssign, addr 0x40aa818, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PostDecrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PostIncrementAssign, addr 0x4049434, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PostIncrementAssign, addr 0x40aa748, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PostIncrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Power, addr 0x4037d48, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Power, addr 0x409905c, size 0x3cc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Power(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                      ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PowerAssign, addr 0x403b91c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method PowerAssign, addr 0x409cc30, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* PowerAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                            ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method PreDecrementAssign, addr 0x404949c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PreDecrementAssign, addr 0x40aa7b0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreDecrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method PreIncrementAssign, addr 0x404a324, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PreIncrementAssign, addr 0x40ab638, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreIncrementAssign(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method PreIncrementAssign, addr 0x40493cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PreIncrementAssign, addr 0x40aa6e0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* PreIncrementAssign(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Property, addr 0x403fdfc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x40a1110, size 0xb4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::IndexExpression* Property(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                                        ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>* arguments);
 
-  /// @brief Method Property, addr 0x4043984, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x40a4c98, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Property(::System::Linq::Expressions::Expression* expression, ::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method Property, addr 0x40338c0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x4094bd4, size 0x174, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::MemberExpression* Property(::System::Linq::Expressions::Expression* expression, ::StringW propertyName);
 
-  /// @brief Method Quote, addr 0x4048bf8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Quote, addr 0x40a9f0c, size 0x118, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Quote(::System::Linq::Expressions::Expression* expression);
 
-  /// @brief Method Reduce, addr 0x403f484, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Reduce, addr 0x40a0798, size 0x48, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Reduce();
 
-  /// @brief Method ReduceAndCheck, addr 0x403f540, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReduceAndCheck, addr 0x40a0854, size 0x104, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* ReduceAndCheck();
 
-  /// @brief Method ReferenceEqual, addr 0x4030e68, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEqual, addr 0x409217c, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ReferenceEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method ReferenceNotEqual, addr 0x4030ff0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ReferenceNotEqual, addr 0x4092304, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* ReferenceNotEqual(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right);
 
-  /// @brief Method RequiresCanRead, addr 0x403dbc4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanRead, addr 0x409eed8, size 0x148, virtual false, abstract: false, final false
   static inline void RequiresCanRead(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* items, ::StringW paramName);
 
-  /// @brief Method RequiresCanWrite, addr 0x403452c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method RequiresCanWrite, addr 0x4095840, size 0x250, virtual false, abstract: false, final false
   static inline void RequiresCanWrite(::System::Linq::Expressions::Expression* expression, ::StringW paramName);
 
-  /// @brief Method Return, addr 0x403f818, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Return, addr 0x40a0b2c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Return(::System::Linq::Expressions::LabelTarget* target);
 
-  /// @brief Method Return, addr 0x403f8d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Return, addr 0x40a0be4, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::GotoExpression* Return(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method RightShift, addr 0x403a050, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method RightShift, addr 0x409b364, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* RightShift(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                           ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method RightShiftAssign, addr 0x403babc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method RightShiftAssign, addr 0x409cdd0, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* RightShiftAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                 ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method Subtract, addr 0x4036f98, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x40982ac, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* Subtract(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                         ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method SubtractAssign, addr 0x403bd28, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method SubtractAssign, addr 0x409d03c, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractAssign(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                               ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method SubtractAssignChecked, addr 0x403c258, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method SubtractAssignChecked, addr 0x409d56c, size 0x298, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractAssignChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                      ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 
-  /// @brief Method SubtractChecked, addr 0x40371e0, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method SubtractChecked, addr 0x40984f4, size 0x248, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::BinaryExpression* SubtractChecked(::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right,
                                                                                ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Throw, addr 0x4048948, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x40a9c5c, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Throw(::System::Linq::Expressions::Expression* value, ::System::Type* type);
 
-  /// @brief Method ToString, addr 0x403f66c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40a0980, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryFinally, addr 0x4046528, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryFinally, addr 0x40a783c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TryExpression* TryFinally(::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally);
 
-  /// @brief Method TryQuote, addr 0x403fdf4, size 0x8, virtual false, abstract: false, final false
-  static inline bool TryQuote(::System::Type* parameterType, ByRef<::System::Linq::Expressions::Expression*> argument);
+  /// @brief Method TryQuote, addr 0x40a1108, size 0x8, virtual false, abstract: false, final false
+  static inline bool TryQuote(::System::Type* parameterType, ::ByRef<::System::Linq::Expressions::Expression*> argument);
 
-  /// @brief Method TypeAs, addr 0x4048a90, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TypeAs, addr 0x40a9da4, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* TypeAs(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method TypeEqual, addr 0x4047278, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method TypeEqual, addr 0x40a858c, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TypeBinaryExpression* TypeEqual(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method TypeIs, addr 0x4047178, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method TypeIs, addr 0x40a848c, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::TypeBinaryExpression* TypeIs(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method UnaryPlus, addr 0x4048d10, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method UnaryPlus, addr 0x40aa024, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* UnaryPlus(::System::Linq::Expressions::Expression* expression, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Unbox, addr 0x4048eb0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Unbox, addr 0x40aa1c4, size 0x1dc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::UnaryExpression* Unbox(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
 
-  /// @brief Method Validate, addr 0x40463fc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x40a7710, size 0x12c, virtual false, abstract: false, final false
   static inline void Validate(::System::Type* type, bool allowByRef);
 
-  /// @brief Method ValidateAccessor, addr 0x4040a00, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ValidateAccessor, addr 0x40a1d14, size 0x1b0, virtual false, abstract: false, final false
   static inline void ValidateAccessor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method,
                                       ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> indexes,
-                                      ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
+                                      ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
 
-  /// @brief Method ValidateAccessorArgumentTypes, addr 0x4040c68, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method ValidateAccessorArgumentTypes, addr 0x40a1f7c, size 0x424, virtual false, abstract: false, final false
   static inline void ValidateAccessorArgumentTypes(::System::Reflection::MethodInfo* method, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> indexes,
-                                                   ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
+                                                   ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW paramName);
 
-  /// @brief Method ValidateArgumentCount, addr 0x40413a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentCount, addr 0x40a26b4, size 0x8, virtual false, abstract: false, final false
   static inline void ValidateArgumentCount(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind, int32_t count,
                                            ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> pis);
 
-  /// @brief Method ValidateArgumentTypes, addr 0x4042550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentTypes, addr 0x40a3864, size 0x8, virtual false, abstract: false, final false
   static inline void ValidateArgumentTypes(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
-                                           ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
+                                           ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> arguments, ::StringW methodParamName);
 
-  /// @brief Method ValidateCallInstanceType, addr 0x4040bb0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ValidateCallInstanceType, addr 0x40a1ec4, size 0xb8, virtual false, abstract: false, final false
   static inline void ValidateCallInstanceType(::System::Type* instanceType, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateCoalesceArgTypes, addr 0x403cf28, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ValidateCoalesceArgTypes, addr 0x409e23c, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Type* ValidateCoalesceArgTypes(::System::Type* left, ::System::Type* right);
 
-  /// @brief Method ValidateGoto, addr 0x403fab4, size 0x1bc, virtual false, abstract: false, final false
-  static inline void ValidateGoto(::System::Linq::Expressions::LabelTarget* target, ByRef<::System::Linq::Expressions::Expression*> value, ::StringW targetParameter, ::StringW valueParameter,
+  /// @brief Method ValidateGoto, addr 0x40a0dc8, size 0x1bc, virtual false, abstract: false, final false
+  static inline void ValidateGoto(::System::Linq::Expressions::LabelTarget* target, ::ByRef<::System::Linq::Expressions::Expression*> value, ::StringW targetParameter, ::StringW valueParameter,
                                   ::System::Type* type);
 
-  /// @brief Method ValidateGotoType, addr 0x403fc70, size 0x184, virtual false, abstract: false, final false
-  static inline void ValidateGotoType(::System::Type* expectedType, ByRef<::System::Linq::Expressions::Expression*> value, ::StringW paramName);
+  /// @brief Method ValidateGotoType, addr 0x40a0f84, size 0x184, virtual false, abstract: false, final false
+  static inline void ValidateGotoType(::System::Type* expectedType, ::ByRef<::System::Linq::Expressions::Expression*> value, ::StringW paramName);
 
-  /// @brief Method ValidateIndexedProperty, addr 0x4040484, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method ValidateIndexedProperty, addr 0x40a1798, size 0x57c, virtual false, abstract: false, final false
   static inline void ValidateIndexedProperty(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer, ::StringW paramName,
-                                             ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> argList);
+                                             ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> argList);
 
-  /// @brief Method ValidateLambdaArgs, addr 0x4042eb4, size 0x698, virtual false, abstract: false, final false
-  static inline void ValidateLambdaArgs(::System::Type* delegateType, ByRef<::System::Linq::Expressions::Expression*> body,
+  /// @brief Method ValidateLambdaArgs, addr 0x40a41c8, size 0x698, virtual false, abstract: false, final false
+  static inline void ValidateLambdaArgs(::System::Type* delegateType, ::ByRef<::System::Linq::Expressions::Expression*> body,
                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters, ::StringW paramName);
 
-  /// @brief Method ValidateMethodAndGetParameters, addr 0x4043d08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ValidateMethodAndGetParameters, addr 0x40a501c, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> ValidateMethodAndGetParameters(::System::Linq::Expressions::Expression* instance,
                                                                                                                                               ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateMethodInfo, addr 0x403600c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ValidateMethodInfo, addr 0x4097320, size 0x90, virtual false, abstract: false, final false
   static inline void ValidateMethodInfo(::System::Reflection::MethodInfo* method, ::StringW paramName);
 
-  /// @brief Method ValidateOneArgument, addr 0x40413a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateOneArgument, addr 0x40a26bc, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Expression* ValidateOneArgument(::System::Reflection::MethodBase* method, ::System::Linq::Expressions::ExpressionType nodeKind,
                                                                              ::System::Linq::Expressions::Expression* arg, ::System::Reflection::ParameterInfo* pi, ::StringW methodParamName,
                                                                              ::StringW argumentParamName);
 
-  /// @brief Method ValidateOpAssignConversionLambda, addr 0x4035844, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ValidateOpAssignConversionLambda, addr 0x4096b58, size 0x278, virtual false, abstract: false, final false
   static inline void ValidateOpAssignConversionLambda(::System::Linq::Expressions::LambdaExpression* conversion, ::System::Linq::Expressions::Expression* left,
                                                       ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::ExpressionType nodeType);
 
-  /// @brief Method ValidateOperator, addr 0x4035304, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ValidateOperator, addr 0x4096618, size 0x158, virtual false, abstract: false, final false
   static inline void ValidateOperator(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateParamswithOperandsOrThrow, addr 0x4035500, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ValidateParamswithOperandsOrThrow, addr 0x4096814, size 0xdc, virtual false, abstract: false, final false
   static inline void ValidateParamswithOperandsOrThrow(::System::Type* paramType, ::System::Type* operandType, ::System::Linq::Expressions::ExpressionType exprType, ::StringW name);
 
-  /// @brief Method ValidateStaticOrInstanceMethod, addr 0x40458b0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ValidateStaticOrInstanceMethod, addr 0x40a6bc4, size 0xe8, virtual false, abstract: false, final false
   static inline void ValidateStaticOrInstanceMethod(::System::Linq::Expressions::Expression* instance, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateTryAndCatchHaveSameType, addr 0x40467cc, size 0x9ac, virtual false, abstract: false, final false
+  /// @brief Method ValidateTryAndCatchHaveSameType, addr 0x40a7ae0, size 0x9ac, virtual false, abstract: false, final false
   static inline void ValidateTryAndCatchHaveSameType(::System::Type* type, ::System::Linq::Expressions::Expression* tryBody,
                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers);
 
-  /// @brief Method ValidateUserDefinedConditionalLogicOperator, addr 0x4036220, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method ValidateUserDefinedConditionalLogicOperator, addr 0x4097534, size 0x624, virtual false, abstract: false, final false
   static inline void ValidateUserDefinedConditionalLogicOperator(::System::Linq::Expressions::ExpressionType nodeType, ::System::Type* left, ::System::Type* right,
                                                                  ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ValidateVariables, addr 0x403e958, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ValidateVariables, addr 0x409fc6c, size 0x1a8, virtual false, abstract: false, final false
   static inline void ValidateVariables(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* varList, ::StringW collectionName);
 
-  /// @brief Method Variable, addr 0x4032a38, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Variable, addr 0x4093d4c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ParameterExpression* Variable(::System::Type* type, ::StringW name);
 
-  /// @brief Method VerifyOpTrueFalse, addr 0x4036948, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method VerifyOpTrueFalse, addr 0x4097c5c, size 0x1c4, virtual false, abstract: false, final false
   static inline void VerifyOpTrueFalse(::System::Linq::Expressions::ExpressionType nodeType, ::System::Type* left, ::System::Reflection::MethodInfo* opTrue, ::StringW paramName);
 
-  /// @brief Method VisitChildren, addr 0x403f4cc, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method VisitChildren, addr 0x40a07e0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitChildren(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method .ctor, addr 0x4030bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4091ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* getStaticF_s_lambdaDelegateCache();
@@ -2050,16 +2020,16 @@ public:
                                         ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::System::Linq::Expressions::LambdaExpression*>*>*
   getStaticF_s_lambdaFactories();
 
-  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>*
+  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression_ExtensionInfo*>*
   getStaticF_s_legacyCtorSupportTable();
 
-  /// @brief Method get_CanReduce, addr 0x403f47c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanReduce, addr 0x40a0790, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanReduce();
 
-  /// @brief Method get_NodeType, addr 0x403f294, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x40a05a8, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x403f388, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x40a069c, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
   static inline void setStaticF_s_lambdaDelegateCache(::System::Dynamic::Utils::CacheDict_2<::System::Type*, ::System::Reflection::MethodInfo*>* value);
@@ -2070,7 +2040,7 @@ public:
                                                                               ::System::Linq::Expressions::LambdaExpression*>*>* value);
 
   static inline void setStaticF_s_legacyCtorSupportTable(
-      ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::__Expression__ExtensionInfo*>* value);
+      ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression_ExtensionInfo*>* value);
 
 protected:
   // Ctor Parameters []
@@ -2087,7 +2057,7 @@ public:
   Expression(Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -2097,57 +2067,57 @@ static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Expre
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::Expression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression*, "System.Linq.Expressions", "Expression");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__BinaryExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__BinaryExpressionProxy*, "System.Linq.Expressions", "Expression/BinaryExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__BlockExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__BlockExpressionProxy*, "System.Linq.Expressions", "Expression/BlockExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__CatchBlockProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__CatchBlockProxy*, "System.Linq.Expressions", "Expression/CatchBlockProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__ConditionalExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__ConditionalExpressionProxy*, "System.Linq.Expressions", "Expression/ConditionalExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__ConstantExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__ConstantExpressionProxy*, "System.Linq.Expressions", "Expression/ConstantExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__DebugInfoExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__DebugInfoExpressionProxy*, "System.Linq.Expressions", "Expression/DebugInfoExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__DefaultExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__DefaultExpressionProxy*, "System.Linq.Expressions", "Expression/DefaultExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__ExtensionInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__ExtensionInfo*, "System.Linq.Expressions", "Expression/ExtensionInfo");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__GotoExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__GotoExpressionProxy*, "System.Linq.Expressions", "Expression/GotoExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__IndexExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__IndexExpressionProxy*, "System.Linq.Expressions", "Expression/IndexExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__InvocationExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__InvocationExpressionProxy*, "System.Linq.Expressions", "Expression/InvocationExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__LabelExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__LabelExpressionProxy*, "System.Linq.Expressions", "Expression/LabelExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__LambdaExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__LambdaExpressionProxy*, "System.Linq.Expressions", "Expression/LambdaExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__ListInitExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__ListInitExpressionProxy*, "System.Linq.Expressions", "Expression/ListInitExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__LoopExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__LoopExpressionProxy*, "System.Linq.Expressions", "Expression/LoopExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__MemberExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__MemberExpressionProxy*, "System.Linq.Expressions", "Expression/MemberExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__MemberInitExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__MemberInitExpressionProxy*, "System.Linq.Expressions", "Expression/MemberInitExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__MethodCallExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__MethodCallExpressionProxy*, "System.Linq.Expressions", "Expression/MethodCallExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__NewArrayExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__NewArrayExpressionProxy*, "System.Linq.Expressions", "Expression/NewArrayExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__NewExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__NewExpressionProxy*, "System.Linq.Expressions", "Expression/NewExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__ParameterExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__ParameterExpressionProxy*, "System.Linq.Expressions", "Expression/ParameterExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__RuntimeVariablesExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__RuntimeVariablesExpressionProxy*, "System.Linq.Expressions", "Expression/RuntimeVariablesExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__SwitchCaseProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__SwitchCaseProxy*, "System.Linq.Expressions", "Expression/SwitchCaseProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__SwitchExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__SwitchExpressionProxy*, "System.Linq.Expressions", "Expression/SwitchExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__TryExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__TryExpressionProxy*, "System.Linq.Expressions", "Expression/TryExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__TypeBinaryExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__TypeBinaryExpressionProxy*, "System.Linq.Expressions", "Expression/TypeBinaryExpressionProxy");
-NEED_NO_BOX(::System::Linq::Expressions::__Expression__UnaryExpressionProxy);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::__Expression__UnaryExpressionProxy*, "System.Linq.Expressions", "Expression/UnaryExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_BinaryExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_BinaryExpressionProxy*, "System.Linq.Expressions", "Expression/BinaryExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_BlockExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_BlockExpressionProxy*, "System.Linq.Expressions", "Expression/BlockExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_CatchBlockProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_CatchBlockProxy*, "System.Linq.Expressions", "Expression/CatchBlockProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_ConditionalExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_ConditionalExpressionProxy*, "System.Linq.Expressions", "Expression/ConditionalExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_ConstantExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_ConstantExpressionProxy*, "System.Linq.Expressions", "Expression/ConstantExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_DebugInfoExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_DebugInfoExpressionProxy*, "System.Linq.Expressions", "Expression/DebugInfoExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_DefaultExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_DefaultExpressionProxy*, "System.Linq.Expressions", "Expression/DefaultExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_ExtensionInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_ExtensionInfo*, "System.Linq.Expressions", "Expression/ExtensionInfo");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_GotoExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_GotoExpressionProxy*, "System.Linq.Expressions", "Expression/GotoExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_IndexExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_IndexExpressionProxy*, "System.Linq.Expressions", "Expression/IndexExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_InvocationExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_InvocationExpressionProxy*, "System.Linq.Expressions", "Expression/InvocationExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_LabelExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_LabelExpressionProxy*, "System.Linq.Expressions", "Expression/LabelExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_LambdaExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_LambdaExpressionProxy*, "System.Linq.Expressions", "Expression/LambdaExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_ListInitExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_ListInitExpressionProxy*, "System.Linq.Expressions", "Expression/ListInitExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_LoopExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_LoopExpressionProxy*, "System.Linq.Expressions", "Expression/LoopExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_MemberExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_MemberExpressionProxy*, "System.Linq.Expressions", "Expression/MemberExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_MemberInitExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_MemberInitExpressionProxy*, "System.Linq.Expressions", "Expression/MemberInitExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_MethodCallExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_MethodCallExpressionProxy*, "System.Linq.Expressions", "Expression/MethodCallExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_NewArrayExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_NewArrayExpressionProxy*, "System.Linq.Expressions", "Expression/NewArrayExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_NewExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_NewExpressionProxy*, "System.Linq.Expressions", "Expression/NewExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_ParameterExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_ParameterExpressionProxy*, "System.Linq.Expressions", "Expression/ParameterExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_RuntimeVariablesExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_RuntimeVariablesExpressionProxy*, "System.Linq.Expressions", "Expression/RuntimeVariablesExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_SwitchCaseProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_SwitchCaseProxy*, "System.Linq.Expressions", "Expression/SwitchCaseProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_SwitchExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_SwitchExpressionProxy*, "System.Linq.Expressions", "Expression/SwitchExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_TryExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_TryExpressionProxy*, "System.Linq.Expressions", "Expression/TryExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_TypeBinaryExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_TypeBinaryExpressionProxy*, "System.Linq.Expressions", "Expression/TypeBinaryExpressionProxy");
+NEED_NO_BOX(::System::Linq::Expressions::Expression_UnaryExpressionProxy);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Expression_UnaryExpressionProxy*, "System.Linq.Expressions", "Expression/UnaryExpressionProxy");

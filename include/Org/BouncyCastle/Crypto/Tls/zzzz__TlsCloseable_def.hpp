@@ -10,20 +10,15 @@ class TlsCloseable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsCloseable);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsCloseable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsCloseable*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsCloseable
 class CORDL_TYPE TlsCloseable {
 public:
   // Declarations
-  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Close, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Close();
-
-  // Ctor Parameters [CppParam { name: "", ty: "TlsCloseable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsCloseable(TlsCloseable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCloseable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

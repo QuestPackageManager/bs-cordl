@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 CORDL_MODULE_EXPORT(Test_LayerMask)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 struct LayerMask;
 }
@@ -18,11 +16,10 @@ class Test_LayerMask;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask);
-// Type: HoudiniEngineUnity::Test_LayerMask
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.IEquivable`1<T>, System.Object, UnityEngine.LayerMask
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_LayerMask*
+// CS Name: HoudiniEngineUnity.Test_LayerMask
 class CORDL_TYPE Test_LayerMask : public ::System::Object {
 public:
   // Declarations
@@ -32,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a4407c, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9acec, size 0xf8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
@@ -43,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x3a44054, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9acc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
@@ -63,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_LayerMask(Test_LayerMask const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11907 };
+
   /// @brief Field self, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::LayerMask ___self;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_LayerMask, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::Test_LayerMask, ___self) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_LayerMask, 0x18>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_LayerMask);

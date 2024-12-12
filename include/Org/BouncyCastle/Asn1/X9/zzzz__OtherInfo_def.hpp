@@ -23,11 +23,10 @@ class OtherInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::OtherInfo);
-// Type: Org.BouncyCastle.Asn1.X9::OtherInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X9::OtherInfo*
+// CS Name: Org.BouncyCastle.Asn1.X9.OtherInfo
 class CORDL_TYPE OtherInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -51,20 +50,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::OtherInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25ecce4, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x261ffd0, size 0x168, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* const& __cordl_internal_get_keyInfo() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*& __cordl_internal_get_keyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::KeySpecificInfo*> const& __cordl_internal_get_keyInfo() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_partyAInfo() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_partyAInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_partyAInfo() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_suppPubInfo() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_suppPubInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_suppPubInfo() const;
 
   constexpr void __cordl_internal_set_keyInfo(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* value);
 
@@ -72,19 +71,19 @@ public:
 
   constexpr void __cordl_internal_set_suppPubInfo(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x25ec8d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261fbc0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* keyInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* partyAInfo, ::Org::BouncyCastle::Asn1::Asn1OctetString* suppPubInfo);
 
-  /// @brief Method .ctor, addr 0x25ec910, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261fbfc, size 0x3a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_KeyInfo, addr 0x25ecccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyInfo, addr 0x261ffb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* get_KeyInfo();
 
-  /// @brief Method get_PartyAInfo, addr 0x25eccd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartyAInfo, addr 0x261ffc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_PartyAInfo();
 
-  /// @brief Method get_SuppPubInfo, addr 0x25eccdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SuppPubInfo, addr 0x261ffc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SuppPubInfo();
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OtherInfo(OtherInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 416 };
+
   /// @brief Field keyInfo, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X9::KeySpecificInfo* ___keyInfo;
 
@@ -110,19 +112,16 @@ public:
   /// @brief Field suppPubInfo, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___suppPubInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 416 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::OtherInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___keyInfo) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___partyAInfo) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::OtherInfo, ___suppPubInfo) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::OtherInfo, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::OtherInfo);

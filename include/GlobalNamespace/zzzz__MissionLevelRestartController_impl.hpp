@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MissionLevelRestartController.hpp"
+#include "GlobalNamespace/zzzz__ILevelRestartController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelRestartController_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelRestartController::*)()>(
     &::GlobalNamespace::MissionLevelRestartController::RestartLevel)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b4ba50;
+  constexpr static std::size_t addrs = 0x3bad45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelRestartController*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelRestartController::*)()>(
     &::GlobalNamespace::MissionLevelRestartController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4bafc;
+  constexpr static std::size_t addrs = 0x3bad508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelRestartController*>::get(),
@@ -34,14 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
-constexpr GlobalNamespace::MissionLevelRestartController::operator ::GlobalNamespace::ILevelRestartController*() noexcept {
-  return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ILevelRestartController"
-constexpr ::GlobalNamespace::ILevelRestartController* GlobalNamespace::MissionLevelRestartController::i___GlobalNamespace__ILevelRestartController() noexcept {
-  return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::MissionLevelRestartController::__cordl_internal_get__missionLevelSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionLevelSceneSetupData;
@@ -83,13 +75,21 @@ inline void GlobalNamespace::MissionLevelRestartController::RestartLevel() {
                                                                              "RestartLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionLevelRestartController* GlobalNamespace::MissionLevelRestartController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelRestartController*>());
-}
 inline void GlobalNamespace::MissionLevelRestartController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelRestartController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionLevelRestartController* GlobalNamespace::MissionLevelRestartController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelRestartController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
+constexpr GlobalNamespace::MissionLevelRestartController::operator ::GlobalNamespace::ILevelRestartController*() noexcept {
+  return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ILevelRestartController"
+constexpr ::GlobalNamespace::ILevelRestartController* GlobalNamespace::MissionLevelRestartController::i___GlobalNamespace__ILevelRestartController() noexcept {
+  return static_cast<::GlobalNamespace::ILevelRestartController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelRestartController::MissionLevelRestartController() {}

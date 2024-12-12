@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_IDREF::*)()>(
     &::System::Xml::Schema::Datatype_IDREF::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434abb8;
+  constexpr static std::size_t addrs = 0x43abecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlTokenizedType (::System::Xml::Schema::Datatype_IDREF::*)()>(
     &::System::Xml::Schema::Datatype_IDREF::get_TokenizedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434abc0;
+  constexpr static std::size_t addrs = 0x43abed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_IDREF::*)()>(&::System::Xml::Schema::Datatype_IDREF::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4342d1c;
+  constexpr static std::size_t addrs = 0x43a4030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF*>::get(), ".ctor",
@@ -57,13 +57,13 @@ inline ::System::Xml::XmlTokenizedType System::Xml::Schema::Datatype_IDREF::get_
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlTokenizedType, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::Datatype_IDREF* System::Xml::Schema::Datatype_IDREF::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_IDREF*>());
-}
 inline void System::Xml::Schema::Datatype_IDREF::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_IDREF*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_IDREF* System::Xml::Schema::Datatype_IDREF::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_IDREF*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_IDREF::Datatype_IDREF() {}

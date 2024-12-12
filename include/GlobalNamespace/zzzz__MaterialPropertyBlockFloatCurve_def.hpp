@@ -15,11 +15,10 @@ class MaterialPropertyBlockFloatCurve;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
-// Type: ::MaterialPropertyBlockFloatCurve
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MaterialPropertyBlockAnimator
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockFloatCurve*
+// CS Name: MaterialPropertyBlockFloatCurve
 class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
@@ -34,12 +33,12 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x398ffe8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39e6b68, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__curve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__curve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
 
   constexpr float_t const& __cordl_internal_get__speedMultiplier() const;
 
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3990080, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e6c00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16351 };
+
   /// @brief Field _curve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____curve;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field _speedMultiplier, offset: 0x44, size: 0x4, def value: None
   float_t ____speedMultiplier;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16315 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatCurve, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____curve) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____valueMultiplier) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatCurve, ____speedMultiplier) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatCurve, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockFloatCurve);

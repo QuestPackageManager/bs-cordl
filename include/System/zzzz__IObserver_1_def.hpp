@@ -13,28 +13,23 @@ template <typename T> class IObserver_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::IObserver_1);
-// Type: System::IObserver`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System::IObserver`1<T>*
+// CS Name: System.IObserver`1<T>
 class CORDL_TYPE IObserver_1 {
 public:
   // Declarations
-  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnCompleted, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnError, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnNext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnNext(T value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IObserver_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IObserver_1(IObserver_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IObserver_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

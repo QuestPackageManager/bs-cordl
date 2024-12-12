@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::NormalizeProcessor::*)(
     float_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::NormalizeProcessor::Process)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45b6374;
+  constexpr static std::size_t addrs = 0x4617688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::InputSystem::Processors::NormalizeProcessor::Normalize)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x45b6380;
+  constexpr static std::size_t addrs = 0x4617694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::InputSystem::Processors::NormalizeProcessor::Denormalize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45b6450;
+  constexpr static std::size_t addrs = 0x4617764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::NormalizeProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::NormalizeProcessor::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x45b6498;
+  constexpr static std::size_t addrs = 0x46177ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::NormalizeProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::NormalizeProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45b655c;
+  constexpr static std::size_t addrs = 0x4617870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,13 +144,13 @@ inline ::StringW UnityEngine::InputSystem::Processors::NormalizeProcessor::ToStr
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::NormalizeProcessor*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::Processors::NormalizeProcessor* UnityEngine::InputSystem::Processors::NormalizeProcessor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Processors::NormalizeProcessor*>());
-}
 inline void UnityEngine::InputSystem::Processors::NormalizeProcessor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::NormalizeProcessor*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Processors::NormalizeProcessor* UnityEngine::InputSystem::Processors::NormalizeProcessor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Processors::NormalizeProcessor*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Processors::NormalizeProcessor::NormalizeProcessor() {}

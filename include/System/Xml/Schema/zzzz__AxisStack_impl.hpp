@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::ForwardAxis* (::System::Xml::Schema::AxisStack::*)()>(
     &::System::Xml::Schema::AxisStack::get_Subtree)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4331644;
+  constexpr static std::size_t addrs = 0x4392958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AxisStack*>::get(), "get_Subtree",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::AxisStack::*)()>(&::System::Xml::Schema::AxisStack::get_Length)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x433164c;
+  constexpr static std::size_t addrs = 0x4392960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AxisStack*>::get(), "get_Length",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisStack::*)(::System::Xml::Schema::ForwardAxis*, ::System::Xml::Schema::ActiveAxis*)>(
     &::System::Xml::Schema::AxisStack::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4331670;
+  constexpr static std::size_t addrs = 0x4392984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisStack::*)(int32_t)>(&::System::Xml::Schema::AxisStack::Push)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4331714;
+  constexpr static std::size_t addrs = 0x4392a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisStack::*)()>(&::System::Xml::Schema::AxisStack::Pop)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43317a8;
+  constexpr static std::size_t addrs = 0x4392abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AxisStack*>::get(), "Pop",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::System::Xml::Schema::AxisStack::Equal)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43315c8;
+  constexpr static std::size_t addrs = 0x43928dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisStack::*)(::StringW, ::StringW, int32_t)>(
     &::System::Xml::Schema::AxisStack::MoveToParent)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x43317e8;
+  constexpr static std::size_t addrs = 0x4392afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AxisStack::*)(::StringW, ::StringW, int32_t)>(
     &::System::Xml::Schema::AxisStack::MoveToChild)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4331930;
+  constexpr static std::size_t addrs = 0x4392c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AxisStack::*)(::StringW, ::StringW, int32_t)>(
     &::System::Xml::Schema::AxisStack::MoveToAttribute)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4331a70;
+  constexpr static std::size_t addrs = 0x4392d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::AxisStack::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::AxisStack::__cordl_internal_get__stack() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::AxisStack::__cordl_internal_get__stack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stack;
 }
@@ -154,7 +154,7 @@ constexpr ::System::Xml::Schema::ForwardAxis*& System::Xml::Schema::AxisStack::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subtree;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ForwardAxis*> const& System::Xml::Schema::AxisStack::__cordl_internal_get__subtree() const {
+constexpr ::System::Xml::Schema::ForwardAxis* const& System::Xml::Schema::AxisStack::__cordl_internal_get__subtree() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____subtree;
 }
@@ -166,7 +166,7 @@ constexpr ::System::Xml::Schema::ActiveAxis*& System::Xml::Schema::AxisStack::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ActiveAxis*> const& System::Xml::Schema::AxisStack::__cordl_internal_get__parent() const {
+constexpr ::System::Xml::Schema::ActiveAxis* const& System::Xml::Schema::AxisStack::__cordl_internal_get__parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
@@ -183,9 +183,6 @@ inline int32_t System::Xml::Schema::AxisStack::get_Length() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AxisStack*>::get(), "get_Length",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::System::Xml::Schema::AxisStack* System::Xml::Schema::AxisStack::New_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::AxisStack*>(faxis, parent));
 }
 inline void System::Xml::Schema::AxisStack::_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent) {
   static auto* ___internal_method =
@@ -232,6 +229,9 @@ inline bool System::Xml::Schema::AxisStack::MoveToAttribute(::StringW name, ::St
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name, URN, depth);
+}
+inline ::System::Xml::Schema::AxisStack* System::Xml::Schema::AxisStack::New_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::AxisStack*>(faxis, parent));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::AxisStack::AxisStack() {}

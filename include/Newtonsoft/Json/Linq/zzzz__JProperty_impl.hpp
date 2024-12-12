@@ -1,11 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Linq/JProperty.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_impl.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JProperty_def.hpp"
@@ -17,638 +25,628 @@
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)(int32_t)>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)(int32_t)>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ebb53c;
+  constexpr static std::size_t addrs = 0x3f1b5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1.System_IDisposable_Dispose
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)()>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ebb6d0;
+  constexpr static std::size_t addrs = 0x3f1b77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1.MoveNext
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)()>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ebb6d4;
+  constexpr static std::size_t addrs = 0x3f1b780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1.System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1.System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)()>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb734;
+  constexpr static std::size_t addrs = 0x3f1b7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
         "System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)()>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ebb73c;
+  constexpr static std::size_t addrs = 0x3f1b7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::*)()>(
-    &::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb774;
+  constexpr static std::size_t addrs = 0x3f1b820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr int32_t& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_set___2__current(::Newtonsoft::Json::Linq::JToken* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Newtonsoft::Json::Linq::JProperty_JPropertyList*& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::Newtonsoft::Json::Linq::JProperty_JPropertyList* const& Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::JProperty_JPropertyList* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
+      "System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*, false>(this, ___internal_method);
+}
+inline void Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1* Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1*>(__1__state));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::operator ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
+constexpr Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::operator ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*
-GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::i___System__Collections__Generic__IEnumerator_1___Newtonsoft__Json__Linq__JToken__() noexcept {
+Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::i___System__Collections__Generic__IEnumerator_1___Newtonsoft__Json__Linq__JToken__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::operator ::System::IDisposable*() noexcept {
+constexpr Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::Newtonsoft::Json::Linq::JToken*& GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_set___2__current(::Newtonsoft::Json::Linq::JToken* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::Newtonsoft::Json::Linq::__JProperty__JPropertyList*& GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*> const&
-GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__cordl_internal_set___4__this(::Newtonsoft::Json::Linq::__JProperty__JPropertyList* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1* GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>(__1__state));
-}
-inline void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::Newtonsoft::Json::Linq::JToken* GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
-      "System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__JProperty__JPropertyList___GetEnumerator_d__1::__JProperty__JPropertyList___GetEnumerator_d__1() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.GetEnumerator
+constexpr ::Newtonsoft::Json::Linq::JPropertyList_JProperty__GetEnumerator_d__1::JPropertyList_JProperty__GetEnumerator_d__1() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* (
-    ::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(&::Newtonsoft::Json::Linq::__JProperty__JPropertyList::GetEnumerator)> {
+    ::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(&::Newtonsoft::Json::Linq::JProperty_JPropertyList::GetEnumerator)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ebb4dc;
+  constexpr static std::size_t addrs = 0x3f1b588;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                                "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ebb564;
+  constexpr static std::size_t addrs = 0x3f1b610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.Add
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.Add
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb568;
+  constexpr static std::size_t addrs = 0x3f1b614;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.Clear
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.Clear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb570;
+  constexpr static std::size_t addrs = 0x3f1b61c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                                "Clear", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.Contains
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.Contains
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::Contains)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ebb578;
+  constexpr static std::size_t addrs = 0x3f1b624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Contains", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Contains", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.CopyTo
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(
-    ::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*>, int32_t)>(&::Newtonsoft::Json::Linq::__JProperty__JPropertyList::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(
+    ::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*>, int32_t)>(&::Newtonsoft::Json::Linq::JProperty_JPropertyList::CopyTo)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ebb588;
+  constexpr static std::size_t addrs = 0x3f1b634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.Remove
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.Remove
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::Remove)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ebb5ec;
+  constexpr static std::size_t addrs = 0x3f1b698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.get_Count
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::get_Count)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ebb608;
+  constexpr static std::size_t addrs = 0x3f1b6b4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                                "get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.get_IsReadOnly
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.get_IsReadOnly
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb618;
+  constexpr static std::size_t addrs = 0x3f1b6c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                                "get_IsReadOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.IndexOf
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.IndexOf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::IndexOf)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::IndexOf)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ebae38;
+  constexpr static std::size_t addrs = 0x3f1aee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.Insert
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.Insert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::Insert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::Insert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ebb620;
+  constexpr static std::size_t addrs = 0x3f1b6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.RemoveAt
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.RemoveAt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(int32_t)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::RemoveAt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(int32_t)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::RemoveAt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ebb630;
+  constexpr static std::size_t addrs = 0x3f1b6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "RemoveAt",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "RemoveAt",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.get_Item
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.get_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(int32_t)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(int32_t)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::get_Item)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ebb640;
+  constexpr static std::size_t addrs = 0x3f1b6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "get_Item",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "get_Item",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList.set_Item
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList.set_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::set_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::set_Item)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ebb688;
+  constexpr static std::size_t addrs = 0x3f1b734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty__JPropertyList._ctor
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty_JPropertyList._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty__JPropertyList::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty__JPropertyList::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty_JPropertyList::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty_JPropertyList::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebaa88;
+  constexpr static std::size_t addrs = 0x3f1ab34;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr Newtonsoft::Json::Linq::__JProperty__JPropertyList::operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::__JProperty__JPropertyList::i___System__Collections__Generic__IList_1___Newtonsoft__Json__Linq__JToken__() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr Newtonsoft::Json::Linq::__JProperty__JPropertyList::operator ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::__JProperty__JPropertyList::i___System__Collections__Generic__ICollection_1___Newtonsoft__Json__Linq__JToken__() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr Newtonsoft::Json::Linq::__JProperty__JPropertyList::operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
-Newtonsoft::Json::Linq::__JProperty__JPropertyList::i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr Newtonsoft::Json::Linq::__JProperty__JPropertyList::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::__JProperty__JPropertyList::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::__JProperty__JPropertyList::__cordl_internal_get__token() {
+constexpr ::Newtonsoft::Json::Linq::JToken*& Newtonsoft::Json::Linq::JProperty_JPropertyList::__cordl_internal_get__token() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& Newtonsoft::Json::Linq::__JProperty__JPropertyList::__cordl_internal_get__token() const {
+constexpr ::Newtonsoft::Json::Linq::JToken* const& Newtonsoft::Json::Linq::JProperty_JPropertyList::__cordl_internal_get__token() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____token;
 }
-constexpr void Newtonsoft::Json::Linq::__JProperty__JPropertyList::__cordl_internal_set__token(::Newtonsoft::Json::Linq::JToken* value) {
+constexpr void Newtonsoft::Json::Linq::JProperty_JPropertyList::__cordl_internal_set__token(::Newtonsoft::Json::Linq::JToken* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____token)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* Newtonsoft::Json::Linq::__JProperty__JPropertyList::GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* Newtonsoft::Json::Linq::JProperty_JPropertyList::GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                              "GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::__JProperty__JPropertyList::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* Newtonsoft::Json::Linq::JProperty_JPropertyList::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::Add(::Newtonsoft::Json::Linq::JToken* item) {
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::Add(::Newtonsoft::Json::Linq::JToken* item) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::Clear() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
-                                                                             "Clear", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::Clear() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Clear",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Linq::__JProperty__JPropertyList::Contains(::Newtonsoft::Json::Linq::JToken* item) {
+inline bool Newtonsoft::Json::Linq::JProperty_JPropertyList::Contains(::Newtonsoft::Json::Linq::JToken* item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Contains", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Contains", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::CopyTo(::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*> array, int32_t arrayIndex) {
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::CopyTo(::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*> array, int32_t arrayIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Newtonsoft::Json::Linq::JToken*, ::Array<::Newtonsoft::Json::Linq::JToken*>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
-inline bool Newtonsoft::Json::Linq::__JProperty__JPropertyList::Remove(::Newtonsoft::Json::Linq::JToken* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
+inline bool Newtonsoft::Json::Linq::JProperty_JPropertyList::Remove(::Newtonsoft::Json::Linq::JToken* item) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-inline int32_t Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_Count() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+inline int32_t Newtonsoft::Json::Linq::JProperty_JPropertyList::get_Count() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                              "get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_IsReadOnly() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
+inline bool Newtonsoft::Json::Linq::JProperty_JPropertyList::get_IsReadOnly() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(),
                                                                              "get_IsReadOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t Newtonsoft::Json::Linq::__JProperty__JPropertyList::IndexOf(::Newtonsoft::Json::Linq::JToken* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
+inline int32_t Newtonsoft::Json::Linq::JProperty_JPropertyList::IndexOf(::Newtonsoft::Json::Linq::JToken* item) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::Insert(int32_t index, ::Newtonsoft::Json::Linq::JToken* item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::Insert(int32_t index, ::Newtonsoft::Json::Linq::JToken* item) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "Insert", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, item);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::RemoveAt(int32_t index) {
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::RemoveAt(int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "RemoveAt",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "RemoveAt",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
-inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::__JProperty__JPropertyList::get_Item(int32_t index) {
+inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JProperty_JPropertyList::get_Item(int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "get_Item",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "get_Item",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*, false>(this, ___internal_method, index);
 }
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::set_Item(int32_t index, ::Newtonsoft::Json::Linq::JToken* value) {
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::set_Item(int32_t index, ::Newtonsoft::Json::Linq::JToken* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::Newtonsoft::Json::Linq::__JProperty__JPropertyList* Newtonsoft::Json::Linq::__JProperty__JPropertyList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>());
-}
-inline void Newtonsoft::Json::Linq::__JProperty__JPropertyList::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Newtonsoft::Json::Linq::JProperty_JPropertyList::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Newtonsoft::Json::Linq::JProperty_JPropertyList* Newtonsoft::Json::Linq::JProperty_JPropertyList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty_JPropertyList*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr Newtonsoft::Json::Linq::JProperty_JPropertyList::operator ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*
+Newtonsoft::Json::Linq::JProperty_JPropertyList::i___System__Collections__Generic__IList_1___Newtonsoft__Json__Linq__JToken__() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr Newtonsoft::Json::Linq::JProperty_JPropertyList::operator ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*
+Newtonsoft::Json::Linq::JProperty_JPropertyList::i___System__Collections__Generic__ICollection_1___Newtonsoft__Json__Linq__JToken__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr Newtonsoft::Json::Linq::JProperty_JPropertyList::operator ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*
+Newtonsoft::Json::Linq::JProperty_JPropertyList::i___System__Collections__Generic__IEnumerable_1___Newtonsoft__Json__Linq__JToken__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr Newtonsoft::Json::Linq::JProperty_JPropertyList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* Newtonsoft::Json::Linq::JProperty_JPropertyList::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Linq::__JProperty__JPropertyList::__JProperty__JPropertyList() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4.MoveNext
+constexpr ::Newtonsoft::Json::Linq::JProperty_JPropertyList::JProperty_JPropertyList() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::MoveNext)> {
   constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x3ebb77c;
+  constexpr static std::size_t addrs = 0x3f1b828;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ebbdd0;
+  constexpr static std::size_t addrs = 0x3f1be7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4>::get(),
+inline void Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "reader", ty:
-// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_p_5__2", ty:
-// "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::__JProperty___LoadAsync_d__4(
+// "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "settings", ty: "::Newtonsoft::Json::Linq::JsonLoadSettings*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_p_5__2", ty: "::Newtonsoft::Json::Linq::JProperty*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::JProperty__LoadAsync_d__4(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Newtonsoft::Json::Linq::JProperty*> __t__builder, ::Newtonsoft::Json::JsonReader* reader,
     ::System::Threading::CancellationToken cancellationToken, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::Newtonsoft::Json::Linq::JProperty* _p_5__2,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept {
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->reader = reader;
@@ -659,66 +657,66 @@ constexpr ::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::__JProperty___
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Linq::__JProperty___LoadAsync_d__4::__JProperty___LoadAsync_d__4() {}
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1.MoveNext
+constexpr ::Newtonsoft::Json::Linq::JProperty__LoadAsync_d__4::JProperty__LoadAsync_d__4() {}
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::*)()>(
-    &::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::*)()>(
+    &::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3ebbe4c;
+  constexpr static std::size_t addrs = 0x3f1bef8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1.SetStateMachine
+//  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ebc0d4;
+  constexpr static std::size_t addrs = 0x3f1c180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1>::get(),
+inline void Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "writer", ty:
-// "::Newtonsoft::Json::JsonWriter*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "converters", ty: "::ArrayW<::Newtonsoft::Json::JsonConverter*,::Array<::Newtonsoft::Json::JsonConverter*>*>", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::__JProperty___WriteToAsync_d__1(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::Linq::JProperty* __4__this,
-    ::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
-    ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept {
+// Some("{}") }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::Linq::JProperty*", modifiers: "", def_value: Some("{}") }, CppParam { name: "writer", ty: "::Newtonsoft::Json::JsonWriter*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "converters",
+// ty: "::ArrayW<::Newtonsoft::Json::JsonConverter*,::Array<::Newtonsoft::Json::JsonConverter*>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::JProperty__WriteToAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                               ::System::Threading::Tasks::Task* task, ::Newtonsoft::Json::Linq::JProperty* __4__this,
+                                                                                               ::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
+                                                                                               ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters,
+                                                                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->task = task;
@@ -729,7 +727,7 @@ constexpr ::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::__JProperty
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Linq::__JProperty___WriteToAsync_d__1::__JProperty___WriteToAsync_d__1() {}
+constexpr ::Newtonsoft::Json::Linq::JProperty__WriteToAsync_d__1::JProperty__WriteToAsync_d__1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JProperty.WriteToAsync
 template <>
 
@@ -737,7 +735,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::JsonWriter*, ::System::Threading::CancellationToken,
                                             ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>)>(&::Newtonsoft::Json::Linq::JProperty::WriteToAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3eba6dc;
+  constexpr static std::size_t addrs = 0x3f1a788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -753,7 +751,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Linq::JProperty::*)(::System::Threading::Tasks::Task*, ::Newtonsoft::Json::JsonWriter*, ::System::Threading::CancellationToken,
                                             ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>)>(&::Newtonsoft::Json::Linq::JProperty::WriteToAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3eba7fc;
+  constexpr static std::size_t addrs = 0x3f1a8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -773,7 +771,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::JsonWriter*, ::System::Threading::CancellationToken,
                                             ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>)>(&::Newtonsoft::Json::Linq::JProperty::WriteValueAsync)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3eba7b0;
+  constexpr static std::size_t addrs = 0x3f1a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -792,7 +790,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>* (*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Linq::JProperty::LoadAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3eba8ec;
+  constexpr static std::size_t addrs = 0x3f1a998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -809,7 +807,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>* (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Linq::JsonLoadSettings*,
                                                                                               ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Linq::JProperty::LoadAsync)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3eba8f8;
+  constexpr static std::size_t addrs = 0x3f1a9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -826,7 +824,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* (::Newtonsoft::Json::Linq::JProperty::*)()>(&::Newtonsoft::Json::Linq::JProperty::get_ChildrenTokens)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eba9f4;
+  constexpr static std::size_t addrs = 0x3f1aaa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -840,7 +838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Linq::JProperty::*)()>(&::Newtonsoft::Json::Linq::JProperty::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3eba9fc;
+  constexpr static std::size_t addrs = 0x3f1aaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty*>::get(), "get_Name",
@@ -854,7 +852,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JProperty::*)()>(
     &::Newtonsoft::Json::Linq::JProperty::get_Value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3eb38b0;
+  constexpr static std::size_t addrs = 0x3f1395c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty*>::get(), "get_Value",
@@ -868,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::set_Value)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3eb7204;
+  constexpr static std::size_t addrs = 0x3f172b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JProperty*)>(
     &::Newtonsoft::Json::Linq::JProperty::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ebaa04;
+  constexpr static std::size_t addrs = 0x3f1aab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -898,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JProperty*, ::Newtonsoft::Json::Linq::JsonCloneSettings*)>(&::Newtonsoft::Json::Linq::JProperty::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ebaa90;
+  constexpr static std::size_t addrs = 0x3f1ab3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -914,7 +912,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JProperty::*)(int32_t)>(
     &::Newtonsoft::Json::Linq::JProperty::GetItem)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ebab18;
+  constexpr static std::size_t addrs = 0x3f1abc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -929,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::SetItem)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3ebab6c;
+  constexpr static std::size_t addrs = 0x3f1ac18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -944,7 +942,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::RemoveItem)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ebacb0;
+  constexpr static std::size_t addrs = 0x3f1ad5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -958,7 +956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(int32_t)>(&::Newtonsoft::Json::Linq::JProperty::RemoveItemAt)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ebad5c;
+  constexpr static std::size_t addrs = 0x3f1ae08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -973,7 +971,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::IndexOfItem)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ebae08;
+  constexpr static std::size_t addrs = 0x3f1aeb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -988,7 +986,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*, bool, bool)>(
     &::Newtonsoft::Json::Linq::JProperty::InsertItem)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3ebae48;
+  constexpr static std::size_t addrs = 0x3f1aef4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1003,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::ContainsItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ebaf64;
+  constexpr static std::size_t addrs = 0x3f1b010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1018,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::System::Object*, ::Newtonsoft::Json::Linq::JsonMergeSettings*)>(
     &::Newtonsoft::Json::Linq::JProperty::MergeItem)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3ebaf88;
+  constexpr static std::size_t addrs = 0x3f1b034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1032,7 +1030,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)()>(&::Newtonsoft::Json::Linq::JProperty::ClearItems)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ebb040;
+  constexpr static std::size_t addrs = 0x3f1b0ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1047,7 +1045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JProperty::DeepEquals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3ebb0ec;
+  constexpr static std::size_t addrs = 0x3f1b198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1062,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JProperty::*)(::Newtonsoft::Json::Linq::JsonCloneSettings*)>(&::Newtonsoft::Json::Linq::JProperty::CloneToken)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ebb18c;
+  constexpr static std::size_t addrs = 0x3f1b238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1077,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JTokenType (::Newtonsoft::Json::Linq::JProperty::*)()>(
     &::Newtonsoft::Json::Linq::JProperty::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb1f4;
+  constexpr static std::size_t addrs = 0x3f1b2a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1091,7 +1089,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::StringW)>(&::Newtonsoft::Json::Linq::JProperty::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3eb3c84;
+  constexpr static std::size_t addrs = 0x3f13d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1106,7 +1104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Newtonsoft::Json::Linq::JProperty::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ebb1fc;
+  constexpr static std::size_t addrs = 0x3f1b2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1122,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(::StringW, ::System::Object*)>(
     &::Newtonsoft::Json::Linq::JProperty::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3eb81ec;
+  constexpr static std::size_t addrs = 0x3f18298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1138,7 +1136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JProperty::*)(
     ::Newtonsoft::Json::JsonWriter*, ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>)>(&::Newtonsoft::Json::Linq::JProperty::WriteTo)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ebb200;
+  constexpr static std::size_t addrs = 0x3f1b2ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1152,7 +1150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JProperty::*)()>(&::Newtonsoft::Json::Linq::JProperty::GetDeepHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ebb280;
+  constexpr static std::size_t addrs = 0x3f1b32c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1167,7 +1165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JProperty* (*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Linq::JProperty::Load)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ebb2d0;
+  constexpr static std::size_t addrs = 0x3f1b37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1182,7 +1180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Linq::JProperty* (*)(::Newtonsoft::Json::JsonReader*, ::Newtonsoft::Json::Linq::JsonLoadSettings*)>(&::Newtonsoft::Json::Linq::JProperty::Load)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3ebb2d8;
+  constexpr static std::size_t addrs = 0x3f1b384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1192,15 +1190,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-constexpr ::Newtonsoft::Json::Linq::__JProperty__JPropertyList*& Newtonsoft::Json::Linq::JProperty::__cordl_internal_get__content() {
+constexpr ::Newtonsoft::Json::Linq::JProperty_JPropertyList*& Newtonsoft::Json::Linq::JProperty::__cordl_internal_get__content() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____content;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::__JProperty__JPropertyList*> const& Newtonsoft::Json::Linq::JProperty::__cordl_internal_get__content() const {
+constexpr ::Newtonsoft::Json::Linq::JProperty_JPropertyList* const& Newtonsoft::Json::Linq::JProperty::__cordl_internal_get__content() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____content;
 }
-constexpr void Newtonsoft::Json::Linq::JProperty::__cordl_internal_set__content(::Newtonsoft::Json::Linq::__JProperty__JPropertyList* value) {
+constexpr void Newtonsoft::Json::Linq::JProperty::__cordl_internal_set__content(::Newtonsoft::Json::Linq::JProperty_JPropertyList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____content)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1242,7 +1240,6 @@ inline ::System::Threading::Tasks::Task* Newtonsoft::Json::Linq::JProperty::Writ
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, writer, cancellationToken, converters);
 }
-/// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
 inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>* Newtonsoft::Json::Linq::JProperty::LoadAsync(::Newtonsoft::Json::JsonReader* reader,
                                                                                                                               ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1251,7 +1248,6 @@ inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>*
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>*, false>(nullptr, ___internal_method, reader, cancellationToken);
 }
-/// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
 inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JProperty*>*
 Newtonsoft::Json::Linq::JProperty::LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings, ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1282,17 +1278,11 @@ inline void Newtonsoft::Json::Linq::JProperty::set_Value(::Newtonsoft::Json::Lin
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JToken*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::Newtonsoft::Json::Linq::JProperty* other) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(other));
-}
 inline void Newtonsoft::Json::Linq::JProperty::_ctor(::Newtonsoft::Json::Linq::JProperty* other) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JProperty*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
-}
-inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::Newtonsoft::Json::Linq::JProperty* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(other, settings));
 }
 inline void Newtonsoft::Json::Linq::JProperty::_ctor(::Newtonsoft::Json::Linq::JProperty* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
   static auto* ___internal_method =
@@ -1361,17 +1351,11 @@ inline ::Newtonsoft::Json::Linq::JTokenType Newtonsoft::Json::Linq::JProperty::g
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JTokenType, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name));
-}
 inline void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JProperty*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
-}
-inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> content) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name, content));
 }
 inline void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> content) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1379,9 +1363,6 @@ inline void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name, ::ArrayW<::
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, content);
-}
-inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::System::Object* content) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name, content));
 }
 inline void Newtonsoft::Json::Linq::JProperty::_ctor(::StringW name, ::System::Object* content) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1411,6 +1392,21 @@ inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::L
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonReader*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JsonLoadSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JProperty*, false>(nullptr, ___internal_method, reader, settings);
+}
+inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::Newtonsoft::Json::Linq::JProperty* other) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(other));
+}
+inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::Newtonsoft::Json::Linq::JProperty* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(other, settings));
+}
+inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name));
+}
+inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> content) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name, content));
+}
+inline ::Newtonsoft::Json::Linq::JProperty* Newtonsoft::Json::Linq::JProperty::New_ctor(::StringW name, ::System::Object* content) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JProperty*>(name, content));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JProperty::JProperty() {}

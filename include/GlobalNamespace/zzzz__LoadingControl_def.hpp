@@ -31,11 +31,10 @@ class LoadingControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LoadingControl);
-// Type: ::LoadingControl
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LoadingControl*
+// CS Name: LoadingControl
 class CORDL_TYPE LoadingControl : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -71,32 +70,32 @@ public:
 
   __declspec(property(get = get_isLoading)) bool isLoading;
 
-  /// @brief Method Awake, addr 0x3b99494, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bfb5e4, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x3b99758, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3bfb8a8, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LoadingControl* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b99554, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bfb6a4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowDownloadingProgress, addr 0x3b996ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ShowDownloadingProgress, addr 0x3bfb7fc, size 0xac, virtual false, abstract: false, final false
   inline void ShowDownloadingProgress(::StringW text, float_t downloadingProgress);
 
-  /// @brief Method ShowLoading, addr 0x3b99570, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ShowLoading, addr 0x3bfb6c0, size 0x8c, virtual false, abstract: false, final false
   inline void ShowLoading(::StringW text);
 
-  /// @brief Method ShowText, addr 0x3b995fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x3bfb74c, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
-  /// @brief Method <Awake>b__14_0, addr 0x3b99784, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x3bfb8d4, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__donwloadingProgressImage() const;
 
@@ -130,9 +129,9 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__refreshText();
 
-  constexpr ::System::Action*& __cordl_internal_get_didPressRefreshButtonEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didPressRefreshButtonEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressRefreshButtonEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didPressRefreshButtonEvent();
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -154,16 +153,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b9977c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfb8cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressRefreshButtonEvent, addr 0x3b99340, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressRefreshButtonEvent, addr 0x3bfb490, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method get_isLoading, addr 0x3b99478, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isLoading, addr 0x3bfb5c8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
-  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x3b993dc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x3bfb52c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
 protected:
@@ -179,6 +178,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LoadingControl(LoadingControl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4758 };
 
   /// @brief Field _loadingContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____loadingContainer;
@@ -210,14 +212,9 @@ public:
   /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4742 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LoadingControl, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LoadingControl, ____loadingContainer) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LoadingControl, ____loadingText) == 0x28, "Offset mismatch!");
@@ -237,6 +234,8 @@ static_assert(offsetof(::GlobalNamespace::LoadingControl, ____donwloadingProgres
 static_assert(offsetof(::GlobalNamespace::LoadingControl, ___didPressRefreshButtonEvent) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LoadingControl, ____buttonBinder) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LoadingControl, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LoadingControl);

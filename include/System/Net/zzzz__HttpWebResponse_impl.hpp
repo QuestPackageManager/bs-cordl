@@ -2,6 +2,8 @@
 // IWYU pragma private; include "System/Net/HttpWebResponse.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/Net/zzzz__HttpWebResponse_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
@@ -9,10 +11,8 @@
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpWebResponse._ctor
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436d284;
+  constexpr static std::size_t addrs = 0x43ce598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), ".ctor",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::HttpWebResponse::*)(::System::Uri*, ::StringW, ::System::Net::HttpStatusCode, ::System::Net::WebHeaderCollection*)>(&::System::Net::HttpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x436d28c;
+  constexpr static std::size_t addrs = 0x43ce5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::HttpWebResponse::*)(::System::Uri*, ::StringW, ::System::Net::WebResponseStream*, ::System::Net::CookieContainer*)>(&::System::Net::HttpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x436ca54;
+  constexpr static std::size_t addrs = 0x43cdd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::HttpWebResponse::_ctor)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x436d554;
+  constexpr static std::size_t addrs = 0x43ce868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::HttpWebResponse::*)()>(
     &::System::Net::HttpWebResponse::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436d8f0;
+  constexpr static std::size_t addrs = 0x43cec04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::get_ResponseUri)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x436d8f8;
+  constexpr static std::size_t addrs = 0x43cec0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpStatusCode (::System::Net::HttpWebResponse::*)()>(
     &::System::Net::HttpWebResponse::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x436d98c;
+  constexpr static std::size_t addrs = 0x43ceca0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::get_StatusDescription)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x436d994;
+  constexpr static std::size_t addrs = 0x43ceca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::GetResponseStream)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x436d9ac;
+  constexpr static std::size_t addrs = 0x43cecc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::HttpWebResponse::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Net::HttpWebResponse::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x436da48;
+  constexpr static std::size_t addrs = 0x43ced5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::HttpWebResponse::GetObjectData)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x436da54;
+  constexpr static std::size_t addrs = 0x43ced68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::Close)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x436dc14;
+  constexpr static std::size_t addrs = 0x43cef28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x436dc44;
+  constexpr static std::size_t addrs = 0x43cef58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(),
@@ -215,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)(bool)>(&::System::Net::HttpWebResponse::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x436dc54;
+  constexpr static std::size_t addrs = 0x43cef68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::CheckDisposed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x436d910;
+  constexpr static std::size_t addrs = 0x43cec24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), "CheckDisposed",
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebResponse::*)()>(&::System::Net::HttpWebResponse::FillCookies)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x436d340;
+  constexpr static std::size_t addrs = 0x43ce654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), "FillCookies",
@@ -250,27 +250,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Net::HttpWebResponse::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Net::HttpWebResponse::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Net::HttpWebResponse::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Net::HttpWebResponse::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Uri*& System::Net::HttpWebResponse::__cordl_internal_get_uri() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& System::Net::HttpWebResponse::__cordl_internal_get_uri() const {
+constexpr ::System::Uri* const& System::Net::HttpWebResponse::__cordl_internal_get_uri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___uri;
 }
@@ -282,7 +266,7 @@ constexpr ::System::Net::WebHeaderCollection*& System::Net::HttpWebResponse::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webHeaders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::HttpWebResponse::__cordl_internal_get_webHeaders() const {
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::HttpWebResponse::__cordl_internal_get_webHeaders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___webHeaders;
 }
@@ -294,7 +278,7 @@ constexpr ::System::Net::CookieCollection*& System::Net::HttpWebResponse::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& System::Net::HttpWebResponse::__cordl_internal_get_cookieCollection() const {
+constexpr ::System::Net::CookieCollection* const& System::Net::HttpWebResponse::__cordl_internal_get_cookieCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieCollection;
 }
@@ -318,7 +302,7 @@ constexpr ::System::Version*& System::Net::HttpWebResponse::__cordl_internal_get
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::HttpWebResponse::__cordl_internal_get_version() const {
+constexpr ::System::Version* const& System::Net::HttpWebResponse::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
@@ -378,7 +362,7 @@ constexpr ::System::Net::CookieContainer*& System::Net::HttpWebResponse::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookie_container;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& System::Net::HttpWebResponse::__cordl_internal_get_cookie_container() const {
+constexpr ::System::Net::CookieContainer* const& System::Net::HttpWebResponse::__cordl_internal_get_cookie_container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookie_container;
 }
@@ -402,7 +386,7 @@ constexpr ::System::IO::Stream*& System::Net::HttpWebResponse::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::HttpWebResponse::__cordl_internal_get_stream() const {
+constexpr ::System::IO::Stream* const& System::Net::HttpWebResponse::__cordl_internal_get_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
@@ -410,16 +394,10 @@ constexpr void System::Net::HttpWebResponse::__cordl_internal_set_stream(::Syste
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>());
-}
 inline void System::Net::HttpWebResponse::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(uri, method, status, headers));
 }
 inline void System::Net::HttpWebResponse::_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -429,10 +407,6 @@ inline void System::Net::HttpWebResponse::_ctor(::System::Uri* uri, ::StringW me
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebHeaderCollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uri, method, status, headers);
 }
-inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream,
-                                                                              ::System::Net::CookieContainer* container) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(uri, method, stream, container));
-}
 inline void System::Net::HttpWebResponse::_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -440,10 +414,6 @@ inline void System::Net::HttpWebResponse::_ctor(::System::Uri* uri, ::StringW me
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebResponseStream*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::CookieContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uri, method, stream, container);
-}
-inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                              ::System::Runtime::Serialization::StreamingContext streamingContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(serializationInfo, streamingContext));
 }
 inline void System::Net::HttpWebResponse::_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -515,6 +485,36 @@ inline void System::Net::HttpWebResponse::FillCookies() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebResponse*>::get(), "FillCookies",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>());
+}
+inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(uri, method, status, headers));
+}
+inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream,
+                                                                              ::System::Net::CookieContainer* container) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(uri, method, stream, container));
+}
+inline ::System::Net::HttpWebResponse* System::Net::HttpWebResponse::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                              ::System::Runtime::Serialization::StreamingContext streamingContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpWebResponse*>(serializationInfo, streamingContext));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Net::HttpWebResponse::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Net::HttpWebResponse::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Net::HttpWebResponse::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Net::HttpWebResponse::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpWebResponse::HttpWebResponse() {}

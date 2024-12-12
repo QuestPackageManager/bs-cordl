@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_TOPWorkResult::*)()>(&::HoudiniEngineUnity::HEU_TOPWorkResult::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x39fc3f8;
+  constexpr static std::size_t addrs = 0x3a53068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPWorkResult*>::get(), ".ctor",
@@ -45,8 +45,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generatedGOs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const&
-HoudiniEngineUnity::HEU_TOPWorkResult::__cordl_internal_get__generatedGOs() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& HoudiniEngineUnity::HEU_TOPWorkResult::__cordl_internal_get__generatedGOs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____generatedGOs;
 }
@@ -54,13 +53,13 @@ constexpr void HoudiniEngineUnity::HEU_TOPWorkResult::__cordl_internal_set__gene
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____generatedGOs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_TOPWorkResult* HoudiniEngineUnity::HEU_TOPWorkResult::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_TOPWorkResult*>());
-}
 inline void HoudiniEngineUnity::HEU_TOPWorkResult::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPWorkResult*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_TOPWorkResult* HoudiniEngineUnity::HEU_TOPWorkResult::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_TOPWorkResult*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_TOPWorkResult::HEU_TOPWorkResult() {}

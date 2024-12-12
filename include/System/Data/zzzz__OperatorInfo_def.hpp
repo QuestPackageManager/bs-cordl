@@ -16,11 +16,10 @@ class OperatorInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::OperatorInfo);
-// Type: System.Data::OperatorInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Nodes, System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::OperatorInfo*
+// CS Name: System.Data.OperatorInfo
 class CORDL_TYPE OperatorInfo : public ::System::Object {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Data::Nodes value);
 
-  /// @brief Method .ctor, addr 0x4117874, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4178b88, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::Nodes type, int32_t op, int32_t pri);
 
 protected:
@@ -70,6 +69,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OperatorInfo(OperatorInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11426 };
+
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::Data::Nodes ____type;
 
@@ -79,19 +81,16 @@ public:
   /// @brief Field _priority, offset: 0x18, size: 0x4, def value: None
   int32_t ____priority;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::OperatorInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::OperatorInfo, ____type) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::OperatorInfo, ____op) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::OperatorInfo, ____priority) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::OperatorInfo, 0x20>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::OperatorInfo);

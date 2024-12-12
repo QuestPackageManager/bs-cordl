@@ -12,11 +12,10 @@ struct SocketType;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::SocketType);
-// Type: System.Net.Sockets::SocketType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::SocketType
+// CS Name: System.Net.Sockets.SocketType
 struct CORDL_TYPE SocketType {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SocketType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Dgram value: static_cast<int32_t>(0x2)
+  /// @brief Field Dgram value: I32(2)
   static ::System::Net::Sockets::SocketType const Dgram;
 
-  /// @brief Field Raw value: static_cast<int32_t>(0x3)
+  /// @brief Field Raw value: I32(3)
   static ::System::Net::Sockets::SocketType const Raw;
 
-  /// @brief Field Rdm value: static_cast<int32_t>(0x4)
+  /// @brief Field Rdm value: I32(4)
   static ::System::Net::Sockets::SocketType const Rdm;
 
-  /// @brief Field Seqpacket value: static_cast<int32_t>(0x5)
+  /// @brief Field Seqpacket value: I32(5)
   static ::System::Net::Sockets::SocketType const Seqpacket;
 
-  /// @brief Field Stream value: static_cast<int32_t>(0x1)
+  /// @brief Field Stream value: I32(1)
   static ::System::Net::Sockets::SocketType const Stream;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Unknown value: I32(-1)
   static ::System::Net::Sockets::SocketType const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::SocketType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketType, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketType, "System.Net.Sockets", "SocketType");

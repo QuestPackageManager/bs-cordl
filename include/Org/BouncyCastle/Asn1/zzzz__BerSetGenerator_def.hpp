@@ -15,11 +15,10 @@ class BerSetGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSetGenerator);
-// Type: Org.BouncyCastle.Asn1::BerSetGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.BerGenerator
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::BerSetGenerator*
+// CS Name: Org.BouncyCastle.Asn1.BerSetGenerator
 class CORDL_TYPE BerSetGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x2600bc0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633eac, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x2600bf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633ee0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObstacleClippingController)
 namespace GlobalNamespace {
@@ -19,19 +18,18 @@ class MultiplayerConnectedPlayerObstacleClippingController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController);
-// Type: ::MultiplayerConnectedPlayerObstacleClippingController
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerObstacleClippingController*
+// CS Name: MultiplayerConnectedPlayerObstacleClippingController
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleClippingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _clippingPlaneNormalID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__clippingPlaneNormalID, put = setStaticF__clippingPlaneNormalID)) int32_t _clippingPlaneNormalID;
+  __declspec(property(get = getStaticF__clippingPlaneNormalID, put = setStaticF__clippingPlaneNormalID)) int32_t _clippingPlaneNormalID;
 
   /// @brief Field _clippingPlanePositionID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__clippingPlanePositionID, put = setStaticF__clippingPlanePositionID)) int32_t _clippingPlanePositionID;
+  __declspec(property(get = getStaticF__clippingPlanePositionID, put = setStaticF__clippingPlanePositionID)) int32_t _clippingPlanePositionID;
 
   /// @brief Field _materialPropertyBlockControllers, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockControllers,
@@ -41,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* New_ctor();
 
-  /// @brief Method SetClippingParams, addr 0x3b55d34, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetClippingParams, addr 0x3bb755c, size 0x14c, virtual false, abstract: false, final false
   inline void SetClippingParams(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
@@ -53,7 +51,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b55e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb76a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__clippingPlaneNormalID();
@@ -78,18 +76,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerObstacleClippingController(MultiplayerConnectedPlayerObstacleClippingController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4498 };
+
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController, ____materialPropertyBlockControllers) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController);

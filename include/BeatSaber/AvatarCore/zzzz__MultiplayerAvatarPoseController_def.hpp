@@ -29,11 +29,10 @@ class MultiplayerAvatarPoseController;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController);
-// Type: BeatSaber.AvatarCore::MultiplayerAvatarPoseController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::MultiplayerAvatarPoseController*
+// CS Name: BeatSaber.AvatarCore.MultiplayerAvatarPoseController
 class CORDL_TYPE MultiplayerAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -63,19 +62,19 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* New_ctor();
 
-  /// @brief Method Start, addr 0x2222a50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224dfc4, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2222a68, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x224dfdc, size 0x4e8, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const& __cordl_internal_get__avatarPoseRestriction() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
@@ -85,17 +84,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftSaberTransform();
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightSaberTransform() const;
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightSaberTransform();
 
-  constexpr ::System::Action_1<::UnityEngine::Vector3>*& __cordl_internal_get_didUpdatePoseEvent();
+  constexpr ::System::Action_1<::UnityEngine::Vector3>* const& __cordl_internal_get_didUpdatePoseEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_didUpdatePoseEvent() const;
+  constexpr ::System::Action_1<::UnityEngine::Vector3>*& __cordl_internal_get_didUpdatePoseEvent();
 
   constexpr void __cordl_internal_set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value);
 
@@ -111,16 +110,16 @@ public:
 
   constexpr void __cordl_internal_set_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x2222f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224e4c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didUpdatePoseEvent, addr 0x221e3d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePoseEvent, addr 0x2249944, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method remove_didUpdatePoseEvent, addr 0x221e54c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePoseEvent, addr 0x2249ac0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePoseEvent(::System::Action_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method set_connectedPlayer, addr 0x2222a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x224dfbc, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
 protected:
@@ -136,6 +135,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarPoseController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerAvatarPoseController(MultiplayerAvatarPoseController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
 
   /// @brief Field _leftSaberTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____leftSaberTransform;
@@ -158,14 +160,9 @@ public:
   /// @brief Field didUpdatePoseEvent, offset: 0x50, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Vector3>* ___didUpdatePoseEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, ____leftSaberTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, ____rightSaberTransform) == 0x28, "Offset mismatch!");
@@ -179,6 +176,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController,
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, ____connectedPlayer) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, ___didUpdatePoseEvent) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController, 0x58>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::MultiplayerAvatarPoseController);

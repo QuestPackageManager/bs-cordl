@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Res)
 namespace System {
@@ -16,18 +15,17 @@ class Res;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Res);
-// Type: System.Xml::Res
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::Res*
+// CS Name: System.Xml.Res
 class CORDL_TYPE Res : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x42f5d54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4357068, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x42f3998, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x4354cac, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -45,7 +43,7 @@ public:
   Res(Res const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7371 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

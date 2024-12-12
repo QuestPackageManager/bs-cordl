@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FixupHolder::*)(int64_t, ::System::Object*, int32_t)>(
     &::System::Runtime::Serialization::FixupHolder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c999bc;
+  constexpr static std::size_t addrs = 0x3cf9b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::FixupHolder::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::FixupHolder::__cordl_internal_get_m_fixupInfo() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::FixupHolder::__cordl_internal_get_m_fixupInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fixupInfo;
 }
@@ -55,15 +55,15 @@ constexpr void System::Runtime::Serialization::FixupHolder::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fixupType = value;
 }
-inline ::System::Runtime::Serialization::FixupHolder* System::Runtime::Serialization::FixupHolder::New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolder*>(id, fixupInfo, fixupType));
-}
 inline void System::Runtime::Serialization::FixupHolder::_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FixupHolder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, fixupInfo, fixupType);
+}
+inline ::System::Runtime::Serialization::FixupHolder* System::Runtime::Serialization::FixupHolder::New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::FixupHolder*>(id, fixupInfo, fixupType));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::FixupHolder::FixupHolder() {}

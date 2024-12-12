@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::LookupNode::*)(::System::Data::DataTable*, ::StringW, ::StringW)>(
     &::System::Data::LookupNode::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4118238;
+  constexpr static std::size_t addrs = 0x417954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::LookupNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::LookupNode::Bind)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4119c64;
+  constexpr static std::size_t addrs = 0x417af78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::Eval)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4119eac;
+  constexpr static std::size_t addrs = 0x417b1c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LookupNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::LookupNode::Eval)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4119ed0;
+  constexpr static std::size_t addrs = 0x417b1e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LookupNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::LookupNode::Eval)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4119fd4;
+  constexpr static std::size_t addrs = 0x417b2e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411a004;
+  constexpr static std::size_t addrs = 0x417b318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411a00c;
+  constexpr static std::size_t addrs = 0x417b320;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411a014;
+  constexpr static std::size_t addrs = 0x417b328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411a01c;
+  constexpr static std::size_t addrs = 0x417b330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::LookupNode::*)(::System::Data::DataColumn*)>(&::System::Data::LookupNode::DependsOn)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x411a024;
+  constexpr static std::size_t addrs = 0x417b338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::LookupNode::*)()>(&::System::Data::LookupNode::Optimize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x411a034;
+  constexpr static std::size_t addrs = 0x417b348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ constexpr ::System::Data::DataColumn*& System::Data::LookupNode::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& System::Data::LookupNode::__cordl_internal_get__column() const {
+constexpr ::System::Data::DataColumn* const& System::Data::LookupNode::__cordl_internal_get__column() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
@@ -209,16 +209,13 @@ constexpr ::System::Data::DataRelation*& System::Data::LookupNode::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& System::Data::LookupNode::__cordl_internal_get__relation() const {
+constexpr ::System::Data::DataRelation* const& System::Data::LookupNode::__cordl_internal_get__relation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relation;
 }
 constexpr void System::Data::LookupNode::__cordl_internal_set__relation(::System::Data::DataRelation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::LookupNode* System::Data::LookupNode::New_ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::LookupNode*>(table, columnName, relationName));
 }
 inline void System::Data::LookupNode::_ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,6 +273,9 @@ inline ::System::Data::ExpressionNode* System::Data::LookupNode::Optimize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::LookupNode*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Data::ExpressionNode*, false>(this, ___internal_method);
+}
+inline ::System::Data::LookupNode* System::Data::LookupNode::New_ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::LookupNode*>(table, columnName, relationName));
 }
 // Ctor Parameters []
 constexpr ::System::Data::LookupNode::LookupNode() {}

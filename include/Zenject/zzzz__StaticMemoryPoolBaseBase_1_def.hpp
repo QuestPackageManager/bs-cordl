@@ -3,7 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPoolBaseBase_1)
 namespace System::Collections::Generic {
@@ -13,19 +16,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
-class IMemoryPool;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,13 +27,12 @@ template <typename TValue> class StaticMemoryPoolBaseBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::StaticMemoryPoolBaseBase_1);
-// Type: Zenject::StaticMemoryPoolBaseBase`1
-// SizeInfo { instance_size: 40, native_size: 36, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object, Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IMemoryPool
 namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::StaticMemoryPoolBaseBase`1<TValue>*
+// CS Name: Zenject.StaticMemoryPoolBaseBase`1<TValue>
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:
   // Declarations
@@ -71,7 +64,7 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Alloc, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Alloc();
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -110,13 +103,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__activeCount();
 
+  constexpr ::System::Action_1<TValue>* const& __cordl_internal_get__onDespawnedMethod() const;
+
   constexpr ::System::Action_1<TValue>*& __cordl_internal_get__onDespawnedMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& __cordl_internal_get__onDespawnedMethod() const;
+  constexpr ::System::Collections::Generic::Stack_1<TValue>* const& __cordl_internal_get__stack() const;
 
   constexpr ::System::Collections::Generic::Stack_1<TValue>*& __cordl_internal_get__stack();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<TValue>*> const& __cordl_internal_get__stack() const;
 
   constexpr void __cordl_internal_set__activeCount(int32_t value);
 
@@ -165,6 +158,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticMemoryPoolBaseBase_1(StaticMemoryPoolBaseBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12421 };
+
   /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<TValue>* ____stack;
 
@@ -173,9 +169,6 @@ public:
 
   /// @brief Field _activeCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____activeCount;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

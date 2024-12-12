@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLightWithIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::DirectionalLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x398b5b4;
+  constexpr static std::size_t addrs = 0x39e1f84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLightWithIds::*)()>(&::GlobalNamespace::DirectionalLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x398b5f8;
+  constexpr static std::size_t addrs = 0x39e1fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), ".ctor",
@@ -74,13 +74,13 @@ inline void GlobalNamespace::DirectionalLightWithIds::ColorWasSet(::UnityEngine:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
-inline ::GlobalNamespace::DirectionalLightWithIds* GlobalNamespace::DirectionalLightWithIds::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DirectionalLightWithIds*>());
-}
 inline void GlobalNamespace::DirectionalLightWithIds::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DirectionalLightWithIds* GlobalNamespace::DirectionalLightWithIds::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DirectionalLightWithIds*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DirectionalLightWithIds::DirectionalLightWithIds() {}

@@ -48,11 +48,10 @@ class LightSwitchEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightSwitchEventEffect);
-// Type: ::LightSwitchEventEffect
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightSwitchEventEffect*
+// CS Name: LightSwitchEventEffect
 class CORDL_TYPE LightSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -129,33 +128,33 @@ public:
 
   __declspec(property(get = get_lightsId)) int32_t lightsId;
 
-  /// @brief Method CheckNextEventForFade, addr 0x3b3089c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CheckNextEventForFade, addr 0x3b91dd0, size 0x220, virtual false, abstract: false, final false
   inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetHighlightColor, addr 0x3b30b54, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightColor, addr 0x3b92088, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method GetNormalColor, addr 0x3b30abc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNormalColor, addr 0x3b91ff0, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b30bec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b92120, size 0xcc, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b3052c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b91a60, size 0x34c, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3047c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b919b0, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x3b30878, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3b91dac, size 0x24, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x3b30440, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x3b91974, size 0x3c, virtual false, abstract: false, final false
   inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
 
-  /// @brief Method Start, addr 0x3b300ec, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b91620, size 0x354, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -166,25 +165,25 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeToColor();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorBoostBeatmapDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__colorChangeBeatmapDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::Tweening::ColorTween* const& __cordl_internal_get__colorTween() const;
 
   constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTween() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__event() const;
 
@@ -290,13 +289,13 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3b30cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b921ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventType, addr 0x3b300e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x3b91618, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_lightsId, addr 0x3b300dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightsId, addr 0x3b91610, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightsId();
 
 protected:
@@ -312,6 +311,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightSwitchEventEffect(LightSwitchEventEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4318 };
+
+  /// @brief Field kFlashAndFadeDuration offset 0xffffffff size 0x4
+  static constexpr float_t kFlashAndFadeDuration{ static_cast<float_t>(1.5f) };
+
+  /// @brief Field kHighlightDuration offset 0xffffffff size 0x4
+  static constexpr float_t kHighlightDuration{ static_cast<float_t>(0.6f) };
 
   /// @brief Field _lightColor0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____lightColor0;
@@ -379,20 +387,9 @@ public:
   /// @brief Field _colorBoostBeatmapDataCallbackWrapper, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____colorBoostBeatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4307 };
-
-  /// @brief Field kFlashAndFadeDuration offset 0xffffffff size 0x4
-  static constexpr float_t kFlashAndFadeDuration{ 1.5 };
-
-  /// @brief Field kHighlightDuration offset 0xffffffff size 0x4
-  static constexpr float_t kHighlightDuration{ 0.6 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightSwitchEventEffect, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightSwitchEventEffect, ____lightColor0) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightSwitchEventEffect, ____lightColor1) == 0x28, "Offset mismatch!");
@@ -436,6 +433,8 @@ static_assert(offsetof(::GlobalNamespace::LightSwitchEventEffect, ____usingBoost
 static_assert(offsetof(::GlobalNamespace::LightSwitchEventEffect, ____colorChangeBeatmapDataCallbackWrapper) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightSwitchEventEffect, ____colorBoostBeatmapDataCallbackWrapper) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightSwitchEventEffect, 0xd0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightSwitchEventEffect);

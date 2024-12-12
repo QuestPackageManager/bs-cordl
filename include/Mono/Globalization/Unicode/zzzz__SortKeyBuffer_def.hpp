@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKeyBuffer)
@@ -22,11 +20,10 @@ class SortKeyBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::SortKeyBuffer);
-// Type: Mono.Globalization.Unicode::SortKeyBuffer
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 131, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Globalization.CompareOptions, System.Object
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// CS Name: ::Mono.Globalization.Unicode::SortKeyBuffer*
+// CS Name: Mono.Globalization.Unicode.SortKeyBuffer
 class CORDL_TYPE SortKeyBuffer : public ::System::Object {
 public:
   // Declarations
@@ -96,36 +93,36 @@ public:
   /// @brief Field source, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::StringW source;
 
-  /// @brief Method AppendBufferPrimitive, addr 0x3bfec40, size 0xc8, virtual false, abstract: false, final false
-  inline void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buf, ByRef<int32_t> bidx);
+  /// @brief Method AppendBufferPrimitive, addr 0x3c5ed54, size 0xc8, virtual false, abstract: false, final false
+  inline void AppendBufferPrimitive(uint8_t value, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buf, ::ByRef<int32_t> bidx);
 
-  /// @brief Method AppendCJKExtension, addr 0x3bfb154, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendCJKExtension, addr 0x3c5b268, size 0x94, virtual false, abstract: false, final false
   inline void AppendCJKExtension(uint8_t lv1msb, uint8_t lv1lsb);
 
-  /// @brief Method AppendKana, addr 0x3bfb2a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AppendKana, addr 0x3c5b3b4, size 0x94, virtual false, abstract: false, final false
   inline void AppendKana(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3, bool isSmallKana, uint8_t markType, bool isKatakana, bool isHalfWidth);
 
-  /// @brief Method AppendLevel5, addr 0x3bfed08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AppendLevel5, addr 0x3c5ee1c, size 0x98, virtual false, abstract: false, final false
   inline void AppendLevel5(uint8_t category, uint8_t lv1);
 
-  /// @brief Method AppendNormal, addr 0x3bfb010, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AppendNormal, addr 0x3c5b124, size 0x144, virtual false, abstract: false, final false
   inline void AppendNormal(uint8_t category, uint8_t lv1, uint8_t lv2, uint8_t lv3);
 
-  /// @brief Method GetOptimizedLength, addr 0x3bff278, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetOptimizedLength, addr 0x3c5f38c, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetOptimizedLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t len, uint8_t defaultValue);
 
-  /// @brief Method GetResult, addr 0x3bfeda0, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x3c5eeb4, size 0x4d8, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* GetResult();
 
-  /// @brief Method GetResultAndReset, addr 0x3bfabd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResultAndReset, addr 0x3c5acec, size 0x24, virtual false, abstract: false, final false
   inline ::System::Globalization::SortKey* GetResultAndReset();
 
-  /// @brief Method Initialize, addr 0x3bfa6e8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c5a7fc, size 0x178, virtual false, abstract: false, final false
   inline void Initialize(::System::Globalization::CompareOptions options, int32_t lcid, ::StringW s, bool frenchSort);
 
   static inline ::Mono::Globalization::Unicode::SortKeyBuffer* New_ctor(int32_t lcid);
 
-  /// @brief Method Reset, addr 0x3bfec2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c5ed40, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get_frenchSort() const;
@@ -260,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3bfa6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c5a7f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid);
 
 protected:
@@ -276,6 +273,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SortKeyBuffer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SortKeyBuffer(SortKeyBuffer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2272 };
 
   /// @brief Field l1b, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___l1b;
@@ -343,14 +343,9 @@ public:
   /// @brief Field frenchSorted, offset: 0x82, size: 0x1, def value: None
   bool ___frenchSorted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2272 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::SortKeyBuffer, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l1b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___l2b) == 0x18, "Offset mismatch!");
@@ -394,6 +389,8 @@ static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___process
 static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___frenchSort) == 0x81, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Globalization::Unicode::SortKeyBuffer, ___frenchSorted) == 0x82, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Globalization::Unicode::SortKeyBuffer, 0x88>, "Size mismatch!");
 
 } // namespace Mono::Globalization::Unicode
 NEED_NO_BOX(::Mono::Globalization::Unicode::SortKeyBuffer);

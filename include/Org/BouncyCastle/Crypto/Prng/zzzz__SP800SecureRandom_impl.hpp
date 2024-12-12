@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::IEntropySource*, ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2395fac;
+  constexpr static std::size_t addrs = 0x23c9298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2396038;
+  constexpr static std::size_t addrs = 0x23c9324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23960ec;
+  constexpr static std::size_t addrs = 0x23c93d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x23961a0;
+  constexpr static std::size_t addrs = 0x23c948c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2396480;
+  constexpr static std::size_t addrs = 0x23c976c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::GenerateSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2396518;
+  constexpr static std::size_t addrs = 0x23c9804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::Reseed)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2396520;
+  constexpr static std::size_t addrs = 0x23c980c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbgProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*> const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mDrbgProvider() const {
+constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mDrbgProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbgProvider;
 }
@@ -149,7 +149,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandomSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mRandomSource() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mRandomSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandomSource;
 }
@@ -161,7 +161,7 @@ constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySource;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mEntropySource() const {
+constexpr ::Org::BouncyCastle::Crypto::IEntropySource* const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mEntropySource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEntropySource;
 }
@@ -173,19 +173,13 @@ constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg*> const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mDrbg() const {
+constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* const& Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_get_mDrbg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbg;
 }
 constexpr void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::__cordl_internal_set_mDrbg(::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mDrbg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource,
-                                                                                                                          ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
-                                                                                                                          ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider,
-                                                                                                                          bool predictionResistant) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(randomSource, entropySource, drbgProvider, predictionResistant));
 }
 inline void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                                                                       ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider, bool predictionResistant) {
@@ -231,6 +225,12 @@ inline void Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::Reseed(::ArrayW<
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, additionalInput);
+}
+inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom* Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource,
+                                                                                                                          ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
+                                                                                                                          ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* drbgProvider,
+                                                                                                                          bool predictionResistant) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom*>(randomSource, entropySource, drbgProvider, predictionResistant));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SP800SecureRandom() {}

@@ -3,15 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTreeNode_2)
 namespace IntervalTree {
-template <typename TKey, typename TValue> struct RangeValuePair_2;
+template <typename TKey, typename TValue> class IntervalTreeNode_2___c;
 }
 namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
+template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -33,31 +34,30 @@ namespace IntervalTree {
 template <typename TKey, typename TValue> class IntervalTreeNode_2;
 }
 namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
+template <typename TKey, typename TValue> class IntervalTreeNode_2___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::IntervalTree::IntervalTreeNode_2);
-MARK_GEN_REF_PTR_T(::IntervalTree::__IntervalTreeNode_2____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::IntervalTree::IntervalTreeNode_2___c);
+// Dependencies System.Object
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::IntervalTreeNode`2::<>c<TKey,TValue>*
-class CORDL_TYPE __IntervalTreeNode_2____c : public ::System::Object {
+// CS Name: IntervalTree.IntervalTreeNode`2/<>c<TKey,TValue>
+class CORDL_TYPE IntervalTreeNode_2___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::IntervalTree::IntervalTreeNode_2___c<TKey, TValue>* __9;
 
   /// @brief Field <>9__13_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* __9__13_0;
+  __declspec(property(get = getStaticF___9__13_0, put = setStaticF___9__13_0)) ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* __9__13_0;
 
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* __9__15_0;
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* __9__15_0;
 
-  static inline ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* New_ctor();
+  static inline ::IntervalTree::IntervalTreeNode_2___c<TKey, TValue>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -68,13 +68,13 @@ public:
   /// @brief Method <get_Min>b__15_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _get_Min_b__15_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
-  static inline ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* getStaticF___9();
+  static inline ::IntervalTree::IntervalTreeNode_2___c<TKey, TValue>* getStaticF___9();
 
   static inline ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* getStaticF___9__13_0();
 
   static inline ::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* getStaticF___9__15_0();
 
-  static inline void setStaticF___9(::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* value);
+  static inline void setStaticF___9(::IntervalTree::IntervalTreeNode_2___c<TKey, TValue>* value);
 
   static inline void setStaticF___9__13_0(::System::Func_2<::IntervalTree::RangeValuePair_2<TKey, TValue>, TKey>* value);
 
@@ -83,35 +83,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IntervalTreeNode_2____c();
+  constexpr IntervalTreeNode_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IntervalTreeNode_2____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IntervalTreeNode_2____c(__IntervalTreeNode_2____c&&) = delete;
+  IntervalTreeNode_2___c(IntervalTreeNode_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IntervalTreeNode_2____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IntervalTreeNode_2____c(__IntervalTreeNode_2____c const&) = delete;
+  IntervalTreeNode_2___c(IntervalTreeNode_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18950 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
-// Type: IntervalTree::IntervalTreeNode`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IntervalTree.RangeValuePair`2<TKey, TValue>, System.Collections.Generic.IComparer`1<T>, System.Object
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::IntervalTree::IntervalTreeNode`2<TKey,TValue>*
+// CS Name: IntervalTree.IntervalTreeNode`2<TKey,TValue>
 class CORDL_TYPE IntervalTreeNode_2 : public ::System::Object {
 public:
   // Declarations
-  using __c = ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>;
+  using __c = ::IntervalTree::IntervalTreeNode_2___c<TKey, TValue>;
 
   __declspec(property(get = get_Max)) TKey Max;
 
@@ -162,21 +161,21 @@ public:
 
   constexpr TKey& __cordl_internal_get_center();
 
-  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>* const& __cordl_internal_get_comparer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
   constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const& __cordl_internal_get_items() const;
 
   constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>& __cordl_internal_get_items();
 
+  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* const& __cordl_internal_get_leftNode() const;
+
   constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __cordl_internal_get_leftNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_leftNode() const;
+  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* const& __cordl_internal_get_rightNode() const;
 
   constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __cordl_internal_get_rightNode();
-
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_rightNode() const;
 
   constexpr void __cordl_internal_set_center(TKey value);
 
@@ -218,6 +217,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntervalTreeNode_2(IntervalTreeNode_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18951 };
+
   /// @brief Field center, offset: 0x10, size: 0x8, def value: None
   TKey ___center;
 
@@ -233,12 +235,9 @@ public:
   /// @brief Field comparer, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::IComparer_1<TKey>* ___comparer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18831 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::IntervalTree::IntervalTreeNode_2, "IntervalTree", "IntervalTreeNode`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::IntervalTree::__IntervalTreeNode_2____c, "IntervalTree", "IntervalTreeNode`2/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::IntervalTree::IntervalTreeNode_2___c, "IntervalTree", "IntervalTreeNode`2/<>c");

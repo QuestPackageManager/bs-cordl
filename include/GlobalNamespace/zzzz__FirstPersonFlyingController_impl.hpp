@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(
     &::GlobalNamespace::FirstPersonFlyingController::OnEnable)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3aaef20;
+  constexpr static std::size_t addrs = 0x3b0bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(
     &::GlobalNamespace::FirstPersonFlyingController::OnDisable)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x3aaf230;
+  constexpr static std::size_t addrs = 0x3b0c1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(),
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(
     &::GlobalNamespace::FirstPersonFlyingController::Update)> {
-  constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x3aaf47c;
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x3b0c418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "Update",
@@ -56,19 +56,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)(
-    ::UnityEngine::Camera*, ::GlobalNamespace::VRCenterAdjust*, ::GlobalNamespace::VRController*, ::GlobalNamespace::VRController*, ::UnityEngine::SpatialTracking::TrackedPoseDriver*)>(
+    ::UnityEngine::Camera*, ::GlobalNamespace::VRCenterAdjust*, ::GlobalNamespace::VRController*, ::GlobalNamespace::VRController*, ::UnityEngine::SpatialTracking::TrackedPoseDriver*, bool)>(
     &::GlobalNamespace::FirstPersonFlyingController::Inject)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3aafbb8;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3b0cb7c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "Inject", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRCenterAdjust*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "Inject", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRCenterAdjust*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FirstPersonFlyingController::*)()>(&::GlobalNamespace::FirstPersonFlyingController::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3aafc9c;
+  constexpr static std::size_t addrs = 0x3b0cc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), ".ctor",
@@ -187,7 +187,7 @@ constexpr ::GlobalNamespace::MouseLook*& GlobalNamespace::FirstPersonFlyingContr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseLook;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MouseLook*> const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__mouseLook() const {
+constexpr ::GlobalNamespace::MouseLook* const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__mouseLook() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mouseLook;
 }
@@ -243,6 +243,18 @@ constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____originalCameraFov = value;
 }
+constexpr bool& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__overrideDisableMovement() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideDisableMovement;
+}
+constexpr bool const& GlobalNamespace::FirstPersonFlyingController::__cordl_internal_get__overrideDisableMovement() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____overrideDisableMovement;
+}
+constexpr void GlobalNamespace::FirstPersonFlyingController::__cordl_internal_set__overrideDisableMovement(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____overrideDisableMovement = value;
+}
 inline void GlobalNamespace::FirstPersonFlyingController::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "OnEnable",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -259,23 +271,24 @@ inline void GlobalNamespace::FirstPersonFlyingController::Update() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::FirstPersonFlyingController::Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0,
-                                                                 ::GlobalNamespace::VRController* controller1, ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "Inject", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRCenterAdjust*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camera, centerAdjust, controller0, controller1, trackedPoseDriver);
-}
-inline ::GlobalNamespace::FirstPersonFlyingController* GlobalNamespace::FirstPersonFlyingController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FirstPersonFlyingController*>());
+                                                                 ::GlobalNamespace::VRController* controller1, ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver,
+                                                                 bool overrideDisableMovement) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), "Inject", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRCenterAdjust*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::VRController*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SpatialTracking::TrackedPoseDriver*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camera, centerAdjust, controller0, controller1, trackedPoseDriver, overrideDisableMovement);
 }
 inline void GlobalNamespace::FirstPersonFlyingController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FirstPersonFlyingController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FirstPersonFlyingController* GlobalNamespace::FirstPersonFlyingController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FirstPersonFlyingController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FirstPersonFlyingController::FirstPersonFlyingController() {}

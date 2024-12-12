@@ -6,7 +6,9 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -15,7 +17,7 @@ namespace Mono::Net::Security {
 class MobileTlsProvider;
 }
 namespace Mono::Net::Security {
-struct __MonoTlsStream___CreateStream_d__18;
+struct MonoTlsStream__CreateStream_d__18;
 }
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
@@ -42,22 +44,13 @@ namespace System::Net {
 struct WebExceptionStatus;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -67,26 +60,26 @@ namespace Mono::Net::Security {
 class MonoTlsStream;
 }
 namespace Mono::Net::Security {
-struct __MonoTlsStream___CreateStream_d__18;
+struct MonoTlsStream__CreateStream_d__18;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::MonoTlsStream);
-MARK_VAL_T(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18);
-// Type: ::<CreateStream>d__18
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Mono::Net::Security {
 // Is value type: true
-// CS Name: ::MonoTlsStream::<CreateStream>d__18
-struct CORDL_TYPE __MonoTlsStream___CreateStream_d__18 {
+// CS Name: Mono.Net.Security.MonoTlsStream/<CreateStream>d__18
+struct CORDL_TYPE MonoTlsStream__CreateStream_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x40b54f8, size 0x704, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x411680c, size 0x704, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x40b5bfc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x4116f10, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -94,16 +87,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MonoTlsStream___CreateStream_d__18();
+  constexpr MonoTlsStream__CreateStream_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::Mono::Net::Security::MonoTlsStream*", modifiers: "", def_value: None }, CppParam { name: "tunnel", ty: "::System::Net::WebConnectionTunnel*", modifiers: "", def_value: None }, CppParam { name:
   // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_socket_5__2", ty: "::System::Net::Sockets::Socket*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __MonoTlsStream___CreateStream_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
-                                                 ::Mono::Net::Security::MonoTlsStream* __4__this, ::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken,
-                                                 ::System::Net::Sockets::Socket* _socket_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  constexpr MonoTlsStream__CreateStream_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
+                                              ::Mono::Net::Security::MonoTlsStream* __4__this, ::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken,
+                                              ::System::Net::Sockets::Socket* _socket_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9158 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -124,43 +123,36 @@ public:
   ::System::Net::Sockets::Socket* _socket_5__2;
 
   /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9133 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, 0x50>, "Size mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, tunnel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, tunnel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, _socket_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, _socket_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, __u__1) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, 0x50>, "Size mismatch!");
 
 } // namespace Mono::Net::Security
-// Type: Mono.Net.Security::MonoTlsStream
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Net.WebExceptionStatus, System.Object
 namespace Mono::Net::Security {
 // Is value type: false
-// CS Name: ::Mono.Net.Security::MonoTlsStream*
+// CS Name: Mono.Net.Security.MonoTlsStream
 class CORDL_TYPE MonoTlsStream : public ::System::Object {
 public:
   // Declarations
-  using _CreateStream_d__18 = ::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18;
+  using _CreateStream_d__18 = ::Mono::Net::Security::MonoTlsStream__CreateStream_d__18;
 
   __declspec(property(get = get_CertificateValidationFailed, put = set_CertificateValidationFailed)) bool CertificateValidationFailed;
 
@@ -196,13 +188,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CloseSslStream, addr 0x40b5424, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CloseSslStream, addr 0x4116738, size 0xd4, virtual false, abstract: false, final false
   inline void CloseSslStream();
 
-  /// @brief Method CreateStream, addr 0x40b532c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateStream, addr 0x4116640, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateStream(::System::Net::WebConnectionTunnel* tunnel, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x40b5420, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4116734, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Mono::Net::Security::MonoTlsStream* New_ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
@@ -211,29 +203,29 @@ public:
 
   constexpr bool& __cordl_internal_get__CertificateValidationFailed_k__BackingField();
 
+  constexpr ::System::Net::Sockets::NetworkStream* const& __cordl_internal_get_networkStream() const;
+
   constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get_networkStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get_networkStream() const;
+  constexpr ::Mono::Net::Security::MobileTlsProvider* const& __cordl_internal_get_provider() const;
 
   constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __cordl_internal_get_provider() const;
+  constexpr ::System::Net::HttpWebRequest* const& __cordl_internal_get_request() const;
 
   constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get_request() const;
+  constexpr ::Mono::Security::Interface::MonoTlsSettings* const& __cordl_internal_get_settings() const;
 
   constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_settings() const;
+  constexpr ::System::Net::Security::SslStream* const& __cordl_internal_get_sslStream() const;
 
   constexpr ::System::Net::Security::SslStream*& __cordl_internal_get_sslStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get_sslStream() const;
+  constexpr ::System::Object* const& __cordl_internal_get_sslStreamLock() const;
 
   constexpr ::System::Object*& __cordl_internal_get_sslStreamLock();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_sslStreamLock() const;
 
   constexpr ::System::Net::WebExceptionStatus const& __cordl_internal_get_status() const;
 
@@ -255,22 +247,22 @@ public:
 
   constexpr void __cordl_internal_set_status(::System::Net::WebExceptionStatus value);
 
-  /// @brief Method .ctor, addr 0x40b5174, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4116488, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpWebRequest* request, ::System::Net::Sockets::NetworkStream* networkStream);
 
-  /// @brief Method get_CertificateValidationFailed, addr 0x40b5160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateValidationFailed, addr 0x4116474, size 0x8, virtual false, abstract: false, final false
   inline bool get_CertificateValidationFailed();
 
-  /// @brief Method get_ExceptionStatus, addr 0x40b5158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionStatus, addr 0x411646c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebExceptionStatus get_ExceptionStatus();
 
-  /// @brief Method get_Request, addr 0x40b5150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Request, addr 0x4116464, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_CertificateValidationFailed, addr 0x40b5168, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateValidationFailed, addr 0x411647c, size 0xc, virtual false, abstract: false, final false
   inline void set_CertificateValidationFailed(bool value);
 
 protected:
@@ -286,6 +278,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsStream", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsStream(MonoTlsStream const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
 
   /// @brief Field provider, offset: 0x10, size: 0x8, def value: None
   ::Mono::Net::Security::MobileTlsProvider* ___provider;
@@ -311,14 +306,9 @@ public:
   /// @brief Field <CertificateValidationFailed>k__BackingField, offset: 0x44, size: 0x1, def value: None
   bool ____CertificateValidationFailed_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9134 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::MonoTlsStream, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Net::Security::MonoTlsStream, ___provider) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Net::Security::MonoTlsStream, ___networkStream) == 0x18, "Offset mismatch!");
@@ -335,7 +325,9 @@ static_assert(offsetof(::Mono::Net::Security::MonoTlsStream, ___status) == 0x40,
 
 static_assert(offsetof(::Mono::Net::Security::MonoTlsStream, ____CertificateValidationFailed_k__BackingField) == 0x44, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Mono::Net::Security::MonoTlsStream, 0x48>, "Size mismatch!");
+
 } // namespace Mono::Net::Security
 NEED_NO_BOX(::Mono::Net::Security::MonoTlsStream);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::__MonoTlsStream___CreateStream_d__18, "Mono.Net.Security", "MonoTlsStream/<CreateStream>d__18");
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Net::Security::MonoTlsStream__CreateStream_d__18, "Mono.Net.Security", "MonoTlsStream/<CreateStream>d__18");

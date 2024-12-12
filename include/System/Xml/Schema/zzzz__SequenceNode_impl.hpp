@@ -7,41 +7,38 @@
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Xml/Schema/zzzz__SequenceNode_def.hpp"
 #include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
-//  Writing Method size for method: ::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext._ctor
+//  Writing Method size for method: ::System::Xml::Schema::SequenceNode_SequenceConstructPosContext._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::*)(
-    ::System::Xml::Schema::SequenceNode*, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SequenceNode_SequenceConstructPosContext::*)(
+    ::System::Xml::Schema::SequenceNode*, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*)>(&::System::Xml::Schema::SequenceNode_SequenceConstructPosContext::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4339d9c;
+  constexpr static std::size_t addrs = 0x439b0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode_SequenceConstructPosContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SequenceNode*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::BitSet*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::BitSet*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::_ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos,
-                                                                                    ::System::Xml::Schema::BitSet* lastpos) {
+inline void System::Xml::Schema::SequenceNode_SequenceConstructPosContext::_ctor(::System::Xml::Schema::SequenceNode* node, ::System::Xml::Schema::BitSet* firstpos,
+                                                                                 ::System::Xml::Schema::BitSet* lastpos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode_SequenceConstructPosContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SequenceNode*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::BitSet*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::BitSet*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, firstpos, lastpos);
 }
-// Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "firstpos", ty:
-// "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "lastposLeft", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet*", modifiers:
-// "", def_value: Some("nullptr") }]
-constexpr ::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::__SequenceNode__SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* this_,
-                                                                                                                          ::System::Xml::Schema::BitSet* firstpos,
-                                                                                                                          ::System::Xml::Schema::BitSet* lastpos,
-                                                                                                                          ::System::Xml::Schema::BitSet* lastposLeft,
-                                                                                                                          ::System::Xml::Schema::BitSet* firstposRight) noexcept {
+// Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstpos", ty: "::System::Xml::Schema::BitSet*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastposLeft", ty:
+// "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Xml::Schema::SequenceNode_SequenceConstructPosContext::SequenceNode_SequenceConstructPosContext(::System::Xml::Schema::SequenceNode* this_, ::System::Xml::Schema::BitSet* firstpos,
+                                                                                                                    ::System::Xml::Schema::BitSet* lastpos, ::System::Xml::Schema::BitSet* lastposLeft,
+                                                                                                                    ::System::Xml::Schema::BitSet* firstposRight) noexcept {
   this->this_ = this_;
   this->firstpos = firstpos;
   this->lastpos = lastpos;
@@ -49,7 +46,7 @@ constexpr ::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::__
   this->firstposRight = firstposRight;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__SequenceNode__SequenceConstructPosContext::__SequenceNode__SequenceConstructPosContext() {}
+constexpr ::System::Xml::Schema::SequenceNode_SequenceConstructPosContext::SequenceNode_SequenceConstructPosContext() {}
 //  Writing Method size for method: ::System::Xml::Schema::SequenceNode.ConstructPos
 template <>
 
@@ -57,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::SequenceNode::ConstructPos)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x4339a50;
+  constexpr static std::size_t addrs = 0x439ad64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SequenceNode::*)()>(&::System::Xml::Schema::SequenceNode::get_IsNullable)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4339dac;
+  constexpr static std::size_t addrs = 0x439b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SequenceNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::SequenceNode::ExpandTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4339f18;
+  constexpr static std::size_t addrs = 0x439b22c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::SequenceNode::*)()>(&::System::Xml::Schema::SequenceNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4339f1c;
+  constexpr static std::size_t addrs = 0x439b230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode*>::get(), ".ctor",
@@ -124,13 +121,13 @@ inline void System::Xml::Schema::SequenceNode::ExpandTree(::System::Xml::Schema:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parent, symbols, positions);
 }
-inline ::System::Xml::Schema::SequenceNode* System::Xml::Schema::SequenceNode::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SequenceNode*>());
-}
 inline void System::Xml::Schema::SequenceNode::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SequenceNode*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::SequenceNode* System::Xml::Schema::SequenceNode::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SequenceNode*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SequenceNode::SequenceNode() {}

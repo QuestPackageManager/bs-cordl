@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MediaTypeWithQualityHeaderValue)
@@ -23,24 +22,23 @@ class MediaTypeWithQualityHeaderValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue);
-// Type: System.Net.Http.Headers::MediaTypeWithQualityHeaderValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.Headers.MediaTypeHeaderValue
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::MediaTypeWithQualityHeaderValue*
+// CS Name: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
 class CORDL_TYPE MediaTypeWithQualityHeaderValue : public ::System::Net::Http::Headers::MediaTypeHeaderValue {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x41c18b0, size 0xb0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
+  /// @brief Method TryParse, addr 0x4222bc4, size 0xb0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x41c1744, size 0x16c, virtual false, abstract: false, final false
-  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
-                                     ByRef<::System::Net::Http::Headers::Token> t);
+  /// @brief Method TryParseElement, addr 0x4222a58, size 0x16c, virtual false, abstract: false, final false
+  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
+                                     ::ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x41c173c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4222a50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +56,7 @@ public:
   MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16721 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

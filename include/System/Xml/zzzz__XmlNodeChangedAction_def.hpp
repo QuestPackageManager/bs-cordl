@@ -12,11 +12,10 @@ struct XmlNodeChangedAction;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::XmlNodeChangedAction);
-// Type: System.Xml::XmlNodeChangedAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::XmlNodeChangedAction
+// CS Name: System.Xml.XmlNodeChangedAction
 struct CORDL_TYPE XmlNodeChangedAction {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlNodeChangedAction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Change value: static_cast<int32_t>(0x2)
+  /// @brief Field Change value: I32(2)
   static ::System::Xml::XmlNodeChangedAction const Change;
 
-  /// @brief Field Insert value: static_cast<int32_t>(0x0)
+  /// @brief Field Insert value: I32(0)
   static ::System::Xml::XmlNodeChangedAction const Insert;
 
-  /// @brief Field Remove value: static_cast<int32_t>(0x1)
+  /// @brief Field Remove value: I32(1)
   static ::System::Xml::XmlNodeChangedAction const Remove;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7296 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedAction, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlNodeChangedAction, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedAction, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeChangedAction, "System.Xml", "XmlNodeChangedAction");

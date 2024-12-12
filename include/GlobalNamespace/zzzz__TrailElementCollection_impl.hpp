@@ -6,19 +6,19 @@
 #include "GlobalNamespace/zzzz__TrailElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "segmentIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "segmentLerp", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__TrailElementCollection__InterpolationState::__TrailElementCollection__InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept {
+constexpr ::GlobalNamespace::TrailElementCollection_InterpolationState::TrailElementCollection_InterpolationState(int32_t segmentIndex, float_t segmentLerp) noexcept {
   this->segmentIndex = segmentIndex;
   this->segmentLerp = segmentLerp;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__TrailElementCollection__InterpolationState::__TrailElementCollection__InterpolationState() {}
+constexpr ::GlobalNamespace::TrailElementCollection_InterpolationState::TrailElementCollection_InterpolationState() {}
 //  Writing Method size for method: ::GlobalNamespace::TrailElementCollection._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TrailElementCollection::*)(int32_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::TrailElementCollection::_ctor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4024944;
+  constexpr static std::size_t addrs = 0x4085c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::InitSnapshots)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4024cf4;
+  constexpr static std::size_t addrs = 0x4086008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t)>(
     &::GlobalNamespace::TrailElementCollection::SetHeadData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x402515c;
+  constexpr static std::size_t addrs = 0x4086470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::MoveTailToHead)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4025210;
+  constexpr static std::size_t addrs = 0x4086524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)()>(&::GlobalNamespace::TrailElementCollection::UpdateDistances)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40252ac;
+  constexpr static std::size_t addrs = 0x40865c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(),
@@ -93,19 +93,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(
-    float_t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<float_t>)>(
+    float_t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<float_t>)>(
     &::GlobalNamespace::TrailElementCollection::Interpolate)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x402613c;
+  constexpr static std::size_t addrs = 0x4087450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), "Interpolate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -113,15 +113,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrailElementCollection::*)(
-    float_t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>)>(&::GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
+    float_t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>)>(&::GlobalNamespace::TrailElementCollection::UpdateLerpState)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x40266e0;
+  constexpr static std::size_t addrs = 0x40879f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), "UpdateLerpState", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>>::get() })));
     return ___internal_method;
   }
 };
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TrailElement* (::GlobalNamespace::TrailElementCollection::*)(int32_t)>(
     &::GlobalNamespace::TrailElementCollection::GetElement)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x40267f8;
+  constexpr static std::size_t addrs = 0x4087b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,10 +188,6 @@ constexpr void GlobalNamespace::TrailElementCollection::__cordl_internal_set__to
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____totalDistance = value;
 }
-inline ::GlobalNamespace::TrailElementCollection* GlobalNamespace::TrailElementCollection::New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition,
-                                                                                                    ::UnityEngine::Vector3 defaultEndPosition, float_t time) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TrailElementCollection*>(capacity, defaultStartPosition, defaultEndPosition, time));
-}
 inline void GlobalNamespace::TrailElementCollection::_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -226,22 +222,22 @@ inline void GlobalNamespace::TrailElementCollection::UpdateDistances() {
                                                                              "UpdateDistances", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TrailElementCollection::Interpolate(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> lerpState, ByRef<::UnityEngine::Vector3> position,
-                                                                 ByRef<::UnityEngine::Vector3> normal, ByRef<float_t> time) {
+inline void GlobalNamespace::TrailElementCollection::Interpolate(float_t t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState> lerpState, ::ByRef<::UnityEngine::Vector3> position,
+                                                                 ::ByRef<::UnityEngine::Vector3> normal, ::ByRef<float_t> time) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), "Interpolate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, lerpState, position, normal, time);
 }
-inline void GlobalNamespace::TrailElementCollection::UpdateLerpState(float_t t, ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState> interpolationState) {
+inline void GlobalNamespace::TrailElementCollection::UpdateLerpState(float_t t, ::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState> interpolationState) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), "UpdateLerpState", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__TrailElementCollection__InterpolationState>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::TrailElementCollection_InterpolationState>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t, interpolationState);
 }
 inline ::GlobalNamespace::TrailElement* GlobalNamespace::TrailElementCollection::GetElement(int32_t index) {
@@ -249,6 +245,10 @@ inline ::GlobalNamespace::TrailElement* GlobalNamespace::TrailElementCollection:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrailElementCollection*>::get(), "GetElement",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::TrailElement*, false>(this, ___internal_method, index);
+}
+inline ::GlobalNamespace::TrailElementCollection* GlobalNamespace::TrailElementCollection::New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition,
+                                                                                                    ::UnityEngine::Vector3 defaultEndPosition, float_t time) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TrailElementCollection*>(capacity, defaultStartPosition, defaultEndPosition, time));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TrailElementCollection::TrailElementCollection() {}

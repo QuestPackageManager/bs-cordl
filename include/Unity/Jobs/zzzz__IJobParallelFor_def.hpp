@@ -11,27 +11,22 @@ class IJobParallelFor;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Jobs::IJobParallelFor);
-// Type: Unity.Jobs::IJobParallelFor
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Jobs {
 // Is value type: false
-// CS Name: ::Unity.Jobs::IJobParallelFor*
+// CS Name: Unity.Jobs.IJobParallelFor
 class CORDL_TYPE IJobParallelFor {
 public:
   // Declarations
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Execute(int32_t index);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IJobParallelFor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IJobParallelFor(IJobParallelFor&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelFor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IJobParallelFor(IJobParallelFor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

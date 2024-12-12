@@ -11,7 +11,7 @@ namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-struct __InputProcessor__CachingPolicy;
+struct InputProcessor_CachingPolicy;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -22,29 +22,28 @@ class CompensateRotationProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor);
-// Type: UnityEngine.InputSystem.Processors::CompensateRotationProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>, UnityEngine.Quaternion
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::CompensateRotationProcessor*
+// CS Name: UnityEngine.InputSystem.Processors.CompensateRotationProcessor
 class CORDL_TYPE CompensateRotationProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Quaternion> {
 public:
   // Declarations
-  __declspec(property(get = get_cachingPolicy)) ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy cachingPolicy;
+  __declspec(property(get = get_cachingPolicy)) ::UnityEngine::InputSystem::InputProcessor_CachingPolicy cachingPolicy;
 
   static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b5de0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x46170f4, size 0x210, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b5ff0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4617304, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45b6038, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461734c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachingPolicy, addr 0x45b6030, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy get_cachingPolicy();
+  /// @brief Method get_cachingPolicy, addr 0x4617344, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
 
 protected:
   // Ctor Parameters []
@@ -61,7 +60,7 @@ public:
   CompensateRotationProcessor(CompensateRotationProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

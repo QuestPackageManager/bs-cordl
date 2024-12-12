@@ -10,26 +10,21 @@ template <typename T> class IConnectionInitParams_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::IConnectionInitParams_1);
-// Type: ::IConnectionInitParams`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::IConnectionInitParams`1<T>*
+// CS Name: IConnectionInitParams`1<T>
 class CORDL_TYPE IConnectionInitParams_1 {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IConnectionInitParams_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IConnectionInitParams_1(IConnectionInitParams_1&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IConnectionInitParams_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IConnectionInitParams_1(IConnectionInitParams_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

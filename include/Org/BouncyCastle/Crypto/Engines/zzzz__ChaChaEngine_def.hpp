@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Salsa20Engine_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChaChaEngine)
@@ -14,42 +13,41 @@ class ChaChaEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::ChaChaEngine);
-// Type: Org.BouncyCastle.Crypto.Engines::ChaChaEngine
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Engines.Salsa20Engine
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::ChaChaEngine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.ChaChaEngine
 class CORDL_TYPE ChaChaEngine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
-  /// @brief Method AdvanceCounter, addr 0x2320c7c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AdvanceCounter, addr 0x2353f68, size 0x4c, virtual true, abstract: false, final false
   inline void AdvanceCounter();
 
-  /// @brief Method ChachaCore, addr 0x2320508, size 0x638, virtual false, abstract: false, final false
+  /// @brief Method ChachaCore, addr 0x23537f4, size 0x638, virtual false, abstract: false, final false
   static inline void ChachaCore(int32_t rounds, ::ArrayW<uint32_t, ::Array<uint32_t>*> input, ::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method GenerateKeyStream, addr 0x2320df8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyStream, addr 0x23540e4, size 0x3c, virtual true, abstract: false, final false
   inline void GenerateKeyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ChaChaEngine* New_ctor(int32_t rounds);
 
-  /// @brief Method ResetCounter, addr 0x2320cc8, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ResetCounter, addr 0x2353fb4, size 0x2c, virtual true, abstract: false, final false
   inline void ResetCounter();
 
-  /// @brief Method SetKey, addr 0x2320cf4, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x2353fe0, size 0x104, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method .ctor, addr 0x2320b40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2353e2c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2320b94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2353e80, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t rounds);
 
-  /// @brief Method get_AlgorithmName, addr 0x2320bf8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2353ee4, size 0x84, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

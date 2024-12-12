@@ -3,20 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HoverTextSetter)
 namespace HMUI {
 class HoverTextController;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -27,11 +21,10 @@ class HoverTextSetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::HoverTextSetter);
-// Type: HMUI::HoverTextSetter
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerExitHandler, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::HoverTextSetter*
+// CS Name: HMUI.HoverTextSetter
 class CORDL_TYPE HoverTextSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -54,13 +47,13 @@ public:
 
   static inline ::HMUI::HoverTextSetter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x399908c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39efc8c, size 0x18, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x3999054, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x39efc54, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x3999074, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x39efc74, size 0x18, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverTextController> const& __cordl_internal_get__hoverTextController() const;
@@ -75,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39990a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39efca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3999044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x39efc44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -90,7 +83,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x399904c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x39efc4c, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -107,23 +100,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HoverTextSetter(HoverTextSetter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16044 };
+
   /// @brief Field _hoverTextController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverTextController> ____hoverTextController;
 
   /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
   ::StringW ____text;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16009 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::HoverTextSetter, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::HoverTextSetter, ____hoverTextController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::HoverTextSetter, ____text) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::HoverTextSetter, 0x30>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::HoverTextSetter);

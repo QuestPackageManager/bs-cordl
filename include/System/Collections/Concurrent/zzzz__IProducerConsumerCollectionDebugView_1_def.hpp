@@ -11,13 +11,12 @@ template <typename T> class IProducerConsumerCollectionDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Concurrent::IProducerConsumerCollectionDebugView_1);
-// Type: System.Collections.Concurrent::IProducerConsumerCollectionDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Concurrent::IProducerConsumerCollectionDebugView`1<T>*
+// CS Name: System.Collections.Concurrent.IProducerConsumerCollectionDebugView`1<T>
 class CORDL_TYPE IProducerConsumerCollectionDebugView_1 : public ::System::Object {
 public:
   // Declarations

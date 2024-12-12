@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23c8270;
+  constexpr static std::size_t addrs = 0x23fb55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23c83ec;
+  constexpr static std::size_t addrs = 0x23fb6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)(
     ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23c8538;
+  constexpr static std::size_t addrs = 0x23fb824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::ToAsn1Object)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x23c8564;
+  constexpr static std::size_t addrs = 0x23fb850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::get_AdmissionAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c8678;
+  constexpr static std::size_t addrs = 0x23fb964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*> (::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetContentsOfAdmissions)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x23c8680;
+  constexpr static std::size_t addrs = 0x23fb96c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +106,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___admissionAuthority;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const&
-Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::__cordl_internal_get_admissionAuthority() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::__cordl_internal_get_admissionAuthority() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___admissionAuthority;
 }
@@ -119,8 +118,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Isi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentsOfAdmissions;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const&
-Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::__cordl_internal_get_contentsOfAdmissions() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::__cordl_internal_get_contentsOfAdmissions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentsOfAdmissions;
 }
@@ -134,18 +132,11 @@ inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* Org::BouncyCas
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
-                                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>(admissionAuthority, contentsOfAdmissions));
 }
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
                                                                            ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions) {
@@ -174,6 +165,13 @@ Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::GetContentsOfAdmissions
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*, ::Array<::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions*>*>, false>(
       this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax* Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority,
+                                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Sequence* contentsOfAdmissions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax*>(admissionAuthority, contentsOfAdmissions));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdmissionSyntax::AdmissionSyntax() {}

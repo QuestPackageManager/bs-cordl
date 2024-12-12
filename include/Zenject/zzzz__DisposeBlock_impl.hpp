@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/DisposeBlock.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposeBlock_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -19,20 +20,20 @@
 #include "Zenject/zzzz__IMemoryPool_8_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
-// Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::Zenject::__DisposeBlock__SpawnedObjectPoolPair::__DisposeBlock__SpawnedObjectPoolPair(::Zenject::IMemoryPool* Pool, ::System::Object* Object) noexcept {
+// Ctor Parameters [CppParam { name: "Pool", ty: "::Zenject::IMemoryPool*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Object", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::Zenject::DisposeBlock_SpawnedObjectPoolPair::DisposeBlock_SpawnedObjectPoolPair(::Zenject::IMemoryPool* Pool, ::System::Object* Object) noexcept {
   this->Pool = Pool;
   this->Object = Object;
 }
 // Ctor Parameters []
-constexpr ::Zenject::__DisposeBlock__SpawnedObjectPoolPair::__DisposeBlock__SpawnedObjectPoolPair() {}
+constexpr ::Zenject::DisposeBlock_SpawnedObjectPoolPair::DisposeBlock_SpawnedObjectPoolPair() {}
 //  Writing Method size for method: ::Zenject::DisposeBlock.OnSpawned
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnSpawned)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4aec3dc;
+  constexpr static std::size_t addrs = 0x4b50cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnDespawned)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x4aec408;
+  constexpr static std::size_t addrs = 0x4b50d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::LazyInitializeDisposableList)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4aec768;
+  constexpr static std::size_t addrs = 0x4b51078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "LazyInitializeDisposableList",
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Add)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4aec85c;
+  constexpr static std::size_t addrs = 0x4b5116c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Remove)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4aec940;
+  constexpr static std::size_t addrs = 0x4b51250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DisposeBlock* (*)()>(&::Zenject::DisposeBlock::Spawn)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4aec9a4;
+  constexpr static std::size_t addrs = 0x4b512b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "Spawn",
@@ -114,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::Dispose)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aeca1c;
+  constexpr static std::size_t addrs = 0x4b5132c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "Dispose",
@@ -127,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeca9c;
+  constexpr static std::size_t addrs = 0x4b513ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), ".ctor",
@@ -135,19 +136,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Zenject::DisposeBlock::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Zenject::DisposeBlock::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& Zenject::DisposeBlock::__cordl_internal_get__disposables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& Zenject::DisposeBlock::__cordl_internal_get__disposables() const {
+constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>* const& Zenject::DisposeBlock::__cordl_internal_get__disposables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
@@ -155,16 +148,15 @@ constexpr void Zenject::DisposeBlock::__cordl_internal_set__disposables(::System
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*& Zenject::DisposeBlock::__cordl_internal_get__objectPoolPairs() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposeBlock_SpawnedObjectPoolPair>*& Zenject::DisposeBlock::__cordl_internal_get__objectPoolPairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectPoolPairs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>*> const&
-Zenject::DisposeBlock::__cordl_internal_get__objectPoolPairs() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposeBlock_SpawnedObjectPoolPair>* const& Zenject::DisposeBlock::__cordl_internal_get__objectPoolPairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objectPoolPairs;
 }
-constexpr void Zenject::DisposeBlock::__cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value) {
+constexpr void Zenject::DisposeBlock::__cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::DisposeBlock_SpawnedObjectPoolPair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectPoolPairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -377,13 +369,21 @@ inline void Zenject::DisposeBlock::Dispose() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Zenject::DisposeBlock* Zenject::DisposeBlock::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposeBlock*>());
-}
 inline void Zenject::DisposeBlock::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::DisposeBlock* Zenject::DisposeBlock::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposeBlock*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Zenject::DisposeBlock::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Zenject::DisposeBlock::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::DisposeBlock::DisposeBlock() {}

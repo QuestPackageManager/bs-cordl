@@ -4,20 +4,20 @@
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason::__ArrayPoolEventSource__BufferAllocatedReason(int32_t value__) noexcept {
+constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::ArrayPoolEventSource_BufferAllocatedReason(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason::__ArrayPoolEventSource__BufferAllocatedReason() {}
-constexpr ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason::Pooled{ static_cast<int32_t>(0x0) };
-constexpr ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason::OverMaximumSize{ static_cast<int32_t>(0x1) };
-constexpr ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason::PoolExhausted{ static_cast<int32_t>(0x2) };
+constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::ArrayPoolEventSource_BufferAllocatedReason() {}
+constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::Pooled{ static_cast<int32_t>(0x0) };
+constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::OverMaximumSize{ static_cast<int32_t>(0x1) };
+constexpr ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason System::Buffers::ArrayPoolEventSource_BufferAllocatedReason::PoolExhausted{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::System::Buffers::ArrayPoolEventSource._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)()>(&::System::Buffers::ArrayPoolEventSource::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3d68238;
+  constexpr static std::size_t addrs = 0x3dc83ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), ".ctor",
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferRented)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d682e4;
+  constexpr static std::size_t addrs = 0x3dc8458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,16 +45,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(
-    int32_t, int32_t, int32_t, int32_t, ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason)>(&::System::Buffers::ArrayPoolEventSource::BufferAllocated)> {
+    int32_t, int32_t, int32_t, int32_t, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason)>(&::System::Buffers::ArrayPoolEventSource::BufferAllocated)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d683d0;
+  constexpr static std::size_t addrs = 0x3dc8544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), "BufferAllocated", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason>::get() })));
     return ___internal_method;
   }
 };
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferReturned)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d684dc;
+  constexpr static std::size_t addrs = 0x3dc8650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferTrimmed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d684ec;
+  constexpr static std::size_t addrs = 0x3dc8660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Buffers::ArrayPoolEventSource::*)(int32_t, int32_t)>(
     &::System::Buffers::ArrayPoolEventSource::BufferTrimPoll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d684fc;
+  constexpr static std::size_t addrs = 0x3dc8670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,9 +112,6 @@ inline void System::Buffers::ArrayPoolEventSource::setStaticF_Log(::System::Buff
 inline ::System::Buffers::ArrayPoolEventSource* System::Buffers::ArrayPoolEventSource::getStaticF_Log() {
   return ::cordl_internals::getStaticField<::System::Buffers::ArrayPoolEventSource*, "Log", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get>();
 }
-inline ::System::Buffers::ArrayPoolEventSource* System::Buffers::ArrayPoolEventSource::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::ArrayPoolEventSource*>());
-}
 inline void System::Buffers::ArrayPoolEventSource::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -128,12 +125,12 @@ inline void System::Buffers::ArrayPoolEventSource::BufferRented(int32_t bufferId
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bufferId, bufferSize, poolId, bucketId);
 }
 inline void System::Buffers::ArrayPoolEventSource::BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId,
-                                                                   ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason reason) {
+                                                                   ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason reason) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), "BufferAllocated", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bufferId, bufferSize, poolId, bucketId, reason);
 }
 inline void System::Buffers::ArrayPoolEventSource::BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId) {
@@ -155,6 +152,9 @@ inline void System::Buffers::ArrayPoolEventSource::BufferTrimPoll(int32_t millis
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::ArrayPoolEventSource*>::get(), "BufferTrimPoll", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, milliseconds, pressure);
+}
+inline ::System::Buffers::ArrayPoolEventSource* System::Buffers::ArrayPoolEventSource::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::ArrayPoolEventSource*>());
 }
 // Ctor Parameters []
 constexpr ::System::Buffers::ArrayPoolEventSource::ArrayPoolEventSource() {}

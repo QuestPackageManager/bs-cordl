@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434c8b4;
+  constexpr static std::size_t addrs = 0x43adbc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434c90c;
+  constexpr static std::size_t addrs = 0x43adc20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_unsignedLong::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_unsignedLong::Compare)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x434c914;
+  constexpr static std::size_t addrs = 0x43adc28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434c9a8;
+  constexpr static std::size_t addrs = 0x43adcbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_unsignedLong::*)()>(
     &::System::Xml::Schema::Datatype_unsignedLong::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434ca00;
+  constexpr static std::size_t addrs = 0x43add14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,10 +88,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_unsignedLong::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::System::Object*>)>(
+    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_unsignedLong::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_unsignedLong::TryParseValue)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x434ca58;
+  constexpr static std::size_t addrs = 0x43add6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_unsignedLong::*)()>(&::System::Xml::Schema::Datatype_unsignedLong::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4343298;
+  constexpr static std::size_t addrs = 0x43a45ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedLong*>::get(), ".ctor",
@@ -162,18 +162,18 @@ inline ::System::Type* System::Xml::Schema::Datatype_unsignedLong::get_ListValue
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::System::Exception* System::Xml::Schema::Datatype_unsignedLong::TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr,
-                                                                                      ByRef<::System::Object*> typedValue) {
+                                                                                      ::ByRef<::System::Object*> typedValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedLong*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, s, nameTable, nsmgr, typedValue);
-}
-inline ::System::Xml::Schema::Datatype_unsignedLong* System::Xml::Schema::Datatype_unsignedLong::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_unsignedLong*>());
 }
 inline void System::Xml::Schema::Datatype_unsignedLong::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_unsignedLong*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_unsignedLong* System::Xml::Schema::Datatype_unsignedLong::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_unsignedLong*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_unsignedLong::Datatype_unsignedLong() {}

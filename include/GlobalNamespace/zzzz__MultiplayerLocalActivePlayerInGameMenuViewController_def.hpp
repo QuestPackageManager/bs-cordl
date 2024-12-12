@@ -45,11 +45,10 @@ class MultiplayerLocalActivePlayerInGameMenuViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController);
-// Type: ::MultiplayerLocalActivePlayerInGameMenuViewController
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalActivePlayerInGameMenuViewController*
+// CS Name: MultiplayerLocalActivePlayerInGameMenuViewController
 class CORDL_TYPE MultiplayerLocalActivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -109,48 +108,48 @@ public:
   /// @brief Field didPressResumeButtonEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressResumeButtonEvent, put = __cordl_internal_set_didPressResumeButtonEvent)) ::System::Action* didPressResumeButtonEvent;
 
-  /// @brief Method Awake, addr 0x3b47adc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ba91cc, size 0x1c4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisconnectButtonPressed, addr 0x3b47f10, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DisconnectButtonPressed, addr 0x3ba9600, size 0x34, virtual false, abstract: false, final false
   inline void DisconnectButtonPressed();
 
-  /// @brief Method GiveUpButtonPressed, addr 0x3b48010, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GiveUpButtonPressed, addr 0x3ba9700, size 0x4c, virtual false, abstract: false, final false
   inline void GiveUpButtonPressed();
 
-  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3b47f44, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectPromptViewDidViewFinish, addr 0x3ba9634, size 0xcc, virtual false, abstract: false, final false
   inline void HandleDisconnectPromptViewDidViewFinish(bool disconnect);
 
-  /// @brief Method HideMenu, addr 0x3b47864, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideMenu, addr 0x3ba8f54, size 0x44, virtual false, abstract: false, final false
   inline void HideMenu();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b47d50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba9440, size 0xa0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ResumeButtonPressed, addr 0x3b47ed8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ResumeButtonPressed, addr 0x3ba95c8, size 0x38, virtual false, abstract: false, final false
   inline void ResumeButtonPressed();
 
-  /// @brief Method ShowMenu, addr 0x3b47814, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x3ba8f04, size 0x50, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method Start, addr 0x3b47ca0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba9390, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b47df0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba94e0, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3b48064, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <HandleDisconnectPromptViewDidViewFinish>b__32_0, addr 0x3ba9754, size 0x20, virtual false, abstract: false, final false
   inline void _HandleDisconnectPromptViewDidViewFinish_b__32_0();
+
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr float_t const& __cordl_internal_get__disabledInteractionRemainingTime() const;
 
@@ -164,9 +163,9 @@ public:
 
   constexpr ::UnityW<::BGLib::Polyglot::LocalizedTextMeshProUGUI>& __cordl_internal_get__disconnectButtonLocalizedText();
 
-  constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& __cordl_internal_get__disconnectHelper();
+  constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* const& __cordl_internal_get__disconnectHelper() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*> const& __cordl_internal_get__disconnectHelper() const;
+  constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& __cordl_internal_get__disconnectHelper();
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get__disconnectPromptView() const;
 
@@ -180,9 +179,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData*& __cordl_internal_get__localPlayerInGameMenuInitData();
+  constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData* const& __cordl_internal_get__localPlayerInGameMenuInitData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalPlayerInGameMenuInitData*> const& __cordl_internal_get__localPlayerInGameMenuInitData() const;
+  constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData*& __cordl_internal_get__localPlayerInGameMenuInitData();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__mainBar() const;
 
@@ -200,21 +199,21 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__resumeButton();
 
+  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressDisconnectButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressDisconnectButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressDisconnectButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressGiveUpButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressGiveUpButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressGiveUpButtonEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didPressResumeButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressResumeButtonEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressResumeButtonEvent() const;
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -252,25 +251,25 @@ public:
 
   constexpr void __cordl_internal_set_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b4805c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba974c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3b46ff0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressDisconnectButtonEvent, addr 0x3ba86e0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3b47128, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressGiveUpButtonEvent, addr 0x3ba8818, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressResumeButtonEvent, addr 0x3b4708c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressResumeButtonEvent, addr 0x3ba877c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressResumeButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3b4750c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressDisconnectButtonEvent, addr 0x3ba8bfc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressDisconnectButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3b47644, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressGiveUpButtonEvent, addr 0x3ba8d34, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressGiveUpButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3b475a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressResumeButtonEvent, addr 0x3ba8c98, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressResumeButtonEvent(::System::Action* value);
 
 protected:
@@ -286,6 +285,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerInGameMenuViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActivePlayerInGameMenuViewController(MultiplayerLocalActivePlayerInGameMenuViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4431 };
+
+  /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
+  static constexpr float_t kDisabledInteractionDuration{ static_cast<float_t>(0.2f) };
 
   /// @brief Field _disconnectButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____disconnectButton;
@@ -341,17 +346,9 @@ public:
   /// @brief Field _disabledInteractionRemainingTime, offset: 0xa8, size: 0x4, def value: None
   float_t ____disabledInteractionRemainingTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4419 };
-
-  /// @brief Field kDisabledInteractionDuration offset 0xffffffff size 0x4
-  static constexpr float_t kDisabledInteractionDuration{ 0.2 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, ____disconnectButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, ____disconnectButtonLocalizedText) == 0x28, "Offset mismatch!");
@@ -387,6 +384,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenu
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, ____buttonBinder) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, ____disabledInteractionRemainingTime) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerInGameMenuViewController);

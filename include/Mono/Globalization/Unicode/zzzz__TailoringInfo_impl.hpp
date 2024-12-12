@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::TailoringInfo::*)(int32_t, int32_t, int32_t, bool)>(
     &::Mono::Globalization::Unicode::TailoringInfo::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3bf6d70;
+  constexpr static std::size_t addrs = 0x3c56e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,15 +66,15 @@ constexpr void Mono::Globalization::Unicode::TailoringInfo::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FrenchSort = value;
 }
-inline ::Mono::Globalization::Unicode::TailoringInfo* Mono::Globalization::Unicode::TailoringInfo::New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Globalization::Unicode::TailoringInfo*>(lcid, tailoringIndex, tailoringCount, frenchSort));
-}
 inline void Mono::Globalization::Unicode::TailoringInfo::_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::TailoringInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lcid, tailoringIndex, tailoringCount, frenchSort);
+}
+inline ::Mono::Globalization::Unicode::TailoringInfo* Mono::Globalization::Unicode::TailoringInfo::New_ctor(int32_t lcid, int32_t tailoringIndex, int32_t tailoringCount, bool frenchSort) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Globalization::Unicode::TailoringInfo*>(lcid, tailoringIndex, tailoringCount, frenchSort));
 }
 // Ctor Parameters []
 constexpr ::Mono::Globalization::Unicode::TailoringInfo::TailoringInfo() {}

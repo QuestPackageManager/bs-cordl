@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsText)
@@ -22,11 +23,10 @@ class G_FpsText;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsText);
-// Type: Tayx.Graphy.Fps::G_FpsText
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Fps::G_FpsText*
+// CS Name: Tayx.Graphy.Fps.G_FpsText
 class CORDL_TYPE G_FpsText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -66,21 +66,21 @@ public:
   /// @brief Field m_zero1PercentFpsText, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_zero1PercentFpsText, put = __cordl_internal_set_m_zero1PercentFpsText)) ::UnityW<::UnityEngine::UI::Text> m_zero1PercentFpsText;
 
-  /// @brief Method Awake, addr 0x4471794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x44d2aa8, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x44710fc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d2410, size 0x144, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method SetFpsRelatedTextColor, addr 0x4471aa4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetFpsRelatedTextColor, addr 0x44d2db8, size 0x80, virtual false, abstract: false, final false
   inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
-  /// @brief Method Update, addr 0x4471798, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d2aac, size 0x30c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x44710dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d23f0, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_avgFpsText() const;
@@ -155,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentFpsText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x4471b24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d2e38, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,6 +171,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_FpsText(G_FpsText const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
+
+  /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
+  static constexpr ::ConstString m_msStringFormat{ u"0.0" };
 
   /// @brief Field m_fpsText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___m_fpsText;
@@ -208,17 +214,9 @@ public:
   /// @brief Field m_ms, offset: 0x68, size: 0x4, def value: None
   float_t ___m_ms;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17095 };
-
-  /// @brief Field m_msStringFormat offset 0xffffffff size 0x8
-  static constexpr ::ConstString m_msStringFormat{ u"0.0" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsText, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fpsText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_msText) == 0x28, "Offset mismatch!");
@@ -242,6 +240,8 @@ static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_deltaTime) == 0x60, 
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_fps) == 0x64, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsText, ___m_ms) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsText, 0x70>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Fps
 NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsText);

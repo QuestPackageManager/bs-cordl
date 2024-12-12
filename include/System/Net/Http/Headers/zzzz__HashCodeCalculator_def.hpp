@@ -15,11 +15,10 @@ class HashCodeCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::HashCodeCalculator);
-// Type: System.Net.Http.Headers::HashCodeCalculator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::HashCodeCalculator*
+// CS Name: System.Net.Http.Headers.HashCodeCalculator
 class CORDL_TYPE HashCodeCalculator : public ::System::Object {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
   HashCodeCalculator(HashCodeCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16701 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

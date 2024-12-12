@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFScene)
@@ -31,11 +30,10 @@ struct OVRGLTFScene;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::OVRGLTFScene);
-// Type: ::OVRGLTFScene
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRGLTFScene
+// CS Name: OVRGLTFScene
 struct CORDL_TYPE OVRGLTFScene {
 public:
   // Declarations
@@ -55,6 +53,12 @@ public:
       ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* animationNodeLookup,
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* morphTargetHandlers) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7878 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
   /// @brief Field root, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> root;
 
@@ -70,17 +74,9 @@ public:
   /// @brief Field morphTargetHandlers, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* morphTargetHandlers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFScene, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRGLTFScene, root) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGLTFScene, nodes) == 0x8, "Offset mismatch!");
@@ -90,6 +86,8 @@ static_assert(offsetof(::GlobalNamespace::OVRGLTFScene, animationNodes) == 0x10,
 static_assert(offsetof(::GlobalNamespace::OVRGLTFScene, animationNodeLookup) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGLTFScene, morphTargetHandlers) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFScene, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFScene, "", "OVRGLTFScene");

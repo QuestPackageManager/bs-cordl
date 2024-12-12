@@ -18,18 +18,17 @@ struct SelectorMatchRecord;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord);
-// Type: UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
+// CS Name: UnityEngine.UIElements.StyleSheets.SelectorMatchRecord
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method Compare, addr 0x4972b3c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x49d744c, size 0xec, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
-  /// @brief Method .ctor, addr 0x4972b28, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49d7438, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
   // Ctor Parameters []
@@ -40,6 +39,12 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty: "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: None }]
   constexpr SelectorMatchRecord(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, int32_t styleSheetIndexInStack, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6453 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet;
 
@@ -49,22 +54,16 @@ public:
   /// @brief Field complexSelector, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleComplexSelector* complexSelector;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, sheet) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, styleSheetIndexInStack) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, complexSelector) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, "UnityEngine.UIElements.StyleSheets", "SelectorMatchRecord");

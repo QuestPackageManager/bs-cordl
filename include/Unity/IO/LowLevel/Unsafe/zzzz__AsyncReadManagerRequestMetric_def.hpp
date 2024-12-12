@@ -12,29 +12,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncReadManagerRequestMetric)
-namespace Unity::IO::LowLevel::Unsafe {
-struct AssetLoadingSubsystem;
-}
-namespace Unity::IO::LowLevel::Unsafe {
-struct FileReadType;
-}
-namespace Unity::IO::LowLevel::Unsafe {
-struct Priority;
-}
-namespace Unity::IO::LowLevel::Unsafe {
-struct ProcessingState;
-}
 // Forward declare root types
 namespace Unity::IO::LowLevel::Unsafe {
 struct AsyncReadManagerRequestMetric;
 }
 // Write type traits
 MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric);
-// Type: Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.IO.LowLevel.Unsafe.AssetLoadingSubsystem, Unity.IO.LowLevel.Unsafe.FileReadType, Unity.IO.LowLevel.Unsafe.Priority, Unity.IO.LowLevel.Unsafe.ProcessingState
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
-// CS Name: ::Unity.IO.LowLevel.Unsafe::AsyncReadManagerRequestMetric
+// CS Name: Unity.IO.LowLevel.Unsafe.AsyncReadManagerRequestMetric
 struct CORDL_TYPE AsyncReadManagerRequestMetric {
 public:
   // Declarations
@@ -57,6 +44,12 @@ public:
                                           ::Unity::IO::LowLevel::Unsafe::FileReadType _ReadType_k__BackingField, ::Unity::IO::LowLevel::Unsafe::Priority _PriorityLevel_k__BackingField,
                                           ::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem _Subsystem_k__BackingField, double_t _RequestTimeMicroseconds_k__BackingField,
                                           double_t _TimeInQueueMicroseconds_k__BackingField, double_t _TotalTimeMicroseconds_k__BackingField) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10581 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field <AssetName>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _AssetName_k__BackingField;
@@ -103,17 +96,9 @@ public:
   /// @brief Field <TotalTimeMicroseconds>k__BackingField, offset: 0x58, size: 0x8, def value: None
   double_t _TotalTimeMicroseconds_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10548 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _AssetName_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _FileName_k__BackingField) == 0x8, "Offset mismatch!");
@@ -143,6 +128,8 @@ static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMet
 static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _TimeInQueueMicroseconds_k__BackingField) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, _TotalTimeMicroseconds_k__BackingField) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, 0x60>, "Size mismatch!");
 
 } // namespace Unity::IO::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::IO::LowLevel::Unsafe::AsyncReadManagerRequestMetric, "Unity.IO.LowLevel.Unsafe", "AsyncReadManagerRequestMetric");

@@ -16,11 +16,10 @@ class LoadLocalFromClosureBoxedInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction);
-// Type: System.Linq.Expressions.Interpreter::LoadLocalFromClosureBoxedInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.LocalAccessInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::LoadLocalFromClosureBoxedInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.LoadLocalFromClosureBoxedInstruction
 class CORDL_TYPE LoadLocalFromClosureBoxedInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction {
 public:
   // Declarations
@@ -30,16 +29,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadLocalFromClosureBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x4086d80, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e8094, size 0x90, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4086d10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e8024, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x4086d40, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e8054, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4086d38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40e804c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -57,7 +56,7 @@ public:
   LoadLocalFromClosureBoxedInstruction(LoadLocalFromClosureBoxedInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

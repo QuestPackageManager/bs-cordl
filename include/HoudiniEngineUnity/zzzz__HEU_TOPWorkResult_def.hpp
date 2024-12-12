@@ -18,11 +18,10 @@ class HEU_TOPWorkResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPWorkResult);
-// Type: HoudiniEngineUnity::HEU_TOPWorkResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_TOPWorkResult*
+// CS Name: HoudiniEngineUnity.HEU_TOPWorkResult
 class CORDL_TYPE HEU_TOPWorkResult : public ::System::Object {
 public:
   // Declarations
@@ -37,9 +36,9 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__generatedGOs();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get__generatedGOs() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__generatedGOs() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__generatedGOs();
 
   constexpr int32_t const& __cordl_internal_get__workItemID() const;
 
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__workItemIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39fc3f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a53068, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_TOPWorkResult(HEU_TOPWorkResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11755 };
+
   /// @brief Field _workItemIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____workItemIndex;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field _generatedGOs, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____generatedGOs;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11722 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPWorkResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____workItemIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____workItemID) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____generatedGOs) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPWorkResult, 0x20>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPWorkResult);

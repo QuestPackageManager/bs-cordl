@@ -13,11 +13,10 @@ struct Register;
 }
 // Write type traits
 MARK_VAL_T(::System::Numerics::Register);
-// Type: System.Numerics::Register
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Numerics {
 // Is value type: true
-// CS Name: ::System.Numerics::Register
+// CS Name: System.Numerics.Register
 struct CORDL_TYPE Register {
 public:
   // Declarations

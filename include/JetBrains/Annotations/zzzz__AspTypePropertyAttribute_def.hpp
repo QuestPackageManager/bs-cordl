@@ -11,11 +11,10 @@ class AspTypePropertyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspTypePropertyAttribute);
-// Type: JetBrains.Annotations::AspTypePropertyAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::AspTypePropertyAttribute*
+// CS Name: JetBrains.Annotations.AspTypePropertyAttribute
 class CORDL_TYPE AspTypePropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a8c7c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af10d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x4a8c7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x4af10bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x4a8c7b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x4af10c4, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspTypePropertyAttribute(AspTypePropertyAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18505 };
+
   /// @brief Field <CreateConstructorReferences>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____CreateConstructorReferences_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspTypePropertyAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::AspTypePropertyAttribute, ____CreateConstructorReferences_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspTypePropertyAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspTypePropertyAttribute);

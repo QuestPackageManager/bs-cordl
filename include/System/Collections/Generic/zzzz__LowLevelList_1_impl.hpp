@@ -47,16 +47,10 @@ template <typename T> inline void System::Collections::Generic::LowLevelList_1<T
 template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Collections::Generic::LowLevelList_1<T>::getStaticF_s_emptyArray() {
   return ::cordl_internals::getStaticField<::ArrayW<T, ::Array<T>*>, "s_emptyArray", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LowLevelList_1<T>*>::get>();
 }
-template <typename T> inline ::System::Collections::Generic::LowLevelList_1<T>* System::Collections::Generic::LowLevelList_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LowLevelList_1<T>*>());
-}
 template <typename T> inline void System::Collections::Generic::LowLevelList_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LowLevelList_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::System::Collections::Generic::LowLevelList_1<T>* System::Collections::Generic::LowLevelList_1<T>::New_ctor(int32_t capacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LowLevelList_1<T>*>(capacity));
 }
 template <typename T> inline void System::Collections::Generic::LowLevelList_1<T>::_ctor(int32_t capacity) {
   static auto* ___internal_method =
@@ -169,6 +163,12 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Collections::Gener
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LowLevelList_1<T>*>::get(),
                                                                              "ToArray", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Generic::LowLevelList_1<T>* System::Collections::Generic::LowLevelList_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LowLevelList_1<T>*>());
+}
+template <typename T> inline ::System::Collections::Generic::LowLevelList_1<T>* System::Collections::Generic::LowLevelList_1<T>::New_ctor(int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::LowLevelList_1<T>*>(capacity));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::LowLevelList_1<T>::LowLevelList_1() {}

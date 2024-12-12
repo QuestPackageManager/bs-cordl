@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_totalIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222ec9c;
+  constexpr static std::size_t addrs = 0x225a210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_colorIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222eca4;
+  constexpr static std::size_t addrs = 0x225a218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x222e71c;
+  constexpr static std::size_t addrs = 0x2259c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,13 +82,6 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> BeatSaber::BeatAvatarSDK::RandomizeA
                                                                              "get_colorIndices", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(this, ___internal_method);
 }
-inline ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap* BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::New_ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex,
-                                                                                                                        int32_t glassesColorIndex, int32_t facialHairColorIndex,
-                                                                                                                        int32_t handsColorIndex, int32_t clothesPrimaryColorIndex,
-                                                                                                                        int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>(
-      headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex, clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex));
-}
 inline void BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex, int32_t glassesColorIndex, int32_t facialHairColorIndex,
                                                                      int32_t handsColorIndex, int32_t clothesPrimaryColorIndex, int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,6 +92,13 @@ inline void BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor(int32_t hea
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex,
                                                           clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex);
+}
+inline ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap* BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::New_ctor(int32_t headTopPrimaryColorIndex, int32_t headTopSecondaryColorIndex,
+                                                                                                                        int32_t glassesColorIndex, int32_t facialHairColorIndex,
+                                                                                                                        int32_t handsColorIndex, int32_t clothesPrimaryColorIndex,
+                                                                                                                        int32_t clothesSecondaryColorIndex, int32_t clothesDetailColorIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>(
+      headTopPrimaryColorIndex, headTopSecondaryColorIndex, glassesColorIndex, facialHairColorIndex, handsColorIndex, clothesPrimaryColorIndex, clothesSecondaryColorIndex, clothesDetailColorIndex));
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::RandomizeAvatarColorMap() {}

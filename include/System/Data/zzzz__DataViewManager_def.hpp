@@ -18,11 +18,10 @@ class DataViewManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataViewManager);
-// Type: System.Data::DataViewManager
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.MarshalByValueComponent
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::DataViewManager*
+// CS Name: System.Data.DataViewManager
 class CORDL_TYPE DataViewManager : public ::System::ComponentModel::MarshalByValueComponent {
 public:
   // Declarations
@@ -36,11 +35,11 @@ public:
   __declspec(property(get = __cordl_internal_get__nViews, put = __cordl_internal_set__nViews)) int32_t _nViews;
 
   /// @brief Field s_notSupported, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_notSupported, put = setStaticF_s_notSupported)) ::System::NotSupportedException* s_notSupported;
+  __declspec(property(get = getStaticF_s_notSupported, put = setStaticF_s_notSupported)) ::System::NotSupportedException* s_notSupported;
+
+  constexpr ::System::Data::DataViewSettingCollection* const& __cordl_internal_get__dataViewSettingsCollection() const;
 
   constexpr ::System::Data::DataViewSettingCollection*& __cordl_internal_get__dataViewSettingsCollection();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewSettingCollection*> const& __cordl_internal_get__dataViewSettingsCollection() const;
 
   constexpr int32_t const& __cordl_internal_get__nViews() const;
 
@@ -52,7 +51,7 @@ public:
 
   static inline ::System::NotSupportedException* getStaticF_s_notSupported();
 
-  /// @brief Method get_DataViewSettings, addr 0x410bc80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataViewSettings, addr 0x416cf94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewSettingCollection* get_DataViewSettings();
 
   static inline void setStaticF_s_notSupported(::System::NotSupportedException* value);
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DataViewManager(DataViewManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11407 };
+
   /// @brief Field _dataViewSettingsCollection, offset: 0x20, size: 0x8, def value: None
   ::System::Data::DataViewSettingCollection* ____dataViewSettingsCollection;
 
   /// @brief Field _nViews, offset: 0x28, size: 0x4, def value: None
   int32_t ____nViews;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11374 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataViewManager, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataViewManager, ____dataViewSettingsCollection) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::DataViewManager, ____nViews) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataViewManager, 0x30>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::DataViewManager);

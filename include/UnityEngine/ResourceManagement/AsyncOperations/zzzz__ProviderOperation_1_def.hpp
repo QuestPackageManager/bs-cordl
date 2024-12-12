@@ -6,6 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -46,12 +48,6 @@ struct AsyncOperationHandle;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IGenericProviderOperation;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
@@ -70,13 +66,13 @@ template <typename TObject> class ProviderOperation_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1);
-// Type: UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1
-// SizeInfo { instance_size: 304, native_size: 304, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
+// UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus, UnityEngine.ResourceManagement.AsyncOperations.ICachable, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1<TObject>
 class CORDL_TYPE ProviderOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
@@ -217,14 +213,13 @@ public:
   /// @brief Method WaitForCompletionHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* const& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
+
   constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
-  __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
+  constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* const& __cordl_internal_get_m_CompletionCallback() const;
 
   constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*& __cordl_internal_get_m_CompletionCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*> const& __cordl_internal_get_m_CompletionCallback() const;
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
@@ -238,22 +233,21 @@ public:
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __cordl_internal_get_m_DownloadStatus();
 
+  constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* const& __cordl_internal_get_m_GetDepCallback() const;
+
   constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*& __cordl_internal_get_m_GetDepCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*> const& __cordl_internal_get_m_GetDepCallback() const;
+  constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* const& __cordl_internal_get_m_GetDownloadProgressCallback() const;
 
   constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*& __cordl_internal_get_m_GetDownloadProgressCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*> const&
-  __cordl_internal_get_m_GetDownloadProgressCallback() const;
+  constexpr ::System::Func_1<float_t>* const& __cordl_internal_get_m_GetProgressCallback() const;
 
   constexpr ::System::Func_1<float_t>*& __cordl_internal_get_m_GetProgressCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<float_t>*> const& __cordl_internal_get_m_GetProgressCallback() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const& __cordl_internal_get_m_Location() const;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_m_Location();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_m_Location() const;
 
   constexpr bool const& __cordl_internal_get_m_NeedsRelease() const;
 
@@ -263,9 +257,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_ProvideHandleVersion();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*& __cordl_internal_get_m_Provider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* const& __cordl_internal_get_m_Provider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*> const& __cordl_internal_get_m_Provider() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*& __cordl_internal_get_m_Provider();
 
   constexpr bool const& __cordl_internal_get_m_ProviderCompletedCalled() const;
 
@@ -275,13 +269,13 @@ public:
 
   constexpr bool& __cordl_internal_get_m_ReleaseDependenciesOnFailure();
 
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& __cordl_internal_get_m_ResourceManager() const;
+
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_ResourceManager() const;
+  constexpr ::System::Func_1<bool>* const& __cordl_internal_get_m_WaitForCompletionCallback() const;
 
   constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_WaitForCompletionCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_m_WaitForCompletionCallback() const;
 
   constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
@@ -356,6 +350,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProviderOperation_1(ProviderOperation_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15700 };
+
+  /// @brief Field kInvalidHandleMsg offset 0xffffffff size 0x8
+  static constexpr ::ConstString kInvalidHandleMsg{ u"The ProvideHandle is invalid. After the handle has been completed, it can no longer be used" };
+
+  /// @brief Field k_OperationWaitingToCompletePercentComplete offset 0xffffffff size 0x4
+  static constexpr float_t k_OperationWaitingToCompletePercentComplete{ static_cast<float_t>(1.0f) };
+
   /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x98, size: 0x1, def value: None
   bool ___m_ReleaseDependenciesOnFailure;
 
@@ -401,15 +404,6 @@ public:
 
   /// @brief Field m_ResourceManager, offset: 0x128, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceManager* ___m_ResourceManager;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15665 };
-
-  /// @brief Field kInvalidHandleMsg offset 0xffffffff size 0x8
-  static constexpr ::ConstString kInvalidHandleMsg{ u"The ProvideHandle is invalid. After the handle has been completed, it can no longer be used" };
-
-  /// @brief Field k_OperationWaitingToCompletePercentComplete offset 0xffffffff size 0x4
-  static constexpr float_t k_OperationWaitingToCompletePercentComplete{ 0.99 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

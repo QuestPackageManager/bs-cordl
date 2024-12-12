@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "MS/Internal/Xml/Cache/XPathDocumentNavigator.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathDocumentNavigator_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathDocumentNavigator._ctor
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t,
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathDocumentNavigator::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42a7814;
+  constexpr static std::size_t addrs = 0x4308b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_Value)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x42a7898;
+  constexpr static std::size_t addrs = 0x4308bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNavigator* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::Clone)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42a7c68;
+  constexpr static std::size_t addrs = 0x4308f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNodeType (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NodeType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x42a7cdc;
+  constexpr static std::size_t addrs = 0x4308ff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LocalName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42a7d20;
+  constexpr static std::size_t addrs = 0x4309034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42a7d78;
+  constexpr static std::size_t addrs = 0x430908c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_Prefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42a7dd0;
+  constexpr static std::size_t addrs = 0x43090e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NameTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42a7e28;
+  constexpr static std::size_t addrs = 0x430913c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToFirstNamespace)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x42a7e88;
+  constexpr static std::size_t addrs = 0x430919c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToNextNamespace)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x42a8144;
+  constexpr static std::size_t addrs = 0x4309458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToParent)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x42a827c;
+  constexpr static std::size_t addrs = 0x4309590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNavigator*)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::IsSamePosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42a82fc;
+  constexpr static std::size_t addrs = 0x4309610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_UnderlyingObject)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x42a83a0;
+  constexpr static std::size_t addrs = 0x43096b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::HasLineInfo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42a83b0;
+  constexpr static std::size_t addrs = 0x43096c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LineNumber)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42a83f4;
+  constexpr static std::size_t addrs = 0x4309708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LinePosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42a84a0;
+  constexpr static std::size_t addrs = 0x43097b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::GetPositionHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42a8594;
+  constexpr static std::size_t addrs = 0x43098a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -277,14 +277,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
-constexpr MS::Internal::Xml::Cache::XPathDocumentNavigator::operator ::System::Xml::IXmlLineInfo*() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlLineInfo"
-constexpr ::System::Xml::IXmlLineInfo* MS::Internal::Xml::Cache::XPathDocumentNavigator::i___System__Xml__IXmlLineInfo() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& MS::Internal::Xml::Cache::XPathDocumentNavigator::__cordl_internal_get__pageCurrent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pageCurrent;
@@ -336,11 +328,6 @@ constexpr int32_t const& MS::Internal::Xml::Cache::XPathDocumentNavigator::__cor
 constexpr void MS::Internal::Xml::Cache::XPathDocumentNavigator::__cordl_internal_set__idxParent(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____idxParent = value;
-}
-inline ::MS::Internal::Xml::Cache::XPathDocumentNavigator*
-MS::Internal::Xml::Cache::XPathDocumentNavigator::New_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent, int32_t idxCurrent,
-                                                           ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent, int32_t idxParent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>(pageCurrent, idxCurrent, pageParent, idxParent));
 }
 inline void MS::Internal::Xml::Cache::XPathDocumentNavigator::_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent, int32_t idxCurrent,
                                                                     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent, int32_t idxParent) {
@@ -432,6 +419,19 @@ inline int32_t MS::Internal::Xml::Cache::XPathDocumentNavigator::GetPositionHash
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
                                                                              "GetPositionHashCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::Cache::XPathDocumentNavigator*
+MS::Internal::Xml::Cache::XPathDocumentNavigator::New_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent, int32_t idxCurrent,
+                                                           ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent, int32_t idxParent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>(pageCurrent, idxCurrent, pageParent, idxParent));
+}
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr MS::Internal::Xml::Cache::XPathDocumentNavigator::operator ::System::Xml::IXmlLineInfo*() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* MS::Internal::Xml::Cache::XPathDocumentNavigator::i___System__Xml__IXmlLineInfo() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::Cache::XPathDocumentNavigator::XPathDocumentNavigator() {}

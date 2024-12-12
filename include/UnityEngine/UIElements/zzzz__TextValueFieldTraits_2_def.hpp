@@ -23,13 +23,12 @@ template <typename TValueType, typename TValueUxmlAttributeType> class TextValue
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TextValueFieldTraits_2);
-// Type: UnityEngine.UIElements::TextValueFieldTraits`2
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TextValueFieldTraits`2<TValueType,TValueUxmlAttributeType>*
+// CS Name: UnityEngine.UIElements.TextValueFieldTraits`2<TValueType,TValueUxmlAttributeType>
 class CORDL_TYPE TextValueFieldTraits_2 : public ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType> {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
 
   static inline ::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>* New_ctor();
 
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_IsDelayed() const;
+
   constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_IsDelayed();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_IsDelayed() const;
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& __cordl_internal_get_m_IsReadOnly() const;
 
   constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_IsReadOnly();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_IsReadOnly() const;
 
   constexpr void __cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
@@ -73,14 +72,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextValueFieldTraits_2(TextValueFieldTraits_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5701 };
+
   /// @brief Field m_IsReadOnly, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_IsReadOnly;
 
   /// @brief Field m_IsDelayed, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_IsDelayed;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

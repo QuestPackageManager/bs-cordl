@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/Headers/WarningHeaderValue.hpp"
 #include "System/zzzz__DateTimeOffset_impl.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__WarningHeaderValue_def.hpp"
@@ -8,7 +9,6 @@
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::WarningHeaderValue._ctor
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c6868;
+  constexpr static std::size_t addrs = 0x4227b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::get_Agent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c6870;
+  constexpr static std::size_t addrs = 0x4227b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::WarningHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::WarningHeaderValue::set_Agent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c6878;
+  constexpr static std::size_t addrs = 0x4227b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::get_Code)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c6880;
+  constexpr static std::size_t addrs = 0x4227b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::WarningHeaderValue::*)(int32_t)>(
     &::System::Net::Http::Headers::WarningHeaderValue::set_Code)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c6888;
+  constexpr static std::size_t addrs = 0x4227b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41c6890;
+  constexpr static std::size_t addrs = 0x4227ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::WarningHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::System::Net::Http::Headers::WarningHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41c68a4;
+  constexpr static std::size_t addrs = 0x4227bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::get_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c68b8;
+  constexpr static std::size_t addrs = 0x4227bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::WarningHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::WarningHeaderValue::set_Text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c68c0;
+  constexpr static std::size_t addrs = 0x4227bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Net::Http::Headers::WarningHeaderValue::IsCodeValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41c68c8;
+  constexpr static std::size_t addrs = 0x4227bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41c68d4;
+  constexpr static std::size_t addrs = 0x4227be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(),
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::WarningHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::WarningHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x41c68dc;
+  constexpr static std::size_t addrs = 0x4227bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x41c6a34;
+  constexpr static std::size_t addrs = 0x4227d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,16 +205,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::StringW, int32_t, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>)>(&::System::Net::Http::Headers::WarningHeaderValue::TryParse)> {
+    ::StringW, int32_t, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>)>(&::System::Net::Http::Headers::WarningHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x41c6b14;
+  constexpr static std::size_t addrs = 0x4227e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), "TryParse", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -222,17 +222,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ByRef<::System::Net::Http::Headers::WarningHeaderValue*>, ByRef<::System::Net::Http::Headers::Token>)>(
+    static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::ByRef<::System::Net::Http::Headers::WarningHeaderValue*>, ::ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::WarningHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x41c6bc4;
+  constexpr static std::size_t addrs = 0x4227ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), "TryParseElement", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Lexer*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Http::Headers::WarningHeaderValue*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Http::Headers::Token>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::WarningHeaderValue*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get() })));
     return ___internal_method;
   }
 };
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::WarningHeaderValue::*)()>(
     &::System::Net::Http::Headers::WarningHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x41c6e50;
+  constexpr static std::size_t addrs = 0x4228164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,14 +252,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Net::Http::Headers::WarningHeaderValue::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Net::Http::Headers::WarningHeaderValue::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
 constexpr ::StringW& System::Net::Http::Headers::WarningHeaderValue::__cordl_internal_get__Agent_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Agent_k__BackingField;
@@ -307,9 +299,6 @@ constexpr ::StringW const& System::Net::Http::Headers::WarningHeaderValue::__cor
 constexpr void System::Net::Http::Headers::WarningHeaderValue::__cordl_internal_set__Text_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Text_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::Http::Headers::WarningHeaderValue* System::Net::Http::Headers::WarningHeaderValue::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::WarningHeaderValue*>());
 }
 inline void System::Net::Http::Headers::WarningHeaderValue::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), ".ctor",
@@ -382,27 +371,38 @@ inline int32_t System::Net::Http::Headers::WarningHeaderValue::GetHashCode() {
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline bool System::Net::Http::Headers::WarningHeaderValue::TryParse(::StringW input, int32_t minimalCount,
-                                                                     ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result) {
+                                                                     ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), "TryParse", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input, minimalCount, result);
 }
-inline bool System::Net::Http::Headers::WarningHeaderValue::TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue,
-                                                                            ByRef<::System::Net::Http::Headers::Token> t) {
+inline bool System::Net::Http::Headers::WarningHeaderValue::TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue,
+                                                                            ::ByRef<::System::Net::Http::Headers::Token> t) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), "TryParseElement", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::Lexer*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Http::Headers::WarningHeaderValue*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Http::Headers::Token>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::WarningHeaderValue*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Http::Headers::Token>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lexer, parsedValue, t);
 }
 inline ::StringW System::Net::Http::Headers::WarningHeaderValue::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::WarningHeaderValue*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Net::Http::Headers::WarningHeaderValue* System::Net::Http::Headers::WarningHeaderValue::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::WarningHeaderValue*>());
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Net::Http::Headers::WarningHeaderValue::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Net::Http::Headers::WarningHeaderValue::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::WarningHeaderValue::WarningHeaderValue() {}

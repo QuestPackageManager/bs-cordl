@@ -3,28 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FPSCounterUIController)
 namespace GlobalNamespace {
+class FPSCounterUIController__Start_d__9;
+}
+namespace GlobalNamespace {
 class FPSCounter;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
-namespace GlobalNamespace {
-class __FPSCounterUIController___Start_d__9;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -37,17 +34,16 @@ namespace GlobalNamespace {
 class FPSCounterUIController;
 }
 namespace GlobalNamespace {
-class __FPSCounterUIController___Start_d__9;
+class FPSCounterUIController__Start_d__9;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FPSCounterUIController);
-MARK_REF_PTR_T(::GlobalNamespace::__FPSCounterUIController___Start_d__9);
-// Type: ::<Start>d__9
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::FPSCounterUIController__Start_d__9);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FPSCounterUIController::<Start>d__9*
-class CORDL_TYPE __FPSCounterUIController___Start_d__9 : public ::System::Object {
+// CS Name: FPSCounterUIController/<Start>d__9
+class CORDL_TYPE FPSCounterUIController__Start_d__9 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -72,30 +68,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3969524, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x39bebbc, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__FPSCounterUIController___Start_d__9* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::FPSCounterUIController__Start_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39695b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39bec50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39695c0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39bec58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39695f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39bec90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3969520, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x39bebb8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::FPSCounterUIController> const& __cordl_internal_get___4__this() const;
 
@@ -107,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FPSCounterUIController> value);
 
-  /// @brief Method .ctor, addr 0x39693a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bea40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -122,16 +118,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FPSCounterUIController___Start_d__9();
+  constexpr FPSCounterUIController__Start_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FPSCounterUIController___Start_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __FPSCounterUIController___Start_d__9(__FPSCounterUIController___Start_d__9&&) = delete;
+  FPSCounterUIController__Start_d__9(FPSCounterUIController__Start_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FPSCounterUIController___Start_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController__Start_d__9", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __FPSCounterUIController___Start_d__9(__FPSCounterUIController___Start_d__9 const&) = delete;
+  FPSCounterUIController__Start_d__9(FPSCounterUIController__Start_d__9 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18854 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -142,30 +141,26 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FPSCounterUIController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18753 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FPSCounterUIController___Start_d__9, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::FPSCounterUIController__Start_d__9, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FPSCounterUIController___Start_d__9, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FPSCounterUIController__Start_d__9, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FPSCounterUIController___Start_d__9, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FPSCounterUIController__Start_d__9, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FPSCounterUIController___Start_d__9, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FPSCounterUIController__Start_d__9, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::FPSCounterUIController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FPSCounterUIController*
+// CS Name: FPSCounterUIController
 class CORDL_TYPE FPSCounterUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _Start_d__9 = ::GlobalNamespace::__FPSCounterUIController___Start_d__9;
+  using _Start_d__9 = ::GlobalNamespace::FPSCounterUIController__Start_d__9;
 
   /// @brief Field _currentFPSText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__currentFPSText, put = __cordl_internal_set__currentFPSText)) ::UnityW<::TMPro::TextMeshProUGUI> _currentFPSText;
@@ -191,15 +186,15 @@ public:
   /// @brief Field _uiUpdateTimeInterval, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__uiUpdateTimeInterval, put = __cordl_internal_set__uiUpdateTimeInterval)) float_t _uiUpdateTimeInterval;
 
-  /// @brief Method Awake, addr 0x39692e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39be980, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x39693d0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39bea68, size 0x140, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FPSCounterUIController* New_ctor();
 
-  /// @brief Method Start, addr 0x3969348, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39be9e0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentFPSText() const;
@@ -250,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set__uiUpdateTimeInterval(float_t value);
 
-  /// @brief Method .ctor, addr 0x3969510, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39beba8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -266,6 +261,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FPSCounterUIController(FPSCounterUIController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18855 };
 
   /// @brief Field _uiUpdateTimeInterval, offset: 0x20, size: 0x4, def value: None
   float_t ____uiUpdateTimeInterval;
@@ -291,14 +289,9 @@ public:
   /// @brief Field _timeToUpdateUI, offset: 0x58, size: 0x4, def value: None
   float_t ____timeToUpdateUI;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18754 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FPSCounterUIController, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FPSCounterUIController, ____uiUpdateTimeInterval) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FPSCounterUIController, ____currentFPSText) == 0x28, "Offset mismatch!");
@@ -315,8 +308,10 @@ static_assert(offsetof(::GlobalNamespace::FPSCounterUIController, ____fpsCounter
 
 static_assert(offsetof(::GlobalNamespace::FPSCounterUIController, ____timeToUpdateUI) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FPSCounterUIController, 0x60>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FPSCounterUIController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
-NEED_NO_BOX(::GlobalNamespace::__FPSCounterUIController___Start_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FPSCounterUIController___Start_d__9*, "", "FPSCounterUIController/<Start>d__9");
+NEED_NO_BOX(::GlobalNamespace::FPSCounterUIController__Start_d__9);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FPSCounterUIController__Start_d__9*, "", "FPSCounterUIController/<Start>d__9");

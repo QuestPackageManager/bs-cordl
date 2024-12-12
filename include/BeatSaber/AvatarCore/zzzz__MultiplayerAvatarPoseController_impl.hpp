@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::add_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x221e3d0;
+  constexpr static std::size_t addrs = 0x2249944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::System::Action_1<::UnityEngine::Vector3>*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::remove_didUpdatePoseEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x221e54c;
+  constexpr static std::size_t addrs = 0x2249ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::set_connectedPlayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2222a48;
+  constexpr static std::size_t addrs = 0x224dfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2222a50;
+  constexpr static std::size_t addrs = 0x224dfc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Update)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x2222a68;
+  constexpr static std::size_t addrs = 0x224dfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::*)()>(
     &::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2222f50;
+  constexpr static std::size_t addrs = 0x224e4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
@@ -135,8 +135,7 @@ constexpr ::GlobalNamespace::INodePoseSyncStateManager*& BeatSaber::AvatarCore::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const&
-BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__nodePoseSyncStateManager() const {
+constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__nodePoseSyncStateManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
@@ -148,8 +147,7 @@ constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& BeatSaber::AvatarCor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const&
-BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__avatarPoseRestriction() const {
+constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__avatarPoseRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
@@ -161,7 +159,7 @@ constexpr ::GlobalNamespace::IConnectedPlayer*& BeatSaber::AvatarCore::Multiplay
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__connectedPlayer() const {
+constexpr ::GlobalNamespace::IConnectedPlayer* const& BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
@@ -173,8 +171,7 @@ constexpr ::System::Action_1<::UnityEngine::Vector3>*& BeatSaber::AvatarCore::Mu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdatePoseEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Vector3>*> const&
-BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get_didUpdatePoseEvent() const {
+constexpr ::System::Action_1<::UnityEngine::Vector3>* const& BeatSaber::AvatarCore::MultiplayerAvatarPoseController::__cordl_internal_get_didUpdatePoseEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didUpdatePoseEvent;
 }
@@ -210,13 +207,13 @@ inline void BeatSaber::AvatarCore::MultiplayerAvatarPoseController::Update() {
                                                                              "Update", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* BeatSaber::AvatarCore::MultiplayerAvatarPoseController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>());
-}
 inline void BeatSaber::AvatarCore::MultiplayerAvatarPoseController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController* BeatSaber::AvatarCore::MultiplayerAvatarPoseController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::MultiplayerAvatarPoseController::MultiplayerAvatarPoseController() {}

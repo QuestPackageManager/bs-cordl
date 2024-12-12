@@ -18,11 +18,10 @@ class SyntaxErrorException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::SyntaxErrorException);
-// Type: System.Data::SyntaxErrorException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.InvalidExpressionException
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::SyntaxErrorException*
+// CS Name: System.Data.SyntaxErrorException
 class CORDL_TYPE SyntaxErrorException : public ::System::Data::InvalidExpressionException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Data::SyntaxErrorException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x411943c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4119434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a748, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4119444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -56,7 +55,7 @@ public:
   SyntaxErrorException(SyntaxErrorException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

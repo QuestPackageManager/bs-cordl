@@ -15,11 +15,10 @@ class JitHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::JitHelpers);
-// Type: System.Runtime.CompilerServices::JitHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::JitHelpers*
+// CS Name: System.Runtime.CompilerServices.JitHelpers
 class CORDL_TYPE JitHelpers : public ::System::Object {
 public:
   // Declarations

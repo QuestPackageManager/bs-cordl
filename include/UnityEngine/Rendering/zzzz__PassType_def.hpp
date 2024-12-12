@@ -12,11 +12,10 @@ struct PassType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::PassType);
-// Type: UnityEngine.Rendering::PassType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::PassType
+// CS Name: UnityEngine.Rendering.PassType
 struct CORDL_TYPE PassType {
 public:
   // Declarations
@@ -58,66 +57,66 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PassType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Deferred value: static_cast<int32_t>(0xa)
+  /// @brief Field Deferred value: I32(10)
   static ::UnityEngine::Rendering::PassType const Deferred;
 
-  /// @brief Field ForwardAdd value: static_cast<int32_t>(0x5)
+  /// @brief Field ForwardAdd value: I32(5)
   static ::UnityEngine::Rendering::PassType const ForwardAdd;
 
-  /// @brief Field ForwardBase value: static_cast<int32_t>(0x4)
+  /// @brief Field ForwardBase value: I32(4)
   static ::UnityEngine::Rendering::PassType const ForwardBase;
 
-  /// @brief Field GrabPass value: static_cast<int32_t>(0xf)
+  /// @brief Field GrabPass value: I32(15)
   static ::UnityEngine::Rendering::PassType const GrabPass;
 
-  /// @brief Field LightPrePassBase value: static_cast<int32_t>(0x6)
+  /// @brief Field LightPrePassBase value: I32(6)
   static ::UnityEngine::Rendering::PassType const LightPrePassBase;
 
-  /// @brief Field LightPrePassFinal value: static_cast<int32_t>(0x7)
+  /// @brief Field LightPrePassFinal value: I32(7)
   static ::UnityEngine::Rendering::PassType const LightPrePassFinal;
 
-  /// @brief Field Meta value: static_cast<int32_t>(0xb)
+  /// @brief Field Meta value: I32(11)
   static ::UnityEngine::Rendering::PassType const Meta;
 
-  /// @brief Field MotionVectors value: static_cast<int32_t>(0xc)
+  /// @brief Field MotionVectors value: I32(12)
   static ::UnityEngine::Rendering::PassType const MotionVectors;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  /// @brief Field Normal value: I32(0)
   static ::UnityEngine::Rendering::PassType const Normal;
 
-  /// @brief Field ScriptableRenderPipeline value: static_cast<int32_t>(0xd)
+  /// @brief Field ScriptableRenderPipeline value: I32(13)
   static ::UnityEngine::Rendering::PassType const ScriptableRenderPipeline;
 
-  /// @brief Field ScriptableRenderPipelineDefaultUnlit value: static_cast<int32_t>(0xe)
+  /// @brief Field ScriptableRenderPipelineDefaultUnlit value: I32(14)
   static ::UnityEngine::Rendering::PassType const ScriptableRenderPipelineDefaultUnlit;
 
-  /// @brief Field ShadowCaster value: static_cast<int32_t>(0x8)
+  /// @brief Field ShadowCaster value: I32(8)
   static ::UnityEngine::Rendering::PassType const ShadowCaster;
 
-  /// @brief Field Vertex value: static_cast<int32_t>(0x1)
+  /// @brief Field Vertex value: I32(1)
   static ::UnityEngine::Rendering::PassType const Vertex;
 
-  /// @brief Field VertexLM value: static_cast<int32_t>(0x2)
+  /// @brief Field VertexLM value: I32(2)
   static ::UnityEngine::Rendering::PassType const VertexLM;
 
-  /// @brief Field VertexLMRGBM value: static_cast<int32_t>(0x3)
+  /// @brief Field VertexLMRGBM value: I32(3)
   static ::UnityEngine::Rendering::PassType const VertexLMRGBM;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11190 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::PassType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::PassType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::PassType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::PassType, "UnityEngine.Rendering", "PassType");

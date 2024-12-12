@@ -6,29 +6,29 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType::__SoloModeSelectionViewController__MenuType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType::SoloModeSelectionViewController_MenuType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType::__SoloModeSelectionViewController__MenuType() {}
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType GlobalNamespace::__SoloModeSelectionViewController__MenuType::FreePlayMode{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType GlobalNamespace::__SoloModeSelectionViewController__MenuType::NoArrowsMode{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType GlobalNamespace::__SoloModeSelectionViewController__MenuType::OneSaberMode{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__SoloModeSelectionViewController__MenuType GlobalNamespace::__SoloModeSelectionViewController__MenuType::Back{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType::SoloModeSelectionViewController_MenuType() {}
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType GlobalNamespace::SoloModeSelectionViewController_MenuType::FreePlayMode{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType GlobalNamespace::SoloModeSelectionViewController_MenuType::NoArrowsMode{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType GlobalNamespace::SoloModeSelectionViewController_MenuType::OneSaberMode{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::SoloModeSelectionViewController_MenuType GlobalNamespace::SoloModeSelectionViewController_MenuType::Back{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::SoloModeSelectionViewController.add_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*)>(
+    ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*)>(
     &::GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a9d208;
+  constexpr static std::size_t addrs = 0x3afa69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*>::get() })));
+            ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -36,16 +36,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(
-    ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*)>(
+    ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*)>(
     &::GlobalNamespace::SoloModeSelectionViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a9d2b8;
+  constexpr static std::size_t addrs = 0x3afa74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-            ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*>::get() })));
+            ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SoloModeSelectionViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3a9d368;
+  constexpr static std::size_t addrs = 0x3afa7fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,14 +69,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)(
-    ::GlobalNamespace::__SoloModeSelectionViewController__MenuType)>(&::GlobalNamespace::SoloModeSelectionViewController::HandleMenuButton)> {
+    ::GlobalNamespace::SoloModeSelectionViewController_MenuType)>(&::GlobalNamespace::SoloModeSelectionViewController::HandleMenuButton)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a9d508;
+  constexpr static std::size_t addrs = 0x3afa99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "HandleMenuButton", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SoloModeSelectionViewController__MenuType>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SoloModeSelectionViewController_MenuType>::get() })));
     return ___internal_method;
   }
 };
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(
     &::GlobalNamespace::SoloModeSelectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a9d530;
+  constexpr static std::size_t addrs = 0x3afa9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(
     &::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a9d538;
+  constexpr static std::size_t addrs = 0x3afa9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(
     &::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a9d55c;
+  constexpr static std::size_t addrs = 0x3afa9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(
     &::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a9d580;
+  constexpr static std::size_t addrs = 0x3afaa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SoloModeSelectionViewController::*)()>(
     &::GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a9d5a4;
+  constexpr static std::size_t addrs = 0x3afaa38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -198,35 +198,35 @@ constexpr void GlobalNamespace::SoloModeSelectionViewController::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dismissButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*&
+constexpr ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*&
 GlobalNamespace::SoloModeSelectionViewController::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* const&
 GlobalNamespace::SoloModeSelectionViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
 constexpr void GlobalNamespace::SoloModeSelectionViewController::__cordl_internal_set_didFinishEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value) {
+    ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SoloModeSelectionViewController::add_didFinishEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value) {
+    ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*>::get() })));
+          ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SoloModeSelectionViewController::remove_didFinishEvent(
-    ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>* value) {
+    ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-          ::System::Action_2<::UnityW<::GlobalNamespace::SoloModeSelectionViewController>, ::GlobalNamespace::__SoloModeSelectionViewController__MenuType>*>::get() })));
+          ::System::Action_2<::GlobalNamespace::SoloModeSelectionViewController*, ::GlobalNamespace::SoloModeSelectionViewController_MenuType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SoloModeSelectionViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -234,14 +234,11 @@ inline void GlobalNamespace::SoloModeSelectionViewController::DidActivate(bool f
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::SoloModeSelectionViewController::HandleMenuButton(::GlobalNamespace::__SoloModeSelectionViewController__MenuType subMenuType) {
+inline void GlobalNamespace::SoloModeSelectionViewController::HandleMenuButton(::GlobalNamespace::SoloModeSelectionViewController_MenuType subMenuType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(), "HandleMenuButton", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SoloModeSelectionViewController__MenuType>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SoloModeSelectionViewController_MenuType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subMenuType);
-}
-inline ::GlobalNamespace::SoloModeSelectionViewController* GlobalNamespace::SoloModeSelectionViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SoloModeSelectionViewController*>());
 }
 inline void GlobalNamespace::SoloModeSelectionViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
@@ -267,6 +264,9 @@ inline void GlobalNamespace::SoloModeSelectionViewController::_DidActivate_b__8_
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SoloModeSelectionViewController*>::get(),
                                                                              "<DidActivate>b__8_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SoloModeSelectionViewController* GlobalNamespace::SoloModeSelectionViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SoloModeSelectionViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SoloModeSelectionViewController::SoloModeSelectionViewController() {}

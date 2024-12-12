@@ -18,11 +18,10 @@ class SerObjectInfoInit;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);
-// Type: System.Runtime.Serialization.Formatters.Binary::SerObjectInfoInit
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoInit*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit
 class CORDL_TYPE SerObjectInfoInit : public ::System::Object {
 public:
   // Declarations
@@ -41,13 +40,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_objectInfoIdCount();
 
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack* const& __cordl_internal_get_oiPool() const;
+
   constexpr ::System::Runtime::Serialization::Formatters::Binary::SerStack*& __cordl_internal_get_oiPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerStack*> const& __cordl_internal_get_oiPool() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_seenBeforeTable() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_seenBeforeTable();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_seenBeforeTable() const;
 
   constexpr void __cordl_internal_set_objectInfoIdCount(int32_t value);
 
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_seenBeforeTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3ca77a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d0791c, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerObjectInfoInit(SerObjectInfoInit const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3283 };
+
   /// @brief Field seenBeforeTable, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___seenBeforeTable;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field oiPool, offset: 0x20, size: 0x8, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::SerStack* ___oiPool;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3283 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___seenBeforeTable) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___objectInfoIdCount) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, ___oiPool) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit);

@@ -1,17 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/ReadOnlyMemory_1.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-/// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
-template <typename T> constexpr System::ReadOnlyMemory_1<T>::operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*() {
-  return static_cast<::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
-template <typename T> constexpr ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>* System::ReadOnlyMemory_1<T>::i___System__IEquatable_1___System__ReadOnlyMemory_1_T__() {
-  return static_cast<::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T> inline void System::ReadOnlyMemory_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -82,14 +74,22 @@ template <typename T> inline int32_t System::ReadOnlyMemory_1<T>::CombineHashCod
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, h1, h2, h3);
 }
-template <typename T> inline ::System::Object* System::ReadOnlyMemory_1<T>::GetObjectStartLength(ByRef<int32_t> start, ByRef<int32_t> length) {
+template <typename T> inline ::System::Object* System::ReadOnlyMemory_1<T>::GetObjectStartLength(::ByRef<int32_t> start, ::ByRef<int32_t> length) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), "GetObjectStartLength", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, start, length);
 }
-// Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+/// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
+template <typename T> constexpr System::ReadOnlyMemory_1<T>::operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
+template <typename T> constexpr ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>* System::ReadOnlyMemory_1<T>::i___System__IEquatable_1___System__ReadOnlyMemory_1_T__() {
+  return static_cast<::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::ReadOnlyMemory_1<T>::ReadOnlyMemory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept {
   this->_object = _object;

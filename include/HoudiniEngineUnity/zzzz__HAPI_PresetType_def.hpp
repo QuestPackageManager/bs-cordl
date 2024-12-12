@@ -12,11 +12,10 @@ struct HAPI_PresetType;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_PresetType);
-// Type: HoudiniEngineUnity::HAPI_PresetType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_PresetType
+// CS Name: HoudiniEngineUnity.HAPI_PresetType
 struct CORDL_TYPE HAPI_PresetType {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_PresetType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_PRESETTYPE_BINARY value: static_cast<int32_t>(0x0)
+  /// @brief Field HAPI_PRESETTYPE_BINARY value: I32(0)
   static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_BINARY;
 
-  /// @brief Field HAPI_PRESETTYPE_IDX value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_PRESETTYPE_IDX value: I32(1)
   static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_IDX;
 
-  /// @brief Field HAPI_PRESETTYPE_INVALID value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field HAPI_PRESETTYPE_INVALID value: I32(-1)
   static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_INVALID;
 
-  /// @brief Field HAPI_PRESETTYPE_MAX value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_PRESETTYPE_MAX value: I32(2)
   static ::HoudiniEngineUnity::HAPI_PresetType const HAPI_PRESETTYPE_MAX;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11681 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PresetType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_PresetType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_PresetType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PresetType, "HoudiniEngineUnity", "HAPI_PresetType");

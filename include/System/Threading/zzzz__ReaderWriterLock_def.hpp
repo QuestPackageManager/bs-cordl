@@ -18,11 +18,10 @@ class ReaderWriterLock;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ReaderWriterLock);
-// Type: System.Threading::ReaderWriterLock
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ReaderWriterLock*
+// CS Name: System.Threading.ReaderWriterLock
 class CORDL_TYPE ReaderWriterLock : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
@@ -46,41 +45,41 @@ public:
   /// @brief Field writer_queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue)) ::System::Threading::LockQueue* writer_queue;
 
-  /// @brief Method AcquireReaderLock, addr 0x3dfb088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x3e5b134, size 0x8, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireReaderLock, addr 0x3dfb090, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x3e5b13c, size 0x394, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method AcquireWriterLock, addr 0x3dfb5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x3e5b6a4, size 0x8, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireWriterLock, addr 0x3dfb458, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x3e5b504, size 0x1a0, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method Finalize, addr 0x3dfafa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3e5b050, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HasWriterLock, addr 0x3dfb424, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HasWriterLock, addr 0x3e5b4d0, size 0x34, virtual false, abstract: false, final false
   inline bool HasWriterLock();
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
-  /// @brief Method ReleaseReaderLock, addr 0x3dfb600, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x3e5b6ac, size 0x1e4, virtual false, abstract: false, final false
   inline void ReleaseReaderLock();
 
-  /// @brief Method ReleaseReaderLock, addr 0x3dfb90c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x3e5b9b8, size 0x120, virtual false, abstract: false, final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
-  /// @brief Method ReleaseWriterLock, addr 0x3dfb7e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x3e5b890, size 0x128, virtual false, abstract: false, final false
   inline void ReleaseWriterLock();
 
-  /// @brief Method ReleaseWriterLock, addr 0x3dfba2c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x3e5bad8, size 0x60, virtual false, abstract: false, final false
   inline void ReleaseWriterLock(int32_t releaseCount);
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_reader_locks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_reader_locks() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks();
 
   constexpr int32_t const& __cordl_internal_get_readers() const;
 
@@ -98,9 +97,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_writer_lock_owner();
 
-  constexpr ::System::Threading::LockQueue*& __cordl_internal_get_writer_queue();
+  constexpr ::System::Threading::LockQueue* const& __cordl_internal_get_writer_queue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::LockQueue*> const& __cordl_internal_get_writer_queue() const;
+  constexpr ::System::Threading::LockQueue*& __cordl_internal_get_writer_queue();
 
   constexpr void __cordl_internal_set_reader_locks(::System::Collections::Hashtable* value);
 
@@ -114,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
 
-  /// @brief Method .ctor, addr 0x3dfaed4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5af80, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsWriterLockHeld, addr 0x3dfafac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriterLockHeld, addr 0x3e5b058, size 0xdc, virtual false, abstract: false, final false
   inline bool get_IsWriterLockHeld();
 
 protected:
@@ -133,6 +132,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReaderWriterLock(ReaderWriterLock const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2748 };
 
   /// @brief Field seq_num, offset: 0x10, size: 0x4, def value: None
   int32_t ___seq_num;
@@ -152,14 +154,9 @@ public:
   /// @brief Field reader_locks, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___reader_locks;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2748 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLock, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::ReaderWriterLock, ___seq_num) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ReaderWriterLock, ___state) == 0x14, "Offset mismatch!");
@@ -171,6 +168,8 @@ static_assert(offsetof(::System::Threading::ReaderWriterLock, ___writer_lock_own
 static_assert(offsetof(::System::Threading::ReaderWriterLock, ___writer_queue) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ReaderWriterLock, ___reader_locks) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLock, 0x30>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ReaderWriterLock);

@@ -13,18 +13,17 @@ class Win32Native;
 }
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::Win32::Win32Native);
-// Type: Microsoft.Win32::Win32Native
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Microsoft::Win32 {
 // Is value type: false
-// CS Name: ::Microsoft.Win32::Win32Native*
+// CS Name: Microsoft.Win32.Win32Native
 class CORDL_TYPE Win32Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage, addr 0x3c0d3dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x3c6d4f0, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(int32_t hr);
 
-  /// @brief Method MakeHRFromErrorCode, addr 0x3c0d438, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeHRFromErrorCode, addr 0x3c6d54c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t MakeHRFromErrorCode(int32_t errorCode);
 
 protected:

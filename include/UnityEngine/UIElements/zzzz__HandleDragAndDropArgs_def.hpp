@@ -19,15 +19,14 @@ struct HandleDragAndDropArgs;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::HandleDragAndDropArgs);
-// Type: UnityEngine.UIElements::HandleDragAndDropArgs
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.DragAndDropArgs, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::HandleDragAndDropArgs
+// CS Name: UnityEngine.UIElements.HandleDragAndDropArgs
 struct CORDL_TYPE HandleDragAndDropArgs {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x49b33e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a17cf4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::DragAndDropArgs dragAndDropArgs);
 
   // Ctor Parameters []
@@ -38,26 +37,26 @@ public:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
   constexpr HandleDragAndDropArgs(::UnityEngine::UIElements::DragAndDropArgs m_DragAndDropArgs, ::UnityEngine::Vector2 _position_k__BackingField) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5754 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
   /// @brief Field m_DragAndDropArgs, offset: 0x0, size: 0x20, def value: None
   ::UnityEngine::UIElements::DragAndDropArgs m_DragAndDropArgs;
 
   /// @brief Field <position>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 _position_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HandleDragAndDropArgs, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::HandleDragAndDropArgs, m_DragAndDropArgs) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::HandleDragAndDropArgs, _position_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HandleDragAndDropArgs, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::HandleDragAndDropArgs, "UnityEngine.UIElements", "HandleDragAndDropArgs");

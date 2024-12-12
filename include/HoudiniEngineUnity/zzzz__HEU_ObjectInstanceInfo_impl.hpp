@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_ObjectInstanceInfo.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InstancedInput_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_ObjectInstanceInfo.IsEquivalentTo
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ObjectInstanceInfo::*)(::HoudiniEngineUnity::HEU_ObjectInstanceInfo*)>(
     &::HoudiniEngineUnity::HEU_ObjectInstanceInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x39d2d40;
+  constexpr static std::size_t addrs = 0x3a299b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ObjectInstanceInfo::*)()>(&::HoudiniEngineUnity::HEU_ObjectInstanceInfo::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39d2e88;
+  constexpr static std::size_t addrs = 0x3a29af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>::get(), ".ctor",
@@ -35,21 +35,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
-constexpr HoudiniEngineUnity::HEU_ObjectInstanceInfo::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*
-HoudiniEngineUnity::HEU_ObjectInstanceInfo::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*& HoudiniEngineUnity::HEU_ObjectInstanceInfo::__cordl_internal_get__instancedInputs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedInputs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>*> const&
-HoudiniEngineUnity::HEU_ObjectInstanceInfo::__cordl_internal_get__instancedInputs() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InstancedInput*>* const& HoudiniEngineUnity::HEU_ObjectInstanceInfo::__cordl_internal_get__instancedInputs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instancedInputs;
 }
@@ -97,8 +87,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const&
-HoudiniEngineUnity::HEU_ObjectInstanceInfo::__cordl_internal_get__instances() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& HoudiniEngineUnity::HEU_ObjectInstanceInfo::__cordl_internal_get__instances() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
@@ -112,13 +101,22 @@ inline bool HoudiniEngineUnity::HEU_ObjectInstanceInfo::IsEquivalentTo(::Houdini
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* HoudiniEngineUnity::HEU_ObjectInstanceInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>());
-}
 inline void HoudiniEngineUnity::HEU_ObjectInstanceInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_ObjectInstanceInfo* HoudiniEngineUnity::HEU_ObjectInstanceInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
+constexpr HoudiniEngineUnity::HEU_ObjectInstanceInfo::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*
+HoudiniEngineUnity::HEU_ObjectInstanceInfo::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectInstanceInfo__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ObjectInstanceInfo::HEU_ObjectInstanceInfo() {}

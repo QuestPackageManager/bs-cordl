@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionDataSO)
 namespace GlobalNamespace {
@@ -32,11 +31,10 @@ class MissionDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionDataSO);
-// Type: ::MissionDataSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficulty, PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionDataSO*
+// CS Name: MissionDataSO
 class CORDL_TYPE MissionDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -88,9 +86,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
   constexpr ::StringW const& __cordl_internal_get__levelId() const;
 
@@ -122,28 +120,28 @@ public:
 
   constexpr void __cordl_internal_set__songName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x269f470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d41a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x269f450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x26d4184, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x269f458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x26d418c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapKey, addr 0x269f430, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x26d4164, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x269f460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x26d4194, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_missionHelp, addr 0x269f468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelp, addr 0x26d419c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionHelpSO> get_missionHelp();
 
-  /// @brief Method get_missionObjectives, addr 0x269f428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectives, addr 0x26d415c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
-  /// @brief Method get_songName, addr 0x269f420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x26d4154, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
 protected:
@@ -159,6 +157,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MissionDataSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MissionDataSO(MissionDataSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13040 };
 
   /// @brief Field _levelId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelId;
@@ -181,14 +182,9 @@ public:
   /// @brief Field _missionHelp, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionHelpSO> ____missionHelp;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13005 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionDataSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____levelId) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____songName) == 0x20, "Offset mismatch!");
@@ -202,6 +198,8 @@ static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____missionObjectives) 
 static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____gameplayModifiers) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionDataSO, ____missionHelp) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionDataSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionDataSO);

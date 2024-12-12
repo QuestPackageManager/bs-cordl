@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FileWebRequestCreator)
-namespace System::Net {
-class IWebRequestCreate;
-}
 namespace System::Net {
 class WebRequest;
 }
@@ -20,23 +18,22 @@ class FileWebRequestCreator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::FileWebRequestCreator);
-// Type: System.Net::FileWebRequestCreator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.IWebRequestCreate, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::FileWebRequestCreator*
+// CS Name: System.Net.FileWebRequestCreator
 class CORDL_TYPE FileWebRequestCreator : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Method Create, addr 0x4454f90, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x44b62a4, size 0x58, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4454f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b629c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Net::IWebRequestCreate"
@@ -57,7 +54,7 @@ public:
   FileWebRequestCreator(FileWebRequestCreator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9651 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,11 +12,10 @@ struct EVRApplicationTransitionState;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRApplicationTransitionState);
-// Type: OVR.OpenVR::EVRApplicationTransitionState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRApplicationTransitionState
+// CS Name: OVR.OpenVR.EVRApplicationTransitionState
 struct CORDL_TYPE EVRApplicationTransitionState {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRApplicationTransitionState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field VRApplicationTransition_NewAppLaunched value: static_cast<int32_t>(0x14)
+  /// @brief Field VRApplicationTransition_NewAppLaunched value: I32(20)
   static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_NewAppLaunched;
 
-  /// @brief Field VRApplicationTransition_None value: static_cast<int32_t>(0x0)
+  /// @brief Field VRApplicationTransition_None value: I32(0)
   static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_None;
 
-  /// @brief Field VRApplicationTransition_OldAppQuitSent value: static_cast<int32_t>(0xa)
+  /// @brief Field VRApplicationTransition_OldAppQuitSent value: I32(10)
   static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_OldAppQuitSent;
 
-  /// @brief Field VRApplicationTransition_WaitingForExternalLaunch value: static_cast<int32_t>(0xb)
+  /// @brief Field VRApplicationTransition_WaitingForExternalLaunch value: I32(11)
   static ::OVR::OpenVR::EVRApplicationTransitionState const VRApplicationTransition_WaitingForExternalLaunch;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8931 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationTransitionState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRApplicationTransitionState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationTransitionState, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationTransitionState, "OVR.OpenVR", "EVRApplicationTransitionState");

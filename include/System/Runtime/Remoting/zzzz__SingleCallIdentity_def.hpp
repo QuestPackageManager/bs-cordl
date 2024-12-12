@@ -27,24 +27,23 @@ class SingleCallIdentity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::SingleCallIdentity);
-// Type: System.Runtime.Remoting::SingleCallIdentity
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.ServerIdentity
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::SingleCallIdentity*
+// CS Name: System.Runtime.Remoting.SingleCallIdentity
 class CORDL_TYPE SingleCallIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x3c74a80, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd4bf4, size 0x1bc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::SingleCallIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x3c74860, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x3cd49d4, size 0x220, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3c72408, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd257c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:

@@ -7,39 +7,39 @@
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass::__PyramidBloomRendererSO__Pass(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass::PyramidBloomRendererSO_Pass(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass::__PyramidBloomRendererSO__Pass() {}
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::Prefilter13{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::Prefilter4{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::Downsample13{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::Downsample4{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::DownsampleBilinearGamma{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleTent{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleBox{ static_cast<int32_t>(0x6) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleTentGamma{ static_cast<int32_t>(0x7) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleBoxGamma{ static_cast<int32_t>(0x8) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::Bilinear{ static_cast<int32_t>(0x9) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::BilinearGamma{ static_cast<int32_t>(0xa) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleTentAndReinhardToneMapping{ static_cast<int32_t>(0xb) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleTentAndACESToneMapping{ static_cast<int32_t>(0xc) };
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass GlobalNamespace::__PyramidBloomRendererSO__Pass::UpsampleTentAndACESToneMappingGlobalIntensity{ static_cast<int32_t>(0xd) };
-// Ctor Parameters [CppParam { name: "down", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "up", ty:
-// "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Level::__PyramidBloomRendererSO__Level(::UnityW<::UnityEngine::RenderTexture> down, ::UnityW<::UnityEngine::RenderTexture> up) noexcept {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass::PyramidBloomRendererSO_Pass() {}
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::Prefilter13{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::Prefilter4{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::Downsample13{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::Downsample4{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::DownsampleBilinearGamma{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTent{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleBox{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentGamma{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleBoxGamma{ static_cast<int32_t>(0x8) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::Bilinear{ static_cast<int32_t>(0x9) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::BilinearGamma{ static_cast<int32_t>(0xa) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndReinhardToneMapping{ static_cast<int32_t>(0xb) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndACESToneMapping{ static_cast<int32_t>(0xc) };
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass GlobalNamespace::PyramidBloomRendererSO_Pass::UpsampleTentAndACESToneMappingGlobalIntensity{ static_cast<int32_t>(0xd) };
+// Ctor Parameters [CppParam { name: "down", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "up", ty: "::UnityW<::UnityEngine::RenderTexture>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Level::PyramidBloomRendererSO_Level(::UnityW<::UnityEngine::RenderTexture> down, ::UnityW<::UnityEngine::RenderTexture> up) noexcept {
   this->down = down;
   this->up = up;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Level::__PyramidBloomRendererSO__Level() {}
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Level::PyramidBloomRendererSO_Level() {}
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomRendererSO.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnEnable)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x397d918;
+  constexpr static std::size_t addrs = 0x39d41e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x397da20;
+  constexpr static std::size_t addrs = 0x39d42e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), "OnDisable",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, bool, bool, bool, bool)>(&::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x397da44;
+  constexpr static std::size_t addrs = 0x39d430c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,11 +84,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)(
-    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, float_t, float_t, float_t, bool, bool, float_t, float_t, float_t, float_t, ::GlobalNamespace::__PyramidBloomRendererSO__Pass,
-    ::GlobalNamespace::__PyramidBloomRendererSO__Pass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass, bool, bool)>(
+    ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, float_t, float_t, float_t, bool, bool, float_t, float_t, float_t, float_t, ::GlobalNamespace::PyramidBloomRendererSO_Pass,
+    ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, bool, bool)>(
     &::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x397dad4;
+  constexpr static std::size_t addrs = 0x39d439c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,10 +100,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x397e308;
+  constexpr static std::size_t addrs = 0x39d4bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), ".ctor",
@@ -145,18 +145,18 @@ constexpr void GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_set__ma
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*>&
+constexpr ::ArrayW<::GlobalNamespace::PyramidBloomRendererSO_Level, ::Array<::GlobalNamespace::PyramidBloomRendererSO_Level>*>&
 GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_get__pyramid() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramid;
 }
-constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> const&
+constexpr ::ArrayW<::GlobalNamespace::PyramidBloomRendererSO_Level, ::Array<::GlobalNamespace::PyramidBloomRendererSO_Level>*> const&
 GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_get__pyramid() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramid;
 }
-constexpr void GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_set__pyramid(
-    ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> value) {
+constexpr void
+GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_set__pyramid(::ArrayW<::GlobalNamespace::PyramidBloomRendererSO_Level, ::Array<::GlobalNamespace::PyramidBloomRendererSO_Level>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pyramid)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -261,12 +261,11 @@ inline void GlobalNamespace::PyramidBloomRendererSO::RenderBloom(::UnityEngine::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, radius, alphaWeights, betterQuality, gammaCorrection, legacyAutoExposure);
 }
-/// @param isScreenspaceEffect: bool (default: false)
 inline void GlobalNamespace::PyramidBloomRendererSO::RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit,
                                                                  float_t downIntensityOffset, bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights,
-                                                                 float_t firstUpsampleBrightness, float_t finalUpsampleBrightness, ::GlobalNamespace::__PyramidBloomRendererSO__Pass preFilterPass,
-                                                                 ::GlobalNamespace::__PyramidBloomRendererSO__Pass downsamplePass, ::GlobalNamespace::__PyramidBloomRendererSO__Pass upsamplePass,
-                                                                 ::GlobalNamespace::__PyramidBloomRendererSO__Pass finalUpsamplePass, bool legacyAutoExposure, bool isScreenspaceEffect) {
+                                                                 float_t firstUpsampleBrightness, float_t finalUpsampleBrightness, ::GlobalNamespace::PyramidBloomRendererSO_Pass preFilterPass,
+                                                                 ::GlobalNamespace::PyramidBloomRendererSO_Pass downsamplePass, ::GlobalNamespace::PyramidBloomRendererSO_Pass upsamplePass,
+                                                                 ::GlobalNamespace::PyramidBloomRendererSO_Pass finalUpsamplePass, bool legacyAutoExposure, bool isScreenspaceEffect) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), "RenderBloom", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 18>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get(),
@@ -276,22 +275,22 @@ inline void GlobalNamespace::PyramidBloomRendererSO::RenderBloom(::UnityEngine::
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PyramidBloomRendererSO__Pass>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PyramidBloomRendererSO_Pass>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, radius, intensity, autoExposureLimit, downIntensityOffset, uniformPyramidWeights, downsampleOnFirstPass,
                                                           pyramidWeightsParam, alphaWeights, firstUpsampleBrightness, finalUpsampleBrightness, preFilterPass, downsamplePass, upsamplePass,
                                                           finalUpsamplePass, legacyAutoExposure, isScreenspaceEffect);
 }
-inline ::GlobalNamespace::PyramidBloomRendererSO* GlobalNamespace::PyramidBloomRendererSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PyramidBloomRendererSO*>());
-}
 inline void GlobalNamespace::PyramidBloomRendererSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PyramidBloomRendererSO* GlobalNamespace::PyramidBloomRendererSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PyramidBloomRendererSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PyramidBloomRendererSO::PyramidBloomRendererSO() {}

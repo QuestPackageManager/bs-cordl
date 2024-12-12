@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleBackgroundSize.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleBackgroundSize_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleBackgroundSize.get_value
 template <>
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundSize (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_value)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a1dea4;
+  constexpr static std::size_t addrs = 0x4a827b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1dee4;
+  constexpr static std::size_t addrs = 0x4a827f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1deec;
+  constexpr static std::size_t addrs = 0x4a827fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleBackgroundSize::*)(
     ::UnityEngine::UIElements::BackgroundSize, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleBackgroundSize::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a1def8;
+  constexpr static std::size_t addrs = 0x4a82808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleBackgroundSize, ::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a1df10;
+  constexpr static std::size_t addrs = 0x4a82820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackgroundSize (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::op_Implicit___UnityEngine__UIElements__StyleBackgroundSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1df70;
+  constexpr static std::size_t addrs = 0x4a82880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::UnityEngine::UIElements::StyleBackgroundSize)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a1df7c;
+  constexpr static std::size_t addrs = 0x4a8288c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleBackgroundSize::*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleBackgroundSize::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a1dff8;
+  constexpr static std::size_t addrs = 0x4a82908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a1e088;
+  constexpr static std::size_t addrs = 0x4a82998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleBackgroundSize::*)()>(
     &::UnityEngine::UIElements::StyleBackgroundSize::ToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a1e0b0;
+  constexpr static std::size_t addrs = 0x4a829c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,24 +158,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
-constexpr UnityEngine::UIElements::StyleBackgroundSize::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
-constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*
-UnityEngine::UIElements::StyleBackgroundSize::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundSize_() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
-constexpr UnityEngine::UIElements::StyleBackgroundSize::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*
-UnityEngine::UIElements::StyleBackgroundSize::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackgroundSize_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::BackgroundSize UnityEngine::UIElements::StyleBackgroundSize::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(), "get_value",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -233,6 +215,24 @@ inline ::StringW UnityEngine::UIElements::StyleBackgroundSize::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleBackgroundSize>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
+constexpr UnityEngine::UIElements::StyleBackgroundSize::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*
+UnityEngine::UIElements::StyleBackgroundSize::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundSize_() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
+constexpr UnityEngine::UIElements::StyleBackgroundSize::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*
+UnityEngine::UIElements::StyleBackgroundSize::i___System__IEquatable_1___UnityEngine__UIElements__StyleBackgroundSize_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::BackgroundSize", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
 // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]

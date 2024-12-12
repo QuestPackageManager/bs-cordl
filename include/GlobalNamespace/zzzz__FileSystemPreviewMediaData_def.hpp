@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileSystemPreviewMediaData)
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
-}
-namespace GlobalNamespace {
-class IPreviewMediaData;
 }
 namespace GlobalNamespace {
 class SpriteAsyncLoader;
@@ -30,11 +28,10 @@ class FileSystemPreviewMediaData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileSystemPreviewMediaData);
-// Type: ::FileSystemPreviewMediaData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IPreviewMediaData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FileSystemPreviewMediaData*
+// CS Name: FileSystemPreviewMediaData
 class CORDL_TYPE FileSystemPreviewMediaData : public ::System::Object {
 public:
   // Declarations
@@ -53,24 +50,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x2697324, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x26cbff4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x2697348, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x26cc018, size 0x24, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
   static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadCoverSprite, addr 0x2697390, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadCoverSprite, addr 0x26cc060, size 0x24, virtual true, abstract: false, final true
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x269736c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x26cc03c, size 0x24, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
-  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
   constexpr ::StringW const& __cordl_internal_get__coverSpritePath() const;
 
@@ -80,9 +77,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__previewAudioClipPath();
 
-  constexpr ::GlobalNamespace::SpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
+  constexpr ::GlobalNamespace::SpriteAsyncLoader* const& __cordl_internal_get__spriteAsyncLoader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpriteAsyncLoader*> const& __cordl_internal_get__spriteAsyncLoader() const;
+  constexpr ::GlobalNamespace::SpriteAsyncLoader*& __cordl_internal_get__spriteAsyncLoader();
 
   constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
@@ -92,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x2697164, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cbe34, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 
@@ -113,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemPreviewMediaData(FileSystemPreviewMediaData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12976 };
+
   /// @brief Field _spriteAsyncLoader, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SpriteAsyncLoader* ____spriteAsyncLoader;
 
@@ -125,14 +125,9 @@ public:
   /// @brief Field _previewAudioClipPath, offset: 0x28, size: 0x8, def value: None
   ::StringW ____previewAudioClipPath;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12941 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileSystemPreviewMediaData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FileSystemPreviewMediaData, ____spriteAsyncLoader) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FileSystemPreviewMediaData, ____audioClipAsyncLoader) == 0x18, "Offset mismatch!");
@@ -140,6 +135,8 @@ static_assert(offsetof(::GlobalNamespace::FileSystemPreviewMediaData, ____audioC
 static_assert(offsetof(::GlobalNamespace::FileSystemPreviewMediaData, ____coverSpritePath) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FileSystemPreviewMediaData, ____previewAudioClipPath) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileSystemPreviewMediaData, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileSystemPreviewMediaData);

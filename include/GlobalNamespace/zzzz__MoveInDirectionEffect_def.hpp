@@ -17,11 +17,10 @@ class MoveInDirectionEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MoveInDirectionEffect);
-// Type: ::MoveInDirectionEffect
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MoveInDirectionEffect*
+// CS Name: MoveInDirectionEffect
 class CORDL_TYPE MoveInDirectionEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -40,18 +39,18 @@ public:
   /// @brief Field _transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x3b28e90, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b8a428, size 0x11c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Move, addr 0x3b28fb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x3b8a548, size 0x4c, virtual false, abstract: false, final false
   inline void Move(float_t value);
 
   static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3b28fac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8a544, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b28ffc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8a594, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
@@ -84,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b29000, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8a598, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MoveInDirectionEffect(MoveInDirectionEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4272 };
+
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
@@ -116,14 +118,9 @@ public:
   /// @brief Field _moveDirection, offset: 0x44, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____moveDirection;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4261 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveInDirectionEffect, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____transform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveOrigin) == 0x28, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveScale) 
 static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____startPosition) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveDirection) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveInDirectionEffect, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveInDirectionEffect);

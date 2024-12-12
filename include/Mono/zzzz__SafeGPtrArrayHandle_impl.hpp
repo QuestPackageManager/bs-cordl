@@ -1,16 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "Mono/zzzz__SafeGPtrArrayHandle_def.hpp"
-#include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Mono::SafeGPtrArrayHandle._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)(::System::IntPtr)>(&::Mono::SafeGPtrArrayHandle::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bf479c;
+  constexpr static std::size_t addrs = 0x3c548b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bf47bc;
+  constexpr static std::size_t addrs = 0x3c548d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), "Dispose",
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bf47d8;
+  constexpr static std::size_t addrs = 0x3c548ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), "get_Length",
@@ -50,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::SafeGPtrArrayHandle::*)(int32_t)>(&::Mono::SafeGPtrArrayHandle::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf47f4;
+  constexpr static std::size_t addrs = 0x3c54908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,14 +58,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Mono::SafeGPtrArrayHandle::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Mono::SafeGPtrArrayHandle::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void Mono::SafeGPtrArrayHandle::_ctor(::System::IntPtr ptr) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -88,6 +79,14 @@ inline ::System::IntPtr Mono::SafeGPtrArrayHandle::get_Item(int32_t i) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), "get_Item", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, i);
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Mono::SafeGPtrArrayHandle::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Mono::SafeGPtrArrayHandle::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "handle", ty: "::Mono::RuntimeGPtrArrayHandle", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::SafeGPtrArrayHandle::SafeGPtrArrayHandle(::Mono::RuntimeGPtrArrayHandle handle) noexcept {

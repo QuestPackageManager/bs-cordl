@@ -39,11 +39,10 @@ class NewDiffgramGen;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::NewDiffgramGen);
-// Type: System.Data::NewDiffgramGen
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::NewDiffgramGen*
+// CS Name: System.Data.NewDiffgramGen
 class CORDL_TYPE NewDiffgramGen : public ::System::Object {
 public:
   // Declarations
@@ -74,51 +73,51 @@ public:
   /// @brief Field _xmlw, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw)) ::System::Xml::XmlWriter* _xmlw;
 
-  /// @brief Method CreateTableHierarchy, addr 0x4155314, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CreateTableHierarchy, addr 0x41b6628, size 0x384, virtual false, abstract: false, final false
   inline void CreateTableHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method DoAssignments, addr 0x4154fc4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DoAssignments, addr 0x41b62d8, size 0x264, virtual false, abstract: false, final false
   inline void DoAssignments(::System::Collections::ArrayList* tables);
 
-  /// @brief Method EmptyData, addr 0x4155698, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EmptyData, addr 0x41b69ac, size 0xf4, virtual false, abstract: false, final false
   inline bool EmptyData();
 
-  /// @brief Method GenerateColumn, addr 0x415733c, size 0x9fc, virtual false, abstract: false, final false
+  /// @brief Method GenerateColumn, addr 0x41b8650, size 0x9fc, virtual false, abstract: false, final false
   inline void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GenerateRow, addr 0x4156cd8, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method GenerateRow, addr 0x41b7fec, size 0x59c, virtual false, abstract: false, final false
   inline void GenerateRow(::System::Data::DataRow* row);
 
-  /// @brief Method GenerateTable, addr 0x415671c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTable, addr 0x41b7a30, size 0x7c, virtual false, abstract: false, final false
   inline void GenerateTable(::System::Data::DataTable* table);
 
-  /// @brief Method GenerateTableErrors, addr 0x4156798, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableErrors, addr 0x41b7aac, size 0x540, virtual false, abstract: false, final false
   inline void GenerateTableErrors(::System::Data::DataTable* table);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet* ds);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
-  /// @brief Method QualifiedName, addr 0x4154e4c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x41b6160, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW QualifiedName(::StringW prefix, ::StringW name);
 
-  /// @brief Method Save, addr 0x415578c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x41b6aa0, size 0x8, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw);
 
-  /// @brief Method Save, addr 0x4155794, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x41b6aa8, size 0x3f0, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
+
+  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__doc() const;
 
   constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__doc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get__doc() const;
+  constexpr ::System::Data::DataSet* const& __cordl_internal_get__ds() const;
 
   constexpr ::System::Data::DataSet*& __cordl_internal_get__ds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataSet*> const& __cordl_internal_get__ds() const;
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__dt() const;
 
   constexpr ::System::Data::DataTable*& __cordl_internal_get__dt();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get__dt() const;
 
   constexpr bool const& __cordl_internal_get__fBefore() const;
 
@@ -128,21 +127,21 @@ public:
 
   constexpr bool& __cordl_internal_get__fErrors();
 
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get__rowsOrder() const;
+
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__rowsOrder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__rowsOrder() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__tables() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__tables();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__tables() const;
 
   constexpr bool const& __cordl_internal_get__writeHierarchy() const;
 
   constexpr bool& __cordl_internal_get__writeHierarchy();
 
-  constexpr ::System::Xml::XmlWriter*& __cordl_internal_get__xmlw();
+  constexpr ::System::Xml::XmlWriter* const& __cordl_internal_get__xmlw() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __cordl_internal_get__xmlw() const;
+  constexpr ::System::Xml::XmlWriter*& __cordl_internal_get__xmlw();
 
   constexpr void __cordl_internal_set__doc(::System::Xml::XmlDocument* value);
 
@@ -162,10 +161,10 @@ public:
 
   constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x4154eb4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b61c8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds);
 
-  /// @brief Method .ctor, addr 0x4155228, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41b653c, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
 protected:
@@ -181,6 +180,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NewDiffgramGen", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NewDiffgramGen(NewDiffgramGen const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11486 };
 
   /// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ____doc;
@@ -209,14 +211,9 @@ public:
   /// @brief Field _writeHierarchy, offset: 0x48, size: 0x1, def value: None
   bool ____writeHierarchy;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::NewDiffgramGen, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::NewDiffgramGen, ____doc) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::NewDiffgramGen, ____ds) == 0x18, "Offset mismatch!");
@@ -234,6 +231,8 @@ static_assert(offsetof(::System::Data::NewDiffgramGen, ____rowsOrder) == 0x38, "
 static_assert(offsetof(::System::Data::NewDiffgramGen, ____tables) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::NewDiffgramGen, ____writeHierarchy) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::NewDiffgramGen, 0x50>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::NewDiffgramGen);

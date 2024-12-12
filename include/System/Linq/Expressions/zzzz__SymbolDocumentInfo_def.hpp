@@ -13,16 +13,15 @@ class SymbolDocumentInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::SymbolDocumentInfo);
-// Type: System.Linq.Expressions::SymbolDocumentInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Guid, System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::SymbolDocumentInfo*
+// CS Name: System.Linq.Expressions.SymbolDocumentInfo
 class CORDL_TYPE SymbolDocumentInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DocumentType_Text, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_DocumentType_Text, put = setStaticF_DocumentType_Text)) ::System::Guid DocumentType_Text;
+  __declspec(property(get = getStaticF_DocumentType_Text, put = setStaticF_DocumentType_Text)) ::System::Guid DocumentType_Text;
 
   __declspec(property(get = get_FileName)) ::StringW FileName;
 
@@ -37,7 +36,7 @@ public:
 
   static inline ::System::Guid getStaticF_DocumentType_Text();
 
-  /// @brief Method get_FileName, addr 0x405a3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x40bb710, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
   static inline void setStaticF_DocumentType_Text(::System::Guid value);
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SymbolDocumentInfo(SymbolDocumentInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
+
   /// @brief Field <FileName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____FileName_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SymbolDocumentInfo, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::SymbolDocumentInfo, ____FileName_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::SymbolDocumentInfo, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::SymbolDocumentInfo);

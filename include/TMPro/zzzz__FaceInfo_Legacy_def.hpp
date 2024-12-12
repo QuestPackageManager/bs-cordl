@@ -14,11 +14,10 @@ class FaceInfo_Legacy;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
-// Type: TMPro::FaceInfo_Legacy
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::FaceInfo_Legacy*
+// CS Name: TMPro.FaceInfo_Legacy
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
   // Declarations
@@ -213,7 +212,7 @@ public:
 
   constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
 
-  /// @brief Method .ctor, addr 0x477195c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d2c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,6 +228,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FaceInfo_Legacy(FaceInfo_Legacy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14474 };
 
   /// @brief Field Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Name;
@@ -293,14 +295,9 @@ public:
   /// @brief Field AtlasHeight, offset: 0x64, size: 0x4, def value: None
   float_t ___AtlasHeight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14440 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::FaceInfo_Legacy, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___PointSize) == 0x18, "Offset mismatch!");
@@ -342,6 +339,8 @@ static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___Padding) == 0x5c, "Offset mi
 static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___AtlasWidth) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::FaceInfo_Legacy, ___AtlasHeight) == 0x64, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::FaceInfo_Legacy, 0x68>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::FaceInfo_Legacy);

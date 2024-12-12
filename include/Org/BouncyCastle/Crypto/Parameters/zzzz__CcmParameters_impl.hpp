@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Parameters::CcmParameters::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2382e5c;
+  constexpr static std::size_t addrs = 0x23b6148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,11 +22,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Crypto::Parameters::CcmParameters* Org::BouncyCastle::Crypto::Parameters::CcmParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
-                                                                                                                              int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
-                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::CcmParameters*>(key, macSize, nonce, associatedText));
-}
 inline void Org::BouncyCastle::Crypto::Parameters::CcmParameters::_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,6 +31,11 @@ inline void Org::BouncyCastle::Crypto::Parameters::CcmParameters::_ctor(::Org::B
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, macSize, nonce, associatedText);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::CcmParameters* Org::BouncyCastle::Crypto::Parameters::CcmParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
+                                                                                                                              int32_t macSize, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
+                                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> associatedText) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::CcmParameters*>(key, macSize, nonce, associatedText));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::CcmParameters::CcmParameters() {}

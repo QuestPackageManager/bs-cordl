@@ -14,17 +14,16 @@ class AsyncStateMachineAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncStateMachineAttribute);
-// Type: System.Runtime.CompilerServices::AsyncStateMachineAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.StateMachineAttribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::AsyncStateMachineAttribute*
+// CS Name: System.Runtime.CompilerServices.AsyncStateMachineAttribute
 class CORDL_TYPE AsyncStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::AsyncStateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
-  /// @brief Method .ctor, addr 0x3cb6844, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d169b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
 protected:

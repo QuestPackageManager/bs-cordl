@@ -12,11 +12,10 @@ class MonoTODOAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MonoTODOAttribute);
-// Type: System::MonoTODOAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::MonoTODOAttribute*
+// CS Name: System.MonoTODOAttribute
 class CORDL_TYPE MonoTODOAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_comment(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3db2418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e124c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3db2428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e124d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTODOAttribute(MonoTODOAttribute const&) = delete;
 
-  /// @brief Field comment, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___comment;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2537 };
+
+  /// @brief Field comment, offset: 0x10, size: 0x8, def value: None
+  ::StringW ___comment;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::MonoTODOAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::MonoTODOAttribute, ___comment) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::MonoTODOAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MonoTODOAttribute);

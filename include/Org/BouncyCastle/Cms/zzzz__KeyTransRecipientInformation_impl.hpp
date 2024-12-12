@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2623b6c;
+  constexpr static std::size_t addrs = 0x2656e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::GetExchangeEncryptionAlgorithmName)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x264502c;
+  constexpr static std::size_t addrs = 0x2678318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::UnwrapKey)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x26451f0;
+  constexpr static std::size_t addrs = 0x26784dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyTransRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2645568;
+  constexpr static std::size_t addrs = 0x2678854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,17 +75,13 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*> const& Org::BouncyCastle::Cms::KeyTransRecipientInformation::__cordl_internal_get_info() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* const& Org::BouncyCastle::Cms::KeyTransRecipientInformation::__cordl_internal_get_info() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
 constexpr void Org::BouncyCastle::Cms::KeyTransRecipientInformation::__cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* Org::BouncyCastle::Cms::KeyTransRecipientInformation::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
-                                                                                                                              ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::KeyTransRecipientInformation*>(info, secureReadable));
 }
 inline void Org::BouncyCastle::Cms::KeyTransRecipientInformation::_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,6 +108,10 @@ inline ::Org::BouncyCastle::Cms::CmsTypedStream* Org::BouncyCastle::Cms::KeyTran
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::KeyTransRecipientInformation*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::CmsTypedStream*, false>(this, ___internal_method, key);
+}
+inline ::Org::BouncyCastle::Cms::KeyTransRecipientInformation* Org::BouncyCastle::Cms::KeyTransRecipientInformation::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info,
+                                                                                                                              ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::KeyTransRecipientInformation*>(info, secureReadable));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::KeyTransRecipientInformation::KeyTransRecipientInformation() {}

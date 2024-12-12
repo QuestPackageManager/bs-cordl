@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(NotifyCollectionChangedEventHandler)
 namespace System::Collections::Specialized {
 class NotifyCollectionChangedEventArgs;
@@ -21,20 +20,19 @@ class NotifyCollectionChangedEventHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::NotifyCollectionChangedEventHandler);
-// Type: System.Collections.Specialized::NotifyCollectionChangedEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Collections::Specialized {
 // Is value type: false
-// CS Name: ::System.Collections.Specialized::NotifyCollectionChangedEventHandler*
+// CS Name: System.Collections.Specialized.NotifyCollectionChangedEventHandler
 class CORDL_TYPE NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x44221a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x44834b4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* e);
 
   static inline ::System::Collections::Specialized::NotifyCollectionChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x442209c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44833b0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -52,7 +50,7 @@ public:
   NotifyCollectionChangedEventHandler(NotifyCollectionChangedEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

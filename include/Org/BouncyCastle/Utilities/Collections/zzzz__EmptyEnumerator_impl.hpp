@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EmptyEnumerator.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EmptyEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259c954;
+  constexpr static std::size_t addrs = 0x25cfc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259c95c;
+  constexpr static std::size_t addrs = 0x25cfc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x259c964;
+  constexpr static std::size_t addrs = 0x25cfc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x259c968;
+  constexpr static std::size_t addrs = 0x25cfc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,14 +65,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
 inline void Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::setStaticF_Instance(::System::Collections::IEnumerator* value) {
   ::cordl_internals::setStaticField<::System::Collections::IEnumerator*, "Instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*>::get>(
@@ -80,9 +73,6 @@ inline void Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::setStati
 inline ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::System::Collections::IEnumerator*, "Instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*>::get>();
-}
-inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator* Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*>());
 }
 inline void Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::_ctor() {
   static auto* ___internal_method =
@@ -107,6 +97,17 @@ inline ::System::Object* Org::BouncyCastle::Utilities::Collections::EmptyEnumera
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*>::get(), "get_Current",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator* Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*>());
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::EmptyEnumerator() {}

@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UrlBase64)
@@ -20,38 +19,37 @@ class UrlBase64;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::UrlBase64);
-// Type: Org.BouncyCastle.Utilities.Encoders::UrlBase64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Encoders::UrlBase64*
+// CS Name: Org.BouncyCastle.Utilities.Encoders.UrlBase64
 class CORDL_TYPE UrlBase64 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encoder, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::IEncoder* encoder;
+  __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::IEncoder* encoder;
 
-  /// @brief Method Decode, addr 0x25a3f2c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d7218, size 0x228, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Decode, addr 0x25a4248, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d7534, size 0x210, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
 
-  /// @brief Method Decode, addr 0x25a4154, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d7440, size 0xf4, virtual false, abstract: false, final false
   static inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Decode, addr 0x25a4458, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25d7744, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStr);
 
-  /// @brief Method Encode, addr 0x25a3c18, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d6f04, size 0x224, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Encode, addr 0x25a3e3c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x25d7128, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStr);
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a4614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::IEncoder* getStaticF_encoder();

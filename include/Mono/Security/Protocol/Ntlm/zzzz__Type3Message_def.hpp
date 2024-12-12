@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmAuthLevel_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Type3Message)
@@ -18,11 +17,10 @@ class Type3Message;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type3Message);
-// Type: Mono.Security.Protocol.Ntlm::Type3Message
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.Protocol.Ntlm.MessageBase, Mono.Security.Protocol.Ntlm.NtlmAuthLevel
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// CS Name: ::Mono.Security.Protocol.Ntlm::Type3Message*
+// CS Name: Mono.Security.Protocol.Ntlm.Type3Message
 class CORDL_TYPE Type3Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
   // Declarations
@@ -59,19 +57,19 @@ public:
   /// @brief Field _username, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username)) ::StringW _username;
 
-  /// @brief Method Decode, addr 0x3be3da8, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x3c43ebc, size 0x220, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method DecodeString, addr 0x3be3fc8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DecodeString, addr 0x3c440dc, size 0x58, virtual false, abstract: false, final false
   inline ::StringW DecodeString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len);
 
-  /// @brief Method EncodeString, addr 0x3be4020, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EncodeString, addr 0x3c44134, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeString(::StringW text);
 
-  /// @brief Method Finalize, addr 0x3be3c34, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3c43d48, size 0xe0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x3be40b0, size 0x640, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3c441c4, size 0x640, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::Protocol::Ntlm::Type3Message* New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
@@ -104,9 +102,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__password();
 
-  constexpr ::Mono::Security::Protocol::Ntlm::Type2Message*& __cordl_internal_get__type2();
+  constexpr ::Mono::Security::Protocol::Ntlm::Type2Message* const& __cordl_internal_get__type2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::Type2Message*> const& __cordl_internal_get__type2() const;
+  constexpr ::Mono::Security::Protocol::Ntlm::Type2Message*& __cordl_internal_get__type2();
 
   constexpr ::StringW const& __cordl_internal_get__username() const;
 
@@ -130,16 +128,16 @@ public:
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3be3a48, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c43b5c, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
 
-  /// @brief Method set_Domain, addr 0x3be3d14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x3c43e28, size 0x84, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Password, addr 0x3be3d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x3c43eac, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_Username, addr 0x3be3da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Username, addr 0x3c43eb4, size 0x8, virtual false, abstract: false, final false
   inline void set_Username(::StringW value);
 
 protected:
@@ -155,6 +153,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Type3Message", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Type3Message(Type3Message const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15942 };
 
   /// @brief Field _level, offset: 0x18, size: 0x4, def value: None
   ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel ____level;
@@ -183,14 +184,9 @@ public:
   /// @brief Field _nt, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____nt;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15907 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::Type3Message, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type3Message, ____level) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type3Message, ____challenge) == 0x20, "Offset mismatch!");
@@ -208,6 +204,8 @@ static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type3Message, ____type2
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type3Message, ____lm) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::Type3Message, ____nt) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::Type3Message, 0x60>, "Size mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::Type3Message);

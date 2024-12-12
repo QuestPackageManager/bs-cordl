@@ -19,7 +19,7 @@ template <typename T> inline int32_t System::Threading::SparselyPopulatedArrayAd
                                                                              "get_Index", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_index", ty: "int32_t",
+// Ctor Parameters [CppParam { name: "_source", ty: "::System::Threading::SparselyPopulatedArrayFragment_1<T>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_index", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::System::Threading::SparselyPopulatedArrayAddInfo_1<T>::SparselyPopulatedArrayAddInfo_1(::System::Threading::SparselyPopulatedArrayFragment_1<T>* _source, int32_t _index) noexcept {

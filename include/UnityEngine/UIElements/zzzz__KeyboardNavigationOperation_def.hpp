@@ -12,11 +12,10 @@ struct KeyboardNavigationOperation;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::KeyboardNavigationOperation);
-// Type: UnityEngine.UIElements::KeyboardNavigationOperation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::KeyboardNavigationOperation
+// CS Name: UnityEngine.UIElements.KeyboardNavigationOperation
 struct CORDL_TYPE KeyboardNavigationOperation {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr KeyboardNavigationOperation(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Begin value: static_cast<int32_t>(0xa)
+  /// @brief Field Begin value: I32(10)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Begin;
 
-  /// @brief Field Cancel value: static_cast<int32_t>(0x2)
+  /// @brief Field Cancel value: I32(2)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Cancel;
 
-  /// @brief Field End value: static_cast<int32_t>(0xb)
+  /// @brief Field End value: I32(11)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const End;
 
-  /// @brief Field MoveLeft value: static_cast<int32_t>(0x7)
+  /// @brief Field MoveLeft value: I32(7)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const MoveLeft;
 
-  /// @brief Field MoveRight value: static_cast<int32_t>(0x6)
+  /// @brief Field MoveRight value: I32(6)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const MoveRight;
 
-  /// @brief Field Next value: static_cast<int32_t>(0x5)
+  /// @brief Field Next value: I32(5)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Next;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const None;
 
-  /// @brief Field PageDown value: static_cast<int32_t>(0x9)
+  /// @brief Field PageDown value: I32(9)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageDown;
 
-  /// @brief Field PageUp value: static_cast<int32_t>(0x8)
+  /// @brief Field PageUp value: I32(8)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const PageUp;
 
-  /// @brief Field Previous value: static_cast<int32_t>(0x4)
+  /// @brief Field Previous value: I32(4)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Previous;
 
-  /// @brief Field SelectAll value: static_cast<int32_t>(0x1)
+  /// @brief Field SelectAll value: I32(1)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const SelectAll;
 
-  /// @brief Field Submit value: static_cast<int32_t>(0x3)
+  /// @brief Field Submit value: I32(3)
   static ::UnityEngine::UIElements::KeyboardNavigationOperation const Submit;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5980 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardNavigationOperation, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardNavigationOperation, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardNavigationOperation, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyboardNavigationOperation, "UnityEngine.UIElements", "KeyboardNavigationOperation");

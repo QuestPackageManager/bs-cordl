@@ -14,11 +14,10 @@ class CmsAuthenticatedGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator);
-// Type: Org.BouncyCastle.Cms::CmsAuthenticatedGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.CmsEnvelopedGenerator
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedGenerator*
+// CS Name: Org.BouncyCastle.Cms.CmsAuthenticatedGenerator
 class CORDL_TYPE CmsAuthenticatedGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
 public:
   // Declarations
@@ -26,10 +25,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x261ad68, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e054, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x261adbc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264e0a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

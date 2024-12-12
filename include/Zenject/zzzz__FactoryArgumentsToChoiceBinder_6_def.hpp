@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryToChoiceBinder_6_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_6)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -33,13 +32,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::FactoryArgumentsToChoiceBinder_6);
-// Type: Zenject::FactoryArgumentsToChoiceBinder`6
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.FactoryToChoiceBinder`6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::FactoryArgumentsToChoiceBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
+// CS Name: Zenject.FactoryArgumentsToChoiceBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_6 : public ::Zenject::FactoryToChoiceBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract> {
 public:
   // Declarations
@@ -97,7 +95,7 @@ public:
   FactoryArgumentsToChoiceBinder_6(FactoryArgumentsToChoiceBinder_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12013 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12046 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

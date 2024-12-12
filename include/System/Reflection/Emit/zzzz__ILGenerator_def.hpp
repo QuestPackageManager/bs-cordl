@@ -11,11 +11,10 @@ class ILGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::ILGenerator);
-// Type: System.Reflection.Emit::ILGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Reflection::Emit {
 // Is value type: false
-// CS Name: ::System.Reflection.Emit::ILGenerator*
+// CS Name: System.Reflection.Emit.ILGenerator
 class CORDL_TYPE ILGenerator : public ::System::Object {
 public:
   // Declarations

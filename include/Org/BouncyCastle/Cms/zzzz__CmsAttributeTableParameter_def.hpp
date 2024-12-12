@@ -12,11 +12,10 @@ struct CmsAttributeTableParameter;
 }
 // Write type traits
 MARK_VAL_T(::Org::BouncyCastle::Cms::CmsAttributeTableParameter);
-// Type: Org.BouncyCastle.Cms::CmsAttributeTableParameter
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Cms {
 // Is value type: true
-// CS Name: ::Org.BouncyCastle.Cms::CmsAttributeTableParameter
+// CS Name: Org.BouncyCastle.Cms.CmsAttributeTableParameter
 struct CORDL_TYPE CmsAttributeTableParameter {
 public:
   // Declarations
@@ -47,19 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CmsAttributeTableParameter(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ContentType value: static_cast<int32_t>(0x0)
+  /// @brief Field ContentType value: I32(0)
   static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const ContentType;
 
-  /// @brief Field Digest value: static_cast<int32_t>(0x1)
+  /// @brief Field Digest value: I32(1)
   static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const Digest;
 
-  /// @brief Field DigestAlgorithmIdentifier value: static_cast<int32_t>(0x3)
+  /// @brief Field DigestAlgorithmIdentifier value: I32(3)
   static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const DigestAlgorithmIdentifier;
 
-  /// @brief Field Signature value: static_cast<int32_t>(0x2)
+  /// @brief Field Signature value: I32(2)
   static ::Org::BouncyCastle::Cms::CmsAttributeTableParameter const Signature;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,12 +64,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAttributeTableParameter, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsAttributeTableParameter, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsAttributeTableParameter, 0x4>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsAttributeTableParameter, "Org.BouncyCastle.Cms", "CmsAttributeTableParameter");

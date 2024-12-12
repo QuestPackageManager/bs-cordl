@@ -12,11 +12,10 @@ struct TrackingSpaceType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::TrackingSpaceType);
-// Type: UnityEngine.XR::TrackingSpaceType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.XR::TrackingSpaceType
+// CS Name: UnityEngine.XR.TrackingSpaceType
 struct CORDL_TYPE TrackingSpaceType {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TrackingSpaceType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field RoomScale value: static_cast<int32_t>(0x1)
+  /// @brief Field RoomScale value: I32(1)
   static ::UnityEngine::XR::TrackingSpaceType const RoomScale;
 
-  /// @brief Field Stationary value: static_cast<int32_t>(0x0)
+  /// @brief Field Stationary value: I32(0)
   static ::UnityEngine::XR::TrackingSpaceType const Stationary;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18984 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::TrackingSpaceType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::TrackingSpaceType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::TrackingSpaceType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::TrackingSpaceType, "UnityEngine.XR", "TrackingSpaceType");

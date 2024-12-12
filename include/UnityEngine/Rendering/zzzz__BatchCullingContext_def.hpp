@@ -28,9 +28,6 @@ namespace UnityEngine::Rendering {
 struct BatchCullingViewType;
 }
 namespace UnityEngine::Rendering {
-struct BatchPackedCullingViewID;
-}
-namespace UnityEngine::Rendering {
 struct CullingSplit;
 }
 namespace UnityEngine::Rendering {
@@ -48,15 +45,15 @@ struct BatchCullingContext;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
-// Type: UnityEngine.Rendering::BatchCullingContext
-// SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 188, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Matrix4x4, UnityEngine.Plane, UnityEngine.Rendering.BatchCullingFlags, UnityEngine.Rendering.BatchCullingProjectionType,
+// UnityEngine.Rendering.BatchCullingViewType, UnityEngine.Rendering.BatchPackedCullingViewID, UnityEngine.Rendering.CullingSplit, UnityEngine.Rendering.LODParameters
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::BatchCullingContext
+// CS Name: UnityEngine.Rendering.BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x48670f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48c847c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::CullingSplit> inCullingSplits,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inLocalToWorldMatrix, ::UnityEngine::Rendering::BatchCullingViewType inViewType,
                     ::UnityEngine::Rendering::BatchCullingProjectionType inProjectionType, ::UnityEngine::Rendering::BatchCullingFlags inBatchCullingFlags, uint64_t inViewID,
@@ -79,6 +76,12 @@ public:
                                 ::UnityEngine::Rendering::BatchCullingProjectionType projectionType, ::UnityEngine::Rendering::BatchCullingFlags cullingFlags,
                                 ::UnityEngine::Rendering::BatchPackedCullingViewID viewID, uint32_t cullingLayerMask, uint64_t sceneCullingMask, uint8_t isOrthographic, int32_t receiverPlaneOffset,
                                 int32_t receiverPlaneCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11249 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
 
   /// @brief Field cullingPlanes, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes;
@@ -119,17 +122,9 @@ public:
   /// @brief Field receiverPlaneCount, offset: 0xa8, size: 0x4, def value: None
   int32_t receiverPlaneCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11216 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchCullingContext, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, cullingPlanes) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, cullingSplits) == 0x10, "Offset mismatch!");
@@ -155,6 +150,8 @@ static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, isOrthogra
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, receiverPlaneOffset) == 0xa4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::BatchCullingContext, receiverPlaneCount) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BatchCullingContext, 0xb0>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchCullingContext, "UnityEngine.Rendering", "BatchCullingContext");

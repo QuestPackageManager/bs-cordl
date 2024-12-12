@@ -16,20 +16,15 @@ class IDecryptorBuilderProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IDecryptorBuilderProvider);
-// Type: Org.BouncyCastle.Crypto::IDecryptorBuilderProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::IDecryptorBuilderProvider*
+// CS Name: Org.BouncyCastle.Crypto.IDecryptorBuilderProvider
 class CORDL_TYPE IDecryptorBuilderProvider {
 public:
   // Declarations
-  /// @brief Method CreateDecryptorBuilder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateDecryptorBuilder, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilder* CreateDecryptorBuilder(::System::Object* algorithmDetails);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDecryptorBuilderProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDecryptorBuilderProvider(IDecryptorBuilderProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDecryptorBuilderProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

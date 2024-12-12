@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DesKeyGenerator)
 namespace Org::BouncyCastle::Crypto {
@@ -16,11 +15,10 @@ class DesKeyGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::DesKeyGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.CipherKeyGenerator
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::DesKeyGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.DesKeyGenerator
 class CORDL_TYPE DesKeyGenerator : public ::Org::BouncyCastle::Crypto::CipherKeyGenerator {
 public:
   // Declarations
@@ -28,16 +26,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor, addr 0x234bfd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f2c4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x234bfe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237f2d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method engineGenerateKey, addr 0x234c0d4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method engineGenerateKey, addr 0x237f3c0, size 0xb4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
-  /// @brief Method engineInit, addr 0x234bfec, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method engineInit, addr 0x237f2d8, size 0xe8, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
 protected:

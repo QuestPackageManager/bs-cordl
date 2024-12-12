@@ -15,11 +15,10 @@ class DsaParameterGenerationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::DsaParameterGenerationParameters
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaParameterGenerationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.DsaParameterGenerationParameters
 class CORDL_TYPE DsaParameterGenerationParameters : public ::System::Object {
 public:
   // Declarations
@@ -65,9 +64,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_n();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr int32_t const& __cordl_internal_get_usageIndex() const;
 
@@ -83,25 +82,25 @@ public:
 
   constexpr void __cordl_internal_set_usageIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2385240, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b852c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x238528c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b8578, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex);
 
-  /// @brief Method get_Certainty, addr 0x23852f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certainty, addr 0x23b85e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_L, addr 0x23852e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_L, addr 0x23b85cc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_N, addr 0x23852e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_N, addr 0x23b85d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_N();
 
-  /// @brief Method get_Random, addr 0x2385300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Random, addr 0x23b85ec, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_UsageIndex, addr 0x23852f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UsageIndex, addr 0x23b85dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
 protected:
@@ -118,6 +117,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DsaParameterGenerationParameters(DsaParameterGenerationParameters const&) = delete;
 
+  /// @brief Field DigitalSignatureUsage offset 0xffffffff size 0x4
+  static constexpr int32_t DigitalSignatureUsage{ static_cast<int32_t>(0x1) };
+
+  /// @brief Field KeyEstablishmentUsage offset 0xffffffff size 0x4
+  static constexpr int32_t KeyEstablishmentUsage{ static_cast<int32_t>(0x2) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1028 };
+
   /// @brief Field l, offset: 0x10, size: 0x4, def value: None
   int32_t ___l;
 
@@ -133,20 +141,9 @@ public:
   /// @brief Field usageIndex, offset: 0x28, size: 0x4, def value: None
   int32_t ___usageIndex;
 
-  /// @brief Field DigitalSignatureUsage offset 0xffffffff size 0x4
-  static constexpr int32_t DigitalSignatureUsage{ static_cast<int32_t>(0x1) };
-
-  /// @brief Field KeyEstablishmentUsage offset 0xffffffff size 0x4
-  static constexpr int32_t KeyEstablishmentUsage{ static_cast<int32_t>(0x2) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1028 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, ___l) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, ___n) == 0x14, "Offset mismatch!");
@@ -156,6 +153,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGene
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, ___random) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, ___usageIndex) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters);

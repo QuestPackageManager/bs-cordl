@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Security/SecureString.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecureString_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::SecureString._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c33fe8;
+  constexpr static std::size_t addrs = 0x3c9415c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)(::cordl_internals::Ptr<char16_t>, int32_t)>(
     &::System::Security::SecureString::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3c3418c;
+  constexpr static std::size_t addrs = 0x3c94300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::SecureString::*)()>(&::System::Security::SecureString::get_Length)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c342d0;
+  constexpr static std::size_t addrs = 0x3c94444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "get_Length",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c34330;
+  constexpr static std::size_t addrs = 0x3c944a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "Dispose",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Encrypt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c342cc;
+  constexpr static std::size_t addrs = 0x3c94440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "Encrypt",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)()>(&::System::Security::SecureString::Decrypt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c34368;
+  constexpr static std::size_t addrs = 0x3c944dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "Decrypt",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecureString::*)(int32_t, bool)>(&::System::Security::SecureString::Alloc)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3c3400c;
+  constexpr static std::size_t addrs = 0x3c94180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::SecureString::*)()>(
     &::System::Security::SecureString::GetBuffer)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c3436c;
+  constexpr static std::size_t addrs = 0x3c944e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "GetBuffer",
@@ -112,14 +112,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Security::SecureString::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Security::SecureString::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr int32_t& System::Security::SecureString::__cordl_internal_get_length() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___length;
@@ -156,16 +148,10 @@ constexpr void System::Security::SecureString::__cordl_internal_set_data(::Array
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Security::SecureString* System::Security::SecureString::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecureString*>());
-}
 inline void System::Security::SecureString::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Security::SecureString* System::Security::SecureString::New_ctor(::cordl_internals::Ptr<char16_t> value, int32_t length) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecureString*>(value, length));
 }
 inline void System::Security::SecureString::_ctor(::cordl_internals::Ptr<char16_t> value, int32_t length) {
   static auto* ___internal_method =
@@ -204,6 +190,20 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::SecureString::GetB
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecureString*>::get(), "GetBuffer",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::System::Security::SecureString* System::Security::SecureString::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecureString*>());
+}
+inline ::System::Security::SecureString* System::Security::SecureString::New_ctor(::cordl_internals::Ptr<char16_t> value, int32_t length) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecureString*>(value, length));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Security::SecureString::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Security::SecureString::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecureString::SecureString() {}

@@ -15,11 +15,10 @@ class CryptoException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::CryptoException);
-// Type: Org.BouncyCastle.Crypto::CryptoException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::CryptoException*
+// CS Name: Org.BouncyCastle.Crypto.CryptoException
 class CORDL_TYPE CryptoException : public ::System::Exception {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::CryptoException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2414afc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447de8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2414b54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447e40, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2414bbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447ea8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

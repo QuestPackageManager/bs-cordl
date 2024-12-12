@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProfilerCategoryDescription)
-namespace UnityEngine {
-struct Color32;
-}
 // Forward declare root types
 namespace Unity::Profiling::LowLevel::Unsafe {
 struct ProfilerCategoryDescription;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription);
-// Type: Unity.Profiling.LowLevel.Unsafe::ProfilerCategoryDescription
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: Some(0) }
+// Dependencies UnityEngine.Color32
 namespace Unity::Profiling::LowLevel::Unsafe {
 // Is value type: true
-// CS Name: ::Unity.Profiling.LowLevel.Unsafe::ProfilerCategoryDescription
+// CS Name: Unity.Profiling.LowLevel.Unsafe.ProfilerCategoryDescription
 #pragma pack(push, 0)
 struct CORDL_TYPE ProfilerCategoryDescription {
 public:
@@ -179,7 +175,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10572 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

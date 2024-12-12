@@ -12,11 +12,10 @@ struct ElementProperties;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::ElementProperties);
-// Type: System.Xml::ElementProperties
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::ElementProperties
+// CS Name: System.Xml.ElementProperties
 struct CORDL_TYPE ElementProperties {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr ElementProperties(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field BLOCK_WS value: static_cast<uint32_t>(0x808040u)
+  /// @brief Field BLOCK_WS value: U32(8421440)
   static ::System::Xml::ElementProperties const BLOCK_WS;
 
-  /// @brief Field BOOL_PARENT value: static_cast<uint32_t>(0x10080402u)
+  /// @brief Field BOOL_PARENT value: U32(268960770)
   static ::System::Xml::ElementProperties const BOOL_PARENT;
 
-  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
+  /// @brief Field DEFAULT value: U32(67240192)
   static ::System::Xml::ElementProperties const DEFAULT;
 
-  /// @brief Field EMPTY value: static_cast<uint32_t>(0x40201008u)
+  /// @brief Field EMPTY value: U32(1075843080)
   static ::System::Xml::ElementProperties const EMPTY;
 
-  /// @brief Field HAS_NS value: static_cast<uint32_t>(0x1008080u)
+  /// @brief Field HAS_NS value: U32(16810112)
   static ::System::Xml::ElementProperties const HAS_NS;
 
-  /// @brief Field HEAD value: static_cast<uint32_t>(0x80804020u)
+  /// @brief Field HEAD value: U32(2155888672)
   static ::System::Xml::ElementProperties const HEAD;
 
-  /// @brief Field NAME_PARENT value: static_cast<uint32_t>(0x20100804u)
+  /// @brief Field NAME_PARENT value: U32(537921540)
   static ::System::Xml::ElementProperties const NAME_PARENT;
 
-  /// @brief Field NO_ENTITIES value: static_cast<uint32_t>(0x80402010u)
+  /// @brief Field NO_ENTITIES value: U32(2151686160)
   static ::System::Xml::ElementProperties const NO_ENTITIES;
 
-  /// @brief Field URI_PARENT value: static_cast<uint32_t>(0x8040201u)
+  /// @brief Field URI_PARENT value: U32(134480385)
   static ::System::Xml::ElementProperties const URI_PARENT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7197 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::ElementProperties, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::ElementProperties, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::ElementProperties, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ElementProperties, "System.Xml", "ElementProperties");

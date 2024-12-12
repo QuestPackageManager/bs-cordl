@@ -12,11 +12,10 @@ class FloatRectOffset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::FloatRectOffset);
-// Type: HMUI::FloatRectOffset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::FloatRectOffset*
+// CS Name: HMUI.FloatRectOffset
 class CORDL_TYPE FloatRectOffset : public ::System::Object {
 public:
   // Declarations
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_top(float_t value);
 
-  /// @brief Method .ctor, addr 0x3998afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatRectOffset(FloatRectOffset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16040 };
+
   /// @brief Field left, offset: 0x10, size: 0x4, def value: None
   float_t ___left;
 
@@ -87,14 +89,9 @@ public:
   /// @brief Field bottom, offset: 0x1c, size: 0x4, def value: None
   float_t ___bottom;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16005 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::FloatRectOffset, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::FloatRectOffset, ___left) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::FloatRectOffset, ___right) == 0x14, "Offset mismatch!");
@@ -102,6 +99,8 @@ static_assert(offsetof(::HMUI::FloatRectOffset, ___right) == 0x14, "Offset misma
 static_assert(offsetof(::HMUI::FloatRectOffset, ___top) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::FloatRectOffset, ___bottom) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::FloatRectOffset, 0x20>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::FloatRectOffset);

@@ -12,70 +12,70 @@
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bc864;
+  constexpr static std::size_t addrs = 0x22efb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::*)()>(&::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::*)()>(&::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x22bc874;
+  constexpr static std::size_t addrs = 0x22efb60;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder* Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder* Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder::__AnssiNamedCurves__Frp256v1Holder() {}
+constexpr ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves_Frp256v1Holder::AnssiNamedCurves_Frp256v1Holder() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves.ConfigureBasepoint
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::StringW)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::ConfigureBasepoint)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22bbde8;
+  constexpr static std::size_t addrs = 0x22ef0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::ConfigureCurve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22bbed8;
+  constexpr static std::size_t addrs = 0x22ef1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::FromHex)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22bbedc;
+  constexpr static std::size_t addrs = 0x22ef1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::DefineCurve)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x22bbf74;
+  constexpr static std::size_t addrs = 0x22ef260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::GetByName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22bc2a0;
+  constexpr static std::size_t addrs = 0x22ef58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::GetByOid)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x22bc474;
+  constexpr static std::size_t addrs = 0x22ef760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::GetOid)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x22bc320;
+  constexpr static std::size_t addrs = 0x22ef60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::GetName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22bc654;
+  constexpr static std::size_t addrs = 0x22ef940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::get_Names)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x22bc754;
+  constexpr static std::size_t addrs = 0x22efa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::*)()>(
     &::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bc85c;
+  constexpr static std::size_t addrs = 0x22efb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*>::get(),
@@ -300,13 +300,13 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::Anssi::Anssi
                                                                              "get_Names", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(nullptr, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*>());
-}
 inline void Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::AnssiNamedCurves() {}

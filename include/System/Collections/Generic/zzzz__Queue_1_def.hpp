@@ -3,9 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Queue_1)
@@ -16,25 +21,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> struct Queue_1_Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -44,19 +37,18 @@ namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __Queue_1__Enumerator;
+template <typename T> struct Queue_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::Queue_1);
-MARK_GEN_VAL_T(::System::Collections::Generic::__Queue_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Collections::Generic::Queue_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Queue`1::Enumerator<T>
-struct CORDL_TYPE __Queue_1__Enumerator {
+// CS Name: System.Collections.Generic.Queue`1/Enumerator<T>
+struct CORDL_TYPE Queue_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -104,11 +96,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Queue_1__Enumerator();
+  constexpr Queue_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_q", ty: "::System::Collections::Generic::Queue_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentElement", ty: "T", modifiers: "", def_value: None }]
-  constexpr __Queue_1__Enumerator(::System::Collections::Generic::Queue_1<T>* _q, int32_t _version, int32_t _index, T _currentElement) noexcept;
+  constexpr Queue_1_Enumerator(::System::Collections::Generic::Queue_1<T>* _q, int32_t _version, int32_t _index, T _currentElement) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3866 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _q, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<T>* _q;
@@ -122,27 +120,20 @@ public:
   /// @brief Field _currentElement, offset: 0x10, size: 0x8, def value: None
   T _currentElement;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3866 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::Queue`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::Queue`1<T>*
+// CS Name: System.Collections.Generic.Queue`1<T>
 class CORDL_TYPE Queue_1 : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::System::Collections::Generic::__Queue_1__Enumerator<T>;
+  using Enumerator = ::System::Collections::Generic::Queue_1_Enumerator<T>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -193,10 +184,10 @@ public:
   inline void Enqueue(T item);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__Queue_1__Enumerator<T> GetEnumerator();
+  inline ::System::Collections::Generic::Queue_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void MoveNext(ByRef<int32_t> index);
+  inline void MoveNext(::ByRef<int32_t> index);
 
   static inline ::System::Collections::Generic::Queue_1<T>* New_ctor();
 
@@ -232,7 +223,10 @@ public:
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
   /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryDequeue(ByRef<T> result);
+  inline bool TryDequeue(::ByRef<T> result);
+
+  /// @brief Method TryPeek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryPeek(::ByRef<T> result);
 
   constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
 
@@ -246,9 +240,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
   constexpr int32_t const& __cordl_internal_get__tail() const;
 
@@ -308,6 +302,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Queue_1(Queue_1 const&) = delete;
 
+  /// @brief Field GrowFactor offset 0xffffffff size 0x4
+  static constexpr int32_t GrowFactor{ static_cast<int32_t>(0xc8) };
+
+  /// @brief Field MinimumGrow offset 0xffffffff size 0x4
+  static constexpr int32_t MinimumGrow{ static_cast<int32_t>(0x4) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3867 };
+
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;
 
@@ -326,18 +329,9 @@ public:
   /// @brief Field _syncRoot, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
-  /// @brief Field GrowFactor offset 0xffffffff size 0x4
-  static constexpr int32_t GrowFactor{ static_cast<int32_t>(0xc8) };
-
-  /// @brief Field MinimumGrow offset 0xffffffff size 0x4
-  static constexpr int32_t MinimumGrow{ static_cast<int32_t>(0x4) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3867 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::Queue_1, "System.Collections.Generic", "Queue`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__Queue_1__Enumerator, "System.Collections.Generic", "Queue`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::Queue_1_Enumerator, "System.Collections.Generic", "Queue`1/Enumerator");

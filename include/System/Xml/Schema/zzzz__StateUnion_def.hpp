@@ -12,11 +12,10 @@ struct StateUnion;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::StateUnion);
-// Type: System.Xml.Schema::StateUnion
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::StateUnion
+// CS Name: System.Xml.Schema.StateUnion
 struct CORDL_TYPE StateUnion {
 public:
   // Declarations
@@ -127,7 +126,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7627 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

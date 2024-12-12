@@ -24,11 +24,10 @@ class PlayersMissingEntitlementsNetSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable);
-// Type: ::PlayersMissingEntitlementsNetSerializable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PoolableSerializable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayersMissingEntitlementsNetSerializable*
+// CS Name: PlayersMissingEntitlementsNetSerializable
 class CORDL_TYPE PlayersMissingEntitlementsNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
@@ -38,30 +37,30 @@ public:
 
   __declspec(property(get = get_playersWithoutEntitlements)) ::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements;
 
-  /// @brief Method Deserialize, addr 0x26edb34, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x272006c, size 0x114, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x26ed93c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x271fe74, size 0x98, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements);
 
   static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x26ed838, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x271fd70, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x26ed9d4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x271ff0c, size 0x160, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__playersWithoutEntitlements() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playersWithoutEntitlements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__playersWithoutEntitlements() const;
-
   constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26ed89c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271fdd4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playersWithoutEntitlements, addr 0x26ed830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersWithoutEntitlements, addr 0x271fd68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
 
 protected:
@@ -78,18 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17006 };
+
   /// @brief Field _playersWithoutEntitlements, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____playersWithoutEntitlements;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16967 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable, ____playersWithoutEntitlements) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable);

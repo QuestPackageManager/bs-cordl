@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47358d8;
+  constexpr static std::size_t addrs = 0x4796bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Util::SerializedType (
     ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(&::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_ObjectType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47358e0;
+  constexpr static std::size_t addrs = 0x4796bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47358f0;
+  constexpr static std::size_t addrs = 0x4796c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)()>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47358f8;
+  constexpr static std::size_t addrs = 0x4796c0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)(::UnityEngine::ResourceManagement::ResourceManager*, ::StringW)>(
     &::UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4735990;
+  constexpr static std::size_t addrs = 0x4796ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,6 @@ inline ::StringW UnityEngine::ResourceManagement::Util::ObjectInitializationData
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-/// @param idOverride: ::StringW (default: nullptr)
 template <typename TObject> inline TObject UnityEngine::ResourceManagement::Util::ObjectInitializationData::CreateInstance(::StringW idOverride) {
   static auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>::get(), "CreateInstance",
@@ -118,7 +117,6 @@ template <typename TObject> inline TObject UnityEngine::ResourceManagement::Util
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TObject>::get() }));
   return ::cordl_internals::RunMethodRethrow<TObject, false>(this, ___internal_method, idOverride);
 }
-/// @param idOverride: ::StringW (default: nullptr)
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle
 UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW idOverride) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +125,8 @@ UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHan
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, false>(this, ___internal_method, rm, idOverride);
 }
-// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ObjectType", ty:
-// "::UnityEngine::ResourceManagement::Util::SerializedType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ObjectType", ty: "::UnityEngine::ResourceManagement::Util::SerializedType",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData::ObjectInitializationData(::StringW m_Id, ::UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType,
                                                                                                       ::StringW m_Data) noexcept {
   this->m_Id = m_Id;

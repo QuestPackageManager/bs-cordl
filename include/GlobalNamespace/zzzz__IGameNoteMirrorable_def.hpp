@@ -3,9 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 CORDL_MODULE_EXPORT(IGameNoteMirrorable)
 namespace GlobalNamespace {
-class INoteMirrorable;
+struct NoteData_GameplayType;
 }
 namespace GlobalNamespace {
 class NoteMovement;
@@ -13,24 +14,20 @@ class NoteMovement;
 namespace GlobalNamespace {
 struct NoteVisualModifierType;
 }
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class IGameNoteMirrorable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IGameNoteMirrorable);
-// Type: ::IGameNoteMirrorable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INoteMirrorable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IGameNoteMirrorable*
+// CS Name: IGameNoteMirrorable
 class CORDL_TYPE IGameNoteMirrorable {
 public:
   // Declarations
-  __declspec(property(get = get_gameplayType)) ::GlobalNamespace::__NoteData__GameplayType gameplayType;
+  __declspec(property(get = get_gameplayType)) ::GlobalNamespace::NoteData_GameplayType gameplayType;
 
   __declspec(property(get = get_noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
 
@@ -39,28 +36,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method get_gameplayType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
+  /// @brief Method get_gameplayType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_noteMovement, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_noteVisualModifierType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
   constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IGameNoteMirrorable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IGameNoteMirrorable(IGameNoteMirrorable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IGameNoteMirrorable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGameNoteMirrorable(IGameNoteMirrorable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4098 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

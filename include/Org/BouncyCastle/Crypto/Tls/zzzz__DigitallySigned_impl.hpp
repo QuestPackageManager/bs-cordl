@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)(
     ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::DigitallySigned::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23b9524;
+  constexpr static std::size_t addrs = 0x23ec810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (
     ::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)()>(&::Org::BouncyCastle::Crypto::Tls::DigitallySigned::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b959c;
+  constexpr static std::size_t addrs = 0x23ec888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b95a4;
+  constexpr static std::size_t addrs = 0x23ec890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DigitallySigned::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::DigitallySigned::Encode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23b95ac;
+  constexpr static std::size_t addrs = 0x23ec898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* (*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Tls::DigitallySigned::Parse)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23ac608;
+  constexpr static std::size_t addrs = 0x23df8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -89,8 +89,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& Org::Bou
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mAlgorithm;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*> const&
-Org::BouncyCastle::Crypto::Tls::DigitallySigned::__cordl_internal_get_mAlgorithm() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* const& Org::BouncyCastle::Crypto::Tls::DigitallySigned::__cordl_internal_get_mAlgorithm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mAlgorithm;
 }
@@ -109,10 +108,6 @@ constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto:
 constexpr void Org::BouncyCastle::Crypto::Tls::DigitallySigned::__cordl_internal_set_mSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSignature)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Org::BouncyCastle::Crypto::Tls::DigitallySigned::New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
-                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DigitallySigned*>(algorithm, signature));
 }
 inline void Org::BouncyCastle::Crypto::Tls::DigitallySigned::_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -142,6 +137,10 @@ inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Org::BouncyCastle::Cry
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Tls::TlsContext*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::DigitallySigned*, false>(nullptr, ___internal_method, context, input);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Org::BouncyCastle::Crypto::Tls::DigitallySigned::New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
+                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DigitallySigned*>(algorithm, signature));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DigitallySigned::DigitallySigned() {}

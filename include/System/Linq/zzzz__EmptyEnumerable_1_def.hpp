@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerable_1)
 // Forward declare root types
 namespace System::Linq {
@@ -12,18 +11,17 @@ template <typename TElement> class EmptyEnumerable_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::EmptyEnumerable_1);
-// Type: System.Linq::EmptyEnumerable`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// CS Name: ::System.Linq::EmptyEnumerable`1<TElement>*
+// CS Name: System.Linq.EmptyEnumerable`1<TElement>
 class CORDL_TYPE EmptyEnumerable_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::ArrayW<TElement, ::Array<TElement>*> Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::ArrayW<TElement, ::Array<TElement>*> Instance;
 
   static inline ::ArrayW<TElement, ::Array<TElement>*> getStaticF_Instance();
 
@@ -44,7 +42,7 @@ public:
   EmptyEnumerable_1(EmptyEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -7,6 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloatingTransformEffect)
 namespace UnityEngine {
@@ -15,20 +16,16 @@ class Transform;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace Zenject {
-class ITickable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class FloatingTransformEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatingTransformEffect);
-// Type: ::FloatingTransformEffect
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector2, UnityEngine.Vector3, Zenject.ITickable
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatingTransformEffect*
+// CS Name: FloatingTransformEffect
 class CORDL_TYPE FloatingTransformEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -101,18 +98,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method GetPoint, addr 0x3b1cc90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3b7de3c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method Refresh, addr 0x3b1ca68, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b7dc14, size 0xd8, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Start, addr 0x3b1ca30, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b7dbdc, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick, addr 0x3b1cb40, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3b7dcec, size 0x150, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__amplitudeX() const;
@@ -247,7 +244,7 @@ public:
 
   constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b1cd1c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7dec8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"
@@ -266,6 +263,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FloatingTransformEffect(FloatingTransformEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4208 };
 
   /// @brief Field _positionMultiplier, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____positionMultiplier;
@@ -333,14 +333,9 @@ public:
   /// @brief Field _targetRotation, offset: 0xb0, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____targetRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4197 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatingTransformEffect, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____positionMultiplier) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____rotationMultiplier) == 0x2c, "Offset mismatch!");
@@ -384,6 +379,8 @@ static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____frequency
 static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____frequencyZ) == 0xac, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatingTransformEffect, ____targetRotation) == 0xb0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatingTransformEffect, 0xc0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatingTransformEffect);

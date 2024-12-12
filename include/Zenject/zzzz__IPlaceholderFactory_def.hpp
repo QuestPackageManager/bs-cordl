@@ -3,21 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(IPlaceholderFactory)
-namespace Zenject {
-class IValidatable;
-}
 // Forward declare root types
 namespace Zenject {
 class IPlaceholderFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::IPlaceholderFactory);
-// Type: Zenject::IPlaceholderFactory
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.IValidatable
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::IPlaceholderFactory*
+// CS Name: Zenject.IPlaceholderFactory
 class CORDL_TYPE IPlaceholderFactory {
 public:
   // Declarations
@@ -27,16 +24,12 @@ public:
   /// @brief Convert to "::Zenject::IValidatable"
   constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPlaceholderFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPlaceholderFactory(IPlaceholderFactory&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IPlaceholderFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPlaceholderFactory(IPlaceholderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,11 +16,10 @@ class MeshHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::MeshHandle);
-// Type: UnityEngine.UIElements.UIR::MeshHandle
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UIR.Alloc, UnityEngine.UIElements.UIR.LinkedPoolItem`1<T>
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
+// CS Name: UnityEngine.UIElements.UIR.MeshHandle
 class CORDL_TYPE MeshHandle : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::MeshHandle*> {
 public:
   // Declarations
@@ -48,9 +47,9 @@ public:
 
   constexpr ::UnityEngine::UIElements::UIR::Alloc& __cordl_internal_get_allocIndices();
 
-  constexpr ::UnityEngine::UIElements::UIR::Page*& __cordl_internal_get_allocPage();
+  constexpr ::UnityEngine::UIElements::UIR::Page* const& __cordl_internal_get_allocPage() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __cordl_internal_get_allocPage() const;
+  constexpr ::UnityEngine::UIElements::UIR::Page*& __cordl_internal_get_allocPage();
 
   constexpr uint32_t const& __cordl_internal_get_allocTime() const;
 
@@ -80,7 +79,7 @@ public:
 
   constexpr void __cordl_internal_set_updateAllocID(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x494e350, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b2c60, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,6 +95,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MeshHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MeshHandle(MeshHandle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6411 };
 
   /// @brief Field allocVerts, offset: 0x18, size: 0x18, def value: None
   ::UnityEngine::UIElements::UIR::Alloc ___allocVerts;
@@ -115,14 +117,9 @@ public:
   /// @brief Field updateAllocID, offset: 0x5c, size: 0x4, def value: None
   uint32_t ___updateAllocID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshHandle, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshHandle, ___allocVerts) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshHandle, ___allocIndices) == 0x30, "Offset mismatch!");
@@ -134,6 +131,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshHandle, ___allocPage)
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshHandle, ___allocTime) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::MeshHandle, ___updateAllocID) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshHandle, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::MeshHandle);

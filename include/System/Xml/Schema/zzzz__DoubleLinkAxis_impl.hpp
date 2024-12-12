@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::Axis* (::System::Xml::Schema::DoubleLinkAxis::*)()>(
     &::System::Xml::Schema::DoubleLinkAxis::get_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332100;
+  constexpr static std::size_t addrs = 0x4393414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DoubleLinkAxis*>::get(), "get_Next",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*)>(
     &::System::Xml::Schema::DoubleLinkAxis::set_Next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4332108;
+  constexpr static std::size_t addrs = 0x439341c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::DoubleLinkAxis::*)(::MS::Internal::Xml::XPath::Axis*, ::System::Xml::Schema::DoubleLinkAxis*)>(&::System::Xml::Schema::DoubleLinkAxis::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4332110;
+  constexpr static std::size_t addrs = 0x4393424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (*)(::MS::Internal::Xml::XPath::Axis*)>(
     &::System::Xml::Schema::DoubleLinkAxis::ConvertTree)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4332168;
+  constexpr static std::size_t addrs = 0x439347c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ constexpr ::MS::Internal::Xml::XPath::Axis*& System::Xml::Schema::DoubleLinkAxis
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::XPath::Axis*> const& System::Xml::Schema::DoubleLinkAxis::__cordl_internal_get_next() const {
+constexpr ::MS::Internal::Xml::XPath::Axis* const& System::Xml::Schema::DoubleLinkAxis::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -86,9 +86,6 @@ inline void System::Xml::Schema::DoubleLinkAxis::set_Next(::MS::Internal::Xml::X
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Axis*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::DoubleLinkAxis* System::Xml::Schema::DoubleLinkAxis::New_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DoubleLinkAxis*>(axis, inputaxis));
-}
 inline void System::Xml::Schema::DoubleLinkAxis::_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DoubleLinkAxis*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -101,6 +98,9 @@ inline ::System::Xml::Schema::DoubleLinkAxis* System::Xml::Schema::DoubleLinkAxi
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DoubleLinkAxis*>::get(), "ConvertTree", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::MS::Internal::Xml::XPath::Axis*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::DoubleLinkAxis*, false>(nullptr, ___internal_method, axis);
+}
+inline ::System::Xml::Schema::DoubleLinkAxis* System::Xml::Schema::DoubleLinkAxis::New_ctor(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::Schema::DoubleLinkAxis* inputaxis) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::DoubleLinkAxis*>(axis, inputaxis));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::DoubleLinkAxis::DoubleLinkAxis() {}

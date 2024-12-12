@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__UnauthorizedAccessException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrivilegeNotHeldException)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -21,11 +19,10 @@ class PrivilegeNotHeldException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::PrivilegeNotHeldException);
-// Type: System.Security.AccessControl::PrivilegeNotHeldException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Serialization.ISerializable, System.UnauthorizedAccessException
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::PrivilegeNotHeldException*
+// CS Name: System.Security.AccessControl.PrivilegeNotHeldException
 class CORDL_TYPE PrivilegeNotHeldException : public ::System::UnauthorizedAccessException {
 public:
   // Declarations
@@ -35,7 +32,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3c611ac, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3cc1320, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
@@ -49,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set__privilegeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c610d8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc124c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c61124, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc1298, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -72,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrivilegeNotHeldException(PrivilegeNotHeldException const&) = delete;
 
-  /// @brief Field _privilegeName, offset: 0x90, size: 0x8, def value: None
-  ::StringW ____privilegeName;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3011 };
+
+  /// @brief Field _privilegeName, offset: 0x90, size: 0x8, def value: None
+  ::StringW ____privilegeName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::PrivilegeNotHeldException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::PrivilegeNotHeldException, ____privilegeName) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::PrivilegeNotHeldException, 0x98>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::PrivilegeNotHeldException);

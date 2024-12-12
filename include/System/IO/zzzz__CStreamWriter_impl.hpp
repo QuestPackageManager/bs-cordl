@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(
     &::System::IO::CStreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3d22944;
+  constexpr static std::size_t addrs = 0x3d82ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3d22a6c;
+  constexpr static std::size_t addrs = 0x3d82be0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(char16_t)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3d22db4;
+  constexpr static std::size_t addrs = 0x3d82f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::InternalWriteString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d22fc0;
+  constexpr static std::size_t addrs = 0x3d83134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(char16_t)>(&::System::IO::CStreamWriter::InternalWriteChar)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d22f3c;
+  constexpr static std::size_t addrs = 0x3d830b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(
     &::System::IO::CStreamWriter::InternalWriteChars)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d23044;
+  constexpr static std::size_t addrs = 0x3d831b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d230d0;
+  constexpr static std::size_t addrs = 0x3d83244;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::Write)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d230f8;
+  constexpr static std::size_t addrs = 0x3d8326c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::CStreamWriter::*)(::StringW)>(&::System::IO::CStreamWriter::WriteLine)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d231c4;
+  constexpr static std::size_t addrs = 0x3d83338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,16 +141,13 @@ constexpr ::System::TermInfoDriver*& System::IO::CStreamWriter::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___driver;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::TermInfoDriver*> const& System::IO::CStreamWriter::__cordl_internal_get_driver() const {
+constexpr ::System::TermInfoDriver* const& System::IO::CStreamWriter::__cordl_internal_get_driver() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___driver;
 }
 constexpr void System::IO::CStreamWriter::__cordl_internal_set_driver(::System::TermInfoDriver* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___driver)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::IO::CStreamWriter* System::IO::CStreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::CStreamWriter*>(stream, encoding, leaveOpen));
 }
 inline void System::IO::CStreamWriter::_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen) {
   static auto* ___internal_method =
@@ -203,6 +200,9 @@ inline void System::IO::CStreamWriter::WriteLine(::StringW val) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::CStreamWriter*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
+}
+inline ::System::IO::CStreamWriter* System::IO::CStreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::CStreamWriter*>(stream, encoding, leaveOpen));
 }
 // Ctor Parameters []
 constexpr ::System::IO::CStreamWriter::CStreamWriter() {}

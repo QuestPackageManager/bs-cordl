@@ -11,17 +11,16 @@ class ItemForFocussedScrolling;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ItemForFocussedScrolling);
-// Type: HMUI::ItemForFocussedScrolling
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ItemForFocussedScrolling*
+// CS Name: HMUI.ItemForFocussedScrolling
 class CORDL_TYPE ItemForFocussedScrolling : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::HMUI::ItemForFocussedScrolling* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39a3a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fa684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   ItemForFocussedScrolling(ItemForFocussedScrolling const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

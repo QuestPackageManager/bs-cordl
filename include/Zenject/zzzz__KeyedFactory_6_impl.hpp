@@ -21,10 +21,6 @@ inline TBase Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TPa
   return ::cordl_internals::RunMethodRethrow<TBase, false>(this, ___internal_method, key, param1, param2, param3, param4);
 }
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
-inline ::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>* Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>());
-}
-template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
 inline void Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>::get(), ".ctor",
@@ -45,6 +41,10 @@ inline ::Zenject::InjectTypeInfo* Zenject::KeyedFactory_6<TBase, TKey, TParam1, 
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>::get(),
                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>
+inline ::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>* Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_6<TBase, TKey, TParam1, TParam2, TParam3, TParam4>*>());
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3, typename TParam4>

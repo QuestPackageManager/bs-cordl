@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__IndexedBranchInstruction_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnterFinallyInstruction)
@@ -17,11 +16,10 @@ class EnterFinallyInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::EnterFinallyInstruction);
-// Type: System.Linq.Expressions.Interpreter::EnterFinallyInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.IndexedBranchInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::EnterFinallyInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.EnterFinallyInstruction
 class CORDL_TYPE EnterFinallyInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
   // Declarations
@@ -32,31 +30,31 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  static __declspec(property(
+  __declspec(property(
       get = getStaticF_s_cache,
       put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x40623d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c36e8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* Create(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* New_ctor(int32_t labelIndex);
 
-  /// @brief Method Run, addr 0x40624c8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c37dc, size 0x6c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x406235c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c3670, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedContinuations, addr 0x40623cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedContinuations, addr 0x40c36e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedContinuations();
 
-  /// @brief Method get_InstructionName, addr 0x4062384, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c3698, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40623c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c36d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void
@@ -77,7 +75,7 @@ public:
   EnterFinallyInstruction(EnterFinallyInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

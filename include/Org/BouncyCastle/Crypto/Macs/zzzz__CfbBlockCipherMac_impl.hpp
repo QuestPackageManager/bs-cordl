@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/CfbBlockCipherMac.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__CfbBlockCipherMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__MacCFBBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Paddings/zzzz__IBlockCipherPadding_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x235f438;
+  constexpr static std::size_t addrs = 0x2392724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(
     ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x235f6ac;
+  constexpr static std::size_t addrs = 0x2392998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(
     ::Org::BouncyCastle::Crypto::IBlockCipher*, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235f788;
+  constexpr static std::size_t addrs = 0x2392a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(
     ::Org::BouncyCastle::Crypto::IBlockCipher*, int32_t, int32_t, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x235f508;
+  constexpr static std::size_t addrs = 0x23927f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x235f790;
+  constexpr static std::size_t addrs = 0x2392a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::Init)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x235f7a8;
+  constexpr static std::size_t addrs = 0x2392a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::GetMacSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235f814;
+  constexpr static std::size_t addrs = 0x2392b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::Update)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x235f81c;
+  constexpr static std::size_t addrs = 0x2392b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::BlockUpdate)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x235f8a8;
+  constexpr static std::size_t addrs = 0x2392b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::DoFinal)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x235f9e8;
+  constexpr static std::size_t addrs = 0x2392cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x235f7dc;
+  constexpr static std::size_t addrs = 0x2392ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(),
@@ -175,14 +175,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
-constexpr Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::operator ::Org::BouncyCastle::Crypto::IMac*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
-constexpr ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::i___Org__BouncyCastle__Crypto__IMac() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_internal_get_mac() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
@@ -223,7 +215,7 @@ constexpr ::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher*> const& Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_internal_get_cipher() const {
+constexpr ::Org::BouncyCastle::Crypto::Macs::MacCFBBlockCipher* const& Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_internal_get_cipher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
@@ -235,8 +227,7 @@ constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& Org::Boun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padding;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*> const&
-Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_internal_get_padding() const {
+constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* const& Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_internal_get_padding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___padding;
 }
@@ -256,18 +247,11 @@ constexpr void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___macSize = value;
 }
-inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher));
-}
 inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IBlockCipher*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cipher);
-}
-inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher,
-                                                                                                                          ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, padding));
 }
 inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,21 +260,12 @@ inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor(::Org::Bou
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cipher, padding);
 }
-inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize,
-                                                                                                                          int32_t macSizeInBits) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, cfbBitSize, macSizeInBits));
-}
 inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize, int32_t macSizeInBits) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IBlockCipher*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cipher, cfbBitSize, macSizeInBits);
-}
-inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize,
-                                                                                                                          int32_t macSizeInBits,
-                                                                                                                          ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, cfbBitSize, macSizeInBits, padding));
 }
 inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize, int32_t macSizeInBits,
                                                                       ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
@@ -341,6 +316,30 @@ inline void Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>::get(),
                                                                              "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher));
+}
+inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher,
+                                                                                                                          ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, padding));
+}
+inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize,
+                                                                                                                          int32_t macSizeInBits) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, cfbBitSize, macSizeInBits));
+}
+inline ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t cfbBitSize,
+                                                                                                                          int32_t macSizeInBits,
+                                                                                                                          ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*>(cipher, cfbBitSize, macSizeInBits, padding));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
+constexpr Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::operator ::Org::BouncyCastle::Crypto::IMac*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
+constexpr ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::i___Org__BouncyCastle__Crypto__IMac() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::CfbBlockCipherMac() {}

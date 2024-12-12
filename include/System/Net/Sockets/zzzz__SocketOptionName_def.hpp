@@ -12,11 +12,10 @@ struct SocketOptionName;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::SocketOptionName);
-// Type: System.Net.Sockets::SocketOptionName
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::SocketOptionName
+// CS Name: System.Net.Sockets.SocketOptionName
 struct CORDL_TYPE SocketOptionName {
 public:
   // Declarations
@@ -89,159 +88,159 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SocketOptionName(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AcceptConnection value: static_cast<int32_t>(0x2)
+  /// @brief Field AcceptConnection value: I32(2)
   static ::System::Net::Sockets::SocketOptionName const AcceptConnection;
 
-  /// @brief Field AddMembership value: static_cast<int32_t>(0xc)
+  /// @brief Field AddMembership value: I32(12)
   static ::System::Net::Sockets::SocketOptionName const AddMembership;
 
-  /// @brief Field AddSourceMembership value: static_cast<int32_t>(0xf)
+  /// @brief Field AddSourceMembership value: I32(15)
   static ::System::Net::Sockets::SocketOptionName const AddSourceMembership;
 
-  /// @brief Field BlockSource value: static_cast<int32_t>(0x11)
+  /// @brief Field BlockSource value: I32(17)
   static ::System::Net::Sockets::SocketOptionName const BlockSource;
 
-  /// @brief Field Broadcast value: static_cast<int32_t>(0x20)
+  /// @brief Field Broadcast value: I32(32)
   static ::System::Net::Sockets::SocketOptionName const Broadcast;
 
-  /// @brief Field BsdUrgent value: static_cast<int32_t>(0x2)
+  /// @brief Field BsdUrgent value: I32(2)
   static ::System::Net::Sockets::SocketOptionName const BsdUrgent;
 
-  /// @brief Field ChecksumCoverage value: static_cast<int32_t>(0x14)
+  /// @brief Field ChecksumCoverage value: I32(20)
   static ::System::Net::Sockets::SocketOptionName const ChecksumCoverage;
 
-  /// @brief Field Debug value: static_cast<int32_t>(0x1)
+  /// @brief Field Debug value: I32(1)
   static ::System::Net::Sockets::SocketOptionName const Debug;
 
-  /// @brief Field DontFragment value: static_cast<int32_t>(0xe)
+  /// @brief Field DontFragment value: I32(14)
   static ::System::Net::Sockets::SocketOptionName const DontFragment;
 
-  /// @brief Field DontLinger value: static_cast<int32_t>(0xffffff7f)
+  /// @brief Field DontLinger value: I32(-129)
   static ::System::Net::Sockets::SocketOptionName const DontLinger;
 
-  /// @brief Field DontRoute value: static_cast<int32_t>(0x10)
+  /// @brief Field DontRoute value: I32(16)
   static ::System::Net::Sockets::SocketOptionName const DontRoute;
 
-  /// @brief Field DropMembership value: static_cast<int32_t>(0xd)
+  /// @brief Field DropMembership value: I32(13)
   static ::System::Net::Sockets::SocketOptionName const DropMembership;
 
-  /// @brief Field DropSourceMembership value: static_cast<int32_t>(0x10)
+  /// @brief Field DropSourceMembership value: I32(16)
   static ::System::Net::Sockets::SocketOptionName const DropSourceMembership;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x1007)
+  /// @brief Field Error value: I32(4103)
   static ::System::Net::Sockets::SocketOptionName const Error;
 
-  /// @brief Field ExclusiveAddressUse value: static_cast<int32_t>(0xfffffffb)
+  /// @brief Field ExclusiveAddressUse value: I32(-5)
   static ::System::Net::Sockets::SocketOptionName const ExclusiveAddressUse;
 
-  /// @brief Field Expedited value: static_cast<int32_t>(0x2)
+  /// @brief Field Expedited value: I32(2)
   static ::System::Net::Sockets::SocketOptionName const Expedited;
 
-  /// @brief Field HeaderIncluded value: static_cast<int32_t>(0x2)
+  /// @brief Field HeaderIncluded value: I32(2)
   static ::System::Net::Sockets::SocketOptionName const HeaderIncluded;
 
-  /// @brief Field HopLimit value: static_cast<int32_t>(0x15)
+  /// @brief Field HopLimit value: I32(21)
   static ::System::Net::Sockets::SocketOptionName const HopLimit;
 
-  /// @brief Field IPOptions value: static_cast<int32_t>(0x1)
+  /// @brief Field IPOptions value: I32(1)
   static ::System::Net::Sockets::SocketOptionName const IPOptions;
 
-  /// @brief Field IPProtectionLevel value: static_cast<int32_t>(0x17)
+  /// @brief Field IPProtectionLevel value: I32(23)
   static ::System::Net::Sockets::SocketOptionName const IPProtectionLevel;
 
-  /// @brief Field IPv6Only value: static_cast<int32_t>(0x1b)
+  /// @brief Field IPv6Only value: I32(27)
   static ::System::Net::Sockets::SocketOptionName const IPv6Only;
 
-  /// @brief Field IpTimeToLive value: static_cast<int32_t>(0x4)
+  /// @brief Field IpTimeToLive value: I32(4)
   static ::System::Net::Sockets::SocketOptionName const IpTimeToLive;
 
-  /// @brief Field KeepAlive value: static_cast<int32_t>(0x8)
+  /// @brief Field KeepAlive value: I32(8)
   static ::System::Net::Sockets::SocketOptionName const KeepAlive;
 
-  /// @brief Field Linger value: static_cast<int32_t>(0x80)
+  /// @brief Field Linger value: I32(128)
   static ::System::Net::Sockets::SocketOptionName const Linger;
 
-  /// @brief Field MaxConnections value: static_cast<int32_t>(0x7fffffff)
+  /// @brief Field MaxConnections value: I32(2147483647)
   static ::System::Net::Sockets::SocketOptionName const MaxConnections;
 
-  /// @brief Field MulticastInterface value: static_cast<int32_t>(0x9)
+  /// @brief Field MulticastInterface value: I32(9)
   static ::System::Net::Sockets::SocketOptionName const MulticastInterface;
 
-  /// @brief Field MulticastLoopback value: static_cast<int32_t>(0xb)
+  /// @brief Field MulticastLoopback value: I32(11)
   static ::System::Net::Sockets::SocketOptionName const MulticastLoopback;
 
-  /// @brief Field MulticastTimeToLive value: static_cast<int32_t>(0xa)
+  /// @brief Field MulticastTimeToLive value: I32(10)
   static ::System::Net::Sockets::SocketOptionName const MulticastTimeToLive;
 
-  /// @brief Field NoChecksum value: static_cast<int32_t>(0x1)
+  /// @brief Field NoChecksum value: I32(1)
   static ::System::Net::Sockets::SocketOptionName const NoChecksum;
 
-  /// @brief Field NoDelay value: static_cast<int32_t>(0x1)
+  /// @brief Field NoDelay value: I32(1)
   static ::System::Net::Sockets::SocketOptionName const NoDelay;
 
-  /// @brief Field OutOfBandInline value: static_cast<int32_t>(0x100)
+  /// @brief Field OutOfBandInline value: I32(256)
   static ::System::Net::Sockets::SocketOptionName const OutOfBandInline;
 
-  /// @brief Field PacketInformation value: static_cast<int32_t>(0x13)
+  /// @brief Field PacketInformation value: I32(19)
   static ::System::Net::Sockets::SocketOptionName const PacketInformation;
 
-  /// @brief Field ReceiveBuffer value: static_cast<int32_t>(0x1002)
+  /// @brief Field ReceiveBuffer value: I32(4098)
   static ::System::Net::Sockets::SocketOptionName const ReceiveBuffer;
 
-  /// @brief Field ReceiveLowWater value: static_cast<int32_t>(0x1004)
+  /// @brief Field ReceiveLowWater value: I32(4100)
   static ::System::Net::Sockets::SocketOptionName const ReceiveLowWater;
 
-  /// @brief Field ReceiveTimeout value: static_cast<int32_t>(0x1006)
+  /// @brief Field ReceiveTimeout value: I32(4102)
   static ::System::Net::Sockets::SocketOptionName const ReceiveTimeout;
 
-  /// @brief Field ReuseAddress value: static_cast<int32_t>(0x4)
+  /// @brief Field ReuseAddress value: I32(4)
   static ::System::Net::Sockets::SocketOptionName const ReuseAddress;
 
-  /// @brief Field ReuseUnicastPort value: static_cast<int32_t>(0x3007)
+  /// @brief Field ReuseUnicastPort value: I32(12295)
   static ::System::Net::Sockets::SocketOptionName const ReuseUnicastPort;
 
-  /// @brief Field SendBuffer value: static_cast<int32_t>(0x1001)
+  /// @brief Field SendBuffer value: I32(4097)
   static ::System::Net::Sockets::SocketOptionName const SendBuffer;
 
-  /// @brief Field SendLowWater value: static_cast<int32_t>(0x1003)
+  /// @brief Field SendLowWater value: I32(4099)
   static ::System::Net::Sockets::SocketOptionName const SendLowWater;
 
-  /// @brief Field SendTimeout value: static_cast<int32_t>(0x1005)
+  /// @brief Field SendTimeout value: I32(4101)
   static ::System::Net::Sockets::SocketOptionName const SendTimeout;
 
-  /// @brief Field Type value: static_cast<int32_t>(0x1008)
+  /// @brief Field Type value: I32(4104)
   static ::System::Net::Sockets::SocketOptionName const Type;
 
-  /// @brief Field TypeOfService value: static_cast<int32_t>(0x3)
+  /// @brief Field TypeOfService value: I32(3)
   static ::System::Net::Sockets::SocketOptionName const TypeOfService;
 
-  /// @brief Field UnblockSource value: static_cast<int32_t>(0x12)
+  /// @brief Field UnblockSource value: I32(18)
   static ::System::Net::Sockets::SocketOptionName const UnblockSource;
 
-  /// @brief Field UpdateAcceptContext value: static_cast<int32_t>(0x700b)
+  /// @brief Field UpdateAcceptContext value: I32(28683)
   static ::System::Net::Sockets::SocketOptionName const UpdateAcceptContext;
 
-  /// @brief Field UpdateConnectContext value: static_cast<int32_t>(0x7010)
+  /// @brief Field UpdateConnectContext value: I32(28688)
   static ::System::Net::Sockets::SocketOptionName const UpdateConnectContext;
 
-  /// @brief Field UseLoopback value: static_cast<int32_t>(0x40)
+  /// @brief Field UseLoopback value: I32(64)
   static ::System::Net::Sockets::SocketOptionName const UseLoopback;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9866 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketOptionName, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::SocketOptionName, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketOptionName, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketOptionName, "System.Net.Sockets", "SocketOptionName");

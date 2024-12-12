@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapCharacteristicCollectionSO)
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -18,11 +17,10 @@ class BeatmapCharacteristicCollectionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicCollectionSO);
-// Type: ::BeatmapCharacteristicCollectionSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapCharacteristicCollectionSO*
+// CS Name: BeatmapCharacteristicCollectionSO
 class CORDL_TYPE BeatmapCharacteristicCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -42,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCharacteristics(::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x267f42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b39e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allBeatmapCharacteristics, addr 0x267f424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allBeatmapCharacteristics, addr 0x26b39dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* get_allBeatmapCharacteristics();
 
 protected:
@@ -62,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicCollectionSO(BeatmapCharacteristicCollectionSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12864 };
+
   /// @brief Field _beatmapCharacteristics, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> ____beatmapCharacteristics;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicCollectionSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicCollectionSO, ____beatmapCharacteristics) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicCollectionSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicCollectionSO);

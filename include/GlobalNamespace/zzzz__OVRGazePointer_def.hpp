@@ -22,11 +22,10 @@ class OVRGazePointer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGazePointer);
-// Type: ::OVRGazePointer
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRCursor
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRGazePointer*
+// CS Name: OVRGazePointer
 class CORDL_TYPE OVRGazePointer : public ::GlobalNamespace::OVRCursor {
 public:
   // Declarations
@@ -39,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__hidden_k__BackingField, put = __cordl_internal_set__hidden_k__BackingField)) bool _hidden_k__BackingField;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::OVRGazePointer> _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::GlobalNamespace::OVRGazePointer* _instance;
 
   __declspec(property(get = get_currentScale, put = set_currentScale)) float_t currentScale;
 
@@ -89,33 +88,33 @@ public:
 
   __declspec(property(get = get_visibilityStrength)) float_t visibilityStrength;
 
-  /// @brief Method Awake, addr 0x3fd110c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x40311b8, size 0x170, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Hide, addr 0x3fd1410, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x40314bc, size 0x11c, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method LateUpdate, addr 0x3fd1848, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x40318f4, size 0x178, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRGazePointer* New_ctor();
 
-  /// @brief Method RequestHide, addr 0x3fd19c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method RequestHide, addr 0x4031a6c, size 0x2c, virtual false, abstract: false, final false
   inline void RequestHide();
 
-  /// @brief Method RequestShow, addr 0x3fd1824, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RequestShow, addr 0x40318d0, size 0x20, virtual false, abstract: false, final false
   inline void RequestShow();
 
-  /// @brief Method SetCursorRay, addr 0x3fd1844, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetCursorRay, addr 0x40318f0, size 0x4, virtual true, abstract: false, final false
   inline void SetCursorRay(::UnityEngine::Transform* ray);
 
-  /// @brief Method SetCursorStartDest, addr 0x3fd1644, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method SetCursorStartDest, addr 0x40316f0, size 0x1e0, virtual true, abstract: false, final false
   inline void SetCursorStartDest(::UnityEngine::Vector3 _, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method Show, addr 0x3fd152c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x40315d8, size 0x118, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method Update, addr 0x3fd127c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4031328, size 0x194, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__currentScale_k__BackingField() const;
@@ -214,35 +213,35 @@ public:
 
   constexpr void __cordl_internal_set_showTimeoutPeriod(float_t value);
 
-  /// @brief Method .ctor, addr 0x3fd19ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4031a98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> getStaticF__instance();
+  static inline ::GlobalNamespace::OVRGazePointer* getStaticF__instance();
 
-  /// @brief Method get_SelectionProgress, addr 0x3fd1014, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SelectionProgress, addr 0x40310c0, size 0x78, virtual false, abstract: false, final false
   inline float_t get_SelectionProgress();
 
-  /// @brief Method get_currentScale, addr 0x3fd0d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentScale, addr 0x4030e08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentScale();
 
-  /// @brief Method get_hidden, addr 0x3fd0d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hidden, addr 0x4030df4, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
 
-  /// @brief Method get_instance, addr 0x3fd0d6c, size 0x20c, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> get_instance();
+  /// @brief Method get_instance, addr 0x4030e18, size 0x20c, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRGazePointer* get_instance();
 
-  /// @brief Method get_visibilityStrength, addr 0x3fd0f78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_visibilityStrength, addr 0x4031024, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_visibilityStrength();
 
-  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer> value);
+  static inline void setStaticF__instance(::GlobalNamespace::OVRGazePointer* value);
 
-  /// @brief Method set_SelectionProgress, addr 0x3fd108c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_SelectionProgress, addr 0x4031138, size 0x80, virtual false, abstract: false, final false
   inline void set_SelectionProgress(float_t value);
 
-  /// @brief Method set_currentScale, addr 0x3fd0d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentScale, addr 0x4030e10, size 0x8, virtual false, abstract: false, final false
   inline void set_currentScale(float_t value);
 
-  /// @brief Method set_hidden, addr 0x3fd0d50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hidden, addr 0x4030dfc, size 0xc, virtual false, abstract: false, final false
   inline void set_hidden(bool value);
 
 protected:
@@ -258,6 +257,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRGazePointer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRGazePointer(OVRGazePointer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8419 };
 
   /// @brief Field gazeIcon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___gazeIcon;
@@ -307,14 +309,9 @@ public:
   /// @brief Field progressIndicator, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRProgressIndicator> ___progressIndicator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8394 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGazePointer, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___gazeIcon) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___hideByDefault) == 0x28, "Offset mismatch!");
@@ -346,6 +343,8 @@ static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___lastShowRequestTime
 static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___lastHideRequestTime) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGazePointer, ___progressIndicator) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGazePointer, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGazePointer);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionFailedException::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::ConnectionFailedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x228ce28;
+  constexpr static std::size_t addrs = 0x22c0114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionFailedException::*)(::GlobalNamespace::ConnectionFailedReason, ::StringW)>(
     &::GlobalNamespace::ConnectionFailedException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x228ce94;
+  constexpr static std::size_t addrs = 0x22c0180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,17 +47,11 @@ constexpr void GlobalNamespace::ConnectionFailedException::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___reason = value;
 }
-inline ::GlobalNamespace::ConnectionFailedException* GlobalNamespace::ConnectionFailedException::New_ctor(::GlobalNamespace::ConnectionFailedReason reason) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConnectionFailedException*>(reason));
-}
 inline void GlobalNamespace::ConnectionFailedException::_ctor(::GlobalNamespace::ConnectionFailedReason reason) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConnectionFailedException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ConnectionFailedReason>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reason);
-}
-inline ::GlobalNamespace::ConnectionFailedException* GlobalNamespace::ConnectionFailedException::New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConnectionFailedException*>(reason, message));
 }
 inline void GlobalNamespace::ConnectionFailedException::_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -65,6 +59,12 @@ inline void GlobalNamespace::ConnectionFailedException::_ctor(::GlobalNamespace:
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ConnectionFailedReason>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reason, message);
+}
+inline ::GlobalNamespace::ConnectionFailedException* GlobalNamespace::ConnectionFailedException::New_ctor(::GlobalNamespace::ConnectionFailedReason reason) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConnectionFailedException*>(reason));
+}
+inline ::GlobalNamespace::ConnectionFailedException* GlobalNamespace::ConnectionFailedException::New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConnectionFailedException*>(reason, message));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ConnectionFailedException::ConnectionFailedException() {}

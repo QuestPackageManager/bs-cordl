@@ -17,11 +17,10 @@ class BloomFogEnvironment;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomFogEnvironment);
-// Type: ::BloomFogEnvironment
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomFogEnvironment*
+// CS Name: BloomFogEnvironment
 class CORDL_TYPE BloomFogEnvironment : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -35,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x397e508, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39d4dd0, size 0x40, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x397e568, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39d4e30, size 0xa4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -53,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__fogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  /// @brief Method .ctor, addr 0x397e830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d50f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fogParams, addr 0x397e500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fogParams, addr 0x39d4dc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_fogParams();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomFogEnvironment(BloomFogEnvironment const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16227 };
+
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
   /// @brief Field _fogParams, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____fogParams;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16192 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogEnvironment, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomFogEnvironment, ____bloomFog) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomFogEnvironment, ____fogParams) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFogEnvironment, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomFogEnvironment);

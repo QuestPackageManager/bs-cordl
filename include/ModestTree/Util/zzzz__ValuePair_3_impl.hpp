@@ -39,16 +39,10 @@ template <typename T1, typename T2, typename T3> constexpr void ModestTree::Util
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___Third, value);
 }
-template <typename T1, typename T2, typename T3> inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* ModestTree::Util::ValuePair_3<T1, T2, T3>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>());
-}
 template <typename T1, typename T2, typename T3> inline void ModestTree::Util::ValuePair_3<T1, T2, T3>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T1, typename T2, typename T3> inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* ModestTree::Util::ValuePair_3<T1, T2, T3>::New_ctor(T1 first, T2 second, T3 third) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>(first, second, third));
 }
 template <typename T1, typename T2, typename T3> inline void ModestTree::Util::ValuePair_3<T1, T2, T3>::_ctor(T1 first, T2 second, T3 third) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -72,6 +66,12 @@ template <typename T1, typename T2, typename T3> inline int32_t ModestTree::Util
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+template <typename T1, typename T2, typename T3> inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* ModestTree::Util::ValuePair_3<T1, T2, T3>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>());
+}
+template <typename T1, typename T2, typename T3> inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* ModestTree::Util::ValuePair_3<T1, T2, T3>::New_ctor(T1 first, T2 second, T3 third) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>(first, second, third));
 }
 // Ctor Parameters []
 template <typename T1, typename T2, typename T3> constexpr ::ModestTree::Util::ValuePair_3<T1, T2, T3>::ValuePair_3() {}

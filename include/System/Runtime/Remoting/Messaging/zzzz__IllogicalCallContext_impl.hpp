@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3c848b8;
+  constexpr static std::size_t addrs = 0x3ce4a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8491c;
+  constexpr static std::size_t addrs = 0x3ce4a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::set_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c84924;
+  constexpr static std::size_t addrs = 0x3ce4a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HasUserData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c8492c;
+  constexpr static std::size_t addrs = 0x3ce4aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::FreeNamedDataSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c847f4;
+  constexpr static std::size_t addrs = 0x3ce4968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IllogicalCallContext* (
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&::System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3c84958;
+  constexpr static std::size_t addrs = 0x3ce4acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c84bac;
+  constexpr static std::size_t addrs = 0x3ce4d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::Messagin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Datastore;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::Messaging::IllogicalCallContext::__cordl_internal_get_m_Datastore() const {
+constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::Messaging::IllogicalCallContext::__cordl_internal_get_m_Datastore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Datastore;
 }
@@ -125,7 +125,7 @@ constexpr ::System::Object*& System::Runtime::Remoting::Messaging::IllogicalCall
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HostContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::IllogicalCallContext::__cordl_internal_get_m_HostContext() const {
+constexpr ::System::Object* const& System::Runtime::Remoting::Messaging::IllogicalCallContext::__cordl_internal_get_m_HostContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HostContext;
 }
@@ -169,14 +169,14 @@ inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* System::Run
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IllogicalCallContext*, false>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* System::Runtime::Remoting::Messaging::IllogicalCallContext::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::IllogicalCallContext*>());
-}
 inline void System::Runtime::Remoting::Messaging::IllogicalCallContext::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::IllogicalCallContext*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* System::Runtime::Remoting::Messaging::IllogicalCallContext::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::IllogicalCallContext*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext::IllogicalCallContext() {}

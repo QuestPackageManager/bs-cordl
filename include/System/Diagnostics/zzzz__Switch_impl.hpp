@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Switch::*)(::StringW, ::StringW)>(&::System::Diagnostics::Switch::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43c849c;
+  constexpr static std::size_t addrs = 0x44297b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Switch::*)(::StringW, ::StringW, ::StringW)>(&::System::Diagnostics::Switch::_ctor)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x43c85c0;
+  constexpr static std::size_t addrs = 0x44298d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Diagnostics::Switch::_pruneCachedSwitches)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x43c87f8;
+  constexpr static std::size_t addrs = 0x4429b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Switch*>::get(), "_pruneCachedSwitches",
@@ -109,17 +109,11 @@ inline void System::Diagnostics::Switch::setStaticF_s_LastCollectionCount(int32_
 inline int32_t System::Diagnostics::Switch::getStaticF_s_LastCollectionCount() {
   return ::cordl_internals::getStaticField<int32_t, "s_LastCollectionCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Switch*>::get>();
 }
-inline ::System::Diagnostics::Switch* System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Switch*>(displayName, description));
-}
 inline void System::Diagnostics::Switch::_ctor(::StringW displayName, ::StringW description) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Switch*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, displayName, description);
-}
-inline ::System::Diagnostics::Switch* System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Switch*>(displayName, description, defaultSwitchValue));
 }
 inline void System::Diagnostics::Switch::_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,6 +126,12 @@ inline void System::Diagnostics::Switch::_pruneCachedSwitches() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Switch*>::get(), "_pruneCachedSwitches",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
+inline ::System::Diagnostics::Switch* System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Switch*>(displayName, description));
+}
+inline ::System::Diagnostics::Switch* System::Diagnostics::Switch::New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::Switch*>(displayName, description, defaultSwitchValue));
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::Switch::Switch() {}

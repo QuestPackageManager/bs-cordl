@@ -12,11 +12,10 @@ struct MemberSerialization;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::MemberSerialization);
-// Type: Newtonsoft.Json::MemberSerialization
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::Newtonsoft.Json::MemberSerialization
+// CS Name: Newtonsoft.Json.MemberSerialization
 struct CORDL_TYPE MemberSerialization {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MemberSerialization(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Fields value: static_cast<int32_t>(0x2)
+  /// @brief Field Fields value: I32(2)
   static ::Newtonsoft::Json::MemberSerialization const Fields;
 
-  /// @brief Field OptIn value: static_cast<int32_t>(0x1)
+  /// @brief Field OptIn value: I32(1)
   static ::Newtonsoft::Json::MemberSerialization const OptIn;
 
-  /// @brief Field OptOut value: static_cast<int32_t>(0x0)
+  /// @brief Field OptOut value: I32(0)
   static ::Newtonsoft::Json::MemberSerialization const OptOut;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10163 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::MemberSerialization, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::MemberSerialization, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::MemberSerialization, 0x4>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::MemberSerialization, "Newtonsoft.Json", "MemberSerialization");

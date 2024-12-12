@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/BatchID.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchID_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchID.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchID::*)()>(&::UnityEngine::Rendering::BatchID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4866d50;
+  constexpr static std::size_t addrs = 0x48c80d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::System::Object*)>(&::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4866d58;
+  constexpr static std::size_t addrs = 0x48c80dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::UnityEngine::Rendering::BatchID)>(
     &::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4866e00;
+  constexpr static std::size_t addrs = 0x48c8184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,14 +46,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
-constexpr UnityEngine::Rendering::BatchID::operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
-constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>* UnityEngine::Rendering::BatchID::i___System__IEquatable_1___UnityEngine__Rendering__BatchID_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::Rendering::BatchID::setStaticF_Null(::UnityEngine::Rendering::BatchID value) {
   ::cordl_internals::setStaticField<::UnityEngine::Rendering::BatchID, "Null", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchID>::get>(
       std::forward<::UnityEngine::Rendering::BatchID>(value));
@@ -76,6 +68,14 @@ inline bool UnityEngine::Rendering::BatchID::Equals(::UnityEngine::Rendering::Ba
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchID>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchID>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
+constexpr UnityEngine::Rendering::BatchID::operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::BatchID>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::BatchID>* UnityEngine::Rendering::BatchID::i___System__IEquatable_1___UnityEngine__Rendering__BatchID_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::BatchID>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "value", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::BatchID::BatchID(uint32_t value) noexcept {

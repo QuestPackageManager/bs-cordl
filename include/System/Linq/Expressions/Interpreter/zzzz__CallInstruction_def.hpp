@@ -4,8 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CallInstruction)
@@ -30,11 +28,10 @@ class CallInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::CallInstruction);
-// Type: System.Linq.Expressions.Interpreter::CallInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::CallInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.CallInstruction
 class CORDL_TYPE CallInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -44,43 +41,43 @@ public:
 
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  /// @brief Method ArrayItemSetter1, addr 0x405fed8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ArrayItemSetter1, addr 0x40c11ec, size 0x20, virtual false, abstract: false, final false
   static inline void ArrayItemSetter1(::System::Array* array, int32_t index0, ::System::Object* value);
 
-  /// @brief Method ArrayItemSetter2, addr 0x405fef8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ArrayItemSetter2, addr 0x40c120c, size 0x24, virtual false, abstract: false, final false
   static inline void ArrayItemSetter2(::System::Array* array, int32_t index0, int32_t index1, ::System::Object* value);
 
-  /// @brief Method ArrayItemSetter3, addr 0x405ff1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ArrayItemSetter3, addr 0x40c1230, size 0x28, virtual false, abstract: false, final false
   static inline void ArrayItemSetter3(::System::Array* array, int32_t index0, int32_t index1, int32_t index2, ::System::Object* value);
 
-  /// @brief Method Create, addr 0x405f838, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c0b4c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CallInstruction* Create(::System::Reflection::MethodInfo* info);
 
-  /// @brief Method Create, addr 0x405f89c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c0bb0, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CallInstruction* Create(::System::Reflection::MethodInfo* info,
                                                                                   ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> parameters);
 
-  /// @brief Method GetArrayAccessor, addr 0x405fa20, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetArrayAccessor, addr 0x40c0d34, size 0x488, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CallInstruction* GetArrayAccessor(::System::Reflection::MethodInfo* info, int32_t argumentCount);
 
-  /// @brief Method InterpretLambdaInvoke, addr 0x4060044, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method InterpretLambdaInvoke, addr 0x40c1358, size 0x60, virtual false, abstract: false, final false
   inline ::System::Object* InterpretLambdaInvoke(::System::Linq::Expressions::Interpreter::LightLambda* targetLambda, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Linq::Expressions::Interpreter::CallInstruction* New_ctor();
 
-  /// @brief Method TryGetLightLambdaTarget, addr 0x405ff50, size 0xf4, virtual false, abstract: false, final false
-  static inline bool TryGetLightLambdaTarget(::System::Object* instance, ByRef<::System::Linq::Expressions::Interpreter::LightLambda*> lightLambda);
+  /// @brief Method TryGetLightLambdaTarget, addr 0x40c1264, size 0xf4, virtual false, abstract: false, final false
+  static inline bool TryGetLightLambdaTarget(::System::Object* instance, ::ByRef<::System::Linq::Expressions::Interpreter::LightLambda*> lightLambda);
 
-  /// @brief Method .ctor, addr 0x40600a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c13b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ArgumentCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ArgumentCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_ConsumedStack, addr 0x405ff44, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c1258, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405f7f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c0b0c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -98,7 +95,7 @@ public:
   CallInstruction(CallInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

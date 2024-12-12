@@ -17,11 +17,10 @@ class DropdownMenuEventInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuEventInfo);
-// Type: UnityEngine.UIElements::DropdownMenuEventInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.EventModifiers, UnityEngine.KeyCode, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DropdownMenuEventInfo*
+// CS Name: UnityEngine.UIElements.DropdownMenuEventInfo
 class CORDL_TYPE DropdownMenuEventInfo : public ::System::Object {
 public:
   // Declarations
@@ -73,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__mousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x49ba634, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a1ef44, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventBase* e);
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DropdownMenuEventInfo(DropdownMenuEventInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
+
   /// @brief Field <modifiers>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
@@ -105,14 +107,9 @@ public:
   /// @brief Field <keyCode>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5739 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuEventInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____modifiers_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____mousePosition_k__BackingField) == 0x14, "Offset mismatch!");
@@ -122,6 +119,8 @@ static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____loc
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____character_k__BackingField) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DropdownMenuEventInfo, ____keyCode_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DropdownMenuEventInfo, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DropdownMenuEventInfo);

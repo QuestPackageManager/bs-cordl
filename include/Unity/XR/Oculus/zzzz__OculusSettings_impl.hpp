@@ -1,40 +1,39 @@
 #pragma once
 // IWYU pragma private; include "Unity/XR/Oculus/OculusSettings.hpp"
-#include "Unity/XR/Oculus/zzzz__OculusSettings_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop::__OculusSettings__StereoRenderingModeDesktop(int32_t value__) noexcept {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop::OculusSettings_StereoRenderingModeDesktop(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop::__OculusSettings__StereoRenderingModeDesktop() {}
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop::MultiPass{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop::SinglePassInstanced{ static_cast<int32_t>(0x1) };
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop::OculusSettings_StereoRenderingModeDesktop() {}
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop::MultiPass{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop::SinglePassInstanced{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid::__OculusSettings__StereoRenderingModeAndroid(int32_t value__) noexcept {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid::OculusSettings_StereoRenderingModeAndroid(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid::__OculusSettings__StereoRenderingModeAndroid() {}
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid::MultiPass{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid::Multiview{ static_cast<int32_t>(0x2) };
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid::OculusSettings_StereoRenderingModeAndroid() {}
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid::MultiPass{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid::Multiview{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod::__OculusSettings__FoveationMethod(int32_t value__) noexcept {
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod::OculusSettings_FoveationMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod::__OculusSettings__FoveationMethod() {}
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod Unity::XR::Oculus::__OculusSettings__FoveationMethod::FixedFoveatedRendering{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod Unity::XR::Oculus::__OculusSettings__FoveationMethod::EyeTrackedFoveatedRendering{ static_cast<int32_t>(0x1) };
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod::OculusSettings_FoveationMethod() {}
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod Unity::XR::Oculus::OculusSettings_FoveationMethod::FixedFoveatedRendering{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod Unity::XR::Oculus::OculusSettings_FoveationMethod::EyeTrackedFoveatedRendering{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::Unity::XR::Oculus::OculusSettings.GetStereoRenderingMode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::Unity::XR::Oculus::OculusSettings::*)()>(&::Unity::XR::Oculus::OculusSettings::GetStereoRenderingMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d150c;
+  constexpr static std::size_t addrs = 0x4832820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(),
@@ -47,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusSettings::*)()>(&::Unity::XR::Oculus::OculusSettings::Awake)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47d4d64;
+  constexpr static std::size_t addrs = 0x4836078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(), "Awake",
@@ -60,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusSettings::*)()>(&::Unity::XR::Oculus::OculusSettings::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47d4db0;
+  constexpr static std::size_t addrs = 0x48360c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(), ".ctor",
@@ -68,27 +67,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeDesktop() {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeDesktop() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StereoRenderingModeDesktop;
 }
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeDesktop() const {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeDesktop() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StereoRenderingModeDesktop;
 }
-constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_m_StereoRenderingModeDesktop(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeDesktop value) {
+constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_m_StereoRenderingModeDesktop(::Unity::XR::Oculus::OculusSettings_StereoRenderingModeDesktop value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StereoRenderingModeDesktop = value;
 }
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeAndroid() {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeAndroid() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StereoRenderingModeAndroid;
 }
-constexpr ::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeAndroid() const {
+constexpr ::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_m_StereoRenderingModeAndroid() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StereoRenderingModeAndroid;
 }
-constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_m_StereoRenderingModeAndroid(::Unity::XR::Oculus::__OculusSettings__StereoRenderingModeAndroid value) {
+constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_m_StereoRenderingModeAndroid(::Unity::XR::Oculus::OculusSettings_StereoRenderingModeAndroid value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StereoRenderingModeAndroid = value;
 }
@@ -188,15 +187,15 @@ constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_Subsample
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SubsampledLayout = value;
 }
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_FoveatedRenderingMethod() {
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_FoveatedRenderingMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FoveatedRenderingMethod;
 }
-constexpr ::Unity::XR::Oculus::__OculusSettings__FoveationMethod const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_FoveatedRenderingMethod() const {
+constexpr ::Unity::XR::Oculus::OculusSettings_FoveationMethod const& Unity::XR::Oculus::OculusSettings::__cordl_internal_get_FoveatedRenderingMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___FoveatedRenderingMethod;
 }
-constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_FoveatedRenderingMethod(::Unity::XR::Oculus::__OculusSettings__FoveationMethod value) {
+constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_FoveatedRenderingMethod(::Unity::XR::Oculus::OculusSettings_FoveationMethod value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FoveatedRenderingMethod = value;
 }
@@ -296,13 +295,12 @@ constexpr void Unity::XR::Oculus::OculusSettings::__cordl_internal_set_SystemSpl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___SystemSplashScreen)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Unity::XR::Oculus::OculusSettings::setStaticF_s_Settings(::UnityW<::Unity::XR::Oculus::OculusSettings> value) {
-  ::cordl_internals::setStaticField<::UnityW<::Unity::XR::Oculus::OculusSettings>, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>(
-      std::forward<::UnityW<::Unity::XR::Oculus::OculusSettings>>(value));
+inline void Unity::XR::Oculus::OculusSettings::setStaticF_s_Settings(::Unity::XR::Oculus::OculusSettings* value) {
+  ::cordl_internals::setStaticField<::Unity::XR::Oculus::OculusSettings*, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>(
+      std::forward<::Unity::XR::Oculus::OculusSettings*>(value));
 }
-inline ::UnityW<::Unity::XR::Oculus::OculusSettings> Unity::XR::Oculus::OculusSettings::getStaticF_s_Settings() {
-  return ::cordl_internals::getStaticField<::UnityW<::Unity::XR::Oculus::OculusSettings>, "s_Settings",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>();
+inline ::Unity::XR::Oculus::OculusSettings* Unity::XR::Oculus::OculusSettings::getStaticF_s_Settings() {
+  return ::cordl_internals::getStaticField<::Unity::XR::Oculus::OculusSettings*, "s_Settings", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get>();
 }
 inline uint16_t Unity::XR::Oculus::OculusSettings::GetStereoRenderingMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(),
@@ -314,13 +312,13 @@ inline void Unity::XR::Oculus::OculusSettings::Awake() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Unity::XR::Oculus::OculusSettings* Unity::XR::Oculus::OculusSettings::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::XR::Oculus::OculusSettings*>());
-}
 inline void Unity::XR::Oculus::OculusSettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusSettings*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Unity::XR::Oculus::OculusSettings* Unity::XR::Oculus::OculusSettings::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::XR::Oculus::OculusSettings*>());
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusSettings::OculusSettings() {}

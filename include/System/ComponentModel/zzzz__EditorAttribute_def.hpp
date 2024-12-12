@@ -16,11 +16,10 @@ class EditorAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::EditorAttribute);
-// Type: System.ComponentModel::EditorAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::EditorAttribute*
+// CS Name: System.ComponentModel.EditorAttribute
 class CORDL_TYPE EditorAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -39,10 +38,10 @@ public:
   /// @brief Field _typeId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId)) ::StringW _typeId;
 
-  /// @brief Method Equals, addr 0x43ef9b4, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4450cc8, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43efa58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4450d6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::EditorAttribute* New_ctor(::StringW typeName, ::StringW baseTypeName);
@@ -65,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43ef888, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4450b9c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW baseTypeName);
 
-  /// @brief Method get_EditorBaseTypeName, addr 0x43ef918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorBaseTypeName, addr 0x4450c2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorBaseTypeName();
 
-  /// @brief Method get_EditorTypeName, addr 0x43ef920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditorTypeName, addr 0x4450c34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_EditorTypeName();
 
-  /// @brief Method get_TypeId, addr 0x43ef928, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_TypeId, addr 0x4450c3c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EditorAttribute(EditorAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9379 };
+
   /// @brief Field _typeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____typeId;
 
@@ -100,19 +102,16 @@ public:
   /// @brief Field <EditorTypeName>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____EditorTypeName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9354 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EditorAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____typeId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____EditorBaseTypeName_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::EditorAttribute, ____EditorTypeName_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::EditorAttribute, 0x28>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::EditorAttribute);

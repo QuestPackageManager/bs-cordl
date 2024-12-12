@@ -4,9 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongPreviewPlayer)
@@ -14,31 +16,25 @@ namespace GlobalNamespace {
 class AudioManagerSO;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceParams;
+class SongPreviewPlayer_AudioSourceParams;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceVolumeController;
+class SongPreviewPlayer_AudioSourceVolumeController;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__InitData;
+class SongPreviewPlayer_InitData;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30;
+class SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Action;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -57,35 +53,34 @@ namespace GlobalNamespace {
 class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceParams;
+class SongPreviewPlayer_AudioSourceParams;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__AudioSourceVolumeController;
+class SongPreviewPlayer_AudioSourceVolumeController;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer__InitData;
+class SongPreviewPlayer_InitData;
 }
 namespace GlobalNamespace {
-class __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30;
+class SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayer);
-MARK_REF_PTR_T(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams);
-MARK_REF_PTR_T(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController);
-MARK_REF_PTR_T(::GlobalNamespace::__SongPreviewPlayer__InitData);
-MARK_REF_PTR_T(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams);
+MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController);
+MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayer_InitData);
+MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPreviewPlayer::InitData*
-class CORDL_TYPE __SongPreviewPlayer__InitData : public ::System::Object {
+// CS Name: SongPreviewPlayer/InitData
+class CORDL_TYPE SongPreviewPlayer_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ambientVolumeScale, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_ambientVolumeScale, put = __cordl_internal_set_ambientVolumeScale)) float_t ambientVolumeScale;
 
-  static inline ::GlobalNamespace::__SongPreviewPlayer__InitData* New_ctor(float_t ambientVolumeScale);
+  static inline ::GlobalNamespace::SongPreviewPlayer_InitData* New_ctor(float_t ambientVolumeScale);
 
   constexpr float_t const& __cordl_internal_get_ambientVolumeScale() const;
 
@@ -93,43 +88,42 @@ public:
 
   constexpr void __cordl_internal_set_ambientVolumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7d4c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad48e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t ambientVolumeScale);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SongPreviewPlayer__InitData();
+  constexpr SongPreviewPlayer_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SongPreviewPlayer__InitData(__SongPreviewPlayer__InitData&&) = delete;
+  SongPreviewPlayer_InitData(SongPreviewPlayer_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SongPreviewPlayer__InitData(__SongPreviewPlayer__InitData const&) = delete;
+  SongPreviewPlayer_InitData(SongPreviewPlayer_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4025 };
 
   /// @brief Field ambientVolumeScale, offset: 0x10, size: 0x4, def value: None
   float_t ___ambientVolumeScale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPreviewPlayer__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_InitData, ___ambientVolumeScale) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__InitData, ___ambientVolumeScale) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::AudioSourceParams
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPreviewPlayer::AudioSourceParams*
-class CORDL_TYPE __SongPreviewPlayer__AudioSourceParams : public ::System::Object {
+// CS Name: SongPreviewPlayer/AudioSourceParams
+class CORDL_TYPE SongPreviewPlayer_AudioSourceParams : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _position, offset 0x10, size 0xc
@@ -152,7 +146,7 @@ public:
 
   __declspec(property(get = get_spread)) float_t spread;
 
-  static inline ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* New_ctor();
+  static inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* New_ctor();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
 
@@ -178,34 +172,37 @@ public:
 
   constexpr void __cordl_internal_set__spread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7d514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad4934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_position, addr 0x3a7d4f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3ad4910, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_reverbZoneMix, addr 0x3a7d4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reverbZoneMix, addr 0x3ad491c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_reverbZoneMix();
 
-  /// @brief Method get_spatialBlend, addr 0x3a7d504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spatialBlend, addr 0x3ad4924, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spatialBlend();
 
-  /// @brief Method get_spread, addr 0x3a7d50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spread, addr 0x3ad492c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spread();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SongPreviewPlayer__AudioSourceParams();
+  constexpr SongPreviewPlayer_AudioSourceParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__AudioSourceParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SongPreviewPlayer__AudioSourceParams(__SongPreviewPlayer__AudioSourceParams&&) = delete;
+  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__AudioSourceParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceParams", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SongPreviewPlayer__AudioSourceParams(__SongPreviewPlayer__AudioSourceParams const&) = delete;
+  SongPreviewPlayer_AudioSourceParams(SongPreviewPlayer_AudioSourceParams const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4026 };
 
   /// @brief Field _position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____position;
@@ -219,29 +216,25 @@ public:
   /// @brief Field _spread, offset: 0x24, size: 0x4, def value: None
   float_t ____spread;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4020 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams, ____position) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams, ____position) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams, ____reverbZoneMix) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams, ____reverbZoneMix) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams, ____spatialBlend) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams, ____spatialBlend) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams, ____spread) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams, ____spread) == 0x24, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer_AudioSourceParams, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::AudioSourceVolumeController
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPreviewPlayer::AudioSourceVolumeController*
-class CORDL_TYPE __SongPreviewPlayer__AudioSourceVolumeController : public ::System::Object {
+// CS Name: SongPreviewPlayer/AudioSourceVolumeController
+class CORDL_TYPE SongPreviewPlayer_AudioSourceVolumeController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <maxVolume>k__BackingField, offset 0x18, size 0x4
@@ -257,7 +250,7 @@ public:
 
   __declspec(property(get = get_volume, put = set_volume)) float_t volume;
 
-  static inline ::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController* New_ctor(::UnityEngine::AudioSource* audioSource);
+  static inline ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController* New_ctor(::UnityEngine::AudioSource* audioSource);
 
   constexpr float_t const& __cordl_internal_get__maxVolume_k__BackingField() const;
 
@@ -277,34 +270,37 @@ public:
 
   constexpr void __cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x3a7c8e4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad3d04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audioSource);
 
-  /// @brief Method get_maxVolume, addr 0x3a7d524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3ad4944, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_volume, addr 0x3a7d51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volume, addr 0x3ad493c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method set_maxVolume, addr 0x3a7d52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxVolume, addr 0x3ad494c, size 0x8, virtual false, abstract: false, final false
   inline void set_maxVolume(float_t value);
 
-  /// @brief Method set_volume, addr 0x3a7cd18, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_volume, addr 0x3ad4138, size 0x34, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SongPreviewPlayer__AudioSourceVolumeController();
+  constexpr SongPreviewPlayer_AudioSourceVolumeController();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__AudioSourceVolumeController", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SongPreviewPlayer__AudioSourceVolumeController(__SongPreviewPlayer__AudioSourceVolumeController&&) = delete;
+  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer__AudioSourceVolumeController", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer_AudioSourceVolumeController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SongPreviewPlayer__AudioSourceVolumeController(__SongPreviewPlayer__AudioSourceVolumeController const&) = delete;
+  SongPreviewPlayer_AudioSourceVolumeController(SongPreviewPlayer_AudioSourceVolumeController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4027 };
 
   /// @brief Field audioSource, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ___audioSource;
@@ -315,27 +311,23 @@ public:
   /// @brief Field _volume, offset: 0x1c, size: 0x4, def value: None
   float_t ____volume;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4021 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController, ___audioSource) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController, ___audioSource) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController, ____maxVolume_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController, ____maxVolume_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController, ____volume) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController, ____volume) == 0x1c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<CrossFadeAfterDelayCoroutine>d__30
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPreviewPlayer::<CrossFadeAfterDelayCoroutine>d__30*
-class CORDL_TYPE __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30 : public ::System::Object {
+// CS Name: SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__30
+class CORDL_TYPE SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -363,30 +355,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3a7d538, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3ad4958, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3a7d5e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3ad4a00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3a7d5e8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3ad4a08, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3a7d620, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3ad4a40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3a7d534, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3ad4954, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get___4__this() const;
 
@@ -404,7 +396,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7ca98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad3eb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -419,16 +411,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30();
+  constexpr SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30(__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30&&) = delete;
+  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30(__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30 const&) = delete;
+  SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30(SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4028 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -442,38 +437,34 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4022 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30, ___delay) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30, ___delay) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30, _____4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30, _____4__this) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SongPreviewPlayer
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies AudioPlayerBase
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPreviewPlayer*
+// CS Name: SongPreviewPlayer
 class CORDL_TYPE SongPreviewPlayer : public ::GlobalNamespace::AudioPlayerBase {
 public:
   // Declarations
-  using AudioSourceParams = ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams;
+  using AudioSourceParams = ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams;
 
-  using AudioSourceVolumeController = ::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController;
+  using AudioSourceVolumeController = ::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController;
 
-  using InitData = ::GlobalNamespace::__SongPreviewPlayer__InitData;
+  using InitData = ::GlobalNamespace::SongPreviewPlayer_InitData;
 
-  using _CrossFadeAfterDelayCoroutine_d__30 = ::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30;
+  using _CrossFadeAfterDelayCoroutine_d__30 = ::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30;
 
   /// @brief Field _activeChannel, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__activeChannel, put = __cordl_internal_set__activeChannel)) int32_t _activeChannel;
@@ -486,8 +477,8 @@ public:
 
   /// @brief Field _audioSourceControllers, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSourceControllers,
-                      put = __cordl_internal_set__audioSourceControllers)) ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*,
-                                                                                    ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*>
+                      put = __cordl_internal_set__audioSourceControllers)) ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*,
+                                                                                    ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*>
       _audioSourceControllers;
 
   /// @brief Field _audioSourcePrefab, offset 0x28, size 0x8
@@ -511,7 +502,7 @@ public:
 
   /// @brief Field _defaultAudioSourceParams, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultAudioSourceParams,
-                      put = __cordl_internal_set__defaultAudioSourceParams)) ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _defaultAudioSourceParams;
+                      put = __cordl_internal_set__defaultAudioSourceParams)) ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* _defaultAudioSourceParams;
 
   /// @brief Field _fadeInSpeed, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeInSpeed, put = __cordl_internal_set__fadeInSpeed)) float_t _fadeInSpeed;
@@ -520,14 +511,14 @@ public:
   __declspec(property(get = __cordl_internal_get__fadeSpeed, put = __cordl_internal_set__fadeSpeed)) float_t _fadeSpeed;
 
   /// @brief Field _initData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__SongPreviewPlayer__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::SongPreviewPlayer_InitData* _initData;
 
   /// @brief Field _isActiveChannelPaused, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__isActiveChannelPaused, put = __cordl_internal_set__isActiveChannelPaused)) bool _isActiveChannelPaused;
 
   /// @brief Field _othersAudioSourceParams, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__othersAudioSourceParams,
-                      put = __cordl_internal_set__othersAudioSourceParams)) ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* _othersAudioSourceParams;
+                      put = __cordl_internal_set__othersAudioSourceParams)) ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* _othersAudioSourceParams;
 
   /// @brief Field _timeToDefaultAudioTransition, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToDefaultAudioTransition, put = __cordl_internal_set__timeToDefaultAudioTransition)) float_t _timeToDefaultAudioTransition;
@@ -545,48 +536,48 @@ public:
 
   __declspec(property(get = get_defaultAudioClip)) ::UnityW<::UnityEngine::AudioClip> defaultAudioClip;
 
-  /// @brief Method Awake, addr 0x3a7c714, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ad3b34, size 0x1d0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CrossFadeAfterDelayCoroutine, addr 0x3a7ca28, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CrossFadeAfterDelayCoroutine, addr 0x3ad3e48, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CrossFadeAfterDelayCoroutine(float_t delay);
 
-  /// @brief Method CrossfadeTo, addr 0x3a7cdd4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeTo, addr 0x3ad41f4, size 0x2f8, virtual false, abstract: false, final false
   inline void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, bool isDefault, ::System::Action* onFadeOutCallback);
 
-  /// @brief Method CrossfadeTo, addr 0x3a7d324, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeTo, addr 0x3ad4744, size 0xc, virtual false, abstract: false, final false
   inline void CrossfadeTo(::UnityEngine::AudioClip* audioClip, float_t musicVolume, float_t startTime, float_t duration, ::System::Action* onFadeOutCallback);
 
-  /// @brief Method CrossfadeToDefault, addr 0x3a7d0cc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeToDefault, addr 0x3ad44ec, size 0x178, virtual false, abstract: false, final false
   inline void CrossfadeToDefault();
 
-  /// @brief Method CrossfadeToNewDefault, addr 0x3a7d244, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CrossfadeToNewDefault, addr 0x3ad4664, size 0xe0, virtual false, abstract: false, final false
   inline void CrossfadeToNewDefault(::UnityEngine::AudioClip* audioClip);
 
-  /// @brief Method FadeOut, addr 0x3a7d414, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x3ad4834, size 0x1c, virtual true, abstract: false, final false
   inline void FadeOut(float_t duration);
 
   static inline ::GlobalNamespace::SongPreviewPlayer* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3a7cac0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ad3ee0, size 0xd4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3a7c934, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ad3d54, size 0xf4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PauseCurrentChannel, addr 0x3a7d330, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method PauseCurrentChannel, addr 0x3ad4750, size 0x74, virtual true, abstract: false, final false
   inline void PauseCurrentChannel();
 
-  /// @brief Method ReportChannelDidFadeOut, addr 0x3a7cd4c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ReportChannelDidFadeOut, addr 0x3ad416c, size 0x88, virtual false, abstract: false, final false
   inline void ReportChannelDidFadeOut(int32_t channel);
 
-  /// @brief Method Start, addr 0x3a7c914, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad3d34, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnPauseCurrentChannel, addr 0x3a7d3a4, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method UnPauseCurrentChannel, addr 0x3ad47c4, size 0x70, virtual true, abstract: false, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method Update, addr 0x3a7cb94, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad3fb4, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__activeChannel() const;
@@ -601,19 +592,19 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
-  constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> const&
   __cordl_internal_get__audioSourceControllers() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*>&
   __cordl_internal_get__audioSourceControllers();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSourcePrefab() const;
 
   constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSourcePrefab();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& __cordl_internal_get__channelToFadeOutCallbackDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* const& __cordl_internal_get__channelToFadeOutCallbackDictionary() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*> const& __cordl_internal_get__channelToFadeOutCallbackDictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>*& __cordl_internal_get__channelToFadeOutCallbackDictionary();
 
   constexpr int32_t const& __cordl_internal_get__channelsCount() const;
 
@@ -631,9 +622,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__defaultAudioClip();
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __cordl_internal_get__defaultAudioSourceParams();
+  constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* const& __cordl_internal_get__defaultAudioSourceParams() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __cordl_internal_get__defaultAudioSourceParams() const;
+  constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& __cordl_internal_get__defaultAudioSourceParams();
 
   constexpr float_t const& __cordl_internal_get__fadeInSpeed() const;
 
@@ -643,17 +634,17 @@ public:
 
   constexpr float_t& __cordl_internal_get__fadeSpeed();
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::SongPreviewPlayer_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::SongPreviewPlayer_InitData*& __cordl_internal_get__initData();
 
   constexpr bool const& __cordl_internal_get__isActiveChannelPaused() const;
 
   constexpr bool& __cordl_internal_get__isActiveChannelPaused();
 
-  constexpr ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*& __cordl_internal_get__othersAudioSourceParams();
+  constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* const& __cordl_internal_get__othersAudioSourceParams() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*> const& __cordl_internal_get__othersAudioSourceParams() const;
+  constexpr ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*& __cordl_internal_get__othersAudioSourceParams();
 
   constexpr float_t const& __cordl_internal_get__timeToDefaultAudioTransition() const;
 
@@ -678,7 +669,7 @@ public:
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
   constexpr void __cordl_internal_set__audioSourceControllers(
-      ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> value);
+      ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> value);
 
   constexpr void __cordl_internal_set__audioSourcePrefab(::UnityW<::UnityEngine::AudioSource> value);
 
@@ -692,17 +683,17 @@ public:
 
   constexpr void __cordl_internal_set__defaultAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr void __cordl_internal_set__defaultAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
+  constexpr void __cordl_internal_set__defaultAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* value);
 
   constexpr void __cordl_internal_set__fadeInSpeed(float_t value);
 
   constexpr void __cordl_internal_set__fadeSpeed(float_t value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SongPreviewPlayer__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::SongPreviewPlayer_InitData* value);
 
   constexpr void __cordl_internal_set__isActiveChannelPaused(bool value);
 
-  constexpr void __cordl_internal_set__othersAudioSourceParams(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* value);
+  constexpr void __cordl_internal_set__othersAudioSourceParams(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* value);
 
   constexpr void __cordl_internal_set__timeToDefaultAudioTransition(float_t value);
 
@@ -712,13 +703,13 @@ public:
 
   constexpr void __cordl_internal_set__volumeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7d430, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad4850, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeAudioClip, addr 0x3a7c6b8, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method get_activeAudioClip, addr 0x3ad3ad8, size 0x54, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_activeAudioClip();
 
-  /// @brief Method get_defaultAudioClip, addr 0x3a7c70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAudioClip, addr 0x3ad3b2c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_defaultAudioClip();
 
 protected:
@@ -734,6 +725,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SongPreviewPlayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SongPreviewPlayer(SongPreviewPlayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4029 };
 
   /// @brief Field _channelsCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____channelsCount;
@@ -757,19 +751,19 @@ public:
   float_t ____fadeInSpeed;
 
   /// @brief Field _defaultAudioSourceParams, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* ____defaultAudioSourceParams;
+  ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* ____defaultAudioSourceParams;
 
   /// @brief Field _othersAudioSourceParams, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams* ____othersAudioSourceParams;
+  ::GlobalNamespace::SongPreviewPlayer_AudioSourceParams* ____othersAudioSourceParams;
 
   /// @brief Field _initData, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::__SongPreviewPlayer__InitData* ____initData;
+  ::GlobalNamespace::SongPreviewPlayer_InitData* ____initData;
 
   /// @brief Field _audioManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
   /// @brief Field _audioSourceControllers, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, ::Array<::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*>*> ____audioSourceControllers;
+  ::ArrayW<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, ::Array<::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*>*> ____audioSourceControllers;
 
   /// @brief Field _activeChannel, offset: 0x70, size: 0x4, def value: None
   int32_t ____activeChannel;
@@ -795,14 +789,9 @@ public:
   /// @brief Field _channelToFadeOutCallbackDictionary, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Action*>* ____channelToFadeOutCallbackDictionary;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4023 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer, ____channelsCount) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer, ____audioSourcePrefab) == 0x28, "Offset mismatch!");
@@ -843,14 +832,16 @@ static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer, ____isActiveChannel
 
 static_assert(offsetof(::GlobalNamespace::SongPreviewPlayer, ____channelToFadeOutCallbackDictionary) == 0x90, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPreviewPlayer, 0x98>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer*, "", "SongPreviewPlayer");
-NEED_NO_BOX(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SongPreviewPlayer__AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
-NEED_NO_BOX(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SongPreviewPlayer__AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
-NEED_NO_BOX(::GlobalNamespace::__SongPreviewPlayer__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SongPreviewPlayer__InitData*, "", "SongPreviewPlayer/InitData");
-NEED_NO_BOX(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SongPreviewPlayer___CrossFadeAfterDelayCoroutine_d__30*, "", "SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__30");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer_AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer_AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer_InitData*, "", "SongPreviewPlayer/InitData");
+NEED_NO_BOX(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPreviewPlayer__CrossFadeAfterDelayCoroutine_d__30*, "", "SongPreviewPlayer/<CrossFadeAfterDelayCoroutine>d__30");

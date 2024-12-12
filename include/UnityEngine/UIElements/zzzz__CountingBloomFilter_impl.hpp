@@ -1,21 +1,20 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/CountingBloomFilter.hpp"
-#include "UnityEngine/UIElements/zzzz__CountingBloomFilter_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CountingBloomFilter_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CountingBloomFilter_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__CountingBloomFilter___m_Counters_e__FixedBuffer::__CountingBloomFilter___m_Counters_e__FixedBuffer(uint8_t FixedElementField) noexcept {
+constexpr ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer::CountingBloomFilter__m_Counters_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__CountingBloomFilter___m_Counters_e__FixedBuffer::__CountingBloomFilter___m_Counters_e__FixedBuffer() {}
+constexpr ::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer::CountingBloomFilter__m_Counters_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::CountingBloomFilter.AdjustSlot
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t, bool)>(
     &::UnityEngine::UIElements::CountingBloomFilter::AdjustSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49acb98;
+  constexpr static std::size_t addrs = 0x4a114a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::Hash1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49acbc4;
+  constexpr static std::size_t addrs = 0x4a114d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::Hash2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49acbcc;
+  constexpr static std::size_t addrs = 0x4a114dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::IsSlotEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49acbd4;
+  constexpr static std::size_t addrs = 0x4a114e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::InsertHash)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49acbe4;
+  constexpr static std::size_t addrs = 0x4a114f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::RemoveHash)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49acc1c;
+  constexpr static std::size_t addrs = 0x4a1152c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CountingBloomFilter::*)(uint32_t)>(
     &::UnityEngine::UIElements::CountingBloomFilter::ContainsHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49acc4c;
+  constexpr static std::size_t addrs = 0x4a1155c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,8 +155,8 @@ inline bool UnityEngine::UIElements::CountingBloomFilter::ContainsHash(uint32_t 
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, hash);
 }
-// Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::__CountingBloomFilter___m_Counters_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::CountingBloomFilter::CountingBloomFilter(::UnityEngine::UIElements::__CountingBloomFilter___m_Counters_e__FixedBuffer m_Counters) noexcept {
+// Ctor Parameters [CppParam { name: "m_Counters", ty: "::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::CountingBloomFilter::CountingBloomFilter(::UnityEngine::UIElements::CountingBloomFilter__m_Counters_e__FixedBuffer m_Counters) noexcept {
   this->m_Counters = m_Counters;
 }
 // Ctor Parameters []

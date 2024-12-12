@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::TypeFilter::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Reflection::TypeFilter::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3cc397c;
+  constexpr static std::size_t addrs = 0x3d23af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::TypeFilter::*)(::System::Type*, ::System::Object*)>(
     &::System::Reflection::TypeFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3cc76b0;
+  constexpr static std::size_t addrs = 0x3d27824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,9 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Reflection::TypeFilter* System::Reflection::TypeFilter::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::TypeFilter*>(object, method));
-}
 inline void System::Reflection::TypeFilter::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::TypeFilter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -50,6 +47,9 @@ inline bool System::Reflection::TypeFilter::Invoke(::System::Type* m, ::System::
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::TypeFilter*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, m, filterCriteria);
+}
+inline ::System::Reflection::TypeFilter* System::Reflection::TypeFilter::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::TypeFilter*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::TypeFilter::TypeFilter() {}

@@ -12,11 +12,10 @@ class SpaceAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SpaceAttribute);
-// Type: UnityEngine::SpaceAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::SpaceAttribute*
+// CS Name: UnityEngine.SpaceAttribute
 class CORDL_TYPE SpaceAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_height(float_t value);
 
-  /// @brief Method .ctor, addr 0x48437ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4570, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48437cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a4590, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpaceAttribute(SpaceAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10836 };
+
   /// @brief Field height, offset: 0x10, size: 0x4, def value: None
   float_t ___height;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SpaceAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SpaceAttribute, ___height) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SpaceAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::SpaceAttribute);

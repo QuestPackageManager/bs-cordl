@@ -10,6 +10,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
 #include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -17,6 +18,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyPlatformAdditionalContentModel)
+namespace GlobalNamespace {
+struct AdditionalContentModel_UpdateEntitlementsResult;
+}
 namespace GlobalNamespace {
 struct BeatmapLevelDataVersion;
 }
@@ -36,67 +40,49 @@ namespace GlobalNamespace {
 struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
+class SonyLevelProductCollectionModel_LevelPackProductData;
+}
+namespace GlobalNamespace {
+class SonyLevelProductCollectionModel_LevelPackRedirectionData;
+}
+namespace GlobalNamespace {
+class SonyLevelProductCollectionModel_LevelProductData;
+}
+namespace GlobalNamespace {
 class SonyLevelProductCollectionModel;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__UpdateEntitlementsResult;
+struct SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21;
 }
 namespace GlobalNamespace {
-struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
+struct SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12;
 }
 namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
+struct SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductCollectionModel__LevelPackProductData;
+struct SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductCollectionModel__LevelPackRedirectionData;
+struct SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17;
 }
 namespace GlobalNamespace {
-class __SonyLevelProductCollectionModel__LevelProductData;
+struct SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20;
+struct SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12;
+struct SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13;
-}
-namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21;
+struct SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -112,58 +98,58 @@ namespace GlobalNamespace {
 class SonyPlatformAdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20;
+struct SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12;
+struct SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10;
+struct SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11;
+struct SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16;
+struct SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15;
+struct SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14;
+struct SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13;
+struct SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13;
 }
 namespace GlobalNamespace {
-struct __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21;
+struct SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SonyPlatformAdditionalContentModel);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13);
-MARK_VAL_T(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21);
-// Type: ::<EnsureDataValidity>d__20
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22);
+// Dependencies AdditionalContentModel::UpdateEntitlementsResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<EnsureDataValidity>d__20
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20 {
+// CS Name: SonyPlatformAdditionalContentModel/<EnsureDataValidity>d__21
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b5820, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ea2f0, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b5c60, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26ea730, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,17 +157,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20();
+  constexpr SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>", modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20(
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>", modifiers: "", def_value: None }]
+  constexpr SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this,
       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __u__2) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13197 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -199,47 +191,41 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __u__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13162 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, __u__2) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetLevelDataVersionInternalAsync>d__12
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<GetLevelDataVersionInternalAsync>d__12
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12 {
+// CS Name: SonyPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__12
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b5cdc, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ea7ac, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b5f3c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26eaa0c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -247,17 +233,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12();
+  constexpr SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None
   // }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "",
   // def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12(
+  constexpr SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::BeatmapLevelDataVersion> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken token, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13198 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -277,45 +269,39 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13163 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, token) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, token) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, levelId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, levelId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetLevelEntitlementStatusInternalAsync>d__10
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__10
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10 {
+// CS Name: SonyPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__10
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b5fb8, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26eaa88, size 0x268, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b6220, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26eacf0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -323,17 +309,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10();
+  constexpr SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
   // def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
   // modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10(
+  constexpr SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13199 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -353,45 +345,39 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13164 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, levelId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, levelId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetPackEntitlementStatusInternalAsync>d__11
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__11
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11 {
+// CS Name: SonyPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__11
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b629c, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ead6c, size 0x268, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b6504, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26eafd4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -399,17 +385,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11();
+  constexpr SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
   // def_value: None }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
   // modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11(
+  constexpr SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::EntitlementStatus> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelPackId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13200 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -429,45 +421,39 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13165 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, levelPackId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, levelPackId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetRedirectedLevelPackProductData>d__16
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__16
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16 {
+// CS Name: SonyPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__17
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b6580, size 0x348, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26eb050, size 0x348, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b68c8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26eb398, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -475,19 +461,25 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16();
+  constexpr SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "packId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_originalProductLabel_5__2", ty: "::StringW", modifiers: "", def_value: None
-  // }, CppParam { name: "_levelPackRedirectionData_5__3", ty: "::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData*", modifiers: "", def_value: None }, CppParam { name:
+  // }, CppParam { name: "_levelPackRedirectionData_5__3", ty: "::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData*", modifiers: "", def_value: None }, CppParam { name:
   // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW packId,
-      ::System::Threading::CancellationToken cancellationToken, ::StringW _originalProductLabel_5__2,
-      ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData* _levelPackRedirectionData_5__3,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
+  constexpr SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder,
+                                                                                        ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW packId,
+                                                                                        ::System::Threading::CancellationToken cancellationToken, ::StringW _originalProductLabel_5__2,
+                                                                                        ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData* _levelPackRedirectionData_5__3,
+                                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13201 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -508,54 +500,48 @@ public:
   ::StringW _originalProductLabel_5__2;
 
   /// @brief Field <levelPackRedirectionData>5__3, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackRedirectionData* _levelPackRedirectionData_5__3;
+  ::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackRedirectionData* _levelPackRedirectionData_5__3;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13166 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, 0x50>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, packId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, packId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, _originalProductLabel_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, _originalProductLabel_5__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, _levelPackRedirectionData_5__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, _levelPackRedirectionData_5__3) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, __u__1) == 0x48, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<IsPackBetterBuyThanLevelAsync>d__15
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IsPackBetterBuyThanLevelResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<IsPackBetterBuyThanLevelAsync>d__15
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15 {
+// CS Name: SonyPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__15
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b6944, size 0x668, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26eb414, size 0x668, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b6fac, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26eba7c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -563,17 +549,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15();
+  constexpr SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
   // def_value: None }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>",
   // modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15(
+  constexpr SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken, ::StringW levelPackId,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13202 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -593,45 +585,39 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13167 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, levelPackId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, levelPackId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<OpenLevelPackProductStoreAsync>d__14
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ISonyCommerceHelper::DisplayProductBrowseDialogResult, OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__14
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14 {
+// CS Name: SonyPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__14
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b7028, size 0x3dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ebaf8, size 0x3dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b7404, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26ebed4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -639,19 +625,25 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14();
+  constexpr SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>", modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14(
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult>", modifiers: "", def_value: None }]
+  constexpr SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__2) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult> __u__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13203 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -672,49 +664,43 @@ public:
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
   /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13168 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, levelPackId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, levelPackId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __u__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, __u__2) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<OpenLevelProductStoreAsync>d__13
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ISonyCommerceHelper::DisplayProductBrowseDialogResult, OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__13
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13 {
+// CS Name: SonyPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__13
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b7480, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ebf50, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b777c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26ec24c, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -722,17 +708,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13();
+  constexpr SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "levelId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>", modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13(
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult>", modifiers: "", def_value: None }]
+  constexpr SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::StringW levelId, ::System::Threading::CancellationToken cancellationToken,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__1) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13204 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -750,47 +742,41 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13169 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_DisplayProductBrowseDialogResult> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, levelId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, levelId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<UpdateEntitlementsAsync>d__21
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies AdditionalContentModel::UpdateEntitlementsResult, ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SonyPlatformAdditionalContentModel::<UpdateEntitlementsAsync>d__21
-struct CORDL_TYPE __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21 {
+// CS Name: SonyPlatformAdditionalContentModel/<UpdateEntitlementsAsync>d__22
+struct CORDL_TYPE SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26b77f8, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ec2c8, size 0x3bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26b7bb4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26ec684, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -798,23 +784,29 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21();
+  constexpr SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>", modifiers: "", def_value: None }, CppParam { name:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>", modifiers: "", def_value: None }, CppParam { name:
   // "__4__this", ty: "::GlobalNamespace::SonyPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>", modifiers: "", def_value: None }]
-  constexpr __SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __t__builder,
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult>", modifiers: "", def_value: None }]
+  constexpr SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __t__builder,
       ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken cancellationToken,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult> __u__1) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13205 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SonyPlatformAdditionalContentModel* __4__this;
@@ -823,55 +815,48 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13170 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::ISonyCommerceHelper_AdditionalContentEntitlementsAsyncResult> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SonyPlatformAdditionalContentModel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies AdditionalContentModel
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SonyPlatformAdditionalContentModel*
+// CS Name: SonyPlatformAdditionalContentModel
 class CORDL_TYPE SonyPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
 public:
   // Declarations
-  using _EnsureDataValidity_d__20 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20;
+  using _EnsureDataValidity_d__21 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21;
 
-  using _GetLevelDataVersionInternalAsync_d__12 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12;
+  using _GetLevelDataVersionInternalAsync_d__12 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12;
 
-  using _GetLevelEntitlementStatusInternalAsync_d__10 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10;
+  using _GetLevelEntitlementStatusInternalAsync_d__10 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10;
 
-  using _GetPackEntitlementStatusInternalAsync_d__11 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11;
+  using _GetPackEntitlementStatusInternalAsync_d__11 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11;
 
-  using _GetRedirectedLevelPackProductData_d__16 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16;
+  using _GetRedirectedLevelPackProductData_d__17 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17;
 
-  using _IsPackBetterBuyThanLevelAsync_d__15 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15;
+  using _IsPackBetterBuyThanLevelAsync_d__15 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15;
 
-  using _OpenLevelPackProductStoreAsync_d__14 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14;
+  using _OpenLevelPackProductStoreAsync_d__14 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 
-  using _OpenLevelProductStoreAsync_d__13 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13;
+  using _OpenLevelProductStoreAsync_d__13 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13;
 
-  using _UpdateEntitlementsAsync_d__21 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21;
+  using _UpdateEntitlementsAsync_d__22 = ::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22;
 
   /// @brief Field _entitlementsLabels, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__entitlementsLabels, put = __cordl_internal_set__entitlementsLabels)) ::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsLabels;
@@ -892,88 +877,91 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method Dispose, addr 0x26b4a94, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x26e9560, size 0x10c, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method EnsureDataValidity, addr 0x26b54ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EnsureDataValidity, addr 0x26e9fbc, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnsureDataValidity(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetLevelDataVersion, addr 0x26b5458, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataVersion, addr 0x26e9f28, size 0x94, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelDataVersion GetLevelDataVersion(::StringW levelId);
 
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x26b4d98, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x26e9864, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x26b4ba8, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x26e9674, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x26b4ca0, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x26e976c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId,
                                                                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetRedirectedLevelPackProductData, addr 0x26b517c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetRedirectedLevelPackProductData, addr 0x26e9c4c, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetRedirectedLevelPackProductData(::StringW packId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLevelEntitlement, addr 0x26b5278, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HasLevelEntitlement, addr 0x26e9d48, size 0x118, virtual false, abstract: false, final false
   inline bool HasLevelEntitlement(::StringW levelId);
 
-  /// @brief Method HasLevelPackEntitlement, addr 0x26b5390, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HasLevelPackEntitlement, addr 0x26e9e60, size 0xc8, virtual false, abstract: false, final false
   inline bool HasLevelPackEntitlement(::StringW levelPackId);
 
-  /// @brief Method Init, addr 0x26b499c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26e9468, size 0xf8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
-  /// @brief Method InvalidateDataInternal, addr 0x26b4ba0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x26e966c, size 0x8, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x26b5084, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x26e9b50, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId,
                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::SonyPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                 ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x26b4f88, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x26e9a54, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x26b4e90, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x26e995c, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UpdateEntitlementsAsync, addr 0x26b55e4, size 0xec, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* UpdateEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method OpenStore, addr 0x26e9c48, size 0x4, virtual true, abstract: false, final false
+  inline void OpenStore(::StringW uri);
 
-  /// @brief Method <GetRedirectedLevelPackProductData>g__GetProductLabel|16_0, addr 0x26b570c, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW _GetRedirectedLevelPackProductData_g__GetProductLabel_16_0(::GlobalNamespace::__SonyLevelProductCollectionModel__LevelPackProductData* levelPackProductData);
+  /// @brief Method UpdateEntitlementsAsync, addr 0x26ea0b4, size 0xec, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult>* UpdateEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <HasLevelPackEntitlement>b__18_0, addr 0x26b577c, size 0xa4, virtual false, abstract: false, final false
-  inline bool _HasLevelPackEntitlement_b__18_0(::GlobalNamespace::__SonyLevelProductCollectionModel__LevelProductData* levelProductData);
+  /// @brief Method <GetRedirectedLevelPackProductData>g__GetProductLabel|17_0, addr 0x26ea1dc, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW _GetRedirectedLevelPackProductData_g__GetProductLabel_17_0(::GlobalNamespace::SonyLevelProductCollectionModel_LevelPackProductData* levelPackProductData);
 
-  /// @brief Method <OpenLevelProductStoreAsync>g__GetProductLabelForProductBrowseDialog|13_0, addr 0x26b56d0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW _OpenLevelProductStoreAsync_g__GetProductLabelForProductBrowseDialog_13_0(::GlobalNamespace::__SonyLevelProductCollectionModel__LevelProductData* levelProductData);
+  /// @brief Method <HasLevelPackEntitlement>b__19_0, addr 0x26ea24c, size 0xa4, virtual false, abstract: false, final false
+  inline bool _HasLevelPackEntitlement_b__19_0(::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData* levelProductData);
+
+  /// @brief Method <OpenLevelProductStoreAsync>g__GetProductLabelForProductBrowseDialog|13_0, addr 0x26ea1a0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::StringW _OpenLevelProductStoreAsync_g__GetProductLabelForProductBrowseDialog_13_0(::GlobalNamespace::SonyLevelProductCollectionModel_LevelProductData* levelProductData);
+
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__entitlementsLabels() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsLabels();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__entitlementsLabels() const;
 
   constexpr bool const& __cordl_internal_get__isDataValid() const;
 
   constexpr bool& __cordl_internal_get__isDataValid();
 
+  constexpr ::System::Threading::SemaphoreSlim* const& __cordl_internal_get__semaphoreSlim() const;
+
   constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
+  constexpr ::GlobalNamespace::ISonyCommerceHelper* const& __cordl_internal_get__sonyCommerceHelper() const;
 
   constexpr ::GlobalNamespace::ISonyCommerceHelper*& __cordl_internal_get__sonyCommerceHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISonyCommerceHelper*> const& __cordl_internal_get__sonyCommerceHelper() const;
+  constexpr ::GlobalNamespace::SonyLevelProductCollectionModel* const& __cordl_internal_get__sonyLevelProductCollectionModel() const;
 
   constexpr ::GlobalNamespace::SonyLevelProductCollectionModel*& __cordl_internal_get__sonyLevelProductCollectionModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyLevelProductCollectionModel*> const& __cordl_internal_get__sonyLevelProductCollectionModel() const;
+  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
   constexpr void __cordl_internal_set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
@@ -987,7 +975,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x26b24d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6f9c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper, ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel);
 
 protected:
@@ -1003,6 +991,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SonyPlatformAdditionalContentModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SonyPlatformAdditionalContentModel(SonyPlatformAdditionalContentModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13206 };
 
   /// @brief Field _entitlementsLabels, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ____entitlementsLabels;
@@ -1022,14 +1013,9 @@ public:
   /// @brief Field _vrPlatformHelper, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13171 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel, ____entitlementsLabels) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel, ____semaphoreSlim) == 0x20, "Offset mismatch!");
@@ -1042,19 +1028,20 @@ static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel, __
 
 static_assert(offsetof(::GlobalNamespace::SonyPlatformAdditionalContentModel, ____vrPlatformHelper) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyPlatformAdditionalContentModel, 0x48>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyPlatformAdditionalContentModel);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel*, "", "SonyPlatformAdditionalContentModel");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___EnsureDataValidity_d__20, "", "SonyPlatformAdditionalContentModel/<EnsureDataValidity>d__20");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelDataVersionInternalAsync_d__12, "",
-                       "SonyPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__12");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__10, "",
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__EnsureDataValidity_d__21, "", "SonyPlatformAdditionalContentModel/<EnsureDataValidity>d__21");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelDataVersionInternalAsync_d__12, "", "SonyPlatformAdditionalContentModel/<GetLevelDataVersionInternalAsync>d__12");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__10, "",
                        "SonyPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__10");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__11, "",
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__11, "",
                        "SonyPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__11");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__16, "",
-                       "SonyPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__16");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___IsPackBetterBuyThanLevelAsync_d__15, "", "SonyPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__15");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__14, "", "SonyPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__14");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__13, "", "SonyPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__13");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SonyPlatformAdditionalContentModel___UpdateEntitlementsAsync_d__21, "", "SonyPlatformAdditionalContentModel/<UpdateEntitlementsAsync>d__21");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__GetRedirectedLevelPackProductData_d__17, "",
+                       "SonyPlatformAdditionalContentModel/<GetRedirectedLevelPackProductData>d__17");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__15, "", "SonyPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__15");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, "", "SonyPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__13, "", "SonyPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__13");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyPlatformAdditionalContentModel__UpdateEntitlementsAsync_d__22, "", "SonyPlatformAdditionalContentModel/<UpdateEntitlementsAsync>d__22");

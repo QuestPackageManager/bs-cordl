@@ -25,11 +25,10 @@ class StandaloneGraphicSettingsViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandaloneGraphicSettingsViewController);
-// Type: ::StandaloneGraphicSettingsViewController
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies GraphicSettingsViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandaloneGraphicSettingsViewController*
+// CS Name: StandaloneGraphicSettingsViewController
 class CORDL_TYPE StandaloneGraphicSettingsViewController : public ::GlobalNamespace::GraphicSettingsViewController {
 public:
   // Declarations
@@ -58,34 +57,34 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x3a9b13c, size 0x3e4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3af85d8, size 0x3e4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3a9b520, size 0x2e4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3af89bc, size 0x2e4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3a9b804, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x3af8ca0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x3a9b83c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x3af8cd8, size 0x20, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x3a9b8bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x3af8d58, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x3a9b8d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x3af8d74, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x3a9b89c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x3af8d38, size 0x20, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3a9b85c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x3af8cf8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x3a9b878, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x3af8d14, size 0x24, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3a9b820, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x3af8cbc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -138,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x3a9b8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3af8d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,6 +153,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneGraphicSettingsViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StandaloneGraphicSettingsViewController(StandaloneGraphicSettingsViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4946 };
 
   /// @brief Field _antiAliasingLevel, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedIntListSettingsController> ____antiAliasingLevel;
@@ -179,14 +181,9 @@ public:
   /// @brief Field _mirror, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PresetsSettingsController> ____mirror;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4926 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandaloneGraphicSettingsViewController, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandaloneGraphicSettingsViewController, ____antiAliasingLevel) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandaloneGraphicSettingsViewController, ____vrRenderingScale) == 0x88, "Offset mismatch!");
@@ -202,6 +199,8 @@ static_assert(offsetof(::GlobalNamespace::StandaloneGraphicSettingsViewControlle
 static_assert(offsetof(::GlobalNamespace::StandaloneGraphicSettingsViewController, ____mainEffect) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandaloneGraphicSettingsViewController, ____mirror) == 0xb8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandaloneGraphicSettingsViewController, 0xc0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandaloneGraphicSettingsViewController);

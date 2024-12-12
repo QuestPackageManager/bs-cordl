@@ -20,35 +20,30 @@ class IDtdAttributeListInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdAttributeListInfo);
-// Type: System.Xml::IDtdAttributeListInfo
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::IDtdAttributeListInfo*
+// CS Name: System.Xml.IDtdAttributeListInfo
 class CORDL_TYPE IDtdAttributeListInfo {
 public:
   // Declarations
   __declspec(property(get = get_HasNonCDataAttributes)) bool HasNonCDataAttributes;
 
-  /// @brief Method LookupAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LookupAttribute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::IDtdAttributeInfo* LookupAttribute(::StringW prefix, ::StringW localName);
 
-  /// @brief Method LookupDefaultAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LookupDefaultAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Xml::IDtdDefaultAttributeInfo*>* LookupDefaultAttributes();
 
-  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_HasNonCDataAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_HasNonCDataAttributes();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeListInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDtdAttributeListInfo(IDtdAttributeListInfo&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeListInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDtdAttributeListInfo(IDtdAttributeListInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7155 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/SurrogateForCyclicalReference.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateForCyclicalReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
@@ -14,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::SurrogateForCyclicalReference::GetObjectData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3c95cb8;
+  constexpr static std::size_t addrs = 0x3cf5e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                         ::System::Runtime::Serialization::ISurrogateSelector*)>(
     &::System::Runtime::Serialization::SurrogateForCyclicalReference::SetObjectData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c95d88;
+  constexpr static std::size_t addrs = 0x3cf5efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,21 +46,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
-constexpr System::Runtime::Serialization::SurrogateForCyclicalReference::operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
-constexpr ::System::Runtime::Serialization::ISerializationSurrogate*
-System::Runtime::Serialization::SurrogateForCyclicalReference::i___System__Runtime__Serialization__ISerializationSurrogate() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
-}
 constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& System::Runtime::Serialization::SurrogateForCyclicalReference::__cordl_internal_get_innerSurrogate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerSurrogate;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const&
-System::Runtime::Serialization::SurrogateForCyclicalReference::__cordl_internal_get_innerSurrogate() const {
+constexpr ::System::Runtime::Serialization::ISerializationSurrogate* const& System::Runtime::Serialization::SurrogateForCyclicalReference::__cordl_internal_get_innerSurrogate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerSurrogate;
 }
@@ -86,6 +77,15 @@ inline ::System::Object* System::Runtime::Serialization::SurrogateForCyclicalRef
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::ISurrogateSelector*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, obj, info, context, selector);
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
+constexpr System::Runtime::Serialization::SurrogateForCyclicalReference::operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
+constexpr ::System::Runtime::Serialization::ISerializationSurrogate*
+System::Runtime::Serialization::SurrogateForCyclicalReference::i___System__Runtime__Serialization__ISerializationSurrogate() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializationSurrogate*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SurrogateForCyclicalReference::SurrogateForCyclicalReference() {}

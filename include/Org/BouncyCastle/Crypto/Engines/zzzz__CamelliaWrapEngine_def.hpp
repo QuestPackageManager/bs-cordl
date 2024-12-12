@@ -11,17 +11,16 @@ class CamelliaWrapEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine);
-// Type: Org.BouncyCastle.Crypto.Engines::CamelliaWrapEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Engines.Rfc3394WrapEngine
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::CamelliaWrapEngine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.CamelliaWrapEngine
 class CORDL_TYPE CamelliaWrapEngine : public ::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2319674, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x234c960, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,17 +15,16 @@ class DirectorySecurity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::DirectorySecurity);
-// Type: System.Security.AccessControl::DirectorySecurity
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.FileSystemSecurity
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::DirectorySecurity*
+// CS Name: System.Security.AccessControl.DirectorySecurity
 class CORDL_TYPE DirectorySecurity : public ::System::Security::AccessControl::FileSystemSecurity {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::DirectorySecurity* New_ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3c63e2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3fa0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:

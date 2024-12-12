@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocumentList::RemoveFromListAndFromVisualTree)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49d41e0;
+  constexpr static std::size_t addrs = 0x4a38af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(
     ::UnityEngine::UIElements::UIDocument*, ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x49d4260;
+  constexpr static std::size_t addrs = 0x4a38b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)()>(&::UnityEngine::UIElements::UIDocumentList::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49d4598;
+  constexpr static std::size_t addrs = 0x4a38ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocumentList*>::get(), ".ctor",
@@ -54,8 +54,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedUIDocuments;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>*> const&
-UnityEngine::UIElements::UIDocumentList::__cordl_internal_get_m_AttachedUIDocuments() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::UIDocument>>* const& UnityEngine::UIElements::UIDocumentList::__cordl_internal_get_m_AttachedUIDocuments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AttachedUIDocuments;
 }
@@ -69,7 +68,6 @@ inline void UnityEngine::UIElements::UIDocumentList::RemoveFromListAndFromVisual
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIDocument*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uiDocument);
 }
-/// @param firstInsertIndex: int32_t (default: static_cast<int32_t>(0x0))
 inline void UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree,
                                                                               int32_t firstInsertIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,13 +77,13 @@ inline void UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree(::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, uiDocument, visualTree, firstInsertIndex);
 }
-inline ::UnityEngine::UIElements::UIDocumentList* UnityEngine::UIElements::UIDocumentList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIDocumentList*>());
-}
 inline void UnityEngine::UIElements::UIDocumentList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocumentList*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIDocumentList* UnityEngine::UIElements::UIDocumentList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIDocumentList*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIDocumentList::UIDocumentList() {}

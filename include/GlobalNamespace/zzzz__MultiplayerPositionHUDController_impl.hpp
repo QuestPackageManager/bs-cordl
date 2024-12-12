@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerPositionHUDController::set_alpha)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b4343c;
+  constexpr static std::size_t addrs = 0x3ba4b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(
     &::GlobalNamespace::MultiplayerPositionHUDController::Start)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3b43458;
+  constexpr static std::size_t addrs = 0x3ba4b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionHUDController*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(
     &::GlobalNamespace::MultiplayerPositionHUDController::Update)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3b435a8;
+  constexpr static std::size_t addrs = 0x3ba4c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionHUDController*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPositionHUDController::*)()>(
     &::GlobalNamespace::MultiplayerPositionHUDController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b43758;
+  constexpr static std::size_t addrs = 0x3ba4e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionHUDController*>::get(),
@@ -137,15 +137,15 @@ constexpr void GlobalNamespace::MultiplayerPositionHUDController::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playersManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData*& GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value) {
+constexpr void GlobalNamespace::MultiplayerPositionHUDController::__cordl_internal_set__initData(::GlobalNamespace::CoreGameHUDController_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -177,13 +177,13 @@ inline void GlobalNamespace::MultiplayerPositionHUDController::Update() {
                                                                              "Update", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerPositionHUDController* GlobalNamespace::MultiplayerPositionHUDController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPositionHUDController*>());
-}
 inline void GlobalNamespace::MultiplayerPositionHUDController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPositionHUDController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerPositionHUDController* GlobalNamespace::MultiplayerPositionHUDController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPositionHUDController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPositionHUDController::MultiplayerPositionHUDController() {}

@@ -12,11 +12,10 @@ struct NativeDumpFlags;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Burst::NativeDumpFlags);
-// Type: Unity.Burst::NativeDumpFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Burst {
 // Is value type: true
-// CS Name: ::Unity.Burst::NativeDumpFlags
+// CS Name: Unity.Burst.NativeDumpFlags
 struct CORDL_TYPE NativeDumpFlags {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NativeDumpFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0x3fd)
+  /// @brief Field All value: I32(1021)
   static ::Unity::Burst::NativeDumpFlags const All;
 
-  /// @brief Field Analysis value: static_cast<int32_t>(0x40)
+  /// @brief Field Analysis value: I32(64)
   static ::Unity::Burst::NativeDumpFlags const Analysis;
 
-  /// @brief Field Asm value: static_cast<int32_t>(0x10)
+  /// @brief Field Asm value: I32(16)
   static ::Unity::Burst::NativeDumpFlags const Asm;
 
-  /// @brief Field Function value: static_cast<int32_t>(0x20)
+  /// @brief Field Function value: I32(32)
   static ::Unity::Burst::NativeDumpFlags const Function;
 
-  /// @brief Field IL value: static_cast<int32_t>(0x1)
+  /// @brief Field IL value: I32(1)
   static ::Unity::Burst::NativeDumpFlags const IL;
 
-  /// @brief Field ILPre value: static_cast<int32_t>(0x100)
+  /// @brief Field ILPre value: I32(256)
   static ::Unity::Burst::NativeDumpFlags const ILPre;
 
-  /// @brief Field IR value: static_cast<int32_t>(0x4)
+  /// @brief Field IR value: I32(4)
   static ::Unity::Burst::NativeDumpFlags const IR;
 
-  /// @brief Field IROptimized value: static_cast<int32_t>(0x8)
+  /// @brief Field IROptimized value: I32(8)
   static ::Unity::Burst::NativeDumpFlags const IROptimized;
 
-  /// @brief Field IRPassAnalysis value: static_cast<int32_t>(0x80)
+  /// @brief Field IRPassAnalysis value: I32(128)
   static ::Unity::Burst::NativeDumpFlags const IRPassAnalysis;
 
-  /// @brief Field IRPerEntryPoint value: static_cast<int32_t>(0x200)
+  /// @brief Field IRPerEntryPoint value: I32(512)
   static ::Unity::Burst::NativeDumpFlags const IRPerEntryPoint;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::Unity::Burst::NativeDumpFlags const None;
 
-  /// @brief Field Unused value: static_cast<int32_t>(0x2)
+  /// @brief Field Unused value: I32(2)
   static ::Unity::Burst::NativeDumpFlags const Unused;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Burst::NativeDumpFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Burst::NativeDumpFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Burst::NativeDumpFlags, 0x4>, "Size mismatch!");
 
 } // namespace Unity::Burst
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::NativeDumpFlags, "Unity.Burst", "NativeDumpFlags");

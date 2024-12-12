@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c9f818;
+  constexpr static std::size_t addrs = 0x3cff98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::Write)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3c9f828;
+  constexpr static std::size_t addrs = 0x3cff99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c9f970;
+  constexpr static std::size_t addrs = 0x3cffae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___returnValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_returnValue() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_returnValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___returnValue;
 }
@@ -79,7 +79,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_callContext() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_callContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callContext;
 }
@@ -127,7 +127,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::Formatters::Binary::B
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___returnType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_returnType() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::__cordl_internal_get_returnType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___returnType;
 }
@@ -143,9 +143,6 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryMethodRetu
 inline ::System::Object* System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::getStaticF_instanceOfVoid() {
   return ::cordl_internals::getStaticField<::System::Object*, "instanceOfVoid",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*>::get>();
-}
-inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*>());
 }
 inline void System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::_ctor() {
   static auto* ___internal_method =
@@ -164,6 +161,9 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryMethodRetu
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*>::get(), "Dump",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn::BinaryMethodReturn() {}

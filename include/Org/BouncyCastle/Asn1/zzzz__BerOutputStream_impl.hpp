@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOutputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::BerOutputStream::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25fdb8c;
+  constexpr static std::size_t addrs = 0x2630e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOutputStream::*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::BerOutputStream::WriteObject)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x25ff4ac;
+  constexpr static std::size_t addrs = 0x2632798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,9 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Asn1::BerOutputStream* Org::BouncyCastle::Asn1::BerOutputStream::New_ctor(::System::IO::Stream* os) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOutputStream*>(os));
-}
 inline void Org::BouncyCastle::Asn1::BerOutputStream::_ctor(::System::IO::Stream* os) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOutputStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -47,6 +44,9 @@ inline void Org::BouncyCastle::Asn1::BerOutputStream::WriteObject(::System::Obje
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOutputStream*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
+}
+inline ::Org::BouncyCastle::Asn1::BerOutputStream* Org::BouncyCastle::Asn1::BerOutputStream::New_ctor(::System::IO::Stream* os) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOutputStream*>(os));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerOutputStream::BerOutputStream() {}

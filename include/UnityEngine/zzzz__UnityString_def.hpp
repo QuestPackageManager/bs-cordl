@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityString)
 namespace System {
@@ -16,15 +15,14 @@ class UnityString;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UnityString);
-// Type: UnityEngine::UnityString
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::UnityString*
+// CS Name: UnityEngine.UnityString
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x48b1c20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x49162b0, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:
@@ -42,7 +40,7 @@ public:
   UnityString(UnityString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

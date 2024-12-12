@@ -13,32 +13,27 @@ template <typename T> class ISortedListItemProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ISortedListItemProcessor_1);
-// Type: ::ISortedListItemProcessor`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ISortedListItemProcessor`1<T>*
+// CS Name: ISortedListItemProcessor`1<T>
 class CORDL_TYPE ISortedListItemProcessor_1 {
 public:
   // Declarations
-  /// @brief Method ProcessBeforeDeleteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessBeforeDeleteData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<T>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ProcessInsertedData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T>* insertedNode);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISortedListItemProcessor_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISortedListItemProcessor_1(ISortedListItemProcessor_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISortedListItemProcessor_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISortedListItemProcessor_1(ISortedListItemProcessor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

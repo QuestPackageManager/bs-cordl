@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4ed4;
+  constexpr static std::size_t addrs = 0x2706844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_events)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4edc;
+  constexpr static std::size_t addrs = 0x270684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_notes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4ee4;
+  constexpr static std::size_t addrs = 0x2706854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_sliders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4eec;
+  constexpr static std::size_t addrs = 0x270685c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_waypoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4ef4;
+  constexpr static std::size_t addrs = 0x2706864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_obstacles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4efc;
+  constexpr static std::size_t addrs = 0x270686c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* (
     ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::get_specialEventsKeywordFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4f04;
+  constexpr static std::size_t addrs = 0x2706874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*, ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*)>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26d4f0c;
+  constexpr static std::size_t addrs = 0x270687c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ConvertBeatmapSaveDataPreV2_5_0Inline)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x26d4f9c;
+  constexpr static std::size_t addrs = 0x270690c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +163,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0An
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__events() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____events;
@@ -177,7 +177,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0An
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__notes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notes;
@@ -190,7 +190,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0An
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__sliders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliders;
@@ -204,7 +204,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0An
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waypoints;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__waypoints() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____waypoints;
@@ -218,7 +218,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0An
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacles;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__obstacles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____obstacles;
@@ -232,7 +232,7 @@ constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersDat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsKeywordFilters;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*> const&
+constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* const&
 BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::__cordl_internal_get__specialEventsKeywordFilters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____specialEventsKeywordFilters;
@@ -277,15 +277,6 @@ inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* 
                                                                              "get_specialEventsKeywordFilters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
-BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
-                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
-                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
-                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* waypoints,
-                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
-                                                                 ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(events, notes, sliders, waypoints, obstacles, specialEventsKeywordFilters));
-}
 inline void BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
                                                                           ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
                                                                           ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
@@ -307,6 +298,15 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::ConvertBeatm
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>::get(),
                                                "ConvertBeatmapSaveDataPreV2_5_0Inline", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
+BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
+                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
+                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
+                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* waypoints,
+                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
+                                                                 ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*>(events, notes, sliders, waypoints, obstacles, specialEventsKeywordFilters));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData::BeatmapSaveData() {}

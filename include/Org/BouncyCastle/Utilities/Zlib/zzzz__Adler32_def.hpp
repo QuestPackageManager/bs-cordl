@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Adler32)
 // Forward declare root types
@@ -13,20 +12,19 @@ class Adler32;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Adler32);
-// Type: Org.BouncyCastle.Utilities.Zlib::Adler32
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Zlib::Adler32*
+// CS Name: Org.BouncyCastle.Utilities.Zlib.Adler32
 class CORDL_TYPE Adler32 : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a5c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d8f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method adler32, addr 0x25a5964, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method adler32, addr 0x25d8c50, size 0x320, virtual false, abstract: false, final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
 
 protected:

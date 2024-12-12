@@ -4,13 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ButtonSpriteSwap)
 namespace HMUI {
-class NoTransitionsButton;
+struct NoTransitionsButton_SelectionState;
 }
 namespace HMUI {
-struct __NoTransitionsButton__SelectionState;
+class NoTransitionsButton;
 }
 namespace UnityEngine::UI {
 class Image;
@@ -24,11 +23,10 @@ class ButtonSpriteSwap;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ButtonSpriteSwap);
-// Type: HMUI::ButtonSpriteSwap
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ButtonSpriteSwap*
+// CS Name: HMUI.ButtonSpriteSwap
 class CORDL_TYPE ButtonSpriteSwap : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -53,24 +51,24 @@ public:
   /// @brief Field _pressedStateSprite, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__pressedStateSprite, put = __cordl_internal_set__pressedStateSprite)) ::UnityW<::UnityEngine::Sprite> _pressedStateSprite;
 
-  /// @brief Method Awake, addr 0x399e044, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39f4cb4, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x399e350, size 0xcc, virtual true, abstract: false, final false
-  inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x39f4fc0, size 0xcc, virtual true, abstract: false, final false
+  inline void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x399e1e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39f4e50, size 0xbc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x399e1bc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39f4e2c, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshVisualState, addr 0x399e198, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisualState, addr 0x39f4e08, size 0x24, virtual false, abstract: false, final false
   inline void RefreshVisualState();
 
-  /// @brief Method Start, addr 0x399e16c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39f4ddc, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
@@ -115,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set__pressedStateSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x399e41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f508c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,6 +129,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonSpriteSwap(ButtonSpriteSwap const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16064 };
 
   /// @brief Field _normalStateSprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____normalStateSprite;
@@ -153,14 +154,9 @@ public:
   /// @brief Field _didStart, offset: 0x50, size: 0x1, def value: None
   bool ____didStart;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ButtonSpriteSwap, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ButtonSpriteSwap, ____normalStateSprite) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ButtonSpriteSwap, ____highlightStateSprite) == 0x28, "Offset mismatch!");
@@ -174,6 +170,8 @@ static_assert(offsetof(::HMUI::ButtonSpriteSwap, ____button) == 0x40, "Offset mi
 static_assert(offsetof(::HMUI::ButtonSpriteSwap, ____images) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ButtonSpriteSwap, ____didStart) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ButtonSpriteSwap, 0x58>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ButtonSpriteSwap);

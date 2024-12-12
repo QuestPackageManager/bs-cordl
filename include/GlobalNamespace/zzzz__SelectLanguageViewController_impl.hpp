@@ -2,36 +2,38 @@
 // IWYU pragma private; include "GlobalNamespace/SelectLanguageViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
+#include "BGLib/Polyglot/zzzz__Language_def.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsController_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SelectLanguageViewController.add_didChangeLanguageEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::Language>*)>(
     &::GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b0ddcc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3b6de28;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "add_didChangeLanguageEvent",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "add_didChangeLanguageEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BGLib::Polyglot::Language>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SelectLanguageViewController.remove_didChangeLanguageEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action_1<::BGLib::Polyglot::Language>*)>(
     &::GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b0de68;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3b6ded8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "remove_didChangeLanguageEvent",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "remove_didChangeLanguageEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BGLib::Polyglot::Language>*>::get() })));
     return ___internal_method;
   }
 };
@@ -41,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
     &::GlobalNamespace::SelectLanguageViewController::add_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b0df04;
+  constexpr static std::size_t addrs = 0x3b6df88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(::System::Action*)>(
     &::GlobalNamespace::SelectLanguageViewController::remove_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b0dfa0;
+  constexpr static std::size_t addrs = 0x3b6e024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SelectLanguageViewController::DidActivate)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b0e03c;
+  constexpr static std::size_t addrs = 0x3b6e0c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b0e134;
+  constexpr static std::size_t addrs = 0x3b6e1b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b0e210;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3b6e294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b0e22c;
+  constexpr static std::size_t addrs = 0x3b6e2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), ".ctor",
@@ -132,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLanguageViewController::*)()>(
     &::GlobalNamespace::SelectLanguageViewController::_DidActivate_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b0e234;
+  constexpr static std::size_t addrs = 0x3b6e2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(),
@@ -164,15 +166,15 @@ constexpr void GlobalNamespace::SelectLanguageViewController::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____languageSettingsController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didChangeLanguageEvent() {
+constexpr ::System::Action_1<::BGLib::Polyglot::Language>*& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didChangeLanguageEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeLanguageEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didChangeLanguageEvent() const {
+constexpr ::System::Action_1<::BGLib::Polyglot::Language>* const& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didChangeLanguageEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeLanguageEvent;
 }
-constexpr void GlobalNamespace::SelectLanguageViewController::__cordl_internal_set_didChangeLanguageEvent(::System::Action* value) {
+constexpr void GlobalNamespace::SelectLanguageViewController::__cordl_internal_set_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didChangeLanguageEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -180,7 +182,7 @@ constexpr ::System::Action*& GlobalNamespace::SelectLanguageViewController::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressContinueButtonEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didPressContinueButtonEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::SelectLanguageViewController::__cordl_internal_get_didPressContinueButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressContinueButtonEvent;
 }
@@ -188,16 +190,16 @@ constexpr void GlobalNamespace::SelectLanguageViewController::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressContinueButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "add_didChangeLanguageEvent",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+inline void GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "add_didChangeLanguageEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BGLib::Polyglot::Language>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent(::System::Action* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "remove_didChangeLanguageEvent",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+inline void GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), "remove_didChangeLanguageEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BGLib::Polyglot::Language>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::SelectLanguageViewController::add_didPressContinueButtonEvent(::System::Action* value) {
@@ -228,9 +230,6 @@ inline void GlobalNamespace::SelectLanguageViewController::HandleLanguageSetting
                                                "HandleLanguageSettingsControllerOndropDownValueDidChange", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SelectLanguageViewController* GlobalNamespace::SelectLanguageViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SelectLanguageViewController*>());
-}
 inline void GlobalNamespace::SelectLanguageViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -240,6 +239,9 @@ inline void GlobalNamespace::SelectLanguageViewController::_DidActivate_b__8_0()
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectLanguageViewController*>::get(),
                                                                              "<DidActivate>b__8_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SelectLanguageViewController* GlobalNamespace::SelectLanguageViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SelectLanguageViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectLanguageViewController::SelectLanguageViewController() {}

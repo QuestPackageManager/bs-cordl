@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceExecuteCommandDelegate)
 namespace System {
@@ -28,26 +27,25 @@ class InputDeviceExecuteCommandDelegate;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate);
-// Type: UnityEngine.InputSystem.LowLevel::InputDeviceExecuteCommandDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceExecuteCommandDelegate*
+// CS Name: UnityEngine.InputSystem.LowLevel.InputDeviceExecuteCommandDelegate
 class CORDL_TYPE InputDeviceExecuteCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x45a501c, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x4606330, size 0x8c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x45a50a8, size 0x2c, virtual true, abstract: false, final false
-  inline int64_t EndInvoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x46063bc, size 0x2c, virtual true, abstract: false, final false
+  inline int64_t EndInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x45a5008, size 0x14, virtual true, abstract: false, final false
-  inline int64_t Invoke(ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
+  /// @brief Method Invoke, addr 0x460631c, size 0x14, virtual true, abstract: false, final false
+  inline int64_t Invoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x45a4f6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4606280, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -65,7 +63,7 @@ public:
   InputDeviceExecuteCommandDelegate(InputDeviceExecuteCommandDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

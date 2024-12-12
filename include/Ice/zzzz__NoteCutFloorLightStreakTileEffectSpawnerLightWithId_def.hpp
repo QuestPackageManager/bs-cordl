@@ -17,11 +17,10 @@ class NoteCutFloorLightStreakTileEffectSpawnerLightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);
-// Type: Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightWithIdMonoBehaviour
 namespace Ice {
 // Is value type: false
-// CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*
+// CS Name: Ice.NoteCutFloorLightStreakTileEffectSpawnerLightWithId
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawnerLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
                       put = __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner)) ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner>
       _noteCutFloorLightStreakTileEffectSpawner;
 
-  /// @brief Method ColorWasSet, addr 0x223ca3c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x2267c80, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner(::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> value);
 
-  /// @brief Method .ctor, addr 0x223ca5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2267ca0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutFloorLightStreakTileEffectSpawnerLightWithId(NoteCutFloorLightStreakTileEffectSpawnerLightWithId const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18936 };
+
   /// @brief Field _noteCutFloorLightStreakTileEffectSpawner, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> ____noteCutFloorLightStreakTileEffectSpawner;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId, ____noteCutFloorLightStreakTileEffectSpawner) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId, 0x40>, "Size mismatch!");
 
 } // namespace Ice
 NEED_NO_BOX(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);

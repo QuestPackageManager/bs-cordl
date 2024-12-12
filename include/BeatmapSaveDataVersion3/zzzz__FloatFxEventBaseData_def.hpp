@@ -17,11 +17,10 @@ class FloatFxEventBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::FloatFxEventBaseData);
-// Type: BeatmapSaveDataVersion3::FloatFxEventBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.EaseType, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::FloatFxEventBaseData*
+// CS Name: BeatmapSaveDataVersion3.FloatFxEventBaseData
 class CORDL_TYPE FloatFxEventBaseData : public ::System::Object {
 public:
   // Declarations
@@ -71,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set_v(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4314, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705c84, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::BeatmapSaveDataCommon::EaseType easeType);
 
-  /// @brief Method get_beat, addr 0x26d42ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2705c5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x26d430c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x2705c7c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_usePreviousEventValue, addr 0x26d42f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventValue, addr 0x2705c64, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventValue();
 
-  /// @brief Method get_value, addr 0x26d4304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2705c74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxEventBaseData(FloatFxEventBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13404 };
+
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
 
@@ -112,14 +114,9 @@ public:
   /// @brief Field i, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::EaseType ___i;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13373 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::FloatFxEventBaseData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::FloatFxEventBaseData, ___b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::FloatFxEventBaseData, ___p) == 0x14, "Offset mismatch!");
@@ -127,6 +124,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::FloatFxEventBaseData, ___p) ==
 static_assert(offsetof(::BeatmapSaveDataVersion3::FloatFxEventBaseData, ___v) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::FloatFxEventBaseData, ___i) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::FloatFxEventBaseData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::FloatFxEventBaseData);

@@ -19,30 +19,25 @@ class IAttributeProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IAttributeProvider);
-// Type: Newtonsoft.Json.Serialization::IAttributeProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::IAttributeProvider*
+// CS Name: Newtonsoft.Json.Serialization.IAttributeProvider
 class CORDL_TYPE IAttributeProvider {
 public:
   // Declarations
-  /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IAttributeProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAttributeProvider(IAttributeProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAttributeProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAttributeProvider(IAttributeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10300 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

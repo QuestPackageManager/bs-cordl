@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)(::System::Type*)>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::CreateMissingMetadataException)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c0dbd0;
+  constexpr static std::size_t addrs = 0x3c6dce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)()>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0dbc8;
+  constexpr static std::size_t addrs = 0x3c6dcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,14 +40,14 @@ inline ::System::Exception* Internal::Runtime::Augments::ReflectionExecutionDoma
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, attributeType);
 }
-inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks*>());
-}
 inline void Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks*>());
 }
 // Ctor Parameters []
 constexpr ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::ReflectionExecutionDomainCallbacks() {}

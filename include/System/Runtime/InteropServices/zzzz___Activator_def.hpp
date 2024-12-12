@@ -10,18 +10,13 @@ class _Activator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::_Activator);
-// Type: System.Runtime.InteropServices::_Activator
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::_Activator*
+// CS Name: System.Runtime.InteropServices._Activator
 class CORDL_TYPE _Activator {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "_Activator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  _Activator(_Activator&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "_Activator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   _Activator(_Activator const&) = delete;

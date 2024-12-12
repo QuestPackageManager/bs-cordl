@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextStyle)
@@ -14,18 +13,17 @@ class TextStyle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyle);
-// Type: UnityEngine.TextCore.Text::TextStyle
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextStyle*
+// CS Name: UnityEngine.TextCore.Text.TextStyle
 class CORDL_TYPE TextStyle : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_hashCode)) int32_t hashCode;
 
   /// @brief Field k_NormalStyle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle)) ::UnityEngine::TextCore::Text::TextStyle* k_NormalStyle;
+  __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle)) ::UnityEngine::TextCore::Text::TextStyle* k_NormalStyle;
 
   /// @brief Field m_ClosingDefinition, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ClosingDefinition, put = __cordl_internal_set_m_ClosingDefinition)) ::StringW m_ClosingDefinition;
@@ -57,7 +55,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x48eb83c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x494fecc, size 0x1b4, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -108,18 +106,18 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x48eb7f0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494fe80, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::UnityEngine::TextCore::Text::TextStyle* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x48e4430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x4948ac0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x48e49cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x494905c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x48e4438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x4948ac8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::UnityEngine::TextCore::Text::TextStyle* value);
@@ -137,6 +135,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextStyle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextStyle(TextStyle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15293 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
@@ -162,14 +163,9 @@ public:
   /// @brief Field m_ClosingTagUnicodeArray, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_ClosingTagUnicodeArray;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15258 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextStyle, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_HashCode) == 0x18, "Offset mismatch!");
@@ -185,6 +181,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_ClosingTag
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_OpeningTagUnicodeArray) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextStyle, ___m_ClosingTagUnicodeArray) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextStyle, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextStyle);

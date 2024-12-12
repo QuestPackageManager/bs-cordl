@@ -25,20 +25,18 @@ class QuaternionTween;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tweening::QuaternionTween);
-// Type: Tweening::QuaternionTween
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tweening.Tween`1<T>, UnityEngine.Quaternion
 namespace Tweening {
 // Is value type: false
-// CS Name: ::Tweening::QuaternionTween*
+// CS Name: Tweening.QuaternionTween
 class CORDL_TYPE QuaternionTween : public ::Tweening::Tween_1<::UnityEngine::Quaternion> {
 public:
   // Declarations
   /// @brief Field Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Pool,
-                             put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*, float_t,
-                                                                                   ::GlobalNamespace::EaseType, float_t, ::Tweening::QuaternionTween*>* Pool;
+  __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*,
+                                                                                                   float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::QuaternionTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x4478cc4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44d9fd8, size 0x40, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion GetValue(float_t t);
 
   static inline ::Tweening::QuaternionTween* New_ctor();
@@ -46,10 +44,10 @@ public:
   static inline ::Tweening::QuaternionTween* New_ctor(::UnityEngine::Quaternion fromValue, ::UnityEngine::Quaternion toValue, ::System::Action_1<::UnityEngine::Quaternion>* onUpdate, float_t duration,
                                                       ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x4478bac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9ec0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4478bf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9f08, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Quaternion fromValue, ::UnityEngine::Quaternion toValue, ::System::Action_1<::UnityEngine::Quaternion>* onUpdate, float_t duration,
                     ::GlobalNamespace::EaseType easeType, float_t delay);
 
@@ -75,7 +73,7 @@ public:
   QuaternionTween(QuaternionTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

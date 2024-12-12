@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25d04ac;
+  constexpr static std::size_t addrs = 0x2603798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetInstance)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x25d04c4;
+  constexpr static std::size_t addrs = 0x26037b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::FromExtensions)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25d0a98;
+  constexpr static std::size_t addrs = 0x2603d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x25d06b4;
+  constexpr static std::size_t addrs = 0x26039a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*>)>(&::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x25d0b0c;
+  constexpr static std::size_t addrs = 0x2603df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::System::Collections::ArrayList*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25d0c78;
+  constexpr static std::size_t addrs = 0x2603f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x25d0c7c;
+  constexpr static std::size_t addrs = 0x2603f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)(::Org::BouncyCastle::Asn1::X509::KeyPurposeID*)>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::HasKeyPurposeId)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x25d10d8;
+  constexpr static std::size_t addrs = 0x26043c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetUsages)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25d1184;
+  constexpr static std::size_t addrs = 0x2604470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(),
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::GetAllUsages)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x25d1264;
+  constexpr static std::size_t addrs = 0x2604550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(),
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x25d1340;
+  constexpr static std::size_t addrs = 0x260462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::*)()>(
     &::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d13e4;
+  constexpr static std::size_t addrs = 0x26046d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Asn1::X509::Ex
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usageTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::__cordl_internal_get_usageTable() const {
+constexpr ::System::Collections::IDictionary* const& Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::__cordl_internal_get_usageTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___usageTable;
 }
@@ -208,7 +208,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::X50
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::__cordl_internal_get_seq() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::__cordl_internal_get_seq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seq;
 }
@@ -235,18 +235,11 @@ inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Extensions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*, false>(nullptr, ___internal_method, extensions);
 }
-inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*
-Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
 }
 inline void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -255,17 +248,11 @@ inline void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::ArrayW<::Or
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, usages);
 }
-inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::System::Collections::ArrayList* usages) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
-}
 inline void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::System::Collections::ArrayList* usages) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, usages);
-}
-inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::System::Collections::IEnumerable* usages) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
 }
 inline void Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::_ctor(::System::Collections::IEnumerable* usages) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -298,6 +285,19 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Ext
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*
+Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*, ::Array<::Org::BouncyCastle::Asn1::X509::KeyPurposeID*>*> usages) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
+}
+inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::System::Collections::ArrayList* usages) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
+}
+inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::New_ctor(::System::Collections::IEnumerable* usages) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage*>(usages));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage::ExtendedKeyUsage() {}

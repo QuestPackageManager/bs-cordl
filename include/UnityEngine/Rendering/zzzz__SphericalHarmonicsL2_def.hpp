@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SphericalHarmonicsL2)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -19,30 +17,29 @@ struct SphericalHarmonicsL2;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::SphericalHarmonicsL2);
-// Type: UnityEngine.Rendering::SphericalHarmonicsL2
-// SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace UnityEngine::Rendering {
 // Is value type: true
-// CS Name: ::UnityEngine.Rendering::SphericalHarmonicsL2
+// CS Name: UnityEngine.Rendering.SphericalHarmonicsL2
 struct CORDL_TYPE SphericalHarmonicsL2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*();
 
-  /// @brief Method Equals, addr 0x4862dd8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48c4168, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x4862e90, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x48c4220, size 0x48, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::SphericalHarmonicsL2 other);
 
-  /// @brief Method GetHashCode, addr 0x4862c04, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48c3f94, size 0x1d4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* i___System__IEquatable_1___UnityEngine__Rendering__SphericalHarmonicsL2_();
 
-  /// @brief Method op_Equality, addr 0x4862ed8, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48c4268, size 0x1bc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs);
 
   // Ctor Parameters []
@@ -63,6 +60,12 @@ public:
   constexpr SphericalHarmonicsL2(float_t shr0, float_t shr1, float_t shr2, float_t shr3, float_t shr4, float_t shr5, float_t shr6, float_t shr7, float_t shr8, float_t shg0, float_t shg1, float_t shg2,
                                  float_t shg3, float_t shg4, float_t shg5, float_t shg6, float_t shg7, float_t shg8, float_t shb0, float_t shb1, float_t shb2, float_t shb3, float_t shb4, float_t shb5,
                                  float_t shb6, float_t shb7, float_t shb8) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11214 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };
 
   /// @brief Field shr0, offset: 0x0, size: 0x4, def value: None
   float_t shr0;
@@ -145,17 +148,9 @@ public:
   /// @brief Field shb8, offset: 0x68, size: 0x4, def value: None
   float_t shb8;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11181 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SphericalHarmonicsL2, 0x6c>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Rendering::SphericalHarmonicsL2, shr0) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::SphericalHarmonicsL2, shr1) == 0x4, "Offset mismatch!");
@@ -209,6 +204,8 @@ static_assert(offsetof(::UnityEngine::Rendering::SphericalHarmonicsL2, shb6) == 
 static_assert(offsetof(::UnityEngine::Rendering::SphericalHarmonicsL2, shb7) == 0x64, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Rendering::SphericalHarmonicsL2, shb8) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::SphericalHarmonicsL2, 0x6c>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::SphericalHarmonicsL2, "UnityEngine.Rendering", "SphericalHarmonicsL2");

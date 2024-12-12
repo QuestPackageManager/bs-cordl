@@ -18,11 +18,10 @@ class XmlElementAttributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlElementAttributes);
-// Type: System.Xml.Serialization::XmlElementAttributes
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.CollectionBase
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlElementAttributes*
+// CS Name: System.Xml.Serialization.XmlElementAttributes
 class CORDL_TYPE XmlElementAttributes : public ::System::Collections::CollectionBase {
 public:
   // Declarations
@@ -30,21 +29,21 @@ public:
 
   __declspec(property(get = get_Order)) int32_t Order;
 
-  /// @brief Method Add, addr 0x430d560, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x436e874, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlElementAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x430d680, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436e994, size 0xcc, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlElementAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x430cf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436e240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x430ffac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x43712c0, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlElementAttribute* get_Item(int32_t index);
 
-  /// @brief Method get_Order, addr 0x430e76c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x436fa80, size 0x2cc, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:
@@ -62,7 +61,7 @@ public:
   XmlElementAttributes(XmlElementAttributes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

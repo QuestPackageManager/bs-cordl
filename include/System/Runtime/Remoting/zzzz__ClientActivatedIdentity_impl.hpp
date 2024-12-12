@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)(::StringW, ::System::Type*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c72378;
+  constexpr static std::size_t addrs = 0x3cd24ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MarshalByRefObject* (::System::Runtime::Remoting::ClientActivatedIdentity::*)()>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::GetServerObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c740dc;
+  constexpr static std::size_t addrs = 0x3cd4250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ClientActivatedIdentity*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::MarshalByRefObject*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::SetClientProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c740e4;
+  constexpr static std::size_t addrs = 0x3cd4258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)()>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::OnLifetimeExpired)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c740ec;
+  constexpr static std::size_t addrs = 0x3cd4260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::ClientActivatedIdentity::SyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c74148;
+  constexpr static std::size_t addrs = 0x3cd42bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::AsyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c743d0;
+  constexpr static std::size_t addrs = 0x3cd4544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,16 +104,13 @@ constexpr ::System::MarshalByRefObject*& System::Runtime::Remoting::ClientActiva
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetThis;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& System::Runtime::Remoting::ClientActivatedIdentity::__cordl_internal_get__targetThis() const {
+constexpr ::System::MarshalByRefObject* const& System::Runtime::Remoting::ClientActivatedIdentity::__cordl_internal_get__targetThis() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetThis;
 }
 constexpr void System::Runtime::Remoting::ClientActivatedIdentity::__cordl_internal_set__targetThis(::System::MarshalByRefObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetThis)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Runtime::Remoting::ClientActivatedIdentity* System::Runtime::Remoting::ClientActivatedIdentity::New_ctor(::StringW objectUri, ::System::Type* objectType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ClientActivatedIdentity*>(objectUri, objectType));
 }
 inline void System::Runtime::Remoting::ClientActivatedIdentity::_ctor(::StringW objectUri, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,6 +144,9 @@ System::Runtime::Remoting::ClientActivatedIdentity::AsyncObjectProcessMessage(::
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ClientActivatedIdentity*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageCtrl*, false>(this, ___internal_method, msg, replySink);
+}
+inline ::System::Runtime::Remoting::ClientActivatedIdentity* System::Runtime::Remoting::ClientActivatedIdentity::New_ctor(::StringW objectUri, ::System::Type* objectType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ClientActivatedIdentity*>(objectUri, objectType));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ClientActivatedIdentity::ClientActivatedIdentity() {}

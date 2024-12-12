@@ -1,26 +1,21 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflow_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RareData_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__OverflowClipBox_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextOverflowPosition_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextOverflow_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RareData.Copy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RareData (::UnityEngine::UIElements::RareData::*)()>(
     &::UnityEngine::UIElements::RareData::Copy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a1b970;
+  constexpr static std::size_t addrs = 0x4a80280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), "Copy",
@@ -31,15 +26,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::RareData.CopyFrom
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RareData::*)(ByRef<::UnityEngine::UIElements::RareData>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RareData::*)(::ByRef<::UnityEngine::UIElements::RareData>)>(
     &::UnityEngine::UIElements::RareData::CopyFrom)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a1b98c;
+  constexpr static std::size_t addrs = 0x4a8029c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::RareData>>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::RareData>>::get() })));
     return ___internal_method;
   }
 };
@@ -49,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::RareData, ::UnityEngine::UIElements::RareData)>(
     &::UnityEngine::UIElements::RareData::op_Equality)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a1b9a0;
+  constexpr static std::size_t addrs = 0x4a802b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::UnityEngine::UIElements::RareData)>(
     &::UnityEngine::UIElements::RareData::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a1bac4;
+  constexpr static std::size_t addrs = 0x4a803d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::System::Object*)>(&::UnityEngine::UIElements::RareData::Equals)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a1bb08;
+  constexpr static std::size_t addrs = 0x4a80418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RareData::*)()>(&::UnityEngine::UIElements::RareData::GetHashCode)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a1bba8;
+  constexpr static std::size_t addrs = 0x4a804b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,32 +97,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
-constexpr UnityEngine::UIElements::RareData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
-constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*
-UnityEngine::UIElements::RareData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
-constexpr UnityEngine::UIElements::RareData::operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* UnityEngine::UIElements::RareData::i___System__IEquatable_1___UnityEngine__UIElements__RareData_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::RareData UnityEngine::UIElements::RareData::Copy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), "Copy",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::RareData, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::RareData::CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other) {
+inline void UnityEngine::UIElements::RareData::CopyFrom(::ByRef<::UnityEngine::UIElements::RareData> other) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::RareData>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::RareData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
 inline bool UnityEngine::UIElements::RareData::op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs) {
@@ -152,6 +130,23 @@ inline int32_t UnityEngine::UIElements::RareData::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
+constexpr UnityEngine::UIElements::RareData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*
+UnityEngine::UIElements::RareData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_() {
+  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
+constexpr UnityEngine::UIElements::RareData::operator ::System::IEquatable_1<::UnityEngine::UIElements::RareData>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::RareData>* UnityEngine::UIElements::RareData::i___System__IEquatable_1___UnityEngine__UIElements__RareData_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::RareData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "cursor", ty: "::UnityEngine::UIElements::Cursor", modifiers: "", def_value: Some("{}") }, CppParam { name: "textOverflow", ty:
 // "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: Some("{}") }, CppParam { name: "unityBackgroundImageTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}")

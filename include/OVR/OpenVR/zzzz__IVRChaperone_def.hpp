@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -19,28 +18,28 @@ namespace OVR::OpenVR {
 struct HmdQuad_t;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___AreBoundsVisible;
+class IVRChaperone__AreBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___ForceBoundsVisible;
+class IVRChaperone__ForceBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetBoundsColor;
+class IVRChaperone__GetBoundsColor;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetCalibrationState;
+class IVRChaperone__GetCalibrationState;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaRect;
+class IVRChaperone__GetPlayAreaRect;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaSize;
+class IVRChaperone__GetPlayAreaSize;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___ReloadInfo;
+class IVRChaperone__ReloadInfo;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___SetSceneColor;
+class IVRChaperone__SetSceneColor;
 }
 namespace System {
 class AsyncCallback;
@@ -56,477 +55,466 @@ class Object;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
-class __IVRChaperone___AreBoundsVisible;
+class IVRChaperone__AreBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___ForceBoundsVisible;
+class IVRChaperone__ForceBoundsVisible;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetBoundsColor;
+class IVRChaperone__GetBoundsColor;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetCalibrationState;
+class IVRChaperone__GetCalibrationState;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaRect;
+class IVRChaperone__GetPlayAreaRect;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___GetPlayAreaSize;
+class IVRChaperone__GetPlayAreaSize;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___ReloadInfo;
+class IVRChaperone__ReloadInfo;
 }
 namespace OVR::OpenVR {
-class __IVRChaperone___SetSceneColor;
+class IVRChaperone__SetSceneColor;
 }
 namespace OVR::OpenVR {
 struct IVRChaperone;
 }
 // Write type traits
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___AreBoundsVisible);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___GetBoundsColor);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___GetCalibrationState);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___ReloadInfo);
-MARK_REF_PTR_T(::OVR::OpenVR::__IVRChaperone___SetSceneColor);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__AreBoundsVisible);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__ForceBoundsVisible);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__GetBoundsColor);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__GetCalibrationState);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__GetPlayAreaRect);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__GetPlayAreaSize);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__ReloadInfo);
+MARK_REF_PTR_T(::OVR::OpenVR::IVRChaperone__SetSceneColor);
 MARK_VAL_T(::OVR::OpenVR::IVRChaperone);
-// Type: ::_GetCalibrationState
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_GetCalibrationState*
-class CORDL_TYPE __IVRChaperone___GetCalibrationState : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_GetCalibrationState
+class CORDL_TYPE IVRChaperone__GetCalibrationState : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffb704, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x405b7b0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffb724, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x405b7d0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffb6f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x405b79c, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState Invoke();
 
-  static inline ::OVR::OpenVR::__IVRChaperone___GetCalibrationState* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__GetCalibrationState* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffb668, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405b714, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___GetCalibrationState();
+  constexpr IVRChaperone__GetCalibrationState();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetCalibrationState", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___GetCalibrationState(__IVRChaperone___GetCalibrationState&&) = delete;
+  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetCalibrationState", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetCalibrationState", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___GetCalibrationState(__IVRChaperone___GetCalibrationState const&) = delete;
+  IVRChaperone__GetCalibrationState(IVRChaperone__GetCalibrationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8627 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___GetCalibrationState, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__GetCalibrationState, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetPlayAreaSize
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_GetPlayAreaSize*
-class CORDL_TYPE __IVRChaperone___GetPlayAreaSize : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_GetPlayAreaSize
+class CORDL_TYPE IVRChaperone__GetPlayAreaSize : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffb800, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x405b8ac, size 0xa4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffb8a4, size 0x34, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x405b950, size 0x34, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffb7ec, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ);
+  /// @brief Method Invoke, addr 0x405b898, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ);
 
-  static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffb74c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405b7f8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___GetPlayAreaSize();
+  constexpr IVRChaperone__GetPlayAreaSize();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaSize", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___GetPlayAreaSize(__IVRChaperone___GetPlayAreaSize&&) = delete;
+  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaSize", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaSize", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___GetPlayAreaSize(__IVRChaperone___GetPlayAreaSize const&) = delete;
+  IVRChaperone__GetPlayAreaSize(IVRChaperone__GetPlayAreaSize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8628 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__GetPlayAreaSize, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetPlayAreaRect
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_GetPlayAreaRect*
-class CORDL_TYPE __IVRChaperone___GetPlayAreaRect : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_GetPlayAreaRect
+class CORDL_TYPE IVRChaperone__GetPlayAreaRect : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffb988, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x405ba34, size 0x8c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffba14, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x405bac0, size 0x2c, virtual true, abstract: false, final false
+  inline bool EndInvoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffb974, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
+  /// @brief Method Invoke, addr 0x405ba20, size 0x14, virtual true, abstract: false, final false
+  inline bool Invoke(::ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
-  static inline ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffb8d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405b984, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___GetPlayAreaRect();
+  constexpr IVRChaperone__GetPlayAreaRect();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaRect", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___GetPlayAreaRect(__IVRChaperone___GetPlayAreaRect&&) = delete;
+  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetPlayAreaRect", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetPlayAreaRect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___GetPlayAreaRect(__IVRChaperone___GetPlayAreaRect const&) = delete;
+  IVRChaperone__GetPlayAreaRect(IVRChaperone__GetPlayAreaRect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__GetPlayAreaRect, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_ReloadInfo
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_ReloadInfo*
-class CORDL_TYPE __IVRChaperone___ReloadInfo : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_ReloadInfo
+class CORDL_TYPE IVRChaperone__ReloadInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffbadc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x405bb88, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffbafc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x405bba8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffbac8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x405bb74, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  static inline ::OVR::OpenVR::__IVRChaperone___ReloadInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__ReloadInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffba40, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405baec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___ReloadInfo();
+  constexpr IVRChaperone__ReloadInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ReloadInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___ReloadInfo(__IVRChaperone___ReloadInfo&&) = delete;
+  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ReloadInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ReloadInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___ReloadInfo(__IVRChaperone___ReloadInfo const&) = delete;
+  IVRChaperone__ReloadInfo(IVRChaperone__ReloadInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___ReloadInfo, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__ReloadInfo, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_SetSceneColor
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_SetSceneColor*
-class CORDL_TYPE __IVRChaperone___SetSceneColor : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_SetSceneColor
+class CORDL_TYPE IVRChaperone__SetSceneColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffbba8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x405bc54, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::HmdColor_t color, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffbc30, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x405bcdc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffbb94, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x405bc40, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::HmdColor_t color);
 
-  static inline ::OVR::OpenVR::__IVRChaperone___SetSceneColor* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__SetSceneColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffbb08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405bbb4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___SetSceneColor();
+  constexpr IVRChaperone__SetSceneColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___SetSceneColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___SetSceneColor(__IVRChaperone___SetSceneColor&&) = delete;
+  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___SetSceneColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__SetSceneColor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___SetSceneColor(__IVRChaperone___SetSceneColor const&) = delete;
+  IVRChaperone__SetSceneColor(IVRChaperone__SetSceneColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8631 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___SetSceneColor, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__SetSceneColor, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_GetBoundsColor
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_GetBoundsColor*
-class CORDL_TYPE __IVRChaperone___GetBoundsColor : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_GetBoundsColor
+class CORDL_TYPE IVRChaperone__GetBoundsColor : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffbcf0, size 0x10c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
-                                             ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x405bd9c, size 0x10c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
+                                             ::ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffbdfc, size 0x24, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x405bea8, size 0x24, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, ::ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffbcdc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
+  /// @brief Method Invoke, addr 0x405bd88, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance, ::ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
 
-  static inline ::OVR::OpenVR::__IVRChaperone___GetBoundsColor* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__GetBoundsColor* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffbc3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405bce8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___GetBoundsColor();
+  constexpr IVRChaperone__GetBoundsColor();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetBoundsColor", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___GetBoundsColor(__IVRChaperone___GetBoundsColor&&) = delete;
+  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___GetBoundsColor", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__GetBoundsColor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___GetBoundsColor(__IVRChaperone___GetBoundsColor const&) = delete;
+  IVRChaperone__GetBoundsColor(IVRChaperone__GetBoundsColor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8632 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___GetBoundsColor, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__GetBoundsColor, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_AreBoundsVisible
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_AreBoundsVisible*
-class CORDL_TYPE __IVRChaperone___AreBoundsVisible : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_AreBoundsVisible
+class CORDL_TYPE IVRChaperone__AreBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffbebc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x405bf68, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffbedc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x405bf88, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffbea8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x405bf54, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
-  static inline ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__AreBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffbe20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405becc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___AreBoundsVisible();
+  constexpr IVRChaperone__AreBoundsVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___AreBoundsVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___AreBoundsVisible(__IVRChaperone___AreBoundsVisible&&) = delete;
+  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___AreBoundsVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__AreBoundsVisible", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___AreBoundsVisible(__IVRChaperone___AreBoundsVisible const&) = delete;
+  IVRChaperone__AreBoundsVisible(IVRChaperone__AreBoundsVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___AreBoundsVisible, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__AreBoundsVisible, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: ::_ForceBoundsVisible
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::IVRChaperone::_ForceBoundsVisible*
-class CORDL_TYPE __IVRChaperone___ForceBoundsVisible : public ::System::MulticastDelegate {
+// CS Name: OVR.OpenVR.IVRChaperone/_ForceBoundsVisible
+class CORDL_TYPE IVRChaperone__ForceBoundsVisible : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3ffbfa8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x405c054, size 0x88, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3ffc030, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x405c0dc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3ffbf90, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x405c03c, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(bool bForce);
 
-  static inline ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ffbf04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x405bfb0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IVRChaperone___ForceBoundsVisible();
+  constexpr IVRChaperone__ForceBoundsVisible();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ForceBoundsVisible", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IVRChaperone___ForceBoundsVisible(__IVRChaperone___ForceBoundsVisible&&) = delete;
+  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisible&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRChaperone___ForceBoundsVisible", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IVRChaperone__ForceBoundsVisible", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IVRChaperone___ForceBoundsVisible(__IVRChaperone___ForceBoundsVisible const&) = delete;
+  IVRChaperone__ForceBoundsVisible(IVRChaperone__ForceBoundsVisible const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8634 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone__ForceBoundsVisible, 0x80>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
-// Type: OVR.OpenVR::IVRChaperone
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::IVRChaperone
+// CS Name: OVR.OpenVR.IVRChaperone
 struct CORDL_TYPE IVRChaperone {
 public:
   // Declarations
-  using _AreBoundsVisible = ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible;
+  using _AreBoundsVisible = ::OVR::OpenVR::IVRChaperone__AreBoundsVisible;
 
-  using _ForceBoundsVisible = ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible;
+  using _ForceBoundsVisible = ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible;
 
-  using _GetBoundsColor = ::OVR::OpenVR::__IVRChaperone___GetBoundsColor;
+  using _GetBoundsColor = ::OVR::OpenVR::IVRChaperone__GetBoundsColor;
 
-  using _GetCalibrationState = ::OVR::OpenVR::__IVRChaperone___GetCalibrationState;
+  using _GetCalibrationState = ::OVR::OpenVR::IVRChaperone__GetCalibrationState;
 
-  using _GetPlayAreaRect = ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect;
+  using _GetPlayAreaRect = ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect;
 
-  using _GetPlayAreaSize = ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize;
+  using _GetPlayAreaSize = ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize;
 
-  using _ReloadInfo = ::OVR::OpenVR::__IVRChaperone___ReloadInfo;
+  using _ReloadInfo = ::OVR::OpenVR::IVRChaperone__ReloadInfo;
 
-  using _SetSceneColor = ::OVR::OpenVR::__IVRChaperone___SetSceneColor;
+  using _SetSceneColor = ::OVR::OpenVR::IVRChaperone__SetSceneColor;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr IVRChaperone();
 
-  // Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::__IVRChaperone___GetCalibrationState*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaSize", ty:
-  // "::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaRect", ty: "::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect*", modifiers: "",
-  // def_value: None }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::__IVRChaperone___ReloadInfo*", modifiers: "", def_value: None }, CppParam { name: "SetSceneColor", ty:
-  // "::OVR::OpenVR::__IVRChaperone___SetSceneColor*", modifiers: "", def_value: None }, CppParam { name: "GetBoundsColor", ty: "::OVR::OpenVR::__IVRChaperone___GetBoundsColor*", modifiers: "",
-  // def_value: None }, CppParam { name: "AreBoundsVisible", ty: "::OVR::OpenVR::__IVRChaperone___AreBoundsVisible*", modifiers: "", def_value: None }, CppParam { name: "ForceBoundsVisible", ty:
-  // "::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible*", modifiers: "", def_value: None }]
-  constexpr IVRChaperone(::OVR::OpenVR::__IVRChaperone___GetCalibrationState* GetCalibrationState, ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize* GetPlayAreaSize,
-                         ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect* GetPlayAreaRect, ::OVR::OpenVR::__IVRChaperone___ReloadInfo* ReloadInfo,
-                         ::OVR::OpenVR::__IVRChaperone___SetSceneColor* SetSceneColor, ::OVR::OpenVR::__IVRChaperone___GetBoundsColor* GetBoundsColor,
-                         ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible* AreBoundsVisible, ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible* ForceBoundsVisible) noexcept;
-
-  /// @brief Field GetCalibrationState, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___GetCalibrationState* GetCalibrationState;
-
-  /// @brief Field GetPlayAreaSize, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize* GetPlayAreaSize;
-
-  /// @brief Field GetPlayAreaRect, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect* GetPlayAreaRect;
-
-  /// @brief Field ReloadInfo, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___ReloadInfo* ReloadInfo;
-
-  /// @brief Field SetSceneColor, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___SetSceneColor* SetSceneColor;
-
-  /// @brief Field GetBoundsColor, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___GetBoundsColor* GetBoundsColor;
-
-  /// @brief Field AreBoundsVisible, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___AreBoundsVisible* AreBoundsVisible;
-
-  /// @brief Field ForceBoundsVisible, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible* ForceBoundsVisible;
+  // Ctor Parameters [CppParam { name: "GetCalibrationState", ty: "::OVR::OpenVR::IVRChaperone__GetCalibrationState*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaSize", ty:
+  // "::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*", modifiers: "", def_value: None }, CppParam { name: "GetPlayAreaRect", ty: "::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*", modifiers: "",
+  // def_value: None }, CppParam { name: "ReloadInfo", ty: "::OVR::OpenVR::IVRChaperone__ReloadInfo*", modifiers: "", def_value: None }, CppParam { name: "SetSceneColor", ty:
+  // "::OVR::OpenVR::IVRChaperone__SetSceneColor*", modifiers: "", def_value: None }, CppParam { name: "GetBoundsColor", ty: "::OVR::OpenVR::IVRChaperone__GetBoundsColor*", modifiers: "", def_value:
+  // None }, CppParam { name: "AreBoundsVisible", ty: "::OVR::OpenVR::IVRChaperone__AreBoundsVisible*", modifiers: "", def_value: None }, CppParam { name: "ForceBoundsVisible", ty:
+  // "::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*", modifiers: "", def_value: None }]
+  constexpr IVRChaperone(::OVR::OpenVR::IVRChaperone__GetCalibrationState* GetCalibrationState, ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize* GetPlayAreaSize,
+                         ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect* GetPlayAreaRect, ::OVR::OpenVR::IVRChaperone__ReloadInfo* ReloadInfo, ::OVR::OpenVR::IVRChaperone__SetSceneColor* SetSceneColor,
+                         ::OVR::OpenVR::IVRChaperone__GetBoundsColor* GetBoundsColor, ::OVR::OpenVR::IVRChaperone__AreBoundsVisible* AreBoundsVisible,
+                         ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible* ForceBoundsVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// @brief Field GetCalibrationState, offset: 0x0, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__GetCalibrationState* GetCalibrationState;
+
+  /// @brief Field GetPlayAreaSize, offset: 0x8, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__GetPlayAreaSize* GetPlayAreaSize;
+
+  /// @brief Field GetPlayAreaRect, offset: 0x10, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__GetPlayAreaRect* GetPlayAreaRect;
+
+  /// @brief Field ReloadInfo, offset: 0x18, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__ReloadInfo* ReloadInfo;
+
+  /// @brief Field SetSceneColor, offset: 0x20, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__SetSceneColor* SetSceneColor;
+
+  /// @brief Field GetBoundsColor, offset: 0x28, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__GetBoundsColor* GetBoundsColor;
+
+  /// @brief Field AreBoundsVisible, offset: 0x30, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__AreBoundsVisible* AreBoundsVisible;
+
+  /// @brief Field ForceBoundsVisible, offset: 0x38, size: 0x8, def value: None
+  ::OVR::OpenVR::IVRChaperone__ForceBoundsVisible* ForceBoundsVisible;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::IVRChaperone, GetCalibrationState) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::IVRChaperone, GetPlayAreaSize) == 0x8, "Offset mismatch!");
@@ -543,21 +531,23 @@ static_assert(offsetof(::OVR::OpenVR::IVRChaperone, AreBoundsVisible) == 0x30, "
 
 static_assert(offsetof(::OVR::OpenVR::IVRChaperone, ForceBoundsVisible) == 0x38, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRChaperone, 0x40>, "Size mismatch!");
+
 } // namespace OVR::OpenVR
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___AreBoundsVisible);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___AreBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_AreBoundsVisible");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___ForceBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_ForceBoundsVisible");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___GetBoundsColor);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___GetBoundsColor*, "OVR.OpenVR", "IVRChaperone/_GetBoundsColor");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___GetCalibrationState);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___GetCalibrationState*, "OVR.OpenVR", "IVRChaperone/_GetCalibrationState");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___GetPlayAreaRect*, "OVR.OpenVR", "IVRChaperone/_GetPlayAreaRect");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___GetPlayAreaSize*, "OVR.OpenVR", "IVRChaperone/_GetPlayAreaSize");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___ReloadInfo);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___ReloadInfo*, "OVR.OpenVR", "IVRChaperone/_ReloadInfo");
-NEED_NO_BOX(::OVR::OpenVR::__IVRChaperone___SetSceneColor);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRChaperone___SetSceneColor*, "OVR.OpenVR", "IVRChaperone/_SetSceneColor");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__AreBoundsVisible);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__AreBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_AreBoundsVisible");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__ForceBoundsVisible);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__ForceBoundsVisible*, "OVR.OpenVR", "IVRChaperone/_ForceBoundsVisible");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__GetBoundsColor);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__GetBoundsColor*, "OVR.OpenVR", "IVRChaperone/_GetBoundsColor");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__GetCalibrationState);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__GetCalibrationState*, "OVR.OpenVR", "IVRChaperone/_GetCalibrationState");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__GetPlayAreaRect);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__GetPlayAreaRect*, "OVR.OpenVR", "IVRChaperone/_GetPlayAreaRect");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__GetPlayAreaSize);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__GetPlayAreaSize*, "OVR.OpenVR", "IVRChaperone/_GetPlayAreaSize");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__ReloadInfo);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__ReloadInfo*, "OVR.OpenVR", "IVRChaperone/_ReloadInfo");
+NEED_NO_BOX(::OVR::OpenVR::IVRChaperone__SetSceneColor);
+DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone__SetSceneColor*, "OVR.OpenVR", "IVRChaperone/_SetSceneColor");
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IVRChaperone, "OVR.OpenVR", "IVRChaperone");

@@ -21,11 +21,10 @@ class DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder);
-// Type: Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
@@ -37,22 +36,22 @@ public:
 
   static inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithDefaultGameObjectParent, addr 0x4a9d69c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithDefaultGameObjectParent, addr 0x4b01fac, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithDefaultGameObjectParent(::StringW defaultParentName);
+
+  constexpr ::Zenject::SubContainerCreatorBindInfo* const& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField() const;
 
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__SubContainerCreatorBindInfo_k__BackingField() const;
-
   constexpr void __cordl_internal_set__SubContainerCreatorBindInfo_k__BackingField(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x4a9d660, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b01f70, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4a9d68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubContainerCreatorBindInfo, addr 0x4b01f9c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SubContainerCreatorBindInfo* get_SubContainerCreatorBindInfo();
 
-  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4a9d694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SubContainerCreatorBindInfo, addr 0x4b01fa4, size 0x8, virtual false, abstract: false, final false
   inline void set_SubContainerCreatorBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
 protected:
@@ -69,18 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12039 };
+
   /// @brief Field <SubContainerCreatorBindInfo>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____SubContainerCreatorBindInfo_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder, ____SubContainerCreatorBindInfo_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder);

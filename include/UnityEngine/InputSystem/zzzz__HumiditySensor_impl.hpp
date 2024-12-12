@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::HumiditySensor::*)()>(
     &::UnityEngine::InputSystem::HumiditySensor::get_relativeHumidity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4565b08;
+  constexpr static std::size_t addrs = 0x45c6e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::HumiditySensor::set_relativeHumidity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4565b10;
+  constexpr static std::size_t addrs = 0x45c6e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::HumiditySensor* (*)()>(&::UnityEngine::InputSystem::HumiditySensor::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4565b18;
+  constexpr static std::size_t addrs = 0x45c6e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::HumiditySensor*)>(&::UnityEngine::InputSystem::HumiditySensor::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4565b60;
+  constexpr static std::size_t addrs = 0x45c6e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4565bac;
+  constexpr static std::size_t addrs = 0x45c6ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4565c00;
+  constexpr static std::size_t addrs = 0x45c6f14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4565c84;
+  constexpr static std::size_t addrs = 0x45c6f98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4565cfc;
+  constexpr static std::size_t addrs = 0x45c7010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(), ".ctor",
@@ -118,8 +118,7 @@ constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& UnityEngine::Input
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeHumidity_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const&
-UnityEngine::InputSystem::HumiditySensor::__cordl_internal_get__relativeHumidity_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl* const& UnityEngine::InputSystem::HumiditySensor::__cordl_internal_get__relativeHumidity_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeHumidity_k__BackingField;
 }
@@ -173,13 +172,13 @@ inline void UnityEngine::InputSystem::HumiditySensor::FinishSetup() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::HumiditySensor* UnityEngine::InputSystem::HumiditySensor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::HumiditySensor*>());
-}
 inline void UnityEngine::InputSystem::HumiditySensor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::HumiditySensor* UnityEngine::InputSystem::HumiditySensor::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::HumiditySensor*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::HumiditySensor::HumiditySensor() {}

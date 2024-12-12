@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlUnionConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlUnionConverter::_ctor)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x428ee1c;
+  constexpr static std::size_t addrs = 0x42f0130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlUnionConverter::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x428f060;
+  constexpr static std::size_t addrs = 0x42f0374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlUnionConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlUnionConverter::ChangeType)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x428f0b8;
+  constexpr static std::size_t addrs = 0x42f03cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,9 +89,6 @@ constexpr void System::Xml::Schema::XmlUnionConverter::__cordl_internal_set_hasL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___hasListMember = value;
 }
-inline ::System::Xml::Schema::XmlUnionConverter* System::Xml::Schema::XmlUnionConverter::New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlUnionConverter*>(schemaType));
-}
 inline void System::Xml::Schema::XmlUnionConverter::_ctor(::System::Xml::Schema::XmlSchemaType* schemaType) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlUnionConverter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -108,6 +105,9 @@ inline ::System::Object* System::Xml::Schema::XmlUnionConverter::ChangeType(::Sy
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlUnionConverter*>::get(), 61)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value, destinationType, nsResolver);
+}
+inline ::System::Xml::Schema::XmlUnionConverter* System::Xml::Schema::XmlUnionConverter::New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlUnionConverter*>(schemaType));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlUnionConverter::XmlUnionConverter() {}

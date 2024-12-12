@@ -1,26 +1,25 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/Billboard.hpp"
-#include "GlobalNamespace/zzzz__Billboard_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Billboard_def.hpp"
 #include "GlobalNamespace/zzzz__Billboard_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__Billboard__RotationMode::__Billboard__RotationMode(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::Billboard_RotationMode::Billboard_RotationMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__Billboard__RotationMode::__Billboard__RotationMode() {}
-constexpr ::GlobalNamespace::__Billboard__RotationMode GlobalNamespace::__Billboard__RotationMode::AllAxis{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__Billboard__RotationMode GlobalNamespace::__Billboard__RotationMode::XAxis{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__Billboard__RotationMode GlobalNamespace::__Billboard__RotationMode::YAxis{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__Billboard__RotationMode GlobalNamespace::__Billboard__RotationMode::ZAxis{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::Billboard_RotationMode::Billboard_RotationMode() {}
+constexpr ::GlobalNamespace::Billboard_RotationMode GlobalNamespace::Billboard_RotationMode::AllAxis{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::Billboard_RotationMode GlobalNamespace::Billboard_RotationMode::XAxis{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::Billboard_RotationMode GlobalNamespace::Billboard_RotationMode::YAxis{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::Billboard_RotationMode GlobalNamespace::Billboard_RotationMode::ZAxis{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::Billboard.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Billboard::*)()>(&::GlobalNamespace::Billboard::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x396c2b4;
+  constexpr static std::size_t addrs = 0x39c179c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Billboard*>::get(), "Awake",
@@ -33,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Billboard::*)()>(&::GlobalNamespace::Billboard::OnWillRenderObject)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x396c2d0;
+  constexpr static std::size_t addrs = 0x39c17b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Billboard*>::get(), "OnWillRenderObject",
@@ -46,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Billboard::*)()>(&::GlobalNamespace::Billboard::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x396c3a0;
+  constexpr static std::size_t addrs = 0x39c1888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Billboard*>::get(), ".ctor",
@@ -54,15 +53,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__Billboard__RotationMode& GlobalNamespace::Billboard::__cordl_internal_get__rotationMode() {
+constexpr ::GlobalNamespace::Billboard_RotationMode& GlobalNamespace::Billboard::__cordl_internal_get__rotationMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationMode;
 }
-constexpr ::GlobalNamespace::__Billboard__RotationMode const& GlobalNamespace::Billboard::__cordl_internal_get__rotationMode() const {
+constexpr ::GlobalNamespace::Billboard_RotationMode const& GlobalNamespace::Billboard::__cordl_internal_get__rotationMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationMode;
 }
-constexpr void GlobalNamespace::Billboard::__cordl_internal_set__rotationMode(::GlobalNamespace::__Billboard__RotationMode value) {
+constexpr void GlobalNamespace::Billboard::__cordl_internal_set__rotationMode(::GlobalNamespace::Billboard_RotationMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationMode = value;
 }
@@ -100,13 +99,13 @@ inline void GlobalNamespace::Billboard::OnWillRenderObject() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::Billboard* GlobalNamespace::Billboard::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Billboard*>());
-}
 inline void GlobalNamespace::Billboard::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Billboard*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::Billboard* GlobalNamespace::Billboard::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Billboard*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::Billboard::Billboard() {}

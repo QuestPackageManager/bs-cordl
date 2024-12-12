@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x410bcf8;
+  constexpr static std::size_t addrs = 0x416d00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_ApplyDefaultSort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410bd58;
+  constexpr static std::size_t addrs = 0x416d06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), "get_ApplyDefaultSort",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSetting::*)(::System::Data::DataViewManager*)>(
     &::System::Data::DataViewSetting::SetDataViewManager)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x410bd60;
+  constexpr static std::size_t addrs = 0x416d074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSetting::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSetting::SetDataTable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x410bd74;
+  constexpr static std::size_t addrs = 0x416d088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_RowFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410bd88;
+  constexpr static std::size_t addrs = 0x416d09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), "get_RowFilter",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewRowState (::System::Data::DataViewSetting::*)()>(
     &::System::Data::DataViewSetting::get_RowStateFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410bd90;
+  constexpr static std::size_t addrs = 0x416d0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), "get_RowStateFilter",
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::DataViewSetting::*)()>(&::System::Data::DataViewSetting::get_Sort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410bd98;
+  constexpr static std::size_t addrs = 0x416d0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), "get_Sort",
@@ -106,7 +106,7 @@ constexpr ::System::Data::DataViewManager*& System::Data::DataViewSetting::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewManager*> const& System::Data::DataViewSetting::__cordl_internal_get__dataViewManager() const {
+constexpr ::System::Data::DataViewManager* const& System::Data::DataViewSetting::__cordl_internal_get__dataViewManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }
@@ -118,7 +118,7 @@ constexpr ::System::Data::DataTable*& System::Data::DataViewSetting::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::DataViewSetting::__cordl_internal_get__table() const {
+constexpr ::System::Data::DataTable* const& System::Data::DataViewSetting::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
@@ -174,9 +174,6 @@ constexpr void System::Data::DataViewSetting::__cordl_internal_set__applyDefault
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____applyDefaultSort = value;
 }
-inline ::System::Data::DataViewSetting* System::Data::DataViewSetting::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataViewSetting*>());
-}
 inline void System::Data::DataViewSetting::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -213,6 +210,9 @@ inline ::StringW System::Data::DataViewSetting::get_Sort() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewSetting*>::get(), "get_Sort",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Data::DataViewSetting* System::Data::DataViewSetting::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataViewSetting*>());
 }
 // Ctor Parameters []
 constexpr ::System::Data::DataViewSetting::DataViewSetting() {}

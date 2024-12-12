@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::Start)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b24570;
+  constexpr static std::size_t addrs = 0x3b85870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b24640;
+  constexpr static std::size_t addrs = 0x3b85940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), "OnDestroy",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::MissedNoteEffectSpawner::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b246d0;
+  constexpr static std::size_t addrs = 0x3b859d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissedNoteEffectSpawner::*)()>(&::GlobalNamespace::MissedNoteEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2485c;
+  constexpr static std::size_t addrs = 0x3b85b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), ".ctor",
@@ -77,7 +77,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::MissedNoteE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -97,15 +97,15 @@ constexpr void GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_set__a
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData*& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value) {
+constexpr void GlobalNamespace::MissedNoteEffectSpawner::__cordl_internal_set__initData(::GlobalNamespace::CoreGameHUDController_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -137,13 +137,13 @@ inline void GlobalNamespace::MissedNoteEffectSpawner::HandleNoteWasMissed(::Glob
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
 }
-inline ::GlobalNamespace::MissedNoteEffectSpawner* GlobalNamespace::MissedNoteEffectSpawner::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissedNoteEffectSpawner*>());
-}
 inline void GlobalNamespace::MissedNoteEffectSpawner::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissedNoteEffectSpawner*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissedNoteEffectSpawner* GlobalNamespace::MissedNoteEffectSpawner::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissedNoteEffectSpawner*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissedNoteEffectSpawner::MissedNoteEffectSpawner() {}

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(
     ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::System::Array*)>(&::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ca9ef8;
+  constexpr static std::size_t addrs = 0x3d0a06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(
     ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::System::Array*)>(&::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x3cb2270;
+  constexpr static std::size_t addrs = 0x3d123e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::StringW, int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x3caa804;
+  constexpr static std::size_t addrs = 0x3d0a978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,10 +196,6 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::PrimitiveArra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___uint64A)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*
-System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*>(code, array));
-}
 inline void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -219,6 +215,10 @@ inline void System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*>::get(), "SetValue", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, index);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*
+System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*>(code, array));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::PrimitiveArray() {}

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::Start)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3b44e6c;
+  constexpr static std::size_t addrs = 0x3ba655c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "Start",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b450f0;
+  constexpr static std::size_t addrs = 0x3ba67e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "OnDestroy",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::Update)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b451c0;
+  constexpr static std::size_t addrs = 0x3ba68b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "Update",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)(int32_t, int32_t)>(
     &::GlobalNamespace::SongProgressUIController::UpdateSongProgressUIElements)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b452b8;
+  constexpr static std::size_t addrs = 0x3ba69a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(
     &::GlobalNamespace::SongProgressUIController::HandleSongDidFinish)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b454fc;
+  constexpr static std::size_t addrs = 0x3ba6bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(),
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b45548;
+  constexpr static std::size_t addrs = 0x3ba6c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), ".ctor",
@@ -202,7 +202,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::SongProgressUIC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -250,7 +250,7 @@ constexpr ::System::Text::StringBuilder*& GlobalNamespace::SongProgressUIControl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__stringBuilder() const {
+constexpr ::System::Text::StringBuilder* const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__stringBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
@@ -332,13 +332,13 @@ inline void GlobalNamespace::SongProgressUIController::HandleSongDidFinish() {
                                                                              "HandleSongDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SongProgressUIController* GlobalNamespace::SongProgressUIController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongProgressUIController*>());
-}
 inline void GlobalNamespace::SongProgressUIController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SongProgressUIController* GlobalNamespace::SongProgressUIController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SongProgressUIController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SongProgressUIController::SongProgressUIController() {}

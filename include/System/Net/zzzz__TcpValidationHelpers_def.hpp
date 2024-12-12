@@ -12,15 +12,14 @@ class TcpValidationHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::TcpValidationHelpers);
-// Type: System.Net::TcpValidationHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::TcpValidationHelpers*
+// CS Name: System.Net.TcpValidationHelpers
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x4429f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x448b25c, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
 protected:
@@ -38,7 +37,7 @@ public:
   TcpValidationHelpers(TcpValidationHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

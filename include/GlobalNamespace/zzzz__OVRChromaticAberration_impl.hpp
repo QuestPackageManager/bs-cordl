@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRChromaticAberration::*)()>(&::GlobalNamespace::OVRChromaticAberration::Start)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fc8494;
+  constexpr static std::size_t addrs = 0x4028540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRChromaticAberration*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRChromaticAberration::*)()>(&::GlobalNamespace::OVRChromaticAberration::Update)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3fc8530;
+  constexpr static std::size_t addrs = 0x40285dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRChromaticAberration*>::get(), "Update",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRChromaticAberration::*)()>(&::GlobalNamespace::OVRChromaticAberration::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fc8620;
+  constexpr static std::size_t addrs = 0x40286cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRChromaticAberration*>::get(), ".ctor",
@@ -42,15 +42,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRChromaticAberration::__cordl_internal_get_toggleButton() {
+constexpr ::GlobalNamespace::OVRInput_RawButton& GlobalNamespace::OVRChromaticAberration::__cordl_internal_get_toggleButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
-constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRChromaticAberration::__cordl_internal_get_toggleButton() const {
+constexpr ::GlobalNamespace::OVRInput_RawButton const& GlobalNamespace::OVRChromaticAberration::__cordl_internal_get_toggleButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
-constexpr void GlobalNamespace::OVRChromaticAberration::__cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value) {
+constexpr void GlobalNamespace::OVRChromaticAberration::__cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toggleButton = value;
 }
@@ -76,13 +76,13 @@ inline void GlobalNamespace::OVRChromaticAberration::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRChromaticAberration* GlobalNamespace::OVRChromaticAberration::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRChromaticAberration*>());
-}
 inline void GlobalNamespace::OVRChromaticAberration::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRChromaticAberration*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRChromaticAberration* GlobalNamespace::OVRChromaticAberration::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRChromaticAberration*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRChromaticAberration::OVRChromaticAberration() {}

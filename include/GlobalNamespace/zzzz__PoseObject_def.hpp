@@ -18,11 +18,10 @@ class PoseObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PoseObject);
-// Type: ::PoseObject
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PoseObject*
+// CS Name: PoseObject
 class CORDL_TYPE PoseObject : public ::System::Object {
 public:
   // Declarations
@@ -50,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3abaac8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b17a0c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method get_id, addr 0x3abc998, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3b198dc, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_objectTransform, addr 0x3abc990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectTransform, addr 0x3b198d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoseObject(PoseObject const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5091 };
+
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _poseObjectId, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PoseObjectIdSO> ____poseObjectId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5072 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PoseObject, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PoseObject, ____transform) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PoseObject, ____poseObjectId) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PoseObject, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PoseObject);

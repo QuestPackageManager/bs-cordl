@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Dynamic::ConvertBinder::*)()>(&::System::Dynamic::ConvertBinder::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4099a68;
+  constexpr static std::size_t addrs = 0x40fad7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ConvertBinder*>::get(), "get_Type",
@@ -23,27 +23,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ConvertBinder::*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::ConvertBinder::FallbackConvert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4099a70;
+  constexpr static std::size_t addrs = 0x40fad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ConvertBinder*>::get(), "FallbackConvert", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Dynamic::ConvertBinder.FallbackConvert
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
-    ::System::Dynamic::ConvertBinder::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::ConvertBinder::FallbackConvert)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ConvertBinder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ConvertBinder*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -54,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::ConvertBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::ConvertBinder::Bind)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4099a80;
+  constexpr static std::size_t addrs = 0x40fad94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +54,7 @@ constexpr ::System::Type*& System::Dynamic::ConvertBinder::__cordl_internal_get_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Dynamic::ConvertBinder::__cordl_internal_get__Type_k__BackingField() const {
+constexpr ::System::Type* const& System::Dynamic::ConvertBinder::__cordl_internal_get__Type_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }

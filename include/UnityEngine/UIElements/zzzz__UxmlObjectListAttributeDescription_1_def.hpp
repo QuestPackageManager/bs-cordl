@@ -20,13 +20,12 @@ template <typename T> class UxmlObjectListAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1);
-// Type: UnityEngine.UIElements::UxmlObjectListAttributeDescription`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlObjectAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlObjectListAttributeDescription`1<T>*
+// CS Name: UnityEngine.UIElements.UxmlObjectListAttributeDescription`1<T>
 class CORDL_TYPE UxmlObjectListAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlObjectAttributeDescription_1<::System::Collections::Generic::List_1<T>*> {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   UxmlObjectListAttributeDescription_1(UxmlObjectListAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6264 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

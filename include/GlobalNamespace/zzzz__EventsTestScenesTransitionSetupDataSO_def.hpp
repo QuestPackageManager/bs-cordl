@@ -17,11 +17,10 @@ class EventsTestScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);
-// Type: ::EventsTestScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EventsTestScenesTransitionSetupDataSO*
+// CS Name: EventsTestScenesTransitionSetupDataSO
 class CORDL_TYPE EventsTestScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   /// @brief Field _gameCoreSceneInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
 
-  /// @brief Method Init, addr 0x3ada4c8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b3a438, size 0x1d8, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EventsTestScenesTransitionSetupDataSO* New_ctor();
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  /// @brief Method .ctor, addr 0x3ada6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3a610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +73,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventsTestScenesTransitionSetupDataSO(EventsTestScenesTransitionSetupDataSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5253 };
+
   /// @brief Field _environmentInfo, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____environmentInfo;
 
@@ -83,19 +85,16 @@ public:
   /// @brief Field _gameCoreSceneInfo, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5230 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____environmentInfo) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____eventsTestSceneInfo) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, ____gameCoreSceneInfo) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EventsTestScenesTransitionSetupDataSO, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EventsTestScenesTransitionSetupDataSO);

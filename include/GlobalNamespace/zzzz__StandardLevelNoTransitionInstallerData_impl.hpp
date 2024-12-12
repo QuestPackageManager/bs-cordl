@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelSO> (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_beatmapLevel)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ad869c;
+  constexpr static std::size_t addrs = 0x3b380a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (
     ::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(&::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_beatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad883c;
+  constexpr static std::size_t addrs = 0x3b383d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_beatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8844;
+  constexpr static std::size_t addrs = 0x3b383d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_beatmapDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad884c;
+  constexpr static std::size_t addrs = 0x3b383e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_beatmapDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8854;
+  constexpr static std::size_t addrs = 0x3b383e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ColorSchemeSO> (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_colorScheme)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ad8768;
+  constexpr static std::size_t addrs = 0x3b38174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_environmentInfo)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ad7f78;
+  constexpr static std::size_t addrs = 0x3b375bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad885c;
+  constexpr static std::size_t addrs = 0x3b383f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8864;
+  constexpr static std::size_t addrs = 0x3b383f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_playerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad886c;
+  constexpr static std::size_t addrs = 0x3b38400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_playerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8874;
+  constexpr static std::size_t addrs = 0x3b38408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad887c;
+  constexpr static std::size_t addrs = 0x3b38410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::GlobalNamespace::PracticeSettings*)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8884;
+  constexpr static std::size_t addrs = 0x3b38418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_backButtonText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad888c;
+  constexpr static std::size_t addrs = 0x3b38420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(::StringW)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_backButtonText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8894;
+  constexpr static std::size_t addrs = 0x3b38428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::get_useTestNoteCutSoundEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad889c;
+  constexpr static std::size_t addrs = 0x3b38430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)(bool)>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::set_useTestNoteCutSoundEffects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad88a4;
+  constexpr static std::size_t addrs = 0x3b38438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelNoTransitionInstallerData::*)()>(
     &::GlobalNamespace::StandardLevelNoTransitionInstallerData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad88b0;
+  constexpr static std::size_t addrs = 0x3b38444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const&
+constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const&
 GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
@@ -326,7 +326,7 @@ GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> const&
+constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* const&
 GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__colorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
@@ -341,7 +341,7 @@ GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__e
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
+constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const&
 GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__environmentInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfo;
@@ -355,7 +355,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::StandardLevelN
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
@@ -367,8 +367,7 @@ constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::StandardL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const&
-GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__playerSpecificSettings() const {
+constexpr ::GlobalNamespace::PlayerSpecificSettings* const& GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__playerSpecificSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
@@ -380,7 +379,7 @@ constexpr ::GlobalNamespace::PracticeSettings*& GlobalNamespace::StandardLevelNo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____practiceSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__practiceSettings() const {
+constexpr ::GlobalNamespace::PracticeSettings* const& GlobalNamespace::StandardLevelNoTransitionInstallerData::__cordl_internal_get__practiceSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____practiceSettings;
 }
@@ -540,13 +539,13 @@ inline void GlobalNamespace::StandardLevelNoTransitionInstallerData::set_useTest
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* GlobalNamespace::StandardLevelNoTransitionInstallerData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelNoTransitionInstallerData*>());
-}
 inline void GlobalNamespace::StandardLevelNoTransitionInstallerData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelNoTransitionInstallerData*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* GlobalNamespace::StandardLevelNoTransitionInstallerData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelNoTransitionInstallerData*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelNoTransitionInstallerData::StandardLevelNoTransitionInstallerData() {}

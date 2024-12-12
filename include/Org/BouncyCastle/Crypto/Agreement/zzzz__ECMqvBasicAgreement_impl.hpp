@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/ECMqvBasicAgreement.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECMqvBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPublicKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__MqvPrivateParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26599bc;
+  constexpr static std::size_t addrs = 0x268cca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::GetFieldSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2659aa8;
+  constexpr static std::size_t addrs = 0x268cd94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::CalculateAgreement)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2659b00;
+  constexpr static std::size_t addrs = 0x268cdec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                             ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::CalculateMqvAgreement)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2659d04;
+  constexpr static std::size_t addrs = 0x268cff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2659f58;
+  constexpr static std::size_t addrs = 0x268d244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,20 +97,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
-constexpr Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
-constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*& Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::__cordl_internal_get_privParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters*> const&
-Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::__cordl_internal_get_privParams() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters* const& Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::__cordl_internal_get_privParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privParams;
 }
@@ -152,14 +143,22 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Crypto::Agreem
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(nullptr, ___internal_method, parameters, d1U, d2U, Q2U, Q1V, Q2V);
 }
-inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement* Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement*>());
-}
 inline void Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement* Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
+constexpr Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
+constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IBasicAgreement*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::ECMqvBasicAgreement::ECMqvBasicAgreement() {}

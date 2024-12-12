@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23564f8;
+  constexpr static std::size_t addrs = 0x23897e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CreateBcryptString)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x2356500;
+  constexpr static std::size_t addrs = 0x23897ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2356b34;
+  constexpr static std::size_t addrs = 0x2389e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::Generate)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x2356bac;
+  constexpr static std::size_t addrs = 0x2389e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::CheckPassword)> {
   constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x2356f48;
+  constexpr static std::size_t addrs = 0x238a234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::EncodeData)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x23567e0;
+  constexpr static std::size_t addrs = 0x2389acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::DecodeSaltString)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x2357450;
+  constexpr static std::size_t addrs = 0x238a73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,9 +147,6 @@ inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::setStaticF_All
 inline ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::getStaticF_AllowedVersions() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Utilities::Collections::ISet*, "AllowedVersions",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get>();
-}
-inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>());
 }
 inline void Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(),
@@ -200,6 +197,9 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Generator
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>::get(), "DecodeSaltString",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, saltString);
+}
+inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt::OpenBsdBCrypt() {}

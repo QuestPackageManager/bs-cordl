@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::*)(uint32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40933a4;
+  constexpr static std::size_t addrs = 0x40f46b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40933cc;
+  constexpr static std::size_t addrs = 0x40f46e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40933d4;
+  constexpr static std::size_t addrs = 0x40f46e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::Run)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4093414;
+  constexpr static std::size_t addrs = 0x40f4728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::System::Object*, ::System::Func_2<int32_t, int32_t>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*)>(
     &::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::ToDebugString)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x40934ac;
+  constexpr static std::size_t addrs = 0x40f47c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::ToString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40935f0;
+  constexpr static std::size_t addrs = 0x40f4904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,9 +113,6 @@ constexpr uint32_t const& System::Linq::Expressions::Interpreter::LoadCachedObje
 constexpr void System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::__cordl_internal_set__index(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
-}
-inline ::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction* System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::New_ctor(uint32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction*>(index));
 }
 inline void System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::_ctor(uint32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -154,6 +151,9 @@ inline ::StringW System::Linq::Expressions::Interpreter::LoadCachedObjectInstruc
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction* System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::New_ctor(uint32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction*>(index));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::LoadCachedObjectInstruction::LoadCachedObjectInstruction() {}

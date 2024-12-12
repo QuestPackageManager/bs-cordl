@@ -14,11 +14,10 @@ class SelectLevelPackDestination;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectLevelPackDestination);
-// Type: ::SelectLevelPackDestination
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MenuDestination
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectLevelPackDestination*
+// CS Name: SelectLevelPackDestination
 class CORDL_TYPE SelectLevelPackDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
 
   static inline ::GlobalNamespace::SelectLevelPackDestination* New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
+  constexpr ::GlobalNamespace::BeatmapLevelPack* const& __cordl_internal_get_beatmapLevelPack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
+  constexpr ::GlobalNamespace::BeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
 
   constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::BeatmapLevelPack* value);
 
-  /// @brief Method .ctor, addr 0x2678340, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac8f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectLevelPackDestination(SelectLevelPackDestination const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12816 };
+
   /// @brief Field beatmapLevelPack, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelPack* ___beatmapLevelPack;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelPackDestination, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SelectLevelPackDestination, ___beatmapLevelPack) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLevelPackDestination, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectLevelPackDestination);

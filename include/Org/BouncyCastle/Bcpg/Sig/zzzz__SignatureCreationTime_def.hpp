@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignatureCreationTime)
 namespace System {
@@ -16,28 +15,27 @@ class SignatureCreationTime;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime);
-// Type: Org.BouncyCastle.Bcpg.Sig::SignatureCreationTime
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::SignatureCreationTime*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.SignatureCreationTime
 class CORDL_TYPE SignatureCreationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x260a704, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x263d9f0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::DateTime GetTime();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, ::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::SignatureCreationTime* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method TimeToBytes, addr 0x260a588, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x263d874, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x260a6b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d9a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x260a670, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d95c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

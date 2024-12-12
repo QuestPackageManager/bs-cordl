@@ -3,8 +3,6 @@
 #include "UnityEngine/TextCore/Text/zzzz__TagUnitType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TagValueType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__RichTextTagAttribute_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TagUnitType_def.hpp"
-#include "UnityEngine/TextCore/Text/zzzz__TagValueType_def.hpp"
 // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "valueType", ty: "::UnityEngine::TextCore::Text::TagValueType", modifiers: "", def_value: Some("{}") }, CppParam { name: "valueStartIndex", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "valueLength", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unitType", ty: "::UnityEngine::TextCore::Text::TagUnitType", modifiers: "",

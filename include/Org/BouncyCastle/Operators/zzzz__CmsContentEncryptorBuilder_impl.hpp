@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::GetKeySize)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2380e58;
+  constexpr static std::size_t addrs = 0x23b4144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2380ffc;
+  constexpr static std::size_t addrs = 0x23b42e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t)>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x238106c;
+  constexpr static std::size_t addrs = 0x23b4358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* (
     ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::*)()>(&::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::Build)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23810e8;
+  constexpr static std::size_t addrs = 0x23b43d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,8 +71,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::Op
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionOID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const&
-Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__cordl_internal_get_encryptionOID() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__cordl_internal_get_encryptionOID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encryptionOID;
 }
@@ -96,7 +95,7 @@ constexpr ::Org::BouncyCastle::Cms::EnvelopedDataHelper*& Org::BouncyCastle::Ope
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::EnvelopedDataHelper*> const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__cordl_internal_get_helper() const {
+constexpr ::Org::BouncyCastle::Cms::EnvelopedDataHelper* const& Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::__cordl_internal_get_helper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___helper;
 }
@@ -119,18 +118,11 @@ inline int32_t Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::GetKeyS
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, oid);
 }
-inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(encryptionOID));
-}
 inline void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, encryptionOID);
-}
-inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
-                                                                                                                                      int32_t keySize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(encryptionOID, keySize));
 }
 inline void Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,6 +135,13 @@ inline ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* Org::BouncyCastle::Op
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>::get(),
                                                                              "Build", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(encryptionOID));
+}
+inline ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder* Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
+                                                                                                                                      int32_t keySize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder*>(encryptionOID, keySize));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder::CmsContentEncryptorBuilder() {}

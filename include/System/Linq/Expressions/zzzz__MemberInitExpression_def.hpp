@@ -20,11 +20,10 @@ class MemberInitExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::MemberInitExpression);
-// Type: System.Linq.Expressions::MemberInitExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::MemberInitExpression*
+// CS Name: System.Linq.Expressions.MemberInitExpression
 class CORDL_TYPE MemberInitExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -41,23 +40,22 @@ public:
   __declspec(property(get = __cordl_internal_get__NewExpression_k__BackingField,
                       put = __cordl_internal_set__NewExpression_k__BackingField)) ::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField;
 
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* const& __cordl_internal_get__Bindings_k__BackingField() const;
+
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*& __cordl_internal_get__Bindings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>*> const&
-  __cordl_internal_get__Bindings_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::NewExpression* const& __cordl_internal_get__NewExpression_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::NewExpression*& __cordl_internal_get__NewExpression_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::NewExpression*> const& __cordl_internal_get__NewExpression_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Bindings_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* value);
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Bindings, addr 0x4057c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindings, addr 0x40b8fa0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* get_Bindings();
 
-  /// @brief Method get_NewExpression, addr 0x4057c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x40b8f98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:
@@ -74,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberInitExpression(MemberInitExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13702 };
+
   /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;
 
   /// @brief Field <Bindings>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::MemberBinding*>* ____Bindings_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13668 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MemberInitExpression, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::MemberInitExpression, ____NewExpression_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::MemberInitExpression, ____Bindings_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::MemberInitExpression, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::MemberInitExpression);

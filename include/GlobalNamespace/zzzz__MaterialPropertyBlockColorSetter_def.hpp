@@ -20,11 +20,10 @@ class MaterialPropertyBlockColorSetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorSetter);
-// Type: ::MaterialPropertyBlockColorSetter
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockColorSetter*
+// CS Name: MaterialPropertyBlockColorSetter
 class CORDL_TYPE MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,21 +61,21 @@ public:
   __declspec(property(get = get_materialPropertyBlockController, put = set_materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       materialPropertyBlockController;
 
-  /// @brief Method AddNecessaryComponents, addr 0x398fd6c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddNecessaryComponents, addr 0x39e673c, size 0xf0, virtual false, abstract: false, final false
   inline void AddNecessaryComponents();
 
-  /// @brief Method Awake, addr 0x398fc28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e65f8, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x398fc58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39e6628, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x398fcf0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e66c0, size 0x7c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColor, addr 0x398e244, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x39e4c14, size 0xe0, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr bool const& __cordl_internal_get__disableOnZeroAlpha() const;
@@ -133,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set__useTestColor(bool value);
 
-  /// @brief Method .ctor, addr 0x398fe5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e682c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x398fbec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e65bc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0x398fc18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x39e65e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController, addr 0x398fc20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x39e65f0, size 0x8, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
 protected:
@@ -158,6 +157,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockColorSetter(MaterialPropertyBlockColorSetter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16346 };
 
   /// @brief Field _useTestColor, offset: 0x20, size: 0x1, def value: None
   bool ____useTestColor;
@@ -186,14 +188,9 @@ public:
   /// @brief Field _isInitialized, offset: 0x50, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16311 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorSetter, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____useTestColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____testColor) == 0x24, "Offset mismatch!");
@@ -211,6 +208,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____propertyId) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorSetter, ____isInitialized) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorSetter, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockColorSetter);

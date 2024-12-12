@@ -9,7 +9,7 @@ namespace Oculus::Platform::Models {
 class LivestreamingStatus;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Message_1_Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -17,16 +17,15 @@ class Livestreaming;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Livestreaming);
-// Type: Oculus.Platform::Livestreaming
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::Livestreaming*
+// CS Name: Oculus.Platform.Livestreaming
 class CORDL_TYPE Livestreaming : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f29b44, size 0x74, virtual false, abstract: false, final false
-  static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
+  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x3f89bf0, size 0x74, virtual false, abstract: false, final false
+  static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
 
 protected:
   // Ctor Parameters []
@@ -43,7 +42,7 @@ public:
   Livestreaming(Livestreaming const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,37 +3,34 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GenericLogger)
 namespace GlobalNamespace {
-class IVerboseLogger;
+class GenericLogger_ScopedStopwatch;
 }
 namespace GlobalNamespace {
-class __GenericLogger__ScopedStopwatch;
+class IVerboseLogger;
 }
 namespace System::Diagnostics {
 class Stopwatch;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class GenericLogger;
 }
 namespace GlobalNamespace {
-class __GenericLogger__ScopedStopwatch;
+class GenericLogger_ScopedStopwatch;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GenericLogger);
-MARK_REF_PTR_T(::GlobalNamespace::__GenericLogger__ScopedStopwatch);
-// Type: ::ScopedStopwatch
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::GenericLogger_ScopedStopwatch);
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GenericLogger::ScopedStopwatch*
-class CORDL_TYPE __GenericLogger__ScopedStopwatch : public ::System::Object {
+// CS Name: GenericLogger/ScopedStopwatch
+class CORDL_TYPE GenericLogger_ScopedStopwatch : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _processName, offset 0x10, size 0x8
@@ -45,24 +42,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x396ab54, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x39c0040, size 0xf0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  static inline ::GlobalNamespace::__GenericLogger__ScopedStopwatch* New_ctor(::StringW processName);
+  static inline ::GlobalNamespace::GenericLogger_ScopedStopwatch* New_ctor(::StringW processName);
 
   constexpr ::StringW const& __cordl_internal_get__processName() const;
 
   constexpr ::StringW& __cordl_internal_get__processName();
 
-  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
+  constexpr ::System::Diagnostics::Stopwatch* const& __cordl_internal_get__stopwatch() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
+  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
   constexpr void __cordl_internal_set__processName(::StringW value);
 
   constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method .ctor, addr 0x396aa78, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39bff64, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::StringW processName);
 
   /// @brief Convert to "::System::IDisposable"
@@ -71,16 +68,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GenericLogger__ScopedStopwatch();
+  constexpr GenericLogger_ScopedStopwatch();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GenericLogger__ScopedStopwatch", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericLogger_ScopedStopwatch", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __GenericLogger__ScopedStopwatch(__GenericLogger__ScopedStopwatch&&) = delete;
+  GenericLogger_ScopedStopwatch(GenericLogger_ScopedStopwatch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GenericLogger__ScopedStopwatch", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GenericLogger_ScopedStopwatch", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __GenericLogger__ScopedStopwatch(__GenericLogger__ScopedStopwatch const&) = delete;
+  GenericLogger_ScopedStopwatch(GenericLogger_ScopedStopwatch const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16388 };
 
   /// @brief Field _processName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____processName;
@@ -88,39 +88,35 @@ public:
   /// @brief Field _stopwatch, offset: 0x18, size: 0x8, def value: None
   ::System::Diagnostics::Stopwatch* ____stopwatch;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16352 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GenericLogger__ScopedStopwatch, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GenericLogger_ScopedStopwatch, ____processName) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GenericLogger__ScopedStopwatch, ____processName) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GenericLogger_ScopedStopwatch, ____stopwatch) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GenericLogger__ScopedStopwatch, ____stopwatch) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GenericLogger_ScopedStopwatch, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::GenericLogger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GenericLogger*
+// CS Name: GenericLogger
 class CORDL_TYPE GenericLogger : public ::System::Object {
 public:
   // Declarations
-  using ScopedStopwatch = ::GlobalNamespace::__GenericLogger__ScopedStopwatch;
+  using ScopedStopwatch = ::GlobalNamespace::GenericLogger_ScopedStopwatch;
 
-  /// @brief Method Format, addr 0x396a7d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x39bfcc0, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW Format(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
-  /// @brief Method Log, addr 0x396a8c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x39bfdac, size 0x78, virtual false, abstract: false, final false
   static inline void Log(::GlobalNamespace::IVerboseLogger* logger, ::StringW message);
 
   /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Log(T logger, ::StringW message);
 
-  /// @brief Method LogWithTimestamp, addr 0x396a938, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LogWithTimestamp, addr 0x39bfe24, size 0x140, virtual false, abstract: false, final false
   static inline void LogWithTimestamp(::StringW message);
 
 protected:
@@ -138,7 +134,7 @@ public:
   GenericLogger(GenericLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16389 };
 
   /// @brief Field kVerboseLogDefineSymbol offset 0xffffffff size 0x8
   static constexpr ::ConstString kVerboseLogDefineSymbol{ u"BS_VERBOSE_LOGGING" };
@@ -151,5 +147,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GenericLogger, 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GenericLogger);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GenericLogger*, "", "GenericLogger");
-NEED_NO_BOX(::GlobalNamespace::__GenericLogger__ScopedStopwatch);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GenericLogger__ScopedStopwatch*, "", "GenericLogger/ScopedStopwatch");
+NEED_NO_BOX(::GlobalNamespace::GenericLogger_ScopedStopwatch);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GenericLogger_ScopedStopwatch*, "", "GenericLogger/ScopedStopwatch");

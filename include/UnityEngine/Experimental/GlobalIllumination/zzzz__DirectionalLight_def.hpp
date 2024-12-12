@@ -11,29 +11,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DirectionalLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct DirectionalLight;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight);
-// Type: UnityEngine.Experimental.GlobalIllumination::DirectionalLight
-// SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::DirectionalLight
+// CS Name: UnityEngine.Experimental.GlobalIllumination.DirectionalLight
 struct CORDL_TYPE DirectionalLight {
 public:
   // Declarations
@@ -49,6 +36,12 @@ public:
   constexpr DirectionalLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                              ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor,
                              float_t penumbraWidthRadian, ::UnityEngine::Vector3 direction) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11295 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;
@@ -77,17 +70,9 @@ public:
   /// @brief Field direction, offset: 0x48, size: 0xc, def value: None
   ::UnityEngine::Vector3 direction;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11262 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, 0x54>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, instanceID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, shadow) == 0x4, "Offset mismatch!");
@@ -105,6 +90,8 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::Directio
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, penumbraWidthRadian) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, direction) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, 0x54>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::DirectionalLight, "UnityEngine.Experimental.GlobalIllumination", "DirectionalLight");

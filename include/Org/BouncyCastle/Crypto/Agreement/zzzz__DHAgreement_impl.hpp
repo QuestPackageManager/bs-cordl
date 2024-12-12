@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::DHAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHAgreement::Init)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2657f2c;
+  constexpr static std::size_t addrs = 0x268b218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::DHAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::DHAgreement::CalculateMessage)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x26580d8;
+  constexpr static std::size_t addrs = 0x268b3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::DHAgreement*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Agreement::DHAgreement::*)(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Agreement::DHAgreement::CalculateAgreement)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x2658240;
+  constexpr static std::size_t addrs = 0x268b52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::DHAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::DHAgreement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26584c4;
+  constexpr static std::size_t addrs = 0x268b7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::DHAgreement*>::get(),
@@ -72,8 +72,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& Org:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_key() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___key;
 }
@@ -85,7 +84,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dhParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_dhParams() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_dhParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dhParams;
 }
@@ -97,7 +96,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Agr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_privateValue() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_privateValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateValue;
 }
@@ -109,7 +108,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Agreement::DHAgreement::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -136,13 +135,13 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Agreeme
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method, pub, message);
 }
-inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* Org::BouncyCastle::Crypto::Agreement::DHAgreement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::DHAgreement*>());
-}
 inline void Org::BouncyCastle::Crypto::Agreement::DHAgreement::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::DHAgreement*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* Org::BouncyCastle::Crypto::Agreement::DHAgreement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::DHAgreement*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::DHAgreement::DHAgreement() {}

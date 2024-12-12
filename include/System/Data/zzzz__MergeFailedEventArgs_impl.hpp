@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::MergeFailedEventArgs::*)(::System::Data::DataTable*, ::StringW)>(
     &::System::Data::MergeFailedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x411e8bc;
+  constexpr static std::size_t addrs = 0x417fbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::MergeFailedEventArgs::*)()>(&::System::Data::MergeFailedEventArgs::get_Conflict)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411e92c;
+  constexpr static std::size_t addrs = 0x417fc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::MergeFailedEventArgs*>::get(), "get_Conflict",
@@ -36,7 +36,7 @@ constexpr ::System::Data::DataTable*& System::Data::MergeFailedEventArgs::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Table_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::MergeFailedEventArgs::__cordl_internal_get__Table_k__BackingField() const {
+constexpr ::System::Data::DataTable* const& System::Data::MergeFailedEventArgs::__cordl_internal_get__Table_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Table_k__BackingField;
 }
@@ -56,9 +56,6 @@ constexpr void System::Data::MergeFailedEventArgs::__cordl_internal_set__Conflic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Conflict_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Data::MergeFailedEventArgs* System::Data::MergeFailedEventArgs::New_ctor(::System::Data::DataTable* table, ::StringW conflict) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::MergeFailedEventArgs*>(table, conflict));
-}
 inline void System::Data::MergeFailedEventArgs::_ctor(::System::Data::DataTable* table, ::StringW conflict) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::MergeFailedEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -70,6 +67,9 @@ inline ::StringW System::Data::MergeFailedEventArgs::get_Conflict() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::MergeFailedEventArgs*>::get(), "get_Conflict",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Data::MergeFailedEventArgs* System::Data::MergeFailedEventArgs::New_ctor(::System::Data::DataTable* table, ::StringW conflict) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::MergeFailedEventArgs*>(table, conflict));
 }
 // Ctor Parameters []
 constexpr ::System::Data::MergeFailedEventArgs::MergeFailedEventArgs() {}

@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpawnRotationChevronManager)
 namespace GlobalNamespace {
@@ -24,13 +25,19 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
+class IVariableMovementDataProvider;
+}
+namespace GlobalNamespace {
+class SpawnRotationChevronManager_DirectionData;
+}
+namespace GlobalNamespace {
+struct SpawnRotationChevronManager_QueuedDirectionData;
+}
+namespace GlobalNamespace {
+class SpawnRotationChevron_Pool;
+}
+namespace GlobalNamespace {
 class SpawnRotationChevron;
-}
-namespace GlobalNamespace {
-class __SpawnRotationChevronManager__DirectionData;
-}
-namespace GlobalNamespace {
-class __SpawnRotationChevron__Pool;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -41,6 +48,9 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
 namespace UnityEngine {
 class AnimationCurve;
 }
@@ -49,17 +59,20 @@ namespace GlobalNamespace {
 class SpawnRotationChevronManager;
 }
 namespace GlobalNamespace {
-class __SpawnRotationChevronManager__DirectionData;
+class SpawnRotationChevronManager_DirectionData;
+}
+namespace GlobalNamespace {
+struct SpawnRotationChevronManager_QueuedDirectionData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationChevronManager);
-MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData);
-// Type: ::DirectionData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::SpawnRotationChevronManager_DirectionData);
+MARK_VAL_T(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpawnRotationChevronManager::DirectionData*
-class CORDL_TYPE __SpawnRotationChevronManager__DirectionData : public ::System::Object {
+// CS Name: SpawnRotationChevronManager/DirectionData
+class CORDL_TYPE SpawnRotationChevronManager_DirectionData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field chevron, offset 0x10, size 0x8
@@ -71,10 +84,10 @@ public:
   /// @brief Field fadeOutStartTime, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_fadeOutStartTime, put = __cordl_internal_set_fadeOutStartTime)) float_t fadeOutStartTime;
 
-  /// @brief Field fullyLid, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_fullyLid, put = __cordl_internal_set_fullyLid)) bool fullyLid;
+  /// @brief Field fullyLit, offset 0x18, size 0x1
+  __declspec(property(get = __cordl_internal_get_fullyLit, put = __cordl_internal_set_fullyLit)) bool fullyLit;
 
-  static inline ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData* New_ctor();
+  static inline ::GlobalNamespace::SpawnRotationChevronManager_DirectionData* New_ctor();
 
   constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron> const& __cordl_internal_get_chevron() const;
 
@@ -88,9 +101,9 @@ public:
 
   constexpr float_t& __cordl_internal_get_fadeOutStartTime();
 
-  constexpr bool const& __cordl_internal_get_fullyLid() const;
+  constexpr bool const& __cordl_internal_get_fullyLit() const;
 
-  constexpr bool& __cordl_internal_get_fullyLid();
+  constexpr bool& __cordl_internal_get_fullyLit();
 
   constexpr void __cordl_internal_set_chevron(::UnityW<::GlobalNamespace::SpawnRotationChevron> value);
 
@@ -98,30 +111,33 @@ public:
 
   constexpr void __cordl_internal_set_fadeOutStartTime(float_t value);
 
-  constexpr void __cordl_internal_set_fullyLid(bool value);
+  constexpr void __cordl_internal_set_fullyLit(bool value);
 
-  /// @brief Method .ctor, addr 0x3b39180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9a7c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SpawnRotationChevronManager__DirectionData();
+  constexpr SpawnRotationChevronManager_DirectionData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevronManager__DirectionData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SpawnRotationChevronManager__DirectionData(__SpawnRotationChevronManager__DirectionData&&) = delete;
+  SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevronManager__DirectionData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager_DirectionData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SpawnRotationChevronManager__DirectionData(__SpawnRotationChevronManager__DirectionData const&) = delete;
+  SpawnRotationChevronManager_DirectionData(SpawnRotationChevronManager_DirectionData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4367 };
 
   /// @brief Field chevron, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SpawnRotationChevron> ___chevron;
 
-  /// @brief Field fullyLid, offset: 0x18, size: 0x1, def value: None
-  bool ___fullyLid;
+  /// @brief Field fullyLit, offset: 0x18, size: 0x1, def value: None
+  bool ___fullyLit;
 
   /// @brief Field fadeOutStartTime, offset: 0x1c, size: 0x4, def value: None
   float_t ___fadeOutStartTime;
@@ -129,34 +145,77 @@ public:
   /// @brief Field fadeInEndTime, offset: 0x20, size: 0x4, def value: None
   float_t ___fadeInEndTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4356 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_DirectionData, ___chevron) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___chevron) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_DirectionData, ___fullyLit) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fullyLid) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_DirectionData, ___fadeOutStartTime) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fadeOutStartTime) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_DirectionData, ___fadeInEndTime) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData, ___fadeInEndTime) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnRotationChevronManager_DirectionData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpawnRotationChevronManager
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: SpawnRotationChevronManager/QueuedDirectionData
+struct CORDL_TYPE SpawnRotationChevronManager_QueuedDirectionData {
+public:
+  // Declarations
+  /// @brief Method .ctor, addr 0x3b9a7cc, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, float_t duration, int32_t rotation);
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr SpawnRotationChevronManager_QueuedDirectionData();
+
+  // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "duration", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "rotation", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr SpawnRotationChevronManager_QueuedDirectionData(float_t time, float_t duration, int32_t rotation) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4368 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
+  /// @brief Field time, offset: 0x0, size: 0x4, def value: None
+  float_t time;
+
+  /// @brief Field duration, offset: 0x4, size: 0x4, def value: None
+  float_t duration;
+
+  /// @brief Field rotation, offset: 0x8, size: 0x4, def value: None
+  int32_t rotation;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData, time) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData, duration) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData, rotation) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData, 0xc>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpawnRotationChevronManager*
+// CS Name: SpawnRotationChevronManager
 class CORDL_TYPE SpawnRotationChevronManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using DirectionData = ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData;
+  using DirectionData = ::GlobalNamespace::SpawnRotationChevronManager_DirectionData;
 
-  /// @brief Field _activeDirections, offset 0x78, size 0x8
+  using QueuedDirectionData = ::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData;
+
+  /// @brief Field _activeDirections, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__activeDirections, put = __cordl_internal_set__activeDirections)) ::System::Collections::Generic::HashSet_1<int32_t>* _activeDirections;
 
   /// @brief Field _audioTimeSyncController, offset 0x48, size 0x8
@@ -166,7 +225,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapObjectDataCallbackWrapper, offset 0x68, size 0x8
+  /// @brief Field _beatmapObjectDataCallbackWrapper, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapObjectDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapObjectDataCallbackWrapper;
 
@@ -175,17 +234,17 @@ public:
       _beatmapObjectSpawnController;
 
   /// @brief Field _chevronPool, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__chevronPool, put = __cordl_internal_set__chevronPool)) ::GlobalNamespace::__SpawnRotationChevron__Pool* _chevronPool;
+  __declspec(property(get = __cordl_internal_get__chevronPool, put = __cordl_internal_set__chevronPool)) ::GlobalNamespace::SpawnRotationChevron_Pool* _chevronPool;
 
-  /// @brief Field _currentSpawnRotation, offset 0x90, size 0x4
+  /// @brief Field _currentSpawnRotation, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__currentSpawnRotation, put = __cordl_internal_set__currentSpawnRotation)) float_t _currentSpawnRotation;
 
   /// @brief Field _cutOffsetTime, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__cutOffsetTime, put = __cordl_internal_set__cutOffsetTime)) float_t _cutOffsetTime;
 
-  /// @brief Field _directionToDataDictionary, offset 0x70, size 0x8
+  /// @brief Field _directionToDataDictionary, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__directionToDataDictionary,
-                      put = __cordl_internal_set__directionToDataDictionary)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*>*
+                      put = __cordl_internal_set__directionToDataDictionary)) ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>*
       _directionToDataDictionary;
 
   /// @brief Field _fadeInLightAmountCurve, offset 0x30, size 0x8
@@ -200,65 +259,68 @@ public:
   /// @brief Field _fadeOutTime, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__fadeOutTime, put = __cordl_internal_set__fadeOutTime)) float_t _fadeOutTime;
 
-  /// @brief Field _halfJumpDuration, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get__halfJumpDuration, put = __cordl_internal_set__halfJumpDuration)) float_t _halfJumpDuration;
-
   /// @brief Field _jumpStartOffsetTime, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__jumpStartOffsetTime, put = __cordl_internal_set__jumpStartOffsetTime)) float_t _jumpStartOffsetTime;
 
-  /// @brief Field _moveDuration, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__moveDuration, put = __cordl_internal_set__moveDuration)) float_t _moveDuration;
+  /// @brief Field _queuedDirectionData, offset 0x90, size 0x8
+  __declspec(property(get = __cordl_internal_get__queuedDirectionData,
+                      put =
+                          __cordl_internal_set__queuedDirectionData)) ::System::Collections::Generic::Queue_1<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>* _queuedDirectionData;
 
-  /// @brief Field _reusableDirectionsList, offset 0x80, size 0x8
+  /// @brief Field _reusableDirectionsList, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableDirectionsList, put = __cordl_internal_set__reusableDirectionsList)) ::System::Collections::Generic::List_1<int32_t>* _reusableDirectionsList;
 
-  /// @brief Field _spawnRotationDataCallbackWrapper, offset 0x60, size 0x8
+  /// @brief Field _spawnRotationDataCallbackWrapper, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__spawnRotationDataCallbackWrapper,
                       put = __cordl_internal_set__spawnRotationDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _spawnRotationDataCallbackWrapper;
 
-  /// @brief Method ComputeAheadTime, addr 0x3b39188, size 0x5c, virtual false, abstract: false, final false
-  inline float_t ComputeAheadTime();
+  /// @brief Field _variableMovementDataProvider, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
+                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b38e2c, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x3b9a418, size 0xd4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b38210, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x3b99670, size 0x148, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b38d34, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9a320, size 0xf8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3808c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SpawnDirectionData, addr 0x3b99fa8, size 0x378, virtual false, abstract: false, final false
+  inline void SpawnDirectionData(float_t time, float_t duration, int32_t rotation);
+
+  /// @brief Method Start, addr 0x3b995d0, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b382d4, size 0xa60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b997b8, size 0x7f0, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__activeDirections() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__activeDirections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get__activeDirections() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSyncController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapObjectDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapObjectDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapObjectDataCallbackWrapper() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>& __cordl_internal_get__beatmapObjectSpawnController();
 
-  constexpr ::GlobalNamespace::__SpawnRotationChevron__Pool*& __cordl_internal_get__chevronPool();
+  constexpr ::GlobalNamespace::SpawnRotationChevron_Pool* const& __cordl_internal_get__chevronPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SpawnRotationChevron__Pool*> const& __cordl_internal_get__chevronPool() const;
+  constexpr ::GlobalNamespace::SpawnRotationChevron_Pool*& __cordl_internal_get__chevronPool();
 
   constexpr float_t const& __cordl_internal_get__currentSpawnRotation() const;
 
@@ -268,46 +330,45 @@ public:
 
   constexpr float_t& __cordl_internal_get__cutOffsetTime();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*>*& __cordl_internal_get__directionToDataDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>* const& __cordl_internal_get__directionToDataDictionary() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*>*> const&
-  __cordl_internal_get__directionToDataDictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>*& __cordl_internal_get__directionToDataDictionary();
+
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__fadeInLightAmountCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeInLightAmountCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeInLightAmountCurve() const;
 
   constexpr float_t const& __cordl_internal_get__fadeInTime() const;
 
   constexpr float_t& __cordl_internal_get__fadeInTime();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeOutLightAmountCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__fadeOutLightAmountCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeOutLightAmountCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeOutLightAmountCurve();
 
   constexpr float_t const& __cordl_internal_get__fadeOutTime() const;
 
   constexpr float_t& __cordl_internal_get__fadeOutTime();
 
-  constexpr float_t const& __cordl_internal_get__halfJumpDuration() const;
-
-  constexpr float_t& __cordl_internal_get__halfJumpDuration();
-
   constexpr float_t const& __cordl_internal_get__jumpStartOffsetTime() const;
 
   constexpr float_t& __cordl_internal_get__jumpStartOffsetTime();
 
-  constexpr float_t const& __cordl_internal_get__moveDuration() const;
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>* const& __cordl_internal_get__queuedDirectionData() const;
 
-  constexpr float_t& __cordl_internal_get__moveDuration();
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>*& __cordl_internal_get__queuedDirectionData();
+
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__reusableDirectionsList() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__reusableDirectionsList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__reusableDirectionsList() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__spawnRotationDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__spawnRotationDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__spawnRotationDataCallbackWrapper() const;
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+
+  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
 
   constexpr void __cordl_internal_set__activeDirections(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -319,13 +380,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectSpawnController(::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> value);
 
-  constexpr void __cordl_internal_set__chevronPool(::GlobalNamespace::__SpawnRotationChevron__Pool* value);
+  constexpr void __cordl_internal_set__chevronPool(::GlobalNamespace::SpawnRotationChevron_Pool* value);
 
   constexpr void __cordl_internal_set__currentSpawnRotation(float_t value);
 
   constexpr void __cordl_internal_set__cutOffsetTime(float_t value);
 
-  constexpr void __cordl_internal_set__directionToDataDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*>* value);
+  constexpr void __cordl_internal_set__directionToDataDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>* value);
 
   constexpr void __cordl_internal_set__fadeInLightAmountCurve(::UnityEngine::AnimationCurve* value);
 
@@ -335,17 +396,17 @@ public:
 
   constexpr void __cordl_internal_set__fadeOutTime(float_t value);
 
-  constexpr void __cordl_internal_set__halfJumpDuration(float_t value);
-
   constexpr void __cordl_internal_set__jumpStartOffsetTime(float_t value);
 
-  constexpr void __cordl_internal_set__moveDuration(float_t value);
+  constexpr void __cordl_internal_set__queuedDirectionData(::System::Collections::Generic::Queue_1<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>* value);
 
   constexpr void __cordl_internal_set__reusableDirectionsList(::System::Collections::Generic::List_1<int32_t>* value);
 
   constexpr void __cordl_internal_set__spawnRotationDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x3b391e4, size 0x14, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
+
+  /// @brief Method .ctor, addr 0x3b9a4ec, size 0x2d8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -361,6 +422,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevronManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SpawnRotationChevronManager(SpawnRotationChevronManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
 
   /// @brief Field _fadeInTime, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInTime;
@@ -381,7 +445,7 @@ public:
   ::UnityEngine::AnimationCurve* ____fadeOutLightAmountCurve;
 
   /// @brief Field _chevronPool, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::__SpawnRotationChevron__Pool* ____chevronPool;
+  ::GlobalNamespace::SpawnRotationChevron_Pool* ____chevronPool;
 
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
@@ -392,38 +456,33 @@ public:
   /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _spawnRotationDataCallbackWrapper, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _variableMovementDataProvider, offset: 0x60, size: 0x8, def value: None
+  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
+
+  /// @brief Field _spawnRotationDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____spawnRotationDataCallbackWrapper;
 
-  /// @brief Field _beatmapObjectDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _beatmapObjectDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapObjectDataCallbackWrapper;
 
-  /// @brief Field _directionToDataDictionary, offset: 0x70, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*>* ____directionToDataDictionary;
+  /// @brief Field _directionToDataDictionary, offset: 0x78, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::SpawnRotationChevronManager_DirectionData*>* ____directionToDataDictionary;
 
-  /// @brief Field _activeDirections, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _activeDirections, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ____activeDirections;
 
-  /// @brief Field _reusableDirectionsList, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _reusableDirectionsList, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ____reusableDirectionsList;
 
-  /// @brief Field _moveDuration, offset: 0x88, size: 0x4, def value: None
-  float_t ____moveDuration;
+  /// @brief Field _queuedDirectionData, offset: 0x90, size: 0x8, def value: None
+  ::System::Collections::Generic::Queue_1<::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData>* ____queuedDirectionData;
 
-  /// @brief Field _halfJumpDuration, offset: 0x8c, size: 0x4, def value: None
-  float_t ____halfJumpDuration;
-
-  /// @brief Field _currentSpawnRotation, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field _currentSpawnRotation, offset: 0x98, size: 0x4, def value: None
   float_t ____currentSpawnRotation;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4357 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnRotationChevronManager, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeInTime) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____fadeOutTime) == 0x24, "Offset mismatch!");
@@ -444,24 +503,27 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatm
 
 static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapCallbacksController) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____spawnRotationDataCallbackWrapper) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____variableMovementDataProvider) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapObjectDataCallbackWrapper) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____spawnRotationDataCallbackWrapper) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____directionToDataDictionary) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____beatmapObjectDataCallbackWrapper) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____activeDirections) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____directionToDataDictionary) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____reusableDirectionsList) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____activeDirections) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____moveDuration) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____reusableDirectionsList) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____halfJumpDuration) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____queuedDirectionData) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____currentSpawnRotation) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpawnRotationChevronManager, ____currentSpawnRotation) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnRotationChevronManager, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevronManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationChevronManager*, "", "SpawnRotationChevronManager");
-NEED_NO_BOX(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SpawnRotationChevronManager__DirectionData*, "", "SpawnRotationChevronManager/DirectionData");
+NEED_NO_BOX(::GlobalNamespace::SpawnRotationChevronManager_DirectionData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationChevronManager_DirectionData*, "", "SpawnRotationChevronManager/DirectionData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpawnRotationChevronManager_QueuedDirectionData, "", "SpawnRotationChevronManager/QueuedDirectionData");

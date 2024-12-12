@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Xml/Schema/XsdBuilder.hpp"
 #include "System/Xml/Schema/zzzz__SchemaBuilder_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNames_impl.hpp"
-#include "System/Xml/Schema/zzzz__XsdBuilder_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -60,479 +59,472 @@
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::Schema::__XsdBuilder__State::__XsdBuilder__State(int32_t value__) noexcept {
+constexpr ::System::Xml::Schema::XsdBuilder_State::XsdBuilder_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__State::__XsdBuilder__State() {}
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Root{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Schema{ static_cast<int32_t>(0x1) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Annotation{ static_cast<int32_t>(0x2) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Include{ static_cast<int32_t>(0x3) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Import{ static_cast<int32_t>(0x4) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Element{ static_cast<int32_t>(0x5) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Attribute{ static_cast<int32_t>(0x6) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::AttributeGroup{ static_cast<int32_t>(0x7) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::AttributeGroupRef{ static_cast<int32_t>(0x8) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::AnyAttribute{ static_cast<int32_t>(0x9) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Group{ static_cast<int32_t>(0xa) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::GroupRef{ static_cast<int32_t>(0xb) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::All{ static_cast<int32_t>(0xc) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Choice{ static_cast<int32_t>(0xd) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Sequence{ static_cast<int32_t>(0xe) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Any{ static_cast<int32_t>(0xf) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Notation{ static_cast<int32_t>(0x10) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleType{ static_cast<int32_t>(0x11) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::ComplexType{ static_cast<int32_t>(0x12) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::ComplexContent{ static_cast<int32_t>(0x13) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::ComplexContentRestriction{ static_cast<int32_t>(0x14) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::ComplexContentExtension{ static_cast<int32_t>(0x15) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleContent{ static_cast<int32_t>(0x16) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleContentExtension{ static_cast<int32_t>(0x17) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleContentRestriction{ static_cast<int32_t>(0x18) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleTypeUnion{ static_cast<int32_t>(0x19) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleTypeList{ static_cast<int32_t>(0x1a) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::SimpleTypeRestriction{ static_cast<int32_t>(0x1b) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Unique{ static_cast<int32_t>(0x1c) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Key{ static_cast<int32_t>(0x1d) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::KeyRef{ static_cast<int32_t>(0x1e) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Selector{ static_cast<int32_t>(0x1f) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Field{ static_cast<int32_t>(0x20) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MinExclusive{ static_cast<int32_t>(0x21) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MinInclusive{ static_cast<int32_t>(0x22) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MaxExclusive{ static_cast<int32_t>(0x23) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MaxInclusive{ static_cast<int32_t>(0x24) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::TotalDigits{ static_cast<int32_t>(0x25) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::FractionDigits{ static_cast<int32_t>(0x26) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Length{ static_cast<int32_t>(0x27) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MinLength{ static_cast<int32_t>(0x28) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::MaxLength{ static_cast<int32_t>(0x29) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Enumeration{ static_cast<int32_t>(0x2a) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Pattern{ static_cast<int32_t>(0x2b) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::WhiteSpace{ static_cast<int32_t>(0x2c) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::AppInfo{ static_cast<int32_t>(0x2d) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Documentation{ static_cast<int32_t>(0x2e) };
-constexpr ::System::Xml::Schema::__XsdBuilder__State System::Xml::Schema::__XsdBuilder__State::Redefine{ static_cast<int32_t>(0x2f) };
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_State::XsdBuilder_State() {}
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Root{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Schema{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Annotation{ static_cast<int32_t>(0x2) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Include{ static_cast<int32_t>(0x3) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Import{ static_cast<int32_t>(0x4) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Element{ static_cast<int32_t>(0x5) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Attribute{ static_cast<int32_t>(0x6) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::AttributeGroup{ static_cast<int32_t>(0x7) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::AttributeGroupRef{ static_cast<int32_t>(0x8) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::AnyAttribute{ static_cast<int32_t>(0x9) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Group{ static_cast<int32_t>(0xa) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::GroupRef{ static_cast<int32_t>(0xb) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::All{ static_cast<int32_t>(0xc) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Choice{ static_cast<int32_t>(0xd) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Sequence{ static_cast<int32_t>(0xe) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Any{ static_cast<int32_t>(0xf) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Notation{ static_cast<int32_t>(0x10) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleType{ static_cast<int32_t>(0x11) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::ComplexType{ static_cast<int32_t>(0x12) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::ComplexContent{ static_cast<int32_t>(0x13) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::ComplexContentRestriction{ static_cast<int32_t>(0x14) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::ComplexContentExtension{ static_cast<int32_t>(0x15) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleContent{ static_cast<int32_t>(0x16) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleContentExtension{ static_cast<int32_t>(0x17) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleContentRestriction{ static_cast<int32_t>(0x18) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleTypeUnion{ static_cast<int32_t>(0x19) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleTypeList{ static_cast<int32_t>(0x1a) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::SimpleTypeRestriction{ static_cast<int32_t>(0x1b) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Unique{ static_cast<int32_t>(0x1c) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Key{ static_cast<int32_t>(0x1d) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::KeyRef{ static_cast<int32_t>(0x1e) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Selector{ static_cast<int32_t>(0x1f) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Field{ static_cast<int32_t>(0x20) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MinExclusive{ static_cast<int32_t>(0x21) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MinInclusive{ static_cast<int32_t>(0x22) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MaxExclusive{ static_cast<int32_t>(0x23) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MaxInclusive{ static_cast<int32_t>(0x24) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::TotalDigits{ static_cast<int32_t>(0x25) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::FractionDigits{ static_cast<int32_t>(0x26) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Length{ static_cast<int32_t>(0x27) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MinLength{ static_cast<int32_t>(0x28) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::MaxLength{ static_cast<int32_t>(0x29) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Enumeration{ static_cast<int32_t>(0x2a) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Pattern{ static_cast<int32_t>(0x2b) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::WhiteSpace{ static_cast<int32_t>(0x2c) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::AppInfo{ static_cast<int32_t>(0x2d) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Documentation{ static_cast<int32_t>(0x2e) };
+constexpr ::System::Xml::Schema::XsdBuilder_State System::Xml::Schema::XsdBuilder_State::Redefine{ static_cast<int32_t>(0x2f) };
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdBuildFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdBuildFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdBuildFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdBuildFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XsdBuilder_XsdBuildFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4299b54;
+  constexpr static std::size_t addrs = 0x42fae68;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdBuildFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdBuildFunction::*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdBuildFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdBuildFunction::*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
+    &::System::Xml::Schema::XsdBuilder_XsdBuildFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4299bf4;
+  constexpr static std::size_t addrs = 0x42faf08;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* System::Xml::Schema::__XsdBuilder__XsdBuildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XsdBuilder__XsdBuildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::Xml::Schema::XsdBuilder_XsdBuildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XsdBuilder__XsdBuildFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get(), 13)));
+inline void System::Xml::Schema::XsdBuilder_XsdBuildFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder, value);
 }
+inline ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* System::Xml::Schema::XsdBuilder_XsdBuildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction::__XsdBuilder__XsdBuildFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdInitFunction._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_XsdBuildFunction::XsdBuilder_XsdBuildFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdInitFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdInitFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdInitFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdInitFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XsdBuilder_XsdInitFunction::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4299c08;
+  constexpr static std::size_t addrs = 0x42faf1c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdInitFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdInitFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdInitFunction::*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdInitFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdInitFunction::*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
+    &::System::Xml::Schema::XsdBuilder_XsdInitFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4299ca8;
+  constexpr static std::size_t addrs = 0x42fafbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XsdBuilder__XsdInitFunction* System::Xml::Schema::__XsdBuilder__XsdInitFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XsdBuilder__XsdInitFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::Xml::Schema::XsdBuilder_XsdInitFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XsdBuilder__XsdInitFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(), 13)));
+inline void System::Xml::Schema::XsdBuilder_XsdInitFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder, ::StringW value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder, value);
 }
+inline ::System::Xml::Schema::XsdBuilder_XsdInitFunction* System::Xml::Schema::XsdBuilder_XsdInitFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdInitFunction::__XsdBuilder__XsdInitFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_XsdInitFunction::XsdBuilder_XsdInitFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdEndChildFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::Xml::Schema::XsdBuilder_XsdEndChildFunction::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4299cbc;
+  constexpr static std::size_t addrs = 0x42fafd0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction.Invoke
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::*)(::System::Xml::Schema::XsdBuilder*)>(
-    &::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdEndChildFunction::*)(::System::Xml::Schema::XsdBuilder*)>(
+    &::System::Xml::Schema::XsdBuilder_XsdEndChildFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4299d58;
+  constexpr static std::size_t addrs = 0x42fb06c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>(object, method));
-}
-inline void System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(),
+inline void System::Xml::Schema::XsdBuilder_XsdEndChildFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder) {
+inline void System::Xml::Schema::XsdBuilder_XsdEndChildFunction::Invoke(::System::Xml::Schema::XsdBuilder* builder) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, builder);
 }
+inline ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* System::Xml::Schema::XsdBuilder_XsdEndChildFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction::__XsdBuilder__XsdEndChildFunction() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction::XsdBuilder_XsdEndChildFunction() {}
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdAttributeEntry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::*)(
-    ::System::Xml::Schema::__SchemaNames__Token, ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*)>(&::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdAttributeEntry::*)(
+    ::System::Xml::Schema::SchemaNames_Token, ::System::Xml::Schema::XsdBuilder_XsdBuildFunction*)>(&::System::Xml::Schema::XsdBuilder_XsdAttributeEntry::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4299d6c;
+  constexpr static std::size_t addrs = 0x42fb080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__SchemaNames__Token& System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_get_Attribute() {
+constexpr ::System::Xml::Schema::SchemaNames_Token& System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_get_Attribute() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attribute;
 }
-constexpr ::System::Xml::Schema::__SchemaNames__Token const& System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_get_Attribute() const {
+constexpr ::System::Xml::Schema::SchemaNames_Token const& System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_get_Attribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attribute;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_set_Attribute(::System::Xml::Schema::__SchemaNames__Token value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_set_Attribute(::System::Xml::Schema::SchemaNames_Token value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Attribute = value;
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*& System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_get_BuildFunc() {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdBuildFunction*& System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_get_BuildFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BuildFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*> const&
-System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_get_BuildFunc() const {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* const& System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_get_BuildFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BuildFunc;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__cordl_internal_set_BuildFunc(::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdAttributeEntry::__cordl_internal_set_BuildFunc(::System::Xml::Schema::XsdBuilder_XsdBuildFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___BuildFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry* System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::New_ctor(::System::Xml::Schema::__SchemaNames__Token a,
-                                                                                                                              ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* build) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>(a, build));
-}
-inline void System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::_ctor(::System::Xml::Schema::__SchemaNames__Token a, ::System::Xml::Schema::__XsdBuilder__XsdBuildFunction* build) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdBuildFunction*>::get() })));
+inline void System::Xml::Schema::XsdBuilder_XsdAttributeEntry::_ctor(::System::Xml::Schema::SchemaNames_Token a, ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* build) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdBuildFunction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, build);
 }
+inline ::System::Xml::Schema::XsdBuilder_XsdAttributeEntry* System::Xml::Schema::XsdBuilder_XsdAttributeEntry::New_ctor(::System::Xml::Schema::SchemaNames_Token a,
+                                                                                                                        ::System::Xml::Schema::XsdBuilder_XsdBuildFunction* build) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>(a, build));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry::__XsdBuilder__XsdAttributeEntry() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__XsdEntry._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_XsdAttributeEntry::XsdBuilder_XsdAttributeEntry() {}
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_XsdEntry._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__XsdEntry::*)(
-    ::System::Xml::Schema::__SchemaNames__Token, ::System::Xml::Schema::__XsdBuilder__State, ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>,
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, ::System::Xml::Schema::__XsdBuilder__XsdInitFunction*,
-    ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*, bool)>(&::System::Xml::Schema::__XsdBuilder__XsdEntry::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_XsdEntry::*)(
+    ::System::Xml::Schema::SchemaNames_Token, ::System::Xml::Schema::XsdBuilder_State, ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>,
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, ::System::Xml::Schema::XsdBuilder_XsdInitFunction*,
+    ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*, bool)>(&::System::Xml::Schema::XsdBuilder_XsdEntry::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4299d9c;
+  constexpr static std::size_t addrs = 0x42fb0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(),
+                ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::Schema::__SchemaNames__Token& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_Name() {
+constexpr ::System::Xml::Schema::SchemaNames_Token& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_Name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
-constexpr ::System::Xml::Schema::__SchemaNames__Token const& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_Name() const {
+constexpr ::System::Xml::Schema::SchemaNames_Token const& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_Name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Name;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_Name(::System::Xml::Schema::__SchemaNames__Token value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_Name(::System::Xml::Schema::SchemaNames_Token value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Name = value;
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__State& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_CurrentState() {
+constexpr ::System::Xml::Schema::XsdBuilder_State& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_CurrentState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CurrentState;
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__State const& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_CurrentState() const {
+constexpr ::System::Xml::Schema::XsdBuilder_State const& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_CurrentState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CurrentState;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_CurrentState(::System::Xml::Schema::__XsdBuilder__State value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_CurrentState(::System::Xml::Schema::XsdBuilder_State value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___CurrentState = value;
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_NextStates() {
+constexpr ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_NextStates() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NextStates;
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> const&
-System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_NextStates() const {
+constexpr ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> const&
+System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_NextStates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NextStates;
 }
-constexpr void
-System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_NextStates(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_NextStates(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___NextStates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>&
-System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_Attributes() {
+constexpr ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>&
+System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_Attributes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attributes;
 }
-constexpr ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> const&
-System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_Attributes() const {
+constexpr ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> const&
+System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_Attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Attributes;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_Attributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_Attributes(
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdInitFunction*& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_InitFunc() {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdInitFunction*& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_InitFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*> const& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_InitFunc() const {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdInitFunction* const& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_InitFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InitFunc;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_InitFunc(::System::Xml::Schema::__XsdBuilder__XsdInitFunction* value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_InitFunc(::System::Xml::Schema::XsdBuilder_XsdInitFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InitFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_EndChildFunc() {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_EndChildFunc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndChildFunc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*> const& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_EndChildFunc() const {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* const& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_EndChildFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___EndChildFunc;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_EndChildFunc(::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_EndChildFunc(::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___EndChildFunc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_ParseContent() {
+constexpr bool& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_ParseContent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ParseContent;
 }
-constexpr bool const& System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_get_ParseContent() const {
+constexpr bool const& System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_get_ParseContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ParseContent;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__XsdEntry::__cordl_internal_set_ParseContent(bool value) {
+constexpr void System::Xml::Schema::XsdBuilder_XsdEntry::__cordl_internal_set_ParseContent(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ParseContent = value;
 }
-inline ::System::Xml::Schema::__XsdBuilder__XsdEntry*
-System::Xml::Schema::__XsdBuilder__XsdEntry::New_ctor(::System::Xml::Schema::__SchemaNames__Token n, ::System::Xml::Schema::__XsdBuilder__State state,
-                                                      ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> nextStates,
-                                                      ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> attributes,
-                                                      ::System::Xml::Schema::__XsdBuilder__XsdInitFunction* init, ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* end, bool parseContent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__XsdEntry*>(n, state, nextStates, attributes, init, end, parseContent));
-}
-inline void
-System::Xml::Schema::__XsdBuilder__XsdEntry::_ctor(::System::Xml::Schema::__SchemaNames__Token n, ::System::Xml::Schema::__XsdBuilder__State state,
-                                                   ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> nextStates,
-                                                   ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> attributes,
-                                                   ::System::Xml::Schema::__XsdBuilder__XsdInitFunction* init, ::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction* end, bool parseContent) {
+inline void System::Xml::Schema::XsdBuilder_XsdEntry::_ctor(::System::Xml::Schema::SchemaNames_Token n, ::System::Xml::Schema::XsdBuilder_State state,
+                                                            ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> nextStates,
+                                                            ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> attributes,
+                                                            ::System::Xml::Schema::XsdBuilder_XsdInitFunction* init, ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* end, bool parseContent) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__XsdEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_XsdEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__SchemaNames__Token>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdInitFunction*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__XsdEndChildFunction*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::SchemaNames_Token>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdInitFunction*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_XsdEndChildFunction*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, n, state, nextStates, attributes, init, end, parseContent);
 }
+inline ::System::Xml::Schema::XsdBuilder_XsdEntry*
+System::Xml::Schema::XsdBuilder_XsdEntry::New_ctor(::System::Xml::Schema::SchemaNames_Token n, ::System::Xml::Schema::XsdBuilder_State state,
+                                                   ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> nextStates,
+                                                   ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> attributes,
+                                                   ::System::Xml::Schema::XsdBuilder_XsdInitFunction* init, ::System::Xml::Schema::XsdBuilder_XsdEndChildFunction* end, bool parseContent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_XsdEntry*>(n, state, nextStates, attributes, init, end, parseContent));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdEntry::__XsdBuilder__XsdEntry() {}
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager._ctor
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEntry::XsdBuilder_XsdEntry() {}
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::*)(
-    ::System::Xml::XmlNamespaceManager*, ::System::Xml::XmlReader*)>(&::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::*)(
+    ::System::Xml::XmlNamespaceManager*, ::System::Xml::XmlReader*)>(&::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4299e00;
+  constexpr static std::size_t addrs = 0x42fb114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNamespaceManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager.LookupNamespace
+//  Writing Method size for method: ::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager.LookupNamespace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::*)(::StringW)>(
-    &::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::LookupNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::*)(::StringW)>(
+    &::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4299e2c;
+  constexpr static std::size_t addrs = 0x42fb140;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>::get(), 16));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>::get(), 16));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_get_nsMgr() {
+constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_get_nsMgr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsMgr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_get_nsMgr() const {
+constexpr ::System::Xml::XmlNamespaceManager* const& System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_get_nsMgr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nsMgr;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_set_nsMgr(::System::Xml::XmlNamespaceManager* value) {
+constexpr void System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_set_nsMgr(::System::Xml::XmlNamespaceManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nsMgr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlReader*& System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_get_reader() {
+constexpr ::System::Xml::XmlReader*& System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_get_reader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_get_reader() const {
+constexpr ::System::Xml::XmlReader* const& System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_get_reader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
-constexpr void System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__cordl_internal_set_reader(::System::Xml::XmlReader* value) {
+constexpr void System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::__cordl_internal_set_reader(::System::Xml::XmlReader* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager* System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::New_ctor(::System::Xml::XmlNamespaceManager* nsMgr,
-                                                                                                                                          ::System::Xml::XmlReader* reader) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>(nsMgr, reader));
-}
-inline void System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::_ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader) {
+inline void System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::_ctor(::System::Xml::XmlNamespaceManager* nsMgr, ::System::Xml::XmlReader* reader) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNamespaceManager*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nsMgr, reader);
 }
-inline ::StringW System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::LookupNamespace(::StringW prefix) {
+inline ::StringW System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::LookupNamespace(::StringW prefix) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager*>::get(), 16)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
 }
+inline ::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager* System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::New_ctor(::System::Xml::XmlNamespaceManager* nsMgr,
+                                                                                                                                    ::System::Xml::XmlReader* reader) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager*>(nsMgr, reader));
+}
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XsdBuilder__BuilderNamespaceManager::__XsdBuilder__BuilderNamespaceManager() {}
+constexpr ::System::Xml::Schema::XsdBuilder_BuilderNamespaceManager::XsdBuilder_BuilderNamespaceManager() {}
 //  Writing Method size for method: ::System::Xml::Schema::XsdBuilder._ctor
 template <>
 
@@ -540,7 +532,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::XmlReader*, ::System::Xml::XmlNamespaceManager*, ::System::Xml::Schema::XmlSchema*, ::System::Xml::XmlNameTable*,
                                                             ::System::Xml::Schema::SchemaNames*, ::System::Xml::Schema::ValidationEventHandler*)>(&::System::Xml::Schema::XsdBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x428f4cc;
+  constexpr static std::size_t addrs = 0x42f07e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -560,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::ProcessElement)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x428f680;
+  constexpr static std::size_t addrs = 0x42f0994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -575,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::ProcessAttribute)> {
   constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x428fb38;
+  constexpr static std::size_t addrs = 0x42f0e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -589,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::IsContentParsed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x429008c;
+  constexpr static std::size_t addrs = 0x42f13a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -604,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*>)>(
     &::System::Xml::Schema::XsdBuilder::ProcessMarkup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42900a8;
+  constexpr static std::size_t addrs = 0x42f13bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -618,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::StringW)>(&::System::Xml::Schema::XsdBuilder::ProcessCData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42900b0;
+  constexpr static std::size_t addrs = 0x42f13c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -632,7 +624,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::StartChildren)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4290108;
+  constexpr static std::size_t addrs = 0x42f141c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -646,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::EndChildren)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x429028c;
+  constexpr static std::size_t addrs = 0x42f15a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -660,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::Push)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x428f8f4;
+  constexpr static std::size_t addrs = 0x42f0c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "Push",
@@ -673,7 +665,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::Pop)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x42902c8;
+  constexpr static std::size_t addrs = 0x42f15dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "Pop",
@@ -684,10 +676,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XsdBuilder.get_CurrentElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::__SchemaNames__Token (::System::Xml::Schema::XsdBuilder::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaNames_Token (::System::Xml::Schema::XsdBuilder::*)()>(
     &::System::Xml::Schema::XsdBuilder::get_CurrentElement)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4290fc0;
+  constexpr static std::size_t addrs = 0x42f22d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_CurrentElement",
@@ -698,10 +690,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XsdBuilder.get_ParentElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::__SchemaNames__Token (::System::Xml::Schema::XsdBuilder::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SchemaNames_Token (::System::Xml::Schema::XsdBuilder::*)()>(
     &::System::Xml::Schema::XsdBuilder::get_ParentElement)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4290fdc;
+  constexpr static std::size_t addrs = 0x42f22f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_ParentElement",
@@ -715,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XsdBuilder::*)()>(
     &::System::Xml::Schema::XsdBuilder::get_ParentContainer)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4291054;
+  constexpr static std::size_t addrs = 0x42f2368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_ParentContainer",
@@ -727,29 +719,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::__XsdBuilder__State)>(&::System::Xml::Schema::XsdBuilder::GetContainer)> {
+    static_cast<::System::Xml::Schema::XmlSchemaObject* (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XsdBuilder_State)>(&::System::Xml::Schema::XsdBuilder::GetContainer)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4290384;
+  constexpr static std::size_t addrs = 0x42f1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "GetContainer", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XsdBuilder.SetContainer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::__XsdBuilder__State, ::System::Object*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XsdBuilder_State, ::System::Object*)>(
     &::System::Xml::Schema::XsdBuilder::SetContainer)> {
   constexpr static std::size_t size = 0xb04;
-  constexpr static std::size_t addrs = 0x42904bc;
+  constexpr static std::size_t addrs = 0x42f17d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "SetContainer", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
@@ -759,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAnnotated_Id)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x42910e4;
+  constexpr static std::size_t addrs = 0x42f23f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -775,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSchema_AttributeFormDefault)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4291108;
+  constexpr static std::size_t addrs = 0x42f241c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -791,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSchema_ElementFormDefault)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x429127c;
+  constexpr static std::size_t addrs = 0x42f2590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -807,7 +799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSchema_TargetNamespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x429131c;
+  constexpr static std::size_t addrs = 0x42f2630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -822,7 +814,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildSchema_Version)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x429133c;
+  constexpr static std::size_t addrs = 0x42f2650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -838,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSchema_FinalDefault)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x429135c;
+  constexpr static std::size_t addrs = 0x42f2670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -854,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSchema_BlockDefault)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4291618;
+  constexpr static std::size_t addrs = 0x42f292c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -869,7 +861,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSchema)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4291680;
+  constexpr static std::size_t addrs = 0x42f2994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -884,7 +876,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitInclude)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42916a4;
+  constexpr static std::size_t addrs = 0x42f29b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -900,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildInclude_SchemaLocation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x429174c;
+  constexpr static std::size_t addrs = 0x42f2a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -915,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitImport)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x429176c;
+  constexpr static std::size_t addrs = 0x42f2a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -930,7 +922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildImport_Namespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4291814;
+  constexpr static std::size_t addrs = 0x42f2b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -946,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildImport_SchemaLocation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4291834;
+  constexpr static std::size_t addrs = 0x42f2b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -961,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitRedefine)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4291854;
+  constexpr static std::size_t addrs = 0x42f2b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -977,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildRedefine_SchemaLocation)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42918fc;
+  constexpr static std::size_t addrs = 0x42f2c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -992,7 +984,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*)>(&::System::Xml::Schema::XsdBuilder::EndRedefine)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x429191c;
+  constexpr static std::size_t addrs = 0x42f2c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1006,7 +998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAttribute)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4291938;
+  constexpr static std::size_t addrs = 0x42f2c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1022,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAttribute_Default)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4291c0c;
+  constexpr static std::size_t addrs = 0x42f2f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1037,7 +1029,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Fixed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4291c2c;
+  constexpr static std::size_t addrs = 0x42f2f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1052,7 +1044,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Form)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4291c4c;
+  constexpr static std::size_t addrs = 0x42f2f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1067,7 +1059,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Use)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4291cec;
+  constexpr static std::size_t addrs = 0x42f3000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1082,7 +1074,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Ref)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4291d8c;
+  constexpr static std::size_t addrs = 0x42f30a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1097,7 +1089,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4291f60;
+  constexpr static std::size_t addrs = 0x42f3274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1112,7 +1104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAttribute_Type)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4291f80;
+  constexpr static std::size_t addrs = 0x42f3294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1127,7 +1119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitElement)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4291ff0;
+  constexpr static std::size_t addrs = 0x42f3304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1142,7 +1134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Abstract)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42920e0;
+  constexpr static std::size_t addrs = 0x42f33f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1157,7 +1149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Block)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x429225c;
+  constexpr static std::size_t addrs = 0x42f3570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1172,7 +1164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Default)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42922c4;
+  constexpr static std::size_t addrs = 0x42f35d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1187,7 +1179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Form)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x42922e4;
+  constexpr static std::size_t addrs = 0x42f35f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1203,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildElement_SubstitutionGroup)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4292384;
+  constexpr static std::size_t addrs = 0x42f3698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1218,7 +1210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Final)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42923f4;
+  constexpr static std::size_t addrs = 0x42f3708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1233,7 +1225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Fixed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x429245c;
+  constexpr static std::size_t addrs = 0x42f3770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1249,7 +1241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildElement_MaxOccurs)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x429247c;
+  constexpr static std::size_t addrs = 0x42f3790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1265,7 +1257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildElement_MinOccurs)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4292558;
+  constexpr static std::size_t addrs = 0x42f386c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1280,7 +1272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4292634;
+  constexpr static std::size_t addrs = 0x42f3948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1295,7 +1287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Nillable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4292654;
+  constexpr static std::size_t addrs = 0x42f3968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1310,7 +1302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Ref)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42926c4;
+  constexpr static std::size_t addrs = 0x42f39d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1325,7 +1317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildElement_Type)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4292734;
+  constexpr static std::size_t addrs = 0x42f3a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1340,7 +1332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSimpleType)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x42927a4;
+  constexpr static std::size_t addrs = 0x42f3ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1355,7 +1347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildSimpleType_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4292aa4;
+  constexpr static std::size_t addrs = 0x42f3db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1370,7 +1362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildSimpleType_Final)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4292ac4;
+  constexpr static std::size_t addrs = 0x42f3dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1385,7 +1377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSimpleTypeUnion)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4292b2c;
+  constexpr static std::size_t addrs = 0x42f3e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1401,7 +1393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSimpleTypeUnion_MemberTypes)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x4292bd0;
+  constexpr static std::size_t addrs = 0x42f3ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1416,7 +1408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSimpleTypeList)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4292db4;
+  constexpr static std::size_t addrs = 0x42f40c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1432,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSimpleTypeList_ItemType)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4292e58;
+  constexpr static std::size_t addrs = 0x42f416c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1448,7 +1440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitSimpleTypeRestriction)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4292ec8;
+  constexpr static std::size_t addrs = 0x42f41dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1464,7 +1456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSimpleTypeRestriction_Base)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4292f6c;
+  constexpr static std::size_t addrs = 0x42f4280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1479,7 +1471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitComplexType)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4292fdc;
+  constexpr static std::size_t addrs = 0x42f42f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1495,7 +1487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexType_Abstract)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4293138;
+  constexpr static std::size_t addrs = 0x42f444c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1511,7 +1503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexType_Block)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x42931a8;
+  constexpr static std::size_t addrs = 0x42f44bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1527,7 +1519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexType_Final)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4293210;
+  constexpr static std::size_t addrs = 0x42f4524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1543,7 +1535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexType_Mixed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4293278;
+  constexpr static std::size_t addrs = 0x42f458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1558,7 +1550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildComplexType_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42932f0;
+  constexpr static std::size_t addrs = 0x42f4604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1573,7 +1565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitComplexContent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4293310;
+  constexpr static std::size_t addrs = 0x42f4624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1589,7 +1581,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexContent_Mixed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42933f8;
+  constexpr static std::size_t addrs = 0x42f470c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1605,7 +1597,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitComplexContentExtension)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4293468;
+  constexpr static std::size_t addrs = 0x42f477c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1621,7 +1613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexContentExtension_Base)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4293538;
+  constexpr static std::size_t addrs = 0x42f484c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1637,7 +1629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitComplexContentRestriction)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42935a8;
+  constexpr static std::size_t addrs = 0x42f48bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1653,7 +1645,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildComplexContentRestriction_Base)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4293624;
+  constexpr static std::size_t addrs = 0x42f4938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1668,7 +1660,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSimpleContent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4293694;
+  constexpr static std::size_t addrs = 0x42f49a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1684,7 +1676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitSimpleContentExtension)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x429377c;
+  constexpr static std::size_t addrs = 0x42f4a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1700,7 +1692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSimpleContentExtension_Base)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x429384c;
+  constexpr static std::size_t addrs = 0x42f4b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1716,7 +1708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitSimpleContentRestriction)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x42938bc;
+  constexpr static std::size_t addrs = 0x42f4bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1732,7 +1724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildSimpleContentRestriction_Base)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x429398c;
+  constexpr static std::size_t addrs = 0x42f4ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1747,7 +1739,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAttributeGroup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x42939fc;
+  constexpr static std::size_t addrs = 0x42f4d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1763,7 +1755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAttributeGroup_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4293ab4;
+  constexpr static std::size_t addrs = 0x42f4dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1778,7 +1770,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAttributeGroupRef)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4293ad4;
+  constexpr static std::size_t addrs = 0x42f4de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1794,7 +1786,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAttributeGroupRef_Ref)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4293b40;
+  constexpr static std::size_t addrs = 0x42f4e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1809,7 +1801,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAnyAttribute)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x4293bb0;
+  constexpr static std::size_t addrs = 0x42f4ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1825,7 +1817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAnyAttribute_Namespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4293e28;
+  constexpr static std::size_t addrs = 0x42f513c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1841,7 +1833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAnyAttribute_ProcessContents)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4293e48;
+  constexpr static std::size_t addrs = 0x42f515c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1856,7 +1848,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitGroup)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4293ee8;
+  constexpr static std::size_t addrs = 0x42f51fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1871,7 +1863,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildGroup_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4293fa0;
+  constexpr static std::size_t addrs = 0x42f52b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1886,7 +1878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitGroupRef)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4293fc0;
+  constexpr static std::size_t addrs = 0x42f52d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1902,7 +1894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildParticle_MaxOccurs)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4294308;
+  constexpr static std::size_t addrs = 0x42f561c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1918,7 +1910,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildParticle_MinOccurs)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4294324;
+  constexpr static std::size_t addrs = 0x42f5638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1933,7 +1925,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildGroupRef_Ref)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4294340;
+  constexpr static std::size_t addrs = 0x42f5654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1948,7 +1940,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAll)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42943b0;
+  constexpr static std::size_t addrs = 0x42f56c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1963,7 +1955,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitChoice)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4294420;
+  constexpr static std::size_t addrs = 0x42f5734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1978,7 +1970,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSequence)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4294490;
+  constexpr static std::size_t addrs = 0x42f57a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1993,7 +1985,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAny)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42944fc;
+  constexpr static std::size_t addrs = 0x42f5810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2008,7 +2000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAny_Namespace)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x429456c;
+  constexpr static std::size_t addrs = 0x42f5880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2024,7 +2016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildAny_ProcessContents)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x429458c;
+  constexpr static std::size_t addrs = 0x42f58a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2039,7 +2031,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitNotation)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x429462c;
+  constexpr static std::size_t addrs = 0x42f5940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2054,7 +2046,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildNotation_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42946ac;
+  constexpr static std::size_t addrs = 0x42f59c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2069,7 +2061,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildNotation_Public)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42946cc;
+  constexpr static std::size_t addrs = 0x42f59e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2084,7 +2076,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildNotation_System)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42946ec;
+  constexpr static std::size_t addrs = 0x42f5a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2099,7 +2091,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitFacet)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x429470c;
+  constexpr static std::size_t addrs = 0x42f5a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2114,7 +2106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildFacet_Fixed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4294a10;
+  constexpr static std::size_t addrs = 0x42f5d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2129,7 +2121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildFacet_Value)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4294a88;
+  constexpr static std::size_t addrs = 0x42f5d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2145,7 +2137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::InitIdentityConstraint)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4294aa8;
+  constexpr static std::size_t addrs = 0x42f5dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2161,7 +2153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildIdentityConstraint_Name)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4294be4;
+  constexpr static std::size_t addrs = 0x42f5ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2177,7 +2169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildIdentityConstraint_Refer)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4294c04;
+  constexpr static std::size_t addrs = 0x42f5f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2192,7 +2184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitSelector)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4294d24;
+  constexpr static std::size_t addrs = 0x42f6038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2207,7 +2199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildSelector_XPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4294dc8;
+  constexpr static std::size_t addrs = 0x42f60dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2222,7 +2214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitField)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4294de8;
+  constexpr static std::size_t addrs = 0x42f60fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2237,7 +2229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildField_XPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4294e98;
+  constexpr static std::size_t addrs = 0x42f61ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2252,7 +2244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAnnotation)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4294eb8;
+  constexpr static std::size_t addrs = 0x42f61cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2267,7 +2259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitAppinfo)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4294f80;
+  constexpr static std::size_t addrs = 0x42f6294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2282,7 +2274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::BuildAppinfo_Source)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4295024;
+  constexpr static std::size_t addrs = 0x42f6338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2297,7 +2289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*)>(&::System::Xml::Schema::XsdBuilder::EndAppinfo)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4295090;
+  constexpr static std::size_t addrs = 0x42f63a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2311,7 +2303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(&::System::Xml::Schema::XsdBuilder::InitDocumentation)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42950b4;
+  constexpr static std::size_t addrs = 0x42f63c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2327,7 +2319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildDocumentation_Source)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4295158;
+  constexpr static std::size_t addrs = 0x42f646c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2343,7 +2335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::BuildDocumentation_XmlLang)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x42951c0;
+  constexpr static std::size_t addrs = 0x42f64d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2358,7 +2350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::XsdBuilder*)>(&::System::Xml::Schema::XsdBuilder::EndDocumentation)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4295300;
+  constexpr static std::size_t addrs = 0x42f6614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2373,7 +2365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XmlSchemaObject*)>(
     &::System::Xml::Schema::XsdBuilder::AddAttribute)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x42919dc;
+  constexpr static std::size_t addrs = 0x42f2cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2388,7 +2380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
     &::System::Xml::Schema::XsdBuilder::AddParticle)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x4294030;
+  constexpr static std::size_t addrs = 0x42f5344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2403,7 +2395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XsdBuilder::GetNextState)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x428f798;
+  constexpr static std::size_t addrs = 0x42f0aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2418,7 +2410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XsdBuilder::IsSkipableElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x428fa28;
+  constexpr static std::size_t addrs = 0x42f0d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2433,7 +2425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XmlSchemaParticle*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::SetMinOccurs)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4292574;
+  constexpr static std::size_t addrs = 0x42f3888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2449,7 +2441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XmlSchemaParticle*, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::SetMaxOccurs)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4292498;
+  constexpr static std::size_t addrs = 0x42f37ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2465,7 +2457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::ParseBoolean)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4292150;
+  constexpr static std::size_t addrs = 0x42f3464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2480,7 +2472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::Schema::XsdBuilder::ParseEnum)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x42911a8;
+  constexpr static std::size_t addrs = 0x42f24bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2496,7 +2488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::ParseQName)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4291dfc;
+  constexpr static std::size_t addrs = 0x42f3110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2511,7 +2503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::ParseBlockFinalEnum)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x42913c4;
+  constexpr static std::size_t addrs = 0x42f26d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2525,7 +2517,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Schema::XsdBuilder::ParseUriReference)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x429508c;
+  constexpr static std::size_t addrs = 0x42f63a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2540,7 +2532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4295324;
+  constexpr static std::size_t addrs = 0x42f6638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2556,7 +2548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::XsdBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x428fa50;
+  constexpr static std::size_t addrs = 0x42f0d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2571,7 +2563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(
     ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XsdBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x428ff98;
+  constexpr static std::size_t addrs = 0x42f12ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2588,7 +2580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(
     ::System::Xml::Schema::XmlSchemaException*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::XsdBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4295464;
+  constexpr static std::size_t addrs = 0x42f6778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2604,7 +2596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)(::System::Xml::Schema::XmlSchemaException*)>(
     &::System::Xml::Schema::XsdBuilder::SendValidationEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4292dac;
+  constexpr static std::size_t addrs = 0x42f40c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2618,7 +2610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XsdBuilder::*)()>(&::System::Xml::Schema::XsdBuilder::RecordPosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x428f98c;
+  constexpr static std::size_t addrs = 0x42f0ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "RecordPosition",
@@ -2630,7 +2622,7 @@ constexpr ::System::Xml::XmlReader*& System::Xml::Schema::XsdBuilder::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_reader() const {
+constexpr ::System::Xml::XmlReader* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_reader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reader;
 }
@@ -2642,7 +2634,7 @@ constexpr ::System::Xml::PositionInfo*& System::Xml::Schema::XsdBuilder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::PositionInfo*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_positionInfo() const {
+constexpr ::System::Xml::PositionInfo* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_positionInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positionInfo;
 }
@@ -2650,27 +2642,27 @@ constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_positionInf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___positionInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdEntry*& System::Xml::Schema::XsdBuilder::__cordl_internal_get_currentEntry() {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEntry*& System::Xml::Schema::XsdBuilder::__cordl_internal_get_currentEntry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEntry;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XsdBuilder__XsdEntry*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_currentEntry() const {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEntry* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_currentEntry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentEntry;
 }
-constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_currentEntry(::System::Xml::Schema::__XsdBuilder__XsdEntry* value) {
+constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_currentEntry(::System::Xml::Schema::XsdBuilder_XsdEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentEntry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XsdBuilder__XsdEntry*& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nextEntry() {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEntry*& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nextEntry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextEntry;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XsdBuilder__XsdEntry*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nextEntry() const {
+constexpr ::System::Xml::Schema::XsdBuilder_XsdEntry* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nextEntry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextEntry;
 }
-constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_nextEntry(::System::Xml::Schema::__XsdBuilder__XsdEntry* value) {
+constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_nextEntry(::System::Xml::Schema::XsdBuilder_XsdEntry* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextEntry)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -2690,7 +2682,7 @@ constexpr ::System::Xml::HWStack*& System::Xml::Schema::XsdBuilder::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateHistory;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::HWStack*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_stateHistory() const {
+constexpr ::System::Xml::HWStack* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_stateHistory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stateHistory;
 }
@@ -2702,7 +2694,7 @@ constexpr ::System::Collections::Stack*& System::Xml::Schema::XsdBuilder::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___containerStack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_containerStack() const {
+constexpr ::System::Collections::Stack* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_containerStack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___containerStack;
 }
@@ -2714,7 +2706,7 @@ constexpr ::System::Xml::XmlNameTable*& System::Xml::Schema::XsdBuilder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nameTable() const {
+constexpr ::System::Xml::XmlNameTable* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_nameTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nameTable;
 }
@@ -2726,7 +2718,7 @@ constexpr ::System::Xml::Schema::SchemaNames*& System::Xml::Schema::XsdBuilder::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaNames*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_schemaNames() const {
+constexpr ::System::Xml::Schema::SchemaNames* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_schemaNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaNames;
 }
@@ -2738,7 +2730,7 @@ constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::Schema::XsdBuilder::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_namespaceManager() const {
+constexpr ::System::Xml::XmlNamespaceManager* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_namespaceManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaceManager;
 }
@@ -2762,7 +2754,7 @@ constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::XsdBuilder::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_schema() const {
+constexpr ::System::Xml::Schema::XmlSchema* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_schema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schema;
 }
@@ -2774,7 +2766,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObject*& System::Xml::Schema::XsdBuild
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xso;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_xso() const {
+constexpr ::System::Xml::Schema::XmlSchemaObject* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_xso() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xso;
 }
@@ -2786,7 +2778,7 @@ constexpr ::System::Xml::Schema::XmlSchemaElement*& System::Xml::Schema::XsdBuil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___element;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_element() const {
+constexpr ::System::Xml::Schema::XmlSchemaElement* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_element() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___element;
 }
@@ -2798,7 +2790,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAny*& System::Xml::Schema::XsdBuilder:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAny*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_anyElement() const {
+constexpr ::System::Xml::Schema::XmlSchemaAny* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_anyElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyElement;
 }
@@ -2810,7 +2802,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAttribute*& System::Xml::Schema::XsdBu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attribute() const {
+constexpr ::System::Xml::Schema::XmlSchemaAttribute* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attribute;
 }
@@ -2822,7 +2814,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& System::Xml::Schema::Xs
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_anyAttribute() const {
+constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_anyAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyAttribute;
 }
@@ -2834,7 +2826,7 @@ constexpr ::System::Xml::Schema::XmlSchemaComplexType*& System::Xml::Schema::Xsd
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexType*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexType() const {
+constexpr ::System::Xml::Schema::XmlSchemaComplexType* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexType;
 }
@@ -2846,7 +2838,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& System::Xml::Schema::XsdB
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleType() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleType;
 }
@@ -2858,7 +2850,7 @@ constexpr ::System::Xml::Schema::XmlSchemaComplexContent*& System::Xml::Schema::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexContent*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContent() const {
+constexpr ::System::Xml::Schema::XmlSchemaComplexContent* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContent;
 }
@@ -2870,7 +2862,7 @@ constexpr ::System::Xml::Schema::XmlSchemaComplexContentExtension*& System::Xml:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContentExtension;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexContentExtension*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContentExtension() const {
+constexpr ::System::Xml::Schema::XmlSchemaComplexContentExtension* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContentExtension() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContentExtension;
 }
@@ -2882,8 +2874,7 @@ constexpr ::System::Xml::Schema::XmlSchemaComplexContentRestriction*& System::Xm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContentRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexContentRestriction*> const&
-System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContentRestriction() const {
+constexpr ::System::Xml::Schema::XmlSchemaComplexContentRestriction* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_complexContentRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___complexContentRestriction;
 }
@@ -2895,7 +2886,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleContent*& System::Xml::Schema::X
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleContent*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContent() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleContent* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContent;
 }
@@ -2907,7 +2898,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleContentExtension*& System::Xml::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContentExtension;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleContentExtension*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContentExtension() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleContentExtension* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContentExtension() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContentExtension;
 }
@@ -2919,7 +2910,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleContentRestriction*& System::Xml
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContentRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleContentRestriction*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContentRestriction() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleContentRestriction* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleContentRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleContentRestriction;
 }
@@ -2931,7 +2922,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeUnion*& System::Xml::Schema:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeUnion;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleTypeUnion*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeUnion() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeUnion* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeUnion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeUnion;
 }
@@ -2943,7 +2934,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeList*& System::Xml::Schema::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleTypeList*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeList() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeList* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeList;
 }
@@ -2955,7 +2946,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*& System::Xml::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleTypeRestriction*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeRestriction() const {
+constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_simpleTypeRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTypeRestriction;
 }
@@ -2967,7 +2958,7 @@ constexpr ::System::Xml::Schema::XmlSchemaGroup*& System::Xml::Schema::XsdBuilde
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___group;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaGroup*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_group() const {
+constexpr ::System::Xml::Schema::XmlSchemaGroup* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_group() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___group;
 }
@@ -2979,7 +2970,7 @@ constexpr ::System::Xml::Schema::XmlSchemaGroupRef*& System::Xml::Schema::XsdBui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaGroupRef*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_groupRef() const {
+constexpr ::System::Xml::Schema::XmlSchemaGroupRef* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_groupRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupRef;
 }
@@ -2991,7 +2982,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAll*& System::Xml::Schema::XsdBuilder:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___all;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAll*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_all() const {
+constexpr ::System::Xml::Schema::XmlSchemaAll* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_all() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___all;
 }
@@ -3003,7 +2994,7 @@ constexpr ::System::Xml::Schema::XmlSchemaChoice*& System::Xml::Schema::XsdBuild
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___choice;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaChoice*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_choice() const {
+constexpr ::System::Xml::Schema::XmlSchemaChoice* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_choice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___choice;
 }
@@ -3015,7 +3006,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSequence*& System::Xml::Schema::XsdBui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sequence;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSequence*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_sequence() const {
+constexpr ::System::Xml::Schema::XmlSchemaSequence* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_sequence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sequence;
 }
@@ -3027,7 +3018,7 @@ constexpr ::System::Xml::Schema::XmlSchemaParticle*& System::Xml::Schema::XsdBui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaParticle*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_particle() const {
+constexpr ::System::Xml::Schema::XmlSchemaParticle* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_particle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
@@ -3039,7 +3030,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAttributeGroup*& System::Xml::Schema::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttributeGroup*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attributeGroup() const {
+constexpr ::System::Xml::Schema::XmlSchemaAttributeGroup* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attributeGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroup;
 }
@@ -3051,7 +3042,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAttributeGroupRef*& System::Xml::Schem
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroupRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttributeGroupRef*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attributeGroupRef() const {
+constexpr ::System::Xml::Schema::XmlSchemaAttributeGroupRef* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_attributeGroupRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeGroupRef;
 }
@@ -3063,7 +3054,7 @@ constexpr ::System::Xml::Schema::XmlSchemaNotation*& System::Xml::Schema::XsdBui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaNotation*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_notation() const {
+constexpr ::System::Xml::Schema::XmlSchemaNotation* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_notation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___notation;
 }
@@ -3075,7 +3066,7 @@ constexpr ::System::Xml::Schema::XmlSchemaIdentityConstraint*& System::Xml::Sche
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identityConstraint;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaIdentityConstraint*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_identityConstraint() const {
+constexpr ::System::Xml::Schema::XmlSchemaIdentityConstraint* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_identityConstraint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___identityConstraint;
 }
@@ -3087,7 +3078,7 @@ constexpr ::System::Xml::Schema::XmlSchemaXPath*& System::Xml::Schema::XsdBuilde
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xpath;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaXPath*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_xpath() const {
+constexpr ::System::Xml::Schema::XmlSchemaXPath* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_xpath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xpath;
 }
@@ -3099,7 +3090,7 @@ constexpr ::System::Xml::Schema::XmlSchemaInclude*& System::Xml::Schema::XsdBuil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___include;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaInclude*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_include() const {
+constexpr ::System::Xml::Schema::XmlSchemaInclude* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_include() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___include;
 }
@@ -3111,7 +3102,7 @@ constexpr ::System::Xml::Schema::XmlSchemaImport*& System::Xml::Schema::XsdBuild
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___import;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaImport*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_import() const {
+constexpr ::System::Xml::Schema::XmlSchemaImport* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_import() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___import;
 }
@@ -3123,7 +3114,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& System::Xml::Schema::XsdB
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnnotation*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_annotation() const {
+constexpr ::System::Xml::Schema::XmlSchemaAnnotation* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_annotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotation;
 }
@@ -3135,7 +3126,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAppInfo*& System::Xml::Schema::XsdBuil
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAppInfo*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_appInfo() const {
+constexpr ::System::Xml::Schema::XmlSchemaAppInfo* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_appInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appInfo;
 }
@@ -3147,7 +3138,7 @@ constexpr ::System::Xml::Schema::XmlSchemaDocumentation*& System::Xml::Schema::X
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___documentation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDocumentation*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_documentation() const {
+constexpr ::System::Xml::Schema::XmlSchemaDocumentation* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_documentation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___documentation;
 }
@@ -3159,7 +3150,7 @@ constexpr ::System::Xml::Schema::XmlSchemaFacet*& System::Xml::Schema::XsdBuilde
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___facet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaFacet*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_facet() const {
+constexpr ::System::Xml::Schema::XmlSchemaFacet* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_facet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___facet;
 }
@@ -3183,7 +3174,7 @@ constexpr ::System::Xml::Schema::XmlSchemaRedefine*& System::Xml::Schema::XsdBui
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redefine;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaRedefine*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_redefine() const {
+constexpr ::System::Xml::Schema::XmlSchemaRedefine* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_redefine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___redefine;
 }
@@ -3195,7 +3186,7 @@ constexpr ::System::Xml::Schema::ValidationEventHandler*& System::Xml::Schema::X
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_validationEventHandler() const {
+constexpr ::System::Xml::Schema::ValidationEventHandler* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_validationEventHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validationEventHandler;
 }
@@ -3207,7 +3198,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::XsdBuilder::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unhandledAttributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_unhandledAttributes() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_unhandledAttributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unhandledAttributes;
 }
@@ -3219,7 +3210,7 @@ constexpr ::System::Collections::Hashtable*& System::Xml::Schema::XsdBuilder::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaces;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_namespaces() const {
+constexpr ::System::Collections::Hashtable* const& System::Xml::Schema::XsdBuilder::__cordl_internal_get_namespaces() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___namespaces;
 }
@@ -3227,578 +3218,560 @@ constexpr void System::Xml::Schema::XsdBuilder::__cordl_internal_set_namespaces(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaces)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaElement(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SchemaElement",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaElement(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SchemaElement",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaElement() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SchemaElement",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaElement() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SchemaElement",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SchemaSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SchemaSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SchemaSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SchemaSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AttributeSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AttributeSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_AttributeSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AttributeSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_AttributeSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AttributeSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ElementSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ElementSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_ElementSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ElementSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ElementSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ElementSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ElementSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ElementSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexTypeSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexTypeSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexTypeSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexTypeSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexTypeSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexTypeSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexTypeSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexTypeSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void
-System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentExtensionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentExtensionSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentExtensionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentExtensionSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentExtensionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentExtensionSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void
-System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentRestrictionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentRestrictionSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentRestrictionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleContentRestrictionSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentExtensionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentExtensionSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void
-System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentExtensionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentExtensionSubelements",
+System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentRestrictionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentRestrictionSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentExtensionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentExtensionSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentRestrictionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleContentRestrictionSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentExtensionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentExtensionSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentExtensionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentExtensionSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void
-System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentRestrictionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentRestrictionSubelements",
+System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentRestrictionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentRestrictionSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentRestrictionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ComplexContentRestrictionSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentRestrictionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ComplexContentRestrictionSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeSubelements",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeSubelements",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeRestrictionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeRestrictionSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeRestrictionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeRestrictionSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeListSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeListSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeListSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeListSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeUnionSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeUnionSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeUnionSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "SimpleTypeUnionSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_RedefineSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "RedefineSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_RedefineSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "RedefineSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeGroupSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AttributeGroupSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_AttributeGroupSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AttributeGroupSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_GroupSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "GroupSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_GroupSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "GroupSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_AllSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AllSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_AllSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AllSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_ChoiceSequenceSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ChoiceSequenceSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_ChoiceSequenceSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "ChoiceSequenceSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_IdentityConstraintSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "IdentityConstraintSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_IdentityConstraintSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "IdentityConstraintSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_AnnotationSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AnnotationSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_AnnotationSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AnnotationSubelements",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void System::Xml::Schema::XsdBuilder::setStaticF_AnnotatedSubelements(::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AnnotatedSubelements",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*> System::Xml::Schema::XsdBuilder::getStaticF_AnnotatedSubelements() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_State, ::Array<::System::Xml::Schema::XsdBuilder_State>*>, "AnnotatedSubelements",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void
-System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeRestrictionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeRestrictionSubelements",
+System::Xml::Schema::XsdBuilder::setStaticF_SchemaAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SchemaAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeRestrictionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeRestrictionSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeListSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeListSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeListSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeListSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeUnionSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeUnionSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeUnionSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "SimpleTypeUnionSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_RedefineSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "RedefineSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_RedefineSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "RedefineSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeGroupSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AttributeGroupSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_AttributeGroupSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AttributeGroupSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_GroupSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "GroupSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_GroupSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "GroupSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AllSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AllSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_AllSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AllSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ChoiceSequenceSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ChoiceSequenceSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_ChoiceSequenceSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "ChoiceSequenceSubelements",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SchemaAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void
-System::Xml::Schema::XsdBuilder::setStaticF_IdentityConstraintSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "IdentityConstraintSubelements",
+System::Xml::Schema::XsdBuilder::setStaticF_AttributeAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AttributeAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_IdentityConstraintSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "IdentityConstraintSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AnnotationSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AnnotationSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_AnnotationSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AnnotationSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AnnotatedSubelements(::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AnnotatedSubelements",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*> System::Xml::Schema::XsdBuilder::getStaticF_AnnotatedSubelements() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__State, ::Array<::System::Xml::Schema::__XsdBuilder__State>*>, "AnnotatedSubelements",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SchemaAttributes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_SchemaAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SchemaAttributes",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AttributeAttributes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_AttributeAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AttributeAttributes",
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AttributeAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ElementAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ElementAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_ElementAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ElementAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_ElementAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ElementAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_ElementAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ElementAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexTypeAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ComplexTypeAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ComplexTypeAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_ComplexTypeAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "ComplexTypeAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ComplexTypeAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SimpleContentAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleContentAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "SimpleContentAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleContentAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentExtensionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                    "SimpleContentExtensionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleContentExtensionAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentExtensionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "SimpleContentExtensionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleContentRestrictionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                     "SimpleContentRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleContentRestrictionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "SimpleContentRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ComplexContentAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ComplexContentAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "ComplexContentAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ComplexContentAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentExtensionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                    "ComplexContentExtensionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ComplexContentExtensionAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentExtensionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "ComplexContentExtensionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_ComplexContentRestrictionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                     "ComplexContentRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_ComplexContentRestrictionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "ComplexContentRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SimpleTypeAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SimpleTypeAttributes",
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeRestrictionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                    "SimpleTypeRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeRestrictionAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeRestrictionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "SimpleTypeRestrictionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeUnionAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SimpleTypeUnionAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeUnionAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeUnionAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "SimpleTypeUnionAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeUnionAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_SimpleTypeListAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SimpleTypeListAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeListAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_SimpleTypeListAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "SimpleTypeListAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SimpleTypeListAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeGroupAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AttributeGroupAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AttributeGroupAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_AttributeGroupAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "AttributeGroupAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AttributeGroupAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_AttributeGroupRefAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AttributeGroupRefAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AttributeGroupRefAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_AttributeGroupRefAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "AttributeGroupRefAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_GroupAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "GroupAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_GroupAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "GroupAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_GroupAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "GroupAttributes",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_GroupRefAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "GroupRefAttributes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_GroupRefAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "GroupRefAttributes",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ParticleAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ParticleAttributes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_ParticleAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ParticleAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_GroupAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "GroupAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void
-System::Xml::Schema::XsdBuilder::setStaticF_AnyAttributes(::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AnyAttributes",
+System::Xml::Schema::XsdBuilder::setStaticF_GroupRefAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "GroupRefAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_AnyAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AnyAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_GroupRefAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "GroupRefAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_ParticleAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ParticleAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_ParticleAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ParticleAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_AnyAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnyAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_AnyAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnyAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_IdentityConstraintAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                    "IdentityConstraintAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "IdentityConstraintAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_IdentityConstraintAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>,
                                            "IdentityConstraintAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SelectorAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SelectorAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_SelectorAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SelectorAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_SelectorAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "SelectorAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_SelectorAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "SelectorAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_FieldAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "FieldAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_FieldAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "FieldAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_FieldAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "FieldAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_FieldAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "FieldAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_NotationAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "NotationAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_NotationAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "NotationAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_NotationAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "NotationAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_NotationAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "NotationAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_IncludeAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "IncludeAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_IncludeAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "IncludeAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_IncludeAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "IncludeAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_IncludeAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "IncludeAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_ImportAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ImportAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_ImportAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ImportAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_ImportAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "ImportAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_ImportAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "ImportAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_FacetAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "FacetAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_FacetAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "FacetAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_FacetAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "FacetAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_FacetAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "FacetAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_AnyAttributeAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AnyAttributeAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnyAttributeAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_AnyAttributeAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "AnyAttributeAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnyAttributeAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_DocumentationAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "DocumentationAttributes",
+    ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "DocumentationAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_DocumentationAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>,
-                                           "DocumentationAttributes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AppinfoAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AppinfoAttributes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
-}
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_AppinfoAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AppinfoAttributes",
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "DocumentationAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_RedefineAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "RedefineAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_AppinfoAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AppinfoAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
-System::Xml::Schema::XsdBuilder::getStaticF_RedefineAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "RedefineAttributes",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_AppinfoAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AppinfoAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_AnnotationAttributes(
-    ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AnnotationAttributes",
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_RedefineAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "RedefineAttributes",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_RedefineAttributes() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "RedefineAttributes",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
+}
+inline void
+System::Xml::Schema::XsdBuilder::setStaticF_AnnotationAttributes(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnnotationAttributes",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>>(value));
+}
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>
 System::Xml::Schema::XsdBuilder::getStaticF_AnnotationAttributes() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdAttributeEntry*>*>, "AnnotationAttributes",
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdAttributeEntry*>*>, "AnnotationAttributes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
-inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaEntries(::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*>, "SchemaEntries",
+inline void System::Xml::Schema::XsdBuilder::setStaticF_SchemaEntries(::ArrayW<::System::Xml::Schema::XsdBuilder_XsdEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdEntry*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdEntry*>*>, "SchemaEntries",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>(
-      std::forward<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*>>(value));
+      std::forward<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdEntry*>*>>(value));
 }
-inline ::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaEntries() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::__XsdBuilder__XsdEntry*, ::Array<::System::Xml::Schema::__XsdBuilder__XsdEntry*>*>, "SchemaEntries",
+inline ::ArrayW<::System::Xml::Schema::XsdBuilder_XsdEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdEntry*>*> System::Xml::Schema::XsdBuilder::getStaticF_SchemaEntries() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::Schema::XsdBuilder_XsdEntry*, ::Array<::System::Xml::Schema::XsdBuilder_XsdEntry*>*>, "SchemaEntries",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
 }
 inline void System::Xml::Schema::XsdBuilder::setStaticF_DerivationMethodValues(::ArrayW<int32_t, ::Array<int32_t>*> value) {
@@ -3840,11 +3813,6 @@ inline void System::Xml::Schema::XsdBuilder::setStaticF_ProcessContentsStringVal
 inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Xml::Schema::XsdBuilder::getStaticF_ProcessContentsStringValues() {
   return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "ProcessContentsStringValues",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get>();
-}
-inline ::System::Xml::Schema::XsdBuilder* System::Xml::Schema::XsdBuilder::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr,
-                                                                                    ::System::Xml::Schema::XmlSchema* schema, ::System::Xml::XmlNameTable* nameTable,
-                                                                                    ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder*>(reader, curmgr, schema, nameTable, schemaNames, eventhandler));
 }
 inline void System::Xml::Schema::XsdBuilder::_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr, ::System::Xml::Schema::XmlSchema* schema,
                                                    ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
@@ -3904,31 +3872,31 @@ inline void System::Xml::Schema::XsdBuilder::Pop() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::XsdBuilder::get_CurrentElement() {
+inline ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::XsdBuilder::get_CurrentElement() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_CurrentElement",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::__SchemaNames__Token, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaNames_Token, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::__SchemaNames__Token System::Xml::Schema::XsdBuilder::get_ParentElement() {
+inline ::System::Xml::Schema::SchemaNames_Token System::Xml::Schema::XsdBuilder::get_ParentElement() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_ParentElement",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::__SchemaNames__Token, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::SchemaNames_Token, false>(this, ___internal_method);
 }
 inline ::System::Xml::Schema::XmlSchemaObject* System::Xml::Schema::XsdBuilder::get_ParentContainer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "get_ParentContainer",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObject*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaObject* System::Xml::Schema::XsdBuilder::GetContainer(::System::Xml::Schema::__XsdBuilder__State state) {
+inline ::System::Xml::Schema::XmlSchemaObject* System::Xml::Schema::XsdBuilder::GetContainer(::System::Xml::Schema::XsdBuilder_State state) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "GetContainer", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaObject*, false>(this, ___internal_method, state);
 }
-inline void System::Xml::Schema::XsdBuilder::SetContainer(::System::Xml::Schema::__XsdBuilder__State state, ::System::Object* container) {
+inline void System::Xml::Schema::XsdBuilder::SetContainer(::System::Xml::Schema::XsdBuilder_State state, ::System::Object* container) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "SetContainer", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XsdBuilder__State>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XsdBuilder_State>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, container);
 }
@@ -4771,6 +4739,11 @@ inline void System::Xml::Schema::XsdBuilder::RecordPosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XsdBuilder*>::get(), "RecordPosition",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XsdBuilder* System::Xml::Schema::XsdBuilder::New_ctor(::System::Xml::XmlReader* reader, ::System::Xml::XmlNamespaceManager* curmgr,
+                                                                                    ::System::Xml::Schema::XmlSchema* schema, ::System::Xml::XmlNameTable* nameTable,
+                                                                                    ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventhandler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XsdBuilder*>(reader, curmgr, schema, nameTable, schemaNames, eventhandler));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XsdBuilder::XsdBuilder() {}

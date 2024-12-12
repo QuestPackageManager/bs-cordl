@@ -12,17 +12,16 @@ class Asn1Tags;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Tags);
-// Type: Org.BouncyCastle.Asn1::Asn1Tags
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1Tags*
+// CS Name: Org.BouncyCastle.Asn1.Asn1Tags
 class CORDL_TYPE Asn1Tags : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Tags* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25fd018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2630304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

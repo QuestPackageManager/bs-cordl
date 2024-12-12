@@ -15,29 +15,28 @@ class SettingsBindableAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::SettingsBindableAttribute);
-// Type: System.ComponentModel::SettingsBindableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::SettingsBindableAttribute*
+// CS Name: System.ComponentModel.SettingsBindableAttribute
 class CORDL_TYPE SettingsBindableAttribute : public ::System::Attribute {
 public:
   // Declarations
   __declspec(property(get = get_Bindable)) bool Bindable;
 
   /// @brief Field No, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_No, put = setStaticF_No)) ::System::ComponentModel::SettingsBindableAttribute* No;
+  __declspec(property(get = getStaticF_No, put = setStaticF_No)) ::System::ComponentModel::SettingsBindableAttribute* No;
 
   /// @brief Field Yes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes)) ::System::ComponentModel::SettingsBindableAttribute* Yes;
+  __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes)) ::System::ComponentModel::SettingsBindableAttribute* Yes;
 
   /// @brief Field <Bindable>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__Bindable_k__BackingField, put = __cordl_internal_set__Bindable_k__BackingField)) bool _Bindable_k__BackingField;
 
-  /// @brief Method Equals, addr 0x43f8318, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x445962c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43f83a4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x44596b8, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
@@ -48,14 +47,14 @@ public:
 
   constexpr void __cordl_internal_set__Bindable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x43f82e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44595fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_No();
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* getStaticF_Yes();
 
-  /// @brief Method get_Bindable, addr 0x43f8310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bindable, addr 0x4459624, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
   static inline void setStaticF_No(::System::ComponentModel::SettingsBindableAttribute* value);
@@ -76,18 +75,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsBindableAttribute(SettingsBindableAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9414 };
+
   /// @brief Field <Bindable>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Bindable_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9389 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::SettingsBindableAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::SettingsBindableAttribute, ____Bindable_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::SettingsBindableAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::SettingsBindableAttribute);

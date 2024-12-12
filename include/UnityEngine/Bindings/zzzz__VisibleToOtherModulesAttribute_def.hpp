@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VisibleToOtherModulesAttribute)
 // Forward declare root types
@@ -13,11 +12,10 @@ class VisibleToOtherModulesAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::VisibleToOtherModulesAttribute);
-// Type: UnityEngine.Bindings::VisibleToOtherModulesAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
-// CS Name: ::UnityEngine.Bindings::VisibleToOtherModulesAttribute*
+// CS Name: UnityEngine.Bindings.VisibleToOtherModulesAttribute
 class CORDL_TYPE VisibleToOtherModulesAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -25,10 +23,10 @@ public:
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor, addr 0x48b1ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48b1cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
 protected:
@@ -46,7 +44,7 @@ public:
   VisibleToOtherModulesAttribute(VisibleToOtherModulesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

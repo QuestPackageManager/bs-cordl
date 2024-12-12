@@ -26,13 +26,12 @@ template <typename T> class CustomCreationConverter_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Converters::CustomCreationConverter_1);
-// Type: Newtonsoft.Json.Converters::CustomCreationConverter`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonConverter
 namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Converters::CustomCreationConverter`1<T>*
+// CS Name: Newtonsoft.Json.Converters.CustomCreationConverter`1<T>
 class CORDL_TYPE CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
   /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Create, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Create(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>* New_ctor();
@@ -73,7 +72,7 @@ public:
   CustomCreationConverter_1(CustomCreationConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10461 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

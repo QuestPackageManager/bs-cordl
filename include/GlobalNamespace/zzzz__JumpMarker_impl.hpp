@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/JumpMarker.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpMarker_def.hpp"
 #include "GlobalNamespace/zzzz__JumpDestinationMarker_def.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpMarker.get_id
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (::GlobalNamespace::JumpMarker::*)()>(&::GlobalNamespace::JumpMarker::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3970550;
+  constexpr static std::size_t addrs = 0x39c5a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), "get_id",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::JumpDestinationMarker> (::GlobalNamespace::JumpMarker::*)()>(
     &::GlobalNamespace::JumpMarker::get_jumpDestination)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3970558;
+  constexpr static std::size_t addrs = 0x39c5a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), "get_jumpDestination",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpMarker::*)()>(&::GlobalNamespace::JumpMarker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3970560;
+  constexpr static std::size_t addrs = 0x39c5a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), ".ctor",
@@ -46,14 +46,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Playables::INotification"
-constexpr GlobalNamespace::JumpMarker::operator ::UnityEngine::Playables::INotification*() noexcept {
-  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Playables::INotification"
-constexpr ::UnityEngine::Playables::INotification* GlobalNamespace::JumpMarker::i___UnityEngine__Playables__INotification() noexcept {
-  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::JumpDestinationMarker>& GlobalNamespace::JumpMarker::__cordl_internal_get__destination() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destination;
@@ -88,13 +80,21 @@ inline ::UnityW<::GlobalNamespace::JumpDestinationMarker> GlobalNamespace::JumpM
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::JumpDestinationMarker>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::JumpMarker* GlobalNamespace::JumpMarker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::JumpMarker*>());
-}
 inline void GlobalNamespace::JumpMarker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::JumpMarker* GlobalNamespace::JumpMarker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::JumpMarker*>());
+}
+/// @brief Convert operator to "::UnityEngine::Playables::INotification"
+constexpr GlobalNamespace::JumpMarker::operator ::UnityEngine::Playables::INotification*() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Playables::INotification"
+constexpr ::UnityEngine::Playables::INotification* GlobalNamespace::JumpMarker::i___UnityEngine__Playables__INotification() noexcept {
+  return static_cast<::UnityEngine::Playables::INotification*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::JumpMarker::JumpMarker() {}

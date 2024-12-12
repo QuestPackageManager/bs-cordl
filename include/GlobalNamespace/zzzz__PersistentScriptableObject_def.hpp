@@ -11,20 +11,19 @@ class PersistentScriptableObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PersistentScriptableObject);
-// Type: ::PersistentScriptableObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PersistentScriptableObject*
+// CS Name: PersistentScriptableObject
 class CORDL_TYPE PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   static inline ::GlobalNamespace::PersistentScriptableObject* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2280470, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x22b3180, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x2280494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b31a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   PersistentScriptableObject(PersistentScriptableObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::PlayerSensitivityFlag, ::StringW>*>* (::GlobalNamespace::PlayerSensitivityDropdown::*)()>(
         &::GlobalNamespace::PlayerSensitivityDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3ba6e68;
+  constexpr static std::size_t addrs = 0x3c097f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSensitivityDropdown::*)()>(&::GlobalNamespace::PlayerSensitivityDropdown::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ba6f90;
+  constexpr static std::size_t addrs = 0x3c0991c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(), ".ctor",
@@ -41,13 +41,13 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::Globa
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::PlayerSensitivityFlag, ::StringW>*>*, false>(this,
                                                                                                                                                                                ___internal_method);
 }
-inline ::GlobalNamespace::PlayerSensitivityDropdown* GlobalNamespace::PlayerSensitivityDropdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerSensitivityDropdown*>());
-}
 inline void GlobalNamespace::PlayerSensitivityDropdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSensitivityDropdown*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PlayerSensitivityDropdown* GlobalNamespace::PlayerSensitivityDropdown::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlayerSensitivityDropdown*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerSensitivityDropdown::PlayerSensitivityDropdown() {}

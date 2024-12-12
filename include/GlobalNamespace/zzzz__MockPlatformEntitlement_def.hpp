@@ -16,11 +16,10 @@ class MockPlatformEntitlement;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlatformEntitlement);
-// Type: ::MockPlatformEntitlement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EntitlementStatus, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlatformEntitlement*
+// CS Name: MockPlatformEntitlement
 class CORDL_TYPE MockPlatformEntitlement : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   __declspec(property(get = get_status)) ::GlobalNamespace::EntitlementStatus status;
 
-  /// @brief Method GetIt, addr 0x266eff0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIt, addr 0x26a2e9c, size 0xc, virtual false, abstract: false, final false
   inline void GetIt();
 
   static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
@@ -51,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
-  /// @brief Method .ctor, addr 0x266effc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a2ea8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method get_id, addr 0x267011c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x26a3fc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_status, addr 0x2670124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x26a3fd0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EntitlementStatus get_status();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlatformEntitlement(MockPlatformEntitlement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12765 };
+
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;
 
   /// @brief Field _status, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::EntitlementStatus ____status;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12732 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformEntitlement, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlatformEntitlement, ____id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlatformEntitlement, ____status) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformEntitlement, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlatformEntitlement);

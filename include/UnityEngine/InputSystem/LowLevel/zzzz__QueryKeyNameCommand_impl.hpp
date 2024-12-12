@@ -1,26 +1,24 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryKeyNameCommand.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer::QueryKeyNameCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer::QueryKeyNameCommand__nameBuffer_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a545c;
+  constexpr static std::size_t addrs = 0x4606770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -34,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::ReadKeyName)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45a548c;
+  constexpr static std::size_t addrs = 0x46067a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -48,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a549c;
+  constexpr static std::size_t addrs = 0x46067b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -62,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand (*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::Create)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45a54cc;
+  constexpr static std::size_t addrs = 0x46067e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,14 +69,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_get_baseCommand() {
   return this->___baseCommand;
 }
@@ -97,14 +87,13 @@ constexpr int32_t const& UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand
 constexpr void UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_set_scanOrKeyCode(int32_t value) {
   this->___scanOrKeyCode = value;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer& UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_get_nameBuffer() {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer& UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_get_nameBuffer() {
   return this->___nameBuffer;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer const&
-UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_get_nameBuffer() const {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer const& UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_get_nameBuffer() const {
   return this->___nameBuffer;
 }
-constexpr void UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer value) {
+constexpr void UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::__cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer value) {
   this->___nameBuffer = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::get_Type() {
@@ -128,11 +117,19 @@ inline ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand UnityEngine::In
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Key>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand, false>(nullptr, ___internal_method, key);
 }
+/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "scanOrKeyCode", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer", modifiers: "",
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameBuffer", ty: "::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer", modifiers: "",
 // def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::QueryKeyNameCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand, int32_t scanOrKeyCode,
-                                                                                         ::UnityEngine::InputSystem::LowLevel::__QueryKeyNameCommand___nameBuffer_e__FixedBuffer nameBuffer) noexcept {
+                                                                                         ::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand__nameBuffer_e__FixedBuffer nameBuffer) noexcept {
   this->baseCommand = baseCommand;
   this->scanOrKeyCode = scanOrKeyCode;
   this->nameBuffer = nameBuffer;

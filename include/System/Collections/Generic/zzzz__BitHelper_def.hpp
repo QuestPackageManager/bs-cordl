@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitHelper)
 // Forward declare root types
@@ -13,11 +12,10 @@ class BitHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::BitHelper);
-// Type: System.Collections.Generic::BitHelper
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::BitHelper*
+// CS Name: System.Collections.Generic.BitHelper
 class CORDL_TYPE BitHelper : public ::System::Object {
 public:
   // Declarations
@@ -33,17 +31,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x40a4b04, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x4105e18, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x40a4a88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x4105d9c, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x40a4b88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x4105e9c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
@@ -70,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x40a4a58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4105d6c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x40a4a20, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4105d34, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
 protected:
@@ -90,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BitHelper(BitHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14187 };
+
   /// @brief Field _length, offset: 0x10, size: 0x4, def value: None
   int32_t ____length;
 
@@ -102,14 +103,9 @@ public:
   /// @brief Field _useStackAlloc, offset: 0x28, size: 0x1, def value: None
   bool ____useStackAlloc;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14153 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::BitHelper, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::Generic::BitHelper, ____length) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Generic::BitHelper, ____arrayPtr) == 0x18, "Offset mismatch!");
@@ -117,6 +113,8 @@ static_assert(offsetof(::System::Collections::Generic::BitHelper, ____arrayPtr) 
 static_assert(offsetof(::System::Collections::Generic::BitHelper, ____array) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::Generic::BitHelper, ____useStackAlloc) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Collections::Generic::BitHelper, 0x30>, "Size mismatch!");
 
 } // namespace System::Collections::Generic
 NEED_NO_BOX(::System::Collections::Generic::BitHelper);

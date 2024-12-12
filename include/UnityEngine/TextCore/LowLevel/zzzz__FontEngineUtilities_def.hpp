@@ -12,30 +12,29 @@ struct FontEngineUtilities;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontEngineUtilities);
-// Type: UnityEngine.TextCore.LowLevel::FontEngineUtilities
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.LowLevel::FontEngineUtilities
+// CS Name: UnityEngine.TextCore.LowLevel.FontEngineUtilities
 #pragma pack(push, 0)
 struct CORDL_TYPE FontEngineUtilities {
 public:
   // Declarations
-  /// @brief Method MaxValue, addr 0x48bbcb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MaxValue, addr 0x4920340, size 0x20, virtual false, abstract: false, final false
   static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr FontEngineUtilities();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

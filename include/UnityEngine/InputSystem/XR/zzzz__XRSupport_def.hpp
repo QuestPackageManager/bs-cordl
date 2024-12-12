@@ -11,15 +11,14 @@ class XRSupport;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRSupport);
-// Type: UnityEngine.InputSystem.XR::XRSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::XRSupport*
+// CS Name: UnityEngine.InputSystem.XR.XRSupport
 class CORDL_TYPE XRSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x4585658, size 0x858, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x45e696c, size 0x858, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +36,7 @@ public:
   XRSupport(XRSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6745 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

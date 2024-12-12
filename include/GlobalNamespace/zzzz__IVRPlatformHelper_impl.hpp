@@ -8,466 +8,6 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_inputFocusWasCapturedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 0));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_inputFocusWasCapturedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 1));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_inputFocusWasReleasedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_inputFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 2));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_inputFocusWasReleasedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_inputFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 3));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_vrFocusWasCapturedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_vrFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 4));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_vrFocusWasCapturedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_vrFocusWasReleasedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_vrFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 6));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_vrFocusWasReleasedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_vrFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 7));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_hmdUnmountedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_hmdUnmountedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 8));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_hmdUnmountedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_hmdUnmountedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 9));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_hmdMountedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_hmdMountedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 10));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_hmdMountedEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_hmdMountedEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_controllersDidChangeReferenceEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_controllersDidChangeReferenceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 12));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_controllersDidChangeReferenceEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_controllersDidChangeReferenceEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 13));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.add_controllersDidDisconnectEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::add_controllersDidDisconnectEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 14));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.remove_controllersDidDisconnectEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::System::Action*)>(
-    &::GlobalNamespace::IVRPlatformHelper::remove_controllersDidDisconnectEvent)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 15));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.get_hasInputFocus
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)()>(&::GlobalNamespace::IVRPlatformHelper::get_hasInputFocus)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 16));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.get_hasVrFocus
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)()>(&::GlobalNamespace::IVRPlatformHelper::get_hasVrFocus)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 17));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.get_isAlwaysWireless
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)()>(&::GlobalNamespace::IVRPlatformHelper::get_isAlwaysWireless)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 18));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.get_vrPlatformSDK
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (::GlobalNamespace::IVRPlatformHelper::*)()>(
-    &::GlobalNamespace::IVRPlatformHelper::get_vrPlatformSDK)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 19));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.TriggerHapticPulse
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
-    &::GlobalNamespace::IVRPlatformHelper::TriggerHapticPulse)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 20));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.StopHaptics
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode)>(
-    &::GlobalNamespace::IVRPlatformHelper::StopHaptics)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 21));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.TryGetPoseOffsetForNode
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode, ByRef<::UnityEngine::Pose>)>(
-    &::GlobalNamespace::IVRPlatformHelper::TryGetPoseOffsetForNode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 22));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetNodePose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)(
-    ::UnityEngine::XR::XRNode, int32_t, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Quaternion>)>(&::GlobalNamespace::IVRPlatformHelper::GetNodePose)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 23));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetAnyJoystickMaxAxis
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::IVRPlatformHelper::*)()>(
-    &::GlobalNamespace::IVRPlatformHelper::GetAnyJoystickMaxAxis)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 24));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetTriggerValue
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode)>(
-    &::GlobalNamespace::IVRPlatformHelper::GetTriggerValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 25));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetThumbstickValue
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode)>(
-    &::GlobalNamespace::IVRPlatformHelper::GetThumbstickValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 26));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.IsAdvancedHapticsSupported
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)(::UnityEngine::XR::XRNode)>(
-    &::GlobalNamespace::IVRPlatformHelper::IsAdvancedHapticsSupported)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 27));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetMenuButton
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)()>(&::GlobalNamespace::IVRPlatformHelper::GetMenuButton)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 28));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.GetMenuButtonDown
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IVRPlatformHelper::*)()>(&::GlobalNamespace::IVRPlatformHelper::GetMenuButtonDown)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 29));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::IVRPlatformHelper.RefreshControllersReference
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IVRPlatformHelper::*)()>(
-    &::GlobalNamespace::IVRPlatformHelper::RefreshControllersReference)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 30));
-    return ___internal_method;
-  }
-};
 inline void GlobalNamespace::IVRPlatformHelper::add_inputFocusWasCapturedEvent(::System::Action* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 0)));
@@ -578,48 +118,58 @@ inline void GlobalNamespace::IVRPlatformHelper::StopHaptics(::UnityEngine::XR::X
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-inline bool GlobalNamespace::IVRPlatformHelper::TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> poseOffset) {
+inline bool GlobalNamespace::IVRPlatformHelper::TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Pose> poseOffset) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node, poseOffset);
 }
-inline bool GlobalNamespace::IVRPlatformHelper::GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot) {
+inline bool GlobalNamespace::IVRPlatformHelper::GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, nodeType, idx, pos, rot);
 }
-inline ::UnityEngine::Vector2 GlobalNamespace::IVRPlatformHelper::GetAnyJoystickMaxAxis() {
+inline ::UnityEngine::Pose GlobalNamespace::IVRPlatformHelper::GetRootPositionOffsetForLegacyNodePose(::UnityEngine::XR::XRNode node) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 24)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Pose, false>(this, ___internal_method, node);
+}
+inline bool GlobalNamespace::IVRPlatformHelper::TryGetLegacyPoseOffsetForNode(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> rotation) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 25)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node, position, rotation);
+}
+inline ::UnityEngine::Vector2 GlobalNamespace::IVRPlatformHelper::GetAnyJoystickMaxAxis() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::IVRPlatformHelper::GetTriggerValue(::UnityEngine::XR::XRNode node) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, node);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::IVRPlatformHelper::GetThumbstickValue(::UnityEngine::XR::XRNode node) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, node);
 }
 inline bool GlobalNamespace::IVRPlatformHelper::IsAdvancedHapticsSupported(::UnityEngine::XR::XRNode node) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, node);
 }
 inline bool GlobalNamespace::IVRPlatformHelper::GetMenuButton() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::IVRPlatformHelper::GetMenuButtonDown() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::IVRPlatformHelper::RefreshControllersReference() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IVRPlatformHelper*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }

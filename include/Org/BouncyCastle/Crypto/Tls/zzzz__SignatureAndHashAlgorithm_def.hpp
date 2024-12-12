@@ -18,11 +18,10 @@ class SignatureAndHashAlgorithm;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);
-// Type: Org.BouncyCastle.Crypto.Tls::SignatureAndHashAlgorithm
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::SignatureAndHashAlgorithm*
+// CS Name: Org.BouncyCastle.Crypto.Tls.SignatureAndHashAlgorithm
 class CORDL_TYPE SignatureAndHashAlgorithm : public ::System::Object {
 public:
   // Declarations
@@ -36,18 +35,18 @@ public:
   /// @brief Field mSignature, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) uint8_t mSignature;
 
-  /// @brief Method Encode, addr 0x23e6888, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x2419b74, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Equals, addr 0x23e6774, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2419a60, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x23e6844, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2419b30, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* New_ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method Parse, addr 0x23e6924, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2419c10, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Parse(::System::IO::Stream* input);
 
   constexpr uint8_t const& __cordl_internal_get_mHash() const;
@@ -62,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_mSignature(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23e660c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24198f8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(uint8_t hash, uint8_t signature);
 
-  /// @brief Method get_Hash, addr 0x23e6764, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x2419a50, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Hash();
 
-  /// @brief Method get_Signature, addr 0x23e676c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Signature, addr 0x2419a58, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Signature();
 
 protected:
@@ -85,23 +84,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureAndHashAlgorithm(SignatureAndHashAlgorithm const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1275 };
+
   /// @brief Field mHash, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mHash;
 
   /// @brief Field mSignature, offset: 0x11, size: 0x1, def value: None
   uint8_t ___mSignature;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1275 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, ___mHash) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, ___mSignature) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);

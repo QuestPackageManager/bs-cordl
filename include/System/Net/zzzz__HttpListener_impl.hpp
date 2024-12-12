@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Net/HttpListener.hpp"
 #include "System/Net/zzzz__AuthenticationSchemes_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListener_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsProvider_def.hpp"
@@ -21,7 +22,6 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpListener.LoadCertificateAndKey
 template <>
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::System::Net::HttpListener::*)(::System::Net::IPAddress*, int32_t)>(&::System::Net::HttpListener::LoadCertificateAndKey)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x445dd94;
+  constexpr static std::size_t addrs = 0x44bf0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::SslStream* (
     ::System::Net::HttpListener::*)(::System::IO::Stream*, bool, ::System::Net::Security::RemoteCertificateValidationCallback*)>(&::System::Net::HttpListener::CreateSslStream)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x44621a4;
+  constexpr static std::size_t addrs = 0x44c34b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::_ctor)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4464cdc;
+  constexpr static std::size_t addrs = 0x44c5ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), ".ctor",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::AuthenticationSchemes (::System::Net::HttpListener::*)()>(
     &::System::Net::HttpListener::get_AuthenticationSchemes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4464f04;
+  constexpr static std::size_t addrs = 0x44c6218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "get_AuthenticationSchemes",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::AuthenticationSchemeSelector* (::System::Net::HttpListener::*)()>(
     &::System::Net::HttpListener::get_AuthenticationSchemeSelectorDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4464f0c;
+  constexpr static std::size_t addrs = 0x44c6220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::get_IgnoreWriteExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4464f14;
+  constexpr static std::size_t addrs = 0x44c6228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "get_IgnoreWriteExceptions",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::get_IsListening)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4464f1c;
+  constexpr static std::size_t addrs = 0x44c6230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "get_IsListening",
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerPrefixCollection* (::System::Net::HttpListener::*)()>(
     &::System::Net::HttpListener::get_Prefixes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4460fa4;
+  constexpr static std::size_t addrs = 0x44c22b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "get_Prefixes",
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::get_Realm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4464f9c;
+  constexpr static std::size_t addrs = 0x44c62b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "get_Realm",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4464fa4;
+  constexpr static std::size_t addrs = 0x44c62b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "Close",
@@ -168,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(bool)>(&::System::Net::HttpListener::Close)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4464fd8;
+  constexpr static std::size_t addrs = 0x44c62ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(bool)>(&::System::Net::HttpListener::Cleanup)> {
   constexpr static std::size_t size = 0xa8c;
-  constexpr static std::size_t addrs = 0x446504c;
+  constexpr static std::size_t addrs = 0x44c6360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::HttpListener::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::HttpListener::BeginGetContext)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4465ad8;
+  constexpr static std::size_t addrs = 0x44c6dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerContext* (::System::Net::HttpListener::*)(::System::IAsyncResult*)>(
     &::System::Net::HttpListener::EndGetContext)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x4465e58;
+  constexpr static std::size_t addrs = 0x44c716c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::AuthenticationSchemes (::System::Net::HttpListener::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::HttpListener::SelectAuthenticationScheme)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4466110;
+  constexpr static std::size_t addrs = 0x44c7424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerContext* (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::GetContext)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4466268;
+  constexpr static std::size_t addrs = 0x44c757c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "GetContext",
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::Start)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44663a8;
+  constexpr static std::size_t addrs = 0x44c76bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "Start",
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::Stop)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4466418;
+  constexpr static std::size_t addrs = 0x44c772c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "Stop",
@@ -281,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4466438;
+  constexpr static std::size_t addrs = 0x44c774c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(),
@@ -294,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)()>(&::System::Net::HttpListener::CheckDisposed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4464f24;
+  constexpr static std::size_t addrs = 0x44c6238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "CheckDisposed",
@@ -308,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerContext* (::System::Net::HttpListener::*)()>(
     &::System::Net::HttpListener::GetContextFromQueue)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4465d94;
+  constexpr static std::size_t addrs = 0x44c70a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "GetContextFromQueue",
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::HttpListener::RegisterContext)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x4463624;
+  constexpr static std::size_t addrs = 0x44c4938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::HttpListener::UnregisterContext)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x445f0f8;
+  constexpr static std::size_t addrs = 0x44c040c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(::System::Net::HttpConnection*)>(&::System::Net::HttpListener::AddConnection)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44635fc;
+  constexpr static std::size_t addrs = 0x44c4910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListener::*)(::System::Net::HttpConnection*)>(
     &::System::Net::HttpListener::RemoveConnection)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4463998;
+  constexpr static std::size_t addrs = 0x44c4cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,19 +375,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Net::HttpListener::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Net::HttpListener::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::Mono::Security::Interface::MonoTlsProvider*& System::Net::HttpListener::__cordl_internal_get_tlsProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsProvider*> const& System::Net::HttpListener::__cordl_internal_get_tlsProvider() const {
+constexpr ::Mono::Security::Interface::MonoTlsProvider* const& System::Net::HttpListener::__cordl_internal_get_tlsProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsProvider;
 }
@@ -399,7 +391,7 @@ constexpr ::Mono::Security::Interface::MonoTlsSettings*& System::Net::HttpListen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& System::Net::HttpListener::__cordl_internal_get_tlsSettings() const {
+constexpr ::Mono::Security::Interface::MonoTlsSettings* const& System::Net::HttpListener::__cordl_internal_get_tlsSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tlsSettings;
 }
@@ -411,7 +403,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& System::Net::HttpListener::__cordl_internal_get_certificate() const {
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& System::Net::HttpListener::__cordl_internal_get_certificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
@@ -435,7 +427,7 @@ constexpr ::System::Net::HttpListenerPrefixCollection*& System::Net::HttpListene
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefixes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerPrefixCollection*> const& System::Net::HttpListener::__cordl_internal_get_prefixes() const {
+constexpr ::System::Net::HttpListenerPrefixCollection* const& System::Net::HttpListener::__cordl_internal_get_prefixes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prefixes;
 }
@@ -447,7 +439,7 @@ constexpr ::System::Net::AuthenticationSchemeSelector*& System::Net::HttpListene
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___auth_selector;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::AuthenticationSchemeSelector*> const& System::Net::HttpListener::__cordl_internal_get_auth_selector() const {
+constexpr ::System::Net::AuthenticationSchemeSelector* const& System::Net::HttpListener::__cordl_internal_get_auth_selector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___auth_selector;
 }
@@ -507,7 +499,7 @@ constexpr ::System::Object*& System::Net::HttpListener::__cordl_internal_get__in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalLock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::HttpListener::__cordl_internal_get__internalLock() const {
+constexpr ::System::Object* const& System::Net::HttpListener::__cordl_internal_get__internalLock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internalLock;
 }
@@ -519,7 +511,7 @@ constexpr ::System::Collections::Hashtable*& System::Net::HttpListener::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___registry;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Net::HttpListener::__cordl_internal_get_registry() const {
+constexpr ::System::Collections::Hashtable* const& System::Net::HttpListener::__cordl_internal_get_registry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___registry;
 }
@@ -531,7 +523,7 @@ constexpr ::System::Collections::ArrayList*& System::Net::HttpListener::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctx_queue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::HttpListener::__cordl_internal_get_ctx_queue() const {
+constexpr ::System::Collections::ArrayList* const& System::Net::HttpListener::__cordl_internal_get_ctx_queue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctx_queue;
 }
@@ -543,7 +535,7 @@ constexpr ::System::Collections::ArrayList*& System::Net::HttpListener::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wait_queue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::HttpListener::__cordl_internal_get_wait_queue() const {
+constexpr ::System::Collections::ArrayList* const& System::Net::HttpListener::__cordl_internal_get_wait_queue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wait_queue;
 }
@@ -555,7 +547,7 @@ constexpr ::System::Collections::Hashtable*& System::Net::HttpListener::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Net::HttpListener::__cordl_internal_get_connections() const {
+constexpr ::System::Collections::Hashtable* const& System::Net::HttpListener::__cordl_internal_get_connections() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connections;
 }
@@ -567,7 +559,7 @@ constexpr ::System::Net::ServiceNameStore*& System::Net::HttpListener::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultServiceNames;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ServiceNameStore*> const& System::Net::HttpListener::__cordl_internal_get_defaultServiceNames() const {
+constexpr ::System::Net::ServiceNameStore* const& System::Net::HttpListener::__cordl_internal_get_defaultServiceNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultServiceNames;
 }
@@ -579,8 +571,7 @@ constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extendedProtectionPolicy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*> const&
-System::Net::HttpListener::__cordl_internal_get_extendedProtectionPolicy() const {
+constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* const& System::Net::HttpListener::__cordl_internal_get_extendedProtectionPolicy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extendedProtectionPolicy;
 }
@@ -602,9 +593,6 @@ inline ::System::Net::Security::SslStream* System::Net::HttpListener::CreateSslS
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::RemoteCertificateValidationCallback*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Security::SslStream*, false>(this, ___internal_method, innerStream, ownsStream, callback);
-}
-inline ::System::Net::HttpListener* System::Net::HttpListener::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpListener*>());
 }
 inline void System::Net::HttpListener::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), ".ctor",
@@ -731,6 +719,17 @@ inline void System::Net::HttpListener::RemoveConnection(::System::Net::HttpConne
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpListener*>::get(), "RemoveConnection", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpConnection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cnc);
+}
+inline ::System::Net::HttpListener* System::Net::HttpListener::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::HttpListener*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Net::HttpListener::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Net::HttpListener::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::HttpListener::HttpListener() {}

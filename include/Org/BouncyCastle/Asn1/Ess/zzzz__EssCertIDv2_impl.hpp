@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22f2438;
+  constexpr static std::size_t addrs = 0x2325724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x22f24dc;
+  constexpr static std::size_t addrs = 0x23257c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22f2734;
+  constexpr static std::size_t addrs = 0x2325a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f27cc;
+  constexpr static std::size_t addrs = 0x2325ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*)>(&::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22f27d4;
+  constexpr static std::size_t addrs = 0x2325ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*)>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22f2744;
+  constexpr static std::size_t addrs = 0x2325a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f27e4;
+  constexpr static std::size_t addrs = 0x2325ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::GetCertHash)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22f27ec;
+  constexpr static std::size_t addrs = 0x2325ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::get_IssuerSerial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f2848;
+  constexpr static std::size_t addrs = 0x2325b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x22f2850;
+  constexpr static std::size_t addrs = 0x2325b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashAlgorithm;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Ess::EssCertIDv2::__cordl_internal_get_hashAlgorithm() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Ess::EssCertIDv2::__cordl_internal_get_hashAlgorithm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashAlgorithm;
 }
@@ -187,7 +187,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___issuerSerial;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& Org::BouncyCastle::Asn1::Ess::EssCertIDv2::__cordl_internal_get_issuerSerial() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& Org::BouncyCastle::Asn1::Ess::EssCertIDv2::__cordl_internal_get_issuerSerial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___issuerSerial;
 }
@@ -210,27 +210,17 @@ inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(certHash));
-}
 inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certHash);
-}
-inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId,
-                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(algId, certHash));
 }
 inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -239,21 +229,12 @@ inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::Org::BouncyCastle
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, algId, certHash);
 }
-inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
-                                                                                                        ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(certHash, issuerSerial));
-}
 inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::IssuerSerial*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certHash, issuerSerial);
-}
-inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId,
-                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
-                                                                                                        ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(algId, certHash, issuerSerial));
 }
 inline void Org::BouncyCastle::Asn1::Ess::EssCertIDv2::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
                                                              ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
@@ -283,6 +264,25 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Ess::EssC
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(certHash));
+}
+inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId,
+                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(algId, certHash));
+}
+inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
+                                                                                                        ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(certHash, issuerSerial));
+}
+inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* Org::BouncyCastle::Asn1::Ess::EssCertIDv2::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId,
+                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash,
+                                                                                                        ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>(algId, certHash, issuerSerial));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2::EssCertIDv2() {}

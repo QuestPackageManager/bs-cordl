@@ -6,38 +6,52 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomValueToShader)
+namespace System {
+class Random;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class RandomValueToShader;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RandomValueToShader);
-// Type: ::RandomValueToShader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RandomValueToShader*
+// CS Name: RandomValueToShader
 class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _lastFrameNum, offset 0x18, size 0x4
+  /// @brief Field _lastFrameNum, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__lastFrameNum, put = __cordl_internal_set__lastFrameNum)) int32_t _lastFrameNum;
 
+  /// @brief Field _random, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+
   /// @brief Field _randomValueID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__randomValueID, put = setStaticF__randomValueID)) int32_t _randomValueID;
+  __declspec(property(get = getStaticF__randomValueID, put = setStaticF__randomValueID)) int32_t _randomValueID;
 
   static inline ::GlobalNamespace::RandomValueToShader* New_ctor();
 
-  /// @brief Method SetRandomValueToShaders, addr 0x3987480, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRandomSeed, addr 0x39ddc38, size 0x68, virtual false, abstract: false, final false
+  inline void SetRandomSeed(int32_t seed);
+
+  /// @brief Method SetRandomValueToShaders, addr 0x39ddde4, size 0xa0, virtual false, abstract: false, final false
   inline void SetRandomValueToShaders();
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
 
   constexpr int32_t& __cordl_internal_get__lastFrameNum();
 
+  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+
+  constexpr ::System::Random*& __cordl_internal_get__random();
+
   constexpr void __cordl_internal_set__lastFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3987514, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__random(::System::Random* value);
+
+  /// @brief Method .ctor, addr 0x39dde8c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__randomValueID();
@@ -58,18 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RandomValueToShader(RandomValueToShader const&) = delete;
 
-  /// @brief Field _lastFrameNum, offset: 0x18, size: 0x4, def value: None
-  int32_t ____lastFrameNum;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16274 };
+
+  /// @brief Field _random, offset: 0x18, size: 0x8, def value: None
+  ::System::Random* ____random;
+
+  /// @brief Field _lastFrameNum, offset: 0x20, size: 0x4, def value: None
+  int32_t ____lastFrameNum;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomValueToShader, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomValueToShader, ____random) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RandomValueToShader, ____lastFrameNum) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomValueToShader, ____lastFrameNum) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomValueToShader, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomValueToShader);

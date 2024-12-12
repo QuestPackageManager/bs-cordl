@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::SelectLevelDestination::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2678368;
+  constexpr static std::size_t addrs = 0x26ac920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ constexpr ::GlobalNamespace::BeatmapLevelPack*& GlobalNamespace::SelectLevelDest
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& GlobalNamespace::SelectLevelDestination::__cordl_internal_get_beatmapLevelPack() const {
+constexpr ::GlobalNamespace::BeatmapLevelPack* const& GlobalNamespace::SelectLevelDestination::__cordl_internal_get_beatmapLevelPack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
@@ -42,7 +42,7 @@ constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::SelectLevelDestinat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::SelectLevelDestination::__cordl_internal_get_beatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::SelectLevelDestination::__cordl_internal_get_beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
@@ -74,12 +74,6 @@ constexpr void GlobalNamespace::SelectLevelDestination::__cordl_internal_set_bea
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::SelectLevelDestination* GlobalNamespace::SelectLevelDestination::New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
-                                                                                                    ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                                                    ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
-                                                                                                    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SelectLevelDestination*>(beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic));
-}
 inline void GlobalNamespace::SelectLevelDestination::_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                            ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -89,6 +83,12 @@ inline void GlobalNamespace::SelectLevelDestination::_ctor(::GlobalNamespace::Be
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDifficulty>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic);
+}
+inline ::GlobalNamespace::SelectLevelDestination* GlobalNamespace::SelectLevelDestination::New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack,
+                                                                                                    ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                                                    ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                                                                                    ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SelectLevelDestination*>(beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectLevelDestination::SelectLevelDestination() {}

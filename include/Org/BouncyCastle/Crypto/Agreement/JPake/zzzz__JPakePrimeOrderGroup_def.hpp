@@ -14,11 +14,10 @@ class JPakePrimeOrderGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup);
-// Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakePrimeOrderGroup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakePrimeOrderGroup*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.JPake.JPakePrimeOrderGroup
 class CORDL_TYPE JPakePrimeOrderGroup : public ::System::Object {
 public:
   // Declarations
@@ -43,17 +42,17 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_g() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_p() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_p() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_q() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
   constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
@@ -61,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x26540c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26873b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x26540cc, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26873b8, size 0x31c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method get_G, addr 0x26543f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0x26876e4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x26543e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_P, addr 0x26876d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x26543f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x26876dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JPakePrimeOrderGroup(JPakePrimeOrderGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 715 };
+
   /// @brief Field p, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___p;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field g, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___g;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 715 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, ___p) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, ___q) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, ___g) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::JPake
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup);

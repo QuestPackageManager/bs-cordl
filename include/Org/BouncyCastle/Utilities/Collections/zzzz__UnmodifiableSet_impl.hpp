@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/UnmodifiableSet.hpp"
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_impl.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableSet_def.hpp"
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259febc;
+  constexpr static std::size_t addrs = 0x25d31a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Add)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259fec4;
+  constexpr static std::size_t addrs = 0x25d31b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::AddAll)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259fefc;
+  constexpr static std::size_t addrs = 0x25d31e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Clear)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259ff34;
+  constexpr static std::size_t addrs = 0x25d3220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,109 +72,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.Contains
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Object*)>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Contains)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 21));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.CopyTo
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Array*, int32_t)>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::CopyTo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 22));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_Count
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_Count)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 23));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::GetEnumerator)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 24));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_IsEmpty
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_IsEmpty)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 25));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_IsFixedSize
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_IsFixedSize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 26));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_IsReadOnly
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259ff6c;
+  constexpr static std::size_t addrs = 0x25d3258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,45 +88,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_IsSynchronized
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_IsSynchronized)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 28));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.get_SyncRoot
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)()>(
-    &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::get_SyncRoot)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 29));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet.Remove
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::Remove)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259ff74;
+  constexpr static std::size_t addrs = 0x25d3260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::RemoveAll)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259ffac;
+  constexpr static std::size_t addrs = 0x25d3298;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,33 +120,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
-constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
-constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>());
-}
 inline void Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), ".ctor",
@@ -363,6 +209,33 @@ inline void Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::RemoveAl
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Collections::ISet"
+constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::Org::BouncyCastle::Utilities::Collections::ISet*() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___Org__BouncyCastle__Utilities__Collections__ISet() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::Collections::ISet*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet::UnmodifiableSet() {}

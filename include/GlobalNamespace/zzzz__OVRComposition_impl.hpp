@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRComposition::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3f35d80;
+  constexpr static std::size_t addrs = 0x3f95e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,57 +27,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRComposition.CompositionMethod
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__CompositionMethod (::GlobalNamespace::OVRComposition::*)()>(
-    &::GlobalNamespace::OVRComposition::CompositionMethod)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), 4));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRComposition.Update
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)(
-    ::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::__OVRManager__TrackingOrigin)>(
-    &::GlobalNamespace::OVRComposition::Update)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVRComposition.Cleanup
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)()>(&::GlobalNamespace::OVRComposition::Cleanup)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), 6));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::OVRComposition.RecenterPose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)()>(&::GlobalNamespace::OVRComposition::RecenterPose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f35f6c;
+  constexpr static std::size_t addrs = 0x3f96018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRComposition::*)(::UnityEngine::GameObject*, ::UnityEngine::Camera*)>(
     &::GlobalNamespace::OVRComposition::RefreshCameraRig)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3f35db4;
+  constexpr static std::size_t addrs = 0x3f95e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,14 +61,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(
-    ::GlobalNamespace::__OVRPlugin__CameraExtrinsics, ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
+    ::GlobalNamespace::OVRPlugin_CameraExtrinsics, ::UnityEngine::Camera*)>(&::GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f35f70;
+  constexpr static std::size_t addrs = 0x3f9601c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), "ComputeCameraWorldSpacePose", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__CameraExtrinsics>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_CameraExtrinsics>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
     return ___internal_method;
   }
@@ -121,15 +76,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVRComposition.ComputeCameraTrackingSpacePose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(::GlobalNamespace::__OVRPlugin__CameraExtrinsics)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPose (::GlobalNamespace::OVRComposition::*)(::GlobalNamespace::OVRPlugin_CameraExtrinsics)>(
     &::GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3f35fd8;
+  constexpr static std::size_t addrs = 0x3f96084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), "ComputeCameraTrackingSpacePose", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__CameraExtrinsics>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_CameraExtrinsics>::get() })));
     return ___internal_method;
   }
 };
@@ -181,10 +136,6 @@ constexpr void GlobalNamespace::OVRComposition::__cordl_internal_set_lastAttache
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastAttachedNodePose = value;
 }
-inline ::GlobalNamespace::OVRComposition* GlobalNamespace::OVRComposition::New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
-                                                                                    ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRComposition*>(parentObject, mainCamera, configuration));
-}
 inline void GlobalNamespace::OVRComposition::_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -193,13 +144,13 @@ inline void GlobalNamespace::OVRComposition::_ctor(::UnityEngine::GameObject* pa
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parentObject, mainCamera, configuration);
 }
-inline ::GlobalNamespace::__OVRManager__CompositionMethod GlobalNamespace::OVRComposition::CompositionMethod() {
+inline ::GlobalNamespace::OVRManager_CompositionMethod GlobalNamespace::OVRComposition::CompositionMethod() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__CompositionMethod, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_CompositionMethod, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRComposition::Update(::UnityEngine::GameObject* gameObject, ::UnityEngine::Camera* mainCamera, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration,
-                                                    ::GlobalNamespace::__OVRManager__TrackingOrigin trackingOrigin) {
+                                                    ::GlobalNamespace::OVRManager_TrackingOrigin trackingOrigin) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameObject, mainCamera, configuration, trackingOrigin);
@@ -221,18 +172,22 @@ inline void GlobalNamespace::OVRComposition::RefreshCameraRig(::UnityEngine::Gam
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parentObject, mainCamera);
 }
-inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose(::GlobalNamespace::__OVRPlugin__CameraExtrinsics extrinsics, ::UnityEngine::Camera* mainCamera) {
+inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose(::GlobalNamespace::OVRPlugin_CameraExtrinsics extrinsics, ::UnityEngine::Camera* mainCamera) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), "ComputeCameraWorldSpacePose", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__CameraExtrinsics>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_CameraExtrinsics>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPose, false>(this, ___internal_method, extrinsics, mainCamera);
 }
-inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose(::GlobalNamespace::__OVRPlugin__CameraExtrinsics extrinsics) {
+inline ::GlobalNamespace::OVRPose GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose(::GlobalNamespace::OVRPlugin_CameraExtrinsics extrinsics) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRComposition*>::get(), "ComputeCameraTrackingSpacePose", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__CameraExtrinsics>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_CameraExtrinsics>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPose, false>(this, ___internal_method, extrinsics);
+}
+inline ::GlobalNamespace::OVRComposition* GlobalNamespace::OVRComposition::New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
+                                                                                    ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRComposition*>(parentObject, mainCamera, configuration));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRComposition::OVRComposition() {}

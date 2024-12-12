@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c32cfc;
+  constexpr static std::size_t addrs = 0x3c92e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::NamedPermissionSet*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW, ::System::Security::Permissions::PermissionState)>(
     &::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c32db4;
+  constexpr static std::size_t addrs = 0x3c92f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW)>(&::System::Security::NamedPermissionSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32f1c;
+  constexpr static std::size_t addrs = 0x3c93090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32f24;
+  constexpr static std::size_t addrs = 0x3c93098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::NamedPermissionSet*>::get(), "get_Name",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::NamedPermissionSet::*)(::StringW)>(&::System::Security::NamedPermissionSet::set_Name)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3c32e64;
+  constexpr static std::size_t addrs = 0x3c92fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::NamedPermissionSet::*)()>(
     &::System::Security::NamedPermissionSet::ToXml)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c32f2c;
+  constexpr static std::size_t addrs = 0x3c930a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::NamedPermissionSet::*)(::System::Object*)>(
     &::System::Security::NamedPermissionSet::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c3341c;
+  constexpr static std::size_t addrs = 0x3c93590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::NamedPermissionSet::*)()>(&::System::Security::NamedPermissionSet::GetHashCode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c33648;
+  constexpr static std::size_t addrs = 0x3c937bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,16 +143,10 @@ constexpr void System::Security::NamedPermissionSet::__cordl_internal_set_descri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___description)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>());
-}
 inline void System::Security::NamedPermissionSet::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::NamedPermissionSet*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>(name, state));
 }
 inline void System::Security::NamedPermissionSet::_ctor(::StringW name, ::System::Security::Permissions::PermissionState state) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -160,9 +154,6 @@ inline void System::Security::NamedPermissionSet::_ctor(::StringW name, ::System
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Permissions::PermissionState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, state);
-}
-inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>(name));
 }
 inline void System::Security::NamedPermissionSet::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -195,6 +186,15 @@ inline int32_t System::Security::NamedPermissionSet::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::NamedPermissionSet*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>());
+}
+inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>(name, state));
+}
+inline ::System::Security::NamedPermissionSet* System::Security::NamedPermissionSet::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::NamedPermissionSet*>(name));
 }
 // Ctor Parameters []
 constexpr ::System::Security::NamedPermissionSet::NamedPermissionSet() {}

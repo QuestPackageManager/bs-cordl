@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayerTableCell)
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+struct SelectableCell_TransitionType;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -28,11 +28,10 @@ class NetworkPlayerTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerTableCell);
-// Type: ::NetworkPlayerTableCell
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 209, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetworkPlayerTableCell*
+// CS Name: NetworkPlayerTableCell
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -73,18 +72,18 @@ public:
 
   __declspec(property(get = get_showSeparator, put = set_showSeparator)) bool showSeparator;
 
-  /// @brief Method HighlightDidChange, addr 0x3bab1bc, size 0x4, virtual true, abstract: false, final false
-  inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method HighlightDidChange, addr 0x3c0db34, size 0x4, virtual true, abstract: false, final false
+  inline void HighlightDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
   static inline ::GlobalNamespace::NetworkPlayerTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x3baaf08, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x3c0d91c, size 0x214, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x3bab1b8, size 0x4, virtual true, abstract: false, final false
-  inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method SelectionDidChange, addr 0x3c0db30, size 0x4, virtual true, abstract: false, final false
+  inline void SelectionDidChange(::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method SetData, addr 0x3bab11c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c0cc74, size 0x9c, virtual false, abstract: false, final false
   inline void SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe);
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -153,16 +152,16 @@ public:
 
   constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3bab21c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0db94, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeColor, addr 0x3bab1c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_activeColor, addr 0x3c0db38, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_activeColor();
 
-  /// @brief Method get_showSeparator, addr 0x3baaec0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_showSeparator, addr 0x3c0d900, size 0x1c, virtual false, abstract: false, final false
   inline bool get_showSeparator();
 
-  /// @brief Method set_showSeparator, addr 0x3baaedc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3c0cd10, size 0x2c, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
 protected:
@@ -178,6 +177,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerTableCell", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayerTableCell(NetworkPlayerTableCell const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4847 };
 
   /// @brief Field _playerNameText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
@@ -212,14 +214,9 @@ public:
   /// @brief Field _isMe, offset: 0xd0, size: 0x1, def value: None
   bool ____isMe;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4830 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerTableCell, 0xd8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____playerNameText) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____separator) == 0x70, "Offset mismatch!");
@@ -241,6 +238,8 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____textColorM
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____textColorSelected) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerTableCell, ____isMe) == 0xd0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerTableCell, 0xd8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerTableCell);

@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Xml/Schema/zzzz__XmlSchemaInference_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -27,6 +24,9 @@ namespace System::Xml::Schema {
 class XmlSchemaElement;
 }
 namespace System::Xml::Schema {
+struct XmlSchemaInference_InferenceOption;
+}
+namespace System::Xml::Schema {
 class XmlSchemaObjectCollection;
 }
 namespace System::Xml::Schema {
@@ -44,9 +44,6 @@ class XmlSchemaType;
 namespace System::Xml::Schema {
 class XmlSchema;
 }
-namespace System::Xml::Schema {
-struct __XmlSchemaInference__InferenceOption;
-}
 namespace System::Xml {
 class NameTable;
 }
@@ -61,33 +58,32 @@ class XmlReader;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
-struct __XmlSchemaInference__InferenceOption;
+struct XmlSchemaInference_InferenceOption;
 }
 namespace System::Xml::Schema {
 class XmlSchemaInference;
 }
 // Write type traits
-MARK_VAL_T(::System::Xml::Schema::__XmlSchemaInference__InferenceOption);
+MARK_VAL_T(::System::Xml::Schema::XmlSchemaInference_InferenceOption);
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInference);
-// Type: ::InferenceOption
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::XmlSchemaInference::InferenceOption
-struct CORDL_TYPE __XmlSchemaInference__InferenceOption {
+// CS Name: System.Xml.Schema.XmlSchemaInference/InferenceOption
+struct CORDL_TYPE XmlSchemaInference_InferenceOption {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____XmlSchemaInference__InferenceOption_Unwrapped
-  enum struct ____XmlSchemaInference__InferenceOption_Unwrapped : int32_t {
+  /// @brief Nested struct __XmlSchemaInference_InferenceOption_Unwrapped
+  enum struct __XmlSchemaInference_InferenceOption_Unwrapped : int32_t {
     __E_Restricted = static_cast<int32_t>(0x0),
     __E_Relaxed = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____XmlSchemaInference__InferenceOption_Unwrapped() const noexcept {
-    return static_cast<____XmlSchemaInference__InferenceOption_Unwrapped>(this->value__);
+  constexpr operator __XmlSchemaInference_InferenceOption_Unwrapped() const noexcept {
+    return static_cast<__XmlSchemaInference_InferenceOption_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -97,122 +93,121 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlSchemaInference__InferenceOption();
+  constexpr XmlSchemaInference_InferenceOption();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XmlSchemaInference__InferenceOption(int32_t value__) noexcept;
+  constexpr XmlSchemaInference_InferenceOption(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Relaxed value: I32(1)
+  static ::System::Xml::Schema::XmlSchemaInference_InferenceOption const Relaxed;
 
-  /// @brief Field Relaxed value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const Relaxed;
-
-  /// @brief Field Restricted value: static_cast<int32_t>(0x0)
-  static ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const Restricted;
+  /// @brief Field Restricted value: I32(0)
+  static ::System::Xml::Schema::XmlSchemaInference_InferenceOption const Restricted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7597 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlSchemaInference__InferenceOption, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Schema::XmlSchemaInference_InferenceOption, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__XmlSchemaInference__InferenceOption, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaInference_InferenceOption, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
-// Type: System.Xml.Schema::XmlSchemaInference
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Schema.XmlSchemaInference::InferenceOption
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaInference*
+// CS Name: System.Xml.Schema.XmlSchemaInference
 class CORDL_TYPE XmlSchemaInference : public ::System::Object {
 public:
   // Declarations
-  using InferenceOption = ::System::Xml::Schema::__XmlSchemaInference__InferenceOption;
+  using InferenceOption = ::System::Xml::Schema::XmlSchemaInference_InferenceOption;
 
   /// @brief Field NamespaceManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_NamespaceManager, put = __cordl_internal_set_NamespaceManager)) ::System::Xml::XmlNamespaceManager* NamespaceManager;
 
-  __declspec(property(get = get_Occurrence, put = set_Occurrence)) ::System::Xml::Schema::__XmlSchemaInference__InferenceOption Occurrence;
+  __declspec(property(get = get_Occurrence, put = set_Occurrence)) ::System::Xml::Schema::XmlSchemaInference_InferenceOption Occurrence;
 
   /// @brief Field ST_anySimpleType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_anySimpleType, put = setStaticF_ST_anySimpleType)) ::System::Xml::XmlQualifiedName* ST_anySimpleType;
+  __declspec(property(get = getStaticF_ST_anySimpleType, put = setStaticF_ST_anySimpleType)) ::System::Xml::XmlQualifiedName* ST_anySimpleType;
 
   /// @brief Field ST_boolean, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_boolean, put = setStaticF_ST_boolean)) ::System::Xml::XmlQualifiedName* ST_boolean;
+  __declspec(property(get = getStaticF_ST_boolean, put = setStaticF_ST_boolean)) ::System::Xml::XmlQualifiedName* ST_boolean;
 
   /// @brief Field ST_byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_byte, put = setStaticF_ST_byte)) ::System::Xml::XmlQualifiedName* ST_byte;
+  __declspec(property(get = getStaticF_ST_byte, put = setStaticF_ST_byte)) ::System::Xml::XmlQualifiedName* ST_byte;
 
   /// @brief Field ST_date, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_date, put = setStaticF_ST_date)) ::System::Xml::XmlQualifiedName* ST_date;
+  __declspec(property(get = getStaticF_ST_date, put = setStaticF_ST_date)) ::System::Xml::XmlQualifiedName* ST_date;
 
   /// @brief Field ST_dateTime, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_dateTime, put = setStaticF_ST_dateTime)) ::System::Xml::XmlQualifiedName* ST_dateTime;
+  __declspec(property(get = getStaticF_ST_dateTime, put = setStaticF_ST_dateTime)) ::System::Xml::XmlQualifiedName* ST_dateTime;
 
   /// @brief Field ST_decimal, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_decimal, put = setStaticF_ST_decimal)) ::System::Xml::XmlQualifiedName* ST_decimal;
+  __declspec(property(get = getStaticF_ST_decimal, put = setStaticF_ST_decimal)) ::System::Xml::XmlQualifiedName* ST_decimal;
 
   /// @brief Field ST_double, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_double, put = setStaticF_ST_double)) ::System::Xml::XmlQualifiedName* ST_double;
+  __declspec(property(get = getStaticF_ST_double, put = setStaticF_ST_double)) ::System::Xml::XmlQualifiedName* ST_double;
 
   /// @brief Field ST_duration, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_duration, put = setStaticF_ST_duration)) ::System::Xml::XmlQualifiedName* ST_duration;
+  __declspec(property(get = getStaticF_ST_duration, put = setStaticF_ST_duration)) ::System::Xml::XmlQualifiedName* ST_duration;
 
   /// @brief Field ST_float, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_float, put = setStaticF_ST_float)) ::System::Xml::XmlQualifiedName* ST_float;
+  __declspec(property(get = getStaticF_ST_float, put = setStaticF_ST_float)) ::System::Xml::XmlQualifiedName* ST_float;
 
   /// @brief Field ST_gYearMonth, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_gYearMonth, put = setStaticF_ST_gYearMonth)) ::System::Xml::XmlQualifiedName* ST_gYearMonth;
+  __declspec(property(get = getStaticF_ST_gYearMonth, put = setStaticF_ST_gYearMonth)) ::System::Xml::XmlQualifiedName* ST_gYearMonth;
 
   /// @brief Field ST_int, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_int, put = setStaticF_ST_int)) ::System::Xml::XmlQualifiedName* ST_int;
+  __declspec(property(get = getStaticF_ST_int, put = setStaticF_ST_int)) ::System::Xml::XmlQualifiedName* ST_int;
 
   /// @brief Field ST_integer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_integer, put = setStaticF_ST_integer)) ::System::Xml::XmlQualifiedName* ST_integer;
+  __declspec(property(get = getStaticF_ST_integer, put = setStaticF_ST_integer)) ::System::Xml::XmlQualifiedName* ST_integer;
 
   /// @brief Field ST_long, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_long, put = setStaticF_ST_long)) ::System::Xml::XmlQualifiedName* ST_long;
+  __declspec(property(get = getStaticF_ST_long, put = setStaticF_ST_long)) ::System::Xml::XmlQualifiedName* ST_long;
 
   /// @brief Field ST_short, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_short, put = setStaticF_ST_short)) ::System::Xml::XmlQualifiedName* ST_short;
+  __declspec(property(get = getStaticF_ST_short, put = setStaticF_ST_short)) ::System::Xml::XmlQualifiedName* ST_short;
 
   /// @brief Field ST_string, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_string, put = setStaticF_ST_string)) ::System::Xml::XmlQualifiedName* ST_string;
+  __declspec(property(get = getStaticF_ST_string, put = setStaticF_ST_string)) ::System::Xml::XmlQualifiedName* ST_string;
 
   /// @brief Field ST_time, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_time, put = setStaticF_ST_time)) ::System::Xml::XmlQualifiedName* ST_time;
+  __declspec(property(get = getStaticF_ST_time, put = setStaticF_ST_time)) ::System::Xml::XmlQualifiedName* ST_time;
 
   /// @brief Field ST_unsignedByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_unsignedByte, put = setStaticF_ST_unsignedByte)) ::System::Xml::XmlQualifiedName* ST_unsignedByte;
+  __declspec(property(get = getStaticF_ST_unsignedByte, put = setStaticF_ST_unsignedByte)) ::System::Xml::XmlQualifiedName* ST_unsignedByte;
 
   /// @brief Field ST_unsignedInt, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_unsignedInt, put = setStaticF_ST_unsignedInt)) ::System::Xml::XmlQualifiedName* ST_unsignedInt;
+  __declspec(property(get = getStaticF_ST_unsignedInt, put = setStaticF_ST_unsignedInt)) ::System::Xml::XmlQualifiedName* ST_unsignedInt;
 
   /// @brief Field ST_unsignedLong, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_unsignedLong, put = setStaticF_ST_unsignedLong)) ::System::Xml::XmlQualifiedName* ST_unsignedLong;
+  __declspec(property(get = getStaticF_ST_unsignedLong, put = setStaticF_ST_unsignedLong)) ::System::Xml::XmlQualifiedName* ST_unsignedLong;
 
   /// @brief Field ST_unsignedShort, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST_unsignedShort, put = setStaticF_ST_unsignedShort)) ::System::Xml::XmlQualifiedName* ST_unsignedShort;
+  __declspec(property(get = getStaticF_ST_unsignedShort, put = setStaticF_ST_unsignedShort)) ::System::Xml::XmlQualifiedName* ST_unsignedShort;
 
   /// @brief Field SimpleTypes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SimpleTypes, put = setStaticF_SimpleTypes)) ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> SimpleTypes;
+  __declspec(property(get = getStaticF_SimpleTypes, put = setStaticF_SimpleTypes)) ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> SimpleTypes;
 
   /// @brief Field TargetNamespace, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_TargetNamespace, put = __cordl_internal_set_TargetNamespace)) ::StringW TargetNamespace;
 
-  __declspec(property(put = set_TypeInference)) ::System::Xml::Schema::__XmlSchemaInference__InferenceOption TypeInference;
+  __declspec(property(put = set_TypeInference)) ::System::Xml::Schema::XmlSchemaInference_InferenceOption TypeInference;
 
   /// @brief Field nametable, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_nametable, put = __cordl_internal_set_nametable)) ::System::Xml::NameTable* nametable;
 
   /// @brief Field occurrence, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_occurrence, put = __cordl_internal_set_occurrence)) ::System::Xml::Schema::__XmlSchemaInference__InferenceOption occurrence;
+  __declspec(property(get = __cordl_internal_get_occurrence, put = __cordl_internal_set_occurrence)) ::System::Xml::Schema::XmlSchemaInference_InferenceOption occurrence;
 
   /// @brief Field rootSchema, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_rootSchema, put = __cordl_internal_set_rootSchema)) ::System::Xml::Schema::XmlSchema* rootSchema;
@@ -224,128 +219,129 @@ public:
   __declspec(property(get = __cordl_internal_get_schemaSet, put = __cordl_internal_set_schemaSet)) ::System::Xml::Schema::XmlSchemaSet* schemaSet;
 
   /// @brief Field typeInference, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_typeInference, put = __cordl_internal_set_typeInference)) ::System::Xml::Schema::__XmlSchemaInference__InferenceOption typeInference;
+  __declspec(property(get = __cordl_internal_get_typeInference, put = __cordl_internal_set_typeInference)) ::System::Xml::Schema::XmlSchemaInference_InferenceOption typeInference;
 
   /// @brief Field xtr, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_xtr, put = __cordl_internal_set_xtr)) ::System::Xml::XmlReader* xtr;
 
-  /// @brief Method AddAttribute, addr 0x4201dac, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x42630c0, size 0x7d0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* AddAttribute(::StringW localName, ::StringW prefix, ::StringW childURI, ::StringW attrValue, bool bCreatingNewType,
                                                                  ::System::Xml::Schema::XmlSchema* parentSchema, ::System::Xml::Schema::XmlSchemaObjectCollection* addLocation,
                                                                  ::System::Xml::Schema::XmlSchemaObjectTable* compiledAttributes);
 
-  /// @brief Method AddElement, addr 0x42003f4, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x4261708, size 0x5d8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* AddElement(::StringW localName, ::StringW prefix, ::StringW childURI, ::System::Xml::Schema::XmlSchema* parentSchema,
                                                              ::System::Xml::Schema::XmlSchemaObjectCollection* addLocation, int32_t positionWithinCollection);
 
-  /// @brief Method CheckSimpleContentExtension, addr 0x42052b4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckSimpleContentExtension, addr 0x42665c8, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleContentExtension* CheckSimpleContentExtension(::System::Xml::Schema::XmlSchemaComplexType* ct);
 
-  /// @brief Method CreateNewElementforChoice, addr 0x4206c84, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method CreateNewElementforChoice, addr 0x4267f98, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* CreateNewElementforChoice(::System::Xml::Schema::XmlSchemaElement* copyElement);
 
-  /// @brief Method CreateXmlSchema, addr 0x42045e8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateXmlSchema, addr 0x42658fc, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* CreateXmlSchema(::StringW targetNS);
 
-  /// @brief Method DateTime, addr 0x42085bc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method DateTime, addr 0x42698d0, size 0x114, virtual false, abstract: false, final false
   static inline int32_t DateTime(::StringW s, bool bDate, bool bTime);
 
-  /// @brief Method FindAttribute, addr 0x4202944, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method FindAttribute, addr 0x4263c58, size 0x384, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* FindAttribute(::System::Collections::ICollection* attributes, ::StringW attrName);
 
-  /// @brief Method FindAttributeRef, addr 0x420257c, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method FindAttributeRef, addr 0x4263890, size 0x3c8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* FindAttributeRef(::System::Collections::ICollection* attributes, ::StringW attributeName, ::StringW nsURI);
 
-  /// @brief Method FindElement, addr 0x42069f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method FindElement, addr 0x4267d08, size 0x130, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* FindElement(::System::Xml::Schema::XmlSchemaObjectCollection* elements, ::StringW elementName);
 
-  /// @brief Method FindElementRef, addr 0x4206b24, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method FindElementRef, addr 0x4267e38, size 0x160, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* FindElementRef(::System::Xml::Schema::XmlSchemaObjectCollection* elements, ::StringW elementName, ::StringW nsURI);
 
-  /// @brief Method FindGlobalElement, addr 0x4204678, size 0x388, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaElement* FindGlobalElement(::StringW namespaceURI, ::StringW localName, ByRef<::System::Xml::Schema::XmlSchema*> parentSchema);
+  /// @brief Method FindGlobalElement, addr 0x426598c, size 0x388, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaElement* FindGlobalElement(::StringW namespaceURI, ::StringW localName, ::ByRef<::System::Xml::Schema::XmlSchema*> parentSchema);
 
-  /// @brief Method FindMatchingElement, addr 0x420587c, size 0xfec, virtual false, abstract: false, final false
+  /// @brief Method FindMatchingElement, addr 0x4266b90, size 0xfec, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* FindMatchingElement(bool bCreatingNewType, ::System::Xml::XmlReader* xtr, ::System::Xml::Schema::XmlSchemaComplexType* ct,
-                                                                      ByRef<int32_t> lastUsedSeqItem, ByRef<bool> bParticleChanged, ::System::Xml::Schema::XmlSchema* parentSchema, bool setMaxoccurs);
+                                                                      ::ByRef<int32_t> lastUsedSeqItem, ::ByRef<bool> bParticleChanged, ::System::Xml::Schema::XmlSchema* parentSchema,
+                                                                      bool setMaxoccurs);
 
-  /// @brief Method GetEffectiveSchemaType, addr 0x4204a00, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetEffectiveSchemaType, addr 0x4265d14, size 0x138, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* GetEffectiveSchemaType(::System::Xml::Schema::XmlSchemaElement* elem, bool bCreatingNewType);
 
-  /// @brief Method GetSchemaType, addr 0x4203e14, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaType, addr 0x4265128, size 0x7d4, virtual false, abstract: false, final false
   static inline int32_t GetSchemaType(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method InferElement, addr 0x42009cc, size 0x13e0, virtual false, abstract: false, final false
+  /// @brief Method InferElement, addr 0x4261ce0, size 0x13e0, virtual false, abstract: false, final false
   inline void InferElement(::System::Xml::Schema::XmlSchemaElement* xse, bool bCreatingNewType, ::System::Xml::Schema::XmlSchema* parentSchema);
 
-  /// @brief Method InferSchema, addr 0x41ff978, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InferSchema, addr 0x4260c8c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSet* InferSchema(::System::Xml::XmlReader* instanceDocument);
 
-  /// @brief Method InferSchema1, addr 0x41ff9ec, size 0x9d4, virtual false, abstract: false, final false
+  /// @brief Method InferSchema1, addr 0x4260d00, size 0x9d4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSet* InferSchema1(::System::Xml::XmlReader* instanceDocument, ::System::Xml::Schema::XmlSchemaSet* schemas);
 
-  /// @brief Method InferSimpleType, addr 0x4207014, size 0x15a8, virtual false, abstract: false, final false
-  static inline int32_t InferSimpleType(::StringW s, ByRef<bool> bNeedsRangeCheck);
+  /// @brief Method InferSimpleType, addr 0x4268328, size 0x15a8, virtual false, abstract: false, final false
+  static inline int32_t InferSimpleType(::StringW s, ::ByRef<bool> bNeedsRangeCheck);
 
-  /// @brief Method MakeExistingAttributesOptional, addr 0x4205224, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MakeExistingAttributesOptional, addr 0x4266538, size 0x90, virtual false, abstract: false, final false
   inline void MakeExistingAttributesOptional(::System::Xml::Schema::XmlSchemaComplexType* ct, ::System::Xml::Schema::XmlSchemaObjectCollection* attributesInInstance);
 
-  /// @brief Method MoveAttributes, addr 0x42053ec, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method MoveAttributes, addr 0x4266700, size 0x3f4, virtual false, abstract: false, final false
   inline void MoveAttributes(::System::Xml::Schema::XmlSchemaComplexType* ct, ::System::Xml::Schema::XmlSchemaSimpleContentExtension* simpleContentExtension, bool bCreatingNewType);
 
-  /// @brief Method MoveAttributes, addr 0x42057e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MoveAttributes, addr 0x4266af4, size 0x9c, virtual false, abstract: false, final false
   inline void MoveAttributes(::System::Xml::Schema::XmlSchemaSimpleContentExtension* scExtension, ::System::Xml::Schema::XmlSchemaComplexType* ct);
 
   static inline ::System::Xml::Schema::XmlSchemaInference* New_ctor();
 
-  /// @brief Method ProcessAttributes, addr 0x4204b38, size 0x6ec, virtual false, abstract: false, final false
-  inline void ProcessAttributes(ByRef<::System::Xml::Schema::XmlSchemaElement*> xse, ::System::Xml::Schema::XmlSchemaType* effectiveSchemaType, bool bCreatingNewType,
+  /// @brief Method ProcessAttributes, addr 0x4265e4c, size 0x6ec, virtual false, abstract: false, final false
+  inline void ProcessAttributes(::ByRef<::System::Xml::Schema::XmlSchemaElement*> xse, ::System::Xml::Schema::XmlSchemaType* effectiveSchemaType, bool bCreatingNewType,
                                 ::System::Xml::Schema::XmlSchema* parentSchema);
 
-  /// @brief Method RefineSimpleType, addr 0x4202cc8, size 0x114c, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* RefineSimpleType(::StringW s, ByRef<int32_t> iTypeFlags);
+  /// @brief Method RefineSimpleType, addr 0x4263fdc, size 0x114c, virtual false, abstract: false, final false
+  inline ::System::Xml::XmlQualifiedName* RefineSimpleType(::StringW s, ::ByRef<int32_t> iTypeFlags);
 
-  /// @brief Method SetMinMaxOccurs, addr 0x4206868, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method SetMinMaxOccurs, addr 0x4267b7c, size 0x18c, virtual false, abstract: false, final false
   inline void SetMinMaxOccurs(::System::Xml::Schema::XmlSchemaElement* el, bool setMaxOccurs);
 
-  /// @brief Method SwitchUseToOptional, addr 0x4206ef0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SwitchUseToOptional, addr 0x4268204, size 0x124, virtual false, abstract: false, final false
   inline void SwitchUseToOptional(::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Xml::Schema::XmlSchemaObjectCollection* attributesInInstance);
 
-  constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_NamespaceManager();
+  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get_NamespaceManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get_NamespaceManager() const;
+  constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_NamespaceManager();
 
   constexpr ::StringW const& __cordl_internal_get_TargetNamespace() const;
 
   constexpr ::StringW& __cordl_internal_get_TargetNamespace();
 
+  constexpr ::System::Xml::NameTable* const& __cordl_internal_get_nametable() const;
+
   constexpr ::System::Xml::NameTable*& __cordl_internal_get_nametable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::NameTable*> const& __cordl_internal_get_nametable() const;
+  constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption const& __cordl_internal_get_occurrence() const;
 
-  constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const& __cordl_internal_get_occurrence() const;
+  constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption& __cordl_internal_get_occurrence();
 
-  constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption& __cordl_internal_get_occurrence();
+  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_rootSchema() const;
 
   constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_rootSchema();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& __cordl_internal_get_rootSchema() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_schemaList() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_schemaList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_schemaList() const;
+  constexpr ::System::Xml::Schema::XmlSchemaSet* const& __cordl_internal_get_schemaSet() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaSet*& __cordl_internal_get_schemaSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& __cordl_internal_get_schemaSet() const;
+  constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption const& __cordl_internal_get_typeInference() const;
 
-  constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const& __cordl_internal_get_typeInference() const;
+  constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption& __cordl_internal_get_typeInference();
 
-  constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption& __cordl_internal_get_typeInference();
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_xtr() const;
 
   constexpr ::System::Xml::XmlReader*& __cordl_internal_get_xtr();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_xtr() const;
 
   constexpr void __cordl_internal_set_NamespaceManager(::System::Xml::XmlNamespaceManager* value);
 
@@ -353,7 +349,7 @@ public:
 
   constexpr void __cordl_internal_set_nametable(::System::Xml::NameTable* value);
 
-  constexpr void __cordl_internal_set_occurrence(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value);
+  constexpr void __cordl_internal_set_occurrence(::System::Xml::Schema::XmlSchemaInference_InferenceOption value);
 
   constexpr void __cordl_internal_set_rootSchema(::System::Xml::Schema::XmlSchema* value);
 
@@ -361,11 +357,11 @@ public:
 
   constexpr void __cordl_internal_set_schemaSet(::System::Xml::Schema::XmlSchemaSet* value);
 
-  constexpr void __cordl_internal_set_typeInference(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value);
+  constexpr void __cordl_internal_set_typeInference(::System::Xml::Schema::XmlSchemaInference_InferenceOption value);
 
   constexpr void __cordl_internal_set_xtr(::System::Xml::XmlReader* value);
 
-  /// @brief Method .ctor, addr 0x41ff868, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4260b7c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::XmlQualifiedName* getStaticF_ST_anySimpleType();
@@ -410,8 +406,8 @@ public:
 
   static inline ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> getStaticF_SimpleTypes();
 
-  /// @brief Method get_Occurrence, addr 0x41ff858, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::__XmlSchemaInference__InferenceOption get_Occurrence();
+  /// @brief Method get_Occurrence, addr 0x4260b6c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::XmlSchemaInference_InferenceOption get_Occurrence();
 
   static inline void setStaticF_ST_anySimpleType(::System::Xml::XmlQualifiedName* value);
 
@@ -455,11 +451,11 @@ public:
 
   static inline void setStaticF_SimpleTypes(::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*> value);
 
-  /// @brief Method set_Occurrence, addr 0x41ff850, size 0x8, virtual false, abstract: false, final false
-  inline void set_Occurrence(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value);
+  /// @brief Method set_Occurrence, addr 0x4260b64, size 0x8, virtual false, abstract: false, final false
+  inline void set_Occurrence(::System::Xml::Schema::XmlSchemaInference_InferenceOption value);
 
-  /// @brief Method set_TypeInference, addr 0x41ff860, size 0x8, virtual false, abstract: false, final false
-  inline void set_TypeInference(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value);
+  /// @brief Method set_TypeInference, addr 0x4260b74, size 0x8, virtual false, abstract: false, final false
+  inline void set_TypeInference(::System::Xml::Schema::XmlSchemaInference_InferenceOption value);
 
 protected:
   // Ctor Parameters []
@@ -474,6 +470,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaInference", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaInference(XmlSchemaInference const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7598 };
 
   /// @brief Field rootSchema, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchema* ___rootSchema;
@@ -497,19 +496,14 @@ public:
   ::System::Collections::ArrayList* ___schemaList;
 
   /// @brief Field occurrence, offset: 0x48, size: 0x4, def value: None
-  ::System::Xml::Schema::__XmlSchemaInference__InferenceOption ___occurrence;
+  ::System::Xml::Schema::XmlSchemaInference_InferenceOption ___occurrence;
 
   /// @brief Field typeInference, offset: 0x4c, size: 0x4, def value: None
-  ::System::Xml::Schema::__XmlSchemaInference__InferenceOption ___typeInference;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7573 };
+  ::System::Xml::Schema::XmlSchemaInference_InferenceOption ___typeInference;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaInference, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaInference, ___rootSchema) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaInference, ___schemaSet) == 0x18, "Offset mismatch!");
@@ -528,7 +522,9 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaInference, ___occurrence)
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaInference, ___typeInference) == 0x4c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaInference, 0x50>, "Size mismatch!");
+
 } // namespace System::Xml::Schema
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::__XmlSchemaInference__InferenceOption, "System.Xml.Schema", "XmlSchemaInference/InferenceOption");
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaInference_InferenceOption, "System.Xml.Schema", "XmlSchemaInference/InferenceOption");
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaInference);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaInference*, "System.Xml.Schema", "XmlSchemaInference");

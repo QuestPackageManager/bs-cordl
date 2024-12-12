@@ -15,11 +15,10 @@ struct MidiEvent;
 }
 // Write type traits
 MARK_VAL_T(::MidiParser::MidiEvent);
-// Type: MidiParser::MidiEvent
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace MidiParser {
 // Is value type: true
-// CS Name: ::MidiParser::MidiEvent
+// CS Name: MidiParser.MidiEvent
 struct CORDL_TYPE MidiEvent {
 public:
   // Declarations
@@ -33,19 +32,19 @@ public:
 
   __declspec(property(get = get_Velocity)) int32_t Velocity;
 
-  /// @brief Method get_Channel, addr 0x3bc8818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Channel, addr 0x3c2892c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Channel();
 
-  /// @brief Method get_MetaEventType, addr 0x3bc8810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaEventType, addr 0x3c28924, size 0x8, virtual false, abstract: false, final false
   inline ::MidiParser::MetaEventType get_MetaEventType();
 
-  /// @brief Method get_Note, addr 0x3bc8820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Note, addr 0x3c28934, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Note();
 
-  /// @brief Method get_Value, addr 0x3bc8830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3c28944, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method get_Velocity, addr 0x3bc8828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Velocity, addr 0x3c2893c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Velocity();
 
   // Ctor Parameters []
@@ -56,6 +55,12 @@ public:
   // "Arg1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Arg2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Arg3", ty: "int32_t", modifiers: "",
   // def_value: None }]
   constexpr MidiEvent(int32_t AbsoluteTicksTime, uint8_t Type, int32_t Arg1, int32_t Arg2, int32_t Arg3) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19102 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   /// @brief Field AbsoluteTicksTime, offset: 0x0, size: 0x4, def value: None
   int32_t AbsoluteTicksTime;
@@ -72,17 +77,9 @@ public:
   /// @brief Field Arg3, offset: 0x10, size: 0x4, def value: None
   int32_t Arg3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19021 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MidiParser::MidiEvent, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::MidiParser::MidiEvent, AbsoluteTicksTime) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::MidiParser::MidiEvent, Type) == 0x4, "Offset mismatch!");
@@ -92,6 +89,8 @@ static_assert(offsetof(::MidiParser::MidiEvent, Arg1) == 0x8, "Offset mismatch!"
 static_assert(offsetof(::MidiParser::MidiEvent, Arg2) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::MidiParser::MidiEvent, Arg3) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::MidiParser::MidiEvent, 0x14>, "Size mismatch!");
 
 } // namespace MidiParser
 DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiEvent, "MidiParser", "MidiEvent");

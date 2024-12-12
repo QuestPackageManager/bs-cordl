@@ -4,7 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBase_1)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -19,13 +20,7 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class IPlaceholderFactory;
-}
-namespace Zenject {
 class IProvider;
-}
-namespace Zenject {
-class IValidatable;
 }
 namespace Zenject {
 class InjectContext;
@@ -42,13 +37,12 @@ template <typename TValue> class PlaceholderFactoryBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactoryBase_1);
-// Type: Zenject::PlaceholderFactoryBase`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IPlaceholderFactory, Zenject.IValidatable
 namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::PlaceholderFactoryBase`1<TValue>*
+// CS Name: Zenject.PlaceholderFactoryBase`1<TValue>
 class CORDL_TYPE PlaceholderFactoryBase_1 : public ::System::Object {
 public:
   // Declarations
@@ -77,13 +71,13 @@ public:
   /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Validate();
 
+  constexpr ::Zenject::InjectContext* const& __cordl_internal_get__injectContext() const;
+
   constexpr ::Zenject::InjectContext*& __cordl_internal_get__injectContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get__injectContext() const;
+  constexpr ::Zenject::IProvider* const& __cordl_internal_get__provider() const;
 
   constexpr ::Zenject::IProvider*& __cordl_internal_get__provider();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __cordl_internal_get__provider() const;
 
   constexpr void __cordl_internal_set__injectContext(::Zenject::InjectContext* value);
 
@@ -98,7 +92,7 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ParamTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ParamTypes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes();
 
   /// @brief Convert to "::Zenject::IPlaceholderFactory"
@@ -121,14 +115,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlaceholderFactoryBase_1(PlaceholderFactoryBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12363 };
+
   /// @brief Field _provider, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IProvider* ____provider;
 
   /// @brief Field _injectContext, offset: 0x18, size: 0x8, def value: None
   ::Zenject::InjectContext* ____injectContext;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12330 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

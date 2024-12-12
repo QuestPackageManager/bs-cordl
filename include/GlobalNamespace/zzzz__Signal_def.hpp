@@ -14,11 +14,10 @@ class Signal;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Signal);
-// Type: ::Signal
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Signal*
+// CS Name: Signal
 class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -27,28 +26,28 @@ public:
 
   static inline ::GlobalNamespace::Signal* New_ctor();
 
-  /// @brief Method Raise, addr 0x396ffc0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Raise, addr 0x39c54a8, size 0x1c, virtual true, abstract: false, final false
   inline void Raise();
 
-  /// @brief Method Subscribe, addr 0x396ffdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Subscribe, addr 0x39c54c4, size 0x28, virtual false, abstract: false, final false
   inline void Subscribe(::System::Action* foo);
 
-  /// @brief Method Unsubscribe, addr 0x3970004, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Unsubscribe, addr 0x39c54ec, size 0x4, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action* foo);
+
+  constexpr ::System::Action* const& __cordl_internal_get__event() const;
 
   constexpr ::System::Action*& __cordl_internal_get__event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__event() const;
-
   constexpr void __cordl_internal_set__event(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3970008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c54f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add__event, addr 0x396fe88, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add__event, addr 0x39c5370, size 0x9c, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);
 
-  /// @brief Method remove__event, addr 0x396ff24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove__event, addr 0x39c540c, size 0x9c, virtual false, abstract: false, final false
   inline void remove__event(::System::Action* value);
 
 protected:
@@ -65,18 +64,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Signal(Signal const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16439 };
+
   /// @brief Field _event, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ____event;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16403 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Signal, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Signal, ____event) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Signal, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Signal);

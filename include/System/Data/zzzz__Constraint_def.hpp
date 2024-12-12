@@ -33,11 +33,10 @@ class Constraint;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Constraint);
-// Type: System.Data::Constraint
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::Constraint*
+// CS Name: System.Data.Constraint
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
   // Declarations
@@ -68,51 +67,51 @@ public:
   /// @brief Field _schemaName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__schemaName, put = __cordl_internal_set__schemaName)) ::StringW _schemaName;
 
-  /// @brief Method CanBeRemovedFromCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CanBeRemovedFromCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanBeRemovedFromCollection(::System::Data::ConstraintCollection* constraint, bool fThrowException);
 
-  /// @brief Method CanEnableConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CanEnableConstraint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanEnableConstraint();
 
-  /// @brief Method CheckCanAddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CheckCanAddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraint);
 
-  /// @brief Method CheckConstraint, addr 0x40f3b28, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x4154e3c, size 0x54, virtual false, abstract: false, final false
   inline void CheckConstraint();
 
-  /// @brief Method CheckConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CheckConstraint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CheckConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CheckState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method CheckStateForProperty, addr 0x40f3b7c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CheckStateForProperty, addr 0x4154e90, size 0xf8, virtual false, abstract: false, final false
   inline void CheckStateForProperty();
 
-  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination);
 
-  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Clone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination, bool ignoreNSforTableLookup);
 
-  /// @brief Method ContainsColumn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ContainsColumn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ContainsColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method IsConstraintViolated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsConstraintViolated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsConstraintViolated();
 
   static inline ::System::Data::Constraint* New_ctor();
 
-  /// @brief Method ToString, addr 0x40f3c7c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4154f90, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::Data::DataSet* const& __cordl_internal_get__dataSet() const;
 
   constexpr ::System::Data::DataSet*& __cordl_internal_get__dataSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataSet*> const& __cordl_internal_get__dataSet() const;
+  constexpr ::System::Data::PropertyCollection* const& __cordl_internal_get__extendedProperties() const;
 
   constexpr ::System::Data::PropertyCollection*& __cordl_internal_get__extendedProperties();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::PropertyCollection*> const& __cordl_internal_get__extendedProperties() const;
 
   constexpr bool const& __cordl_internal_get__inCollection() const;
 
@@ -136,34 +135,34 @@ public:
 
   constexpr void __cordl_internal_set__schemaName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x40f3c88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4154f9c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConstraintName, addr 0x40f35cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConstraintName, addr 0x41548e0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ConstraintName();
 
-  /// @brief Method get_ExtendedProperties, addr 0x40f3ac4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_ExtendedProperties, addr 0x4154dd8, size 0x64, virtual false, abstract: false, final false
   inline ::System::Data::PropertyCollection* get_ExtendedProperties();
 
-  /// @brief Method get_InCollection, addr 0x40f3a78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InCollection, addr 0x4154d8c, size 0x8, virtual true, abstract: false, final false
   inline bool get_InCollection();
 
-  /// @brief Method get_SchemaName, addr 0x40f3a10, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaName, addr 0x4154d24, size 0x38, virtual false, abstract: false, final false
   inline ::StringW get_SchemaName();
 
-  /// @brief Method get_Table, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Table, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method get__DataSet, addr 0x40f3c74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get__DataSet, addr 0x4154f88, size 0x8, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* get__DataSet();
 
-  /// @brief Method set_ConstraintName, addr 0x40f35d4, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method set_ConstraintName, addr 0x41548e8, size 0x1d4, virtual true, abstract: false, final false
   inline void set_ConstraintName(::StringW value);
 
-  /// @brief Method set_InCollection, addr 0x40f3a80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method set_InCollection, addr 0x4154d94, size 0x44, virtual true, abstract: false, final false
   inline void set_InCollection(bool value);
 
-  /// @brief Method set_SchemaName, addr 0x40f3a48, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaName, addr 0x4154d5c, size 0x30, virtual false, abstract: false, final false
   inline void set_SchemaName(::StringW value);
 
 protected:
@@ -180,6 +179,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Constraint(Constraint const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11364 };
+
   /// @brief Field _schemaName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____schemaName;
 
@@ -195,14 +197,9 @@ public:
   /// @brief Field _extendedProperties, offset: 0x30, size: 0x8, def value: None
   ::System::Data::PropertyCollection* ____extendedProperties;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11331 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::Constraint, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::Constraint, ____schemaName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::Constraint, ____inCollection) == 0x18, "Offset mismatch!");
@@ -212,6 +209,8 @@ static_assert(offsetof(::System::Data::Constraint, ____dataSet) == 0x20, "Offset
 static_assert(offsetof(::System::Data::Constraint, ____name) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::Constraint, ____extendedProperties) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::Constraint, 0x38>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::Constraint);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTreeNode_2)
@@ -17,13 +16,12 @@ template <typename TKey, typename TValue> class KdTreeNode_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2);
-// Type: UnityEngine.ProBuilder.KdTree::KdTreeNode`2
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.KdTree::KdTreeNode`2<TKey,TValue>*
+// CS Name: UnityEngine.ProBuilder.KdTree.KdTreeNode`2<TKey,TValue>
 class CORDL_TYPE KdTreeNode_2 : public ::System::Object {
 public:
   // Declarations
@@ -56,21 +54,21 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  constexpr ::System::Collections::Generic::List_1<TValue>* const& __cordl_internal_get_Duplicates() const;
+
   constexpr ::System::Collections::Generic::List_1<TValue>*& __cordl_internal_get_Duplicates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TValue>*> const& __cordl_internal_get_Duplicates() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& __cordl_internal_get_LeftChild() const;
 
   constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_LeftChild();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_LeftChild() const;
 
   constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get_Point() const;
 
   constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get_Point();
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_RightChild();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* const& __cordl_internal_get_RightChild() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_RightChild() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_RightChild();
 
   constexpr TValue const& __cordl_internal_get_Value() const;
 
@@ -115,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KdTreeNode_2(KdTreeNode_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18544 };
+
   /// @brief Field Point, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TKey, ::Array<TKey>*> ___Point;
 
@@ -129,9 +130,6 @@ public:
 
   /// @brief Field RightChild, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* ___RightChild;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18463 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

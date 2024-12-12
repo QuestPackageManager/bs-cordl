@@ -12,11 +12,10 @@ class ConditionalAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::ConditionalAttribute);
-// Type: System.Diagnostics::ConditionalAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::ConditionalAttribute*
+// CS Name: System.Diagnostics.ConditionalAttribute
 class CORDL_TYPE ConditionalAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__ConditionString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d54d78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db4eec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW conditionString);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalAttribute(ConditionalAttribute const&) = delete;
 
-  /// @brief Field <ConditionString>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____ConditionString_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3733 };
+
+  /// @brief Field <ConditionString>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____ConditionString_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ConditionalAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::ConditionalAttribute, ____ConditionString_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ConditionalAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ConditionalAttribute);

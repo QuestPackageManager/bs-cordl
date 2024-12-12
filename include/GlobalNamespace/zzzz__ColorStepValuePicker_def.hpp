@@ -23,11 +23,10 @@ class ColorStepValuePicker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorStepValuePicker);
-// Type: ::ColorStepValuePicker
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorStepValuePicker*
+// CS Name: ColorStepValuePicker
 class CORDL_TYPE ColorStepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -52,18 +51,18 @@ public:
   /// @brief Field incButtonWasPressedEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_incButtonWasPressedEvent, put = __cordl_internal_set_incButtonWasPressedEvent)) ::System::Action* incButtonWasPressedEvent;
 
-  /// @brief Method DecButtonPressed, addr 0x3bc5ef4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DecButtonPressed, addr 0x3c26008, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
-  /// @brief Method IncButtonPressed, addr 0x3bc5ed8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IncButtonPressed, addr 0x3c25fec, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
   static inline ::GlobalNamespace::ColorStepValuePicker* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3bc5df0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3c25f04, size 0xe8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3bc5d08, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c25e1c, size 0xe8, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
@@ -78,13 +77,13 @@ public:
 
   constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__valueImage();
 
+  constexpr ::System::Action* const& __cordl_internal_get_decButtonWasPressedEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_decButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_decButtonWasPressedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_incButtonWasPressedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_incButtonWasPressedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_incButtonWasPressedEvent() const;
 
   constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -96,31 +95,31 @@ public:
 
   constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bc5f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c26024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_decButtonWasPressedEvent, addr 0x3bc5a10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x3c25b24, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent, addr 0x3bc5b48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x3c25c5c, size 0x9c, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_color, addr 0x3bc5c80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3c25d94, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_decButtonWasPressedEvent, addr 0x3bc5aac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x3c25bc0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent, addr 0x3bc5be4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x3c25cf8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method set_color, addr 0x3bc5ca4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3c25db8, size 0x24, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_decButtonInteractable, addr 0x3bc5cc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_decButtonInteractable, addr 0x3c25ddc, size 0x20, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable, addr 0x3bc5ce8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_incButtonInteractable, addr 0x3c25dfc, size 0x20, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
 protected:
@@ -137,6 +136,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorStepValuePicker(ColorStepValuePicker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18958 };
+
   /// @brief Field _decButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
@@ -152,14 +154,9 @@ public:
   /// @brief Field incButtonWasPressedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action* ___incButtonWasPressedEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18838 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorStepValuePicker, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ____decButton) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ____incButton) == 0x28, "Offset mismatch!");
@@ -169,6 +166,8 @@ static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ____valueImage) 
 static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ___decButtonWasPressedEvent) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorStepValuePicker, ___incButtonWasPressedEvent) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorStepValuePicker, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorStepValuePicker);

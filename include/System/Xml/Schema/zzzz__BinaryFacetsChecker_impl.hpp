@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::BinaryFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::BinaryFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41fef74;
+  constexpr static std::size_t addrs = 0x4260288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::BinaryFacetsChecker::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::BinaryFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x41ff004;
+  constexpr static std::size_t addrs = 0x4260318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BinaryFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::BinaryFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41ff2f4;
+  constexpr static std::size_t addrs = 0x4260608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::BinaryFacetsChecker::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::BinaryFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x41ff1d0;
+  constexpr static std::size_t addrs = 0x42604e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::BinaryFacetsChecker::*)()>(&::System::Xml::Schema::BinaryFacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41ff378;
+  constexpr static std::size_t addrs = 0x426068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BinaryFacetsChecker*>::get(), ".ctor",
@@ -105,13 +105,13 @@ inline bool System::Xml::Schema::BinaryFacetsChecker::MatchEnumeration(::ArrayW<
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaDatatype*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, enumeration, datatype);
 }
-inline ::System::Xml::Schema::BinaryFacetsChecker* System::Xml::Schema::BinaryFacetsChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::BinaryFacetsChecker*>());
-}
 inline void System::Xml::Schema::BinaryFacetsChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::BinaryFacetsChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::BinaryFacetsChecker* System::Xml::Schema::BinaryFacetsChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::BinaryFacetsChecker*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::BinaryFacetsChecker::BinaryFacetsChecker() {}

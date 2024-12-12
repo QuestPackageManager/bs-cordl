@@ -12,11 +12,10 @@ class GetXPlatformAccessTokenResponse;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
-// Type: ::GetXPlatformAccessTokenResponse
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GetXPlatformAccessTokenResponse*
+// CS Name: GetXPlatformAccessTokenResponse
 class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_accessToken(::StringW value);
 
-  /// @brief Method .ctor, addr 0x401df58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407f26c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW accessToken);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18755 };
+
   /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___accessToken;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenResponse, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenResponse, ___accessToken) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenResponse, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GetXPlatformAccessTokenResponse);

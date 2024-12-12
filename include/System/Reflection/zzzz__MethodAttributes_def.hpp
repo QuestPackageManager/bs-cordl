@@ -12,11 +12,10 @@ struct MethodAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::MethodAttributes);
-// Type: System.Reflection::MethodAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::MethodAttributes
+// CS Name: System.Reflection.MethodAttributes
 struct CORDL_TYPE MethodAttributes {
 public:
   // Declarations
@@ -67,79 +66,76 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MethodAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Abstract value: static_cast<int32_t>(0x400)
+  /// @brief Field Abstract value: I32(1024)
   static ::System::Reflection::MethodAttributes const Abstract;
 
-  /// @brief Field Assembly value: static_cast<int32_t>(0x3)
+  /// @brief Field Assembly value: I32(3)
   static ::System::Reflection::MethodAttributes const Assembly;
 
-  /// @brief Field CheckAccessOnOverride value: static_cast<int32_t>(0x200)
+  /// @brief Field CheckAccessOnOverride value: I32(512)
   static ::System::Reflection::MethodAttributes const CheckAccessOnOverride;
 
-  /// @brief Field FamANDAssem value: static_cast<int32_t>(0x2)
+  /// @brief Field FamANDAssem value: I32(2)
   static ::System::Reflection::MethodAttributes const FamANDAssem;
 
-  /// @brief Field FamORAssem value: static_cast<int32_t>(0x5)
+  /// @brief Field FamORAssem value: I32(5)
   static ::System::Reflection::MethodAttributes const FamORAssem;
 
-  /// @brief Field Family value: static_cast<int32_t>(0x4)
+  /// @brief Field Family value: I32(4)
   static ::System::Reflection::MethodAttributes const Family;
 
-  /// @brief Field Final value: static_cast<int32_t>(0x20)
+  /// @brief Field Final value: I32(32)
   static ::System::Reflection::MethodAttributes const Final;
 
-  /// @brief Field HasSecurity value: static_cast<int32_t>(0x4000)
+  /// @brief Field HasSecurity value: I32(16384)
   static ::System::Reflection::MethodAttributes const HasSecurity;
 
-  /// @brief Field HideBySig value: static_cast<int32_t>(0x80)
+  /// @brief Field HideBySig value: I32(128)
   static ::System::Reflection::MethodAttributes const HideBySig;
 
-  /// @brief Field MemberAccessMask value: static_cast<int32_t>(0x7)
+  /// @brief Field MemberAccessMask value: I32(7)
   static ::System::Reflection::MethodAttributes const MemberAccessMask;
 
-  /// @brief Field NewSlot value: static_cast<int32_t>(0x100)
+  /// @brief Field NewSlot value: I32(256)
   static ::System::Reflection::MethodAttributes const NewSlot;
 
-  /// @brief Field PinvokeImpl value: static_cast<int32_t>(0x2000)
+  /// @brief Field PinvokeImpl value: I32(8192)
   static ::System::Reflection::MethodAttributes const PinvokeImpl;
 
-  /// @brief Field Private value: static_cast<int32_t>(0x1)
+  /// @brief Field Private value: I32(1)
   static ::System::Reflection::MethodAttributes const Private;
 
-  /// @brief Field PrivateScope value: static_cast<int32_t>(0x0)
+  /// @brief Field PrivateScope value: I32(0)
   static ::System::Reflection::MethodAttributes const PrivateScope;
 
-  /// @brief Field Public value: static_cast<int32_t>(0x6)
+  /// @brief Field Public value: I32(6)
   static ::System::Reflection::MethodAttributes const Public;
 
-  /// @brief Field RTSpecialName value: static_cast<int32_t>(0x1000)
+  /// @brief Field RTSpecialName value: I32(4096)
   static ::System::Reflection::MethodAttributes const RTSpecialName;
 
-  /// @brief Field RequireSecObject value: static_cast<int32_t>(0x8000)
+  /// @brief Field RequireSecObject value: I32(32768)
   static ::System::Reflection::MethodAttributes const RequireSecObject;
 
-  /// @brief Field ReservedMask value: static_cast<int32_t>(0xd000)
+  /// @brief Field ReservedMask value: I32(53248)
   static ::System::Reflection::MethodAttributes const ReservedMask;
 
-  /// @brief Field ReuseSlot value: static_cast<int32_t>(0x0)
+  /// @brief Field ReuseSlot value: I32(0)
   static ::System::Reflection::MethodAttributes const ReuseSlot;
 
-  /// @brief Field SpecialName value: static_cast<int32_t>(0x800)
+  /// @brief Field SpecialName value: I32(2048)
   static ::System::Reflection::MethodAttributes const SpecialName;
 
-  /// @brief Field Static value: static_cast<int32_t>(0x10)
+  /// @brief Field Static value: I32(16)
   static ::System::Reflection::MethodAttributes const Static;
 
-  /// @brief Field UnmanagedExport value: static_cast<int32_t>(0x8)
+  /// @brief Field UnmanagedExport value: I32(8)
   static ::System::Reflection::MethodAttributes const UnmanagedExport;
 
-  /// @brief Field Virtual value: static_cast<int32_t>(0x40)
+  /// @brief Field Virtual value: I32(64)
   static ::System::Reflection::MethodAttributes const Virtual;
 
-  /// @brief Field VtableLayoutMask value: static_cast<int32_t>(0x100)
+  /// @brief Field VtableLayoutMask value: I32(256)
   static ::System::Reflection::MethodAttributes const VtableLayoutMask;
 
   /// @brief IL2CPP Metadata Type Index
@@ -148,12 +144,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::MethodAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::MethodAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::MethodAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::MethodAttributes, "System.Reflection", "MethodAttributes");

@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FiniteFields)
 namespace Org::BouncyCastle::Math::Field {
@@ -22,29 +21,28 @@ class FiniteFields;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::FiniteFields);
-// Type: Org.BouncyCastle.Math.Field::FiniteFields
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.Field::FiniteFields*
+// CS Name: Org.BouncyCastle.Math.Field.FiniteFields
 class CORDL_TYPE FiniteFields : public ::System::Object {
 public:
   // Declarations
   /// @brief Field GF_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_GF_2, put = setStaticF_GF_2)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_2;
+  __declspec(property(get = getStaticF_GF_2, put = setStaticF_GF_2)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_2;
 
   /// @brief Field GF_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_GF_3, put = setStaticF_GF_3)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_3;
+  __declspec(property(get = getStaticF_GF_3, put = setStaticF_GF_3)) ::Org::BouncyCastle::Math::Field::IFiniteField* GF_3;
 
-  /// @brief Method GetBinaryExtensionField, addr 0x24a76ac, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method GetBinaryExtensionField, addr 0x24da998, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* GetBinaryExtensionField(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 
-  /// @brief Method GetPrimeField, addr 0x24a78d4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetPrimeField, addr 0x24dabc0, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* GetPrimeField(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
   static inline ::Org::BouncyCastle::Math::Field::FiniteFields* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24a7b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24dae54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::Field::IFiniteField* getStaticF_GF_2();

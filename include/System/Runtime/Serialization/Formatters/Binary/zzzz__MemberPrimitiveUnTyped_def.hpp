@@ -24,11 +24,10 @@ class MemberPrimitiveUnTyped;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped);
-// Type: System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveUnTyped
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveUnTyped*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped
 class CORDL_TYPE MemberPrimitiveUnTyped : public ::System::Object {
 public:
   // Declarations
@@ -39,36 +38,36 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
-  /// @brief Method Dump, addr 0x3ca09a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3d00b1c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* New_ctor();
 
-  /// @brief Method Read, addr 0x3ca0978, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3d00aec, size 0x30, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3ca094c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3d00ac0, size 0x8, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation);
 
-  /// @brief Method Set, addr 0x3ca0940, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3d00ab4, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x3ca0954, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3d00ac8, size 0x24, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_typeInformation() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_typeInformation();
 
-  constexpr ::System::Object*& __cordl_internal_get_value();
+  constexpr ::System::Object* const& __cordl_internal_get_value() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
   constexpr void __cordl_internal_set_typeInformation(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ca0938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d00aac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,23 +84,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemberPrimitiveUnTyped(MemberPrimitiveUnTyped const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3271 };
+
   /// @brief Field typeInformation, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___typeInformation;
 
   /// @brief Field value, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3271 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, ___typeInformation) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, ___value) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped);

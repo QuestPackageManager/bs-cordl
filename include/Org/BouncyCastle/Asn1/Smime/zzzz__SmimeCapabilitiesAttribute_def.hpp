@@ -14,17 +14,16 @@ class SmimeCapabilitiesAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute);
-// Type: Org.BouncyCastle.Asn1.Smime::SmimeCapabilitiesAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X509.AttributeX509
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeCapabilitiesAttribute*
+// CS Name: Org.BouncyCastle.Asn1.Smime.SmimeCapabilitiesAttribute
 class CORDL_TYPE SmimeCapabilitiesAttribute : public ::Org::BouncyCastle::Asn1::X509::AttributeX509 {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilitiesAttribute* New_ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
-  /// @brief Method .ctor, addr 0x24c08e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f3bd4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* capabilities);
 
 protected:

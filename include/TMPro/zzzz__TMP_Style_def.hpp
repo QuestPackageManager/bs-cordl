@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_Style)
@@ -14,18 +13,17 @@ class TMP_Style;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Style);
-// Type: TMPro::TMP_Style
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_Style*
+// CS Name: TMPro.TMP_Style
 class CORDL_TYPE TMP_Style : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_hashCode, put = set_hashCode)) int32_t hashCode;
 
   /// @brief Field k_NormalStyle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle)) ::TMPro::TMP_Style* k_NormalStyle;
+  __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle)) ::TMPro::TMP_Style* k_NormalStyle;
 
   /// @brief Field m_ClosingDefinition, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ClosingDefinition, put = __cordl_internal_set_m_ClosingDefinition)) ::StringW m_ClosingDefinition;
@@ -63,7 +61,7 @@ public:
 
   static inline ::TMPro::TMP_Style* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle, addr 0x47a077c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method RefreshStyle, addr 0x4801a90, size 0x1f8, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
@@ -114,38 +112,38 @@ public:
 
   constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x47a05b4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48018c8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
   static inline ::TMPro::TMP_Style* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_NormalStyle, addr 0x47a0500, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_NormalStyle, addr 0x4801814, size 0xb4, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Style* get_NormalStyle();
 
-  /// @brief Method get_hashCode, addr 0x47a0684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x4801998, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_name, addr 0x47a0644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x4801958, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_styleClosingDefinition, addr 0x47a06a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingDefinition, addr 0x48019bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleClosingDefinition();
 
-  /// @brief Method get_styleClosingTagArray, addr 0x47a06b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleClosingTagArray, addr 0x48019cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
 
-  /// @brief Method get_styleOpeningDefinition, addr 0x47a06a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningDefinition, addr 0x48019b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleOpeningDefinition();
 
-  /// @brief Method get_styleOpeningTagArray, addr 0x47a06b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x48019c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
 
   static inline void setStaticF_k_NormalStyle(::TMPro::TMP_Style* value);
 
-  /// @brief Method set_hashCode, addr 0x47a068c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x48019a0, size 0x14, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_name, addr 0x47a064c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x4801960, size 0x38, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -161,6 +159,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_Style(TMP_Style const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14541 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Name;
@@ -186,14 +187,9 @@ public:
   /// @brief Field m_ClosingTagUnicodeArray, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_ClosingTagUnicodeArray;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14507 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Style, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_Style, ___m_Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Style, ___m_HashCode) == 0x18, "Offset mismatch!");
@@ -209,6 +205,8 @@ static_assert(offsetof(::TMPro::TMP_Style, ___m_ClosingTagArray) == 0x38, "Offse
 static_assert(offsetof(::TMPro::TMP_Style, ___m_OpeningTagUnicodeArray) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_Style, ___m_ClosingTagUnicodeArray) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Style, 0x50>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_Style);

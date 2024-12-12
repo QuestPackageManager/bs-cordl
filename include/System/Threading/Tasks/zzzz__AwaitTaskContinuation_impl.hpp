@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/Tasks/AwaitTaskContinuation.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuation_impl.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
 #include "System/Threading/Tasks/zzzz__AwaitTaskContinuation_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::AwaitTaskContinuation::*)(::System::Action*, bool)>(
     &::System::Threading::Tasks::AwaitTaskContinuation::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e08278;
+  constexpr static std::size_t addrs = 0x3e68324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::Tasks::AwaitTaskContinuation::*)(::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::Tasks::TaskScheduler*)>(
     &::System::Threading::Tasks::AwaitTaskContinuation::CreateTask)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e08c08;
+  constexpr static std::size_t addrs = 0x3e68cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::AwaitTaskContinuation::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::AwaitTaskContinuation::Run)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e08af4;
+  constexpr static std::size_t addrs = 0x3e68ba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::Tasks::AwaitTaskContinuation::get_IsValidLocationForInlining)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3e08e3c;
+  constexpr static std::size_t addrs = 0x3e68ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::AwaitTaskContinuation::*)()>(
     &::System::Threading::Tasks::AwaitTaskContinuation::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3e08f70;
+  constexpr static std::size_t addrs = 0x3e6901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::Tasks::AwaitTaskContinuation::InvokeAction)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e09094;
+  constexpr static std::size_t addrs = 0x3e69140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ContextCallback* (*)()>(
     &::System::Threading::Tasks::AwaitTaskContinuation::GetInvokeActionCallback)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e09100;
+  constexpr static std::size_t addrs = 0x3e691ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(),
@@ -121,32 +121,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::AwaitTaskContinuation::*)(
-    ::System::Threading::ContextCallback*, ::System::Object*, ByRef<::System::Threading::Tasks::Task*>)>(&::System::Threading::Tasks::AwaitTaskContinuation::RunCallback)> {
+    ::System::Threading::ContextCallback*, ::System::Object*, ::ByRef<::System::Threading::Tasks::Task*>)>(&::System::Threading::Tasks::AwaitTaskContinuation::RunCallback)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3e0845c;
+  constexpr static std::size_t addrs = 0x3e68508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(), "RunCallback", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ContextCallback*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::Tasks::Task*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::Tasks::Task*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Threading::Tasks::AwaitTaskContinuation.RunOrScheduleAction
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*, bool, ByRef<::System::Threading::Tasks::Task*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*, bool, ::ByRef<::System::Threading::Tasks::Task*>)>(
     &::System::Threading::Tasks::AwaitTaskContinuation::RunOrScheduleAction)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3e044d0;
+  constexpr static std::size_t addrs = 0x3e6457c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(), "RunOrScheduleAction", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::Tasks::Task*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::Tasks::Task*>>::get() })));
     return ___internal_method;
   }
 };
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::System::Threading::Tasks::AwaitTaskContinuation::UnsafeScheduleAction)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e03560;
+  constexpr static std::size_t addrs = 0x3e6360c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Threading::Tasks::AwaitTaskContinuation::ThrowAsyncIfNecessary)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e08de4;
+  constexpr static std::size_t addrs = 0x3e68e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::AwaitTaskContinuation::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::Tasks::AwaitTaskContinuation::MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e091a0;
+  constexpr static std::size_t addrs = 0x3e6924c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,19 +193,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
-constexpr System::Threading::Tasks::AwaitTaskContinuation::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
-  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
-constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::Tasks::AwaitTaskContinuation::i___System__Threading__IThreadPoolWorkItem() noexcept {
-  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
-}
 constexpr ::System::Threading::ExecutionContext*& System::Threading::Tasks::AwaitTaskContinuation::__cordl_internal_get_m_capturedContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_capturedContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Threading::Tasks::AwaitTaskContinuation::__cordl_internal_get_m_capturedContext() const {
+constexpr ::System::Threading::ExecutionContext* const& System::Threading::Tasks::AwaitTaskContinuation::__cordl_internal_get_m_capturedContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_capturedContext;
 }
@@ -217,7 +209,7 @@ constexpr ::System::Action*& System::Threading::Tasks::AwaitTaskContinuation::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Threading::Tasks::AwaitTaskContinuation::__cordl_internal_get_m_action() const {
+constexpr ::System::Action* const& System::Threading::Tasks::AwaitTaskContinuation::__cordl_internal_get_m_action() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_action;
 }
@@ -233,9 +225,6 @@ inline void System::Threading::Tasks::AwaitTaskContinuation::setStaticF_s_invoke
 inline ::System::Threading::ContextCallback* System::Threading::Tasks::AwaitTaskContinuation::getStaticF_s_invokeActionCallback() {
   return ::cordl_internals::getStaticField<::System::Threading::ContextCallback*, "s_invokeActionCallback",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get>();
-}
-inline ::System::Threading::Tasks::AwaitTaskContinuation* System::Threading::Tasks::AwaitTaskContinuation::New_ctor(::System::Action* action, bool flowExecutionContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::AwaitTaskContinuation*>(action, flowExecutionContext));
 }
 inline void System::Threading::Tasks::AwaitTaskContinuation::_ctor(::System::Action* action, bool flowExecutionContext) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,19 +269,19 @@ inline ::System::Threading::ContextCallback* System::Threading::Tasks::AwaitTask
   return ::cordl_internals::RunMethodRethrow<::System::Threading::ContextCallback*, false>(nullptr, ___internal_method);
 }
 inline void System::Threading::Tasks::AwaitTaskContinuation::RunCallback(::System::Threading::ContextCallback* callback, ::System::Object* state,
-                                                                         ByRef<::System::Threading::Tasks::Task*> currentTask) {
+                                                                         ::ByRef<::System::Threading::Tasks::Task*> currentTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(), "RunCallback", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ContextCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::Tasks::Task*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::Tasks::Task*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, state, currentTask);
 }
-inline void System::Threading::Tasks::AwaitTaskContinuation::RunOrScheduleAction(::System::Action* action, bool allowInlining, ByRef<::System::Threading::Tasks::Task*> currentTask) {
+inline void System::Threading::Tasks::AwaitTaskContinuation::RunOrScheduleAction(::System::Action* action, bool allowInlining, ::ByRef<::System::Threading::Tasks::Task*> currentTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(), "RunOrScheduleAction", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::Tasks::Task*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::Tasks::Task*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, action, allowInlining, currentTask);
 }
 inline void System::Threading::Tasks::AwaitTaskContinuation::UnsafeScheduleAction(::System::Action* action) {
@@ -312,6 +301,17 @@ inline void System::Threading::Tasks::AwaitTaskContinuation::MarkAborted(::Syste
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::AwaitTaskContinuation*>::get(), "MarkAborted", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
+}
+inline ::System::Threading::Tasks::AwaitTaskContinuation* System::Threading::Tasks::AwaitTaskContinuation::New_ctor(::System::Action* action, bool flowExecutionContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::AwaitTaskContinuation*>(action, flowExecutionContext));
+}
+/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
+constexpr System::Threading::Tasks::AwaitTaskContinuation::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
+  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::Tasks::AwaitTaskContinuation::i___System__Threading__IThreadPoolWorkItem() noexcept {
+  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::Tasks::AwaitTaskContinuation::AwaitTaskContinuation() {}

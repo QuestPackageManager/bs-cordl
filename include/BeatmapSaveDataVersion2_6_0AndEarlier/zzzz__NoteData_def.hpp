@@ -25,11 +25,10 @@ class NoteData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData);
-// Type: BeatmapSaveDataVersion2_6_0AndEarlier::NoteData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.NoteCutDirection, BeatmapSaveDataCommon.NoteLineLayer, BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveDataItem, BeatmapSaveDataVersion2_6_0AndEarlier.NoteType
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*
+// CS Name: BeatmapSaveDataVersion2_6_0AndEarlier.NoteData
 class CORDL_TYPE NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -91,23 +90,23 @@ public:
 
   constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType value);
 
-  /// @brief Method .ctor, addr 0x26d536c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706cdc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType type,
                     ::BeatmapSaveDataCommon::NoteCutDirection cutDirection);
 
-  /// @brief Method get_cutDirection, addr 0x26d5364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutDirection, addr 0x2706cd4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_cutDirection();
 
-  /// @brief Method get_lineIndex, addr 0x26d534c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2706cbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x26d5354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x2706cc4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x26d5344, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x2706cb4, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x26d535c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x2706ccc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType get_type();
 
 protected:
@@ -124,6 +123,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteData(NoteData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13431 };
+
   /// @brief Field _time, offset: 0x10, size: 0x4, def value: None
   float_t ____time;
 
@@ -139,14 +141,9 @@ public:
   /// @brief Field _cutDirection, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::NoteCutDirection ____cutDirection;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13400 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, ____time) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, ____lineIndex) == 0x14, "Offset mismatch!");
@@ -156,6 +153,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, ____li
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, ____type) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, ____cutDirection) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion2_6_0AndEarlier
 NEED_NO_BOX(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData);

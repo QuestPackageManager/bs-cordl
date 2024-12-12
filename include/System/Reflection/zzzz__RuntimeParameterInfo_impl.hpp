@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Type*, int32_t, int32_t, ::System::Object*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*)>(
     &::System::Reflection::RuntimeParameterInfo::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cd16e0;
+  constexpr static std::size_t addrs = 0x3d31854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Text::StringBuilder*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>, ::System::Reflection::CallingConventions, bool)>(
     &::System::Reflection::RuntimeParameterInfo::FormatParameters)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3cceca4;
+  constexpr static std::size_t addrs = 0x3d2ee18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Reflection::RuntimeParameterInfo::*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*)>(&::System::Reflection::RuntimeParameterInfo::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3cd1748;
+  constexpr static std::size_t addrs = 0x3d318bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RuntimeParameterInfo::*)(
     ::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*)>(&::System::Reflection::RuntimeParameterInfo::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3cd189c;
+  constexpr static std::size_t addrs = 0x3d31a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::RuntimeParameterInfo::*)()>(
     &::System::Reflection::RuntimeParameterInfo::get_DefaultValue)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3cd18ec;
+  constexpr static std::size_t addrs = 0x3d31a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::RuntimeParameterInfo::*)(bool)>(
     &::System::Reflection::RuntimeParameterInfo::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cd1c00;
+  constexpr static std::size_t addrs = 0x3d31d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::RuntimeParameterInfo::*)(
     ::System::Type*, bool)>(&::System::Reflection::RuntimeParameterInfo::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cd1c5c;
+  constexpr static std::size_t addrs = 0x3d31dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::RuntimeParameterInfo::*)(::System::Reflection::ParameterInfo*)>(
     &::System::Reflection::RuntimeParameterInfo::GetDefaultValueImpl)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3cd17d8;
+  constexpr static std::size_t addrs = 0x3d3194c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::RuntimeParameterInfo::*)(::System::Type*, bool)>(
     &::System::Reflection::RuntimeParameterInfo::IsDefined)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3cd1cc8;
+  constexpr static std::size_t addrs = 0x3d31e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::RuntimeParameterInfo::*)()>(
     &::System::Reflection::RuntimeParameterInfo::GetPseudoCustomAttributes)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3cd1d38;
+  constexpr static std::size_t addrs = 0x3d31eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RuntimeParameterInfo*>::get(),
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*> (
     ::System::Reflection::RuntimeParameterInfo::*)()>(&::System::Reflection::RuntimeParameterInfo::GetPseudoCustomAttributesData)> {
   constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x3cd1f8c;
+  constexpr static std::size_t addrs = 0x3d32100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RuntimeParameterInfo*>::get(),
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ParameterInfo* (*)(::System::Reflection::ParameterInfo*, ::System::Reflection::MemberInfo*)>(
     &::System::Reflection::RuntimeParameterInfo::New)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cd2490;
+  constexpr static std::size_t addrs = 0x3d32604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +208,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::ParameterInfo* (*)(::System::Type*, ::System::Reflection::MemberInfo*, ::System::Runtime::InteropServices::MarshalAsAttribute*)>(
         &::System::Reflection::RuntimeParameterInfo::New)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cce9a4;
+  constexpr static std::size_t addrs = 0x3d2eb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,18 +223,13 @@ constexpr ::System::Runtime::InteropServices::MarshalAsAttribute*& System::Refle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___marshalAs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::InteropServices::MarshalAsAttribute*> const& System::Reflection::RuntimeParameterInfo::__cordl_internal_get_marshalAs() const {
+constexpr ::System::Runtime::InteropServices::MarshalAsAttribute* const& System::Reflection::RuntimeParameterInfo::__cordl_internal_get_marshalAs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___marshalAs;
 }
 constexpr void System::Reflection::RuntimeParameterInfo::__cordl_internal_set_marshalAs(::System::Runtime::InteropServices::MarshalAsAttribute* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___marshalAs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs,
-                                                                                                      ::System::Object* defaultValue, ::System::Reflection::MemberInfo* member,
-                                                                                                      ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(name, type, position, attrs, defaultValue, member, marshalAs));
 }
 inline void System::Reflection::RuntimeParameterInfo::_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue,
                                                             ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
@@ -258,19 +253,12 @@ inline void System::Reflection::RuntimeParameterInfo::FormatParameters(::System:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, sb, p, callingConvention, serialization);
 }
-inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(pinfo, member));
-}
 inline void System::Reflection::RuntimeParameterInfo::_ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RuntimeParameterInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::ParameterInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pinfo, member);
-}
-inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::System::Type* type, ::System::Reflection::MemberInfo* member,
-                                                                                                      ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(type, member, marshalAs));
 }
 inline void System::Reflection::RuntimeParameterInfo::_ctor(::System::Type* type, ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -331,6 +319,18 @@ inline ::System::Reflection::ParameterInfo* System::Reflection::RuntimeParameter
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::MarshalAsAttribute*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::ParameterInfo*, false>(nullptr, ___internal_method, type, member, marshalAs);
+}
+inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs,
+                                                                                                      ::System::Object* defaultValue, ::System::Reflection::MemberInfo* member,
+                                                                                                      ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(name, type, position, attrs, defaultValue, member, marshalAs));
+}
+inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::System::Reflection::ParameterInfo* pinfo, ::System::Reflection::MemberInfo* member) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(pinfo, member));
+}
+inline ::System::Reflection::RuntimeParameterInfo* System::Reflection::RuntimeParameterInfo::New_ctor(::System::Type* type, ::System::Reflection::MemberInfo* member,
+                                                                                                      ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::RuntimeParameterInfo*>(type, member, marshalAs));
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::RuntimeParameterInfo::RuntimeParameterInfo() {}

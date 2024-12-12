@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MacOsIPInterfaceProperties)
 namespace System::Collections::Generic {
@@ -26,11 +24,10 @@ class MacOsIPInterfaceProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsIPInterfaceProperties);
-// Type: System.Net.NetworkInformation::MacOsIPInterfaceProperties
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.UnixIPInterfaceProperties
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::MacOsIPInterfaceProperties*
+// CS Name: System.Net.NetworkInformation.MacOsIPInterfaceProperties
 class CORDL_TYPE MacOsIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
   // Declarations
@@ -39,13 +36,13 @@ public:
   static inline ::System::Net::NetworkInformation::MacOsIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo_icall, addr 0x438a9e0, size 0x4, virtual false, abstract: false, final false
-  static inline bool ParseRouteInfo_icall(::StringW iface, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
+  /// @brief Method ParseRouteInfo_icall, addr 0x43ebcf4, size 0x4, virtual false, abstract: false, final false
+  static inline bool ParseRouteInfo_icall(::StringW iface, ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> gw_addr_list);
 
-  /// @brief Method .ctor, addr 0x438a970, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ebc84, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::MacOsNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x438a9e4, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x43ebcf8, size 0x234, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -63,7 +60,7 @@ public:
   MacOsIPInterfaceProperties(MacOsIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

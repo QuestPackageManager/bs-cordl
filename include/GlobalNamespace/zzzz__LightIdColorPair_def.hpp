@@ -20,11 +20,10 @@ class LightIdColorPair;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightIdColorPair);
-// Type: ::LightIdColorPair
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightIdColorPair*
+// CS Name: LightIdColorPair
 class CORDL_TYPE LightIdColorPair : public ::System::Object {
 public:
   // Declarations
@@ -79,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3bc73a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c274bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightColor, addr 0x3bc7354, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_lightColor, addr 0x3c27468, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
 
-  /// @brief Method get_useScriptableObjectColor, addr 0x3bc7394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useScriptableObjectColor, addr 0x3c274a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColor();
 
-  /// @brief Method set_useScriptableObjectColor, addr 0x3bc739c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useScriptableObjectColor, addr 0x3c274b0, size 0xc, virtual false, abstract: false, final false
   inline void set_useScriptableObjectColor(bool value);
 
 protected:
@@ -105,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightIdColorPair(LightIdColorPair const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19220 };
+
   /// @brief Field lightId, offset: 0x10, size: 0x4, def value: None
   int32_t ___lightId;
 
@@ -120,14 +122,9 @@ public:
   /// @brief Field intensity, offset: 0x30, size: 0x4, def value: None
   float_t ___intensity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19139 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightIdColorPair, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightIdColorPair, ___lightId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightIdColorPair, ____useScriptableObjectColor) == 0x14, "Offset mismatch!");
@@ -137,6 +134,8 @@ static_assert(offsetof(::GlobalNamespace::LightIdColorPair, ___color) == 0x18, "
 static_assert(offsetof(::GlobalNamespace::LightIdColorPair, ___baseColor) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightIdColorPair, ___intensity) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightIdColorPair, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightIdColorPair);

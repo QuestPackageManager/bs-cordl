@@ -17,11 +17,10 @@ class AsyncRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::AsyncRequest);
-// Type: System.Runtime.Remoting.Channels::AsyncRequest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::AsyncRequest*
+// CS Name: System.Runtime.Remoting.Channels.AsyncRequest
 class CORDL_TYPE AsyncRequest : public ::System::Object {
 public:
   // Declarations
@@ -34,19 +33,19 @@ public:
   static inline ::System::Runtime::Remoting::Channels::AsyncRequest* New_ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest,
                                                                               ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage* const& __cordl_internal_get_MsgRequest() const;
+
   constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get_MsgRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __cordl_internal_get_MsgRequest() const;
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& __cordl_internal_get_ReplySink() const;
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get_ReplySink();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get_ReplySink() const;
 
   constexpr void __cordl_internal_set_MsgRequest(::System::Runtime::Remoting::Messaging::IMessage* value);
 
   constexpr void __cordl_internal_set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3c823f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce2568, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
 protected:
@@ -63,23 +62,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncRequest(AsyncRequest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3119 };
+
   /// @brief Field ReplySink, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ___ReplySink;
 
   /// @brief Field MsgRequest, offset: 0x18, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessage* ___MsgRequest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3119 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::AsyncRequest, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Channels::AsyncRequest, ___ReplySink) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Channels::AsyncRequest, ___MsgRequest) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::AsyncRequest, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::AsyncRequest);

@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::get_IsFull)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a8e08;
+  constexpr static std::size_t addrs = 0x430a11c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::IncrementalReadDummyDecoder::Decode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a8e10;
+  constexpr static std::size_t addrs = 0x430a124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a8e18;
+  constexpr static std::size_t addrs = 0x430a12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IncrementalReadDummyDecoder*>::get(), ".ctor",
@@ -54,13 +54,13 @@ inline int32_t System::Xml::IncrementalReadDummyDecoder::Decode(::ArrayW<char16_
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IncrementalReadDummyDecoder*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, chars, startPos, len);
 }
-inline ::System::Xml::IncrementalReadDummyDecoder* System::Xml::IncrementalReadDummyDecoder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::IncrementalReadDummyDecoder*>());
-}
 inline void System::Xml::IncrementalReadDummyDecoder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IncrementalReadDummyDecoder*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::IncrementalReadDummyDecoder* System::Xml::IncrementalReadDummyDecoder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::IncrementalReadDummyDecoder*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::IncrementalReadDummyDecoder::IncrementalReadDummyDecoder() {}

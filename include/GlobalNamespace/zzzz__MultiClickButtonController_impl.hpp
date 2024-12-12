@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::add_wasTriggeredEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b997a0;
+  constexpr static std::size_t addrs = 0x3bfb8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::remove_wasTriggeredEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9983c;
+  constexpr static std::size_t addrs = 0x3bfb98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::OnEnable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b998d8;
+  constexpr static std::size_t addrs = 0x3bfba28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b99970;
+  constexpr static std::size_t addrs = 0x3bfbac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::HandleButtonClicked)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b9998c;
+  constexpr static std::size_t addrs = 0x3bfbadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b999c4;
+  constexpr static std::size_t addrs = 0x3bfbb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(), ".ctor",
@@ -118,7 +118,7 @@ constexpr ::System::Action*& GlobalNamespace::MultiClickButtonController::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wasTriggeredEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiClickButtonController::__cordl_internal_get_wasTriggeredEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MultiClickButtonController::__cordl_internal_get_wasTriggeredEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wasTriggeredEvent;
 }
@@ -142,7 +142,7 @@ constexpr ::HMUI::ButtonBinder*& GlobalNamespace::MultiClickButtonController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::MultiClickButtonController::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& GlobalNamespace::MultiClickButtonController::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
@@ -177,13 +177,13 @@ inline void GlobalNamespace::MultiClickButtonController::HandleButtonClicked() {
                                                                              "HandleButtonClicked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiClickButtonController* GlobalNamespace::MultiClickButtonController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiClickButtonController*>());
-}
 inline void GlobalNamespace::MultiClickButtonController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiClickButtonController* GlobalNamespace::MultiClickButtonController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiClickButtonController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiClickButtonController::MultiClickButtonController() {}

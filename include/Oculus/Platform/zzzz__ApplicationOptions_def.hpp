@@ -17,35 +17,34 @@ class ApplicationOptions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::ApplicationOptions);
-// Type: Oculus.Platform::ApplicationOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::ApplicationOptions*
+// CS Name: Oculus.Platform.ApplicationOptions
 class CORDL_TYPE ApplicationOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x3efa9a0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f5aa4c, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ApplicationOptions* New_ctor();
 
-  /// @brief Method SetDeeplinkMessage, addr 0x3efa488, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDeeplinkMessage, addr 0x3f5a534, size 0x68, virtual false, abstract: false, final false
   inline void SetDeeplinkMessage(::StringW value);
 
-  /// @brief Method SetDestinationApiName, addr 0x3efa590, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDestinationApiName, addr 0x3f5a63c, size 0x68, virtual false, abstract: false, final false
   inline void SetDestinationApiName(::StringW value);
 
-  /// @brief Method SetLobbySessionId, addr 0x3efa698, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLobbySessionId, addr 0x3f5a744, size 0x68, virtual false, abstract: false, final false
   inline void SetLobbySessionId(::StringW value);
 
-  /// @brief Method SetMatchSessionId, addr 0x3efa7a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMatchSessionId, addr 0x3f5a84c, size 0x68, virtual false, abstract: false, final false
   inline void SetMatchSessionId(::StringW value);
 
-  /// @brief Method SetRoomId, addr 0x3efa8a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetRoomId, addr 0x3f5a954, size 0x68, virtual false, abstract: false, final false
   inline void SetRoomId(uint64_t value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -54,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3efa3bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f5a468, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3efa994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f5aa40, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::ApplicationOptions* options);
 
 protected:
@@ -74,18 +73,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationOptions(ApplicationOptions const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15311 };
+
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15276 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ApplicationOptions, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::ApplicationOptions, ___Handle) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ApplicationOptions, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::ApplicationOptions);

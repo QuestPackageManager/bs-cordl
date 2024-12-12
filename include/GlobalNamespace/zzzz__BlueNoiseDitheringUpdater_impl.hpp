@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::OnEnable)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x39871e4;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x39ddacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlueNoiseDitheringUpdater*>::get(), "OnEnable",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::OnDisable)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x398733c;
+  constexpr static std::size_t addrs = 0x39ddca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlueNoiseDitheringUpdater*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::BlueNoiseDitheringUpdater::HandleCameraPreRender)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3987420;
+  constexpr static std::size_t addrs = 0x39ddd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlueNoiseDitheringUpdater::*)()>(&::GlobalNamespace::BlueNoiseDitheringUpdater::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398750c;
+  constexpr static std::size_t addrs = 0x39dde84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlueNoiseDitheringUpdater*>::get(), ".ctor",
@@ -99,13 +99,13 @@ inline void GlobalNamespace::BlueNoiseDitheringUpdater::HandleCameraPreRender(::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camera);
 }
-inline ::GlobalNamespace::BlueNoiseDitheringUpdater* GlobalNamespace::BlueNoiseDitheringUpdater::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BlueNoiseDitheringUpdater*>());
-}
 inline void GlobalNamespace::BlueNoiseDitheringUpdater::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlueNoiseDitheringUpdater*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BlueNoiseDitheringUpdater* GlobalNamespace::BlueNoiseDitheringUpdater::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BlueNoiseDitheringUpdater*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BlueNoiseDitheringUpdater::BlueNoiseDitheringUpdater() {}

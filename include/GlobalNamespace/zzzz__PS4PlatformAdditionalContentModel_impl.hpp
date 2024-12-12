@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS4PlatformAdditionalContentModel::*)(
     ::GlobalNamespace::ISonyCommerceHelper*, ::GlobalNamespace::SonyLevelProductCollectionModel*)>(&::GlobalNamespace::PS4PlatformAdditionalContentModel::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26b24cc;
+  constexpr static std::size_t addrs = 0x26e6f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,11 +20,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::PS4PlatformAdditionalContentModel*
-GlobalNamespace::PS4PlatformAdditionalContentModel::New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
-                                                             ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PS4PlatformAdditionalContentModel*>(sonyCommerceHelper, sonyLevelProductCollectionModel));
-}
 inline void GlobalNamespace::PS4PlatformAdditionalContentModel::_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                       ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,6 +27,11 @@ inline void GlobalNamespace::PS4PlatformAdditionalContentModel::_ctor(::GlobalNa
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISonyCommerceHelper*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLevelProductCollectionModel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sonyCommerceHelper, sonyLevelProductCollectionModel);
+}
+inline ::GlobalNamespace::PS4PlatformAdditionalContentModel*
+GlobalNamespace::PS4PlatformAdditionalContentModel::New_ctor(::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
+                                                             ::GlobalNamespace::SonyLevelProductCollectionModel* sonyLevelProductCollectionModel) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PS4PlatformAdditionalContentModel*>(sonyCommerceHelper, sonyLevelProductCollectionModel));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PS4PlatformAdditionalContentModel::PS4PlatformAdditionalContentModel() {}

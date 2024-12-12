@@ -12,11 +12,10 @@ struct AddressFamily;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::AddressFamily);
-// Type: System.Net.Sockets::AddressFamily
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::AddressFamily
+// CS Name: System.Net.Sockets.AddressFamily
 struct CORDL_TYPE AddressFamily {
 public:
   // Declarations
@@ -74,114 +73,114 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AddressFamily(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AppleTalk value: static_cast<int32_t>(0x10)
+  /// @brief Field AppleTalk value: I32(16)
   static ::System::Net::Sockets::AddressFamily const AppleTalk;
 
-  /// @brief Field Atm value: static_cast<int32_t>(0x16)
+  /// @brief Field Atm value: I32(22)
   static ::System::Net::Sockets::AddressFamily const Atm;
 
-  /// @brief Field Banyan value: static_cast<int32_t>(0x15)
+  /// @brief Field Banyan value: I32(21)
   static ::System::Net::Sockets::AddressFamily const Banyan;
 
-  /// @brief Field Ccitt value: static_cast<int32_t>(0xa)
+  /// @brief Field Ccitt value: I32(10)
   static ::System::Net::Sockets::AddressFamily const Ccitt;
 
-  /// @brief Field Chaos value: static_cast<int32_t>(0x5)
+  /// @brief Field Chaos value: I32(5)
   static ::System::Net::Sockets::AddressFamily const Chaos;
 
-  /// @brief Field Cluster value: static_cast<int32_t>(0x18)
+  /// @brief Field Cluster value: I32(24)
   static ::System::Net::Sockets::AddressFamily const Cluster;
 
-  /// @brief Field DataKit value: static_cast<int32_t>(0x9)
+  /// @brief Field DataKit value: I32(9)
   static ::System::Net::Sockets::AddressFamily const DataKit;
 
-  /// @brief Field DataLink value: static_cast<int32_t>(0xd)
+  /// @brief Field DataLink value: I32(13)
   static ::System::Net::Sockets::AddressFamily const DataLink;
 
-  /// @brief Field DecNet value: static_cast<int32_t>(0xc)
+  /// @brief Field DecNet value: I32(12)
   static ::System::Net::Sockets::AddressFamily const DecNet;
 
-  /// @brief Field Ecma value: static_cast<int32_t>(0x8)
+  /// @brief Field Ecma value: I32(8)
   static ::System::Net::Sockets::AddressFamily const Ecma;
 
-  /// @brief Field FireFox value: static_cast<int32_t>(0x13)
+  /// @brief Field FireFox value: I32(19)
   static ::System::Net::Sockets::AddressFamily const FireFox;
 
-  /// @brief Field HyperChannel value: static_cast<int32_t>(0xf)
+  /// @brief Field HyperChannel value: I32(15)
   static ::System::Net::Sockets::AddressFamily const HyperChannel;
 
-  /// @brief Field Ieee12844 value: static_cast<int32_t>(0x19)
+  /// @brief Field Ieee12844 value: I32(25)
   static ::System::Net::Sockets::AddressFamily const Ieee12844;
 
-  /// @brief Field ImpLink value: static_cast<int32_t>(0x3)
+  /// @brief Field ImpLink value: I32(3)
   static ::System::Net::Sockets::AddressFamily const ImpLink;
 
-  /// @brief Field InterNetwork value: static_cast<int32_t>(0x2)
+  /// @brief Field InterNetwork value: I32(2)
   static ::System::Net::Sockets::AddressFamily const InterNetwork;
 
-  /// @brief Field InterNetworkV6 value: static_cast<int32_t>(0x17)
+  /// @brief Field InterNetworkV6 value: I32(23)
   static ::System::Net::Sockets::AddressFamily const InterNetworkV6;
 
-  /// @brief Field Ipx value: static_cast<int32_t>(0x6)
+  /// @brief Field Ipx value: I32(6)
   static ::System::Net::Sockets::AddressFamily const Ipx;
 
-  /// @brief Field Irda value: static_cast<int32_t>(0x1a)
+  /// @brief Field Irda value: I32(26)
   static ::System::Net::Sockets::AddressFamily const Irda;
 
-  /// @brief Field Iso value: static_cast<int32_t>(0x7)
+  /// @brief Field Iso value: I32(7)
   static ::System::Net::Sockets::AddressFamily const Iso;
 
-  /// @brief Field Lat value: static_cast<int32_t>(0xe)
+  /// @brief Field Lat value: I32(14)
   static ::System::Net::Sockets::AddressFamily const Lat;
 
-  /// @brief Field Max value: static_cast<int32_t>(0x1d)
+  /// @brief Field Max value: I32(29)
   static ::System::Net::Sockets::AddressFamily const Max;
 
-  /// @brief Field NS value: static_cast<int32_t>(0x6)
+  /// @brief Field NS value: I32(6)
   static ::System::Net::Sockets::AddressFamily const NS;
 
-  /// @brief Field NetBios value: static_cast<int32_t>(0x11)
+  /// @brief Field NetBios value: I32(17)
   static ::System::Net::Sockets::AddressFamily const NetBios;
 
-  /// @brief Field NetworkDesigners value: static_cast<int32_t>(0x1c)
+  /// @brief Field NetworkDesigners value: I32(28)
   static ::System::Net::Sockets::AddressFamily const NetworkDesigners;
 
-  /// @brief Field Osi value: static_cast<int32_t>(0x7)
+  /// @brief Field Osi value: I32(7)
   static ::System::Net::Sockets::AddressFamily const Osi;
 
-  /// @brief Field Pup value: static_cast<int32_t>(0x4)
+  /// @brief Field Pup value: I32(4)
   static ::System::Net::Sockets::AddressFamily const Pup;
 
-  /// @brief Field Sna value: static_cast<int32_t>(0xb)
+  /// @brief Field Sna value: I32(11)
   static ::System::Net::Sockets::AddressFamily const Sna;
 
-  /// @brief Field Unix value: static_cast<int32_t>(0x1)
+  /// @brief Field Unix value: I32(1)
   static ::System::Net::Sockets::AddressFamily const Unix;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Unknown value: I32(-1)
   static ::System::Net::Sockets::AddressFamily const Unknown;
 
-  /// @brief Field Unspecified value: static_cast<int32_t>(0x0)
+  /// @brief Field Unspecified value: I32(0)
   static ::System::Net::Sockets::AddressFamily const Unspecified;
 
-  /// @brief Field VoiceView value: static_cast<int32_t>(0x12)
+  /// @brief Field VoiceView value: I32(18)
   static ::System::Net::Sockets::AddressFamily const VoiceView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::AddressFamily, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::AddressFamily, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::AddressFamily, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::AddressFamily, "System.Net.Sockets", "AddressFamily");

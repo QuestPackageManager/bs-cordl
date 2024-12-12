@@ -19,9 +19,6 @@ template <typename T0> constexpr void UnityEngine::Events::UnityEvent_1<T0>::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_InvokeArray, value);
 }
-template <typename T0> inline ::UnityEngine::Events::UnityEvent_1<T0>* UnityEngine::Events::UnityEvent_1<T0>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::UnityEvent_1<T0>*>());
-}
 template <typename T0> inline void UnityEngine::Events::UnityEvent_1<T0>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<T0>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -60,6 +57,9 @@ template <typename T0> inline void UnityEngine::Events::UnityEvent_1<T0>::Invoke
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_1<T0>*>::get(), "Invoke",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T0>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg0);
+}
+template <typename T0> inline ::UnityEngine::Events::UnityEvent_1<T0>* UnityEngine::Events::UnityEvent_1<T0>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::UnityEvent_1<T0>*>());
 }
 // Ctor Parameters []
 template <typename T0> constexpr ::UnityEngine::Events::UnityEvent_1<T0>::UnityEvent_1() {}

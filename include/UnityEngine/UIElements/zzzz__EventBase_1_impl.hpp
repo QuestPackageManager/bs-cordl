@@ -8,30 +8,29 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
-template <typename T> inline void UnityEngine::UIElements::__EventBase_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__EventBase_1____c<T>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__EventBase_1____c<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventBase_1____c<T>*>::get>(
-      std::forward<::UnityEngine::UIElements::__EventBase_1____c<T>*>(value));
+template <typename T> inline void UnityEngine::UIElements::EventBase_1___c<T>::setStaticF___9(::UnityEngine::UIElements::EventBase_1___c<T>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventBase_1___c<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1___c<T>*>::get>(
+      std::forward<::UnityEngine::UIElements::EventBase_1___c<T>*>(value));
 }
-template <typename T> inline ::UnityEngine::UIElements::__EventBase_1____c<T>* UnityEngine::UIElements::__EventBase_1____c<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__EventBase_1____c<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventBase_1____c<T>*>::get>();
+template <typename T> inline ::UnityEngine::UIElements::EventBase_1___c<T>* UnityEngine::UIElements::EventBase_1___c<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventBase_1___c<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1___c<T>*>::get>();
 }
-template <typename T> inline ::UnityEngine::UIElements::__EventBase_1____c<T>* UnityEngine::UIElements::__EventBase_1____c<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__EventBase_1____c<T>*>());
-}
-template <typename T> inline void UnityEngine::UIElements::__EventBase_1____c<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventBase_1____c<T>*>::get(), ".ctor",
+template <typename T> inline void UnityEngine::UIElements::EventBase_1___c<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1___c<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline T UnityEngine::UIElements::__EventBase_1____c<T>::__cctor_b__15_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__EventBase_1____c<T>*>::get(),
+template <typename T> inline T UnityEngine::UIElements::EventBase_1___c<T>::__cctor_b__15_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1___c<T>*>::get(),
                                                                              "<.cctor>b__15_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
+template <typename T> inline ::UnityEngine::UIElements::EventBase_1___c<T>* UnityEngine::UIElements::EventBase_1___c<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventBase_1___c<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::UIElements::__EventBase_1____c<T>::__EventBase_1____c() {}
+template <typename T> constexpr ::UnityEngine::UIElements::EventBase_1___c<T>::EventBase_1___c() {}
 template <typename T> constexpr int32_t& UnityEngine::UIElements::EventBase_1<T>::__cordl_internal_get_m_RefCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RefCount;
@@ -71,9 +70,6 @@ template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::SetCr
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), "SetCreateFunction",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, createMethod);
-}
-template <typename T> inline ::UnityEngine::UIElements::EventBase_1<T>* UnityEngine::UIElements::EventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventBase_1<T>*>());
 }
 template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), ".ctor",
@@ -121,6 +117,9 @@ template <typename T> inline int64_t UnityEngine::UIElements::EventBase_1<T>::ge
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::EventBase_1<T>* UnityEngine::UIElements::EventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventBase_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::EventBase_1<T>::EventBase_1() {}

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2Enumerator.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Enumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*)>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43d8ee4;
+  constexpr static std::size_t addrs = 0x443a1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)()>(&::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::get_Current)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x43d9024;
+  constexpr static std::size_t addrs = 0x443a338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43d9114;
+  constexpr static std::size_t addrs = 0x443a428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43d91b4;
+  constexpr static std::size_t addrs = 0x443a4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43d9258;
+  constexpr static std::size_t addrs = 0x443a56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43d92f8;
+  constexpr static std::size_t addrs = 0x443a60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,30 +98,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::IEnumerator*& System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::__cordl_internal_get_enumerator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const&
-System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::__cordl_internal_get_enumerator() const {
+constexpr ::System::Collections::IEnumerator* const& System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::__cordl_internal_get_enumerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___enumerator;
 }
 constexpr void System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::__cordl_internal_set_enumerator(::System::Collections::IEnumerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___enumerator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator*
-System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator*>(collection));
 }
 inline void System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,6 +145,18 @@ inline void System::Security::Cryptography::X509Certificates::X509Certificate2En
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator*
+System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator*>(collection));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator::X509Certificate2Enumerator() {}

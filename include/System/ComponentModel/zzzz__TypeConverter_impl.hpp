@@ -1,11 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/TypeConverter.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
@@ -16,485 +17,485 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor._ctor
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)(
-    ::System::Type*, ::StringW, ::System::Type*)>(&::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(
+    ::System::Type*, ::StringW, ::System::Type*)>(&::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x440db5c;
+  constexpr static std::size_t addrs = 0x446ee70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor._ctor
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)(
-    ::System::Type*, ::StringW, ::System::Type*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(
+    ::System::Type*, ::StringW, ::System::Type*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x440dbdc;
+  constexpr static std::size_t addrs = 0x446eef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.get_ComponentType
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.get_ComponentType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)()>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_ComponentType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440dc10;
+  constexpr static std::size_t addrs = 0x446ef24;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.get_IsReadOnly
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.get_IsReadOnly
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)()>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x440dc18;
+  constexpr static std::size_t addrs = 0x446ef2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 15));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.get_PropertyType
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.get_PropertyType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)()>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_PropertyType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)()>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440dc9c;
+  constexpr static std::size_t addrs = 0x446efb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 16));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 16));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.CanResetValue
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.CanResetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::CanResetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x440dca4;
+  constexpr static std::size_t addrs = 0x446efb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 17));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 17));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.ResetValue
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.ResetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::ResetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x440dde8;
+  constexpr static std::size_t addrs = 0x446f0fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 20));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 20));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor.ShouldSerializeValue
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor.ShouldSerializeValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::ShouldSerializeValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::*)(::System::Object*)>(
+    &::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440df14;
+  constexpr static std::size_t addrs = 0x446f228;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 22));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 22));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_get_componentType() {
+constexpr ::System::Type*& System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_get_componentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___componentType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_get_componentType() const {
+constexpr ::System::Type* const& System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_get_componentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___componentType;
 }
-constexpr void System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_set_componentType(::System::Type* value) {
+constexpr void System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_set_componentType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___componentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_get_propertyType() {
+constexpr ::System::Type*& System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_get_propertyType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_get_propertyType() const {
+constexpr ::System::Type* const& System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_get_propertyType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyType;
 }
-constexpr void System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__cordl_internal_set_propertyType(::System::Type* value) {
+constexpr void System::ComponentModel::TypeConverter_SimplePropertyDescriptor::__cordl_internal_set_propertyType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___propertyType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor* System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::New_ctor(::System::Type* componentType, ::StringW name,
-                                                                                                                                                        ::System::Type* propertyType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>(componentType, name, propertyType));
-}
-inline void System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType) {
+inline void System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, componentType, name, propertyType);
 }
-inline ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*
-System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
-                                                                            ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>(componentType, name, propertyType, attributes));
-}
-inline void System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
-                                                                                     ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
+inline void System::ComponentModel::TypeConverter_SimplePropertyDescriptor::_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
+                                                                                  ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, componentType, name, propertyType, attributes);
 }
-inline ::System::Type* System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_ComponentType() {
+inline ::System::Type* System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_ComponentType() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_IsReadOnly() {
+inline bool System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_IsReadOnly() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Type* System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::get_PropertyType() {
+inline ::System::Type* System::ComponentModel::TypeConverter_SimplePropertyDescriptor::get_PropertyType() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 16)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::CanResetValue(::System::Object* component) {
+inline bool System::ComponentModel::TypeConverter_SimplePropertyDescriptor::CanResetValue(::System::Object* component) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 17)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, component);
 }
-inline void System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::ResetValue(::System::Object* component) {
+inline void System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ResetValue(::System::Object* component) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 20)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component);
 }
-inline bool System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::ShouldSerializeValue(::System::Object* component) {
+inline bool System::ComponentModel::TypeConverter_SimplePropertyDescriptor::ShouldSerializeValue(::System::Object* component) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor*>::get(), 22)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, component);
 }
+inline ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor* System::ComponentModel::TypeConverter_SimplePropertyDescriptor::New_ctor(::System::Type* componentType, ::StringW name,
+                                                                                                                                                  ::System::Type* propertyType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(componentType, name, propertyType));
+}
+inline ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*
+System::ComponentModel::TypeConverter_SimplePropertyDescriptor::New_ctor(::System::Type* componentType, ::StringW name, ::System::Type* propertyType,
+                                                                         ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverter_SimplePropertyDescriptor*>(componentType, name, propertyType, attributes));
+}
 // Ctor Parameters []
-constexpr ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor::__TypeConverter__SimplePropertyDescriptor() {}
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection._ctor
+constexpr ::System::ComponentModel::TypeConverter_SimplePropertyDescriptor::TypeConverter_SimplePropertyDescriptor() {}
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)(::System::Collections::ICollection*)>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Collections::ICollection*)>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x440df1c;
+  constexpr static std::size_t addrs = 0x446f230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ICollection*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.get_Count
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::get_Count)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x440dfcc;
+  constexpr static std::size_t addrs = 0x446f2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "get_Count",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "get_Count",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.get_Item
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.get_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)(int32_t)>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(int32_t)>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::get_Item)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x440e088;
+  constexpr static std::size_t addrs = 0x446f39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "get_Item",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "get_Item",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.CopyTo
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)(::System::Array*, int32_t)>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Array*, int32_t)>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::CopyTo)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x440e278;
+  constexpr static std::size_t addrs = 0x446f58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.GetEnumerator
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x440e330;
+  constexpr static std::size_t addrs = 0x446f644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "GetEnumerator",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "GetEnumerator",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.System_Collections_ICollection_get_Count
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.System_Collections_ICollection_get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440e3d0;
+  constexpr static std::size_t addrs = 0x446f6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                  "System.Collections.ICollection.get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.System_Collections_ICollection_get_IsSynchronized
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.System_Collections_ICollection_get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440e3d4;
+  constexpr static std::size_t addrs = 0x446f6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                  "System.Collections.ICollection.get_IsSynchronized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.System_Collections_ICollection_get_SyncRoot
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.System_Collections_ICollection_get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440e3dc;
+  constexpr static std::size_t addrs = 0x446f6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                  "System.Collections.ICollection.get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.System_Collections_ICollection_CopyTo
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.System_Collections_ICollection_CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)(::System::Array*, int32_t)>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)(::System::Array*, int32_t)>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440e3e4;
+  constexpr static std::size_t addrs = 0x446f6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "System.Collections.ICollection.CopyTo",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "System.Collections.ICollection.CopyTo",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::ComponentModel::__TypeConverter__StandardValuesCollection.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::System::ComponentModel::TypeConverter_StandardValuesCollection.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::__TypeConverter__StandardValuesCollection::*)()>(
-    &::System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::TypeConverter_StandardValuesCollection::*)()>(
+    &::System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440e3e8;
+  constexpr static std::size_t addrs = 0x446f6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::ComponentModel::__TypeConverter__StandardValuesCollection::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::ComponentModel::__TypeConverter__StandardValuesCollection::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::ComponentModel::__TypeConverter__StandardValuesCollection::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::ComponentModel::__TypeConverter__StandardValuesCollection::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::ICollection*& System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_get_values() {
+constexpr ::System::Collections::ICollection*& System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_get_values() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_get_values() const {
+constexpr ::System::Collections::ICollection* const& System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_get_values() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
-constexpr void System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_set_values(::System::Collections::ICollection* value) {
+constexpr void System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_set_values(::System::Collections::ICollection* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___values)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Array*& System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_get_valueArray() {
+constexpr ::System::Array*& System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_get_valueArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueArray;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_get_valueArray() const {
+constexpr ::System::Array* const& System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_get_valueArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueArray;
 }
-constexpr void System::ComponentModel::__TypeConverter__StandardValuesCollection::__cordl_internal_set_valueArray(::System::Array* value) {
+constexpr void System::ComponentModel::TypeConverter_StandardValuesCollection::__cordl_internal_set_valueArray(::System::Array* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* System::ComponentModel::__TypeConverter__StandardValuesCollection::New_ctor(::System::Collections::ICollection* values) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>(values));
-}
-inline void System::ComponentModel::__TypeConverter__StandardValuesCollection::_ctor(::System::Collections::ICollection* values) {
+inline void System::ComponentModel::TypeConverter_StandardValuesCollection::_ctor(::System::Collections::ICollection* values) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ICollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, values);
 }
-inline int32_t System::ComponentModel::__TypeConverter__StandardValuesCollection::get_Count() {
+inline int32_t System::ComponentModel::TypeConverter_StandardValuesCollection::get_Count() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "get_Count",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "get_Count",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Object* System::ComponentModel::__TypeConverter__StandardValuesCollection::get_Item(int32_t index) {
+inline ::System::Object* System::ComponentModel::TypeConverter_StandardValuesCollection::get_Item(int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "get_Item",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "get_Item",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
-inline void System::ComponentModel::__TypeConverter__StandardValuesCollection::CopyTo(::System::Array* array, int32_t index) {
+inline void System::ComponentModel::TypeConverter_StandardValuesCollection::CopyTo(::System::Array* array, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "CopyTo", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
 }
-inline ::System::Collections::IEnumerator* System::ComponentModel::__TypeConverter__StandardValuesCollection::GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::ComponentModel::TypeConverter_StandardValuesCollection::GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "GetEnumerator",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "GetEnumerator",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline int32_t System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_Count() {
+inline int32_t System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_Count() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                "System.Collections.ICollection.get_Count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_IsSynchronized() {
+inline bool System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_IsSynchronized() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                "System.Collections.ICollection.get_IsSynchronized", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_get_SyncRoot() {
+inline ::System::Object* System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_get_SyncRoot() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                "System.Collections.ICollection.get_SyncRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index) {
+inline void System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(), "System.Collections.ICollection.CopyTo",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(), "System.Collections.ICollection.CopyTo",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Array*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, index);
 }
-inline ::System::Collections::IEnumerator* System::ComponentModel::__TypeConverter__StandardValuesCollection::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* System::ComponentModel::TypeConverter_StandardValuesCollection::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::__TypeConverter__StandardValuesCollection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter_StandardValuesCollection*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
+inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* System::ComponentModel::TypeConverter_StandardValuesCollection::New_ctor(::System::Collections::ICollection* values) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverter_StandardValuesCollection*>(values));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::ComponentModel::TypeConverter_StandardValuesCollection::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::ComponentModel::TypeConverter_StandardValuesCollection::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::ComponentModel::TypeConverter_StandardValuesCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::ComponentModel::TypeConverter_StandardValuesCollection::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection::__TypeConverter__StandardValuesCollection() {}
+constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection::TypeConverter_StandardValuesCollection() {}
 //  Writing Method size for method: ::System::ComponentModel::TypeConverter.get_UseCompatibleTypeConversion
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::ComponentModel::TypeConverter::get_UseCompatibleTypeConversion)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x440c800;
+  constexpr static std::size_t addrs = 0x446db14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -509,7 +510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Type*)>(
     &::System::ComponentModel::TypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440c850;
+  constexpr static std::size_t addrs = 0x446db64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -524,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::TypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x440c864;
+  constexpr static std::size_t addrs = 0x446db78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -539,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Type*)>(
     &::System::ComponentModel::TypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440c8ec;
+  constexpr static std::size_t addrs = 0x446dc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::TypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x440c900;
+  constexpr static std::size_t addrs = 0x446dc14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -569,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x440c988;
+  constexpr static std::size_t addrs = 0x446dc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +586,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::TypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x440ca04;
+  constexpr static std::size_t addrs = 0x446dd18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -600,7 +601,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::StringW)>(
     &::System::ComponentModel::TypeConverter::ConvertFromInvariantString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x440cef0;
+  constexpr static std::size_t addrs = 0x446e204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::StringW)>(&::System::ComponentModel::TypeConverter::ConvertFromInvariantString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x440cf78;
+  constexpr static std::size_t addrs = 0x446e28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::StringW)>(
     &::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x440cff8;
+  constexpr static std::size_t addrs = 0x446e30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::StringW)>(&::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x440d010;
+  constexpr static std::size_t addrs = 0x446e324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -663,7 +664,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::StringW)>(
         &::System::ComponentModel::TypeConverter::ConvertFromString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x440cf6c;
+  constexpr static std::size_t addrs = 0x446e280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -680,7 +681,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x440d090;
+  constexpr static std::size_t addrs = 0x446e3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -697,7 +698,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x440d0ac;
+  constexpr static std::size_t addrs = 0x446e3c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -712,7 +713,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x440d458;
+  constexpr static std::size_t addrs = 0x446e76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -727,7 +728,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToInvariantString)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x440d5a8;
+  constexpr static std::size_t addrs = 0x446e8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -743,7 +744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x440d620;
+  constexpr static std::size_t addrs = 0x446e934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -758,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x440d720;
+  constexpr static std::size_t addrs = 0x446ea34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -774,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::ConvertToString)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x440d4cc;
+  constexpr static std::size_t addrs = 0x446e7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -791,7 +792,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::TypeConverter::*)(::System::Collections::IDictionary*)>(
     &::System::ComponentModel::TypeConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440d824;
+  constexpr static std::size_t addrs = 0x446eb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -806,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Collections::IDictionary*)>(&::System::ComponentModel::TypeConverter::CreateInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d838;
+  constexpr static std::size_t addrs = 0x446eb4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -821,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::GetConvertFromException)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x440cdc4;
+  constexpr static std::size_t addrs = 0x446e0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -836,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::ComponentModel::TypeConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TypeConverter::GetConvertToException)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x440d2e0;
+  constexpr static std::size_t addrs = 0x446e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -852,7 +853,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x440d840;
+  constexpr static std::size_t addrs = 0x446eb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -866,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetCreateInstanceSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d850;
+  constexpr static std::size_t addrs = 0x446eb64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -881,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::PropertyDescriptorCollection* (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(&::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x440d858;
+  constexpr static std::size_t addrs = 0x446eb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -896,7 +897,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptorCollection* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x440d864;
+  constexpr static std::size_t addrs = 0x446eb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -913,7 +914,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::TypeConverter::GetProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d954;
+  constexpr static std::size_t addrs = 0x446ec68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -928,7 +929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x440d95c;
+  constexpr static std::size_t addrs = 0x446ec70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -942,7 +943,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d96c;
+  constexpr static std::size_t addrs = 0x446ec80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -957,7 +958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x440d974;
+  constexpr static std::size_t addrs = 0x446ec88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -968,10 +969,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::ComponentModel::TypeConverter.GetStandardValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeConverter__StandardValuesCollection* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::TypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d984;
+  constexpr static std::size_t addrs = 0x446ec98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -986,7 +987,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440d98c;
+  constexpr static std::size_t addrs = 0x446eca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -1000,7 +1001,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d9a0;
+  constexpr static std::size_t addrs = 0x446ecb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1015,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)()>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440d9a8;
+  constexpr static std::size_t addrs = 0x446ecbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -1029,7 +1030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::TypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440d9bc;
+  constexpr static std::size_t addrs = 0x446ecd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1044,7 +1045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverter::IsValid)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x440d9c4;
+  constexpr static std::size_t addrs = 0x446ecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1059,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::TypeConverter::IsValid)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x440d9dc;
+  constexpr static std::size_t addrs = 0x446ecf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1075,7 +1076,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::TypeConverter::*)(::System::ComponentModel::PropertyDescriptorCollection*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::ComponentModel::TypeConverter::SortProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x440db1c;
+  constexpr static std::size_t addrs = 0x446ee30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1090,7 +1091,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverter::*)()>(&::System::ComponentModel::TypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440db54;
+  constexpr static std::size_t addrs = 0x446ee68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(), ".ctor",
@@ -1296,10 +1297,10 @@ inline ::System::Collections::ICollection* System::ComponentModel::TypeConverter
                                                                              "GetStandardValues", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ICollection*, false>(this, ___internal_method);
 }
-inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* System::ComponentModel::TypeConverter::GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context) {
+inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* System::ComponentModel::TypeConverter::GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::__TypeConverter__StandardValuesCollection*, false>(this, ___internal_method, context);
+  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeConverter_StandardValuesCollection*, false>(this, ___internal_method, context);
 }
 inline bool System::ComponentModel::TypeConverter::GetStandardValuesExclusive() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(),
@@ -1340,13 +1341,13 @@ inline ::System::ComponentModel::PropertyDescriptorCollection* System::Component
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::PropertyDescriptorCollection*, false>(this, ___internal_method, props, names);
 }
-inline ::System::ComponentModel::TypeConverter* System::ComponentModel::TypeConverter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverter*>());
-}
 inline void System::ComponentModel::TypeConverter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::TypeConverter* System::ComponentModel::TypeConverter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverter*>());
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeConverter::TypeConverter() {}

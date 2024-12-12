@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__FormatException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UriFormatException)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -21,11 +19,10 @@ class UriFormatException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::UriFormatException);
-// Type: System::UriFormatException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.FormatException, System.Runtime.Serialization.ISerializable
 namespace System {
 // Is value type: false
-// CS Name: ::System::UriFormatException*
+// CS Name: System.UriFormatException
 class CORDL_TYPE UriFormatException : public ::System::FormatException {
 public:
   // Declarations
@@ -38,17 +35,17 @@ public:
 
   static inline ::System::UriFormatException* New_ctor(::StringW textString);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x43a9500, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x440a814, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x43a94f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440a804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43a94f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440a80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x43a7678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x440898c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW textString);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -69,7 +66,7 @@ public:
   UriFormatException(UriFormatException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

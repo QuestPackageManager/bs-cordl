@@ -12,17 +12,6 @@
 #include "BeatSaber/Settings/zzzz__SmoothCameraSettings_impl.hpp"
 #include "BeatSaber/Settings/zzzz__WindowSettings_impl.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
-#include "BeatSaber/Settings/zzzz__AudioSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__ControllerSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__CustomServerSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__DebugSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__MiscSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__PerformanceToolSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__QualitySettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__QuestSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__RoomSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__SmoothCameraSettings_def.hpp"
-#include "BeatSaber/Settings/zzzz__WindowSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "room", ty: "::BeatSaber::Settings::RoomSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "controller", ty:
 // "::BeatSaber::Settings::ControllerSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothCamera", ty: "::BeatSaber::Settings::SmoothCameraSettings", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "audio", ty: "::BeatSaber::Settings::AudioSettings", modifiers: "", def_value: Some("{}") }, CppParam { name: "misc", ty: "::BeatSaber::Settings::MiscSettings",

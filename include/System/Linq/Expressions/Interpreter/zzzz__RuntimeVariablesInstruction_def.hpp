@@ -16,11 +16,10 @@ class RuntimeVariablesInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction);
-// Type: System.Linq.Expressions.Interpreter::RuntimeVariablesInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::RuntimeVariablesInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.RuntimeVariablesInstruction
 class CORDL_TYPE RuntimeVariablesInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -35,7 +34,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction* New_ctor(int32_t count);
 
-  /// @brief Method Run, addr 0x4088224, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e9538, size 0x130, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -44,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__count(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40881ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e94c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_ConsumedStack, addr 0x40881dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40e94f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40881e4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e94f8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40881d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40e94e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -70,18 +69,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimeVariablesInstruction(RuntimeVariablesInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13977 };
+
   /// @brief Field _count, offset: 0x10, size: 0x4, def value: None
   int32_t ____count;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13943 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction, ____count) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction);

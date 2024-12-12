@@ -14,36 +14,31 @@ class ISerializableJsonDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ISerializableJsonDictionary);
-// Type: UnityEngine.UIElements::ISerializableJsonDictionary
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ISerializableJsonDictionary*
+// CS Name: UnityEngine.UIElements.ISerializableJsonDictionary
 class CORDL_TYPE ISerializableJsonDictionary {
 public:
   // Declarations
-  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ContainsKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ContainsKey(::StringW key);
 
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline T Get(::StringW key);
 
-  /// @brief Method Overwrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Overwrite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Overwrite(::System::Object* obj, ::StringW key);
 
-  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Set, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline void Set(::StringW key, T value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISerializableJsonDictionary", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISerializableJsonDictionary(ISerializableJsonDictionary&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISerializableJsonDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISerializableJsonDictionary(ISerializableJsonDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5976 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/CachedProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__CachedProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -14,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedProvider::*)(::Zenject::IProvider*)>(&::Zenject::CachedProvider::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ad4410;
+  constexpr static std::size_t addrs = 0x4b38d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedProvider::*)()>(&::Zenject::CachedProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad49bc;
+  constexpr static std::size_t addrs = 0x4b392cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedProvider*>::get(), "get_IsCached",
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedProvider::*)()>(&::Zenject::CachedProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ad49c4;
+  constexpr static std::size_t addrs = 0x4b392d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::CachedProvider::*)()>(&::Zenject::CachedProvider::get_NumInstances)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ad4764;
+  constexpr static std::size_t addrs = 0x4b39074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedProvider*>::get(), "get_NumInstances",
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedProvider::*)()>(&::Zenject::CachedProvider::ClearCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad49ec;
+  constexpr static std::size_t addrs = 0x4b392fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedProvider*>::get(), "ClearCache",
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::CachedProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::CachedProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4ad49f4;
+  constexpr static std::size_t addrs = 0x4b39304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,34 +96,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedProvider::*)(
-    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
+    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::CachedProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x4ad4438;
+  constexpr static std::size_t addrs = 0x4b38d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::IProvider"
-constexpr Zenject::CachedProvider::operator ::Zenject::IProvider*() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IProvider"
-constexpr ::Zenject::IProvider* Zenject::CachedProvider::i___Zenject__IProvider() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
-}
 constexpr ::Zenject::IProvider*& Zenject::CachedProvider::__cordl_internal_get__creator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& Zenject::CachedProvider::__cordl_internal_get__creator() const {
+constexpr ::Zenject::IProvider* const& Zenject::CachedProvider::__cordl_internal_get__creator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
@@ -134,7 +127,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Object*>*& Zenject::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& Zenject::CachedProvider::__cordl_internal_get__instances() const {
+constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& Zenject::CachedProvider::__cordl_internal_get__instances() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instances;
 }
@@ -153,9 +146,6 @@ constexpr bool const& Zenject::CachedProvider::__cordl_internal_get__isCreatingI
 constexpr void Zenject::CachedProvider::__cordl_internal_set__isCreatingInstance(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isCreatingInstance = value;
-}
-inline ::Zenject::CachedProvider* Zenject::CachedProvider::New_ctor(::Zenject::IProvider* creator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::CachedProvider*>(creator));
 }
 inline void Zenject::CachedProvider::_ctor(::Zenject::IProvider* creator) {
   static auto* ___internal_method =
@@ -190,14 +180,25 @@ inline ::System::Type* Zenject::CachedProvider::GetInstanceType(::Zenject::Injec
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, context);
 }
 inline void Zenject::CachedProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                    ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
+                                                                    ::ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
+}
+inline ::Zenject::CachedProvider* Zenject::CachedProvider::New_ctor(::Zenject::IProvider* creator) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::CachedProvider*>(creator));
+}
+/// @brief Convert operator to "::Zenject::IProvider"
+constexpr Zenject::CachedProvider::operator ::Zenject::IProvider*() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IProvider"
+constexpr ::Zenject::IProvider* Zenject::CachedProvider::i___Zenject__IProvider() noexcept {
+  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::CachedProvider::CachedProvider() {}

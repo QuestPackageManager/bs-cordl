@@ -13,11 +13,10 @@ struct InternalCodePageDataItem;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::InternalCodePageDataItem);
-// Type: System.Globalization::InternalCodePageDataItem
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::InternalCodePageDataItem
+// CS Name: System.Globalization.InternalCodePageDataItem
 struct CORDL_TYPE InternalCodePageDataItem {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // Ctor Parameters [CppParam { name: "codePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "uiFamilyCodePage", ty: "uint16_t", modifiers: "", def_value: None }, CppParam {
   // name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Names", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr InternalCodePageDataItem(uint16_t codePage, uint16_t uiFamilyCodePage, uint32_t flags, ::StringW Names) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3723 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field codePage, offset: 0x0, size: 0x2, def value: None
   uint16_t codePage;
@@ -41,17 +46,9 @@ public:
   /// @brief Field Names, offset: 0x8, size: 0x8, def value: None
   ::StringW Names;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3723 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::InternalCodePageDataItem, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, codePage) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, uiFamilyCodePage) == 0x2, "Offset mismatch!");
@@ -59,6 +56,8 @@ static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, uiFami
 static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, flags) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::InternalCodePageDataItem, Names) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::InternalCodePageDataItem, 0x10>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::InternalCodePageDataItem, "System.Globalization", "InternalCodePageDataItem");

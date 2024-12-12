@@ -12,20 +12,19 @@ class RuntimeUIElementsBridge;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimeUIElementsBridge);
-// Type: UnityEngine.UIElements::RuntimeUIElementsBridge
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UIElementsBridge
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::RuntimeUIElementsBridge*
+// CS Name: UnityEngine.UIElements.RuntimeUIElementsBridge
 class CORDL_TYPE RuntimeUIElementsBridge : public ::UnityEngine::UIElements::UIElementsBridge {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::RuntimeUIElementsBridge* New_ctor();
 
-  /// @brief Method SetWantsMouseJumping, addr 0x4a34534, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetWantsMouseJumping, addr 0x4a98e44, size 0x4, virtual true, abstract: false, final false
   inline void SetWantsMouseJumping(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a34538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a98e48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +42,7 @@ public:
   RuntimeUIElementsBridge(RuntimeUIElementsBridge const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

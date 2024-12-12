@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardEntry::*)(int32_t, ::StringW, int32_t, bool, bool)>(
     &::GlobalNamespace::LeaderboardEntry::SetScore)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3ba3444;
+  constexpr static std::size_t addrs = 0x3c05dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardEntry::*)()>(&::GlobalNamespace::LeaderboardEntry::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ba35d4;
+  constexpr static std::size_t addrs = 0x3c05f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardEntry*>::get(), ".ctor",
@@ -90,13 +90,13 @@ inline void GlobalNamespace::LeaderboardEntry::SetScore(int32_t score, ::StringW
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, score, playerName, rank, highlighted, showSeparator);
 }
-inline ::GlobalNamespace::LeaderboardEntry* GlobalNamespace::LeaderboardEntry::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardEntry*>());
-}
 inline void GlobalNamespace::LeaderboardEntry::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardEntry*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LeaderboardEntry* GlobalNamespace::LeaderboardEntry::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LeaderboardEntry*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LeaderboardEntry::LeaderboardEntry() {}

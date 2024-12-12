@@ -20,11 +20,10 @@ class LeaderboardTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LeaderboardTableCell);
-// Type: ::LeaderboardTableCell
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LeaderboardTableCell*
+// CS Name: LeaderboardTableCell
 class CORDL_TYPE LeaderboardTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -105,25 +104,25 @@ public:
 
   constexpr void __cordl_internal_set__specialScoreColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b98290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfa3e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_playerName, addr 0x3b98094, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x3bfa1e4, size 0x24, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x3b9804c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x3bfa150, size 0x94, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x3b980b8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x3bfa208, size 0xa0, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
-  /// @brief Method set_showFullCombo, addr 0x3b98178, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showFullCombo, addr 0x3bfa2c8, size 0x20, virtual false, abstract: false, final false
   inline void set_showFullCombo(bool value);
 
-  /// @brief Method set_showSeparator, addr 0x3b98158, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showSeparator, addr 0x3bfa2a8, size 0x20, virtual false, abstract: false, final false
   inline void set_showSeparator(bool value);
 
-  /// @brief Method set_specialScore, addr 0x3b98198, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_specialScore, addr 0x3bfa2e8, size 0xf8, virtual false, abstract: false, final false
   inline void set_specialScore(bool value);
 
 protected:
@@ -139,6 +138,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardTableCell", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LeaderboardTableCell(LeaderboardTableCell const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
 
   /// @brief Field _rankText, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
@@ -161,14 +163,9 @@ public:
   /// @brief Field _separatorImage, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____separatorImage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4737 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableCell, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____rankText) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____playerNameText) == 0x70, "Offset mismatch!");
@@ -182,6 +179,8 @@ static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____normalColor)
 static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____specialScoreColor) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LeaderboardTableCell, ____separatorImage) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LeaderboardTableCell, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LeaderboardTableCell);

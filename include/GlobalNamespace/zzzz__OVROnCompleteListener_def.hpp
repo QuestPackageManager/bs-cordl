@@ -11,23 +11,22 @@ class OVROnCompleteListener;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVROnCompleteListener);
-// Type: ::OVROnCompleteListener
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AndroidJavaProxy
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVROnCompleteListener*
+// CS Name: OVROnCompleteListener
 class CORDL_TYPE OVROnCompleteListener : public ::UnityEngine::AndroidJavaProxy {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f6f1d8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fcf284, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method onFailure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method onFailure, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void onFailure();
 
-  /// @brief Method onSuccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method onSuccess, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void onSuccess();
 
 protected:
@@ -45,7 +44,7 @@ public:
   OVROnCompleteListener(OVROnCompleteListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7964 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

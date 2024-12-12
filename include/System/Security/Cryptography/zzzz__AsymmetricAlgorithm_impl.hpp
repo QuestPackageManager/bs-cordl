@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Cryptography/AsymmetricAlgorithm.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::AsymmetricAlgorithm._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3d2f8;
+  constexpr static std::size_t addrs = 0x3c9d46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c3d300;
+  constexpr static std::size_t addrs = 0x3c9d474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Clear)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c3d304;
+  constexpr static std::size_t addrs = 0x3c9d478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c3d370;
+  constexpr static std::size_t addrs = 0x3c9d4e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::AsymmetricAlgorithm::*)()>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c3d374;
+  constexpr static std::size_t addrs = 0x3c9d4e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(int32_t)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::set_KeySize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c3d37c;
+  constexpr static std::size_t addrs = 0x3c9d4f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AsymmetricAlgorithm::*)(::StringW)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::FromXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c3d478;
+  constexpr static std::size_t addrs = 0x3c9d5ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::AsymmetricAlgorithm::ToXmlString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c3d4b0;
+  constexpr static std::size_t addrs = 0x3c9d624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,14 +126,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Security::Cryptography::AsymmetricAlgorithm::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Security::Cryptography::AsymmetricAlgorithm::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr int32_t& System::Security::Cryptography::AsymmetricAlgorithm::__cordl_internal_get_KeySizeValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeySizeValue;
@@ -160,9 +152,6 @@ constexpr void System::Security::Cryptography::AsymmetricAlgorithm::__cordl_inte
     ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LegalKeySizesValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::AsymmetricAlgorithm* System::Security::Cryptography::AsymmetricAlgorithm::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AsymmetricAlgorithm*>());
 }
 inline void System::Security::Cryptography::AsymmetricAlgorithm::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(),
@@ -208,6 +197,17 @@ inline ::StringW System::Security::Cryptography::AsymmetricAlgorithm::ToXmlStrin
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AsymmetricAlgorithm*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, includePrivateParameters);
+}
+inline ::System::Security::Cryptography::AsymmetricAlgorithm* System::Security::Cryptography::AsymmetricAlgorithm::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AsymmetricAlgorithm*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Security::Cryptography::AsymmetricAlgorithm::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Security::Cryptography::AsymmetricAlgorithm::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AsymmetricAlgorithm::AsymmetricAlgorithm() {}

@@ -15,11 +15,10 @@ class MainEffectSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainEffectSO);
-// Type: ::MainEffectSO
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainEffectSO*
+// CS Name: MainEffectSO
 class CORDL_TYPE MainEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -27,19 +26,19 @@ public:
 
   static inline ::GlobalNamespace::MainEffectSO* New_ctor();
 
-  /// @brief Method PostRender, addr 0x40207d0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x4081ae4, size 0x4, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x40207c8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x4081adc, size 0x4, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x40207cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x4081ae0, size 0x4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
-  /// @brief Method .ctor, addr 0x4020000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x40207d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x4081ae8, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -57,7 +56,7 @@ public:
   MainEffectSO(MainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,11 +34,10 @@ class MultiplayerCenterTextAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterTextAnimator);
-// Type: ::MultiplayerCenterTextAnimator
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerCenterTextAnimator*
+// CS Name: MultiplayerCenterTextAnimator
 class CORDL_TYPE MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -66,66 +65,66 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method AnimateEnabled, addr 0x3b68284, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method AnimateEnabled, addr 0x3bc99c0, size 0x144, virtual false, abstract: false, final false
   inline void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateFontSize, addr 0x3b681ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AnimateFontSize, addr 0x3bc98e8, size 0x48, virtual false, abstract: false, final false
   inline void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimatePositionOffsetSize, addr 0x3b681f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AnimatePositionOffsetSize, addr 0x3bc9930, size 0x90, virtual false, abstract: false, final false
   inline void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateTextColor, addr 0x3b68110, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method AnimateTextColor, addr 0x3bc984c, size 0x9c, virtual false, abstract: false, final false
   inline void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method Awake, addr 0x3b67ca0, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bc93dc, size 0x3e8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerCenterTextAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b68088, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc97c4, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetText, addr 0x3b683c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3bc9b04, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method <Awake>b__8_0, addr 0x3b683f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_0, addr 0x3bc9b30, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_0(float_t val);
 
-  /// @brief Method <Awake>b__8_1, addr 0x3b6846c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_1, addr 0x3bc9ba8, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_1(float_t val);
 
-  /// @brief Method <Awake>b__8_2, addr 0x3b68510, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_2, addr 0x3bc9c4c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_2(float_t val);
 
-  /// @brief Method <Awake>b__8_3, addr 0x3b6852c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_3, addr 0x3bc9c68, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__8_3(::UnityEngine::Color val);
 
-  /// @brief Method <Awake>b__8_4, addr 0x3b68550, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_4, addr 0x3bc9c8c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
 
-  /// @brief Method <Awake>b__8_5, addr 0x3b684e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__8_5, addr 0x3bc9c20, size 0x2c, virtual false, abstract: false, final false
   inline void _Awake_b__8_5();
+
+  constexpr ::Tweening::Tween_1<::UnityEngine::Color>* const& __cordl_internal_get__colorTween() const;
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__colorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__colorTween() const;
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__fadeInTween() const;
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeInTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeInTween() const;
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__fadeOutTween() const;
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeOutTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeOutTween() const;
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__fontSizeTween() const;
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fontSizeTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fontSizeTween() const;
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>* const& __cordl_internal_get__offsetTween() const;
 
   constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__offsetTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__offsetTween() const;
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__scalingTarget() const;
 
@@ -155,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b683ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc9b28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,6 +170,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerCenterTextAnimator(MultiplayerCenterTextAnimator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4553 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;
@@ -196,14 +198,9 @@ public:
   /// @brief Field _offsetTween, offset: 0x58, size: 0x8, def value: None
   ::Tweening::Tween_1<::UnityEngine::Vector3>* ____offsetTween;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4541 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCenterTextAnimator, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterTextAnimator, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterTextAnimator, ____scalingTarget) == 0x28, "Offset mismatch!");
@@ -219,6 +216,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerCenterTextAnimator, ____fon
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterTextAnimator, ____colorTween) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterTextAnimator, ____offsetTween) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCenterTextAnimator, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerCenterTextAnimator);

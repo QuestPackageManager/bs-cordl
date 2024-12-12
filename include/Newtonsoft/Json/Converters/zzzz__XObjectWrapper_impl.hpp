@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Converters/XObjectWrapper.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XObjectWrapper::*)(::System::Xml::Linq::XObject*)>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ee31c4;
+  constexpr static std::size_t addrs = 0x3f43270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_WrappedNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee4bbc;
+  constexpr static std::size_t addrs = 0x3f44c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XObjectWrapper*>::get(),
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_NodeType)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ee4bc4;
+  constexpr static std::size_t addrs = 0x3f44c70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_LocalName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee4bdc;
+  constexpr static std::size_t addrs = 0x3f44c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (
     ::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(&::Newtonsoft::Json::Converters::XObjectWrapper::get_ChildNodes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ee4be4;
+  constexpr static std::size_t addrs = 0x3f44c90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* (
     ::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(&::Newtonsoft::Json::Converters::XObjectWrapper::get_Attributes)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ee4c3c;
+  constexpr static std::size_t addrs = 0x3f44ce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_ParentNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee4c94;
+  constexpr static std::size_t addrs = 0x3f44d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee4c9c;
+  constexpr static std::size_t addrs = 0x3f44d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XObjectWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::set_Value)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ee4ca4;
+  constexpr static std::size_t addrs = 0x3f44d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Converters::IXmlNode* (
     ::Newtonsoft::Json::Converters::XObjectWrapper::*)(::Newtonsoft::Json::Converters::IXmlNode*)>(&::Newtonsoft::Json::Converters::XObjectWrapper::AppendChild)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ee4cdc;
+  constexpr static std::size_t addrs = 0x3f44d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XObjectWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XObjectWrapper::get_NamespaceUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee4d14;
+  constexpr static std::size_t addrs = 0x3f44dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,28 +181,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr Newtonsoft::Json::Converters::XObjectWrapper::operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XObjectWrapper::i___Newtonsoft__Json__Converters__IXmlNode() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::Linq::XObject*& Newtonsoft::Json::Converters::XObjectWrapper::__cordl_internal_get__xmlObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XObject*> const& Newtonsoft::Json::Converters::XObjectWrapper::__cordl_internal_get__xmlObject() const {
+constexpr ::System::Xml::Linq::XObject* const& Newtonsoft::Json::Converters::XObjectWrapper::__cordl_internal_get__xmlObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xmlObject;
 }
 constexpr void Newtonsoft::Json::Converters::XObjectWrapper::__cordl_internal_set__xmlObject(::System::Xml::Linq::XObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xmlObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Newtonsoft::Json::Converters::XObjectWrapper* Newtonsoft::Json::Converters::XObjectWrapper::New_ctor(::System::Xml::Linq::XObject* xmlObject) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XObjectWrapper*>(xmlObject));
 }
 inline void Newtonsoft::Json::Converters::XObjectWrapper::_ctor(::System::Xml::Linq::XObject* xmlObject) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -258,6 +248,17 @@ inline ::StringW Newtonsoft::Json::Converters::XObjectWrapper::get_NamespaceUri(
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XObjectWrapper*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Converters::XObjectWrapper* Newtonsoft::Json::Converters::XObjectWrapper::New_ctor(::System::Xml::Linq::XObject* xmlObject) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XObjectWrapper*>(xmlObject));
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr Newtonsoft::Json::Converters::XObjectWrapper::operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XObjectWrapper::i___Newtonsoft__Json__Converters__IXmlNode() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XObjectWrapper::XObjectWrapper() {}

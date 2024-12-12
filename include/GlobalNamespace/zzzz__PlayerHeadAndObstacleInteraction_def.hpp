@@ -33,11 +33,10 @@ class PlayerHeadAndObstacleInteraction;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerHeadAndObstacleInteraction);
-// Type: ::PlayerHeadAndObstacleInteraction
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerHeadAndObstacleInteraction*
+// CS Name: PlayerHeadAndObstacleInteraction
 class CORDL_TYPE PlayerHeadAndObstacleInteraction : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -69,19 +68,19 @@ public:
 
   static inline ::GlobalNamespace::PlayerHeadAndObstacleInteraction* New_ctor();
 
-  /// @brief Method RefreshIntersectingObstacles, addr 0x3b81d64, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method RefreshIntersectingObstacles, addr 0x3be35ac, size 0x310, virtual false, abstract: false, final false
   inline void RefreshIntersectingObstacles(::UnityEngine::Vector3 worldPos);
 
-  /// @brief Method Update, addr 0x3b82074, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be38bc, size 0x8c, virtual false, abstract: false, final false
   inline void Update();
+
+  constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get__intersectingObstacles() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get__intersectingObstacles();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get__intersectingObstacles() const;
 
   constexpr int32_t const& __cordl_internal_get__lastFrameNumCheck() const;
 
@@ -95,13 +94,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__prevFrameNumberOfIntersectingObstaclesCount();
 
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* const& __cordl_internal_get_headDidEnterObstacleEvent() const;
+
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_headDidEnterObstacleEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_headDidEnterObstacleEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_headDidEnterObstaclesEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_headDidEnterObstaclesEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_headDidEnterObstaclesEvent() const;
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
@@ -117,22 +116,22 @@ public:
 
   constexpr void __cordl_internal_set_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b82100, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be3948, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_headDidEnterObstacleEvent, addr 0x3b81c04, size 0xb0, virtual false, abstract: false, final false
-  inline void add_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
+  /// @brief Method add_headDidEnterObstacleEvent, addr 0x3be33fc, size 0xb0, virtual false, abstract: false, final false
+  inline void add_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x3b81acc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_headDidEnterObstaclesEvent, addr 0x3be32c4, size 0x9c, virtual false, abstract: false, final false
   inline void add_headDidEnterObstaclesEvent(::System::Action* value);
 
-  /// @brief Method get_playerHeadIsInObstacle, addr 0x3b81358, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeadIsInObstacle, addr 0x3be355c, size 0x50, virtual false, abstract: false, final false
   inline bool get_playerHeadIsInObstacle();
 
-  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x3b81cb4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
+  /// @brief Method remove_headDidEnterObstacleEvent, addr 0x3be34ac, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_headDidEnterObstacleEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
 
-  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x3b81b68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_headDidEnterObstaclesEvent, addr 0x3be3360, size 0x9c, virtual false, abstract: false, final false
   inline void remove_headDidEnterObstaclesEvent(::System::Action* value);
 
 protected:
@@ -148,6 +147,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeadAndObstacleInteraction", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerHeadAndObstacleInteraction(PlayerHeadAndObstacleInteraction const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4632 };
 
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
@@ -170,14 +172,9 @@ public:
   /// @brief Field _prevFrameNumberOfIntersectingObstaclesCount, offset: 0x50, size: 0x4, def value: None
   int32_t ____prevFrameNumberOfIntersectingObstaclesCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4620 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeadAndObstacleInteraction, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerHeadAndObstacleInteraction, ____playerTransforms) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeadAndObstacleInteraction, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
@@ -191,6 +188,8 @@ static_assert(offsetof(::GlobalNamespace::PlayerHeadAndObstacleInteraction, ____
 static_assert(offsetof(::GlobalNamespace::PlayerHeadAndObstacleInteraction, ____intersectingObstacles) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeadAndObstacleInteraction, ____prevFrameNumberOfIntersectingObstaclesCount) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeadAndObstacleInteraction, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerHeadAndObstacleInteraction);

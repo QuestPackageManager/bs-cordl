@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/Init/zzzz__BSAppInit_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,6 +18,9 @@ class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
 class MainSystemInit;
+}
+namespace GlobalNamespace {
+struct PS5AppInit__PreloadAsync_d__10;
 }
 namespace GlobalNamespace {
 class PS5SharedPackageSKUsSO;
@@ -33,17 +37,8 @@ class SonyBackgroundExecutionHelper;
 namespace GlobalNamespace {
 class SonyOnGoingToBackgroundSaveHandler;
 }
-namespace GlobalNamespace {
-struct __PS5AppInit___PreloadAsync_d__10;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -59,26 +54,25 @@ namespace GlobalNamespace {
 class PS5AppInit;
 }
 namespace GlobalNamespace {
-struct __PS5AppInit___PreloadAsync_d__10;
+struct PS5AppInit__PreloadAsync_d__10;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS5AppInit);
-MARK_VAL_T(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10);
-// Type: ::<PreloadAsync>d__10
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PS5AppInit::<PreloadAsync>d__10
-struct CORDL_TYPE __PS5AppInit___PreloadAsync_d__10 {
+// CS Name: PS5AppInit/<PreloadAsync>d__10
+struct CORDL_TYPE PS5AppInit__PreloadAsync_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e6d14, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2719340, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e6f00, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x271952c, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -86,13 +80,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PS5AppInit___PreloadAsync_d__10();
+  constexpr PS5AppInit__PreloadAsync_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PS5AppInit>", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __PS5AppInit___PreloadAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PS5AppInit> __4__this,
-                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr PS5AppInit__PreloadAsync_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PS5AppInit> __4__this,
+                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17797 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -106,35 +106,28 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17882 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, __u__1) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PS5AppInit
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Init.BSAppInit
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PS5AppInit*
+// CS Name: PS5AppInit
 class CORDL_TYPE PS5AppInit : public ::BeatSaber::Init::BSAppInit {
 public:
   // Declarations
-  using _PreloadAsync_d__10 = ::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10;
+  using _PreloadAsync_d__10 = ::GlobalNamespace::PS5AppInit__PreloadAsync_d__10;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
@@ -175,33 +168,33 @@ public:
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
       _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26e6834, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2718e5c, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x26e6aa0, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x27190cc, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS5AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x26e6774, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x2718d9c, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x26e689c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2718ec4, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x26e693c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x2718f64, size 0xfc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
-  /// @brief Method TransitionToNextSceneInternal, addr 0x26e6a38, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextSceneInternal, addr 0x2719060, size 0x6c, virtual false, abstract: false, final false
   inline void TransitionToNextSceneInternal();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
 
-  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __cordl_internal_get__backgroundExecutionHelper();
+  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper* const& __cordl_internal_get__backgroundExecutionHelper() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __cordl_internal_get__backgroundExecutionHelper() const;
+  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __cordl_internal_get__backgroundExecutionHelper();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
 
@@ -215,9 +208,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
 
-  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*& __cordl_internal_get__playerDataModel();
+  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>* const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*> const& __cordl_internal_get__playerDataModel() const;
+  constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*& __cordl_internal_get__playerDataModel();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__ps5AdvancedHapticPlayerPrefab() const;
 
@@ -255,10 +248,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x26e6d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x2719338, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x26e6cb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27192e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -274,6 +267,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PS5AppInit", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PS5AppInit(PS5AppInit const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17798 };
 
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
@@ -305,14 +301,9 @@ public:
   /// @brief Field _launchingWithFPFCEnabled, offset: 0xb0, size: 0x1, def value: None
   bool ____launchingWithFPFCEnabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17883 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5AppInit, 0xb8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PS5AppInit, ____mainSystemInit) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PS5AppInit, ____settingsApplicator) == 0x70, "Offset mismatch!");
@@ -333,7 +324,9 @@ static_assert(offsetof(::GlobalNamespace::PS5AppInit, ____backgroundExecutionHel
 
 static_assert(offsetof(::GlobalNamespace::PS5AppInit, ____launchingWithFPFCEnabled) == 0xb0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS5AppInit, 0xb8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS5AppInit);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5AppInit*, "", "PS5AppInit");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PS5AppInit___PreloadAsync_d__10, "", "PS5AppInit/<PreloadAsync>d__10");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS5AppInit__PreloadAsync_d__10, "", "PS5AppInit/<PreloadAsync>d__10");

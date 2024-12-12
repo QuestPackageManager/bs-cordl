@@ -11,13 +11,12 @@ template <typename T1, typename T2, typename T3, typename T4, typename T5> struc
 }
 // Write type traits
 MARK_GEN_VAL_T(::Mono::ValueTuple_5);
-// Type: Mono::ValueTuple`5
-// SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5>
 // Is value type: true
-// CS Name: ::Mono::ValueTuple`5<T1,T2,T3,T4,T5>
+// CS Name: Mono.ValueTuple`5<T1,T2,T3,T4,T5>
 struct CORDL_TYPE ValueTuple_5 {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: None }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: None }, CppParam { name: "Item3", ty: "T3",
   // modifiers: "", def_value: None }, CppParam { name: "Item4", ty: "T4", modifiers: "", def_value: None }, CppParam { name: "Item5", ty: "T5", modifiers: "", def_value: None }]
   constexpr ValueTuple_5(T1 Item1, T2 Item2, T3 Item3, T4 Item4, T5 Item5) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2247 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field Item1, offset: 0x0, size: 0x8, def value: None
   T1 Item1;
@@ -43,12 +48,6 @@ public:
 
   /// @brief Field Item5, offset: 0x20, size: 0x8, def value: None
   T5 Item5;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2247 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

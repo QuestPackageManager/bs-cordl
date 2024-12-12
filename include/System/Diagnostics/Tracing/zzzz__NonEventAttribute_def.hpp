@@ -11,17 +11,16 @@ class NonEventAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Tracing::NonEventAttribute);
-// Type: System.Diagnostics.Tracing::NonEventAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// CS Name: ::System.Diagnostics.Tracing::NonEventAttribute*
+// CS Name: System.Diagnostics.Tracing.NonEventAttribute
 class CORDL_TYPE NonEventAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::Tracing::NonEventAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d572ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db7460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

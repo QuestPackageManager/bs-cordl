@@ -19,10 +19,10 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c;
+class MergeElements___c;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c__DisplayClass0_0;
+class MergeElements___c__DisplayClass0_0;
 }
 namespace UnityEngine::ProBuilder {
 class Face;
@@ -38,141 +38,137 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class MergeElements;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c;
+class MergeElements___c;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __MergeElements____c__DisplayClass0_0;
+class MergeElements___c__DisplayClass0_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MergeElements);
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c);
-MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c);
+MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0);
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::MergeElements::<>c*
-class CORDL_TYPE __MergeElements____c : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c
+class CORDL_TYPE MergeElements___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int32_t>*>* __9__1_0;
+  __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int32_t>*>* __9__1_0;
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* New_ctor();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* New_ctor();
 
-  /// @brief Method <Merge>b__1_0, addr 0x471a3a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Merge>b__1_0, addr 0x477b6b8, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _Merge_b__1_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x471a39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477b6b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* getStaticF___9();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int32_t>*>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c* value);
+  static inline void setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c* value);
 
   static inline void setStaticF___9__1_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MergeElements____c();
+  constexpr MergeElements___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MergeElements____c(__MergeElements____c&&) = delete;
+  MergeElements___c(MergeElements___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MergeElements____c(__MergeElements____c const&) = delete;
+  MergeElements___c(MergeElements___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14380 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MergeElements___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::MergeElements::<>c__DisplayClass0_0*
-class CORDL_TYPE __MergeElements____c__DisplayClass0_0 : public ::System::Object {
+// CS Name: UnityEngine.ProBuilder.MeshOperations.MergeElements/<>c__DisplayClass0_0
+class CORDL_TYPE MergeElements___c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field remove, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_remove, put = __cordl_internal_set_remove)) ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* remove;
 
-  static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0* New_ctor();
+  static inline ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <MergePairs>b__0, addr 0x471a3bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <MergePairs>b__0, addr 0x477b6d0, size 0x64, virtual false, abstract: false, final false
   inline bool _MergePairs_b__0(::UnityEngine::ProBuilder::Face* x);
+
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* const& __cordl_internal_get_remove() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& __cordl_internal_get_remove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*> const& __cordl_internal_get_remove() const;
-
   constexpr void __cordl_internal_set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
 
-  /// @brief Method .ctor, addr 0x47197c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477aad8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MergeElements____c__DisplayClass0_0();
+  constexpr MergeElements___c__DisplayClass0_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MergeElements____c__DisplayClass0_0(__MergeElements____c__DisplayClass0_0&&) = delete;
+  MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MergeElements____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MergeElements___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MergeElements____c__DisplayClass0_0(__MergeElements____c__DisplayClass0_0 const&) = delete;
+  MergeElements___c__DisplayClass0_0(MergeElements___c__DisplayClass0_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14381 };
 
   /// @brief Field remove, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* ___remove;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14347 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0, ___remove) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0, ___remove) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
-// Type: UnityEngine.ProBuilder.MeshOperations::MergeElements
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.MeshOperations::MergeElements*
+// CS Name: UnityEngine.ProBuilder.MeshOperations.MergeElements
 class CORDL_TYPE MergeElements : public ::System::Object {
 public:
   // Declarations
-  using __c = ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c;
+  using __c = ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c;
 
-  using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0;
+  using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0;
 
-  /// @brief Method CollapseCoincidentVertices, addr 0x47197cc, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CollapseCoincidentVertices, addr 0x477aae0, size 0x4dc, virtual false, abstract: false, final false
   static inline void CollapseCoincidentVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Merge, addr 0x4719ca8, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method Merge, addr 0x477afbc, size 0x374, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* Merge(::UnityEngine::ProBuilder::ProBuilderMesh* target, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method MergePairs, addr 0x4719134, size 0x690, virtual false, abstract: false, final false
+  /// @brief Method MergePairs, addr 0x477a448, size 0x690, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
   MergePairs(::UnityEngine::ProBuilder::ProBuilderMesh* target,
              ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Face*>>* pairs,
@@ -193,7 +189,7 @@ public:
   MergeElements(MergeElements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14382 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,7 +199,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MergeElements);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MergeElements*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements");
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c");
-NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c");
+NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::MergeElements___c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");

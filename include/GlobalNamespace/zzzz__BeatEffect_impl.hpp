@@ -14,36 +14,36 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatEffect__Pool._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatEffect_Pool._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatEffect__Pool::*)()>(&::GlobalNamespace::__BeatEffect__Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffect_Pool::*)()>(&::GlobalNamespace::BeatEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b1afe8;
+  constexpr static std::size_t addrs = 0x3b7c1e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatEffect__Pool*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffect_Pool*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__BeatEffect__Pool* GlobalNamespace::__BeatEffect__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatEffect__Pool*>());
-}
-inline void GlobalNamespace::__BeatEffect__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatEffect__Pool*>::get(), ".ctor",
+inline void GlobalNamespace::BeatEffect_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffect_Pool*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::BeatEffect_Pool* GlobalNamespace::BeatEffect_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatEffect_Pool*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatEffect__Pool::__BeatEffect__Pool() {}
+constexpr ::GlobalNamespace::BeatEffect_Pool::BeatEffect_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatEffect.get_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* (::GlobalNamespace::BeatEffect::*)()>(&::GlobalNamespace::BeatEffect::get_didFinishEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1abb4;
+  constexpr static std::size_t addrs = 0x3b7bdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffect*>::get(), "get_didFinishEvent",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffect::*)(::UnityEngine::Color, float_t, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::BeatEffect::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b1abbc;
+  constexpr static std::size_t addrs = 0x3b7bdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffect::*)(float_t)>(&::GlobalNamespace::BeatEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x3b1ac80;
+  constexpr static std::size_t addrs = 0x3b7be80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatEffect::*)()>(&::GlobalNamespace::BeatEffect::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b1af6c;
+  constexpr static std::size_t addrs = 0x3b7c16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffect*>::get(), ".ctor",
@@ -134,7 +134,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatEffect::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatEffect::__cordl_internal_get__lightIntensityCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatEffect::__cordl_internal_get__lightIntensityCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityCurve;
 }
@@ -146,7 +146,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatEffect::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteXScaleCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatEffect::__cordl_internal_get__spriteXScaleCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatEffect::__cordl_internal_get__spriteXScaleCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteXScaleCurve;
 }
@@ -158,7 +158,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatEffect::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteYScaleCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatEffect::__cordl_internal_get__spriteYScaleCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatEffect::__cordl_internal_get__spriteYScaleCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteYScaleCurve;
 }
@@ -170,7 +170,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatEffect::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transparencyCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatEffect::__cordl_internal_get__transparencyCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatEffect::__cordl_internal_get__transparencyCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transparencyCurve;
 }
@@ -182,8 +182,7 @@ constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDid
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*> const&
-GlobalNamespace::BeatEffect::__cordl_internal_get__didFinishEvent() const {
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* const& GlobalNamespace::BeatEffect::__cordl_internal_get__didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
@@ -245,13 +244,13 @@ inline void GlobalNamespace::BeatEffect::ManualUpdate(float_t deltaTime) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deltaTime);
 }
-inline ::GlobalNamespace::BeatEffect* GlobalNamespace::BeatEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatEffect*>());
-}
 inline void GlobalNamespace::BeatEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatEffect* GlobalNamespace::BeatEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatEffect::BeatEffect() {}

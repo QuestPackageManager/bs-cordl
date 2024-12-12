@@ -17,32 +17,31 @@ class EntitlementCheck;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck);
-// Type: Oculus.Platform.Samples.EntitlementCheck::EntitlementCheck
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Oculus::Platform::Samples::EntitlementCheck {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Samples.EntitlementCheck::EntitlementCheck*
+// CS Name: Oculus.Platform.Samples.EntitlementCheck.EntitlementCheck
 class CORDL_TYPE EntitlementCheck : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field UserFailedEntitlementCheck, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UserFailedEntitlementCheck, put = setStaticF_UserFailedEntitlementCheck)) ::System::Action* UserFailedEntitlementCheck;
+  __declspec(property(get = getStaticF_UserFailedEntitlementCheck, put = setStaticF_UserFailedEntitlementCheck)) ::System::Action* UserFailedEntitlementCheck;
 
   /// @brief Field UserPassedEntitlementCheck, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UserPassedEntitlementCheck, put = setStaticF_UserPassedEntitlementCheck)) ::System::Action* UserPassedEntitlementCheck;
+  __declspec(property(get = getStaticF_UserPassedEntitlementCheck, put = setStaticF_UserPassedEntitlementCheck)) ::System::Action* UserPassedEntitlementCheck;
 
   /// @brief Field exitAppOnFailure, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_exitAppOnFailure, put = __cordl_internal_set_exitAppOnFailure)) bool exitAppOnFailure;
 
-  /// @brief Method EntitlementCheckCallback, addr 0x3f35d28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EntitlementCheckCallback, addr 0x3f95dd4, size 0x30, virtual false, abstract: false, final false
   inline void EntitlementCheckCallback(::Oculus::Platform::Message* msg);
 
-  /// @brief Method HandleEntitlementCheckResult, addr 0x3f35a88, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method HandleEntitlementCheckResult, addr 0x3f95b34, size 0x2a0, virtual false, abstract: false, final false
   inline void HandleEntitlementCheckResult(bool result);
 
   static inline ::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck* New_ctor();
 
-  /// @brief Method Start, addr 0x3f358e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3f9598c, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get_exitAppOnFailure() const;
@@ -51,23 +50,23 @@ public:
 
   constexpr void __cordl_internal_set_exitAppOnFailure(bool value);
 
-  /// @brief Method .ctor, addr 0x3f35d58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f95e04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_UserFailedEntitlementCheck, addr 0x3f355f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_UserFailedEntitlementCheck, addr 0x3f956a4, size 0xb8, virtual false, abstract: false, final false
   static inline void add_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method add_UserPassedEntitlementCheck, addr 0x3f35768, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_UserPassedEntitlementCheck, addr 0x3f95814, size 0xbc, virtual false, abstract: false, final false
   static inline void add_UserPassedEntitlementCheck(::System::Action* value);
 
   static inline ::System::Action* getStaticF_UserFailedEntitlementCheck();
 
   static inline ::System::Action* getStaticF_UserPassedEntitlementCheck();
 
-  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x3f356b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method remove_UserFailedEntitlementCheck, addr 0x3f9575c, size 0xb8, virtual false, abstract: false, final false
   static inline void remove_UserFailedEntitlementCheck(::System::Action* value);
 
-  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x3f35824, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_UserPassedEntitlementCheck, addr 0x3f958d0, size 0xbc, virtual false, abstract: false, final false
   static inline void remove_UserPassedEntitlementCheck(::System::Action* value);
 
   static inline void setStaticF_UserFailedEntitlementCheck(::System::Action* value);
@@ -88,18 +87,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EntitlementCheck(EntitlementCheck const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15575 };
+
   /// @brief Field exitAppOnFailure, offset: 0x20, size: 0x1, def value: None
   bool ___exitAppOnFailure;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15540 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck, ___exitAppOnFailure) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck, 0x28>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Samples::EntitlementCheck
 NEED_NO_BOX(::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck);

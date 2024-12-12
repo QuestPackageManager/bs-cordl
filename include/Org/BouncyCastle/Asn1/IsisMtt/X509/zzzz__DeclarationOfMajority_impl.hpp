@@ -1,32 +1,30 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/DeclarationOfMajority.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__DeclarationOfMajority_def.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__DeclarationOfMajority_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerGeneralizedTime_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice::__DeclarationOfMajority__Choice(int32_t value__) noexcept {
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice::DeclarationOfMajority_Choice(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice::__DeclarationOfMajority__Choice() {}
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice::NotYoungerThan{ static_cast<int32_t>(
-    0x0) };
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice::FullAgeAtCountry{ static_cast<int32_t>(
-    0x1) };
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice::DateOfBirth{ static_cast<int32_t>(0x2) };
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice::DeclarationOfMajority_Choice() {}
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice::NotYoungerThan{ static_cast<int32_t>(0x0) };
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice::FullAgeAtCountry{ static_cast<int32_t>(0x1) };
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice::DateOfBirth{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x23c8790;
+  constexpr static std::size_t addrs = 0x23fba7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)(bool, ::StringW)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x23c8838;
+  constexpr static std::size_t addrs = 0x23fbb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)(
     ::Org::BouncyCastle::Asn1::DerGeneralizedTime*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23c8a50;
+  constexpr static std::size_t addrs = 0x23fbd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23c8acc;
+  constexpr static std::size_t addrs = 0x23fbdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)(
     ::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x23c8c48;
+  constexpr static std::size_t addrs = 0x23fbf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c8d00;
+  constexpr static std::size_t addrs = 0x23fbfec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,10 +112,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority.get_Type
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice (
     ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_Type)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23c8d08;
+  constexpr static std::size_t addrs = 0x23fbff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_NotYoungerThan)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23c8d24;
+  constexpr static std::size_t addrs = 0x23fc010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_FullAgeAtCountry)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23c8d64;
+  constexpr static std::size_t addrs = 0x23fc050;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (
     ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_DateOfBirth)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23c8d9c;
+  constexpr static std::size_t addrs = 0x23fc088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,20 +172,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObject*& Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__cordl_internal_get_declaration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___declaration;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1TaggedObject*> const&
-Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__cordl_internal_get_declaration() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObject* const& Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__cordl_internal_get_declaration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___declaration;
 }
@@ -195,27 +184,17 @@ constexpr void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___declaration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(int32_t notYoungerThan) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(notYoungerThan));
-}
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(int32_t notYoungerThan) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, notYoungerThan);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(bool fullAge, ::StringW country) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(fullAge, country));
-}
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(bool fullAge, ::StringW country) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fullAge, country);
-}
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*
-Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(dateOfBirth));
 }
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,9 +208,6 @@ inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::Bou
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(o));
-}
 inline void Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -244,11 +220,11 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IsisMtt::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_Type() {
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_Type() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), "get_Type",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::__DeclarationOfMajority__Choice, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority_Choice, false>(this, ___internal_method);
 }
 inline int32_t Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::get_NotYoungerThan() {
   auto* ___internal_method =
@@ -267,6 +243,27 @@ inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* Org::BouncyCastle::Asn1::I
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerGeneralizedTime*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(int32_t notYoungerThan) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(notYoungerThan));
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(bool fullAge, ::StringW country) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(fullAge, country));
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*
+Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(::Org::BouncyCastle::Asn1::DerGeneralizedTime* dateOfBirth) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(dateOfBirth));
+}
+inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority*>(o));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::DeclarationOfMajority::DeclarationOfMajority() {}

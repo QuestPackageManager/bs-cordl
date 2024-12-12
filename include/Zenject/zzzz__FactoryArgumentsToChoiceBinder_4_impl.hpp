@@ -10,12 +10,6 @@
 #include "Zenject/zzzz__FactoryToChoiceBinder_4_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
-inline ::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*
-Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
-                                                                                          ::Zenject::FactoryBindInfo* factoryBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*>(bindContainer, bindInfo, factoryBindInfo));
-}
-template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 inline void Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                                    ::Zenject::FactoryBindInfo* factoryBindInfo) {
   static auto* ___internal_method =
@@ -144,6 +138,12 @@ Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>:
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*, false>(this, ___internal_method, extraArgs);
+}
+template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
+inline ::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*
+Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
+                                                                                          ::Zenject::FactoryBindInfo* factoryBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::FactoryArgumentsToChoiceBinder_4<TParam1, TParam2, TParam3, TContract>*>(bindContainer, bindInfo, factoryBindInfo));
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>

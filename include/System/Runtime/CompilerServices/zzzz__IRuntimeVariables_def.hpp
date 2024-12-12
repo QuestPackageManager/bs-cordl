@@ -10,24 +10,19 @@ class IRuntimeVariables;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::IRuntimeVariables);
-// Type: System.Runtime.CompilerServices::IRuntimeVariables
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::IRuntimeVariables*
+// CS Name: System.Runtime.CompilerServices.IRuntimeVariables
 class CORDL_TYPE IRuntimeVariables {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IRuntimeVariables", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IRuntimeVariables(IRuntimeVariables&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IRuntimeVariables", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IRuntimeVariables(IRuntimeVariables const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

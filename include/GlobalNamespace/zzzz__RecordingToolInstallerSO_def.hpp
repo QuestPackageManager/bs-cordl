@@ -11,20 +11,19 @@ class RecordingToolInstallerSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolInstallerSO);
-// Type: ::RecordingToolInstallerSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RecordingToolInstallerSO*
+// CS Name: RecordingToolInstallerSO
 class CORDL_TYPE RecordingToolInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3aca0b4, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b29d90, size 0x1a4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolInstallerSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aca258, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b29f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   RecordingToolInstallerSO(RecordingToolInstallerSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

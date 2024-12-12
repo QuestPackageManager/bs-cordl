@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::LocatedActiveAxis::*)()>(&::System::Xml::Schema::LocatedActiveAxis::get_Column)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43363e4;
+  constexpr static std::size_t addrs = 0x43976f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LocatedActiveAxis*>::get(), "get_Column",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::LocatedActiveAxis::*)(::System::Xml::Schema::Asttree*, ::System::Xml::Schema::KeySequence*, int32_t)>(&::System::Xml::Schema::LocatedActiveAxis::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43363ec;
+  constexpr static std::size_t addrs = 0x4397700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LocatedActiveAxis::*)(::System::Xml::Schema::KeySequence*)>(
     &::System::Xml::Schema::LocatedActiveAxis::Reactivate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x433641c;
+  constexpr static std::size_t addrs = 0x4397730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ constexpr ::System::Xml::Schema::KeySequence*& System::Xml::Schema::LocatedActiv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Ks;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::KeySequence*> const& System::Xml::Schema::LocatedActiveAxis::__cordl_internal_get_Ks() const {
+constexpr ::System::Xml::Schema::KeySequence* const& System::Xml::Schema::LocatedActiveAxis::__cordl_internal_get_Ks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Ks;
 }
@@ -89,9 +89,6 @@ inline int32_t System::Xml::Schema::LocatedActiveAxis::get_Column() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LocatedActiveAxis*>::get(), "get_Column",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::System::Xml::Schema::LocatedActiveAxis* System::Xml::Schema::LocatedActiveAxis::New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LocatedActiveAxis*>(astfield, ks, column));
 }
 inline void System::Xml::Schema::LocatedActiveAxis::_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -106,6 +103,9 @@ inline void System::Xml::Schema::LocatedActiveAxis::Reactivate(::System::Xml::Sc
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LocatedActiveAxis*>::get(), "Reactivate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::KeySequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ks);
+}
+inline ::System::Xml::Schema::LocatedActiveAxis* System::Xml::Schema::LocatedActiveAxis::New_ctor(::System::Xml::Schema::Asttree* astfield, ::System::Xml::Schema::KeySequence* ks, int32_t column) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LocatedActiveAxis*>(astfield, ks, column));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::LocatedActiveAxis::LocatedActiveAxis() {}

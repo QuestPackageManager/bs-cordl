@@ -11,26 +11,25 @@ class XRController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRController);
-// Type: UnityEngine.InputSystem.XR::XRController
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::XRController*
+// CS Name: UnityEngine.InputSystem.XR.XRController
 class CORDL_TYPE XRController : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Method FinishSetup, addr 0x4581dd4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x45e30e8, size 0xf8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4581f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e3228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leftHand, addr 0x4581c94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_leftHand, addr 0x45e2fa8, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_leftHand();
 
-  /// @brief Method get_rightHand, addr 0x4581d34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_rightHand, addr 0x45e3048, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRController* get_rightHand();
 
 protected:
@@ -48,7 +47,7 @@ public:
   XRController(XRController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

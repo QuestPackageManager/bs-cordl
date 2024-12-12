@@ -14,18 +14,17 @@ class BSRuntimePlatform;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::Init::BSRuntimePlatform);
-// Type: BeatSaber.Init::BSRuntimePlatform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Init {
 // Is value type: false
-// CS Name: ::BeatSaber.Init::BSRuntimePlatform*
+// CS Name: BeatSaber.Init.BSRuntimePlatform
 class CORDL_TYPE BSRuntimePlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformType, addr 0x223f314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformType, addr 0x226fe30, size 0x8, virtual false, abstract: false, final false
   static inline ::BeatSaber::Init::RuntimePlatformType GetPlatformType();
 
-  /// @brief Method get_IsSteam, addr 0x223f31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSteam, addr 0x226fe38, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSteam();
 
 protected:
@@ -43,7 +42,7 @@ public:
   BSRuntimePlatform(BSRuntimePlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18374 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

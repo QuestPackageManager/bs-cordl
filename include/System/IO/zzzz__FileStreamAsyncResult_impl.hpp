@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/IO/FileStreamAsyncResult.hpp"
+#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__FileStreamAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileStreamAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::IO::FileStreamAsyncResult::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d1c9b4;
+  constexpr static std::size_t addrs = 0x3d7cb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::IO::FileStreamAsyncResult::CBWrapper)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3d1ca80;
+  constexpr static std::size_t addrs = 0x3d7cbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1cb14;
+  constexpr static std::size_t addrs = 0x3d7cc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(), "get_AsyncState",
@@ -55,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1cb1c;
+  constexpr static std::size_t addrs = 0x3d7cc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(),
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::IO::FileStreamAsyncResult::*)()>(
     &::System::IO::FileStreamAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1cb24;
+  constexpr static std::size_t addrs = 0x3d7cc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(),
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1cb2c;
+  constexpr static std::size_t addrs = 0x3d7cca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(), "get_IsCompleted",
@@ -90,19 +91,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IAsyncResult"
-constexpr System::IO::FileStreamAsyncResult::operator ::System::IAsyncResult*() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IAsyncResult"
-constexpr ::System::IAsyncResult* System::IO::FileStreamAsyncResult::i___System__IAsyncResult() noexcept {
-  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
-}
 constexpr ::System::Object*& System::IO::FileStreamAsyncResult::__cordl_internal_get_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IO::FileStreamAsyncResult::__cordl_internal_get_state() const {
+constexpr ::System::Object* const& System::IO::FileStreamAsyncResult::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
@@ -126,7 +119,7 @@ constexpr ::System::Threading::ManualResetEvent*& System::IO::FileStreamAsyncRes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wh;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::IO::FileStreamAsyncResult::__cordl_internal_get_wh() const {
+constexpr ::System::Threading::ManualResetEvent* const& System::IO::FileStreamAsyncResult::__cordl_internal_get_wh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wh;
 }
@@ -138,7 +131,7 @@ constexpr ::System::AsyncCallback*& System::IO::FileStreamAsyncResult::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IO::FileStreamAsyncResult::__cordl_internal_get_cb() const {
+constexpr ::System::AsyncCallback* const& System::IO::FileStreamAsyncResult::__cordl_internal_get_cb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb;
 }
@@ -198,16 +191,13 @@ constexpr ::System::AsyncCallback*& System::IO::FileStreamAsyncResult::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___realcb;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& System::IO::FileStreamAsyncResult::__cordl_internal_get_realcb() const {
+constexpr ::System::AsyncCallback* const& System::IO::FileStreamAsyncResult::__cordl_internal_get_realcb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___realcb;
 }
 constexpr void System::IO::FileStreamAsyncResult::__cordl_internal_set_realcb(::System::AsyncCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___realcb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::IO::FileStreamAsyncResult* System::IO::FileStreamAsyncResult::New_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::FileStreamAsyncResult*>(cb, state));
 }
 inline void System::IO::FileStreamAsyncResult::_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
   static auto* ___internal_method =
@@ -241,6 +231,17 @@ inline bool System::IO::FileStreamAsyncResult::get_IsCompleted() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(), "get_IsCompleted",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::IO::FileStreamAsyncResult* System::IO::FileStreamAsyncResult::New_ctor(::System::AsyncCallback* cb, ::System::Object* state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::FileStreamAsyncResult*>(cb, state));
+}
+/// @brief Convert operator to "::System::IAsyncResult"
+constexpr System::IO::FileStreamAsyncResult::operator ::System::IAsyncResult*() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IAsyncResult"
+constexpr ::System::IAsyncResult* System::IO::FileStreamAsyncResult::i___System__IAsyncResult() noexcept {
+  return static_cast<::System::IAsyncResult*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::IO::FileStreamAsyncResult::FileStreamAsyncResult() {}

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c3e004;
+  constexpr static std::size_t addrs = 0x3c9e178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::DESCryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::CreateEncryptor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c3e290;
+  constexpr static std::size_t addrs = 0x3c9e404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::DESCryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::CreateDecryptor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c3e3c0;
+  constexpr static std::size_t addrs = 0x3c9e534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::GenerateKey)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3c3e4f0;
+  constexpr static std::size_t addrs = 0x3c9e664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::DESCryptoServiceProvider::GenerateIV)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c3e5d0;
+  constexpr static std::size_t addrs = 0x3c9e744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,9 +84,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Security::Cryptography::DESCryptoServiceProvider* System::Security::Cryptography::DESCryptoServiceProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::DESCryptoServiceProvider*>());
-}
 inline void System::Security::Cryptography::DESCryptoServiceProvider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DESCryptoServiceProvider*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -117,6 +114,9 @@ inline void System::Security::Cryptography::DESCryptoServiceProvider::GenerateIV
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DESCryptoServiceProvider*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::DESCryptoServiceProvider* System::Security::Cryptography::DESCryptoServiceProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::DESCryptoServiceProvider*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::DESCryptoServiceProvider::DESCryptoServiceProvider() {}

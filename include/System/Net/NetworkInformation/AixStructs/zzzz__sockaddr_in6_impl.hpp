@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_in6.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__in6_addr_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_in6_def.hpp"
-#include "System/Net/NetworkInformation/AixStructs/zzzz__in6_addr_def.hpp"
 // Ctor Parameters [CppParam { name: "sin6_len", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin6_family", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "sin6_port", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin6_flowinfo", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin6_addr",
 // ty: "::System::Net::NetworkInformation::AixStructs::in6_addr", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin6_scope_id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]

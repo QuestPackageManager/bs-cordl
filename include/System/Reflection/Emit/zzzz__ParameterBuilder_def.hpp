@@ -11,11 +11,10 @@ class ParameterBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Emit::ParameterBuilder);
-// Type: System.Reflection.Emit::ParameterBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Reflection::Emit {
 // Is value type: false
-// CS Name: ::System.Reflection.Emit::ParameterBuilder*
+// CS Name: System.Reflection.Emit.ParameterBuilder
 class CORDL_TYPE ParameterBuilder : public ::System::Object {
 public:
   // Declarations

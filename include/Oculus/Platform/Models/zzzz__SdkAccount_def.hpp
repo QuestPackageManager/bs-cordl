@@ -16,11 +16,10 @@ class SdkAccount;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccount);
-// Type: Oculus.Platform.Models::SdkAccount
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.SdkAccountType, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::SdkAccount*
+// CS Name: Oculus.Platform.Models.SdkAccount
 class CORDL_TYPE SdkAccount : public ::System::Object {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_UserId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f32208, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f922b4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SdkAccount(SdkAccount const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15560 };
+
   /// @brief Field AccountType, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::SdkAccountType ___AccountType;
 
   /// @brief Field UserId, offset: 0x18, size: 0x8, def value: None
   uint64_t ___UserId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15525 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SdkAccount, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::SdkAccount, ___AccountType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::SdkAccount, ___UserId) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::SdkAccount, 0x20>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::SdkAccount);

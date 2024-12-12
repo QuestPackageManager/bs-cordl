@@ -15,11 +15,10 @@ class MeshRenderer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::MeshRenderer);
-// Type: UnityEngine::MeshRenderer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Renderer
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::MeshRenderer*
+// CS Name: UnityEngine.MeshRenderer
 class CORDL_TYPE MeshRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
@@ -29,27 +28,27 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x4823484, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x48848cc, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48235c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4884a0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x4823488, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x48848d0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_enlightenVertexStream, addr 0x4823508, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream, addr 0x4884950, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_subMeshStartIndex, addr 0x4823588, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex, addr 0x48849d0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method set_additionalVertexStreams, addr 0x48234c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams, addr 0x488490c, size 0x44, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x4823544, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enlightenVertexStream, addr 0x488498c, size 0x44, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
 
 protected:
@@ -67,7 +66,7 @@ public:
   MeshRenderer(MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10775 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

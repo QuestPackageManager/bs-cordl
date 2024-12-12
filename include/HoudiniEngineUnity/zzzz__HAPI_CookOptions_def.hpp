@@ -8,20 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_CookOptions)
-namespace HoudiniEngineUnity {
-struct HAPI_PackedPrimInstancingMode;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_CookOptions;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_CookOptions);
-// Type: HoudiniEngineUnity::HAPI_CookOptions
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_PackedPrimInstancingMode
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_CookOptions
+// CS Name: HoudiniEngineUnity.HAPI_CookOptions
 struct CORDL_TYPE HAPI_CookOptions {
 public:
   // Declarations
@@ -40,6 +36,12 @@ public:
   constexpr HAPI_CookOptions(bool splitGeosByGroup, bool splitGeosByAttribute, int32_t splitAttrSH, int32_t maxVerticesPerPrimitive, bool refineCurveToLinear, float_t curveRefineLOD,
                              bool clearErrorsAndWarnings, bool cookTemplatedGeos, bool splitPointsByVertexAttributes, ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode,
                              bool handleBoxPartTypes, bool handleSpherePartTypes, bool checkPartChanges, bool cacheMeshTopology, int32_t extraFlags) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11714 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field splitGeosByGroup, offset: 0x0, size: 0x1, def value: None
   bool splitGeosByGroup;
@@ -86,17 +88,9 @@ public:
   /// @brief Field extraFlags, offset: 0x20, size: 0x4, def value: None
   int32_t extraFlags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11681 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CookOptions, 0x24>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitGeosByGroup) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, splitGeosByAttribute) == 0x1, "Offset mismatch!");
@@ -126,6 +120,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, checkPartChanges)
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, cacheMeshTopology) == 0x1f, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_CookOptions, extraFlags) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_CookOptions, 0x24>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CookOptions, "HoudiniEngineUnity", "HAPI_CookOptions");

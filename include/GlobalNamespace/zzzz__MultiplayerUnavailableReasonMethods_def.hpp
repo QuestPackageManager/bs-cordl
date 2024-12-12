@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerUnavailableReasonMethods)
 namespace BGLib::Polyglot {
@@ -25,30 +24,29 @@ class MultiplayerUnavailableReasonMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
-// Type: ::MultiplayerUnavailableReasonMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerUnavailableReasonMethods*
+// CS Name: MultiplayerUnavailableReasonMethods
 class CORDL_TYPE MultiplayerUnavailableReasonMethods : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kContentVersionRegex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex)) ::System::Text::RegularExpressions::Regex* kContentVersionRegex;
+  __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex)) ::System::Text::RegularExpressions::Regex* kContentVersionRegex;
 
-  /// @brief Method ErrorCode, addr 0x26ac188, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x26e0ebc, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method GetLocalizedMessage, addr 0x26ac530, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedMessage, addr 0x26e1264, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::Language language);
 
-  /// @brief Method LocalizedKey, addr 0x26ac104, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26e0e38, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x26ac208, size 0x160, virtual false, abstract: false, final false
-  static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
+  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x26e0f3c, size 0x160, virtual false, abstract: false, final false
+  static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ::ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
 
-  /// @brief Method VersionLessThan, addr 0x26ac368, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method VersionLessThan, addr 0x26e109c, size 0x1c8, virtual false, abstract: false, final false
   static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_kContentVersionRegex();
@@ -70,7 +68,7 @@ public:
   MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13111 };
 
   /// @brief Field kMultiplayerUnavailableMaintenanceMode offset 0xffffffff size 0x8
   static constexpr ::ConstString kMultiplayerUnavailableMaintenanceMode{ u"MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE" };

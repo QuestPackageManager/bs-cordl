@@ -7,77 +7,75 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerCaptureOutEvent)
 namespace UnityEngine::UIElements {
-class __PointerCaptureOutEvent____c;
+class PointerCaptureOutEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class PointerCaptureOutEvent;
 }
 namespace UnityEngine::UIElements {
-class __PointerCaptureOutEvent____c;
+class PointerCaptureOutEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureOutEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__PointerCaptureOutEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureOutEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::PointerCaptureOutEvent::<>c*
-class CORDL_TYPE __PointerCaptureOutEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.PointerCaptureOutEvent/<>c
+class CORDL_TYPE PointerCaptureOutEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__PointerCaptureOutEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerCaptureOutEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__PointerCaptureOutEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49bcfb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a218c0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49bcfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a218b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__PointerCaptureOutEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::PointerCaptureOutEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__PointerCaptureOutEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::PointerCaptureOutEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerCaptureOutEvent____c();
+  constexpr PointerCaptureOutEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerCaptureOutEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureOutEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PointerCaptureOutEvent____c(__PointerCaptureOutEvent____c&&) = delete;
+  PointerCaptureOutEvent___c(PointerCaptureOutEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PointerCaptureOutEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureOutEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PointerCaptureOutEvent____c(__PointerCaptureOutEvent____c const&) = delete;
+  PointerCaptureOutEvent___c(PointerCaptureOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__PointerCaptureOutEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCaptureOutEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::PointerCaptureOutEvent
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.PointerCaptureEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerCaptureOutEvent*
+// CS Name: UnityEngine.UIElements.PointerCaptureOutEvent
 class CORDL_TYPE PointerCaptureOutEvent : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureOutEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__PointerCaptureOutEvent____c;
+  using __c = ::UnityEngine::UIElements::PointerCaptureOutEvent___c;
 
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49bcf04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a21814, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +93,7 @@ public:
   PointerCaptureOutEvent(PointerCaptureOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5781 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,5 +103,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Pointer
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureOutEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureOutEvent*, "UnityEngine.UIElements", "PointerCaptureOutEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__PointerCaptureOutEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__PointerCaptureOutEvent____c*, "UnityEngine.UIElements", "PointerCaptureOutEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::PointerCaptureOutEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCaptureOutEvent___c*, "UnityEngine.UIElements", "PointerCaptureOutEvent/<>c");

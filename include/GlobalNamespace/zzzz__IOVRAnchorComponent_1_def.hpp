@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 struct OVRAnchor;
 }
 namespace GlobalNamespace {
-template <typename TResult> struct OVRTask_1;
+struct OVRPlugin_SpaceComponentType;
 }
 namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
+template <typename TResult> struct OVRTask_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,13 +21,12 @@ template <typename T> class IOVRAnchorComponent_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::IOVRAnchorComponent_1);
-// Type: ::IOVRAnchorComponent`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::IOVRAnchorComponent`1<T>*
+// CS Name: IOVRAnchorComponent`1<T>
 class CORDL_TYPE IOVRAnchorComponent_1 {
 public:
   // Declarations
@@ -37,36 +36,32 @@ public:
 
   __declspec(property(get = get_IsNull)) bool IsNull;
 
-  __declspec(property(get = get_Type)) ::GlobalNamespace::__OVRPlugin__SpaceComponentType Type;
+  __declspec(property(get = get_Type)) ::GlobalNamespace::OVRPlugin_SpaceComponentType Type;
 
-  /// @brief Method FromAnchor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method FromAnchor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T FromAnchor(::GlobalNamespace::OVRAnchor anchor);
 
-  /// @brief Method SetEnabledAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetEnabledAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SetEnabledAsync(bool enable, double_t timeout);
 
-  /// @brief Method get_Handle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Handle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline uint64_t get_Handle();
 
-  /// @brief Method get_IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
-  /// @brief Method get_IsNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsNull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_Type();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IOVRAnchorComponent_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IOVRAnchorComponent_1(IOVRAnchorComponent_1&&) = delete;
+  /// @brief Method get_Type, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::OVRPlugin_SpaceComponentType get_Type();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOVRAnchorComponent_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IOVRAnchorComponent_1(IOVRAnchorComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7797 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

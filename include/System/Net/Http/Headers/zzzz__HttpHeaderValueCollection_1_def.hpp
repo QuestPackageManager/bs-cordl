@@ -3,25 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpHeaderValueCollection_1)
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -41,13 +34,12 @@ template <typename T> class HttpHeaderValueCollection_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Net::Http::Headers::HttpHeaderValueCollection_1);
-// Type: System.Net.Http.Headers::HttpHeaderValueCollection`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::HttpHeaderValueCollection`1<T>*
+// CS Name: System.Net.Http.Headers.HttpHeaderValueCollection`1<T>
 class CORDL_TYPE HttpHeaderValueCollection_1 : public ::System::Object {
 public:
   // Declarations
@@ -113,21 +105,21 @@ public:
   /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
+  constexpr ::System::Net::Http::Headers::HeaderInfo* const& __cordl_internal_get_headerInfo() const;
+
   constexpr ::System::Net::Http::Headers::HeaderInfo*& __cordl_internal_get_headerInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HeaderInfo*> const& __cordl_internal_get_headerInfo() const;
+  constexpr ::System::Net::Http::Headers::HttpHeaders* const& __cordl_internal_get_headers() const;
 
   constexpr ::System::Net::Http::Headers::HttpHeaders*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& __cordl_internal_get_headers() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_invalidValues() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_invalidValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_invalidValues() const;
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_list() const;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_list();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_list() const;
 
   constexpr void __cordl_internal_set_headerInfo(::System::Net::Http::Headers::HeaderInfo* value);
 
@@ -172,6 +164,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpHeaderValueCollection_1(HttpHeaderValueCollection_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16709 };
+
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___list;
 
@@ -183,9 +178,6 @@ public:
 
   /// @brief Field invalidValues, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___invalidValues;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

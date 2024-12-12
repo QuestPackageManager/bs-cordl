@@ -24,18 +24,17 @@ class AnimationPlayableBinding;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableBinding);
-// Type: UnityEngine.Animations::AnimationPlayableBinding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Animations {
 // Is value type: false
-// CS Name: ::UnityEngine.Animations::AnimationPlayableBinding*
+// CS Name: UnityEngine.Animations.AnimationPlayableBinding
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x47f1c00, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4852f14, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput, addr 0x47f1d2c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAnimationOutput, addr 0x4853040, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:
@@ -53,7 +52,7 @@ public:
   AnimationPlayableBinding(AnimationPlayableBinding const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

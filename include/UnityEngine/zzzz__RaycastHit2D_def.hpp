@@ -20,11 +20,10 @@ struct RaycastHit2D;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::RaycastHit2D);
-// Type: UnityEngine::RaycastHit2D
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::RaycastHit2D
+// CS Name: UnityEngine.RaycastHit2D
 struct CORDL_TYPE RaycastHit2D {
 public:
   // Declarations
@@ -38,19 +37,19 @@ public:
 
   __declspec(property(get = get_point)) ::UnityEngine::Vector2 point;
 
-  /// @brief Method get_collider, addr 0x488e4b0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_collider, addr 0x48f2b40, size 0xac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider2D> get_collider();
 
-  /// @brief Method get_distance, addr 0x488e4a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x48f2b30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction, addr 0x488e4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fraction, addr 0x48f2b38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_normal, addr 0x488e498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x48f2b28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_point, addr 0x488e490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x48f2b20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
   // Ctor Parameters []
@@ -61,6 +60,12 @@ public:
   // None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Distance", ty: "float_t", modifiers: "", def_value: None }, CppParam {
   // name: "m_Fraction", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Collider", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RaycastHit2D(::UnityEngine::Vector2 m_Centroid, ::UnityEngine::Vector2 m_Point, ::UnityEngine::Vector2 m_Normal, float_t m_Distance, float_t m_Fraction, int32_t m_Collider) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18648 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field m_Centroid, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_Centroid;
@@ -80,17 +85,9 @@ public:
   /// @brief Field m_Collider, offset: 0x20, size: 0x4, def value: None
   int32_t m_Collider;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18567 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RaycastHit2D, 0x24>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::RaycastHit2D, m_Centroid) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::RaycastHit2D, m_Point) == 0x8, "Offset mismatch!");
@@ -102,6 +99,8 @@ static_assert(offsetof(::UnityEngine::RaycastHit2D, m_Distance) == 0x18, "Offset
 static_assert(offsetof(::UnityEngine::RaycastHit2D, m_Fraction) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::RaycastHit2D, m_Collider) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RaycastHit2D, 0x24>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RaycastHit2D, "UnityEngine", "RaycastHit2D");

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRRenderingParamsSetup::*)()>(&::GlobalNamespace::VRRenderingParamsSetup::OnEnable)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3ace300;
+  constexpr static std::size_t addrs = 0x3b2d944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), "OnEnable",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRRenderingParamsSetup::*)()>(&::GlobalNamespace::VRRenderingParamsSetup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ace3d4;
+  constexpr static std::size_t addrs = 0x3b2da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), ".ctor",
@@ -47,7 +47,7 @@ constexpr ::GlobalNamespace::IRenderingParamsApplicator*& GlobalNamespace::VRRen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRenderingParamsApplicator*> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__applicator() const {
+constexpr ::GlobalNamespace::IRenderingParamsApplicator* const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__applicator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____applicator;
 }
@@ -59,7 +59,7 @@ constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::VRRen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::VRRenderingParamsSetup::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -72,13 +72,13 @@ inline void GlobalNamespace::VRRenderingParamsSetup::OnEnable() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::VRRenderingParamsSetup* GlobalNamespace::VRRenderingParamsSetup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VRRenderingParamsSetup*>());
-}
 inline void GlobalNamespace::VRRenderingParamsSetup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRRenderingParamsSetup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::VRRenderingParamsSetup* GlobalNamespace::VRRenderingParamsSetup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VRRenderingParamsSetup*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRRenderingParamsSetup::VRRenderingParamsSetup() {}

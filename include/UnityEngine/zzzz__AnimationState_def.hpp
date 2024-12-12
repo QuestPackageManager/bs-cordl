@@ -15,11 +15,10 @@ class AnimationState;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationState);
-// Type: UnityEngine::AnimationState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TrackedReference
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AnimationState*
+// CS Name: UnityEngine.AnimationState
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
 public:
   // Declarations
@@ -33,19 +32,19 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47eac48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484bf5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x47ea7b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x484bac8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_normalizedTime, addr 0x47eabb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x484bec4, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x47eabfc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x484bf10, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x47eab64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x484be78, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:
@@ -63,7 +62,7 @@ public:
   AnimationState(AnimationState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

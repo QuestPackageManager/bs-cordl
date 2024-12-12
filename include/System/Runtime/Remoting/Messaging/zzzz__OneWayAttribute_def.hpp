@@ -11,11 +11,10 @@ class OneWayAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::OneWayAttribute);
-// Type: System.Runtime.Remoting.Messaging::OneWayAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::OneWayAttribute*
+// CS Name: System.Runtime.Remoting.Messaging.OneWayAttribute
 class CORDL_TYPE OneWayAttribute : public ::System::Attribute {
 public:
   // Declarations

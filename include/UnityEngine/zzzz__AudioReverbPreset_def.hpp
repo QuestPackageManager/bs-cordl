@@ -12,11 +12,10 @@ struct AudioReverbPreset;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AudioReverbPreset);
-// Type: UnityEngine::AudioReverbPreset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AudioReverbPreset
+// CS Name: UnityEngine.AudioReverbPreset
 struct CORDL_TYPE AudioReverbPreset {
 public:
   // Declarations
@@ -71,105 +70,105 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AudioReverbPreset(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Alley value: static_cast<int32_t>(0xf)
+  /// @brief Field Alley value: I32(15)
   static ::UnityEngine::AudioReverbPreset const Alley;
 
-  /// @brief Field Arena value: static_cast<int32_t>(0xa)
+  /// @brief Field Arena value: I32(10)
   static ::UnityEngine::AudioReverbPreset const Arena;
 
-  /// @brief Field Auditorium value: static_cast<int32_t>(0x7)
+  /// @brief Field Auditorium value: I32(7)
   static ::UnityEngine::AudioReverbPreset const Auditorium;
 
-  /// @brief Field Bathroom value: static_cast<int32_t>(0x4)
+  /// @brief Field Bathroom value: I32(4)
   static ::UnityEngine::AudioReverbPreset const Bathroom;
 
-  /// @brief Field CarpetedHallway value: static_cast<int32_t>(0xc)
+  /// @brief Field CarpetedHallway value: I32(12)
   static ::UnityEngine::AudioReverbPreset const CarpetedHallway;
 
-  /// @brief Field Cave value: static_cast<int32_t>(0x9)
+  /// @brief Field Cave value: I32(9)
   static ::UnityEngine::AudioReverbPreset const Cave;
 
-  /// @brief Field City value: static_cast<int32_t>(0x11)
+  /// @brief Field City value: I32(17)
   static ::UnityEngine::AudioReverbPreset const City;
 
-  /// @brief Field Concerthall value: static_cast<int32_t>(0x8)
+  /// @brief Field Concerthall value: I32(8)
   static ::UnityEngine::AudioReverbPreset const Concerthall;
 
-  /// @brief Field Dizzy value: static_cast<int32_t>(0x19)
+  /// @brief Field Dizzy value: I32(25)
   static ::UnityEngine::AudioReverbPreset const Dizzy;
 
-  /// @brief Field Drugged value: static_cast<int32_t>(0x18)
+  /// @brief Field Drugged value: I32(24)
   static ::UnityEngine::AudioReverbPreset const Drugged;
 
-  /// @brief Field Forest value: static_cast<int32_t>(0x10)
+  /// @brief Field Forest value: I32(16)
   static ::UnityEngine::AudioReverbPreset const Forest;
 
-  /// @brief Field Generic value: static_cast<int32_t>(0x1)
+  /// @brief Field Generic value: I32(1)
   static ::UnityEngine::AudioReverbPreset const Generic;
 
-  /// @brief Field Hallway value: static_cast<int32_t>(0xd)
+  /// @brief Field Hallway value: I32(13)
   static ::UnityEngine::AudioReverbPreset const Hallway;
 
-  /// @brief Field Hangar value: static_cast<int32_t>(0xb)
+  /// @brief Field Hangar value: I32(11)
   static ::UnityEngine::AudioReverbPreset const Hangar;
 
-  /// @brief Field Livingroom value: static_cast<int32_t>(0x5)
+  /// @brief Field Livingroom value: I32(5)
   static ::UnityEngine::AudioReverbPreset const Livingroom;
 
-  /// @brief Field Mountains value: static_cast<int32_t>(0x12)
+  /// @brief Field Mountains value: I32(18)
   static ::UnityEngine::AudioReverbPreset const Mountains;
 
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
+  /// @brief Field Off value: I32(0)
   static ::UnityEngine::AudioReverbPreset const Off;
 
-  /// @brief Field PaddedCell value: static_cast<int32_t>(0x2)
+  /// @brief Field PaddedCell value: I32(2)
   static ::UnityEngine::AudioReverbPreset const PaddedCell;
 
-  /// @brief Field ParkingLot value: static_cast<int32_t>(0x15)
+  /// @brief Field ParkingLot value: I32(21)
   static ::UnityEngine::AudioReverbPreset const ParkingLot;
 
-  /// @brief Field Plain value: static_cast<int32_t>(0x14)
+  /// @brief Field Plain value: I32(20)
   static ::UnityEngine::AudioReverbPreset const Plain;
 
-  /// @brief Field Psychotic value: static_cast<int32_t>(0x1a)
+  /// @brief Field Psychotic value: I32(26)
   static ::UnityEngine::AudioReverbPreset const Psychotic;
 
-  /// @brief Field Quarry value: static_cast<int32_t>(0x13)
+  /// @brief Field Quarry value: I32(19)
   static ::UnityEngine::AudioReverbPreset const Quarry;
 
-  /// @brief Field Room value: static_cast<int32_t>(0x3)
+  /// @brief Field Room value: I32(3)
   static ::UnityEngine::AudioReverbPreset const Room;
 
-  /// @brief Field SewerPipe value: static_cast<int32_t>(0x16)
+  /// @brief Field SewerPipe value: I32(22)
   static ::UnityEngine::AudioReverbPreset const SewerPipe;
 
-  /// @brief Field StoneCorridor value: static_cast<int32_t>(0xe)
+  /// @brief Field StoneCorridor value: I32(14)
   static ::UnityEngine::AudioReverbPreset const StoneCorridor;
 
-  /// @brief Field Stoneroom value: static_cast<int32_t>(0x6)
+  /// @brief Field Stoneroom value: I32(6)
   static ::UnityEngine::AudioReverbPreset const Stoneroom;
 
-  /// @brief Field Underwater value: static_cast<int32_t>(0x17)
+  /// @brief Field Underwater value: I32(23)
   static ::UnityEngine::AudioReverbPreset const Underwater;
 
-  /// @brief Field User value: static_cast<int32_t>(0x1b)
+  /// @brief Field User value: I32(27)
   static ::UnityEngine::AudioReverbPreset const User;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17772 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17855 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioReverbPreset, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AudioReverbPreset, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioReverbPreset, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioReverbPreset, "UnityEngine", "AudioReverbPreset");

@@ -7,75 +7,74 @@
 #include "GlobalNamespace/zzzz__MissionStage_def.hpp"
 #include "GlobalNamespace/zzzz__MissionStagesManager_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MissionStagesManager____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::MissionStagesManager___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionStagesManager____c::*)()>(&::GlobalNamespace::__MissionStagesManager____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager___c::*)()>(&::GlobalNamespace::MissionStagesManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba62c0;
+  constexpr static std::size_t addrs = 0x3c08c4c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MissionStagesManager____c._InitStages_b__6_0
+//  Writing Method size for method: ::GlobalNamespace::MissionStagesManager___c._InitStages_b__6_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__MissionStagesManager____c::*)(::GlobalNamespace::MissionStage*)>(
-    &::GlobalNamespace::__MissionStagesManager____c::_InitStages_b__6_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissionStagesManager___c::*)(::GlobalNamespace::MissionStage*)>(
+    &::GlobalNamespace::MissionStagesManager___c::_InitStages_b__6_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ba62c8;
+  constexpr static std::size_t addrs = 0x3c08c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get(), "<InitStages>b__6_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get(), "<InitStages>b__6_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionStage*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__MissionStagesManager____c::setStaticF___9(::GlobalNamespace::__MissionStagesManager____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__MissionStagesManager____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get>(
-      std::forward<::GlobalNamespace::__MissionStagesManager____c*>(value));
+inline void GlobalNamespace::MissionStagesManager___c::setStaticF___9(::GlobalNamespace::MissionStagesManager___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::MissionStagesManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get>(
+      std::forward<::GlobalNamespace::MissionStagesManager___c*>(value));
 }
-inline ::GlobalNamespace::__MissionStagesManager____c* GlobalNamespace::__MissionStagesManager____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__MissionStagesManager____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get>();
+inline ::GlobalNamespace::MissionStagesManager___c* GlobalNamespace::MissionStagesManager___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::MissionStagesManager___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get>();
 }
-inline void GlobalNamespace::__MissionStagesManager____c::setStaticF___9__6_0(::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* value) {
+inline void GlobalNamespace::MissionStagesManager___c::setStaticF___9__6_0(::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* GlobalNamespace::__MissionStagesManager____c::getStaticF___9__6_0() {
+inline ::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>* GlobalNamespace::MissionStagesManager___c::getStaticF___9__6_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::MissionStage>, int32_t>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get>();
 }
-inline ::GlobalNamespace::__MissionStagesManager____c* GlobalNamespace::__MissionStagesManager____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionStagesManager____c*>());
-}
-inline void GlobalNamespace::__MissionStagesManager____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get(), ".ctor",
+inline void GlobalNamespace::MissionStagesManager___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::__MissionStagesManager____c::_InitStages_b__6_0(::GlobalNamespace::MissionStage* stage) {
+inline int32_t GlobalNamespace::MissionStagesManager___c::_InitStages_b__6_0(::GlobalNamespace::MissionStage* stage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionStagesManager____c*>::get(), "<InitStages>b__6_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager___c*>::get(), "<InitStages>b__6_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionStage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, stage);
 }
+inline ::GlobalNamespace::MissionStagesManager___c* GlobalNamespace::MissionStagesManager___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionStagesManager___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionStagesManager____c::__MissionStagesManager____c() {}
+constexpr ::GlobalNamespace::MissionStagesManager___c::MissionStagesManager___c() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionStagesManager.get_firstLockedMissionStage
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionStage> (::GlobalNamespace::MissionStagesManager::*)()>(
     &::GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba5fbc;
+  constexpr static std::size_t addrs = 0x3c08948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager*>::get(),
@@ -89,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(int32_t)>(
     &::GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ba5fc4;
+  constexpr static std::size_t addrs = 0x3c08950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(&::GlobalNamespace::MissionStagesManager::InitStages)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3ba6054;
+  constexpr static std::size_t addrs = 0x3c089e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager*>::get(), "InitStages",
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(
     &::GlobalNamespace::MissionStagesManager::UpdateStageLockPosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ba6198;
+  constexpr static std::size_t addrs = 0x3c08b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager*>::get(),
@@ -131,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(bool, float_t)>(
     &::GlobalNamespace::MissionStagesManager::UpdateStageLockPositionAnimated)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ba4be4;
+  constexpr static std::size_t addrs = 0x3c07570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)(int32_t)>(
     &::GlobalNamespace::MissionStagesManager::UpdateStageLockText)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3ba61a4;
+  constexpr static std::size_t addrs = 0x3c08b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionStagesManager::*)()>(&::GlobalNamespace::MissionStagesManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba625c;
+  constexpr static std::size_t addrs = 0x3c08be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager*>::get(), ".ctor",
@@ -239,13 +238,13 @@ inline void GlobalNamespace::MissionStagesManager::UpdateStageLockText(int32_t n
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, numberOfClearedMissions);
 }
-inline ::GlobalNamespace::MissionStagesManager* GlobalNamespace::MissionStagesManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionStagesManager*>());
-}
 inline void GlobalNamespace::MissionStagesManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionStagesManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionStagesManager* GlobalNamespace::MissionStagesManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionStagesManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionStagesManager::MissionStagesManager() {}

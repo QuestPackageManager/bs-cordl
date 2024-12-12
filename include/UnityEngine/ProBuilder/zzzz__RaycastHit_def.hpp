@@ -17,11 +17,10 @@ class RaycastHit;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
-// Type: UnityEngine.ProBuilder::RaycastHit
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::RaycastHit*
+// CS Name: UnityEngine.ProBuilder.RaycastHit
 class CORDL_TYPE RaycastHit : public ::System::Object {
 public:
   // Declarations
@@ -63,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x46c83f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x472970c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
 protected:
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RaycastHit(RaycastHit const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14294 };
+
   /// @brief Field distance, offset: 0x10, size: 0x4, def value: None
   float_t ___distance;
 
@@ -92,14 +94,9 @@ public:
   /// @brief Field face, offset: 0x2c, size: 0x4, def value: None
   int32_t ___face;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14260 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::RaycastHit, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::RaycastHit, ___distance) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::RaycastHit, ___point) == 0x14, "Offset mismatch!");
@@ -107,6 +104,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::RaycastHit, ___point) == 0x14,
 static_assert(offsetof(::UnityEngine::ProBuilder::RaycastHit, ___normal) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::RaycastHit, ___face) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::RaycastHit, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::RaycastHit);

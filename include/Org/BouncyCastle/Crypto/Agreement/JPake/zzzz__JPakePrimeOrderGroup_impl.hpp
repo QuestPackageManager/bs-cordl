@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26540c4;
+  constexpr static std::size_t addrs = 0x26873b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, bool)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x26540cc;
+  constexpr static std::size_t addrs = 0x26873b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_P)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26543e8;
+  constexpr static std::size_t addrs = 0x26876d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_Q)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26543f0;
+  constexpr static std::size_t addrs = 0x26876dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26543f8;
+  constexpr static std::size_t addrs = 0x26876e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Agr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_p() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_p() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
@@ -104,7 +104,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Agr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_q() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_q() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
@@ -116,18 +116,13 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Agr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_g() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_get_g() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
 constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::__cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___g)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(::Org::BouncyCastle::Math::BigInteger* p,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* q,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*>(p, q, g));
 }
 inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                      ::Org::BouncyCastle::Math::BigInteger* g) {
@@ -137,12 +132,6 @@ inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, p, q, g);
-}
-inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(::Org::BouncyCastle::Math::BigInteger* p,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* q,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g,
-                                                                                                                                                        bool skipChecks) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*>(p, q, g, skipChecks));
 }
 inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                      ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks) {
@@ -171,6 +160,17 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Agreeme
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(::Org::BouncyCastle::Math::BigInteger* p,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* q,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*>(p, q, g));
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::New_ctor(::Org::BouncyCastle::Math::BigInteger* p,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* q,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g,
+                                                                                                                                                        bool skipChecks) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*>(p, q, g, skipChecks));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::JPakePrimeOrderGroup() {}

@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainStatusFlags_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElement)
@@ -25,11 +23,10 @@ class X509ChainElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElement);
-// Type: System.Security.Cryptography.X509Certificates::X509ChainElement
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Security.Cryptography.X509Certificates.X509ChainStatusFlags
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElement*
+// CS Name: System.Security.Cryptography.X509Certificates.X509ChainElement
 class CORDL_TYPE X509ChainElement : public ::System::Object {
 public:
   // Declarations
@@ -57,22 +54,22 @@ public:
       put = __cordl_internal_set_status)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>
       status;
 
-  /// @brief Method Count, addr 0x43dbe18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x443d12c, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Set, addr 0x43dbe3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x443d150, size 0x74, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status,
-                  ByRef<int32_t> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags,
+                  ::ByRef<int32_t> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags, addr 0x43dc040, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UncompressFlags, addr 0x443d354, size 0x244, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_certificate();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& __cordl_internal_get_certificate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get_certificate() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_certificate();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const& __cordl_internal_get_compressed_status_flags() const;
 
@@ -96,19 +93,19 @@ public:
   constexpr void
   __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
 
-  /// @brief Method .ctor, addr 0x43dbd8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443d0a0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate, addr 0x43dbdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x443d10c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus, addr 0x43dbe00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElementStatus, addr 0x443d114, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags, addr 0x43dbe08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusFlags, addr 0x443d11c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags, addr 0x43dbe10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StatusFlags, addr 0x443d124, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
 protected:
@@ -125,6 +122,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ChainElement(X509ChainElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9319 };
+
   /// @brief Field certificate, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509Certificate2* ___certificate;
 
@@ -137,14 +137,9 @@ public:
   /// @brief Field compressed_status_flags, offset: 0x28, size: 0x4, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags ___compressed_status_flags;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9294 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainElement, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainElement, ___certificate) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainElement, ___status) == 0x18, "Offset mismatch!");
@@ -152,6 +147,8 @@ static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509C
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainElement, ___info) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ChainElement, ___compressed_status_flags) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ChainElement, 0x30>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ChainElement);

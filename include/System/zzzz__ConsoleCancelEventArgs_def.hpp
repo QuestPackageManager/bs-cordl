@@ -15,11 +15,10 @@ class ConsoleCancelEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ConsoleCancelEventArgs);
-// Type: System::ConsoleCancelEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ConsoleSpecialKey, System.EventArgs
 namespace System {
 // Is value type: false
-// CS Name: ::System::ConsoleCancelEventArgs*
+// CS Name: System.ConsoleCancelEventArgs
 class CORDL_TYPE ConsoleCancelEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::ConsoleSpecialKey value);
 
-  /// @brief Method .ctor, addr 0x3daa534, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0a5e0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3daa4c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e0a56c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::ConsoleSpecialKey type);
 
-  /// @brief Method get_Cancel, addr 0x3daa52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cancel, addr 0x3e0a5d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Cancel();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConsoleCancelEventArgs(ConsoleCancelEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2516 };
+
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::ConsoleSpecialKey ____type;
 
   /// @brief Field <Cancel>k__BackingField, offset: 0x14, size: 0x1, def value: None
   bool ____Cancel_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2516 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ConsoleCancelEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::ConsoleCancelEventArgs, ____type) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ConsoleCancelEventArgs, ____Cancel_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ConsoleCancelEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::ConsoleCancelEventArgs);

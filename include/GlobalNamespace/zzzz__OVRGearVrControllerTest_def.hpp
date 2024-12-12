@@ -11,17 +11,16 @@ class OVRGearVrControllerTest;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGearVrControllerTest);
-// Type: ::OVRGearVrControllerTest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRGearVrControllerTest*
+// CS Name: OVRGearVrControllerTest
 class CORDL_TYPE OVRGearVrControllerTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVRGearVrControllerTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fd1a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4031ac4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   OVRGearVrControllerTest(OVRGearVrControllerTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

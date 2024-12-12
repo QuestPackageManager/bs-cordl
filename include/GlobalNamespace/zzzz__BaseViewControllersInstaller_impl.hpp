@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseViewControllersInstaller::*)()>(
     &::GlobalNamespace::BaseViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b8d5bc;
+  constexpr static std::size_t addrs = 0x3bef394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseViewControllersInstaller::*)()>(
     &::GlobalNamespace::BaseViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8d668;
+  constexpr static std::size_t addrs = 0x3bef440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseViewControllersInstaller*>::get(), ".ctor",
@@ -68,13 +68,13 @@ inline void GlobalNamespace::BaseViewControllersInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseViewControllersInstaller*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BaseViewControllersInstaller* GlobalNamespace::BaseViewControllersInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BaseViewControllersInstaller*>());
-}
 inline void GlobalNamespace::BaseViewControllersInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseViewControllersInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BaseViewControllersInstaller* GlobalNamespace::BaseViewControllersInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BaseViewControllersInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BaseViewControllersInstaller::BaseViewControllersInstaller() {}

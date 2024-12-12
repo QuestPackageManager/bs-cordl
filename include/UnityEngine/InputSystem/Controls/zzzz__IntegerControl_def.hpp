@@ -15,26 +15,25 @@ class IntegerControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::IntegerControl);
-// Type: UnityEngine.InputSystem.Controls::IntegerControl
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 257, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputControl`1<TValue>
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Controls::IntegerControl*
+// CS Name: UnityEngine.InputSystem.Controls.IntegerControl
 class CORDL_TYPE IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<int32_t> {
 public:
   // Declarations
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x4500520, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method CalculateOptimizedControlDataType, addr 0x4561834, size 0xd4, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
 
   static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x45003f0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x4561704, size 0x94, virtual true, abstract: false, final false
   inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x4500484, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x4561798, size 0x9c, virtual true, abstract: false, final false
   inline void WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x4500368, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456167c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +51,7 @@ public:
   IntegerControl(IntegerControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

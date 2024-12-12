@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPointBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AbstractFpPoint)
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
@@ -21,11 +20,10 @@ class AbstractFpPoint;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpPoint);
-// Type: Org.BouncyCastle.Math.EC::AbstractFpPoint
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.ECPointBase
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpPoint*
+// CS Name: Org.BouncyCastle.Math.EC.AbstractFpPoint
 class CORDL_TYPE AbstractFpPoint : public ::Org::BouncyCastle::Math::EC::ECPointBase {
 public:
   // Declarations
@@ -39,20 +37,20 @@ public:
                                                                          ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                          bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x241ff00, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x24531ec, size 0x2d4, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method Subtract, addr 0x24201d4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x24534c0, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x241fec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24531b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x241fecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24531b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method get_CompressionYTilde, addr 0x241fed4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionYTilde, addr 0x24531c0, size 0x2c, virtual true, abstract: false, final false
   inline bool get_CompressionYTilde();
 
 protected:

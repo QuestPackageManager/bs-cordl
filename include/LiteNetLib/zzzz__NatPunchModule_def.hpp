@@ -22,28 +22,25 @@ namespace LiteNetLib {
 class INatPunchListener;
 }
 namespace LiteNetLib {
-struct NatAddressType;
+class NatPunchModule_NatIntroduceRequestPacket;
+}
+namespace LiteNetLib {
+class NatPunchModule_NatIntroduceResponsePacket;
+}
+namespace LiteNetLib {
+class NatPunchModule_NatPunchPacket;
+}
+namespace LiteNetLib {
+struct NatPunchModule_RequestEventData;
+}
+namespace LiteNetLib {
+struct NatPunchModule_SuccessEventData;
 }
 namespace LiteNetLib {
 class NetPacket;
 }
 namespace LiteNetLib {
 class NetSocket;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceRequestPacket;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceResponsePacket;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatPunchPacket;
-}
-namespace LiteNetLib {
-struct __NatPunchModule__RequestEventData;
-}
-namespace LiteNetLib {
-struct __NatPunchModule__SuccessEventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
@@ -56,42 +53,47 @@ namespace LiteNetLib {
 class NatPunchModule;
 }
 namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceRequestPacket;
+class NatPunchModule_NatIntroduceRequestPacket;
 }
 namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceResponsePacket;
+class NatPunchModule_NatIntroduceResponsePacket;
 }
 namespace LiteNetLib {
-class __NatPunchModule__NatPunchPacket;
+class NatPunchModule_NatPunchPacket;
 }
 namespace LiteNetLib {
-struct __NatPunchModule__RequestEventData;
+struct NatPunchModule_RequestEventData;
 }
 namespace LiteNetLib {
-struct __NatPunchModule__SuccessEventData;
+struct NatPunchModule_SuccessEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NatPunchModule);
-MARK_REF_PTR_T(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket);
-MARK_REF_PTR_T(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket);
-MARK_REF_PTR_T(::LiteNetLib::__NatPunchModule__NatPunchPacket);
-MARK_VAL_T(::LiteNetLib::__NatPunchModule__RequestEventData);
-MARK_VAL_T(::LiteNetLib::__NatPunchModule__SuccessEventData);
-// Type: ::RequestEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket);
+MARK_REF_PTR_T(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket);
+MARK_REF_PTR_T(::LiteNetLib::NatPunchModule_NatPunchPacket);
+MARK_VAL_T(::LiteNetLib::NatPunchModule_RequestEventData);
+MARK_VAL_T(::LiteNetLib::NatPunchModule_SuccessEventData);
+// Dependencies
 namespace LiteNetLib {
 // Is value type: true
-// CS Name: ::NatPunchModule::RequestEventData
-struct CORDL_TYPE __NatPunchModule__RequestEventData {
+// CS Name: LiteNetLib.NatPunchModule/RequestEventData
+struct CORDL_TYPE NatPunchModule_RequestEventData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NatPunchModule__RequestEventData();
+  constexpr NatPunchModule_RequestEventData();
 
   // Ctor Parameters [CppParam { name: "LocalEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "RemoteEndPoint", ty: "::System::Net::IPEndPoint*",
   // modifiers: "", def_value: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __NatPunchModule__RequestEventData(::System::Net::IPEndPoint* LocalEndPoint, ::System::Net::IPEndPoint* RemoteEndPoint, ::StringW Token) noexcept;
+  constexpr NatPunchModule_RequestEventData(::System::Net::IPEndPoint* LocalEndPoint, ::System::Net::IPEndPoint* RemoteEndPoint, ::StringW Token) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16524 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field LocalEndPoint, offset: 0x0, size: 0x8, def value: None
   ::System::Net::IPEndPoint* LocalEndPoint;
@@ -102,39 +104,38 @@ public:
   /// @brief Field Token, offset: 0x10, size: 0x8, def value: None
   ::StringW Token;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16488 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NatPunchModule__RequestEventData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_RequestEventData, LocalEndPoint) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__RequestEventData, LocalEndPoint) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_RequestEventData, RemoteEndPoint) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__RequestEventData, RemoteEndPoint) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_RequestEventData, Token) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__RequestEventData, Token) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule_RequestEventData, 0x18>, "Size mismatch!");
 
 } // namespace LiteNetLib
-// Type: ::SuccessEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LiteNetLib.NatAddressType
 namespace LiteNetLib {
 // Is value type: true
-// CS Name: ::NatPunchModule::SuccessEventData
-struct CORDL_TYPE __NatPunchModule__SuccessEventData {
+// CS Name: LiteNetLib.NatPunchModule/SuccessEventData
+struct CORDL_TYPE NatPunchModule_SuccessEventData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NatPunchModule__SuccessEventData();
+  constexpr NatPunchModule_SuccessEventData();
 
   // Ctor Parameters [CppParam { name: "TargetEndPoint", ty: "::System::Net::IPEndPoint*", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "::LiteNetLib::NatAddressType", modifiers: "",
   // def_value: None }, CppParam { name: "Token", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __NatPunchModule__SuccessEventData(::System::Net::IPEndPoint* TargetEndPoint, ::LiteNetLib::NatAddressType Type, ::StringW Token) noexcept;
+  constexpr NatPunchModule_SuccessEventData(::System::Net::IPEndPoint* TargetEndPoint, ::LiteNetLib::NatAddressType Type, ::StringW Token) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16525 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field TargetEndPoint, offset: 0x0, size: 0x8, def value: None
   ::System::Net::IPEndPoint* TargetEndPoint;
@@ -145,30 +146,23 @@ public:
   /// @brief Field Token, offset: 0x10, size: 0x8, def value: None
   ::StringW Token;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16489 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NatPunchModule__SuccessEventData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_SuccessEventData, TargetEndPoint) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__SuccessEventData, TargetEndPoint) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_SuccessEventData, Type) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__SuccessEventData, Type) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_SuccessEventData, Token) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__SuccessEventData, Token) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule_SuccessEventData, 0x18>, "Size mismatch!");
 
 } // namespace LiteNetLib
-// Type: ::NatIntroduceRequestPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::NatPunchModule::NatIntroduceRequestPacket*
-class CORDL_TYPE __NatPunchModule__NatIntroduceRequestPacket : public ::System::Object {
+// CS Name: LiteNetLib.NatPunchModule/NatIntroduceRequestPacket
+class CORDL_TYPE NatPunchModule_NatIntroduceRequestPacket : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Internal, put = set_Internal)) ::System::Net::IPEndPoint* Internal;
@@ -181,11 +175,11 @@ public:
   /// @brief Field <Token>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField)) ::StringW _Token_k__BackingField;
 
-  static inline ::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket* New_ctor();
+  static inline ::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket* New_ctor();
+
+  constexpr ::System::Net::IPEndPoint* const& __cordl_internal_get__Internal_k__BackingField() const;
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__Internal_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__Internal_k__BackingField() const;
 
   constexpr ::StringW const& __cordl_internal_get__Token_k__BackingField() const;
 
@@ -195,34 +189,37 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a588a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaf518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Internal, addr 0x3a58fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x3aafc4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method get_Token, addr 0x3a58fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aafc5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_Internal, addr 0x3a58fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Internal, addr 0x3aafc54, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Token, addr 0x3a58ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aafc64, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NatPunchModule__NatIntroduceRequestPacket();
+  constexpr NatPunchModule_NatIntroduceRequestPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceRequestPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NatPunchModule__NatIntroduceRequestPacket(__NatPunchModule__NatIntroduceRequestPacket&&) = delete;
+  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceRequestPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceRequestPacket", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NatPunchModule__NatIntroduceRequestPacket(__NatPunchModule__NatIntroduceRequestPacket const&) = delete;
+  NatPunchModule_NatIntroduceRequestPacket(NatPunchModule_NatIntroduceRequestPacket const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16526 };
 
   /// @brief Field <Internal>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ____Internal_k__BackingField;
@@ -230,25 +227,21 @@ public:
   /// @brief Field <Token>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16490 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket, 0x20>, "Size mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket, ____Internal_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket, ____Internal_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket, ____Token_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket, ____Token_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket, 0x20>, "Size mismatch!");
 
 } // namespace LiteNetLib
-// Type: ::NatIntroduceResponsePacket
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::NatPunchModule::NatIntroduceResponsePacket*
-class CORDL_TYPE __NatPunchModule__NatIntroduceResponsePacket : public ::System::Object {
+// CS Name: LiteNetLib.NatPunchModule/NatIntroduceResponsePacket
+class CORDL_TYPE NatPunchModule_NatIntroduceResponsePacket : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_External, put = set_External)) ::System::Net::IPEndPoint* External;
@@ -266,15 +259,15 @@ public:
   /// @brief Field <Token>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField)) ::StringW _Token_k__BackingField;
 
-  static inline ::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket* New_ctor();
+  static inline ::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket* New_ctor();
+
+  constexpr ::System::Net::IPEndPoint* const& __cordl_internal_get__External_k__BackingField() const;
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__External_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__External_k__BackingField() const;
+  constexpr ::System::Net::IPEndPoint* const& __cordl_internal_get__Internal_k__BackingField() const;
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__Internal_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__Internal_k__BackingField() const;
 
   constexpr ::StringW const& __cordl_internal_get__Token_k__BackingField() const;
 
@@ -286,40 +279,43 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a580e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaed58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_External, addr 0x3a5900c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_External, addr 0x3aafc7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_External();
 
-  /// @brief Method get_Internal, addr 0x3a58ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Internal, addr 0x3aafc6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method get_Token, addr 0x3a5901c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aafc8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_External, addr 0x3a59014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_External, addr 0x3aafc84, size 0x8, virtual false, abstract: false, final false
   inline void set_External(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Internal, addr 0x3a59004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Internal, addr 0x3aafc74, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method set_Token, addr 0x3a59024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aafc94, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NatPunchModule__NatIntroduceResponsePacket();
+  constexpr NatPunchModule_NatIntroduceResponsePacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceResponsePacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NatPunchModule__NatIntroduceResponsePacket(__NatPunchModule__NatIntroduceResponsePacket&&) = delete;
+  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceResponsePacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatIntroduceResponsePacket", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NatPunchModule__NatIntroduceResponsePacket(__NatPunchModule__NatIntroduceResponsePacket const&) = delete;
+  NatPunchModule_NatIntroduceResponsePacket(NatPunchModule_NatIntroduceResponsePacket const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16527 };
 
   /// @brief Field <Internal>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IPEndPoint* ____Internal_k__BackingField;
@@ -330,27 +326,23 @@ public:
   /// @brief Field <Token>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16491 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket, 0x28>, "Size mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket, ____Internal_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket, ____Internal_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket, ____External_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket, ____External_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket, ____Token_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket, ____Token_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket, 0x28>, "Size mismatch!");
 
 } // namespace LiteNetLib
-// Type: ::NatPunchPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::NatPunchModule::NatPunchPacket*
-class CORDL_TYPE __NatPunchModule__NatPunchPacket : public ::System::Object {
+// CS Name: LiteNetLib.NatPunchModule/NatPunchPacket
+class CORDL_TYPE NatPunchModule_NatPunchPacket : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_IsExternal, put = set_IsExternal)) bool IsExternal;
@@ -363,7 +355,7 @@ public:
   /// @brief Field <Token>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField)) ::StringW _Token_k__BackingField;
 
-  static inline ::LiteNetLib::__NatPunchModule__NatPunchPacket* New_ctor();
+  static inline ::LiteNetLib::NatPunchModule_NatPunchPacket* New_ctor();
 
   constexpr bool const& __cordl_internal_get__IsExternal_k__BackingField() const;
 
@@ -377,34 +369,37 @@ public:
 
   constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a58b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaf794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsExternal, addr 0x3a5903c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsExternal, addr 0x3aafcac, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExternal();
 
-  /// @brief Method get_Token, addr 0x3a5902c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Token, addr 0x3aafc9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_IsExternal, addr 0x3a59044, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsExternal, addr 0x3aafcb4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsExternal(bool value);
 
-  /// @brief Method set_Token, addr 0x3a59034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Token, addr 0x3aafca4, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NatPunchModule__NatPunchPacket();
+  constexpr NatPunchModule_NatPunchPacket();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatPunchPacket", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NatPunchModule__NatPunchPacket(__NatPunchModule__NatPunchPacket&&) = delete;
+  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatPunchPacket", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule_NatPunchPacket", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NatPunchModule__NatPunchPacket(__NatPunchModule__NatPunchPacket const&) = delete;
+  NatPunchModule_NatPunchPacket(NatPunchModule_NatPunchPacket const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16528 };
 
   /// @brief Field <Token>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Token_k__BackingField;
@@ -412,36 +407,32 @@ public:
   /// @brief Field <IsExternal>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____IsExternal_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16492 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::__NatPunchModule__NatPunchPacket, 0x20>, "Size mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatPunchPacket, ____Token_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatPunchPacket, ____Token_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::LiteNetLib::NatPunchModule_NatPunchPacket, ____IsExternal_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatPunchPacket, ____IsExternal_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule_NatPunchPacket, 0x20>, "Size mismatch!");
 
 } // namespace LiteNetLib
-// Type: LiteNetLib::NatPunchModule
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib {
 // Is value type: false
-// CS Name: ::LiteNetLib::NatPunchModule*
+// CS Name: LiteNetLib.NatPunchModule
 class CORDL_TYPE NatPunchModule : public ::System::Object {
 public:
   // Declarations
-  using NatIntroduceRequestPacket = ::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket;
+  using NatIntroduceRequestPacket = ::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket;
 
-  using NatIntroduceResponsePacket = ::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket;
+  using NatIntroduceResponsePacket = ::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket;
 
-  using NatPunchPacket = ::LiteNetLib::__NatPunchModule__NatPunchPacket;
+  using NatPunchPacket = ::LiteNetLib::NatPunchModule_NatPunchPacket;
 
-  using RequestEventData = ::LiteNetLib::__NatPunchModule__RequestEventData;
+  using RequestEventData = ::LiteNetLib::NatPunchModule_RequestEventData;
 
-  using SuccessEventData = ::LiteNetLib::__NatPunchModule__SuccessEventData;
+  using SuccessEventData = ::LiteNetLib::NatPunchModule_SuccessEventData;
 
   /// @brief Field _cacheReader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__cacheReader, put = __cordl_internal_set__cacheReader)) ::LiteNetLib::Utils::NetDataReader* _cacheReader;
@@ -457,75 +448,75 @@ public:
 
   /// @brief Field _requestEvents, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__requestEvents,
-                      put = __cordl_internal_set__requestEvents)) ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* _requestEvents;
+                      put = __cordl_internal_set__requestEvents)) ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_RequestEventData>* _requestEvents;
 
   /// @brief Field _socket, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket)) ::LiteNetLib::NetSocket* _socket;
 
   /// @brief Field _successEvents, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__successEvents,
-                      put = __cordl_internal_set__successEvents)) ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* _successEvents;
+                      put = __cordl_internal_set__successEvents)) ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* _successEvents;
 
-  /// @brief Method Init, addr 0x3a58014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3aaec84, size 0x8, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::INatPunchListener* listener);
 
-  /// @brief Method NatIntroduce, addr 0x3a5801c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method NatIntroduce, addr 0x3aaec8c, size 0xcc, virtual false, abstract: false, final false
   inline void NatIntroduce(::System::Net::IPEndPoint* hostInternal, ::System::Net::IPEndPoint* hostExternal, ::System::Net::IPEndPoint* clientInternal, ::System::Net::IPEndPoint* clientExternal,
                            ::StringW additionalInfo);
 
   static inline ::LiteNetLib::NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket);
 
-  /// @brief Method OnNatIntroductionRequest, addr 0x3a588b0, size 0x120, virtual false, abstract: false, final false
-  inline void OnNatIntroductionRequest(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
+  /// @brief Method OnNatIntroductionRequest, addr 0x3aaf520, size 0x120, virtual false, abstract: false, final false
+  inline void OnNatIntroductionRequest(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
-  /// @brief Method OnNatIntroductionResponse, addr 0x3a589d0, size 0x154, virtual false, abstract: false, final false
-  inline void OnNatIntroductionResponse(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket* req);
+  /// @brief Method OnNatIntroductionResponse, addr 0x3aaf640, size 0x154, virtual false, abstract: false, final false
+  inline void OnNatIntroductionResponse(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket* req);
 
-  /// @brief Method OnNatPunch, addr 0x3a58eac, size 0x130, virtual false, abstract: false, final false
-  inline void OnNatPunch(::LiteNetLib::__NatPunchModule__NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
+  /// @brief Method OnNatPunch, addr 0x3aafb1c, size 0x130, virtual false, abstract: false, final false
+  inline void OnNatPunch(::LiteNetLib::NatPunchModule_NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
-  /// @brief Method PollEvents, addr 0x3a580f0, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method PollEvents, addr 0x3aaed60, size 0x360, virtual false, abstract: false, final false
   inline void PollEvents();
 
-  /// @brief Method ProcessMessage, addr 0x3a57ef8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMessage, addr 0x3aaeb68, size 0x10c, virtual false, abstract: false, final false
   inline void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
 
   /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(T packet, ::System::Net::IPEndPoint* target);
 
-  /// @brief Method SendNatIntroduceRequest, addr 0x3a58450, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x3aaf0c0, size 0x84, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::StringW host, int32_t port, ::StringW additionalInfo);
 
-  /// @brief Method SendNatIntroduceRequest, addr 0x3a58574, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x3aaf1e4, size 0x11c, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
+
+  constexpr ::LiteNetLib::Utils::NetDataReader* const& __cordl_internal_get__cacheReader() const;
 
   constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get__cacheReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get__cacheReader() const;
+  constexpr ::LiteNetLib::Utils::NetDataWriter* const& __cordl_internal_get__cacheWriter() const;
 
   constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__cacheWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__cacheWriter() const;
+  constexpr ::LiteNetLib::INatPunchListener* const& __cordl_internal_get__natPunchListener() const;
 
   constexpr ::LiteNetLib::INatPunchListener*& __cordl_internal_get__natPunchListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INatPunchListener*> const& __cordl_internal_get__natPunchListener() const;
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& __cordl_internal_get__netPacketProcessor() const;
 
   constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get__netPacketProcessor();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get__netPacketProcessor() const;
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_RequestEventData>* const& __cordl_internal_get__requestEvents() const;
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*& __cordl_internal_get__requestEvents();
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_RequestEventData>*& __cordl_internal_get__requestEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*> const& __cordl_internal_get__requestEvents() const;
+  constexpr ::LiteNetLib::NetSocket* const& __cordl_internal_get__socket() const;
 
   constexpr ::LiteNetLib::NetSocket*& __cordl_internal_get__socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __cordl_internal_get__socket() const;
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* const& __cordl_internal_get__successEvents() const;
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*& __cordl_internal_get__successEvents();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*> const& __cordl_internal_get__successEvents() const;
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>*& __cordl_internal_get__successEvents();
 
   constexpr void __cordl_internal_set__cacheReader(::LiteNetLib::Utils::NetDataReader* value);
 
@@ -535,13 +526,13 @@ public:
 
   constexpr void __cordl_internal_set__netPacketProcessor(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr void __cordl_internal_set__requestEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* value);
+  constexpr void __cordl_internal_set__requestEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_RequestEventData>* value);
 
   constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  constexpr void __cordl_internal_set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* value);
+  constexpr void __cordl_internal_set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* value);
 
-  /// @brief Method .ctor, addr 0x3a57c28, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aae898, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetSocket* socket);
 
 protected:
@@ -558,14 +549,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NatPunchModule(NatPunchModule const&) = delete;
 
+  /// @brief Field MaxTokenLength offset 0xffffffff size 0x4
+  static constexpr int32_t MaxTokenLength{ static_cast<int32_t>(0x100) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16529 };
+
   /// @brief Field _socket, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::NetSocket* ____socket;
 
   /// @brief Field _requestEvents, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* ____requestEvents;
+  ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_RequestEventData>* ____requestEvents;
 
   /// @brief Field _successEvents, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* ____successEvents;
+  ::System::Collections::Generic::Queue_1<::LiteNetLib::NatPunchModule_SuccessEventData>* ____successEvents;
 
   /// @brief Field _cacheReader, offset: 0x28, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataReader* ____cacheReader;
@@ -579,17 +576,9 @@ public:
   /// @brief Field _natPunchListener, offset: 0x40, size: 0x8, def value: None
   ::LiteNetLib::INatPunchListener* ____natPunchListener;
 
-  /// @brief Field MaxTokenLength offset 0xffffffff size 0x4
-  static constexpr int32_t MaxTokenLength{ static_cast<int32_t>(0x100) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::NatPunchModule, ____socket) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::NatPunchModule, ____requestEvents) == 0x18, "Offset mismatch!");
@@ -604,14 +593,16 @@ static_assert(offsetof(::LiteNetLib::NatPunchModule, ____netPacketProcessor) == 
 
 static_assert(offsetof(::LiteNetLib::NatPunchModule, ____natPunchListener) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::NatPunchModule, 0x48>, "Size mismatch!");
+
 } // namespace LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NatPunchModule);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
-NEED_NO_BOX(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
-NEED_NO_BOX(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket*, "LiteNetLib", "NatPunchModule/NatIntroduceResponsePacket");
-NEED_NO_BOX(::LiteNetLib::__NatPunchModule__NatPunchPacket);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NatPunchModule__NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NatPunchModule__RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::__NatPunchModule__SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
+NEED_NO_BOX(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
+NEED_NO_BOX(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*, "LiteNetLib", "NatPunchModule/NatIntroduceResponsePacket");
+NEED_NO_BOX(::LiteNetLib::NatPunchModule_NatPunchPacket);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule_NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule_RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NatPunchModule_SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");

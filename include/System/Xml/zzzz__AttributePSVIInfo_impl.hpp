@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::AttributePSVIInfo::*)()>(&::System::Xml::AttributePSVIInfo::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x42cc3b0;
+  constexpr static std::size_t addrs = 0x432d6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::AttributePSVIInfo*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::AttributePSVIInfo::*)()>(&::System::Xml::AttributePSVIInfo::Reset)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x42cc414;
+  constexpr static std::size_t addrs = 0x432d728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::AttributePSVIInfo*>::get(), "Reset",
@@ -58,7 +58,7 @@ constexpr ::System::Object*& System::Xml::AttributePSVIInfo::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typedAttributeValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::AttributePSVIInfo::__cordl_internal_get_typedAttributeValue() const {
+constexpr ::System::Object* const& System::Xml::AttributePSVIInfo::__cordl_internal_get_typedAttributeValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typedAttributeValue;
 }
@@ -70,16 +70,13 @@ constexpr ::System::Xml::Schema::XmlSchemaInfo*& System::Xml::AttributePSVIInfo:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeSchemaInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaInfo*> const& System::Xml::AttributePSVIInfo::__cordl_internal_get_attributeSchemaInfo() const {
+constexpr ::System::Xml::Schema::XmlSchemaInfo* const& System::Xml::AttributePSVIInfo::__cordl_internal_get_attributeSchemaInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributeSchemaInfo;
 }
 constexpr void System::Xml::AttributePSVIInfo::__cordl_internal_set_attributeSchemaInfo(::System::Xml::Schema::XmlSchemaInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeSchemaInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::AttributePSVIInfo* System::Xml::AttributePSVIInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::AttributePSVIInfo*>());
 }
 inline void System::Xml::AttributePSVIInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::AttributePSVIInfo*>::get(), ".ctor",
@@ -90,6 +87,9 @@ inline void System::Xml::AttributePSVIInfo::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::AttributePSVIInfo*>::get(), "Reset",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::AttributePSVIInfo* System::Xml::AttributePSVIInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::AttributePSVIInfo*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::AttributePSVIInfo::AttributePSVIInfo() {}

@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7de40;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x3bdf694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b7df00;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3bdf750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update)> {
   constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x3b7dfd0;
+  constexpr static std::size_t addrs = 0x3bdf81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,14 +58,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)(
-    ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged)> {
+    ::GlobalNamespace::MultiplayerController_State)>(&::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b7def0;
+  constexpr static std::size_t addrs = 0x3bdf740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
     return ___internal_method;
   }
 };
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::*)()>(
     &::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b7e7b0;
+  constexpr static std::size_t addrs = 0x3bdfffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,8 +184,7 @@ constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::Multip
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const&
-GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get__layoutProvider() const {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
@@ -205,18 +204,18 @@ constexpr void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*&
 GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get__reusablePlayersList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusablePlayersList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* const&
 GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get__reusablePlayersList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusablePlayersList;
 }
 constexpr void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_set__reusablePlayersList(
-    ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value) {
+    ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____reusablePlayersList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -225,7 +224,7 @@ GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSpeedsDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>* const&
 GlobalNamespace::MultiplayerVerticalPlayerMovementManager::__cordl_internal_get__currentSpeedsDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSpeedsDictionary;
@@ -265,20 +264,20 @@ inline void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Update() 
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state) {
+inline void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::HandleStateChanged(::GlobalNamespace::MultiplayerController_State state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
-}
-inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>());
 }
 inline void GlobalNamespace::MultiplayerVerticalPlayerMovementManager::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* GlobalNamespace::MultiplayerVerticalPlayerMovementManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager::MultiplayerVerticalPlayerMovementManager() {}

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeChangedEventArgs::*)(
     ::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::System::Xml::XmlNode*, ::StringW, ::StringW, ::System::Xml::XmlNodeChangedAction)>(&::System::Xml::XmlNodeChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42e2bd8;
+  constexpr static std::size_t addrs = 0x4343eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeChangedAction (::System::Xml::XmlNodeChangedEventArgs::*)()>(
     &::System::Xml::XmlNodeChangedEventArgs::get_Action)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e2c74;
+  constexpr static std::size_t addrs = 0x4343f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeChangedEventArgs*>::get(), "get_Action",
@@ -53,7 +53,7 @@ constexpr ::System::Xml::XmlNode*& System::Xml::XmlNodeChangedEventArgs::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_node() const {
+constexpr ::System::Xml::XmlNode* const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_node() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___node;
 }
@@ -65,7 +65,7 @@ constexpr ::System::Xml::XmlNode*& System::Xml::XmlNodeChangedEventArgs::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldParent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_oldParent() const {
+constexpr ::System::Xml::XmlNode* const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_oldParent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldParent;
 }
@@ -77,7 +77,7 @@ constexpr ::System::Xml::XmlNode*& System::Xml::XmlNodeChangedEventArgs::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newParent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_newParent() const {
+constexpr ::System::Xml::XmlNode* const& System::Xml::XmlNodeChangedEventArgs::__cordl_internal_get_newParent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newParent;
 }
@@ -109,10 +109,6 @@ constexpr void System::Xml::XmlNodeChangedEventArgs::__cordl_internal_set_newVal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::XmlNodeChangedEventArgs* System::Xml::XmlNodeChangedEventArgs::New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent,
-                                                                                              ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlNodeChangedEventArgs*>(node, oldParent, newParent, oldValue, newValue, action));
-}
 inline void System::Xml::XmlNodeChangedEventArgs::_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                                                         ::System::Xml::XmlNodeChangedAction action) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,6 +123,10 @@ inline ::System::Xml::XmlNodeChangedAction System::Xml::XmlNodeChangedEventArgs:
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeChangedEventArgs*>::get(), "get_Action",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNodeChangedAction, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlNodeChangedEventArgs* System::Xml::XmlNodeChangedEventArgs::New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent,
+                                                                                              ::StringW oldValue, ::StringW newValue, ::System::Xml::XmlNodeChangedAction action) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlNodeChangedEventArgs*>(node, oldParent, newParent, oldValue, newValue, action));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlNodeChangedEventArgs::XmlNodeChangedEventArgs() {}

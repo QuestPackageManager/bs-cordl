@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__StreamReader_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnexceptionalStreamReader)
@@ -21,41 +19,40 @@ class UnexceptionalStreamReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::UnexceptionalStreamReader);
-// Type: System.IO::UnexceptionalStreamReader
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.StreamReader
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::UnexceptionalStreamReader*
+// CS Name: System.IO.UnexceptionalStreamReader
 class CORDL_TYPE UnexceptionalStreamReader : public ::System::IO::StreamReader {
 public:
   // Declarations
   /// @brief Field newline, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_newline, put = setStaticF_newline)) ::ArrayW<bool, ::Array<bool>*> newline;
+  __declspec(property(get = getStaticF_newline, put = setStaticF_newline)) ::ArrayW<bool, ::Array<bool>*> newline;
 
   /// @brief Field newlineChar, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
+  __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
 
-  /// @brief Method CheckEOL, addr 0x3d21e54, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CheckEOL, addr 0x3d81fc8, size 0x198, virtual false, abstract: false, final false
   inline bool CheckEOL(char16_t current);
 
   static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x3d21abc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x3d81c30, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x3d21b44, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3d81cb8, size 0x88, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x3d21bcc, size 0x288, virtual true, abstract: false, final false
-  inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
+  /// @brief Method Read, addr 0x3d81d40, size 0x288, virtual true, abstract: false, final false
+  inline int32_t Read(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x3d21fec, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x3d82160, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x3d22074, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x3d821e8, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method .ctor, addr 0x3d21a4c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d81bc0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_newline();

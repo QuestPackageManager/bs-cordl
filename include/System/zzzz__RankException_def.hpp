@@ -18,11 +18,10 @@ class RankException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::RankException);
-// Type: System::RankException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::RankException*
+// CS Name: System.RankException
 class CORDL_TYPE RankException : public ::System::SystemException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::RankException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d9b088, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfb0f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d9b100, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfb170, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d9b0e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfb150, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

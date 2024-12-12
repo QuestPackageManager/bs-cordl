@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Cache::RequestCachePolicy::*)(::System::Net::Cache::RequestCacheLevel)>(
     &::System::Net::Cache::RequestCachePolicy::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x438c914;
+  constexpr static std::size_t addrs = 0x43edc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Cache::RequestCacheLevel (::System::Net::Cache::RequestCachePolicy::*)()>(
     &::System::Net::Cache::RequestCachePolicy::get_Level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x438ca18;
+  constexpr static std::size_t addrs = 0x43edd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Cache::RequestCachePolicy*>::get(), "get_Level",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Cache::RequestCachePolicy::*)()>(&::System::Net::Cache::RequestCachePolicy::ToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x438ca20;
+  constexpr static std::size_t addrs = 0x43edd34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,9 +59,6 @@ constexpr void System::Net::Cache::RequestCachePolicy::__cordl_internal_set_m_Le
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Level = value;
 }
-inline ::System::Net::Cache::RequestCachePolicy* System::Net::Cache::RequestCachePolicy::New_ctor(::System::Net::Cache::RequestCacheLevel level) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Cache::RequestCachePolicy*>(level));
-}
 inline void System::Net::Cache::RequestCachePolicy::_ctor(::System::Net::Cache::RequestCacheLevel level) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Cache::RequestCachePolicy*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -77,6 +74,9 @@ inline ::StringW System::Net::Cache::RequestCachePolicy::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Cache::RequestCachePolicy*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Net::Cache::RequestCachePolicy* System::Net::Cache::RequestCachePolicy::New_ctor(::System::Net::Cache::RequestCacheLevel level) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Cache::RequestCachePolicy*>(level));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Cache::RequestCachePolicy::RequestCachePolicy() {}

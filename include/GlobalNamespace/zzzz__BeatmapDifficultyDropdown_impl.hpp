@@ -11,76 +11,76 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapDifficultyDropdown____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDifficultyDropdown___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDifficultyDropdown____c::*)()>(
-    &::GlobalNamespace::__BeatmapDifficultyDropdown____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown___c::*)()>(
+    &::GlobalNamespace::BeatmapDifficultyDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af5d10;
+  constexpr static std::size_t addrs = 0x3b55568;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapDifficultyDropdown____c._Start_b__11_0
+//  Writing Method size for method: ::GlobalNamespace::BeatmapDifficultyDropdown___c._Start_b__11_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BeatmapDifficultyDropdown____c::*)(
-    ::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*)>(&::GlobalNamespace::__BeatmapDifficultyDropdown____c::_Start_b__11_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapDifficultyDropdown___c::*)(
+    ::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*)>(&::GlobalNamespace::BeatmapDifficultyDropdown___c::_Start_b__11_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3af5d18;
+  constexpr static std::size_t addrs = 0x3b55570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__BeatmapDifficultyDropdown____c::setStaticF___9(::GlobalNamespace::__BeatmapDifficultyDropdown____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__BeatmapDifficultyDropdown____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get>(
-      std::forward<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>(value));
+inline void GlobalNamespace::BeatmapDifficultyDropdown___c::setStaticF___9(::GlobalNamespace::BeatmapDifficultyDropdown___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BeatmapDifficultyDropdown___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get>(
+      std::forward<::GlobalNamespace::BeatmapDifficultyDropdown___c*>(value));
 }
-inline ::GlobalNamespace::__BeatmapDifficultyDropdown____c* GlobalNamespace::__BeatmapDifficultyDropdown____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__BeatmapDifficultyDropdown____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get>();
+inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* GlobalNamespace::BeatmapDifficultyDropdown___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapDifficultyDropdown___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get>();
 }
-inline void GlobalNamespace::__BeatmapDifficultyDropdown____c::setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value) {
+inline void GlobalNamespace::BeatmapDifficultyDropdown___c::setStaticF___9__11_0(::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>*, "<>9__11_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get>(
       std::forward<::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* GlobalNamespace::__BeatmapDifficultyDropdown____c::getStaticF___9__11_0() {
+inline ::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>* GlobalNamespace::BeatmapDifficultyDropdown___c::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*, ::StringW>*, "<>9__11_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get>();
 }
-inline ::GlobalNamespace::__BeatmapDifficultyDropdown____c* GlobalNamespace::__BeatmapDifficultyDropdown____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>());
-}
-inline void GlobalNamespace::__BeatmapDifficultyDropdown____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::BeatmapDifficultyDropdown___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__BeatmapDifficultyDropdown____c::_Start_b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x) {
+inline ::StringW GlobalNamespace::BeatmapDifficultyDropdown___c::_Start_b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDifficultyDropdown____c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown___c*>::get(), "<Start>b__11_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
 }
+inline ::GlobalNamespace::BeatmapDifficultyDropdown___c* GlobalNamespace::BeatmapDifficultyDropdown___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDifficultyDropdown___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapDifficultyDropdown____c::__BeatmapDifficultyDropdown____c() {}
+constexpr ::GlobalNamespace::BeatmapDifficultyDropdown___c::BeatmapDifficultyDropdown___c() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDifficultyDropdown.add_didSelectCellWithIdxEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af5528;
+  constexpr static std::size_t addrs = 0x3b54d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af55d8;
+  constexpr static std::size_t addrs = 0x3b54e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(
         &::GlobalNamespace::BeatmapDifficultyDropdown::get_beatmapDifficultyData)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3af5688;
+  constexpr static std::size_t addrs = 0x3b54ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(),
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::get_includeAllDifficulties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af5860;
+  constexpr static std::size_t addrs = 0x3b550b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(),
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(bool)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::set_includeAllDifficulties)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3af5868;
+  constexpr static std::size_t addrs = 0x3b550c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::Start)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3af5874;
+  constexpr static std::size_t addrs = 0x3b550cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(), "Start",
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3af5a14;
+  constexpr static std::size_t addrs = 0x3b5526c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficultyMask (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::GetSelectedBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3af5ae4;
+  constexpr static std::size_t addrs = 0x3b5533c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::SelectCellWithBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3af5bb4;
+  constexpr static std::size_t addrs = 0x3b5540c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::GetIdxForBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3af5be4;
+  constexpr static std::size_t addrs = 0x3b5543c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::BeatmapDifficultyDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3af5c88;
+  constexpr static std::size_t addrs = 0x3b554e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultyDropdown::*)()>(&::GlobalNamespace::BeatmapDifficultyDropdown::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af5cac;
+  constexpr static std::size_t addrs = 0x3b55504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(), ".ctor",
@@ -265,7 +265,7 @@ constexpr ::System::Action_1<int32_t>*& GlobalNamespace::BeatmapDifficultyDropdo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::BeatmapDifficultyDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::BeatmapDifficultyDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
@@ -278,7 +278,7 @@ GlobalNamespace::BeatmapDifficultyDropdown::__cordl_internal_get__beatmapDifficu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficultyData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* const&
 GlobalNamespace::BeatmapDifficultyDropdown::__cordl_internal_get__beatmapDifficultyData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficultyData;
@@ -365,13 +365,13 @@ inline void GlobalNamespace::BeatmapDifficultyDropdown::HandleSimpleTextDropdown
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropdownWithTableView, idx);
 }
-inline ::GlobalNamespace::BeatmapDifficultyDropdown* GlobalNamespace::BeatmapDifficultyDropdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDifficultyDropdown*>());
-}
 inline void GlobalNamespace::BeatmapDifficultyDropdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDifficultyDropdown*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapDifficultyDropdown* GlobalNamespace::BeatmapDifficultyDropdown::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapDifficultyDropdown*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapDifficultyDropdown::BeatmapDifficultyDropdown() {}

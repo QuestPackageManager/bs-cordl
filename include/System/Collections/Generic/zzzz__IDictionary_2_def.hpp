@@ -3,19 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IDictionary_2)
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -23,13 +17,12 @@ template <typename TKey, typename TValue> class IDictionary_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::IDictionary_2);
-// Type: System.Collections.Generic::IDictionary`2
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::IDictionary`2<TKey,TValue>*
+// CS Name: System.Collections.Generic.IDictionary`2<TKey,TValue>
 class CORDL_TYPE IDictionary_2 {
 public:
   // Declarations
@@ -48,25 +41,25 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Add(TKey key, TValue value);
 
-  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ContainsKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Remove, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Remove(TKey key);
 
-  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  /// @brief Method TryGetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
 
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue get_Item(TKey key);
 
-  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Keys, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
 
-  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Values, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<TValue>* get_Values();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
@@ -80,12 +73,8 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Item(TKey key, TValue value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDictionary_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDictionary_2(IDictionary_2&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDictionary_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

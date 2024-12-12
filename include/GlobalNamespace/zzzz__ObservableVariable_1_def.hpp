@@ -3,14 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
+#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariable_1)
-namespace GlobalNamespace {
-class IObservableChange;
-}
-namespace GlobalNamespace {
-template <typename T> class IValue_1;
-}
 namespace System {
 class Action;
 }
@@ -20,13 +16,12 @@ template <typename T> class ObservableVariable_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ObservableVariable_1);
-// Type: ::ObservableVariable`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IObservableChange, IValue`1<T>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ObservableVariable`1<T>*
+// CS Name: ObservableVariable`1<T>
 class CORDL_TYPE ObservableVariable_1 : public ::System::Object {
 public:
   // Declarations
@@ -50,9 +45,9 @@ public:
 
   constexpr T& __cordl_internal_get__value();
 
-  constexpr ::System::Action*& __cordl_internal_get_didChangeEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didChangeEvent();
 
   constexpr void __cordl_internal_set__value(T value);
 
@@ -96,14 +91,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObservableVariable_1(ObservableVariable_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17146 };
+
   /// @brief Field didChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didChangeEvent;
 
   /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
   T ____value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17208 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

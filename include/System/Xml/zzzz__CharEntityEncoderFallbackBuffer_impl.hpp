@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallbackBuffer::*)(::System::Xml::CharEntityEncoderFallback*)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41df6b8;
+  constexpr static std::size_t addrs = 0x42409cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, int32_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x41df7c8;
+  constexpr static std::size_t addrs = 0x4240adc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, char16_t, int32_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x41df9b8;
+  constexpr static std::size_t addrs = 0x4240ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x41dfc48;
+  constexpr static std::size_t addrs = 0x4240f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::MovePrevious)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41dfca0;
+  constexpr static std::size_t addrs = 0x4240fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x41dfcbc;
+  constexpr static std::size_t addrs = 0x4240fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallbackBuffer::*)()>(&::System::Xml::CharEntityEncoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41dfcf0;
+  constexpr static std::size_t addrs = 0x4241004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallbackBuffer::*)(char16_t, char16_t)>(
     &::System::Xml::CharEntityEncoderFallbackBuffer::SurrogateCharToUtf32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41dfc38;
+  constexpr static std::size_t addrs = 0x4240f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ constexpr ::System::Xml::CharEntityEncoderFallback*& System::Xml::CharEntityEnco
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallback*> const& System::Xml::CharEntityEncoderFallbackBuffer::__cordl_internal_get_parent() const {
+constexpr ::System::Xml::CharEntityEncoderFallback* const& System::Xml::CharEntityEncoderFallbackBuffer::__cordl_internal_get_parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
@@ -163,9 +163,6 @@ constexpr int32_t const& System::Xml::CharEntityEncoderFallbackBuffer::__cordl_i
 constexpr void System::Xml::CharEntityEncoderFallbackBuffer::__cordl_internal_set_charEntityIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___charEntityIndex = value;
-}
-inline ::System::Xml::CharEntityEncoderFallbackBuffer* System::Xml::CharEntityEncoderFallbackBuffer::New_ctor(::System::Xml::CharEntityEncoderFallback* parent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::CharEntityEncoderFallbackBuffer*>(parent));
 }
 inline void System::Xml::CharEntityEncoderFallbackBuffer::_ctor(::System::Xml::CharEntityEncoderFallback* parent) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -208,6 +205,9 @@ inline int32_t System::Xml::CharEntityEncoderFallbackBuffer::SurrogateCharToUtf3
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::CharEntityEncoderFallbackBuffer*>::get(), "SurrogateCharToUtf32", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, highSurrogate, lowSurrogate);
+}
+inline ::System::Xml::CharEntityEncoderFallbackBuffer* System::Xml::CharEntityEncoderFallbackBuffer::New_ctor(::System::Xml::CharEntityEncoderFallback* parent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::CharEntityEncoderFallbackBuffer*>(parent));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::CharEntityEncoderFallbackBuffer::CharEntityEncoderFallbackBuffer() {}

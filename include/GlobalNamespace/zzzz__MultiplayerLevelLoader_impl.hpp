@@ -2,12 +2,12 @@
 // IWYU pragma private; include "GlobalNamespace/MultiplayerLevelLoader.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_impl.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerLevelLoader_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelLoader_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
@@ -15,85 +15,80 @@
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelLoader_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState() {}
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState::NotLoading{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState::LoadingBeatmap{ static_cast<int32_t>(
-    0x1) };
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState::WaitingForCountdown{
-  static_cast<int32_t>(0x2)
-};
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21.MoveNext
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState() {}
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState::NotLoading{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState::LoadingBeatmap{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState::WaitingForCountdown{ static_cast<int32_t>(
+    0x2) };
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::*)()>(
-    &::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::*)()>(
+    &::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::MoveNext)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3ba82c8;
+  constexpr static std::size_t addrs = 0x3c0ac54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ba8798;
+  constexpr static std::size_t addrs = 0x3c0b124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::MoveNext() {
+inline void GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::MultiplayerLevelLoader*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "gameplaySetupData", ty: "::GlobalNamespace::ILevelGameplaySetupData*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21(
+// "::GlobalNamespace::MultiplayerLevelLoader*", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameplaySetupData", ty: "::GlobalNamespace::ILevelGameplaySetupData*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __t__builder, ::GlobalNamespace::MultiplayerLevelLoader* __4__this,
     ::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept {
@@ -105,14 +100,14 @@ constexpr ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsyn
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21::__MultiplayerLevelLoader___LoadBeatmapLevelDataAsync_d__21() {}
+constexpr ::GlobalNamespace::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21::MultiplayerLevelLoader__LoadBeatmapLevelDataAsync_d__21() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelLoader.add_stillDownloadingSongEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerLevelLoader::add_stillDownloadingSongEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba7c68;
+  constexpr static std::size_t addrs = 0x3c0a5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerLevelLoader::remove_stillDownloadingSongEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba7d04;
+  constexpr static std::size_t addrs = 0x3c0a690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(
     ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*)>(&::GlobalNamespace::MultiplayerLevelLoader::add_countdownFinishedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ba7da0;
+  constexpr static std::size_t addrs = 0x3c0a72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(
     ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*)>(&::GlobalNamespace::MultiplayerLevelLoader::remove_countdownFinishedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ba7e50;
+  constexpr static std::size_t addrs = 0x3c0a7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(::GlobalNamespace::ILevelGameplaySetupData*, int64_t)>(
     &::GlobalNamespace::MultiplayerLevelLoader::LoadLevel)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ba7f00;
+  constexpr static std::size_t addrs = 0x3c0a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerLevelLoader::SetNewStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba8088;
+  constexpr static std::size_t addrs = 0x3c0aa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)()>(&::GlobalNamespace::MultiplayerLevelLoader::ClearLoading)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ba8090;
+  constexpr static std::size_t addrs = 0x3c0aa1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader*>::get(),
@@ -217,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)()>(&::GlobalNamespace::MultiplayerLevelLoader::Tick)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3ba80c4;
+  constexpr static std::size_t addrs = 0x3c0aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader*>::get(), "Tick",
@@ -231,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* (
     ::GlobalNamespace::MultiplayerLevelLoader::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(&::GlobalNamespace::MultiplayerLevelLoader::LoadBeatmapLevelDataAsync)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ba7f90;
+  constexpr static std::size_t addrs = 0x3c0a91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLevelLoader::*)()>(&::GlobalNamespace::MultiplayerLevelLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba82c0;
+  constexpr static std::size_t addrs = 0x3c0ac4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader*>::get(), ".ctor",
@@ -253,19 +248,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ITickable"
-constexpr GlobalNamespace::MultiplayerLevelLoader::operator ::Zenject::ITickable*() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ITickable"
-constexpr ::Zenject::ITickable* GlobalNamespace::MultiplayerLevelLoader::i___Zenject__ITickable() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
@@ -277,7 +264,7 @@ constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::MultiplayerLe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelsModel() const {
+constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModel;
 }
@@ -289,8 +276,7 @@ constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel*& GlobalNamespace::Mu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsEntitlementModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsEntitlementModel*> const&
-GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelsEntitlementModel() const {
+constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelsEntitlementModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsEntitlementModel;
 }
@@ -302,7 +288,7 @@ constexpr ::System::Action*& GlobalNamespace::MultiplayerLevelLoader::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stillDownloadingSongEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get_stillDownloadingSongEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get_stillDownloadingSongEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stillDownloadingSongEvent;
 }
@@ -315,7 +301,7 @@ GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get_countdownFinishedE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___countdownFinishedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* const&
 GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get_countdownFinishedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___countdownFinishedEvent;
@@ -325,15 +311,15 @@ GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_set_countdownFinishedE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___countdownFinishedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__loaderState() {
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__loaderState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loaderState;
 }
-constexpr ::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__loaderState() const {
+constexpr ::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__loaderState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____loaderState;
 }
-constexpr void GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_set__loaderState(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState value) {
+constexpr void GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_set__loaderState(::GlobalNamespace::MultiplayerLevelLoader_MultiplayerBeatmapLoaderState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____loaderState = value;
 }
@@ -341,8 +327,7 @@ constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::Multip
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getBeatmapCancellationTokenSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
-GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__getBeatmapCancellationTokenSource() const {
+constexpr ::System::Threading::CancellationTokenSource* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__getBeatmapCancellationTokenSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getBeatmapCancellationTokenSource;
 }
@@ -354,8 +339,7 @@ constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevel
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getBeatmapLevelResultTask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>*> const&
-GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__getBeatmapLevelResultTask() const {
+constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__getBeatmapLevelResultTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getBeatmapLevelResultTask;
 }
@@ -367,7 +351,7 @@ constexpr ::GlobalNamespace::ILevelGameplaySetupData*& GlobalNamespace::Multipla
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplaySetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelGameplaySetupData*> const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__gameplaySetupData() const {
+constexpr ::GlobalNamespace::ILevelGameplaySetupData* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__gameplaySetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplaySetupData;
 }
@@ -379,7 +363,7 @@ constexpr ::GlobalNamespace::IBeatmapLevelData*& GlobalNamespace::MultiplayerLev
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelData() const {
+constexpr ::GlobalNamespace::IBeatmapLevelData* const& GlobalNamespace::MultiplayerLevelLoader::__cordl_internal_get__beatmapLevelData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelData;
 }
@@ -467,13 +451,21 @@ GlobalNamespace::MultiplayerLevelLoader::LoadBeatmapLevelDataAsync(::GlobalNames
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILevelGameplaySetupData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>*, false>(this, ___internal_method, gameplaySetupData);
 }
-inline ::GlobalNamespace::MultiplayerLevelLoader* GlobalNamespace::MultiplayerLevelLoader::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLevelLoader*>());
-}
 inline void GlobalNamespace::MultiplayerLevelLoader::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLevelLoader*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLevelLoader* GlobalNamespace::MultiplayerLevelLoader::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLevelLoader*>());
+}
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr GlobalNamespace::MultiplayerLevelLoader::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* GlobalNamespace::MultiplayerLevelLoader::i___Zenject__ITickable() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLevelLoader::MultiplayerLevelLoader() {}

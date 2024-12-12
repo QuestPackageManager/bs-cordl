@@ -19,14 +19,17 @@ class MeansImplicitUseAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::MeansImplicitUseAttribute);
-// Type: JetBrains.Annotations::MeansImplicitUseAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies JetBrains.Annotations.ImplicitUseKindFlags, JetBrains.Annotations.ImplicitUseTargetFlags, System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::MeansImplicitUseAttribute*
+// CS Name: JetBrains.Annotations.MeansImplicitUseAttribute
 class CORDL_TYPE MeansImplicitUseAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_TargetFlags, put = set_TargetFlags)) ::JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
+
+  __declspec(property(get = get_UseKindFlags, put = set_UseKindFlags)) ::JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags;
+
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__TargetFlags_k__BackingField,
                       put = __cordl_internal_set__TargetFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
@@ -36,6 +39,10 @@ public:
                       put = __cordl_internal_set__UseKindFlags_k__BackingField)) ::JetBrains::Annotations::ImplicitUseKindFlags _UseKindFlags_k__BackingField;
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor();
+
+  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
+
+  static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
 
   static inline ::JetBrains::Annotations::MeansImplicitUseAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags,
                                                                               ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
@@ -52,11 +59,29 @@ public:
 
   constexpr void __cordl_internal_set__UseKindFlags_k__BackingField(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
-  /// @brief Method .ctor, addr 0x47fe078, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0aa8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47fe09c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0b24, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
+
+  /// @brief Method .ctor, addr 0x4af0af8, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
+
+  /// @brief Method .ctor, addr 0x4af0acc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
+
+  /// @brief Method get_TargetFlags, addr 0x4af0b60, size 0x8, virtual false, abstract: false, final false
+  inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
+
+  /// @brief Method get_UseKindFlags, addr 0x4af0b50, size 0x8, virtual false, abstract: false, final false
+  inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
+
+  /// @brief Method set_TargetFlags, addr 0x4af0b68, size 0x8, virtual false, abstract: false, final false
+  inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
+
+  /// @brief Method set_UseKindFlags, addr 0x4af0b58, size 0x8, virtual false, abstract: false, final false
+  inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
 
 protected:
   // Ctor Parameters []
@@ -72,23 +97,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeansImplicitUseAttribute(MeansImplicitUseAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18454 };
+
   /// @brief Field <UseKindFlags>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseKindFlags ____UseKindFlags_k__BackingField;
 
   /// @brief Field <TargetFlags>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::JetBrains::Annotations::ImplicitUseTargetFlags ____TargetFlags_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MeansImplicitUseAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::MeansImplicitUseAttribute, ____UseKindFlags_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::JetBrains::Annotations::MeansImplicitUseAttribute, ____TargetFlags_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::MeansImplicitUseAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::MeansImplicitUseAttribute);

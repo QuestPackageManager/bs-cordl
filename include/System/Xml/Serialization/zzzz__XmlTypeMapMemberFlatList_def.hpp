@@ -14,11 +14,10 @@ class XmlTypeMapMemberFlatList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberFlatList);
-// Type: System.Xml.Serialization::XmlTypeMapMemberFlatList
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlTypeMapMemberExpandable
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeMapMemberFlatList*
+// CS Name: System.Xml.Serialization.XmlTypeMapMemberFlatList
 class CORDL_TYPE XmlTypeMapMemberFlatList : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable {
 public:
   // Declarations
@@ -29,19 +28,19 @@ public:
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberFlatList* New_ctor();
 
-  constexpr ::System::Xml::Serialization::ListMap*& __cordl_internal_get__listMap();
+  constexpr ::System::Xml::Serialization::ListMap* const& __cordl_internal_get__listMap() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::ListMap*> const& __cordl_internal_get__listMap() const;
+  constexpr ::System::Xml::Serialization::ListMap*& __cordl_internal_get__listMap();
 
   constexpr void __cordl_internal_set__listMap(::System::Xml::Serialization::ListMap* value);
 
-  /// @brief Method .ctor, addr 0x432d708, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438ea1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ListMap, addr 0x432d6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListMap, addr 0x438ea0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::ListMap* get_ListMap();
 
-  /// @brief Method set_ListMap, addr 0x432d700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ListMap, addr 0x438ea14, size 0x8, virtual false, abstract: false, final false
   inline void set_ListMap(::System::Xml::Serialization::ListMap* value);
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlTypeMapMemberFlatList(XmlTypeMapMemberFlatList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7458 };
+
   /// @brief Field _listMap, offset: 0x80, size: 0x8, def value: None
   ::System::Xml::Serialization::ListMap* ____listMap;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeMapMemberFlatList, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeMapMemberFlatList, ____listMap) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeMapMemberFlatList, 0x88>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeMapMemberFlatList);

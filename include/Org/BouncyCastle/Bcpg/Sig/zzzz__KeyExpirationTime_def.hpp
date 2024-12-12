@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyExpirationTime)
 // Forward declare root types
@@ -13,11 +12,10 @@ class KeyExpirationTime;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime);
-// Type: Org.BouncyCastle.Bcpg.Sig::KeyExpirationTime
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::KeyExpirationTime*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.KeyExpirationTime
 class CORDL_TYPE KeyExpirationTime : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
@@ -27,16 +25,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime* New_ctor(bool critical, int64_t seconds);
 
-  /// @brief Method TimeToBytes, addr 0x2609504, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x263c7f0, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(int64_t t);
 
-  /// @brief Method .ctor, addr 0x2609598, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c884, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x26095e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263c8cc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t seconds);
 
-  /// @brief Method get_Time, addr 0x260962c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x263c918, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_Time();
 
 protected:

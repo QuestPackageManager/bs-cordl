@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonValue_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BsonBinary)
 namespace Newtonsoft::Json::Bson {
@@ -17,11 +16,10 @@ class BsonBinary;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinary);
-// Type: Newtonsoft.Json.Bson::BsonBinary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Bson.BsonBinaryType, Newtonsoft.Json.Bson.BsonValue
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Bson::BsonBinary*
+// CS Name: Newtonsoft.Json.Bson.BsonBinary
 class CORDL_TYPE BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
@@ -39,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
-  /// @brief Method .ctor, addr 0x3ef1b04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f51bb0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::Newtonsoft::Json::Bson::BsonBinaryType binaryType);
 
-  /// @brief Method get_BinaryType, addr 0x3ef1af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryType, addr 0x3f51ba0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();
 
-  /// @brief Method set_BinaryType, addr 0x3ef1afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BinaryType, addr 0x3f51ba8, size 0x8, virtual false, abstract: false, final false
   inline void set_BinaryType(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
 protected:
@@ -62,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BsonBinary(BsonBinary const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10513 };
+
   /// @brief Field <BinaryType>k__BackingField, offset: 0x29, size: 0x1, def value: None
   ::Newtonsoft::Json::Bson::BsonBinaryType ____BinaryType_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonBinary, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Bson::BsonBinary, ____BinaryType_k__BackingField) == 0x29, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Bson::BsonBinary, 0x30>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Bson
 NEED_NO_BOX(::Newtonsoft::Json::Bson::BsonBinary);

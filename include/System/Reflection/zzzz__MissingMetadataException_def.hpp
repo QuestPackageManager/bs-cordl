@@ -11,17 +11,16 @@ class MissingMetadataException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::MissingMetadataException);
-// Type: System.Reflection::MissingMetadataException
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.TypeAccessException
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::MissingMetadataException*
+// CS Name: System.Reflection.MissingMetadataException
 class CORDL_TYPE MissingMetadataException : public ::System::TypeAccessException {
 public:
   // Declarations
   static inline ::System::Reflection::MissingMetadataException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cc8ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d28e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

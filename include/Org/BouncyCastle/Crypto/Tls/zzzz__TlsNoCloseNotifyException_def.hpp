@@ -11,17 +11,16 @@ class TlsNoCloseNotifyException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException);
-// Type: Org.BouncyCastle.Crypto.Tls::TlsNoCloseNotifyException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.EndOfStreamException
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNoCloseNotifyException*
+// CS Name: Org.BouncyCastle.Crypto.Tls.TlsNoCloseNotifyException
 class CORDL_TYPE TlsNoCloseNotifyException : public ::System::IO::EndOfStreamException {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23fe454, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2431740, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

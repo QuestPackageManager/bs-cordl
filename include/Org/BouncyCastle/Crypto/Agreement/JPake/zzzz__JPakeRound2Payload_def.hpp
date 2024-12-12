@@ -4,7 +4,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JPakeRound2Payload)
 namespace Org::BouncyCastle::Math {
@@ -16,11 +15,10 @@ class JPakeRound2Payload;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload);
-// Type: Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound2Payload
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound2Payload*
+// CS Name: Org.BouncyCastle.Crypto.Agreement.JPake.JPakeRound2Payload
 class CORDL_TYPE JPakeRound2Payload : public ::System::Object {
 public:
   // Declarations
@@ -44,9 +42,9 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload*
   New_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_a();
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_a() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_a() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_a();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_knowledgeProofForX2s() const;
 
@@ -62,17 +60,17 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26531b4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26864a0, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* a,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2s);
 
-  /// @brief Method get_A, addr 0x26547d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_A, addr 0x2687ac4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_KnowledgeProofForX2s, addr 0x26547e0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2s, addr 0x2687acc, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2s();
 
-  /// @brief Method get_ParticipantId, addr 0x26547d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x2687abc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:
@@ -89,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JPakeRound2Payload(JPakeRound2Payload const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 718 };
+
   /// @brief Field participantId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___participantId;
 
@@ -98,19 +99,16 @@ public:
   /// @brief Field knowledgeProofForX2s, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> ___knowledgeProofForX2s;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 718 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload, ___participantId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload, ___a) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload, ___knowledgeProofForX2s) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Agreement::JPake
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload);

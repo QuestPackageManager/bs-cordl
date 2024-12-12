@@ -10,29 +10,23 @@
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__DirectionalLight_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__DiscLight_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightType_def.hpp"
-#include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__PointLight_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__RectangleLight_def.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__SpotLight_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::GlobalIllumination::LightDataGI.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(
-    ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
+    ::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x486bc04;
+  constexpr static std::size_t addrs = 0x48ccf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
     return ___internal_method;
   }
 };
@@ -40,16 +34,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(
-    ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
+    ::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x486bc78;
+  constexpr static std::size_t addrs = 0x48ccfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
     return ___internal_method;
   }
 };
@@ -57,16 +51,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(
-    ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
+    ::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x486bcf4;
+  constexpr static std::size_t addrs = 0x48cd05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
     return ___internal_method;
   }
 };
@@ -74,16 +68,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(
-    ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
+    ::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x486bd74;
+  constexpr static std::size_t addrs = 0x48cd0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
     return ___internal_method;
   }
 };
@@ -91,16 +85,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(
-    ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>, ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
+    ::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x486bdec;
+  constexpr static std::size_t addrs = 0x48cd154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
     return ___internal_method;
   }
 };
@@ -110,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(int32_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x486be68;
+  constexpr static std::size_t addrs = 0x48cd1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,44 +113,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light,
-                                                                             ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
+inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light,
+                                                                             ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, light, cookie);
 }
-inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> light,
-                                                                             ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
+inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> light,
+                                                                             ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, light, cookie);
 }
-inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light,
-                                                                             ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
+inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light,
+                                                                             ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, light, cookie);
 }
-inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light,
-                                                                             ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
+inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light,
+                                                                             ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, light, cookie);
 }
-inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light,
-                                                                             ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
+inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light,
+                                                                             ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::GlobalIllumination::LightDataGI>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, light, cookie);
 }
 inline void UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake(int32_t lightInstanceID) {

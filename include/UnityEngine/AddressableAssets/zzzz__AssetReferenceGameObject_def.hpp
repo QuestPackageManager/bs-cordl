@@ -15,17 +15,16 @@ class AssetReferenceGameObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceGameObject);
-// Type: UnityEngine.AddressableAssets::AssetReferenceGameObject
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AddressableAssets.AssetReferenceT`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::AssetReferenceGameObject*
-class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::GameObject>> {
+// CS Name: UnityEngine.AddressableAssets.AssetReferenceGameObject
+class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x448f614, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f0928, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -43,7 +42,7 @@ public:
   AssetReferenceGameObject(AssetReferenceGameObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16176 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

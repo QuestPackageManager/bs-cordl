@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MockPlatformAdditionalContentModelInitialDataSO)
 namespace GlobalNamespace {
 class MockPlatformEntitlement;
@@ -18,11 +17,10 @@ class MockPlatformAdditionalContentModelInitialDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO);
-// Type: ::MockPlatformAdditionalContentModelInitialDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlatformAdditionalContentModelInitialDataSO*
+// CS Name: MockPlatformAdditionalContentModelInitialDataSO
 class CORDL_TYPE MockPlatformAdditionalContentModelInitialDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -65,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
-  /// @brief Method .ctor, addr 0x267010c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3fb8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPacksEntitlements, addr 0x26700fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPacksEntitlements, addr 0x26a3fa8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelPacksEntitlements();
 
-  /// @brief Method get_levelsEntitlements, addr 0x26700f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelsEntitlements, addr 0x26a3fa0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();
 
-  /// @brief Method get_packBetterBuyThanLevel, addr 0x2670104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBetterBuyThanLevel, addr 0x26a3fb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_packBetterBuyThanLevel();
 
 protected:
@@ -91,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlatformAdditionalContentModelInitialDataSO(MockPlatformAdditionalContentModelInitialDataSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12764 };
+
   /// @brief Field _levelsEntitlements, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> ____levelsEntitlements;
 
@@ -100,19 +101,16 @@ public:
   /// @brief Field _packBetterBuyThanLevel, offset: 0x28, size: 0x1, def value: None
   bool ____packBetterBuyThanLevel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelsEntitlements) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____levelPacksEntitlements) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, ____packBetterBuyThanLevel) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO);

@@ -11,17 +11,16 @@ class OptionalAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::OptionalAttribute);
-// Type: System.Runtime.InteropServices::OptionalAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::OptionalAttribute*
+// CS Name: System.Runtime.InteropServices.OptionalAttribute
 class CORDL_TYPE OptionalAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::OptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb33a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d13514, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

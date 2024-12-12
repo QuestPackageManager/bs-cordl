@@ -17,13 +17,12 @@ template <typename T> class ISortedList_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ISortedList_1);
-// Type: ::ISortedList`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ISortedList`1<T>*
+// CS Name: ISortedList`1<T>
 class CORDL_TYPE ISortedList_1 {
 public:
   // Declarations
@@ -31,34 +30,30 @@ public:
 
   __declspec(property(get = get_items)) ::System::Collections::Generic::LinkedList_1<T>* items;
 
-  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Insert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Insert(T newItem);
 
-  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Insert, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Insert(::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Remove, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method TouchLastUsedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method TouchLastUsedNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_items, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::LinkedList_1<T>* get_items();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISortedList_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISortedList_1(ISortedList_1&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISortedList_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISortedList_1(ISortedList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

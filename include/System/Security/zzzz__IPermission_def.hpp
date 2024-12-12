@@ -3,39 +3,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Security/zzzz__ISecurityEncodable_def.hpp"
 CORDL_MODULE_EXPORT(IPermission)
-namespace System::Security {
-class ISecurityEncodable;
-}
 // Forward declare root types
 namespace System::Security {
 class IPermission;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::IPermission);
-// Type: System.Security::IPermission
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.ISecurityEncodable
 namespace System::Security {
 // Is value type: false
-// CS Name: ::System.Security::IPermission*
+// CS Name: System.Security.IPermission
 class CORDL_TYPE IPermission {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method Demand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Demand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Demand();
 
-  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsSubsetOf, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
   /// @brief Convert to "::System::Security::ISecurityEncodable"
   constexpr ::System::Security::ISecurityEncodable* i___System__Security__ISecurityEncodable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPermission(IPermission&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

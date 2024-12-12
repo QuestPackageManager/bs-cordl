@@ -12,11 +12,10 @@ struct CalendarId;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::CalendarId);
-// Type: System.Globalization::CalendarId
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::CalendarId
+// CS Name: System.Globalization.CalendarId
 struct CORDL_TYPE CalendarId {
 public:
   // Declarations
@@ -68,82 +67,79 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr CalendarId(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field CHINESELUNISOLAR value: static_cast<uint16_t>(0xfu)
+  /// @brief Field CHINESELUNISOLAR value: U16(15)
   static ::System::Globalization::CalendarId const CHINESELUNISOLAR;
 
-  /// @brief Field GREGORIAN value: static_cast<uint16_t>(0x1u)
+  /// @brief Field GREGORIAN value: U16(1)
   static ::System::Globalization::CalendarId const GREGORIAN;
 
-  /// @brief Field GREGORIAN_ARABIC value: static_cast<uint16_t>(0xau)
+  /// @brief Field GREGORIAN_ARABIC value: U16(10)
   static ::System::Globalization::CalendarId const GREGORIAN_ARABIC;
 
-  /// @brief Field GREGORIAN_ME_FRENCH value: static_cast<uint16_t>(0x9u)
+  /// @brief Field GREGORIAN_ME_FRENCH value: U16(9)
   static ::System::Globalization::CalendarId const GREGORIAN_ME_FRENCH;
 
-  /// @brief Field GREGORIAN_US value: static_cast<uint16_t>(0x2u)
+  /// @brief Field GREGORIAN_US value: U16(2)
   static ::System::Globalization::CalendarId const GREGORIAN_US;
 
-  /// @brief Field GREGORIAN_XLIT_ENGLISH value: static_cast<uint16_t>(0xbu)
+  /// @brief Field GREGORIAN_XLIT_ENGLISH value: U16(11)
   static ::System::Globalization::CalendarId const GREGORIAN_XLIT_ENGLISH;
 
-  /// @brief Field GREGORIAN_XLIT_FRENCH value: static_cast<uint16_t>(0xcu)
+  /// @brief Field GREGORIAN_XLIT_FRENCH value: U16(12)
   static ::System::Globalization::CalendarId const GREGORIAN_XLIT_FRENCH;
 
-  /// @brief Field HEBREW value: static_cast<uint16_t>(0x8u)
+  /// @brief Field HEBREW value: U16(8)
   static ::System::Globalization::CalendarId const HEBREW;
 
-  /// @brief Field HIJRI value: static_cast<uint16_t>(0x6u)
+  /// @brief Field HIJRI value: U16(6)
   static ::System::Globalization::CalendarId const HIJRI;
 
-  /// @brief Field JAPAN value: static_cast<uint16_t>(0x3u)
+  /// @brief Field JAPAN value: U16(3)
   static ::System::Globalization::CalendarId const JAPAN;
 
-  /// @brief Field JAPANESELUNISOLAR value: static_cast<uint16_t>(0xeu)
+  /// @brief Field JAPANESELUNISOLAR value: U16(14)
   static ::System::Globalization::CalendarId const JAPANESELUNISOLAR;
 
-  /// @brief Field JULIAN value: static_cast<uint16_t>(0xdu)
+  /// @brief Field JULIAN value: U16(13)
   static ::System::Globalization::CalendarId const JULIAN;
 
-  /// @brief Field KOREA value: static_cast<uint16_t>(0x5u)
+  /// @brief Field KOREA value: U16(5)
   static ::System::Globalization::CalendarId const KOREA;
 
-  /// @brief Field KOREANLUNISOLAR value: static_cast<uint16_t>(0x14u)
+  /// @brief Field KOREANLUNISOLAR value: U16(20)
   static ::System::Globalization::CalendarId const KOREANLUNISOLAR;
 
-  /// @brief Field LAST_CALENDAR value: static_cast<uint16_t>(0x17u)
+  /// @brief Field LAST_CALENDAR value: U16(23)
   static ::System::Globalization::CalendarId const LAST_CALENDAR;
 
-  /// @brief Field LUNAR_ETO_CHN value: static_cast<uint16_t>(0x11u)
+  /// @brief Field LUNAR_ETO_CHN value: U16(17)
   static ::System::Globalization::CalendarId const LUNAR_ETO_CHN;
 
-  /// @brief Field LUNAR_ETO_KOR value: static_cast<uint16_t>(0x12u)
+  /// @brief Field LUNAR_ETO_KOR value: U16(18)
   static ::System::Globalization::CalendarId const LUNAR_ETO_KOR;
 
-  /// @brief Field LUNAR_ETO_ROKUYOU value: static_cast<uint16_t>(0x13u)
+  /// @brief Field LUNAR_ETO_ROKUYOU value: U16(19)
   static ::System::Globalization::CalendarId const LUNAR_ETO_ROKUYOU;
 
-  /// @brief Field PERSIAN value: static_cast<uint16_t>(0x16u)
+  /// @brief Field PERSIAN value: U16(22)
   static ::System::Globalization::CalendarId const PERSIAN;
 
-  /// @brief Field SAKA value: static_cast<uint16_t>(0x10u)
+  /// @brief Field SAKA value: U16(16)
   static ::System::Globalization::CalendarId const SAKA;
 
-  /// @brief Field TAIWAN value: static_cast<uint16_t>(0x4u)
+  /// @brief Field TAIWAN value: U16(4)
   static ::System::Globalization::CalendarId const TAIWAN;
 
-  /// @brief Field TAIWANLUNISOLAR value: static_cast<uint16_t>(0x15u)
+  /// @brief Field TAIWANLUNISOLAR value: U16(21)
   static ::System::Globalization::CalendarId const TAIWANLUNISOLAR;
 
-  /// @brief Field THAI value: static_cast<uint16_t>(0x7u)
+  /// @brief Field THAI value: U16(7)
   static ::System::Globalization::CalendarId const THAI;
 
-  /// @brief Field UMALQURA value: static_cast<uint16_t>(0x17u)
+  /// @brief Field UMALQURA value: U16(23)
   static ::System::Globalization::CalendarId const UMALQURA;
 
-  /// @brief Field UNINITIALIZED_VALUE value: static_cast<uint16_t>(0x0u)
+  /// @brief Field UNINITIALIZED_VALUE value: U16(0)
   static ::System::Globalization::CalendarId const UNINITIALIZED_VALUE;
 
   /// @brief IL2CPP Metadata Type Index
@@ -152,12 +148,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarId, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::CalendarId, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarId, 0x2>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CalendarId, "System.Globalization", "CalendarId");

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/Ed25519Signer.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Ed25519Signer_def.hpp"
@@ -7,107 +8,104 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Ed25519PublicKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__Ed25519Signer_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer.GenerateSignature
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer.GenerateSignature
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::*)(
-    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*)>(&::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::GenerateSignature)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::*)(
+    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*)>(&::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::GenerateSignature)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x239d1b0;
+  constexpr static std::size_t addrs = 0x23d049c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "GenerateSignature", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), "GenerateSignature", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer.VerifySignature
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer.VerifySignature
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::*)(
-    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::VerifySignature)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::*)(
+    ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::VerifySignature)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x239d3ac;
+  constexpr static std::size_t addrs = 0x23d0698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer.Reset
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::*)()>(
-    &::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::*)()>(
+    &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::Reset)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x239d578;
+  constexpr static std::size_t addrs = 0x23d0864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), "Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::*)()>(
-    &::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::*)()>(
+    &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239cfd0;
+  constexpr static std::size_t addrs = 0x23d02bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*>
-Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey) {
+Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "GenerateSignature", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), "GenerateSignature", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, privateKey);
 }
-inline bool Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey,
-                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
+inline bool Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey,
+                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> signature) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(), "VerifySignature", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, publicKey, signature);
 }
-inline void Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), "Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(),
+                                                                             "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>());
-}
-inline void Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*>());
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer::__Ed25519Signer__Buffer() {}
+constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer::Ed25519Signer_Buffer() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x239cf70;
+  constexpr static std::size_t addrs = 0x23d025c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*>::get(),
@@ -121,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x239cfd8;
+  constexpr static std::size_t addrs = 0x23d02c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Init)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x239d018;
+  constexpr static std::size_t addrs = 0x23d0304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Update)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x239d0f8;
+  constexpr static std::size_t addrs = 0x23d03e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::BlockUpdate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x239d11c;
+  constexpr static std::size_t addrs = 0x23d0408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::GenerateSignature)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x239d140;
+  constexpr static std::size_t addrs = 0x23d042c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::VerifySignature)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x239d338;
+  constexpr static std::size_t addrs = 0x23d0624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x239d560;
+  constexpr static std::size_t addrs = 0x23d084c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,24 +225,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
-constexpr Org::BouncyCastle::Crypto::Signers::Ed25519Signer::operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ISigner*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
-constexpr ::Org::BouncyCastle::Crypto::ISigner* Org::BouncyCastle::Crypto::Signers::Ed25519Signer::i___Org__BouncyCastle__Crypto__ISigner() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ISigner*>(static_cast<void*>(this));
-}
-constexpr ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*& Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_buffer() {
+constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*& Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_buffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*> const&
-Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_buffer() const {
+constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* const& Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_buffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-constexpr void Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* value) {
+constexpr void Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -264,8 +253,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*&
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_privateKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* const& Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_privateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
@@ -277,17 +265,13 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const&
-Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_publicKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* const& Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_get_publicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
 constexpr void Org::BouncyCastle::Crypto::Signers::Ed25519Signer::__cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer* Org::BouncyCastle::Crypto::Signers::Ed25519Signer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*>());
 }
 inline void Org::BouncyCastle::Crypto::Signers::Ed25519Signer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*>::get(),
@@ -328,6 +312,17 @@ inline void Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Reset() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer* Org::BouncyCastle::Crypto::Signers::Ed25519Signer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
+constexpr Org::BouncyCastle::Crypto::Signers::Ed25519Signer::operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ISigner*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
+constexpr ::Org::BouncyCastle::Crypto::ISigner* Org::BouncyCastle::Crypto::Signers::Ed25519Signer::i___Org__BouncyCastle__Crypto__ISigner() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ISigner*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Ed25519Signer() {}

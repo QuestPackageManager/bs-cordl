@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TryParseListDelegate_1)
@@ -23,18 +22,17 @@ template <typename T> class TryParseListDelegate_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Net::Http::Headers::TryParseListDelegate_1);
-// Type: System.Net.Http.Headers::TryParseListDelegate`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::TryParseListDelegate`1<T>*
+// CS Name: System.Net.Http.Headers.TryParseListDelegate`1<T>
 class CORDL_TYPE TryParseListDelegate_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW value, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<T>*> result);
+  inline bool Invoke(::StringW value, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<T>*> result);
 
   static inline ::System::Net::Http::Headers::TryParseListDelegate_1<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
@@ -56,7 +54,7 @@ public:
   TryParseListDelegate_1(TryParseListDelegate_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionNode::*)(::System::Data::DataTable*)>(&::System::Data::ExpressionNode::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x410c374;
+  constexpr static std::size_t addrs = 0x416d688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::System::Data::ExpressionNode::*)()>(
     &::System::Data::ExpressionNode::get_FormatProvider)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4113e04;
+  constexpr static std::size_t addrs = 0x4175118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), "get_FormatProvider",
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::get_IsSqlColumn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411778c;
+  constexpr static std::size_t addrs = 0x4178aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::get_table)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4117794;
+  constexpr static std::size_t addrs = 0x4178aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), "get_table",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionNode::*)(::System::Data::DataTable*)>(&::System::Data::ExpressionNode::BindTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411779c;
+  constexpr static std::size_t addrs = 0x4178ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,141 +79,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Data::ExpressionNode.Bind
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::System::Data::ExpressionNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::ExpressionNode::Bind)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.Eval
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::Eval)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 6));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.Eval
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::ExpressionNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
-    &::System::Data::ExpressionNode::Eval)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 7));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.Eval
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::ExpressionNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
-    &::System::Data::ExpressionNode::Eval)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 8));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.IsConstant
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::IsConstant)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 9));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.IsTableConstant
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::IsTableConstant)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 10));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.HasLocalAggregate
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::HasLocalAggregate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.HasRemoteAggregate
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::HasRemoteAggregate)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 12));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::ExpressionNode.Optimize
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::ExpressionNode::*)()>(&::System::Data::ExpressionNode::Optimize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), 13));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Data::ExpressionNode.DependsOn
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionNode::*)(::System::Data::DataColumn*)>(&::System::Data::ExpressionNode::DependsOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41177a4;
+  constexpr static std::size_t addrs = 0x4178ab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsInteger)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4114c5c;
+  constexpr static std::size_t addrs = 0x4175f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsIntegerSql)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x41148d4;
+  constexpr static std::size_t addrs = 0x4175be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsSigned)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4114b0c;
+  constexpr static std::size_t addrs = 0x4175e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsSignedSql)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4114be8;
+  constexpr static std::size_t addrs = 0x4175efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsUnsigned)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4114b3c;
+  constexpr static std::size_t addrs = 0x4175e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -297,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsUnsignedSql)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4114c14;
+  constexpr static std::size_t addrs = 0x4175f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsNumeric)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4114c3c;
+  constexpr static std::size_t addrs = 0x4175f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsNumericSql)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4114d70;
+  constexpr static std::size_t addrs = 0x4176084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsFloat)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41177ac;
+  constexpr static std::size_t addrs = 0x4178ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -353,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::ExpressionNode::IsFloatSql)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x41177bc;
+  constexpr static std::size_t addrs = 0x4178ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -366,16 +237,13 @@ constexpr ::System::Data::DataTable*& System::Data::ExpressionNode::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::ExpressionNode::__cordl_internal_get__table() const {
+constexpr ::System::Data::DataTable* const& System::Data::ExpressionNode::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
 constexpr void System::Data::ExpressionNode::__cordl_internal_set__table(::System::Data::DataTable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::ExpressionNode* System::Data::ExpressionNode::New_ctor(::System::Data::DataTable* table) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ExpressionNode*>(table));
 }
 inline void System::Data::ExpressionNode::_ctor(::System::Data::DataTable* table) {
   static auto* ___internal_method =
@@ -513,6 +381,9 @@ inline bool System::Data::ExpressionNode::IsFloatSql(::System::Data::Common::Sto
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionNode*>::get(), "IsFloatSql", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Data::ExpressionNode* System::Data::ExpressionNode::New_ctor(::System::Data::DataTable* table) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ExpressionNode*>(table));
 }
 // Ctor Parameters []
 constexpr ::System::Data::ExpressionNode::ExpressionNode() {}

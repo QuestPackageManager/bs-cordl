@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::Org::BouncyCastle::Cms::CmsSignedData*)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x262587c;
+  constexpr static std::size_t addrs = 0x2658b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26258c8;
+  constexpr static std::size_t addrs = 0x2658bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2625ab4;
+  constexpr static std::size_t addrs = 0x2658da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::System::Collections::IDictionary*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2625bc4;
+  constexpr static std::size_t addrs = 0x2658eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2625ce0;
+  constexpr static std::size_t addrs = 0x2658fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2625d10;
+  constexpr static std::size_t addrs = 0x2658ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(
     ::Org::BouncyCastle::Cms::CmsProcessable*, ::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(&::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2625b34;
+  constexpr static std::size_t addrs = 0x2658e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(
     ::System::Collections::IDictionary*, ::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(&::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2625c50;
+  constexpr static std::size_t addrs = 0x2658f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedData::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26259a0;
+  constexpr static std::size_t addrs = 0x2658c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(&::Org::BouncyCastle::Cms::CmsSignedData::get_Version)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2625d30;
+  constexpr static std::size_t addrs = 0x265901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), "get_Version",
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::SignerInformationStore* (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetSignerInfos)> {
   constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x2625d54;
+  constexpr static std::size_t addrs = 0x2659040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(),
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedData::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetAttributeCertificates)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2626598;
+  constexpr static std::size_t addrs = 0x2659884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedData::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetCertificates)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2626c54;
+  constexpr static std::size_t addrs = 0x2659f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::CmsSignedData::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetCrls)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2626e7c;
+  constexpr static std::size_t addrs = 0x265a168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::get_SignedContentTypeOid)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26270a4;
+  constexpr static std::size_t addrs = 0x265a390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::get_SignedContentType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26270d0;
+  constexpr static std::size_t addrs = 0x265a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsProcessable* (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::get_SignedContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26270f4;
+  constexpr static std::size_t addrs = 0x265a3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(),
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::get_ContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26270fc;
+  constexpr static std::size_t addrs = 0x265a3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(),
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsSignedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetEncoded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2627104;
+  constexpr static std::size_t addrs = 0x265a3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), "GetEncoded",
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsSignedData::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedData::GetEncoded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2627120;
+  constexpr static std::size_t addrs = 0x265a40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +315,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::CmsSignedData* (*)(::Org::BouncyCastle::Cms::CmsSignedData*, ::Org::BouncyCastle::Cms::SignerInformationStore*)>(
         &::Org::BouncyCastle::Cms::CmsSignedData::ReplaceSigners)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x262713c;
+  constexpr static std::size_t addrs = 0x265a428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,7 +332,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::CmsSignedData* (*)(::Org::BouncyCastle::Cms::CmsSignedData*, ::Org::BouncyCastle::X509::Store::IX509Store*, ::Org::BouncyCastle::X509::Store::IX509Store*,
                                                              ::Org::BouncyCastle::X509::Store::IX509Store*)>(&::Org::BouncyCastle::Cms::CmsSignedData::ReplaceCertificatesAndCrls)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x26278dc;
+  constexpr static std::size_t addrs = 0x265abc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsProcessable*& Org::BouncyCastle::Cms::Cms
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessable*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signedContent() const {
+constexpr ::Org::BouncyCastle::Cms::CmsProcessable* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signedContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedContent;
 }
@@ -360,7 +360,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::SignedData*& Org::BouncyCastle::Cms::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedData;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignedData*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signedData() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::SignedData* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signedData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedData;
 }
@@ -372,7 +372,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& Org::BouncyCastle::Cms::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_contentInfo() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_contentInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
@@ -384,7 +384,7 @@ constexpr ::Org::BouncyCastle::Cms::SignerInformationStore*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerInfoStore;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformationStore*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signerInfoStore() const {
+constexpr ::Org::BouncyCastle::Cms::SignerInformationStore* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_signerInfoStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signerInfoStore;
 }
@@ -396,7 +396,7 @@ constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Cms:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCertStore;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_attrCertStore() const {
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_attrCertStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attrCertStore;
 }
@@ -408,7 +408,7 @@ constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Cms:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateStore;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_certificateStore() const {
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_certificateStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificateStore;
 }
@@ -420,7 +420,7 @@ constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& Org::BouncyCastle::Cms:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlStore;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_crlStore() const {
+constexpr ::Org::BouncyCastle::X509::Store::IX509Store* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_crlStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlStore;
 }
@@ -432,7 +432,7 @@ constexpr ::System::Collections::IDictionary*& Org::BouncyCastle::Cms::CmsSigned
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_hashes() const {
+constexpr ::System::Collections::IDictionary* const& Org::BouncyCastle::Cms::CmsSignedData::__cordl_internal_get_hashes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashes;
 }
@@ -448,27 +448,17 @@ inline ::Org::BouncyCastle::Cms::CmsSignedHelper* Org::BouncyCastle::Cms::CmsSig
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Cms::CmsSignedHelper*, "Helper",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get>();
 }
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* c) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(c));
-}
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cms::CmsSignedData* c) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Cms::CmsSignedData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c);
 }
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigBlock));
-}
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigBlock);
-}
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent,
-                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigBlock));
 }
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -477,18 +467,12 @@ inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cm
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, signedContent, sigBlock);
 }
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::Collections::IDictionary* hashes, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(hashes, sigBlock));
-}
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::System::Collections::IDictionary* hashes, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IDictionary*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hashes, sigBlock);
-}
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::System::IO::Stream* sigData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigData));
 }
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::System::IO::Stream* sigData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -497,18 +481,11 @@ inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cm
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, signedContent, sigData);
 }
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::IO::Stream* sigData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigData));
-}
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::System::IO::Stream* sigData) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigData);
-}
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent,
-                                                                                                ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigData));
 }
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -517,18 +494,12 @@ inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Cm
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::ContentInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, signedContent, sigData);
 }
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::Collections::IDictionary* hashes, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(hashes, sigData));
-}
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::System::Collections::IDictionary* hashes, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IDictionary*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::ContentInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hashes, sigData);
-}
-inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigData));
 }
 inline void Org::BouncyCastle::Cms::CmsSignedData::_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -614,6 +585,35 @@ inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSigne
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::Store::IX509Store*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::Store::IX509Store*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::CmsSignedData*, false>(nullptr, ___internal_method, signedData, x509Certs, x509Crls, x509AttrCerts);
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* c) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(c));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigBlock));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent,
+                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigBlock));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::Collections::IDictionary* hashes, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBlock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(hashes, sigBlock));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent, ::System::IO::Stream* sigData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigData));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::IO::Stream* sigData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigData));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Cms::CmsProcessable* signedContent,
+                                                                                                ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(signedContent, sigData));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::System::Collections::IDictionary* hashes, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(hashes, sigData));
+}
+inline ::Org::BouncyCastle::Cms::CmsSignedData* Org::BouncyCastle::Cms::CmsSignedData::New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* sigData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsSignedData*>(sigData));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsSignedData::CmsSignedData() {}

@@ -12,11 +12,10 @@ struct HebrewNumberParsingState;
 }
 // Write type traits
 MARK_VAL_T(::System::Globalization::HebrewNumberParsingState);
-// Type: System.Globalization::HebrewNumberParsingState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Globalization {
 // Is value type: true
-// CS Name: ::System.Globalization::HebrewNumberParsingState
+// CS Name: System.Globalization.HebrewNumberParsingState
 struct CORDL_TYPE HebrewNumberParsingState {
 public:
   // Declarations
@@ -47,19 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HebrewNumberParsingState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ContinueParsing value: static_cast<int32_t>(0x3)
+  /// @brief Field ContinueParsing value: I32(3)
   static ::System::Globalization::HebrewNumberParsingState const ContinueParsing;
 
-  /// @brief Field FoundEndOfHebrewNumber value: static_cast<int32_t>(0x2)
+  /// @brief Field FoundEndOfHebrewNumber value: I32(2)
   static ::System::Globalization::HebrewNumberParsingState const FoundEndOfHebrewNumber;
 
-  /// @brief Field InvalidHebrewNumber value: static_cast<int32_t>(0x0)
+  /// @brief Field InvalidHebrewNumber value: I32(0)
   static ::System::Globalization::HebrewNumberParsingState const InvalidHebrewNumber;
 
-  /// @brief Field NotHebrewDigit value: static_cast<int32_t>(0x1)
+  /// @brief Field NotHebrewDigit value: I32(1)
   static ::System::Globalization::HebrewNumberParsingState const NotHebrewDigit;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,12 +64,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::HebrewNumberParsingState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::HebrewNumberParsingState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::HebrewNumberParsingState, 0x4>, "Size mismatch!");
 
 } // namespace System::Globalization
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::HebrewNumberParsingState, "System.Globalization", "HebrewNumberParsingState");

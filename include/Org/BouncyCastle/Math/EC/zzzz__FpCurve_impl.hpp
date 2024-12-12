@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::FpCurve::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::FpCurve::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2499560;
+  constexpr static std::size_t addrs = 0x24cc84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Math::EC::FpCurve::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*,
                                                                  ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::FpCurve::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x249956c;
+  constexpr static std::size_t addrs = 0x24cc858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::FpCurve::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2499810;
+  constexpr static std::size_t addrs = 0x24ccafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*,
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::FpCurve::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x249981c;
+  constexpr static std::size_t addrs = 0x24ccb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Math::EC::FpCurve::*)()>(
     &::Org::BouncyCastle::Math::EC::FpCurve::CloneCurve)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24998d8;
+  constexpr static std::size_t addrs = 0x24ccbc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::FpCurve::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::FpCurve::SupportsCoordinateSystem)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2499960;
+  constexpr static std::size_t addrs = 0x24ccc4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::FpCurve::*)()>(
     &::Org::BouncyCastle::Math::EC::FpCurve::get_Q)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2499980;
+  constexpr static std::size_t addrs = 0x24ccc6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::FpCurve::*)()>(
     &::Org::BouncyCastle::Math::EC::FpCurve::get_Infinity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2499988;
+  constexpr static std::size_t addrs = 0x24ccc74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::FpCurve::*)()>(&::Org::BouncyCastle::Math::EC::FpCurve::get_FieldSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2499990;
+  constexpr static std::size_t addrs = 0x24ccc7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::FpCurve::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::FpCurve::FromBigInteger)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x24999ac;
+  constexpr static std::size_t addrs = 0x24ccc98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::FpCurve::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(
     &::Org::BouncyCastle::Math::EC::FpCurve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2499ad4;
+  constexpr static std::size_t addrs = 0x24ccdc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>, bool)>(
     &::Org::BouncyCastle::Math::EC::FpCurve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2499b54;
+  constexpr static std::size_t addrs = 0x24cce40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::FpCurve::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::FpCurve::ImportPoint)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x2499bec;
+  constexpr static std::size_t addrs = 0x24cced8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +225,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::F
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_q;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_q() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_q() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_q;
 }
@@ -237,7 +237,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::F
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_r;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_r() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_r() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_r;
 }
@@ -249,17 +249,13 @@ constexpr ::Org::BouncyCastle::Math::EC::FpPoint*& Org::BouncyCastle::Math::EC::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_infinity;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::FpPoint*> const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_infinity() const {
+constexpr ::Org::BouncyCastle::Math::EC::FpPoint* const& Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_get_m_infinity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_infinity;
 }
 constexpr void Org::BouncyCastle::Math::EC::FpCurve::__cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::FpPoint* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_infinity)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* b) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b));
 }
 inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -268,11 +264,6 @@ inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Mat
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, q, a, b);
-}
-inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* cofactor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b, order, cofactor));
 }
 inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                         ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor) {
@@ -285,10 +276,6 @@ inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Mat
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, q, a, b, order, cofactor);
 }
-inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r,
-                                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, r, a, b));
-}
 inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                                                         ::Org::BouncyCastle::Math::EC::ECFieldElement* b) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -298,11 +285,6 @@ inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Mat
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, q, r, a, b);
-}
-inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r,
-                                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, r, a, b, order, cofactor));
 }
 inline void Org::BouncyCastle::Math::EC::FpCurve::_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::EC::ECFieldElement* a,
                                                         ::Org::BouncyCastle::Math::EC::ECFieldElement* b, ::Org::BouncyCastle::Math::BigInteger* order,
@@ -364,6 +346,24 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::FpCu
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::FpCurve*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, p);
+}
+inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
+                                                                                              ::Org::BouncyCastle::Math::BigInteger* b) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b));
+}
+inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
+                                                                                              ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* order,
+                                                                                              ::Org::BouncyCastle::Math::BigInteger* cofactor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, a, b, order, cofactor));
+}
+inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r,
+                                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, r, a, b));
+}
+inline ::Org::BouncyCastle::Math::EC::FpCurve* Org::BouncyCastle::Math::EC::FpCurve::New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* r,
+                                                                                              ::Org::BouncyCastle::Math::EC::ECFieldElement* a, ::Org::BouncyCastle::Math::EC::ECFieldElement* b,
+                                                                                              ::Org::BouncyCastle::Math::BigInteger* order, ::Org::BouncyCastle::Math::BigInteger* cofactor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::FpCurve*>(q, r, a, b, order, cofactor));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::FpCurve::FpCurve() {}

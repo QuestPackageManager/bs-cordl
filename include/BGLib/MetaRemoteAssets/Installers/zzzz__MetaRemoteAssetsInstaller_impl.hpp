@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2276cd8;
+  constexpr static std::size_t addrs = 0x22a9634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2276e40;
+  constexpr static std::size_t addrs = 0x22a979c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2276ec8;
+  constexpr static std::size_t addrs = 0x22a9824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +53,7 @@ constexpr ::GlobalNamespace::AppInitSetupData*& BGLib::MetaRemoteAssets::Install
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitSetupData*> const&
-BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_get__appInitSetupData() const {
+constexpr ::GlobalNamespace::AppInitSetupData* const& BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::__cordl_internal_get__appInitSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitSetupData;
 }
@@ -74,14 +73,14 @@ inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::Inst
                                                "InstallRemoteCatalogLoader", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>());
-}
 inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller* BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::MetaRemoteAssetsInstaller() {}

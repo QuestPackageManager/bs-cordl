@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -10,13 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleRotate)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
@@ -30,11 +26,10 @@ struct StyleRotate;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleRotate);
-// Type: UnityEngine.UIElements::StyleRotate
-// SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.Rotate, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleRotate
+// CS Name: UnityEngine.UIElements.StyleRotate
 struct CORDL_TYPE StyleRotate {
 public:
   // Declarations
@@ -48,28 +43,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>*();
 
-  /// @brief Method Equals, addr 0x4a1f23c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a83b4c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1f1c0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a83ad0, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleRotate other);
 
-  /// @brief Method GetHashCode, addr 0x4a1f2cc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a83bdc, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a1f2f0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4a83c00, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a1f12c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a83a3c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a1f13c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a83a4c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Rotate v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a1f124, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x4a83a34, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a1f008, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x4a83918, size 0x11c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Rotate get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>"
@@ -78,10 +73,10 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Rotate_();
 
-  /// @brief Method op_Equality, addr 0x4a1f154, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a83a64, size 0x5c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleRotate lhs, ::UnityEngine::UIElements::StyleRotate rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a1f1b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x4a83ac0, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleRotate op_Implicit___UnityEngine__UIElements__StyleRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
   // Ctor Parameters []
@@ -92,26 +87,26 @@ public:
   // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
   constexpr StyleRotate(::UnityEngine::UIElements::Rotate m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6101 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
+
   /// @brief Field m_Value, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::UIElements::Rotate m_Value;
 
   /// @brief Field m_Keyword, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6076 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleRotate, 0x1c>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleRotate, m_Value) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleRotate, m_Keyword) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleRotate, 0x1c>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleRotate, "UnityEngine.UIElements", "StyleRotate");

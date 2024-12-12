@@ -10,20 +10,15 @@ class IPinnable;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Buffers::IPinnable);
-// Type: System.Buffers::IPinnable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Buffers {
 // Is value type: false
-// CS Name: ::System.Buffers::IPinnable*
+// CS Name: System.Buffers.IPinnable
 class CORDL_TYPE IPinnable {
 public:
   // Declarations
-  /// @brief Method Unpin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Unpin, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Unpin();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPinnable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPinnable(IPinnable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPinnable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::Newtonsoft::Json::Utilities::StringReference::*)(int32_t)>(
     &::Newtonsoft::Json::Utilities::StringReference::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3e75d08;
+  constexpr static std::size_t addrs = 0x3ed5db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::Newtonsoft::Json::Utilities::StringReference::*)()>(
     &::Newtonsoft::Json::Utilities::StringReference::get_Chars)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75d38;
+  constexpr static std::size_t addrs = 0x3ed5de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringReference>::get(),
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Utilities::StringReference::*)()>(
     &::Newtonsoft::Json::Utilities::StringReference::get_StartIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75d40;
+  constexpr static std::size_t addrs = 0x3ed5dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringReference>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Utilities::StringReference::*)()>(
     &::Newtonsoft::Json::Utilities::StringReference::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75d48;
+  constexpr static std::size_t addrs = 0x3ed5df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringReference>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::StringReference::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringReference::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e75d50;
+  constexpr static std::size_t addrs = 0x3ed5dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::StringReference::*)()>(
     &::Newtonsoft::Json::Utilities::StringReference::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e75d5c;
+  constexpr static std::size_t addrs = 0x3ed5e08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ inline ::StringW Newtonsoft::Json::Utilities::StringReference::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringReference>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "",
+// Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Utilities::StringReference::StringReference(::ArrayW<char16_t, ::Array<char16_t>*> _chars, int32_t _startIndex, int32_t _length) noexcept {
   this->_chars = _chars;

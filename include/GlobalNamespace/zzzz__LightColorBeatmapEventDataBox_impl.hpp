@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2687c4c;
+  constexpr static std::size_t addrs = 0x26bc43c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2687c54;
+  constexpr static std::size_t addrs = 0x26bc444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,19 +47,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBeatmapEventDataBox::*)(
-    ::GlobalNamespace::IndexFilter*, float_t, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, float_t, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, bool,
+    ::GlobalNamespace::IndexFilter*, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*)>(&::GlobalNamespace::LightColorBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2687c5c;
+  constexpr static std::size_t addrs = 0x26bc44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 8>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*>::get() })));
     return ___internal_method;
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*,
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::GlobalNamespace::LightColorBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x2687e64;
+  constexpr static std::size_t addrs = 0x26bc654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::Lig
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBaseDataList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* const&
 GlobalNamespace::LightColorBeatmapEventDataBox::__cordl_internal_get__lightColorBaseDataList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightColorBaseDataList;
@@ -142,26 +142,18 @@ inline float_t GlobalNamespace::LightColorBeatmapEventDataBox::get_beatStep() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventDataBox*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LightColorBeatmapEventDataBox* GlobalNamespace::LightColorBeatmapEventDataBox::New_ctor(
-    ::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
-    float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent,
-    ::GlobalNamespace::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBeatmapEventDataBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam,
-                                                                                                     brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent,
-                                                                                                     brightnessDistributionEaseType, lightColorBaseDataList));
-}
 inline void GlobalNamespace::LightColorBeatmapEventDataBox::_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam,
-                                                                  ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam,
-                                                                  ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType,
+                                                                  ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType, float_t brightnessDistributionParam,
+                                                                  ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType brightnessDistributionParamType,
                                                                   bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                                                                   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox_DistributionParamType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam,
@@ -175,6 +167,14 @@ inline void GlobalNamespace::LightColorBeatmapEventDataBox::Unpack(float_t group
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorBeatmapEventDataBox*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter,
                                                           lightEventConverter, output);
+}
+inline ::GlobalNamespace::LightColorBeatmapEventDataBox* GlobalNamespace::LightColorBeatmapEventDataBox::New_ctor(
+    ::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,
+    float_t brightnessDistributionParam, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent,
+    ::GlobalNamespace::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBeatmapEventDataBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, brightnessDistributionParam,
+                                                                                                     brightnessDistributionParamType, brightnessDistributionShouldAffectFirstBaseEvent,
+                                                                                                     brightnessDistributionEaseType, lightColorBaseDataList));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBeatmapEventDataBox::LightColorBeatmapEventDataBox() {}

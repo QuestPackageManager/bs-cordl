@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/Marker.hpp"
+#include "UnityEngine/Timeline/zzzz__IMarker_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
-#include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::Marker.get_parent
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Timeline::TrackAsset> (::UnityEngine::Timeline::Marker::*)()>(
     &::UnityEngine::Timeline::Marker::get_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c2e34;
+  constexpr static std::size_t addrs = 0x4824148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Marker*>::get(), "get_parent",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Marker::*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::Marker::set_parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c2e3c;
+  constexpr static std::size_t addrs = 0x4824150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::Marker::*)()>(&::UnityEngine::Timeline::Marker::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c2e44;
+  constexpr static std::size_t addrs = 0x4824158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Marker*>::get(), "get_time",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Marker::*)(double_t)>(&::UnityEngine::Timeline::Marker::set_time)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47c2e4c;
+  constexpr static std::size_t addrs = 0x4824160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Marker::*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::Marker::UnityEngine_Timeline_IMarker_Initialize)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x47c2ebc;
+  constexpr static std::size_t addrs = 0x48241d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Marker::*)(::UnityEngine::Timeline::TrackAsset*)>(
     &::UnityEngine::Timeline::Marker::OnInitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47c3008;
+  constexpr static std::size_t addrs = 0x482431c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::Marker::*)()>(&::UnityEngine::Timeline::Marker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c300c;
+  constexpr static std::size_t addrs = 0x4824320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Marker*>::get(), ".ctor",
@@ -103,14 +103,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::Timeline::IMarker"
-constexpr UnityEngine::Timeline::Marker::operator ::UnityEngine::Timeline::IMarker*() noexcept {
-  return static_cast<::UnityEngine::Timeline::IMarker*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Timeline::IMarker"
-constexpr ::UnityEngine::Timeline::IMarker* UnityEngine::Timeline::Marker::i___UnityEngine__Timeline__IMarker() noexcept {
-  return static_cast<::UnityEngine::Timeline::IMarker*>(static_cast<void*>(this));
-}
 constexpr double_t& UnityEngine::Timeline::Marker::__cordl_internal_get_m_Time() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Time;
@@ -168,13 +160,21 @@ inline void UnityEngine::Timeline::Marker::OnInitialize(::UnityEngine::Timeline:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Marker*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, aPent);
 }
-inline ::UnityEngine::Timeline::Marker* UnityEngine::Timeline::Marker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::Marker*>());
-}
 inline void UnityEngine::Timeline::Marker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::Marker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Timeline::Marker* UnityEngine::Timeline::Marker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::Marker*>());
+}
+/// @brief Convert operator to "::UnityEngine::Timeline::IMarker"
+constexpr UnityEngine::Timeline::Marker::operator ::UnityEngine::Timeline::IMarker*() noexcept {
+  return static_cast<::UnityEngine::Timeline::IMarker*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Timeline::IMarker"
+constexpr ::UnityEngine::Timeline::IMarker* UnityEngine::Timeline::Marker::i___UnityEngine__Timeline__IMarker() noexcept {
+  return static_cast<::UnityEngine::Timeline::IMarker*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::Marker::Marker() {}

@@ -76,10 +76,10 @@ inline void UnityEngine::UIElements::TreeData_1<T>::BuildTree(::System::Collecti
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, items, isRoot);
 }
-// Ctor Parameters [CppParam { name: "m_RootItemIds", ty: "::System::Collections::Generic::IList_1<int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Tree", ty:
-// "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ParentIds", ty:
-// "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ChildrenIds", ty:
-// "::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "m_RootItemIds", ty: "::System::Collections::Generic::IList_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Tree", ty:
+// "::System::Collections::Generic::Dictionary_2<int32_t,::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ParentIds", ty:
+// "::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ChildrenIds", ty:
+// "::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*", modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::UnityEngine::UIElements::TreeData_1<T>::TreeData_1(::System::Collections::Generic::IList_1<int32_t>* m_RootItemIds,
                                                                ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::UIElements::TreeViewItemData_1<T>>* m_Tree,

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> (::GlobalNamespace::ShaderWarmupSceneSetupData::*)()>(
     &::GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ada030;
+  constexpr static std::size_t addrs = 0x3b39fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderWarmupSceneSetupData::*)(::GlobalNamespace::ScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ada038;
+  constexpr static std::size_t addrs = 0x3b39fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderWarmupSceneSetupData::*)(::GlobalNamespace::ScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::ShaderWarmupSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ada040;
+  constexpr static std::size_t addrs = 0x3b39fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,14 +73,14 @@ inline void GlobalNamespace::ShaderWarmupSceneSetupData::set_nextScenesTransitio
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::ShaderWarmupSceneSetupData* GlobalNamespace::ShaderWarmupSceneSetupData::New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ShaderWarmupSceneSetupData*>(nextScenesTransitionSetupData));
-}
 inline void GlobalNamespace::ShaderWarmupSceneSetupData::_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderWarmupSceneSetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextScenesTransitionSetupData);
+}
+inline ::GlobalNamespace::ShaderWarmupSceneSetupData* GlobalNamespace::ShaderWarmupSceneSetupData::New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ShaderWarmupSceneSetupData*>(nextScenesTransitionSetupData));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShaderWarmupSceneSetupData::ShaderWarmupSceneSetupData() {}

@@ -20,6 +20,12 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
+template <typename TValueType, typename TValueChoice> class BasePopupField_2_PopupTextElement;
+}
+namespace UnityEngine::UIElements {
+template <typename TValueType, typename TValueChoice> class BasePopupField_2___c;
+}
+namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
@@ -44,16 +50,10 @@ namespace UnityEngine::UIElements {
 class TextElement;
 }
 namespace UnityEngine::UIElements {
+struct VisualElement_MeasureMode;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueChoice> class __BasePopupField_2__PopupTextElement;
-}
-namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueChoice> class __BasePopupField_2____c;
-}
-namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -63,30 +63,29 @@ namespace UnityEngine::UIElements {
 template <typename TValueType, typename TValueChoice> class BasePopupField_2;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueChoice> class __BasePopupField_2__PopupTextElement;
+template <typename TValueType, typename TValueChoice> class BasePopupField_2_PopupTextElement;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType, typename TValueChoice> class __BasePopupField_2____c;
+template <typename TValueType, typename TValueChoice> class BasePopupField_2___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BasePopupField_2);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__BasePopupField_2__PopupTextElement);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__BasePopupField_2____c);
-// Type: ::PopupTextElement
-// SizeInfo { instance_size: 1184, native_size: 1180, calculated_instance_size: 1184, calculated_native_size: 1180, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BasePopupField_2_PopupTextElement);
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BasePopupField_2___c);
+// Dependencies UnityEngine.UIElements.TextElement
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueChoice>
 // Is value type: false
-// CS Name: ::BasePopupField`2::PopupTextElement<TValueType,TValueChoice>*
-class CORDL_TYPE __BasePopupField_2__PopupTextElement : public ::UnityEngine::UIElements::TextElement {
+// CS Name: UnityEngine.UIElements.BasePopupField`2/PopupTextElement<TValueType,TValueChoice>
+class CORDL_TYPE BasePopupField_2_PopupTextElement : public ::UnityEngine::UIElements::TextElement {
 public:
   // Declarations
   /// @brief Method DoMeasure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
-                                          ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
+  inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t desiredHeight,
+                                          ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
-  static inline ::UnityEngine::UIElements::__BasePopupField_2__PopupTextElement<TValueType, TValueChoice>* New_ctor();
+  static inline ::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -94,41 +93,40 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BasePopupField_2__PopupTextElement();
+  constexpr BasePopupField_2_PopupTextElement();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BasePopupField_2__PopupTextElement", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BasePopupField_2__PopupTextElement(__BasePopupField_2__PopupTextElement&&) = delete;
+  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BasePopupField_2__PopupTextElement", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2_PopupTextElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BasePopupField_2__PopupTextElement(__BasePopupField_2__PopupTextElement const&) = delete;
+  BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5499 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueChoice>
 // Is value type: false
-// CS Name: ::BasePopupField`2::<>c<TValueType,TValueChoice>*
-class CORDL_TYPE __BasePopupField_2____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.BasePopupField`2/<>c<TValueType,TValueChoice>
+class CORDL_TYPE BasePopupField_2___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__BasePopupField_2____c<TValueType, TValueChoice>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* __9;
 
   /// @brief Field <>9__23_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__23_0, put = setStaticF___9__23_0)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* __9__23_0;
+  __declspec(property(get = getStaticF___9__23_0, put = setStaticF___9__23_0)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* __9__23_0;
 
-  static inline ::UnityEngine::UIElements::__BasePopupField_2____c<TValueType, TValueChoice>* New_ctor();
+  static inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* New_ctor();
 
   /// @brief Method <.ctor>b__23_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __ctor_b__23_0(::UnityEngine::UIElements::MouseDownEvent* e);
@@ -136,51 +134,50 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__BasePopupField_2____c<TValueType, TValueChoice>* getStaticF___9();
+  static inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* getStaticF___9();
 
   static inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* getStaticF___9__23_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__BasePopupField_2____c<TValueType, TValueChoice>* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* value);
 
   static inline void setStaticF___9__23_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BasePopupField_2____c();
+  constexpr BasePopupField_2___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BasePopupField_2____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BasePopupField_2____c(__BasePopupField_2____c&&) = delete;
+  BasePopupField_2___c(BasePopupField_2___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BasePopupField_2____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BasePopupField_2___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BasePopupField_2____c(__BasePopupField_2____c const&) = delete;
+  BasePopupField_2___c(BasePopupField_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::BasePopupField`2
-// SizeInfo { instance_size: 1136, native_size: 1136, calculated_instance_size: 1136, calculated_native_size: 1136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueChoice>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BasePopupField`2<TValueType,TValueChoice>*
+// CS Name: UnityEngine.UIElements.BasePopupField`2<TValueType,TValueChoice>
 class CORDL_TYPE BasePopupField_2 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations
-  using PopupTextElement = ::UnityEngine::UIElements::__BasePopupField_2__PopupTextElement<TValueType, TValueChoice>;
+  using PopupTextElement = ::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>;
 
-  using __c = ::UnityEngine::UIElements::__BasePopupField_2____c<TValueType, TValueChoice>;
+  using __c = ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>;
 
   /// @brief Field arrowUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_arrowUssClassName, put = setStaticF_arrowUssClassName)) ::StringW arrowUssClassName;
+  __declspec(property(get = getStaticF_arrowUssClassName, put = setStaticF_arrowUssClassName)) ::StringW arrowUssClassName;
 
   __declspec(property(put = set_choices)) ::System::Collections::Generic::List_1<TValueChoice>* choices;
 
@@ -188,10 +185,10 @@ public:
   __declspec(property(get = __cordl_internal_get_createMenuCallback, put = __cordl_internal_set_createMenuCallback)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* createMenuCallback;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
+  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
 
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
   /// @brief Field m_ArrowElement, offset 0x450, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ArrowElement, put = __cordl_internal_set_m_ArrowElement)) ::UnityEngine::UIElements::VisualElement* m_ArrowElement;
@@ -212,21 +209,21 @@ public:
   __declspec(property(get = get_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
 
   /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName)) ::StringW textUssClassName;
+  __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName)) ::StringW textUssClassName;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddMenuItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method AddMenuItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu);
 
   /// @brief Method ContainsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsPointer(int32_t pointerId);
 
-  /// @brief Method GetListItemToDisplay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetListItemToDisplay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetListItemToDisplay(TValueType item);
 
-  /// @brief Method GetValueToDisplay, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetValueToDisplay, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetValueToDisplay();
 
   static inline ::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>* New_ctor(::StringW label);
@@ -252,29 +249,29 @@ public:
   /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
+  constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* const& __cordl_internal_get_createMenuCallback() const;
+
   constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& __cordl_internal_get_createMenuCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*> const& __cordl_internal_get_createMenuCallback() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ArrowElement() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ArrowElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ArrowElement() const;
+  constexpr ::System::Collections::Generic::List_1<TValueChoice>* const& __cordl_internal_get_m_Choices() const;
 
   constexpr ::System::Collections::Generic::List_1<TValueChoice>*& __cordl_internal_get_m_Choices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TValueChoice>*> const& __cordl_internal_get_m_Choices() const;
+  constexpr ::System::Func_2<TValueChoice, ::StringW>* const& __cordl_internal_get_m_FormatListItemCallback() const;
 
   constexpr ::System::Func_2<TValueChoice, ::StringW>*& __cordl_internal_get_m_FormatListItemCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValueChoice, ::StringW>*> const& __cordl_internal_get_m_FormatListItemCallback() const;
+  constexpr ::System::Func_2<TValueChoice, ::StringW>* const& __cordl_internal_get_m_FormatSelectedValueCallback() const;
 
   constexpr ::System::Func_2<TValueChoice, ::StringW>*& __cordl_internal_get_m_FormatSelectedValueCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValueChoice, ::StringW>*> const& __cordl_internal_get_m_FormatSelectedValueCallback() const;
+  constexpr ::UnityEngine::UIElements::TextElement* const& __cordl_internal_get_m_TextElement() const;
 
   constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_m_TextElement();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const& __cordl_internal_get_m_TextElement() const;
 
   constexpr void __cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value);
 
@@ -331,6 +328,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BasePopupField_2(BasePopupField_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5501 };
+
   /// @brief Field m_Choices, offset: 0x440, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TValueChoice>* ___m_Choices;
 
@@ -349,13 +349,10 @@ public:
   /// @brief Field createMenuCallback, offset: 0x468, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* ___createMenuCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5477 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BasePopupField_2, "UnityEngine.UIElements", "BasePopupField`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__BasePopupField_2__PopupTextElement, "UnityEngine.UIElements", "BasePopupField`2/PopupTextElement");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__BasePopupField_2____c, "UnityEngine.UIElements", "BasePopupField`2/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BasePopupField_2_PopupTextElement, "UnityEngine.UIElements", "BasePopupField`2/PopupTextElement");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BasePopupField_2___c, "UnityEngine.UIElements", "BasePopupField`2/<>c");

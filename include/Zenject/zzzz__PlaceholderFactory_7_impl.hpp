@@ -1,226 +1,206 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PlaceholderFactory_7.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IFactory_7_impl.hpp"
+#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_7_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__IFactory_7_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_7_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
-                                                                TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::Collections::IEnumerable*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
-                                                                TValue>::operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::Collections::IEnumerator*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::IDisposable* Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr int32_t& Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___1__state() {
+constexpr int32_t& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr int32_t const& Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___1__state() const {
+constexpr int32_t const& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___1__state(int32_t value) {
+constexpr void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::System::Type*& Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___2__current() {
+constexpr ::System::Type*& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const&
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___2__current() const {
+constexpr ::System::Type* const& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___2__current(::System::Type* value) {
+constexpr void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___2__current(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr int32_t& Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr int32_t const& Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline ::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(__1__state));
-}
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::_ctor(int32_t __1__state) {
+inline void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_IDisposable_Dispose() {
+inline void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline bool Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::MoveNext() {
+inline bool Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(), "MoveNext",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(), "MoveNext",
       std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline ::System::Type*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_Generic_IEnumerator_System_Type__get_Current() {
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_Generic_IEnumerator_System_Type__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline void Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerator_Reset() {
+inline void Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline ::System::Object* Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator() {
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Type*>*, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline ::System::Collections::IEnumerator*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerable_GetEnumerator() {
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline ::System::Object*
-Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
-      "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(), "__zenCreate",
+      std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline ::Zenject::InjectTypeInfo* Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreateInjectTypeInfo() {
+inline ::Zenject::InjectTypeInfo* Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
       "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+inline ::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
+                                                             TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Type*>*
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Type__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::System::Collections::IEnumerable*
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
+                                                             TValue>::operator ::System::Collections::Generic::IEnumerator_1<::System::Type*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Type*>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__Generic__IEnumerator_1___System__Type__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::System::Collections::IEnumerator*
+Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::System::IDisposable* Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::Zenject::__PlaceholderFactory_7___get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::__PlaceholderFactory_7___get_ParamTypes_d__2() {}
-/// @brief Convert operator to "::Zenject::IFactory_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
-                                                                                                                                      TValue>*() noexcept {
-  return static_cast<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
-Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___Zenject__IFactory_7_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TValue_() noexcept {
-  return static_cast<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Zenject::IFactory"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::Zenject::IFactory*() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory"
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-constexpr ::Zenject::IFactory* Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___Zenject__IFactory() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
+constexpr ::Zenject::PlaceholderFactory_7__get_ParamTypes_d__2<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::PlaceholderFactory_7__get_ParamTypes_d__2() {}
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline TValue Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::Create(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5,
                                                                                                                   TParam6 param6) {
@@ -235,11 +215,6 @@ inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
                                   "get_ParamTypes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal_method);
-}
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
-inline ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
-Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>());
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 inline void Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::_ctor() {
@@ -262,6 +237,33 @@ inline ::Zenject::InjectTypeInfo* Zenject::PlaceholderFactory_7<TParam1, TParam2
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>::get(),
                                   "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+inline ::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
+Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>());
+}
+/// @brief Convert operator to "::Zenject::IFactory_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6,
+                                                                                                                                      TValue>*() noexcept {
+  return static_cast<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory_7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
+Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___Zenject__IFactory_7_TParam1_TParam2_TParam3_TParam4_TParam5_TParam6_TValue_() noexcept {
+  return static_cast<::Zenject::IFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Zenject::IFactory"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
+constexpr ::Zenject::IFactory* Zenject::PlaceholderFactory_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>::i___Zenject__IFactory() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>

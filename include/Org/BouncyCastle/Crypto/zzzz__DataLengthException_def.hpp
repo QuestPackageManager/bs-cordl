@@ -15,11 +15,10 @@ class DataLengthException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::DataLengthException);
-// Type: Org.BouncyCastle.Crypto::DataLengthException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.CryptoException
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::DataLengthException*
+// CS Name: Org.BouncyCastle.Crypto.DataLengthException
 class CORDL_TYPE DataLengthException : public ::Org::BouncyCastle::Crypto::CryptoException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::DataLengthException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2414c2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447f18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2413b08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2446df4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2414c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2447f1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

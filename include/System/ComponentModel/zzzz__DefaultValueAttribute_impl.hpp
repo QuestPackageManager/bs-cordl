@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int32_t)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43e38f0;
+  constexpr static std::size_t addrs = 0x4444c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int64_t)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43e395c;
+  constexpr static std::size_t addrs = 0x4444c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(bool)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x43e39c8;
+  constexpr static std::size_t addrs = 0x4444cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::StringW)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e3a38;
+  constexpr static std::size_t addrs = 0x4444d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e3a60;
+  constexpr static std::size_t addrs = 0x4444d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DefaultValueAttribute::*)()>(
     &::System::ComponentModel::DefaultValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e3a88;
+  constexpr static std::size_t addrs = 0x4444d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DefaultValueAttribute::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x43e3a90;
+  constexpr static std::size_t addrs = 0x4444da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DefaultValueAttribute::*)()>(
     &::System::ComponentModel::DefaultValueAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e3b9c;
+  constexpr static std::size_t addrs = 0x4444eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ constexpr ::System::Object*& System::ComponentModel::DefaultValueAttribute::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::ComponentModel::DefaultValueAttribute::__cordl_internal_get__value() const {
+constexpr ::System::Object* const& System::ComponentModel::DefaultValueAttribute::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
@@ -138,17 +138,11 @@ constexpr void System::ComponentModel::DefaultValueAttribute::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(int32_t value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
-}
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(int64_t value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
 }
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(int64_t value) {
   static auto* ___internal_method =
@@ -156,26 +150,17 @@ inline void System::ComponentModel::DefaultValueAttribute::_ctor(int64_t value) 
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(bool value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
-}
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(::StringW value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
-}
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(::System::Object* value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
 }
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -197,6 +182,21 @@ inline int32_t System::ComponentModel::DefaultValueAttribute::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(int32_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(int64_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(bool value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(::StringW value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(::System::Object* value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DefaultValueAttribute::DefaultValueAttribute() {}

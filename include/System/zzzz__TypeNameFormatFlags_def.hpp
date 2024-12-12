@@ -12,11 +12,10 @@ struct TypeNameFormatFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::TypeNameFormatFlags);
-// Type: System::TypeNameFormatFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::TypeNameFormatFlags
+// CS Name: System.TypeNameFormatFlags
 struct CORDL_TYPE TypeNameFormatFlags {
 public:
   // Declarations
@@ -53,37 +52,34 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TypeNameFormatFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field FormatAngleBrackets value: static_cast<int32_t>(0x40)
+  /// @brief Field FormatAngleBrackets value: I32(64)
   static ::System::TypeNameFormatFlags const FormatAngleBrackets;
 
-  /// @brief Field FormatAssembly value: static_cast<int32_t>(0x4)
+  /// @brief Field FormatAssembly value: I32(4)
   static ::System::TypeNameFormatFlags const FormatAssembly;
 
-  /// @brief Field FormatBasic value: static_cast<int32_t>(0x0)
+  /// @brief Field FormatBasic value: I32(0)
   static ::System::TypeNameFormatFlags const FormatBasic;
 
-  /// @brief Field FormatFullInst value: static_cast<int32_t>(0x2)
+  /// @brief Field FormatFullInst value: I32(2)
   static ::System::TypeNameFormatFlags const FormatFullInst;
 
-  /// @brief Field FormatGenericParam value: static_cast<int32_t>(0x100)
+  /// @brief Field FormatGenericParam value: I32(256)
   static ::System::TypeNameFormatFlags const FormatGenericParam;
 
-  /// @brief Field FormatNamespace value: static_cast<int32_t>(0x1)
+  /// @brief Field FormatNamespace value: I32(1)
   static ::System::TypeNameFormatFlags const FormatNamespace;
 
-  /// @brief Field FormatNoVersion value: static_cast<int32_t>(0x10)
+  /// @brief Field FormatNoVersion value: I32(16)
   static ::System::TypeNameFormatFlags const FormatNoVersion;
 
-  /// @brief Field FormatSerialization value: static_cast<int32_t>(0x103)
+  /// @brief Field FormatSerialization value: I32(259)
   static ::System::TypeNameFormatFlags const FormatSerialization;
 
-  /// @brief Field FormatSignature value: static_cast<int32_t>(0x8)
+  /// @brief Field FormatSignature value: I32(8)
   static ::System::TypeNameFormatFlags const FormatSignature;
 
-  /// @brief Field FormatStubInfo value: static_cast<int32_t>(0x80)
+  /// @brief Field FormatStubInfo value: I32(128)
   static ::System::TypeNameFormatFlags const FormatStubInfo;
 
   /// @brief IL2CPP Metadata Type Index
@@ -92,12 +88,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::TypeNameFormatFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::TypeNameFormatFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::TypeNameFormatFlags, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::TypeNameFormatFlags, "System", "TypeNameFormatFlags");

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(EventCallback_1)
 namespace System {
 struct IntPtr;
@@ -18,13 +17,12 @@ template <typename TEventType> class EventCallback_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::EventCallback_1);
-// Type: UnityEngine.UIElements::EventCallback`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventCallback`1<TEventType>*
+// CS Name: UnityEngine.UIElements.EventCallback`1<TEventType>
 class CORDL_TYPE EventCallback_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
@@ -51,7 +49,7 @@ public:
   EventCallback_1(EventCallback_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

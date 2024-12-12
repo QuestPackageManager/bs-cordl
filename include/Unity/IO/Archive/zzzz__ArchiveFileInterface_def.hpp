@@ -11,11 +11,10 @@ class ArchiveFileInterface;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::IO::Archive::ArchiveFileInterface);
-// Type: Unity.IO.Archive::ArchiveFileInterface
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::IO::Archive {
 // Is value type: false
-// CS Name: ::Unity.IO.Archive::ArchiveFileInterface*
+// CS Name: Unity.IO.Archive.ArchiveFileInterface
 class CORDL_TYPE ArchiveFileInterface : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   ArchiveFileInterface(ArchiveFileInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

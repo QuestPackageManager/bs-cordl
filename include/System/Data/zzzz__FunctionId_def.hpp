@@ -12,11 +12,10 @@ struct FunctionId;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::FunctionId);
-// Type: System.Data::FunctionId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data {
 // Is value type: true
-// CS Name: ::System.Data::FunctionId
+// CS Name: System.Data.FunctionId
 struct CORDL_TYPE FunctionId {
 public:
   // Declarations
@@ -82,138 +81,138 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FunctionId(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Abs value: static_cast<int32_t>(0x1a)
+  /// @brief Field Abs value: I32(26)
   static ::System::Data::FunctionId const Abs;
 
-  /// @brief Field Acos value: static_cast<int32_t>(0x1b)
+  /// @brief Field Acos value: I32(27)
   static ::System::Data::FunctionId const Acos;
 
-  /// @brief Field Ascii value: static_cast<int32_t>(0x0)
+  /// @brief Field Ascii value: I32(0)
   static ::System::Data::FunctionId const Ascii;
 
-  /// @brief Field Avg value: static_cast<int32_t>(0x1f)
+  /// @brief Field Avg value: I32(31)
   static ::System::Data::FunctionId const Avg;
 
-  /// @brief Field Char value: static_cast<int32_t>(0x1)
+  /// @brief Field Char value: I32(1)
   static ::System::Data::FunctionId const Char;
 
-  /// @brief Field Charindex value: static_cast<int32_t>(0x2)
+  /// @brief Field Charindex value: I32(2)
   static ::System::Data::FunctionId const Charindex;
 
-  /// @brief Field Convert value: static_cast<int32_t>(0x14)
+  /// @brief Field Convert value: I32(20)
   static ::System::Data::FunctionId const Convert;
 
-  /// @brief Field Count value: static_cast<int32_t>(0x22)
+  /// @brief Field Count value: I32(34)
   static ::System::Data::FunctionId const Count;
 
-  /// @brief Field DateTimeOffset value: static_cast<int32_t>(0x26)
+  /// @brief Field DateTimeOffset value: I32(38)
   static ::System::Data::FunctionId const DateTimeOffset;
 
-  /// @brief Field Difference value: static_cast<int32_t>(0x3)
+  /// @brief Field Difference value: I32(3)
   static ::System::Data::FunctionId const Difference;
 
-  /// @brief Field Iif value: static_cast<int32_t>(0x13)
+  /// @brief Field Iif value: I32(19)
   static ::System::Data::FunctionId const Iif;
 
-  /// @brief Field In value: static_cast<int32_t>(0x1c)
+  /// @brief Field In value: I32(28)
   static ::System::Data::FunctionId const In;
 
-  /// @brief Field IsNull value: static_cast<int32_t>(0x12)
+  /// @brief Field IsNull value: I32(18)
   static ::System::Data::FunctionId const IsNull;
 
-  /// @brief Field LTrim value: static_cast<int32_t>(0x6)
+  /// @brief Field LTrim value: I32(6)
   static ::System::Data::FunctionId const LTrim;
 
-  /// @brief Field Len value: static_cast<int32_t>(0x4)
+  /// @brief Field Len value: I32(4)
   static ::System::Data::FunctionId const Len;
 
-  /// @brief Field Lower value: static_cast<int32_t>(0x5)
+  /// @brief Field Lower value: I32(5)
   static ::System::Data::FunctionId const Lower;
 
-  /// @brief Field Max value: static_cast<int32_t>(0x21)
+  /// @brief Field Max value: I32(33)
   static ::System::Data::FunctionId const Max;
 
-  /// @brief Field Min value: static_cast<int32_t>(0x20)
+  /// @brief Field Min value: I32(32)
   static ::System::Data::FunctionId const Min;
 
-  /// @brief Field Patindex value: static_cast<int32_t>(0x7)
+  /// @brief Field Patindex value: I32(7)
   static ::System::Data::FunctionId const Patindex;
 
-  /// @brief Field RTrim value: static_cast<int32_t>(0xb)
+  /// @brief Field RTrim value: I32(11)
   static ::System::Data::FunctionId const RTrim;
 
-  /// @brief Field Replicate value: static_cast<int32_t>(0x8)
+  /// @brief Field Replicate value: I32(8)
   static ::System::Data::FunctionId const Replicate;
 
-  /// @brief Field Reverse value: static_cast<int32_t>(0x9)
+  /// @brief Field Reverse value: I32(9)
   static ::System::Data::FunctionId const Reverse;
 
-  /// @brief Field Right value: static_cast<int32_t>(0xa)
+  /// @brief Field Right value: I32(10)
   static ::System::Data::FunctionId const Right;
 
-  /// @brief Field Soundex value: static_cast<int32_t>(0xc)
+  /// @brief Field Soundex value: I32(12)
   static ::System::Data::FunctionId const Soundex;
 
-  /// @brief Field Space value: static_cast<int32_t>(0xd)
+  /// @brief Field Space value: I32(13)
   static ::System::Data::FunctionId const Space;
 
-  /// @brief Field StDev value: static_cast<int32_t>(0x23)
+  /// @brief Field StDev value: I32(35)
   static ::System::Data::FunctionId const StDev;
 
-  /// @brief Field Str value: static_cast<int32_t>(0xe)
+  /// @brief Field Str value: I32(14)
   static ::System::Data::FunctionId const Str;
 
-  /// @brief Field Stuff value: static_cast<int32_t>(0xf)
+  /// @brief Field Stuff value: I32(15)
   static ::System::Data::FunctionId const Stuff;
 
-  /// @brief Field Substring value: static_cast<int32_t>(0x10)
+  /// @brief Field Substring value: I32(16)
   static ::System::Data::FunctionId const Substring;
 
-  /// @brief Field Sum value: static_cast<int32_t>(0x1e)
+  /// @brief Field Sum value: I32(30)
   static ::System::Data::FunctionId const Sum;
 
-  /// @brief Field Trim value: static_cast<int32_t>(0x1d)
+  /// @brief Field Trim value: I32(29)
   static ::System::Data::FunctionId const Trim;
 
-  /// @brief Field Upper value: static_cast<int32_t>(0x11)
+  /// @brief Field Upper value: I32(17)
   static ::System::Data::FunctionId const Upper;
 
-  /// @brief Field Var value: static_cast<int32_t>(0x25)
+  /// @brief Field Var value: I32(37)
   static ::System::Data::FunctionId const Var;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11353 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field cBool value: static_cast<int32_t>(0x16)
+  /// @brief Field cBool value: I32(22)
   static ::System::Data::FunctionId const cBool;
 
-  /// @brief Field cDate value: static_cast<int32_t>(0x17)
+  /// @brief Field cDate value: I32(23)
   static ::System::Data::FunctionId const cDate;
 
-  /// @brief Field cDbl value: static_cast<int32_t>(0x18)
+  /// @brief Field cDbl value: I32(24)
   static ::System::Data::FunctionId const cDbl;
 
-  /// @brief Field cInt value: static_cast<int32_t>(0x15)
+  /// @brief Field cInt value: I32(21)
   static ::System::Data::FunctionId const cInt;
 
-  /// @brief Field cStr value: static_cast<int32_t>(0x19)
+  /// @brief Field cStr value: I32(25)
   static ::System::Data::FunctionId const cStr;
 
-  /// @brief Field none value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field none value: I32(-1)
   static ::System::Data::FunctionId const none;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::FunctionId, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::FunctionId, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::FunctionId, 0x4>, "Size mismatch!");
 
 } // namespace System::Data
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::FunctionId, "System.Data", "FunctionId");

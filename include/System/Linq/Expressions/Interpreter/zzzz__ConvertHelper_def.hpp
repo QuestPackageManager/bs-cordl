@@ -15,15 +15,14 @@ class ConvertHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ConvertHelper);
-// Type: System.Linq.Expressions.Interpreter::ConvertHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::ConvertHelper*
+// CS Name: System.Linq.Expressions.Interpreter.ConvertHelper
 class CORDL_TYPE ConvertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToInt32NoNull, addr 0x405ed60, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToInt32NoNull, addr 0x40c0074, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t ToInt32NoNull(::System::Object* val);
 
 protected:
@@ -41,7 +40,7 @@ public:
   ConvertHelper(ConvertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

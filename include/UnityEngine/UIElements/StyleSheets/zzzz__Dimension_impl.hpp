@@ -1,41 +1,40 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
-#include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit::__Dimension__Unit(int32_t value__) noexcept {
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit::Dimension_Unit(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit::__Dimension__Unit() {}
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Unitless{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Pixel{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Percent{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Second{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Millisecond{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Degree{ static_cast<int32_t>(0x5) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Gradian{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Radian{ static_cast<int32_t>(0x7) };
-constexpr ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit UnityEngine::UIElements::StyleSheets::__Dimension__Unit::Turn{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit::Dimension_Unit() {}
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Unitless{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Pixel{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Percent{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Second{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Millisecond{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Degree{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Gradian{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Radian{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension_Unit UnityEngine::UIElements::StyleSheets::Dimension_Unit::Turn{ static_cast<int32_t>(0x8) };
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::Dimension._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Dimension::*)(
-    float_t, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit)>(&::UnityEngine::UIElements::StyleSheets::Dimension::_ctor)> {
+    float_t, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit)>(&::UnityEngine::UIElements::StyleSheets::Dimension::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x496e8c8;
+  constexpr static std::size_t addrs = 0x49d31d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::__Dimension__Unit>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::Dimension_Unit>::get() })));
     return ___internal_method;
   }
 };
@@ -45,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToLength)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4969b88;
+  constexpr static std::size_t addrs = 0x49ce498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(),
@@ -59,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TimeValue (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToTime)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x496e8d4;
+  constexpr static std::size_t addrs = 0x49d31e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(),
@@ -73,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToAngle)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x496e904;
+  constexpr static std::size_t addrs = 0x49d3214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(),
@@ -87,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::Dimension, ::UnityEngine::UIElements::StyleSheets::Dimension)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x496e990;
+  constexpr static std::size_t addrs = 0x49d32a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::Dimension::*)(::UnityEngine::UIElements::StyleSheets::Dimension)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x496e9b8;
+  constexpr static std::size_t addrs = 0x49d32c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -118,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::Dimension::*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x496e9e0;
+  constexpr static std::size_t addrs = 0x49d32f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x496ea6c;
+  constexpr static std::size_t addrs = 0x49d337c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleSheets::Dimension::*)()>(
     &::UnityEngine::UIElements::StyleSheets::Dimension::ToString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x496eab4;
+  constexpr static std::size_t addrs = 0x49d33c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,20 +159,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
-constexpr UnityEngine::UIElements::StyleSheets::Dimension::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*
-UnityEngine::UIElements::StyleSheets::Dimension::i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void UnityEngine::UIElements::StyleSheets::Dimension::_ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit) {
+inline void UnityEngine::UIElements::StyleSheets::Dimension::_ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::__Dimension__Unit>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::Dimension_Unit>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, unit);
 }
 inline ::UnityEngine::UIElements::Length UnityEngine::UIElements::StyleSheets::Dimension::ToLength() {
@@ -219,9 +209,18 @@ inline ::StringW UnityEngine::UIElements::StyleSheets::Dimension::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::Dimension>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::__Dimension__Unit", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::StyleSheets::Dimension::Dimension(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit, float_t value) noexcept {
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
+constexpr UnityEngine::UIElements::StyleSheets::Dimension::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*
+UnityEngine::UIElements::StyleSheets::Dimension::i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "float_t", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::StyleSheets::Dimension::Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept {
   this->unit = unit;
   this->value = value;
 }

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "MS/Internal/Xml/XPath/zzzz__XPathScanner_def.hpp"
 #include "System/Xml/zzzz__XmlCharType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -12,30 +11,29 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathScanner)
 namespace MS::Internal::Xml::XPath {
-struct __XPathScanner__LexKind;
+struct XPathScanner_LexKind;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::XPath {
-struct __XPathScanner__LexKind;
+struct XPathScanner_LexKind;
 }
 namespace MS::Internal::Xml::XPath {
 class XPathScanner;
 }
 // Write type traits
-MARK_VAL_T(::MS::Internal::Xml::XPath::__XPathScanner__LexKind);
+MARK_VAL_T(::MS::Internal::Xml::XPath::XPathScanner_LexKind);
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::XPathScanner);
-// Type: ::LexKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace MS::Internal::Xml::XPath {
 // Is value type: true
-// CS Name: ::XPathScanner::LexKind
-struct CORDL_TYPE __XPathScanner__LexKind {
+// CS Name: MS.Internal.Xml.XPath.XPathScanner/LexKind
+struct CORDL_TYPE XPathScanner_LexKind {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____XPathScanner__LexKind_Unwrapped
-  enum struct ____XPathScanner__LexKind_Unwrapped : int32_t {
+  /// @brief Nested struct __XPathScanner_LexKind_Unwrapped
+  enum struct __XPathScanner_LexKind_Unwrapped : int32_t {
     __E_Comma = static_cast<int32_t>(0x2c),
     __E_Slash = static_cast<int32_t>(0x2f),
     __E_At = static_cast<int32_t>(0x40),
@@ -70,8 +68,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____XPathScanner__LexKind_Unwrapped() const noexcept {
-    return static_cast<____XPathScanner__LexKind_Unwrapped>(this->value__);
+  constexpr operator __XPathScanner_LexKind_Unwrapped() const noexcept {
+    return static_cast<__XPathScanner_LexKind_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -81,136 +79,135 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XPathScanner__LexKind();
+  constexpr XPathScanner_LexKind();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __XPathScanner__LexKind(int32_t value__) noexcept;
+  constexpr XPathScanner_LexKind(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field And value: I32(65)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const And;
 
-  /// @brief Field And value: static_cast<int32_t>(0x41)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const And;
+  /// @brief Field Apos value: I32(39)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Apos;
 
-  /// @brief Field Apos value: static_cast<int32_t>(0x27)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Apos;
+  /// @brief Field At value: I32(64)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const At;
 
-  /// @brief Field At value: static_cast<int32_t>(0x40)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const At;
+  /// @brief Field Axe value: I32(97)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Axe;
 
-  /// @brief Field Axe value: static_cast<int32_t>(0x61)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Axe;
+  /// @brief Field Bang value: I32(33)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Bang;
 
-  /// @brief Field Bang value: static_cast<int32_t>(0x21)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Bang;
+  /// @brief Field Comma value: I32(44)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Comma;
 
-  /// @brief Field Comma value: static_cast<int32_t>(0x2c)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Comma;
+  /// @brief Field Dollar value: I32(36)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Dollar;
 
-  /// @brief Field Dollar value: static_cast<int32_t>(0x24)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Dollar;
+  /// @brief Field Dot value: I32(46)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Dot;
 
-  /// @brief Field Dot value: static_cast<int32_t>(0x2e)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Dot;
+  /// @brief Field DotDot value: I32(68)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const DotDot;
 
-  /// @brief Field DotDot value: static_cast<int32_t>(0x44)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const DotDot;
+  /// @brief Field Eof value: I32(69)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Eof;
 
-  /// @brief Field Eof value: static_cast<int32_t>(0x45)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Eof;
+  /// @brief Field Eq value: I32(61)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Eq;
 
-  /// @brief Field Eq value: static_cast<int32_t>(0x3d)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Eq;
+  /// @brief Field Ge value: I32(71)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Ge;
 
-  /// @brief Field Ge value: static_cast<int32_t>(0x47)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Ge;
+  /// @brief Field Gt value: I32(62)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Gt;
 
-  /// @brief Field Gt value: static_cast<int32_t>(0x3e)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Gt;
+  /// @brief Field LBracket value: I32(91)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const LBracket;
 
-  /// @brief Field LBracket value: static_cast<int32_t>(0x5b)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const LBracket;
+  /// @brief Field LParens value: I32(40)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const LParens;
 
-  /// @brief Field LParens value: static_cast<int32_t>(0x28)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const LParens;
+  /// @brief Field Le value: I32(76)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Le;
 
-  /// @brief Field Le value: static_cast<int32_t>(0x4c)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Le;
+  /// @brief Field Lt value: I32(60)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Lt;
 
-  /// @brief Field Lt value: static_cast<int32_t>(0x3c)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Lt;
+  /// @brief Field Minus value: I32(45)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Minus;
 
-  /// @brief Field Minus value: static_cast<int32_t>(0x2d)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Minus;
+  /// @brief Field Name value: I32(110)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Name;
 
-  /// @brief Field Name value: static_cast<int32_t>(0x6e)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Name;
+  /// @brief Field Ne value: I32(78)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Ne;
 
-  /// @brief Field Ne value: static_cast<int32_t>(0x4e)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Ne;
+  /// @brief Field Number value: I32(100)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Number;
 
-  /// @brief Field Number value: static_cast<int32_t>(0x64)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Number;
+  /// @brief Field Or value: I32(79)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Or;
 
-  /// @brief Field Or value: static_cast<int32_t>(0x4f)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Or;
+  /// @brief Field Plus value: I32(43)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Plus;
 
-  /// @brief Field Plus value: static_cast<int32_t>(0x2b)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Plus;
+  /// @brief Field Quote value: I32(34)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Quote;
 
-  /// @brief Field Quote value: static_cast<int32_t>(0x22)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Quote;
+  /// @brief Field RBracket value: I32(93)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const RBracket;
 
-  /// @brief Field RBracket value: static_cast<int32_t>(0x5d)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const RBracket;
+  /// @brief Field RParens value: I32(41)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const RParens;
 
-  /// @brief Field RParens value: static_cast<int32_t>(0x29)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const RParens;
+  /// @brief Field Slash value: I32(47)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Slash;
 
-  /// @brief Field Slash value: static_cast<int32_t>(0x2f)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Slash;
+  /// @brief Field SlashSlash value: I32(83)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const SlashSlash;
 
-  /// @brief Field SlashSlash value: static_cast<int32_t>(0x53)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const SlashSlash;
+  /// @brief Field Star value: I32(42)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Star;
 
-  /// @brief Field Star value: static_cast<int32_t>(0x2a)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Star;
+  /// @brief Field String value: I32(115)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const String;
 
-  /// @brief Field String value: static_cast<int32_t>(0x73)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const String;
-
-  /// @brief Field Union value: static_cast<int32_t>(0x7c)
-  static ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const Union;
+  /// @brief Field Union value: I32(124)
+  static ::MS::Internal::Xml::XPath::XPathScanner_LexKind const Union;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7782 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::__XPathScanner__LexKind, 0x4>, "Size mismatch!");
+static_assert(offsetof(::MS::Internal::Xml::XPath::XPathScanner_LexKind, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::MS::Internal::Xml::XPath::__XPathScanner__LexKind, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::XPathScanner_LexKind, 0x4>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::XPath
-// Type: MS.Internal.Xml.XPath::XPathScanner
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MS.Internal.Xml.XPath.XPathScanner::LexKind, System.Object, System.Xml.XmlCharType
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.XPath::XPathScanner*
+// CS Name: MS.Internal.Xml.XPath.XPathScanner
 class CORDL_TYPE XPathScanner : public ::System::Object {
 public:
   // Declarations
-  using LexKind = ::MS::Internal::Xml::XPath::__XPathScanner__LexKind;
+  using LexKind = ::MS::Internal::Xml::XPath::XPathScanner_LexKind;
 
   __declspec(property(get = get_CanBeFunction)) bool CanBeFunction;
 
   __declspec(property(get = get_CurrentChar)) char16_t CurrentChar;
 
-  __declspec(property(get = get_Kind)) ::MS::Internal::Xml::XPath::__XPathScanner__LexKind Kind;
+  __declspec(property(get = get_Kind)) ::MS::Internal::Xml::XPath::XPathScanner_LexKind Kind;
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
@@ -229,7 +226,7 @@ public:
   __declspec(property(get = __cordl_internal_get__currentChar, put = __cordl_internal_set__currentChar)) char16_t _currentChar;
 
   /// @brief Field _kind, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__kind, put = __cordl_internal_set__kind)) ::MS::Internal::Xml::XPath::__XPathScanner__LexKind _kind;
+  __declspec(property(get = __cordl_internal_get__kind, put = __cordl_internal_set__kind)) ::MS::Internal::Xml::XPath::XPathScanner_LexKind _kind;
 
   /// @brief Field _name, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
@@ -254,25 +251,25 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::XPathScanner* New_ctor(::StringW xpathExpr);
 
-  /// @brief Method NextChar, addr 0x42a7488, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method NextChar, addr 0x430879c, size 0x60, virtual false, abstract: false, final false
   inline bool NextChar();
 
-  /// @brief Method NextLex, addr 0x42a60cc, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method NextLex, addr 0x43073e0, size 0x3bc, virtual false, abstract: false, final false
   inline bool NextLex();
 
-  /// @brief Method ScanFraction, addr 0x42a7564, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanFraction, addr 0x4308878, size 0xb0, virtual false, abstract: false, final false
   inline double_t ScanFraction();
 
-  /// @brief Method ScanName, addr 0x42a779c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ScanName, addr 0x4308ab0, size 0x78, virtual false, abstract: false, final false
   inline ::StringW ScanName();
 
-  /// @brief Method ScanNumber, addr 0x42a76c4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ScanNumber, addr 0x43089d8, size 0xd8, virtual false, abstract: false, final false
   inline double_t ScanNumber();
 
-  /// @brief Method ScanString, addr 0x42a7614, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ScanString, addr 0x4308928, size 0xb0, virtual false, abstract: false, final false
   inline ::StringW ScanString();
 
-  /// @brief Method SkipSpace, addr 0x42a7528, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SkipSpace, addr 0x430883c, size 0x3c, virtual false, abstract: false, final false
   inline void SkipSpace();
 
   constexpr bool const& __cordl_internal_get__canBeFunction() const;
@@ -283,9 +280,9 @@ public:
 
   constexpr char16_t& __cordl_internal_get__currentChar();
 
-  constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const& __cordl_internal_get__kind() const;
+  constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind const& __cordl_internal_get__kind() const;
 
-  constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind& __cordl_internal_get__kind();
+  constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind& __cordl_internal_get__kind();
 
   constexpr ::StringW const& __cordl_internal_get__name() const;
 
@@ -319,7 +316,7 @@ public:
 
   constexpr void __cordl_internal_set__currentChar(char16_t value);
 
-  constexpr void __cordl_internal_set__kind(::MS::Internal::Xml::XPath::__XPathScanner__LexKind value);
+  constexpr void __cordl_internal_set__kind(::MS::Internal::Xml::XPath::XPathScanner_LexKind value);
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
@@ -335,31 +332,31 @@ public:
 
   constexpr void __cordl_internal_set__xpathExprIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x42a4410, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4305724, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW xpathExpr);
 
-  /// @brief Method get_CanBeFunction, addr 0x42a7520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CanBeFunction, addr 0x4308834, size 0x8, virtual false, abstract: false, final false
   inline bool get_CanBeFunction();
 
-  /// @brief Method get_CurrentChar, addr 0x42a74f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentChar, addr 0x4308804, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_CurrentChar();
 
-  /// @brief Method get_Kind, addr 0x42a74f8, size 0x8, virtual false, abstract: false, final false
-  inline ::MS::Internal::Xml::XPath::__XPathScanner__LexKind get_Kind();
+  /// @brief Method get_Kind, addr 0x430880c, size 0x8, virtual false, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::XPathScanner_LexKind get_Kind();
 
-  /// @brief Method get_Name, addr 0x42a7500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4308814, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NumberValue, addr 0x42a7518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumberValue, addr 0x430882c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_NumberValue();
 
-  /// @brief Method get_Prefix, addr 0x42a7508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x430881c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SourceText, addr 0x42a74e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceText, addr 0x43087fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceText();
 
-  /// @brief Method get_StringValue, addr 0x42a7510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StringValue, addr 0x4308824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
 
 protected:
@@ -376,6 +373,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XPathScanner(XPathScanner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7783 };
+
   /// @brief Field _xpathExpr, offset: 0x10, size: 0x8, def value: None
   ::StringW ____xpathExpr;
 
@@ -383,7 +383,7 @@ public:
   int32_t ____xpathExprIndex;
 
   /// @brief Field _kind, offset: 0x1c, size: 0x4, def value: None
-  ::MS::Internal::Xml::XPath::__XPathScanner__LexKind ____kind;
+  ::MS::Internal::Xml::XPath::XPathScanner_LexKind ____kind;
 
   /// @brief Field _currentChar, offset: 0x20, size: 0x2, def value: None
   char16_t ____currentChar;
@@ -406,14 +406,9 @@ public:
   /// @brief Field _xmlCharType, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::XmlCharType ____xmlCharType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7758 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::XPathScanner, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::MS::Internal::Xml::XPath::XPathScanner, ____xpathExpr) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::MS::Internal::Xml::XPath::XPathScanner, ____xpathExprIndex) == 0x18, "Offset mismatch!");
@@ -434,7 +429,9 @@ static_assert(offsetof(::MS::Internal::Xml::XPath::XPathScanner, ____canBeFuncti
 
 static_assert(offsetof(::MS::Internal::Xml::XPath::XPathScanner, ____xmlCharType) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::XPathScanner, 0x58>, "Size mismatch!");
+
 } // namespace MS::Internal::Xml::XPath
-DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::__XPathScanner__LexKind, "MS.Internal.Xml.XPath", "XPathScanner/LexKind");
+DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::XPathScanner_LexKind, "MS.Internal.Xml.XPath", "XPathScanner/LexKind");
 NEED_NO_BOX(::MS::Internal::Xml::XPath::XPathScanner);
 DEFINE_IL2CPP_ARG_TYPE(::MS::Internal::Xml::XPath::XPathScanner*, "MS.Internal.Xml.XPath", "XPathScanner");

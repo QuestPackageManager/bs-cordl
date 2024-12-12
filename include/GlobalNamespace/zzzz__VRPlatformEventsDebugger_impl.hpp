@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/VRPlatformEventsDebugger.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformEventsDebugger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VRPlatformEventsDebugger.get_loggerPrefix
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::get_loggerPrefix)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x397cc38;
+  constexpr static std::size_t addrs = 0x39d3500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::Initialize)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x397cc78;
+  constexpr static std::size_t addrs = 0x39d3540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::Dispose)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x397d068;
+  constexpr static std::size_t addrs = 0x39d3930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(), "Dispose",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleInputFocusWasCaptured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d45c;
+  constexpr static std::size_t addrs = 0x39d3d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleInputFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d460;
+  constexpr static std::size_t addrs = 0x39d3d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleHMDUnmounted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d464;
+  constexpr static std::size_t addrs = 0x39d3d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleHMDMounted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d468;
+  constexpr static std::size_t addrs = 0x39d3d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleVRFocusWasCaptured)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d46c;
+  constexpr static std::size_t addrs = 0x39d3d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(
     &::GlobalNamespace::VRPlatformEventsDebugger::HandleVRFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x397d470;
+  constexpr static std::size_t addrs = 0x39d3d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(),
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VRPlatformEventsDebugger::*)()>(&::GlobalNamespace::VRPlatformEventsDebugger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397d474;
+  constexpr static std::size_t addrs = 0x39d3d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(), ".ctor",
@@ -143,35 +143,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::IInitializable"
-constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::Zenject::IInitializable*() noexcept {
-  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IInitializable"
-constexpr ::Zenject::IInitializable* GlobalNamespace::VRPlatformEventsDebugger::i___Zenject__IInitializable() noexcept {
-  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::VRPlatformEventsDebugger::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
-constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::GlobalNamespace::IVerboseLogger*() noexcept {
-  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IVerboseLogger"
-constexpr ::GlobalNamespace::IVerboseLogger* GlobalNamespace::VRPlatformEventsDebugger::i___GlobalNamespace__IVerboseLogger() noexcept {
-  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::VRPlatformEventsDebugger::__cordl_internal_get__vrPlatformHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::VRPlatformEventsDebugger::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::VRPlatformEventsDebugger::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -224,13 +200,37 @@ inline void GlobalNamespace::VRPlatformEventsDebugger::HandleVRFocusWasReleased(
                                                                              "HandleVRFocusWasReleased", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::VRPlatformEventsDebugger* GlobalNamespace::VRPlatformEventsDebugger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VRPlatformEventsDebugger*>());
-}
 inline void GlobalNamespace::VRPlatformEventsDebugger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VRPlatformEventsDebugger*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::VRPlatformEventsDebugger* GlobalNamespace::VRPlatformEventsDebugger::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::VRPlatformEventsDebugger*>());
+}
+/// @brief Convert operator to "::Zenject::IInitializable"
+constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::Zenject::IInitializable*() noexcept {
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IInitializable"
+constexpr ::Zenject::IInitializable* GlobalNamespace::VRPlatformEventsDebugger::i___Zenject__IInitializable() noexcept {
+  return static_cast<::Zenject::IInitializable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::VRPlatformEventsDebugger::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
+constexpr GlobalNamespace::VRPlatformEventsDebugger::operator ::GlobalNamespace::IVerboseLogger*() noexcept {
+  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IVerboseLogger"
+constexpr ::GlobalNamespace::IVerboseLogger* GlobalNamespace::VRPlatformEventsDebugger::i___GlobalNamespace__IVerboseLogger() noexcept {
+  return static_cast<::GlobalNamespace::IVerboseLogger*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::VRPlatformEventsDebugger::VRPlatformEventsDebugger() {}

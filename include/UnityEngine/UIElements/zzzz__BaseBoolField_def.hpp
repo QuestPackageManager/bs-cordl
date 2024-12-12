@@ -27,11 +27,10 @@ class BaseBoolField;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::BaseBoolField);
-// Type: UnityEngine.UIElements::BaseBoolField
-// SizeInfo { instance_size: 1120, native_size: -1, calculated_instance_size: 1120, calculated_native_size: 1120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BaseBoolField*
+// CS Name: UnityEngine.UIElements.BaseBoolField
 class CORDL_TYPE BaseBoolField : public ::UnityEngine::UIElements::BaseField_1<bool> {
 public:
   // Declarations
@@ -49,43 +48,43 @@ public:
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method InitLabel, addr 0x4919b8c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x497e33c, size 0x90, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  /// @brief Method OnClickEvent, addr 0x4919cfc, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method OnClickEvent, addr 0x497e4ac, size 0x288, virtual false, abstract: false, final false
   inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x4919b3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x497e2ec, size 0x34, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method RegisterEditingCallbacks, addr 0x491a140, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method RegisterEditingCallbacks, addr 0x497e8f0, size 0x118, virtual true, abstract: false, final false
   inline void RegisterEditingCallbacks();
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4919c1c, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x497e3cc, size 0xe0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x4919f84, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x497e734, size 0x38, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UnregisterEditingCallbacks, addr 0x491a258, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method UnregisterEditingCallbacks, addr 0x497ea08, size 0x118, virtual true, abstract: false, final false
   inline void UnregisterEditingCallbacks();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x4919fbc, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x497e76c, size 0x184, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
+
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CheckMark() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CheckMark();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CheckMark() const;
+  constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get_m_Clickable() const;
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get_m_Clickable() const;
+  constexpr ::UnityEngine::UIElements::Label* const& __cordl_internal_get_m_Label() const;
 
   constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_Label();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_Label() const;
 
   constexpr ::StringW const& __cordl_internal_get_m_OriginalText() const;
 
@@ -99,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set_m_OriginalText(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4919880, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x497e030, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method get_text, addr 0x4919b70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x497e320, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x4919ab4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x497e264, size 0x88, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -122,6 +121,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseBoolField(BaseBoolField const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5491 };
+
   /// @brief Field m_Label, offset: 0x440, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_Label;
 
@@ -134,14 +136,9 @@ public:
   /// @brief Field m_OriginalText, offset: 0x458, size: 0x8, def value: None
   ::StringW ___m_OriginalText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5467 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseBoolField, 0x460>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::BaseBoolField, ___m_Label) == 0x440, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::BaseBoolField, ___m_CheckMark) == 0x448, "Offset mismatch!");
@@ -149,6 +146,8 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseBoolField, ___m_CheckMark)
 static_assert(offsetof(::UnityEngine::UIElements::BaseBoolField, ___m_Clickable) == 0x450, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::BaseBoolField, ___m_OriginalText) == 0x458, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseBoolField, 0x460>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BaseBoolField);

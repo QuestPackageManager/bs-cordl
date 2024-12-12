@@ -14,21 +14,20 @@ template <typename T> class G_Singleton_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Tayx::Graphy::Utils::G_Singleton_1);
-// Type: Tayx.Graphy.Utils::G_Singleton`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Utils::G_Singleton`1<T>*
+// CS Name: Tayx.Graphy.Utils.G_Singleton`1<T>
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) T _instance;
+  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) T _instance;
 
   /// @brief Field _lock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__lock, put = setStaticF__lock)) ::System::Object* _lock;
+  __declspec(property(get = getStaticF__lock, put = setStaticF__lock)) ::System::Object* _lock;
 
   /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
@@ -67,7 +66,7 @@ public:
   G_Singleton_1(G_Singleton_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

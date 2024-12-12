@@ -5,63 +5,62 @@
 #include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__BlurEvent____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::BlurEvent___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__BlurEvent____c::*)()>(&::UnityEngine::UIElements::__BlurEvent____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BlurEvent___c::*)()>(&::UnityEngine::UIElements::BlurEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49c1ee0;
+  constexpr static std::size_t addrs = 0x4a267f0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__BlurEvent____c.__cctor_b__0_0
+//  Writing Method size for method: ::UnityEngine::UIElements::BlurEvent___c.__cctor_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BlurEvent* (::UnityEngine::UIElements::__BlurEvent____c::*)()>(
-    &::UnityEngine::UIElements::__BlurEvent____c::__cctor_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BlurEvent* (::UnityEngine::UIElements::BlurEvent___c::*)()>(
+    &::UnityEngine::UIElements::BlurEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49c1ee8;
+  constexpr static std::size_t addrs = 0x4a267f8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get(),
                                                                                "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__BlurEvent____c::setStaticF___9(::UnityEngine::UIElements::__BlurEvent____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__BlurEvent____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__BlurEvent____c*>(value));
+inline void UnityEngine::UIElements::BlurEvent___c::setStaticF___9(::UnityEngine::UIElements::BlurEvent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BlurEvent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get>(
+      std::forward<::UnityEngine::UIElements::BlurEvent___c*>(value));
 }
-inline ::UnityEngine::UIElements::__BlurEvent____c* UnityEngine::UIElements::__BlurEvent____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__BlurEvent____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get>();
+inline ::UnityEngine::UIElements::BlurEvent___c* UnityEngine::UIElements::BlurEvent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BlurEvent___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__BlurEvent____c* UnityEngine::UIElements::__BlurEvent____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__BlurEvent____c*>());
-}
-inline void UnityEngine::UIElements::__BlurEvent____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get(), ".ctor",
+inline void UnityEngine::UIElements::BlurEvent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::BlurEvent* UnityEngine::UIElements::__BlurEvent____c::__cctor_b__0_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__BlurEvent____c*>::get(),
-                                                                             "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::UnityEngine::UIElements::BlurEvent* UnityEngine::UIElements::BlurEvent___c::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent___c*>::get(), "<.cctor>b__0_0",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::BlurEvent*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::BlurEvent___c* UnityEngine::UIElements::BlurEvent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BlurEvent___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__BlurEvent____c::__BlurEvent____c() {}
+constexpr ::UnityEngine::UIElements::BlurEvent___c::BlurEvent___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::BlurEvent.PreDispatch
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BlurEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::BlurEvent::PreDispatch)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x49c1d94;
+  constexpr static std::size_t addrs = 0x4a266a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BlurEvent::*)()>(&::UnityEngine::UIElements::BlurEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49c1e3c;
+  constexpr static std::size_t addrs = 0x4a2674c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent*>::get(), ".ctor",
@@ -88,13 +87,13 @@ inline void UnityEngine::UIElements::BlurEvent::PreDispatch(::UnityEngine::UIEle
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
-inline ::UnityEngine::UIElements::BlurEvent* UnityEngine::UIElements::BlurEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BlurEvent*>());
-}
 inline void UnityEngine::UIElements::BlurEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BlurEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::BlurEvent* UnityEngine::UIElements::BlurEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BlurEvent*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::BlurEvent::BlurEvent() {}

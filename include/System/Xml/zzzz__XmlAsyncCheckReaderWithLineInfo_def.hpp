@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReader_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlAsyncCheckReaderWithLineInfo)
@@ -18,11 +19,10 @@ class XmlAsyncCheckReaderWithLineInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckReaderWithLineInfo);
-// Type: System.Xml::XmlAsyncCheckReaderWithLineInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IXmlLineInfo, System.Xml.XmlAsyncCheckReader
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlAsyncCheckReaderWithLineInfo*
+// CS Name: System.Xml.XmlAsyncCheckReaderWithLineInfo
 class CORDL_TYPE XmlAsyncCheckReaderWithLineInfo : public ::System::Xml::XmlAsyncCheckReader {
 public:
   // Declarations
@@ -36,24 +36,24 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method HasLineInfo, addr 0x42aba10, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x430cd24, size 0xa0, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* New_ctor(::System::Xml::XmlReader* reader);
 
-  constexpr ::System::Xml::IXmlLineInfo*& __cordl_internal_get_readerAsIXmlLineInfo();
+  constexpr ::System::Xml::IXmlLineInfo* const& __cordl_internal_get_readerAsIXmlLineInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlLineInfo*> const& __cordl_internal_get_readerAsIXmlLineInfo() const;
+  constexpr ::System::Xml::IXmlLineInfo*& __cordl_internal_get_readerAsIXmlLineInfo();
 
   constexpr void __cordl_internal_set_readerAsIXmlLineInfo(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method .ctor, addr 0x42aab60, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430be74, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method get_LineNumber, addr 0x42abab0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x430cdc4, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x42abb54, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x430ce68, size 0xa4, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -73,18 +73,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAsyncCheckReaderWithLineInfo(XmlAsyncCheckReaderWithLineInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7210 };
+
   /// @brief Field readerAsIXmlLineInfo, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::IXmlLineInfo* ___readerAsIXmlLineInfo;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlAsyncCheckReaderWithLineInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlAsyncCheckReaderWithLineInfo, ___readerAsIXmlLineInfo) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlAsyncCheckReaderWithLineInfo, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlAsyncCheckReaderWithLineInfo);

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aab938;
+  constexpr static std::size_t addrs = 0x4b10248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::get_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aab960;
+  constexpr static std::size_t addrs = 0x4b10270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(), "get_BindInfo",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IfNotBoundBinder::set_BindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aab968;
+  constexpr static std::size_t addrs = 0x4b10278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IfNotBoundBinder::*)()>(&::Zenject::IfNotBoundBinder::IfNotBound)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aab970;
+  constexpr static std::size_t addrs = 0x4b10280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(), "IfNotBound",
@@ -61,16 +61,13 @@ constexpr ::Zenject::BindInfo*& Zenject::IfNotBoundBinder::__cordl_internal_get_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BindInfo_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& Zenject::IfNotBoundBinder::__cordl_internal_get__BindInfo_k__BackingField() const {
+constexpr ::Zenject::BindInfo* const& Zenject::IfNotBoundBinder::__cordl_internal_get__BindInfo_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____BindInfo_k__BackingField;
 }
 constexpr void Zenject::IfNotBoundBinder::__cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____BindInfo_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::IfNotBoundBinder* Zenject::IfNotBoundBinder::New_ctor(::Zenject::BindInfo* bindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::IfNotBoundBinder*>(bindInfo));
 }
 inline void Zenject::IfNotBoundBinder::_ctor(::Zenject::BindInfo* bindInfo) {
   static auto* ___internal_method =
@@ -93,6 +90,9 @@ inline void Zenject::IfNotBoundBinder::IfNotBound() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IfNotBoundBinder*>::get(), "IfNotBound",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::IfNotBoundBinder* Zenject::IfNotBoundBinder::New_ctor(::Zenject::BindInfo* bindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::IfNotBoundBinder*>(bindInfo));
 }
 // Ctor Parameters []
 constexpr ::Zenject::IfNotBoundBinder::IfNotBoundBinder() {}

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MenuShockwave)
 namespace GlobalNamespace {
 class Signal;
@@ -25,11 +24,10 @@ class MenuShockwave;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuShockwave);
-// Type: ::MenuShockwave
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmitParams
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MenuShockwave*
+// CS Name: MenuShockwave
 class CORDL_TYPE MenuShockwave : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -42,26 +40,26 @@ public:
   __declspec(property(get = __cordl_internal_get__shockwavePS, put = __cordl_internal_set__shockwavePS)) ::UnityW<::UnityEngine::ParticleSystem> _shockwavePS;
 
   /// @brief Field _shockwavePSEmitParams, offset 0x38, size 0x90
-  __declspec(property(get = __cordl_internal_get__shockwavePSEmitParams, put = __cordl_internal_set__shockwavePSEmitParams)) ::UnityEngine::__ParticleSystem__EmitParams _shockwavePSEmitParams;
+  __declspec(property(get = __cordl_internal_get__shockwavePSEmitParams, put = __cordl_internal_set__shockwavePSEmitParams)) ::UnityEngine::ParticleSystem_EmitParams _shockwavePSEmitParams;
 
   /// @brief Field _vrPointer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPointer, put = __cordl_internal_set__vrPointer)) ::UnityW<::VRUIControls::VRPointer> _vrPointer;
 
-  /// @brief Method Awake, addr 0x3b9c640, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bfe790, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleButtonClickEvent, addr 0x3b9c7f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClickEvent, addr 0x3bfe940, size 0x28, virtual false, abstract: false, final false
   inline void HandleButtonClickEvent();
 
   static inline ::GlobalNamespace::MenuShockwave* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b9c720, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bfe870, size 0xd0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b9c650, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bfe7a0, size 0xd0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawnShockwave, addr 0x3b9c818, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x3bfe968, size 0xa4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
@@ -72,9 +70,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__shockwavePS();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
+  constexpr ::UnityEngine::ParticleSystem_EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__shockwavePSEmitParams();
+  constexpr ::UnityEngine::ParticleSystem_EmitParams& __cordl_internal_get__shockwavePSEmitParams();
 
   constexpr ::UnityW<::VRUIControls::VRPointer> const& __cordl_internal_get__vrPointer() const;
 
@@ -84,11 +82,11 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value);
 
   constexpr void __cordl_internal_set__vrPointer(::UnityW<::VRUIControls::VRPointer> value);
 
-  /// @brief Method .ctor, addr 0x3b9c8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfea0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,6 +103,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuShockwave(MenuShockwave const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4773 };
+
   /// @brief Field _shockwavePS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;
 
@@ -115,16 +116,11 @@ public:
   ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> ____buttonClickEvents;
 
   /// @brief Field _shockwavePSEmitParams, offset: 0x38, size: 0x90, def value: None
-  ::UnityEngine::__ParticleSystem__EmitParams ____shockwavePSEmitParams;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4757 };
+  ::UnityEngine::ParticleSystem_EmitParams ____shockwavePSEmitParams;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuShockwave, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MenuShockwave, ____shockwavePS) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MenuShockwave, ____vrPointer) == 0x28, "Offset mismatch!");
@@ -132,6 +128,8 @@ static_assert(offsetof(::GlobalNamespace::MenuShockwave, ____vrPointer) == 0x28,
 static_assert(offsetof(::GlobalNamespace::MenuShockwave, ____buttonClickEvents) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MenuShockwave, ____shockwavePSEmitParams) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuShockwave, 0xc8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuShockwave);

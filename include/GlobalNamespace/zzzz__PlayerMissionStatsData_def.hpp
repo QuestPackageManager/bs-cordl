@@ -12,11 +12,10 @@ class PlayerMissionStatsData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerMissionStatsData);
-// Type: ::PlayerMissionStatsData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerMissionStatsData*
+// CS Name: PlayerMissionStatsData
 class CORDL_TYPE PlayerMissionStatsData : public ::System::Object {
 public:
   // Declarations
@@ -44,16 +43,16 @@ public:
 
   constexpr void __cordl_internal_set__missionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26baf14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ef9fc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW missionId, bool cleared);
 
-  /// @brief Method get_cleared, addr 0x26c0284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x26f4e78, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionId, addr 0x26c027c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x26f4e70, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method set_cleared, addr 0x26c028c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x26f4e80, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerMissionStatsData(PlayerMissionStatsData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13231 };
+
   /// @brief Field _missionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____missionId;
 
   /// @brief Field _cleared, offset: 0x18, size: 0x1, def value: None
   bool ____cleared;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13195 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerMissionStatsData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerMissionStatsData, ____missionId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerMissionStatsData, ____cleared) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerMissionStatsData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerMissionStatsData);

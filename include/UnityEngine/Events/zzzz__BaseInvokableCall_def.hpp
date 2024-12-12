@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BaseInvokableCall)
 namespace System::Reflection {
 class MethodInfo;
@@ -21,21 +20,20 @@ class BaseInvokableCall;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::BaseInvokableCall);
-// Type: UnityEngine.Events::BaseInvokableCall
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Events {
 // Is value type: false
-// CS Name: ::UnityEngine.Events::BaseInvokableCall*
+// CS Name: UnityEngine.Events.BaseInvokableCall
 class CORDL_TYPE BaseInvokableCall : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AllowInvoke, addr 0x485a3a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AllowInvoke, addr 0x48bb730, size 0xa4, virtual false, abstract: false, final false
   static inline bool AllowInvoke(::System::Delegate* delegate);
 
-  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Find, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::UnityEngine::Events::BaseInvokableCall* New_ctor();
@@ -45,10 +43,10 @@ public:
   /// @brief Method ThrowOnInvalidArg, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void ThrowOnInvalidArg(::System::Object* arg);
 
-  /// @brief Method .ctor, addr 0x485a2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bb634, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x485a2b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bb63c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* function);
 
 protected:
@@ -66,7 +64,7 @@ public:
   BaseInvokableCall(BaseInvokableCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10973 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

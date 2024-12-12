@@ -22,11 +22,10 @@ class AxisEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
-// Type: UnityEngine.EventSystems::AxisEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.BaseEventData, UnityEngine.EventSystems.MoveDirection, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// CS Name: ::UnityEngine.EventSystems::AxisEventData*
+// CS Name: UnityEngine.EventSystems.AxisEventData
 class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventData {
 public:
   // Declarations
@@ -54,19 +53,19 @@ public:
 
   constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x4a6fe74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad4784, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_moveDir, addr 0x4a6fe64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveDir, addr 0x4ad4774, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::MoveDirection get_moveDir();
 
-  /// @brief Method get_moveVector, addr 0x4a6fe54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_moveVector, addr 0x4ad4764, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();
 
-  /// @brief Method set_moveDir, addr 0x4a6fe6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveDir, addr 0x4ad477c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveDir(::UnityEngine::EventSystems::MoveDirection value);
 
-  /// @brief Method set_moveVector, addr 0x4a6fe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_moveVector, addr 0x4ad476c, size 0x8, virtual false, abstract: false, final false
   inline void set_moveVector(::UnityEngine::Vector2 value);
 
 protected:
@@ -83,23 +82,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AxisEventData(AxisEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15173 };
+
   /// @brief Field <moveVector>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____moveVector_k__BackingField;
 
   /// @brief Field <moveDir>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::EventSystems::MoveDirection ____moveDir_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15138 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::AxisEventData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventSystems::AxisEventData, ____moveVector_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::EventSystems::AxisEventData, ____moveDir_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::AxisEventData, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::AxisEventData);

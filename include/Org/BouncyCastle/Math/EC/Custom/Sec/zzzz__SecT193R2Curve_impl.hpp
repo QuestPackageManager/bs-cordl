@@ -10,18 +10,18 @@
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::*)(
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*, ::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t)>(
-    &::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::_ctor)> {
+    &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2466360;
+  constexpr static std::size_t addrs = 0x249964c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get(),
@@ -29,160 +29,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable.get_Size
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable.get_Size
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::*)()>(
-    &::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::get_Size)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::*)()>(
+    &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::get_Size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24664a8;
+  constexpr static std::size_t addrs = 0x2499794;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 8));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable.Lookup
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable.Lookup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
-    ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::Lookup)> {
+    ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::Lookup)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x24664b0;
+  constexpr static std::size_t addrs = 0x249979c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 7));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable.LookupVar
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable.LookupVar
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
-    ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::LookupVar)> {
+    ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::*)(int32_t)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::LookupVar)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x24666a8;
+  constexpr static std::size_t addrs = 0x2499994;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 9));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 9));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable.CreatePoint
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable.CreatePoint
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
-    ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
-    &::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::CreatePoint)> {
+    ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
+    &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::CreatePoint)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24665c8;
+  constexpr static std::size_t addrs = 0x24998b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(),
                                                  "CreatePoint", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*& Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_outer() {
+constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_outer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_outer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*> const&
-Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_outer() const {
+constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* const& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_outer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_outer;
 }
-constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* value) {
+constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_outer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_table() {
+constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_table;
 }
-constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_table() const {
+constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_table;
 }
-constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_size() {
+constexpr int32_t& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_size;
 }
-constexpr int32_t const& Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_get_m_size() const {
+constexpr int32_t const& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_get_m_size() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_size;
 }
-constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__cordl_internal_set_m_size(int32_t value) {
+constexpr void Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::__cordl_internal_set_m_size(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_size = value;
 }
-inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*
-Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* outer,
-                                                                                           ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>(outer, table, size));
-}
-inline void Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* outer,
-                                                                                                    ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size) {
+inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* outer,
+                                                                                                 ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), ".ctor",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, outer, table, size);
 }
-inline int32_t Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::get_Size() {
+inline int32_t Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::get_Size() {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 8)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::Lookup(int32_t index) {
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::Lookup(int32_t index) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 7)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, index);
 }
-inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::LookupVar(int32_t index) {
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::LookupVar(int32_t index) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(), 9)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, index);
 }
-inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x,
-                                                                                                                                             ::ArrayW<uint64_t, ::Array<uint64_t>*> y) {
+inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::CreatePoint(::ArrayW<uint64_t, ::Array<uint64_t>*> x,
+                                                                                                                                          ::ArrayW<uint64_t, ::Array<uint64_t>*> y) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>::get(),
                                                "CreatePoint", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint64_t, ::Array<uint64_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, x, y);
 }
+inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*
+Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* outer, ::ArrayW<uint64_t, ::Array<uint64_t>*> table,
+                                                                                        int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable*>(outer, table, size));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT193R2Curve__SecT193R2LookupTable::__SecT193R2Curve__SecT193R2LookupTable() {}
+constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve_SecT193R2LookupTable::SecT193R2Curve_SecT193R2LookupTable() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::_ctor)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2465d30;
+  constexpr static std::size_t addrs = 0x249901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CloneCurve)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2465f2c;
+  constexpr static std::size_t addrs = 0x2499218;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::SupportsCoordinateSystem)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2465f7c;
+  constexpr static std::size_t addrs = 0x2499268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_Infinity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2465f88;
+  constexpr static std::size_t addrs = 0x2499274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_FieldSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2465f90;
+  constexpr static std::size_t addrs = 0x249927c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::FromBigInteger)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2465f98;
+  constexpr static std::size_t addrs = 0x2499284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +277,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2465ff0;
+  constexpr static std::size_t addrs = 0x24992dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -296,7 +295,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                    ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>, bool)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CreateRawPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24660f8;
+  constexpr static std::size_t addrs = 0x24993e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -312,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_IsKoblitz)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2466190;
+  constexpr static std::size_t addrs = 0x249947c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -328,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_M)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2466198;
+  constexpr static std::size_t addrs = 0x2499484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -344,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_IsTrinomial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24661a0;
+  constexpr static std::size_t addrs = 0x249948c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -360,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_K1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24661a8;
+  constexpr static std::size_t addrs = 0x2499494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -376,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_K2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24661b0;
+  constexpr static std::size_t addrs = 0x249949c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -392,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::get_K3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24661b8;
+  constexpr static std::size_t addrs = 0x24994a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -409,7 +408,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::*)(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CreateCacheSafeLookupTable)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x24661c0;
+  constexpr static std::size_t addrs = 0x24994ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -423,8 +422,7 @@ constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Point*& Org::Boun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_infinity;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Point*> const&
-Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::__cordl_internal_get_m_infinity() const {
+constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Point* const& Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::__cordl_internal_get_m_infinity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_infinity;
 }
@@ -442,9 +440,6 @@ inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::B
 Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::getStaticF_SECT193R2_AFFINE_ZS() {
   return ::cordl_internals::getStaticField<::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>, "SECT193R2_AFFINE_ZS",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>::get>();
-}
-inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>());
 }
 inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>::get(),
@@ -540,6 +535,9 @@ Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::CreateCacheSafeLookupT
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECLookupTable*, false>(this, ___internal_method, points, off, len);
+}
+inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve* Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT193R2Curve::SecT193R2Curve() {}

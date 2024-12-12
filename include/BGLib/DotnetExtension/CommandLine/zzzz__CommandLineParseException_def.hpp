@@ -15,17 +15,16 @@ class CommandLineParseException;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::DotnetExtension::CommandLine::CommandLineParseException);
-// Type: BGLib.DotnetExtension.CommandLine::CommandLineParseException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: false
-// CS Name: ::BGLib.DotnetExtension.CommandLine::CommandLineParseException*
+// CS Name: BGLib.DotnetExtension.CommandLine.CommandLineParseException
 class CORDL_TYPE CommandLineParseException : public ::System::Exception {
 public:
   // Declarations
   static inline ::BGLib::DotnetExtension::CommandLine::CommandLineParseException* New_ctor(::StringW hint, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x226d0c4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229f918, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW hint, ::System::Exception* innerException);
 
 protected:
@@ -43,7 +42,7 @@ public:
   CommandLineParseException(CommandLineParseException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16948 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

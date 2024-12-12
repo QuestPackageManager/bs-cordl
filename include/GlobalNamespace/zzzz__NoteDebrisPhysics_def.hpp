@@ -14,20 +14,19 @@ class NoteDebrisPhysics;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisPhysics);
-// Type: ::NoteDebrisPhysics
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteDebrisPhysics*
+// CS Name: NoteDebrisPhysics
 class CORDL_TYPE NoteDebrisPhysics : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
+  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Init(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity, bool forceOnlySimplePhysics);
 
   static inline ::GlobalNamespace::NoteDebrisPhysics* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a91654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aeaed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   NoteDebrisPhysics(NoteDebrisPhysics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

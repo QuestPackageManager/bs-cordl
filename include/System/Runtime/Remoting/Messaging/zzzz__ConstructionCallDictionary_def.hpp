@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConstructionCallDictionary)
 namespace System::Runtime::Remoting::Activation {
@@ -19,26 +18,25 @@ class ConstructionCallDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionCallDictionary);
-// Type: System.Runtime.Remoting.Messaging::ConstructionCallDictionary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Messaging.MessageDictionary
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::ConstructionCallDictionary*
+// CS Name: System.Runtime.Remoting.Messaging.ConstructionCallDictionary
 class CORDL_TYPE ConstructionCallDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
   // Declarations
   /// @brief Field InternalKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
+  __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
 
-  /// @brief Method GetMethodProperty, addr 0x3c8a514, size 0x3cc, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x3cea688, size 0x3cc, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method SetMethodProperty, addr 0x3c8ae44, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x3ceafb8, size 0x268, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3c89564, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce96d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();

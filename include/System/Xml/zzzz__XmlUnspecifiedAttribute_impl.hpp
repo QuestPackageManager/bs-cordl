@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(::StringW, ::StringW, ::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlUnspecifiedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e7674;
+  constexpr static std::size_t addrs = 0x4348988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlUnspecifiedAttribute::*)()>(&::System::Xml::XmlUnspecifiedAttribute::get_Specified)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e767c;
+  constexpr static std::size_t addrs = 0x4348990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(bool)>(
     &::System::Xml::XmlUnspecifiedAttribute::CloneNode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x42e7684;
+  constexpr static std::size_t addrs = 0x4348998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(::StringW)>(
     &::System::Xml::XmlUnspecifiedAttribute::set_InnerText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42e77b4;
+  constexpr static std::size_t addrs = 0x4348ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&::System::Xml::XmlUnspecifiedAttribute::InsertBefore)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42e77d4;
+  constexpr static std::size_t addrs = 0x4348ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&::System::Xml::XmlUnspecifiedAttribute::InsertAfter)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42e77f4;
+  constexpr static std::size_t addrs = 0x4348b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlUnspecifiedAttribute::RemoveChild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42e7814;
+  constexpr static std::size_t addrs = 0x4348b28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlUnspecifiedAttribute::AppendChild)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42e7834;
+  constexpr static std::size_t addrs = 0x4348b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlUnspecifiedAttribute::WriteTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42e7854;
+  constexpr static std::size_t addrs = 0x4348b68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUnspecifiedAttribute::*)(bool)>(&::System::Xml::XmlUnspecifiedAttribute::SetSpecified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x42e7868;
+  constexpr static std::size_t addrs = 0x4348b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,9 +166,6 @@ constexpr bool const& System::Xml::XmlUnspecifiedAttribute::__cordl_internal_get
 constexpr void System::Xml::XmlUnspecifiedAttribute::__cordl_internal_set_fSpecified(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___fSpecified = value;
-}
-inline ::System::Xml::XmlUnspecifiedAttribute* System::Xml::XmlUnspecifiedAttribute::New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlUnspecifiedAttribute*>(prefix, localName, namespaceURI, doc));
 }
 inline void System::Xml::XmlUnspecifiedAttribute::_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,6 +220,9 @@ inline void System::Xml::XmlUnspecifiedAttribute::SetSpecified(bool f) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUnspecifiedAttribute*>::get(), "SetSpecified",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, f);
+}
+inline ::System::Xml::XmlUnspecifiedAttribute* System::Xml::XmlUnspecifiedAttribute::New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlUnspecifiedAttribute*>(prefix, localName, namespaceURI, doc));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlUnspecifiedAttribute::XmlUnspecifiedAttribute() {}

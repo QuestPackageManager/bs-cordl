@@ -10,208 +10,208 @@
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData.get_defaultColor
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData.get_defaultColor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::*)()>(
-    &::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_defaultColor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
+    &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_defaultColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2230144;
+  constexpr static std::size_t addrs = 0x225b6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
                                                  "get_defaultColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData.get_darkerColorMultiplier
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData.get_darkerColorMultiplier
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::*)()>(
-    &::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_darkerColorMultiplier)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
+    &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_darkerColorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2230150;
+  constexpr static std::size_t addrs = 0x225b6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
                                                  "get_darkerColorMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData.get_whiteBoost
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData.get_whiteBoost
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::*)()>(
-    &::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_whiteBoost)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
+    &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_whiteBoost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2230158;
+  constexpr static std::size_t addrs = 0x225b6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
                                                  "get_whiteBoost", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData._ctor
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::*)()>(
-    &::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::*)()>(
+    &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2230160;
+  constexpr static std::size_t addrs = 0x225b6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__defaultColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultColor;
-}
-constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__defaultColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultColor;
-}
-constexpr void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_set__defaultColor(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____defaultColor = value;
-}
-constexpr float_t& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__darkerColorMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____darkerColorMultiplier;
-}
-constexpr float_t const& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__darkerColorMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____darkerColorMultiplier;
-}
-constexpr void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_set__darkerColorMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____darkerColorMultiplier = value;
-}
-constexpr float_t& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__whiteBoost() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____whiteBoost;
-}
-constexpr float_t const& BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_get__whiteBoost() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____whiteBoost;
-}
-constexpr void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__cordl_internal_set__whiteBoost(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____whiteBoost = value;
-}
-inline ::UnityEngine::Color BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_defaultColor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
-                                               "get_defaultColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
-}
-inline float_t BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_darkerColorMultiplier() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
-                                               "get_darkerColorMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
-}
-inline float_t BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::get_whiteBoost() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
-                                               "get_whiteBoost", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
-}
-inline ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData* BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>());
-}
-inline void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData::__MulticolorAvatarPartPropertyBlockSetter__ColorData() {}
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::*)()>(
-    &::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22301d8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c._OnValidate_b__10_0
+constexpr ::UnityEngine::Color& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__defaultColor() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultColor;
+}
+constexpr ::UnityEngine::Color const& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__defaultColor() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____defaultColor;
+}
+constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_set__defaultColor(::UnityEngine::Color value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____defaultColor = value;
+}
+constexpr float_t& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__darkerColorMultiplier() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____darkerColorMultiplier;
+}
+constexpr float_t const& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__darkerColorMultiplier() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____darkerColorMultiplier;
+}
+constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_set__darkerColorMultiplier(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____darkerColorMultiplier = value;
+}
+constexpr float_t& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__whiteBoost() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____whiteBoost;
+}
+constexpr float_t const& BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_get__whiteBoost() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____whiteBoost;
+}
+constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::__cordl_internal_set__whiteBoost(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____whiteBoost = value;
+}
+inline ::UnityEngine::Color BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_defaultColor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
+                                               "get_defaultColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+}
+inline float_t BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_darkerColorMultiplier() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
+                                               "get_darkerColorMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline float_t BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::get_whiteBoost() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(),
+                                               "get_whiteBoost", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>());
+}
+// Ctor Parameters []
+constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData::MulticolorAvatarPartPropertyBlockSetter_ColorData() {}
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::*)(
-    ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*)>(&::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::_OnValidate_b__10_0)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22301e0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)()>(
+    &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x225b74c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get(), "<OnValidate>b__10_0",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::setStaticF___9(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c* value) {
-  ::cordl_internals::setStaticField<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get>(
-      std::forward<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>(value));
+//  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c._OnValidate_b__10_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::*)(
+    ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x225b754;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get(), "<OnValidate>b__10_0",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::setStaticF___9(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* value) {
+  ::cordl_internals::setStaticField<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get>(
+      std::forward<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>(value));
 }
-inline ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c* BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get>();
+inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get>();
 }
-inline void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::setStaticF___9__10_0(
-    ::System::Func_2<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::UnityEngine::Color>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get>(
-      std::forward<::System::Func_2<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::UnityEngine::Color>*>(value));
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::setStaticF___9__10_0(
+    ::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get>(
+      std::forward<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*>(value));
 }
-inline ::System::Func_2<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::UnityEngine::Color>*
-BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get>();
+inline ::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*
+BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::UnityEngine::Color>*, "<>9__10_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get>();
 }
-inline ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c* BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>());
-}
-inline void BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::_ctor() {
+inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color
-BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::_OnValidate_b__10_0(::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData* x) {
+BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::_OnValidate_b__10_0(::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c*>::get(), "<OnValidate>b__10_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>::get(), "<OnValidate>b__10_0",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, x);
 }
+inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c*>());
+}
 // Ctor Parameters []
-constexpr ::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter____c::__MulticolorAvatarPartPropertyBlockSetter____c() {}
+constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter___c::MulticolorAvatarPartPropertyBlockSetter___c() {}
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter.OnValidate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::OnValidate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x222fdc4;
+  constexpr static std::size_t addrs = 0x225b338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(
     ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>)>(&::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetColors)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x222f9b0;
+  constexpr static std::size_t addrs = 0x225af24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)(bool, int32_t)>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::SetHighlight)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x222fc98;
+  constexpr static std::size_t addrs = 0x225b20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::UpdateRenderer)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x222ff68;
+  constexpr static std::size_t addrs = 0x225b4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -271,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::*)()>(
     &::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22300dc;
+  constexpr static std::size_t addrs = 0x225b650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,19 +280,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*>&
+constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>*>&
 BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_get__colorDataList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorDataList;
 }
-constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*,
-                   ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> const&
+constexpr ::ArrayW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>*> const&
 BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_get__colorDataList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorDataList;
 }
 constexpr void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::__cordl_internal_set__colorDataList(
-    ::ArrayW<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::__MulticolorAvatarPartPropertyBlockSetter__ColorData*>*> value) {
+    ::ArrayW<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*, ::Array<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter_ColorData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -413,14 +412,14 @@ inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::U
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>());
-}
 inline void BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter* BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::BeatAvatarSDK::MulticolorAvatarPartPropertyBlockSetter::MulticolorAvatarPartPropertyBlockSetter() {}

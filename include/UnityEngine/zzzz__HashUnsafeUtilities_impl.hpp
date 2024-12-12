@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint64_t, ::cordl_internals::Ptr<uint64_t>, ::cordl_internals::Ptr<uint64_t>)>(
     &::UnityEngine::HashUnsafeUtilities::ComputeHash128)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4836bc0;
+  constexpr static std::size_t addrs = 0x4898008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint64_t, ::cordl_internals::Ptr<::UnityEngine::Hash128>)>(
     &::UnityEngine::HashUnsafeUtilities::ComputeHash128)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4836f44;
+  constexpr static std::size_t addrs = 0x489838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

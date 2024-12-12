@@ -1,43 +1,43 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/CoroutineTween/FloatTween.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
+#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__FloatTween_def.hpp"
-#include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback._ctor
+//  Writing Method size for method: ::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback::*)()>(
-    &::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::*)()>(
+    &::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a6ca84;
+  constexpr static std::size_t addrs = 0x4ad1394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback* UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback*>());
-}
-inline void UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback::_ctor() {
+inline void UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback::__FloatTween__FloatTweenCallback() {}
+constexpr ::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback::FloatTween_FloatTweenCallback() {}
 //  Writing Method size for method: ::UnityEngine::UI::CoroutineTween::FloatTween.get_startValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::get_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c91c;
+  constexpr static std::size_t addrs = 0x4ad122c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::set_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c924;
+  constexpr static std::size_t addrs = 0x4ad1234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::get_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c92c;
+  constexpr static std::size_t addrs = 0x4ad123c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::set_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c934;
+  constexpr static std::size_t addrs = 0x4ad1244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c93c;
+  constexpr static std::size_t addrs = 0x4ad124c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c944;
+  constexpr static std::size_t addrs = 0x4ad1254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::get_ignoreTimeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6c94c;
+  constexpr static std::size_t addrs = 0x4ad125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(bool)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::set_ignoreTimeScale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a6c954;
+  constexpr static std::size_t addrs = 0x4ad1264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(float_t)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::TweenValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a6c960;
+  constexpr static std::size_t addrs = 0x4ad1270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::CoroutineTween::FloatTween::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::AddOnChangedCallback)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a6c9fc;
+  constexpr static std::size_t addrs = 0x4ad130c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::GetIgnoreTimescale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6cacc;
+  constexpr static std::size_t addrs = 0x4ad13dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::GetDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6cad4;
+  constexpr static std::size_t addrs = 0x4ad13e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::CoroutineTween::FloatTween::*)()>(
     &::UnityEngine::UI::CoroutineTween::FloatTween::ValidTarget)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a6c9ec;
+  constexpr static std::size_t addrs = 0x4ad12fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
@@ -219,14 +219,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
-constexpr UnityEngine::UI::CoroutineTween::FloatTween::operator ::UnityEngine::UI::CoroutineTween::ITweenValue*() {
-  return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
-constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* UnityEngine::UI::CoroutineTween::FloatTween::i___UnityEngine__UI__CoroutineTween__ITweenValue() {
-  return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline float_t UnityEngine::UI::CoroutineTween::FloatTween::get_startValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::CoroutineTween::FloatTween>::get(),
                                                                              "get_startValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -298,10 +290,18 @@ inline bool UnityEngine::UI::CoroutineTween::FloatTween::ValidTarget() {
                                                                              "ValidTarget", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "m_StartValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTween(::UnityEngine::UI::CoroutineTween::__FloatTween__FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue,
+/// @brief Convert operator to "::UnityEngine::UI::CoroutineTween::ITweenValue"
+constexpr UnityEngine::UI::CoroutineTween::FloatTween::operator ::UnityEngine::UI::CoroutineTween::ITweenValue*() {
+  return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UI::CoroutineTween::ITweenValue"
+constexpr ::UnityEngine::UI::CoroutineTween::ITweenValue* UnityEngine::UI::CoroutineTween::FloatTween::i___UnityEngine__UI__CoroutineTween__ITweenValue() {
+  return static_cast<::UnityEngine::UI::CoroutineTween::ITweenValue*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Target", ty: "::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StartValue", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TargetValue", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration", ty: "float_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "m_IgnoreTimeScale", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UI::CoroutineTween::FloatTween::FloatTween(::UnityEngine::UI::CoroutineTween::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue,
                                                                     float_t m_Duration, bool m_IgnoreTimeScale) noexcept {
   this->m_Target = m_Target;
   this->m_StartValue = m_StartValue;

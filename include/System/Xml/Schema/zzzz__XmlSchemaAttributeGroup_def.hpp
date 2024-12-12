@@ -28,11 +28,10 @@ class XmlSchemaAttributeGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAttributeGroup);
-// Type: System.Xml.Schema::XmlSchemaAttributeGroup
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaAnnotated
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaAttributeGroup*
+// CS Name: System.Xml.Schema.XmlSchemaAttributeGroup
 class CORDL_TYPE XmlSchemaAttributeGroup : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
@@ -80,41 +79,41 @@ public:
   /// @brief Field selfReferenceCount, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get_selfReferenceCount, put = __cordl_internal_set_selfReferenceCount)) int32_t selfReferenceCount;
 
-  /// @brief Method Clone, addr 0x42579a8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42b8cbc, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaAttributeGroup* New_ctor();
 
-  /// @brief Method SetQualifiedName, addr 0x42579a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x42b8cb4, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
+
+  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_anyAttribute() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_anyAttribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& __cordl_internal_get_anyAttribute() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectTable* const& __cordl_internal_get_attributeUses() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectTable*& __cordl_internal_get_attributeUses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectTable*> const& __cordl_internal_get_attributeUses() const;
+  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& __cordl_internal_get_attributeWildcard() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_attributeWildcard();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& __cordl_internal_get_attributeWildcard() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& __cordl_internal_get_attributes() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_attributes();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_attributes() const;
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
   constexpr ::StringW& __cordl_internal_get_name();
 
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_qname() const;
+
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qname() const;
+  constexpr ::System::Xml::Schema::XmlSchemaAttributeGroup* const& __cordl_internal_get_redefined() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaAttributeGroup*& __cordl_internal_get_redefined();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttributeGroup*> const& __cordl_internal_get_redefined() const;
 
   constexpr int32_t const& __cordl_internal_get_selfReferenceCount() const;
 
@@ -136,55 +135,55 @@ public:
 
   constexpr void __cordl_internal_set_selfReferenceCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4257e28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b913c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AnyAttribute, addr 0x42578dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnyAttribute, addr 0x42b8bf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AnyAttribute();
 
-  /// @brief Method get_AttributeUses, addr 0x42578f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeUses, addr 0x42b8c08, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectTable* get_AttributeUses();
 
-  /// @brief Method get_AttributeWildcard, addr 0x4257958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeWildcard, addr 0x42b8c6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnyAttribute* get_AttributeWildcard();
 
-  /// @brief Method get_Attributes, addr 0x42578d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x42b8be8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Attributes();
 
-  /// @brief Method get_Name, addr 0x42578c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42b8bd8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x4257990, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42b8ca4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x42578ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42b8c00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_Redefined, addr 0x4257970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x42b8c84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_Redefined();
 
-  /// @brief Method get_RedefinedAttributeGroup, addr 0x4257968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedefinedAttributeGroup, addr 0x42b8c7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttributeGroup* get_RedefinedAttributeGroup();
 
-  /// @brief Method get_SelfReferenceCount, addr 0x4257980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SelfReferenceCount, addr 0x42b8c94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SelfReferenceCount();
 
-  /// @brief Method set_AnyAttribute, addr 0x42578e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnyAttribute, addr 0x42b8bf8, size 0x8, virtual false, abstract: false, final false
   inline void set_AnyAttribute(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_AttributeWildcard, addr 0x4257960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttributeWildcard, addr 0x42b8c74, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  /// @brief Method set_Name, addr 0x42578cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42b8be0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x4257998, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42b8cac, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Redefined, addr 0x4257978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x42b8c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaAttributeGroup* value);
 
-  /// @brief Method set_SelfReferenceCount, addr 0x4257988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SelfReferenceCount, addr 0x42b8c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_SelfReferenceCount(int32_t value);
 
 protected:
@@ -200,6 +199,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttributeGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaAttributeGroup(XmlSchemaAttributeGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7652 };
 
   /// @brief Field name, offset: 0x50, size: 0x8, def value: None
   ::StringW ___name;
@@ -225,14 +227,9 @@ public:
   /// @brief Field selfReferenceCount, offset: 0x88, size: 0x4, def value: None
   int32_t ___selfReferenceCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7627 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAttributeGroup, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttributeGroup, ___name) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttributeGroup, ___attributes) == 0x58, "Offset mismatch!");
@@ -248,6 +245,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttributeGroup, ___attrib
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttributeGroup, ___attributeWildcard) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttributeGroup, ___selfReferenceCount) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAttributeGroup, 0x90>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAttributeGroup);

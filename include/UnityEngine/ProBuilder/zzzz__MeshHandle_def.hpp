@@ -18,11 +18,10 @@ class MeshHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshHandle);
-// Type: UnityEngine.ProBuilder::MeshHandle
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::MeshHandle*
+// CS Name: UnityEngine.ProBuilder.MeshHandle
 class CORDL_TYPE MeshHandle : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method DrawMeshNow, addr 0x46b1d88, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshNow, addr 0x471309c, size 0x118, virtual false, abstract: false, final false
   inline void DrawMeshNow(int32_t submeshIndex);
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
@@ -51,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x46b1d5c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4713070, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method get_mesh, addr 0x46b1d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x4713068, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshHandle(MeshHandle const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14253 };
+
   /// @brief Field m_Transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_Transform;
 
   /// @brief Field m_Mesh, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14219 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshHandle, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshHandle, ___m_Transform) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshHandle, ___m_Mesh) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshHandle, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshHandle);

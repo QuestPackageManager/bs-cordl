@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerListItem::*)(::StringW, int32_t, int32_t, bool)>(
     &::GlobalNamespace::GameServerListItem::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x26a4e70;
+  constexpr static std::size_t addrs = 0x26d9ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,15 +66,15 @@ constexpr void GlobalNamespace::GameServerListItem::__cordl_internal_set_passwor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___password = value;
 }
-inline ::GlobalNamespace::GameServerListItem* GlobalNamespace::GameServerListItem::New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerListItem*>(serverName, capacity, occupied, password));
-}
 inline void GlobalNamespace::GameServerListItem::_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerListItem*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serverName, capacity, occupied, password);
+}
+inline ::GlobalNamespace::GameServerListItem* GlobalNamespace::GameServerListItem::New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerListItem*>(serverName, capacity, occupied, password));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerListItem::GameServerListItem() {}

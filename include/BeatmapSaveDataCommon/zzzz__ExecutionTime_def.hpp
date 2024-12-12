@@ -12,11 +12,10 @@ struct ExecutionTime;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::ExecutionTime);
-// Type: BeatmapSaveDataCommon::ExecutionTime
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataCommon::ExecutionTime
+// CS Name: BeatmapSaveDataCommon.ExecutionTime
 struct CORDL_TYPE ExecutionTime {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ExecutionTime(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Early value: static_cast<int32_t>(0x0)
+  /// @brief Field Early value: I32(0)
   static ::BeatmapSaveDataCommon::ExecutionTime const Early;
 
-  /// @brief Field Late value: static_cast<int32_t>(0x1)
+  /// @brief Field Late value: I32(1)
   static ::BeatmapSaveDataCommon::ExecutionTime const Late;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13447 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::ExecutionTime, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataCommon::ExecutionTime, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::ExecutionTime, 0x4>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataCommon
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::ExecutionTime, "BeatmapSaveDataCommon", "ExecutionTime");

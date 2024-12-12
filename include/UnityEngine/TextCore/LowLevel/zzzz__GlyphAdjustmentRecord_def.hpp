@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphAdjustmentRecord)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -22,11 +20,10 @@ struct GlyphAdjustmentRecord;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord);
-// Type: UnityEngine.TextCore.LowLevel::GlyphAdjustmentRecord
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.TextCore.LowLevel.GlyphValueRecord
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.LowLevel::GlyphAdjustmentRecord
+// CS Name: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
 struct CORDL_TYPE GlyphAdjustmentRecord {
 public:
   // Declarations
@@ -37,19 +34,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
 
-  /// @brief Method Equals, addr 0x48bc49c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4920b2c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48bc51c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4920bac, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other);
 
-  /// @brief Method GetHashCode, addr 0x48bc430, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4920ac0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_glyphIndex, addr 0x48bc41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x4920aac, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x48bc424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x4920ab4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
@@ -63,26 +60,26 @@ public:
   // "::UnityEngine::TextCore::LowLevel::GlyphValueRecord", modifiers: "", def_value: None }]
   constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18183 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
+
   /// @brief Field m_GlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t m_GlyphIndex;
 
   /// @brief Field m_GlyphValueRecord, offset: 0x4, size: 0x10, def value: None
   ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18103 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, m_GlyphIndex) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, m_GlyphValueRecord) == 0x4, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, 0x14>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord, "UnityEngine.TextCore.LowLevel", "GlyphAdjustmentRecord");

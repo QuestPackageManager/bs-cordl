@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3a79f7c;
+  constexpr static std::size_t addrs = 0x3ad1394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a7a00c;
+  constexpr static std::size_t addrs = 0x3ad1424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,15 +38,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)(
-    ::GlobalNamespace::__GameScenesManager__SceneTransitionType, float_t)>(&::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart)> {
+    ::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t)>(&::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a7a0dc;
+  constexpr static std::size_t addrs = 0x3ad14f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*>::get(),
                                     "HandleGameScenesManagerTransitionDidStart", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameScenesManager_SceneTransitionType>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::*)()>(
     &::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7a114;
+  constexpr static std::size_t addrs = 0x3ad152c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,23 +102,23 @@ inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::OnD
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType,
+inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::HandleGameScenesManagerTransitionDidStart(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                                                                                        float_t duration) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*>::get(),
                                   "HandleGameScenesManagerTransitionDidStart", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameScenesManager__SceneTransitionType>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameScenesManager_SceneTransitionType>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneTransitionType, duration);
-}
-inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*>());
 }
 inline void GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart* GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::FadeOutSongPreviewPlayerOnSceneTransitionStart::FadeOutSongPreviewPlayerOnSceneTransitionStart() {}

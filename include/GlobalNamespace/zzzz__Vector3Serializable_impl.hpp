@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/Vector3Serializable.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Vector3Serializable.Serialize
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector3Serializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::Vector3Serializable::Serialize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ebf18;
+  constexpr static std::size_t addrs = 0x271e5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector3Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::Vector3Serializable::Deserialize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26ebd0c;
+  constexpr static std::size_t addrs = 0x271e3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector3Serializable::*)(::GlobalNamespace::Vector3Serializable)>(
     &::GlobalNamespace::Vector3Serializable::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26ee588;
+  constexpr static std::size_t addrs = 0x2720ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector3Serializable::*)(::GlobalNamespace::Vector3Serializable)>(
     &::GlobalNamespace::Vector3Serializable::Approximately)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26ee5bc;
+  constexpr static std::size_t addrs = 0x2720af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Vector3Serializable::*)(::System::Object*)>(
     &::GlobalNamespace::Vector3Serializable::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26ee61c;
+  constexpr static std::size_t addrs = 0x2720b54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Vector3Serializable::*)()>(&::GlobalNamespace::Vector3Serializable::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26ee6b4;
+  constexpr static std::size_t addrs = 0x2720bec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::Vector3Serializable::*)()>(&::GlobalNamespace::Vector3Serializable::ToString)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x26ee6dc;
+  constexpr static std::size_t addrs = 0x2720c14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Vector3Serializable::*)()>(&::GlobalNamespace::Vector3Serializable::GetSize)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ee804;
+  constexpr static std::size_t addrs = 0x2720d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3Serializable>::get(), "GetSize",
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector3Serializable::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Serializable::_ctor)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x26ee8bc;
+  constexpr static std::size_t addrs = 0x2720df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Vector3Serializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::Vector3Serializable::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26eeb44;
+  constexpr static std::size_t addrs = 0x272107c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::Vector3Serializable)>(
     &::GlobalNamespace::Vector3Serializable::op_Implicit___UnityEngine__Vector3)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26eeb50;
+  constexpr static std::size_t addrs = 0x2721088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Vector3Serializable (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Serializable::op_Implicit___GlobalNamespace__Vector3Serializable)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ec368;
+  constexpr static std::size_t addrs = 0x271ea04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::Vector3Serializable (*)(::GlobalNamespace::Vector3Serializable, ::GlobalNamespace::Vector3Serializable)>(&::GlobalNamespace::Vector3Serializable::op_Addition)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26eeb78;
+  constexpr static std::size_t addrs = 0x27210b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::Vector3Serializable (*)(::GlobalNamespace::Vector3Serializable, ::GlobalNamespace::Vector3Serializable)>(&::GlobalNamespace::Vector3Serializable::op_Subtraction)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26eeb94;
+  constexpr static std::size_t addrs = 0x27210cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -215,22 +215,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr GlobalNamespace::Vector3Serializable::operator ::LiteNetLib::Utils::INetSerializable*() {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::Vector3Serializable::i___LiteNetLib__Utils__INetSerializable() {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
-constexpr GlobalNamespace::Vector3Serializable::operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>* GlobalNamespace::Vector3Serializable::i___System__IEquatable_1___GlobalNamespace__Vector3Serializable_() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void GlobalNamespace::Vector3Serializable::Serialize(::LiteNetLib::Utils::NetDataWriter* writer) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3Serializable>::get(), "Serialize", std::span<Il2CppClass const* const, 0>(),
@@ -312,6 +296,22 @@ inline ::GlobalNamespace::Vector3Serializable GlobalNamespace::Vector3Serializab
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Vector3Serializable>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::Vector3Serializable>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::Vector3Serializable, false>(nullptr, ___internal_method, a, b);
+}
+/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+constexpr GlobalNamespace::Vector3Serializable::operator ::LiteNetLib::Utils::INetSerializable*() {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::Vector3Serializable::i___LiteNetLib__Utils__INetSerializable() {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
+constexpr GlobalNamespace::Vector3Serializable::operator ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>* GlobalNamespace::Vector3Serializable::i___System__IEquatable_1___GlobalNamespace__Vector3Serializable_() {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::Vector3Serializable>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_z",
 // ty: "int32_t", modifiers: "", def_value: Some("{}") }]

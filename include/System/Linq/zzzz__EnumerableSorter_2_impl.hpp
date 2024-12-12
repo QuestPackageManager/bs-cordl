@@ -9,8 +9,7 @@ template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement,
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySelector;
 }
-template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_keySelector() const {
+template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement, TKey>* const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_keySelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySelector;
 }
@@ -23,7 +22,7 @@ template <typename TElement, typename TKey> constexpr ::System::Collections::Gen
   return this->___comparer;
 }
 template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_comparer() const {
+constexpr ::System::Collections::Generic::IComparer_1<TKey>* const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
@@ -47,8 +46,7 @@ template <typename TElement, typename TKey> constexpr ::System::Linq::Enumerable
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::EnumerableSorter_1<TElement>*> const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_next() const {
+template <typename TElement, typename TKey> constexpr ::System::Linq::EnumerableSorter_1<TElement>* const& System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -67,12 +65,6 @@ template <typename TElement, typename TKey> constexpr ::ArrayW<TKey, ::Array<TKe
 template <typename TElement, typename TKey> constexpr void System::Linq::EnumerableSorter_2<TElement, TKey>::__cordl_internal_set_keys(::ArrayW<TKey, ::Array<TKey>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___keys, value);
-}
-template <typename TElement, typename TKey>
-inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* System::Linq::EnumerableSorter_2<TElement, TKey>::New_ctor(::System::Func_2<TElement, TKey>* keySelector,
-                                                                                                                      ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending,
-                                                                                                                      ::System::Linq::EnumerableSorter_1<TElement>* next) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::EnumerableSorter_2<TElement, TKey>*>(keySelector, comparer, descending, next));
 }
 template <typename TElement, typename TKey>
 inline void System::Linq::EnumerableSorter_2<TElement, TKey>::_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending,
@@ -94,6 +86,12 @@ template <typename TElement, typename TKey> inline int32_t System::Linq::Enumera
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_2<TElement, TKey>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, index1, index2);
+}
+template <typename TElement, typename TKey>
+inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* System::Linq::EnumerableSorter_2<TElement, TKey>::New_ctor(::System::Func_2<TElement, TKey>* keySelector,
+                                                                                                                      ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending,
+                                                                                                                      ::System::Linq::EnumerableSorter_1<TElement>* next) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::EnumerableSorter_2<TElement, TKey>*>(keySelector, comparer, descending, next));
 }
 // Ctor Parameters []
 template <typename TElement, typename TKey> constexpr ::System::Linq::EnumerableSorter_2<TElement, TKey>::EnumerableSorter_2() {}

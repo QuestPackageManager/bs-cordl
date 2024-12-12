@@ -17,32 +17,27 @@ class IEnvironmentLightGroups;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IEnvironmentLightGroups);
-// Type: ::IEnvironmentLightGroups
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IEnvironmentLightGroups*
+// CS Name: IEnvironmentLightGroups
 class CORDL_TYPE IEnvironmentLightGroups {
 public:
   // Declarations
   __declspec(property(get = get_lightGroups)) ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* lightGroups;
 
-  /// @brief Method GetDataForGroup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetDataForGroup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILightGroup* GetDataForGroup(int32_t groupId);
 
-  /// @brief Method get_lightGroups, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_lightGroups, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* get_lightGroups();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IEnvironmentLightGroups", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IEnvironmentLightGroups(IEnvironmentLightGroups&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnvironmentLightGroups", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IEnvironmentLightGroups(IEnvironmentLightGroups const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12843 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

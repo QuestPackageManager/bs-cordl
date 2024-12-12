@@ -44,11 +44,10 @@ class TstInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::TstInfo);
-// Type: Org.BouncyCastle.Asn1.Tsp::TstInfo
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Tsp::TstInfo*
+// CS Name: Org.BouncyCastle.Asn1.Tsp.TstInfo
 class CORDL_TYPE TstInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -102,7 +101,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x24c5c1c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x24f8f08, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -113,48 +112,48 @@ public:
                                                                   ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa,
                                                                   ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method ToAsn1Object, addr 0x24c65d0, size 0x294, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x24f98bc, size 0x294, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy* const& __cordl_internal_get_accuracy() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __cordl_internal_get_accuracy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::Accuracy*> const& __cordl_internal_get_accuracy() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_extensions() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_genTime() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_genTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_genTime() const;
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* const& __cordl_internal_get_messageImprint() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint*& __cordl_internal_get_messageImprint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::MessageImprint*> const& __cordl_internal_get_messageImprint() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_nonce() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_nonce();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_nonce() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean* const& __cordl_internal_get_ordering() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_ordering();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_ordering() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_serialNumber() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_serialNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_serialNumber() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_tsa() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_tsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_tsa() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_tsaPolicyId() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_tsaPolicyId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_tsaPolicyId() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
   constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
 
@@ -176,42 +175,42 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x24c5cc0, size 0x808, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8fac, size 0x808, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x24c64c8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f97b4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicyId, ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* genTime, ::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy, ::Org::BouncyCastle::Asn1::DerBoolean* ordering,
                     ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method get_Accuracy, addr 0x24c65a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Accuracy, addr 0x24f988c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_Extensions, addr 0x24c65c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x24f98b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_GenTime, addr 0x24c65a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenTime, addr 0x24f9894, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_GenTime();
 
-  /// @brief Method get_MessageImprint, addr 0x24c6588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprint, addr 0x24f9874, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* get_MessageImprint();
 
-  /// @brief Method get_Nonce, addr 0x24c65b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x24f98a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Nonce();
 
-  /// @brief Method get_Ordering, addr 0x24c65b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ordering, addr 0x24f989c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBoolean* get_Ordering();
 
-  /// @brief Method get_Policy, addr 0x24c6590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x24f987c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Policy();
 
-  /// @brief Method get_SerialNumber, addr 0x24c6598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x24f9884, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Tsa, addr 0x24c65c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tsa, addr 0x24f98ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_Version, addr 0x24c6580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x24f986c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -227,6 +226,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TstInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TstInfo(TstInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 318 };
 
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
@@ -258,14 +260,9 @@ public:
   /// @brief Field extensions, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___extensions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 318 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Tsp::TstInfo, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::TstInfo, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::TstInfo, ___tsaPolicyId) == 0x18, "Offset mismatch!");
@@ -285,6 +282,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::TstInfo, ___nonce) == 0x4
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::TstInfo, ___tsa) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Tsp::TstInfo, ___extensions) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Tsp::TstInfo, 0x60>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Tsp::TstInfo);

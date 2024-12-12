@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__UnityEventBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent_4)
 namespace System::Reflection {
@@ -25,13 +24,12 @@ template <typename T0, typename T1, typename T2, typename T3> class UnityEvent_4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Events::UnityEvent_4);
-// Type: UnityEngine.Events::UnityEvent`4
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Events.UnityEventBase
 namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1, typename T2, typename T3>
 // Is value type: false
-// CS Name: ::UnityEngine.Events::UnityEvent`4<T0,T1,T2,T3>*
+// CS Name: UnityEngine.Events.UnityEvent`4<T0,T1,T2,T3>
 class CORDL_TYPE UnityEvent_4 : public ::UnityEngine::Events::UnityEventBase {
 public:
   // Declarations
@@ -69,11 +67,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnityEvent_4(UnityEvent_4 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10994 };
+
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

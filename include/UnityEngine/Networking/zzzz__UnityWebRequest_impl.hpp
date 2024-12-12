@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Networking/UnityWebRequest.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 #include "UnityEngine/Networking/zzzz__CertificateHandler_def.hpp"
@@ -13,93 +13,88 @@
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/Networking/zzzz__UploadHandler_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::__UnityWebRequest__UnityWebRequestMethod(int32_t value__) noexcept {
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::UnityWebRequest_UnityWebRequestMethod(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::__UnityWebRequest__UnityWebRequestMethod() {}
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::Get{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::Post{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::Put{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::Head{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod::Custom{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::UnityWebRequest_UnityWebRequestMethod() {}
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Get{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Post{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Put{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Head{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod::Custom{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::__UnityWebRequest__UnityWebRequestError(int32_t value__) noexcept {
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::UnityWebRequest_UnityWebRequestError(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::__UnityWebRequest__UnityWebRequestError() {}
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::OK{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::OKCached{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::Unknown{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SDKError{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::UnsupportedProtocol{ static_cast<int32_t>(0x4) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::MalformattedUrl{ static_cast<int32_t>(0x5) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::CannotResolveProxy{ static_cast<int32_t>(0x6) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::CannotResolveHost{ static_cast<int32_t>(0x7) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::CannotConnectToHost{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::AccessDenied{ static_cast<int32_t>(0x9) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::GenericHttpError{ static_cast<int32_t>(0xa) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::WriteError{ static_cast<int32_t>(0xb) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::ReadError{ static_cast<int32_t>(0xc) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::OutOfMemory{ static_cast<int32_t>(0xd) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::Timeout{ static_cast<int32_t>(0xe) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::HTTPPostError{ static_cast<int32_t>(0xf) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLCannotConnect{ static_cast<int32_t>(0x10) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::Aborted{ static_cast<int32_t>(0x11) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::TooManyRedirects{ static_cast<int32_t>(0x12) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::ReceivedNoData{ static_cast<int32_t>(0x13) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLNotSupported{ static_cast<int32_t>(0x14) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::FailedToSendData{ static_cast<int32_t>(0x15) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::FailedToReceiveData{ static_cast<int32_t>(0x16) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLCertificateError{ static_cast<int32_t>(0x17) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLCipherNotAvailable{ static_cast<int32_t>(0x18) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLCACertError{ static_cast<int32_t>(0x19) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::UnrecognizedContentEncoding{ static_cast<int32_t>(
-    0x1a) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::LoginFailed{ static_cast<int32_t>(0x1b) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::SSLShutdownFailed{ static_cast<int32_t>(0x1c) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::RedirectLimitInvalid{ static_cast<int32_t>(0x1d) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::InvalidRedirect{ static_cast<int32_t>(0x1e) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::CannotModifyRequest{ static_cast<int32_t>(0x1f) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::HeaderNameContainsInvalidCharacters{
-  static_cast<int32_t>(0x20)
-};
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::HeaderValueContainsInvalidCharacters{
-  static_cast<int32_t>(0x21)
-};
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::CannotOverrideSystemHeaders{ static_cast<int32_t>(
-    0x22) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::AlreadySent{ static_cast<int32_t>(0x23) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::InvalidMethod{ static_cast<int32_t>(0x24) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::NotImplemented{ static_cast<int32_t>(0x25) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::NoInternetConnection{ static_cast<int32_t>(0x26) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::DataProcessingError{ static_cast<int32_t>(0x27) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError::InsecureConnectionNotAllowed{ static_cast<int32_t>(
-    0x28) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::UnityWebRequest_UnityWebRequestError() {}
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::OK{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::OKCached{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::Unknown{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SDKError{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::UnsupportedProtocol{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::MalformattedUrl{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::CannotResolveProxy{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::CannotResolveHost{ static_cast<int32_t>(0x7) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::CannotConnectToHost{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::AccessDenied{ static_cast<int32_t>(0x9) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::GenericHttpError{ static_cast<int32_t>(0xa) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::WriteError{ static_cast<int32_t>(0xb) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::ReadError{ static_cast<int32_t>(0xc) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::OutOfMemory{ static_cast<int32_t>(0xd) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::Timeout{ static_cast<int32_t>(0xe) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::HTTPPostError{ static_cast<int32_t>(0xf) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLCannotConnect{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::Aborted{ static_cast<int32_t>(0x11) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::TooManyRedirects{ static_cast<int32_t>(0x12) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::ReceivedNoData{ static_cast<int32_t>(0x13) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLNotSupported{ static_cast<int32_t>(0x14) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::FailedToSendData{ static_cast<int32_t>(0x15) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::FailedToReceiveData{ static_cast<int32_t>(0x16) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLCertificateError{ static_cast<int32_t>(0x17) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLCipherNotAvailable{ static_cast<int32_t>(0x18) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLCACertError{ static_cast<int32_t>(0x19) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::UnrecognizedContentEncoding{ static_cast<int32_t>(0x1a) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::LoginFailed{ static_cast<int32_t>(0x1b) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::SSLShutdownFailed{ static_cast<int32_t>(0x1c) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::RedirectLimitInvalid{ static_cast<int32_t>(0x1d) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::InvalidRedirect{ static_cast<int32_t>(0x1e) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::CannotModifyRequest{ static_cast<int32_t>(0x1f) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::HeaderNameContainsInvalidCharacters{ static_cast<int32_t>(
+    0x20) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::HeaderValueContainsInvalidCharacters{ static_cast<int32_t>(
+    0x21) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::CannotOverrideSystemHeaders{ static_cast<int32_t>(0x22) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::AlreadySent{ static_cast<int32_t>(0x23) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::InvalidMethod{ static_cast<int32_t>(0x24) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::NotImplemented{ static_cast<int32_t>(0x25) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::NoInternetConnection{ static_cast<int32_t>(0x26) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::DataProcessingError{ static_cast<int32_t>(0x27) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest_UnityWebRequestError::InsecureConnectionNotAllowed{ static_cast<int32_t>(0x28) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result::__UnityWebRequest__Result(int32_t value__) noexcept {
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result::UnityWebRequest_Result(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result::__UnityWebRequest__Result() {}
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::__UnityWebRequest__Result::InProgress{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::__UnityWebRequest__Result::Success{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::__UnityWebRequest__Result::ConnectionError{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::__UnityWebRequest__Result::ProtocolError{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::__UnityWebRequest__Result::DataProcessingError{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result::UnityWebRequest_Result() {}
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest_Result::InProgress{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest_Result::Success{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest_Result::ConnectionError{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest_Result::ProtocolError{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest_Result::DataProcessingError{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.GetWebErrorString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError)>(
     &::UnityEngine::Networking::UnityWebRequest::GetWebErrorString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7ec98;
+  constexpr static std::size_t addrs = 0x4ae35a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetWebErrorString", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError>::get() })));
     return ___internal_method;
   }
 };
@@ -108,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t)>(&::UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7ecd4;
+  constexpr static std::size_t addrs = 0x4ae35e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_disposeCertificateHandlerOnDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7ed10;
+  constexpr static std::size_t addrs = 0x4ae3620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(bool)>(
     &::UnityEngine::Networking::UnityWebRequest::set_disposeCertificateHandlerOnDispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a7ed18;
+  constexpr static std::size_t addrs = 0x4ae3628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_disposeDownloadHandlerOnDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7ed24;
+  constexpr static std::size_t addrs = 0x4ae3634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(bool)>(
     &::UnityEngine::Networking::UnityWebRequest::set_disposeDownloadHandlerOnDispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a7ed2c;
+  constexpr static std::size_t addrs = 0x4ae363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_disposeUploadHandlerOnDispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7ed38;
+  constexpr static std::size_t addrs = 0x4ae3648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(bool)>(
     &::UnityEngine::Networking::UnityWebRequest::set_disposeUploadHandlerOnDispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a7ed40;
+  constexpr static std::size_t addrs = 0x4ae3650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::Networking::UnityWebRequest::Create)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a7ed4c;
+  constexpr static std::size_t addrs = 0x4ae365c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "Create",
@@ -225,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::Release)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7ed74;
+  constexpr static std::size_t addrs = 0x4ae3684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "Release",
@@ -239,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::InternalDestroy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a7edb0;
+  constexpr static std::size_t addrs = 0x4ae36c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -253,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::InternalSetDefaults)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a7ee6c;
+  constexpr static std::size_t addrs = 0x4ae377c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -267,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::StringW, ::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a7ee80;
+  constexpr static std::size_t addrs = 0x4ae3790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(
     ::StringW, ::StringW, ::UnityEngine::Networking::DownloadHandler*, ::UnityEngine::Networking::UploadHandler*)>(&::UnityEngine::Networking::UnityWebRequest::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a7f104;
+  constexpr static std::size_t addrs = 0x4ae3a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(
     ::System::Uri*, ::StringW, ::UnityEngine::Networking::DownloadHandler*, ::UnityEngine::Networking::UploadHandler*)>(&::UnityEngine::Networking::UnityWebRequest::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a7f3b0;
+  constexpr static std::size_t addrs = 0x4ae3cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::Finalize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a7f53c;
+  constexpr static std::size_t addrs = 0x4ae3e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::Dispose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a7f638;
+  constexpr static std::size_t addrs = 0x4ae3f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "Dispose",
@@ -343,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::DisposeHandlers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a7f5d8;
+  constexpr static std::size_t addrs = 0x4ae3ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -357,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequestAsyncOperation* (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::BeginWebRequest)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7f6b8;
+  constexpr static std::size_t addrs = 0x4ae3fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -371,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequestAsyncOperation* (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::SendWebRequest)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a7f6f4;
+  constexpr static std::size_t addrs = 0x4ae4004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -384,7 +379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::Abort)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7ee30;
+  constexpr static std::size_t addrs = 0x4ae3740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "Abort",
@@ -395,15 +390,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
-    ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod)>(&::UnityEngine::Networking::UnityWebRequest::SetMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+    ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod)>(&::UnityEngine::Networking::UnityWebRequest::SetMethod)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a7f73c;
+  constexpr static std::size_t addrs = 0x4ae404c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetMethod", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod>::get() })));
     return ___internal_method;
   }
 };
@@ -411,24 +406,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(
-    ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod)>(&::UnityEngine::Networking::UnityWebRequest::InternalSetMethod)> {
+    ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod)>(&::UnityEngine::Networking::UnityWebRequest::InternalSetMethod)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a7f780;
+  constexpr static std::size_t addrs = 0x4ae4090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "InternalSetMethod", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetCustomMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
     ::StringW)>(&::UnityEngine::Networking::UnityWebRequest::SetCustomMethod)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a7f8bc;
+  constexpr static std::size_t addrs = 0x4ae41cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -443,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a7f900;
+  constexpr static std::size_t addrs = 0x4ae4210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,10 +450,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.GetMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::GetMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod (::UnityEngine::Networking::UnityWebRequest::*)()>(
+    &::UnityEngine::Networking::UnityWebRequest::GetMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fa00;
+  constexpr static std::size_t addrs = 0x4ae4310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetMethod",
@@ -472,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::GetCustomMethod)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fa3c;
+  constexpr static std::size_t addrs = 0x4ae434c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -486,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_method)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4a7fa78;
+  constexpr static std::size_t addrs = 0x4ae4388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_method",
@@ -500,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::set_method)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4a7ef84;
+  constexpr static std::size_t addrs = 0x4ae3894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,10 +507,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.GetError
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::GetError)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fb80;
+  constexpr static std::size_t addrs = 0x4ae4490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetError",
@@ -529,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_error)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4a7fbbc;
+  constexpr static std::size_t addrs = 0x4ae44cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_error",
@@ -542,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::get_url)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fdd8;
+  constexpr static std::size_t addrs = 0x4ae46e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_url",
@@ -556,7 +551,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::set_url)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a7eefc;
+  constexpr static std::size_t addrs = 0x4ae380c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,7 +566,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::System::Uri*)>(
     &::UnityEngine::Networking::UnityWebRequest::set_uri)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a7f454;
+  constexpr static std::size_t addrs = 0x4ae3d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -585,7 +580,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::GetUrl)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fe14;
+  constexpr static std::size_t addrs = 0x4ae4724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetUrl",
@@ -597,9 +592,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&::UnityEngine::Networking::UnityWebRequest::SetUrl)> {
+    static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(&::UnityEngine::Networking::UnityWebRequest::SetUrl)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a7ff50;
+  constexpr static std::size_t addrs = 0x4ae4860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::InternalSetUrl)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a7fe50;
+  constexpr static std::size_t addrs = 0x4ae4760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_responseCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fd9c;
+  constexpr static std::size_t addrs = 0x4ae46ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -643,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_isModifiable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7f880;
+  constexpr static std::size_t addrs = 0x4ae4190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -656,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::UnityWebRequest::*)()>(&::UnityEngine::Networking::UnityWebRequest::get_isDone)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a7ff94;
+  constexpr static std::size_t addrs = 0x4ae48a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_isDone",
@@ -667,10 +662,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.get_result
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__Result (::UnityEngine::Networking::UnityWebRequest::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_Result (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_result)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7fd60;
+  constexpr static std::size_t addrs = 0x4ae4670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_result",
@@ -684,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_downloadedBytes)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7ffdc;
+  constexpr static std::size_t addrs = 0x4ae48ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -698,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(int32_t)>(
     &::UnityEngine::Networking::UnityWebRequest::SetRedirectLimitFromScripting)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a80018;
+  constexpr static std::size_t addrs = 0x4ae4928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -713,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(int32_t)>(
     &::UnityEngine::Networking::UnityWebRequest::set_redirectLimit)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a8005c;
+  constexpr static std::size_t addrs = 0x4ae496c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,7 +723,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::UnityWebRequest::*)(::StringW)>(
     &::UnityEngine::Networking::UnityWebRequest::GetResponseHeader)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a800a0;
+  constexpr static std::size_t addrs = 0x4ae49b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,10 +735,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetUploadHandler
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
     ::UnityEngine::Networking::UploadHandler*)>(&::UnityEngine::Networking::UnityWebRequest::SetUploadHandler)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a800e4;
+  constexpr static std::size_t addrs = 0x4ae49f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -758,7 +753,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UploadHandler* (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_uploadHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7f6a8;
+  constexpr static std::size_t addrs = 0x4ae3fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -772,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::UnityEngine::Networking::UploadHandler*)>(
     &::UnityEngine::Networking::UnityWebRequest::set_uploadHandler)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a7f2ac;
+  constexpr static std::size_t addrs = 0x4ae3bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -784,10 +779,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetDownloadHandler
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
     ::UnityEngine::Networking::DownloadHandler*)>(&::UnityEngine::Networking::UnityWebRequest::SetDownloadHandler)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a80128;
+  constexpr static std::size_t addrs = 0x4ae4a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -802,7 +797,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::DownloadHandler* (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_downloadHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7f6a0;
+  constexpr static std::size_t addrs = 0x4ae3fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -816,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::UnityEngine::Networking::DownloadHandler*)>(
     &::UnityEngine::Networking::UnityWebRequest::set_downloadHandler)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a7f1a8;
+  constexpr static std::size_t addrs = 0x4ae3ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -828,10 +823,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetCertificateHandler
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
     ::UnityEngine::Networking::CertificateHandler*)>(&::UnityEngine::Networking::UnityWebRequest::SetCertificateHandler)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a8016c;
+  constexpr static std::size_t addrs = 0x4ae4a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -846,7 +841,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::CertificateHandler* (::UnityEngine::Networking::UnityWebRequest::*)()>(
     &::UnityEngine::Networking::UnityWebRequest::get_certificateHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7f6b0;
+  constexpr static std::size_t addrs = 0x4ae3fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -860,7 +855,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(::UnityEngine::Networking::CertificateHandler*)>(
     &::UnityEngine::Networking::UnityWebRequest::set_certificateHandler)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a801b0;
+  constexpr static std::size_t addrs = 0x4ae4ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -872,10 +867,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Networking::UnityWebRequest.SetTimeoutMsec
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError (::UnityEngine::Networking::UnityWebRequest::*)(
     int32_t)>(&::UnityEngine::Networking::UnityWebRequest::SetTimeoutMsec)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a802b4;
+  constexpr static std::size_t addrs = 0x4ae4bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,7 +885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::UnityWebRequest::*)(int32_t)>(
     &::UnityEngine::Networking::UnityWebRequest::set_timeout)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a802f8;
+  constexpr static std::size_t addrs = 0x4ae4c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -904,7 +899,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Networking::UnityWebRequest* (*)(::StringW)>(&::UnityEngine::Networking::UnityWebRequest::Get)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a80448;
+  constexpr static std::size_t addrs = 0x4ae4d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -918,7 +913,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a804ec;
+  constexpr static std::size_t addrs = 0x4ae4dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -932,7 +927,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::Encoding*)>(&::UnityEngine::Networking::UnityWebRequest::EscapeURL)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4a8050c;
+  constexpr static std::size_t addrs = 0x4ae4e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -942,14 +937,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::Networking::UnityWebRequest::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::Networking::UnityWebRequest::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::IntPtr& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_Ptr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
@@ -966,7 +953,7 @@ constexpr ::UnityEngine::Networking::DownloadHandler*& UnityEngine::Networking::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_DownloadHandler() const {
+constexpr ::UnityEngine::Networking::DownloadHandler* const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_DownloadHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DownloadHandler;
 }
@@ -978,7 +965,7 @@ constexpr ::UnityEngine::Networking::UploadHandler*& UnityEngine::Networking::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UploadHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_UploadHandler() const {
+constexpr ::UnityEngine::Networking::UploadHandler* const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_UploadHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UploadHandler;
 }
@@ -990,7 +977,7 @@ constexpr ::UnityEngine::Networking::CertificateHandler*& UnityEngine::Networkin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_CertificateHandler() const {
+constexpr ::UnityEngine::Networking::CertificateHandler* const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_CertificateHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CertificateHandler;
 }
@@ -1002,7 +989,7 @@ constexpr ::System::Uri*& UnityEngine::Networking::UnityWebRequest::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Uri;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_Uri() const {
+constexpr ::System::Uri* const& UnityEngine::Networking::UnityWebRequest::__cordl_internal_get_m_Uri() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Uri;
 }
@@ -1046,10 +1033,10 @@ constexpr void UnityEngine::Networking::UnityWebRequest::__cordl_internal_set__d
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposeUploadHandlerOnDispose_k__BackingField = value;
 }
-inline ::StringW UnityEngine::Networking::UnityWebRequest::GetWebErrorString(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError err) {
+inline ::StringW UnityEngine::Networking::UnityWebRequest::GetWebErrorString(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError err) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetWebErrorString", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, err);
 }
 inline ::StringW UnityEngine::Networking::UnityWebRequest::GetHTTPStatusString(int64_t responseCode) {
@@ -1114,18 +1101,11 @@ inline void UnityEngine::Networking::UnityWebRequest::InternalSetDefaults() {
                                                                              "InternalSetDefaults", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::StringW url, ::StringW method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(url, method));
-}
 inline void UnityEngine::Networking::UnityWebRequest::_ctor(::StringW url, ::StringW method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, url, method);
-}
-inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
-                                                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(url, method, downloadHandler, uploadHandler));
 }
 inline void UnityEngine::Networking::UnityWebRequest::_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
                                                             ::UnityEngine::Networking::UploadHandler* uploadHandler) {
@@ -1135,10 +1115,6 @@ inline void UnityEngine::Networking::UnityWebRequest::_ctor(::StringW url, ::Str
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandler*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UploadHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, url, method, downloadHandler, uploadHandler);
-}
-inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::System::Uri* uri, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
-                                                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(uri, method, downloadHandler, uploadHandler));
 }
 inline void UnityEngine::Networking::UnityWebRequest::_ctor(::System::Uri* uri, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
                                                             ::UnityEngine::Networking::UploadHandler* uploadHandler) {
@@ -1179,24 +1155,24 @@ inline void UnityEngine::Networking::UnityWebRequest::Abort() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError
-UnityEngine::Networking::UnityWebRequest::SetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod methodType) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError
+UnityEngine::Networking::UnityWebRequest::SetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetMethod", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, methodType);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, methodType);
 }
-inline void UnityEngine::Networking::UnityWebRequest::InternalSetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod methodType) {
+inline void UnityEngine::Networking::UnityWebRequest::InternalSetMethod(::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod methodType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "InternalSetMethod", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, methodType);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetCustomMethod(::StringW customMethodName) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetCustomMethod(::StringW customMethodName) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetCustomMethod",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, customMethodName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, customMethodName);
 }
 inline void UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod(::StringW customMethodName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1204,10 +1180,10 @@ inline void UnityEngine::Networking::UnityWebRequest::InternalSetCustomMethod(::
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, customMethodName);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest::GetMethod() {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod UnityEngine::Networking::UnityWebRequest::GetMethod() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetMethod",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestMethod, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::Networking::UnityWebRequest::GetCustomMethod() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -1225,10 +1201,10 @@ inline void UnityEngine::Networking::UnityWebRequest::set_method(::StringW value
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::GetError() {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::GetError() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "GetError",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::Networking::UnityWebRequest::get_error() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_error",
@@ -1257,11 +1233,11 @@ inline ::StringW UnityEngine::Networking::UnityWebRequest::GetUrl() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetUrl(::StringW url) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetUrl(::StringW url) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetUrl", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, url);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, url);
 }
 inline void UnityEngine::Networking::UnityWebRequest::InternalSetUrl(::StringW url) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1284,10 +1260,10 @@ inline bool UnityEngine::Networking::UnityWebRequest::get_isDone() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__Result UnityEngine::Networking::UnityWebRequest::get_result() {
+inline ::UnityEngine::Networking::UnityWebRequest_Result UnityEngine::Networking::UnityWebRequest::get_result() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "get_result",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__Result, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_Result, false>(this, ___internal_method);
 }
 inline uint64_t UnityEngine::Networking::UnityWebRequest::get_downloadedBytes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -1312,11 +1288,11 @@ inline ::StringW UnityEngine::Networking::UnityWebRequest::GetResponseHeader(::S
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetUploadHandler(::UnityEngine::Networking::UploadHandler* uh) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetUploadHandler(::UnityEngine::Networking::UploadHandler* uh) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetUploadHandler", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UploadHandler*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, uh);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, uh);
 }
 inline ::UnityEngine::Networking::UploadHandler* UnityEngine::Networking::UnityWebRequest::get_uploadHandler() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -1329,11 +1305,11 @@ inline void UnityEngine::Networking::UnityWebRequest::set_uploadHandler(::UnityE
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UploadHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* dh) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* dh) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetDownloadHandler", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandler*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, dh);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, dh);
 }
 inline ::UnityEngine::Networking::DownloadHandler* UnityEngine::Networking::UnityWebRequest::get_downloadHandler() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -1346,11 +1322,11 @@ inline void UnityEngine::Networking::UnityWebRequest::set_downloadHandler(::Unit
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetCertificateHandler(::UnityEngine::Networking::CertificateHandler* ch) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetCertificateHandler(::UnityEngine::Networking::CertificateHandler* ch) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetCertificateHandler", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::CertificateHandler*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, ch);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, ch);
 }
 inline ::UnityEngine::Networking::CertificateHandler* UnityEngine::Networking::UnityWebRequest::get_certificateHandler() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(),
@@ -1363,11 +1339,11 @@ inline void UnityEngine::Networking::UnityWebRequest::set_certificateHandler(::U
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::CertificateHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetTimeoutMsec(int32_t timeout) {
+inline ::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError UnityEngine::Networking::UnityWebRequest::SetTimeoutMsec(int32_t timeout) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::UnityWebRequest*>::get(), "SetTimeoutMsec",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, false>(this, ___internal_method, timeout);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Networking::UnityWebRequest_UnityWebRequestError, false>(this, ___internal_method, timeout);
 }
 inline void UnityEngine::Networking::UnityWebRequest::set_timeout(int32_t value) {
   static auto* ___internal_method =
@@ -1393,6 +1369,25 @@ inline ::StringW UnityEngine::Networking::UnityWebRequest::EscapeURL(::StringW s
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, s, e);
+}
+inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::StringW url, ::StringW method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(url, method));
+}
+inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
+                                                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(url, method, downloadHandler, uploadHandler));
+}
+inline ::UnityEngine::Networking::UnityWebRequest* UnityEngine::Networking::UnityWebRequest::New_ctor(::System::Uri* uri, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
+                                                                                                      ::UnityEngine::Networking::UploadHandler* uploadHandler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::UnityWebRequest*>(uri, method, downloadHandler, uploadHandler));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::Networking::UnityWebRequest::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::Networking::UnityWebRequest::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::UnityWebRequest::UnityWebRequest() {}

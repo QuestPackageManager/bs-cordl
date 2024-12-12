@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithChallengeEntryList)
 namespace Oculus::Platform::Models {
 class ChallengeEntryList;
@@ -18,23 +17,22 @@ class MessageWithChallengeEntryList;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithChallengeEntryList);
-// Type: Oculus.Platform::MessageWithChallengeEntryList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithChallengeEntryList*
+// CS Name: Oculus.Platform.MessageWithChallengeEntryList
 class CORDL_TYPE MessageWithChallengeEntryList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ChallengeEntryList*> {
 public:
   // Declarations
-  /// @brief Method GetChallengeEntryList, addr 0x3f1ce88, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallengeEntryList, addr 0x3f7cf34, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeEntryList* GetChallengeEntryList();
 
-  /// @brief Method GetDataFromMessage, addr 0x3f1cec4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7cf70, size 0x94, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeEntryList* GetDataFromMessage(::System::IntPtr c_message);
 
   static inline ::Oculus::Platform::MessageWithChallengeEntryList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1a788, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7a834, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -52,7 +50,7 @@ public:
   MessageWithChallengeEntryList(MessageWithChallengeEntryList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

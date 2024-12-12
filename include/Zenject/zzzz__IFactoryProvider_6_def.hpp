@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProvider_6)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -33,18 +32,17 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IFactoryProvider_6);
-// Type: Zenject::IFactoryProvider`6
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.IFactoryProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::IFactoryProvider`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
+// CS Name: Zenject.IFactoryProvider`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>
 class CORDL_TYPE IFactoryProvider_6 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:
   // Declarations
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   static inline ::Zenject::IFactoryProvider_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
@@ -67,7 +65,7 @@ public:
   IFactoryProvider_6(IFactoryProvider_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

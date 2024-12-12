@@ -12,16 +12,15 @@ class PlatformSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::PlatformSettings);
-// Type: Oculus.Platform::PlatformSettings
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::PlatformSettings*
+// CS Name: Oculus.Platform.PlatformSettings
 class CORDL_TYPE PlatformSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::UnityW<::Oculus::Platform::PlatformSettings> instance;
+  __declspec(property(get = getStaticF_instance, put = setStaticF_instance)) ::Oculus::Platform::PlatformSettings* instance;
 
   /// @brief Field ovrAppID, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ovrAppID, put = __cordl_internal_set_ovrAppID)) ::StringW ovrAppID;
@@ -52,35 +51,35 @@ public:
 
   constexpr void __cordl_internal_set_ovrUseStandalonePlatform(bool value);
 
-  /// @brief Method .ctor, addr 0x3f2bb48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8bbf4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityW<::Oculus::Platform::PlatformSettings> getStaticF_instance();
+  static inline ::Oculus::Platform::PlatformSettings* getStaticF_instance();
 
-  /// @brief Method get_AppID, addr 0x3f20fa8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AppID, addr 0x3f81054, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_AppID();
 
-  /// @brief Method get_Instance, addr 0x3f2b974, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityW<::Oculus::Platform::PlatformSettings> get_Instance();
+  /// @brief Method get_Instance, addr 0x3f8ba20, size 0x124, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::PlatformSettings* get_Instance();
 
-  /// @brief Method get_MobileAppID, addr 0x3f20f8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_MobileAppID, addr 0x3f81038, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_MobileAppID();
 
-  /// @brief Method get_UseStandalonePlatform, addr 0x3f20564, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_UseStandalonePlatform, addr 0x3f80610, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_UseStandalonePlatform();
 
-  static inline void setStaticF_instance(::UnityW<::Oculus::Platform::PlatformSettings> value);
+  static inline void setStaticF_instance(::Oculus::Platform::PlatformSettings* value);
 
-  /// @brief Method set_AppID, addr 0x3f2ba98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_AppID, addr 0x3f8bb44, size 0x20, virtual false, abstract: false, final false
   static inline void set_AppID(::StringW value);
 
-  /// @brief Method set_Instance, addr 0x3f2bafc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Instance, addr 0x3f8bba8, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::Oculus::Platform::PlatformSettings* value);
 
-  /// @brief Method set_MobileAppID, addr 0x3f2bab8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_MobileAppID, addr 0x3f8bb64, size 0x20, virtual false, abstract: false, final false
   static inline void set_MobileAppID(::StringW value);
 
-  /// @brief Method set_UseStandalonePlatform, addr 0x3f2bad8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_UseStandalonePlatform, addr 0x3f8bb84, size 0x24, virtual false, abstract: false, final false
   static inline void set_UseStandalonePlatform(bool value);
 
 protected:
@@ -97,6 +96,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformSettings(PlatformSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15460 };
+
   /// @brief Field ovrAppID, offset: 0x18, size: 0x8, def value: None
   ::StringW ___ovrAppID;
 
@@ -106,19 +108,16 @@ public:
   /// @brief Field ovrUseStandalonePlatform, offset: 0x28, size: 0x1, def value: None
   bool ___ovrUseStandalonePlatform;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15425 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::PlatformSettings, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::PlatformSettings, ___ovrAppID) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::PlatformSettings, ___ovrMobileAppID) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::PlatformSettings, ___ovrUseStandalonePlatform) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::PlatformSettings, 0x30>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::PlatformSettings);

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlace)
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarPlace__Pool;
+class MultiplayerLobbyAvatarPlace_Pool;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -20,63 +20,61 @@ namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlace;
 }
 namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarPlace__Pool;
+class MultiplayerLobbyAvatarPlace_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarPlace);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLobbyAvatarPlace::Pool*
-class CORDL_TYPE __MultiplayerLobbyAvatarPlace__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>> {
+// CS Name: MultiplayerLobbyAvatarPlace/Pool
+class CORDL_TYPE MultiplayerLobbyAvatarPlace_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b738b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd5398, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerLobbyAvatarPlace__Pool();
+  constexpr MultiplayerLobbyAvatarPlace_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLobbyAvatarPlace__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerLobbyAvatarPlace__Pool(__MultiplayerLobbyAvatarPlace__Pool&&) = delete;
+  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLobbyAvatarPlace__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlace_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerLobbyAvatarPlace__Pool(__MultiplayerLobbyAvatarPlace__Pool const&) = delete;
+  MultiplayerLobbyAvatarPlace_Pool(MultiplayerLobbyAvatarPlace_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4583 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerLobbyAvatarPlace
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLobbyAvatarPlace*
+// CS Name: MultiplayerLobbyAvatarPlace
 class CORDL_TYPE MultiplayerLobbyAvatarPlace : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool;
+  using Pool = ::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool;
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlace* New_ctor();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b73838, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3bd5318, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 worldPos, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x3b738b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd5390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +92,7 @@ public:
   MultiplayerLobbyAvatarPlace(MultiplayerLobbyAvatarPlace const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4584 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -104,5 +102,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobb
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAvatarPlace);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyAvatarPlace*, "", "MultiplayerLobbyAvatarPlace");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*, "", "MultiplayerLobbyAvatarPlace/Pool");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerLobbyAvatarPlace_Pool*, "", "MultiplayerLobbyAvatarPlace/Pool");

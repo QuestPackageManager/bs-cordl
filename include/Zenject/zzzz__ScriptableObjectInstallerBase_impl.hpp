@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ScriptableObjectInstallerBase.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
+#include "Zenject/zzzz__IInstaller_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IInstaller_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 //  Writing Method size for method: ::Zenject::ScriptableObjectInstallerBase.get_Container
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::ScriptableObjectInstallerBase::*)()>(
     &::Zenject::ScriptableObjectInstallerBase::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a90;
+  constexpr static std::size_t addrs = 0x4b2a3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ScriptableObjectInstallerBase::*)()>(
     &::Zenject::ScriptableObjectInstallerBase::Zenject_IInstaller_get_IsEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5a98;
+  constexpr static std::size_t addrs = 0x4b2a3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstallerBase::*)()>(&::Zenject::ScriptableObjectInstallerBase::InstallBindings)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4ac5aa0;
+  constexpr static std::size_t addrs = 0x4b2a3b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstallerBase::*)()>(&::Zenject::ScriptableObjectInstallerBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac587c;
+  constexpr static std::size_t addrs = 0x4b2a18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(), ".ctor",
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ScriptableObjectInstallerBase::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ac5ad8;
+  constexpr static std::size_t addrs = 0x4b2a3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::ScriptableObjectInstallerBase::__zenFieldSetter0)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4ac5b2c;
+  constexpr static std::size_t addrs = 0x4b2a43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ScriptableObjectInstallerBase::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x4ac5c60;
+  constexpr static std::size_t addrs = 0x4b2a570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(),
@@ -105,19 +105,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::IInstaller"
-constexpr Zenject::ScriptableObjectInstallerBase::operator ::Zenject::IInstaller*() noexcept {
-  return static_cast<::Zenject::IInstaller*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IInstaller"
-constexpr ::Zenject::IInstaller* Zenject::ScriptableObjectInstallerBase::i___Zenject__IInstaller() noexcept {
-  return static_cast<::Zenject::IInstaller*>(static_cast<void*>(this));
-}
 constexpr ::Zenject::DiContainer*& Zenject::ScriptableObjectInstallerBase::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::ScriptableObjectInstallerBase::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& Zenject::ScriptableObjectInstallerBase::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -139,9 +131,6 @@ inline void Zenject::ScriptableObjectInstallerBase::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Zenject::ScriptableObjectInstallerBase* Zenject::ScriptableObjectInstallerBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstallerBase*>());
 }
 inline void Zenject::ScriptableObjectInstallerBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(), ".ctor",
@@ -165,6 +154,17 @@ inline ::Zenject::InjectTypeInfo* Zenject::ScriptableObjectInstallerBase::__zenC
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstallerBase*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::ScriptableObjectInstallerBase* Zenject::ScriptableObjectInstallerBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstallerBase*>());
+}
+/// @brief Convert operator to "::Zenject::IInstaller"
+constexpr Zenject::ScriptableObjectInstallerBase::operator ::Zenject::IInstaller*() noexcept {
+  return static_cast<::Zenject::IInstaller*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IInstaller"
+constexpr ::Zenject::IInstaller* Zenject::ScriptableObjectInstallerBase::i___Zenject__IInstaller() noexcept {
+  return static_cast<::Zenject::IInstaller*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::ScriptableObjectInstallerBase::ScriptableObjectInstallerBase() {}

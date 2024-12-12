@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StaticPreviewMediaData.hpp"
+#include "GlobalNamespace/zzzz__IPreviewMediaData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticPreviewMediaData_def.hpp"
-#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)(::UnityEngine::Sprite*, ::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::StaticPreviewMediaData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2692664;
+  constexpr static std::size_t addrs = 0x26c6e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)()>(&::GlobalNamespace::StaticPreviewMediaData::GetCoverSpriteAsync)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x269707c;
+  constexpr static std::size_t addrs = 0x26cbd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)()>(&::GlobalNamespace::StaticPreviewMediaData::GetPreviewAudioClip)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26970ec;
+  constexpr static std::size_t addrs = 0x26cbdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)()>(
     &::GlobalNamespace::StaticPreviewMediaData::UnloadPreviewAudioClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x269715c;
+  constexpr static std::size_t addrs = 0x26cbe2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)()>(
     &::GlobalNamespace::StaticPreviewMediaData::UnloadCoverSprite)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2697160;
+  constexpr static std::size_t addrs = 0x26cbe30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -78,14 +78,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
-constexpr GlobalNamespace::StaticPreviewMediaData::operator ::GlobalNamespace::IPreviewMediaData*() noexcept {
-  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
-constexpr ::GlobalNamespace::IPreviewMediaData* GlobalNamespace::StaticPreviewMediaData::i___GlobalNamespace__IPreviewMediaData() noexcept {
-  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::StaticPreviewMediaData::__cordl_internal_get__coverSprite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coverSprite;
@@ -109,9 +101,6 @@ constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::StaticPrevi
 constexpr void GlobalNamespace::StaticPreviewMediaData::__cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::StaticPreviewMediaData* GlobalNamespace::StaticPreviewMediaData::New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StaticPreviewMediaData*>(coverSprite, previewAudioClip));
 }
 inline void GlobalNamespace::StaticPreviewMediaData::_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -139,6 +128,17 @@ inline void GlobalNamespace::StaticPreviewMediaData::UnloadCoverSprite() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
                                                                              "UnloadCoverSprite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::StaticPreviewMediaData* GlobalNamespace::StaticPreviewMediaData::New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StaticPreviewMediaData*>(coverSprite, previewAudioClip));
+}
+/// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
+constexpr GlobalNamespace::StaticPreviewMediaData::operator ::GlobalNamespace::IPreviewMediaData*() noexcept {
+  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPreviewMediaData"
+constexpr ::GlobalNamespace::IPreviewMediaData* GlobalNamespace::StaticPreviewMediaData::i___GlobalNamespace__IPreviewMediaData() noexcept {
+  return static_cast<::GlobalNamespace::IPreviewMediaData*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StaticPreviewMediaData::StaticPreviewMediaData() {}

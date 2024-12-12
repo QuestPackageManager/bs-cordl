@@ -6,306 +6,304 @@
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__Primes_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.ProbablyPrime
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.ProbablyPrime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::__Primes__MROutput* (*)()>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::ProbablyPrime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)()>(&::Org::BouncyCastle::Math::Primes_MROutput::ProbablyPrime)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24e5fa0;
+  constexpr static std::size_t addrs = 0x251928c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                                "ProbablyPrime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.ProvablyCompositeWithFactor
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.ProvablyCompositeWithFactor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::__Primes__MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*)>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::ProvablyCompositeWithFactor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*)>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeWithFactor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x24e602c;
+  constexpr static std::size_t addrs = 0x2519318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(), "ProvablyCompositeWithFactor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), "ProvablyCompositeWithFactor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.ProvablyCompositeNotPrimePower
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.ProvablyCompositeNotPrimePower
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::__Primes__MROutput* (*)()>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::ProvablyCompositeNotPrimePower)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)()>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeNotPrimePower)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24e6090;
+  constexpr static std::size_t addrs = 0x251937c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                                "ProvablyCompositeNotPrimePower", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::__Primes__MROutput::*)(bool, ::Org::BouncyCastle::Math::BigInteger*)>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Primes_MROutput::*)(bool, ::Org::BouncyCastle::Math::BigInteger*)>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x24e5ffc;
+  constexpr static std::size_t addrs = 0x25192e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.get_Factor
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.get_Factor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::__Primes__MROutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::get_Factor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::get_Factor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e60f0;
+  constexpr static std::size_t addrs = 0x25193dc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
-                                                                               "get_Factor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), "get_Factor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.get_IsProvablyComposite
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.get_IsProvablyComposite
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::__Primes__MROutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::get_IsProvablyComposite)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::get_IsProvablyComposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e60f8;
+  constexpr static std::size_t addrs = 0x25193e4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                                "get_IsProvablyComposite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__MROutput.get_IsNotPrimePower
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_MROutput.get_IsNotPrimePower
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::__Primes__MROutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__MROutput::get_IsNotPrimePower)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Primes_MROutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_MROutput::get_IsNotPrimePower)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24e6100;
+  constexpr static std::size_t addrs = 0x25193ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                                "get_IsNotPrimePower", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_get_mProvablyComposite() {
+constexpr bool& Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_get_mProvablyComposite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mProvablyComposite;
 }
-constexpr bool const& Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_get_mProvablyComposite() const {
+constexpr bool const& Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_get_mProvablyComposite() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mProvablyComposite;
 }
-constexpr void Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_set_mProvablyComposite(bool value) {
+constexpr void Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_set_mProvablyComposite(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mProvablyComposite = value;
 }
-constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_get_mFactor() {
+constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_get_mFactor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mFactor;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_get_mFactor() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_get_mFactor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mFactor;
 }
-constexpr void Org::BouncyCastle::Math::__Primes__MROutput::__cordl_internal_set_mFactor(::Org::BouncyCastle::Math::BigInteger* value) {
+constexpr void Org::BouncyCastle::Math::Primes_MROutput::__cordl_internal_set_mFactor(::Org::BouncyCastle::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mFactor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Math::__Primes__MROutput* Org::BouncyCastle::Math::__Primes__MROutput::ProbablyPrime() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+inline ::Org::BouncyCastle::Math::Primes_MROutput* Org::BouncyCastle::Math::Primes_MROutput::ProbablyPrime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                              "ProbablyPrime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__MROutput*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_MROutput*, false>(nullptr, ___internal_method);
 }
-inline ::Org::BouncyCastle::Math::__Primes__MROutput* Org::BouncyCastle::Math::__Primes__MROutput::ProvablyCompositeWithFactor(::Org::BouncyCastle::Math::BigInteger* factor) {
+inline ::Org::BouncyCastle::Math::Primes_MROutput* Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeWithFactor(::Org::BouncyCastle::Math::BigInteger* factor) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(), "ProvablyCompositeWithFactor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), "ProvablyCompositeWithFactor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__MROutput*, false>(nullptr, ___internal_method, factor);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_MROutput*, false>(nullptr, ___internal_method, factor);
 }
-inline ::Org::BouncyCastle::Math::__Primes__MROutput* Org::BouncyCastle::Math::__Primes__MROutput::ProvablyCompositeNotPrimePower() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+inline ::Org::BouncyCastle::Math::Primes_MROutput* Org::BouncyCastle::Math::Primes_MROutput::ProvablyCompositeNotPrimePower() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                              "ProvablyCompositeNotPrimePower", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__MROutput*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_MROutput*, false>(nullptr, ___internal_method);
 }
-inline ::Org::BouncyCastle::Math::__Primes__MROutput* Org::BouncyCastle::Math::__Primes__MROutput::New_ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::__Primes__MROutput*>(provablyComposite, factor));
-}
-inline void Org::BouncyCastle::Math::__Primes__MROutput::_ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor) {
+inline void Org::BouncyCastle::Math::Primes_MROutput::_ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provablyComposite, factor);
 }
-inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::__Primes__MROutput::get_Factor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
-                                                                             "get_Factor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::Primes_MROutput::get_Factor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(), "get_Factor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
 }
-inline bool Org::BouncyCastle::Math::__Primes__MROutput::get_IsProvablyComposite() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+inline bool Org::BouncyCastle::Math::Primes_MROutput::get_IsProvablyComposite() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                              "get_IsProvablyComposite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool Org::BouncyCastle::Math::__Primes__MROutput::get_IsNotPrimePower() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__MROutput*>::get(),
+inline bool Org::BouncyCastle::Math::Primes_MROutput::get_IsNotPrimePower() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_MROutput*>::get(),
                                                                              "get_IsNotPrimePower", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Math::Primes_MROutput* Org::BouncyCastle::Math::Primes_MROutput::New_ctor(bool provablyComposite, ::Org::BouncyCastle::Math::BigInteger* factor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Primes_MROutput*>(provablyComposite, factor));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::__Primes__MROutput::__Primes__MROutput() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__STOutput._ctor
+constexpr ::Org::BouncyCastle::Math::Primes_MROutput::Primes_MROutput() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_STOutput._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::__Primes__STOutput::*)(
-    ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::__Primes__STOutput::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Primes_STOutput::*)(
+    ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Primes_STOutput::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24e6120;
+  constexpr static std::size_t addrs = 0x251940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__STOutput.get_Prime
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_STOutput.get_Prime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::__Primes__STOutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__STOutput::get_Prime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_STOutput::get_Prime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e615c;
+  constexpr static std::size_t addrs = 0x2519448;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(),
-                                                                               "get_Prime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(), "get_Prime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__STOutput.get_PrimeSeed
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_STOutput.get_PrimeSeed
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Math::__Primes__STOutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__STOutput::get_PrimeSeed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_STOutput::get_PrimeSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e6164;
+  constexpr static std::size_t addrs = 0x2519450;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(),
                                                                                "get_PrimeSeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::__Primes__STOutput.get_PrimeGenCounter
+//  Writing Method size for method: ::Org::BouncyCastle::Math::Primes_STOutput.get_PrimeGenCounter
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::__Primes__STOutput::*)()>(
-    &::Org::BouncyCastle::Math::__Primes__STOutput::get_PrimeGenCounter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Primes_STOutput::*)()>(
+    &::Org::BouncyCastle::Math::Primes_STOutput::get_PrimeGenCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e616c;
+  constexpr static std::size_t addrs = 0x2519458;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(),
                                                                                "get_PrimeGenCounter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrime() {
+constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrime;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrime() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrime;
 }
-constexpr void Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_set_mPrime(::Org::BouncyCastle::Math::BigInteger* value) {
+constexpr void Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_set_mPrime(::Org::BouncyCastle::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mPrime)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrimeSeed() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrimeSeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrimeSeed;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrimeSeed() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrimeSeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrimeSeed;
 }
-constexpr void Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_set_mPrimeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_set_mPrimeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mPrimeSeed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrimeGenCounter() {
+constexpr int32_t& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrimeGenCounter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrimeGenCounter;
 }
-constexpr int32_t const& Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_get_mPrimeGenCounter() const {
+constexpr int32_t const& Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_get_mPrimeGenCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrimeGenCounter;
 }
-constexpr void Org::BouncyCastle::Math::__Primes__STOutput::__cordl_internal_set_mPrimeGenCounter(int32_t value) {
+constexpr void Org::BouncyCastle::Math::Primes_STOutput::__cordl_internal_set_mPrimeGenCounter(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mPrimeGenCounter = value;
 }
-inline ::Org::BouncyCastle::Math::__Primes__STOutput* Org::BouncyCastle::Math::__Primes__STOutput::New_ctor(::Org::BouncyCastle::Math::BigInteger* prime,
-                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed, int32_t primeGenCounter) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::__Primes__STOutput*>(prime, primeSeed, primeGenCounter));
-}
-inline void Org::BouncyCastle::Math::__Primes__STOutput::_ctor(::Org::BouncyCastle::Math::BigInteger* prime, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed, int32_t primeGenCounter) {
+inline void Org::BouncyCastle::Math::Primes_STOutput::_ctor(::Org::BouncyCastle::Math::BigInteger* prime, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed, int32_t primeGenCounter) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prime, primeSeed, primeGenCounter);
 }
-inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::__Primes__STOutput::get_Prime() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(), "get_Prime",
+inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::Primes_STOutput::get_Prime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(), "get_Prime",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Math::__Primes__STOutput::get_PrimeSeed() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(),
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Math::Primes_STOutput::get_PrimeSeed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(),
                                                                              "get_PrimeSeed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline int32_t Org::BouncyCastle::Math::__Primes__STOutput::get_PrimeGenCounter() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::__Primes__STOutput*>::get(),
+inline int32_t Org::BouncyCastle::Math::Primes_STOutput::get_PrimeGenCounter() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes_STOutput*>::get(),
                                                                              "get_PrimeGenCounter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Math::Primes_STOutput* Org::BouncyCastle::Math::Primes_STOutput::New_ctor(::Org::BouncyCastle::Math::BigInteger* prime, ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed,
+                                                                                                      int32_t primeGenCounter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Primes_STOutput*>(prime, primeSeed, primeGenCounter));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::__Primes__STOutput::__Primes__STOutput() {}
+constexpr ::Org::BouncyCastle::Math::Primes_STOutput::Primes_STOutput() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Primes.GenerateSTRandomPrime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Org::BouncyCastle::Math::__Primes__STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-        &::Org::BouncyCastle::Math::Primes::GenerateSTRandomPrime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::Org::BouncyCastle::Math::Primes_STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::Primes::GenerateSTRandomPrime)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x24e3e5c;
+  constexpr static std::size_t addrs = 0x2517148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -320,10 +318,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Org::BouncyCastle::Math::__Primes__MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
+    static_cast<::Org::BouncyCastle::Math::Primes_MROutput* (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
         &::Org::BouncyCastle::Math::Primes::EnhancedMRProbablePrimeTest)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x24e4640;
+  constexpr static std::size_t addrs = 0x251792c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::Primes::HasAnySmallFactors)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24e4b44;
+  constexpr static std::size_t addrs = 0x2517e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Math::Primes::IsMRProbablePrime)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x24e548c;
+  constexpr static std::size_t addrs = 0x2518778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Primes::IsMRProbablePrimeToBase)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x24e5824;
+  constexpr static std::size_t addrs = 0x2518b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::BigInteger*, ::StringW)>(&::Org::BouncyCastle::Math::Primes::CheckCandidate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24e4ac4;
+  constexpr static std::size_t addrs = 0x2517db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -401,7 +399,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::Primes::ImplHasAnySmallFactors)> {
   constexpr static std::size_t size = 0x8d4;
-  constexpr static std::size_t addrs = 0x24e4bb8;
+  constexpr static std::size_t addrs = 0x2517ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,7 +415,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Math::Primes::ImplMRProbablePrimeToBase)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x24e56b8;
+  constexpr static std::size_t addrs = 0x25189a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,9 +432,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::Org::BouncyCastle::Math::__Primes__STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::Primes::ImplSTRandomPrime)> {
+    ::Org::BouncyCastle::Math::Primes_STOutput* (*)(::Org::BouncyCastle::Crypto::IDigest*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::Primes::ImplSTRandomPrime)> {
   constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x24e3ff8;
+  constexpr static std::size_t addrs = 0x25172e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::Primes::Extract32)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x24e5b64;
+  constexpr static std::size_t addrs = 0x2518e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Primes::Hash)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x24e59dc;
+  constexpr static std::size_t addrs = 0x2518cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Primes::HashGen)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x24e5d8c;
+  constexpr static std::size_t addrs = 0x2519078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -501,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Primes::Inc)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x24e5b10;
+  constexpr static std::size_t addrs = 0x2518dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -516,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::Org::BouncyCastle::Math::Primes::IsPrime32)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x24e5c2c;
+  constexpr static std::size_t addrs = 0x2518f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Primes::*)()>(&::Org::BouncyCastle::Math::Primes::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e5f98;
+  constexpr static std::size_t addrs = 0x2519284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get(), ".ctor",
@@ -565,23 +563,23 @@ inline void Org::BouncyCastle::Math::Primes::setStaticF_Three(::Org::BouncyCastl
 inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Math::Primes::getStaticF_Three() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Math::BigInteger*, "Three", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get>();
 }
-inline ::Org::BouncyCastle::Math::__Primes__STOutput* Org::BouncyCastle::Math::Primes::GenerateSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* hash, int32_t length,
-                                                                                                             ::ArrayW<uint8_t, ::Array<uint8_t>*> inputSeed) {
+inline ::Org::BouncyCastle::Math::Primes_STOutput* Org::BouncyCastle::Math::Primes::GenerateSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* hash, int32_t length,
+                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> inputSeed) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get(), "GenerateSTRandomPrime", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__STOutput*, false>(nullptr, ___internal_method, hash, length, inputSeed);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_STOutput*, false>(nullptr, ___internal_method, hash, length, inputSeed);
 }
-inline ::Org::BouncyCastle::Math::__Primes__MROutput* Org::BouncyCastle::Math::Primes::EnhancedMRProbablePrimeTest(::Org::BouncyCastle::Math::BigInteger* candidate,
-                                                                                                                   ::Org::BouncyCastle::Security::SecureRandom* random, int32_t iterations) {
+inline ::Org::BouncyCastle::Math::Primes_MROutput* Org::BouncyCastle::Math::Primes::EnhancedMRProbablePrimeTest(::Org::BouncyCastle::Math::BigInteger* candidate,
+                                                                                                                ::Org::BouncyCastle::Security::SecureRandom* random, int32_t iterations) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get(), "EnhancedMRProbablePrimeTest", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__MROutput*, false>(nullptr, ___internal_method, candidate, random, iterations);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_MROutput*, false>(nullptr, ___internal_method, candidate, random, iterations);
 }
 inline bool Org::BouncyCastle::Math::Primes::HasAnySmallFactors(::Org::BouncyCastle::Math::BigInteger* candidate) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -628,14 +626,14 @@ inline bool Org::BouncyCastle::Math::Primes::ImplMRProbablePrimeToBase(::Org::Bo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, w, wSubOne, m, a, b);
 }
-inline ::Org::BouncyCastle::Math::__Primes__STOutput* Org::BouncyCastle::Math::Primes::ImplSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* d, int32_t length,
-                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed) {
+inline ::Org::BouncyCastle::Math::Primes_STOutput* Org::BouncyCastle::Math::Primes::ImplSTRandomPrime(::Org::BouncyCastle::Crypto::IDigest* d, int32_t length,
+                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> primeSeed) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get(), "ImplSTRandomPrime", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::__Primes__STOutput*, false>(nullptr, ___internal_method, d, length, primeSeed);
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::Primes_STOutput*, false>(nullptr, ___internal_method, d, length, primeSeed);
 }
 inline uint32_t Org::BouncyCastle::Math::Primes::Extract32(::ArrayW<uint8_t, ::Array<uint8_t>*> bs) {
   static auto* ___internal_method =
@@ -673,13 +671,13 @@ inline bool Org::BouncyCastle::Math::Primes::IsPrime32(uint32_t x) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, x);
 }
-inline ::Org::BouncyCastle::Math::Primes* Org::BouncyCastle::Math::Primes::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Primes*>());
-}
 inline void Org::BouncyCastle::Math::Primes::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Primes*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::Primes* Org::BouncyCastle::Math::Primes::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Primes*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Primes::Primes() {}

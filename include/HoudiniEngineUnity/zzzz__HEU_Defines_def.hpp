@@ -14,35 +14,34 @@ class HEU_Defines;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Defines);
-// Type: HoudiniEngineUnity::HEU_Defines
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_Defines*
+// CS Name: HoudiniEngineUnity.HEU_Defines
 class CORDL_TYPE HEU_Defines : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DEFAULT_MATERIAL_KEY, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_DEFAULT_MATERIAL_KEY, put = setStaticF_DEFAULT_MATERIAL_KEY)) int32_t DEFAULT_MATERIAL_KEY;
+  __declspec(property(get = getStaticF_DEFAULT_MATERIAL_KEY, put = setStaticF_DEFAULT_MATERIAL_KEY)) int32_t DEFAULT_MATERIAL_KEY;
 
   /// @brief Field EDITABLE_MATERIAL_KEY, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_EDITABLE_MATERIAL_KEY, put = setStaticF_EDITABLE_MATERIAL_KEY)) int32_t EDITABLE_MATERIAL_KEY;
+  __declspec(property(get = getStaticF_EDITABLE_MATERIAL_KEY, put = setStaticF_EDITABLE_MATERIAL_KEY)) int32_t EDITABLE_MATERIAL_KEY;
 
   /// @brief Field HEU_BAKED_ASSETS_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_BAKED_ASSETS_PATH, put = setStaticF_HEU_BAKED_ASSETS_PATH)) ::StringW HEU_BAKED_ASSETS_PATH;
+  __declspec(property(get = getStaticF_HEU_BAKED_ASSETS_PATH, put = setStaticF_HEU_BAKED_ASSETS_PATH)) ::StringW HEU_BAKED_ASSETS_PATH;
 
   /// @brief Field HEU_ENGINE_ASSETS, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_ENGINE_ASSETS, put = setStaticF_HEU_ENGINE_ASSETS)) ::StringW HEU_ENGINE_ASSETS;
+  __declspec(property(get = getStaticF_HEU_ENGINE_ASSETS, put = setStaticF_HEU_ENGINE_ASSETS)) ::StringW HEU_ENGINE_ASSETS;
 
   /// @brief Field HEU_PLUGIN_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_PLUGIN_PATH, put = setStaticF_HEU_PLUGIN_PATH)) ::StringW HEU_PLUGIN_PATH;
+  __declspec(property(get = getStaticF_HEU_PLUGIN_PATH, put = setStaticF_HEU_PLUGIN_PATH)) ::StringW HEU_PLUGIN_PATH;
 
   /// @brief Field HEU_TEXTURES_PATH, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEU_TEXTURES_PATH, put = setStaticF_HEU_TEXTURES_PATH)) ::StringW HEU_TEXTURES_PATH;
+  __declspec(property(get = getStaticF_HEU_TEXTURES_PATH, put = setStaticF_HEU_TEXTURES_PATH)) ::StringW HEU_TEXTURES_PATH;
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39e5ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3c814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEFAULT_MATERIAL_KEY();
@@ -315,7 +314,7 @@ public:
   static constexpr ::ConstString HAPI_ATTRIB_SCALE{ u"scale" };
 
   /// @brief Field HAPI_CURVE_LOD offset 0xffffffff size 0x4
-  static constexpr float_t HAPI_CURVE_LOD{ 8.0 };
+  static constexpr float_t HAPI_CURVE_LOD{ static_cast<float_t>(8.0f) };
 
   /// @brief Field HAPI_CURVE_REFINE_TO_LINEAR offset 0xffffffff size 0x1
   static constexpr bool HAPI_CURVE_REFINE_TO_LINEAR{ true };
@@ -354,16 +353,16 @@ public:
   static constexpr int32_t HAPI_SEC_BEFORE_PROGRESS_BAR_SHOW{ static_cast<int32_t>(0x3) };
 
   /// @brief Field HAPI_VOLUME_POSITION_MULT offset 0xffffffff size 0x4
-  static constexpr float_t HAPI_VOLUME_POSITION_MULT{ 2.0 };
+  static constexpr float_t HAPI_VOLUME_POSITION_MULT{ static_cast<float_t>(2.0f) };
 
   /// @brief Field HAPI_VOLUME_SURFACE_DELTA_MULT offset 0xffffffff size 0x4
-  static constexpr float_t HAPI_VOLUME_SURFACE_DELTA_MULT{ 1.2 };
+  static constexpr float_t HAPI_VOLUME_SURFACE_DELTA_MULT{ static_cast<float_t>(1.2f) };
 
   /// @brief Field HAPI_VOLUME_SURFACE_MAX_PT_PER_C offset 0xffffffff size 0x4
-  static constexpr float_t HAPI_VOLUME_SURFACE_MAX_PT_PER_C{ 64000.0 };
+  static constexpr float_t HAPI_VOLUME_SURFACE_MAX_PT_PER_C{ static_cast<float_t>(64000.0f) };
 
   /// @brief Field HAPI_VOLUME_SURFACE_PT_SIZE_MULT offset 0xffffffff size 0x4
-  static constexpr float_t HAPI_VOLUME_SURFACE_PT_SIZE_MULT{ 1800.0 };
+  static constexpr float_t HAPI_VOLUME_SURFACE_PT_SIZE_MULT{ static_cast<float_t>(1800.0f) };
 
   /// @brief Field HEIGHTFIELD_DETAIL_DENSITY offset 0xffffffff size 0x8
   static constexpr ::ConstString HEIGHTFIELD_DETAIL_DENSITY{ u"unity_hf_detail_density" };
@@ -546,7 +545,7 @@ public:
   static constexpr int32_t HEU_SESSION_PORT{ static_cast<int32_t>(0x2382) };
 
   /// @brief Field HEU_SESSION_TIMEOUT offset 0xffffffff size 0x4
-  static constexpr float_t HEU_SESSION_TIMEOUT{ 10000.0 };
+  static constexpr float_t HEU_SESSION_TIMEOUT{ static_cast<float_t>(10000.0f) };
 
   /// @brief Field HEU_SUBASSET offset 0xffffffff size 0x8
   static constexpr ::ConstString HEU_SUBASSET{ u"SUBASSET::" };
@@ -771,7 +770,7 @@ public:
   static constexpr ::ConstString UNITY_USE_INSTANCE_FLAGS_ATTR{ u"unity_use_instance_flags" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11653 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

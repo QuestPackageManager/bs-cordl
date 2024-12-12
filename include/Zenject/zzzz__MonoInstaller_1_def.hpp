@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoInstaller_1)
 namespace System {
@@ -22,13 +21,12 @@ template <typename TDerived> class MonoInstaller_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MonoInstaller_1);
-// Type: Zenject::MonoInstaller`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace Zenject {
 // cpp template
 template <typename TDerived>
 // Is value type: false
-// CS Name: ::Zenject::MonoInstaller`1<TDerived>*
+// CS Name: Zenject.MonoInstaller`1<TDerived>
 class CORDL_TYPE MonoInstaller_1 : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -67,7 +65,7 @@ public:
   MonoInstaller_1(MonoInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12476 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

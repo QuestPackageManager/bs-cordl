@@ -16,11 +16,10 @@ class BeatmapCharacteristicSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicSO);
-// Type: ::BeatmapCharacteristicSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapCharacteristicSO*
+// CS Name: BeatmapCharacteristicSO
 class CORDL_TYPE BeatmapCharacteristicSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -125,34 +124,34 @@ public:
 
   constexpr void __cordl_internal_set__sortingOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x267f47c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b3a34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristicNameLocalizationKey, addr 0x267f444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristicNameLocalizationKey, addr 0x26b39fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristicNameLocalizationKey();
 
-  /// @brief Method get_compoundIdPartName, addr 0x267f454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compoundIdPartName, addr 0x26b3a0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_compoundIdPartName();
 
-  /// @brief Method get_containsRotationEvents, addr 0x267f464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_containsRotationEvents, addr 0x26b3a1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_containsRotationEvents();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x267f43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x26b39f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x267f434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x26b39ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_numberOfColors, addr 0x267f474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfColors, addr 0x26b3a2c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfColors();
 
-  /// @brief Method get_requires360Movement, addr 0x267f46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires360Movement, addr 0x26b3a24, size 0x8, virtual false, abstract: false, final false
   inline bool get_requires360Movement();
 
-  /// @brief Method get_serializedName, addr 0x267f44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x26b3a04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
-  /// @brief Method get_sortingOrder, addr 0x267f45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x26b3a14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
 protected:
@@ -168,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapCharacteristicSO(BeatmapCharacteristicSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12865 };
 
   /// @brief Field _icon, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____icon;
@@ -196,14 +198,9 @@ public:
   /// @brief Field _numberOfColors, offset: 0x48, size: 0x4, def value: None
   int32_t ____numberOfColors;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicSO, ____icon) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicSO, ____descriptionLocalizationKey) == 0x20, "Offset mismatch!");
@@ -221,6 +218,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicSO, ____containsR
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicSO, ____requires360Movement) == 0x45, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicSO, ____numberOfColors) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicSO);

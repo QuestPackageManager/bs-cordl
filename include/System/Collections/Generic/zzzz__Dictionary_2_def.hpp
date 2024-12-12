@@ -3,18 +3,37 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dictionary_2)
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __Dictionary_2__KeyCollection__Enumerator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct Dictionary_2_Entry;
 }
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __Dictionary_2__ValueCollection__Enumerator;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct Dictionary_2_Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2_KeyCollection;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2_ValueCollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -32,28 +51,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
-}
-namespace System::Collections::Generic {
 struct InsertionBehavior;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyCollection_Dictionary_2_Enumerator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
+template <typename TKey, typename TValue> struct ValueCollection_Dictionary_2_Enumerator;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -65,19 +72,7 @@ namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -89,9 +84,6 @@ namespace System {
 class Array;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -99,48 +91,53 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__KeyCollection;
+template <typename TKey, typename TValue> class Dictionary_2_KeyCollection;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class __Dictionary_2__ValueCollection;
-}
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __Dictionary_2__KeyCollection__Enumerator;
-}
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __Dictionary_2__ValueCollection__Enumerator;
+template <typename TKey, typename TValue> class Dictionary_2_ValueCollection;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Entry;
+template <typename TKey, typename TValue> struct Dictionary_2_Entry;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct __Dictionary_2__Enumerator;
+template <typename TKey, typename TValue> struct Dictionary_2_Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyCollection_Dictionary_2_Enumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct ValueCollection_Dictionary_2_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::Dictionary_2);
-MARK_GEN_REF_PTR_T(::System::Collections::Generic::__Dictionary_2__KeyCollection);
-MARK_GEN_REF_PTR_T(::System::Collections::Generic::__Dictionary_2__ValueCollection);
-MARK_GEN_VAL_T(::GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator);
-MARK_GEN_VAL_T(::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator);
-MARK_GEN_VAL_T(::System::Collections::Generic::__Dictionary_2__Entry);
-MARK_GEN_VAL_T(::System::Collections::Generic::__Dictionary_2__Enumerator);
-// Type: ::Entry
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Collections::Generic::Dictionary_2_KeyCollection);
+MARK_GEN_REF_PTR_T(::System::Collections::Generic::Dictionary_2_ValueCollection);
+MARK_GEN_VAL_T(::System::Collections::Generic::Dictionary_2_Entry);
+MARK_GEN_VAL_T(::System::Collections::Generic::Dictionary_2_Enumerator);
+MARK_GEN_VAL_T(::System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator);
+MARK_GEN_VAL_T(::System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator);
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// CS Name: ::Dictionary`2::Entry<TKey,TValue>
-struct CORDL_TYPE __Dictionary_2__Entry {
+// CS Name: System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>
+struct CORDL_TYPE Dictionary_2_Entry {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__Entry();
+  constexpr Dictionary_2_Entry();
 
   // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "key",
   // ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: None }]
-  constexpr __Dictionary_2__Entry(int32_t hashCode, int32_t next, TKey key, TValue value) noexcept;
+  constexpr Dictionary_2_Entry(int32_t hashCode, int32_t next, TKey key, TValue value) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field hashCode, offset: 0x0, size: 0x4, def value: None
   int32_t hashCode;
@@ -154,24 +151,18 @@ public:
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   TValue value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator,
+// System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// CS Name: ::Dictionary`2::Enumerator<TKey,TValue>
-struct CORDL_TYPE __Dictionary_2__Enumerator {
+// CS Name: System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue>
+struct CORDL_TYPE Dictionary_2_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
@@ -238,13 +229,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__Enumerator();
+  constexpr Dictionary_2_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty:
   // "::System::Collections::Generic::KeyValuePair_2<TKey,TValue>", modifiers: "", def_value: None }, CppParam { name: "_getEnumeratorRetType", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Dictionary_2__Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _version, int32_t _index,
-                                       ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current, int32_t _getEnumeratorRetType) noexcept;
+  constexpr Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _version, int32_t _index,
+                                    ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current, int32_t _getEnumeratorRetType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3833 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
@@ -261,24 +258,17 @@ public:
   /// @brief Field _getEnumeratorRetType, offset: 0x20, size: 0x4, def value: None
   int32_t _getEnumeratorRetType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3833 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// CS Name: ::Dictionary`2::KeyCollection::Enumerator<TKey,TValue>
-struct CORDL_TYPE __Dictionary_2__KeyCollection__Enumerator {
+// CS Name: System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<TKey,TValue>
+struct CORDL_TYPE KeyCollection_Dictionary_2_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TKey Current;
@@ -323,11 +313,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__KeyCollection__Enumerator();
+  constexpr KeyCollection_Dictionary_2_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentKey", ty: "TKey", modifiers: "", def_value: None }]
-  constexpr __Dictionary_2__KeyCollection__Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TKey _currentKey) noexcept;
+  constexpr KeyCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TKey _currentKey) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
@@ -341,27 +337,21 @@ public:
   /// @brief Field _currentKey, offset: 0x10, size: 0x8, def value: None
   TKey _currentKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
-// Type: ::KeyCollection
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Collections::Generic
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::Dictionary`2::KeyCollection<TKey,TValue>*
-class CORDL_TYPE __Dictionary_2__KeyCollection : public ::System::Object {
+// CS Name: System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue>
+class CORDL_TYPE Dictionary_2_KeyCollection : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>;
+  using Enumerator = ::System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator<TKey, TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -393,9 +383,9 @@ public:
   inline void CopyTo(::ArrayW<TKey, ::Array<TKey>*> array, int32_t index);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue> GetEnumerator();
+  inline ::System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator<TKey, TValue> GetEnumerator();
 
-  static inline ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
+  static inline ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
 
   /// @brief Method System.Collections.Generic.ICollection<TKey>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TKey__Add(TKey item);
@@ -427,9 +417,9 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>* const& __cordl_internal_get__dictionary() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
 
   constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
@@ -457,35 +447,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__KeyCollection();
+  constexpr Dictionary_2_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Dictionary_2__KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Dictionary_2__KeyCollection(__Dictionary_2__KeyCollection&&) = delete;
+  Dictionary_2_KeyCollection(Dictionary_2_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Dictionary_2__KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_KeyCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Dictionary_2__KeyCollection(__Dictionary_2__KeyCollection const&) = delete;
-
-  /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
+  Dictionary_2_KeyCollection(Dictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
+
+  /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// CS Name: ::Dictionary`2::ValueCollection::Enumerator<TKey,TValue>
-struct CORDL_TYPE __Dictionary_2__ValueCollection__Enumerator {
+// CS Name: System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue>
+struct CORDL_TYPE ValueCollection_Dictionary_2_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
@@ -530,11 +519,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__ValueCollection__Enumerator();
+  constexpr ValueCollection_Dictionary_2_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::Dictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_currentValue", ty: "TValue", modifiers: "", def_value: None }]
-  constexpr __Dictionary_2__ValueCollection__Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TValue _currentValue) noexcept;
+  constexpr ValueCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TValue _currentValue) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
@@ -548,27 +543,21 @@ public:
   /// @brief Field _currentValue, offset: 0x10, size: 0x8, def value: None
   TValue _currentValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
-// Type: ::ValueCollection
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Collections::Generic
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::Dictionary`2::ValueCollection<TKey,TValue>*
-class CORDL_TYPE __Dictionary_2__ValueCollection : public ::System::Object {
+// CS Name: System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue>
+class CORDL_TYPE Dictionary_2_ValueCollection : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>;
+  using Enumerator = ::System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator<TKey, TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -600,9 +589,9 @@ public:
   inline void CopyTo(::ArrayW<TValue, ::Array<TValue>*> array, int32_t index);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue> GetEnumerator();
+  inline ::System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator<TKey, TValue> GetEnumerator();
 
-  static inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
+  static inline ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
 
   /// @brief Method System.Collections.Generic.ICollection<TValue>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TValue__Add(TValue item);
@@ -634,9 +623,9 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>* const& __cordl_internal_get__dictionary() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
 
   constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
@@ -664,50 +653,52 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dictionary_2__ValueCollection();
+  constexpr Dictionary_2_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Dictionary_2__ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Dictionary_2__ValueCollection(__Dictionary_2__ValueCollection&&) = delete;
+  Dictionary_2_ValueCollection(Dictionary_2_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Dictionary_2__ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Dictionary_2_ValueCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Dictionary_2__ValueCollection(__Dictionary_2__ValueCollection const&) = delete;
-
-  /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
+  Dictionary_2_ValueCollection(Dictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3837 };
+
+  /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::Dictionary`2
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
+// System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
+// System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback,
+// System.Runtime.Serialization.ISerializable
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::Dictionary`2<TKey,TValue>*
+// CS Name: System.Collections.Generic.Dictionary`2<TKey,TValue>
 class CORDL_TYPE Dictionary_2 : public ::System::Object {
 public:
   // Declarations
-  using Entry = ::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>;
+  using Entry = ::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>;
 
-  using Enumerator = ::System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue>;
+  using Enumerator = ::System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue>;
 
-  using KeyCollection = ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>;
+  using KeyCollection = ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>;
 
-  using ValueCollection = ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>;
+  using ValueCollection = ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys)) ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* Keys;
 
   __declspec(property(get = System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool
       System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
@@ -739,7 +730,7 @@ public:
 
   __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
 
-  __declspec(property(get = get_Values)) ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* Values;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets)) ::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
@@ -753,7 +744,7 @@ public:
   /// @brief Field _entries, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__entries,
-      put = __cordl_internal_set__entries)) ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>
+      put = __cordl_internal_set__entries)) ::ArrayW<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>, ::Array<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>>*>
       _entries;
 
   /// @brief Field _freeCount, offset 0x28, size 0x4
@@ -763,13 +754,13 @@ public:
   __declspec(property(get = __cordl_internal_get__freeList, put = __cordl_internal_set__freeList)) int32_t _freeList;
 
   /// @brief Field _keys, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* _keys;
 
   /// @brief Field _syncRoot, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _values, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* _values;
 
   /// @brief Field _version, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
@@ -823,7 +814,7 @@ public:
   inline int32_t FindEntry(TKey key);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__Dictionary_2__Enumerator<TKey, TValue> GetEnumerator();
+  inline ::System::Collections::Generic::Dictionary_2_Enumerator<TKey, TValue> GetEnumerator();
 
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -857,7 +848,7 @@ public:
   inline bool Remove(TKey key);
 
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Remove(TKey key, ByRef<TValue> value);
+  inline bool Remove(TKey key, ::ByRef<TValue> value);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Resize();
@@ -945,7 +936,7 @@ public:
   inline bool TryAdd(TKey key, TValue value);
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
 
   /// @brief Method TryInsert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryInsert(TKey key, TValue value, ::System::Collections::Generic::InsertionBehavior behavior);
@@ -954,19 +945,18 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>* const& __cordl_internal_get__comparer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get__comparer() const;
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
 
   constexpr int32_t const& __cordl_internal_get__count() const;
 
   constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> const&
+  constexpr ::ArrayW<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>, ::Array<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>>*> const&
   __cordl_internal_get__entries() const;
 
-  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>&
-  __cordl_internal_get__entries();
+  constexpr ::ArrayW<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>, ::Array<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>>*>& __cordl_internal_get__entries();
 
   constexpr int32_t const& __cordl_internal_get__freeCount() const;
 
@@ -976,17 +966,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get__freeList();
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*& __cordl_internal_get__keys();
+  constexpr ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* const& __cordl_internal_get__keys() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*> const& __cordl_internal_get__keys() const;
+  constexpr ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>*& __cordl_internal_get__keys();
+
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* const& __cordl_internal_get__values() const;
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*& __cordl_internal_get__values();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*> const& __cordl_internal_get__values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>*& __cordl_internal_get__values();
 
   constexpr int32_t const& __cordl_internal_get__version() const;
 
@@ -999,17 +989,17 @@ public:
   constexpr void __cordl_internal_set__count(int32_t value);
 
   constexpr void
-  __cordl_internal_set__entries(::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> value);
+  __cordl_internal_set__entries(::ArrayW<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>, ::Array<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>>*> value);
 
   constexpr void __cordl_internal_set__freeCount(int32_t value);
 
   constexpr void __cordl_internal_set__freeList(int32_t value);
 
-  constexpr void __cordl_internal_set__keys(::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__keys(::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  constexpr void __cordl_internal_set__values(::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__values(::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
@@ -1041,10 +1031,10 @@ public:
   inline TValue get_Item(TKey key);
 
   /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* get_Keys();
+  inline ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* get_Keys();
 
   /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* get_Values();
+  inline ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* get_Values();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
@@ -1096,11 +1086,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Dictionary_2(Dictionary_2 const&) = delete;
 
+  /// @brief Field ComparerName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ComparerName{ u"Comparer" };
+
+  /// @brief Field HashSizeName offset 0xffffffff size 0x8
+  static constexpr ::ConstString HashSizeName{ u"HashSize" };
+
+  /// @brief Field KeyValuePairsName offset 0xffffffff size 0x8
+  static constexpr ::ConstString KeyValuePairsName{ u"KeyValuePairs" };
+
+  /// @brief Field VersionName offset 0xffffffff size 0x8
+  static constexpr ::ConstString VersionName{ u"Version" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3838 };
+
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;
 
   /// @brief Field _entries, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> ____entries;
+  ::ArrayW<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>, ::Array<::System::Collections::Generic::Dictionary_2_Entry<TKey, TValue>>*> ____entries;
 
   /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
   int32_t ____count;
@@ -1118,37 +1123,22 @@ public:
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ____comparer;
 
   /// @brief Field _keys, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* ____keys;
+  ::System::Collections::Generic::Dictionary_2_KeyCollection<TKey, TValue>* ____keys;
 
   /// @brief Field _values, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* ____values;
+  ::System::Collections::Generic::Dictionary_2_ValueCollection<TKey, TValue>* ____values;
 
   /// @brief Field _syncRoot, offset: 0x48, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
-
-  /// @brief Field ComparerName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ComparerName{ u"Comparer" };
-
-  /// @brief Field HashSizeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString HashSizeName{ u"HashSize" };
-
-  /// @brief Field KeyValuePairsName offset 0xffffffff size 0x8
-  static constexpr ::ConstString KeyValuePairsName{ u"KeyValuePairs" };
-
-  /// @brief Field VersionName offset 0xffffffff size 0x8
-  static constexpr ::ConstString VersionName{ u"Version" };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::Dictionary_2, "System.Collections.Generic", "Dictionary`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::__Dictionary_2__KeyCollection, "System.Collections.Generic", "Dictionary`2/KeyCollection");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::__Dictionary_2__ValueCollection, "System.Collections.Generic", "Dictionary`2/ValueCollection");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator, "System.Collections.Generic", "Dictionary`2/KeyCollection/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator, "System.Collections.Generic", "Dictionary`2/ValueCollection/Enumerator");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__Dictionary_2__Entry, "System.Collections.Generic", "Dictionary`2/Entry");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__Dictionary_2__Enumerator, "System.Collections.Generic", "Dictionary`2/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::Dictionary_2_KeyCollection, "System.Collections.Generic", "Dictionary`2/KeyCollection");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::Dictionary_2_ValueCollection, "System.Collections.Generic", "Dictionary`2/ValueCollection");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::Dictionary_2_Entry, "System.Collections.Generic", "Dictionary`2/Entry");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::Dictionary_2_Enumerator, "System.Collections.Generic", "Dictionary`2/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::KeyCollection_Dictionary_2_Enumerator, "System.Collections.Generic", "Dictionary`2/KeyCollection/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::ValueCollection_Dictionary_2_Enumerator, "System.Collections.Generic", "Dictionary`2/ValueCollection/Enumerator");

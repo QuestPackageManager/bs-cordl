@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::LoudnessData::*)(float_t, ::ArrayW<float_t, ::Array<float_t>*>, float_t)>(
     &::LufsMetering::LoudnessData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d58fc;
+  constexpr static std::size_t addrs = 0x2707320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ inline void LufsMetering::LoudnessData::_ctor(float_t lufs, ::ArrayW<float_t, ::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lufs, momentaryValues, blockDuration);
 }
 // Ctor Parameters [CppParam { name: "lufs", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "blockDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "momentaryValues", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("nullptr") }]
+// name: "momentaryValues", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("{}") }]
 constexpr ::LufsMetering::LoudnessData::LoudnessData(float_t lufs, float_t blockDuration, ::ArrayW<float_t, ::Array<float_t>*> momentaryValues) noexcept {
   this->lufs = lufs;
   this->blockDuration = blockDuration;

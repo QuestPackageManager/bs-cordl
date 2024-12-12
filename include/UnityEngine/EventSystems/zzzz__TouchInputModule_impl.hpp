@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(&::UnityEngine::EventSystems::TouchInputModule::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a79aac;
+  constexpr static std::size_t addrs = 0x4ade3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::get_allowActivationOnStandalone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a79ab0;
+  constexpr static std::size_t addrs = 0x4ade3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)(bool)>(
     &::UnityEngine::EventSystems::TouchInputModule::set_allowActivationOnStandalone)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a79ab8;
+  constexpr static std::size_t addrs = 0x4ade3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::get_forceModuleActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a79ac4;
+  constexpr static std::size_t addrs = 0x4ade3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)(bool)>(
     &::UnityEngine::EventSystems::TouchInputModule::set_forceModuleActive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a79acc;
+  constexpr static std::size_t addrs = 0x4ade3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::UpdateModule)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a79ad8;
+  constexpr static std::size_t addrs = 0x4ade3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::IsModuleSupported)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4a79c28;
+  constexpr static std::size_t addrs = 0x4ade538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::ShouldActivateModule)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a79c60;
+  constexpr static std::size_t addrs = 0x4ade570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::UseFakeInput)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a79d04;
+  constexpr static std::size_t addrs = 0x4ade614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(),
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(&::UnityEngine::EventSystems::TouchInputModule::Process)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a79d34;
+  constexpr static std::size_t addrs = 0x4ade644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::FakeTouches)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4a79d5c;
+  constexpr static std::size_t addrs = 0x4ade66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(),
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::ProcessTouchEvents)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4a79e84;
+  constexpr static std::size_t addrs = 0x4ade794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(),
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, bool, bool)>(
     &::UnityEngine::EventSystems::TouchInputModule::ProcessTouchPress)> {
   constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x4a79fcc;
+  constexpr static std::size_t addrs = 0x4ade8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::DeactivateModule)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a7a650;
+  constexpr static std::size_t addrs = 0x4adef60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::TouchInputModule::*)()>(
     &::UnityEngine::EventSystems::TouchInputModule::ToString)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4a7a654;
+  constexpr static std::size_t addrs = 0x4adef64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,7 +256,7 @@ constexpr ::UnityEngine::EventSystems::PointerEventData*& UnityEngine::EventSyst
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputPointerEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& UnityEngine::EventSystems::TouchInputModule::__cordl_internal_get_m_InputPointerEvent() const {
+constexpr ::UnityEngine::EventSystems::PointerEventData* const& UnityEngine::EventSystems::TouchInputModule::__cordl_internal_get_m_InputPointerEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputPointerEvent;
 }
@@ -275,9 +275,6 @@ constexpr bool const& UnityEngine::EventSystems::TouchInputModule::__cordl_inter
 constexpr void UnityEngine::EventSystems::TouchInputModule::__cordl_internal_set_m_ForceModuleActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceModuleActive = value;
-}
-inline ::UnityEngine::EventSystems::TouchInputModule* UnityEngine::EventSystems::TouchInputModule::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::TouchInputModule*>());
 }
 inline void UnityEngine::EventSystems::TouchInputModule::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(), ".ctor",
@@ -357,6 +354,9 @@ inline ::StringW UnityEngine::EventSystems::TouchInputModule::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::TouchInputModule*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::EventSystems::TouchInputModule* UnityEngine::EventSystems::TouchInputModule::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::TouchInputModule*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::TouchInputModule::TouchInputModule() {}

@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieContainer::*)()>(&::System::Net::CookieContainer::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x444e0d8;
+  constexpr static std::size_t addrs = 0x44af3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieContainer*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieContainer::*)(::StringW, ::System::Net::PathList*)>(
     &::System::Net::CookieContainer::AddRemoveDomain)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x444e1d0;
+  constexpr static std::size_t addrs = 0x44af4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieContainer::*)(::System::Net::Cookie*, bool)>(&::System::Net::CookieContainer::Add)> {
   constexpr static std::size_t size = 0x804;
-  constexpr static std::size_t addrs = 0x444e2f4;
+  constexpr static std::size_t addrs = 0x44af608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieContainer::*)(::StringW)>(&::System::Net::CookieContainer::AgeCookies)> {
   constexpr static std::size_t size = 0x1538;
-  constexpr static std::size_t addrs = 0x444f130;
+  constexpr static std::size_t addrs = 0x44b0444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CookieContainer::*)(::System::Net::CookieCollection*)>(
     &::System::Net::CookieContainer::ExpireCollection)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4450694;
+  constexpr static std::size_t addrs = 0x44b19a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieContainer::*)(::StringW)>(&::System::Net::CookieContainer::IsLocalDomain)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x4450828;
+  constexpr static std::size_t addrs = 0x44b1b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieCollection* (::System::Net::CookieContainer::*)(::System::Uri*, ::StringW, ::StringW, bool)>(
     &::System::Net::CookieContainer::CookieCutter)> {
   constexpr static std::size_t size = 0x6dc;
-  constexpr static std::size_t addrs = 0x4450ac8;
+  constexpr static std::size_t addrs = 0x44b1ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::CookieCollection* (::System::Net::CookieContainer::*)(::System::Uri*)>(
     &::System::Net::CookieContainer::InternalGetCookies)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x44511a4;
+  constexpr static std::size_t addrs = 0x44b24b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::CookieContainer::*)(::System::Uri*, bool, int32_t, ::System::Net::CookieCollection*, ::System::Collections::Generic::List_1<::StringW>*, bool)>(
         &::System::Net::CookieContainer::BuildCookieCollectionFromDomainMatches)> {
   constexpr static std::size_t size = 0x820;
-  constexpr static std::size_t addrs = 0x4451634;
+  constexpr static std::size_t addrs = 0x44b2948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieContainer::*)(::System::Net::CookieCollection*, ::System::Net::CookieCollection*, int32_t,
                                                                                                                            bool, bool)>(&::System::Net::CookieContainer::MergeUpdateCollections)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x4451e78;
+  constexpr static std::size_t addrs = 0x44b318c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieContainer::*)(::System::Uri*)>(&::System::Net::CookieContainer::GetCookieHeader)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4452088;
+  constexpr static std::size_t addrs = 0x44b339c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,16 +181,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::CookieContainer.GetCookieHeader
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieContainer::*)(::System::Uri*, ByRef<::StringW>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::CookieContainer::*)(::System::Uri*, ::ByRef<::StringW>)>(
     &::System::Net::CookieContainer::GetCookieHeader)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x4452154;
+  constexpr static std::size_t addrs = 0x44b3468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieContainer*>::get(), "GetCookieHeader", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
@@ -198,7 +198,7 @@ constexpr ::System::Collections::Hashtable*& System::Net::CookieContainer::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domainTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Net::CookieContainer::__cordl_internal_get_m_domainTable() const {
+constexpr ::System::Collections::Hashtable* const& System::Net::CookieContainer::__cordl_internal_get_m_domainTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_domainTable;
 }
@@ -275,9 +275,6 @@ inline ::ArrayW<::System::Net::HeaderVariantInfo, ::Array<::System::Net::HeaderV
   return ::cordl_internals::getStaticField<::ArrayW<::System::Net::HeaderVariantInfo, ::Array<::System::Net::HeaderVariantInfo>*>, "HeaderInfo",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieContainer*>::get>();
 }
-inline ::System::Net::CookieContainer* System::Net::CookieContainer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::CookieContainer*>());
-}
 inline void System::Net::CookieContainer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieContainer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -352,12 +349,15 @@ inline ::StringW System::Net::CookieContainer::GetCookieHeader(::System::Uri* ur
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, uri);
 }
-inline ::StringW System::Net::CookieContainer::GetCookieHeader(::System::Uri* uri, ByRef<::StringW> optCookie2) {
+inline ::StringW System::Net::CookieContainer::GetCookieHeader(::System::Uri* uri, ::ByRef<::StringW> optCookie2) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieContainer*>::get(), "GetCookieHeader", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, uri, optCookie2);
+}
+inline ::System::Net::CookieContainer* System::Net::CookieContainer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::CookieContainer*>());
 }
 // Ctor Parameters []
 constexpr ::System::Net::CookieContainer::CookieContainer() {}

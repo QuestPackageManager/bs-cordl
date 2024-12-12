@@ -6,52 +6,52 @@
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset._ctor
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::*)()>(
-    &::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::*)()>(
+    &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269ee74;
+  constexpr static std::size_t addrs = 0x26d3ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::__cordl_internal_get_bloomPrePassEffect() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::__cordl_internal_get_bloomPrePassEffect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomPrePassEffect;
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::__cordl_internal_get_bloomPrePassEffect() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::__cordl_internal_get_bloomPrePassEffect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bloomPrePassEffect;
 }
-constexpr void GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::__cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value) {
+constexpr void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::__cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___bloomPrePassEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset* GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>());
-}
-inline void GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::_ctor() {
+inline void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset* GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset::__BloomPrePassGraphicsSettingsPresetsSO__Preset() {}
+constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::BloomPrePassGraphicsSettingsPresetsSO_Preset() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO.get_presets
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> (
+    static_cast<::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> (
         ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269ee54;
+  constexpr static std::size_t addrs = 0x26d3b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> (
     ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269ee5c;
+  constexpr static std::size_t addrs = 0x26d3b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269ee64;
+  constexpr static std::size_t addrs = 0x26d3b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),
@@ -89,27 +89,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*>&
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*>&
 GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::__cordl_internal_get__presets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presets;
 }
-constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> const&
 GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::__cordl_internal_get__presets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presets;
 }
 constexpr void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::__cordl_internal_set__presets(
-    ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value) {
+    ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____presets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*>
+inline ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*>
 GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),
                                                                              "get_presets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<
-      ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*>,
+                                             false>(this, ___internal_method);
 }
 inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets() {
   auto* ___internal_method =
@@ -117,13 +117,13 @@ inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::Name
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>());
-}
 inline void GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::BloomPrePassGraphicsSettingsPresetsSO() {}

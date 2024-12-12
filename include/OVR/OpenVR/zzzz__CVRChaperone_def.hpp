@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "OVR/OpenVR/zzzz__IVRChaperone_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRChaperone)
@@ -27,41 +26,41 @@ class CVRChaperone;
 }
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRChaperone);
-// Type: OVR.OpenVR::CVRChaperone
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.IVRChaperone, System.Object
 namespace OVR::OpenVR {
 // Is value type: false
-// CS Name: ::OVR.OpenVR::CVRChaperone*
+// CS Name: OVR.OpenVR.CVRChaperone
 class CORDL_TYPE CVRChaperone : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x40
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRChaperone FnTable;
 
-  /// @brief Method AreBoundsVisible, addr 0x4011b74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AreBoundsVisible, addr 0x4071c20, size 0x24, virtual false, abstract: false, final false
   inline bool AreBoundsVisible();
 
-  /// @brief Method ForceBoundsVisible, addr 0x4011b98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ForceBoundsVisible, addr 0x4071c44, size 0x28, virtual false, abstract: false, final false
   inline void ForceBoundsVisible(bool bForce);
 
-  /// @brief Method GetBoundsColor, addr 0x4011b50, size 0x24, virtual false, abstract: false, final false
-  inline void GetBoundsColor(ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance, ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
+  /// @brief Method GetBoundsColor, addr 0x4071bfc, size 0x24, virtual false, abstract: false, final false
+  inline void GetBoundsColor(::ByRef<::OVR::OpenVR::HmdColor_t> pOutputColorArray, int32_t nNumOutputColors, float_t flCollisionBoundsFadeDistance,
+                             ::ByRef<::OVR::OpenVR::HmdColor_t> pOutputCameraColor);
 
-  /// @brief Method GetCalibrationState, addr 0x4011a94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCalibrationState, addr 0x4071b40, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::ChaperoneCalibrationState GetCalibrationState();
 
-  /// @brief Method GetPlayAreaRect, addr 0x4011ae4, size 0x24, virtual false, abstract: false, final false
-  inline bool GetPlayAreaRect(ByRef<::OVR::OpenVR::HmdQuad_t> rect);
+  /// @brief Method GetPlayAreaRect, addr 0x4071b90, size 0x24, virtual false, abstract: false, final false
+  inline bool GetPlayAreaRect(::ByRef<::OVR::OpenVR::HmdQuad_t> rect);
 
-  /// @brief Method GetPlayAreaSize, addr 0x4011ab8, size 0x2c, virtual false, abstract: false, final false
-  inline bool GetPlayAreaSize(ByRef<float_t> pSizeX, ByRef<float_t> pSizeZ);
+  /// @brief Method GetPlayAreaSize, addr 0x4071b64, size 0x2c, virtual false, abstract: false, final false
+  inline bool GetPlayAreaSize(::ByRef<float_t> pSizeX, ::ByRef<float_t> pSizeZ);
 
   static inline ::OVR::OpenVR::CVRChaperone* New_ctor(::System::IntPtr pInterface);
 
-  /// @brief Method ReloadInfo, addr 0x4011b08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ReloadInfo, addr 0x4071bb4, size 0x24, virtual false, abstract: false, final false
   inline void ReloadInfo();
 
-  /// @brief Method SetSceneColor, addr 0x4011b2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetSceneColor, addr 0x4071bd8, size 0x24, virtual false, abstract: false, final false
   inline void SetSceneColor(::OVR::OpenVR::HmdColor_t color);
 
   constexpr ::OVR::OpenVR::IVRChaperone const& __cordl_internal_get_FnTable() const;
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRChaperone value);
 
-  /// @brief Method .ctor, addr 0x4011980, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4071a2c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr pInterface);
 
 protected:
@@ -87,18 +86,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CVRChaperone(CVRChaperone const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8875 };
+
   /// @brief Field FnTable, offset: 0x10, size: 0x40, def value: None
   ::OVR::OpenVR::IVRChaperone ___FnTable;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRChaperone, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::CVRChaperone, ___FnTable) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRChaperone, 0x50>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRChaperone);

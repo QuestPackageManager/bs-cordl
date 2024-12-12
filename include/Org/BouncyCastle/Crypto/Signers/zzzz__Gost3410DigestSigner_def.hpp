@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3410DigestSigner)
@@ -17,20 +17,16 @@ class IDigest;
 namespace Org::BouncyCastle::Crypto {
 class IDsa;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
 class Gost3410DigestSigner;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner);
-// Type: Org.BouncyCastle.Crypto.Signers::Gost3410DigestSigner
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ISigner, System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::Gost3410DigestSigner*
+// CS Name: Org.BouncyCastle.Crypto.Signers.Gost3410DigestSigner
 class CORDL_TYPE Gost3410DigestSigner : public ::System::Object {
 public:
   // Declarations
@@ -54,33 +50,33 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x239f60c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23d28f8, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GenerateSignature, addr 0x239f6d0, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d29bc, size 0x3ac, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x239f340, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23d262c, size 0x220, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDsa* signer, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Reset, addr 0x239fdc0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23d30ac, size 0xa4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x239f560, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23d284c, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x239fa7c, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d2d68, size 0x344, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDsa* const& __cordl_internal_get_dsaSigner() const;
 
   constexpr ::Org::BouncyCastle::Crypto::IDsa*& __cordl_internal_get_dsaSigner();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDsa*> const& __cordl_internal_get_dsaSigner() const;
 
   constexpr bool const& __cordl_internal_get_forSigning() const;
 
@@ -104,10 +100,10 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x239f134, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d2420, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDsa* signer, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName, addr 0x239f200, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23d24ec, size 0x140, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -127,6 +123,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Gost3410DigestSigner(Gost3410DigestSigner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1140 };
+
   /// @brief Field digest, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::IDigest* ___digest;
 
@@ -142,14 +141,9 @@ public:
   /// @brief Field forSigning, offset: 0x28, size: 0x1, def value: None
   bool ___forSigning;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1140 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, ___digest) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, ___dsaSigner) == 0x18, "Offset mismatch!");
@@ -159,6 +153,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigne
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, ___halfSize) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, ___forSigning) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Gost3410DigestSigner);

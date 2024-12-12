@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonString* (::Newtonsoft::Json::Bson::BsonRegex::*)()>(
     &::Newtonsoft::Json::Bson::BsonRegex::get_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1b3c;
+  constexpr static std::size_t addrs = 0x3f51be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonRegex*>::get(), "get_Pattern",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonRegex::*)(::Newtonsoft::Json::Bson::BsonString*)>(
     &::Newtonsoft::Json::Bson::BsonRegex::set_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1b44;
+  constexpr static std::size_t addrs = 0x3f51bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonString* (::Newtonsoft::Json::Bson::BsonRegex::*)()>(
     &::Newtonsoft::Json::Bson::BsonRegex::get_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1b4c;
+  constexpr static std::size_t addrs = 0x3f51bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonRegex*>::get(), "get_Options",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonRegex::*)(::Newtonsoft::Json::Bson::BsonString*)>(
     &::Newtonsoft::Json::Bson::BsonRegex::set_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1b54;
+  constexpr static std::size_t addrs = 0x3f51c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonRegex::*)(::StringW, ::StringW)>(&::Newtonsoft::Json::Bson::BsonRegex::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ef1b5c;
+  constexpr static std::size_t addrs = 0x3f51c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonType (::Newtonsoft::Json::Bson::BsonRegex::*)()>(
     &::Newtonsoft::Json::Bson::BsonRegex::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1c0c;
+  constexpr static std::size_t addrs = 0x3f51cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ constexpr ::Newtonsoft::Json::Bson::BsonString*& Newtonsoft::Json::Bson::BsonReg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Pattern_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& Newtonsoft::Json::Bson::BsonRegex::__cordl_internal_get__Pattern_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Bson::BsonString* const& Newtonsoft::Json::Bson::BsonRegex::__cordl_internal_get__Pattern_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Pattern_k__BackingField;
 }
@@ -107,7 +107,7 @@ constexpr ::Newtonsoft::Json::Bson::BsonString*& Newtonsoft::Json::Bson::BsonReg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Options_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& Newtonsoft::Json::Bson::BsonRegex::__cordl_internal_get__Options_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Bson::BsonString* const& Newtonsoft::Json::Bson::BsonRegex::__cordl_internal_get__Options_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Options_k__BackingField;
 }
@@ -137,9 +137,6 @@ inline void Newtonsoft::Json::Bson::BsonRegex::set_Options(::Newtonsoft::Json::B
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Bson::BsonString*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Newtonsoft::Json::Bson::BsonRegex* Newtonsoft::Json::Bson::BsonRegex::New_ctor(::StringW pattern, ::StringW options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Bson::BsonRegex*>(pattern, options));
-}
 inline void Newtonsoft::Json::Bson::BsonRegex::_ctor(::StringW pattern, ::StringW options) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonRegex*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -150,6 +147,9 @@ inline ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonRegex::get
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonRegex*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Bson::BsonType, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Bson::BsonRegex* Newtonsoft::Json::Bson::BsonRegex::New_ctor(::StringW pattern, ::StringW options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Bson::BsonRegex*>(pattern, options));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonRegex::BsonRegex() {}

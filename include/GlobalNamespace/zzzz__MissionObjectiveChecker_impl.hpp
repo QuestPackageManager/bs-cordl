@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MissionObjectiveChecker.hpp"
-#include "GlobalNamespace/zzzz__MissionObjectiveChecker_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"
@@ -8,28 +7,28 @@
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status::__MissionObjectiveChecker__Status(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status::MissionObjectiveChecker_Status(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status::__MissionObjectiveChecker__Status() {}
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::__MissionObjectiveChecker__Status::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::__MissionObjectiveChecker__Status::NotClearedYet{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::__MissionObjectiveChecker__Status::NotFailedYet{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::__MissionObjectiveChecker__Status::Cleared{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::__MissionObjectiveChecker__Status::Failed{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status::MissionObjectiveChecker_Status() {}
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker_Status::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker_Status::NotClearedYet{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker_Status::NotFailedYet{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker_Status::Cleared{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker_Status::Failed{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::GlobalNamespace::MissionObjectiveChecker.add_statusDidChangeEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(&::GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*)>(&::GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b42570;
+  constexpr static std::size_t addrs = 0x3ba3c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "add_statusDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -37,14 +36,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(&::GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*)>(&::GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b4e228;
+  constexpr static std::size_t addrs = 0x3bafb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "remove_statusDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -52,14 +51,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(&::GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*)>(&::GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b42620;
+  constexpr static std::size_t addrs = 0x3ba3d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "add_checkedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -67,14 +66,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*)>(&::GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
+    ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*)>(&::GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b4e2d8;
+  constexpr static std::size_t addrs = 0x3bafbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "remove_checkedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -84,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4e388;
+  constexpr static std::size_t addrs = 0x3bafc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(),
@@ -98,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MissionObjective* (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_missionObjective)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4e390;
+  constexpr static std::size_t addrs = 0x3bafca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(),
@@ -112,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_disableChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4e398;
+  constexpr static std::size_t addrs = 0x3bafca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(),
@@ -126,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(bool)>(
     &::GlobalNamespace::MissionObjectiveChecker::set_disableChecking)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b4e3a0;
+  constexpr static std::size_t addrs = 0x3bafcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,10 +137,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MissionObjectiveChecker.get_status
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__MissionObjectiveChecker__Status (::GlobalNamespace::MissionObjectiveChecker::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MissionObjectiveChecker_Status (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4e3ac;
+  constexpr static std::size_t addrs = 0x3bafcbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "get_status",
@@ -152,15 +151,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MissionObjectiveChecker.set_status
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::GlobalNamespace::__MissionObjectiveChecker__Status)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::GlobalNamespace::MissionObjectiveChecker_Status)>(
     &::GlobalNamespace::MissionObjectiveChecker::set_status)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b4d318;
+  constexpr static std::size_t addrs = 0x3baed24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "set_status", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MissionObjectiveChecker__Status>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionObjectiveChecker_Status>::get() })));
     return ___internal_method;
   }
 };
@@ -170,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissionObjectiveChecker::*)()>(
     &::GlobalNamespace::MissionObjectiveChecker::get_checkedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4e3b4;
+  constexpr static std::size_t addrs = 0x3bafcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(),
@@ -184,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(int32_t)>(
     &::GlobalNamespace::MissionObjectiveChecker::set_checkedValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b4d470;
+  constexpr static std::size_t addrs = 0x3baee80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)(::GlobalNamespace::MissionObjective*)>(
     &::GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b4e3bc;
+  constexpr static std::size_t addrs = 0x3bafccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,26 +207,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MissionObjectiveChecker.Init
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)()>(&::GlobalNamespace::MissionObjectiveChecker::Init)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), 4));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::MissionObjectiveChecker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveChecker::*)()>(&::GlobalNamespace::MissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4db60;
+  constexpr static std::size_t addrs = 0x3baf468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), ".ctor",
@@ -247,41 +232,39 @@ constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set__m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionObjectiveType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_statusDidChangeEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_statusDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const&
-GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_statusDidChangeEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_statusDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___statusDidChangeEvent;
 }
-constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___statusDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_checkedValueDidChangeEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_checkedValueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkedValueDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const&
-GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_checkedValueDidChangeEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get_checkedValueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___checkedValueDidChangeEvent;
 }
-constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___checkedValueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__status() {
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__status() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
-constexpr ::GlobalNamespace::__MissionObjectiveChecker__Status const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__status() const {
+constexpr ::GlobalNamespace::MissionObjectiveChecker_Status const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__status() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____status;
 }
-constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set__status(::GlobalNamespace::__MissionObjectiveChecker__Status value) {
+constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set__status(::GlobalNamespace::MissionObjectiveChecker_Status value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
 }
@@ -301,7 +284,7 @@ constexpr ::GlobalNamespace::MissionObjective*& GlobalNamespace::MissionObjectiv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__missionObjective() const {
+constexpr ::GlobalNamespace::MissionObjective* const& GlobalNamespace::MissionObjectiveChecker::__cordl_internal_get__missionObjective() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjective;
 }
@@ -321,28 +304,28 @@ constexpr void GlobalNamespace::MissionObjectiveChecker::__cordl_internal_set__d
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disableChecking = value;
 }
-inline void GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+inline void GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "add_statusDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+inline void GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "remove_statusDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+inline void GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "add_checkedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value) {
+inline void GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent(::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "remove_checkedValueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::MissionObjectiveChecker*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType() {
@@ -366,15 +349,15 @@ inline void GlobalNamespace::MissionObjectiveChecker::set_disableChecking(bool v
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__MissionObjectiveChecker__Status GlobalNamespace::MissionObjectiveChecker::get_status() {
+inline ::GlobalNamespace::MissionObjectiveChecker_Status GlobalNamespace::MissionObjectiveChecker::get_status() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "get_status",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__MissionObjectiveChecker__Status, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MissionObjectiveChecker_Status, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MissionObjectiveChecker::set_status(::GlobalNamespace::__MissionObjectiveChecker__Status value) {
+inline void GlobalNamespace::MissionObjectiveChecker::set_status(::GlobalNamespace::MissionObjectiveChecker_Status value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), "set_status", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MissionObjectiveChecker__Status>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionObjectiveChecker_Status>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int32_t GlobalNamespace::MissionObjectiveChecker::get_checkedValue() {
@@ -399,13 +382,13 @@ inline void GlobalNamespace::MissionObjectiveChecker::Init() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionObjectiveChecker* GlobalNamespace::MissionObjectiveChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionObjectiveChecker*>());
-}
 inline void GlobalNamespace::MissionObjectiveChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionObjectiveChecker* GlobalNamespace::MissionObjectiveChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionObjectiveChecker*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionObjectiveChecker::MissionObjectiveChecker() {}

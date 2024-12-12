@@ -12,11 +12,10 @@ class SelectMultiplayerLobbyDestination;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectMultiplayerLobbyDestination);
-// Type: ::SelectMultiplayerLobbyDestination
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MenuDestination
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectMultiplayerLobbyDestination*
+// CS Name: SelectMultiplayerLobbyDestination
 class CORDL_TYPE SelectMultiplayerLobbyDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26783d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac990, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x26783ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac964, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
 protected:
@@ -62,23 +61,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectMultiplayerLobbyDestination(SelectMultiplayerLobbyDestination const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12818 };
+
   /// @brief Field lobbySecret, offset: 0x10, size: 0x8, def value: None
   ::StringW ___lobbySecret;
 
   /// @brief Field lobbyCode, offset: 0x18, size: 0x8, def value: None
   ::StringW ___lobbyCode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12784 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectMultiplayerLobbyDestination, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SelectMultiplayerLobbyDestination, ___lobbySecret) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SelectMultiplayerLobbyDestination, ___lobbyCode) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectMultiplayerLobbyDestination, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectMultiplayerLobbyDestination);

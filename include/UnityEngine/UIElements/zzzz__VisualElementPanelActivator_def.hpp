@@ -23,11 +23,10 @@ class VisualElementPanelActivator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementPanelActivator);
-// Type: UnityEngine.UIElements::VisualElementPanelActivator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::VisualElementPanelActivator*
+// CS Name: UnityEngine.UIElements.VisualElementPanelActivator
 class CORDL_TYPE VisualElementPanelActivator : public ::System::Object {
 public:
   // Declarations
@@ -55,19 +54,19 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementPanelActivator* New_ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method OnEnter, addr 0x4939988, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnEnter, addr 0x499e298, size 0x10, virtual false, abstract: false, final false
   inline void OnEnter(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnLeave, addr 0x4939998, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnLeave, addr 0x499e2a8, size 0x74, virtual false, abstract: false, final false
   inline void OnLeave(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SendActivation, addr 0x4939758, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendActivation, addr 0x499e068, size 0x118, virtual false, abstract: false, final false
   inline void SendActivation();
 
-  /// @brief Method SendDeactivation, addr 0x4939870, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SendDeactivation, addr 0x499e180, size 0x118, virtual false, abstract: false, final false
   inline void SendDeactivation();
 
-  /// @brief Method SetActive, addr 0x4939508, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SetActive, addr 0x499de18, size 0x250, virtual false, abstract: false, final false
   inline void SetActive(bool action);
 
   constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
@@ -78,19 +77,17 @@ public:
 
   constexpr bool& __cordl_internal_get__isDetaching_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable* const& __cordl_internal_get_m_Activatable() const;
+
   constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable*& __cordl_internal_get_m_Activatable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementPanelActivatable*> const& __cordl_internal_get_m_Activatable() const;
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::AttachToPanelEvent*>* const& __cordl_internal_get_m_OnAttachToPanelCallback() const;
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::AttachToPanelEvent*>*& __cordl_internal_get_m_OnAttachToPanelCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::AttachToPanelEvent*>*> const&
-  __cordl_internal_get_m_OnAttachToPanelCallback() const;
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>* const& __cordl_internal_get_m_OnDetachFromPanelCallback() const;
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>*& __cordl_internal_get_m_OnDetachFromPanelCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>*> const&
-  __cordl_internal_get_m_OnDetachFromPanelCallback() const;
 
   constexpr void __cordl_internal_set__isActive_k__BackingField(bool value);
 
@@ -102,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set_m_OnDetachFromPanelCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>* value);
 
-  /// @brief Method .ctor, addr 0x4939428, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499dd38, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IVisualElementPanelActivatable* activatable);
 
-  /// @brief Method get_isActive, addr 0x4939400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x499dd10, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isDetaching, addr 0x4939414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDetaching, addr 0x499dd24, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDetaching();
 
-  /// @brief Method set_isActive, addr 0x4939408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isActive, addr 0x499dd18, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isDetaching, addr 0x493941c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDetaching, addr 0x499dd2c, size 0xc, virtual false, abstract: false, final false
   inline void set_isDetaching(bool value);
 
 protected:
@@ -131,6 +128,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementPanelActivator(VisualElementPanelActivator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6326 };
+
   /// @brief Field m_Activatable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IVisualElementPanelActivatable* ___m_Activatable;
 
@@ -146,14 +146,9 @@ public:
   /// @brief Field m_OnDetachFromPanelCallback, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::DetachFromPanelEvent*>* ___m_OnDetachFromPanelCallback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6301 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementPanelActivator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementPanelActivator, ___m_Activatable) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementPanelActivator, ____isActive_k__BackingField) == 0x18, "Offset mismatch!");
@@ -163,6 +158,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElementPanelActivator, _
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementPanelActivator, ___m_OnAttachToPanelCallback) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementPanelActivator, ___m_OnDetachFromPanelCallback) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementPanelActivator, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementPanelActivator);

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRMeshRenderer.hpp"
-#include "GlobalNamespace/zzzz__OVRMeshRenderer_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshRenderer_def.hpp"
@@ -8,182 +7,166 @@
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__SkinnedMeshRenderer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider.GetMeshRendererData
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData (
-    ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider::*)()>(&::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider::GetMeshRendererData)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*>::get(), 0));
-    return ___internal_method;
-  }
-};
-inline ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider::GetMeshRendererData() {
+inline ::GlobalNamespace::OVRMeshRenderer_MeshRendererData GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider::GetMeshRendererData() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, false>(this, ___internal_method);
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider*>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRMeshRenderer_MeshRendererData, false>(this, ___internal_method);
 }
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.get_IsDataValid
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.get_IsDataValid
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)()>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_IsDataValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd7198;
+  constexpr static std::size_t addrs = 0x4037244;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(),
                                                                                "get_IsDataValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.set_IsDataValid
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.set_IsDataValid
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_IsDataValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd71a0;
+  constexpr static std::size_t addrs = 0x403724c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_IsDataValid",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_IsDataValid",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.get_IsDataHighConfidence
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.get_IsDataHighConfidence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)()>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_IsDataHighConfidence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd71ac;
+  constexpr static std::size_t addrs = 0x4037258;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(),
                                                                                "get_IsDataHighConfidence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.set_IsDataHighConfidence
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.set_IsDataHighConfidence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_IsDataHighConfidence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd71b4;
+  constexpr static std::size_t addrs = 0x4037260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_IsDataHighConfidence",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_IsDataHighConfidence",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.get_ShouldUseSystemGestureMaterial
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.get_ShouldUseSystemGestureMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)()>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_ShouldUseSystemGestureMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)()>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd71c0;
+  constexpr static std::size_t addrs = 0x403726c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(),
                                                  "get_ShouldUseSystemGestureMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData.set_ShouldUseSystemGestureMaterial
+//  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer_MeshRendererData.set_ShouldUseSystemGestureMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::*)(bool)>(
-    &::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_ShouldUseSystemGestureMaterial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer_MeshRendererData::*)(bool)>(
+    &::GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd71c8;
+  constexpr static std::size_t addrs = 0x4037274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-inline bool GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_IsDataValid() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
+inline bool GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataValid() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(),
                                                                              "get_IsDataValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_IsDataValid(bool value) {
+inline void GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataValid(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_IsDataValid",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_IsDataValid",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_IsDataHighConfidence() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
+inline bool GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_IsDataHighConfidence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(),
                                                                              "get_IsDataHighConfidence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_IsDataHighConfidence(bool value) {
+inline void GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_IsDataHighConfidence(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_IsDataHighConfidence",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_IsDataHighConfidence",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__OVRMeshRenderer__MeshRendererData::get_ShouldUseSystemGestureMaterial() {
+inline bool GlobalNamespace::OVRMeshRenderer_MeshRendererData::get_ShouldUseSystemGestureMaterial() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(),
-                                               "get_ShouldUseSystemGestureMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "get_ShouldUseSystemGestureMaterial",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__OVRMeshRenderer__MeshRendererData::set_ShouldUseSystemGestureMaterial(bool value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRMeshRenderer__MeshRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+inline void GlobalNamespace::OVRMeshRenderer_MeshRendererData::set_ShouldUseSystemGestureMaterial(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer_MeshRendererData>::get(), "set_ShouldUseSystemGestureMaterial",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 // Ctor Parameters [CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_IsDataHighConfidence_k__BackingField", ty: "bool",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "_ShouldUseSystemGestureMaterial_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::__OVRMeshRenderer__MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField,
-                                                                                                      bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
+constexpr ::GlobalNamespace::OVRMeshRenderer_MeshRendererData::OVRMeshRenderer_MeshRendererData(bool _IsDataValid_k__BackingField, bool _IsDataHighConfidence_k__BackingField,
+                                                                                                bool _ShouldUseSystemGestureMaterial_k__BackingField) noexcept {
   this->_IsDataValid_k__BackingField = _IsDataValid_k__BackingField;
   this->_IsDataHighConfidence_k__BackingField = _IsDataHighConfidence_k__BackingField;
   this->_ShouldUseSystemGestureMaterial_k__BackingField = _ShouldUseSystemGestureMaterial_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData::__OVRMeshRenderer__MeshRendererData() {}
+constexpr ::GlobalNamespace::OVRMeshRenderer_MeshRendererData::OVRMeshRenderer_MeshRendererData() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior::__OVRMeshRenderer__ConfidenceBehavior(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::OVRMeshRenderer_ConfidenceBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior::__OVRMeshRenderer__ConfidenceBehavior() {}
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::OVRMeshRenderer_ConfidenceBehavior() {}
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior::ToggleRenderer{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior::__OVRMeshRenderer__SystemGestureBehavior(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior::OVRMeshRenderer_SystemGestureBehavior(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior::__OVRMeshRenderer__SystemGestureBehavior() {}
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior::SwapMaterial{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior::OVRMeshRenderer_SystemGestureBehavior() {}
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior::SwapMaterial{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::OVRMeshRenderer.get_IsInitialized
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd677c;
+  constexpr static std::size_t addrs = 0x4036828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "get_IsInitialized",
@@ -196,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsInitialized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd6784;
+  constexpr static std::size_t addrs = 0x4036830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd6790;
+  constexpr static std::size_t addrs = 0x403683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "get_IsDataValid",
@@ -223,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsDataValid)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd6798;
+  constexpr static std::size_t addrs = 0x4036844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -237,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd67a4;
+  constexpr static std::size_t addrs = 0x4036850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(),
@@ -250,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(&::GlobalNamespace::OVRMeshRenderer::set_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd67ac;
+  constexpr static std::size_t addrs = 0x4036858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(
     &::GlobalNamespace::OVRMeshRenderer::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd67b8;
+  constexpr static std::size_t addrs = 0x4036864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)(bool)>(
     &::GlobalNamespace::OVRMeshRenderer::set_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fd67c0;
+  constexpr static std::size_t addrs = 0x403686c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -294,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Awake)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3fd67cc;
+  constexpr static std::size_t addrs = 0x4036878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "Awake",
@@ -307,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Start)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fd68d0;
+  constexpr static std::size_t addrs = 0x403697c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "Start",
@@ -320,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::ShouldInitialize)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3fd696c;
+  constexpr static std::size_t addrs = 0x4036a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "ShouldInitialize",
@@ -333,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Initialize)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3fd6a5c;
+  constexpr static std::size_t addrs = 0x4036b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "Initialize",
@@ -346,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::Update)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3fd6ee0;
+  constexpr static std::size_t addrs = 0x4036f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), "Update",
@@ -359,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshRenderer::*)()>(&::GlobalNamespace::OVRMeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fd7188;
+  constexpr static std::size_t addrs = 0x4037234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), ".ctor",
@@ -367,15 +350,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__dataProvider() {
+constexpr ::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider*& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__dataProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*> const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__dataProvider() const {
+constexpr ::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider* const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__dataProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataProvider;
 }
-constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__dataProvider(::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* value) {
+constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__dataProvider(::GlobalNamespace::OVRMeshRenderer_IOVRMeshRendererDataProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -403,27 +386,27 @@ constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__ovrSkelet
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ovrSkeleton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__confidenceBehavior() {
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__confidenceBehavior() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
-constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__confidenceBehavior() const {
+constexpr ::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__confidenceBehavior() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____confidenceBehavior;
 }
-constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior value) {
+constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__confidenceBehavior(::GlobalNamespace::OVRMeshRenderer_ConfidenceBehavior value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____confidenceBehavior = value;
 }
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__systemGestureBehavior() {
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__systemGestureBehavior() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
-constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__systemGestureBehavior() const {
+constexpr ::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior const& GlobalNamespace::OVRMeshRenderer::__cordl_internal_get__systemGestureBehavior() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____systemGestureBehavior;
 }
-constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior value) {
+constexpr void GlobalNamespace::OVRMeshRenderer::__cordl_internal_set__systemGestureBehavior(::GlobalNamespace::OVRMeshRenderer_SystemGestureBehavior value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____systemGestureBehavior = value;
 }
@@ -581,13 +564,13 @@ inline void GlobalNamespace::OVRMeshRenderer::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRMeshRenderer* GlobalNamespace::OVRMeshRenderer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMeshRenderer*>());
-}
 inline void GlobalNamespace::OVRMeshRenderer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshRenderer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRMeshRenderer* GlobalNamespace::OVRMeshRenderer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMeshRenderer*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMeshRenderer::OVRMeshRenderer() {}

@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerSettingsPanelController)
 namespace GlobalNamespace {
 class ILobbyPlayerData;
-}
-namespace GlobalNamespace {
-class IRefreshable;
 }
 namespace GlobalNamespace {
 class ServerCodeView;
@@ -33,11 +31,10 @@ class MultiplayerSettingsPanelController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSettingsPanelController);
-// Type: ::MultiplayerSettingsPanelController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IRefreshable, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerSettingsPanelController*
+// CS Name: MultiplayerSettingsPanelController
 class CORDL_TYPE MultiplayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -68,42 +65,42 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x3bb2850, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c15994, size 0xc0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideConnectionSettings, addr 0x3bb27ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideConnectionSettings, addr 0x3c15930, size 0x24, virtual false, abstract: false, final false
   inline void HideConnectionSettings(bool hide);
 
-  /// @brief Method HideSpectateSettings, addr 0x3bb2810, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HideSpectateSettings, addr 0x3c15954, size 0x24, virtual false, abstract: false, final false
   inline void HideSpectateSettings(bool hide);
 
   static inline ::GlobalNamespace::MultiplayerSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb2910, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c15a54, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x3bb26e0, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x3c15824, size 0x10c, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method SetLobbyCode, addr 0x3bb2834, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyCode, addr 0x3c15978, size 0x1c, virtual false, abstract: false, final false
   inline void SetLobbyCode(::StringW code);
 
-  /// @brief Method SetLobbyPlayerDataModel, addr 0x3bb26d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLobbyPlayerDataModel, addr 0x3c15818, size 0xc, virtual false, abstract: false, final false
   inline void SetLobbyPlayerDataModel(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x3bb2924, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalPlayerIsActiveState, addr 0x3c15a68, size 0x24, virtual false, abstract: false, final false
   inline void UpdateLocalPlayerIsActiveState(bool isActive);
 
-  /// @brief Method <Awake>b__14_0, addr 0x3bb2950, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__14_0, addr 0x3c15a94, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__14_0(bool on);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionSettingsWrapper() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionSettingsWrapper();
 
-  constexpr ::GlobalNamespace::ILobbyPlayerData*& __cordl_internal_get__lobbyPlayerData();
+  constexpr ::GlobalNamespace::ILobbyPlayerData* const& __cordl_internal_get__lobbyPlayerData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayerData*> const& __cordl_internal_get__lobbyPlayerData() const;
+  constexpr ::GlobalNamespace::ILobbyPlayerData*& __cordl_internal_get__lobbyPlayerData();
 
   constexpr bool const& __cordl_internal_get__refreshed() const;
 
@@ -121,13 +118,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
 
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
   constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
   constexpr void __cordl_internal_set__connectionSettingsWrapper(::UnityW<::UnityEngine::GameObject> value);
 
@@ -145,16 +142,16 @@ public:
 
   constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3bb2948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c15a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3bb2574, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x3c156b8, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3bb2624, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x3c15768, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -170,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSettingsPanelController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerSettingsPanelController(MultiplayerSettingsPanelController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4895 };
 
   /// @brief Field _serverCodeView, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ServerCodeView> ____serverCodeView;
@@ -195,14 +195,9 @@ public:
   /// @brief Field playerActiveStateChangedEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<bool>* ___playerActiveStateChangedEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4874 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSettingsPanelController, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____serverCodeView) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____spectateToggle) == 0x28, "Offset mismatch!");
@@ -218,6 +213,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, __
 static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ____refreshed) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerSettingsPanelController, ___playerActiveStateChangedEvent) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerSettingsPanelController, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerSettingsPanelController);

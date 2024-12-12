@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlSignificantWhitespace::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42e7148;
+  constexpr static std::size_t addrs = 0x434845c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_Name)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42e71e4;
+  constexpr static std::size_t addrs = 0x43484f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_LocalName)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x42e720c;
+  constexpr static std::size_t addrs = 0x4348520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlSignificantWhitespace::*)()>(
     &::System::Xml::XmlSignificantWhitespace::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e7234;
+  constexpr static std::size_t addrs = 0x4348548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlSignificantWhitespace::*)()>(
     &::System::Xml::XmlSignificantWhitespace::get_ParentNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42e723c;
+  constexpr static std::size_t addrs = 0x4348550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlSignificantWhitespace::*)(bool)>(
     &::System::Xml::XmlSignificantWhitespace::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42e72c4;
+  constexpr static std::size_t addrs = 0x43485d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_Value)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x42e7320;
+  constexpr static std::size_t addrs = 0x4348634;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::StringW)>(&::System::Xml::XmlSignificantWhitespace::set_Value)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42e7330;
+  constexpr static std::size_t addrs = 0x4348644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlSignificantWhitespace::WriteTo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x42e73bc;
+  constexpr static std::size_t addrs = 0x43486d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlSignificantWhitespace::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlSignificantWhitespace::WriteContentTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42e73fc;
+  constexpr static std::size_t addrs = 0x4348710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlSignificantWhitespace::*)()>(&::System::Xml::XmlSignificantWhitespace::get_IsText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e7400;
+  constexpr static std::size_t addrs = 0x4348714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,9 +167,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Xml::XmlSignificantWhitespace* System::Xml::XmlSignificantWhitespace::New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlSignificantWhitespace*>(strData, doc));
-}
 inline void System::Xml::XmlSignificantWhitespace::_ctor(::StringW strData, ::System::Xml::XmlDocument* doc) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSignificantWhitespace*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -226,6 +223,9 @@ inline bool System::Xml::XmlSignificantWhitespace::get_IsText() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlSignificantWhitespace*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlSignificantWhitespace* System::Xml::XmlSignificantWhitespace::New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlSignificantWhitespace*>(strData, doc));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlSignificantWhitespace::XmlSignificantWhitespace() {}

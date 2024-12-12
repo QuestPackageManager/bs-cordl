@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>,
                                                                                            ::StringW)>(&::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24825dc;
+  constexpr static std::size_t addrs = 0x24b58c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2482254;
+  constexpr static std::size_t addrs = 0x24b5540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V1A)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482660;
+  constexpr static std::size_t addrs = 0x24b594c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V1B)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482668;
+  constexpr static std::size_t addrs = 0x24b5954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V2A)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482670;
+  constexpr static std::size_t addrs = 0x24b595c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_V2B)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482678;
+  constexpr static std::size_t addrs = 0x24b5964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_G1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482680;
+  constexpr static std::size_t addrs = 0x24b596c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_G2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482688;
+  constexpr static std::size_t addrs = 0x24b5974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_Bits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482690;
+  constexpr static std::size_t addrs = 0x24b597c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v1A;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v1A() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v1A() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v1A;
 }
@@ -169,7 +169,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v1B;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v1B() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v1B() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v1B;
 }
@@ -181,7 +181,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v2A;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v2A() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v2A() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v2A;
 }
@@ -193,7 +193,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v2B;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v2B() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_v2B() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_v2B;
 }
@@ -205,7 +205,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_g1;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_g1() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_g1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_g1;
 }
@@ -217,7 +217,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_g2;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_g2() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::__cordl_internal_get_m_g2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_g2;
 }
@@ -245,12 +245,6 @@ inline void Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVecto
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, v, name);
-}
-inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*
-Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::New_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
-                                                                   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2,
-                                                                   ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(v1, v2, g1, g2, bits));
 }
 inline void Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
                                                                             ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2,
@@ -305,6 +299,12 @@ inline int32_t Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::get_Bit
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*
+Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::New_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
+                                                                   ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2,
+                                                                   ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*>(v1, v2, g1, g2, bits));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::ScalarSplitParameters() {}

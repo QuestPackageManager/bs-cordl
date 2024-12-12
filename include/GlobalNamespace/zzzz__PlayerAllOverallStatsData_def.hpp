@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 class MissionCompletionResults;
 }
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
+class PlayerAllOverallStatsData_PlayerOverallStatsData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -30,17 +30,16 @@ namespace GlobalNamespace {
 class PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
+class PlayerAllOverallStatsData_PlayerOverallStatsData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerAllOverallStatsData);
-MARK_REF_PTR_T(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData);
-// Type: ::PlayerOverallStatsData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerAllOverallStatsData::PlayerOverallStatsData*
-class CORDL_TYPE __PlayerAllOverallStatsData__PlayerOverallStatsData : public ::System::Object {
+// CS Name: PlayerAllOverallStatsData/PlayerOverallStatsData
+class CORDL_TYPE PlayerAllOverallStatsData_PlayerOverallStatsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <badCutsCount>k__BackingField, offset 0x14, size 0x4
@@ -99,13 +98,13 @@ public:
 
   __declspec(property(get = get_totalScore, put = set_totalScore)) int64_t totalScore;
 
-  static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* New_ctor();
+  static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* New_ctor();
 
-  static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
-                                                                                                 int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount,
-                                                                                                 int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
+  static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* New_ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore,
+                                                                                              int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount, int32_t fullComboCount,
+                                                                                              float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
 
-  /// @brief Method UpdateWithLevelCompletionResults, addr 0x26b9dd8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateWithLevelCompletionResults, addr 0x26ee678, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateWithLevelCompletionResults(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr int32_t const& __cordl_internal_get__badCutsCount_k__BackingField() const;
@@ -174,96 +173,99 @@ public:
 
   constexpr void __cordl_internal_set__totalScore_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x26b9c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ee5c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b9c2c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ee944, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCutsCount, int64_t totalScore, int32_t playedLevelsCount, int32_t clearedLevelsCount, int32_t failedLevelsCount,
                     int32_t fullComboCount, float_t timePlayed, int32_t handDistanceTravelled, int64_t totalCutScore);
 
-  /// @brief Method get_badCutsCount, addr 0x26b9b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badCutsCount, addr 0x26ee8a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_badCutsCount();
 
-  /// @brief Method get_clearedLevelsCount, addr 0x26b9bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clearedLevelsCount, addr 0x26ee8e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clearedLevelsCount();
 
-  /// @brief Method get_failedLevelsCount, addr 0x26b9bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_failedLevelsCount, addr 0x26ee8f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_failedLevelsCount();
 
-  /// @brief Method get_fullComboCount, addr 0x26b9be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullComboCount, addr 0x26ee904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_fullComboCount();
 
-  /// @brief Method get_goodCutsCount, addr 0x26b9b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_goodCutsCount, addr 0x26ee894, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_goodCutsCount();
 
-  /// @brief Method get_handDistanceTravelled, addr 0x26b9c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handDistanceTravelled, addr 0x26ee924, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_handDistanceTravelled();
 
-  /// @brief Method get_missedCutsCount, addr 0x26b9b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missedCutsCount, addr 0x26ee8b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_missedCutsCount();
 
-  /// @brief Method get_playedLevelsCount, addr 0x26b9bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playedLevelsCount, addr 0x26ee8d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_playedLevelsCount();
 
-  /// @brief Method get_timePlayed, addr 0x26b9bf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timePlayed, addr 0x26ee914, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timePlayed();
 
-  /// @brief Method get_totalCutScore, addr 0x26b9c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalCutScore, addr 0x26ee934, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalCutScore();
 
-  /// @brief Method get_totalScore, addr 0x26b9ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalScore, addr 0x26ee8c4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_totalScore();
 
-  /// @brief Method op_Addition, addr 0x26b9cc0, size 0x118, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* op_Addition(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* a,
-                                                                                                    ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* b);
+  /// @brief Method op_Addition, addr 0x26edfc4, size 0x118, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* op_Addition(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* a,
+                                                                                                 ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* b);
 
-  /// @brief Method set_badCutsCount, addr 0x26b9b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_badCutsCount, addr 0x26ee8ac, size 0x8, virtual false, abstract: false, final false
   inline void set_badCutsCount(int32_t value);
 
-  /// @brief Method set_clearedLevelsCount, addr 0x26b9bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clearedLevelsCount, addr 0x26ee8ec, size 0x8, virtual false, abstract: false, final false
   inline void set_clearedLevelsCount(int32_t value);
 
-  /// @brief Method set_failedLevelsCount, addr 0x26b9bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_failedLevelsCount, addr 0x26ee8fc, size 0x8, virtual false, abstract: false, final false
   inline void set_failedLevelsCount(int32_t value);
 
-  /// @brief Method set_fullComboCount, addr 0x26b9bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullComboCount, addr 0x26ee90c, size 0x8, virtual false, abstract: false, final false
   inline void set_fullComboCount(int32_t value);
 
-  /// @brief Method set_goodCutsCount, addr 0x26b9b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_goodCutsCount, addr 0x26ee89c, size 0x8, virtual false, abstract: false, final false
   inline void set_goodCutsCount(int32_t value);
 
-  /// @brief Method set_handDistanceTravelled, addr 0x26b9c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_handDistanceTravelled, addr 0x26ee92c, size 0x8, virtual false, abstract: false, final false
   inline void set_handDistanceTravelled(int32_t value);
 
-  /// @brief Method set_missedCutsCount, addr 0x26b9b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missedCutsCount, addr 0x26ee8bc, size 0x8, virtual false, abstract: false, final false
   inline void set_missedCutsCount(int32_t value);
 
-  /// @brief Method set_playedLevelsCount, addr 0x26b9bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playedLevelsCount, addr 0x26ee8dc, size 0x8, virtual false, abstract: false, final false
   inline void set_playedLevelsCount(int32_t value);
 
-  /// @brief Method set_timePlayed, addr 0x26b9bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timePlayed, addr 0x26ee91c, size 0x8, virtual false, abstract: false, final false
   inline void set_timePlayed(float_t value);
 
-  /// @brief Method set_totalCutScore, addr 0x26b9c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalCutScore, addr 0x26ee93c, size 0x8, virtual false, abstract: false, final false
   inline void set_totalCutScore(int64_t value);
 
-  /// @brief Method set_totalScore, addr 0x26b9bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_totalScore, addr 0x26ee8cc, size 0x8, virtual false, abstract: false, final false
   inline void set_totalScore(int64_t value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerAllOverallStatsData__PlayerOverallStatsData();
+  constexpr PlayerAllOverallStatsData_PlayerOverallStatsData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PlayerAllOverallStatsData__PlayerOverallStatsData(__PlayerAllOverallStatsData__PlayerOverallStatsData&&) = delete;
+  PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PlayerAllOverallStatsData__PlayerOverallStatsData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerAllOverallStatsData_PlayerOverallStatsData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PlayerAllOverallStatsData__PlayerOverallStatsData(__PlayerAllOverallStatsData__PlayerOverallStatsData const&) = delete;
+  PlayerAllOverallStatsData_PlayerOverallStatsData(PlayerAllOverallStatsData_PlayerOverallStatsData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13221 };
 
   /// @brief Field <goodCutsCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____goodCutsCount_k__BackingField;
@@ -298,71 +300,66 @@ public:
   /// @brief Field <totalCutScore>k__BackingField, offset: 0x40, size: 0x8, def value: None
   int64_t ____totalCutScore_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13185 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____goodCutsCount_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____goodCutsCount_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____badCutsCount_k__BackingField) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____badCutsCount_k__BackingField) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____missedCutsCount_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____missedCutsCount_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____totalScore_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____totalScore_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____playedLevelsCount_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____playedLevelsCount_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____clearedLevelsCount_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____clearedLevelsCount_k__BackingField) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____failedLevelsCount_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____failedLevelsCount_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____fullComboCount_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____fullComboCount_k__BackingField) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____timePlayed_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____timePlayed_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____handDistanceTravelled_k__BackingField) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____handDistanceTravelled_k__BackingField) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, ____totalCutScore_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData, ____totalCutScore_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerAllOverallStatsData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerAllOverallStatsData*
+// CS Name: PlayerAllOverallStatsData
 class CORDL_TYPE PlayerAllOverallStatsData : public ::System::Object {
 public:
   // Declarations
-  using PlayerOverallStatsData = ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData;
+  using PlayerOverallStatsData = ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData;
 
   /// @brief Field <campaignOverallStatsData>k__BackingField, offset 0x10, size 0x8
   __declspec(property(
       get = __cordl_internal_get__campaignOverallStatsData_k__BackingField,
-      put = __cordl_internal_set__campaignOverallStatsData_k__BackingField)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _campaignOverallStatsData_k__BackingField;
+      put = __cordl_internal_set__campaignOverallStatsData_k__BackingField)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _campaignOverallStatsData_k__BackingField;
 
   /// @brief Field <onlinePlayOverallStatsData>k__BackingField, offset 0x28, size 0x8
   __declspec(property(
       get = __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField,
-      put = __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _onlinePlayOverallStatsData_k__BackingField;
+      put = __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _onlinePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <partyFreePlayOverallStatsData>k__BackingField, offset 0x20, size 0x8
   __declspec(property(
       get = __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField,
-      put =
-          __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _partyFreePlayOverallStatsData_k__BackingField;
+      put = __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _partyFreePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <soloFreePlayOverallStatsData>k__BackingField, offset 0x18, size 0x8
   __declspec(property(
       get = __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField,
-      put = __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _soloFreePlayOverallStatsData_k__BackingField;
+      put = __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _soloFreePlayOverallStatsData_k__BackingField;
 
-  __declspec(property(get = get_allOverallStatsData)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* allOverallStatsData;
+  __declspec(property(get = get_allOverallStatsData)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* allOverallStatsData;
 
-  __declspec(property(get = get_campaignOverallStatsData)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* campaignOverallStatsData;
+  __declspec(property(get = get_campaignOverallStatsData)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* campaignOverallStatsData;
 
   /// @brief Field didUpdateCampaignOverallStatsDataEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent,
@@ -379,72 +376,66 @@ public:
                       put = __cordl_internal_set_didUpdateSoloFreePlayOverallStatsDataEvent)) ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>*
       didUpdateSoloFreePlayOverallStatsDataEvent;
 
-  __declspec(property(get = get_onlinePlayOverallStatsData)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* onlinePlayOverallStatsData;
+  __declspec(property(get = get_onlinePlayOverallStatsData)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData;
 
-  __declspec(property(get = get_partyFreePlayOverallStatsData)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* partyFreePlayOverallStatsData;
+  __declspec(property(get = get_partyFreePlayOverallStatsData)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData;
 
-  __declspec(property(get = get_soloFreePlayOverallStatsData)) ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* soloFreePlayOverallStatsData;
+  __declspec(property(get = get_soloFreePlayOverallStatsData)) ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* soloFreePlayOverallStatsData;
 
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* New_ctor();
 
-  static inline ::GlobalNamespace::PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* campaignOverallStatsData,
-                                                                       ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
-                                                                       ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
-                                                                       ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* onlinePlayOverallStatsData);
+  static inline ::GlobalNamespace::PlayerAllOverallStatsData* New_ctor(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* campaignOverallStatsData,
+                                                                       ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* soloFreePlayOverallStatsData,
+                                                                       ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData,
+                                                                       ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method UpdateCampaignOverallStatsData, addr 0x26b9ad4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateCampaignOverallStatsData, addr 0x26ee7fc, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateCampaignOverallStatsData(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method UpdateOnlinePlayOverallStatsData, addr 0x26b9b44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method UpdateOnlinePlayOverallStatsData, addr 0x26ee868, size 0x2c, virtual false, abstract: false, final false
   inline void UpdateOnlinePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method UpdatePartyFreePlayOverallStatsData, addr 0x26b9a68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePartyFreePlayOverallStatsData, addr 0x26ee794, size 0x68, virtual false, abstract: false, final false
   inline void UpdatePartyFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method UpdateSoloFreePlayOverallStatsData, addr 0x26b99fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSoloFreePlayOverallStatsData, addr 0x26ee610, size 0x68, virtual false, abstract: false, final false
   inline void UpdateSoloFreePlayOverallStatsData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__campaignOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* const& __cordl_internal_get__campaignOverallStatsData_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const& __cordl_internal_get__campaignOverallStatsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*& __cordl_internal_get__campaignOverallStatsData_k__BackingField();
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* const& __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
-  __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*& __cordl_internal_get__onlinePlayOverallStatsData_k__BackingField();
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* const& __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
-  __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*& __cordl_internal_get__partyFreePlayOverallStatsData_k__BackingField();
 
-  constexpr ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*& __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* const& __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*> const&
-  __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*& __cordl_internal_get__soloFreePlayOverallStatsData_k__BackingField();
+
+  constexpr ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* const& __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent() const;
 
   constexpr ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>*& __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>*> const&
-  __cordl_internal_get_didUpdateCampaignOverallStatsDataEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* const& __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent() const;
 
   constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>*> const&
-  __cordl_internal_get_didUpdatePartyFreePlayOverallStatsDataEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* const& __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent() const;
 
   constexpr ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>*> const&
-  __cordl_internal_get_didUpdateSoloFreePlayOverallStatsDataEvent() const;
+  constexpr void __cordl_internal_set__campaignOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* value);
 
-  constexpr void __cordl_internal_set__campaignOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* value);
 
-  constexpr void __cordl_internal_set__onlinePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* value);
 
-  constexpr void __cordl_internal_set__partyFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
-
-  constexpr void __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* value);
+  constexpr void __cordl_internal_set__soloFreePlayOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* value);
 
   constexpr void __cordl_internal_set_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
@@ -452,46 +443,46 @@ public:
 
   constexpr void __cordl_internal_set_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method .ctor, addr 0x26b9910, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ee51c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b99bc, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* campaignOverallStatsData,
-                    ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* soloFreePlayOverallStatsData,
-                    ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* partyFreePlayOverallStatsData,
-                    ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* onlinePlayOverallStatsData);
+  /// @brief Method .ctor, addr 0x26ee5d0, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* campaignOverallStatsData,
+                    ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* soloFreePlayOverallStatsData,
+                    ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* partyFreePlayOverallStatsData,
+                    ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* onlinePlayOverallStatsData);
 
-  /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x26b97b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateCampaignOverallStatsDataEvent, addr 0x26ee3bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
-  /// @brief Method add_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26b9650, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26ee25c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method add_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26b94f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26ee0fc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method get_allOverallStatsData, addr 0x26b949c, size 0x34, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_allOverallStatsData();
+  /// @brief Method get_allOverallStatsData, addr 0x26edf9c, size 0x28, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_allOverallStatsData();
 
-  /// @brief Method get_campaignOverallStatsData, addr 0x26b94d0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_campaignOverallStatsData();
+  /// @brief Method get_campaignOverallStatsData, addr 0x26ee0dc, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_campaignOverallStatsData();
 
-  /// @brief Method get_onlinePlayOverallStatsData, addr 0x26b94e8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_onlinePlayOverallStatsData();
+  /// @brief Method get_onlinePlayOverallStatsData, addr 0x26ee0f4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_onlinePlayOverallStatsData();
 
-  /// @brief Method get_partyFreePlayOverallStatsData, addr 0x26b94e0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
+  /// @brief Method get_partyFreePlayOverallStatsData, addr 0x26ee0ec, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_partyFreePlayOverallStatsData();
 
-  /// @brief Method get_soloFreePlayOverallStatsData, addr 0x26b94d8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
+  /// @brief Method get_soloFreePlayOverallStatsData, addr 0x26ee0e4, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* get_soloFreePlayOverallStatsData();
 
-  /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x26b9860, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateCampaignOverallStatsDataEvent, addr 0x26ee46c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateCampaignOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* value);
 
-  /// @brief Method remove_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26b9700, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdatePartyFreePlayOverallStatsDataEvent, addr 0x26ee30c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdatePartyFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  /// @brief Method remove_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26b95a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didUpdateSoloFreePlayOverallStatsDataEvent, addr 0x26ee1ac, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didUpdateSoloFreePlayOverallStatsDataEvent(::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* value);
 
 protected:
@@ -508,17 +499,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerAllOverallStatsData(PlayerAllOverallStatsData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
+
   /// @brief Field <campaignOverallStatsData>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ____campaignOverallStatsData_k__BackingField;
+  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____campaignOverallStatsData_k__BackingField;
 
   /// @brief Field <soloFreePlayOverallStatsData>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ____soloFreePlayOverallStatsData_k__BackingField;
+  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____soloFreePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <partyFreePlayOverallStatsData>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ____partyFreePlayOverallStatsData_k__BackingField;
+  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____partyFreePlayOverallStatsData_k__BackingField;
 
   /// @brief Field <onlinePlayOverallStatsData>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ____onlinePlayOverallStatsData_k__BackingField;
+  ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ____onlinePlayOverallStatsData_k__BackingField;
 
   /// @brief Field didUpdateSoloFreePlayOverallStatsDataEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::BeatmapDifficulty>* ___didUpdateSoloFreePlayOverallStatsDataEvent;
@@ -529,14 +523,9 @@ public:
   /// @brief Field didUpdateCampaignOverallStatsDataEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MissionCompletionResults*, ::GlobalNamespace::IMissionNode*>* ___didUpdateCampaignOverallStatsDataEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13186 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerAllOverallStatsData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData, ____campaignOverallStatsData_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData, ____soloFreePlayOverallStatsData_k__BackingField) == 0x18, "Offset mismatch!");
@@ -551,8 +540,10 @@ static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData, ___didUpdat
 
 static_assert(offsetof(::GlobalNamespace::PlayerAllOverallStatsData, ___didUpdateCampaignOverallStatsDataEvent) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerAllOverallStatsData, 0x48>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerAllOverallStatsData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerAllOverallStatsData*, "", "PlayerAllOverallStatsData");
-NEED_NO_BOX(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");
+NEED_NO_BOX(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*, "", "PlayerAllOverallStatsData/PlayerOverallStatsData");

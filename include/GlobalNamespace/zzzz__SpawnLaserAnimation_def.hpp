@@ -18,11 +18,10 @@ class SpawnLaserAnimation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpawnLaserAnimation);
-// Type: ::SpawnLaserAnimation
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpawnLaserAnimation*
+// CS Name: SpawnLaserAnimation
 class CORDL_TYPE SpawnLaserAnimation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -53,10 +52,10 @@ public:
   /// @brief Field _rightHorizontalLaser, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__rightHorizontalLaser, put = __cordl_internal_set__rightHorizontalLaser)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _rightHorizontalLaser;
 
-  /// @brief Method InitIfNeeded, addr 0x3b22ea8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3b841a8, size 0xc0, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
-  /// @brief Method LateUpdate, addr 0x3b22f68, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b84268, size 0x110, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SpawnLaserAnimation* New_ctor();
@@ -115,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__rightHorizontalLaser(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b23078, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b84378, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SpawnLaserAnimation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SpawnLaserAnimation(SpawnLaserAnimation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4236 };
 
   /// @brief Field _centerThresholdTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____centerThresholdTransform;
@@ -159,14 +161,9 @@ public:
   /// @brief Field _initialized, offset: 0x50, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4225 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnLaserAnimation, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____centerThresholdTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____horizontalLasersTransform) == 0x28, "Offset mismatch!");
@@ -184,6 +181,8 @@ static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____laserLength) 
 static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____centerDistance) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpawnLaserAnimation, ____initialized) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpawnLaserAnimation, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpawnLaserAnimation);

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4445ea8;
+  constexpr static std::size_t addrs = 0x44a71bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4445f54;
+  constexpr static std::size_t addrs = 0x44a7268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,9 +71,6 @@ constexpr void System::Net::BufferOffsetSize::__cordl_internal_set_Size(int32_t 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Size = value;
 }
-inline ::System::Net::BufferOffsetSize* System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BufferOffsetSize*>(buffer, offset, size, copyBuffer));
-}
 inline void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BufferOffsetSize*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -82,15 +79,18 @@ inline void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t, ::Array<uint8
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, offset, size, copyBuffer);
 }
-inline ::System::Net::BufferOffsetSize* System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BufferOffsetSize*>(buffer, copyBuffer));
-}
 inline void System::Net::BufferOffsetSize::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BufferOffsetSize*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, copyBuffer);
+}
+inline ::System::Net::BufferOffsetSize* System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BufferOffsetSize*>(buffer, offset, size, copyBuffer));
+}
+inline ::System::Net::BufferOffsetSize* System::Net::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BufferOffsetSize*>(buffer, copyBuffer));
 }
 // Ctor Parameters []
 constexpr ::System::Net::BufferOffsetSize::BufferOffsetSize() {}

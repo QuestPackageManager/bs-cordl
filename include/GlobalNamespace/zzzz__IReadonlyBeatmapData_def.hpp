@@ -39,11 +39,10 @@ class IReadonlyBeatmapData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapData);
-// Type: ::IReadonlyBeatmapData
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IReadonlyBeatmapData*
+// CS Name: IReadonlyBeatmapData
 class CORDL_TYPE IReadonlyBeatmapData {
 public:
   // Declarations
@@ -61,71 +60,67 @@ public:
 
   __declspec(property(get = get_specialBasicBeatmapEventKeywords)) ::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
 
-  /// @brief Method GetBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetBeatmapDataItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetBeatmapDataItems(int32_t subtypeGroupIdentifier);
 
-  /// @brief Method GetCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetCopy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapData* GetCopy();
 
-  /// @brief Method GetFilteredCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetFilteredCopy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapData* GetFilteredCopy(::System::Func_2<::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::BeatmapDataItem*>* processDataItem);
 
-  /// @brief Method IsBasicEventSpecialKeywordEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsBasicEventSpecialKeywordEnabled, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsBasicEventSpecialKeywordEnabled(::StringW keyword);
 
-  /// @brief Method add_beatmapEventDataWasInsertedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_beatmapEventDataWasInsertedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void
   add_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  /// @brief Method add_beatmapEventDataWasRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_beatmapEventDataWasRemovedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
 
-  /// @brief Method add_beatmapEventDataWillBeRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_beatmapEventDataWillBeRemovedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void
   add_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  /// @brief Method get_allBeatmapDataItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_allBeatmapDataItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::LinkedList_1<::GlobalNamespace::BeatmapDataItem*>* get_allBeatmapDataItems();
 
-  /// @brief Method get_areValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_areValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_areValid();
 
-  /// @brief Method get_bombsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_bombsCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_cuttableNotesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_cuttableNotesCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_numberOfLines, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_numberOfLines, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_obstaclesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_obstaclesCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_obstaclesCount();
 
-  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
-  /// @brief Method remove_beatmapEventDataWasInsertedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_beatmapEventDataWasInsertedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void
   remove_beatmapEventDataWasInsertedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
 
-  /// @brief Method remove_beatmapEventDataWasRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_beatmapEventDataWasRemovedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_beatmapEventDataWasRemovedEvent(::System::Action_1<::GlobalNamespace::BeatmapEventData*>* value);
 
-  /// @brief Method remove_beatmapEventDataWillBeRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_beatmapEventDataWillBeRemovedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void
   remove_beatmapEventDataWillBeRemovedEvent(::System::Action_2<::GlobalNamespace::BeatmapEventData*, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*>* value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IReadonlyBeatmapData(IReadonlyBeatmapData&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IReadonlyBeatmapData(IReadonlyBeatmapData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

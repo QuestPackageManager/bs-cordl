@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::get_BaseTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258d40;
+  constexpr static std::size_t addrs = 0x42ba054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::set_BaseTypeName)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4258d48;
+  constexpr static std::size_t addrs = 0x42ba05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::get_Particle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258de0;
+  constexpr static std::size_t addrs = 0x42ba0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::set_Particle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258de8;
+  constexpr static std::size_t addrs = 0x42ba0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258df0;
+  constexpr static std::size_t addrs = 0x42ba104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAnyAttribute* (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::get_AnyAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258df8;
+  constexpr static std::size_t addrs = 0x42ba10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)(::System::Xml::Schema::XmlSchemaAnyAttribute*)>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::set_AnyAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258e00;
+  constexpr static std::size_t addrs = 0x42ba114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)(
     ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::XmlSchemaComplexContentRestriction::SetAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4258e08;
+  constexpr static std::size_t addrs = 0x42ba11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContentRestriction::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContentRestriction::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4258e10;
+  constexpr static std::size_t addrs = 0x42ba124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ constexpr ::System::Xml::Schema::XmlSchemaParticle*& System::Xml::Schema::XmlSch
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaParticle*> const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_particle() const {
+constexpr ::System::Xml::Schema::XmlSchemaParticle* const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_particle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___particle;
 }
@@ -157,8 +157,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const&
-System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_attributes() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
@@ -170,7 +169,7 @@ constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& System::Xml::Schema::Xm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyAttribute;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_anyAttribute() const {
+constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute* const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_anyAttribute() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___anyAttribute;
 }
@@ -182,7 +181,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaComple
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseTypeName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_baseTypeName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaComplexContentRestriction::__cordl_internal_get_baseTypeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___baseTypeName;
 }
@@ -234,13 +233,13 @@ inline void System::Xml::Schema::XmlSchemaComplexContentRestriction::SetAttribut
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newAttributes);
 }
-inline ::System::Xml::Schema::XmlSchemaComplexContentRestriction* System::Xml::Schema::XmlSchemaComplexContentRestriction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>());
-}
 inline void System::Xml::Schema::XmlSchemaComplexContentRestriction::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaComplexContentRestriction* System::Xml::Schema::XmlSchemaComplexContentRestriction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaComplexContentRestriction*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaComplexContentRestriction::XmlSchemaComplexContentRestriction() {}

@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreferenceKeys)
@@ -14,22 +15,21 @@ class PreferenceKeys;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceKeys);
-// Type: UnityEngine.ProBuilder::PreferenceKeys
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Color
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::PreferenceKeys*
+// CS Name: UnityEngine.ProBuilder.PreferenceKeys
 class CORDL_TYPE PreferenceKeys : public ::System::Object {
 public:
   // Declarations
   /// @brief Field proBuilderBlue, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderBlue, put = setStaticF_proBuilderBlue)) ::UnityEngine::Color proBuilderBlue;
+  __declspec(property(get = getStaticF_proBuilderBlue, put = setStaticF_proBuilderBlue)) ::UnityEngine::Color proBuilderBlue;
 
   /// @brief Field proBuilderDarkGray, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderDarkGray, put = setStaticF_proBuilderDarkGray)) ::UnityEngine::Color proBuilderDarkGray;
+  __declspec(property(get = getStaticF_proBuilderDarkGray, put = setStaticF_proBuilderDarkGray)) ::UnityEngine::Color proBuilderDarkGray;
 
   /// @brief Field proBuilderLightGray, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_proBuilderLightGray, put = setStaticF_proBuilderLightGray)) ::UnityEngine::Color proBuilderLightGray;
+  __declspec(property(get = getStaticF_proBuilderLightGray, put = setStaticF_proBuilderLightGray)) ::UnityEngine::Color proBuilderLightGray;
 
   static inline ::UnityEngine::Color getStaticF_proBuilderBlue();
 
@@ -76,13 +76,13 @@ public:
   static constexpr char16_t DEGREE_SYMBOL{ u'\u{b0}' };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14265 };
 
   /// @brief Field defaultUnwrapParameters offset 0xffffffff size 0x8
   static constexpr ::ConstString defaultUnwrapParameters{ u"pbDefaultUnwrapParameters" };
 
   /// @brief Field k_MaxPointDistanceFromControl offset 0xffffffff size 0x4
-  static constexpr float_t k_MaxPointDistanceFromControl{ 20.0 };
+  static constexpr float_t k_MaxPointDistanceFromControl{ static_cast<float_t>(20.0f) };
 
   /// @brief Field menuActions offset 0xffffffff size 0x4
   static constexpr int32_t menuActions{ static_cast<int32_t>(0x12c) };

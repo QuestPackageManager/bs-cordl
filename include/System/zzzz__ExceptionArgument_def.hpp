@@ -12,11 +12,10 @@ struct ExceptionArgument;
 }
 // Write type traits
 MARK_VAL_T(::System::ExceptionArgument);
-// Type: System::ExceptionArgument
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::ExceptionArgument
+// CS Name: System.ExceptionArgument
 struct CORDL_TYPE ExceptionArgument {
 public:
   // Declarations
@@ -94,174 +93,174 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ExceptionArgument(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field action value: static_cast<int32_t>(0x21)
+  /// @brief Field action value: I32(33)
   static ::System::ExceptionArgument const action;
 
-  /// @brief Field array value: static_cast<int32_t>(0x3)
+  /// @brief Field array value: I32(3)
   static ::System::ExceptionArgument const array;
 
-  /// @brief Field arrayIndex value: static_cast<int32_t>(0x11)
+  /// @brief Field arrayIndex value: I32(17)
   static ::System::ExceptionArgument const arrayIndex;
 
-  /// @brief Field byteOffset value: static_cast<int32_t>(0x2b)
+  /// @brief Field byteOffset value: I32(43)
   static ::System::ExceptionArgument const byteOffset;
 
-  /// @brief Field capacity value: static_cast<int32_t>(0xc)
+  /// @brief Field capacity value: I32(12)
   static ::System::ExceptionArgument const capacity;
 
-  /// @brief Field collection value: static_cast<int32_t>(0x6)
+  /// @brief Field collection value: I32(6)
   static ::System::ExceptionArgument const collection;
 
-  /// @brief Field comparable value: static_cast<int32_t>(0x1e)
+  /// @brief Field comparable value: I32(30)
   static ::System::ExceptionArgument const comparable;
 
-  /// @brief Field comparer value: static_cast<int32_t>(0x1d)
+  /// @brief Field comparer value: I32(29)
   static ::System::ExceptionArgument const comparer;
 
-  /// @brief Field comparison value: static_cast<int32_t>(0x22)
+  /// @brief Field comparison value: I32(34)
   static ::System::ExceptionArgument const comparison;
 
-  /// @brief Field comparisonType value: static_cast<int32_t>(0x2f)
+  /// @brief Field comparisonType value: I32(47)
   static ::System::ExceptionArgument const comparisonType;
 
-  /// @brief Field converter value: static_cast<int32_t>(0x9)
+  /// @brief Field converter value: I32(9)
   static ::System::ExceptionArgument const converter;
 
-  /// @brief Field count value: static_cast<int32_t>(0x10)
+  /// @brief Field count value: I32(16)
   static ::System::ExceptionArgument const count;
 
-  /// @brief Field culture value: static_cast<int32_t>(0x29)
+  /// @brief Field culture value: I32(41)
   static ::System::ExceptionArgument const culture;
 
-  /// @brief Field destination value: static_cast<int32_t>(0x2a)
+  /// @brief Field destination value: I32(42)
   static ::System::ExceptionArgument const destination;
 
-  /// @brief Field dictionary value: static_cast<int32_t>(0x1)
+  /// @brief Field dictionary value: I32(1)
   static ::System::ExceptionArgument const dictionary;
 
-  /// @brief Field dictionaryCreationThreshold value: static_cast<int32_t>(0x2)
+  /// @brief Field dictionaryCreationThreshold value: I32(2)
   static ::System::ExceptionArgument const dictionaryCreationThreshold;
 
-  /// @brief Field endIndex value: static_cast<int32_t>(0x25)
+  /// @brief Field endIndex value: I32(37)
   static ::System::ExceptionArgument const endIndex;
 
-  /// @brief Field endSegment value: static_cast<int32_t>(0x24)
+  /// @brief Field endSegment value: I32(36)
   static ::System::ExceptionArgument const endSegment;
 
-  /// @brief Field exception value: static_cast<int32_t>(0x20)
+  /// @brief Field exception value: I32(32)
   static ::System::ExceptionArgument const exception;
 
-  /// @brief Field exceptions value: static_cast<int32_t>(0x1f)
+  /// @brief Field exceptions value: I32(31)
   static ::System::ExceptionArgument const exceptions;
 
-  /// @brief Field format value: static_cast<int32_t>(0x32)
+  /// @brief Field format value: I32(50)
   static ::System::ExceptionArgument const format;
 
-  /// @brief Field index value: static_cast<int32_t>(0xd)
+  /// @brief Field index value: I32(13)
   static ::System::ExceptionArgument const index;
 
-  /// @brief Field info value: static_cast<int32_t>(0x4)
+  /// @brief Field info value: I32(4)
   static ::System::ExceptionArgument const info;
 
-  /// @brief Field input value: static_cast<int32_t>(0x31)
+  /// @brief Field input value: I32(49)
   static ::System::ExceptionArgument const input;
 
-  /// @brief Field item value: static_cast<int32_t>(0x14)
+  /// @brief Field item value: I32(20)
   static ::System::ExceptionArgument const item;
 
-  /// @brief Field key value: static_cast<int32_t>(0x5)
+  /// @brief Field key value: I32(5)
   static ::System::ExceptionArgument const key;
 
-  /// @brief Field length value: static_cast<int32_t>(0x1c)
+  /// @brief Field length value: I32(28)
   static ::System::ExceptionArgument const length;
 
-  /// @brief Field list value: static_cast<int32_t>(0x7)
+  /// @brief Field list value: I32(7)
   static ::System::ExceptionArgument const list;
 
-  /// @brief Field match value: static_cast<int32_t>(0x8)
+  /// @brief Field match value: I32(8)
   static ::System::ExceptionArgument const match;
 
-  /// @brief Field minimumBufferSize value: static_cast<int32_t>(0x2c)
+  /// @brief Field minimumBufferSize value: I32(44)
   static ::System::ExceptionArgument const minimumBufferSize;
 
-  /// @brief Field mode value: static_cast<int32_t>(0x13)
+  /// @brief Field mode value: I32(19)
   static ::System::ExceptionArgument const mode;
 
-  /// @brief Field name value: static_cast<int32_t>(0x12)
+  /// @brief Field name value: I32(18)
   static ::System::ExceptionArgument const name;
 
-  /// @brief Field obj value: static_cast<int32_t>(0x0)
+  /// @brief Field obj value: I32(0)
   static ::System::ExceptionArgument const obj;
 
-  /// @brief Field offset value: static_cast<int32_t>(0x2d)
+  /// @brief Field offset value: I32(45)
   static ::System::ExceptionArgument const offset;
 
-  /// @brief Field options value: static_cast<int32_t>(0x15)
+  /// @brief Field options value: I32(21)
   static ::System::ExceptionArgument const options;
 
-  /// @brief Field ownedMemory value: static_cast<int32_t>(0x1a)
+  /// @brief Field ownedMemory value: I32(26)
   static ::System::ExceptionArgument const ownedMemory;
 
-  /// @brief Field pointer value: static_cast<int32_t>(0x19)
+  /// @brief Field pointer value: I32(25)
   static ::System::ExceptionArgument const pointer;
 
-  /// @brief Field queue value: static_cast<int32_t>(0xa)
+  /// @brief Field queue value: I32(10)
   static ::System::ExceptionArgument const queue;
 
-  /// @brief Field s value: static_cast<int32_t>(0x30)
+  /// @brief Field s value: I32(48)
   static ::System::ExceptionArgument const s;
 
-  /// @brief Field source value: static_cast<int32_t>(0x27)
+  /// @brief Field source value: I32(39)
   static ::System::ExceptionArgument const source;
 
-  /// @brief Field sourceBytesToCopy value: static_cast<int32_t>(0x17)
+  /// @brief Field sourceBytesToCopy value: I32(23)
   static ::System::ExceptionArgument const sourceBytesToCopy;
 
-  /// @brief Field stack value: static_cast<int32_t>(0xb)
+  /// @brief Field stack value: I32(11)
   static ::System::ExceptionArgument const stack;
 
-  /// @brief Field start value: static_cast<int32_t>(0x18)
+  /// @brief Field start value: I32(24)
   static ::System::ExceptionArgument const start;
 
-  /// @brief Field startIndex value: static_cast<int32_t>(0xe)
+  /// @brief Field startIndex value: I32(14)
   static ::System::ExceptionArgument const startIndex;
 
-  /// @brief Field startSegment value: static_cast<int32_t>(0x23)
+  /// @brief Field startSegment value: I32(35)
   static ::System::ExceptionArgument const startSegment;
 
-  /// @brief Field state value: static_cast<int32_t>(0x28)
+  /// @brief Field state value: I32(40)
   static ::System::ExceptionArgument const state;
 
-  /// @brief Field task value: static_cast<int32_t>(0x26)
+  /// @brief Field task value: I32(38)
   static ::System::ExceptionArgument const task;
 
-  /// @brief Field text value: static_cast<int32_t>(0x1b)
+  /// @brief Field text value: I32(27)
   static ::System::ExceptionArgument const text;
 
-  /// @brief Field value value: static_cast<int32_t>(0xf)
+  /// @brief Field value value: I32(15)
   static ::System::ExceptionArgument const value;
 
-  /// @brief Field values value: static_cast<int32_t>(0x2e)
+  /// @brief Field values value: I32(46)
   static ::System::ExceptionArgument const values;
 
-  /// @brief Field view value: static_cast<int32_t>(0x16)
+  /// @brief Field view value: I32(22)
   static ::System::ExceptionArgument const view;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ExceptionArgument, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::ExceptionArgument, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ExceptionArgument, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ExceptionArgument, "System", "ExceptionArgument");

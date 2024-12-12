@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__Constraint_def.hpp"
 #include "System/Data/zzzz__DataKey_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UniqueConstraint)
@@ -45,11 +44,10 @@ class UniqueConstraint;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::UniqueConstraint);
-// Type: System.Data::UniqueConstraint
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Constraint, System.Data.DataKey
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::UniqueConstraint*
+// CS Name: System.Data.UniqueConstraint
 class CORDL_TYPE UniqueConstraint : public ::System::Data::Constraint {
 public:
   // Declarations
@@ -84,49 +82,49 @@ public:
   /// @brief Field _key, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) ::System::Data::DataKey _key;
 
-  /// @brief Method CanBeRemovedFromCollection, addr 0x412852c, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CanBeRemovedFromCollection, addr 0x4189840, size 0x16c, virtual true, abstract: false, final false
   inline bool CanBeRemovedFromCollection(::System::Data::ConstraintCollection* constraints, bool fThrowException);
 
-  /// @brief Method CanEnableConstraint, addr 0x4128698, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CanEnableConstraint, addr 0x41899ac, size 0x4c, virtual true, abstract: false, final false
   inline bool CanEnableConstraint();
 
-  /// @brief Method CheckCanAddToCollection, addr 0x4128528, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CheckCanAddToCollection, addr 0x418983c, size 0x4, virtual true, abstract: false, final false
   inline void CheckCanAddToCollection(::System::Data::ConstraintCollection* constraints);
 
-  /// @brief Method CheckConstraint, addr 0x4128944, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CheckConstraint, addr 0x4189c58, size 0xf8, virtual true, abstract: false, final false
   inline void CheckConstraint(::System::Data::DataRow* row, ::System::Data::DataRowAction action);
 
-  /// @brief Method CheckState, addr 0x4128510, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckState, addr 0x4189824, size 0xc, virtual true, abstract: false, final false
   inline void CheckState();
 
-  /// @brief Method Clone, addr 0x4128a50, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x4189d64, size 0x10, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination);
 
-  /// @brief Method Clone, addr 0x4128a60, size 0x550, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x4189d74, size 0x550, virtual true, abstract: false, final false
   inline ::System::Data::Constraint* Clone(::System::Data::DataSet* destination, bool ignorNSforTableLookup);
 
-  /// @brief Method Clone, addr 0x4128fb0, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x418a2c4, size 0x4b4, virtual false, abstract: false, final false
   inline ::System::Data::UniqueConstraint* Clone(::System::Data::DataTable* table);
 
-  /// @brief Method ConstraintIndexClear, addr 0x41284b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConstraintIndexClear, addr 0x41897cc, size 0x20, virtual false, abstract: false, final false
   inline void ConstraintIndexClear();
 
-  /// @brief Method ConstraintIndexInitialize, addr 0x41284d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ConstraintIndexInitialize, addr 0x41897ec, size 0x38, virtual false, abstract: false, final false
   inline void ConstraintIndexInitialize();
 
-  /// @brief Method ContainsColumn, addr 0x4128a44, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ContainsColumn, addr 0x4189d58, size 0xc, virtual true, abstract: false, final false
   inline bool ContainsColumn(::System::Data::DataColumn* column);
 
-  /// @brief Method Create, addr 0x41282d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x41895e8, size 0xec, virtual false, abstract: false, final false
   inline void Create(::StringW constraintName, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns);
 
-  /// @brief Method Equals, addr 0x41294b4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x418a7c8, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* key2);
 
-  /// @brief Method GetHashCode, addr 0x412956c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x418a880, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsConstraintViolated, addr 0x41286e4, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method IsConstraintViolated, addr 0x41899f8, size 0x260, virtual true, abstract: false, final false
   inline bool IsConstraintViolated();
 
   static inline ::System::Data::UniqueConstraint* New_ctor(::System::Data::DataColumn* column);
@@ -139,7 +137,7 @@ public:
 
   static inline ::System::Data::UniqueConstraint* New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, bool isPrimaryKey);
 
-  /// @brief Method NonVirtualCheckState, addr 0x412851c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method NonVirtualCheckState, addr 0x4189830, size 0xc, virtual false, abstract: false, final false
   inline void NonVirtualCheckState();
 
   constexpr bool const& __cordl_internal_get__bPrimaryKey() const;
@@ -150,9 +148,9 @@ public:
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__columnNames();
 
-  constexpr ::System::Data::Index*& __cordl_internal_get__constraintIndex();
+  constexpr ::System::Data::Index* const& __cordl_internal_get__constraintIndex() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::Index*> const& __cordl_internal_get__constraintIndex() const;
+  constexpr ::System::Data::Index*& __cordl_internal_get__constraintIndex();
 
   constexpr ::StringW const& __cordl_internal_get__constraintName() const;
 
@@ -172,43 +170,43 @@ public:
 
   constexpr void __cordl_internal_set__key(::System::Data::DataKey value);
 
-  /// @brief Method .ctor, addr 0x4128224, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189538, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method .ctor, addr 0x41283f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189708, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns);
 
-  /// @brief Method .ctor, addr 0x4128424, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189738, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> columnNames, bool isPrimaryKey);
 
-  /// @brief Method .ctor, addr 0x41283c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41896d4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns);
 
-  /// @brief Method .ctor, addr 0x4128460, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4189774, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, bool isPrimaryKey);
 
-  /// @brief Method get_ColumnNames, addr 0x41284a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnNames, addr 0x41897b8, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_ColumnNames();
 
-  /// @brief Method get_Columns, addr 0x4129464, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Columns, addr 0x418a778, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_Columns();
 
-  /// @brief Method get_ColumnsReference, addr 0x4128a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColumnsReference, addr 0x4189d50, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> get_ColumnsReference();
 
-  /// @brief Method get_ConstraintIndex, addr 0x41284b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConstraintIndex, addr 0x41897c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::Index* get_ConstraintIndex();
 
-  /// @brief Method get_IsPrimaryKey, addr 0x4129470, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrimaryKey, addr 0x418a784, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsPrimaryKey();
 
-  /// @brief Method get_Key, addr 0x41295c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x418a8d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataKey get_Key();
 
-  /// @brief Method get_Table, addr 0x41295cc, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Table, addr 0x418a8e0, size 0x34, virtual true, abstract: false, final false
   inline ::System::Data::DataTable* get_Table();
 
-  /// @brief Method set_InCollection, addr 0x4129574, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method set_InCollection, addr 0x418a888, size 0x50, virtual true, abstract: false, final false
   inline void set_InCollection(bool value);
 
 protected:
@@ -225,6 +223,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UniqueConstraint(UniqueConstraint const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11468 };
+
   /// @brief Field _key, offset: 0x38, size: 0x8, def value: None
   ::System::Data::DataKey ____key;
 
@@ -240,14 +241,9 @@ public:
   /// @brief Field _columnNames, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____columnNames;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11435 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::UniqueConstraint, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::UniqueConstraint, ____key) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::UniqueConstraint, ____constraintIndex) == 0x40, "Offset mismatch!");
@@ -257,6 +253,8 @@ static_assert(offsetof(::System::Data::UniqueConstraint, ____bPrimaryKey) == 0x4
 static_assert(offsetof(::System::Data::UniqueConstraint, ____constraintName) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::UniqueConstraint, ____columnNames) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::UniqueConstraint, 0x60>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::UniqueConstraint);

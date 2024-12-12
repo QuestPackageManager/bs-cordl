@@ -4,7 +4,6 @@
 #include "System/Text/RegularExpressions/zzzz__RegexWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexCode_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexNode_def.hpp"
@@ -16,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(::System::Span_1<int32_t>, ::System::Span_1<int32_t>)>(
     &::System::Text::RegularExpressions::RegexWriter::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x43c6bf8;
+  constexpr static std::size_t addrs = 0x4427f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexCode* (*)(::System::Text::RegularExpressions::RegexTree*)>(
     &::System::Text::RegularExpressions::RegexWriter::Write)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43c6d3c;
+  constexpr static std::size_t addrs = 0x4428050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)()>(
     &::System::Text::RegularExpressions::RegexWriter::Dispose)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43c72a8;
+  constexpr static std::size_t addrs = 0x44285bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexWriter>::get(),
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexCode* (
     ::System::Text::RegularExpressions::RegexWriter::*)(::System::Text::RegularExpressions::RegexTree*)>(&::System::Text::RegularExpressions::RegexWriter::RegexCodeFromRegexTree)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x43c6e20;
+  constexpr static std::size_t addrs = 0x4428134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::PatchJump)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43c7e64;
+  constexpr static std::size_t addrs = 0x4429178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43c7ec8;
+  constexpr static std::size_t addrs = 0x44291dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x43c72fc;
+  constexpr static std::size_t addrs = 0x4428610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::Emit)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x43c7f90;
+  constexpr static std::size_t addrs = 0x44292a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexWriter::*)(::StringW)>(
     &::System::Text::RegularExpressions::RegexWriter::StringCode)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x43c8120;
+  constexpr static std::size_t addrs = 0x4429434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexWriter::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexWriter::MapCapnum)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43c8268;
+  constexpr static std::size_t addrs = 0x442957c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexWriter::*)(
     int32_t, ::System::Text::RegularExpressions::RegexNode*, int32_t)>(&::System::Text::RegularExpressions::RegexWriter::EmitFragment)> {
   constexpr static std::size_t size = 0xa38;
-  constexpr static std::size_t addrs = 0x43c742c;
+  constexpr static std::size_t addrs = 0x4428740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,9 +248,9 @@ inline void System::Text::RegularExpressions::RegexWriter::EmitFragment(int32_t 
 }
 // Ctor Parameters [CppParam { name: "_emitted", ty: "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_intStack", ty:
 // "::System::Collections::Generic::ValueListBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stringHash", ty:
-// "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_stringTable", ty:
-// "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// "::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stringTable", ty:
+// "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_caps", ty: "::System::Collections::Hashtable*", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "_trackCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Text::RegularExpressions::RegexWriter::RegexWriter(::System::Collections::Generic::ValueListBuilder_1<int32_t> _emitted,
                                                                        ::System::Collections::Generic::ValueListBuilder_1<int32_t> _intStack,
                                                                        ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* _stringHash,

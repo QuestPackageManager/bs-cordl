@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoExperimentModel)
 namespace GlobalNamespace {
 class IExperimentData;
-}
-namespace GlobalNamespace {
-class IExperimentModel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -20,26 +18,25 @@ class NoExperimentModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoExperimentModel);
-// Type: ::NoExperimentModel
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IExperimentModel, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoExperimentModel*
+// CS Name: NoExperimentModel
 class CORDL_TYPE NoExperimentModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
 
-  /// @brief Method IsEmployee, addr 0x2679fa0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsEmployee, addr 0x26ae558, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest, addr 0x267a008, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsInTest, addr 0x26ae5c0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   static inline ::GlobalNamespace::NoExperimentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x267a070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ae628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentModel"
@@ -60,7 +57,7 @@ public:
   NoExperimentModel(NoExperimentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

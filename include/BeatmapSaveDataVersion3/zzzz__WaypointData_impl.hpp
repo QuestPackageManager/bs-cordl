@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4bf0;
+  constexpr static std::size_t addrs = 0x2706560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(), "get_line",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::WaypointData::*)()>(&::BeatmapSaveDataVersion3::WaypointData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4bf8;
+  constexpr static std::size_t addrs = 0x2706568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(), "get_layer",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::OffsetDirection (::BeatmapSaveDataVersion3::WaypointData::*)()>(
     &::BeatmapSaveDataVersion3::WaypointData::get_offsetDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4c00;
+  constexpr static std::size_t addrs = 0x2706570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::BeatmapSaveDataVersion3::WaypointData::*)(float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::OffsetDirection)>(&::BeatmapSaveDataVersion3::WaypointData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26d4c08;
+  constexpr static std::size_t addrs = 0x2706578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,9 +112,6 @@ inline ::BeatmapSaveDataCommon::OffsetDirection BeatmapSaveDataVersion3::Waypoin
                                                                              "get_offsetDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataCommon::OffsetDirection, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::WaypointData* BeatmapSaveDataVersion3::WaypointData::New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::WaypointData*>(beat, line, layer, offsetDirection));
-}
 inline void BeatmapSaveDataVersion3::WaypointData::_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::WaypointData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -122,6 +119,9 @@ inline void BeatmapSaveDataVersion3::WaypointData::_ctor(float_t beat, int32_t l
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::OffsetDirection>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, line, layer, offsetDirection);
+}
+inline ::BeatmapSaveDataVersion3::WaypointData* BeatmapSaveDataVersion3::WaypointData::New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::WaypointData*>(beat, line, layer, offsetDirection));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::WaypointData::WaypointData() {}

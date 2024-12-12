@@ -12,1323 +12,1323 @@
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ee30c;
+  constexpr static std::size_t addrs = 0x26215f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x25ee314;
+  constexpr static std::size_t addrs = 0x2621600;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v1Holder::__X962NamedCurves__Prime192v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v1Holder::X962NamedCurves_Prime192v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ee8d8;
+  constexpr static std::size_t addrs = 0x2621bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x25ee8e0;
+  constexpr static std::size_t addrs = 0x2621bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v2Holder::__X962NamedCurves__Prime192v2Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v2Holder::X962NamedCurves_Prime192v2Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eeb54;
+  constexpr static std::size_t addrs = 0x2621e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x25eeb5c;
+  constexpr static std::size_t addrs = 0x2621e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime192v3Holder::__X962NamedCurves__Prime192v3Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime192v3Holder::X962NamedCurves_Prime192v3Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eedd0;
+  constexpr static std::size_t addrs = 0x26220bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x25eedd8;
+  constexpr static std::size_t addrs = 0x26220c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v1Holder::__X962NamedCurves__Prime239v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v1Holder::X962NamedCurves_Prime239v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ef054;
+  constexpr static std::size_t addrs = 0x2622340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x25ef05c;
+  constexpr static std::size_t addrs = 0x2622348;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v2Holder::__X962NamedCurves__Prime239v2Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v2Holder::X962NamedCurves_Prime239v2Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ef2d8;
+  constexpr static std::size_t addrs = 0x26225c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x25ef2e0;
+  constexpr static std::size_t addrs = 0x26225cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime239v3Holder::__X962NamedCurves__Prime239v3Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime239v3Holder::X962NamedCurves_Prime239v3Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ef55c;
+  constexpr static std::size_t addrs = 0x2622848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x25ef564;
+  constexpr static std::size_t addrs = 0x2622850;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__Prime256v1Holder::__X962NamedCurves__Prime256v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_Prime256v1Holder::X962NamedCurves_Prime256v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ef7e0;
+  constexpr static std::size_t addrs = 0x2622acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x25ef7e8;
+  constexpr static std::size_t addrs = 0x2622ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v1Holder::__X962NamedCurves__C2pnb163v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v1Holder::X962NamedCurves_C2pnb163v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25efa40;
+  constexpr static std::size_t addrs = 0x2622d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x25efa48;
+  constexpr static std::size_t addrs = 0x2622d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v2Holder::__X962NamedCurves__C2pnb163v2Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v2Holder::X962NamedCurves_C2pnb163v2Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25efc54;
+  constexpr static std::size_t addrs = 0x2622f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x25efc5c;
+  constexpr static std::size_t addrs = 0x2622f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb163v3Holder::__X962NamedCurves__C2pnb163v3Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb163v3Holder::X962NamedCurves_C2pnb163v3Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25efe60;
+  constexpr static std::size_t addrs = 0x262314c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x25efe68;
+  constexpr static std::size_t addrs = 0x2623154;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb176w1Holder::__X962NamedCurves__C2pnb176w1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb176w1Holder::X962NamedCurves_C2pnb176w1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f0074;
+  constexpr static std::size_t addrs = 0x2623360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x25f007c;
+  constexpr static std::size_t addrs = 0x2623368;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v1Holder::__X962NamedCurves__C2tnb191v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v1Holder::X962NamedCurves_C2tnb191v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f02c8;
+  constexpr static std::size_t addrs = 0x26235b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f02d0;
+  constexpr static std::size_t addrs = 0x26235bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v2Holder::__X962NamedCurves__C2tnb191v2Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v2Holder::X962NamedCurves_C2tnb191v2Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f04d0;
+  constexpr static std::size_t addrs = 0x26237bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f04d8;
+  constexpr static std::size_t addrs = 0x26237c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb191v3Holder::__X962NamedCurves__C2tnb191v3Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb191v3Holder::X962NamedCurves_C2tnb191v3Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f06d8;
+  constexpr static std::size_t addrs = 0x26239c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x25f06e0;
+  constexpr static std::size_t addrs = 0x26239cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb208w1Holder::__X962NamedCurves__C2pnb208w1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb208w1Holder::X962NamedCurves_C2pnb208w1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f08d4;
+  constexpr static std::size_t addrs = 0x2623bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f08dc;
+  constexpr static std::size_t addrs = 0x2623bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v1Holder::__X962NamedCurves__C2tnb239v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v1Holder::X962NamedCurves_C2tnb239v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f0adc;
+  constexpr static std::size_t addrs = 0x2623dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f0ae4;
+  constexpr static std::size_t addrs = 0x2623dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v2Holder::__X962NamedCurves__C2tnb239v2Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v2Holder::X962NamedCurves_C2tnb239v2Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f0ce4;
+  constexpr static std::size_t addrs = 0x2623fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f0cec;
+  constexpr static std::size_t addrs = 0x2623fd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb239v3Holder::__X962NamedCurves__C2tnb239v3Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb239v3Holder::X962NamedCurves_C2tnb239v3Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f0eec;
+  constexpr static std::size_t addrs = 0x26241d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x25f0ef4;
+  constexpr static std::size_t addrs = 0x26241e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb272w1Holder::__X962NamedCurves__C2pnb272w1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb272w1Holder::X962NamedCurves_C2pnb272w1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f1100;
+  constexpr static std::size_t addrs = 0x26243ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x25f1108;
+  constexpr static std::size_t addrs = 0x26243f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb304w1Holder::__X962NamedCurves__C2pnb304w1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb304w1Holder::X962NamedCurves_C2pnb304w1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f1314;
+  constexpr static std::size_t addrs = 0x2624600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f131c;
+  constexpr static std::size_t addrs = 0x2624608;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb359v1Holder::__X962NamedCurves__C2tnb359v1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb359v1Holder::X962NamedCurves_C2tnb359v1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f151c;
+  constexpr static std::size_t addrs = 0x2624808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x25f1524;
+  constexpr static std::size_t addrs = 0x2624810;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2pnb368w1Holder::__X962NamedCurves__C2pnb368w1Holder() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder._ctor
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2pnb368w1Holder::X962NamedCurves_C2pnb368w1Holder() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::*)()>(
-    &::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::*)()>(
+    &::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f1730;
+  constexpr static std::size_t addrs = 0x2624a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder.CreateParameters
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder.CreateParameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (
-    ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::CreateParameters)> {
+    ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::CreateParameters)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25f1738;
+  constexpr static std::size_t addrs = 0x2624a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get(), 4));
     return ___internal_method;
   }
 };
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get>(
       std::forward<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>(value));
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::getStaticF_Instance() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Instance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>());
-}
-inline void Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::_ctor() {
+inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::CreateParameters() {
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::CreateParameters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X9::X9ECParameters*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder* Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X9::__X962NamedCurves__C2tnb431r1Holder::__X962NamedCurves__C2tnb431r1Holder() {}
+constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves_C2tnb431r1Holder::X962NamedCurves_C2tnb431r1Holder() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X9::X962NamedCurves._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X962NamedCurves::*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ed03c;
+  constexpr static std::size_t addrs = 0x2620328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>::get(), ".ctor",
@@ -1342,7 +1342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::StringW)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::ConfigureBasepoint)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x25ed044;
+  constexpr static std::size_t addrs = 0x2620330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1358,7 +1358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::ConfigureCurve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25ed24c;
+  constexpr static std::size_t addrs = 0x2620538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1372,7 +1372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves::FromHex)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x25ed250;
+  constexpr static std::size_t addrs = 0x262053c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1387,7 +1387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves::DefineCurve)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x25ed2e8;
+  constexpr static std::size_t addrs = 0x26205d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1404,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::GetByName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x25ede04;
+  constexpr static std::size_t addrs = 0x26210f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1419,7 +1419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::GetByOid)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x25edfd8;
+  constexpr static std::size_t addrs = 0x26212c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1434,7 +1434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::GetOid)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x25ede84;
+  constexpr static std::size_t addrs = 0x2621170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1449,7 +1449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::X9::X962NamedCurves::GetName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x25ee104;
+  constexpr static std::size_t addrs = 0x26213f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1463,7 +1463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Asn1::X9::X962NamedCurves::get_Names)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x25ee204;
+  constexpr static std::size_t addrs = 0x26214f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>::get(),
@@ -1494,9 +1494,6 @@ inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves::setStaticF_names(::Sys
 inline ::System::Collections::IDictionary* Org::BouncyCastle::Asn1::X9::X962NamedCurves::getStaticF_names() {
   return ::cordl_internals::getStaticField<::System::Collections::IDictionary*, "names",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>::get>();
-}
-inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves* Org::BouncyCastle::Asn1::X9::X962NamedCurves::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>());
 }
 inline void Org::BouncyCastle::Asn1::X9::X962NamedCurves::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>::get(), ".ctor",
@@ -1559,6 +1556,9 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X9::X962Name
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>::get(),
                                                                              "get_Names", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(nullptr, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X9::X962NamedCurves* Org::BouncyCastle::Asn1::X9::X962NamedCurves::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X9::X962NamedCurves*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X9::X962NamedCurves::X962NamedCurves() {}

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyAlgorithmTag_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpV3SignatureGenerator)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -39,11 +38,10 @@ class PgpV3SignatureGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpV3SignatureGenerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.HashAlgorithmTag, Org.BouncyCastle.Bcpg.PublicKeyAlgorithmTag, System.Object
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpV3SignatureGenerator*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpV3SignatureGenerator
 class CORDL_TYPE PgpV3SignatureGenerator : public ::System::Object {
 public:
   // Declarations
@@ -68,33 +66,33 @@ public:
   /// @brief Field signatureType, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
-  /// @brief Method Generate, addr 0x2518f44, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x254c230, size 0x3c8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignature* Generate();
 
-  /// @brief Method GenerateOnePassVersion, addr 0x2518e80, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GenerateOnePassVersion, addr 0x254c16c, size 0xc4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* GenerateOnePassVersion(bool isNested);
 
-  /// @brief Method InitSign, addr 0x2518724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitSign, addr 0x254ba10, size 0x8, virtual false, abstract: false, final false
   inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key);
 
-  /// @brief Method InitSign, addr 0x251872c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method InitSign, addr 0x254ba18, size 0x258, virtual false, abstract: false, final false
   inline void InitSign(int32_t sigType, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* key, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm,
                                                                                       ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method Update, addr 0x2518b44, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x254be30, size 0x1a4, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Update, addr 0x2518ce8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x254bfd4, size 0x198, virtual false, abstract: false, final false
   inline void Update(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method Update, addr 0x2518984, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x254bc70, size 0x14, virtual false, abstract: false, final false
   inline void Update(uint8_t b);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_dig();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_dig() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_dig() const;
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_dig();
 
   constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
 
@@ -108,13 +106,13 @@ public:
 
   constexpr uint8_t& __cordl_internal_get_lastb();
 
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* const& __cordl_internal_get_privKey() const;
+
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*& __cordl_internal_get_privKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*> const& __cordl_internal_get_privKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_sig() const;
 
   constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_sig();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_sig() const;
 
   constexpr int32_t const& __cordl_internal_get_signatureType() const;
 
@@ -134,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x251864c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254b938, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method doCanonicalUpdateByte, addr 0x2518998, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method doCanonicalUpdateByte, addr 0x254bc84, size 0x64, virtual false, abstract: false, final false
   inline void doCanonicalUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateByte, addr 0x25189fc, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method doUpdateByte, addr 0x254bce8, size 0x128, virtual false, abstract: false, final false
   inline void doUpdateByte(uint8_t b);
 
-  /// @brief Method doUpdateCRLF, addr 0x2518b24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method doUpdateCRLF, addr 0x254be10, size 0x20, virtual false, abstract: false, final false
   inline void doUpdateCRLF();
 
 protected:
@@ -159,6 +157,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PgpV3SignatureGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PgpV3SignatureGenerator(PgpV3SignatureGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1674 };
 
   /// @brief Field keyAlgorithm, offset: 0x10, size: 0x4, def value: None
   ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag ___keyAlgorithm;
@@ -181,14 +182,9 @@ public:
   /// @brief Field lastb, offset: 0x34, size: 0x1, def value: None
   uint8_t ___lastb;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1674 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, ___keyAlgorithm) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, ___hashAlgorithm) == 0x14, "Offset mismatch!");
@@ -202,6 +198,8 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerat
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, ___signatureType) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, ___lastb) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpV3SignatureGenerator);

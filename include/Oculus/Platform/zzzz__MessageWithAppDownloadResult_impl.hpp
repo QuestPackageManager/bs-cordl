@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f1a310;
+  constexpr static std::size_t addrs = 0x3f7a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::MessageWithAppDownloadResult::*)()>(
     &::Oculus::Platform::MessageWithAppDownloadResult::GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f1c3f8;
+  constexpr static std::size_t addrs = 0x3f7c4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (
     ::Oculus::Platform::MessageWithAppDownloadResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAppDownloadResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f1c434;
+  constexpr static std::size_t addrs = 0x3f7c4e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,9 +51,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::MessageWithAppDownloadResult* Oculus::Platform::MessageWithAppDownloadResult::New_ctor(::System::IntPtr c_message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithAppDownloadResult*>(c_message));
-}
 inline void Oculus::Platform::MessageWithAppDownloadResult::_ctor(::System::IntPtr c_message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadResult*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -69,6 +66,9 @@ inline ::Oculus::Platform::Models::AppDownloadResult* Oculus::Platform::MessageW
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadResult*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AppDownloadResult*, false>(this, ___internal_method, c_message);
+}
+inline ::Oculus::Platform::MessageWithAppDownloadResult* Oculus::Platform::MessageWithAppDownloadResult::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithAppDownloadResult*>(c_message));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithAppDownloadResult::MessageWithAppDownloadResult() {}

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/BindingId.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Zenject/zzzz__BindingId_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Zenject::BindingId._ctor
@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindingId::*)(::System::Type*, ::System::Object*)>(&::Zenject::BindingId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab58f4;
+  constexpr static std::size_t addrs = 0x4b1a204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::BindingId::*)()>(&::Zenject::BindingId::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac6558;
+  constexpr static std::size_t addrs = 0x4b2ae68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindingId>::get(), "get_Type",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindingId::*)(::System::Type*)>(&::Zenject::BindingId::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac6560;
+  constexpr static std::size_t addrs = 0x4b2ae70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Zenject::BindingId::*)()>(&::Zenject::BindingId::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac6568;
+  constexpr static std::size_t addrs = 0x4b2ae78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindingId>::get(), "get_Identifier",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindingId::*)(::System::Object*)>(&::Zenject::BindingId::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac6570;
+  constexpr static std::size_t addrs = 0x4b2ae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::BindingId::*)()>(&::Zenject::BindingId::ToString)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4ac6578;
+  constexpr static std::size_t addrs = 0x4b2ae88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::BindingId::*)()>(&::Zenject::BindingId::GetHashCode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ac6698;
+  constexpr static std::size_t addrs = 0x4b2afa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::BindingId::*)(::System::Object*)>(&::Zenject::BindingId::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4ac66f4;
+  constexpr static std::size_t addrs = 0x4b2b004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::BindingId::*)(::Zenject::BindingId)>(&::Zenject::BindingId::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4ac681c;
+  constexpr static std::size_t addrs = 0x4b2b12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Zenject::BindingId, ::Zenject::BindingId)>(&::Zenject::BindingId::op_Equality)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ac6778;
+  constexpr static std::size_t addrs = 0x4b2b088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Zenject::BindingId, ::Zenject::BindingId)>(&::Zenject::BindingId::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4ac6834;
+  constexpr static std::size_t addrs = 0x4b2b144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,14 +159,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::Zenject::BindingId>"
-constexpr Zenject::BindingId::operator ::System::IEquatable_1<::Zenject::BindingId>*() {
-  return static_cast<::System::IEquatable_1<::Zenject::BindingId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::Zenject::BindingId>"
-constexpr ::System::IEquatable_1<::Zenject::BindingId>* Zenject::BindingId::i___System__IEquatable_1___Zenject__BindingId_() {
-  return static_cast<::System::IEquatable_1<::Zenject::BindingId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void Zenject::BindingId::_ctor(::System::Type* type, ::System::Object* identifier) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindingId>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -231,8 +223,16 @@ inline bool Zenject::BindingId::op_Inequality(::Zenject::BindingId left, ::Zenje
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::BindingId>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-// Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "", def_value:
-// Some("nullptr") }]
+/// @brief Convert operator to "::System::IEquatable_1<::Zenject::BindingId>"
+constexpr Zenject::BindingId::operator ::System::IEquatable_1<::Zenject::BindingId>*() {
+  return static_cast<::System::IEquatable_1<::Zenject::BindingId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::Zenject::BindingId>"
+constexpr ::System::IEquatable_1<::Zenject::BindingId>* Zenject::BindingId::i___System__IEquatable_1___Zenject__BindingId_() {
+  return static_cast<::System::IEquatable_1<::Zenject::BindingId>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_identifier", ty: "::System::Object*", modifiers: "", def_value:
+// Some("{}") }]
 constexpr ::Zenject::BindingId::BindingId(::System::Type* _type, ::System::Object* _identifier) noexcept {
   this->_type = _type;
   this->_identifier = _identifier;

@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GroupedEnumerable_3)
 namespace System::Collections::Generic {
@@ -13,9 +15,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -32,13 +31,12 @@ template <typename TSource, typename TKey, typename TElement> class GroupedEnume
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::GroupedEnumerable_3);
-// Type: System.Linq::GroupedEnumerable`3
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
 // Is value type: false
-// CS Name: ::System.Linq::GroupedEnumerable`3<TSource,TKey,TElement>*
+// CS Name: System.Linq.GroupedEnumerable`3<TSource,TKey,TElement>
 class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:
   // Declarations
@@ -70,21 +68,21 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>* const& __cordl_internal_get_comparer() const;
+
   constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
+  constexpr ::System::Func_2<TSource, TElement>* const& __cordl_internal_get_elementSelector() const;
 
   constexpr ::System::Func_2<TSource, TElement>*& __cordl_internal_get_elementSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TElement>*> const& __cordl_internal_get_elementSelector() const;
+  constexpr ::System::Func_2<TSource, TKey>* const& __cordl_internal_get_keySelector() const;
 
   constexpr ::System::Func_2<TSource, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> const& __cordl_internal_get_keySelector() const;
+  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& __cordl_internal_get_source() const;
 
   constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& __cordl_internal_get_source();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSource>*> const& __cordl_internal_get_source() const;
 
   constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
@@ -119,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GroupedEnumerable_3(GroupedEnumerable_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13599 };
+
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TSource>* ___source;
 
@@ -130,9 +131,6 @@ public:
 
   /// @brief Field comparer, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ___comparer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::LocalDefinition, ::System::Linq::Expressions::Interpreter::LocalDefinition, int32_t)>(
     &::System::Linq::Expressions::Interpreter::ArrayByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x40830ac;
+  constexpr static std::size_t addrs = 0x40e43c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ArrayByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::ArrayByRefUpdater::Update)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x40830fc;
+  constexpr static std::size_t addrs = 0x40e4410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(
     &::System::Linq::Expressions::Interpreter::ArrayByRefUpdater::UndefineTemps)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4083208;
+  constexpr static std::size_t addrs = 0x40e451c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,11 +83,6 @@ constexpr void System::Linq::Expressions::Interpreter::ArrayByRefUpdater::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-inline ::System::Linq::Expressions::Interpreter::ArrayByRefUpdater* System::Linq::Expressions::Interpreter::ArrayByRefUpdater::New_ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array,
-                                                                                                                                        ::System::Linq::Expressions::Interpreter::LocalDefinition index,
-                                                                                                                                        int32_t argumentIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ArrayByRefUpdater*>(array, index, argumentIndex));
-}
 inline void System::Linq::Expressions::Interpreter::ArrayByRefUpdater::_ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array,
                                                                              ::System::Linq::Expressions::Interpreter::LocalDefinition index, int32_t argumentIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,6 +104,11 @@ inline void System::Linq::Expressions::Interpreter::ArrayByRefUpdater::UndefineT
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ArrayByRefUpdater*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instructions, locals);
+}
+inline ::System::Linq::Expressions::Interpreter::ArrayByRefUpdater* System::Linq::Expressions::Interpreter::ArrayByRefUpdater::New_ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array,
+                                                                                                                                        ::System::Linq::Expressions::Interpreter::LocalDefinition index,
+                                                                                                                                        int32_t argumentIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ArrayByRefUpdater*>(array, index, argumentIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ArrayByRefUpdater::ArrayByRefUpdater() {}

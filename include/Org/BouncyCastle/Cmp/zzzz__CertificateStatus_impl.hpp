@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateStatus::*)(
     ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*, ::Org::BouncyCastle::Asn1::Cmp::CertStatus*)>(&::Org::BouncyCastle::Cmp::CertificateStatus::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2616bc8;
+  constexpr static std::size_t addrs = 0x2649eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::get_PkiStatusInfo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2617334;
+  constexpr static std::size_t addrs = 0x264a620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Cmp::CertificateStatus::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::get_CertRequestId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2617354;
+  constexpr static std::size_t addrs = 0x264a640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::CertificateStatus::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Cmp::CertificateStatus::IsVerified)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2617380;
+  constexpr static std::size_t addrs = 0x264a66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,8 +71,7 @@ constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& Org
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestAlgFinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const&
-Org::BouncyCastle::Cmp::CertificateStatus::__cordl_internal_get_digestAlgFinder() const {
+constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* const& Org::BouncyCastle::Cmp::CertificateStatus::__cordl_internal_get_digestAlgFinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digestAlgFinder;
 }
@@ -84,7 +83,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus*& Org::BouncyCastle::Cmp::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certStatus;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertStatus*> const& Org::BouncyCastle::Cmp::CertificateStatus::__cordl_internal_get_certStatus() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CertStatus* const& Org::BouncyCastle::Cmp::CertificateStatus::__cordl_internal_get_certStatus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certStatus;
 }
@@ -100,10 +99,6 @@ inline void Org::BouncyCastle::Cmp::CertificateStatus::setStaticF_sigAlgFinder(:
 inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* Org::BouncyCastle::Cmp::CertificateStatus::getStaticF_sigAlgFinder() {
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder*, "sigAlgFinder",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get>();
-}
-inline ::Org::BouncyCastle::Cmp::CertificateStatus* Org::BouncyCastle::Cmp::CertificateStatus::New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
-                                                                                                        ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateStatus*>(digestAlgFinder, certStatus));
 }
 inline void Org::BouncyCastle::Cmp::CertificateStatus::_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
                                                              ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus) {
@@ -128,6 +123,10 @@ inline bool Org::BouncyCastle::Cmp::CertificateStatus::IsVerified(::Org::BouncyC
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::CertificateStatus*>::get(), "IsVerified", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, cert);
+}
+inline ::Org::BouncyCastle::Cmp::CertificateStatus* Org::BouncyCastle::Cmp::CertificateStatus::New_ctor(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder,
+                                                                                                        ::Org::BouncyCastle::Asn1::Cmp::CertStatus* certStatus) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cmp::CertificateStatus*>(digestAlgFinder, certStatus));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cmp::CertificateStatus::CertificateStatus() {}

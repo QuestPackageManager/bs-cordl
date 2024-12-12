@@ -7,20 +7,20 @@
 #include "UnityEngine/UIElements/UIR/zzzz__BitmapAllocator32_def.hpp"
 // Ctor Parameters [CppParam { name: "x", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "freeSlots", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page::__BitmapAllocator32__Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept {
+constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32_Page::BitmapAllocator32_Page(uint16_t x, uint16_t y, int32_t freeSlots) noexcept {
   this->x = x;
   this->y = y;
   this->freeSlots = freeSlots;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page::__BitmapAllocator32__Page() {}
+constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32_Page::BitmapAllocator32_Page() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::BitmapAllocator32.Construct
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::Construct)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x494a200;
+  constexpr static std::size_t addrs = 0x49aeb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(uint16_t, uint16_t)>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::ForceFirstAlloc)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x494a30c;
+  constexpr static std::size_t addrs = 0x49aec1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::BMPAlloc (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(
     ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*)>(&::UnityEngine::UIElements::UIR::BitmapAllocator32::Allocate)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x494a4cc;
+  constexpr static std::size_t addrs = 0x49aeddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::Free)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x494a9bc;
+  constexpr static std::size_t addrs = 0x49af2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)()>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::get_entryWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494ab00;
+  constexpr static std::size_t addrs = 0x49af410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BitmapAllocator32>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)()>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::get_entryHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494ab08;
+  constexpr static std::size_t addrs = 0x49af418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BitmapAllocator32>::get(),
@@ -106,16 +106,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::BitmapAllocator32.GetAllocPageAtlasLocation
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(int32_t, ByRef<uint16_t>, ByRef<uint16_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BitmapAllocator32::*)(int32_t, ::ByRef<uint16_t>, ::ByRef<uint16_t>)>(
     &::UnityEngine::UIElements::UIR::BitmapAllocator32::GetAllocPageAtlasLocation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x494ab10;
+  constexpr static std::size_t addrs = 0x49af420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BitmapAllocator32>::get(), "GetAllocPageAtlasLocation", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint16_t>>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint16_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint16_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint32_t)>(&::UnityEngine::UIElements::UIR::BitmapAllocator32::CountTrailingZeroes)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x494a958;
+  constexpr static std::size_t addrs = 0x49af268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +133,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @param entryWidth: int32_t (default: static_cast<int32_t>(0x1))
-/// @param entryHeight: int32_t (default: static_cast<int32_t>(0x1))
 inline void UnityEngine::UIElements::UIR::BitmapAllocator32::Construct(int32_t pageHeight, int32_t entryWidth, int32_t entryHeight) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BitmapAllocator32>::get(), "Construct", std::span<Il2CppClass const* const, 0>(),
@@ -170,11 +168,11 @@ inline int32_t UnityEngine::UIElements::UIR::BitmapAllocator32::get_entryHeight(
                                                                              "get_entryHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::BitmapAllocator32::GetAllocPageAtlasLocation(int32_t page, ByRef<uint16_t> x, ByRef<uint16_t> y) {
+inline void UnityEngine::UIElements::UIR::BitmapAllocator32::GetAllocPageAtlasLocation(int32_t page, ::ByRef<uint16_t> x, ::ByRef<uint16_t> y) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BitmapAllocator32>::get(), "GetAllocPageAtlasLocation", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint16_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<uint16_t>>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint16_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint16_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, page, x, y);
 }
 inline uint8_t UnityEngine::UIElements::UIR::BitmapAllocator32::CountTrailingZeroes(uint32_t val) {
@@ -184,11 +182,11 @@ inline uint8_t UnityEngine::UIElements::UIR::BitmapAllocator32::CountTrailingZer
   return ::cordl_internals::RunMethodRethrow<uint8_t, false>(nullptr, ___internal_method, val);
 }
 // Ctor Parameters [CppParam { name: "m_PageHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Pages", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_AllocMap", ty:
-// "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocMap", ty:
+// "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_EntryWidth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_EntryHeight", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::UIR::BitmapAllocator32::BitmapAllocator32(int32_t m_PageHeight,
-                                                                               ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__BitmapAllocator32__Page>* m_Pages,
+                                                                               ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::BitmapAllocator32_Page>* m_Pages,
                                                                                ::System::Collections::Generic::List_1<uint32_t>* m_AllocMap, int32_t m_EntryWidth, int32_t m_EntryHeight) noexcept {
   this->m_PageHeight = m_PageHeight;
   this->m_Pages = m_Pages;

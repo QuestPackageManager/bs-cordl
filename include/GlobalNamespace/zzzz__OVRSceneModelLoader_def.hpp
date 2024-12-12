@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -12,16 +15,10 @@ namespace GlobalNamespace {
 class OVRSceneManager;
 }
 namespace GlobalNamespace {
-class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+class OVRSceneModelLoader__AttemptToLoadSceneModel_d__7;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -31,17 +28,16 @@ namespace GlobalNamespace {
 class OVRSceneModelLoader;
 }
 namespace GlobalNamespace {
-class __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
+class OVRSceneModelLoader__AttemptToLoadSceneModel_d__7;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRSceneModelLoader);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7);
-// Type: ::<AttemptToLoadSceneModel>d__7
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSceneModelLoader::<AttemptToLoadSceneModel>d__7*
-class CORDL_TYPE __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7 : public ::System::Object {
+// CS Name: OVRSceneModelLoader/<AttemptToLoadSceneModel>d__7
+class CORDL_TYPE OVRSceneModelLoader__AttemptToLoadSceneModel_d__7 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -69,30 +65,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3facec8, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x400cf74, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3facf60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x400d00c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3facf68, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x400d014, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3facfa0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x400d04c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3facec4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x400cf70, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneModelLoader> const& __cordl_internal_get___4__this() const;
 
@@ -110,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceReminder_5__2(float_t value);
 
-  /// @brief Method .ctor, addr 0x3faca44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400caf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -125,16 +121,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7();
+  constexpr OVRSceneModelLoader__AttemptToLoadSceneModel_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneModelLoader__AttemptToLoadSceneModel_d__7", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7(__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7&&) = delete;
+  OVRSceneModelLoader__AttemptToLoadSceneModel_d__7(OVRSceneModelLoader__AttemptToLoadSceneModel_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRSceneModelLoader__AttemptToLoadSceneModel_d__7", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7(__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7 const&) = delete;
+  OVRSceneModelLoader__AttemptToLoadSceneModel_d__7(OVRSceneModelLoader__AttemptToLoadSceneModel_d__7 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8281 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -148,32 +147,28 @@ public:
   /// @brief Field <timeSinceReminder>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____timeSinceReminder_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8256 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7, ____timeSinceReminder_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7, ____timeSinceReminder_5__2) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRSceneModelLoader
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSceneModelLoader*
+// CS Name: OVRSceneModelLoader
 class CORDL_TYPE OVRSceneModelLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _AttemptToLoadSceneModel_d__7 = ::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
+  using _AttemptToLoadSceneModel_d__7 = ::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7;
 
   __declspec(property(get = get_SceneManager, put = set_SceneManager)) ::UnityW<::GlobalNamespace::OVRSceneManager> SceneManager;
 
@@ -184,33 +179,33 @@ public:
   /// @brief Field _sceneCaptureRequested, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__sceneCaptureRequested, put = __cordl_internal_set__sceneCaptureRequested)) bool _sceneCaptureRequested;
 
-  /// @brief Method AttemptToLoadSceneModel, addr 0x3fac9e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AttemptToLoadSceneModel, addr 0x400ca90, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AttemptToLoadSceneModel();
 
-  /// @brief Method LoadSceneModel, addr 0x3faca70, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneModel, addr 0x400cb1c, size 0xf4, virtual false, abstract: false, final false
   inline void LoadSceneModel();
 
   static inline ::GlobalNamespace::OVRSceneModelLoader* New_ctor();
 
-  /// @brief Method OnNewSceneModelAvailable, addr 0x3facce8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnNewSceneModelAvailable, addr 0x400cd94, size 0x9c, virtual true, abstract: false, final false
   inline void OnNewSceneModelAvailable();
 
-  /// @brief Method OnNoSceneModelToLoad, addr 0x3facc00, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method OnNoSceneModelToLoad, addr 0x400ccac, size 0xe8, virtual true, abstract: false, final false
   inline void OnNoSceneModelToLoad();
 
-  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x3facd84, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnSceneCaptureReturnedWithoutError, addr 0x400ce30, size 0x9c, virtual true, abstract: false, final false
   inline void OnSceneCaptureReturnedWithoutError();
 
-  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x3facb64, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnSceneModelLoadedSuccessfully, addr 0x400cc10, size 0x9c, virtual true, abstract: false, final false
   inline void OnSceneModelLoadedSuccessfully();
 
-  /// @brief Method OnStart, addr 0x3faca6c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnStart, addr 0x400cb18, size 0x4, virtual true, abstract: false, final false
   inline void OnStart();
 
-  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x3face20, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnUnexpectedErrorWithSceneCapture, addr 0x400cecc, size 0x9c, virtual true, abstract: false, final false
   inline void OnUnexpectedErrorWithSceneCapture();
 
-  /// @brief Method Start, addr 0x3fac760, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x400c80c, size 0x284, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__SceneManager_k__BackingField() const;
@@ -225,13 +220,13 @@ public:
 
   constexpr void __cordl_internal_set__sceneCaptureRequested(bool value);
 
-  /// @brief Method .ctor, addr 0x3facebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x400cf68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SceneManager, addr 0x3fac750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SceneManager, addr 0x400c7fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRSceneManager> get_SceneManager();
 
-  /// @brief Method set_SceneManager, addr 0x3fac758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SceneManager, addr 0x400c804, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneManager(::GlobalNamespace::OVRSceneManager* value);
 
 protected:
@@ -248,29 +243,29 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneModelLoader(OVRSceneModelLoader const&) = delete;
 
+  /// @brief Field RetryingReminderDelay offset 0xffffffff size 0x4
+  static constexpr float_t RetryingReminderDelay{ static_cast<float_t>(10.0f) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8282 };
+
   /// @brief Field <SceneManager>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneManager> ____SceneManager_k__BackingField;
 
   /// @brief Field _sceneCaptureRequested, offset: 0x28, size: 0x1, def value: None
   bool ____sceneCaptureRequested;
 
-  /// @brief Field RetryingReminderDelay offset 0xffffffff size 0x4
-  static constexpr float_t RetryingReminderDelay{ 10.0 };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8257 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneModelLoader, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader, ____SceneManager_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRSceneModelLoader, ____sceneCaptureRequested) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneModelLoader, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSceneModelLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneModelLoader*, "", "OVRSceneModelLoader");
-NEED_NO_BOX(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7*, "", "OVRSceneModelLoader/<AttemptToLoadSceneModel>d__7");
+NEED_NO_BOX(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSceneModelLoader__AttemptToLoadSceneModel_d__7*, "", "OVRSceneModelLoader/<AttemptToLoadSceneModel>d__7");

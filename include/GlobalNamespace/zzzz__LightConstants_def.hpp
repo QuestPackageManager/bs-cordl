@@ -9,33 +9,32 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightConstants)
 namespace GlobalNamespace {
-struct __LightConstants__BakeId;
+struct LightConstants_BakeId;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __LightConstants__BakeId;
+struct LightConstants_BakeId;
 }
 namespace GlobalNamespace {
 class LightConstants;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__LightConstants__BakeId);
+MARK_VAL_T(::GlobalNamespace::LightConstants_BakeId);
 MARK_REF_PTR_T(::GlobalNamespace::LightConstants);
-// Type: ::BakeId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LightConstants::BakeId
-struct CORDL_TYPE __LightConstants__BakeId {
+// CS Name: LightConstants/BakeId
+struct CORDL_TYPE LightConstants_BakeId {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LightConstants__BakeId_Unwrapped
-  enum struct ____LightConstants__BakeId_Unwrapped : int32_t {
+  /// @brief Nested struct __LightConstants_BakeId_Unwrapped
+  enum struct __LightConstants_BakeId_Unwrapped : int32_t {
     __E_A = static_cast<int32_t>(0x1),
     __E_B = static_cast<int32_t>(0x2),
     __E_C = static_cast<int32_t>(0x3),
@@ -45,8 +44,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LightConstants__BakeId_Unwrapped() const noexcept {
-    return static_cast<____LightConstants__BakeId_Unwrapped>(this->value__);
+  constexpr operator __LightConstants_BakeId_Unwrapped() const noexcept {
+    return static_cast<__LightConstants_BakeId_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -56,71 +55,70 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LightConstants__BakeId();
+  constexpr LightConstants_BakeId();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LightConstants__BakeId(int32_t value__) noexcept;
+  constexpr LightConstants_BakeId(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field A value: I32(1)
+  static ::GlobalNamespace::LightConstants_BakeId const A;
 
-  /// @brief Field A value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__LightConstants__BakeId const A;
+  /// @brief Field B value: I32(2)
+  static ::GlobalNamespace::LightConstants_BakeId const B;
 
-  /// @brief Field B value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__LightConstants__BakeId const B;
+  /// @brief Field C value: I32(3)
+  static ::GlobalNamespace::LightConstants_BakeId const C;
 
-  /// @brief Field C value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__LightConstants__BakeId const C;
+  /// @brief Field D value: I32(4)
+  static ::GlobalNamespace::LightConstants_BakeId const D;
 
-  /// @brief Field D value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__LightConstants__BakeId const D;
+  /// @brief Field E value: I32(5)
+  static ::GlobalNamespace::LightConstants_BakeId const E;
 
-  /// @brief Field E value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__LightConstants__BakeId const E;
-
-  /// @brief Field F value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__LightConstants__BakeId const F;
+  /// @brief Field F value: I32(6)
+  static ::GlobalNamespace::LightConstants_BakeId const F;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16313 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightConstants__BakeId, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightConstants_BakeId, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LightConstants__BakeId, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightConstants_BakeId, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::LightConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightConstants*
+// CS Name: LightConstants
 class CORDL_TYPE LightConstants : public ::System::Object {
 public:
   // Declarations
-  using BakeId = ::GlobalNamespace::__LightConstants__BakeId;
+  using BakeId = ::GlobalNamespace::LightConstants_BakeId;
 
   /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* allBakeIds;
+  __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* allBakeIds;
 
-  /// @brief Method GetComputeFieldPropertyId, addr 0x398bc80, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetComputeFieldPropertyId, addr 0x39e2650, size 0x50, virtual false, abstract: false, final false
   static inline int32_t GetComputeFieldPropertyId(::StringW fieldName);
 
-  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x398bbd8, size 0xa8, virtual false, abstract: false, final false
-  static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x39e25a8, size 0xa8, virtual false, abstract: false, final false
+  static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
-  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x398bb30, size 0xa8, virtual false, abstract: false, final false
-  static inline int32_t GetLightmapLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
+  /// @brief Method GetLightmapLightBakeIdPropertyId, addr 0x39e2500, size 0xa8, virtual false, abstract: false, final false
+  static inline int32_t GetLightmapLightBakeIdPropertyId(::GlobalNamespace::LightConstants_BakeId bakeId);
 
-  static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* getStaticF_allBakeIds();
+  static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* getStaticF_allBakeIds();
 
-  static inline void setStaticF_allBakeIds(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* value);
+  static inline void setStaticF_allBakeIds(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightConstants_BakeId>* value);
 
 protected:
   // Ctor Parameters []
@@ -137,7 +135,7 @@ public:
   LightConstants(LightConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16314 };
 
   /// @brief Field kBaseLightId offset 0xffffffff size 0x4
   static constexpr int32_t kBaseLightId{ static_cast<int32_t>(0x19) };
@@ -154,6 +152,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightConstants, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LightConstants__BakeId, "", "LightConstants/BakeId");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightConstants_BakeId, "", "LightConstants/BakeId");
 NEED_NO_BOX(::GlobalNamespace::LightConstants);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightConstants*, "", "LightConstants");

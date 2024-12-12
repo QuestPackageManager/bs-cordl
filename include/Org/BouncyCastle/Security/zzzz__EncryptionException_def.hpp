@@ -15,11 +15,10 @@ class EncryptionException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::EncryptionException);
-// Type: Org.BouncyCastle.Security::EncryptionException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security::EncryptionException*
+// CS Name: Org.BouncyCastle.Security.EncryptionException
 class CORDL_TYPE EncryptionException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Security::EncryptionException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2519e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254d114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2519e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254d11c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

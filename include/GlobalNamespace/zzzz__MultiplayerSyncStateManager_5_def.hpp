@@ -21,16 +21,16 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
+struct MultiplayerSessionManager_MessageType;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class MultiplayerSyncStateManager_5___c;
+}
+namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
-}
-namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -43,29 +43,27 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class MultiplayerSyncStateManager_5;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class MultiplayerSyncStateManager_5___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncStateManager_5);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__MultiplayerSyncStateManager_5____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncStateManager_5___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// CS Name: ::MultiplayerSyncStateManager`5::<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
-class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object {
+// CS Name: MultiplayerSyncStateManager`5/<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>
+class CORDL_TYPE MultiplayerSyncStateManager_5___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* __9;
 
   /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* __9__37_0;
+  __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* __9__37_0;
 
-  static inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* New_ctor();
 
   /// @brief Method <HandlePlayerConnected>b__37_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t _HandlePlayerConnected_b__37_0(::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* s);
@@ -73,46 +71,45 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* getStaticF___9();
+  static inline ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* getStaticF___9();
 
   static inline ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* getStaticF___9__37_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* value);
+  static inline void setStaticF___9(::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* value);
 
   static inline void setStaticF___9__37_0(::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerSyncStateManager_5____c();
+  constexpr MultiplayerSyncStateManager_5___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSyncStateManager_5____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncStateManager_5___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerSyncStateManager_5____c(__MultiplayerSyncStateManager_5____c&&) = delete;
+  MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSyncStateManager_5____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncStateManager_5___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerSyncStateManager_5____c(__MultiplayerSyncStateManager_5____c const&) = delete;
+  MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17349 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::MultiplayerSyncStateManager`5
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// CS Name: ::MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
+// CS Name: MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>
 class CORDL_TYPE MultiplayerSyncStateManager_5 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>;
+  using __c = ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>;
 
   /// @brief Field _connectedPlayerStates, offset 0x30, size 0x8
   __declspec(property(
@@ -133,7 +130,7 @@ public:
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
-  __declspec(property(get = get_deltaMessageType)) ::GlobalNamespace::__MultiplayerSessionManager__MessageType deltaMessageType;
+  __declspec(property(get = get_deltaMessageType)) ::GlobalNamespace::MultiplayerSessionManager_MessageType deltaMessageType;
 
   __declspec(property(get = get_deltaSerializablePool)) ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* deltaSerializablePool;
 
@@ -147,7 +144,7 @@ public:
 
   __declspec(property(get = get_localState)) ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
 
-  __declspec(property(get = get_messageType)) ::GlobalNamespace::__MultiplayerSessionManager__MessageType messageType;
+  __declspec(property(get = get_messageType)) ::GlobalNamespace::MultiplayerSessionManager_MessageType messageType;
 
   __declspec(property(get = get_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
@@ -181,7 +178,7 @@ public:
   /// @brief Method HandleSyncPacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleSyncPacket(TSerializable packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method Interpolate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Interpolate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState Interpolate(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
 
   /// @brief Method LateUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -201,23 +198,21 @@ public:
   /// @brief Method TryCreateLocalState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void TryCreateLocalState();
 
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* const& __cordl_internal_get__connectedPlayerStates() const;
+
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __cordl_internal_get__connectedPlayerStates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
-  __cordl_internal_get__connectedPlayerStates() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* const& __cordl_internal_get__disconnectedPlayerStates() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __cordl_internal_get__disconnectedPlayerStates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
-  __cordl_internal_get__disconnectedPlayerStates() const;
+  constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* const& __cordl_internal_get__localState() const;
 
   constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*& __cordl_internal_get__localState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*> const& __cordl_internal_get__localState() const;
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
   constexpr void __cordl_internal_set__connectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
 
@@ -233,37 +228,37 @@ public:
   /// @brief Method get_connectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_deltaMessageType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
+  /// @brief Method get_deltaMessageType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
 
-  /// @brief Method get_deltaSerializablePool, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_deltaSerializablePool, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* get_deltaSerializablePool();
 
-  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_deltaUpdateFrequencyMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();
 
   /// @brief Method get_disconnectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_disconnectedPlayerCount();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_fullStateUpdateFrequencyMs();
 
-  /// @brief Method get_localBufferSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_localBufferSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_localBufferSize();
 
   /// @brief Method get_localState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState();
 
-  /// @brief Method get_messageType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
+  /// @brief Method get_messageType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
 
   /// @brief Method get_multiplayerSessionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_remoteBufferSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_remoteBufferSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_serializablePool, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<TSerializable>* get_serializablePool();
 
   /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -283,6 +278,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17350 };
+
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
@@ -295,12 +293,9 @@ public:
   /// @brief Field _disconnectedPlayerStates, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* ____disconnectedPlayerStates;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MultiplayerSyncStateManager_5, "", "MultiplayerSyncStateManager`5");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__MultiplayerSyncStateManager_5____c, "", "MultiplayerSyncStateManager`5/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MultiplayerSyncStateManager_5___c, "", "MultiplayerSyncStateManager`5/<>c");

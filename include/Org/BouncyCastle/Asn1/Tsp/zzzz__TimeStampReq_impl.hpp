@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24c52e4;
+  constexpr static std::size_t addrs = 0x24f85d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::_ctor)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x24c5388;
+  constexpr static std::size_t addrs = 0x24f8674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Tsp::MessageImprint*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerBoolean*,
     ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x24c56cc;
+  constexpr static std::size_t addrs = 0x24f89b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5768;
+  constexpr static std::size_t addrs = 0x24f8a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Tsp::MessageImprint* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_MessageImprint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5770;
+  constexpr static std::size_t addrs = 0x24f8a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_ReqPolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5778;
+  constexpr static std::size_t addrs = 0x24f8a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_Nonce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5780;
+  constexpr static std::size_t addrs = 0x24f8a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBoolean* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_CertReq)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5788;
+  constexpr static std::size_t addrs = 0x24f8a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::get_Extensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c5790;
+  constexpr static std::size_t addrs = 0x24f8a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::*)()>(
     &::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x24c5798;
+  constexpr static std::size_t addrs = 0x24f8a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_version() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
@@ -175,7 +175,7 @@ constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageImprint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::MessageImprint*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_messageImprint() const {
+constexpr ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_messageImprint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageImprint;
 }
@@ -187,7 +187,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaPolicy;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_tsaPolicy() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_tsaPolicy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaPolicy;
 }
@@ -199,7 +199,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonce;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_nonce() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_nonce() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nonce;
 }
@@ -211,7 +211,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& Org::BouncyCastle::Asn1::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certReq;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_certReq() const {
+constexpr ::Org::BouncyCastle::Asn1::DerBoolean* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_certReq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certReq;
 }
@@ -223,7 +223,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::A
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_extensions() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& Org::BouncyCastle::Asn1::Tsp::TimeStampReq::__cordl_internal_get_extensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
@@ -237,20 +237,11 @@ inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* Org::BouncyCastle::Asn1::Ts
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* Org::BouncyCastle::Asn1::Tsp::TimeStampReq::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Tsp::TimeStampReq::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* Org::BouncyCastle::Asn1::Tsp::TimeStampReq::New_ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint,
-                                                                                                          ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy,
-                                                                                                          ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::DerBoolean* certReq,
-                                                                                                          ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>(messageImprint, tsaPolicy, nonce, certReq, extensions));
 }
 inline void Org::BouncyCastle::Asn1::Tsp::TimeStampReq::_ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy,
                                                               ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::DerBoolean* certReq,
@@ -298,6 +289,15 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Tsp::Time
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* Org::BouncyCastle::Asn1::Tsp::TimeStampReq::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* Org::BouncyCastle::Asn1::Tsp::TimeStampReq::New_ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint,
+                                                                                                          ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy,
+                                                                                                          ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::DerBoolean* certReq,
+                                                                                                          ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*>(messageImprint, tsaPolicy, nonce, certReq, extensions));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq::TimeStampReq() {}

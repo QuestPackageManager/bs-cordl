@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockRemoteCatalogLoader)
-namespace BGLib::MetaRemoteAssets {
-class IRemoteCatalogLoader;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -20,23 +18,22 @@ class MockRemoteCatalogLoader;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader);
-// Type: BGLib.MetaRemoteAssets::MockRemoteCatalogLoader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.MetaRemoteAssets.IRemoteCatalogLoader, System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
-// CS Name: ::BGLib.MetaRemoteAssets::MockRemoteCatalogLoader*
+// CS Name: BGLib.MetaRemoteAssets.MockRemoteCatalogLoader
 class CORDL_TYPE MockRemoteCatalogLoader : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x2276c68, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x22a95c4, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2276cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22a962c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -57,7 +54,7 @@ public:
   MockRemoteCatalogLoader(MockRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

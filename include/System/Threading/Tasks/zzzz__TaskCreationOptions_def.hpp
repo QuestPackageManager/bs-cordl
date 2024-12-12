@@ -12,11 +12,10 @@ struct TaskCreationOptions;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::Tasks::TaskCreationOptions);
-// Type: System.Threading.Tasks::TaskCreationOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
-// CS Name: ::System.Threading.Tasks::TaskCreationOptions
+// CS Name: System.Threading.Tasks.TaskCreationOptions
 struct CORDL_TYPE TaskCreationOptions {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TaskCreationOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AttachedToParent value: static_cast<int32_t>(0x4)
+  /// @brief Field AttachedToParent value: I32(4)
   static ::System::Threading::Tasks::TaskCreationOptions const AttachedToParent;
 
-  /// @brief Field DenyChildAttach value: static_cast<int32_t>(0x8)
+  /// @brief Field DenyChildAttach value: I32(8)
   static ::System::Threading::Tasks::TaskCreationOptions const DenyChildAttach;
 
-  /// @brief Field HideScheduler value: static_cast<int32_t>(0x10)
+  /// @brief Field HideScheduler value: I32(16)
   static ::System::Threading::Tasks::TaskCreationOptions const HideScheduler;
 
-  /// @brief Field LongRunning value: static_cast<int32_t>(0x2)
+  /// @brief Field LongRunning value: I32(2)
   static ::System::Threading::Tasks::TaskCreationOptions const LongRunning;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Threading::Tasks::TaskCreationOptions const None;
 
-  /// @brief Field PreferFairness value: static_cast<int32_t>(0x1)
+  /// @brief Field PreferFairness value: I32(1)
   static ::System::Threading::Tasks::TaskCreationOptions const PreferFairness;
 
-  /// @brief Field RunContinuationsAsynchronously value: static_cast<int32_t>(0x40)
+  /// @brief Field RunContinuationsAsynchronously value: I32(64)
   static ::System::Threading::Tasks::TaskCreationOptions const RunContinuationsAsynchronously;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskCreationOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::Tasks::TaskCreationOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskCreationOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskCreationOptions, "System.Threading.Tasks", "TaskCreationOptions");

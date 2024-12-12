@@ -13,50 +13,48 @@ namespace System {
 class Object;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __LessThanOrEqualInstruction__LessThanOrEqualUInt16;
+namespace GlobalNamespace {
+class LessThanOrEqualInstruction_LessThanOrEqualUInt16;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualUInt16);
-// Type: ::LessThanOrEqualUInt16
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualUInt16);
+// Dependencies System.Linq.Expressions.Interpreter.LessThanOrEqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LessThanOrEqualInstruction::LessThanOrEqualUInt16*
-class CORDL_TYPE __LessThanOrEqualInstruction__LessThanOrEqualUInt16 : public ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.LessThanOrEqualInstruction/LessThanOrEqualUInt16
+class CORDL_TYPE LessThanOrEqualInstruction_LessThanOrEqualUInt16 : public ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualUInt16* New_ctor(::System::Object* nullValue);
+  static inline ::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualUInt16* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x4074aa4, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d5db8, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40744b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d57c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LessThanOrEqualInstruction__LessThanOrEqualUInt16();
+  constexpr LessThanOrEqualInstruction_LessThanOrEqualUInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanOrEqualInstruction__LessThanOrEqualUInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualUInt16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LessThanOrEqualInstruction__LessThanOrEqualUInt16(__LessThanOrEqualInstruction__LessThanOrEqualUInt16&&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualUInt16(LessThanOrEqualInstruction_LessThanOrEqualUInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanOrEqualInstruction__LessThanOrEqualUInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualUInt16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LessThanOrEqualInstruction__LessThanOrEqualUInt16(__LessThanOrEqualInstruction__LessThanOrEqualUInt16 const&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualUInt16(LessThanOrEqualInstruction_LessThanOrEqualUInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13929 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualUInt16, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualUInt16, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualUInt16);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualUInt16*, "System.Linq.Expressions.Interpreter",
-                       "LessThanOrEqualInstruction/LessThanOrEqualUInt16");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualUInt16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualUInt16*, "System.Linq.Expressions.Interpreter", "LessThanOrEqualInstruction/LessThanOrEqualUInt16");

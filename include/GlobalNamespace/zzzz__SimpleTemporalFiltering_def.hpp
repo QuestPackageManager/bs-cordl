@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleTemporalFiltering)
 namespace UnityEngine {
@@ -19,11 +18,10 @@ class SimpleTemporalFiltering;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
-// Type: ::SimpleTemporalFiltering
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SimpleTemporalFiltering*
+// CS Name: SimpleTemporalFiltering
 class CORDL_TYPE SimpleTemporalFiltering : public ::System::Object {
 public:
   // Declarations
@@ -41,10 +39,10 @@ public:
                       put = __cordl_internal_set__temporalFilteringTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>
       _temporalFilteringTextures;
 
-  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x4023da8, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateRenderTexturesIfNeeded, addr 0x40850bc, size 0x28c, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
 
-  /// @brief Method FilterTexture, addr 0x4023c28, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FilterTexture, addr 0x4084f3c, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
@@ -73,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  /// @brief Method .ctor, addr 0x4023b64, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4084e78, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimpleTemporalFiltering(SimpleTemporalFiltering const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17918 };
+
   /// @brief Field _temporalFilteringTextures, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____temporalFilteringTextures;
 
@@ -102,14 +103,9 @@ public:
   /// @brief Field _bufferTexID, offset: 0x28, size: 0x4, def value: None
   int32_t ____bufferTexID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17835 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTemporalFiltering, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____temporalFilteringTextures) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____prevTemporalFilteringTextureIdx) == 0x18, "Offset mismatch!");
@@ -117,6 +113,8 @@ static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____prevTempo
 static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____temporalFilteringMaterial) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleTemporalFiltering, ____bufferTexID) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTemporalFiltering, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTemporalFiltering);

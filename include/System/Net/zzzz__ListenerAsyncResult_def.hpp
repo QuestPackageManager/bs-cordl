@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ListenerAsyncResult)
 namespace System::Net {
@@ -24,9 +25,6 @@ namespace System {
 class Exception;
 }
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -35,11 +33,10 @@ class ListenerAsyncResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ListenerAsyncResult);
-// Type: System.Net::ListenerAsyncResult
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IAsyncResult, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::ListenerAsyncResult*
+// CS Name: System.Net.ListenerAsyncResult
 class CORDL_TYPE ListenerAsyncResult : public ::System::Object {
 public:
   // Declarations
@@ -56,7 +53,7 @@ public:
   __declspec(property(get = __cordl_internal_get_InGet, put = __cordl_internal_set_InGet)) bool InGet;
 
   /// @brief Field InvokeCB, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InvokeCB, put = setStaticF_InvokeCB)) ::System::Threading::WaitCallback* InvokeCB;
+  __declspec(property(get = getStaticF_InvokeCB, put = setStaticF_InvokeCB)) ::System::Threading::WaitCallback* InvokeCB;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
@@ -90,19 +87,19 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method Complete, addr 0x436e004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43cf318, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete, addr 0x436e00c, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43cf320, size 0x51c, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method Complete, addr 0x436dce0, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x43ceff4, size 0x1e8, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method GetContext, addr 0x436e528, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContext, addr 0x43cf83c, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method InvokeCallback, addr 0x436dec8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallback, addr 0x43cf1dc, size 0x13c, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -115,37 +112,37 @@ public:
 
   constexpr bool& __cordl_internal_get_InGet();
 
-  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
+  constexpr ::System::AsyncCallback* const& __cordl_internal_get_cb() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_cb() const;
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
 
   constexpr bool const& __cordl_internal_get_completed() const;
 
   constexpr bool& __cordl_internal_get_completed();
 
+  constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
+
   constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
+  constexpr ::System::Exception* const& __cordl_internal_get_exception() const;
 
   constexpr ::System::Exception*& __cordl_internal_get_exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_exception() const;
+  constexpr ::System::Net::ListenerAsyncResult* const& __cordl_internal_get_forward() const;
 
   constexpr ::System::Net::ListenerAsyncResult*& __cordl_internal_get_forward();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerAsyncResult*> const& __cordl_internal_get_forward() const;
+  constexpr ::System::Threading::ManualResetEvent* const& __cordl_internal_get_handle() const;
 
   constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_handle() const;
+  constexpr ::System::Object* const& __cordl_internal_get_locker() const;
 
   constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
+  constexpr ::System::Object* const& __cordl_internal_get_state() const;
 
   constexpr ::System::Object*& __cordl_internal_get_state();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
   constexpr bool const& __cordl_internal_get_synch() const;
 
@@ -173,21 +170,21 @@ public:
 
   constexpr void __cordl_internal_set_synch(bool value);
 
-  /// @brief Method .ctor, addr 0x436dc68, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43cef7c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
   static inline ::System::Threading::WaitCallback* getStaticF_InvokeCB();
 
-  /// @brief Method get_AsyncState, addr 0x436e564, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x43cf878, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x436e578, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x43cf88c, size 0x128, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x436e6a0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x43cf9b4, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x436e6b4, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x43cf9c8, size 0xdc, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -208,6 +205,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ListenerAsyncResult", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ListenerAsyncResult(ListenerAsyncResult const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9705 };
 
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ManualResetEvent* ___handle;
@@ -242,14 +242,9 @@ public:
   /// @brief Field InGet, offset: 0x51, size: 0x1, def value: None
   bool ___InGet;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9680 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::ListenerAsyncResult, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::ListenerAsyncResult, ___handle) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::ListenerAsyncResult, ___synch) == 0x18, "Offset mismatch!");
@@ -271,6 +266,8 @@ static_assert(offsetof(::System::Net::ListenerAsyncResult, ___forward) == 0x48, 
 static_assert(offsetof(::System::Net::ListenerAsyncResult, ___EndCalled) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::ListenerAsyncResult, ___InGet) == 0x51, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::ListenerAsyncResult, 0x58>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ListenerAsyncResult);

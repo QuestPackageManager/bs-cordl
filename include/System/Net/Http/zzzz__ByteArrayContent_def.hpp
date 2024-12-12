@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteArrayContent)
 namespace System::IO {
@@ -23,11 +21,10 @@ class ByteArrayContent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::ByteArrayContent);
-// Type: System.Net.Http::ByteArrayContent
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.HttpContent
 namespace System::Net::Http {
 // Is value type: false
-// CS Name: ::System.Net.Http::ByteArrayContent*
+// CS Name: System.Net.Http.ByteArrayContent
 class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
 public:
   // Declarations
@@ -42,11 +39,11 @@ public:
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method SerializeToStreamAsync, addr 0x41b4684, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync, addr 0x4215998, size 0x28, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength, addr 0x41b46ac, size 0x10, virtual true, abstract: false, final false
-  inline bool TryComputeLength(ByRef<int64_t> length);
+  /// @brief Method TryComputeLength, addr 0x42159c0, size 0x10, virtual true, abstract: false, final false
+  inline bool TryComputeLength(::ByRef<int64_t> length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
 
@@ -66,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41b4600, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4215914, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
 protected:
@@ -83,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ByteArrayContent(ByteArrayContent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16675 };
+
   /// @brief Field content, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___content;
 
@@ -92,19 +92,16 @@ public:
   /// @brief Field count, offset: 0x34, size: 0x4, def value: None
   int32_t ___count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16637 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::ByteArrayContent, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___content) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___offset) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::ByteArrayContent, ___count) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::ByteArrayContent, 0x38>, "Size mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::ByteArrayContent);

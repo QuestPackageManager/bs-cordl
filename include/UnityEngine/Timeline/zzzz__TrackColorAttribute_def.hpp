@@ -16,11 +16,10 @@ class TrackColorAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TrackColorAttribute);
-// Type: UnityEngine.Timeline::TrackColorAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, UnityEngine.Color
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::TrackColorAttribute*
+// CS Name: UnityEngine.Timeline.TrackColorAttribute
 class CORDL_TYPE TrackColorAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -37,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x47bc204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x481d518, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t r, float_t g, float_t b);
 
-  /// @brief Method get_color, addr 0x47bc1f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x481d50c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -57,18 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackColorAttribute(TrackColorAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15822 };
+
   /// @brief Field m_Color, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackColorAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::TrackColorAttribute, ___m_Color) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TrackColorAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TrackColorAttribute);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(UserDataStoreUpdateResponse)
 namespace System {
 struct IntPtr;
@@ -15,11 +14,10 @@ class UserDataStoreUpdateResponse;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::UserDataStoreUpdateResponse);
-// Type: Oculus.Platform.Models::UserDataStoreUpdateResponse
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::UserDataStoreUpdateResponse*
+// CS Name: Oculus.Platform.Models.UserDataStoreUpdateResponse
 class CORDL_TYPE UserDataStoreUpdateResponse : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set_Success(bool value);
 
-  /// @brief Method .ctor, addr 0x3f3295c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f92a08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -51,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UserDataStoreUpdateResponse(UserDataStoreUpdateResponse const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15571 };
+
   /// @brief Field Success, offset: 0x10, size: 0x1, def value: None
   bool ___Success;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::UserDataStoreUpdateResponse, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::UserDataStoreUpdateResponse, ___Success) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::UserDataStoreUpdateResponse, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::UserDataStoreUpdateResponse);

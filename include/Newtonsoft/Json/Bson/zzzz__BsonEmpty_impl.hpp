@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonEmpty::*)(::Newtonsoft::Json::Bson::BsonType)>(
     &::Newtonsoft::Json::Bson::BsonEmpty::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ef18e8;
+  constexpr static std::size_t addrs = 0x3f51994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonType (::Newtonsoft::Json::Bson::BsonEmpty::*)()>(
     &::Newtonsoft::Json::Bson::BsonEmpty::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef1910;
+  constexpr static std::size_t addrs = 0x3f519bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,9 +61,6 @@ inline void Newtonsoft::Json::Bson::BsonEmpty::setStaticF_Undefined(::Newtonsoft
 inline ::Newtonsoft::Json::Bson::BsonToken* Newtonsoft::Json::Bson::BsonEmpty::getStaticF_Undefined() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Bson::BsonToken*, "Undefined", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonEmpty*>::get>();
 }
-inline ::Newtonsoft::Json::Bson::BsonEmpty* Newtonsoft::Json::Bson::BsonEmpty::New_ctor(::Newtonsoft::Json::Bson::BsonType type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Bson::BsonEmpty*>(type));
-}
 inline void Newtonsoft::Json::Bson::BsonEmpty::_ctor(::Newtonsoft::Json::Bson::BsonType type) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonEmpty*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -74,6 +71,9 @@ inline ::Newtonsoft::Json::Bson::BsonType Newtonsoft::Json::Bson::BsonEmpty::get
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonEmpty*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Bson::BsonType, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Bson::BsonEmpty* Newtonsoft::Json::Bson::BsonEmpty::New_ctor(::Newtonsoft::Json::Bson::BsonType type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Bson::BsonEmpty*>(type));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Bson::BsonEmpty::BsonEmpty() {}

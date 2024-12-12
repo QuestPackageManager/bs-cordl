@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultPKMacPrimitivesProvider)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crmf {
-class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -23,26 +21,25 @@ class DefaultPKMacPrimitivesProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
-// Type: Org.BouncyCastle.Crmf::DefaultPKMacPrimitivesProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crmf.IPKMacPrimitivesProvider, System.Object
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacPrimitivesProvider*
+// CS Name: Org.BouncyCastle.Crmf.DefaultPKMacPrimitivesProvider
 class CORDL_TYPE DefaultPKMacPrimitivesProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
 
-  /// @brief Method CreateDigest, addr 0x264f590, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateDigest, addr 0x268287c, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x264f608, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateMac, addr 0x26828f4, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x264f680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268296c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"

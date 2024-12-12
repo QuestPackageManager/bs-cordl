@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3b8dbb0;
+  constexpr static std::size_t addrs = 0x3bef930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)()>(&::GlobalNamespace::EffectPoolsManualInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8ddf8;
+  constexpr static std::size_t addrs = 0x3befb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EffectPoolsManualInstaller*>::get(), ".ctor",
@@ -129,13 +129,13 @@ inline void GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings(:
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, shortBeatEffect);
 }
-inline ::GlobalNamespace::EffectPoolsManualInstaller* GlobalNamespace::EffectPoolsManualInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EffectPoolsManualInstaller*>());
-}
 inline void GlobalNamespace::EffectPoolsManualInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EffectPoolsManualInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::EffectPoolsManualInstaller* GlobalNamespace::EffectPoolsManualInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EffectPoolsManualInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EffectPoolsManualInstaller::EffectPoolsManualInstaller() {}

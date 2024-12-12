@@ -13,6 +13,9 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
+struct MultiplayerController_State;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace GlobalNamespace {
@@ -21,20 +24,16 @@ class MultiplayerScoreItem;
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerDuelScoreManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerDuelScoreManager);
-// Type: ::MultiplayerDuelScoreManager
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerDuelScoreManager*
+// CS Name: MultiplayerDuelScoreManager
 class CORDL_TYPE MultiplayerDuelScoreManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -60,27 +59,27 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method EnsureOpponentAssigned, addr 0x3b6d124, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnsureOpponentAssigned, addr 0x3bcf2b8, size 0x2c, virtual false, abstract: false, final false
   inline bool EnsureOpponentAssigned();
 
-  /// @brief Method GetOpponentPlayer, addr 0x3b6d150, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method GetOpponentPlayer, addr 0x3bcf2e4, size 0x3d4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetOpponentPlayer();
 
-  /// @brief Method HandleStateChanged, addr 0x3b6d604, size 0xf4, virtual false, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
+  /// @brief Method HandleStateChanged, addr 0x3bcf798, size 0xf4, virtual false, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
   static inline ::GlobalNamespace::MultiplayerDuelScoreManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6cfec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bcf184, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b6cc44, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bcede0, size 0xd0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b6d0bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bcf250, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScoreAndName, addr 0x3b6ce34, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreAndName, addr 0x3bcefcc, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateScoreAndName();
 
   constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
@@ -91,13 +90,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__opponentPlayer() const;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__opponentPlayer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__opponentPlayer() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreItem> const& __cordl_internal_get__scoreItem() const;
 
@@ -125,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b6d6f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bcf88c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,6 +140,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelScoreManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerDuelScoreManager(MultiplayerDuelScoreManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4562 };
 
   /// @brief Field _scoreItem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreItem> ____scoreItem;
@@ -163,14 +165,9 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset: 0x50, size: 0x4, def value: None
   float_t ____timeSinceLastScoreUpdate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerDuelScoreManager, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerDuelScoreManager, ____scoreItem) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerDuelScoreManager, ____delayBetweenScoreUpdates) == 0x28, "Offset mismatch!");
@@ -184,6 +181,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerDuelScoreManager, ____multi
 static_assert(offsetof(::GlobalNamespace::MultiplayerDuelScoreManager, ____opponentPlayer) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerDuelScoreManager, ____timeSinceLastScoreUpdate) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerDuelScoreManager, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerDuelScoreManager);

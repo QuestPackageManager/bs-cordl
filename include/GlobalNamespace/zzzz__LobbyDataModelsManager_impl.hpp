@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyDataModelsManager::*)()>(&::GlobalNamespace::LobbyDataModelsManager::Activate)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x26a5248;
+  constexpr static std::size_t addrs = 0x26d9f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyDataModelsManager*>::get(), "Activate",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyDataModelsManager::*)()>(&::GlobalNamespace::LobbyDataModelsManager::Deactivate)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x26a5550;
+  constexpr static std::size_t addrs = 0x26da284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyDataModelsManager*>::get(), "Deactivate",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyDataModelsManager::*)()>(&::GlobalNamespace::LobbyDataModelsManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a57e4;
+  constexpr static std::size_t addrs = 0x26da518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyDataModelsManager*>::get(), ".ctor",
@@ -50,7 +50,7 @@ constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::LobbyDataMo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyStateDataModel() const {
+constexpr ::GlobalNamespace::ILobbyStateDataModel* const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyStateDataModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
@@ -62,7 +62,7 @@ constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& GlobalNamespace::LobbyData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayersDataModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyPlayersDataModel() const {
+constexpr ::GlobalNamespace::ILobbyPlayersDataModel* const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyPlayersDataModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayersDataModel;
 }
@@ -74,7 +74,7 @@ constexpr ::GlobalNamespace::INodePoseSyncStateManager*& GlobalNamespace::LobbyD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__nodePoseSyncStateManager() const {
+constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__nodePoseSyncStateManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
@@ -86,8 +86,7 @@ constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::Lobb
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const&
-GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyPlayerPermissionsModel() const {
+constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyPlayerPermissionsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyPlayerPermissionsModel;
 }
@@ -99,8 +98,7 @@ constexpr ::GlobalNamespace::ILobbyGameStateControllerBase*& GlobalNamespace::Lo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateControllerBase*> const&
-GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyGameStateController() const {
+constexpr ::GlobalNamespace::ILobbyGameStateControllerBase* const& GlobalNamespace::LobbyDataModelsManager::__cordl_internal_get__lobbyGameStateController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyGameStateController;
 }
@@ -118,13 +116,13 @@ inline void GlobalNamespace::LobbyDataModelsManager::Deactivate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LobbyDataModelsManager* GlobalNamespace::LobbyDataModelsManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LobbyDataModelsManager*>());
-}
 inline void GlobalNamespace::LobbyDataModelsManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyDataModelsManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LobbyDataModelsManager* GlobalNamespace::LobbyDataModelsManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LobbyDataModelsManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LobbyDataModelsManager::LobbyDataModelsManager() {}

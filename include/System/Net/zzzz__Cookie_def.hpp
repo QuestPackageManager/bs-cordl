@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__CookieVariant_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cookie)
@@ -34,11 +33,10 @@ class Cookie;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cookie);
-// Type: System.Net::Cookie
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Net.CookieVariant, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::Cookie*
+// CS Name: System.Net.Cookie
 class CORDL_TYPE Cookie : public ::System::Object {
 public:
   // Declarations
@@ -75,13 +73,13 @@ public:
   __declspec(property(get = get_PortList)) ::ArrayW<int32_t, ::Array<int32_t>*> PortList;
 
   /// @brief Field PortSplitDelimiters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PortSplitDelimiters, put = setStaticF_PortSplitDelimiters)) ::ArrayW<char16_t, ::Array<char16_t>*> PortSplitDelimiters;
+  __declspec(property(get = getStaticF_PortSplitDelimiters, put = setStaticF_PortSplitDelimiters)) ::ArrayW<char16_t, ::Array<char16_t>*> PortSplitDelimiters;
 
   /// @brief Field Reserved2Name, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Reserved2Name, put = setStaticF_Reserved2Name)) ::ArrayW<char16_t, ::Array<char16_t>*> Reserved2Name;
+  __declspec(property(get = getStaticF_Reserved2Name, put = setStaticF_Reserved2Name)) ::ArrayW<char16_t, ::Array<char16_t>*> Reserved2Name;
 
   /// @brief Field Reserved2Value, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Reserved2Value, put = setStaticF_Reserved2Value)) ::ArrayW<char16_t, ::Array<char16_t>*> Reserved2Value;
+  __declspec(property(get = getStaticF_Reserved2Value, put = setStaticF_Reserved2Value)) ::ArrayW<char16_t, ::Array<char16_t>*> Reserved2Value;
 
   __declspec(property(get = get_Secure, put = set_Secure)) bool Secure;
 
@@ -157,32 +155,32 @@ public:
   __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) int32_t m_version;
 
   /// @brief Field staticComparer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_staticComparer, put = setStaticF_staticComparer)) ::System::Net::Comparer* staticComparer;
+  __declspec(property(get = getStaticF_staticComparer, put = setStaticF_staticComparer)) ::System::Net::Comparer* staticComparer;
 
-  /// @brief Method DomainCharsTest, addr 0x444af74, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method DomainCharsTest, addr 0x44ac288, size 0xb4, virtual false, abstract: false, final false
   static inline bool DomainCharsTest(::StringW name);
 
-  /// @brief Method Equals, addr 0x444b6b8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x44ac9cc, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetComparer, addr 0x444b660, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetComparer, addr 0x44ac974, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::IComparer* GetComparer();
 
-  /// @brief Method GetHashCode, addr 0x444b788, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x44aca9c, size 0x160, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method InternalSetName, addr 0x444a338, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method InternalSetName, addr 0x44ab64c, size 0x100, virtual false, abstract: false, final false
   inline bool InternalSetName(::StringW value);
 
-  /// @brief Method IsDomainEqualToHost, addr 0x444a548, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsDomainEqualToHost, addr 0x44ab85c, size 0x58, virtual false, abstract: false, final false
   static inline bool IsDomainEqualToHost(::StringW domain, ::StringW host);
 
   static inline ::System::Net::Cookie* New_ctor();
 
-  /// @brief Method ToString, addr 0x444b8e8, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x44acbfc, size 0x24c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method VerifySetDefaults, addr 0x444a5a0, size 0x9d4, virtual false, abstract: false, final false
+  /// @brief Method VerifySetDefaults, addr 0x44ab8b4, size 0x9d4, virtual false, abstract: false, final false
   inline bool VerifySetDefaults(::System::Net::CookieVariant variant, ::System::Uri* uri, bool isLocalDomain, ::StringW localDomain, bool set_default, bool isThrow);
 
   constexpr bool const& __cordl_internal_get_IsQuotedDomain() const;
@@ -197,9 +195,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_m_comment();
 
-  constexpr ::System::Uri*& __cordl_internal_get_m_commentUri();
+  constexpr ::System::Uri* const& __cordl_internal_get_m_commentUri() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_commentUri() const;
+  constexpr ::System::Uri*& __cordl_internal_get_m_commentUri();
 
   constexpr ::System::Net::CookieVariant const& __cordl_internal_get_m_cookieVariant() const;
 
@@ -311,7 +309,7 @@ public:
 
   constexpr void __cordl_internal_set_m_version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4449e44, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ab158, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_PortSplitDelimiters();
@@ -322,55 +320,55 @@ public:
 
   static inline ::System::Net::Comparer* getStaticF_staticComparer();
 
-  /// @brief Method get_Comment, addr 0x4449f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x44ab238, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_Domain, addr 0x4449fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x44ab2b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_DomainKey, addr 0x444b4bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_DomainKey, addr 0x44ac7d0, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_DomainKey();
 
-  /// @brief Method get_Expired, addr 0x444a0fc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Expired, addr 0x44ab410, size 0xb8, virtual false, abstract: false, final false
   inline bool get_Expired();
 
-  /// @brief Method get_Name, addr 0x444a1bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x44ab4d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Path, addr 0x444a438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x44ab74c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Plain, addr 0x444a0ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Plain, addr 0x44ab400, size 0x10, virtual false, abstract: false, final false
   inline bool get_Plain();
 
-  /// @brief Method get_Port, addr 0x444b028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x44ac33c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Port();
 
-  /// @brief Method get_PortList, addr 0x444b360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PortList, addr 0x44ac674, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_PortList();
 
-  /// @brief Method get_Secure, addr 0x444b430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Secure, addr 0x44ac744, size 0x8, virtual false, abstract: false, final false
   inline bool get_Secure();
 
-  /// @brief Method get_Value, addr 0x444b444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x44ac758, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_Variant, addr 0x444b4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x44ac7c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
-  /// @brief Method get_Version, addr 0x444b4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x44ac7ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get__Domain, addr 0x444a020, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get__Domain, addr 0x44ab334, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW get__Domain();
 
-  /// @brief Method get__Path, addr 0x444a4ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get__Path, addr 0x44ab7c0, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get__Path();
 
-  /// @brief Method get__Port, addr 0x444b368, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get__Port, addr 0x44ac67c, size 0xc8, virtual false, abstract: false, final false
   inline ::StringW get__Port();
 
-  /// @brief Method get__Version, addr 0x444b554, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get__Version, addr 0x44ac868, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW get__Version();
 
   static inline void setStaticF_PortSplitDelimiters(::ArrayW<char16_t, ::Array<char16_t>*> value);
@@ -381,40 +379,40 @@ public:
 
   static inline void setStaticF_staticComparer(::System::Net::Comparer* value);
 
-  /// @brief Method set_Comment, addr 0x4449f2c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x44ab240, size 0x58, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_CommentUri, addr 0x4449f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CommentUri, addr 0x44ab298, size 0x8, virtual false, abstract: false, final false
   inline void set_CommentUri(::System::Uri* value);
 
-  /// @brief Method set_Discard, addr 0x4449f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Discard, addr 0x44ab2ac, size 0xc, virtual false, abstract: false, final false
   inline void set_Discard(bool value);
 
-  /// @brief Method set_Domain, addr 0x4449fac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x44ab2c0, size 0x74, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Expires, addr 0x444a1b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expires, addr 0x44ab4c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Expires(::System::DateTime value);
 
-  /// @brief Method set_HttpOnly, addr 0x4449f8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HttpOnly, addr 0x44ab2a0, size 0xc, virtual false, abstract: false, final false
   inline void set_HttpOnly(bool value);
 
-  /// @brief Method set_Name, addr 0x444a1c4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x44ab4d8, size 0x174, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Path, addr 0x444a440, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x44ab754, size 0x6c, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Port, addr 0x444b030, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x44ac344, size 0x330, virtual false, abstract: false, final false
   inline void set_Port(::StringW value);
 
-  /// @brief Method set_Secure, addr 0x444b438, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Secure, addr 0x44ac74c, size 0xc, virtual false, abstract: false, final false
   inline void set_Secure(bool value);
 
-  /// @brief Method set_Value, addr 0x444b44c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x44ac760, size 0x68, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method set_Version, addr 0x444b4e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x44ac7f4, size 0x74, virtual false, abstract: false, final false
   inline void set_Version(int32_t value);
 
 protected:
@@ -430,6 +428,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Cookie", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Cookie(Cookie const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9636 };
 
   /// @brief Field m_comment, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_comment;
@@ -494,14 +495,9 @@ public:
   /// @brief Field IsQuotedDomain, offset: 0x99, size: 0x1, def value: None
   bool ___IsQuotedDomain;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9611 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Cookie, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Cookie, ___m_comment) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Cookie, ___m_commentUri) == 0x18, "Offset mismatch!");
@@ -543,6 +539,8 @@ static_assert(offsetof(::System::Net::Cookie, ___m_domainKey) == 0x90, "Offset m
 static_assert(offsetof(::System::Net::Cookie, ___IsQuotedVersion) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Cookie, ___IsQuotedDomain) == 0x99, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Cookie, 0xa0>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::Cookie);

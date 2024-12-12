@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)(
     ::System::Runtime::Serialization::ObjectHolderList*, bool)>(&::System::Runtime::Serialization::ObjectHolderListEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c9a50c;
+  constexpr static std::size_t addrs = 0x3cfa680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c99474;
+  constexpr static std::size_t addrs = 0x3cf95e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ObjectHolder* (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c9941c;
+  constexpr static std::size_t addrs = 0x3cf9590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,8 +66,7 @@ constexpr ::System::Runtime::Serialization::ObjectHolderList*& System::Runtime::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolderList*> const&
-System::Runtime::Serialization::ObjectHolderListEnumerator::__cordl_internal_get_m_list() const {
+constexpr ::System::Runtime::Serialization::ObjectHolderList* const& System::Runtime::Serialization::ObjectHolderListEnumerator::__cordl_internal_get_m_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
@@ -99,10 +98,6 @@ constexpr void System::Runtime::Serialization::ObjectHolderListEnumerator::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_currPos = value;
 }
-inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* System::Runtime::Serialization::ObjectHolderListEnumerator::New_ctor(::System::Runtime::Serialization::ObjectHolderList* list,
-                                                                                                                                          bool isFixupEnumerator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::ObjectHolderListEnumerator*>(list, isFixupEnumerator));
-}
 inline void System::Runtime::Serialization::ObjectHolderListEnumerator::_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectHolderListEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -121,6 +116,10 @@ inline ::System::Runtime::Serialization::ObjectHolder* System::Runtime::Serializ
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectHolderListEnumerator*>::get(), "get_Current",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Serialization::ObjectHolder*, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* System::Runtime::Serialization::ObjectHolderListEnumerator::New_ctor(::System::Runtime::Serialization::ObjectHolderList* list,
+                                                                                                                                          bool isFixupEnumerator) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::ObjectHolderListEnumerator*>(list, isFixupEnumerator));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::ObjectHolderListEnumerator::ObjectHolderListEnumerator() {}

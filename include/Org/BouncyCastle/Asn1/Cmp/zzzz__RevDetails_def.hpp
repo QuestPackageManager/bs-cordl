@@ -26,11 +26,10 @@ class RevDetails;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevDetails);
-// Type: Org.BouncyCastle.Asn1.Cmp::RevDetails
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevDetails*
+// CS Name: Org.BouncyCastle.Asn1.Cmp.RevDetails
 class CORDL_TYPE RevDetails : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
   /// @brief Field crlEntryDetails, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_crlEntryDetails, put = __cordl_internal_set_crlEntryDetails)) ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
 
-  /// @brief Method GetInstance, addr 0x22c8584, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x22fb870, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
@@ -53,34 +52,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22c8764, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x22fba50, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* const& __cordl_internal_get_certDetails() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __cordl_internal_get_certDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __cordl_internal_get_certDetails() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_crlEntryDetails() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_crlEntryDetails();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_crlEntryDetails() const;
 
   constexpr void __cordl_internal_set_certDetails(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* value);
 
   constexpr void __cordl_internal_set_crlEntryDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method .ctor, addr 0x22c8700, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fb9ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails);
 
-  /// @brief Method .ctor, addr 0x22c8728, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fba14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails, ::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails);
 
-  /// @brief Method .ctor, addr 0x22c84b0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22fb79c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertDetails, addr 0x22c8754, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertDetails, addr 0x22fba40, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertDetails();
 
-  /// @brief Method get_CrlEntryDetails, addr 0x22c875c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CrlEntryDetails, addr 0x22fba48, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_CrlEntryDetails();
 
 protected:
@@ -97,23 +96,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevDetails(RevDetails const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 50 };
+
   /// @brief Field certDetails, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* ___certDetails;
 
   /// @brief Field crlEntryDetails, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___crlEntryDetails;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevDetails, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevDetails, ___certDetails) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::RevDetails, ___crlEntryDetails) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::RevDetails, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::RevDetails);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::PingResult::*)(uint64_t, ::System::Nullable_1<uint64_t>)>(
     &::Oculus::Platform::Models::PingResult::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f31a88;
+  constexpr static std::size_t addrs = 0x3f91b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f31ac4;
+  constexpr static std::size_t addrs = 0x3f91b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PingResult*>::get(), "get_ID",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::PingResult::*)(uint64_t)>(&::Oculus::Platform::Models::PingResult::set_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f31acc;
+  constexpr static std::size_t addrs = 0x3f91b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_PingTimeUsec)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f31ad4;
+  constexpr static std::size_t addrs = 0x3f91b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PingResult*>::get(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::Models::PingResult::*)()>(&::Oculus::Platform::Models::PingResult::get_IsTimeout)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3f31b40;
+  constexpr static std::size_t addrs = 0x3f91bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PingResult*>::get(), "get_IsTimeout",
@@ -97,9 +97,6 @@ constexpr void Oculus::Platform::Models::PingResult::__cordl_internal_set_pingTi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pingTimeUsec = value;
 }
-inline ::Oculus::Platform::Models::PingResult* Oculus::Platform::Models::PingResult::New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::PingResult*>(id, pingTimeUsec));
-}
 inline void Oculus::Platform::Models::PingResult::_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PingResult*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -127,6 +124,9 @@ inline bool Oculus::Platform::Models::PingResult::get_IsTimeout() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::PingResult*>::get(), "get_IsTimeout",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Oculus::Platform::Models::PingResult* Oculus::Platform::Models::PingResult::New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::PingResult*>(id, pingTimeUsec));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::PingResult::PingResult() {}

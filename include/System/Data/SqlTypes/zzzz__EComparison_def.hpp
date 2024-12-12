@@ -12,11 +12,10 @@ struct EComparison;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::SqlTypes::EComparison);
-// Type: System.Data.SqlTypes::EComparison
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data::SqlTypes {
 // Is value type: true
-// CS Name: ::System.Data.SqlTypes::EComparison
+// CS Name: System.Data.SqlTypes.EComparison
 struct CORDL_TYPE EComparison {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EComparison(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field EQ value: static_cast<int32_t>(0x2)
+  /// @brief Field EQ value: I32(2)
   static ::System::Data::SqlTypes::EComparison const EQ;
 
-  /// @brief Field GE value: static_cast<int32_t>(0x3)
+  /// @brief Field GE value: I32(3)
   static ::System::Data::SqlTypes::EComparison const GE;
 
-  /// @brief Field GT value: static_cast<int32_t>(0x4)
+  /// @brief Field GT value: I32(4)
   static ::System::Data::SqlTypes::EComparison const GT;
 
-  /// @brief Field LE value: static_cast<int32_t>(0x1)
+  /// @brief Field LE value: I32(1)
   static ::System::Data::SqlTypes::EComparison const LE;
 
-  /// @brief Field LT value: static_cast<int32_t>(0x0)
+  /// @brief Field LT value: I32(0)
   static ::System::Data::SqlTypes::EComparison const LT;
 
-  /// @brief Field NE value: static_cast<int32_t>(0x5)
+  /// @brief Field NE value: I32(5)
   static ::System::Data::SqlTypes::EComparison const NE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11509 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::EComparison, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::SqlTypes::EComparison, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::EComparison, 0x4>, "Size mismatch!");
 
 } // namespace System::Data::SqlTypes
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::EComparison, "System.Data.SqlTypes", "EComparison");

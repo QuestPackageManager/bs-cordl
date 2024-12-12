@@ -26,11 +26,10 @@ class CrlID;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CrlID);
-// Type: Org.BouncyCastle.Asn1.Ocsp::CrlID
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CrlID*
+// CS Name: Org.BouncyCastle.Asn1.Ocsp.CrlID
 class CORDL_TYPE CrlID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -51,20 +50,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CrlID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23d0da0, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x240408c, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_crlNum() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_crlNum();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_crlNum() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_crlTime() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_crlTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_crlTime() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& __cordl_internal_get_crlUrl() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_crlUrl();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_crlUrl() const;
 
   constexpr void __cordl_internal_set_crlNum(::Org::BouncyCastle::Asn1::DerInteger* value);
 
@@ -72,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set_crlUrl(::Org::BouncyCastle::Asn1::DerIA5String* value);
 
-  /// @brief Method .ctor, addr 0x23d09d4, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2403cc0, size 0x3b4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlNum, addr 0x23d0d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlNum, addr 0x240407c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CrlNum();
 
-  /// @brief Method get_CrlTime, addr 0x23d0d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlTime, addr 0x2404084, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_CrlTime();
 
-  /// @brief Method get_CrlUrl, addr 0x23d0d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CrlUrl, addr 0x2404074, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_CrlUrl();
 
 protected:
@@ -98,6 +97,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrlID(CrlID const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 209 };
+
   /// @brief Field crlUrl, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerIA5String* ___crlUrl;
 
@@ -107,19 +109,16 @@ public:
   /// @brief Field crlTime, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___crlTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 209 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::CrlID, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::CrlID, ___crlUrl) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::CrlID, ___crlNum) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::CrlID, ___crlTime) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::CrlID, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::CrlID);

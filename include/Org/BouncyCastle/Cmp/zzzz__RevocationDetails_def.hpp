@@ -20,11 +20,10 @@ class RevocationDetails;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::RevocationDetails);
-// Type: Org.BouncyCastle.Cmp::RevocationDetails
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cmp::RevocationDetails*
+// CS Name: Org.BouncyCastle.Cmp.RevocationDetails
 class CORDL_TYPE RevocationDetails : public ::System::Object {
 public:
   // Declarations
@@ -39,25 +38,25 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method ToASN1Structure, addr 0x26195a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToASN1Structure, addr 0x264c88c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
+
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails* const& __cordl_internal_get_revDetails() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& __cordl_internal_get_revDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> const& __cordl_internal_get_revDetails() const;
-
   constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
-  /// @brief Method .ctor, addr 0x26194dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c7c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Issuer, addr 0x2619534, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x264c820, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x2619564, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x264c850, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Subject, addr 0x2619504, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x264c7f0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
 protected:
@@ -74,18 +73,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RevocationDetails(RevocationDetails const&) = delete;
 
-  /// @brief Field revDetails, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ___revDetails;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 608 };
+
+  /// @brief Field revDetails, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ___revDetails;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::RevocationDetails, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cmp::RevocationDetails, ___revDetails) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cmp::RevocationDetails, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Cmp::RevocationDetails);

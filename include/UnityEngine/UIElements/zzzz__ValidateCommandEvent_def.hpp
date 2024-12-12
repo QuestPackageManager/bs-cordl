@@ -7,77 +7,75 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(ValidateCommandEvent)
 namespace UnityEngine::UIElements {
-class __ValidateCommandEvent____c;
+class ValidateCommandEvent___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ValidateCommandEvent;
 }
 namespace UnityEngine::UIElements {
-class __ValidateCommandEvent____c;
+class ValidateCommandEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ValidateCommandEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__ValidateCommandEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::ValidateCommandEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::ValidateCommandEvent::<>c*
-class CORDL_TYPE __ValidateCommandEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.ValidateCommandEvent/<>c
+class CORDL_TYPE ValidateCommandEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__ValidateCommandEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::ValidateCommandEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__ValidateCommandEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::ValidateCommandEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49be164, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a22a74, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ValidateCommandEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49be15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a22a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__ValidateCommandEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::ValidateCommandEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__ValidateCommandEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::ValidateCommandEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ValidateCommandEvent____c();
+  constexpr ValidateCommandEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ValidateCommandEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ValidateCommandEvent____c(__ValidateCommandEvent____c&&) = delete;
+  ValidateCommandEvent___c(ValidateCommandEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ValidateCommandEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValidateCommandEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ValidateCommandEvent____c(__ValidateCommandEvent____c const&) = delete;
+  ValidateCommandEvent___c(ValidateCommandEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ValidateCommandEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ValidateCommandEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::ValidateCommandEvent
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.CommandEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ValidateCommandEvent*
+// CS Name: UnityEngine.UIElements.ValidateCommandEvent
 class CORDL_TYPE ValidateCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ValidateCommandEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__ValidateCommandEvent____c;
+  using __c = ::UnityEngine::UIElements::ValidateCommandEvent___c;
 
   static inline ::UnityEngine::UIElements::ValidateCommandEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49be0b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a229c8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +93,7 @@ public:
   ValidateCommandEvent(ValidateCommandEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5795 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,5 +103,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Validat
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ValidateCommandEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ValidateCommandEvent*, "UnityEngine.UIElements", "ValidateCommandEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__ValidateCommandEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ValidateCommandEvent____c*, "UnityEngine.UIElements", "ValidateCommandEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::ValidateCommandEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ValidateCommandEvent___c*, "UnityEngine.UIElements", "ValidateCommandEvent/<>c");

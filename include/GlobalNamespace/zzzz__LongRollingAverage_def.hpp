@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LongRollingAverage)
 // Forward declare root types
@@ -13,11 +12,10 @@ class LongRollingAverage;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LongRollingAverage);
-// Type: ::LongRollingAverage
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LongRollingAverage*
+// CS Name: LongRollingAverage
 class CORDL_TYPE LongRollingAverage : public ::System::Object {
 public:
   // Declarations
@@ -42,10 +40,10 @@ public:
 
   static inline ::GlobalNamespace::LongRollingAverage* New_ctor(int32_t window);
 
-  /// @brief Method Reset, addr 0x229def8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x22d11e4, size 0xc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x229de04, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22d10f0, size 0xf4, virtual false, abstract: false, final false
   inline void Update(int64_t value);
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
@@ -78,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
-  /// @brief Method .ctor, addr 0x229dd9c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22d1088, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t window);
 
-  /// @brief Method get_currentAverage, addr 0x229dd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAverage, addr 0x22d1070, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_currentAverage();
 
-  /// @brief Method get_hasValue, addr 0x229dd8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasValue, addr 0x22d1078, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasValue();
 
 protected:
@@ -101,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LongRollingAverage(LongRollingAverage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14834 };
+
   /// @brief Field _currentTotal, offset: 0x10, size: 0x8, def value: None
   int64_t ____currentTotal;
 
@@ -116,14 +117,9 @@ public:
   /// @brief Field _length, offset: 0x2c, size: 0x4, def value: None
   int32_t ____length;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14800 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LongRollingAverage, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LongRollingAverage, ____currentTotal) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LongRollingAverage, ____currentAverage) == 0x18, "Offset mismatch!");
@@ -133,6 +129,8 @@ static_assert(offsetof(::GlobalNamespace::LongRollingAverage, ____buffer) == 0x2
 static_assert(offsetof(::GlobalNamespace::LongRollingAverage, ____index) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LongRollingAverage, ____length) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LongRollingAverage, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LongRollingAverage);

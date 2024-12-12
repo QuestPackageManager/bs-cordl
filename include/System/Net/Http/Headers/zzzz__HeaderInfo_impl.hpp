@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::HeaderInfo::*)(::StringW, ::System::Net::Http::Headers::HttpHeaderKind)>(
     &::System::Net::Http::Headers::HeaderInfo::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x41bccc8;
+  constexpr static std::size_t addrs = 0x421dfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::HeaderInfo::*)(::System::Net::Http::Headers::HttpHeaders*)>(
     &::System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41bccf8;
+  constexpr static std::size_t addrs = 0x421e00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::System::Object*, ::StringW>* (::System::Net::Http::Headers::HeaderInfo::*)()>(
     &::System::Net::Http::Headers::HeaderInfo::get_CustomToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41bcd08;
+  constexpr static std::size_t addrs = 0x421e01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::HeaderInfo::*)(::System::Func_2<::System::Object*, ::StringW>*)>(
     &::System::Net::Http::Headers::HeaderInfo::set_CustomToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41bcd10;
+  constexpr static std::size_t addrs = 0x421e024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,72 +78,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::HeaderInfo::*)()>(
     &::System::Net::Http::Headers::HeaderInfo::get_Separator)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41bcd18;
+  constexpr static std::size_t addrs = 0x421e02c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 4));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo.AddToCollection
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::HeaderInfo::*)(::System::Object*, ::System::Object*)>(
-    &::System::Net::Http::Headers::HeaderInfo::AddToCollection)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo.CreateCollection
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
-    ::System::Net::Http::Headers::HeaderInfo::*)(::System::Net::Http::Headers::HttpHeaders*, ::System::Net::Http::Headers::HeaderInfo*)>(&::System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 6));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo.ToStringCollection
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::System::Net::Http::Headers::HeaderInfo::*)(::System::Object*)>(
-    &::System::Net::Http::Headers::HeaderInfo::ToStringCollection)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 7));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Net::Http::Headers::HeaderInfo.TryParse
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::HeaderInfo::*)(::StringW, ByRef<::System::Object*>)>(
-    &::System::Net::Http::Headers::HeaderInfo::TryParse)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 8));
     return ___internal_method;
   }
 };
@@ -187,17 +127,13 @@ constexpr ::System::Func_2<::System::Object*, ::StringW>*& System::Net::Http::He
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CustomToString_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const&
-System::Net::Http::Headers::HeaderInfo::__cordl_internal_get__CustomToString_k__BackingField() const {
+constexpr ::System::Func_2<::System::Object*, ::StringW>* const& System::Net::Http::Headers::HeaderInfo::__cordl_internal_get__CustomToString_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CustomToString_k__BackingField;
 }
 constexpr void System::Net::Http::Headers::HeaderInfo::__cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CustomToString_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::HeaderInfo*>(name, headerKind));
 }
 inline void System::Net::Http::Headers::HeaderInfo::_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -206,7 +142,6 @@ inline void System::Net::Http::Headers::HeaderInfo::_ctor(::StringW name, ::Syst
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpHeaderKind>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, headerKind);
 }
-/// @param toString: ::System::Func_2<::System::Object*,::StringW>* (default: nullptr)
 template <typename T>
 inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::CreateSingle(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                                                       ::System::Net::Http::Headers::HttpHeaderKind headerKind,
@@ -222,8 +157,6 @@ inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::Hea
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Http::Headers::HeaderInfo*, false>(nullptr, ___internal_method, name, parser, headerKind, toString);
 }
-/// @param minimalCount: int32_t (default: static_cast<int32_t>(0x1))
-/// @param separator: ::StringW (default: u", ")
 template <typename T>
 inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::CreateMulti(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* elementParser,
                                                                                                      ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount,
@@ -276,10 +209,13 @@ inline ::System::Collections::Generic::List_1<::StringW>* System::Net::Http::Hea
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal_method, collection);
 }
-inline bool System::Net::Http::Headers::HeaderInfo::TryParse(::StringW value, ByRef<::System::Object*> result) {
+inline bool System::Net::Http::Headers::HeaderInfo::TryParse(::StringW value, ::ByRef<::System::Object*> result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::HeaderInfo*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, result);
+}
+inline ::System::Net::Http::Headers::HeaderInfo* System::Net::Http::Headers::HeaderInfo::New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::HeaderInfo*>(name, headerKind));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::Headers::HeaderInfo::HeaderInfo() {}

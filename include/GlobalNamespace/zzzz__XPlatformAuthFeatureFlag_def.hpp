@@ -11,11 +11,10 @@ class XPlatformAuthFeatureFlag;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::XPlatformAuthFeatureFlag);
-// Type: ::XPlatformAuthFeatureFlag
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::XPlatformAuthFeatureFlag*
+// CS Name: XPlatformAuthFeatureFlag
 class CORDL_TYPE XPlatformAuthFeatureFlag : public ::System::Object {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x22b7c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22eaeec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseXPlatformAuth, addr 0x22b7bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseXPlatformAuth, addr 0x22eaed8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseXPlatformAuth();
 
-  /// @brief Method set_UseXPlatformAuth, addr 0x22b7bf4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseXPlatformAuth, addr 0x22eaee0, size 0xc, virtual false, abstract: false, final false
   inline void set_UseXPlatformAuth(bool value);
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15002 };
+
   /// @brief Field <UseXPlatformAuth>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____UseXPlatformAuth_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14968 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::XPlatformAuthFeatureFlag, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::XPlatformAuthFeatureFlag, ____UseXPlatformAuth_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::XPlatformAuthFeatureFlag, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::XPlatformAuthFeatureFlag);

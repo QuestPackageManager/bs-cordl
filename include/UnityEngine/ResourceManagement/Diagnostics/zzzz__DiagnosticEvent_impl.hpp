@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740128;
+  constexpr static std::size_t addrs = 0x47a143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_ObjectId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740130;
+  constexpr static std::size_t addrs = 0x47a1444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740138;
+  constexpr static std::size_t addrs = 0x47a144c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740140;
+  constexpr static std::size_t addrs = 0x47a1454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740148;
+  constexpr static std::size_t addrs = 0x47a145c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Frame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740150;
+  constexpr static std::size_t addrs = 0x47a1464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4740158;
+  constexpr static std::size_t addrs = 0x47a146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)(
     ::StringW, ::StringW, int32_t, int32_t, int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4740160;
+  constexpr static std::size_t addrs = 0x47a1474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::*)()>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::Serialize)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4740178;
+  constexpr static std::size_t addrs = 0x47a148c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::Deserialize)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4740210;
+  constexpr static std::size_t addrs = 0x47a1524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,10 +218,10 @@ inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent UnityEngi
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, false>(nullptr, ___internal_method, data);
 }
-// Ctor Parameters [CppParam { name: "m_Graph", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Dependencies", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "m_ObjectId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DisplayName", ty: "::StringW", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "m_Stream", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Frame", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_Value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Graph", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Dependencies", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_ObjectId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DisplayName", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "m_Stream", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Frame", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_Value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::DiagnosticEvent(::StringW m_Graph, ::ArrayW<int32_t, ::Array<int32_t>*> m_Dependencies, int32_t m_ObjectId,
                                                                                            ::StringW m_DisplayName, int32_t m_Stream, int32_t m_Frame, int32_t m_Value) noexcept {
   this->m_Graph = m_Graph;

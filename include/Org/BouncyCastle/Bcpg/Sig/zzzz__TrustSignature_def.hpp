@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrustSignature)
 // Forward declare root types
@@ -13,11 +12,10 @@ class TrustSignature;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::TrustSignature);
-// Type: Org.BouncyCastle.Bcpg.Sig::TrustSignature
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::TrustSignature*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.TrustSignature
 class CORDL_TYPE TrustSignature : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
@@ -25,23 +23,23 @@ public:
 
   __declspec(property(get = get_TrustAmount)) int32_t TrustAmount;
 
-  /// @brief Method IntToByteArray, addr 0x260ab28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IntToByteArray, addr 0x263de14, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(int32_t v1, int32_t v2);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, int32_t depth, int32_t trustAmount);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::TrustSignature* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x260abec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263ded8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int32_t depth, int32_t trustAmount);
 
-  /// @brief Method .ctor, addr 0x260aba4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263de90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Depth, addr 0x260ac3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x263df28, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_TrustAmount, addr 0x260ac64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_TrustAmount, addr 0x263df50, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_TrustAmount();
 
 protected:

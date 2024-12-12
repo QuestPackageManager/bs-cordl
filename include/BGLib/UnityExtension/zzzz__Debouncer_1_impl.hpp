@@ -1,23 +1,15 @@
 #pragma once
 // IWYU pragma private; include "BGLib/UnityExtension/Debouncer_1.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__Debouncer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr BGLib::UnityExtension::Debouncer_1<T>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* BGLib::UnityExtension::Debouncer_1<T>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Action_1<T>*& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__callback() const {
+template <typename T> constexpr ::System::Action_1<T>* const& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
@@ -41,8 +33,7 @@ template <typename T> constexpr ::System::Collections::Generic::Queue_1<T>*& BGL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debounceQueue;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<T>*> const& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__debounceQueue() const {
+template <typename T> constexpr ::System::Collections::Generic::Queue_1<T>* const& BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_get__debounceQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____debounceQueue;
 }
@@ -61,9 +52,6 @@ template <typename T> constexpr float_t const& BGLib::UnityExtension::Debouncer_
 template <typename T> constexpr void BGLib::UnityExtension::Debouncer_1<T>::__cordl_internal_set__nextCallbackTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextCallbackTime = value;
-}
-template <typename T> inline ::BGLib::UnityExtension::Debouncer_1<T>* BGLib::UnityExtension::Debouncer_1<T>::New_ctor(::System::Action_1<T>* callback, float_t debounceDelaySeconds) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::Debouncer_1<T>*>(callback, debounceDelaySeconds));
 }
 template <typename T> inline void BGLib::UnityExtension::Debouncer_1<T>::_ctor(::System::Action_1<T>* callback, float_t debounceDelaySeconds) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -92,6 +80,17 @@ template <typename T> inline float_t BGLib::UnityExtension::Debouncer_1<T>::GetC
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::Debouncer_1<T>*>::get(), "GetCurrentTime",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+template <typename T> inline ::BGLib::UnityExtension::Debouncer_1<T>* BGLib::UnityExtension::Debouncer_1<T>::New_ctor(::System::Action_1<T>* callback, float_t debounceDelaySeconds) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::Debouncer_1<T>*>(callback, debounceDelaySeconds));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr BGLib::UnityExtension::Debouncer_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* BGLib::UnityExtension::Debouncer_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::BGLib::UnityExtension::Debouncer_1<T>::Debouncer_1() {}

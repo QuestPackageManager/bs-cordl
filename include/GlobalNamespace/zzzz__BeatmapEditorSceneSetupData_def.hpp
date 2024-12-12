@@ -12,11 +12,10 @@ class BeatmapEditorSceneSetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorSceneSetupData);
-// Type: ::BeatmapEditorSceneSetupData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapEditorSceneSetupData*
+// CS Name: BeatmapEditorSceneSetupData
 class CORDL_TYPE BeatmapEditorSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__levelDirPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ad8a68, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b389d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method get_levelAssetPath, addr 0x3ad8a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAssetPath, addr 0x3b389d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAssetPath();
 
-  /// @brief Method get_levelDirPath, addr 0x3ad8a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelDirPath, addr 0x3b389c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelDirPath();
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapEditorSceneSetupData(BeatmapEditorSceneSetupData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5233 };
+
   /// @brief Field _levelDirPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelDirPath;
 
   /// @brief Field _levelAssetPath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelAssetPath;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5213 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEditorSceneSetupData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ____levelDirPath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapEditorSceneSetupData, ____levelAssetPath) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEditorSceneSetupData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapEditorSceneSetupData);

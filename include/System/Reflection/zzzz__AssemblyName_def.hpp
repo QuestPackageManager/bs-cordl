@@ -8,9 +8,11 @@ CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__AssemblyContentType_def.hpp"
 #include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
 #include "System/Reflection/zzzz__ProcessorArchitecture_def.hpp"
+#include "System/Runtime/InteropServices/zzzz___AssemblyName_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssemblyName)
@@ -29,23 +31,11 @@ class Assembly;
 namespace System::Reflection {
 class StrongNameKeyPair;
 }
-namespace System::Runtime::InteropServices {
-class _AssemblyName;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
-}
-namespace System {
-class ICloneable;
 }
 namespace System {
 struct IntPtr;
@@ -62,11 +52,12 @@ class AssemblyName;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::AssemblyName);
-// Type: System.Reflection::AssemblyName
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.Assemblies.AssemblyHashAlgorithm, System.Configuration.Assemblies.AssemblyVersionCompatibility, System.ICloneable, System.Object,
+// System.Reflection.AssemblyContentType, System.Reflection.AssemblyNameFlags, System.Reflection.ProcessorArchitecture, System.Runtime.InteropServices._AssemblyName,
+// System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::AssemblyName*
+// CS Name: System.Reflection.AssemblyName
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
   // Declarations
@@ -142,28 +133,28 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3ccb228, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x3d2b39c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ComputePublicKeyToken, addr 0x3ccae6c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ComputePublicKeyToken, addr 0x3d2afe0, size 0x8c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputePublicKeyToken();
 
-  /// @brief Method Create, addr 0x3ccb2dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3d2b450, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
 
-  /// @brief Method FillName, addr 0x3cca180, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method FillName, addr 0x3d2a2f4, size 0x27c, virtual false, abstract: false, final false
   inline void FillName(::cordl_internals::Ptr<::Mono::MonoAssemblyName> native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
 
-  /// @brief Method GetNativeName, addr 0x3ccb2d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetNativeName, addr 0x3d2b44c, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::Mono::MonoAssemblyName> GetNativeName(::System::IntPtr assembly_ptr);
 
-  /// @brief Method GetObjectData, addr 0x3ccaefc, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3d2b070, size 0x32c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPublicKeyToken, addr 0x3cbc738, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetPublicKeyToken, addr 0x3d1c8ac, size 0xe4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKeyToken();
 
-  /// @brief Method InternalGetPublicKeyToken, addr 0x3ccac88, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPublicKeyToken, addr 0x3d2adfc, size 0xe4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetPublicKeyToken();
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
@@ -172,13 +163,13 @@ public:
 
   static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method OnDeserialization, addr 0x3ccb2d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OnDeserialization, addr 0x3d2b444, size 0x8, virtual true, abstract: false, final true
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method ParseAssemblyName, addr 0x3cca17c, size 0x4, virtual false, abstract: false, final false
-  static inline bool ParseAssemblyName(::System::IntPtr name, ByRef<::Mono::MonoAssemblyName> aname, ByRef<bool> is_version_definited, ByRef<bool> is_token_defined);
+  /// @brief Method ParseAssemblyName, addr 0x3d2a2f0, size 0x4, virtual false, abstract: false, final false
+  static inline bool ParseAssemblyName(::System::IntPtr name, ::ByRef<::Mono::MonoAssemblyName> aname, ::ByRef<bool> is_version_definited, ::ByRef<bool> is_token_defined);
 
-  /// @brief Method ToString, addr 0x3ccadc0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d2af34, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_build() const;
@@ -193,9 +184,9 @@ public:
 
   constexpr ::System::Reflection::AssemblyContentType& __cordl_internal_get_contentType();
 
-  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_cultureinfo();
+  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get_cultureinfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get_cultureinfo() const;
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_cultureinfo();
 
   constexpr ::System::Reflection::AssemblyNameFlags const& __cordl_internal_get_flags() const;
 
@@ -209,9 +200,9 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyToken();
 
-  constexpr ::System::Reflection::StrongNameKeyPair*& __cordl_internal_get_keypair();
+  constexpr ::System::Reflection::StrongNameKeyPair* const& __cordl_internal_get_keypair() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::StrongNameKeyPair*> const& __cordl_internal_get_keypair() const;
+  constexpr ::System::Reflection::StrongNameKeyPair*& __cordl_internal_get_keypair();
 
   constexpr int32_t const& __cordl_internal_get_major() const;
 
@@ -237,9 +228,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_revision();
 
-  constexpr ::System::Version*& __cordl_internal_get_version();
+  constexpr ::System::Version* const& __cordl_internal_get_version() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
   constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& __cordl_internal_get_versioncompat() const;
 
@@ -277,34 +268,34 @@ public:
 
   constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
 
-  /// @brief Method .ctor, addr 0x3cca15c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2a2d0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cbc4b4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1c628, size 0x284, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor, addr 0x3cca3fc, size 0x504, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d2a570, size 0x504, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method get_CultureInfo, addr 0x3cca908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureInfo, addr 0x3d2aa7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_CultureInfo();
 
-  /// @brief Method get_Flags, addr 0x3cca910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Flags, addr 0x3d2aa84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::AssemblyNameFlags get_Flags();
 
-  /// @brief Method get_FullName, addr 0x3cca918, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x3d2aa8c, size 0x370, virtual false, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_IsPublicKeyValid, addr 0x3ccade8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_IsPublicKeyValid, addr 0x3d2af5c, size 0x84, virtual false, abstract: false, final false
   inline bool get_IsPublicKeyValid();
 
-  /// @brief Method get_Name, addr 0x3cca900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3d2aa74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Version, addr 0x3ccad6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x3d2aee0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method get_public_token, addr 0x3ccaef8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_public_token, addr 0x3d2b06c, size 0x4, virtual false, abstract: false, final false
   static inline void get_public_token(::cordl_internals::Ptr<uint8_t> token, ::cordl_internals::Ptr<uint8_t> pubkey, int32_t len);
 
   /// @brief Convert to "::System::ICloneable"
@@ -319,7 +310,7 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_Version, addr 0x3ccad74, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x3d2aee8, size 0x4c, virtual false, abstract: false, final false
   inline void set_Version(::System::Version* value);
 
 protected:
@@ -335,6 +326,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AssemblyName(AssemblyName const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3515 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -384,14 +378,9 @@ public:
   /// @brief Field contentType, offset: 0x6c, size: 0x4, def value: None
   ::System::Reflection::AssemblyContentType ___contentType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3515 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyName, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::AssemblyName, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::AssemblyName, ___codebase) == 0x18, "Offset mismatch!");
@@ -423,6 +412,8 @@ static_assert(offsetof(::System::Reflection::AssemblyName, ___version) == 0x60, 
 static_assert(offsetof(::System::Reflection::AssemblyName, ___processor_architecture) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::AssemblyName, ___contentType) == 0x6c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyName, 0x70>, "Size mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyName);

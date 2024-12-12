@@ -3,42 +3,40 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/Settings/zzzz__QuestSettings_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QuestSettings)
 namespace BeatSaber::Settings {
-struct __QuestSettings__FoveatedRenderingLevel;
+struct QuestSettings_FoveatedRenderingLevel;
 }
 namespace BeatSaber::Settings {
-struct __QuestSettings__SuggestedPerformanceLevel;
+struct QuestSettings_SuggestedPerformanceLevel;
 }
 // Forward declare root types
 namespace BeatSaber::Settings {
-struct __QuestSettings__FoveatedRenderingLevel;
+struct QuestSettings_FoveatedRenderingLevel;
 }
 namespace BeatSaber::Settings {
-struct __QuestSettings__SuggestedPerformanceLevel;
+struct QuestSettings_SuggestedPerformanceLevel;
 }
 namespace BeatSaber::Settings {
 struct QuestSettings;
 }
 // Write type traits
-MARK_VAL_T(::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel);
-MARK_VAL_T(::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel);
+MARK_VAL_T(::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel);
+MARK_VAL_T(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel);
 MARK_VAL_T(::BeatSaber::Settings::QuestSettings);
-// Type: ::SuggestedPerformanceLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QuestSettings::SuggestedPerformanceLevel
-struct CORDL_TYPE __QuestSettings__SuggestedPerformanceLevel {
+// CS Name: BeatSaber.Settings.QuestSettings/SuggestedPerformanceLevel
+struct CORDL_TYPE QuestSettings_SuggestedPerformanceLevel {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QuestSettings__SuggestedPerformanceLevel_Unwrapped
-  enum struct ____QuestSettings__SuggestedPerformanceLevel_Unwrapped : int32_t {
+  /// @brief Nested struct __QuestSettings_SuggestedPerformanceLevel_Unwrapped
+  enum struct __QuestSettings_SuggestedPerformanceLevel_Unwrapped : int32_t {
     __E_Default = static_cast<int32_t>(0x0),
     __E_PowerSavings = static_cast<int32_t>(0x1),
     __E_SustainedLow = static_cast<int32_t>(0x2),
@@ -47,8 +45,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QuestSettings__SuggestedPerformanceLevel_Unwrapped() const noexcept {
-    return static_cast<____QuestSettings__SuggestedPerformanceLevel_Unwrapped>(this->value__);
+  constexpr operator __QuestSettings_SuggestedPerformanceLevel_Unwrapped() const noexcept {
+    return static_cast<__QuestSettings_SuggestedPerformanceLevel_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -58,55 +56,54 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QuestSettings__SuggestedPerformanceLevel();
+  constexpr QuestSettings_SuggestedPerformanceLevel();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QuestSettings__SuggestedPerformanceLevel(int32_t value__) noexcept;
+  constexpr QuestSettings_SuggestedPerformanceLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Boost value: I32(4)
+  static ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel const Boost;
 
-  /// @brief Field Boost value: static_cast<int32_t>(0x4)
-  static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const Boost;
+  /// @brief Field Default value: I32(0)
+  static ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel const Default;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const Default;
+  /// @brief Field PowerSavings value: I32(1)
+  static ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel const PowerSavings;
 
-  /// @brief Field PowerSavings value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const PowerSavings;
+  /// @brief Field SustainedHigh value: I32(3)
+  static ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel const SustainedHigh;
 
-  /// @brief Field SustainedHigh value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const SustainedHigh;
-
-  /// @brief Field SustainedLow value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel const SustainedLow;
+  /// @brief Field SustainedLow value: I32(2)
+  static ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel const SustainedLow;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::FoveatedRenderingLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QuestSettings::FoveatedRenderingLevel
-struct CORDL_TYPE __QuestSettings__FoveatedRenderingLevel {
+// CS Name: BeatSaber.Settings.QuestSettings/FoveatedRenderingLevel
+struct CORDL_TYPE QuestSettings_FoveatedRenderingLevel {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QuestSettings__FoveatedRenderingLevel_Unwrapped
-  enum struct ____QuestSettings__FoveatedRenderingLevel_Unwrapped : int32_t {
+  /// @brief Nested struct __QuestSettings_FoveatedRenderingLevel_Unwrapped
+  enum struct __QuestSettings_FoveatedRenderingLevel_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Low = static_cast<int32_t>(0x1),
     __E_Medium = static_cast<int32_t>(0x2),
@@ -115,8 +112,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QuestSettings__FoveatedRenderingLevel_Unwrapped() const noexcept {
-    return static_cast<____QuestSettings__FoveatedRenderingLevel_Unwrapped>(this->value__);
+  constexpr operator __QuestSettings_FoveatedRenderingLevel_Unwrapped() const noexcept {
+    return static_cast<__QuestSettings_FoveatedRenderingLevel_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -126,79 +123,84 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QuestSettings__FoveatedRenderingLevel();
+  constexpr QuestSettings_FoveatedRenderingLevel();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QuestSettings__FoveatedRenderingLevel(int32_t value__) noexcept;
+  constexpr QuestSettings_FoveatedRenderingLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field High value: I32(3)
+  static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const High;
 
-  /// @brief Field High value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const High;
+  /// @brief Field HighTop value: I32(4)
+  static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const HighTop;
 
-  /// @brief Field HighTop value: static_cast<int32_t>(0x4)
-  static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const HighTop;
+  /// @brief Field Low value: I32(1)
+  static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const Low;
 
-  /// @brief Field Low value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const Low;
+  /// @brief Field Medium value: I32(2)
+  static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const Medium;
 
-  /// @brief Field Medium value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const Medium;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel const Off;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: BeatSaber.Settings::QuestSettings
-// SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 34, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.QuestSettings::FoveatedRenderingLevel, BeatSaber.Settings.QuestSettings::SuggestedPerformanceLevel
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::BeatSaber.Settings::QuestSettings
+// CS Name: BeatSaber.Settings.QuestSettings
 struct CORDL_TYPE QuestSettings {
 public:
   // Declarations
-  using FoveatedRenderingLevel = ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel;
+  using FoveatedRenderingLevel = ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel;
 
-  using SuggestedPerformanceLevel = ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel;
+  using SuggestedPerformanceLevel = ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr QuestSettings();
 
-  // Ctor Parameters [CppParam { name: "cpuLevel", ty: "::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "gpuLevel", ty:
-  // "::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingMenu", ty:
-  // "::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingGameplay", ty:
-  // "::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name: "eyeTrackedFoveatedRendering", ty: "bool", modifiers: "", def_value: None },
+  // Ctor Parameters [CppParam { name: "cpuLevel", ty: "::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "gpuLevel", ty:
+  // "::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingMenu", ty:
+  // "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingGameplay", ty:
+  // "::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel", modifiers: "", def_value: None }, CppParam { name: "eyeTrackedFoveatedRendering", ty: "bool", modifiers: "", def_value: None },
   // CppParam { name: "dynamicFoveatedRendering", ty: "bool", modifiers: "", def_value: None }]
-  constexpr QuestSettings(::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel cpuLevel, ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel gpuLevel,
-                          ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel foveatedRenderingMenu,
-                          ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel foveatedRenderingGameplay, bool eyeTrackedFoveatedRendering, bool dynamicFoveatedRendering) noexcept;
+  constexpr QuestSettings(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel cpuLevel, ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel gpuLevel,
+                          ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingMenu, ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingGameplay,
+                          bool eyeTrackedFoveatedRendering, bool dynamicFoveatedRendering) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18018 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
 
   /// @brief Field cpuLevel, offset: 0x0, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel cpuLevel;
+  ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel cpuLevel;
 
   /// @brief Field gpuLevel, offset: 0x4, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel gpuLevel;
+  ::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel gpuLevel;
 
   /// @brief Field foveatedRenderingMenu, offset: 0x8, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel foveatedRenderingMenu;
+  ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingMenu;
 
   /// @brief Field foveatedRenderingGameplay, offset: 0xc, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel foveatedRenderingGameplay;
+  ::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel foveatedRenderingGameplay;
 
   /// @brief Field eyeTrackedFoveatedRendering, offset: 0x10, size: 0x1, def value: None
   bool eyeTrackedFoveatedRendering;
@@ -206,17 +208,9 @@ public:
   /// @brief Field dynamicFoveatedRendering, offset: 0x11, size: 0x1, def value: None
   bool dynamicFoveatedRendering;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17968 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QuestSettings, 0x14>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::QuestSettings, cpuLevel) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::QuestSettings, gpuLevel) == 0x4, "Offset mismatch!");
@@ -229,7 +223,9 @@ static_assert(offsetof(::BeatSaber::Settings::QuestSettings, eyeTrackedFoveatedR
 
 static_assert(offsetof(::BeatSaber::Settings::QuestSettings, dynamicFoveatedRendering) == 0x11, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QuestSettings, 0x14>, "Size mismatch!");
+
 } // namespace BeatSaber::Settings
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QuestSettings__FoveatedRenderingLevel, "BeatSaber.Settings", "QuestSettings/FoveatedRenderingLevel");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QuestSettings__SuggestedPerformanceLevel, "BeatSaber.Settings", "QuestSettings/SuggestedPerformanceLevel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QuestSettings_FoveatedRenderingLevel, "BeatSaber.Settings", "QuestSettings/FoveatedRenderingLevel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QuestSettings_SuggestedPerformanceLevel, "BeatSaber.Settings", "QuestSettings/SuggestedPerformanceLevel");
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QuestSettings, "BeatSaber.Settings", "QuestSettings");

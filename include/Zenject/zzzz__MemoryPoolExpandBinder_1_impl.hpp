@@ -11,20 +11,13 @@ template <typename TContract> constexpr ::Zenject::MemoryPoolBindInfo*& Zenject:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemoryPoolBindInfo_k__BackingField;
 }
-template <typename TContract>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& Zenject::MemoryPoolExpandBinder_1<TContract>::__cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const {
+template <typename TContract> constexpr ::Zenject::MemoryPoolBindInfo* const& Zenject::MemoryPoolExpandBinder_1<TContract>::__cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____MemoryPoolBindInfo_k__BackingField;
 }
 template <typename TContract> constexpr void Zenject::MemoryPoolExpandBinder_1<TContract>::__cordl_internal_set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____MemoryPoolBindInfo_k__BackingField, value);
-}
-template <typename TContract>
-inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* Zenject::MemoryPoolExpandBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
-                                                                                                              ::Zenject::FactoryBindInfo* factoryBindInfo,
-                                                                                                              ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPoolExpandBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
 }
 template <typename TContract>
 inline void Zenject::MemoryPoolExpandBinder_1<TContract>::_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
@@ -47,19 +40,23 @@ template <typename TContract> inline void Zenject::MemoryPoolExpandBinder_1<TCon
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::MemoryPoolBindInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-/// @param showExpandWarning: bool (default: true)
 template <typename TContract> inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* Zenject::MemoryPoolExpandBinder_1<TContract>::ExpandByOneAtATime(bool showExpandWarning) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolExpandBinder_1<TContract>*>::get(), "ExpandByOneAtATime",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal_method, showExpandWarning);
 }
-/// @param showExpandWarning: bool (default: true)
 template <typename TContract> inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* Zenject::MemoryPoolExpandBinder_1<TContract>::ExpandByDoubling(bool showExpandWarning) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolExpandBinder_1<TContract>*>::get(), "ExpandByDoubling",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>*, false>(this, ___internal_method, showExpandWarning);
+}
+template <typename TContract>
+inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* Zenject::MemoryPoolExpandBinder_1<TContract>::New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
+                                                                                                              ::Zenject::FactoryBindInfo* factoryBindInfo,
+                                                                                                              ::Zenject::MemoryPoolBindInfo* poolBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPoolExpandBinder_1<TContract>*>(bindContainer, bindInfo, factoryBindInfo, poolBindInfo));
 }
 // Ctor Parameters []
 template <typename TContract> constexpr ::Zenject::MemoryPoolExpandBinder_1<TContract>::MemoryPoolExpandBinder_1() {}

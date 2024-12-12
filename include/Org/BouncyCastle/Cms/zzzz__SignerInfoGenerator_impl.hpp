@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInfoGenerator::*)(
     ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*, ::Org::BouncyCastle::Crypto::ISignatureFactory*)>(&::Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2648b38;
+  constexpr static std::size_t addrs = 0x267be24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInfoGenerator::*)(
     ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*, ::Org::BouncyCastle::Crypto::ISignatureFactory*, bool)>(&::Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2648b40;
+  constexpr static std::size_t addrs = 0x267be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*, ::Org::BouncyCastle::Crypto::ISignatureFactory*, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2648bd0;
+  constexpr static std::size_t addrs = 0x267bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SignerInfoGenerator::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Cms::SignerInfoGenerator::setAssociatedCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2648c14;
+  constexpr static std::size_t addrs = 0x267bf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ constexpr ::Org::BouncyCastle::X509::X509Certificate*& Org::BouncyCastle::Cms::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_certificate() const {
+constexpr ::Org::BouncyCastle::X509::X509Certificate* const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_certificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
@@ -89,7 +89,7 @@ constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& Org::BouncyCastle::Cm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentSigner;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_contentSigner() const {
+constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory* const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_contentSigner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentSigner;
 }
@@ -101,7 +101,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_sigId() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_sigId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigId;
 }
@@ -113,7 +113,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_signedGen() const {
+constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_signedGen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___signedGen;
 }
@@ -125,7 +125,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_unsignedGen() const {
+constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* const& Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_get_unsignedGen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsignedGen;
 }
@@ -145,20 +145,12 @@ constexpr void Org::BouncyCastle::Cms::SignerInfoGenerator::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isDirectSignature = value;
 }
-inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
-                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, signerFactory));
-}
 inline void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInfoGenerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigId, signerFactory);
-}
-inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
-                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, signerFactory, isDirectSignature));
 }
 inline void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory,
                                                                bool isDirectSignature) {
@@ -168,12 +160,6 @@ inline void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(::Org::BouncyCast
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ISignatureFactory*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigId, signerFactory, isDirectSignature);
-}
-inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
-                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
-                                                                                                            ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
-                                                                                                            ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, contentSigner, signedGen, unsignedGen));
 }
 inline void Org::BouncyCastle::Cms::SignerInfoGenerator::_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                                                                ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen) {
@@ -190,6 +176,20 @@ inline void Org::BouncyCastle::Cms::SignerInfoGenerator::setAssociatedCertificat
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::SignerInfoGenerator*>::get(), "setAssociatedCertificate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::X509Certificate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certificate);
+}
+inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
+                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, signerFactory));
+}
+inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
+                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, signerFactory, isDirectSignature));
+}
+inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* Org::BouncyCastle::Cms::SignerInfoGenerator::New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId,
+                                                                                                            ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
+                                                                                                            ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
+                                                                                                            ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::SignerInfoGenerator*>(sigId, contentSigner, signedGen, unsignedGen));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::SignerInfoGenerator::SignerInfoGenerator() {}

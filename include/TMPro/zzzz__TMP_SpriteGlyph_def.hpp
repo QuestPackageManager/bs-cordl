@@ -22,11 +22,10 @@ class TMP_SpriteGlyph;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_SpriteGlyph);
-// Type: TMPro::TMP_SpriteGlyph
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.Glyph
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_SpriteGlyph*
+// CS Name: TMPro.TMP_SpriteGlyph
 class CORDL_TYPE TMP_SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
   // Declarations
@@ -46,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x47a0010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4801324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47a0380, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4801694, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x47a043c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4801750, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:
@@ -69,18 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_SpriteGlyph(TMP_SpriteGlyph const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14540 };
+
   /// @brief Field sprite, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ___sprite;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteGlyph, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_SpriteGlyph, ___sprite) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteGlyph, 0x50>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SpriteGlyph);

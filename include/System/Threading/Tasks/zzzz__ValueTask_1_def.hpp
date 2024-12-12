@@ -4,14 +4,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueTask_1)
-namespace GlobalNamespace {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
-}
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
 }
@@ -25,45 +23,44 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
+template <typename TResult> class ValueTaskSourceAsTask_ValueTask_1___c;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class ValueTask_1_ValueTaskSourceAsTask;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
+namespace System::Threading::Tasks {
+template <typename TResult> class ValueTaskSourceAsTask_ValueTask_1___c;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
+template <typename TResult> class ValueTask_1_ValueTaskSourceAsTask;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
 // Write type traits
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c);
-MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask);
+MARK_GEN_REF_PTR_T(::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c);
+MARK_GEN_REF_PTR_T(::System::Threading::Tasks::ValueTask_1_ValueTaskSourceAsTask);
 MARK_GEN_VAL_T(::System::Threading::Tasks::ValueTask_1);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::ValueTask`1::ValueTaskSourceAsTask::<>c<TResult>*
-class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Object {
+// CS Name: System.Threading.Tasks.ValueTask`1/ValueTaskSourceAsTask/<>c<TResult>
+class CORDL_TYPE ValueTaskSourceAsTask_ValueTask_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>* __9;
 
-  static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* New_ctor();
+  static inline ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>* New_ctor();
 
   /// @brief Method <.cctor>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* state);
@@ -71,23 +68,23 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* getStaticF___9();
+  static inline ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>* getStaticF___9();
 
-  static inline void setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value);
+  static inline void setStaticF___9(::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ValueTask_1__ValueTaskSourceAsTask____c();
+  constexpr ValueTaskSourceAsTask_ValueTask_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ValueTask_1__ValueTaskSourceAsTask____c(__ValueTask_1__ValueTaskSourceAsTask____c&&) = delete;
+  ValueTaskSourceAsTask_ValueTask_1___c(ValueTaskSourceAsTask_ValueTask_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTaskSourceAsTask_ValueTask_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ValueTask_1__ValueTaskSourceAsTask____c(__ValueTask_1__ValueTaskSourceAsTask____c const&) = delete;
+  ValueTaskSourceAsTask_ValueTask_1___c(ValueTaskSourceAsTask_ValueTask_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2768 };
@@ -95,18 +92,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
-// Type: ::ValueTaskSourceAsTask
-// SizeInfo { instance_size: 104, native_size: 98, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace System::Threading::Tasks
+// Dependencies System.Threading.Tasks.Task`1<TResult>
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
-class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
+// CS Name: System.Threading.Tasks.ValueTask`1/ValueTaskSourceAsTask<TResult>
+class CORDL_TYPE ValueTask_1_ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
+  using __c = ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>;
 
   /// @brief Field _source, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source)) ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* _source;
@@ -115,13 +111,13 @@ public:
   __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) int16_t _token;
 
   /// @brief Field s_completionAction, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction)) ::System::Action_1<::System::Object*>* s_completionAction;
+  __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction)) ::System::Action_1<::System::Object*>* s_completionAction;
 
-  static inline ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
+  static inline ::System::Threading::Tasks::ValueTask_1_ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
+
+  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* const& __cordl_internal_get__source() const;
 
   constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*& __cordl_internal_get__source();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*> const& __cordl_internal_get__source() const;
 
   constexpr int16_t const& __cordl_internal_get__token() const;
 
@@ -141,16 +137,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ValueTask_1__ValueTaskSourceAsTask();
+  constexpr ValueTask_1_ValueTaskSourceAsTask();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_1_ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ValueTask_1__ValueTaskSourceAsTask(__ValueTask_1__ValueTaskSourceAsTask&&) = delete;
+  ValueTask_1_ValueTaskSourceAsTask(ValueTask_1_ValueTaskSourceAsTask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ValueTask_1_ValueTaskSourceAsTask", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ValueTask_1__ValueTaskSourceAsTask(__ValueTask_1__ValueTaskSourceAsTask const&) = delete;
+  ValueTask_1_ValueTaskSourceAsTask(ValueTask_1_ValueTaskSourceAsTask const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };
 
   /// @brief Field _source, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* ____source;
@@ -158,24 +157,20 @@ public:
   /// @brief Field _token, offset: 0x60, size: 0x2, def value: None
   int16_t ____token;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-// Type: System.Threading.Tasks::ValueTask`1
-// SizeInfo { instance_size: 24, native_size: 35, calculated_instance_size: 24, calculated_native_size: 35, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// CS Name: ::System.Threading.Tasks::ValueTask`1<TResult>
+// CS Name: System.Threading.Tasks.ValueTask`1<TResult>
 struct CORDL_TYPE ValueTask_1 {
 public:
   // Declarations
-  using ValueTaskSourceAsTask = ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>;
+  using ValueTaskSourceAsTask = ::System::Threading::Tasks::ValueTask_1_ValueTaskSourceAsTask<TResult>;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
@@ -184,7 +179,7 @@ public:
   __declspec(property(get = get_Result)) TResult Result;
 
   /// @brief Field s_canceledTask, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask)) ::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
+  __declspec(property(get = getStaticF_s_canceledTask, put = setStaticF_s_canceledTask)) ::System::Threading::Tasks::Task_1<TResult>* s_canceledTask;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask_1<TResult>>*();
@@ -249,6 +244,12 @@ public:
   // "_token", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "_continueOnCapturedContext", ty: "bool", modifiers: "", def_value: None }]
   constexpr ValueTask_1(::System::Object* _obj, TResult _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2770 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field _obj, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _obj;
 
@@ -261,16 +262,10 @@ public:
   /// @brief Field _continueOnCapturedContext, offset: 0x12, size: 0x1, def value: None
   bool _continueOnCapturedContext;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2770 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c, "System.Threading.Tasks", "ValueTask`1/ValueTaskSourceAsTask/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask, "System.Threading.Tasks", "ValueTask`1/ValueTaskSourceAsTask");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c, "System.Threading.Tasks", "ValueTask`1/ValueTaskSourceAsTask/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::ValueTask_1_ValueTaskSourceAsTask, "System.Threading.Tasks", "ValueTask`1/ValueTaskSourceAsTask");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Threading::Tasks::ValueTask_1, "System.Threading.Tasks", "ValueTask`1");

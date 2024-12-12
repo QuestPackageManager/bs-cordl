@@ -12,11 +12,10 @@ struct LightType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LightType);
-// Type: UnityEngine.Experimental.GlobalIllumination::LightType
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::LightType
+// CS Name: UnityEngine.Experimental.GlobalIllumination.LightType
 struct CORDL_TYPE LightType {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr LightType(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field Directional value: static_cast<uint8_t>(0x0u)
+  /// @brief Field Directional value: U8(0)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const Directional;
 
-  /// @brief Field Disc value: static_cast<uint8_t>(0x4u)
+  /// @brief Field Disc value: U8(4)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const Disc;
 
-  /// @brief Field Point value: static_cast<uint8_t>(0x1u)
+  /// @brief Field Point value: U8(1)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const Point;
 
-  /// @brief Field Rectangle value: static_cast<uint8_t>(0x3u)
+  /// @brief Field Rectangle value: U8(3)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const Rectangle;
 
-  /// @brief Field Spot value: static_cast<uint8_t>(0x2u)
+  /// @brief Field Spot value: U8(2)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const Spot;
 
-  /// @brief Field SpotBoxShape value: static_cast<uint8_t>(0x6u)
+  /// @brief Field SpotBoxShape value: U8(6)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const SpotBoxShape;
 
-  /// @brief Field SpotPyramidShape value: static_cast<uint8_t>(0x5u)
+  /// @brief Field SpotPyramidShape value: U8(5)
   static ::UnityEngine::Experimental::GlobalIllumination::LightType const SpotPyramidShape;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11290 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::LightType, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LightType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::LightType, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::LightType, "UnityEngine.Experimental.GlobalIllumination", "LightType");

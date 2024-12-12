@@ -14,53 +14,51 @@ class CachedReflectionInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::CachedReflectionInfo);
-// Type: System.Linq.Expressions::CachedReflectionInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::CachedReflectionInfo*
+// CS Name: System.Linq.Expressions.CachedReflectionInfo
 class CORDL_TYPE CachedReflectionInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_CallSiteOps_AddRule, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_AddRule, put = setStaticF_s_CallSiteOps_AddRule)) ::System::Reflection::MethodInfo* s_CallSiteOps_AddRule;
+  __declspec(property(get = getStaticF_s_CallSiteOps_AddRule, put = setStaticF_s_CallSiteOps_AddRule)) ::System::Reflection::MethodInfo* s_CallSiteOps_AddRule;
 
   /// @brief Field s_CallSiteOps_Bind, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_Bind, put = setStaticF_s_CallSiteOps_Bind)) ::System::Reflection::MethodInfo* s_CallSiteOps_Bind;
+  __declspec(property(get = getStaticF_s_CallSiteOps_Bind, put = setStaticF_s_CallSiteOps_Bind)) ::System::Reflection::MethodInfo* s_CallSiteOps_Bind;
 
   /// @brief Field s_CallSiteOps_ClearMatch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_ClearMatch, put = setStaticF_s_CallSiteOps_ClearMatch)) ::System::Reflection::MethodInfo* s_CallSiteOps_ClearMatch;
+  __declspec(property(get = getStaticF_s_CallSiteOps_ClearMatch, put = setStaticF_s_CallSiteOps_ClearMatch)) ::System::Reflection::MethodInfo* s_CallSiteOps_ClearMatch;
 
   /// @brief Field s_CallSiteOps_CreateMatchmaker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_CreateMatchmaker, put = setStaticF_s_CallSiteOps_CreateMatchmaker)) ::System::Reflection::MethodInfo* s_CallSiteOps_CreateMatchmaker;
+  __declspec(property(get = getStaticF_s_CallSiteOps_CreateMatchmaker, put = setStaticF_s_CallSiteOps_CreateMatchmaker)) ::System::Reflection::MethodInfo* s_CallSiteOps_CreateMatchmaker;
 
   /// @brief Field s_CallSiteOps_GetCachedRules, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_GetCachedRules, put = setStaticF_s_CallSiteOps_GetCachedRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetCachedRules;
+  __declspec(property(get = getStaticF_s_CallSiteOps_GetCachedRules, put = setStaticF_s_CallSiteOps_GetCachedRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetCachedRules;
 
   /// @brief Field s_CallSiteOps_GetMatch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_GetMatch, put = setStaticF_s_CallSiteOps_GetMatch)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetMatch;
+  __declspec(property(get = getStaticF_s_CallSiteOps_GetMatch, put = setStaticF_s_CallSiteOps_GetMatch)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetMatch;
 
   /// @brief Field s_CallSiteOps_GetRuleCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_GetRuleCache, put = setStaticF_s_CallSiteOps_GetRuleCache)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetRuleCache;
+  __declspec(property(get = getStaticF_s_CallSiteOps_GetRuleCache, put = setStaticF_s_CallSiteOps_GetRuleCache)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetRuleCache;
 
   /// @brief Field s_CallSiteOps_GetRules, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_GetRules, put = setStaticF_s_CallSiteOps_GetRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetRules;
+  __declspec(property(get = getStaticF_s_CallSiteOps_GetRules, put = setStaticF_s_CallSiteOps_GetRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_GetRules;
 
   /// @brief Field s_CallSiteOps_MoveRule, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_MoveRule, put = setStaticF_s_CallSiteOps_MoveRule)) ::System::Reflection::MethodInfo* s_CallSiteOps_MoveRule;
+  __declspec(property(get = getStaticF_s_CallSiteOps_MoveRule, put = setStaticF_s_CallSiteOps_MoveRule)) ::System::Reflection::MethodInfo* s_CallSiteOps_MoveRule;
 
   /// @brief Field s_CallSiteOps_SetNotMatched, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_SetNotMatched, put = setStaticF_s_CallSiteOps_SetNotMatched)) ::System::Reflection::MethodInfo* s_CallSiteOps_SetNotMatched;
+  __declspec(property(get = getStaticF_s_CallSiteOps_SetNotMatched, put = setStaticF_s_CallSiteOps_SetNotMatched)) ::System::Reflection::MethodInfo* s_CallSiteOps_SetNotMatched;
 
   /// @brief Field s_CallSiteOps_UpdateRules, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CallSiteOps_UpdateRules, put = setStaticF_s_CallSiteOps_UpdateRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_UpdateRules;
+  __declspec(property(get = getStaticF_s_CallSiteOps_UpdateRules, put = setStaticF_s_CallSiteOps_UpdateRules)) ::System::Reflection::MethodInfo* s_CallSiteOps_UpdateRules;
 
   /// @brief Field s_Math_Pow_Double_Double, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Math_Pow_Double_Double, put = setStaticF_s_Math_Pow_Double_Double)) ::System::Reflection::MethodInfo* s_Math_Pow_Double_Double;
+  __declspec(property(get = getStaticF_s_Math_Pow_Double_Double, put = setStaticF_s_Math_Pow_Double_Double)) ::System::Reflection::MethodInfo* s_Math_Pow_Double_Double;
 
   /// @brief Field s_String_op_Equality_String_String, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_String_op_Equality_String_String,
-                             put = setStaticF_s_String_op_Equality_String_String)) ::System::Reflection::MethodInfo* s_String_op_Equality_String_String;
+  __declspec(property(get = getStaticF_s_String_op_Equality_String_String, put = setStaticF_s_String_op_Equality_String_String)) ::System::Reflection::MethodInfo* s_String_op_Equality_String_String;
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_CallSiteOps_AddRule();
 
@@ -88,43 +86,43 @@ public:
 
   static inline ::System::Reflection::MethodInfo* getStaticF_s_String_op_Equality_String_String();
 
-  /// @brief Method get_CallSiteOps_AddRule, addr 0x40305d8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_AddRule, addr 0x40918ec, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_AddRule();
 
-  /// @brief Method get_CallSiteOps_Bind, addr 0x4030768, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_Bind, addr 0x4091a7c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_Bind();
 
-  /// @brief Method get_CallSiteOps_ClearMatch, addr 0x40301f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_ClearMatch, addr 0x4091504, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_ClearMatch();
 
-  /// @brief Method get_CallSiteOps_CreateMatchmaker, addr 0x4030060, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_CreateMatchmaker, addr 0x4091374, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_CreateMatchmaker();
 
-  /// @brief Method get_CallSiteOps_GetCachedRules, addr 0x4030510, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetCachedRules, addr 0x4091824, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetCachedRules();
 
-  /// @brief Method get_CallSiteOps_GetMatch, addr 0x4030128, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetMatch, addr 0x409143c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetMatch();
 
-  /// @brief Method get_CallSiteOps_GetRuleCache, addr 0x4030448, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetRuleCache, addr 0x409175c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetRuleCache();
 
-  /// @brief Method get_CallSiteOps_GetRules, addr 0x4030380, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_GetRules, addr 0x4091694, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_GetRules();
 
-  /// @brief Method get_CallSiteOps_MoveRule, addr 0x40306a0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_MoveRule, addr 0x40919b4, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_MoveRule();
 
-  /// @brief Method get_CallSiteOps_SetNotMatched, addr 0x402ff98, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_SetNotMatched, addr 0x40912ac, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_SetNotMatched();
 
-  /// @brief Method get_CallSiteOps_UpdateRules, addr 0x40302b8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_CallSiteOps_UpdateRules, addr 0x40915cc, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_CallSiteOps_UpdateRules();
 
-  /// @brief Method get_Math_Pow_Double_Double, addr 0x40309b8, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method get_Math_Pow_Double_Double, addr 0x4091ccc, size 0x19c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_Math_Pow_Double_Double();
 
-  /// @brief Method get_String_op_Equality_String_String, addr 0x4030830, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method get_String_op_Equality_String_String, addr 0x4091b44, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* get_String_op_Equality_String_String();
 
   static inline void setStaticF_s_CallSiteOps_AddRule(::System::Reflection::MethodInfo* value);
@@ -168,7 +166,7 @@ public:
   CachedReflectionInfo(CachedReflectionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

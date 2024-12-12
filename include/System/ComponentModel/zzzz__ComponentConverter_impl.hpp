@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ComponentConverter::*)(::System::Type*)>(
     &::System::ComponentModel::ComponentConverter::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43fab60;
+  constexpr static std::size_t addrs = 0x445be74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::ComponentConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::ComponentConverter::GetProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43fabcc;
+  constexpr static std::size_t addrs = 0x445bee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ComponentConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::ComponentConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43fac34;
+  constexpr static std::size_t addrs = 0x445bf48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,9 +53,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::ComponentModel::ComponentConverter* System::ComponentModel::ComponentConverter::New_ctor(::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ComponentConverter*>(type));
-}
 inline void System::ComponentModel::ComponentConverter::_ctor(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ComponentConverter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -73,6 +70,9 @@ inline bool System::ComponentModel::ComponentConverter::GetPropertiesSupported(:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ComponentConverter*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, context);
+}
+inline ::System::ComponentModel::ComponentConverter* System::ComponentModel::ComponentConverter::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ComponentConverter*>(type));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ComponentConverter::ComponentConverter() {}

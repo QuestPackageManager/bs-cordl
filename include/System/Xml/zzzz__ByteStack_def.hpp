@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteStack)
 // Forward declare root types
@@ -13,11 +12,10 @@ class ByteStack;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::ByteStack);
-// Type: System.Xml::ByteStack
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::ByteStack*
+// CS Name: System.Xml.ByteStack
 class CORDL_TYPE ByteStack : public ::System::Object {
 public:
   // Declarations
@@ -35,10 +33,10 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x41df604, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x4240918, size 0x48, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x41df534, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x4240848, size 0xd0, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -65,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41df4c4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42407d8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:
@@ -82,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ByteStack(ByteStack const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7168 };
+
   /// @brief Field stack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___stack;
 
@@ -94,14 +95,9 @@ public:
   /// @brief Field size, offset: 0x20, size: 0x4, def value: None
   int32_t ___size;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7143 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::ByteStack, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::ByteStack, ___stack) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::ByteStack, ___growthRate) == 0x18, "Offset mismatch!");
@@ -109,6 +105,8 @@ static_assert(offsetof(::System::Xml::ByteStack, ___growthRate) == 0x18, "Offset
 static_assert(offsetof(::System::Xml::ByteStack, ___top) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::ByteStack, ___size) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::ByteStack, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::ByteStack);

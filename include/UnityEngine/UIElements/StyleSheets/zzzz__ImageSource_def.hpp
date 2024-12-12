@@ -23,15 +23,14 @@ struct ImageSource;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
-// Type: UnityEngine.UIElements.StyleSheets::ImageSource
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets::ImageSource
+// CS Name: UnityEngine.UIElements.StyleSheets.ImageSource
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x496ed4c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x49d365c, size 0xe8, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters []
@@ -43,6 +42,12 @@ public:
   // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }]
   constexpr ImageSource(::UnityW<::UnityEngine::Texture2D> texture, ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
                         ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6449 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field texture, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> texture;
@@ -56,17 +61,9 @@ public:
   /// @brief Field renderTexture, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> renderTexture;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6424 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::ImageSource, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, texture) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, sprite) == 0x8, "Offset mismatch!");
@@ -74,6 +71,8 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, spri
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, vectorImage) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::ImageSource, renderTexture) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::ImageSource, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::ImageSource, "UnityEngine.UIElements.StyleSheets", "ImageSource");

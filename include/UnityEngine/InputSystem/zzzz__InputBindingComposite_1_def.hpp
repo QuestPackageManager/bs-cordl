@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingComposite_1)
 namespace System {
@@ -22,13 +21,12 @@ template <typename TValue> class InputBindingComposite_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputBindingComposite_1);
-// Type: UnityEngine.InputSystem::InputBindingComposite`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputBindingComposite
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
+// CS Name: UnityEngine.InputSystem.InputBindingComposite`1<TValue>
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
   // Declarations
@@ -38,14 +36,14 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline TValue ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+  /// @brief Method ReadValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValue ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+  inline void ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
   /// @brief Method ReadValueAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+  inline ::System::Object* ReadValueAsObject(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -71,7 +69,7 @@ public:
   InputBindingComposite_1(InputBindingComposite_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6566 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6591 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

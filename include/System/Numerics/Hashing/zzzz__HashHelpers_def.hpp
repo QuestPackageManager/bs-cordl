@@ -12,18 +12,17 @@ class HashHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Numerics::Hashing::HashHelpers);
-// Type: System.Numerics.Hashing::HashHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Numerics::Hashing {
 // Is value type: false
-// CS Name: ::System.Numerics.Hashing::HashHelpers*
+// CS Name: System.Numerics.Hashing.HashHelpers
 class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RandomSeed, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_RandomSeed, put = setStaticF_RandomSeed)) int32_t RandomSeed;
+  __declspec(property(get = getStaticF_RandomSeed, put = setStaticF_RandomSeed)) int32_t RandomSeed;
 
-  /// @brief Method Combine, addr 0x41ac6f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x3d35b58, size 0x10, virtual false, abstract: false, final false
   static inline int32_t Combine(int32_t h1, int32_t h2);
 
   static inline int32_t getStaticF_RandomSeed();
@@ -45,7 +44,7 @@ public:
   HashHelpers(HashHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

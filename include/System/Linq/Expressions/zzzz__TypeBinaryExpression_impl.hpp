@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::TypeBinaryExpression::*)(
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::TypeBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x405a598;
+  constexpr static std::size_t addrs = 0x40bb8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_Type)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x405a618;
+  constexpr static std::size_t addrs = 0x40bb92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a684;
+  constexpr static std::size_t addrs = 0x40bb998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a68c;
+  constexpr static std::size_t addrs = 0x40bb9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_TypeOperand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a694;
+  constexpr static std::size_t addrs = 0x40bb9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::TypeBinaryExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::TypeBinaryExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x405a69c;
+  constexpr static std::size_t addrs = 0x40bb9b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::TypeBinaryExpression* (
     ::System::Linq::Expressions::TypeBinaryExpression::*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::TypeBinaryExpression::Update)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x40562f4;
+  constexpr static std::size_t addrs = 0x40b7608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +127,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expression_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const&
-System::Linq::Expressions::TypeBinaryExpression::__cordl_internal_get__Expression_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::TypeBinaryExpression::__cordl_internal_get__Expression_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expression_k__BackingField;
 }
@@ -140,17 +139,13 @@ constexpr ::System::Type*& System::Linq::Expressions::TypeBinaryExpression::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeOperand_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::TypeBinaryExpression::__cordl_internal_get__TypeOperand_k__BackingField() const {
+constexpr ::System::Type* const& System::Linq::Expressions::TypeBinaryExpression::__cordl_internal_get__TypeOperand_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____TypeOperand_k__BackingField;
 }
 constexpr void System::Linq::Expressions::TypeBinaryExpression::__cordl_internal_set__TypeOperand_k__BackingField(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____TypeOperand_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::TypeBinaryExpression* System::Linq::Expressions::TypeBinaryExpression::New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand,
-                                                                                                                    ::System::Linq::Expressions::ExpressionType nodeType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::TypeBinaryExpression*>(expression, typeOperand, nodeType));
 }
 inline void System::Linq::Expressions::TypeBinaryExpression::_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand,
                                                                    ::System::Linq::Expressions::ExpressionType nodeType) {
@@ -191,6 +186,10 @@ inline ::System::Linq::Expressions::TypeBinaryExpression* System::Linq::Expressi
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::TypeBinaryExpression*, false>(this, ___internal_method, expression);
+}
+inline ::System::Linq::Expressions::TypeBinaryExpression* System::Linq::Expressions::TypeBinaryExpression::New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* typeOperand,
+                                                                                                                    ::System::Linq::Expressions::ExpressionType nodeType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::TypeBinaryExpression*>(expression, typeOperand, nodeType));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::TypeBinaryExpression::TypeBinaryExpression() {}

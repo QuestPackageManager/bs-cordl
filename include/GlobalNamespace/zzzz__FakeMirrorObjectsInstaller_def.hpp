@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(FakeMirrorObjectsInstaller)
 namespace GlobalNamespace {
+class FakeMirrorObjectsInstaller___c;
+}
+namespace GlobalNamespace {
 class MirrorRendererGraphicsSettingsPresets;
 }
 namespace GlobalNamespace {
@@ -24,9 +27,6 @@ class MirroredSliderController;
 namespace GlobalNamespace {
 class SettingsManager;
 }
-namespace GlobalNamespace {
-class __FakeMirrorObjectsInstaller____c;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
@@ -38,73 +38,71 @@ namespace GlobalNamespace {
 class FakeMirrorObjectsInstaller;
 }
 namespace GlobalNamespace {
-class __FakeMirrorObjectsInstaller____c;
+class FakeMirrorObjectsInstaller___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FakeMirrorObjectsInstaller);
-MARK_REF_PTR_T(::GlobalNamespace::__FakeMirrorObjectsInstaller____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::FakeMirrorObjectsInstaller___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FakeMirrorObjectsInstaller::<>c*
-class CORDL_TYPE __FakeMirrorObjectsInstaller____c : public ::System::Object {
+// CS Name: FakeMirrorObjectsInstaller/<>c
+class CORDL_TYPE FakeMirrorObjectsInstaller___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::FakeMirrorObjectsInstaller___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::Zenject::BindingId, bool>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::Zenject::BindingId, bool>* __9__10_0;
 
-  static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
+  static inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__10_0, addr 0x3b8e330, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__10_0, addr 0x3bf00b0, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x3b8e328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf00a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* getStaticF___9();
+  static inline ::GlobalNamespace::FakeMirrorObjectsInstaller___c* getStaticF___9();
 
   static inline ::System::Func_2<::Zenject::BindingId, bool>* getStaticF___9__10_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__FakeMirrorObjectsInstaller____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::FakeMirrorObjectsInstaller___c* value);
 
   static inline void setStaticF___9__10_0(::System::Func_2<::Zenject::BindingId, bool>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FakeMirrorObjectsInstaller____c();
+  constexpr FakeMirrorObjectsInstaller___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__FakeMirrorObjectsInstaller____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __FakeMirrorObjectsInstaller____c(__FakeMirrorObjectsInstaller____c&&) = delete;
+  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FakeMirrorObjectsInstaller____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __FakeMirrorObjectsInstaller____c(__FakeMirrorObjectsInstaller____c const&) = delete;
+  FakeMirrorObjectsInstaller___c(FakeMirrorObjectsInstaller___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FakeMirrorObjectsInstaller____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorObjectsInstaller___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::FakeMirrorObjectsInstaller
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FakeMirrorObjectsInstaller*
+// CS Name: FakeMirrorObjectsInstaller
 class CORDL_TYPE FakeMirrorObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__FakeMirrorObjectsInstaller____c;
+  using __c = ::GlobalNamespace::FakeMirrorObjectsInstaller___c;
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
@@ -145,7 +143,7 @@ public:
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab)) ::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b8de08, size 0x4bc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3befb88, size 0x4bc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
@@ -178,9 +176,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MirroredSliderController>& __cordl_internal_get__mirroredSliderControllerPrefab();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
 
@@ -198,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b8e2c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf0044, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3b8de00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x3befb80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:
@@ -217,6 +215,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FakeMirrorObjectsInstaller(FakeMirrorObjectsInstaller const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4718 };
 
   /// @brief Field _mirroredGameNoteControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredGameNoteControllerPrefab;
@@ -242,14 +243,9 @@ public:
   /// @brief Field _settingsManager, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4702 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorObjectsInstaller, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredGameNoteControllerPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredBurstSliderHeadGameNoteControllerPrefab) == 0x30, "Offset mismatch!");
@@ -266,8 +262,10 @@ static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirror
 
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____settingsManager) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FakeMirrorObjectsInstaller, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FakeMirrorObjectsInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FakeMirrorObjectsInstaller*, "", "FakeMirrorObjectsInstaller");
-NEED_NO_BOX(::GlobalNamespace::__FakeMirrorObjectsInstaller____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FakeMirrorObjectsInstaller____c*, "", "FakeMirrorObjectsInstaller/<>c");
+NEED_NO_BOX(::GlobalNamespace::FakeMirrorObjectsInstaller___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FakeMirrorObjectsInstaller___c*, "", "FakeMirrorObjectsInstaller/<>c");

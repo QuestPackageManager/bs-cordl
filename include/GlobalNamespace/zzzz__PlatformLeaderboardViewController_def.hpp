@@ -6,11 +6,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardViewController)
@@ -19,6 +21,9 @@ struct BeatmapKey;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
+}
+namespace GlobalNamespace {
+class LeaderboardTableView_ScoreData;
 }
 namespace GlobalNamespace {
 class LeaderboardTableView;
@@ -30,28 +35,25 @@ namespace GlobalNamespace {
 class LoadingControl;
 }
 namespace GlobalNamespace {
+class PlatformLeaderboardViewController__RefreshDelayed_d__33;
+}
+namespace GlobalNamespace {
+struct PlatformLeaderboardViewController__Refresh_d__31;
+}
+namespace GlobalNamespace {
+struct PlatformLeaderboardsModel_GetScoresResult;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel_LeaderboardScore;
+}
+namespace GlobalNamespace {
+struct PlatformLeaderboardsModel_ScoresScope;
+}
+namespace GlobalNamespace {
 class PlatformLeaderboardsModel;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class __LeaderboardTableView__ScoreData;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardViewController___RefreshDelayed_d__33;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardViewController___Refresh_d__31;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
-}
-namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace HMUI {
 class IconSegmentedControl;
@@ -60,28 +62,16 @@ namespace HMUI {
 class SegmentedControl;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -94,30 +84,29 @@ namespace GlobalNamespace {
 class PlatformLeaderboardViewController;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardViewController___RefreshDelayed_d__33;
+class PlatformLeaderboardViewController__RefreshDelayed_d__33;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardViewController___Refresh_d__31;
+struct PlatformLeaderboardViewController__Refresh_d__31;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33);
-MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31);
-// Type: ::<Refresh>d__31
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33);
+MARK_VAL_T(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31);
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlatformLeaderboardViewController::<Refresh>d__31
-struct CORDL_TYPE __PlatformLeaderboardViewController___Refresh_d__31 {
+// CS Name: PlatformLeaderboardViewController/<Refresh>d__31
+struct CORDL_TYPE PlatformLeaderboardViewController__Refresh_d__31 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3afa9e8, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b5a24c, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3afacac, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3b5a510, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -125,15 +114,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlatformLeaderboardViewController___Refresh_d__31();
+  constexpr PlatformLeaderboardViewController__Refresh_d__31();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value: None }, CppParam
   // { name: "clear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __PlatformLeaderboardViewController___Refresh_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator, bool clear,
-                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr PlatformLeaderboardViewController__Refresh_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                             ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator, bool clear,
+                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5330 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -153,36 +148,29 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5306 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, showLoadingIndicator) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, showLoadingIndicator) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, clear) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, clear) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<RefreshDelayed>d__33
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlatformLeaderboardViewController::<RefreshDelayed>d__33*
-class CORDL_TYPE __PlatformLeaderboardViewController___RefreshDelayed_d__33 : public ::System::Object {
+// CS Name: PlatformLeaderboardViewController/<RefreshDelayed>d__33
+class CORDL_TYPE PlatformLeaderboardViewController__RefreshDelayed_d__33 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -213,30 +201,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3afacbc, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3b5a520, size 0x254, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3afaf10, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b5a774, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3afaf18, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b5a77c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3afaf50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b5a7b4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3afacb8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3b5a51c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> const& __cordl_internal_get___4__this() const;
 
@@ -260,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_showLoadingIndicator(bool value);
 
-  /// @brief Method .ctor, addr 0x3afa884, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5a0e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -275,16 +263,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlatformLeaderboardViewController___RefreshDelayed_d__33();
+  constexpr PlatformLeaderboardViewController__RefreshDelayed_d__33();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PlatformLeaderboardViewController___RefreshDelayed_d__33", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__33", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PlatformLeaderboardViewController___RefreshDelayed_d__33(__PlatformLeaderboardViewController___RefreshDelayed_d__33&&) = delete;
+  PlatformLeaderboardViewController__RefreshDelayed_d__33(PlatformLeaderboardViewController__RefreshDelayed_d__33&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PlatformLeaderboardViewController___RefreshDelayed_d__33", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController__RefreshDelayed_d__33", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PlatformLeaderboardViewController___RefreshDelayed_d__33(__PlatformLeaderboardViewController___RefreshDelayed_d__33 const&) = delete;
+  PlatformLeaderboardViewController__RefreshDelayed_d__33(PlatformLeaderboardViewController__RefreshDelayed_d__33 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5331 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -301,36 +292,32 @@ public:
   /// @brief Field showLoadingIndicator, offset: 0x29, size: 0x1, def value: None
   bool ___showLoadingIndicator;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5307 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, ___clear) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, ___clear) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, ___showLoadingIndicator) == 0x29, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33, ___showLoadingIndicator) == 0x29, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlatformLeaderboardViewController
-// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, LeaderboardViewController, PlatformLeaderboardsModel::ScoresScope
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlatformLeaderboardViewController*
+// CS Name: PlatformLeaderboardViewController
 class CORDL_TYPE PlatformLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {
 public:
   // Declarations
-  using _RefreshDelayed_d__33 = ::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33;
+  using _RefreshDelayed_d__33 = ::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33;
 
-  using _Refresh_d__31 = ::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31;
+  using _Refresh_d__31 = ::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31;
 
   /// @brief Field _aroundPlayerLeaderboardIcon, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__aroundPlayerLeaderboardIcon, put = __cordl_internal_set__aroundPlayerLeaderboardIcon)) ::UnityW<::UnityEngine::Sprite> _aroundPlayerLeaderboardIcon;
@@ -375,68 +362,67 @@ public:
   __declspec(property(get = __cordl_internal_get__scopeSegmentedControl, put = __cordl_internal_set__scopeSegmentedControl)) ::UnityW<::HMUI::IconSegmentedControl> _scopeSegmentedControl;
 
   /// @brief Field _scoreScopes, offset 0xf8, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__scoreScopes,
-      put = __cordl_internal_set__scoreScopes)) ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*>
+  __declspec(property(get = __cordl_internal_get__scoreScopes,
+                      put = __cordl_internal_set__scoreScopes)) ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope>*>
       _scoreScopes;
 
   /// @brief Field _scores, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores)) ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* _scores;
+  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores)) ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* _scores;
 
   /// @brief Field _scoresScope, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__scoresScope, put = setStaticF__scoresScope)) ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope _scoresScope;
+  __declspec(property(get = getStaticF__scoresScope, put = setStaticF__scoresScope)) ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope _scoresScope;
 
   __declspec(property(get = get_leaderboardsModel)) ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> leaderboardsModel;
 
-  /// @brief Method ClearContent, addr 0x3afa8ac, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x3b5a110, size 0xbc, virtual false, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method DidActivate, addr 0x3af9b30, size 0x53c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b59394, size 0x53c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3afa100, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3b59964, size 0x118, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidPressRefreshButton, addr 0x3afa414, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPressRefreshButton, addr 0x3b59c78, size 0xc, virtual false, abstract: false, final false
   inline void HandleDidPressRefreshButton();
 
-  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x3afa420, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x3b59c84, size 0x264, virtual false, abstract: false, final false
   inline void
-  HandleLeaderboardsResultsReturned(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult result,
-                                    ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*> scores,
+  HandleLeaderboardsResultsReturned(::GlobalNamespace::PlatformLeaderboardsModel_GetScoresResult result,
+                                    ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*>*> scores,
                                     int32_t playerScoreIndex);
 
-  /// @brief Method HandlePlatformLeaderboardsModelAllScoresDidUpload, addr 0x3afa6f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandlePlatformLeaderboardsModelAllScoresDidUpload, addr 0x3b59f58, size 0xc, virtual false, abstract: false, final false
   inline void HandlePlatformLeaderboardsModelAllScoresDidUpload();
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x3afa684, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x3b59ee8, size 0x70, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
   static inline ::GlobalNamespace::PlatformLeaderboardViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3afa218, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b59a7c, size 0x1c0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x3af9a54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b592b8, size 0xac, virtual false, abstract: false, final false
   inline void Refresh(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshAsync, addr 0x3afa700, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RefreshAsync, addr 0x3b59f64, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RefreshAsync(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshDelayed, addr 0x3afa804, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RefreshDelayed, addr 0x3b5a068, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* RefreshDelayed(bool showLoadingIndicator, bool clear);
 
-  /// @brief Method RefreshLevelStats, addr 0x3af9b00, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method RefreshLevelStats, addr 0x3b59364, size 0x30, virtual true, abstract: false, final false
   inline void RefreshLevelStats();
 
-  /// @brief Method ScopeScopeIndexToScoreScope, addr 0x3afa3d8, size 0x3c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope ScopeScopeIndexToScoreScope(int32_t scoreScopeIndex);
+  /// @brief Method ScopeScopeIndexToScoreScope, addr 0x3b59c3c, size 0x3c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope ScopeScopeIndexToScoreScope(int32_t scoreScopeIndex);
 
-  /// @brief Method ScoreScopeToScoreScopeIndex, addr 0x3afa06c, size 0x94, virtual false, abstract: false, final false
-  inline int32_t ScoreScopeToScoreScopeIndex(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scoresScope);
+  /// @brief Method ScoreScopeToScoreScopeIndex, addr 0x3b598d0, size 0x94, virtual false, abstract: false, final false
+  inline int32_t ScoreScopeToScoreScopeIndex(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scoresScope);
 
-  /// @brief Method SetData, addr 0x3af99b8, size 0x9c, virtual true, abstract: false, final false
-  inline void SetData(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+  /// @brief Method SetData, addr 0x3b5921c, size 0x9c, virtual true, abstract: false, final false
+  inline void SetData(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__aroundPlayerLeaderboardIcon() const;
 
@@ -450,9 +436,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__friendsLeaderboardIcon();
 
-  constexpr ::GlobalNamespace::HMAsyncRequest*& __cordl_internal_get__getScoresAsyncRequest();
+  constexpr ::GlobalNamespace::HMAsyncRequest* const& __cordl_internal_get__getScoresAsyncRequest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMAsyncRequest*> const& __cordl_internal_get__getScoresAsyncRequest() const;
+  constexpr ::GlobalNamespace::HMAsyncRequest*& __cordl_internal_get__getScoresAsyncRequest();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__globalLeaderboardIcon() const;
 
@@ -494,14 +480,13 @@ public:
 
   constexpr ::UnityW<::HMUI::IconSegmentedControl>& __cordl_internal_get__scopeSegmentedControl();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> const&
-  __cordl_internal_get__scoreScopes() const;
+  constexpr ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope>*> const& __cordl_internal_get__scoreScopes() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*>& __cordl_internal_get__scoreScopes();
+  constexpr ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope>*>& __cordl_internal_get__scoreScopes();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*& __cordl_internal_get__scores();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* const& __cordl_internal_get__scores() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*> const& __cordl_internal_get__scores() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>*& __cordl_internal_get__scores();
 
   constexpr void __cordl_internal_set__aroundPlayerLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
@@ -531,19 +516,19 @@ public:
 
   constexpr void __cordl_internal_set__scopeSegmentedControl(::UnityW<::HMUI::IconSegmentedControl> value);
 
-  constexpr void __cordl_internal_set__scoreScopes(::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> value);
+  constexpr void __cordl_internal_set__scoreScopes(::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope>*> value);
 
-  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value);
+  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x3afa968, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b5a1cc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope getStaticF__scoresScope();
+  static inline ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope getStaticF__scoresScope();
 
-  /// @brief Method get_leaderboardsModel, addr 0x3af99b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardsModel, addr 0x3b59214, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> get_leaderboardsModel();
 
-  static inline void setStaticF__scoresScope(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope value);
+  static inline void setStaticF__scoresScope(::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope value);
 
 protected:
   // Ctor Parameters []
@@ -558,6 +543,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlatformLeaderboardViewController(PlatformLeaderboardViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5332 };
+
+  /// @brief Field kMaxLeaderboardResults offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxLeaderboardResults{ static_cast<int32_t>(0xa) };
 
   /// @brief Field _leaderboardTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LeaderboardTableView> ____leaderboardTableView;
@@ -590,7 +581,7 @@ public:
   ::GlobalNamespace::HMAsyncRequest* ____getScoresAsyncRequest;
 
   /// @brief Field _scores, offset: 0xc8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* ____scores;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::LeaderboardTableView_ScoreData*>* ____scores;
 
   /// @brief Field _playerScorePos, offset: 0xd0, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____playerScorePos;
@@ -605,19 +596,11 @@ public:
   bool ____hasScoresData;
 
   /// @brief Field _scoreScopes, offset: 0xf8, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> ____scoreScopes;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5308 };
-
-  /// @brief Field kMaxLeaderboardResults offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxLeaderboardResults{ static_cast<int32_t>(0xa) };
+  ::ArrayW<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope, ::Array<::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope>*> ____scoreScopes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformLeaderboardViewController, 0x100>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController, ____leaderboardTableView) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController, ____scopeSegmentedControl) == 0x80, "Offset mismatch!");
@@ -650,9 +633,11 @@ static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController, ___
 
 static_assert(offsetof(::GlobalNamespace::PlatformLeaderboardViewController, ____scoreScopes) == 0xf8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlatformLeaderboardViewController, 0x100>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlatformLeaderboardViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
-NEED_NO_BOX(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__33*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__33");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__31, "", "PlatformLeaderboardViewController/<Refresh>d__31");
+NEED_NO_BOX(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformLeaderboardViewController__RefreshDelayed_d__33*, "", "PlatformLeaderboardViewController/<RefreshDelayed>d__33");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlatformLeaderboardViewController__Refresh_d__31, "", "PlatformLeaderboardViewController/<Refresh>d__31");

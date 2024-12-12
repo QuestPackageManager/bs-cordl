@@ -12,18 +12,17 @@ class TimeoutHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::TimeoutHelper);
-// Type: System.Threading::TimeoutHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::TimeoutHelper*
+// CS Name: System.Threading.TimeoutHelper
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x3dedc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x3e4dcac, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x3dedd00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x3e4ddac, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
 protected:

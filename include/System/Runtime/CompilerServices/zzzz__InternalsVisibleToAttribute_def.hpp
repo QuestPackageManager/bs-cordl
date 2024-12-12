@@ -12,11 +12,10 @@ class InternalsVisibleToAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::InternalsVisibleToAttribute);
-// Type: System.Runtime.CompilerServices::InternalsVisibleToAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::InternalsVisibleToAttribute*
+// CS Name: System.Runtime.CompilerServices.InternalsVisibleToAttribute
 class CORDL_TYPE InternalsVisibleToAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -42,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb9744, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d198b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x3cb9774, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x3d198e8, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
 protected:
@@ -62,23 +61,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InternalsVisibleToAttribute(InternalsVisibleToAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3414 };
+
   /// @brief Field _assemblyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____assemblyName;
 
   /// @brief Field _allInternalsVisible, offset: 0x18, size: 0x1, def value: None
   bool ____allInternalsVisible;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3414 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::InternalsVisibleToAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::InternalsVisibleToAttribute, ____assemblyName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::InternalsVisibleToAttribute, ____allInternalsVisible) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::InternalsVisibleToAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::InternalsVisibleToAttribute);

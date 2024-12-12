@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9fb84;
+  constexpr static std::size_t addrs = 0x3cffcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(
     ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c9fb8c;
+  constexpr static std::size_t addrs = 0x3cffd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(
     int32_t, ::StringW, int32_t, ::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Set)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c9fbb4;
+  constexpr static std::size_t addrs = 0x3cffd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Write)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3c9fbd8;
+  constexpr static std::size_t addrs = 0x3cffd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Read)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3c9fcec;
+  constexpr static std::size_t addrs = 0x3cffe60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c9fdfc;
+  constexpr static std::size_t addrs = 0x3cfff70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,18 +173,11 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::BinaryObjectW
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___assemId = value;
 }
-inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>());
-}
 inline void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*
-System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>(binaryHeaderEnum));
 }
 inline void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,6 +212,13 @@ inline void System::Runtime::Serialization::Formatters::Binary::BinaryObjectWith
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>::get(), "Dump",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>());
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*
+System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*>(binaryHeaderEnum));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap::BinaryObjectWithMap() {}

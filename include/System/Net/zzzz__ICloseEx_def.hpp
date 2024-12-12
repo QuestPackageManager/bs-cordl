@@ -13,27 +13,22 @@ class ICloseEx;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ICloseEx);
-// Type: System.Net::ICloseEx
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::ICloseEx*
+// CS Name: System.Net.ICloseEx
 class CORDL_TYPE ICloseEx {
 public:
   // Declarations
-  /// @brief Method CloseEx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CloseEx, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CloseEx(::System::Net::CloseExState closeState);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ICloseEx", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICloseEx(ICloseEx&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICloseEx", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICloseEx(ICloseEx const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

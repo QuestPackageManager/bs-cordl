@@ -28,11 +28,10 @@ class RegisteredWaitHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::RegisteredWaitHandle);
-// Type: System.Threading::RegisteredWaitHandle
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MarshalByRefObject, System.TimeSpan
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::RegisteredWaitHandle*
+// CS Name: System.Threading.RegisteredWaitHandle
 class CORDL_TYPE RegisteredWaitHandle : public ::System::MarshalByRefObject {
 public:
   // Declarations
@@ -63,41 +62,41 @@ public:
   /// @brief Field _waitObject, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__waitObject, put = __cordl_internal_set__waitObject)) ::System::Threading::WaitHandle* _waitObject;
 
-  /// @brief Method DoCallBack, addr 0x3dfbfac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x3e5c058, size 0x104, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Object* timedOut);
 
   static inline ::System::Threading::RegisteredWaitHandle* New_ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state,
                                                                     ::System::TimeSpan timeout, bool executeOnlyOnce);
 
-  /// @brief Method Unregister, addr 0x3dfc0b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x3e5c15c, size 0xf4, virtual false, abstract: false, final false
   inline bool Unregister(::System::Threading::WaitHandle* waitObject);
 
-  /// @brief Method Wait, addr 0x3dfba8c, size 0x520, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x3e5bb38, size 0x520, virtual false, abstract: false, final false
   inline void Wait(::System::Object* state);
 
-  constexpr ::System::Threading::WaitOrTimerCallback*& __cordl_internal_get__callback();
+  constexpr ::System::Threading::WaitOrTimerCallback* const& __cordl_internal_get__callback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitOrTimerCallback*> const& __cordl_internal_get__callback() const;
+  constexpr ::System::Threading::WaitOrTimerCallback*& __cordl_internal_get__callback();
 
   constexpr int32_t const& __cordl_internal_get__callsInProcess() const;
 
   constexpr int32_t& __cordl_internal_get__callsInProcess();
 
-  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__cancelEvent();
+  constexpr ::System::Threading::ManualResetEvent* const& __cordl_internal_get__cancelEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__cancelEvent() const;
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__cancelEvent();
 
   constexpr bool const& __cordl_internal_get__executeOnlyOnce() const;
 
   constexpr bool& __cordl_internal_get__executeOnlyOnce();
 
+  constexpr ::System::Threading::WaitHandle* const& __cordl_internal_get__finalEvent() const;
+
   constexpr ::System::Threading::WaitHandle*& __cordl_internal_get__finalEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get__finalEvent() const;
+  constexpr ::System::Object* const& __cordl_internal_get__state() const;
 
   constexpr ::System::Object*& __cordl_internal_get__state();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__state() const;
 
   constexpr ::System::TimeSpan const& __cordl_internal_get__timeout() const;
 
@@ -107,9 +106,9 @@ public:
 
   constexpr bool& __cordl_internal_get__unregistered();
 
-  constexpr ::System::Threading::WaitHandle*& __cordl_internal_get__waitObject();
+  constexpr ::System::Threading::WaitHandle* const& __cordl_internal_get__waitObject() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& __cordl_internal_get__waitObject() const;
+  constexpr ::System::Threading::WaitHandle*& __cordl_internal_get__waitObject();
 
   constexpr void __cordl_internal_set__callback(::System::Threading::WaitOrTimerCallback* value);
 
@@ -129,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set__waitObject(::System::Threading::WaitHandle* value);
 
-  /// @brief Method .ctor, addr 0x3df9198, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e59244, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitHandle* waitObject, ::System::Threading::WaitOrTimerCallback* callback, ::System::Object* state, ::System::TimeSpan timeout, bool executeOnlyOnce);
 
 protected:
@@ -145,6 +144,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "RegisteredWaitHandle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   RegisteredWaitHandle(RegisteredWaitHandle const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2749 };
 
   /// @brief Field _waitObject, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::WaitHandle* ____waitObject;
@@ -173,14 +175,9 @@ public:
   /// @brief Field _unregistered, offset: 0x4d, size: 0x1, def value: None
   bool ____unregistered;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2749 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::RegisteredWaitHandle, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____waitObject) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____callback) == 0x20, "Offset mismatch!");
@@ -198,6 +195,8 @@ static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____callsInPro
 static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____executeOnlyOnce) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::RegisteredWaitHandle, ____unregistered) == 0x4d, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::RegisteredWaitHandle, 0x50>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::RegisteredWaitHandle);

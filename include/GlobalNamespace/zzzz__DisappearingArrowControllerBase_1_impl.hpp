@@ -201,13 +201,13 @@ template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBa
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arrowTransparency);
 }
-template <typename T> inline ::GlobalNamespace::DisappearingArrowControllerBase_1<T>* GlobalNamespace::DisappearingArrowControllerBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::DisappearingArrowControllerBase_1<T>* GlobalNamespace::DisappearingArrowControllerBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::DisappearingArrowControllerBase_1<T>::DisappearingArrowControllerBase_1() {}

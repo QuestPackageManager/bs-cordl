@@ -3,13 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rectangle)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -19,11 +17,10 @@ struct Rectangle;
 }
 // Write type traits
 MARK_VAL_T(::System::Drawing::Rectangle);
-// Type: System.Drawing::Rectangle
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace System::Drawing {
 // Is value type: true
-// CS Name: ::System.Drawing::Rectangle
+// CS Name: System.Drawing.Rectangle
 struct CORDL_TYPE Rectangle {
 public:
   // Declarations
@@ -38,34 +35,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::Rectangle>"
   constexpr operator ::System::IEquatable_1<::System::Drawing::Rectangle>*();
 
-  /// @brief Method Equals, addr 0x41af2d0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x42105e4, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x41af380, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4210694, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::System::Drawing::Rectangle other);
 
-  /// @brief Method GetHashCode, addr 0x41af400, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4210714, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x41af47c, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4210790, size 0x1b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Height, addr 0x41af2c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Height, addr 0x42105dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Height();
 
-  /// @brief Method get_Width, addr 0x41af2c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Width, addr 0x42105d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Width();
 
-  /// @brief Method get_X, addr 0x41af2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x42105c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_X();
 
-  /// @brief Method get_Y, addr 0x41af2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Y, addr 0x42105cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Y();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Drawing::Rectangle>"
   constexpr ::System::IEquatable_1<::System::Drawing::Rectangle>* i___System__IEquatable_1___System__Drawing__Rectangle_();
 
-  /// @brief Method op_Equality, addr 0x41af3c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x42106d8, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Drawing::Rectangle left, ::System::Drawing::Rectangle right);
 
   // Ctor Parameters []
@@ -75,6 +72,12 @@ public:
   // Ctor Parameters [CppParam { name: "x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "width", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Rectangle(int32_t x, int32_t y, int32_t width, int32_t height) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17430 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field x, offset: 0x0, size: 0x4, def value: None
   int32_t x;
@@ -88,17 +91,9 @@ public:
   /// @brief Field height, offset: 0xc, size: 0x4, def value: None
   int32_t height;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17386 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Drawing::Rectangle, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::System::Drawing::Rectangle, x) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Drawing::Rectangle, y) == 0x4, "Offset mismatch!");
@@ -106,6 +101,8 @@ static_assert(offsetof(::System::Drawing::Rectangle, y) == 0x4, "Offset mismatch
 static_assert(offsetof(::System::Drawing::Rectangle, width) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::System::Drawing::Rectangle, height) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Drawing::Rectangle, 0x10>, "Size mismatch!");
 
 } // namespace System::Drawing
 DEFINE_IL2CPP_ARG_TYPE(::System::Drawing::Rectangle, "System.Drawing", "Rectangle");

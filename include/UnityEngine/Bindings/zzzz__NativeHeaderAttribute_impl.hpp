@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeHeaderAttribute::set_Header)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b1cfc;
+  constexpr static std::size_t addrs = 0x491638c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeHeaderAttribute::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48b1d04;
+  constexpr static std::size_t addrs = 0x4916394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,14 +50,14 @@ inline void UnityEngine::Bindings::NativeHeaderAttribute::set_Header(::StringW v
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Bindings::NativeHeaderAttribute* UnityEngine::Bindings::NativeHeaderAttribute::New_ctor(::StringW header) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::NativeHeaderAttribute*>(header));
-}
 inline void UnityEngine::Bindings::NativeHeaderAttribute::_ctor(::StringW header) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::NativeHeaderAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, header);
+}
+inline ::UnityEngine::Bindings::NativeHeaderAttribute* UnityEngine::Bindings::NativeHeaderAttribute::New_ctor(::StringW header) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::NativeHeaderAttribute*>(header));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Bindings::NativeHeaderAttribute::NativeHeaderAttribute() {}

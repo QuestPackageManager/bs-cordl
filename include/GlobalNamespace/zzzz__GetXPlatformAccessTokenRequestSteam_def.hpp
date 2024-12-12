@@ -13,11 +13,10 @@ class GetXPlatformAccessTokenRequestSteam;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);
-// Type: ::GetXPlatformAccessTokenRequestSteam
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GetXPlatformAccessTokenRequestSteam*
+// CS Name: GetXPlatformAccessTokenRequestSteam
 class CORDL_TYPE GetXPlatformAccessTokenRequestSteam : public ::System::Object {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
-  /// @brief Method .ctor, addr 0x401df2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407f240, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
 protected:
@@ -58,23 +57,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GetXPlatformAccessTokenRequestSteam(GetXPlatformAccessTokenRequestSteam const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18754 };
+
   /// @brief Field platformToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___platformToken;
 
   /// @brief Field platformUserId, offset: 0x18, size: 0x8, def value: None
   int64_t ___platformUserId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18673 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenRequestSteam, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam, ___platformToken) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam, ___platformUserId) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenRequestSteam, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GetXPlatformAccessTokenRequestSteam);

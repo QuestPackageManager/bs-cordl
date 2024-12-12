@@ -12,11 +12,10 @@ struct X509KeyStorageFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags);
-// Type: System.Security.Cryptography.X509Certificates::X509KeyStorageFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyStorageFlags
+// CS Name: System.Security.Cryptography.X509Certificates.X509KeyStorageFlags
 struct CORDL_TYPE X509KeyStorageFlags {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr X509KeyStorageFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field DefaultKeySet value: static_cast<int32_t>(0x0)
+  /// @brief Field DefaultKeySet value: I32(0)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const DefaultKeySet;
 
-  /// @brief Field EphemeralKeySet value: static_cast<int32_t>(0x20)
+  /// @brief Field EphemeralKeySet value: I32(32)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const EphemeralKeySet;
 
-  /// @brief Field Exportable value: static_cast<int32_t>(0x4)
+  /// @brief Field Exportable value: I32(4)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const Exportable;
 
-  /// @brief Field MachineKeySet value: static_cast<int32_t>(0x2)
+  /// @brief Field MachineKeySet value: I32(2)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const MachineKeySet;
 
-  /// @brief Field PersistKeySet value: static_cast<int32_t>(0x10)
+  /// @brief Field PersistKeySet value: I32(16)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const PersistKeySet;
 
-  /// @brief Field UserKeySet value: static_cast<int32_t>(0x1)
+  /// @brief Field UserKeySet value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserKeySet;
 
-  /// @brief Field UserProtected value: static_cast<int32_t>(0x8)
+  /// @brief Field UserProtected value: I32(8)
   static ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags const UserProtected;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, "System.Security.Cryptography.X509Certificates", "X509KeyStorageFlags");

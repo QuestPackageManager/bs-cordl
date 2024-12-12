@@ -12,11 +12,10 @@ class SignatureDescription;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::SignatureDescription);
-// Type: System.Security.Cryptography::SignatureDescription
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::SignatureDescription*
+// CS Name: System.Security.Cryptography.SignatureDescription
 class CORDL_TYPE SignatureDescription : public ::System::Object {
 public:
   // Declarations
@@ -66,19 +65,19 @@ public:
 
   constexpr void __cordl_internal_set__strKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c4b298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cab40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DeformatterAlgorithm, addr 0x3c4b2b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DeformatterAlgorithm, addr 0x3cab42c, size 0x8, virtual false, abstract: false, final false
   inline void set_DeformatterAlgorithm(::StringW value);
 
-  /// @brief Method set_DigestAlgorithm, addr 0x3c4b2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DigestAlgorithm, addr 0x3cab41c, size 0x8, virtual false, abstract: false, final false
   inline void set_DigestAlgorithm(::StringW value);
 
-  /// @brief Method set_FormatterAlgorithm, addr 0x3c4b2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FormatterAlgorithm, addr 0x3cab424, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatterAlgorithm(::StringW value);
 
-  /// @brief Method set_KeyAlgorithm, addr 0x3c4b2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAlgorithm, addr 0x3cab414, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAlgorithm(::StringW value);
 
 protected:
@@ -95,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignatureDescription(SignatureDescription const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2965 };
+
   /// @brief Field _strKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ____strKey;
 
@@ -107,14 +109,9 @@ public:
   /// @brief Field _strDeformatter, offset: 0x28, size: 0x8, def value: None
   ::StringW ____strDeformatter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2965 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::SignatureDescription, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::SignatureDescription, ____strKey) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::SignatureDescription, ____strDigest) == 0x18, "Offset mismatch!");
@@ -122,6 +119,8 @@ static_assert(offsetof(::System::Security::Cryptography::SignatureDescription, _
 static_assert(offsetof(::System::Security::Cryptography::SignatureDescription, ____strFormatter) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::SignatureDescription, ____strDeformatter) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::SignatureDescription, 0x30>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::SignatureDescription);

@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettingsHelper::*)()>(&::HMUI::CurvedCanvasSettingsHelper::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39965f4;
+  constexpr static std::size_t addrs = 0x39ed1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedCanvasSettingsHelper*>::get(), "Reset",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::CurvedCanvasSettings> (::HMUI::CurvedCanvasSettingsHelper::*)(::UnityEngine::Canvas*)>(
     &::HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3996608;
+  constexpr static std::size_t addrs = 0x39ed208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::CurvedCanvasSettings> (*)(::UnityEngine::Canvas*)>(
     &::HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x39967f4;
+  constexpr static std::size_t addrs = 0x39ed3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettingsHelper::*)()>(&::HMUI::CurvedCanvasSettingsHelper::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3996930;
+  constexpr static std::size_t addrs = 0x39ed530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedCanvasSettingsHelper*>::get(), ".ctor",
@@ -136,13 +136,13 @@ inline ::UnityW<::HMUI::CurvedCanvasSettings> HMUI::CurvedCanvasSettingsHelper::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::CurvedCanvasSettings>, false>(nullptr, ___internal_method, canvas);
 }
-inline ::HMUI::CurvedCanvasSettingsHelper* HMUI::CurvedCanvasSettingsHelper::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CurvedCanvasSettingsHelper*>());
-}
 inline void HMUI::CurvedCanvasSettingsHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedCanvasSettingsHelper*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::CurvedCanvasSettingsHelper* HMUI::CurvedCanvasSettingsHelper::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CurvedCanvasSettingsHelper*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::CurvedCanvasSettingsHelper::CurvedCanvasSettingsHelper() {}

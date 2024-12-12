@@ -22,11 +22,10 @@ class AncestorFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::AncestorFilter);
-// Type: UnityEngine.UIElements::AncestorFilter
-// SizeInfo { instance_size: 16408, native_size: -1, calculated_instance_size: 16408, calculated_native_size: 16408, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.CountingBloomFilter
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::AncestorFilter*
+// CS Name: UnityEngine.UIElements.AncestorFilter
 class CORDL_TYPE AncestorFilter : public ::System::Object {
 public:
   // Declarations
@@ -36,33 +35,33 @@ public:
   /// @brief Field m_HashStack, offset 0x4010, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HashStack, put = __cordl_internal_set_m_HashStack)) ::System::Collections::Generic::Stack_1<int32_t>* m_HashStack;
 
-  /// @brief Method AddHash, addr 0x49accf4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AddHash, addr 0x4a11604, size 0x94, virtual false, abstract: false, final false
   inline void AddHash(int32_t hash);
 
-  /// @brief Method IsCandidate, addr 0x49acd88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsCandidate, addr 0x4a11698, size 0x58, virtual false, abstract: false, final false
   inline bool IsCandidate(::UnityEngine::UIElements::StyleComplexSelector* complexSel);
 
   static inline ::UnityEngine::UIElements::AncestorFilter* New_ctor();
 
-  /// @brief Method PopElement, addr 0x49ad010, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PopElement, addr 0x4a11920, size 0xf0, virtual false, abstract: false, final false
   inline void PopElement();
 
-  /// @brief Method PushElement, addr 0x49acde0, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method PushElement, addr 0x4a116f0, size 0x230, virtual false, abstract: false, final false
   inline void PushElement(::UnityEngine::UIElements::VisualElement* element);
 
   constexpr ::UnityEngine::UIElements::CountingBloomFilter const& __cordl_internal_get_m_CountingBloomFilter() const;
 
   constexpr ::UnityEngine::UIElements::CountingBloomFilter& __cordl_internal_get_m_CountingBloomFilter();
 
-  constexpr ::System::Collections::Generic::Stack_1<int32_t>*& __cordl_internal_get_m_HashStack();
+  constexpr ::System::Collections::Generic::Stack_1<int32_t>* const& __cordl_internal_get_m_HashStack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<int32_t>*> const& __cordl_internal_get_m_HashStack() const;
+  constexpr ::System::Collections::Generic::Stack_1<int32_t>*& __cordl_internal_get_m_HashStack();
 
   constexpr void __cordl_internal_set_m_CountingBloomFilter(::UnityEngine::UIElements::CountingBloomFilter value);
 
   constexpr void __cordl_internal_set_m_HashStack(::System::Collections::Generic::Stack_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x49acc74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a11584, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,23 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AncestorFilter(AncestorFilter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5727 };
+
   /// @brief Field m_CountingBloomFilter, offset: 0x10, size: 0x4000, def value: None
   ::UnityEngine::UIElements::CountingBloomFilter ___m_CountingBloomFilter;
 
   /// @brief Field m_HashStack, offset: 0x4010, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<int32_t>* ___m_HashStack;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5702 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AncestorFilter, 0x4018>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::AncestorFilter, ___m_CountingBloomFilter) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::AncestorFilter, ___m_HashStack) == 0x4010, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AncestorFilter, 0x4018>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::AncestorFilter);

@@ -15,11 +15,10 @@ class DebuggerBrowsableAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::DebuggerBrowsableAttribute);
-// Type: System.Diagnostics::DebuggerBrowsableAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Diagnostics.DebuggerBrowsableState
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::DebuggerBrowsableAttribute*
+// CS Name: System.Diagnostics.DebuggerBrowsableAttribute
 class CORDL_TYPE DebuggerBrowsableAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Diagnostics::DebuggerBrowsableState value);
 
-  /// @brief Method .ctor, addr 0x3d54de8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db4f5c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggerBrowsableState state);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DebuggerBrowsableAttribute(DebuggerBrowsableAttribute const&) = delete;
 
-  /// @brief Field state, offset: 0x10, size: 0x4, def value: None
-  ::System::Diagnostics::DebuggerBrowsableState ___state;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3741 };
+
+  /// @brief Field state, offset: 0x10, size: 0x4, def value: None
+  ::System::Diagnostics::DebuggerBrowsableState ___state;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerBrowsableAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::DebuggerBrowsableAttribute, ___state) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerBrowsableAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DebuggerBrowsableAttribute);

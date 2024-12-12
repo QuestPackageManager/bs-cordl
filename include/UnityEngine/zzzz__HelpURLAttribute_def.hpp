@@ -12,11 +12,10 @@ class HelpURLAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::HelpURLAttribute);
-// Type: UnityEngine::HelpURLAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::HelpURLAttribute*
+// CS Name: UnityEngine.HelpURLAttribute
 class CORDL_TYPE HelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x484579c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a64d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
 protected:
@@ -66,6 +65,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HelpURLAttribute(HelpURLAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10863 };
+
   /// @brief Field m_Url, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Url;
 
@@ -75,19 +77,16 @@ public:
   /// @brief Field m_DispatchingFieldName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_DispatchingFieldName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10830 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::HelpURLAttribute, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::HelpURLAttribute, ___m_Url) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::HelpURLAttribute, ___m_Dispatcher) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::HelpURLAttribute, ___m_DispatchingFieldName) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::HelpURLAttribute, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::HelpURLAttribute);

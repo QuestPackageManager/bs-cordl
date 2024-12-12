@@ -14,11 +14,10 @@ class CollectionExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::CollectionExtensions);
-// Type: System.Collections.Generic::CollectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::CollectionExtensions*
+// CS Name: System.Collections.Generic.CollectionExtensions
 class CORDL_TYPE CollectionExtensions : public ::System::Object {
 public:
   // Declarations

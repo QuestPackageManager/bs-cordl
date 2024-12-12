@@ -14,11 +14,10 @@ class AssemblyLoadEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AssemblyLoadEventArgs);
-// Type: System::AssemblyLoadEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System {
 // Is value type: false
-// CS Name: ::System::AssemblyLoadEventArgs*
+// CS Name: System.AssemblyLoadEventArgs
 class CORDL_TYPE AssemblyLoadEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -28,13 +27,13 @@ public:
 
   static inline ::System::AssemblyLoadEventArgs* New_ctor(::System::Reflection::Assembly* loadedAssembly);
 
-  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__LoadedAssembly_k__BackingField();
+  constexpr ::System::Reflection::Assembly* const& __cordl_internal_get__LoadedAssembly_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__LoadedAssembly_k__BackingField() const;
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__LoadedAssembly_k__BackingField();
 
   constexpr void __cordl_internal_set__LoadedAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3cf4e94, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d55008, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* loadedAssembly);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssemblyLoadEventArgs(AssemblyLoadEventArgs const&) = delete;
 
-  /// @brief Field <LoadedAssembly>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Reflection::Assembly* ____LoadedAssembly_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2353 };
+
+  /// @brief Field <LoadedAssembly>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::System::Reflection::Assembly* ____LoadedAssembly_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::AssemblyLoadEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::AssemblyLoadEventArgs, ____LoadedAssembly_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::AssemblyLoadEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::AssemblyLoadEventArgs);

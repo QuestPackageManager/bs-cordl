@@ -20,15 +20,14 @@ class Avatar;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Avatar);
-// Type: Oculus.Platform::Avatar
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::Avatar*
+// CS Name: Oculus.Platform.Avatar
 class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LaunchAvatarEditor, addr 0x3f27ab8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method LaunchAvatarEditor, addr 0x3f87b64, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
 
 protected:
@@ -46,7 +45,7 @@ public:
   Avatar(Avatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

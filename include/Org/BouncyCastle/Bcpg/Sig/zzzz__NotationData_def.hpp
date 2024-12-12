@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NotationData)
@@ -14,39 +13,38 @@ class NotationData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::NotationData);
-// Type: Org.BouncyCastle.Bcpg.Sig::NotationData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::NotationData*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.NotationData
 class CORDL_TYPE NotationData : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
   __declspec(property(get = get_IsHumanReadable)) bool IsHumanReadable;
 
-  /// @brief Method CreateData, addr 0x26098e8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x263cbd4, size 0x220, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method GetNotationName, addr 0x2609b38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetNotationName, addr 0x263ce24, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetNotationName();
 
-  /// @brief Method GetNotationValue, addr 0x2609ba4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValue, addr 0x263ce90, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetNotationValue();
 
-  /// @brief Method GetNotationValueBytes, addr 0x2609c34, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValueBytes, addr 0x263cf20, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2609894, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263cb80, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor, addr 0x260984c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263cb38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_IsHumanReadable, addr 0x2609b08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsHumanReadable, addr 0x263cdf4, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsHumanReadable();
 
 protected:

@@ -26,21 +26,20 @@ class FloatFxEventBoxGroupConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter);
-// Type: BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDataLoaderVersion4.EventBoxGroupConverter
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*
+// CS Name: BeatmapDataLoaderVersion4.FloatFxEventBoxGroupConverter
 class CORDL_TYPE FloatFxEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x26d95e4, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x270b1a0, size 0x21c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x26d8518, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a0d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -58,7 +57,7 @@ public:
   FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

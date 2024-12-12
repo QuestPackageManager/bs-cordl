@@ -4,19 +4,17 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ModifiableContactPatch_def.hpp"
 #include "UnityEngine/zzzz__ModifiableContactPatch_def.hpp"
-#include "UnityEngine/zzzz__ModifiableMassProperties_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags::__ModifiableContactPatch__Flags(int32_t value__) noexcept {
+constexpr ::UnityEngine::ModifiableContactPatch_Flags::ModifiableContactPatch_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags::__ModifiableContactPatch__Flags() {}
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags UnityEngine::__ModifiableContactPatch__Flags::HasFaceIndices{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags UnityEngine::__ModifiableContactPatch__Flags::HasModifiedMassRatios{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags UnityEngine::__ModifiableContactPatch__Flags::HasTargetVelocity{ static_cast<int32_t>(0x10) };
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags UnityEngine::__ModifiableContactPatch__Flags::HasMaxImpulse{ static_cast<int32_t>(0x20) };
-constexpr ::UnityEngine::__ModifiableContactPatch__Flags UnityEngine::__ModifiableContactPatch__Flags::RegeneratePatches{ static_cast<int32_t>(0x40) };
+constexpr ::UnityEngine::ModifiableContactPatch_Flags::ModifiableContactPatch_Flags() {}
+constexpr ::UnityEngine::ModifiableContactPatch_Flags UnityEngine::ModifiableContactPatch_Flags::HasFaceIndices{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::ModifiableContactPatch_Flags UnityEngine::ModifiableContactPatch_Flags::HasModifiedMassRatios{ static_cast<int32_t>(0x8) };
+constexpr ::UnityEngine::ModifiableContactPatch_Flags UnityEngine::ModifiableContactPatch_Flags::HasTargetVelocity{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::ModifiableContactPatch_Flags UnityEngine::ModifiableContactPatch_Flags::HasMaxImpulse{ static_cast<int32_t>(0x20) };
+constexpr ::UnityEngine::ModifiableContactPatch_Flags UnityEngine::ModifiableContactPatch_Flags::RegeneratePatches{ static_cast<int32_t>(0x40) };
 // Ctor Parameters [CppParam { name: "massProperties", ty: "::UnityEngine::ModifiableMassProperties", modifiers: "", def_value: Some("{}") }, CppParam { name: "normal", ty: "::UnityEngine::Vector3",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "restitution", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "dynamicFriction", ty: "float_t", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "staticFriction", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startContactIndex", ty: "uint8_t", modifiers: "", def_value:

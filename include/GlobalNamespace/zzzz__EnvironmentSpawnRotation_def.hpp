@@ -22,11 +22,10 @@ class EnvironmentSpawnRotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSpawnRotation);
-// Type: ::EnvironmentSpawnRotation
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentSpawnRotation*
+// CS Name: EnvironmentSpawnRotation
 class CORDL_TYPE EnvironmentSpawnRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -45,8 +44,8 @@ public:
   __declspec(property(get = __cordl_internal_get__currentRotation, put = __cordl_internal_set__currentRotation)) float_t _currentRotation;
 
   /// @brief Field _numberOfActiveEnvironmentSpawnRotationObjects, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__numberOfActiveEnvironmentSpawnRotationObjects,
-                             put = setStaticF__numberOfActiveEnvironmentSpawnRotationObjects)) int32_t _numberOfActiveEnvironmentSpawnRotationObjects;
+  __declspec(property(get = getStaticF__numberOfActiveEnvironmentSpawnRotationObjects,
+                      put = setStaticF__numberOfActiveEnvironmentSpawnRotationObjects)) int32_t _numberOfActiveEnvironmentSpawnRotationObjects;
 
   /// @brief Field _prevRotation, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__prevRotation, put = __cordl_internal_set__prevRotation)) float_t _prevRotation;
@@ -55,47 +54,47 @@ public:
   __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _spawnRotationID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__spawnRotationID, put = setStaticF__spawnRotationID)) int32_t _spawnRotationID;
+  __declspec(property(get = getStaticF__spawnRotationID, put = setStaticF__spawnRotationID)) int32_t _spawnRotationID;
 
   /// @brief Field _targetRotation, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
   __declspec(property(get = get_targetRotation)) float_t targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x3b368e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b97e2c, size 0x8c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b367e8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x3b97d2c, size 0x100, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::BeatmapObjectData* data);
 
-  /// @brief Method LateUpdate, addr 0x3b36974, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b97eb8, size 0x120, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::EnvironmentSpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b367cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b97d10, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b3660c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b97b50, size 0x60, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b365ac, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b97af0, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x3b3666c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b97bb0, size 0x160, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
 
   constexpr float_t& __cordl_internal_get__aheadTime();
 
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr float_t const& __cordl_internal_get__currentRotation() const;
 
@@ -127,14 +126,14 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b36a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b97fd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__numberOfActiveEnvironmentSpawnRotationObjects();
 
   static inline int32_t getStaticF__spawnRotationID();
 
-  /// @brief Method get_targetRotation, addr 0x3b365a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetRotation, addr 0x3b97ae8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetRotation();
 
   static inline void setStaticF__numberOfActiveEnvironmentSpawnRotationObjects(int32_t value);
@@ -154,6 +153,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSpawnRotation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentSpawnRotation(EnvironmentSpawnRotation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4354 };
 
   /// @brief Field _aheadTime, offset: 0x20, size: 0x4, def value: None
   float_t ____aheadTime;
@@ -176,14 +178,9 @@ public:
   /// @brief Field _targetRotation, offset: 0x40, size: 0x4, def value: None
   float_t ____targetRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4343 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSpawnRotation, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentSpawnRotation, ____aheadTime) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentSpawnRotation, ____smooth) == 0x24, "Offset mismatch!");
@@ -197,6 +194,8 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentSpawnRotation, ____currentR
 static_assert(offsetof(::GlobalNamespace::EnvironmentSpawnRotation, ____prevRotation) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentSpawnRotation, ____targetRotation) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSpawnRotation, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentSpawnRotation);

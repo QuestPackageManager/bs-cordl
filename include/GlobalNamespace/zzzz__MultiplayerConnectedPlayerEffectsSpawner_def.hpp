@@ -23,11 +23,10 @@ class MultiplayerConnectedPlayerEffectsSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner);
-// Type: ::MultiplayerConnectedPlayerEffectsSpawner
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerEffectsSpawner*
+// CS Name: MultiplayerConnectedPlayerEffectsSpawner
 class CORDL_TYPE MultiplayerConnectedPlayerEffectsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -41,20 +40,20 @@ public:
   /// @brief Field _noteDebrisSpawner, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner)) ::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
-  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x3b52cac, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x3bb4454, size 0x1cc, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b52bac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb4354, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b52ab8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb4260, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
+  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* const& __cordl_internal_get__beatmapObjectEventManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*> const& __cordl_internal_get__beatmapObjectEventManager() const;
+  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
 
   constexpr ::UnityW<::GlobalNamespace::BombExplosionEffect> const& __cordl_internal_get__bombExplosionEffect() const;
 
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  /// @brief Method .ctor, addr 0x3b52e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb4620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerEffectsSpawner(MultiplayerConnectedPlayerEffectsSpawner const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4479 };
+
   /// @brief Field _noteDebrisSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteDebrisSpawner> ____noteDebrisSpawner;
 
@@ -96,19 +98,16 @@ public:
   /// @brief Field _beatmapObjectEventManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner, ____noteDebrisSpawner) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner, ____bombExplosionEffect) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner, ____beatmapObjectEventManager) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner);

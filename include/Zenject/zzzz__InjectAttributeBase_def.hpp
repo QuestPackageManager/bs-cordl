@@ -18,11 +18,10 @@ class InjectAttributeBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::InjectAttributeBase);
-// Type: Zenject::InjectAttributeBase
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.InjectSources, Zenject.Internal.PreserveAttribute
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::InjectAttributeBase*
+// CS Name: Zenject.InjectAttributeBase
 class CORDL_TYPE InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {
 public:
   // Declarations
@@ -43,9 +42,9 @@ public:
 
   static inline ::Zenject::InjectAttributeBase* New_ctor();
 
-  constexpr ::System::Object*& __cordl_internal_get__Id_k__BackingField();
+  constexpr ::System::Object* const& __cordl_internal_get__Id_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Id_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__Id_k__BackingField();
 
   constexpr bool const& __cordl_internal_get__Optional_k__BackingField() const;
 
@@ -61,25 +60,25 @@ public:
 
   constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources value);
 
-  /// @brief Method .ctor, addr 0x4a8b7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af00fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Id, addr 0x4a8b7cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x4af00dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method get_Optional, addr 0x4a8b7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Optional, addr 0x4af00c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
-  /// @brief Method get_Source, addr 0x4a8b7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x4af00ec, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
-  /// @brief Method set_Id, addr 0x4a8b7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x4af00e4, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
-  /// @brief Method set_Optional, addr 0x4a8b7c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Optional, addr 0x4af00d0, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_Source, addr 0x4a8b7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x4af00f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
 protected:
@@ -96,6 +95,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InjectAttributeBase(InjectAttributeBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18413 };
+
   /// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____Optional_k__BackingField;
 
@@ -105,19 +107,16 @@ public:
   /// @brief Field <Source>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::Zenject::InjectSources ____Source_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18332 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::InjectAttributeBase, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::InjectAttributeBase, ____Optional_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::InjectAttributeBase, ____Id_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::InjectAttributeBase, ____Source_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::InjectAttributeBase, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::InjectAttributeBase);

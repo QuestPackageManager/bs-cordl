@@ -20,11 +20,10 @@ class BlueNoiseDitheringUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDitheringUpdater);
-// Type: ::BlueNoiseDitheringUpdater
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BlueNoiseDitheringUpdater*
+// CS Name: BlueNoiseDitheringUpdater
 class CORDL_TYPE BlueNoiseDitheringUpdater : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,15 +33,15 @@ public:
   /// @brief Field _randomValueToShader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__randomValueToShader, put = __cordl_internal_set__randomValueToShader)) ::UnityW<::GlobalNamespace::RandomValueToShader> _randomValueToShader;
 
-  /// @brief Method HandleCameraPreRender, addr 0x3987420, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleCameraPreRender, addr 0x39ddd84, size 0x60, virtual false, abstract: false, final false
   inline void HandleCameraPreRender(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::BlueNoiseDitheringUpdater* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x398733c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39ddca0, size 0xe4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39871e4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39ddacc, size 0x16c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering> const& __cordl_internal_get__blueNoiseDithering() const;
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__randomValueToShader(::UnityW<::GlobalNamespace::RandomValueToShader> value);
 
-  /// @brief Method .ctor, addr 0x398750c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dde84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BlueNoiseDitheringUpdater(BlueNoiseDitheringUpdater const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16273 };
+
   /// @brief Field _blueNoiseDithering, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BlueNoiseDithering> ____blueNoiseDithering;
 
   /// @brief Field _randomValueToShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RandomValueToShader> ____randomValueToShader;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16238 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlueNoiseDitheringUpdater, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BlueNoiseDitheringUpdater, ____blueNoiseDithering) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BlueNoiseDitheringUpdater, ____randomValueToShader) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlueNoiseDitheringUpdater, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BlueNoiseDitheringUpdater);

@@ -29,11 +29,10 @@ class EventCallbackFunctorBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
-// Type: UnityEngine.UIElements::EventCallbackFunctorBase
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.CallbackPhase, UnityEngine.UIElements.InvokePolicy
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventCallbackFunctorBase*
+// CS Name: UnityEngine.UIElements.EventCallbackFunctorBase
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {
 public:
   // Declarations
@@ -48,15 +47,15 @@ public:
 
   __declspec(property(get = get_phase)) ::UnityEngine::UIElements::CallbackPhase phase;
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
-  /// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsEquivalentTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method PhaseMatches, addr 0x49c0980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PhaseMatches, addr 0x4a25290, size 0x3c, virtual false, abstract: false, final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
@@ -71,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  /// @brief Method .ctor, addr 0x49c0954, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a25264, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method get_invokePolicy, addr 0x49c094c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x4a2525c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_phase, addr 0x49c0944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x4a25254, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
 protected:
@@ -94,23 +93,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCallbackFunctorBase(EventCallbackFunctorBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5807 };
+
   /// @brief Field <phase>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::CallbackPhase ____phase_k__BackingField;
 
   /// @brief Field <invokePolicy>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::UIElements::InvokePolicy ____invokePolicy_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____phase_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____invokePolicy_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackFunctorBase);

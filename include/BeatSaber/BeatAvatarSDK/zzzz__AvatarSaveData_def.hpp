@@ -13,11 +13,10 @@ class AvatarSaveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarSaveData);
-// Type: BeatSaber.BeatAvatarSDK::AvatarSaveData
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Color
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarSaveData*
+// CS Name: BeatSaber.BeatAvatarSDK.AvatarSaveData
 class CORDL_TYPE AvatarSaveData : public ::System::Object {
 public:
   // Declarations
@@ -167,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set_skinColorId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x222db84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22590f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -183,6 +182,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSaveData(AvatarSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18152 };
 
   /// @brief Field headTopId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___headTopId;
@@ -232,14 +234,9 @@ public:
   /// @brief Field clothesDetailColor, offset: 0xc0, size: 0x10, def value: None
   ::UnityEngine::Color ___clothesDetailColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18072 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarSaveData, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarSaveData, ___headTopId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarSaveData, ___glassesId) == 0x18, "Offset mismatch!");
@@ -271,6 +268,8 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarSaveData, ___clothesPri
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarSaveData, ___clothesSecondaryColor) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarSaveData, ___clothesDetailColor) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarSaveData, 0xd0>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::AvatarSaveData);

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x406297c;
+  constexpr static std::size_t addrs = 0x40c3c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4062984;
+  constexpr static std::size_t addrs = 0x40c3c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40629c4;
+  constexpr static std::size_t addrs = 0x40c3cd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::Run)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40629cc;
+  constexpr static std::size_t addrs = 0x40c3ce0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,9 +74,6 @@ inline void System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruct
 inline ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction*, "Instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction*>::get>();
-}
-inline ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction*>());
 }
 inline void System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::_ctor() {
   static auto* ___internal_method =
@@ -101,6 +98,9 @@ inline int32_t System::Linq::Expressions::Interpreter::EnterExceptionFilterInstr
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction* System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction*>());
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::EnterExceptionFilterInstruction::EnterExceptionFilterInstruction() {}

@@ -13,8 +13,7 @@ template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallbac
   return this->___m_Callback;
 }
 template <typename TEventType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const&
-UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_get_m_Callback() const {
+constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>* const& UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::__cordl_internal_get_m_Callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
 }
@@ -35,14 +34,6 @@ template <typename TEventType> constexpr void UnityEngine::UIElements::EventCall
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EventTypeId = value;
 }
-/// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
-template <typename TEventType>
-inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*
-UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase,
-                                                                      ::UnityEngine::UIElements::InvokePolicy invokePolicy) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(callback, phase, invokePolicy));
-}
-/// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
 template <typename TEventType>
 inline void UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase,
                                                                                ::UnityEngine::UIElements::InvokePolicy invokePolicy) {
@@ -66,6 +57,12 @@ inline bool UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::IsEquiv
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, eventTypeId, callback, phase);
+}
+template <typename TEventType>
+inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*
+UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase,
+                                                                      ::UnityEngine::UIElements::InvokePolicy invokePolicy) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>*>(callback, phase, invokePolicy));
 }
 // Ctor Parameters []
 template <typename TEventType> constexpr ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>::EventCallbackFunctor_1() {}

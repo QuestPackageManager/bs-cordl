@@ -20,11 +20,10 @@ class SmimeEncryptionKeyPreferenceAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute);
-// Type: Org.BouncyCastle.Asn1.Smime::SmimeEncryptionKeyPreferenceAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X509.AttributeX509
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeEncryptionKeyPreferenceAttribute*
+// CS Name: Org.BouncyCastle.Asn1.Smime.SmimeEncryptionKeyPreferenceAttribute
 class CORDL_TYPE SmimeEncryptionKeyPreferenceAttribute : public ::Org::BouncyCastle::Asn1::X509::AttributeX509 {
 public:
   // Declarations
@@ -34,13 +33,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
-  /// @brief Method .ctor, addr 0x24c10d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f43bc, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
-  /// @brief Method .ctor, addr 0x24c11b0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f449c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method .ctor, addr 0x24c1290, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f457c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
 protected:

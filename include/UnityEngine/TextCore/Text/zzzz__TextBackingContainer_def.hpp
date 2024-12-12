@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextBackingContainer)
@@ -13,11 +12,10 @@ struct TextBackingContainer;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextBackingContainer);
-// Type: UnityEngine.TextCore.Text::TextBackingContainer
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::TextBackingContainer
+// CS Name: UnityEngine.TextCore.Text.TextBackingContainer
 struct CORDL_TYPE TextBackingContainer {
 public:
   // Declarations
@@ -27,25 +25,25 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) uint32_t Item[];
 
-  /// @brief Method Resize, addr 0x48e3314, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Resize, addr 0x49479a4, size 0x64, virtual false, abstract: false, final false
   inline void Resize(int32_t size);
 
-  /// @brief Method .ctor, addr 0x48e3378, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4947a08, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method get_Capacity, addr 0x48e3258, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Capacity, addr 0x49478e8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Count, addr 0x48e3274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x4947904, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x48e3284, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4947914, size 0x30, virtual false, abstract: false, final false
   inline uint32_t get_Item(int32_t index);
 
-  /// @brief Method set_Count, addr 0x48e327c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x494790c, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method set_Item, addr 0x48e32b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x4947944, size 0x60, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, uint32_t value);
 
   // Ctor Parameters []
@@ -56,26 +54,26 @@ public:
   // None }]
   constexpr TextBackingContainer(::ArrayW<uint32_t, ::Array<uint32_t>*> m_Array, int32_t m_Count) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15272 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field m_Array, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> m_Array;
 
   /// @brief Field m_Count, offset: 0x8, size: 0x4, def value: None
   int32_t m_Count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15237 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextBackingContainer, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextBackingContainer, m_Array) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextBackingContainer, m_Count) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextBackingContainer, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextBackingContainer, "UnityEngine.TextCore.Text", "TextBackingContainer");

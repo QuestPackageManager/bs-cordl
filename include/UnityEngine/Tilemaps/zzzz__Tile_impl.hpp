@@ -2,7 +2,6 @@
 // IWYU pragma private; include "UnityEngine/Tilemaps/Tile.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileBase_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileFlags_impl.hpp"
-#include "UnityEngine/Tilemaps/zzzz__Tile_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tile_def.hpp"
@@ -16,20 +15,20 @@
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType::__Tile__ColliderType(int32_t value__) noexcept {
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType::Tile_ColliderType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType::__Tile__ColliderType() {}
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType UnityEngine::Tilemaps::__Tile__ColliderType::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType UnityEngine::Tilemaps::__Tile__ColliderType::Sprite{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType UnityEngine::Tilemaps::__Tile__ColliderType::Grid{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType::Tile_ColliderType() {}
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType UnityEngine::Tilemaps::Tile_ColliderType::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType UnityEngine::Tilemaps::Tile_ColliderType::Sprite{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType UnityEngine::Tilemaps::Tile_ColliderType::Grid{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::UnityEngine::Tilemaps::Tile.get_sprite
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::Tilemaps::Tile::*)()>(&::UnityEngine::Tilemaps::Tile::get_sprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef058;
+  constexpr static std::size_t addrs = 0x49536e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_sprite",
@@ -42,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Sprite*)>(&::UnityEngine::Tilemaps::Tile::set_sprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef060;
+  constexpr static std::size_t addrs = 0x49536f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::Tilemaps::Tile::*)()>(&::UnityEngine::Tilemaps::Tile::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48ef068;
+  constexpr static std::size_t addrs = 0x49536f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_color",
@@ -69,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Color)>(&::UnityEngine::Tilemaps::Tile::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48ef074;
+  constexpr static std::size_t addrs = 0x4953704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Tilemaps::Tile::*)()>(&::UnityEngine::Tilemaps::Tile::get_transform)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48ef080;
+  constexpr static std::size_t addrs = 0x4953710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_transform",
@@ -96,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Matrix4x4)>(&::UnityEngine::Tilemaps::Tile::set_transform)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48ef094;
+  constexpr static std::size_t addrs = 0x4953724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Tilemaps::Tile::*)()>(
     &::UnityEngine::Tilemaps::Tile::get_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0a8;
+  constexpr static std::size_t addrs = 0x4953738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_gameObject",
@@ -125,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::Tilemaps::Tile::set_gameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0b0;
+  constexpr static std::size_t addrs = 0x4953740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::TileFlags (::UnityEngine::Tilemaps::Tile::*)()>(&::UnityEngine::Tilemaps::Tile::get_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0b8;
+  constexpr static std::size_t addrs = 0x4953748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_flags",
@@ -153,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Tilemaps::TileFlags)>(
     &::UnityEngine::Tilemaps::Tile::set_flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0c0;
+  constexpr static std::size_t addrs = 0x4953750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,10 +164,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Tilemaps::Tile.get_colliderType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::__Tile__ColliderType (::UnityEngine::Tilemaps::Tile::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::Tile_ColliderType (::UnityEngine::Tilemaps::Tile::*)()>(
     &::UnityEngine::Tilemaps::Tile::get_colliderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0c8;
+  constexpr static std::size_t addrs = 0x4953758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_colliderType",
@@ -179,15 +178,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Tilemaps::Tile.set_colliderType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Tilemaps::__Tile__ColliderType)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(::UnityEngine::Tilemaps::Tile_ColliderType)>(
     &::UnityEngine::Tilemaps::Tile::set_colliderType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef0d0;
+  constexpr static std::size_t addrs = 0x4953760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "set_colliderType", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::__Tile__ColliderType>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::Tile_ColliderType>::get() })));
     return ___internal_method;
   }
 };
@@ -195,9 +194,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)(
-    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ByRef<::UnityEngine::Tilemaps::TileData>)>(&::UnityEngine::Tilemaps::Tile::GetTileData)> {
+    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::ByRef<::UnityEngine::Tilemaps::TileData>)>(&::UnityEngine::Tilemaps::Tile::GetTileData)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48ef0d8;
+  constexpr static std::size_t addrs = 0x4953768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::Tile::*)()>(&::UnityEngine::Tilemaps::Tile::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48ef2d0;
+  constexpr static std::size_t addrs = 0x4953960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), ".ctor",
@@ -279,15 +278,15 @@ constexpr void UnityEngine::Tilemaps::Tile::__cordl_internal_set_m_Flags(::Unity
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType& UnityEngine::Tilemaps::Tile::__cordl_internal_get_m_ColliderType() {
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType& UnityEngine::Tilemaps::Tile::__cordl_internal_get_m_ColliderType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColliderType;
 }
-constexpr ::UnityEngine::Tilemaps::__Tile__ColliderType const& UnityEngine::Tilemaps::Tile::__cordl_internal_get_m_ColliderType() const {
+constexpr ::UnityEngine::Tilemaps::Tile_ColliderType const& UnityEngine::Tilemaps::Tile::__cordl_internal_get_m_ColliderType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ColliderType;
 }
-constexpr void UnityEngine::Tilemaps::Tile::__cordl_internal_set_m_ColliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value) {
+constexpr void UnityEngine::Tilemaps::Tile::__cordl_internal_set_m_ColliderType(::UnityEngine::Tilemaps::Tile_ColliderType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ColliderType = value;
 }
@@ -346,29 +345,29 @@ inline void UnityEngine::Tilemaps::Tile::set_flags(::UnityEngine::Tilemaps::Tile
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::TileFlags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Tilemaps::__Tile__ColliderType UnityEngine::Tilemaps::Tile::get_colliderType() {
+inline ::UnityEngine::Tilemaps::Tile_ColliderType UnityEngine::Tilemaps::Tile::get_colliderType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "get_colliderType",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Tilemaps::__Tile__ColliderType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Tilemaps::Tile_ColliderType, false>(this, ___internal_method);
 }
-inline void UnityEngine::Tilemaps::Tile::set_colliderType(::UnityEngine::Tilemaps::__Tile__ColliderType value) {
+inline void UnityEngine::Tilemaps::Tile::set_colliderType(::UnityEngine::Tilemaps::Tile_ColliderType value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), "set_colliderType", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::__Tile__ColliderType>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::Tile_ColliderType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::Tilemaps::Tile::GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData) {
+inline void UnityEngine::Tilemaps::Tile::GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::ByRef<::UnityEngine::Tilemaps::TileData> tileData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, tilemap, tileData);
-}
-inline ::UnityEngine::Tilemaps::Tile* UnityEngine::Tilemaps::Tile::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Tilemaps::Tile*>());
 }
 inline void UnityEngine::Tilemaps::Tile::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::Tile*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Tilemaps::Tile* UnityEngine::Tilemaps::Tile::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Tilemaps::Tile*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::Tile::Tile() {}

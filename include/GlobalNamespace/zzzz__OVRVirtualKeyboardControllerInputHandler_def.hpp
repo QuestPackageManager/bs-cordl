@@ -11,20 +11,19 @@ class OVRVirtualKeyboardControllerInputHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler);
-// Type: ::OVRVirtualKeyboardControllerInputHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRVirtualKeyboardControllerInputHandler*
+// CS Name: OVRVirtualKeyboardControllerInputHandler
 class CORDL_TYPE OVRVirtualKeyboardControllerInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x3fc52d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x402537c, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardControllerInputHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fc5328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40253d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   OVRVirtualKeyboardControllerInputHandler(OVRVirtualKeyboardControllerInputHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

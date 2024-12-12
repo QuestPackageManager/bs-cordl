@@ -3,33 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelListWithIList_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __LowLevelListWithIList_1__Enumerator;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> struct LowLevelListWithIList_1_Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -39,19 +31,18 @@ namespace System::Collections::Generic {
 template <typename T> class LowLevelListWithIList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __LowLevelListWithIList_1__Enumerator;
+template <typename T> struct LowLevelListWithIList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LowLevelListWithIList_1);
-MARK_GEN_VAL_T(::System::Collections::Generic::__LowLevelListWithIList_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Collections::Generic::LowLevelListWithIList_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::LowLevelListWithIList`1::Enumerator<T>
-struct CORDL_TYPE __LowLevelListWithIList_1__Enumerator {
+// CS Name: System.Collections.Generic.LowLevelListWithIList`1/Enumerator<T>
+struct CORDL_TYPE LowLevelListWithIList_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -99,11 +90,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LowLevelListWithIList_1__Enumerator();
+  constexpr LowLevelListWithIList_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LowLevelListWithIList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty: "T", modifiers: "", def_value: None }]
-  constexpr __LowLevelListWithIList_1__Enumerator(::System::Collections::Generic::LowLevelListWithIList_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
+  constexpr LowLevelListWithIList_1_Enumerator(::System::Collections::Generic::LowLevelListWithIList_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3875 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field _list, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::LowLevelListWithIList_1<T>* _list;
@@ -117,27 +114,21 @@ public:
   /// @brief Field _current, offset: 0x10, size: 0x8, def value: None
   T _current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3875 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::LowLevelListWithIList`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.LowLevelList`1<T>,
+// System.Collections.IEnumerable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::LowLevelListWithIList`1<T>*
+// CS Name: System.Collections.Generic.LowLevelListWithIList`1<T>
 class CORDL_TYPE LowLevelListWithIList_1 : public ::System::Collections::Generic::LowLevelList_1<T> {
 public:
   // Declarations
-  using Enumerator = ::System::Collections::Generic::__LowLevelListWithIList_1__Enumerator<T>;
+  using Enumerator = ::System::Collections::Generic::LowLevelListWithIList_1_Enumerator<T>;
 
   __declspec(property(get = System_Collections_Generic_ICollection_T__get_IsReadOnly)) bool System_Collections_Generic_ICollection_T__IsReadOnly;
 
@@ -206,4 +197,4 @@ public:
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::LowLevelListWithIList_1, "System.Collections.Generic", "LowLevelListWithIList`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__LowLevelListWithIList_1__Enumerator, "System.Collections.Generic", "LowLevelListWithIList`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::LowLevelListWithIList_1_Enumerator, "System.Collections.Generic", "LowLevelListWithIList`1/Enumerator");

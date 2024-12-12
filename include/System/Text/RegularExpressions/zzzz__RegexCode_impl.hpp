@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Collections::Generic::List_1<::StringW>*, int32_t, ::System::Collections::Hashtable*, int32_t, ::System::Text::RegularExpressions::RegexBoyerMoore*,
     ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>, int32_t, bool)>(&::System::Text::RegularExpressions::RegexCode::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43bb388;
+  constexpr static std::size_t addrs = 0x441c69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Text::RegularExpressions::RegexCode::OpcodeBacktracks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43bb458;
+  constexpr static std::size_t addrs = 0x441c76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::R
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::RegexCode::__cordl_internal_get_Caps() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::RegexCode::__cordl_internal_get_Caps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Caps;
 }
@@ -121,7 +121,7 @@ constexpr ::System::Text::RegularExpressions::RegexBoyerMoore*& System::Text::Re
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BMPrefix;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexBoyerMoore*> const& System::Text::RegularExpressions::RegexCode::__cordl_internal_get_BMPrefix() const {
+constexpr ::System::Text::RegularExpressions::RegexBoyerMoore* const& System::Text::RegularExpressions::RegexCode::__cordl_internal_get_BMPrefix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___BMPrefix;
 }
@@ -153,12 +153,6 @@ constexpr void System::Text::RegularExpressions::RegexCode::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___RightToLeft = value;
 }
-inline ::System::Text::RegularExpressions::RegexCode*
-System::Text::RegularExpressions::RegexCode::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount,
-                                                      ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
-                                                      ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexCode*>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft));
-}
 inline void System::Text::RegularExpressions::RegexCode::_ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount,
                                                                ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
                                                                ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) {
@@ -178,6 +172,12 @@ inline bool System::Text::RegularExpressions::RegexCode::OpcodeBacktracks(int32_
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexCode*>::get(), "OpcodeBacktracks",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, Op);
+}
+inline ::System::Text::RegularExpressions::RegexCode*
+System::Text::RegularExpressions::RegexCode::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount,
+                                                      ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,
+                                                      ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> fcPrefix, int32_t anchors, bool rightToLeft) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexCode*>(codes, stringlist, trackcount, caps, capsize, bmPrefix, fcPrefix, anchors, rightToLeft));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexCode::RegexCode() {}

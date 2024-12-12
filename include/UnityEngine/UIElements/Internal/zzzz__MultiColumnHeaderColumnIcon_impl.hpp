@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::get_isImageInline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49853c4;
+  constexpr static std::size_t addrs = 0x49e9cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::set_isImageInline)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49853cc;
+  constexpr static std::size_t addrs = 0x49e9cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49853d8;
+  constexpr static std::size_t addrs = 0x49e9ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::UpdateClassList)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x49854e0;
+  constexpr static std::size_t addrs = 0x49e9df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::*)(
     ::UnityEngine::UIElements::CustomStyleResolvedEvent*)>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::__ctor_b__5_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49856dc;
+  constexpr static std::size_t addrs = 0x49e9fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,9 +109,6 @@ inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::set_
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>());
-}
 inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>::get(), ".ctor",
@@ -129,6 +126,9 @@ inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::__ct
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>::get(), "<.ctor>b__5_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleResolvedEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnIcon::MultiColumnHeaderColumnIcon() {}

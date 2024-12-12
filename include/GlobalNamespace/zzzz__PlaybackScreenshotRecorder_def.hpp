@@ -22,11 +22,10 @@ class PlaybackScreenshotRecorder;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlaybackScreenshotRecorder);
-// Type: ::PlaybackScreenshotRecorder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlaybackScreenshotRecorder*
+// CS Name: PlaybackScreenshotRecorder
 class CORDL_TYPE PlaybackScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -41,24 +40,24 @@ public:
 
   __declspec(property(get = get_directory)) ::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x3abc844, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x3b19788, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method HandleTexturesReady, addr 0x3abc694, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleTexturesReady, addr 0x3b195d8, size 0x7c, virtual false, abstract: false, final false
   inline void HandleTexturesReady();
 
-  /// @brief Method Init, addr 0x3abae44, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b17d88, size 0xf4, virtual false, abstract: false, final false
   inline void Init(::StringW directory, int32_t framerate, ::GlobalNamespace::PlaybackRenderer* playbackRenderer);
 
   static inline ::GlobalNamespace::PlaybackScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3abc608, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b1954c, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3abc57c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b194c0, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveScreenshot, addr 0x3abc710, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshot, addr 0x3b19654, size 0x134, virtual false, abstract: false, final false
   inline void SaveScreenshot(::UnityEngine::RenderTexture* renderTexture, ::StringW directory);
 
   constexpr ::StringW const& __cordl_internal_get__directory() const;
@@ -79,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__playbackRenderer(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3abc940, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b19884, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x3abc574, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x3b194b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlaybackScreenshotRecorder(PlaybackScreenshotRecorder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5090 };
+
   /// @brief Field _directory, offset: 0x20, size: 0x8, def value: None
   ::StringW ____directory;
 
@@ -108,19 +110,16 @@ public:
   /// @brief Field _frameNumber, offset: 0x30, size: 0x4, def value: None
   int32_t ____frameNumber;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5071 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackScreenshotRecorder, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____directory) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____playbackRenderer) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlaybackScreenshotRecorder, ____frameNumber) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackScreenshotRecorder, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlaybackScreenshotRecorder);

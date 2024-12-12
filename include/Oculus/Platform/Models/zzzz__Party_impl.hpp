@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::Party::*)(::System::IntPtr)>(&::Oculus::Platform::Models::Party::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3f31524;
+  constexpr static std::size_t addrs = 0x3f915d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::Party
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsersOptional;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::Party::__cordl_internal_get_InvitedUsersOptional() const {
+constexpr ::Oculus::Platform::Models::UserList* const& Oculus::Platform::Models::Party::__cordl_internal_get_InvitedUsersOptional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsersOptional;
 }
@@ -47,7 +47,7 @@ constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::Party
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsers;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::Party::__cordl_internal_get_InvitedUsers() const {
+constexpr ::Oculus::Platform::Models::UserList* const& Oculus::Platform::Models::Party::__cordl_internal_get_InvitedUsers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___InvitedUsers;
 }
@@ -59,7 +59,7 @@ constexpr ::Oculus::Platform::Models::User*& Oculus::Platform::Models::Party::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LeaderOptional;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& Oculus::Platform::Models::Party::__cordl_internal_get_LeaderOptional() const {
+constexpr ::Oculus::Platform::Models::User* const& Oculus::Platform::Models::Party::__cordl_internal_get_LeaderOptional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LeaderOptional;
 }
@@ -71,7 +71,7 @@ constexpr ::Oculus::Platform::Models::User*& Oculus::Platform::Models::Party::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Leader;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& Oculus::Platform::Models::Party::__cordl_internal_get_Leader() const {
+constexpr ::Oculus::Platform::Models::User* const& Oculus::Platform::Models::Party::__cordl_internal_get_Leader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Leader;
 }
@@ -83,7 +83,7 @@ constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::Party
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UsersOptional;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::Party::__cordl_internal_get_UsersOptional() const {
+constexpr ::Oculus::Platform::Models::UserList* const& Oculus::Platform::Models::Party::__cordl_internal_get_UsersOptional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UsersOptional;
 }
@@ -95,7 +95,7 @@ constexpr ::Oculus::Platform::Models::UserList*& Oculus::Platform::Models::Party
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Users;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& Oculus::Platform::Models::Party::__cordl_internal_get_Users() const {
+constexpr ::Oculus::Platform::Models::UserList* const& Oculus::Platform::Models::Party::__cordl_internal_get_Users() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Users;
 }
@@ -103,14 +103,14 @@ constexpr void Oculus::Platform::Models::Party::__cordl_internal_set_Users(::Ocu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Users)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Oculus::Platform::Models::Party* Oculus::Platform::Models::Party::New_ctor(::System::IntPtr o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::Party*>(o));
-}
 inline void Oculus::Platform::Models::Party::_ctor(::System::IntPtr o) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::Party*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
+}
+inline ::Oculus::Platform::Models::Party* Oculus::Platform::Models::Party::New_ctor(::System::IntPtr o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::Party*>(o));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Models::Party::Party() {}

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleMatchingContext::*)()>(
     &::UnityEngine::UIElements::StyleMatchingContext::get_styleSheetCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x493c444;
+  constexpr static std::size_t addrs = 0x49a0d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleMatchingContext*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(
     ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(&::UnityEngine::UIElements::StyleMatchingContext::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x493c48c;
+  constexpr static std::size_t addrs = 0x49a0d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::StyleMatchingContext::AddStyleSheet)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x493c57c;
+  constexpr static std::size_t addrs = 0x49a0e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::RemoveStyleSheetRange)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x493c664;
+  constexpr static std::size_t addrs = 0x49a0f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::StyleSheet> (::UnityEngine::UIElements::StyleMatchingContext::*)(int32_t)>(
     &::UnityEngine::UIElements::StyleMatchingContext::GetStyleSheetAt)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x493c6cc;
+  constexpr static std::size_t addrs = 0x49a0fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleSheetStack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* const&
 UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_m_StyleSheetStack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleSheetStack;
@@ -101,7 +101,7 @@ constexpr ::UnityEngine::UIElements::StyleVariableContext*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___variableContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_variableContext() const {
+constexpr ::UnityEngine::UIElements::StyleVariableContext* const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_variableContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___variableContext;
 }
@@ -113,7 +113,7 @@ constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::St
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_currentElement() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_currentElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentElement;
 }
@@ -126,7 +126,7 @@ UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_processResul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processResult;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*> const&
+constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* const&
 UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_processResult() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___processResult;
@@ -140,7 +140,7 @@ constexpr ::UnityEngine::UIElements::AncestorFilter*& UnityEngine::UIElements::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ancestorFilter;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AncestorFilter*> const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_ancestorFilter() const {
+constexpr ::UnityEngine::UIElements::AncestorFilter* const& UnityEngine::UIElements::StyleMatchingContext::__cordl_internal_get_ancestorFilter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ancestorFilter;
 }
@@ -152,10 +152,6 @@ inline int32_t UnityEngine::UIElements::StyleMatchingContext::get_styleSheetCoun
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleMatchingContext*>::get(),
                                                                              "get_styleSheetCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UIElements::StyleMatchingContext*
-UnityEngine::UIElements::StyleMatchingContext::New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::StyleMatchingContext*>(processResult));
 }
 inline void
 UnityEngine::UIElements::StyleMatchingContext::_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult) {
@@ -182,6 +178,10 @@ inline ::UnityW<::UnityEngine::UIElements::StyleSheet> UnityEngine::UIElements::
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleMatchingContext*>::get(), "GetStyleSheetAt",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UIElements::StyleSheet>, false>(this, ___internal_method, index);
+}
+inline ::UnityEngine::UIElements::StyleMatchingContext*
+UnityEngine::UIElements::StyleMatchingContext::New_ctor(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::StyleMatchingContext*>(processResult));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StyleMatchingContext::StyleMatchingContext() {}

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CustomizableEnvironmentCommandLineArgsProvider)
 // Forward declare root types
@@ -13,15 +12,14 @@ class CustomizableEnvironmentCommandLineArgsProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AppFlow::Initialization::CustomizableEnvironmentCommandLineArgsProvider);
-// Type: BGLib.AppFlow.Initialization::CustomizableEnvironmentCommandLineArgsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BGLib::AppFlow::Initialization {
 // Is value type: false
-// CS Name: ::BGLib.AppFlow.Initialization::CustomizableEnvironmentCommandLineArgsProvider*
+// CS Name: BGLib.AppFlow.Initialization.CustomizableEnvironmentCommandLineArgsProvider
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs, addr 0x2268ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x229b53c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
 protected:
@@ -39,7 +37,7 @@ public:
   CustomizableEnvironmentCommandLineArgsProvider(CustomizableEnvironmentCommandLineArgsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17648 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

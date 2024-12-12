@@ -11,17 +11,16 @@ class ManualResetEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ManualResetEvent);
-// Type: System.Threading::ManualResetEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.EventWaitHandle
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ManualResetEvent*
+// CS Name: System.Threading.ManualResetEvent
 class CORDL_TYPE ManualResetEvent : public ::System::Threading::EventWaitHandle {
 public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x3debba8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4bc54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

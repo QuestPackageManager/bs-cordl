@@ -20,11 +20,10 @@ class HEU_RecookPreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_RecookPreset);
-// Type: HoudiniEngineUnity::HEU_RecookPreset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_RecookPreset*
+// CS Name: HoudiniEngineUnity.HEU_RecookPreset
 class CORDL_TYPE HEU_RecookPreset : public ::System::Object {
 public:
   // Declarations
@@ -38,19 +37,19 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_RecookPreset* New_ctor();
 
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* const& __cordl_internal_get__inputPresets() const;
+
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& __cordl_internal_get__inputPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const& __cordl_internal_get__inputPresets() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* const& __cordl_internal_get__volumeCachePresets() const;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& __cordl_internal_get__volumeCachePresets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const& __cordl_internal_get__volumeCachePresets() const;
 
   constexpr void __cordl_internal_set__inputPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* value);
 
   constexpr void __cordl_internal_set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x39b00a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06d18, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_RecookPreset(HEU_RecookPreset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11595 };
+
   /// @brief Field _volumeCachePresets, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* ____volumeCachePresets;
 
   /// @brief Field _inputPresets, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* ____inputPresets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11562 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_RecookPreset, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_RecookPreset, ____volumeCachePresets) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_RecookPreset, ____inputPresets) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_RecookPreset, 0x20>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_RecookPreset);

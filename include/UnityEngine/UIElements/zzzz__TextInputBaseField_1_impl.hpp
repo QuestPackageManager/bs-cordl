@@ -28,569 +28,553 @@
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_MaxLength() {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_MaxLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxLength;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_MaxLength() const {
+constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_MaxLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaxLength;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_MaxLength(::UnityEngine::UIElements::UxmlIntAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_MaxLength, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_Password() {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_Password() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Password;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_Password() const {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_Password() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Password;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_Password(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_Password, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_MaskCharacter() {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_MaskCharacter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskCharacter;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_MaskCharacter() const {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_MaskCharacter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MaskCharacter;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_MaskCharacter(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_MaskCharacter, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsReadOnly() {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_IsReadOnly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsReadOnly() const {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_IsReadOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_IsReadOnly(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_IsReadOnly, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsDelayed() {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_IsDelayed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDelayed;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_IsDelayed() const {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_IsDelayed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDelayed;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_IsDelayed, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_HideMobileInput() {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_HideMobileInput() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HideMobileInput;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_HideMobileInput() const {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_HideMobileInput() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HideMobileInput;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_HideMobileInput(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_HideMobileInput(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_HideMobileInput, value);
 }
 template <typename TValueType>
 constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>*&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_KeyboardType() {
+UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_KeyboardType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyboardType;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_KeyboardType() const {
+constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>* const&
+UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_KeyboardType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_KeyboardType;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_KeyboardType(
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_KeyboardType(
     ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::TouchScreenKeyboardType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_KeyboardType, value);
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_AutoCorrection() {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_AutoCorrection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutoCorrection;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_get_m_AutoCorrection() const {
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const& UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_get_m_AutoCorrection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AutoCorrection;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__cordl_internal_set_m_AutoCorrection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::__cordl_internal_set_m_AutoCorrection(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_AutoCorrection, value);
 }
 template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
-                                                                                          ::UnityEngine::UIElements::CreationContext cc) {
+inline void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
+                                                                                       ::UnityEngine::UIElements::CreationContext cc) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>* UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>*>());
-}
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::_ctor() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TValueType> inline ::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>* UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>*>());
+}
 // Ctor Parameters []
-template <typename TValueType> constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>::__TextInputBaseField_1__UxmlTraits() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::TextInputBaseField_1_UxmlTraits<TValueType>::TextInputBaseField_1_UxmlTraits() {}
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get__textElement_k__BackingField() {
+constexpr ::UnityEngine::UIElements::TextElement*& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get__textElement_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textElement_k__BackingField;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get__textElement_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::TextElement* const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get__textElement_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textElement_k__BackingField;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set__textElement_k__BackingField(::UnityEngine::UIElements::TextElement* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set__textElement_k__BackingField(::UnityEngine::UIElements::TextElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____textElement_k__BackingField, value);
 }
-template <typename TValueType> constexpr ::UnityEngine::UIElements::ScrollView*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_scrollView() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::ScrollView*& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_scrollView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollView;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_scrollView() const {
+constexpr ::UnityEngine::UIElements::ScrollView* const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_scrollView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollView;
 }
-template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_scrollView(::UnityEngine::UIElements::ScrollView* value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_scrollView(::UnityEngine::UIElements::ScrollView* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___scrollView, value);
 }
-template <typename TValueType>
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_multilineContainer() {
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_multilineContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multilineContainer;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
-UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_multilineContainer() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_multilineContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multilineContainer;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_multilineContainer(::UnityEngine::UIElements::VisualElement* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_multilineContainer(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___multilineContainer, value);
 }
-template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get__isDragging_k__BackingField() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get__isDragging_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDragging_k__BackingField;
 }
-template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get__isDragging_k__BackingField() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get__isDragging_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isDragging_k__BackingField;
 }
-template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set__isDragging_k__BackingField(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set__isDragging_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isDragging_k__BackingField = value;
 }
-template <typename TValueType> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_scrollOffset() {
+template <typename TValueType> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_scrollOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollOffset;
 }
-template <typename TValueType> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_scrollOffset() const {
+template <typename TValueType> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_scrollOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollOffset;
 }
-template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_scrollOffset(::UnityEngine::Vector2 value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_scrollOffset(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___scrollOffset = value;
 }
-template <typename TValueType> constexpr bool& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_m_ScrollViewWasClamped() {
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_m_ScrollViewWasClamped() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollViewWasClamped;
 }
-template <typename TValueType> constexpr bool const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_m_ScrollViewWasClamped() const {
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_m_ScrollViewWasClamped() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScrollViewWasClamped;
 }
-template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_m_ScrollViewWasClamped(bool value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_m_ScrollViewWasClamped(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ScrollViewWasClamped = value;
 }
-template <typename TValueType> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_lastCursorPos() {
+template <typename TValueType> constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_lastCursorPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastCursorPos;
 }
-template <typename TValueType> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_lastCursorPos() const {
+template <typename TValueType> constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_lastCursorPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastCursorPos;
 }
-template <typename TValueType> constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_lastCursorPos(::UnityEngine::Vector2 value) {
+template <typename TValueType> constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_lastCursorPos(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastCursorPos = value;
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::ScrollerVisibility& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_m_VerticalScrollerVisibility() {
+constexpr ::UnityEngine::UIElements::ScrollerVisibility& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_m_VerticalScrollerVisibility() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::ScrollerVisibility const& UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_get_m_VerticalScrollerVisibility() const {
+constexpr ::UnityEngine::UIElements::ScrollerVisibility const& UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_get_m_VerticalScrollerVisibility() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VerticalScrollerVisibility;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__cordl_internal_set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::__cordl_internal_set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_VerticalScrollerVisibility = value;
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerComponentsModifierName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerComponentsModifierName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerComponentsModifierName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerComponentsModifierName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerComponentsModifierName() {
   return ::cordl_internals::getStaticField<::StringW, "innerComponentsModifierName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerTextElementUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerTextElementUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerTextElementUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerTextElementUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerTextElementUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "innerTextElementUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerTextElementWithScrollViewUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerTextElementWithScrollViewUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerTextElementWithScrollViewUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerTextElementWithScrollViewUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerTextElementWithScrollViewUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "innerTextElementWithScrollViewUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_horizontalVariantInnerTextElementUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_horizontalVariantInnerTextElementUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "horizontalVariantInnerTextElementUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_horizontalVariantInnerTextElementUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_horizontalVariantInnerTextElementUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "horizontalVariantInnerTextElementUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_verticalVariantInnerTextElementUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_verticalVariantInnerTextElementUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "verticalVariantInnerTextElementUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_verticalVariantInnerTextElementUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_verticalVariantInnerTextElementUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "verticalVariantInnerTextElementUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_verticalHorizontalVariantInnerTextElementUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_verticalHorizontalVariantInnerTextElementUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "verticalHorizontalVariantInnerTextElementUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_verticalHorizontalVariantInnerTextElementUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_verticalHorizontalVariantInnerTextElementUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "verticalHorizontalVariantInnerTextElementUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerScrollviewUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerScrollviewUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerScrollviewUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerScrollviewUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerScrollviewUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "innerScrollviewUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerViewportUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerViewportUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerViewportUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerViewportUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerViewportUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "innerViewportUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::setStaticF_innerContentContainerUssClassName(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::setStaticF_innerContentContainerUssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "innerContentContainerUssClassName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>(
       std::forward<::StringW>(value));
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::getStaticF_innerContentContainerUssClassName() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::getStaticF_innerContentContainerUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "innerContentContainerUssClassName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get>();
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::TextElement* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_textElement() {
+template <typename TValueType> inline ::UnityEngine::UIElements::TextElement* UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_textElement() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "get_textElement", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextElement*, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_textElement(::UnityEngine::UIElements::TextElement* value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_textElement(::UnityEngine::UIElements::TextElement* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "set_textElement",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "set_textElement",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::ITextSelection* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_textSelection() {
+template <typename TValueType> inline ::UnityEngine::UIElements::ITextSelection* UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_textSelection() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "get_textSelection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ITextSelection*, false>(this, ___internal_method);
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::ITextEdition* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_textEdition() {
+template <typename TValueType> inline ::UnityEngine::UIElements::ITextEdition* UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_textEdition() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "get_textEdition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ITextEdition*, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SelectAll() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SelectAll() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
-                                               "SelectAll", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "SelectAll",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SelectNone() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SelectNone() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
-                                               "SelectNone", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "SelectNone",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_originalText() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_originalText() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "get_originalText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-template <typename TValueType> inline TValueType UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::StringToValue(::StringW str) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), 100)));
+template <typename TValueType> inline TValueType UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::StringToValue(::StringW str) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), 100)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, str);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::UpdateValueFromText() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateValueFromText() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "UpdateValueFromText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::UpdateTextFromValue() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateTextFromValue() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "UpdateTextFromValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::MoveFocusToCompositeRoot() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::MoveFocusToCompositeRoot() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "MoveFocusToCompositeRoot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline bool UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_isReadOnly() {
+template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_isReadOnly() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "get_isReadOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_maxLength(int32_t value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_maxLength(int32_t value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "set_maxLength",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "set_maxLength",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_maskChar(char16_t value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_maskChar(char16_t value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "set_maskChar",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "set_maskChar",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType> inline bool UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_isPasswordField() {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), 101)));
+template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_isPasswordField() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), 101)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_isPasswordField(bool value) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), 102)));
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_isPasswordField(bool value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), 102)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_isDragging(bool value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_isDragging(bool value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "set_isDragging",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "set_isDragging",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType> inline ::StringW UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::get_text() {
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::get_text() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "get_text",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "get_text",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::set_text(::StringW value) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::set_text(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "set_text",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "set_text",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TValueType>
-inline ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>());
-}
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::_ctor() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::MakeSureScrollViewDoesNotLeakEvents(::UnityEngine::UIElements::ChangeEvent_1<float_t>* evt) {
+inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::MakeSureScrollViewDoesNotLeakEvents(::UnityEngine::UIElements::ChangeEvent_1<float_t>* evt) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                   "MakeSureScrollViewDoesNotLeakEvents", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ChangeEvent_1<float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SetSingleLine() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SetSingleLine() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "SetSingleLine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SetMultiline() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SetMultiline() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "SetMultiline", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::ScrollViewOnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* e) {
+inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::ScrollViewOnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "ScrollViewOnGeometryChangedEvent",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "ScrollViewOnGeometryChangedEvent",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::GeometryChangedEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
 template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::TextElementOnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* e) {
+inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::TextElementOnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "TextElementOnGeometryChangedEvent",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "TextElementOnGeometryChangedEvent",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::GeometryChangedEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
-template <typename TValueType>
-inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::OnInputCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::OnInputCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                   "OnInputCustomStyleResolved", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CustomStyleResolvedEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
-template <typename TValueType> inline bool UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::AcceptCharacter(char16_t c) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), 103)));
+template <typename TValueType> inline bool UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::AcceptCharacter(char16_t c) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), 103)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, c);
 }
-/// @param isBackspace: bool (default: false)
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::UpdateScrollOffset(bool isBackspace) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateScrollOffset(bool isBackspace) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "UpdateScrollOffset",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "UpdateScrollOffset",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isBackspace);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::UpdateScrollOffset(bool isBackspace, bool widthChanged) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::UpdateScrollOffset(bool isBackspace, bool widthChanged) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "UpdateScrollOffset",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "UpdateScrollOffset",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isBackspace, widthChanged);
 }
 template <typename TValueType>
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::GetScrollOffset(float_t xOffset, float_t yOffset, float_t contentViewportWidth,
-                                                                                                                          bool isBackspace, bool widthChanged) {
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::GetScrollOffset(float_t xOffset, float_t yOffset, float_t contentViewportWidth, bool isBackspace,
+                                                                                                                       bool widthChanged) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(), "GetScrollOffset",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(), "GetScrollOffset",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, xOffset, yOffset, contentViewportWidth, isBackspace, widthChanged);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SetScrollViewMode() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SetScrollViewMode() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "SetScrollViewMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::SetMultilineContainerStyle() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::SetMultilineContainerStyle() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "SetMultilineContainerStyle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::RemoveSingleLineComponents() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::RemoveSingleLineComponents() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "RemoveSingleLineComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::RemoveMultilineComponents() {
+template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::RemoveMultilineComponents() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get(),
                                                "RemoveMultilineComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TValueType> inline ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>());
+}
 // Ctor Parameters []
-template <typename TValueType> constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>::__TextInputBaseField_1__TextInputBase() {}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>::TextInputBaseField_1_TextInputBase() {}
 template <typename TValueType> constexpr int32_t& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_VisualInputTabIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_VisualInputTabIndex;
@@ -604,18 +588,17 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::TextInput
   this->___m_VisualInputTabIndex = value;
 }
 template <typename TValueType>
-constexpr ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_TextInputBase() {
+constexpr ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_TextInputBase() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextInputBase;
 }
 template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*> const&
-UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_TextInputBase() const {
+constexpr ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_m_TextInputBase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextInputBase;
 }
 template <typename TValueType>
-constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_set_m_TextInputBase(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* value) {
+constexpr void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_set_m_TextInputBase(::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_TextInputBase, value);
 }
@@ -623,8 +606,7 @@ template <typename TValueType> constexpr ::System::Action_1<bool>*& UnityEngine:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onIsReadOnlyChanged;
 }
-template <typename TValueType>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_onIsReadOnlyChanged() const {
+template <typename TValueType> constexpr ::System::Action_1<bool>* const& UnityEngine::UIElements::TextInputBaseField_1<TValueType>::__cordl_internal_get_onIsReadOnlyChanged() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onIsReadOnlyChanged;
 }
@@ -714,11 +696,11 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1<TValueType>::getStaticF_textInputUssName() {
   return ::cordl_internals::getStaticField<::StringW, "textInputUssName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>::get>();
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_textInputBase() {
+template <typename TValueType> inline ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_textInputBase() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>::get(), "get_textInputBase",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*, false>(this, ___internal_method);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextInputBaseField_1<TValueType>::get_text() {
   static auto* ___internal_method =
@@ -823,19 +805,13 @@ template <typename TValueType> inline TValueType UnityEngine::UIElements::TextIn
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, str);
 }
 template <typename TValueType>
-inline ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*
-UnityEngine::UIElements::TextInputBaseField_1<TValueType>::New_ctor(::StringW label, int32_t maxLength, char16_t maskChar,
-                                                                    ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* textInputBase) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(label, maxLength, maskChar, textInputBase));
-}
-template <typename TValueType>
 inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::_ctor(::StringW label, int32_t maxLength, char16_t maskChar,
-                                                                             ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* textInputBase) {
+                                                                             ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* textInputBase) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, label, maxLength, maskChar, textInputBase);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextInputBaseField_1<TValueType>::OnFieldCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e) {
@@ -868,6 +844,12 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextInputBas
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>::get(), 121)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType>
+inline ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*
+UnityEngine::UIElements::TextInputBaseField_1<TValueType>::New_ctor(::StringW label, int32_t maxLength, char16_t maskChar,
+                                                                    ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType>* textInputBase) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextInputBaseField_1<TValueType>*>(label, maxLength, maskChar, textInputBase));
 }
 // Ctor Parameters []
 template <typename TValueType> constexpr ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>::TextInputBaseField_1() {}

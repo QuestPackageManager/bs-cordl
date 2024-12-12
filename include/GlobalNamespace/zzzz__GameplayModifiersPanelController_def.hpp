@@ -3,10 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameplayModifiersPanelController)
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
@@ -18,13 +18,10 @@ namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
+class GameplayModifiersPanelController___c__DisplayClass16_0;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-class __GameplayModifiersPanelController____c__DisplayClass16_0;
 }
 namespace HMUI {
 class ToggleBinder;
@@ -46,17 +43,16 @@ namespace GlobalNamespace {
 class GameplayModifiersPanelController;
 }
 namespace GlobalNamespace {
-class __GameplayModifiersPanelController____c__DisplayClass16_0;
+class GameplayModifiersPanelController___c__DisplayClass16_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayModifiersPanelController);
-MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0);
-// Type: ::<>c__DisplayClass16_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameplayModifiersPanelController::<>c__DisplayClass16_0*
-class CORDL_TYPE __GameplayModifiersPanelController____c__DisplayClass16_0 : public ::System::Object {
+// CS Name: GameplayModifiersPanelController/<>c__DisplayClass16_0
+class CORDL_TYPE GameplayModifiersPanelController___c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -65,9 +61,9 @@ public:
   /// @brief Field gameplayModifierToggle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifierToggle, put = __cordl_internal_set_gameplayModifierToggle)) ::UnityW<::GlobalNamespace::GameplayModifierToggle> gameplayModifierToggle;
 
-  static inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* New_ctor();
+  static inline ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <Awake>b__0, addr 0x3af8168, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__0, addr 0x3b579c0, size 0x204, virtual false, abstract: false, final false
   inline void _Awake_b__0(bool on);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get___4__this() const;
@@ -82,22 +78,25 @@ public:
 
   constexpr void __cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle> value);
 
-  /// @brief Method .ctor, addr 0x3af7ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b57538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GameplayModifiersPanelController____c__DisplayClass16_0();
+  constexpr GameplayModifiersPanelController___c__DisplayClass16_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersPanelController____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __GameplayModifiersPanelController____c__DisplayClass16_0(__GameplayModifiersPanelController____c__DisplayClass16_0&&) = delete;
+  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersPanelController____c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __GameplayModifiersPanelController____c__DisplayClass16_0(__GameplayModifiersPanelController____c__DisplayClass16_0 const&) = delete;
+  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5324 };
 
   /// @brief Field gameplayModifierToggle, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierToggle> ___gameplayModifierToggle;
@@ -105,28 +104,24 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5301 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0, ___gameplayModifierToggle) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, ___gameplayModifierToggle) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0, _____4__this) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::GameplayModifiersPanelController
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IRefreshable, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameplayModifiersPanelController*
+// CS Name: GameplayModifiersPanelController
 class CORDL_TYPE GameplayModifiersPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass16_0 = ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0;
+  using __c__DisplayClass16_0 = ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0;
 
   /// @brief Field _changingGameplayModifierToggles, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get__changingGameplayModifierToggles, put = __cordl_internal_set__changingGameplayModifierToggles)) bool _changingGameplayModifierToggles;
@@ -171,27 +166,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x3af7b64, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b573bc, size 0x17c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x3af7d84, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x3b575dc, size 0x8c, virtual false, abstract: false, final false
   inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method IRefreshable.Refresh, addr 0x3af7fe4, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method IRefreshable.Refresh, addr 0x3b5783c, size 0x104, virtual true, abstract: false, final true
   inline void IRefreshable_Refresh();
 
   static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3af7ce8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b57540, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x3af7e10, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x3b57668, size 0x1d4, virtual false, abstract: false, final false
   inline void RefreshTotalMultiplierAndRankUI();
 
-  /// @brief Method SetData, addr 0x3af7b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3b573b4, size 0x8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
 
-  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x3af7cfc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x3b57554, size 0x88, virtual false, abstract: false, final false
   inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
 
   constexpr bool const& __cordl_internal_get__changingGameplayModifierToggles() const;
@@ -202,9 +197,9 @@ public:
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>& __cordl_internal_get__gameplayModifierToggles();
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
@@ -222,23 +217,23 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__positiveColor();
 
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* const&
+  __cordl_internal_get__toggleForGameplayModifierParam() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>*&
   __cordl_internal_get__toggleForGameplayModifierParam();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>*> const&
-  __cordl_internal_get__toggleForGameplayModifierParam() const;
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__totalMultiplierValueText() const;
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__totalMultiplierValueText();
 
-  constexpr ::System::Action*& __cordl_internal_get_didChangeGameplayModifiersEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didChangeGameplayModifiersEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeGameplayModifiersEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didChangeGameplayModifiersEvent();
 
   constexpr void __cordl_internal_set__changingGameplayModifierToggles(bool value);
 
@@ -263,19 +258,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3af80e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b57940, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x3af7a1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x3b57274, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_gameplayModifiers, addr 0x3af7b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x3b573ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x3af7ab8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x3b57310, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
 protected:
@@ -291,6 +286,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifiersPanelController(GameplayModifiersPanelController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5325 };
 
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
@@ -325,14 +323,9 @@ public:
   /// @brief Field _toggleForGameplayModifierParam, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* ____toggleForGameplayModifierParam;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5302 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____gameplayModifiersModel) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____totalMultiplierValueText) == 0x28, "Offset mismatch!");
@@ -355,8 +348,10 @@ static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____
 
 static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____toggleForGameplayModifierParam) == 0x80, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController, 0x88>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifiersPanelController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
-NEED_NO_BOX(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*, "", "GameplayModifiersPanelController/<>c__DisplayClass16_0");
+NEED_NO_BOX(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*, "", "GameplayModifiersPanelController/<>c__DisplayClass16_0");

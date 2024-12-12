@@ -3,9 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ed25519Signer)
@@ -16,59 +16,55 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed25519PublicKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
-class __Ed25519Signer__Buffer;
+class Ed25519Signer_Buffer;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
 class Ed25519Signer;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
-class __Ed25519Signer__Buffer;
+class Ed25519Signer_Buffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer);
-MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer);
-// Type: ::Buffer
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer);
+// Dependencies System.IO.MemoryStream
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Ed25519Signer::Buffer*
-class CORDL_TYPE __Ed25519Signer__Buffer : public ::System::IO::MemoryStream {
+// CS Name: Org.BouncyCastle.Crypto.Signers.Ed25519Signer/Buffer
+class CORDL_TYPE Ed25519Signer_Buffer : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method GenerateSignature, addr 0x239d1b0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d049c, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* New_ctor();
+  static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x239d578, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x23d0864, size 0xf4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method VerifySignature, addr 0x239d3ac, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d0698, size 0x1b4, virtual false, abstract: false, final false
   inline bool VerifySignature(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method .ctor, addr 0x239cfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d02bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Ed25519Signer__Buffer();
+  constexpr Ed25519Signer_Buffer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Ed25519Signer__Buffer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519Signer_Buffer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Ed25519Signer__Buffer(__Ed25519Signer__Buffer&&) = delete;
+  Ed25519Signer_Buffer(Ed25519Signer_Buffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Ed25519Signer__Buffer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Ed25519Signer_Buffer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Ed25519Signer__Buffer(__Ed25519Signer__Buffer const&) = delete;
+  Ed25519Signer_Buffer(Ed25519Signer_Buffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1134 };
@@ -76,23 +72,22 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Signers
-// Type: Org.BouncyCastle.Crypto.Signers::Ed25519Signer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.ISigner, System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::Ed25519Signer*
+// CS Name: Org.BouncyCastle.Crypto.Signers.Ed25519Signer
 class CORDL_TYPE Ed25519Signer : public ::System::Object {
 public:
   // Declarations
-  using Buffer = ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer;
+  using Buffer = ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer;
 
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* buffer;
 
   /// @brief Field forSigning, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
@@ -106,43 +101,43 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x239d11c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x23d0408, size 0x24, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x239d140, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x23d042c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x239d018, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23d0304, size 0xe0, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer* New_ctor();
 
-  /// @brief Method Reset, addr 0x239d560, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x23d084c, size 0x18, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x239d0f8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x23d03e4, size 0x24, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x239d338, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x23d0624, size 0x74, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*& __cordl_internal_get_buffer();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* const& __cordl_internal_get_buffer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*> const& __cordl_internal_get_buffer() const;
+  constexpr ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*& __cordl_internal_get_buffer();
 
   constexpr bool const& __cordl_internal_get_forSigning() const;
 
   constexpr bool& __cordl_internal_get_forSigning();
 
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* const& __cordl_internal_get_privateKey() const;
+
   constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*> const& __cordl_internal_get_privateKey() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* const& __cordl_internal_get_publicKey() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __cordl_internal_get_publicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __cordl_internal_get_publicKey() const;
-
-  constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* value);
+  constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* value);
 
   constexpr void __cordl_internal_set_forSigning(bool value);
 
@@ -150,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x239cf70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23d025c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x239cfd8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x23d02c4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
@@ -173,8 +168,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Ed25519Signer(Ed25519Signer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1135 };
+
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer* ___buffer;
+  ::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer* ___buffer;
 
   /// @brief Field forSigning, offset: 0x18, size: 0x1, def value: None
   bool ___forSigning;
@@ -185,14 +183,9 @@ public:
   /// @brief Field publicKey, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* ___publicKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1135 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, ___buffer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, ___forSigning) == 0x18, "Offset mismatch!");
@@ -201,8 +194,10 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, ___p
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, ___publicKey) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::Ed25519Signer, 0x30>, "Size mismatch!");
+
 } // namespace Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer*, "Org.BouncyCastle.Crypto.Signers", "Ed25519Signer");
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::__Ed25519Signer__Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed25519Signer/Buffer");
+NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer);
+DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::Ed25519Signer_Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed25519Signer/Buffer");

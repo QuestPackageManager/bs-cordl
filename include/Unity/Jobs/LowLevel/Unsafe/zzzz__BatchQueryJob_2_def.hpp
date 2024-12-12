@@ -15,13 +15,12 @@ template <typename CommandT, typename ResultT> struct BatchQueryJob_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2);
-// Type: Unity.Jobs.LowLevel.Unsafe::BatchQueryJob`2
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace Unity::Jobs::LowLevel::Unsafe {
 // cpp template
 template <typename CommandT, typename ResultT>
 // Is value type: true
-// CS Name: ::Unity.Jobs.LowLevel.Unsafe::BatchQueryJob`2<CommandT,ResultT>
+// CS Name: Unity.Jobs.LowLevel.Unsafe.BatchQueryJob`2<CommandT,ResultT>
 struct CORDL_TYPE BatchQueryJob_2 {
 public:
   // Declarations
@@ -36,17 +35,17 @@ public:
   // "::Unity::Collections::NativeArray_1<ResultT>", modifiers: "", def_value: None }]
   constexpr BatchQueryJob_2(::Unity::Collections::NativeArray_1<CommandT> commands, ::Unity::Collections::NativeArray_1<ResultT> results) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10547 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field commands, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<CommandT> commands;
 
   /// @brief Field results, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<ResultT> results;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10522 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

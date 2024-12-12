@@ -14,11 +14,10 @@ class IBindable;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IBindable);
-// Type: UnityEngine.UIElements::IBindable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::IBindable*
+// CS Name: UnityEngine.UIElements.IBindable
 class CORDL_TYPE IBindable {
 public:
   // Declarations
@@ -26,22 +25,18 @@ public:
 
   __declspec(property(put = set_bindingPath)) ::StringW bindingPath;
 
-  /// @brief Method get_binding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_binding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
-  /// @brief Method set_bindingPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_bindingPath, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_bindingPath(::StringW value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IBindable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IBindable(IBindable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBindable(IBindable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5516 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

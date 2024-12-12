@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CoreGameHUDController)
 namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+class CoreGameHUDController_InitData;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -21,17 +21,16 @@ namespace GlobalNamespace {
 class CoreGameHUDController;
 }
 namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+class CoreGameHUDController_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CoreGameHUDController);
-MARK_REF_PTR_T(::GlobalNamespace::__CoreGameHUDController__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::CoreGameHUDController_InitData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CoreGameHUDController::InitData*
-class CORDL_TYPE __CoreGameHUDController__InitData : public ::System::Object {
+// CS Name: CoreGameHUDController/InitData
+class CORDL_TYPE CoreGameHUDController_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field advancedHUD, offset 0x12, size 0x1
@@ -43,7 +42,7 @@ public:
   /// @brief Field showEnergyPanel, offset 0x11, size 0x1
   __declspec(property(get = __cordl_internal_get_showEnergyPanel, put = __cordl_internal_set_showEnergyPanel)) bool showEnergyPanel;
 
-  static inline ::GlobalNamespace::__CoreGameHUDController__InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
+  static inline ::GlobalNamespace::CoreGameHUDController_InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
   constexpr bool const& __cordl_internal_get_advancedHUD() const;
 
@@ -63,22 +62,25 @@ public:
 
   constexpr void __cordl_internal_set_showEnergyPanel(bool value);
 
-  /// @brief Method .ctor, addr 0x3b41380, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba2a70, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CoreGameHUDController__InitData();
+  constexpr CoreGameHUDController_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CoreGameHUDController__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CoreGameHUDController__InitData(__CoreGameHUDController__InitData&&) = delete;
+  CoreGameHUDController_InitData(CoreGameHUDController_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CoreGameHUDController__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CoreGameHUDController__InitData(__CoreGameHUDController__InitData const&) = delete;
+  CoreGameHUDController_InitData(CoreGameHUDController_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4403 };
 
   /// @brief Field hide, offset: 0x10, size: 0x1, def value: None
   bool ___hide;
@@ -89,30 +91,26 @@ public:
   /// @brief Field advancedHUD, offset: 0x12, size: 0x1, def value: None
   bool ___advancedHUD;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4391 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CoreGameHUDController__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController_InitData, ___hide) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___hide) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController_InitData, ___showEnergyPanel) == 0x11, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___showEnergyPanel) == 0x11, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CoreGameHUDController_InitData, ___advancedHUD) == 0x12, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___advancedHUD) == 0x12, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoreGameHUDController_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::CoreGameHUDController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CoreGameHUDController*
+// CS Name: CoreGameHUDController
 class CORDL_TYPE CoreGameHUDController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__CoreGameHUDController__InitData;
+  using InitData = ::GlobalNamespace::CoreGameHUDController_InitData;
 
   /// @brief Field _canvasGroup, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup)) ::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
@@ -139,8 +137,8 @@ public:
 
   __declspec(property(get = get_songProgressPanelGO)) ::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
-  /// @brief Method Initialize, addr 0x3b412e8, size 0x90, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::__CoreGameHUDController__InitData* initData);
+  /// @brief Method Initialize, addr 0x3ba29d8, size 0x90, virtual false, abstract: false, final false
+  inline void Initialize(::GlobalNamespace::CoreGameHUDController_InitData* initData);
 
   static inline ::GlobalNamespace::CoreGameHUDController* New_ctor();
 
@@ -174,22 +172,22 @@ public:
 
   constexpr void __cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3b41378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba2a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_energyPanelGo, addr 0x3b412c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_energyPanelGo, addr 0x3ba29b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_energyPanelGo();
 
-  /// @brief Method get_immediateRankGo, addr 0x3b412bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_immediateRankGo, addr 0x3ba29ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_immediateRankGo();
 
-  /// @brief Method get_relativeScoreGo, addr 0x3b412b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_relativeScoreGo, addr 0x3ba29a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_relativeScoreGo();
 
-  /// @brief Method get_songProgressPanelGO, addr 0x3b412ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songProgressPanelGO, addr 0x3ba299c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_songProgressPanelGO();
 
-  /// @brief Method set_alpha, addr 0x3b412cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x3ba29bc, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
 protected:
@@ -206,6 +204,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CoreGameHUDController(CoreGameHUDController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4404 };
+
   /// @brief Field _songProgressPanelGO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____songProgressPanelGO;
 
@@ -221,14 +222,9 @@ public:
   /// @brief Field _canvasGroup, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4392 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoreGameHUDController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____songProgressPanelGO) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____relativeScoreGO) == 0x28, "Offset mismatch!");
@@ -239,8 +235,10 @@ static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____energyPanel
 
 static_assert(offsetof(::GlobalNamespace::CoreGameHUDController, ____canvasGroup) == 0x40, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CoreGameHUDController, 0x48>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CoreGameHUDController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoreGameHUDController*, "", "CoreGameHUDController");
-NEED_NO_BOX(::GlobalNamespace::__CoreGameHUDController__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CoreGameHUDController__InitData*, "", "CoreGameHUDController/InitData");
+NEED_NO_BOX(::GlobalNamespace::CoreGameHUDController_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CoreGameHUDController_InitData*, "", "CoreGameHUDController/InitData");

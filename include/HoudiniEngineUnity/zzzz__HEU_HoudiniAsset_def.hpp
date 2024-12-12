@@ -6,15 +6,13 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_NodeInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Curve_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -54,6 +52,9 @@ namespace HoudiniEngineUnity {
 class HEU_CookedDataEvent;
 }
 namespace HoudiniEngineUnity {
+struct HEU_Curve_CurveDrawCollision;
+}
+namespace HoudiniEngineUnity {
 class HEU_Curve;
 }
 namespace HoudiniEngineUnity {
@@ -64,6 +65,33 @@ class HEU_GeoNode;
 }
 namespace HoudiniEngineUnity {
 class HEU_Handle;
+}
+namespace HoudiniEngineUnity {
+struct HEU_HoudiniAsset_AssetBuildAction;
+}
+namespace HoudiniEngineUnity {
+struct HEU_HoudiniAsset_AssetCookResult;
+}
+namespace HoudiniEngineUnity {
+struct HEU_HoudiniAsset_AssetCookStatus;
+}
+namespace HoudiniEngineUnity {
+struct HEU_HoudiniAsset_AssetInstantiationMethod;
+}
+namespace HoudiniEngineUnity {
+struct HEU_HoudiniAsset_HEU_AssetType;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset_UpdateUIDelegate;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset___c;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset___c__DisplayClass281_0;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset___c__DisplayClass365_0;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputNode;
@@ -111,43 +139,10 @@ namespace HoudiniEngineUnity {
 class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
 class ReloadEvent;
 }
 namespace HoudiniEngineUnity {
 struct TransformData;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_Curve__CurveDrawCollision;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetBuildAction;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookResult;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookStatus;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetInstantiationMethod;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__HEU_AssetType;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset__UpdateUIDelegate;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass281_0;
-}
-namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass365_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -193,58 +188,57 @@ class Transform;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetBuildAction;
+struct HEU_HoudiniAsset_AssetBuildAction;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookResult;
+struct HEU_HoudiniAsset_AssetCookResult;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetCookStatus;
+struct HEU_HoudiniAsset_AssetCookStatus;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__AssetInstantiationMethod;
+struct HEU_HoudiniAsset_AssetInstantiationMethod;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_HoudiniAsset__HEU_AssetType;
+struct HEU_HoudiniAsset_HEU_AssetType;
 }
 namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset__UpdateUIDelegate;
+class HEU_HoudiniAsset_UpdateUIDelegate;
 }
 namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c;
+class HEU_HoudiniAsset___c;
 }
 namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass281_0;
+class HEU_HoudiniAsset___c__DisplayClass281_0;
 }
 namespace HoudiniEngineUnity {
-class __HEU_HoudiniAsset____c__DisplayClass365_0;
+class HEU_HoudiniAsset___c__DisplayClass365_0;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAsset);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_HoudiniAsset____c);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0);
-// Type: ::HEU_AssetType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate);
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAsset___c);
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0);
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0);
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_HoudiniAsset::HEU_AssetType
-struct CORDL_TYPE __HEU_HoudiniAsset__HEU_AssetType {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/HEU_AssetType
+struct CORDL_TYPE HEU_HoudiniAsset_HEU_AssetType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_HoudiniAsset__HEU_AssetType_Unwrapped
-  enum struct ____HEU_HoudiniAsset__HEU_AssetType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_HoudiniAsset_HEU_AssetType_Unwrapped
+  enum struct __HEU_HoudiniAsset_HEU_AssetType_Unwrapped : int32_t {
     __E_TYPE_INVALID = static_cast<int32_t>(0x0),
     __E_TYPE_HDA = static_cast<int32_t>(0x1),
     __E_TYPE_CURVE = static_cast<int32_t>(0x2),
@@ -252,8 +246,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_HoudiniAsset__HEU_AssetType_Unwrapped() const noexcept {
-    return static_cast<____HEU_HoudiniAsset__HEU_AssetType_Unwrapped>(this->value__);
+  constexpr operator __HEU_HoudiniAsset_HEU_AssetType_Unwrapped() const noexcept {
+    return static_cast<__HEU_HoudiniAsset_HEU_AssetType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -263,52 +257,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__HEU_AssetType();
+  constexpr HEU_HoudiniAsset_HEU_AssetType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_HoudiniAsset__HEU_AssetType(int32_t value__) noexcept;
+  constexpr HEU_HoudiniAsset_HEU_AssetType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field TYPE_CURVE value: I32(2)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType const TYPE_CURVE;
 
-  /// @brief Field TYPE_CURVE value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const TYPE_CURVE;
+  /// @brief Field TYPE_HDA value: I32(1)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType const TYPE_HDA;
 
-  /// @brief Field TYPE_HDA value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const TYPE_HDA;
+  /// @brief Field TYPE_INPUT value: I32(3)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType const TYPE_INPUT;
 
-  /// @brief Field TYPE_INPUT value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const TYPE_INPUT;
-
-  /// @brief Field TYPE_INVALID value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const TYPE_INVALID;
+  /// @brief Field TYPE_INVALID value: I32(0)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType const TYPE_INVALID;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11612 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::AssetBuildAction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_HoudiniAsset::AssetBuildAction
-struct CORDL_TYPE __HEU_HoudiniAsset__AssetBuildAction {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/AssetBuildAction
+struct CORDL_TYPE HEU_HoudiniAsset_AssetBuildAction {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_HoudiniAsset__AssetBuildAction_Unwrapped
-  enum struct ____HEU_HoudiniAsset__AssetBuildAction_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_HoudiniAsset_AssetBuildAction_Unwrapped
+  enum struct __HEU_HoudiniAsset_AssetBuildAction_Unwrapped : int32_t {
     __E_NONE = static_cast<int32_t>(0x0),
     __E_RELOAD = static_cast<int32_t>(0x1),
     __E_COOK = static_cast<int32_t>(0x2),
@@ -319,8 +312,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_HoudiniAsset__AssetBuildAction_Unwrapped() const noexcept {
-    return static_cast<____HEU_HoudiniAsset__AssetBuildAction_Unwrapped>(this->value__);
+  constexpr operator __HEU_HoudiniAsset_AssetBuildAction_Unwrapped() const noexcept {
+    return static_cast<__HEU_HoudiniAsset_AssetBuildAction_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -330,61 +323,60 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__AssetBuildAction();
+  constexpr HEU_HoudiniAsset_AssetBuildAction();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_HoudiniAsset__AssetBuildAction(int32_t value__) noexcept;
+  constexpr HEU_HoudiniAsset_AssetBuildAction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field COOK value: I32(2)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const COOK;
 
-  /// @brief Field COOK value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const COOK;
+  /// @brief Field DUPLICATE value: I32(5)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const DUPLICATE;
 
-  /// @brief Field DUPLICATE value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const DUPLICATE;
+  /// @brief Field INVALID value: I32(3)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const INVALID;
 
-  /// @brief Field INVALID value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const INVALID;
+  /// @brief Field NONE value: I32(0)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const NONE;
 
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const NONE;
+  /// @brief Field RELOAD value: I32(1)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const RELOAD;
 
-  /// @brief Field RELOAD value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const RELOAD;
+  /// @brief Field RESET_PARAMS value: I32(6)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const RESET_PARAMS;
 
-  /// @brief Field RESET_PARAMS value: static_cast<int32_t>(0x6)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const RESET_PARAMS;
-
-  /// @brief Field STRIP_HEDATA value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const STRIP_HEDATA;
+  /// @brief Field STRIP_HEDATA value: I32(4)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const STRIP_HEDATA;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::AssetCookStatus
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_HoudiniAsset::AssetCookStatus
-struct CORDL_TYPE __HEU_HoudiniAsset__AssetCookStatus {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/AssetCookStatus
+struct CORDL_TYPE HEU_HoudiniAsset_AssetCookStatus {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_HoudiniAsset__AssetCookStatus_Unwrapped
-  enum struct ____HEU_HoudiniAsset__AssetCookStatus_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_HoudiniAsset_AssetCookStatus_Unwrapped
+  enum struct __HEU_HoudiniAsset_AssetCookStatus_Unwrapped : int32_t {
     __E_NONE = static_cast<int32_t>(0x0),
     __E_COOKING = static_cast<int32_t>(0x1),
     __E_POSTCOOK = static_cast<int32_t>(0x2),
@@ -395,8 +387,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_HoudiniAsset__AssetCookStatus_Unwrapped() const noexcept {
-    return static_cast<____HEU_HoudiniAsset__AssetCookStatus_Unwrapped>(this->value__);
+  constexpr operator __HEU_HoudiniAsset_AssetCookStatus_Unwrapped() const noexcept {
+    return static_cast<__HEU_HoudiniAsset_AssetCookStatus_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -406,69 +398,68 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__AssetCookStatus();
+  constexpr HEU_HoudiniAsset_AssetCookStatus();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_HoudiniAsset__AssetCookStatus(int32_t value__) noexcept;
+  constexpr HEU_HoudiniAsset_AssetCookStatus(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field COOKING value: I32(1)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const COOKING;
 
-  /// @brief Field COOKING value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const COOKING;
+  /// @brief Field LOADING value: I32(3)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const LOADING;
 
-  /// @brief Field LOADING value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const LOADING;
+  /// @brief Field NONE value: I32(0)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const NONE;
 
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const NONE;
+  /// @brief Field POSTCOOK value: I32(2)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const POSTCOOK;
 
-  /// @brief Field POSTCOOK value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const POSTCOOK;
+  /// @brief Field POSTLOAD value: I32(4)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const POSTLOAD;
 
-  /// @brief Field POSTLOAD value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const POSTLOAD;
+  /// @brief Field PRELOAD value: I32(5)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const PRELOAD;
 
-  /// @brief Field PRELOAD value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const PRELOAD;
-
-  /// @brief Field SELECT_SUBASSET value: static_cast<int32_t>(0x6)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const SELECT_SUBASSET;
+  /// @brief Field SELECT_SUBASSET value: I32(6)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const SELECT_SUBASSET;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11614 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::AssetCookResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_HoudiniAsset::AssetCookResult
-struct CORDL_TYPE __HEU_HoudiniAsset__AssetCookResult {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/AssetCookResult
+struct CORDL_TYPE HEU_HoudiniAsset_AssetCookResult {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_HoudiniAsset__AssetCookResult_Unwrapped
-  enum struct ____HEU_HoudiniAsset__AssetCookResult_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_HoudiniAsset_AssetCookResult_Unwrapped
+  enum struct __HEU_HoudiniAsset_AssetCookResult_Unwrapped : int32_t {
     __E_NONE = static_cast<int32_t>(0x0),
     __E_SUCCESS = static_cast<int32_t>(0x1),
     __E_ERRORED = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_HoudiniAsset__AssetCookResult_Unwrapped() const noexcept {
-    return static_cast<____HEU_HoudiniAsset__AssetCookResult_Unwrapped>(this->value__);
+  constexpr operator __HEU_HoudiniAsset_AssetCookResult_Unwrapped() const noexcept {
+    return static_cast<__HEU_HoudiniAsset_AssetCookResult_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -478,102 +469,100 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__AssetCookResult();
+  constexpr HEU_HoudiniAsset_AssetCookResult();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_HoudiniAsset__AssetCookResult(int32_t value__) noexcept;
+  constexpr HEU_HoudiniAsset_AssetCookResult(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ERRORED value: I32(2)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult const ERRORED;
 
-  /// @brief Field ERRORED value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult const ERRORED;
+  /// @brief Field NONE value: I32(0)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult const NONE;
 
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult const NONE;
-
-  /// @brief Field SUCCESS value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult const SUCCESS;
+  /// @brief Field SUCCESS value: I32(1)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult const SUCCESS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11615 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::UpdateUIDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_HoudiniAsset::UpdateUIDelegate*
-class CORDL_TYPE __HEU_HoudiniAsset__UpdateUIDelegate : public ::System::MulticastDelegate {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/UpdateUIDelegate
+class CORDL_TYPE HEU_HoudiniAsset_UpdateUIDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x39cd764, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3a243d4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x39cd784, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3a243f4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x39cd750, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3a243c0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x39cd6c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a24338, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__UpdateUIDelegate();
+  constexpr HEU_HoudiniAsset_UpdateUIDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset_UpdateUIDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_HoudiniAsset__UpdateUIDelegate(__HEU_HoudiniAsset__UpdateUIDelegate&&) = delete;
+  HEU_HoudiniAsset_UpdateUIDelegate(HEU_HoudiniAsset_UpdateUIDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset__UpdateUIDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset_UpdateUIDelegate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_HoudiniAsset__UpdateUIDelegate(__HEU_HoudiniAsset__UpdateUIDelegate const&) = delete;
+  HEU_HoudiniAsset_UpdateUIDelegate(HEU_HoudiniAsset_UpdateUIDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11616 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate, 0x80>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::AssetInstantiationMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_HoudiniAsset::AssetInstantiationMethod
-struct CORDL_TYPE __HEU_HoudiniAsset__AssetInstantiationMethod {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/AssetInstantiationMethod
+struct CORDL_TYPE HEU_HoudiniAsset_AssetInstantiationMethod {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped
-  enum struct ____HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_HoudiniAsset_AssetInstantiationMethod_Unwrapped
+  enum struct __HEU_HoudiniAsset_AssetInstantiationMethod_Unwrapped : int32_t {
     __E_DEFAULT = static_cast<int32_t>(0x0),
     __E_DUPLICATED = static_cast<int32_t>(0x1),
     __E_UNDO = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped() const noexcept {
-    return static_cast<____HEU_HoudiniAsset__AssetInstantiationMethod_Unwrapped>(this->value__);
+  constexpr operator __HEU_HoudiniAsset_AssetInstantiationMethod_Unwrapped() const noexcept {
+    return static_cast<__HEU_HoudiniAsset_AssetInstantiationMethod_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -583,78 +572,77 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset__AssetInstantiationMethod();
+  constexpr HEU_HoudiniAsset_AssetInstantiationMethod();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_HoudiniAsset__AssetInstantiationMethod(int32_t value__) noexcept;
+  constexpr HEU_HoudiniAsset_AssetInstantiationMethod(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field DEFAULT value: I32(0)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod const DEFAULT;
 
-  /// @brief Field DEFAULT value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod const DEFAULT;
+  /// @brief Field DUPLICATED value: I32(1)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod const DUPLICATED;
 
-  /// @brief Field DUPLICATED value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod const DUPLICATED;
-
-  /// @brief Field UNDO value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod const UNDO;
+  /// @brief Field UNDO value: I32(2)
+  static ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod const UNDO;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_HoudiniAsset::<>c*
-class CORDL_TYPE __HEU_HoudiniAsset____c : public ::System::Object {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/<>c
+class CORDL_TYPE HEU_HoudiniAsset___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HoudiniEngineUnity::__HEU_HoudiniAsset____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HoudiniEngineUnity::HEU_HoudiniAsset___c* __9;
 
   /// @brief Field <>9__309_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__309_0, put = setStaticF___9__309_0)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* __9__309_0;
+  __declspec(property(get = getStaticF___9__309_0, put = setStaticF___9__309_0)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* __9__309_0;
 
   /// @brief Field <>9__364_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__364_0, put = setStaticF___9__364_0)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>, bool>* __9__364_0;
+  __declspec(property(get = getStaticF___9__364_0, put = setStaticF___9__364_0)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>, bool>* __9__364_0;
 
   /// @brief Field <>9__364_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__364_1, put = setStaticF___9__364_1)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* __9__364_1;
+  __declspec(property(get = getStaticF___9__364_1, put = setStaticF___9__364_1)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* __9__364_1;
 
   /// @brief Field <>9__364_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__364_2, put = setStaticF___9__364_2)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>, bool>* __9__364_2;
+  __declspec(property(get = getStaticF___9__364_2, put = setStaticF___9__364_2)) ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>, bool>* __9__364_2;
 
-  static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c* New_ctor();
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset___c* New_ctor();
 
-  /// @brief Method <ClearInvalidCurves>b__309_0, addr 0x39cd7f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidCurves>b__309_0, addr 0x3a24464, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidCurves_b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method <ClearInvalidLists>b__364_0, addr 0x39cd850, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_0, addr 0x3a244c0, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
 
-  /// @brief Method <ClearInvalidLists>b__364_1, addr 0x39cd8ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_1, addr 0x3a2451c, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method <ClearInvalidLists>b__364_2, addr 0x39cd908, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_2, addr 0x3a24578, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
 
-  /// @brief Method .ctor, addr 0x39cd7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a2445c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c* getStaticF___9();
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset___c* getStaticF___9();
 
   static inline ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* getStaticF___9__309_0();
 
@@ -664,7 +652,7 @@ public:
 
   static inline ::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>, bool>* getStaticF___9__364_2();
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__HEU_HoudiniAsset____c* value);
+  static inline void setStaticF___9(::HoudiniEngineUnity::HEU_HoudiniAsset___c* value);
 
   static inline void setStaticF___9__309_0(::System::Func_2<::UnityW<::HoudiniEngineUnity::HEU_Curve>, bool>* value);
 
@@ -677,86 +665,84 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset____c();
+  constexpr HEU_HoudiniAsset___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_HoudiniAsset____c(__HEU_HoudiniAsset____c&&) = delete;
+  HEU_HoudiniAsset___c(HEU_HoudiniAsset___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_HoudiniAsset____c(__HEU_HoudiniAsset____c const&) = delete;
+  HEU_HoudiniAsset___c(HEU_HoudiniAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset___c, 0x10>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::<>c__DisplayClass281_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_HoudiniAsset::<>c__DisplayClass281_0*
-class CORDL_TYPE __HEU_HoudiniAsset____c__DisplayClass281_0 : public ::System::Object {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/<>c__DisplayClass281_0
+class CORDL_TYPE HEU_HoudiniAsset___c__DisplayClass281_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field previousTransformValues, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_previousTransformValues,
                       put = __cordl_internal_set_previousTransformValues)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* previousTransformValues;
 
-  static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0* New_ctor();
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0* New_ctor();
 
-  /// @brief Method <BakeToExistingPrefab>b__0, addr 0x39cd96c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <BakeToExistingPrefab>b__0, addr 0x3a245dc, size 0x108, virtual false, abstract: false, final false
   inline void _BakeToExistingPrefab_b__0(::UnityEngine::Transform* trans);
+
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* const& __cordl_internal_get_previousTransformValues() const;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& __cordl_internal_get_previousTransformValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*> const& __cordl_internal_get_previousTransformValues() const;
-
   constexpr void __cordl_internal_set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value);
 
-  /// @brief Method .ctor, addr 0x39cd964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a245d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset____c__DisplayClass281_0();
+  constexpr HEU_HoudiniAsset___c__DisplayClass281_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c__DisplayClass281_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_HoudiniAsset____c__DisplayClass281_0(__HEU_HoudiniAsset____c__DisplayClass281_0&&) = delete;
+  HEU_HoudiniAsset___c__DisplayClass281_0(HEU_HoudiniAsset___c__DisplayClass281_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c__DisplayClass281_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c__DisplayClass281_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_HoudiniAsset____c__DisplayClass281_0(__HEU_HoudiniAsset____c__DisplayClass281_0 const&) = delete;
+  HEU_HoudiniAsset___c__DisplayClass281_0(HEU_HoudiniAsset___c__DisplayClass281_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11619 };
 
   /// @brief Field previousTransformValues, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* ___previousTransformValues;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11586 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0, ___previousTransformValues) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0, ___previousTransformValues) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0, 0x18>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::<>c__DisplayClass365_0
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_HoudiniAsset::<>c__DisplayClass365_0*
-class CORDL_TYPE __HEU_HoudiniAsset____c__DisplayClass365_0 : public ::System::Object {
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset/<>c__DisplayClass365_0
+class CORDL_TYPE HEU_HoudiniAsset___c__DisplayClass365_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9__0, offset 0x20, size 0x8
@@ -768,14 +754,14 @@ public:
   /// @brief Field newAsset, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_newAsset, put = __cordl_internal_set_newAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> newAsset;
 
-  static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0* New_ctor();
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0* New_ctor();
 
-  /// @brief Method <CopyPropertiesTo>b__0, addr 0x39cda7c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CopyPropertiesTo>b__0, addr 0x3a246ec, size 0x7c, virtual false, abstract: false, final false
   inline bool _CopyPropertiesTo_b__0(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  constexpr ::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*& __cordl_internal_get___9__0();
+  constexpr ::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* const& __cordl_internal_get___9__0() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*> const& __cordl_internal_get___9__0() const;
+  constexpr ::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*& __cordl_internal_get___9__0();
 
   constexpr int32_t const& __cordl_internal_get_i() const;
 
@@ -791,22 +777,25 @@ public:
 
   constexpr void __cordl_internal_set_newAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x39cda74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a246e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_HoudiniAsset____c__DisplayClass365_0();
+  constexpr HEU_HoudiniAsset___c__DisplayClass365_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c__DisplayClass365_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_HoudiniAsset____c__DisplayClass365_0(__HEU_HoudiniAsset____c__DisplayClass365_0&&) = delete;
+  HEU_HoudiniAsset___c__DisplayClass365_0(HEU_HoudiniAsset___c__DisplayClass365_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_HoudiniAsset____c__DisplayClass365_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAsset___c__DisplayClass365_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_HoudiniAsset____c__DisplayClass365_0(__HEU_HoudiniAsset____c__DisplayClass365_0 const&) = delete;
+  HEU_HoudiniAsset___c__DisplayClass365_0(HEU_HoudiniAsset___c__DisplayClass365_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11620 };
 
   /// @brief Field newAsset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___newAsset;
@@ -817,46 +806,44 @@ public:
   /// @brief Field <>9__0, offset: 0x20, size: 0x8, def value: None
   ::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* _____9__0;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11587 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0, 0x28>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0, ___newAsset) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0, ___newAsset) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0, ___i) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0, ___i) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0, _____9__0) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0, _____9__0) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0, 0x28>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_HoudiniAsset
-// SizeInfo { instance_size: 640, native_size: -1, calculated_instance_size: 640, calculated_native_size: 633, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_AssetInfo, HoudiniEngineUnity.HAPI_NodeInfo, HoudiniEngineUnity.HEU_Curve::CurveDrawCollision, HoudiniEngineUnity.HEU_HoudiniAsset::AssetBuildAction,
+// HoudiniEngineUnity.HEU_HoudiniAsset::AssetCookResult, HoudiniEngineUnity.HEU_HoudiniAsset::AssetCookStatus, HoudiniEngineUnity.HEU_HoudiniAsset::HEU_AssetType, HoudiniEngineUnity.IEquivable`1<T>,
+// UnityEngine.LayerMask, UnityEngine.Matrix4x4, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HoudiniAsset*
+// CS Name: HoudiniEngineUnity.HEU_HoudiniAsset
 class CORDL_TYPE HEU_HoudiniAsset : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using AssetBuildAction = ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction;
+  using AssetBuildAction = ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction;
 
-  using AssetCookResult = ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult;
+  using AssetCookResult = ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult;
 
-  using AssetCookStatus = ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus;
+  using AssetCookStatus = ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus;
 
-  using AssetInstantiationMethod = ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod;
+  using AssetInstantiationMethod = ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod;
 
-  using HEU_AssetType = ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType;
+  using HEU_AssetType = ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType;
 
-  using UpdateUIDelegate = ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate;
+  using UpdateUIDelegate = ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate;
 
-  using __c = ::HoudiniEngineUnity::__HEU_HoudiniAsset____c;
+  using __c = ::HoudiniEngineUnity::HEU_HoudiniAsset___c;
 
-  using __c__DisplayClass281_0 = ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0;
+  using __c__DisplayClass281_0 = ::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0;
 
-  using __c__DisplayClass365_0 = ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0;
+  using __c__DisplayClass365_0 = ::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0;
 
   __declspec(property(get = get_AlwaysOverwriteOnLoad, put = set_AlwaysOverwriteOnLoad)) bool AlwaysOverwriteOnLoad;
 
@@ -872,7 +859,7 @@ public:
 
   __declspec(property(get = get_AssetPath)) ::StringW AssetPath;
 
-  __declspec(property(get = get_AssetType)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType AssetType;
+  __declspec(property(get = get_AssetType)) ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType AssetType;
 
   __declspec(property(get = get_AutoCookOnParameterChange, put = set_AutoCookOnParameterChange)) bool AutoCookOnParameterChange;
 
@@ -884,7 +871,7 @@ public:
 
   __declspec(property(get = get_CurveDisableScaleRotation, put = set_CurveDisableScaleRotation)) bool CurveDisableScaleRotation;
 
-  __declspec(property(get = get_CurveDrawCollision, put = set_CurveDrawCollision)) ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision CurveDrawCollision;
+  __declspec(property(get = get_CurveDrawCollision, put = set_CurveDrawCollision)) ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision CurveDrawCollision;
 
   __declspec(property(get = get_CurveEditorEnabled, put = set_CurveEditorEnabled)) bool CurveEditorEnabled;
 
@@ -980,7 +967,7 @@ public:
   __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath)) ::StringW _assetPath;
 
   /// @brief Field _assetType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__assetType, put = __cordl_internal_set__assetType)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType _assetType;
+  __declspec(property(get = __cordl_internal_get__assetType, put = __cordl_internal_set__assetType)) ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType _assetType;
 
   /// @brief Field _attributeStores, offset 0x258, size 0x8
   __declspec(property(get = __cordl_internal_get__attributeStores,
@@ -1006,7 +993,7 @@ public:
   __declspec(property(get = __cordl_internal_get__checkParameterChangeForCook, put = __cordl_internal_set__checkParameterChangeForCook)) bool _checkParameterChangeForCook;
 
   /// @brief Field _cookStatus, offset 0x178, size 0x4
-  __declspec(property(get = __cordl_internal_get__cookStatus, put = __cordl_internal_set__cookStatus)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus _cookStatus;
+  __declspec(property(get = __cordl_internal_get__cookStatus, put = __cordl_internal_set__cookStatus)) ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus _cookStatus;
 
   /// @brief Field _cookedDataEvent, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__cookedDataEvent, put = __cordl_internal_set__cookedDataEvent)) ::HoudiniEngineUnity::HEU_CookedDataEvent* _cookedDataEvent;
@@ -1028,7 +1015,7 @@ public:
                       put = __cordl_internal_set__curveDrawColliders)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* _curveDrawColliders;
 
   /// @brief Field _curveDrawCollision, offset 0x208, size 0x4
-  __declspec(property(get = __cordl_internal_get__curveDrawCollision, put = __cordl_internal_set__curveDrawCollision)) ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision _curveDrawCollision;
+  __declspec(property(get = __cordl_internal_get__curveDrawCollision, put = __cordl_internal_set__curveDrawCollision)) ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision _curveDrawCollision;
 
   /// @brief Field _curveDrawLayerMask, offset 0x218, size 0x4
   __declspec(property(get = __cordl_internal_get__curveDrawLayerMask, put = __cordl_internal_set__curveDrawLayerMask)) ::UnityEngine::LayerMask _curveDrawLayerMask;
@@ -1094,7 +1081,7 @@ public:
   __declspec(property(get = __cordl_internal_get__isCookingAssetReloaded, put = __cordl_internal_set__isCookingAssetReloaded)) bool _isCookingAssetReloaded;
 
   /// @brief Field _lastCookResult, offset 0x17c, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastCookResult, put = __cordl_internal_set__lastCookResult)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult _lastCookResult;
+  __declspec(property(get = __cordl_internal_get__lastCookResult, put = __cordl_internal_set__lastCookResult)) ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult _lastCookResult;
 
   /// @brief Field _lastSyncedTransformMatrix, offset 0x100, size 0x40
   __declspec(property(get = __cordl_internal_get__lastSyncedTransformMatrix, put = __cordl_internal_set__lastSyncedTransformMatrix)) ::UnityEngine::Matrix4x4 _lastSyncedTransformMatrix;
@@ -1132,7 +1119,7 @@ public:
   __declspec(property(get = __cordl_internal_get__recookPreset, put = __cordl_internal_set__recookPreset)) ::HoudiniEngineUnity::HEU_RecookPreset* _recookPreset;
 
   /// @brief Field _refreshUIDelegate, offset 0x1e0, size 0x8
-  __declspec(property(get = __cordl_internal_get__refreshUIDelegate, put = __cordl_internal_set__refreshUIDelegate)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* _refreshUIDelegate;
+  __declspec(property(get = __cordl_internal_get__refreshUIDelegate, put = __cordl_internal_set__refreshUIDelegate)) ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate* _refreshUIDelegate;
 
   /// @brief Field _reloadDataEvent, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__reloadDataEvent, put = __cordl_internal_set__reloadDataEvent)) ::HoudiniEngineUnity::HEU_ReloadDataEvent* _reloadDataEvent;
@@ -1141,7 +1128,7 @@ public:
   __declspec(property(get = __cordl_internal_get__reloadEvent, put = __cordl_internal_set__reloadEvent)) ::HoudiniEngineUnity::ReloadEvent* _reloadEvent;
 
   /// @brief Field _requestBuildAction, offset 0x16c, size 0x4
-  __declspec(property(get = __cordl_internal_get__requestBuildAction, put = __cordl_internal_set__requestBuildAction)) ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction _requestBuildAction;
+  __declspec(property(get = __cordl_internal_get__requestBuildAction, put = __cordl_internal_set__requestBuildAction)) ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction _requestBuildAction;
 
   /// @brief Field _rootGameObject, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__rootGameObject, put = __cordl_internal_set__rootGameObject)) ::UnityW<::UnityEngine::GameObject> _rootGameObject;
@@ -1219,488 +1206,487 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeCaches,
                       put = __cordl_internal_set__volumeCaches)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* _volumeCaches;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>*() noexcept;
 
-  /// @brief Method AddAttributeStore, addr 0x39c8998, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddAttributeStore, addr 0x3a1f608, size 0x198, virtual false, abstract: false, final false
   inline void AddAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
 
-  /// @brief Method AddCurve, addr 0x39b2ad8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddCurve, addr 0x3a09748, size 0xd0, virtual false, abstract: false, final false
   inline void AddCurve(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method AddCurveDrawCollider, addr 0x39c80f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddCurveDrawCollider, addr 0x3a1ed60, size 0xd0, virtual false, abstract: false, final false
   inline void AddCurveDrawCollider(::UnityEngine::Collider* newCollider);
 
-  /// @brief Method AddDownstreamConnection, addr 0x39c6fb0, size 0x80, virtual false, abstract: false, final false
-  inline void AddDownstreamConnection(
-      ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
+  /// @brief Method AddDownstreamConnection, addr 0x3a1dc20, size 0x80, virtual false, abstract: false, final false
+  inline void
+  AddDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* receiver);
 
-  /// @brief Method AddInputNode, addr 0x39ba734, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddInputNode, addr 0x3a113a4, size 0xd0, virtual false, abstract: false, final false
   inline void AddInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method AddToAssetDBCache, addr 0x39c9234, size 0x60, virtual false, abstract: false, final false
-  inline void AddToAssetDBCache(::StringW assetObjectFileName, ::UnityEngine::Object* objectToAdd, ::StringW relativeFolderPath, ByRef<::UnityEngine::Object*> targetAssetDBObject);
+  /// @brief Method AddToAssetDBCache, addr 0x3a1fea4, size 0x60, virtual false, abstract: false, final false
+  inline void AddToAssetDBCache(::StringW assetObjectFileName, ::UnityEngine::Object* objectToAdd, ::StringW relativeFolderPath, ::ByRef<::UnityEngine::Object*> targetAssetDBObject);
 
-  /// @brief Method AddVolumeCache, addr 0x39c86f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddVolumeCache, addr 0x3a1f364, size 0xd0, virtual false, abstract: false, final false
   inline void AddVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache* cache);
 
-  /// @brief Method ApplyInputPresets, addr 0x39cae3c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method ApplyInputPresets, addr 0x3a21aac, size 0x3a4, virtual false, abstract: false, final false
   inline bool ApplyInputPresets(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets,
                                 bool bAddMissingInputsToRecookPreset);
 
-  /// @brief Method ApplyRecookPreset, addr 0x39c33f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyRecookPreset, addr 0x3a1a068, size 0x7c, virtual false, abstract: false, final false
   inline void ApplyRecookPreset();
 
-  /// @brief Method ApplyVolumeCachePresets, addr 0x39cb1e0, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method ApplyVolumeCachePresets, addr 0x3a21e50, size 0x4c4, virtual false, abstract: false, final false
   inline bool ApplyVolumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets);
 
-  /// @brief Method AssetUpdate, addr 0x39bdd34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AssetUpdate, addr 0x3a149a4, size 0x4, virtual false, abstract: false, final false
   inline void AssetUpdate();
 
-  /// @brief Method Awake, addr 0x39bdd28, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3a14998, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BakeToExistingPrefab, addr 0x39c5c58, size 0x674, virtual false, abstract: false, final false
+  /// @brief Method BakeToExistingPrefab, addr 0x3a1c8c8, size 0x674, virtual false, abstract: false, final false
   inline void BakeToExistingPrefab(::UnityEngine::GameObject* bakeTargetGO);
 
-  /// @brief Method BakeToExistingStandalone, addr 0x39c62cc, size 0xc2c, virtual false, abstract: false, final false
+  /// @brief Method BakeToExistingStandalone, addr 0x3a1cf3c, size 0xc2c, virtual false, abstract: false, final false
   inline void BakeToExistingStandalone(::UnityEngine::GameObject* bakeTargetGO);
 
-  /// @brief Method BakeToNewPrefab, addr 0x39c56ac, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method BakeToNewPrefab, addr 0x3a1c31c, size 0x3e8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> BakeToNewPrefab(::StringW destinationPrefabPath);
 
-  /// @brief Method BakeToNewStandalone, addr 0x39c5a94, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method BakeToNewStandalone, addr 0x3a1c704, size 0x1c4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> BakeToNewStandalone();
 
-  /// @brief Method CalculateColliderState, addr 0x39c985c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CalculateColliderState, addr 0x3a204cc, size 0x14c, virtual false, abstract: false, final false
   inline void CalculateColliderState();
 
-  /// @brief Method CalculateVisibility, addr 0x39c95c4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibility, addr 0x3a20234, size 0x14c, virtual false, abstract: false, final false
   inline void CalculateVisibility();
 
-  /// @brief Method CleanUpAndDisable, addr 0x39bda14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAndDisable, addr 0x3a14684, size 0x5c, virtual false, abstract: false, final false
   inline void CleanUpAndDisable();
 
-  /// @brief Method CleanUpHandles, addr 0x39c42c0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CleanUpHandles, addr 0x3a1af30, size 0x120, virtual false, abstract: false, final false
   inline void CleanUpHandles();
 
-  /// @brief Method CleanUpInputNodes, addr 0x39c4040, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method CleanUpInputNodes, addr 0x3a1acb0, size 0x280, virtual false, abstract: false, final false
   inline void CleanUpInputNodes();
 
-  /// @brief Method ClearAllUpstreamConnections, addr 0x39c3db8, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ClearAllUpstreamConnections, addr 0x3a1aa28, size 0x288, virtual false, abstract: false, final false
   inline void ClearAllUpstreamConnections();
 
-  /// @brief Method ClearBuildRequest, addr 0x39bdd5c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearBuildRequest, addr 0x3a149cc, size 0x10, virtual false, abstract: false, final false
   inline void ClearBuildRequest();
 
-  /// @brief Method ClearCurveDrawColliders, addr 0x39c8220, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ClearCurveDrawColliders, addr 0x3a1ee90, size 0x6c, virtual false, abstract: false, final false
   inline void ClearCurveDrawColliders();
 
-  /// @brief Method ClearInvalidCurves, addr 0x39c4414, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ClearInvalidCurves, addr 0x3a1b084, size 0x104, virtual false, abstract: false, final false
   inline void ClearInvalidCurves();
 
-  /// @brief Method ClearInvalidLists, addr 0x39be020, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ClearInvalidLists, addr 0x3a14c90, size 0x26c, virtual false, abstract: false, final false
   inline void ClearInvalidLists();
 
-  /// @brief Method ClearMaterialCache, addr 0x39c3d48, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterialCache, addr 0x3a1a9b8, size 0x70, virtual false, abstract: false, final false
   inline void ClearMaterialCache();
 
-  /// @brief Method CloneAssetWithoutHDA, addr 0x39c4f60, size 0x5d8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> CloneAssetWithoutHDA(ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances);
+  /// @brief Method CloneAssetWithoutHDA, addr 0x3a1bbd0, size 0x5d8, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::GameObject> CloneAssetWithoutHDA(::ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances);
 
-  /// @brief Method ConnectToUpstream, addr 0x39c6f24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ConnectToUpstream, addr 0x3a1db94, size 0x8c, virtual false, abstract: false, final false
   inline void ConnectToUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset);
 
-  /// @brief Method CopyPropertiesTo, addr 0x39c9cac, size 0xc10, virtual false, abstract: false, final false
+  /// @brief Method CopyPropertiesTo, addr 0x3a2091c, size 0xc10, virtual false, abstract: false, final false
   inline void CopyPropertiesTo(::HoudiniEngineUnity::HEU_HoudiniAsset* newAsset);
 
-  /// @brief Method CreateAndCookAsset, addr 0x39bf440, size 0x28c, virtual false, abstract: false, final false
-  inline bool CreateAndCookAsset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t subassetIndex, ByRef<int32_t> newAssetID, bool bCookTemplatedGeos);
+  /// @brief Method CreateAndCookAsset, addr 0x3a160b0, size 0x28c, virtual false, abstract: false, final false
+  inline bool CreateAndCookAsset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t subassetIndex, ::ByRef<int32_t> newAssetID, bool bCookTemplatedGeos);
 
-  /// @brief Method CreateAssetInputs, addr 0x39bf738, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method CreateAssetInputs, addr 0x3a163a8, size 0x518, virtual false, abstract: false, final false
   inline void CreateAssetInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method CreateObjectNode, addr 0x39c4860, size 0xd8, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> CreateObjectNode(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo,
-                                                                         ByRef<::HoudiniEngineUnity::HAPI_Transform> objectTranform);
+  /// @brief Method CreateObjectNode, addr 0x3a1b4d0, size 0xd8, virtual false, abstract: false, final false
+  inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> CreateObjectNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo,
+                                                                         ::ByRef<::HoudiniEngineUnity::HAPI_Transform> objectTranform);
 
-  /// @brief Method CreateObjects, addr 0x39bfe70, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CreateObjects, addr 0x3a16ae0, size 0x168, virtual false, abstract: false, final false
   inline bool CreateObjects(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DeleteAllGeneratedData, addr 0x39bda7c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method DeleteAllGeneratedData, addr 0x3a146ec, size 0x294, virtual false, abstract: false, final false
   inline void DeleteAllGeneratedData(bool bIsRebuild);
 
-  /// @brief Method DeleteAssetCacheData, addr 0x39c43e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetCacheData, addr 0x3a1b050, size 0x34, virtual false, abstract: false, final false
   inline void DeleteAssetCacheData(bool bRegisterUndo);
 
-  /// @brief Method DeleteSessionDataOnly, addr 0x39c3ce4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DeleteSessionDataOnly, addr 0x3a1a954, size 0x64, virtual false, abstract: false, final false
   inline void DeleteSessionDataOnly();
 
-  /// @brief Method DisableAllColliders, addr 0x39c9710, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DisableAllColliders, addr 0x3a20380, size 0x14c, virtual false, abstract: false, final false
   inline void DisableAllColliders();
 
-  /// @brief Method DisconnectFromUpstream, addr 0x39c7030, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DisconnectFromUpstream, addr 0x3a1dca0, size 0x8c, virtual false, abstract: false, final false
   inline void DisconnectFromUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset);
 
-  /// @brief Method DoPostCookWork, addr 0x39c1624, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method DoPostCookWork, addr 0x3a18294, size 0x17c, virtual false, abstract: false, final false
   inline void DoPostCookWork(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DoesAssetRequireRecook, addr 0x39c38dc, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method DoesAssetRequireRecook, addr 0x3a1a54c, size 0x408, virtual false, abstract: false, final false
   inline bool DoesAssetRequireRecook();
 
-  /// @brief Method DownloadParameterPresetFromHoudini, addr 0x39c2938, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DownloadParameterPresetFromHoudini, addr 0x3a195a8, size 0x98, virtual false, abstract: false, final false
   inline void DownloadParameterPresetFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DuplicateAsset, addr 0x39c99a8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method DuplicateAsset, addr 0x3a20618, size 0x304, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> DuplicateAsset(::UnityEngine::GameObject* newRootGameObject);
 
-  /// @brief Method ExecutePostCookCallbacks, addr 0x39c11d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ExecutePostCookCallbacks, addr 0x3a17e48, size 0xa4, virtual false, abstract: false, final false
   inline void ExecutePostCookCallbacks();
 
-  /// @brief Method FinishRebuild, addr 0x39be424, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method FinishRebuild, addr 0x3a15094, size 0x5a0, virtual false, abstract: false, final false
   inline bool FinishRebuild();
 
-  /// @brief Method GenerateAttributesStore, addr 0x39c0438, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributesStore, addr 0x3a170a8, size 0x154, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateHandles, addr 0x39c058c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GenerateHandles, addr 0x3a171fc, size 0x190, virtual false, abstract: false, final false
   inline void GenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateInstances, addr 0x39c0130, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstances, addr 0x3a16da0, size 0x308, virtual false, abstract: false, final false
   inline void GenerateInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateObjectsGeometry, addr 0x39bffd8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GenerateObjectsGeometry, addr 0x3a16c48, size 0x158, virtual false, abstract: false, final false
   inline void GenerateObjectsGeometry(::HoudiniEngineUnity::HEU_SessionBase* session, bool bRebuild);
 
-  /// @brief Method GenerateParameters, addr 0x39bfc50, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x3a168c0, size 0x220, virtual false, abstract: false, final false
   inline void GenerateParameters(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetAssetInputNode, addr 0x39c4518, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetInputNode, addr 0x3a1b188, size 0x17c, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetAssetInputNode(::StringW inputName);
 
-  /// @brief Method GetAssetPreset, addr 0x39b07ac, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPreset, addr 0x3a0741c, size 0x7a0, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_AssetPreset* GetAssetPreset();
 
-  /// @brief Method GetAssetSession, addr 0x39ad56c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSession, addr 0x3a041dc, size 0x150, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetAssetSession(bool bCreateIfInvalid);
 
-  /// @brief Method GetAttributeStore, addr 0x39c8818, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStore, addr 0x3a1f488, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_AttributesStore> GetAttributeStore(::StringW geoName, int32_t partID);
 
-  /// @brief Method GetAttributesStores, addr 0x39c87c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributesStores, addr 0x3a1f434, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>* GetAttributesStores();
 
-  /// @brief Method GetClonableParts, addr 0x39c5538, size 0x174, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
+  /// @brief Method GetClonableParts, addr 0x3a1c1a8, size 0x174, virtual false, abstract: false, final false
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
 
-  /// @brief Method GetCookStatus, addr 0x39c2598, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus GetCookStatus();
+  /// @brief Method GetCookStatus, addr 0x3a19208, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus GetCookStatus();
 
-  /// @brief Method GetCurve, addr 0x39c7de0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetCurve, addr 0x3a1ea50, size 0x1b8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> GetCurve(::StringW curveName);
 
-  /// @brief Method GetCurveDrawColliders, addr 0x39bd5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurveDrawColliders, addr 0x3a14268, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* GetCurveDrawColliders();
 
-  /// @brief Method GetCurveDrawLayerMask, addr 0x39bd600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurveDrawLayerMask, addr 0x3a14270, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetCurveDrawLayerMask();
 
-  /// @brief Method GetCurves, addr 0x39c7dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurves, addr 0x3a1ea48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* GetCurves();
 
-  /// @brief Method GetEditableCurveCount, addr 0x39c7f98, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetEditableCurveCount, addr 0x3a1ec08, size 0x158, virtual false, abstract: false, final false
   inline int32_t GetEditableCurveCount();
 
-  /// @brief Method GetHandleByName, addr 0x39c4938, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetHandleByName, addr 0x3a1b5a8, size 0x168, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Handle> GetHandleByName(::StringW handleName);
 
-  /// @brief Method GetHandles, addr 0x39c4aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHandles, addr 0x3a1b710, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* GetHandles();
 
-  /// @brief Method GetHoudiniTransformAndApply, addr 0x39c72a8, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniTransformAndApply, addr 0x3a1df18, size 0x2c0, virtual false, abstract: false, final false
   inline void GetHoudiniTransformAndApply(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetInputNode, addr 0x39c8294, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInputNode, addr 0x3a1ef04, size 0x168, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetInputNode(::StringW inputName);
 
-  /// @brief Method GetInputNodeByIndex, addr 0x39c83fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodeByIndex, addr 0x3a1f06c, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetInputNodeByIndex(int32_t index);
 
-  /// @brief Method GetInputNodes, addr 0x39c828c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodes, addr 0x3a1eefc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* GetInputNodes();
 
-  /// @brief Method GetInstantiatedObject, addr 0x39cc0fc, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetInstantiatedObject();
+  /// @brief Method GetInstantiatedObject, addr 0x3a22d6c, size 0x94, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* GetInstantiatedObject();
 
-  /// @brief Method GetInstantiationMethod, addr 0x39cbef4, size 0x208, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod GetInstantiationMethod();
+  /// @brief Method GetInstantiationMethod, addr 0x3a22b64, size 0x208, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod GetInstantiationMethod();
 
-  /// @brief Method GetInternalHDAPartWithGameObject, addr 0x39c7c40, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetInternalHDAPartWithGameObject, addr 0x3a1e8b0, size 0x198, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetInternalHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetMaterialCache, addr 0x39c76f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCache, addr 0x3a1e368, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* GetMaterialCache();
 
-  /// @brief Method GetMaterialData, addr 0x39c7568, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialData, addr 0x3a1e1d8, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> GetMaterialData(::UnityEngine::Material* material);
 
-  /// @brief Method GetNonParameterInputNodes, addr 0x39c8480, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetNonParameterInputNodes, addr 0x3a1f0f0, size 0x220, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* GetNonParameterInputNodes();
 
-  /// @brief Method GetObjectNodeByName, addr 0x39adf30, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectNodeByName, addr 0x3a04ba0, size 0x27c, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> GetObjectNodeByName(::StringW objName);
 
-  /// @brief Method GetObjectTransform, addr 0x39c4af4, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTransform, addr 0x3a1b764, size 0x23c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_Transform GetObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t objectID);
 
-  /// @brief Method GetObjectWithID, addr 0x39c4d30, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetObjectWithID, addr 0x3a1b9a0, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> GetObjectWithID(int32_t objId);
 
-  /// @brief Method GetOutput, addr 0x39c7998, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutput, addr 0x3a1e608, size 0x154, virtual false, abstract: false, final false
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
-  /// @brief Method GetOutputGameObjects, addr 0x39be9d0, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  /// @brief Method GetOutputGameObjects, addr 0x3a15640, size 0x154, virtual false, abstract: false, final false
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
-  /// @brief Method GetOutputGeoNodes, addr 0x39c7aec, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outputGeoNodes);
+  /// @brief Method GetOutputGeoNodes, addr 0x3a1e75c, size 0x154, virtual false, abstract: false, final false
+  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* outputGeoNodes);
 
-  /// @brief Method GetSceneHDAAssetFromGameObject, addr 0x39c8d84, size 0x144, virtual false, abstract: false, final false
-  static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject* outputGameObject);
+  /// @brief Method GetSceneHDAAssetFromGameObject, addr 0x3a1f9f4, size 0x144, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset* GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetSceneHDAPartWithGameObject, addr 0x39c8c40, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetSceneHDAPartWithGameObject, addr 0x3a1f8b0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetSceneHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetValidAssetCacheFolderPath, addr 0x39c7700, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetValidAssetCacheFolderPath, addr 0x3a1e370, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetValidAssetCacheFolderPath();
 
-  /// @brief Method GetVolumeCacheCount, addr 0x39c86a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCacheCount, addr 0x3a1f314, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetVolumeCacheCount();
 
-  /// @brief Method GetVolumeCachePreset, addr 0x39cb6a4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCachePreset, addr 0x3a22314, size 0x1d8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* GetVolumeCachePreset(::StringW objName, ::StringW geoName, int32_t tile);
 
-  /// @brief Method GetVolumeCaches, addr 0x39c86ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCaches, addr 0x3a1f35c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* GetVolumeCaches();
 
-  /// @brief Method HasInputNodeTransformChanged, addr 0x39c46ec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method HasInputNodeTransformChanged, addr 0x3a1b35c, size 0x174, virtual false, abstract: false, final false
   inline bool HasInputNodeTransformChanged();
 
-  /// @brief Method HasTransformChangedSinceLastUpdate, addr 0x39c7910, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HasTransformChangedSinceLastUpdate, addr 0x3a1e580, size 0x88, virtual false, abstract: false, final false
   inline bool HasTransformChangedSinceLastUpdate();
 
-  /// @brief Method HasValidAssetPath, addr 0x39bdd6c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasValidAssetPath, addr 0x3a149dc, size 0x20, virtual false, abstract: false, final false
   inline bool HasValidAssetPath();
 
-  /// @brief Method HideAllGeometry, addr 0x39c9478, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HideAllGeometry, addr 0x3a200e8, size 0x14c, virtual false, abstract: false, final false
   inline void HideAllGeometry();
 
-  /// @brief Method InputNodeNotifyRemoved, addr 0x39c86a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InputNodeNotifyRemoved, addr 0x3a1f310, size 0x4, virtual false, abstract: false, final false
   inline void InputNodeNotifyRemoved(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method InternalSetAssetID, addr 0x39becd0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method InternalSetAssetID, addr 0x3a15940, size 0x188, virtual false, abstract: false, final false
   inline void InternalSetAssetID(int32_t assetID);
 
-  /// @brief Method InternalStartRecook, addr 0x39c0bb0, size 0x628, virtual false, abstract: false, final false
+  /// @brief Method InternalStartRecook, addr 0x3a17820, size 0x628, virtual false, abstract: false, final false
   inline bool InternalStartRecook(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method InvalidateAsset, addr 0x39bda70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvalidateAsset, addr 0x3a146e0, size 0xc, virtual false, abstract: false, final false
   inline void InvalidateAsset();
 
-  /// @brief Method InvokeBakedEvent, addr 0x39c4e00, size 0x160, virtual false, abstract: false, final false
-  inline void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
+  /// @brief Method InvokeBakedEvent, addr 0x3a1ba70, size 0x160, virtual false, abstract: false, final false
+  inline void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
 
-  /// @brief Method InvokePostCookEvent, addr 0x39c183c, size 0x150, virtual false, abstract: false, final false
-  inline void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  /// @brief Method InvokePostCookEvent, addr 0x3a184ac, size 0x150, virtual false, abstract: false, final false
+  inline void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
-  /// @brief Method InvokeReloadEvent, addr 0x39beb24, size 0x150, virtual false, abstract: false, final false
-  inline void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  /// @brief Method InvokeReloadEvent, addr 0x3a15794, size 0x150, virtual false, abstract: false, final false
+  inline void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
-  /// @brief Method IsAssetSavedInScene, addr 0x39bdd10, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsAssetSavedInScene, addr 0x3a14980, size 0x18, virtual false, abstract: false, final false
   inline bool IsAssetSavedInScene();
 
-  /// @brief Method IsAssetValid, addr 0x39c78d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetValid, addr 0x3a1e544, size 0x3c, virtual false, abstract: false, final false
   inline bool IsAssetValid();
 
-  /// @brief Method IsAssetValidInHoudini, addr 0x39bec74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetValidInHoudini, addr 0x3a158e4, size 0x5c, virtual false, abstract: false, final false
   inline bool IsAssetValidInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method IsEquivalentTo, addr 0x39cc390, size 0x10b4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a23000, size 0x10b4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method IsHoudiniAssetOutput, addr 0x39c8ec8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsHoudiniAssetOutput, addr 0x3a1fb38, size 0x150, virtual false, abstract: false, final false
   static inline bool IsHoudiniAssetOutput(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsHoudiniAssetRoot, addr 0x39c9018, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsHoudiniAssetRoot, addr 0x3a1fc88, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsHoudiniAssetRoot(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsValidForInteraction, addr 0x39c17a0, size 0x6c, virtual false, abstract: false, final false
-  inline bool IsValidForInteraction(ByRef<::StringW> errorMessage);
+  /// @brief Method IsValidForInteraction, addr 0x3a18410, size 0x6c, virtual false, abstract: false, final false
+  inline bool IsValidForInteraction(::ByRef<::StringW> errorMessage);
 
-  /// @brief Method LoadAssetFileWithSubasset, addr 0x39bee58, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetFileWithSubasset, addr 0x3a15ac8, size 0x5e8, virtual false, abstract: false, final false
   inline bool LoadAssetFileWithSubasset(::HoudiniEngineUnity::HEU_SessionBase* session, bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method LoadAssetPresetAndCook, addr 0x39b15c8, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetPresetAndCook, addr 0x3a08238, size 0x50c, virtual false, abstract: false, final false
   inline void LoadAssetPresetAndCook(::HoudiniEngineUnity::HEU_AssetPreset* assetPreset);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAsset* New_ctor();
 
-  /// @brief Method NotifyInputNodesCookFinished, addr 0x39c0960, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method NotifyInputNodesCookFinished, addr 0x3a175d0, size 0x14c, virtual false, abstract: false, final false
   inline void NotifyInputNodesCookFinished();
 
-  /// @brief Method NotifyUpstreamCooked, addr 0x39c6ef8, size 0x2c, virtual false, abstract: false, final false
-  inline void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
+  /// @brief Method NotifyUpstreamCooked, addr 0x3a1db68, size 0x2c, virtual false, abstract: false, final false
+  inline void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
 
-  /// @brief Method NumAttributeStores, addr 0x39c87cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NumAttributeStores, addr 0x3a1f43c, size 0x4c, virtual false, abstract: false, final false
   inline int32_t NumAttributeStores();
 
-  /// @brief Method NumHandles, addr 0x39c4aa8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NumHandles, addr 0x3a1b718, size 0x4c, virtual false, abstract: false, final false
   inline int32_t NumHandles();
 
-  /// @brief Method OnDestroy, addr 0x39bdd30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3a149a0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x39bdd2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3a1499c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x39c180c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3a1847c, size 0x30, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PopulateObjectInstanceInfos, addr 0x39c90a4, size 0x190, virtual false, abstract: false, final false
-  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
+  /// @brief Method PopulateObjectInstanceInfos, addr 0x3a1fd14, size 0x190, virtual false, abstract: false, final false
+  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
 
-  /// @brief Method PostAssetUpdate, addr 0x39bdd38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PostAssetUpdate, addr 0x3a149a8, size 0x4, virtual false, abstract: false, final false
   inline void PostAssetUpdate();
 
-  /// @brief Method ProcessHoudiniCookStatus, addr 0x39c138c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ProcessHoudiniCookStatus, addr 0x3a17ffc, size 0x298, virtual false, abstract: false, final false
   inline void ProcessHoudiniCookStatus(bool bAsync);
 
-  /// @brief Method ProcessPoskCook, addr 0x39c25a0, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ProcessPoskCook, addr 0x3a19210, size 0x398, virtual false, abstract: false, final false
   inline void ProcessPoskCook();
 
-  /// @brief Method ProcessRebuild, addr 0x39bdd8c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ProcessRebuild, addr 0x3a149fc, size 0x294, virtual false, abstract: false, final false
   inline void ProcessRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method ReconnectInputsUpstreamNotifications, addr 0x39c7114, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReconnectInputsUpstreamNotifications, addr 0x3a1dd84, size 0x194, virtual false, abstract: false, final false
   inline void ReconnectInputsUpstreamNotifications();
 
-  /// @brief Method RecookAsync, addr 0x39c0aac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RecookAsync, addr 0x3a1771c, size 0x104, virtual false, abstract: false, final false
   inline bool RecookAsync(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method RecookBlocking, addr 0x39c127c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RecookBlocking, addr 0x3a17eec, size 0x110, virtual false, abstract: false, final false
   inline bool RecookBlocking(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method RemoveAttributeStore, addr 0x39c4694, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAttributeStore, addr 0x3a1b304, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
 
-  /// @brief Method RemoveCurve, addr 0x39b9060, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveCurve, addr 0x3a0fcd0, size 0x58, virtual false, abstract: false, final false
   inline void RemoveCurve(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method RemoveCurveDrawCollider, addr 0x39c81c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveCurveDrawCollider, addr 0x3a1ee30, size 0x60, virtual false, abstract: false, final false
   inline void RemoveCurveDrawCollider(::UnityEngine::Collider* collider);
 
-  /// @brief Method RemoveDownstreamConnection, addr 0x39c70bc, size 0x58, virtual false, abstract: false, final false
-  inline void RemoveDownstreamConnection(
-      ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
+  /// @brief Method RemoveDownstreamConnection, addr 0x3a1dd2c, size 0x58, virtual false, abstract: false, final false
+  inline void
+  RemoveDownstreamConnection(::UnityEngine::Events::UnityAction_3<::HoudiniEngineUnity::HEU_HoudiniAsset*, bool, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*>* receiver);
 
-  /// @brief Method RemoveInputNode, addr 0x39b9008, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveInputNode, addr 0x3a0fc78, size 0x58, virtual false, abstract: false, final false
   inline void RemoveInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method RemoveMaterial, addr 0x39c7790, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RemoveMaterial, addr 0x3a1e400, size 0x144, virtual false, abstract: false, final false
   inline void RemoveMaterial(::UnityEngine::Material* material);
 
-  /// @brief Method RemoveUnusedMaterials, addr 0x39c3474, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedMaterials, addr 0x3a1a0e4, size 0x468, virtual false, abstract: false, final false
   inline void RemoveUnusedMaterials();
 
-  /// @brief Method RemoveVolumeCache, addr 0x39bd03c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveVolumeCache, addr 0x3a13cac, size 0xa8, virtual false, abstract: false, final false
   inline void RemoveVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache* cache);
 
-  /// @brief Method RemoveVolumeCachePreset, addr 0x39cb87c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveVolumeCachePreset, addr 0x3a224ec, size 0x68, virtual false, abstract: false, final false
   inline void RemoveVolumeCachePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* preset);
 
-  /// @brief Method ReorderAttributeStore, addr 0x39c8b30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReorderAttributeStore, addr 0x3a1f7a0, size 0x110, virtual false, abstract: false, final false
   inline void ReorderAttributeStore(int32_t oldIndex, int32_t newIndex);
 
-  /// @brief Method RequestBakeInPlace, addr 0x39bdd44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestBakeInPlace, addr 0x3a149b4, size 0x18, virtual false, abstract: false, final false
   inline void RequestBakeInPlace();
 
-  /// @brief Method RequestCook, addr 0x39ad568, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestCook, addr 0x3a041d8, size 0x4, virtual false, abstract: false, final false
   inline void RequestCook(bool bCheckParametersChanged, bool bAsync, bool bSkipCookCheck, bool bUploadParameters);
 
-  /// @brief Method RequestReload, addr 0x39bdd40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestReload, addr 0x3a149b0, size 0x4, virtual false, abstract: false, final false
   inline void RequestReload(bool bAsync);
 
-  /// @brief Method RequestResetParameters, addr 0x39bdd3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestResetParameters, addr 0x3a149ac, size 0x4, virtual false, abstract: false, final false
   inline void RequestResetParameters(bool bAsync);
 
-  /// @brief Method ResetAndCopyInstantiatedProperties, addr 0x39cbbd0, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ResetAndCopyInstantiatedProperties, addr 0x3a22840, size 0x324, virtual false, abstract: false, final false
   inline void ResetAndCopyInstantiatedProperties(::HoudiniEngineUnity::HEU_HoudiniAsset* newAsset);
 
-  /// @brief Method ResetMaterialOverrides, addr 0x39ca8bc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ResetMaterialOverrides, addr 0x3a2152c, size 0x18c, virtual false, abstract: false, final false
   inline void ResetMaterialOverrides();
 
-  /// @brief Method ResetParametersToDefault, addr 0x39caa48, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method ResetParametersToDefault, addr 0x3a216b8, size 0x3f4, virtual false, abstract: false, final false
   inline void ResetParametersToDefault();
 
-  /// @brief Method SetCookStatus, addr 0x39be9c4, size 0xc, virtual false, abstract: false, final false
-  inline void SetCookStatus(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus status, ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult result);
+  /// @brief Method SetCookStatus, addr 0x3a15634, size 0xc, virtual false, abstract: false, final false
+  inline void SetCookStatus(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus status, ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult result);
 
-  /// @brief Method SetCurveDrawLayerMask, addr 0x39bd608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurveDrawLayerMask, addr 0x3a14278, size 0x8, virtual false, abstract: false, final false
   inline void SetCurveDrawLayerMask(::UnityEngine::LayerMask mask);
 
-  /// @brief Method SetCurvesVisibilityInScene, addr 0x39c9294, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetCurvesVisibilityInScene, addr 0x3a1ff04, size 0x1e4, virtual false, abstract: false, final false
   static inline void SetCurvesVisibilityInScene(bool bShow);
 
-  /// @brief Method SetSoftDeleted, addr 0x39cc190, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method SetSoftDeleted, addr 0x3a22e00, size 0x200, virtual false, abstract: false, final false
   inline void SetSoftDeleted();
 
-  /// @brief Method SetupAsset, addr 0x39bd6a8, size 0x36c, virtual false, abstract: false, final false
-  inline void SetupAsset(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW filePath, ::UnityEngine::GameObject* rootGameObject,
-                         ::HoudiniEngineUnity::HEU_SessionBase* session);
+  /// @brief Method SetupAsset, addr 0x3a14318, size 0x36c, virtual false, abstract: false, final false
+  inline void SetupAsset(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType assetType, ::StringW filePath, ::UnityEngine::GameObject* rootGameObject, ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method StartHoudiniCookNode, addr 0x39c2534, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method StartHoudiniCookNode, addr 0x3a191a4, size 0x64, virtual false, abstract: false, final false
   inline bool StartHoudiniCookNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method StartRebuild, addr 0x39be28c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method StartRebuild, addr 0x3a14efc, size 0x198, virtual false, abstract: false, final false
   inline bool StartRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x39c3294, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x3a19f04, size 0x164, virtual false, abstract: false, final false
   inline void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x39cb8e4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x3a22554, size 0x204, virtual false, abstract: false, final false
   inline void SyncInternalParametersForUndoCompare();
 
-  /// @brief Method UpdateAllObjectNodes, addr 0x39c2c28, size 0x66c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllObjectNodes, addr 0x3a19898, size 0x66c, virtual false, abstract: false, final false
   inline void UpdateAllObjectNodes(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateHoudiniMaterials, addr 0x39c29d0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateHoudiniMaterials, addr 0x3a19640, size 0x258, virtual false, abstract: false, final false
   inline void UpdateHoudiniMaterials(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateInputsOnAssetRecreation, addr 0x39c198c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputsOnAssetRecreation, addr 0x3a185fc, size 0x154, virtual false, abstract: false, final false
   inline void UpdateInputsOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateParameterInputsToHoudini, addr 0x39c1cbc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameterInputsToHoudini, addr 0x3a1892c, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateParameterInputsToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate);
 
-  /// @brief Method UpdateSessionSync, addr 0x39cbae8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSessionSync, addr 0x3a22758, size 0xe8, virtual false, abstract: false, final false
   inline bool UpdateSessionSync();
 
-  /// @brief Method UpdateTotalCookCount, addr 0x39bf6cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTotalCookCount, addr 0x3a1633c, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateTotalCookCount();
 
-  /// @brief Method UploadAttributeValues, addr 0x39c1f48, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method UploadAttributeValues, addr 0x3a18bb8, size 0x41c, virtual false, abstract: false, final false
   inline void UploadAttributeValues(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadCurvesParameters, addr 0x39c1d60, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method UploadCurvesParameters, addr 0x3a189d0, size 0x1e8, virtual false, abstract: false, final false
   inline void UploadCurvesParameters(::HoudiniEngineUnity::HEU_SessionBase* session, bool bCheckParamsChanged);
 
-  /// @brief Method UploadInputNodes, addr 0x39c2364, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method UploadInputNodes, addr 0x3a18fd4, size 0x1d0, virtual false, abstract: false, final false
   inline void UploadInputNodes(::HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate, bool bUpdateAll);
 
-  /// @brief Method UploadParameterPresetToHoudini, addr 0x39c1ae0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method UploadParameterPresetToHoudini, addr 0x3a18750, size 0x1dc, virtual false, abstract: false, final false
   inline void UploadParameterPresetToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadUnityTransform, addr 0x39c071c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UploadUnityTransform, addr 0x3a1738c, size 0x244, virtual false, abstract: false, final false
   inline void UploadUnityTransform(::HoudiniEngineUnity::HEU_SessionBase* session, bool bOnlySendIfChangedFromLastSync);
 
   constexpr bool const& __cordl_internal_get__WarnedPrefabNotSupported_k__BackingField() const;
@@ -1743,13 +1729,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__assetPath();
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType const& __cordl_internal_get__assetType() const;
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType const& __cordl_internal_get__assetType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType& __cordl_internal_get__assetType();
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType& __cordl_internal_get__assetType();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>* const& __cordl_internal_get__attributeStores() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*& __cordl_internal_get__attributeStores();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*> const& __cordl_internal_get__attributeStores() const;
 
   constexpr bool const& __cordl_internal_get__autoCookOnParameterChange() const;
 
@@ -1763,29 +1749,29 @@ public:
 
   constexpr bool& __cordl_internal_get__bakeUpdateKeepPreviousTransformValues();
 
+  constexpr ::HoudiniEngineUnity::HEU_BakedDataEvent* const& __cordl_internal_get__bakedDataEvent() const;
+
   constexpr ::HoudiniEngineUnity::HEU_BakedDataEvent*& __cordl_internal_get__bakedDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_BakedDataEvent*> const& __cordl_internal_get__bakedDataEvent() const;
+  constexpr ::HoudiniEngineUnity::BakedEvent* const& __cordl_internal_get__bakedEvent() const;
 
   constexpr ::HoudiniEngineUnity::BakedEvent*& __cordl_internal_get__bakedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::BakedEvent*> const& __cordl_internal_get__bakedEvent() const;
 
   constexpr bool const& __cordl_internal_get__checkParameterChangeForCook() const;
 
   constexpr bool& __cordl_internal_get__checkParameterChangeForCook();
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus const& __cordl_internal_get__cookStatus() const;
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus const& __cordl_internal_get__cookStatus() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus& __cordl_internal_get__cookStatus();
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus& __cordl_internal_get__cookStatus();
+
+  constexpr ::HoudiniEngineUnity::HEU_CookedDataEvent* const& __cordl_internal_get__cookedDataEvent() const;
 
   constexpr ::HoudiniEngineUnity::HEU_CookedDataEvent*& __cordl_internal_get__cookedDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_CookedDataEvent*> const& __cordl_internal_get__cookedDataEvent() const;
+  constexpr ::HoudiniEngineUnity::CookedEvent* const& __cordl_internal_get__cookedEvent() const;
 
   constexpr ::HoudiniEngineUnity::CookedEvent*& __cordl_internal_get__cookedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::CookedEvent*> const& __cordl_internal_get__cookedEvent() const;
 
   constexpr bool const& __cordl_internal_get__cookingTriggersDownCooks() const;
 
@@ -1799,13 +1785,13 @@ public:
 
   constexpr bool& __cordl_internal_get__curveDisableScaleRotation();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* const& __cordl_internal_get__curveDrawColliders() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>*& __cordl_internal_get__curveDrawColliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>*> const& __cordl_internal_get__curveDrawColliders() const;
+  constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision const& __cordl_internal_get__curveDrawCollision() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision const& __cordl_internal_get__curveDrawCollision() const;
-
-  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision& __cordl_internal_get__curveDrawCollision();
+  constexpr ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision& __cordl_internal_get__curveDrawCollision();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__curveDrawLayerMask() const;
 
@@ -1831,13 +1817,13 @@ public:
 
   constexpr float_t& __cordl_internal_get__curveProjectMaxDistance();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* const& __cordl_internal_get__curves() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*& __cordl_internal_get__curves();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*> const& __cordl_internal_get__curves() const;
+  constexpr ::HoudiniEngineUnity::CookedEvent* const& __cordl_internal_get__downstreamConnectionCookedEvent() const;
 
   constexpr ::HoudiniEngineUnity::CookedEvent*& __cordl_internal_get__downstreamConnectionCookedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::CookedEvent*> const& __cordl_internal_get__downstreamConnectionCookedEvent() const;
 
   constexpr bool const& __cordl_internal_get__editableNodesToolsEnabled() const;
 
@@ -1863,9 +1849,9 @@ public:
 
   constexpr bool& __cordl_internal_get__generateUVs();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*& __cordl_internal_get__handles();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* const& __cordl_internal_get__handles() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*> const& __cordl_internal_get__handles() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*& __cordl_internal_get__handles();
 
   constexpr bool const& __cordl_internal_get__handlesEnabled() const;
 
@@ -1875,9 +1861,9 @@ public:
 
   constexpr bool& __cordl_internal_get__ignoreNonDisplayNodes();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*& __cordl_internal_get__inputNodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* const& __cordl_internal_get__inputNodes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*> const& __cordl_internal_get__inputNodes() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*& __cordl_internal_get__inputNodes();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState> const& __cordl_internal_get__instanceInputUIState() const;
 
@@ -1887,9 +1873,9 @@ public:
 
   constexpr bool& __cordl_internal_get__isCookingAssetReloaded();
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult const& __cordl_internal_get__lastCookResult() const;
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult const& __cordl_internal_get__lastCookResult() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult& __cordl_internal_get__lastCookResult();
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult& __cordl_internal_get__lastCookResult();
 
   constexpr ::UnityEngine::Matrix4x4 const& __cordl_internal_get__lastSyncedTransformMatrix() const;
 
@@ -1899,17 +1885,17 @@ public:
 
   constexpr bool& __cordl_internal_get__loadAssetFromMemory();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__materialCache();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& __cordl_internal_get__materialCache() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const& __cordl_internal_get__materialCache() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__materialCache();
 
   constexpr ::HoudiniEngineUnity::HAPI_NodeInfo const& __cordl_internal_get__nodeInfo() const;
 
   constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& __cordl_internal_get__nodeInfo();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>*& __cordl_internal_get__objectNodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>* const& __cordl_internal_get__objectNodes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>*> const& __cordl_internal_get__objectNodes() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>*& __cordl_internal_get__objectNodes();
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters> const& __cordl_internal_get__parameters() const;
 
@@ -1923,41 +1909,41 @@ public:
 
   constexpr bool& __cordl_internal_get__pendingAutoCookOnMouseRelease();
 
-  constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent*& __cordl_internal_get__preAssetEvent();
+  constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent* const& __cordl_internal_get__preAssetEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_PreAssetEvent*> const& __cordl_internal_get__preAssetEvent() const;
+  constexpr ::HoudiniEngineUnity::HEU_PreAssetEvent*& __cordl_internal_get__preAssetEvent();
 
   constexpr bool const& __cordl_internal_get__pushTransformToHoudini() const;
 
   constexpr bool& __cordl_internal_get__pushTransformToHoudini();
 
+  constexpr ::HoudiniEngineUnity::HEU_RecookPreset* const& __cordl_internal_get__recookPreset() const;
+
   constexpr ::HoudiniEngineUnity::HEU_RecookPreset*& __cordl_internal_get__recookPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_RecookPreset*> const& __cordl_internal_get__recookPreset() const;
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate* const& __cordl_internal_get__refreshUIDelegate() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate*& __cordl_internal_get__refreshUIDelegate();
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate*& __cordl_internal_get__refreshUIDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate*> const& __cordl_internal_get__refreshUIDelegate() const;
+  constexpr ::HoudiniEngineUnity::HEU_ReloadDataEvent* const& __cordl_internal_get__reloadDataEvent() const;
 
   constexpr ::HoudiniEngineUnity::HEU_ReloadDataEvent*& __cordl_internal_get__reloadDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ReloadDataEvent*> const& __cordl_internal_get__reloadDataEvent() const;
+  constexpr ::HoudiniEngineUnity::ReloadEvent* const& __cordl_internal_get__reloadEvent() const;
 
   constexpr ::HoudiniEngineUnity::ReloadEvent*& __cordl_internal_get__reloadEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::ReloadEvent*> const& __cordl_internal_get__reloadEvent() const;
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction const& __cordl_internal_get__requestBuildAction() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction const& __cordl_internal_get__requestBuildAction() const;
-
-  constexpr ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction& __cordl_internal_get__requestBuildAction();
+  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction& __cordl_internal_get__requestBuildAction();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__rootGameObject() const;
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__rootGameObject();
 
-  constexpr ::HoudiniEngineUnity::HEU_AssetPreset*& __cordl_internal_get__savedAssetPreset();
+  constexpr ::HoudiniEngineUnity::HEU_AssetPreset* const& __cordl_internal_get__savedAssetPreset() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_AssetPreset*> const& __cordl_internal_get__savedAssetPreset() const;
+  constexpr ::HoudiniEngineUnity::HEU_AssetPreset*& __cordl_internal_get__savedAssetPreset();
 
   constexpr int32_t const& __cordl_internal_get__selectedSubassetIndex() const;
 
@@ -2047,9 +2033,9 @@ public:
 
   constexpr bool& __cordl_internal_get__useLODGroups();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*& __cordl_internal_get__volumeCaches();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* const& __cordl_internal_get__volumeCaches() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*> const& __cordl_internal_get__volumeCaches() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*& __cordl_internal_get__volumeCaches();
 
   constexpr void __cordl_internal_set__WarnedPrefabNotSupported_k__BackingField(bool value);
 
@@ -2071,7 +2057,7 @@ public:
 
   constexpr void __cordl_internal_set__assetPath(::StringW value);
 
-  constexpr void __cordl_internal_set__assetType(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType value);
+  constexpr void __cordl_internal_set__assetType(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType value);
 
   constexpr void __cordl_internal_set__attributeStores(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>* value);
 
@@ -2087,7 +2073,7 @@ public:
 
   constexpr void __cordl_internal_set__checkParameterChangeForCook(bool value);
 
-  constexpr void __cordl_internal_set__cookStatus(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus value);
+  constexpr void __cordl_internal_set__cookStatus(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus value);
 
   constexpr void __cordl_internal_set__cookedDataEvent(::HoudiniEngineUnity::HEU_CookedDataEvent* value);
 
@@ -2101,7 +2087,7 @@ public:
 
   constexpr void __cordl_internal_set__curveDrawColliders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* value);
 
-  constexpr void __cordl_internal_set__curveDrawCollision(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision value);
+  constexpr void __cordl_internal_set__curveDrawCollision(::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision value);
 
   constexpr void __cordl_internal_set__curveDrawLayerMask(::UnityEngine::LayerMask value);
 
@@ -2143,7 +2129,7 @@ public:
 
   constexpr void __cordl_internal_set__isCookingAssetReloaded(bool value);
 
-  constexpr void __cordl_internal_set__lastCookResult(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult value);
+  constexpr void __cordl_internal_set__lastCookResult(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult value);
 
   constexpr void __cordl_internal_set__lastSyncedTransformMatrix(::UnityEngine::Matrix4x4 value);
 
@@ -2167,13 +2153,13 @@ public:
 
   constexpr void __cordl_internal_set__recookPreset(::HoudiniEngineUnity::HEU_RecookPreset* value);
 
-  constexpr void __cordl_internal_set__refreshUIDelegate(::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* value);
+  constexpr void __cordl_internal_set__refreshUIDelegate(::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate* value);
 
   constexpr void __cordl_internal_set__reloadDataEvent(::HoudiniEngineUnity::HEU_ReloadDataEvent* value);
 
   constexpr void __cordl_internal_set__reloadEvent(::HoudiniEngineUnity::ReloadEvent* value);
 
-  constexpr void __cordl_internal_set__requestBuildAction(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction value);
+  constexpr void __cordl_internal_set__requestBuildAction(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction value);
 
   constexpr void __cordl_internal_set__rootGameObject(::UnityW<::UnityEngine::GameObject> value);
 
@@ -2225,226 +2211,226 @@ public:
 
   constexpr void __cordl_internal_set__volumeCaches(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* value);
 
-  /// @brief Method .ctor, addr 0x39cd444, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a240b4, size 0x284, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlwaysOverwriteOnLoad, addr 0x39bd45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlwaysOverwriteOnLoad, addr 0x3a140cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_AlwaysOverwriteOnLoad();
 
-  /// @brief Method get_AssetHelp, addr 0x39bd420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetHelp, addr 0x3a14090, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetHelp();
 
-  /// @brief Method get_AssetID, addr 0x39bd438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetID, addr 0x3a140a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AssetID();
 
-  /// @brief Method get_AssetInfo, addr 0x39bd3e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AssetInfo, addr 0x3a14054, size 0x1c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_AssetInfo get_AssetInfo();
 
-  /// @brief Method get_AssetName, addr 0x39bd410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetName, addr 0x3a14080, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetName();
 
-  /// @brief Method get_AssetOpName, addr 0x39bd418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetOpName, addr 0x3a14088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetOpName();
 
-  /// @brief Method get_AssetPath, addr 0x39bd440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetPath, addr 0x3a140b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetPath();
 
-  /// @brief Method get_AssetType, addr 0x39bd3dc, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType get_AssetType();
+  /// @brief Method get_AssetType, addr 0x3a1404c, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType get_AssetType();
 
-  /// @brief Method get_AutoCookOnParameterChange, addr 0x39bd534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AutoCookOnParameterChange, addr 0x3a141a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AutoCookOnParameterChange();
 
-  /// @brief Method get_BakeUpdateKeepPreviousTransformValues, addr 0x39bd5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BakeUpdateKeepPreviousTransformValues, addr 0x3a1421c, size 0x8, virtual false, abstract: false, final false
   inline bool get_BakeUpdateKeepPreviousTransformValues();
 
-  /// @brief Method get_CookingTriggersDownCooks, addr 0x39bd520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CookingTriggersDownCooks, addr 0x3a14190, size 0x8, virtual false, abstract: false, final false
   inline bool get_CookingTriggersDownCooks();
 
-  /// @brief Method get_CurveCookOnDrag, addr 0x39bd624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveCookOnDrag, addr 0x3a14294, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveCookOnDrag();
 
-  /// @brief Method get_CurveDisableScaleRotation, addr 0x39bd610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveDisableScaleRotation, addr 0x3a14280, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveDisableScaleRotation();
 
-  /// @brief Method get_CurveDrawCollision, addr 0x39bd5e8, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision get_CurveDrawCollision();
+  /// @brief Method get_CurveDrawCollision, addr 0x3a14258, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision get_CurveDrawCollision();
 
-  /// @brief Method get_CurveEditorEnabled, addr 0x39bd5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveEditorEnabled, addr 0x3a14244, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveEditorEnabled();
 
-  /// @brief Method get_CurveFrameSelectedNodeDistance, addr 0x39bd64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveFrameSelectedNodeDistance, addr 0x3a142bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_CurveFrameSelectedNodeDistance();
 
-  /// @brief Method get_CurveFrameSelectedNodes, addr 0x39bd638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveFrameSelectedNodes, addr 0x3a142a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveFrameSelectedNodes();
 
-  /// @brief Method get_EditableNodesToolsEnabled, addr 0x39bd670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditableNodesToolsEnabled, addr 0x3a142e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_EditableNodesToolsEnabled();
 
-  /// @brief Method get_GenerateMeshUsingPoints, addr 0x39bd55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateMeshUsingPoints, addr 0x3a141cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateMeshUsingPoints();
 
-  /// @brief Method get_GenerateNormals, addr 0x39bd4e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateNormals, addr 0x3a14154, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateNormals();
 
-  /// @brief Method get_GenerateTangents, addr 0x39bd4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateTangents, addr 0x3a14140, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateTangents();
 
-  /// @brief Method get_GenerateUVs, addr 0x39bd4bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateUVs, addr 0x3a1412c, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateUVs();
 
-  /// @brief Method get_GeoInputCount, addr 0x39bd430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoInputCount, addr 0x3a140a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoInputCount();
 
-  /// @brief Method get_HandleCount, addr 0x39bd470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleCount, addr 0x3a140e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HandleCount();
 
-  /// @brief Method get_HandlesEnabled, addr 0x39bd65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandlesEnabled, addr 0x3a142cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_HandlesEnabled();
 
-  /// @brief Method get_IgnoreNonDisplayNodes, addr 0x39bd548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreNonDisplayNodes, addr 0x3a141b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreNonDisplayNodes();
 
-  /// @brief Method get_InstanceInputUIState, addr 0x39bd4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceInputUIState, addr 0x3a1411c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState> get_InstanceInputUIState();
 
-  /// @brief Method get_LoadAssetFromMemory, addr 0x39bd448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadAssetFromMemory, addr 0x3a140b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadAssetFromMemory();
 
-  /// @brief Method get_NodeInfo, addr 0x39bd400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_NodeInfo, addr 0x3a14070, size 0x10, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_NodeInfo get_NodeInfo();
 
-  /// @brief Method get_OwnerGameObject, addr 0x39bab50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OwnerGameObject, addr 0x3a117c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_OwnerGameObject();
 
-  /// @brief Method get_Parameters, addr 0x39bd480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3a140f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
 
-  /// @brief Method get_PauseCooking, addr 0x39bd5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PauseCooking, addr 0x3a14230, size 0x8, virtual false, abstract: false, final false
   inline bool get_PauseCooking();
 
-  /// @brief Method get_PendingAutoCookOnMouseRelease, addr 0x39bd694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PendingAutoCookOnMouseRelease, addr 0x3a14304, size 0x8, virtual false, abstract: false, final false
   inline bool get_PendingAutoCookOnMouseRelease();
 
-  /// @brief Method get_PushTransformToHoudini, addr 0x39bd4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PushTransformToHoudini, addr 0x3a14168, size 0x8, virtual false, abstract: false, final false
   inline bool get_PushTransformToHoudini();
 
-  /// @brief Method get_RootGameObject, addr 0x39bd478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootGameObject, addr 0x3a140e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_RootGameObject();
 
-  /// @brief Method get_SerializedMetaData, addr 0x39bd68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedMetaData, addr 0x3a142fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData> get_SerializedMetaData();
 
-  /// @brief Method get_SessionID, addr 0x39bd490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SessionID, addr 0x3a14100, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_SessionID();
 
-  /// @brief Method get_SessionSyncAutoCook, addr 0x39bd598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SessionSyncAutoCook, addr 0x3a14208, size 0x8, virtual false, abstract: false, final false
   inline bool get_SessionSyncAutoCook();
 
-  /// @brief Method get_SplitGeosByGroup, addr 0x39bd584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SplitGeosByGroup, addr 0x3a141f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_SplitGeosByGroup();
 
-  /// @brief Method get_SubassetNames, addr 0x39bd488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubassetNames, addr 0x3a140f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_SubassetNames();
 
-  /// @brief Method get_ToolsInfo, addr 0x39bd684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ToolsInfo, addr 0x3a142f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo> get_ToolsInfo();
 
-  /// @brief Method get_TransformChangeTriggersCooks, addr 0x39bd50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TransformChangeTriggersCooks, addr 0x3a1417c, size 0x8, virtual false, abstract: false, final false
   inline bool get_TransformChangeTriggersCooks();
 
-  /// @brief Method get_TransformInputCount, addr 0x39bd428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TransformInputCount, addr 0x3a14098, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TransformInputCount();
 
-  /// @brief Method get_UseLODGroups, addr 0x39bd570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseLODGroups, addr 0x3a141e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseLODGroups();
 
-  /// @brief Method get_WarnedPrefabNotSupported, addr 0x39bd498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WarnedPrefabNotSupported, addr 0x3a14108, size 0x8, virtual false, abstract: false, final false
   inline bool get_WarnedPrefabNotSupported();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_HoudiniAsset__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HoudiniAsset*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_HoudiniAsset__() noexcept;
 
-  /// @brief Method set_AlwaysOverwriteOnLoad, addr 0x39bd464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AlwaysOverwriteOnLoad, addr 0x3a140d4, size 0xc, virtual false, abstract: false, final false
   inline void set_AlwaysOverwriteOnLoad(bool value);
 
-  /// @brief Method set_AutoCookOnParameterChange, addr 0x39bd53c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AutoCookOnParameterChange, addr 0x3a141ac, size 0xc, virtual false, abstract: false, final false
   inline void set_AutoCookOnParameterChange(bool value);
 
-  /// @brief Method set_BakeUpdateKeepPreviousTransformValues, addr 0x39bd5b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_BakeUpdateKeepPreviousTransformValues, addr 0x3a14224, size 0xc, virtual false, abstract: false, final false
   inline void set_BakeUpdateKeepPreviousTransformValues(bool value);
 
-  /// @brief Method set_CookingTriggersDownCooks, addr 0x39bd528, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CookingTriggersDownCooks, addr 0x3a14198, size 0xc, virtual false, abstract: false, final false
   inline void set_CookingTriggersDownCooks(bool value);
 
-  /// @brief Method set_CurveCookOnDrag, addr 0x39bd62c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveCookOnDrag, addr 0x3a1429c, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveCookOnDrag(bool value);
 
-  /// @brief Method set_CurveDisableScaleRotation, addr 0x39bd618, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveDisableScaleRotation, addr 0x3a14288, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveDisableScaleRotation(bool value);
 
-  /// @brief Method set_CurveDrawCollision, addr 0x39bd5f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_CurveDrawCollision(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision value);
+  /// @brief Method set_CurveDrawCollision, addr 0x3a14260, size 0x8, virtual false, abstract: false, final false
+  inline void set_CurveDrawCollision(::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision value);
 
-  /// @brief Method set_CurveEditorEnabled, addr 0x39bd5dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveEditorEnabled, addr 0x3a1424c, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveEditorEnabled(bool value);
 
-  /// @brief Method set_CurveFrameSelectedNodeDistance, addr 0x39bd654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurveFrameSelectedNodeDistance, addr 0x3a142c4, size 0x8, virtual false, abstract: false, final false
   inline void set_CurveFrameSelectedNodeDistance(float_t value);
 
-  /// @brief Method set_CurveFrameSelectedNodes, addr 0x39bd640, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveFrameSelectedNodes, addr 0x3a142b0, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveFrameSelectedNodes(bool value);
 
-  /// @brief Method set_EditableNodesToolsEnabled, addr 0x39bd678, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EditableNodesToolsEnabled, addr 0x3a142e8, size 0xc, virtual false, abstract: false, final false
   inline void set_EditableNodesToolsEnabled(bool value);
 
-  /// @brief Method set_GenerateMeshUsingPoints, addr 0x39bd564, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateMeshUsingPoints, addr 0x3a141d4, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateMeshUsingPoints(bool value);
 
-  /// @brief Method set_GenerateNormals, addr 0x39bd4ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateNormals, addr 0x3a1415c, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateNormals(bool value);
 
-  /// @brief Method set_GenerateTangents, addr 0x39bd4d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateTangents, addr 0x3a14148, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateTangents(bool value);
 
-  /// @brief Method set_GenerateUVs, addr 0x39bd4c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateUVs, addr 0x3a14134, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateUVs(bool value);
 
-  /// @brief Method set_HandlesEnabled, addr 0x39bd664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HandlesEnabled, addr 0x3a142d4, size 0xc, virtual false, abstract: false, final false
   inline void set_HandlesEnabled(bool value);
 
-  /// @brief Method set_IgnoreNonDisplayNodes, addr 0x39bd550, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreNonDisplayNodes, addr 0x3a141c0, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreNonDisplayNodes(bool value);
 
-  /// @brief Method set_InstanceInputUIState, addr 0x39bd4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceInputUIState, addr 0x3a14124, size 0x8, virtual false, abstract: false, final false
   inline void set_InstanceInputUIState(::HoudiniEngineUnity::HEU_InstanceInputUIState* value);
 
-  /// @brief Method set_LoadAssetFromMemory, addr 0x39bd450, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LoadAssetFromMemory, addr 0x3a140c0, size 0xc, virtual false, abstract: false, final false
   inline void set_LoadAssetFromMemory(bool value);
 
-  /// @brief Method set_PauseCooking, addr 0x39bd5c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PauseCooking, addr 0x3a14238, size 0xc, virtual false, abstract: false, final false
   inline void set_PauseCooking(bool value);
 
-  /// @brief Method set_PendingAutoCookOnMouseRelease, addr 0x39bd69c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PendingAutoCookOnMouseRelease, addr 0x3a1430c, size 0xc, virtual false, abstract: false, final false
   inline void set_PendingAutoCookOnMouseRelease(bool value);
 
-  /// @brief Method set_PushTransformToHoudini, addr 0x39bd500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PushTransformToHoudini, addr 0x3a14170, size 0xc, virtual false, abstract: false, final false
   inline void set_PushTransformToHoudini(bool value);
 
-  /// @brief Method set_SessionSyncAutoCook, addr 0x39bd5a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SessionSyncAutoCook, addr 0x3a14210, size 0xc, virtual false, abstract: false, final false
   inline void set_SessionSyncAutoCook(bool value);
 
-  /// @brief Method set_SplitGeosByGroup, addr 0x39bd58c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SplitGeosByGroup, addr 0x3a141fc, size 0xc, virtual false, abstract: false, final false
   inline void set_SplitGeosByGroup(bool value);
 
-  /// @brief Method set_TransformChangeTriggersCooks, addr 0x39bd514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_TransformChangeTriggersCooks, addr 0x3a14184, size 0xc, virtual false, abstract: false, final false
   inline void set_TransformChangeTriggersCooks(bool value);
 
-  /// @brief Method set_UseLODGroups, addr 0x39bd578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseLODGroups, addr 0x3a141e8, size 0xc, virtual false, abstract: false, final false
   inline void set_UseLODGroups(bool value);
 
-  /// @brief Method set_WarnedPrefabNotSupported, addr 0x39bd4a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WarnedPrefabNotSupported, addr 0x3a14110, size 0xc, virtual false, abstract: false, final false
   inline void set_WarnedPrefabNotSupported(bool value);
 
 protected:
@@ -2461,8 +2447,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_HoudiniAsset(HEU_HoudiniAsset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11621 };
+
   /// @brief Field _assetType, offset: 0x20, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType ____assetType;
+  ::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType ____assetType;
 
   /// @brief Field _assetInfo, offset: 0x24, size: 0x40, def value: None
   ::HoudiniEngineUnity::HAPI_AssetInfo ____assetInfo;
@@ -2528,7 +2517,7 @@ public:
   int32_t ____totalCookCount;
 
   /// @brief Field _requestBuildAction, offset: 0x16c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction ____requestBuildAction;
+  ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction ____requestBuildAction;
 
   /// @brief Field _checkParameterChangeForCook, offset: 0x170, size: 0x1, def value: None
   bool ____checkParameterChangeForCook;
@@ -2546,10 +2535,10 @@ public:
   bool ____upstreamCookChanged;
 
   /// @brief Field _cookStatus, offset: 0x178, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus ____cookStatus;
+  ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus ____cookStatus;
 
   /// @brief Field _lastCookResult, offset: 0x17c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult ____lastCookResult;
+  ::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult ____lastCookResult;
 
   /// @brief Field _isCookingAssetReloaded, offset: 0x180, size: 0x1, def value: None
   bool ____isCookingAssetReloaded;
@@ -2615,7 +2604,7 @@ public:
   ::HoudiniEngineUnity::HEU_PreAssetEvent* ____preAssetEvent;
 
   /// @brief Field _refreshUIDelegate, offset: 0x1e0, size: 0x8, def value: None
-  ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* ____refreshUIDelegate;
+  ::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate* ____refreshUIDelegate;
 
   /// @brief Field _downstreamConnectionCookedEvent, offset: 0x1e8, size: 0x8, def value: None
   ::HoudiniEngineUnity::CookedEvent* ____downstreamConnectionCookedEvent;
@@ -2669,7 +2658,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* ____curves;
 
   /// @brief Field _curveDrawCollision, offset: 0x208, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision ____curveDrawCollision;
+  ::HoudiniEngineUnity::HEU_Curve_CurveDrawCollision ____curveDrawCollision;
 
   /// @brief Field _curveDrawColliders, offset: 0x210, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* ____curveDrawColliders;
@@ -2722,14 +2711,9 @@ public:
   /// @brief Field _pendingAutoCookOnMouseRelease, offset: 0x278, size: 0x1, def value: None
   bool ____pendingAutoCookOnMouseRelease;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11588 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset, 0x280>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset, ____assetType) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset, ____assetInfo) == 0x24, "Offset mismatch!");
@@ -2904,19 +2888,21 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset, ____serializedMet
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_HoudiniAsset, ____pendingAutoCookOnMouseRelease) == 0x278, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_HoudiniAsset, 0x280>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetBuildAction, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetBuildAction");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookResult");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookStatus");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetInstantiationMethod");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType, "HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetBuildAction, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetBuildAction");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookResult, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookResult");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetCookStatus, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetCookStatus");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_AssetInstantiationMethod, "HoudiniEngineUnity", "HEU_HoudiniAsset/AssetInstantiationMethod");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_HEU_AssetType, "HoudiniEngineUnity", "HEU_HoudiniAsset/HEU_AssetType");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset*, "HoudiniEngineUnity", "HEU_HoudiniAsset");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate*, "HoudiniEngineUnity", "HEU_HoudiniAsset/UpdateUIDelegate");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_HoudiniAsset____c);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset____c*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass281_0");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset_UpdateUIDelegate*, "HoudiniEngineUnity", "HEU_HoudiniAsset/UpdateUIDelegate");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset___c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset___c*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass281_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass281_0");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_HoudiniAsset___c__DisplayClass365_0*, "HoudiniEngineUnity", "HEU_HoudiniAsset/<>c__DisplayClass365_0");

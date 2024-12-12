@@ -15,20 +15,19 @@ class VerisignCzagExtension;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension);
-// Type: Org.BouncyCastle.Asn1.Misc::VerisignCzagExtension
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerIA5String
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Misc::VerisignCzagExtension*
+// CS Name: Org.BouncyCastle.Asn1.Misc.VerisignCzagExtension
 class CORDL_TYPE VerisignCzagExtension : public ::Org::BouncyCastle::Asn1::DerIA5String {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x23cdc78, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2400f64, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x23cdc40, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2400f2c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

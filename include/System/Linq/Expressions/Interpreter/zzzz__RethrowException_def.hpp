@@ -11,17 +11,16 @@ class RethrowException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RethrowException);
-// Type: System.Linq.Expressions.Interpreter::RethrowException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::RethrowException*
+// CS Name: System.Linq.Expressions.Interpreter.RethrowException
 class CORDL_TYPE RethrowException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::RethrowException* New_ctor();
 
-  /// @brief Method .ctor, addr 0x407550c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d6820, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   RethrowException(RethrowException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13939 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

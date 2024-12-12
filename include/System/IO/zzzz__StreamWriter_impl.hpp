@@ -5,15 +5,12 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_impl.hpp"
 #include "System/IO/zzzz__StreamWriter_def.hpp"
 #include "System/IO/zzzz__StreamWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Text/zzzz__Encoder_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -22,127 +19,128 @@
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-//  Writing Method size for method: ::System::IO::__StreamWriter___DisposeAsyncCore_d__33.MoveNext
+//  Writing Method size for method: ::System::IO::StreamWriter__DisposeAsyncCore_d__33.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___DisposeAsyncCore_d__33::*)()>(
-    &::System::IO::__StreamWriter___DisposeAsyncCore_d__33::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__DisposeAsyncCore_d__33::*)()>(
+    &::System::IO::StreamWriter__DisposeAsyncCore_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3ce0b60;
+  constexpr static std::size_t addrs = 0x3d40cd4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___DisposeAsyncCore_d__33>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__DisposeAsyncCore_d__33>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__StreamWriter___DisposeAsyncCore_d__33.SetStateMachine
+//  Writing Method size for method: ::System::IO::StreamWriter__DisposeAsyncCore_d__33.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___DisposeAsyncCore_d__33::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::__StreamWriter___DisposeAsyncCore_d__33::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__DisposeAsyncCore_d__33::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::StreamWriter__DisposeAsyncCore_d__33::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce0dec;
+  constexpr static std::size_t addrs = 0x3d40f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___DisposeAsyncCore_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__DisposeAsyncCore_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::IO::__StreamWriter___DisposeAsyncCore_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::__StreamWriter___DisposeAsyncCore_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::IO::__StreamWriter___DisposeAsyncCore_d__33::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___DisposeAsyncCore_d__33>::get(),
+inline void System::IO::StreamWriter__DisposeAsyncCore_d__33::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__DisposeAsyncCore_d__33>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__StreamWriter___DisposeAsyncCore_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::IO::StreamWriter__DisposeAsyncCore_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___DisposeAsyncCore_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__DisposeAsyncCore_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::IO::StreamWriter__DisposeAsyncCore_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__DisposeAsyncCore_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::IO::StreamWriter*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::IO::__StreamWriter___DisposeAsyncCore_d__33::__StreamWriter___DisposeAsyncCore_d__33(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder, ::System::IO::StreamWriter* __4__this,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept {
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::IO::StreamWriter__DisposeAsyncCore_d__33::StreamWriter__DisposeAsyncCore_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder,
+                                                                                                   ::System::IO::StreamWriter* __4__this,
+                                                                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::System::IO::__StreamWriter___DisposeAsyncCore_d__33::__StreamWriter___DisposeAsyncCore_d__33() {}
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__57.MoveNext
+constexpr ::System::IO::StreamWriter__DisposeAsyncCore_d__33::StreamWriter__DisposeAsyncCore_d__33() {}
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__57.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__57::*)()>(
-    &::System::IO::__StreamWriter___WriteAsyncInternal_d__57::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__57::*)()>(
+    &::System::IO::StreamWriter__WriteAsyncInternal_d__57::MoveNext)> {
   constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3ce0df8;
+  constexpr static std::size_t addrs = 0x3d40f6c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__57>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__57>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__57.SetStateMachine
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__57.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__57::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::__StreamWriter___WriteAsyncInternal_d__57::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__57::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::StreamWriter__WriteAsyncInternal_d__57::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce127c;
+  constexpr static std::size_t addrs = 0x3d413f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__57>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__57>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::IO::__StreamWriter___WriteAsyncInternal_d__57::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::__StreamWriter___WriteAsyncInternal_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__57::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__57>::get(),
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__57::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__57>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__57::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__57::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__57>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__57>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::IO::StreamWriter__WriteAsyncInternal_d__57::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__57::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }]
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__57::__StreamWriter___WriteAsyncInternal_d__57(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
-    ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, char16_t value, bool appendNewLine, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, int32_t _i_5__2) noexcept {
+// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__57::StreamWriter__WriteAsyncInternal_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                                       int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
+                                                                                                       ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, char16_t value, bool appendNewLine,
+                                                                                                       ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush,
+                                                                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
+                                                                                                       int32_t _i_5__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->charPos = charPos;
@@ -157,67 +155,67 @@ constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__57::__StreamWrite
   this->_i_5__2 = _i_5__2;
 }
 // Ctor Parameters []
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__57::__StreamWriter___WriteAsyncInternal_d__57() {}
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__59.MoveNext
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__57::StreamWriter__WriteAsyncInternal_d__57() {}
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__59.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__59::*)()>(
-    &::System::IO::__StreamWriter___WriteAsyncInternal_d__59::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__59::*)()>(
+    &::System::IO::StreamWriter__WriteAsyncInternal_d__59::MoveNext)> {
   constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x3ce12e4;
+  constexpr static std::size_t addrs = 0x3d41458;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__59>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__59>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__59.SetStateMachine
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__59.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__59::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::__StreamWriter___WriteAsyncInternal_d__59::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__59::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::StreamWriter__WriteAsyncInternal_d__59::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce17bc;
+  constexpr static std::size_t addrs = 0x3d41930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__59>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__59>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::IO::__StreamWriter___WriteAsyncInternal_d__59::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::__StreamWriter___WriteAsyncInternal_d__59::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__59::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__59>::get(),
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__59::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__59>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__59::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__59::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__59>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__59>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::IO::StreamWriter__WriteAsyncInternal_d__59::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__59::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty:
-// "::System::IO::StreamWriter*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "_index_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__59::__StreamWriter___WriteAsyncInternal_d__59(
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty:
+// "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "appendNewLine", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_index_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__59::StreamWriter__WriteAsyncInternal_d__59(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW value, int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
     ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, bool appendNewLine, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, int32_t _count_5__2, int32_t _index_5__3,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, int32_t _i_5__4) noexcept {
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1, int32_t _i_5__4) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->value = value;
@@ -234,68 +232,68 @@ constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__59::__StreamWrite
   this->_i_5__4 = _i_5__4;
 }
 // Ctor Parameters []
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__59::__StreamWriter___WriteAsyncInternal_d__59() {}
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__62.MoveNext
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__59::StreamWriter__WriteAsyncInternal_d__59() {}
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__62.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__62::*)()>(
-    &::System::IO::__StreamWriter___WriteAsyncInternal_d__62::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__62::*)()>(
+    &::System::IO::StreamWriter__WriteAsyncInternal_d__62::MoveNext)> {
   constexpr static std::size_t size = 0x62c;
-  constexpr static std::size_t addrs = 0x3ce1824;
+  constexpr static std::size_t addrs = 0x3d41998;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__62>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__62>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__StreamWriter___WriteAsyncInternal_d__62.SetStateMachine
+//  Writing Method size for method: ::System::IO::StreamWriter__WriteAsyncInternal_d__62.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___WriteAsyncInternal_d__62::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::__StreamWriter___WriteAsyncInternal_d__62::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__WriteAsyncInternal_d__62::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::StreamWriter__WriteAsyncInternal_d__62::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce1e50;
+  constexpr static std::size_t addrs = 0x3d41fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__62>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__62>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::IO::__StreamWriter___WriteAsyncInternal_d__62::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::__StreamWriter___WriteAsyncInternal_d__62::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__62::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__62>::get(),
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__62::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__62>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__StreamWriter___WriteAsyncInternal_d__62::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::IO::StreamWriter__WriteAsyncInternal_d__62::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___WriteAsyncInternal_d__62>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__WriteAsyncInternal_d__62>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::IO::StreamWriter__WriteAsyncInternal_d__62::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__WriteAsyncInternal_d__62::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "appendNewLine", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "autoFlush", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_copied_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value:
+// name: "charLen", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "autoFlush", ty: "bool", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "_copied_5__2", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__62::__StreamWriter___WriteAsyncInternal_d__62(
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__62::StreamWriter__WriteAsyncInternal_d__62(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t charPos, int32_t charLen, ::System::IO::StreamWriter* _this,
     ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, ::System::Threading::CancellationToken cancellationToken, ::System::ReadOnlyMemory_1<char16_t> source, bool appendNewLine,
-    ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, int32_t _copied_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
+    ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, int32_t _copied_5__2, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1,
     int32_t _i_5__3) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -313,70 +311,69 @@ constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__62::__StreamWrite
   this->_i_5__3 = _i_5__3;
 }
 // Ctor Parameters []
-constexpr ::System::IO::__StreamWriter___WriteAsyncInternal_d__62::__StreamWriter___WriteAsyncInternal_d__62() {}
-//  Writing Method size for method: ::System::IO::__StreamWriter___FlushAsyncInternal_d__74.MoveNext
+constexpr ::System::IO::StreamWriter__WriteAsyncInternal_d__62::StreamWriter__WriteAsyncInternal_d__62() {}
+//  Writing Method size for method: ::System::IO::StreamWriter__FlushAsyncInternal_d__74.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___FlushAsyncInternal_d__74::*)()>(
-    &::System::IO::__StreamWriter___FlushAsyncInternal_d__74::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__FlushAsyncInternal_d__74::*)()>(
+    &::System::IO::StreamWriter__FlushAsyncInternal_d__74::MoveNext)> {
   constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x3ce1eb8;
+  constexpr static std::size_t addrs = 0x3d4202c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___FlushAsyncInternal_d__74>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__FlushAsyncInternal_d__74>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__StreamWriter___FlushAsyncInternal_d__74.SetStateMachine
+//  Writing Method size for method: ::System::IO::StreamWriter__FlushAsyncInternal_d__74.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamWriter___FlushAsyncInternal_d__74::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::__StreamWriter___FlushAsyncInternal_d__74::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter__FlushAsyncInternal_d__74::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::StreamWriter__FlushAsyncInternal_d__74::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce2794;
+  constexpr static std::size_t addrs = 0x3d42908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___FlushAsyncInternal_d__74>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__FlushAsyncInternal_d__74>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::IO::__StreamWriter___FlushAsyncInternal_d__74::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::__StreamWriter___FlushAsyncInternal_d__74::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::IO::__StreamWriter___FlushAsyncInternal_d__74::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___FlushAsyncInternal_d__74>::get(),
+inline void System::IO::StreamWriter__FlushAsyncInternal_d__74::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__FlushAsyncInternal_d__74>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__StreamWriter___FlushAsyncInternal_d__74::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::IO::StreamWriter__FlushAsyncInternal_d__74::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamWriter___FlushAsyncInternal_d__74>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter__FlushAsyncInternal_d__74>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::IO::StreamWriter__FlushAsyncInternal_d__74::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::IO::StreamWriter__FlushAsyncInternal_d__74::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "haveWrittenPreamble", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "encoder", ty: "::System::Text::Encoder*", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "byteBuffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "flushStream", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::IO::__StreamWriter___FlushAsyncInternal_d__74::__StreamWriter___FlushAsyncInternal_d__74(
+// CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: Some("{}") }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "encoder", ty: "::System::Text::Encoder*", modifiers: "", def_value: Some("{}") }, CppParam { name: "charBuffer", ty:
+// "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "byteBuffer",
+// ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "flushStream", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::IO::StreamWriter__FlushAsyncInternal_d__74::StreamWriter__FlushAsyncInternal_d__74(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool haveWrittenPreamble, ::System::IO::StreamWriter* _this, ::System::Text::Encoding* encoding,
     ::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken, ::System::Text::Encoder* encoder, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, int32_t charPos,
-    ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer, bool flushEncoder, bool flushStream, ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__1,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept {
+    ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer, bool flushEncoder, bool flushStream, ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_ConfiguredValueTaskAwaiter __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->haveWrittenPreamble = haveWrittenPreamble;
@@ -394,13 +391,13 @@ constexpr ::System::IO::__StreamWriter___FlushAsyncInternal_d__74::__StreamWrite
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::System::IO::__StreamWriter___FlushAsyncInternal_d__74::__StreamWriter___FlushAsyncInternal_d__74() {}
+constexpr ::System::IO::StreamWriter__FlushAsyncInternal_d__74::StreamWriter__FlushAsyncInternal_d__74() {}
 //  Writing Method size for method: ::System::IO::StreamWriter.CheckAsyncTaskInProgress
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::CheckAsyncTaskInProgress)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3cddd7c;
+  constexpr static std::size_t addrs = 0x3d3def0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), "CheckAsyncTaskInProgress",
@@ -413,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::StreamWriter::ThrowAsyncIOInProgress)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3cddde0;
+  constexpr static std::size_t addrs = 0x3d3df54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), "ThrowAsyncIOInProgress",
@@ -426,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::IO::StreamWriter::get_UTF8NoBOM)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3cdde2c;
+  constexpr static std::size_t addrs = 0x3d3dfa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), "get_UTF8NoBOM",
@@ -439,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cdde7c;
+  constexpr static std::size_t addrs = 0x3d3dff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor",
@@ -452,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::IO::Stream*)>(&::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cddfc0;
+  constexpr static std::size_t addrs = 0x3d3e134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -467,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cde234;
+  constexpr static std::size_t addrs = 0x3d3e3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -483,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, int32_t)>(
     &::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cde240;
+  constexpr static std::size_t addrs = 0x3d3e3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -500,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, int32_t, bool)>(
     &::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3cde034;
+  constexpr static std::size_t addrs = 0x3d3e1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -516,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW)>(&::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cde384;
+  constexpr static std::size_t addrs = 0x3d3e4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -530,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW, bool)>(&::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cde634;
+  constexpr static std::size_t addrs = 0x3d3e7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -545,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW, bool, ::System::Text::Encoding*)>(
     &::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cde6ac;
+  constexpr static std::size_t addrs = 0x3d3e820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -561,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW, bool, ::System::Text::Encoding*, int32_t)>(
     &::System::IO::StreamWriter::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3cde3f8;
+  constexpr static std::size_t addrs = 0x3d3e56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,7 +575,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::IO::Stream*, ::System::Text::Encoding*, int32_t, bool)>(
     &::System::IO::StreamWriter::Init)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3cde248;
+  constexpr static std::size_t addrs = 0x3d3e3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -594,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::Close)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cde734;
+  constexpr static std::size_t addrs = 0x3d3e8a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -608,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(bool)>(&::System::IO::StreamWriter::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cde7a0;
+  constexpr static std::size_t addrs = 0x3d3e914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +619,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::DisposeAsync)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cde9b0;
+  constexpr static std::size_t addrs = 0x3d3eb24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -637,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::StreamWriter::*)()>(
     &::System::IO::StreamWriter::DisposeAsyncCore)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3cdea6c;
+  constexpr static std::size_t addrs = 0x3d3ebe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), "DisposeAsyncCore",
@@ -650,7 +647,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(bool)>(&::System::IO::StreamWriter::CloseStreamFromDispose)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3cdec18;
+  constexpr static std::size_t addrs = 0x3d3ed8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -664,7 +661,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cdecf0;
+  constexpr static std::size_t addrs = 0x3d3ee64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -678,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(bool, bool)>(&::System::IO::StreamWriter::Flush)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3cde834;
+  constexpr static std::size_t addrs = 0x3d3e9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -692,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(bool)>(&::System::IO::StreamWriter::set_AutoFlush)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3cded10;
+  constexpr static std::size_t addrs = 0x3d3ee84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -706,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::get_BaseStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cded54;
+  constexpr static std::size_t addrs = 0x3d3eec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -720,7 +717,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::get_LeaveOpen)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cdece0;
+  constexpr static std::size_t addrs = 0x3d3ee54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), "get_LeaveOpen",
@@ -733,7 +730,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cded5c;
+  constexpr static std::size_t addrs = 0x3d3eed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -747,7 +744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(char16_t)>(&::System::IO::StreamWriter::Write)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3cded64;
+  constexpr static std::size_t addrs = 0x3d3eed8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -761,7 +758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::System::IO::StreamWriter::Write)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cdedf0;
+  constexpr static std::size_t addrs = 0x3d3ef64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -776,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::StreamWriter::Write)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3cdee64;
+  constexpr static std::size_t addrs = 0x3d3efd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -791,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::StreamWriter::WriteSpan)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3cdf040;
+  constexpr static std::size_t addrs = 0x3d3f1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -806,7 +803,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW)>(&::System::IO::StreamWriter::Write)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3cdf304;
+  constexpr static std::size_t addrs = 0x3d3f478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -820,7 +817,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(::StringW)>(&::System::IO::StreamWriter::WriteLine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cdf374;
+  constexpr static std::size_t addrs = 0x3d3f4e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -835,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StreamWriter::*)(char16_t)>(
     &::System::IO::StreamWriter::WriteAsync)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3cdf3e8;
+  constexpr static std::size_t addrs = 0x3d3f55c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -851,7 +848,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                                         int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, bool, bool)>(
     &::System::IO::StreamWriter::WriteAsyncInternal)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3cdf7b4;
+  constexpr static std::size_t addrs = 0x3d3f928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -870,7 +867,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StreamWriter::*)(::StringW)>(
     &::System::IO::StreamWriter::WriteAsync)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3cdf8d8;
+  constexpr static std::size_t addrs = 0x3d3fa4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -886,7 +883,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                                         int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, bool, bool)>(
     &::System::IO::StreamWriter::WriteAsyncInternal)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3cdfd0c;
+  constexpr static std::size_t addrs = 0x3d3fe80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -905,7 +902,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::System::IO::StreamWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::StreamWriter::WriteAsync)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3cdfe34;
+  constexpr static std::size_t addrs = 0x3d3ffa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -921,7 +918,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::StreamWriter*, ::System::ReadOnlyMemory_1<char16_t>, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t,
                                                       ::ArrayW<char16_t, ::Array<char16_t>*>, bool, bool, ::System::Threading::CancellationToken)>(&::System::IO::StreamWriter::WriteAsyncInternal)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3ce036c;
+  constexpr static std::size_t addrs = 0x3d404e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -941,7 +938,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::StreamWriter::*)()>(&::System::IO::StreamWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3ce04a4;
+  constexpr static std::size_t addrs = 0x3d40618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -955,7 +952,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(int32_t)>(&::System::IO::StreamWriter::set_CharPos_Prop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce0968;
+  constexpr static std::size_t addrs = 0x3d40adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -969,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StreamWriter::*)(bool)>(&::System::IO::StreamWriter::set_HaveWrittenPreamble_Prop)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce0970;
+  constexpr static std::size_t addrs = 0x3d40ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -984,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::StreamWriter::*)(bool, bool, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::StreamWriter::FlushAsyncInternal)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3ce07c8;
+  constexpr static std::size_t addrs = 0x3d4093c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1003,7 +1000,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::Tasks::Task* (*)(::System::IO::StreamWriter*, bool, bool, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, bool, ::System::Text::Encoding*, ::System::Text::Encoder*,
                                           ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::IO::Stream*, ::System::Threading::CancellationToken)>(&::System::IO::StreamWriter::FlushAsyncInternal)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3ce097c;
+  constexpr static std::size_t addrs = 0x3d40af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1022,7 +1019,7 @@ constexpr ::System::IO::Stream*& System::IO::StreamWriter::__cordl_internal_get_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::IO::StreamWriter::__cordl_internal_get__stream() const {
+constexpr ::System::IO::Stream* const& System::IO::StreamWriter::__cordl_internal_get__stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stream;
 }
@@ -1034,7 +1031,7 @@ constexpr ::System::Text::Encoding*& System::IO::StreamWriter::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::IO::StreamWriter::__cordl_internal_get__encoding() const {
+constexpr ::System::Text::Encoding* const& System::IO::StreamWriter::__cordl_internal_get__encoding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoding;
 }
@@ -1046,7 +1043,7 @@ constexpr ::System::Text::Encoder*& System::IO::StreamWriter::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& System::IO::StreamWriter::__cordl_internal_get__encoder() const {
+constexpr ::System::Text::Encoder* const& System::IO::StreamWriter::__cordl_internal_get__encoder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____encoder;
 }
@@ -1142,7 +1139,7 @@ constexpr ::System::Threading::Tasks::Task*& System::IO::StreamWriter::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncWriteTask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::IO::StreamWriter::__cordl_internal_get__asyncWriteTask() const {
+constexpr ::System::Threading::Tasks::Task* const& System::IO::StreamWriter::__cordl_internal_get__asyncWriteTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____asyncWriteTask;
 }
@@ -1172,16 +1169,10 @@ inline ::System::Text::Encoding* System::IO::StreamWriter::get_UTF8NoBOM() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*, false>(nullptr, ___internal_method);
 }
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>());
-}
 inline void System::IO::StreamWriter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream));
 }
 inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream) {
   static auto* ___internal_method =
@@ -1189,18 +1180,12 @@ inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream);
 }
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding));
-}
 inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream, encoding);
-}
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding, bufferSize));
 }
 inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize) {
   static auto* ___internal_method =
@@ -1210,9 +1195,6 @@ inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream, ::Syst
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream, encoding, bufferSize);
 }
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize, bool leaveOpen) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding, bufferSize, leaveOpen));
-}
 inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize, bool leaveOpen) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -1221,17 +1203,11 @@ inline void System::IO::StreamWriter::_ctor(::System::IO::Stream* stream, ::Syst
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stream, encoding, bufferSize, leaveOpen);
 }
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path));
-}
 inline void System::IO::StreamWriter::_ctor(::StringW path) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path);
-}
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append));
 }
 inline void System::IO::StreamWriter::_ctor(::StringW path, bool append) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1239,18 +1215,12 @@ inline void System::IO::StreamWriter::_ctor(::StringW path, bool append) {
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path, append);
 }
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append, encoding));
-}
 inline void System::IO::StreamWriter::_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::StreamWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path, append, encoding);
-}
-inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding, int32_t bufferSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append, encoding, bufferSize));
 }
 inline void System::IO::StreamWriter::_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding, int32_t bufferSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1428,7 +1398,6 @@ inline void System::IO::StreamWriter::set_HaveWrittenPreamble_Prop(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-/// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
 inline ::System::Threading::Tasks::Task* System::IO::StreamWriter::FlushAsyncInternal(bool flushStream, bool flushEncoder, ::ArrayW<char16_t, ::Array<char16_t>*> sCharBuffer, int32_t sCharPos,
                                                                                       ::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1455,6 +1424,33 @@ inline ::System::Threading::Tasks::Task* System::IO::StreamWriter::FlushAsyncInt
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method, _this, flushStream, flushEncoder, charBuffer, charPos, haveWrittenPreamble,
                                                                                        encoding, encoder, byteBuffer, stream, cancellationToken);
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>());
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding, bufferSize));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize, bool leaveOpen) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(stream, encoding, bufferSize, leaveOpen));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append, encoding));
+}
+inline ::System::IO::StreamWriter* System::IO::StreamWriter::New_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding, int32_t bufferSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::StreamWriter*>(path, append, encoding, bufferSize));
 }
 // Ctor Parameters []
 constexpr ::System::IO::StreamWriter::StreamWriter() {}

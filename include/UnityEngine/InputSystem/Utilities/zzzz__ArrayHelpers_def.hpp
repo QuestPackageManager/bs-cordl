@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayHelpers)
 namespace System::Collections::Generic {
@@ -30,46 +28,45 @@ namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass33_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass34_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass34_1_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class ArrayHelpers;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass33_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass33_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_0_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass34_0_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __ArrayHelpers____c__DisplayClass34_1_1;
+template <typename TValue> class ArrayHelpers___c__DisplayClass34_1_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ArrayHelpers);
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1);
-// Type: ::<>c__DisplayClass33_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1);
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1);
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_1_1);
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::ArrayHelpers::<>c__DisplayClass33_0`1<TValue>*
-class CORDL_TYPE __ArrayHelpers____c__DisplayClass33_0_1 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass33_0`1<TValue>
+class CORDL_TYPE ArrayHelpers___c__DisplayClass33_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field secondValue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_secondValue, put = __cordl_internal_set_secondValue)) TValue secondValue;
 
-  static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>* New_ctor();
+  static inline ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>* New_ctor();
 
   /// @brief Method <Merge>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Merge_b__0(TValue x);
@@ -86,45 +83,44 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ArrayHelpers____c__DisplayClass33_0_1();
+  constexpr ArrayHelpers___c__DisplayClass33_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass33_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass33_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ArrayHelpers____c__DisplayClass33_0_1(__ArrayHelpers____c__DisplayClass33_0_1&&) = delete;
+  ArrayHelpers___c__DisplayClass33_0_1(ArrayHelpers___c__DisplayClass33_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass33_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass33_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ArrayHelpers____c__DisplayClass33_0_1(__ArrayHelpers____c__DisplayClass33_0_1 const&) = delete;
+  ArrayHelpers___c__DisplayClass33_0_1(ArrayHelpers___c__DisplayClass33_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7061 };
 
   /// @brief Field secondValue, offset: 0x10, size: 0x8, def value: None
   TValue ___secondValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: ::<>c__DisplayClass34_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::ArrayHelpers::<>c__DisplayClass34_0`1<TValue>*
-class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_0_1 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass34_0`1<TValue>
+class CORDL_TYPE ArrayHelpers___c__DisplayClass34_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field comparer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer)) ::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer;
 
-  static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* New_ctor();
+  static inline ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>* New_ctor();
+
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>* const& __cordl_internal_get_comparer() const;
 
   constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>*& __cordl_internal_get_comparer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TValue>*> const& __cordl_internal_get_comparer() const;
 
   constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TValue>* value);
 
@@ -134,58 +130,57 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ArrayHelpers____c__DisplayClass34_0_1();
+  constexpr ArrayHelpers___c__DisplayClass34_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass34_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ArrayHelpers____c__DisplayClass34_0_1(__ArrayHelpers____c__DisplayClass34_0_1&&) = delete;
+  ArrayHelpers___c__DisplayClass34_0_1(ArrayHelpers___c__DisplayClass34_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass34_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ArrayHelpers____c__DisplayClass34_0_1(__ArrayHelpers____c__DisplayClass34_0_1 const&) = delete;
+  ArrayHelpers___c__DisplayClass34_0_1(ArrayHelpers___c__DisplayClass34_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7062 };
 
   /// @brief Field comparer, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TValue>* ___comparer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: ::<>c__DisplayClass34_1`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::ArrayHelpers::<>c__DisplayClass34_1`1<TValue>*
-class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_1_1 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass34_1`1<TValue>
+class CORDL_TYPE ArrayHelpers___c__DisplayClass34_1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
-                      put = __cordl_internal_set_CS$__8__locals1)) ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* CS$__8__locals1;
+                      put = __cordl_internal_set_CS$__8__locals1)) ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>* CS$__8__locals1;
 
   /// @brief Field secondValue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_secondValue, put = __cordl_internal_set_secondValue)) TValue secondValue;
 
-  static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>* New_ctor();
+  static inline ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_1_1<TValue>* New_ctor();
 
   /// @brief Method <Merge>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Merge_b__0(TValue x);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*& __cordl_internal_get_CS$__8__locals1();
+  constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>* const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*> const& __cordl_internal_get_CS$__8__locals1() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>*& __cordl_internal_get_CS$__8__locals1();
 
   constexpr TValue const& __cordl_internal_get_secondValue() const;
 
   constexpr TValue& __cordl_internal_get_secondValue();
 
-  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>* value);
 
   constexpr void __cordl_internal_set_secondValue(TValue value);
 
@@ -195,70 +190,69 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ArrayHelpers____c__DisplayClass34_1_1();
+  constexpr ArrayHelpers___c__DisplayClass34_1_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass34_1_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_1_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ArrayHelpers____c__DisplayClass34_1_1(__ArrayHelpers____c__DisplayClass34_1_1&&) = delete;
+  ArrayHelpers___c__DisplayClass34_1_1(ArrayHelpers___c__DisplayClass34_1_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayHelpers____c__DisplayClass34_1_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ArrayHelpers___c__DisplayClass34_1_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ArrayHelpers____c__DisplayClass34_1_1(__ArrayHelpers____c__DisplayClass34_1_1 const&) = delete;
+  ArrayHelpers___c__DisplayClass34_1_1(ArrayHelpers___c__DisplayClass34_1_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7063 };
 
   /// @brief Field secondValue, offset: 0x10, size: 0x8, def value: None
   TValue ___secondValue;
 
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* ___CS$__8__locals1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7038 };
+  ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>* ___CS$__8__locals1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::ArrayHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::ArrayHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.ArrayHelpers
 class CORDL_TYPE ArrayHelpers : public ::System::Object {
 public:
   // Declarations
-  template <typename TValue> using __c__DisplayClass33_0_1 = ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>;
+  template <typename TValue> using __c__DisplayClass33_0_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1<TValue>;
 
-  template <typename TValue> using __c__DisplayClass34_0_1 = ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>;
+  template <typename TValue> using __c__DisplayClass34_0_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1<TValue>;
 
-  template <typename TValue> using __c__DisplayClass34_1_1 = ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>;
-
-  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t Append(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, TValue value);
+  template <typename TValue> using __c__DisplayClass34_1_1 = ::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_1_1<TValue>;
 
   /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t Append(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::System::Collections::Generic::IEnumerable_1<TValue>* values);
+  template <typename TValue> static inline int32_t Append(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, TValue value);
+
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> static inline int32_t Append(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::System::Collections::Generic::IEnumerable_1<TValue>* values);
 
   /// @brief Method AppendListWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue, typename TValues>
-  static inline int32_t AppendListWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> length, TValues values, int32_t capacityIncrement);
+  static inline int32_t AppendListWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ByRef<int32_t> length, TValues values, int32_t capacityIncrement);
 
   /// @brief Method AppendToImmutable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t AppendToImmutable(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ArrayW<TValue, ::Array<TValue>*> values);
+  template <typename TValue> static inline int32_t AppendToImmutable(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ArrayW<TValue, ::Array<TValue>*> values);
 
   /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t AppendWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement);
+  template <typename TValue> static inline int32_t AppendWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ByRef<int32_t> count, TValue value, int32_t capacityIncrement);
 
   /// @brief Method AppendWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline int32_t AppendWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, TValue value, int32_t capacityIncrement,
+  static inline int32_t AppendWithCapacity(::ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ::ByRef<int32_t> count, TValue value, int32_t capacityIncrement,
                                            ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void Clear(::ArrayW<TValue, ::Array<TValue>*> array);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void Clear(::ArrayW<TValue, ::Array<TValue>*> array, ByRef<int32_t> count);
+  template <typename TValue> static inline void Clear(::ArrayW<TValue, ::Array<TValue>*> array, ::ByRef<int32_t> count);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void Clear(::ArrayW<TValue, ::Array<TValue>*> array, int32_t count);
@@ -282,41 +276,41 @@ public:
   template <typename TValue> static inline ::ArrayW<TValue, ::Array<TValue>*> Copy(::ArrayW<TValue, ::Array<TValue>*> array);
 
   /// @brief Method DuplicateWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void DuplicateWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
+  template <typename TValue> static inline void DuplicateWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
 
   /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EnsureCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
+  template <typename TValue> static inline void EnsureCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count, int32_t capacity, int32_t capacityIncrement);
 
   /// @brief Method Erase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline bool Erase(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, TValue value);
+  template <typename TValue> static inline bool Erase(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, TValue value);
 
   /// @brief Method EraseAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EraseAt(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index);
+  template <typename TValue> static inline void EraseAt(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index);
 
   /// @brief Method EraseAtByMovingTail, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EraseAtByMovingTail(::ArrayW<TValue, ::Array<TValue>*> array, ByRef<int32_t> count, int32_t index);
+  template <typename TValue> static inline void EraseAtByMovingTail(::ArrayW<TValue, ::Array<TValue>*> array, ::ByRef<int32_t> count, int32_t index);
 
   /// @brief Method EraseAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EraseAtWithCapacity(::ArrayW<TValue, ::Array<TValue>*> array, ByRef<int32_t> count, int32_t index);
+  template <typename TValue> static inline void EraseAtWithCapacity(::ArrayW<TValue, ::Array<TValue>*> array, ::ByRef<int32_t> count, int32_t index);
 
   /// @brief Method EraseAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EraseAtWithCapacity(::Unity::Collections::NativeArray_1<TValue> array, ByRef<int32_t> count, int32_t index);
+  template <typename TValue> static inline void EraseAtWithCapacity(::Unity::Collections::NativeArray_1<TValue> array, ::ByRef<int32_t> count, int32_t index);
 
   /// @brief Method EraseSliceWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void EraseSliceWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> length, int32_t index, int32_t count);
+  template <typename TValue> static inline void EraseSliceWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ByRef<int32_t> length, int32_t index, int32_t count);
 
   /// @brief Method GrowBy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t GrowBy(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count);
+  template <typename TValue> static inline int32_t GrowBy(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t count);
 
   /// @brief Method GrowBy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t GrowBy(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t count, ::Unity::Collections::Allocator allocator);
+  template <typename TValue> static inline int32_t GrowBy(::ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t count, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GrowWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline int32_t GrowWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement);
+  template <typename TValue> static inline int32_t GrowWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement);
 
   /// @brief Method GrowWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
-  static inline int32_t GrowWithCapacity(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement,
+  static inline int32_t GrowWithCapacity(::ByRef<::Unity::Collections::NativeArray_1<TValue>> array, ::ByRef<int32_t> count, int32_t growBy, int32_t capacityIncrement,
                                          ::Unity::Collections::Allocator allocator);
 
   /// @brief Method HaveDuplicateReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -344,10 +338,10 @@ public:
   template <typename TValue> static inline int32_t IndexOfValue(::ArrayW<TValue, ::Array<TValue>*> array, TValue value, int32_t startIndex, int32_t count);
 
   /// @brief Method InsertAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void InsertAt(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, TValue value);
+  template <typename TValue> static inline void InsertAt(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, TValue value);
 
   /// @brief Method InsertAtWithCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void InsertAtWithCapacity(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ByRef<int32_t> count, int32_t index, TValue value, int32_t capacityIncrement);
+  template <typename TValue> static inline void InsertAtWithCapacity(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, ::ByRef<int32_t> count, int32_t index, TValue value, int32_t capacityIncrement);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::ArrayW<TValue, ::Array<TValue>*> Join(TValue value, ::ArrayW<TValue, ::Array<TValue>*> values);
@@ -367,16 +361,16 @@ public:
   template <typename TValue> static inline void MoveSlice(::ArrayW<TValue, ::Array<TValue>*> array, int32_t sourceIndex, int32_t destinationIndex, int32_t count);
 
   /// @brief Method PutAtIfNotSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void PutAtIfNotSet(ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, ::System::Func_1<TValue>* valueFn);
+  template <typename TValue> static inline void PutAtIfNotSet(::ByRef<::ArrayW<TValue, ::Array<TValue>*>> array, int32_t index, ::System::Func_1<TValue>* valueFn);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void Resize(ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t newSize, ::Unity::Collections::Allocator allocator);
+  template <typename TValue> static inline void Resize(::ByRef<::Unity::Collections::NativeArray_1<TValue>> array, int32_t newSize, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TOld, typename TNew> static inline ::ArrayW<TNew, ::Array<TNew>*> Select(::ArrayW<TOld, ::Array<TOld>*> array, ::System::Func_2<TOld, TNew>* converter);
 
   /// @brief Method Swap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TValue> static inline void Swap(ByRef<TValue> first, ByRef<TValue> second);
+  template <typename TValue> static inline void Swap(::ByRef<TValue> first, ::ByRef<TValue> second);
 
   /// @brief Method SwapElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline void SwapElements(::ArrayW<TValue, ::Array<TValue>*> array, int32_t index1, int32_t index2);
@@ -399,7 +393,7 @@ public:
   ArrayHelpers(ArrayHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -409,6 +403,6 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 } // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::ArrayHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::ArrayHelpers*, "UnityEngine.InputSystem.Utilities", "ArrayHelpers");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass33_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_1`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass33_0_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass33_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_0_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::ArrayHelpers___c__DisplayClass34_1_1, "UnityEngine.InputSystem.Utilities", "ArrayHelpers/<>c__DisplayClass34_1`1");

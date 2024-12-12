@@ -18,11 +18,10 @@ class BinaryObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObject);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObject*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryObject
 class CORDL_TYPE BinaryObject : public ::System::Object {
 public:
   // Declarations
@@ -32,18 +31,18 @@ public:
   /// @brief Field objectId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
-  /// @brief Method Dump, addr 0x3c9f610, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3cff784, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
 
-  /// @brief Method Read, addr 0x3c9f5cc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3cff740, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3c9f554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3cff6c8, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t mapId);
 
-  /// @brief Method Write, addr 0x3c9f55c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x3cff6d0, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_mapId() const;
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c9f54c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cff6c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryObject(BinaryObject const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3261 };
+
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;
 
   /// @brief Field mapId, offset: 0x14, size: 0x4, def value: None
   int32_t ___mapId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3261 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryObject, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObject, ___objectId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryObject, ___mapId) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryObject, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryObject);

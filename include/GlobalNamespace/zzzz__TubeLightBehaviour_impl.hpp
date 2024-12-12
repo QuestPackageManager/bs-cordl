@@ -11,20 +11,20 @@
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType::__TubeLightBehaviour__ParameterType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::TubeLightBehaviour_ParameterType::TubeLightBehaviour_ParameterType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType::__TubeLightBehaviour__ParameterType() {}
-constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType GlobalNamespace::__TubeLightBehaviour__ParameterType::Values{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__TubeLightBehaviour__ParameterType GlobalNamespace::__TubeLightBehaviour__ParameterType::References{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::TubeLightBehaviour_ParameterType::TubeLightBehaviour_ParameterType() {}
+constexpr ::GlobalNamespace::TubeLightBehaviour_ParameterType GlobalNamespace::TubeLightBehaviour_ParameterType::Values{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::TubeLightBehaviour_ParameterType GlobalNamespace::TubeLightBehaviour_ParameterType::References{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::TubeLightBehaviour.ProcessFrame
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TubeLightBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x3ad4ff4;
+  constexpr static std::size_t addrs = 0x3b34638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TubeLightBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ad5400;
+  constexpr static std::size_t addrs = 0x3b34a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightBehaviour::*)()>(&::GlobalNamespace::TubeLightBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad54cc;
+  constexpr static std::size_t addrs = 0x3b34b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), ".ctor",
@@ -197,13 +197,13 @@ inline void GlobalNamespace::TubeLightBehaviour::OnPlayableDestroy(::UnityEngine
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable);
 }
-inline ::GlobalNamespace::TubeLightBehaviour* GlobalNamespace::TubeLightBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TubeLightBehaviour*>());
-}
 inline void GlobalNamespace::TubeLightBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightBehaviour*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TubeLightBehaviour* GlobalNamespace::TubeLightBehaviour::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TubeLightBehaviour*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TubeLightBehaviour::TubeLightBehaviour() {}

@@ -11,17 +11,16 @@ class XboxOneGamepadAndroid;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);
-// Type: UnityEngine.InputSystem.Android::XboxOneGamepadAndroid
-// SizeInfo { instance_size: 528, native_size: -1, calculated_instance_size: 528, calculated_native_size: 524, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.XInput.XInputController
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::XboxOneGamepadAndroid*
+// CS Name: UnityEngine.InputSystem.Android.XboxOneGamepadAndroid
 class CORDL_TYPE XboxOneGamepadAndroid : public ::UnityEngine::InputSystem::XInput::XInputController {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XboxOneGamepadAndroid(XboxOneGamepadAndroid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6836 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

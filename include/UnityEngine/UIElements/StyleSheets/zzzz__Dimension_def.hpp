@@ -3,20 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/StyleSheets/zzzz__Dimension_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dimension)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements::StyleSheets {
-struct __Dimension__Unit;
+struct Dimension_Unit;
 }
 namespace UnityEngine::UIElements {
 struct Angle;
@@ -29,26 +26,25 @@ struct TimeValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
-struct __Dimension__Unit;
+struct Dimension_Unit;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct Dimension;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit);
+MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Dimension_Unit);
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Dimension);
-// Type: ::Unit
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::Dimension::Unit
-struct CORDL_TYPE __Dimension__Unit {
+// CS Name: UnityEngine.UIElements.StyleSheets.Dimension/Unit
+struct CORDL_TYPE Dimension_Unit {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____Dimension__Unit_Unwrapped
-  enum struct ____Dimension__Unit_Unwrapped : int32_t {
+  /// @brief Nested struct __Dimension_Unit_Unwrapped
+  enum struct __Dimension_Unit_Unwrapped : int32_t {
     __E_Unitless = static_cast<int32_t>(0x0),
     __E_Pixel = static_cast<int32_t>(0x1),
     __E_Percent = static_cast<int32_t>(0x2),
@@ -61,8 +57,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____Dimension__Unit_Unwrapped() const noexcept {
-    return static_cast<____Dimension__Unit_Unwrapped>(this->value__);
+  constexpr operator __Dimension_Unit_Unwrapped() const noexcept {
+    return static_cast<__Dimension_Unit_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -72,127 +68,126 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Dimension__Unit();
+  constexpr Dimension_Unit();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Dimension__Unit(int32_t value__) noexcept;
+  constexpr Dimension_Unit(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Degree value: I32(5)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Degree;
 
-  /// @brief Field Degree value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Degree;
+  /// @brief Field Gradian value: I32(6)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Gradian;
 
-  /// @brief Field Gradian value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Gradian;
+  /// @brief Field Millisecond value: I32(4)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Millisecond;
 
-  /// @brief Field Millisecond value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Millisecond;
+  /// @brief Field Percent value: I32(2)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Percent;
 
-  /// @brief Field Percent value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Percent;
+  /// @brief Field Pixel value: I32(1)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Pixel;
 
-  /// @brief Field Pixel value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Pixel;
+  /// @brief Field Radian value: I32(7)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Radian;
 
-  /// @brief Field Radian value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Radian;
+  /// @brief Field Second value: I32(3)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Second;
 
-  /// @brief Field Second value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Second;
+  /// @brief Field Turn value: I32(8)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Turn;
 
-  /// @brief Field Turn value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Turn;
-
-  /// @brief Field Unitless value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit const Unitless;
+  /// @brief Field Unitless value: I32(0)
+  static ::UnityEngine::UIElements::StyleSheets::Dimension_Unit const Unitless;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6445 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::__Dimension__Unit, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Dimension_Unit, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Dimension_Unit, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
-// Type: UnityEngine.UIElements.StyleSheets::Dimension
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.StyleSheets.Dimension::Unit
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets::Dimension
+// CS Name: UnityEngine.UIElements.StyleSheets.Dimension
 struct CORDL_TYPE Dimension {
 public:
   // Declarations
-  using Unit = ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit;
+  using Unit = ::UnityEngine::UIElements::StyleSheets::Dimension_Unit;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
 
-  /// @brief Method Equals, addr 0x496e9e0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x49d32f0, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x496e9b8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49d32c8, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::Dimension other);
 
-  /// @brief Method GetHashCode, addr 0x496ea6c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x49d337c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToAngle, addr 0x496e904, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToAngle, addr 0x49d3214, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ToAngle();
 
-  /// @brief Method ToLength, addr 0x4969b88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToLength, addr 0x49ce498, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ToLength();
 
-  /// @brief Method ToString, addr 0x496eab4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x49d33c4, size 0x134, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToTime, addr 0x496e8d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ToTime, addr 0x49d31e4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ToTime();
 
-  /// @brief Method .ctor, addr 0x496e8c8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit);
+  /// @brief Method .ctor, addr 0x49d31d8, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>* i___System__IEquatable_1___UnityEngine__UIElements__StyleSheets__Dimension_();
 
-  /// @brief Method op_Equality, addr 0x496e990, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x49d32a0, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Dimension();
 
-  // Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::__Dimension__Unit", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers:
-  // "", def_value: None }]
-  constexpr Dimension(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit, float_t value) noexcept;
-
-  /// @brief Field unit, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit;
-
-  /// @brief Field value, offset: 0x4, size: 0x4, def value: None
-  float_t value;
+  // Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::Dimension_Unit", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "",
+  // def_value: None }]
+  constexpr Dimension(::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit, float_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6421 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field unit, offset: 0x0, size: 0x4, def value: None
+  ::UnityEngine::UIElements::StyleSheets::Dimension_Unit unit;
+
+  /// @brief Field value, offset: 0x4, size: 0x4, def value: None
+  float_t value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Dimension, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Dimension, unit) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Dimension, value) == 0x4, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Dimension, 0x8>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements::StyleSheets
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit, "UnityEngine.UIElements.StyleSheets", "Dimension/Unit");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Dimension_Unit, "UnityEngine.UIElements.StyleSheets", "Dimension/Unit");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Dimension, "UnityEngine.UIElements.StyleSheets", "Dimension");

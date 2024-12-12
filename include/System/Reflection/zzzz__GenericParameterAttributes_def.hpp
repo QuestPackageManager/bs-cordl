@@ -12,11 +12,10 @@ struct GenericParameterAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::GenericParameterAttributes);
-// Type: System.Reflection::GenericParameterAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::GenericParameterAttributes
+// CS Name: System.Reflection.GenericParameterAttributes
 struct CORDL_TYPE GenericParameterAttributes {
 public:
   // Declarations
@@ -51,31 +50,28 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GenericParameterAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Contravariant value: static_cast<int32_t>(0x2)
+  /// @brief Field Contravariant value: I32(2)
   static ::System::Reflection::GenericParameterAttributes const Contravariant;
 
-  /// @brief Field Covariant value: static_cast<int32_t>(0x1)
+  /// @brief Field Covariant value: I32(1)
   static ::System::Reflection::GenericParameterAttributes const Covariant;
 
-  /// @brief Field DefaultConstructorConstraint value: static_cast<int32_t>(0x10)
+  /// @brief Field DefaultConstructorConstraint value: I32(16)
   static ::System::Reflection::GenericParameterAttributes const DefaultConstructorConstraint;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Reflection::GenericParameterAttributes const None;
 
-  /// @brief Field NotNullableValueTypeConstraint value: static_cast<int32_t>(0x8)
+  /// @brief Field NotNullableValueTypeConstraint value: I32(8)
   static ::System::Reflection::GenericParameterAttributes const NotNullableValueTypeConstraint;
 
-  /// @brief Field ReferenceTypeConstraint value: static_cast<int32_t>(0x4)
+  /// @brief Field ReferenceTypeConstraint value: I32(4)
   static ::System::Reflection::GenericParameterAttributes const ReferenceTypeConstraint;
 
-  /// @brief Field SpecialConstraintMask value: static_cast<int32_t>(0x1c)
+  /// @brief Field SpecialConstraintMask value: I32(28)
   static ::System::Reflection::GenericParameterAttributes const SpecialConstraintMask;
 
-  /// @brief Field VarianceMask value: static_cast<int32_t>(0x3)
+  /// @brief Field VarianceMask value: I32(3)
   static ::System::Reflection::GenericParameterAttributes const VarianceMask;
 
   /// @brief IL2CPP Metadata Type Index
@@ -84,12 +80,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::GenericParameterAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::GenericParameterAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::GenericParameterAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::GenericParameterAttributes, "System.Reflection", "GenericParameterAttributes");

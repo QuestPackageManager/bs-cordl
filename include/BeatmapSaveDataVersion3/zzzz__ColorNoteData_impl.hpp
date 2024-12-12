@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ColorNoteData::*)()>(&::BeatmapSaveDataVersion3::ColorNoteData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4b1c;
+  constexpr static std::size_t addrs = 0x270648c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorNoteData*>::get(), "get_line",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ColorNoteData::*)()>(&::BeatmapSaveDataVersion3::ColorNoteData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4b24;
+  constexpr static std::size_t addrs = 0x2706494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorNoteData*>::get(), "get_layer",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ColorNoteData::*)()>(
     &::BeatmapSaveDataVersion3::ColorNoteData::get_angleOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4b2c;
+  constexpr static std::size_t addrs = 0x270649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorNoteData*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteColorType (::BeatmapSaveDataVersion3::ColorNoteData::*)()>(
     &::BeatmapSaveDataVersion3::ColorNoteData::get_color)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4b34;
+  constexpr static std::size_t addrs = 0x27064a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorNoteData*>::get(), "get_color",
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteCutDirection (::BeatmapSaveDataVersion3::ColorNoteData::*)()>(
     &::BeatmapSaveDataVersion3::ColorNoteData::get_cutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4b3c;
+  constexpr static std::size_t addrs = 0x27064ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorNoteData*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::ColorNoteData::*)(
     float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::NoteColorType, ::BeatmapSaveDataCommon::NoteCutDirection, int32_t)>(&::BeatmapSaveDataVersion3::ColorNoteData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26d4b44;
+  constexpr static std::size_t addrs = 0x27064b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,10 +177,6 @@ inline ::BeatmapSaveDataCommon::NoteCutDirection BeatmapSaveDataVersion3::ColorN
                                                                              "get_cutDirection", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataCommon::NoteCutDirection, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::ColorNoteData* BeatmapSaveDataVersion3::ColorNoteData::New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color,
-                                                                                                  ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::ColorNoteData*>(beat, line, layer, color, cutDirection, angleOffset));
-}
 inline void BeatmapSaveDataVersion3::ColorNoteData::_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color,
                                                           ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,6 +186,10 @@ inline void BeatmapSaveDataVersion3::ColorNoteData::_ctor(float_t beat, int32_t 
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::NoteColorType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::NoteCutDirection>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, line, layer, color, cutDirection, angleOffset);
+}
+inline ::BeatmapSaveDataVersion3::ColorNoteData* BeatmapSaveDataVersion3::ColorNoteData::New_ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::NoteColorType color,
+                                                                                                  ::BeatmapSaveDataCommon::NoteCutDirection cutDirection, int32_t angleOffset) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::ColorNoteData*>(beat, line, layer, color, cutDirection, angleOffset));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::ColorNoteData::ColorNoteData() {}

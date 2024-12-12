@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)()>(&::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43e4e3c;
+  constexpr static std::size_t addrs = 0x4446150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(
     &::System::ComponentModel::DisplayNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e4e98;
+  constexpr static std::size_t addrs = 0x44461ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::get_DisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e4ec0;
+  constexpr static std::size_t addrs = 0x44461d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::get_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e4ec8;
+  constexpr static std::size_t addrs = 0x44461dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DisplayNameAttribute::*)(::StringW)>(
     &::System::ComponentModel::DisplayNameAttribute::set_DisplayNameValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e4ed0;
+  constexpr static std::size_t addrs = 0x44461e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DisplayNameAttribute::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x43e4ed8;
+  constexpr static std::size_t addrs = 0x44461ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e4fa4;
+  constexpr static std::size_t addrs = 0x44462b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DisplayNameAttribute::*)()>(
     &::System::ComponentModel::DisplayNameAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43e4fcc;
+  constexpr static std::size_t addrs = 0x44462e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,16 +145,10 @@ inline ::System::ComponentModel::DisplayNameAttribute* System::ComponentModel::D
   return ::cordl_internals::getStaticField<::System::ComponentModel::DisplayNameAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get>();
 }
-inline ::System::ComponentModel::DisplayNameAttribute* System::ComponentModel::DisplayNameAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DisplayNameAttribute*>());
-}
 inline void System::ComponentModel::DisplayNameAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::ComponentModel::DisplayNameAttribute* System::ComponentModel::DisplayNameAttribute::New_ctor(::StringW displayName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DisplayNameAttribute*>(displayName));
 }
 inline void System::ComponentModel::DisplayNameAttribute::_ctor(::StringW displayName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -192,6 +186,12 @@ inline bool System::ComponentModel::DisplayNameAttribute::IsDefaultAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DisplayNameAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::DisplayNameAttribute* System::ComponentModel::DisplayNameAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DisplayNameAttribute*>());
+}
+inline ::System::ComponentModel::DisplayNameAttribute* System::ComponentModel::DisplayNameAttribute::New_ctor(::StringW displayName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DisplayNameAttribute*>(displayName));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::DisplayNameAttribute::DisplayNameAttribute() {}

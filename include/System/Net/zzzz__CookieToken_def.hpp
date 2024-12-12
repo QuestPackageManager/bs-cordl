@@ -12,11 +12,10 @@ struct CookieToken;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::CookieToken);
-// Type: System.Net::CookieToken
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::CookieToken
+// CS Name: System.Net.CookieToken
 struct CORDL_TYPE CookieToken {
 public:
   // Declarations
@@ -63,81 +62,81 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CookieToken(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Attribute value: static_cast<int32_t>(0x2)
+  /// @brief Field Attribute value: I32(2)
   static ::System::Net::CookieToken const Attribute;
 
-  /// @brief Field Comment value: static_cast<int32_t>(0x7)
+  /// @brief Field Comment value: I32(7)
   static ::System::Net::CookieToken const Comment;
 
-  /// @brief Field CommentUrl value: static_cast<int32_t>(0x8)
+  /// @brief Field CommentUrl value: I32(8)
   static ::System::Net::CookieToken const CommentUrl;
 
-  /// @brief Field CookieName value: static_cast<int32_t>(0x9)
+  /// @brief Field CookieName value: I32(9)
   static ::System::Net::CookieToken const CookieName;
 
-  /// @brief Field Discard value: static_cast<int32_t>(0xa)
+  /// @brief Field Discard value: I32(10)
   static ::System::Net::CookieToken const Discard;
 
-  /// @brief Field Domain value: static_cast<int32_t>(0xb)
+  /// @brief Field Domain value: I32(11)
   static ::System::Net::CookieToken const Domain;
 
-  /// @brief Field End value: static_cast<int32_t>(0x5)
+  /// @brief Field End value: I32(5)
   static ::System::Net::CookieToken const End;
 
-  /// @brief Field EndCookie value: static_cast<int32_t>(0x4)
+  /// @brief Field EndCookie value: I32(4)
   static ::System::Net::CookieToken const EndCookie;
 
-  /// @brief Field EndToken value: static_cast<int32_t>(0x3)
+  /// @brief Field EndToken value: I32(3)
   static ::System::Net::CookieToken const EndToken;
 
-  /// @brief Field Equals value: static_cast<int32_t>(0x6)
+  /// @brief Field Equals value: I32(6)
   static ::System::Net::CookieToken const Equals;
 
-  /// @brief Field Expires value: static_cast<int32_t>(0xc)
+  /// @brief Field Expires value: I32(12)
   static ::System::Net::CookieToken const Expires;
 
-  /// @brief Field HttpOnly value: static_cast<int32_t>(0x11)
+  /// @brief Field HttpOnly value: I32(17)
   static ::System::Net::CookieToken const HttpOnly;
 
-  /// @brief Field MaxAge value: static_cast<int32_t>(0xd)
+  /// @brief Field MaxAge value: I32(13)
   static ::System::Net::CookieToken const MaxAge;
 
-  /// @brief Field NameValuePair value: static_cast<int32_t>(0x1)
+  /// @brief Field NameValuePair value: I32(1)
   static ::System::Net::CookieToken const NameValuePair;
 
-  /// @brief Field Nothing value: static_cast<int32_t>(0x0)
+  /// @brief Field Nothing value: I32(0)
   static ::System::Net::CookieToken const Nothing;
 
-  /// @brief Field Path value: static_cast<int32_t>(0xe)
+  /// @brief Field Path value: I32(14)
   static ::System::Net::CookieToken const Path;
 
-  /// @brief Field Port value: static_cast<int32_t>(0xf)
+  /// @brief Field Port value: I32(15)
   static ::System::Net::CookieToken const Port;
 
-  /// @brief Field Secure value: static_cast<int32_t>(0x10)
+  /// @brief Field Secure value: I32(16)
   static ::System::Net::CookieToken const Secure;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x12)
+  /// @brief Field Unknown value: I32(18)
   static ::System::Net::CookieToken const Unknown;
 
-  /// @brief Field Version value: static_cast<int32_t>(0x13)
+  /// @brief Field Version value: I32(19)
   static ::System::Net::CookieToken const Version;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9612 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9637 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::CookieToken, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::CookieToken, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::CookieToken, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CookieToken, "System.Net", "CookieToken");

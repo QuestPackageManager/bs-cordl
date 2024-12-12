@@ -12,11 +12,10 @@ class TypeEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::TypeEntry);
-// Type: System.Runtime.Remoting::TypeEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::TypeEntry*
+// CS Name: System.Runtime.Remoting.TypeEntry
 class CORDL_TYPE TypeEntry : public ::System::Object {
 public:
   // Declarations
@@ -44,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set_type_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c75eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cd6060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssemblyName, addr 0x3c75ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssemblyName, addr 0x3cd6068, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method get_TypeName, addr 0x3c75f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x3cd6078, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method set_AssemblyName, addr 0x3c75efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssemblyName, addr 0x3cd6070, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyName(::StringW value);
 
-  /// @brief Method set_TypeName, addr 0x3c75f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeName, addr 0x3cd6080, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeName(::StringW value);
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeEntry(TypeEntry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3078 };
+
   /// @brief Field assembly_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___assembly_name;
 
   /// @brief Field type_name, offset: 0x18, size: 0x8, def value: None
   ::StringW ___type_name;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3078 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::TypeEntry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::TypeEntry, ___assembly_name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::TypeEntry, ___type_name) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::TypeEntry, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::TypeEntry);

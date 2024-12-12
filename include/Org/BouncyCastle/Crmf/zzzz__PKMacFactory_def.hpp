@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PKMacFactory)
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PbmParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacFactory;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
@@ -25,11 +22,10 @@ class PKMacFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacFactory);
-// Type: Org.BouncyCastle.Crmf::PKMacFactory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IMacFactory, System.Object
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crmf::PKMacFactory*
+// CS Name: Org.BouncyCastle.Crmf.PKMacFactory
 class CORDL_TYPE PKMacFactory : public ::System::Object {
 public:
   // Declarations
@@ -44,7 +40,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x2650ea0, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method CreateCalculator, addr 0x268418c, size 0x16c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
@@ -53,18 +49,18 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __cordl_internal_get_parameters();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& __cordl_internal_get_parameters() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __cordl_internal_get_parameters();
 
   constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
 
-  /// @brief Method .ctor, addr 0x2650d90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268407c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x2650e0c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmDetails, addr 0x26840f8, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMacFactory"
@@ -84,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PKMacFactory(PKMacFactory const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 708 };
+
   /// @brief Field parameters, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* ___parameters;
 
   /// @brief Field key, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___key;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 708 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PKMacFactory, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacFactory, ___parameters) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crmf::PKMacFactory, ___key) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PKMacFactory, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::PKMacFactory);

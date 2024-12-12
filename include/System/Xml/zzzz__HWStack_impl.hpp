@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/HWStack.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__HWStack_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::HWStack._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e7ba0;
+  constexpr static std::size_t addrs = 0x4348eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42e7ba8;
+  constexpr static std::size_t addrs = 0x4348ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Push)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x42e7c1c;
+  constexpr static std::size_t addrs = 0x4348f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Push",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x42e7d54;
+  constexpr static std::size_t addrs = 0x4349068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Pop",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Peek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42e7d9c;
+  constexpr static std::size_t addrs = 0x43490b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Peek",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(::System::Object*)>(&::System::Xml::HWStack::AddToTop)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42e7de0;
+  constexpr static std::size_t addrs = 0x43490f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::get_Item)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42e7e4c;
+  constexpr static std::size_t addrs = 0x4349160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t, ::System::Object*)>(&::System::Xml::HWStack::set_Item)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x42e7ec0;
+  constexpr static std::size_t addrs = 0x43491d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e7f68;
+  constexpr static std::size_t addrs = 0x434927c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "get_Length",
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::HWStack::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>, int32_t, int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42e7f70;
+  constexpr static std::size_t addrs = 0x4349284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Clone)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x42e7fb4;
+  constexpr static std::size_t addrs = 0x43492c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Clone",
@@ -156,14 +156,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Xml::HWStack::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Xml::HWStack::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Xml::HWStack::__cordl_internal_get_stack() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
@@ -224,17 +216,11 @@ constexpr void System::Xml::HWStack::__cordl_internal_set_limit(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___limit = value;
 }
-inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(int32_t GrowthRate) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(GrowthRate));
-}
 inline void System::Xml::HWStack::_ctor(int32_t GrowthRate) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, GrowthRate);
-}
-inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(int32_t GrowthRate, int32_t limit) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(GrowthRate, limit));
 }
 inline void System::Xml::HWStack::_ctor(int32_t GrowthRate, int32_t limit) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,9 +266,6 @@ inline int32_t System::Xml::HWStack::get_Length() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(stack, growthRate, used, size));
-}
 inline void System::Xml::HWStack::_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -295,6 +278,23 @@ inline ::System::Object* System::Xml::HWStack::Clone() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Clone",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(int32_t GrowthRate) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(GrowthRate));
+}
+inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(int32_t GrowthRate, int32_t limit) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(GrowthRate, limit));
+}
+inline ::System::Xml::HWStack* System::Xml::HWStack::New_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::HWStack*>(stack, growthRate, used, size));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Xml::HWStack::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Xml::HWStack::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::HWStack::HWStack() {}

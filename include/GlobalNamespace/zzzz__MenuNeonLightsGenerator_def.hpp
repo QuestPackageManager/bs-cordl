@@ -20,11 +20,10 @@ class MenuNeonLightsGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuNeonLightsGenerator);
-// Type: ::MenuNeonLightsGenerator
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MenuNeonLightsGenerator*
+// CS Name: MenuNeonLightsGenerator
 class CORDL_TYPE MenuNeonLightsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -78,17 +77,17 @@ public:
 
   constexpr bool& __cordl_internal_get__generate();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__intensityCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__intensityCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__intensityCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__intensityCurve();
 
   constexpr float_t const& __cordl_internal_get__intensityMultiplier() const;
 
   constexpr float_t& __cordl_internal_get__intensityMultiplier();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lengthCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__lengthCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__lengthCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lengthCurve();
 
   constexpr float_t const& __cordl_internal_get__lengthMultiplier() const;
 
@@ -106,9 +105,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__radius();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__widthCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__widthCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__widthCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__widthCurve();
 
   constexpr float_t const& __cordl_internal_get__widthMultiplier() const;
 
@@ -138,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__widthMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7f2bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad79e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,6 +153,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MenuNeonLightsGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MenuNeonLightsGenerator(MenuNeonLightsGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4046 };
 
   /// @brief Field _generate, offset: 0x20, size: 0x1, def value: None
   bool ____generate;
@@ -191,14 +193,9 @@ public:
   /// @brief Field _afterSpawnRotation, offset: 0x68, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____afterSpawnRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4036 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuNeonLightsGenerator, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____generate) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____radius) == 0x24, "Offset mismatch!");
@@ -222,6 +219,8 @@ static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____widthMult
 static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____neonLightPrefab) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MenuNeonLightsGenerator, ____afterSpawnRotation) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuNeonLightsGenerator, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuNeonLightsGenerator);

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IContainer)
 namespace System::ComponentModel {
 class ComponentCollection;
@@ -10,20 +11,16 @@ class ComponentCollection;
 namespace System::ComponentModel {
 class IComponent;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace System::ComponentModel {
 class IContainer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::IContainer);
-// Type: System.ComponentModel::IContainer
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::IContainer*
+// CS Name: System.ComponentModel.IContainer
 class CORDL_TYPE IContainer {
 public:
   // Declarations
@@ -32,25 +29,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Remove, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Remove(::System::ComponentModel::IComponent* component);
 
-  /// @brief Method get_Components, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Components, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ComponentCollection* get_Components();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IContainer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IContainer(IContainer&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IContainer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IContainer(IContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

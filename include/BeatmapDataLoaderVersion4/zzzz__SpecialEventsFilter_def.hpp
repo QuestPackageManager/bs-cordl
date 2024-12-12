@@ -23,11 +23,10 @@ class SpecialEventsFilter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::SpecialEventsFilter);
-// Type: BeatmapDataLoaderVersion4::SpecialEventsFilter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::SpecialEventsFilter*
+// CS Name: BeatmapDataLoaderVersion4.SpecialEventsFilter
 class CORDL_TYPE SpecialEventsFilter : public ::System::Object {
 public:
   // Declarations
@@ -35,19 +34,19 @@ public:
   __declspec(property(get = __cordl_internal_get__eventTypesToFilter,
                       put = __cordl_internal_set__eventTypesToFilter)) ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* _eventTypesToFilter;
 
-  /// @brief Method IsEventValid, addr 0x26d88dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsEventValid, addr 0x270a498, size 0x64, virtual false, abstract: false, final false
   inline bool IsEventValid(::BeatmapSaveDataCommon::BeatmapEventType basicBeatmapEventType);
 
   static inline ::BeatmapDataLoaderVersion4::SpecialEventsFilter* New_ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords,
                                                                            ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*& __cordl_internal_get__eventTypesToFilter();
+  constexpr ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* const& __cordl_internal_get__eventTypesToFilter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*> const& __cordl_internal_get__eventTypesToFilter() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>*& __cordl_internal_get__eventTypesToFilter();
 
   constexpr void __cordl_internal_set__eventTypesToFilter(::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x26d7eb4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2709a74, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, ::GlobalNamespace::EnvironmentKeywords* environmentKeywords);
 
 protected:
@@ -64,18 +63,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpecialEventsFilter(SpecialEventsFilter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13481 };
+
   /// @brief Field _eventTypesToFilter, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____eventTypesToFilter;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::SpecialEventsFilter, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapDataLoaderVersion4::SpecialEventsFilter, ____eventTypesToFilter) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::SpecialEventsFilter, 0x18>, "Size mismatch!");
 
 } // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::SpecialEventsFilter);

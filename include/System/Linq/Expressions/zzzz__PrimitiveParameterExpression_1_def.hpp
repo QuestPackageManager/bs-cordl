@@ -15,13 +15,12 @@ template <typename T> class PrimitiveParameterExpression_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::PrimitiveParameterExpression_1);
-// Type: System.Linq.Expressions::PrimitiveParameterExpression`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.ParameterExpression
 namespace System::Linq::Expressions {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::PrimitiveParameterExpression`1<T>*
+// CS Name: System.Linq.Expressions.PrimitiveParameterExpression`1<T>
 class CORDL_TYPE PrimitiveParameterExpression_1 : public ::System::Linq::Expressions::ParameterExpression {
 public:
   // Declarations
@@ -50,7 +49,7 @@ public:
   PrimitiveParameterExpression_1(PrimitiveParameterExpression_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

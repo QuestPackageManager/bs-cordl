@@ -13,126 +13,123 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner._ctor
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::*)(
-    ::System::Threading::ExecutionContext*, ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::*)(
+    ::System::Threading::ExecutionContext*, ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3cb8e04;
+  constexpr static std::size_t addrs = 0x3d18f78;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner.Run
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner.Run
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::*)()>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::Run)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::*)()>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::Run)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3cb9228;
+  constexpr static std::size_t addrs = 0x3d1939c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), "Run",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), "Run",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner.InvokeMoveNext
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner.InvokeMoveNext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::InvokeMoveNext)> {
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::InvokeMoveNext)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3cb9428;
+  constexpr static std::size_t addrs = 0x3d1959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), "InvokeMoveNext",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), "InvokeMoveNext",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::ExecutionContext*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_get_m_context() {
+constexpr ::System::Threading::ExecutionContext*& System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_get_m_context() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const&
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_get_m_context() const {
+constexpr ::System::Threading::ExecutionContext* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_get_m_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_context;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_set_m_context(::System::Threading::ExecutionContext* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_set_m_context(::System::Threading::ExecutionContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_get_m_stateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*& System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_get_m_stateMachine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateMachine;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::IAsyncStateMachine*> const&
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_get_m_stateMachine() const {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_get_m_stateMachine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_stateMachine;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__cordl_internal_set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::__cordl_internal_set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_stateMachine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::setStaticF_s_invokeMoveNext(::System::Threading::ContextCallback* value) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::setStaticF_s_invokeMoveNext(::System::Threading::ContextCallback* value) {
   ::cordl_internals::setStaticField<::System::Threading::ContextCallback*, "s_invokeMoveNext",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get>(
       std::forward<::System::Threading::ContextCallback*>(value));
 }
-inline ::System::Threading::ContextCallback* System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::getStaticF_s_invokeMoveNext() {
+inline ::System::Threading::ContextCallback* System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::getStaticF_s_invokeMoveNext() {
   return ::cordl_internals::getStaticField<::System::Threading::ContextCallback*, "s_invokeMoveNext",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get>();
 }
-inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::New_ctor(::System::Threading::ExecutionContext* context,
-                                                                                      ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>(context, stateMachine));
-}
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::_ctor(::System::Threading::ExecutionContext* context,
-                                                                                               ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::_ctor(::System::Threading::ExecutionContext* context,
+                                                                                            ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, stateMachine);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::Run() {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::Run() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), "Run",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), "Run",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::InvokeMoveNext(::System::Object* stateMachine) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::InvokeMoveNext(::System::Object* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(), "InvokeMoveNext",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(), "InvokeMoveNext",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, stateMachine);
 }
+inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*
+System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::New_ctor(::System::Threading::ExecutionContext* context,
+                                                                                   ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>(context, stateMachine));
+}
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner::__AsyncMethodBuilderCore__MoveNextRunner() {}
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper._ctor
+constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner::AsyncMethodBuilderCore_MoveNextRunner() {}
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::*)(
-    ::System::Action*, ::System::Action*, ::System::Threading::Tasks::Task*)>(&::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::*)(
+    ::System::Action*, ::System::Action*, ::System::Threading::Tasks::Task*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3cb9148;
+  constexpr static std::size_t addrs = 0x3d192bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
@@ -140,255 +137,252 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper.Invoke
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::*)()>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::*)()>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::Invoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cb9508;
+  constexpr static std::size_t addrs = 0x3d1967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*>::get(),
                                                  "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_continuation() {
+constexpr ::System::Action*& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_continuation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_continuation() const {
+constexpr ::System::Action* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_continuation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_continuation;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_set_m_continuation(::System::Action* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_set_m_continuation(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_invokeAction() {
+constexpr ::System::Action*& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_invokeAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_invokeAction;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_invokeAction() const {
+constexpr ::System::Action* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_invokeAction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_invokeAction;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_set_m_invokeAction(::System::Action* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_set_m_invokeAction(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_invokeAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_innerTask() {
+constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_innerTask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerTask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const&
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_get_m_innerTask() const {
+constexpr ::System::Threading::Tasks::Task* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_get_m_innerTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerTask;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__cordl_internal_set_m_innerTask(::System::Threading::Tasks::Task* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::__cordl_internal_set_m_innerTask(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_innerTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::New_ctor(::System::Action* continuation, ::System::Action* invokeAction,
-                                                                                           ::System::Threading::Tasks::Task* innerTask) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*>(continuation, invokeAction, innerTask));
-}
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::_ctor(::System::Action* continuation, ::System::Action* invokeAction,
-                                                                                                    ::System::Threading::Tasks::Task* innerTask) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::_ctor(::System::Action* continuation, ::System::Action* invokeAction,
+                                                                                                 ::System::Threading::Tasks::Task* innerTask) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation, invokeAction, innerTask);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::Invoke() {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::Invoke() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*>::get(),
                                                "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*
+System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::New_ctor(::System::Action* continuation, ::System::Action* invokeAction, ::System::Threading::Tasks::Task* innerTask) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper*>(continuation, invokeAction, innerTask));
+}
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper::__AsyncMethodBuilderCore__ContinuationWrapper() {}
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0._ctor
+constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper::AsyncMethodBuilderCore_ContinuationWrapper() {}
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::*)()>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::*)()>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb8eec;
+  constexpr static std::size_t addrs = 0x3d19060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0._OutputAsyncCausalityEvents_b__0
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0._OutputAsyncCausalityEvents_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::*)()>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::_OutputAsyncCausalityEvents_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::*)()>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_OutputAsyncCausalityEvents_b__0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cb952c;
+  constexpr static std::size_t addrs = 0x3d196a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0*>::get(),
                                                  "<OutputAsyncCausalityEvents>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_get_innerTask() {
+constexpr ::System::Threading::Tasks::Task*& System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_get_innerTask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerTask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const&
-System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_get_innerTask() const {
+constexpr ::System::Threading::Tasks::Task* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_get_innerTask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerTask;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_set_innerTask(::System::Threading::Tasks::Task* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_set_innerTask(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___innerTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_get_continuation() {
+constexpr ::System::Action*& System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_get_continuation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_get_continuation() const {
+constexpr ::System::Action* const& System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_get_continuation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continuation;
 }
-constexpr void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__cordl_internal_set_continuation(::System::Action* value) {
+constexpr void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::__cordl_internal_set_continuation(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___continuation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0*>());
-}
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::_ctor() {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::_OutputAsyncCausalityEvents_b__0() {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::_OutputAsyncCausalityEvents_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0*>::get(),
                                                "<OutputAsyncCausalityEvents>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0* System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0*>());
+}
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0::__AsyncMethodBuilderCore____c__DisplayClass5_0() {}
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c._ctor
+constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c__DisplayClass5_0::AsyncMethodBuilderCore___c__DisplayClass5_0() {}
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::*)()>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)()>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb95e4;
+  constexpr static std::size_t addrs = 0x3d19758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c._ThrowAsync_b__7_0
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c._ThrowAsync_b__7_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::*)(::System::Object*)>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ThrowAsync_b__7_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)(::System::Object*)>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3cb95ec;
+  constexpr static std::size_t addrs = 0x3d19760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), "<ThrowAsync>b__7_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), "<ThrowAsync>b__7_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c._ThrowAsync_b__7_1
+//  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c._ThrowAsync_b__7_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::*)(::System::Object*)>(
-    &::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ThrowAsync_b__7_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::*)(::System::Object*)>(
+    &::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_1)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3cb9640;
+  constexpr static std::size_t addrs = 0x3d197b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), "<ThrowAsync>b__7_1",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), "<ThrowAsync>b__7_1",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::setStaticF___9(::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* value) {
-  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>(
-      std::forward<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>(value));
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::setStaticF___9(::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c* value) {
+  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>(
+      std::forward<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>(value));
 }
-inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>();
+inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c* System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>();
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::setStaticF___9__7_0(::System::Threading::SendOrPostCallback* value) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::setStaticF___9__7_0(::System::Threading::SendOrPostCallback* value) {
   ::cordl_internals::setStaticField<::System::Threading::SendOrPostCallback*, "<>9__7_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>(
       std::forward<::System::Threading::SendOrPostCallback*>(value));
 }
-inline ::System::Threading::SendOrPostCallback* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::getStaticF___9__7_0() {
+inline ::System::Threading::SendOrPostCallback* System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::getStaticF___9__7_0() {
   return ::cordl_internals::getStaticField<::System::Threading::SendOrPostCallback*, "<>9__7_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>();
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::setStaticF___9__7_1(::System::Threading::WaitCallback* value) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::setStaticF___9__7_1(::System::Threading::WaitCallback* value) {
   ::cordl_internals::setStaticField<::System::Threading::WaitCallback*, "<>9__7_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>(
       std::forward<::System::Threading::WaitCallback*>(value));
 }
-inline ::System::Threading::WaitCallback* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::getStaticF___9__7_1() {
+inline ::System::Threading::WaitCallback* System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::getStaticF___9__7_1() {
   return ::cordl_internals::getStaticField<::System::Threading::WaitCallback*, "<>9__7_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get>();
 }
-inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c* System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>());
-}
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ctor() {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ThrowAsync_b__7_0(::System::Object* state) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_0(::System::Object* state) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), "<ThrowAsync>b__7_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), "<ThrowAsync>b__7_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
-inline void System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::_ThrowAsync_b__7_1(::System::Object* state) {
+inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::_ThrowAsync_b__7_1(::System::Object* state) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c*>::get(), "<ThrowAsync>b__7_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>::get(), "<ThrowAsync>b__7_1",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
+}
+inline ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c* System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c::__AsyncMethodBuilderCore____c() {}
+constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore___c::AsyncMethodBuilderCore___c() {}
 //  Writing Method size for method: ::System::Runtime::CompilerServices::AsyncMethodBuilderCore.SetStateMachine
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cb8408;
+  constexpr static std::size_t addrs = 0x3d1857c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,16 +395,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (
-    ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Threading::Tasks::Task*, ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>)>(
+    ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Threading::Tasks::Task*, ::ByRef<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3cb8c4c;
+  constexpr static std::size_t addrs = 0x3d18dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore>::get(), "GetCompletionAction", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>>::get() })));
     return ___internal_method;
   }
 };
@@ -421,7 +415,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Action* (::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(::System::Threading::Tasks::Task*, ::System::Action*)>(
         &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::OutputAsyncCausalityEvents)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cb8e30;
+  constexpr static std::size_t addrs = 0x3d18fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -436,16 +430,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*, ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*, ::System::Threading::Tasks::Task*)>(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*, ::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::PostBoxInitialization)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3cb8fb0;
+  constexpr static std::size_t addrs = 0x3d19124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore>::get(), "PostBoxInitialization", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get() })));
     return ___internal_method;
   }
@@ -456,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::System::Threading::SynchronizationContext*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::ThrowAsync)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x3cb8758;
+  constexpr static std::size_t addrs = 0x3d188cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -472,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (*)(::System::Action*, ::System::Action*, ::System::Threading::Tasks::Task*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::CreateContinuationWrapper)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cb8ef4;
+  constexpr static std::size_t addrs = 0x3d19068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -490,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)(::System::Action*)>(
     &::System::Runtime::CompilerServices::AsyncMethodBuilderCore::TryGetContinuationTask)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3cb9194;
+  constexpr static std::size_t addrs = 0x3d19308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -507,11 +501,11 @@ inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateM
 }
 inline ::System::Action*
 System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction(::System::Threading::Tasks::Task* taskForTracing,
-                                                                               ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*> runnerToInitialize) {
+                                                                               ::ByRef<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*> runnerToInitialize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore>::get(), "GetCompletionAction", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Action*, false>(this, ___internal_method, taskForTracing, runnerToInitialize);
 }
 inline ::System::Action* System::Runtime::CompilerServices::AsyncMethodBuilderCore::OutputAsyncCausalityEvents(::System::Threading::Tasks::Task* innerTask, ::System::Action* continuation) {
@@ -523,12 +517,12 @@ inline ::System::Action* System::Runtime::CompilerServices::AsyncMethodBuilderCo
   return ::cordl_internals::RunMethodRethrow<::System::Action*, false>(this, ___internal_method, innerTask, continuation);
 }
 inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore::PostBoxInitialization(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine,
-                                                                                             ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner* runner,
+                                                                                             ::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner* runner,
                                                                                              ::System::Threading::Tasks::Task* builtTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncMethodBuilderCore>::get(), "PostBoxInitialization", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__MoveNextRunner*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine, runner, builtTask);
 }
@@ -539,7 +533,6 @@ inline void System::Runtime::CompilerServices::AsyncMethodBuilderCore::ThrowAsyn
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::SynchronizationContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, exception, targetContext);
 }
-/// @param innerTask: ::System::Threading::Tasks::Task* (default: nullptr)
 inline ::System::Action* System::Runtime::CompilerServices::AsyncMethodBuilderCore::CreateContinuationWrapper(::System::Action* continuation, ::System::Action* invokeAction,
                                                                                                               ::System::Threading::Tasks::Task* innerTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -555,8 +548,8 @@ inline ::System::Threading::Tasks::Task* System::Runtime::CompilerServices::Asyn
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(nullptr, ___internal_method, action);
 }
-// Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "m_defaultContextAction", ty: "::System::Action*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "m_stateMachine", ty: "::System::Runtime::CompilerServices::IAsyncStateMachine*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_defaultContextAction", ty: "::System::Action*", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::CompilerServices::AsyncMethodBuilderCore::AsyncMethodBuilderCore(::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine,
                                                                                               ::System::Action* m_defaultContextAction) noexcept {
   this->m_stateMachine = m_stateMachine;

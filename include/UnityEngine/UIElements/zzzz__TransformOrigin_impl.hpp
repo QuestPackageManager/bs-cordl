@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TransformOrigin.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TransformOrigin._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(
     ::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, float_t)>(&::UnityEngine::UIElements::TransformOrigin::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a2082c;
+  constexpr static std::size_t addrs = 0x4a8513c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TransformOrigin (*)()>(&::UnityEngine::UIElements::TransformOrigin::Initial)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a1fd28;
+  constexpr static std::size_t addrs = 0x4a84638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), "Initial",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TransformOrigin::*)()>(
     &::UnityEngine::UIElements::TransformOrigin::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a20838;
+  constexpr static std::size_t addrs = 0x4a85148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), "get_x",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::TransformOrigin::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a20840;
+  constexpr static std::size_t addrs = 0x4a85150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Length (::UnityEngine::UIElements::TransformOrigin::*)()>(
     &::UnityEngine::UIElements::TransformOrigin::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a20848;
+  constexpr static std::size_t addrs = 0x4a85158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), "get_y",
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::Length)>(
     &::UnityEngine::UIElements::TransformOrigin::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a20850;
+  constexpr static std::size_t addrs = 0x4a85160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a20858;
+  constexpr static std::size_t addrs = 0x4a85168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), "get_z",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::op_Equality)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a1bf38;
+  constexpr static std::size_t addrs = 0x4a80848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::op_Inequality)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4a20860;
+  constexpr static std::size_t addrs = 0x4a85170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransformOrigin::*)(::UnityEngine::UIElements::TransformOrigin)>(
     &::UnityEngine::UIElements::TransformOrigin::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4a208cc;
+  constexpr static std::size_t addrs = 0x4a851dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransformOrigin::*)(::System::Object*)>(
     &::UnityEngine::UIElements::TransformOrigin::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a20938;
+  constexpr static std::size_t addrs = 0x4a85248;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TransformOrigin::*)()>(
     &::UnityEngine::UIElements::TransformOrigin::GetHashCode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a1c26c;
+  constexpr static std::size_t addrs = 0x4a80b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::TransformOrigin::*)()>(&::UnityEngine::UIElements::TransformOrigin::ToString)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4a20a08;
+  constexpr static std::size_t addrs = 0x4a85318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,14 +197,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
-constexpr UnityEngine::UIElements::TransformOrigin::operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* UnityEngine::UIElements::TransformOrigin::i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::UIElements::TransformOrigin::_ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -279,6 +271,14 @@ inline ::StringW UnityEngine::UIElements::TransformOrigin::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformOrigin>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
+constexpr UnityEngine::UIElements::TransformOrigin::operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* UnityEngine::UIElements::TransformOrigin::i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "m_Z", ty: "float_t", modifiers: "", def_value: Some("{}") }]

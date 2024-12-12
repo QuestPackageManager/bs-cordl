@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Touchscreen* (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x459dd74;
+  constexpr static std::size_t addrs = 0x45ff088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x459dd7c;
+  constexpr static std::size_t addrs = 0x45ff090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_isActive)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x459dd84;
+  constexpr static std::size_t addrs = 0x45ff098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screenPosition)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x459df40;
+  constexpr static std::size_t addrs = 0x45ff254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_lastTouch)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x459dfd8;
+  constexpr static std::size_t addrs = 0x45ff2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_currentTouch)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x459ddfc;
+  constexpr static std::size_t addrs = 0x45ff110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_touchHistory)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x459e188;
+  constexpr static std::size_t addrs = 0x45ff49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::Touchscreen*, int32_t, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x459e1f8;
+  constexpr static std::size_t addrs = 0x45ff50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::ShouldRecordTouch)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x459e54c;
+  constexpr static std::size_t addrs = 0x45ff860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,14 +148,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
-    ::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded)> {
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x459e634;
+  constexpr static std::size_t addrs = 0x45ff948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(), "OnTouchRecorded", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
     return ___internal_method;
   }
 };
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(uint32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::FindTouch)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x459e8e8;
+  constexpr static std::size_t addrs = 0x45ffbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::EnhancedTouch::Touch)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::GetTouchHistory)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x459ec1c;
+  constexpr static std::size_t addrs = 0x45fff30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ constexpr ::UnityEngine::InputSystem::Touchscreen*& UnityEngine::InputSystem::En
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screen_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const& UnityEngine::InputSystem::EnhancedTouch::Finger::__cordl_internal_get__screen_k__BackingField() const {
+constexpr ::UnityEngine::InputSystem::Touchscreen* const& UnityEngine::InputSystem::EnhancedTouch::Finger::__cordl_internal_get__screen_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____screen_k__BackingField;
 }
@@ -218,7 +218,7 @@ UnityEngine::InputSystem::EnhancedTouch::Finger::__cordl_internal_get_m_StateHis
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateHistory;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*> const&
+constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* const&
 UnityEngine::InputSystem::EnhancedTouch::Finger::__cordl_internal_get_m_StateHistory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateHistory;
@@ -263,10 +263,6 @@ inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory UnityEngine::Inpu
                                                                              "get_touchHistory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::EnhancedTouch::Finger* UnityEngine::InputSystem::EnhancedTouch::Finger::New_ctor(::UnityEngine::InputSystem::Touchscreen* screen, int32_t index,
-                                                                                                                    ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(screen, index, updateMask));
-}
 inline void UnityEngine::InputSystem::EnhancedTouch::Finger::_ctor(::UnityEngine::InputSystem::Touchscreen* screen, int32_t index, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -284,10 +280,10 @@ inline bool UnityEngine::InputSystem::EnhancedTouch::Finger::ShouldRecordTouch(:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, control, time, eventPtr);
 }
-inline void UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded(::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record record) {
+inline void UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record record) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(), "OnTouchRecorded", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::__InputStateHistory__Record>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record);
 }
 inline ::UnityEngine::InputSystem::EnhancedTouch::Touch UnityEngine::InputSystem::EnhancedTouch::Finger::FindTouch(uint32_t uniqueId) {
@@ -301,6 +297,10 @@ inline ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory UnityEngine::Inpu
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(), "GetTouchHistory", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::EnhancedTouch::Touch>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, false>(this, ___internal_method, touch);
+}
+inline ::UnityEngine::InputSystem::EnhancedTouch::Finger* UnityEngine::InputSystem::EnhancedTouch::Finger::New_ctor(::UnityEngine::InputSystem::Touchscreen* screen, int32_t index,
+                                                                                                                    ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateMask) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::EnhancedTouch::Finger*>(screen, index, updateMask));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::EnhancedTouch::Finger::Finger() {}

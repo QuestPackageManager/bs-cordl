@@ -4,7 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__GroupOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -32,44 +32,40 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct __GroupOperation__GroupOperationSettings;
+struct GroupOperation_GroupOperationSettings;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct __GroupOperation__GroupOperationSettings;
+struct GroupOperation_GroupOperationSettings;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class GroupOperation;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings);
+MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings);
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation);
-// Type: ::GroupOperationSettings
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
-// CS Name: ::GroupOperation::GroupOperationSettings
-struct CORDL_TYPE __GroupOperation__GroupOperationSettings {
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.GroupOperation/GroupOperationSettings
+struct CORDL_TYPE GroupOperation_GroupOperationSettings {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____GroupOperation__GroupOperationSettings_Unwrapped
-  enum struct ____GroupOperation__GroupOperationSettings_Unwrapped : int32_t {
+  /// @brief Nested struct __GroupOperation_GroupOperationSettings_Unwrapped
+  enum struct __GroupOperation_GroupOperationSettings_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_ReleaseDependenciesOnFailure = static_cast<int32_t>(0x1),
     __E_AllowFailedDependencies = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____GroupOperation__GroupOperationSettings_Unwrapped() const noexcept {
-    return static_cast<____GroupOperation__GroupOperationSettings_Unwrapped>(this->value__);
+  constexpr operator __GroupOperation_GroupOperationSettings_Unwrapped() const noexcept {
+    return static_cast<__GroupOperation_GroupOperationSettings_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -79,47 +75,47 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __GroupOperation__GroupOperationSettings();
+  constexpr GroupOperation_GroupOperationSettings();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __GroupOperation__GroupOperationSettings(int32_t value__) noexcept;
+  constexpr GroupOperation_GroupOperationSettings(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field AllowFailedDependencies value: I32(2)
+  static ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings const AllowFailedDependencies;
 
-  /// @brief Field AllowFailedDependencies value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const AllowFailedDependencies;
+  /// @brief Field None value: I32(0)
+  static ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings const None;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const None;
-
-  /// @brief Field ReleaseDependenciesOnFailure value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const ReleaseDependenciesOnFailure;
+  /// @brief Field ReleaseDependenciesOnFailure value: I32(1)
+  static ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings const ReleaseDependenciesOnFailure;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15697 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
-// Type: UnityEngine.ResourceManagement.AsyncOperations::GroupOperation
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.GroupOperation::GroupOperationSettings,
+// UnityEngine.ResourceManagement.AsyncOperations.ICachable
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::GroupOperation*
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.GroupOperation
 class CORDL_TYPE GroupOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> {
 public:
   // Declarations
-  using GroupOperationSettings = ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings;
+  using GroupOperationSettings = ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings;
 
   __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
@@ -151,81 +147,80 @@ public:
 
   /// @brief Field m_Settings, offset 0xa4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Settings,
-                      put = __cordl_internal_set_m_Settings)) ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings m_Settings;
+                      put = __cordl_internal_set_m_Settings)) ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings m_Settings;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
   constexpr operator ::UnityEngine::ResourceManagement::AsyncOperations::ICachable*() noexcept;
 
-  /// @brief Method CompleteIfDependenciesComplete, addr 0x47432cc, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method CompleteIfDependenciesComplete, addr 0x47a45e0, size 0x2f4, virtual false, abstract: false, final false
   inline void CompleteIfDependenciesComplete();
 
-  /// @brief Method DependenciesAreUnchanged, addr 0x4742c14, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method DependenciesAreUnchanged, addr 0x47a3f28, size 0x1d4, virtual false, abstract: false, final false
   inline bool DependenciesAreUnchanged(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method Destroy, addr 0x47435c0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x47a48d4, size 0x10, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x47430bc, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x47a43d0, size 0x210, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x4742708, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x47a3a1c, size 0x64, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method GetDependentOps, addr 0x472cd50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDependentOps, addr 0x478e064, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* GetDependentOps();
 
-  /// @brief Method GetDownloadStatus, addr 0x47429b8, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x47a3ccc, size 0x25c, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method Init, addr 0x472cc70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x478df84, size 0xb0, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releaseDependenciesOnFailure,
                    bool allowFailedDependencies);
 
-  /// @brief Method Init, addr 0x47437bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x47a4ad0, size 0x98, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations,
-                   ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings settings);
+                   ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings settings);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x4742324, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x47a3638, size 0x3d4, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* New_ctor();
 
-  /// @brief Method OnOperationCompleted, addr 0x4743854, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnOperationCompleted, addr 0x47a4b68, size 0x10, virtual false, abstract: false, final false
   inline void OnOperationCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
-  /// @brief Method ReleaseDependencies, addr 0x474276c, size 0x24c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseDependencies, addr 0x47a3a80, size 0x24c, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x47426f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x47a3a0c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x4742700, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x47a3a14, size 0x8, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* const& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
-  __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get_debugName() const;
 
   constexpr ::StringW& __cordl_internal_get_debugName();
 
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get_m_CachedDependencyLocations() const;
+
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_m_CachedDependencyLocations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get_m_CachedDependencyLocations() const;
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* const& __cordl_internal_get_m_InternalOnComplete() const;
 
   constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_InternalOnComplete();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __cordl_internal_get_m_InternalOnComplete() const;
 
   constexpr int32_t const& __cordl_internal_get_m_LoadedCount() const;
 
   constexpr int32_t& __cordl_internal_get_m_LoadedCount();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings const& __cordl_internal_get_m_Settings() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings const& __cordl_internal_get_m_Settings() const;
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings& __cordl_internal_get_m_Settings();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings& __cordl_internal_get_m_Settings();
 
   constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
@@ -237,15 +232,15 @@ public:
 
   constexpr void __cordl_internal_set_m_LoadedCount(int32_t value);
 
-  constexpr void __cordl_internal_set_m_Settings(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings value);
+  constexpr void __cordl_internal_set_m_Settings(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings value);
 
-  /// @brief Method .ctor, addr 0x47421ec, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47a3500, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x4742de8, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x47a40fc, size 0x2d4, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method get_Progress, addr 0x47435d0, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x47a48e4, size 0x1ec, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
@@ -265,6 +260,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GroupOperation(GroupOperation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15698 };
+
+  /// @brief Field k_MaxDisplayedLocationLength offset 0xffffffff size 0x4
+  static constexpr int32_t k_MaxDisplayedLocationLength{ static_cast<int32_t>(0x2d) };
+
   /// @brief Field m_InternalOnComplete, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ___m_InternalOnComplete;
 
@@ -272,7 +273,7 @@ public:
   int32_t ___m_LoadedCount;
 
   /// @brief Field m_Settings, offset: 0xa4, size: 0x4, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings ___m_Settings;
+  ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings ___m_Settings;
 
   /// @brief Field debugName, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___debugName;
@@ -283,17 +284,9 @@ public:
   /// @brief Field m_CachedDependencyLocations, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ___m_CachedDependencyLocations;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15663 };
-
-  /// @brief Field k_MaxDisplayedLocationLength offset 0xffffffff size 0x4
-  static constexpr int32_t k_MaxDisplayedLocationLength{ static_cast<int32_t>(0x2d) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_InternalOnComplete) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_LoadedCount) == 0xa0, "Offset mismatch!");
@@ -307,8 +300,10 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::Group
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, ___m_CachedDependencyLocations) == 0xb8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation, 0xc0>, "Size mismatch!");
+
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::__GroupOperation__GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations",
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations",
                        "GroupOperation/GroupOperationSettings");
 NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation");

@@ -16,11 +16,10 @@ class HeadBodyOffsetSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO);
-// Type: BeatSaber.BeatAvatarSDK::HeadBodyOffsetSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject, UnityEngine.Vector3
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::HeadBodyOffsetSO*
+// CS Name: BeatSaber.BeatAvatarSDK.HeadBodyOffsetSO
 class CORDL_TYPE HeadBodyOffsetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -48,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__verticalOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x222fdb0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225b324, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_headNeckOffset, addr 0x222fd9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_headNeckOffset, addr 0x225b310, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headNeckOffset();
 
-  /// @brief Method get_verticalOffset, addr 0x222fda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalOffset, addr 0x225b31c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_verticalOffset();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeadBodyOffsetSO(HeadBodyOffsetSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18157 };
+
   /// @brief Field _headNeckOffset, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____headNeckOffset;
 
   /// @brief Field _verticalOffset, offset: 0x24, size: 0x4, def value: None
   float_t ____verticalOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18077 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO, ____headNeckOffset) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO, ____verticalOffset) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO);

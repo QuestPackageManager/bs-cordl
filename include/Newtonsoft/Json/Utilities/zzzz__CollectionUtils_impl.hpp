@@ -15,23 +15,23 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-template <typename T> inline void Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>::setStaticF_Empty(::ArrayW<T, ::Array<T>*> value) {
+template <typename T> inline void Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>::setStaticF_Empty(::ArrayW<T, ::Array<T>*> value) {
   ::cordl_internals::setStaticField<::ArrayW<T, ::Array<T>*>, "Empty",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>*>::get>(
       std::forward<::ArrayW<T, ::Array<T>*>>(value));
 }
-template <typename T> inline ::ArrayW<T, ::Array<T>*> Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>::getStaticF_Empty() {
+template <typename T> inline ::ArrayW<T, ::Array<T>*> Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>::getStaticF_Empty() {
   return ::cordl_internals::getStaticField<::ArrayW<T, ::Array<T>*>, "Empty",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>*>::get>();
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__CollectionUtils__EmptyArrayContainer_1<T>::__CollectionUtils__EmptyArrayContainer_1() {}
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::CollectionUtils_EmptyArrayContainer_1<T>::CollectionUtils_EmptyArrayContainer_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::CollectionUtils.IsDictionaryType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Newtonsoft::Json::Utilities::CollectionUtils::IsDictionaryType)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3e5e298;
+  constexpr static std::size_t addrs = 0x3ebe344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3e5e4a4;
+  constexpr static std::size_t addrs = 0x3ebe550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::CollectionUtils*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (*)(::System::Type*, ::System::Type*, ::System::Type*)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ResolveEnumerableCollectionConstructor)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x3e5e5b4;
+  constexpr static std::size_t addrs = 0x3ebe660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::CollectionUtils*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<int32_t>* (*)(::System::Collections::IList*, int32_t)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::GetDimensions)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x3e5e8dc;
+  constexpr static std::size_t addrs = 0x3ebe988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IList*, ::System::Array*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::CopyFromJaggedToMultidimensionalArray)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3e5eb90;
+  constexpr static std::size_t addrs = 0x3ebec3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Collections::IList*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::JaggedArrayGetValue)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3e5ee4c;
+  constexpr static std::size_t addrs = 0x3ebeef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Collections::IList*, ::System::Type*, int32_t)>(
     &::Newtonsoft::Json::Utilities::CollectionUtils::ToMultidimensionalArray)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3e5ef88;
+  constexpr static std::size_t addrs = 0x3ebf034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

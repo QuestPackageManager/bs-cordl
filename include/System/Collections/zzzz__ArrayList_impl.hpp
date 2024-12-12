@@ -1,5 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/ArrayList.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IList_impl.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__ArrayList_IListWrapper_def.hpp"
@@ -7,215 +12,209 @@
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple._ctor
+//  Writing Method size for method: ::System::Collections::ArrayList_ArrayListEnumeratorSimple._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ArrayListEnumeratorSimple::*)(::System::Collections::ArrayList*)>(
-    &::System::Collections::__ArrayList__ArrayListEnumeratorSimple::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList_ArrayListEnumeratorSimple::*)(::System::Collections::ArrayList*)>(
+    &::System::Collections::ArrayList_ArrayListEnumeratorSimple::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d6083c;
+  constexpr static std::size_t addrs = 0x3dc09b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple.Clone
+//  Writing Method size for method: ::System::Collections::ArrayList_ArrayListEnumeratorSimple.Clone
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__ArrayList__ArrayListEnumeratorSimple::*)()>(
-    &::System::Collections::__ArrayList__ArrayListEnumeratorSimple::Clone)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ArrayList_ArrayListEnumeratorSimple::*)()>(
+    &::System::Collections::ArrayList_ArrayListEnumeratorSimple::Clone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d63998;
+  constexpr static std::size_t addrs = 0x3dc3b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "Clone",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), "Clone",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple.MoveNext
+//  Writing Method size for method: ::System::Collections::ArrayList_ArrayListEnumeratorSimple.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__ArrayList__ArrayListEnumeratorSimple::*)()>(
-    &::System::Collections::__ArrayList__ArrayListEnumeratorSimple::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ArrayList_ArrayListEnumeratorSimple::*)()>(
+    &::System::Collections::ArrayList_ArrayListEnumeratorSimple::MoveNext)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3d639a0;
+  constexpr static std::size_t addrs = 0x3dc3b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple.get_Current
+//  Writing Method size for method: ::System::Collections::ArrayList_ArrayListEnumeratorSimple.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__ArrayList__ArrayListEnumeratorSimple::*)()>(
-    &::System::Collections::__ArrayList__ArrayListEnumeratorSimple::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ArrayList_ArrayListEnumeratorSimple::*)()>(
+    &::System::Collections::ArrayList_ArrayListEnumeratorSimple::get_Current)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d63b74;
+  constexpr static std::size_t addrs = 0x3dc3ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "get_Current",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), "get_Current",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__ArrayList__ArrayListEnumeratorSimple.Reset
+//  Writing Method size for method: ::System::Collections::ArrayList_ArrayListEnumeratorSimple.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__ArrayList__ArrayListEnumeratorSimple::*)()>(
-    &::System::Collections::__ArrayList__ArrayListEnumeratorSimple::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList_ArrayListEnumeratorSimple::*)()>(
+    &::System::Collections::ArrayList_ArrayListEnumeratorSimple::Reset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d63c40;
+  constexpr static std::size_t addrs = 0x3dc3db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), "Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Collections::__ArrayList__ArrayListEnumeratorSimple::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Collections::__ArrayList__ArrayListEnumeratorSimple::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Collections::__ArrayList__ArrayListEnumeratorSimple::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Collections::__ArrayList__ArrayListEnumeratorSimple::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::ArrayList*& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__list() {
+constexpr ::System::Collections::ArrayList*& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__list() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__list() const {
+constexpr ::System::Collections::ArrayList* const& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_set__list(::System::Collections::ArrayList* value) {
+constexpr void System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_set__list(::System::Collections::ArrayList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__index() {
+constexpr int32_t& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr int32_t const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__index() const {
+constexpr int32_t const& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
-constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_set__index(int32_t value) {
+constexpr void System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_set__index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-constexpr int32_t& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__version() {
+constexpr int32_t& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr int32_t const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__version() const {
+constexpr int32_t const& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____version;
 }
-constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_set__version(int32_t value) {
+constexpr void System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_set__version(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____version = value;
 }
-constexpr ::System::Object*& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__currentElement() {
+constexpr ::System::Object*& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__currentElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__currentElement() const {
+constexpr ::System::Object* const& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__currentElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentElement;
 }
-constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_set__currentElement(::System::Object* value) {
+constexpr void System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_set__currentElement(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__isArrayList() {
+constexpr bool& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__isArrayList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isArrayList;
 }
-constexpr bool const& System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_get__isArrayList() const {
+constexpr bool const& System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_get__isArrayList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isArrayList;
 }
-constexpr void System::Collections::__ArrayList__ArrayListEnumeratorSimple::__cordl_internal_set__isArrayList(bool value) {
+constexpr void System::Collections::ArrayList_ArrayListEnumeratorSimple::__cordl_internal_set__isArrayList(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isArrayList = value;
 }
-inline void System::Collections::__ArrayList__ArrayListEnumeratorSimple::setStaticF_s_dummyObject(::System::Object* value) {
-  ::cordl_internals::setStaticField<::System::Object*, "s_dummyObject", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get>(
+inline void System::Collections::ArrayList_ArrayListEnumeratorSimple::setStaticF_s_dummyObject(::System::Object* value) {
+  ::cordl_internals::setStaticField<::System::Object*, "s_dummyObject", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get>(
       std::forward<::System::Object*>(value));
 }
-inline ::System::Object* System::Collections::__ArrayList__ArrayListEnumeratorSimple::getStaticF_s_dummyObject() {
+inline ::System::Object* System::Collections::ArrayList_ArrayListEnumeratorSimple::getStaticF_s_dummyObject() {
   return ::cordl_internals::getStaticField<::System::Object*, "s_dummyObject",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get>();
 }
-inline ::System::Collections::__ArrayList__ArrayListEnumeratorSimple* System::Collections::__ArrayList__ArrayListEnumeratorSimple::New_ctor(::System::Collections::ArrayList* list) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>(list));
-}
-inline void System::Collections::__ArrayList__ArrayListEnumeratorSimple::_ctor(::System::Collections::ArrayList* list) {
+inline void System::Collections::ArrayList_ArrayListEnumeratorSimple::_ctor(::System::Collections::ArrayList* list) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, list);
 }
-inline ::System::Object* System::Collections::__ArrayList__ArrayListEnumeratorSimple::Clone() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "Clone",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Object* System::Collections::ArrayList_ArrayListEnumeratorSimple::Clone() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(),
+                                                                             "Clone", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Collections::__ArrayList__ArrayListEnumeratorSimple::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool System::Collections::ArrayList_ArrayListEnumeratorSimple::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__ArrayList__ArrayListEnumeratorSimple::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Object* System::Collections::ArrayList_ArrayListEnumeratorSimple::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(),
+                                                                             "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void System::Collections::__ArrayList__ArrayListEnumeratorSimple::Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__ArrayList__ArrayListEnumeratorSimple*>::get(), "Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Collections::ArrayList_ArrayListEnumeratorSimple::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>::get(),
+                                                                             "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Collections::ArrayList_ArrayListEnumeratorSimple* System::Collections::ArrayList_ArrayListEnumeratorSimple::New_ctor(::System::Collections::ArrayList* list) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList_ArrayListEnumeratorSimple*>(list));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Collections::ArrayList_ArrayListEnumeratorSimple::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Collections::ArrayList_ArrayListEnumeratorSimple::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Collections::ArrayList_ArrayListEnumeratorSimple::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Collections::ArrayList_ArrayListEnumeratorSimple::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::__ArrayList__ArrayListEnumeratorSimple::__ArrayList__ArrayListEnumeratorSimple() {}
+constexpr ::System::Collections::ArrayList_ArrayListEnumeratorSimple::ArrayList_ArrayListEnumeratorSimple() {}
 // Ctor Parameters []
-constexpr ::System::Collections::__ArrayList__ArrayListDebugView::__ArrayList__ArrayListDebugView() {}
+constexpr ::System::Collections::ArrayList_ArrayListDebugView::ArrayList_ArrayListDebugView() {}
 //  Writing Method size for method: ::System::Collections::ArrayList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d594a0;
+  constexpr static std::size_t addrs = 0x3db9614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList*>::get(), ".ctor",
@@ -228,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t)>(&::System::Collections::ArrayList::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3d5fc68;
+  constexpr static std::size_t addrs = 0x3dbfddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Collections::ICollection*)>(
     &::System::Collections::ArrayList::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3d5fdb8;
+  constexpr static std::size_t addrs = 0x3dbff2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t)>(&::System::Collections::ArrayList::set_Capacity)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3d5ff74;
+  constexpr static std::size_t addrs = 0x3dc00e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d60088;
+  constexpr static std::size_t addrs = 0x3dc01fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -285,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d60090;
+  constexpr static std::size_t addrs = 0x3dc0204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -299,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d60098;
+  constexpr static std::size_t addrs = 0x3dc020c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,7 +312,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d600a0;
+  constexpr static std::size_t addrs = 0x3dc0214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +326,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d600a8;
+  constexpr static std::size_t addrs = 0x3dc021c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ArrayList::*)(int32_t)>(&::System::Collections::ArrayList::get_Item)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d60118;
+  constexpr static std::size_t addrs = 0x3dc028c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, ::System::Object*)>(
     &::System::Collections::ArrayList::set_Item)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3d601bc;
+  constexpr static std::size_t addrs = 0x3dc0330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -370,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (*)(::System::Collections::IList*)>(&::System::Collections::ArrayList::Adapter)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3d602a4;
+  constexpr static std::size_t addrs = 0x3dc0418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -384,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ArrayList::*)(::System::Object*)>(&::System::Collections::ArrayList::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3d60374;
+  constexpr static std::size_t addrs = 0x3dc04e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -399,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Collections::ICollection*)>(
     &::System::Collections::ArrayList::AddRange)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d60478;
+  constexpr static std::size_t addrs = 0x3dc05ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -413,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::Clear)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d60494;
+  constexpr static std::size_t addrs = 0x3dc0608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -427,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::Clone)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d604d0;
+  constexpr static std::size_t addrs = 0x3dc0644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -441,7 +440,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ArrayList::*)(::System::Object*)>(&::System::Collections::ArrayList::Contains)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d60558;
+  constexpr static std::size_t addrs = 0x3dc06cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -455,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Array*)>(&::System::Collections::ArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d60624;
+  constexpr static std::size_t addrs = 0x3dc0798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -469,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Array*, int32_t)>(&::System::Collections::ArrayList::CopyTo)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3d60638;
+  constexpr static std::size_t addrs = 0x3dc07ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -484,7 +483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, ::System::Array*, int32_t, int32_t)>(
     &::System::Collections::ArrayList::CopyTo)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3d606e4;
+  constexpr static std::size_t addrs = 0x3dc0858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -498,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t)>(&::System::Collections::ArrayList::EnsureCapacity)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6041c;
+  constexpr static std::size_t addrs = 0x3dc0590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -513,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::ArrayList::*)()>(
     &::System::Collections::ArrayList::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d607e4;
+  constexpr static std::size_t addrs = 0x3dc0958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -527,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ArrayList::*)(::System::Object*)>(&::System::Collections::ArrayList::IndexOf)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d60944;
+  constexpr static std::size_t addrs = 0x3dc0ab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -541,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, ::System::Object*)>(&::System::Collections::ArrayList::Insert)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3d6095c;
+  constexpr static std::size_t addrs = 0x3dc0ad0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -556,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, ::System::Collections::ICollection*)>(
     &::System::Collections::ArrayList::InsertRange)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3d60a8c;
+  constexpr static std::size_t addrs = 0x3dc0c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -571,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (*)(::System::Collections::ArrayList*)>(
     &::System::Collections::ArrayList::ReadOnly)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d60ce8;
+  constexpr static std::size_t addrs = 0x3dc0e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -585,7 +584,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Object*)>(&::System::Collections::ArrayList::Remove)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d60db0;
+  constexpr static std::size_t addrs = 0x3dc0f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -599,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t)>(&::System::Collections::ArrayList::RemoveAt)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d60df0;
+  constexpr static std::size_t addrs = 0x3dc0f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -613,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, int32_t)>(&::System::Collections::ArrayList::RemoveRange)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d60ed0;
+  constexpr static std::size_t addrs = 0x3dc1044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -627,7 +626,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)()>(&::System::Collections::ArrayList::Reverse)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d61034;
+  constexpr static std::size_t addrs = 0x3dc11a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -641,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, int32_t)>(&::System::Collections::ArrayList::Reverse)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3d6106c;
+  constexpr static std::size_t addrs = 0x3dc11e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -656,7 +655,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(::System::Collections::IComparer*)>(
     &::System::Collections::ArrayList::Sort)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d611a4;
+  constexpr static std::size_t addrs = 0x3dc1318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -671,7 +670,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ArrayList::*)(int32_t, int32_t, ::System::Collections::IComparer*)>(
     &::System::Collections::ArrayList::Sort)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d611f0;
+  constexpr static std::size_t addrs = 0x3dc1364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -686,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Collections::ArrayList::*)()>(
     &::System::Collections::ArrayList::ToArray)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d612e8;
+  constexpr static std::size_t addrs = 0x3dc145c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -701,7 +700,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (::System::Collections::ArrayList::*)(::System::Type*)>(
     &::System::Collections::ArrayList::ToArray)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d613c8;
+  constexpr static std::size_t addrs = 0x3dc153c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -710,38 +709,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IList"
-constexpr System::Collections::ArrayList::operator ::System::Collections::IList*() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IList"
-constexpr ::System::Collections::IList* System::Collections::ArrayList::i___System__Collections__IList() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::ArrayList::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::ArrayList::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::ArrayList::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::ArrayList::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::ICloneable"
-constexpr System::Collections::ArrayList::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* System::Collections::ArrayList::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Collections::ArrayList::__cordl_internal_get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;
@@ -782,7 +749,7 @@ constexpr ::System::Object*& System::Collections::ArrayList::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Collections::ArrayList::__cordl_internal_get__syncRoot() const {
+constexpr ::System::Object* const& System::Collections::ArrayList::__cordl_internal_get__syncRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncRoot;
 }
@@ -790,25 +757,16 @@ constexpr void System::Collections::ArrayList::__cordl_internal_set__syncRoot(::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____syncRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>());
-}
 inline void System::Collections::ArrayList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor(int32_t capacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>(capacity));
 }
 inline void System::Collections::ArrayList::_ctor(int32_t capacity) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
-}
-inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor(::System::Collections::ICollection* c) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>(c));
 }
 inline void System::Collections::ArrayList::_ctor(::System::Collections::ICollection* c) {
   static auto* ___internal_method =
@@ -978,6 +936,47 @@ inline ::System::Array* System::Collections::ArrayList::ToArray(::System::Type* 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ArrayList*>::get(), 49)));
   return ::cordl_internals::RunMethodRethrow<::System::Array*, false>(this, ___internal_method, type);
+}
+inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>());
+}
+inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor(int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>(capacity));
+}
+inline ::System::Collections::ArrayList* System::Collections::ArrayList::New_ctor(::System::Collections::ICollection* c) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ArrayList*>(c));
+}
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr System::Collections::ArrayList::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* System::Collections::ArrayList::i___System__Collections__IList() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::ArrayList::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::ArrayList::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::ArrayList::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::ArrayList::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr System::Collections::ArrayList::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* System::Collections::ArrayList::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::ArrayList::ArrayList() {}

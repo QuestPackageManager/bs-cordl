@@ -19,11 +19,10 @@ class BurstSliderData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BurstSliderData);
-// Type: BeatmapSaveDataVersion3::BurstSliderData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion3.BaseSliderData
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::BurstSliderData*
+// CS Name: BeatmapSaveDataVersion3.BurstSliderData
 class CORDL_TYPE BurstSliderData : public ::BeatmapSaveDataVersion3::BaseSliderData {
 public:
   // Declarations
@@ -55,17 +54,17 @@ public:
 
   constexpr void __cordl_internal_set_sc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4dc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706738, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer, int32_t sliceCount, float_t squishAmount);
 
-  /// @brief Method get_cuttableSlicesCount, addr 0x26d4db4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_cuttableSlicesCount, addr 0x2706724, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_cuttableSlicesCount();
 
-  /// @brief Method get_sliceCount, addr 0x26d4dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliceCount, addr 0x270671c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sliceCount();
 
-  /// @brief Method get_squishAmount, addr 0x26d4dc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_squishAmount, addr 0x2706730, size 0x8, virtual false, abstract: false, final false
   inline float_t get_squishAmount();
 
 protected:
@@ -82,23 +81,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BurstSliderData(BurstSliderData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13422 };
+
   /// @brief Field sc, offset: 0x30, size: 0x4, def value: None
   int32_t ___sc;
 
   /// @brief Field s, offset: 0x34, size: 0x4, def value: None
   float_t ___s;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13391 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BurstSliderData, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::BurstSliderData, ___sc) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::BurstSliderData, ___s) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BurstSliderData, 0x38>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::BurstSliderData);

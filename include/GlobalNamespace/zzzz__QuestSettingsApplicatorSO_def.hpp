@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(QuestSettingsApplicatorSO)
 namespace BeatSaber::Settings {
 struct Settings;
@@ -18,20 +17,19 @@ class QuestSettingsApplicatorSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::QuestSettingsApplicatorSO);
-// Type: ::QuestSettingsApplicatorSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SettingsApplicatorSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::QuestSettingsApplicatorSO*
+// CS Name: QuestSettingsApplicatorSO
 class CORDL_TYPE QuestSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
   // Declarations
-  /// @brief Method ApplyGraphicSettings, addr 0x3acdb2c, size 0x2a4, virtual true, abstract: false, final false
-  inline void ApplyGraphicSettings(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
+  /// @brief Method ApplyGraphicSettings, addr 0x3b2d170, size 0x2a4, virtual true, abstract: false, final false
+  inline void ApplyGraphicSettings(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType);
 
   static inline ::GlobalNamespace::QuestSettingsApplicatorSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3acdfc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2d608, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +47,7 @@ public:
   QuestSettingsApplicatorSO(QuestSettingsApplicatorSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

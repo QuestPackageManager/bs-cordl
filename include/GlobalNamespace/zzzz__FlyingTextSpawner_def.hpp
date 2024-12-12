@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -12,10 +13,7 @@ namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
-}
-namespace GlobalNamespace {
-class __FlyingTextEffect__Pool;
+class FlyingTextEffect_Pool;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -29,11 +27,10 @@ class FlyingTextSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingTextSpawner);
-// Type: ::FlyingTextSpawner
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IFlyingObjectEffectDidFinishEvent, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FlyingTextSpawner*
+// CS Name: FlyingTextSpawner
 class CORDL_TYPE FlyingTextSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _flyingTextEffectPool, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingTextEffectPool, put = __cordl_internal_set__flyingTextEffectPool)) ::GlobalNamespace::__FlyingTextEffect__Pool* _flyingTextEffectPool;
+  __declspec(property(get = __cordl_internal_get__flyingTextEffectPool, put = __cordl_internal_set__flyingTextEffectPool)) ::GlobalNamespace::FlyingTextEffect_Pool* _flyingTextEffectPool;
 
   /// @brief Field _fontSize, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__fontSize, put = __cordl_internal_set__fontSize)) float_t _fontSize;
@@ -64,12 +61,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b24430, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b85730, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingTextSpawner* New_ctor();
 
-  /// @brief Method SpawnText, addr 0x3b24250, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method SpawnText, addr 0x3b85550, size 0x1e0, virtual false, abstract: false, final false
   inline void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -80,9 +77,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr ::GlobalNamespace::__FlyingTextEffect__Pool*& __cordl_internal_get__flyingTextEffectPool();
+  constexpr ::GlobalNamespace::FlyingTextEffect_Pool* const& __cordl_internal_get__flyingTextEffectPool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingTextEffect__Pool*> const& __cordl_internal_get__flyingTextEffectPool() const;
+  constexpr ::GlobalNamespace::FlyingTextEffect_Pool*& __cordl_internal_get__flyingTextEffectPool();
 
   constexpr float_t const& __cordl_internal_get__fontSize() const;
 
@@ -108,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr void __cordl_internal_set__flyingTextEffectPool(::GlobalNamespace::__FlyingTextEffect__Pool* value);
+  constexpr void __cordl_internal_set__flyingTextEffectPool(::GlobalNamespace::FlyingTextEffect_Pool* value);
 
   constexpr void __cordl_internal_set__fontSize(float_t value);
 
@@ -120,7 +117,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b2454c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8584c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -139,6 +136,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextSpawner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FlyingTextSpawner(FlyingTextSpawner const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4245 };
 
   /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
   float_t ____duration;
@@ -162,16 +162,11 @@ public:
   bool ____shake;
 
   /// @brief Field _flyingTextEffectPool, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::__FlyingTextEffect__Pool* ____flyingTextEffectPool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
+  ::GlobalNamespace::FlyingTextEffect_Pool* ____flyingTextEffectPool;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingTextSpawner, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FlyingTextSpawner, ____duration) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingTextSpawner, ____xSpread) == 0x24, "Offset mismatch!");
@@ -187,6 +182,8 @@ static_assert(offsetof(::GlobalNamespace::FlyingTextSpawner, ____fontSize) == 0x
 static_assert(offsetof(::GlobalNamespace::FlyingTextSpawner, ____shake) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlyingTextSpawner, ____flyingTextEffectPool) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingTextSpawner, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingTextSpawner);

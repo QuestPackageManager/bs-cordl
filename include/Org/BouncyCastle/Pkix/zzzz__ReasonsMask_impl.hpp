@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(int32_t)>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x255b9e0;
+  constexpr static std::size_t addrs = 0x258eccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x255ba08;
+  constexpr static std::size_t addrs = 0x258ecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), ".ctor",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::AddReasons)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x255ba24;
+  constexpr static std::size_t addrs = 0x258ed10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::get_IsAllReasons)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x255bacc;
+  constexpr static std::size_t addrs = 0x258edb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Pkix::ReasonsMask* (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(&::Org::BouncyCastle::Pkix::ReasonsMask::Intersect)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x255bb40;
+  constexpr static std::size_t addrs = 0x258ee2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::HasNewReasons)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x255bc00;
+  constexpr static std::size_t addrs = 0x258eeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ReasonFlags* (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::get_Reasons)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x255ba6c;
+  constexpr static std::size_t addrs = 0x258ed58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), "get_Reasons",
@@ -122,17 +122,11 @@ inline ::Org::BouncyCastle::Pkix::ReasonsMask* Org::BouncyCastle::Pkix::ReasonsM
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Pkix::ReasonsMask*, "AllReasons",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get>();
 }
-inline ::Org::BouncyCastle::Pkix::ReasonsMask* Org::BouncyCastle::Pkix::ReasonsMask::New_ctor(int32_t reasons) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::ReasonsMask*>(reasons));
-}
 inline void Org::BouncyCastle::Pkix::ReasonsMask::_ctor(int32_t reasons) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reasons);
-}
-inline ::Org::BouncyCastle::Pkix::ReasonsMask* Org::BouncyCastle::Pkix::ReasonsMask::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::ReasonsMask*>());
 }
 inline void Org::BouncyCastle::Pkix::ReasonsMask::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), ".ctor",
@@ -166,6 +160,12 @@ inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* Org::BouncyCastle::Pkix::Re
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), "get_Reasons",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::ReasonFlags*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Pkix::ReasonsMask* Org::BouncyCastle::Pkix::ReasonsMask::New_ctor(int32_t reasons) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::ReasonsMask*>(reasons));
+}
+inline ::Org::BouncyCastle::Pkix::ReasonsMask* Org::BouncyCastle::Pkix::ReasonsMask::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Pkix::ReasonsMask*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Pkix::ReasonsMask::ReasonsMask() {}

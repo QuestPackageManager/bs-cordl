@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)()>(&::GlobalNamespace::ReportingCallbackSample::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ef8a6c;
+  constexpr static std::size_t addrs = 0x3f58b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(::Oculus::Platform::Message_1<::StringW>*)>(
     &::GlobalNamespace::ReportingCallbackSample::OnReportButtonIntentNotif)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3ef8c0c;
+  constexpr static std::size_t addrs = 0x3f58cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(::StringW)>(
     &::GlobalNamespace::ReportingCallbackSample::UpdateConsole)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ef8b60;
+  constexpr static std::size_t addrs = 0x3f58c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)()>(&::GlobalNamespace::ReportingCallbackSample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ef8df0;
+  constexpr static std::size_t addrs = 0x3f58e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), ".ctor",
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReportingCallbackSample::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*)>(&::GlobalNamespace::ReportingCallbackSample::_Start_b__2_0)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3ef8df8;
+  constexpr static std::size_t addrs = 0x3f58ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,9 +117,6 @@ inline void GlobalNamespace::ReportingCallbackSample::UpdateConsole(::StringW va
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::ReportingCallbackSample* GlobalNamespace::ReportingCallbackSample::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ReportingCallbackSample*>());
-}
 inline void GlobalNamespace::ReportingCallbackSample::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -130,6 +127,9 @@ inline void GlobalNamespace::ReportingCallbackSample::_Start_b__2_0(::Oculus::Pl
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReportingCallbackSample*>::get(), "<Start>b__2_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+}
+inline ::GlobalNamespace::ReportingCallbackSample* GlobalNamespace::ReportingCallbackSample::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ReportingCallbackSample*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ReportingCallbackSample::ReportingCallbackSample() {}

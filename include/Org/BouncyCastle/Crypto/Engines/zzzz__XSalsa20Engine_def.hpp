@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Salsa20Engine_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XSalsa20Engine)
@@ -14,11 +13,10 @@ class XSalsa20Engine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine);
-// Type: Org.BouncyCastle.Crypto.Engines::XSalsa20Engine
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Engines.Salsa20Engine
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::XSalsa20Engine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.XSalsa20Engine
 class CORDL_TYPE XSalsa20Engine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {
 public:
   // Declarations
@@ -28,16 +26,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine* New_ctor();
 
-  /// @brief Method SetKey, addr 0x2349d90, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x237d07c, size 0x25c, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method .ctor, addr 0x2349fec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x237d2d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x2349d48, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x237d034, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_NonceSize, addr 0x2349d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceSize, addr 0x237d074, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NonceSize();
 
 protected:

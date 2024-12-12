@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/Schema/XmlSchemaInference.hpp"
-#include "System/Xml/Schema/zzzz__XmlSchemaInference_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInference_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -20,35 +19,35 @@
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption::__XmlSchemaInference__InferenceOption(int32_t value__) noexcept {
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption::XmlSchemaInference_InferenceOption(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption::__XmlSchemaInference__InferenceOption() {}
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption System::Xml::Schema::__XmlSchemaInference__InferenceOption::Restricted{ static_cast<int32_t>(0x0) };
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption System::Xml::Schema::__XmlSchemaInference__InferenceOption::Relaxed{ static_cast<int32_t>(0x1) };
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption::XmlSchemaInference_InferenceOption() {}
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption System::Xml::Schema::XmlSchemaInference_InferenceOption::Restricted{ static_cast<int32_t>(0x0) };
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption System::Xml::Schema::XmlSchemaInference_InferenceOption::Relaxed{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.set_Occurrence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::__XmlSchemaInference__InferenceOption)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaInference_InferenceOption)>(
     &::System::Xml::Schema::XmlSchemaInference::set_Occurrence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41ff850;
+  constexpr static std::size_t addrs = 0x4260b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "set_Occurrence", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaInference__InferenceOption>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaInference_InferenceOption>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.get_Occurrence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::__XmlSchemaInference__InferenceOption (::System::Xml::Schema::XmlSchemaInference::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaInference_InferenceOption (::System::Xml::Schema::XmlSchemaInference::*)()>(
     &::System::Xml::Schema::XmlSchemaInference::get_Occurrence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41ff858;
+  constexpr static std::size_t addrs = 0x4260b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(),
@@ -59,15 +58,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.set_TypeInference
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::__XmlSchemaInference__InferenceOption)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaInference_InferenceOption)>(
     &::System::Xml::Schema::XmlSchemaInference::set_TypeInference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41ff860;
+  constexpr static std::size_t addrs = 0x4260b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "set_TypeInference", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaInference__InferenceOption>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaInference_InferenceOption>::get() })));
     return ___internal_method;
   }
 };
@@ -76,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)()>(&::System::Xml::Schema::XmlSchemaInference::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x41ff868;
+  constexpr static std::size_t addrs = 0x4260b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), ".ctor",
@@ -90,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSet* (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::Schema::XmlSchemaInference::InferSchema)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41ff978;
+  constexpr static std::size_t addrs = 0x4260c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSet* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaSet*)>(&::System::Xml::Schema::XmlSchemaInference::InferSchema1)> {
   constexpr static std::size_t size = 0x9d4;
-  constexpr static std::size_t addrs = 0x41ff9ec;
+  constexpr static std::size_t addrs = 0x4260d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +121,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::StringW, ::StringW, bool, ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaObjectCollection*,
                                                   ::System::Xml::Schema::XmlSchemaObjectTable*)>(&::System::Xml::Schema::XmlSchemaInference::AddAttribute)> {
   constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x4201dac;
+  constexpr static std::size_t addrs = 0x42630c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Xml::Schema::XmlSchemaInference::*)(::StringW)>(
     &::System::Xml::Schema::XmlSchemaInference::CreateXmlSchema)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42045e8;
+  constexpr static std::size_t addrs = 0x42658fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +157,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::XmlSchema*, ::System::Xml::Schema::XmlSchemaObjectCollection*, int32_t)>(
     &::System::Xml::Schema::XmlSchemaInference::AddElement)> {
   constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x42003f4;
+  constexpr static std::size_t addrs = 0x4261708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaElement*, bool, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::XmlSchemaInference::InferElement)> {
   constexpr static std::size_t size = 0x13e0;
-  constexpr static std::size_t addrs = 0x42009cc;
+  constexpr static std::size_t addrs = 0x4261ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleContentExtension* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::XmlSchemaInference::CheckSimpleContentExtension)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x42052b4;
+  constexpr static std::size_t addrs = 0x42665c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*, bool)>(&::System::Xml::Schema::XmlSchemaInference::GetEffectiveSchemaType)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4204a00;
+  constexpr static std::size_t addrs = 0x4265d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,17 +221,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
-    ::System::Xml::Schema::XmlSchemaInference::*)(bool, ::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaComplexType*, ByRef<int32_t>, ByRef<bool>, ::System::Xml::Schema::XmlSchema*, bool)>(
-    &::System::Xml::Schema::XmlSchemaInference::FindMatchingElement)> {
+    ::System::Xml::Schema::XmlSchemaInference::*)(bool, ::System::Xml::XmlReader*, ::System::Xml::Schema::XmlSchemaComplexType*, ::ByRef<int32_t>, ::ByRef<bool>, ::System::Xml::Schema::XmlSchema*,
+                                                  bool)>(&::System::Xml::Schema::XmlSchemaInference::FindMatchingElement)> {
   constexpr static std::size_t size = 0xfec;
-  constexpr static std::size_t addrs = 0x420587c;
+  constexpr static std::size_t addrs = 0x4266b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "FindMatchingElement", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -241,15 +240,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.ProcessAttributes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
-    ByRef<::System::Xml::Schema::XmlSchemaElement*>, ::System::Xml::Schema::XmlSchemaType*, bool, ::System::Xml::Schema::XmlSchema*)>(&::System::Xml::Schema::XmlSchemaInference::ProcessAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::ByRef<::System::Xml::Schema::XmlSchemaElement*>, ::System::Xml::Schema::XmlSchemaType*, bool, ::System::Xml::Schema::XmlSchema*)>(
+        &::System::Xml::Schema::XmlSchemaInference::ProcessAttributes)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x4204b38;
+  constexpr static std::size_t addrs = 0x4265e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "ProcessAttributes", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Xml::Schema::XmlSchemaElement*>>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::Schema::XmlSchemaElement*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaType*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get() })));
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaSimpleContentExtension*, ::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Xml::Schema::XmlSchemaInference::MoveAttributes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x42057e0;
+  constexpr static std::size_t addrs = 0x4266af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaSimpleContentExtension*, bool)>(&::System::Xml::Schema::XmlSchemaInference::MoveAttributes)> {
   constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x42053ec;
+  constexpr static std::size_t addrs = 0x4266700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Collections::ICollection*, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindAttribute)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x4202944;
+  constexpr static std::size_t addrs = 0x4263c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -309,15 +309,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
-    ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ByRef<::System::Xml::Schema::XmlSchema*>)>(&::System::Xml::Schema::XmlSchemaInference::FindGlobalElement)> {
+    ::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::StringW, ::ByRef<::System::Xml::Schema::XmlSchema*>)>(&::System::Xml::Schema::XmlSchemaInference::FindGlobalElement)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x4204678;
+  constexpr static std::size_t addrs = 0x426598c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "FindGlobalElement", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Xml::Schema::XmlSchema*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::Schema::XmlSchema*>>::get() })));
     return ___internal_method;
   }
 };
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindElement)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x42069f4;
+  constexpr static std::size_t addrs = 0x4267d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Collections::ICollection*, ::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindAttributeRef)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x420257c;
+  constexpr static std::size_t addrs = 0x4263890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::StringW, ::StringW)>(&::System::Xml::Schema::XmlSchemaInference::FindElementRef)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4206b24;
+  constexpr static std::size_t addrs = 0x4267e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::XmlSchemaInference::MakeExistingAttributesOptional)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4205224;
+  constexpr static std::size_t addrs = 0x4266538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(
     ::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Xml::Schema::XmlSchemaInference::SwitchUseToOptional)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4206ef0;
+  constexpr static std::size_t addrs = 0x4268204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -404,29 +404,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.RefineSimpleType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaInference::*)(::StringW, ::ByRef<int32_t>)>(
     &::System::Xml::Schema::XmlSchemaInference::RefineSimpleType)> {
   constexpr static std::size_t size = 0x114c;
-  constexpr static std::size_t addrs = 0x4202cc8;
+  constexpr static std::size_t addrs = 0x4263fdc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "RefineSimpleType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(),
+                                                                               "RefineSimpleType", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaInference.InferSimpleType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ByRef<bool>)>(&::System::Xml::Schema::XmlSchemaInference::InferSimpleType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::ByRef<bool>)>(&::System::Xml::Schema::XmlSchemaInference::InferSimpleType)> {
   constexpr static std::size_t size = 0x15a8;
-  constexpr static std::size_t addrs = 0x4207014;
+  constexpr static std::size_t addrs = 0x4268328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "InferSimpleType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -435,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, bool, bool)>(&::System::Xml::Schema::XmlSchemaInference::DateTime)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x42085bc;
+  constexpr static std::size_t addrs = 0x42698d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -451,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (
     ::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Xml::Schema::XmlSchemaInference::CreateNewElementforChoice)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x4206c84;
+  constexpr static std::size_t addrs = 0x4267f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +466,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlSchemaInference::GetSchemaType)> {
   constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x4203e14;
+  constexpr static std::size_t addrs = 0x4265128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -480,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInference::*)(::System::Xml::Schema::XmlSchemaElement*, bool)>(
     &::System::Xml::Schema::XmlSchemaInference::SetMinMaxOccurs)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x4206868;
+  constexpr static std::size_t addrs = 0x4267b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -494,7 +495,7 @@ constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Schema::XmlSchemaInfer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSchema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_rootSchema() const {
+constexpr ::System::Xml::Schema::XmlSchema* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_rootSchema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootSchema;
 }
@@ -506,7 +507,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSet*& System::Xml::Schema::XmlSchemaIn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_schemaSet() const {
+constexpr ::System::Xml::Schema::XmlSchemaSet* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_schemaSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaSet;
 }
@@ -518,7 +519,7 @@ constexpr ::System::Xml::XmlReader*& System::Xml::Schema::XmlSchemaInference::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xtr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_xtr() const {
+constexpr ::System::Xml::XmlReader* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_xtr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xtr;
 }
@@ -530,7 +531,7 @@ constexpr ::System::Xml::NameTable*& System::Xml::Schema::XmlSchemaInference::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nametable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::NameTable*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_nametable() const {
+constexpr ::System::Xml::NameTable* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_nametable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nametable;
 }
@@ -554,7 +555,7 @@ constexpr ::System::Xml::XmlNamespaceManager*& System::Xml::Schema::XmlSchemaInf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NamespaceManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_NamespaceManager() const {
+constexpr ::System::Xml::XmlNamespaceManager* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_NamespaceManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NamespaceManager;
 }
@@ -566,7 +567,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::XmlSchemaInfer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_schemaList() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_schemaList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___schemaList;
 }
@@ -574,27 +575,27 @@ constexpr void System::Xml::Schema::XmlSchemaInference::__cordl_internal_set_sch
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___schemaList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_occurrence() {
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_occurrence() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___occurrence;
 }
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_occurrence() const {
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_occurrence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___occurrence;
 }
-constexpr void System::Xml::Schema::XmlSchemaInference::__cordl_internal_set_occurrence(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value) {
+constexpr void System::Xml::Schema::XmlSchemaInference::__cordl_internal_set_occurrence(::System::Xml::Schema::XmlSchemaInference_InferenceOption value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___occurrence = value;
 }
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_typeInference() {
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_typeInference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeInference;
 }
-constexpr ::System::Xml::Schema::__XmlSchemaInference__InferenceOption const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_typeInference() const {
+constexpr ::System::Xml::Schema::XmlSchemaInference_InferenceOption const& System::Xml::Schema::XmlSchemaInference::__cordl_internal_get_typeInference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeInference;
 }
-constexpr void System::Xml::Schema::XmlSchemaInference::__cordl_internal_set_typeInference(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value) {
+constexpr void System::Xml::Schema::XmlSchemaInference::__cordl_internal_set_typeInference(::System::Xml::Schema::XmlSchemaInference_InferenceOption value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___typeInference = value;
 }
@@ -753,25 +754,22 @@ inline ::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQual
   return ::cordl_internals::getStaticField<::ArrayW<::System::Xml::XmlQualifiedName*, ::Array<::System::Xml::XmlQualifiedName*>*>, "SimpleTypes",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get>();
 }
-inline void System::Xml::Schema::XmlSchemaInference::set_Occurrence(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value) {
+inline void System::Xml::Schema::XmlSchemaInference::set_Occurrence(::System::Xml::Schema::XmlSchemaInference_InferenceOption value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "set_Occurrence", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaInference__InferenceOption>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaInference_InferenceOption>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::__XmlSchemaInference__InferenceOption System::Xml::Schema::XmlSchemaInference::get_Occurrence() {
+inline ::System::Xml::Schema::XmlSchemaInference_InferenceOption System::Xml::Schema::XmlSchemaInference::get_Occurrence() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(),
                                                                              "get_Occurrence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::__XmlSchemaInference__InferenceOption, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaInference_InferenceOption, false>(this, ___internal_method);
 }
-inline void System::Xml::Schema::XmlSchemaInference::set_TypeInference(::System::Xml::Schema::__XmlSchemaInference__InferenceOption value) {
+inline void System::Xml::Schema::XmlSchemaInference::set_TypeInference(::System::Xml::Schema::XmlSchemaInference_InferenceOption value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "set_TypeInference", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::__XmlSchemaInference__InferenceOption>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaInference_InferenceOption>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::System::Xml::Schema::XmlSchemaInference* System::Xml::Schema::XmlSchemaInference::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaInference*>());
 }
 inline void System::Xml::Schema::XmlSchemaInference::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), ".ctor",
@@ -846,24 +844,24 @@ inline ::System::Xml::Schema::XmlSchemaType* System::Xml::Schema::XmlSchemaInfer
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaType*, false>(this, ___internal_method, elem, bCreatingNewType);
 }
 inline ::System::Xml::Schema::XmlSchemaElement* System::Xml::Schema::XmlSchemaInference::FindMatchingElement(bool bCreatingNewType, ::System::Xml::XmlReader* xtr,
-                                                                                                             ::System::Xml::Schema::XmlSchemaComplexType* ct, ByRef<int32_t> lastUsedSeqItem,
-                                                                                                             ByRef<bool> bParticleChanged, ::System::Xml::Schema::XmlSchema* parentSchema,
+                                                                                                             ::System::Xml::Schema::XmlSchemaComplexType* ct, ::ByRef<int32_t> lastUsedSeqItem,
+                                                                                                             ::ByRef<bool> bParticleChanged, ::System::Xml::Schema::XmlSchema* parentSchema,
                                                                                                              bool setMaxoccurs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "FindMatchingElement", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlReader*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaComplexType*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaElement*, false>(this, ___internal_method, bCreatingNewType, xtr, ct, lastUsedSeqItem, bParticleChanged, parentSchema,
                                                                                               setMaxoccurs);
 }
-inline void System::Xml::Schema::XmlSchemaInference::ProcessAttributes(ByRef<::System::Xml::Schema::XmlSchemaElement*> xse, ::System::Xml::Schema::XmlSchemaType* effectiveSchemaType,
+inline void System::Xml::Schema::XmlSchemaInference::ProcessAttributes(::ByRef<::System::Xml::Schema::XmlSchemaElement*> xse, ::System::Xml::Schema::XmlSchemaType* effectiveSchemaType,
                                                                        bool bCreatingNewType, ::System::Xml::Schema::XmlSchema* parentSchema) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "ProcessAttributes", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Xml::Schema::XmlSchemaElement*>>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::Schema::XmlSchemaElement*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaType*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchema*>::get() })));
@@ -893,11 +891,11 @@ inline ::System::Xml::Schema::XmlSchemaAttribute* System::Xml::Schema::XmlSchema
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaAttribute*, false>(this, ___internal_method, attributes, attrName);
 }
 inline ::System::Xml::Schema::XmlSchemaElement* System::Xml::Schema::XmlSchemaInference::FindGlobalElement(::StringW namespaceURI, ::StringW localName,
-                                                                                                           ByRef<::System::Xml::Schema::XmlSchema*> parentSchema) {
+                                                                                                           ::ByRef<::System::Xml::Schema::XmlSchema*> parentSchema) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "FindGlobalElement", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Xml::Schema::XmlSchema*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::Schema::XmlSchema*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaElement*, false>(this, ___internal_method, namespaceURI, localName, parentSchema);
 }
 inline ::System::Xml::Schema::XmlSchemaElement* System::Xml::Schema::XmlSchemaInference::FindElement(::System::Xml::Schema::XmlSchemaObjectCollection* elements, ::StringW elementName) {
@@ -938,16 +936,16 @@ inline void System::Xml::Schema::XmlSchemaInference::SwitchUseToOptional(::Syste
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaObjectCollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributes, attributesInInstance);
 }
-inline ::System::Xml::XmlQualifiedName* System::Xml::Schema::XmlSchemaInference::RefineSimpleType(::StringW s, ByRef<int32_t> iTypeFlags) {
+inline ::System::Xml::XmlQualifiedName* System::Xml::Schema::XmlSchemaInference::RefineSimpleType(::StringW s, ::ByRef<int32_t> iTypeFlags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "RefineSimpleType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlQualifiedName*, false>(this, ___internal_method, s, iTypeFlags);
 }
-inline int32_t System::Xml::Schema::XmlSchemaInference::InferSimpleType(::StringW s, ByRef<bool> bNeedsRangeCheck) {
+inline int32_t System::Xml::Schema::XmlSchemaInference::InferSimpleType(::StringW s, ::ByRef<bool> bNeedsRangeCheck) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInference*>::get(), "InferSimpleType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, s, bNeedsRangeCheck);
 }
 inline int32_t System::Xml::Schema::XmlSchemaInference::DateTime(::StringW s, bool bDate, bool bTime) {
@@ -975,6 +973,9 @@ inline void System::Xml::Schema::XmlSchemaInference::SetMinMaxOccurs(::System::X
                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, el, setMaxOccurs);
+}
+inline ::System::Xml::Schema::XmlSchemaInference* System::Xml::Schema::XmlSchemaInference::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaInference*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaInference::XmlSchemaInference() {}

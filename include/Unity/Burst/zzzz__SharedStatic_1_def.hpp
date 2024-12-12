@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SharedStatic_1)
@@ -16,13 +15,12 @@ template <typename T> struct SharedStatic_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::SharedStatic_1);
-// Type: Unity.Burst::SharedStatic`1
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Burst {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Unity.Burst::SharedStatic`1<T>
+// CS Name: Unity.Burst.SharedStatic`1<T>
 struct CORDL_TYPE SharedStatic_1 {
 public:
   // Declarations
@@ -58,7 +56,7 @@ public:
   inline void _ctor(::cordl_internals::Ptr<void> buffer);
 
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ByRef<T> get_Data();
+  inline ::ByRef<T> get_Data();
 
   /// @brief Method get_UnsafeDataPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_UnsafeDataPointer();
@@ -70,17 +68,17 @@ public:
   // Ctor Parameters [CppParam { name: "_buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }]
   constexpr SharedStatic_1(::cordl_internals::Ptr<void> _buffer) noexcept;
 
-  /// @brief Field _buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> _buffer;
-
   /// @brief Field DefaultAlignment offset 0xffffffff size 0x4
   static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x4020010u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14631 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
+  /// @brief Field _buffer, offset: 0x0, size: 0x8, def value: None
+  ::cordl_internals::Ptr<void> _buffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

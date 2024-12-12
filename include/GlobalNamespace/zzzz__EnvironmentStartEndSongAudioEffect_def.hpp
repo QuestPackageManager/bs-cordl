@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentStartEndSongAudioEffect)
 namespace GlobalNamespace {
@@ -29,11 +28,10 @@ class EnvironmentStartEndSongAudioEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
-// Type: ::EnvironmentStartEndSongAudioEffect
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 118, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EnvironmentContext, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentStartEndSongAudioEffect*
+// CS Name: EnvironmentStartEndSongAudioEffect
 class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -88,52 +86,52 @@ public:
                       put = __cordl_internal_set__songStartAudioClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>
       _songStartAudioClips;
 
-  /// @brief Method HandleGamePauseDidPause, addr 0x3a79f44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x3ad135c, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
-  /// @brief Method HandleGamePauseDidResume, addr 0x3a79f20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x3ad1338, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleLevelFailed, addr 0x3a79e90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFailed, addr 0x3ad12a8, size 0x90, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x3a79e34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x3ad124c, size 0x5c, virtual false, abstract: false, final false
   inline void LevelWillFinishWithinAheadTime();
 
   static inline ::GlobalNamespace::EnvironmentStartEndSongAudioEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a79938, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ad0d50, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3a794c0, size 0x478, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad08d8, size 0x478, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3a79b8c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ad0fa4, size 0x2a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> const& __cordl_internal_get__audioEffectsPlayer() const;
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer>& __cordl_internal_get__audioEffectsPlayer();
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
 
   constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
 
-  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
   constexpr bool const& __cordl_internal_get__isWaitingToPlayStartAudio() const;
 
   constexpr bool& __cordl_internal_get__isWaitingToPlayStartAudio();
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
+  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__levelEndActions() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__levelEndActions() const;
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
 
   constexpr bool const& __cordl_internal_get__playStartSongForNonZeroStartSongTime() const;
 
@@ -201,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__songStartAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  /// @brief Method .ctor, addr 0x3a79f68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad1380, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -217,6 +215,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentStartEndSongAudioEffect(EnvironmentStartEndSongAudioEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4007 };
+
+  /// @brief Field kSmallSongTime offset 0xffffffff size 0x4
+  static constexpr float_t kSmallSongTime{ static_cast<float_t>(0.5f) };
 
   /// @brief Field _playStartSongForNonZeroStartSongTime, offset: 0x20, size: 0x1, def value: None
   bool ____playStartSongForNonZeroStartSongTime;
@@ -263,17 +267,9 @@ public:
   /// @brief Field _isWaitingToPlayStartAudio, offset: 0x75, size: 0x1, def value: None
   bool ____isWaitingToPlayStartAudio;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4001 };
-
-  /// @brief Field kSmallSongTime offset 0xffffffff size 0x4
-  static constexpr float_t kSmallSongTime{ 0.5 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentStartEndSongAudioEffect, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, ____playStartSongForNonZeroStartSongTime) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, ____songFinishedAheadTime) == 0x24, "Offset mismatch!");
@@ -303,6 +299,8 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, __
 static_assert(offsetof(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, ____songFinishedPlayed) == 0x74, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentStartEndSongAudioEffect, ____isWaitingToPlayStartAudio) == 0x75, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentStartEndSongAudioEffect, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);

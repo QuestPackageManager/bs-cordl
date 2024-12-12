@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_firstGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4771b40;
+  constexpr static std::size_t addrs = 0x47d2e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "get_firstGlyph",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningPair::*)(uint32_t)>(&::TMPro::KerningPair::set_firstGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4771b48;
+  constexpr static std::size_t addrs = 0x47d2e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::GlyphValueRecord_Legacy (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_firstGlyphAdjustments)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4771b50;
+  constexpr static std::size_t addrs = 0x47d2e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "get_firstGlyphAdjustments",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_secondGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4771b5c;
+  constexpr static std::size_t addrs = 0x47d2e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "get_secondGlyph",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningPair::*)(uint32_t)>(&::TMPro::KerningPair::set_secondGlyph)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4771b64;
+  constexpr static std::size_t addrs = 0x47d2e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::GlyphValueRecord_Legacy (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_secondGlyphAdjustments)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4771b6c;
+  constexpr static std::size_t addrs = 0x47d2e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "get_secondGlyphAdjustments",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::get_ignoreSpacingAdjustments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4771b78;
+  constexpr static std::size_t addrs = 0x47d2e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "get_ignoreSpacingAdjustments",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4771b80;
+  constexpr static std::size_t addrs = 0x47d2e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), ".ctor",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningPair::*)(uint32_t, uint32_t, float_t)>(&::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4771ba4;
+  constexpr static std::size_t addrs = 0x47d2eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::KerningPair::*)(uint32_t, ::TMPro::GlyphValueRecord_Legacy, uint32_t, ::TMPro::GlyphValueRecord_Legacy)>(&::TMPro::KerningPair::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4771be4;
+  constexpr static std::size_t addrs = 0x47d2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::KerningPair::*)()>(&::TMPro::KerningPair::ConvertLegacyKerningData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4771c64;
+  constexpr static std::size_t addrs = 0x47d2f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "ConvertLegacyKerningData",
@@ -271,16 +271,10 @@ inline bool TMPro::KerningPair::get_ignoreSpacingAdjustments() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>());
-}
 inline void TMPro::KerningPair::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor(uint32_t left, uint32_t right, float_t offset) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>(left, right, offset));
 }
 inline void TMPro::KerningPair::_ctor(uint32_t left, uint32_t right, float_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,10 +282,6 @@ inline void TMPro::KerningPair::_ctor(uint32_t left, uint32_t right, float_t off
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, left, right, offset);
-}
-inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph,
-                                                          ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments));
 }
 inline void TMPro::KerningPair::_ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
   static auto* ___internal_method =
@@ -306,6 +296,16 @@ inline void TMPro::KerningPair::ConvertLegacyKerningData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::KerningPair*>::get(), "ConvertLegacyKerningData",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>());
+}
+inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor(uint32_t left, uint32_t right, float_t offset) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>(left, right, offset));
+}
+inline ::TMPro::KerningPair* TMPro::KerningPair::New_ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph,
+                                                          ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::KerningPair*>(firstGlyph, firstGlyphAdjustments, secondGlyph, secondGlyphAdjustments));
 }
 // Ctor Parameters []
 constexpr ::TMPro::KerningPair::KerningPair() {}

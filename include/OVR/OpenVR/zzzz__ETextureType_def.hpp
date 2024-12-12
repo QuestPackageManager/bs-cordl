@@ -12,11 +12,10 @@ struct ETextureType;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::ETextureType);
-// Type: OVR.OpenVR::ETextureType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::ETextureType
+// CS Name: OVR.OpenVR.ETextureType
 struct CORDL_TYPE ETextureType {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ETextureType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field DXGISharedHandle value: static_cast<int32_t>(0x5)
+  /// @brief Field DXGISharedHandle value: I32(5)
   static ::OVR::OpenVR::ETextureType const DXGISharedHandle;
 
-  /// @brief Field DirectX value: static_cast<int32_t>(0x0)
+  /// @brief Field DirectX value: I32(0)
   static ::OVR::OpenVR::ETextureType const DirectX;
 
-  /// @brief Field DirectX12 value: static_cast<int32_t>(0x4)
+  /// @brief Field DirectX12 value: I32(4)
   static ::OVR::OpenVR::ETextureType const DirectX12;
 
-  /// @brief Field IOSurface value: static_cast<int32_t>(0x3)
+  /// @brief Field IOSurface value: I32(3)
   static ::OVR::OpenVR::ETextureType const IOSurface;
 
-  /// @brief Field Invalid value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Invalid value: I32(-1)
   static ::OVR::OpenVR::ETextureType const Invalid;
 
-  /// @brief Field Metal value: static_cast<int32_t>(0x6)
+  /// @brief Field Metal value: I32(6)
   static ::OVR::OpenVR::ETextureType const Metal;
 
-  /// @brief Field OpenGL value: static_cast<int32_t>(0x1)
+  /// @brief Field OpenGL value: I32(1)
   static ::OVR::OpenVR::ETextureType const OpenGL;
 
-  /// @brief Field Vulkan value: static_cast<int32_t>(0x2)
+  /// @brief Field Vulkan value: I32(2)
   static ::OVR::OpenVR::ETextureType const Vulkan;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8894 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETextureType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::ETextureType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETextureType, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETextureType, "OVR.OpenVR", "ETextureType");

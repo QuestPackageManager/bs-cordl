@@ -23,24 +23,23 @@ class RichPresence;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::RichPresence);
-// Type: Oculus.Platform::RichPresence
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::RichPresence*
+// CS Name: Oculus.Platform.RichPresence
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x3f2a118, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3f8a1c4, size 0x13c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x3ef8224, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x3f582d0, size 0x150, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method GetNextDestinationListPage, addr 0x3f2a3ac, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x3f8a458, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
-  /// @brief Method Set, addr 0x3f2a254, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3f8a300, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
 protected:
@@ -58,7 +57,7 @@ public:
   RichPresence(RichPresence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

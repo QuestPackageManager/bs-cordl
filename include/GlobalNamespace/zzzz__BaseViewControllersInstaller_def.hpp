@@ -17,11 +17,10 @@ class BaseViewControllersInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BaseViewControllersInstaller);
-// Type: ::BaseViewControllersInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BaseViewControllersInstaller*
+// CS Name: BaseViewControllersInstaller
 class CORDL_TYPE BaseViewControllersInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
@@ -35,7 +34,7 @@ public:
                       put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>
       _simpleDialogPromptViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b8d5bc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bef394, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BaseViewControllersInstaller* New_ctor();
@@ -52,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b8d668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bef440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,23 +68,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseViewControllersInstaller(BaseViewControllersInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4713 };
+
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewControllerPrefab;
 
   /// @brief Field _safeAreaFocusedSimpleDialogPromptViewControllerPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> ____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4697 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseViewControllersInstaller, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BaseViewControllersInstaller, ____simpleDialogPromptViewControllerPrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BaseViewControllersInstaller, ____safeAreaFocusedSimpleDialogPromptViewControllerPrefab) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseViewControllersInstaller, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BaseViewControllersInstaller);

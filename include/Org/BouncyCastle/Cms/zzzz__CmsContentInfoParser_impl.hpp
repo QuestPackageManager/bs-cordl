@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsContentInfoParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsContentInfoParser::_ctor)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x261bb64;
+  constexpr static std::size_t addrs = 0x264ee50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsContentInfoParser::*)()>(&::Org::BouncyCastle::Cms::CmsContentInfoParser::Close)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x261bd90;
+  constexpr static std::size_t addrs = 0x264f07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsContentInfoParser*>::get(), "Close",
@@ -36,7 +36,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& Org::BouncyCastle:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& Org::BouncyCastle::Cms::CmsContentInfoParser::__cordl_internal_get_contentInfo() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* const& Org::BouncyCastle::Cms::CmsContentInfoParser::__cordl_internal_get_contentInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___contentInfo;
 }
@@ -48,16 +48,13 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Cms::CmsContentInfoParser::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Cms::CmsContentInfoParser::__cordl_internal_get_data() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Cms::CmsContentInfoParser::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void Org::BouncyCastle::Cms::CmsContentInfoParser::__cordl_internal_set_data(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* Org::BouncyCastle::Cms::CmsContentInfoParser::New_ctor(::System::IO::Stream* data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsContentInfoParser*>(data));
 }
 inline void Org::BouncyCastle::Cms::CmsContentInfoParser::_ctor(::System::IO::Stream* data) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -69,6 +66,9 @@ inline void Org::BouncyCastle::Cms::CmsContentInfoParser::Close() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsContentInfoParser*>::get(), "Close",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* Org::BouncyCastle::Cms::CmsContentInfoParser::New_ctor(::System::IO::Stream* data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsContentInfoParser*>(data));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsContentInfoParser::CmsContentInfoParser() {}

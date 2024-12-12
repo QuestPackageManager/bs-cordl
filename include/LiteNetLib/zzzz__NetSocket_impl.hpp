@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::get_LocalPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a61db4;
+  constexpr static std::size_t addrs = 0x3ab8a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), "get_LocalPort",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetSocket::*)(int32_t)>(&::LiteNetLib::NetSocket::set_LocalPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a61dbc;
+  constexpr static std::size_t addrs = 0x3ab8a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::get_Ttl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a61dc4;
+  constexpr static std::size_t addrs = 0x3ab8a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), "get_Ttl",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetSocket::*)(int16_t)>(&::LiteNetLib::NetSocket::set_Ttl)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a58b2c;
+  constexpr static std::size_t addrs = 0x3aaf79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetSocket::*)(::LiteNetLib::INetSocketListener*)>(&::LiteNetLib::NetSocket::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a5a3a0;
+  constexpr static std::size_t addrs = 0x3ab1010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NetSocket::*)()>(&::LiteNetLib::NetSocket::IsActive)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3a61ea8;
+  constexpr static std::size_t addrs = 0x3ab8b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), "IsActive",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetSocket::*)(::System::Object*)>(&::LiteNetLib::NetSocket::ReceiveLogic)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x3a61ec0;
+  constexpr static std::size_t addrs = 0x3ab8b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::LiteNetLib::NetSocket::*)(::System::Net::IPAddress*, ::System::Net::IPAddress*, int32_t, bool, bool, ::System::Threading::ThreadPriority)>(&::LiteNetLib::NetSocket::Bind)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3a5ded4;
+  constexpr static std::size_t addrs = 0x3ab4b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NetSocket::*)(::System::Net::Sockets::Socket*, ::System::Net::IPEndPoint*, bool)>(
     &::LiteNetLib::NetSocket::BindSocket)> {
   constexpr static std::size_t size = 0x690;
-  constexpr static std::size_t addrs = 0x3a62438;
+  constexpr static std::size_t addrs = 0x3ab90a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NetSocket::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(
     &::LiteNetLib::NetSocket::SendBroadcast)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3a5e86c;
+  constexpr static std::size_t addrs = 0x3ab54dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,9 +161,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::NetSocket::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Net::IPEndPoint*, ByRef<::System::Net::Sockets::SocketError>)>(&::LiteNetLib::NetSocket::SendTo)> {
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Net::IPEndPoint*, ::ByRef<::System::Net::Sockets::SocketError>)>(&::LiteNetLib::NetSocket::SendTo)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x3a58b48;
+  constexpr static std::size_t addrs = 0x3aaf7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPEndPoint*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Sockets::SocketError>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Sockets::SocketError>>::get() })));
     return ___internal_method;
   }
 };
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetSocket::*)(bool)>(&::LiteNetLib::NetSocket::Close)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3a5f6d4;
+  constexpr static std::size_t addrs = 0x3ab6344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ constexpr ::System::Net::Sockets::Socket*& LiteNetLib::NetSocket::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv4;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& LiteNetLib::NetSocket::__cordl_internal_get__udpSocketv4() const {
+constexpr ::System::Net::Sockets::Socket* const& LiteNetLib::NetSocket::__cordl_internal_get__udpSocketv4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv4;
 }
@@ -205,7 +205,7 @@ constexpr ::System::Net::Sockets::Socket*& LiteNetLib::NetSocket::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv6;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& LiteNetLib::NetSocket::__cordl_internal_get__udpSocketv6() const {
+constexpr ::System::Net::Sockets::Socket* const& LiteNetLib::NetSocket::__cordl_internal_get__udpSocketv6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udpSocketv6;
 }
@@ -217,7 +217,7 @@ constexpr ::System::Threading::Thread*& LiteNetLib::NetSocket::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv4;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& LiteNetLib::NetSocket::__cordl_internal_get__threadv4() const {
+constexpr ::System::Threading::Thread* const& LiteNetLib::NetSocket::__cordl_internal_get__threadv4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv4;
 }
@@ -229,7 +229,7 @@ constexpr ::System::Threading::Thread*& LiteNetLib::NetSocket::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv6;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& LiteNetLib::NetSocket::__cordl_internal_get__threadv6() const {
+constexpr ::System::Threading::Thread* const& LiteNetLib::NetSocket::__cordl_internal_get__threadv6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threadv6;
 }
@@ -241,7 +241,7 @@ constexpr ::LiteNetLib::INetSocketListener*& LiteNetLib::NetSocket::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetSocketListener*> const& LiteNetLib::NetSocket::__cordl_internal_get__listener() const {
+constexpr ::LiteNetLib::INetSocketListener* const& LiteNetLib::NetSocket::__cordl_internal_get__listener() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listener;
 }
@@ -308,9 +308,6 @@ inline void LiteNetLib::NetSocket::set_Ttl(int16_t value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::LiteNetLib::NetSocket* LiteNetLib::NetSocket::New_ctor(::LiteNetLib::INetSocketListener* listener) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetSocket*>(listener));
-}
 inline void LiteNetLib::NetSocket::_ctor(::LiteNetLib::INetSocketListener* listener) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -328,7 +325,6 @@ inline void LiteNetLib::NetSocket::ReceiveLogic(::System::Object* state) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
-/// @param priority: ::System::Threading::ThreadPriority (default: static_cast<int32_t>(0x2))
 inline bool LiteNetLib::NetSocket::Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6,
                                         ::System::Threading::ThreadPriority priority) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -356,13 +352,13 @@ inline bool LiteNetLib::NetSocket::SendBroadcast(::ArrayW<uint8_t, ::Array<uint8
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, data, offset, size, port);
 }
 inline int32_t LiteNetLib::NetSocket::SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint,
-                                             ByRef<::System::Net::Sockets::SocketError> errorCode) {
+                                             ::ByRef<::System::Net::Sockets::SocketError> errorCode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), "SendTo", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IPEndPoint*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::Sockets::SocketError>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::Sockets::SocketError>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, data, offset, size, remoteEndPoint, errorCode);
 }
 inline void LiteNetLib::NetSocket::Close(bool suspend) {
@@ -370,6 +366,9 @@ inline void LiteNetLib::NetSocket::Close(bool suspend) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetSocket*>::get(), "Close", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, suspend);
+}
+inline ::LiteNetLib::NetSocket* LiteNetLib::NetSocket::New_ctor(::LiteNetLib::INetSocketListener* listener) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetSocket*>(listener));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetSocket::NetSocket() {}

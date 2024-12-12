@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::EventWaitHandle::*)(bool, ::System::Threading::EventResetMode)>(
     &::System::Threading::EventWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3deb9e4;
+  constexpr static std::size_t addrs = 0x3e4ba90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::EventWaitHandle::*)(bool, ::System::Threading::EventResetMode, ::StringW)>(
     &::System::Threading::EventWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3df2dfc;
+  constexpr static std::size_t addrs = 0x3e52ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::EventWaitHandle::*)()>(&::System::Threading::EventWaitHandle::Reset)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3df0ed4;
+  constexpr static std::size_t addrs = 0x3e50f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::EventWaitHandle*>::get(), "Reset",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::EventWaitHandle::*)()>(&::System::Threading::EventWaitHandle::Set)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ded49c;
+  constexpr static std::size_t addrs = 0x3e4d548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::EventWaitHandle*>::get(), "Set",
@@ -62,18 +62,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Threading::EventWaitHandle* System::Threading::EventWaitHandle::New_ctor(bool initialState, ::System::Threading::EventResetMode mode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::EventWaitHandle*>(initialState, mode));
-}
 inline void System::Threading::EventWaitHandle::_ctor(bool initialState, ::System::Threading::EventResetMode mode) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::EventWaitHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::EventResetMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initialState, mode);
-}
-inline ::System::Threading::EventWaitHandle* System::Threading::EventWaitHandle::New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::EventWaitHandle*>(initialState, mode, name));
 }
 inline void System::Threading::EventWaitHandle::_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name) {
   static auto* ___internal_method =
@@ -92,6 +86,12 @@ inline bool System::Threading::EventWaitHandle::Set() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::EventWaitHandle*>::get(), "Set",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Threading::EventWaitHandle* System::Threading::EventWaitHandle::New_ctor(bool initialState, ::System::Threading::EventResetMode mode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::EventWaitHandle*>(initialState, mode));
+}
+inline ::System::Threading::EventWaitHandle* System::Threading::EventWaitHandle::New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::EventWaitHandle*>(initialState, mode, name));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::EventWaitHandle::EventWaitHandle() {}

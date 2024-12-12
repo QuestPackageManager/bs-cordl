@@ -29,11 +29,10 @@ class PhysicsPositionsMovementEventEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
-// Type: ::PhysicsPositionsMovementEventEffect
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PhysicsPositionsMovementEventEffect*
+// CS Name: PhysicsPositionsMovementEventEffect
 class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -97,30 +96,30 @@ public:
   /// @brief Field _velocity, offset 0x6c, size 0xc
   __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity)) ::UnityEngine::Vector3 _velocity;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b33714, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b94c58, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b335c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b94b0c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x3b336a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x3b94be8, size 0x70, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b33488, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b949cc, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b33244, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b94788, size 0x244, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr float_t const& __cordl_internal_get__elasticity() const;
 
@@ -228,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b33790, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b94cd4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -244,6 +243,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4332 };
 
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;
@@ -302,14 +304,9 @@ public:
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PhysicsPositionsMovementEventEffect, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____event) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____movementVector) == 0x24, "Offset mismatch!");
@@ -347,6 +344,8 @@ static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, _
 static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____sqrMaxSpeed) == 0xa0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PhysicsPositionsMovementEventEffect, ____beatmapDataCallbackWrapper) == 0xa8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PhysicsPositionsMovementEventEffect, 0xb0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PhysicsPositionsMovementEventEffect);

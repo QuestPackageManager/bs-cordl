@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*,
     ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22d3194;
+  constexpr static std::size_t addrs = 0x2306480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x22d3224;
+  constexpr static std::size_t addrs = 0x2306510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d3514;
+  constexpr static std::size_t addrs = 0x2306800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22d352c;
+  constexpr static std::size_t addrs = 0x2306818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d3694;
+  constexpr static std::size_t addrs = 0x2306980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* (
     ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(&::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_Originator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d369c;
+  constexpr static std::size_t addrs = 0x2306988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_UserKeyingMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d36a4;
+  constexpr static std::size_t addrs = 0x2306990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_KeyEncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d36ac;
+  constexpr static std::size_t addrs = 0x2306998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::get_RecipientEncryptedKeys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d36b4;
+  constexpr static std::size_t addrs = 0x23069a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(),
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x22d36bc;
+  constexpr static std::size_t addrs = 0x23069a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Cms::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_version() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
@@ -177,8 +177,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*& Org::Bounc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*> const&
-Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_originator() const {
+constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_originator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originator;
 }
@@ -190,7 +189,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ukm;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_ukm() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_ukm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ukm;
 }
@@ -202,8 +201,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyEncryptionAlgorithm;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const&
-Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_keyEncryptionAlgorithm() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_keyEncryptionAlgorithm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyEncryptionAlgorithm;
 }
@@ -215,20 +213,13 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Cms
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipientEncryptedKeys;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const&
-Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_recipientEncryptedKeys() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_get_recipientEncryptedKeys() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recipientEncryptedKeys;
 }
 constexpr void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::__cordl_internal_set_recipientEncryptedKeys(::Org::BouncyCastle::Asn1::Asn1Sequence* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recipientEncryptedKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*
-Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
-                                                              ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
-                                                              ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys));
 }
 inline void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
@@ -240,9 +231,6 @@ inline void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor(::Org::Bo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys);
-}
-inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -293,6 +281,15 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::KeyA
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*
+Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey* originator, ::Org::BouncyCastle::Asn1::Asn1OctetString* ukm,
+                                                              ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
+                                                              ::Org::BouncyCastle::Asn1::Asn1Sequence* recipientEncryptedKeys) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(originator, ukm, keyEncryptionAlgorithm, recipientEncryptedKeys));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo::KeyAgreeRecipientInfo() {}

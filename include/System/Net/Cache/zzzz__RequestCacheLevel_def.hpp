@@ -12,11 +12,10 @@ struct RequestCacheLevel;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Cache::RequestCacheLevel);
-// Type: System.Net.Cache::RequestCacheLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Cache {
 // Is value type: true
-// CS Name: ::System.Net.Cache::RequestCacheLevel
+// CS Name: System.Net.Cache.RequestCacheLevel
 struct CORDL_TYPE RequestCacheLevel {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RequestCacheLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BypassCache value: static_cast<int32_t>(0x1)
+  /// @brief Field BypassCache value: I32(1)
   static ::System::Net::Cache::RequestCacheLevel const BypassCache;
 
-  /// @brief Field CacheIfAvailable value: static_cast<int32_t>(0x3)
+  /// @brief Field CacheIfAvailable value: I32(3)
   static ::System::Net::Cache::RequestCacheLevel const CacheIfAvailable;
 
-  /// @brief Field CacheOnly value: static_cast<int32_t>(0x2)
+  /// @brief Field CacheOnly value: I32(2)
   static ::System::Net::Cache::RequestCacheLevel const CacheOnly;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
+  /// @brief Field Default value: I32(0)
   static ::System::Net::Cache::RequestCacheLevel const Default;
 
-  /// @brief Field NoCacheNoStore value: static_cast<int32_t>(0x6)
+  /// @brief Field NoCacheNoStore value: I32(6)
   static ::System::Net::Cache::RequestCacheLevel const NoCacheNoStore;
 
-  /// @brief Field Reload value: static_cast<int32_t>(0x5)
+  /// @brief Field Reload value: I32(5)
   static ::System::Net::Cache::RequestCacheLevel const Reload;
 
-  /// @brief Field Revalidate value: static_cast<int32_t>(0x4)
+  /// @brief Field Revalidate value: I32(4)
   static ::System::Net::Cache::RequestCacheLevel const Revalidate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9837 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheLevel, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Cache::RequestCacheLevel, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheLevel, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Cache
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Cache::RequestCacheLevel, "System.Net.Cache", "RequestCacheLevel");

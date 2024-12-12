@@ -17,18 +17,17 @@ class CredentialCache;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::CredentialCache);
-// Type: System.Net::CredentialCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::CredentialCache*
+// CS Name: System.Net.CredentialCache
 class CORDL_TYPE CredentialCache : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_DefaultCredentials, addr 0x443c014, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultCredentials, addr 0x449d328, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::ICredentials* get_DefaultCredentials();
 
-  /// @brief Method get_DefaultNetworkCredentials, addr 0x443c06c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultNetworkCredentials, addr 0x449d380, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkCredential* get_DefaultNetworkCredentials();
 
 protected:
@@ -46,7 +45,7 @@ public:
   CredentialCache(CredentialCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

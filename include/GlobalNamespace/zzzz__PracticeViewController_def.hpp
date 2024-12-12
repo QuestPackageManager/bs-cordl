@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -21,9 +21,6 @@ class AudioClipAsyncLoader;
 }
 namespace GlobalNamespace {
 struct BeatmapKey;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelDataVersion;
 }
 namespace GlobalNamespace {
 class BeatmapLevel;
@@ -38,9 +35,6 @@ namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-struct LoadBeatmapLevelDataResult;
-}
-namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
@@ -50,10 +44,10 @@ namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+struct PracticeViewController__LoadSong_d__33;
 }
 namespace GlobalNamespace {
-struct __PracticeViewController___LoadSong_d__33;
+class SongPreviewPlayer;
 }
 namespace HMUI {
 class PercentSlider;
@@ -65,13 +59,7 @@ namespace HMUI {
 class TimeSlider;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -102,26 +90,26 @@ namespace GlobalNamespace {
 class PracticeViewController;
 }
 namespace GlobalNamespace {
-struct __PracticeViewController___LoadSong_d__33;
+struct PracticeViewController__LoadSong_d__33;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PracticeViewController);
-MARK_VAL_T(::GlobalNamespace::__PracticeViewController___LoadSong_d__33);
-// Type: ::<LoadSong>d__33
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PracticeViewController__LoadSong_d__33);
+// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
+// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PracticeViewController::<LoadSong>d__33
-struct CORDL_TYPE __PracticeViewController___LoadSong_d__33 {
+// CS Name: PracticeViewController/<LoadSong>d__33
+struct CORDL_TYPE PracticeViewController__LoadSong_d__33 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bbc504, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c1f638, size 0x4a0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bbc9a4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c1fad8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -129,7 +117,7 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PracticeViewController___LoadSong_d__33();
+  constexpr PracticeViewController__LoadSong_d__33();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PracticeViewController>",
@@ -137,11 +125,17 @@ public:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }]
-  constexpr __PracticeViewController___LoadSong_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                      ::UnityW<::GlobalNamespace::PracticeViewController> __4__this, ::System::Threading::CancellationToken cancellationToken,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3) noexcept;
+  constexpr PracticeViewController__LoadSong_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                   ::UnityW<::GlobalNamespace::PracticeViewController> __4__this, ::System::Threading::CancellationToken cancellationToken,
+                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
+                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
+                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4931 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -164,41 +158,34 @@ public:
   /// @brief Field <>u__3, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4911 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PracticeViewController___LoadSong_d__33, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __u__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __u__2) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PracticeViewController__LoadSong_d__33, __u__3) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, __u__3) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeViewController__LoadSong_d__33, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PracticeViewController
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, HMUI.ViewController, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PracticeViewController*
+// CS Name: PracticeViewController
 class CORDL_TYPE PracticeViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _LoadSong_d__33 = ::GlobalNamespace::__PracticeViewController___LoadSong_d__33;
+  using _LoadSong_d__33 = ::GlobalNamespace::PracticeViewController__LoadSong_d__33;
 
   /// @brief Field _audioClip, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip)) ::UnityW<::UnityEngine::AudioClip> _audioClip;
@@ -276,68 +263,68 @@ public:
 
   __declspec(property(get = get_practiceSettings)) ::GlobalNamespace::PracticeSettings* practiceSettings;
 
-  /// @brief Method CancelSongLoading, addr 0x3bbbf30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CancelSongLoading, addr 0x3c1f064, size 0x2c, virtual false, abstract: false, final false
   inline void CancelSongLoading();
 
-  /// @brief Method DidActivate, addr 0x3bbbfcc, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1f100, size 0x168, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bbc208, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1f33c, size 0xac, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetSongTime, addr 0x3bbc388, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSongTime, addr 0x3c1f4bc, size 0x4c, virtual false, abstract: false, final false
   inline float_t GetSongTime();
 
-  /// @brief Method HandlePlayButtonPressed, addr 0x3bbc488, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayButtonPressed, addr 0x3c1f5bc, size 0x74, virtual false, abstract: false, final false
   inline void HandlePlayButtonPressed();
 
-  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3bbc454, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleSongStartSliderValueDidChange, addr 0x3c1f588, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongStartSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method Init, addr 0x3bbbdf4, size 0x13c, virtual false, abstract: false, final false
-  inline void Init(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+  /// @brief Method Init, addr 0x3c1ef28, size 0x13c, virtual false, abstract: false, final false
+  inline void Init(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method LoadSong, addr 0x3bbc134, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x3c1f268, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadSong(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::PracticeViewController* New_ctor();
 
-  /// @brief Method PlayPreview, addr 0x3bbc2b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method PlayPreview, addr 0x3c1f3e8, size 0xd4, virtual false, abstract: false, final false
   inline void PlayPreview();
 
-  /// @brief Method SetLoader, addr 0x3bbc3d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetLoader, addr 0x3c1f508, size 0x80, virtual false, abstract: false, final false
   inline void SetLoader(bool loading);
 
-  /// @brief Method SetSongLength, addr 0x3bbbf5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetSongLength, addr 0x3c1f090, size 0x70, virtual false, abstract: false, final false
   inline void SetSongLength(float_t songLength);
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
   constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
-  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get__beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& __cordl_internal_get__beatmapLevelsEntitlementModel() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel*& __cordl_internal_get__beatmapLevelsEntitlementModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsEntitlementModel*> const& __cordl_internal_get__beatmapLevelsEntitlementModel() const;
+  constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
   constexpr float_t const& __cordl_internal_get__currentPlayingStartTime() const;
 
@@ -351,9 +338,9 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__enabledColor();
 
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__getAudioClipTask();
+  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get__getAudioClipTask() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__getAudioClipTask() const;
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__getAudioClipTask();
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
@@ -367,9 +354,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__maxStartSongTime();
 
-  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
+  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel* const& __cordl_internal_get__perceivedLoudnessPerLevelModel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__perceivedLoudnessPerLevelModel() const;
+  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__playButton() const;
 
@@ -379,9 +366,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
+  constexpr ::GlobalNamespace::PracticeSettings* const& __cordl_internal_get__practiceSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings() const;
+  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings();
 
   constexpr float_t const& __cordl_internal_get__songLength() const;
 
@@ -403,9 +390,9 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__value();
 
-  constexpr ::System::Action*& __cordl_internal_get_didPressPlayButtonEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didPressPlayButtonEvent();
 
   constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
@@ -455,16 +442,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bbc4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1f630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3bbbcb4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c1ede8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action* value);
 
-  /// @brief Method get_practiceSettings, addr 0x3bbbdec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceSettings, addr 0x3c1ef20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3bbbd50, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c1ee84, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action* value);
 
 protected:
@@ -480,6 +467,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PracticeViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PracticeViewController(PracticeViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4932 };
+
+  /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
+  static constexpr float_t kMinValueChangeToInstantPlayPreview{ static_cast<float_t>(3.0f) };
+
+  /// @brief Field kWaitBeforePlayPreviewAfterPreviewStartValueChanged offset 0xffffffff size 0x4
+  static constexpr float_t kWaitBeforePlayPreviewAfterPreviewStartValueChanged{ static_cast<float_t>(1.0f) };
 
   /// @brief Field _songStartSlider, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TimeSlider> ____songStartSlider;
@@ -553,20 +549,9 @@ public:
   /// @brief Field _audioClip, offset: 0x148, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4912 };
-
-  /// @brief Field kMinValueChangeToInstantPlayPreview offset 0xffffffff size 0x4
-  static constexpr float_t kMinValueChangeToInstantPlayPreview{ 3.0 };
-
-  /// @brief Field kWaitBeforePlayPreviewAfterPreviewStartValueChanged offset 0xffffffff size 0x4
-  static constexpr float_t kWaitBeforePlayPreviewAfterPreviewStartValueChanged{ 1.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeViewController, 0x150>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____songStartSlider) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____speedSlider) == 0x80, "Offset mismatch!");
@@ -615,7 +600,9 @@ static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____beatmapLev
 
 static_assert(offsetof(::GlobalNamespace::PracticeViewController, ____audioClip) == 0x148, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PracticeViewController, 0x150>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PracticeViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PracticeViewController___LoadSong_d__33, "", "PracticeViewController/<LoadSong>d__33");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PracticeViewController__LoadSong_d__33, "", "PracticeViewController/<LoadSong>d__33");

@@ -15,21 +15,20 @@ struct TMP_FontStyleStack;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_FontStyleStack);
-// Type: TMPro::TMP_FontStyleStack
-// SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 10, calculated_native_size: 26, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TMP_FontStyleStack
+// CS Name: TMPro.TMP_FontStyleStack
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x47a4920, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x4805c34, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Clear, addr 0x47a4914, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4805c28, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x47a4a1c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x4805d30, size 0x144, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters []
@@ -43,6 +42,12 @@ public:
   // "uint8_t", modifiers: "", def_value: None }]
   constexpr TMP_FontStyleStack(uint8_t bold, uint8_t italic, uint8_t underline, uint8_t strikethrough, uint8_t highlight, uint8_t superscript, uint8_t subscript, uint8_t uppercase, uint8_t lowercase,
                                uint8_t smallcaps) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14569 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };
 
   /// @brief Field bold, offset: 0x0, size: 0x1, def value: None
   uint8_t bold;
@@ -74,17 +79,9 @@ public:
   /// @brief Field smallcaps, offset: 0x9, size: 0x1, def value: None
   uint8_t smallcaps;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14535 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_FontStyleStack, 0xa>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_FontStyleStack, bold) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_FontStyleStack, italic) == 0x1, "Offset mismatch!");
@@ -104,6 +101,8 @@ static_assert(offsetof(::TMPro::TMP_FontStyleStack, uppercase) == 0x7, "Offset m
 static_assert(offsetof(::TMPro::TMP_FontStyleStack, lowercase) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_FontStyleStack, smallcaps) == 0x9, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_FontStyleStack, 0xa>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack");

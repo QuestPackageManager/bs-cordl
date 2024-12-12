@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::get_BoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe44d8;
+  constexpr static std::size_t addrs = 0x4044584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoneCapsule*>::get(), "get_BoneIndex",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(int16_t)>(&::GlobalNamespace::OVRBoneCapsule::set_BoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe44e0;
+  constexpr static std::size_t addrs = 0x404458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Rigidbody> (::GlobalNamespace::OVRBoneCapsule::*)()>(
     &::GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe44e8;
+  constexpr static std::size_t addrs = 0x4044594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoneCapsule*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::Rigidbody*)>(
     &::GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe44f0;
+  constexpr static std::size_t addrs = 0x404459c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::CapsuleCollider> (::GlobalNamespace::OVRBoneCapsule::*)()>(
     &::GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe44f8;
+  constexpr static std::size_t addrs = 0x40445a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoneCapsule*>::get(), "get_CapsuleCollider",
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(::UnityEngine::CapsuleCollider*)>(
     &::GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe4500;
+  constexpr static std::size_t addrs = 0x40445ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)()>(&::GlobalNamespace::OVRBoneCapsule::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fe3c54;
+  constexpr static std::size_t addrs = 0x4043d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoneCapsule*>::get(), ".ctor",
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBoneCapsule::*)(int16_t, ::UnityEngine::Rigidbody*, ::UnityEngine::CapsuleCollider*)>(
     &::GlobalNamespace::OVRBoneCapsule::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3fe4508;
+  constexpr static std::size_t addrs = 0x40445b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,16 +188,10 @@ inline void GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider(::UnityEngine::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CapsuleCollider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::OVRBoneCapsule* GlobalNamespace::OVRBoneCapsule::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBoneCapsule*>());
-}
 inline void GlobalNamespace::OVRBoneCapsule::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBoneCapsule*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::OVRBoneCapsule* GlobalNamespace::OVRBoneCapsule::New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBoneCapsule*>(boneIndex, capsuleRigidBody, capsuleCollider));
 }
 inline void GlobalNamespace::OVRBoneCapsule::_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
   static auto* ___internal_method =
@@ -206,6 +200,12 @@ inline void GlobalNamespace::OVRBoneCapsule::_ctor(int16_t boneIndex, ::UnityEng
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rigidbody*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CapsuleCollider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, boneIndex, capsuleRigidBody, capsuleCollider);
+}
+inline ::GlobalNamespace::OVRBoneCapsule* GlobalNamespace::OVRBoneCapsule::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBoneCapsule*>());
+}
+inline ::GlobalNamespace::OVRBoneCapsule* GlobalNamespace::OVRBoneCapsule::New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBoneCapsule*>(boneIndex, capsuleRigidBody, capsuleCollider));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBoneCapsule::OVRBoneCapsule() {}

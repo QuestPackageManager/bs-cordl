@@ -12,11 +12,10 @@ struct DiagnosticId;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Burst::DiagnosticId);
-// Type: Unity.Burst::DiagnosticId
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Burst {
 // Is value type: true
-// CS Name: ::Unity.Burst::DiagnosticId
+// CS Name: Unity.Burst.DiagnosticId
 struct CORDL_TYPE DiagnosticId {
 public:
   // Declarations
@@ -169,399 +168,399 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DiagnosticId(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ERR_AccessingManagedArrayNotSupported value: static_cast<int32_t>(0x3fe)
+  /// @brief Field ERR_AccessingManagedArrayNotSupported value: I32(1022)
   static ::Unity::Burst::DiagnosticId const ERR_AccessingManagedArrayNotSupported;
 
-  /// @brief Field ERR_AccessingNestedManagedArrayNotSupported value: static_cast<int32_t>(0x564)
+  /// @brief Field ERR_AccessingNestedManagedArrayNotSupported value: I32(1380)
   static ::Unity::Burst::DiagnosticId const ERR_AccessingNestedManagedArrayNotSupported;
 
-  /// @brief Field ERR_AssertArgTypesDiffer value: static_cast<int32_t>(0x532)
+  /// @brief Field ERR_AssertArgTypesDiffer value: I32(1330)
   static ::Unity::Burst::DiagnosticId const ERR_AssertArgTypesDiffer;
 
-  /// @brief Field ERR_AssertTypeNotSupported value: static_cast<int32_t>(0x42f)
+  /// @brief Field ERR_AssertTypeNotSupported value: I32(1071)
   static ::Unity::Burst::DiagnosticId const ERR_AssertTypeNotSupported;
 
-  /// @brief Field ERR_AssumeRangeTypeMustBeInteger value: static_cast<int32_t>(0x4b1)
+  /// @brief Field ERR_AssumeRangeTypeMustBeInteger value: I32(1201)
   static ::Unity::Burst::DiagnosticId const ERR_AssumeRangeTypeMustBeInteger;
 
-  /// @brief Field ERR_AssumeRangeTypeMustBeSameSign value: static_cast<int32_t>(0x4b2)
+  /// @brief Field ERR_AssumeRangeTypeMustBeSameSign value: I32(1202)
   static ::Unity::Burst::DiagnosticId const ERR_AssumeRangeTypeMustBeSameSign;
 
-  /// @brief Field ERR_BinaryOperationNotSupported value: static_cast<int32_t>(0x449)
+  /// @brief Field ERR_BinaryOperationNotSupported value: I32(1097)
   static ::Unity::Burst::DiagnosticId const ERR_BinaryOperationNotSupported;
 
-  /// @brief Field ERR_CalliNonCCallingConventionNotSupported value: static_cast<int32_t>(0x44b)
+  /// @brief Field ERR_CalliNonCCallingConventionNotSupported value: I32(1099)
   static ::Unity::Burst::DiagnosticId const ERR_CalliNonCCallingConventionNotSupported;
 
-  /// @brief Field ERR_CalliWithThisNotSupported value: static_cast<int32_t>(0x44a)
+  /// @brief Field ERR_CalliWithThisNotSupported value: I32(1098)
   static ::Unity::Burst::DiagnosticId const ERR_CalliWithThisNotSupported;
 
-  /// @brief Field ERR_CallingBurstDiscardMethodWithReturnValueNotSupported value: static_cast<int32_t>(0x3f7)
+  /// @brief Field ERR_CallingBurstDiscardMethodWithReturnValueNotSupported value: I32(1015)
   static ::Unity::Burst::DiagnosticId const ERR_CallingBurstDiscardMethodWithReturnValueNotSupported;
 
-  /// @brief Field ERR_CallingManagedMethodNotSupported value: static_cast<int32_t>(0x3f8)
+  /// @brief Field ERR_CallingManagedMethodNotSupported value: I32(1016)
   static ::Unity::Burst::DiagnosticId const ERR_CallingManagedMethodNotSupported;
 
-  /// @brief Field ERR_CatchAndFilterConstructionNotSupported value: static_cast<int32_t>(0x3ef)
+  /// @brief Field ERR_CatchAndFilterConstructionNotSupported value: I32(1007)
   static ::Unity::Burst::DiagnosticId const ERR_CatchAndFilterConstructionNotSupported;
 
-  /// @brief Field ERR_CatchConstructionNotSupported value: static_cast<int32_t>(0x3ee)
+  /// @brief Field ERR_CatchConstructionNotSupported value: I32(1006)
   static ::Unity::Burst::DiagnosticId const ERR_CatchConstructionNotSupported;
 
-  /// @brief Field ERR_CircularStaticConstructorUsage value: static_cast<int32_t>(0x442)
+  /// @brief Field ERR_CircularStaticConstructorUsage value: I32(1090)
   static ::Unity::Burst::DiagnosticId const ERR_CircularStaticConstructorUsage;
 
-  /// @brief Field ERR_ConstantExpressionRequired value: static_cast<int32_t>(0x518)
+  /// @brief Field ERR_ConstantExpressionRequired value: I32(1304)
   static ::Unity::Burst::DiagnosticId const ERR_ConstantExpressionRequired;
 
-  /// @brief Field ERR_ConstructorNotSupported value: static_cast<int32_t>(0x420)
+  /// @brief Field ERR_ConstructorNotSupported value: I32(1056)
   static ::Unity::Burst::DiagnosticId const ERR_ConstructorNotSupported;
 
-  /// @brief Field ERR_DebugLogNotSupported value: static_cast<int32_t>(0x542)
+  /// @brief Field ERR_DebugLogNotSupported value: I32(1346)
   static ::Unity::Burst::DiagnosticId const ERR_DebugLogNotSupported;
 
-  /// @brief Field ERR_ErrorWhileProcessingVariable value: static_cast<int32_t>(0x41d)
+  /// @brief Field ERR_ErrorWhileProcessingVariable value: I32(1053)
   static ::Unity::Burst::DiagnosticId const ERR_ErrorWhileProcessingVariable;
 
-  /// @brief Field ERR_ExternalInternalCallsInStaticConstructorsNotSupported value: static_cast<int32_t>(0x443)
+  /// @brief Field ERR_ExternalInternalCallsInStaticConstructorsNotSupported value: I32(1091)
   static ::Unity::Burst::DiagnosticId const ERR_ExternalInternalCallsInStaticConstructorsNotSupported;
 
-  /// @brief Field ERR_FunctionPointerMethodAndTypeMissingBurstCompileAttribute value: static_cast<int32_t>(0x423)
+  /// @brief Field ERR_FunctionPointerMethodAndTypeMissingBurstCompileAttribute value: I32(1059)
   static ::Unity::Burst::DiagnosticId const ERR_FunctionPointerMethodAndTypeMissingBurstCompileAttribute;
 
-  /// @brief Field ERR_FunctionPointerMethodMissingBurstCompileAttribute value: static_cast<int32_t>(0x421)
+  /// @brief Field ERR_FunctionPointerMethodMissingBurstCompileAttribute value: I32(1057)
   static ::Unity::Burst::DiagnosticId const ERR_FunctionPointerMethodMissingBurstCompileAttribute;
 
-  /// @brief Field ERR_FunctionPointerTypeMissingBurstCompileAttribute value: static_cast<int32_t>(0x422)
+  /// @brief Field ERR_FunctionPointerTypeMissingBurstCompileAttribute value: I32(1058)
   static ::Unity::Burst::DiagnosticId const ERR_FunctionPointerTypeMissingBurstCompileAttribute;
 
-  /// @brief Field ERR_InitModuleVerificationError value: static_cast<int32_t>(0x445)
+  /// @brief Field ERR_InitModuleVerificationError value: I32(1093)
   static ::Unity::Burst::DiagnosticId const ERR_InitModuleVerificationError;
 
-  /// @brief Field ERR_InstructionBoxNotSupported value: static_cast<int32_t>(0x3fc)
+  /// @brief Field ERR_InstructionBoxNotSupported value: I32(1020)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionBoxNotSupported;
 
-  /// @brief Field ERR_InstructionCastclassNotSupported value: static_cast<int32_t>(0x406)
+  /// @brief Field ERR_InstructionCastclassNotSupported value: I32(1030)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionCastclassNotSupported;
 
-  /// @brief Field ERR_InstructionEndfilterNotSupported value: static_cast<int32_t>(0x40b)
+  /// @brief Field ERR_InstructionEndfilterNotSupported value: I32(1035)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionEndfilterNotSupported;
 
-  /// @brief Field ERR_InstructionEndfinallyNotSupported value: static_cast<int32_t>(0x40c)
+  /// @brief Field ERR_InstructionEndfinallyNotSupported value: I32(1036)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionEndfinallyNotSupported;
 
-  /// @brief Field ERR_InstructionLdftnNotSupported value: static_cast<int32_t>(0x408)
+  /// @brief Field ERR_InstructionLdftnNotSupported value: I32(1032)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdftnNotSupported;
 
-  /// @brief Field ERR_InstructionLdlenNonConstantLengthNotSupported value: static_cast<int32_t>(0x414)
+  /// @brief Field ERR_InstructionLdlenNonConstantLengthNotSupported value: I32(1044)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdlenNonConstantLengthNotSupported;
 
-  /// @brief Field ERR_InstructionLdstrNotSupported value: static_cast<int32_t>(0x409)
+  /// @brief Field ERR_InstructionLdstrNotSupported value: I32(1033)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdstrNotSupported;
 
-  /// @brief Field ERR_InstructionLdtokenFieldNotSupported value: static_cast<int32_t>(0x3ff)
+  /// @brief Field ERR_InstructionLdtokenFieldNotSupported value: I32(1023)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdtokenFieldNotSupported;
 
-  /// @brief Field ERR_InstructionLdtokenMethodNotSupported value: static_cast<int32_t>(0x400)
+  /// @brief Field ERR_InstructionLdtokenMethodNotSupported value: I32(1024)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdtokenMethodNotSupported;
 
-  /// @brief Field ERR_InstructionLdtokenNotSupported value: static_cast<int32_t>(0x402)
+  /// @brief Field ERR_InstructionLdtokenNotSupported value: I32(1026)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdtokenNotSupported;
 
-  /// @brief Field ERR_InstructionLdtokenTypeNotSupported value: static_cast<int32_t>(0x401)
+  /// @brief Field ERR_InstructionLdtokenTypeNotSupported value: I32(1025)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdtokenTypeNotSupported;
 
-  /// @brief Field ERR_InstructionLdvirtftnNotSupported value: static_cast<int32_t>(0x403)
+  /// @brief Field ERR_InstructionLdvirtftnNotSupported value: I32(1027)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLdvirtftnNotSupported;
 
-  /// @brief Field ERR_InstructionLeaveNotSupported value: static_cast<int32_t>(0x40d)
+  /// @brief Field ERR_InstructionLeaveNotSupported value: I32(1037)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionLeaveNotSupported;
 
-  /// @brief Field ERR_InstructionNewarrNotSupported value: static_cast<int32_t>(0x404)
+  /// @brief Field ERR_InstructionNewarrNotSupported value: I32(1028)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionNewarrNotSupported;
 
-  /// @brief Field ERR_InstructionNewobjWithManagedTypeNotSupported value: static_cast<int32_t>(0x3fd)
+  /// @brief Field ERR_InstructionNewobjWithManagedTypeNotSupported value: I32(1021)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionNewobjWithManagedTypeNotSupported;
 
-  /// @brief Field ERR_InstructionNotSupported value: static_cast<int32_t>(0x40e)
+  /// @brief Field ERR_InstructionNotSupported value: I32(1038)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionNotSupported;
 
-  /// @brief Field ERR_InstructionRethrowNotSupported value: static_cast<int32_t>(0x405)
+  /// @brief Field ERR_InstructionRethrowNotSupported value: I32(1029)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionRethrowNotSupported;
 
-  /// @brief Field ERR_InstructionStfldToManagedObjectNotSupported value: static_cast<int32_t>(0x413)
+  /// @brief Field ERR_InstructionStfldToManagedObjectNotSupported value: I32(1043)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionStfldToManagedObjectNotSupported;
 
-  /// @brief Field ERR_InstructionStsfldNotSupported value: static_cast<int32_t>(0x40a)
+  /// @brief Field ERR_InstructionStsfldNotSupported value: I32(1034)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionStsfldNotSupported;
 
-  /// @brief Field ERR_InstructionTargetCpuFeatureNotAllowedInThisBlock value: static_cast<int32_t>(0x4b0)
+  /// @brief Field ERR_InstructionTargetCpuFeatureNotAllowedInThisBlock value: I32(1200)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionTargetCpuFeatureNotAllowedInThisBlock;
 
-  /// @brief Field ERR_InstructionUnboxNotSupported value: static_cast<int32_t>(0x3fb)
+  /// @brief Field ERR_InstructionUnboxNotSupported value: I32(1019)
   static ::Unity::Burst::DiagnosticId const ERR_InstructionUnboxNotSupported;
 
-  /// @brief Field ERR_InternalCompilerErrorInBackend value: static_cast<int32_t>(0x64)
+  /// @brief Field ERR_InternalCompilerErrorInBackend value: I32(100)
   static ::Unity::Burst::DiagnosticId const ERR_InternalCompilerErrorInBackend;
 
-  /// @brief Field ERR_InternalCompilerErrorInFunction value: static_cast<int32_t>(0x65)
+  /// @brief Field ERR_InternalCompilerErrorInFunction value: I32(101)
   static ::Unity::Burst::DiagnosticId const ERR_InternalCompilerErrorInFunction;
 
-  /// @brief Field ERR_InternalCompilerErrorInInstruction value: static_cast<int32_t>(0x66)
+  /// @brief Field ERR_InternalCompilerErrorInInstruction value: I32(102)
   static ::Unity::Burst::DiagnosticId const ERR_InternalCompilerErrorInInstruction;
 
-  /// @brief Field ERR_LdfldaWithFixedArrayExpected value: static_cast<int32_t>(0x3f0)
+  /// @brief Field ERR_LdfldaWithFixedArrayExpected value: I32(1008)
   static ::Unity::Burst::DiagnosticId const ERR_LdfldaWithFixedArrayExpected;
 
-  /// @brief Field ERR_LdftnNonCCallingConventionNotSupported value: static_cast<int32_t>(0x44d)
+  /// @brief Field ERR_LdftnNonCCallingConventionNotSupported value: I32(1101)
   static ::Unity::Burst::DiagnosticId const ERR_LdftnNonCCallingConventionNotSupported;
 
-  /// @brief Field ERR_LdobjFromANonPointerNonReference value: static_cast<int32_t>(0x565)
+  /// @brief Field ERR_LdobjFromANonPointerNonReference value: I32(1381)
   static ::Unity::Burst::DiagnosticId const ERR_LdobjFromANonPointerNonReference;
 
-  /// @brief Field ERR_LoadingArgumentWithManagedTypeNotSupported value: static_cast<int32_t>(0x3f4)
+  /// @brief Field ERR_LoadingArgumentWithManagedTypeNotSupported value: I32(1012)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingArgumentWithManagedTypeNotSupported;
 
-  /// @brief Field ERR_LoadingFieldFromManagedObjectNotSupported value: static_cast<int32_t>(0x3f2)
+  /// @brief Field ERR_LoadingFieldFromManagedObjectNotSupported value: I32(1010)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFieldFromManagedObjectNotSupported;
 
-  /// @brief Field ERR_LoadingFieldWithManagedTypeNotSupported value: static_cast<int32_t>(0x3f3)
+  /// @brief Field ERR_LoadingFieldWithManagedTypeNotSupported value: I32(1011)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFieldWithManagedTypeNotSupported;
 
-  /// @brief Field ERR_LoadingFromManagedNonReadonlyStaticFieldNotSupported value: static_cast<int32_t>(0x412)
+  /// @brief Field ERR_LoadingFromManagedNonReadonlyStaticFieldNotSupported value: I32(1042)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFromManagedNonReadonlyStaticFieldNotSupported;
 
-  /// @brief Field ERR_LoadingFromManagedStaticFieldNotSupported value: static_cast<int32_t>(0x411)
+  /// @brief Field ERR_LoadingFromManagedStaticFieldNotSupported value: I32(1041)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFromManagedStaticFieldNotSupported;
 
-  /// @brief Field ERR_LoadingFromNonReadonlyStaticFieldNotSupported value: static_cast<int32_t>(0x410)
+  /// @brief Field ERR_LoadingFromNonReadonlyStaticFieldNotSupported value: I32(1040)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFromNonReadonlyStaticFieldNotSupported;
 
-  /// @brief Field ERR_LoadingFromStaticFieldNotSupported value: static_cast<int32_t>(0x40f)
+  /// @brief Field ERR_LoadingFromStaticFieldNotSupported value: I32(1039)
   static ::Unity::Burst::DiagnosticId const ERR_LoadingFromStaticFieldNotSupported;
 
-  /// @brief Field ERR_LoopIntrinsicMustBeCalledInsideLoop value: static_cast<int32_t>(0x528)
+  /// @brief Field ERR_LoopIntrinsicMustBeCalledInsideLoop value: I32(1320)
   static ::Unity::Burst::DiagnosticId const ERR_LoopIntrinsicMustBeCalledInsideLoop;
 
-  /// @brief Field ERR_LoopUnexpectedAutoVectorization value: static_cast<int32_t>(0x529)
+  /// @brief Field ERR_LoopUnexpectedAutoVectorization value: I32(1321)
   static ::Unity::Burst::DiagnosticId const ERR_LoopUnexpectedAutoVectorization;
 
-  /// @brief Field ERR_ManagedArgumentsNotSupported value: static_cast<int32_t>(0x3ec)
+  /// @brief Field ERR_ManagedArgumentsNotSupported value: I32(1004)
   static ::Unity::Burst::DiagnosticId const ERR_ManagedArgumentsNotSupported;
 
-  /// @brief Field ERR_ManagedStaticConstructor value: static_cast<int32_t>(0x550)
+  /// @brief Field ERR_ManagedStaticConstructor value: I32(1360)
   static ::Unity::Burst::DiagnosticId const ERR_ManagedStaticConstructor;
 
-  /// @brief Field ERR_MarshalAsNativeTypeOnReturnTypeNotSupported value: static_cast<int32_t>(0x42d)
+  /// @brief Field ERR_MarshalAsNativeTypeOnReturnTypeNotSupported value: I32(1069)
   static ::Unity::Burst::DiagnosticId const ERR_MarshalAsNativeTypeOnReturnTypeNotSupported;
 
-  /// @brief Field ERR_MarshalAsOnFieldNotSupported value: static_cast<int32_t>(0x41a)
+  /// @brief Field ERR_MarshalAsOnFieldNotSupported value: I32(1050)
   static ::Unity::Burst::DiagnosticId const ERR_MarshalAsOnFieldNotSupported;
 
-  /// @brief Field ERR_MarshalAsOnParameterNotSupported value: static_cast<int32_t>(0x425)
+  /// @brief Field ERR_MarshalAsOnParameterNotSupported value: I32(1061)
   static ::Unity::Burst::DiagnosticId const ERR_MarshalAsOnParameterNotSupported;
 
-  /// @brief Field ERR_MarshalAsOnReturnTypeNotSupported value: static_cast<int32_t>(0x426)
+  /// @brief Field ERR_MarshalAsOnReturnTypeNotSupported value: I32(1062)
   static ::Unity::Burst::DiagnosticId const ERR_MarshalAsOnReturnTypeNotSupported;
 
-  /// @brief Field ERR_MethodNotSupported value: static_cast<int32_t>(0x516)
+  /// @brief Field ERR_MethodNotSupported value: I32(1302)
   static ::Unity::Burst::DiagnosticId const ERR_MethodNotSupported;
 
-  /// @brief Field ERR_MissingExternBindings value: static_cast<int32_t>(0x42c)
+  /// @brief Field ERR_MissingExternBindings value: I32(1068)
   static ::Unity::Burst::DiagnosticId const ERR_MissingExternBindings;
 
-  /// @brief Field ERR_ModuleVerificationError value: static_cast<int32_t>(0x446)
+  /// @brief Field ERR_ModuleVerificationError value: I32(1094)
   static ::Unity::Burst::DiagnosticId const ERR_ModuleVerificationError;
 
-  /// @brief Field ERR_MultiDimensionalArrayUnsupported value: static_cast<int32_t>(0x567)
+  /// @brief Field ERR_MultiDimensionalArrayUnsupported value: I32(1383)
   static ::Unity::Burst::DiagnosticId const ERR_MultiDimensionalArrayUnsupported;
 
-  /// @brief Field ERR_NonBlittableAndNonManagedSequentialStructNotSupported value: static_cast<int32_t>(0x568)
+  /// @brief Field ERR_NonBlittableAndNonManagedSequentialStructNotSupported value: I32(1384)
   static ::Unity::Burst::DiagnosticId const ERR_NonBlittableAndNonManagedSequentialStructNotSupported;
 
-  /// @brief Field ERR_OnlyStaticMethodsAllowed value: static_cast<int32_t>(0x3e8)
+  /// @brief Field ERR_OnlyStaticMethodsAllowed value: I32(1000)
   static ::Unity::Burst::DiagnosticId const ERR_OnlyStaticMethodsAllowed;
 
-  /// @brief Field ERR_PlatformNotSupported value: static_cast<int32_t>(0x444)
+  /// @brief Field ERR_PlatformNotSupported value: I32(1092)
   static ::Unity::Burst::DiagnosticId const ERR_PlatformNotSupported;
 
-  /// @brief Field ERR_PointerArgumentsUnexpectedAliasing value: static_cast<int32_t>(0x51e)
+  /// @brief Field ERR_PointerArgumentsUnexpectedAliasing value: I32(1310)
   static ::Unity::Burst::DiagnosticId const ERR_PointerArgumentsUnexpectedAliasing;
 
-  /// @brief Field ERR_PointerExpected value: static_cast<int32_t>(0x3f1)
+  /// @brief Field ERR_PointerExpected value: I32(1009)
   static ::Unity::Burst::DiagnosticId const ERR_PointerExpected;
 
-  /// @brief Field ERR_RequiredTypeModifierNotSupported value: static_cast<int32_t>(0x41c)
+  /// @brief Field ERR_RequiredTypeModifierNotSupported value: I32(1052)
   static ::Unity::Burst::DiagnosticId const ERR_RequiredTypeModifierNotSupported;
 
-  /// @brief Field ERR_StaticConstantArrayInStaticConstructor value: static_cast<int32_t>(0x551)
+  /// @brief Field ERR_StaticConstantArrayInStaticConstructor value: I32(1361)
   static ::Unity::Burst::DiagnosticId const ERR_StaticConstantArrayInStaticConstructor;
 
-  /// @brief Field ERR_StoringToFieldInReadOnlyParameterNotAllowed value: static_cast<int32_t>(0x431)
+  /// @brief Field ERR_StoringToFieldInReadOnlyParameterNotAllowed value: I32(1073)
   static ::Unity::Burst::DiagnosticId const ERR_StoringToFieldInReadOnlyParameterNotAllowed;
 
-  /// @brief Field ERR_StoringToReadOnlyFieldNotAllowed value: static_cast<int32_t>(0x430)
+  /// @brief Field ERR_StoringToReadOnlyFieldNotAllowed value: I32(1072)
   static ::Unity::Burst::DiagnosticId const ERR_StoringToReadOnlyFieldNotAllowed;
 
-  /// @brief Field ERR_StoringToReadOnlyParameterNotAllowed value: static_cast<int32_t>(0x432)
+  /// @brief Field ERR_StoringToReadOnlyParameterNotAllowed value: I32(1074)
   static ::Unity::Burst::DiagnosticId const ERR_StoringToReadOnlyParameterNotAllowed;
 
-  /// @brief Field ERR_StringArgumentIndexOutOfRange value: static_cast<int32_t>(0x540)
+  /// @brief Field ERR_StringArgumentIndexOutOfRange value: I32(1344)
   static ::Unity::Burst::DiagnosticId const ERR_StringArgumentIndexOutOfRange;
 
-  /// @brief Field ERR_StringArrayInvalidArrayCreation value: static_cast<int32_t>(0x546)
+  /// @brief Field ERR_StringArrayInvalidArrayCreation value: I32(1350)
   static ::Unity::Burst::DiagnosticId const ERR_StringArrayInvalidArrayCreation;
 
-  /// @brief Field ERR_StringArrayInvalidArrayIndex value: static_cast<int32_t>(0x549)
+  /// @brief Field ERR_StringArrayInvalidArrayIndex value: I32(1353)
   static ::Unity::Burst::DiagnosticId const ERR_StringArrayInvalidArrayIndex;
 
-  /// @brief Field ERR_StringArrayInvalidArrayIndexOutOfRange value: static_cast<int32_t>(0x54a)
+  /// @brief Field ERR_StringArrayInvalidArrayIndexOutOfRange value: I32(1354)
   static ::Unity::Burst::DiagnosticId const ERR_StringArrayInvalidArrayIndexOutOfRange;
 
-  /// @brief Field ERR_StringArrayInvalidArraySize value: static_cast<int32_t>(0x547)
+  /// @brief Field ERR_StringArrayInvalidArraySize value: I32(1351)
   static ::Unity::Burst::DiagnosticId const ERR_StringArrayInvalidArraySize;
 
-  /// @brief Field ERR_StringArrayInvalidControlFlow value: static_cast<int32_t>(0x548)
+  /// @brief Field ERR_StringArrayInvalidControlFlow value: I32(1352)
   static ::Unity::Burst::DiagnosticId const ERR_StringArrayInvalidControlFlow;
 
-  /// @brief Field ERR_StringInternalCompilerFixedStringTooManyUsers value: static_cast<int32_t>(0x53c)
+  /// @brief Field ERR_StringInternalCompilerFixedStringTooManyUsers value: I32(1340)
   static ::Unity::Burst::DiagnosticId const ERR_StringInternalCompilerFixedStringTooManyUsers;
 
-  /// @brief Field ERR_StringInvalidArgument value: static_cast<int32_t>(0x545)
+  /// @brief Field ERR_StringInvalidArgument value: I32(1349)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidArgument;
 
-  /// @brief Field ERR_StringInvalidArgumentType value: static_cast<int32_t>(0x541)
+  /// @brief Field ERR_StringInvalidArgumentType value: I32(1345)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidArgumentType;
 
-  /// @brief Field ERR_StringInvalidFormatForArgument value: static_cast<int32_t>(0x53f)
+  /// @brief Field ERR_StringInvalidFormatForArgument value: I32(1343)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidFormatForArgument;
 
-  /// @brief Field ERR_StringInvalidFormatMissingClosingBrace value: static_cast<int32_t>(0x53d)
+  /// @brief Field ERR_StringInvalidFormatMissingClosingBrace value: I32(1341)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidFormatMissingClosingBrace;
 
-  /// @brief Field ERR_StringInvalidIntegerForArgumentIndex value: static_cast<int32_t>(0x53e)
+  /// @brief Field ERR_StringInvalidIntegerForArgumentIndex value: I32(1342)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidIntegerForArgumentIndex;
 
-  /// @brief Field ERR_StringInvalidNonLiteralFormat value: static_cast<int32_t>(0x543)
+  /// @brief Field ERR_StringInvalidNonLiteralFormat value: I32(1347)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidNonLiteralFormat;
 
-  /// @brief Field ERR_StringInvalidStringFormatMethod value: static_cast<int32_t>(0x544)
+  /// @brief Field ERR_StringInvalidStringFormatMethod value: I32(1348)
   static ::Unity::Burst::DiagnosticId const ERR_StringInvalidStringFormatMethod;
 
-  /// @brief Field ERR_StringLiteralRequired value: static_cast<int32_t>(0x566)
+  /// @brief Field ERR_StringLiteralRequired value: I32(1382)
   static ::Unity::Burst::DiagnosticId const ERR_StringLiteralRequired;
 
-  /// @brief Field ERR_StringLiteralTooBig value: static_cast<int32_t>(0x44c)
+  /// @brief Field ERR_StringLiteralTooBig value: I32(1100)
   static ::Unity::Burst::DiagnosticId const ERR_StringLiteralTooBig;
 
-  /// @brief Field ERR_StructByValueNotSupported value: static_cast<int32_t>(0x428)
+  /// @brief Field ERR_StructByValueNotSupported value: I32(1064)
   static ::Unity::Burst::DiagnosticId const ERR_StructByValueNotSupported;
 
-  /// @brief Field ERR_StructSizeNotSupported value: static_cast<int32_t>(0x418)
+  /// @brief Field ERR_StructSizeNotSupported value: I32(1048)
   static ::Unity::Burst::DiagnosticId const ERR_StructSizeNotSupported;
 
-  /// @brief Field ERR_StructWithAutoLayoutNotSupported value: static_cast<int32_t>(0x415)
+  /// @brief Field ERR_StructWithAutoLayoutNotSupported value: I32(1045)
   static ::Unity::Burst::DiagnosticId const ERR_StructWithAutoLayoutNotSupported;
 
-  /// @brief Field ERR_StructWithGenericParametersAndExplicitLayoutNotSupported value: static_cast<int32_t>(0x417)
+  /// @brief Field ERR_StructWithGenericParametersAndExplicitLayoutNotSupported value: I32(1047)
   static ::Unity::Burst::DiagnosticId const ERR_StructWithGenericParametersAndExplicitLayoutNotSupported;
 
-  /// @brief Field ERR_StructZeroSizeNotSupported value: static_cast<int32_t>(0x419)
+  /// @brief Field ERR_StructZeroSizeNotSupported value: I32(1049)
   static ::Unity::Burst::DiagnosticId const ERR_StructZeroSizeNotSupported;
 
-  /// @brief Field ERR_StructsWithNonUnicodeCharsNotSupported value: static_cast<int32_t>(0x42a)
+  /// @brief Field ERR_StructsWithNonUnicodeCharsNotSupported value: I32(1066)
   static ::Unity::Burst::DiagnosticId const ERR_StructsWithNonUnicodeCharsNotSupported;
 
-  /// @brief Field ERR_TypeManagerStaticFieldNotCompatible value: static_cast<int32_t>(0x433)
+  /// @brief Field ERR_TypeManagerStaticFieldNotCompatible value: I32(1075)
   static ::Unity::Burst::DiagnosticId const ERR_TypeManagerStaticFieldNotCompatible;
 
-  /// @brief Field ERR_TypeNotBlittableForFunctionPointer value: static_cast<int32_t>(0x427)
+  /// @brief Field ERR_TypeNotBlittableForFunctionPointer value: I32(1063)
   static ::Unity::Burst::DiagnosticId const ERR_TypeNotBlittableForFunctionPointer;
 
-  /// @brief Field ERR_TypeNotSupported value: static_cast<int32_t>(0x41b)
+  /// @brief Field ERR_TypeNotSupported value: I32(1051)
   static ::Unity::Burst::DiagnosticId const ERR_TypeNotSupported;
 
-  /// @brief Field ERR_UnableToAccessManagedMethod value: static_cast<int32_t>(0x3e9)
+  /// @brief Field ERR_UnableToAccessManagedMethod value: I32(1001)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToAccessManagedMethod;
 
-  /// @brief Field ERR_UnableToCallMethodOnInterfaceObject value: static_cast<int32_t>(0x44e)
+  /// @brief Field ERR_UnableToCallMethodOnInterfaceObject value: I32(1102)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToCallMethodOnInterfaceObject;
 
-  /// @brief Field ERR_UnableToFindFieldForTypeManager value: static_cast<int32_t>(0x435)
+  /// @brief Field ERR_UnableToFindFieldForTypeManager value: I32(1077)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToFindFieldForTypeManager;
 
-  /// @brief Field ERR_UnableToFindInterfaceMethod value: static_cast<int32_t>(0x3ea)
+  /// @brief Field ERR_UnableToFindInterfaceMethod value: I32(1002)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToFindInterfaceMethod;
 
-  /// @brief Field ERR_UnableToFindTypeIndexForTypeManagerType value: static_cast<int32_t>(0x434)
+  /// @brief Field ERR_UnableToFindTypeIndexForTypeManagerType value: I32(1076)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToFindTypeIndexForTypeManagerType;
 
-  /// @brief Field ERR_UnableToFindTypeRequiredForTypeManager value: static_cast<int32_t>(0x447)
+  /// @brief Field ERR_UnableToFindTypeRequiredForTypeManager value: I32(1095)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToFindTypeRequiredForTypeManager;
 
-  /// @brief Field ERR_UnableToResolveMethod value: static_cast<int32_t>(0x41f)
+  /// @brief Field ERR_UnableToResolveMethod value: I32(1055)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToResolveMethod;
 
-  /// @brief Field ERR_UnableToResolveType value: static_cast<int32_t>(0x41e)
+  /// @brief Field ERR_UnableToResolveType value: I32(1054)
   static ::Unity::Burst::DiagnosticId const ERR_UnableToResolveType;
 
-  /// @brief Field ERR_UnexpectedEmptyMethodBody value: static_cast<int32_t>(0x3eb)
+  /// @brief Field ERR_UnexpectedEmptyMethodBody value: I32(1003)
   static ::Unity::Burst::DiagnosticId const ERR_UnexpectedEmptyMethodBody;
 
-  /// @brief Field ERR_UnexpectedIntegerTypesForBinaryOperation value: static_cast<int32_t>(0x448)
+  /// @brief Field ERR_UnexpectedIntegerTypesForBinaryOperation value: I32(1096)
   static ::Unity::Burst::DiagnosticId const ERR_UnexpectedIntegerTypesForBinaryOperation;
 
-  /// @brief Field ERR_UnmanagedStringMethodInvalid value: static_cast<int32_t>(0x54c)
+  /// @brief Field ERR_UnmanagedStringMethodInvalid value: I32(1356)
   static ::Unity::Burst::DiagnosticId const ERR_UnmanagedStringMethodInvalid;
 
-  /// @brief Field ERR_UnmanagedStringMethodMissing value: static_cast<int32_t>(0x54b)
+  /// @brief Field ERR_UnmanagedStringMethodMissing value: I32(1355)
   static ::Unity::Burst::DiagnosticId const ERR_UnmanagedStringMethodMissing;
 
-  /// @brief Field ERR_UnsupportedCpuDependentBranch value: static_cast<int32_t>(0x4af)
+  /// @brief Field ERR_UnsupportedCpuDependentBranch value: I32(1199)
   static ::Unity::Burst::DiagnosticId const ERR_UnsupportedCpuDependentBranch;
 
-  /// @brief Field ERR_UnsupportedSpillTransform value: static_cast<int32_t>(0x514)
+  /// @brief Field ERR_UnsupportedSpillTransform value: I32(1300)
   static ::Unity::Burst::DiagnosticId const ERR_UnsupportedSpillTransform;
 
-  /// @brief Field ERR_UnsupportedSpillTransformTooManyUsers value: static_cast<int32_t>(0x515)
+  /// @brief Field ERR_UnsupportedSpillTransformTooManyUsers value: I32(1301)
   static ::Unity::Burst::DiagnosticId const ERR_UnsupportedSpillTransformTooManyUsers;
 
-  /// @brief Field ERR_VarArgFunctionNotSupported value: static_cast<int32_t>(0x569)
+  /// @brief Field ERR_VarArgFunctionNotSupported value: I32(1385)
   static ::Unity::Burst::DiagnosticId const ERR_VarArgFunctionNotSupported;
 
-  /// @brief Field ERR_VectorsByValueNotSupported value: static_cast<int32_t>(0x42b)
+  /// @brief Field ERR_VectorsByValueNotSupported value: I32(1067)
   static ::Unity::Burst::DiagnosticId const ERR_VectorsByValueNotSupported;
 
-  /// @brief Field ERR_VectorsLoadFieldIsAddress value: static_cast<int32_t>(0x517)
+  /// @brief Field ERR_VectorsLoadFieldIsAddress value: I32(1303)
   static ::Unity::Burst::DiagnosticId const ERR_VectorsLoadFieldIsAddress;
 
-  /// @brief Field INF_FunctionPointerMethodAndTypeMissingMonoPInvokeCallbackAttribute value: static_cast<int32_t>(0x295e)
+  /// @brief Field INF_FunctionPointerMethodAndTypeMissingMonoPInvokeCallbackAttribute value: I32(10590)
   static ::Unity::Burst::DiagnosticId const INF_FunctionPointerMethodAndTypeMissingMonoPInvokeCallbackAttribute;
 
-  /// @brief Field WRN_ACallToMethodHasBeenDiscarded value: static_cast<int32_t>(0x55b)
+  /// @brief Field WRN_ACallToMethodHasBeenDiscarded value: I32(1371)
   static ::Unity::Burst::DiagnosticId const WRN_ACallToMethodHasBeenDiscarded;
 
-  /// @brief Field WRN_ExceptionThrownInNonSafetyCheckGuardedFunction value: static_cast<int32_t>(0x55a)
+  /// @brief Field WRN_ExceptionThrownInNonSafetyCheckGuardedFunction value: I32(1370)
   static ::Unity::Burst::DiagnosticId const WRN_ExceptionThrownInNonSafetyCheckGuardedFunction;
 
-  /// @brief Field WRN_LoopIntrinsicCalledButLoopOptimizedAway value: static_cast<int32_t>(0x52a)
+  /// @brief Field WRN_LoopIntrinsicCalledButLoopOptimizedAway value: I32(1322)
   static ::Unity::Burst::DiagnosticId const WRN_LoopIntrinsicCalledButLoopOptimizedAway;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14626 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Burst::DiagnosticId, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Burst::DiagnosticId, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Burst::DiagnosticId, 0x4>, "Size mismatch!");
 
 } // namespace Unity::Burst
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::DiagnosticId, "Unity.Burst", "DiagnosticId");

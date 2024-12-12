@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::MissionLevelNoTransitionInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3ad8210;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x3b37854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelNoTransitionInstaller::*)()>(
     &::GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad836c;
+  constexpr static std::size_t addrs = 0x3b37d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
@@ -109,7 +109,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MissionLevelNo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
@@ -121,8 +121,7 @@ constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::MissionLe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const&
-GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__playerSpecificSettings() const {
+constexpr ::GlobalNamespace::PlayerSpecificSettings* const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__playerSpecificSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
@@ -158,7 +157,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::MissionLevelNoTr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -171,13 +170,13 @@ inline void GlobalNamespace::MissionLevelNoTransitionInstaller::InstallBindings(
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
-inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* GlobalNamespace::MissionLevelNoTransitionInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelNoTransitionInstaller*>());
-}
 inline void GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* GlobalNamespace::MissionLevelNoTransitionInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelNoTransitionInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelNoTransitionInstaller::MissionLevelNoTransitionInstaller() {}

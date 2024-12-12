@@ -23,16 +23,15 @@ class ParametricBoxFakeGlowController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxFakeGlowController);
-// Type: ::ParametricBoxFakeGlowController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ParametricBoxFakeGlowController*
+// CS Name: ParametricBoxFakeGlowController
 class CORDL_TYPE ParametricBoxFakeGlowController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _colorID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
+  __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
 
   /// @brief Field _materialPropertyBlockController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
@@ -43,7 +42,7 @@ public:
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
   /// @brief Field _sizeParamsID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
+  __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
 
   /// @brief Field color, offset 0x34, size 0x10
   __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Color color;
@@ -65,18 +64,18 @@ public:
   /// @brief Field width, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
-  /// @brief Method Awake, addr 0x39855f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39dbec0, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ParametricBoxFakeGlowController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3985764, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39dc02c, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3985618, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39dbee0, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3985640, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39dbf08, size 0x124, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -127,7 +126,7 @@ public:
 
   constexpr void __cordl_internal_set_width(float_t value);
 
-  /// @brief Method .ctor, addr 0x3985784, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dc04c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
@@ -138,7 +137,7 @@ public:
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_localPosition, addr 0x39855b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x39dbe78, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -154,6 +153,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxFakeGlowController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ParametricBoxFakeGlowController(ParametricBoxFakeGlowController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16266 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;
@@ -179,14 +181,9 @@ public:
   /// @brief Field _materialPropertyBlockController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16231 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParametricBoxFakeGlowController, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ParametricBoxFakeGlowController, ___width) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParametricBoxFakeGlowController, ___height) == 0x24, "Offset mismatch!");
@@ -202,6 +199,8 @@ static_assert(offsetof(::GlobalNamespace::ParametricBoxFakeGlowController, ___co
 static_assert(offsetof(::GlobalNamespace::ParametricBoxFakeGlowController, ____meshRenderer) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParametricBoxFakeGlowController, ____materialPropertyBlockController) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParametricBoxFakeGlowController, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParametricBoxFakeGlowController);

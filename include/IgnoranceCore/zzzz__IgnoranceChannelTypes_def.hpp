@@ -12,11 +12,10 @@ struct IgnoranceChannelTypes;
 }
 // Write type traits
 MARK_VAL_T(::IgnoranceCore::IgnoranceChannelTypes);
-// Type: IgnoranceCore::IgnoranceChannelTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace IgnoranceCore {
 // Is value type: true
-// CS Name: ::IgnoranceCore::IgnoranceChannelTypes
+// CS Name: IgnoranceCore.IgnoranceChannelTypes
 struct CORDL_TYPE IgnoranceChannelTypes {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr IgnoranceChannelTypes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Reliable value: static_cast<int32_t>(0x1)
+  /// @brief Field Reliable value: I32(1)
   static ::IgnoranceCore::IgnoranceChannelTypes const Reliable;
 
-  /// @brief Field ReliableUnsequenced value: static_cast<int32_t>(0x3)
+  /// @brief Field ReliableUnsequenced value: I32(3)
   static ::IgnoranceCore::IgnoranceChannelTypes const ReliableUnsequenced;
 
-  /// @brief Field Unreliable value: static_cast<int32_t>(0x2)
+  /// @brief Field Unreliable value: I32(2)
   static ::IgnoranceCore::IgnoranceChannelTypes const Unreliable;
 
-  /// @brief Field UnreliableFragmented value: static_cast<int32_t>(0x8)
+  /// @brief Field UnreliableFragmented value: I32(8)
   static ::IgnoranceCore::IgnoranceChannelTypes const UnreliableFragmented;
 
-  /// @brief Field UnreliableSequenced value: static_cast<int32_t>(0x0)
+  /// @brief Field UnreliableSequenced value: I32(0)
   static ::IgnoranceCore::IgnoranceChannelTypes const UnreliableSequenced;
 
-  /// @brief Field Unthrottled value: static_cast<int32_t>(0x20)
+  /// @brief Field Unthrottled value: I32(32)
   static ::IgnoranceCore::IgnoranceChannelTypes const Unthrottled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17754 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceChannelTypes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::IgnoranceCore::IgnoranceChannelTypes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceChannelTypes, 0x4>, "Size mismatch!");
 
 } // namespace IgnoranceCore
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceChannelTypes, "IgnoranceCore", "IgnoranceChannelTypes");

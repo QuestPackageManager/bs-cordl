@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SetupCoroutine)
 namespace System::Collections {
 class IEnumerator;
@@ -22,18 +21,17 @@ class SetupCoroutine;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SetupCoroutine);
-// Type: UnityEngine::SetupCoroutine
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::SetupCoroutine*
+// CS Name: UnityEngine.SetupCoroutine
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMember, addr 0x48470a0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x48a7dd0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
-  /// @brief Method InvokeMoveNext, addr 0x4846f74, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x48a7ca4, size 0x12c, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, ::System::IntPtr returnValueAddress);
 
 protected:
@@ -51,7 +49,7 @@ public:
   SetupCoroutine(SetupCoroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

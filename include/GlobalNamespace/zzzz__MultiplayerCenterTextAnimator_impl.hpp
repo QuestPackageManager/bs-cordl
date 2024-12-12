@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::Awake)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3b67ca0;
+  constexpr static std::size_t addrs = 0x3bc93dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b68088;
+  constexpr static std::size_t addrs = 0x3bc97c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(
     ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b68110;
+  constexpr static std::size_t addrs = 0x3bc984c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b681ac;
+  constexpr static std::size_t addrs = 0x3bc98e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(
     ::UnityEngine::Vector3, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b681f4;
+  constexpr static std::size_t addrs = 0x3bc9930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3b68284;
+  constexpr static std::size_t addrs = 0x3bc99c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::SetText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b683c8;
+  constexpr static std::size_t addrs = 0x3bc9b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b683ec;
+  constexpr static std::size_t addrs = 0x3bc9b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_0)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b683f4;
+  constexpr static std::size_t addrs = 0x3bc9b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_1)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b6846c;
+  constexpr static std::size_t addrs = 0x3bc9ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b684e4;
+  constexpr static std::size_t addrs = 0x3bc9c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_2)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b68510;
+  constexpr static std::size_t addrs = 0x3bc9c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b6852c;
+  constexpr static std::size_t addrs = 0x3bc9c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_4)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b68550;
+  constexpr static std::size_t addrs = 0x3bc9c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fadeInTween() const {
+constexpr ::Tweening::Tween_1<float_t>* const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fadeInTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeInTween;
 }
@@ -271,7 +271,7 @@ constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fadeOutTween() const {
+constexpr ::Tweening::Tween_1<float_t>* const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fadeOutTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
@@ -283,7 +283,7 @@ constexpr ::Tweening::Tween_1<float_t>*& GlobalNamespace::MultiplayerCenterTextA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSizeTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fontSizeTween() const {
+constexpr ::Tweening::Tween_1<float_t>* const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__fontSizeTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSizeTween;
 }
@@ -295,7 +295,7 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& GlobalNamespace::Multiplay
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__colorTween() const {
+constexpr ::Tweening::Tween_1<::UnityEngine::Color>* const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__colorTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTween;
 }
@@ -307,7 +307,7 @@ constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& GlobalNamespace::Multipl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__offsetTween() const {
+constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>* const& GlobalNamespace::MultiplayerCenterTextAnimator::__cordl_internal_get__offsetTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____offsetTween;
 }
@@ -359,9 +359,6 @@ inline void GlobalNamespace::MultiplayerCenterTextAnimator::SetText(::StringW te
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, text);
 }
-inline ::GlobalNamespace::MultiplayerCenterTextAnimator* GlobalNamespace::MultiplayerCenterTextAnimator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerCenterTextAnimator*>());
-}
 inline void GlobalNamespace::MultiplayerCenterTextAnimator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -401,6 +398,9 @@ inline void GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_4(::Unit
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(), "<Awake>b__8_4", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
+}
+inline ::GlobalNamespace::MultiplayerCenterTextAnimator* GlobalNamespace::MultiplayerCenterTextAnimator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerCenterTextAnimator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerCenterTextAnimator::MultiplayerCenterTextAnimator() {}

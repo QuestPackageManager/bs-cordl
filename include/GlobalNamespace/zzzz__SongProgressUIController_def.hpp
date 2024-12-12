@@ -35,11 +35,10 @@ class SongProgressUIController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongProgressUIController);
-// Type: ::SongProgressUIController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongProgressUIController*
+// CS Name: SongProgressUIController
 class CORDL_TYPE SongProgressUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -98,26 +97,26 @@ public:
   /// @brief Field _stringBuilder, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
-  /// @brief Method HandleSongDidFinish, addr 0x3b454fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSongDidFinish, addr 0x3ba6bec, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b450f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3ba67e0, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b44e6c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba655c, size 0x284, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b451c0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba68b0, size 0xf8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSongProgressUIElements, addr 0x3b452b8, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method UpdateSongProgressUIElements, addr 0x3ba69a8, size 0x244, virtual false, abstract: false, final false
   inline void UpdateSongProgressUIElements(int32_t minutes, int32_t seconds);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__durationMinutesText() const;
 
@@ -183,9 +182,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__songLength();
 
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__stringBuilder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
@@ -223,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3b45548, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba6c38, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -239,6 +238,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SongProgressUIController(SongProgressUIController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4421 };
 
   /// @brief Field _slider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Slider> ____slider;
@@ -294,14 +296,9 @@ public:
   /// @brief Field _songDidFinish, offset: 0x98, size: 0x1, def value: None
   bool ____songDidFinish;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4409 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongProgressUIController, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____slider) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressImage) == 0x28, "Offset mismatch!");
@@ -337,6 +334,8 @@ static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____songLeng
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____progressMinutesFormatString) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongProgressUIController, ____songDidFinish) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongProgressUIController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongProgressUIController);

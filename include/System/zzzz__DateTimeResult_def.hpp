@@ -17,22 +17,13 @@ namespace System::Globalization {
 class Calendar;
 }
 namespace System {
-struct DateTime;
-}
-namespace System {
 class Object;
 }
 namespace System {
 struct ParseFailureKind;
 }
 namespace System {
-struct ParseFlags;
-}
-namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-struct TimeSpan;
 }
 // Forward declare root types
 namespace System {
@@ -40,36 +31,35 @@ struct DateTimeResult;
 }
 // Write type traits
 MARK_VAL_T(::System::DateTimeResult);
-// Type: System::DateTimeResult
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.ParseFailureKind, System.ParseFlags, System.ReadOnlySpan`1<T>, System.TimeSpan
 namespace System {
 // Is value type: true
-// CS Name: ::System::DateTimeResult
+// CS Name: System.DateTimeResult
 struct CORDL_TYPE DateTimeResult {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3d82a68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3de2bdc, size 0x24, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> originalDateTimeString);
 
-  /// @brief Method SetBadDateTimeFailure, addr 0x3d82b90, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetBadDateTimeFailure, addr 0x3de2d04, size 0x50, virtual false, abstract: false, final false
   inline void SetBadDateTimeFailure();
 
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x3d82a98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x3de2c0c, size 0x94, virtual false, abstract: false, final false
   inline void SetBadFormatSpecifierFailure();
 
-  /// @brief Method SetBadFormatSpecifierFailure, addr 0x3d82b2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetBadFormatSpecifierFailure, addr 0x3de2ca0, size 0x64, virtual false, abstract: false, final false
   inline void SetBadFormatSpecifierFailure(::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier);
 
-  /// @brief Method SetDate, addr 0x3d82a8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetDate, addr 0x3de2c00, size 0xc, virtual false, abstract: false, final false
   inline void SetDate(int32_t year, int32_t month, int32_t day);
 
-  /// @brief Method SetFailure, addr 0x3d82be0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de2d54, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID);
 
-  /// @brief Method SetFailure, addr 0x3d82bec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de2d60, size 0xc, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x3d82bf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x3de2d6c, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName);
 
   // Ctor Parameters []
@@ -89,6 +79,12 @@ public:
                            ::System::TimeSpan timeZoneOffset, ::System::Globalization::Calendar* calendar, ::System::DateTime parsedDate, ::System::ParseFailureKind failure,
                            ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument, ::StringW failureArgumentName, ::System::ReadOnlySpan_1<char16_t> originalDateTimeString,
                            ::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2401 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
 
   /// @brief Field Year, offset: 0x0, size: 0x4, def value: None
   int32_t Year;
@@ -144,17 +140,9 @@ public:
   /// @brief Field failedFormatSpecifier, offset: 0x70, size: 0x10, def value: None
   ::System::ReadOnlySpan_1<char16_t> failedFormatSpecifier;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2401 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::DateTimeResult, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::System::DateTimeResult, Year) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::DateTimeResult, Month) == 0x4, "Offset mismatch!");
@@ -190,6 +178,8 @@ static_assert(offsetof(::System::DateTimeResult, failureArgumentName) == 0x58, "
 static_assert(offsetof(::System::DateTimeResult, originalDateTimeString) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::System::DateTimeResult, failedFormatSpecifier) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::DateTimeResult, 0x80>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::DateTimeResult, "System", "DateTimeResult");

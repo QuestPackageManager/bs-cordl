@@ -10,33 +10,28 @@ class IHaptics;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IHaptics);
-// Type: UnityEngine.InputSystem.Haptics::IHaptics
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Haptics::IHaptics*
+// CS Name: UnityEngine.InputSystem.Haptics.IHaptics
 class CORDL_TYPE IHaptics {
 public:
   // Declarations
-  /// @brief Method PauseHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method PauseHaptics, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PauseHaptics();
 
-  /// @brief Method ResetHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ResetHaptics, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ResetHaptics();
 
-  /// @brief Method ResumeHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ResumeHaptics, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ResumeHaptics();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IHaptics", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IHaptics(IHaptics&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IHaptics", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IHaptics(IHaptics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

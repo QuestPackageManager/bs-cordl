@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_nonNegativeInteger_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_unsignedLong)
@@ -35,11 +34,10 @@ class Datatype_unsignedLong;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_unsignedLong);
-// Type: System.Xml.Schema::Datatype_unsignedLong
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_nonNegativeInteger
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_unsignedLong*
+// CS Name: System.Xml.Schema.Datatype_unsignedLong
 class CORDL_TYPE Datatype_unsignedLong : public ::System::Xml::Schema::Datatype_nonNegativeInteger {
 public:
   // Declarations
@@ -52,23 +50,23 @@ public:
   __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
+  __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
+  __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
+  __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker)) ::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x434c914, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x43adc28, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
   static inline ::System::Xml::Schema::Datatype_unsignedLong* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x434ca58, size 0x184, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+  /// @brief Method TryParseValue, addr 0x43add6c, size 0x184, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x4343298, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a45ac, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
@@ -77,16 +75,16 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker, addr 0x434c8b4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x43adbc8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x434ca00, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x43add14, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x434c90c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43adc20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType, addr 0x434c9a8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x43adcbc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -110,7 +108,7 @@ public:
   Datatype_unsignedLong(Datatype_unsignedLong const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

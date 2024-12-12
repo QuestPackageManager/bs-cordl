@@ -24,41 +24,40 @@ class Gost3410NamedParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters);
-// Type: Org.BouncyCastle.Asn1.CryptoPro::Gost3410NamedParameters
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::CryptoPro {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.CryptoPro::Gost3410NamedParameters*
+// CS Name: Org.BouncyCastle.Asn1.CryptoPro.Gost3410NamedParameters
 class CORDL_TYPE Gost3410NamedParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cryptoProA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cryptoProA, put = setStaticF_cryptoProA)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProA;
+  __declspec(property(get = getStaticF_cryptoProA, put = setStaticF_cryptoProA)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProA;
 
   /// @brief Field cryptoProB, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cryptoProB, put = setStaticF_cryptoProB)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProB;
+  __declspec(property(get = getStaticF_cryptoProB, put = setStaticF_cryptoProB)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProB;
 
   /// @brief Field cryptoProXchA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cryptoProXchA, put = setStaticF_cryptoProXchA)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProXchA;
+  __declspec(property(get = getStaticF_cryptoProXchA, put = setStaticF_cryptoProXchA)) ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* cryptoProXchA;
 
   /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
+  __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds)) ::System::Collections::IDictionary* objIds;
 
   /// @brief Field parameters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters)) ::System::Collections::IDictionary* parameters;
+  __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters)) ::System::Collections::IDictionary* parameters;
 
-  /// @brief Method GetByName, addr 0x22e5bb0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x2318e9c, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x22e598c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x2318c78, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x22e5d9c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x2319088, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22e5260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231854c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProA();
@@ -71,7 +70,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_parameters();
 
-  /// @brief Method get_Names, addr 0x22e5aa8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x2318d94, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);

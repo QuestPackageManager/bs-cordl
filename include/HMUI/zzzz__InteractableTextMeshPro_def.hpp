@@ -21,11 +21,10 @@ class InteractableTextMeshPro;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::InteractableTextMeshPro);
-// Type: HMUI::InteractableTextMeshPro
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::InteractableTextMeshPro*
+// CS Name: HMUI.InteractableTextMeshPro
 class CORDL_TYPE InteractableTextMeshPro : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -44,12 +43,12 @@ public:
 
   static inline ::HMUI::InteractableTextMeshPro* New_ctor();
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x39969c4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x39ed5c4, size 0x194, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroupCache() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache();
 
   constexpr float_t const& __cordl_internal_get__interactionAlpha() const;
 
@@ -71,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3996b58, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ed758, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteractableTextMeshPro(InteractableTextMeshPro const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
+
   /// @brief Field _interactionAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____interactionAlpha;
 
@@ -100,14 +102,9 @@ public:
   /// @brief Field _canvasGroupCache, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* ____canvasGroupCache;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15994 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::InteractableTextMeshPro, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____interactionAlpha) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____noInteractionAlpha) == 0x24, "Offset mismatch!");
@@ -115,6 +112,8 @@ static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____noInteractionAlpha) 
 static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____text) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____canvasGroupCache) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::InteractableTextMeshPro, 0x38>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::InteractableTextMeshPro);

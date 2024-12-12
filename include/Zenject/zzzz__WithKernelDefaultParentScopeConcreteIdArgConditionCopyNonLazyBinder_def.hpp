@@ -20,23 +20,22 @@ class WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder);
-// Type: Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x4aaef3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x4b1384c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
-  /// @brief Method .ctor, addr 0x4aabfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b108b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -54,7 +53,7 @@ public:
   WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder(WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12277 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

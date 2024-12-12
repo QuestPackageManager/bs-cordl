@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexBoyerMoore::*)(
     ::StringW, bool, bool, ::System::Globalization::CultureInfo*)>(&::System::Text::RegularExpressions::RegexBoyerMoore::_ctor)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x43b3558;
+  constexpr static std::size_t addrs = 0x441486c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::MatchPattern)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x43b39ec;
+  constexpr static std::size_t addrs = 0x4414d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::IsMatch)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43b3b10;
+  constexpr static std::size_t addrs = 0x4414e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::Scan)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x43b3b7c;
+  constexpr static std::size_t addrs = 0x4414e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,17 +169,13 @@ constexpr ::System::Globalization::CultureInfo*& System::Text::RegularExpression
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Text::RegularExpressions::RegexBoyerMoore::__cordl_internal_get__culture() const {
+constexpr ::System::Globalization::CultureInfo* const& System::Text::RegularExpressions::RegexBoyerMoore::__cordl_internal_get__culture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____culture;
 }
 constexpr void System::Text::RegularExpressions::RegexBoyerMoore::__cordl_internal_set__culture(::System::Globalization::CultureInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____culture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Text::RegularExpressions::RegexBoyerMoore* System::Text::RegularExpressions::RegexBoyerMoore::New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft,
-                                                                                                                        ::System::Globalization::CultureInfo* culture) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexBoyerMoore*>(pattern, caseInsensitive, rightToLeft, culture));
 }
 inline void System::Text::RegularExpressions::RegexBoyerMoore::_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo* culture) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,6 +204,10 @@ inline int32_t System::Text::RegularExpressions::RegexBoyerMoore::Scan(::StringW
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, index, beglimit, endlimit);
+}
+inline ::System::Text::RegularExpressions::RegexBoyerMoore* System::Text::RegularExpressions::RegexBoyerMoore::New_ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft,
+                                                                                                                        ::System::Globalization::CultureInfo* culture) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexBoyerMoore*>(pattern, caseInsensitive, rightToLeft, culture));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexBoyerMoore::RegexBoyerMoore() {}

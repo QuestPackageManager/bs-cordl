@@ -3,7 +3,7 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_impl.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_Handle_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -17,23 +17,22 @@
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Parameters_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType::__HEU_Handle__HEU_HandleType(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType::HEU_Handle_HEU_HandleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType::__HEU_Handle__HEU_HandleType() {}
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType HoudiniEngineUnity::__HEU_Handle__HEU_HandleType::XFORM{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType HoudiniEngineUnity::__HEU_Handle__HEU_HandleType::UNSUPPORTED{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType::HEU_Handle_HEU_HandleType() {}
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType HoudiniEngineUnity::HEU_Handle_HEU_HandleType::XFORM{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType HoudiniEngineUnity::HEU_Handle_HEU_HandleType::UNSUPPORTED{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Handle.get_HandleName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::get_HandleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0370;
+  constexpr static std::size_t addrs = 0x3a46fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandleName",
@@ -44,10 +43,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Handle.get_HandleType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType (::HoudiniEngineUnity::HEU_Handle::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_Handle_HEU_HandleType (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_HandleType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0378;
+  constexpr static std::size_t addrs = 0x3a46fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandleType",
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_RSTOrder (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_RSTOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0380;
+  constexpr static std::size_t addrs = 0x3a46ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_RSTOrder",
@@ -75,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_XYZOrder (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_XYZOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0388;
+  constexpr static std::size_t addrs = 0x3a46ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_XYZOrder",
@@ -89,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HAPI_TransformEuler (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_ConvertedTransformEuler)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f0390;
+  constexpr static std::size_t addrs = 0x3a47000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(),
@@ -102,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::HasTranslateHandle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f03a4;
+  constexpr static std::size_t addrs = 0x3a47014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "HasTranslateHandle",
@@ -115,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::HasRotateHandle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f03b4;
+  constexpr static std::size_t addrs = 0x3a47024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "HasRotateHandle",
@@ -128,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::HasScaleHandle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f03c4;
+  constexpr static std::size_t addrs = 0x3a47034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "HasScaleHandle",
@@ -141,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::IsTranslateHandleDisabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39f03d4;
+  constexpr static std::size_t addrs = 0x3a47044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(),
@@ -154,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::IsRotateHandleDisabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39f03f4;
+  constexpr static std::size_t addrs = 0x3a47064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(),
@@ -167,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::IsScaleHandleDisabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39f0414;
+  constexpr static std::size_t addrs = 0x3a47084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(),
@@ -181,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_HandleParamBinding* (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::GetTranslateBinding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0434;
+  constexpr static std::size_t addrs = 0x3a470a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetTranslateBinding",
@@ -195,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_HandleParamBinding* (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::GetRotateBinding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f043c;
+  constexpr static std::size_t addrs = 0x3a470ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetRotateBinding",
@@ -209,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_HandleParamBinding* (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::GetScaleBinding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f0444;
+  constexpr static std::size_t addrs = 0x3a470b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetScaleBinding",
@@ -223,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_HandlePosition)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f044c;
+  constexpr static std::size_t addrs = 0x3a470bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandlePosition",
@@ -237,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::HoudiniEngineUnity::HEU_Handle::*)()>(
     &::HoudiniEngineUnity::HEU_Handle::get_HandleRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f0458;
+  constexpr static std::size_t addrs = 0x3a470c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandleRotation",
@@ -250,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::get_HandleScale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f0464;
+  constexpr static std::size_t addrs = 0x3a470d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandleScale",
@@ -262,10 +261,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType,
-                                                           ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>, ::HoudiniEngineUnity::HEU_Parameters*)>(&::HoudiniEngineUnity::HEU_Handle::SetupHandle)> {
+    static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType,
+                                                           ::ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>, ::HoudiniEngineUnity::HEU_Parameters*)>(&::HoudiniEngineUnity::HEU_Handle::SetupHandle)> {
   constexpr static std::size_t size = 0x7cc;
-  constexpr static std::size_t addrs = 0x39f0470;
+  constexpr static std::size_t addrs = 0x3a470e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,8 +272,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Handle_HEU_HandleType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Parameters*>::get() })));
     return ___internal_method;
   }
@@ -284,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::CleanUp)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f1364;
+  constexpr static std::size_t addrs = 0x3a47fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "CleanUp",
@@ -298,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_Parameters*)>(&::HoudiniEngineUnity::HEU_Handle::GenerateTransform)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x39f0e78;
+  constexpr static std::size_t addrs = 0x3a47ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -311,16 +310,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Handle.GetUpdatedPosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ByRef<::UnityEngine::Vector3>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::ByRef<::UnityEngine::Vector3>)>(
     &::HoudiniEngineUnity::HEU_Handle::GetUpdatedPosition)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x39f1394;
+  constexpr static std::size_t addrs = 0x3a48004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetUpdatedPosition", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
     return ___internal_method;
   }
 };
@@ -328,15 +327,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ByRef<::UnityEngine::Quaternion>)>(&::HoudiniEngineUnity::HEU_Handle::GetUpdatedRotation)> {
+    static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_HoudiniAsset*, ::ByRef<::UnityEngine::Quaternion>)>(&::HoudiniEngineUnity::HEU_Handle::GetUpdatedRotation)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x39f14f0;
+  constexpr static std::size_t addrs = 0x3a48160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetUpdatedRotation", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Quaternion>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Quaternion>>::get() })));
     return ___internal_method;
   }
 };
@@ -345,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::HoudiniEngineUnity::HAPI_RSTOrder)>(&::HoudiniEngineUnity::HEU_Handle::IsSpecialRSTOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f1370;
+  constexpr static std::size_t addrs = 0x3a47fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -360,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_Handle::*)(::HoudiniEngineUnity::HEU_Handle*)>(
     &::HoudiniEngineUnity::HEU_Handle::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x39f16ec;
+  constexpr static std::size_t addrs = 0x3a4835c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Handle::*)()>(&::HoudiniEngineUnity::HEU_Handle::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x39f1bd0;
+  constexpr static std::size_t addrs = 0x3a48840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), ".ctor",
@@ -382,15 +381,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
-constexpr HoudiniEngineUnity::HEU_Handle::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
-HoudiniEngineUnity::HEU_Handle::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*>(static_cast<void*>(this));
-}
 constexpr ::StringW& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleName;
@@ -403,15 +393,15 @@ constexpr void HoudiniEngineUnity::HEU_Handle::__cordl_internal_set__handleName(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handleName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleType() {
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleType;
 }
-constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleType() const {
+constexpr ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleType;
 }
-constexpr void HoudiniEngineUnity::HEU_Handle::__cordl_internal_set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value) {
+constexpr void HoudiniEngineUnity::HEU_Handle::__cordl_internal_set__handleType(::HoudiniEngineUnity::HEU_Handle_HEU_HandleType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____handleType = value;
 }
@@ -431,7 +421,7 @@ constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamTranslateBinding;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamTranslateBinding() const {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding* const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamTranslateBinding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamTranslateBinding;
 }
@@ -443,7 +433,7 @@ constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamRotateBinding;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamRotateBinding() const {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding* const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamRotateBinding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamRotateBinding;
 }
@@ -455,7 +445,7 @@ constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& HoudiniEngineUnity::HEU
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamScaleBinding;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamScaleBinding() const {
+constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding* const& HoudiniEngineUnity::HEU_Handle::__cordl_internal_get__handleParamScaleBinding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handleParamScaleBinding;
 }
@@ -540,10 +530,10 @@ inline ::StringW HoudiniEngineUnity::HEU_Handle::get_HandleName() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType HoudiniEngineUnity::HEU_Handle::get_HandleType() {
+inline ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType HoudiniEngineUnity::HEU_Handle::get_HandleType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_HandleType",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::HEU_Handle_HEU_HandleType, false>(this, ___internal_method);
 }
 inline ::HoudiniEngineUnity::HAPI_RSTOrder HoudiniEngineUnity::HEU_Handle::get_RSTOrder() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "get_RSTOrder",
@@ -621,15 +611,15 @@ inline ::UnityEngine::Vector3 HoudiniEngineUnity::HEU_Handle::get_HandleScale() 
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline bool HoudiniEngineUnity::HEU_Handle::SetupHandle(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t handleIndex, ::StringW handleName,
-                                                        ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType handleType, ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo,
+                                                        ::HoudiniEngineUnity::HEU_Handle_HEU_HandleType handleType, ::ByRef<::HoudiniEngineUnity::HAPI_HandleInfo> handleInfo,
                                                         ::HoudiniEngineUnity::HEU_Parameters* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "SetupHandle", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_SessionBase*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Handle_HEU_HandleType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HoudiniEngineUnity::HAPI_HandleInfo>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Parameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, session, assetID, handleIndex, handleName, handleType, handleInfo, parameters);
 }
@@ -645,18 +635,18 @@ inline void HoudiniEngineUnity::HEU_Handle::GenerateTransform(::HoudiniEngineUni
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Parameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, session, parameters);
 }
-inline bool HoudiniEngineUnity::HEU_Handle::GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Vector3> inPosition) {
+inline bool HoudiniEngineUnity::HEU_Handle::GetUpdatedPosition(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::ByRef<::UnityEngine::Vector3> inPosition) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetUpdatedPosition", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, asset, inPosition);
 }
-inline bool HoudiniEngineUnity::HEU_Handle::GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ByRef<::UnityEngine::Quaternion> inRotation) {
+inline bool HoudiniEngineUnity::HEU_Handle::GetUpdatedRotation(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::ByRef<::UnityEngine::Quaternion> inRotation) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), "GetUpdatedRotation", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_HoudiniAsset*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Quaternion>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Quaternion>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, asset, inRotation);
 }
 inline bool HoudiniEngineUnity::HEU_Handle::IsSpecialRSTOrder(::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) {
@@ -671,13 +661,21 @@ inline bool HoudiniEngineUnity::HEU_Handle::IsEquivalentTo(::HoudiniEngineUnity:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_Handle*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_Handle* HoudiniEngineUnity::HEU_Handle::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Handle*>());
-}
 inline void HoudiniEngineUnity::HEU_Handle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Handle*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_Handle* HoudiniEngineUnity::HEU_Handle::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_Handle*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
+constexpr HoudiniEngineUnity::HEU_Handle::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>* HoudiniEngineUnity::HEU_Handle::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Handle__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_Handle::HEU_Handle() {}

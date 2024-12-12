@@ -10,7 +10,7 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class __KeyDownEvent____c;
+class KeyDownEvent___c;
 }
 namespace UnityEngine {
 class Event;
@@ -20,79 +20,77 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
-class __KeyDownEvent____c;
+class KeyDownEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::KeyDownEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__KeyDownEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::KeyDownEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::KeyDownEvent::<>c*
-class CORDL_TYPE __KeyDownEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.KeyDownEvent/<>c
+class CORDL_TYPE KeyDownEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__KeyDownEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::KeyDownEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__KeyDownEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::KeyDownEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49c4190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a28aa0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::KeyDownEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49c4188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a28a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__KeyDownEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::KeyDownEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__KeyDownEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::KeyDownEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __KeyDownEvent____c();
+  constexpr KeyDownEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__KeyDownEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __KeyDownEvent____c(__KeyDownEvent____c&&) = delete;
+  KeyDownEvent___c(KeyDownEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__KeyDownEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "KeyDownEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __KeyDownEvent____c(__KeyDownEvent____c const&) = delete;
+  KeyDownEvent___c(KeyDownEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__KeyDownEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyDownEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::KeyDownEvent
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.KeyboardEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::KeyDownEvent*
+// CS Name: UnityEngine.UIElements.KeyDownEvent
 class CORDL_TYPE KeyDownEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__KeyDownEvent____c;
+  using __c = ::UnityEngine::UIElements::KeyDownEvent___c;
 
-  /// @brief Method GetEquivalentImguiEvent, addr 0x49c3384, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetEquivalentImguiEvent, addr 0x4a27c94, size 0xc0, virtual false, abstract: false, final false
   inline void GetEquivalentImguiEvent(::UnityEngine::Event* outImguiEvent);
 
   static inline ::UnityEngine::UIElements::KeyDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49c3444, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a27d54, size 0x100, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x49c3544, size 0x908, virtual false, abstract: false, final false
+  /// @brief Method SendEquivalentNavigationEventIfAny, addr 0x4a27e54, size 0x908, virtual false, abstract: false, final false
   inline void SendEquivalentNavigationEventIfAny(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x49c40e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a289f4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +108,7 @@ public:
   KeyDownEvent(KeyDownEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -120,5 +118,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyDown
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::KeyDownEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyDownEvent*, "UnityEngine.UIElements", "KeyDownEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__KeyDownEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__KeyDownEvent____c*, "UnityEngine.UIElements", "KeyDownEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::KeyDownEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::KeyDownEvent___c*, "UnityEngine.UIElements", "KeyDownEvent/<>c");

@@ -14,11 +14,10 @@ class CallSite;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::CallSite);
-// Type: System.Runtime.CompilerServices::CallSite
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::CallSite*
+// CS Name: System.Runtime.CompilerServices.CallSite
 class CORDL_TYPE CallSite : public ::System::Object {
 public:
   // Declarations
@@ -32,9 +31,9 @@ public:
 
   static inline ::System::Runtime::CompilerServices::CallSite* New_ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  constexpr ::System::Runtime::CompilerServices::CallSiteBinder*& __cordl_internal_get__binder();
+  constexpr ::System::Runtime::CompilerServices::CallSiteBinder* const& __cordl_internal_get__binder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::CallSiteBinder*> const& __cordl_internal_get__binder() const;
+  constexpr ::System::Runtime::CompilerServices::CallSiteBinder*& __cordl_internal_get__binder();
 
   constexpr bool const& __cordl_internal_get__match() const;
 
@@ -44,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x40986b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f99c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x40986dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x40f99f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:
@@ -64,23 +63,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CallSite(CallSite const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14127 };
+
   /// @brief Field _binder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::CallSiteBinder* ____binder;
 
   /// @brief Field _match, offset: 0x18, size: 0x1, def value: None
   bool ____match;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14093 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::CallSite, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::CallSite, ____binder) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::CallSite, ____match) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::CallSite, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::CallSite);

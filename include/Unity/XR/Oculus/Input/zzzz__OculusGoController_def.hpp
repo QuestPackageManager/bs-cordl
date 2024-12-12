@@ -11,17 +11,16 @@ class OculusGoController;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusGoController);
-// Type: Unity.XR.Oculus.Input::OculusGoController
-// SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 504, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.XR.Oculus.Input.GearVRTrackedController
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// CS Name: ::Unity.XR.Oculus.Input::OculusGoController*
+// CS Name: Unity.XR.Oculus.Input.OculusGoController
 class CORDL_TYPE OculusGoController : public ::Unity::XR::Oculus::Input::GearVRTrackedController {
 public:
   // Declarations
   static inline ::Unity::XR::Oculus::Input::OculusGoController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47d5cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4836fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   OculusGoController(OculusGoController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17417 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

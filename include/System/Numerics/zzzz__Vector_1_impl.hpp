@@ -1,30 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Numerics/Vector_1.hpp"
 #include "System/Numerics/zzzz__Register_impl.hpp"
-#include "System/Numerics/zzzz__Vector_1_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "System/zzzz__IFormattable_impl.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
 #include "System/Numerics/zzzz__Register_def.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
-template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*() {
-  return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
-template <typename T> constexpr ::System::IEquatable_1<::System::Numerics::Vector_1<T>>* System::Numerics::Vector_1<T>::i___System__IEquatable_1___System__Numerics__Vector_1_T__() {
-  return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IFormattable"
-template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IFormattable*() {
-  return static_cast<::System::IFormattable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IFormattable"
-template <typename T> constexpr ::System::IFormattable* System::Numerics::Vector_1<T>::i___System__IFormattable() {
-  return static_cast<::System::IFormattable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T> inline void System::Numerics::Vector_1<T>::setStaticF_s_count(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "s_count", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get>(std::forward<int32_t>(value));
 }
@@ -86,10 +69,10 @@ template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(::cordl_i
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataPointer, offset);
 }
-template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(ByRef<::System::Numerics::Register> existingRegister) {
+template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(::ByRef<::System::Numerics::Register> existingRegister) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Numerics::Register>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Numerics::Register>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, existingRegister);
 }
 template <typename T> inline T System::Numerics::Vector_1<T>::get_Item(int32_t index) {
@@ -169,6 +152,22 @@ template <typename T> inline T System::Numerics::Vector_1<T>::GetAllBitsSetValue
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method);
 }
+/// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
+template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
+template <typename T> constexpr ::System::IEquatable_1<::System::Numerics::Vector_1<T>>* System::Numerics::Vector_1<T>::i___System__IEquatable_1___System__Numerics__Vector_1_T__() {
+  return static_cast<::System::IEquatable_1<::System::Numerics::Vector_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IFormattable"
+template <typename T> constexpr System::Numerics::Vector_1<T>::operator ::System::IFormattable*() {
+  return static_cast<::System::IFormattable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IFormattable"
+template <typename T> constexpr ::System::IFormattable* System::Numerics::Vector_1<T>::i___System__IFormattable() {
+  return static_cast<::System::IFormattable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "_cordl_register", ty: "::System::Numerics::Register", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Numerics::Vector_1<T>::Vector_1(::System::Numerics::Register _cordl_register) noexcept {
   this->_cordl_register = _cordl_register;
@@ -177,9 +176,9 @@ template <typename T> constexpr ::System::Numerics::Vector_1<T>::Vector_1(::Syst
 template <typename T> constexpr ::System::Numerics::Vector_1<T>::Vector_1() {}
 // Ctor Parameters [CppParam { name: "_placeholder", ty: "::System::Numerics::Vector_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_byte", ty: "uint8_t", modifiers: "", def_value:
 // Some("{}") }]
-template <typename T> constexpr ::System::Numerics::__Vector_1__VectorSizeHelper<T>::__Vector_1__VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept {
+template <typename T> constexpr ::System::Numerics::Vector_1_VectorSizeHelper<T>::Vector_1_VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept {
   this->_placeholder = _placeholder;
   this->_byte = _byte;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Numerics::__Vector_1__VectorSizeHelper<T>::__Vector_1__VectorSizeHelper() {}
+template <typename T> constexpr ::System::Numerics::Vector_1_VectorSizeHelper<T>::Vector_1_VectorSizeHelper() {}

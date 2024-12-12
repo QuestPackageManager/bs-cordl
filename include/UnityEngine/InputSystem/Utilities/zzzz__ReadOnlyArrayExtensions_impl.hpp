@@ -36,7 +36,6 @@ inline int32_t UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::Ind
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, array, value);
 }
-/// @param count: int32_t (default: static_cast<int32_t>(0x7fffffff))
 template <typename TValue>
 inline bool UnityEngine::InputSystem::Utilities::ReadOnlyArrayExtensions::HaveEqualReferences(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<TValue> array1,
                                                                                               ::System::Collections::Generic::IReadOnlyList_1<TValue>* array2, int32_t count) {

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)(::UnityEngine::Events::UnityAction*)>(
     &::UnityEngine::Events::InvokableCall::add_Delegate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x485a44c;
+  constexpr static std::size_t addrs = 0x48bb7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)(::UnityEngine::Events::UnityAction*)>(
     &::UnityEngine::Events::InvokableCall::remove_Delegate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x485a4e8;
+  constexpr static std::size_t addrs = 0x48bb870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)(::System::Object*, ::System::Reflection::MethodInfo*)>(
     &::UnityEngine::Events::InvokableCall::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x485a584;
+  constexpr static std::size_t addrs = 0x48bb90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)(::UnityEngine::Events::UnityAction*)>(
     &::UnityEngine::Events::InvokableCall::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x485a66c;
+  constexpr static std::size_t addrs = 0x48bb9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::Events::InvokableCall::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485a698;
+  constexpr static std::size_t addrs = 0x48bba20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::InvokableCall::*)()>(&::UnityEngine::Events::InvokableCall::Invoke)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485a6d4;
+  constexpr static std::size_t addrs = 0x48bba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall*>::get(), "Invoke",
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Events::InvokableCall::*)(::System::Object*, ::System::Reflection::MethodInfo*)>(
     &::UnityEngine::Events::InvokableCall::Find)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x485a710;
+  constexpr static std::size_t addrs = 0x48bba98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ constexpr ::UnityEngine::Events::UnityAction*& UnityEngine::Events::InvokableCal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& UnityEngine::Events::InvokableCall::__cordl_internal_get_Delegate() const {
+constexpr ::UnityEngine::Events::UnityAction* const& UnityEngine::Events::InvokableCall::__cordl_internal_get_Delegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
 }
@@ -133,18 +133,12 @@ inline void UnityEngine::Events::InvokableCall::remove_Delegate(::UnityEngine::E
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Events::UnityAction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Events::InvokableCall* UnityEngine::Events::InvokableCall::New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall*>(target, theFunction));
-}
 inline void UnityEngine::Events::InvokableCall::_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, target, theFunction);
-}
-inline ::UnityEngine::Events::InvokableCall* UnityEngine::Events::InvokableCall::New_ctor(::UnityEngine::Events::UnityAction* action) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall*>(action));
 }
 inline void UnityEngine::Events::InvokableCall::_ctor(::UnityEngine::Events::UnityAction* action) {
   static auto* ___internal_method =
@@ -166,6 +160,12 @@ inline bool UnityEngine::Events::InvokableCall::Find(::System::Object* targetObj
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, targetObj, method);
+}
+inline ::UnityEngine::Events::InvokableCall* UnityEngine::Events::InvokableCall::New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall*>(target, theFunction));
+}
+inline ::UnityEngine::Events::InvokableCall* UnityEngine::Events::InvokableCall::New_ctor(::UnityEngine::Events::UnityAction* action) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::InvokableCall*>(action));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Events::InvokableCall::InvokableCall() {}

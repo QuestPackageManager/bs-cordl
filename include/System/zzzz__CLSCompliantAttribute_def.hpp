@@ -11,11 +11,10 @@ class CLSCompliantAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::CLSCompliantAttribute);
-// Type: System::CLSCompliantAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::CLSCompliantAttribute*
+// CS Name: System.CLSCompliantAttribute
 class CORDL_TYPE CLSCompliantAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set__compliant(bool value);
 
-  /// @brief Method .ctor, addr 0x3cf9130, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d592a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isCompliant);
 
 protected:
@@ -47,18 +46,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CLSCompliantAttribute(CLSCompliantAttribute const&) = delete;
 
-  /// @brief Field _compliant, offset: 0x10, size: 0x1, def value: None
-  bool ____compliant;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2363 };
+
+  /// @brief Field _compliant, offset: 0x10, size: 0x1, def value: None
+  bool ____compliant;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::CLSCompliantAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::CLSCompliantAttribute, ____compliant) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::CLSCompliantAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::CLSCompliantAttribute);

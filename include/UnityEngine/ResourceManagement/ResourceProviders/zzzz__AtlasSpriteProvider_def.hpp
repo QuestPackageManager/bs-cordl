@@ -14,20 +14,19 @@ class AtlasSpriteProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::AtlasSpriteProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AtlasSpriteProvider*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider
 class CORDL_TYPE AtlasSpriteProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x4739798, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x479aaac, size 0x380, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method .ctor, addr 0x4739b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479ae2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   AtlasSpriteProvider(AtlasSpriteProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15617 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15652 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

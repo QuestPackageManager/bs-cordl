@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::ExecutionContext*, ::System::Threading::CancellationTokenSource*)>(
     &::System::Threading::CancellationCallbackInfo::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3def158;
+  constexpr static std::size_t addrs = 0x3e4f204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationCallbackInfo::*)()>(
     &::System::Threading::CancellationCallbackInfo::ExecuteCallback)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3def7e4;
+  constexpr static std::size_t addrs = 0x3e4f890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationCallbackInfo*>::get(),
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::CancellationCallbackInfo::ExecutionContextCallback)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3df0244;
+  constexpr static std::size_t addrs = 0x3e502f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ constexpr ::System::Action_1<::System::Object*>*& System::Threading::Cancellatio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_Callback() const {
+constexpr ::System::Action_1<::System::Object*>* const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_Callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Callback;
 }
@@ -71,7 +71,7 @@ constexpr ::System::Object*& System::Threading::CancellationCallbackInfo::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StateForCallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_StateForCallback() const {
+constexpr ::System::Object* const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_StateForCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StateForCallback;
 }
@@ -83,7 +83,7 @@ constexpr ::System::Threading::ExecutionContext*& System::Threading::Cancellatio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TargetExecutionContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_TargetExecutionContext() const {
+constexpr ::System::Threading::ExecutionContext* const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_TargetExecutionContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TargetExecutionContext;
 }
@@ -95,7 +95,7 @@ constexpr ::System::Threading::CancellationTokenSource*& System::Threading::Canc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CancellationTokenSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_CancellationTokenSource() const {
+constexpr ::System::Threading::CancellationTokenSource* const& System::Threading::CancellationCallbackInfo::__cordl_internal_get_CancellationTokenSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CancellationTokenSource;
 }
@@ -111,11 +111,6 @@ inline void System::Threading::CancellationCallbackInfo::setStaticF_s_executionC
 inline ::System::Threading::ContextCallback* System::Threading::CancellationCallbackInfo::getStaticF_s_executionContextCallback() {
   return ::cordl_internals::getStaticField<::System::Threading::ContextCallback*, "s_executionContextCallback",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationCallbackInfo*>::get>();
-}
-inline ::System::Threading::CancellationCallbackInfo* System::Threading::CancellationCallbackInfo::New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
-                                                                                                            ::System::Threading::ExecutionContext* targetExecutionContext,
-                                                                                                            ::System::Threading::CancellationTokenSource* cancellationTokenSource) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::CancellationCallbackInfo*>(callback, stateForCallback, targetExecutionContext, cancellationTokenSource));
 }
 inline void System::Threading::CancellationCallbackInfo::_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
                                                                ::System::Threading::ExecutionContext* targetExecutionContext, ::System::Threading::CancellationTokenSource* cancellationTokenSource) {
@@ -137,6 +132,11 @@ inline void System::Threading::CancellationCallbackInfo::ExecutionContextCallbac
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationCallbackInfo*>::get(), "ExecutionContextCallback",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::Threading::CancellationCallbackInfo* System::Threading::CancellationCallbackInfo::New_ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback,
+                                                                                                            ::System::Threading::ExecutionContext* targetExecutionContext,
+                                                                                                            ::System::Threading::CancellationTokenSource* cancellationTokenSource) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::CancellationCallbackInfo*>(callback, stateForCallback, targetExecutionContext, cancellationTokenSource));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::CancellationCallbackInfo::CancellationCallbackInfo() {}

@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::AudioLatencyViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3bbeb20;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x3af6f3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(bool, bool)>(
     &::GlobalNamespace::AudioLatencyViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3bbee4c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3af725c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)()>(
     &::GlobalNamespace::AudioLatencyViewController::OnDestroy)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3bbef34;
+  constexpr static std::size_t addrs = 0x3af734c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::AudioLatencyViewController::HandleVolumeChanged)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3bbf014;
+  constexpr static std::size_t addrs = 0x3af742c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(
     ::GlobalNamespace::FormattedFloatListSettingsController*, float_t)>(&::GlobalNamespace::AudioLatencyViewController::HandleAmbientVolumeChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bbf048;
+  constexpr static std::size_t addrs = 0x3af7460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::AudioLatencyViewController::SliderValueDidChange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bbf064;
+  constexpr static std::size_t addrs = 0x3af747c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(bool)>(
     &::GlobalNamespace::AudioLatencyViewController::HandleOverrideAudioLatencyToggleValueChanged)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3bbf08c;
+  constexpr static std::size_t addrs = 0x3af74a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)(bool)>(
     &::GlobalNamespace::AudioLatencyViewController::RefreshVisuals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bbedb0;
+  constexpr static std::size_t addrs = 0x3af71c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioLatencyViewController::*)()>(&::GlobalNamespace::AudioLatencyViewController::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3bbf0dc;
+  constexpr static std::size_t addrs = 0x3af74f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioLatencyViewController*>::get(), ".ctor",
@@ -247,7 +247,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::AudioLatencyView
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::AudioLatencyViewController::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::AudioLatencyViewController::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -271,7 +271,7 @@ constexpr ::HMUI::ToggleBinder*& GlobalNamespace::AudioLatencyViewController::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::AudioLatencyViewController::__cordl_internal_get__toggleBinder() const {
+constexpr ::HMUI::ToggleBinder* const& GlobalNamespace::AudioLatencyViewController::__cordl_internal_get__toggleBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
@@ -327,13 +327,13 @@ inline void GlobalNamespace::AudioLatencyViewController::RefreshVisuals(bool ove
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, overrideAudioLatencyIsEnabled);
 }
-inline ::GlobalNamespace::AudioLatencyViewController* GlobalNamespace::AudioLatencyViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioLatencyViewController*>());
-}
 inline void GlobalNamespace::AudioLatencyViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioLatencyViewController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::AudioLatencyViewController* GlobalNamespace::AudioLatencyViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioLatencyViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AudioLatencyViewController::AudioLatencyViewController() {}

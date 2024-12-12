@@ -11,15 +11,14 @@ class _ThreadPoolWaitCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::_ThreadPoolWaitCallback);
-// Type: System.Threading::_ThreadPoolWaitCallback
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::_ThreadPoolWaitCallback*
+// CS Name: System.Threading._ThreadPoolWaitCallback
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback, addr 0x3df8ce8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PerformWaitCallback, addr 0x3e58d94, size 0x4c, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
 protected:

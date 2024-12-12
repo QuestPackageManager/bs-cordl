@@ -26,21 +26,20 @@ class LightTranslationEventBoxGroupConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter);
-// Type: BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDataLoaderVersion4.EventBoxGroupConverter
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*
+// CS Name: BeatmapDataLoaderVersion4.LightTranslationEventBoxGroupConverter
 class CORDL_TYPE LightTranslationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x26d9320, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x270aedc, size 0x228, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                               ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x26d84ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a0ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -58,7 +57,7 @@ public:
   LightTranslationEventBoxGroupConverter(LightTranslationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

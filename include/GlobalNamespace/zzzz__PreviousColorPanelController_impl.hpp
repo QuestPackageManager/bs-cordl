@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::PreviousColorPanelController::add_colorWasSelectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc4fc0;
+  constexpr static std::size_t addrs = 0x3c250d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::System::Action_1<::UnityEngine::Color>*)>(
     &::GlobalNamespace::PreviousColorPanelController::remove_colorWasSelectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc5070;
+  constexpr static std::size_t addrs = 0x3c25184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(
     &::GlobalNamespace::PreviousColorPanelController::Awake)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bc5120;
+  constexpr static std::size_t addrs = 0x3c25234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(), "Awake",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(
     &::GlobalNamespace::PreviousColorPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bc51e0;
+  constexpr static std::size_t addrs = 0x3c252f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::PreviousColorPanelController::AddColor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bc51fc;
+  constexpr static std::size_t addrs = 0x3c25310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(
     &::GlobalNamespace::PreviousColorPanelController::DiscardUpcomingColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bc52a0;
+  constexpr static std::size_t addrs = 0x3c253b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(
     &::GlobalNamespace::PreviousColorPanelController::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3bc52ac;
+  constexpr static std::size_t addrs = 0x3c253c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(), ".ctor",
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PreviousColorPanelController::*)()>(
     &::GlobalNamespace::PreviousColorPanelController::_Awake_b__9_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bc52c0;
+  constexpr static std::size_t addrs = 0x3c253d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(),
@@ -151,7 +151,7 @@ constexpr ::System::Action_1<::UnityEngine::Color>*& GlobalNamespace::PreviousCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorWasSelectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& GlobalNamespace::PreviousColorPanelController::__cordl_internal_get_colorWasSelectedEvent() const {
+constexpr ::System::Action_1<::UnityEngine::Color>* const& GlobalNamespace::PreviousColorPanelController::__cordl_internal_get_colorWasSelectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorWasSelectedEvent;
 }
@@ -163,7 +163,7 @@ constexpr ::HMUI::ButtonBinder*& GlobalNamespace::PreviousColorPanelController::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::PreviousColorPanelController::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& GlobalNamespace::PreviousColorPanelController::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
@@ -228,9 +228,6 @@ inline void GlobalNamespace::PreviousColorPanelController::DiscardUpcomingColor(
                                                                              "DiscardUpcomingColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PreviousColorPanelController* GlobalNamespace::PreviousColorPanelController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PreviousColorPanelController*>());
-}
 inline void GlobalNamespace::PreviousColorPanelController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -240,6 +237,9 @@ inline void GlobalNamespace::PreviousColorPanelController::_Awake_b__9_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PreviousColorPanelController*>::get(),
                                                                              "<Awake>b__9_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PreviousColorPanelController* GlobalNamespace::PreviousColorPanelController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PreviousColorPanelController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PreviousColorPanelController::PreviousColorPanelController() {}

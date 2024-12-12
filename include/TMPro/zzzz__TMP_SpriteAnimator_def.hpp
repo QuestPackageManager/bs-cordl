@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TMP_CharacterInfo_def.hpp"
 #include "TMPro/zzzz__TMP_MeshInfo_def.hpp"
@@ -13,17 +16,14 @@ CORDL_MODULE_EXPORT(TMP_SpriteAnimator)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
+}
+namespace TMPro {
+class TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7;
 }
 namespace TMPro {
 class TMP_SpriteAsset;
@@ -31,25 +31,21 @@ class TMP_SpriteAsset;
 namespace TMPro {
 class TMP_Text;
 }
-namespace TMPro {
-class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
-}
 // Forward declare root types
 namespace TMPro {
 class TMP_SpriteAnimator;
 }
 namespace TMPro {
-class __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
+class TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_SpriteAnimator);
-MARK_REF_PTR_T(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
-// Type: ::<DoSpriteAnimationInternal>d__7
-// SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 548, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object, TMPro.TMP_CharacterInfo, TMPro.TMP_MeshInfo
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMP_SpriteAnimator::<DoSpriteAnimationInternal>d__7*
-class CORDL_TYPE __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 : public ::System::Object {
+// CS Name: TMPro.TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7
+class CORDL_TYPE TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -113,30 +109,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x479dcc4, size 0x910, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x47fefd8, size 0x910, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7* New_ctor(int32_t __1__state);
+  static inline ::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x479e5f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x47ff90c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x479e600, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x47ff914, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x479e638, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x47ff94c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x479dcc0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x47fefd4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::TMPro::TMP_SpriteAnimator> const& __cordl_internal_get___4__this() const;
 
@@ -226,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x479dc18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fef2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -241,16 +237,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7();
+  constexpr TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7(__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7&&) = delete;
+  TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7(TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7(__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 const&) = delete;
+  TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7(TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14535 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -300,56 +299,52 @@ public:
   /// @brief Field <targetTime>5__9, offset: 0x220, size: 0x4, def value: None
   float_t ____targetTime_5__9;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14501 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, 0x228>, "Size mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ___start) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ___start) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ___end) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ___end) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ___spriteAsset) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ___spriteAsset) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ___currentCharacter) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ___currentCharacter) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ___framerate) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ___framerate) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____currentFrame_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____currentFrame_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____charInfo_5__3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____charInfo_5__3) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____materialIndex_5__4) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____materialIndex_5__4) == 0x1c0, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____vertexIndex_5__5) == 0x1c4, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____vertexIndex_5__5) == 0x1c4, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____meshInfo_5__6) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____meshInfo_5__6) == 0x1c8, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____baseSpriteScale_5__7) == 0x218, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____baseSpriteScale_5__7) == 0x218, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____elapsedTime_5__8) == 0x21c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____elapsedTime_5__8) == 0x21c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, ____targetTime_5__9) == 0x220, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7, ____targetTime_5__9) == 0x220, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7, 0x228>, "Size mismatch!");
 
 } // namespace TMPro
-// Type: TMPro::TMP_SpriteAnimator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_SpriteAnimator*
+// CS Name: TMPro.TMP_SpriteAnimator
 class CORDL_TYPE TMP_SpriteAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _DoSpriteAnimationInternal_d__7 = ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
+  using _DoSpriteAnimationInternal_d__7 = ::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7;
 
   /// @brief Field m_TextComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextComponent, put = __cordl_internal_set_m_TextComponent)) ::UnityW<::TMPro::TMP_Text> m_TextComponent;
@@ -357,39 +352,39 @@ public:
   /// @brief Field m_animations, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_animations, put = __cordl_internal_set_m_animations)) ::System::Collections::Generic::Dictionary_2<int32_t, bool>* m_animations;
 
-  /// @brief Method Awake, addr 0x479d9e4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x47fecf8, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DoSpriteAnimation, addr 0x479da98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimation, addr 0x47fedac, size 0xe8, virtual false, abstract: false, final false
   inline void DoSpriteAnimation(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
-  /// @brief Method DoSpriteAnimationInternal, addr 0x479db80, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DoSpriteAnimationInternal, addr 0x47fee94, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DoSpriteAnimationInternal(int32_t currentCharacter, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t start, int32_t end, int32_t framerate);
 
   static inline ::TMPro::TMP_SpriteAnimator* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x479da38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x47fed4c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x479da34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x47fed48, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method StopAllAnimations, addr 0x479da3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method StopAllAnimations, addr 0x47fed50, size 0x5c, virtual false, abstract: false, final false
   inline void StopAllAnimations();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_TextComponent() const;
 
   constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_TextComponent();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& __cordl_internal_get_m_animations();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>* const& __cordl_internal_get_m_animations() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& __cordl_internal_get_m_animations() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& __cordl_internal_get_m_animations();
 
   constexpr void __cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TMP_Text> value);
 
   constexpr void __cordl_internal_set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value);
 
-  /// @brief Method .ctor, addr 0x479dc40, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fef54, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -406,26 +401,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_SpriteAnimator(TMP_SpriteAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14536 };
+
   /// @brief Field m_animations, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, bool>* ___m_animations;
 
   /// @brief Field m_TextComponent, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___m_TextComponent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14502 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteAnimator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_SpriteAnimator, ___m_animations) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_SpriteAnimator, ___m_TextComponent) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteAnimator, 0x30>, "Size mismatch!");
+
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SpriteAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
-NEED_NO_BOX(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");
+NEED_NO_BOX(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7);
+DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_SpriteAnimator__DoSpriteAnimationInternal_d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");

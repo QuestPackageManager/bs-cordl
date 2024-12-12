@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::get_playerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592570;
+  constexpr static std::size_t addrs = 0x45f3884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::set_playerRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592578;
+  constexpr static std::size_t addrs = 0x45f388c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4592644;
+  constexpr static std::size_t addrs = 0x45f3958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::OnDisable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4592660;
+  constexpr static std::size_t addrs = 0x45f3974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::InitializePlayerRoot)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4592580;
+  constexpr static std::size_t addrs = 0x45f3894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::Update)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4592668;
+  constexpr static std::size_t addrs = 0x45f397c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::MultiplayerEventSystem::*)()>(
     &::UnityEngine::InputSystem::UI::MultiplayerEventSystem::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4592770;
+  constexpr static std::size_t addrs = 0x45f3a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>::get(),
@@ -154,13 +154,13 @@ inline void UnityEngine::InputSystem::UI::MultiplayerEventSystem::Update() {
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* UnityEngine::InputSystem::UI::MultiplayerEventSystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>());
-}
 inline void UnityEngine::InputSystem::UI::MultiplayerEventSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* UnityEngine::InputSystem::UI::MultiplayerEventSystem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::UI::MultiplayerEventSystem*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::UI::MultiplayerEventSystem::MultiplayerEventSystem() {}

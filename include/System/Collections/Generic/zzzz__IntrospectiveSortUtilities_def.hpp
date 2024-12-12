@@ -15,18 +15,17 @@ class IntrospectiveSortUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::IntrospectiveSortUtilities);
-// Type: System.Collections.Generic::IntrospectiveSortUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::IntrospectiveSortUtilities*
+// CS Name: System.Collections.Generic.IntrospectiveSortUtilities
 class CORDL_TYPE IntrospectiveSortUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FloorLog2PlusOne, addr 0x3d67db8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FloorLog2PlusOne, addr 0x3dc7f2c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t FloorLog2PlusOne(int32_t n);
 
-  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x3d67de0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x3dc7f54, size 0x60, virtual false, abstract: false, final false
   static inline void ThrowOrIgnoreBadComparer(::System::Object* comparer);
 
 protected:

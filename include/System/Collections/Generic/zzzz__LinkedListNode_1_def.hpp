@@ -14,13 +14,12 @@ template <typename T> class LinkedListNode_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LinkedListNode_1);
-// Type: System.Collections.Generic::LinkedListNode`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::LinkedListNode`1<T>*
+// CS Name: System.Collections.Generic.LinkedListNode`1<T>
 class CORDL_TYPE LinkedListNode_1 : public ::System::Object {
 public:
   // Declarations
@@ -55,17 +54,17 @@ public:
 
   constexpr T& __cordl_internal_get_item();
 
+  constexpr ::System::Collections::Generic::LinkedList_1<T>* const& __cordl_internal_get_list() const;
+
   constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get_list() const;
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& __cordl_internal_get_next() const;
 
   constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_next() const;
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& __cordl_internal_get_prev() const;
 
   constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_prev();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_prev() const;
 
   constexpr void __cordl_internal_set_item(T value);
 
@@ -110,6 +109,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedListNode_1(LinkedListNode_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9513 };
+
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* ___list;
 
@@ -121,9 +123,6 @@ public:
 
   /// @brief Field item, offset: 0x28, size: 0x8, def value: None
   T ___item;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9488 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

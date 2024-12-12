@@ -4,31 +4,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthWarningViewController)
 namespace GlobalNamespace {
+class HealthWarningViewController__DismissHealthAndSafety_d__15;
+}
+namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace GlobalNamespace {
 class SafeAreaRectChecker;
-}
-namespace GlobalNamespace {
-class __HealthWarningViewController___DismissHealthAndSafety_d__15;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Action;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -47,17 +44,16 @@ namespace GlobalNamespace {
 class HealthWarningViewController;
 }
 namespace GlobalNamespace {
-class __HealthWarningViewController___DismissHealthAndSafety_d__15;
+class HealthWarningViewController__DismissHealthAndSafety_d__15;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthWarningViewController);
-MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15);
-// Type: ::<DismissHealthAndSafety>d__15
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HealthWarningViewController::<DismissHealthAndSafety>d__15*
-class CORDL_TYPE __HealthWarningViewController___DismissHealthAndSafety_d__15 : public ::System::Object {
+// CS Name: HealthWarningViewController/<DismissHealthAndSafety>d__15
+class CORDL_TYPE HealthWarningViewController__DismissHealthAndSafety_d__15 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -82,30 +78,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bb477c, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c178c0, size 0xc4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bb4840, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c17984, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bb4848, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c1798c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bb4880, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c179c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bb4778, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3c178bc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController> const& __cordl_internal_get___4__this() const;
 
@@ -117,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
-  /// @brief Method .ctor, addr 0x3bb472c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c17870, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -132,16 +128,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HealthWarningViewController___DismissHealthAndSafety_d__15();
+  constexpr HealthWarningViewController__DismissHealthAndSafety_d__15();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HealthWarningViewController___DismissHealthAndSafety_d__15", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__15", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HealthWarningViewController___DismissHealthAndSafety_d__15(__HealthWarningViewController___DismissHealthAndSafety_d__15&&) = delete;
+  HealthWarningViewController__DismissHealthAndSafety_d__15(HealthWarningViewController__DismissHealthAndSafety_d__15&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HealthWarningViewController___DismissHealthAndSafety_d__15", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__15", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HealthWarningViewController___DismissHealthAndSafety_d__15(__HealthWarningViewController___DismissHealthAndSafety_d__15 const&) = delete;
+  HealthWarningViewController__DismissHealthAndSafety_d__15(HealthWarningViewController__DismissHealthAndSafety_d__15 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4900 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -152,30 +151,26 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningViewController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4879 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::HealthWarningViewController
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HealthWarningViewController*
+// CS Name: HealthWarningViewController
 class CORDL_TYPE HealthWarningViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _DismissHealthAndSafety_d__15 = ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15;
+  using _DismissHealthAndSafety_d__15 = ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15;
 
   /// @brief Field _continueButton, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button> _continueButton;
@@ -207,34 +202,34 @@ public:
   /// @brief Field didFinishEvent, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3bb445c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c175a0, size 0x1a0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bb465c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c177a0, size 0xc4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissHealthAndSafety, addr 0x3bb45fc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DismissHealthAndSafety, addr 0x3c17740, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
 
-  /// @brief Method Init, addr 0x3bb4720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c17864, size 0xc, virtual false, abstract: false, final false
   inline void Init(bool requiresInteraction);
 
   static inline ::GlobalNamespace::HealthWarningViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x3bb475c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x3c178a0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
+  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
+
   constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
+  constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__dismissCoroutine() const;
 
   constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__dismissCoroutine();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__dismissCoroutine() const;
 
   constexpr float_t const& __cordl_internal_get__duration() const;
 
@@ -260,9 +255,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker>& __cordl_internal_get__safeAreaRectChecker();
 
-  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -284,13 +279,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb4754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c17898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bb4324, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x3c17468, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bb43c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x3c17504, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:
@@ -306,6 +301,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HealthWarningViewController(HealthWarningViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4901 };
 
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
@@ -337,14 +335,9 @@ public:
   /// @brief Field _dismissCoroutine, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____dismissCoroutine;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4880 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningViewController, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____continueButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____safeAreaRectChecker) == 0x80, "Offset mismatch!");
@@ -365,8 +358,10 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____requi
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____dismissCoroutine) == 0xc0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningViewController, 0xc8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
-NEED_NO_BOX(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15*, "", "HealthWarningViewController/<DismissHealthAndSafety>d__15");
+NEED_NO_BOX(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__15*, "", "HealthWarningViewController/<DismissHealthAndSafety>d__15");

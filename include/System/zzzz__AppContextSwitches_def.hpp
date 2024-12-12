@@ -11,29 +11,27 @@ class AppContextSwitches;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AppContextSwitches);
-// Type: System::AppContextSwitches
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::AppContextSwitches*
+// CS Name: System.AppContextSwitches
 class CORDL_TYPE AppContextSwitches : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EnforceJapaneseEraYearRanges, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_EnforceJapaneseEraYearRanges, put = setStaticF_EnforceJapaneseEraYearRanges)) bool EnforceJapaneseEraYearRanges;
+  __declspec(property(get = getStaticF_EnforceJapaneseEraYearRanges, put = setStaticF_EnforceJapaneseEraYearRanges)) bool EnforceJapaneseEraYearRanges;
 
   /// @brief Field EnforceLegacyJapaneseDateParsing, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_EnforceLegacyJapaneseDateParsing, put = setStaticF_EnforceLegacyJapaneseDateParsing)) bool EnforceLegacyJapaneseDateParsing;
+  __declspec(property(get = getStaticF_EnforceLegacyJapaneseDateParsing, put = setStaticF_EnforceLegacyJapaneseDateParsing)) bool EnforceLegacyJapaneseDateParsing;
 
   /// @brief Field FormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_FormatJapaneseFirstYearAsANumber, put = setStaticF_FormatJapaneseFirstYearAsANumber)) bool FormatJapaneseFirstYearAsANumber;
+  __declspec(property(get = getStaticF_FormatJapaneseFirstYearAsANumber, put = setStaticF_FormatJapaneseFirstYearAsANumber)) bool FormatJapaneseFirstYearAsANumber;
 
   /// @brief Field NoAsyncCurrentCulture, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_NoAsyncCurrentCulture, put = setStaticF_NoAsyncCurrentCulture)) bool NoAsyncCurrentCulture;
+  __declspec(property(get = getStaticF_NoAsyncCurrentCulture, put = setStaticF_NoAsyncCurrentCulture)) bool NoAsyncCurrentCulture;
 
   /// @brief Field SetActorAsReferenceWhenCopyingClaimsIdentity, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity,
-                             put = setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity)) bool SetActorAsReferenceWhenCopyingClaimsIdentity;
+  __declspec(property(get = getStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity, put = setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity)) bool SetActorAsReferenceWhenCopyingClaimsIdentity;
 
   static inline bool getStaticF_EnforceJapaneseEraYearRanges();
 

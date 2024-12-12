@@ -1,87 +1,85 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NamedIntListController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
+#include "HMUI/zzzz__IValueChanger_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
 #include "GlobalNamespace/zzzz__NamedIntListController_def.hpp"
-#include "HMUI/zzzz__IValueChanger_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__NamedIntListController__TextValuePair.get_localizedText
+//  Writing Method size for method: ::GlobalNamespace::NamedIntListController_TextValuePair.get_localizedText
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__NamedIntListController__TextValuePair::*)()>(
-    &::GlobalNamespace::__NamedIntListController__TextValuePair::get_localizedText)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NamedIntListController_TextValuePair::*)()>(
+    &::GlobalNamespace::NamedIntListController_TextValuePair::get_localizedText)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bc6e5c;
+  constexpr static std::size_t addrs = 0x3c26f70;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedIntListController__TextValuePair*>::get(), "get_localizedText",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController_TextValuePair*>::get(),
+                                                                               "get_localizedText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__NamedIntListController__TextValuePair._ctor
+//  Writing Method size for method: ::GlobalNamespace::NamedIntListController_TextValuePair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NamedIntListController__TextValuePair::*)()>(
-    &::GlobalNamespace::__NamedIntListController__TextValuePair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController_TextValuePair::*)()>(
+    &::GlobalNamespace::NamedIntListController_TextValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc6e8c;
+  constexpr static std::size_t addrs = 0x3c26fa0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedIntListController__TextValuePair*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController_TextValuePair*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_get_localizationKey() {
+constexpr ::StringW& GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_get_localizationKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizationKey;
 }
-constexpr ::StringW const& GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_get_localizationKey() const {
+constexpr ::StringW const& GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_get_localizationKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizationKey;
 }
-constexpr void GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_set_localizationKey(::StringW value) {
+constexpr void GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_set_localizationKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_get_value() {
+constexpr int32_t& GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr int32_t const& GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_get_value() const {
+constexpr int32_t const& GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void GlobalNamespace::__NamedIntListController__TextValuePair::__cordl_internal_set_value(int32_t value) {
+constexpr void GlobalNamespace::NamedIntListController_TextValuePair::__cordl_internal_set_value(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___value = value;
 }
-inline ::StringW GlobalNamespace::__NamedIntListController__TextValuePair::get_localizedText() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedIntListController__TextValuePair*>::get(),
+inline ::StringW GlobalNamespace::NamedIntListController_TextValuePair::get_localizedText() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController_TextValuePair*>::get(),
                                                                              "get_localizedText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__NamedIntListController__TextValuePair* GlobalNamespace::__NamedIntListController__TextValuePair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NamedIntListController__TextValuePair*>());
-}
-inline void GlobalNamespace::__NamedIntListController__TextValuePair::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NamedIntListController__TextValuePair*>::get(),
+inline void GlobalNamespace::NamedIntListController_TextValuePair::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController_TextValuePair*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::NamedIntListController_TextValuePair* GlobalNamespace::NamedIntListController_TextValuePair::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedIntListController_TextValuePair*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NamedIntListController__TextValuePair::__NamedIntListController__TextValuePair() {}
+constexpr ::GlobalNamespace::NamedIntListController_TextValuePair::NamedIntListController_TextValuePair() {}
 //  Writing Method size for method: ::GlobalNamespace::NamedIntListController.add_valueChangedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListController::add_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc6bc4;
+  constexpr static std::size_t addrs = 0x3c26cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListController::remove_valueChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bc6c74;
+  constexpr static std::size_t addrs = 0x3c26d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,16 +107,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(
-    ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>)>(
-    &::GlobalNamespace::NamedIntListController::InitValues)> {
+    ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*>)>(&::GlobalNamespace::NamedIntListController::InitValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bc6d24;
+  constexpr static std::size_t addrs = 0x3c26e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), "InitValues", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                        ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>>::get() })));
+                                        ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -127,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(int32_t)>(&::GlobalNamespace::NamedIntListController::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bc6d5c;
+  constexpr static std::size_t addrs = 0x3c26e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,10 +136,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::NamedIntListController.GetInitValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedIntListController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedIntListController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::NamedIntListController::GetInitValues)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3bc6d94;
+  constexpr static std::size_t addrs = 0x3c26ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)(int32_t)>(
     &::GlobalNamespace::NamedIntListController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bc6e08;
+  constexpr static std::size_t addrs = 0x3c26f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NamedIntListController::*)(int32_t)>(
     &::GlobalNamespace::NamedIntListController::TextForValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3bc6e28;
+  constexpr static std::size_t addrs = 0x3c26f3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListController::*)()>(&::GlobalNamespace::NamedIntListController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc6e84;
+  constexpr static std::size_t addrs = 0x3c26f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), ".ctor",
@@ -194,26 +191,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
-constexpr GlobalNamespace::NamedIntListController::operator ::HMUI::IValueChanger_1<int32_t>*() noexcept {
-  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
-constexpr ::HMUI::IValueChanger_1<int32_t>* GlobalNamespace::NamedIntListController::i___HMUI__IValueChanger_1_int32_t_() noexcept {
-  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
-}
-constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>&
+constexpr ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*>&
 GlobalNamespace::NamedIntListController::__cordl_internal_get__textValuePairs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textValuePairs;
 }
-constexpr ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> const&
 GlobalNamespace::NamedIntListController::__cordl_internal_get__textValuePairs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textValuePairs;
 }
 constexpr void GlobalNamespace::NamedIntListController::__cordl_internal_set__textValuePairs(
-    ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> value) {
+    ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textValuePairs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -233,7 +222,7 @@ constexpr ::System::Action_1<int32_t>*& GlobalNamespace::NamedIntListController:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::NamedIntListController::__cordl_internal_get_valueChangedEvent() const {
+constexpr ::System::Action_1<int32_t>* const& GlobalNamespace::NamedIntListController::__cordl_internal_get_valueChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueChangedEvent;
 }
@@ -253,12 +242,12 @@ inline void GlobalNamespace::NamedIntListController::remove_valueChangedEvent(::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NamedIntListController::InitValues(
-    ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*> values) {
+inline void
+GlobalNamespace::NamedIntListController::InitValues(::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*> values) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), "InitValues", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                      ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>>::get() })));
+                                      ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, values);
 }
 inline void GlobalNamespace::NamedIntListController::SetValue(int32_t value) {
@@ -267,7 +256,7 @@ inline void GlobalNamespace::NamedIntListController::SetValue(int32_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::NamedIntListController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {
+inline bool GlobalNamespace::NamedIntListController::GetInitValues(::ByRef<int32_t> idx, ::ByRef<int32_t> numberOfElements) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, idx, numberOfElements);
@@ -282,13 +271,21 @@ inline ::StringW GlobalNamespace::NamedIntListController::TextForValue(int32_t i
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, idx);
 }
-inline ::GlobalNamespace::NamedIntListController* GlobalNamespace::NamedIntListController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedIntListController*>());
-}
 inline void GlobalNamespace::NamedIntListController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NamedIntListController* GlobalNamespace::NamedIntListController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NamedIntListController*>());
+}
+/// @brief Convert operator to "::HMUI::IValueChanger_1<int32_t>"
+constexpr GlobalNamespace::NamedIntListController::operator ::HMUI::IValueChanger_1<int32_t>*() noexcept {
+  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HMUI::IValueChanger_1<int32_t>"
+constexpr ::HMUI::IValueChanger_1<int32_t>* GlobalNamespace::NamedIntListController::i___HMUI__IValueChanger_1_int32_t_() noexcept {
+  return static_cast<::HMUI::IValueChanger_1<int32_t>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NamedIntListController::NamedIntListController() {}

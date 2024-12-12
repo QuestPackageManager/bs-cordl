@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(
     ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2650958;
+  constexpr static std::size_t addrs = 0x2683c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Cms::RecipientInfoGenerator*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::AddRecipientGenerator)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2650b48;
+  constexpr static std::size_t addrs = 0x2683e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PkiArchiveControl* (
     ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::*)(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(&::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::Build)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2650b70;
+  constexpr static std::size_t addrs = 0x2683e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envGen;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*> const& Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__cordl_internal_get_envGen() const {
+constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* const& Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__cordl_internal_get_envGen() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___envGen;
 }
@@ -71,17 +71,13 @@ constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray*& Org::BouncyCastle:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyContent;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessableByteArray*> const& Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__cordl_internal_get_keyContent() const {
+constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray* const& Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__cordl_internal_get_keyContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyContent;
 }
 constexpr void Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::__cordl_internal_set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyContent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
-                                                                                                                        ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*>(privateKeyInfo, generalName));
 }
 inline void Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -101,6 +97,10 @@ inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Org::BouncyCastle::Crmf::Pk
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*>::get(), "Build", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crmf::PkiArchiveControl*, false>(this, ___internal_method, contentEncryptor);
+}
+inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
+                                                                                                                        ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*>(privateKeyInfo, generalName));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder::PkiArchiveControlBuilder() {}

@@ -4,7 +4,8 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsPeer_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClient_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsClient)
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,16 +27,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsClientContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClient;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCompression;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsPeer;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
@@ -52,11 +47,10 @@ class AbstractTlsClient;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient);
-// Type: Org.BouncyCastle.Crypto.Tls::AbstractTlsClient
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsPeer, Org.BouncyCastle.Crypto.Tls.TlsClient, Org.BouncyCastle.Crypto.Tls.TlsPeer
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsClient*
+// CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsClient
 class CORDL_TYPE AbstractTlsClient : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer {
 public:
   // Declarations
@@ -98,78 +92,78 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
 
-  /// @brief Method AllowUnexpectedServerExtension, addr 0x23ab54c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method AllowUnexpectedServerExtension, addr 0x23de838, size 0xc0, virtual true, abstract: false, final false
   inline bool AllowUnexpectedServerExtension(int32_t extensionType, ::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
 
-  /// @brief Method CheckForUnexpectedServerExtension, addr 0x23ab60c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method CheckForUnexpectedServerExtension, addr 0x23de8f8, size 0xcc, virtual true, abstract: false, final false
   inline void CheckForUnexpectedServerExtension(::System::Collections::IDictionary* serverExtensions, int32_t extensionType);
 
-  /// @brief Method GetAuthentication, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetAuthentication, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication* GetAuthentication();
 
-  /// @brief Method GetCipher, addr 0x23abd28, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method GetCipher, addr 0x23df014, size 0x104, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* GetCipher();
 
-  /// @brief Method GetCipherSuites, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetCipherSuites, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
 
-  /// @brief Method GetClientExtensions, addr 0x23ab758, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method GetClientExtensions, addr 0x23dea44, size 0x25c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetClientExtensions();
 
-  /// @brief Method GetClientSupplementalData, addr 0x23abc34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetClientSupplementalData, addr 0x23def20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetClientSupplementalData();
 
-  /// @brief Method GetCompression, addr 0x23abc3c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetCompression, addr 0x23def28, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCompression* GetCompression();
 
-  /// @brief Method GetCompressionMethods, addr 0x23aba80, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetCompressionMethods, addr 0x23ded6c, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCompressionMethods();
 
-  /// @brief Method GetKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetKeyExchange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
 
-  /// @brief Method GetSessionToResume, addr 0x23ab6e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetSessionToResume, addr 0x23de9cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSession* GetSessionToResume();
 
-  /// @brief Method Init, addr 0x23ab6d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x23de9c4, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsClientContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
-  /// @brief Method NotifyNewSessionTicket, addr 0x23abe2c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyNewSessionTicket, addr 0x23df118, size 0x4, virtual true, abstract: false, final false
   inline void NotifyNewSessionTicket(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* newSessionTicket);
 
-  /// @brief Method NotifySelectedCipherSuite, addr 0x23abac8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method NotifySelectedCipherSuite, addr 0x23dedb4, size 0x8, virtual true, abstract: false, final false
   inline void NotifySelectedCipherSuite(int32_t selectedCipherSuite);
 
-  /// @brief Method NotifySelectedCompressionMethod, addr 0x23abad0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method NotifySelectedCompressionMethod, addr 0x23dedbc, size 0xc, virtual true, abstract: false, final false
   inline void NotifySelectedCompressionMethod(uint8_t selectedCompressionMethod);
 
-  /// @brief Method NotifyServerVersion, addr 0x23aba0c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method NotifyServerVersion, addr 0x23decf8, size 0x74, virtual true, abstract: false, final false
   inline void NotifyServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* serverVersion);
 
-  /// @brief Method NotifySessionID, addr 0x23abac4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifySessionID, addr 0x23dedb0, size 0x4, virtual true, abstract: false, final false
   inline void NotifySessionID(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID);
 
-  /// @brief Method ProcessServerExtensions, addr 0x23abadc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerExtensions, addr 0x23dedc8, size 0x114, virtual true, abstract: false, final false
   inline void ProcessServerExtensions(::System::Collections::IDictionary* serverExtensions);
 
-  /// @brief Method ProcessServerSupplementalData, addr 0x23abbf0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerSupplementalData, addr 0x23deedc, size 0x44, virtual true, abstract: false, final false
   inline void ProcessServerSupplementalData(::System::Collections::IList* serverSupplementalData);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*& __cordl_internal_get_mCipherFactory();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* const& __cordl_internal_get_mCipherFactory() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*> const& __cordl_internal_get_mCipherFactory() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*& __cordl_internal_get_mCipherFactory();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mClientECPointFormats() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mClientECPointFormats();
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContext*& __cordl_internal_get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContext* const& __cordl_internal_get_mContext() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClientContext*> const& __cordl_internal_get_mContext() const;
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContext*& __cordl_internal_get_mContext();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_mNamedCurves() const;
 
@@ -187,9 +181,9 @@ public:
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mServerECPointFormats();
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
 
   constexpr void __cordl_internal_set_mCipherFactory(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* value);
 
@@ -207,22 +201,22 @@ public:
 
   constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x23ab4b8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23de7a4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x23ab524, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23de810, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory);
 
-  /// @brief Method get_ClientHelloRecordLayerVersion, addr 0x23ab6e8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ClientHelloRecordLayerVersion, addr 0x23de9d4, size 0x10, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientHelloRecordLayerVersion();
 
-  /// @brief Method get_ClientVersion, addr 0x23ab6f8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ClientVersion, addr 0x23de9e4, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientVersion();
 
-  /// @brief Method get_IsFallback, addr 0x23ab750, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFallback, addr 0x23dea3c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFallback();
 
-  /// @brief Method get_MinimumVersion, addr 0x23ab9b4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_MinimumVersion, addr 0x23deca0, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_MinimumVersion();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsClient"
@@ -244,6 +238,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsClient", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AbstractTlsClient(AbstractTlsClient const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1165 };
 
   /// @brief Field mCipherFactory, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* ___mCipherFactory;
@@ -269,14 +266,9 @@ public:
   /// @brief Field mSelectedCompressionMethod, offset: 0x4c, size: 0x2, def value: None
   int16_t ___mSelectedCompressionMethod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1165 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, ___mCipherFactory) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, ___mContext) == 0x20, "Offset mismatch!");
@@ -292,6 +284,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, ___m
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, ___mSelectedCipherSuite) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, ___mSelectedCompressionMethod) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient);

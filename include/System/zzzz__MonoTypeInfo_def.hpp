@@ -15,11 +15,10 @@ class MonoTypeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MonoTypeInfo);
-// Type: System::MonoTypeInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::MonoTypeInfo*
+// CS Name: System.MonoTypeInfo
 class CORDL_TYPE MonoTypeInfo : public ::System::Object {
 public:
   // Declarations
@@ -31,9 +30,9 @@ public:
 
   static inline ::System::MonoTypeInfo* New_ctor();
 
-  constexpr ::System::Reflection::RuntimeConstructorInfo*& __cordl_internal_get_default_ctor();
+  constexpr ::System::Reflection::RuntimeConstructorInfo* const& __cordl_internal_get_default_ctor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeConstructorInfo*> const& __cordl_internal_get_default_ctor() const;
+  constexpr ::System::Reflection::RuntimeConstructorInfo*& __cordl_internal_get_default_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_full_name() const;
 
@@ -43,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_full_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3dd11a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e31254, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,23 +59,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTypeInfo(MonoTypeInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2582 };
+
   /// @brief Field full_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___full_name;
 
   /// @brief Field default_ctor, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::RuntimeConstructorInfo* ___default_ctor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2582 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::MonoTypeInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::MonoTypeInfo, ___full_name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::MonoTypeInfo, ___default_ctor) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::MonoTypeInfo, 0x20>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MonoTypeInfo);

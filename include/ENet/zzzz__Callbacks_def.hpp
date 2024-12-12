@@ -24,11 +24,10 @@ class Callbacks;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::Callbacks);
-// Type: ENet::Callbacks
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ENet.ENetCallbacks, System.Object
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::Callbacks*
+// CS Name: ENet.Callbacks
 class CORDL_TYPE Callbacks : public ::System::Object {
 public:
   // Declarations
@@ -45,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method .ctor, addr 0x3a4d2f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3f60, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method get_NativeData, addr 0x3a4d2c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x3aa3f38, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x3a4d2dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x3aa3f4c, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
 protected:
@@ -68,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Callbacks(Callbacks const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17743 };
+
   /// @brief Field nativeCallbacks, offset: 0x10, size: 0x18, def value: None
   ::ENet::ENetCallbacks ___nativeCallbacks;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ENet::Callbacks, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::ENet::Callbacks, ___nativeCallbacks) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::ENet::Callbacks, 0x28>, "Size mismatch!");
 
 } // namespace ENet
 NEED_NO_BOX(::ENet::Callbacks);

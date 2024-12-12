@@ -26,16 +26,10 @@ template <typename T> constexpr void GlobalNamespace::BinaryHeap_1<T>::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____tail = value;
 }
-template <typename T> inline ::GlobalNamespace::BinaryHeap_1<T>* GlobalNamespace::BinaryHeap_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BinaryHeap_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::BinaryHeap_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BinaryHeap_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline ::GlobalNamespace::BinaryHeap_1<T>* GlobalNamespace::BinaryHeap_1<T>::New_ctor(int32_t capacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BinaryHeap_1<T>*>(capacity));
 }
 template <typename T> inline void GlobalNamespace::BinaryHeap_1<T>::_ctor(int32_t capacity) {
   static auto* ___internal_method =
@@ -49,11 +43,17 @@ template <typename T> inline void GlobalNamespace::BinaryHeap_1<T>::Insert(T ite
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
-template <typename T> inline bool GlobalNamespace::BinaryHeap_1<T>::RemoveMin(ByRef<T> output) {
+template <typename T> inline bool GlobalNamespace::BinaryHeap_1<T>::RemoveMin(::ByRef<T> output) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BinaryHeap_1<T>*>::get(), "RemoveMin", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, output);
+}
+template <typename T> inline ::GlobalNamespace::BinaryHeap_1<T>* GlobalNamespace::BinaryHeap_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BinaryHeap_1<T>*>());
+}
+template <typename T> inline ::GlobalNamespace::BinaryHeap_1<T>* GlobalNamespace::BinaryHeap_1<T>::New_ctor(int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BinaryHeap_1<T>*>(capacity));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::BinaryHeap_1<T>::BinaryHeap_1() {}

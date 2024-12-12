@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::NetworkInformation::UnixNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::UnixIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4387788;
+  constexpr static std::size_t addrs = 0x43e8a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (
     ::System::Net::NetworkInformation::UnixIPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::UnixIPInterfaceProperties::get_UnicastAddresses)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x438be68;
+  constexpr static std::size_t addrs = 0x43ed17c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,7 @@ constexpr ::System::Net::NetworkInformation::UnixNetworkInterface*& System::Net:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::UnixNetworkInterface*> const&
-System::Net::NetworkInformation::UnixIPInterfaceProperties::__cordl_internal_get_iface() const {
+constexpr ::System::Net::NetworkInformation::UnixNetworkInterface* const& System::Net::NetworkInformation::UnixIPInterfaceProperties::__cordl_internal_get_iface() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iface;
 }
@@ -57,8 +56,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& Sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const&
-System::Net::NetworkInformation::UnixIPInterfaceProperties::__cordl_internal_get_addresses() const {
+constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* const& System::Net::NetworkInformation::UnixIPInterfaceProperties::__cordl_internal_get_addresses() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addresses;
 }
@@ -84,11 +82,6 @@ inline ::System::Text::RegularExpressions::Regex* System::Net::NetworkInformatio
   return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "search",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>::get>();
 }
-inline ::System::Net::NetworkInformation::UnixIPInterfaceProperties*
-System::Net::NetworkInformation::UnixIPInterfaceProperties::New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface,
-                                                                     ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>(iface, addresses));
-}
 inline void System::Net::NetworkInformation::UnixIPInterfaceProperties::_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface,
                                                                               ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,6 +95,11 @@ inline ::System::Net::NetworkInformation::UnicastIPAddressInformationCollection*
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection*, false>(this, ___internal_method);
+}
+inline ::System::Net::NetworkInformation::UnixIPInterfaceProperties*
+System::Net::NetworkInformation::UnixIPInterfaceProperties::New_ctor(::System::Net::NetworkInformation::UnixNetworkInterface* iface,
+                                                                     ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::UnixIPInterfaceProperties*>(iface, addresses));
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::UnixIPInterfaceProperties::UnixIPInterfaceProperties() {}

@@ -12,11 +12,10 @@ class DSASignatureFormatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureFormatter);
-// Type: System.Security.Cryptography::DSASignatureFormatter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.AsymmetricSignatureFormatter
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::DSASignatureFormatter*
+// CS Name: System.Security.Cryptography.DSASignatureFormatter
 class CORDL_TYPE DSASignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c3f588, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9f6fc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DSASignatureFormatter(DSASignatureFormatter const&) = delete;
 
-  /// @brief Field _oid, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____oid;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2932 };
+
+  /// @brief Field _oid, offset: 0x10, size: 0x8, def value: None
+  ::StringW ____oid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSASignatureFormatter, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::DSASignatureFormatter, ____oid) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSASignatureFormatter, 0x18>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::DSASignatureFormatter);

@@ -12,11 +12,10 @@ struct NtlmAuthLevel;
 }
 // Write type traits
 MARK_VAL_T(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel);
-// Type: Mono.Security.Protocol.Ntlm::NtlmAuthLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: true
-// CS Name: ::Mono.Security.Protocol.Ntlm::NtlmAuthLevel
+// CS Name: Mono.Security.Protocol.Ntlm.NtlmAuthLevel
 struct CORDL_TYPE NtlmAuthLevel {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NtlmAuthLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field LM_and_NTLM value: static_cast<int32_t>(0x0)
+  /// @brief Field LM_and_NTLM value: I32(0)
   static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM;
 
-  /// @brief Field LM_and_NTLM_and_try_NTLMv2_Session value: static_cast<int32_t>(0x1)
+  /// @brief Field LM_and_NTLM_and_try_NTLMv2_Session value: I32(1)
   static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const LM_and_NTLM_and_try_NTLMv2_Session;
 
-  /// @brief Field NTLM_only value: static_cast<int32_t>(0x2)
+  /// @brief Field NTLM_only value: I32(2)
   static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLM_only;
 
-  /// @brief Field NTLMv2_only value: static_cast<int32_t>(0x3)
+  /// @brief Field NTLMv2_only value: I32(3)
   static ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const NTLMv2_only;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15937 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, 0x4>, "Size mismatch!");
 
 } // namespace Mono::Security::Protocol::Ntlm
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel, "Mono.Security.Protocol.Ntlm", "NtlmAuthLevel");

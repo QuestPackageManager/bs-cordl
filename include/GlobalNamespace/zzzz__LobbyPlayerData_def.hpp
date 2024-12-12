@@ -3,25 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
 CORDL_MODULE_EXPORT(LobbyPlayerData)
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class ILobbyPlayerData;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LobbyPlayerData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LobbyPlayerData);
-// Type: ::LobbyPlayerData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelGameplaySetupData, ILobbyPlayerData, LevelGameplaySetupData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LobbyPlayerData*
+// CS Name: LobbyPlayerData
 class CORDL_TYPE LobbyPlayerData : public ::GlobalNamespace::LevelGameplaySetupData {
 public:
   // Declarations
@@ -77,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set__isReady_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x26a5bb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26da8e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isActive, addr 0x26a5b74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isActive, addr 0x26da8a8, size 0x8, virtual true, abstract: false, final true
   inline bool get_isActive();
 
-  /// @brief Method get_isInLobby, addr 0x26a5b9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isInLobby, addr 0x26da8d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInLobby();
 
-  /// @brief Method get_isPartyOwner, addr 0x26a5b60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isPartyOwner, addr 0x26da894, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPartyOwner();
 
-  /// @brief Method get_isReady, addr 0x26a5b88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x26da8bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
@@ -98,16 +93,16 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILobbyPlayerData"
   constexpr ::GlobalNamespace::ILobbyPlayerData* i___GlobalNamespace__ILobbyPlayerData() noexcept;
 
-  /// @brief Method set_isActive, addr 0x26a5b7c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isActive, addr 0x26da8b0, size 0xc, virtual true, abstract: false, final true
   inline void set_isActive(bool value);
 
-  /// @brief Method set_isInLobby, addr 0x26a5ba4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isInLobby, addr 0x26da8d8, size 0xc, virtual true, abstract: false, final true
   inline void set_isInLobby(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0x26a5b68, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isPartyOwner, addr 0x26da89c, size 0xc, virtual true, abstract: false, final true
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method set_isReady, addr 0x26a5b90, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isReady, addr 0x26da8c4, size 0xc, virtual true, abstract: false, final true
   inline void set_isReady(bool value);
 
 protected:
@@ -124,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyPlayerData(LobbyPlayerData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13100 };
+
   /// @brief Field <isPartyOwner>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____isPartyOwner_k__BackingField;
 
@@ -136,14 +134,9 @@ public:
   /// @brief Field <isInLobby>k__BackingField, offset: 0x33, size: 0x1, def value: None
   bool ____isInLobby_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13065 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyPlayerData, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LobbyPlayerData, ____isPartyOwner_k__BackingField) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyPlayerData, ____isActive_k__BackingField) == 0x31, "Offset mismatch!");
@@ -151,6 +144,8 @@ static_assert(offsetof(::GlobalNamespace::LobbyPlayerData, ____isActive_k__Backi
 static_assert(offsetof(::GlobalNamespace::LobbyPlayerData, ____isReady_k__BackingField) == 0x32, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyPlayerData, ____isInLobby_k__BackingField) == 0x33, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyPlayerData, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LobbyPlayerData);

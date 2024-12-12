@@ -16,23 +16,16 @@ class BaseRaycaster;
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::EventSystems {
 struct RaycastResult;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventSystems::RaycastResult);
-// Type: UnityEngine.EventSystems::RaycastResult
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// CS Name: ::UnityEngine.EventSystems::RaycastResult
+// CS Name: UnityEngine.EventSystems.RaycastResult
 struct CORDL_TYPE RaycastResult {
 public:
   // Declarations
@@ -40,19 +33,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method Clear, addr 0x4a7bffc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4ae090c, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x4a70e84, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4ad5794, size 0x430, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_gameObject, addr 0x4a7bf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x4ae0864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isValid, addr 0x4a7bf64, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x4ae0874, size 0x98, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method set_gameObject, addr 0x4a7bf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x4ae086c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters []
@@ -69,6 +62,12 @@ public:
   constexpr RaycastResult(::UnityW<::UnityEngine::GameObject> m_GameObject, ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> _cordl_module, float_t distance, float_t index, int32_t depth,
                           int32_t sortingGroupID, int32_t sortingGroupOrder, int32_t sortingLayer, int32_t sortingOrder, ::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldNormal,
                           ::UnityEngine::Vector2 screenPosition, int32_t displayIndex) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15223 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field m_GameObject, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> m_GameObject;
@@ -109,17 +108,9 @@ public:
   /// @brief Field displayIndex, offset: 0x4c, size: 0x4, def value: None
   int32_t displayIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15188 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::RaycastResult, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, m_GameObject) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, _cordl_module) == 0x8, "Offset mismatch!");
@@ -145,6 +136,8 @@ static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, worldNormal) 
 static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, screenPosition) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::EventSystems::RaycastResult, displayIndex) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::RaycastResult, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::RaycastResult, "UnityEngine.EventSystems", "RaycastResult");

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(
     &::GlobalNamespace::LightRotationGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x3b2c6c0;
+  constexpr static std::size_t addrs = 0x3b8dc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationGroupEffectManager*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(
     &::GlobalNamespace::LightRotationGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b2cc0c;
+  constexpr static std::size_t addrs = 0x3b8e1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationGroupEffectManager*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationGroupEffectManager::*)()>(
     &::GlobalNamespace::LightRotationGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b2cd54;
+  constexpr static std::size_t addrs = 0x3b8e2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationGroupEffectManager*>::get(),
@@ -67,7 +67,7 @@ constexpr ::Zenject::DiContainer*& GlobalNamespace::LightRotationGroupEffectMana
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::LightRotationGroupEffectManager::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& GlobalNamespace::LightRotationGroupEffectManager::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -79,7 +79,7 @@ constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotatio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroupEffects;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* const&
 GlobalNamespace::LightRotationGroupEffectManager::__cordl_internal_get__lightRotationGroupEffects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationGroupEffects;
@@ -99,13 +99,13 @@ inline void GlobalNamespace::LightRotationGroupEffectManager::OnDestroy() {
                                                                              "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LightRotationGroupEffectManager* GlobalNamespace::LightRotationGroupEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationGroupEffectManager*>());
-}
 inline void GlobalNamespace::LightRotationGroupEffectManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationGroupEffectManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightRotationGroupEffectManager* GlobalNamespace::LightRotationGroupEffectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationGroupEffectManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightRotationGroupEffectManager::LightRotationGroupEffectManager() {}

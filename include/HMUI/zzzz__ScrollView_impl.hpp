@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "HMUI/ScrollView.hpp"
-#include "HMUI/zzzz__ScrollView_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"
@@ -18,347 +17,346 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__ScrollView__ScrollType::__ScrollView__ScrollType(int32_t value__) noexcept {
+constexpr ::HMUI::ScrollView_ScrollType::ScrollView_ScrollType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView__ScrollType::__ScrollView__ScrollType() {}
-constexpr ::HMUI::__ScrollView__ScrollType HMUI::__ScrollView__ScrollType::PageSize{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__ScrollView__ScrollType HMUI::__ScrollView__ScrollType::FixedCellSize{ static_cast<int32_t>(0x1) };
-constexpr ::HMUI::__ScrollView__ScrollType HMUI::__ScrollView__ScrollType::FocusItems{ static_cast<int32_t>(0x2) };
+constexpr ::HMUI::ScrollView_ScrollType::ScrollView_ScrollType() {}
+constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::PageSize{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::FixedCellSize{ static_cast<int32_t>(0x1) };
+constexpr ::HMUI::ScrollView_ScrollType HMUI::ScrollView_ScrollType::FocusItems{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__ScrollView__ScrollDirection::__ScrollView__ScrollDirection(int32_t value__) noexcept {
+constexpr ::HMUI::ScrollView_ScrollDirection::ScrollView_ScrollDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView__ScrollDirection::__ScrollView__ScrollDirection() {}
-constexpr ::HMUI::__ScrollView__ScrollDirection HMUI::__ScrollView__ScrollDirection::None{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__ScrollView__ScrollDirection HMUI::__ScrollView__ScrollDirection::Up{ static_cast<int32_t>(0x1) };
-constexpr ::HMUI::__ScrollView__ScrollDirection HMUI::__ScrollView__ScrollDirection::Down{ static_cast<int32_t>(0x2) };
-constexpr ::HMUI::__ScrollView__ScrollDirection HMUI::__ScrollView__ScrollDirection::Left{ static_cast<int32_t>(0x3) };
-constexpr ::HMUI::__ScrollView__ScrollDirection HMUI::__ScrollView__ScrollDirection::Right{ static_cast<int32_t>(0x4) };
+constexpr ::HMUI::ScrollView_ScrollDirection::ScrollView_ScrollDirection() {}
+constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::None{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Up{ static_cast<int32_t>(0x1) };
+constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Down{ static_cast<int32_t>(0x2) };
+constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Left{ static_cast<int32_t>(0x3) };
+constexpr ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView_ScrollDirection::Right{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__ScrollView__ScrollViewDirection::__ScrollView__ScrollViewDirection(int32_t value__) noexcept {
+constexpr ::HMUI::ScrollView_ScrollViewDirection::ScrollView_ScrollViewDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView__ScrollViewDirection::__ScrollView__ScrollViewDirection() {}
-constexpr ::HMUI::__ScrollView__ScrollViewDirection HMUI::__ScrollView__ScrollViewDirection::Vertical{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__ScrollView__ScrollViewDirection HMUI::__ScrollView__ScrollViewDirection::Horizontal{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::HMUI::__ScrollView____c._ctor
+constexpr ::HMUI::ScrollView_ScrollViewDirection::ScrollView_ScrollViewDirection() {}
+constexpr ::HMUI::ScrollView_ScrollViewDirection HMUI::ScrollView_ScrollViewDirection::Vertical{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::ScrollView_ScrollViewDirection HMUI::ScrollView_ScrollViewDirection::Horizontal{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::HMUI::ScrollView___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollView____c::*)()>(&::HMUI::__ScrollView____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView___c::*)()>(&::HMUI::ScrollView___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a5950;
+  constexpr static std::size_t addrs = 0x39fc5c0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c._Awake_b__42_1
+//  Writing Method size for method: ::HMUI::ScrollView___c._Awake_b__42_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::__ScrollView____c::*)(float_t)>(&::HMUI::__ScrollView____c::_Awake_b__42_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView___c::*)(float_t)>(&::HMUI::ScrollView___c::_Awake_b__42_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a5958;
+  constexpr static std::size_t addrs = 0x39fc5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), "<Awake>b__42_1", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), "<Awake>b__42_1", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c._Awake_b__42_3
+//  Writing Method size for method: ::HMUI::ScrollView___c._Awake_b__42_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::__ScrollView____c::*)(float_t)>(&::HMUI::__ScrollView____c::_Awake_b__42_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView___c::*)(float_t)>(&::HMUI::ScrollView___c::_Awake_b__42_3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a595c;
+  constexpr static std::size_t addrs = 0x39fc5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), "<Awake>b__42_3", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), "<Awake>b__42_3", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-inline void HMUI::__ScrollView____c::setStaticF___9(::HMUI::__ScrollView____c* value) {
-  ::cordl_internals::setStaticField<::HMUI::__ScrollView____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>(
-      std::forward<::HMUI::__ScrollView____c*>(value));
+inline void HMUI::ScrollView___c::setStaticF___9(::HMUI::ScrollView___c* value) {
+  ::cordl_internals::setStaticField<::HMUI::ScrollView___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>(std::forward<::HMUI::ScrollView___c*>(value));
 }
-inline ::HMUI::__ScrollView____c* HMUI::__ScrollView____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::HMUI::__ScrollView____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>();
+inline ::HMUI::ScrollView___c* HMUI::ScrollView___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::HMUI::ScrollView___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>();
 }
-inline void HMUI::__ScrollView____c::setStaticF___9__42_1(::System::Func_2<float_t, float_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>(
+inline void HMUI::ScrollView___c::setStaticF___9__42_1(::System::Func_2<float_t, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>(
       std::forward<::System::Func_2<float_t, float_t>*>(value));
 }
-inline ::System::Func_2<float_t, float_t>* HMUI::__ScrollView____c::getStaticF___9__42_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>();
+inline ::System::Func_2<float_t, float_t>* HMUI::ScrollView___c::getStaticF___9__42_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>();
 }
-inline void HMUI::__ScrollView____c::setStaticF___9__42_3(::System::Func_2<float_t, float_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>(
+inline void HMUI::ScrollView___c::setStaticF___9__42_3(::System::Func_2<float_t, float_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>(
       std::forward<::System::Func_2<float_t, float_t>*>(value));
 }
-inline ::System::Func_2<float_t, float_t>* HMUI::__ScrollView____c::getStaticF___9__42_3() {
-  return ::cordl_internals::getStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get>();
+inline ::System::Func_2<float_t, float_t>* HMUI::ScrollView___c::getStaticF___9__42_3() {
+  return ::cordl_internals::getStaticField<::System::Func_2<float_t, float_t>*, "<>9__42_3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get>();
 }
-inline ::HMUI::__ScrollView____c* HMUI::__ScrollView____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollView____c*>());
-}
-inline void HMUI::__ScrollView____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), ".ctor",
+inline void HMUI::ScrollView___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline float_t HMUI::__ScrollView____c::_Awake_b__42_1(float_t i) {
+inline float_t HMUI::ScrollView___c::_Awake_b__42_1(float_t i) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), "<Awake>b__42_1", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), "<Awake>b__42_1", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, i);
 }
-inline float_t HMUI::__ScrollView____c::_Awake_b__42_3(float_t i) {
+inline float_t HMUI::ScrollView___c::_Awake_b__42_3(float_t i) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c*>::get(), "<Awake>b__42_3", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c*>::get(), "<Awake>b__42_3", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, i);
 }
+inline ::HMUI::ScrollView___c* HMUI::ScrollView___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView___c*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView____c::__ScrollView____c() {}
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass55_0._ctor
+constexpr ::HMUI::ScrollView___c::ScrollView___c() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass55_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollView____c__DisplayClass55_0::*)()>(&::HMUI::__ScrollView____c__DisplayClass55_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView___c__DisplayClass55_0::*)()>(&::HMUI::ScrollView___c__DisplayClass55_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a54c0;
+  constexpr static std::size_t addrs = 0x39fc130;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass55_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass55_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass55_0._PageUpButtonPressed_b__0
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass55_0._PageUpButtonPressed_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__ScrollView____c__DisplayClass55_0::*)(float_t)>(
-    &::HMUI::__ScrollView____c__DisplayClass55_0::_PageUpButtonPressed_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass55_0::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass55_0::_PageUpButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a5960;
+  constexpr static std::size_t addrs = 0x39fc5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass55_0*>::get(), "<PageUpButtonPressed>b__0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass55_0*>::get(), "<PageUpButtonPressed>b__0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::__ScrollView____c__DisplayClass55_0::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass55_0::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::__ScrollView____c__DisplayClass55_0::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass55_0::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::__ScrollView____c__DisplayClass55_0::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass55_0::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline ::HMUI::__ScrollView____c__DisplayClass55_0* HMUI::__ScrollView____c__DisplayClass55_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollView____c__DisplayClass55_0*>());
-}
-inline void HMUI::__ScrollView____c__DisplayClass55_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass55_0*>::get(), ".ctor",
+inline void HMUI::ScrollView___c__DisplayClass55_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass55_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HMUI::__ScrollView____c__DisplayClass55_0::_PageUpButtonPressed_b__0(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass55_0::_PageUpButtonPressed_b__0(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass55_0*>::get(), "<PageUpButtonPressed>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass55_0*>::get(), "<PageUpButtonPressed>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pos);
 }
+inline ::HMUI::ScrollView___c__DisplayClass55_0* HMUI::ScrollView___c__DisplayClass55_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView___c__DisplayClass55_0*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView____c__DisplayClass55_0::__ScrollView____c__DisplayClass55_0() {}
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass56_0._ctor
+constexpr ::HMUI::ScrollView___c__DisplayClass55_0::ScrollView___c__DisplayClass55_0() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass56_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollView____c__DisplayClass56_0::*)()>(&::HMUI::__ScrollView____c__DisplayClass56_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView___c__DisplayClass56_0::*)()>(&::HMUI::ScrollView___c__DisplayClass56_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a57d0;
+  constexpr static std::size_t addrs = 0x39fc440;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass56_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass56_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass56_0._PageDownButtonPressed_b__0
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass56_0._PageDownButtonPressed_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__ScrollView____c__DisplayClass56_0::*)(float_t)>(
-    &::HMUI::__ScrollView____c__DisplayClass56_0::_PageDownButtonPressed_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass56_0::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass56_0::_PageDownButtonPressed_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a5970;
+  constexpr static std::size_t addrs = 0x39fc5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass56_0*>::get(), "<PageDownButtonPressed>b__0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass56_0*>::get(), "<PageDownButtonPressed>b__0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::__ScrollView____c__DisplayClass56_0::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass56_0::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::__ScrollView____c__DisplayClass56_0::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass56_0::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::__ScrollView____c__DisplayClass56_0::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass56_0::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline ::HMUI::__ScrollView____c__DisplayClass56_0* HMUI::__ScrollView____c__DisplayClass56_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollView____c__DisplayClass56_0*>());
-}
-inline void HMUI::__ScrollView____c__DisplayClass56_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass56_0*>::get(), ".ctor",
+inline void HMUI::ScrollView___c__DisplayClass56_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass56_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HMUI::__ScrollView____c__DisplayClass56_0::_PageDownButtonPressed_b__0(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass56_0::_PageDownButtonPressed_b__0(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass56_0*>::get(), "<PageDownButtonPressed>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass56_0*>::get(), "<PageDownButtonPressed>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pos);
 }
+inline ::HMUI::ScrollView___c__DisplayClass56_0* HMUI::ScrollView___c__DisplayClass56_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView___c__DisplayClass56_0*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView____c__DisplayClass56_0::__ScrollView____c__DisplayClass56_0() {}
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass61_0._ctor
+constexpr ::HMUI::ScrollView___c__DisplayClass56_0::ScrollView___c__DisplayClass56_0() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass61_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollView____c__DisplayClass61_0::*)()>(&::HMUI::__ScrollView____c__DisplayClass61_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView___c__DisplayClass61_0::*)()>(&::HMUI::ScrollView___c__DisplayClass61_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a5844;
+  constexpr static std::size_t addrs = 0x39fc4b4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass61_0._HandleJoystickWasCenteredThisFrame_b__0
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass61_0._HandleJoystickWasCenteredThisFrame_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__ScrollView____c__DisplayClass61_0::*)(float_t)>(
-    &::HMUI::__ScrollView____c__DisplayClass61_0::_HandleJoystickWasCenteredThisFrame_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass61_0::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass61_0::_HandleJoystickWasCenteredThisFrame_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a5980;
+  constexpr static std::size_t addrs = 0x39fc5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_0*>::get(), "<HandleJoystickWasCenteredThisFrame>b__0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_0*>::get(), "<HandleJoystickWasCenteredThisFrame>b__0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::__ScrollView____c__DisplayClass61_0::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass61_0::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::__ScrollView____c__DisplayClass61_0::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass61_0::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::__ScrollView____c__DisplayClass61_0::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass61_0::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline ::HMUI::__ScrollView____c__DisplayClass61_0* HMUI::__ScrollView____c__DisplayClass61_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollView____c__DisplayClass61_0*>());
-}
-inline void HMUI::__ScrollView____c__DisplayClass61_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_0*>::get(), ".ctor",
+inline void HMUI::ScrollView___c__DisplayClass61_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HMUI::__ScrollView____c__DisplayClass61_0::_HandleJoystickWasCenteredThisFrame_b__0(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass61_0::_HandleJoystickWasCenteredThisFrame_b__0(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_0*>::get(), "<HandleJoystickWasCenteredThisFrame>b__0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_0*>::get(), "<HandleJoystickWasCenteredThisFrame>b__0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pos);
 }
+inline ::HMUI::ScrollView___c__DisplayClass61_0* HMUI::ScrollView___c__DisplayClass61_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView___c__DisplayClass61_0*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView____c__DisplayClass61_0::__ScrollView____c__DisplayClass61_0() {}
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass61_1._ctor
+constexpr ::HMUI::ScrollView___c__DisplayClass61_0::ScrollView___c__DisplayClass61_0() {}
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass61_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ScrollView____c__DisplayClass61_1::*)()>(&::HMUI::__ScrollView____c__DisplayClass61_1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView___c__DisplayClass61_1::*)()>(&::HMUI::ScrollView___c__DisplayClass61_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a584c;
+  constexpr static std::size_t addrs = 0x39fc4bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_1*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_1*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ScrollView____c__DisplayClass61_1._HandleJoystickWasCenteredThisFrame_b__1
+//  Writing Method size for method: ::HMUI::ScrollView___c__DisplayClass61_1._HandleJoystickWasCenteredThisFrame_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::__ScrollView____c__DisplayClass61_1::*)(float_t)>(
-    &::HMUI::__ScrollView____c__DisplayClass61_1::_HandleJoystickWasCenteredThisFrame_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ScrollView___c__DisplayClass61_1::*)(float_t)>(
+    &::HMUI::ScrollView___c__DisplayClass61_1::_HandleJoystickWasCenteredThisFrame_b__1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a5990;
+  constexpr static std::size_t addrs = 0x39fc600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_1*>::get(), "<HandleJoystickWasCenteredThisFrame>b__1",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_1*>::get(), "<HandleJoystickWasCenteredThisFrame>b__1",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& HMUI::__ScrollView____c__DisplayClass61_1::__cordl_internal_get_threshold() {
+constexpr float_t& HMUI::ScrollView___c__DisplayClass61_1::__cordl_internal_get_threshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr float_t const& HMUI::__ScrollView____c__DisplayClass61_1::__cordl_internal_get_threshold() const {
+constexpr float_t const& HMUI::ScrollView___c__DisplayClass61_1::__cordl_internal_get_threshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___threshold;
 }
-constexpr void HMUI::__ScrollView____c__DisplayClass61_1::__cordl_internal_set_threshold(float_t value) {
+constexpr void HMUI::ScrollView___c__DisplayClass61_1::__cordl_internal_set_threshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___threshold = value;
 }
-inline ::HMUI::__ScrollView____c__DisplayClass61_1* HMUI::__ScrollView____c__DisplayClass61_1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ScrollView____c__DisplayClass61_1*>());
-}
-inline void HMUI::__ScrollView____c__DisplayClass61_1::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_1*>::get(), ".ctor",
+inline void HMUI::ScrollView___c__DisplayClass61_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_1*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HMUI::__ScrollView____c__DisplayClass61_1::_HandleJoystickWasCenteredThisFrame_b__1(float_t pos) {
+inline bool HMUI::ScrollView___c__DisplayClass61_1::_HandleJoystickWasCenteredThisFrame_b__1(float_t pos) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ScrollView____c__DisplayClass61_1*>::get(), "<HandleJoystickWasCenteredThisFrame>b__1",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView___c__DisplayClass61_1*>::get(), "<HandleJoystickWasCenteredThisFrame>b__1",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pos);
 }
+inline ::HMUI::ScrollView___c__DisplayClass61_1* HMUI::ScrollView___c__DisplayClass61_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView___c__DisplayClass61_1*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ScrollView____c__DisplayClass61_1::__ScrollView____c__DisplayClass61_1() {}
+constexpr ::HMUI::ScrollView___c__DisplayClass61_1::ScrollView___c__DisplayClass61_1() {}
 //  Writing Method size for method: ::HMUI::ScrollView.add_scrollPositionChangedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::System::Action_1<float_t>*)>(&::HMUI::ScrollView::add_scrollPositionChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39a3b08;
+  constexpr static std::size_t addrs = 0x39fa778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,7 +370,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::System::Action_1<float_t>*)>(&::HMUI::ScrollView::remove_scrollPositionChangedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39a3bb8;
+  constexpr static std::size_t addrs = 0x39fa828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_viewportTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a3c68;
+  constexpr static std::size_t addrs = 0x39fa8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_viewportTransform",
@@ -399,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_contentTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a3c70;
+  constexpr static std::size_t addrs = 0x39fa8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_contentTransform",
@@ -412,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_position)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39a3c78;
+  constexpr static std::size_t addrs = 0x39fa8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_position",
@@ -425,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_scrollableSize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39a3ca8;
+  constexpr static std::size_t addrs = 0x39fa918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_scrollableSize",
@@ -438,7 +436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_scrollPageSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39a3d0c;
+  constexpr static std::size_t addrs = 0x39fa97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_scrollPageSize",
@@ -451,7 +449,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::get_contentSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39a3cdc;
+  constexpr static std::size_t addrs = 0x39fa94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "get_contentSize",
@@ -464,7 +462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::Awake)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x39a3d3c;
+  constexpr static std::size_t addrs = 0x39fa9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "Awake",
@@ -477,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::OnDestroy)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x39a438c;
+  constexpr static std::size_t addrs = 0x39faffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "OnDestroy",
@@ -490,7 +488,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::CheckScrollInput)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x39a44c0;
+  constexpr static std::size_t addrs = 0x39fb130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "CheckScrollInput",
@@ -503,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::Update)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x39a4b6c;
+  constexpr static std::size_t addrs = 0x39fb7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "Update",
@@ -516,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::SetContentSize)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x39a4d60;
+  constexpr static std::size_t addrs = 0x39fb9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -530,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::UpdateContentSize)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39a4218;
+  constexpr static std::size_t addrs = 0x39fae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "UpdateContentSize",
@@ -543,7 +541,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(bool)>(&::HMUI::ScrollView::ScrollToEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39a4f84;
+  constexpr static std::size_t addrs = 0x39fbbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -557,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector3, float_t, bool)>(&::HMUI::ScrollView::ScrollToWorldPosition)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39a4fc4;
+  constexpr static std::size_t addrs = 0x39fbc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector3, float_t, float_t, float_t, bool)>(
     &::HMUI::ScrollView::ScrollToWorldPositionIfOutsideArea)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39a50bc;
+  constexpr static std::size_t addrs = 0x39fbd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -589,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(float_t, bool)>(&::HMUI::ScrollView::ScrollTo)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39a3a3c;
+  constexpr static std::size_t addrs = 0x39fa6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -604,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::HMUI::ScrollView::*)(::UnityEngine::Vector3)>(
     &::HMUI::ScrollView::WorldPositionToScrollViewPosition)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39a500c;
+  constexpr static std::size_t addrs = 0x39fbc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -618,7 +616,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::SetDestinationPos)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39a516c;
+  constexpr static std::size_t addrs = 0x39fbddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -632,7 +630,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(float_t)>(&::HMUI::ScrollView::UpdateVerticalScrollIndicator)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39a4c8c;
+  constexpr static std::size_t addrs = 0x39fb8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::PageUpButtonPressed)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x39a51e8;
+  constexpr static std::size_t addrs = 0x39fbe58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "PageUpButtonPressed",
@@ -659,7 +657,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::PageDownButtonPressed)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x39a54c8;
+  constexpr static std::size_t addrs = 0x39fc138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "PageDownButtonPressed",
@@ -672,7 +670,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::RefreshButtons)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x39a427c;
+  constexpr static std::size_t addrs = 0x39faeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "RefreshButtons",
@@ -686,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::ScrollView::HandlePointerDidEnter)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39a57d8;
+  constexpr static std::size_t addrs = 0x39fc448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -701,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::ScrollView::HandlePointerDidExit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a57ec;
+  constexpr static std::size_t addrs = 0x39fc45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -715,7 +713,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)(::UnityEngine::Vector2)>(&::HMUI::ScrollView::HandleJoystickWasNotCenteredThisFrame)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39a461c;
+  constexpr static std::size_t addrs = 0x39fb28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -729,7 +727,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::HandleJoystickWasCenteredThisFrame)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x39a4710;
+  constexpr static std::size_t addrs = 0x39fb380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "HandleJoystickWasCenteredThisFrame",
@@ -740,10 +738,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::ScrollView.ResolveScrollDirection
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::__ScrollView__ScrollDirection (::HMUI::ScrollView::*)(::UnityEngine::Vector2)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ScrollView_ScrollDirection (::HMUI::ScrollView::*)(::UnityEngine::Vector2)>(
     &::HMUI::ScrollView::ResolveScrollDirection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39a57f4;
+  constexpr static std::size_t addrs = 0x39fc464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -757,7 +755,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScrollView::*)()>(&::HMUI::ScrollView::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39a5854;
+  constexpr static std::size_t addrs = 0x39fc4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), ".ctor",
@@ -770,7 +768,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)(::HMUI::ItemForFocussedScrolling*)>(&::HMUI::ScrollView::_Awake_b__42_0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39a5884;
+  constexpr static std::size_t addrs = 0x39fc4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -784,7 +782,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::ScrollView::*)(::HMUI::ItemForFocussedScrolling*)>(&::HMUI::ScrollView::_Awake_b__42_2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39a58c0;
+  constexpr static std::size_t addrs = 0x39fc530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -817,15 +815,15 @@ constexpr void HMUI::ScrollView::__cordl_internal_set__contentRectTransform(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____contentRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__ScrollView__ScrollViewDirection& HMUI::ScrollView::__cordl_internal_get__scrollViewDirection() {
+constexpr ::HMUI::ScrollView_ScrollViewDirection& HMUI::ScrollView::__cordl_internal_get__scrollViewDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollViewDirection;
 }
-constexpr ::HMUI::__ScrollView__ScrollViewDirection const& HMUI::ScrollView::__cordl_internal_get__scrollViewDirection() const {
+constexpr ::HMUI::ScrollView_ScrollViewDirection const& HMUI::ScrollView::__cordl_internal_get__scrollViewDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollViewDirection;
 }
-constexpr void HMUI::ScrollView::__cordl_internal_set__scrollViewDirection(::HMUI::__ScrollView__ScrollViewDirection value) {
+constexpr void HMUI::ScrollView::__cordl_internal_set__scrollViewDirection(::HMUI::ScrollView_ScrollViewDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollViewDirection = value;
 }
@@ -901,15 +899,15 @@ constexpr void HMUI::ScrollView::__cordl_internal_set__joystickQuickSnapMaxTime(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____joystickQuickSnapMaxTime = value;
 }
-constexpr ::HMUI::__ScrollView__ScrollType& HMUI::ScrollView::__cordl_internal_get__scrollType() {
+constexpr ::HMUI::ScrollView_ScrollType& HMUI::ScrollView::__cordl_internal_get__scrollType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollType;
 }
-constexpr ::HMUI::__ScrollView__ScrollType const& HMUI::ScrollView::__cordl_internal_get__scrollType() const {
+constexpr ::HMUI::ScrollView_ScrollType const& HMUI::ScrollView::__cordl_internal_get__scrollType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scrollType;
 }
-constexpr void HMUI::ScrollView::__cordl_internal_set__scrollType(::HMUI::__ScrollView__ScrollType value) {
+constexpr void HMUI::ScrollView::__cordl_internal_set__scrollType(::HMUI::ScrollView_ScrollType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____scrollType = value;
 }
@@ -989,7 +987,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& HMUI::ScrollView::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& HMUI::ScrollView::__cordl_internal_get__platformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& HMUI::ScrollView::__cordl_internal_get__platformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformHelper;
 }
@@ -1001,7 +999,7 @@ constexpr ::System::Action_1<float_t>*& HMUI::ScrollView::__cordl_internal_get_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollPositionChangedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& HMUI::ScrollView::__cordl_internal_get_scrollPositionChangedEvent() const {
+constexpr ::System::Action_1<float_t>* const& HMUI::ScrollView::__cordl_internal_get_scrollPositionChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___scrollPositionChangedEvent;
 }
@@ -1013,7 +1011,7 @@ constexpr ::HMUI::ButtonBinder*& HMUI::ScrollView::__cordl_internal_get__buttonB
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& HMUI::ScrollView::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& HMUI::ScrollView::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
@@ -1057,15 +1055,15 @@ constexpr void HMUI::ScrollView::__cordl_internal_set__eventSystemListener(::Uni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eventSystemListener)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::__ScrollView__ScrollDirection& HMUI::ScrollView::__cordl_internal_get__lastJoystickScrollDirection() {
+constexpr ::HMUI::ScrollView_ScrollDirection& HMUI::ScrollView::__cordl_internal_get__lastJoystickScrollDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastJoystickScrollDirection;
 }
-constexpr ::HMUI::__ScrollView__ScrollDirection const& HMUI::ScrollView::__cordl_internal_get__lastJoystickScrollDirection() const {
+constexpr ::HMUI::ScrollView_ScrollDirection const& HMUI::ScrollView::__cordl_internal_get__lastJoystickScrollDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastJoystickScrollDirection;
 }
-constexpr void HMUI::ScrollView::__cordl_internal_set__lastJoystickScrollDirection(::HMUI::__ScrollView__ScrollDirection value) {
+constexpr void HMUI::ScrollView::__cordl_internal_set__lastJoystickScrollDirection(::HMUI::ScrollView_ScrollDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastJoystickScrollDirection = value;
 }
@@ -1238,14 +1236,11 @@ inline void HMUI::ScrollView::HandleJoystickWasCenteredThisFrame() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HMUI::__ScrollView__ScrollDirection HMUI::ScrollView::ResolveScrollDirection(::UnityEngine::Vector2 deltaPos) {
+inline ::HMUI::ScrollView_ScrollDirection HMUI::ScrollView::ResolveScrollDirection(::UnityEngine::Vector2 deltaPos) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "ResolveScrollDirection", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::__ScrollView__ScrollDirection, false>(this, ___internal_method, deltaPos);
-}
-inline ::HMUI::ScrollView* HMUI::ScrollView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView*>());
+  return ::cordl_internals::RunMethodRethrow<::HMUI::ScrollView_ScrollDirection, false>(this, ___internal_method, deltaPos);
 }
 inline void HMUI::ScrollView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), ".ctor",
@@ -1263,6 +1258,9 @@ inline float_t HMUI::ScrollView::_Awake_b__42_2(::HMUI::ItemForFocussedScrolling
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScrollView*>::get(), "<Awake>b__42_2", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ItemForFocussedScrolling*>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, item);
+}
+inline ::HMUI::ScrollView* HMUI::ScrollView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScrollView*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::ScrollView::ScrollView() {}

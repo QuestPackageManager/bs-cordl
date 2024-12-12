@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberDescriptor)
@@ -35,11 +34,10 @@ class MemberDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::MemberDescriptor);
-// Type: System.ComponentModel::MemberDescriptor
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::MemberDescriptor*
+// CS Name: System.ComponentModel.MemberDescriptor
 class CORDL_TYPE MemberDescriptor : public ::System::Object {
 public:
   // Declarations
@@ -89,35 +87,35 @@ public:
   /// @brief Field originalAttributes, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_originalAttributes, put = __cordl_internal_set_originalAttributes)) ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
 
-  /// @brief Method CheckAttributesValid, addr 0x43fdd70, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributesValid, addr 0x445f084, size 0xb0, virtual false, abstract: false, final false
   inline void CheckAttributesValid();
 
-  /// @brief Method CreateAttributeCollection, addr 0x43fe8ac, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method CreateAttributeCollection, addr 0x445fbc0, size 0x74, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* CreateAttributeCollection();
 
-  /// @brief Method Equals, addr 0x43fe920, size 0x274, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x445fc34, size 0x274, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes, addr 0x43feb94, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method FillAttributes, addr 0x445fea8, size 0xf4, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method FilterAttributesIfNeeded, addr 0x43fde20, size 0x764, virtual false, abstract: false, final false
+  /// @brief Method FilterAttributesIfNeeded, addr 0x445f134, size 0x764, virtual false, abstract: false, final false
   inline void FilterAttributesIfNeeded();
 
-  /// @brief Method FindMethod, addr 0x43fec88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x445ff9c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType);
 
-  /// @brief Method FindMethod, addr 0x43fec90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method FindMethod, addr 0x445ffa4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType,
                                                              bool publicOnly);
 
-  /// @brief Method GetHashCode, addr 0x43fed34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4460048, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget, addr 0x43fed3c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetInvocationTarget, addr 0x4460050, size 0x108, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetSite, addr 0x43ff4e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetSite, addr 0x44607f4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ISite* GetSite(::System::Object* component);
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
@@ -125,9 +123,9 @@ public:
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor,
                                                                      ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  constexpr ::System::ComponentModel::AttributeCollection*& __cordl_internal_get_attributeCollection();
+  constexpr ::System::ComponentModel::AttributeCollection* const& __cordl_internal_get_attributeCollection() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::AttributeCollection*> const& __cordl_internal_get_attributeCollection() const;
+  constexpr ::System::ComponentModel::AttributeCollection*& __cordl_internal_get_attributeCollection();
 
   constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get_attributes() const;
 
@@ -153,9 +151,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::System::Object*& __cordl_internal_get_lockCookie();
+  constexpr ::System::Object* const& __cordl_internal_get_lockCookie() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_lockCookie() const;
+  constexpr ::System::Object*& __cordl_internal_get_lockCookie();
 
   constexpr int32_t const& __cordl_internal_get_metadataVersion() const;
 
@@ -197,28 +195,28 @@ public:
 
   constexpr void __cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x43fd788, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445ea9c, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor, addr 0x43fd918, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445ec2c, size 0x438, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  /// @brief Method get_AttributeArray, addr 0x43fdd50, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AttributeArray, addr 0x445f064, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> get_AttributeArray();
 
-  /// @brief Method get_Attributes, addr 0x43fe648, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x445f95c, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_DisplayName, addr 0x43fe784, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x445fa98, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Name, addr 0x43fe72c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x445fa40, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameHashCode, addr 0x43fe77c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameHashCode, addr 0x445fa90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method set_AttributeArray, addr 0x43fe584, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method set_AttributeArray, addr 0x445f898, size 0xc4, virtual true, abstract: false, final false
   inline void set_AttributeArray(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
 protected:
@@ -234,6 +232,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MemberDescriptor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MemberDescriptor(MemberDescriptor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9440 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -271,14 +272,9 @@ public:
   /// @brief Field lockCookie, offset: 0x58, size: 0x8, def value: None
   ::System::Object* ___lockCookie;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9415 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::MemberDescriptor, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::MemberDescriptor, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::MemberDescriptor, ___displayName) == 0x18, "Offset mismatch!");
@@ -302,6 +298,8 @@ static_assert(offsetof(::System::ComponentModel::MemberDescriptor, ___category) 
 static_assert(offsetof(::System::ComponentModel::MemberDescriptor, ___description) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::MemberDescriptor, ___lockCookie) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::MemberDescriptor, 0x60>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::MemberDescriptor);

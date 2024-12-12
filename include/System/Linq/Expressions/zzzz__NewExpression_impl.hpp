@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ConstructorInfo* (::System::Linq::Expressions::NewExpression::*)()>(
     &::System::Linq::Expressions::NewExpression::get_Constructor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4059ab4;
+  constexpr static std::size_t addrs = 0x40badc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::NewExpression*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::NewExpression::*)(int32_t)>(
     &::System::Linq::Expressions::NewExpression::GetArgument)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4059abc;
+  constexpr static std::size_t addrs = 0x40badd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expres
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*> const&
-System::Linq::Expressions::NewExpression::__cordl_internal_get__arguments() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* const& System::Linq::Expressions::NewExpression::__cordl_internal_get__arguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
@@ -51,7 +50,7 @@ constexpr ::System::Reflection::ConstructorInfo*& System::Linq::Expressions::New
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Constructor_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& System::Linq::Expressions::NewExpression::__cordl_internal_get__Constructor_k__BackingField() const {
+constexpr ::System::Reflection::ConstructorInfo* const& System::Linq::Expressions::NewExpression::__cordl_internal_get__Constructor_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Constructor_k__BackingField;
 }

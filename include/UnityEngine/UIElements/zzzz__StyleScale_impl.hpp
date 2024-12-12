@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleScale.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleScale_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleScale.get_value
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Scale (::UnityEngine::UIElements::StyleScale::*)()>(
     &::UnityEngine::UIElements::StyleScale::get_value)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a1f378;
+  constexpr static std::size_t addrs = 0x4a83c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleScale>::get(), "get_value",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleScale::*)()>(
     &::UnityEngine::UIElements::StyleScale::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1f400;
+  constexpr static std::size_t addrs = 0x4a83d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleScale>::get(), "get_keyword",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleScale::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleScale::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1f408;
+  constexpr static std::size_t addrs = 0x4a83d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::StyleScale::*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleScale::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1f414;
+  constexpr static std::size_t addrs = 0x4a83d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleScale, ::UnityEngine::UIElements::StyleScale)>(
     &::UnityEngine::UIElements::StyleScale::op_Equality)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a1f420;
+  constexpr static std::size_t addrs = 0x4a83d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleScale (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleScale::op_Implicit___UnityEngine__UIElements__StyleScale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1f490;
+  constexpr static std::size_t addrs = 0x4a83da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleScale::*)(::UnityEngine::UIElements::StyleScale)>(
     &::UnityEngine::UIElements::StyleScale::Equals)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a1f49c;
+  constexpr static std::size_t addrs = 0x4a83dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleScale::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleScale::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a1f510;
+  constexpr static std::size_t addrs = 0x4a83e20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleScale::*)()>(&::UnityEngine::UIElements::StyleScale::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a1f5e0;
+  constexpr static std::size_t addrs = 0x4a83ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleScale::*)()>(&::UnityEngine::UIElements::StyleScale::ToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a1f604;
+  constexpr static std::size_t addrs = 0x4a83f14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,23 +155,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
-constexpr UnityEngine::UIElements::StyleScale::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
-constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*
-UnityEngine::UIElements::StyleScale::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_() {
-  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
-constexpr UnityEngine::UIElements::StyleScale::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>* UnityEngine::UIElements::StyleScale::i___System__IEquatable_1___UnityEngine__UIElements__StyleScale_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::Scale UnityEngine::UIElements::StyleScale::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleScale>::get(), "get_value",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -228,6 +211,23 @@ inline ::StringW UnityEngine::UIElements::StyleScale::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleScale>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
+constexpr UnityEngine::UIElements::StyleScale::operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*
+UnityEngine::UIElements::StyleScale::i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_() {
+  return static_cast<::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
+constexpr UnityEngine::UIElements::StyleScale::operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>* UnityEngine::UIElements::StyleScale::i___System__IEquatable_1___UnityEngine__UIElements__StyleScale_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Scale", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Keyword", ty:
 // "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }]

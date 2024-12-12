@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_NodeInfo)
-namespace HoudiniEngineUnity {
-struct HAPI_NodeType;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_NodeInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_NodeInfo);
-// Type: HoudiniEngineUnity::HAPI_NodeInfo
-// SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 82, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_NodeType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_NodeInfo
+// CS Name: HoudiniEngineUnity.HAPI_NodeInfo
 struct CORDL_TYPE HAPI_NodeInfo {
 public:
   // Declarations
@@ -39,6 +35,12 @@ public:
   constexpr HAPI_NodeInfo(int32_t id, int32_t parentId, int32_t nameSH, ::HoudiniEngineUnity::HAPI_NodeType type, bool isValid, int32_t totalCookCount, int32_t uniqueHoudiniNodeId,
                           int32_t internalNodePathSH, int32_t parmCount, int32_t parmIntValueCount, int32_t parmFloatValueCount, int32_t parmStringValueCount, int32_t parmChoiceCount,
                           int32_t childNodeCount, int32_t inputCount, int32_t outputCount, bool createdPostAssetLoad, bool isTimeDependent) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11715 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   int32_t id;
@@ -94,17 +96,9 @@ public:
   /// @brief Field isTimeDependent, offset: 0x41, size: 0x1, def value: None
   bool isTimeDependent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11682 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x44 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_NodeInfo, 0x44>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, id) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, parentId) == 0x4, "Offset mismatch!");
@@ -140,6 +134,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, outputCount) == 0x3c
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, createdPostAssetLoad) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_NodeInfo, isTimeDependent) == 0x41, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_NodeInfo, 0x44>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_NodeInfo, "HoudiniEngineUnity", "HAPI_NodeInfo");

@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Nat384)
 // Forward declare root types
@@ -13,23 +12,22 @@ class Nat384;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Nat384);
-// Type: Org.BouncyCastle.Math.Raw::Nat384
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.Raw::Nat384*
+// CS Name: Org.BouncyCastle.Math.Raw.Nat384
 class CORDL_TYPE Nat384 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mul, addr 0x24d93f8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Mul, addr 0x250c6e4, size 0x170, virtual false, abstract: false, final false
   static inline void Mul(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
   static inline ::Org::BouncyCastle::Math::Raw::Nat384* New_ctor();
 
-  /// @brief Method Square, addr 0x24d9568, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x250c854, size 0x114, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-  /// @brief Method .ctor, addr 0x24d967c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250c968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

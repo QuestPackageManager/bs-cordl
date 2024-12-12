@@ -12,11 +12,10 @@ struct TMP_VertexDataUpdateFlags;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_VertexDataUpdateFlags);
-// Type: TMPro::TMP_VertexDataUpdateFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TMP_VertexDataUpdateFlags
+// CS Name: TMPro.TMP_VertexDataUpdateFlags
 struct CORDL_TYPE TMP_VertexDataUpdateFlags {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TMP_VertexDataUpdateFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xff)
+  /// @brief Field All value: I32(255)
   static ::TMPro::TMP_VertexDataUpdateFlags const All;
 
-  /// @brief Field Colors32 value: static_cast<int32_t>(0x10)
+  /// @brief Field Colors32 value: I32(16)
   static ::TMPro::TMP_VertexDataUpdateFlags const Colors32;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::TMPro::TMP_VertexDataUpdateFlags const None;
 
-  /// @brief Field Uv0 value: static_cast<int32_t>(0x2)
+  /// @brief Field Uv0 value: I32(2)
   static ::TMPro::TMP_VertexDataUpdateFlags const Uv0;
 
-  /// @brief Field Uv2 value: static_cast<int32_t>(0x4)
+  /// @brief Field Uv2 value: I32(4)
   static ::TMPro::TMP_VertexDataUpdateFlags const Uv2;
 
-  /// @brief Field Uv4 value: static_cast<int32_t>(0x8)
+  /// @brief Field Uv4 value: I32(8)
   static ::TMPro::TMP_VertexDataUpdateFlags const Uv4;
 
-  /// @brief Field Vertices value: static_cast<int32_t>(0x1)
+  /// @brief Field Vertices value: I32(1)
   static ::TMPro::TMP_VertexDataUpdateFlags const Vertices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_VertexDataUpdateFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_VertexDataUpdateFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_VertexDataUpdateFlags, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_VertexDataUpdateFlags, "TMPro", "TMP_VertexDataUpdateFlags");

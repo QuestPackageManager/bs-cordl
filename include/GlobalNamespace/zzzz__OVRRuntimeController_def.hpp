@@ -4,6 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRInput_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -16,19 +19,13 @@ namespace GlobalNamespace {
 struct OVRGLTFInputNode;
 }
 namespace GlobalNamespace {
-class __OVRRuntimeController___UpdateControllerModel_d__16;
+class OVRRuntimeController__UpdateControllerModel_d__16;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -44,17 +41,16 @@ namespace GlobalNamespace {
 class OVRRuntimeController;
 }
 namespace GlobalNamespace {
-class __OVRRuntimeController___UpdateControllerModel_d__16;
+class OVRRuntimeController__UpdateControllerModel_d__16;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRRuntimeController);
-MARK_REF_PTR_T(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16);
-// Type: ::<UpdateControllerModel>d__16
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRRuntimeController::<UpdateControllerModel>d__16*
-class CORDL_TYPE __OVRRuntimeController___UpdateControllerModel_d__16 : public ::System::Object {
+// CS Name: OVRRuntimeController/<UpdateControllerModel>d__16
+class CORDL_TYPE OVRRuntimeController__UpdateControllerModel_d__16 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -79,30 +75,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3fe095c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4040a08, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3fe0a78, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4040b24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3fe0a80, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4040b2c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3fe0ab8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4040b64, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3fe0958, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4040a04, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::GlobalNamespace::OVRRuntimeController> const& __cordl_internal_get___4__this() const;
 
@@ -114,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
-  /// @brief Method .ctor, addr 0x3fe087c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4040928, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -129,16 +125,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRRuntimeController___UpdateControllerModel_d__16();
+  constexpr OVRRuntimeController__UpdateControllerModel_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController__UpdateControllerModel_d__16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __OVRRuntimeController___UpdateControllerModel_d__16(__OVRRuntimeController___UpdateControllerModel_d__16&&) = delete;
+  OVRRuntimeController__UpdateControllerModel_d__16(OVRRuntimeController__UpdateControllerModel_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRRuntimeController___UpdateControllerModel_d__16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeController__UpdateControllerModel_d__16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __OVRRuntimeController___UpdateControllerModel_d__16(__OVRRuntimeController___UpdateControllerModel_d__16 const&) = delete;
+  OVRRuntimeController__UpdateControllerModel_d__16(OVRRuntimeController__UpdateControllerModel_d__16 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8472 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -149,33 +148,29 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRRuntimeController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8447 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRRuntimeController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRInput::Controller, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRRuntimeController*
+// CS Name: OVRRuntimeController
 class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _UpdateControllerModel_d__16 = ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16;
+  using _UpdateControllerModel_d__16 = ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16;
 
   /// @brief Field leftControllerModelPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_leftControllerModelPath, put = setStaticF_leftControllerModelPath)) ::StringW leftControllerModelPath;
+  __declspec(property(get = getStaticF_leftControllerModelPath, put = setStaticF_leftControllerModelPath)) ::StringW leftControllerModelPath;
 
   /// @brief Field m_animationNodes, offset 0x50, size 0x8
   __declspec(property(
@@ -183,7 +178,7 @@ public:
       put = __cordl_internal_set_m_animationNodes)) ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_animationNodes;
 
   /// @brief Field m_controller, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) ::GlobalNamespace::__OVRInput__Controller m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) ::GlobalNamespace::OVRInput_Controller m_controller;
 
   /// @brief Field m_controllerConnectedPrev, offset 0x4b, size 0x1
   __declspec(property(get = __cordl_internal_get_m_controllerConnectedPrev, put = __cordl_internal_set_m_controllerConnectedPrev)) bool m_controllerConnectedPrev;
@@ -210,42 +205,41 @@ public:
   __declspec(property(get = __cordl_internal_get_m_supportAnimation, put = __cordl_internal_set_m_supportAnimation)) bool m_supportAnimation;
 
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
+  __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath)) ::StringW rightControllerModelPath;
 
-  /// @brief Method InputFocusAquired, addr 0x3fe08a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InputFocusAquired, addr 0x4040950, size 0xc, virtual false, abstract: false, final false
   inline void InputFocusAquired();
 
-  /// @brief Method InputFocusLost, addr 0x3fe08b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InputFocusLost, addr 0x404095c, size 0x8, virtual false, abstract: false, final false
   inline void InputFocusLost();
 
-  /// @brief Method IsModelSupported, addr 0x3fdff70, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsModelSupported, addr 0x404001c, size 0x16c, virtual false, abstract: false, final false
   inline bool IsModelSupported(::StringW modelPath);
 
-  /// @brief Method LoadControllerModel, addr 0x3fe05c4, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method LoadControllerModel, addr 0x4040670, size 0x2b8, virtual false, abstract: false, final false
   inline bool LoadControllerModel(::StringW modelPath);
 
   static inline ::GlobalNamespace::OVRRuntimeController* New_ctor();
 
-  /// @brief Method Start, addr 0x3fdfdf0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x403fe9c, size 0x180, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fe013c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x40401e8, size 0x108, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateControllerAnimation, addr 0x3fe0244, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerAnimation, addr 0x40402f0, size 0x380, virtual false, abstract: false, final false
   inline void UpdateControllerAnimation();
 
-  /// @brief Method UpdateControllerModel, addr 0x3fe00dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UpdateControllerModel, addr 0x4040188, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateControllerModel();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* const& __cordl_internal_get_m_animationNodes() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __cordl_internal_get_m_animationNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*> const&
-  __cordl_internal_get_m_animationNodes() const;
+  constexpr ::GlobalNamespace::OVRInput_Controller const& __cordl_internal_get_m_controller() const;
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get_m_controller() const;
-
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get_m_controller();
+  constexpr ::GlobalNamespace::OVRInput_Controller& __cordl_internal_get_m_controller();
 
   constexpr bool const& __cordl_internal_get_m_controllerConnectedPrev() const;
 
@@ -281,7 +275,7 @@ public:
 
   constexpr void __cordl_internal_set_m_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value);
 
-  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::OVRInput_Controller value);
 
   constexpr void __cordl_internal_set_m_controllerConnectedPrev(bool value);
 
@@ -299,7 +293,7 @@ public:
 
   constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  /// @brief Method .ctor, addr 0x3fe08b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4040964, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_leftControllerModelPath();
@@ -324,8 +318,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRRuntimeController(OVRRuntimeController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8473 };
+
   /// @brief Field m_controller, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__Controller ___m_controller;
+  ::GlobalNamespace::OVRInput_Controller ___m_controller;
 
   /// @brief Field m_controllerModelShader, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___m_controllerModelShader;
@@ -354,14 +351,9 @@ public:
   /// @brief Field m_animationNodes, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* ___m_animationNodes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8448 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controller) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerModelShader) == 0x28, "Offset mismatch!");
@@ -382,8 +374,10 @@ static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_controllerC
 
 static_assert(offsetof(::GlobalNamespace::OVRRuntimeController, ___m_animationNodes) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeController, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRRuntimeController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRRuntimeController*, "", "OVRRuntimeController");
-NEED_NO_BOX(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*, "", "OVRRuntimeController/<UpdateControllerModel>d__16");
+NEED_NO_BOX(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16*, "", "OVRRuntimeController/<UpdateControllerModel>d__16");

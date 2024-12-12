@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ArgumentOption)
@@ -17,11 +16,10 @@ struct ArgumentOption;
 }
 // Write type traits
 MARK_VAL_T(::BGLib::DotnetExtension::CommandLine::ArgumentOption);
-// Type: BGLib.DotnetExtension.CommandLine::ArgumentOption
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.DotnetExtension.CommandLine.ArgumentType
 namespace BGLib::DotnetExtension::CommandLine {
 // Is value type: true
-// CS Name: ::BGLib.DotnetExtension.CommandLine::ArgumentOption
+// CS Name: BGLib.DotnetExtension.CommandLine.ArgumentOption
 struct CORDL_TYPE ArgumentOption {
 public:
   // Declarations
@@ -29,16 +27,16 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ValidateArgumentValue, addr 0x226ce84, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x229f6d8, size 0x240, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x226ce38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229f68c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0x226ce5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x229f6b0, size 0x28, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0x226ce48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x229f69c, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   // Ctor Parameters []
@@ -49,6 +47,12 @@ public:
   // def_value: None }, CppParam { name: "hint", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::BGLib::DotnetExtension::CommandLine::ArgumentType", modifiers: "",
   // def_value: None }]
   constexpr ArgumentOption(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16947 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;
@@ -62,17 +66,9 @@ public:
   /// @brief Field type, offset: 0x18, size: 0x4, def value: None
   ::BGLib::DotnetExtension::CommandLine::ArgumentType type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16908 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::CommandLine::ArgumentOption, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentOption, name) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentOption, identifiers) == 0x8, "Offset mismatch!");
@@ -80,6 +76,8 @@ static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentOption, id
 static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentOption, hint) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::DotnetExtension::CommandLine::ArgumentOption, type) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::DotnetExtension::CommandLine::ArgumentOption, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::DotnetExtension::CommandLine
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::DotnetExtension::CommandLine::ArgumentOption, "BGLib.DotnetExtension.CommandLine", "ArgumentOption");

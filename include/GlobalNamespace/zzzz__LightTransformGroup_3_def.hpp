@@ -18,13 +18,12 @@ template <typename TX, typename TY, typename TZ> class LightTransformGroup_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LightTransformGroup_3);
-// Type: ::LightTransformGroup`3
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightGroupSubsystem
 namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
 // Is value type: false
-// CS Name: ::LightTransformGroup`3<TX,TY,TZ>*
+// CS Name: LightTransformGroup`3<TX,TY,TZ>
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
@@ -74,17 +73,17 @@ public:
 
   constexpr bool& __cordl_internal_get__mirrorZ();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get__xTransforms() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__xTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__xTransforms() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get__yTransforms() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__yTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__yTransforms() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get__zTransforms() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__zTransforms();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__zTransforms() const;
 
   constexpr void __cordl_internal_set__mirrorX(bool value);
 
@@ -136,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4307 };
+
   /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;
 
@@ -153,9 +155,6 @@ public:
 
   /// @brief Field _zTransforms, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____zTransforms;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4296 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstaller_5)
 namespace System {
@@ -22,13 +21,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ScriptableObjectInstaller_5);
-// Type: Zenject::ScriptableObjectInstaller`5
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ScriptableObjectInstallerBase
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TDerived>
 // Is value type: false
-// CS Name: ::Zenject::ScriptableObjectInstaller`5<TParam1,TParam2,TParam3,TParam4,TDerived>*
+// CS Name: Zenject.ScriptableObjectInstaller`5<TParam1,TParam2,TParam3,TParam4,TDerived>
 class CORDL_TYPE ScriptableObjectInstaller_5 : public ::Zenject::ScriptableObjectInstallerBase {
 public:
   // Declarations
@@ -64,7 +62,7 @@ public:
   ScriptableObjectInstaller_5(ScriptableObjectInstaller_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

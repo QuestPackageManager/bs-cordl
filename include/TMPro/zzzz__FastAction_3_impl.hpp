@@ -11,7 +11,7 @@ template <typename A, typename B, typename C> constexpr ::System::Collections::G
   return this->___delegates;
 }
 template <typename A, typename B, typename C>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*> const& TMPro::FastAction_3<A, B, C>::__cordl_internal_get_delegates() const {
+constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* const& TMPro::FastAction_3<A, B, C>::__cordl_internal_get_delegates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegates;
 }
@@ -27,8 +27,7 @@ TMPro::FastAction_3<A, B, C>::__cordl_internal_get_lookup() {
   return this->___lookup;
 }
 template <typename A, typename B, typename C>
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* const&
 TMPro::FastAction_3<A, B, C>::__cordl_internal_get_lookup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookup;
@@ -58,13 +57,13 @@ template <typename A, typename B, typename C> inline void TMPro::FastAction_3<A,
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<C>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, b, c);
 }
-template <typename A, typename B, typename C> inline ::TMPro::FastAction_3<A, B, C>* TMPro::FastAction_3<A, B, C>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::FastAction_3<A, B, C>*>());
-}
 template <typename A, typename B, typename C> inline void TMPro::FastAction_3<A, B, C>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction_3<A, B, C>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename A, typename B, typename C> inline ::TMPro::FastAction_3<A, B, C>* TMPro::FastAction_3<A, B, C>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::FastAction_3<A, B, C>*>());
 }
 // Ctor Parameters []
 template <typename A, typename B, typename C> constexpr ::TMPro::FastAction_3<A, B, C>::FastAction_3() {}

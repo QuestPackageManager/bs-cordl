@@ -4,14 +4,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetLabelReference)
 namespace System {
 class Object;
-}
-namespace UnityEngine::AddressableAssets {
-class IKeyEvaluator;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -19,11 +17,10 @@ class AssetLabelReference;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetLabelReference);
-// Type: UnityEngine.AddressableAssets::AssetLabelReference
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.AddressableAssets.IKeyEvaluator
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::AssetLabelReference*
+// CS Name: UnityEngine.AddressableAssets.AssetLabelReference
 class CORDL_TYPE AssetLabelReference : public ::System::Object {
 public:
   // Declarations
@@ -37,12 +34,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x448f5ec, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x44f0900, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x448f570, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x44f0884, size 0x7c, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
   constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
@@ -51,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x448f60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f0920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeKey, addr 0x448f518, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_RuntimeKey, addr 0x44f082c, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_labelString, addr 0x448f508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelString, addr 0x44f081c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  /// @brief Method set_labelString, addr 0x448f510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_labelString, addr 0x44f0824, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
 protected:
@@ -80,18 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetLabelReference(AssetLabelReference const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16174 };
+
   /// @brief Field m_LabelString, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_LabelString;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16139 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetLabelReference, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AddressableAssets::AssetLabelReference, ___m_LabelString) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetLabelReference, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetLabelReference);

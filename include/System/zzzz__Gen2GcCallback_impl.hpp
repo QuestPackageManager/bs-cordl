@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Gen2GcCallback::*)()>(&::System::Gen2GcCallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d7393c;
+  constexpr static std::size_t addrs = 0x3dd3ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Gen2GcCallback*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_2<::System::Object*, bool>*, ::System::Object*)>(&::System::Gen2GcCallback::Register)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d73944;
+  constexpr static std::size_t addrs = 0x3dd3ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Gen2GcCallback::*)(::System::Func_2<::System::Object*, bool>*, ::System::Object*)>(
     &::System::Gen2GcCallback::Setup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d739c4;
+  constexpr static std::size_t addrs = 0x3dd3b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Gen2GcCallback::*)()>(&::System::Gen2GcCallback::Finalize)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3d739ec;
+  constexpr static std::size_t addrs = 0x3dd3b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ constexpr ::System::Func_2<::System::Object*, bool>*& System::Gen2GcCallback::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, bool>*> const& System::Gen2GcCallback::__cordl_internal_get__callback() const {
+constexpr ::System::Func_2<::System::Object*, bool>* const& System::Gen2GcCallback::__cordl_internal_get__callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callback;
 }
@@ -86,9 +86,6 @@ constexpr ::System::Runtime::InteropServices::GCHandle const& System::Gen2GcCall
 constexpr void System::Gen2GcCallback::__cordl_internal_set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____weakTargetObj = value;
-}
-inline ::System::Gen2GcCallback* System::Gen2GcCallback::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Gen2GcCallback*>());
 }
 inline void System::Gen2GcCallback::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Gen2GcCallback*>::get(), ".ctor",
@@ -113,6 +110,9 @@ inline void System::Gen2GcCallback::Finalize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Gen2GcCallback*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Gen2GcCallback* System::Gen2GcCallback::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Gen2GcCallback*>());
 }
 // Ctor Parameters []
 constexpr ::System::Gen2GcCallback::Gen2GcCallback() {}

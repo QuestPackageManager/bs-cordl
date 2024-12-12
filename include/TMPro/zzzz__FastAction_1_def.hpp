@@ -23,13 +23,12 @@ template <typename A> class FastAction_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::TMPro::FastAction_1);
-// Type: TMPro::FastAction`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // cpp template
 template <typename A>
 // Is value type: false
-// CS Name: ::TMPro::FastAction`1<A>*
+// CS Name: TMPro.FastAction`1<A>
 class CORDL_TYPE FastAction_1 : public ::System::Object {
 public:
   // Declarations
@@ -52,14 +51,13 @@ public:
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Action_1<A>* rhs);
 
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* const& __cordl_internal_get_delegates() const;
+
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*& __cordl_internal_get_delegates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>*> const& __cordl_internal_get_delegates() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* const& __cordl_internal_get_lookup() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*& __cordl_internal_get_lookup();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>*> const&
-  __cordl_internal_get_lookup() const;
 
   constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* value);
 
@@ -82,14 +80,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FastAction_1(FastAction_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14415 };
+
   /// @brief Field delegates, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<::System::Action_1<A>*>* ___delegates;
 
   /// @brief Field lookup, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Action_1<A>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<A>*>*>* ___lookup;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

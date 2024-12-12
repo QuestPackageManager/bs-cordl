@@ -23,23 +23,22 @@ class ListFacetsChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ListFacetsChecker);
-// Type: System.Xml.Schema::ListFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.FacetsChecker
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ListFacetsChecker*
+// CS Name: System.Xml.Schema.ListFacetsChecker
 class CORDL_TYPE ListFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x41ff380, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4260694, size 0x250, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41ff5d0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x42608e4, size 0xbc, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::ListFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41ff68c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42609a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +56,7 @@ public:
   ListFacetsChecker(ListFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

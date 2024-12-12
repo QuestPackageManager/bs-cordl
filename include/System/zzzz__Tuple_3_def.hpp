@@ -3,6 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__ITupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -13,23 +18,8 @@ class IComparer;
 namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Collections {
-class IStructuralComparable;
-}
-namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
 namespace System::Text {
 class StringBuilder;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
-class ITupleInternal;
 }
 namespace System {
 class Object;
@@ -40,13 +30,12 @@ template <typename T1, typename T2, typename T3> class Tuple_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Tuple_3);
-// Type: System::Tuple`3
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.IComparable, System.ITupleInternal, System.Object, System.Runtime.CompilerServices.ITuple
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: false
-// CS Name: ::System::Tuple`3<T1,T2,T3>*
+// CS Name: System.Tuple`3<T1,T2,T3>
 class CORDL_TYPE Tuple_3 : public ::System::Object {
 public:
   // Declarations
@@ -170,6 +159,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Tuple_3(Tuple_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2490 };
+
   /// @brief Field m_Item1, offset: 0x10, size: 0x8, def value: None
   T1 ___m_Item1;
 
@@ -178,9 +170,6 @@ public:
 
   /// @brief Field m_Item3, offset: 0x20, size: 0x8, def value: None
   T3 ___m_Item3;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2490 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

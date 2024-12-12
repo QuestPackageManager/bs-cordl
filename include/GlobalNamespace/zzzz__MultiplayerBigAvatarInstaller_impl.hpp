@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x3b676ac;
+  constexpr static std::size_t addrs = 0x3bc8de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBigAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerBigAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b67ac0;
+  constexpr static std::size_t addrs = 0x3bc91fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarInstaller*>::get(),
@@ -39,7 +39,7 @@ constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerBigA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__connectedPlayer() const {
+constexpr ::GlobalNamespace::IConnectedPlayer* const& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
@@ -47,15 +47,15 @@ constexpr void GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__SaberManager__InitData*& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__saberManagerInitData() {
+constexpr ::GlobalNamespace::SaberManager_InitData*& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__saberManagerInitData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberManagerInitData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberManager__InitData*> const& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__saberManagerInitData() const {
+constexpr ::GlobalNamespace::SaberManager_InitData* const& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__saberManagerInitData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberManagerInitData;
 }
-constexpr void GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_set__saberManagerInitData(::GlobalNamespace::__SaberManager__InitData* value) {
+constexpr void GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_set__saberManagerInitData(::GlobalNamespace::SaberManager_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberManagerInitData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -63,8 +63,7 @@ constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& GlobalNam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const&
-GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__playerSpecificSettings() const {
+constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* const& GlobalNamespace::MultiplayerBigAvatarInstaller::__cordl_internal_get__playerSpecificSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
@@ -77,13 +76,13 @@ inline void GlobalNamespace::MultiplayerBigAvatarInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* GlobalNamespace::MultiplayerBigAvatarInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBigAvatarInstaller*>());
-}
 inline void GlobalNamespace::MultiplayerBigAvatarInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBigAvatarInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerBigAvatarInstaller* GlobalNamespace::MultiplayerBigAvatarInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBigAvatarInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBigAvatarInstaller::MultiplayerBigAvatarInstaller() {}

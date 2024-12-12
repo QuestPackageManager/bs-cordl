@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelectorPart::*)()>(
     &::UnityEngine::UIElements::StyleSelectorPart::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a25db0;
+  constexpr static std::size_t addrs = 0x4a8a6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSelectorPart>::get(), "get_value",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSelectorType (::UnityEngine::UIElements::StyleSelectorPart::*)()>(
     &::UnityEngine::UIElements::StyleSelectorPart::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a25da8;
+  constexpr static std::size_t addrs = 0x4a8a6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSelectorPart>::get(), "get_type",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSelectorPart::*)(::UnityEngine::UIElements::StyleSelectorType)>(
     &::UnityEngine::UIElements::StyleSelectorPart::set_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2687c;
+  constexpr static std::size_t addrs = 0x4a8b18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleSelectorPart::*)()>(
     &::UnityEngine::UIElements::StyleSelectorPart::ToString)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4a2676c;
+  constexpr static std::size_t addrs = 0x4a8b07c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::StringW)>(
     &::UnityEngine::UIElements::StyleSelectorPart::CreateClass)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a26884;
+  constexpr static std::size_t addrs = 0x4a8b194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::StringW)>(
     &::UnityEngine::UIElements::StyleSelectorPart::CreateId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a2689c;
+  constexpr static std::size_t addrs = 0x4a8b1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSelectorPart (*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleSelectorPart::CreatePredicate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a268b4;
+  constexpr static std::size_t addrs = 0x4a8b1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,8 +146,8 @@ inline ::UnityEngine::UIElements::StyleSelectorPart UnityEngine::UIElements::Sty
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleSelectorPart, false>(nullptr, ___internal_method, predicate);
 }
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "tempData", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StyleSelectorPart::StyleSelectorPart(::StringW m_Value, ::UnityEngine::UIElements::StyleSelectorType m_Type, ::System::Object* tempData) noexcept {
   this->m_Value = m_Value;
   this->m_Type = m_Type;

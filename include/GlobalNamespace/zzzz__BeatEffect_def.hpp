@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffect)
 namespace GlobalNamespace {
+class BeatEffect_Pool;
+}
+namespace GlobalNamespace {
 class IBeatEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
@@ -19,9 +22,6 @@ template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-class __BeatEffect__Pool;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -43,56 +43,54 @@ namespace GlobalNamespace {
 class BeatEffect;
 }
 namespace GlobalNamespace {
-class __BeatEffect__Pool;
+class BeatEffect_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatEffect);
-MARK_REF_PTR_T(::GlobalNamespace::__BeatEffect__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::BeatEffect_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatEffect::Pool*
-class CORDL_TYPE __BeatEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatEffect>> {
+// CS Name: BeatEffect/Pool
+class CORDL_TYPE BeatEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatEffect*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__BeatEffect__Pool* New_ctor();
+  static inline ::GlobalNamespace::BeatEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b1afe8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7c1e8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatEffect__Pool();
+  constexpr BeatEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BeatEffect__Pool(__BeatEffect__Pool&&) = delete;
+  BeatEffect_Pool(BeatEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatEffect__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatEffect_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BeatEffect__Pool(__BeatEffect__Pool const&) = delete;
+  BeatEffect_Pool(BeatEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatEffect__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::BeatEffect
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatEffect*
+// CS Name: BeatEffect
 class CORDL_TYPE BeatEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__BeatEffect__Pool;
+  using Pool = ::GlobalNamespace::BeatEffect_Pool;
 
   /// @brief Field _animationDuration, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
@@ -130,10 +128,10 @@ public:
 
   __declspec(property(get = get_didFinishEvent)) ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* didFinishEvent;
 
-  /// @brief Method Init, addr 0x3b1abbc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b7bdbc, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Color color, float_t animationDuration, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ManualUpdate, addr 0x3b1ac80, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x3b7be80, size 0x2ec, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::BeatEffect* New_ctor();
@@ -146,17 +144,17 @@ public:
 
   constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*> const& __cordl_internal_get__didFinishEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
 
   constexpr float_t const& __cordl_internal_get__elapsedTime() const;
 
   constexpr float_t& __cordl_internal_get__elapsedTime();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lightIntensityCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__lightIntensityCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__lightIntensityCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__lightIntensityCurve();
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
@@ -166,17 +164,17 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__spriteTransform();
 
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__spriteXScaleCurve() const;
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteXScaleCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteXScaleCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__spriteYScaleCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__spriteYScaleCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__spriteYScaleCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__transparencyCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__transparencyCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__transparencyCurve() const;
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
 
@@ -204,10 +202,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b1af6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b7c16c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x3b1abb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3b7bdb4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::IBeatEffectDidFinishEvent*>* get_didFinishEvent();
 
 protected:
@@ -223,6 +221,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatEffect(BeatEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4195 };
 
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
@@ -257,14 +258,9 @@ public:
   /// @brief Field _color, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteRenderer) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatEffect, ____spriteTransform) == 0x28, "Offset mismatch!");
@@ -287,8 +283,10 @@ static_assert(offsetof(::GlobalNamespace::BeatEffect, ____elapsedTime) == 0x64, 
 
 static_assert(offsetof(::GlobalNamespace::BeatEffect, ____color) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatEffect, 0x78>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatEffect*, "", "BeatEffect");
-NEED_NO_BOX(::GlobalNamespace::__BeatEffect__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatEffect__Pool*, "", "BeatEffect/Pool");
+NEED_NO_BOX(::GlobalNamespace::BeatEffect_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatEffect_Pool*, "", "BeatEffect/Pool");

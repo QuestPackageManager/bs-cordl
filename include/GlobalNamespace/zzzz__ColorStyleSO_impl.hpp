@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadOnlyColorStyle* (::GlobalNamespace::ColorStyleSO::*)()>(
     &::GlobalNamespace::ColorStyleSO::get_colorStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c2f8;
+  constexpr static std::size_t addrs = 0x26a01a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyleSO*>::get(), "get_colorStyle",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorStyleSO::*)()>(&::GlobalNamespace::ColorStyleSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c300;
+  constexpr static std::size_t addrs = 0x26a01a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyleSO*>::get(), ".ctor",
@@ -35,7 +35,7 @@ constexpr ::GlobalNamespace::ColorStyle*& GlobalNamespace::ColorStyleSO::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorStyle;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorStyle*> const& GlobalNamespace::ColorStyleSO::__cordl_internal_get__colorStyle() const {
+constexpr ::GlobalNamespace::ColorStyle* const& GlobalNamespace::ColorStyleSO::__cordl_internal_get__colorStyle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorStyle;
 }
@@ -48,13 +48,13 @@ inline ::GlobalNamespace::IReadOnlyColorStyle* GlobalNamespace::ColorStyleSO::ge
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadOnlyColorStyle*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ColorStyleSO* GlobalNamespace::ColorStyleSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorStyleSO*>());
-}
 inline void GlobalNamespace::ColorStyleSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorStyleSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ColorStyleSO* GlobalNamespace::ColorStyleSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorStyleSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorStyleSO::ColorStyleSO() {}

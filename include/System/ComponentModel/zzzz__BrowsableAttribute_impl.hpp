@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::BrowsableAttribute::*)(bool)>(&::System::ComponentModel::BrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e3c60;
+  constexpr static std::size_t addrs = 0x4444f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::get_Browsable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e3c88;
+  constexpr static std::size_t addrs = 0x4444f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get(),
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::BrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43e3c90;
+  constexpr static std::size_t addrs = 0x4444fa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43e3d74;
+  constexpr static std::size_t addrs = 0x4445088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43e3de0;
+  constexpr static std::size_t addrs = 0x44450f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,9 +113,6 @@ inline ::System::ComponentModel::BrowsableAttribute* System::ComponentModel::Bro
   return ::cordl_internals::getStaticField<::System::ComponentModel::BrowsableAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get>();
 }
-inline ::System::ComponentModel::BrowsableAttribute* System::ComponentModel::BrowsableAttribute::New_ctor(bool browsable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::BrowsableAttribute*>(browsable));
-}
 inline void System::ComponentModel::BrowsableAttribute::_ctor(bool browsable) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get(), ".ctor",
@@ -141,6 +138,9 @@ inline bool System::ComponentModel::BrowsableAttribute::IsDefaultAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::BrowsableAttribute* System::ComponentModel::BrowsableAttribute::New_ctor(bool browsable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::BrowsableAttribute*>(browsable));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::BrowsableAttribute::BrowsableAttribute() {}

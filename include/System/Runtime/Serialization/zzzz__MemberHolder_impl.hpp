@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::MemberHolder::*)(
     ::System::Type*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::MemberHolder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c92884;
+  constexpr static std::size_t addrs = 0x3cf29f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::MemberHolder::*)()>(
     &::System::Runtime::Serialization::MemberHolder::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c928c0;
+  constexpr static std::size_t addrs = 0x3cf2a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::MemberHolder::*)(::System::Object*)>(
     &::System::Runtime::Serialization::MemberHolder::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c928e0;
+  constexpr static std::size_t addrs = 0x3cf2a54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::MemberHolder::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::MemberHolder::__cordl_internal_get__memberType() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::MemberHolder::__cordl_internal_get__memberType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memberType;
 }
@@ -78,9 +78,6 @@ constexpr void System::Runtime::Serialization::MemberHolder::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____context = value;
 }
-inline ::System::Runtime::Serialization::MemberHolder* System::Runtime::Serialization::MemberHolder::New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::MemberHolder*>(type, ctx));
-}
 inline void System::Runtime::Serialization::MemberHolder::_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::MemberHolder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -97,6 +94,9 @@ inline bool System::Runtime::Serialization::MemberHolder::Equals(::System::Objec
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::MemberHolder*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+inline ::System::Runtime::Serialization::MemberHolder* System::Runtime::Serialization::MemberHolder::New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::MemberHolder*>(type, ctx));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::MemberHolder::MemberHolder() {}

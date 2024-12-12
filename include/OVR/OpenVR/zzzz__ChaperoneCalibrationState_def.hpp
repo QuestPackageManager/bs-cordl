@@ -12,11 +12,10 @@ struct ChaperoneCalibrationState;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::ChaperoneCalibrationState);
-// Type: OVR.OpenVR::ChaperoneCalibrationState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::ChaperoneCalibrationState
+// CS Name: OVR.OpenVR.ChaperoneCalibrationState
 struct CORDL_TYPE ChaperoneCalibrationState {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ChaperoneCalibrationState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Error value: static_cast<int32_t>(0xc8)
+  /// @brief Field Error value: I32(200)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Error;
 
-  /// @brief Field Error_BaseStationConflict value: static_cast<int32_t>(0xca)
+  /// @brief Field Error_BaseStationConflict value: I32(202)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationConflict;
 
-  /// @brief Field Error_BaseStationUninitialized value: static_cast<int32_t>(0xc9)
+  /// @brief Field Error_BaseStationUninitialized value: I32(201)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Error_BaseStationUninitialized;
 
-  /// @brief Field Error_CollisionBoundsInvalid value: static_cast<int32_t>(0xcc)
+  /// @brief Field Error_CollisionBoundsInvalid value: I32(204)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Error_CollisionBoundsInvalid;
 
-  /// @brief Field Error_PlayAreaInvalid value: static_cast<int32_t>(0xcb)
+  /// @brief Field Error_PlayAreaInvalid value: I32(203)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Error_PlayAreaInvalid;
 
-  /// @brief Field OK value: static_cast<int32_t>(0x1)
+  /// @brief Field OK value: I32(1)
   static ::OVR::OpenVR::ChaperoneCalibrationState const OK;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x64)
+  /// @brief Field Warning value: I32(100)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Warning;
 
-  /// @brief Field Warning_BaseStationMayHaveMoved value: static_cast<int32_t>(0x65)
+  /// @brief Field Warning_BaseStationMayHaveMoved value: I32(101)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationMayHaveMoved;
 
-  /// @brief Field Warning_BaseStationRemoved value: static_cast<int32_t>(0x66)
+  /// @brief Field Warning_BaseStationRemoved value: I32(102)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_BaseStationRemoved;
 
-  /// @brief Field Warning_SeatedBoundsInvalid value: static_cast<int32_t>(0x67)
+  /// @brief Field Warning_SeatedBoundsInvalid value: I32(103)
   static ::OVR::OpenVR::ChaperoneCalibrationState const Warning_SeatedBoundsInvalid;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8932 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ChaperoneCalibrationState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::ChaperoneCalibrationState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ChaperoneCalibrationState, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ChaperoneCalibrationState, "OVR.OpenVR", "ChaperoneCalibrationState");

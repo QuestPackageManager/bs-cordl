@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Text/zzzz__EncoderFallback_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CharEntityEncoderFallback)
 namespace System::Text {
@@ -19,11 +18,10 @@ class CharEntityEncoderFallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallback);
-// Type: System.Xml::CharEntityEncoderFallback
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Text.EncoderFallback
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::CharEntityEncoderFallback*
+// CS Name: System.Xml.CharEntityEncoderFallback
 class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
 public:
   // Declarations
@@ -46,15 +44,15 @@ public:
   /// @brief Field textContentMarks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks)) ::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
 
-  /// @brief Method CanReplaceAt, addr 0x41df748, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CanReplaceAt, addr 0x4240a5c, size 0x80, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
-  /// @brief Method CreateFallbackBuffer, addr 0x41df654, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x4240968, size 0x64, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method Reset, addr 0x41df73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4240a50, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
   constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
@@ -65,9 +63,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_endMarkPos();
 
-  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
+  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer* const& __cordl_internal_get_fallbackBuffer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallbackBuffer*> const& __cordl_internal_get_fallbackBuffer() const;
+  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
 
   constexpr int32_t const& __cordl_internal_get_startOffset() const;
 
@@ -87,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x41df64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4240960, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x41df72c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x4240a40, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset, addr 0x41df734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartOffset, addr 0x4240a48, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
 protected:
@@ -110,6 +108,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CharEntityEncoderFallback(CharEntityEncoderFallback const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7169 };
+
   /// @brief Field fallbackBuffer, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::CharEntityEncoderFallbackBuffer* ___fallbackBuffer;
 
@@ -125,14 +126,9 @@ public:
   /// @brief Field startOffset, offset: 0x28, size: 0x4, def value: None
   int32_t ___startOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7144 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::CharEntityEncoderFallback, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___fallbackBuffer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___textContentMarks) == 0x18, "Offset mismatch!");
@@ -142,6 +138,8 @@ static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___endMarkPos) 
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___curMarkPos) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::CharEntityEncoderFallback, ___startOffset) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::CharEntityEncoderFallback, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::CharEntityEncoderFallback);

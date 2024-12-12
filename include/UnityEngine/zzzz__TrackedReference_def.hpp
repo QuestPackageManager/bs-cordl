@@ -16,21 +16,20 @@ class TrackedReference;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TrackedReference);
-// Type: UnityEngine::TrackedReference
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::TrackedReference*
+// CS Name: UnityEngine.TrackedReference
 class CORDL_TYPE TrackedReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Equals, addr 0x484cdc8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x48ae28c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x484ce48, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x48ae30c, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TrackedReference* New_ctor();
@@ -41,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x484cd54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ae218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Equality, addr 0x484cd5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x48ae220, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
-  /// @brief Method op_Implicit, addr 0x484ce54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x48ae318, size 0x1c, virtual false, abstract: false, final false
   static inline bool op_Implicit_bool(::UnityEngine::TrackedReference* exists);
 
-  /// @brief Method op_Inequality, addr 0x484cdb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x48ae274, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::TrackedReference* x, ::UnityEngine::TrackedReference* y);
 
 protected:
@@ -67,18 +66,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TrackedReference(TrackedReference const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10908 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TrackedReference, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TrackedReference, ___m_Ptr) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TrackedReference, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::TrackedReference);

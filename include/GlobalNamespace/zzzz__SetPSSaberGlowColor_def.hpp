@@ -20,11 +20,10 @@ class SetPSSaberGlowColor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetPSSaberGlowColor);
-// Type: ::SetPSSaberGlowColor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SetPSSaberGlowColor*
+// CS Name: SetPSSaberGlowColor
 class CORDL_TYPE SetPSSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -39,12 +38,12 @@ public:
 
   static inline ::GlobalNamespace::SetPSSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x3b865d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be7e24, size 0x80, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x3b86654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be7ea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetPSSaberGlowColor(SetPSSaberGlowColor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4663 };
+
   /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field _particleSystem, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4651 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetPSSaberGlowColor, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SetPSSaberGlowColor, ____saber) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SetPSSaberGlowColor, ____colorManager) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SetPSSaberGlowColor, ____particleSystem) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetPSSaberGlowColor, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetPSSaberGlowColor);

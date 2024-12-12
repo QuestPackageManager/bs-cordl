@@ -10,42 +10,41 @@ namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
 // Forward declare root types
-namespace System::Text {
-class __UTF8Encoding__UTF8EncodingSealed;
+namespace GlobalNamespace {
+class UTF8Encoding_UTF8EncodingSealed;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Text::__UTF8Encoding__UTF8EncodingSealed);
-// Type: ::UTF8EncodingSealed
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Text {
+MARK_REF_PTR_T(::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed);
+// Dependencies System.Text.UTF8Encoding
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UTF8Encoding::UTF8EncodingSealed*
-class CORDL_TYPE __UTF8Encoding__UTF8EncodingSealed : public ::System::Text::UTF8Encoding {
+// CS Name: System.Text.UTF8Encoding/UTF8EncodingSealed
+class CORDL_TYPE UTF8Encoding_UTF8EncodingSealed : public ::System::Text::UTF8Encoding {
 public:
   // Declarations
   __declspec(property(get = get_Preamble)) ::System::ReadOnlySpan_1<uint8_t> Preamble;
 
-  static inline ::System::Text::__UTF8Encoding__UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
+  static inline ::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x3c272bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c87430, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x3c27324, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x3c87498, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UTF8Encoding__UTF8EncodingSealed();
+  constexpr UTF8Encoding_UTF8EncodingSealed();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8EncodingSealed", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding_UTF8EncodingSealed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UTF8Encoding__UTF8EncodingSealed(__UTF8Encoding__UTF8EncodingSealed&&) = delete;
+  UTF8Encoding_UTF8EncodingSealed(UTF8Encoding_UTF8EncodingSealed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UTF8Encoding__UTF8EncodingSealed", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UTF8Encoding_UTF8EncodingSealed", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UTF8Encoding__UTF8EncodingSealed(__UTF8Encoding__UTF8EncodingSealed const&) = delete;
+  UTF8Encoding_UTF8EncodingSealed(UTF8Encoding_UTF8EncodingSealed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2865 };
@@ -53,8 +52,8 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::__UTF8Encoding__UTF8EncodingSealed, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed, 0x40>, "Size mismatch!");
 
-} // namespace System::Text
-NEED_NO_BOX(::System::Text::__UTF8Encoding__UTF8EncodingSealed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::__UTF8Encoding__UTF8EncodingSealed*, "System.Text", "UTF8Encoding/UTF8EncodingSealed");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed*, "System.Text", "UTF8Encoding/UTF8EncodingSealed");

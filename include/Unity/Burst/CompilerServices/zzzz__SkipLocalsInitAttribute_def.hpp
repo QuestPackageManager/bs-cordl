@@ -11,17 +11,16 @@ class SkipLocalsInitAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::SkipLocalsInitAttribute);
-// Type: Unity.Burst.CompilerServices::SkipLocalsInitAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
-// CS Name: ::Unity.Burst.CompilerServices::SkipLocalsInitAttribute*
+// CS Name: Unity.Burst.CompilerServices.SkipLocalsInitAttribute
 class CORDL_TYPE SkipLocalsInitAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Burst::CompilerServices::SkipLocalsInitAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44d8cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4539fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   SkipLocalsInitAttribute(SkipLocalsInitAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

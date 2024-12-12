@@ -3,9 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscPemGenerator)
@@ -14,9 +13,6 @@ class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Utilities::IO::Pem {
-class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
@@ -30,11 +26,10 @@ class MiscPemGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::MiscPemGenerator);
-// Type: Org.BouncyCastle.OpenSsl::MiscPemGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.IO.Pem.PemObjectGenerator, System.Object
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.OpenSsl::MiscPemGenerator*
+// CS Name: Org.BouncyCastle.OpenSsl.MiscPemGenerator
 class CORDL_TYPE MiscPemGenerator : public ::System::Object {
 public:
   // Declarations
@@ -53,17 +48,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method CreatePemObject, addr 0x2519ea0, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method CreatePemObject, addr 0x254d18c, size 0x640, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* CreatePemObject(::System::Object* obj);
 
-  /// @brief Method CreatePemObject, addr 0x251a9c8, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method CreatePemObject, addr 0x254dcb4, size 0x59c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* CreatePemObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                     ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method EncodePrivateKey, addr 0x251a4e0, size 0x4e8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* akp, ByRef<::StringW> keyType);
+  /// @brief Method EncodePrivateKey, addr 0x254d7cc, size 0x4e8, virtual false, abstract: false, final false
+  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* akp, ::ByRef<::StringW> keyType);
 
-  /// @brief Method Generate, addr 0x251b454, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x254e740, size 0xf0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::OpenSsl::MiscPemGenerator* New_ctor(::System::Object* obj);
@@ -75,17 +70,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_algorithm();
 
-  constexpr ::System::Object*& __cordl_internal_get_obj();
+  constexpr ::System::Object* const& __cordl_internal_get_obj() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_obj() const;
+  constexpr ::System::Object*& __cordl_internal_get_obj();
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr void __cordl_internal_set_algorithm(::StringW value);
 
@@ -95,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2519e38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254d124, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x2519e60, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254d14c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
@@ -118,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MiscPemGenerator(MiscPemGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1682 };
+
   /// @brief Field obj, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___obj;
 
@@ -130,14 +128,9 @@ public:
   /// @brief Field random, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1682 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::OpenSsl::MiscPemGenerator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, ___obj) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, ___algorithm) == 0x18, "Offset mismatch!");
@@ -145,6 +138,8 @@ static_assert(offsetof(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, ___algori
 static_assert(offsetof(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, ___password) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::OpenSsl::MiscPemGenerator, ___random) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::OpenSsl::MiscPemGenerator, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::OpenSsl
 NEED_NO_BOX(::Org::BouncyCastle::OpenSsl::MiscPemGenerator);

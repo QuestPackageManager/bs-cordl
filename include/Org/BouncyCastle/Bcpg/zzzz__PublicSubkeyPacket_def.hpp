@@ -26,25 +26,24 @@ class PublicSubkeyPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicSubkeyPacket);
-// Type: Org.BouncyCastle.Bcpg::PublicSubkeyPacket
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.PublicKeyPacket
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::PublicSubkeyPacket*
+// CS Name: Org.BouncyCastle.Bcpg.PublicSubkeyPacket
 class CORDL_TYPE PublicSubkeyPacket : public ::Org::BouncyCastle::Bcpg::PublicKeyPacket {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x2613fc4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26472b0, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x2613fc0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26472ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x26109e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2643ccc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:

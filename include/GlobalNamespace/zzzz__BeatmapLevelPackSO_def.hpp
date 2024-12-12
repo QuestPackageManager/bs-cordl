@@ -26,11 +26,10 @@ class BeatmapLevelPackSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPackSO);
-// Type: ::BeatmapLevelPackSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PackBuyOption, PersistentScriptableObject, PlayerSensitivityFlag
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelPackSO*
+// CS Name: BeatmapLevelPackSO
 class CORDL_TYPE BeatmapLevelPackSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -77,8 +76,8 @@ public:
 
   __declspec(property(get = get_smallCoverImage)) ::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
-  /// @brief Method Create, addr 0x2693e98, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> Create(::StringW packID);
+  /// @brief Method Create, addr 0x26c8a08, size 0x68, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapLevelPackSO* Create(::StringW packID);
 
   static inline ::GlobalNamespace::BeatmapLevelPackSO* New_ctor();
 
@@ -130,34 +129,34 @@ public:
 
   constexpr void __cordl_internal_set__smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2693f00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8a70, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevelCollection, addr 0x2693e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelCollection, addr 0x26c89f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> get_beatmapLevelCollection();
 
-  /// @brief Method get_collectionName, addr 0x2693e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collectionName, addr 0x26c89d8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_collectionName();
 
-  /// @brief Method get_contentRating, addr 0x2693e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentRating, addr 0x26c8a00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
-  /// @brief Method get_coverImage, addr 0x2693e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImage, addr 0x26c89e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
 
-  /// @brief Method get_packBuyOption, addr 0x2693e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packBuyOption, addr 0x26c89f0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PackBuyOption get_packBuyOption();
 
-  /// @brief Method get_packID, addr 0x2693e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x26c89c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method get_packName, addr 0x2693e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packName, addr 0x26c89c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packName();
 
-  /// @brief Method get_shortPackName, addr 0x2693e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortPackName, addr 0x26c89d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortPackName();
 
-  /// @brief Method get_smallCoverImage, addr 0x2693e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallCoverImage, addr 0x26c89e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_smallCoverImage();
 
 protected:
@@ -173,6 +172,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPackSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelPackSO(BeatmapLevelPackSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12959 };
 
   /// @brief Field _packID, offset: 0x18, size: 0x8, def value: None
   ::StringW ____packID;
@@ -198,14 +200,9 @@ public:
   /// @brief Field _beatmapLevelCollection, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> ____beatmapLevelCollection;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12925 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____packID) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____packName) == 0x20, "Offset mismatch!");
@@ -221,6 +218,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____packBuyOption)
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____contentRating) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPackSO, ____beatmapLevelCollection) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPackSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPackSO);

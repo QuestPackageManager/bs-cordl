@@ -19,11 +19,10 @@ class UriBuilder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::UriBuilder);
-// Type: System::UriBuilder
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::UriBuilder*
+// CS Name: System.UriBuilder
 class CORDL_TYPE UriBuilder : public ::System::Object {
 public:
   // Declarations
@@ -72,13 +71,13 @@ public:
   /// @brief Field _username, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username)) ::StringW _username;
 
-  /// @brief Method Equals, addr 0x43a71d4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x44084e8, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* rparam);
 
-  /// @brief Method GetHashCode, addr 0x43a7230, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4408544, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Init, addr 0x43a68f4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4407c08, size 0x174, virtual false, abstract: false, final false
   inline void Init(::System::Uri* uri);
 
   static inline ::System::UriBuilder* New_ctor();
@@ -87,10 +86,10 @@ public:
 
   static inline ::System::UriBuilder* New_ctor(::System::Uri* uri);
 
-  /// @brief Method SetFieldsFromUri, addr 0x43a6bd8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetFieldsFromUri, addr 0x4407eec, size 0x164, virtual false, abstract: false, final false
   inline void SetFieldsFromUri(::System::Uri* uri);
 
-  /// @brief Method ToString, addr 0x43a7250, size 0x428, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4408564, size 0x428, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__changed() const;
@@ -129,9 +128,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__schemeDelimiter();
 
-  constexpr ::System::Uri*& __cordl_internal_get__uri();
+  constexpr ::System::Uri* const& __cordl_internal_get__uri() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__uri() const;
+  constexpr ::System::Uri*& __cordl_internal_get__uri();
 
   constexpr ::StringW const& __cordl_internal_get__username() const;
 
@@ -159,31 +158,31 @@ public:
 
   constexpr void __cordl_internal_set__username(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43a6644, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4407958, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43a6750, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4407a64, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::StringW uri);
 
-  /// @brief Method .ctor, addr 0x43a6a68, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4407d7c, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method get_Uri, addr 0x43a7144, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Uri, addr 0x4408458, size 0x90, virtual false, abstract: false, final false
   inline ::System::Uri* get_Uri();
 
-  /// @brief Method set_Host, addr 0x43a6d3c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method set_Host, addr 0x4408050, size 0xec, virtual false, abstract: false, final false
   inline void set_Host(::StringW value);
 
-  /// @brief Method set_Path, addr 0x43a6e28, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_Path, addr 0x440813c, size 0xb4, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method set_Port, addr 0x43a6edc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_Port, addr 0x44081f0, size 0x6c, virtual false, abstract: false, final false
   inline void set_Port(int32_t value);
 
-  /// @brief Method set_Query, addr 0x43a6f48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method set_Query, addr 0x440825c, size 0xb8, virtual false, abstract: false, final false
   inline void set_Query(::StringW value);
 
-  /// @brief Method set_Scheme, addr 0x43a7000, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method set_Scheme, addr 0x4408314, size 0x144, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
 protected:
@@ -199,6 +198,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UriBuilder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UriBuilder(UriBuilder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
 
   /// @brief Field _changed, offset: 0x10, size: 0x1, def value: None
   bool ____changed;
@@ -233,14 +235,9 @@ public:
   /// @brief Field _username, offset: 0x60, size: 0x8, def value: None
   ::StringW ____username;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9156 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::UriBuilder, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::UriBuilder, ____changed) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::UriBuilder, ____fragment) == 0x18, "Offset mismatch!");
@@ -262,6 +259,8 @@ static_assert(offsetof(::System::UriBuilder, ____schemeDelimiter) == 0x50, "Offs
 static_assert(offsetof(::System::UriBuilder, ____uri) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::UriBuilder, ____username) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::UriBuilder, 0x68>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::UriBuilder);

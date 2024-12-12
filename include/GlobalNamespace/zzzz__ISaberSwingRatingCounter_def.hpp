@@ -17,11 +17,10 @@ class ISaberSwingRatingCounter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ISaberSwingRatingCounter);
-// Type: ::ISaberSwingRatingCounter
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ISaberSwingRatingCounter*
+// CS Name: ISaberSwingRatingCounter
 class CORDL_TYPE ISaberSwingRatingCounter {
 public:
   // Declarations
@@ -29,34 +28,30 @@ public:
 
   __declspec(property(get = get_beforeCutRating)) float_t beforeCutRating;
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RegisterDidChangeReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RegisterDidFinishReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnregisterDidChangeReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method UnregisterDidFinishReceiver, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method get_afterCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_afterCutRating, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_beforeCutRating, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_beforeCutRating();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISaberSwingRatingCounter(ISaberSwingRatingCounter&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISaberSwingRatingCounter(ISaberSwingRatingCounter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

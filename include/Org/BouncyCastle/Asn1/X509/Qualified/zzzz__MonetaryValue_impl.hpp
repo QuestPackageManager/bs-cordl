@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::GetInstance)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x24cd104;
+  constexpr static std::size_t addrs = 0x25003f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x24cd268;
+  constexpr static std::size_t addrs = 0x2500554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)(
     ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24cd3a0;
+  constexpr static std::size_t addrs = 0x250068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* (
     ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)()>(&::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::get_Currency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cd444;
+  constexpr static std::size_t addrs = 0x2500730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::get_Amount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24cd44c;
+  constexpr static std::size_t addrs = 0x2500738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::get_Exponent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24cd468;
+  constexpr static std::size_t addrs = 0x2500754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x24cd484;
+  constexpr static std::size_t addrs = 0x2500770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,8 +119,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*& Org:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currency;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*> const&
-Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_currency() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* const& Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_currency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currency;
 }
@@ -132,7 +131,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::X509:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___amount;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_amount() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_amount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___amount;
 }
@@ -144,7 +143,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::X509:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exponent;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_exponent() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::__cordl_internal_get_exponent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exponent;
 }
@@ -158,18 +157,11 @@ inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* Org::BouncyCas
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*
-Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>(currency, amount, exponent));
 }
 inline void Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,6 +190,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Qua
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*
+Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::New_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*>(currency, amount, exponent));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue::MonetaryValue() {}

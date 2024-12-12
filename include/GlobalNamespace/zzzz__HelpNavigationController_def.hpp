@@ -11,17 +11,16 @@ class HelpNavigationController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HelpNavigationController);
-// Type: ::HelpNavigationController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.NavigationController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HelpNavigationController*
+// CS Name: HelpNavigationController
 class CORDL_TYPE HelpNavigationController : public ::HMUI::NavigationController {
 public:
   // Declarations
   static inline ::GlobalNamespace::HelpNavigationController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bb4888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c179cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   HelpNavigationController(HelpNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

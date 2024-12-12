@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Converters/XDocumentTypeWrapper.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_impl.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XObjectWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XDocumentTypeWrapper_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/Linq/zzzz__XDocumentType_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XDocumentTypeWrapper._ctor
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)(::System::Xml::Linq::XDocumentType*)>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ee3280;
+  constexpr static std::size_t addrs = 0x3f4332c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_Name)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee32a8;
+  constexpr static std::size_t addrs = 0x3f43354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_System)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee32c4;
+  constexpr static std::size_t addrs = 0x3f43370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_Public)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee32e0;
+  constexpr static std::size_t addrs = 0x3f4338c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_InternalSubset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ee32fc;
+  constexpr static std::size_t addrs = 0x3f433a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XDocumentTypeWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_LocalName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3ee3318;
+  constexpr static std::size_t addrs = 0x3f433c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,36 +92,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocumentType"
-constexpr Newtonsoft::Json::Converters::XDocumentTypeWrapper::operator ::Newtonsoft::Json::Converters::IXmlDocumentType*() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
-constexpr ::Newtonsoft::Json::Converters::IXmlDocumentType* Newtonsoft::Json::Converters::XDocumentTypeWrapper::i___Newtonsoft__Json__Converters__IXmlDocumentType() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr Newtonsoft::Json::Converters::XDocumentTypeWrapper::operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
-constexpr ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentTypeWrapper::i___Newtonsoft__Json__Converters__IXmlNode() noexcept {
-  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::Linq::XDocumentType*& Newtonsoft::Json::Converters::XDocumentTypeWrapper::__cordl_internal_get__documentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____documentType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDocumentType*> const& Newtonsoft::Json::Converters::XDocumentTypeWrapper::__cordl_internal_get__documentType() const {
+constexpr ::System::Xml::Linq::XDocumentType* const& Newtonsoft::Json::Converters::XDocumentTypeWrapper::__cordl_internal_get__documentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____documentType;
 }
 constexpr void Newtonsoft::Json::Converters::XDocumentTypeWrapper::__cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____documentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* Newtonsoft::Json::Converters::XDocumentTypeWrapper::New_ctor(::System::Xml::Linq::XDocumentType* documentType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>(documentType));
 }
 inline void Newtonsoft::Json::Converters::XDocumentTypeWrapper::_ctor(::System::Xml::Linq::XDocumentType* documentType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,6 +135,25 @@ inline ::StringW Newtonsoft::Json::Converters::XDocumentTypeWrapper::get_LocalNa
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* Newtonsoft::Json::Converters::XDocumentTypeWrapper::New_ctor(::System::Xml::Linq::XDocumentType* documentType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Converters::XDocumentTypeWrapper*>(documentType));
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlDocumentType"
+constexpr Newtonsoft::Json::Converters::XDocumentTypeWrapper::operator ::Newtonsoft::Json::Converters::IXmlDocumentType*() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
+constexpr ::Newtonsoft::Json::Converters::IXmlDocumentType* Newtonsoft::Json::Converters::XDocumentTypeWrapper::i___Newtonsoft__Json__Converters__IXmlDocumentType() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlDocumentType*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr Newtonsoft::Json::Converters::XDocumentTypeWrapper::operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
+constexpr ::Newtonsoft::Json::Converters::IXmlNode* Newtonsoft::Json::Converters::XDocumentTypeWrapper::i___Newtonsoft__Json__Converters__IXmlNode() noexcept {
+  return static_cast<::Newtonsoft::Json::Converters::IXmlNode*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Converters::XDocumentTypeWrapper::XDocumentTypeWrapper() {}

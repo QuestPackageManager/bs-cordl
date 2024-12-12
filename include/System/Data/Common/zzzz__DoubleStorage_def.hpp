@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Data/Common/zzzz__DataStorage_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -27,56 +26,55 @@ class DoubleStorage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Common::DoubleStorage);
-// Type: System.Data.Common::DoubleStorage
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Common.DataStorage
 namespace System::Data::Common {
 // Is value type: false
-// CS Name: ::System.Data.Common::DoubleStorage*
+// CS Name: System.Data.Common.DoubleStorage
 class CORDL_TYPE DoubleStorage : public ::System::Data::Common::DataStorage {
 public:
   // Declarations
   /// @brief Field _values, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<double_t, ::Array<double_t>*> _values;
 
-  /// @brief Method Aggregate, addr 0x41840d8, size 0x738, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41e53ec, size 0x738, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x4184810, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x41e5b24, size 0x80, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x4184890, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x41e5ba4, size 0x108, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x4184ea4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41e61b8, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x4184998, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41e5cac, size 0x14c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x4184e1c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41e6130, size 0x88, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x4184ae4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x41e5df8, size 0x54, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x4184f84, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x41e6298, size 0x100, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x4184b38, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x41e5e4c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x4184f3c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x41e6250, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
   static inline ::System::Data::Common::DoubleStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x4184bd8, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x41e5eec, size 0x184, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x4184d5c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41e6070, size 0xc0, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x4185084, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x41e6398, size 0x94, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<double_t, ::Array<double_t>*> const& __cordl_internal_get__values() const;
@@ -85,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<double_t, ::Array<double_t>*> value);
 
-  /// @brief Method .ctor, addr 0x417e580, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41df894, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -102,18 +100,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DoubleStorage(DoubleStorage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11529 };
+
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<double_t, ::Array<double_t>*> ____values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::Common::DoubleStorage, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::Common::DoubleStorage, ____values) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::Common::DoubleStorage, 0x58>, "Size mismatch!");
 
 } // namespace System::Data::Common
 NEED_NO_BOX(::System::Data::Common::DoubleStorage);

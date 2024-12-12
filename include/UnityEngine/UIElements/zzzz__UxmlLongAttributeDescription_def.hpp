@@ -18,90 +18,88 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class __UxmlLongAttributeDescription____c;
+class UxmlLongAttributeDescription___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class UxmlLongAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class __UxmlLongAttributeDescription____c;
+class UxmlLongAttributeDescription___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlLongAttributeDescription);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlLongAttributeDescription____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlLongAttributeDescription___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UxmlLongAttributeDescription::<>c*
-class CORDL_TYPE __UxmlLongAttributeDescription____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UxmlLongAttributeDescription/<>c
+class CORDL_TYPE UxmlLongAttributeDescription___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UxmlLongAttributeDescription___c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, int64_t, int64_t>* __9__3_0;
+  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, int64_t, int64_t>* __9__3_0;
 
-  static inline ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3c9a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa12b0, size 0x40, virtual false, abstract: false, final false
   inline int64_t _GetValueFromBag_b__3_0(::StringW s, int64_t l);
 
-  /// @brief Method .ctor, addr 0x4a3c998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa12a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription___c* getStaticF___9();
 
   static inline ::System::Func_3<::StringW, int64_t, int64_t>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UxmlLongAttributeDescription___c* value);
 
   static inline void setStaticF___9__3_0(::System::Func_3<::StringW, int64_t, int64_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UxmlLongAttributeDescription____c();
+  constexpr UxmlLongAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlLongAttributeDescription____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlLongAttributeDescription___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UxmlLongAttributeDescription____c(__UxmlLongAttributeDescription____c&&) = delete;
+  UxmlLongAttributeDescription___c(UxmlLongAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlLongAttributeDescription____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlLongAttributeDescription___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UxmlLongAttributeDescription____c(__UxmlLongAttributeDescription____c const&) = delete;
+  UxmlLongAttributeDescription___c(UxmlLongAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlLongAttributeDescription____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlLongAttributeDescription___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::UxmlLongAttributeDescription
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlLongAttributeDescription*
+// CS Name: UnityEngine.UIElements.UxmlLongAttributeDescription
 class CORDL_TYPE UxmlLongAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<int64_t> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c;
+  using __c = ::UnityEngine::UIElements::UxmlLongAttributeDescription___c;
 
-  /// @brief Method ConvertValueToLong, addr 0x4a3c900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToLong, addr 0x4aa1210, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t ConvertValueToLong(::StringW v, int64_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a3c7b4, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa10c4, size 0x14c, virtual true, abstract: false, final false
   inline int64_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3c71c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa102c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +117,7 @@ public:
   UxmlLongAttributeDescription(UxmlLongAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,5 +127,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlLon
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlLongAttributeDescription);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlLongAttributeDescription*, "UnityEngine.UIElements", "UxmlLongAttributeDescription");
-NEED_NO_BOX(::UnityEngine::UIElements::__UxmlLongAttributeDescription____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__UxmlLongAttributeDescription____c*, "UnityEngine.UIElements", "UxmlLongAttributeDescription/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::UxmlLongAttributeDescription___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlLongAttributeDescription___c*, "UnityEngine.UIElements", "UxmlLongAttributeDescription/<>c");

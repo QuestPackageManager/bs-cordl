@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::ColorTween::*)()>(&::Tweening::ColorTween::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4478e30;
+  constexpr static std::size_t addrs = 0x44da144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::ColorTween*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::ColorTween::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t, ::GlobalNamespace::EaseType, float_t)>(&::Tweening::ColorTween::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4478e78;
+  constexpr static std::size_t addrs = 0x44da18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tweening::ColorTween::*)(float_t)>(&::Tweening::ColorTween::GetValue)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4478f48;
+  constexpr static std::size_t addrs = 0x44da25c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,20 +66,11 @@ Tweening::ColorTween::getStaticF_Pool() {
       ::Zenject::StaticMemoryPool_7<::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::ColorTween*>*,
       "Pool", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::ColorTween*>::get>();
 }
-inline ::Tweening::ColorTween* Tweening::ColorTween::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::ColorTween*>());
-}
 inline void Tweening::ColorTween::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::ColorTween*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param delay: float_t (default: 0.0)
-inline ::Tweening::ColorTween* Tweening::ColorTween::New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
-                                                              ::GlobalNamespace::EaseType easeType, float_t delay) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::ColorTween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
-}
-/// @param delay: float_t (default: 0.0)
 inline void Tweening::ColorTween::_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
                                         ::GlobalNamespace::EaseType easeType, float_t delay) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,6 +85,13 @@ inline ::UnityEngine::Color Tweening::ColorTween::GetValue(float_t t) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::ColorTween*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, t);
+}
+inline ::Tweening::ColorTween* Tweening::ColorTween::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::ColorTween*>());
+}
+inline ::Tweening::ColorTween* Tweening::ColorTween::New_ctor(::UnityEngine::Color fromValue, ::UnityEngine::Color toValue, ::System::Action_1<::UnityEngine::Color>* onUpdate, float_t duration,
+                                                              ::GlobalNamespace::EaseType easeType, float_t delay) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::ColorTween*>(fromValue, toValue, onUpdate, duration, easeType, delay));
 }
 // Ctor Parameters []
 constexpr ::Tweening::ColorTween::ColorTween() {}

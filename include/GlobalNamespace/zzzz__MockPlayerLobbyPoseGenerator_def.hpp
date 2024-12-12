@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGenerator)
 namespace GlobalNamespace {
@@ -11,20 +12,16 @@ class IMultiplayerSessionManager;
 namespace GlobalNamespace {
 class MockNodePoseSyncStateSender;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockPlayerLobbyPoseGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
-// Type: ::MockPlayerLobbyPoseGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlayerLobbyPoseGenerator*
+// CS Name: MockPlayerLobbyPoseGenerator
 class CORDL_TYPE MockPlayerLobbyPoseGenerator : public ::System::Object {
 public:
   // Declarations
@@ -39,30 +36,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bce0e4, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c2e1f8, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Tick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Tick();
+
+  constexpr ::GlobalNamespace::MockNodePoseSyncStateSender* const& __cordl_internal_get_mockNodePoseSyncStateSender() const;
 
   constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __cordl_internal_get_mockNodePoseSyncStateSender();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& __cordl_internal_get_mockNodePoseSyncStateSender() const;
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get_multiplayerSessionManager() const;
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get_multiplayerSessionManager() const;
 
   constexpr void __cordl_internal_set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3bce070, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2e184, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -82,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18108 };
+
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ___multiplayerSessionManager;
 
   /// @brief Field mockNodePoseSyncStateSender, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MockNodePoseSyncStateSender* ___mockNodePoseSyncStateSender;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18028 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGenerator, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGenerator, ___multiplayerSessionManager) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerLobbyPoseGenerator, ___mockNodePoseSyncStateSender) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerLobbyPoseGenerator, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerLobbyPoseGenerator);

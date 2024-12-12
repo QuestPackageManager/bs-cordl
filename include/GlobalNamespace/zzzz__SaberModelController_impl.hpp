@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SaberModelController::*)(::UnityEngine::Transform*, ::GlobalNamespace::Saber*, ::UnityEngine::Color)>(&::GlobalNamespace::SaberModelController::Init)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b85f88;
+  constexpr static std::size_t addrs = 0x3be77d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelController::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SaberModelController::InitColor)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3b861dc;
+  constexpr static std::size_t addrs = 0x3be7a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelController::*)()>(&::GlobalNamespace::SaberModelController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b86368;
+  constexpr static std::size_t addrs = 0x3be7bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberModelController*>::get(), ".ctor",
@@ -114,7 +114,7 @@ constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::SaberModelControlle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::SaberModelController::__cordl_internal_get__colorManager() const {
+constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::SaberModelController::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
@@ -136,13 +136,13 @@ inline void GlobalNamespace::SaberModelController::InitColor(::GlobalNamespace::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saberType);
 }
-inline ::GlobalNamespace::SaberModelController* GlobalNamespace::SaberModelController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberModelController*>());
-}
 inline void GlobalNamespace::SaberModelController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberModelController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SaberModelController* GlobalNamespace::SaberModelController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberModelController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberModelController::SaberModelController() {}

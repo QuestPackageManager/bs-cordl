@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstddef>
@@ -28,9 +29,6 @@ namespace GlobalNamespace {
 class FormattedFloatListSettingsController;
 }
 namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
 class NoteJumpDurationTypeSettingsDropdown;
 }
 namespace GlobalNamespace {
@@ -46,10 +44,10 @@ namespace GlobalNamespace {
 class PlayerHeightSettingsController;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct PlayerSettingsPanelController_PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+class PlayerSpecificSettings;
 }
 namespace HMUI {
 class ToggleBinder;
@@ -68,34 +66,33 @@ class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+struct PlayerSettingsPanelController_PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
 class PlayerSettingsPanelController;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout);
+MARK_VAL_T(::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout);
 MARK_REF_PTR_T(::GlobalNamespace::PlayerSettingsPanelController);
-// Type: ::PlayerSettingsPanelLayout
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlayerSettingsPanelController::PlayerSettingsPanelLayout
-struct CORDL_TYPE __PlayerSettingsPanelController__PlayerSettingsPanelLayout {
+// CS Name: PlayerSettingsPanelController/PlayerSettingsPanelLayout
+struct CORDL_TYPE PlayerSettingsPanelController_PlayerSettingsPanelLayout {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped
-  enum struct ____PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped : int32_t {
+  /// @brief Nested struct __PlayerSettingsPanelController_PlayerSettingsPanelLayout_Unwrapped
+  enum struct __PlayerSettingsPanelController_PlayerSettingsPanelLayout_Unwrapped : int32_t {
     __E_All = static_cast<int32_t>(0x0),
     __E_Singleplayer = static_cast<int32_t>(0x1),
     __E_Multiplayer = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped() const noexcept {
-    return static_cast<____PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped>(this->value__);
+  constexpr operator __PlayerSettingsPanelController_PlayerSettingsPanelLayout_Unwrapped() const noexcept {
+    return static_cast<__PlayerSettingsPanelController_PlayerSettingsPanelLayout_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -105,46 +102,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerSettingsPanelController__PlayerSettingsPanelLayout();
+  constexpr PlayerSettingsPanelController_PlayerSettingsPanelLayout();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlayerSettingsPanelController__PlayerSettingsPanelLayout(int32_t value__) noexcept;
+  constexpr PlayerSettingsPanelController_PlayerSettingsPanelLayout(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field All value: I32(0)
+  static ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout const All;
 
-  /// @brief Field All value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout const All;
+  /// @brief Field Multiplayer value: I32(2)
+  static ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout const Multiplayer;
 
-  /// @brief Field Multiplayer value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Multiplayer;
-
-  /// @brief Field Singleplayer value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Singleplayer;
+  /// @brief Field Singleplayer value: I32(1)
+  static ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout const Singleplayer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4897 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerSettingsPanelController
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ArcVisibilityType, IRefreshable, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerSettingsPanelController*
+// CS Name: PlayerSettingsPanelController
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using PlayerSettingsPanelLayout = ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+  using PlayerSettingsPanelLayout = ::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout;
 
   /// @brief Field _adaptiveSfxToggle, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__adaptiveSfxToggle, put = __cordl_internal_set__adaptiveSfxToggle)) ::UnityW<::UnityEngine::UI::Toggle> _adaptiveSfxToggle;
@@ -276,102 +272,102 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x3bb3124, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c16268, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleAdvancedHudToggleChanged, addr 0x3bb37e0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleAdvancedHudToggleChanged, addr 0x3c16924, size 0x50, virtual false, abstract: false, final false
   inline void HandleAdvancedHudToggleChanged(bool on);
 
-  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx, addr 0x3bb36cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx, addr 0x3c16810, size 0x60, virtual false, abstract: false, final false
   inline void HandleArcVisibilityDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::ArcVisibilityType arcVisibilityType);
 
-  /// @brief Method HandleHeadsetHapticIntensityControllerValueDidChange, addr 0x3bb3774, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleHeadsetHapticIntensityControllerValueDidChange, addr 0x3c168b8, size 0x24, virtual false, abstract: false, final false
   inline void HandleHeadsetHapticIntensityControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandleLightReductionAmountSelected, addr 0x3bb37bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleLightReductionAmountSelected, addr 0x3c16900, size 0x24, virtual false, abstract: false, final false
   inline void HandleLightReductionAmountSelected(int32_t obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
 
-  /// @brief Method HandleNoTextsAndHudsToggleChanged, addr 0x3bb3890, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleNoTextsAndHudsToggleChanged, addr 0x3c169d4, size 0x50, virtual false, abstract: false, final false
   inline void HandleNoTextsAndHudsToggleChanged(bool on);
 
-  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx, addr 0x3bb3830, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx, addr 0x3c16974, size 0x3c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange, addr 0x3bb386c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange, addr 0x3c169b0, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float_t value);
 
-  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected, addr 0x3bb3798, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected, addr 0x3c168dc, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpStartBeatOffsetPositionSelected(int32_t idx, float_t startBeatOffset);
 
-  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange, addr 0x3bb3750, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange, addr 0x3c16894, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerHeightSettingsControllerValueDidChange(float_t value);
 
-  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange, addr 0x3bb3684, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange, addr 0x3c167c8, size 0x24, virtual false, abstract: false, final false
   inline void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange, addr 0x3bb372c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange, addr 0x3c16870, size 0x24, virtual false, abstract: false, final false
   inline void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
   static inline ::GlobalNamespace::PlayerSettingsPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb3564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c166a8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3bb352c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3c16670, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3bb317c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3c162c0, size 0x3b0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3bb2bbc, size 0x348, virtual true, abstract: false, final true
+  /// @brief Method Refresh, addr 0x3c15d00, size 0x348, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method RefreshArcsWarning, addr 0x3bb35a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshArcsWarning, addr 0x3c166e8, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshArcsWarning(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild);
 
-  /// @brief Method RefreshNoteJumpUI, addr 0x3bb3568, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RefreshNoteJumpUI, addr 0x3c166ac, size 0x3c, virtual false, abstract: false, final false
   inline void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method SetData, addr 0x3bb1ff4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x3c15138, size 0x24, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetIsDirty, addr 0x3bb36a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetIsDirty, addr 0x3c167ec, size 0x24, virtual false, abstract: false, final false
   inline void SetIsDirty();
 
-  /// @brief Method SetLayout, addr 0x3bb1844, size 0x24, virtual false, abstract: false, final false
-  inline void SetLayout(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout layout);
+  /// @brief Method SetLayout, addr 0x3c14978, size 0x24, virtual false, abstract: false, final false
+  inline void SetLayout(::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout layout);
 
-  /// @brief Method SetSectionDisabled, addr 0x3bb30bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSectionDisabled, addr 0x3c16200, size 0x68, virtual false, abstract: false, final false
   inline void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
 
-  /// @brief Method UnsubscribeAllUICallbacks, addr 0x3bb3530, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UnsubscribeAllUICallbacks, addr 0x3c16674, size 0x34, virtual false, abstract: false, final false
   inline void UnsubscribeAllUICallbacks();
 
-  /// @brief Method <OnEnable>b__42_0, addr 0x3bb3940, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_0, addr 0x3c16a84, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_0(bool on);
 
-  /// @brief Method <OnEnable>b__42_1, addr 0x3bb3964, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_1, addr 0x3c16aa8, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_1(bool on);
 
-  /// @brief Method <OnEnable>b__42_2, addr 0x3bb3988, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_2, addr 0x3c16acc, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_2(bool on);
 
-  /// @brief Method <OnEnable>b__42_3, addr 0x3bb39ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_3, addr 0x3c16af0, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_3(bool on);
 
-  /// @brief Method <OnEnable>b__42_4, addr 0x3bb39d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_4, addr 0x3c16b14, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_4(bool on);
 
-  /// @brief Method <OnEnable>b__42_5, addr 0x3bb39f4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_5, addr 0x3c16b38, size 0x44, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_5(bool on);
 
-  /// @brief Method <OnEnable>b__42_6, addr 0x3bb3a38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_6, addr 0x3c16b7c, size 0x24, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_6(bool on);
 
-  /// @brief Method <OnEnable>b__42_7, addr 0x3bb3a5c, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_7, addr 0x3c16ba0, size 0x3ac, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_7();
 
-  /// @brief Method <OnEnable>b__42_8, addr 0x3bb3e08, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__42_8, addr 0x3c16f4c, size 0x4d8, virtual false, abstract: false, final false
   inline void _OnEnable_b__42_8();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__adaptiveSfxToggle() const;
@@ -422,9 +418,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown>& __cordl_internal_get__environmentEffectsFilterExpertPlusPresetDropdown();
 
-  constexpr ::GlobalNamespace::EventBinder*& __cordl_internal_get__eventBinder();
+  constexpr ::GlobalNamespace::EventBinder* const& __cordl_internal_get__eventBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EventBinder*> const& __cordl_internal_get__eventBinder() const;
+  constexpr ::GlobalNamespace::EventBinder*& __cordl_internal_get__eventBinder();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__headsetHapticIntensityController() const;
 
@@ -462,9 +458,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown>& __cordl_internal_get__noteJumpStartBeatOffsetDropdown();
 
-  constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
+  constexpr ::GlobalNamespace::PlayerData* const& __cordl_internal_get__playerData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __cordl_internal_get__playerData() const;
+  constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__playerHeightSettingsCanvasGroup() const;
 
@@ -474,9 +470,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerHeightSettingsController>& __cordl_internal_get__playerHeightSettingsController();
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings* const& __cordl_internal_get__playerSpecificSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__reduceDebrisToggle() const;
 
@@ -498,13 +494,13 @@ public:
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__singleplayerOnlyCanvasGroup();
 
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::System::Action* const& __cordl_internal_get_didChangePlayerSettingsEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didChangePlayerSettingsEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangePlayerSettingsEvent() const;
 
   constexpr void __cordl_internal_set__adaptiveSfxToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
@@ -572,19 +568,19 @@ public:
 
   constexpr void __cordl_internal_set_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb38e0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c16a24, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangePlayerSettingsEvent, addr 0x3bb2184, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangePlayerSettingsEvent, addr 0x3c152c8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method get_playerSpecificSettings, addr 0x3bb1304, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method get_playerSpecificSettings, addr 0x3c14438, size 0x3b8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x3bb3020, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x3c16164, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangePlayerSettingsEvent(::System::Action* value);
 
 protected:
@@ -600,6 +596,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerSettingsPanelController(PlayerSettingsPanelController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4898 };
+
+  /// @brief Field kDisabledSectionAlpha offset 0xffffffff size 0x4
+  static constexpr float_t kDisabledSectionAlpha{ static_cast<float_t>(0.2f) };
 
   /// @brief Field _leftHandedToggle, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____leftHandedToggle;
@@ -700,17 +702,9 @@ public:
   /// @brief Field _eventBinder, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::EventBinder* ____eventBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4877 };
-
-  /// @brief Field kDisabledSectionAlpha offset 0xffffffff size 0x4
-  static constexpr float_t kDisabledSectionAlpha{ 0.2 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSettingsPanelController, 0x120>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____leftHandedToggle) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____reduceDebrisToggle) == 0x28, "Offset mismatch!");
@@ -777,7 +771,9 @@ static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____ref
 
 static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____eventBinder) == 0x118, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSettingsPanelController, 0x120>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSettingsPanelController_PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");
 NEED_NO_BOX(::GlobalNamespace::PlayerSettingsPanelController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSettingsPanelController*, "", "PlayerSettingsPanelController");

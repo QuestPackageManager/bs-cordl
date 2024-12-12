@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(::System::IO::Stream*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25a5260;
+  constexpr static std::size_t addrs = 0x25d854c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)()>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::Close)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25a528c;
+  constexpr static std::size_t addrs = 0x25d8578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::IO::TeeOutputStream::Write)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25a5300;
+  constexpr static std::size_t addrs = 0x25d85ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::TeeOutputStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Utilities::IO::TeeOutputStream::WriteByte)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25a5368;
+  constexpr static std::size_t addrs = 0x25d8654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Utilities::IO::TeeOutputStre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___output;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Utilities::IO::TeeOutputStream::__cordl_internal_get_output() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Utilities::IO::TeeOutputStream::__cordl_internal_get_output() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___output;
 }
@@ -83,16 +83,13 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Utilities::IO::TeeOutputStre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tee;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Utilities::IO::TeeOutputStream::__cordl_internal_get_tee() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Utilities::IO::TeeOutputStream::__cordl_internal_get_tee() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tee;
 }
 constexpr void Org::BouncyCastle::Utilities::IO::TeeOutputStream::__cordl_internal_set_tee(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tee)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* Org::BouncyCastle::Utilities::IO::TeeOutputStream::New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::IO::TeeOutputStream*>(output, tee));
 }
 inline void Org::BouncyCastle::Utilities::IO::TeeOutputStream::_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -115,6 +112,9 @@ inline void Org::BouncyCastle::Utilities::IO::TeeOutputStream::WriteByte(uint8_t
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::TeeOutputStream*>::get(), 40)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, b);
+}
+inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* Org::BouncyCastle::Utilities::IO::TeeOutputStream::New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::IO::TeeOutputStream*>(output, tee));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::IO::TeeOutputStream::TeeOutputStream() {}

@@ -17,11 +17,10 @@ class MissionClearedEnvironmentEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionClearedEnvironmentEffect);
-// Type: ::MissionClearedEnvironmentEffect
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionClearedEnvironmentEffect*
+// CS Name: MissionClearedEnvironmentEffect
 class CORDL_TYPE MissionClearedEnvironmentEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,20 +33,20 @@ public:
                       put = __cordl_internal_set__missionObjectiveCheckersManager)) ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>
       _missionObjectiveCheckersManager;
 
-  /// @brief Method Awake, addr 0x3b30ef0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b92424, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b31010, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectiveWasCleared, addr 0x3b92544, size 0x78, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectiveWasCleared();
 
   static inline ::GlobalNamespace::MissionClearedEnvironmentEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b30f80, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b924b4, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
 
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
-  /// @brief Method .ctor, addr 0x3b31088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b925bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,23 +73,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionClearedEnvironmentEffect(MissionClearedEnvironmentEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };
+
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4309 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionClearedEnvironmentEffect, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____missionObjectiveCheckersManager) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionClearedEnvironmentEffect, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionClearedEnvironmentEffect, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionClearedEnvironmentEffect);

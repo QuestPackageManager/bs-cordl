@@ -11,11 +11,10 @@ class Motion;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Motion);
-// Type: UnityEngine::Motion
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::Motion*
+// CS Name: UnityEngine.Motion
 class CORDL_TYPE Motion : public ::UnityEngine::Object {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x47eacf4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x484c008, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x47f1b88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x4852e9c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Motion(Motion const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16880 };
+
   /// @brief Field <isAnimatorMotion>k__BackingField, offset: 0x18, size: 0x1, def value: None
   bool ____isAnimatorMotion_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16841 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Motion, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Motion, ____isAnimatorMotion_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Motion, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Motion);

@@ -33,11 +33,10 @@ class BeatmapSaveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData);
-// Type: BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
+// CS Name: BeatmapSaveDataVersion2_6_0AndEarlier.BeatmapSaveData
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {
 public:
   // Declarations
@@ -79,7 +78,7 @@ public:
 
   __declspec(property(get = get_waypoints)) ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* waypoints;
 
-  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x26d4f9c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0Inline, addr 0x270690c, size 0x33c, virtual false, abstract: false, final false
   inline void ConvertBeatmapSaveDataPreV2_5_0Inline();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
@@ -89,33 +88,33 @@ public:
                                                                                    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
                                                                                    ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* const& __cordl_internal_get__events() const;
+
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*& __cordl_internal_get__events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>*> const& __cordl_internal_get__events() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* const& __cordl_internal_get__notes() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>*& __cordl_internal_get__notes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>*> const& __cordl_internal_get__notes() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* const& __cordl_internal_get__obstacles() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*& __cordl_internal_get__obstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>*> const& __cordl_internal_get__obstacles() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* const& __cordl_internal_get__sliders() const;
 
   constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>*& __cordl_internal_get__sliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>*> const& __cordl_internal_get__sliders() const;
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* const& __cordl_internal_get__specialEventsKeywordFilters() const;
 
   constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*& __cordl_internal_get__specialEventsKeywordFilters();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData*> const& __cordl_internal_get__specialEventsKeywordFilters() const;
 
   constexpr ::StringW const& __cordl_internal_get__version() const;
 
   constexpr ::StringW& __cordl_internal_get__version();
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>*& __cordl_internal_get__waypoints();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* const& __cordl_internal_get__waypoints() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>*> const& __cordl_internal_get__waypoints() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>*& __cordl_internal_get__waypoints();
 
   constexpr void __cordl_internal_set__events(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* value);
 
@@ -131,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x26d4f0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270687c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* events,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* notes,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* sliders,
@@ -139,25 +138,25 @@ public:
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* obstacles,
                     ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
-  /// @brief Method get_events, addr 0x26d4edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_events, addr 0x270684c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::EventData*>* get_events();
 
-  /// @brief Method get_notes, addr 0x26d4ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_notes, addr 0x2706854, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteData*>* get_notes();
 
-  /// @brief Method get_obstacles, addr 0x26d4efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_obstacles, addr 0x270686c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>* get_obstacles();
 
-  /// @brief Method get_sliders, addr 0x26d4eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sliders, addr 0x270685c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>* get_sliders();
 
-  /// @brief Method get_specialEventsKeywordFilters, addr 0x26d4f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEventsKeywordFilters, addr 0x2706874, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
 
-  /// @brief Method get_version, addr 0x26d4ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x2706844, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method get_waypoints, addr 0x26d4ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waypoints, addr 0x2706864, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::WaypointData*>* get_waypoints();
 
 protected:
@@ -173,6 +172,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapSaveData(BeatmapSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13424 };
+
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"2.6.0" };
 
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
@@ -195,17 +200,9 @@ public:
   /// @brief Field _specialEventsKeywordFilters, offset: 0x40, size: 0x8, def value: None
   ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventKeywordFiltersData* ____specialEventsKeywordFilters;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13393 };
-
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"2.6.0" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, ____version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, ____events) == 0x18, "Offset mismatch!");
@@ -219,6 +216,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData,
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, ____obstacles) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, ____specialEventsKeywordFilters) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData, 0x48>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion2_6_0AndEarlier
 NEED_NO_BOX(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData);

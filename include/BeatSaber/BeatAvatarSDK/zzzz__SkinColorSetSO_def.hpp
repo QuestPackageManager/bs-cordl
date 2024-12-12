@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SkinColorSetSO)
 namespace BeatSaber::BeatAvatarSDK {
 class SkinColorSO;
@@ -15,11 +14,10 @@ class SkinColorSetSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::SkinColorSetSO);
-// Type: BeatSaber.BeatAvatarSDK::SkinColorSetSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::SkinColorSetSO*
+// CS Name: BeatSaber.BeatAvatarSDK.SkinColorSetSO
 class CORDL_TYPE SkinColorSetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -38,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__colors(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x2230204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225b778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colors, addr 0x22301fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colors, addr 0x225b770, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_colors();
 
 protected:
@@ -58,18 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SkinColorSetSO(SkinColorSetSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18162 };
+
   /// @brief Field _colors, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> ____colors;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18082 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::SkinColorSetSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::SkinColorSetSO, ____colors) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::SkinColorSetSO, 0x20>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::SkinColorSetSO);

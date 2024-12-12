@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StylePropertyUtil)
@@ -29,38 +28,38 @@ class StylePropertyUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StylePropertyUtil);
-// Type: UnityEngine.UIElements.StyleSheets::StylePropertyUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyUtil*
+// CS Name: UnityEngine.UIElements.StyleSheets.StylePropertyUtil
 class CORDL_TYPE StylePropertyUtil : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_AnimatableProperties, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_AnimatableProperties,
-                             put = setStaticF_s_AnimatableProperties)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_AnimatableProperties;
+  __declspec(property(get = getStaticF_s_AnimatableProperties,
+                      put = setStaticF_s_AnimatableProperties)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_AnimatableProperties;
 
   /// @brief Field s_AnimatableWithUsageHintProperties, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_AnimatableWithUsageHintProperties, put = setStaticF_s_AnimatableWithUsageHintProperties)) ::System::Collections::Generic::Dictionary_2<
-      ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::UsageHints>* s_AnimatableWithUsageHintProperties;
+  __declspec(property(get = getStaticF_s_AnimatableWithUsageHintProperties,
+                      put = setStaticF_s_AnimatableWithUsageHintProperties)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId,
+                                                                                                                          ::UnityEngine::UIElements::UsageHints>* s_AnimatableWithUsageHintProperties;
 
   /// @brief Field s_IdToName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_IdToName,
-                             put = setStaticF_s_IdToName)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* s_IdToName;
+  __declspec(property(get = getStaticF_s_IdToName,
+                      put = setStaticF_s_IdToName)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* s_IdToName;
 
   /// @brief Field s_NameToId, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_NameToId,
-                             put = setStaticF_s_NameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_NameToId;
+  __declspec(property(get = getStaticF_s_NameToId,
+                      put = setStaticF_s_NameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_NameToId;
 
-  /// @brief Method IsAnimatable, addr 0x496c53c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsAnimatable, addr 0x49d0e4c, size 0x80, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsMatchingShorthand, addr 0x496c3d0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x49d0ce0, size 0x16c, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x4969dc0, size 0xf78, virtual false, abstract: false, final false
-  static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ByRef<int32_t> intValue);
+  /// @brief Method TryGetEnumIntValue, addr 0x49ce6d0, size 0xf78, virtual false, abstract: false, final false
+  static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ::ByRef<int32_t> intValue);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_AnimatableProperties();
 
@@ -95,7 +94,7 @@ public:
   StylePropertyUtil(StylePropertyUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

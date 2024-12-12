@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AndroidSupport)
 namespace UnityEngine::InputSystem::Layouts {
@@ -19,24 +18,23 @@ class AndroidSupport;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidSupport);
-// Type: UnityEngine.InputSystem.Android::AndroidSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidSupport*
+// CS Name: UnityEngine.InputSystem.Android.AndroidSupport
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x45a3124, size 0x910, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4604438, size 0x910, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x45a3a34, size 0x24c, virtual false, abstract: false, final false
-  static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
+  /// @brief Method OnFindLayoutForDevice, addr 0x4604d48, size 0x24c, virtual false, abstract: false, final false
+  static inline ::StringW OnFindLayoutForDevice(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x45a3d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4605050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +52,7 @@ public:
   AndroidSupport(AndroidSupport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6849 };
 
   /// @brief Field kAndroidInterface offset 0xffffffff size 0x8
   static constexpr ::ConstString kAndroidInterface{ u"Android" };

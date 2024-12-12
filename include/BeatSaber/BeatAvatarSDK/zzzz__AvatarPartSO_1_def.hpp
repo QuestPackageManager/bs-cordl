@@ -3,25 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AvatarPartSO_1)
-namespace BeatSaber::BeatAvatarSDK {
-class IAvatarPart;
-}
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
 template <typename T> class AvatarPartSO_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartSO_1);
-// Type: BeatSaber.BeatAvatarSDK::AvatarPartSO`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.BeatAvatarSDK.IAvatarPart, PersistentScriptableObject
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartSO`1<T>*
+// CS Name: BeatSaber.BeatAvatarSDK.AvatarPartSO`1<T>
 class CORDL_TYPE AvatarPartSO_1 : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -92,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPartSO_1(AvatarPartSO_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18148 };
+
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;
 
@@ -100,9 +100,6 @@ public:
 
   /// @brief Field _partAsset, offset: 0x28, size: 0x8, def value: None
   T ____partAsset;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

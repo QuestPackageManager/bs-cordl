@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)(
     int32_t, int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2385240;
+  constexpr static std::size_t addrs = 0x23b852c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)(
     int32_t, int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x238528c;
+  constexpr static std::size_t addrs = 0x23b8578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::get_L)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23852e0;
+  constexpr static std::size_t addrs = 0x23b85cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::get_N)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23852e8;
+  constexpr static std::size_t addrs = 0x23b85d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::get_UsageIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23852f0;
+  constexpr static std::size_t addrs = 0x23b85dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23852f8;
+  constexpr static std::size_t addrs = 0x23b85e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (
     ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::get_Random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2385300;
+  constexpr static std::size_t addrs = 0x23b85ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,8 +158,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const&
-Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -179,10 +178,6 @@ constexpr void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationPara
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usageIndex = value;
 }
-inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*
-Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>(L, N, certainty, random));
-}
 inline void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -190,10 +185,6 @@ inline void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParamet
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, L, N, certainty, random);
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*
-Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>(L, N, certainty, random, usageIndex));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                            int32_t usageIndex) {
@@ -234,6 +225,14 @@ inline ::Org::BouncyCastle::Security::SecureRandom* Org::BouncyCastle::Crypto::P
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Security::SecureRandom*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*
+Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>(L, N, certainty, random));
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*
+Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters*>(L, N, certainty, random, usageIndex));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters::DsaParameterGenerationParameters() {}

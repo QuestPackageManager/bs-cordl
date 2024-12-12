@@ -1,34 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Playables/ScriptPlayable_1.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
-template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::UnityEngine::Playables::IPlayable*() {
-  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::Playables::IPlayable"
-template <typename T> constexpr ::UnityEngine::Playables::IPlayable* UnityEngine::Playables::ScriptPlayable_1<T>::i___UnityEngine__Playables__IPlayable() {
-  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
-template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
-template <typename T>
-constexpr ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*
-UnityEngine::Playables::ScriptPlayable_1<T>::i___System__IEquatable_1___UnityEngine__Playables__ScriptPlayable_1_T__() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T> inline void UnityEngine::Playables::ScriptPlayable_1<T>::setStaticF_m_NullPlayable(::UnityEngine::Playables::ScriptPlayable_1<T> value) {
   ::cordl_internals::setStaticField<::UnityEngine::Playables::ScriptPlayable_1<T>, "m_NullPlayable",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::ScriptPlayable_1<T>>::get>(
@@ -43,7 +25,6 @@ template <typename T> inline ::UnityEngine::Playables::ScriptPlayable_1<T> Unity
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::ScriptPlayable_1<T>, false>(nullptr, ___internal_method);
 }
-/// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
 template <typename T> inline ::UnityEngine::Playables::ScriptPlayable_1<T> UnityEngine::Playables::ScriptPlayable_1<T>::Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::ScriptPlayable_1<T>>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
@@ -51,7 +32,6 @@ template <typename T> inline ::UnityEngine::Playables::ScriptPlayable_1<T> Unity
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::ScriptPlayable_1<T>, false>(nullptr, ___internal_method, graph, inputCount);
 }
-/// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
 template <typename T>
 inline ::UnityEngine::Playables::ScriptPlayable_1<T> UnityEngine::Playables::ScriptPlayable_1<T>::Create(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,6 +107,24 @@ template <typename T> inline bool UnityEngine::Playables::ScriptPlayable_1<T>::E
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::ScriptPlayable_1<T>>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::ScriptPlayable_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
+template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::UnityEngine::Playables::IPlayable*() {
+  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::Playables::IPlayable"
+template <typename T> constexpr ::UnityEngine::Playables::IPlayable* UnityEngine::Playables::ScriptPlayable_1<T>::i___UnityEngine__Playables__IPlayable() {
+  return static_cast<::UnityEngine::Playables::IPlayable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
+template <typename T> constexpr UnityEngine::Playables::ScriptPlayable_1<T>::operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
+template <typename T>
+constexpr ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*
+UnityEngine::Playables::ScriptPlayable_1<T>::i___System__IEquatable_1___UnityEngine__Playables__ScriptPlayable_1_T__() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::UnityEngine::Playables::ScriptPlayable_1<T>::ScriptPlayable_1(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept {

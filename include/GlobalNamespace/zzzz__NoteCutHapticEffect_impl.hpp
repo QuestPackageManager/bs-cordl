@@ -7,32 +7,32 @@
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type::__NoteCutHapticEffect__Type(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type::NoteCutHapticEffect_Type(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type::__NoteCutHapticEffect__Type() {}
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::Normal{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::ChainHead{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::ChainLink{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::Bomb{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::BadCut{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::ArcHead{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::ArcTail{ static_cast<int32_t>(0x6) };
-constexpr ::GlobalNamespace::__NoteCutHapticEffect__Type GlobalNamespace::__NoteCutHapticEffect__Type::ArcHeadAndTail{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type::NoteCutHapticEffect_Type() {}
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::Normal{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::ChainHead{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::ChainLink{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::Bomb{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::BadCut{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::ArcHead{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::ArcTail{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::NoteCutHapticEffect_Type GlobalNamespace::NoteCutHapticEffect_Type::ArcHeadAndTail{ static_cast<int32_t>(0x7) };
 //  Writing Method size for method: ::GlobalNamespace::NoteCutHapticEffect.HitNote
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)(::GlobalNamespace::SaberType, ::GlobalNamespace::__NoteCutHapticEffect__Type)>(&::GlobalNamespace::NoteCutHapticEffect::HitNote)> {
+    static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)(::GlobalNamespace::SaberType, ::GlobalNamespace::NoteCutHapticEffect_Type)>(&::GlobalNamespace::NoteCutHapticEffect::HitNote)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b1f960;
+  constexpr static std::size_t addrs = 0x3b80b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteCutHapticEffect_Type>::get() })));
     return ___internal_method;
   }
 };
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutHapticEffect::*)()>(&::GlobalNamespace::NoteCutHapticEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1fa00;
+  constexpr static std::size_t addrs = 0x3b80bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), ".ctor",
@@ -157,20 +157,20 @@ constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__hapti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::NoteCutHapticEffect::HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type) {
+inline void GlobalNamespace::NoteCutHapticEffect::HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect_Type type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteCutHapticEffect_Type>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saberType, type);
-}
-inline ::GlobalNamespace::NoteCutHapticEffect* GlobalNamespace::NoteCutHapticEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutHapticEffect*>());
 }
 inline void GlobalNamespace::NoteCutHapticEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoteCutHapticEffect* GlobalNamespace::NoteCutHapticEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutHapticEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutHapticEffect::NoteCutHapticEffect() {}

@@ -4,8 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TryCatchFinallyHandler)
 namespace System::Linq::Expressions::Interpreter {
@@ -29,11 +27,10 @@ class TryCatchFinallyHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler);
-// Type: System.Linq.Expressions.Interpreter::TryCatchFinallyHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::TryCatchFinallyHandler*
+// CS Name: System.Linq.Expressions.Interpreter.TryCatchFinallyHandler
 class CORDL_TYPE TryCatchFinallyHandler : public ::System::Object {
 public:
   // Declarations
@@ -64,13 +61,13 @@ public:
                           __cordl_internal_set__handlers)) ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>
       _handlers;
 
-  /// @brief Method FilterPasses, addr 0x40752d4, size 0x1f8, virtual false, abstract: false, final false
-  static inline bool FilterPasses(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ByRef<::System::Object*> exception,
+  /// @brief Method FilterPasses, addr 0x40d65e8, size 0x1f8, virtual false, abstract: false, final false
+  static inline bool FilterPasses(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::ByRef<::System::Object*> exception,
                                   ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method HasHandler, addr 0x4075180, size 0x154, virtual false, abstract: false, final false
-  inline bool HasHandler(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Exception* exception, ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*> handler,
-                         ByRef<::System::Object*> unwrappedException);
+  /// @brief Method HasHandler, addr 0x40d6494, size 0x154, virtual false, abstract: false, final false
+  inline bool HasHandler(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Exception* exception,
+                         ::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*> handler, ::ByRef<::System::Object*> unwrappedException);
 
   static inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*
   New_ctor(int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
@@ -116,21 +113,21 @@ public:
 
   constexpr void __cordl_internal_set__handlers(::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> value);
 
-  /// @brief Method .ctor, addr 0x4075128, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d643c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers);
 
-  /// @brief Method .ctor, addr 0x40750dc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d63f0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers);
 
-  /// @brief Method get_Handlers, addr 0x40750c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handlers, addr 0x40d63d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> get_Handlers();
 
-  /// @brief Method get_IsCatchBlockExist, addr 0x40750cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCatchBlockExist, addr 0x40d63e0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCatchBlockExist();
 
-  /// @brief Method get_IsFinallyBlockExist, addr 0x40750b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsFinallyBlockExist, addr 0x40d63c4, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsFinallyBlockExist();
 
 protected:
@@ -146,6 +143,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TryCatchFinallyHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TryCatchFinallyHandler(TryCatchFinallyHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13937 };
 
   /// @brief Field TryStartIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___TryStartIndex;
@@ -165,14 +165,9 @@ public:
   /// @brief Field _handlers, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> ____handlers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13903 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, ___TryStartIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, ___TryEndIndex) == 0x14, "Offset mismatch!");
@@ -184,6 +179,8 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryCatchFinally
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, ___GotoEndTargetIndex) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, ____handlers) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler, 0x30>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler);

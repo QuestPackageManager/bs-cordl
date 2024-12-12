@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26109e0;
+  constexpr static std::size_t addrs = 0x2643ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::*)(
     ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::System::DateTime, ::Org::BouncyCastle::Bcpg::IBcpgKey*)>(&::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2613fc0;
+  constexpr static std::size_t addrs = 0x26472ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::Encode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2613fc4;
+  constexpr static std::size_t addrs = 0x26472b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,18 +54,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* Org::BouncyCastle::Bcpg::PublicSubkeyPacket::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>(bcpgIn));
-}
 inline void Org::BouncyCastle::Bcpg::PublicSubkeyPacket::_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::BcpgInputStream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bcpgIn);
-}
-inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* Org::BouncyCastle::Bcpg::PublicSubkeyPacket::New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time,
-                                                                                                            ::Org::BouncyCastle::Bcpg::IBcpgKey* key) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>(algorithm, time, key));
 }
 inline void Org::BouncyCastle::Bcpg::PublicSubkeyPacket::_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -79,6 +72,13 @@ inline void Org::BouncyCastle::Bcpg::PublicSubkeyPacket::Encode(::Org::BouncyCas
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bcpgOut);
+}
+inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* Org::BouncyCastle::Bcpg::PublicSubkeyPacket::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>(bcpgIn));
+}
+inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* Org::BouncyCastle::Bcpg::PublicSubkeyPacket::New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time,
+                                                                                                            ::Org::BouncyCastle::Bcpg::IBcpgKey* key) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::PublicSubkeyPacket*>(algorithm, time, key));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket::PublicSubkeyPacket() {}

@@ -14,11 +14,10 @@ class XmlSchemaContentModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaContentModel);
-// Type: System.Xml.Schema::XmlSchemaContentModel
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaAnnotated
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaContentModel*
+// CS Name: System.Xml.Schema.XmlSchemaContentModel
 class CORDL_TYPE XmlSchemaContentModel : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
@@ -26,13 +25,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaContentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4258bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Content, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_Content, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
 protected:
@@ -50,7 +49,7 @@ public:
   XmlSchemaContentModel(XmlSchemaContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

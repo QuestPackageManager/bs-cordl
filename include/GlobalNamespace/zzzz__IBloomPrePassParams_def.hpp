@@ -21,11 +21,10 @@ class IBloomPrePassParams;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
-// Type: ::IBloomPrePassParams
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IBloomPrePassParams*
+// CS Name: IBloomPrePassParams
 class CORDL_TYPE IBloomPrePassParams {
 public:
   // Declarations
@@ -41,34 +40,30 @@ public:
 
   __declspec(property(get = get_toneMapping)) ::GlobalNamespace::ToneMapping toneMapping;
 
-  /// @brief Method get_fov, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fov, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_linesWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_linesWidth();
 
-  /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_textureEffect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
-  /// @brief Method get_textureHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_textureHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_textureWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_toneMapping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_toneMapping, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IBloomPrePassParams(IBloomPrePassParams&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBloomPrePassParams(IBloomPrePassParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16262 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,209 +8,208 @@
 #include "UnityEngine/UIElements/zzzz__LongField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlLongAttributeDescription_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__UxmlFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_UxmlFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__LongField__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__LongField__UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::LongField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498c134;
+  constexpr static std::size_t addrs = 0x49f0a44;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__UxmlFactory*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_UxmlFactory*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__LongField__UxmlFactory* UnityEngine::UIElements::__LongField__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__LongField__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__LongField__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__UxmlFactory*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UIElements::LongField_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_UxmlFactory*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::LongField_UxmlFactory* UnityEngine::UIElements::LongField_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField_UxmlFactory*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__LongField__UxmlFactory::__LongField__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__UxmlTraits._ctor
+constexpr ::UnityEngine::UIElements::LongField_UxmlFactory::LongField_UxmlFactory() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_UxmlTraits._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__LongField__UxmlTraits::*)()>(
-    &::UnityEngine::UIElements::__LongField__UxmlTraits::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField_UxmlTraits::*)()>(
+    &::UnityEngine::UIElements::LongField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498c17c;
+  constexpr static std::size_t addrs = 0x49f0a8c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__UxmlTraits*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_UxmlTraits*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__LongField__UxmlTraits* UnityEngine::UIElements::__LongField__UxmlTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__LongField__UxmlTraits*>());
-}
-inline void UnityEngine::UIElements::__LongField__UxmlTraits::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__UxmlTraits*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UIElements::LongField_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_UxmlTraits*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::LongField_UxmlTraits* UnityEngine::UIElements::LongField_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField_UxmlTraits*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__LongField__UxmlTraits::__LongField__UxmlTraits() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.get_parentLongField
+constexpr ::UnityEngine::UIElements::LongField_UxmlTraits::LongField_UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.get_parentLongField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LongField* (::UnityEngine::UIElements::__LongField__LongInput::*)()>(
-    &::UnityEngine::UIElements::__LongField__LongInput::get_parentLongField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LongField* (::UnityEngine::UIElements::LongField_LongInput::*)()>(
+    &::UnityEngine::UIElements::LongField_LongInput::get_parentLongField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x498c1c4;
+  constexpr static std::size_t addrs = 0x49f0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
                                                                                "get_parentLongField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__LongField__LongInput::*)()>(
-    &::UnityEngine::UIElements::__LongField__LongInput::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField_LongInput::*)()>(&::UnityEngine::UIElements::LongField_LongInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x498bf48;
+  constexpr static std::size_t addrs = 0x49f0858;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.get_allowedCharacters
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.get_allowedCharacters
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::__LongField__LongInput::*)()>(
-    &::UnityEngine::UIElements::__LongField__LongInput::get_allowedCharacters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::LongField_LongInput::*)()>(
+    &::UnityEngine::UIElements::LongField_LongInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x498c244;
+  constexpr static std::size_t addrs = 0x49f0b54;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 104));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 104));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.ApplyInputDeviceDelta
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.ApplyInputDeviceDelta
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__LongField__LongInput::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int64_t)>(&::UnityEngine::UIElements::__LongField__LongInput::ApplyInputDeviceDelta)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField_LongInput::*)(
+    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int64_t)>(&::UnityEngine::UIElements::LongField_LongInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x498c29c;
+  constexpr static std::size_t addrs = 0x49f0bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 105));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 105));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.ClampMinMaxLongValue
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.ClampMinMaxLongValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::__LongField__LongInput::*)(int64_t, int64_t)>(
-    &::UnityEngine::UIElements::__LongField__LongInput::ClampMinMaxLongValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::LongField_LongInput::*)(int64_t, int64_t)>(
+    &::UnityEngine::UIElements::LongField_LongInput::ClampMinMaxLongValue)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x498c4d0;
+  constexpr static std::size_t addrs = 0x49f0de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), "ClampMinMaxLongValue", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), "ClampMinMaxLongValue", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.ValueToString
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.ValueToString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::__LongField__LongInput::*)(int64_t)>(
-    &::UnityEngine::UIElements::__LongField__LongInput::ValueToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::LongField_LongInput::*)(int64_t)>(
+    &::UnityEngine::UIElements::LongField_LongInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x498c574;
+  constexpr static std::size_t addrs = 0x49f0e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 106));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 106));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__LongField__LongInput.StringToValue
+//  Writing Method size for method: ::UnityEngine::UIElements::LongField_LongInput.StringToValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::__LongField__LongInput::*)(::StringW)>(
-    &::UnityEngine::UIElements::__LongField__LongInput::StringToValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::LongField_LongInput::*)(::StringW)>(
+    &::UnityEngine::UIElements::LongField_LongInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x498c5c0;
+  constexpr static std::size_t addrs = 0x49f0ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 100));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 100));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::__LongField__LongInput::get_parentLongField() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(),
+inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::LongField_LongInput::get_parentLongField() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(),
                                                                              "get_parentLongField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::LongField*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::__LongField__LongInput* UnityEngine::UIElements::__LongField__LongInput::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__LongField__LongInput*>());
-}
-inline void UnityEngine::UIElements::__LongField__LongInput::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), ".ctor",
+inline void UnityEngine::UIElements::LongField_LongInput::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::__LongField__LongInput::get_allowedCharacters() {
+inline ::StringW UnityEngine::UIElements::LongField_LongInput::get_allowedCharacters() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 104)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 104)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__LongField__LongInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue) {
+inline void UnityEngine::UIElements::LongField_LongInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int64_t startValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 105)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 105)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
-inline int64_t UnityEngine::UIElements::__LongField__LongInput::ClampMinMaxLongValue(int64_t niceDelta, int64_t value) {
+inline int64_t UnityEngine::UIElements::LongField_LongInput::ClampMinMaxLongValue(int64_t niceDelta, int64_t value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), "ClampMinMaxLongValue", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), "ClampMinMaxLongValue", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, niceDelta, value);
 }
-inline ::StringW UnityEngine::UIElements::__LongField__LongInput::ValueToString(int64_t v) {
+inline ::StringW UnityEngine::UIElements::LongField_LongInput::ValueToString(int64_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 106)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 106)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
-inline int64_t UnityEngine::UIElements::__LongField__LongInput::StringToValue(::StringW str) {
+inline int64_t UnityEngine::UIElements::LongField_LongInput::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__LongField__LongInput*>::get(), 100)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField_LongInput*>::get(), 100)));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, str);
 }
+inline ::UnityEngine::UIElements::LongField_LongInput* UnityEngine::UIElements::LongField_LongInput::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField_LongInput*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__LongField__LongInput::__LongField__LongInput() {}
+constexpr ::UnityEngine::UIElements::LongField_LongInput::LongField_LongInput() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::LongField.get_longInput
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::__LongField__LongInput* (::UnityEngine::UIElements::LongField::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LongField_LongInput* (::UnityEngine::UIElements::LongField::*)()>(
     &::UnityEngine::UIElements::LongField::get_longInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x498bbd4;
+  constexpr static std::size_t addrs = 0x49f04e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), "get_longInput",
@@ -223,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::LongField::*)(int64_t)>(&::UnityEngine::UIElements::LongField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x498bc58;
+  constexpr static std::size_t addrs = 0x49f0568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::LongField::*)(::StringW)>(&::UnityEngine::UIElements::LongField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x498bd10;
+  constexpr static std::size_t addrs = 0x49f0620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField::*)()>(&::UnityEngine::UIElements::LongField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x498bdec;
+  constexpr static std::size_t addrs = 0x49f06fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), ".ctor",
@@ -264,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LongField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::LongField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x498bdf8;
+  constexpr static std::size_t addrs = 0x49f0708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::LongField::*)(::StringW)>(&::UnityEngine::UIElements::LongField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x498bfdc;
+  constexpr static std::size_t addrs = 0x49f08ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::LongField::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int64_t)>(&::UnityEngine::UIElements::LongField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x498c000;
+  constexpr static std::size_t addrs = 0x49f0910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -320,10 +319,10 @@ inline void UnityEngine::UIElements::LongField::setStaticF_inputUssClassName(::S
 inline ::StringW UnityEngine::UIElements::LongField::getStaticF_inputUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get>();
 }
-inline ::UnityEngine::UIElements::__LongField__LongInput* UnityEngine::UIElements::LongField::get_longInput() {
+inline ::UnityEngine::UIElements::LongField_LongInput* UnityEngine::UIElements::LongField::get_longInput() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), "get_longInput",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::__LongField__LongInput*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::LongField_LongInput*, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::UIElements::LongField::ValueToString(int64_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -335,19 +334,11 @@ inline int64_t UnityEngine::UIElements::LongField::StringToValue(::StringW str) 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), 119)));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, str);
 }
-inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::LongField::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField*>());
-}
 inline void UnityEngine::UIElements::LongField::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param maxLength: int32_t (default: static_cast<int32_t>(0x3e8))
-inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::LongField::New_ctor(::StringW label, int32_t maxLength) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField*>(label, maxLength));
-}
-/// @param maxLength: int32_t (default: static_cast<int32_t>(0x3e8))
 inline void UnityEngine::UIElements::LongField::_ctor(::StringW label, int32_t maxLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -363,6 +354,12 @@ inline void UnityEngine::UIElements::LongField::ApplyInputDeviceDelta(::UnityEng
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LongField*>::get(), 127)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
+}
+inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::LongField::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField*>());
+}
+inline ::UnityEngine::UIElements::LongField* UnityEngine::UIElements::LongField::New_ctor(::StringW label, int32_t maxLength) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::LongField*>(label, maxLength));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::LongField::LongField() {}

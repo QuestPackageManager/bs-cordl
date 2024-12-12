@@ -12,11 +12,10 @@ class Authorization;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Authorization);
-// Type: System.Net::Authorization
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::Authorization*
+// CS Name: System.Net.Authorization
 class CORDL_TYPE Authorization : public ::System::Object {
 public:
   // Declarations
@@ -55,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x443becc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d1e0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x443bf70, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449d284, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Complete, addr 0x443c00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x449d320, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
-  /// @brief Method get_Message, addr 0x443c004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x449d318, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -81,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Authorization(Authorization const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9574 };
+
   /// @brief Field m_Message, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_Message;
 
@@ -90,19 +92,16 @@ public:
   /// @brief Field ModuleAuthenticationType, offset: 0x20, size: 0x8, def value: None
   ::StringW ___ModuleAuthenticationType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Authorization, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Authorization, ___m_Message) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Authorization, ___m_Complete) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Authorization, ___ModuleAuthenticationType) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Authorization, 0x28>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::Authorization);

@@ -14,17 +14,16 @@ class GuestNameButtonsListItemsList;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItemsList);
-// Type: ::GuestNameButtonsListItemsList
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.UIItemsList`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GuestNameButtonsListItemsList*
-class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GuestNameButtonsListItem>> {
+// CS Name: GuestNameButtonsListItemsList
+class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GuestNameButtonsListItem*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ba33fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c05d88, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   GuestNameButtonsListItemsList(GuestNameButtonsListItemsList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4806 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

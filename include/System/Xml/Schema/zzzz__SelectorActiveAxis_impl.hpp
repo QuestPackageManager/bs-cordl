@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SelectorActiveAxis::*)()>(
     &::System::Xml::Schema::SelectorActiveAxis::get_lastDepth)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4336434;
+  constexpr static std::size_t addrs = 0x4397748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SelectorActiveAxis*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::SelectorActiveAxis::*)(::System::Xml::Schema::Asttree*, ::System::Xml::Schema::ConstraintStruct*)>(&::System::Xml::Schema::SelectorActiveAxis::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4336370;
+  constexpr static std::size_t addrs = 0x4397684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::SelectorActiveAxis::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::SelectorActiveAxis::EndElement)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43364dc;
+  constexpr static std::size_t addrs = 0x43977f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::SelectorActiveAxis::*)(int32_t, int32_t)>(
     &::System::Xml::Schema::SelectorActiveAxis::PushKS)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x4336524;
+  constexpr static std::size_t addrs = 0x4397838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::KeySequence* (::System::Xml::Schema::SelectorActiveAxis::*)()>(
     &::System::Xml::Schema::SelectorActiveAxis::PopKS)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43368f4;
+  constexpr static std::size_t addrs = 0x4397c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SelectorActiveAxis*>::get(), "PopKS",
@@ -84,7 +84,7 @@ constexpr ::System::Xml::Schema::ConstraintStruct*& System::Xml::Schema::Selecto
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ConstraintStruct*> const& System::Xml::Schema::SelectorActiveAxis::__cordl_internal_get_cs() const {
+constexpr ::System::Xml::Schema::ConstraintStruct* const& System::Xml::Schema::SelectorActiveAxis::__cordl_internal_get_cs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cs;
 }
@@ -96,7 +96,7 @@ constexpr ::System::Collections::ArrayList*& System::Xml::Schema::SelectorActive
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KSs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Xml::Schema::SelectorActiveAxis::__cordl_internal_get_KSs() const {
+constexpr ::System::Collections::ArrayList* const& System::Xml::Schema::SelectorActiveAxis::__cordl_internal_get_KSs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KSs;
 }
@@ -121,9 +121,6 @@ inline int32_t System::Xml::Schema::SelectorActiveAxis::get_lastDepth() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::SelectorActiveAxis* System::Xml::Schema::SelectorActiveAxis::New_ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SelectorActiveAxis*>(axisTree, cs));
-}
 inline void System::Xml::Schema::SelectorActiveAxis::_ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SelectorActiveAxis*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -146,6 +143,9 @@ inline ::System::Xml::Schema::KeySequence* System::Xml::Schema::SelectorActiveAx
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::SelectorActiveAxis*>::get(), "PopKS",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::KeySequence*, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::SelectorActiveAxis* System::Xml::Schema::SelectorActiveAxis::New_ctor(::System::Xml::Schema::Asttree* axisTree, ::System::Xml::Schema::ConstraintStruct* cs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::SelectorActiveAxis*>(axisTree, cs));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::SelectorActiveAxis::SelectorActiveAxis() {}

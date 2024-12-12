@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::SetMemberBinder::*)(::StringW, bool)>(&::System::Dynamic::SetMemberBinder::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x409fbf8;
+  constexpr static std::size_t addrs = 0x4100f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Dynamic::SetMemberBinder::*)()>(&::System::Dynamic::SetMemberBinder::get_ReturnType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x409fc6c;
+  constexpr static std::size_t addrs = 0x4100f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), "get_ReturnType",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::SetMemberBinder::*)()>(&::System::Dynamic::SetMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x409fcd8;
+  constexpr static std::size_t addrs = 0x4100fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), "get_Name",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::SetMemberBinder::*)()>(&::System::Dynamic::SetMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x409fce0;
+  constexpr static std::size_t addrs = 0x4100ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), "get_IgnoreCase",
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::SetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::SetMemberBinder::Bind)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x409fce8;
+  constexpr static std::size_t addrs = 0x4100ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::SetMemberBinder::*)()>(&::System::Dynamic::SetMemberBinder::get_IsStandardBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x409fdbc;
+  constexpr static std::size_t addrs = 0x41010d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(),
@@ -94,29 +94,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::SetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::SetMemberBinder::FallbackSetMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x409fdc4;
+  constexpr static std::size_t addrs = 0x41010d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), "FallbackSetMember", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::DynamicMetaObject*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Dynamic::SetMemberBinder.FallbackSetMember
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
-    ::System::Dynamic::SetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(
-    &::System::Dynamic::SetMemberBinder::FallbackSetMember)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -143,9 +127,6 @@ constexpr bool const& System::Dynamic::SetMemberBinder::__cordl_internal_get__Ig
 constexpr void System::Dynamic::SetMemberBinder::__cordl_internal_set__IgnoreCase_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____IgnoreCase_k__BackingField = value;
-}
-inline ::System::Dynamic::SetMemberBinder* System::Dynamic::SetMemberBinder::New_ctor(::StringW name, bool ignoreCase) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::SetMemberBinder*>(name, ignoreCase));
 }
 inline void System::Dynamic::SetMemberBinder::_ctor(::StringW name, bool ignoreCase) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,6 +175,9 @@ inline ::System::Dynamic::DynamicMetaObject* System::Dynamic::SetMemberBinder::F
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::SetMemberBinder*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Dynamic::DynamicMetaObject*, false>(this, ___internal_method, target, value, errorSuggestion);
+}
+inline ::System::Dynamic::SetMemberBinder* System::Dynamic::SetMemberBinder::New_ctor(::StringW name, bool ignoreCase) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::SetMemberBinder*>(name, ignoreCase));
 }
 // Ctor Parameters []
 constexpr ::System::Dynamic::SetMemberBinder::SetMemberBinder() {}

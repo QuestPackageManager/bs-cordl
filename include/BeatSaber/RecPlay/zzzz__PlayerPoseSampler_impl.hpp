@@ -8,16 +8,16 @@
 //  Writing Method size for method: ::BeatSaber::RecPlay::PlayerPoseSampler.Sample
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)(float_t, ByRef<::BeatSaber::RecPlay::PlayerPose>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)(float_t, ::ByRef<::BeatSaber::RecPlay::PlayerPose>)>(
     &::BeatSaber::RecPlay::PlayerPoseSampler::Sample)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2247d50;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x2279d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseSampler*>::get(), "Sample", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::RecPlay::PlayerPose>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::RecPlay::PlayerPose>>::get() })));
     return ___internal_method;
   }
 };
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseSampler::*)()>(&::BeatSaber::RecPlay::PlayerPoseSampler::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22480b0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x227a07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseSampler*>::get(), ".ctor",
@@ -94,20 +94,20 @@ constexpr void BeatSaber::RecPlay::PlayerPoseSampler::__cordl_internal_set__righ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightHandNearestFrame = value;
 }
-inline void BeatSaber::RecPlay::PlayerPoseSampler::Sample(float_t time, ByRef<::BeatSaber::RecPlay::PlayerPose> player) {
+inline void BeatSaber::RecPlay::PlayerPoseSampler::Sample(float_t time, ::ByRef<::BeatSaber::RecPlay::PlayerPose> player) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseSampler*>::get(), "Sample", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::RecPlay::PlayerPose>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::RecPlay::PlayerPose>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, player);
-}
-inline ::BeatSaber::RecPlay::PlayerPoseSampler* BeatSaber::RecPlay::PlayerPoseSampler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::RecPlay::PlayerPoseSampler*>());
 }
 inline void BeatSaber::RecPlay::PlayerPoseSampler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseSampler*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::RecPlay::PlayerPoseSampler* BeatSaber::RecPlay::PlayerPoseSampler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::RecPlay::PlayerPoseSampler*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::RecPlay::PlayerPoseSampler::PlayerPoseSampler() {}

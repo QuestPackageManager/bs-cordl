@@ -13,8 +13,8 @@ template <typename T> inline void System::Threading::AsyncLocalValueChangedArgs_
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, previousValue, currentValue, contextChanged);
 }
-// Ctor Parameters [CppParam { name: "_PreviousValue_k__BackingField", ty: "T", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_CurrentValue_k__BackingField", ty: "T", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "_ThreadContextChanged_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "_PreviousValue_k__BackingField", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "_CurrentValue_k__BackingField", ty: "T", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "_ThreadContextChanged_k__BackingField", ty: "bool", modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::System::Threading::AsyncLocalValueChangedArgs_1<T>::AsyncLocalValueChangedArgs_1(T _PreviousValue_k__BackingField, T _CurrentValue_k__BackingField,
                                                                                              bool _ThreadContextChanged_k__BackingField) noexcept {

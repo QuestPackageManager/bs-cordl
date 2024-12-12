@@ -22,11 +22,10 @@ class SignalDeclarationBindInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SignalDeclarationBindInfo);
-// Type: Zenject::SignalDeclarationBindInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.SignalMissingHandlerResponses
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SignalDeclarationBindInfo*
+// CS Name: Zenject.SignalDeclarationBindInfo
 class CORDL_TYPE SignalDeclarationBindInfo : public ::System::Object {
 public:
   // Declarations
@@ -58,9 +57,9 @@ public:
 
   static inline ::Zenject::SignalDeclarationBindInfo* New_ctor(::System::Type* signalType);
 
-  constexpr ::System::Object*& __cordl_internal_get__Identifier_k__BackingField();
+  constexpr ::System::Object* const& __cordl_internal_get__Identifier_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Identifier_k__BackingField() const;
+  constexpr ::System::Object*& __cordl_internal_get__Identifier_k__BackingField();
 
   constexpr ::Zenject::SignalMissingHandlerResponses const& __cordl_internal_get__MissingHandlerResponse_k__BackingField() const;
 
@@ -70,9 +69,9 @@ public:
 
   constexpr bool& __cordl_internal_get__RunAsync_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__SignalType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__SignalType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__SignalType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__SignalType_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
 
@@ -88,37 +87,37 @@ public:
 
   constexpr void __cordl_internal_set__TickPriority_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a94278, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af8b88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* signalType);
 
-  /// @brief Method get_Identifier, addr 0x4a942a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Identifier, addr 0x4af8bb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Identifier();
 
-  /// @brief Method get_MissingHandlerResponse, addr 0x4a942e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MissingHandlerResponse, addr 0x4af8bf4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerResponse();
 
-  /// @brief Method get_RunAsync, addr 0x4a942c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RunAsync, addr 0x4af8bd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_RunAsync();
 
-  /// @brief Method get_SignalType, addr 0x4a942b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalType, addr 0x4af8bc0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_SignalType();
 
-  /// @brief Method get_TickPriority, addr 0x4a942d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x4af8be4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
-  /// @brief Method set_Identifier, addr 0x4a942a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Identifier, addr 0x4af8bb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Identifier(::System::Object* value);
 
-  /// @brief Method set_MissingHandlerResponse, addr 0x4a942ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MissingHandlerResponse, addr 0x4af8bfc, size 0x8, virtual false, abstract: false, final false
   inline void set_MissingHandlerResponse(::Zenject::SignalMissingHandlerResponses value);
 
-  /// @brief Method set_RunAsync, addr 0x4a942c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RunAsync, addr 0x4af8bd8, size 0xc, virtual false, abstract: false, final false
   inline void set_RunAsync(bool value);
 
-  /// @brief Method set_SignalType, addr 0x4a942b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalType, addr 0x4af8bc8, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalType(::System::Type* value);
 
-  /// @brief Method set_TickPriority, addr 0x4a942dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x4af8bec, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
 protected:
@@ -135,6 +134,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignalDeclarationBindInfo(SignalDeclarationBindInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11991 };
+
   /// @brief Field <Identifier>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____Identifier_k__BackingField;
 
@@ -150,14 +152,9 @@ public:
   /// @brief Field <MissingHandlerResponse>k__BackingField, offset: 0x28, size: 0x4, def value: None
   ::Zenject::SignalMissingHandlerResponses ____MissingHandlerResponse_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11958 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclarationBindInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____Identifier_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____SignalType_k__BackingField) == 0x18, "Offset mismatch!");
@@ -167,6 +164,8 @@ static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____RunAsync_k__Bac
 static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____TickPriority_k__BackingField) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SignalDeclarationBindInfo, ____MissingHandlerResponse_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::SignalDeclarationBindInfo, 0x30>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SignalDeclarationBindInfo);

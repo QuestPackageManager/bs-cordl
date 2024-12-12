@@ -3,153 +3,150 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/Settings/zzzz__LegacySettingsV2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"
 #include "Unity/Mathematics/zzzz__int2_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LegacySettingsV2)
 namespace BeatSaber::Settings {
+class LegacySettingsV2_AudioSettings;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_BloomPrepassTextureEffectPreset;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_ControllerSettings;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_CustomServerSettings;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_DebugSettings;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_FoveatedRenderingLevel;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_GraphicSettings;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_MainEffectPreset;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_MainSettings;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_MirrorQualityPreset;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_ObstaclesQuality;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_PerformancePreset;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_ProcessorPerformanceLevel;
+}
+namespace BeatSaber::Settings {
+class LegacySettingsV2_SmoothCameraSettings;
+}
+namespace BeatSaber::Settings {
+struct LegacySettingsV2_WindowMode;
+}
+namespace BeatSaber::Settings {
 struct Settings;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__AudioSettings;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__BloomPrepassTextureEffectPreset;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__ControllerSettings;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__CustomServerSettings;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__DebugSettings;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__FoveatedRenderingLevel;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__GraphicSettings;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__MainEffectPreset;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__MainSettings;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__MirrorQualityPreset;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__ObstaclesQuality;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__PerformancePreset;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__ProcessorPerformanceLevel;
-}
-namespace BeatSaber::Settings {
-class __LegacySettingsV2__SmoothCameraSettings;
-}
-namespace BeatSaber::Settings {
-struct __LegacySettingsV2__WindowMode;
 }
 // Forward declare root types
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__BloomPrepassTextureEffectPreset;
+struct LegacySettingsV2_BloomPrepassTextureEffectPreset;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__FoveatedRenderingLevel;
+struct LegacySettingsV2_FoveatedRenderingLevel;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__MainEffectPreset;
+struct LegacySettingsV2_MainEffectPreset;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__MirrorQualityPreset;
+struct LegacySettingsV2_MirrorQualityPreset;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__ObstaclesQuality;
+struct LegacySettingsV2_ObstaclesQuality;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__ProcessorPerformanceLevel;
+struct LegacySettingsV2_ProcessorPerformanceLevel;
 }
 namespace BeatSaber::Settings {
-struct __LegacySettingsV2__WindowMode;
+struct LegacySettingsV2_WindowMode;
 }
 namespace BeatSaber::Settings {
 class LegacySettingsV2;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__AudioSettings;
+class LegacySettingsV2_AudioSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__ControllerSettings;
+class LegacySettingsV2_ControllerSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__CustomServerSettings;
+class LegacySettingsV2_CustomServerSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__DebugSettings;
+class LegacySettingsV2_DebugSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__GraphicSettings;
+class LegacySettingsV2_GraphicSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__MainSettings;
+class LegacySettingsV2_MainSettings;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__PerformancePreset;
+class LegacySettingsV2_PerformancePreset;
 }
 namespace BeatSaber::Settings {
-class __LegacySettingsV2__SmoothCameraSettings;
+class LegacySettingsV2_SmoothCameraSettings;
 }
 // Write type traits
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel);
-MARK_VAL_T(::BeatSaber::Settings::__LegacySettingsV2__WindowMode);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel);
+MARK_VAL_T(::BeatSaber::Settings::LegacySettingsV2_WindowMode);
 MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__MainSettings);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset);
-MARK_REF_PTR_T(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings);
-// Type: ::MainSettings
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 86, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_AudioSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_DebugSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_MainSettings);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset);
+MARK_REF_PTR_T(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings);
+// Dependencies System.Object, Unity.Mathematics.float3
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::MainSettings*
-class CORDL_TYPE __LegacySettingsV2__MainSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/MainSettings
+class CORDL_TYPE LegacySettingsV2_MainSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field audioSettings, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_audioSettings, put = __cordl_internal_set_audioSettings)) ::BeatSaber::Settings::__LegacySettingsV2__AudioSettings* audioSettings;
+  __declspec(property(get = __cordl_internal_get_audioSettings, put = __cordl_internal_set_audioSettings)) ::BeatSaber::Settings::LegacySettingsV2_AudioSettings* audioSettings;
 
   /// @brief Field controllerSettings, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_controllerSettings, put = __cordl_internal_set_controllerSettings)) ::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings* controllerSettings;
+  __declspec(property(get = __cordl_internal_get_controllerSettings, put = __cordl_internal_set_controllerSettings)) ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings* controllerSettings;
 
   /// @brief Field createScreenshotDuringTheGame, offset 0x55, size 0x1
   __declspec(property(get = __cordl_internal_get_createScreenshotDuringTheGame, put = __cordl_internal_set_createScreenshotDuringTheGame)) bool createScreenshotDuringTheGame;
 
   /// @brief Field customServerSettings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_customServerSettings,
-                      put = __cordl_internal_set_customServerSettings)) ::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings* customServerSettings;
+                      put = __cordl_internal_set_customServerSettings)) ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings* customServerSettings;
 
   /// @brief Field debugSettings, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_debugSettings, put = __cordl_internal_set_debugSettings)) ::BeatSaber::Settings::__LegacySettingsV2__DebugSettings* debugSettings;
+  __declspec(property(get = __cordl_internal_get_debugSettings, put = __cordl_internal_set_debugSettings)) ::BeatSaber::Settings::LegacySettingsV2_DebugSettings* debugSettings;
 
   /// @brief Field hapticFeedback, offset 0x54, size 0x1
   __declspec(property(get = __cordl_internal_get_hapticFeedback, put = __cordl_internal_set_hapticFeedback)) bool hapticFeedback;
@@ -168,29 +165,29 @@ public:
 
   /// @brief Field smoothCameraSettings, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_smoothCameraSettings,
-                      put = __cordl_internal_set_smoothCameraSettings)) ::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings* smoothCameraSettings;
+                      put = __cordl_internal_set_smoothCameraSettings)) ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* smoothCameraSettings;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__MainSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_MainSettings* New_ctor();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__AudioSettings*& __cordl_internal_get_audioSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_AudioSettings* const& __cordl_internal_get_audioSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__AudioSettings*> const& __cordl_internal_get_audioSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_AudioSettings*& __cordl_internal_get_audioSettings();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings*& __cordl_internal_get_controllerSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings* const& __cordl_internal_get_controllerSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings*> const& __cordl_internal_get_controllerSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings*& __cordl_internal_get_controllerSettings();
 
   constexpr bool const& __cordl_internal_get_createScreenshotDuringTheGame() const;
 
   constexpr bool& __cordl_internal_get_createScreenshotDuringTheGame();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings*& __cordl_internal_get_customServerSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings* const& __cordl_internal_get_customServerSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings*> const& __cordl_internal_get_customServerSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings*& __cordl_internal_get_customServerSettings();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__DebugSettings*& __cordl_internal_get_debugSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_DebugSettings* const& __cordl_internal_get_debugSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__DebugSettings*> const& __cordl_internal_get_debugSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_DebugSettings*& __cordl_internal_get_debugSettings();
 
   constexpr bool const& __cordl_internal_get_hapticFeedback() const;
 
@@ -212,19 +209,19 @@ public:
 
   constexpr float_t& __cordl_internal_get_roomRotation();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings*& __cordl_internal_get_smoothCameraSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* const& __cordl_internal_get_smoothCameraSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings*> const& __cordl_internal_get_smoothCameraSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings*& __cordl_internal_get_smoothCameraSettings();
 
-  constexpr void __cordl_internal_set_audioSettings(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings* value);
+  constexpr void __cordl_internal_set_audioSettings(::BeatSaber::Settings::LegacySettingsV2_AudioSettings* value);
 
-  constexpr void __cordl_internal_set_controllerSettings(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings* value);
+  constexpr void __cordl_internal_set_controllerSettings(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings* value);
 
   constexpr void __cordl_internal_set_createScreenshotDuringTheGame(bool value);
 
-  constexpr void __cordl_internal_set_customServerSettings(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings* value);
+  constexpr void __cordl_internal_set_customServerSettings(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings* value);
 
-  constexpr void __cordl_internal_set_debugSettings(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings* value);
+  constexpr void __cordl_internal_set_debugSettings(::BeatSaber::Settings::LegacySettingsV2_DebugSettings* value);
 
   constexpr void __cordl_internal_set_hapticFeedback(bool value);
 
@@ -236,39 +233,42 @@ public:
 
   constexpr void __cordl_internal_set_roomRotation(float_t value);
 
-  constexpr void __cordl_internal_set_smoothCameraSettings(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings* value);
+  constexpr void __cordl_internal_set_smoothCameraSettings(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* value);
 
-  /// @brief Method .ctor, addr 0x2248e1c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b364, size 0x174, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__MainSettings();
+  constexpr LegacySettingsV2_MainSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__MainSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__MainSettings(__LegacySettingsV2__MainSettings&&) = delete;
+  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__MainSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_MainSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__MainSettings(__LegacySettingsV2__MainSettings const&) = delete;
+  LegacySettingsV2_MainSettings(LegacySettingsV2_MainSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17986 };
 
   /// @brief Field audioSettings, offset: 0x10, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__AudioSettings* ___audioSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_AudioSettings* ___audioSettings;
 
   /// @brief Field smoothCameraSettings, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings* ___smoothCameraSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* ___smoothCameraSettings;
 
   /// @brief Field controllerSettings, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings* ___controllerSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings* ___controllerSettings;
 
   /// @brief Field customServerSettings, offset: 0x28, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings* ___customServerSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings* ___customServerSettings;
 
   /// @brief Field debugSettings, offset: 0x30, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__DebugSettings* ___debugSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_DebugSettings* ___debugSettings;
 
   /// @brief Field language, offset: 0x38, size: 0x8, def value: None
   ::StringW ___language;
@@ -288,43 +288,39 @@ public:
   /// @brief Field createScreenshotDuringTheGame, offset: 0x55, size: 0x1, def value: None
   bool ___createScreenshotDuringTheGame;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17937 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__MainSettings, 0x58>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___audioSettings) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___audioSettings) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___smoothCameraSettings) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___smoothCameraSettings) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___controllerSettings) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___controllerSettings) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___customServerSettings) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___customServerSettings) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___debugSettings) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___debugSettings) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___language) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___language) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___pauseButtonPressDurationLevel) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___pauseButtonPressDurationLevel) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___roomCenter) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___roomCenter) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___roomRotation) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___roomRotation) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___hapticFeedback) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___hapticFeedback) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainSettings, ___createScreenshotDuringTheGame) == 0x55, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainSettings, ___createScreenshotDuringTheGame) == 0x55, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_MainSettings, 0x58>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::AudioSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::AudioSettings*
-class CORDL_TYPE __LegacySettingsV2__AudioSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/AudioSettings
+class CORDL_TYPE LegacySettingsV2_AudioSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ambientVolumeScale, offset 0x14, size 0x4
@@ -339,7 +335,7 @@ public:
   /// @brief Field volume, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_volume, put = __cordl_internal_set_volume)) float_t volume;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__AudioSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_AudioSettings* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_ambientVolumeScale() const;
 
@@ -365,22 +361,25 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x2249024, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b56c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__AudioSettings();
+  constexpr LegacySettingsV2_AudioSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__AudioSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__AudioSettings(__LegacySettingsV2__AudioSettings&&) = delete;
+  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__AudioSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_AudioSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__AudioSettings(__LegacySettingsV2__AudioSettings const&) = delete;
+  LegacySettingsV2_AudioSettings(LegacySettingsV2_AudioSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17987 };
 
   /// @brief Field volume, offset: 0x10, size: 0x4, def value: None
   float_t ___volume;
@@ -394,29 +393,25 @@ public:
   /// @brief Field audioLatency, offset: 0x1c, size: 0x4, def value: None
   float_t ___audioLatency;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17938 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__AudioSettings, 0x20>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_AudioSettings, ___volume) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings, ___volume) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_AudioSettings, ___ambientVolumeScale) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings, ___ambientVolumeScale) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_AudioSettings, ___overrideAudioLatency) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings, ___overrideAudioLatency) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_AudioSettings, ___audioLatency) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings, ___audioLatency) == 0x1c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_AudioSettings, 0x20>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::SmoothCameraSettings
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Mathematics.float3
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::SmoothCameraSettings*
-class CORDL_TYPE __LegacySettingsV2__SmoothCameraSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/SmoothCameraSettings
+class CORDL_TYPE LegacySettingsV2_SmoothCameraSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enabled, offset 0x10, size 0x1
@@ -440,7 +435,7 @@ public:
   /// @brief Field thirdPersonPosition, offset 0x24, size 0xc
   __declspec(property(get = __cordl_internal_get_thirdPersonPosition, put = __cordl_internal_set_thirdPersonPosition)) ::Unity::Mathematics::float3 thirdPersonPosition;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings* New_ctor();
 
   constexpr bool const& __cordl_internal_get_enabled() const;
 
@@ -484,22 +479,25 @@ public:
 
   constexpr void __cordl_internal_set_thirdPersonPosition(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x2249038, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b580, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__SmoothCameraSettings();
+  constexpr LegacySettingsV2_SmoothCameraSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__SmoothCameraSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__SmoothCameraSettings(__LegacySettingsV2__SmoothCameraSettings&&) = delete;
+  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__SmoothCameraSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_SmoothCameraSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__SmoothCameraSettings(__LegacySettingsV2__SmoothCameraSettings const&) = delete;
+  LegacySettingsV2_SmoothCameraSettings(LegacySettingsV2_SmoothCameraSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17988 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
@@ -522,35 +520,31 @@ public:
   /// @brief Field thirdPersonEulerAngles, offset: 0x30, size: 0xc, def value: None
   ::Unity::Mathematics::float3 ___thirdPersonEulerAngles;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17939 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, 0x40>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___enabled) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___enabled) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___fov) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___fov) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___rotationSmooth) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___rotationSmooth) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___positionSmooth) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___positionSmooth) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___thirdPersonEnabled) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___thirdPersonEnabled) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___thirdPersonPosition) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___thirdPersonPosition) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, ___thirdPersonEulerAngles) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings, ___thirdPersonEulerAngles) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings, 0x40>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::ControllerSettings
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Mathematics.float3
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::ControllerSettings*
-class CORDL_TYPE __LegacySettingsV2__ControllerSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/ControllerSettings
+class CORDL_TYPE LegacySettingsV2_ControllerSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field positionOffset, offset 0x10, size 0xc
@@ -559,7 +553,7 @@ public:
   /// @brief Field rotationOffset, offset 0x1c, size 0xc
   __declspec(property(get = __cordl_internal_get_rotationOffset, put = __cordl_internal_set_rotationOffset)) ::Unity::Mathematics::float3 rotationOffset;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings* New_ctor();
 
   constexpr ::Unity::Mathematics::float3 const& __cordl_internal_get_positionOffset() const;
 
@@ -573,22 +567,25 @@ public:
 
   constexpr void __cordl_internal_set_rotationOffset(::Unity::Mathematics::float3 value);
 
-  /// @brief Method .ctor, addr 0x22490c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b608, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__ControllerSettings();
+  constexpr LegacySettingsV2_ControllerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__ControllerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__ControllerSettings(__LegacySettingsV2__ControllerSettings&&) = delete;
+  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__ControllerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_ControllerSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__ControllerSettings(__LegacySettingsV2__ControllerSettings const&) = delete;
+  LegacySettingsV2_ControllerSettings(LegacySettingsV2_ControllerSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17989 };
 
   /// @brief Field positionOffset, offset: 0x10, size: 0xc, def value: None
   ::Unity::Mathematics::float3 ___positionOffset;
@@ -596,25 +593,21 @@ public:
   /// @brief Field rotationOffset, offset: 0x1c, size: 0xc, def value: None
   ::Unity::Mathematics::float3 ___rotationOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17940 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings, 0x28>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings, ___positionOffset) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings, ___positionOffset) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings, ___rotationOffset) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings, ___rotationOffset) == 0x1c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_ControllerSettings, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::CustomServerSettings
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::CustomServerSettings*
-class CORDL_TYPE __LegacySettingsV2__CustomServerSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/CustomServerSettings
+class CORDL_TYPE LegacySettingsV2_CustomServerSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field customServerHostName, offset 0x18, size 0x8
@@ -626,7 +619,7 @@ public:
   /// @brief Field useCustomServerEnvironment, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_useCustomServerEnvironment, put = __cordl_internal_set_useCustomServerEnvironment)) bool useCustomServerEnvironment;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_customServerHostName() const;
 
@@ -646,22 +639,25 @@ public:
 
   constexpr void __cordl_internal_set_useCustomServerEnvironment(bool value);
 
-  /// @brief Method .ctor, addr 0x2249134, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b67c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__CustomServerSettings();
+  constexpr LegacySettingsV2_CustomServerSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__CustomServerSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__CustomServerSettings(__LegacySettingsV2__CustomServerSettings&&) = delete;
+  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__CustomServerSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_CustomServerSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__CustomServerSettings(__LegacySettingsV2__CustomServerSettings const&) = delete;
+  LegacySettingsV2_CustomServerSettings(LegacySettingsV2_CustomServerSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17990 };
 
   /// @brief Field useCustomServerEnvironment, offset: 0x10, size: 0x1, def value: None
   bool ___useCustomServerEnvironment;
@@ -672,27 +668,23 @@ public:
   /// @brief Field customServerHostName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___customServerHostName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17941 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings, 0x20>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings, ___useCustomServerEnvironment) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings, ___useCustomServerEnvironment) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings, ___forceGameLiftServerEnvironment) == 0x11, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings, ___forceGameLiftServerEnvironment) == 0x11, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings, ___customServerHostName) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings, ___customServerHostName) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings, 0x20>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::DebugSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::DebugSettings*
-class CORDL_TYPE __LegacySettingsV2__DebugSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/DebugSettings
+class CORDL_TYPE LegacySettingsV2_DebugSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enableFpsCounter, offset 0x10, size 0x1
@@ -704,7 +696,7 @@ public:
   /// @brief Field enableMemoryTracker, offset 0x12, size 0x1
   __declspec(property(get = __cordl_internal_get_enableMemoryTracker, put = __cordl_internal_set_enableMemoryTracker)) bool enableMemoryTracker;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__DebugSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_DebugSettings* New_ctor();
 
   constexpr bool const& __cordl_internal_get_enableFpsCounter() const;
 
@@ -724,22 +716,25 @@ public:
 
   constexpr void __cordl_internal_set_enableMemoryTracker(bool value);
 
-  /// @brief Method .ctor, addr 0x224918c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b6d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__DebugSettings();
+  constexpr LegacySettingsV2_DebugSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__DebugSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__DebugSettings(__LegacySettingsV2__DebugSettings&&) = delete;
+  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__DebugSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_DebugSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__DebugSettings(__LegacySettingsV2__DebugSettings const&) = delete;
+  LegacySettingsV2_DebugSettings(LegacySettingsV2_DebugSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17991 };
 
   /// @brief Field enableFpsCounter, offset: 0x10, size: 0x1, def value: None
   bool ___enableFpsCounter;
@@ -750,40 +745,36 @@ public:
   /// @brief Field enableMemoryTracker, offset: 0x12, size: 0x1, def value: None
   bool ___enableMemoryTracker;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17942 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__DebugSettings, 0x18>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_DebugSettings, ___enableFpsCounter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings, ___enableFpsCounter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_DebugSettings, ___enableFpsRecorder) == 0x11, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings, ___enableFpsRecorder) == 0x11, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_DebugSettings, ___enableMemoryTracker) == 0x12, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings, ___enableMemoryTracker) == 0x12, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_DebugSettings, 0x18>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::WindowMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::WindowMode
-struct CORDL_TYPE __LegacySettingsV2__WindowMode {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/WindowMode
+struct CORDL_TYPE LegacySettingsV2_WindowMode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__WindowMode_Unwrapped
-  enum struct ____LegacySettingsV2__WindowMode_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_WindowMode_Unwrapped
+  enum struct __LegacySettingsV2_WindowMode_Unwrapped : int32_t {
     __E_Windowed = static_cast<int32_t>(0x0),
     __E_Fullscreen = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__WindowMode_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__WindowMode_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_WindowMode_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_WindowMode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -793,145 +784,143 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__WindowMode();
+  constexpr LegacySettingsV2_WindowMode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__WindowMode(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_WindowMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Fullscreen value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_WindowMode const Fullscreen;
 
-  /// @brief Field Fullscreen value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__WindowMode const Fullscreen;
-
-  /// @brief Field Windowed value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__WindowMode const Windowed;
+  /// @brief Field Windowed value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_WindowMode const Windowed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17993 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__WindowMode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_WindowMode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__WindowMode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_WindowMode, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::GraphicSettings
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.LegacySettingsV2::WindowMode, System.Object, Unity.Mathematics.int2
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::GraphicSettings*
-class CORDL_TYPE __LegacySettingsV2__GraphicSettings : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/GraphicSettings
+class CORDL_TYPE LegacySettingsV2_GraphicSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field customPreset, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_customPreset, put = __cordl_internal_set_customPreset)) ::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset* customPreset;
+  __declspec(property(get = __cordl_internal_get_customPreset, put = __cordl_internal_set_customPreset)) ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset* customPreset;
 
   /// @brief Field performancePresetKey, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_performancePresetKey, put = __cordl_internal_set_performancePresetKey)) ::StringW performancePresetKey;
 
   /// @brief Field windowMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowMode, put = __cordl_internal_set_windowMode)) ::BeatSaber::Settings::__LegacySettingsV2__WindowMode windowMode;
+  __declspec(property(get = __cordl_internal_get_windowMode, put = __cordl_internal_set_windowMode)) ::BeatSaber::Settings::LegacySettingsV2_WindowMode windowMode;
 
   /// @brief Field windowResolution, offset 0x24, size 0x8
   __declspec(property(get = __cordl_internal_get_windowResolution, put = __cordl_internal_set_windowResolution)) ::Unity::Mathematics::int2 windowResolution;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* New_ctor();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset*& __cordl_internal_get_customPreset();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset* const& __cordl_internal_get_customPreset() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset*> const& __cordl_internal_get_customPreset() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset*& __cordl_internal_get_customPreset();
 
   constexpr ::StringW const& __cordl_internal_get_performancePresetKey() const;
 
   constexpr ::StringW& __cordl_internal_get_performancePresetKey();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__WindowMode const& __cordl_internal_get_windowMode() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_WindowMode const& __cordl_internal_get_windowMode() const;
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__WindowMode& __cordl_internal_get_windowMode();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_WindowMode& __cordl_internal_get_windowMode();
 
   constexpr ::Unity::Mathematics::int2 const& __cordl_internal_get_windowResolution() const;
 
   constexpr ::Unity::Mathematics::int2& __cordl_internal_get_windowResolution();
 
-  constexpr void __cordl_internal_set_customPreset(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset* value);
+  constexpr void __cordl_internal_set_customPreset(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset* value);
 
   constexpr void __cordl_internal_set_performancePresetKey(::StringW value);
 
-  constexpr void __cordl_internal_set_windowMode(::BeatSaber::Settings::__LegacySettingsV2__WindowMode value);
+  constexpr void __cordl_internal_set_windowMode(::BeatSaber::Settings::LegacySettingsV2_WindowMode value);
 
   constexpr void __cordl_internal_set_windowResolution(::Unity::Mathematics::int2 value);
 
-  /// @brief Method .ctor, addr 0x2248f90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b4d8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__GraphicSettings();
+  constexpr LegacySettingsV2_GraphicSettings();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__GraphicSettings", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__GraphicSettings(__LegacySettingsV2__GraphicSettings&&) = delete;
+  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__GraphicSettings", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_GraphicSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__GraphicSettings(__LegacySettingsV2__GraphicSettings const&) = delete;
+  LegacySettingsV2_GraphicSettings(LegacySettingsV2_GraphicSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17992 };
 
   /// @brief Field performancePresetKey, offset: 0x10, size: 0x8, def value: None
   ::StringW ___performancePresetKey;
 
   /// @brief Field customPreset, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset* ___customPreset;
+  ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset* ___customPreset;
 
   /// @brief Field windowMode, offset: 0x20, size: 0x4, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__WindowMode ___windowMode;
+  ::BeatSaber::Settings::LegacySettingsV2_WindowMode ___windowMode;
 
   /// @brief Field windowResolution, offset: 0x24, size: 0x8, def value: None
   ::Unity::Mathematics::int2 ___windowResolution;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17943 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings, 0x30>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings, ___performancePresetKey) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings, ___performancePresetKey) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings, ___customPreset) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings, ___customPreset) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings, ___windowMode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings, ___windowMode) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings, ___windowResolution) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings, ___windowResolution) == 0x24, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_GraphicSettings, 0x30>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::BloomPrepassTextureEffectPreset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::BloomPrepassTextureEffectPreset
-struct CORDL_TYPE __LegacySettingsV2__BloomPrepassTextureEffectPreset {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/BloomPrepassTextureEffectPreset
+struct CORDL_TYPE LegacySettingsV2_BloomPrepassTextureEffectPreset {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__BloomPrepassTextureEffectPreset_Unwrapped
-  enum struct ____LegacySettingsV2__BloomPrepassTextureEffectPreset_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_BloomPrepassTextureEffectPreset_Unwrapped
+  enum struct __LegacySettingsV2_BloomPrepassTextureEffectPreset_Unwrapped : int32_t {
     __E_HD = static_cast<int32_t>(0x0),
     __E_HDWithoutToneMapping = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__BloomPrepassTextureEffectPreset_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__BloomPrepassTextureEffectPreset_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_BloomPrepassTextureEffectPreset_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_BloomPrepassTextureEffectPreset_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -941,46 +930,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__BloomPrepassTextureEffectPreset();
+  constexpr LegacySettingsV2_BloomPrepassTextureEffectPreset();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__BloomPrepassTextureEffectPreset(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_BloomPrepassTextureEffectPreset(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field HD value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset const HD;
 
-  /// @brief Field HD value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset const HD;
-
-  /// @brief Field HDWithoutToneMapping value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset const HDWithoutToneMapping;
+  /// @brief Field HDWithoutToneMapping value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset const HDWithoutToneMapping;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17994 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::FoveatedRenderingLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::FoveatedRenderingLevel
-struct CORDL_TYPE __LegacySettingsV2__FoveatedRenderingLevel {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/FoveatedRenderingLevel
+struct CORDL_TYPE LegacySettingsV2_FoveatedRenderingLevel {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__FoveatedRenderingLevel_Unwrapped
-  enum struct ____LegacySettingsV2__FoveatedRenderingLevel_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_FoveatedRenderingLevel_Unwrapped
+  enum struct __LegacySettingsV2_FoveatedRenderingLevel_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Low = static_cast<int32_t>(0x1),
     __E_Medium = static_cast<int32_t>(0x2),
@@ -989,8 +977,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__FoveatedRenderingLevel_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__FoveatedRenderingLevel_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_FoveatedRenderingLevel_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_FoveatedRenderingLevel_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1000,63 +988,62 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__FoveatedRenderingLevel();
+  constexpr LegacySettingsV2_FoveatedRenderingLevel();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__FoveatedRenderingLevel(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_FoveatedRenderingLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field High value: I32(3)
+  static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const High;
 
-  /// @brief Field High value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const High;
+  /// @brief Field HighTop value: I32(4)
+  static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const HighTop;
 
-  /// @brief Field HighTop value: static_cast<int32_t>(0x4)
-  static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const HighTop;
+  /// @brief Field Low value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const Low;
 
-  /// @brief Field Low value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const Low;
+  /// @brief Field Medium value: I32(2)
+  static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const Medium;
 
-  /// @brief Field Medium value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const Medium;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel const Off;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17995 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::MainEffectPreset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::MainEffectPreset
-struct CORDL_TYPE __LegacySettingsV2__MainEffectPreset {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/MainEffectPreset
+struct CORDL_TYPE LegacySettingsV2_MainEffectPreset {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__MainEffectPreset_Unwrapped
-  enum struct ____LegacySettingsV2__MainEffectPreset_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_MainEffectPreset_Unwrapped
+  enum struct __LegacySettingsV2_MainEffectPreset_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Pyramid = static_cast<int32_t>(0x1),
     __E_PyramidForBaking = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__MainEffectPreset_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__MainEffectPreset_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_MainEffectPreset_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_MainEffectPreset_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1066,49 +1053,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__MainEffectPreset();
+  constexpr LegacySettingsV2_MainEffectPreset();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__MainEffectPreset(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_MainEffectPreset(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset const Off;
 
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset const Off;
+  /// @brief Field Pyramid value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset const Pyramid;
 
-  /// @brief Field Pyramid value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset const Pyramid;
-
-  /// @brief Field PyramidForBaking value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset const PyramidForBaking;
+  /// @brief Field PyramidForBaking value: I32(2)
+  static ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset const PyramidForBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17996 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::MirrorQualityPreset
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::MirrorQualityPreset
-struct CORDL_TYPE __LegacySettingsV2__MirrorQualityPreset {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/MirrorQualityPreset
+struct CORDL_TYPE LegacySettingsV2_MirrorQualityPreset {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__MirrorQualityPreset_Unwrapped
-  enum struct ____LegacySettingsV2__MirrorQualityPreset_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_MirrorQualityPreset_Unwrapped
+  enum struct __LegacySettingsV2_MirrorQualityPreset_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Fake = static_cast<int32_t>(0x1),
     __E_RenderedLQ = static_cast<int32_t>(0x2),
@@ -1116,8 +1102,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__MirrorQualityPreset_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__MirrorQualityPreset_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_MirrorQualityPreset_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_MirrorQualityPreset_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1127,52 +1113,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__MirrorQualityPreset();
+  constexpr LegacySettingsV2_MirrorQualityPreset();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__MirrorQualityPreset(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_MirrorQualityPreset(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Fake value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const Fake;
 
-  /// @brief Field Fake value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const Fake;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const Off;
 
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const Off;
+  /// @brief Field RenderedHQ value: I32(3)
+  static ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const RenderedHQ;
 
-  /// @brief Field RenderedHQ value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const RenderedHQ;
-
-  /// @brief Field RenderedLQ value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const RenderedLQ;
+  /// @brief Field RenderedLQ value: I32(2)
+  static ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const RenderedLQ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17997 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::ObstaclesQuality
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::ObstaclesQuality
-struct CORDL_TYPE __LegacySettingsV2__ObstaclesQuality {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/ObstaclesQuality
+struct CORDL_TYPE LegacySettingsV2_ObstaclesQuality {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__ObstaclesQuality_Unwrapped
-  enum struct ____LegacySettingsV2__ObstaclesQuality_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_ObstaclesQuality_Unwrapped
+  enum struct __LegacySettingsV2_ObstaclesQuality_Unwrapped : int32_t {
     __E_DefaultObstacleQualityBaseOnDisplacement = static_cast<int32_t>(0x0),
     __E_TexturedObstacle = static_cast<int32_t>(0x1),
     __E_ObstacleLW = static_cast<int32_t>(0x2),
@@ -1180,8 +1165,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__ObstaclesQuality_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__ObstaclesQuality_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_ObstaclesQuality_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_ObstaclesQuality_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1191,52 +1176,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__ObstaclesQuality();
+  constexpr LegacySettingsV2_ObstaclesQuality();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__ObstaclesQuality(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_ObstaclesQuality(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field DefaultObstacleQualityBaseOnDisplacement value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const DefaultObstacleQualityBaseOnDisplacement;
 
-  /// @brief Field DefaultObstacleQualityBaseOnDisplacement value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const DefaultObstacleQualityBaseOnDisplacement;
+  /// @brief Field ObstacleHW value: I32(3)
+  static ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const ObstacleHW;
 
-  /// @brief Field ObstacleHW value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const ObstacleHW;
+  /// @brief Field ObstacleLW value: I32(2)
+  static ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const ObstacleLW;
 
-  /// @brief Field ObstacleLW value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const ObstacleLW;
-
-  /// @brief Field TexturedObstacle value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const TexturedObstacle;
+  /// @brief Field TexturedObstacle value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const TexturedObstacle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17998 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::ProcessorPerformanceLevel
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::LegacySettingsV2::ProcessorPerformanceLevel
-struct CORDL_TYPE __LegacySettingsV2__ProcessorPerformanceLevel {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/ProcessorPerformanceLevel
+struct CORDL_TYPE LegacySettingsV2_ProcessorPerformanceLevel {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____LegacySettingsV2__ProcessorPerformanceLevel_Unwrapped
-  enum struct ____LegacySettingsV2__ProcessorPerformanceLevel_Unwrapped : int32_t {
+  /// @brief Nested struct __LegacySettingsV2_ProcessorPerformanceLevel_Unwrapped
+  enum struct __LegacySettingsV2_ProcessorPerformanceLevel_Unwrapped : int32_t {
     __E_Unknown = static_cast<int32_t>(0xffffffff),
     __E_PowerSavings = static_cast<int32_t>(0x0),
     __E_SustainedLow = static_cast<int32_t>(0x1),
@@ -1245,8 +1229,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LegacySettingsV2__ProcessorPerformanceLevel_Unwrapped() const noexcept {
-    return static_cast<____LegacySettingsV2__ProcessorPerformanceLevel_Unwrapped>(this->value__);
+  constexpr operator __LegacySettingsV2_ProcessorPerformanceLevel_Unwrapped() const noexcept {
+    return static_cast<__LegacySettingsV2_ProcessorPerformanceLevel_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1256,49 +1240,49 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__ProcessorPerformanceLevel();
+  constexpr LegacySettingsV2_ProcessorPerformanceLevel();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LegacySettingsV2__ProcessorPerformanceLevel(int32_t value__) noexcept;
+  constexpr LegacySettingsV2_ProcessorPerformanceLevel(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Boost value: I32(3)
+  static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const Boost;
 
-  /// @brief Field Boost value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const Boost;
+  /// @brief Field PowerSavings value: I32(0)
+  static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const PowerSavings;
 
-  /// @brief Field PowerSavings value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const PowerSavings;
+  /// @brief Field SustainedHigh value: I32(2)
+  static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const SustainedHigh;
 
-  /// @brief Field SustainedHigh value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const SustainedHigh;
+  /// @brief Field SustainedLow value: I32(1)
+  static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const SustainedLow;
 
-  /// @brief Field SustainedLow value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const SustainedLow;
-
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
-  static ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel const Unknown;
+  /// @brief Field Unknown value: I32(-1)
+  static ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17999 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::PerformancePreset
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.LegacySettingsV2::BloomPrepassTextureEffectPreset, BeatSaber.Settings.LegacySettingsV2::MainEffectPreset, BeatSaber.Settings.LegacySettingsV2::MirrorQualityPreset,
+// BeatSaber.Settings.LegacySettingsV2::ObstaclesQuality, System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::LegacySettingsV2::PerformancePreset*
-class CORDL_TYPE __LegacySettingsV2__PerformancePreset : public ::System::Object {
+// CS Name: BeatSaber.Settings.LegacySettingsV2/PerformancePreset
+class CORDL_TYPE LegacySettingsV2_PerformancePreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field antiAliasingLevel, offset 0x24, size 0x4
@@ -1306,7 +1290,7 @@ public:
 
   /// @brief Field bloomPrePassTextureEffect, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_bloomPrePassTextureEffect,
-                      put = __cordl_internal_set_bloomPrePassTextureEffect)) ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset bloomPrePassTextureEffect;
+                      put = __cordl_internal_set_bloomPrePassTextureEffect)) ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset bloomPrePassTextureEffect;
 
   /// @brief Field burnMarkTrails, offset 0x36, size 0x1
   __declspec(property(get = __cordl_internal_get_burnMarkTrails, put = __cordl_internal_set_burnMarkTrails)) bool burnMarkTrails;
@@ -1315,7 +1299,7 @@ public:
   __declspec(property(get = __cordl_internal_get_depthTexture, put = __cordl_internal_set_depthTexture)) bool depthTexture;
 
   /// @brief Field mainEffectGraphics, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_mainEffectGraphics, put = __cordl_internal_set_mainEffectGraphics)) ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset mainEffectGraphics;
+  __declspec(property(get = __cordl_internal_get_mainEffectGraphics, put = __cordl_internal_set_mainEffectGraphics)) ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset mainEffectGraphics;
 
   /// @brief Field maxNumberOfCutSoundEffects, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_maxNumberOfCutSoundEffects, put = __cordl_internal_set_maxNumberOfCutSoundEffects)) int32_t maxNumberOfCutSoundEffects;
@@ -1330,10 +1314,10 @@ public:
   __declspec(property(get = __cordl_internal_get_menuVRResolutionScaleMultiplier, put = __cordl_internal_set_menuVRResolutionScaleMultiplier)) float_t menuVRResolutionScaleMultiplier;
 
   /// @brief Field mirrorGraphics, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_mirrorGraphics, put = __cordl_internal_set_mirrorGraphics)) ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset mirrorGraphics;
+  __declspec(property(get = __cordl_internal_get_mirrorGraphics, put = __cordl_internal_set_mirrorGraphics)) ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset mirrorGraphics;
 
   /// @brief Field obstaclesQuality, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get_obstaclesQuality, put = __cordl_internal_set_obstaclesQuality)) ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality obstaclesQuality;
+  __declspec(property(get = __cordl_internal_get_obstaclesQuality, put = __cordl_internal_set_obstaclesQuality)) ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality obstaclesQuality;
 
   /// @brief Field presetNameLocalizationTag, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_presetNameLocalizationTag, put = __cordl_internal_set_presetNameLocalizationTag)) ::StringW presetNameLocalizationTag;
@@ -1356,15 +1340,15 @@ public:
   /// @brief Field vrResolutionScale, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_vrResolutionScale, put = __cordl_internal_set_vrResolutionScale)) float_t vrResolutionScale;
 
-  static inline ::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset* New_ctor();
+  static inline ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset* New_ctor();
 
   constexpr int32_t const& __cordl_internal_get_antiAliasingLevel() const;
 
   constexpr int32_t& __cordl_internal_get_antiAliasingLevel();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset const& __cordl_internal_get_bloomPrePassTextureEffect() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset const& __cordl_internal_get_bloomPrePassTextureEffect() const;
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset& __cordl_internal_get_bloomPrePassTextureEffect();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset& __cordl_internal_get_bloomPrePassTextureEffect();
 
   constexpr bool const& __cordl_internal_get_burnMarkTrails() const;
 
@@ -1374,9 +1358,9 @@ public:
 
   constexpr bool& __cordl_internal_get_depthTexture();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset const& __cordl_internal_get_mainEffectGraphics() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset const& __cordl_internal_get_mainEffectGraphics() const;
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset& __cordl_internal_get_mainEffectGraphics();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset& __cordl_internal_get_mainEffectGraphics();
 
   constexpr int32_t const& __cordl_internal_get_maxNumberOfCutSoundEffects() const;
 
@@ -1394,13 +1378,13 @@ public:
 
   constexpr float_t& __cordl_internal_get_menuVRResolutionScaleMultiplier();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset const& __cordl_internal_get_mirrorGraphics() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset const& __cordl_internal_get_mirrorGraphics() const;
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset& __cordl_internal_get_mirrorGraphics();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset& __cordl_internal_get_mirrorGraphics();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality const& __cordl_internal_get_obstaclesQuality() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality const& __cordl_internal_get_obstaclesQuality() const;
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality& __cordl_internal_get_obstaclesQuality();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality& __cordl_internal_get_obstaclesQuality();
 
   constexpr ::StringW const& __cordl_internal_get_presetNameLocalizationTag() const;
 
@@ -1432,13 +1416,13 @@ public:
 
   constexpr void __cordl_internal_set_antiAliasingLevel(int32_t value);
 
-  constexpr void __cordl_internal_set_bloomPrePassTextureEffect(::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset value);
+  constexpr void __cordl_internal_set_bloomPrePassTextureEffect(::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset value);
 
   constexpr void __cordl_internal_set_burnMarkTrails(bool value);
 
   constexpr void __cordl_internal_set_depthTexture(bool value);
 
-  constexpr void __cordl_internal_set_mainEffectGraphics(::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset value);
+  constexpr void __cordl_internal_set_mainEffectGraphics(::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset value);
 
   constexpr void __cordl_internal_set_maxNumberOfCutSoundEffects(int32_t value);
 
@@ -1448,9 +1432,9 @@ public:
 
   constexpr void __cordl_internal_set_menuVRResolutionScaleMultiplier(float_t value);
 
-  constexpr void __cordl_internal_set_mirrorGraphics(::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset value);
+  constexpr void __cordl_internal_set_mirrorGraphics(::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset value);
 
-  constexpr void __cordl_internal_set_obstaclesQuality(::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality value);
+  constexpr void __cordl_internal_set_obstaclesQuality(::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality value);
 
   constexpr void __cordl_internal_set_presetNameLocalizationTag(::StringW value);
 
@@ -1466,22 +1450,25 @@ public:
 
   constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x2249194, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b6dc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LegacySettingsV2__PerformancePreset();
+  constexpr LegacySettingsV2_PerformancePreset();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__PerformancePreset", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LegacySettingsV2__PerformancePreset(__LegacySettingsV2__PerformancePreset&&) = delete;
+  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LegacySettingsV2__PerformancePreset", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LegacySettingsV2_PerformancePreset", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LegacySettingsV2__PerformancePreset(__LegacySettingsV2__PerformancePreset const&) = delete;
+  LegacySettingsV2_PerformancePreset(LegacySettingsV2_PerformancePreset const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18000 };
 
   /// @brief Field presetNameLocalizationTag, offset: 0x10, size: 0x8, def value: None
   ::StringW ___presetNameLocalizationTag;
@@ -1526,124 +1513,120 @@ public:
   int32_t ___maxNumberOfCutSoundEffects;
 
   /// @brief Field mirrorGraphics, offset: 0x40, size: 0x4, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset ___mirrorGraphics;
+  ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset ___mirrorGraphics;
 
   /// @brief Field mainEffectGraphics, offset: 0x44, size: 0x4, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset ___mainEffectGraphics;
+  ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset ___mainEffectGraphics;
 
   /// @brief Field bloomPrePassTextureEffect, offset: 0x48, size: 0x4, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset ___bloomPrePassTextureEffect;
+  ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset ___bloomPrePassTextureEffect;
 
   /// @brief Field obstaclesQuality, offset: 0x4c, size: 0x4, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality ___obstaclesQuality;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17951 };
+  ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality ___obstaclesQuality;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, 0x50>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___presetNameLocalizationTag) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___presetNameLocalizationTag) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___renderViewportScale) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___renderViewportScale) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___vrResolutionScale) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___vrResolutionScale) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___menuVRResolutionScaleMultiplier) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___menuVRResolutionScaleMultiplier) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___antiAliasingLevel) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___antiAliasingLevel) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___targetFramerate) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___targetFramerate) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___vSyncCount) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___vSyncCount) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___maxQueuedFrames) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___maxQueuedFrames) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___smokeGraphics) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___smokeGraphics) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___depthTexture) == 0x35, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___depthTexture) == 0x35, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___burnMarkTrails) == 0x36, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___burnMarkTrails) == 0x36, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___screenDisplacementEffects) == 0x37, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___screenDisplacementEffects) == 0x37, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___maxShockwaveParticles) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___maxShockwaveParticles) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___maxNumberOfCutSoundEffects) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___maxNumberOfCutSoundEffects) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___mirrorGraphics) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___mirrorGraphics) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___mainEffectGraphics) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___mainEffectGraphics) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___bloomPrePassTextureEffect) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___bloomPrePassTextureEffect) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, ___obstaclesQuality) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset, ___obstaclesQuality) == 0x4c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2_PerformancePreset, 0x50>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: BeatSaber.Settings::LegacySettingsV2
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::Settings {
 // Is value type: false
-// CS Name: ::BeatSaber.Settings::LegacySettingsV2*
+// CS Name: BeatSaber.Settings.LegacySettingsV2
 class CORDL_TYPE LegacySettingsV2 : public ::System::Object {
 public:
   // Declarations
-  using AudioSettings = ::BeatSaber::Settings::__LegacySettingsV2__AudioSettings;
+  using AudioSettings = ::BeatSaber::Settings::LegacySettingsV2_AudioSettings;
 
-  using BloomPrepassTextureEffectPreset = ::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset;
+  using BloomPrepassTextureEffectPreset = ::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset;
 
-  using ControllerSettings = ::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings;
+  using ControllerSettings = ::BeatSaber::Settings::LegacySettingsV2_ControllerSettings;
 
-  using CustomServerSettings = ::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings;
+  using CustomServerSettings = ::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings;
 
-  using DebugSettings = ::BeatSaber::Settings::__LegacySettingsV2__DebugSettings;
+  using DebugSettings = ::BeatSaber::Settings::LegacySettingsV2_DebugSettings;
 
-  using FoveatedRenderingLevel = ::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel;
+  using FoveatedRenderingLevel = ::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel;
 
-  using GraphicSettings = ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings;
+  using GraphicSettings = ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings;
 
-  using MainEffectPreset = ::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset;
+  using MainEffectPreset = ::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset;
 
-  using MainSettings = ::BeatSaber::Settings::__LegacySettingsV2__MainSettings;
+  using MainSettings = ::BeatSaber::Settings::LegacySettingsV2_MainSettings;
 
-  using MirrorQualityPreset = ::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset;
+  using MirrorQualityPreset = ::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset;
 
-  using ObstaclesQuality = ::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality;
+  using ObstaclesQuality = ::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality;
 
-  using PerformancePreset = ::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset;
+  using PerformancePreset = ::BeatSaber::Settings::LegacySettingsV2_PerformancePreset;
 
-  using ProcessorPerformanceLevel = ::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel;
+  using ProcessorPerformanceLevel = ::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel;
 
-  using SmoothCameraSettings = ::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings;
+  using SmoothCameraSettings = ::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings;
 
-  using WindowMode = ::BeatSaber::Settings::__LegacySettingsV2__WindowMode;
+  using WindowMode = ::BeatSaber::Settings::LegacySettingsV2_WindowMode;
 
   /// @brief Field graphicSettings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_graphicSettings, put = __cordl_internal_set_graphicSettings)) ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings* graphicSettings;
+  __declspec(property(get = __cordl_internal_get_graphicSettings, put = __cordl_internal_set_graphicSettings)) ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* graphicSettings;
 
   /// @brief Field mainSettings, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mainSettings, put = __cordl_internal_set_mainSettings)) ::BeatSaber::Settings::__LegacySettingsV2__MainSettings* mainSettings;
+  __declspec(property(get = __cordl_internal_get_mainSettings, put = __cordl_internal_set_mainSettings)) ::BeatSaber::Settings::LegacySettingsV2_MainSettings* mainSettings;
 
-  /// @brief Method ApplyTo, addr 0x2248a64, size 0x32c, virtual false, abstract: false, final false
-  inline void ApplyTo(ByRef<::BeatSaber::Settings::Settings> settings);
+  /// @brief Method ApplyTo, addr 0x227afac, size 0x32c, virtual false, abstract: false, final false
+  inline void ApplyTo(::ByRef<::BeatSaber::Settings::Settings> settings);
 
   static inline ::BeatSaber::Settings::LegacySettingsV2* New_ctor();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings*& __cordl_internal_get_graphicSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* const& __cordl_internal_get_graphicSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings*> const& __cordl_internal_get_graphicSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings*& __cordl_internal_get_graphicSettings();
 
-  constexpr ::BeatSaber::Settings::__LegacySettingsV2__MainSettings*& __cordl_internal_get_mainSettings();
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MainSettings* const& __cordl_internal_get_mainSettings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::Settings::__LegacySettingsV2__MainSettings*> const& __cordl_internal_get_mainSettings() const;
+  constexpr ::BeatSaber::Settings::LegacySettingsV2_MainSettings*& __cordl_internal_get_mainSettings();
 
-  constexpr void __cordl_internal_set_graphicSettings(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings* value);
+  constexpr void __cordl_internal_set_graphicSettings(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* value);
 
-  constexpr void __cordl_internal_set_mainSettings(::BeatSaber::Settings::__LegacySettingsV2__MainSettings* value);
+  constexpr void __cordl_internal_set_mainSettings(::BeatSaber::Settings::LegacySettingsV2_MainSettings* value);
 
-  /// @brief Method .ctor, addr 0x2248d90, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x227b2d8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1660,47 +1643,47 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LegacySettingsV2(LegacySettingsV2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18001 };
+
   /// @brief Field mainSettings, offset: 0x10, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__MainSettings* ___mainSettings;
+  ::BeatSaber::Settings::LegacySettingsV2_MainSettings* ___mainSettings;
 
   /// @brief Field graphicSettings, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings* ___graphicSettings;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17952 };
+  ::BeatSaber::Settings::LegacySettingsV2_GraphicSettings* ___graphicSettings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2, ___mainSettings) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::LegacySettingsV2, ___graphicSettings) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::LegacySettingsV2, 0x20>, "Size mismatch!");
+
 } // namespace BeatSaber::Settings
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__BloomPrepassTextureEffectPreset, "BeatSaber.Settings", "LegacySettingsV2/BloomPrepassTextureEffectPreset");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__FoveatedRenderingLevel, "BeatSaber.Settings", "LegacySettingsV2/FoveatedRenderingLevel");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__MainEffectPreset, "BeatSaber.Settings", "LegacySettingsV2/MainEffectPreset");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__MirrorQualityPreset, "BeatSaber.Settings", "LegacySettingsV2/MirrorQualityPreset");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__ObstaclesQuality, "BeatSaber.Settings", "LegacySettingsV2/ObstaclesQuality");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__ProcessorPerformanceLevel, "BeatSaber.Settings", "LegacySettingsV2/ProcessorPerformanceLevel");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__WindowMode, "BeatSaber.Settings", "LegacySettingsV2/WindowMode");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_BloomPrepassTextureEffectPreset, "BeatSaber.Settings", "LegacySettingsV2/BloomPrepassTextureEffectPreset");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_FoveatedRenderingLevel, "BeatSaber.Settings", "LegacySettingsV2/FoveatedRenderingLevel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_MainEffectPreset, "BeatSaber.Settings", "LegacySettingsV2/MainEffectPreset");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_MirrorQualityPreset, "BeatSaber.Settings", "LegacySettingsV2/MirrorQualityPreset");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_ObstaclesQuality, "BeatSaber.Settings", "LegacySettingsV2/ObstaclesQuality");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_ProcessorPerformanceLevel, "BeatSaber.Settings", "LegacySettingsV2/ProcessorPerformanceLevel");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_WindowMode, "BeatSaber.Settings", "LegacySettingsV2/WindowMode");
 NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2*, "BeatSaber.Settings", "LegacySettingsV2");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__AudioSettings*, "BeatSaber.Settings", "LegacySettingsV2/AudioSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__ControllerSettings*, "BeatSaber.Settings", "LegacySettingsV2/ControllerSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__CustomServerSettings*, "BeatSaber.Settings", "LegacySettingsV2/CustomServerSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__DebugSettings*, "BeatSaber.Settings", "LegacySettingsV2/DebugSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__GraphicSettings*, "BeatSaber.Settings", "LegacySettingsV2/GraphicSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__MainSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__MainSettings*, "BeatSaber.Settings", "LegacySettingsV2/MainSettings");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__PerformancePreset*, "BeatSaber.Settings", "LegacySettingsV2/PerformancePreset");
-NEED_NO_BOX(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__LegacySettingsV2__SmoothCameraSettings*, "BeatSaber.Settings", "LegacySettingsV2/SmoothCameraSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_AudioSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_AudioSettings*, "BeatSaber.Settings", "LegacySettingsV2/AudioSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_ControllerSettings*, "BeatSaber.Settings", "LegacySettingsV2/ControllerSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_CustomServerSettings*, "BeatSaber.Settings", "LegacySettingsV2/CustomServerSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_DebugSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_DebugSettings*, "BeatSaber.Settings", "LegacySettingsV2/DebugSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_GraphicSettings*, "BeatSaber.Settings", "LegacySettingsV2/GraphicSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_MainSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_MainSettings*, "BeatSaber.Settings", "LegacySettingsV2/MainSettings");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_PerformancePreset*, "BeatSaber.Settings", "LegacySettingsV2/PerformancePreset");
+NEED_NO_BOX(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::LegacySettingsV2_SmoothCameraSettings*, "BeatSaber.Settings", "LegacySettingsV2/SmoothCameraSettings");

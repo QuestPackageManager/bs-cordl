@@ -19,23 +19,22 @@ class NormalizeVector2Processor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::NormalizeVector2Processor);
-// Type: UnityEngine.InputSystem.Processors::NormalizeVector2Processor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>, UnityEngine.Vector2
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::NormalizeVector2Processor*
+// CS Name: UnityEngine.InputSystem.Processors.NormalizeVector2Processor
 class CORDL_TYPE NormalizeVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b65a4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x46178b8, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b6658, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x461796c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45b6698, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46179ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,7 +52,7 @@ public:
   NormalizeVector2Processor(NormalizeVector2Processor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

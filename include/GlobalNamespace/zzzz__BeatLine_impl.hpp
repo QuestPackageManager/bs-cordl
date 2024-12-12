@@ -6,48 +6,40 @@
 #include "GlobalNamespace/zzzz__BeatLine_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLine_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "GlobalNamespace/zzzz__VariableMovementDataProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatLine__Pool._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatLine_Pool._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatLine__Pool::*)()>(&::GlobalNamespace::__BeatLine__Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine_Pool::*)()>(&::GlobalNamespace::BeatLine_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3a7f810;
+  constexpr static std::size_t addrs = 0x3ad7fa0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatLine__Pool*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine_Pool*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__BeatLine__Pool* GlobalNamespace::__BeatLine__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatLine__Pool*>());
-}
-inline void GlobalNamespace::__BeatLine__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatLine__Pool*>::get(), ".ctor",
+inline void GlobalNamespace::BeatLine_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine_Pool*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatLine__Pool::__BeatLine__Pool() {}
-// Ctor Parameters [CppParam { name: "startTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "arriveDuration", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "halfJumpDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__BeatLine__HighlightData::__BeatLine__HighlightData(float_t startTime, float_t arriveDuration, float_t halfJumpDuration) noexcept {
-  this->startTime = startTime;
-  this->arriveDuration = arriveDuration;
-  this->halfJumpDuration = halfJumpDuration;
+inline ::GlobalNamespace::BeatLine_Pool* GlobalNamespace::BeatLine_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatLine_Pool*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatLine__HighlightData::__BeatLine__HighlightData() {}
+constexpr ::GlobalNamespace::BeatLine_Pool::BeatLine_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatLine.get_isFinished
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::get_isFinished)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a7f3fc;
+  constexpr static std::size_t addrs = 0x3ad7b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "get_isFinished",
@@ -60,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7f44c;
+  constexpr static std::size_t addrs = 0x3ad7b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "get_rotation",
@@ -73,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::BeatLine::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a7f454;
+  constexpr static std::size_t addrs = 0x3ad7b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(::UnityEngine::Color)>(&::GlobalNamespace::BeatLine::ColorWasSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a7f520;
+  constexpr static std::size_t addrs = 0x3ad7c48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,15 +92,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BeatLine.AddHighlight
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(float_t, float_t, float_t)>(&::GlobalNamespace::BeatLine::AddHighlight)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a7f52c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(float_t)>(&::GlobalNamespace::BeatLine::AddHighlight)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3ad7c54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "AddHighlight", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "AddHighlight", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -116,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(float_t)>(&::GlobalNamespace::BeatLine::ManualUpdate)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3a7f604;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x3ad7d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3a7f750;
+  constexpr static std::size_t addrs = 0x3ad7ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), ".ctor",
@@ -155,7 +146,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatLine::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arriveFadeCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatLine::__cordl_internal_get__arriveFadeCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatLine::__cordl_internal_get__arriveFadeCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arriveFadeCurve;
 }
@@ -167,7 +158,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BeatLine::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpFadeCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BeatLine::__cordl_internal_get__jumpFadeCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BeatLine::__cordl_internal_get__jumpFadeCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpFadeCurve;
 }
@@ -199,18 +190,29 @@ constexpr void GlobalNamespace::BeatLine::__cordl_internal_set__maxAlpha(float_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxAlpha = value;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*& GlobalNamespace::BeatLine::__cordl_internal_get__highlights() {
+constexpr ::GlobalNamespace::VariableMovementDataProvider*& GlobalNamespace::BeatLine::__cordl_internal_get__variableMovementDataProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____highlights;
+  return this->____variableMovementDataProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*> const&
-GlobalNamespace::BeatLine::__cordl_internal_get__highlights() const {
+constexpr ::GlobalNamespace::VariableMovementDataProvider* const& GlobalNamespace::BeatLine::__cordl_internal_get__variableMovementDataProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____highlights;
+  return this->____variableMovementDataProvider;
 }
-constexpr void GlobalNamespace::BeatLine::__cordl_internal_set__highlights(::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>* value) {
+constexpr void GlobalNamespace::BeatLine::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlights)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::BeatLine::__cordl_internal_get__highlightTimes() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____highlightTimes;
+}
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::BeatLine::__cordl_internal_get__highlightTimes() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____highlightTimes;
+}
+constexpr void GlobalNamespace::BeatLine::__cordl_internal_set__highlightTimes(::System::Collections::Generic::List_1<float_t>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightTimes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::Color& GlobalNamespace::BeatLine::__cordl_internal_get__color() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -258,12 +260,11 @@ inline void GlobalNamespace::BeatLine::ColorWasSet(::UnityEngine::Color color) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
-inline void GlobalNamespace::BeatLine::AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "AddHighlight", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startTime, arriveDuration, jumpDuration);
+inline void GlobalNamespace::BeatLine::AddHighlight(float_t noteTime) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "AddHighlight", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteTime);
 }
 inline void GlobalNamespace::BeatLine::ManualUpdate(float_t songTime) {
   static auto* ___internal_method =
@@ -271,13 +272,13 @@ inline void GlobalNamespace::BeatLine::ManualUpdate(float_t songTime) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songTime);
 }
-inline ::GlobalNamespace::BeatLine* GlobalNamespace::BeatLine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatLine*>());
-}
 inline void GlobalNamespace::BeatLine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatLine* GlobalNamespace::BeatLine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatLine*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatLine::BeatLine() {}

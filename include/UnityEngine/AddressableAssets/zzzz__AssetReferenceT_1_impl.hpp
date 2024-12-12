@@ -4,9 +4,6 @@
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-template <typename TObject> inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>* UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>::New_ctor(::StringW guid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>*>(guid));
-}
 template <typename TObject> inline void UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>::_ctor(::StringW guid) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>*>::get(), ".ctor",
@@ -36,6 +33,9 @@ template <typename TObject> inline bool UnityEngine::AddressableAssets::AssetRef
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mainAssetPath);
+}
+template <typename TObject> inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>* UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>::New_ctor(::StringW guid) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>*>(guid));
 }
 // Ctor Parameters []
 template <typename TObject> constexpr ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>::AssetReferenceT_1() {}

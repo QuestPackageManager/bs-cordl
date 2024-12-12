@@ -18,11 +18,10 @@ class MonoTlsProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProvider);
-// Type: Mono.Security.Interface::MonoTlsProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::Interface {
 // Is value type: false
-// CS Name: ::Mono.Security.Interface::MonoTlsProvider*
+// CS Name: Mono.Security.Interface.MonoTlsProvider
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
   // Declarations
@@ -42,28 +41,28 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3be4b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c44c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportedProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SupportedProtocols, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_SupportsCleanShutdown();
 
-  /// @brief Method get_SupportsConnectionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportsSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SupportsSslStream, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_SupportsSslStream();
 
 protected:
@@ -81,7 +80,7 @@ public:
   MonoTlsProvider(MonoTlsProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15953 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

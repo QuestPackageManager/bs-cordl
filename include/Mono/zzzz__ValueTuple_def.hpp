@@ -11,11 +11,10 @@ struct ValueTuple;
 }
 // Write type traits
 MARK_VAL_T(::Mono::ValueTuple);
-// Type: Mono::ValueTuple
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace Mono {
 // Is value type: true
-// CS Name: ::Mono::ValueTuple
+// CS Name: Mono.ValueTuple
 #pragma pack(push, 0)
 struct CORDL_TYPE ValueTuple {
 public:
@@ -24,14 +23,14 @@ public:
   // @brief default ctor
   constexpr ValueTuple();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2242 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

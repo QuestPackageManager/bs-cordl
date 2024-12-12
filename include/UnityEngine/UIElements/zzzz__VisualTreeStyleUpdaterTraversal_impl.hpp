@@ -18,84 +18,84 @@
 #include "UnityEngine/UIElements/zzzz__VersionChangeType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeStyleUpdaterTraversal_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::*)()>(
-    &::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::*)()>(
+    &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493dc34;
+  constexpr static std::size_t addrs = 0x49a2544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c._ProcessMatchedRules_b__24_0
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c._ProcessMatchedRules_b__24_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::*)(
     ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord)>(
-    &::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::_ProcessMatchedRules_b__24_0)> {
+    &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ProcessMatchedRules_b__24_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x493dc3c;
+  constexpr static std::size_t addrs = 0x49a254c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get(), "<ProcessMatchedRules>b__24_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get(), "<ProcessMatchedRules>b__24_0",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::setStaticF___9(::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>(value));
+inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::setStaticF___9(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get>(
+      std::forward<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>(value));
 }
-inline ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c* UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get>();
+inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c* UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get>();
 }
-inline void UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::setStaticF___9__24_0(::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* value) {
+inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::setStaticF___9__24_0(::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* value) {
   ::cordl_internals::setStaticField<::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, "<>9__24_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get>(
       std::forward<::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*>(value));
 }
-inline ::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::getStaticF___9__24_0() {
+inline ::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::getStaticF___9__24_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, "<>9__24_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c* UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>());
-}
-inline void UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::_ctor() {
+inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::_ProcessMatchedRules_b__24_0(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a,
-                                                                                                             ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b) {
+inline int32_t UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::_ProcessMatchedRules_b__24_0(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a,
+                                                                                                          ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c*>::get(), "<ProcessMatchedRules>b__24_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>::get(), "<ProcessMatchedRules>b__24_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, a, b);
 }
+inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c* UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c::__VisualTreeStyleUpdaterTraversal____c() {}
+constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal___c::VisualTreeStyleUpdaterTraversal___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal.get_currentPixelsPerPoint
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::get_currentPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493c724;
+  constexpr static std::size_t addrs = 0x49a1034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(float_t)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::set_currentPixelsPerPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493c72c;
+  constexpr static std::size_t addrs = 0x49a103c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(float_t)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PrepareTraversal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x493c0f0;
+  constexpr static std::size_t addrs = 0x49a0a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::AddChangedElement)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x493b880;
+  constexpr static std::size_t addrs = 0x49a0190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::Clear)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x493bd18;
+  constexpr static std::size_t addrs = 0x49a0628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PropagateToChildren)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x493c734;
+  constexpr static std::size_t addrs = 0x49a1044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::PropagateToParents)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x493c804;
+  constexpr static std::size_t addrs = 0x49a1114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::OnProcessMatchResult)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x493c8a8;
+  constexpr static std::size_t addrs = 0x49a11b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
     ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::TraverseRecursive)> {
   constexpr static std::size_t size = 0x660;
-  constexpr static std::size_t addrs = 0x493c8d8;
+  constexpr static std::size_t addrs = 0x49a11e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,17 +231,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
-    ::UnityEngine::UIElements::VisualElement*, ByRef<::UnityEngine::UIElements::ComputedStyle>, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
+    ::UnityEngine::UIElements::VisualElement*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessTransitions)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x493d774;
+  constexpr static std::size_t addrs = 0x49a2084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(), "ProcessTransitions", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
     return ___internal_method;
   }
 };
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ForceUpdateTransitions)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x493d848;
+  constexpr static std::size_t addrs = 0x49a2158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,17 +264,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*, ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
+    static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*, ::ByRef<::UnityEngine::UIElements::ComputedStyle>)>(
         &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::CancelAnimationsWithNoTransitionProperty)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x493bdbc;
+  constexpr static std::size_t addrs = 0x49a06cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(),
-                                                 "CancelAnimationsWithNoTransitionProperty", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(),
+                                    "CancelAnimationsWithNoTransitionProperty", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
     return ___internal_method;
   }
 };
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ShouldSkipElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x493cf38;
+  constexpr static std::size_t addrs = 0x49a1848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*)>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessMatchedRules)> {
   constexpr static std::size_t size = 0x7b8;
-  constexpr static std::size_t addrs = 0x493cfbc;
+  constexpr static std::size_t addrs = 0x49a18cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)(
     ::UnityEngine::UIElements::StyleSheet*, ::UnityEngine::UIElements::StyleRule*)>(&::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessMatchedVariables)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x493dadc;
+  constexpr static std::size_t addrs = 0x49a23ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::*)()>(
     &::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x493c1bc;
+  constexpr static std::size_t addrs = 0x49a0acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -346,8 +346,7 @@ constexpr ::UnityEngine::UIElements::StyleVariableContext*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProcessVarContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_ProcessVarContext() const {
+constexpr ::UnityEngine::UIElements::StyleVariableContext* const& UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_ProcessVarContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProcessVarContext;
 }
@@ -359,7 +358,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::V
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const&
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const&
 UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_UpdateList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UpdateList;
@@ -373,7 +372,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::V
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const&
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* const&
 UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_ParentList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ParentList;
@@ -388,7 +387,7 @@ UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TempMatchResults;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* const&
 UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_TempMatchResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TempMatchResults;
@@ -414,8 +413,7 @@ constexpr ::UnityEngine::UIElements::StyleMatchingContext*& UnityEngine::UIEleme
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleMatchingContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleMatchingContext*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_StyleMatchingContext() const {
+constexpr ::UnityEngine::UIElements::StyleMatchingContext* const& UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_StyleMatchingContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleMatchingContext;
 }
@@ -427,8 +425,7 @@ constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*& UnityEng
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StylePropertyReader;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*> const&
-UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_StylePropertyReader() const {
+constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyReader* const& UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_StylePropertyReader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StylePropertyReader;
 }
@@ -441,7 +438,7 @@ UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AnimatedProperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* const&
 UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::__cordl_internal_get_m_AnimatedProperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AnimatedProperties;
@@ -506,13 +503,13 @@ inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::TraverseRe
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element, depth);
 }
-inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessTransitions(::UnityEngine::UIElements::VisualElement* element, ByRef<::UnityEngine::UIElements::ComputedStyle> oldStyle,
-                                                                                         ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle) {
+inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessTransitions(::UnityEngine::UIElements::VisualElement* element, ::ByRef<::UnityEngine::UIElements::ComputedStyle> oldStyle,
+                                                                                         ::ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(), "ProcessTransitions", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element, oldStyle, newStyle);
 }
 inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ForceUpdateTransitions(::UnityEngine::UIElements::VisualElement* element) {
@@ -522,12 +519,12 @@ inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ForceUpdat
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element);
 }
 inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::CancelAnimationsWithNoTransitionProperty(::UnityEngine::UIElements::VisualElement* element,
-                                                                                                               ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle) {
+                                                                                                               ::ByRef<::UnityEngine::UIElements::ComputedStyle> newStyle) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(),
                                                "CancelAnimationsWithNoTransitionProperty", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::ComputedStyle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element, newStyle);
 }
 inline bool UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ShouldSkipElement(::UnityEngine::UIElements::VisualElement* element) {
@@ -553,13 +550,13 @@ inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::ProcessMat
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleRule*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sheet, rule);
 }
-inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>());
-}
 inline void UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal::VisualTreeStyleUpdaterTraversal() {}

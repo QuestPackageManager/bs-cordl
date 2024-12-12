@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarJumpEffect::*)()>(&::GlobalNamespace::HydraulicCarJumpEffect::Start)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x223af84;
+  constexpr static std::size_t addrs = 0x2266240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarJumpEffect*>::get(), "Start",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarJumpEffect::*)()>(&::GlobalNamespace::HydraulicCarJumpEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x223b0fc;
+  constexpr static std::size_t addrs = 0x22663b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarJumpEffect*>::get(), "OnDestroy",
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarJumpEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarJumpEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x223b118;
+  constexpr static std::size_t addrs = 0x22663d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarJumpEffect::*)()>(&::GlobalNamespace::HydraulicCarJumpEffect::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x223b234;
+  constexpr static std::size_t addrs = 0x22664f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarJumpEffect*>::get(), ".ctor",
@@ -151,7 +151,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Hydra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -175,7 +175,7 @@ constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventValuesHashSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__eventValuesHashSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__eventValuesHashSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eventValuesHashSet;
 }
@@ -187,7 +187,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Hydra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::HydraulicCarJumpEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
@@ -211,13 +211,13 @@ inline void GlobalNamespace::HydraulicCarJumpEffect::HandleBeatmapEvent(::Global
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
-inline ::GlobalNamespace::HydraulicCarJumpEffect* GlobalNamespace::HydraulicCarJumpEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HydraulicCarJumpEffect*>());
-}
 inline void GlobalNamespace::HydraulicCarJumpEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarJumpEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::HydraulicCarJumpEffect* GlobalNamespace::HydraulicCarJumpEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HydraulicCarJumpEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::HydraulicCarJumpEffect::HydraulicCarJumpEffect() {}

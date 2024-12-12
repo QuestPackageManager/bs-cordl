@@ -20,11 +20,10 @@ class StandardLevelFinishedController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelFinishedController);
-// Type: ::StandardLevelFinishedController
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelFinishedController*
+// CS Name: StandardLevelFinishedController
 class CORDL_TYPE StandardLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,23 +39,23 @@ public:
                       put = __cordl_internal_set__standardLevelSceneSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x3b4d0a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x3baeab4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b4cfa8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bae9b4, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b4ceb8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bae8c4, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3b4d0ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x3baeab8, size 0x40, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
+  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__gameplayManager() const;
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
 
@@ -72,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b4d0ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baeaf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelFinishedController(StandardLevelFinishedController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4455 };
+
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
 
@@ -98,19 +100,16 @@ public:
   /// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4442 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFinishedController, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelFinishedController, ____standardLevelSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelFinishedController, ____prepareLevelCompletionResults) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelFinishedController, ____gameplayManager) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelFinishedController, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelFinishedController);

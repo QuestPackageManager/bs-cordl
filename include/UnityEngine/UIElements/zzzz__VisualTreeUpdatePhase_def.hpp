@@ -12,11 +12,10 @@ struct VisualTreeUpdatePhase;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualTreeUpdatePhase);
-// Type: UnityEngine.UIElements::VisualTreeUpdatePhase
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::VisualTreeUpdatePhase
+// CS Name: UnityEngine.UIElements.VisualTreeUpdatePhase
 struct CORDL_TYPE VisualTreeUpdatePhase {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VisualTreeUpdatePhase(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Animation value: static_cast<int32_t>(0x2)
+  /// @brief Field Animation value: I32(2)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
 
-  /// @brief Field Bindings value: static_cast<int32_t>(0x1)
+  /// @brief Field Bindings value: I32(1)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
 
-  /// @brief Field Count value: static_cast<int32_t>(0x7)
+  /// @brief Field Count value: I32(7)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
 
-  /// @brief Field Layout value: static_cast<int32_t>(0x4)
+  /// @brief Field Layout value: I32(4)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Layout;
 
-  /// @brief Field Repaint value: static_cast<int32_t>(0x6)
+  /// @brief Field Repaint value: I32(6)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Repaint;
 
-  /// @brief Field Styles value: static_cast<int32_t>(0x3)
+  /// @brief Field Styles value: I32(3)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Styles;
 
-  /// @brief Field TransformClip value: static_cast<int32_t>(0x5)
+  /// @brief Field TransformClip value: I32(5)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
 
-  /// @brief Field ViewData value: static_cast<int32_t>(0x0)
+  /// @brief Field ViewData value: I32(0)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeUpdatePhase, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeUpdatePhase, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeUpdatePhase, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeUpdatePhase, "UnityEngine.UIElements", "VisualTreeUpdatePhase");

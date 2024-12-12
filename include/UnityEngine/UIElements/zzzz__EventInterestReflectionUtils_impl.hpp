@@ -8,26 +8,27 @@
 #include "UnityEngine/UIElements/zzzz__EventInterestReflectionUtils_def.hpp"
 // Ctor Parameters [CppParam { name: "DefaultActionCategories", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DefaultActionAtTargetCategories", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests::__EventInterestReflectionUtils__DefaultEventInterests(int32_t DefaultActionCategories,
-                                                                                                                                                  int32_t DefaultActionAtTargetCategories) noexcept {
+constexpr ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests::EventInterestReflectionUtils_DefaultEventInterests(int32_t DefaultActionCategories,
+                                                                                                                                            int32_t DefaultActionAtTargetCategories) noexcept {
   this->DefaultActionCategories = DefaultActionCategories;
   this->DefaultActionAtTargetCategories = DefaultActionAtTargetCategories;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests::__EventInterestReflectionUtils__DefaultEventInterests() {}
+constexpr ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests::EventInterestReflectionUtils_DefaultEventInterests() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::EventInterestReflectionUtils.GetDefaultEventInterests
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ByRef<int32_t>, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x4937140;
+  constexpr static std::size_t addrs = 0x499ba50;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(), "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(),
+                                                                               "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x493736c;
+  constexpr static std::size_t addrs = 0x499bc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCategory (*)(::System::Type*)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetEventCategory)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4937570;
+  constexpr static std::size_t addrs = 0x499be80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,14 +64,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline void UnityEngine::UIElements::EventInterestReflectionUtils::setStaticF_s_DefaultEventInterests(
-    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests>*,
+    ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*,
                                     "s_DefaultEventInterests", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests>*>(value));
+      std::forward<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests>*
+inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*
 UnityEngine::UIElements::EventInterestReflectionUtils::getStaticF_s_DefaultEventInterests() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::__EventInterestReflectionUtils__DefaultEventInterests>*,
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>*,
                                            "s_DefaultEventInterests", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get>();
 }
 inline void
@@ -83,12 +84,12 @@ inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngi
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>*, "s_EventCategories",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get>();
 }
-inline void UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests(::System::Type* elementType, ByRef<int32_t> defaultActionCategories,
-                                                                                            ByRef<int32_t> defaultActionAtTargetCategories) {
+inline void UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories,
+                                                                                            ::ByRef<int32_t> defaultActionAtTargetCategories) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(), "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, elementType, defaultActionCategories, defaultActionAtTargetCategories);
 }
 inline int32_t UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName) {

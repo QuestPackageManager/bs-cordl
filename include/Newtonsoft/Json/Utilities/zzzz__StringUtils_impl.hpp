@@ -9,72 +9,69 @@
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::__StringUtils__SeparatedCaseState(int32_t value__) noexcept {
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::StringUtils_SeparatedCaseState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::__StringUtils__SeparatedCaseState() {}
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::Start{ static_cast<int32_t>(0x0) };
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::Lower{ static_cast<int32_t>(0x1) };
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::Upper{ static_cast<int32_t>(0x2) };
-constexpr ::Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState Newtonsoft::Json::Utilities::__StringUtils__SeparatedCaseState::NewWord{ static_cast<int32_t>(0x3) };
-template <typename TSource> constexpr ::System::Func_2<TSource, ::StringW>*& Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_get_valueSelector() {
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::StringUtils_SeparatedCaseState() {}
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::Start{ static_cast<int32_t>(0x0) };
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::Lower{ static_cast<int32_t>(0x1) };
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::Upper{ static_cast<int32_t>(0x2) };
+constexpr ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState::NewWord{ static_cast<int32_t>(0x3) };
+template <typename TSource> constexpr ::System::Func_2<TSource, ::StringW>*& Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_get_valueSelector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueSelector;
 }
 template <typename TSource>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::StringW>*> const&
-Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_get_valueSelector() const {
+constexpr ::System::Func_2<TSource, ::StringW>* const& Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_get_valueSelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueSelector;
 }
-template <typename TSource>
-constexpr void Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_set_valueSelector(::System::Func_2<TSource, ::StringW>* value) {
+template <typename TSource> constexpr void Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_set_valueSelector(::System::Func_2<TSource, ::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___valueSelector, value);
 }
-template <typename TSource> constexpr ::StringW& Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_get_testValue() {
+template <typename TSource> constexpr ::StringW& Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_get_testValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___testValue;
 }
-template <typename TSource> constexpr ::StringW const& Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_get_testValue() const {
+template <typename TSource> constexpr ::StringW const& Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_get_testValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___testValue;
 }
-template <typename TSource> constexpr void Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__cordl_internal_set_testValue(::StringW value) {
+template <typename TSource> constexpr void Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::__cordl_internal_set_testValue(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___testValue, value);
 }
-template <typename TSource>
-inline ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>* Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>*>());
-}
-template <typename TSource> inline void Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::_ctor() {
+template <typename TSource> inline void Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TSource> inline bool Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::_ForgivingCaseSensitiveFind_b__0(TSource s) {
+template <typename TSource> inline bool Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::_ForgivingCaseSensitiveFind_b__0(TSource s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>*>::get(), "<ForgivingCaseSensitiveFind>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>*>::get(), "<ForgivingCaseSensitiveFind>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s);
 }
-template <typename TSource> inline bool Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::_ForgivingCaseSensitiveFind_b__1(TSource s) {
+template <typename TSource> inline bool Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::_ForgivingCaseSensitiveFind_b__1(TSource s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>*>::get(), "<ForgivingCaseSensitiveFind>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>*>::get(), "<ForgivingCaseSensitiveFind>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSource>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s);
+}
+template <typename TSource> inline ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>* Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>*>());
 }
 // Ctor Parameters []
-template <typename TSource> constexpr ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass14_0_1<TSource>::__StringUtils____c__DisplayClass14_0_1() {}
+template <typename TSource> constexpr ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>::StringUtils___c__DisplayClass14_0_1() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::StringUtils.IsNullOrEmpty
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::IsNullOrEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75f78;
+  constexpr static std::size_t addrs = 0x3ed6024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3e75f80;
+  constexpr static std::size_t addrs = 0x3ed602c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3e76094;
+  constexpr static std::size_t addrs = 0x3ed6140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3e76170;
+  constexpr static std::size_t addrs = 0x3ed621c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::System::Object*, ::System::Object*, ::System::Object*,
                                                                                                 ::System::Object*)>(&::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3e76278;
+  constexpr static std::size_t addrs = 0x3ed6324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::IFormatProvider*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Newtonsoft::Json::Utilities::StringUtils::FormatWith)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e76028;
+  constexpr static std::size_t addrs = 0x3ed60d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::IsWhiteSpace)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3e76400;
+  constexpr static std::size_t addrs = 0x3ed64ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::StringWriter* (*)(int32_t)>(&::Newtonsoft::Json::Utilities::StringUtils::CreateStringWriter)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e76504;
+  constexpr static std::size_t addrs = 0x3ed65b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(char16_t, ::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Newtonsoft::Json::Utilities::StringUtils::ToCharAsUnicode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3e765cc;
+  constexpr static std::size_t addrs = 0x3ed6678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToCamelCase)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3e76688;
+  constexpr static std::size_t addrs = 0x3ed6734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,7 +230,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::ToLower)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e76870;
+  constexpr static std::size_t addrs = 0x3ed691c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToSnakeCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e76900;
+  constexpr static std::size_t addrs = 0x3ed69ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::ToKebabCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e76bf0;
+  constexpr static std::size_t addrs = 0x3ed6c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::ToSeparatedCase)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3e76908;
+  constexpr static std::size_t addrs = 0x3ed69b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IsHighSurrogate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e76bf8;
+  constexpr static std::size_t addrs = 0x3ed6ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IsLowSurrogate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e76c50;
+  constexpr static std::size_t addrs = 0x3ed6cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::IndexOf)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e76ca8;
+  constexpr static std::size_t addrs = 0x3ed6d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW)>(&::Newtonsoft::Json::Utilities::StringUtils::Replace)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e76cbc;
+  constexpr static std::size_t addrs = 0x3ed6d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -346,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::StartsWith)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3e76cd0;
+  constexpr static std::size_t addrs = 0x3ed6d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, char16_t)>(&::Newtonsoft::Json::Utilities::StringUtils::EndsWith)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e76d14;
+  constexpr static std::size_t addrs = 0x3ed6dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, int32_t)>(&::Newtonsoft::Json::Utilities::StringUtils::Trim)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3e76d54;
+  constexpr static std::size_t addrs = 0x3ed6e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

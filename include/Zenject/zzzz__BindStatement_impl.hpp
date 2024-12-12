@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/BindStatement.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4aaf1e8;
+  constexpr static std::size_t addrs = 0x4b13af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), ".ctor",
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindingInheritanceMethods (::Zenject::BindStatement::*)()>(
     &::Zenject::BindStatement::get_BindingInheritanceMethod)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4aaf3a8;
+  constexpr static std::size_t addrs = 0x4b13cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "get_BindingInheritanceMethod",
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::get_HasFinalizer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aaf494;
+  constexpr static std::size_t addrs = 0x4b13da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "get_HasFinalizer",
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)(::Zenject::IBindingFinalizer*)>(&::Zenject::BindStatement::SetFinalizer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aaf4a4;
+  constexpr static std::size_t addrs = 0x4b13db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::AssertHasFinalizer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4aaf450;
+  constexpr static std::size_t addrs = 0x4b13d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "AssertHasFinalizer",
@@ -80,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)(::System::IDisposable*)>(&::Zenject::BindStatement::AddDisposable)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4aaf4ac;
+  constexpr static std::size_t addrs = 0x4b13dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::BindInfo* (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::SpawnBindInfo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4aaf550;
+  constexpr static std::size_t addrs = 0x4b13e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "SpawnBindInfo",
@@ -107,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)(::Zenject::DiContainer*)>(&::Zenject::BindStatement::FinalizeBinding)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4aaf5bc;
+  constexpr static std::size_t addrs = 0x4b13ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::Reset)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4aaf26c;
+  constexpr static std::size_t addrs = 0x4b13b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "Reset",
@@ -134,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::BindStatement::*)()>(&::Zenject::BindStatement::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4aaf670;
+  constexpr static std::size_t addrs = 0x4b13f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "Dispose",
@@ -142,19 +143,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Zenject::BindStatement::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Zenject::BindStatement::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>*& Zenject::BindStatement::__cordl_internal_get__disposables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::IDisposable*>*> const& Zenject::BindStatement::__cordl_internal_get__disposables() const {
+constexpr ::System::Collections::Generic::List_1<::System::IDisposable*>* const& Zenject::BindStatement::__cordl_internal_get__disposables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
@@ -166,16 +159,13 @@ constexpr ::Zenject::IBindingFinalizer*& Zenject::BindStatement::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinalizer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IBindingFinalizer*> const& Zenject::BindStatement::__cordl_internal_get__bindingFinalizer() const {
+constexpr ::Zenject::IBindingFinalizer* const& Zenject::BindStatement::__cordl_internal_get__bindingFinalizer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinalizer;
 }
 constexpr void Zenject::BindStatement::__cordl_internal_set__bindingFinalizer(::Zenject::IBindingFinalizer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindingFinalizer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::BindStatement* Zenject::BindStatement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::BindStatement*>());
 }
 inline void Zenject::BindStatement::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), ".ctor",
@@ -229,6 +219,17 @@ inline void Zenject::BindStatement::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindStatement*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::BindStatement* Zenject::BindStatement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::BindStatement*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Zenject::BindStatement::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Zenject::BindStatement::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::BindStatement::BindStatement() {}

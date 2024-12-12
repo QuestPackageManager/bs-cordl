@@ -21,11 +21,10 @@ class ComboUIController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ComboUIController);
-// Type: ::ComboUIController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ComboUIController*
+// CS Name: ComboUIController
 class CORDL_TYPE ComboUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,36 +43,36 @@ public:
   /// @brief Field _fullComboLost, offset 0x3c, size 0x1
   __declspec(property(get = __cordl_internal_get__fullComboLost, put = __cordl_internal_set__fullComboLost)) bool _fullComboLost;
 
-  /// @brief Method HandleComboBreakingEventHappened, addr 0x3b41268, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleComboBreakingEventHappened, addr 0x3ba2958, size 0x3c, virtual false, abstract: false, final false
   inline void HandleComboBreakingEventHappened();
 
-  /// @brief Method HandleComboDidChange, addr 0x3b41220, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x3ba2910, size 0x48, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
   static inline ::GlobalNamespace::ComboUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b41060, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ba2750, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b4105c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ba274c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x3b40d9c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x3ba248c, size 0x2c0, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x3b40d14, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba2404, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x3b41064, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x3ba2754, size 0x1bc, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
   constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::GlobalNamespace::IComboController*& __cordl_internal_get__comboController();
+  constexpr ::GlobalNamespace::IComboController* const& __cordl_internal_get__comboController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IComboController*> const& __cordl_internal_get__comboController() const;
+  constexpr ::GlobalNamespace::IComboController*& __cordl_internal_get__comboController();
 
   constexpr int32_t const& __cordl_internal_get__comboLostId() const;
 
@@ -97,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__fullComboLost(bool value);
 
-  /// @brief Method .ctor, addr 0x3b412a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba2994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComboUIController(ComboUIController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4402 };
+
   /// @brief Field _comboText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____comboText;
 
@@ -129,14 +131,9 @@ public:
   /// @brief Field _fullComboLost, offset: 0x3c, size: 0x1, def value: None
   bool ____fullComboLost;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4390 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboUIController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ComboUIController, ____comboText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ComboUIController, ____animator) == 0x28, "Offset mismatch!");
@@ -146,6 +143,8 @@ static_assert(offsetof(::GlobalNamespace::ComboUIController, ____comboController
 static_assert(offsetof(::GlobalNamespace::ComboUIController, ____comboLostId) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ComboUIController, ____fullComboLost) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboUIController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ComboUIController);

@@ -11,17 +11,16 @@ class NonSerializedAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::NonSerializedAttribute);
-// Type: System::NonSerializedAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::NonSerializedAttribute*
+// CS Name: System.NonSerializedAttribute
 class CORDL_TYPE NonSerializedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::NonSerializedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d8c994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3decb08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

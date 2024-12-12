@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderFallbackException::*)()>(&::System::Text::DecoderFallbackException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e0da98;
+  constexpr static std::size_t addrs = 0x3e6db44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderFallbackException*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderFallbackException::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Text::DecoderFallbackException::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3e0da68;
+  constexpr static std::size_t addrs = 0x3e6db14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderFallbackException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::DecoderFallbackException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0daf4;
+  constexpr static std::size_t addrs = 0x3e6dba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,16 +74,10 @@ constexpr void System::Text::DecoderFallbackException::__cordl_internal_set__ind
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____index = value;
 }
-inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>());
-}
 inline void System::Text::DecoderFallbackException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderFallbackException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>(message, bytesUnknown, index));
 }
 inline void System::Text::DecoderFallbackException::_ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -93,16 +87,22 @@ inline void System::Text::DecoderFallbackException::_ctor(::StringW message, ::A
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, bytesUnknown, index);
 }
-inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                                                  ::System::Runtime::Serialization::StreamingContext streamingContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>(serializationInfo, streamingContext));
-}
 inline void System::Text::DecoderFallbackException::_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderFallbackException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serializationInfo, streamingContext);
+}
+inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>());
+}
+inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>(message, bytesUnknown, index));
+}
+inline ::System::Text::DecoderFallbackException* System::Text::DecoderFallbackException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                                                  ::System::Runtime::Serialization::StreamingContext streamingContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderFallbackException*>(serializationInfo, streamingContext));
 }
 // Ctor Parameters []
 constexpr ::System::Text::DecoderFallbackException::DecoderFallbackException() {}

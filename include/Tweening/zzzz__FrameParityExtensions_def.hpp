@@ -14,15 +14,14 @@ class FrameParityExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tweening::FrameParityExtensions);
-// Type: Tweening::FrameParityExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Tweening {
 // Is value type: false
-// CS Name: ::Tweening::FrameParityExtensions*
+// CS Name: Tweening.FrameParityExtensions
 class CORDL_TYPE FrameParityExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSwitchedParity, addr 0x447935c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSwitchedParity, addr 0x44da670, size 0x18, virtual false, abstract: false, final false
   static inline ::Tweening::FrameParity GetSwitchedParity(::Tweening::FrameParity frameParity);
 
 protected:
@@ -40,7 +39,7 @@ public:
   FrameParityExtensions(FrameParityExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

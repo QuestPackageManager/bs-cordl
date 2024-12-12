@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Torus)
@@ -29,11 +28,10 @@ class Torus;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Torus);
-// Type: UnityEngine.ProBuilder.Shapes::Torus
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::Torus*
+// CS Name: UnityEngine.ProBuilder.Shapes.Torus
 class CORDL_TYPE Torus : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
@@ -55,23 +53,23 @@ public:
   /// @brief Field m_VerticalCircumference, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_VerticalCircumference, put = __cordl_internal_set_m_VerticalCircumference)) float_t m_VerticalCircumference;
 
-  /// @brief Method CopyShape, addr 0x46f3efc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4755210, size 0x94, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method GetCirclePoints, addr 0x46f4cc8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x4755fdc, size 0x29c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    ::UnityEngine::Vector3 offset);
 
-  /// @brief Method GetCirclePoints, addr 0x46f4978, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method GetCirclePoints, addr 0x4755c8c, size 0x350, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation,
                                                                                                    float_t offset);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Torus* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46f4010, size 0x968, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x4755324, size 0x968, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds, addr 0x46f3f90, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x47552a4, size 0x80, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_Columns() const;
@@ -110,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalCircumference(float_t value);
 
-  /// @brief Method .ctor, addr 0x46f4f64, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4756278, size 0x234, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Torus", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Torus(Torus const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14352 };
 
   /// @brief Field m_Rows, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Rows;
@@ -145,14 +146,9 @@ public:
   /// @brief Field m_Smooth, offset: 0x24, size: 0x1, def value: None
   bool ___m_Smooth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Torus, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Rows) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Columns) == 0x14, "Offset mismatch!");
@@ -164,6 +160,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Horizontal
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_VerticalCircumference) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Torus, ___m_Smooth) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Torus, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Torus);

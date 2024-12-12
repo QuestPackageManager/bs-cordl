@@ -18,11 +18,10 @@ class ElGamalParametersGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::ElGamalParametersGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::ElGamalParametersGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.ElGamalParametersGenerator
 class CORDL_TYPE ElGamalParametersGenerator : public ::System::Object {
 public:
   // Declarations
@@ -35,10 +34,10 @@ public:
   /// @brief Field size, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
-  /// @brief Method GenerateParameters, addr 0x234f73c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x2382a28, size 0xd8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* GenerateParameters();
 
-  /// @brief Method Init, addr 0x234f730, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2382a1c, size 0xc, virtual false, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* New_ctor();
@@ -47,9 +46,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_certainty();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
   constexpr int32_t const& __cordl_internal_get_size() const;
 
@@ -61,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x234f814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2382b00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -78,6 +77,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ElGamalParametersGenerator(ElGamalParametersGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 903 };
+
   /// @brief Field size, offset: 0x10, size: 0x4, def value: None
   int32_t ___size;
 
@@ -87,19 +89,16 @@ public:
   /// @brief Field random, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___random;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 903 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator, ___size) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator, ___certainty) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator, ___random) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator);

@@ -5,10 +5,15 @@
 CORDL_MODULE_INIT
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HeaderInfo)
+namespace GlobalNamespace {
+template <typename T, typename U> class HeaderInfo_CollectionHeaderTypeInfo_2;
+}
+namespace GlobalNamespace {
+template <typename T, typename U> class HeaderInfo_HeaderTypeInfo_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -24,12 +29,6 @@ template <typename T> class TryParseDelegate_1;
 namespace System::Net::Http::Headers {
 template <typename T> class TryParseListDelegate_1;
 }
-namespace System::Net::Http::Headers {
-template <typename T, typename U> class __HeaderInfo__CollectionHeaderTypeInfo_2;
-}
-namespace System::Net::Http::Headers {
-template <typename T, typename U> class __HeaderInfo__HeaderTypeInfo_2;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
@@ -42,17 +41,16 @@ class HeaderInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::HeaderInfo);
-// Type: System.Net.Http.Headers::HeaderInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.Headers.HttpHeaderKind, System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::HeaderInfo*
+// CS Name: System.Net.Http.Headers.HeaderInfo
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
-  template <typename T, typename U> using CollectionHeaderTypeInfo_2 = ::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>;
+  template <typename T, typename U> using CollectionHeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_CollectionHeaderTypeInfo_2<T, U>;
 
-  template <typename T, typename U> using HeaderTypeInfo_2 = ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>;
+  template <typename T, typename U> using HeaderTypeInfo_2 = ::GlobalNamespace::HeaderInfo_HeaderTypeInfo_2<T, U>;
 
   /// @brief Field AllowsMany, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_AllowsMany, put = __cordl_internal_set_AllowsMany)) bool AllowsMany;
@@ -71,13 +69,13 @@ public:
   __declspec(property(get = __cordl_internal_get__CustomToString_k__BackingField,
                       put = __cordl_internal_set__CustomToString_k__BackingField)) ::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
 
-  /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method AddToCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection, addr 0x41bccf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CreateCollection, addr 0x421e00c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers);
 
-  /// @brief Method CreateCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
   /// @brief Method CreateMulti, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -92,11 +90,11 @@ public:
 
   static inline ::System::Net::Http::Headers::HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method ToStringCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ToStringCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* ToStringCollection(::System::Object* collection);
 
-  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryParse(::StringW value, ByRef<::System::Object*> result);
+  /// @brief Method TryParse, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool TryParse(::StringW value, ::ByRef<::System::Object*> result);
 
   constexpr bool const& __cordl_internal_get_AllowsMany() const;
 
@@ -110,9 +108,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __cordl_internal_get__CustomToString_k__BackingField();
+  constexpr ::System::Func_2<::System::Object*, ::StringW>* const& __cordl_internal_get__CustomToString_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& __cordl_internal_get__CustomToString_k__BackingField() const;
+  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __cordl_internal_get__CustomToString_k__BackingField();
 
   constexpr void __cordl_internal_set_AllowsMany(bool value);
 
@@ -122,16 +120,16 @@ public:
 
   constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x41bccc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x421dfdc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method get_CustomToString, addr 0x41bcd08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomToString, addr 0x421e01c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::System::Object*, ::StringW>* get_CustomToString();
 
-  /// @brief Method get_Separator, addr 0x41bcd18, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Separator, addr 0x421e02c, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method set_CustomToString, addr 0x41bcd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CustomToString, addr 0x421e024, size 0x8, virtual false, abstract: false, final false
   inline void set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
 protected:
@@ -148,6 +146,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeaderInfo(HeaderInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
+
   /// @brief Field AllowsMany, offset: 0x10, size: 0x1, def value: None
   bool ___AllowsMany;
 
@@ -160,14 +161,9 @@ public:
   /// @brief Field <CustomToString>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::Func_2<::System::Object*, ::StringW>* ____CustomToString_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16668 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HeaderInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Http::Headers::HeaderInfo, ___AllowsMany) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::Headers::HeaderInfo, ___HeaderKind) == 0x14, "Offset mismatch!");
@@ -175,6 +171,8 @@ static_assert(offsetof(::System::Net::Http::Headers::HeaderInfo, ___HeaderKind) 
 static_assert(offsetof(::System::Net::Http::Headers::HeaderInfo, ___Name) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Http::Headers::HeaderInfo, ____CustomToString_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::HeaderInfo, 0x28>, "Size mismatch!");
 
 } // namespace System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::HeaderInfo);

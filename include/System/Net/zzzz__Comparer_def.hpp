@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
-namespace System::Collections {
-class IComparer;
-}
 namespace System {
 class Object;
 }
@@ -18,11 +16,10 @@ class Comparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Comparer);
-// Type: System.Net::Comparer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IComparer, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::Comparer*
+// CS Name: System.Net.Comparer
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
   // Declarations
@@ -31,10 +28,10 @@ public:
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x444ced0, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x44ae1e4, size 0xe4, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x444cfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44ae2c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -55,7 +52,7 @@ public:
   Comparer(Comparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

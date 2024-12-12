@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementTraits::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementTraits::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4a3a804;
+  constexpr static std::size_t addrs = 0x4a9f114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementTraits*>::get(),
@@ -21,7 +21,7 @@ constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& UnityEngine::UIElements::UxmlRootElementTraits::__cordl_internal_get_m_Name() const {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::UxmlRootElementTraits::__cordl_internal_get_m_Name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Name;
 }
@@ -33,7 +33,7 @@ constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Class;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& UnityEngine::UIElements::UxmlRootElementTraits::__cordl_internal_get_m_Class() const {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::UxmlRootElementTraits::__cordl_internal_get_m_Class() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Class;
 }
@@ -41,13 +41,13 @@ constexpr void UnityEngine::UIElements::UxmlRootElementTraits::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Class)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::UIElements::UxmlRootElementTraits* UnityEngine::UIElements::UxmlRootElementTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlRootElementTraits*>());
-}
 inline void UnityEngine::UIElements::UxmlRootElementTraits::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementTraits*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UxmlRootElementTraits* UnityEngine::UIElements::UxmlRootElementTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlRootElementTraits*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UxmlRootElementTraits::UxmlRootElementTraits() {}

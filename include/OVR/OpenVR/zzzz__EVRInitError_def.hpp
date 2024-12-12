@@ -12,11 +12,10 @@ struct EVRInitError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRInitError);
-// Type: OVR.OpenVR::EVRInitError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRInitError
+// CS Name: OVR.OpenVR.EVRInitError
 struct CORDL_TYPE EVRInitError {
 public:
   // Declarations
@@ -131,285 +130,285 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRInitError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Compositor_D3D11HardwareRequired value: static_cast<int32_t>(0x191)
+  /// @brief Field Compositor_D3D11HardwareRequired value: I32(401)
   static ::OVR::OpenVR::EVRInitError const Compositor_D3D11HardwareRequired;
 
-  /// @brief Field Compositor_Failed value: static_cast<int32_t>(0x190)
+  /// @brief Field Compositor_Failed value: I32(400)
   static ::OVR::OpenVR::EVRInitError const Compositor_Failed;
 
-  /// @brief Field Compositor_FirmwareRequiresUpdate value: static_cast<int32_t>(0x192)
+  /// @brief Field Compositor_FirmwareRequiresUpdate value: I32(402)
   static ::OVR::OpenVR::EVRInitError const Compositor_FirmwareRequiresUpdate;
 
-  /// @brief Field Compositor_OverlayInitFailed value: static_cast<int32_t>(0x193)
+  /// @brief Field Compositor_OverlayInitFailed value: I32(403)
   static ::OVR::OpenVR::EVRInitError const Compositor_OverlayInitFailed;
 
-  /// @brief Field Compositor_ScreenshotsInitFailed value: static_cast<int32_t>(0x194)
+  /// @brief Field Compositor_ScreenshotsInitFailed value: I32(404)
   static ::OVR::OpenVR::EVRInitError const Compositor_ScreenshotsInitFailed;
 
-  /// @brief Field Compositor_UnableToCreateDevice value: static_cast<int32_t>(0x195)
+  /// @brief Field Compositor_UnableToCreateDevice value: I32(405)
   static ::OVR::OpenVR::EVRInitError const Compositor_UnableToCreateDevice;
 
-  /// @brief Field Driver_CalibrationInvalid value: static_cast<int32_t>(0xcf)
+  /// @brief Field Driver_CalibrationInvalid value: I32(207)
   static ::OVR::OpenVR::EVRInitError const Driver_CalibrationInvalid;
 
-  /// @brief Field Driver_Failed value: static_cast<int32_t>(0xc8)
+  /// @brief Field Driver_Failed value: I32(200)
   static ::OVR::OpenVR::EVRInitError const Driver_Failed;
 
-  /// @brief Field Driver_HmdDisplayMirrored value: static_cast<int32_t>(0xd4)
+  /// @brief Field Driver_HmdDisplayMirrored value: I32(212)
   static ::OVR::OpenVR::EVRInitError const Driver_HmdDisplayMirrored;
 
-  /// @brief Field Driver_HmdDisplayNotFound value: static_cast<int32_t>(0xd0)
+  /// @brief Field Driver_HmdDisplayNotFound value: I32(208)
   static ::OVR::OpenVR::EVRInitError const Driver_HmdDisplayNotFound;
 
-  /// @brief Field Driver_HmdDriverIdOutOfBounds value: static_cast<int32_t>(0xd3)
+  /// @brief Field Driver_HmdDriverIdOutOfBounds value: I32(211)
   static ::OVR::OpenVR::EVRInitError const Driver_HmdDriverIdOutOfBounds;
 
-  /// @brief Field Driver_HmdInUse value: static_cast<int32_t>(0xcd)
+  /// @brief Field Driver_HmdInUse value: I32(205)
   static ::OVR::OpenVR::EVRInitError const Driver_HmdInUse;
 
-  /// @brief Field Driver_HmdUnknown value: static_cast<int32_t>(0xca)
+  /// @brief Field Driver_HmdUnknown value: I32(202)
   static ::OVR::OpenVR::EVRInitError const Driver_HmdUnknown;
 
-  /// @brief Field Driver_NotCalibrated value: static_cast<int32_t>(0xce)
+  /// @brief Field Driver_NotCalibrated value: I32(206)
   static ::OVR::OpenVR::EVRInitError const Driver_NotCalibrated;
 
-  /// @brief Field Driver_NotLoaded value: static_cast<int32_t>(0xcb)
+  /// @brief Field Driver_NotLoaded value: I32(203)
   static ::OVR::OpenVR::EVRInitError const Driver_NotLoaded;
 
-  /// @brief Field Driver_RuntimeOutOfDate value: static_cast<int32_t>(0xcc)
+  /// @brief Field Driver_RuntimeOutOfDate value: I32(204)
   static ::OVR::OpenVR::EVRInitError const Driver_RuntimeOutOfDate;
 
-  /// @brief Field Driver_TrackedDeviceInterfaceUnknown value: static_cast<int32_t>(0xd1)
+  /// @brief Field Driver_TrackedDeviceInterfaceUnknown value: I32(209)
   static ::OVR::OpenVR::EVRInitError const Driver_TrackedDeviceInterfaceUnknown;
 
-  /// @brief Field Driver_Unknown value: static_cast<int32_t>(0xc9)
+  /// @brief Field Driver_Unknown value: I32(201)
   static ::OVR::OpenVR::EVRInitError const Driver_Unknown;
 
-  /// @brief Field IPC_CompositorConnectFailed value: static_cast<int32_t>(0x132)
+  /// @brief Field IPC_CompositorConnectFailed value: I32(306)
   static ::OVR::OpenVR::EVRInitError const IPC_CompositorConnectFailed;
 
-  /// @brief Field IPC_CompositorInitFailed value: static_cast<int32_t>(0x12f)
+  /// @brief Field IPC_CompositorInitFailed value: I32(303)
   static ::OVR::OpenVR::EVRInitError const IPC_CompositorInitFailed;
 
-  /// @brief Field IPC_CompositorInvalidConnectResponse value: static_cast<int32_t>(0x133)
+  /// @brief Field IPC_CompositorInvalidConnectResponse value: I32(307)
   static ::OVR::OpenVR::EVRInitError const IPC_CompositorInvalidConnectResponse;
 
-  /// @brief Field IPC_ConnectFailed value: static_cast<int32_t>(0x12d)
+  /// @brief Field IPC_ConnectFailed value: I32(301)
   static ::OVR::OpenVR::EVRInitError const IPC_ConnectFailed;
 
-  /// @brief Field IPC_ConnectFailedAfterMultipleAttempts value: static_cast<int32_t>(0x134)
+  /// @brief Field IPC_ConnectFailedAfterMultipleAttempts value: I32(308)
   static ::OVR::OpenVR::EVRInitError const IPC_ConnectFailedAfterMultipleAttempts;
 
-  /// @brief Field IPC_Failed value: static_cast<int32_t>(0x131)
+  /// @brief Field IPC_Failed value: I32(305)
   static ::OVR::OpenVR::EVRInitError const IPC_Failed;
 
-  /// @brief Field IPC_MutexInitFailed value: static_cast<int32_t>(0x130)
+  /// @brief Field IPC_MutexInitFailed value: I32(304)
   static ::OVR::OpenVR::EVRInitError const IPC_MutexInitFailed;
 
-  /// @brief Field IPC_ServerInitFailed value: static_cast<int32_t>(0x12c)
+  /// @brief Field IPC_ServerInitFailed value: I32(300)
   static ::OVR::OpenVR::EVRInitError const IPC_ServerInitFailed;
 
-  /// @brief Field IPC_SharedStateInitFailed value: static_cast<int32_t>(0x12e)
+  /// @brief Field IPC_SharedStateInitFailed value: I32(302)
   static ::OVR::OpenVR::EVRInitError const IPC_SharedStateInitFailed;
 
-  /// @brief Field Init_AnotherAppLaunching value: static_cast<int32_t>(0x75)
+  /// @brief Field Init_AnotherAppLaunching value: I32(117)
   static ::OVR::OpenVR::EVRInitError const Init_AnotherAppLaunching;
 
-  /// @brief Field Init_AppInfoInitFailed value: static_cast<int32_t>(0x72)
+  /// @brief Field Init_AppInfoInitFailed value: I32(114)
   static ::OVR::OpenVR::EVRInitError const Init_AppInfoInitFailed;
 
-  /// @brief Field Init_FactoryNotFound value: static_cast<int32_t>(0x68)
+  /// @brief Field Init_FactoryNotFound value: I32(104)
   static ::OVR::OpenVR::EVRInitError const Init_FactoryNotFound;
 
-  /// @brief Field Init_FileNotFound value: static_cast<int32_t>(0x67)
+  /// @brief Field Init_FileNotFound value: I32(103)
   static ::OVR::OpenVR::EVRInitError const Init_FileNotFound;
 
-  /// @brief Field Init_FirmwareRecoveryBusy value: static_cast<int32_t>(0x8b)
+  /// @brief Field Init_FirmwareRecoveryBusy value: I32(139)
   static ::OVR::OpenVR::EVRInitError const Init_FirmwareRecoveryBusy;
 
-  /// @brief Field Init_FirmwareUpdateBusy value: static_cast<int32_t>(0x8a)
+  /// @brief Field Init_FirmwareUpdateBusy value: I32(138)
   static ::OVR::OpenVR::EVRInitError const Init_FirmwareUpdateBusy;
 
-  /// @brief Field Init_HmdDriverIdIsNone value: static_cast<int32_t>(0x7d)
+  /// @brief Field Init_HmdDriverIdIsNone value: I32(125)
   static ::OVR::OpenVR::EVRInitError const Init_HmdDriverIdIsNone;
 
-  /// @brief Field Init_HmdNotFound value: static_cast<int32_t>(0x6c)
+  /// @brief Field Init_HmdNotFound value: I32(108)
   static ::OVR::OpenVR::EVRInitError const Init_HmdNotFound;
 
-  /// @brief Field Init_HmdNotFoundPresenceFailed value: static_cast<int32_t>(0x7e)
+  /// @brief Field Init_HmdNotFoundPresenceFailed value: I32(126)
   static ::OVR::OpenVR::EVRInitError const Init_HmdNotFoundPresenceFailed;
 
-  /// @brief Field Init_InitCanceledByUser value: static_cast<int32_t>(0x74)
+  /// @brief Field Init_InitCanceledByUser value: I32(116)
   static ::OVR::OpenVR::EVRInitError const Init_InitCanceledByUser;
 
-  /// @brief Field Init_InstallationCorrupt value: static_cast<int32_t>(0x65)
+  /// @brief Field Init_InstallationCorrupt value: I32(101)
   static ::OVR::OpenVR::EVRInitError const Init_InstallationCorrupt;
 
-  /// @brief Field Init_InstallationNotFound value: static_cast<int32_t>(0x64)
+  /// @brief Field Init_InstallationNotFound value: I32(100)
   static ::OVR::OpenVR::EVRInitError const Init_InstallationNotFound;
 
-  /// @brief Field Init_InterfaceNotFound value: static_cast<int32_t>(0x69)
+  /// @brief Field Init_InterfaceNotFound value: I32(105)
   static ::OVR::OpenVR::EVRInitError const Init_InterfaceNotFound;
 
-  /// @brief Field Init_Internal value: static_cast<int32_t>(0x7c)
+  /// @brief Field Init_Internal value: I32(124)
   static ::OVR::OpenVR::EVRInitError const Init_Internal;
 
-  /// @brief Field Init_InvalidApplicationType value: static_cast<int32_t>(0x82)
+  /// @brief Field Init_InvalidApplicationType value: I32(130)
   static ::OVR::OpenVR::EVRInitError const Init_InvalidApplicationType;
 
-  /// @brief Field Init_InvalidInterface value: static_cast<int32_t>(0x6a)
+  /// @brief Field Init_InvalidInterface value: I32(106)
   static ::OVR::OpenVR::EVRInitError const Init_InvalidInterface;
 
-  /// @brief Field Init_LowPowerWatchdogNotSupported value: static_cast<int32_t>(0x81)
+  /// @brief Field Init_LowPowerWatchdogNotSupported value: I32(129)
   static ::OVR::OpenVR::EVRInitError const Init_LowPowerWatchdogNotSupported;
 
-  /// @brief Field Init_NoConfigPath value: static_cast<int32_t>(0x6f)
+  /// @brief Field Init_NoConfigPath value: I32(111)
   static ::OVR::OpenVR::EVRInitError const Init_NoConfigPath;
 
-  /// @brief Field Init_NoLogPath value: static_cast<int32_t>(0x70)
+  /// @brief Field Init_NoLogPath value: I32(112)
   static ::OVR::OpenVR::EVRInitError const Init_NoLogPath;
 
-  /// @brief Field Init_NoServerForBackgroundApp value: static_cast<int32_t>(0x79)
+  /// @brief Field Init_NoServerForBackgroundApp value: I32(121)
   static ::OVR::OpenVR::EVRInitError const Init_NoServerForBackgroundApp;
 
-  /// @brief Field Init_NotAvailableToUtilityApps value: static_cast<int32_t>(0x7b)
+  /// @brief Field Init_NotAvailableToUtilityApps value: I32(123)
   static ::OVR::OpenVR::EVRInitError const Init_NotAvailableToUtilityApps;
 
-  /// @brief Field Init_NotAvailableToWatchdogApps value: static_cast<int32_t>(0x83)
+  /// @brief Field Init_NotAvailableToWatchdogApps value: I32(131)
   static ::OVR::OpenVR::EVRInitError const Init_NotAvailableToWatchdogApps;
 
-  /// @brief Field Init_NotInitialized value: static_cast<int32_t>(0x6d)
+  /// @brief Field Init_NotInitialized value: I32(109)
   static ::OVR::OpenVR::EVRInitError const Init_NotInitialized;
 
-  /// @brief Field Init_NotSupportedWithCompositor value: static_cast<int32_t>(0x7a)
+  /// @brief Field Init_NotSupportedWithCompositor value: I32(122)
   static ::OVR::OpenVR::EVRInitError const Init_NotSupportedWithCompositor;
 
-  /// @brief Field Init_PathRegistryNotFound value: static_cast<int32_t>(0x6e)
+  /// @brief Field Init_PathRegistryNotFound value: I32(110)
   static ::OVR::OpenVR::EVRInitError const Init_PathRegistryNotFound;
 
-  /// @brief Field Init_PathRegistryNotWritable value: static_cast<int32_t>(0x71)
+  /// @brief Field Init_PathRegistryNotWritable value: I32(113)
   static ::OVR::OpenVR::EVRInitError const Init_PathRegistryNotWritable;
 
-  /// @brief Field Init_RebootingBusy value: static_cast<int32_t>(0x89)
+  /// @brief Field Init_RebootingBusy value: I32(137)
   static ::OVR::OpenVR::EVRInitError const Init_RebootingBusy;
 
-  /// @brief Field Init_Retry value: static_cast<int32_t>(0x73)
+  /// @brief Field Init_Retry value: I32(115)
   static ::OVR::OpenVR::EVRInitError const Init_Retry;
 
-  /// @brief Field Init_SettingsInitFailed value: static_cast<int32_t>(0x76)
+  /// @brief Field Init_SettingsInitFailed value: I32(118)
   static ::OVR::OpenVR::EVRInitError const Init_SettingsInitFailed;
 
-  /// @brief Field Init_ShuttingDown value: static_cast<int32_t>(0x77)
+  /// @brief Field Init_ShuttingDown value: I32(119)
   static ::OVR::OpenVR::EVRInitError const Init_ShuttingDown;
 
-  /// @brief Field Init_TooManyObjects value: static_cast<int32_t>(0x78)
+  /// @brief Field Init_TooManyObjects value: I32(120)
   static ::OVR::OpenVR::EVRInitError const Init_TooManyObjects;
 
-  /// @brief Field Init_TrackerManagerInitFailed value: static_cast<int32_t>(0x8e)
+  /// @brief Field Init_TrackerManagerInitFailed value: I32(142)
   static ::OVR::OpenVR::EVRInitError const Init_TrackerManagerInitFailed;
 
-  /// @brief Field Init_USBServiceBusy value: static_cast<int32_t>(0x8c)
+  /// @brief Field Init_USBServiceBusy value: I32(140)
   static ::OVR::OpenVR::EVRInitError const Init_USBServiceBusy;
 
-  /// @brief Field Init_UserConfigDirectoryInvalid value: static_cast<int32_t>(0x6b)
+  /// @brief Field Init_UserConfigDirectoryInvalid value: I32(107)
   static ::OVR::OpenVR::EVRInitError const Init_UserConfigDirectoryInvalid;
 
-  /// @brief Field Init_VRClientDLLNotFound value: static_cast<int32_t>(0x66)
+  /// @brief Field Init_VRClientDLLNotFound value: I32(102)
   static ::OVR::OpenVR::EVRInitError const Init_VRClientDLLNotFound;
 
-  /// @brief Field Init_VRDashboardNotFound value: static_cast<int32_t>(0x85)
+  /// @brief Field Init_VRDashboardNotFound value: I32(133)
   static ::OVR::OpenVR::EVRInitError const Init_VRDashboardNotFound;
 
-  /// @brief Field Init_VRDashboardStartupFailed value: static_cast<int32_t>(0x86)
+  /// @brief Field Init_VRDashboardStartupFailed value: I32(134)
   static ::OVR::OpenVR::EVRInitError const Init_VRDashboardStartupFailed;
 
-  /// @brief Field Init_VRHomeNotFound value: static_cast<int32_t>(0x87)
+  /// @brief Field Init_VRHomeNotFound value: I32(135)
   static ::OVR::OpenVR::EVRInitError const Init_VRHomeNotFound;
 
-  /// @brief Field Init_VRHomeStartupFailed value: static_cast<int32_t>(0x88)
+  /// @brief Field Init_VRHomeStartupFailed value: I32(136)
   static ::OVR::OpenVR::EVRInitError const Init_VRHomeStartupFailed;
 
-  /// @brief Field Init_VRMonitorNotFound value: static_cast<int32_t>(0x7f)
+  /// @brief Field Init_VRMonitorNotFound value: I32(127)
   static ::OVR::OpenVR::EVRInitError const Init_VRMonitorNotFound;
 
-  /// @brief Field Init_VRMonitorStartupFailed value: static_cast<int32_t>(0x80)
+  /// @brief Field Init_VRMonitorStartupFailed value: I32(128)
   static ::OVR::OpenVR::EVRInitError const Init_VRMonitorStartupFailed;
 
-  /// @brief Field Init_VRWebHelperStartupFailed value: static_cast<int32_t>(0x8d)
+  /// @brief Field Init_VRWebHelperStartupFailed value: I32(141)
   static ::OVR::OpenVR::EVRInitError const Init_VRWebHelperStartupFailed;
 
-  /// @brief Field Init_WatchdogDisabledInSettings value: static_cast<int32_t>(0x84)
+  /// @brief Field Init_WatchdogDisabledInSettings value: I32(132)
   static ::OVR::OpenVR::EVRInitError const Init_WatchdogDisabledInSettings;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::OVR::OpenVR::EVRInitError const None;
 
-  /// @brief Field Steam_SteamInstallationNotFound value: static_cast<int32_t>(0x7d0)
+  /// @brief Field Steam_SteamInstallationNotFound value: I32(2000)
   static ::OVR::OpenVR::EVRInitError const Steam_SteamInstallationNotFound;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x1)
+  /// @brief Field Unknown value: I32(1)
   static ::OVR::OpenVR::EVRInitError const Unknown;
 
-  /// @brief Field VendorSpecific_HmdFound_CantOpenDevice value: static_cast<int32_t>(0x44d)
+  /// @brief Field VendorSpecific_HmdFound_CantOpenDevice value: I32(1101)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantOpenDevice;
 
-  /// @brief Field VendorSpecific_HmdFound_CantReadFirmwareVersion value: static_cast<int32_t>(0x453)
+  /// @brief Field VendorSpecific_HmdFound_CantReadFirmwareVersion value: I32(1107)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_CantReadFirmwareVersion;
 
-  /// @brief Field VendorSpecific_HmdFound_ConfigFailedSanityCheck value: static_cast<int32_t>(0x459)
+  /// @brief Field VendorSpecific_HmdFound_ConfigFailedSanityCheck value: I32(1113)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigFailedSanityCheck;
 
-  /// @brief Field VendorSpecific_HmdFound_ConfigTooBig value: static_cast<int32_t>(0x450)
+  /// @brief Field VendorSpecific_HmdFound_ConfigTooBig value: I32(1104)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooBig;
 
-  /// @brief Field VendorSpecific_HmdFound_ConfigTooSmall value: static_cast<int32_t>(0x451)
+  /// @brief Field VendorSpecific_HmdFound_ConfigTooSmall value: I32(1105)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_ConfigTooSmall;
 
-  /// @brief Field VendorSpecific_HmdFound_NoStoredConfig value: static_cast<int32_t>(0x44f)
+  /// @brief Field VendorSpecific_HmdFound_NoStoredConfig value: I32(1103)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_NoStoredConfig;
 
-  /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataNext value: static_cast<int32_t>(0x456)
+  /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataNext value: I32(1110)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataNext;
 
-  /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataStart value: static_cast<int32_t>(0x455)
+  /// @brief Field VendorSpecific_HmdFound_UnableToGetUserDataStart value: I32(1109)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToGetUserDataStart;
 
-  /// @brief Field VendorSpecific_HmdFound_UnableToInitZLib value: static_cast<int32_t>(0x452)
+  /// @brief Field VendorSpecific_HmdFound_UnableToInitZLib value: I32(1106)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToInitZLib;
 
-  /// @brief Field VendorSpecific_HmdFound_UnableToRequestConfigStart value: static_cast<int32_t>(0x44e)
+  /// @brief Field VendorSpecific_HmdFound_UnableToRequestConfigStart value: I32(1102)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToRequestConfigStart;
 
-  /// @brief Field VendorSpecific_HmdFound_UnableToSendUserDataStart value: static_cast<int32_t>(0x454)
+  /// @brief Field VendorSpecific_HmdFound_UnableToSendUserDataStart value: I32(1108)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UnableToSendUserDataStart;
 
-  /// @brief Field VendorSpecific_HmdFound_UserDataAddressRange value: static_cast<int32_t>(0x457)
+  /// @brief Field VendorSpecific_HmdFound_UserDataAddressRange value: I32(1111)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataAddressRange;
 
-  /// @brief Field VendorSpecific_HmdFound_UserDataError value: static_cast<int32_t>(0x458)
+  /// @brief Field VendorSpecific_HmdFound_UserDataError value: I32(1112)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_HmdFound_UserDataError;
 
-  /// @brief Field VendorSpecific_UnableToConnectToOculusRuntime value: static_cast<int32_t>(0x3e8)
+  /// @brief Field VendorSpecific_UnableToConnectToOculusRuntime value: I32(1000)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_UnableToConnectToOculusRuntime;
 
-  /// @brief Field VendorSpecific_WindowsNotInDevMode value: static_cast<int32_t>(0x3e9)
+  /// @brief Field VendorSpecific_WindowsNotInDevMode value: I32(1001)
   static ::OVR::OpenVR::EVRInitError const VendorSpecific_WindowsNotInDevMode;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8920 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRInitError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRInitError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRInitError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRInitError, "OVR.OpenVR", "EVRInitError");

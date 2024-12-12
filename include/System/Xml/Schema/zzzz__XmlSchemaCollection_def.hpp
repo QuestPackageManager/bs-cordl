@@ -3,18 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaCollection)
 namespace System::Collections {
 class Hashtable;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -58,11 +54,10 @@ class XmlSchemaCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaCollection);
-// Type: System.Xml.Schema::XmlSchemaCollection
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaCollection*
+// CS Name: System.Xml.Schema.XmlSchemaCollection
 class CORDL_TYPE XmlSchemaCollection : public ::System::Object {
 public:
   // Declarations
@@ -112,73 +107,73 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x4251cac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x42b2fc0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile);
 
-  /// @brief Method Add, addr 0x4258680, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x42b9994, size 0x148, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* Add(::StringW ns, ::System::Xml::Schema::SchemaInfo* schemaInfo, ::System::Xml::Schema::XmlSchema* schema, bool compile,
                                                ::System::Xml::XmlResolver* resolver);
 
-  /// @brief Method Add, addr 0x42587d0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x42b9ae4, size 0x13c, virtual false, abstract: false, final false
   inline void Add(::StringW ns, ::System::Xml::Schema::XmlSchemaCollectionNode* node);
 
-  /// @brief Method GetEnumerator, addr 0x42582d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x42b95e4, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaCollectionEnumerator* GetEnumerator();
 
-  /// @brief Method GetSchemaInfo, addr 0x4253584, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaInfo, addr 0x42b4898, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* GetSchemaInfo(::StringW ns);
 
-  /// @brief Method GetSchemaNames, addr 0x42585e8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaNames, addr 0x42b98fc, size 0x98, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaNames* GetSchemaNames(::System::Xml::XmlNameTable* nt);
 
   static inline ::System::Xml::Schema::XmlSchemaCollection* New_ctor(::System::Xml::XmlNameTable* nametable);
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x425832c, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x42b9640, size 0x114, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x42585c4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x42b98d8, size 0x24, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x42585b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x42b98cc, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x42585c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x42b98d4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4258230, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x42b9544, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_collection();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_collection() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_collection() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_collection();
 
   constexpr bool const& __cordl_internal_get_isThreadSafe() const;
 
   constexpr bool& __cordl_internal_get_isThreadSafe();
 
+  constexpr ::System::Xml::XmlNameTable* const& __cordl_internal_get_nameTable() const;
+
   constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
+  constexpr ::System::Xml::Schema::SchemaNames* const& __cordl_internal_get_schemaNames() const;
 
   constexpr ::System::Xml::Schema::SchemaNames*& __cordl_internal_get_schemaNames();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaNames*> const& __cordl_internal_get_schemaNames() const;
 
   constexpr int32_t const& __cordl_internal_get_timeout() const;
 
   constexpr int32_t& __cordl_internal_get_timeout();
 
+  constexpr ::System::Xml::Schema::ValidationEventHandler* const& __cordl_internal_get_validationEventHandler() const;
+
   constexpr ::System::Xml::Schema::ValidationEventHandler*& __cordl_internal_get_validationEventHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::ValidationEventHandler*> const& __cordl_internal_get_validationEventHandler() const;
+  constexpr ::System::Threading::ReaderWriterLock* const& __cordl_internal_get_wLock() const;
 
   constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_wLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __cordl_internal_get_wLock() const;
+  constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
 
   constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_xmlResolver() const;
 
   constexpr void __cordl_internal_set_collection(::System::Collections::Hashtable* value);
 
@@ -196,19 +191,19 @@ public:
 
   constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  /// @brief Method .ctor, addr 0x4258040, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9354, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nametable);
 
-  /// @brief Method get_Count, addr 0x4258158, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x42b946c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_EventHandler, addr 0x425890c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EventHandler, addr 0x42b9c20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ValidationEventHandler* get_EventHandler();
 
-  /// @brief Method get_Item, addr 0x425818c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x42b94a0, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_Item(::StringW ns);
 
-  /// @brief Method get_NameTable, addr 0x425817c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x42b9490, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -217,10 +212,10 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_EventHandler, addr 0x4258914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventHandler, addr 0x42b9c28, size 0x8, virtual false, abstract: false, final false
   inline void set_EventHandler(::System::Xml::Schema::ValidationEventHandler* value);
 
-  /// @brief Method set_XmlResolver, addr 0x4258184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x42b9498, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:
@@ -236,6 +231,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaCollection(XmlSchemaCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7655 };
 
   /// @brief Field collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___collection;
@@ -261,14 +259,9 @@ public:
   /// @brief Field xmlResolver, offset: 0x40, size: 0x8, def value: None
   ::System::Xml::XmlResolver* ___xmlResolver;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7630 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCollection, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollection, ___collection) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollection, ___nameTable) == 0x18, "Offset mismatch!");
@@ -284,6 +277,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollection, ___isThreadSa
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollection, ___validationEventHandler) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCollection, ___xmlResolver) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCollection, 0x48>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaCollection);

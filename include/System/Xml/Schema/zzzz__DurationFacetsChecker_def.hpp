@@ -26,29 +26,28 @@ class DurationFacetsChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::DurationFacetsChecker);
-// Type: System.Xml.Schema::DurationFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.FacetsChecker
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::DurationFacetsChecker*
+// CS Name: System.Xml.Schema.DurationFacetsChecker
 class CORDL_TYPE DurationFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x43564b8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43b77cc, size 0x114, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43565cc, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x43b78e0, size 0x360, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::TimeSpan value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x4356a44, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43b7d58, size 0x78, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x435692c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x43b7c40, size 0x118, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::TimeSpan value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::DurationFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4342534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a3848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +65,7 @@ public:
   DurationFacetsChecker(DurationFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7563 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7588 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

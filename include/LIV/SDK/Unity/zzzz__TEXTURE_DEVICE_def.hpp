@@ -12,11 +12,10 @@ struct TEXTURE_DEVICE;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_DEVICE);
-// Type: LIV.SDK.Unity::TEXTURE_DEVICE
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::TEXTURE_DEVICE
+// CS Name: LIV.SDK.Unity.TEXTURE_DEVICE
 struct CORDL_TYPE TEXTURE_DEVICE {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr TEXTURE_DEVICE(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field DIRECTX value: static_cast<uint32_t>(0x5040302u)
+  /// @brief Field DIRECTX value: U32(84148994)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const DIRECTX;
 
-  /// @brief Field METAL value: static_cast<uint32_t>(0x2010005u)
+  /// @brief Field METAL value: U32(33619973)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const METAL;
 
-  /// @brief Field OPENGL value: static_cast<uint32_t>(0x50403u)
+  /// @brief Field OPENGL value: U32(328707)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const OPENGL;
 
-  /// @brief Field RAW value: static_cast<uint32_t>(0x4030201u)
+  /// @brief Field RAW value: U32(67305985)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const RAW;
 
-  /// @brief Field UNDEFINED value: static_cast<uint32_t>(0x3020100u)
+  /// @brief Field UNDEFINED value: U32(50462976)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const UNDEFINED;
 
-  /// @brief Field VULKAN value: static_cast<uint32_t>(0x1000504u)
+  /// @brief Field VULKAN value: U32(16778500)
   static ::LIV::SDK::Unity::TEXTURE_DEVICE const VULKAN;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17313 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_DEVICE, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::TEXTURE_DEVICE, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::TEXTURE_DEVICE, 0x4>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::TEXTURE_DEVICE, "LIV.SDK.Unity", "TEXTURE_DEVICE");

@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x22c8164;
+  constexpr static std::size_t addrs = 0x22fb450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22c3848;
+  constexpr static std::size_t addrs = 0x22f6b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c82c0;
+  constexpr static std::size_t addrs = 0x22fb5ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertId* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_CertID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c82c8;
+  constexpr static std::size_t addrs = 0x22fb5b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_WillBeRevokedAt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c82d0;
+  constexpr static std::size_t addrs = 0x22fb5bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_BadSinceDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c82d8;
+  constexpr static std::size_t addrs = 0x22fb5c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::get_CrlDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c82e0;
+  constexpr static std::size_t addrs = 0x22fb5cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x22c82e8;
+  constexpr static std::size_t addrs = 0x22fb5d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*& Org::BouncyCastle
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*> const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_status() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_status() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
@@ -146,7 +146,7 @@ constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId*& Org::BouncyCastle::Asn1::Cmp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertId*> const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_certId() const {
+constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId* const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_certId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
@@ -158,7 +158,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___willBeRevokedAt;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_willBeRevokedAt() const {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_willBeRevokedAt() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___willBeRevokedAt;
 }
@@ -170,7 +170,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badSinceDate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_badSinceDate() const {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_badSinceDate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badSinceDate;
 }
@@ -182,16 +182,13 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::A
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlDetails;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_crlDetails() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_get_crlDetails() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlDetails;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::RevAnnContent::__cordl_internal_set_crlDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___crlDetails)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* Org::BouncyCastle::Asn1::Cmp::RevAnnContent::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cmp::RevAnnContent::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -234,6 +231,9 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::RevA
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* Org::BouncyCastle::Asn1::Cmp::RevAnnContent::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::RevAnnContent*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent::RevAnnContent() {}

@@ -15,18 +15,17 @@ class RandomExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RandomExtensions);
-// Type: ::RandomExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RandomExtensions*
+// CS Name: RandomExtensions
 class CORDL_TYPE RandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBool, addr 0x226a934, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x229d188, size 0x2c, virtual false, abstract: false, final false
   static inline bool GetBool(::System::Random* random);
 
-  /// @brief Method GetRange, addr 0x226a8ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetRange, addr 0x229d140, size 0x48, virtual false, abstract: false, final false
   static inline float_t GetRange(::System::Random* random, float_t min, float_t max);
 
 protected:
@@ -44,7 +43,7 @@ public:
   RandomExtensions(RandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

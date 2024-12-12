@@ -14,20 +14,19 @@ class AnssiObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Anssi::AnssiObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Anssi.AnssiObjectIdentifiers
 class CORDL_TYPE AnssiObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FRP256v1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FRP256v1, put = setStaticF_FRP256v1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FRP256v1;
+  __declspec(property(get = getStaticF_FRP256v1, put = setStaticF_FRP256v1)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* FRP256v1;
 
   static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22bca98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22efd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_FRP256v1();

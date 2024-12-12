@@ -3,17 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SendHapticImpulseCommand)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -23,11 +18,10 @@ struct SendHapticImpulseCommand;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand);
-// Type: UnityEngine.InputSystem.XR.Haptics::SendHapticImpulseCommand
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.InputDeviceCommand
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendHapticImpulseCommand
+// CS Name: UnityEngine.InputSystem.XR.Haptics.SendHapticImpulseCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SendHapticImpulseCommand {
 public:
@@ -49,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x4581fc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45e32dc, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand Create(int32_t motorChannel, float_t motorAmplitude, float_t motorDuration);
 
   constexpr float_t const& __cordl_internal_get_amplitude() const;
@@ -76,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method get_Type, addr 0x4586420, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x45e7734, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x4586450, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45e7764, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -156,7 +150,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6728 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6753 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

@@ -31,11 +31,10 @@ class FaceRebuildData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::FaceRebuildData);
-// Type: UnityEngine.ProBuilder::FaceRebuildData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::FaceRebuildData*
+// CS Name: UnityEngine.ProBuilder.FaceRebuildData
 class CORDL_TYPE FaceRebuildData : public ::System::Object {
 public:
   // Declarations
@@ -54,42 +53,42 @@ public:
   /// @brief Field vertices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
 
-  /// @brief Method Apply, addr 0x46a7dd4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x47090e8, size 0x17c, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces, ::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Apply, addr 0x46a7f50, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x4709264, size 0x59c, virtual false, abstract: false, final false
   static inline void Apply(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::FaceRebuildData*>* newFaces,
                            ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* faces,
                            ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedVertexLookup, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* sharedTextureLookup);
 
   static inline ::UnityEngine::ProBuilder::FaceRebuildData* New_ctor();
 
-  /// @brief Method Offset, addr 0x46a7d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Offset, addr 0x4709018, size 0x8, virtual false, abstract: false, final false
   inline int32_t Offset();
 
-  /// @brief Method ToString, addr 0x46a7d0c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4709020, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__appliedOffset() const;
 
   constexpr int32_t& __cordl_internal_get__appliedOffset();
 
+  constexpr ::UnityEngine::ProBuilder::Face* const& __cordl_internal_get_face() const;
+
   constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_sharedIndexes() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexes() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_sharedIndexesUV() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexesUV();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexesUV() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* const& __cordl_internal_get_vertices() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& __cordl_internal_get_vertices();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const& __cordl_internal_get_vertices() const;
 
   constexpr void __cordl_internal_set__appliedOffset(int32_t value);
 
@@ -101,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
 
-  /// @brief Method .ctor, addr 0x46a84ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4709800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FaceRebuildData(FaceRebuildData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14238 };
+
   /// @brief Field face, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Face* ___face;
 
@@ -133,14 +135,9 @@ public:
   /// @brief Field _appliedOffset, offset: 0x30, size: 0x4, def value: None
   int32_t ____appliedOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14204 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::FaceRebuildData, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___face) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___vertices) == 0x18, "Offset mismatch!");
@@ -150,6 +147,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___sharedInde
 static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ___sharedIndexesUV) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::FaceRebuildData, ____appliedOffset) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::FaceRebuildData, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::FaceRebuildData);

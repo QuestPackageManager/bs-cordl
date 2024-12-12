@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::get_LabelIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405f4d4;
+  constexpr static std::size_t addrs = 0x40c07e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchLabel::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::set_LabelIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405f4dc;
+  constexpr static std::size_t addrs = 0x40c07f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::BranchLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::get_HasRuntimeLabel)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x405f4e4;
+  constexpr static std::size_t addrs = 0x40c07f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::BranchLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::get_TargetIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405f4f8;
+  constexpr static std::size_t addrs = 0x40c080c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::RuntimeLabel (::System::Linq::Expressions::Interpreter::BranchLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::ToRuntimeLabel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x405f500;
+  constexpr static std::size_t addrs = 0x40c0814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchLabel::*)(
     ::System::Linq::Expressions::Interpreter::InstructionList*)>(&::System::Linq::Expressions::Interpreter::BranchLabel::Mark)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x405f50c;
+  constexpr static std::size_t addrs = 0x40c0820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchLabel::*)(
     ::System::Linq::Expressions::Interpreter::InstructionList*, int32_t)>(&::System::Linq::Expressions::Interpreter::BranchLabel::AddBranch)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x405f6b4;
+  constexpr static std::size_t addrs = 0x40c09c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchLabel::*)(
     ::System::Linq::Expressions::Interpreter::InstructionList*, int32_t)>(&::System::Linq::Expressions::Interpreter::BranchLabel::FixupBranch)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x405f688;
+  constexpr static std::size_t addrs = 0x40c099c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::BranchLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::BranchLabel::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x405f7dc;
+  constexpr static std::size_t addrs = 0x40c0af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
@@ -177,8 +177,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& System::Linq::Expres
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forwardBranchFixups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const&
-System::Linq::Expressions::Interpreter::BranchLabel::__cordl_internal_get__forwardBranchFixups() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& System::Linq::Expressions::Interpreter::BranchLabel::__cordl_internal_get__forwardBranchFixups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____forwardBranchFixups;
 }
@@ -244,13 +243,13 @@ inline void System::Linq::Expressions::Interpreter::BranchLabel::FixupBranch(::S
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instructions, branchIndex);
 }
-inline ::System::Linq::Expressions::Interpreter::BranchLabel* System::Linq::Expressions::Interpreter::BranchLabel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchLabel*>());
-}
 inline void System::Linq::Expressions::Interpreter::BranchLabel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::BranchLabel*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::BranchLabel* System::Linq::Expressions::Interpreter::BranchLabel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::BranchLabel*>());
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::BranchLabel::BranchLabel() {}

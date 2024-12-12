@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockFloatCurve::SetProperty)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x398ffe8;
+  constexpr static std::size_t addrs = 0x39e6b68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockFloatCurve::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3990080;
+  constexpr static std::size_t addrs = 0x39e6c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>::get(),
@@ -37,7 +37,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::MaterialPropertyBlock
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::MaterialPropertyBlockFloatCurve::__cordl_internal_get__curve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::MaterialPropertyBlockFloatCurve::__cordl_internal_get__curve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curve;
 }
@@ -74,13 +74,13 @@ inline void GlobalNamespace::MaterialPropertyBlockFloatCurve::SetProperty() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* GlobalNamespace::MaterialPropertyBlockFloatCurve::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>());
-}
 inline void GlobalNamespace::MaterialPropertyBlockFloatCurve::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* GlobalNamespace::MaterialPropertyBlockFloatCurve::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MaterialPropertyBlockFloatCurve::MaterialPropertyBlockFloatCurve() {}

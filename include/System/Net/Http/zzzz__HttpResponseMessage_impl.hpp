@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/HttpResponseMessage.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpResponseHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpResponseMessage._ctor
 template <>
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(
     &::System::Net::Http::HttpResponseMessage::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x41b1c78;
+  constexpr static std::size_t addrs = 0x4212f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpContent* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7bac;
+  constexpr static std::size_t addrs = 0x4218ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Content",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpContent*)>(
     &::System::Net::Http::HttpResponseMessage::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7bb4;
+  constexpr static std::size_t addrs = 0x4218ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::Headers::HttpResponseHeaders* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Headers)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x41b1dd4;
+  constexpr static std::size_t addrs = 0x42130e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Headers",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41b7c1c;
+  constexpr static std::size_t addrs = 0x4218f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41b7c30;
+  constexpr static std::size_t addrs = 0x4218f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::StringW)>(
     &::System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7c4c;
+  constexpr static std::size_t addrs = 0x4218f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpRequestMessage*)>(
     &::System::Net::Http::HttpResponseMessage::set_RequestMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7c54;
+  constexpr static std::size_t addrs = 0x4218f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpStatusCode (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b7c5c;
+  constexpr static std::size_t addrs = 0x4218f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(
     &::System::Net::Http::HttpResponseMessage::set_StatusCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41b7b64;
+  constexpr static std::size_t addrs = 0x4218e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Version)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x41b7c64;
+  constexpr static std::size_t addrs = 0x4218f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Version",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41b7cc8;
+  constexpr static std::size_t addrs = 0x4218fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "Dispose",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(bool)>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x41b7cd8;
+  constexpr static std::size_t addrs = 0x4218fec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpResponseMessage* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x41b5fd8;
+  constexpr static std::size_t addrs = 0x42172ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::ToString)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x41b7d0c;
+  constexpr static std::size_t addrs = 0x4219020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,19 +223,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Net::Http::HttpResponseMessage::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Net::Http::HttpResponseMessage::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Net::Http::Headers::HttpResponseHeaders*& System::Net::Http::HttpResponseMessage::__cordl_internal_get_headers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpResponseHeaders*> const& System::Net::Http::HttpResponseMessage::__cordl_internal_get_headers() const {
+constexpr ::System::Net::Http::Headers::HttpResponseHeaders* const& System::Net::Http::HttpResponseMessage::__cordl_internal_get_headers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
@@ -271,7 +263,7 @@ constexpr ::System::Version*& System::Net::Http::HttpResponseMessage::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::Http::HttpResponseMessage::__cordl_internal_get_version() const {
+constexpr ::System::Version* const& System::Net::Http::HttpResponseMessage::__cordl_internal_get_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___version;
 }
@@ -295,7 +287,7 @@ constexpr ::System::Net::Http::HttpContent*& System::Net::Http::HttpResponseMess
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Content_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& System::Net::Http::HttpResponseMessage::__cordl_internal_get__Content_k__BackingField() const {
+constexpr ::System::Net::Http::HttpContent* const& System::Net::Http::HttpResponseMessage::__cordl_internal_get__Content_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Content_k__BackingField;
 }
@@ -307,16 +299,13 @@ constexpr ::System::Net::Http::HttpRequestMessage*& System::Net::Http::HttpRespo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestMessage_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpRequestMessage*> const& System::Net::Http::HttpResponseMessage::__cordl_internal_get__RequestMessage_k__BackingField() const {
+constexpr ::System::Net::Http::HttpRequestMessage* const& System::Net::Http::HttpResponseMessage::__cordl_internal_get__RequestMessage_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestMessage_k__BackingField;
 }
 constexpr void System::Net::Http::HttpResponseMessage::__cordl_internal_set__RequestMessage_k__BackingField(::System::Net::Http::HttpRequestMessage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____RequestMessage_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::Http::HttpResponseMessage* System::Net::Http::HttpResponseMessage::New_ctor(::System::Net::HttpStatusCode statusCode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpResponseMessage*>(statusCode));
 }
 inline void System::Net::Http::HttpResponseMessage::_ctor(::System::Net::HttpStatusCode statusCode) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -397,6 +386,17 @@ inline ::StringW System::Net::Http::HttpResponseMessage::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Net::Http::HttpResponseMessage* System::Net::Http::HttpResponseMessage::New_ctor(::System::Net::HttpStatusCode statusCode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpResponseMessage*>(statusCode));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Net::Http::HttpResponseMessage::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Net::Http::HttpResponseMessage::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Http::HttpResponseMessage::HttpResponseMessage() {}

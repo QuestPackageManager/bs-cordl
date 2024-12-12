@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__SongController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(GameSongController)
@@ -18,9 +19,6 @@ class BeatmapCallbacksController;
 namespace GlobalNamespace {
 class BeatmapCallbacksUpdater;
 }
-namespace GlobalNamespace {
-class IStartSeekSongController;
-}
 namespace UnityEngine {
 class WaitUntil;
 }
@@ -30,11 +28,10 @@ class GameSongController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameSongController);
-// Type: ::GameSongController
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IStartSeekSongController, SongController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameSongController*
+// CS Name: GameSongController
 class CORDL_TYPE GameSongController : public ::GlobalNamespace::SongController {
 public:
   // Declarations
@@ -66,39 +63,39 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
   constexpr operator ::GlobalNamespace::IStartSeekSongController*() noexcept;
 
-  /// @brief Method FailStopSong, addr 0x3b8a470, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method FailStopSong, addr 0x3bebc88, size 0x118, virtual false, abstract: false, final false
   inline void FailStopSong();
 
-  /// @brief Method LateUpdate, addr 0x3b8a304, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3bebb1c, size 0x74, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::GameSongController* New_ctor();
 
-  /// @brief Method PauseSong, addr 0x3b8a410, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method PauseSong, addr 0x3bebc28, size 0x30, virtual true, abstract: false, final false
   inline void PauseSong();
 
-  /// @brief Method ResumeSong, addr 0x3b8a440, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ResumeSong, addr 0x3bebc58, size 0x30, virtual true, abstract: false, final false
   inline void ResumeSong();
 
-  /// @brief Method SeekTo, addr 0x3b8a588, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method SeekTo, addr 0x3bebda0, size 0x1c, virtual true, abstract: false, final true
   inline void SeekTo(float_t songTime);
 
-  /// @brief Method StartSong, addr 0x3b8a394, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method StartSong, addr 0x3bebbac, size 0x44, virtual true, abstract: false, final true
   inline void StartSong(float_t songTimeOffset);
 
-  /// @brief Method StopSong, addr 0x3b8a3f4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method StopSong, addr 0x3bebc0c, size 0x1c, virtual true, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method <FailStopSong>b__16_0, addr 0x3b8a5b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <FailStopSong>b__16_0, addr 0x3bebdcc, size 0x1c, virtual false, abstract: false, final false
   inline void _FailStopSong_b__16_0();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCallbacksUpdater> const& __cordl_internal_get__beatmapCallbacksUpdater() const;
 
@@ -122,16 +119,16 @@ public:
 
   constexpr void __cordl_internal_set__songDidFinish(bool value);
 
-  /// @brief Method .ctor, addr 0x3b8a5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bebdbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_songFailedToLoad, addr 0x3b8a2e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_songFailedToLoad, addr 0x3bebb00, size 0x1c, virtual true, abstract: false, final true
   inline bool get_songFailedToLoad();
 
-  /// @brief Method get_songLength, addr 0x3b8a2b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songLength, addr 0x3bebac8, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3b8a2cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x3bebae4, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
@@ -151,6 +148,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameSongController(GameSongController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4690 };
+
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
@@ -166,14 +166,9 @@ public:
   /// @brief Field _songDidFinish, offset: 0x50, size: 0x1, def value: None
   bool ____songDidFinish;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4678 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameSongController, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameSongController, ____audioTimeSyncController) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameSongController, ____failAudioPitchGainEffect) == 0x38, "Offset mismatch!");
@@ -183,6 +178,8 @@ static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbac
 static_assert(offsetof(::GlobalNamespace::GameSongController, ____beatmapCallbacksUpdater) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameSongController, ____songDidFinish) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameSongController, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameSongController);

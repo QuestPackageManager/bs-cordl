@@ -32,11 +32,10 @@ class PasswordRecipientInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo);
-// Type: Org.BouncyCastle.Asn1.Cms::PasswordRecipientInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::PasswordRecipientInfo*
+// CS Name: Org.BouncyCastle.Asn1.Cms.PasswordRecipientInfo
 class CORDL_TYPE PasswordRecipientInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -62,10 +61,10 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0x22d5b5c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2308e48, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x22d5b74, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2308e60, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm,
@@ -77,24 +76,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22d5cfc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2308fe8, size 0x188, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_encryptedKey() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_encryptedKey() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_keyDerivationAlgorithm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyDerivationAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyDerivationAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_keyEncryptionAlgorithm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncryptionAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
   constexpr void __cordl_internal_set_encryptedKey(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
@@ -104,26 +103,26 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22d588c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2308b78, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0x22d5810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2308afc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor, addr 0x22d5914, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2308c00, size 0x248, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncryptedKey, addr 0x22d5cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedKey, addr 0x2308fe0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method get_KeyDerivationAlgorithm, addr 0x22d5ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyDerivationAlgorithm, addr 0x2308fd0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyDerivationAlgorithm();
 
-  /// @brief Method get_KeyEncryptionAlgorithm, addr 0x22d5cec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0x2308fd8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_Version, addr 0x22d5cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2308fc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:
@@ -140,6 +139,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PasswordRecipientInfo(PasswordRecipientInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 87 };
+
   /// @brief Field version, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___version;
 
@@ -152,14 +154,9 @@ public:
   /// @brief Field encryptedKey, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___encryptedKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 87 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, ___keyDerivationAlgorithm) == 0x18, "Offset mismatch!");
@@ -167,6 +164,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, __
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, ___keyEncryptionAlgorithm) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, ___encryptedKey) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo);

@@ -12,17 +12,16 @@ class ClientAuthenticationType;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ClientAuthenticationType);
-// Type: Org.BouncyCastle.Crypto.Tls::ClientAuthenticationType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::ClientAuthenticationType*
+// CS Name: Org.BouncyCastle.Crypto.Tls.ClientAuthenticationType
 class CORDL_TYPE ClientAuthenticationType : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::ClientAuthenticationType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23b2c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e5f6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,21 +16,20 @@ struct LinkInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::LinkInfo);
-// Type: UnityEngine.TextCore.Text::LinkInfo
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::LinkInfo
+// CS Name: UnityEngine.TextCore.Text.LinkInfo
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method GetLinkId, addr 0x48c6e80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLinkId, addr 0x492b510, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetLinkId();
 
-  /// @brief Method GetLinkText, addr 0x48c6d88, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetLinkText, addr 0x492b418, size 0xf8, virtual false, abstract: false, final false
   inline ::StringW GetLinkText(::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetLinkId, addr 0x48c6cac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x492b33c, size 0xdc, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []
@@ -44,6 +42,12 @@ public:
   // "m_LinkIdString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_LinkTextString", ty: "::StringW", modifiers: "", def_value: None }]
   constexpr LinkInfo(int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex, int32_t linkTextLength,
                      ::ArrayW<char16_t, ::Array<char16_t>*> linkId, ::StringW m_LinkIdString, ::StringW m_LinkTextString) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15243 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field hashCode, offset: 0x0, size: 0x4, def value: None
   int32_t hashCode;
@@ -69,17 +73,9 @@ public:
   /// @brief Field m_LinkTextString, offset: 0x28, size: 0x8, def value: None
   ::StringW m_LinkTextString;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15208 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::LinkInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, hashCode) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkIdFirstCharacterIndex) == 0x4, "Offset mismatch!");
@@ -95,6 +91,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, linkId) == 0x18,
 static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, m_LinkIdString) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::LinkInfo, m_LinkTextString) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::LinkInfo, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::LinkInfo, "UnityEngine.TextCore.Text", "LinkInfo");

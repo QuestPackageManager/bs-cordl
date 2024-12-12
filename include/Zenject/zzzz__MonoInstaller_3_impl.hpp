@@ -21,9 +21,6 @@ inline TDerived Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::InstallFro
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get() })));
   return ::cordl_internals::RunMethodRethrow<TDerived, false>(nullptr, ___internal_method, resourcePath, container, p1, p2);
 }
-template <typename TParam1, typename TParam2, typename TDerived> inline ::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>* Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>*>());
-}
 template <typename TParam1, typename TParam2, typename TDerived> inline void Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -33,6 +30,9 @@ template <typename TParam1, typename TParam2, typename TDerived> inline ::Zenjec
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TParam1, typename TParam2, typename TDerived> inline ::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>* Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TDerived> constexpr ::Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::MonoInstaller_3() {}

@@ -12,17 +12,16 @@ class PlayerPrefsException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::PlayerPrefsException);
-// Type: UnityEngine::PlayerPrefsException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::PlayerPrefsException*
+// CS Name: UnityEngine.PlayerPrefsException
 class CORDL_TYPE PlayerPrefsException : public ::System::Exception {
 public:
   // Declarations
   static inline ::UnityEngine::PlayerPrefsException* New_ctor(::StringW error);
 
-  /// @brief Method .ctor, addr 0x48434a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a426c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW error);
 
 protected:
@@ -40,7 +39,7 @@ public:
   PlayerPrefsException(PlayerPrefsException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

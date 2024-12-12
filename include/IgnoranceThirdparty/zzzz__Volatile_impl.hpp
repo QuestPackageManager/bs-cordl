@@ -3,322 +3,320 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong._ctor
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(&::IgnoranceThirdparty::Volatile_PaddedLong::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a4c13c;
+  constexpr static std::size_t addrs = 0x3aa2dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.ReadUnfenced
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.ReadUnfenced
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadUnfenced)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::ReadUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a4c144;
+  constexpr static std::size_t addrs = 0x3aa2db4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "ReadUnfenced", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.ReadAcquireFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.ReadAcquireFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadAcquireFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::ReadAcquireFence)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a4c14c;
+  constexpr static std::size_t addrs = 0x3aa2dbc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "ReadAcquireFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.ReadFullFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.ReadFullFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadFullFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::ReadFullFence)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a4c168;
+  constexpr static std::size_t addrs = 0x3aa2dd8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "ReadFullFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.ReadCompilerOnlyFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.ReadCompilerOnlyFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::ReadCompilerOnlyFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::ReadCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a4c184;
+  constexpr static std::size_t addrs = 0x3aa2df4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "ReadCompilerOnlyFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.WriteReleaseFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.WriteReleaseFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteReleaseFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::WriteReleaseFence)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a4c1a8;
+  constexpr static std::size_t addrs = 0x3aa2e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteReleaseFence",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteReleaseFence",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.WriteFullFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.WriteFullFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteFullFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::WriteFullFence)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a4c1d0;
+  constexpr static std::size_t addrs = 0x3aa2e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteFullFence",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteFullFence",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.WriteCompilerOnlyFence
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.WriteCompilerOnlyFence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteCompilerOnlyFence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::WriteCompilerOnlyFence)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a4c1f8;
+  constexpr static std::size_t addrs = 0x3aa2e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteCompilerOnlyFence",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteCompilerOnlyFence",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.WriteUnfenced
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.WriteUnfenced
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::WriteUnfenced)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::WriteUnfenced)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a4c224;
+  constexpr static std::size_t addrs = 0x3aa2e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteUnfenced",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteUnfenced",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.AtomicCompareExchange
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.AtomicCompareExchange
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t, int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicCompareExchange)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t, int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::AtomicCompareExchange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a4c22c;
+  constexpr static std::size_t addrs = 0x3aa2e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicCompareExchange", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicCompareExchange", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.AtomicExchange
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.AtomicExchange
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicExchange)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::AtomicExchange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a4c250;
+  constexpr static std::size_t addrs = 0x3aa2ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicExchange",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicExchange",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.AtomicAddAndGet
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.AtomicAddAndGet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)(int64_t)>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicAddAndGet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)(int64_t)>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::AtomicAddAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a4c25c;
+  constexpr static std::size_t addrs = 0x3aa2ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicAddAndGet",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicAddAndGet",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.AtomicIncrementAndGet
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.AtomicIncrementAndGet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicIncrementAndGet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::AtomicIncrementAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a4c268;
+  constexpr static std::size_t addrs = 0x3aa2ed8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "AtomicIncrementAndGet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.AtomicDecrementAndGet
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.AtomicDecrementAndGet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::AtomicDecrementAndGet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(
+    &::IgnoranceThirdparty::Volatile_PaddedLong::AtomicDecrementAndGet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a4c274;
+  constexpr static std::size_t addrs = 0x3aa2ee4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                                "AtomicDecrementAndGet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::IgnoranceThirdparty::__Volatile__PaddedLong.ToString
+//  Writing Method size for method: ::IgnoranceThirdparty::Volatile_PaddedLong.ToString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::IgnoranceThirdparty::__Volatile__PaddedLong::*)()>(
-    &::IgnoranceThirdparty::__Volatile__PaddedLong::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::IgnoranceThirdparty::Volatile_PaddedLong::*)()>(&::IgnoranceThirdparty::Volatile_PaddedLong::ToString)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a4c280;
+  constexpr static std::size_t addrs = 0x3aa2ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), 3));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), 3));
     return ___internal_method;
   }
 };
-constexpr int64_t& IgnoranceThirdparty::__Volatile__PaddedLong::__cordl_internal_get__value() {
+constexpr int64_t& IgnoranceThirdparty::Volatile_PaddedLong::__cordl_internal_get__value() {
   return this->____value;
 }
-constexpr int64_t const& IgnoranceThirdparty::__Volatile__PaddedLong::__cordl_internal_get__value() const {
+constexpr int64_t const& IgnoranceThirdparty::Volatile_PaddedLong::__cordl_internal_get__value() const {
   return this->____value;
 }
-constexpr void IgnoranceThirdparty::__Volatile__PaddedLong::__cordl_internal_set__value(int64_t value) {
+constexpr void IgnoranceThirdparty::Volatile_PaddedLong::__cordl_internal_set__value(int64_t value) {
   this->____value = value;
 }
-inline void IgnoranceThirdparty::__Volatile__PaddedLong::_ctor(int64_t value) {
+inline void IgnoranceThirdparty::Volatile_PaddedLong::_ctor(int64_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::ReadUnfenced() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
-                                                                             "ReadUnfenced", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::ReadUnfenced() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "ReadUnfenced",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::ReadAcquireFence() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::ReadAcquireFence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                              "ReadAcquireFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::ReadFullFence() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
-                                                                             "ReadFullFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::ReadFullFence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "ReadFullFence",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::ReadCompilerOnlyFence() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::ReadCompilerOnlyFence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                              "ReadCompilerOnlyFence", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline void IgnoranceThirdparty::__Volatile__PaddedLong::WriteReleaseFence(int64_t newValue) {
+inline void IgnoranceThirdparty::Volatile_PaddedLong::WriteReleaseFence(int64_t newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteReleaseFence",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteReleaseFence",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline void IgnoranceThirdparty::__Volatile__PaddedLong::WriteFullFence(int64_t newValue) {
+inline void IgnoranceThirdparty::Volatile_PaddedLong::WriteFullFence(int64_t newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteFullFence",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteFullFence",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline void IgnoranceThirdparty::__Volatile__PaddedLong::WriteCompilerOnlyFence(int64_t newValue) {
+inline void IgnoranceThirdparty::Volatile_PaddedLong::WriteCompilerOnlyFence(int64_t newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteCompilerOnlyFence",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteCompilerOnlyFence",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline void IgnoranceThirdparty::__Volatile__PaddedLong::WriteUnfenced(int64_t newValue) {
+inline void IgnoranceThirdparty::Volatile_PaddedLong::WriteUnfenced(int64_t newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "WriteUnfenced",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "WriteUnfenced",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline bool IgnoranceThirdparty::__Volatile__PaddedLong::AtomicCompareExchange(int64_t newValue, int64_t comparand) {
+inline bool IgnoranceThirdparty::Volatile_PaddedLong::AtomicCompareExchange(int64_t newValue, int64_t comparand) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicCompareExchange", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicCompareExchange", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, newValue, comparand);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::AtomicExchange(int64_t newValue) {
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::AtomicExchange(int64_t newValue) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicExchange",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicExchange",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, newValue);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::AtomicAddAndGet(int64_t delta) {
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::AtomicAddAndGet(int64_t delta) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), "AtomicAddAndGet",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), "AtomicAddAndGet",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, delta);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::AtomicIncrementAndGet() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::AtomicIncrementAndGet() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                              "AtomicIncrementAndGet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline int64_t IgnoranceThirdparty::__Volatile__PaddedLong::AtomicDecrementAndGet() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(),
+inline int64_t IgnoranceThirdparty::Volatile_PaddedLong::AtomicDecrementAndGet() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(),
                                                                              "AtomicDecrementAndGet", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline ::StringW IgnoranceThirdparty::__Volatile__PaddedLong::ToString() {
+inline ::StringW IgnoranceThirdparty::Volatile_PaddedLong::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::__Volatile__PaddedLong>::get(), 3)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceThirdparty::Volatile_PaddedLong>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_value", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong::__Volatile__PaddedLong(int64_t _value) noexcept {
+constexpr ::IgnoranceThirdparty::Volatile_PaddedLong::Volatile_PaddedLong(int64_t _value) noexcept {
   this->_value = _value;
 }
 // Ctor Parameters []
-constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong::__Volatile__PaddedLong() {}
+constexpr ::IgnoranceThirdparty::Volatile_PaddedLong::Volatile_PaddedLong() {}
 // Ctor Parameters []
 constexpr ::IgnoranceThirdparty::Volatile::Volatile() {}

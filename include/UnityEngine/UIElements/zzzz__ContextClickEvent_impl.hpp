@@ -4,64 +4,64 @@
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextClickEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextClickEvent_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__ContextClickEvent____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextClickEvent___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__ContextClickEvent____c::*)()>(
-    &::UnityEngine::UIElements::__ContextClickEvent____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent___c::*)()>(
+    &::UnityEngine::UIElements::ContextClickEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49c65a4;
+  constexpr static std::size_t addrs = 0x4a2aeb4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__ContextClickEvent____c.__cctor_b__0_0
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextClickEvent___c.__cctor_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ContextClickEvent* (::UnityEngine::UIElements::__ContextClickEvent____c::*)()>(
-    &::UnityEngine::UIElements::__ContextClickEvent____c::__cctor_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ContextClickEvent* (::UnityEngine::UIElements::ContextClickEvent___c::*)()>(
+    &::UnityEngine::UIElements::ContextClickEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49c65ac;
+  constexpr static std::size_t addrs = 0x4a2aebc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get(),
                                                                                "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__ContextClickEvent____c::setStaticF___9(::UnityEngine::UIElements::__ContextClickEvent____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__ContextClickEvent____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__ContextClickEvent____c*>(value));
+inline void UnityEngine::UIElements::ContextClickEvent___c::setStaticF___9(::UnityEngine::UIElements::ContextClickEvent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::ContextClickEvent___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get>(
+      std::forward<::UnityEngine::UIElements::ContextClickEvent___c*>(value));
 }
-inline ::UnityEngine::UIElements::__ContextClickEvent____c* UnityEngine::UIElements::__ContextClickEvent____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__ContextClickEvent____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get>();
+inline ::UnityEngine::UIElements::ContextClickEvent___c* UnityEngine::UIElements::ContextClickEvent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::ContextClickEvent___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__ContextClickEvent____c* UnityEngine::UIElements::__ContextClickEvent____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__ContextClickEvent____c*>());
-}
-inline void UnityEngine::UIElements::__ContextClickEvent____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UIElements::ContextClickEvent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::ContextClickEvent* UnityEngine::UIElements::__ContextClickEvent____c::__cctor_b__0_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ContextClickEvent____c*>::get(),
+inline ::UnityEngine::UIElements::ContextClickEvent* UnityEngine::UIElements::ContextClickEvent___c::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent___c*>::get(),
                                                                              "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::ContextClickEvent*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::ContextClickEvent___c* UnityEngine::UIElements::ContextClickEvent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ContextClickEvent___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__ContextClickEvent____c::__ContextClickEvent____c() {}
+constexpr ::UnityEngine::UIElements::ContextClickEvent___c::ContextClickEvent___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::ContextClickEvent._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextClickEvent::*)()>(&::UnityEngine::UIElements::ContextClickEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49c6500;
+  constexpr static std::size_t addrs = 0x4a2ae10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent*>::get(), ".ctor",
@@ -69,13 +69,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::ContextClickEvent* UnityEngine::UIElements::ContextClickEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ContextClickEvent*>());
-}
 inline void UnityEngine::UIElements::ContextClickEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextClickEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ContextClickEvent* UnityEngine::UIElements::ContextClickEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ContextClickEvent*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ContextClickEvent::ContextClickEvent() {}

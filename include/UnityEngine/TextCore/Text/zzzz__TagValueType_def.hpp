@@ -12,11 +12,10 @@ struct TagValueType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TagValueType);
-// Type: UnityEngine.TextCore.Text::TagValueType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::TagValueType
+// CS Name: UnityEngine.TextCore.Text.TagValueType
 struct CORDL_TYPE TagValueType {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TagValueType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ColorValue value: static_cast<int32_t>(0x4)
+  /// @brief Field ColorValue value: I32(4)
   static ::UnityEngine::TextCore::Text::TagValueType const ColorValue;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::TextCore::Text::TagValueType const None;
 
-  /// @brief Field NumericalValue value: static_cast<int32_t>(0x1)
+  /// @brief Field NumericalValue value: I32(1)
   static ::UnityEngine::TextCore::Text::TagValueType const NumericalValue;
 
-  /// @brief Field StringValue value: static_cast<int32_t>(0x2)
+  /// @brief Field StringValue value: I32(2)
   static ::UnityEngine::TextCore::Text::TagValueType const StringValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15283 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TagValueType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TagValueType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TagValueType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TagValueType, "UnityEngine.TextCore.Text", "TagValueType");

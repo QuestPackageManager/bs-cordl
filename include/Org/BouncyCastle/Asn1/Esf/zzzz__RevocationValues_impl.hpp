@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::RevocationValues* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22ee8e0;
+  constexpr static std::size_t addrs = 0x2321bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0xa60;
-  constexpr static std::size_t addrs = 0x22ee984;
+  constexpr static std::size_t addrs = 0x2321c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*>, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*)>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22ef3e4;
+  constexpr static std::size_t addrs = 0x23226d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)(
     ::System::Collections::IEnumerable*, ::System::Collections::IEnumerable*, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*)>(&::Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22ef490;
+  constexpr static std::size_t addrs = 0x232277c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
         &::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetCrlVals)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x22ef6d0;
+  constexpr static std::size_t addrs = 0x23229bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>::get(),
@@ -98,7 +98,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
         &::Org::BouncyCastle::Asn1::Esf::RevocationValues::GetOcspVals)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x22ef7f4;
+  constexpr static std::size_t addrs = 0x2322ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherRevVals* (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::get_OtherRevVals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ef918;
+  constexpr static std::size_t addrs = 0x2322c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::RevocationValues::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::RevocationValues::ToAsn1Object)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x22ef920;
+  constexpr static std::size_t addrs = 0x2322c0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Esf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlVals;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_crlVals() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_crlVals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crlVals;
 }
@@ -152,7 +152,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Esf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspVals;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_ocspVals() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_ocspVals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ocspVals;
 }
@@ -164,7 +164,7 @@ constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevVals;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevVals*> const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_otherRevVals() const {
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* const& Org::BouncyCastle::Asn1::Esf::RevocationValues::__cordl_internal_get_otherRevVals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevVals;
 }
@@ -178,20 +178,11 @@ inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* Org::BouncyCastle::Asn1
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Esf::RevocationValues*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues*
-Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
-                                                         ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
-                                                         ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(crlVals, ocspVals, otherRevVals));
 }
 inline void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
                                                                   ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
@@ -203,11 +194,6 @@ inline void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(::ArrayW<::Org
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Esf::OtherRevVals*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, crlVals, ocspVals, otherRevVals);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::System::Collections::IEnumerable* crlVals,
-                                                                                                                  ::System::Collections::IEnumerable* ocspVals,
-                                                                                                                  ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(crlVals, ocspVals, otherRevVals));
 }
 inline void Org::BouncyCastle::Asn1::Esf::RevocationValues::_ctor(::System::Collections::IEnumerable* crlVals, ::System::Collections::IEnumerable* ocspVals,
                                                                   ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals) {
@@ -238,6 +224,20 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Revo
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues*
+Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
+                                                         ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
+                                                         ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(crlVals, ocspVals, otherRevVals));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* Org::BouncyCastle::Asn1::Esf::RevocationValues::New_ctor(::System::Collections::IEnumerable* crlVals,
+                                                                                                                  ::System::Collections::IEnumerable* ocspVals,
+                                                                                                                  ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::RevocationValues*>(crlVals, ocspVals, otherRevVals));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::RevocationValues::RevocationValues() {}

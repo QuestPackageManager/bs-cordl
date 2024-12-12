@@ -13,12 +13,12 @@
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "Channels", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PollTime", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "Port", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketSizeLimit", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Verbosity", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "",
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Address", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "UseSsl", ty: "bool", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "ValidateCertificate", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "RootCertificatePath", ty: "::StringW", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::IgnoranceCore::__IgnoranceClient__ThreadParamInfo::__IgnoranceClient__ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
-                                                                                                  ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath,
-                                                                                                  ::StringW RootCertificate) noexcept {
+// def_value: Some("{}") }, CppParam { name: "RootCertificate", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::IgnoranceCore::IgnoranceClient_ThreadParamInfo::IgnoranceClient_ThreadParamInfo(int32_t Channels, int32_t PollTime, int32_t Port, int32_t PacketSizeLimit, int32_t Verbosity,
+                                                                                            ::StringW Address, bool UseSsl, bool ValidateCertificate, ::StringW RootCertificatePath,
+                                                                                            ::StringW RootCertificate) noexcept {
   this->Channels = Channels;
   this->PollTime = PollTime;
   this->Port = Port;
@@ -31,13 +31,13 @@ constexpr ::IgnoranceCore::__IgnoranceClient__ThreadParamInfo::__IgnoranceClient
   this->RootCertificate = RootCertificate;
 }
 // Ctor Parameters []
-constexpr ::IgnoranceCore::__IgnoranceClient__ThreadParamInfo::__IgnoranceClient__ThreadParamInfo() {}
+constexpr ::IgnoranceCore::IgnoranceClient_ThreadParamInfo::IgnoranceClient_ThreadParamInfo() {}
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceClient.get_IsAlive
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceCore::IgnoranceClient::*)()>(&::IgnoranceCore::IgnoranceClient::get_IsAlive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a5125c;
+  constexpr static std::size_t addrs = 0x3aa7ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(), "get_IsAlive",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceClient::*)()>(&::IgnoranceCore::IgnoranceClient::Start)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3a51270;
+  constexpr static std::size_t addrs = 0x3aa7ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(), "Start",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceClient::*)()>(&::IgnoranceCore::IgnoranceClient::Stop)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3a51814;
+  constexpr static std::size_t addrs = 0x3aa8484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(), "Stop",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceClient::*)(::System::Object*)>(&::IgnoranceCore::IgnoranceClient::ThreadWorker)> {
   constexpr static std::size_t size = 0xf34;
-  constexpr static std::size_t addrs = 0x3a518a4;
+  constexpr static std::size_t addrs = 0x3aa8514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceClient::*)()>(&::IgnoranceCore::IgnoranceClient::SetupRingBuffersIfNull)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3a515e4;
+  constexpr static std::size_t addrs = 0x3aa8254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(),
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceClient::*)()>(&::IgnoranceCore::IgnoranceClient::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a527d8;
+  constexpr static std::size_t addrs = 0x3aa9448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(), ".ctor",
@@ -259,8 +259,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncoming
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Incoming;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_Incoming() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_Incoming() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Incoming;
 }
@@ -272,8 +271,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoing
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Outgoing;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_Outgoing() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_Outgoing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Outgoing;
 }
@@ -285,8 +283,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandP
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Commands;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_Commands() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_Commands() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Commands;
 }
@@ -298,8 +295,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnecti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_ConnectionEvents() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_ConnectionEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionEvents;
 }
@@ -311,8 +307,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnecti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisconnectionEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_DisconnectionEvents() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_DisconnectionEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DisconnectionEvents;
 }
@@ -324,8 +319,7 @@ constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientSt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusUpdates;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats>*> const&
-IgnoranceCore::IgnoranceClient::__cordl_internal_get_StatusUpdates() const {
+constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceClientStats>* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_StatusUpdates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___StatusUpdates;
 }
@@ -349,7 +343,7 @@ constexpr ::System::Threading::Thread*& IgnoranceCore::IgnoranceClient::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WorkerThread;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_WorkerThread() const {
+constexpr ::System::Threading::Thread* const& IgnoranceCore::IgnoranceClient::__cordl_internal_get_WorkerThread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___WorkerThread;
 }
@@ -383,13 +377,13 @@ inline void IgnoranceCore::IgnoranceClient::SetupRingBuffersIfNull() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::IgnoranceCore::IgnoranceClient* IgnoranceCore::IgnoranceClient::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IgnoranceCore::IgnoranceClient*>());
-}
 inline void IgnoranceCore::IgnoranceClient::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceClient*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::IgnoranceCore::IgnoranceClient* IgnoranceCore::IgnoranceClient::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IgnoranceCore::IgnoranceClient*>());
 }
 // Ctor Parameters []
 constexpr ::IgnoranceCore::IgnoranceClient::IgnoranceClient() {}

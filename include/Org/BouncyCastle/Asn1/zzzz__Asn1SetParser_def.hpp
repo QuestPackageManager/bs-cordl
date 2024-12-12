@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 CORDL_MODULE_EXPORT(Asn1SetParser)
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -13,26 +14,21 @@ class Asn1SetParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1SetParser);
-// Type: Org.BouncyCastle.Asn1::Asn1SetParser
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.IAsn1Convertible
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1SetParser*
+// CS Name: Org.BouncyCastle.Asn1.Asn1SetParser
 class CORDL_TYPE Asn1SetParser {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method ReadObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ReadObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible* i___Org__BouncyCastle__Asn1__IAsn1Convertible() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1SetParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Asn1SetParser(Asn1SetParser&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1SetParser", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

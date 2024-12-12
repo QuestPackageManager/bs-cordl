@@ -12,11 +12,10 @@ struct WebExceptionInternalStatus;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::WebExceptionInternalStatus);
-// Type: System.Net::WebExceptionInternalStatus
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::WebExceptionInternalStatus
+// CS Name: System.Net.WebExceptionInternalStatus
 struct CORDL_TYPE WebExceptionInternalStatus {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr WebExceptionInternalStatus(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Isolated value: static_cast<int32_t>(0x3)
+  /// @brief Field Isolated value: I32(3)
   static ::System::Net::WebExceptionInternalStatus const Isolated;
 
-  /// @brief Field Recoverable value: static_cast<int32_t>(0x2)
+  /// @brief Field Recoverable value: I32(2)
   static ::System::Net::WebExceptionInternalStatus const Recoverable;
 
-  /// @brief Field RequestFatal value: static_cast<int32_t>(0x0)
+  /// @brief Field RequestFatal value: I32(0)
   static ::System::Net::WebExceptionInternalStatus const RequestFatal;
 
-  /// @brief Field ServicePointFatal value: static_cast<int32_t>(0x1)
+  /// @brief Field ServicePointFatal value: I32(1)
   static ::System::Net::WebExceptionInternalStatus const ServicePointFatal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::WebExceptionInternalStatus, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::WebExceptionInternalStatus, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::WebExceptionInternalStatus, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebExceptionInternalStatus, "System.Net", "WebExceptionInternalStatus");

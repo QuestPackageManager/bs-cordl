@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Extension_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509KeyUsageFlags_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsnDecodeStatus_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509KeyUsageExtension)
@@ -25,11 +24,10 @@ class X509KeyUsageExtension;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension);
-// Type: System.Security.Cryptography.X509Certificates::X509KeyUsageExtension
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.AsnDecodeStatus, System.Security.Cryptography.X509Certificates.X509Extension, System.Security.Cryptography.X509Certificates.X509KeyUsageFlags
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageExtension*
+// CS Name: System.Security.Cryptography.X509Certificates.X509KeyUsageExtension
 class CORDL_TYPE X509KeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
@@ -41,16 +39,16 @@ public:
   /// @brief Field _status, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) ::System::Security::Cryptography::AsnDecodeStatus _status;
 
-  /// @brief Method CopyFrom, addr 0x43e1b78, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x4442e8c, size 0x1cc, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode, addr 0x43e1718, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4442a2c, size 0x1b4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode, addr 0x43e19b4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x4442cc8, size 0x15c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method GetValidFlags, addr 0x43e19a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetValidFlags, addr 0x4442cb8, size 0x10, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags GetValidFlags(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags flags);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor();
@@ -59,7 +57,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical);
 
-  /// @brief Method ToString, addr 0x43e1d44, size 0x55c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4443058, size 0x55c, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const& __cordl_internal_get__keyUsages() const;
@@ -74,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
-  /// @brief Method .ctor, addr 0x43e15ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44428c0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x43e1648, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444295c, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedKeyUsage, bool critical);
 
-  /// @brief Method .ctor, addr 0x43e18cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4442be0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags keyUsages, bool critical);
 
-  /// @brief Method get_KeyUsages, addr 0x43e1b10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_KeyUsages, addr 0x4442e24, size 0x68, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags get_KeyUsages();
 
 protected:
@@ -100,16 +98,10 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509KeyUsageExtension(X509KeyUsageExtension const&) = delete;
 
-  /// @brief Field _keyUsages, offset: 0x24, size: 0x4, def value: None
-  ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags ____keyUsages;
-
-  /// @brief Field _status, offset: 0x28, size: 0x4, def value: None
-  ::System::Security::Cryptography::AsnDecodeStatus ____status;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9331 };
 
-  /// @brief Field all value: static_cast<int32_t>(0x80ff)
+  /// @brief Field all value: I32(33023)
   static ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const all;
 
   /// @brief Field friendlyName offset 0xffffffff size 0x8
@@ -118,14 +110,20 @@ public:
   /// @brief Field oid offset 0xffffffff size 0x8
   static constexpr ::ConstString oid{ u"2.5.29.15" };
 
+  /// @brief Field _keyUsages, offset: 0x24, size: 0x4, def value: None
+  ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags ____keyUsages;
+
+  /// @brief Field _status, offset: 0x28, size: 0x4, def value: None
+  ::System::Security::Cryptography::AsnDecodeStatus ____status;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension, ____keyUsages) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension, ____status) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension, 0x30>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension);

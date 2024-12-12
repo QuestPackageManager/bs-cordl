@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/DesEdeWrapEngine.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__DesEdeWrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
@@ -7,14 +8,13 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Init)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x232236c;
+  constexpr static std::size_t addrs = 0x2355658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23226f0;
+  constexpr static std::size_t addrs = 0x23559dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Wrap)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x2322730;
+  constexpr static std::size_t addrs = 0x2355a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Unwrap)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x2322c88;
+  constexpr static std::size_t addrs = 0x2355f74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CalculateCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2322a5c;
+  constexpr static std::size_t addrs = 0x2355d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CheckCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x232309c;
+  constexpr static std::size_t addrs = 0x2356388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::reverse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2322bdc;
+  constexpr static std::size_t addrs = 0x2355ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23231b0;
+  constexpr static std::size_t addrs = 0x235649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>::get(),
@@ -132,19 +132,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
-constexpr Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IWrapper*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
-constexpr ::Org::BouncyCastle::Crypto::IWrapper* Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::i___Org__BouncyCastle__Crypto__IWrapper() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IWrapper*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_engine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___engine;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*> const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_engine() const {
+constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_engine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___engine;
 }
@@ -156,7 +148,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_param() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_param() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
@@ -168,8 +160,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*& Org::Bounc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___paramPlusIV;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*> const&
-Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_paramPlusIV() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_paramPlusIV() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___paramPlusIV;
 }
@@ -205,7 +196,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Engi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sha1;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_sha1() const {
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::__cordl_internal_get_sha1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sha1;
 }
@@ -276,13 +267,21 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Engines::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, bs);
 }
-inline ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine* Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>());
-}
 inline void Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine* Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
+constexpr Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IWrapper*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
+constexpr ::Org::BouncyCastle::Crypto::IWrapper* Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::i___Org__BouncyCastle__Crypto__IWrapper() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IWrapper*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::DesEdeWrapEngine() {}

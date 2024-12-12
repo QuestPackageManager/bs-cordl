@@ -15,11 +15,10 @@ class BaseBezierCurveData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData);
-// Type: BGLib.UnityExtension.BezierCurves::BaseBezierCurveData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector3
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
-// CS Name: ::BGLib.UnityExtension.BezierCurves::BaseBezierCurveData*
+// CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurveData
 class CORDL_TYPE BaseBezierCurveData : public ::System::Object {
 public:
   // Declarations
@@ -51,25 +50,25 @@ public:
 
   constexpr void __cordl_internal_set__startControlPointDelta(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2282cf4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b5fe0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_endControlPoint, addr 0x2282c78, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_endControlPoint, addr 0x22b5f64, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endControlPoint();
 
-  /// @brief Method get_endPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_endPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_endPoint();
 
-  /// @brief Method get_startControlPoint, addr 0x2282bfc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_startControlPoint, addr 0x22b5ee8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startControlPoint();
 
-  /// @brief Method get_startPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_startPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_startPoint();
 
-  /// @brief Method set_endControlPoint, addr 0x2282ca8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_endControlPoint, addr 0x22b5f94, size 0x4c, virtual false, abstract: false, final false
   inline void set_endControlPoint(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_startControlPoint, addr 0x2282c2c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_startControlPoint, addr 0x22b5f18, size 0x4c, virtual false, abstract: false, final false
   inline void set_startControlPoint(::UnityEngine::Vector3 value);
 
 protected:
@@ -86,23 +85,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseBezierCurveData(BaseBezierCurveData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17178 };
+
   /// @brief Field _startControlPointDelta, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____startControlPointDelta;
 
   /// @brief Field _endControlPointDelta, offset: 0x1c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endControlPointDelta;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17240 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData, ____startControlPointDelta) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData, ____endControlPointDelta) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension::BezierCurves
 NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData);

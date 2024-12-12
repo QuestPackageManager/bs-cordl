@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::*)(
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*)>(&::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26d84ec;
+  constexpr static std::size_t addrs = 0x270a0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::ConvertEvents)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26d9320;
+  constexpr static std::size_t addrs = 0x270aedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,10 +40,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*
-BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>(lightshowSaveData, lightGroups));
-}
 inline void BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,6 +54,10 @@ inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::LightT
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventDataBox*, false>(this, ___internal_method, eventBox, indexFilter);
+}
+inline ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*
+BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter*>(lightshowSaveData, lightGroups));
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::LightTranslationEventBoxGroupConverter::LightTranslationEventBoxGroupConverter() {}

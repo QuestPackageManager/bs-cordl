@@ -15,163 +15,163 @@
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampToken_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)(::Org::BouncyCastle::Asn1::Ess::EssCertID*)>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)(::Org::BouncyCastle::Asn1::Ess::EssCertID*)>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2597c8c;
+  constexpr static std::size_t addrs = 0x25caf78;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertID*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertID*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*)>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*)>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2597cb4;
+  constexpr static std::size_t addrs = 0x25cafa0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID.GetHashAlgorithmName
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID.GetHashAlgorithmName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)()>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetHashAlgorithmName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)()>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetHashAlgorithmName)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2598390;
+  constexpr static std::size_t addrs = 0x25cb67c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                                "GetHashAlgorithmName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID.GetHashAlgorithm
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID.GetHashAlgorithm
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)()>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetHashAlgorithm)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)()>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetHashAlgorithm)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x25988c0;
+  constexpr static std::size_t addrs = 0x25cbbac;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                                "GetHashAlgorithm", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID.GetCertHash
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID.GetCertHash
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)()>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetCertHash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)()>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetCertHash)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2598488;
+  constexpr static std::size_t addrs = 0x25cb774;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                                "GetCertHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID.get_IssuerSerial
+//  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken_CertID.get_IssuerSerial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::*)()>(
-    &::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::get_IssuerSerial)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Tsp::TimeStampToken_CertID::*)()>(
+    &::Org::BouncyCastle::Tsp::TimeStampToken_CertID::get_IssuerSerial)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x25984bc;
+  constexpr static std::size_t addrs = 0x25cb7a8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                                "get_IssuerSerial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID*& Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_get_certID() {
+constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID*& Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_get_certID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertID*> const& Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_get_certID() const {
+constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertID* const& Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_get_certID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certID;
 }
-constexpr void Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value) {
+constexpr void Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_set_certID(::Org::BouncyCastle::Asn1::Ess::EssCertID* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*& Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_get_certIDv2() {
+constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*& Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_get_certIDv2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certIDv2;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*> const& Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_get_certIDv2() const {
+constexpr ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* const& Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_get_certIDv2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certIDv2;
 }
-constexpr void Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__cordl_internal_set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value) {
+constexpr void Org::BouncyCastle::Tsp::TimeStampToken_CertID::__cordl_internal_set_certIDv2(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certIDv2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* Org::BouncyCastle::Tsp::__TimeStampToken__CertID::New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>(certID));
-}
-inline void Org::BouncyCastle::Tsp::__TimeStampToken__CertID::_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID) {
+inline void Org::BouncyCastle::Tsp::TimeStampToken_CertID::_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertID*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certID);
 }
-inline ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* Org::BouncyCastle::Tsp::__TimeStampToken__CertID::New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>(certID));
-}
-inline void Org::BouncyCastle::Tsp::__TimeStampToken__CertID::_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID) {
+inline void Org::BouncyCastle::Tsp::TimeStampToken_CertID::_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certID);
 }
-inline ::StringW Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetHashAlgorithmName() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+inline ::StringW Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetHashAlgorithmName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                              "GetHashAlgorithmName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetHashAlgorithm() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetHashAlgorithm() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                              "GetHashAlgorithm", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Tsp::__TimeStampToken__CertID::GetCertHash() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Tsp::TimeStampToken_CertID::GetCertHash() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                              "GetCertHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* Org::BouncyCastle::Tsp::__TimeStampToken__CertID::get_IssuerSerial() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*>::get(),
+inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* Org::BouncyCastle::Tsp::TimeStampToken_CertID::get_IssuerSerial() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>::get(),
                                                                              "get_IssuerSerial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::IssuerSerial*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Tsp::TimeStampToken_CertID* Org::BouncyCastle::Tsp::TimeStampToken_CertID::New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertID* certID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>(certID));
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampToken_CertID* Org::BouncyCastle::Tsp::TimeStampToken_CertID::New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* certID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken_CertID*>(certID));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID::__TimeStampToken__CertID() {}
+constexpr ::Org::BouncyCastle::Tsp::TimeStampToken_CertID::TimeStampToken_CertID() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TimeStampToken._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2595a30;
+  constexpr static std::size_t addrs = 0x25c8d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::Org::BouncyCastle::Cms::CmsSignedData*)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::_ctor)> {
   constexpr static std::size_t size = 0x850;
-  constexpr static std::size_t addrs = 0x2597310;
+  constexpr static std::size_t addrs = 0x25ca5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Tsp::TimeStampTokenInfo* (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::get_TimeStampInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2597cdc;
+  constexpr static std::size_t addrs = 0x25cafc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(),
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::SignerID* (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::get_SignerID)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2597ce4;
+  constexpr static std::size_t addrs = 0x25cafd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(), "get_SignerID",
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::get_SignedAttributes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x259627c;
+  constexpr static std::size_t addrs = 0x25c9568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(),
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::get_UnsignedAttributes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2597d00;
+  constexpr static std::size_t addrs = 0x25cafec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(),
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::GetCertificates)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2597d1c;
+  constexpr static std::size_t addrs = 0x25cb008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::GetCrls)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2597d38;
+  constexpr static std::size_t addrs = 0x25cb024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::GetAttributeCertificates)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2597d54;
+  constexpr static std::size_t addrs = 0x25cb040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::Validate)> {
   constexpr static std::size_t size = 0x620;
-  constexpr static std::size_t addrs = 0x2597d70;
+  constexpr static std::size_t addrs = 0x25cb05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsSignedData* (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::ToCmsSignedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598848;
+  constexpr static std::size_t addrs = 0x25cbb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(),
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Tsp::TimeStampToken::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::GetEncoded)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2598850;
+  constexpr static std::size_t addrs = 0x25cbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(), "GetEncoded",
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Tsp::TimeStampToken::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampToken::GetEncoded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25988a4;
+  constexpr static std::size_t addrs = 0x25cbb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,7 +358,7 @@ constexpr ::Org::BouncyCastle::Cms::CmsSignedData*& Org::BouncyCastle::Tsp::Time
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsToken;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedData*> const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tsToken() const {
+constexpr ::Org::BouncyCastle::Cms::CmsSignedData* const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tsToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsToken;
 }
@@ -370,7 +370,7 @@ constexpr ::Org::BouncyCastle::Cms::SignerInformation*& Org::BouncyCastle::Tsp::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaSignerInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformation*> const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tsaSignerInfo() const {
+constexpr ::Org::BouncyCastle::Cms::SignerInformation* const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tsaSignerInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tsaSignerInfo;
 }
@@ -382,7 +382,7 @@ constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo*& Org::BouncyCastle::Tsp:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tstInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenInfo*> const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tstInfo() const {
+constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_tstInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tstInfo;
 }
@@ -390,29 +390,23 @@ constexpr void Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_set_tstI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tstInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_certID() {
+constexpr ::Org::BouncyCastle::Tsp::TimeStampToken_CertID*& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_certID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::__TimeStampToken__CertID*> const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_certID() const {
+constexpr ::Org::BouncyCastle::Tsp::TimeStampToken_CertID* const& Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_get_certID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certID;
 }
-constexpr void Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_set_certID(::Org::BouncyCastle::Tsp::__TimeStampToken__CertID* value) {
+constexpr void Org::BouncyCastle::Tsp::TimeStampToken::__cordl_internal_set_certID(::Org::BouncyCastle::Tsp::TimeStampToken_CertID* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken*>(contentInfo));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampToken::_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::ContentInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, contentInfo);
-}
-inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken*>(signedData));
 }
 inline void Org::BouncyCastle::Tsp::TimeStampToken::_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -479,6 +473,12 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Tsp::TimeStampTok
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampToken*>::get(), "GetEncoded", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, encoding);
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken*>(contentInfo));
+}
+inline ::Org::BouncyCastle::Tsp::TimeStampToken* Org::BouncyCastle::Tsp::TimeStampToken::New_ctor(::Org::BouncyCastle::Cms::CmsSignedData* signedData) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TimeStampToken*>(signedData));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TimeStampToken::TimeStampToken() {}

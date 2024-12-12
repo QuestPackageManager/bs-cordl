@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::AlphaSO*)>(&::GlobalNamespace::AlphaSO::op_Implicit_float_t)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x266b94c;
+  constexpr static std::size_t addrs = 0x269ec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaSO::*)()>(&::GlobalNamespace::AlphaSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266b964;
+  constexpr static std::size_t addrs = 0x269ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphaSO*>::get(), ".ctor",
@@ -47,13 +47,13 @@ inline float_t GlobalNamespace::AlphaSO::op_Implicit_float_t(::GlobalNamespace::
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AlphaSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, obj);
 }
-inline ::GlobalNamespace::AlphaSO* GlobalNamespace::AlphaSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AlphaSO*>());
-}
 inline void GlobalNamespace::AlphaSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphaSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::AlphaSO* GlobalNamespace::AlphaSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AlphaSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AlphaSO::AlphaSO() {}

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::ListMap::*)(::StringW)>(
     &::System::Xml::Serialization::ListMap::set_ChoiceMember)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330294;
+  constexpr static std::size_t addrs = 0x43915a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapElementInfoList* (::System::Xml::Serialization::ListMap::*)()>(
     &::System::Xml::Serialization::ListMap::get_ItemInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433029c;
+  constexpr static std::size_t addrs = 0x43915b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), "get_ItemInfo",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::ListMap::*)(::System::Xml::Serialization::XmlTypeMapElementInfoList*)>(
     &::System::Xml::Serialization::ListMap::set_ItemInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43302a4;
+  constexpr static std::size_t addrs = 0x43915b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapElementInfo* (
     ::System::Xml::Serialization::ListMap::*)(::System::Object*, int32_t, ::System::Object*)>(&::System::Xml::Serialization::ListMap::FindElement)> {
   constexpr static std::size_t size = 0x860;
-  constexpr static std::size_t addrs = 0x432a0d4;
+  constexpr static std::size_t addrs = 0x438b3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Serialization::XmlTypeMapElementInfo* (::System::Xml::Serialization::ListMap::*)(::StringW, ::StringW)>(&::System::Xml::Serialization::ListMap::FindElement)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x43302ac;
+  constexpr static std::size_t addrs = 0x43915c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlTypeMapElementInfo* (::System::Xml::Serialization::ListMap::*)()>(
     &::System::Xml::Serialization::ListMap::FindTextElement)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x43305c8;
+  constexpr static std::size_t addrs = 0x43918dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), "FindTextElement",
@@ -97,16 +97,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::Serialization::ListMap.GetArrayType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::ListMap::*)(int32_t, ByRef<::StringW>, ByRef<::StringW>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::ListMap::*)(int32_t, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Xml::Serialization::ListMap::GetArrayType)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4329ecc;
+  constexpr static std::size_t addrs = 0x438b1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), "GetArrayType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::ListMap::*)(::System::Object*)>(&::System::Xml::Serialization::ListMap::Equals)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x43308b4;
+  constexpr static std::size_t addrs = 0x4391bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::ListMap::*)()>(&::System::Xml::Serialization::ListMap::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330a18;
+  constexpr static std::size_t addrs = 0x4391d2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::ListMap::*)()>(&::System::Xml::Serialization::ListMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4330a20;
+  constexpr static std::size_t addrs = 0x4391d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), ".ctor",
@@ -155,7 +155,7 @@ constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList*& System::Xml:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlTypeMapElementInfoList*> const& System::Xml::Serialization::ListMap::__cordl_internal_get__itemInfo() const {
+constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList* const& System::Xml::Serialization::ListMap::__cordl_internal_get__itemInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____itemInfo;
 }
@@ -210,11 +210,11 @@ inline ::System::Xml::Serialization::XmlTypeMapElementInfo* System::Xml::Seriali
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Serialization::XmlTypeMapElementInfo*, false>(this, ___internal_method);
 }
-inline void System::Xml::Serialization::ListMap::GetArrayType(int32_t itemCount, ByRef<::StringW> localName, ByRef<::StringW> ns) {
+inline void System::Xml::Serialization::ListMap::GetArrayType(int32_t itemCount, ::ByRef<::StringW> localName, ::ByRef<::StringW> ns) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), "GetArrayType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemCount, localName, ns);
 }
 inline bool System::Xml::Serialization::ListMap::Equals(::System::Object* other) {
@@ -227,13 +227,13 @@ inline int32_t System::Xml::Serialization::ListMap::GetHashCode() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Xml::Serialization::ListMap* System::Xml::Serialization::ListMap::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::ListMap*>());
-}
 inline void System::Xml::Serialization::ListMap::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::ListMap*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Serialization::ListMap* System::Xml::Serialization::ListMap::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::ListMap*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::ListMap::ListMap() {}

@@ -14,13 +14,12 @@ template <typename TContainer> class ReflectedPropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::Internal::ReflectedPropertyBag_1);
-// Type: Unity.Properties.Internal::ReflectedPropertyBag`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>
 namespace Unity::Properties::Internal {
 // cpp template
 template <typename TContainer>
 // Is value type: false
-// CS Name: ::Unity.Properties.Internal::ReflectedPropertyBag`1<TContainer>*
+// CS Name: Unity.Properties.Internal.ReflectedPropertyBag`1<TContainer>
 class CORDL_TYPE ReflectedPropertyBag_1 : public ::Unity::Properties::ContainerPropertyBag_1<TContainer> {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
   ReflectedPropertyBag_1(ReflectedPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

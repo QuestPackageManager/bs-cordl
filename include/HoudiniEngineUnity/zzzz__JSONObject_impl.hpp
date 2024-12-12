@@ -2,6 +2,11 @@
 // IWYU pragma private; include "HoudiniEngineUnity/JSONObject.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONObject_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNodeType_def.hpp"
@@ -12,371 +17,367 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0._ctor
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::*)()>(
-    &::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::*)()>(
+    &::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a38784;
+  constexpr static std::size_t addrs = 0x3a8f3f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0._Remove_b__0
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0._Remove_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>)>(&::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::_Remove_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::*)(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>)>(&::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::_Remove_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a38b38;
+  constexpr static std::size_t addrs = 0x3a8f7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::HoudiniEngineUnity::JSONNode*& HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::__cordl_internal_get_aNode() {
+constexpr ::HoudiniEngineUnity::JSONNode*& HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::__cordl_internal_get_aNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aNode;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::__cordl_internal_get_aNode() const {
+constexpr ::HoudiniEngineUnity::JSONNode* const& HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::__cordl_internal_get_aNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___aNode;
 }
-constexpr void HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::__cordl_internal_set_aNode(::HoudiniEngineUnity::JSONNode* value) {
+constexpr void HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::__cordl_internal_set_aNode(::HoudiniEngineUnity::JSONNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___aNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0* HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0*>());
-}
-inline void HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0*>::get(),
+inline void HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::_Remove_b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> k) {
+inline bool HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::_Remove_b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> k) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, k);
 }
+inline ::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0* HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0*>());
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__JSONObject____c__DisplayClass21_0::__JSONObject____c__DisplayClass21_0() {}
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23._ctor
+constexpr ::HoudiniEngineUnity::JSONObject___c__DisplayClass21_0::JSONObject___c__DisplayClass21_0() {}
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)(int32_t)>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)(int32_t)>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a387fc;
+  constexpr static std::size_t addrs = 0x3a8f46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_IDisposable_Dispose
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a38b7c;
+  constexpr static std::size_t addrs = 0x3a8f7ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.MoveNext
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3a38b98;
+  constexpr static std::size_t addrs = 0x3a8f808;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.__m__Finally1
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::__m__Finally1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a38d40;
+  constexpr static std::size_t addrs = 0x3a8f9b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a38d90;
+  constexpr static std::size_t addrs = 0x3a8fa00;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                                "System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3a38d98;
+  constexpr static std::size_t addrs = 0x3a8fa08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a38dd0;
+  constexpr static std::size_t addrs = 0x3a8fa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-        &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator)> {
+    static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+        &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3a38dd8;
+  constexpr static std::size_t addrs = 0x3a8fa48;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                                "System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HoudiniEngineUnity::__JSONObject___get_Children_d__23.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::HoudiniEngineUnity::JSONObject__get_Children_d__23.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HoudiniEngineUnity::__JSONObject___get_Children_d__23::*)()>(
-    &::HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HoudiniEngineUnity::JSONObject__get_Children_d__23::*)()>(
+    &::HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a38e74;
+  constexpr static std::size_t addrs = 0x3a8fae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
-constexpr HoudiniEngineUnity::__JSONObject___get_Children_d__23::operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::i___System__Collections__Generic__IEnumerable_1___HoudiniEngineUnity__JSONNode__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr HoudiniEngineUnity::__JSONObject___get_Children_d__23::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* HoudiniEngineUnity::__JSONObject___get_Children_d__23::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
-constexpr HoudiniEngineUnity::__JSONObject___get_Children_d__23::operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::i___System__Collections__Generic__IEnumerator_1___HoudiniEngineUnity__JSONNode__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr HoudiniEngineUnity::__JSONObject___get_Children_d__23::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* HoudiniEngineUnity::__JSONObject___get_Children_d__23::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr HoudiniEngineUnity::__JSONObject___get_Children_d__23::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* HoudiniEngineUnity::__JSONObject___get_Children_d__23::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___1__state() {
+constexpr int32_t& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___1__state() const {
+constexpr int32_t const& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_set___1__state(int32_t value) {
+constexpr void HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::HoudiniEngineUnity::JSONNode*& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___2__current() {
+constexpr ::HoudiniEngineUnity::JSONNode*& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___2__current() const {
+constexpr ::HoudiniEngineUnity::JSONNode* const& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_set___2__current(::HoudiniEngineUnity::JSONNode* value) {
+constexpr void HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_set___2__current(::HoudiniEngineUnity::JSONNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::HoudiniEngineUnity::JSONObject*& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___4__this() {
+constexpr ::HoudiniEngineUnity::JSONObject*& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONObject*> const& HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___4__this() const {
+constexpr ::HoudiniEngineUnity::JSONObject* const& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_set___4__this(::HoudiniEngineUnity::JSONObject* value) {
+constexpr void HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_set___4__this(::HoudiniEngineUnity::JSONObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*>&
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___7__wrap1() {
+constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*>& HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> const&
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_get___7__wrap1() const {
+constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> const&
+HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::__cordl_internal_set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> value) {
+HoudiniEngineUnity::JSONObject__get_Children_d__23::__cordl_internal_set___7__wrap1(::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::HoudiniEngineUnity::JSONNode*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
-inline ::HoudiniEngineUnity::__JSONObject___get_Children_d__23* HoudiniEngineUnity::__JSONObject___get_Children_d__23::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>(__1__state));
-}
-inline void HoudiniEngineUnity::__JSONObject___get_Children_d__23::_ctor(int32_t __1__state) {
+inline void HoudiniEngineUnity::JSONObject__get_Children_d__23::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+inline void HoudiniEngineUnity::JSONObject__get_Children_d__23::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HoudiniEngineUnity::__JSONObject___get_Children_d__23::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+inline bool HoudiniEngineUnity::JSONObject__get_Children_d__23::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::__JSONObject___get_Children_d__23::__m__Finally1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+inline void HoudiniEngineUnity::JSONObject__get_Children_d__23::__m__Finally1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                              "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::JSONNode* HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+inline ::HoudiniEngineUnity::JSONNode* HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerator_HoudiniEngineUnity_JSONNode__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                              "System.Collections.Generic.IEnumerator<HoudiniEngineUnity.JSONNode>.get_Current",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::JSONNode*, false>(this, ___internal_method);
 }
-inline void HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerator_Reset() {
+inline void HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*
-HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerable_HoudiniEngineUnity_JSONNode__GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                                              "System.Collections.Generic.IEnumerable<HoudiniEngineUnity.JSONNode>.GetEnumerator",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* HoudiniEngineUnity::__JSONObject___get_Children_d__23::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* HoudiniEngineUnity::JSONObject__get_Children_d__23::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__JSONObject___get_Children_d__23*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
+inline ::HoudiniEngineUnity::JSONObject__get_Children_d__23* HoudiniEngineUnity::JSONObject__get_Children_d__23::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::JSONObject__get_Children_d__23*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
+constexpr HoudiniEngineUnity::JSONObject__get_Children_d__23::operator ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*
+HoudiniEngineUnity::JSONObject__get_Children_d__23::i___System__Collections__Generic__IEnumerable_1___HoudiniEngineUnity__JSONNode__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr HoudiniEngineUnity::JSONObject__get_Children_d__23::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* HoudiniEngineUnity::JSONObject__get_Children_d__23::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
+constexpr HoudiniEngineUnity::JSONObject__get_Children_d__23::operator ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*
+HoudiniEngineUnity::JSONObject__get_Children_d__23::i___System__Collections__Generic__IEnumerator_1___HoudiniEngineUnity__JSONNode__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr HoudiniEngineUnity::JSONObject__get_Children_d__23::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* HoudiniEngineUnity::JSONObject__get_Children_d__23::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr HoudiniEngineUnity::JSONObject__get_Children_d__23::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* HoudiniEngineUnity::JSONObject__get_Children_d__23::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__JSONObject___get_Children_d__23::__JSONObject___get_Children_d__23() {}
+constexpr ::HoudiniEngineUnity::JSONObject__get_Children_d__23::JSONObject__get_Children_d__23() {}
 //  Writing Method size for method: ::HoudiniEngineUnity::JSONObject.get_Inline
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONObject::*)()>(&::HoudiniEngineUnity::JSONObject::get_Inline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a37e30;
+  constexpr static std::size_t addrs = 0x3a8eaa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -390,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)(bool)>(&::HoudiniEngineUnity::JSONObject::set_Inline)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a37e38;
+  constexpr static std::size_t addrs = 0x3a8eaa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -405,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNodeType (::HoudiniEngineUnity::JSONObject::*)()>(
     &::HoudiniEngineUnity::JSONObject::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a37e44;
+  constexpr static std::size_t addrs = 0x3a8eab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -419,7 +420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::JSONObject::*)()>(&::HoudiniEngineUnity::JSONObject::get_IsObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a37e4c;
+  constexpr static std::size_t addrs = 0x3a8eabc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,10 +432,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HoudiniEngineUnity::JSONObject.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::__JSONNode__Enumerator (::HoudiniEngineUnity::JSONObject::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode_Enumerator (::HoudiniEngineUnity::JSONObject::*)()>(
     &::HoudiniEngineUnity::JSONObject::GetEnumerator)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a37e54;
+  constexpr static std::size_t addrs = 0x3a8eac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -449,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject::*)(::StringW)>(
     &::HoudiniEngineUnity::JSONObject::get_Item)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3a37ee0;
+  constexpr static std::size_t addrs = 0x3a8eb50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -464,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONObject::set_Item)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3a37fcc;
+  constexpr static std::size_t addrs = 0x3a8ec3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -479,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject::*)(int32_t)>(
     &::HoudiniEngineUnity::JSONObject::get_Item)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a380d4;
+  constexpr static std::size_t addrs = 0x3a8ed44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)(int32_t, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONObject::set_Item)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a38174;
+  constexpr static std::size_t addrs = 0x3a8ede4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -508,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::JSONObject::*)()>(&::HoudiniEngineUnity::JSONObject::get_Count)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a3828c;
+  constexpr static std::size_t addrs = 0x3a8eefc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -523,7 +524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)(::StringW, ::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONObject::Add)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3a382dc;
+  constexpr static std::size_t addrs = 0x3a8ef4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -538,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject::*)(::StringW)>(
     &::HoudiniEngineUnity::JSONObject::Remove)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3a38430;
+  constexpr static std::size_t addrs = 0x3a8f0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -553,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject::*)(int32_t)>(
     &::HoudiniEngineUnity::JSONObject::Remove)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3a384f4;
+  constexpr static std::size_t addrs = 0x3a8f164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::JSONNode* (::HoudiniEngineUnity::JSONObject::*)(::HoudiniEngineUnity::JSONNode*)>(
     &::HoudiniEngineUnity::JSONObject::Remove)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3a385d0;
+  constexpr static std::size_t addrs = 0x3a8f240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -583,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::HoudiniEngineUnity::JSONNode*>* (::HoudiniEngineUnity::JSONObject::*)()>(&::HoudiniEngineUnity::JSONObject::get_Children)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3a3878c;
+  constexpr static std::size_t addrs = 0x3a8f3fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -598,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)(
     ::System::Text::StringBuilder*, int32_t, int32_t, ::HoudiniEngineUnity::JSONTextMode)>(&::HoudiniEngineUnity::JSONObject::WriteToStringBuilder)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3a38830;
+  constexpr static std::size_t addrs = 0x3a8f4a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -612,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::JSONObject::*)()>(&::HoudiniEngineUnity::JSONObject::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a3422c;
+  constexpr static std::size_t addrs = 0x3a8ae9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject*>::get(), ".ctor",
@@ -624,8 +625,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngin
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dict;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>*> const&
-HoudiniEngineUnity::JSONObject::__cordl_internal_get_m_Dict() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::JSONNode*>* const& HoudiniEngineUnity::JSONObject::__cordl_internal_get_m_Dict() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dict;
 }
@@ -665,10 +665,10 @@ inline bool HoudiniEngineUnity::JSONObject::get_IsObject() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::HoudiniEngineUnity::__JSONNode__Enumerator HoudiniEngineUnity::JSONObject::GetEnumerator() {
+inline ::HoudiniEngineUnity::JSONNode_Enumerator HoudiniEngineUnity::JSONObject::GetEnumerator() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject*>::get(), 28)));
-  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::__JSONNode__Enumerator, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::JSONNode_Enumerator, false>(this, ___internal_method);
 }
 inline ::HoudiniEngineUnity::JSONNode* HoudiniEngineUnity::JSONObject::get_Item(::StringW aKey) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -725,13 +725,13 @@ inline void HoudiniEngineUnity::JSONObject::WriteToStringBuilder(::System::Text:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, aSB, aIndent, aIndentInc, aMode);
 }
-inline ::HoudiniEngineUnity::JSONObject* HoudiniEngineUnity::JSONObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::JSONObject*>());
-}
 inline void HoudiniEngineUnity::JSONObject::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::JSONObject*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::JSONObject* HoudiniEngineUnity::JSONObject::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::JSONObject*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::JSONObject::JSONObject() {}

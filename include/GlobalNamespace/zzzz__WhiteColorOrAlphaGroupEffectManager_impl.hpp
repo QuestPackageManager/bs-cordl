@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(
     &::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3b2b9e8;
+  constexpr static std::size_t addrs = 0x3b8cf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(
     &::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b2bc60;
+  constexpr static std::size_t addrs = 0x3b8d1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::*)()>(
     &::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b2bda8;
+  constexpr static std::size_t addrs = 0x3b8d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>::get(),
@@ -80,7 +80,7 @@ constexpr ::Zenject::DiContainer*& GlobalNamespace::WhiteColorOrAlphaGroupEffect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -93,7 +93,7 @@ GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::__cordl_internal_get__whit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____whiteColorOrAlphaEffects;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* const&
 GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::__cordl_internal_get__whiteColorOrAlphaEffects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____whiteColorOrAlphaEffects;
@@ -113,13 +113,13 @@ inline void GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::OnDestroy() {
                                                                              "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>());
-}
 inline void GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager::WhiteColorOrAlphaGroupEffectManager() {}

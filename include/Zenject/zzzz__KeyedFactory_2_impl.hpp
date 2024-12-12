@@ -16,9 +16,6 @@ template <typename TBase, typename TKey> inline TBase Zenject::KeyedFactory_2<TB
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_2<TBase, TKey>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<TBase, false>(this, ___internal_method, key);
 }
-template <typename TBase, typename TKey> inline ::Zenject::KeyedFactory_2<TBase, TKey>* Zenject::KeyedFactory_2<TBase, TKey>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_2<TBase, TKey>*>());
-}
 template <typename TBase, typename TKey> inline void Zenject::KeyedFactory_2<TBase, TKey>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_2<TBase, TKey>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -34,6 +31,9 @@ template <typename TBase, typename TKey> inline ::Zenject::InjectTypeInfo* Zenje
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_2<TBase, TKey>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TBase, typename TKey> inline ::Zenject::KeyedFactory_2<TBase, TKey>* Zenject::KeyedFactory_2<TBase, TKey>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::KeyedFactory_2<TBase, TKey>*>());
 }
 // Ctor Parameters []
 template <typename TBase, typename TKey> constexpr ::Zenject::KeyedFactory_2<TBase, TKey>::KeyedFactory_2() {}

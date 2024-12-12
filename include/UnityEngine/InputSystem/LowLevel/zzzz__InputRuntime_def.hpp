@@ -15,20 +15,18 @@ class InputRuntime;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputRuntime);
-// Type: UnityEngine.InputSystem.LowLevel::InputRuntime
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InputRuntime*
+// CS Name: UnityEngine.InputSystem.LowLevel.InputRuntime
 class CORDL_TYPE InputRuntime : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_CurrentTimeOffsetToRealtimeSinceStartup, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF_s_CurrentTimeOffsetToRealtimeSinceStartup, put = setStaticF_s_CurrentTimeOffsetToRealtimeSinceStartup)) double_t s_CurrentTimeOffsetToRealtimeSinceStartup;
+  __declspec(property(get = getStaticF_s_CurrentTimeOffsetToRealtimeSinceStartup, put = setStaticF_s_CurrentTimeOffsetToRealtimeSinceStartup)) double_t s_CurrentTimeOffsetToRealtimeSinceStartup;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::InputSystem::LowLevel::IInputRuntime* s_Instance;
+  __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance)) ::UnityEngine::InputSystem::LowLevel::IInputRuntime* s_Instance;
 
   static inline double_t getStaticF_s_CurrentTimeOffsetToRealtimeSinceStartup();
 
@@ -53,7 +51,7 @@ public:
   InputRuntime(InputRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

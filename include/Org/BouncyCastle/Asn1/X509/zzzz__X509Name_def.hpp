@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Name)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -43,130 +42,129 @@ class X509Name;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Name);
-// Type: Org.BouncyCastle.Asn1.X509::X509Name
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::X509Name*
+// CS Name: Org.BouncyCastle.Asn1.X509.X509Name
 class CORDL_TYPE X509Name : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field BusinessCategory, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_BusinessCategory, put = setStaticF_BusinessCategory)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* BusinessCategory;
+  __declspec(property(get = getStaticF_BusinessCategory, put = setStaticF_BusinessCategory)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* BusinessCategory;
 
   /// @brief Field C, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_C, put = setStaticF_C)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* C;
+  __declspec(property(get = getStaticF_C, put = setStaticF_C)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* C;
 
   /// @brief Field CN, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CN, put = setStaticF_CN)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CN;
+  __declspec(property(get = getStaticF_CN, put = setStaticF_CN)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CN;
 
   /// @brief Field CountryOfCitizenship, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CountryOfCitizenship, put = setStaticF_CountryOfCitizenship)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CountryOfCitizenship;
+  __declspec(property(get = getStaticF_CountryOfCitizenship, put = setStaticF_CountryOfCitizenship)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CountryOfCitizenship;
 
   /// @brief Field CountryOfResidence, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CountryOfResidence, put = setStaticF_CountryOfResidence)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CountryOfResidence;
+  __declspec(property(get = getStaticF_CountryOfResidence, put = setStaticF_CountryOfResidence)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CountryOfResidence;
 
   /// @brief Field DC, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DC, put = setStaticF_DC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DC;
+  __declspec(property(get = getStaticF_DC, put = setStaticF_DC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DC;
 
   /// @brief Field DateOfBirth, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DateOfBirth, put = setStaticF_DateOfBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DateOfBirth;
+  __declspec(property(get = getStaticF_DateOfBirth, put = setStaticF_DateOfBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DateOfBirth;
 
   /// @brief Field DefaultLookup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultLookup, put = setStaticF_DefaultLookup)) ::System::Collections::Hashtable* DefaultLookup;
+  __declspec(property(get = getStaticF_DefaultLookup, put = setStaticF_DefaultLookup)) ::System::Collections::Hashtable* DefaultLookup;
 
   /// @brief Field DefaultSymbols, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultSymbols, put = setStaticF_DefaultSymbols)) ::System::Collections::Hashtable* DefaultSymbols;
+  __declspec(property(get = getStaticF_DefaultSymbols, put = setStaticF_DefaultSymbols)) ::System::Collections::Hashtable* DefaultSymbols;
 
   /// @brief Field DmdName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DmdName, put = setStaticF_DmdName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DmdName;
+  __declspec(property(get = getStaticF_DmdName, put = setStaticF_DmdName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DmdName;
 
   /// @brief Field DnQualifier, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DnQualifier, put = setStaticF_DnQualifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DnQualifier;
+  __declspec(property(get = getStaticF_DnQualifier, put = setStaticF_DnQualifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DnQualifier;
 
   /// @brief Field E, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_E, put = setStaticF_E)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* E;
+  __declspec(property(get = getStaticF_E, put = setStaticF_E)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* E;
 
   /// @brief Field EmailAddress, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmailAddress, put = setStaticF_EmailAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EmailAddress;
+  __declspec(property(get = getStaticF_EmailAddress, put = setStaticF_EmailAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EmailAddress;
 
   /// @brief Field Gender, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Gender, put = setStaticF_Gender)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Gender;
+  __declspec(property(get = getStaticF_Gender, put = setStaticF_Gender)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Gender;
 
   /// @brief Field Generation, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Generation, put = setStaticF_Generation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Generation;
+  __declspec(property(get = getStaticF_Generation, put = setStaticF_Generation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Generation;
 
   /// @brief Field GivenName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_GivenName, put = setStaticF_GivenName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GivenName;
+  __declspec(property(get = getStaticF_GivenName, put = setStaticF_GivenName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GivenName;
 
   /// @brief Field Initials, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Initials, put = setStaticF_Initials)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Initials;
+  __declspec(property(get = getStaticF_Initials, put = setStaticF_Initials)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Initials;
 
   /// @brief Field L, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_L, put = setStaticF_L)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* L;
+  __declspec(property(get = getStaticF_L, put = setStaticF_L)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* L;
 
   /// @brief Field Name, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Name, put = setStaticF_Name)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Name;
+  __declspec(property(get = getStaticF_Name, put = setStaticF_Name)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Name;
 
   /// @brief Field NameAtBirth, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_NameAtBirth, put = setStaticF_NameAtBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* NameAtBirth;
+  __declspec(property(get = getStaticF_NameAtBirth, put = setStaticF_NameAtBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* NameAtBirth;
 
   /// @brief Field O, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_O, put = setStaticF_O)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* O;
+  __declspec(property(get = getStaticF_O, put = setStaticF_O)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* O;
 
   /// @brief Field OU, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OU, put = setStaticF_OU)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OU;
+  __declspec(property(get = getStaticF_OU, put = setStaticF_OU)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OU;
 
   /// @brief Field OrganizationIdentifier, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OrganizationIdentifier, put = setStaticF_OrganizationIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OrganizationIdentifier;
+  __declspec(property(get = getStaticF_OrganizationIdentifier, put = setStaticF_OrganizationIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OrganizationIdentifier;
 
   /// @brief Field PlaceOfBirth, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PlaceOfBirth, put = setStaticF_PlaceOfBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PlaceOfBirth;
+  __declspec(property(get = getStaticF_PlaceOfBirth, put = setStaticF_PlaceOfBirth)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PlaceOfBirth;
 
   /// @brief Field PostalAddress, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PostalAddress, put = setStaticF_PostalAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PostalAddress;
+  __declspec(property(get = getStaticF_PostalAddress, put = setStaticF_PostalAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PostalAddress;
 
   /// @brief Field PostalCode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PostalCode, put = setStaticF_PostalCode)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PostalCode;
+  __declspec(property(get = getStaticF_PostalCode, put = setStaticF_PostalCode)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* PostalCode;
 
   /// @brief Field Pseudonym, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Pseudonym, put = setStaticF_Pseudonym)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Pseudonym;
+  __declspec(property(get = getStaticF_Pseudonym, put = setStaticF_Pseudonym)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Pseudonym;
 
   /// @brief Field RFC1779Symbols, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RFC1779Symbols, put = setStaticF_RFC1779Symbols)) ::System::Collections::Hashtable* RFC1779Symbols;
+  __declspec(property(get = getStaticF_RFC1779Symbols, put = setStaticF_RFC1779Symbols)) ::System::Collections::Hashtable* RFC1779Symbols;
 
   /// @brief Field RFC2253Symbols, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RFC2253Symbols, put = setStaticF_RFC2253Symbols)) ::System::Collections::Hashtable* RFC2253Symbols;
+  __declspec(property(get = getStaticF_RFC2253Symbols, put = setStaticF_RFC2253Symbols)) ::System::Collections::Hashtable* RFC2253Symbols;
 
   /// @brief Field ST, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ST, put = setStaticF_ST)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ST;
+  __declspec(property(get = getStaticF_ST, put = setStaticF_ST)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ST;
 
   /// @brief Field SerialNumber, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SerialNumber, put = setStaticF_SerialNumber)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SerialNumber;
+  __declspec(property(get = getStaticF_SerialNumber, put = setStaticF_SerialNumber)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SerialNumber;
 
   /// @brief Field Street, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Street, put = setStaticF_Street)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Street;
+  __declspec(property(get = getStaticF_Street, put = setStaticF_Street)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Street;
 
   /// @brief Field Surname, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Surname, put = setStaticF_Surname)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Surname;
+  __declspec(property(get = getStaticF_Surname, put = setStaticF_Surname)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Surname;
 
   /// @brief Field T, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_T, put = setStaticF_T)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* T;
+  __declspec(property(get = getStaticF_T, put = setStaticF_T)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* T;
 
   /// @brief Field TelephoneNumber, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TelephoneNumber, put = setStaticF_TelephoneNumber)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* TelephoneNumber;
+  __declspec(property(get = getStaticF_TelephoneNumber, put = setStaticF_TelephoneNumber)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* TelephoneNumber;
 
   /// @brief Field UID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UID, put = setStaticF_UID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UID;
+  __declspec(property(get = getStaticF_UID, put = setStaticF_UID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UID;
 
   /// @brief Field UniqueIdentifier, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UniqueIdentifier, put = setStaticF_UniqueIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UniqueIdentifier;
+  __declspec(property(get = getStaticF_UniqueIdentifier, put = setStaticF_UniqueIdentifier)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UniqueIdentifier;
 
   /// @brief Field UnstructuredAddress, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UnstructuredAddress, put = setStaticF_UnstructuredAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UnstructuredAddress;
+  __declspec(property(get = getStaticF_UnstructuredAddress, put = setStaticF_UnstructuredAddress)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UnstructuredAddress;
 
   /// @brief Field UnstructuredName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UnstructuredName, put = setStaticF_UnstructuredName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UnstructuredName;
+  __declspec(property(get = getStaticF_UnstructuredName, put = setStaticF_UnstructuredName)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* UnstructuredName;
 
   /// @brief Field added, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_added, put = __cordl_internal_set_added)) ::System::Collections::IList* added;
@@ -175,7 +173,7 @@ public:
   __declspec(property(get = __cordl_internal_get_converter, put = __cordl_internal_set_converter)) ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter;
 
   /// @brief Field defaultReverse, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultReverse, put = setStaticF_defaultReverse)) ::ArrayW<bool, ::Array<bool>*> defaultReverse;
+  __declspec(property(get = getStaticF_defaultReverse, put = setStaticF_defaultReverse)) ::ArrayW<bool, ::Array<bool>*> defaultReverse;
 
   /// @brief Field ordering, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering)) ::System::Collections::IList* ordering;
@@ -186,31 +184,31 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::Collections::IList* values;
 
-  /// @brief Method AppendValue, addr 0x25ea088, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method AppendValue, addr 0x261d374, size 0x2d4, virtual false, abstract: false, final false
   inline void AppendValue(::System::Text::StringBuilder* buf, ::System::Collections::IDictionary* oidSymbols, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW val);
 
-  /// @brief Method DecodeOid, addr 0x25e83fc, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DecodeOid, addr 0x261b6e8, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* DecodeOid(::StringW name, ::System::Collections::IDictionary* lookUp);
 
-  /// @brief Method Equivalent, addr 0x25e955c, size 0x624, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x261c848, size 0x624, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other);
 
-  /// @brief Method Equivalent, addr 0x25e90fc, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method Equivalent, addr 0x261c3e8, size 0x460, virtual false, abstract: false, final false
   inline bool Equivalent(::Org::BouncyCastle::Asn1::X509::X509Name* other, bool inOrder);
 
-  /// @brief Method GetInstance, addr 0x25d1d2c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2605018, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x25d1ef8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x26051e4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOidList, addr 0x25e88e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetOidList, addr 0x261bbcc, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetOidList();
 
-  /// @brief Method GetValueList, addr 0x25e893c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValueList, addr 0x261bc28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetValueList();
 
-  /// @brief Method GetValueList, addr 0x25e8944, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method GetValueList, addr 0x261bc30, size 0x2f4, virtual false, abstract: false, final false
   inline ::System::Collections::IList* GetValueList(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor();
@@ -240,34 +238,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25e8c38, size 0x4c4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x261bf24, size 0x4c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x25ea938, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x261dc24, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x25ea35c, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x261d648, size 0x5dc, virtual false, abstract: false, final false
   inline ::StringW ToString(bool reverse, ::System::Collections::IDictionary* oidSymbols);
+
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_added() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_added();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_added() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* const& __cordl_internal_get_converter() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*& __cordl_internal_get_converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*> const& __cordl_internal_get_converter() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_ordering() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_ordering();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_ordering() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_seq() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_values() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_values();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_values() const;
 
   constexpr void __cordl_internal_set_added(::System::Collections::IList* value);
 
@@ -279,49 +277,49 @@ public:
 
   constexpr void __cordl_internal_set_values(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x25e6b78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619e64, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25d169c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2604988, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x25e7834, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261ab20, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x25e72bc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a5a8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values);
 
-  /// @brief Method .ctor, addr 0x25e7330, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a61c, size 0x480, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* oids, ::System::Collections::IList* values, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x25e6bf4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619ee0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method .ctor, addr 0x25e6c68, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619f54, size 0x654, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* ordering, ::System::Collections::IDictionary* attributes, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x25e82fc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261b5e8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x25e8374, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261b660, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x25e77b0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261aa9c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName);
 
-  /// @brief Method .ctor, addr 0x25e78b4, size 0xa48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261aba0, size 0xa48, virtual false, abstract: false, final false
   inline void _ctor(bool reverse, ::System::Collections::IDictionary* lookUp, ::StringW dirName, ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* converter);
 
-  /// @brief Method .ctor, addr 0x25e6258, size 0x920, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2619544, size 0x920, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method canonicalize, addr 0x25e9c58, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method canonicalize, addr 0x261cf44, size 0x1cc, virtual false, abstract: false, final false
   static inline ::StringW canonicalize(::StringW s);
 
-  /// @brief Method decodeObject, addr 0x25e9f20, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method decodeObject, addr 0x261d20c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* decodeObject(::StringW v);
 
-  /// @brief Method equivalentStrings, addr 0x25e9b80, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method equivalentStrings, addr 0x261ce6c, size 0xd8, virtual false, abstract: false, final false
   static inline bool equivalentStrings(::StringW s1, ::StringW s2);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_BusinessCategory();
@@ -404,7 +402,7 @@ public:
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_defaultReverse();
 
-  /// @brief Method get_DefaultReverse, addr 0x25e4850, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultReverse, addr 0x2617b3c, size 0x70, virtual false, abstract: false, final false
   static inline bool get_DefaultReverse();
 
   static inline void setStaticF_BusinessCategory(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
@@ -487,10 +485,10 @@ public:
 
   static inline void setStaticF_defaultReverse(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method set_DefaultReverse, addr 0x25e48c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultReverse, addr 0x2617bac, size 0x78, virtual false, abstract: false, final false
   static inline void set_DefaultReverse(bool value);
 
-  /// @brief Method stripInternalSpaces, addr 0x25e9e24, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method stripInternalSpaces, addr 0x261d110, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW stripInternalSpaces(::StringW str);
 
 protected:
@@ -507,6 +505,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Name(X509Name const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 408 };
+
   /// @brief Field ordering, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___ordering;
 
@@ -522,14 +523,9 @@ public:
   /// @brief Field seq, offset: 0x30, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___seq;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 408 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509Name, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___ordering) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___converter) == 0x18, "Offset mismatch!");
@@ -539,6 +535,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___values) == 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___added) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Name, ___seq) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509Name, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509Name);

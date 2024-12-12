@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDsaEncoding)
 namespace Org::BouncyCastle::Math {
@@ -15,24 +14,19 @@ class IDsaEncoding;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding);
-// Type: Org.BouncyCastle.Crypto.Signers::IDsaEncoding
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Signers::IDsaEncoding*
+// CS Name: Org.BouncyCastle.Crypto.Signers.IDsaEncoding
 class CORDL_TYPE IDsaEncoding {
 public:
   // Declarations
-  /// @brief Method Decode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Decode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> Decode(::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IDsaEncoding", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDsaEncoding(IDsaEncoding&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IDsaEncoding", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

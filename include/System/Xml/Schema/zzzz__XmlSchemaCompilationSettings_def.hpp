@@ -11,11 +11,10 @@ class XmlSchemaCompilationSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaCompilationSettings);
-// Type: System.Xml.Schema::XmlSchemaCompilationSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaCompilationSettings*
+// CS Name: System.Xml.Schema.XmlSchemaCompilationSettings
 class CORDL_TYPE XmlSchemaCompilationSettings : public ::System::Object {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
-  /// @brief Method .ctor, addr 0x4258b60, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9e74, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EnableUpaCheck, addr 0x4258b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableUpaCheck, addr 0x42b9e94, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableUpaCheck();
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaCompilationSettings(XmlSchemaCompilationSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7658 };
+
   /// @brief Field enableUpaCheck, offset: 0x10, size: 0x1, def value: None
   bool ___enableUpaCheck;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7633 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCompilationSettings, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaCompilationSettings, ___enableUpaCheck) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaCompilationSettings, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaCompilationSettings);

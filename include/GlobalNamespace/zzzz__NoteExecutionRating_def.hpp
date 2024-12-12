@@ -5,47 +5,45 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
-#include "GlobalNamespace/zzzz__NoteExecutionRating_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteExecutionRating)
 namespace GlobalNamespace {
-struct __NoteData__ScoringType;
+struct NoteData_ScoringType;
 }
 namespace GlobalNamespace {
-struct __NoteExecutionRating__Rating;
+struct NoteExecutionRating_Rating;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __NoteExecutionRating__Rating;
+struct NoteExecutionRating_Rating;
 }
 namespace GlobalNamespace {
 class NoteExecutionRating;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__NoteExecutionRating__Rating);
+MARK_VAL_T(::GlobalNamespace::NoteExecutionRating_Rating);
 MARK_REF_PTR_T(::GlobalNamespace::NoteExecutionRating);
-// Type: ::Rating
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::NoteExecutionRating::Rating
-struct CORDL_TYPE __NoteExecutionRating__Rating {
+// CS Name: NoteExecutionRating/Rating
+struct CORDL_TYPE NoteExecutionRating_Rating {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____NoteExecutionRating__Rating_Unwrapped
-  enum struct ____NoteExecutionRating__Rating_Unwrapped : int32_t {
+  /// @brief Nested struct __NoteExecutionRating_Rating_Unwrapped
+  enum struct __NoteExecutionRating_Rating_Unwrapped : int32_t {
     __E_GoodCut = static_cast<int32_t>(0x0),
     __E_Miss = static_cast<int32_t>(0x1),
     __E_BadCut = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____NoteExecutionRating__Rating_Unwrapped() const noexcept {
-    return static_cast<____NoteExecutionRating__Rating_Unwrapped>(this->value__);
+  constexpr operator __NoteExecutionRating_Rating_Unwrapped() const noexcept {
+    return static_cast<__NoteExecutionRating_Rating_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -55,46 +53,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NoteExecutionRating__Rating();
+  constexpr NoteExecutionRating_Rating();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteExecutionRating__Rating(int32_t value__) noexcept;
+  constexpr NoteExecutionRating_Rating(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BadCut value: I32(2)
+  static ::GlobalNamespace::NoteExecutionRating_Rating const BadCut;
 
-  /// @brief Field BadCut value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__NoteExecutionRating__Rating const BadCut;
+  /// @brief Field GoodCut value: I32(0)
+  static ::GlobalNamespace::NoteExecutionRating_Rating const GoodCut;
 
-  /// @brief Field GoodCut value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__NoteExecutionRating__Rating const GoodCut;
-
-  /// @brief Field Miss value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__NoteExecutionRating__Rating const Miss;
+  /// @brief Field Miss value: I32(1)
+  static ::GlobalNamespace::NoteExecutionRating_Rating const Miss;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13119 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteExecutionRating__Rating, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteExecutionRating_Rating, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteExecutionRating_Rating, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::NoteExecutionRating
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapObjectExecutionRating, NoteData::ScoringType, NoteExecutionRating::Rating
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteExecutionRating*
+// CS Name: NoteExecutionRating
 class CORDL_TYPE NoteExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
   // Declarations
-  using Rating = ::GlobalNamespace::__NoteExecutionRating__Rating;
+  using Rating = ::GlobalNamespace::NoteExecutionRating_Rating;
 
   /// @brief Field afterCutScore, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_afterCutScore, put = __cordl_internal_set_afterCutScore)) int32_t afterCutScore;
@@ -109,12 +106,12 @@ public:
   __declspec(property(get = __cordl_internal_get_cutScore, put = __cordl_internal_set_cutScore)) int32_t cutScore;
 
   /// @brief Field rating, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_rating, put = __cordl_internal_set_rating)) ::GlobalNamespace::__NoteExecutionRating__Rating rating;
+  __declspec(property(get = __cordl_internal_get_rating, put = __cordl_internal_set_rating)) ::GlobalNamespace::NoteExecutionRating_Rating rating;
 
   /// @brief Field scoringType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType)) ::GlobalNamespace::__NoteData__ScoringType scoringType;
+  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType)) ::GlobalNamespace::NoteData_ScoringType scoringType;
 
-  static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating,
+  static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::NoteData_ScoringType scoringType, ::GlobalNamespace::NoteExecutionRating_Rating rating,
                                                                  int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore);
 
   constexpr int32_t const& __cordl_internal_get_afterCutScore() const;
@@ -133,13 +130,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_cutScore();
 
-  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating const& __cordl_internal_get_rating() const;
+  constexpr ::GlobalNamespace::NoteExecutionRating_Rating const& __cordl_internal_get_rating() const;
 
-  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating& __cordl_internal_get_rating();
+  constexpr ::GlobalNamespace::NoteExecutionRating_Rating& __cordl_internal_get_rating();
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __cordl_internal_get_scoringType() const;
+  constexpr ::GlobalNamespace::NoteData_ScoringType const& __cordl_internal_get_scoringType() const;
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType& __cordl_internal_get_scoringType();
+  constexpr ::GlobalNamespace::NoteData_ScoringType& __cordl_internal_get_scoringType();
 
   constexpr void __cordl_internal_set_afterCutScore(int32_t value);
 
@@ -149,12 +146,12 @@ public:
 
   constexpr void __cordl_internal_set_cutScore(int32_t value);
 
-  constexpr void __cordl_internal_set_rating(::GlobalNamespace::__NoteExecutionRating__Rating value);
+  constexpr void __cordl_internal_set_rating(::GlobalNamespace::NoteExecutionRating_Rating value);
 
-  constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
+  constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::NoteData_ScoringType value);
 
-  /// @brief Method .ctor, addr 0x26ad298, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating, int32_t cutScore, int32_t beforeCutScore,
+  /// @brief Method .ctor, addr 0x26e1fcc, size 0x54, virtual false, abstract: false, final false
+  inline void _ctor(float_t time, ::GlobalNamespace::NoteData_ScoringType scoringType, ::GlobalNamespace::NoteExecutionRating_Rating rating, int32_t cutScore, int32_t beforeCutScore,
                     int32_t centerDistanceCutScore, int32_t afterCutScore);
 
 protected:
@@ -171,8 +168,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NoteExecutionRating(NoteExecutionRating const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13120 };
+
   /// @brief Field rating, offset: 0x14, size: 0x4, def value: None
-  ::GlobalNamespace::__NoteExecutionRating__Rating ___rating;
+  ::GlobalNamespace::NoteExecutionRating_Rating ___rating;
 
   /// @brief Field cutScore, offset: 0x18, size: 0x4, def value: None
   int32_t ___cutScore;
@@ -187,16 +187,11 @@ public:
   int32_t ___afterCutScore;
 
   /// @brief Field scoringType, offset: 0x28, size: 0x4, def value: None
-  ::GlobalNamespace::__NoteData__ScoringType ___scoringType;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13085 };
+  ::GlobalNamespace::NoteData_ScoringType ___scoringType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteExecutionRating, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___rating) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___cutScore) == 0x18, "Offset mismatch!");
@@ -209,7 +204,9 @@ static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___afterCutScore)
 
 static_assert(offsetof(::GlobalNamespace::NoteExecutionRating, ___scoringType) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteExecutionRating, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteExecutionRating__Rating, "", "NoteExecutionRating/Rating");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteExecutionRating_Rating, "", "NoteExecutionRating/Rating");
 NEED_NO_BOX(::GlobalNamespace::NoteExecutionRating);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteExecutionRating*, "", "NoteExecutionRating");

@@ -13,7 +13,7 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+struct RankModel_Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,17 +21,16 @@ class RankModelHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RankModelHelper);
-// Type: ::RankModelHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RankModelHelper*
+// CS Name: RankModelHelper
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers, addr 0x26c56f8, size 0x68, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__RankModel__Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
-                                                                                 ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x26fa478, size 0x68, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::RankModel_Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                                                                              ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
 protected:
   // Ctor Parameters []
@@ -48,7 +47,7 @@ public:
   RankModelHelper(RankModelHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13257 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

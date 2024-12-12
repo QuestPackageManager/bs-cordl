@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompatibleComparer)
 namespace System::Collections {
 class IComparer;
-}
-namespace System::Collections {
-class IEqualityComparer;
 }
 namespace System::Collections {
 class IHashCodeProvider;
@@ -24,11 +22,10 @@ class CompatibleComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::CompatibleComparer);
-// Type: System.Collections::CompatibleComparer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEqualityComparer, System.Object
 namespace System::Collections {
 // Is value type: false
-// CS Name: ::System.Collections::CompatibleComparer*
+// CS Name: System.Collections.CompatibleComparer
 class CORDL_TYPE CompatibleComparer : public ::System::Object {
 public:
   // Declarations
@@ -45,36 +42,36 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3d58db8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3db8f2c, size 0x1c0, virtual false, abstract: false, final false
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method Equals, addr 0x3d58da0, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3db8f14, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x3d58f78, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x3db90ec, size 0x108, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
+  constexpr ::System::Collections::IComparer* const& __cordl_internal_get__comparer() const;
+
   constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get__comparer() const;
+  constexpr ::System::Collections::IHashCodeProvider* const& __cordl_internal_get__hcp() const;
 
   constexpr ::System::Collections::IHashCodeProvider*& __cordl_internal_get__hcp();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& __cordl_internal_get__hcp() const;
 
   constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
 
   constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
 
-  /// @brief Method .ctor, addr 0x3d58d64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db8ed8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_Comparer, addr 0x3d58d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparer, addr 0x3db8f0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method get_HashCodeProvider, addr 0x3d58d90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashCodeProvider, addr 0x3db8f04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -94,23 +91,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompatibleComparer(CompatibleComparer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3777 };
+
   /// @brief Field _hcp, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IHashCodeProvider* ____hcp;
 
   /// @brief Field _comparer, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IComparer* ____comparer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3777 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Collections::CompatibleComparer, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Collections::CompatibleComparer, ____hcp) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Collections::CompatibleComparer, ____comparer) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Collections::CompatibleComparer, 0x20>, "Size mismatch!");
 
 } // namespace System::Collections
 NEED_NO_BOX(::System::Collections::CompatibleComparer);

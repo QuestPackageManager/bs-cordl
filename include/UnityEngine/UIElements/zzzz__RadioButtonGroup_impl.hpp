@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/UIElements/RadioButtonGroup.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupBox_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RadioButtonGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,107 +11,103 @@
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RadioButtonGroup_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RadioButton_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x499d38c;
+  constexpr static std::size_t addrs = 0x4a01c9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory* UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory*>::get(),
+inline void UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory* UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__RadioButtonGroup__UxmlFactory::__RadioButtonGroup__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits.Init
+constexpr ::UnityEngine::UIElements::RadioButtonGroup_UxmlFactory::RadioButtonGroup_UxmlFactory() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits.Init
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
-    &::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::Init)> {
+    &::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::Init)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x499d3d4;
+  constexpr static std::size_t addrs = 0x4a01ce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>::get(), 4));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>::get(), 4));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::*)()>(
-    &::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::*)()>(
+    &::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x499d508;
+  constexpr static std::size_t addrs = 0x4a01e18;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::__cordl_internal_get_m_Choices() {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::__cordl_internal_get_m_Choices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Choices;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const&
-UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::__cordl_internal_get_m_Choices() const {
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::__cordl_internal_get_m_Choices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Choices;
 }
-constexpr void UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::__cordl_internal_set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
+constexpr void UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::__cordl_internal_set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Choices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
-                                                                          ::UnityEngine::UIElements::CreationContext cc) {
+inline void UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
+                                                                       ::UnityEngine::UIElements::CreationContext cc) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>::get(), 4)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
-inline ::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits* UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>());
-}
-inline void UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits*>::get(),
+inline void UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits* UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__RadioButtonGroup__UxmlTraits::__RadioButtonGroup__UxmlTraits() {}
+constexpr ::UnityEngine::UIElements::RadioButtonGroup_UxmlTraits::RadioButtonGroup_UxmlTraits() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::RadioButtonGroup.set_choices
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::set_choices)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x499c334;
+  constexpr static std::size_t addrs = 0x4a00c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -125,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::RadioButtonGroup::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup::get_contentContainer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x499cbc8;
+  constexpr static std::size_t addrs = 0x4a014d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(&::UnityEngine::UIElements::RadioButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x499cbd8;
+  constexpr static std::size_t addrs = 0x4a014e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(), ".ctor",
@@ -153,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::_ctor)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x499cbe4;
+  constexpr static std::size_t addrs = 0x4a014f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::ChangeEvent_1<bool>*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::RadioButtonValueChangedCallback)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x499ce20;
+  constexpr static std::size_t addrs = 0x4a01730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(int32_t)>(
     &::UnityEngine::UIElements::RadioButtonGroup::SetValueWithoutNotify)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x499cf18;
+  constexpr static std::size_t addrs = 0x4a01828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)()>(
     &::UnityEngine::UIElements::RadioButtonGroup::UpdateRadioButtons)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x499c9dc;
+  constexpr static std::size_t addrs = 0x4a012ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(),
@@ -213,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::UnityEngine_UIElements_IGroupBox_OnOptionAdded)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x499cf78;
+  constexpr static std::size_t addrs = 0x4a01888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RadioButtonGroup::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::RadioButtonGroup::UnityEngine_UIElements_IGroupBox_OnOptionRemoved)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x499d178;
+  constexpr static std::size_t addrs = 0x4a01a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,20 +234,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
-constexpr UnityEngine::UIElements::RadioButtonGroup::operator ::UnityEngine::UIElements::IGroupBox*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGroupBox*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
-constexpr ::UnityEngine::UIElements::IGroupBox* UnityEngine::UIElements::RadioButtonGroup::i___UnityEngine__UIElements__IGroupBox() noexcept {
-  return static_cast<::UnityEngine::UIElements::IGroupBox*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RadioButton*>*& UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtons() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtons;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::RadioButton*>*> const&
-UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtons() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RadioButton*>* const& UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtons() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtons;
 }
@@ -263,7 +251,7 @@ UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtonVal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtonValueChangedCallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>*> const&
+constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<bool>*>* const&
 UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtonValueChangedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtonValueChangedCallback;
@@ -277,7 +265,7 @@ constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::Ra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtonContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtonContainer() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::RadioButtonGroup::__cordl_internal_get_m_RadioButtonContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RadioButtonContainer;
 }
@@ -310,19 +298,11 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::RadioB
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(), 99)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::RadioButtonGroup* UnityEngine::UIElements::RadioButtonGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup*>());
-}
 inline void UnityEngine::UIElements::RadioButtonGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param radioButtonChoices: ::System::Collections::Generic::List_1<::StringW>* (default: nullptr)
-inline ::UnityEngine::UIElements::RadioButtonGroup* UnityEngine::UIElements::RadioButtonGroup::New_ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup*>(label, radioButtonChoices));
-}
-/// @param radioButtonChoices: ::System::Collections::Generic::List_1<::StringW>* (default: nullptr)
 inline void UnityEngine::UIElements::RadioButtonGroup::_ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -357,6 +337,20 @@ inline void UnityEngine::UIElements::RadioButtonGroup::UnityEngine_UIElements_IG
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RadioButtonGroup*>::get(), "UnityEngine.UIElements.IGroupBox.OnOptionRemoved",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IGroupBoxOption*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, option);
+}
+inline ::UnityEngine::UIElements::RadioButtonGroup* UnityEngine::UIElements::RadioButtonGroup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup*>());
+}
+inline ::UnityEngine::UIElements::RadioButtonGroup* UnityEngine::UIElements::RadioButtonGroup::New_ctor(::StringW label, ::System::Collections::Generic::List_1<::StringW>* radioButtonChoices) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RadioButtonGroup*>(label, radioButtonChoices));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
+constexpr UnityEngine::UIElements::RadioButtonGroup::operator ::UnityEngine::UIElements::IGroupBox*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IGroupBox*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+constexpr ::UnityEngine::UIElements::IGroupBox* UnityEngine::UIElements::RadioButtonGroup::i___UnityEngine__UIElements__IGroupBox() noexcept {
+  return static_cast<::UnityEngine::UIElements::IGroupBox*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RadioButtonGroup::RadioButtonGroup() {}

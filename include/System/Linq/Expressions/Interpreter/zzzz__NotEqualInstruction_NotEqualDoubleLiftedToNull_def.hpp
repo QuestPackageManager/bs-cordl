@@ -10,50 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __NotEqualInstruction__NotEqualDoubleLiftedToNull;
+namespace GlobalNamespace {
+class NotEqualInstruction_NotEqualDoubleLiftedToNull;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDoubleLiftedToNull);
-// Type: ::NotEqualDoubleLiftedToNull
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull);
+// Dependencies System.Linq.Expressions.Interpreter.NotEqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NotEqualInstruction::NotEqualDoubleLiftedToNull*
-class CORDL_TYPE __NotEqualInstruction__NotEqualDoubleLiftedToNull : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.NotEqualInstruction/NotEqualDoubleLiftedToNull
+class CORDL_TYPE NotEqualInstruction_NotEqualDoubleLiftedToNull : public ::System::Linq::Expressions::Interpreter::NotEqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDoubleLiftedToNull* New_ctor();
+  static inline ::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x408ea4c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40efd60, size 0xf0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x408d5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ee8c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NotEqualInstruction__NotEqualDoubleLiftedToNull();
+  constexpr NotEqualInstruction_NotEqualDoubleLiftedToNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NotEqualInstruction__NotEqualDoubleLiftedToNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NotEqualInstruction__NotEqualDoubleLiftedToNull(__NotEqualInstruction__NotEqualDoubleLiftedToNull&&) = delete;
+  NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NotEqualInstruction__NotEqualDoubleLiftedToNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NotEqualInstruction_NotEqualDoubleLiftedToNull", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NotEqualInstruction__NotEqualDoubleLiftedToNull(__NotEqualInstruction__NotEqualDoubleLiftedToNull const&) = delete;
+  NotEqualInstruction_NotEqualDoubleLiftedToNull(NotEqualInstruction_NotEqualDoubleLiftedToNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDoubleLiftedToNull, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDoubleLiftedToNull);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualDoubleLiftedToNull*, "System.Linq.Expressions.Interpreter",
-                       "NotEqualInstruction/NotEqualDoubleLiftedToNull");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NotEqualInstruction_NotEqualDoubleLiftedToNull*, "System.Linq.Expressions.Interpreter", "NotEqualInstruction/NotEqualDoubleLiftedToNull");

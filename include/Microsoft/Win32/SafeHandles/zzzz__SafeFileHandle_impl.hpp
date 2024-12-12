@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeFileHandle::*)(::System::IntPtr, bool)>(
     &::Microsoft::Win32::SafeHandles::SafeFileHandle::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c0d66c;
+  constexpr static std::size_t addrs = 0x3c6d780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeFileHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafeFileHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c0d6ac;
+  constexpr static std::size_t addrs = 0x3c6d7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,9 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* Microsoft::Win32::SafeHandles::SafeFileHandle::New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Microsoft::Win32::SafeHandles::SafeFileHandle*>(preexistingHandle, ownsHandle));
-}
 inline void Microsoft::Win32::SafeHandles::SafeFileHandle::_ctor(::System::IntPtr preexistingHandle, bool ownsHandle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeFileHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -47,6 +44,9 @@ inline bool Microsoft::Win32::SafeHandles::SafeFileHandle::ReleaseHandle() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeFileHandle*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* Microsoft::Win32::SafeHandles::SafeFileHandle::New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Microsoft::Win32::SafeHandles::SafeFileHandle*>(preexistingHandle, ownsHandle));
 }
 // Ctor Parameters []
 constexpr ::Microsoft::Win32::SafeHandles::SafeFileHandle::SafeFileHandle() {}

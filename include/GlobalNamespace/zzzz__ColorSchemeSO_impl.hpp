@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::ColorSchemeSO::*)()>(
     &::GlobalNamespace::ColorSchemeSO::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266bd90;
+  constexpr static std::size_t addrs = 0x269fc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeSO*>::get(), "get_colorScheme",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ColorSchemeSO::*)()>(&::GlobalNamespace::ColorSchemeSO::get_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266bd98;
+  constexpr static std::size_t addrs = 0x269fc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeSO*>::get(), "get_order",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeSO::*)()>(&::GlobalNamespace::ColorSchemeSO::LogColorScheme)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x266bda0;
+  constexpr static std::size_t addrs = 0x269fc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeSO*>::get(), "LogColorScheme",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeSO::*)()>(&::GlobalNamespace::ColorSchemeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c044;
+  constexpr static std::size_t addrs = 0x269feec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeSO*>::get(), ".ctor",
@@ -60,7 +60,7 @@ constexpr ::GlobalNamespace::ColorScheme*& GlobalNamespace::ColorSchemeSO::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& GlobalNamespace::ColorSchemeSO::__cordl_internal_get__colorScheme() const {
+constexpr ::GlobalNamespace::ColorScheme* const& GlobalNamespace::ColorSchemeSO::__cordl_internal_get__colorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
@@ -95,13 +95,13 @@ inline void GlobalNamespace::ColorSchemeSO::LogColorScheme() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ColorSchemeSO* GlobalNamespace::ColorSchemeSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorSchemeSO*>());
-}
 inline void GlobalNamespace::ColorSchemeSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ColorSchemeSO* GlobalNamespace::ColorSchemeSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorSchemeSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorSchemeSO::ColorSchemeSO() {}

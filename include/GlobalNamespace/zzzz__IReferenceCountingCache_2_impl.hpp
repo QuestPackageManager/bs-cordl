@@ -25,7 +25,7 @@ template <typename TKey, typename TValue> inline int32_t GlobalNamespace::IRefer
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, key);
 }
-template <typename TKey, typename TValue> inline bool GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>::TryGet(TKey key, ByRef<TValue> result) {
+template <typename TKey, typename TValue> inline bool GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>::TryGet(TKey key, ::ByRef<TValue> result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>*>::get(), 4)));

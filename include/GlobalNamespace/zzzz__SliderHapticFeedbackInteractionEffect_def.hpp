@@ -22,11 +22,10 @@ class SliderHapticFeedbackInteractionEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
-// Type: ::SliderHapticFeedbackInteractionEffect
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SaberType, SliderInteractionEffect
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SliderHapticFeedbackInteractionEffect*
+// CS Name: SliderHapticFeedbackInteractionEffect
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
   // Declarations
@@ -42,26 +41,26 @@ public:
   /// @brief Field _saberType, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType)) ::GlobalNamespace::SaberType _saberType;
 
-  /// @brief Method EndEffect, addr 0x3a9a514, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndEffect, addr 0x3b748f4, size 0xc, virtual true, abstract: false, final false
   inline void EndEffect();
 
   static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x3a9a254, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3b7463c, size 0x40, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffect, addr 0x3a9a4cc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method StartEffect, addr 0x3b748ac, size 0x48, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method Update, addr 0x3a9a39c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b7477c, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Vibrate, addr 0x3a9a48c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Vibrate, addr 0x3b7486c, size 0x40, virtual false, abstract: false, final false
   inline void Vibrate();
 
-  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause* const& __cordl_internal_get__gamePause() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
   constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
@@ -83,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x3a9a520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b74900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +99,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SliderHapticFeedbackInteractionEffect(SliderHapticFeedbackInteractionEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4164 };
+
+  /// @brief Field kVibrationSaberInteractionParamThreshold offset 0xffffffff size 0x4
+  static constexpr float_t kVibrationSaberInteractionParamThreshold{ static_cast<float_t>(0.2f) };
+
   /// @brief Field _hapticPreset, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____hapticPreset;
 
@@ -112,17 +117,9 @@ public:
   /// @brief Field _saberType, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ____saberType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4153 };
-
-  /// @brief Field kVibrationSaberInteractionParamThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kVibrationSaberInteractionParamThreshold{ 0.2 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderHapticFeedbackInteractionEffect, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____hapticPreset) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____hapticFeedbackManager) == 0x30, "Offset mismatch!");
@@ -130,6 +127,8 @@ static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect,
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____gamePause) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____saberType) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderHapticFeedbackInteractionEffect, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);

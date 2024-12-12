@@ -11,17 +11,16 @@ class IgnoredByDeepProfilerAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Profiling::IgnoredByDeepProfilerAttribute);
-// Type: Unity.Profiling::IgnoredByDeepProfilerAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Unity::Profiling {
 // Is value type: false
-// CS Name: ::Unity.Profiling::IgnoredByDeepProfilerAttribute*
+// CS Name: Unity.Profiling.IgnoredByDeepProfilerAttribute
 class CORDL_TYPE IgnoredByDeepProfilerAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Profiling::IgnoredByDeepProfilerAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47fc8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485dbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   IgnoredByDeepProfilerAttribute(IgnoredByDeepProfilerAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

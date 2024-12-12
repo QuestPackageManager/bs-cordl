@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BZip2Constants)
 // Forward declare root types
@@ -13,20 +12,19 @@ class BZip2Constants;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::BZip2Constants);
-// Type: Org.BouncyCastle.Apache.Bzip2::BZip2Constants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Apache.Bzip2::BZip2Constants*
+// CS Name: Org.BouncyCastle.Apache.Bzip2.BZip2Constants
 class CORDL_TYPE BZip2Constants : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rNums, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_rNums, put = setStaticF_rNums)) ::ArrayW<int32_t, ::Array<int32_t>*> rNums;
+  __declspec(property(get = getStaticF_rNums, put = setStaticF_rNums)) ::ArrayW<int32_t, ::Array<int32_t>*> rNums;
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cbf20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff20c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_rNums();

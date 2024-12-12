@@ -12,11 +12,10 @@ struct StandardFrameRates;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::StandardFrameRates);
-// Type: UnityEngine.Timeline::StandardFrameRates
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
-// CS Name: ::UnityEngine.Timeline::StandardFrameRates
+// CS Name: UnityEngine.Timeline.StandardFrameRates
 struct CORDL_TYPE StandardFrameRates {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StandardFrameRates(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Fps23_97 value: static_cast<int32_t>(0x1)
+  /// @brief Field Fps23_97 value: I32(1)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps23_97;
 
-  /// @brief Field Fps24 value: static_cast<int32_t>(0x0)
+  /// @brief Field Fps24 value: I32(0)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps24;
 
-  /// @brief Field Fps25 value: static_cast<int32_t>(0x2)
+  /// @brief Field Fps25 value: I32(2)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps25;
 
-  /// @brief Field Fps29_97 value: static_cast<int32_t>(0x4)
+  /// @brief Field Fps29_97 value: I32(4)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps29_97;
 
-  /// @brief Field Fps30 value: static_cast<int32_t>(0x3)
+  /// @brief Field Fps30 value: I32(3)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps30;
 
-  /// @brief Field Fps50 value: static_cast<int32_t>(0x5)
+  /// @brief Field Fps50 value: I32(5)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps50;
 
-  /// @brief Field Fps59_94 value: static_cast<int32_t>(0x7)
+  /// @brief Field Fps59_94 value: I32(7)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps59_94;
 
-  /// @brief Field Fps60 value: static_cast<int32_t>(0x6)
+  /// @brief Field Fps60 value: I32(6)
   static ::UnityEngine::Timeline::StandardFrameRates const Fps60;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::StandardFrameRates, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::StandardFrameRates, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::StandardFrameRates, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::StandardFrameRates, "UnityEngine.Timeline", "StandardFrameRates");

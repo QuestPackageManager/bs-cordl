@@ -2,7 +2,6 @@
 // IWYU pragma private; include "OVR/OpenVR/ImuSample_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3d_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__ImuSample_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector3d_t_def.hpp"
 // Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value:
 // Some("{}") }]

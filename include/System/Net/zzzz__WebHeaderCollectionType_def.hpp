@@ -12,11 +12,10 @@ struct WebHeaderCollectionType;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::WebHeaderCollectionType);
-// Type: System.Net::WebHeaderCollectionType
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::WebHeaderCollectionType
+// CS Name: System.Net.WebHeaderCollectionType
 struct CORDL_TYPE WebHeaderCollectionType {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr WebHeaderCollectionType(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field FileWebRequest value: static_cast<uint16_t>(0x9u)
+  /// @brief Field FileWebRequest value: U16(9)
   static ::System::Net::WebHeaderCollectionType const FileWebRequest;
 
-  /// @brief Field FileWebResponse value: static_cast<uint16_t>(0xau)
+  /// @brief Field FileWebResponse value: U16(10)
   static ::System::Net::WebHeaderCollectionType const FileWebResponse;
 
-  /// @brief Field FtpWebRequest value: static_cast<uint16_t>(0x7u)
+  /// @brief Field FtpWebRequest value: U16(7)
   static ::System::Net::WebHeaderCollectionType const FtpWebRequest;
 
-  /// @brief Field FtpWebResponse value: static_cast<uint16_t>(0x8u)
+  /// @brief Field FtpWebResponse value: U16(8)
   static ::System::Net::WebHeaderCollectionType const FtpWebResponse;
 
-  /// @brief Field HttpListenerRequest value: static_cast<uint16_t>(0x5u)
+  /// @brief Field HttpListenerRequest value: U16(5)
   static ::System::Net::WebHeaderCollectionType const HttpListenerRequest;
 
-  /// @brief Field HttpListenerResponse value: static_cast<uint16_t>(0x6u)
+  /// @brief Field HttpListenerResponse value: U16(6)
   static ::System::Net::WebHeaderCollectionType const HttpListenerResponse;
 
-  /// @brief Field HttpWebRequest value: static_cast<uint16_t>(0x3u)
+  /// @brief Field HttpWebRequest value: U16(3)
   static ::System::Net::WebHeaderCollectionType const HttpWebRequest;
 
-  /// @brief Field HttpWebResponse value: static_cast<uint16_t>(0x4u)
+  /// @brief Field HttpWebResponse value: U16(4)
   static ::System::Net::WebHeaderCollectionType const HttpWebResponse;
 
-  /// @brief Field Unknown value: static_cast<uint16_t>(0x0u)
+  /// @brief Field Unknown value: U16(0)
   static ::System::Net::WebHeaderCollectionType const Unknown;
 
-  /// @brief Field WebRequest value: static_cast<uint16_t>(0x1u)
+  /// @brief Field WebRequest value: U16(1)
   static ::System::Net::WebHeaderCollectionType const WebRequest;
 
-  /// @brief Field WebResponse value: static_cast<uint16_t>(0x2u)
+  /// @brief Field WebResponse value: U16(2)
   static ::System::Net::WebHeaderCollectionType const WebResponse;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9605 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::WebHeaderCollectionType, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::WebHeaderCollectionType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::WebHeaderCollectionType, 0x2>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebHeaderCollectionType, "System.Net", "WebHeaderCollectionType");

@@ -14,59 +14,58 @@ class EsfAttributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::EsfAttributes);
-// Type: Org.BouncyCastle.Asn1.Esf::EsfAttributes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Esf::EsfAttributes*
+// CS Name: Org.BouncyCastle.Asn1.Esf.EsfAttributes
 class CORDL_TYPE EsfAttributes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ArchiveTimestamp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ArchiveTimestamp, put = setStaticF_ArchiveTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ArchiveTimestamp;
+  __declspec(property(get = getStaticF_ArchiveTimestamp, put = setStaticF_ArchiveTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ArchiveTimestamp;
 
   /// @brief Field ArchiveTimestampV2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ArchiveTimestampV2, put = setStaticF_ArchiveTimestampV2)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ArchiveTimestampV2;
+  __declspec(property(get = getStaticF_ArchiveTimestampV2, put = setStaticF_ArchiveTimestampV2)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ArchiveTimestampV2;
 
   /// @brief Field CertCrlTimestamp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CertCrlTimestamp, put = setStaticF_CertCrlTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertCrlTimestamp;
+  __declspec(property(get = getStaticF_CertCrlTimestamp, put = setStaticF_CertCrlTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertCrlTimestamp;
 
   /// @brief Field CertValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CertValues, put = setStaticF_CertValues)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertValues;
+  __declspec(property(get = getStaticF_CertValues, put = setStaticF_CertValues)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertValues;
 
   /// @brief Field CertificateRefs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CertificateRefs, put = setStaticF_CertificateRefs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificateRefs;
+  __declspec(property(get = getStaticF_CertificateRefs, put = setStaticF_CertificateRefs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CertificateRefs;
 
   /// @brief Field CommitmentType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CommitmentType, put = setStaticF_CommitmentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CommitmentType;
+  __declspec(property(get = getStaticF_CommitmentType, put = setStaticF_CommitmentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CommitmentType;
 
   /// @brief Field ContentTimestamp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ContentTimestamp, put = setStaticF_ContentTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentTimestamp;
+  __declspec(property(get = getStaticF_ContentTimestamp, put = setStaticF_ContentTimestamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentTimestamp;
 
   /// @brief Field EscTimeStamp, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EscTimeStamp, put = setStaticF_EscTimeStamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EscTimeStamp;
+  __declspec(property(get = getStaticF_EscTimeStamp, put = setStaticF_EscTimeStamp)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EscTimeStamp;
 
   /// @brief Field OtherSigCert, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_OtherSigCert, put = setStaticF_OtherSigCert)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherSigCert;
+  __declspec(property(get = getStaticF_OtherSigCert, put = setStaticF_OtherSigCert)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* OtherSigCert;
 
   /// @brief Field RevocationRefs, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RevocationRefs, put = setStaticF_RevocationRefs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RevocationRefs;
+  __declspec(property(get = getStaticF_RevocationRefs, put = setStaticF_RevocationRefs)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RevocationRefs;
 
   /// @brief Field RevocationValues, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RevocationValues, put = setStaticF_RevocationValues)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RevocationValues;
+  __declspec(property(get = getStaticF_RevocationValues, put = setStaticF_RevocationValues)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RevocationValues;
 
   /// @brief Field SigPolicyId, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SigPolicyId, put = setStaticF_SigPolicyId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SigPolicyId;
+  __declspec(property(get = getStaticF_SigPolicyId, put = setStaticF_SigPolicyId)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SigPolicyId;
 
   /// @brief Field SignerAttr, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SignerAttr, put = setStaticF_SignerAttr)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignerAttr;
+  __declspec(property(get = getStaticF_SignerAttr, put = setStaticF_SignerAttr)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignerAttr;
 
   /// @brief Field SignerLocation, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SignerLocation, put = setStaticF_SignerLocation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignerLocation;
+  __declspec(property(get = getStaticF_SignerLocation, put = setStaticF_SignerLocation)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SignerLocation;
 
   static inline ::Org::BouncyCastle::Asn1::Esf::EsfAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22eb744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231ea30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ArchiveTimestamp();

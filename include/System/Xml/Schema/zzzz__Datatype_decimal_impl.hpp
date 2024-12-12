@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_decimal::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_decimal::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4348368;
+  constexpr static std::size_t addrs = 0x43a967c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4348374;
+  constexpr static std::size_t addrs = 0x43a9688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43483cc;
+  constexpr static std::size_t addrs = 0x43a96e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43483d4;
+  constexpr static std::size_t addrs = 0x43a96e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434842c;
+  constexpr static std::size_t addrs = 0x43a9740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4348484;
+  constexpr static std::size_t addrs = 0x43a9798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_decimal::*)()>(
     &::System::Xml::Schema::Datatype_decimal::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434848c;
+  constexpr static std::size_t addrs = 0x43a97a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_decimal::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_decimal::Compare)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4348494;
+  constexpr static std::size_t addrs = 0x43a97a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,10 +137,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_decimal::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::System::Object*>)>(
+    static_cast<::System::Exception* (::System::Xml::Schema::Datatype_decimal::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_decimal::TryParseValue)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4348560;
+  constexpr static std::size_t addrs = 0x43a9874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_decimal::*)()>(&::System::Xml::Schema::Datatype_decimal::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43428f0;
+  constexpr static std::size_t addrs = 0x43a3c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_decimal*>::get(), ".ctor",
@@ -225,18 +225,18 @@ inline int32_t System::Xml::Schema::Datatype_decimal::Compare(::System::Object* 
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, value1, value2);
 }
 inline ::System::Exception* System::Xml::Schema::Datatype_decimal::TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr,
-                                                                                 ByRef<::System::Object*> typedValue) {
+                                                                                 ::ByRef<::System::Object*> typedValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_decimal*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, s, nameTable, nsmgr, typedValue);
-}
-inline ::System::Xml::Schema::Datatype_decimal* System::Xml::Schema::Datatype_decimal::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_decimal*>());
 }
 inline void System::Xml::Schema::Datatype_decimal::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_decimal*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_decimal* System::Xml::Schema::Datatype_decimal::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_decimal*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_decimal::Datatype_decimal() {}

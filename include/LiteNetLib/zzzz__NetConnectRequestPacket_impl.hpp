@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetConnectRequestPacket::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::LiteNetLib::Utils::NetDataReader*)>(&::LiteNetLib::NetConnectRequestPacket::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3a5ff04;
+  constexpr static std::size_t addrs = 0x3ab6b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3a5cd94;
+  constexpr static std::size_t addrs = 0x3ab3a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetConnectRequestPacket* (*)(::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::NetConnectRequestPacket::FromData)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3a5ce58;
+  constexpr static std::size_t addrs = 0x3ab3ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPacket* (*)(::LiteNetLib::Utils::NetDataWriter*, ::System::Net::SocketAddress*, int64_t)>(
     &::LiteNetLib::NetConnectRequestPacket::Make)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3a5ff88;
+  constexpr static std::size_t addrs = 0x3ab6bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,17 +109,13 @@ constexpr ::LiteNetLib::Utils::NetDataReader*& LiteNetLib::NetConnectRequestPack
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& LiteNetLib::NetConnectRequestPacket::__cordl_internal_get_Data() const {
+constexpr ::LiteNetLib::Utils::NetDataReader* const& LiteNetLib::NetConnectRequestPacket::__cordl_internal_get_Data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Data;
 }
 constexpr void LiteNetLib::NetConnectRequestPacket::__cordl_internal_set_Data(::LiteNetLib::Utils::NetDataReader* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::LiteNetLib::NetConnectRequestPacket* LiteNetLib::NetConnectRequestPacket::New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
-                                                                                            ::LiteNetLib::Utils::NetDataReader* data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetConnectRequestPacket*>(connectionTime, connectionNumber, targetAddress, data));
 }
 inline void LiteNetLib::NetConnectRequestPacket::_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress, ::LiteNetLib::Utils::NetDataReader* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,6 +144,10 @@ inline ::LiteNetLib::NetPacket* LiteNetLib::NetConnectRequestPacket::Make(::Lite
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::SocketAddress*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::NetPacket*, false>(nullptr, ___internal_method, connectData, addressBytes, connectId);
+}
+inline ::LiteNetLib::NetConnectRequestPacket* LiteNetLib::NetConnectRequestPacket::New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t, ::Array<uint8_t>*> targetAddress,
+                                                                                            ::LiteNetLib::Utils::NetDataReader* data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetConnectRequestPacket*>(connectionTime, connectionNumber, targetAddress, data));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetConnectRequestPacket::NetConnectRequestPacket() {}

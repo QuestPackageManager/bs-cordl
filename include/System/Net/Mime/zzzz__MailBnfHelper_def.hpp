@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MailBnfHelper)
@@ -14,105 +13,104 @@ class MailBnfHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Mime::MailBnfHelper);
-// Type: System.Net.Mime::MailBnfHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Mime {
 // Is value type: false
-// CS Name: ::System.Net.Mime::MailBnfHelper*
+// CS Name: System.Net.Mime.MailBnfHelper
 class CORDL_TYPE MailBnfHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Ascii7bitMaxValue, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_Ascii7bitMaxValue, put = setStaticF_Ascii7bitMaxValue)) int32_t Ascii7bitMaxValue;
+  __declspec(property(get = getStaticF_Ascii7bitMaxValue, put = setStaticF_Ascii7bitMaxValue)) int32_t Ascii7bitMaxValue;
 
   /// @brief Field At, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_At, put = setStaticF_At)) char16_t At;
+  __declspec(property(get = getStaticF_At, put = setStaticF_At)) char16_t At;
 
   /// @brief Field Atext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Atext, put = setStaticF_Atext)) ::ArrayW<bool, ::Array<bool>*> Atext;
+  __declspec(property(get = getStaticF_Atext, put = setStaticF_Atext)) ::ArrayW<bool, ::Array<bool>*> Atext;
 
   /// @brief Field Backslash, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Backslash, put = setStaticF_Backslash)) char16_t Backslash;
+  __declspec(property(get = getStaticF_Backslash, put = setStaticF_Backslash)) char16_t Backslash;
 
   /// @brief Field CR, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_CR, put = setStaticF_CR)) char16_t CR;
+  __declspec(property(get = getStaticF_CR, put = setStaticF_CR)) char16_t CR;
 
   /// @brief Field Comma, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Comma, put = setStaticF_Comma)) char16_t Comma;
+  __declspec(property(get = getStaticF_Comma, put = setStaticF_Comma)) char16_t Comma;
 
   /// @brief Field Ctext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Ctext, put = setStaticF_Ctext)) ::ArrayW<bool, ::Array<bool>*> Ctext;
+  __declspec(property(get = getStaticF_Ctext, put = setStaticF_Ctext)) ::ArrayW<bool, ::Array<bool>*> Ctext;
 
   /// @brief Field Dot, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Dot, put = setStaticF_Dot)) char16_t Dot;
+  __declspec(property(get = getStaticF_Dot, put = setStaticF_Dot)) char16_t Dot;
 
   /// @brief Field Dtext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Dtext, put = setStaticF_Dtext)) ::ArrayW<bool, ::Array<bool>*> Dtext;
+  __declspec(property(get = getStaticF_Dtext, put = setStaticF_Dtext)) ::ArrayW<bool, ::Array<bool>*> Dtext;
 
   /// @brief Field EndAngleBracket, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_EndAngleBracket, put = setStaticF_EndAngleBracket)) char16_t EndAngleBracket;
+  __declspec(property(get = getStaticF_EndAngleBracket, put = setStaticF_EndAngleBracket)) char16_t EndAngleBracket;
 
   /// @brief Field EndComment, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_EndComment, put = setStaticF_EndComment)) char16_t EndComment;
+  __declspec(property(get = getStaticF_EndComment, put = setStaticF_EndComment)) char16_t EndComment;
 
   /// @brief Field EndSquareBracket, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_EndSquareBracket, put = setStaticF_EndSquareBracket)) char16_t EndSquareBracket;
+  __declspec(property(get = getStaticF_EndSquareBracket, put = setStaticF_EndSquareBracket)) char16_t EndSquareBracket;
 
   /// @brief Field Ftext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Ftext, put = setStaticF_Ftext)) ::ArrayW<bool, ::Array<bool>*> Ftext;
+  __declspec(property(get = getStaticF_Ftext, put = setStaticF_Ftext)) ::ArrayW<bool, ::Array<bool>*> Ftext;
 
   /// @brief Field LF, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_LF, put = setStaticF_LF)) char16_t LF;
+  __declspec(property(get = getStaticF_LF, put = setStaticF_LF)) char16_t LF;
 
   /// @brief Field Qtext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Qtext, put = setStaticF_Qtext)) ::ArrayW<bool, ::Array<bool>*> Qtext;
+  __declspec(property(get = getStaticF_Qtext, put = setStaticF_Qtext)) ::ArrayW<bool, ::Array<bool>*> Qtext;
 
   /// @brief Field Quote, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Quote, put = setStaticF_Quote)) char16_t Quote;
+  __declspec(property(get = getStaticF_Quote, put = setStaticF_Quote)) char16_t Quote;
 
   /// @brief Field Space, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Space, put = setStaticF_Space)) char16_t Space;
+  __declspec(property(get = getStaticF_Space, put = setStaticF_Space)) char16_t Space;
 
   /// @brief Field StartAngleBracket, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_StartAngleBracket, put = setStaticF_StartAngleBracket)) char16_t StartAngleBracket;
+  __declspec(property(get = getStaticF_StartAngleBracket, put = setStaticF_StartAngleBracket)) char16_t StartAngleBracket;
 
   /// @brief Field StartComment, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_StartComment, put = setStaticF_StartComment)) char16_t StartComment;
+  __declspec(property(get = getStaticF_StartComment, put = setStaticF_StartComment)) char16_t StartComment;
 
   /// @brief Field StartSquareBracket, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_StartSquareBracket, put = setStaticF_StartSquareBracket)) char16_t StartSquareBracket;
+  __declspec(property(get = getStaticF_StartSquareBracket, put = setStaticF_StartSquareBracket)) char16_t StartSquareBracket;
 
   /// @brief Field Tab, offset 0xffffffff, size 0x2
-  static __declspec(property(get = getStaticF_Tab, put = setStaticF_Tab)) char16_t Tab;
+  __declspec(property(get = getStaticF_Tab, put = setStaticF_Tab)) char16_t Tab;
 
   /// @brief Field Ttext, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Ttext, put = setStaticF_Ttext)) ::ArrayW<bool, ::Array<bool>*> Ttext;
+  __declspec(property(get = getStaticF_Ttext, put = setStaticF_Ttext)) ::ArrayW<bool, ::Array<bool>*> Ttext;
 
   /// @brief Field s_colonSeparator, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_colonSeparator, put = setStaticF_s_colonSeparator)) ::ArrayW<char16_t, ::Array<char16_t>*> s_colonSeparator;
+  __declspec(property(get = getStaticF_s_colonSeparator, put = setStaticF_s_colonSeparator)) ::ArrayW<char16_t, ::Array<char16_t>*> s_colonSeparator;
 
   /// @brief Field s_months, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months)) ::ArrayW<::StringW, ::Array<::StringW>*> s_months;
+  __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months)) ::ArrayW<::StringW, ::Array<::StringW>*> s_months;
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x43a02a8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x44015bc, size 0x1e8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x43a08b4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x4401bc8, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInComments();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x43a05d0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x44018e4, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x43a0710, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x4401a24, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x43a0490, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x44017a4, size 0x140, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x43a07b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x4401acc, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInTokens();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x43a0a28, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x4401d3c, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   static inline int32_t getStaticF_Ascii7bitMaxValue();
@@ -226,7 +224,7 @@ public:
   MailBnfHelper(MailBnfHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9877 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

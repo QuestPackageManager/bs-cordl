@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)()>(&::System::Security::Cryptography::AesManaged::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4029008;
+  constexpr static std::size_t addrs = 0x408a31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AesManaged*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_FeedbackSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4029164;
+  constexpr static std::size_t addrs = 0x408a478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_IV)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4029184;
+  constexpr static std::size_t addrs = 0x408a498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::AesManaged::set_IV)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40291a4;
+  constexpr static std::size_t addrs = 0x408a4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_Key)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40291c4;
+  constexpr static std::size_t addrs = 0x408a4d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::AesManaged::set_Key)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40291e4;
+  constexpr static std::size_t addrs = 0x408a4f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_KeySize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029204;
+  constexpr static std::size_t addrs = 0x408a518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(int32_t)>(
     &::System::Security::Cryptography::AesManaged::set_KeySize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029228;
+  constexpr static std::size_t addrs = 0x408a53c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::CipherMode (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_Mode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x402924c;
+  constexpr static std::size_t addrs = 0x408a560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(::System::Security::Cryptography::CipherMode)>(
     &::System::Security::Cryptography::AesManaged::set_Mode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4029270;
+  constexpr static std::size_t addrs = 0x408a584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::PaddingMode (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::get_Padding)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40292f0;
+  constexpr static std::size_t addrs = 0x408a604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(::System::Security::Cryptography::PaddingMode)>(
     &::System::Security::Cryptography::AesManaged::set_Padding)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029314;
+  constexpr static std::size_t addrs = 0x408a628;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::CreateDecryptor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029338;
+  constexpr static std::size_t addrs = 0x408a64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::AesManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::AesManaged::CreateDecryptor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x402935c;
+  constexpr static std::size_t addrs = 0x408a670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::CreateEncryptor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x402949c;
+  constexpr static std::size_t addrs = 0x408a7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::ICryptoTransform* (
     ::System::Security::Cryptography::AesManaged::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::AesManaged::CreateEncryptor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x40294c0;
+  constexpr static std::size_t addrs = 0x408a7d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)(bool)>(
     &::System::Security::Cryptography::AesManaged::Dispose)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4029600;
+  constexpr static std::size_t addrs = 0x408a914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::GenerateIV)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029730;
+  constexpr static std::size_t addrs = 0x408aa44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::AesManaged::*)()>(
     &::System::Security::Cryptography::AesManaged::GenerateKey)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4029754;
+  constexpr static std::size_t addrs = 0x408aa68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,16 +293,13 @@ constexpr ::System::Security::Cryptography::RijndaelManaged*& System::Security::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rijndael;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RijndaelManaged*> const& System::Security::Cryptography::AesManaged::__cordl_internal_get_m_rijndael() const {
+constexpr ::System::Security::Cryptography::RijndaelManaged* const& System::Security::Cryptography::AesManaged::__cordl_internal_get_m_rijndael() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_rijndael;
 }
 constexpr void System::Security::Cryptography::AesManaged::__cordl_internal_set_m_rijndael(::System::Security::Cryptography::RijndaelManaged* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_rijndael)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::AesManaged* System::Security::Cryptography::AesManaged::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AesManaged*>());
 }
 inline void System::Security::Cryptography::AesManaged::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AesManaged*>::get(), ".ctor",
@@ -400,6 +397,9 @@ inline void System::Security::Cryptography::AesManaged::GenerateKey() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::AesManaged*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::AesManaged* System::Security::Cryptography::AesManaged::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::AesManaged*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::AesManaged::AesManaged() {}

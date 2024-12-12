@@ -15,20 +15,19 @@ class NetscapeRevocationUrl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl);
-// Type: Org.BouncyCastle.Asn1.Misc::NetscapeRevocationUrl
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerIA5String
 namespace Org::BouncyCastle::Asn1::Misc {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Misc::NetscapeRevocationUrl*
+// CS Name: Org.BouncyCastle.Asn1.Misc.NetscapeRevocationUrl
 class CORDL_TYPE NetscapeRevocationUrl : public ::Org::BouncyCastle::Asn1::DerIA5String {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x23cdbe0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2400ecc, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x23cdba8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2400e94, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

@@ -11,17 +11,16 @@ class PSSortingLayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PSSortingLayer);
-// Type: ::PSSortingLayer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PSSortingLayer*
+// CS Name: PSSortingLayer
 class CORDL_TYPE PSSortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::PSSortingLayer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39704e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c59c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   PSSortingLayer(PSSortingLayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16446 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

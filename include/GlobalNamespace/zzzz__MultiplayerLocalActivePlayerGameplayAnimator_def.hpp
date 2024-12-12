@@ -13,13 +13,13 @@ namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
 }
 namespace GlobalNamespace {
+struct MultiplayerController_State;
+}
+namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MultiplayerPositionHUDController;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
 }
 namespace Tweening {
 class FloatTween;
@@ -30,11 +30,10 @@ class MultiplayerLocalActivePlayerGameplayAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator);
-// Type: ::MultiplayerLocalActivePlayerGameplayAnimator
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MultiplayerGameplayAnimator
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalActivePlayerGameplayAnimator*
+// CS Name: MultiplayerLocalActivePlayerGameplayAnimator
 class CORDL_TYPE MultiplayerLocalActivePlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
   // Declarations
@@ -56,44 +55,44 @@ public:
                       put = __cordl_internal_set__multiplayerPositionHUDController)) ::UnityW<::GlobalNamespace::MultiplayerPositionHUDController>
       _multiplayerPositionHUDController;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x3b5e1f8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x3bbfa60, size 0xe4, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandlePlayerDidFinish, addr 0x3b5e2dc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x3bbfb44, size 0x34, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleStateChanged, addr 0x3b5df98, size 0x1ac, virtual true, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
+  /// @brief Method HandleStateChanged, addr 0x3bbf800, size 0x1ac, virtual true, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
-  /// @brief Method InitializeIfNeeded, addr 0x3b5ded4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeIfNeeded, addr 0x3bbf73c, size 0xc4, virtual false, abstract: false, final false
   inline void InitializeIfNeeded();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b5ddc8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bbf630, size 0x10c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x3b5e144, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x3bbf9ac, size 0xb4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
-  /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x3b5e318, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x3bbfb80, size 0x40, virtual false, abstract: false, final false
   inline void _InitializeIfNeeded_b__6_0(float_t f);
 
   constexpr ::UnityW<::GlobalNamespace::CoreGameHUDController> const& __cordl_internal_get__coreGameHUDController() const;
 
   constexpr ::UnityW<::GlobalNamespace::CoreGameHUDController>& __cordl_internal_get__coreGameHUDController();
 
-  constexpr ::Tweening::FloatTween*& __cordl_internal_get__fadeOutHUDTween();
+  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__fadeOutHUDTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__fadeOutHUDTween() const;
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__fadeOutHUDTween();
 
   constexpr bool const& __cordl_internal_get__initialized() const;
 
   constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* const& __cordl_internal_get__levelEndActionsPublisher() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __cordl_internal_get__levelEndActionsPublisher() const;
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerPositionHUDController> const& __cordl_internal_get__multiplayerPositionHUDController() const;
 
@@ -109,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerPositionHUDController(::UnityW<::GlobalNamespace::MultiplayerPositionHUDController> value);
 
-  /// @brief Method .ctor, addr 0x3b5e310, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bbfb78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -126,6 +125,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalActivePlayerGameplayAnimator(MultiplayerLocalActivePlayerGameplayAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4514 };
+
   /// @brief Field _coreGameHUDController, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CoreGameHUDController> ____coreGameHUDController;
 
@@ -141,14 +143,9 @@ public:
   /// @brief Field _initialized, offset: 0x90, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4502 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, ____coreGameHUDController) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, ____multiplayerPositionHUDController) == 0x78, "Offset mismatch!");
@@ -158,6 +155,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAn
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, ____fadeOutHUDTween) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, ____initialized) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator);

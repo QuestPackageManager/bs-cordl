@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SliderSpawnInfoNetSerializable* (*)()>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26f0a94;
+  constexpr static std::size_t addrs = 0x2722fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(),
@@ -34,20 +34,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SliderSpawnInfoNetSerializable* (
-    ::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::GlobalNamespace::ColorType, ::GlobalNamespace::__SliderData__Type, bool, float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer,
+    ::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::GlobalNamespace::ColorType, ::GlobalNamespace::SliderData_Type, bool, float_t, float_t, int32_t, ::GlobalNamespace::NoteLineLayer,
                                                           ::GlobalNamespace::NoteLineLayer, float_t, ::GlobalNamespace::NoteCutDirection, float_t, bool, float_t, int32_t,
                                                           ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteLineLayer, float_t, ::GlobalNamespace::NoteCutDirection, float_t,
-                                                          ::GlobalNamespace::SliderMidAnchorMode, int32_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t,
-                                                          ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t, float_t, float_t)>(
+                                                          ::GlobalNamespace::SliderMidAnchorMode, int32_t, float_t, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, float_t)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Init)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x26f0af8;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x2723030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 33>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SliderData__Type>::get(),
+                                    ::std::array<Il2CppType const*, 27>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(),
+                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData_Type>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -69,14 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
@@ -88,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)()>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26f0d1c;
+  constexpr static std::size_t addrs = 0x2723148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(),
@@ -101,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Serialize)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x26f0d74;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x27231a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Deserialize)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x26f106c;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x2723448;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,15 +133,15 @@ constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorType = value;
 }
-constexpr ::GlobalNamespace::__SliderData__Type& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_sliderType() {
+constexpr ::GlobalNamespace::SliderData_Type& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_sliderType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderType;
 }
-constexpr ::GlobalNamespace::__SliderData__Type const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_sliderType() const {
+constexpr ::GlobalNamespace::SliderData_Type const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_sliderType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderType;
 }
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_sliderType(::GlobalNamespace::__SliderData__Type value) {
+constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_sliderType(::GlobalNamespace::SliderData_Type value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sliderType = value;
 }
@@ -392,125 +385,53 @@ constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___squishAmount = value;
 }
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headMoveStartPos() {
+constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headNoteOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headMoveStartPos;
+  return this->___headNoteOffset;
 }
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headMoveStartPos() const {
+constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headNoteOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headMoveStartPos;
+  return this->___headNoteOffset;
 }
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headMoveStartPos(::GlobalNamespace::Vector3Serializable value) {
+constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headNoteOffset(::GlobalNamespace::Vector3Serializable value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___headMoveStartPos = value;
+  this->___headNoteOffset = value;
 }
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpStartPos() {
+constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headGravityBase() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpStartPos;
+  return this->___headGravityBase;
 }
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpStartPos() const {
+constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headGravityBase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpStartPos;
+  return this->___headGravityBase;
 }
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headJumpStartPos(::GlobalNamespace::Vector3Serializable value) {
+constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headGravityBase(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___headJumpStartPos = value;
+  this->___headGravityBase = value;
 }
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpEndPos() {
+constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailNoteOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpEndPos;
+  return this->___tailNoteOffset;
 }
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpEndPos() const {
+constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailNoteOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpEndPos;
+  return this->___tailNoteOffset;
 }
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headJumpEndPos(::GlobalNamespace::Vector3Serializable value) {
+constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailNoteOffset(::GlobalNamespace::Vector3Serializable value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___headJumpEndPos = value;
+  this->___tailNoteOffset = value;
 }
-constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpGravity() {
+constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailGravityBase() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpGravity;
+  return this->___tailGravityBase;
 }
-constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_headJumpGravity() const {
+constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailGravityBase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___headJumpGravity;
+  return this->___tailGravityBase;
 }
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_headJumpGravity(float_t value) {
+constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailGravityBase(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___headJumpGravity = value;
-}
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailMoveStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailMoveStartPos;
-}
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailMoveStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailMoveStartPos;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailMoveStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tailMoveStartPos = value;
-}
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpStartPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpStartPos;
-}
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpStartPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpStartPos;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailJumpStartPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tailJumpStartPos = value;
-}
-constexpr ::GlobalNamespace::Vector3Serializable& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpEndPos() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpEndPos;
-}
-constexpr ::GlobalNamespace::Vector3Serializable const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpEndPos() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpEndPos;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailJumpEndPos(::GlobalNamespace::Vector3Serializable value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tailJumpEndPos = value;
-}
-constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpGravity() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpGravity;
-}
-constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_tailJumpGravity() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___tailJumpGravity;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_tailJumpGravity(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___tailJumpGravity = value;
-}
-constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_moveDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___moveDuration;
-}
-constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_moveDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___moveDuration;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_moveDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___moveDuration = value;
-}
-constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_jumpDuration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___jumpDuration;
-}
-constexpr float_t const& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_jumpDuration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___jumpDuration;
-}
-constexpr void GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_set_jumpDuration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___jumpDuration = value;
+  this->___tailGravityBase = value;
 }
 constexpr float_t& GlobalNamespace::SliderSpawnInfoNetSerializable::__cordl_internal_get_rotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -530,17 +451,16 @@ inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::Slide
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SliderSpawnInfoNetSerializable*, false>(nullptr, ___internal_method);
 }
 inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::SliderSpawnInfoNetSerializable::Init(
-    ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::__SliderData__Type sliderType, bool hasHeadNote, float_t headTime, float_t headBeat, int32_t headLineIndex,
+    ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::SliderData_Type sliderType, bool hasHeadNote, float_t headTime, float_t headBeat, int32_t headLineIndex,
     ::GlobalNamespace::NoteLineLayer headLineLayer, ::GlobalNamespace::NoteLineLayer headBeforeJumpLineLayer, float_t headControlPointLengthMultiplier,
     ::GlobalNamespace::NoteCutDirection headCutDirection, float_t headCutDirectionAngleOffset, bool hasTailNote, float_t tailTime, int32_t tailLineIndex,
     ::GlobalNamespace::NoteLineLayer tailLineLayer, ::GlobalNamespace::NoteLineLayer tailBeforeJumpLineLayer, float_t tailControlPointLengthMultiplier,
     ::GlobalNamespace::NoteCutDirection tailCutDirection, float_t tailCutDirectionAngleOffset, ::GlobalNamespace::SliderMidAnchorMode midAnchorMode, int32_t sliceCount, float_t squishAmount,
-    ::UnityEngine::Vector3 headMoveStartPos, ::UnityEngine::Vector3 headJumpStartPos, ::UnityEngine::Vector3 headJumpEndPos, float_t headJumpGravity, ::UnityEngine::Vector3 tailMoveStartPos,
-    ::UnityEngine::Vector3 tailJumpStartPos, ::UnityEngine::Vector3 tailJumpEndPos, float_t tailJumpGravity, float_t moveDuration, float_t jumpDuration, float_t rotation) {
+    ::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase, float_t rotation) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 33>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SliderData__Type>::get(),
+                                  ::std::array<Il2CppType const*, 27>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderData_Type>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -562,24 +482,14 @@ inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::Slide
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SliderSpawnInfoNetSerializable*, false>(
       this, ___internal_method, colorType, sliderType, hasHeadNote, headTime, headBeat, headLineIndex, headLineLayer, headBeforeJumpLineLayer, headControlPointLengthMultiplier, headCutDirection,
       headCutDirectionAngleOffset, hasTailNote, tailTime, tailLineIndex, tailLineLayer, tailBeforeJumpLineLayer, tailControlPointLengthMultiplier, tailCutDirection, tailCutDirectionAngleOffset,
-      midAnchorMode, sliceCount, squishAmount, headMoveStartPos, headJumpStartPos, headJumpEndPos, headJumpGravity, tailMoveStartPos, tailJumpStartPos, tailJumpEndPos, tailJumpGravity, moveDuration,
-      jumpDuration, rotation);
-}
-inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SliderSpawnInfoNetSerializable*>());
+      midAnchorMode, sliceCount, squishAmount, headNoteOffset, headGravityBase, tailNoteOffset, tailGravityBase, rotation);
 }
 inline void GlobalNamespace::SliderSpawnInfoNetSerializable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(), ".ctor",
@@ -595,6 +505,9 @@ inline void GlobalNamespace::SliderSpawnInfoNetSerializable::Deserialize(::LiteN
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+}
+inline ::GlobalNamespace::SliderSpawnInfoNetSerializable* GlobalNamespace::SliderSpawnInfoNetSerializable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SliderSpawnInfoNetSerializable*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SliderSpawnInfoNetSerializable::SliderSpawnInfoNetSerializable() {}

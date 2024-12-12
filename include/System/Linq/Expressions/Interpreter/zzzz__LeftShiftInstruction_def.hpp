@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeftShiftInstruction)
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftByte;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftInt16;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftInt32;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftInt64;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftSByte;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftUInt16;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftUInt32;
+}
+namespace GlobalNamespace {
+class LeftShiftInstruction_LeftShiftUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftSByte;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __LeftShiftInstruction__LeftShiftUInt64;
 }
 namespace System {
 class Type;
@@ -43,29 +43,28 @@ class LeftShiftInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::LeftShiftInstruction);
-// Type: System.Linq.Expressions.Interpreter::LeftShiftInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::LeftShiftInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.LeftShiftInstruction
 class CORDL_TYPE LeftShiftInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using LeftShiftByte = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftByte;
+  using LeftShiftByte = ::GlobalNamespace::LeftShiftInstruction_LeftShiftByte;
 
-  using LeftShiftInt16 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftInt16;
+  using LeftShiftInt16 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftInt16;
 
-  using LeftShiftInt32 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftInt32;
+  using LeftShiftInt32 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftInt32;
 
-  using LeftShiftInt64 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftInt64;
+  using LeftShiftInt64 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftInt64;
 
-  using LeftShiftSByte = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftSByte;
+  using LeftShiftSByte = ::GlobalNamespace::LeftShiftInstruction_LeftShiftSByte;
 
-  using LeftShiftUInt16 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftUInt16;
+  using LeftShiftUInt16 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt16;
 
-  using LeftShiftUInt32 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftUInt32;
+  using LeftShiftUInt32 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt32;
 
-  using LeftShiftUInt64 = ::System::Linq::Expressions::Interpreter::__LeftShiftInstruction__LeftShiftUInt64;
+  using LeftShiftUInt64 = ::GlobalNamespace::LeftShiftInstruction_LeftShiftUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -74,35 +73,35 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+  __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+  __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x406e200, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40cf514, size 0x368, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::LeftShiftInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4072fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d42f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
@@ -121,13 +120,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4072f8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40d42a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4072f9c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40d42b0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4072f94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40d42a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -161,7 +160,7 @@ public:
   LeftShiftInstruction(LeftShiftInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

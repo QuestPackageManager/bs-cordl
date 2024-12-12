@@ -30,11 +30,10 @@ class LightColorEventBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightColorEventBox);
-// Type: BeatmapSaveDataVersion3::LightColorEventBox
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.DistributionParamType, BeatmapSaveDataCommon.EaseType, BeatmapSaveDataVersion3.EventBox
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightColorEventBox*
+// CS Name: BeatmapSaveDataVersion3.LightColorEventBox
 class CORDL_TYPE LightColorEventBox : public ::BeatmapSaveDataVersion3::EventBox {
 public:
   // Declarations
@@ -72,9 +71,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_b();
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>*& __cordl_internal_get_e();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* const& __cordl_internal_get_e() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>*> const& __cordl_internal_get_e() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>*& __cordl_internal_get_e();
 
   constexpr ::BeatmapSaveDataCommon::EaseType const& __cordl_internal_get_i() const;
 
@@ -98,24 +97,24 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataCommon::DistributionParamType value);
 
-  /// @brief Method .ctor, addr 0x26d461c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705f8c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType,
                     float_t brightnessDistributionParam, bool brightnessDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataCommon::DistributionParamType brightnessDistributionParamType,
                     ::BeatmapSaveDataCommon::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method get_brightnessDistributionEaseType, addr 0x26d460c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionEaseType, addr 0x2705f7c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_brightnessDistributionEaseType();
 
-  /// @brief Method get_brightnessDistributionParam, addr 0x26d45ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionParam, addr 0x2705f5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightnessDistributionParam();
 
-  /// @brief Method get_brightnessDistributionParamType, addr 0x26d45f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionParamType, addr 0x2705f64, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_brightnessDistributionParamType();
 
-  /// @brief Method get_brightnessDistributionShouldAffectFirstBaseEvent, addr 0x26d45fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistributionShouldAffectFirstBaseEvent, addr 0x2705f6c, size 0x10, virtual false, abstract: false, final false
   inline bool get_brightnessDistributionShouldAffectFirstBaseEvent();
 
-  /// @brief Method get_lightColorBaseDataList, addr 0x26d4614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightColorBaseDataList, addr 0x2705f84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* get_lightColorBaseDataList();
 
 protected:
@@ -132,6 +131,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorEventBox(LightColorEventBox const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13406 };
+
   /// @brief Field r, offset: 0x20, size: 0x4, def value: None
   float_t ___r;
 
@@ -147,14 +149,9 @@ public:
   /// @brief Field e, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorBaseData*>* ___e;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13375 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightColorEventBox, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorEventBox, ___r) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorEventBox, ___t) == 0x24, "Offset mismatch!");
@@ -164,6 +161,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorEventBox, ___b) == 0
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorEventBox, ___i) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorEventBox, ___e) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightColorEventBox, 0x38>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightColorEventBox);

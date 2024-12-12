@@ -1,27 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/EqualityComparer_1.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_impl.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-/// @brief Convert operator to "::System::Collections::IEqualityComparer"
-template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::IEqualityComparer*() noexcept {
-  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEqualityComparer"
-template <typename T> constexpr ::System::Collections::IEqualityComparer* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__IEqualityComparer() noexcept {
-  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
-template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
-template <typename T>
-constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
-}
 template <typename T> inline void System::Collections::Generic::EqualityComparer_1<T>::setStaticF_defaultComparer(::System::Collections::Generic::EqualityComparer_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Collections::Generic::EqualityComparer_1<T>*, "defaultComparer",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::EqualityComparer_1<T>*>::get>(
@@ -78,13 +61,30 @@ template <typename T> inline bool System::Collections::Generic::EqualityComparer
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x, y);
 }
-template <typename T> inline ::System::Collections::Generic::EqualityComparer_1<T>* System::Collections::Generic::EqualityComparer_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::EqualityComparer_1<T>*>());
-}
 template <typename T> inline void System::Collections::Generic::EqualityComparer_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::EqualityComparer_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Generic::EqualityComparer_1<T>* System::Collections::Generic::EqualityComparer_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::EqualityComparer_1<T>*>());
+}
+/// @brief Convert operator to "::System::Collections::IEqualityComparer"
+template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::IEqualityComparer*() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+template <typename T> constexpr ::System::Collections::IEqualityComparer* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__IEqualityComparer() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
+template <typename T> constexpr System::Collections::Generic::EqualityComparer_1<T>::operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<T>"
+template <typename T>
+constexpr ::System::Collections::Generic::IEqualityComparer_1<T>* System::Collections::Generic::EqualityComparer_1<T>::i___System__Collections__Generic__IEqualityComparer_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<T>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Collections::Generic::EqualityComparer_1<T>::EqualityComparer_1() {}

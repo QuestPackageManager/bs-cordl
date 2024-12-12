@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightTranslationGroup.hpp"
+#include "GlobalNamespace/zzzz__IEditTimeValidated_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroup_def.hpp"
-#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupTranslationXTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupTranslationYTransform_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupTranslationZTransform_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_xTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cdd0;
+  constexpr static std::size_t addrs = 0x3b8e368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_yTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cdd8;
+  constexpr static std::size_t addrs = 0x3b8e370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_zTranslationLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cde0;
+  constexpr static std::size_t addrs = 0x3b8e378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_xDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cde8;
+  constexpr static std::size_t addrs = 0x3b8e380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_yDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cdf0;
+  constexpr static std::size_t addrs = 0x3b8e388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::LightTranslationGroup::*)()>(
     &::GlobalNamespace::LightTranslationGroup::get_zDistributionLimits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cdf8;
+  constexpr static std::size_t addrs = 0x3b8e390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::__Validate)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3b2ce00;
+  constexpr static std::size_t addrs = 0x3b8e398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), "__Validate",
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroup::*)()>(&::GlobalNamespace::LightTranslationGroup::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b2d014;
+  constexpr static std::size_t addrs = 0x3b8e5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), ".ctor",
@@ -118,14 +118,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
-constexpr GlobalNamespace::LightTranslationGroup::operator ::GlobalNamespace::IEditTimeValidated*() noexcept {
-  return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
-constexpr ::GlobalNamespace::IEditTimeValidated* GlobalNamespace::LightTranslationGroup::i___GlobalNamespace__IEditTimeValidated() noexcept {
-  return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
-}
 constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__xTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationLimits;
@@ -233,13 +225,21 @@ inline bool GlobalNamespace::LightTranslationGroup::__Validate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LightTranslationGroup* GlobalNamespace::LightTranslationGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroup*>());
-}
 inline void GlobalNamespace::LightTranslationGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightTranslationGroup* GlobalNamespace::LightTranslationGroup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroup*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
+constexpr GlobalNamespace::LightTranslationGroup::operator ::GlobalNamespace::IEditTimeValidated*() noexcept {
+  return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
+constexpr ::GlobalNamespace::IEditTimeValidated* GlobalNamespace::LightTranslationGroup::i___GlobalNamespace__IEditTimeValidated() noexcept {
+  return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroup::LightTranslationGroup() {}

@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)()>(&::GlobalNamespace::MenuShockwave::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b9c640;
+  constexpr static std::size_t addrs = 0x3bfe790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(), "Awake",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)()>(&::GlobalNamespace::MenuShockwave::OnEnable)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b9c650;
+  constexpr static std::size_t addrs = 0x3bfe7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(), "OnEnable",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)()>(&::GlobalNamespace::MenuShockwave::OnDisable)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b9c720;
+  constexpr static std::size_t addrs = 0x3bfe870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(), "OnDisable",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)()>(&::GlobalNamespace::MenuShockwave::HandleButtonClickEvent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b9c7f0;
+  constexpr static std::size_t addrs = 0x3bfe940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MenuShockwave::SpawnShockwave)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b9c818;
+  constexpr static std::size_t addrs = 0x3bfe968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuShockwave::*)()>(&::GlobalNamespace::MenuShockwave::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9c8bc;
+  constexpr static std::size_t addrs = 0x3bfea0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(), ".ctor",
@@ -123,15 +123,15 @@ constexpr void GlobalNamespace::MenuShockwave::__cordl_internal_set__buttonClick
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonClickEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::MenuShockwave::__cordl_internal_get__shockwavePSEmitParams() {
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::MenuShockwave::__cordl_internal_get__shockwavePSEmitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::MenuShockwave::__cordl_internal_get__shockwavePSEmitParams() const {
+constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::MenuShockwave::__cordl_internal_get__shockwavePSEmitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
-constexpr void GlobalNamespace::MenuShockwave::__cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
+constexpr void GlobalNamespace::MenuShockwave::__cordl_internal_set__shockwavePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shockwavePSEmitParams = value;
 }
@@ -161,13 +161,13 @@ inline void GlobalNamespace::MenuShockwave::SpawnShockwave(::UnityEngine::Vector
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
 }
-inline ::GlobalNamespace::MenuShockwave* GlobalNamespace::MenuShockwave::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MenuShockwave*>());
-}
 inline void GlobalNamespace::MenuShockwave::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuShockwave*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MenuShockwave* GlobalNamespace::MenuShockwave::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MenuShockwave*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuShockwave::MenuShockwave() {}

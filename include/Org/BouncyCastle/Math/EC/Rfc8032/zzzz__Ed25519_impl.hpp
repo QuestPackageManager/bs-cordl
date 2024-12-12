@@ -7,243 +7,240 @@
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm::__Ed25519__Algorithm(int32_t value__) noexcept {
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm::Ed25519_Algorithm(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm::__Ed25519__Algorithm() {}
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm::Ed25519{ static_cast<int32_t>(0x0) };
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm::Ed25519ctx{ static_cast<int32_t>(0x1) };
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm::Ed25519ph{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum._ctor
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm::Ed25519_Algorithm() {}
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm::Ed25519{ static_cast<int32_t>(0x0) };
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm::Ed25519ctx{ static_cast<int32_t>(0x1) };
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_Algorithm::Ed25519ph{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::*)()>(
-    &::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::*)()>(
+    &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2491974;
+  constexpr static std::size_t addrs = 0x24c4c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_x() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_x() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_x() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_x() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_y() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_y() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_y() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_y() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_set_y(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_set_y(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___y)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_z() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_z() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_z() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_z() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_set_z(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_set_z(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___z)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_u() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_u() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___u;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_u() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_u() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___u;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_set_u(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_set_u(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___u)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_v() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_v() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_get_v() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_get_v() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__cordl_internal_set_v(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::__cordl_internal_set_v(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___v)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>());
-}
-inline void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum::__Ed25519__PointAccum() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt._ctor
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum::Ed25519_PointAccum() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::*)()>(
-    &::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::*)()>(
+    &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2491a08;
+  constexpr static std::size_t addrs = 0x24c4cf4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_x() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_x() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_x() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_x() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___x)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_y() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_y() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_y() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_y() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_set_y(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_set_y(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___y)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_z() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_z() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_z() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_z() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___z;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_set_z(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_set_z(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___z)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_t() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_t() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_get_t() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_get_t() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___t;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__cordl_internal_set_t(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::__cordl_internal_set_t(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___t)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>());
-}
-inline void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt::__Ed25519__PointExt() {}
-//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp._ctor
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt::Ed25519_PointExt() {}
+//  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::*)()>(
-    &::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::*)()>(
+    &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2491a90;
+  constexpr static std::size_t addrs = 0x24c4d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_ypx_h() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_ypx_h() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ypx_h;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_ypx_h() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_ypx_h() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ypx_h;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_set_ypx_h(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_set_ypx_h(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ypx_h)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_ymx_h() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_ymx_h() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ymx_h;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_ymx_h() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_ymx_h() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ymx_h;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_set_ymx_h(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_set_ymx_h(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ymx_h)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_xyd() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_xyd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xyd;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_get_xyd() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_get_xyd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xyd;
 }
-constexpr void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__cordl_internal_set_xyd(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::__cordl_internal_set_xyd(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xyd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp* Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>());
-}
-inline void Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::_ctor() {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>());
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp::__Ed25519__PointPrecomp() {}
+constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp::Ed25519_PointPrecomp() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.CalculateS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x248cfb4;
+  constexpr static std::size_t addrs = 0x24c02a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckContextVar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x248d6dc;
+  constexpr static std::size_t addrs = 0x24c09c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x248d6fc;
+  constexpr static std::size_t addrs = 0x24c09e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>,
                                                                                               ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x248d810;
+  constexpr static std::size_t addrs = 0x24c0afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPointVar)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x248d968;
+  constexpr static std::size_t addrs = 0x24c0c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckScalarVar)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x248db14;
+  constexpr static std::size_t addrs = 0x24c0e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (*)()>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CreateDigest)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x248dbc4;
+  constexpr static std::size_t addrs = 0x24c0eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(),
@@ -349,7 +346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (*)()>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CreatePrehash)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x248dc18;
+  constexpr static std::size_t addrs = 0x24c0f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(),
@@ -363,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode24)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x248dc64;
+  constexpr static std::size_t addrs = 0x24c0f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -379,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x248dcb8;
+  constexpr static std::size_t addrs = 0x24c0fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x248da44;
+  constexpr static std::size_t addrs = 0x24c0d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -411,16 +408,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, bool, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodePointVar)> {
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, bool, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodePointVar)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x248dd20;
+  constexpr static std::size_t addrs = 0x24c100c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "DecodePointVar", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
     return ___internal_method;
   }
 };
@@ -430,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x248d148;
+  constexpr static std::size_t addrs = 0x24c0434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -447,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Crypto::IDigest*, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Dom2)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x248dfc0;
+  constexpr static std::size_t addrs = 0x24c12ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -464,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode24)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x248e204;
+  constexpr static std::size_t addrs = 0x24c14f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode32)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x248d1bc;
+  constexpr static std::size_t addrs = 0x24c04a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,7 +495,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x248e268;
+  constexpr static std::size_t addrs = 0x24c1554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,15 +509,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.EncodePoint
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                               int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x248e2e4;
+  constexpr static std::size_t addrs = 0x24c15d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "EncodePoint", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
@@ -532,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePrivateKey)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x248e424;
+  constexpr static std::size_t addrs = 0x24c1710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -548,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePublicKey)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x248e440;
+  constexpr static std::size_t addrs = 0x24c172c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -565,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t, ::Array<int8_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GetWnafVar)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x248e79c;
+  constexpr static std::size_t addrs = 0x24c1a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -583,7 +580,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x248e950;
+  constexpr static std::size_t addrs = 0x24c1c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,7 +604,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x248eda0;
+  constexpr static std::size_t addrs = 0x24c208c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -628,7 +625,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t,
                          ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x248f0b8;
+  constexpr static std::size_t addrs = 0x24c23a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -650,7 +647,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplVerify)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x248f3dc;
+  constexpr static std::size_t addrs = 0x24c26c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -667,18 +664,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointAddVar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(bool, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
-        &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    bool, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x248faf4;
+  constexpr static std::size_t addrs = 0x24c2de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddVar", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
@@ -686,35 +682,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    bool, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*)>(
+    bool, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x248fd24;
+  constexpr static std::size_t addrs = 0x24c3010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddVar", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointAddPrecomp
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
-        &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddPrecomp)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddPrecomp)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x248ff64;
+  constexpr static std::size_t addrs = 0x24c3250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddPrecomp", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
@@ -722,14 +717,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy)> {
+    ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24900b8;
+  constexpr static std::size_t addrs = 0x24c33a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointCopy", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
@@ -737,75 +732,75 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy)> {
+    ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2490198;
+  constexpr static std::size_t addrs = 0x24c3484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointCopy", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointDouble
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointDouble)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2490280;
+  constexpr static std::size_t addrs = 0x24c356c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointDouble", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointExtendXY
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24903d8;
+  constexpr static std::size_t addrs = 0x24c36c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointExtendXY", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointExtendXY
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x248df54;
+  constexpr static std::size_t addrs = 0x24c1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointExtendXY", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointLookup
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointLookup)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2490460;
+  constexpr static std::size_t addrs = 0x24c374c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointLookup", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get() })));
     return ___internal_method;
   }
 };
@@ -813,15 +808,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*> (*)(
-        ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar)> {
+    static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*> (*)(
+        ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x249058c;
+  constexpr static std::size_t addrs = 0x24c3878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointPrecompVar", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -829,30 +824,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointSetNeutral
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2490748;
+  constexpr static std::size_t addrs = 0x24c3a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointSetNeutral", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.PointSetNeutral
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24907c8;
+  constexpr static std::size_t addrs = 0x24c3ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointSetNeutral", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
     return ___internal_method;
   }
 };
@@ -861,7 +856,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Precompute)> {
   constexpr static std::size_t size = 0x780;
-  constexpr static std::size_t addrs = 0x2488da8;
+  constexpr static std::size_t addrs = 0x24bc094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(),
@@ -875,7 +870,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PruneScalar)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x248e660;
+  constexpr static std::size_t addrs = 0x24c194c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -892,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ReduceScalar)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x248d23c;
+  constexpr static std::size_t addrs = 0x24c0528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -904,16 +899,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519.ScalarMultBase
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x2490840;
+  constexpr static std::size_t addrs = 0x24c3b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "ScalarMultBase", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
@@ -923,7 +918,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x248e6b8;
+  constexpr static std::size_t addrs = 0x24c19a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -940,7 +935,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>,
                                                                                            ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseYZ)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x2489854;
+  constexpr static std::size_t addrs = 0x24bcb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -956,18 +951,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*,
-                         ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultStrausVar)> {
+    static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*,
+                         ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultStrausVar)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x248f948;
+  constexpr static std::size_t addrs = 0x24c2c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "ScalarMultStrausVar", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
     return ___internal_method;
   }
 };
@@ -977,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t,
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2490a90;
+  constexpr static std::size_t addrs = 0x24c3d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -997,7 +992,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2490b40;
+  constexpr static std::size_t addrs = 0x24c3e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1018,7 +1013,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2490c08;
+  constexpr static std::size_t addrs = 0x24c3ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1039,7 +1034,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                          int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2490cc4;
+  constexpr static std::size_t addrs = 0x24c3fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1061,7 +1056,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2490d90;
+  constexpr static std::size_t addrs = 0x24c407c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1081,7 +1076,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                          int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2490e48;
+  constexpr static std::size_t addrs = 0x24c4134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1102,7 +1097,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2490f1c;
+  constexpr static std::size_t addrs = 0x24c4208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1122,7 +1117,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::IDigest*,
                          ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x24910e4;
+  constexpr static std::size_t addrs = 0x24c43d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1143,7 +1138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Verify)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24912c8;
+  constexpr static std::size_t addrs = 0x24c45b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1163,7 +1158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Verify)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x249137c;
+  constexpr static std::size_t addrs = 0x24c4668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1184,7 +1179,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::VerifyPrehash)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x249143c;
+  constexpr static std::size_t addrs = 0x24c4728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1204,7 +1199,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::IDigest*)>(
         &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::VerifyPrehash)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x24914fc;
+  constexpr static std::size_t addrs = 0x24c47e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1223,7 +1218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::*)()>(
     &::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x249196c;
+  constexpr static std::size_t addrs = 0x24c4c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), ".ctor",
@@ -1331,15 +1326,15 @@ inline ::System::Object* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::getStati
   return ::cordl_internals::getStaticField<::System::Object*, "precompLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get>();
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::setStaticF_precompBaseTable(
-    ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>, "precompBaseTable",
+    ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>, "precompBaseTable",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get>(
-      std::forward<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>>(value));
+      std::forward<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>>(value));
 }
-inline ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>
+inline ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>
 Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::getStaticF_precompBaseTable() {
-  return ::cordl_internals::getStaticField<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>,
-                                           "precompBaseTable", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get>();
+  return ::cordl_internals::getStaticField<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>, "precompBaseTable",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get>();
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::setStaticF_precompBase(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   ::cordl_internals::setStaticField<::ArrayW<int32_t, ::Array<int32_t>*>, "precompBase", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get>(
@@ -1426,12 +1421,12 @@ inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32(::ArrayW<uin
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, bs, bsOff, n, nOff, nLen);
 }
 inline bool Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodePointVar(::ArrayW<uint8_t, ::Array<uint8_t>*> p, int32_t pOff, bool negate,
-                                                                          ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* r) {
+                                                                          ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "DecodePointVar", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, p, pOff, negate, r);
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar(::ArrayW<uint8_t, ::Array<uint8_t>*> k, int32_t kOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> n) {
@@ -1474,10 +1469,10 @@ inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56(uint64_t n, 
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, n, bs, off);
 }
-inline int32_t Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* p, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff) {
+inline int32_t Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* p, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "EncodePoint", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, p, r, rOff);
@@ -1558,89 +1553,89 @@ inline bool Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplVerify(::ArrayW<u
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sig, sigOff, pk, pkOff, ctx, phflag, m, mOff, mLen);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p,
-                                                                       ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* r) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p,
+                                                                       ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddVar", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, negate, p, r);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p,
-                                                                       ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* q, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* r) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddVar(bool negate, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p,
+                                                                       ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* q, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddVar", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, negate, p, q, r);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddPrecomp(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp* p,
-                                                                           ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* r) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAddPrecomp(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp* p,
+                                                                           ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointAddPrecomp", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p, r);
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* p) {
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* p) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointCopy", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, false>(nullptr, ___internal_method, p);
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, false>(nullptr, ___internal_method, p);
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p) {
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointCopy(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointCopy", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, false>(nullptr, ___internal_method, p);
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, false>(nullptr, ___internal_method, p);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointDouble(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* r) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointDouble(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointDouble", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, r);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* p) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointExtendXY", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExtendXY(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointExtendXY", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointLookup(int32_t block, int32_t index, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp* p) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointLookup(int32_t block, int32_t index, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointLookup", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointPrecomp*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointPrecomp*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, block, index, p);
 }
-inline ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>
-Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p, int32_t count) {
+inline ::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>
+Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointPrecompVar", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>*>, false>(
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*, ::Array<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>*>, false>(
       nullptr, ___internal_method, p, count);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* p) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointSetNeutral", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointSetNeutral(::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "PointSetNeutral", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p);
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Precompute() {
@@ -1662,11 +1657,11 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Math::EC::Rfc8032
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, n);
 }
-inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase(::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* r) {
+inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase(::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "ScalarMultBase", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, k, r);
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded(::ArrayW<uint8_t, ::Array<uint8_t>*> k, ::ArrayW<uint8_t, ::Array<uint8_t>*> r, int32_t rOff) {
@@ -1688,14 +1683,14 @@ inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseYZ(::Ar
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, k, kOff, y, z);
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultStrausVar(::ArrayW<uint32_t, ::Array<uint32_t>*> nb, ::ArrayW<uint32_t, ::Array<uint32_t>*> np,
-                                                                               ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt* p,
-                                                                               ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum* r) {
+                                                                               ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt* p,
+                                                                               ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum* r) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), "ScalarMultStrausVar", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointExt*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__PointAccum*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointExt*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519_PointAccum*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, nb, np, p, r);
 }
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign(::ArrayW<uint8_t, ::Array<uint8_t>*> sk, int32_t skOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> m, int32_t mOff, int32_t mLen,
@@ -1840,13 +1835,13 @@ inline bool Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::VerifyPrehash(::Array
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, sig, sigOff, pk, pkOff, ctx, ph);
 }
-inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>());
-}
 inline void Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519* Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Ed25519() {}

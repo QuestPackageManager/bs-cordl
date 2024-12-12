@@ -10,22 +10,17 @@ class ISecurableChannel;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::ISecurableChannel);
-// Type: System.Runtime.Remoting.Channels::ISecurableChannel
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::ISecurableChannel*
+// CS Name: System.Runtime.Remoting.Channels.ISecurableChannel
 class CORDL_TYPE ISecurableChannel {
 public:
   // Declarations
   __declspec(property(put = set_IsSecured)) bool IsSecured;
 
-  /// @brief Method set_IsSecured, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_IsSecured, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_IsSecured(bool value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISecurableChannel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISecurableChannel(ISecurableChannel&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISecurableChannel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

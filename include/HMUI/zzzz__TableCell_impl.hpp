@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_reuseIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a937c;
+  constexpr static std::size_t addrs = 0x39fffec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), "get_reuseIdentifier",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)(::StringW)>(&::HMUI::TableCell::set_reuseIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a9384;
+  constexpr static std::size_t addrs = 0x39ffff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_idx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a938c;
+  constexpr static std::size_t addrs = 0x39ffffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), "get_idx",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)(int32_t)>(&::HMUI::TableCell::set_idx)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a9394;
+  constexpr static std::size_t addrs = 0x3a00004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ITableCellOwner* (::HMUI::TableCell::*)()>(&::HMUI::TableCell::get_tableCellOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a939c;
+  constexpr static std::size_t addrs = 0x3a0000c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), "get_tableCellOwner",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)(::HMUI::ITableCellOwner*, int32_t)>(&::HMUI::TableCell::TableViewSetup)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39a93a4;
+  constexpr static std::size_t addrs = 0x3a00014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)(int32_t)>(&::HMUI::TableCell::MoveIdx)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a93b0;
+  constexpr static std::size_t addrs = 0x3a00020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::InternalToggle)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x39a93c0;
+  constexpr static std::size_t addrs = 0x3a00030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::__WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39a9620;
+  constexpr static std::size_t addrs = 0x3a00290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), "__WasPreparedForReuse",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39a9630;
+  constexpr static std::size_t addrs = 0x3a002a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableCell::*)()>(&::HMUI::TableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39a9634;
+  constexpr static std::size_t addrs = 0x3a002a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), ".ctor",
@@ -180,7 +180,7 @@ constexpr ::HMUI::ITableCellOwner*& HMUI::TableCell::__cordl_internal_get__table
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableCellOwner;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ITableCellOwner*> const& HMUI::TableCell::__cordl_internal_get__tableCellOwner() const {
+constexpr ::HMUI::ITableCellOwner* const& HMUI::TableCell::__cordl_internal_get__tableCellOwner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableCellOwner;
 }
@@ -241,13 +241,13 @@ inline void HMUI::TableCell::WasPreparedForReuse() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HMUI::TableCell* HMUI::TableCell::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TableCell*>());
-}
 inline void HMUI::TableCell::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableCell*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::TableCell* HMUI::TableCell::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TableCell*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::TableCell::TableCell() {}

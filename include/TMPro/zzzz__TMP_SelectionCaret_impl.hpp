@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)(::UnityEngine::Rect, bool)>(&::TMPro::TMP_SelectionCaret::Cull)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x479b538;
+  constexpr static std::size_t addrs = 0x47fc84c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::UpdateGeometry)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x479b608;
+  constexpr static std::size_t addrs = 0x47fc91c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479b60c;
+  constexpr static std::size_t addrs = 0x47fc920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), ".ctor",
@@ -54,13 +54,13 @@ inline void TMPro::TMP_SelectionCaret::UpdateGeometry() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), 41)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_SelectionCaret* TMPro::TMP_SelectionCaret::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SelectionCaret*>());
-}
 inline void TMPro::TMP_SelectionCaret::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::TMP_SelectionCaret* TMPro::TMP_SelectionCaret::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_SelectionCaret*>());
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SelectionCaret::TMP_SelectionCaret() {}

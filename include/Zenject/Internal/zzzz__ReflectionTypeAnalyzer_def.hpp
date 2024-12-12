@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionTypeAnalyzer)
 namespace System::Collections::Generic {
@@ -41,49 +40,49 @@ namespace System {
 class Type;
 }
 namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass11_0;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass5_0;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass5_1;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass6_0;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass6_1;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass7_0;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass7_1;
+}
+namespace Zenject::Internal {
+class ReflectionTypeAnalyzer___c__DisplayClass8_0;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo_InjectConstructorInfo;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo_InjectFieldInfo;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo_InjectMethodInfo;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo_InjectParameterInfo;
+}
+namespace Zenject::Internal {
+class ReflectionTypeInfo_InjectPropertyInfo;
+}
+namespace Zenject::Internal {
 class ReflectionTypeInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass11_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass5_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass5_1;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass6_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass6_1;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_1;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass8_0;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectConstructorInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectFieldInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectMethodInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectParameterInfo;
-}
-namespace Zenject::Internal {
-class __ReflectionTypeInfo__InjectPropertyInfo;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -96,102 +95,101 @@ namespace Zenject::Internal {
 class ReflectionTypeAnalyzer;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c;
+class ReflectionTypeAnalyzer___c;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass11_0;
+class ReflectionTypeAnalyzer___c__DisplayClass11_0;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass5_0;
+class ReflectionTypeAnalyzer___c__DisplayClass5_0;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass5_1;
+class ReflectionTypeAnalyzer___c__DisplayClass5_1;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass6_0;
+class ReflectionTypeAnalyzer___c__DisplayClass6_0;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass6_1;
+class ReflectionTypeAnalyzer___c__DisplayClass6_1;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_0;
+class ReflectionTypeAnalyzer___c__DisplayClass7_0;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass7_1;
+class ReflectionTypeAnalyzer___c__DisplayClass7_1;
 }
 namespace Zenject::Internal {
-class __ReflectionTypeAnalyzer____c__DisplayClass8_0;
+class ReflectionTypeAnalyzer___c__DisplayClass8_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1);
-MARK_REF_PTR_T(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1);
+MARK_REF_PTR_T(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0);
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c
+class CORDL_TYPE ReflectionTypeAnalyzer___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::Internal::__ReflectionTypeAnalyzer____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Zenject::Internal::ReflectionTypeAnalyzer___c* __9;
 
   /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_0;
+  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_0;
 
   /// @brief Field <>9__11_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_1, put = setStaticF___9__11_1)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_1;
+  __declspec(property(get = getStaticF___9__11_1, put = setStaticF___9__11_1)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_1;
 
   /// @brief Field <>9__11_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_2, put = setStaticF___9__11_2)) ::System::Func_2<::System::Reflection::ConstructorInfo*, int32_t>* __9__11_2;
+  __declspec(property(get = getStaticF___9__11_2, put = setStaticF___9__11_2)) ::System::Func_2<::System::Reflection::ConstructorInfo*, int32_t>* __9__11_2;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::System::Reflection::PropertyInfo*, bool>* __9__5_0;
+  __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::System::Reflection::PropertyInfo*, bool>* __9__5_0;
 
   /// @brief Field <>9__6_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__6_0;
+  __declspec(property(get = getStaticF___9__6_0, put = setStaticF___9__6_0)) ::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__6_0;
 
   /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__7_0;
+  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__7_0;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c* New_ctor();
 
-  /// @brief Method <GetFieldInfos>b__6_0, addr 0x4af3bb8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <GetFieldInfos>b__6_0, addr 0x4b584c8, size 0x104, virtual false, abstract: false, final false
   inline bool _GetFieldInfos_b__6_0(::System::Reflection::FieldInfo* x);
 
-  /// @brief Method <GetMethodInfos>b__7_0, addr 0x4af3cc4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <GetMethodInfos>b__7_0, addr 0x4b585d4, size 0x104, virtual false, abstract: false, final false
   inline bool _GetMethodInfos_b__7_0(::System::Reflection::MethodInfo* x);
 
-  /// @brief Method <GetPropertyInfos>b__5_0, addr 0x4af3aac, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <GetPropertyInfos>b__5_0, addr 0x4b583bc, size 0x104, virtual false, abstract: false, final false
   inline bool _GetPropertyInfos_b__5_0(::System::Reflection::PropertyInfo* x);
 
-  /// @brief Method <TryGetInjectConstructor>b__11_0, addr 0x4af3dd0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <TryGetInjectConstructor>b__11_0, addr 0x4b586e0, size 0x104, virtual false, abstract: false, final false
   inline bool _TryGetInjectConstructor_b__11_0(::System::Reflection::ConstructorInfo* c);
 
-  /// @brief Method <TryGetInjectConstructor>b__11_1, addr 0x4af3edc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <TryGetInjectConstructor>b__11_1, addr 0x4b587ec, size 0x18, virtual false, abstract: false, final false
   inline bool _TryGetInjectConstructor_b__11_1(::System::Reflection::ConstructorInfo* x);
 
-  /// @brief Method <TryGetInjectConstructor>b__11_2, addr 0x4af3ef4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <TryGetInjectConstructor>b__11_2, addr 0x4b58804, size 0x60, virtual false, abstract: false, final false
   inline int32_t _TryGetInjectConstructor_b__11_2(::System::Reflection::ConstructorInfo* x);
 
-  /// @brief Method __zenCreate, addr 0x4af3f54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b58864, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af3fa8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b588b8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af3aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b583b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c* getStaticF___9();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* getStaticF___9__11_0();
 
@@ -205,7 +203,7 @@ public:
 
   static inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* getStaticF___9__7_0();
 
-  static inline void setStaticF___9(::Zenject::Internal::__ReflectionTypeAnalyzer____c* value);
+  static inline void setStaticF___9(::Zenject::Internal::ReflectionTypeAnalyzer___c* value);
 
   static inline void setStaticF___9__11_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value);
 
@@ -222,571 +220,561 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c();
+  constexpr ReflectionTypeAnalyzer___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c(__ReflectionTypeAnalyzer____c&&) = delete;
+  ReflectionTypeAnalyzer___c(ReflectionTypeAnalyzer___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c(__ReflectionTypeAnalyzer____c const&) = delete;
+  ReflectionTypeAnalyzer___c(ReflectionTypeAnalyzer___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c, 0x10>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass11_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass11_0*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass11_0 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass11_0
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) ::System::Reflection::ConstructorInfo* c;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <TryGetInjectConstructor>b__3, addr 0x4af4160, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <TryGetInjectConstructor>b__3, addr 0x4b58a70, size 0xcc, virtual false, abstract: false, final false
   inline bool _TryGetInjectConstructor_b__3(::System::Type* a);
+
+  constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get_c() const;
 
   constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_c() const;
-
   constexpr void __cordl_internal_set_c(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4af422c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b58b3c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af4280, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b58b90, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af3ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b587e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass11_0();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass11_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass11_0(__ReflectionTypeAnalyzer____c__DisplayClass11_0&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass11_0(ReflectionTypeAnalyzer___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass11_0(__ReflectionTypeAnalyzer____c__DisplayClass11_0 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass11_0(ReflectionTypeAnalyzer___c__DisplayClass11_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12723 };
 
   /// @brief Field c, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::ConstructorInfo* ___c;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12690 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0, ___c) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0, ___c) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass5_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass5_0*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass5_0 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass5_0
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <GetPropertyInfos>b__1, addr 0x4af4440, size 0xac, virtual false, abstract: false, final false
-  inline ::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo* _GetPropertyInfos_b__1(::System::Reflection::PropertyInfo* x);
+  /// @brief Method <GetPropertyInfos>b__1, addr 0x4b58d50, size 0xac, virtual false, abstract: false, final false
+  inline ::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo* _GetPropertyInfos_b__1(::System::Reflection::PropertyInfo* x);
+
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
-
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4af44ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b58dfc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af4540, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b58e50, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af4438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b58d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass5_0();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass5_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass5_0(__ReflectionTypeAnalyzer____c__DisplayClass5_0&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass5_0(ReflectionTypeAnalyzer___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass5_0(__ReflectionTypeAnalyzer____c__DisplayClass5_0 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass5_0(ReflectionTypeAnalyzer___c__DisplayClass5_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12724 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12691 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0, ___type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0, ___type) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass5_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass5_1*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass5_1 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass5_1
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass5_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::System::Reflection::PropertyInfo* x;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method <GetPropertyInfos>b__2, addr 0x4af46f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <GetPropertyInfos>b__2, addr 0x4b59008, size 0xcc, virtual false, abstract: false, final false
   inline bool _GetPropertyInfos_b__2(::System::Type* a);
+
+  constexpr ::System::Reflection::PropertyInfo* const& __cordl_internal_get_x() const;
 
   constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_x() const;
-
   constexpr void __cordl_internal_set_x(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4af47c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b590d4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af4818, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b59128, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af3bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b584c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass5_1();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass5_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass5_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass5_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass5_1(__ReflectionTypeAnalyzer____c__DisplayClass5_1&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass5_1(ReflectionTypeAnalyzer___c__DisplayClass5_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass5_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass5_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass5_1(__ReflectionTypeAnalyzer____c__DisplayClass5_1 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass5_1(ReflectionTypeAnalyzer___c__DisplayClass5_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12725 };
 
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___x;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12692 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1, ___x) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1, ___x) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass6_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass6_0*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass6_0 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass6_0
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetFieldInfos>b__1, addr 0x4af49d8, size 0xac, virtual false, abstract: false, final false
-  inline ::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo* _GetFieldInfos_b__1(::System::Reflection::FieldInfo* x);
+  /// @brief Method <GetFieldInfos>b__1, addr 0x4b592e8, size 0xac, virtual false, abstract: false, final false
+  inline ::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo* _GetFieldInfos_b__1(::System::Reflection::FieldInfo* x);
+
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
-
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4af4a84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b59394, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af4ad8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b593e8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af49d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b592e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass6_0();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass6_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass6_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass6_0(__ReflectionTypeAnalyzer____c__DisplayClass6_0&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass6_0(ReflectionTypeAnalyzer___c__DisplayClass6_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass6_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass6_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass6_0(__ReflectionTypeAnalyzer____c__DisplayClass6_0 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass6_0(ReflectionTypeAnalyzer___c__DisplayClass6_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12726 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12693 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0, ___type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0, ___type) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass6_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass6_1*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass6_1 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass6_1
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass6_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::System::Reflection::FieldInfo* x;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method <GetFieldInfos>b__2, addr 0x4af4c90, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method <GetFieldInfos>b__2, addr 0x4b595a0, size 0xcc, virtual false, abstract: false, final false
   inline bool _GetFieldInfos_b__2(::System::Type* a);
+
+  constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get_x() const;
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get_x() const;
-
   constexpr void __cordl_internal_set_x(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4af4d5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b5966c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af4db0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b596c0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af3cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b585cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass6_1();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass6_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass6_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass6_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass6_1(__ReflectionTypeAnalyzer____c__DisplayClass6_1&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass6_1(ReflectionTypeAnalyzer___c__DisplayClass6_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass6_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass6_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass6_1(__ReflectionTypeAnalyzer____c__DisplayClass6_1 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass6_1(ReflectionTypeAnalyzer___c__DisplayClass6_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12727 };
 
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ___x;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12694 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1, ___x) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1, ___x) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass7_0*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass7_0 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass7_0
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9__2, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get___9__2,
-                      put = __cordl_internal_set___9__2)) ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* __9__2;
+                      put = __cordl_internal_set___9__2)) ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* __9__2;
 
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <GetMethodInfos>b__2, addr 0x4af4f70, size 0x6c, virtual false, abstract: false, final false
-  inline ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* _GetMethodInfos_b__2(::System::Reflection::ParameterInfo* x);
+  /// @brief Method <GetMethodInfos>b__2, addr 0x4b59880, size 0x6c, virtual false, abstract: false, final false
+  inline ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo* _GetMethodInfos_b__2(::System::Reflection::ParameterInfo* x);
 
-  constexpr ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*& __cordl_internal_get___9__2();
+  constexpr ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* const& __cordl_internal_get___9__2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>*> const&
-  __cordl_internal_get___9__2() const;
+  constexpr ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>*& __cordl_internal_get___9__2();
+
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
-
-  constexpr void __cordl_internal_set___9__2(::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* value);
+  constexpr void __cordl_internal_set___9__2(::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* value);
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4af4fdc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b598ec, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af5030, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b59940, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af4f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b59878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass7_0();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass7_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass7_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass7_0(__ReflectionTypeAnalyzer____c__DisplayClass7_0&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass7_0(ReflectionTypeAnalyzer___c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass7_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass7_0(__ReflectionTypeAnalyzer____c__DisplayClass7_0 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass7_0(ReflectionTypeAnalyzer___c__DisplayClass7_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12728 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
   /// @brief Field <>9__2, offset: 0x18, size: 0x8, def value: None
-  ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* _____9__2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12695 };
+  ::System::Func_2<::System::Reflection::ParameterInfo*, ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*>* _____9__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0, ___type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0, ___type) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0, _____9__2) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0, _____9__2) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0, 0x20>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass7_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass7_1*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass7_1 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass7_1
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass7_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) ::System::Reflection::MethodInfo* x;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1* New_ctor();
 
-  /// @brief Method <GetMethodInfos>b__1, addr 0x4af51e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetMethodInfos>b__1, addr 0x4b59af8, size 0x6c, virtual false, abstract: false, final false
   inline bool _GetMethodInfos_b__1(::System::Type* a);
+
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_x() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_x() const;
-
   constexpr void __cordl_internal_set_x(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method __zenCreate, addr 0x4af5254, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b59b64, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af52a8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b59bb8, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af3dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b586d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass7_1();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass7_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass7_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass7_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass7_1(__ReflectionTypeAnalyzer____c__DisplayClass7_1&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass7_1(ReflectionTypeAnalyzer___c__DisplayClass7_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass7_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass7_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass7_1(__ReflectionTypeAnalyzer____c__DisplayClass7_1 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass7_1(ReflectionTypeAnalyzer___c__DisplayClass7_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12729 };
 
   /// @brief Field x, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___x;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12696 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1, ___x) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1, ___x) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::ReflectionTypeAnalyzer::<>c__DisplayClass8_0*
-class CORDL_TYPE __ReflectionTypeAnalyzer____c__DisplayClass8_0 : public ::System::Object {
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer/<>c__DisplayClass8_0
+class CORDL_TYPE ReflectionTypeAnalyzer___c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  static inline ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0* New_ctor();
+  static inline ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method <GetConstructorInfo>b__0, addr 0x4af5468, size 0x6c, virtual false, abstract: false, final false
-  inline ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* _GetConstructorInfo_b__0(::System::Reflection::ParameterInfo* x);
+  /// @brief Method <GetConstructorInfo>b__0, addr 0x4b59d78, size 0x6c, virtual false, abstract: false, final false
+  inline ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo* _GetConstructorInfo_b__0(::System::Reflection::ParameterInfo* x);
+
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
-
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x4af54d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b59de4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4af5528, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b59e38, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4af5460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b59d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionTypeAnalyzer____c__DisplayClass8_0();
+  constexpr ReflectionTypeAnalyzer___c__DisplayClass8_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass8_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionTypeAnalyzer____c__DisplayClass8_0(__ReflectionTypeAnalyzer____c__DisplayClass8_0&&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass8_0(ReflectionTypeAnalyzer___c__DisplayClass8_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionTypeAnalyzer____c__DisplayClass8_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeAnalyzer___c__DisplayClass8_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionTypeAnalyzer____c__DisplayClass8_0(__ReflectionTypeAnalyzer____c__DisplayClass8_0 const&) = delete;
+  ReflectionTypeAnalyzer___c__DisplayClass8_0(ReflectionTypeAnalyzer___c__DisplayClass8_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12730 };
 
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12697 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0, ___type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0, ___type) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0, 0x18>, "Size mismatch!");
 
 } // namespace Zenject::Internal
-// Type: Zenject.Internal::ReflectionTypeAnalyzer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject::Internal {
 // Is value type: false
-// CS Name: ::Zenject.Internal::ReflectionTypeAnalyzer*
+// CS Name: Zenject.Internal.ReflectionTypeAnalyzer
 class CORDL_TYPE ReflectionTypeAnalyzer : public ::System::Object {
 public:
   // Declarations
-  using __c = ::Zenject::Internal::__ReflectionTypeAnalyzer____c;
+  using __c = ::Zenject::Internal::ReflectionTypeAnalyzer___c;
 
-  using __c__DisplayClass11_0 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0;
+  using __c__DisplayClass11_0 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0;
 
-  using __c__DisplayClass5_0 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0;
+  using __c__DisplayClass5_0 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0;
 
-  using __c__DisplayClass5_1 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1;
+  using __c__DisplayClass5_1 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1;
 
-  using __c__DisplayClass6_0 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0;
+  using __c__DisplayClass6_0 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0;
 
-  using __c__DisplayClass6_1 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1;
+  using __c__DisplayClass6_1 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1;
 
-  using __c__DisplayClass7_0 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0;
+  using __c__DisplayClass7_0 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0;
 
-  using __c__DisplayClass7_1 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1;
+  using __c__DisplayClass7_1 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1;
 
-  using __c__DisplayClass8_0 = ::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0;
+  using __c__DisplayClass8_0 = ::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0;
 
   /// @brief Field _injectAttributeTypes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__injectAttributeTypes, put = setStaticF__injectAttributeTypes)) ::System::Collections::Generic::HashSet_1<::System::Type*>* _injectAttributeTypes;
+  __declspec(property(get = getStaticF__injectAttributeTypes, put = setStaticF__injectAttributeTypes)) ::System::Collections::Generic::HashSet_1<::System::Type*>* _injectAttributeTypes;
 
   /// @brief Method AddCustomInjectAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AddCustomInjectAttribute();
 
-  /// @brief Method AddCustomInjectAttribute, addr 0x4af26ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddCustomInjectAttribute, addr 0x4b56ffc, size 0xd0, virtual false, abstract: false, final false
   static inline void AddCustomInjectAttribute(::System::Type* type);
 
-  /// @brief Method CreateInjectableInfoForParam, addr 0x4af35e0, size 0x224, virtual false, abstract: false, final false
-  static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo* CreateInjectableInfoForParam(::System::Type* parentType, ::System::Reflection::ParameterInfo* paramInfo);
+  /// @brief Method CreateInjectableInfoForParam, addr 0x4b57ef0, size 0x224, virtual false, abstract: false, final false
+  static inline ::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo* CreateInjectableInfoForParam(::System::Type* parentType, ::System::Reflection::ParameterInfo* paramInfo);
 
-  /// @brief Method GetConstructorInfo, addr 0x4af27bc, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* GetConstructorInfo(::System::Type* type);
+  /// @brief Method GetConstructorInfo, addr 0x4b570cc, size 0x1f4, virtual false, abstract: false, final false
+  static inline ::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo* GetConstructorInfo(::System::Type* type);
 
-  /// @brief Method GetFieldInfos, addr 0x4af2dd8, size 0x204, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>* GetFieldInfos(::System::Type* type);
+  /// @brief Method GetFieldInfos, addr 0x4b576e8, size 0x204, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*>* GetFieldInfos(::System::Type* type);
 
-  /// @brief Method GetInjectableInfoForMember, addr 0x4af3804, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableInfoForMember, addr 0x4b58114, size 0x244, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* GetInjectableInfoForMember(::System::Type* parentType, ::System::Reflection::MemberInfo* memInfo);
 
-  /// @brief Method GetMethodInfos, addr 0x4af29b0, size 0x428, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>* GetMethodInfos(::System::Type* type);
+  /// @brief Method GetMethodInfos, addr 0x4b572c0, size 0x428, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo*>* GetMethodInfos(::System::Type* type);
 
-  /// @brief Method GetPropertyInfos, addr 0x4af2fdc, size 0x204, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectPropertyInfo*>* GetPropertyInfos(::System::Type* type);
+  /// @brief Method GetPropertyInfos, addr 0x4b578ec, size 0x204, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*>* GetPropertyInfos(::System::Type* type);
 
-  /// @brief Method GetReflectionInfo, addr 0x4aedb98, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method GetReflectionInfo, addr 0x4b524a8, size 0x1e4, virtual false, abstract: false, final false
   static inline ::Zenject::Internal::ReflectionTypeInfo* GetReflectionInfo(::System::Type* type);
 
-  /// @brief Method TryGetInjectConstructor, addr 0x4af31e0, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method TryGetInjectConstructor, addr 0x4b57af0, size 0x400, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* TryGetInjectConstructor(::System::Type* type);
 
   static inline ::System::Collections::Generic::HashSet_1<::System::Type*>* getStaticF__injectAttributeTypes();
@@ -808,7 +796,7 @@ public:
   ReflectionTypeAnalyzer(ReflectionTypeAnalyzer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -818,21 +806,21 @@ static_assert(::cordl_internals::size_check_v<::Zenject::Internal::ReflectionTyp
 } // namespace Zenject::Internal
 NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer*, "Zenject.Internal", "ReflectionTypeAnalyzer");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass11_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass11_0");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_0");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass5_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_1");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_0");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass6_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_1");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_0");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass7_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_1");
-NEED_NO_BOX(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::__ReflectionTypeAnalyzer____c__DisplayClass8_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass8_0");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass11_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass11_0");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_0");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass5_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_1");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_0");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass6_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_1");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_0");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass7_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass7_1");
+NEED_NO_BOX(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0);
+DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::ReflectionTypeAnalyzer___c__DisplayClass8_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass8_0");

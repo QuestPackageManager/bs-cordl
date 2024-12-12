@@ -9,61 +9,60 @@
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ListView_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__ListView__UxmlFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::ListView_UxmlFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__ListView__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__ListView__UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListView_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::ListView_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498bb84;
+  constexpr static std::size_t addrs = 0x49f0494;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ListView__UxmlFactory*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView_UxmlFactory*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__ListView__UxmlFactory* UnityEngine::UIElements::__ListView__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__ListView__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__ListView__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ListView__UxmlFactory*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__ListView__UxmlFactory::__ListView__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__ListView__UxmlTraits._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__ListView__UxmlTraits::*)()>(
-    &::UnityEngine::UIElements::__ListView__UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498bbcc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ListView__UxmlTraits*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-inline ::UnityEngine::UIElements::__ListView__UxmlTraits* UnityEngine::UIElements::__ListView__UxmlTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__ListView__UxmlTraits*>());
-}
-inline void UnityEngine::UIElements::__ListView__UxmlTraits::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__ListView__UxmlTraits*>::get(), ".ctor",
+inline void UnityEngine::UIElements::ListView_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView_UxmlFactory*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::ListView_UxmlFactory* UnityEngine::UIElements::ListView_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ListView_UxmlFactory*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__ListView__UxmlTraits::__ListView__UxmlTraits() {}
+constexpr ::UnityEngine::UIElements::ListView_UxmlFactory::ListView_UxmlFactory() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::ListView_UxmlTraits._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListView_UxmlTraits::*)()>(&::UnityEngine::UIElements::ListView_UxmlTraits::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x49f04dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView_UxmlTraits*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::ListView_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView_UxmlTraits*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ListView_UxmlTraits* UnityEngine::UIElements::ListView_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ListView_UxmlTraits*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::ListView_UxmlTraits::ListView_UxmlTraits() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::ListView.get_makeItem
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::ListView::*)()>(
     &::UnityEngine::UIElements::ListView::get_makeItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498ba60;
+  constexpr static std::size_t addrs = 0x49f0370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), "get_makeItem",
@@ -77,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* (::UnityEngine::UIElements::ListView::*)()>(
     &::UnityEngine::UIElements::ListView::get_bindItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498ba68;
+  constexpr static std::size_t addrs = 0x49f0378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), "get_bindItem",
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* (::UnityEngine::UIElements::ListView::*)()>(
     &::UnityEngine::UIElements::ListView::get_unbindItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498ba70;
+  constexpr static std::size_t addrs = 0x49f0380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), "get_unbindItem",
@@ -105,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<::UnityEngine::UIElements::VisualElement*>* (::UnityEngine::UIElements::ListView::*)()>(
     &::UnityEngine::UIElements::ListView::get_destroyItem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498ba78;
+  constexpr static std::size_t addrs = 0x49f0388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), "get_destroyItem",
@@ -118,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ListView::*)()>(&::UnityEngine::UIElements::ListView::HasValidDataAndBindings)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x498ba80;
+  constexpr static std::size_t addrs = 0x49f0390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CollectionViewController* (::UnityEngine::UIElements::ListView::*)()>(
     &::UnityEngine::UIElements::ListView::CreateViewController)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x498bac0;
+  constexpr static std::size_t addrs = 0x49f03d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ListView::*)()>(&::UnityEngine::UIElements::ListView::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x498bb14;
+  constexpr static std::size_t addrs = 0x49f0424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), ".ctor",
@@ -159,7 +158,7 @@ constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& UnityEng
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MakeItem;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& UnityEngine::UIElements::ListView::__cordl_internal_get_m_MakeItem() const {
+constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::ListView::__cordl_internal_get_m_MakeItem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MakeItem;
 }
@@ -171,8 +170,7 @@ constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindItem;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const&
-UnityEngine::UIElements::ListView::__cordl_internal_get_m_BindItem() const {
+constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& UnityEngine::UIElements::ListView::__cordl_internal_get_m_BindItem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindItem;
 }
@@ -184,8 +182,7 @@ constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unbindItem_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>*> const&
-UnityEngine::UIElements::ListView::__cordl_internal_get__unbindItem_k__BackingField() const {
+constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, int32_t>* const& UnityEngine::UIElements::ListView::__cordl_internal_get__unbindItem_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unbindItem_k__BackingField;
 }
@@ -197,8 +194,7 @@ constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>*& UnityE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destroyItem_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::VisualElement*>*> const&
-UnityEngine::UIElements::ListView::__cordl_internal_get__destroyItem_k__BackingField() const {
+constexpr ::System::Action_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::ListView::__cordl_internal_get__destroyItem_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____destroyItem_k__BackingField;
 }
@@ -236,13 +232,13 @@ inline ::UnityEngine::UIElements::CollectionViewController* UnityEngine::UIEleme
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), 105)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::CollectionViewController*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::ListView* UnityEngine::UIElements::ListView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ListView*>());
-}
 inline void UnityEngine::UIElements::ListView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ListView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ListView* UnityEngine::UIElements::ListView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ListView*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ListView::ListView() {}

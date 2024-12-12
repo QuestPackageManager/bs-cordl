@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/DHKeyPairGenerator.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__DHKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHKeyGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator.Init
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x234c8d8;
+  constexpr static std::size_t addrs = 0x237fbc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x234c97c;
+  constexpr static std::size_t addrs = 0x237fc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234cab4;
+  constexpr static std::size_t addrs = 0x237fda0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,21 +53,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-constexpr Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*
-Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::__cordl_internal_get_param() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*> const&
-Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::__cordl_internal_get_param() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* const& Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::__cordl_internal_get_param() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param;
 }
@@ -87,14 +77,23 @@ inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* Org::BouncyCastle::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator* Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator*>());
-}
 inline void Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator* Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*
+Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator::DHKeyPairGenerator() {}

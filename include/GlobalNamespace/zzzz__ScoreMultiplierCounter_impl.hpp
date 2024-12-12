@@ -4,21 +4,21 @@
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType::__ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType::ScoreMultiplierCounter_MultiplierEventType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType::__ScoreMultiplierCounter__MultiplierEventType() {}
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType::Positive{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType::Neutral{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType::Negative{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType::ScoreMultiplierCounter_MultiplierEventType() {}
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType::Positive{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType::Neutral{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType::Negative{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::ScoreMultiplierCounter.get_multiplier
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoreMultiplierCounter::*)()>(
     &::GlobalNamespace::ScoreMultiplierCounter::get_multiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c7ba4;
+  constexpr static std::size_t addrs = 0x26fc9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ScoreMultiplierCounter::*)()>(
     &::GlobalNamespace::ScoreMultiplierCounter::get_normalizedProgress)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26c7bac;
+  constexpr static std::size_t addrs = 0x26fc9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(),
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierCounter::*)()>(&::GlobalNamespace::ScoreMultiplierCounter::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26c7634;
+  constexpr static std::size_t addrs = 0x26fc3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(), "Reset",
@@ -56,15 +56,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ScoreMultiplierCounter.ProcessMultiplierEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ScoreMultiplierCounter::*)(
-    ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType)>(&::GlobalNamespace::ScoreMultiplierCounter::ProcessMultiplierEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ScoreMultiplierCounter::*)(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType)>(
+    &::GlobalNamespace::ScoreMultiplierCounter::ProcessMultiplierEvent)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26c764c;
+  constexpr static std::size_t addrs = 0x26fc3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(), "ProcessMultiplierEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType>::get() })));
     return ___internal_method;
   }
 };
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMultiplierCounter::*)()>(&::GlobalNamespace::ScoreMultiplierCounter::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26c7adc;
+  constexpr static std::size_t addrs = 0x26fc920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(), ".ctor",
@@ -132,19 +132,19 @@ inline void GlobalNamespace::ScoreMultiplierCounter::Reset() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::ScoreMultiplierCounter::ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType) {
+inline bool GlobalNamespace::ScoreMultiplierCounter::ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType multiplierEventType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(), "ProcessMultiplierEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, multiplierEventType);
-}
-inline ::GlobalNamespace::ScoreMultiplierCounter* GlobalNamespace::ScoreMultiplierCounter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreMultiplierCounter*>());
 }
 inline void GlobalNamespace::ScoreMultiplierCounter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMultiplierCounter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScoreMultiplierCounter* GlobalNamespace::ScoreMultiplierCounter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreMultiplierCounter*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreMultiplierCounter::ScoreMultiplierCounter() {}

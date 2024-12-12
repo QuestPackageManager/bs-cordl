@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::Start)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3b34360;
+  constexpr static std::size_t addrs = 0x3b958a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "Start",
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::OnDisable)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b34508;
+  constexpr static std::size_t addrs = 0x3b95a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "OnDisable",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::LateUpdate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b34518;
+  constexpr static std::size_t addrs = 0x3b95a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), "LateUpdate",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberClashEffect::*)()>(&::GlobalNamespace::SaberClashEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b34624;
+  constexpr static std::size_t addrs = 0x3b95b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), ".ctor",
@@ -100,7 +100,7 @@ constexpr ::GlobalNamespace::SaberClashChecker*& GlobalNamespace::SaberClashEffe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberClashChecker;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberClashChecker*> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__saberClashChecker() const {
+constexpr ::GlobalNamespace::SaberClashChecker* const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__saberClashChecker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberClashChecker;
 }
@@ -124,7 +124,7 @@ constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::SaberClashEffect::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__colorManager() const {
+constexpr ::GlobalNamespace::ColorManager* const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
@@ -132,27 +132,27 @@ constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__colorMan
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::SaberClashEffect::__cordl_internal_get__sparkleParticleSystemEmmisionModule() {
+constexpr ::UnityEngine::ParticleSystem_EmissionModule& GlobalNamespace::SaberClashEffect::__cordl_internal_get__sparkleParticleSystemEmmisionModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmmisionModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__sparkleParticleSystemEmmisionModule() const {
+constexpr ::UnityEngine::ParticleSystem_EmissionModule const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__sparkleParticleSystemEmmisionModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmmisionModule;
 }
-constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
+constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::ParticleSystem_EmissionModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparkleParticleSystemEmmisionModule = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::SaberClashEffect::__cordl_internal_get__glowParticleSystemEmmisionModule() {
+constexpr ::UnityEngine::ParticleSystem_EmissionModule& GlobalNamespace::SaberClashEffect::__cordl_internal_get__glowParticleSystemEmmisionModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____glowParticleSystemEmmisionModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__glowParticleSystemEmmisionModule() const {
+constexpr ::UnityEngine::ParticleSystem_EmissionModule const& GlobalNamespace::SaberClashEffect::__cordl_internal_get__glowParticleSystemEmmisionModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____glowParticleSystemEmmisionModule;
 }
-constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__glowParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
+constexpr void GlobalNamespace::SaberClashEffect::__cordl_internal_set__glowParticleSystemEmmisionModule(::UnityEngine::ParticleSystem_EmissionModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____glowParticleSystemEmmisionModule = value;
 }
@@ -183,13 +183,13 @@ inline void GlobalNamespace::SaberClashEffect::LateUpdate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SaberClashEffect* GlobalNamespace::SaberClashEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberClashEffect*>());
-}
 inline void GlobalNamespace::SaberClashEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberClashEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SaberClashEffect* GlobalNamespace::SaberClashEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberClashEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SaberClashEffect::SaberClashEffect() {}

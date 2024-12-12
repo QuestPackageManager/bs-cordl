@@ -14,35 +14,40 @@ namespace UnityEngine::Timeline {
 struct IntervalTreeNode;
 }
 namespace UnityEngine::Timeline {
-template <typename T> struct __IntervalTree_1__Entry;
+template <typename T> struct IntervalTree_1_Entry;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
 template <typename T> class IntervalTree_1;
 }
 namespace UnityEngine::Timeline {
-template <typename T> struct __IntervalTree_1__Entry;
+template <typename T> struct IntervalTree_1_Entry;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Timeline::IntervalTree_1);
-MARK_GEN_VAL_T(::UnityEngine::Timeline::__IntervalTree_1__Entry);
-// Type: ::Entry
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::UnityEngine::Timeline::IntervalTree_1_Entry);
+// Dependencies
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::IntervalTree`1::Entry<T>
-struct CORDL_TYPE __IntervalTree_1__Entry {
+// CS Name: UnityEngine.Timeline.IntervalTree`1/Entry<T>
+struct CORDL_TYPE IntervalTree_1_Entry {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IntervalTree_1__Entry();
+  constexpr IntervalTree_1_Entry();
 
   // Ctor Parameters [CppParam { name: "intervalStart", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "intervalEnd", ty: "int64_t", modifiers: "", def_value: None }, CppParam {
   // name: "item", ty: "T", modifiers: "", def_value: None }]
-  constexpr __IntervalTree_1__Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
+  constexpr IntervalTree_1_Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15838 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field intervalStart, offset: 0x0, size: 0x8, def value: None
   int64_t intervalStart;
@@ -53,27 +58,20 @@ public:
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
   T item;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15803 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::Timeline
-// Type: UnityEngine.Timeline::IntervalTree`1
-// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::IntervalTree`1<T>*
+// CS Name: UnityEngine.Timeline.IntervalTree`1<T>
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
 public:
   // Declarations
-  using Entry = ::UnityEngine::Timeline::__IntervalTree_1__Entry<T>;
+  using Entry = ::UnityEngine::Timeline::IntervalTree_1_Entry<T>;
 
   /// @brief Field <dirty>k__BackingField, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__dirty_k__BackingField, put = __cordl_internal_set__dirty_k__BackingField)) bool _dirty_k__BackingField;
@@ -81,8 +79,7 @@ public:
   __declspec(property(get = get_dirty, put = set_dirty)) bool dirty;
 
   /// @brief Field m_Entries, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Entries,
-                      put = __cordl_internal_set_m_Entries)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* m_Entries;
+  __declspec(property(get = __cordl_internal_get_m_Entries, put = __cordl_internal_set_m_Entries)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* m_Entries;
 
   /// @brief Field m_Nodes, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Nodes, put = __cordl_internal_set_m_Nodes)) ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
@@ -120,17 +117,17 @@ public:
 
   constexpr bool& __cordl_internal_get__dirty_k__BackingField();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*& __cordl_internal_get_m_Entries();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* const& __cordl_internal_get_m_Entries() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*> const& __cordl_internal_get_m_Entries() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>*& __cordl_internal_get_m_Entries();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* const& __cordl_internal_get_m_Nodes() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*& __cordl_internal_get_m_Nodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*> const& __cordl_internal_get_m_Nodes() const;
-
   constexpr void __cordl_internal_set__dirty_k__BackingField(bool value);
 
-  constexpr void __cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* value);
+  constexpr void __cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* value);
 
   constexpr void __cordl_internal_set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* value);
 
@@ -157,17 +154,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IntervalTree_1(IntervalTree_1 const&) = delete;
 
-  /// @brief Field m_Entries, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* ___m_Entries;
-
-  /// @brief Field m_Nodes, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* ___m_Nodes;
-
-  /// @brief Field <dirty>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____dirty_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15839 };
 
   /// @brief Field kCenterUnknown offset 0xffffffff size 0x8
   static constexpr int64_t kCenterUnknown{ static_cast<int64_t>(0x7fffffffffffffff) };
@@ -178,9 +166,18 @@ public:
   /// @brief Field kMinNodeSize offset 0xffffffff size 0x4
   static constexpr int32_t kMinNodeSize{ static_cast<int32_t>(0xa) };
 
+  /// @brief Field m_Entries, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* ___m_Entries;
+
+  /// @brief Field m_Nodes, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* ___m_Nodes;
+
+  /// @brief Field <dirty>k__BackingField, offset: 0x20, size: 0x1, def value: None
+  bool ____dirty_k__BackingField;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Timeline::IntervalTree_1, "UnityEngine.Timeline", "IntervalTree`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::Timeline::__IntervalTree_1__Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::Timeline::IntervalTree_1_Entry, "UnityEngine.Timeline", "IntervalTree`1/Entry");

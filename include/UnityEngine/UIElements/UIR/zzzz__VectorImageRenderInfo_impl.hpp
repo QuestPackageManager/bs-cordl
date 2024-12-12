@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x494d6e8;
+  constexpr static std::size_t addrs = 0x49b1ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfo::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x494d680;
+  constexpr static std::size_t addrs = 0x49b1f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>::get(),
@@ -48,8 +48,7 @@ constexpr ::UnityEngine::UIElements::UIR::GradientRemap*& UnityEngine::UIElement
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstGradientRemap;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GradientRemap*> const&
-UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_get_firstGradientRemap() const {
+constexpr ::UnityEngine::UIElements::UIR::GradientRemap* const& UnityEngine::UIElements::UIR::VectorImageRenderInfo::__cordl_internal_get_firstGradientRemap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstGradientRemap;
 }
@@ -74,13 +73,13 @@ inline void UnityEngine::UIElements::UIR::VectorImageRenderInfo::Reset() {
                                                                              "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIElements::UIR::VectorImageRenderInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>());
-}
 inline void UnityEngine::UIElements::UIR::VectorImageRenderInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIElements::UIR::VectorImageRenderInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfo::VectorImageRenderInfo() {}

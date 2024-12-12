@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMAC)
@@ -17,11 +16,10 @@ class HMAC;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::HMAC);
-// Type: System.Security.Cryptography::HMAC
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.KeyedHashAlgorithm
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::HMAC*
+// CS Name: System.Security.Cryptography.HMAC
 class CORDL_TYPE HMAC : public ::System::Security::Cryptography::KeyedHashAlgorithm {
 public:
   // Declarations
@@ -50,40 +48,40 @@ public:
   /// @brief Field m_outer, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
 
-  /// @brief Method Create, addr 0x3c3f934, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3c9faa8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HMAC* Create();
 
-  /// @brief Method Dispose, addr 0x3c3fbbc, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3c9fd30, size 0x164, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore, addr 0x3c3fa0c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x3c9fb80, size 0x80, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ib, int32_t cb);
 
-  /// @brief Method HashFinal, addr 0x3c3fa8c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x3c9fc00, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x3c3f9c4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3c9fb38, size 0x48, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeKey, addr 0x3c3f784, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method InitializeKey, addr 0x3c9f8f8, size 0xd0, virtual false, abstract: false, final false
   inline void InitializeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::System::Security::Cryptography::HMAC* New_ctor();
 
-  /// @brief Method UpdateIOPadBuffers, addr 0x3c3f618, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UpdateIOPadBuffers, addr 0x3c9f78c, size 0x16c, virtual false, abstract: false, final false
   inline void UpdateIOPadBuffers();
 
   constexpr int32_t const& __cordl_internal_get_blockSizeValue() const;
 
   constexpr int32_t& __cordl_internal_get_blockSizeValue();
 
+  constexpr ::System::Security::Cryptography::HashAlgorithm* const& __cordl_internal_get_m_hash1() const;
+
   constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_m_hash1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __cordl_internal_get_m_hash1() const;
+  constexpr ::System::Security::Cryptography::HashAlgorithm* const& __cordl_internal_get_m_hash2() const;
 
   constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_m_hash2();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __cordl_internal_get_m_hash2() const;
 
   constexpr ::StringW const& __cordl_internal_get_m_hashName() const;
 
@@ -115,19 +113,19 @@ public:
 
   constexpr void __cordl_internal_set_m_outer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3c3fd58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9fecc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BlockSizeValue, addr 0x3c3f608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSizeValue, addr 0x3c9f77c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();
 
-  /// @brief Method get_Key, addr 0x3c3f854, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_Key, addr 0x3c9f9c8, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_BlockSizeValue, addr 0x3c3f610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BlockSizeValue, addr 0x3c9f784, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockSizeValue(int32_t value);
 
-  /// @brief Method set_Key, addr 0x3c3f8cc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_Key, addr 0x3c9fa40, size 0x68, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:
@@ -143,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HMAC", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HMAC(HMAC const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2933 };
 
   /// @brief Field blockSizeValue, offset: 0x30, size: 0x4, def value: None
   int32_t ___blockSizeValue;
@@ -165,14 +166,9 @@ public:
   /// @brief Field m_hashing, offset: 0x60, size: 0x1, def value: None
   bool ___m_hashing;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2933 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::HMAC, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::HMAC, ___blockSizeValue) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::HMAC, ___m_hashName) == 0x38, "Offset mismatch!");
@@ -186,6 +182,8 @@ static_assert(offsetof(::System::Security::Cryptography::HMAC, ___m_inner) == 0x
 static_assert(offsetof(::System::Security::Cryptography::HMAC, ___m_outer) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::HMAC, ___m_hashing) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::HMAC, 0x68>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::HMAC);

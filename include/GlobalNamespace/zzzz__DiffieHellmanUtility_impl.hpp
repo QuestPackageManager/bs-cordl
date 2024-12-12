@@ -1,5 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DiffieHellmanUtility.hpp"
+#include "GlobalNamespace/zzzz__IDiffieHellmanKeyPair_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DiffieHellmanUtility_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
@@ -15,568 +17,560 @@
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__KeyType::__DiffieHellmanUtility__KeyType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::DiffieHellmanUtility_KeyType::DiffieHellmanUtility_KeyType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__KeyType::__DiffieHellmanUtility__KeyType() {}
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__KeyType GlobalNamespace::__DiffieHellmanUtility__KeyType::DiffieHellman{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__KeyType GlobalNamespace::__DiffieHellmanUtility__KeyType::ElipticalCurve{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0._ctor
+constexpr ::GlobalNamespace::DiffieHellmanUtility_KeyType::DiffieHellmanUtility_KeyType() {}
+constexpr ::GlobalNamespace::DiffieHellmanUtility_KeyType GlobalNamespace::DiffieHellmanUtility_KeyType::DiffieHellman{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::DiffieHellmanUtility_KeyType GlobalNamespace::DiffieHellmanUtility_KeyType::ElipticalCurve{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::*)()>(
-    &::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
+    &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228e200;
+  constexpr static std::size_t addrs = 0x22c14ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0._GetPreMasterSecretAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0._GetPreMasterSecretAsync_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::*)()>(
-        &::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
+    static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
+        &::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x228e270;
+  constexpr static std::size_t addrs = 0x22c155c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                  "<GetPreMasterSecretAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*& GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*> const&
-GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* const& GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void
-GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* value) {
+constexpr void GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_set___4__this(::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientPublicKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientPublicKey;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientPublicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0* GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0*>());
-}
-inline void GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::_ctor() {
+inline void GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0() {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                "<GetPreMasterSecretAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0* GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair.get_publicKey
+constexpr ::GlobalNamespace::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::DiffieHellmanKeyPair_DiffieHellmanUtility___c__DisplayClass5_0() {}
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair.get_publicKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::*)()>(
-    &::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::get_publicKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)()>(
+    &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228e0b8;
+  constexpr static std::size_t addrs = 0x22c13a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), "get_publicKey",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), "get_publicKey",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair._ctor
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::*)(
-    ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(
+    ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228db10;
+  constexpr static std::size_t addrs = 0x22c0dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair.GetPreMasterSecretAsync
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair.GetPreMasterSecretAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* (
-    ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
+    ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
+    &::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x228e0c0;
+  constexpr static std::size_t addrs = 0x22c13ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(),
                                                  "GetPreMasterSecretAsync", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair.GetPreMasterSecret
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair.GetPreMasterSecret
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::GetPreMasterSecret)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x228e208;
+  constexpr static std::size_t addrs = 0x22c14f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
-constexpr GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept {
-  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
-constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept {
-  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
-}
-constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_get__dhBasicAgreement() {
+constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_get__dhBasicAgreement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dhBasicAgreement;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*> const&
-GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_get__dhBasicAgreement() const {
+constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* const& GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_get__dhBasicAgreement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dhBasicAgreement;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dhBasicAgreement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_get__publicKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_get__publicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_get__publicKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_get__publicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::__cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::get_publicKey() {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::get_publicKey() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), "get_publicKey",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), "get_publicKey",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*
-GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::New_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
-                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>(privateKeyParameters, publicKey));
-}
-inline void GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
-                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
+inline void GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
+                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, privateKeyParameters, publicKey);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*
-GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(),
-                                               "GetPreMasterSecretAsync", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), "GetPreMasterSecretAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*, false>(this, ___internal_method, taskUtility, clientPublicKey);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, clientPublicKey);
 }
+inline ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*
+GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::New_ctor(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* privateKeyParameters,
+                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*>(privateKeyParameters, publicKey));
+}
+/// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
+constexpr GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept {
+  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept {
+  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair::__DiffieHellmanUtility__DiffieHellmanKeyPair() {}
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0._ctor
+constexpr ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair::DiffieHellmanUtility_DiffieHellmanKeyPair() {}
+//  Writing Method size for method: ::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::*)()>(
-    &::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
+    &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228e424;
+  constexpr static std::size_t addrs = 0x22c1710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0._GetPreMasterSecretAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0._GetPreMasterSecretAsync_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::*)()>(
-        &::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
+    static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::*)()>(
+        &::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x228e494;
+  constexpr static std::size_t addrs = 0x22c1780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                  "<GetPreMasterSecretAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*& GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*> const&
-GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* const&
+GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void
-GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* value) {
+constexpr void GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_set___4__this(::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientPublicKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_get_clientPublicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientPublicKey;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::__cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientPublicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0* GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0*>());
-}
-inline void GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::_ctor() {
+inline void GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0() {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::_GetPreMasterSecretAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>::get(),
                                                "<GetPreMasterSecretAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0* GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair.get_publicKey
+constexpr ::GlobalNamespace::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0::ElipticalCurveKeyPair_DiffieHellmanUtility___c__DisplayClass5_0() {}
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair.get_publicKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::*)()>(
-    &::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::get_publicKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)()>(
+    &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::get_publicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228e2dc;
+  constexpr static std::size_t addrs = 0x22c15c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), "get_publicKey",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), "get_publicKey",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair._ctor
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::*)(
-    ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(
+    ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x228dba4;
+  constexpr static std::size_t addrs = 0x22c0e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair.GetPreMasterSecretAsync
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair.GetPreMasterSecretAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* (
-    ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
+    ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
+    &::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecretAsync)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x228e2e4;
+  constexpr static std::size_t addrs = 0x22c15d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(),
                                                  "GetPreMasterSecretAsync", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair.GetPreMasterSecret
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair.GetPreMasterSecret
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::GetPreMasterSecret)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x228e42c;
+  constexpr static std::size_t addrs = 0x22c1718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), "GetPreMasterSecret",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
-constexpr GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept {
-  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
-constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept {
-  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
-}
-constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_get__ecdhBasicAgreement() {
+constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_get__ecdhBasicAgreement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ecdhBasicAgreement;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*> const&
-GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_get__ecdhBasicAgreement() const {
+constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* const& GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_get__ecdhBasicAgreement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ecdhBasicAgreement;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ecdhBasicAgreement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_get__publicKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_get__publicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_get__publicKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_get__publicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::__cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::get_publicKey() {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::get_publicKey() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), "get_publicKey",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), "get_publicKey",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*
-GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
-                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>(privateKeyParameters, publicKey));
-}
-inline void GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
-                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
+inline void GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
+                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, privateKeyParameters, publicKey);
 }
 inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*
-GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
+GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(),
-                                               "GetPreMasterSecretAsync", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), "GetPreMasterSecretAsync",
+                                               std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*, false>(this, ___internal_method, taskUtility, clientPublicKey);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>::get(), "GetPreMasterSecret", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, clientPublicKey);
 }
+inline ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*
+GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privateKeyParameters,
+                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*>(privateKeyParameters, publicKey));
+}
+/// @brief Convert operator to "::GlobalNamespace::IDiffieHellmanKeyPair"
+constexpr GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::operator ::GlobalNamespace::IDiffieHellmanKeyPair*() noexcept {
+  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
+constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept {
+  return static_cast<::GlobalNamespace::IDiffieHellmanKeyPair*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair::__DiffieHellmanUtility__ElipticalCurveKeyPair() {}
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer._ctor
+constexpr ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair::DiffieHellmanUtility_ElipticalCurveKeyPair() {}
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_OperationTimer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::*)(::StringW)>(
-    &::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)(::StringW)>(
+    &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x228e500;
+  constexpr static std::size_t addrs = 0x22c17ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer.Dispose
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_OperationTimer.Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::*)()>(
-    &::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DiffieHellmanUtility_OperationTimer::*)()>(
+    &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Dispose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x228e584;
+  constexpr static std::size_t addrs = 0x22c1870;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(), "Dispose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(),
+                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer.Time
+//  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility_OperationTimer.Time
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* (*)(::StringW)>(
-    &::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::Time)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_OperationTimer* (*)(::StringW)>(
+    &::GlobalNamespace::DiffieHellmanUtility_OperationTimer::Time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x228db08;
+  constexpr static std::size_t addrs = 0x22c0df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(), "Time",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(), "Time",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__DiffieHellmanUtility__OperationTimer::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__DiffieHellmanUtility__OperationTimer::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_get__stopwatch() {
+constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_get__stopwatch() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_get__stopwatch() const {
+constexpr ::System::Diagnostics::Stopwatch* const& GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_get__stopwatch() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____stopwatch)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_get__operationName() {
+constexpr ::StringW& GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_get__operationName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operationName;
 }
-constexpr ::StringW const& GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_get__operationName() const {
+constexpr ::StringW const& GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_get__operationName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operationName;
 }
-constexpr void GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__cordl_internal_set__operationName(::StringW value) {
+constexpr void GlobalNamespace::DiffieHellmanUtility_OperationTimer::__cordl_internal_set__operationName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____operationName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* GlobalNamespace::__DiffieHellmanUtility__OperationTimer::New_ctor(::StringW operationName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>(operationName));
-}
-inline void GlobalNamespace::__DiffieHellmanUtility__OperationTimer::_ctor(::StringW operationName) {
+inline void GlobalNamespace::DiffieHellmanUtility_OperationTimer::_ctor(::StringW operationName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(), ".ctor",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, operationName);
 }
-inline void GlobalNamespace::__DiffieHellmanUtility__OperationTimer::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(),
+inline void GlobalNamespace::DiffieHellmanUtility_OperationTimer::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(),
                                                                              "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* GlobalNamespace::__DiffieHellmanUtility__OperationTimer::Time(::StringW operation) {
+inline ::GlobalNamespace::DiffieHellmanUtility_OperationTimer* GlobalNamespace::DiffieHellmanUtility_OperationTimer::Time(::StringW operation) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*>::get(), "Time",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>::get(), "Time",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__DiffieHellmanUtility__OperationTimer*, false>(nullptr, ___internal_method, operation);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*, false>(nullptr, ___internal_method, operation);
+}
+inline ::GlobalNamespace::DiffieHellmanUtility_OperationTimer* GlobalNamespace::DiffieHellmanUtility_OperationTimer::New_ctor(::StringW operationName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DiffieHellmanUtility_OperationTimer*>(operationName));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::DiffieHellmanUtility_OperationTimer::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::DiffieHellmanUtility_OperationTimer::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer::__DiffieHellmanUtility__OperationTimer() {}
+constexpr ::GlobalNamespace::DiffieHellmanUtility_OperationTimer::DiffieHellmanUtility_OperationTimer() {}
 //  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility.GenerateKeysAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<
-    ::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::BGNet::Core::ITaskUtility*, ::System::Threading::CancellationToken, ::GlobalNamespace::__DiffieHellmanUtility__KeyType)>(
-    &::GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(::BGNet::Core::ITaskUtility*, ::System::Threading::CancellationToken,
+                                                                                       ::GlobalNamespace::DiffieHellmanUtility_KeyType)>(&::GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x228d680;
+  constexpr static std::size_t addrs = 0x22c096c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(), "GenerateKeysAsync", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DiffieHellmanUtility__KeyType>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DiffieHellmanUtility_KeyType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility.GenerateKeys
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDiffieHellmanKeyPair* (*)(::GlobalNamespace::__DiffieHellmanUtility__KeyType)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IDiffieHellmanKeyPair* (*)(::GlobalNamespace::DiffieHellmanUtility_KeyType)>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2289bcc;
+  constexpr static std::size_t addrs = 0x22bceb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(), "GenerateKeys", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DiffieHellmanUtility__KeyType>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DiffieHellmanUtility_KeyType>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility.GenerateDiffieHellmanKeys
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* (*)()>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x228d990;
+  constexpr static std::size_t addrs = 0x22c0c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
@@ -587,10 +581,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::DiffieHellmanUtility.GenerateElipticalCurveKeys
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* (*)()>(
     &::GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x228d80c;
+  constexpr static std::size_t addrs = 0x22c0af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
@@ -604,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x228dc38;
+  constexpr static std::size_t addrs = 0x22c0f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -620,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x228ddbc;
+  constexpr static std::size_t addrs = 0x22c10a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -665,35 +659,32 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtilit
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "_ecPointFormats",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get>();
 }
-/// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
-/// @param keyType: ::GlobalNamespace::__DiffieHellmanUtility__KeyType (default: static_cast<int32_t>(0x1))
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*
 GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync(::BGNet::Core::ITaskUtility* taskUtility, ::System::Threading::CancellationToken cancellationToken,
-                                                         ::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType) {
+                                                         ::GlobalNamespace::DiffieHellmanUtility_KeyType keyType) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(), "GenerateKeysAsync", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DiffieHellmanUtility__KeyType>::get() })));
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DiffieHellmanUtility_KeyType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::IDiffieHellmanKeyPair*>*, false>(nullptr, ___internal_method, taskUtility, cancellationToken,
                                                                                                                                     keyType);
 }
-/// @param keyType: ::GlobalNamespace::__DiffieHellmanUtility__KeyType (default: static_cast<int32_t>(0x1))
-inline ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateKeys(::GlobalNamespace::__DiffieHellmanUtility__KeyType keyType) {
+inline ::GlobalNamespace::IDiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateKeys(::GlobalNamespace::DiffieHellmanUtility_KeyType keyType) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(), "GenerateKeys", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DiffieHellmanUtility__KeyType>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DiffieHellmanUtility_KeyType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IDiffieHellmanKeyPair*, false>(nullptr, ___internal_method, keyType);
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys() {
+inline ::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
                                                                              "GenerateDiffieHellmanKeys", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DiffieHellmanUtility_DiffieHellmanKeyPair*, false>(nullptr, ___internal_method);
 }
-inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys() {
+inline ::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair* GlobalNamespace::DiffieHellmanUtility::GenerateElipticalCurveKeys() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DiffieHellmanUtility*>::get(),
                                                                              "GenerateElipticalCurveKeys", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DiffieHellmanUtility_ElipticalCurveKeyPair*, false>(nullptr, ___internal_method);
 }
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement,
                                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey) {

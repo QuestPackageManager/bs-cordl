@@ -20,11 +20,10 @@ class BaseEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
-// Type: UnityEngine.EventSystems::BaseEventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.AbstractEventData
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// CS Name: ::UnityEngine.EventSystems::BaseEventData*
+// CS Name: UnityEngine.EventSystems.BaseEventData
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
   // Declarations
@@ -43,16 +42,16 @@ public:
 
   constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
-  /// @brief Method .ctor, addr 0x4a6fedc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad47ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_currentInputModule, addr 0x4a6ff28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_currentInputModule, addr 0x4ad4838, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
-  /// @brief Method get_selectedObject, addr 0x4a6ff44, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedObject, addr 0x4ad4854, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
-  /// @brief Method set_selectedObject, addr 0x4a6ff60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_selectedObject, addr 0x4ad4870, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
 
 protected:
@@ -69,18 +68,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseEventData(BaseEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15175 };
+
   /// @brief Field m_EventSystem, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseEventData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventSystems::BaseEventData, ___m_EventSystem) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseEventData, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseEventData);

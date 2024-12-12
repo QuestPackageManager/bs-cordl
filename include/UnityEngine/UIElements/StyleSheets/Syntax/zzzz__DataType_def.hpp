@@ -12,11 +12,10 @@ struct DataType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::DataType);
-// Type: UnityEngine.UIElements.StyleSheets.Syntax::DataType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::DataType
+// CS Name: UnityEngine.UIElements.StyleSheets.Syntax.DataType
 struct CORDL_TYPE DataType {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DataType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Angle value: static_cast<int32_t>(0x9)
+  /// @brief Field Angle value: I32(9)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Angle;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x5)
+  /// @brief Field Color value: I32(5)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Color;
 
-  /// @brief Field CustomIdent value: static_cast<int32_t>(0xa)
+  /// @brief Field CustomIdent value: I32(10)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const CustomIdent;
 
-  /// @brief Field Integer value: static_cast<int32_t>(0x2)
+  /// @brief Field Integer value: I32(2)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Integer;
 
-  /// @brief Field Length value: static_cast<int32_t>(0x3)
+  /// @brief Field Length value: I32(3)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Length;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const None;
 
-  /// @brief Field Number value: static_cast<int32_t>(0x1)
+  /// @brief Field Number value: I32(1)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Number;
 
-  /// @brief Field Percentage value: static_cast<int32_t>(0x4)
+  /// @brief Field Percentage value: I32(4)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Percentage;
 
-  /// @brief Field Resource value: static_cast<int32_t>(0x6)
+  /// @brief Field Resource value: I32(6)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Resource;
 
-  /// @brief Field Time value: static_cast<int32_t>(0x8)
+  /// @brief Field Time value: I32(8)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Time;
 
-  /// @brief Field Url value: static_cast<int32_t>(0x7)
+  /// @brief Field Url value: I32(7)
   static ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const Url;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::DataType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::DataType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::DataType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets::Syntax
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::DataType, "UnityEngine.UIElements.StyleSheets.Syntax", "DataType");

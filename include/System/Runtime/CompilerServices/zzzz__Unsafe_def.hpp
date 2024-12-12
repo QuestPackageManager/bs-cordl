@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Unsafe)
 namespace System {
@@ -19,64 +18,63 @@ class Unsafe;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::Unsafe);
-// Type: System.Runtime.CompilerServices::Unsafe
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::Unsafe*
+// CS Name: System.Runtime.CompilerServices.Unsafe
 class CORDL_TYPE Unsafe : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ByRef<T> Add(::ByRef<T> source, ::System::IntPtr elementOffset);
+
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ByRef<T> Add(::ByRef<T> source, int32_t elementOffset);
+
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> Add(::cordl_internals::Ptr<void> source, int32_t elementOffset);
 
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, ::System::IntPtr elementOffset);
-
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, int32_t elementOffset);
+  /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::ByRef<T> AddByteOffset(::ByRef<T> source, ::System::IntPtr byteOffset);
 
   /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, ::System::IntPtr byteOffset);
-
-  /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, uint64_t byteOffset);
+  template <typename T> static inline ::ByRef<T> AddByteOffset(::ByRef<T> source, uint64_t byteOffset);
 
   /// @brief Method AreSame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool AreSame(ByRef<T> left, ByRef<T> right);
+  template <typename T> static inline bool AreSame(::ByRef<T> left, ::ByRef<T> right);
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TFrom, typename TTo> static inline ByRef<TTo> As(ByRef<TFrom> source);
+  template <typename TFrom, typename TTo> static inline ::ByRef<TTo> As(::ByRef<TFrom> source);
 
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T As(::System::Object* o);
 
   /// @brief Method AsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> AsPointer(ByRef<T> value);
+  template <typename T> static inline ::cordl_internals::Ptr<void> AsPointer(::ByRef<T> value);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AsRef(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline ::ByRef<T> AsRef(::ByRef<T> source);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AsRef(ByRef<T> source);
+  template <typename T> static inline ::ByRef<T> AsRef(::cordl_internals::Ptr<void> source);
 
-  /// @brief Method InitBlockUnaligned, addr 0x3cb9918, size 0x8, virtual false, abstract: false, final false
-  static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
+  /// @brief Method InitBlockUnaligned, addr 0x3d19a8c, size 0x8, virtual false, abstract: false, final false
+  static inline void InitBlockUnaligned(::ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool IsAddressLessThan(ByRef<T> left, ByRef<T> right);
+  template <typename T> static inline bool IsAddressLessThan(::ByRef<T> left, ::ByRef<T> right);
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(::cordl_internals::Ptr<void> source);
 
   /// @brief Method ReadUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ReadUnaligned(ByRef<uint8_t> source);
+  template <typename T> static inline T ReadUnaligned(::ByRef<uint8_t> source);
 
   /// @brief Method SizeOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t SizeOf();
 
   /// @brief Method WriteUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void WriteUnaligned(ByRef<uint8_t> destination, T value);
+  template <typename T> static inline void WriteUnaligned(::ByRef<uint8_t> destination, T value);
 
 protected:
   // Ctor Parameters []

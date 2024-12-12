@@ -1,82 +1,82 @@
 #pragma once
 // IWYU pragma private; include "System/Net/PathList.hpp"
+#include "System/Collections/zzzz__IComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Net::__PathList__PathListComparer.System_Collections_IComparer_Compare
+//  Writing Method size for method: ::System::Net::PathList_PathListComparer.System_Collections_IComparer_Compare
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::__PathList__PathListComparer::*)(::System::Object*, ::System::Object*)>(
-    &::System::Net::__PathList__PathListComparer::System_Collections_IComparer_Compare)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList_PathListComparer::*)(::System::Object*, ::System::Object*)>(
+    &::System::Net::PathList_PathListComparer::System_Collections_IComparer_Compare)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x44525b0;
+  constexpr static std::size_t addrs = 0x44b38c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(),
                                                                                "System.Collections.IComparer.Compare", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__PathList__PathListComparer._ctor
+//  Writing Method size for method: ::System::Net::PathList_PathListComparer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__PathList__PathListComparer::*)()>(&::System::Net::__PathList__PathListComparer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList_PathListComparer::*)()>(&::System::Net::PathList_PathListComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4452718;
+  constexpr static std::size_t addrs = 0x44b3a2c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IComparer"
-constexpr System::Net::__PathList__PathListComparer::operator ::System::Collections::IComparer*() noexcept {
-  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+inline void System::Net::PathList_PathListComparer::setStaticF_StaticInstance(::System::Net::PathList_PathListComparer* value) {
+  ::cordl_internals::setStaticField<::System::Net::PathList_PathListComparer*, "StaticInstance",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get>(
+      std::forward<::System::Net::PathList_PathListComparer*>(value));
 }
-/// @brief Convert to "::System::Collections::IComparer"
-constexpr ::System::Collections::IComparer* System::Net::__PathList__PathListComparer::i___System__Collections__IComparer() noexcept {
-  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+inline ::System::Net::PathList_PathListComparer* System::Net::PathList_PathListComparer::getStaticF_StaticInstance() {
+  return ::cordl_internals::getStaticField<::System::Net::PathList_PathListComparer*, "StaticInstance",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get>();
 }
-inline void System::Net::__PathList__PathListComparer::setStaticF_StaticInstance(::System::Net::__PathList__PathListComparer* value) {
-  ::cordl_internals::setStaticField<::System::Net::__PathList__PathListComparer*, "StaticInstance",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get>(
-      std::forward<::System::Net::__PathList__PathListComparer*>(value));
-}
-inline ::System::Net::__PathList__PathListComparer* System::Net::__PathList__PathListComparer::getStaticF_StaticInstance() {
-  return ::cordl_internals::getStaticField<::System::Net::__PathList__PathListComparer*, "StaticInstance",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get>();
-}
-inline int32_t System::Net::__PathList__PathListComparer::System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get(),
+inline int32_t System::Net::PathList_PathListComparer::System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(),
                                                                              "System.Collections.IComparer.Compare", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, ol, _cordl_or);
 }
-inline ::System::Net::__PathList__PathListComparer* System::Net::__PathList__PathListComparer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__PathList__PathListComparer*>());
-}
-inline void System::Net::__PathList__PathListComparer::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__PathList__PathListComparer*>::get(), ".ctor",
+inline void System::Net::PathList_PathListComparer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Net::PathList_PathListComparer* System::Net::PathList_PathListComparer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::PathList_PathListComparer*>());
+}
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr System::Net::PathList_PathListComparer::operator ::System::Collections::IComparer*() noexcept {
+  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* System::Net::PathList_PathListComparer::i___System__Collections__IComparer() noexcept {
+  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Net::__PathList__PathListComparer::__PathList__PathListComparer() {}
+constexpr ::System::Net::PathList_PathListComparer::PathList_PathListComparer() {}
 //  Writing Method size for method: ::System::Net::PathList._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList::*)()>(&::System::Net::PathList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x444eb00;
+  constexpr static std::size_t addrs = 0x44afe14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), ".ctor",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList::*)()>(&::System::Net::PathList::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4450804;
+  constexpr static std::size_t addrs = 0x44b1b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_Count",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList::*)()>(&::System::Net::PathList::GetCookiesCount)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x444eba0;
+  constexpr static std::size_t addrs = 0x44afeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "GetCookiesCount",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Net::PathList::*)()>(&::System::Net::PathList::get_Values)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4450670;
+  constexpr static std::size_t addrs = 0x44b1984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_Values",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::PathList::*)(::StringW)>(&::System::Net::PathList::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x444f010;
+  constexpr static std::size_t addrs = 0x44b0324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList::*)(::StringW, ::System::Object*)>(&::System::Net::PathList::set_Item)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x444f034;
+  constexpr static std::size_t addrs = 0x44b0348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::PathList::*)()>(&::System::Net::PathList::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4451e54;
+  constexpr static std::size_t addrs = 0x44b3168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "GetEnumerator",
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::PathList::*)()>(&::System::Net::PathList::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x444efec;
+  constexpr static std::size_t addrs = 0x44b0300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_SyncRoot",
@@ -182,16 +182,13 @@ constexpr ::System::Collections::SortedList*& System::Net::PathList::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& System::Net::PathList::__cordl_internal_get_m_list() const {
+constexpr ::System::Collections::SortedList* const& System::Net::PathList::__cordl_internal_get_m_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_list;
 }
 constexpr void System::Net::PathList::__cordl_internal_set_m_list(::System::Collections::SortedList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_list)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::PathList* System::Net::PathList::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::PathList*>());
 }
 inline void System::Net::PathList::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), ".ctor",
@@ -234,6 +231,9 @@ inline ::System::Object* System::Net::PathList::get_SyncRoot() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_SyncRoot",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::Net::PathList* System::Net::PathList::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::PathList*>());
 }
 // Ctor Parameters []
 constexpr ::System::Net::PathList::PathList() {}

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(LazyInitializer)
 namespace System {
 template <typename TResult> class Func_1;
@@ -18,40 +17,39 @@ class LazyInitializer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::LazyInitializer);
-// Type: System.Threading::LazyInitializer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::LazyInitializer*
+// CS Name: System.Threading.LazyInitializer
 class CORDL_TYPE LazyInitializer : public ::System::Object {
 public:
   // Declarations
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(ByRef<T> target);
+  template <typename T> static inline T EnsureInitialized(::ByRef<T> target);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(ByRef<T> target, ByRef<bool> initialized, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitialized(::ByRef<T> target, ::ByRef<bool> initialized, ::ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(ByRef<T> target, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitialized(::ByRef<T> target, ::ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitialized(ByRef<T> target, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitialized(::ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(ByRef<T> target);
+  template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ByRef<bool> initialized, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target, ::ByRef<bool> initialized, ::ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target, ::ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ::System::Func_1<T>* valueFactory);
+  template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x3deb9f0, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Object* EnsureLockInitialized(ByRef<::System::Object*> syncLock);
+  /// @brief Method EnsureLockInitialized, addr 0x3e4ba9c, size 0x78, virtual false, abstract: false, final false
+  static inline ::System::Object* EnsureLockInitialized(::ByRef<::System::Object*> syncLock);
 
 protected:
   // Ctor Parameters []

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::ExecutionTime (::BeatmapSaveDataVersion3::RotationEventData::*)()>(
     &::BeatmapSaveDataVersion3::RotationEventData::get_executionTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4acc;
+  constexpr static std::size_t addrs = 0x270643c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::RotationEventData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::RotationEventData::*)()>(
     &::BeatmapSaveDataVersion3::RotationEventData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4ad4;
+  constexpr static std::size_t addrs = 0x2706444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::RotationEventData*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::RotationEventData::*)(float_t, ::BeatmapSaveDataCommon::ExecutionTime, float_t)>(
     &::BeatmapSaveDataVersion3::RotationEventData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26d4adc;
+  constexpr static std::size_t addrs = 0x270644c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,9 +83,6 @@ inline float_t BeatmapSaveDataVersion3::RotationEventData::get_rotation() {
                                                                              "get_rotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::RotationEventData* BeatmapSaveDataVersion3::RotationEventData::New_ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::RotationEventData*>(beat, executionTime, rotation));
-}
 inline void BeatmapSaveDataVersion3::RotationEventData::_ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::RotationEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -93,6 +90,9 @@ inline void BeatmapSaveDataVersion3::RotationEventData::_ctor(float_t beat, ::Be
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::ExecutionTime>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, executionTime, rotation);
+}
+inline ::BeatmapSaveDataVersion3::RotationEventData* BeatmapSaveDataVersion3::RotationEventData::New_ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::RotationEventData*>(beat, executionTime, rotation));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::RotationEventData::RotationEventData() {}

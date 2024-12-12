@@ -12,11 +12,10 @@ struct OpenFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::OpenFlags);
-// Type: System.Security.Cryptography.X509Certificates::OpenFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::OpenFlags
+// CS Name: System.Security.Cryptography.X509Certificates.OpenFlags
 struct CORDL_TYPE OpenFlags {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr OpenFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field IncludeArchived value: static_cast<int32_t>(0x8)
+  /// @brief Field IncludeArchived value: I32(8)
   static ::System::Security::Cryptography::X509Certificates::OpenFlags const IncludeArchived;
 
-  /// @brief Field MaxAllowed value: static_cast<int32_t>(0x2)
+  /// @brief Field MaxAllowed value: I32(2)
   static ::System::Security::Cryptography::X509Certificates::OpenFlags const MaxAllowed;
 
-  /// @brief Field OpenExistingOnly value: static_cast<int32_t>(0x4)
+  /// @brief Field OpenExistingOnly value: I32(4)
   static ::System::Security::Cryptography::X509Certificates::OpenFlags const OpenExistingOnly;
 
-  /// @brief Field ReadOnly value: static_cast<int32_t>(0x0)
+  /// @brief Field ReadOnly value: I32(0)
   static ::System::Security::Cryptography::X509Certificates::OpenFlags const ReadOnly;
 
-  /// @brief Field ReadWrite value: static_cast<int32_t>(0x1)
+  /// @brief Field ReadWrite value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::OpenFlags const ReadWrite;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9294 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::OpenFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::OpenFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::OpenFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::OpenFlags, "System.Security.Cryptography.X509Certificates", "OpenFlags");

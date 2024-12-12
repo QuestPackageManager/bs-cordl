@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Start)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fd96a4;
+  constexpr static std::size_t addrs = 0x4039750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Start",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Update)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3fd9740;
+  constexpr static std::size_t addrs = 0x40397ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Update",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::TestPowerStateMode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3fd97ec;
+  constexpr static std::size_t addrs = 0x4039898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "TestPowerStateMode",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fd9890;
+  constexpr static std::size_t addrs = 0x403993c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), ".ctor",
@@ -55,15 +55,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRModeParms::__cordl_internal_get_resetButton() {
+constexpr ::GlobalNamespace::OVRInput_RawButton& GlobalNamespace::OVRModeParms::__cordl_internal_get_resetButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetButton;
 }
-constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRModeParms::__cordl_internal_get_resetButton() const {
+constexpr ::GlobalNamespace::OVRInput_RawButton const& GlobalNamespace::OVRModeParms::__cordl_internal_get_resetButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetButton;
 }
-constexpr void GlobalNamespace::OVRModeParms::__cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value) {
+constexpr void GlobalNamespace::OVRModeParms::__cordl_internal_set_resetButton(::GlobalNamespace::OVRInput_RawButton value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetButton = value;
 }
@@ -82,13 +82,13 @@ inline void GlobalNamespace::OVRModeParms::TestPowerStateMode() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRModeParms* GlobalNamespace::OVRModeParms::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRModeParms*>());
-}
 inline void GlobalNamespace::OVRModeParms::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRModeParms* GlobalNamespace::OVRModeParms::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRModeParms*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRModeParms::OVRModeParms() {}

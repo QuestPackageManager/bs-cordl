@@ -15,11 +15,10 @@ class LocalDataStoreElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreElement);
-// Type: System::LocalDataStoreElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::LocalDataStoreElement*
+// CS Name: System.LocalDataStoreElement
 class CORDL_TYPE LocalDataStoreElement : public ::System::Object {
 public:
   // Declarations
@@ -39,24 +38,24 @@ public:
 
   constexpr int64_t& __cordl_internal_get_m_cookie();
 
-  constexpr ::System::Object*& __cordl_internal_get_m_value();
+  constexpr ::System::Object* const& __cordl_internal_get_m_value() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_value() const;
+  constexpr ::System::Object*& __cordl_internal_get_m_value();
 
   constexpr void __cordl_internal_set_m_cookie(int64_t value);
 
   constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3db2b78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e12c24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x3db2bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x3e12c5c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Value, addr 0x3db2ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3e12c4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x3db2ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x3e12c54, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:
@@ -73,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStoreElement(LocalDataStoreElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2543 };
+
   /// @brief Field m_value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___m_value;
 
   /// @brief Field m_cookie, offset: 0x18, size: 0x8, def value: None
   int64_t ___m_cookie;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2543 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreElement, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::LocalDataStoreElement, ___m_value) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::LocalDataStoreElement, ___m_cookie) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreElement, 0x20>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreElement);

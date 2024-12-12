@@ -1,48 +1,47 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameplayModifiers.hpp"
-#include "GlobalNamespace/zzzz__GameplayModifiers_impl.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType::__GameplayModifiers__EnabledObstacleType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType::GameplayModifiers_EnabledObstacleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType::__GameplayModifiers__EnabledObstacleType() {}
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType GlobalNamespace::__GameplayModifiers__EnabledObstacleType::All{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType GlobalNamespace::__GameplayModifiers__EnabledObstacleType::FullHeightOnly{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType GlobalNamespace::__GameplayModifiers__EnabledObstacleType::NoObstacles{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType::GameplayModifiers_EnabledObstacleType() {}
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::All{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::FullHeightOnly{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers_EnabledObstacleType::NoObstacles{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType::__GameplayModifiers__EnergyType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType::GameplayModifiers_EnergyType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType::__GameplayModifiers__EnergyType() {}
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType GlobalNamespace::__GameplayModifiers__EnergyType::Bar{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType GlobalNamespace::__GameplayModifiers__EnergyType::Battery{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType::GameplayModifiers_EnergyType() {}
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType GlobalNamespace::GameplayModifiers_EnergyType::Bar{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType GlobalNamespace::GameplayModifiers_EnergyType::Battery{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed::__GameplayModifiers__SongSpeed(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed::GameplayModifiers_SongSpeed(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed::__GameplayModifiers__SongSpeed() {}
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed GlobalNamespace::__GameplayModifiers__SongSpeed::Normal{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed GlobalNamespace::__GameplayModifiers__SongSpeed::Faster{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed GlobalNamespace::__GameplayModifiers__SongSpeed::Slower{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed GlobalNamespace::__GameplayModifiers__SongSpeed::SuperFast{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed::GameplayModifiers_SongSpeed() {}
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed GlobalNamespace::GameplayModifiers_SongSpeed::Normal{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed GlobalNamespace::GameplayModifiers_SongSpeed::Faster{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed GlobalNamespace::GameplayModifiers_SongSpeed::Slower{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed GlobalNamespace::GameplayModifiers_SongSpeed::SuperFast{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiers.get_energyType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GameplayModifiers__EnergyType (::GlobalNamespace::GameplayModifiers::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers_EnergyType (::GlobalNamespace::GameplayModifiers::*)()>(
     &::GlobalNamespace::GameplayModifiers::get_energyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b74;
+  constexpr static std::size_t addrs = 0x271c210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_energyType",
@@ -55,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_noFailOn0Energy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b7c;
+  constexpr static std::size_t addrs = 0x271c218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -68,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_instaFail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b84;
+  constexpr static std::size_t addrs = 0x271c220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_instaFail",
@@ -81,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_failOnSaberClash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b8c;
+  constexpr static std::size_t addrs = 0x271c228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -92,10 +91,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiers.get_enabledObstacleType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType (::GlobalNamespace::GameplayModifiers::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers_EnabledObstacleType (::GlobalNamespace::GameplayModifiers::*)()>(
     &::GlobalNamespace::GameplayModifiers::get_enabledObstacleType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b94;
+  constexpr static std::size_t addrs = 0x271c230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -108,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_fastNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9b9c;
+  constexpr static std::size_t addrs = 0x271c238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_fastNotes",
@@ -121,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_strictAngles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9ba4;
+  constexpr static std::size_t addrs = 0x271c240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_strictAngles",
@@ -134,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_disappearingArrows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bac;
+  constexpr static std::size_t addrs = 0x271c248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -147,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_ghostNotes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bb4;
+  constexpr static std::size_t addrs = 0x271c250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_ghostNotes",
@@ -160,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_noBombs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bbc;
+  constexpr static std::size_t addrs = 0x271c258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_noBombs",
@@ -171,10 +170,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiers.get_songSpeed
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GameplayModifiers__SongSpeed (::GlobalNamespace::GameplayModifiers::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers_SongSpeed (::GlobalNamespace::GameplayModifiers::*)()>(
     &::GlobalNamespace::GameplayModifiers::get_songSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bc4;
+  constexpr static std::size_t addrs = 0x271c260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_songSpeed",
@@ -187,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_noArrows)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bcc;
+  constexpr static std::size_t addrs = 0x271c268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_noArrows",
@@ -200,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_proMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bd4;
+  constexpr static std::size_t addrs = 0x271c270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_proMode",
@@ -213,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_zenMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9bdc;
+  constexpr static std::size_t addrs = 0x271c278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_zenMode",
@@ -226,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_smallCubes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e9be4;
+  constexpr static std::size_t addrs = 0x271c280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_smallCubes",
@@ -239,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_songSpeedMul)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26e9bec;
+  constexpr static std::size_t addrs = 0x271c288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_songSpeedMul",
@@ -252,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_cutAngleTolerance)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26e9c10;
+  constexpr static std::size_t addrs = 0x271c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -265,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::get_notesUniformScale)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26e9c30;
+  constexpr static std::size_t addrs = 0x271c2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -278,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26e9c48;
+  constexpr static std::size_t addrs = 0x271c2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), ".ctor",
@@ -290,23 +289,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiers::*)(
-    ::GlobalNamespace::__GameplayModifiers__EnergyType, bool, bool, bool, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool, bool, bool, bool,
-    ::GlobalNamespace::__GameplayModifiers__SongSpeed, bool, bool, bool, bool, bool)>(&::GlobalNamespace::GameplayModifiers::_ctor)> {
+    ::GlobalNamespace::GameplayModifiers_EnergyType, bool, bool, bool, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType, bool, bool, bool, bool, ::GlobalNamespace::GameplayModifiers_SongSpeed,
+    bool, bool, bool, bool, bool)>(&::GlobalNamespace::GameplayModifiers::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x26e99c4;
+  constexpr static std::size_t addrs = 0x271c060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 15>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnergyType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_EnergyType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_SongSpeed>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__SongSpeed>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -314,25 +313,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (
-    ::GlobalNamespace::GameplayModifiers::*)(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>,
-                                             ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>, ::System::Nullable_1<bool>,
-                                             ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>,
-                                             ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>,
-                                             ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>)>(&::GlobalNamespace::GameplayModifiers::CopyWith)> {
+    ::GlobalNamespace::GameplayModifiers::*)(::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnergyType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>,
+                                             ::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnabledObstacleType>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>,
+                                             ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<::GlobalNamespace::GameplayModifiers_SongSpeed>, ::System::Nullable_1<bool>,
+                                             ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>, ::System::Nullable_1<bool>)>(
+    &::GlobalNamespace::GameplayModifiers::CopyWith)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x26e9c74;
+  constexpr static std::size_t addrs = 0x271c310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "CopyWith", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 15>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnergyType>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnabledObstacleType>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_SongSpeed>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get() })));
@@ -344,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)()>(&::GlobalNamespace::GameplayModifiers::IsWithoutModifiers)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26e9f7c;
+  constexpr static std::size_t addrs = 0x271c618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -358,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiers::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::GameplayModifiers::Serialize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26ea004;
+  constexpr static std::size_t addrs = 0x271c6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::GameplayModifiers::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::GameplayModifiers::LiteNetLib_Utils_INetImmutableSerializable_GameplayModifiers__CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26ea0a4;
+  constexpr static std::size_t addrs = 0x271c740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifiers::FromGameplayModifierMask)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ea22c;
+  constexpr static std::size_t addrs = 0x271c8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::GameplayModifiers::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x26ea0f8;
+  constexpr static std::size_t addrs = 0x271c794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -418,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiers::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::GameplayModifiers::AreValuesEqual)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x26ea230;
+  constexpr static std::size_t addrs = 0x271c8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,24 +426,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
-constexpr GlobalNamespace::GameplayModifiers::operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
-constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*
-GlobalNamespace::GameplayModifiers::i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__GameplayModifiers__() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(static_cast<void*>(this));
-}
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType& GlobalNamespace::GameplayModifiers::__cordl_internal_get__energyType() {
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType& GlobalNamespace::GameplayModifiers::__cordl_internal_get__energyType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyType;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__EnergyType const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__energyType() const {
+constexpr ::GlobalNamespace::GameplayModifiers_EnergyType const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__energyType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____energyType;
 }
-constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__energyType(::GlobalNamespace::__GameplayModifiers__EnergyType value) {
+constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__energyType(::GlobalNamespace::GameplayModifiers_EnergyType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____energyType = value;
 }
@@ -484,15 +474,15 @@ constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__failOnS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____failOnSaberClash = value;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& GlobalNamespace::GameplayModifiers::__cordl_internal_get__enabledObstacleType() {
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType& GlobalNamespace::GameplayModifiers::__cordl_internal_get__enabledObstacleType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledObstacleType;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__enabledObstacleType() const {
+constexpr ::GlobalNamespace::GameplayModifiers_EnabledObstacleType const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__enabledObstacleType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____enabledObstacleType;
 }
-constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__enabledObstacleType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value) {
+constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__enabledObstacleType(::GlobalNamespace::GameplayModifiers_EnabledObstacleType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enabledObstacleType = value;
 }
@@ -556,15 +546,15 @@ constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__noBombs
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noBombs = value;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed& GlobalNamespace::GameplayModifiers::__cordl_internal_get__songSpeed() {
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed& GlobalNamespace::GameplayModifiers::__cordl_internal_get__songSpeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeed;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__SongSpeed const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__songSpeed() const {
+constexpr ::GlobalNamespace::GameplayModifiers_SongSpeed const& GlobalNamespace::GameplayModifiers::__cordl_internal_get__songSpeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songSpeed;
 }
-constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__songSpeed(::GlobalNamespace::__GameplayModifiers__SongSpeed value) {
+constexpr void GlobalNamespace::GameplayModifiers::__cordl_internal_set__songSpeed(::GlobalNamespace::GameplayModifiers_SongSpeed value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____songSpeed = value;
 }
@@ -623,10 +613,10 @@ inline void GlobalNamespace::GameplayModifiers::setStaticF_noModifiers(::GlobalN
 inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiers::getStaticF_noModifiers() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::GameplayModifiers*, "noModifiers", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get>();
 }
-inline ::GlobalNamespace::__GameplayModifiers__EnergyType GlobalNamespace::GameplayModifiers::get_energyType() {
+inline ::GlobalNamespace::GameplayModifiers_EnergyType GlobalNamespace::GameplayModifiers::get_energyType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_energyType",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__GameplayModifiers__EnergyType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers_EnergyType, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::GameplayModifiers::get_noFailOn0Energy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
@@ -643,10 +633,10 @@ inline bool GlobalNamespace::GameplayModifiers::get_failOnSaberClash() {
                                                                              "get_failOnSaberClash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType GlobalNamespace::GameplayModifiers::get_enabledObstacleType() {
+inline ::GlobalNamespace::GameplayModifiers_EnabledObstacleType GlobalNamespace::GameplayModifiers::get_enabledObstacleType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(),
                                                                              "get_enabledObstacleType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers_EnabledObstacleType, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::GameplayModifiers::get_fastNotes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_fastNotes",
@@ -673,10 +663,10 @@ inline bool GlobalNamespace::GameplayModifiers::get_noBombs() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__GameplayModifiers__SongSpeed GlobalNamespace::GameplayModifiers::get_songSpeed() {
+inline ::GlobalNamespace::GameplayModifiers_SongSpeed GlobalNamespace::GameplayModifiers::get_songSpeed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_songSpeed",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__GameplayModifiers__SongSpeed, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers_SongSpeed, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::GameplayModifiers::get_noArrows() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "get_noArrows",
@@ -713,72 +703,46 @@ inline float_t GlobalNamespace::GameplayModifiers::get_notesUniformScale() {
                                                                              "get_notesUniformScale", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiers::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiers*>());
-}
 inline void GlobalNamespace::GameplayModifiers::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiers::New_ctor(::GlobalNamespace::__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail,
-                                                                                          bool failOnSaberClash, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType,
-                                                                                          bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows,
-                                                                                          ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode,
-                                                                                          bool zenMode, bool smallCubes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiers*>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes,
-                                                                                         strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes));
-}
-inline void GlobalNamespace::GameplayModifiers::_ctor(::GlobalNamespace::__GameplayModifiers__EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash,
-                                                      ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles,
-                                                      bool disappearingArrows, ::GlobalNamespace::__GameplayModifiers__SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode,
+inline void GlobalNamespace::GameplayModifiers::_ctor(::GlobalNamespace::GameplayModifiers_EnergyType energyType, bool noFailOn0Energy, bool instaFail, bool failOnSaberClash,
+                                                      ::GlobalNamespace::GameplayModifiers_EnabledObstacleType enabledObstacleType, bool noBombs, bool fastNotes, bool strictAngles,
+                                                      bool disappearingArrows, ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode, bool zenMode,
                                                       bool smallCubes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 15>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnergyType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_EnergyType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__SongSpeed>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers_SongSpeed>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes, strictAngles,
                                                           disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes);
 }
-/// @param energyType: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> (default: {})
-/// @param noFailOn0Energy: ::System::Nullable_1<bool> (default: {})
-/// @param instaFail: ::System::Nullable_1<bool> (default: {})
-/// @param failOnSaberClash: ::System::Nullable_1<bool> (default: {})
-/// @param enabledObstacleType: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> (default: {})
-/// @param noBombs: ::System::Nullable_1<bool> (default: {})
-/// @param fastNotes: ::System::Nullable_1<bool> (default: {})
-/// @param strictAngles: ::System::Nullable_1<bool> (default: {})
-/// @param disappearingArrows: ::System::Nullable_1<bool> (default: {})
-/// @param songSpeed: ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed> (default: {})
-/// @param noArrows: ::System::Nullable_1<bool> (default: {})
-/// @param ghostNotes: ::System::Nullable_1<bool> (default: {})
-/// @param proMode: ::System::Nullable_1<bool> (default: {})
-/// @param zenMode: ::System::Nullable_1<bool> (default: {})
-/// @param smallCubes: ::System::Nullable_1<bool> (default: {})
 inline ::GlobalNamespace::GameplayModifiers*
-GlobalNamespace::GameplayModifiers::CopyWith(::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy,
+GlobalNamespace::GameplayModifiers::CopyWith(::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnergyType> energyType, ::System::Nullable_1<bool> noFailOn0Energy,
                                              ::System::Nullable_1<bool> instaFail, ::System::Nullable_1<bool> failOnSaberClash,
-                                             ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs,
+                                             ::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnabledObstacleType> enabledObstacleType, ::System::Nullable_1<bool> noBombs,
                                              ::System::Nullable_1<bool> fastNotes, ::System::Nullable_1<bool> strictAngles, ::System::Nullable_1<bool> disappearingArrows,
-                                             ::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows,
-                                             ::System::Nullable_1<bool> ghostNotes, ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes) {
+                                             ::System::Nullable_1<::GlobalNamespace::GameplayModifiers_SongSpeed> songSpeed, ::System::Nullable_1<bool> noArrows, ::System::Nullable_1<bool> ghostNotes,
+                                             ::System::Nullable_1<bool> proMode, ::System::Nullable_1<bool> zenMode, ::System::Nullable_1<bool> smallCubes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "CopyWith", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 15>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnergyType>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnergyType>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_EnabledObstacleType>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__GameplayModifiers__SongSpeed>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::GameplayModifiers_SongSpeed>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<bool>>::get() })));
@@ -821,6 +785,26 @@ inline bool GlobalNamespace::GameplayModifiers::AreValuesEqual(::GlobalNamespace
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiers*>::get(), "AreValuesEqual", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiers::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiers*>());
+}
+inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::GameplayModifiers::New_ctor(::GlobalNamespace::GameplayModifiers_EnergyType energyType, bool noFailOn0Energy, bool instaFail,
+                                                                                          bool failOnSaberClash, ::GlobalNamespace::GameplayModifiers_EnabledObstacleType enabledObstacleType,
+                                                                                          bool noBombs, bool fastNotes, bool strictAngles, bool disappearingArrows,
+                                                                                          ::GlobalNamespace::GameplayModifiers_SongSpeed songSpeed, bool noArrows, bool ghostNotes, bool proMode,
+                                                                                          bool zenMode, bool smallCubes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiers*>(energyType, noFailOn0Energy, instaFail, failOnSaberClash, enabledObstacleType, noBombs, fastNotes,
+                                                                                         strictAngles, disappearingArrows, songSpeed, noArrows, ghostNotes, proMode, zenMode, smallCubes));
+}
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
+constexpr GlobalNamespace::GameplayModifiers::operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*
+GlobalNamespace::GameplayModifiers::i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__GameplayModifiers__() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::GameplayModifiers*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiers::GameplayModifiers() {}

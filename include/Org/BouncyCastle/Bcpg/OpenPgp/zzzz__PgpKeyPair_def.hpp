@@ -30,11 +30,10 @@ class PgpKeyPair;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyPair
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyPair*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpKeyPair
 class CORDL_TYPE PgpKeyPair : public ::System::Object {
 public:
   // Declarations
@@ -58,35 +57,35 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* const& __cordl_internal_get_priv() const;
+
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*& __cordl_internal_get_priv();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey*> const& __cordl_internal_get_priv() const;
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* const& __cordl_internal_get_pub() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*& __cordl_internal_get_pub();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*> const& __cordl_internal_get_pub() const;
 
   constexpr void __cordl_internal_set_priv(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* value);
 
   constexpr void __cordl_internal_set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
-  /// @brief Method .ctor, addr 0x24f7dd4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252b0c0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* keyPair, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x24f7df4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252b0e0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::System::DateTime time);
 
-  /// @brief Method .ctor, addr 0x24f8434, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252b720, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* priv);
 
-  /// @brief Method get_KeyId, addr 0x24f8460, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x252b74c, size 0x1c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_PrivateKey, addr 0x24f8484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x252b770, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* get_PrivateKey();
 
-  /// @brief Method get_PublicKey, addr 0x24f847c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x252b768, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* get_PublicKey();
 
 protected:
@@ -103,23 +102,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpKeyPair(PgpKeyPair const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1646 };
+
   /// @brief Field pub, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* ___pub;
 
   /// @brief Field priv, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPrivateKey* ___priv;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1646 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair, ___pub) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair, ___priv) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyPair);

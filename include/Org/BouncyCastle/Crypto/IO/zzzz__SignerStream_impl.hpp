@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Crypto::ISigner*, ::Org::BouncyCastle::Crypto::ISigner*)>(&::Org::BouncyCastle::Crypto::IO::SignerStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x235d9f8;
+  constexpr static std::size_t addrs = 0x2390ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::ReadSigner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235da78;
+  constexpr static std::size_t addrs = 0x2390d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::WriteSigner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235da80;
+  constexpr static std::size_t addrs = 0x2390d6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Read)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x235da88;
+  constexpr static std::size_t addrs = 0x2390d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::ReadByte)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x235db84;
+  constexpr static std::size_t addrs = 0x2390e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Write)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x235dc54;
+  constexpr static std::size_t addrs = 0x2390f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::WriteByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x235dd44;
+  constexpr static std::size_t addrs = 0x2391030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x235de0c;
+  constexpr static std::size_t addrs = 0x23910f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x235de2c;
+  constexpr static std::size_t addrs = 0x2391118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x235de4c;
+  constexpr static std::size_t addrs = 0x2391138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x235de6c;
+  constexpr static std::size_t addrs = 0x2391158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x235de8c;
+  constexpr static std::size_t addrs = 0x2391178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::set_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x235deb0;
+  constexpr static std::size_t addrs = 0x239119c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::Close)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x235ded4;
+  constexpr static std::size_t addrs = 0x23911c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)()>(&::Org::BouncyCastle::Crypto::IO::SignerStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x235df3c;
+  constexpr static std::size_t addrs = 0x2391228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::Seek)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x235df60;
+  constexpr static std::size_t addrs = 0x239124c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::SignerStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::SignerStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x235df84;
+  constexpr static std::size_t addrs = 0x2391270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +278,7 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Crypto::IO::SignerStream::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_stream() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
@@ -290,7 +290,7 @@ constexpr ::Org::BouncyCastle::Crypto::ISigner*& Org::BouncyCastle::Crypto::IO::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inSigner;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_inSigner() const {
+constexpr ::Org::BouncyCastle::Crypto::ISigner* const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_inSigner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inSigner;
 }
@@ -302,17 +302,13 @@ constexpr ::Org::BouncyCastle::Crypto::ISigner*& Org::BouncyCastle::Crypto::IO::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outSigner;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_outSigner() const {
+constexpr ::Org::BouncyCastle::Crypto::ISigner* const& Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_get_outSigner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___outSigner;
 }
 constexpr void Org::BouncyCastle::Crypto::IO::SignerStream::__cordl_internal_set_outSigner(::Org::BouncyCastle::Crypto::ISigner* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___outSigner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::IO::SignerStream* Org::BouncyCastle::Crypto::IO::SignerStream::New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner,
-                                                                                                            ::Org::BouncyCastle::Crypto::ISigner* writeSigner) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::IO::SignerStream*>(stream, readSigner, writeSigner));
 }
 inline void Org::BouncyCastle::Crypto::IO::SignerStream::_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner, ::Org::BouncyCastle::Crypto::ISigner* writeSigner) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -401,6 +397,10 @@ inline void Org::BouncyCastle::Crypto::IO::SignerStream::SetLength(int64_t lengt
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::IO::SignerStream*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, length);
+}
+inline ::Org::BouncyCastle::Crypto::IO::SignerStream* Org::BouncyCastle::Crypto::IO::SignerStream::New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::ISigner* readSigner,
+                                                                                                            ::Org::BouncyCastle::Crypto::ISigner* writeSigner) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::IO::SignerStream*>(stream, readSigner, writeSigner));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::IO::SignerStream::SignerStream() {}

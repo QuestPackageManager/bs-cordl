@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::GenerateEncryptionAlgID)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x240f47c;
+  constexpr static std::size_t addrs = 0x2442768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x240fad4;
+  constexpr static std::size_t addrs = 0x2442dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,14 +77,14 @@ Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::GenerateEncryp
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, false>(nullptr, ___internal_method, encryptionOID, keySize, random);
 }
-inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory*>());
-}
 inline void Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::AlgorithmIdentifierFactory() {}

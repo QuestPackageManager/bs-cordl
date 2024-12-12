@@ -11,7 +11,7 @@ namespace GlobalNamespace {
 class TextMeshProButton;
 }
 namespace GlobalNamespace {
-class __UIKeyboard____c__DisplayClass21_0;
+class UIKeyboard___c__DisplayClass21_0;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -27,17 +27,16 @@ namespace GlobalNamespace {
 class UIKeyboard;
 }
 namespace GlobalNamespace {
-class __UIKeyboard____c__DisplayClass21_0;
+class UIKeyboard___c__DisplayClass21_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UIKeyboard);
-MARK_REF_PTR_T(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0);
-// Type: ::<>c__DisplayClass21_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::UIKeyboard___c__DisplayClass21_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UIKeyboard::<>c__DisplayClass21_0*
-class CORDL_TYPE __UIKeyboard____c__DisplayClass21_0 : public ::System::Object {
+// CS Name: UIKeyboard/<>c__DisplayClass21_0
+class CORDL_TYPE UIKeyboard___c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -46,9 +45,9 @@ public:
   /// @brief Field key, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::StringW key;
 
-  static inline ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0* New_ctor();
+  static inline ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <Awake>b__4, addr 0x3b9b160, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__4, addr 0x3bfd2b0, size 0x50, virtual false, abstract: false, final false
   inline void _Awake_b__4();
 
   constexpr ::UnityW<::GlobalNamespace::UIKeyboard> const& __cordl_internal_get___4__this() const;
@@ -63,22 +62,25 @@ public:
 
   constexpr void __cordl_internal_set_key(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b9b0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfd21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UIKeyboard____c__DisplayClass21_0();
+  constexpr UIKeyboard___c__DisplayClass21_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass21_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UIKeyboard____c__DisplayClass21_0(__UIKeyboard____c__DisplayClass21_0&&) = delete;
+  UIKeyboard___c__DisplayClass21_0(UIKeyboard___c__DisplayClass21_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UIKeyboard____c__DisplayClass21_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard___c__DisplayClass21_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UIKeyboard____c__DisplayClass21_0(__UIKeyboard____c__DisplayClass21_0 const&) = delete;
+  UIKeyboard___c__DisplayClass21_0(UIKeyboard___c__DisplayClass21_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4768 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   ::StringW ___key;
@@ -86,28 +88,24 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::UIKeyboard> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4752 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::UIKeyboard___c__DisplayClass21_0, ___key) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0, ___key) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UIKeyboard___c__DisplayClass21_0, _____4__this) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboard___c__DisplayClass21_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::UIKeyboard
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UIKeyboard*
+// CS Name: UIKeyboard
 class CORDL_TYPE UIKeyboard : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass21_0 = ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0;
+  using __c__DisplayClass21_0 = ::GlobalNamespace::UIKeyboard___c__DisplayClass21_0;
 
   /// @brief Field _cancelButton, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton)) ::UnityW<::UnityEngine::UI::Button> _cancelButton;
@@ -140,21 +138,21 @@ public:
   /// @brief Field textKeyWasPressedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_textKeyWasPressedEvent, put = __cordl_internal_set_textKeyWasPressedEvent)) ::System::Action_1<char16_t>* textKeyWasPressedEvent;
 
-  /// @brief Method Awake, addr 0x3b9a70c, size 0x9c0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bfc85c, size 0x9c0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UIKeyboard* New_ctor();
 
-  /// @brief Method <Awake>b__21_0, addr 0x3b9b0dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_0, addr 0x3bfd22c, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_0();
 
-  /// @brief Method <Awake>b__21_1, addr 0x3b9b0f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_1, addr 0x3bfd248, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__21_1();
 
-  /// @brief Method <Awake>b__21_2, addr 0x3b9b11c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_2, addr 0x3bfd26c, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__21_2();
 
-  /// @brief Method <Awake>b__21_3, addr 0x3b9b140, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__21_3, addr 0x3bfd290, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__21_3();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
@@ -177,21 +175,21 @@ public:
 
   constexpr bool& __cordl_internal_get__okButtonInteractivity();
 
+  constexpr ::System::Action* const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_cancelButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_deleteButtonWasPressedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_deleteButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_deleteButtonWasPressedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_okButtonWasPressedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_okButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_okButtonWasPressedEvent() const;
+  constexpr ::System::Action_1<char16_t>* const& __cordl_internal_get_textKeyWasPressedEvent() const;
 
   constexpr ::System::Action_1<char16_t>*& __cordl_internal_get_textKeyWasPressedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<char16_t>*> const& __cordl_internal_get_textKeyWasPressedEvent() const;
 
   constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -211,37 +209,37 @@ public:
 
   constexpr void __cordl_internal_set_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b9b0d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfd224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x3b9a484, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x3bfc5d4, size 0x9c, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x3b9a214, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_deleteButtonWasPressedEvent, addr 0x3bfc364, size 0x9c, virtual false, abstract: false, final false
   inline void add_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x3b9a34c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x3bfc49c, size 0x9c, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_textKeyWasPressedEvent, addr 0x3b9a0b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_textKeyWasPressedEvent, addr 0x3bfc204, size 0xb0, virtual false, abstract: false, final false
   inline void add_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x3b9a520, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x3bfc670, size 0x9c, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x3b9a2b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_deleteButtonWasPressedEvent, addr 0x3bfc400, size 0x9c, virtual false, abstract: false, final false
   inline void remove_deleteButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x3b9a3e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x3bfc538, size 0x9c, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_textKeyWasPressedEvent, addr 0x3b9a164, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_textKeyWasPressedEvent, addr 0x3bfc2b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  /// @brief Method set_enableOkButtonInteractivity, addr 0x3b9a5bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method set_enableOkButtonInteractivity, addr 0x3bfc70c, size 0xa0, virtual false, abstract: false, final false
   inline void set_enableOkButtonInteractivity(bool value);
 
-  /// @brief Method set_hideCancelButton, addr 0x3b9a65c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_hideCancelButton, addr 0x3bfc7ac, size 0xb0, virtual false, abstract: false, final false
   inline void set_hideCancelButton(bool value);
 
 protected:
@@ -257,6 +255,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboard", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIKeyboard(UIKeyboard const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4769 };
 
   /// @brief Field _keyButtonPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TextMeshProButton> ____keyButtonPrefab;
@@ -285,14 +286,9 @@ public:
   /// @brief Field _hideCancelButton, offset: 0x59, size: 0x1, def value: None
   bool ____hideCancelButton;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboard, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::UIKeyboard, ____keyButtonPrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::UIKeyboard, ___textKeyWasPressedEvent) == 0x28, "Offset mismatch!");
@@ -311,8 +307,10 @@ static_assert(offsetof(::GlobalNamespace::UIKeyboard, ____okButtonInteractivity)
 
 static_assert(offsetof(::GlobalNamespace::UIKeyboard, ____hideCancelButton) == 0x59, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboard, 0x60>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UIKeyboard);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UIKeyboard*, "", "UIKeyboard");
-NEED_NO_BOX(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
+NEED_NO_BOX(::GlobalNamespace::UIKeyboard___c__DisplayClass21_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UIKeyboard___c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");

@@ -10,45 +10,44 @@ namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-struct EnvironmentColorType;
+class BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues;
 }
 namespace GlobalNamespace {
-class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
+struct EnvironmentColorType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapEventDataLightsExtensions;
 }
 namespace GlobalNamespace {
-class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
+class BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataLightsExtensions);
-MARK_REF_PTR_T(::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues);
-// Type: ::LightSwitchEventEffectDataValues
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapEventDataLightsExtensions::LightSwitchEventEffectDataValues*
-class CORDL_TYPE __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues : public ::System::Object {
+// CS Name: BeatmapEventDataLightsExtensions/LightSwitchEventEffectDataValues
+class CORDL_TYPE BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues : public ::System::Object {
 public:
   // Declarations
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues();
+  constexpr BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues(__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues&&) = delete;
+  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues(__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues const&) = delete;
+  BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17037 };
 
   /// @brief Field kFadeA offset 0xffffffff size 0x4
   static constexpr int32_t kFadeA{ static_cast<int32_t>(0x4) };
@@ -95,32 +94,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::BeatmapEventDataLightsExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapEventDataLightsExtensions*
+// CS Name: BeatmapEventDataLightsExtensions
 class CORDL_TYPE BeatmapEventDataLightsExtensions : public ::System::Object {
 public:
   // Declarations
-  using LightSwitchEventEffectDataValues = ::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
+  using LightSwitchEventEffectDataValues = ::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues;
 
-  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x2215ba8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x2240c1c, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2215c04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2240c78, size 0x38, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2215c3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2240cb0, size 0x24, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue, addr 0x2215bcc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0x2240c40, size 0x38, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LightColorTypeFromEventDataValue, addr 0x2215b70, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0x2240be4, size 0x38, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
 protected:
@@ -138,7 +136,7 @@ public:
   BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -148,5 +146,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapEventDat
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataLightsExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataLightsExtensions*, "", "BeatmapEventDataLightsExtensions");
-NEED_NO_BOX(::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues*, "", "BeatmapEventDataLightsExtensions/LightSwitchEventEffectDataValues");
+NEED_NO_BOX(::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues*, "", "BeatmapEventDataLightsExtensions/LightSwitchEventEffectDataValues");

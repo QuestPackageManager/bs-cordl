@@ -11,17 +11,16 @@ class XRDisplaySubsystemDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::XRDisplaySubsystemDescriptor);
-// Type: UnityEngine.XR::XRDisplaySubsystemDescriptor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.IntegratedSubsystemDescriptor`1<TSubsystem>
 namespace UnityEngine::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.XR::XRDisplaySubsystemDescriptor*
+// CS Name: UnityEngine.XR.XRDisplaySubsystemDescriptor
 class CORDL_TYPE XRDisplaySubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<Il2CppObject*> {
 public:
   // Declarations
   static inline ::UnityEngine::XR::XRDisplaySubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a849d4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae92e4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XRDisplaySubsystemDescriptor(XRDisplaySubsystemDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18279 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

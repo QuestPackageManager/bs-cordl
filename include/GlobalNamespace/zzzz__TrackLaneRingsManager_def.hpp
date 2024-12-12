@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TrackLaneRingsManager)
@@ -20,11 +19,10 @@ class TrackLaneRingsManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsManager);
-// Type: ::TrackLaneRingsManager
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TrackLaneRingsManager*
+// CS Name: TrackLaneRingsManager
 class CORDL_TYPE TrackLaneRingsManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -51,23 +49,23 @@ public:
 
   __declspec(property(get = get_ringPositionStep)) float_t ringPositionStep;
 
-  /// @brief Method FixedUpdate, addr 0x3b3a7d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x3b9bc3c, size 0x9c, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b3a870, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b9bcd8, size 0x9c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::TrackLaneRingsManager* New_ctor();
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x3b3a90c, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x3b9bd74, size 0x284, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method Start, addr 0x3b3a524, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9b98c, size 0x2b0, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr int32_t const& __cordl_internal_get__ringCount() const;
 
@@ -101,13 +99,13 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value);
 
-  /// @brief Method .ctor, addr 0x3b3ab90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9bff8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Rings, addr 0x3b3a51c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Rings, addr 0x3b9b984, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> get_Rings();
 
-  /// @brief Method get_ringPositionStep, addr 0x3b3a514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ringPositionStep, addr 0x3b9b97c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
 protected:
@@ -123,6 +121,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TrackLaneRingsManager(TrackLaneRingsManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4377 };
 
   /// @brief Field _trackLaneRingPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRing> ____trackLaneRingPrefab;
@@ -142,14 +143,9 @@ public:
   /// @brief Field _rings, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> ____rings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4365 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsManager, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____trackLaneRingPrefab) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____ringCount) == 0x28, "Offset mismatch!");
@@ -161,6 +157,8 @@ static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____spawnAsChil
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____container) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsManager, ____rings) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsManager, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsManager);

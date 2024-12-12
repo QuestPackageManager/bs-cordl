@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EntropyUtilities)
 namespace Org::BouncyCastle::Crypto {
@@ -16,20 +15,19 @@ class EntropyUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::EntropyUtilities);
-// Type: Org.BouncyCastle.Crypto.Prng::EntropyUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Prng::EntropyUtilities*
+// CS Name: Org.BouncyCastle.Crypto.Prng.EntropyUtilities
 class CORDL_TYPE EntropyUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateSeed, addr 0x2394b00, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x23c7dec, size 0x15c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(::Org::BouncyCastle::Crypto::IEntropySource* entropySource, int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2394c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23c7f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

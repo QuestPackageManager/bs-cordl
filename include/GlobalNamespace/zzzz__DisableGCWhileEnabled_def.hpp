@@ -11,23 +11,22 @@ class DisableGCWhileEnabled;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DisableGCWhileEnabled);
-// Type: ::DisableGCWhileEnabled
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DisableGCWhileEnabled*
+// CS Name: DisableGCWhileEnabled
 class CORDL_TYPE DisableGCWhileEnabled : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x396d474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39c295c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x396d468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39c2950, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x396d480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c2968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   DisableGCWhileEnabled(DisableGCWhileEnabled const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16374 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

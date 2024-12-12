@@ -12,11 +12,10 @@ struct DataRowVersion;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::DataRowVersion);
-// Type: System.Data::DataRowVersion
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data {
 // Is value type: true
-// CS Name: ::System.Data::DataRowVersion
+// CS Name: System.Data.DataRowVersion
 struct CORDL_TYPE DataRowVersion {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DataRowVersion(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Current value: static_cast<int32_t>(0x200)
+  /// @brief Field Current value: I32(512)
   static ::System::Data::DataRowVersion const Current;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x600)
+  /// @brief Field Default value: I32(1536)
   static ::System::Data::DataRowVersion const Default;
 
-  /// @brief Field Original value: static_cast<int32_t>(0x100)
+  /// @brief Field Original value: I32(256)
   static ::System::Data::DataRowVersion const Original;
 
-  /// @brief Field Proposed value: static_cast<int32_t>(0x400)
+  /// @brief Field Proposed value: I32(1024)
   static ::System::Data::DataRowVersion const Proposed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataRowVersion, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataRowVersion, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataRowVersion, 0x4>, "Size mismatch!");
 
 } // namespace System::Data
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRowVersion, "System.Data", "DataRowVersion");

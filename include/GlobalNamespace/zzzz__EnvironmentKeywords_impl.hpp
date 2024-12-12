@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::EnvironmentKeywords::*)()>(
     &::GlobalNamespace::EnvironmentKeywords::get_environmentKeywords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2678c48;
+  constexpr static std::size_t addrs = 0x26ad200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentKeywords*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentKeywords::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::GlobalNamespace::EnvironmentKeywords::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2678c50;
+  constexpr static std::size_t addrs = 0x26ad208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentKeywords::*)(::StringW)>(&::GlobalNamespace::EnvironmentKeywords::HasKeyword)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2678d44;
+  constexpr static std::size_t addrs = 0x26ad2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& GlobalNam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywords;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const&
-GlobalNamespace::EnvironmentKeywords::__cordl_internal_get__environmentKeywords() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& GlobalNamespace::EnvironmentKeywords::__cordl_internal_get__environmentKeywords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywords;
 }
@@ -64,7 +63,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& GlobalNamespace
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywordsSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& GlobalNamespace::EnvironmentKeywords::__cordl_internal_get__environmentKeywordsSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& GlobalNamespace::EnvironmentKeywords::__cordl_internal_get__environmentKeywordsSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentKeywordsSet;
 }
@@ -77,9 +76,6 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* GlobalNamespa
                                                                              "get_environmentKeywords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::StringW>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EnvironmentKeywords* GlobalNamespace::EnvironmentKeywords::New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentKeywords*>(environmentKeywords));
-}
 inline void GlobalNamespace::EnvironmentKeywords::_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentKeywords*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -91,6 +87,9 @@ inline bool GlobalNamespace::EnvironmentKeywords::HasKeyword(::StringW keyword) 
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentKeywords*>::get(), "HasKeyword", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, keyword);
+}
+inline ::GlobalNamespace::EnvironmentKeywords* GlobalNamespace::EnvironmentKeywords::New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentKeywords*>(environmentKeywords));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentKeywords::EnvironmentKeywords() {}

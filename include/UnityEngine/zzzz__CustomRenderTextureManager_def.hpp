@@ -17,24 +17,23 @@ class CustomRenderTextureManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CustomRenderTextureManager);
-// Type: UnityEngine::CustomRenderTextureManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::CustomRenderTextureManager*
+// CS Name: UnityEngine.CustomRenderTextureManager
 class CORDL_TYPE CustomRenderTextureManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field textureLoaded, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_textureLoaded, put = setStaticF_textureLoaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureLoaded;
+  __declspec(property(get = getStaticF_textureLoaded, put = setStaticF_textureLoaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureLoaded;
 
   /// @brief Field textureUnloaded, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
+  __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded)) ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
 
-  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x480fffc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x4871b9c, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x4810068, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x4871c08, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* getStaticF_textureLoaded();
@@ -60,7 +59,7 @@ public:
   CustomRenderTextureManager(CustomRenderTextureManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

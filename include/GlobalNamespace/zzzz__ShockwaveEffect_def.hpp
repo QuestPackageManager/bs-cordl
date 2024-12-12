@@ -22,11 +22,10 @@ class ShockwaveEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShockwaveEffect);
-// Type: ::ShockwaveEffect
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmitParams
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ShockwaveEffect*
+// CS Name: ShockwaveEffect
 class CORDL_TYPE ShockwaveEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,31 +39,31 @@ public:
   __declspec(property(get = __cordl_internal_get__shockwavePS, put = __cordl_internal_set__shockwavePS)) ::UnityW<::UnityEngine::ParticleSystem> _shockwavePS;
 
   /// @brief Field _shockwavePSEmitParams, offset 0x30, size 0x90
-  __declspec(property(get = __cordl_internal_get__shockwavePSEmitParams, put = __cordl_internal_set__shockwavePSEmitParams)) ::UnityEngine::__ParticleSystem__EmitParams _shockwavePSEmitParams;
+  __declspec(property(get = __cordl_internal_get__shockwavePSEmitParams, put = __cordl_internal_set__shockwavePSEmitParams)) ::UnityEngine::ParticleSystem_EmitParams _shockwavePSEmitParams;
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x3b22dcc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x3b840cc, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x3b22c8c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b83f8c, size 0x140, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__prevShockwaveParticleSpawnTime() const;
 
   constexpr float_t& __cordl_internal_get__prevShockwaveParticleSpawnTime();
 
-  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__shockwavePS() const;
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__shockwavePS();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
+  constexpr ::UnityEngine::ParticleSystem_EmitParams const& __cordl_internal_get__shockwavePSEmitParams() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__shockwavePSEmitParams();
+  constexpr ::UnityEngine::ParticleSystem_EmitParams& __cordl_internal_get__shockwavePSEmitParams();
 
   constexpr void __cordl_internal_set__prevShockwaveParticleSpawnTime(float_t value);
 
@@ -72,9 +71,9 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value);
 
-  /// @brief Method .ctor, addr 0x3b22ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b841a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShockwaveEffect(ShockwaveEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };
+
   /// @brief Field _shockwavePS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;
 
@@ -98,19 +100,14 @@ public:
   ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   /// @brief Field _shockwavePSEmitParams, offset: 0x30, size: 0x90, def value: None
-  ::UnityEngine::__ParticleSystem__EmitParams ____shockwavePSEmitParams;
+  ::UnityEngine::ParticleSystem_EmitParams ____shockwavePSEmitParams;
 
   /// @brief Field _prevShockwaveParticleSpawnTime, offset: 0xc0, size: 0x4, def value: None
   float_t ____prevShockwaveParticleSpawnTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4224 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShockwaveEffect, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____shockwavePS) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____settingsManager) == 0x28, "Offset mismatch!");
@@ -118,6 +115,8 @@ static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____settingsManager) 
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____shockwavePSEmitParams) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____prevShockwaveParticleSpawnTime) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShockwaveEffect, 0xc8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ShockwaveEffect);

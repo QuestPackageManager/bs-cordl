@@ -4,6 +4,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiArchiveOptions)
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -21,9 +22,6 @@ class Asn1OctetString;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
 namespace System {
 class Object;
 }
@@ -33,11 +31,10 @@ class PkiArchiveOptions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions);
-// Type: Org.BouncyCastle.Asn1.Crmf::PkiArchiveOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Crmf::PkiArchiveOptions*
+// CS Name: Org.BouncyCastle.Asn1.Crmf.PkiArchiveOptions
 class CORDL_TYPE PkiArchiveOptions : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -51,7 +48,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x22df1e4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23124d0, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(bool archiveRemGenPrivKey);
@@ -62,31 +59,31 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method ToAsn1Object, addr 0x22df644, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2312930, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_value() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_value() const;
-
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x22df504, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23127f0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool archiveRemGenPrivKey);
 
-  /// @brief Method .ctor, addr 0x22df4b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23127a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedKey* encKey);
 
-  /// @brief Method .ctor, addr 0x22df4dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23127c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* keyGenParameters);
 
-  /// @brief Method .ctor, addr 0x22df360, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x231264c, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method get_Type, addr 0x22df57c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2312868, size 0xc0, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value, addr 0x22df63c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2312928, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -106,9 +103,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkiArchiveOptions(PkiArchiveOptions const&) = delete;
 
-  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___value;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 115 };
 
@@ -121,12 +115,15 @@ public:
   /// @brief Field keyGenParameters offset 0xffffffff size 0x4
   static constexpr int32_t keyGenParameters{ static_cast<int32_t>(0x1) };
 
+  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, ___value) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions);

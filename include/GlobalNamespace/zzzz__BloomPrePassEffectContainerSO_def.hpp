@@ -14,11 +14,10 @@ class BloomPrePassEffectContainerSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectContainerSO);
-// Type: ::BloomPrePassEffectContainerSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassEffectContainerSO*
+// CS Name: BloomPrePassEffectContainerSO
 class CORDL_TYPE BloomPrePassEffectContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -27,7 +26,7 @@ public:
 
   __declspec(property(get = get_bloomPrePassEffect)) ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  /// @brief Method Init, addr 0x3982a9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39d9364, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
 
   static inline ::GlobalNamespace::BloomPrePassEffectContainerSO* New_ctor();
@@ -38,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x3982aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d936c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bloomPrePassEffect, addr 0x3982a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassEffect, addr 0x39d935c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassEffectContainerSO(BloomPrePassEffectContainerSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
+
   /// @brief Field _bloomPrePassEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____bloomPrePassEffect;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16212 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassEffectContainerSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassEffectContainerSO, ____bloomPrePassEffect) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassEffectContainerSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassEffectContainerSO);

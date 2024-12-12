@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SceneInfo> (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22674e4;
+  constexpr static std::size_t addrs = 0x2299d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)(::GlobalNamespace::SceneSetupData*)>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2267098;
+  constexpr static std::size_t addrs = 0x22998ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226725c;
+  constexpr static std::size_t addrs = 0x2299ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,14 +73,14 @@ inline void GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init(:
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SceneSetupData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sceneSetupData);
 }
-inline ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO* GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*>());
-}
 inline void GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO* GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::SingleFixedSceneScenesTransitionSetupDataSO() {}

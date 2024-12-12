@@ -12,11 +12,10 @@ class HttpListenerBasicIdentity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerBasicIdentity);
-// Type: System.Net::HttpListenerBasicIdentity
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Principal.GenericIdentity
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpListenerBasicIdentity*
+// CS Name: System.Net.HttpListenerBasicIdentity
 class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_password(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4466468, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44c777c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HttpListenerBasicIdentity(HttpListenerBasicIdentity const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9688 };
+
   /// @brief Field password, offset: 0x88, size: 0x8, def value: None
   ::StringW ___password;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9663 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerBasicIdentity, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpListenerBasicIdentity, ___password) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerBasicIdentity, 0x90>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HttpListenerBasicIdentity);

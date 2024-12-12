@@ -7,15 +7,15 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__DateTimeZoneHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__FloatParseHandling_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
-#include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -43,25 +43,25 @@ namespace Newtonsoft::Json {
 class JsonReaderException;
 }
 namespace Newtonsoft::Json {
+struct JsonReader_State;
+}
+namespace Newtonsoft::Json {
+struct JsonReader__MoveToContentFromNonContentAsync_d__14;
+}
+namespace Newtonsoft::Json {
+struct JsonReader__ReadAndMoveToContentAsync_d__12;
+}
+namespace Newtonsoft::Json {
+struct JsonReader__ReadArrayIntoByteArrayAsync_d__5;
+}
+namespace Newtonsoft::Json {
+struct JsonReader__ReaderReadAndAssertAsync_d__2;
+}
+namespace Newtonsoft::Json {
+struct JsonReader__SkipAsync_d__1;
+}
+namespace Newtonsoft::Json {
 struct JsonToken;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader__State;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader___MoveToContentFromNonContentAsync_d__14;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader___ReadAndMoveToContentAsync_d__12;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader___ReadArrayIntoByteArrayAsync_d__5;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader___ReaderReadAndAssertAsync_d__2;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader___SkipAsync_d__1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -70,16 +70,7 @@ namespace System::Globalization {
 class CultureInfo;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -100,9 +91,6 @@ namespace System {
 struct Decimal;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
@@ -113,46 +101,45 @@ class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
-struct __JsonReader__State;
+struct JsonReader_State;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace Newtonsoft::Json {
-struct __JsonReader___MoveToContentFromNonContentAsync_d__14;
+struct JsonReader__MoveToContentFromNonContentAsync_d__14;
 }
 namespace Newtonsoft::Json {
-struct __JsonReader___ReadAndMoveToContentAsync_d__12;
+struct JsonReader__ReadAndMoveToContentAsync_d__12;
 }
 namespace Newtonsoft::Json {
-struct __JsonReader___ReadArrayIntoByteArrayAsync_d__5;
+struct JsonReader__ReadArrayIntoByteArrayAsync_d__5;
 }
 namespace Newtonsoft::Json {
-struct __JsonReader___ReaderReadAndAssertAsync_d__2;
+struct JsonReader__ReaderReadAndAssertAsync_d__2;
 }
 namespace Newtonsoft::Json {
-struct __JsonReader___SkipAsync_d__1;
+struct JsonReader__SkipAsync_d__1;
 }
 // Write type traits
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader__State);
+MARK_VAL_T(::Newtonsoft::Json::JsonReader_State);
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonReader);
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14);
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12);
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5);
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2);
-MARK_VAL_T(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1);
-// Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14);
+MARK_VAL_T(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12);
+MARK_VAL_T(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5);
+MARK_VAL_T(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2);
+MARK_VAL_T(::Newtonsoft::Json::JsonReader__SkipAsync_d__1);
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::State
-struct CORDL_TYPE __JsonReader__State {
+// CS Name: Newtonsoft.Json.JsonReader/State
+struct CORDL_TYPE JsonReader_State {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____JsonReader__State_Unwrapped
-  enum struct ____JsonReader__State_Unwrapped : int32_t {
+  /// @brief Nested struct __JsonReader_State_Unwrapped
+  enum struct __JsonReader_State_Unwrapped : int32_t {
     __E_Start = static_cast<int32_t>(0x0),
     __E_Complete = static_cast<int32_t>(0x1),
     __E_Property = static_cast<int32_t>(0x2),
@@ -169,8 +156,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____JsonReader__State_Unwrapped() const noexcept {
-    return static_cast<____JsonReader__State_Unwrapped>(this->value__);
+  constexpr operator __JsonReader_State_Unwrapped() const noexcept {
+    return static_cast<__JsonReader_State_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -180,82 +167,82 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader__State();
+  constexpr JsonReader_State();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __JsonReader__State(int32_t value__) noexcept;
+  constexpr JsonReader_State(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Array value: I32(6)
+  static ::Newtonsoft::Json::JsonReader_State const Array;
 
-  /// @brief Field Array value: static_cast<int32_t>(0x6)
-  static ::Newtonsoft::Json::__JsonReader__State const Array;
+  /// @brief Field ArrayStart value: I32(5)
+  static ::Newtonsoft::Json::JsonReader_State const ArrayStart;
 
-  /// @brief Field ArrayStart value: static_cast<int32_t>(0x5)
-  static ::Newtonsoft::Json::__JsonReader__State const ArrayStart;
+  /// @brief Field Closed value: I32(7)
+  static ::Newtonsoft::Json::JsonReader_State const Closed;
 
-  /// @brief Field Closed value: static_cast<int32_t>(0x7)
-  static ::Newtonsoft::Json::__JsonReader__State const Closed;
+  /// @brief Field Complete value: I32(1)
+  static ::Newtonsoft::Json::JsonReader_State const Complete;
 
-  /// @brief Field Complete value: static_cast<int32_t>(0x1)
-  static ::Newtonsoft::Json::__JsonReader__State const Complete;
+  /// @brief Field Constructor value: I32(10)
+  static ::Newtonsoft::Json::JsonReader_State const Constructor;
 
-  /// @brief Field Constructor value: static_cast<int32_t>(0xa)
-  static ::Newtonsoft::Json::__JsonReader__State const Constructor;
+  /// @brief Field ConstructorStart value: I32(9)
+  static ::Newtonsoft::Json::JsonReader_State const ConstructorStart;
 
-  /// @brief Field ConstructorStart value: static_cast<int32_t>(0x9)
-  static ::Newtonsoft::Json::__JsonReader__State const ConstructorStart;
+  /// @brief Field Error value: I32(11)
+  static ::Newtonsoft::Json::JsonReader_State const Error;
 
-  /// @brief Field Error value: static_cast<int32_t>(0xb)
-  static ::Newtonsoft::Json::__JsonReader__State const Error;
+  /// @brief Field Finished value: I32(12)
+  static ::Newtonsoft::Json::JsonReader_State const Finished;
 
-  /// @brief Field Finished value: static_cast<int32_t>(0xc)
-  static ::Newtonsoft::Json::__JsonReader__State const Finished;
+  /// @brief Field Object value: I32(4)
+  static ::Newtonsoft::Json::JsonReader_State const Object;
 
-  /// @brief Field Object value: static_cast<int32_t>(0x4)
-  static ::Newtonsoft::Json::__JsonReader__State const Object;
+  /// @brief Field ObjectStart value: I32(3)
+  static ::Newtonsoft::Json::JsonReader_State const ObjectStart;
 
-  /// @brief Field ObjectStart value: static_cast<int32_t>(0x3)
-  static ::Newtonsoft::Json::__JsonReader__State const ObjectStart;
+  /// @brief Field PostValue value: I32(8)
+  static ::Newtonsoft::Json::JsonReader_State const PostValue;
 
-  /// @brief Field PostValue value: static_cast<int32_t>(0x8)
-  static ::Newtonsoft::Json::__JsonReader__State const PostValue;
+  /// @brief Field Property value: I32(2)
+  static ::Newtonsoft::Json::JsonReader_State const Property;
 
-  /// @brief Field Property value: static_cast<int32_t>(0x2)
-  static ::Newtonsoft::Json::__JsonReader__State const Property;
-
-  /// @brief Field Start value: static_cast<int32_t>(0x0)
-  static ::Newtonsoft::Json::__JsonReader__State const Start;
+  /// @brief Field Start value: I32(0)
+  static ::Newtonsoft::Json::JsonReader_State const Start;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10072 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader__State, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader_State, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader__State, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader_State, 0x4>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<MoveToContentFromNonContentAsync>d__14
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::<MoveToContentFromNonContentAsync>d__14
-struct CORDL_TYPE __JsonReader___MoveToContentFromNonContentAsync_d__14 {
+// CS Name: Newtonsoft.Json.JsonReader/<MoveToContentFromNonContentAsync>d__14
+struct CORDL_TYPE JsonReader__MoveToContentFromNonContentAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e208b4, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e80960, size 0x294, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e20b48, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e80bf4, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -263,15 +250,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader___MoveToContentFromNonContentAsync_d__14();
+  constexpr JsonReader__MoveToContentFromNonContentAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "",
   // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-  constexpr __JsonReader___MoveToContentFromNonContentAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
-                                                                  ::Newtonsoft::Json::JsonReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
-                                                                  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  constexpr JsonReader__MoveToContentFromNonContentAsync_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
+                                                               ::Newtonsoft::Json::JsonReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
+                                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10073 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -286,45 +279,39 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10048 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, 0x40>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<ReadAndMoveToContentAsync>d__12
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::<ReadAndMoveToContentAsync>d__12
-struct CORDL_TYPE __JsonReader___ReadAndMoveToContentAsync_d__12 {
+// CS Name: Newtonsoft.Json.JsonReader/<ReadAndMoveToContentAsync>d__12
+struct CORDL_TYPE JsonReader__ReadAndMoveToContentAsync_d__12 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e20bc4, size 0x340, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e80c70, size 0x340, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e20f04, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e80fb0, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -332,15 +319,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader___ReadAndMoveToContentAsync_d__12();
+  constexpr JsonReader__ReadAndMoveToContentAsync_d__12();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "",
   // def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-  constexpr __JsonReader___ReadAndMoveToContentAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
-                                                           ::Newtonsoft::Json::JsonReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
-                                                           ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  constexpr JsonReader__ReadAndMoveToContentAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::Newtonsoft::Json::JsonReader* __4__this,
+                                                        ::System::Threading::CancellationToken cancellationToken,
+                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10074 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -355,45 +348,39 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10049 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, 0x40>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<ReadArrayIntoByteArrayAsync>d__5
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::<ReadArrayIntoByteArrayAsync>d__5
-struct CORDL_TYPE __JsonReader___ReadArrayIntoByteArrayAsync_d__5 {
+// CS Name: Newtonsoft.Json.JsonReader/<ReadArrayIntoByteArrayAsync>d__5
+struct CORDL_TYPE JsonReader__ReadArrayIntoByteArrayAsync_d__5 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e20f80, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e8102c, size 0x38c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e2130c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e813b8, size 0x7c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -401,17 +388,23 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader___ReadArrayIntoByteArrayAsync_d__5();
+  constexpr JsonReader__ReadArrayIntoByteArrayAsync_d__5();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam
   // { name: "_buffer_5__2", ty: "::System::Collections::Generic::List_1<uint8_t>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-  constexpr __JsonReader___ReadArrayIntoByteArrayAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder,
-                                                            ::Newtonsoft::Json::JsonReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
-                                                            ::System::Collections::Generic::List_1<uint8_t>* _buffer_5__2,
-                                                            ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  constexpr JsonReader__ReadArrayIntoByteArrayAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder,
+                                                         ::Newtonsoft::Json::JsonReader* __4__this, ::System::Threading::CancellationToken cancellationToken,
+                                                         ::System::Collections::Generic::List_1<uint8_t>* _buffer_5__2,
+                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10075 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -429,47 +422,41 @@ public:
   ::System::Collections::Generic::List_1<uint8_t>* _buffer_5__2;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10050 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, 0x48>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, _buffer_5__2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, _buffer_5__2) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, 0x48>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<ReaderReadAndAssertAsync>d__2
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::<ReaderReadAndAssertAsync>d__2
-struct CORDL_TYPE __JsonReader___ReaderReadAndAssertAsync_d__2 {
+// CS Name: Newtonsoft.Json.JsonReader/<ReaderReadAndAssertAsync>d__2
+struct CORDL_TYPE JsonReader__ReaderReadAndAssertAsync_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e21388, size 0x264, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e81434, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e215ec, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e81698, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -477,68 +464,68 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader___ReaderReadAndAssertAsync_d__2();
+  constexpr JsonReader__ReaderReadAndAssertAsync_d__2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value:
   // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-  constexpr __JsonReader___ReaderReadAndAssertAsync_d__2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonReader* __4__this,
-                                                         ::System::Threading::CancellationToken cancellationToken,
-                                                         ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::Newtonsoft::Json::JsonReader* __4__this;
-
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
-
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1;
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+  constexpr JsonReader__ReaderReadAndAssertAsync_d__2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonReader* __4__this,
+                                                      ::System::Threading::CancellationToken cancellationToken,
+                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10076 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::Newtonsoft::Json::JsonReader* __4__this;
+
+  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+  ::System::Threading::CancellationToken cancellationToken;
+
+  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, 0x40>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: ::<SkipAsync>d__1
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
+// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::JsonReader::<SkipAsync>d__1
-struct CORDL_TYPE __JsonReader___SkipAsync_d__1 {
+// CS Name: Newtonsoft.Json.JsonReader/<SkipAsync>d__1
+struct CORDL_TYPE JsonReader__SkipAsync_d__1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e21654, size 0x3a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3e81700, size 0x3a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e219fc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3e81aa8, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -546,16 +533,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __JsonReader___SkipAsync_d__1();
+  constexpr JsonReader__SkipAsync_d__1();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::Newtonsoft::Json::JsonReader*", modifiers: "", def_value:
   // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "_depth_5__2", ty: "int32_t", modifiers: "",
+  // "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }, CppParam { name: "_depth_5__2", ty: "int32_t", modifiers: "",
   // def_value: None }]
-  constexpr __JsonReader___SkipAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonReader* __4__this,
-                                          ::System::Threading::CancellationToken cancellationToken,
-                                          ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1, int32_t _depth_5__2) noexcept;
+  constexpr JsonReader__SkipAsync_d__1(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Newtonsoft::Json::JsonReader* __4__this,
+                                       ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1,
+                                       int32_t _depth_5__2) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10077 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -570,60 +563,54 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__1;
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1;
 
   /// @brief Field <depth>5__2, offset: 0x40, size: 0x4, def value: None
   int32_t _depth_5__2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10052 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, 0x48>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, cancellationToken) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, cancellationToken) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, _depth_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, _depth_5__2) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader__SkipAsync_d__1, 0x48>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Type: Newtonsoft.Json::JsonReader
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 114, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.DateParseHandling, Newtonsoft.Json.DateTimeZoneHandling, Newtonsoft.Json.FloatParseHandling, Newtonsoft.Json.JsonPosition, Newtonsoft.Json.JsonReader::State,
+// Newtonsoft.Json.JsonToken, System.IDisposable, System.Nullable`1<T>, System.Object
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonReader*
+// CS Name: Newtonsoft.Json.JsonReader
 class CORDL_TYPE JsonReader : public ::System::Object {
 public:
   // Declarations
-  using State = ::Newtonsoft::Json::__JsonReader__State;
+  using State = ::Newtonsoft::Json::JsonReader_State;
 
-  using _MoveToContentFromNonContentAsync_d__14 = ::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14;
+  using _MoveToContentFromNonContentAsync_d__14 = ::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14;
 
-  using _ReadAndMoveToContentAsync_d__12 = ::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12;
+  using _ReadAndMoveToContentAsync_d__12 = ::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12;
 
-  using _ReadArrayIntoByteArrayAsync_d__5 = ::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5;
+  using _ReadArrayIntoByteArrayAsync_d__5 = ::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5;
 
-  using _ReaderReadAndAssertAsync_d__2 = ::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2;
+  using _ReaderReadAndAssertAsync_d__2 = ::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2;
 
-  using _SkipAsync_d__1 = ::Newtonsoft::Json::__JsonReader___SkipAsync_d__1;
+  using _SkipAsync_d__1 = ::Newtonsoft::Json::JsonReader__SkipAsync_d__1;
 
   __declspec(property(get = get_CloseInput, put = set_CloseInput)) bool CloseInput;
 
   __declspec(property(get = get_Culture, put = set_Culture)) ::System::Globalization::CultureInfo* Culture;
 
-  __declspec(property(get = get_CurrentState)) ::Newtonsoft::Json::__JsonReader__State CurrentState;
+  __declspec(property(get = get_CurrentState)) ::Newtonsoft::Json::JsonReader_State CurrentState;
 
   __declspec(property(get = get_DateFormatString, put = set_DateFormatString)) ::StringW DateFormatString;
 
@@ -663,7 +650,7 @@ public:
   __declspec(property(get = __cordl_internal_get__currentPosition, put = __cordl_internal_set__currentPosition)) ::Newtonsoft::Json::JsonPosition _currentPosition;
 
   /// @brief Field _currentState, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState)) ::Newtonsoft::Json::__JsonReader__State _currentState;
+  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState)) ::Newtonsoft::Json::JsonReader_State _currentState;
 
   /// @brief Field _dateFormatString, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__dateFormatString, put = __cordl_internal_set__dateFormatString)) ::StringW _dateFormatString;
@@ -698,180 +685,180 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3e204c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3e80570, size 0x14, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method CreateUnexpectedEndException, addr 0x3e20038, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedEndException, addr 0x3e800e4, size 0x4c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
 
-  /// @brief Method Dispose, addr 0x3e204a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3e8054c, size 0x24, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetContentToken, addr 0x3e1d4d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetContentToken, addr 0x3e7d580, size 0x7c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken GetContentToken();
 
-  /// @brief Method GetPosition, addr 0x3e1cbfc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetPosition, addr 0x3e7cca8, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
 
-  /// @brief Method GetTypeForCloseToken, addr 0x3e2029c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeForCloseToken, addr 0x3e80348, size 0xa8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method MoveToContent, addr 0x3e20850, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MoveToContent, addr 0x3e808fc, size 0x64, virtual false, abstract: false, final false
   inline bool MoveToContent();
 
-  /// @brief Method MoveToContentAsync, addr 0x3e1c5f8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method MoveToContentAsync, addr 0x3e7c6a4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MoveToContentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MoveToContentFromNonContentAsync, addr 0x3e1c68c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method MoveToContentFromNonContentAsync, addr 0x3e7c738, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MoveToContentFromNonContentAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::JsonReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x3e1d10c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x3e7d1b8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Peek();
 
-  /// @brief Method Pop, addr 0x3e1cfec, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x3e7d098, size 0x120, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Pop();
 
-  /// @brief Method Push, addr 0x3e1cd30, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x3e7cddc, size 0x29c, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::JsonContainerType value);
 
-  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Read, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAndAssert, addr 0x3e204d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadAndAssert, addr 0x3e80584, size 0x58, virtual false, abstract: false, final false
   inline void ReadAndAssert();
 
-  /// @brief Method ReadAndMoveToContent, addr 0x3e2081c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ReadAndMoveToContent, addr 0x3e808c8, size 0x34, virtual false, abstract: false, final false
   inline bool ReadAndMoveToContent();
 
-  /// @brief Method ReadAndMoveToContentAsync, addr 0x3e1c500, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReadAndMoveToContentAsync, addr 0x3e7c5ac, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAndMoveToContentAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadArrayElementIntoByteArrayReportDone, addr 0x3e1e314, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayElementIntoByteArrayReportDone, addr 0x3e7e3c0, size 0x210, virtual false, abstract: false, final false
   inline bool ReadArrayElementIntoByteArrayReportDone(::System::Collections::Generic::List_1<uint8_t>* buffer);
 
-  /// @brief Method ReadArrayIntoByteArray, addr 0x3e1e1c4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayIntoByteArray, addr 0x3e7e270, size 0x144, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
 
-  /// @brief Method ReadArrayIntoByteArrayAsync, addr 0x3e1be98, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ReadArrayIntoByteArrayAsync, addr 0x3e7bf44, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadArrayIntoByteArrayAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBoolean, addr 0x3e1e9fc, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3e7eaa8, size 0x340, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBooleanAsync, addr 0x3e1bcc0, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBooleanAsync, addr 0x3e7bd6c, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBytes, addr 0x3e1dbb4, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3e7dc60, size 0x3e8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsBytesAsync, addr 0x3e1bdac, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytesAsync, addr 0x3e7be58, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTime, addr 0x3e1f5bc, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3e7f668, size 0x2b0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeAsync, addr 0x3e1bf84, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeAsync, addr 0x3e7c030, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* ReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3e1fb1c, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3e7fbc8, size 0x2b0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x3e1c074, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x3e7c120, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* ReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDecimal, addr 0x3e1ef1c, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3e7efc8, size 0x414, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDecimalAsync, addr 0x3e1c178, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimalAsync, addr 0x3e7c224, size 0x124, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* ReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDouble, addr 0x3e1e524, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3e7e5d0, size 0x300, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsDoubleAsync, addr 0x3e1c29c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDoubleAsync, addr 0x3e7c348, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* ReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsInt32, addr 0x3e1d114, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3e7d1c0, size 0x3c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsInt32Async, addr 0x3e1c328, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32Async, addr 0x3e7c3d4, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsString, addr 0x3e1d90c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3e7d9b8, size 0x2a8, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsStringAsync, addr 0x3e1c414, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReadAsStringAsync, addr 0x3e7c4c0, size 0xec, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x3e1ba58, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x3e7bb04, size 0xc4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadBooleanString, addr 0x3e1ed3c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadBooleanString, addr 0x3e7ede8, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
 
-  /// @brief Method ReadDateTimeOffsetString, addr 0x3e1fdcc, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeOffsetString, addr 0x3e7fe78, size 0x26c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
 
-  /// @brief Method ReadDateTimeString, addr 0x3e1f86c, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method ReadDateTimeString, addr 0x3e7f918, size 0x2b0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
 
-  /// @brief Method ReadDecimalString, addr 0x3e1f330, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ReadDecimalString, addr 0x3e7f3dc, size 0x28c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
 
-  /// @brief Method ReadDoubleString, addr 0x3e1e824, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method ReadDoubleString, addr 0x3e7e8d0, size 0x1d8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
 
-  /// @brief Method ReadForType, addr 0x3e20580, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method ReadForType, addr 0x3e8062c, size 0x29c, virtual false, abstract: false, final false
   inline bool ReadForType(::Newtonsoft::Json::Serialization::JsonContract* contract, bool hasConverter);
 
-  /// @brief Method ReadForTypeAndAssert, addr 0x3e20530, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadForTypeAndAssert, addr 0x3e805dc, size 0x50, virtual false, abstract: false, final false
   inline void ReadForTypeAndAssert(::Newtonsoft::Json::Serialization::JsonContract* contract, bool hasConverter);
 
-  /// @brief Method ReadInt32String, addr 0x3e1d72c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadInt32String, addr 0x3e7d7d8, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
 
-  /// @brief Method ReadIntoWrappedTypeObject, addr 0x3e1df9c, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ReadIntoWrappedTypeObject, addr 0x3e7e048, size 0x1e0, virtual false, abstract: false, final false
   inline void ReadIntoWrappedTypeObject();
 
-  /// @brief Method ReaderReadAndAssert, addr 0x3e1e17c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReaderReadAndAssert, addr 0x3e7e228, size 0x48, virtual false, abstract: false, final false
   inline void ReaderReadAndAssert();
 
-  /// @brief Method ReaderReadAndAssertAsync, addr 0x3e1bbf0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReaderReadAndAssertAsync, addr 0x3e7bc9c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReaderReadAndAssertAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetFinished, addr 0x3e20274, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetFinished, addr 0x3e80320, size 0x28, virtual false, abstract: false, final false
   inline void SetFinished();
 
-  /// @brief Method SetPostValueState, addr 0x3e20238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPostValueState, addr 0x3e802e4, size 0x3c, virtual false, abstract: false, final false
   inline void SetPostValueState(bool updateIndex);
 
-  /// @brief Method SetStateBasedOnCurrent, addr 0x3e20344, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SetStateBasedOnCurrent, addr 0x3e803f0, size 0xec, virtual false, abstract: false, final false
   inline void SetStateBasedOnCurrent();
 
-  /// @brief Method SetToken, addr 0x3e1e308, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e7e3b4, size 0xc, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
 
-  /// @brief Method SetToken, addr 0x3e20134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e801e0, size 0x8, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
 
-  /// @brief Method SetToken, addr 0x3e1d5d8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x3e7d684, size 0x154, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
 
-  /// @brief Method Skip, addr 0x3e20084, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Skip, addr 0x3e80130, size 0xb0, virtual false, abstract: false, final false
   inline void Skip();
 
-  /// @brief Method SkipAsync, addr 0x3e1bb1c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SkipAsync, addr 0x3e7bbc8, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SkipAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3e20430, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3e804dc, size 0x70, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method UpdateScopeWithFinishedValue, addr 0x3e1cfcc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method UpdateScopeWithFinishedValue, addr 0x3e7d078, size 0x18, virtual false, abstract: false, final false
   inline void UpdateScopeWithFinishedValue();
 
-  /// @brief Method ValidateEnd, addr 0x3e2013c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ValidateEnd, addr 0x3e801e8, size 0xfc, virtual false, abstract: false, final false
   inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
 
   constexpr bool const& __cordl_internal_get__CloseInput_k__BackingField() const;
@@ -882,17 +869,17 @@ public:
 
   constexpr bool& __cordl_internal_get__SupportMultipleContent_k__BackingField();
 
-  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
+  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get__culture() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
   constexpr ::Newtonsoft::Json::JsonPosition const& __cordl_internal_get__currentPosition() const;
 
   constexpr ::Newtonsoft::Json::JsonPosition& __cordl_internal_get__currentPosition();
 
-  constexpr ::Newtonsoft::Json::__JsonReader__State const& __cordl_internal_get__currentState() const;
+  constexpr ::Newtonsoft::Json::JsonReader_State const& __cordl_internal_get__currentState() const;
 
-  constexpr ::Newtonsoft::Json::__JsonReader__State& __cordl_internal_get__currentState();
+  constexpr ::Newtonsoft::Json::JsonReader_State& __cordl_internal_get__currentState();
 
   constexpr ::StringW const& __cordl_internal_get__dateFormatString() const;
 
@@ -922,17 +909,17 @@ public:
 
   constexpr char16_t& __cordl_internal_get__quoteChar();
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& __cordl_internal_get__stack();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* const& __cordl_internal_get__stack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& __cordl_internal_get__stack() const;
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& __cordl_internal_get__stack();
 
   constexpr ::Newtonsoft::Json::JsonToken const& __cordl_internal_get__tokenType() const;
 
   constexpr ::Newtonsoft::Json::JsonToken& __cordl_internal_get__tokenType();
 
-  constexpr ::System::Object*& __cordl_internal_get__value();
+  constexpr ::System::Object* const& __cordl_internal_get__value() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
+  constexpr ::System::Object*& __cordl_internal_get__value();
 
   constexpr void __cordl_internal_set__CloseInput_k__BackingField(bool value);
 
@@ -942,7 +929,7 @@ public:
 
   constexpr void __cordl_internal_set__currentPosition(::Newtonsoft::Json::JsonPosition value);
 
-  constexpr void __cordl_internal_set__currentState(::Newtonsoft::Json::__JsonReader__State value);
+  constexpr void __cordl_internal_set__currentState(::Newtonsoft::Json::JsonReader_State value);
 
   constexpr void __cordl_internal_set__dateFormatString(::StringW value);
 
@@ -964,82 +951,82 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e1cca0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7cd4c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CloseInput, addr 0x3e1c78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CloseInput, addr 0x3e7c838, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseInput();
 
-  /// @brief Method get_Culture, addr 0x3e1cb8c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Culture, addr 0x3e7cc38, size 0x68, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method get_CurrentState, addr 0x3e1c784, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::__JsonReader__State get_CurrentState();
+  /// @brief Method get_CurrentState, addr 0x3e7c830, size 0x8, virtual false, abstract: false, final false
+  inline ::Newtonsoft::Json::JsonReader_State get_CurrentState();
 
-  /// @brief Method get_DateFormatString, addr 0x3e1c8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateFormatString, addr 0x3e7c9a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DateFormatString();
 
-  /// @brief Method get_DateParseHandling, addr 0x3e1c82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateParseHandling, addr 0x3e7c8d8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method get_DateTimeZoneHandling, addr 0x3e1c7c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeZoneHandling, addr 0x3e7c870, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method get_Depth, addr 0x3e1c9f4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3e7caa0, size 0x80, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_FloatParseHandling, addr 0x3e1c894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatParseHandling, addr 0x3e7c940, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method get_MaxDepth, addr 0x3e1c90c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxDepth, addr 0x3e7c9b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method get_Path, addr 0x3e1ca74, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3e7cb20, size 0x118, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3e1c7b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3e7c860, size 0x8, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_SupportMultipleContent, addr 0x3e1c7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SupportMultipleContent, addr 0x3e7c84c, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportMultipleContent();
 
-  /// @brief Method get_TokenType, addr 0x3e1c9d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3e7ca7c, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3e1c9d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3e7ca84, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3e1c9e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3e7ca8c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_CloseInput, addr 0x3e1c794, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CloseInput, addr 0x3e7c840, size 0xc, virtual false, abstract: false, final false
   inline void set_CloseInput(bool value);
 
-  /// @brief Method set_Culture, addr 0x3e1cbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Culture, addr 0x3e7cca0, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method set_DateFormatString, addr 0x3e1c904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateFormatString, addr 0x3e7c9b0, size 0x8, virtual false, abstract: false, final false
   inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method set_DateParseHandling, addr 0x3e1c834, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DateParseHandling, addr 0x3e7c8e0, size 0x60, virtual false, abstract: false, final false
   inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method set_DateTimeZoneHandling, addr 0x3e1c7cc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeZoneHandling, addr 0x3e7c878, size 0x60, virtual false, abstract: false, final false
   inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method set_FloatParseHandling, addr 0x3e1c89c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_FloatParseHandling, addr 0x3e7c948, size 0x60, virtual false, abstract: false, final false
   inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method set_MaxDepth, addr 0x3e1c914, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method set_MaxDepth, addr 0x3e7c9c0, size 0xbc, virtual false, abstract: false, final false
   inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_QuoteChar, addr 0x3e1c7bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3e7c868, size 0x8, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method set_SupportMultipleContent, addr 0x3e1c7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SupportMultipleContent, addr 0x3e7c854, size 0xc, virtual false, abstract: false, final false
   inline void set_SupportMultipleContent(bool value);
 
 protected:
@@ -1056,6 +1043,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonReader(JsonReader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10078 };
+
   /// @brief Field _tokenType, offset: 0x10, size: 0x4, def value: None
   ::Newtonsoft::Json::JsonToken ____tokenType;
 
@@ -1066,7 +1056,7 @@ public:
   char16_t ____quoteChar;
 
   /// @brief Field _currentState, offset: 0x24, size: 0x4, def value: None
-  ::Newtonsoft::Json::__JsonReader__State ____currentState;
+  ::Newtonsoft::Json::JsonReader_State ____currentState;
 
   /// @brief Field _currentPosition, offset: 0x28, size: 0x18, def value: None
   ::Newtonsoft::Json::JsonPosition ____currentPosition;
@@ -1101,14 +1091,9 @@ public:
   /// @brief Field <SupportMultipleContent>k__BackingField, offset: 0x71, size: 0x1, def value: None
   bool ____SupportMultipleContent_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10053 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonReader, ____tokenType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::JsonReader, ____value) == 0x18, "Offset mismatch!");
@@ -1139,12 +1124,14 @@ static_assert(offsetof(::Newtonsoft::Json::JsonReader, ____CloseInput_k__Backing
 
 static_assert(offsetof(::Newtonsoft::Json::JsonReader, ____SupportMultipleContent_k__BackingField) == 0x71, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonReader, 0x78>, "Size mismatch!");
+
 } // namespace Newtonsoft::Json
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader__State, "Newtonsoft.Json", "JsonReader/State");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader_State, "Newtonsoft.Json", "JsonReader/State");
 NEED_NO_BOX(::Newtonsoft::Json::JsonReader);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader*, "Newtonsoft.Json", "JsonReader");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader___MoveToContentFromNonContentAsync_d__14, "Newtonsoft.Json", "JsonReader/<MoveToContentFromNonContentAsync>d__14");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader___ReadAndMoveToContentAsync_d__12, "Newtonsoft.Json", "JsonReader/<ReadAndMoveToContentAsync>d__12");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader___ReadArrayIntoByteArrayAsync_d__5, "Newtonsoft.Json", "JsonReader/<ReadArrayIntoByteArrayAsync>d__5");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader___ReaderReadAndAssertAsync_d__2, "Newtonsoft.Json", "JsonReader/<ReaderReadAndAssertAsync>d__2");
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::__JsonReader___SkipAsync_d__1, "Newtonsoft.Json", "JsonReader/<SkipAsync>d__1");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader__MoveToContentFromNonContentAsync_d__14, "Newtonsoft.Json", "JsonReader/<MoveToContentFromNonContentAsync>d__14");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader__ReadAndMoveToContentAsync_d__12, "Newtonsoft.Json", "JsonReader/<ReadAndMoveToContentAsync>d__12");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader__ReadArrayIntoByteArrayAsync_d__5, "Newtonsoft.Json", "JsonReader/<ReadArrayIntoByteArrayAsync>d__5");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader__ReaderReadAndAssertAsync_d__2, "Newtonsoft.Json", "JsonReader/<ReaderReadAndAssertAsync>d__2");
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReader__SkipAsync_d__1, "Newtonsoft.Json", "JsonReader/<SkipAsync>d__1");

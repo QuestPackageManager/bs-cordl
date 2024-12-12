@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_AssetPreset)
@@ -23,11 +22,10 @@ class HEU_AssetPreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetPreset);
-// Type: HoudiniEngineUnity::HEU_AssetPreset
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_AssetPreset*
+// CS Name: HoudiniEngineUnity.HEU_AssetPreset
 class CORDL_TYPE HEU_AssetPreset : public ::System::Object {
 public:
   // Declarations
@@ -62,13 +60,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__assetOPName();
 
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__curveNames() const;
+
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__curveNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__curveNames() const;
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* const& __cordl_internal_get__curvePresets() const;
 
   constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __cordl_internal_get__curvePresets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get__curvePresets() const;
 
   constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__identifier() const;
 
@@ -82,13 +80,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__version();
 
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* const& __cordl_internal_get_inputPresets() const;
+
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*& __cordl_internal_get_inputPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const& __cordl_internal_get_inputPresets() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* const& __cordl_internal_get_volumeCachePresets() const;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*& __cordl_internal_get_volumeCachePresets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const& __cordl_internal_get_volumeCachePresets() const;
 
   constexpr void __cordl_internal_set__assetOPName(::StringW value);
 
@@ -106,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x39afd5c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a069cc, size 0x154, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,6 +120,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetPreset", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AssetPreset(HEU_AssetPreset const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11589 };
 
   /// @brief Field _identifier, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<char16_t, ::Array<char16_t>*> ____identifier;
@@ -147,14 +148,9 @@ public:
   /// @brief Field volumeCachePresets, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* ___volumeCachePresets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11556 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetPreset, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetPreset, ____identifier) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetPreset, ____version) == 0x18, "Offset mismatch!");
@@ -170,6 +166,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetPreset, ____curvePresets) 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetPreset, ___inputPresets) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetPreset, ___volumeCachePresets) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetPreset, 0x50>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetPreset);

@@ -12,34 +12,33 @@ class EncoderExceptionFallbackBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderExceptionFallbackBuffer);
-// Type: System.Text::EncoderExceptionFallbackBuffer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Text.EncoderFallbackBuffer
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::EncoderExceptionFallbackBuffer*
+// CS Name: System.Text.EncoderExceptionFallbackBuffer
 class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x3c17994, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c77ab0, size 0xac, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x3c17a70, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x3c77b8c, size 0x250, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3c17eb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x3c77fcc, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x3c17eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x3c77fd4, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c17920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c77a3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x3c17ec0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x3c77fdc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

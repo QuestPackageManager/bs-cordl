@@ -12,7 +12,7 @@ constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine:
   return this->___m_IsReadOnly;
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const&
 UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_get_m_IsReadOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsReadOnly;
@@ -28,7 +28,7 @@ constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& UnityEngine:
   return this->___m_IsDelayed;
 }
 template <typename TValueType, typename TValueUxmlAttributeType>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const&
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription* const&
 UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::__cordl_internal_get_m_IsDelayed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDelayed;
@@ -46,15 +46,15 @@ inline void UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUx
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
-template <typename TValueType, typename TValueUxmlAttributeType>
-inline ::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>*>());
-}
 template <typename TValueType, typename TValueUxmlAttributeType> inline void UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType, typename TValueUxmlAttributeType>
+inline ::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>*>());
 }
 // Ctor Parameters []
 template <typename TValueType, typename TValueUxmlAttributeType> constexpr ::UnityEngine::UIElements::TextValueFieldTraits_2<TValueType, TValueUxmlAttributeType>::TextValueFieldTraits_2() {}

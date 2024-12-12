@@ -16,30 +16,25 @@ class IComponentChangeService;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Design::IComponentChangeService);
-// Type: System.ComponentModel.Design::IComponentChangeService
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::ComponentModel::Design {
 // Is value type: false
-// CS Name: ::System.ComponentModel.Design::IComponentChangeService*
+// CS Name: System.ComponentModel.Design.IComponentChangeService
 class CORDL_TYPE IComponentChangeService {
 public:
   // Declarations
-  /// @brief Method OnComponentChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnComponentChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnComponentChanged(::System::Object* component, ::System::ComponentModel::MemberDescriptor* member, ::System::Object* oldValue, ::System::Object* newValue);
 
-  /// @brief Method OnComponentChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnComponentChanging, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnComponentChanging(::System::Object* component, ::System::ComponentModel::MemberDescriptor* member);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IComponentChangeService", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IComponentChangeService(IComponentChangeService&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IComponentChangeService", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IComponentChangeService(IComponentChangeService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,11 +15,10 @@ class XmlSchemaNotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaNotation);
-// Type: System.Xml.Schema::XmlSchemaNotation
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaAnnotated
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaNotation*
+// CS Name: System.Xml.Schema.XmlSchemaNotation
 class CORDL_TYPE XmlSchemaNotation : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
@@ -55,9 +54,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_qname() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qname() const;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
 
   constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
@@ -71,37 +70,37 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x425c96c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bdc80, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x425c91c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42bdc30, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x425c95c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42bdc70, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_Public, addr 0x425c92c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Public, addr 0x42bdc40, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Public();
 
-  /// @brief Method get_QualifiedName, addr 0x425c94c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42bdc60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_System, addr 0x425c93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_System, addr 0x42bdc50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_System();
 
-  /// @brief Method set_Name, addr 0x425c924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42bdc38, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x425c964, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42bdc78, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Public, addr 0x425c934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Public, addr 0x42bdc48, size 0x8, virtual false, abstract: false, final false
   inline void set_Public(::StringW value);
 
-  /// @brief Method set_QualifiedName, addr 0x425c954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QualifiedName, addr 0x42bdc68, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_System, addr 0x425c944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_System, addr 0x42bdc58, size 0x8, virtual false, abstract: false, final false
   inline void set_System(::StringW value);
 
 protected:
@@ -118,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaNotation(XmlSchemaNotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7700 };
+
   /// @brief Field name, offset: 0x50, size: 0x8, def value: None
   ::StringW ___name;
 
@@ -130,14 +132,9 @@ public:
   /// @brief Field qname, offset: 0x68, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___qname;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7675 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaNotation, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaNotation, ___name) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaNotation, ___publicId) == 0x58, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaNotation, ___publicId) ==
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaNotation, ___systemId) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaNotation, ___qname) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaNotation, 0x70>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaNotation);

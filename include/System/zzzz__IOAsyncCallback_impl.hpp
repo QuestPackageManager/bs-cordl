@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::IOAsyncCallback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43acf54;
+  constexpr static std::size_t addrs = 0x440e268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncCallback::*)(::System::IOAsyncResult*)>(&::System::IOAsyncCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43ad054;
+  constexpr static std::size_t addrs = 0x440e368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,9 +34,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::IOAsyncCallback* System::IOAsyncCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IOAsyncCallback*>(object, method));
-}
 inline void System::IOAsyncCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -48,6 +45,9 @@ inline void System::IOAsyncCallback::Invoke(::System::IOAsyncResult* ioares) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IOAsyncCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ioares);
+}
+inline ::System::IOAsyncCallback* System::IOAsyncCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IOAsyncCallback*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::IOAsyncCallback::IOAsyncCallback() {}

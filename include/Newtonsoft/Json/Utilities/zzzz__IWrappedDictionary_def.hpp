@@ -3,16 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IWrappedDictionary)
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Object;
 }
@@ -22,11 +16,10 @@ class IWrappedDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedDictionary);
-// Type: Newtonsoft.Json.Utilities::IWrappedDictionary
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::IWrappedDictionary*
+// CS Name: Newtonsoft.Json.Utilities.IWrappedDictionary
 class CORDL_TYPE IWrappedDictionary {
 public:
   // Declarations
@@ -41,7 +34,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_UnderlyingDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UnderlyingDictionary, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_UnderlyingDictionary();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -53,16 +46,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IWrappedDictionary", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IWrappedDictionary(IWrappedDictionary&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IWrappedDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IWrappedDictionary(IWrappedDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10199 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

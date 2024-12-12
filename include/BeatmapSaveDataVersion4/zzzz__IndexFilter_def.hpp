@@ -10,26 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexFilter)
-namespace BeatmapSaveDataCommon {
-struct IndexFilterLimitAlsoAffectsType;
-}
-namespace BeatmapSaveDataCommon {
-struct IndexFilterRandomType;
-}
-namespace BeatmapSaveDataCommon {
-struct IndexFilterType;
-}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 struct IndexFilter;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion4::IndexFilter);
-// Type: BeatmapSaveDataVersion4::IndexFilter
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.IndexFilterLimitAlsoAffectsType, BeatmapSaveDataCommon.IndexFilterRandomType, BeatmapSaveDataCommon.IndexFilterType
 namespace BeatmapSaveDataVersion4 {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataVersion4::IndexFilter
+// CS Name: BeatmapSaveDataVersion4.IndexFilter
 struct CORDL_TYPE IndexFilter {
 public:
   // Declarations
@@ -44,6 +34,12 @@ public:
   // }]
   constexpr IndexFilter(::BeatmapSaveDataCommon::IndexFilterType f, int32_t p, int32_t t, int32_t r, int32_t c, ::BeatmapSaveDataCommon::IndexFilterRandomType n, int32_t s, float_t l,
                         ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13376 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field f, offset: 0x0, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterType f;
@@ -72,17 +68,9 @@ public:
   /// @brief Field d, offset: 0x20, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13346 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::IndexFilter, 0x24>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, f) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, p) == 0x4, "Offset mismatch!");
@@ -100,6 +88,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, s) == 0x18, "Offs
 static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, l) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, d) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::IndexFilter, 0x24>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::IndexFilter, "BeatmapSaveDataVersion4", "IndexFilter");

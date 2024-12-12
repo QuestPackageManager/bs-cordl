@@ -16,11 +16,10 @@ class RequestCachePolicy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCachePolicy);
-// Type: System.Net.Cache::RequestCachePolicy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Cache.RequestCacheLevel, System.Object
 namespace System::Net::Cache {
 // Is value type: false
-// CS Name: ::System.Net.Cache::RequestCachePolicy*
+// CS Name: System.Net.Cache.RequestCachePolicy
 class CORDL_TYPE RequestCachePolicy : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method ToString, addr 0x438ca20, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x43edd34, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Cache::RequestCacheLevel const& __cordl_internal_get_m_Level() const;
@@ -40,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Level(::System::Net::Cache::RequestCacheLevel value);
 
-  /// @brief Method .ctor, addr 0x438c914, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43edc28, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level, addr 0x438ca18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x43edd2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCachePolicy(RequestCachePolicy const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9838 };
+
   /// @brief Field m_Level, offset: 0x10, size: 0x4, def value: None
   ::System::Net::Cache::RequestCacheLevel ___m_Level;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCachePolicy, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Cache::RequestCachePolicy, ___m_Level) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCachePolicy, 0x18>, "Size mismatch!");
 
 } // namespace System::Net::Cache
 NEED_NO_BOX(::System::Net::Cache::RequestCachePolicy);

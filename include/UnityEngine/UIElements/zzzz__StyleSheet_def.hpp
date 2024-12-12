@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -30,6 +28,9 @@ namespace UnityEngine::UIElements {
 class StyleRule;
 }
 namespace UnityEngine::UIElements {
+struct StyleSheet_ImportStruct;
+}
+namespace UnityEngine::UIElements {
 struct StyleValueFunction;
 }
 namespace UnityEngine::UIElements {
@@ -40,9 +41,6 @@ struct StyleValueKeyword;
 }
 namespace UnityEngine::UIElements {
 struct StyleValueType;
-}
-namespace UnityEngine::UIElements {
-struct __StyleSheet__ImportStruct;
 }
 namespace UnityEngine {
 struct Color;
@@ -55,26 +53,31 @@ namespace UnityEngine::UIElements {
 class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-struct __StyleSheet__ImportStruct;
+struct StyleSheet_ImportStruct;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheet);
-MARK_VAL_T(::UnityEngine::UIElements::__StyleSheet__ImportStruct);
-// Type: ::ImportStruct
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::UIElements::StyleSheet_ImportStruct);
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::StyleSheet::ImportStruct
-struct CORDL_TYPE __StyleSheet__ImportStruct {
+// CS Name: UnityEngine.UIElements.StyleSheet/ImportStruct
+struct CORDL_TYPE StyleSheet_ImportStruct {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StyleSheet__ImportStruct();
+  constexpr StyleSheet_ImportStruct();
 
   // Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "mediaQueries", ty:
   // "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
-  constexpr __StyleSheet__ImportStruct(::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet, ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries) noexcept;
+  constexpr StyleSheet_ImportStruct(::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet, ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6175 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field styleSheet, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet;
@@ -82,31 +85,24 @@ public:
   /// @brief Field mediaQueries, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StyleSheet__ImportStruct, 0x10>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet_ImportStruct, styleSheet) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, styleSheet) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StyleSheet_ImportStruct, mediaQueries) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, mediaQueries) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheet_ImportStruct, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::StyleSheet
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::StyleSheet*
+// CS Name: UnityEngine.UIElements.StyleSheet
 class CORDL_TYPE StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using ImportStruct = ::UnityEngine::UIElements::__StyleSheet__ImportStruct;
+  using ImportStruct = ::UnityEngine::UIElements::StyleSheet_ImportStruct;
 
   /// @brief Field assets, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_assets, put = __cordl_internal_set_assets)) ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> assets;
@@ -124,7 +120,7 @@ public:
                       put = __cordl_internal_set_dimensions)) ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*>
       dimensions;
 
-  __declspec(property(get = get_flattenedRecursiveImports)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* flattenedRecursiveImports;
+  __declspec(property(get = get_flattenedRecursiveImports)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* flattenedRecursiveImports;
 
   /// @brief Field floats, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_floats, put = __cordl_internal_set_floats)) ::ArrayW<float_t, ::Array<float_t>*> floats;
@@ -135,13 +131,13 @@ public:
 
   /// @brief Field imports, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_imports,
-                      put = __cordl_internal_set_imports)) ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*>
+                      put = __cordl_internal_set_imports)) ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*>
       imports;
 
   __declspec(property(get = get_isDefaultStyleSheet, put = set_isDefaultStyleSheet)) bool isDefaultStyleSheet;
 
   /// @brief Field kCustomPropertyMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kCustomPropertyMarker, put = setStaticF_kCustomPropertyMarker)) ::StringW kCustomPropertyMarker;
+  __declspec(property(get = getStaticF_kCustomPropertyMarker, put = setStaticF_kCustomPropertyMarker)) ::StringW kCustomPropertyMarker;
 
   /// @brief Field m_ComplexSelectors, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ComplexSelectors,
@@ -153,8 +149,7 @@ public:
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FlattenedImportedStyleSheets,
-                      put =
-                          __cordl_internal_set_m_FlattenedImportedStyleSheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_FlattenedImportedStyleSheets;
+                      put = __cordl_internal_set_m_FlattenedImportedStyleSheets)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ImportedWithErrors, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ImportedWithErrors, put = __cordl_internal_set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
@@ -194,88 +189,88 @@ public:
   /// @brief Method CheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T CheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method CustomStartsWith, addr 0x4a27198, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CustomStartsWith, addr 0x4a8baa8, size 0xc8, virtual false, abstract: false, final false
   static inline bool CustomStartsWith(::StringW originalString, ::StringW pattern);
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a26fd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a8b8e8, size 0x7c, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive();
 
-  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a27054, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method FlattenImportedStyleSheetsRecursive, addr 0x4a8b964, size 0x144, virtual false, abstract: false, final false
   inline void FlattenImportedStyleSheetsRecursive(::UnityEngine::UIElements::StyleSheet* sheet);
 
   static inline ::UnityEngine::UIElements::StyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4a26fd4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a8b8e4, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ReadAssetReference, addr 0x4a27820, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadAssetReference, addr 0x4a8c130, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadColor, addr 0x4a274a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x4a8bdb0, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ReadColor(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadDimension, addr 0x4a27308, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReadDimension, addr 0x4a8bc18, size 0xbc, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Dimension ReadDimension(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadEnum, addr 0x4a275c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadEnum, addr 0x4a8bed8, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadEnum(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFloat, addr 0x4a27268, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadFloat, addr 0x4a8bb78, size 0xa0, virtual false, abstract: false, final false
   inline float_t ReadFloat(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunction, addr 0x4a27948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadFunction, addr 0x4a8c258, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueFunction ReadFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadFunctionName, addr 0x4a27950, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method ReadFunctionName, addr 0x4a8c260, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW ReadFunctionName(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadKeyword, addr 0x4a27260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadKeyword, addr 0x4a8bb70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleValueKeyword ReadKeyword(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x4a27880, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadMissingAssetReferenceUrl, addr 0x4a8c190, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadResourcePath, addr 0x4a27758, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadResourcePath, addr 0x4a8c068, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadScalableImage, addr 0x4a27bcc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadScalableImage, addr 0x4a8c4dc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::ScalableImage ReadScalableImage(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadString, addr 0x4a27500, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x4a8be10, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadString(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadVariable, addr 0x4a27690, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadVariable, addr 0x4a8bfa0, size 0x60, virtual false, abstract: false, final false
   inline ::StringW ReadVariable(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method SetupReferences, addr 0x4a26904, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method SetupReferences, addr 0x4a8b214, size 0x540, virtual false, abstract: false, final false
   inline void SetupReferences();
 
   /// @brief Method TryCheckAccess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryCheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ByRef<T> value);
+  template <typename T> inline bool TryCheckAccess(::ArrayW<T, ::Array<T>*> list, ::UnityEngine::UIElements::StyleValueType type, ::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<T> value);
 
-  /// @brief Method TryReadAssetReference, addr 0x4a278e0, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Object*> value);
+  /// @brief Method TryReadAssetReference, addr 0x4a8c1f0, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::UnityEngine::Object*> value);
 
-  /// @brief Method TryReadColor, addr 0x4a1a43c, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::Color> value);
+  /// @brief Method TryReadColor, addr 0x4a7ed4c, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadColor(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method TryReadDimension, addr 0x4a273c4, size 0xdc, virtual false, abstract: false, final false
-  inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::UnityEngine::UIElements::StyleSheets::Dimension> value);
+  /// @brief Method TryReadDimension, addr 0x4a8bcd4, size 0xdc, virtual false, abstract: false, final false
+  inline bool TryReadDimension(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::UnityEngine::UIElements::StyleSheets::Dimension> value);
 
-  /// @brief Method TryReadEnum, addr 0x4a27628, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
+  /// @brief Method TryReadEnum, addr 0x4a8bf38, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadEnum(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::StringW> value);
 
-  /// @brief Method TryReadFloat, addr 0x4a1a184, size 0xc0, virtual false, abstract: false, final false
-  inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<float_t> value);
+  /// @brief Method TryReadFloat, addr 0x4a7ea94, size 0xc0, virtual false, abstract: false, final false
+  inline bool TryReadFloat(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<float_t> value);
 
-  /// @brief Method TryReadResourcePath, addr 0x4a277b8, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
+  /// @brief Method TryReadResourcePath, addr 0x4a8c0c8, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::StringW> value);
 
-  /// @brief Method TryReadString, addr 0x4a27560, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
+  /// @brief Method TryReadString, addr 0x4a8be70, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadString(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::StringW> value);
 
-  /// @brief Method TryReadVariable, addr 0x4a276f0, size 0x68, virtual false, abstract: false, final false
-  inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
+  /// @brief Method TryReadVariable, addr 0x4a8c000, size 0x68, virtual false, abstract: false, final false
+  inline bool TryReadVariable(::UnityEngine::UIElements::StyleValueHandle handle, ::ByRef<::StringW> value);
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get_assets() const;
 
@@ -293,9 +288,9 @@ public:
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_floats();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> const& __cordl_internal_get_imports() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*> const& __cordl_internal_get_imports() const;
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*>& __cordl_internal_get_imports();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*>& __cordl_internal_get_imports();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> const& __cordl_internal_get_m_ComplexSelectors() const;
 
@@ -305,10 +300,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_ContentHash();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_m_FlattenedImportedStyleSheets();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* const& __cordl_internal_get_m_FlattenedImportedStyleSheets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*> const&
-  __cordl_internal_get_m_FlattenedImportedStyleSheets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*& __cordl_internal_get_m_FlattenedImportedStyleSheets();
 
   constexpr bool const& __cordl_internal_get_m_ImportedWithErrors() const;
 
@@ -326,20 +320,17 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*>& __cordl_internal_get_m_Rules();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* const& __cordl_internal_get_orderedClassSelectors() const;
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedClassSelectors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
-  __cordl_internal_get_orderedClassSelectors() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* const& __cordl_internal_get_orderedNameSelectors() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedNameSelectors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
-  __cordl_internal_get_orderedNameSelectors() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* const& __cordl_internal_get_orderedTypeSelectors() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedTypeSelectors();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
-  __cordl_internal_get_orderedTypeSelectors() const;
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> const& __cordl_internal_get_scalableImages() const;
 
@@ -357,13 +348,13 @@ public:
 
   constexpr void __cordl_internal_set_floats(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr void __cordl_internal_set_imports(::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> value);
+  constexpr void __cordl_internal_set_imports(::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*> value);
 
   constexpr void __cordl_internal_set_m_ComplexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
   constexpr void __cordl_internal_set_m_ContentHash(int32_t value);
 
-  constexpr void __cordl_internal_set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
+  constexpr void __cordl_internal_set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* value);
 
   constexpr void __cordl_internal_set_m_ImportedWithErrors(bool value);
 
@@ -383,50 +374,50 @@ public:
 
   constexpr void __cordl_internal_set_strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x4a27c2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8c53c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_kCustomPropertyMarker();
 
-  /// @brief Method get_complexSelectors, addr 0x4a26e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_complexSelectors, addr 0x4a8b754, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> get_complexSelectors();
 
-  /// @brief Method get_contentHash, addr 0x4a26e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentHash, addr 0x4a8b76c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
 
-  /// @brief Method get_flattenedRecursiveImports, addr 0x4a26e54, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
+  /// @brief Method get_flattenedRecursiveImports, addr 0x4a8b764, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* get_flattenedRecursiveImports();
 
-  /// @brief Method get_importedWithErrors, addr 0x4a268cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithErrors, addr 0x4a8b1dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithErrors();
 
-  /// @brief Method get_importedWithWarnings, addr 0x4a268e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_importedWithWarnings, addr 0x4a8b1f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_importedWithWarnings();
 
-  /// @brief Method get_isDefaultStyleSheet, addr 0x4a26e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDefaultStyleSheet, addr 0x4a8b77c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDefaultStyleSheet();
 
-  /// @brief Method get_rules, addr 0x4a268f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rules, addr 0x4a8b204, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> get_rules();
 
   static inline void setStaticF_kCustomPropertyMarker(::StringW value);
 
-  /// @brief Method set_complexSelectors, addr 0x4a26e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_complexSelectors, addr 0x4a8b75c, size 0x8, virtual false, abstract: false, final false
   inline void set_complexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
-  /// @brief Method set_contentHash, addr 0x4a26e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_contentHash, addr 0x4a8b774, size 0x8, virtual false, abstract: false, final false
   inline void set_contentHash(int32_t value);
 
-  /// @brief Method set_importedWithErrors, addr 0x4a268d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithErrors, addr 0x4a8b1e4, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithErrors(bool value);
 
-  /// @brief Method set_importedWithWarnings, addr 0x4a268e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_importedWithWarnings, addr 0x4a8b1f8, size 0xc, virtual false, abstract: false, final false
   inline void set_importedWithWarnings(bool value);
 
-  /// @brief Method set_isDefaultStyleSheet, addr 0x4a26e74, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method set_isDefaultStyleSheet, addr 0x4a8b784, size 0x160, virtual false, abstract: false, final false
   inline void set_isDefaultStyleSheet(bool value);
 
-  /// @brief Method set_rules, addr 0x4a268fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rules, addr 0x4a8b20c, size 0x8, virtual false, abstract: false, final false
   inline void set_rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
 
 protected:
@@ -442,6 +433,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheet", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StyleSheet(StyleSheet const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
 
   /// @brief Field m_ImportedWithErrors, offset: 0x18, size: 0x1, def value: None
   bool ___m_ImportedWithErrors;
@@ -471,10 +465,10 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> ___assets;
 
   /// @brief Field imports, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> ___imports;
+  ::ArrayW<::UnityEngine::UIElements::StyleSheet_ImportStruct, ::Array<::UnityEngine::UIElements::StyleSheet_ImportStruct>*> ___imports;
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_FlattenedImportedStyleSheets;
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* ___m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ContentHash, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_ContentHash;
@@ -494,14 +488,9 @@ public:
   /// @brief Field m_IsDefaultStyleSheet, offset: 0x90, size: 0x1, def value: None
   bool ___m_IsDefaultStyleSheet;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheet, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ImportedWithErrors) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_ImportedWithWarnings) == 0x19, "Offset mismatch!");
@@ -536,7 +525,9 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___orderedClassSel
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheet, ___m_IsDefaultStyleSheet) == 0x90, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheet, 0x98>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheet);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheet*, "UnityEngine.UIElements", "StyleSheet");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__StyleSheet__ImportStruct, "UnityEngine.UIElements", "StyleSheet/ImportStruct");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheet_ImportStruct, "UnityEngine.UIElements", "StyleSheet/ImportStruct");

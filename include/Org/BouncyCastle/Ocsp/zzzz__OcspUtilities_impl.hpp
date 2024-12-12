@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Ocsp::OcspUtilities::GetAlgorithmOid)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x24ec258;
+  constexpr static std::size_t addrs = 0x251f544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Ocsp::OcspUtilities::GetAlgorithmName)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x24e6ac0;
+  constexpr static std::size_t addrs = 0x2519dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Ocsp::OcspUtilities::GetSigAlgID)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x24e8f84;
+  constexpr static std::size_t addrs = 0x251c270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Ocsp::OcspUtilities::get_AlgNames)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x24e9274;
+  constexpr static std::size_t addrs = 0x251c560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspUtilities*>::get(), "get_AlgNames",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::OcspUtilities::*)()>(&::Org::BouncyCastle::Ocsp::OcspUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ef220;
+  constexpr static std::size_t addrs = 0x252250c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspUtilities*>::get(), ".ctor",
@@ -124,13 +124,13 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Ocsp::OcspUtilitie
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(nullptr, ___internal_method);
 }
-inline ::Org::BouncyCastle::Ocsp::OcspUtilities* Org::BouncyCastle::Ocsp::OcspUtilities::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::OcspUtilities*>());
-}
 inline void Org::BouncyCastle::Ocsp::OcspUtilities::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::OcspUtilities*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Ocsp::OcspUtilities* Org::BouncyCastle::Ocsp::OcspUtilities::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::OcspUtilities*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::OcspUtilities::OcspUtilities() {}

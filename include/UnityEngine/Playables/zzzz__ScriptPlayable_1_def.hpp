@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -11,16 +13,10 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
 class IPlayableBehaviour;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -40,18 +36,17 @@ template <typename T> struct ScriptPlayable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Playables::ScriptPlayable_1);
-// Type: UnityEngine.Playables::ScriptPlayable`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
+// CS Name: UnityEngine.Playables.ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations
   /// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable)) ::UnityEngine::Playables::ScriptPlayable_1<T> m_NullPlayable;
+  __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable)) ::UnityEngine::Playables::ScriptPlayable_1<T> m_NullPlayable;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Playables::ScriptPlayable_1<T>>*();
@@ -118,14 +113,14 @@ public:
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
   constexpr ScriptPlayable_1(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableHandle m_Handle;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11285 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
+  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+  ::UnityEngine::Playables::PlayableHandle m_Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

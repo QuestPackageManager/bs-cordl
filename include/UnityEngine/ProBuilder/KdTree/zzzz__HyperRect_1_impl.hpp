@@ -45,8 +45,8 @@ template <typename T> inline ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> U
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "maxPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "",
-// def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "",
+// def_value: Some("{}") }]
 template <typename T> constexpr ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T>::HyperRect_1(::ArrayW<T, ::Array<T>*> minPoint, ::ArrayW<T, ::Array<T>*> maxPoint) noexcept {
   this->minPoint = minPoint;
   this->maxPoint = maxPoint;

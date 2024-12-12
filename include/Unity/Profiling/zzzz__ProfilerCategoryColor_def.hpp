@@ -12,11 +12,10 @@ struct ProfilerCategoryColor;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerCategoryColor);
-// Type: Unity.Profiling::ProfilerCategoryColor
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Profiling {
 // Is value type: true
-// CS Name: ::Unity.Profiling::ProfilerCategoryColor
+// CS Name: Unity.Profiling.ProfilerCategoryColor
 struct CORDL_TYPE ProfilerCategoryColor {
 public:
   // Declarations
@@ -60,72 +59,72 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr ProfilerCategoryColor(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field Animation value: static_cast<uint16_t>(0x5u)
+  /// @brief Field Animation value: U16(5)
   static ::Unity::Profiling::ProfilerCategoryColor const Animation;
 
-  /// @brief Field Audio value: static_cast<uint16_t>(0x6u)
+  /// @brief Field Audio value: U16(6)
   static ::Unity::Profiling::ProfilerCategoryColor const Audio;
 
-  /// @brief Field AudioJob value: static_cast<uint16_t>(0x7u)
+  /// @brief Field AudioJob value: U16(7)
   static ::Unity::Profiling::ProfilerCategoryColor const AudioJob;
 
-  /// @brief Field AudioUpdateJob value: static_cast<uint16_t>(0x8u)
+  /// @brief Field AudioUpdateJob value: U16(8)
   static ::Unity::Profiling::ProfilerCategoryColor const AudioUpdateJob;
 
-  /// @brief Field Build value: static_cast<uint16_t>(0xfu)
+  /// @brief Field Build value: U16(15)
   static ::Unity::Profiling::ProfilerCategoryColor const Build;
 
-  /// @brief Field BurstJobs value: static_cast<uint16_t>(0x2u)
+  /// @brief Field BurstJobs value: U16(2)
   static ::Unity::Profiling::ProfilerCategoryColor const BurstJobs;
 
-  /// @brief Field GC value: static_cast<uint16_t>(0xau)
+  /// @brief Field GC value: U16(10)
   static ::Unity::Profiling::ProfilerCategoryColor const GC;
 
-  /// @brief Field Input value: static_cast<uint16_t>(0x10u)
+  /// @brief Field Input value: U16(16)
   static ::Unity::Profiling::ProfilerCategoryColor const Input;
 
-  /// @brief Field Internal value: static_cast<uint16_t>(0xdu)
+  /// @brief Field Internal value: U16(13)
   static ::Unity::Profiling::ProfilerCategoryColor const Internal;
 
-  /// @brief Field Lighting value: static_cast<uint16_t>(0x9u)
+  /// @brief Field Lighting value: U16(9)
   static ::Unity::Profiling::ProfilerCategoryColor const Lighting;
 
-  /// @brief Field Memory value: static_cast<uint16_t>(0xcu)
+  /// @brief Field Memory value: U16(12)
   static ::Unity::Profiling::ProfilerCategoryColor const Memory;
 
-  /// @brief Field Other value: static_cast<uint16_t>(0x3u)
+  /// @brief Field Other value: U16(3)
   static ::Unity::Profiling::ProfilerCategoryColor const Other;
 
-  /// @brief Field Physics value: static_cast<uint16_t>(0x4u)
+  /// @brief Field Physics value: U16(4)
   static ::Unity::Profiling::ProfilerCategoryColor const Physics;
 
-  /// @brief Field Render value: static_cast<uint16_t>(0x0u)
+  /// @brief Field Render value: U16(0)
   static ::Unity::Profiling::ProfilerCategoryColor const Render;
 
-  /// @brief Field Scripts value: static_cast<uint16_t>(0x1u)
+  /// @brief Field Scripts value: U16(1)
   static ::Unity::Profiling::ProfilerCategoryColor const Scripts;
 
-  /// @brief Field UI value: static_cast<uint16_t>(0xeu)
+  /// @brief Field UI value: U16(14)
   static ::Unity::Profiling::ProfilerCategoryColor const UI;
 
-  /// @brief Field VSync value: static_cast<uint16_t>(0xbu)
+  /// @brief Field VSync value: U16(11)
   static ::Unity::Profiling::ProfilerCategoryColor const VSync;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Profiling::ProfilerCategoryColor, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Profiling::ProfilerCategoryColor, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Profiling::ProfilerCategoryColor, 0x2>, "Size mismatch!");
 
 } // namespace Unity::Profiling
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::ProfilerCategoryColor, "Unity.Profiling", "ProfilerCategoryColor");

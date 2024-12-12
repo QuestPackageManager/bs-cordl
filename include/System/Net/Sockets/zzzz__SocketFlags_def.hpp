@@ -12,11 +12,10 @@ struct SocketFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::Sockets::SocketFlags);
-// Type: System.Net.Sockets::SocketFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net::Sockets {
 // Is value type: true
-// CS Name: ::System.Net.Sockets::SocketFlags
+// CS Name: System.Net.Sockets.SocketFlags
 struct CORDL_TYPE SocketFlags {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SocketFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Broadcast value: static_cast<int32_t>(0x400)
+  /// @brief Field Broadcast value: I32(1024)
   static ::System::Net::Sockets::SocketFlags const Broadcast;
 
-  /// @brief Field ControlDataTruncated value: static_cast<int32_t>(0x200)
+  /// @brief Field ControlDataTruncated value: I32(512)
   static ::System::Net::Sockets::SocketFlags const ControlDataTruncated;
 
-  /// @brief Field DontRoute value: static_cast<int32_t>(0x4)
+  /// @brief Field DontRoute value: I32(4)
   static ::System::Net::Sockets::SocketFlags const DontRoute;
 
-  /// @brief Field MaxIOVectorLength value: static_cast<int32_t>(0x10)
+  /// @brief Field MaxIOVectorLength value: I32(16)
   static ::System::Net::Sockets::SocketFlags const MaxIOVectorLength;
 
-  /// @brief Field Multicast value: static_cast<int32_t>(0x800)
+  /// @brief Field Multicast value: I32(2048)
   static ::System::Net::Sockets::SocketFlags const Multicast;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Net::Sockets::SocketFlags const None;
 
-  /// @brief Field OutOfBand value: static_cast<int32_t>(0x1)
+  /// @brief Field OutOfBand value: I32(1)
   static ::System::Net::Sockets::SocketFlags const OutOfBand;
 
-  /// @brief Field Partial value: static_cast<int32_t>(0x8000)
+  /// @brief Field Partial value: I32(32768)
   static ::System::Net::Sockets::SocketFlags const Partial;
 
-  /// @brief Field Peek value: static_cast<int32_t>(0x2)
+  /// @brief Field Peek value: I32(2)
   static ::System::Net::Sockets::SocketFlags const Peek;
 
-  /// @brief Field Truncated value: static_cast<int32_t>(0x100)
+  /// @brief Field Truncated value: I32(256)
   static ::System::Net::Sockets::SocketFlags const Truncated;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9839 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9864 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::SocketFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::SocketFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::SocketFlags, "System.Net.Sockets", "SocketFlags");

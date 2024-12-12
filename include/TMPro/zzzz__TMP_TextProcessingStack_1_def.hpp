@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextProcessingStack_1)
@@ -13,13 +12,12 @@ template <typename T> struct TMP_TextProcessingStack_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::TMPro::TMP_TextProcessingStack_1);
-// Type: TMPro::TMP_TextProcessingStack`1
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::TMPro::TMP_TextProcessingStack`1<T>
+// CS Name: TMPro.TMP_TextProcessingStack`1<T>
 struct CORDL_TYPE TMP_TextProcessingStack_1 {
 public:
   // Declarations
@@ -89,6 +87,15 @@ public:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TMP_TextProcessingStack_1(::ArrayW<T, ::Array<T>*> itemStack, int32_t index, T m_DefaultItem, int32_t m_Capacity, int32_t m_RolloverSize, int32_t m_Count) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14570 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
+  /// @brief Field k_DefaultCapacity offset 0xffffffff size 0x4
+  static constexpr int32_t k_DefaultCapacity{ static_cast<int32_t>(0x4) };
+
   /// @brief Field itemStack, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> itemStack;
 
@@ -106,15 +113,6 @@ public:
 
   /// @brief Field m_Count, offset: 0x20, size: 0x4, def value: None
   int32_t m_Count;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14536 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
-  /// @brief Field k_DefaultCapacity offset 0xffffffff size 0x4
-  static constexpr int32_t k_DefaultCapacity{ static_cast<int32_t>(0x4) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

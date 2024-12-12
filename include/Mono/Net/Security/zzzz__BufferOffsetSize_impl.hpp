@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::get_EndOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40ad964;
+  constexpr static std::size_t addrs = 0x410ec78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::BufferOffsetSize*>::get(), "get_EndOffset",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::get_Remaining)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40ad970;
+  constexpr static std::size_t addrs = 0x410ec84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::BufferOffsetSize*>::get(), "get_Remaining",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Net::Security::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x40ad998;
+  constexpr static std::size_t addrs = 0x410ecac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::BufferOffsetSize::*)()>(&::Mono::Net::Security::BufferOffsetSize::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40ada90;
+  constexpr static std::size_t addrs = 0x410eda4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,9 +128,6 @@ inline int32_t Mono::Net::Security::BufferOffsetSize::get_Remaining() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::Mono::Net::Security::BufferOffsetSize* Mono::Net::Security::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::BufferOffsetSize*>(buffer, offset, size));
-}
 inline void Mono::Net::Security::BufferOffsetSize::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::BufferOffsetSize*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -142,6 +139,9 @@ inline ::StringW Mono::Net::Security::BufferOffsetSize::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::BufferOffsetSize*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Mono::Net::Security::BufferOffsetSize* Mono::Net::Security::BufferOffsetSize::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Net::Security::BufferOffsetSize*>(buffer, offset, size));
 }
 // Ctor Parameters []
 constexpr ::Mono::Net::Security::BufferOffsetSize::BufferOffsetSize() {}

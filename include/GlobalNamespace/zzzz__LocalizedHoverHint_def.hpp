@@ -18,23 +18,22 @@ class LocalizedHoverHint;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LocalizedHoverHint);
-// Type: ::LocalizedHoverHint
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.Polyglot.LocalizedTextComponent`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LocalizedHoverHint*
-class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::HMUI::HoverHint>> {
+// CS Name: LocalizedHoverHint
+class CORDL_TYPE LocalizedHoverHint : public ::BGLib::Polyglot::LocalizedTextComponent_1<::HMUI::HoverHint*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LocalizedHoverHint* New_ctor();
 
-  /// @brief Method SetText, addr 0x3ba35e8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x3c05f74, size 0x18, virtual true, abstract: false, final false
   inline void SetText(::HMUI::HoverHint* hoverHint, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0x3ba3600, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x3c05f8c, size 0x4, virtual true, abstract: false, final false
   inline void UpdateAlignment(::HMUI::HoverHint* hoverHint, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0x3ba3604, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c05f90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +51,7 @@ public:
   LocalizedHoverHint(LocalizedHoverHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

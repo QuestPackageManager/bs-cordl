@@ -4,196 +4,198 @@
 #include "System/IO/zzzz__TextReader_SyncTextReader_def.hpp"
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader._ctor
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextReader__SyncTextReader::*)(::System::IO::TextReader*)>(
-    &::System::IO::__TextReader__SyncTextReader::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(::System::IO::TextReader*)>(
+    &::GlobalNamespace::TextReader_SyncTextReader::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ce2f5c;
+  constexpr static std::size_t addrs = 0x3d430d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextReader*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.Close
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.Close
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextReader__SyncTextReader::*)()>(&::System::IO::__TextReader__SyncTextReader::Close)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce309c;
+  constexpr static std::size_t addrs = 0x3d43210;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 7));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 7));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.Dispose
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextReader__SyncTextReader::*)(bool)>(&::System::IO::__TextReader__SyncTextReader::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextReader_SyncTextReader::*)(bool)>(
+    &::GlobalNamespace::TextReader_SyncTextReader::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3ce30bc;
+  constexpr static std::size_t addrs = 0x3d43230;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 8));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.Peek
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.Peek
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__TextReader__SyncTextReader::*)()>(&::System::IO::__TextReader__SyncTextReader::Peek)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Peek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce3170;
+  constexpr static std::size_t addrs = 0x3d432e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 9));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 9));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.Read
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.Read
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__TextReader__SyncTextReader::*)()>(&::System::IO::__TextReader__SyncTextReader::Read)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)()>(&::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce3190;
+  constexpr static std::size_t addrs = 0x3d43304;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 10));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 10));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.Read
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.Read
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__TextReader__SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
-    &::System::IO::__TextReader__SyncTextReader::Read)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::GlobalNamespace::TextReader_SyncTextReader::Read)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce31b0;
+  constexpr static std::size_t addrs = 0x3d43324;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 11));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 11));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.ReadLine
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.ReadLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__TextReader__SyncTextReader::*)()>(&::System::IO::__TextReader__SyncTextReader::ReadLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(
+    &::GlobalNamespace::TextReader_SyncTextReader::ReadLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce31d0;
+  constexpr static std::size_t addrs = 0x3d43344;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 14));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.ReadToEnd
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.ReadToEnd
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__TextReader__SyncTextReader::*)()>(
-    &::System::IO::__TextReader__SyncTextReader::ReadToEnd)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextReader_SyncTextReader::*)()>(
+    &::GlobalNamespace::TextReader_SyncTextReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce31f4;
+  constexpr static std::size_t addrs = 0x3d43368;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 13));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextReader__SyncTextReader.ReadAsync
+//  Writing Method size for method: ::GlobalNamespace::TextReader_SyncTextReader.ReadAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
-    ::System::IO::__TextReader__SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::__TextReader__SyncTextReader::ReadAsync)> {
+    ::GlobalNamespace::TextReader_SyncTextReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::GlobalNamespace::TextReader_SyncTextReader::ReadAsync)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3ce3218;
+  constexpr static std::size_t addrs = 0x3d4338c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 15));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 15));
     return ___internal_method;
   }
 };
-constexpr ::System::IO::TextReader*& System::IO::__TextReader__SyncTextReader::__cordl_internal_get__in() {
+constexpr ::System::IO::TextReader*& GlobalNamespace::TextReader_SyncTextReader::__cordl_internal_get__in() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& System::IO::__TextReader__SyncTextReader::__cordl_internal_get__in() const {
+constexpr ::System::IO::TextReader* const& GlobalNamespace::TextReader_SyncTextReader::__cordl_internal_get__in() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
-constexpr void System::IO::__TextReader__SyncTextReader::__cordl_internal_set__in(::System::IO::TextReader* value) {
+constexpr void GlobalNamespace::TextReader_SyncTextReader::__cordl_internal_set__in(::System::IO::TextReader* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____in)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::IO::__TextReader__SyncTextReader* System::IO::__TextReader__SyncTextReader::New_ctor(::System::IO::TextReader* t) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::__TextReader__SyncTextReader*>(t));
-}
-inline void System::IO::__TextReader__SyncTextReader::_ctor(::System::IO::TextReader* t) {
+inline void GlobalNamespace::TextReader_SyncTextReader::_ctor(::System::IO::TextReader* t) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextReader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
-inline void System::IO::__TextReader__SyncTextReader::Close() {
+inline void GlobalNamespace::TextReader_SyncTextReader::Close() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 7)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__TextReader__SyncTextReader::Dispose(bool disposing) {
+inline void GlobalNamespace::TextReader_SyncTextReader::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 8)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline int32_t System::IO::__TextReader__SyncTextReader::Peek() {
+inline int32_t GlobalNamespace::TextReader_SyncTextReader::Peek() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 9)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t System::IO::__TextReader__SyncTextReader::Read() {
+inline int32_t GlobalNamespace::TextReader_SyncTextReader::Read() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t System::IO::__TextReader__SyncTextReader::Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
+inline int32_t GlobalNamespace::TextReader_SyncTextReader::Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buffer, index, count);
 }
-inline ::StringW System::IO::__TextReader__SyncTextReader::ReadLine() {
+inline ::StringW GlobalNamespace::TextReader_SyncTextReader::ReadLine() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::IO::__TextReader__SyncTextReader::ReadToEnd() {
+inline ::StringW GlobalNamespace::TextReader_SyncTextReader::ReadToEnd() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<int32_t>* System::IO::__TextReader__SyncTextReader::ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
+inline ::System::Threading::Tasks::Task_1<int32_t>* GlobalNamespace::TextReader_SyncTextReader::ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextReader__SyncTextReader*>::get(), 15)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextReader_SyncTextReader*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*, false>(this, ___internal_method, buffer, index, count);
 }
+inline ::GlobalNamespace::TextReader_SyncTextReader* GlobalNamespace::TextReader_SyncTextReader::New_ctor(::System::IO::TextReader* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextReader_SyncTextReader*>(t));
+}
 // Ctor Parameters []
-constexpr ::System::IO::__TextReader__SyncTextReader::__TextReader__SyncTextReader() {}
+constexpr ::GlobalNamespace::TextReader_SyncTextReader::TextReader_SyncTextReader() {}

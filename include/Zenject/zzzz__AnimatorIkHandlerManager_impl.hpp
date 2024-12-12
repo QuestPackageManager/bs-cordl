@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::AnimatorIkHandlerManager::*)(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*)>(&::Zenject::AnimatorIkHandlerManager::Construct)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4add00c;
+  constexpr static std::size_t addrs = 0x4b4191c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AnimatorIkHandlerManager::*)()>(&::Zenject::AnimatorIkHandlerManager::OnAnimatorIk)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4add014;
+  constexpr static std::size_t addrs = 0x4b41924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorIkHandlerManager*>::get(), "OnAnimatorIk",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AnimatorIkHandlerManager::*)()>(&::Zenject::AnimatorIkHandlerManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4add1c4;
+  constexpr static std::size_t addrs = 0x4b41ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorIkHandlerManager*>::get(), ".ctor",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::AnimatorIkHandlerManager::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4add1cc;
+  constexpr static std::size_t addrs = 0x4b41adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::AnimatorIkHandlerManager::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x4add2a8;
+  constexpr static std::size_t addrs = 0x4b41bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorIkHandlerManager*>::get(),
@@ -80,8 +80,7 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*> const&
-Zenject::AnimatorIkHandlerManager::__cordl_internal_get__handlers() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* const& Zenject::AnimatorIkHandlerManager::__cordl_internal_get__handlers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____handlers;
 }
@@ -100,9 +99,6 @@ inline void Zenject::AnimatorIkHandlerManager::OnAnimatorIk() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Zenject::AnimatorIkHandlerManager* Zenject::AnimatorIkHandlerManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AnimatorIkHandlerManager*>());
-}
 inline void Zenject::AnimatorIkHandlerManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorIkHandlerManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -119,6 +115,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::AnimatorIkHandlerManager::__zenCreate
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorIkHandlerManager*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::AnimatorIkHandlerManager* Zenject::AnimatorIkHandlerManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AnimatorIkHandlerManager*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::AnimatorIkHandlerManager::AnimatorIkHandlerManager() {}

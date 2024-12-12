@@ -11,11 +11,10 @@ class ServiceNameCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection);
-// Type: System.Security.Authentication.ExtendedProtection::ServiceNameCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ReadOnlyCollectionBase
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// CS Name: ::System.Security.Authentication.ExtendedProtection::ServiceNameCollection*
+// CS Name: System.Security.Authentication.ExtendedProtection.ServiceNameCollection
 class CORDL_TYPE ServiceNameCollection : public ::System::Collections::ReadOnlyCollectionBase {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   ServiceNameCollection(ServiceNameCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9281 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

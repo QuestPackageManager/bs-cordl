@@ -11,17 +11,16 @@ class AndroidAmbientTemperature;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidAmbientTemperature);
-// Type: UnityEngine.InputSystem.Android::AndroidAmbientTemperature
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.AmbientTemperatureSensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidAmbientTemperature*
+// CS Name: UnityEngine.InputSystem.Android.AndroidAmbientTemperature
 class CORDL_TYPE AndroidAmbientTemperature : public ::UnityEngine::InputSystem::AmbientTemperatureSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a3114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4604428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidAmbientTemperature(AndroidAmbientTemperature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

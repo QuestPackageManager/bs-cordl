@@ -11,11 +11,10 @@ class NativeWritableSelfAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeWritableSelfAttribute);
-// Type: UnityEngine.Bindings::NativeWritableSelfAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Bindings {
 // Is value type: false
-// CS Name: ::UnityEngine.Bindings::NativeWritableSelfAttribute*
+// CS Name: UnityEngine.Bindings.NativeWritableSelfAttribute
 class CORDL_TYPE NativeWritableSelfAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x48b1f10, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49165a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WritableSelf, addr 0x48b1f04, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_WritableSelf, addr 0x4916594, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NativeWritableSelfAttribute(NativeWritableSelfAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18698 };
+
   /// @brief Field <WritableSelf>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WritableSelf_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18617 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeWritableSelfAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Bindings::NativeWritableSelfAttribute, ____WritableSelf_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeWritableSelfAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeWritableSelfAttribute);

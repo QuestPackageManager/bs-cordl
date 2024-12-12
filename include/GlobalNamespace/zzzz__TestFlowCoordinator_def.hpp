@@ -14,11 +14,10 @@ class TestFlowCoordinator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TestFlowCoordinator);
-// Type: ::TestFlowCoordinator
-// SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.FlowCoordinator
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TestFlowCoordinator*
+// CS Name: TestFlowCoordinator
 class CORDL_TYPE TestFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
   /// @brief Field _viewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__viewController, put = __cordl_internal_set__viewController)) ::UnityW<::HMUI::ViewController> _viewController;
 
-  /// @brief Method DidActivate, addr 0x3af31fc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b52a54, size 0x1c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::TestFlowCoordinator* New_ctor();
@@ -72,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3af3218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b52a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TestFlowCoordinator(TestFlowCoordinator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5306 };
+
   /// @brief Field _viewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 
@@ -104,14 +106,9 @@ public:
   /// @brief Field _topScreenViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____topScreenViewController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5283 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TestFlowCoordinator, 0xd8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____viewController) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____leftViewController) == 0xb8, "Offset mismatch!");
@@ -121,6 +118,8 @@ static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____rightViewCont
 static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____bottomScreenViewController) == 0xc8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TestFlowCoordinator, ____topScreenViewController) == 0xd0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TestFlowCoordinator, 0xd8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TestFlowCoordinator);

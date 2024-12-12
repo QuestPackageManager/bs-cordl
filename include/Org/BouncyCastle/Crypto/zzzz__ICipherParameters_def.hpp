@@ -10,18 +10,13 @@ class ICipherParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipherParameters);
-// Type: Org.BouncyCastle.Crypto::ICipherParameters
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::ICipherParameters*
+// CS Name: Org.BouncyCastle.Crypto.ICipherParameters
 class CORDL_TYPE ICipherParameters {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "ICipherParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICipherParameters(ICipherParameters&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "ICipherParameters", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICipherParameters(ICipherParameters const&) = delete;

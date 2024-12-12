@@ -7,28 +7,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__CollisionPairEventFlags_def.hpp"
 #include "UnityEngine/zzzz__CollisionPairFlags_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContactPair)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-struct IntPtr;
-}
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
 class Collider;
-}
-namespace UnityEngine {
-struct CollisionPairEventFlags;
-}
-namespace UnityEngine {
-struct CollisionPairFlags;
 }
 namespace UnityEngine {
 struct ContactPairPoint;
@@ -45,11 +34,10 @@ struct ContactPair;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ContactPair);
-// Type: UnityEngine::ContactPair
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, UnityEngine.CollisionPairEventFlags, UnityEngine.CollisionPairFlags, UnityEngine.Vector3
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::ContactPair
+// CS Name: UnityEngine.ContactPair
 struct CORDL_TYPE ContactPair {
 public:
   // Declarations
@@ -73,59 +61,59 @@ public:
 
   __declspec(property(get = get_OtherColliderInstanceID)) int32_t OtherColliderInstanceID;
 
-  /// @brief Method CopyToNativeArray, addr 0x48a9d4c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CopyToNativeArray, addr 0x490e3dc, size 0x6c, virtual false, abstract: false, final false
   inline void CopyToNativeArray(::Unity::Collections::NativeArray_1<::UnityEngine::ContactPairPoint> buffer);
 
-  /// @brief Method ExtractContacts, addr 0x488f3e0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContacts, addr 0x48f3a70, size 0x54, virtual false, abstract: false, final false
   inline int32_t ExtractContacts(::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
 
-  /// @brief Method ExtractContactsArray, addr 0x488ed80, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ExtractContactsArray, addr 0x48f3410, size 0x54, virtual false, abstract: false, final false
   inline int32_t ExtractContactsArray(::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> managedContainer, bool flipped);
 
-  /// @brief Method ExtractContactsArray_Injected, addr 0x48a9cf8, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t ExtractContactsArray_Injected(ByRef<::UnityEngine::ContactPair> _unity_self, ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> managedContainer,
+  /// @brief Method ExtractContactsArray_Injected, addr 0x490e388, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t ExtractContactsArray_Injected(::ByRef<::UnityEngine::ContactPair> _unity_self, ::ArrayW<::UnityEngine::ContactPoint, ::Array<::UnityEngine::ContactPoint>*> managedContainer,
                                                       bool flipped);
 
-  /// @brief Method ExtractContacts_Injected, addr 0x48a9ca4, size 0x54, virtual false, abstract: false, final false
-  static inline int32_t ExtractContacts_Injected(ByRef<::UnityEngine::ContactPair> _unity_self, ::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
+  /// @brief Method ExtractContacts_Injected, addr 0x490e334, size 0x54, virtual false, abstract: false, final false
+  static inline int32_t ExtractContacts_Injected(::ByRef<::UnityEngine::ContactPair> _unity_self, ::System::Collections::Generic::List_1<::UnityEngine::ContactPoint>* managedContainer, bool flipped);
 
-  /// @brief Method GetContactPoint, addr 0x48a9db8, size 0x4, virtual false, abstract: false, final false
-  inline ByRef<::UnityEngine::ContactPairPoint> GetContactPoint(int32_t index);
+  /// @brief Method GetContactPoint, addr 0x490e448, size 0x4, virtual false, abstract: false, final false
+  inline ::ByRef<::UnityEngine::ContactPairPoint> GetContactPoint(int32_t index);
 
-  /// @brief Method GetContactPointFaceIndex, addr 0x48a9dbc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetContactPointFaceIndex, addr 0x490e44c, size 0xd8, virtual false, abstract: false, final false
   inline uint32_t GetContactPointFaceIndex(int32_t contactIndex);
 
-  /// @brief Method GetContactPoint_Internal, addr 0x488f0d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetContactPoint_Internal, addr 0x48f3768, size 0x80, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ContactPairPoint> GetContactPoint_Internal(int32_t index);
 
-  /// @brief Method get_Collider, addr 0x488eb0c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Collider, addr 0x48f319c, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_Collider();
 
-  /// @brief Method get_ColliderInstanceID, addr 0x48a9c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ColliderInstanceID, addr 0x490e310, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ColliderInstanceID();
 
-  /// @brief Method get_ContactCount, addr 0x48a9c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContactCount, addr 0x490e320, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ContactCount();
 
-  /// @brief Method get_HasRemovedCollider, addr 0x489e450, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasRemovedCollider, addr 0x4902ae0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasRemovedCollider();
 
-  /// @brief Method get_ImpulseSum, addr 0x48a9c98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ImpulseSum, addr 0x490e328, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_ImpulseSum();
 
-  /// @brief Method get_IsCollisionEnter, addr 0x489e460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionEnter, addr 0x4902af0, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionEnter();
 
-  /// @brief Method get_IsCollisionExit, addr 0x489e59c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionExit, addr 0x4902c2c, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionExit();
 
-  /// @brief Method get_IsCollisionStay, addr 0x489e590, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsCollisionStay, addr 0x4902c20, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsCollisionStay();
 
-  /// @brief Method get_OtherCollider, addr 0x488ea80, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_OtherCollider, addr 0x48f3110, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_OtherCollider();
 
-  /// @brief Method get_OtherColliderInstanceID, addr 0x48a9c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherColliderInstanceID, addr 0x490e318, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OtherColliderInstanceID();
 
   // Ctor Parameters []
@@ -138,6 +126,15 @@ public:
   // name: "m_ImpulseSum", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
   constexpr ContactPair(int32_t m_ColliderID, int32_t m_OtherColliderID, ::System::IntPtr m_StartPtr, uint32_t m_NbPoints, ::UnityEngine::CollisionPairFlags m_Flags,
                         ::UnityEngine::CollisionPairEventFlags m_Events, ::UnityEngine::Vector3 m_ImpulseSum) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15765 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
+  /// @brief Field c_InvalidFaceIndex offset 0xffffffff size 0x4
+  static constexpr uint32_t c_InvalidFaceIndex{ static_cast<uint32_t>(0x20001ffu) };
 
   /// @brief Field m_ColliderID, offset: 0x0, size: 0x4, def value: None
   int32_t m_ColliderID;
@@ -160,20 +157,9 @@ public:
   /// @brief Field m_ImpulseSum, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 m_ImpulseSum;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15730 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
-  /// @brief Field c_InvalidFaceIndex offset 0xffffffff size 0x4
-  static constexpr uint32_t c_InvalidFaceIndex{ static_cast<uint32_t>(0x20001ffu) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPair, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ContactPair, m_ColliderID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContactPair, m_OtherColliderID) == 0x4, "Offset mismatch!");
@@ -187,6 +173,8 @@ static_assert(offsetof(::UnityEngine::ContactPair, m_Flags) == 0x14, "Offset mis
 static_assert(offsetof(::UnityEngine::ContactPair, m_Events) == 0x16, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ContactPair, m_ImpulseSum) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPair, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPair, "UnityEngine", "ContactPair");

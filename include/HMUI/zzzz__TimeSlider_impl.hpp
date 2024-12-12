@@ -1,25 +1,24 @@
 #pragma once
 // IWYU pragma private; include "HMUI/TimeSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
-#include "HMUI/zzzz__TimeSlider_impl.hpp"
 #include "HMUI/zzzz__TimeSlider_def.hpp"
 #include "HMUI/zzzz__TimeSlider_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HMUI::__TimeSlider__TimeType::__TimeSlider__TimeType(int32_t value__) noexcept {
+constexpr ::HMUI::TimeSlider_TimeType::TimeSlider_TimeType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__TimeSlider__TimeType::__TimeSlider__TimeType() {}
-constexpr ::HMUI::__TimeSlider__TimeType HMUI::__TimeSlider__TimeType::Default{ static_cast<int32_t>(0x0) };
-constexpr ::HMUI::__TimeSlider__TimeType HMUI::__TimeSlider__TimeType::Milliseconds{ static_cast<int32_t>(0x1) };
-constexpr ::HMUI::__TimeSlider__TimeType HMUI::__TimeSlider__TimeType::Normalized{ static_cast<int32_t>(0x2) };
+constexpr ::HMUI::TimeSlider_TimeType::TimeSlider_TimeType() {}
+constexpr ::HMUI::TimeSlider_TimeType HMUI::TimeSlider_TimeType::Default{ static_cast<int32_t>(0x0) };
+constexpr ::HMUI::TimeSlider_TimeType HMUI::TimeSlider_TimeType::Milliseconds{ static_cast<int32_t>(0x1) };
+constexpr ::HMUI::TimeSlider_TimeType HMUI::TimeSlider_TimeType::Normalized{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::HMUI::TimeSlider.SetBounds
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)(bool, float_t, float_t)>(&::HMUI::TimeSlider::SetBounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x399ca90;
+  constexpr static std::size_t addrs = 0x39f3700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TimeSlider::*)(float_t)>(&::HMUI::TimeSlider::TextForValue)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x399caa4;
+  constexpr static std::size_t addrs = 0x39f3714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::HMUI::TimeSlider::FormatTimeSpan)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x399ccf4;
+  constexpr static std::size_t addrs = 0x39f3964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)()>(&::HMUI::TimeSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x399ce48;
+  constexpr static std::size_t addrs = 0x39f3ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",
@@ -70,15 +69,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::HMUI::__TimeSlider__TimeType& HMUI::TimeSlider::__cordl_internal_get__timeType() {
+constexpr ::HMUI::TimeSlider_TimeType& HMUI::TimeSlider::__cordl_internal_get__timeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
-constexpr ::HMUI::__TimeSlider__TimeType const& HMUI::TimeSlider::__cordl_internal_get__timeType() const {
+constexpr ::HMUI::TimeSlider_TimeType const& HMUI::TimeSlider::__cordl_internal_get__timeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
-constexpr void HMUI::TimeSlider::__cordl_internal_set__timeType(::HMUI::__TimeSlider__TimeType value) {
+constexpr void HMUI::TimeSlider::__cordl_internal_set__timeType(::HMUI::TimeSlider_TimeType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeType = value;
 }
@@ -136,13 +135,13 @@ inline ::StringW HMUI::TimeSlider::FormatTimeSpan(::System::TimeSpan ts) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, ts);
 }
-inline ::HMUI::TimeSlider* HMUI::TimeSlider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TimeSlider*>());
-}
 inline void HMUI::TimeSlider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::TimeSlider* HMUI::TimeSlider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TimeSlider*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::TimeSlider::TimeSlider() {}

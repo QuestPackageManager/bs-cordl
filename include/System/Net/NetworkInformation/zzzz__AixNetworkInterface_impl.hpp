@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::AixNetworkInterface::*)(::StringW, uint32_t, int32_t)>(
     &::System::Net::NetworkInformation::AixNetworkInterface::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4388db8;
+  constexpr static std::size_t addrs = 0x43ea0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (
     ::System::Net::NetworkInformation::AixNetworkInterface::*)()>(&::System::Net::NetworkInformation::AixNetworkInterface::GetIPProperties)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4388f28;
+  constexpr static std::size_t addrs = 0x43ea23c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::AixNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::AixNetworkInterface::get_OperationalStatus)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4388fa4;
+  constexpr static std::size_t addrs = 0x43ea2b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,9 +76,6 @@ constexpr void System::Net::NetworkInformation::AixNetworkInterface::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ifru_mtu = value;
 }
-inline ::System::Net::NetworkInformation::AixNetworkInterface* System::Net::NetworkInformation::AixNetworkInterface::New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::AixNetworkInterface*>(name, ifa_flags, ifru_mtu));
-}
 inline void System::Net::NetworkInformation::AixNetworkInterface::_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::AixNetworkInterface*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -97,6 +94,9 @@ inline ::System::Net::NetworkInformation::OperationalStatus System::Net::Network
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::AixNetworkInterface*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::OperationalStatus, false>(this, ___internal_method);
+}
+inline ::System::Net::NetworkInformation::AixNetworkInterface* System::Net::NetworkInformation::AixNetworkInterface::New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::AixNetworkInterface*>(name, ifa_flags, ifru_mtu));
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixNetworkInterface::AixNetworkInterface() {}

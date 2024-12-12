@@ -1,24 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorState.hpp"
-#include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidSensorState_impl.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidSensorState_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidSensorState_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer::__AndroidSensorState___data_e__FixedBuffer(float_t FixedElementField) noexcept {
+constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer::AndroidSensorState__data_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer::__AndroidSensorState___data_e__FixedBuffer() {}
+constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer::AndroidSensorState__data_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState.WithData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState (
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::WithData)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x45a44b4;
+  constexpr static std::size_t addrs = 0x46057c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::*)()>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::get_format)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45a45d0;
+  constexpr static std::size_t addrs = 0x46058e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,14 +41,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::setStaticF_kFormat(::UnityEngine::InputSystem::Utilities::FourCC value) {
   ::cordl_internals::setStaticField<::UnityEngine::InputSystem::Utilities::FourCC, "kFormat",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState>::get>(
@@ -71,9 +62,16 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::A
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::AndroidSensorState(
-    ::UnityEngine::InputSystem::Android::LowLevel::__AndroidSensorState___data_e__FixedBuffer data) noexcept {
+/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+constexpr UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "data", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState::AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer data) noexcept {
   this->data = data;
 }
 // Ctor Parameters []

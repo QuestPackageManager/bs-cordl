@@ -14,59 +14,59 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline void GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::setStaticF___9(
-    ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* value) {
+inline void GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::setStaticF___9(
+    ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* value) {
   ::cordl_internals::setStaticField<
-      ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*, "<>9",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>(
-      std::forward<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>(value));
+      ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*, "<>9",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>(
+      std::forward<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>(value));
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
-GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::getStaticF___9() {
+inline ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
+GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::getStaticF___9() {
   return ::cordl_internals::getStaticField<
-      ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*, "<>9",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>();
+      ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*, "<>9",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>();
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline void GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::setStaticF___9__37_0(
+inline void GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::setStaticF___9__37_0(
     ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>*, "<>9__37_0",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>*>(value));
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>*
-GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::getStaticF___9__37_0() {
+GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::getStaticF___9__37_0() {
   return ::cordl_internals::getStaticField<
       ::System::Func_2<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*, int32_t>*, "<>9__37_0",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>();
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get>();
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
-GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>());
-}
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline void GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::_ctor() {
+inline void GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), ".ctor",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline int32_t GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::_HandlePlayerConnected_b__37_0(
+inline int32_t GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::_HandlePlayerConnected_b__37_0(
     ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* s) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(),
       "<HandlePlayerConnected>b__37_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s);
 }
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
+inline ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
+GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>());
+}
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__MultiplayerSyncStateManager_5____c() {}
+constexpr ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::MultiplayerSyncStateManager_5___c() {}
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::GlobalNamespace::IMultiplayerSessionManager*&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__multiplayerSessionManager() {
@@ -74,7 +74,7 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return this->____multiplayerSessionManager;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
@@ -92,7 +92,7 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return this->____localState;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*> const&
+constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* const&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__localState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localState;
@@ -110,7 +110,7 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return this->____connectedPlayerStates;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* const&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__connectedPlayerStates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerStates;
@@ -128,7 +128,7 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return this->____disconnectedPlayerStates;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* const&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__disconnectedPlayerStates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disconnectedPlayerStates;
@@ -219,19 +219,18 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IPacketPool_1<TDeltaSerializable>*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_messageType() {
+inline ::GlobalNamespace::MultiplayerSessionManager_MessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_messageType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__MultiplayerSessionManager__MessageType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSessionManager_MessageType, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType
-GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_deltaMessageType() {
+inline ::GlobalNamespace::MultiplayerSessionManager_MessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_deltaMessageType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), 14)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__MultiplayerSessionManager__MessageType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSessionManager_MessageType, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::Start() {
@@ -345,16 +344,16 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*, false>(this, ___internal_method, i);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
-GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>());
-}
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), ".ctor",
       std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
+inline ::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*
+GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>());
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>

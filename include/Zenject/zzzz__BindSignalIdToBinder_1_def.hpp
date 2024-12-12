@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__BindSignalToBinder_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BindSignalIdToBinder_1)
 namespace System {
 class Object;
@@ -27,13 +26,12 @@ template <typename TSignal> class BindSignalIdToBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::BindSignalIdToBinder_1);
-// Type: Zenject::BindSignalIdToBinder`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.BindSignalToBinder`1<TSignal>
 namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// CS Name: ::Zenject::BindSignalIdToBinder`1<TSignal>*
+// CS Name: Zenject.BindSignalIdToBinder`1<TSignal>
 class CORDL_TYPE BindSignalIdToBinder_1 : public ::Zenject::BindSignalToBinder_1<TSignal> {
 public:
   // Declarations
@@ -66,7 +64,7 @@ public:
   BindSignalIdToBinder_1(BindSignalIdToBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11977 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

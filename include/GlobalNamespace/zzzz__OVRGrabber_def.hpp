@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGrabber)
@@ -41,11 +40,10 @@ class OVRGrabber;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGrabber);
-// Type: ::OVRGrabber
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRInput::Controller, UnityEngine.MonoBehaviour, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRGrabber*
+// CS Name: OVRGrabber
 class CORDL_TYPE OVRGrabber : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -64,7 +62,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_anchorOffsetRotation, put = __cordl_internal_set_m_anchorOffsetRotation)) ::UnityEngine::Quaternion m_anchorOffsetRotation;
 
   /// @brief Field m_controller, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) ::GlobalNamespace::__OVRInput__Controller m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller)) ::GlobalNamespace::OVRInput_Controller m_controller;
 
   /// @brief Field m_grabCandidates, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_grabCandidates,
@@ -113,57 +111,57 @@ public:
   /// @brief Field m_prevFlex, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get_m_prevFlex, put = __cordl_internal_set_m_prevFlex)) float_t m_prevFlex;
 
-  /// @brief Method Awake, addr 0x3fd2198, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x4032244, size 0x140, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CheckForGrabOrRelease, addr 0x3fd2790, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CheckForGrabOrRelease, addr 0x403283c, size 0x40, virtual false, abstract: false, final false
   inline void CheckForGrabOrRelease(float_t prevFlex);
 
-  /// @brief Method ForceRelease, addr 0x3fd1e68, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ForceRelease, addr 0x4031f14, size 0xb0, virtual false, abstract: false, final false
   inline void ForceRelease(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method GrabBegin, addr 0x3fd2ac4, size 0x6b0, virtual true, abstract: false, final false
+  /// @brief Method GrabBegin, addr 0x4032b70, size 0x6b0, virtual true, abstract: false, final false
   inline void GrabBegin();
 
-  /// @brief Method GrabEnd, addr 0x3fd1f30, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method GrabEnd, addr 0x4031fdc, size 0x268, virtual false, abstract: false, final false
   inline void GrabEnd();
 
-  /// @brief Method GrabVolumeEnable, addr 0x3fd33f8, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method GrabVolumeEnable, addr 0x40334a4, size 0xc0, virtual true, abstract: false, final false
   inline void GrabVolumeEnable(bool enabled);
 
-  /// @brief Method GrabbableRelease, addr 0x3fd33a4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GrabbableRelease, addr 0x4033450, size 0x54, virtual false, abstract: false, final false
   inline void GrabbableRelease(::UnityEngine::Vector3 linearVelocity, ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method MoveGrabbedObject, addr 0x3fd3174, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method MoveGrabbedObject, addr 0x4033220, size 0x230, virtual true, abstract: false, final false
   inline void MoveGrabbedObject(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot, bool forceTeleport);
 
   static inline ::GlobalNamespace::OVRGrabber* New_ctor();
 
-  /// @brief Method OffhandGrabbed, addr 0x3fd34b8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OffhandGrabbed, addr 0x4033564, size 0xcc, virtual true, abstract: false, final false
   inline void OffhandGrabbed(::GlobalNamespace::OVRGrabbable* grabbable);
 
-  /// @brief Method OnDestroy, addr 0x3fd27d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x403287c, size 0x78, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnTriggerEnter, addr 0x3fd2848, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerEnter, addr 0x40328f4, size 0x124, virtual false, abstract: false, final false
   inline void OnTriggerEnter(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnTriggerExit, addr 0x3fd296c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnTriggerExit, addr 0x4032a18, size 0x158, virtual false, abstract: false, final false
   inline void OnTriggerExit(::UnityEngine::Collider* otherCollider);
 
-  /// @brief Method OnUpdatedAnchors, addr 0x3fd256c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnUpdatedAnchors, addr 0x4032618, size 0x224, virtual false, abstract: false, final false
   inline void OnUpdatedAnchors();
 
-  /// @brief Method SetPlayerIgnoreCollision, addr 0x3fd23b8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerIgnoreCollision, addr 0x4032464, size 0x1a4, virtual false, abstract: false, final false
   inline void SetPlayerIgnoreCollision(::UnityEngine::GameObject* grabbable, bool ignore);
 
-  /// @brief Method Start, addr 0x3fd22d8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x4032384, size 0xe0, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fd255c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x4032608, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method <Awake>b__23_0, addr 0x3fd3618, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__23_0, addr 0x40336c4, size 0x4, virtual false, abstract: false, final false
   inline void _Awake_b__23_0(::GlobalNamespace::OVRCameraRig* r);
 
   constexpr float_t const& __cordl_internal_get_grabBegin() const;
@@ -182,13 +180,13 @@ public:
 
   constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_anchorOffsetRotation();
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get_m_controller() const;
+  constexpr ::GlobalNamespace::OVRInput_Controller const& __cordl_internal_get_m_controller() const;
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get_m_controller();
+  constexpr ::GlobalNamespace::OVRInput_Controller& __cordl_internal_get_m_controller();
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>* const& __cordl_internal_get_m_grabCandidates() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>*& __cordl_internal_get_m_grabCandidates();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>*> const& __cordl_internal_get_m_grabCandidates() const;
 
   constexpr bool const& __cordl_internal_get_m_grabVolumeEnabled() const;
 
@@ -254,7 +252,7 @@ public:
 
   constexpr void __cordl_internal_set_m_anchorOffsetRotation(::UnityEngine::Quaternion value);
 
-  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::OVRInput_Controller value);
 
   constexpr void __cordl_internal_set_m_grabCandidates(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>* value);
 
@@ -286,10 +284,10 @@ public:
 
   constexpr void __cordl_internal_set_m_prevFlex(float_t value);
 
-  /// @brief Method .ctor, addr 0x3fd3584, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4033630, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_grabbedObject, addr 0x3fd1f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grabbedObject, addr 0x4031fd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::OVRGrabbable> get_grabbedObject();
 
 protected:
@@ -305,6 +303,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRGrabber", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRGrabber(OVRGrabber const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8422 };
 
   /// @brief Field grabBegin, offset: 0x20, size: 0x4, def value: None
   float_t ___grabBegin;
@@ -325,7 +326,7 @@ public:
   ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> ___m_grabVolumes;
 
   /// @brief Field m_controller, offset: 0x40, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__Controller ___m_controller;
+  ::GlobalNamespace::OVRInput_Controller ___m_controller;
 
   /// @brief Field m_parentTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___m_parentTransform;
@@ -366,14 +367,9 @@ public:
   /// @brief Field m_operatingWithoutOVRCameraRig, offset: 0xc8, size: 0x1, def value: None
   bool ___m_operatingWithoutOVRCameraRig;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8397 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGrabber, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRGrabber, ___grabBegin) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGrabber, ___grabEnd) == 0x24, "Offset mismatch!");
@@ -413,6 +409,8 @@ static_assert(offsetof(::GlobalNamespace::OVRGrabber, ___m_grabbedObjectRotOff) 
 static_assert(offsetof(::GlobalNamespace::OVRGrabber, ___m_grabCandidates) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRGrabber, ___m_operatingWithoutOVRCameraRig) == 0xc8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGrabber, 0xd0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGrabber);

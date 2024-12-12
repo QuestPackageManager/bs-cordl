@@ -90,8 +90,8 @@ UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::_
   return this->___m_Callback;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
-                                                               ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
+constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObjectDependency>,
+                           ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_Callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Callback;
@@ -110,7 +110,7 @@ UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::_
   return this->___m_CachedOnWrappedCompleted;
 }
 template <typename TObject, typename TObjectDependency>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
+constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* const&
 UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_get_m_CachedOnWrappedCompleted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CachedOnWrappedCompleted;
@@ -135,10 +135,6 @@ template <typename TObject, typename TObjectDependency>
 constexpr void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::__cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseDependenciesOnFailure = value;
-}
-template <typename TObject, typename TObjectDependency>
-inline ::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>* UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>());
 }
 template <typename TObject, typename TObjectDependency> inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::_ctor() {
   static auto* ___internal_method =
@@ -215,7 +211,6 @@ UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::G
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, false>(this, ___internal_method, visited);
 }
-/// @param visited: ::System::Collections::Generic::HashSet_1<::System::Object*>* (default: nullptr)
 template <typename TObject, typename TObjectDependency>
 inline void UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::RefreshDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -229,6 +224,10 @@ template <typename TObject, typename TObjectDependency> inline float_t UnityEngi
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+template <typename TObject, typename TObjectDependency>
+inline ::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>* UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>*>());
 }
 // Ctor Parameters []
 template <typename TObject, typename TObjectDependency> constexpr ::UnityEngine::ResourceManagement::ChainOperation_2<TObject, TObjectDependency>::ChainOperation_2() {}

@@ -11,17 +11,16 @@ class __ComObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::__ComObject);
-// Type: System::__ComObject
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::__ComObject*
+// CS Name: System.__ComObject
 class CORDL_TYPE __ComObject : public ::System::Object {
 public:
   // Declarations
   static inline ::System::__ComObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3de46ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e44758, size 0x40, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,20 +13,19 @@ class DistanceObjectiveValueFormatterSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DistanceObjectiveValueFormatterSO);
-// Type: ::DistanceObjectiveValueFormatterSO
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ObjectiveValueFormatterSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DistanceObjectiveValueFormatterSO*
+// CS Name: DistanceObjectiveValueFormatterSO
 class CORDL_TYPE DistanceObjectiveValueFormatterSO : public ::GlobalNamespace::ObjectiveValueFormatterSO {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x269f390, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x26d40c4, size 0x80, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::DistanceObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x269f410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d4144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +43,7 @@ public:
   DistanceObjectiveValueFormatterSO(DistanceObjectiveValueFormatterSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13002 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13037 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

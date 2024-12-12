@@ -16,11 +16,10 @@ class StaticAccessorAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::StaticAccessorAttribute);
-// Type: UnityEngine.Bindings::StaticAccessorAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, UnityEngine.Bindings.StaticAccessorType
 namespace UnityEngine::Bindings {
 // Is value type: false
-// CS Name: ::UnityEngine.Bindings::StaticAccessorAttribute*
+// CS Name: UnityEngine.Bindings.StaticAccessorAttribute
 class CORDL_TYPE StaticAccessorAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -50,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method .ctor, addr 0x48b23b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916a48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x48b23e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4916a70, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method set_Name, addr 0x48b23a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x4916a38, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x48b23b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x4916a40, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StaticAccessorAttribute(StaticAccessorAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18710 };
+
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
   /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Bindings::StaticAccessorType ____Type_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18629 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::StaticAccessorAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Bindings::StaticAccessorAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Bindings::StaticAccessorAttribute, ____Type_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::StaticAccessorAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::StaticAccessorAttribute);

@@ -9,9 +9,9 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsAsyncLoader::*)(
-    ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstall)> {
+    ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26e2710;
+  constexpr static std::size_t addrs = 0x2714b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,11 +24,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardsAsyncLoader.LoadResourcesBeforeInstallAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::GlobalNamespace::LocalLeaderboardsAsyncLoader::*)(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*, ::Zenject::DiContainer*)>(
-    &::GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstallAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LocalLeaderboardsAsyncLoader::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
+        &::GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstallAsync)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26e276c;
+  constexpr static std::size_t addrs = 0x2714b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsAsyncLoader::*)()>(
     &::GlobalNamespace::LocalLeaderboardsAsyncLoader::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26e27c8;
+  constexpr static std::size_t addrs = 0x2714bc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsAsyncLoader::*)()>(
     &::GlobalNamespace::LocalLeaderboardsAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e27cc;
+  constexpr static std::size_t addrs = 0x2714bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>::get(), ".ctor",
@@ -68,14 +68,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry,
+inline void GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
                                                                                       ::Zenject::DiContainer* container) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, registry, container);
 }
-inline ::System::Threading::Tasks::Task*
-GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container) {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::LocalLeaderboardsAsyncLoader::LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
+                                                                                                                        ::Zenject::DiContainer* container) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, registry, container);
@@ -85,13 +85,13 @@ inline void GlobalNamespace::LocalLeaderboardsAsyncLoader::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* GlobalNamespace::LocalLeaderboardsAsyncLoader::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>());
-}
 inline void GlobalNamespace::LocalLeaderboardsAsyncLoader::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* GlobalNamespace::LocalLeaderboardsAsyncLoader::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LocalLeaderboardsAsyncLoader*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LocalLeaderboardsAsyncLoader::LocalLeaderboardsAsyncLoader() {}

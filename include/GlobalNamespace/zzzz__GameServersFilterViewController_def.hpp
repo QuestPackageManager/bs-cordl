@@ -32,11 +32,10 @@ class GameServersFilterViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServersFilterViewController);
-// Type: ::GameServersFilterViewController
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 217, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameServersFilterViewController*
+// CS Name: GameServersFilterViewController
 class CORDL_TYPE GameServersFilterViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -84,27 +83,27 @@ public:
 
   __declspec(property(get = get_gameServersFilter)) ::GlobalNamespace::GameServersFilter* gameServersFilter;
 
-  /// @brief Method DidActivate, addr 0x3b0b6ec, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6b748, size 0x150, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServersFilterViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0b83c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6b898, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh, addr 0x3b0b5c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b6b624, size 0x124, virtual false, abstract: false, final false
   inline void Refresh(::GlobalNamespace::GameServersFilter* currentFilter);
 
-  /// @brief Method SetupGameServersFilter, addr 0x3b0b5c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupGameServersFilter, addr 0x3b6b620, size 0x4, virtual false, abstract: false, final false
   inline void SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter);
 
-  /// @brief Method <DidActivate>b__16_0, addr 0x3b0b8c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_0, addr 0x3b6b920, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_0(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_1, addr 0x3b0b8e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_1, addr 0x3b6b940, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_1(bool isOn);
 
-  /// @brief Method <DidActivate>b__16_2, addr 0x3b0b904, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__16_2, addr 0x3b6b960, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_2(bool isOn);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
@@ -155,9 +154,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
   constexpr void __cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value);
 
@@ -185,10 +184,10 @@ public:
 
   constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method .ctor, addr 0x3b0b864, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6b8c0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameServersFilter, addr 0x3b0b4b8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_gameServersFilter, addr 0x3b6b514, size 0x10c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameServersFilter* get_gameServersFilter();
 
 protected:
@@ -204,6 +203,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameServersFilterViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameServersFilterViewController(GameServersFilterViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5374 };
 
   /// @brief Field _filterByDifficultyToggle, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____filterByDifficultyToggle;
@@ -244,14 +246,9 @@ public:
   /// @brief Field _showInternetGames, offset: 0xd8, size: 0x1, def value: None
   bool ____showInternetGames;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5350 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilterViewController, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameServersFilterViewController, ____filterByDifficultyToggle) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServersFilterViewController, ____filterByDifficultyButton) == 0x80, "Offset mismatch!");
@@ -277,6 +274,8 @@ static_assert(offsetof(::GlobalNamespace::GameServersFilterViewController, ____s
 static_assert(offsetof(::GlobalNamespace::GameServersFilterViewController, ____toggleBinder) == 0xd0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameServersFilterViewController, ____showInternetGames) == 0xd8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServersFilterViewController, 0xe0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameServersFilterViewController);

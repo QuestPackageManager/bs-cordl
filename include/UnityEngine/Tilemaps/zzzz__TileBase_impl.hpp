@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileBase::*)(::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*)>(
     &::UnityEngine::Tilemaps::TileBase::RefreshTile)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48ef348;
+  constexpr static std::size_t addrs = 0x49539d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileBase::*)(
-    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ByRef<::UnityEngine::Tilemaps::TileData>)>(&::UnityEngine::Tilemaps::TileBase::GetTileData)> {
+    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::ByRef<::UnityEngine::Tilemaps::TileData>)>(&::UnityEngine::Tilemaps::TileBase::GetTileData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48ef360;
+  constexpr static std::size_t addrs = 0x49539f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::TileData (::UnityEngine::Tilemaps::TileBase::*)(
     ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*)>(&::UnityEngine::Tilemaps::TileBase::GetTileDataNoRef)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48ef364;
+  constexpr static std::size_t addrs = 0x49539f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,9 +57,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Tilemaps::TileBase::*)(
-    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ByRef<::UnityEngine::Tilemaps::TileAnimationData>)>(&::UnityEngine::Tilemaps::TileBase::GetTileAnimationData)> {
+    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::ByRef<::UnityEngine::Tilemaps::TileAnimationData>)>(&::UnityEngine::Tilemaps::TileBase::GetTileAnimationData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef3b0;
+  constexpr static std::size_t addrs = 0x4953a40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Tilemaps::TileAnimationData (::UnityEngine::Tilemaps::TileBase::*)(
     ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*)>(&::UnityEngine::Tilemaps::TileBase::GetTileAnimationDataNoRef)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ef3b8;
+  constexpr static std::size_t addrs = 0x4953a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,17 +88,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileBase::*)(
-    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ByRef<::UnityEngine::Tilemaps::TileAnimationData>, ByRef<bool>)>(&::UnityEngine::Tilemaps::TileBase::GetTileAnimationDataRef)> {
+    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::ByRef<::UnityEngine::Tilemaps::TileAnimationData>, ::ByRef<bool>)>(&::UnityEngine::Tilemaps::TileBase::GetTileAnimationDataRef)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48ef3fc;
+  constexpr static std::size_t addrs = 0x4953a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), "GetTileAnimationDataRef", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3Int>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::ITilemap*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Tilemaps::TileAnimationData>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Tilemaps::TileAnimationData>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::UnityEngine::Tilemaps::TileBase::*)(::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::GameObject*)>(&::UnityEngine::Tilemaps::TileBase::StartUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef424;
+  constexpr static std::size_t addrs = 0x4953ab4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,16 +121,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileBase::*)(
-    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::GameObject*, ByRef<bool>)>(&::UnityEngine::Tilemaps::TileBase::StartUpRef)> {
+    ::UnityEngine::Vector3Int, ::UnityEngine::Tilemaps::ITilemap*, ::UnityEngine::GameObject*, ::ByRef<bool>)>(&::UnityEngine::Tilemaps::TileBase::StartUpRef)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48ef42c;
+  constexpr static std::size_t addrs = 0x4953abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), "StartUpRef", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3Int>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::ITilemap*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Tilemaps::TileBase::*)()>(&::UnityEngine::Tilemaps::TileBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ef340;
+  constexpr static std::size_t addrs = 0x49539d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), ".ctor",
@@ -152,7 +152,7 @@ inline void UnityEngine::Tilemaps::TileBase::RefreshTile(::UnityEngine::Vector3I
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, tilemap);
 }
-inline void UnityEngine::Tilemaps::TileBase::GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ByRef<::UnityEngine::Tilemaps::TileData> tileData) {
+inline void UnityEngine::Tilemaps::TileBase::GetTileData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::ByRef<::UnityEngine::Tilemaps::TileData> tileData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, tilemap, tileData);
@@ -165,7 +165,7 @@ inline ::UnityEngine::Tilemaps::TileData UnityEngine::Tilemaps::TileBase::GetTil
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Tilemaps::TileData, false>(this, ___internal_method, position, tilemap);
 }
 inline bool UnityEngine::Tilemaps::TileBase::GetTileAnimationData(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap,
-                                                                  ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData) {
+                                                                  ::ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, position, tilemap, tileAnimationData);
@@ -178,13 +178,13 @@ inline ::UnityEngine::Tilemaps::TileAnimationData UnityEngine::Tilemaps::TileBas
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Tilemaps::TileAnimationData, false>(this, ___internal_method, position, tilemap);
 }
 inline void UnityEngine::Tilemaps::TileBase::GetTileAnimationDataRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap,
-                                                                     ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData, ByRef<bool> hasAnimation) {
+                                                                     ::ByRef<::UnityEngine::Tilemaps::TileAnimationData> tileAnimationData, ::ByRef<bool> hasAnimation) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), "GetTileAnimationDataRef", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3Int>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::ITilemap*>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Tilemaps::TileAnimationData>>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Tilemaps::TileAnimationData>>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, tilemap, tileAnimationData, hasAnimation);
 }
 inline bool UnityEngine::Tilemaps::TileBase::StartUp(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go) {
@@ -193,21 +193,21 @@ inline bool UnityEngine::Tilemaps::TileBase::StartUp(::UnityEngine::Vector3Int p
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, position, tilemap, go);
 }
 inline void UnityEngine::Tilemaps::TileBase::StartUpRef(::UnityEngine::Vector3Int position, ::UnityEngine::Tilemaps::ITilemap* tilemap, ::UnityEngine::GameObject* go,
-                                                        ByRef<bool> startUpInvokedByUser) {
+                                                        ::ByRef<bool> startUpInvokedByUser) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), "StartUpRef", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3Int>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Tilemaps::ITilemap*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, tilemap, go, startUpInvokedByUser);
-}
-inline ::UnityEngine::Tilemaps::TileBase* UnityEngine::Tilemaps::TileBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Tilemaps::TileBase*>());
 }
 inline void UnityEngine::Tilemaps::TileBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Tilemaps::TileBase*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Tilemaps::TileBase* UnityEngine::Tilemaps::TileBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Tilemaps::TileBase*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Tilemaps::TileBase::TileBase() {}

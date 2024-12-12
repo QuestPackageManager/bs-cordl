@@ -3,14 +3,12 @@
 #include "System/zzzz__BRECORD_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Variant_def.hpp"
-#include "System/zzzz__BRECORD_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::System::Variant.Clear
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Variant::*)()>(&::System::Variant::Clear)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3de3e0c;
+  constexpr static std::size_t addrs = 0x3e43eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Variant>::get(), "Clear",

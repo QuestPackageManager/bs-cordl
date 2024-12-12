@@ -1,106 +1,103 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerLocalInactivePlayerSongSyncController.hpp"
+#include "GlobalNamespace/zzzz__IStartSeekSongController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__CrossFadeAudioSource_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::*)(
-    ::UnityEngine::AudioClip*, float_t, float_t, float_t)>(&::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::*)(
+    ::UnityEngine::AudioClip*, float_t, float_t, float_t)>(&::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b602ac;
+  constexpr static std::size_t addrs = 0x3bc1b14;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 4>{
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_audioClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_audioClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
-constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_audioClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_audioClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
-constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_startSongTime() {
+constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_startSongTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_startSongTime() const {
+constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_startSongTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
-constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_set_startSongTime(float_t value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_set_startSongTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_songTimeOffset() {
+constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_songTimeOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_songTimeOffset() const {
+constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_songTimeOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songTimeOffset;
 }
-constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_set_songTimeOffset(float_t value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_set_songTimeOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songTimeOffset = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_timeScale() {
+constexpr float_t& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_timeScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_get_timeScale() const {
+constexpr float_t const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_get_timeScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeScale;
 }
-constexpr void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__cordl_internal_set_timeScale(float_t value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::__cordl_internal_set_timeScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeScale = value;
 }
-inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*
-GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*>(audioClip, startSongTime, songTimeOffset, timeScale));
-}
-inline void GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset,
-                                                                                                 float_t timeScale) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+inline void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, audioClip, startSongTime, songTimeOffset, timeScale);
 }
+inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData*
+GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::New_ctor(::UnityEngine::AudioClip* audioClip, float_t startSongTime, float_t songTimeOffset, float_t timeScale) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData*>(audioClip, startSongTime, songTimeOffset, timeScale));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData::__MultiplayerLocalInactivePlayerSongSyncController__InitData() {}
+constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData::MultiplayerLocalInactivePlayerSongSyncController_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController.get_waitUntilIsReadyToStartTheSong
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_waitUntilIsReadyToStartTheSong)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b60630;
+  constexpr static std::size_t addrs = 0x3bc1d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_isAudioLoaded)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b606d8;
+  constexpr static std::size_t addrs = 0x3bc1de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_songFailedToLoad)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3b607b4;
+  constexpr static std::size_t addrs = 0x3bc1ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Awake)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b60894;
+  constexpr static std::size_t addrs = 0x3bc1fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Start)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3b60990;
+  constexpr static std::size_t addrs = 0x3bc20a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b60a84;
+  constexpr static std::size_t addrs = 0x3bc2194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::Update)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3b60b84;
+  constexpr static std::size_t addrs = 0x3bc2294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::StartSong)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3b60f64;
+  constexpr static std::size_t addrs = 0x3bc2674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(
     ::GlobalNamespace::IMultiplayerObservable*, bool, bool)>(&::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::FollowOffsetSyncTime)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3b611b4;
+  constexpr static std::size_t addrs = 0x3bc28c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(int64_t, bool, bool)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::UpdateOffsetSyncTime)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3b60e00;
+  constexpr static std::size_t addrs = 0x3bc2510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::SeekTo)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b61394;
+  constexpr static std::size_t addrs = 0x3bc2aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)(float_t, bool, float_t)>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::SeekTo)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3b61054;
+  constexpr static std::size_t addrs = 0x3bc2764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::HandleVrFocusWasReleased)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b613a0;
+  constexpr static std::size_t addrs = 0x3bc2ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b613a4;
+  constexpr static std::size_t addrs = 0x3bc2ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_get_waitUntilIsReadyToStartTheSong_b__7_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b613ac;
+  constexpr static std::size_t addrs = 0x3bc2abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,14 +321,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
-constexpr GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::operator ::GlobalNamespace::IStartSeekSongController*() noexcept {
-  return static_cast<::GlobalNamespace::IStartSeekSongController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
-constexpr ::GlobalNamespace::IStartSeekSongController* GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::i___GlobalNamespace__IStartSeekSongController() noexcept {
-  return static_cast<::GlobalNamespace::IStartSeekSongController*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::CrossFadeAudioSource>& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__audioSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
@@ -348,8 +337,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::MultiplayerLocal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -357,17 +345,16 @@ constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData*& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData*> const&
+constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData* const&
 GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void
-GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_set__initData(::GlobalNamespace::__MultiplayerLocalInactivePlayerSongSyncController__InitData* value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_set__initData(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -375,8 +362,7 @@ constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
@@ -388,8 +374,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::MultiplayerLoc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -485,8 +470,7 @@ constexpr ::GlobalNamespace::IMultiplayerObservable*& GlobalNamespace::Multiplay
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____observable;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerObservable*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__observable() const {
+constexpr ::GlobalNamespace::IMultiplayerObservable* const& GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::__cordl_internal_get__observable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____observable;
 }
@@ -548,7 +532,6 @@ inline void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::U
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param offsetTime: float_t (default: 0.0)
 inline void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::StartSong(float_t offsetTime) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*>::get(), "StartSong",
@@ -590,9 +573,6 @@ inline void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::H
                                                "HandleVrFocusWasReleased", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*>());
-}
 inline void GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*>::get(), ".ctor",
@@ -604,6 +584,17 @@ inline bool GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::_
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*>::get(),
                                                "<get_waitUntilIsReadyToStartTheSong>b__7_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IStartSeekSongController"
+constexpr GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::operator ::GlobalNamespace::IStartSeekSongController*() noexcept {
+  return static_cast<::GlobalNamespace::IStartSeekSongController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IStartSeekSongController"
+constexpr ::GlobalNamespace::IStartSeekSongController* GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::i___GlobalNamespace__IStartSeekSongController() noexcept {
+  return static_cast<::GlobalNamespace::IStartSeekSongController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::MultiplayerLocalInactivePlayerSongSyncController() {}

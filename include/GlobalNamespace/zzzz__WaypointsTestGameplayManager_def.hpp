@@ -30,11 +30,10 @@ class WaypointsTestGameplayManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestGameplayManager);
-// Type: ::WaypointsTestGameplayManager
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.LayerMask, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::WaypointsTestGameplayManager*
+// CS Name: WaypointsTestGameplayManager
 class CORDL_TYPE WaypointsTestGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -97,26 +96,26 @@ public:
   /// @brief Field _target, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__target, put = __cordl_internal_set__target)) ::UnityW<::UnityEngine::Transform> _target;
 
-  /// @brief Method GetBar, addr 0x223830c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetBar, addr 0x22635c8, size 0x1a8, virtual false, abstract: false, final false
   inline ::StringW GetBar(float_t songTime);
 
-  /// @brief Method LateUpdate, addr 0x2237740, size 0xbcc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x22629fc, size 0xbcc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::WaypointsTestGameplayManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x22384b4, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2263770, size 0x320, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDrawGizmos, addr 0x22387d4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method OnDrawGizmos, addr 0x2263a90, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDrawGizmos();
 
-  /// @brief Method Start, addr 0x223770c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x22629c8, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
   constexpr float_t const& __cordl_internal_get__biggestAcceleration() const;
 
@@ -162,9 +161,9 @@ public:
 
   constexpr ::UnityEngine::LayerMask& __cordl_internal_get__layersToColliderWith();
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__levelSceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__levelSceneSetupData() const;
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__outerCapsuleEnd() const;
 
@@ -182,9 +181,9 @@ public:
 
   constexpr bool& __cordl_internal_get__speedSaved();
 
-  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __cordl_internal_get__standardSceneSetupData();
+  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData* const& __cordl_internal_get__standardSceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const& __cordl_internal_get__standardSceneSetupData() const;
+  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __cordl_internal_get__standardSceneSetupData();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__target() const;
 
@@ -228,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x22389ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2263c68, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -244,6 +243,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WaypointsTestGameplayManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WaypointsTestGameplayManager(WaypointsTestGameplayManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17679 };
 
   /// @brief Field _outerCapsuleStart, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____outerCapsuleStart;
@@ -302,14 +304,9 @@ public:
   /// @brief Field _biggestAccelerationSongTime, offset: 0x98, size: 0x4, def value: None
   float_t ____biggestAccelerationSongTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17635 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestGameplayManager, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::WaypointsTestGameplayManager, ____outerCapsuleStart) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::WaypointsTestGameplayManager, ____outerCapsuleEnd) == 0x2c, "Offset mismatch!");
@@ -347,6 +344,8 @@ static_assert(offsetof(::GlobalNamespace::WaypointsTestGameplayManager, ____bigg
 static_assert(offsetof(::GlobalNamespace::WaypointsTestGameplayManager, ____biggestAcceleration) == 0x94, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::WaypointsTestGameplayManager, ____biggestAccelerationSongTime) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WaypointsTestGameplayManager, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WaypointsTestGameplayManager);

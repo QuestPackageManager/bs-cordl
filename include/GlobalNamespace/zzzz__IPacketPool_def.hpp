@@ -13,33 +13,28 @@ class IPacketPool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IPacketPool);
-// Type: ::IPacketPool
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IPacketPool*
+// CS Name: IPacketPool
 class CORDL_TYPE IPacketPool {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Clear, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Fill, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Fill();
 
-  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Release, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Release(::GlobalNamespace::IPoolablePacket* t);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPacketPool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPacketPool(IPacketPool&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPacketPool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPacketPool(IPacketPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14808 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

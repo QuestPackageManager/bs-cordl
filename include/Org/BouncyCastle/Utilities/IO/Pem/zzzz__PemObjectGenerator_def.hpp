@@ -13,20 +13,15 @@ class PemObjectGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator);
-// Type: Org.BouncyCastle.Utilities.IO.Pem::PemObjectGenerator
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemObjectGenerator*
+// CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemObjectGenerator
 class CORDL_TYPE PemObjectGenerator {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Generate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
-
-  // Ctor Parameters [CppParam { name: "", ty: "PemObjectGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PemObjectGenerator(PemObjectGenerator&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "PemObjectGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

@@ -11,17 +11,16 @@ class SelectionBaseAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SelectionBaseAttribute);
-// Type: UnityEngine::SelectionBaseAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::SelectionBaseAttribute*
+// CS Name: UnityEngine.SelectionBaseAttribute
 class CORDL_TYPE SelectionBaseAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::SelectionBaseAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484b634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48ac2f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   SelectionBaseAttribute(SelectionBaseAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10902 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

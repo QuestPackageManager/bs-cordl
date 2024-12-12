@@ -21,11 +21,10 @@ class ArithmeticException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ArithmeticException);
-// Type: System::ArithmeticException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System {
 // Is value type: false
-// CS Name: ::System::ArithmeticException*
+// CS Name: System.ArithmeticException
 class CORDL_TYPE ArithmeticException : public ::System::SystemException {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::ArithmeticException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3cf4d84, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54ef8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cf4e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cf4de0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54f54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cf4e04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54f78, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

@@ -12,18 +12,17 @@ class Utilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Buffers::Utilities);
-// Type: System.Buffers::Utilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Buffers {
 // Is value type: false
-// CS Name: ::System.Buffers::Utilities*
+// CS Name: System.Buffers.Utilities
 class CORDL_TYPE Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMaxSizeForBucket, addr 0x3d686b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSizeForBucket, addr 0x3dc882c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSizeForBucket(int32_t binIndex);
 
-  /// @brief Method SelectBucketIndex, addr 0x3d6863c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SelectBucketIndex, addr 0x3dc87b0, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SelectBucketIndex(int32_t bufferSize);
 
 protected:

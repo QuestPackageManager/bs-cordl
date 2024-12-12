@@ -12,17 +12,16 @@ class PkixNameConstraintValidatorException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException);
-// Type: Org.BouncyCastle.Pkix::PkixNameConstraintValidatorException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixNameConstraintValidatorException*
+// CS Name: Org.BouncyCastle.Pkix.PkixNameConstraintValidatorException
 class CORDL_TYPE PkixNameConstraintValidatorException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x25535fc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25868e8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
 protected:

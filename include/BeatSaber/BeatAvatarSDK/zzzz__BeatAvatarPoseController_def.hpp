@@ -23,11 +23,10 @@ class BeatAvatarPoseController;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController);
-// Type: BeatSaber.BeatAvatarSDK::BeatAvatarPoseController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarPoseController*
+// CS Name: BeatSaber.BeatAvatarSDK.BeatAvatarPoseController
 class CORDL_TYPE BeatAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,10 +49,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* New_ctor();
 
-  /// @brief Method UpdateBodyPosition, addr 0x222ee20, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateBodyPosition, addr 0x225a394, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateBodyPosition();
 
-  /// @brief Method UpdateTransforms, addr 0x222ed4c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransforms, addr 0x225a2c0, size 0xd4, virtual false, abstract: false, final false
   inline void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation,
                                ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
@@ -87,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x222efcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x225a540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyWorldPosition, addr 0x222ed30, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyWorldPosition, addr 0x225a2a4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatAvatarPoseController(BeatAvatarPoseController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18154 };
+
   /// @brief Field _headTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;
 
@@ -122,14 +124,9 @@ public:
   /// @brief Field _headBodyOffset, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> ____headBodyOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18074 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, ____headTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, ____leftHandTransform) == 0x28, "Offset mismatch!");
@@ -139,6 +136,8 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, ___
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, ____bodyTransform) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, ____headBodyOffset) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController, 0x48>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController);

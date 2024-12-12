@@ -27,14 +27,13 @@ class FactoryToChoiceBinder_11;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::FactoryToChoiceBinder_11);
-// Type: Zenject::FactoryToChoiceBinder`11
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.FactoryFromBinder`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
           typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::FactoryToChoiceBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>*
+// CS Name: Zenject.FactoryToChoiceBinder`11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract>
 class CORDL_TYPE FactoryToChoiceBinder_11 : public ::Zenject::FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract> {
 public:
   // Declarations
@@ -65,7 +64,7 @@ public:
   FactoryToChoiceBinder_11(FactoryToChoiceBinder_11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12154 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

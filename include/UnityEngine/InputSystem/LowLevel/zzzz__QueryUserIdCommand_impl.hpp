@@ -1,25 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryUserIdCommand.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__QueryUserIdCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryUserIdCommand_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryUserIdCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer::__QueryUserIdCommand___idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer::QueryUserIdCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer::__QueryUserIdCommand___idBuffer_e__FixedBuffer() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer::QueryUserIdCommand__idBuffer_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::get_Type)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a58bc;
+  constexpr static std::size_t addrs = 0x4606bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand>::get(),
@@ -33,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::ReadId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45a58ec;
+  constexpr static std::size_t addrs = 0x4606c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand>::get(),
@@ -47,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45a58fc;
+  constexpr static std::size_t addrs = 0x4606c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand>::get(),
@@ -61,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45a592c;
+  constexpr static std::size_t addrs = 0x4606c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand>::get(),
@@ -69,14 +67,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
-constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
-  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_get_baseCommand() {
   return this->___baseCommand;
 }
@@ -86,13 +76,13 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& UnityE
 constexpr void UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value) {
   this->___baseCommand = value;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer& UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_get_idBuffer() {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer& UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_get_idBuffer() {
   return this->___idBuffer;
 }
-constexpr ::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer const& UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_get_idBuffer() const {
+constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer const& UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_get_idBuffer() const {
   return this->___idBuffer;
 }
-constexpr void UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer value) {
+constexpr void UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::__cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer value) {
   this->___idBuffer = value;
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::get_Type() {
@@ -115,10 +105,18 @@ inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand UnityEngine::Inp
                                                                              "Create", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand, false>(nullptr, ___internal_method);
 }
+/// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
+constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo() {
+  return static_cast<::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: Some("{}") }, CppParam { name: "idBuffer", ty:
-// "::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
+// "::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand::QueryUserIdCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand,
-                                                                                       ::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer idBuffer) noexcept {
+                                                                                       ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer idBuffer) noexcept {
   this->baseCommand = baseCommand;
   this->idBuffer = idBuffer;
 }

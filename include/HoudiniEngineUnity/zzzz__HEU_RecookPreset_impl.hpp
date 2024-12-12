@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_RecookPreset::*)()>(&::HoudiniEngineUnity::HEU_RecookPreset::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39b00a8;
+  constexpr static std::size_t addrs = 0x3a06d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_RecookPreset*>::get(), ".ctor",
@@ -22,8 +22,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Volum
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeCachePresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>*> const&
-HoudiniEngineUnity::HEU_RecookPreset::__cordl_internal_get__volumeCachePresets() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* const& HoudiniEngineUnity::HEU_RecookPreset::__cordl_internal_get__volumeCachePresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____volumeCachePresets;
 }
@@ -35,8 +34,7 @@ constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Input
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputPresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>*> const&
-HoudiniEngineUnity::HEU_RecookPreset::__cordl_internal_get__inputPresets() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* const& HoudiniEngineUnity::HEU_RecookPreset::__cordl_internal_get__inputPresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inputPresets;
 }
@@ -44,13 +42,13 @@ constexpr void HoudiniEngineUnity::HEU_RecookPreset::__cordl_internal_set__input
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputPresets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HoudiniEngineUnity::HEU_RecookPreset* HoudiniEngineUnity::HEU_RecookPreset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_RecookPreset*>());
-}
 inline void HoudiniEngineUnity::HEU_RecookPreset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_RecookPreset*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_RecookPreset* HoudiniEngineUnity::HEU_RecookPreset::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_RecookPreset*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_RecookPreset::HEU_RecookPreset() {}

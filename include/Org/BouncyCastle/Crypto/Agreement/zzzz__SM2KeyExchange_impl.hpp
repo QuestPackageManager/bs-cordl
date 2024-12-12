@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x265a2a8;
+  constexpr static std::size_t addrs = 0x268d594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x265a30c;
+  constexpr static std::size_t addrs = 0x268d5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::Init)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x265a334;
+  constexpr static std::size_t addrs = 0x268d620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     int32_t, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::CalculateKey)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x265a508;
+  constexpr static std::size_t addrs = 0x268d7f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::CalculateKeyWithConfirmation)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x265a82c;
+  constexpr static std::size_t addrs = 0x268db18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters*)>(
         &::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::CalculateU)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x265b13c;
+  constexpr static std::size_t addrs = 0x268e428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Math::EC::ECPoint*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::Kdf)> {
   constexpr static std::size_t size = 0x64c;
-  constexpr static std::size_t addrs = 0x265b3bc;
+  constexpr static std::size_t addrs = 0x268e6a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::Reduce)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x265b308;
+  constexpr static std::size_t addrs = 0x268e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::S1)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x265ae54;
+  constexpr static std::size_t addrs = 0x268e140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::EC::ECPoint*,
     ::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::CalculateInnerHash)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x265ac44;
+  constexpr static std::size_t addrs = 0x268df30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::S2)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x265afc8;
+  constexpr static std::size_t addrs = 0x268e2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::GetZ)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x265a6cc;
+  constexpr static std::size_t addrs = 0x268d9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::AddUserID)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x265badc;
+  constexpr static std::size_t addrs = 0x268edc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::AddFieldElement)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x265ba08;
+  constexpr static std::size_t addrs = 0x268ecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Agre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDigest;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mDigest() const {
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mDigest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDigest;
 }
@@ -268,8 +268,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mStaticKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mStaticKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticKey;
 }
@@ -281,7 +280,7 @@ constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Ag
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPubPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mStaticPubPoint() const {
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mStaticPubPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mStaticPubPoint;
 }
@@ -293,7 +292,7 @@ constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& Org::BouncyCastle::Crypto::Ag
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPubPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mEphemeralPubPoint() const {
+constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mEphemeralPubPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralPubPoint;
 }
@@ -305,8 +304,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& Org::Bou
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mECParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const&
-Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mECParams() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mECParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mECParams;
 }
@@ -330,8 +328,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& Org:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mEphemeralKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_internal_get_mEphemeralKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mEphemeralKey;
 }
@@ -351,16 +348,10 @@ constexpr void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mInitiator = value;
 }
-inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>());
-}
 inline void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>(digest));
 }
 inline void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -463,6 +454,12 @@ inline void Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::AddFieldElemen
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IDigest*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, digest, v);
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>());
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange*>(digest));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange::SM2KeyExchange() {}

@@ -9,26 +9,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(PenData)
-namespace UnityEngine {
-struct PenEventType;
-}
-namespace UnityEngine {
-struct PenStatus;
-}
-namespace UnityEngine {
-struct Vector2;
-}
 // Forward declare root types
 namespace UnityEngine {
 struct PenData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PenData);
-// Type: UnityEngine::PenData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.PenEventType, UnityEngine.PenStatus, UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::PenData
+// CS Name: UnityEngine.PenData
 struct CORDL_TYPE PenData {
 public:
   // Declarations
@@ -42,6 +32,12 @@ public:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
   constexpr PenData(::UnityEngine::Vector2 position, ::UnityEngine::Vector2 tilt, ::UnityEngine::PenStatus penStatus, float_t twist, float_t pressure, ::UnityEngine::PenEventType contactType,
                     ::UnityEngine::Vector2 deltaPos) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18608 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field position, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::Vector2 position;
@@ -64,17 +60,9 @@ public:
   /// @brief Field deltaPos, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 deltaPos;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18527 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PenData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::PenData, position) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::PenData, tilt) == 0x8, "Offset mismatch!");
@@ -88,6 +76,8 @@ static_assert(offsetof(::UnityEngine::PenData, pressure) == 0x18, "Offset mismat
 static_assert(offsetof(::UnityEngine::PenData, contactType) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::PenData, deltaPos) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PenData, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PenData, "UnityEngine", "PenData");

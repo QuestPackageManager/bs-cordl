@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneManagerAPIInternal)
@@ -20,24 +19,23 @@ class SceneManagerAPIInternal;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SceneManagement::SceneManagerAPIInternal);
-// Type: UnityEngine.SceneManagement::SceneManagerAPIInternal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::SceneManagement {
 // Is value type: false
-// CS Name: ::UnityEngine.SceneManagement::SceneManagerAPIInternal*
+// CS Name: UnityEngine.SceneManagement.SceneManagerAPIInternal
 class CORDL_TYPE SceneManagerAPIInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x485cdac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x48be124, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x485cdd4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal, addr 0x48be14c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                                bool mustCompleteNextFrame);
 
-  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x485ce34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LoadSceneAsyncNameIndexInternal_Injected, addr 0x48be1ac, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* LoadSceneAsyncNameIndexInternal_Injected(::StringW sceneName, int32_t sceneBuildIndex,
-                                                                                        ByRef<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
+                                                                                        ::ByRef<::UnityEngine::SceneManagement::LoadSceneParameters> parameters, bool mustCompleteNextFrame);
 
 protected:
   // Ctor Parameters []
@@ -54,7 +52,7 @@ public:
   SceneManagerAPIInternal(SceneManagerAPIInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

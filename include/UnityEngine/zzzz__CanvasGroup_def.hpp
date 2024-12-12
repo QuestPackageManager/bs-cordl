@@ -4,13 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
+#include "UnityEngine/zzzz__ICanvasRaycastFilter_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CanvasGroup)
 namespace UnityEngine {
 class Camera;
-}
-namespace UnityEngine {
-class ICanvasRaycastFilter;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -21,11 +19,10 @@ class CanvasGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CanvasGroup);
-// Type: UnityEngine::CanvasGroup
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Behaviour, UnityEngine.ICanvasRaycastFilter
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::CanvasGroup*
+// CS Name: UnityEngine.CanvasGroup
 class CORDL_TYPE CanvasGroup : public ::UnityEngine::Behaviour {
 public:
   // Declarations
@@ -40,39 +37,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::ICanvasRaycastFilter"
   constexpr operator ::UnityEngine::ICanvasRaycastFilter*() noexcept;
 
-  /// @brief Method IsRaycastLocationValid, addr 0x4a42500, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method IsRaycastLocationValid, addr 0x4aa6e10, size 0x3c, virtual true, abstract: false, final true
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
   static inline ::UnityEngine::CanvasGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a4253c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa6e4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alpha, addr 0x4a422f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alpha, addr 0x4aa6c08, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
-  /// @brief Method get_blocksRaycasts, addr 0x4a42400, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_blocksRaycasts, addr 0x4aa6d10, size 0x3c, virtual false, abstract: false, final false
   inline bool get_blocksRaycasts();
 
-  /// @brief Method get_ignoreParentGroups, addr 0x4a42480, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreParentGroups, addr 0x4aa6d90, size 0x3c, virtual false, abstract: false, final false
   inline bool get_ignoreParentGroups();
 
-  /// @brief Method get_interactable, addr 0x4a42380, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x4aa6c90, size 0x3c, virtual false, abstract: false, final false
   inline bool get_interactable();
 
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
   constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
-  /// @brief Method set_alpha, addr 0x4a42334, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_alpha, addr 0x4aa6c44, size 0x4c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method set_blocksRaycasts, addr 0x4a4243c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_blocksRaycasts, addr 0x4aa6d4c, size 0x44, virtual false, abstract: false, final false
   inline void set_blocksRaycasts(bool value);
 
-  /// @brief Method set_ignoreParentGroups, addr 0x4a424bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreParentGroups, addr 0x4aa6dcc, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreParentGroups(bool value);
 
-  /// @brief Method set_interactable, addr 0x4a423bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x4aa6ccc, size 0x44, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
 protected:
@@ -90,7 +87,7 @@ public:
   CanvasGroup(CanvasGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

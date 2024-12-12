@@ -1,11 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/Interpreter/InterpretedFrame.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrameInfo_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrameInfo_def.hpp"
@@ -13,306 +17,304 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__Interpreter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IStrongBox_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29._ctor
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)(int32_t)>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)(int32_t)>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40716cc;
+  constexpr static std::size_t addrs = 0x40d29e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_IDisposable_Dispose
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4071ea4;
+  constexpr static std::size_t addrs = 0x40d31b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.MoveNext
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::MoveNext)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4071ea8;
+  constexpr static std::size_t addrs = 0x40d31bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current
+//  ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-        &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::
+    static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+        &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::
             System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4071f38;
+  constexpr static std::size_t addrs = 0x40d324c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current", std::span<Il2CppClass const* const, 0>(),
                                     ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4071f44;
+  constexpr static std::size_t addrs = 0x40d3258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4071f7c;
+  constexpr static std::size_t addrs = 0x40d3290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method:
-//  ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator
+//  ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* (
-    ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-    &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+    &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::
         System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4071fd8;
+  constexpr static std::size_t addrs = 0x40d32ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator", std::span<Il2CppClass const* const, 0>(),
                                     ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29.System_Collections_IEnumerable_GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::*)()>(
-        &::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerable_GetEnumerator)> {
+    static_cast<::System::Collections::IEnumerator* (::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::*)()>(
+        &::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4072074;
+  constexpr static std::size_t addrs = 0x40d3388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
                                     "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr int32_t& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo const&
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_set___2__current(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____2__current = value;
+}
+constexpr int32_t& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___l__initialThreadId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+constexpr int32_t const& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___l__initialThreadId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+constexpr void System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_set___l__initialThreadId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____l__initialThreadId = value;
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const&
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_set___4__this(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get__frame_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____frame_5__2;
+}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const&
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_get__frame_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____frame_5__2;
+}
+constexpr void
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::__cordl_internal_set__frame_5__2(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____frame_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::_ctor(int32_t __1__state) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, false>(this, ___internal_method);
+}
+inline void System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* System::Linq::Expressions::Interpreter::
+    InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*, false>(this, ___internal_method);
+}
+inline ::System::Collections::IEnumerator* System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>::get(),
+                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*
+System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29*>(__1__state));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>"
-constexpr System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::operator ::System::Collections::Generic::IEnumerable_1<
+constexpr System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::operator ::System::Collections::Generic::IEnumerable_1<
     ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* System::Linq::Expressions::Interpreter::
-    __InterpretedFrame___GetStackTraceDebugInfo_d__29::i___System__Collections__Generic__IEnumerable_1___System__Linq__Expressions__Interpreter__InterpretedFrameInfo_() noexcept {
+    InterpretedFrame__GetStackTraceDebugInfo_d__29::i___System__Collections__Generic__IEnumerable_1___System__Linq__Expressions__Interpreter__InterpretedFrameInfo_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>"
-constexpr System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::operator ::System::Collections::Generic::IEnumerator_1<
+constexpr System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::operator ::System::Collections::Generic::IEnumerator_1<
     ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* System::Linq::Expressions::Interpreter::
-    __InterpretedFrame___GetStackTraceDebugInfo_d__29::i___System__Collections__Generic__IEnumerator_1___System__Linq__Expressions__Interpreter__InterpretedFrameInfo_() noexcept {
+    InterpretedFrame__GetStackTraceDebugInfo_d__29::i___System__Collections__Generic__IEnumerator_1___System__Linq__Expressions__Interpreter__InterpretedFrameInfo_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::operator ::System::IDisposable*() noexcept {
+constexpr System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-constexpr int32_t& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo&
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo const&
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_set___2__current(::System::Linq::Expressions::Interpreter::InterpretedFrameInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____2__current = value;
-}
-constexpr int32_t& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::InterpretedFrame*> const&
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_set___4__this(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get__frame_5__2() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____frame_5__2;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::InterpretedFrame*> const&
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_get__frame_5__2() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____frame_5__2;
-}
-constexpr void
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__cordl_internal_set__frame_5__2(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____frame_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*
-System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>(__1__state));
-}
-inline void System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::_ctor(int32_t __1__state) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Linq::Expressions::Interpreter::InterpretedFrameInfo System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::
-    System_Collections_Generic_IEnumerator_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.Collections.Generic.IEnumerator<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.get_Current", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo, false>(this, ___internal_method);
-}
-inline void System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* System::Linq::Expressions::Interpreter::
-    __InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_Generic_IEnumerable_System_Linq_Expressions_Interpreter_InterpretedFrameInfo__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.Collections.Generic.IEnumerable<System.Linq.Expressions.Interpreter.InterpretedFrameInfo>.GetEnumerator", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29*>::get(),
-                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::__InterpretedFrame___GetStackTraceDebugInfo_d__29::__InterpretedFrame___GetStackTraceDebugInfo_d__29() {}
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29::InterpretedFrame__GetStackTraceDebugInfo_d__29() {}
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::InterpretedFrame._ctor
 template <>
 
@@ -320,7 +322,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::Interpreter*, ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4071254;
+  constexpr static std::size_t addrs = 0x40d2568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (
     ::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int32_t)>(&::System::Linq::Expressions::Interpreter::InterpretedFrame::GetDebugInfo)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4071344;
+  constexpr static std::size_t addrs = 0x40d2658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::get_Name)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4071494;
+  constexpr static std::size_t addrs = 0x40d27a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -367,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4067368;
+  constexpr static std::size_t addrs = 0x40c867c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -382,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(bool)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4067920;
+  constexpr static std::size_t addrs = 0x40c8c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -397,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x406ade4;
+  constexpr static std::size_t addrs = 0x40cc0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(uint8_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40673d4;
+  constexpr static std::size_t addrs = 0x40c86e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int8_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40714b0;
+  constexpr static std::size_t addrs = 0x40d27c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -442,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int16_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x406ac90;
+  constexpr static std::size_t addrs = 0x40cbfa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(uint16_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Push)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x406757c;
+  constexpr static std::size_t addrs = 0x40c8890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Pop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x406732c;
+  constexpr static std::size_t addrs = 0x40c8640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -487,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::SetStackDepth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x407156c;
+  constexpr static std::size_t addrs = 0x40d2880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -502,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Peek)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4071590;
+  constexpr static std::size_t addrs = 0x40d28a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -517,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Dup)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40715c8;
+  constexpr static std::size_t addrs = 0x40d28dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -532,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrame* (
     ::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&::System::Linq::Expressions::Interpreter::InterpretedFrame::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4071654;
+  constexpr static std::size_t addrs = 0x40d2968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -547,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Interpreter::InterpretedFrameInfo>* (
     ::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&::System::Linq::Expressions::Interpreter::InterpretedFrame::GetStackTraceDebugInfo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x407165c;
+  constexpr static std::size_t addrs = 0x40d2970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -562,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(::System::Exception*)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::SaveTraceToException)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4071700;
+  constexpr static std::size_t addrs = 0x40d2a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -577,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::InterpretedFrame* (
     ::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(&::System::Linq::Expressions::Interpreter::InterpretedFrame::Enter)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4071950;
+  constexpr static std::size_t addrs = 0x40d2c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -592,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::InterpretedFrame::Leave)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x40719b8;
+  constexpr static std::size_t addrs = 0x40d2ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::IsJumpHappened)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4071a08;
+  constexpr static std::size_t addrs = 0x40d2d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -622,7 +624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::RemoveContinuation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4071a18;
+  constexpr static std::size_t addrs = 0x40d2d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -637,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::PushContinuation)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4071a28;
+  constexpr static std::size_t addrs = 0x40d2d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::YieldToCurrentContinuation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4071a64;
+  constexpr static std::size_t addrs = 0x40d2d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -667,7 +669,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::YieldToPendingContinuation)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4071adc;
+  constexpr static std::size_t addrs = 0x40d2df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -682,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::PushPendingContinuation)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4071c6c;
+  constexpr static std::size_t addrs = 0x40d2f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -697,7 +699,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)()>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::PopPendingContinuation)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4071cec;
+  constexpr static std::size_t addrs = 0x40d3000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -712,7 +714,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::InterpretedFrame::*)(int32_t, ::System::Object*, bool)>(
     &::System::Linq::Expressions::Interpreter::InterpretedFrame::Goto)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4071d70;
+  constexpr static std::size_t addrs = 0x40d3084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -726,8 +728,7 @@ constexpr ::System::Linq::Expressions::Interpreter::Interpreter*& System::Linq::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Interpreter;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::Interpreter*> const&
-System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get_Interpreter() const {
+constexpr ::System::Linq::Expressions::Interpreter::Interpreter* const& System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get_Interpreter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Interpreter;
 }
@@ -739,8 +740,7 @@ constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::InterpretedFrame*> const&
-System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get__parent() const {
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const& System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get__parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parent;
 }
@@ -788,7 +788,7 @@ constexpr ::System::Object*& System::Linq::Expressions::Interpreter::Interpreted
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get__pendingValue() const {
+constexpr ::System::Object* const& System::Linq::Expressions::Interpreter::InterpretedFrame::__cordl_internal_get__pendingValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingValue;
 }
@@ -855,11 +855,6 @@ inline void System::Linq::Expressions::Interpreter::InterpretedFrame::setStaticF
 inline ::System::Linq::Expressions::Interpreter::InterpretedFrame* System::Linq::Expressions::Interpreter::InterpretedFrame::getStaticF_s_currentFrame() {
   return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::InterpretedFrame*, "s_currentFrame",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get>();
-}
-inline ::System::Linq::Expressions::Interpreter::InterpretedFrame*
-System::Linq::Expressions::Interpreter::InterpretedFrame::New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
-                                                                   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::InterpretedFrame*>(interpreter, closure));
 }
 inline void
 System::Linq::Expressions::Interpreter::InterpretedFrame::_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
@@ -1015,6 +1010,11 @@ inline int32_t System::Linq::Expressions::Interpreter::InterpretedFrame::Goto(in
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, labelIndex, value, gotoExceptionHandler);
+}
+inline ::System::Linq::Expressions::Interpreter::InterpretedFrame*
+System::Linq::Expressions::Interpreter::InterpretedFrame::New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
+                                                                   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::InterpretedFrame*>(interpreter, closure));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame::InterpretedFrame() {}

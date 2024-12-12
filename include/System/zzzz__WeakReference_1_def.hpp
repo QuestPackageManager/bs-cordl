@@ -4,12 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(WeakReference_1)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -22,13 +19,12 @@ template <typename T> class WeakReference_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::WeakReference_1);
-// Type: System::WeakReference`1
-// SizeInfo { instance_size: 32, native_size: 25, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.InteropServices.GCHandle, System.Runtime.Serialization.ISerializable
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System::WeakReference`1<T>*
+// CS Name: System.WeakReference`1<T>
 class CORDL_TYPE WeakReference_1 : public ::System::Object {
 public:
   // Declarations
@@ -57,7 +53,7 @@ public:
   inline void SetTarget(T target);
 
   /// @brief Method TryGetTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetTarget(ByRef<T> target);
+  inline bool TryGetTarget(::ByRef<T> target);
 
   constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_handle() const;
 
@@ -97,14 +93,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WeakReference_1(WeakReference_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2645 };
+
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___handle;
 
   /// @brief Field trackResurrection, offset: 0x18, size: 0x1, def value: None
   bool ___trackResurrection;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2645 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

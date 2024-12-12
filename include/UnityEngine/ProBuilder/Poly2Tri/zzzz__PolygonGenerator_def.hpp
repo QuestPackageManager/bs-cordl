@@ -19,29 +19,28 @@ class PolygonGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
-// Type: UnityEngine.ProBuilder.Poly2Tri::PolygonGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonGenerator*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.PolygonGenerator
 class CORDL_TYPE PolygonGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field PI_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PI_2, put = setStaticF_PI_2)) double_t PI_2;
+  __declspec(property(get = getStaticF_PI_2, put = setStaticF_PI_2)) double_t PI_2;
 
   /// @brief Field RNG, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
+  __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
 
-  /// @brief Method RandomCircleSweep, addr 0x469bfcc, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep, addr 0x46fd2e0, size 0x2ec, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
 
-  /// @brief Method RandomCircleSweep2, addr 0x469c2b8, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep2, addr 0x46fd5cc, size 0x254, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
 
-  /// @brief Method .ctor, addr 0x469c50c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46fd820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_PI_2();
@@ -67,7 +66,7 @@ public:
   PolygonGenerator(PolygonGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

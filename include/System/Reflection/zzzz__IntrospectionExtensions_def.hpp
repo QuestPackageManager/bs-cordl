@@ -17,15 +17,14 @@ class IntrospectionExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::IntrospectionExtensions);
-// Type: System.Reflection::IntrospectionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::IntrospectionExtensions*
+// CS Name: System.Reflection.IntrospectionExtensions
 class CORDL_TYPE IntrospectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeInfo, addr 0x3cc1e54, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInfo, addr 0x3d21fc8, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type);
 
 protected:

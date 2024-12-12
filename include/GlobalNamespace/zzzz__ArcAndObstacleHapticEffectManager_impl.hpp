@@ -14,129 +14,129 @@
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState.get_canBeActive
+//  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState.get_canBeActive
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::*)()>(
-    &::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::get_canBeActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
+    &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_canBeActive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b1a9d4;
+  constexpr static std::size_t addrs = 0x3b7bbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), "get_canBeActive",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), "get_canBeActive",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState.get_isActive
+//  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState.get_isActive
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::*)()>(
-    &::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::get_isActive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
+    &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_isActive)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b1a904;
+  constexpr static std::size_t addrs = 0x3b7bb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), "get_isActive",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), "get_isActive",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState._ctor
+//  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::*)()>(
-    &::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::*)()>(
+    &::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1abac;
+  constexpr static std::size_t addrs = 0x3b7bdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ColorType& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_colorType() {
+constexpr ::GlobalNamespace::ColorType& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_colorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
-constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_colorType() const {
+constexpr ::GlobalNamespace::ColorType const& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_colorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorType;
 }
-constexpr void GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_set_colorType(::GlobalNamespace::ColorType value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_set_colorType(::GlobalNamespace::ColorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___colorType = value;
 }
-constexpr ::UnityW<::GlobalNamespace::SliderInteractionManager>& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_sliderInteractionManager() {
+constexpr ::UnityW<::GlobalNamespace::SliderInteractionManager>& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_sliderInteractionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderInteractionManager;
 }
-constexpr ::UnityW<::GlobalNamespace::SliderInteractionManager> const& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_sliderInteractionManager() const {
+constexpr ::UnityW<::GlobalNamespace::SliderInteractionManager> const& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_sliderInteractionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliderInteractionManager;
 }
-constexpr void GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_set_sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_set_sliderInteractionManager(::UnityW<::GlobalNamespace::SliderInteractionManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sliderInteractionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_isInTheObstacle() {
+constexpr bool& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_isInTheObstacle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInTheObstacle;
 }
-constexpr bool const& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_isInTheObstacle() const {
+constexpr bool const& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_isInTheObstacle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isInTheObstacle;
 }
-constexpr void GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_set_isInTheObstacle(bool value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_set_isInTheObstacle(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isInTheObstacle = value;
 }
-constexpr bool& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_isSliderActive() {
+constexpr bool& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_isSliderActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isSliderActive;
 }
-constexpr bool const& GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_get_isSliderActive() const {
+constexpr bool const& GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_get_isSliderActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isSliderActive;
 }
-constexpr void GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__cordl_internal_set_isSliderActive(bool value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::__cordl_internal_set_isSliderActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isSliderActive = value;
 }
-inline bool GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::get_canBeActive() {
+inline bool GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_canBeActive() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), "get_canBeActive",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), "get_canBeActive",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::get_isActive() {
+inline bool GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::get_isActive() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), "get_isActive",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), "get_isActive",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>());
-}
-inline void GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::_ctor() {
+inline void GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState::__ArcAndObstacleHapticEffectManager__EffectState() {}
+constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState::ArcAndObstacleHapticEffectManager_EffectState() {}
 //  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::Start)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x3b19f64;
+  constexpr static std::size_t addrs = 0x3b7b164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3b1a40c;
+  constexpr static std::size_t addrs = 0x3b7b60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::Update)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b1a878;
+  constexpr static std::size_t addrs = 0x3b7ba78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
@@ -176,14 +176,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(
-    ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::UpdateHaptic)> {
+    ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::UpdateHaptic)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b1a8a0;
+  constexpr static std::size_t addrs = 0x3b7baa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(), "UpdateHaptic", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
     return ___internal_method;
   }
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSparkleEffectDidStart)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b1a948;
+  constexpr static std::size_t addrs = 0x3b7bb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSparkleEffectDidEnd)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b1a9f4;
+  constexpr static std::size_t addrs = 0x3b7bbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SliderInteractionManager*)>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSliderInteractionManagerAllSliderWereRemovedFromActiveSliders)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b1aa68;
+  constexpr static std::size_t addrs = 0x3b7bc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(
     ::GlobalNamespace::SliderInteractionManager*, float_t)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::HandleSliderInteractionManagerSliderWasAddedToActiveSliders)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b1aad8;
+  constexpr static std::size_t addrs = 0x3b7bcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::TryDisableThis)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b1aa18;
+  constexpr static std::size_t addrs = 0x3b7bc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
@@ -267,10 +267,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager.GetState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* (
     ::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b1a988;
+  constexpr static std::size_t addrs = 0x3b7bb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,10 +282,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::ArcAndObstacleHapticEffectManager.GetState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* (
     ::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)(::GlobalNamespace::ColorType)>(&::GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b1aaa8;
+  constexpr static std::size_t addrs = 0x3b7bca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcAndObstacleHapticEffectManager::*)()>(
     &::GlobalNamespace::ArcAndObstacleHapticEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b1ab34;
+  constexpr static std::size_t addrs = 0x3b7bd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
@@ -337,7 +337,7 @@ GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__slider
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderInteractionManagers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* const&
 GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__sliderInteractionManagers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sliderInteractionManagers;
@@ -371,29 +371,27 @@ constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__leftHandEffectState() {
+constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__leftHandEffectState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandEffectState;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*> const&
-GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__leftHandEffectState() const {
+constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* const& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__leftHandEffectState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leftHandEffectState;
 }
-constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_set__leftHandEffectState(::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_set__leftHandEffectState(::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leftHandEffectState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__rightHandEffectState() {
+constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__rightHandEffectState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandEffectState;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*> const&
-GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__rightHandEffectState() const {
+constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* const& GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_get__rightHandEffectState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rightHandEffectState;
 }
-constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_set__rightHandEffectState(::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* value) {
+constexpr void GlobalNamespace::ArcAndObstacleHapticEffectManager::__cordl_internal_set__rightHandEffectState(::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rightHandEffectState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -412,10 +410,10 @@ inline void GlobalNamespace::ArcAndObstacleHapticEffectManager::Update() {
                                                                              "Update", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::ArcAndObstacleHapticEffectManager::UpdateHaptic(::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* state, ::UnityEngine::XR::XRNode node) {
+inline void GlobalNamespace::ArcAndObstacleHapticEffectManager::UpdateHaptic(::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* state, ::UnityEngine::XR::XRNode node) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(), "UpdateHaptic", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::XR::XRNode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, node);
 }
@@ -452,25 +450,25 @@ inline void GlobalNamespace::ArcAndObstacleHapticEffectManager::TryDisableThis()
                                                                              "TryDisableThis", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState(::GlobalNamespace::SaberType saberType) {
+inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState(::GlobalNamespace::SaberType saberType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(), "GetState", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*, false>(this, ___internal_method, saberType);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*, false>(this, ___internal_method, saberType);
 }
-inline ::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState* GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState(::GlobalNamespace::ColorType colorType) {
+inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState* GlobalNamespace::ArcAndObstacleHapticEffectManager::GetState(::GlobalNamespace::ColorType colorType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(), "GetState", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ArcAndObstacleHapticEffectManager__EffectState*, false>(this, ___internal_method, colorType);
-}
-inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager* GlobalNamespace::ArcAndObstacleHapticEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>());
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ArcAndObstacleHapticEffectManager_EffectState*, false>(this, ___internal_method, colorType);
 }
 inline void GlobalNamespace::ArcAndObstacleHapticEffectManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ArcAndObstacleHapticEffectManager* GlobalNamespace::ArcAndObstacleHapticEffectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ArcAndObstacleHapticEffectManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ArcAndObstacleHapticEffectManager::ArcAndObstacleHapticEffectManager() {}

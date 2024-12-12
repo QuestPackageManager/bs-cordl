@@ -1,5 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerPlayersManager.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
@@ -18,217 +22,213 @@
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayersManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)(int32_t)>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)(int32_t)>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b79dd8;
+  constexpr static std::size_t addrs = 0x3bdb634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                    ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b79efc;
+  constexpr static std::size_t addrs = 0x3bdb758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
                                     "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3b79f00;
+  constexpr static std::size_t addrs = 0x3bdb75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7a2e0;
+  constexpr static std::size_t addrs = 0x3bdbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b7a2e8;
+  constexpr static std::size_t addrs = 0x3bdbb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
                                     "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
-    &::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::*)()>(
+    &::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7a320;
+  constexpr static std::size_t addrs = 0x3bdbb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
                                     "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr int32_t& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr int32_t const& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+constexpr void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+constexpr ::System::Object*& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr ::System::Object* const& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+constexpr void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___2__current(::System::Object* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___4__this() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___4__this() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____4__this;
+}
+constexpr void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::_ctor(int32_t __1__state) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+inline void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Object* GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*
+GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51*>(__1__state));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const&
-GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___2__current(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___4__this() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const&
-GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_get___4__this() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____4__this;
-}
-constexpr void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*
-GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>(__1__state));
-}
-inline void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::_ctor(int32_t __1__state) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51*>::get(),
-                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51::__MultiplayerPlayersManager___SwitchLocalPlayerToInactiveCoroutine_d__51() {}
+constexpr ::GlobalNamespace::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51::MultiplayerPlayersManager__SwitchLocalPlayerToInactiveCoroutine_d__51() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager.get_playerSpawningFinished
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::get_playerSpawningFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b796fc;
+  constexpr static std::size_t addrs = 0x3bdb010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(bool)>(
     &::GlobalNamespace::MultiplayerPlayersManager::set_playerSpawningFinished)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b79704;
+  constexpr static std::size_t addrs = 0x3bdb018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* (
     ::GlobalNamespace::MultiplayerPlayersManager::*)()>(&::GlobalNamespace::MultiplayerPlayersManager::get_allActiveAtGameStartPlayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b79710;
+  constexpr static std::size_t addrs = 0x3bdb024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IStartSeekSongControllerProvider* (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::get_localPlayerStartSeekSongController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b79718;
+  constexpr static std::size_t addrs = 0x3bdb02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade> (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::get_activeLocalPlayerFacade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b79720;
+  constexpr static std::size_t addrs = 0x3bdb034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
@@ -301,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade> (
     ::GlobalNamespace::MultiplayerPlayersManager::*)()>(&::GlobalNamespace::MultiplayerPlayersManager::get_inactivePlayerFacade)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b79728;
+  constexpr static std::size_t addrs = 0x3bdb03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::get_localPlayerTransform)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b76368;
+  constexpr static std::size_t addrs = 0x3bd7e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::add_playerSpawningDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b77464;
+  constexpr static std::size_t addrs = 0x3bd8f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::remove_playerSpawningDidFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b775cc;
+  constexpr static std::size_t addrs = 0x3bd909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::add_didSwitchPlayerToInactiveEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b6c6cc;
+  constexpr static std::size_t addrs = 0x3bce868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::System::Action*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::remove_didSwitchPlayerToInactiveEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b79730;
+  constexpr static std::size_t addrs = 0x3bcaee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::MultiplayerPlayersManager::add_playerDidFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b797cc;
+  constexpr static std::size_t addrs = 0x3bdb044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -404,7 +404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::MultiplayerPlayersManager::remove_playerDidFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7987c;
+  constexpr static std::size_t addrs = 0x3bdb0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::MultiplayerPlayersManager::add_playerNetworkDidFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7992c;
+  constexpr static std::size_t addrs = 0x3bdb1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::MultiplayerPlayersManager::remove_playerNetworkDidFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b799dc;
+  constexpr static std::size_t addrs = 0x3bdb254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -450,7 +450,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerPlayerStartState, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::SpawnPlayers)> {
   constexpr static std::size_t size = 0x94c;
-  constexpr static std::size_t addrs = 0x3b6bd18;
+  constexpr static std::size_t addrs = 0x3bcdf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -464,30 +464,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerPlayersManager::*)(
-    ::StringW, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>)>(&::GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
+    ::StringW, ::ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>)>(&::GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b6c664;
+  constexpr static std::size_t addrs = 0x3bccff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), "TryGetConnectedPlayerController", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayersManager.TryGetConnectedCenterFacingRotation
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerPlayersManager::*)(::StringW, ByRef<float_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerPlayersManager::*)(::StringW, ::ByRef<float_t>)>(
     &::GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b79cf4;
+  constexpr static std::size_t addrs = 0x3bdb56c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), "TryGetConnectedCenterFacingRotation", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
+                                                                               "TryGetConnectedCenterFacingRotation", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -497,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::SwitchLocalPlayerToInactive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6cbdc;
+  constexpr static std::size_t addrs = 0x3bced78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(),
@@ -511,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::ReportLocalPlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b79dbc;
+  constexpr static std::size_t addrs = 0x3bcb730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -526,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerPlayersManager::*)()>(
     &::GlobalNamespace::MultiplayerPlayersManager::SwitchLocalPlayerToInactiveCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b79d5c;
+  constexpr static std::size_t addrs = 0x3bdb5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -541,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::GlobalNamespace::MultiplayerPlayerLayout)>(
     &::GlobalNamespace::MultiplayerPlayersManager::BindPlayerFactories)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3b79a8c;
+  constexpr static std::size_t addrs = 0x3bdb304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -556,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::HandlePlayerDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b79e00;
+  constexpr static std::size_t addrs = 0x3bdb65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerPlayersManager::HandlePlayerNetworkDidFailed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b79e1c;
+  constexpr static std::size_t addrs = 0x3bdb678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -585,7 +586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayersManager::*)()>(&::GlobalNamespace::MultiplayerPlayersManager::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b79e38;
+  constexpr static std::size_t addrs = 0x3bdb694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), ".ctor",
@@ -593,14 +594,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
-constexpr GlobalNamespace::MultiplayerPlayersManager::operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
-constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* GlobalNamespace::MultiplayerPlayersManager::i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerFacade>& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__activeLocalPlayerControllerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLocalPlayerControllerPrefab;
@@ -668,8 +661,7 @@ constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
@@ -693,7 +685,7 @@ constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::Multip
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__layoutProvider() const {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
@@ -717,7 +709,7 @@ constexpr ::Zenject::DiContainer*& GlobalNamespace::MultiplayerPlayersManager::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -741,7 +733,7 @@ constexpr ::System::Action*& GlobalNamespace::MultiplayerPlayersManager::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpawningDidFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerSpawningDidFinishEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerSpawningDidFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerSpawningDidFinishEvent;
 }
@@ -753,7 +745,7 @@ constexpr ::System::Action*& GlobalNamespace::MultiplayerPlayersManager::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSwitchPlayerToInactiveEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_didSwitchPlayerToInactiveEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_didSwitchPlayerToInactiveEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSwitchPlayerToInactiveEvent;
 }
@@ -765,8 +757,7 @@ constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResult
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDidFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerDidFinishEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerDidFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerDidFinishEvent;
 }
@@ -778,8 +769,7 @@ constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResult
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerNetworkDidFailedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerNetworkDidFailedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get_playerNetworkDidFailedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerNetworkDidFailedEvent;
 }
@@ -815,8 +805,7 @@ constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& GlobalNamesp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEventsPublisher;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__currentEventsPublisher() const {
+constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__currentEventsPublisher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEventsPublisher;
 }
@@ -828,8 +817,7 @@ constexpr ::GlobalNamespace::IStartSeekSongControllerProvider*& GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentStartSeekSongControllerProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IStartSeekSongControllerProvider*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__currentStartSeekSongControllerProvider() const {
+constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__currentStartSeekSongControllerProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentStartSeekSongControllerProvider;
 }
@@ -838,42 +826,39 @@ constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set_
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentStartSeekSongControllerProvider)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__activeLocalPlayerFactory() {
+constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__activeLocalPlayerFactory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLocalPlayerFactory;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__activeLocalPlayerFactory() const {
+constexpr ::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__activeLocalPlayerFactory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLocalPlayerFactory;
 }
-constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__activeLocalPlayerFactory(::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* value) {
+constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__activeLocalPlayerFactory(::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeLocalPlayerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__inactiveLocalPlayerFactory() {
+constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade_Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__inactiveLocalPlayerFactory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveLocalPlayerFactory;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__inactiveLocalPlayerFactory() const {
+constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade_Factory* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__inactiveLocalPlayerFactory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inactiveLocalPlayerFactory;
 }
-constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__inactiveLocalPlayerFactory(::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* value) {
+constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__inactiveLocalPlayerFactory(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade_Factory* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inactiveLocalPlayerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerFactory() {
+constexpr ::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory*& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerFactory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerFactory;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerFactory() const {
+constexpr ::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerFactory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerFactory;
 }
-constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__connectedPlayerFactory(::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* value) {
+constexpr void GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_set__connectedPlayerFactory(::GlobalNamespace::MultiplayerConnectedPlayerFacade_Factory* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectedPlayerFactory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -882,7 +867,7 @@ GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlaye
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerControllersMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>>* const&
 GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerControllersMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerControllersMap;
@@ -896,8 +881,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& Glo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerCenterFacingRotationsMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const&
-GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerCenterFacingRotationsMap() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* const& GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__connectedPlayerCenterFacingRotationsMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayerCenterFacingRotationsMap;
 }
@@ -910,7 +894,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ICo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allActiveAtGameStartPlayers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* const&
 GlobalNamespace::MultiplayerPlayersManager::__cordl_internal_get__allActiveAtGameStartPlayers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allActiveAtGameStartPlayers;
@@ -1013,17 +997,17 @@ inline void GlobalNamespace::MultiplayerPlayersManager::SpawnPlayers(::GlobalNam
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localPlayerStartState, allActiveAtGameStartPlayers);
 }
-inline bool GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController(::StringW userId, ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController) {
+inline bool GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedPlayerController(::StringW userId, ::ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*> connectedPlayerController) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), "TryGetConnectedPlayerController", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, userId, connectedPlayerController);
 }
-inline bool GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation(::StringW userId, ByRef<float_t> centerFacingRotation) {
+inline bool GlobalNamespace::MultiplayerPlayersManager::TryGetConnectedCenterFacingRotation(::StringW userId, ::ByRef<float_t> centerFacingRotation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), "TryGetConnectedCenterFacingRotation", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<float_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, userId, centerFacingRotation);
 }
 inline void GlobalNamespace::MultiplayerPlayersManager::SwitchLocalPlayerToInactive() {
@@ -1061,13 +1045,21 @@ inline void GlobalNamespace::MultiplayerPlayersManager::HandlePlayerNetworkDidFa
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults);
 }
-inline ::GlobalNamespace::MultiplayerPlayersManager* GlobalNamespace::MultiplayerPlayersManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPlayersManager*>());
-}
 inline void GlobalNamespace::MultiplayerPlayersManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayersManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerPlayersManager* GlobalNamespace::MultiplayerPlayersManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPlayersManager*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
+constexpr GlobalNamespace::MultiplayerPlayersManager::operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
+constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* GlobalNamespace::MultiplayerPlayersManager::i___GlobalNamespace__IMultiplayerLevelEndActionsPublisher() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerPlayersManager::MultiplayerPlayersManager() {}

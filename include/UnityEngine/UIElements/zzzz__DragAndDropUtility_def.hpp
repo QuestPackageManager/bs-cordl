@@ -20,25 +20,24 @@ class DragAndDropUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DragAndDropUtility);
-// Type: UnityEngine.UIElements::DragAndDropUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DragAndDropUtility*
+// CS Name: UnityEngine.UIElements.DragAndDropUtility
 class CORDL_TYPE DragAndDropUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_DragAndDropEditor, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DragAndDropEditor, put = setStaticF_s_DragAndDropEditor)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropEditor;
+  __declspec(property(get = getStaticF_s_DragAndDropEditor, put = setStaticF_s_DragAndDropEditor)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropEditor;
 
   /// @brief Field s_DragAndDropPlayMode, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DragAndDropPlayMode, put = setStaticF_s_DragAndDropPlayMode)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropPlayMode;
+  __declspec(property(get = getStaticF_s_DragAndDropPlayMode, put = setStaticF_s_DragAndDropPlayMode)) ::UnityEngine::UIElements::IDragAndDrop* s_DragAndDropPlayMode;
 
   /// @brief Field s_MakeDragAndDropClientFunc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MakeDragAndDropClientFunc,
-                             put = setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeDragAndDropClientFunc;
+  __declspec(property(get = getStaticF_s_MakeDragAndDropClientFunc,
+                      put = setStaticF_s_MakeDragAndDropClientFunc)) ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* s_MakeDragAndDropClientFunc;
 
-  /// @brief Method GetDragAndDrop, addr 0x49b153c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetDragAndDrop, addr 0x4a15e4c, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* GetDragAndDrop(::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDropEditor();
@@ -68,7 +67,7 @@ public:
   DragAndDropUtility(DragAndDropUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5715 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

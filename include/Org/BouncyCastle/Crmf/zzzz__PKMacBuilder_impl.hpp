@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)()>(&::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2651194;
+  constexpr static std::size_t addrs = 0x2684480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacBuilder*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2651344;
+  constexpr static std::size_t addrs = 0x2684630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2651484;
+  constexpr static std::size_t addrs = 0x2684770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*, int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26514d0;
+  constexpr static std::size_t addrs = 0x26847bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26512f8;
+  constexpr static std::size_t addrs = 0x26845e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetSaltLength)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2651508;
+  constexpr static std::size_t addrs = 0x26847f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::SetIterationCount)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2651568;
+  constexpr static std::size_t addrs = 0x2684854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (
     ::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PbmParameter*)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::SetParameters)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26517b0;
+  constexpr static std::size_t addrs = 0x2684a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::PKMacBuilder* (
     ::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::SetSecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2651804;
+  constexpr static std::size_t addrs = 0x2684af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::IMacFactory* (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::Build)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x265180c;
+  constexpr static std::size_t addrs = 0x2684af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::PKMacBuilder::*)(int32_t)>(
     &::Org::BouncyCastle::Crmf::PKMacBuilder::CheckIterationCountCeiling)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x26515e0;
+  constexpr static std::size_t addrs = 0x26848cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMacFactory* (
     ::Org::BouncyCastle::Crmf::PKMacBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PbmParameter*, ::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Crmf::PKMacBuilder::GenCalculator)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x265191c;
+  constexpr static std::size_t addrs = 0x2684c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +198,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owf;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_owf() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_owf() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owf;
 }
@@ -210,7 +210,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_mac() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_mac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mac;
 }
@@ -222,7 +222,7 @@ constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*> const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_provider() const {
+constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___provider;
 }
@@ -234,7 +234,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crmf:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -246,7 +246,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& Org::BouncyCastle::Crmf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_parameters() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* const& Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_get_parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parameters;
 }
@@ -290,27 +290,16 @@ constexpr void Org::BouncyCastle::Crmf::PKMacBuilder::__cordl_internal_set_maxIt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxIterations = value;
 }
-inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>());
-}
 inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacBuilder*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider));
 }
 inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacBuilder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provider);
-}
-inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider,
-                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
-                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider, digestAlgorithmIdentifier, macAlgorithmIdentifier));
 }
 inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier) {
@@ -321,20 +310,12 @@ inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(::Org::BouncyCastle::Cr
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provider, digestAlgorithmIdentifier, macAlgorithmIdentifier);
 }
-inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider, maxIterations));
-}
 inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::PKMacBuilder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, provider, maxIterations);
-}
-inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
-                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier,
-                                                                                                ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(digestAlgorithmIdentifier, iterationCount, macAlgorithmIdentifier, provider));
 }
 inline void Org::BouncyCastle::Crmf::PKMacBuilder::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
                                                          ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier, ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
@@ -389,6 +370,25 @@ inline ::Org::BouncyCastle::Crypto::IMacFactory* Org::BouncyCastle::Crmf::PKMacB
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::IMacFactory*, false>(this, ___internal_method, parameters, password);
+}
+inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>());
+}
+inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider));
+}
+inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider,
+                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
+                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider, digestAlgorithmIdentifier, macAlgorithmIdentifier));
+}
+inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider, int32_t maxIterations) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(provider, maxIterations));
+}
+inline ::Org::BouncyCastle::Crmf::PKMacBuilder* Org::BouncyCastle::Crmf::PKMacBuilder::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier, int32_t iterationCount,
+                                                                                                ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithmIdentifier,
+                                                                                                ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::PKMacBuilder*>(digestAlgorithmIdentifier, iterationCount, macAlgorithmIdentifier, provider));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder::PKMacBuilder() {}

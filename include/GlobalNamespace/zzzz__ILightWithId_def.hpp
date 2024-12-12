@@ -14,11 +14,10 @@ class ILightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILightWithId);
-// Type: ::ILightWithId
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ILightWithId*
+// CS Name: ILightWithId
 class CORDL_TYPE ILightWithId {
 public:
   // Declarations
@@ -26,31 +25,27 @@ public:
 
   __declspec(property(get = get_lightId)) int32_t lightId;
 
-  /// @brief Method ColorWasSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ColorWasSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method __SetIsRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method __SetIsRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method __SetIsUnRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void __SetIsUnRegistered();
 
-  /// @brief Method get_isRegistered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isRegistered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isRegistered();
 
-  /// @brief Method get_lightId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_lightId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_lightId();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ILightWithId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ILightWithId(ILightWithId&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ILightWithId", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILightWithId(ILightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16311 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

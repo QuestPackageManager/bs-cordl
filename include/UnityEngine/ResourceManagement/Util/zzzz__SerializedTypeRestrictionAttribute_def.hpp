@@ -14,11 +14,10 @@ class SerializedTypeRestrictionAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);
-// Type: UnityEngine.ResourceManagement.Util::SerializedTypeRestrictionAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::SerializedTypeRestrictionAttribute*
+// CS Name: UnityEngine.ResourceManagement.Util.SerializedTypeRestrictionAttribute
 class CORDL_TYPE SerializedTypeRestrictionAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -27,13 +26,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute* New_ctor();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4735548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479685c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,18 +49,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerializedTypeRestrictionAttribute(SerializedTypeRestrictionAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15635 };
+
   /// @brief Field type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___type;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15600 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute, ___type) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);

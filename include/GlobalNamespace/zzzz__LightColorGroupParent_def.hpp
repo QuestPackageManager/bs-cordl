@@ -3,22 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(LightColorGroupParent)
-namespace GlobalNamespace {
-class IEditTimeValidated;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LightColorGroupParent;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorGroupParent);
-// Type: ::LightColorGroupParent
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IEditTimeValidated, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightColorGroupParent*
+// CS Name: LightColorGroupParent
 class CORDL_TYPE LightColorGroupParent : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -27,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::LightColorGroupParent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b2b958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8cef0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -48,7 +45,7 @@ public:
   LightColorGroupParent(LightColorGroupParent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4277 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

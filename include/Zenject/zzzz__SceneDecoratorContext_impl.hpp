@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_LateInstallers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac47a4;
+  constexpr static std::size_t addrs = 0x4b290b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "get_LateInstallers",
@@ -27,15 +27,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::Zenject::SceneDecoratorContext.set_LateInstallers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*)>(&::Zenject::SceneDecoratorContext::set_LateInstallers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*)>(&::Zenject::SceneDecoratorContext::set_LateInstallers)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4ac47ac;
+  constexpr static std::size_t addrs = 0x4b290bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateInstallers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* (
     ::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_LateInstallerPrefabs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac483c;
+  constexpr static std::size_t addrs = 0x4b2914c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -56,15 +56,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::SceneDecoratorContext.set_LateInstallerPrefabs
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*)>(&::Zenject::SceneDecoratorContext::set_LateInstallerPrefabs)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*)>(&::Zenject::SceneDecoratorContext::set_LateInstallerPrefabs)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4ac4844;
+  constexpr static std::size_t addrs = 0x4b29154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateInstallerPrefabs", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* (
     ::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_LateScriptableObjectInstallers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac48d4;
+  constexpr static std::size_t addrs = 0x4b291e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,15 +87,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*)>(&::Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers)> {
+    ::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>*)>(&::Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4ac48dc;
+  constexpr static std::size_t addrs = 0x4b291ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateScriptableObjectInstallers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -104,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_DecoratedContractName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac496c;
+  constexpr static std::size_t addrs = 0x4b2927c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -117,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::get_Container)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4ac4974;
+  constexpr static std::size_t addrs = 0x4b29284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::GetRootGameObjects)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ac4994;
+  constexpr static std::size_t addrs = 0x4b292a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::Zenject::DiContainer*)>(&::Zenject::SceneDecoratorContext::Initialize)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4ac30ac;
+  constexpr static std::size_t addrs = 0x4b279bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallDecoratorSceneBindings)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4ac3964;
+  constexpr static std::size_t addrs = 0x4b28274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -173,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallDecoratorInstallers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac39e4;
+  constexpr static std::size_t addrs = 0x4b282f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -184,10 +183,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::SceneDecoratorContext.GetInjectableMonoBehaviours
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(&::Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*)>(
+    &::Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ac49bc;
+  constexpr static std::size_t addrs = 0x4b292cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::InstallLateDecoratorInstallers)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4ac39f0;
+  constexpr static std::size_t addrs = 0x4b28300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -214,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneDecoratorContext::*)()>(&::Zenject::SceneDecoratorContext::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4ac4a08;
+  constexpr static std::size_t addrs = 0x4b29318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), ".ctor",
@@ -227,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneDecoratorContext::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4ac4b28;
+  constexpr static std::size_t addrs = 0x4b29438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
@@ -239,8 +238,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstall
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateInstallers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const&
-Zenject::SceneDecoratorContext::__cordl_internal_get__lateInstallers() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* const& Zenject::SceneDecoratorContext::__cordl_internal_get__lateInstallers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateInstallers;
 }
@@ -252,8 +250,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstall
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateInstallerPrefabs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const&
-Zenject::SceneDecoratorContext::__cordl_internal_get__lateInstallerPrefabs() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* const& Zenject::SceneDecoratorContext::__cordl_internal_get__lateInstallerPrefabs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateInstallerPrefabs;
 }
@@ -265,8 +262,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateScriptableObjectInstallers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*> const&
-Zenject::SceneDecoratorContext::__cordl_internal_get__lateScriptableObjectInstallers() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* const& Zenject::SceneDecoratorContext::__cordl_internal_get__lateScriptableObjectInstallers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateScriptableObjectInstallers;
 }
@@ -290,7 +286,7 @@ constexpr ::Zenject::DiContainer*& Zenject::SceneDecoratorContext::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::SceneDecoratorContext::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& Zenject::SceneDecoratorContext::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -302,8 +298,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBeh
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectableMonoBehaviours;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*> const&
-Zenject::SceneDecoratorContext::__cordl_internal_get__injectableMonoBehaviours() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* const& Zenject::SceneDecoratorContext::__cordl_internal_get__injectableMonoBehaviours() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____injectableMonoBehaviours;
 }
@@ -316,10 +311,10 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoIns
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*, false>(this, ___internal_method);
 }
-inline void Zenject::SceneDecoratorContext::set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value) {
+inline void Zenject::SceneDecoratorContext::set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateInstallers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* Zenject::SceneDecoratorContext::get_LateInstallerPrefabs() {
@@ -327,10 +322,10 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoIns
                                                                              "get_LateInstallerPrefabs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*, false>(this, ___internal_method);
 }
-inline void Zenject::SceneDecoratorContext::set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value) {
+inline void Zenject::SceneDecoratorContext::set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateInstallerPrefabs", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* Zenject::SceneDecoratorContext::get_LateScriptableObjectInstallers() {
@@ -339,11 +334,10 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::Scripta
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, false>(this, ___internal_method);
 }
-inline void Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value) {
+inline void Zenject::SceneDecoratorContext::set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), "set_LateScriptableObjectInstallers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::StringW Zenject::SceneDecoratorContext::get_DecoratedContractName() {
@@ -377,7 +371,7 @@ inline void Zenject::SceneDecoratorContext::InstallDecoratorInstallers() {
                                                                              "InstallDecoratorInstallers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours) {
+inline void Zenject::SceneDecoratorContext::GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, monoBehaviours);
@@ -386,9 +380,6 @@ inline void Zenject::SceneDecoratorContext::InstallLateDecoratorInstallers() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
                                                                              "InstallLateDecoratorInstallers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Zenject::SceneDecoratorContext* Zenject::SceneDecoratorContext::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SceneDecoratorContext*>());
 }
 inline void Zenject::SceneDecoratorContext::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(), ".ctor",
@@ -399,6 +390,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::SceneDecoratorContext::__zenCreateInj
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneDecoratorContext*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::SceneDecoratorContext* Zenject::SceneDecoratorContext::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SceneDecoratorContext*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::SceneDecoratorContext::SceneDecoratorContext() {}

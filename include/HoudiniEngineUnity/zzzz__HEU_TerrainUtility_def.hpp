@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -34,6 +32,9 @@ struct HFLayerType;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -55,96 +56,96 @@ class HEU_TerrainUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TerrainUtility);
-// Type: HoudiniEngineUnity::HEU_TerrainUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_TerrainUtility*
+// CS Name: HoudiniEngineUnity.HEU_TerrainUtility
 class CORDL_TYPE HEU_TerrainUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendConvertedHeightFieldToAlphaMap, addr 0x3a3be88, size 0x2a8, virtual false, abstract: false, final false
-  static inline Il2CppObject* AppendConvertedHeightFieldToAlphaMap(int32_t heightMapWidth, int32_t heightMapHeight, Il2CppObject* existingAlphaMaps,
-                                                                   ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>* heightFields,
-                                                                   ::ArrayW<float_t, ::Array<float_t>*> strengths, ::System::Collections::Generic::List_1<int32_t>* alphaMapIndices);
+  /// @brief Method AppendConvertedHeightFieldToAlphaMap, addr 0x3a92af8, size 0x2a8, virtual false, abstract: false, final false
+  static inline ::System::Object* AppendConvertedHeightFieldToAlphaMap(int32_t heightMapWidth, int32_t heightMapHeight, ::System::Object* existingAlphaMaps,
+                                                                       ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>* heightFields,
+                                                                       ::ArrayW<float_t, ::Array<float_t>*> strengths, ::System::Collections::Generic::List_1<int32_t>* alphaMapIndices);
 
-  /// @brief Method ApplyDetailLayers, addr 0x3a3dd0c, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method ApplyDetailLayers, addr 0x3a9497c, size 0x4ec, virtual false, abstract: false, final false
   static inline void ApplyDetailLayers(::UnityEngine::Terrain* terrain, ::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_DetailProperties* detailProperties,
                                        ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_DetailPrototype*>* heuDetailPrototypes,
-                                       ::System::Collections::Generic::List_1<Il2CppObject*>* convertedDetailMaps);
+                                       ::System::Collections::Generic::List_1<::System::Object*>* convertedDetailMaps);
 
-  /// @brief Method ApplyScatterTrees, addr 0x3a3d114, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method ApplyScatterTrees, addr 0x3a93d84, size 0x4f4, virtual false, abstract: false, final false
   static inline void ApplyScatterTrees(::UnityEngine::TerrainData* terrainData, ::HoudiniEngineUnity::HEU_VolumeScatterTrees* scatterTrees, int32_t tileIndex);
 
-  /// @brief Method ConvertHeightFieldToAlphaMap, addr 0x3a3bcec, size 0x19c, virtual false, abstract: false, final false
-  static inline Il2CppObject* ConvertHeightFieldToAlphaMap(int32_t heightMapWidth, int32_t heightMapHeight, ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>* heightFields);
+  /// @brief Method ConvertHeightFieldToAlphaMap, addr 0x3a9295c, size 0x19c, virtual false, abstract: false, final false
+  static inline ::System::Object* ConvertHeightFieldToAlphaMap(int32_t heightMapWidth, int32_t heightMapHeight,
+                                                               ::System::Collections::Generic::List_1<::ArrayW<float_t, ::Array<float_t>*>>* heightFields);
 
-  /// @brief Method ConvertHeightMapHoudiniToUnity, addr 0x3a3b5c4, size 0x100, virtual false, abstract: false, final false
-  static inline Il2CppObject* ConvertHeightMapHoudiniToUnity(int32_t heightMapWidth, int32_t heightMapHeight, ::ArrayW<float_t, ::Array<float_t>*> heightValues);
+  /// @brief Method ConvertHeightMapHoudiniToUnity, addr 0x3a92234, size 0x100, virtual false, abstract: false, final false
+  static inline ::System::Object* ConvertHeightMapHoudiniToUnity(int32_t heightMapWidth, int32_t heightMapHeight, ::ArrayW<float_t, ::Array<float_t>*> heightValues);
 
-  /// @brief Method GenerateTerrainFromVolume, addr 0x3a3a478, size 0x990, virtual false, abstract: false, final false
-  static inline bool GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int32_t geoID, int32_t partID,
-                                               ::UnityEngine::GameObject* gameObject, ByRef<::UnityEngine::TerrainData*> terrainData, ByRef<::UnityEngine::Vector3> volumePositionOffset,
-                                               ByRef<::UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
+  /// @brief Method GenerateTerrainFromVolume, addr 0x3a910e8, size 0x990, virtual false, abstract: false, final false
+  static inline bool GenerateTerrainFromVolume(::HoudiniEngineUnity::HEU_SessionBase* session, ::ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo, int32_t geoID, int32_t partID,
+                                               ::UnityEngine::GameObject* gameObject, ::ByRef<::UnityEngine::TerrainData*> terrainData, ::ByRef<::UnityEngine::Vector3> volumePositionOffset,
+                                               ::ByRef<::UnityEngine::Terrain*> terrain, ::StringW bakedMaterialPath);
 
-  /// @brief Method GetDefaultTerrainMaterialPath, addr 0x3a3b764, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultTerrainMaterialPath, addr 0x3a923d4, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultTerrainMaterialPath();
 
-  /// @brief Method GetDefaultTerrainShaderName, addr 0x3a3b6c4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultTerrainShaderName, addr 0x3a92334, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetDefaultTerrainShaderName();
 
-  /// @brief Method GetDetailMapFromPart, addr 0x3a3b9f8, size 0x2f4, virtual false, abstract: false, final false
-  static inline Il2CppObject* GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<int32_t> detailResolution);
+  /// @brief Method GetDetailMapFromPart, addr 0x3a92668, size 0x2f4, virtual false, abstract: false, final false
+  static inline ::System::Object* GetDetailMapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::ByRef<int32_t> detailResolution);
 
-  /// @brief Method GetHeightRangeFromHeightfield, addr 0x3a3b97c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHeightRangeFromHeightfield, addr 0x3a925ec, size 0x7c, virtual false, abstract: false, final false
   static inline float_t GetHeightRangeFromHeightfield(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
-  /// @brief Method GetHeightfieldLayerType, addr 0x3a3e668, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetHeightfieldLayerType, addr 0x3a952d8, size 0x13c, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HFLayerType GetHeightfieldLayerType(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::StringW volumeName);
 
-  /// @brief Method GetHeightmapFromPart, addr 0x3a3b804, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetHeightmapFromPart, addr 0x3a92474, size 0x178, virtual false, abstract: false, final false
   static inline bool GetHeightmapFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t xLength, int32_t yLength, int32_t geoID, int32_t partID,
-                                          ByRef<::ArrayW<float_t, ::Array<float_t>*>> heightValues, ByRef<float_t> minHeight, ByRef<float_t> maxHeight);
+                                          ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> heightValues, ::ByRef<float_t> minHeight, ::ByRef<float_t> maxHeight);
 
-  /// @brief Method GetNormalizedHeightmapFromPartWithMinMax, addr 0x3a3afd4, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method GetNormalizedHeightmapFromPartWithMinMax, addr 0x3a91c44, size 0x5f0, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> GetNormalizedHeightmapFromPartWithMinMax(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, int32_t heightMapWidth,
-                                                                                              int32_t heightMapHeight, ByRef<float_t> minHeight, ByRef<float_t> maxHeight, ByRef<float_t> heightRange,
-                                                                                              bool bUseHeightRangeOverride);
+                                                                                              int32_t heightMapHeight, ::ByRef<float_t> minHeight, ::ByRef<float_t> maxHeight,
+                                                                                              ::ByRef<float_t> heightRange, bool bUseHeightRangeOverride);
 
-  /// @brief Method GetTerrainDataExportPathFromHeightfieldAttribute, addr 0x3a3e7a4, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GetTerrainDataExportPathFromHeightfieldAttribute, addr 0x3a95414, size 0x528, virtual false, abstract: false, final false
   static inline ::StringW GetTerrainDataExportPathFromHeightfieldAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
-  /// @brief Method GetTerrainLayerIndex, addr 0x3a3e35c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetTerrainLayerIndex, addr 0x3a94fcc, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t GetTerrainLayerIndex(::UnityEngine::TerrainLayer* layer, ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> terrainLayers);
 
-  /// @brief Method GetTerrainLayerIndexByName, addr 0x3a3e1f8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetTerrainLayerIndexByName, addr 0x3a94e68, size 0x164, virtual false, abstract: false, final false
   static inline int32_t GetTerrainLayerIndexByName(::StringW layerName, ::ArrayW<::UnityEngine::TerrainLayer*, ::Array<::UnityEngine::TerrainLayer*>*> terrainLayers);
 
-  /// @brief Method GetTreePrototypeInfosFromPart, addr 0x3a3c1f0, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetTreePrototypeInfosFromPart, addr 0x3a92e60, size 0x2bc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* GetTreePrototypeInfosFromPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID,
                                                                                                                                     int32_t partID);
 
-  /// @brief Method GetVolumePositionOffset, addr 0x3a3c130, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetVolumePositionOffset, addr 0x3a92da0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetVolumePositionOffset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::UnityEngine::Vector3 volumePosition,
                                                                float_t terrainSizeX, float_t heightMapSize, int32_t mapWidth, int32_t mapHeight, float_t minHeight);
 
-  /// @brief Method PopulateDetailProperties, addr 0x3a3d9f0, size 0x31c, virtual false, abstract: false, final false
-  static inline void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<::HoudiniEngineUnity::HEU_DetailProperties*> detailProperties);
+  /// @brief Method PopulateDetailProperties, addr 0x3a94660, size 0x31c, virtual false, abstract: false, final false
+  static inline void PopulateDetailProperties(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::ByRef<::HoudiniEngineUnity::HEU_DetailProperties*> detailProperties);
 
-  /// @brief Method PopulateDetailPrototype, addr 0x3a3d608, size 0x3e8, virtual false, abstract: false, final false
-  static inline void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*> detailPrototype);
+  /// @brief Method PopulateDetailPrototype, addr 0x3a94278, size 0x3e8, virtual false, abstract: false, final false
+  static inline void PopulateDetailPrototype(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::ByRef<::HoudiniEngineUnity::HEU_DetailPrototype*> detailPrototype);
 
-  /// @brief Method PopulateScatterTrees, addr 0x3a3c4ac, size 0xc68, virtual false, abstract: false, final false
+  /// @brief Method PopulateScatterTrees, addr 0x3a9311c, size 0xc68, virtual false, abstract: false, final false
   static inline void PopulateScatterTrees(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, int32_t pointCount,
-                                          ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> scatterTrees, bool throwWarningIfNoTileAttribute);
+                                          ::ByRef<::HoudiniEngineUnity::HEU_VolumeScatterTrees*> scatterTrees, bool throwWarningIfNoTileAttribute);
 
-  /// @brief Method ResampleData, addr 0x3a29498, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method ResampleData, addr 0x3a80108, size 0x350, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> ResampleData(::ArrayW<float_t, ::Array<float_t>*> data, int32_t oldWidth, int32_t oldHeight, int32_t newWidth, int32_t newHeight);
 
-  /// @brief Method SetTerrainMaterial, addr 0x3a3ae08, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SetTerrainMaterial, addr 0x3a91a78, size 0x1cc, virtual false, abstract: false, final false
   static inline void SetTerrainMaterial(::UnityEngine::Terrain* terrain, ::StringW specifiedMaterialName, ::StringW bakedMaterialPath);
 
-  /// @brief Method VolumeLayerHasAttributes, addr 0x3a3e41c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method VolumeLayerHasAttributes, addr 0x3a9508c, size 0x24c, virtual false, abstract: false, final false
   static inline bool VolumeLayerHasAttributes(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID);
 
 protected:
@@ -162,7 +163,7 @@ public:
   HEU_TerrainUtility(HEU_TerrainUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11864 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ApplicationInviteList)
 namespace Oculus::Platform::Models {
 class ApplicationInvite;
@@ -18,17 +17,16 @@ class ApplicationInviteList;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInviteList);
-// Type: Oculus.Platform.Models::ApplicationInviteList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Models.DeserializableList`1<T>
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::ApplicationInviteList*
+// CS Name: Oculus.Platform.Models.ApplicationInviteList
 class CORDL_TYPE ApplicationInviteList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ApplicationInvite*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::ApplicationInviteList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x3f2df70, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8e01c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -46,7 +44,7 @@ public:
   ApplicationInviteList(ApplicationInviteList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

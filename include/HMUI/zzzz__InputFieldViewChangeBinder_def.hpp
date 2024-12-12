@@ -26,11 +26,10 @@ class InputFieldViewChangeBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::InputFieldViewChangeBinder);
-// Type: HMUI::InputFieldViewChangeBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::InputFieldViewChangeBinder*
+// CS Name: HMUI.InputFieldViewChangeBinder
 class CORDL_TYPE InputFieldViewChangeBinder : public ::System::Object {
 public:
   // Declarations
@@ -41,32 +40,31 @@ public:
   /// @brief Field _enabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get__enabled, put = __cordl_internal_set__enabled)) bool _enabled;
 
-  /// @brief Method AddBinding, addr 0x3993f90, size 0xdc, virtual false, abstract: false, final false
-  inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>* action);
+  /// @brief Method AddBinding, addr 0x39eab90, size 0xdc, virtual false, abstract: false, final false
+  inline void AddBinding(::HMUI::InputFieldView* inputField, ::System::Action_1<::HMUI::InputFieldView*>* action);
 
-  /// @brief Method AddBindings, addr 0x3993e2c, size 0x164, virtual false, abstract: false, final false
-  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::System::Action_1<::UnityW<::HMUI::InputFieldView>>*>*>* bindings);
+  /// @brief Method AddBindings, addr 0x39eaa2c, size 0x164, virtual false, abstract: false, final false
+  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::InputFieldView*, ::System::Action_1<::HMUI::InputFieldView*>*>*>* bindings);
 
-  /// @brief Method ClearBindings, addr 0x399406c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x39eac6c, size 0x234, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Disable, addr 0x39942a0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x39eaea0, size 0x1fc, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x399449c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x39eb09c, size 0x200, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Init, addr 0x3993db8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39ea9b8, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::InputFieldViewChangeBinder* New_ctor();
 
+  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* const&
+  __cordl_internal_get__bindings() const;
+
   constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>*&
   __cordl_internal_get__bindings();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>*> const&
-  __cordl_internal_get__bindings() const;
 
   constexpr bool const& __cordl_internal_get__enabled() const;
 
@@ -77,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__enabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3993d94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ea994, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,23 +92,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputFieldViewChangeBinder(InputFieldViewChangeBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16017 };
+
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::HMUI::InputFieldView>, ::UnityEngine::Events::UnityAction_1<::UnityW<::HMUI::InputFieldView>>*>*>* ____bindings;
 
   /// @brief Field _enabled, offset: 0x18, size: 0x1, def value: None
   bool ____enabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15982 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldViewChangeBinder, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::InputFieldViewChangeBinder, ____bindings) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::InputFieldViewChangeBinder, ____enabled) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::InputFieldViewChangeBinder, 0x20>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::InputFieldViewChangeBinder);

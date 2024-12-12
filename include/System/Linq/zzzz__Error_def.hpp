@@ -15,33 +15,32 @@ class Error;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Error);
-// Type: System.Linq::Error
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq {
 // Is value type: false
-// CS Name: ::System.Linq::Error*
+// CS Name: System.Linq.Error
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNull, addr 0x402e340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNull, addr 0x408f654, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentNull(::StringW s);
 
-  /// @brief Method ArgumentOutOfRange, addr 0x402e39c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x408f6b0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentOutOfRange(::StringW s);
 
-  /// @brief Method MoreThanOneElement, addr 0x402e3f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneElement, addr 0x408f70c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneElement();
 
-  /// @brief Method MoreThanOneMatch, addr 0x402e464, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneMatch, addr 0x408f778, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneMatch();
 
-  /// @brief Method NoElements, addr 0x402e4d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NoElements, addr 0x408f7e4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* NoElements();
 
-  /// @brief Method NoMatch, addr 0x402e53c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method NoMatch, addr 0x408f850, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* NoMatch();
 
-  /// @brief Method NotSupported, addr 0x402e5a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method NotSupported, addr 0x408f8bc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Exception* NotSupported();
 
 protected:
@@ -59,7 +58,7 @@ public:
   Error(Error const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

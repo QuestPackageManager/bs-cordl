@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -13,31 +12,30 @@ namespace GlobalNamespace {
 class BeatmapLevelColorSchemeSaveData;
 }
 namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__DifficultyBeatmapSet;
+class StandardLevelInfoSaveData_DifficultyBeatmapSet;
 }
 namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__DifficultyBeatmap;
+class StandardLevelInfoSaveData_DifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class StandardLevelInfoSaveData;
 }
 namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__DifficultyBeatmap;
+class StandardLevelInfoSaveData_DifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class __StandardLevelInfoSaveData__DifficultyBeatmapSet;
+class StandardLevelInfoSaveData_DifficultyBeatmapSet;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelInfoSaveData);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap);
-MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet);
-// Type: ::DifficultyBeatmapSet
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap);
+MARK_REF_PTR_T(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelInfoSaveData::DifficultyBeatmapSet*
-class CORDL_TYPE __StandardLevelInfoSaveData__DifficultyBeatmapSet : public ::System::Object {
+// CS Name: StandardLevelInfoSaveData/DifficultyBeatmapSet
+class CORDL_TYPE StandardLevelInfoSaveData_DifficultyBeatmapSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapCharacteristicName, offset 0x10, size 0x8
@@ -45,84 +43,83 @@ public:
 
   /// @brief Field _difficultyBeatmaps, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__difficultyBeatmaps,
-                      put = __cordl_internal_set__difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*,
-                                                                                ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*>
+                      put = __cordl_internal_set__difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*,
+                                                                                ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>
       _difficultyBeatmaps;
 
   __declspec(property(get = get_beatmapCharacteristicName)) ::StringW beatmapCharacteristicName;
 
-  __declspec(property(
-      get = get_difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*>
+  __declspec(property(get =
+                          get_difficultyBeatmaps)) ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>
       difficultyBeatmaps;
 
-  static inline ::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*
+  static inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*
   New_ctor(::StringW beatmapCharacteristicName,
-           ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> difficultyBeatmaps);
+           ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> difficultyBeatmaps);
 
   constexpr ::StringW const& __cordl_internal_get__beatmapCharacteristicName() const;
 
   constexpr ::StringW& __cordl_internal_get__beatmapCharacteristicName();
 
-  constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> const&
   __cordl_internal_get__difficultyBeatmaps() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*>&
   __cordl_internal_get__difficultyBeatmaps();
 
   constexpr void __cordl_internal_set__beatmapCharacteristicName(::StringW value);
 
-  constexpr void __cordl_internal_set__difficultyBeatmaps(
-      ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> value);
+  constexpr void
+  __cordl_internal_set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> value);
 
-  /// @brief Method .ctor, addr 0x26c6274, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26faff4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapCharacteristicName,
-                    ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> difficultyBeatmaps);
+                    ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> difficultyBeatmaps);
 
-  /// @brief Method get_beatmapCharacteristicName, addr 0x26c62a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristicName, addr 0x26fb020, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapCharacteristicName();
 
-  /// @brief Method get_difficultyBeatmaps, addr 0x26c62a8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> get_difficultyBeatmaps();
+  /// @brief Method get_difficultyBeatmaps, addr 0x26fb028, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> get_difficultyBeatmaps();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelInfoSaveData__DifficultyBeatmapSet();
+  constexpr StandardLevelInfoSaveData_DifficultyBeatmapSet();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelInfoSaveData__DifficultyBeatmapSet", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelInfoSaveData__DifficultyBeatmapSet(__StandardLevelInfoSaveData__DifficultyBeatmapSet&&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelInfoSaveData__DifficultyBeatmapSet", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmapSet", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelInfoSaveData__DifficultyBeatmapSet(__StandardLevelInfoSaveData__DifficultyBeatmapSet const&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmapSet(StandardLevelInfoSaveData_DifficultyBeatmapSet const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13259 };
 
   /// @brief Field _beatmapCharacteristicName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____beatmapCharacteristicName;
 
   /// @brief Field _difficultyBeatmaps, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*>*> ____difficultyBeatmaps;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13222 };
+  ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*>*> ____difficultyBeatmaps;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet, ____beatmapCharacteristicName) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet, ____beatmapCharacteristicName) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet, ____difficultyBeatmaps) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet, ____difficultyBeatmaps) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::DifficultyBeatmap
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelInfoSaveData::DifficultyBeatmap*
-class CORDL_TYPE __StandardLevelInfoSaveData__DifficultyBeatmap : public ::System::Object {
+// CS Name: StandardLevelInfoSaveData/DifficultyBeatmap
+class CORDL_TYPE StandardLevelInfoSaveData_DifficultyBeatmap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapColorSchemeIdx, offset 0x30, size 0x4
@@ -160,8 +157,8 @@ public:
 
   __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
 
-  static inline ::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap* New_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed,
-                                                                                            float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx);
+  static inline ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap* New_ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed,
+                                                                                         float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx, int32_t environmentNameIdx);
 
   constexpr int32_t const& __cordl_internal_get__beatmapColorSchemeIdx() const;
 
@@ -205,44 +202,47 @@ public:
 
   constexpr void __cordl_internal_set__noteJumpStartBeatOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x26c620c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26faf8c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyName, int32_t difficultyRank, ::StringW beatmapFilename, float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, int32_t beatmapColorSchemeIdx,
                     int32_t environmentNameIdx);
 
-  /// @brief Method get_beatmapColorSchemeIdx, addr 0x26c62d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapColorSchemeIdx, addr 0x26fb058, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_beatmapColorSchemeIdx();
 
-  /// @brief Method get_beatmapFilename, addr 0x26c62c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapFilename, addr 0x26fb040, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapFilename();
 
-  /// @brief Method get_difficulty, addr 0x26c62b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulty, addr 0x26fb030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_difficulty();
 
-  /// @brief Method get_difficultyRank, addr 0x26c62b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficultyRank, addr 0x26fb038, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_difficultyRank();
 
-  /// @brief Method get_environmentNameIdx, addr 0x26c62e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentNameIdx, addr 0x26fb060, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_environmentNameIdx();
 
-  /// @brief Method get_noteJumpMovementSpeed, addr 0x26c62c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x26fb048, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26c62d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x26fb050, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteJumpStartBeatOffset();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StandardLevelInfoSaveData__DifficultyBeatmap();
+  constexpr StandardLevelInfoSaveData_DifficultyBeatmap();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelInfoSaveData__DifficultyBeatmap", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StandardLevelInfoSaveData__DifficultyBeatmap(__StandardLevelInfoSaveData__DifficultyBeatmap&&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelInfoSaveData__DifficultyBeatmap", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData_DifficultyBeatmap", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StandardLevelInfoSaveData__DifficultyBeatmap(__StandardLevelInfoSaveData__DifficultyBeatmap const&) = delete;
+  StandardLevelInfoSaveData_DifficultyBeatmap(StandardLevelInfoSaveData_DifficultyBeatmap const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13260 };
 
   /// @brief Field _difficulty, offset: 0x10, size: 0x8, def value: None
   ::StringW ____difficulty;
@@ -265,40 +265,36 @@ public:
   /// @brief Field _environmentNameIdx, offset: 0x34, size: 0x4, def value: None
   int32_t ____environmentNameIdx;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13223 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____difficulty) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____difficulty) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____difficultyRank) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____difficultyRank) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____beatmapFilename) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____beatmapFilename) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____noteJumpMovementSpeed) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____noteJumpMovementSpeed) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____noteJumpStartBeatOffset) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____noteJumpStartBeatOffset) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____beatmapColorSchemeIdx) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____beatmapColorSchemeIdx) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, ____environmentNameIdx) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap, ____environmentNameIdx) == 0x34, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::StandardLevelInfoSaveData
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardLevelInfoSaveData*
+// CS Name: StandardLevelInfoSaveData
 class CORDL_TYPE StandardLevelInfoSaveData : public ::System::Object {
 public:
   // Declarations
-  using DifficultyBeatmap = ::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap;
+  using DifficultyBeatmap = ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap;
 
-  using DifficultyBeatmapSet = ::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet;
+  using DifficultyBeatmapSet = ::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet;
 
   /// @brief Field _allDirectionsEnvironmentName, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__allDirectionsEnvironmentName, put = __cordl_internal_set__allDirectionsEnvironmentName)) ::StringW _allDirectionsEnvironmentName;
@@ -316,8 +312,8 @@ public:
 
   /// @brief Field _difficultyBeatmapSets, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__difficultyBeatmapSets,
-                      put = __cordl_internal_set__difficultyBeatmapSets)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*,
-                                                                                   ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*>
+                      put = __cordl_internal_set__difficultyBeatmapSets)) ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*,
+                                                                                   ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>
       _difficultyBeatmapSets;
 
   /// @brief Field _environmentName, offset 0x60, size 0x8
@@ -368,7 +364,7 @@ public:
   __declspec(property(get = get_coverImageFilename)) ::StringW coverImageFilename;
 
   __declspec(property(
-      get = get_difficultyBeatmapSets)) ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*>
+      get = get_difficultyBeatmapSets)) ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>
       difficultyBeatmapSets;
 
   __declspec(property(get = get_environmentName)) ::StringW environmentName;
@@ -399,7 +395,7 @@ public:
 
   __declspec(property(get = get_version)) ::StringW version;
 
-  /// @brief Method DeserializeFromJSONString, addr 0x26c5aa8, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method DeserializeFromJSONString, addr 0x26fa828, size 0x548, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::StandardLevelInfoSaveData* DeserializeFromJSONString(::StringW stringData);
 
   static inline ::GlobalNamespace::StandardLevelInfoSaveData*
@@ -407,7 +403,7 @@ public:
            float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName,
            ::ArrayW<::StringW, ::Array<::StringW>*> environmentNames,
            ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> colorSchemes,
-           ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> difficultyBeatmapSets);
+           ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> difficultyBeatmapSets);
 
   constexpr ::StringW const& __cordl_internal_get__allDirectionsEnvironmentName() const;
 
@@ -425,10 +421,10 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__coverImageFilename();
 
-  constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> const&
   __cordl_internal_get__difficultyBeatmapSets() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*>&
+  constexpr ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*>&
   __cordl_internal_get__difficultyBeatmapSets();
 
   constexpr ::StringW const& __cordl_internal_get__environmentName() const;
@@ -492,7 +488,7 @@ public:
   constexpr void __cordl_internal_set__coverImageFilename(::StringW value);
 
   constexpr void __cordl_internal_set__difficultyBeatmapSets(
-      ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> value);
+      ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> value);
 
   constexpr void __cordl_internal_set__environmentName(::StringW value);
 
@@ -520,69 +516,68 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26c5954, size 0xf8, virtual false, abstract: false, final false
-  inline void
-  _ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle, float_t shufflePeriod,
-        float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName, ::StringW allDirectionsEnvironmentName,
-        ::ArrayW<::StringW, ::Array<::StringW>*> environmentNames,
-        ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> colorSchemes,
-        ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> difficultyBeatmapSets);
+  /// @brief Method .ctor, addr 0x26fa6d4, size 0xf8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW songName, ::StringW songSubName, ::StringW songAuthorName, ::StringW levelAuthorName, float_t beatsPerMinute, float_t songTimeOffset, float_t shuffle,
+                    float_t shufflePeriod, float_t previewStartTime, float_t previewDuration, ::StringW songFilename, ::StringW coverImageFilename, ::StringW environmentName,
+                    ::StringW allDirectionsEnvironmentName, ::ArrayW<::StringW, ::Array<::StringW>*> environmentNames,
+                    ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> colorSchemes,
+                    ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> difficultyBeatmapSets);
 
-  /// @brief Method get_allDirectionsEnvironmentName, addr 0x26c5934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allDirectionsEnvironmentName, addr 0x26fa6b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allDirectionsEnvironmentName();
 
-  /// @brief Method get_beatsPerMinute, addr 0x26c58ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatsPerMinute, addr 0x26fa66c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_colorSchemes, addr 0x26c5944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemes, addr 0x26fa6c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> get_colorSchemes();
 
-  /// @brief Method get_coverImageFilename, addr 0x26c5924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImageFilename, addr 0x26fa6a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_coverImageFilename();
 
-  /// @brief Method get_difficultyBeatmapSets, addr 0x26c594c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> get_difficultyBeatmapSets();
+  /// @brief Method get_difficultyBeatmapSets, addr 0x26fa6cc, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> get_difficultyBeatmapSets();
 
-  /// @brief Method get_environmentName, addr 0x26c592c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x26fa6ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_environmentNames, addr 0x26c593c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentNames, addr 0x26fa6bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_environmentNames();
 
-  /// @brief Method get_hasAllData, addr 0x26c5a4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_hasAllData, addr 0x26fa7cc, size 0x5c, virtual false, abstract: false, final false
   inline bool get_hasAllData();
 
-  /// @brief Method get_levelAuthorName, addr 0x26c58e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAuthorName, addr 0x26fa664, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_previewDuration, addr 0x26c5914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewDuration, addr 0x26fa694, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewDuration();
 
-  /// @brief Method get_previewStartTime, addr 0x26c590c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previewStartTime, addr 0x26fa68c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_shuffle, addr 0x26c58fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shuffle, addr 0x26fa67c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod, addr 0x26c5904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shufflePeriod, addr 0x26fa684, size 0x8, virtual false, abstract: false, final false
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_songAuthorName, addr 0x26c58dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAuthorName, addr 0x26fa65c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_songFilename, addr 0x26c591c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songFilename, addr 0x26fa69c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songFilename();
 
-  /// @brief Method get_songName, addr 0x26c58cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x26fa64c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName, addr 0x26c58d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songSubName, addr 0x26fa654, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songTimeOffset, addr 0x26c58f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songTimeOffset, addr 0x26fa674, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_version, addr 0x26c58c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x26fa644, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -598,6 +593,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelInfoSaveData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StandardLevelInfoSaveData(StandardLevelInfoSaveData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13261 };
+
+  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCurrentVersion{ u"2.1.0" };
+
+  /// @brief Field kDefaultBeatmapCharacteristicName offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDefaultBeatmapCharacteristicName{ u"Standard" };
 
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
@@ -651,22 +655,11 @@ public:
   ::ArrayW<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*, ::Array<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>*> ____colorSchemes;
 
   /// @brief Field _difficultyBeatmapSets, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*>*> ____difficultyBeatmapSets;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13224 };
-
-  /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCurrentVersion{ u"2.1.0" };
-
-  /// @brief Field kDefaultBeatmapCharacteristicName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDefaultBeatmapCharacteristicName{ u"Standard" };
+  ::ArrayW<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, ::Array<::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*>*> ____difficultyBeatmapSets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelInfoSaveData, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData, ____version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData, ____songName) == 0x18, "Offset mismatch!");
@@ -703,10 +696,12 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData, ____colorSc
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelInfoSaveData, ____difficultyBeatmapSets) == 0x80, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelInfoSaveData, 0x88>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData*, "", "StandardLevelInfoSaveData");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmap*, "", "StandardLevelInfoSaveData/DifficultyBeatmap");
-NEED_NO_BOX(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__StandardLevelInfoSaveData__DifficultyBeatmapSet*, "", "StandardLevelInfoSaveData/DifficultyBeatmapSet");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmap*, "", "StandardLevelInfoSaveData/DifficultyBeatmap");
+NEED_NO_BOX(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelInfoSaveData_DifficultyBeatmapSet*, "", "StandardLevelInfoSaveData/DifficultyBeatmapSet");

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NullableConverter)
 namespace System::Collections {
 class IDictionary;
@@ -16,10 +15,10 @@ namespace System::ComponentModel {
 class PropertyDescriptorCollection;
 }
 namespace System::ComponentModel {
-class TypeConverter;
+class TypeConverter_StandardValuesCollection;
 }
 namespace System::ComponentModel {
-class __TypeConverter__StandardValuesCollection;
+class TypeConverter;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -39,11 +38,10 @@ class NullableConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::NullableConverter);
-// Type: System.ComponentModel::NullableConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.TypeConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::NullableConverter*
+// CS Name: System.ComponentModel.NullableConverter
 class CORDL_TYPE NullableConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
@@ -63,57 +61,57 @@ public:
   /// @brief Field <UnderlyingType>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__UnderlyingType_k__BackingField, put = __cordl_internal_set__UnderlyingType_k__BackingField)) ::System::Type* _UnderlyingType_k__BackingField;
 
-  /// @brief Method CanConvertFrom, addr 0x43f2d1c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x4454030, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x43f2f1c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x4454230, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x43f2de0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x44540f4, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x43f2fe0, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x44542f4, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method CreateInstance, addr 0x43f31cc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x44544e0, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Collections::IDictionary* propertyValues);
 
-  /// @brief Method GetCreateInstanceSupported, addr 0x43f31f0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetCreateInstanceSupported, addr 0x4454504, size 0x24, virtual true, abstract: false, final false
   inline bool GetCreateInstanceSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetProperties, addr 0x43f3214, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4454528, size 0x24, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x43f3238, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x445454c, size 0x24, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValues, addr 0x43f325c, size 0x3a8, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
+  /// @brief Method GetStandardValues, addr 0x4454570, size 0x3a8, virtual true, abstract: false, final false
+  inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x43f3604, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x4454918, size 0x28, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x43f362c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x4454940, size 0x28, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method IsValid, addr 0x43f3654, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method IsValid, addr 0x4454968, size 0x34, virtual true, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value);
 
   static inline ::System::ComponentModel::NullableConverter* New_ctor(::System::Type* type);
 
+  constexpr ::System::Type* const& __cordl_internal_get__NullableType_k__BackingField() const;
+
   constexpr ::System::Type*& __cordl_internal_get__NullableType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__NullableType_k__BackingField() const;
+  constexpr ::System::ComponentModel::TypeConverter* const& __cordl_internal_get__UnderlyingTypeConverter_k__BackingField() const;
 
   constexpr ::System::ComponentModel::TypeConverter*& __cordl_internal_get__UnderlyingTypeConverter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __cordl_internal_get__UnderlyingTypeConverter_k__BackingField() const;
+  constexpr ::System::Type* const& __cordl_internal_get__UnderlyingType_k__BackingField() const;
 
   constexpr ::System::Type*& __cordl_internal_get__UnderlyingType_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__UnderlyingType_k__BackingField() const;
 
   constexpr void __cordl_internal_set__NullableType_k__BackingField(::System::Type* value);
 
@@ -121,16 +119,16 @@ public:
 
   constexpr void __cordl_internal_set__UnderlyingType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x43f2bf4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4453f08, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_NullableType, addr 0x43f3688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NullableType, addr 0x445499c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_NullableType();
 
-  /// @brief Method get_UnderlyingType, addr 0x43f3690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingType, addr 0x44549a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_UnderlyingType();
 
-  /// @brief Method get_UnderlyingTypeConverter, addr 0x43f3698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnderlyingTypeConverter, addr 0x44549ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* get_UnderlyingTypeConverter();
 
 protected:
@@ -147,6 +145,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NullableConverter(NullableConverter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9403 };
+
   /// @brief Field <NullableType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____NullableType_k__BackingField;
 
@@ -156,19 +157,16 @@ public:
   /// @brief Field <UnderlyingTypeConverter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::System::ComponentModel::TypeConverter* ____UnderlyingTypeConverter_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9378 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::NullableConverter, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::NullableConverter, ____NullableType_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::NullableConverter, ____UnderlyingType_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::NullableConverter, ____UnderlyingTypeConverter_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::NullableConverter, 0x28>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::NullableConverter);

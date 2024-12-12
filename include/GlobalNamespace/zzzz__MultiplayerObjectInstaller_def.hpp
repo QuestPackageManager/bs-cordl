@@ -20,11 +20,10 @@ class MultiplayerObjectInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerObjectInstaller);
-// Type: ::MultiplayerObjectInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerObjectInstaller*
+// CS Name: MultiplayerObjectInstaller
 class CORDL_TYPE MultiplayerObjectInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
                       put = __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab)) ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>
       _multiplayerResultsPyramidViewAvatarPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3b75fc0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bd7a98, size 0x144, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerObjectInstaller* New_ctor();
@@ -64,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value);
 
-  /// @brief Method .ctor, addr 0x3b76104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd7bdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,6 +80,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerObjectInstaller(MultiplayerObjectInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4590 };
+
   /// @brief Field _inEnvironmentTextsPrefab, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> ____inEnvironmentTextsPrefab;
 
@@ -90,19 +92,16 @@ public:
   /// @brief Field _multiplayerResultsPyramidViewAvatarPrefab, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> ____multiplayerResultsPyramidViewAvatarPrefab;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4578 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerObjectInstaller, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerObjectInstaller, ____inEnvironmentTextsPrefab) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerObjectInstaller, ____fireworkItemControllerPrefab) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerObjectInstaller, ____multiplayerResultsPyramidViewAvatarPrefab) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerObjectInstaller, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerObjectInstaller);

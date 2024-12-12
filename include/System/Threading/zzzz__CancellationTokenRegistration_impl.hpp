@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/CancellationTokenRegistration.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_impl.hpp"
+#include "System/zzzz__IAsyncDisposable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"
-#include "System/zzzz__IAsyncDisposable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::CancellationTokenRegistration._ctor
 template <>
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::CancellationCallbackInfo*, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>)>(
     &::System::Threading::CancellationTokenRegistration::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3dee4a0;
+  constexpr static std::size_t addrs = 0x3e4e54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::Unregister)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3dee4ac;
+  constexpr static std::size_t addrs = 0x3e4e558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::Dispose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3dee528;
+  constexpr static std::size_t addrs = 0x3e4e5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Object*)>(
     &::System::Threading::CancellationTokenRegistration::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dee678;
+  constexpr static std::size_t addrs = 0x3e4e724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Threading::CancellationTokenRegistration)>(
     &::System::Threading::CancellationTokenRegistration::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3dee708;
+  constexpr static std::size_t addrs = 0x3e4e7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::GetHashCode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3dee788;
+  constexpr static std::size_t addrs = 0x3e4e834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::DisposeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3dee814;
+  constexpr static std::size_t addrs = 0x3e4e8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),
@@ -116,31 +116,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
-constexpr System::Threading::CancellationTokenRegistration::operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*() {
-  return static_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
-constexpr ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*
-System::Threading::CancellationTokenRegistration::i___System__IEquatable_1___System__Threading__CancellationTokenRegistration_() {
-  return static_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Threading::CancellationTokenRegistration::operator ::System::IDisposable*() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Threading::CancellationTokenRegistration::i___System__IDisposable() {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IAsyncDisposable"
-constexpr System::Threading::CancellationTokenRegistration::operator ::System::IAsyncDisposable*() {
-  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IAsyncDisposable"
-constexpr ::System::IAsyncDisposable* System::Threading::CancellationTokenRegistration::i___System__IAsyncDisposable() {
-  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void System::Threading::CancellationTokenRegistration::_ctor(::System::Threading::CancellationCallbackInfo* callbackInfo,
                                                                     ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +156,32 @@ inline ::System::Threading::Tasks::ValueTask System::Threading::CancellationToke
                                                                              "DisposeAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::ValueTask, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_registrationInfo", ty:
+/// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
+constexpr System::Threading::CancellationTokenRegistration::operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*() {
+  return static_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
+constexpr ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*
+System::Threading::CancellationTokenRegistration::i___System__IEquatable_1___System__Threading__CancellationTokenRegistration_() {
+  return static_cast<::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Threading::CancellationTokenRegistration::operator ::System::IDisposable*() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Threading::CancellationTokenRegistration::i___System__IDisposable() {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IAsyncDisposable"
+constexpr System::Threading::CancellationTokenRegistration::operator ::System::IAsyncDisposable*() {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IAsyncDisposable"
+constexpr ::System::IAsyncDisposable* System::Threading::CancellationTokenRegistration::i___System__IAsyncDisposable() {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_callbackInfo", ty: "::System::Threading::CancellationCallbackInfo*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_registrationInfo", ty:
 // "::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Threading::CancellationTokenRegistration::CancellationTokenRegistration(
     ::System::Threading::CancellationCallbackInfo* m_callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> m_registrationInfo) noexcept {

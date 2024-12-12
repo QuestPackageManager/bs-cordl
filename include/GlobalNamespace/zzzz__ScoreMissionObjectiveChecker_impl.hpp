@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::OnDestroy)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b4f138;
+  constexpr static std::size_t addrs = 0x3bb0a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::HandleScoreDidChange)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b4f238;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3bb0b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::Init)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3b4f280;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x3bb0bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4f480;
+  constexpr static std::size_t addrs = 0x3bb0d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(), ".ctor",
@@ -66,7 +66,7 @@ constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::ScoreMissionObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::ScoreMissionObjectiveChecker::__cordl_internal_get__scoreController() const {
+constexpr ::GlobalNamespace::IScoreController* const& GlobalNamespace::ScoreMissionObjectiveChecker::__cordl_internal_get__scoreController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
@@ -90,13 +90,13 @@ inline void GlobalNamespace::ScoreMissionObjectiveChecker::Init() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ScoreMissionObjectiveChecker* GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreMissionObjectiveChecker*>());
-}
 inline void GlobalNamespace::ScoreMissionObjectiveChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScoreMissionObjectiveChecker* GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScoreMissionObjectiveChecker*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScoreMissionObjectiveChecker::ScoreMissionObjectiveChecker() {}

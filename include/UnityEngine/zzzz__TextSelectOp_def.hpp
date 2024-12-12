@@ -12,11 +12,10 @@ struct TextSelectOp;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextSelectOp);
-// Type: UnityEngine::TextSelectOp
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::TextSelectOp
+// CS Name: UnityEngine.TextSelectOp
 struct CORDL_TYPE TextSelectOp {
 public:
   // Declarations
@@ -64,84 +63,84 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextSelectOp(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Copy value: static_cast<int32_t>(0x12)
+  /// @brief Field Copy value: I32(18)
   static ::UnityEngine::TextSelectOp const Copy;
 
-  /// @brief Field ExpandSelectGraphicalLineEnd value: static_cast<int32_t>(0x9)
+  /// @brief Field ExpandSelectGraphicalLineEnd value: I32(9)
   static ::UnityEngine::TextSelectOp const ExpandSelectGraphicalLineEnd;
 
-  /// @brief Field ExpandSelectGraphicalLineStart value: static_cast<int32_t>(0x8)
+  /// @brief Field ExpandSelectGraphicalLineStart value: I32(8)
   static ::UnityEngine::TextSelectOp const ExpandSelectGraphicalLineStart;
 
-  /// @brief Field SelectAll value: static_cast<int32_t>(0x13)
+  /// @brief Field SelectAll value: I32(19)
   static ::UnityEngine::TextSelectOp const SelectAll;
 
-  /// @brief Field SelectDown value: static_cast<int32_t>(0x3)
+  /// @brief Field SelectDown value: I32(3)
   static ::UnityEngine::TextSelectOp const SelectDown;
 
-  /// @brief Field SelectGraphicalLineEnd value: static_cast<int32_t>(0xb)
+  /// @brief Field SelectGraphicalLineEnd value: I32(11)
   static ::UnityEngine::TextSelectOp const SelectGraphicalLineEnd;
 
-  /// @brief Field SelectGraphicalLineStart value: static_cast<int32_t>(0xa)
+  /// @brief Field SelectGraphicalLineStart value: I32(10)
   static ::UnityEngine::TextSelectOp const SelectGraphicalLineStart;
 
-  /// @brief Field SelectLeft value: static_cast<int32_t>(0x0)
+  /// @brief Field SelectLeft value: I32(0)
   static ::UnityEngine::TextSelectOp const SelectLeft;
 
-  /// @brief Field SelectNone value: static_cast<int32_t>(0x14)
+  /// @brief Field SelectNone value: I32(20)
   static ::UnityEngine::TextSelectOp const SelectNone;
 
-  /// @brief Field SelectPageDown value: static_cast<int32_t>(0x7)
+  /// @brief Field SelectPageDown value: I32(7)
   static ::UnityEngine::TextSelectOp const SelectPageDown;
 
-  /// @brief Field SelectPageUp value: static_cast<int32_t>(0x6)
+  /// @brief Field SelectPageUp value: I32(6)
   static ::UnityEngine::TextSelectOp const SelectPageUp;
 
-  /// @brief Field SelectParagraphBackward value: static_cast<int32_t>(0x10)
+  /// @brief Field SelectParagraphBackward value: I32(16)
   static ::UnityEngine::TextSelectOp const SelectParagraphBackward;
 
-  /// @brief Field SelectParagraphForward value: static_cast<int32_t>(0x11)
+  /// @brief Field SelectParagraphForward value: I32(17)
   static ::UnityEngine::TextSelectOp const SelectParagraphForward;
 
-  /// @brief Field SelectRight value: static_cast<int32_t>(0x1)
+  /// @brief Field SelectRight value: I32(1)
   static ::UnityEngine::TextSelectOp const SelectRight;
 
-  /// @brief Field SelectTextEnd value: static_cast<int32_t>(0x5)
+  /// @brief Field SelectTextEnd value: I32(5)
   static ::UnityEngine::TextSelectOp const SelectTextEnd;
 
-  /// @brief Field SelectTextStart value: static_cast<int32_t>(0x4)
+  /// @brief Field SelectTextStart value: I32(4)
   static ::UnityEngine::TextSelectOp const SelectTextStart;
 
-  /// @brief Field SelectToEndOfPreviousWord value: static_cast<int32_t>(0xe)
+  /// @brief Field SelectToEndOfPreviousWord value: I32(14)
   static ::UnityEngine::TextSelectOp const SelectToEndOfPreviousWord;
 
-  /// @brief Field SelectToStartOfNextWord value: static_cast<int32_t>(0xf)
+  /// @brief Field SelectToStartOfNextWord value: I32(15)
   static ::UnityEngine::TextSelectOp const SelectToStartOfNextWord;
 
-  /// @brief Field SelectUp value: static_cast<int32_t>(0x2)
+  /// @brief Field SelectUp value: I32(2)
   static ::UnityEngine::TextSelectOp const SelectUp;
 
-  /// @brief Field SelectWordLeft value: static_cast<int32_t>(0xc)
+  /// @brief Field SelectWordLeft value: I32(12)
   static ::UnityEngine::TextSelectOp const SelectWordLeft;
 
-  /// @brief Field SelectWordRight value: static_cast<int32_t>(0xd)
+  /// @brief Field SelectWordRight value: I32(13)
   static ::UnityEngine::TextSelectOp const SelectWordRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextSelectOp, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextSelectOp, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextSelectOp, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextSelectOp, "UnityEngine", "TextSelectOp");

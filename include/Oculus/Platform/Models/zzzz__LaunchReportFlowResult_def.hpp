@@ -15,11 +15,10 @@ class LaunchReportFlowResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchReportFlowResult);
-// Type: Oculus.Platform.Models::LaunchReportFlowResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LaunchReportFlowResult*
+// CS Name: Oculus.Platform.Models.LaunchReportFlowResult
 class CORDL_TYPE LaunchReportFlowResult : public ::System::Object {
 public:
   // Declarations
@@ -43,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_UserReportId(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f300bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90168, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -60,23 +59,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LaunchReportFlowResult(LaunchReportFlowResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15527 };
+
   /// @brief Field DidCancel, offset: 0x10, size: 0x1, def value: None
   bool ___DidCancel;
 
   /// @brief Field UserReportId, offset: 0x18, size: 0x8, def value: None
   uint64_t ___UserReportId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15492 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchReportFlowResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LaunchReportFlowResult, ___DidCancel) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LaunchReportFlowResult, ___UserReportId) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchReportFlowResult, 0x20>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LaunchReportFlowResult);

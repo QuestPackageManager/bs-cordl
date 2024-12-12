@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SecretKeyPacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecretSubkeyPacket)
 namespace Org::BouncyCastle::Bcpg {
@@ -28,15 +27,14 @@ class SecretSubkeyPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SecretSubkeyPacket);
-// Type: Org.BouncyCastle.Bcpg::SecretSubkeyPacket
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SecretKeyPacket
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::SecretSubkeyPacket*
+// CS Name: Org.BouncyCastle.Bcpg.SecretSubkeyPacket
 class CORDL_TYPE SecretSubkeyPacket : public ::Org::BouncyCastle::Bcpg::SecretKeyPacket {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x2614fd4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26482c0, size 0x2c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -48,14 +46,14 @@ public:
                                                                         int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor, addr 0x26102d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26435c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x2614fcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26482b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor, addr 0x2614fd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26482bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 

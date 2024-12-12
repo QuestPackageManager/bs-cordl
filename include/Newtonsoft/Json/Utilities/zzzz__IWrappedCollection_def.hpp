@@ -3,16 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 CORDL_MODULE_EXPORT(IWrappedCollection)
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IList;
-}
 namespace System {
 class Object;
 }
@@ -22,11 +16,10 @@ class IWrappedCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
-// Type: Newtonsoft.Json.Utilities::IWrappedCollection
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::IWrappedCollection*
+// CS Name: Newtonsoft.Json.Utilities.IWrappedCollection
 class CORDL_TYPE IWrappedCollection {
 public:
   // Declarations
@@ -41,7 +34,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method get_UnderlyingCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_UnderlyingCollection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_UnderlyingCollection();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -53,16 +46,12 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IWrappedCollection(IWrappedCollection&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IWrappedCollection(IWrappedCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

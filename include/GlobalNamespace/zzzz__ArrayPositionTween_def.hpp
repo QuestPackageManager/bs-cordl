@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ArrayPositionTween)
@@ -22,9 +23,6 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace UnityEngine {
 class GameObject;
 }
@@ -34,11 +32,10 @@ class ArrayPositionTween;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ArrayPositionTween);
-// Type: ::ArrayPositionTween
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ExposedReference`1<T>, UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ArrayPositionTween*
+// CS Name: ArrayPositionTween
 class CORDL_TYPE ArrayPositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -57,14 +54,14 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3ad2ee0, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x3b32524, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::ArrayPositionTween* New_ctor();
 
-  constexpr ::GlobalNamespace::CustomTweenBehaviour*& __cordl_internal_get__cordl_template();
+  constexpr ::GlobalNamespace::CustomTweenBehaviour* const& __cordl_internal_get__cordl_template() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CustomTweenBehaviour*> const& __cordl_internal_get__cordl_template() const;
+  constexpr ::GlobalNamespace::CustomTweenBehaviour*& __cordl_internal_get__cordl_template();
 
   constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> const& __cordl_internal_get_arrayReference() const;
 
@@ -80,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_elementDelay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad301c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b32660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3ad2ed8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3b3251c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -103,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayPositionTween(ArrayPositionTween const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5188 };
+
   /// @brief Field arrayReference, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> ___arrayReference;
 
@@ -112,19 +112,16 @@ public:
   /// @brief Field template, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::CustomTweenBehaviour* ____cordl_template;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5168 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ArrayPositionTween, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ArrayPositionTween, ___arrayReference) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ArrayPositionTween, ___elementDelay) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ArrayPositionTween, ____cordl_template) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ArrayPositionTween, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ArrayPositionTween);

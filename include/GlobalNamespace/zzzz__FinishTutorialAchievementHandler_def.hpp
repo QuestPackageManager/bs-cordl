@@ -20,11 +20,10 @@ class FinishTutorialAchievementHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FinishTutorialAchievementHandler);
-// Type: ::FinishTutorialAchievementHandler
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FinishTutorialAchievementHandler*
+// CS Name: FinishTutorialAchievementHandler
 class CORDL_TYPE FinishTutorialAchievementHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -38,15 +37,15 @@ public:
   /// @brief Field _tutorialFinishedSignal, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal)) ::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-  /// @brief Method HandleTutorialFinished, addr 0x266df98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialFinished, addr 0x26a1e40, size 0x20, virtual false, abstract: false, final false
   inline void HandleTutorialFinished();
 
   static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x266df08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a1db0, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x266de78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26a1d20, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
@@ -67,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x266dfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1e60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FinishTutorialAchievementHandler(FinishTutorialAchievementHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12749 };
+
   /// @brief Field _achievementsModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
 
@@ -93,19 +95,16 @@ public:
   /// @brief Field _finishTutorialAchievement, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____finishTutorialAchievement;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12716 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FinishTutorialAchievementHandler, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FinishTutorialAchievementHandler, ____achievementsModel) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FinishTutorialAchievementHandler, ____tutorialFinishedSignal) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FinishTutorialAchievementHandler, ____finishTutorialAchievement) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FinishTutorialAchievementHandler, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FinishTutorialAchievementHandler);

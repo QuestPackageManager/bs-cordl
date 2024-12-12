@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IObservable_1_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
 namespace System {
@@ -21,26 +23,25 @@ namespace System {
 template <typename T> class IObserver_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __WhereObservable_1__Where;
+template <typename TValue> class WhereObservable_1_Where;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class WhereObservable_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> class __WhereObservable_1__Where;
+template <typename TValue> class WhereObservable_1_Where;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::WhereObservable_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where);
-// Type: ::Where
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::WhereObservable_1_Where);
+// Dependencies System.IObserver`1<T>, System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::WhereObservable`1::Where<TValue>*
-class CORDL_TYPE __WhereObservable_1__Where : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.WhereObservable`1/Where<TValue>
+class CORDL_TYPE WhereObservable_1_Where : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observable, offset 0x10, size 0x8
@@ -52,8 +53,8 @@ public:
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
 
-  static inline ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* observable,
-                                                                                                    ::System::IObserver_1<TValue>* observer);
+  static inline ::UnityEngine::InputSystem::Utilities::WhereObservable_1_Where<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* observable,
+                                                                                                 ::System::IObserver_1<TValue>* observer);
 
   /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
@@ -64,13 +65,13 @@ public:
   /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
+  constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* const& __cordl_internal_get_m_Observable() const;
+
   constexpr ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*& __cordl_internal_get_m_Observable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>*> const& __cordl_internal_get_m_Observable() const;
+  constexpr ::System::IObserver_1<TValue>* const& __cordl_internal_get_m_Observer() const;
 
   constexpr ::System::IObserver_1<TValue>*& __cordl_internal_get_m_Observer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __cordl_internal_get_m_Observer() const;
 
   constexpr void __cordl_internal_set_m_Observable(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* value);
 
@@ -85,16 +86,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __WhereObservable_1__Where();
+  constexpr WhereObservable_1_Where();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__WhereObservable_1__Where", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhereObservable_1_Where", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __WhereObservable_1__Where(__WhereObservable_1__Where&&) = delete;
+  WhereObservable_1_Where(WhereObservable_1_Where&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WhereObservable_1__Where", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "WhereObservable_1_Where", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __WhereObservable_1__Where(__WhereObservable_1__Where const&) = delete;
+  WhereObservable_1_Where(WhereObservable_1_Where const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7099 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* ___m_Observable;
@@ -102,24 +106,20 @@ public:
   /// @brief Field m_Observer, offset: 0x18, size: 0x8, def value: None
   ::System::IObserver_1<TValue>* ___m_Observer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7074 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::WhereObservable`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IObservable`1<T>, System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::WhereObservable`1<TValue>*
+// CS Name: UnityEngine.InputSystem.Utilities.WhereObservable`1<TValue>
 class CORDL_TYPE WhereObservable_1 : public ::System::Object {
 public:
   // Declarations
-  using Where = ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>;
+  using Where = ::UnityEngine::InputSystem::Utilities::WhereObservable_1_Where<TValue>;
 
   /// @brief Field m_Predicate, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Predicate, put = __cordl_internal_set_m_Predicate)) ::System::Func_2<TValue, bool>* m_Predicate;
@@ -135,13 +135,13 @@ public:
   /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<TValue>* observer);
 
+  constexpr ::System::Func_2<TValue, bool>* const& __cordl_internal_get_m_Predicate() const;
+
   constexpr ::System::Func_2<TValue, bool>*& __cordl_internal_get_m_Predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TValue, bool>*> const& __cordl_internal_get_m_Predicate() const;
+  constexpr ::System::IObservable_1<TValue>* const& __cordl_internal_get_m_Source() const;
 
   constexpr ::System::IObservable_1<TValue>*& __cordl_internal_get_m_Source();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __cordl_internal_get_m_Source() const;
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_2<TValue, bool>* value);
 
@@ -167,18 +167,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   WhereObservable_1(WhereObservable_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7100 };
+
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;
 
   /// @brief Field m_Predicate, offset: 0x18, size: 0x8, def value: None
   ::System::Func_2<TValue, bool>* ___m_Predicate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7075 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::WhereObservable_1, "UnityEngine.InputSystem.Utilities", "WhereObservable`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where, "UnityEngine.InputSystem.Utilities", "WhereObservable`1/Where");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::Utilities::WhereObservable_1_Where, "UnityEngine.InputSystem.Utilities", "WhereObservable`1/Where");

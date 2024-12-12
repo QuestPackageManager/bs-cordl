@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::System::Security::Principal::WellKnownSidType)>(
     &::System::Security::Principal::WellKnownAccount::set_WellKnownValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c594fc;
+  constexpr static std::size_t addrs = 0x3cb9670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Principal::WellKnownAccount::*)()>(
     &::System::Security::Principal::WellKnownAccount::get_IsAbsolute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59504;
+  constexpr static std::size_t addrs = 0x3cb9678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(bool)>(
     &::System::Security::Principal::WellKnownAccount::set_IsAbsolute)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c5950c;
+  constexpr static std::size_t addrs = 0x3cb9680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(
     &::System::Security::Principal::WellKnownAccount::get_Sid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59518;
+  constexpr static std::size_t addrs = 0x3cb968c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::set_Sid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59520;
+  constexpr static std::size_t addrs = 0x3cb9694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::set_Rid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59528;
+  constexpr static std::size_t addrs = 0x3cb969c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(
     &::System::Security::Principal::WellKnownAccount::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59530;
+  constexpr static std::size_t addrs = 0x3cb96a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59538;
+  constexpr static std::size_t addrs = 0x3cb96ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::WellKnownAccount::*)()>(
     &::System::Security::Principal::WellKnownAccount::get_SddlForm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59540;
+  constexpr static std::size_t addrs = 0x3cb96b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::set_SddlForm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59548;
+  constexpr static std::size_t addrs = 0x3cb96bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::LookupBySid)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c5916c;
+  constexpr static std::size_t addrs = 0x3cb92e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::LookupByName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c58088;
+  constexpr static std::size_t addrs = 0x3cb81fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::WellKnownAccount* (*)(::StringW)>(
     &::System::Security::Principal::WellKnownAccount::LookupBySddlForm)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c5922c;
+  constexpr static std::size_t addrs = 0x3cb93a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WellKnownAccount::*)()>(
     &::System::Security::Principal::WellKnownAccount::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c59550;
+  constexpr static std::size_t addrs = 0x3cb96c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(), ".ctor",
@@ -365,13 +365,13 @@ inline ::System::Security::Principal::WellKnownAccount* System::Security::Princi
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Principal::WellKnownAccount*, false>(nullptr, ___internal_method, s);
 }
-inline ::System::Security::Principal::WellKnownAccount* System::Security::Principal::WellKnownAccount::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Principal::WellKnownAccount*>());
-}
 inline void System::Security::Principal::WellKnownAccount::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WellKnownAccount*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Principal::WellKnownAccount* System::Security::Principal::WellKnownAccount::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Principal::WellKnownAccount*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Principal::WellKnownAccount::WellKnownAccount() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SongPackMasksModelSO)
 namespace GlobalNamespace {
@@ -22,11 +21,10 @@ class SongPackMasksModelSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongPackMasksModelSO);
-// Type: ::SongPackMasksModelSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SongPackMasksModelSO*
+// CS Name: SongPackMasksModelSO
 class CORDL_TYPE SongPackMasksModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -49,21 +47,21 @@ public:
 
   constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*>& __cordl_internal_get__customSongPackMaskItems();
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__defaultSongPackMaskItems();
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get__defaultSongPackMaskItems() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__defaultSongPackMaskItems() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__defaultSongPackMaskItems();
 
   constexpr void __cordl_internal_set__customSongPackMaskItems(::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> value);
 
   constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26ad290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_customSongPackMaskItems, addr 0x26ad288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customSongPackMaskItems, addr 0x26e1fbc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
 
-  /// @brief Method get_defaultSongPackMaskItems, addr 0x26ad280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSongPackMaskItems, addr 0x26e1fb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
 
 protected:
@@ -80,23 +78,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SongPackMasksModelSO(SongPackMasksModelSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13118 };
+
   /// @brief Field _defaultSongPackMaskItems, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____defaultSongPackMaskItems;
 
   /// @brief Field _customSongPackMaskItems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> ____customSongPackMaskItems;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13083 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPackMasksModelSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SongPackMasksModelSO, ____defaultSongPackMaskItems) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SongPackMasksModelSO, ____customSongPackMaskItems) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPackMasksModelSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongPackMasksModelSO);

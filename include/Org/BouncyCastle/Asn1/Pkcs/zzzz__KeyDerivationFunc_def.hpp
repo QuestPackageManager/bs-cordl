@@ -20,11 +20,10 @@ class KeyDerivationFunc;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc);
-// Type: Org.BouncyCastle.Asn1.Pkcs::KeyDerivationFunc
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Pkcs::KeyDerivationFunc*
+// CS Name: Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc
 class CORDL_TYPE KeyDerivationFunc : public ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x23d92d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240c5bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x23d92cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x240c5b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

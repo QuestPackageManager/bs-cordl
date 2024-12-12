@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(DynamicScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
 class SceneInfo;
@@ -18,21 +17,20 @@ class DynamicScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DynamicScenesTransitionSetupDataSO);
-// Type: ::DynamicScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DynamicScenesTransitionSetupDataSO*
+// CS Name: DynamicScenesTransitionSetupDataSO
 class CORDL_TYPE DynamicScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method SetScenes, addr 0x2267274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetScenes, addr 0x2299ac8, size 0x8, virtual false, abstract: false, final false
   inline void SetScenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
                         ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method .ctor, addr 0x2267284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2299ad8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +48,7 @@ public:
   DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17626 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,11 +16,10 @@ class BeatmapInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapInfo);
-// Type: ::BeatmapInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDifficultyMask, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapInfo*
+// CS Name: BeatmapInfo
 class CORDL_TYPE BeatmapInfo : public ::System::Object {
 public:
   // Declarations
@@ -49,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__difficulties_k__BackingField(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x22a7a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22dad78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_characteristic, addr 0x22a7a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characteristic, addr 0x22dad58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristic();
 
-  /// @brief Method get_difficulties, addr 0x22a7a7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_difficulties, addr 0x22dad68, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask get_difficulties();
 
-  /// @brief Method set_characteristic, addr 0x22a7a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_characteristic, addr 0x22dad60, size 0x8, virtual false, abstract: false, final false
   inline void set_characteristic(::StringW value);
 
-  /// @brief Method set_difficulties, addr 0x22a7a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_difficulties, addr 0x22dad70, size 0x8, virtual false, abstract: false, final false
   inline void set_difficulties(::GlobalNamespace::BeatmapDifficultyMask value);
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapInfo(BeatmapInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14891 };
+
   /// @brief Field <characteristic>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____characteristic_k__BackingField;
 
   /// @brief Field <difficulties>k__BackingField, offset: 0x18, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ____difficulties_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14857 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapInfo, ____characteristic_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapInfo, ____difficulties_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapInfo, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapInfo);

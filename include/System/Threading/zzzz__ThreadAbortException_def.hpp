@@ -17,11 +17,10 @@ class ThreadAbortException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ThreadAbortException);
-// Type: System.Threading::ThreadAbortException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ThreadAbortException*
+// CS Name: System.Threading.ThreadAbortException
 class CORDL_TYPE ThreadAbortException : public ::System::SystemException {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
 
   static inline ::System::Threading::ThreadAbortException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3df6b14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e56bc0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3df6b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e56c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

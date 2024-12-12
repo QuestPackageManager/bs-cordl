@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MethodCall_2)
 namespace System {
 class AsyncCallback;
@@ -25,13 +23,12 @@ template <typename T, typename TResult> class MethodCall_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::MethodCall_2);
-// Type: Newtonsoft.Json.Utilities::MethodCall`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T, typename TResult>
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::MethodCall`2<T,TResult>*
+// CS Name: Newtonsoft.Json.Utilities.MethodCall`2<T,TResult>
 class CORDL_TYPE MethodCall_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
@@ -64,7 +61,7 @@ public:
   MethodCall_2(MethodCall_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10254 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

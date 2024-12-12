@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)(
     int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x234f730;
+  constexpr static std::size_t addrs = 0x2382a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* (
     ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::GenerateParameters)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x234f73c;
+  constexpr static std::size_t addrs = 0x2382a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x234f814;
+  constexpr static std::size_t addrs = 0x2382b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +78,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const&
-Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -100,14 +99,14 @@ inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* Org::BouncyCa
                                                "GenerateParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator*>());
-}
 inline void Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator* Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::ElGamalParametersGenerator::ElGamalParametersGenerator() {}

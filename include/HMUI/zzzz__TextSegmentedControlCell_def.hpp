@@ -19,11 +19,10 @@ class TextSegmentedControlCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::TextSegmentedControlCell);
-// Type: HMUI::TextSegmentedControlCell
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.SegmentedControlCell
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::TextSegmentedControlCell*
+// CS Name: HMUI.TextSegmentedControlCell
 class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
   // Declarations
@@ -55,25 +54,25 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x4028a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4089da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fontSize, addr 0x4028a70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fontSize, addr 0x4089d84, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_preferredWidth, addr 0x4028a18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x4089d2c, size 0x24, virtual false, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_text, addr 0x4028a4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x4089d60, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_fontSize, addr 0x40289b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_fontSize, addr 0x4089cc8, size 0x1c, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method set_hideBackgroundImage, addr 0x40289f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x4089d08, size 0x24, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_text, addr 0x40289d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x4089ce4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -90,23 +89,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18795 };
+
   /// @brief Field _text, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _backgroundGameObject, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18714 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControlCell, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____text) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____backgroundGameObject) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControlCell, 0x70>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::TextSegmentedControlCell);

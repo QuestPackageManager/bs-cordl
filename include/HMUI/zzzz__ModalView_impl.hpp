@@ -12,145 +12,145 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::HMUI::__ModalView____c__DisplayClass17_0._ctor
+//  Writing Method size for method: ::HMUI::ModalView___c__DisplayClass19_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ModalView____c__DisplayClass17_0::*)()>(&::HMUI::__ModalView____c__DisplayClass17_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass19_0::*)()>(&::HMUI::ModalView___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225f324;
+  constexpr static std::size_t addrs = 0x2291a1c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass17_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ModalView____c__DisplayClass17_0._Hide_b__0
+//  Writing Method size for method: ::HMUI::ModalView___c__DisplayClass19_0._Hide_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ModalView____c__DisplayClass17_0::*)()>(&::HMUI::__ModalView____c__DisplayClass17_0::_Hide_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass19_0::*)()>(&::HMUI::ModalView___c__DisplayClass19_0::_Hide_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x225fd44;
+  constexpr static std::size_t addrs = 0x229243c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass17_0*>::get(), "<Hide>b__0",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), "<Hide>b__0",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::ModalView>& HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::ModalView>& HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::ModalView> const& HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::ModalView> const& HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value) {
+constexpr void HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_get_finishedCallback() {
+constexpr ::System::Action*& HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_get_finishedCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_get_finishedCallback() const {
+constexpr ::System::Action* const& HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_get_finishedCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___finishedCallback;
 }
-constexpr void HMUI::__ModalView____c__DisplayClass17_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
+constexpr void HMUI::ModalView___c__DisplayClass19_0::__cordl_internal_set_finishedCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___finishedCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HMUI::__ModalView____c__DisplayClass17_0* HMUI::__ModalView____c__DisplayClass17_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ModalView____c__DisplayClass17_0*>());
-}
-inline void HMUI::__ModalView____c__DisplayClass17_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass17_0*>::get(), ".ctor",
+inline void HMUI::ModalView___c__DisplayClass19_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::__ModalView____c__DisplayClass17_0::_Hide_b__0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass17_0*>::get(), "<Hide>b__0",
+inline void HMUI::ModalView___c__DisplayClass19_0::_Hide_b__0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass19_0*>::get(), "<Hide>b__0",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::ModalView___c__DisplayClass19_0* HMUI::ModalView___c__DisplayClass19_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ModalView___c__DisplayClass19_0*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::__ModalView____c__DisplayClass17_0::__ModalView____c__DisplayClass17_0() {}
-//  Writing Method size for method: ::HMUI::__ModalView____c__DisplayClass21_0._ctor
+constexpr ::HMUI::ModalView___c__DisplayClass19_0::ModalView___c__DisplayClass19_0() {}
+//  Writing Method size for method: ::HMUI::ModalView___c__DisplayClass23_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ModalView____c__DisplayClass21_0::*)()>(&::HMUI::__ModalView____c__DisplayClass21_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass23_0::*)()>(&::HMUI::ModalView___c__DisplayClass23_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x225fd2c;
+  constexpr static std::size_t addrs = 0x2292424;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass21_0*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass23_0*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::__ModalView____c__DisplayClass21_0._HandleParentViewControllerDidDeactivate_b__0
+//  Writing Method size for method: ::HMUI::ModalView___c__DisplayClass23_0._HandleParentViewControllerDidDeactivate_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::__ModalView____c__DisplayClass21_0::*)()>(
-    &::HMUI::__ModalView____c__DisplayClass21_0::_HandleParentViewControllerDidDeactivate_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView___c__DisplayClass23_0::*)()>(
+    &::HMUI::ModalView___c__DisplayClass23_0::_HandleParentViewControllerDidDeactivate_b__0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x225fdc0;
+  constexpr static std::size_t addrs = 0x22924b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass21_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass23_0*>::get(),
                                                  "<HandleParentViewControllerDidDeactivate>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::ModalView>& HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::ModalView>& HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::ModalView> const& HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::ModalView> const& HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value) {
+constexpr void HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_get_prevAnimateParentCanvas() {
+constexpr bool& HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_get_prevAnimateParentCanvas() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevAnimateParentCanvas;
 }
-constexpr bool const& HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_get_prevAnimateParentCanvas() const {
+constexpr bool const& HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_get_prevAnimateParentCanvas() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevAnimateParentCanvas;
 }
-constexpr void HMUI::__ModalView____c__DisplayClass21_0::__cordl_internal_set_prevAnimateParentCanvas(bool value) {
+constexpr void HMUI::ModalView___c__DisplayClass23_0::__cordl_internal_set_prevAnimateParentCanvas(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevAnimateParentCanvas = value;
 }
-inline ::HMUI::__ModalView____c__DisplayClass21_0* HMUI::__ModalView____c__DisplayClass21_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::__ModalView____c__DisplayClass21_0*>());
-}
-inline void HMUI::__ModalView____c__DisplayClass21_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass21_0*>::get(), ".ctor",
+inline void HMUI::ModalView___c__DisplayClass23_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass23_0*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::__ModalView____c__DisplayClass21_0::_HandleParentViewControllerDidDeactivate_b__0() {
+inline void HMUI::ModalView___c__DisplayClass23_0::_HandleParentViewControllerDidDeactivate_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::__ModalView____c__DisplayClass21_0*>::get(),
-                                               "<HandleParentViewControllerDidDeactivate>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView___c__DisplayClass23_0*>::get(), "<HandleParentViewControllerDidDeactivate>b__0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::HMUI::ModalView___c__DisplayClass23_0* HMUI::ModalView___c__DisplayClass23_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ModalView___c__DisplayClass23_0*>());
+}
 // Ctor Parameters []
-constexpr ::HMUI::__ModalView____c__DisplayClass21_0::__ModalView____c__DisplayClass21_0() {}
+constexpr ::HMUI::ModalView___c__DisplayClass23_0::ModalView___c__DisplayClass23_0() {}
 //  Writing Method size for method: ::HMUI::ModalView.add_blockerClickedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::add_blockerClickedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x225ecc0;
+  constexpr static std::size_t addrs = 0x22913b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::System::Action*)>(&::HMUI::ModalView::remove_blockerClickedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x225ed5c;
+  constexpr static std::size_t addrs = 0x229144c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,12 +173,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::HMUI::ModalView.get_isShown
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ModalView::*)()>(&::HMUI::ModalView::get_isShown)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x22914e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "get_isShown",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::ModalView.OnDisable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDisable)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x225edf8;
+  constexpr static std::size_t addrs = 0x22914f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "OnDisable",
@@ -191,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x225ee0c;
+  constexpr static std::size_t addrs = 0x2291504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "OnDestroy",
@@ -204,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(::UnityEngine::Transform*)>(&::HMUI::ModalView::SetupView)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x225ee98;
+  constexpr static std::size_t addrs = 0x2291590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -218,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, ::System::Action*)>(&::HMUI::ModalView::Hide)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x225f118;
+  constexpr static std::size_t addrs = 0x2291810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, bool, ::System::Action*)>(&::HMUI::ModalView::Show)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x225f32c;
+  constexpr static std::size_t addrs = 0x2291a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::HMUI::ModalView::*)()>(&::HMUI::ModalView::CreateBlocker)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x225f7e0;
+  constexpr static std::size_t addrs = 0x2291ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "CreateBlocker",
@@ -259,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::HandleBlockerButtonClicked)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x225fc38;
+  constexpr static std::size_t addrs = 0x2292330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "HandleBlockerButtonClicked",
@@ -272,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)(bool, bool)>(&::HMUI::ModalView::HandleParentViewControllerDidDeactivate)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x225fc54;
+  constexpr static std::size_t addrs = 0x229234c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,16 +298,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ByRef<::UnityEngine::Canvas*>, ByRef<::HMUI::ViewControllerBase*>)>(&::HMUI::ModalView::GetModalRootTransform)> {
+    static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*, ::ByRef<::UnityEngine::Canvas*>, ::ByRef<::HMUI::ViewControllerBase*>)>(&::HMUI::ModalView::GetModalRootTransform)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x225f6e0;
+  constexpr static std::size_t addrs = 0x2291dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "GetModalRootTransform", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Canvas*>>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HMUI::ViewControllerBase*>>::get() })));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Canvas*>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HMUI::ViewControllerBase*>>::get() })));
     return ___internal_method;
   }
 };
@@ -303,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ModalView::*)()>(&::HMUI::ModalView::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x225fd34;
+  constexpr static std::size_t addrs = 0x229242c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), ".ctor",
@@ -351,7 +364,7 @@ constexpr ::Zenject::DiContainer*& HMUI::ModalView::__cordl_internal_get__contai
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& HMUI::ModalView::__cordl_internal_get__container() const {
+constexpr ::Zenject::DiContainer* const& HMUI::ModalView::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -363,7 +376,7 @@ constexpr ::System::Action*& HMUI::ModalView::__cordl_internal_get_blockerClicke
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockerClickedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& HMUI::ModalView::__cordl_internal_get_blockerClickedEvent() const {
+constexpr ::System::Action* const& HMUI::ModalView::__cordl_internal_get_blockerClickedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blockerClickedEvent;
 }
@@ -465,6 +478,11 @@ inline void HMUI::ModalView::remove_blockerClickedEvent(::System::Action* value)
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline bool HMUI::ModalView::get_isShown() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "get_isShown",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline void HMUI::ModalView::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "OnDisable",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -481,14 +499,11 @@ inline void HMUI::ModalView::SetupView(::UnityEngine::Transform* screenTransform
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screenTransform);
 }
-/// @param finishedCallback: ::System::Action* (default: nullptr)
 inline void HMUI::ModalView::Hide(bool animated, ::System::Action* finishedCallback) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, animated, finishedCallback);
 }
-/// @param moveToCenter: bool (default: false)
-/// @param finishedCallback: ::System::Action* (default: nullptr)
 inline void HMUI::ModalView::Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), 6)));
@@ -510,22 +525,22 @@ inline void HMUI::ModalView::HandleParentViewControllerDidDeactivate(bool remove
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline ::UnityW<::UnityEngine::Transform> HMUI::ModalView::GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas,
-                                                                                 ByRef<::HMUI::ViewControllerBase*> viewController) {
+inline ::UnityW<::UnityEngine::Transform> HMUI::ModalView::GetModalRootTransform(::UnityEngine::Transform* transform, ::ByRef<::UnityEngine::Canvas*> canvas,
+                                                                                 ::ByRef<::HMUI::ViewControllerBase*> viewController) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), "GetModalRootTransform", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Canvas*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::HMUI::ViewControllerBase*>>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Canvas*>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::HMUI::ViewControllerBase*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(nullptr, ___internal_method, transform, canvas, viewController);
-}
-inline ::HMUI::ModalView* HMUI::ModalView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ModalView*>());
 }
 inline void HMUI::ModalView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ModalView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::ModalView* HMUI::ModalView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ModalView*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::ModalView::ModalView() {}

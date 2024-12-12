@@ -18,11 +18,10 @@ class LobbyGameStateModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateModel);
-// Type: ::LobbyGameStateModel
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MultiplayerGameState, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LobbyGameStateModel*
+// CS Name: LobbyGameStateModel
 class CORDL_TYPE LobbyGameStateModel : public ::System::Object {
 public:
   // Declarations
@@ -41,26 +40,26 @@ public:
 
   static inline ::GlobalNamespace::LobbyGameStateModel* New_ctor();
 
-  /// @brief Method SetGameState, addr 0x26a5ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x26da7e8, size 0x8, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method SetGameState, addr 0x26a5abc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetGameState, addr 0x26da7f0, size 0x70, virtual false, abstract: false, final false
   inline void SetGameState(::GlobalNamespace::MultiplayerGameState newGameState, bool sendNotification);
 
-  /// @brief Method SetGameStateWithoutNotification, addr 0x26a5b2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetGameStateWithoutNotification, addr 0x26da860, size 0x2c, virtual false, abstract: false, final false
   inline void SetGameStateWithoutNotification(::GlobalNamespace::MultiplayerGameState newGameState);
 
   constexpr ::GlobalNamespace::MultiplayerGameState const& __cordl_internal_get__gameState() const;
 
   constexpr ::GlobalNamespace::MultiplayerGameState& __cordl_internal_get__gameState();
 
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* const& __cordl_internal_get_gameStateDidChangeAlwaysSentEvent() const;
+
   constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __cordl_internal_get_gameStateDidChangeAlwaysSentEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __cordl_internal_get_gameStateDidChangeAlwaysSentEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* const& __cordl_internal_get_gameStateDidChangeEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __cordl_internal_get_gameStateDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __cordl_internal_get_gameStateDidChangeEvent() const;
 
   constexpr void __cordl_internal_set__gameState(::GlobalNamespace::MultiplayerGameState value);
 
@@ -68,22 +67,22 @@ public:
 
   constexpr void __cordl_internal_set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method .ctor, addr 0x26a5b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26da88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x26a5954, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeAlwaysSentEvent, addr 0x26da688, size 0xb0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method add_gameStateDidChangeEvent, addr 0x26a57f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_gameStateDidChangeEvent, addr 0x26da528, size 0xb0, virtual false, abstract: false, final false
   inline void add_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method get_gameState, addr 0x26a57ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameState, addr 0x26da520, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();
 
-  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x26a5a04, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeAlwaysSentEvent, addr 0x26da738, size 0xb0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  /// @brief Method remove_gameStateDidChangeEvent, addr 0x26a58a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_gameStateDidChangeEvent, addr 0x26da5d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyGameStateModel(LobbyGameStateModel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
+
   /// @brief Field gameStateDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerGameState>* ___gameStateDidChangeEvent;
 
@@ -109,19 +111,16 @@ public:
   /// @brief Field _gameState, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerGameState ____gameState;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13064 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyGameStateModel, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ___gameStateDidChangeEvent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ___gameStateDidChangeAlwaysSentEvent) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyGameStateModel, ____gameState) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyGameStateModel, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LobbyGameStateModel);

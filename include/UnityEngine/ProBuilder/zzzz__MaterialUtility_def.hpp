@@ -21,21 +21,20 @@ class MaterialUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MaterialUtility);
-// Type: UnityEngine.ProBuilder::MaterialUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::MaterialUtility*
+// CS Name: UnityEngine.ProBuilder.MaterialUtility
 class CORDL_TYPE MaterialUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_MaterialArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* s_MaterialArray;
+  __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* s_MaterialArray;
 
-  /// @brief Method GetMaterialCount, addr 0x46add7c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCount, addr 0x470f090, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method GetSharedMaterial, addr 0x46ade4c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x470f160, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* getStaticF_s_MaterialArray();
@@ -57,7 +56,7 @@ public:
   MaterialUtility(MaterialUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

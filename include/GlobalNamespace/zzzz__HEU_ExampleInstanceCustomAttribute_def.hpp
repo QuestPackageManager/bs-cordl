@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_ExampleInstanceCustomAttribute)
@@ -17,26 +16,25 @@ class HEU_ExampleInstanceCustomAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_ExampleInstanceCustomAttribute);
-// Type: ::HEU_ExampleInstanceCustomAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HEU_ExampleInstanceCustomAttribute*
+// CS Name: HEU_ExampleInstanceCustomAttribute
 class CORDL_TYPE HEU_ExampleInstanceCustomAttribute : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstancerCallback, addr 0x39ae1bc, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method InstancerCallback, addr 0x3a04e2c, size 0x3a8, virtual false, abstract: false, final false
   inline void InstancerCallback();
 
   /// @brief Method LogArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void LogArray(::StringW name, ::ArrayW<T, ::Array<T>*> arr, int32_t tupleSize);
 
-  /// @brief Method LogAttr, addr 0x39ae564, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method LogAttr, addr 0x3a051d4, size 0x154, virtual false, abstract: false, final false
   static inline void LogAttr(::HoudiniEngineUnity::HEU_OutputAttribute* outAttr);
 
   static inline ::GlobalNamespace::HEU_ExampleInstanceCustomAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39ae6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +52,7 @@ public:
   HEU_ExampleInstanceCustomAttribute(HEU_ExampleInstanceCustomAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

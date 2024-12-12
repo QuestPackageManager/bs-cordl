@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DebugConsoleExtensionMethods)
 namespace GlobalNamespace {
-struct __DebugConsoleController__ConsoleMessage;
+struct DebugConsoleController_ConsoleMessage;
 }
 namespace UnityEngine {
 struct LogType;
@@ -18,16 +18,15 @@ class DebugConsoleExtensionMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DebugConsoleExtensionMethods);
-// Type: ::DebugConsoleExtensionMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DebugConsoleExtensionMethods*
+// CS Name: DebugConsoleExtensionMethods
 class CORDL_TYPE DebugConsoleExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConsoleMessage, addr 0x3aabad0, size 0x8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
+  /// @brief Method ToConsoleMessage, addr 0x3b0bb94, size 0x30, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::DebugConsoleController_ConsoleMessage ToConsoleMessage(::StringW message, ::UnityEngine::LogType type);
 
 protected:
   // Ctor Parameters []
@@ -44,7 +43,7 @@ public:
   DebugConsoleExtensionMethods(DebugConsoleExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5028 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

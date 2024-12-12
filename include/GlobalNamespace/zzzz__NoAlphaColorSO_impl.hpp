@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::NoAlphaColorSO::*)()>(&::GlobalNamespace::NoAlphaColorSO::get_color)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x266c3d0;
+  constexpr static std::size_t addrs = 0x26a0278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoAlphaColorSO::*)()>(&::GlobalNamespace::NoAlphaColorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c3e0;
+  constexpr static std::size_t addrs = 0x26a0288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoAlphaColorSO*>::get(), ".ctor",
@@ -48,13 +48,13 @@ inline ::UnityEngine::Color GlobalNamespace::NoAlphaColorSO::get_color() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoAlphaColorSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoAlphaColorSO* GlobalNamespace::NoAlphaColorSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoAlphaColorSO*>());
-}
 inline void GlobalNamespace::NoAlphaColorSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoAlphaColorSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoAlphaColorSO* GlobalNamespace::NoAlphaColorSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoAlphaColorSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoAlphaColorSO::NoAlphaColorSO() {}

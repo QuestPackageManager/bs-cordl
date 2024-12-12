@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnsupportedAdvancedHapticsPlayer)
-namespace GlobalNamespace {
-class IHapticFeedbackPlayer;
-}
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
@@ -20,26 +18,25 @@ class UnsupportedAdvancedHapticsPlayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UnsupportedAdvancedHapticsPlayer);
-// Type: ::UnsupportedAdvancedHapticsPlayer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IHapticFeedbackPlayer, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UnsupportedAdvancedHapticsPlayer*
+// CS Name: UnsupportedAdvancedHapticsPlayer
 class CORDL_TYPE UnsupportedAdvancedHapticsPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39763c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x39cbc1c, size 0x8, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
   static inline ::GlobalNamespace::UnsupportedAdvancedHapticsPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39763c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x39cbc18, size 0x4, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method .ctor, addr 0x39763d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39cbc24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -60,7 +57,7 @@ public:
   UnsupportedAdvancedHapticsPlayer(UnsupportedAdvancedHapticsPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16439 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

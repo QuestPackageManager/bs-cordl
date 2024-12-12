@@ -12,11 +12,10 @@ struct TraceEventType;
 }
 // Write type traits
 MARK_VAL_T(::System::Diagnostics::TraceEventType);
-// Type: System.Diagnostics::TraceEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Diagnostics {
 // Is value type: true
-// CS Name: ::System.Diagnostics::TraceEventType
+// CS Name: System.Diagnostics.TraceEventType
 struct CORDL_TYPE TraceEventType {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TraceEventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Critical value: static_cast<int32_t>(0x1)
+  /// @brief Field Critical value: I32(1)
   static ::System::Diagnostics::TraceEventType const Critical;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x2)
+  /// @brief Field Error value: I32(2)
   static ::System::Diagnostics::TraceEventType const Error;
 
-  /// @brief Field Information value: static_cast<int32_t>(0x8)
+  /// @brief Field Information value: I32(8)
   static ::System::Diagnostics::TraceEventType const Information;
 
-  /// @brief Field Resume value: static_cast<int32_t>(0x800)
+  /// @brief Field Resume value: I32(2048)
   static ::System::Diagnostics::TraceEventType const Resume;
 
-  /// @brief Field Start value: static_cast<int32_t>(0x100)
+  /// @brief Field Start value: I32(256)
   static ::System::Diagnostics::TraceEventType const Start;
 
-  /// @brief Field Stop value: static_cast<int32_t>(0x200)
+  /// @brief Field Stop value: I32(512)
   static ::System::Diagnostics::TraceEventType const Stop;
 
-  /// @brief Field Suspend value: static_cast<int32_t>(0x400)
+  /// @brief Field Suspend value: I32(1024)
   static ::System::Diagnostics::TraceEventType const Suspend;
 
-  /// @brief Field Transfer value: static_cast<int32_t>(0x1000)
+  /// @brief Field Transfer value: I32(4096)
   static ::System::Diagnostics::TraceEventType const Transfer;
 
-  /// @brief Field Verbose value: static_cast<int32_t>(0x10)
+  /// @brief Field Verbose value: I32(16)
   static ::System::Diagnostics::TraceEventType const Verbose;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x4)
+  /// @brief Field Warning value: I32(4)
   static ::System::Diagnostics::TraceEventType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9255 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceEventType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::TraceEventType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceEventType, 0x4>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceEventType, "System.Diagnostics", "TraceEventType");

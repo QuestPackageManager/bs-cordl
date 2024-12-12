@@ -3,10 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__ICloneable_def.hpp"
 CORDL_MODULE_EXPORT(IX509Selector)
-namespace System {
-class ICloneable;
-}
 namespace System {
 class Object;
 }
@@ -16,26 +14,21 @@ class IX509Selector;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509Selector);
-// Type: Org.BouncyCastle.X509.Store::IX509Selector
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ICloneable
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509.Store::IX509Selector*
+// CS Name: Org.BouncyCastle.X509.Store.IX509Selector
 class CORDL_TYPE IX509Selector {
 public:
   // Declarations
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Match, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Match, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Match(::System::Object* obj);
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IX509Selector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IX509Selector(IX509Selector&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IX509Selector", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

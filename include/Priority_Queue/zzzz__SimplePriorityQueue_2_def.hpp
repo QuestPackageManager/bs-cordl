@@ -4,27 +4,23 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
+template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -34,9 +30,6 @@ template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -49,19 +42,18 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority> class SimplePriorityQueue_2;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
+template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::SimplePriorityQueue_2);
-MARK_GEN_REF_PTR_T(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode);
-// Type: ::SimpleNode
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::Priority_Queue::SimplePriorityQueue_2_SimpleNode);
+// Dependencies Priority_Queue.GenericPriorityQueueNode`1<TPriority>
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
-class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
+// CS Name: Priority_Queue.SimplePriorityQueue`2/SimpleNode<TItem,TPriority>
+class CORDL_TYPE SimplePriorityQueue_2_SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
 public:
   // Declarations
   __declspec(property(get = get_Data, put = set_Data)) TItem Data;
@@ -69,7 +61,7 @@ public:
   /// @brief Field <Data>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField)) TItem _Data_k__BackingField;
 
-  static inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* New_ctor(TItem data);
+  static inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* New_ctor(TItem data);
 
   constexpr TItem const& __cordl_internal_get__Data_k__BackingField() const;
 
@@ -89,38 +81,37 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SimplePriorityQueue_2__SimpleNode();
+  constexpr SimplePriorityQueue_2_SimpleNode();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SimplePriorityQueue_2__SimpleNode", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __SimplePriorityQueue_2__SimpleNode(__SimplePriorityQueue_2__SimpleNode&&) = delete;
+  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SimplePriorityQueue_2__SimpleNode", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2_SimpleNode", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __SimplePriorityQueue_2__SimpleNode(__SimplePriorityQueue_2__SimpleNode const&) = delete;
+  SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16938 };
 
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TItem ____Data_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Type: Priority_Queue::SimplePriorityQueue`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Priority_Queue.IPriorityQueue`2<TItem, TPriority>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// CS Name: ::Priority_Queue::SimplePriorityQueue`2<TItem,TPriority>*
+// CS Name: Priority_Queue.SimplePriorityQueue`2<TItem,TPriority>
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {
 public:
   // Declarations
-  using SimpleNode = ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>;
+  using SimpleNode = ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -128,15 +119,15 @@ public:
 
   /// @brief Field _itemToNodesCache, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__itemToNodesCache, put = __cordl_internal_set__itemToNodesCache)) ::System::Collections::Generic::Dictionary_2<
-      TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* _itemToNodesCache;
+      TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* _itemToNodesCache;
 
   /// @brief Field _nullNodesCache, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__nullNodesCache,
-                      put = __cordl_internal_set__nullNodesCache)) ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* _nullNodesCache;
+                      put = __cordl_internal_set__nullNodesCache)) ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* _nullNodesCache;
 
   /// @brief Field _queue, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__queue,
-                      put = __cordl_internal_set__queue)) ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* _queue;
+                      put = __cordl_internal_set__queue)) ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* _queue;
 
   /// @brief Convert operator to "::Priority_Queue::IPriorityQueue_2<TItem,TPriority>"
   constexpr operator ::Priority_Queue::IPriorityQueue_2<TItem, TPriority>*() noexcept;
@@ -148,7 +139,7 @@ public:
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
   /// @brief Method AddToNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddToNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node);
+  inline void AddToNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
@@ -163,7 +154,7 @@ public:
   inline void Enqueue(TItem item, TPriority priority);
 
   /// @brief Method EnqueueNoLockOrCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* EnqueueNoLockOrCache(TItem item, TPriority priority);
+  inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* EnqueueNoLockOrCache(TItem item, TPriority priority);
 
   /// @brief Method EnqueueWithoutDuplicates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool EnqueueWithoutDuplicates(TItem item, TPriority priority);
@@ -172,7 +163,7 @@ public:
   inline ::System::Collections::Generic::IEnumerator_1<TItem>* GetEnumerator();
 
   /// @brief Method GetExistingNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* GetExistingNode(TItem item);
+  inline ::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* GetExistingNode(TItem item);
 
   /// @brief Method GetPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority GetPriority(TItem item);
@@ -198,19 +189,19 @@ public:
   inline void Remove(TItem item);
 
   /// @brief Method RemoveFromNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveFromNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node);
+  inline void RemoveFromNodeCache(::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>* node);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryDequeue(ByRef<TItem> first);
+  inline bool TryDequeue(::ByRef<TItem> first);
 
   /// @brief Method TryFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryFirst(ByRef<TItem> first);
+  inline bool TryFirst(::ByRef<TItem> first);
 
   /// @brief Method TryGetPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool TryGetPriority(TItem item, ByRef<TPriority> priority);
+  inline bool TryGetPriority(TItem item, ::ByRef<TPriority> priority);
 
   /// @brief Method TryRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryRemove(TItem item);
@@ -221,29 +212,26 @@ public:
   /// @brief Method UpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UpdatePriority(TItem item, TPriority priority);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*&
-  __cordl_internal_get__itemToNodesCache();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*> const&
+  constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* const&
   __cordl_internal_get__itemToNodesCache() const;
 
-  constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*& __cordl_internal_get__nullNodesCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>*&
+  __cordl_internal_get__itemToNodesCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*> const&
-  __cordl_internal_get__nullNodesCache() const;
+  constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* const& __cordl_internal_get__nullNodesCache() const;
 
-  constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*& __cordl_internal_get__queue();
+  constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*& __cordl_internal_get__nullNodesCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*> const&
-  __cordl_internal_get__queue() const;
+  constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* const& __cordl_internal_get__queue() const;
+
+  constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>*& __cordl_internal_get__queue();
 
   constexpr void __cordl_internal_set__itemToNodesCache(
-      ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* value);
+      ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* value);
 
-  constexpr void __cordl_internal_set__nullNodesCache(::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* value);
+  constexpr void __cordl_internal_set__nullNodesCache(::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* value);
 
-  constexpr void __cordl_internal_set__queue(::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* value);
+  constexpr void __cordl_internal_set__queue(::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -292,24 +280,24 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SimplePriorityQueue_2(SimplePriorityQueue_2 const&) = delete;
 
-  /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None
-  ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* ____queue;
-
-  /// @brief Field _itemToNodesCache, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* ____itemToNodesCache;
-
-  /// @brief Field _nullNodesCache, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* ____nullNodesCache;
-
   /// @brief Field INITIAL_QUEUE_SIZE offset 0xffffffff size 0x4
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16939 };
+
+  /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None
+  ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* ____queue;
+
+  /// @brief Field _itemToNodesCache, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>*>* ____itemToNodesCache;
+
+  /// @brief Field _nullNodesCache, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::IList_1<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*>* ____nullNodesCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Priority_Queue
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::SimplePriorityQueue_2, "Priority_Queue", "SimplePriorityQueue`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode, "Priority_Queue", "SimplePriorityQueue`2/SimpleNode");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Priority_Queue::SimplePriorityQueue_2_SimpleNode, "Priority_Queue", "SimplePriorityQueue`2/SimpleNode");

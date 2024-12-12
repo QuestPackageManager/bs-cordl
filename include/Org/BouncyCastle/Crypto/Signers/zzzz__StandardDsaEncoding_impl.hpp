@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/StandardDsaEncoding.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__StandardDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding.Decode
 template <>
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::Decode)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x23aa0d0;
+  constexpr static std::size_t addrs = 0x23dd3bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::Encode)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x23aa310;
+  constexpr static std::size_t addrs = 0x23dd5fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::CheckValue)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23aa468;
+  constexpr static std::size_t addrs = 0x23dd754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Asn1::Asn1Sequence*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::DecodeValue)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23aa504;
+  constexpr static std::size_t addrs = 0x23dd7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::EncodeValue)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23aa5c4;
+  constexpr static std::size_t addrs = 0x23dd8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23aa6ac;
+  constexpr static std::size_t addrs = 0x23dd998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,14 +105,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
-constexpr Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
-constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::i___Org__BouncyCastle__Crypto__Signers__IDsaEncoding() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(static_cast<void*>(this));
-}
 inline void Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::setStaticF_Instance(::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding* value) {
   ::cordl_internals::setStaticField<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*, "Instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*>::get>(
@@ -155,13 +147,21 @@ inline ::Org::BouncyCastle::Asn1::DerInteger* Org::BouncyCastle::Crypto::Signers
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerInteger*, false>(this, ___internal_method, n, x);
 }
-inline ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding* Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*>());
-}
 inline void Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding* Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
+constexpr Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::operator ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaEncoding"
+constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::i___Org__BouncyCastle__Crypto__Signers__IDsaEncoding() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Signers::StandardDsaEncoding::StandardDsaEncoding() {}

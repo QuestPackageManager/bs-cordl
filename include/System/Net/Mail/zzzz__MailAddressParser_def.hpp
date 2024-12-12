@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MailAddressParser)
@@ -17,33 +16,32 @@ class MailAddressParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Mail::MailAddressParser);
-// Type: System.Net.Mail::MailAddressParser
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Mail {
 // Is value type: false
-// CS Name: ::System.Net.Mail::MailAddressParser*
+// CS Name: System.Net.Mail.MailAddressParser
 class CORDL_TYPE MailAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeOrThrow, addr 0x43a22e0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method NormalizeOrThrow, addr 0x44035f4, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW NormalizeOrThrow(::StringW input);
 
-  /// @brief Method ParseAddress, addr 0x43a15f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x4402908, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data);
 
-  /// @brief Method ParseAddress, addr 0x43a1620, size 0x35c, virtual false, abstract: false, final false
-  static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index);
+  /// @brief Method ParseAddress, addr 0x4402934, size 0x35c, virtual false, abstract: false, final false
+  static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ::ByRef<int32_t> index);
 
-  /// @brief Method ParseDisplayName, addr 0x43a1d8c, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::StringW ParseDisplayName(::StringW data, ByRef<int32_t> index, bool expectMultipleAddresses);
+  /// @brief Method ParseDisplayName, addr 0x44030a0, size 0x1fc, virtual false, abstract: false, final false
+  static inline ::StringW ParseDisplayName(::StringW data, ::ByRef<int32_t> index, bool expectMultipleAddresses);
 
-  /// @brief Method ParseDomain, addr 0x43a19d8, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW ParseDomain(::StringW data, ByRef<int32_t> index);
+  /// @brief Method ParseDomain, addr 0x4402cec, size 0xe8, virtual false, abstract: false, final false
+  static inline ::StringW ParseDomain(::StringW data, ::ByRef<int32_t> index);
 
-  /// @brief Method ParseLocalPart, addr 0x43a1ac0, size 0x2cc, virtual false, abstract: false, final false
-  static inline ::StringW ParseLocalPart(::StringW data, ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
+  /// @brief Method ParseLocalPart, addr 0x4402dd4, size 0x2cc, virtual false, abstract: false, final false
+  static inline ::StringW ParseLocalPart(::StringW data, ::ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
 
-  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x43a197c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x4402c90, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index);
 
 protected:
@@ -61,7 +59,7 @@ public:
   MailAddressParser(MailAddressParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

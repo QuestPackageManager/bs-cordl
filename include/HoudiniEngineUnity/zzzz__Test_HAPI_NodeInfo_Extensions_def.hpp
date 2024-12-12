@@ -17,15 +17,14 @@ class Test_HAPI_NodeInfo_Extensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_NodeInfo_Extensions);
-// Type: HoudiniEngineUnity::Test_HAPI_NodeInfo_Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_HAPI_NodeInfo_Extensions*
+// CS Name: HoudiniEngineUnity.Test_HAPI_NodeInfo_Extensions
 class CORDL_TYPE Test_HAPI_NodeInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x3a403f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x3a97068, size 0x80, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_NodeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_NodeInfo self);
 
 protected:
@@ -43,7 +42,7 @@ public:
   Test_HAPI_NodeInfo_Extensions(Test_HAPI_NodeInfo_Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

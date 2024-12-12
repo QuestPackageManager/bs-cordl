@@ -11,7 +11,7 @@ namespace Oculus::Haptics {
 struct Controller;
 }
 namespace Oculus::Haptics {
-struct __Ffi__Controller;
+struct Ffi_Controller;
 }
 // Forward declare root types
 namespace Oculus::Haptics {
@@ -19,18 +19,17 @@ class Utils;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Haptics::Utils);
-// Type: Oculus.Haptics::Utils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Haptics {
 // Is value type: false
-// CS Name: ::Oculus.Haptics::Utils*
+// CS Name: Oculus.Haptics.Utils
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ControllerToFfiController, addr 0x3ef4b9c, size 0x84, virtual false, abstract: false, final false
-  static inline ::Oculus::Haptics::__Ffi__Controller ControllerToFfiController(::Oculus::Haptics::Controller controller);
+  /// @brief Method ControllerToFfiController, addr 0x3f54c48, size 0x84, virtual false, abstract: false, final false
+  static inline ::Oculus::Haptics::Ffi_Controller ControllerToFfiController(::Oculus::Haptics::Controller controller);
 
-  /// @brief Method Map, addr 0x3ef5340, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Map, addr 0x3f553ec, size 0x28, virtual false, abstract: false, final false
   static inline float_t Map(int32_t input, int32_t inMin, int32_t inMax, int32_t outMin, int32_t outMax);
 
 protected:
@@ -48,7 +47,7 @@ public:
   Utils(Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18778 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

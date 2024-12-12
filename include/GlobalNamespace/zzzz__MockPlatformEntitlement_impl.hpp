@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MockPlatformEntitlement::*)()>(&::GlobalNamespace::MockPlatformEntitlement::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267011c;
+  constexpr static std::size_t addrs = 0x26a3fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformEntitlement*>::get(), "get_id",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EntitlementStatus (::GlobalNamespace::MockPlatformEntitlement::*)()>(
     &::GlobalNamespace::MockPlatformEntitlement::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2670124;
+  constexpr static std::size_t addrs = 0x26a3fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformEntitlement*>::get(), "get_status",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformEntitlement::*)(::StringW, ::GlobalNamespace::EntitlementStatus)>(
     &::GlobalNamespace::MockPlatformEntitlement::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x266effc;
+  constexpr static std::size_t addrs = 0x26a2ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlatformEntitlement::*)()>(&::GlobalNamespace::MockPlatformEntitlement::GetIt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x266eff0;
+  constexpr static std::size_t addrs = 0x26a2e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformEntitlement*>::get(), "GetIt",
@@ -94,9 +94,6 @@ inline ::GlobalNamespace::EntitlementStatus GlobalNamespace::MockPlatformEntitle
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EntitlementStatus, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MockPlatformEntitlement* GlobalNamespace::MockPlatformEntitlement::New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlatformEntitlement*>(id, status));
-}
 inline void GlobalNamespace::MockPlatformEntitlement::_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformEntitlement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -108,6 +105,9 @@ inline void GlobalNamespace::MockPlatformEntitlement::GetIt() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformEntitlement*>::get(), "GetIt",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MockPlatformEntitlement* GlobalNamespace::MockPlatformEntitlement::New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlatformEntitlement*>(id, status));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MockPlatformEntitlement::MockPlatformEntitlement() {}

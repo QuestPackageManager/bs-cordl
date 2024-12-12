@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(LinkedAccount)
 namespace System {
 struct IntPtr;
@@ -17,11 +16,10 @@ class LinkedAccount;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LinkedAccount);
-// Type: Oculus.Platform.Models::LinkedAccount
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.ServiceProvider, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LinkedAccount*
+// CS Name: Oculus.Platform.Models.LinkedAccount
 class CORDL_TYPE LinkedAccount : public ::System::Object {
 public:
   // Declarations
@@ -54,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_UserId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f30818, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f908c4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -71,6 +69,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedAccount(LinkedAccount const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15533 };
+
   /// @brief Field AccessToken, offset: 0x10, size: 0x8, def value: None
   ::StringW ___AccessToken;
 
@@ -80,19 +81,16 @@ public:
   /// @brief Field UserId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___UserId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15498 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LinkedAccount, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LinkedAccount, ___AccessToken) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LinkedAccount, ___ServiceProvider) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LinkedAccount, ___UserId) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LinkedAccount, 0x28>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LinkedAccount);

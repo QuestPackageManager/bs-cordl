@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorBaseData::*)(
     float_t, bool, ::GlobalNamespace::EaseType, ::GlobalNamespace::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::GlobalNamespace::LightColorBaseData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x268837c;
+  constexpr static std::size_t addrs = 0x26bcb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,11 +121,6 @@ constexpr void GlobalNamespace::LightColorBaseData::__cordl_internal_set_strobeF
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strobeFade = value;
 }
-inline ::GlobalNamespace::LightColorBaseData* GlobalNamespace::LightColorBaseData::New_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
-                                                                                            ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
-                                                                                            float_t strobeBrightness, bool strobeFade) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBaseData*>(beat, usePreviousValue, easeType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade));
-}
 inline void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType, ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness,
                                                        int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,6 +131,11 @@ inline void GlobalNamespace::LightColorBaseData::_ctor(float_t beat, bool usePre
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousValue, easeType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade);
+}
+inline ::GlobalNamespace::LightColorBaseData* GlobalNamespace::LightColorBaseData::New_ctor(float_t beat, bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
+                                                                                            ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness, int32_t strobeBeatFrequency,
+                                                                                            float_t strobeBrightness, bool strobeFade) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightColorBaseData*>(beat, usePreviousValue, easeType, colorType, brightness, strobeBeatFrequency, strobeBrightness, strobeFade));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightColorBaseData::LightColorBaseData() {}

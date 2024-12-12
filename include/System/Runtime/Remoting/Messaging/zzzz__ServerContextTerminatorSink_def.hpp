@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerContextTerminatorSink)
 namespace System::Runtime::Remoting::Messaging {
@@ -20,27 +21,26 @@ class ServerContextTerminatorSink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink);
-// Type: System.Runtime.Remoting.Messaging::ServerContextTerminatorSink
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessageSink
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::ServerContextTerminatorSink*
+// CS Name: System.Runtime.Remoting.Messaging.ServerContextTerminatorSink
 class CORDL_TYPE ServerContextTerminatorSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3c91070, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x3cf11e4, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x3c90f64, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x3cf10d8, size 0x10c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3c91130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf12a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

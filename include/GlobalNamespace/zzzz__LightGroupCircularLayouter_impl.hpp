@@ -1,24 +1,23 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightGroupCircularLayouter.hpp"
-#include "GlobalNamespace/zzzz__LightGroupCircularLayouter_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupCircularLayouter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection::__LightGroupCircularLayouter__RotationDirection(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection::LightGroupCircularLayouter_RotationDirection(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection::__LightGroupCircularLayouter__RotationDirection() {}
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection GlobalNamespace::__LightGroupCircularLayouter__RotationDirection::Clockwise{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection GlobalNamespace::__LightGroupCircularLayouter__RotationDirection::Counterclockwise{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection::LightGroupCircularLayouter_RotationDirection() {}
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection GlobalNamespace::LightGroupCircularLayouter_RotationDirection::Clockwise{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection GlobalNamespace::LightGroupCircularLayouter_RotationDirection::Counterclockwise{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::LightGroupCircularLayouter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroupCircularLayouter::*)()>(&::GlobalNamespace::LightGroupCircularLayouter::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b2be24;
+  constexpr static std::size_t addrs = 0x3b8d3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupCircularLayouter*>::get(), ".ctor",
@@ -62,15 +61,15 @@ constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startingAngle = value;
 }
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() {
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() const {
+constexpr ::GlobalNamespace::LightGroupCircularLayouter_RotationDirection const& GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_get__rotationDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value) {
+constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set__rotationDirection(::GlobalNamespace::LightGroupCircularLayouter_RotationDirection value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationDirection = value;
 }
@@ -98,13 +97,13 @@ constexpr void GlobalNamespace::LightGroupCircularLayouter::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____additionalAngle = value;
 }
-inline ::GlobalNamespace::LightGroupCircularLayouter* GlobalNamespace::LightGroupCircularLayouter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightGroupCircularLayouter*>());
-}
 inline void GlobalNamespace::LightGroupCircularLayouter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupCircularLayouter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightGroupCircularLayouter* GlobalNamespace::LightGroupCircularLayouter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightGroupCircularLayouter*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupCircularLayouter::LightGroupCircularLayouter() {}

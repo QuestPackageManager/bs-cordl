@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainSettingsMenuViewController)
 namespace GlobalNamespace {
@@ -25,11 +24,10 @@ class MainSettingsMenuViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainSettingsMenuViewController);
-// Type: ::MainSettingsMenuViewController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainSettingsMenuViewController*
+// CS Name: MainSettingsMenuViewController
 class CORDL_TYPE MainSettingsMenuViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -56,20 +54,20 @@ public:
 
   __declspec(property(get = get_selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo;
 
-  /// @brief Method DidActivate, addr 0x3bb5304, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1843c, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x3bb54f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x3c18628, size 0x54, virtual false, abstract: false, final false
   inline void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x3bb52cc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3c18404, size 0x38, virtual false, abstract: false, final false
   inline void Init(int32_t selectedSubMenuInfoIdx);
 
   static inline ::GlobalNamespace::MainSettingsMenuViewController* New_ctor();
 
-  constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __cordl_internal_get__selectedSubMenuInfo();
+  constexpr ::GlobalNamespace::SettingsSubMenuInfo* const& __cordl_internal_get__selectedSubMenuInfo() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsSubMenuInfo*> const& __cordl_internal_get__selectedSubMenuInfo() const;
+  constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __cordl_internal_get__selectedSubMenuInfo();
 
   constexpr int32_t const& __cordl_internal_get__selectedSubMenuInfoIdx() const;
 
@@ -83,9 +81,9 @@ public:
 
   constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& __cordl_internal_get__settingsSubMenuInfos();
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& __cordl_internal_get_didSelectSettingsSubMenuEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* const& __cordl_internal_get_didSelectSettingsSubMenuEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*> const& __cordl_internal_get_didSelectSettingsSubMenuEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& __cordl_internal_get_didSelectSettingsSubMenuEvent();
 
   constexpr void __cordl_internal_set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo* value);
 
@@ -97,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bb5544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1867c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x3bb5148, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x3c18280, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  /// @brief Method get_numberOfSubMenus, addr 0x3bb52a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfSubMenus, addr 0x3c183e0, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_numberOfSubMenus();
 
-  /// @brief Method get_selectedSubMenuInfo, addr 0x3bb52c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSubMenuInfo, addr 0x3c183fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
 
-  /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x3bb51f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x3c18330, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
 protected:
@@ -126,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainSettingsMenuViewController(MainSettingsMenuViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4909 };
+
   /// @brief Field didSelectSettingsSubMenuEvent, offset: 0x78, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* ___didSelectSettingsSubMenuEvent;
 
@@ -141,14 +142,9 @@ public:
   /// @brief Field _selectedSubMenuInfoIdx, offset: 0x98, size: 0x4, def value: None
   int32_t ____selectedSubMenuInfoIdx;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4889 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsMenuViewController, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ___didSelectSettingsSubMenuEvent) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____settingsSubMenuInfos) == 0x80, "Offset mismatch!");
@@ -158,6 +154,8 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____se
 static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____selectedSubMenuInfo) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____selectedSubMenuInfoIdx) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsMenuViewController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSettingsMenuViewController);

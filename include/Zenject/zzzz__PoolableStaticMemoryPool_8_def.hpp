@@ -11,13 +11,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableStaticMemoryPool_8);
-// Type: Zenject::PoolableStaticMemoryPool`8
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.StaticMemoryPool`8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::PoolableStaticMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
+// CS Name: Zenject.PoolableStaticMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>
 class CORDL_TYPE PoolableStaticMemoryPool_8 : public ::Zenject::StaticMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue> {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
   PoolableStaticMemoryPool_8(PoolableStaticMemoryPool_8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12420 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

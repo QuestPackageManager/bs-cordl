@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Cryptography/RijndaelManagedTransform.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_impl.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManagedTransformMode_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RijndaelManagedTransform._ctor
 template <>
 
@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Security::Cryptography::CipherMode, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Security::Cryptography::PaddingMode,
     ::System::Security::Cryptography::RijndaelManagedTransformMode)>(&::System::Security::Cryptography::RijndaelManagedTransform::_ctor)> {
   constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x3c41bf8;
+  constexpr static std::size_t addrs = 0x3ca1d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c4275c;
+  constexpr static std::size_t addrs = 0x3ca28d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Dispose)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c42764;
+  constexpr static std::size_t addrs = 0x3ca28d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_InputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c42820;
+  constexpr static std::size_t addrs = 0x3ca2994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_OutputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c42828;
+  constexpr static std::size_t addrs = 0x3ca299c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::get_CanTransformMultipleBlocks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c42830;
+  constexpr static std::size_t addrs = 0x3ca29a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::TransformBlock)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3c42838;
+  constexpr static std::size_t addrs = 0x3ca29ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::RijndaelManagedTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::TransformFinalBlock)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x3c44148;
+  constexpr static std::size_t addrs = 0x3ca42bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)()>(
     &::System::Security::Cryptography::RijndaelManagedTransform::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c44414;
+  constexpr static std::size_t addrs = 0x3ca4588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,17 +159,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::EncryptData)> {
   constexpr static std::size_t size = 0xbcc;
-  constexpr static std::size_t addrs = 0x3c42afc;
+  constexpr static std::size_t addrs = 0x3ca2c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get(), "EncryptData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::PaddingMode>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -179,17 +179,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::RijndaelManagedTransform::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, int32_t, ::System::Security::Cryptography::PaddingMode, bool)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::DecryptData)> {
   constexpr static std::size_t size = 0xa80;
-  constexpr static std::size_t addrs = 0x3c436c8;
+  constexpr static std::size_t addrs = 0x3ca383c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get(), "DecryptData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::PaddingMode>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -202,7 +202,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>,
     ::cordl_internals::Ptr<int32_t>)>(&::System::Security::Cryptography::RijndaelManagedTransform::Enc)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3c4447c;
+  constexpr static std::size_t addrs = 0x3ca45f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>, ::cordl_internals::Ptr<int32_t>,
     ::cordl_internals::Ptr<int32_t>)>(&::System::Security::Cryptography::RijndaelManagedTransform::Dec)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3c44648;
+  constexpr static std::size_t addrs = 0x3ca47bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RijndaelManagedTransform::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::RijndaelManagedTransform::GenerateKeyExpansion)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x3c421f4;
+  constexpr static std::size_t addrs = 0x3ca2368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c44928;
+  constexpr static std::size_t addrs = 0x3ca4a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +271,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c44920;
+  constexpr static std::size_t addrs = 0x3ca4a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::rot3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c44830;
+  constexpr static std::size_t addrs = 0x3ca49a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,7 +299,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::SubWord)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c44838;
+  constexpr static std::size_t addrs = 0x3ca49ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Security::Cryptography::RijndaelManagedTransform::MulX)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c448fc;
+  constexpr static std::size_t addrs = 0x3ca4a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,22 +322,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
-constexpr System::Security::Cryptography::RijndaelManagedTransform::operator ::System::Security::Cryptography::ICryptoTransform*() noexcept {
-  return static_cast<::System::Security::Cryptography::ICryptoTransform*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
-constexpr ::System::Security::Cryptography::ICryptoTransform* System::Security::Cryptography::RijndaelManagedTransform::i___System__Security__Cryptography__ICryptoTransform() noexcept {
-  return static_cast<::System::Security::Cryptography::ICryptoTransform*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Security::Cryptography::RijndaelManagedTransform::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Security::Cryptography::RijndaelManagedTransform::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Security::Cryptography::CipherMode& System::Security::Cryptography::RijndaelManagedTransform::__cordl_internal_get_m_cipherMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_cipherMode;
@@ -608,11 +592,6 @@ inline ::ArrayW<int32_t, ::Array<int32_t>*> System::Security::Cryptography::Rijn
   return ::cordl_internals::getStaticField<::ArrayW<int32_t, ::Array<int32_t>*>, "s_iTF",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get>();
 }
-inline ::System::Security::Cryptography::RijndaelManagedTransform* System::Security::Cryptography::RijndaelManagedTransform::New_ctor(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
-    ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::RijndaelManagedTransform*>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode));
-}
 inline void System::Security::Cryptography::RijndaelManagedTransform::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode,
                                                                             ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
                                                                             ::System::Security::Cryptography::PaddingMode PaddingValue,
@@ -677,25 +656,25 @@ inline void System::Security::Cryptography::RijndaelManagedTransform::Reset() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline int32_t System::Security::Cryptography::RijndaelManagedTransform::EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount,
-                                                                                     ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
+                                                                                     ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
                                                                                      ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get(), "EncryptData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::PaddingMode>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset, paddingMode, fLast);
 }
 inline int32_t System::Security::Cryptography::RijndaelManagedTransform::DecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount,
-                                                                                     ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
+                                                                                     ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer, int32_t outputOffset,
                                                                                      ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get(), "DecryptData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::PaddingMode>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, inputBuffer, inputOffset, inputCount, outputBuffer, outputOffset, paddingMode, fLast);
@@ -759,6 +738,27 @@ inline int32_t System::Security::Cryptography::RijndaelManagedTransform::MulX(in
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RijndaelManagedTransform*>::get(), "MulX",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, x);
+}
+inline ::System::Security::Cryptography::RijndaelManagedTransform* System::Security::Cryptography::RijndaelManagedTransform::New_ctor(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
+    ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::RijndaelManagedTransform*>(rgbKey, mode, rgbIV, blockSize, feedbackSize, PaddingValue, transformMode));
+}
+/// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
+constexpr System::Security::Cryptography::RijndaelManagedTransform::operator ::System::Security::Cryptography::ICryptoTransform*() noexcept {
+  return static_cast<::System::Security::Cryptography::ICryptoTransform*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
+constexpr ::System::Security::Cryptography::ICryptoTransform* System::Security::Cryptography::RijndaelManagedTransform::i___System__Security__Cryptography__ICryptoTransform() noexcept {
+  return static_cast<::System::Security::Cryptography::ICryptoTransform*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Security::Cryptography::RijndaelManagedTransform::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Security::Cryptography::RijndaelManagedTransform::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RijndaelManagedTransform::RijndaelManagedTransform() {}

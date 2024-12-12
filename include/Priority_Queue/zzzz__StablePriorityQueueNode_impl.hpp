@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Priority_Queue::StablePriorityQueueNode::*)()>(
     &::Priority_Queue::StablePriorityQueueNode::get_InsertionIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226cc58;
+  constexpr static std::size_t addrs = 0x229f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::StablePriorityQueueNode*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::StablePriorityQueueNode::*)(int64_t)>(
     &::Priority_Queue::StablePriorityQueueNode::set_InsertionIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226cc60;
+  constexpr static std::size_t addrs = 0x229f4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::StablePriorityQueueNode::*)()>(&::Priority_Queue::StablePriorityQueueNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226cc68;
+  constexpr static std::size_t addrs = 0x229f4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::StablePriorityQueueNode*>::get(), ".ctor",
@@ -67,13 +67,13 @@ inline void Priority_Queue::StablePriorityQueueNode::set_InsertionIndex(int64_t 
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Priority_Queue::StablePriorityQueueNode* Priority_Queue::StablePriorityQueueNode::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::StablePriorityQueueNode*>());
-}
 inline void Priority_Queue::StablePriorityQueueNode::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::StablePriorityQueueNode*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Priority_Queue::StablePriorityQueueNode* Priority_Queue::StablePriorityQueueNode::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Priority_Queue::StablePriorityQueueNode*>());
 }
 // Ctor Parameters []
 constexpr ::Priority_Queue::StablePriorityQueueNode::StablePriorityQueueNode() {}

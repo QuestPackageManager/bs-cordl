@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::X509Certificates::X500DistinguishedName::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x43d4714;
+  constexpr static std::size_t addrs = 0x4435a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)()>(
     &::System::Security::Cryptography::X509Certificates::X500DistinguishedName::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d48fc;
+  constexpr static std::size_t addrs = 0x4435c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(
     ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&::System::Security::Cryptography::X509Certificates::X500DistinguishedName::Decode)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x43d4904;
+  constexpr static std::size_t addrs = 0x4435c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X500DistinguishedName::Format)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43d4acc;
+  constexpr static std::size_t addrs = 0x4435de0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(
     &::System::Security::Cryptography::X509Certificates::X500DistinguishedName::GetSeparator)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43d4a54;
+  constexpr static std::size_t addrs = 0x4435d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)()>(
     &::System::Security::Cryptography::X509Certificates::X500DistinguishedName::DecodeRawData)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43d4818;
+  constexpr static std::size_t addrs = 0x4435b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Security::Cryptography::X509Certificates::X500DistinguishedName::Canonize)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x43d4b28;
+  constexpr static std::size_t addrs = 0x4435e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Security::Cryptography::X509Certificates::X500DistinguishedName*, ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(
         &::System::Security::Cryptography::X509Certificates::X500DistinguishedName::AreEqual)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x43d4d04;
+  constexpr static std::size_t addrs = 0x4436018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,10 +149,6 @@ constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Security::Cryptogr
 constexpr void System::Security::Cryptography::X509Certificates::X500DistinguishedName::__cordl_internal_set_canonEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___canonEncoding)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*
-System::Security::Cryptography::X509Certificates::X500DistinguishedName::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>(encodedDistinguishedName));
 }
 inline void System::Security::Cryptography::X509Certificates::X500DistinguishedName::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,6 +200,10 @@ inline bool System::Security::Cryptography::X509Certificates::X500DistinguishedN
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, name1, name2);
+}
+inline ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*
+System::Security::Cryptography::X509Certificates::X500DistinguishedName::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encodedDistinguishedName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*>(encodedDistinguishedName));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName::X500DistinguishedName() {}

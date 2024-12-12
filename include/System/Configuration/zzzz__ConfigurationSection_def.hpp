@@ -21,24 +21,23 @@ class ConfigurationSection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Configuration::ConfigurationSection);
-// Type: System.Configuration::ConfigurationSection
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Configuration.ConfigurationElement
 namespace System::Configuration {
 // Is value type: false
-// CS Name: ::System.Configuration::ConfigurationSection*
+// CS Name: System.Configuration.ConfigurationSection
 class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
-  /// @brief Method DeserializeSection, addr 0x4028b74, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x4089e88, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* reader);
 
-  /// @brief Method IsModified, addr 0x4028bac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x4089ec0, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method ResetModified, addr 0x4028be4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x4089ef8, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x4028c1c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x4089f30, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
 protected:
@@ -56,7 +55,7 @@ public:
   ConfigurationSection(ConfigurationSection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19267 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

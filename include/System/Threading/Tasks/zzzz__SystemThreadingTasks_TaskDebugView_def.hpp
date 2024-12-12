@@ -11,11 +11,10 @@ class SystemThreadingTasks_TaskDebugView;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::SystemThreadingTasks_TaskDebugView);
-// Type: System.Threading.Tasks::SystemThreadingTasks_TaskDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::SystemThreadingTasks_TaskDebugView*
+// CS Name: System.Threading.Tasks.SystemThreadingTasks_TaskDebugView
 class CORDL_TYPE SystemThreadingTasks_TaskDebugView : public ::System::Object {
 public:
   // Declarations

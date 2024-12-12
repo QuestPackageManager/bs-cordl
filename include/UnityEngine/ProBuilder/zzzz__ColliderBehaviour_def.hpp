@@ -17,26 +17,25 @@ class ColliderBehaviour;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColliderBehaviour);
-// Type: UnityEngine.ProBuilder::ColliderBehaviour
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.EntityBehaviour
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::ColliderBehaviour*
+// CS Name: UnityEngine.ProBuilder.ColliderBehaviour
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x46a23a0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x47036b4, size 0x10c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x46a2590, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x47038a4, size 0xb8, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x46a2648, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x470395c, size 0xb8, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x46a2700, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4703a14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +53,7 @@ public:
   ColliderBehaviour(ColliderBehaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14190 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14224 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

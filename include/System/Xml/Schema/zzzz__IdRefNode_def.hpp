@@ -13,11 +13,10 @@ class IdRefNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::IdRefNode);
-// Type: System.Xml.Schema::IdRefNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::IdRefNode*
+// CS Name: System.Xml.Schema.IdRefNode
 class CORDL_TYPE IdRefNode : public ::System::Object {
 public:
   // Declarations
@@ -47,9 +46,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_LinePos();
 
-  constexpr ::System::Xml::Schema::IdRefNode*& __cordl_internal_get_Next();
+  constexpr ::System::Xml::Schema::IdRefNode* const& __cordl_internal_get_Next() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& __cordl_internal_get_Next() const;
+  constexpr ::System::Xml::Schema::IdRefNode*& __cordl_internal_get_Next();
 
   constexpr void __cordl_internal_set_Id(::StringW value);
 
@@ -59,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
 
-  /// @brief Method .ctor, addr 0x4268008, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42c931c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
 
 protected:
@@ -76,6 +75,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IdRefNode(IdRefNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7732 };
+
   /// @brief Field Id, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Id;
 
@@ -88,14 +90,9 @@ public:
   /// @brief Field Next, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Schema::IdRefNode* ___Next;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7707 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::IdRefNode, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___Id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___LineNo) == 0x18, "Offset mismatch!");
@@ -103,6 +100,8 @@ static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___LineNo) == 0x18, "Of
 static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___LinePos) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___Next) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::IdRefNode, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::IdRefNode);

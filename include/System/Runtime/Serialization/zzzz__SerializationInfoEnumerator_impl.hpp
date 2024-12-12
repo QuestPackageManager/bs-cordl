@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Serialization/SerializationInfoEnumerator.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfoEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEntry_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, int32_t)>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c92088;
+  constexpr static std::size_t addrs = 0x3cf21fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c8e8fc;
+  constexpr static std::size_t addrs = 0x3ceea70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c920d8;
+  constexpr static std::size_t addrs = 0x3cf224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationEntry (
     ::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(&::System::Runtime::Serialization::SerializationInfoEnumerator::get_Current)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c8e37c;
+  constexpr static std::size_t addrs = 0x3cee4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c92148;
+  constexpr static std::size_t addrs = 0x3cf22bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_Name)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c92158;
+  constexpr static std::size_t addrs = 0x3cf22cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_Value)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c921dc;
+  constexpr static std::size_t addrs = 0x3cf2350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationInfoEnumerator::*)()>(
     &::System::Runtime::Serialization::SerializationInfoEnumerator::get_ObjectType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c92260;
+  constexpr static std::size_t addrs = 0x3cf23d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,14 +130,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Runtime::Serialization::SerializationInfoEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Runtime::Serialization::SerializationInfoEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Serialization::SerializationInfoEnumerator::__cordl_internal_get__members() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____members;
@@ -210,11 +202,6 @@ constexpr void System::Runtime::Serialization::SerializationInfoEnumerator::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____current = value;
 }
-inline ::System::Runtime::Serialization::SerializationInfoEnumerator*
-System::Runtime::Serialization::SerializationInfoEnumerator::New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
-                                                                      ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationInfoEnumerator*>(members, info, types, numItems));
-}
 inline void System::Runtime::Serialization::SerializationInfoEnumerator::_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
                                                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,6 +253,19 @@ inline ::System::Type* System::Runtime::Serialization::SerializationInfoEnumerat
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationInfoEnumerator*>::get(), "get_ObjectType",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::SerializationInfoEnumerator*
+System::Runtime::Serialization::SerializationInfoEnumerator::New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
+                                                                      ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationInfoEnumerator*>(members, info, types, numItems));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Runtime::Serialization::SerializationInfoEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Runtime::Serialization::SerializationInfoEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationInfoEnumerator::SerializationInfoEnumerator() {}

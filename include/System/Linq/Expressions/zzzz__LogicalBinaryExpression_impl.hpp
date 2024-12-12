@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::LogicalBinaryExpression::*)(
     ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::LogicalBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4034330;
+  constexpr static std::size_t addrs = 0x4095644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::LogicalBinaryExpression::*)()>(
     &::System::Linq::Expressions::LogicalBinaryExpression::get_Type)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x403435c;
+  constexpr static std::size_t addrs = 0x4095670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LogicalBinaryExpression*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::LogicalBinaryExpression::*)()>(
     &::System::Linq::Expressions::LogicalBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40343c8;
+  constexpr static std::size_t addrs = 0x40956dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LogicalBinaryExpression*>::get(),
@@ -63,11 +63,6 @@ constexpr void System::Linq::Expressions::LogicalBinaryExpression::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____NodeType_k__BackingField = value;
 }
-inline ::System::Linq::Expressions::LogicalBinaryExpression* System::Linq::Expressions::LogicalBinaryExpression::New_ctor(::System::Linq::Expressions::ExpressionType nodeType,
-                                                                                                                          ::System::Linq::Expressions::Expression* left,
-                                                                                                                          ::System::Linq::Expressions::Expression* right) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LogicalBinaryExpression*>(nodeType, left, right));
-}
 inline void System::Linq::Expressions::LogicalBinaryExpression::_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
                                                                       ::System::Linq::Expressions::Expression* right) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,6 +81,11 @@ inline ::System::Linq::Expressions::ExpressionType System::Linq::Expressions::Lo
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LogicalBinaryExpression*>::get(),
                                                                              "get_NodeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::ExpressionType, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::LogicalBinaryExpression* System::Linq::Expressions::LogicalBinaryExpression::New_ctor(::System::Linq::Expressions::ExpressionType nodeType,
+                                                                                                                          ::System::Linq::Expressions::Expression* left,
+                                                                                                                          ::System::Linq::Expressions::Expression* right) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LogicalBinaryExpression*>(nodeType, left, right));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::LogicalBinaryExpression::LogicalBinaryExpression() {}

@@ -12,21 +12,20 @@ class HEU_ScriptCallbackExample;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptCallbackExample);
-// Type: ::HEU_ScriptCallbackExample
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HEU_ScriptCallbackExample*
+// CS Name: HEU_ScriptCallbackExample
 class CORDL_TYPE HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _msg, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg)) ::StringW _msg;
 
-  /// @brief Method AssetCallbackNoMsg, addr 0x39ae758, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x3a053c8, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
 
-  /// @brief Method AssetCallbackWithMsg, addr 0x39ae6c0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackWithMsg, addr 0x3a05330, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
@@ -37,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__msg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39ae7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a05430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,18 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_ScriptCallbackExample(HEU_ScriptCallbackExample const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11569 };
+
   /// @brief Field _msg, offset: 0x20, size: 0x8, def value: None
   ::StringW ____msg;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ScriptCallbackExample, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HEU_ScriptCallbackExample, ____msg) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_ScriptCallbackExample, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HEU_ScriptCallbackExample);

@@ -12,11 +12,10 @@ class XDeclaration;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XDeclaration);
-// Type: System.Xml.Linq::XDeclaration
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XDeclaration*
+// CS Name: System.Xml.Linq.XDeclaration
 class CORDL_TYPE XDeclaration : public ::System::Object {
 public:
   // Declarations
@@ -39,7 +38,7 @@ public:
 
   static inline ::System::Xml::Linq::XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
-  /// @brief Method ToString, addr 0x41e7b50, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4248e64, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__encoding() const;
@@ -60,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41e7aa8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4248dbc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* other);
 
-  /// @brief Method .ctor, addr 0x41e7a6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4248d80, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone);
 
-  /// @brief Method get_Encoding, addr 0x41e7b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x4248e3c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x41e7b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Standalone, addr 0x4248e4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x41e7b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x4248e5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method set_Encoding, addr 0x41e7b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x4248e44, size 0x8, virtual false, abstract: false, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x41e7b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Standalone, addr 0x4248e54, size 0x8, virtual false, abstract: false, final false
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -95,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XDeclaration(XDeclaration const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17952 };
+
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::StringW ____version;
 
@@ -104,19 +106,16 @@ public:
   /// @brief Field _standalone, offset: 0x20, size: 0x8, def value: None
   ::StringW ____standalone;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17903 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XDeclaration, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::XDeclaration, ____version) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::XDeclaration, ____encoding) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::XDeclaration, ____standalone) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XDeclaration, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XDeclaration);

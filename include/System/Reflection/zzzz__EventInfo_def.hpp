@@ -11,13 +11,13 @@ namespace Mono {
 struct RuntimeEventHandle;
 }
 namespace System::Reflection {
+class EventInfo_AddEventAdapter;
+}
+namespace System::Reflection {
 struct MemberTypes;
 }
 namespace System::Reflection {
 class MethodInfo;
-}
-namespace System::Reflection {
-class __EventInfo__AddEventAdapter;
 }
 namespace System {
 class Delegate;
@@ -39,40 +39,39 @@ namespace System::Reflection {
 class EventInfo;
 }
 namespace System::Reflection {
-class __EventInfo__AddEventAdapter;
+class EventInfo_AddEventAdapter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::EventInfo);
-MARK_REF_PTR_T(::System::Reflection::__EventInfo__AddEventAdapter);
-// Type: ::AddEventAdapter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Reflection::EventInfo_AddEventAdapter);
+// Dependencies System.MulticastDelegate
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::EventInfo::AddEventAdapter*
-class CORDL_TYPE __EventInfo__AddEventAdapter : public ::System::MulticastDelegate {
+// CS Name: System.Reflection.EventInfo/AddEventAdapter
+class CORDL_TYPE EventInfo_AddEventAdapter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3cc0ed8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d2104c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* _this, ::System::Delegate* dele);
 
-  static inline ::System::Reflection::__EventInfo__AddEventAdapter* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::System::Reflection::EventInfo_AddEventAdapter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cc0dd4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20f48, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EventInfo__AddEventAdapter();
+  constexpr EventInfo_AddEventAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EventInfo__AddEventAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EventInfo__AddEventAdapter(__EventInfo__AddEventAdapter&&) = delete;
+  EventInfo_AddEventAdapter(EventInfo_AddEventAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EventInfo__AddEventAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EventInfo_AddEventAdapter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EventInfo__AddEventAdapter(__EventInfo__AddEventAdapter const&) = delete;
+  EventInfo_AddEventAdapter(EventInfo_AddEventAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3465 };
@@ -80,74 +79,73 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::__EventInfo__AddEventAdapter, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Reflection::EventInfo_AddEventAdapter, 0x80>, "Size mismatch!");
 
 } // namespace System::Reflection
-// Type: System.Reflection::EventInfo
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Reflection.MemberInfo
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::EventInfo*
+// CS Name: System.Reflection.EventInfo
 class CORDL_TYPE EventInfo : public ::System::Reflection::MemberInfo {
 public:
   // Declarations
-  using AddEventAdapter = ::System::Reflection::__EventInfo__AddEventAdapter;
+  using AddEventAdapter = ::System::Reflection::EventInfo_AddEventAdapter;
 
   __declspec(property(get = get_EventHandlerType)) ::System::Type* EventHandlerType;
 
   __declspec(property(get = get_MemberType)) ::System::Reflection::MemberTypes MemberType;
 
   /// @brief Field cached_add_event, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cached_add_event, put = __cordl_internal_set_cached_add_event)) ::System::Reflection::__EventInfo__AddEventAdapter* cached_add_event;
+  __declspec(property(get = __cordl_internal_get_cached_add_event, put = __cordl_internal_set_cached_add_event)) ::System::Reflection::EventInfo_AddEventAdapter* cached_add_event;
 
-  /// @brief Method Equals, addr 0x3cc0ca4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3d20e18, size 0x8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetAddMethod, addr 0x3cc0b54, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetAddMethod, addr 0x3d20cc8, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetAddMethod();
 
-  /// @brief Method GetAddMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetAddMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetAddMethod(bool nonPublic);
 
-  /// @brief Method GetEventFromHandle, addr 0x3cc0d30, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetEventFromHandle, addr 0x3d20ea4, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::EventInfo* GetEventFromHandle(::Mono::RuntimeEventHandle handle, ::System::RuntimeTypeHandle reflectedType);
 
-  /// @brief Method GetHashCode, addr 0x3cc0cb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3d20e28, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetRaiseMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetRaiseMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetRaiseMethod(bool nonPublic);
 
-  /// @brief Method GetRemoveMethod, addr 0x3cc0b68, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetRemoveMethod, addr 0x3d20cdc, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetRemoveMethod();
 
-  /// @brief Method GetRemoveMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetRemoveMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetRemoveMethod(bool nonPublic);
 
   static inline ::System::Reflection::EventInfo* New_ctor();
 
-  constexpr ::System::Reflection::__EventInfo__AddEventAdapter*& __cordl_internal_get_cached_add_event();
+  constexpr ::System::Reflection::EventInfo_AddEventAdapter* const& __cordl_internal_get_cached_add_event() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__EventInfo__AddEventAdapter*> const& __cordl_internal_get_cached_add_event() const;
+  constexpr ::System::Reflection::EventInfo_AddEventAdapter*& __cordl_internal_get_cached_add_event();
 
-  constexpr void __cordl_internal_set_cached_add_event(::System::Reflection::__EventInfo__AddEventAdapter* value);
+  constexpr void __cordl_internal_set_cached_add_event(::System::Reflection::EventInfo_AddEventAdapter* value);
 
-  /// @brief Method .ctor, addr 0x3cc0b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20cb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EventHandlerType, addr 0x3cc0b7c, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method get_EventHandlerType, addr 0x3d20cf0, size 0x128, virtual true, abstract: false, final false
   inline ::System::Type* get_EventHandlerType();
 
-  /// @brief Method get_MemberType, addr 0x3cc0b4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x3d20cc0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method internal_from_handle_type, addr 0x3cc0d2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_handle_type, addr 0x3d20ea0, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::EventInfo* internal_from_handle_type(::System::IntPtr event_handle, ::System::IntPtr type_handle);
 
-  /// @brief Method op_Equality, addr 0x3cc0cc4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3d20e38, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x3cc0cf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x3d20e64, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::EventInfo* left, ::System::Reflection::EventInfo* right);
 
 protected:
@@ -164,21 +162,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventInfo(EventInfo const&) = delete;
 
-  /// @brief Field cached_add_event, offset: 0x10, size: 0x8, def value: None
-  ::System::Reflection::__EventInfo__AddEventAdapter* ___cached_add_event;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3466 };
+
+  /// @brief Field cached_add_event, offset: 0x10, size: 0x8, def value: None
+  ::System::Reflection::EventInfo_AddEventAdapter* ___cached_add_event;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::EventInfo, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::EventInfo, ___cached_add_event) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::EventInfo, 0x18>, "Size mismatch!");
 
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::EventInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::EventInfo*, "System.Reflection", "EventInfo");
-NEED_NO_BOX(::System::Reflection::__EventInfo__AddEventAdapter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::__EventInfo__AddEventAdapter*, "System.Reflection", "EventInfo/AddEventAdapter");
+NEED_NO_BOX(::System::Reflection::EventInfo_AddEventAdapter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::EventInfo_AddEventAdapter*, "System.Reflection", "EventInfo/AddEventAdapter");

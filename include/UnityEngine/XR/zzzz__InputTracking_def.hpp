@@ -14,36 +14,35 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::XR {
+struct InputTracking_TrackingStateEventType;
+}
+namespace UnityEngine::XR {
 struct XRNodeState;
 }
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace UnityEngine::XR {
-struct __InputTracking__TrackingStateEventType;
-}
 // Forward declare root types
 namespace UnityEngine::XR {
-struct __InputTracking__TrackingStateEventType;
+struct InputTracking_TrackingStateEventType;
 }
 namespace UnityEngine::XR {
 class InputTracking;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::XR::__InputTracking__TrackingStateEventType);
+MARK_VAL_T(::UnityEngine::XR::InputTracking_TrackingStateEventType);
 MARK_REF_PTR_T(::UnityEngine::XR::InputTracking);
-// Type: ::TrackingStateEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
-// CS Name: ::InputTracking::TrackingStateEventType
-struct CORDL_TYPE __InputTracking__TrackingStateEventType {
+// CS Name: UnityEngine.XR.InputTracking/TrackingStateEventType
+struct CORDL_TYPE InputTracking_TrackingStateEventType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputTracking__TrackingStateEventType_Unwrapped
-  enum struct ____InputTracking__TrackingStateEventType_Unwrapped : int32_t {
+  /// @brief Nested struct __InputTracking_TrackingStateEventType_Unwrapped
+  enum struct __InputTracking_TrackingStateEventType_Unwrapped : int32_t {
     __E_NodeAdded = static_cast<int32_t>(0x0),
     __E_NodeRemoved = static_cast<int32_t>(0x1),
     __E_TrackingAcquired = static_cast<int32_t>(0x2),
@@ -51,8 +50,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputTracking__TrackingStateEventType_Unwrapped() const noexcept {
-    return static_cast<____InputTracking__TrackingStateEventType_Unwrapped>(this->value__);
+  constexpr operator __InputTracking_TrackingStateEventType_Unwrapped() const noexcept {
+    return static_cast<__InputTracking_TrackingStateEventType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -62,78 +61,77 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputTracking__TrackingStateEventType();
+  constexpr InputTracking_TrackingStateEventType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputTracking__TrackingStateEventType(int32_t value__) noexcept;
+  constexpr InputTracking_TrackingStateEventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field NodeAdded value: I32(0)
+  static ::UnityEngine::XR::InputTracking_TrackingStateEventType const NodeAdded;
 
-  /// @brief Field NodeAdded value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::XR::__InputTracking__TrackingStateEventType const NodeAdded;
+  /// @brief Field NodeRemoved value: I32(1)
+  static ::UnityEngine::XR::InputTracking_TrackingStateEventType const NodeRemoved;
 
-  /// @brief Field NodeRemoved value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::XR::__InputTracking__TrackingStateEventType const NodeRemoved;
+  /// @brief Field TrackingAcquired value: I32(2)
+  static ::UnityEngine::XR::InputTracking_TrackingStateEventType const TrackingAcquired;
 
-  /// @brief Field TrackingAcquired value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::XR::__InputTracking__TrackingStateEventType const TrackingAcquired;
-
-  /// @brief Field TrackingLost value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::XR::__InputTracking__TrackingStateEventType const TrackingLost;
+  /// @brief Field TrackingLost value: I32(3)
+  static ::UnityEngine::XR::InputTracking_TrackingStateEventType const TrackingLost;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18258 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::__InputTracking__TrackingStateEventType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::XR::InputTracking_TrackingStateEventType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::__InputTracking__TrackingStateEventType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputTracking_TrackingStateEventType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
-// Type: UnityEngine.XR::InputTracking
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.XR::InputTracking*
+// CS Name: UnityEngine.XR.InputTracking
 class CORDL_TYPE InputTracking : public ::System::Object {
 public:
   // Declarations
-  using TrackingStateEventType = ::UnityEngine::XR::__InputTracking__TrackingStateEventType;
+  using TrackingStateEventType = ::UnityEngine::XR::InputTracking_TrackingStateEventType;
 
   /// @brief Field nodeAdded, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nodeAdded, put = setStaticF_nodeAdded)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeAdded;
+  __declspec(property(get = getStaticF_nodeAdded, put = setStaticF_nodeAdded)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeAdded;
 
   /// @brief Field nodeRemoved, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nodeRemoved, put = setStaticF_nodeRemoved)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeRemoved;
+  __declspec(property(get = getStaticF_nodeRemoved, put = setStaticF_nodeRemoved)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* nodeRemoved;
 
   /// @brief Field trackingAcquired, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_trackingAcquired, put = setStaticF_trackingAcquired)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingAcquired;
+  __declspec(property(get = getStaticF_trackingAcquired, put = setStaticF_trackingAcquired)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingAcquired;
 
   /// @brief Field trackingLost, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
+  __declspec(property(get = getStaticF_trackingLost, put = setStaticF_trackingLost)) ::System::Action_1<::UnityEngine::XR::XRNodeState>* trackingLost;
 
-  /// @brief Method GetDeviceIdAtXRNode, addr 0x4a83cdc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIdAtXRNode, addr 0x4ae85ec, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t GetDeviceIdAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetNodeStates, addr 0x4a83bec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates, addr 0x4ae84fc, size 0xb4, virtual false, abstract: false, final false
   static inline void GetNodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method GetNodeStates_Internal, addr 0x4a83ca0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeStates_Internal, addr 0x4ae85b0, size 0x3c, virtual false, abstract: false, final false
   static inline void GetNodeStates_Internal(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates);
 
-  /// @brief Method InvokeTrackingEvent, addr 0x4a83a28, size 0x1a8, virtual false, abstract: false, final false
-  static inline void InvokeTrackingEvent(::UnityEngine::XR::__InputTracking__TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
+  /// @brief Method InvokeTrackingEvent, addr 0x4ae8338, size 0x1a8, virtual false, abstract: false, final false
+  static inline void InvokeTrackingEvent(::UnityEngine::XR::InputTracking_TrackingStateEventType eventType, ::UnityEngine::XR::XRNode nodeType, int64_t uniqueID, bool tracked);
 
-  /// @brief Method add_nodeAdded, addr 0x4a836e8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeAdded, addr 0x4ae7ff8, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method add_nodeRemoved, addr 0x4a83888, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_nodeRemoved, addr 0x4ae8198, size 0xd0, virtual false, abstract: false, final false
   static inline void add_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeAdded();
@@ -144,10 +142,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::XRNodeState>* getStaticF_trackingLost();
 
-  /// @brief Method remove_nodeAdded, addr 0x4a837b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeAdded, addr 0x4ae80c8, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
-  /// @brief Method remove_nodeRemoved, addr 0x4a83958, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_nodeRemoved, addr 0x4ae8268, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_nodeRemoved(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
 
   static inline void setStaticF_nodeAdded(::System::Action_1<::UnityEngine::XR::XRNodeState>* value);
@@ -173,7 +171,7 @@ public:
   InputTracking(InputTracking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -181,6 +179,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::InputTracking, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::__InputTracking__TrackingStateEventType, "UnityEngine.XR", "InputTracking/TrackingStateEventType");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputTracking_TrackingStateEventType, "UnityEngine.XR", "InputTracking/TrackingStateEventType");
 NEED_NO_BOX(::UnityEngine::XR::InputTracking);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::InputTracking*, "UnityEngine.XR", "InputTracking");

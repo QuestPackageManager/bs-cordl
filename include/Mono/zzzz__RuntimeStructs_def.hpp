@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeStructs)
 namespace Mono {
-struct __RuntimeStructs__GPtrArray;
+struct RuntimeStructs_GPtrArray;
 }
 namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
+struct RuntimeStructs_GenericParamInfo;
 }
 namespace Mono {
-struct __RuntimeStructs__MonoClass;
+struct RuntimeStructs_MonoClass;
 }
 namespace Mono {
-struct __RuntimeStructs__RemoteClass;
+struct RuntimeStructs_RemoteClass;
 }
 namespace System {
 struct IntPtr;
@@ -28,40 +28,45 @@ namespace Mono {
 class RuntimeStructs;
 }
 namespace Mono {
-struct __RuntimeStructs__GPtrArray;
+struct RuntimeStructs_GPtrArray;
 }
 namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
+struct RuntimeStructs_GenericParamInfo;
 }
 namespace Mono {
-struct __RuntimeStructs__MonoClass;
+struct RuntimeStructs_MonoClass;
 }
 namespace Mono {
-struct __RuntimeStructs__RemoteClass;
+struct RuntimeStructs_RemoteClass;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::RuntimeStructs);
-MARK_VAL_T(::Mono::__RuntimeStructs__GPtrArray);
-MARK_VAL_T(::Mono::__RuntimeStructs__GenericParamInfo);
-MARK_VAL_T(::Mono::__RuntimeStructs__MonoClass);
-MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
-// Type: ::RemoteClass
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::Mono::RuntimeStructs_GPtrArray);
+MARK_VAL_T(::Mono::RuntimeStructs_GenericParamInfo);
+MARK_VAL_T(::Mono::RuntimeStructs_MonoClass);
+MARK_VAL_T(::Mono::RuntimeStructs_RemoteClass);
+// Dependencies System.IntPtr
 namespace Mono {
 // Is value type: true
-// CS Name: ::RuntimeStructs::RemoteClass
-struct CORDL_TYPE __RuntimeStructs__RemoteClass {
+// CS Name: Mono.RuntimeStructs/RemoteClass
+struct CORDL_TYPE RuntimeStructs_RemoteClass {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimeStructs__RemoteClass();
+  constexpr RuntimeStructs_RemoteClass();
 
   // Ctor Parameters [CppParam { name: "default_vtable", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty:
+  // None }, CppParam { name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty:
   // "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class,
-                                          ::System::IntPtr proxy_class_name, uint32_t interface_count) noexcept;
+  constexpr RuntimeStructs_RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> proxy_class,
+                                       ::System::IntPtr proxy_class_name, uint32_t interface_count) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2235 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field default_vtable, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr default_vtable;
@@ -70,7 +75,7 @@ public:
   ::System::IntPtr xdomain_vtable;
 
   /// @brief Field proxy_class, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> proxy_class;
+  ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> proxy_class;
 
   /// @brief Field proxy_class_name, offset: 0x18, size: 0x8, def value: None
   ::System::IntPtr proxy_class_name;
@@ -78,43 +83,33 @@ public:
   /// @brief Field interface_count, offset: 0x20, size: 0x4, def value: None
   uint32_t interface_count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2235 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__RemoteClass, 0x28>, "Size mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_RemoteClass, default_vtable) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, default_vtable) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_RemoteClass, xdomain_vtable) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, xdomain_vtable) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_RemoteClass, proxy_class) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, proxy_class) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_RemoteClass, proxy_class_name) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, proxy_class_name) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_RemoteClass, interface_count) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__RemoteClass, interface_count) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::RuntimeStructs_RemoteClass, 0x28>, "Size mismatch!");
 
 } // namespace Mono
-// Type: ::MonoClass
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace Mono {
 // Is value type: true
-// CS Name: ::RuntimeStructs::MonoClass
+// CS Name: Mono.RuntimeStructs/MonoClass
 #pragma pack(push, 0)
-struct CORDL_TYPE __RuntimeStructs__MonoClass {
+struct CORDL_TYPE RuntimeStructs_MonoClass {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimeStructs__MonoClass();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr RuntimeStructs_MonoClass();
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2236 };
@@ -122,33 +117,41 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClass, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::RuntimeStructs_MonoClass, 0x1>, "Size mismatch!");
 
 } // namespace Mono
-// Type: ::GenericParamInfo
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace Mono {
 // Is value type: true
-// CS Name: ::RuntimeStructs::GenericParamInfo
-struct CORDL_TYPE __RuntimeStructs__GenericParamInfo {
+// CS Name: Mono.RuntimeStructs/GenericParamInfo
+struct CORDL_TYPE RuntimeStructs_GenericParamInfo {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimeStructs__GenericParamInfo();
+  constexpr RuntimeStructs_GenericParamInfo();
 
-  // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr",
+  // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr",
   // modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>>", modifiers: "", def_value: None }]
-  constexpr __RuntimeStructs__GenericParamInfo(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass, ::System::IntPtr name, uint16_t flags, uint32_t token,
-                                               ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>> constraints) noexcept;
+  // { name: "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>>", modifiers: "", def_value: None }]
+  constexpr RuntimeStructs_GenericParamInfo(::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> pklass, ::System::IntPtr name, uint16_t flags, uint32_t token,
+                                            ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>> constraints) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2237 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field pklass, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> pklass;
+  ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> pklass;
 
   /// @brief Field name, offset: 0x8, size: 0x8, def value: None
   ::System::IntPtr name;
@@ -160,51 +163,38 @@ public:
   uint32_t token;
 
   /// @brief Field constraints, offset: 0x18, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass>> constraints;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2237 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+  ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>> constraints;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__GenericParamInfo, 0x20>, "Size mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GenericParamInfo, pklass) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, pklass) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GenericParamInfo, name) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, name) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GenericParamInfo, flags) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, flags) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GenericParamInfo, token) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, token) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GenericParamInfo, constraints) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GenericParamInfo, constraints) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::RuntimeStructs_GenericParamInfo, 0x20>, "Size mismatch!");
 
 } // namespace Mono
-// Type: ::GPtrArray
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono {
 // Is value type: true
-// CS Name: ::RuntimeStructs::GPtrArray
-struct CORDL_TYPE __RuntimeStructs__GPtrArray {
+// CS Name: Mono.RuntimeStructs/GPtrArray
+struct CORDL_TYPE RuntimeStructs_GPtrArray {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimeStructs__GPtrArray();
+  constexpr RuntimeStructs_GPtrArray();
 
   // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<::System::IntPtr>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None
   // }]
-  constexpr __RuntimeStructs__GPtrArray(::cordl_internals::Ptr<::System::IntPtr> data, int32_t len) noexcept;
-
-  /// @brief Field data, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::System::IntPtr> data;
-
-  /// @brief Field len, offset: 0x8, size: 0x4, def value: None
-  int32_t len;
+  constexpr RuntimeStructs_GPtrArray(::cordl_internals::Ptr<::System::IntPtr> data, int32_t len) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2238 };
@@ -212,31 +202,36 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// @brief Field data, offset: 0x0, size: 0x8, def value: None
+  ::cordl_internals::Ptr<::System::IntPtr> data;
+
+  /// @brief Field len, offset: 0x8, size: 0x4, def value: None
+  int32_t len;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__GPtrArray, 0x10>, "Size mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GPtrArray, data) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, data) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::Mono::RuntimeStructs_GPtrArray, len) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::RuntimeStructs_GPtrArray, 0x10>, "Size mismatch!");
 
 } // namespace Mono
-// Type: Mono::RuntimeStructs
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono {
 // Is value type: false
-// CS Name: ::Mono::RuntimeStructs*
+// CS Name: Mono.RuntimeStructs
 class CORDL_TYPE RuntimeStructs : public ::System::Object {
 public:
   // Declarations
-  using GPtrArray = ::Mono::__RuntimeStructs__GPtrArray;
+  using GPtrArray = ::Mono::RuntimeStructs_GPtrArray;
 
-  using GenericParamInfo = ::Mono::__RuntimeStructs__GenericParamInfo;
+  using GenericParamInfo = ::Mono::RuntimeStructs_GenericParamInfo;
 
-  using MonoClass = ::Mono::__RuntimeStructs__MonoClass;
+  using MonoClass = ::Mono::RuntimeStructs_MonoClass;
 
-  using RemoteClass = ::Mono::__RuntimeStructs__RemoteClass;
+  using RemoteClass = ::Mono::RuntimeStructs_RemoteClass;
 
 protected:
   // Ctor Parameters []
@@ -263,7 +258,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::RuntimeStructs, 0x10>, "Si
 } // namespace Mono
 NEED_NO_BOX(::Mono::RuntimeStructs);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs*, "Mono", "RuntimeStructs");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::__RuntimeStructs__GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::__RuntimeStructs__GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::__RuntimeStructs__MonoClass, "Mono", "RuntimeStructs/MonoClass");
-DEFINE_IL2CPP_ARG_TYPE(::Mono::__RuntimeStructs__RemoteClass, "Mono", "RuntimeStructs/RemoteClass");
+DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs_GPtrArray, "Mono", "RuntimeStructs/GPtrArray");
+DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs_GenericParamInfo, "Mono", "RuntimeStructs/GenericParamInfo");
+DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs_MonoClass, "Mono", "RuntimeStructs/MonoClass");
+DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeStructs_RemoteClass, "Mono", "RuntimeStructs/RemoteClass");

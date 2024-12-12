@@ -2,12 +2,12 @@
 // IWYU pragma private; include "System/Net/WebException.hpp"
 #include "System/Net/zzzz__WebExceptionInternalStatus_impl.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/Net/zzzz__WebException_def.hpp"
 #include "System/Net/zzzz__WebExceptionInternalStatus_def.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)()>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x443fdfc;
+  constexpr static std::size_t addrs = 0x44a1110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), ".ctor",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(::StringW)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x443e98c;
+  constexpr static std::size_t addrs = 0x449fca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(::StringW, ::System::Exception*)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44396a0;
+  constexpr static std::size_t addrs = 0x449a9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(::StringW, ::System::Net::WebExceptionStatus)>(
     &::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4438a68;
+  constexpr static std::size_t addrs = 0x4499d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(
     ::StringW, ::System::Net::WebExceptionStatus, ::System::Net::WebExceptionInternalStatus, ::System::Exception*)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x443fe0c;
+  constexpr static std::size_t addrs = 0x44a1120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebException::*)(::StringW, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x443968c;
+  constexpr static std::size_t addrs = 0x449a9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(::StringW, ::StringW, ::System::Exception*, ::System::Net::WebExceptionStatus,
                                                                                                                         ::System::Net::WebResponse*)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x443fe40;
+  constexpr static std::size_t addrs = 0x44a1154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(
     ::StringW, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x443fe28;
+  constexpr static std::size_t addrs = 0x44a113c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(
     ::StringW, ::StringW, ::System::Exception*, ::System::Net::WebExceptionStatus, ::System::Net::WebResponse*, ::System::Net::WebExceptionInternalStatus)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x443ff20;
+  constexpr static std::size_t addrs = 0x44a1234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebException::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4440010;
+  constexpr static std::size_t addrs = 0x44a1324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::WebException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Net::WebException::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4440020;
+  constexpr static std::size_t addrs = 0x44a1334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::WebException::GetObjectData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444002c;
+  constexpr static std::size_t addrs = 0x44a1340;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebExceptionStatus (::System::Net::WebException::*)()>(&::System::Net::WebException::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4440034;
+  constexpr static std::size_t addrs = 0x44a1348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), "get_Status",
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebResponse* (::System::Net::WebException::*)()>(&::System::Net::WebException::get_Response)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444003c;
+  constexpr static std::size_t addrs = 0x44a1350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), "get_Response",
@@ -234,14 +234,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Net::WebException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Net::WebException::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::System::Net::WebExceptionStatus& System::Net::WebException::__cordl_internal_get_m_Status() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Status;
@@ -258,7 +250,7 @@ constexpr ::System::Net::WebResponse*& System::Net::WebException::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Response;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& System::Net::WebException::__cordl_internal_get_m_Response() const {
+constexpr ::System::Net::WebResponse* const& System::Net::WebException::__cordl_internal_get_m_Response() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Response;
 }
@@ -278,25 +270,16 @@ constexpr void System::Net::WebException::__cordl_internal_set_m_InternalStatus(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_InternalStatus = value;
 }
-inline ::System::Net::WebException* System::Net::WebException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>());
-}
 inline void System::Net::WebException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message));
 }
 inline void System::Net::WebException::_ctor(::StringW message) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException));
 }
 inline void System::Net::WebException::_ctor(::StringW message, ::System::Exception* innerException) {
   static auto* ___internal_method =
@@ -305,19 +288,12 @@ inline void System::Net::WebException::_ctor(::StringW message, ::System::Except
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerException);
 }
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Net::WebExceptionStatus status) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, status));
-}
 inline void System::Net::WebException::_ctor(::StringW message, ::System::Net::WebExceptionStatus status) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebExceptionStatus>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, status);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus,
-                                                                        ::System::Exception* innerException) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, status, internalStatus, innerException));
 }
 inline void System::Net::WebException::_ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus,
                                              ::System::Exception* innerException) {
@@ -329,10 +305,6 @@ inline void System::Net::WebException::_ctor(::StringW message, ::System::Net::W
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, status, internalStatus, innerException);
 }
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
-                                                                        ::System::Net::WebResponse* response) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException, status, response));
-}
 inline void System::Net::WebException::_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -340,10 +312,6 @@ inline void System::Net::WebException::_ctor(::StringW message, ::System::Except
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebExceptionStatus>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebResponse*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerException, status, response);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
-                                                                        ::System::Net::WebResponse* response) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, data, innerException, status, response));
 }
 inline void System::Net::WebException::_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,10 +321,6 @@ inline void System::Net::WebException::_ctor(::StringW message, ::StringW data, 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebExceptionStatus>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebResponse*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, data, innerException, status, response);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
-                                                                        ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException, status, response, internalStatus));
 }
 inline void System::Net::WebException::_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                                              ::System::Net::WebExceptionInternalStatus internalStatus) {
@@ -368,10 +332,6 @@ inline void System::Net::WebException::_ctor(::StringW message, ::System::Except
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebExceptionInternalStatus>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerException, status, response, internalStatus);
 }
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
-                                                                        ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, data, innerException, status, response, internalStatus));
-}
 inline void System::Net::WebException::_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                                              ::System::Net::WebExceptionInternalStatus internalStatus) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,10 +342,6 @@ inline void System::Net::WebException::_ctor(::StringW message, ::StringW data, 
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebResponse*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::WebExceptionInternalStatus>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, data, innerException, status, response, internalStatus);
-}
-inline ::System::Net::WebException* System::Net::WebException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(serializationInfo, streamingContext));
 }
 inline void System::Net::WebException::_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -416,6 +372,50 @@ inline ::System::Net::WebResponse* System::Net::WebException::get_Response() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebException*>::get(), "get_Response",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::WebResponse*, false>(this, ___internal_method);
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>());
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Net::WebExceptionStatus status) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, status));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus,
+                                                                        ::System::Exception* innerException) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, status, internalStatus, innerException));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
+                                                                        ::System::Net::WebResponse* response) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException, status, response));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
+                                                                        ::System::Net::WebResponse* response) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, data, innerException, status, response));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
+                                                                        ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, innerException, status, response, internalStatus));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
+                                                                        ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(message, data, innerException, status, response, internalStatus));
+}
+inline ::System::Net::WebException* System::Net::WebException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebException*>(serializationInfo, streamingContext));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Net::WebException::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Net::WebException::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebException::WebException() {}

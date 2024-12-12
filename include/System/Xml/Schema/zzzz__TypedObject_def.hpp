@@ -4,15 +4,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypedObject)
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
+class TypedObject_DecimalStruct;
 }
 namespace System::Xml::Schema {
-class __TypedObject__DecimalStruct;
+class XmlSchemaDatatype;
 }
 namespace System {
 struct Decimal;
@@ -25,17 +24,16 @@ namespace System::Xml::Schema {
 class TypedObject;
 }
 namespace System::Xml::Schema {
-class __TypedObject__DecimalStruct;
+class TypedObject_DecimalStruct;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::TypedObject);
-MARK_REF_PTR_T(::System::Xml::Schema::__TypedObject__DecimalStruct);
-// Type: ::DecimalStruct
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Xml::Schema::TypedObject_DecimalStruct);
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::TypedObject::DecimalStruct*
-class CORDL_TYPE __TypedObject__DecimalStruct : public ::System::Object {
+// CS Name: System.Xml.Schema.TypedObject/DecimalStruct
+class CORDL_TYPE TypedObject_DecimalStruct : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Dvalue)) ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> Dvalue;
@@ -48,9 +46,9 @@ public:
   /// @brief Field isDecimal, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_isDecimal, put = __cordl_internal_set_isDecimal)) bool isDecimal;
 
-  static inline ::System::Xml::Schema::__TypedObject__DecimalStruct* New_ctor();
+  static inline ::System::Xml::Schema::TypedObject_DecimalStruct* New_ctor();
 
-  static inline ::System::Xml::Schema::__TypedObject__DecimalStruct* New_ctor(int32_t dim);
+  static inline ::System::Xml::Schema::TypedObject_DecimalStruct* New_ctor(int32_t dim);
 
   constexpr ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> const& __cordl_internal_get_dvalue() const;
 
@@ -64,34 +62,37 @@ public:
 
   constexpr void __cordl_internal_set_isDecimal(bool value);
 
-  /// @brief Method .ctor, addr 0x4336e28, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439813c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4336dc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43980d4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t dim);
 
-  /// @brief Method get_Dvalue, addr 0x433721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dvalue, addr 0x4398530, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> get_Dvalue();
 
-  /// @brief Method get_IsDecimal, addr 0x4337208, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDecimal, addr 0x439851c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDecimal();
 
-  /// @brief Method set_IsDecimal, addr 0x4337210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDecimal, addr 0x4398524, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDecimal(bool value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TypedObject__DecimalStruct();
+  constexpr TypedObject_DecimalStruct();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TypedObject__DecimalStruct", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __TypedObject__DecimalStruct(__TypedObject__DecimalStruct&&) = delete;
+  TypedObject_DecimalStruct(TypedObject_DecimalStruct&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TypedObject__DecimalStruct", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "TypedObject_DecimalStruct", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __TypedObject__DecimalStruct(__TypedObject__DecimalStruct const&) = delete;
+  TypedObject_DecimalStruct(TypedObject_DecimalStruct const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7487 };
 
   /// @brief Field isDecimal, offset: 0x10, size: 0x1, def value: None
   bool ___isDecimal;
@@ -99,28 +100,24 @@ public:
   /// @brief Field dvalue, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> ___dvalue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7462 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__TypedObject__DecimalStruct, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Schema::TypedObject_DecimalStruct, ___isDecimal) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__TypedObject__DecimalStruct, ___isDecimal) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Schema::TypedObject_DecimalStruct, ___dvalue) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__TypedObject__DecimalStruct, ___dvalue) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::TypedObject_DecimalStruct, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
-// Type: System.Xml.Schema::TypedObject
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::TypedObject*
+// CS Name: System.Xml.Schema.TypedObject
 class CORDL_TYPE TypedObject : public ::System::Object {
 public:
   // Declarations
-  using DecimalStruct = ::System::Xml::Schema::__TypedObject__DecimalStruct;
+  using DecimalStruct = ::System::Xml::Schema::TypedObject_DecimalStruct;
 
   __declspec(property(get = get_Dim)) int32_t Dim;
 
@@ -138,7 +135,7 @@ public:
   __declspec(property(get = __cordl_internal_get_dim, put = __cordl_internal_set_dim)) int32_t dim;
 
   /// @brief Field dstruct, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dstruct, put = __cordl_internal_set_dstruct)) ::System::Xml::Schema::__TypedObject__DecimalStruct* dstruct;
+  __declspec(property(get = __cordl_internal_get_dstruct, put = __cordl_internal_set_dstruct)) ::System::Xml::Schema::TypedObject_DecimalStruct* dstruct;
 
   /// @brief Field isList, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get_isList, put = __cordl_internal_set_isList)) bool isList;
@@ -152,47 +149,47 @@ public:
   /// @brief Field xsdtype, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_xsdtype, put = __cordl_internal_set_xsdtype)) ::System::Xml::Schema::XmlSchemaDatatype* xsdtype;
 
-  /// @brief Method Equals, addr 0x4336f98, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x43982ac, size 0x270, virtual false, abstract: false, final false
   inline bool Equals(::System::Xml::Schema::TypedObject* other);
 
-  /// @brief Method ListDValueEquals, addr 0x4336e84, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ListDValueEquals, addr 0x4398198, size 0x114, virtual false, abstract: false, final false
   inline bool ListDValueEquals(::System::Xml::Schema::TypedObject* other);
 
   static inline ::System::Xml::Schema::TypedObject* New_ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype);
 
-  /// @brief Method SetDecimal, addr 0x4336b50, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method SetDecimal, addr 0x4397e64, size 0x270, virtual false, abstract: false, final false
   inline void SetDecimal();
 
-  /// @brief Method ToString, addr 0x4336b48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4397e5c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_dim() const;
 
   constexpr int32_t& __cordl_internal_get_dim();
 
-  constexpr ::System::Xml::Schema::__TypedObject__DecimalStruct*& __cordl_internal_get_dstruct();
+  constexpr ::System::Xml::Schema::TypedObject_DecimalStruct* const& __cordl_internal_get_dstruct() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__TypedObject__DecimalStruct*> const& __cordl_internal_get_dstruct() const;
+  constexpr ::System::Xml::Schema::TypedObject_DecimalStruct*& __cordl_internal_get_dstruct();
 
   constexpr bool const& __cordl_internal_get_isList() const;
 
   constexpr bool& __cordl_internal_get_isList();
 
-  constexpr ::System::Object*& __cordl_internal_get_ovalue();
+  constexpr ::System::Object* const& __cordl_internal_get_ovalue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ovalue() const;
+  constexpr ::System::Object*& __cordl_internal_get_ovalue();
 
   constexpr ::StringW const& __cordl_internal_get_svalue() const;
 
   constexpr ::StringW& __cordl_internal_get_svalue();
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_xsdtype();
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& __cordl_internal_get_xsdtype() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __cordl_internal_get_xsdtype() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_xsdtype();
 
   constexpr void __cordl_internal_set_dim(int32_t value);
 
-  constexpr void __cordl_internal_set_dstruct(::System::Xml::Schema::__TypedObject__DecimalStruct* value);
+  constexpr void __cordl_internal_set_dstruct(::System::Xml::Schema::TypedObject_DecimalStruct* value);
 
   constexpr void __cordl_internal_set_isList(bool value);
 
@@ -202,25 +199,25 @@ public:
 
   constexpr void __cordl_internal_set_xsdtype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method .ctor, addr 0x43369ec, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397d00, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::StringW svalue, ::System::Xml::Schema::XmlSchemaDatatype* xsdtype);
 
-  /// @brief Method get_Dim, addr 0x4336994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Dim, addr 0x4397ca8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Dim();
 
-  /// @brief Method get_Dvalue, addr 0x43369c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Dvalue, addr 0x4397cd4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> get_Dvalue();
 
-  /// @brief Method get_IsDecimal, addr 0x43369a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsDecimal, addr 0x4397cb8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsDecimal();
 
-  /// @brief Method get_IsList, addr 0x433699c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsList, addr 0x4397cb0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsList();
 
-  /// @brief Method get_Type, addr 0x43369e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4397cf8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Type();
 
-  /// @brief Method get_Value, addr 0x43369dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4397cf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -237,8 +234,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypedObject(TypedObject const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7488 };
+
   /// @brief Field dstruct, offset: 0x10, size: 0x8, def value: None
-  ::System::Xml::Schema::__TypedObject__DecimalStruct* ___dstruct;
+  ::System::Xml::Schema::TypedObject_DecimalStruct* ___dstruct;
 
   /// @brief Field ovalue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___ovalue;
@@ -255,14 +255,9 @@ public:
   /// @brief Field isList, offset: 0x34, size: 0x1, def value: None
   bool ___isList;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7463 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::TypedObject, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::TypedObject, ___dstruct) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::TypedObject, ___ovalue) == 0x18, "Offset mismatch!");
@@ -275,8 +270,10 @@ static_assert(offsetof(::System::Xml::Schema::TypedObject, ___dim) == 0x30, "Off
 
 static_assert(offsetof(::System::Xml::Schema::TypedObject, ___isList) == 0x34, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::TypedObject, 0x38>, "Size mismatch!");
+
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::TypedObject);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::TypedObject*, "System.Xml.Schema", "TypedObject");
-NEED_NO_BOX(::System::Xml::Schema::__TypedObject__DecimalStruct);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::__TypedObject__DecimalStruct*, "System.Xml.Schema", "TypedObject/DecimalStruct");
+NEED_NO_BOX(::System::Xml::Schema::TypedObject_DecimalStruct);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::TypedObject_DecimalStruct*, "System.Xml.Schema", "TypedObject/DecimalStruct");

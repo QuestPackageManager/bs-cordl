@@ -18,9 +18,6 @@ template <typename TDerived> inline TDerived Zenject::ScriptableObjectInstaller_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<TDerived, false>(nullptr, ___internal_method, resourcePath, container);
 }
-template <typename TDerived> inline ::Zenject::ScriptableObjectInstaller_1<TDerived>* Zenject::ScriptableObjectInstaller_1<TDerived>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstaller_1<TDerived>*>());
-}
 template <typename TDerived> inline void Zenject::ScriptableObjectInstaller_1<TDerived>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstaller_1<TDerived>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -36,6 +33,9 @@ template <typename TDerived> inline ::Zenject::InjectTypeInfo* Zenject::Scriptab
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstaller_1<TDerived>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TDerived> inline ::Zenject::ScriptableObjectInstaller_1<TDerived>* Zenject::ScriptableObjectInstaller_1<TDerived>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstaller_1<TDerived>*>());
 }
 // Ctor Parameters []
 template <typename TDerived> constexpr ::Zenject::ScriptableObjectInstaller_1<TDerived>::ScriptableObjectInstaller_1() {}

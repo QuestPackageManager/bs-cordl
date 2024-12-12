@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
         &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e490c;
+  constexpr static std::size_t addrs = 0x2317bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::GetInstance)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22e4924;
+  constexpr static std::size_t addrs = 0x2317c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t,
     ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x22e4bd8;
+  constexpr static std::size_t addrs = 0x2317ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::*)(
     ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x22e4a8c;
+  constexpr static std::size_t addrs = 0x2317d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::get_P)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e4ce4;
+  constexpr static std::size_t addrs = 0x2317fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::get_Q)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e4cfc;
+  constexpr static std::size_t addrs = 0x2317fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::get_A)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22e4d14;
+  constexpr static std::size_t addrs = 0x2318000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::ToAsn1Object)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x22e4d2c;
+  constexpr static std::size_t addrs = 0x2318018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_p() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_p() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
@@ -153,7 +153,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_q() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_q() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
@@ -165,7 +165,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_a() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_a() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___a;
 }
@@ -177,7 +177,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_b() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_b() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
@@ -189,7 +189,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_x() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_x() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x;
 }
@@ -201,7 +201,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerInteger*& Org::BouncyCastle::Asn1::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_y() const {
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::__cordl_internal_get_y() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___y;
 }
@@ -223,11 +223,6 @@ inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* Org::
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*
-Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* p,
-                                                                           ::Org::BouncyCastle::Math::BigInteger* q, int32_t x, ::Org::BouncyCastle::Math::BigInteger* y) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*>(a, b, p, q, x, y));
-}
 inline void Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b,
                                                                                     ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, int32_t x,
                                                                                     ::Org::BouncyCastle::Math::BigInteger* y) {
@@ -240,9 +235,6 @@ inline void Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::_c
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::BigInteger*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, b, p, q, x, y);
-}
-inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,6 +265,14 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::CryptoPro
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*
+Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b, ::Org::BouncyCastle::Math::BigInteger* p,
+                                                                           ::Org::BouncyCastle::Math::BigInteger* q, int32_t x, ::Org::BouncyCastle::Math::BigInteger* y) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*>(a, b, p, q, x, y));
+}
+inline ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters* Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::CryptoPro::ECGost3410ParamSetParameters::ECGost3410ParamSetParameters() {}

@@ -4,15 +4,13 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 CORDL_MODULE_EXPORT(SignaturePolicyIdentifier)
 namespace Org::BouncyCastle::Asn1::Esf {
 class SignaturePolicyId;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
 }
 namespace System {
 class Object;
@@ -23,11 +21,10 @@ class SignaturePolicyIdentifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier);
-// Type: Org.BouncyCastle.Asn1.Esf::SignaturePolicyIdentifier
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Esf::SignaturePolicyIdentifier*
+// CS Name: Org.BouncyCastle.Asn1.Esf.SignaturePolicyIdentifier
 class CORDL_TYPE SignaturePolicyIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -39,29 +36,29 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x22f0554, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2323840, size 0x1cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method ToAsn1Object, addr 0x22f07b8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2323aa4, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* const& __cordl_internal_get_sigPolicy() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*& __cordl_internal_get_sigPolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*> const& __cordl_internal_get_sigPolicy() const;
-
   constexpr void __cordl_internal_set_sigPolicy(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* value);
 
-  /// @brief Method .ctor, addr 0x22f0794, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2323a80, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22f0720, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2323a0c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method get_SignaturePolicyId, addr 0x22f07b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignaturePolicyId, addr 0x2323a9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* get_SignaturePolicyId();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
@@ -81,18 +78,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SignaturePolicyIdentifier(SignaturePolicyIdentifier const&) = delete;
 
-  /// @brief Field sigPolicy, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* ___sigPolicy;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 156 };
+
+  /// @brief Field sigPolicy, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* ___sigPolicy;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier, ___sigPolicy) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier);

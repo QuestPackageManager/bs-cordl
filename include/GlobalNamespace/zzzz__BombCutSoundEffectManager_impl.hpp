@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffectManager::*)()>(&::GlobalNamespace::BombCutSoundEffectManager::Start)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3a787b0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3acfcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(), "Start",
@@ -26,15 +26,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffectManager::*)(
-    ::GlobalNamespace::NoteController*, ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut)> {
+    ::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3a78a2c;
+  constexpr static std::size_t addrs = 0x3acfe40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffectManager::*)()>(&::GlobalNamespace::BombCutSoundEffectManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3a78c48;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3ad005c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffectManager::*)(::GlobalNamespace::BombCutSoundEffect*)>(
     &::GlobalNamespace::BombCutSoundEffectManager::HandleBombCutSoundEffectDidFinish)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3a78d6c;
+  constexpr static std::size_t addrs = 0x3ad0184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombCutSoundEffectManager::*)()>(&::GlobalNamespace::BombCutSoundEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3a78e20;
+  constexpr static std::size_t addrs = 0x3ad0238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(), ".ctor",
@@ -109,7 +109,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::BombCutSoun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -129,15 +129,15 @@ constexpr void GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saberManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool*& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__bombCutSoundEffectPool() {
+constexpr ::GlobalNamespace::BombCutSoundEffect_Pool*& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__bombCutSoundEffectPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombCutSoundEffectPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BombCutSoundEffect__Pool*> const& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__bombCutSoundEffectPool() const {
+constexpr ::GlobalNamespace::BombCutSoundEffect_Pool* const& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__bombCutSoundEffectPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombCutSoundEffectPool;
 }
-constexpr void GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_set__bombCutSoundEffectPool(::GlobalNamespace::__BombCutSoundEffect__Pool* value) {
+constexpr void GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_set__bombCutSoundEffectPool(::GlobalNamespace::BombCutSoundEffect_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombCutSoundEffectPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -145,8 +145,7 @@ constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomSoundPicker;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const&
-GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__randomSoundPicker() const {
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& GlobalNamespace::BombCutSoundEffectManager::__cordl_internal_get__randomSoundPicker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomSoundPicker;
 }
@@ -159,11 +158,11 @@ inline void GlobalNamespace::BombCutSoundEffectManager::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController, noteCutInfo);
 }
 inline void GlobalNamespace::BombCutSoundEffectManager::OnDestroy() {
@@ -177,13 +176,13 @@ inline void GlobalNamespace::BombCutSoundEffectManager::HandleBombCutSoundEffect
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BombCutSoundEffect*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bombCutSoundEffect);
 }
-inline ::GlobalNamespace::BombCutSoundEffectManager* GlobalNamespace::BombCutSoundEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BombCutSoundEffectManager*>());
-}
 inline void GlobalNamespace::BombCutSoundEffectManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombCutSoundEffectManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BombCutSoundEffectManager* GlobalNamespace::BombCutSoundEffectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BombCutSoundEffectManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BombCutSoundEffectManager::BombCutSoundEffectManager() {}

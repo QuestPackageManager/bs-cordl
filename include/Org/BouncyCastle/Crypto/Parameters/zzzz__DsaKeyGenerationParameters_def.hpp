@@ -17,11 +17,10 @@ class DsaKeyGenerationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::DsaKeyGenerationParameters
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.KeyGenerationParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaKeyGenerationParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.DsaKeyGenerationParameters
 class CORDL_TYPE DsaKeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
@@ -33,16 +32,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                               ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameters*& __cordl_internal_get_parameters();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* const& __cordl_internal_get_parameters() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DsaParameters*> const& __cordl_internal_get_parameters() const;
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaParameters*& __cordl_internal_get_parameters();
 
   constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::DsaParameters* value);
 
-  /// @brief Method .ctor, addr 0x2385090, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b837c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* parameters);
 
-  /// @brief Method get_Parameters, addr 0x23850dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x23b83c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* get_Parameters();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DsaKeyGenerationParameters(DsaKeyGenerationParameters const&) = delete;
 
-  /// @brief Field parameters, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* ___parameters;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1026 };
+
+  /// @brief Field parameters, offset: 0x20, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* ___parameters;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters, ___parameters) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters);

@@ -3,6 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/ComponentModel/zzzz__IComponent_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IServiceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MarshalByValueComponent)
@@ -10,16 +13,7 @@ namespace System::ComponentModel {
 class EventHandlerList;
 }
 namespace System::ComponentModel {
-class IComponent;
-}
-namespace System::ComponentModel {
 class ISite;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class IServiceProvider;
 }
 namespace System {
 class Object;
@@ -33,11 +27,10 @@ class MarshalByValueComponent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::MarshalByValueComponent);
-// Type: System.ComponentModel::MarshalByValueComponent
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.IComponent, System.IDisposable, System.IServiceProvider, System.Object
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::MarshalByValueComponent*
+// CS Name: System.ComponentModel.MarshalByValueComponent
 class CORDL_TYPE MarshalByValueComponent : public ::System::Object {
 public:
   // Declarations
@@ -50,7 +43,7 @@ public:
   __declspec(property(get = __cordl_internal_get__site, put = __cordl_internal_set__site)) ::System::ComponentModel::ISite* _site;
 
   /// @brief Field s_eventDisposed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_eventDisposed, put = setStaticF_s_eventDisposed)) ::System::Object* s_eventDisposed;
+  __declspec(property(get = getStaticF_s_eventDisposed, put = setStaticF_s_eventDisposed)) ::System::Object* s_eventDisposed;
 
   /// @brief Convert operator to "::System::ComponentModel::IComponent"
   constexpr operator ::System::ComponentModel::IComponent*() noexcept;
@@ -61,41 +54,41 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method Dispose, addr 0x43f2514, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4453828, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x43f2580, size 0x288, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4453894, size 0x288, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x43f246c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x4453780, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetService, addr 0x43f2808, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x4453b1c, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
   static inline ::System::ComponentModel::MarshalByValueComponent* New_ctor();
 
-  /// @brief Method ToString, addr 0x43f28bc, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4453bd0, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::ComponentModel::EventHandlerList* const& __cordl_internal_get__events() const;
 
   constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get__events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventHandlerList*> const& __cordl_internal_get__events() const;
+  constexpr ::System::ComponentModel::ISite* const& __cordl_internal_get__site() const;
 
   constexpr ::System::ComponentModel::ISite*& __cordl_internal_get__site();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ISite*> const& __cordl_internal_get__site() const;
 
   constexpr void __cordl_internal_set__events(::System::ComponentModel::EventHandlerList* value);
 
   constexpr void __cordl_internal_set__site(::System::ComponentModel::ISite* value);
 
-  /// @brief Method .ctor, addr 0x43f2464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4453778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_eventDisposed();
 
-  /// @brief Method get_Site, addr 0x43f250c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x4453820, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   /// @brief Convert to "::System::ComponentModel::IComponent"
@@ -123,23 +116,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MarshalByValueComponent(MarshalByValueComponent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9401 };
+
   /// @brief Field _site, offset: 0x10, size: 0x8, def value: None
   ::System::ComponentModel::ISite* ____site;
 
   /// @brief Field _events, offset: 0x18, size: 0x8, def value: None
   ::System::ComponentModel::EventHandlerList* ____events;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9376 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::MarshalByValueComponent, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::MarshalByValueComponent, ____site) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::ComponentModel::MarshalByValueComponent, ____events) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::MarshalByValueComponent, 0x20>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::MarshalByValueComponent);

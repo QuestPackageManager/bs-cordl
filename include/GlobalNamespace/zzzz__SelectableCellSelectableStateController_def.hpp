@@ -9,10 +9,10 @@ namespace HMUI {
 class Interactable;
 }
 namespace HMUI {
-class SelectableCell;
+struct SelectableCell_TransitionType;
 }
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+class SelectableCell;
 }
 namespace System {
 class Object;
@@ -23,35 +23,34 @@ class SelectableCellSelectableStateController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectableCellSelectableStateController);
-// Type: ::SelectableCellSelectableStateController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SelectableStateController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectableCellSelectableStateController*
-class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::SelectableCell>> {
+// CS Name: SelectableCellSelectableStateController
+class CORDL_TYPE SelectableCellSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::SelectableCell*> {
 public:
   // Declarations
-  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x4476d8c, size 0x4, virtual false, abstract: false, final false
-  inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method HandleSelectableCellHighlightDidChange, addr 0x44d80a0, size 0x4, virtual false, abstract: false, final false
+  inline void HandleSelectableCellHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x4476d04, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableCellInteractableDidChange, addr 0x44d8018, size 0x88, virtual false, abstract: false, final false
   inline void HandleSelectableCellInteractableDidChange(::HMUI::Interactable* interactableCell, bool interactable);
 
-  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x4476d90, size 0x4, virtual false, abstract: false, final false
-  inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* owner);
+  /// @brief Method HandleSelectableCellSelectionStateDidChange, addr 0x44d80a4, size 0x4, virtual false, abstract: false, final false
+  inline void HandleSelectableCellSelectionStateDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* owner);
 
   static inline ::GlobalNamespace::SelectableCellSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4476bbc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x44d7ed0, size 0x148, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x44769f8, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d7d0c, size 0x158, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveState, addr 0x4476b50, size 0x6c, virtual false, abstract: false, final false
-  inline void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method ResolveState, addr 0x44d7e64, size 0x6c, virtual false, abstract: false, final false
+  inline void ResolveState(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method .ctor, addr 0x4476d94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d80a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +68,7 @@ public:
   SelectableCellSelectableStateController(SelectableCellSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

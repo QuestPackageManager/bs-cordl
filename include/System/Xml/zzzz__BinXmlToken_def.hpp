@@ -12,11 +12,10 @@ struct BinXmlToken;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::BinXmlToken);
-// Type: System.Xml::BinXmlToken
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::BinXmlToken
+// CS Name: System.Xml.BinXmlToken
 struct CORDL_TYPE BinXmlToken {
 public:
   // Declarations
@@ -109,219 +108,219 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BinXmlToken(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Attr value: static_cast<int32_t>(0xf6)
+  /// @brief Field Attr value: I32(246)
   static ::System::Xml::BinXmlToken const Attr;
 
-  /// @brief Field CData value: static_cast<int32_t>(0xf2)
+  /// @brief Field CData value: I32(242)
   static ::System::Xml::BinXmlToken const CData;
 
-  /// @brief Field Comment value: static_cast<int32_t>(0xf3)
+  /// @brief Field Comment value: I32(243)
   static ::System::Xml::BinXmlToken const Comment;
 
-  /// @brief Field DocType value: static_cast<int32_t>(0xfc)
+  /// @brief Field DocType value: I32(252)
   static ::System::Xml::BinXmlToken const DocType;
 
-  /// @brief Field Element value: static_cast<int32_t>(0xf8)
+  /// @brief Field Element value: I32(248)
   static ::System::Xml::BinXmlToken const Element;
 
-  /// @brief Field Encoding value: static_cast<int32_t>(0xfd)
+  /// @brief Field Encoding value: I32(253)
   static ::System::Xml::BinXmlToken const Encoding;
 
-  /// @brief Field EndAttrs value: static_cast<int32_t>(0xf5)
+  /// @brief Field EndAttrs value: I32(245)
   static ::System::Xml::BinXmlToken const EndAttrs;
 
-  /// @brief Field EndCData value: static_cast<int32_t>(0xf1)
+  /// @brief Field EndCData value: I32(241)
   static ::System::Xml::BinXmlToken const EndCData;
 
-  /// @brief Field EndElem value: static_cast<int32_t>(0xf7)
+  /// @brief Field EndElem value: I32(247)
   static ::System::Xml::BinXmlToken const EndElem;
 
-  /// @brief Field EndNest value: static_cast<int32_t>(0xeb)
+  /// @brief Field EndNest value: I32(235)
   static ::System::Xml::BinXmlToken const EndNest;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x0)
+  /// @brief Field Error value: I32(0)
   static ::System::Xml::BinXmlToken const Error;
 
-  /// @brief Field Extn value: static_cast<int32_t>(0xea)
+  /// @brief Field Extn value: I32(234)
   static ::System::Xml::BinXmlToken const Extn;
 
-  /// @brief Field Name value: static_cast<int32_t>(0xf0)
+  /// @brief Field Name value: I32(240)
   static ::System::Xml::BinXmlToken const Name;
 
-  /// @brief Field Nest value: static_cast<int32_t>(0xec)
+  /// @brief Field Nest value: I32(236)
   static ::System::Xml::BinXmlToken const Nest;
 
-  /// @brief Field NmFlush value: static_cast<int32_t>(0xe9)
+  /// @brief Field NmFlush value: I32(233)
   static ::System::Xml::BinXmlToken const NmFlush;
 
-  /// @brief Field NotImpl value: static_cast<int32_t>(0xfffffffe)
+  /// @brief Field NotImpl value: I32(-2)
   static ::System::Xml::BinXmlToken const NotImpl;
 
-  /// @brief Field PI value: static_cast<int32_t>(0xf4)
+  /// @brief Field PI value: I32(244)
   static ::System::Xml::BinXmlToken const PI;
 
-  /// @brief Field Public value: static_cast<int32_t>(0xfa)
+  /// @brief Field Public value: I32(250)
   static ::System::Xml::BinXmlToken const Public;
 
-  /// @brief Field QName value: static_cast<int32_t>(0xef)
+  /// @brief Field QName value: I32(239)
   static ::System::Xml::BinXmlToken const QName;
 
-  /// @brief Field SQL_BIGINT value: static_cast<int32_t>(0x8)
+  /// @brief Field SQL_BIGINT value: I32(8)
   static ::System::Xml::BinXmlToken const SQL_BIGINT;
 
-  /// @brief Field SQL_BINARY value: static_cast<int32_t>(0xc)
+  /// @brief Field SQL_BINARY value: I32(12)
   static ::System::Xml::BinXmlToken const SQL_BINARY;
 
-  /// @brief Field SQL_BIT value: static_cast<int32_t>(0x6)
+  /// @brief Field SQL_BIT value: I32(6)
   static ::System::Xml::BinXmlToken const SQL_BIT;
 
-  /// @brief Field SQL_CHAR value: static_cast<int32_t>(0xd)
+  /// @brief Field SQL_CHAR value: I32(13)
   static ::System::Xml::BinXmlToken const SQL_CHAR;
 
-  /// @brief Field SQL_DATETIME value: static_cast<int32_t>(0x12)
+  /// @brief Field SQL_DATETIME value: I32(18)
   static ::System::Xml::BinXmlToken const SQL_DATETIME;
 
-  /// @brief Field SQL_DECIMAL value: static_cast<int32_t>(0xa)
+  /// @brief Field SQL_DECIMAL value: I32(10)
   static ::System::Xml::BinXmlToken const SQL_DECIMAL;
 
-  /// @brief Field SQL_FLOAT value: static_cast<int32_t>(0x4)
+  /// @brief Field SQL_FLOAT value: I32(4)
   static ::System::Xml::BinXmlToken const SQL_FLOAT;
 
-  /// @brief Field SQL_IMAGE value: static_cast<int32_t>(0x17)
+  /// @brief Field SQL_IMAGE value: I32(23)
   static ::System::Xml::BinXmlToken const SQL_IMAGE;
 
-  /// @brief Field SQL_INT value: static_cast<int32_t>(0x2)
+  /// @brief Field SQL_INT value: I32(2)
   static ::System::Xml::BinXmlToken const SQL_INT;
 
-  /// @brief Field SQL_MONEY value: static_cast<int32_t>(0x5)
+  /// @brief Field SQL_MONEY value: I32(5)
   static ::System::Xml::BinXmlToken const SQL_MONEY;
 
-  /// @brief Field SQL_NCHAR value: static_cast<int32_t>(0xe)
+  /// @brief Field SQL_NCHAR value: I32(14)
   static ::System::Xml::BinXmlToken const SQL_NCHAR;
 
-  /// @brief Field SQL_NTEXT value: static_cast<int32_t>(0x18)
+  /// @brief Field SQL_NTEXT value: I32(24)
   static ::System::Xml::BinXmlToken const SQL_NTEXT;
 
-  /// @brief Field SQL_NUMERIC value: static_cast<int32_t>(0xb)
+  /// @brief Field SQL_NUMERIC value: I32(11)
   static ::System::Xml::BinXmlToken const SQL_NUMERIC;
 
-  /// @brief Field SQL_NVARCHAR value: static_cast<int32_t>(0x11)
+  /// @brief Field SQL_NVARCHAR value: I32(17)
   static ::System::Xml::BinXmlToken const SQL_NVARCHAR;
 
-  /// @brief Field SQL_REAL value: static_cast<int32_t>(0x3)
+  /// @brief Field SQL_REAL value: I32(3)
   static ::System::Xml::BinXmlToken const SQL_REAL;
 
-  /// @brief Field SQL_SMALLDATETIME value: static_cast<int32_t>(0x13)
+  /// @brief Field SQL_SMALLDATETIME value: I32(19)
   static ::System::Xml::BinXmlToken const SQL_SMALLDATETIME;
 
-  /// @brief Field SQL_SMALLINT value: static_cast<int32_t>(0x1)
+  /// @brief Field SQL_SMALLINT value: I32(1)
   static ::System::Xml::BinXmlToken const SQL_SMALLINT;
 
-  /// @brief Field SQL_SMALLMONEY value: static_cast<int32_t>(0x14)
+  /// @brief Field SQL_SMALLMONEY value: I32(20)
   static ::System::Xml::BinXmlToken const SQL_SMALLMONEY;
 
-  /// @brief Field SQL_TEXT value: static_cast<int32_t>(0x16)
+  /// @brief Field SQL_TEXT value: I32(22)
   static ::System::Xml::BinXmlToken const SQL_TEXT;
 
-  /// @brief Field SQL_TINYINT value: static_cast<int32_t>(0x7)
+  /// @brief Field SQL_TINYINT value: I32(7)
   static ::System::Xml::BinXmlToken const SQL_TINYINT;
 
-  /// @brief Field SQL_UDT value: static_cast<int32_t>(0x1b)
+  /// @brief Field SQL_UDT value: I32(27)
   static ::System::Xml::BinXmlToken const SQL_UDT;
 
-  /// @brief Field SQL_UUID value: static_cast<int32_t>(0x9)
+  /// @brief Field SQL_UUID value: I32(9)
   static ::System::Xml::BinXmlToken const SQL_UUID;
 
-  /// @brief Field SQL_VARBINARY value: static_cast<int32_t>(0xf)
+  /// @brief Field SQL_VARBINARY value: I32(15)
   static ::System::Xml::BinXmlToken const SQL_VARBINARY;
 
-  /// @brief Field SQL_VARCHAR value: static_cast<int32_t>(0x10)
+  /// @brief Field SQL_VARCHAR value: I32(16)
   static ::System::Xml::BinXmlToken const SQL_VARCHAR;
 
-  /// @brief Field Subset value: static_cast<int32_t>(0xf9)
+  /// @brief Field Subset value: I32(249)
   static ::System::Xml::BinXmlToken const Subset;
 
-  /// @brief Field System value: static_cast<int32_t>(0xfb)
+  /// @brief Field System value: I32(251)
   static ::System::Xml::BinXmlToken const System;
 
-  /// @brief Field XSD_BASE64 value: static_cast<int32_t>(0x85)
+  /// @brief Field XSD_BASE64 value: I32(133)
   static ::System::Xml::BinXmlToken const XSD_BASE64;
 
-  /// @brief Field XSD_BINHEX value: static_cast<int32_t>(0x84)
+  /// @brief Field XSD_BINHEX value: I32(132)
   static ::System::Xml::BinXmlToken const XSD_BINHEX;
 
-  /// @brief Field XSD_BOOLEAN value: static_cast<int32_t>(0x86)
+  /// @brief Field XSD_BOOLEAN value: I32(134)
   static ::System::Xml::BinXmlToken const XSD_BOOLEAN;
 
-  /// @brief Field XSD_BYTE value: static_cast<int32_t>(0x88)
+  /// @brief Field XSD_BYTE value: I32(136)
   static ::System::Xml::BinXmlToken const XSD_BYTE;
 
-  /// @brief Field XSD_DATE value: static_cast<int32_t>(0x83)
+  /// @brief Field XSD_DATE value: I32(131)
   static ::System::Xml::BinXmlToken const XSD_DATE;
 
-  /// @brief Field XSD_DATETIME value: static_cast<int32_t>(0x82)
+  /// @brief Field XSD_DATETIME value: I32(130)
   static ::System::Xml::BinXmlToken const XSD_DATETIME;
 
-  /// @brief Field XSD_DECIMAL value: static_cast<int32_t>(0x87)
+  /// @brief Field XSD_DECIMAL value: I32(135)
   static ::System::Xml::BinXmlToken const XSD_DECIMAL;
 
-  /// @brief Field XSD_KATMAI_DATE value: static_cast<int32_t>(0x7f)
+  /// @brief Field XSD_KATMAI_DATE value: I32(127)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_DATE;
 
-  /// @brief Field XSD_KATMAI_DATEOFFSET value: static_cast<int32_t>(0x7c)
+  /// @brief Field XSD_KATMAI_DATEOFFSET value: I32(124)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_DATEOFFSET;
 
-  /// @brief Field XSD_KATMAI_DATETIME value: static_cast<int32_t>(0x7e)
+  /// @brief Field XSD_KATMAI_DATETIME value: I32(126)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_DATETIME;
 
-  /// @brief Field XSD_KATMAI_DATETIMEOFFSET value: static_cast<int32_t>(0x7b)
+  /// @brief Field XSD_KATMAI_DATETIMEOFFSET value: I32(123)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_DATETIMEOFFSET;
 
-  /// @brief Field XSD_KATMAI_TIME value: static_cast<int32_t>(0x7d)
+  /// @brief Field XSD_KATMAI_TIME value: I32(125)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_TIME;
 
-  /// @brief Field XSD_KATMAI_TIMEOFFSET value: static_cast<int32_t>(0x7a)
+  /// @brief Field XSD_KATMAI_TIMEOFFSET value: I32(122)
   static ::System::Xml::BinXmlToken const XSD_KATMAI_TIMEOFFSET;
 
-  /// @brief Field XSD_QNAME value: static_cast<int32_t>(0x8c)
+  /// @brief Field XSD_QNAME value: I32(140)
   static ::System::Xml::BinXmlToken const XSD_QNAME;
 
-  /// @brief Field XSD_TIME value: static_cast<int32_t>(0x81)
+  /// @brief Field XSD_TIME value: I32(129)
   static ::System::Xml::BinXmlToken const XSD_TIME;
 
-  /// @brief Field XSD_UNSIGNEDINT value: static_cast<int32_t>(0x8a)
+  /// @brief Field XSD_UNSIGNEDINT value: I32(138)
   static ::System::Xml::BinXmlToken const XSD_UNSIGNEDINT;
 
-  /// @brief Field XSD_UNSIGNEDLONG value: static_cast<int32_t>(0x8b)
+  /// @brief Field XSD_UNSIGNEDLONG value: I32(139)
   static ::System::Xml::BinXmlToken const XSD_UNSIGNEDLONG;
 
-  /// @brief Field XSD_UNSIGNEDSHORT value: static_cast<int32_t>(0x89)
+  /// @brief Field XSD_UNSIGNEDSHORT value: I32(137)
   static ::System::Xml::BinXmlToken const XSD_UNSIGNEDSHORT;
 
-  /// @brief Field XmlDecl value: static_cast<int32_t>(0xfe)
+  /// @brief Field XmlDecl value: I32(254)
   static ::System::Xml::BinXmlToken const XmlDecl;
 
-  /// @brief Field XmlText value: static_cast<int32_t>(0xed)
+  /// @brief Field XmlText value: I32(237)
   static ::System::Xml::BinXmlToken const XmlText;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7154 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field EOF value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field EOF value: I32(-1)
   static ::System::Xml::BinXmlToken const _cordl_EOF;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::BinXmlToken, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::BinXmlToken, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::BinXmlToken, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinXmlToken, "System.Xml", "BinXmlToken");

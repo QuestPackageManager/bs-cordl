@@ -18,11 +18,10 @@ class OVRPointerVisualizer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRPointerVisualizer);
-// Type: ::OVRPointerVisualizer
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRPointerVisualizer*
+// CS Name: OVRPointerVisualizer
 class CORDL_TYPE OVRPointerVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::OVRPointerVisualizer* New_ctor();
 
-  /// @brief Method Update, addr 0x3fa4d50, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4004dfc, size 0x1f8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_linePointer() const;
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3fa4f48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4004ff4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRPointerVisualizer(OVRPointerVisualizer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8259 };
+
   /// @brief Field rayTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
@@ -84,19 +86,16 @@ public:
   /// @brief Field rayDrawDistance, offset: 0x30, size: 0x4, def value: None
   float_t ___rayDrawDistance;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8234 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPointerVisualizer, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRPointerVisualizer, ___rayTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRPointerVisualizer, ___linePointer) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRPointerVisualizer, ___rayDrawDistance) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPointerVisualizer, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRPointerVisualizer);

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x25d9b4c;
+  constexpr static std::size_t addrs = 0x260ce38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x25d9cc8;
+  constexpr static std::size_t addrs = 0x260cfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::ArrayList*)>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25da028;
+  constexpr static std::size_t addrs = 0x260d314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25da02c;
+  constexpr static std::size_t addrs = 0x260d318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::ToAsn1Object)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x25da0a4;
+  constexpr static std::size_t addrs = 0x260d390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::get_Attributes)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25da368;
+  constexpr static std::size_t addrs = 0x260d654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Asn1::X509::SubjectD
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_get_attributes() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::__cordl_internal_get_attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
@@ -117,26 +117,17 @@ inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyC
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::ArrayList* attributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
-}
 inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::ArrayList* attributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::ArrayList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributes);
-}
-inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::IList* attributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
 }
 inline void Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::_ctor(::System::Collections::IList* attributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,6 +146,15 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::X509::Subjec
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>::get(), "get_Attributes",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::ArrayList* attributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
+}
+inline ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes* Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::New_ctor(::System::Collections::IList* attributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes*>(attributes));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::SubjectDirectoryAttributes::SubjectDirectoryAttributes() {}

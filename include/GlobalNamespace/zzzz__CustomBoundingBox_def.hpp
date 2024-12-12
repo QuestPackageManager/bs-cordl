@@ -15,11 +15,10 @@ class CustomBoundingBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomBoundingBox);
-// Type: ::CustomBoundingBox
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CustomBoundingBox*
+// CS Name: CustomBoundingBox
 class CORDL_TYPE CustomBoundingBox : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
   /// @brief Field _meshRenderer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
-  /// @brief Method Awake, addr 0x396d3a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39c2888, size 0x68, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CustomBoundingBox* New_ctor();
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x396d408, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c28f0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomBoundingBox(CustomBoundingBox const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16409 };
+
   /// @brief Field _boundingBoxCenter, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____boundingBoxCenter;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field _meshRenderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16373 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomBoundingBox, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CustomBoundingBox, ____boundingBoxCenter) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CustomBoundingBox, ____boundingBoxSize) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CustomBoundingBox, ____meshRenderer) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomBoundingBox, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomBoundingBox);

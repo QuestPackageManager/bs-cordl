@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/PositionInfo.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__PositionInfo_def.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::PositionInfo.HasLineInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e8090;
+  constexpr static std::size_t addrs = 0x43493a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e8098;
+  constexpr static std::size_t addrs = 0x43493ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e80a0;
+  constexpr static std::size_t addrs = 0x43493b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::PositionInfo* (*)(::System::Object*)>(&::System::Xml::PositionInfo::GetPositionInfo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42e80a8;
+  constexpr static std::size_t addrs = 0x43493bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::PositionInfo::*)()>(&::System::Xml::PositionInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42e8180;
+  constexpr static std::size_t addrs = 0x4349494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::PositionInfo*>::get(), ".ctor",
@@ -73,14 +73,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
-constexpr System::Xml::PositionInfo::operator ::System::Xml::IXmlLineInfo*() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlLineInfo"
-constexpr ::System::Xml::IXmlLineInfo* System::Xml::PositionInfo::i___System__Xml__IXmlLineInfo() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
 inline bool System::Xml::PositionInfo::HasLineInfo() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::PositionInfo*>::get(), 7)));
@@ -102,13 +94,21 @@ inline ::System::Xml::PositionInfo* System::Xml::PositionInfo::GetPositionInfo(:
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::PositionInfo*, false>(nullptr, ___internal_method, o);
 }
-inline ::System::Xml::PositionInfo* System::Xml::PositionInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::PositionInfo*>());
-}
 inline void System::Xml::PositionInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::PositionInfo*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::PositionInfo* System::Xml::PositionInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::PositionInfo*>());
+}
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr System::Xml::PositionInfo::operator ::System::Xml::IXmlLineInfo*() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* System::Xml::PositionInfo::i___System__Xml__IXmlLineInfo() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::PositionInfo::PositionInfo() {}

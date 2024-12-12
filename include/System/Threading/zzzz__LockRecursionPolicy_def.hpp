@@ -12,11 +12,10 @@ struct LockRecursionPolicy;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::LockRecursionPolicy);
-// Type: System.Threading::LockRecursionPolicy
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::System.Threading::LockRecursionPolicy
+// CS Name: System.Threading.LockRecursionPolicy
 struct CORDL_TYPE LockRecursionPolicy {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr LockRecursionPolicy(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field NoRecursion value: static_cast<int32_t>(0x0)
+  /// @brief Field NoRecursion value: I32(0)
   static ::System::Threading::LockRecursionPolicy const NoRecursion;
 
-  /// @brief Field SupportsRecursion value: static_cast<int32_t>(0x1)
+  /// @brief Field SupportsRecursion value: I32(1)
   static ::System::Threading::LockRecursionPolicy const SupportsRecursion;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14193 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::LockRecursionPolicy, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::LockRecursionPolicy, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::LockRecursionPolicy, 0x4>, "Size mismatch!");
 
 } // namespace System::Threading
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::LockRecursionPolicy, "System.Threading", "LockRecursionPolicy");

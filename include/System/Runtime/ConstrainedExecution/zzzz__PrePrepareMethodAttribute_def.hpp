@@ -11,17 +11,16 @@ class PrePrepareMethodAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute);
-// Type: System.Runtime.ConstrainedExecution::PrePrepareMethodAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// CS Name: ::System.Runtime.ConstrainedExecution::PrePrepareMethodAttribute*
+// CS Name: System.Runtime.ConstrainedExecution.PrePrepareMethodAttribute
 class CORDL_TYPE PrePrepareMethodAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::ConstrainedExecution::PrePrepareMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb6804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

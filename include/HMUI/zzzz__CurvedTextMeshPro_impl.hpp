@@ -1,27 +1,27 @@
 #pragma once
 // IWYU pragma private; include "HMUI/CurvedTextMeshPro.hpp"
+#include "GlobalNamespace/zzzz__IComponentRefresher_impl.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
-#include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-// Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::HMUI::__CurvedTextMeshPro__CurvedMeshInfo::__CurvedTextMeshPro__CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs3) noexcept {
+// Ctor Parameters [CppParam { name: "uvs3", ty: "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::HMUI::CurvedTextMeshPro_CurvedMeshInfo::CurvedTextMeshPro_CurvedMeshInfo(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs3) noexcept {
   this->uvs3 = uvs3;
 }
 // Ctor Parameters []
-constexpr ::HMUI::__CurvedTextMeshPro__CurvedMeshInfo::__CurvedTextMeshPro__CurvedMeshInfo() {}
+constexpr ::HMUI::CurvedTextMeshPro_CurvedMeshInfo::CurvedTextMeshPro_CurvedMeshInfo() {}
 //  Writing Method size for method: ::HMUI::CurvedTextMeshPro.get_useScriptableObjectColors
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259ec0;
+  constexpr static std::size_t addrs = 0x228c5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(),
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(bool)>(&::HMUI::CurvedTextMeshPro::set_useScriptableObjectColors)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2259ec8;
+  constexpr static std::size_t addrs = 0x228c5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::get_color)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2259ed4;
+  constexpr static std::size_t addrs = 0x228c5c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Color)>(&::HMUI::CurvedTextMeshPro::set_color)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2259f68;
+  constexpr static std::size_t addrs = 0x228c658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::OnEnable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2259f70;
+  constexpr static std::size_t addrs = 0x228c660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::GenerateTextMesh)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2259f98;
+  constexpr static std::size_t addrs = 0x228c688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::__Refresh)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x225a324;
+  constexpr static std::size_t addrs = 0x228ca14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(), "__Refresh",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)(::UnityEngine::Mesh*, int32_t, ::UnityEngine::Vector2, ::UnityEngine::Color32)>(
     &::HMUI::CurvedTextMeshPro::UpdateMesh)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x225a274;
+  constexpr static std::size_t addrs = 0x228c964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> (::HMUI::CurvedTextMeshPro::*)(int32_t, int32_t, ::UnityEngine::Vector2)>(&::HMUI::CurvedTextMeshPro::FillUV3s)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x225a334;
+  constexpr static std::size_t addrs = 0x228ca24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> (::HMUI::CurvedTextMeshPro::*)(int32_t, ::UnityEngine::Color32)>(&::HMUI::CurvedTextMeshPro::FillColors)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x225a40c;
+  constexpr static std::size_t addrs = 0x228cafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedTextMeshPro::*)()>(&::HMUI::CurvedTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x225a480;
+  constexpr static std::size_t addrs = 0x228cb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(), ".ctor",
@@ -174,14 +174,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
-constexpr HMUI::CurvedTextMeshPro::operator ::GlobalNamespace::IComponentRefresher*() noexcept {
-  return static_cast<::GlobalNamespace::IComponentRefresher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IComponentRefresher"
-constexpr ::GlobalNamespace::IComponentRefresher* HMUI::CurvedTextMeshPro::i___GlobalNamespace__IComponentRefresher() noexcept {
-  return static_cast<::GlobalNamespace::IComponentRefresher*>(static_cast<void*>(this));
-}
 constexpr bool& HMUI::CurvedTextMeshPro::__cordl_internal_get__useScriptableObjectColors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useScriptableObjectColors;
@@ -206,15 +198,15 @@ constexpr void HMUI::CurvedTextMeshPro::__cordl_internal_set__colorSo(::UnityW<:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorSo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*>& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedMeshInfos() {
+constexpr ::ArrayW<::HMUI::CurvedTextMeshPro_CurvedMeshInfo, ::Array<::HMUI::CurvedTextMeshPro_CurvedMeshInfo>*>& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedMeshInfos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedMeshInfos;
 }
-constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> const& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedMeshInfos() const {
+constexpr ::ArrayW<::HMUI::CurvedTextMeshPro_CurvedMeshInfo, ::Array<::HMUI::CurvedTextMeshPro_CurvedMeshInfo>*> const& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedMeshInfos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedMeshInfos;
 }
-constexpr void HMUI::CurvedTextMeshPro::__cordl_internal_set__curvedMeshInfos(::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> value) {
+constexpr void HMUI::CurvedTextMeshPro::__cordl_internal_set__curvedMeshInfos(::ArrayW<::HMUI::CurvedTextMeshPro_CurvedMeshInfo, ::Array<::HMUI::CurvedTextMeshPro_CurvedMeshInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____curvedMeshInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -222,7 +214,7 @@ constexpr ::HMUI::CurvedCanvasSettingsHelper*& HMUI::CurvedTextMeshPro::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedCanvasSettingsHelper() const {
+constexpr ::HMUI::CurvedCanvasSettingsHelper* const& HMUI::CurvedTextMeshPro::__cordl_internal_get__curvedCanvasSettingsHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____curvedCanvasSettingsHelper;
 }
@@ -288,13 +280,21 @@ inline ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> HMUI::
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*>, false>(this, ___internal_method, meshIndex, color32);
 }
-inline ::HMUI::CurvedTextMeshPro* HMUI::CurvedTextMeshPro::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CurvedTextMeshPro*>());
-}
 inline void HMUI::CurvedTextMeshPro::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedTextMeshPro*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::CurvedTextMeshPro* HMUI::CurvedTextMeshPro::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CurvedTextMeshPro*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IComponentRefresher"
+constexpr HMUI::CurvedTextMeshPro::operator ::GlobalNamespace::IComponentRefresher*() noexcept {
+  return static_cast<::GlobalNamespace::IComponentRefresher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IComponentRefresher"
+constexpr ::GlobalNamespace::IComponentRefresher* HMUI::CurvedTextMeshPro::i___GlobalNamespace__IComponentRefresher() noexcept {
+  return static_cast<::GlobalNamespace::IComponentRefresher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HMUI::CurvedTextMeshPro::CurvedTextMeshPro() {}

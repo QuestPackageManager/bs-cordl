@@ -42,9 +42,6 @@ template <typename T> inline void UnityEngine::UIElements::TransitionEventBase_1
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::UnityEngine::UIElements::TransitionEventBase_1<T>* UnityEngine::UIElements::TransitionEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TransitionEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::TransitionEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionEventBase_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -66,6 +63,9 @@ template <typename T> inline T UnityEngine::UIElements::TransitionEventBase_1<T>
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StylePropertyName>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, stylePropertyName, elapsedTime);
+}
+template <typename T> inline ::UnityEngine::UIElements::TransitionEventBase_1<T>* UnityEngine::UIElements::TransitionEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TransitionEventBase_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::TransitionEventBase_1<T>::TransitionEventBase_1() {}

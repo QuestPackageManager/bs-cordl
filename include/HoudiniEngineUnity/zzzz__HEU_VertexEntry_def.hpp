@@ -12,11 +12,10 @@ class HEU_VertexEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VertexEntry);
-// Type: HoudiniEngineUnity::HEU_VertexEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_VertexEntry*
+// CS Name: HoudiniEngineUnity.HEU_VertexEntry
 class CORDL_TYPE HEU_VertexEntry : public ::System::Object {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a21f7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a78bec, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
 protected:
@@ -66,6 +65,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_VertexEntry(HEU_VertexEntry const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11818 };
+
   /// @brief Field _meshKey, offset: 0x10, size: 0x4, def value: None
   int32_t ____meshKey;
 
@@ -75,19 +77,16 @@ public:
   /// @brief Field _normalIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ____normalIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11785 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VertexEntry, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VertexEntry, ____meshKey) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VertexEntry, ____vertexIndex) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VertexEntry, ____normalIndex) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VertexEntry, 0x20>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VertexEntry);

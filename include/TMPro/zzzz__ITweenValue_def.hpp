@@ -11,11 +11,10 @@ class ITweenValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::ITweenValue);
-// Type: TMPro::ITweenValue
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::ITweenValue*
+// CS Name: TMPro.ITweenValue
 class CORDL_TYPE ITweenValue {
 public:
   // Declarations
@@ -23,28 +22,24 @@ public:
 
   __declspec(property(get = get_ignoreTimeScale)) bool ignoreTimeScale;
 
-  /// @brief Method TweenValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method TweenValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ValidTarget, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_ignoreTimeScale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_ignoreTimeScale();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITweenValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITweenValue(ITweenValue&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITweenValue", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ITweenValue(ITweenValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14420 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

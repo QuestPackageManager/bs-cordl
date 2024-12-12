@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request* (*)()>(&::Oculus::Platform::Entitlements::IsUserEntitledToApplication)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3f27d70;
+  constexpr static std::size_t addrs = 0x3f87e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Entitlements*>::get(),

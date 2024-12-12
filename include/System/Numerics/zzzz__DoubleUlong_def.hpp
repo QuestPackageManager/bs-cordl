@@ -13,11 +13,10 @@ struct DoubleUlong;
 }
 // Write type traits
 MARK_VAL_T(::System::Numerics::DoubleUlong);
-// Type: System.Numerics::DoubleUlong
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Numerics {
 // Is value type: true
-// CS Name: ::System.Numerics::DoubleUlong
+// CS Name: System.Numerics.DoubleUlong
 struct CORDL_TYPE DoubleUlong {
 public:
   // Declarations
@@ -81,7 +80,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17935 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

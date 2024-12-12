@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SerializationCallback)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -27,26 +26,25 @@ class SerializationCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::SerializationCallback);
-// Type: Newtonsoft.Json.Serialization::SerializationCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::SerializationCallback*
+// CS Name: Newtonsoft.Json.Serialization.SerializationCallback
 class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3e84364, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3ee4410, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3e843f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3ee44a4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3e84350, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3ee43fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3e7a844, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3eda8f0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -64,7 +62,7 @@ public:
   SerializationCallback(SerializationCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

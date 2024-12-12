@@ -11,21 +11,20 @@ class Hint;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::CompilerServices::Hint);
-// Type: Unity.Burst.CompilerServices::Hint
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Burst::CompilerServices {
 // Is value type: false
-// CS Name: ::Unity.Burst.CompilerServices::Hint*
+// CS Name: Unity.Burst.CompilerServices.Hint
 class CORDL_TYPE Hint : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Assume, addr 0x44d8ca4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Assume, addr 0x4539fb8, size 0x4, virtual false, abstract: false, final false
   static inline void Assume(bool condition);
 
-  /// @brief Method Likely, addr 0x44d8c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Likely, addr 0x4539fa8, size 0x8, virtual false, abstract: false, final false
   static inline bool Likely(bool condition);
 
-  /// @brief Method Unlikely, addr 0x44d8c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unlikely, addr 0x4539fb0, size 0x8, virtual false, abstract: false, final false
   static inline bool Unlikely(bool condition);
 
 protected:
@@ -43,7 +42,7 @@ public:
   Hint(Hint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14635 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14669 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

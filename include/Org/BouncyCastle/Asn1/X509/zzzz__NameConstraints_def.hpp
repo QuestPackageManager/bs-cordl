@@ -29,11 +29,10 @@ class NameConstraints;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::NameConstraints);
-// Type: Org.BouncyCastle.Asn1.X509::NameConstraints
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::NameConstraints*
+// CS Name: Org.BouncyCastle.Asn1.X509.NameConstraints
 class CORDL_TYPE NameConstraints : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -47,10 +46,10 @@ public:
   /// @brief Field permitted, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_permitted, put = __cordl_internal_set_permitted)) ::Org::BouncyCastle::Asn1::Asn1Sequence* permitted;
 
-  /// @brief Method CreateSequence, addr 0x25d60e4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method CreateSequence, addr 0x26093d0, size 0x2ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerSequence* CreateSequence(::System::Collections::IList* subtrees);
 
-  /// @brief Method GetInstance, addr 0x25d5be0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2608ecc, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
@@ -59,34 +58,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::NameConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x25d63a0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x260968c, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_excluded() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_excluded();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_excluded() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_permitted() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_permitted();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_permitted() const;
 
   constexpr void __cordl_internal_set_excluded(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   constexpr void __cordl_internal_set_permitted(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x25d6098, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2609384, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ArrayList* permitted, ::System::Collections::ArrayList* excluded);
 
-  /// @brief Method .ctor, addr 0x25d609c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2609388, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* permitted, ::System::Collections::IList* excluded);
 
-  /// @brief Method .ctor, addr 0x25d5d5c, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2609048, size 0x33c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ExcludedSubtrees, addr 0x25d6398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExcludedSubtrees, addr 0x2609684, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_ExcludedSubtrees();
 
-  /// @brief Method get_PermittedSubtrees, addr 0x25d6390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PermittedSubtrees, addr 0x260967c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PermittedSubtrees();
 
 protected:
@@ -103,23 +102,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NameConstraints(NameConstraints const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 370 };
+
   /// @brief Field permitted, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___permitted;
 
   /// @brief Field excluded, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1Sequence* ___excluded;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 370 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::NameConstraints, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NameConstraints, ___permitted) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::NameConstraints, ___excluded) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::NameConstraints, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::NameConstraints);

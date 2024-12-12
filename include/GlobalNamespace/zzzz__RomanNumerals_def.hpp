@@ -13,15 +13,14 @@ class RomanNumerals;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RomanNumerals);
-// Type: ::RomanNumerals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RomanNumerals*
+// CS Name: RomanNumerals
 class CORDL_TYPE RomanNumerals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToRomanNumeralString, addr 0x3acd5bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ToRomanNumeralString, addr 0x3b2cc00, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW ToRomanNumeralString(int32_t input);
 
 protected:
@@ -39,7 +38,7 @@ public:
   RomanNumerals(RomanNumerals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5159 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

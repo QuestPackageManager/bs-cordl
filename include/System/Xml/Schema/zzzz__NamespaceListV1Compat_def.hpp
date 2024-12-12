@@ -12,20 +12,19 @@ class NamespaceListV1Compat;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::NamespaceListV1Compat);
-// Type: System.Xml.Schema::NamespaceListV1Compat
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.NamespaceList
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::NamespaceListV1Compat*
+// CS Name: System.Xml.Schema.NamespaceListV1Compat
 class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
 public:
   // Declarations
-  /// @brief Method Allows, addr 0x420aa80, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x426bd94, size 0x24, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
   static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method .ctor, addr 0x420aa7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426bd90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
 protected:
@@ -43,7 +42,7 @@ public:
   NamespaceListV1Compat(NamespaceListV1Compat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

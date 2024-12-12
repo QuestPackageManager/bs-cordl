@@ -11,17 +11,16 @@ class AndroidProximity;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidProximity);
-// Type: UnityEngine.InputSystem.Android::AndroidProximity
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.ProximitySensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidProximity*
+// CS Name: UnityEngine.InputSystem.Android.AndroidProximity
 class CORDL_TYPE AndroidProximity : public ::UnityEngine::InputSystem::ProximitySensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidProximity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4604400, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidProximity(AndroidProximity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6842 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

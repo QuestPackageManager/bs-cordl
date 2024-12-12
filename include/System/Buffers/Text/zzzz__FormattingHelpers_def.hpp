@@ -12,21 +12,20 @@ class FormattingHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Buffers::Text::FormattingHelpers);
-// Type: System.Buffers.Text::FormattingHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Buffers::Text {
 // Is value type: false
-// CS Name: ::System.Buffers.Text::FormattingHelpers*
+// CS Name: System.Buffers.Text.FormattingHelpers
 class CORDL_TYPE FormattingHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountDigits, addr 0x3d687ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3dc8920, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint32_t value);
 
-  /// @brief Method CountDigits, addr 0x3d686f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CountDigits, addr 0x3dc8864, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t CountDigits(uint64_t value);
 
-  /// @brief Method CountHexDigits, addr 0x3d68818, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method CountHexDigits, addr 0x3dc898c, size 0x48, virtual false, abstract: false, final false
   static inline int32_t CountHexDigits(uint64_t value);
 
 protected:

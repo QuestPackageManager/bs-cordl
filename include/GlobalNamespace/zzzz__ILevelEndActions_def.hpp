@@ -13,36 +13,31 @@ class ILevelEndActions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILevelEndActions);
-// Type: ::ILevelEndActions
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ILevelEndActions*
+// CS Name: ILevelEndActions
 class CORDL_TYPE ILevelEndActions {
 public:
   // Declarations
-  /// @brief Method add_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_levelFailedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_levelFinishedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_levelFailedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_levelFinishedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_levelFinishedEvent(::System::Action* value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ILevelEndActions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ILevelEndActions(ILevelEndActions&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelEndActions", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILevelEndActions(ILevelEndActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4376 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

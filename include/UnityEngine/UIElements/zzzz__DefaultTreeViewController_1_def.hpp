@@ -30,13 +30,12 @@ template <typename T> class DefaultTreeViewController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::DefaultTreeViewController_1);
-// Type: UnityEngine.UIElements::DefaultTreeViewController`1
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TreeViewController
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DefaultTreeViewController`1<T>*
+// CS Name: UnityEngine.UIElements.DefaultTreeViewController`1<T>
 class CORDL_TYPE DefaultTreeViewController_1 : public ::UnityEngine::UIElements::TreeViewController {
 public:
   // Declarations
@@ -73,9 +72,9 @@ public:
   /// @brief Method SetRootItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetRootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* items);
 
-  constexpr ::UnityEngine::UIElements::TreeDataController_1<T>*& __cordl_internal_get_m_TreeDataController();
+  constexpr ::UnityEngine::UIElements::TreeDataController_1<T>* const& __cordl_internal_get_m_TreeDataController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TreeDataController_1<T>*> const& __cordl_internal_get_m_TreeDataController() const;
+  constexpr ::UnityEngine::UIElements::TreeDataController_1<T>*& __cordl_internal_get_m_TreeDataController();
 
   constexpr void __cordl_internal_set_m_TreeDataController(::UnityEngine::UIElements::TreeDataController_1<T>* value);
 
@@ -105,11 +104,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultTreeViewController_1(DefaultTreeViewController_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5468 };
+
   /// @brief Field m_TreeDataController, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::UIElements::TreeDataController_1<T>* ___m_TreeDataController;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

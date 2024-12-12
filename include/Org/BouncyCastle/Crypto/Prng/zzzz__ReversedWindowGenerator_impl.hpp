@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/ReversedWindowGenerator.hpp"
+#include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__ReversedWindowGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2394c64;
+  constexpr static std::size_t addrs = 0x23c7f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2394d70;
+  constexpr static std::size_t addrs = 0x23c805c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::AddSeedMaterial)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2394ea4;
+  constexpr static std::size_t addrs = 0x23c8190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2394fdc;
+  constexpr static std::size_t addrs = 0x23c82c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2395218;
+  constexpr static std::size_t addrs = 0x23c8504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::doNextBytes)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x2394ff8;
+  constexpr static std::size_t addrs = 0x23c82e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,20 +100,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
-constexpr Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
-constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__cordl_internal_get_generator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const&
-Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__cordl_internal_get_generator() const {
+constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* const& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__cordl_internal_get_generator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generator;
 }
@@ -143,10 +135,6 @@ constexpr int32_t const& Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerato
 constexpr void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::__cordl_internal_set_windowCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowCount = value;
-}
-inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator,
-                                                                                                                                      int32_t windowSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator*>(generator, windowSize));
 }
 inline void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,6 +173,18 @@ inline void Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::doNextByte
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bytes, start, len);
+}
+inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator,
+                                                                                                                                      int32_t windowSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator*>(generator, windowSize));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+constexpr Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::ReversedWindowGenerator() {}

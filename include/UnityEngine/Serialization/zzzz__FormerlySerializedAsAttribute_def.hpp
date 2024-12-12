@@ -12,11 +12,10 @@ class FormerlySerializedAsAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Serialization::FormerlySerializedAsAttribute);
-// Type: UnityEngine.Serialization::FormerlySerializedAsAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Serialization {
 // Is value type: false
-// CS Name: ::UnityEngine.Serialization::FormerlySerializedAsAttribute*
+// CS Name: UnityEngine.Serialization.FormerlySerializedAsAttribute
 class CORDL_TYPE FormerlySerializedAsAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_m_oldName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x485c564, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bd8dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oldName);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FormerlySerializedAsAttribute(FormerlySerializedAsAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10995 };
+
   /// @brief Field m_oldName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_oldName;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10962 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Serialization::FormerlySerializedAsAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Serialization::FormerlySerializedAsAttribute, ___m_oldName) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Serialization::FormerlySerializedAsAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Serialization
 NEED_NO_BOX(::UnityEngine::Serialization::FormerlySerializedAsAttribute);

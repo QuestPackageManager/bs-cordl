@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::LocalCertSelectionCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Net::Security::LocalCertSelectionCallback::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43a3990;
+  constexpr static std::size_t addrs = 0x4404ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::LocalCertSelectionCallback*>::get(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                             ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::Security::LocalCertSelectionCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43a3a30;
+  constexpr static std::size_t addrs = 0x4404d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,9 +40,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Net::Security::LocalCertSelectionCallback* System::Net::Security::LocalCertSelectionCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Security::LocalCertSelectionCallback*>(object, method));
-}
 inline void System::Net::Security::LocalCertSelectionCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::LocalCertSelectionCallback*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -58,6 +55,9 @@ System::Net::Security::LocalCertSelectionCallback::Invoke(::StringW targetHost, 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::LocalCertSelectionCallback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509Certificate*, false>(this, ___internal_method, targetHost, localCertificates, remoteCertificate,
                                                                                                                           acceptableIssuers);
+}
+inline ::System::Net::Security::LocalCertSelectionCallback* System::Net::Security::LocalCertSelectionCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Security::LocalCertSelectionCallback*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::LocalCertSelectionCallback::LocalCertSelectionCallback() {}

@@ -14,11 +14,10 @@ class SortingLayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SortingLayer);
-// Type: ::SortingLayer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SortingLayer*
+// CS Name: SortingLayer
 class CORDL_TYPE SortingLayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -29,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::SortingLayer* New_ctor();
 
-  /// @brief Method Reset, addr 0x39704f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39c59d8, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
@@ -38,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x3970540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c5a28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x39704e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x39c59d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortingLayer(SortingLayer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16447 };
+
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SortingLayer, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SortingLayer, ____renderer) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SortingLayer, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SortingLayer);

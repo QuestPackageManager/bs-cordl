@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)()>(&::GlobalNamespace::BombExplosionEffect::Awake)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b1b030;
+  constexpr static std::size_t addrs = 0x3b7c230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExplosionEffect*>::get(), "Awake",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BombExplosionEffect::SpawnExplosion)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b1b05c;
+  constexpr static std::size_t addrs = 0x3b7c25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BombExplosionEffect::SpawnExplosionWithOffset)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b1b118;
+  constexpr static std::size_t addrs = 0x3b7c318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BombExplosionEffect::*)()>(&::GlobalNamespace::BombExplosionEffect::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b1b1a4;
+  constexpr static std::size_t addrs = 0x3b7c3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExplosionEffect*>::get(), ".ctor",
@@ -109,27 +109,27 @@ constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__explo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionParticlesCount = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__emitParams() {
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__emitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__emitParams() const {
+constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__emitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emitParams;
 }
-constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__emitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
+constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__emitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____emitParams = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() {
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() const {
+constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::BombExplosionEffect::__cordl_internal_get__explosionPSEmitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____explosionPSEmitParams;
 }
-constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
+constexpr void GlobalNamespace::BombExplosionEffect::__cordl_internal_set__explosionPSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____explosionPSEmitParams = value;
 }
@@ -150,13 +150,13 @@ inline void GlobalNamespace::BombExplosionEffect::SpawnExplosionWithOffset(::Uni
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
 }
-inline ::GlobalNamespace::BombExplosionEffect* GlobalNamespace::BombExplosionEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BombExplosionEffect*>());
-}
 inline void GlobalNamespace::BombExplosionEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BombExplosionEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BombExplosionEffect* GlobalNamespace::BombExplosionEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BombExplosionEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BombExplosionEffect::BombExplosionEffect() {}

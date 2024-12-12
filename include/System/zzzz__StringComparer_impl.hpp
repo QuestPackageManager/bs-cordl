@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/StringComparer.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_impl.hpp"
+#include "System/Collections/zzzz__IComparer_impl.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__StringComparer_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_InvariantCultureIgnoreCase)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d9f454;
+  constexpr static std::size_t addrs = 0x3dff500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_Ordinal)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d9f4ac;
+  constexpr static std::size_t addrs = 0x3dff558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_Ordinal",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_OrdinalIgnoreCase)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d9f504;
+  constexpr static std::size_t addrs = 0x3dff5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_OrdinalIgnoreCase",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)(::System::Globalization::CultureInfo*, bool)>(&::System::StringComparer::Create)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d9f55c;
+  constexpr static std::size_t addrs = 0x3dff608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Compare)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3d9f650;
+  constexpr static std::size_t addrs = 0x3dff6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d9f7dc;
+  constexpr static std::size_t addrs = 0x3dff888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*)>(&::System::StringComparer::GetHashCode)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d9f8a4;
+  constexpr static std::size_t addrs = 0x3dff950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,54 +109,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::StringComparer.Compare
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::StringW, ::StringW)>(&::System::StringComparer::Compare)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), 10));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::StringComparer.Equals
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::StringComparer::*)(::StringW, ::StringW)>(&::System::StringComparer::Equals)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::StringComparer.GetHashCode
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::StringW)>(&::System::StringComparer::GetHashCode)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), 12));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::StringComparer._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::StringComparer::*)()>(&::System::StringComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d9f968;
+  constexpr static std::size_t addrs = 0x3dffa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), ".ctor",
@@ -164,38 +122,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IComparer"
-constexpr System::StringComparer::operator ::System::Collections::IComparer*() noexcept {
-  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IComparer"
-constexpr ::System::Collections::IComparer* System::StringComparer::i___System__Collections__IComparer() noexcept {
-  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEqualityComparer"
-constexpr System::StringComparer::operator ::System::Collections::IEqualityComparer*() noexcept {
-  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEqualityComparer"
-constexpr ::System::Collections::IEqualityComparer* System::StringComparer::i___System__Collections__IEqualityComparer() noexcept {
-  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::StringW>"
-constexpr System::StringComparer::operator ::System::Collections::Generic::IComparer_1<::StringW>*() noexcept {
-  return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"
-constexpr ::System::Collections::Generic::IComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IComparer_1___StringW_() noexcept {
-  return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
-constexpr System::StringComparer::operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
-constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept {
-  return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
-}
 inline void System::StringComparer::setStaticF_s_invariantCulture(::System::CultureAwareComparer* value) {
   ::cordl_internals::setStaticField<::System::CultureAwareComparer*, "s_invariantCulture", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get>(
       std::forward<::System::CultureAwareComparer*>(value));
@@ -281,13 +207,45 @@ inline int32_t System::StringComparer::GetHashCode(::StringW obj) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
-inline ::System::StringComparer* System::StringComparer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::StringComparer*>());
-}
 inline void System::StringComparer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::StringComparer* System::StringComparer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::StringComparer*>());
+}
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr System::StringComparer::operator ::System::Collections::IComparer*() noexcept {
+  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* System::StringComparer::i___System__Collections__IComparer() noexcept {
+  return static_cast<::System::Collections::IComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEqualityComparer"
+constexpr System::StringComparer::operator ::System::Collections::IEqualityComparer*() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEqualityComparer"
+constexpr ::System::Collections::IEqualityComparer* System::StringComparer::i___System__Collections__IEqualityComparer() noexcept {
+  return static_cast<::System::Collections::IEqualityComparer*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::StringW>"
+constexpr System::StringComparer::operator ::System::Collections::Generic::IComparer_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"
+constexpr ::System::Collections::Generic::IComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IComparer_1___StringW_() noexcept {
+  return static_cast<::System::Collections::Generic::IComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+constexpr System::StringComparer::operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* System::StringComparer::i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept {
+  return static_cast<::System::Collections::Generic::IEqualityComparer_1<::StringW>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::StringComparer::StringComparer() {}

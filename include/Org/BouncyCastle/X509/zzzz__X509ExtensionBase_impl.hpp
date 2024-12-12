@@ -1,34 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/X509ExtensionBase.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509Extension_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::X509::X509ExtensionBase.GetX509Extensions
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Extensions* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
-    &::Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), 8));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Org::BouncyCastle::X509::X509ExtensionBase.GetExtensionOids
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(bool)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionOids)> {
   constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x24e6174;
+  constexpr static std::size_t addrs = 0x2519460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetNonCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24e656c;
+  constexpr static std::size_t addrs = 0x2519858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24e657c;
+  constexpr static std::size_t addrs = 0x2519868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(::StringW)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24e658c;
+  constexpr static std::size_t addrs = 0x2519878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (
     ::Org::BouncyCastle::X509::X509ExtensionBase::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x24e6600;
+  constexpr static std::size_t addrs = 0x25198ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&::Org::BouncyCastle::X509::X509ExtensionBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e6638;
+  constexpr static std::size_t addrs = 0x2519924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), ".ctor",
@@ -110,14 +95,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
-constexpr Org::BouncyCastle::X509::X509ExtensionBase::operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept {
-  return static_cast<::Org::BouncyCastle::X509::IX509Extension*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
-constexpr ::Org::BouncyCastle::X509::IX509Extension* Org::BouncyCastle::X509::X509ExtensionBase::i___Org__BouncyCastle__X509__IX509Extension() noexcept {
-  return static_cast<::Org::BouncyCastle::X509::IX509Extension*>(static_cast<void*>(this));
-}
 inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), 8)));
@@ -149,13 +126,21 @@ inline ::Org::BouncyCastle::Asn1::Asn1OctetString* Org::BouncyCastle::X509::X509
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1OctetString*, false>(this, ___internal_method, oid);
 }
-inline ::Org::BouncyCastle::X509::X509ExtensionBase* Org::BouncyCastle::X509::X509ExtensionBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::X509ExtensionBase*>());
-}
 inline void Org::BouncyCastle::X509::X509ExtensionBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::X509::X509ExtensionBase* Org::BouncyCastle::X509::X509ExtensionBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::X509ExtensionBase*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
+constexpr Org::BouncyCastle::X509::X509ExtensionBase::operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept {
+  return static_cast<::Org::BouncyCastle::X509::IX509Extension*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
+constexpr ::Org::BouncyCastle::X509::IX509Extension* Org::BouncyCastle::X509::X509ExtensionBase::i___Org__BouncyCastle__X509__IX509Extension() noexcept {
+  return static_cast<::Org::BouncyCastle::X509::IX509Extension*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509ExtensionBase::X509ExtensionBase() {}

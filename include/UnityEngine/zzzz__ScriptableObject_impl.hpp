@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ScriptableObject::*)()>(&::UnityEngine::ScriptableObject::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x484b4c4;
+  constexpr static std::size_t addrs = 0x48ac184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), ".ctor",
@@ -19,9 +19,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ScriptableObject.CreateInstance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*)>(&::UnityEngine::ScriptableObject::CreateInstance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (*)(::System::Type*)>(&::UnityEngine::ScriptableObject::CreateInstance)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x484b580;
+  constexpr static std::size_t addrs = 0x48ac240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::ScriptableObject::CreateScriptableObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x484b544;
+  constexpr static std::size_t addrs = 0x48ac204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,10 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ScriptableObject.CreateScriptableObjectInstanceFromType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScriptableObject* (*)(::System::Type*, bool)>(
     &::UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x484b5c0;
+  constexpr static std::size_t addrs = 0x48ac280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,19 +59,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::ScriptableObject* UnityEngine::ScriptableObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ScriptableObject*>());
-}
 inline void UnityEngine::ScriptableObject::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::ScriptableObject::CreateInstance(::System::Type* type) {
+inline ::UnityEngine::ScriptableObject* UnityEngine::ScriptableObject::CreateInstance(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateInstance", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>, false>(nullptr, ___internal_method, type);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ScriptableObject*, false>(nullptr, ___internal_method, type);
 }
 template <typename T> inline T UnityEngine::ScriptableObject::CreateInstance() {
   static auto* ___internal_method_base =
@@ -87,11 +84,14 @@ inline void UnityEngine::ScriptableObject::CreateScriptableObject(::UnityEngine:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScriptableObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, self);
 }
-inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset) {
+inline ::UnityEngine::ScriptableObject* UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType(::System::Type* type, bool applyDefaultsAndReset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateScriptableObjectInstanceFromType", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>, false>(nullptr, ___internal_method, type, applyDefaultsAndReset);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ScriptableObject*, false>(nullptr, ___internal_method, type, applyDefaultsAndReset);
+}
+inline ::UnityEngine::ScriptableObject* UnityEngine::ScriptableObject::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ScriptableObject*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScriptableObject::ScriptableObject() {}

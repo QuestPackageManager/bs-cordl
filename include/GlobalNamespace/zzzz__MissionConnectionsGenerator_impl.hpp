@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionNode> (::GlobalNamespace::MissionConnectionsGenerator::*)()>(
     &::GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ba369c;
+  constexpr static std::size_t addrs = 0x3c06028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(
     &::GlobalNamespace::MissionConnectionsGenerator::CreateNodeConnections)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ba36b8;
+  constexpr static std::size_t addrs = 0x3c06044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(
     &::GlobalNamespace::MissionConnectionsGenerator::RemoveOldConnections)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x3ba374c;
+  constexpr static std::size_t addrs = 0x3c060d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(),
@@ -53,15 +53,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)(
-    ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
+    ::GlobalNamespace::MissionNode*, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3ba3c04;
+  constexpr static std::size_t addrs = 0x3c06590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), "CreateConnections", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MissionNodeConnection> (::GlobalNamespace::MissionConnectionsGenerator::*)(
     ::GlobalNamespace::MissionNode*, ::GlobalNamespace::MissionNode*)>(&::GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ba3df4;
+  constexpr static std::size_t addrs = 0x3c06780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionConnectionsGenerator::*)()>(&::GlobalNamespace::MissionConnectionsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba3ee8;
+  constexpr static std::size_t addrs = 0x3c06874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), ".ctor",
@@ -134,8 +134,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::Mis
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*> const&
-GlobalNamespace::MissionConnectionsGenerator::__cordl_internal_get__missionNodes() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* const& GlobalNamespace::MissionConnectionsGenerator::__cordl_internal_get__missionNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionNodes;
 }
@@ -159,11 +158,11 @@ inline void GlobalNamespace::MissionConnectionsGenerator::RemoveOldConnections()
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MissionConnectionsGenerator::CreateConnections(::GlobalNamespace::MissionNode* missionNode,
-                                                                            ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>* visitedNodes) {
+                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), "CreateConnections", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MissionNode>>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, missionNode, visitedNodes);
 }
 inline ::UnityW<::GlobalNamespace::MissionNodeConnection> GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode,
@@ -174,13 +173,13 @@ inline ::UnityW<::GlobalNamespace::MissionNodeConnection> GlobalNamespace::Missi
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MissionNode*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MissionNodeConnection>, false>(this, ___internal_method, parentMissionNode, childMissionNode);
 }
-inline ::GlobalNamespace::MissionConnectionsGenerator* GlobalNamespace::MissionConnectionsGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionConnectionsGenerator*>());
-}
 inline void GlobalNamespace::MissionConnectionsGenerator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionConnectionsGenerator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionConnectionsGenerator* GlobalNamespace::MissionConnectionsGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionConnectionsGenerator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionConnectionsGenerator::MissionConnectionsGenerator() {}

@@ -5,22 +5,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeArgumentHandle)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace System {
 struct RuntimeArgumentHandle;
 }
 // Write type traits
 MARK_VAL_T(::System::RuntimeArgumentHandle);
-// Type: System::RuntimeArgumentHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace System {
 // Is value type: true
-// CS Name: ::System::RuntimeArgumentHandle
+// CS Name: System.RuntimeArgumentHandle
 struct CORDL_TYPE RuntimeArgumentHandle {
 public:
   // Declarations
@@ -31,21 +26,21 @@ public:
   // Ctor Parameters [CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr RuntimeArgumentHandle(::System::IntPtr args) noexcept;
 
-  /// @brief Field args, offset: 0x0, size: 0x8, def value: None
-  ::System::IntPtr args;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2617 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field args, offset: 0x0, size: 0x8, def value: None
+  ::System::IntPtr args;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::RuntimeArgumentHandle, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::System::RuntimeArgumentHandle, args) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::RuntimeArgumentHandle, 0x8>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::RuntimeArgumentHandle, "System", "RuntimeArgumentHandle");

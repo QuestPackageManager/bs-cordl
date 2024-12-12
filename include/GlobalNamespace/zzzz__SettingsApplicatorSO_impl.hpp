@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::add_roomTransformOffsetDidUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ace144;
+  constexpr static std::size_t addrs = 0x3b2d788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDidUpdateEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ace1e0;
+  constexpr static std::size_t addrs = 0x3b2d824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,15 +48,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::SettingsApplicatorSO.ApplyGameSettings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(ByRef<::BeatSaber::Settings::Settings>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::ByRef<::BeatSaber::Settings::Settings>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3ace040;
+  constexpr static std::size_t addrs = 0x3b2d684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), "ApplyGameSettings", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::Settings::Settings>>::get() })));
     return ___internal_method;
   }
 };
@@ -64,9 +64,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(
-    ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(&::GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings)> {
+    ::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(&::GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3acddd0;
+  constexpr static std::size_t addrs = 0x3b2d414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,10 +78,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::SettingsApplicatorSO.ApplyWindowSettings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(ByRef<::BeatSaber::Settings::WindowSettings>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::ByRef<::BeatSaber::Settings::WindowSettings>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ace298;
+  constexpr static std::size_t addrs = 0x3b2d8dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(
     &::GlobalNamespace::SettingsApplicatorSO::NotifyRoomTransformOffsetWasUpdated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ace27c;
+  constexpr static std::size_t addrs = 0x3b2d8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(&::GlobalNamespace::SettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3acdfcc;
+  constexpr static std::size_t addrs = 0x3b2d610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), ".ctor",
@@ -220,7 +220,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::SettingsApplic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -232,7 +232,7 @@ constexpr ::System::Action*& GlobalNamespace::SettingsApplicatorSO::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomTransformOffsetDidUpdateEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get_roomTransformOffsetDidUpdateEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get_roomTransformOffsetDidUpdateEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roomTransformOffsetDidUpdateEvent;
 }
@@ -252,18 +252,18 @@ inline void GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDid
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(ByRef<::BeatSaber::Settings::Settings> settings) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings(::ByRef<::BeatSaber::Settings::Settings> settings) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), "ApplyGameSettings", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get() })));
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::Settings::Settings>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settings);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::SceneType sceneType) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settings, sceneType);
 }
-inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(ByRef<::BeatSaber::Settings::WindowSettings> settings) {
+inline void GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings(::ByRef<::BeatSaber::Settings::WindowSettings> settings) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settings);
@@ -274,13 +274,13 @@ inline void GlobalNamespace::SettingsApplicatorSO::NotifyRoomTransformOffsetWasU
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SettingsApplicatorSO* GlobalNamespace::SettingsApplicatorSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SettingsApplicatorSO*>());
-}
 inline void GlobalNamespace::SettingsApplicatorSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SettingsApplicatorSO* GlobalNamespace::SettingsApplicatorSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SettingsApplicatorSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SettingsApplicatorSO::SettingsApplicatorSO() {}

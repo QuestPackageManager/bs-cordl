@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
-struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
+struct MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,11 +27,10 @@ class MultiplayerLocalPlayerDisconnectHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
-// Type: ::MultiplayerLocalPlayerDisconnectHelper
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLocalPlayerDisconnectHelper*
+// CS Name: MultiplayerLocalPlayerDisconnectHelper
 class CORDL_TYPE MultiplayerLocalPlayerDisconnectHelper : public ::System::Object {
 public:
   // Declarations
@@ -46,25 +45,25 @@ public:
   __declspec(property(get = __cordl_internal_get__multiplayerLevelEndActions,
                       put = __cordl_internal_set__multiplayerLevelEndActions)) ::GlobalNamespace::IMultiplayerLevelEndActionsListener* _multiplayerLevelEndActions;
 
-  /// @brief Method Disconnect, addr 0x3b5f144, size 0x20c, virtual false, abstract: false, final false
-  inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
+  /// @brief Method Disconnect, addr 0x3bc09ac, size 0x20c, virtual false, abstract: false, final false
+  inline void Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method ResolveDisconnectButtonString, addr 0x3b613b0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ResolveDisconnectButtonString, addr 0x3bc2ac0, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ResolveDisconnectButtonString();
+
+  constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
   constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener* const& __cordl_internal_get__multiplayerLevelEndActions() const;
 
   constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& __cordl_internal_get__multiplayerLevelEndActions();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsListener*> const& __cordl_internal_get__multiplayerLevelEndActions() const;
 
   constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
@@ -72,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener* value);
 
-  /// @brief Method .ctor, addr 0x3b61420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc2b30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,6 +88,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLocalPlayerDisconnectHelper(MultiplayerLocalPlayerDisconnectHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4530 };
+
+  /// @brief Field kDisconnectLabel offset 0xffffffff size 0x8
+  static constexpr ::ConstString kDisconnectLabel{ u"BUTTON_DISCONNECT" };
+
+  /// @brief Field kEndGameLabel offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEndGameLabel{ u"BUTTON_END_GAME" };
+
   /// @brief Field _gameplayRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;
 
@@ -98,25 +106,16 @@ public:
   /// @brief Field _lobbyPlayerPermissionsModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4518 };
-
-  /// @brief Field kDisconnectLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisconnectLabel{ u"BUTTON_DISCONNECT" };
-
-  /// @brief Field kEndGameLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEndGameLabel{ u"BUTTON_END_GAME" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____gameplayRpcManager) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____multiplayerLevelEndActions) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, ____lobbyPlayerPermissionsModel) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);

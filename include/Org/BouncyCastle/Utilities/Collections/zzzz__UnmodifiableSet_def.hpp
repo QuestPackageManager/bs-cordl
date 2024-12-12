@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableSet)
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -30,11 +27,10 @@ class UnmodifiableSet;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
-// Type: Org.BouncyCastle.Utilities.Collections::UnmodifiableSet
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.Collections.ISet, System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableSet*
+// CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableSet
 class CORDL_TYPE UnmodifiableSet : public ::System::Object {
 public:
   // Declarations
@@ -59,51 +55,51 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x259fec4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x25d31b0, size 0x38, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x259fefc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x25d31e8, size 0x38, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x259ff34, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x25d3220, size 0x38, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Contains, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CopyTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetEnumerator, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
 
-  /// @brief Method Remove, addr 0x259ff74, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x25d3260, size 0x38, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll, addr 0x259ffac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x25d3298, size 0x38, virtual true, abstract: false, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor, addr 0x259febc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d31a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsEmpty, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsFixedSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x259ff6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x25d3258, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_IsSynchronized, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_SyncRoot, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Collections::ISet"

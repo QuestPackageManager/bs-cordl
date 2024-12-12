@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__MultiplayerScoreDiffText_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -18,10 +17,10 @@ namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
 }
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__HorizontalPosition;
+struct MultiplayerScoreDiffText_HorizontalPosition;
 }
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__State;
+struct MultiplayerScoreDiffText_State;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -37,37 +36,36 @@ class SpriteRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__HorizontalPosition;
+struct MultiplayerScoreDiffText_HorizontalPosition;
 }
 namespace GlobalNamespace {
-struct __MultiplayerScoreDiffText__State;
+struct MultiplayerScoreDiffText_State;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreDiffText;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition);
-MARK_VAL_T(::GlobalNamespace::__MultiplayerScoreDiffText__State);
+MARK_VAL_T(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition);
+MARK_VAL_T(::GlobalNamespace::MultiplayerScoreDiffText_State);
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreDiffText);
-// Type: ::HorizontalPosition
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MultiplayerScoreDiffText::HorizontalPosition
-struct CORDL_TYPE __MultiplayerScoreDiffText__HorizontalPosition {
+// CS Name: MultiplayerScoreDiffText/HorizontalPosition
+struct CORDL_TYPE MultiplayerScoreDiffText_HorizontalPosition {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____MultiplayerScoreDiffText__HorizontalPosition_Unwrapped
-  enum struct ____MultiplayerScoreDiffText__HorizontalPosition_Unwrapped : int32_t {
+  /// @brief Nested struct __MultiplayerScoreDiffText_HorizontalPosition_Unwrapped
+  enum struct __MultiplayerScoreDiffText_HorizontalPosition_Unwrapped : int32_t {
     __E_Left = static_cast<int32_t>(0x0),
     __E_Right = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____MultiplayerScoreDiffText__HorizontalPosition_Unwrapped() const noexcept {
-    return static_cast<____MultiplayerScoreDiffText__HorizontalPosition_Unwrapped>(this->value__);
+  constexpr operator __MultiplayerScoreDiffText_HorizontalPosition_Unwrapped() const noexcept {
+    return static_cast<__MultiplayerScoreDiffText_HorizontalPosition_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -77,46 +75,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerScoreDiffText__HorizontalPosition();
+  constexpr MultiplayerScoreDiffText_HorizontalPosition();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerScoreDiffText__HorizontalPosition(int32_t value__) noexcept;
+  constexpr MultiplayerScoreDiffText_HorizontalPosition(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Left value: I32(0)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition const Left;
 
-  /// @brief Field Left value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition const Left;
-
-  /// @brief Field Right value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition const Right;
+  /// @brief Field Right value: I32(1)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4489 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::State
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MultiplayerScoreDiffText::State
-struct CORDL_TYPE __MultiplayerScoreDiffText__State {
+// CS Name: MultiplayerScoreDiffText/State
+struct CORDL_TYPE MultiplayerScoreDiffText_State {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____MultiplayerScoreDiffText__State_Unwrapped
-  enum struct ____MultiplayerScoreDiffText__State_Unwrapped : int32_t {
+  /// @brief Nested struct __MultiplayerScoreDiffText_State_Unwrapped
+  enum struct __MultiplayerScoreDiffText_State_Unwrapped : int32_t {
     __E_Hidden = static_cast<int32_t>(0x0),
     __E_Displayed = static_cast<int32_t>(0x1),
     __E_AnimatingDisplay = static_cast<int32_t>(0x2),
@@ -124,8 +121,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____MultiplayerScoreDiffText__State_Unwrapped() const noexcept {
-    return static_cast<____MultiplayerScoreDiffText__State_Unwrapped>(this->value__);
+  constexpr operator __MultiplayerScoreDiffText_State_Unwrapped() const noexcept {
+    return static_cast<__MultiplayerScoreDiffText_State_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -135,51 +132,50 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerScoreDiffText__State();
+  constexpr MultiplayerScoreDiffText_State();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __MultiplayerScoreDiffText__State(int32_t value__) noexcept;
+  constexpr MultiplayerScoreDiffText_State(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field AnimatingDisplay value: I32(2)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_State const AnimatingDisplay;
 
-  /// @brief Field AnimatingDisplay value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__State const AnimatingDisplay;
+  /// @brief Field AnimatingHide value: I32(3)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_State const AnimatingHide;
 
-  /// @brief Field AnimatingHide value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__State const AnimatingHide;
+  /// @brief Field Displayed value: I32(1)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_State const Displayed;
 
-  /// @brief Field Displayed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__State const Displayed;
-
-  /// @brief Field Hidden value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__MultiplayerScoreDiffText__State const Hidden;
+  /// @brief Field Hidden value: I32(0)
+  static ::GlobalNamespace::MultiplayerScoreDiffText_State const Hidden;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4490 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerScoreDiffText__State, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText_State, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__State, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreDiffText_State, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerScoreDiffText
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MultiplayerScoreDiffText::State, UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerScoreDiffText*
+// CS Name: MultiplayerScoreDiffText
 class CORDL_TYPE MultiplayerScoreDiffText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using HorizontalPosition = ::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition;
+  using HorizontalPosition = ::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition;
 
-  using State = ::GlobalNamespace::__MultiplayerScoreDiffText__State;
+  using State = ::GlobalNamespace::MultiplayerScoreDiffText_State;
 
   /// @brief Field _activeTextColor, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__activeTextColor, put = __cordl_internal_set__activeTextColor)) ::UnityEngine::Color _activeTextColor;
@@ -209,7 +205,7 @@ public:
   __declspec(property(get = __cordl_internal_get__onPlatformTextAlphaTween, put = __cordl_internal_set__onPlatformTextAlphaTween)) ::Tweening::FloatTween* _onPlatformTextAlphaTween;
 
   /// @brief Field _state, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::__MultiplayerScoreDiffText__State _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::MultiplayerScoreDiffText_State _state;
 
   /// @brief Field _tweeningManager, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
@@ -217,36 +213,36 @@ public:
   /// @brief Field _useAutomaticLeadPlayerSelection, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__useAutomaticLeadPlayerSelection, put = __cordl_internal_set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
 
-  /// @brief Method AnimateHide, addr 0x3b557b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnimateHide, addr 0x3bb6fe0, size 0xf0, virtual false, abstract: false, final false
   inline void AnimateHide();
 
-  /// @brief Method AnimateIsLeadPlayer, addr 0x3b558a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AnimateIsLeadPlayer, addr 0x3bb70d0, size 0x50, virtual false, abstract: false, final false
   inline void AnimateIsLeadPlayer(bool isLeader);
 
-  /// @brief Method AnimateScoreDiff, addr 0x3b55608, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method AnimateScoreDiff, addr 0x3bb6e30, size 0x1b0, virtual false, abstract: false, final false
   inline void AnimateScoreDiff(int32_t scoreDiff);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x3b558f8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x3bb7120, size 0xc0, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreDiffText* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b55424, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bb6c4c, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x3b55530, size 0xd8, virtual false, abstract: false, final false
-  inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition relativePosition);
+  /// @brief Method SetHorizontalPositionRelativeToLocalPlayer, addr 0x3bb6d58, size 0xd8, virtual false, abstract: false, final false
+  inline void SetHorizontalPositionRelativeToLocalPlayer(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition relativePosition);
 
-  /// @brief Method Start, addr 0x3b552cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bb6af4, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <AnimateHide>b__18_0, addr 0x3b55a3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <AnimateHide>b__18_0, addr 0x3bb7264, size 0x30, virtual false, abstract: false, final false
   inline void _AnimateHide_b__18_0();
 
-  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x3b55a30, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <AnimateScoreDiff>b__17_0, addr 0x3bb7258, size 0xc, virtual false, abstract: false, final false
   inline void _AnimateScoreDiff_b__17_0();
 
-  /// @brief Method <Start>b__14_0, addr 0x3b559d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x3bb71fc, size 0x5c, virtual false, abstract: false, final false
   inline void _Start_b__14_0(float_t val);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__activeTextColor() const;
@@ -257,9 +253,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__backgroundSpriteRenderer();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__currentBackgroundColor() const;
 
@@ -281,13 +277,13 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__onPlatformText();
 
+  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__onPlatformTextAlphaTween() const;
+
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__onPlatformTextAlphaTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__onPlatformTextAlphaTween() const;
+  constexpr ::GlobalNamespace::MultiplayerScoreDiffText_State const& __cordl_internal_get__state() const;
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State const& __cordl_internal_get__state() const;
-
-  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State& __cordl_internal_get__state();
+  constexpr ::GlobalNamespace::MultiplayerScoreDiffText_State& __cordl_internal_get__state();
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
@@ -315,13 +311,13 @@ public:
 
   constexpr void __cordl_internal_set__onPlatformTextAlphaTween(::Tweening::FloatTween* value);
 
-  constexpr void __cordl_internal_set__state(::GlobalNamespace::__MultiplayerScoreDiffText__State value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::MultiplayerScoreDiffText_State value);
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
   constexpr void __cordl_internal_set__useAutomaticLeadPlayerSelection(bool value);
 
-  /// @brief Method .ctor, addr 0x3b559b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb71e0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -337,6 +333,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerScoreDiffText", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerScoreDiffText(MultiplayerScoreDiffText const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4491 };
 
   /// @brief Field _activeTextColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____activeTextColor;
@@ -369,19 +368,14 @@ public:
   ::UnityEngine::Color ____currentBackgroundColor;
 
   /// @brief Field _state, offset: 0x90, size: 0x4, def value: None
-  ::GlobalNamespace::__MultiplayerScoreDiffText__State ____state;
+  ::GlobalNamespace::MultiplayerScoreDiffText_State ____state;
 
   /// @brief Field _onPlatformTextAlphaTween, offset: 0x98, size: 0x8, def value: None
   ::Tweening::FloatTween* ____onPlatformTextAlphaTween;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4478 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreDiffText, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText, ____activeTextColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText, ____normalBackgroundColor) == 0x30, "Offset mismatch!");
@@ -406,8 +400,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText, ____state) =
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerScoreDiffText, ____onPlatformTextAlphaTween) == 0x98, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerScoreDiffText, 0xa0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition, "", "MultiplayerScoreDiffText/HorizontalPosition");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerScoreDiffText__State, "", "MultiplayerScoreDiffText/State");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreDiffText_HorizontalPosition, "", "MultiplayerScoreDiffText/HorizontalPosition");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreDiffText_State, "", "MultiplayerScoreDiffText/State");
 NEED_NO_BOX(::GlobalNamespace::MultiplayerScoreDiffText);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerScoreDiffText*, "", "MultiplayerScoreDiffText");

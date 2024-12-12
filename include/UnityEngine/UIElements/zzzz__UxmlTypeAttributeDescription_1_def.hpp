@@ -21,13 +21,12 @@ template <typename TBase> class UxmlTypeAttributeDescription_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlTypeAttributeDescription_1);
-// Type: UnityEngine.UIElements::UxmlTypeAttributeDescription`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlTypeAttributeDescription`1<TBase>*
+// CS Name: UnityEngine.UIElements.UxmlTypeAttributeDescription`1<TBase>
 class CORDL_TYPE UxmlTypeAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<::System::Type*> {
 public:
   // Declarations
@@ -60,7 +59,7 @@ public:
   UxmlTypeAttributeDescription_1(UxmlTypeAttributeDescription_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

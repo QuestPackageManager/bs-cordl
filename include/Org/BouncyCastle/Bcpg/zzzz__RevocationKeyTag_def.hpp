@@ -12,11 +12,10 @@ struct RevocationKeyTag;
 }
 // Write type traits
 MARK_VAL_T(::Org::BouncyCastle::Bcpg::RevocationKeyTag);
-// Type: Org.BouncyCastle.Bcpg::RevocationKeyTag
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// CS Name: ::Org.BouncyCastle.Bcpg::RevocationKeyTag
+// CS Name: Org.BouncyCastle.Bcpg.RevocationKeyTag
 struct CORDL_TYPE RevocationKeyTag {
 public:
   // Declarations
@@ -45,13 +44,10 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr RevocationKeyTag(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field ClassDefault value: static_cast<uint8_t>(0x80u)
+  /// @brief Field ClassDefault value: U8(128)
   static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassDefault;
 
-  /// @brief Field ClassSensitive value: static_cast<uint8_t>(0x40u)
+  /// @brief Field ClassSensitive value: U8(64)
   static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassSensitive;
 
   /// @brief IL2CPP Metadata Type Index
@@ -60,12 +56,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::RevocationKeyTag, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::RevocationKeyTag, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::RevocationKeyTag, 0x1>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::RevocationKeyTag, "Org.BouncyCastle.Bcpg", "RevocationKeyTag");

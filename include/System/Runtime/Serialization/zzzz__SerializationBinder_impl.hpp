@@ -6,10 +6,10 @@
 //  Writing Method size for method: ::System::Runtime::Serialization::SerializationBinder.BindToName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationBinder::*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(
-    &::System::Runtime::Serialization::SerializationBinder::BindToName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationBinder::*)(
+    ::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Runtime::Serialization::SerializationBinder::BindToName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c9296c;
+  constexpr static std::size_t addrs = 0x3cf2ae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -19,29 +19,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Runtime::Serialization::SerializationBinder.BindToType
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationBinder::*)(::StringW, ::StringW)>(
-    &::System::Runtime::Serialization::SerializationBinder::BindToType)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(), 5));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Runtime::Serialization::SerializationBinder._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationBinder::*)()>(
     &::System::Runtime::Serialization::SerializationBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c92978;
+  constexpr static std::size_t addrs = 0x3cf2aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(),
@@ -49,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void System::Runtime::Serialization::SerializationBinder::BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName) {
+inline void System::Runtime::Serialization::SerializationBinder::BindToName(::System::Type* serializedType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> typeName) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(), 4)));
@@ -61,13 +45,13 @@ inline ::System::Type* System::Runtime::Serialization::SerializationBinder::Bind
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, assemblyName, typeName);
 }
-inline ::System::Runtime::Serialization::SerializationBinder* System::Runtime::Serialization::SerializationBinder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationBinder*>());
-}
 inline void System::Runtime::Serialization::SerializationBinder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationBinder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::SerializationBinder* System::Runtime::Serialization::SerializationBinder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::SerializationBinder*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::SerializationBinder::SerializationBinder() {}

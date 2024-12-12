@@ -20,11 +20,10 @@ class GameplayModifierInfoListItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItem);
-// Type: ::GameplayModifierInfoListItem
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::GameplayModifierInfoListItem*
+// CS Name: GameplayModifierInfoListItem
 class CORDL_TYPE GameplayModifierInfoListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
 
-  /// @brief Method SetModifier, addr 0x3bc752c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetModifier, addr 0x3c27640, size 0x190, virtual false, abstract: false, final false
   inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3bc76bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c277d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,23 +67,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GameplayModifierInfoListItem(GameplayModifierInfoListItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19192 };
+
   /// @brief Field _hoverHint, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::HoverHint> ____hoverHint;
 
   /// @brief Field _iconImage, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____iconImage;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19111 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierInfoListItem, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::GameplayModifierInfoListItem, ____hoverHint) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayModifierInfoListItem, ____iconImage) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifierInfoListItem, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifierInfoListItem);

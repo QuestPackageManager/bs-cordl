@@ -18,85 +18,83 @@ namespace UnityEngine {
 struct CullingGroupEvent;
 }
 namespace UnityEngine {
-class __CullingGroup__StateChanged;
+class CullingGroup_StateChanged;
 }
 // Forward declare root types
 namespace UnityEngine {
 class CullingGroup;
 }
 namespace UnityEngine {
-class __CullingGroup__StateChanged;
+class CullingGroup_StateChanged;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CullingGroup);
-MARK_REF_PTR_T(::UnityEngine::__CullingGroup__StateChanged);
-// Type: ::StateChanged
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::CullingGroup_StateChanged);
+// Dependencies System.MulticastDelegate
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::CullingGroup::StateChanged*
-class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
+// CS Name: UnityEngine.CullingGroup/StateChanged
+class CORDL_TYPE CullingGroup_StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4806814, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x48683b4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
-  static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::UnityEngine::CullingGroup_StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4806788, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4868328, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CullingGroup__StateChanged();
+  constexpr CullingGroup_StateChanged();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CullingGroup__StateChanged", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CullingGroup__StateChanged(__CullingGroup__StateChanged&&) = delete;
+  CullingGroup_StateChanged(CullingGroup_StateChanged&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CullingGroup__StateChanged", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CullingGroup_StateChanged", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CullingGroup__StateChanged(__CullingGroup__StateChanged const&) = delete;
+  CullingGroup_StateChanged(CullingGroup_StateChanged const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10678 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::__CullingGroup__StateChanged, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup_StateChanged, 0x80>, "Size mismatch!");
 
 } // namespace UnityEngine
-// Type: UnityEngine::CullingGroup
-// SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::CullingGroup*
+// CS Name: UnityEngine.CullingGroup
 class CORDL_TYPE CullingGroup : public ::System::Object {
 public:
   // Declarations
-  using StateChanged = ::UnityEngine::__CullingGroup__StateChanged;
+  using StateChanged = ::UnityEngine::CullingGroup_StateChanged;
 
   /// @brief Field m_OnStateChanged, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged)) ::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged)) ::UnityEngine::CullingGroup_StateChanged* m_OnStateChanged;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x480672c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendEvents, addr 0x48682cc, size 0x5c, virtual false, abstract: false, final false
   static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
-  constexpr ::UnityEngine::__CullingGroup__StateChanged*& __cordl_internal_get_m_OnStateChanged();
+  constexpr ::UnityEngine::CullingGroup_StateChanged* const& __cordl_internal_get_m_OnStateChanged() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__CullingGroup__StateChanged*> const& __cordl_internal_get_m_OnStateChanged() const;
+  constexpr ::UnityEngine::CullingGroup_StateChanged*& __cordl_internal_get_m_OnStateChanged();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
   constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
+  constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::CullingGroup_StateChanged* value);
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
@@ -114,26 +112,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CullingGroup(CullingGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10679 };
+
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
 
   /// @brief Field m_OnStateChanged, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::__CullingGroup__StateChanged* ___m_OnStateChanged;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10646 };
+  ::UnityEngine::CullingGroup_StateChanged* ___m_OnStateChanged;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::CullingGroup, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::CullingGroup, ___m_OnStateChanged) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::CullingGroup, 0x20>, "Size mismatch!");
+
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::CullingGroup);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
-NEED_NO_BOX(::UnityEngine::__CullingGroup__StateChanged);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::__CullingGroup__StateChanged*, "UnityEngine", "CullingGroup/StateChanged");
+NEED_NO_BOX(::UnityEngine::CullingGroup_StateChanged);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CullingGroup_StateChanged*, "UnityEngine", "CullingGroup/StateChanged");

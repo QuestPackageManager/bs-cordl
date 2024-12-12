@@ -19,11 +19,10 @@ class PkixCertPathValidatorException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException);
-// Type: Org.BouncyCastle.Pkix::PkixCertPathValidatorException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.GeneralSecurityException
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidatorException*
+// CS Name: Org.BouncyCastle.Pkix.PkixCertPathValidatorException
 class CORDL_TYPE PkixCertPathValidatorException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
@@ -50,13 +49,13 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
+  constexpr ::System::Exception* const& __cordl_internal_get_cause() const;
+
   constexpr ::System::Exception*& __cordl_internal_get_cause();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_cause() const;
+  constexpr ::Org::BouncyCastle::Pkix::PkixCertPath* const& __cordl_internal_get_certPath() const;
 
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __cordl_internal_get_certPath() const;
 
   constexpr int32_t const& __cordl_internal_get_index() const;
 
@@ -68,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2548e04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257c0f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2548e10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x257c0fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2534e78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2568164, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor, addr 0x253eb4c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2571e38, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, int32_t index);
 
-  /// @brief Method get_CertPath, addr 0x2548e50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x257c13c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method get_Index, addr 0x2548e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x257c144, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Message, addr 0x2548e1c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x257c108, size 0x34, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPathValidatorException(PkixCertPathValidatorException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1723 };
+
   /// @brief Field cause, offset: 0x90, size: 0x8, def value: None
   ::System::Exception* ___cause;
 
@@ -112,19 +114,16 @@ public:
   /// @brief Field index, offset: 0xa0, size: 0x4, def value: None
   int32_t ___index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1723 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPathValidatorException, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException, ___cause) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException, ___certPath) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException, ___index) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPathValidatorException, 0xa8>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException);

@@ -3,10 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -37,40 +40,28 @@ namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
-class IStandaloneMonobehavior;
-}
-namespace GlobalNamespace {
 class IStandaloneThreadRunner;
 }
 namespace GlobalNamespace {
 class MockPlayerFiniteStateMachine;
 }
 namespace GlobalNamespace {
+struct MockPlayerInstance__DisposeAsync_d__22;
+}
+namespace GlobalNamespace {
+struct MockPlayerInstance__RunAsync_d__18;
+}
+namespace GlobalNamespace {
+struct MockPlayerInstance__Stop_d__21;
+}
+namespace GlobalNamespace {
+template <typename T> class MockPlayerInstance___c__DisplayClass17_0_1;
+}
+namespace GlobalNamespace {
 class MultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___DisposeAsync_d__22;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___RunAsync_d__18;
-}
-namespace GlobalNamespace {
-struct __MockPlayerInstance___Stop_d__21;
-}
-namespace GlobalNamespace {
-template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -87,39 +78,35 @@ class Action;
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockPlayerInstance;
 }
 namespace GlobalNamespace {
-template <typename T> class __MockPlayerInstance____c__DisplayClass17_0_1;
+template <typename T> class MockPlayerInstance___c__DisplayClass17_0_1;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___DisposeAsync_d__22;
+struct MockPlayerInstance__DisposeAsync_d__22;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___RunAsync_d__18;
+struct MockPlayerInstance__RunAsync_d__18;
 }
 namespace GlobalNamespace {
-struct __MockPlayerInstance___Stop_d__21;
+struct MockPlayerInstance__Stop_d__21;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerInstance);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1);
-MARK_VAL_T(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22);
-MARK_VAL_T(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18);
-MARK_VAL_T(::GlobalNamespace::__MockPlayerInstance___Stop_d__21);
-// Type: ::<>c__DisplayClass17_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::MockPlayerInstance___c__DisplayClass17_0_1);
+MARK_VAL_T(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22);
+MARK_VAL_T(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18);
+MARK_VAL_T(::GlobalNamespace::MockPlayerInstance__Stop_d__21);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::MockPlayerInstance::<>c__DisplayClass17_0`1<T>*
-class CORDL_TYPE __MockPlayerInstance____c__DisplayClass17_0_1 : public ::System::Object {
+// CS Name: MockPlayerInstance/<>c__DisplayClass17_0`1<T>
+class CORDL_TYPE MockPlayerInstance___c__DisplayClass17_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -128,18 +115,18 @@ public:
   /// @brief Field connectionInitParams, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_connectionInitParams, put = __cordl_internal_set_connectionInitParams)) ::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams;
 
-  static inline ::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1<T>* New_ctor();
+  static inline ::GlobalNamespace::MockPlayerInstance___c__DisplayClass17_0_1<T>* New_ctor();
 
   /// @brief Method <ConnectToServer>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ConnectToServer_b__0();
 
+  constexpr ::GlobalNamespace::MockPlayerInstance* const& __cordl_internal_get___4__this() const;
+
   constexpr ::GlobalNamespace::MockPlayerInstance*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerInstance*> const& __cordl_internal_get___4__this() const;
+  constexpr ::GlobalNamespace::IConnectionInitParams_1<T>* const& __cordl_internal_get_connectionInitParams() const;
 
   constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& __cordl_internal_get_connectionInitParams();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionInitParams_1<T>*> const& __cordl_internal_get_connectionInitParams() const;
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value);
 
@@ -151,16 +138,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MockPlayerInstance____c__DisplayClass17_0_1();
+  constexpr MockPlayerInstance___c__DisplayClass17_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MockPlayerInstance____c__DisplayClass17_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance___c__DisplayClass17_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MockPlayerInstance____c__DisplayClass17_0_1(__MockPlayerInstance____c__DisplayClass17_0_1&&) = delete;
+  MockPlayerInstance___c__DisplayClass17_0_1(MockPlayerInstance___c__DisplayClass17_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MockPlayerInstance____c__DisplayClass17_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance___c__DisplayClass17_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MockPlayerInstance____c__DisplayClass17_0_1(__MockPlayerInstance____c__DisplayClass17_0_1 const&) = delete;
+  MockPlayerInstance___c__DisplayClass17_0_1(MockPlayerInstance___c__DisplayClass17_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18103 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerInstance* _____4__this;
@@ -168,28 +158,24 @@ public:
   /// @brief Field connectionInitParams, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IConnectionInitParams_1<T>* ___connectionInitParams;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18023 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<DisposeAsync>d__22
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MockPlayerInstance::<DisposeAsync>d__22
-struct CORDL_TYPE __MockPlayerInstance___DisposeAsync_d__22 {
+// CS Name: MockPlayerInstance/<DisposeAsync>d__22
+struct CORDL_TYPE MockPlayerInstance__DisposeAsync_d__22 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bcd944, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2da58, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bcdb98, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2dcac, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -197,13 +183,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MockPlayerInstance___DisposeAsync_d__22();
+  constexpr MockPlayerInstance__DisposeAsync_d__22();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __MockPlayerInstance___DisposeAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::MockPlayerInstance* __4__this,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr MockPlayerInstance__DisposeAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::MockPlayerInstance* __4__this,
+                                                   ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18104 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -217,41 +209,35 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18024 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, __u__1) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<RunAsync>d__18
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MockPlayerInstance::<RunAsync>d__18
-struct CORDL_TYPE __MockPlayerInstance___RunAsync_d__18 {
+// CS Name: MockPlayerInstance/<RunAsync>d__18
+struct CORDL_TYPE MockPlayerInstance__RunAsync_d__18 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bcdc00, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2dd14, size 0x284, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bcde84, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2df98, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -259,15 +245,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MockPlayerInstance___RunAsync_d__18();
+  constexpr MockPlayerInstance__RunAsync_d__18();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value:
   // None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "", def_value: None }, CppParam { name: "runner", ty: "::GlobalNamespace::IStandaloneThreadRunner*",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __MockPlayerInstance___RunAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken token,
-                                                  ::GlobalNamespace::MockPlayerInstance* __4__this, ::GlobalNamespace::IStandaloneThreadRunner* runner,
-                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr MockPlayerInstance__RunAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken token,
+                                               ::GlobalNamespace::MockPlayerInstance* __4__this, ::GlobalNamespace::IStandaloneThreadRunner* runner,
+                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18105 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -287,45 +279,38 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18025 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, token) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, token) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, runner) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, runner) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<Stop>d__21
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MockPlayerInstance::<Stop>d__21
-struct CORDL_TYPE __MockPlayerInstance___Stop_d__21 {
+// CS Name: MockPlayerInstance/<Stop>d__21
+struct CORDL_TYPE MockPlayerInstance__Stop_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bcdeec, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c2e000, size 0x178, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bce064, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c2e178, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -333,13 +318,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MockPlayerInstance___Stop_d__21();
+  constexpr MockPlayerInstance__Stop_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MockPlayerInstance*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __MockPlayerInstance___Stop_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::MockPlayerInstance* __4__this,
-                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr MockPlayerInstance__Stop_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::MockPlayerInstance* __4__this,
+                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18106 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -353,41 +344,34 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18026 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockPlayerInstance___Stop_d__21, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__Stop_d__21, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__Stop_d__21, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__Stop_d__21, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__Stop_d__21, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__Stop_d__21, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MockPlayerInstance
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IStandaloneMonobehavior, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockPlayerInstance*
+// CS Name: MockPlayerInstance
 class CORDL_TYPE MockPlayerInstance : public ::System::Object {
 public:
   // Declarations
-  using _DisposeAsync_d__22 = ::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22;
+  using _DisposeAsync_d__22 = ::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22;
 
-  using _RunAsync_d__18 = ::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18;
+  using _RunAsync_d__18 = ::GlobalNamespace::MockPlayerInstance__RunAsync_d__18;
 
-  using _Stop_d__21 = ::GlobalNamespace::__MockPlayerInstance___Stop_d__21;
+  using _Stop_d__21 = ::GlobalNamespace::MockPlayerInstance__Stop_d__21;
 
-  template <typename T> using __c__DisplayClass17_0_1 = ::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1<T>;
+  template <typename T> using __c__DisplayClass17_0_1 = ::GlobalNamespace::MockPlayerInstance___c__DisplayClass17_0_1<T>;
 
   /// @brief Field _cancellationTokenSource, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
@@ -432,44 +416,44 @@ public:
   /// @brief Method ConnectToServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams);
 
-  /// @brief Method Dispose, addr 0x3bcd7c0, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3c2d8d4, size 0xb4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3bcd700, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x3c2d814, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   static inline ::GlobalNamespace::MockPlayerInstance* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                 ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method RunAsync, addr 0x3bcd564, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x3c2d678, size 0xd4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Stop, addr 0x3bcd670, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3c2d784, size 0x90, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Tick, addr 0x3bcd54c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x3c2d660, size 0x18, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method WhenReady, addr 0x3bcd638, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReady, addr 0x3c2d74c, size 0x1c, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
-  /// @brief Method WhenReadyAsync, addr 0x3bcd654, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReadyAsync, addr 0x3c2d768, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method <DisposeAsync>b__22_0, addr 0x3bcd87c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c2d990, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DisposeAsync_b__22_0();
+
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
 
   constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
+  constexpr ::GlobalNamespace::ConnectedPlayerManager* const& __cordl_internal_get__connectedPlayerManager() const;
 
   constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __cordl_internal_get__connectedPlayerManager() const;
+  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine* const& __cordl_internal_get__fsm() const;
 
   constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __cordl_internal_get__fsm();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __cordl_internal_get__fsm() const;
 
   constexpr ::StringW const& __cordl_internal_get__id() const;
 
@@ -479,13 +463,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager>& __cordl_internal_get__multiplayerSessionManager();
 
+  constexpr ::BGNet::Core::ITaskUtility* const& __cordl_internal_get__taskUtility() const;
+
   constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
+  constexpr ::BGNet::Core::ITimeProvider* const& __cordl_internal_get__timeProvider() const;
 
   constexpr ::BGNet::Core::ITimeProvider*& __cordl_internal_get__timeProvider();
-
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
   constexpr ::StringW const& __cordl_internal_get__userId() const;
 
@@ -513,23 +497,23 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method <.ctor>b__15_0, addr 0x3bcd874, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_0, addr 0x3c2d988, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_0(::GlobalNamespace::ConnectionFailedReason r);
 
-  /// @brief Method <.ctor>b__15_1, addr 0x3bcd878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_1, addr 0x3c2d98c, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_1(::GlobalNamespace::DisconnectedReason r);
 
-  /// @brief Method .ctor, addr 0x3bcd1e8, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c2d2fc, size 0x360, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method get_id, addr 0x3bcd1d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x3c2d2e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userId, addr 0x3bcd1d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x3c2d2ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3bcd1e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x3c2d2f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
@@ -551,6 +535,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerInstance", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MockPlayerInstance(MockPlayerInstance const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18107 };
 
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;
@@ -579,14 +566,9 @@ public:
   /// @brief Field _fsm, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerFiniteStateMachine* ____fsm;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18027 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MockPlayerInstance, ____id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerInstance, ____userId) == 0x18, "Offset mismatch!");
@@ -605,10 +587,12 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerInstance, ____connectedPlaye
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerInstance, ____fsm) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerInstance);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerInstance*, "", "MockPlayerInstance");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1, "", "MockPlayerInstance/<>c__DisplayClass17_0`1");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d__22, "", "MockPlayerInstance/<DisposeAsync>d__22");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18, "", "MockPlayerInstance/<RunAsync>d__18");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, "", "MockPlayerInstance/<Stop>d__21");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MockPlayerInstance___c__DisplayClass17_0_1, "", "MockPlayerInstance/<>c__DisplayClass17_0`1");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, "", "MockPlayerInstance/<DisposeAsync>d__22");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, "", "MockPlayerInstance/<RunAsync>d__18");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerInstance__Stop_d__21, "", "MockPlayerInstance/<Stop>d__21");

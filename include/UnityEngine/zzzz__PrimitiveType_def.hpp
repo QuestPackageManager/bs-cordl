@@ -12,11 +12,10 @@ struct PrimitiveType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PrimitiveType);
-// Type: UnityEngine::PrimitiveType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::PrimitiveType
+// CS Name: UnityEngine.PrimitiveType
 struct CORDL_TYPE PrimitiveType {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PrimitiveType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Capsule value: static_cast<int32_t>(0x1)
+  /// @brief Field Capsule value: I32(1)
   static ::UnityEngine::PrimitiveType const Capsule;
 
-  /// @brief Field Cube value: static_cast<int32_t>(0x3)
+  /// @brief Field Cube value: I32(3)
   static ::UnityEngine::PrimitiveType const Cube;
 
-  /// @brief Field Cylinder value: static_cast<int32_t>(0x2)
+  /// @brief Field Cylinder value: I32(2)
   static ::UnityEngine::PrimitiveType const Cylinder;
 
-  /// @brief Field Plane value: static_cast<int32_t>(0x4)
+  /// @brief Field Plane value: I32(4)
   static ::UnityEngine::PrimitiveType const Plane;
 
-  /// @brief Field Quad value: static_cast<int32_t>(0x5)
+  /// @brief Field Quad value: I32(5)
   static ::UnityEngine::PrimitiveType const Quad;
 
-  /// @brief Field Sphere value: static_cast<int32_t>(0x0)
+  /// @brief Field Sphere value: I32(0)
   static ::UnityEngine::PrimitiveType const Sphere;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10655 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PrimitiveType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::PrimitiveType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PrimitiveType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PrimitiveType, "UnityEngine", "PrimitiveType");

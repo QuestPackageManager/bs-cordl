@@ -9,7 +9,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -24,10 +23,10 @@ namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class MultiplayerResultsPyramidViewAvatar_Factory;
 }
 namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
+class PlayerDataModel;
 }
 namespace HMUI {
 class ImageView;
@@ -64,57 +63,54 @@ namespace GlobalNamespace {
 class MultiplayerResultsPyramidViewAvatar;
 }
 namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
+class MultiplayerResultsPyramidViewAvatar_Factory;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory);
-// Type: ::Factory
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory);
+// Dependencies Zenject.PlaceholderFactory`2<TParam1, TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
-class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
+// CS Name: MultiplayerResultsPyramidViewAvatar/Factory
+class CORDL_TYPE MultiplayerResultsPyramidViewAvatar_Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b7b4cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdcd28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerResultsPyramidViewAvatar__Factory();
+  constexpr MultiplayerResultsPyramidViewAvatar_Factory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory&&) = delete;
+  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar_Factory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerResultsPyramidViewAvatar__Factory(__MultiplayerResultsPyramidViewAvatar__Factory const&) = delete;
+  MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerResultsPyramidViewAvatar
-// SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, GhostDuplicationEffect::GhostEffectParams, UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerResultsPyramidViewAvatar*
+// CS Name: MultiplayerResultsPyramidViewAvatar
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Factory = ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory;
+  using Factory = ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory;
 
   /// @brief Field _avatarRiseTween, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarRiseTween, put = __cordl_internal_set__avatarRiseTween)) ::Tweening::Vector3Tween* _avatarRiseTween;
@@ -157,7 +153,7 @@ public:
   __declspec(property(get = __cordl_internal_get__firstPlaceTrophy, put = __cordl_internal_set__firstPlaceTrophy)) ::UnityW<::UnityEngine::Sprite> _firstPlaceTrophy;
 
   /// @brief Field _ghostAppear, offset 0xa0, size 0x48
-  __declspec(property(get = __cordl_internal_get__ghostAppear, put = __cordl_internal_set__ghostAppear)) ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostAppear;
+  __declspec(property(get = __cordl_internal_get__ghostAppear, put = __cordl_internal_set__ghostAppear)) ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams _ghostAppear;
 
   /// @brief Field _ghostDuplicationEffect, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__ghostDuplicationEffect, put = __cordl_internal_set__ghostDuplicationEffect)) ::UnityW<::GlobalNamespace::GhostDuplicationEffect>
@@ -167,7 +163,7 @@ public:
   __declspec(property(get = __cordl_internal_get__ghostFirstTrackName, put = __cordl_internal_set__ghostFirstTrackName)) ::StringW _ghostFirstTrackName;
 
   /// @brief Field _ghostReceive, offset 0xe8, size 0x48
-  __declspec(property(get = __cordl_internal_get__ghostReceive, put = __cordl_internal_set__ghostReceive)) ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostReceive;
+  __declspec(property(get = __cordl_internal_get__ghostReceive, put = __cordl_internal_set__ghostReceive)) ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams _ghostReceive;
 
   /// @brief Field _ghostSecondTrackName, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ghostSecondTrackName, put = __cordl_internal_set__ghostSecondTrackName)) ::StringW _ghostSecondTrackName;
@@ -225,20 +221,20 @@ public:
 
   __declspec(property(get = get_badgeDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x3b7b484, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bdcce0, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b7af60, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3bdc7bc, size 0x498, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x3b7a9f0, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x3bdc24c, size 0x570, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
-  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__avatarRiseTween();
+  constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__avatarRiseTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__avatarRiseTween() const;
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__avatarRiseTween();
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__badgeCanvas() const;
 
@@ -252,13 +248,13 @@ public:
 
   constexpr ::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*>& __cordl_internal_get__badgeImages();
 
+  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__badgeOpacityTween() const;
+
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__badgeOpacityTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__badgeOpacityTween() const;
+  constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__badgePositionTween() const;
 
   constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__badgePositionTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__badgePositionTween() const;
 
   constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__badgeSubtitleCanvas() const;
 
@@ -276,9 +272,9 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get__beatmapKey();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__firstPlaceColor() const;
 
@@ -288,9 +284,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__firstPlaceTrophy();
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __cordl_internal_get__ghostAppear() const;
+  constexpr ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams const& __cordl_internal_get__ghostAppear() const;
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __cordl_internal_get__ghostAppear();
+  constexpr ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams& __cordl_internal_get__ghostAppear();
 
   constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get__ghostDuplicationEffect() const;
 
@@ -300,17 +296,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__ghostFirstTrackName();
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __cordl_internal_get__ghostReceive() const;
+  constexpr ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams const& __cordl_internal_get__ghostReceive() const;
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __cordl_internal_get__ghostReceive();
+  constexpr ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams& __cordl_internal_get__ghostReceive();
 
   constexpr ::StringW const& __cordl_internal_get__ghostSecondTrackName() const;
 
   constexpr ::StringW& __cordl_internal_get__ghostSecondTrackName();
 
-  constexpr ::Tweening::ColorTween*& __cordl_internal_get__localGlowTween();
+  constexpr ::Tweening::ColorTween* const& __cordl_internal_get__localGlowTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__localGlowTween() const;
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__localGlowTween();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__localPlayerColor() const;
 
@@ -320,13 +316,13 @@ public:
 
   constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__nameBackground();
 
+  constexpr ::Tweening::FloatTween* const& __cordl_internal_get__nameOpacityTween() const;
+
   constexpr ::Tweening::FloatTween*& __cordl_internal_get__nameOpacityTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__nameOpacityTween() const;
+  constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__namePositionTween() const;
 
   constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__namePositionTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__namePositionTween() const;
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
@@ -352,9 +348,9 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__positionText();
 
-  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__riseTween();
+  constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__riseTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__riseTween() const;
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__riseTween();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__secondPlaceTrophy() const;
 
@@ -368,9 +364,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__thirdPlaceTrophy();
 
-  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__titleMakingSpaceForBadgeTween();
+  constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__titleMakingSpaceForBadgeTween() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__titleMakingSpaceForBadgeTween() const;
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__titleMakingSpaceForBadgeTween();
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__trophyImage() const;
 
@@ -402,13 +398,13 @@ public:
 
   constexpr void __cordl_internal_set__firstPlaceTrophy(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr void __cordl_internal_set__ghostAppear(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
+  constexpr void __cordl_internal_set__ghostAppear(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams value);
 
   constexpr void __cordl_internal_set__ghostDuplicationEffect(::UnityW<::GlobalNamespace::GhostDuplicationEffect> value);
 
   constexpr void __cordl_internal_set__ghostFirstTrackName(::StringW value);
 
-  constexpr void __cordl_internal_set__ghostReceive(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
+  constexpr void __cordl_internal_set__ghostReceive(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams value);
 
   constexpr void __cordl_internal_set__ghostSecondTrackName(::StringW value);
 
@@ -446,10 +442,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x3b7b4a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bdcd00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x3b7b47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x3bdccd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:
@@ -465,6 +461,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4605 };
 
   /// @brief Field _badgeDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____badgeDirector;
@@ -512,10 +511,10 @@ public:
   ::UnityW<::GlobalNamespace::GhostDuplicationEffect> ____ghostDuplicationEffect;
 
   /// @brief Field _ghostAppear, offset: 0xa0, size: 0x48, def value: None
-  ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ____ghostAppear;
+  ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams ____ghostAppear;
 
   /// @brief Field _ghostReceive, offset: 0xe8, size: 0x48, def value: None
-  ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ____ghostReceive;
+  ::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams ____ghostReceive;
 
   /// @brief Field _trophyImage, offset: 0x130, size: 0x8, def value: None
   ::UnityW<::HMUI::ImageView> ____trophyImage;
@@ -571,14 +570,9 @@ public:
   /// @brief Field _connectedPlayer, offset: 0x1d8, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4593 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, 0x1e0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeDirector) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____ghostFirstTrackName) == 0x28, "Offset mismatch!");
@@ -649,8 +643,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, _
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____connectedPlayer) == 0x1d8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, 0x1e0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*, "", "MultiplayerResultsPyramidViewAvatar");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory*, "", "MultiplayerResultsPyramidViewAvatar/Factory");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory*, "", "MultiplayerResultsPyramidViewAvatar/Factory");

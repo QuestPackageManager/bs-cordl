@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommonAce)
 namespace System::Security::AccessControl {
@@ -25,20 +24,19 @@ class CommonAce;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::CommonAce);
-// Type: System.Security.AccessControl::CommonAce
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.QualifiedAce
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::CommonAce*
+// CS Name: System.Security.AccessControl.CommonAce
 class CORDL_TYPE CommonAce : public ::System::Security::AccessControl::QualifiedAce {
 public:
   // Declarations
   __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
-  /// @brief Method ConvertType, addr 0x3c6161c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ConvertType, addr 0x3cc1790, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::AceType ConvertType(::System::Security::AccessControl::AceQualifier qualifier, bool isCallback);
 
-  /// @brief Method GetBinaryForm, addr 0x3c61ae8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetBinaryForm, addr 0x3cc1c5c, size 0xe4, virtual true, abstract: false, final false
   inline void GetBinaryForm(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
@@ -46,14 +44,14 @@ public:
   static inline ::System::Security::AccessControl::CommonAce* New_ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                                                                        ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method .ctor, addr 0x3c61750, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc18c4, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x3c615bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc1730, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceFlags flags, ::System::Security::AccessControl::AceQualifier qualifier, int32_t accessMask,
                     ::System::Security::Principal::SecurityIdentifier* sid, bool isCallback, ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);
 
-  /// @brief Method get_BinaryLength, addr 0x3c61a98, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_BinaryLength, addr 0x3cc1c0c, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_BinaryLength();
 
 protected:

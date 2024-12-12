@@ -12,11 +12,10 @@ struct MessageEnum;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::MessageEnum);
-// Type: System.Runtime.Serialization.Formatters.Binary::MessageEnum
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::MessageEnum
+// CS Name: System.Runtime.Serialization.Formatters.Binary.MessageEnum
 struct CORDL_TYPE MessageEnum {
 public:
   // Declarations
@@ -58,52 +57,49 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MessageEnum(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ArgsInArray value: static_cast<int32_t>(0x8)
+  /// @brief Field ArgsInArray value: I32(8)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInArray;
 
-  /// @brief Field ArgsInline value: static_cast<int32_t>(0x2)
+  /// @brief Field ArgsInline value: I32(2)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInline;
 
-  /// @brief Field ArgsIsArray value: static_cast<int32_t>(0x4)
+  /// @brief Field ArgsIsArray value: I32(4)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsIsArray;
 
-  /// @brief Field ContextInArray value: static_cast<int32_t>(0x40)
+  /// @brief Field ContextInArray value: I32(64)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInArray;
 
-  /// @brief Field ContextInline value: static_cast<int32_t>(0x20)
+  /// @brief Field ContextInline value: I32(32)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInline;
 
-  /// @brief Field ExceptionInArray value: static_cast<int32_t>(0x2000)
+  /// @brief Field ExceptionInArray value: I32(8192)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ExceptionInArray;
 
-  /// @brief Field GenericMethod value: static_cast<int32_t>(0x8000)
+  /// @brief Field GenericMethod value: I32(32768)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const GenericMethod;
 
-  /// @brief Field MethodSignatureInArray value: static_cast<int32_t>(0x80)
+  /// @brief Field MethodSignatureInArray value: I32(128)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const MethodSignatureInArray;
 
-  /// @brief Field NoArgs value: static_cast<int32_t>(0x1)
+  /// @brief Field NoArgs value: I32(1)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoArgs;
 
-  /// @brief Field NoContext value: static_cast<int32_t>(0x10)
+  /// @brief Field NoContext value: I32(16)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoContext;
 
-  /// @brief Field NoReturnValue value: static_cast<int32_t>(0x200)
+  /// @brief Field NoReturnValue value: I32(512)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoReturnValue;
 
-  /// @brief Field PropertyInArray value: static_cast<int32_t>(0x100)
+  /// @brief Field PropertyInArray value: I32(256)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const PropertyInArray;
 
-  /// @brief Field ReturnValueInArray value: static_cast<int32_t>(0x1000)
+  /// @brief Field ReturnValueInArray value: I32(4096)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInArray;
 
-  /// @brief Field ReturnValueInline value: static_cast<int32_t>(0x800)
+  /// @brief Field ReturnValueInline value: I32(2048)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInline;
 
-  /// @brief Field ReturnValueVoid value: static_cast<int32_t>(0x400)
+  /// @brief Field ReturnValueVoid value: I32(1024)
   static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueVoid;
 
   /// @brief IL2CPP Metadata Type Index
@@ -112,12 +108,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MessageEnum, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MessageEnum, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, "System.Runtime.Serialization.Formatters.Binary", "MessageEnum");

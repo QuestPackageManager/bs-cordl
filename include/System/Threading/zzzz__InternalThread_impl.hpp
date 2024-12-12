@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::Thread_free_internal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3dfc1a4;
+  constexpr static std::size_t addrs = 0x3e5c250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3dfc1a8;
+  constexpr static std::size_t addrs = 0x3e5c254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3dfc23c;
+  constexpr static std::size_t addrs = 0x3e5c2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(), ".ctor",
@@ -134,7 +134,7 @@ constexpr ::System::Object*& System::Threading::InternalThread::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abort_exc;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::InternalThread::__cordl_internal_get_abort_exc() const {
+constexpr ::System::Object* const& System::Threading::InternalThread::__cordl_internal_get_abort_exc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abort_exc;
 }
@@ -206,7 +206,7 @@ constexpr ::System::Object*& System::Threading::InternalThread::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current_appcontext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::InternalThread::__cordl_internal_get_current_appcontext() const {
+constexpr ::System::Object* const& System::Threading::InternalThread::__cordl_internal_get_current_appcontext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current_appcontext;
 }
@@ -218,7 +218,7 @@ constexpr ::System::Object*& System::Threading::InternalThread::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root_domain_thread;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::InternalThread::__cordl_internal_get_root_domain_thread() const {
+constexpr ::System::Object* const& System::Threading::InternalThread::__cordl_internal_get_root_domain_thread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root_domain_thread;
 }
@@ -536,13 +536,13 @@ inline void System::Threading::InternalThread::Finalize() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::InternalThread* System::Threading::InternalThread::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::InternalThread*>());
-}
 inline void System::Threading::InternalThread::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Threading::InternalThread* System::Threading::InternalThread::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::InternalThread*>());
 }
 // Ctor Parameters []
 constexpr ::System::Threading::InternalThread::InternalThread() {}

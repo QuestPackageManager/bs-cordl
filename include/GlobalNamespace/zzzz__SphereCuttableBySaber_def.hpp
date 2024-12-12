@@ -24,11 +24,10 @@ class SphereCuttableBySaber;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SphereCuttableBySaber);
-// Type: ::SphereCuttableBySaber
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies CuttableBySaber
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SphereCuttableBySaber*
+// CS Name: SphereCuttableBySaber
 class CORDL_TYPE SphereCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
 public:
   // Declarations
@@ -42,10 +41,10 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  /// @brief Method Awake, addr 0x3b86adc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3be832c, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x3b86b08, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x3be8358, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::SphereCuttableBySaber* New_ctor();
@@ -62,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::SphereCollider> value);
 
-  /// @brief Method .ctor, addr 0x3b86b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be838c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeCut, addr 0x3b86ad4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x3be8324, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_radius, addr 0x3b86a80, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x3be82d0, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x3b86a9c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x3be82ec, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
 protected:
@@ -88,23 +87,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SphereCuttableBySaber(SphereCuttableBySaber const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4670 };
+
   /// @brief Field _collider, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SphereCollider> ____collider;
 
   /// @brief Field _canBeCut, offset: 0x30, size: 0x1, def value: None
   bool ____canBeCut;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4658 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SphereCuttableBySaber, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SphereCuttableBySaber, ____collider) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SphereCuttableBySaber, ____canBeCut) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SphereCuttableBySaber, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SphereCuttableBySaber);

@@ -8,7 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerOtherPlayersScoreDiffTextManager)
 namespace GlobalNamespace {
+class CoreGameHUDController_InitData;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct MultiplayerController_State;
 }
 namespace GlobalNamespace {
 class MultiplayerController;
@@ -17,22 +23,16 @@ namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
+class MultiplayerOtherPlayersScoreDiffTextManager___c;
+}
+namespace GlobalNamespace {
 class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
+class MultiplayerScoreProvider_RankedPlayer;
+}
+namespace GlobalNamespace {
 class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace GlobalNamespace {
-class __MultiplayerOtherPlayersScoreDiffTextManager____c;
-}
-namespace GlobalNamespace {
-class __MultiplayerScoreProvider__RankedPlayer;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -42,76 +42,74 @@ namespace GlobalNamespace {
 class MultiplayerOtherPlayersScoreDiffTextManager;
 }
 namespace GlobalNamespace {
-class __MultiplayerOtherPlayersScoreDiffTextManager____c;
+class MultiplayerOtherPlayersScoreDiffTextManager___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager::<>c*
-class CORDL_TYPE __MultiplayerOtherPlayersScoreDiffTextManager____c : public ::System::Object {
+// CS Name: MultiplayerOtherPlayersScoreDiffTextManager/<>c
+class CORDL_TYPE MultiplayerOtherPlayersScoreDiffTextManager___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>* __9__10_0;
 
-  static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* New_ctor();
+  static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* New_ctor();
 
-  /// @brief Method <Update>b__10_0, addr 0x3b77390, size 0x14, virtual false, abstract: false, final false
-  inline bool _Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
+  /// @brief Method <Update>b__10_0, addr 0x3bd8e60, size 0x14, virtual false, abstract: false, final false
+  inline bool _Update_b__10_0(::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer* p);
 
-  /// @brief Method .ctor, addr 0x3b77388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd8e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* getStaticF___9();
+  static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* getStaticF___9();
 
-  static inline ::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>* getStaticF___9__10_0();
+  static inline ::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>* getStaticF___9__10_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c* value);
 
-  static inline void setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*, bool>* value);
+  static inline void setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*, bool>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerOtherPlayersScoreDiffTextManager____c();
+  constexpr MultiplayerOtherPlayersScoreDiffTextManager___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerOtherPlayersScoreDiffTextManager____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOtherPlayersScoreDiffTextManager___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerOtherPlayersScoreDiffTextManager____c(__MultiplayerOtherPlayersScoreDiffTextManager____c&&) = delete;
+  MultiplayerOtherPlayersScoreDiffTextManager___c(MultiplayerOtherPlayersScoreDiffTextManager___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerOtherPlayersScoreDiffTextManager____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOtherPlayersScoreDiffTextManager___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerOtherPlayersScoreDiffTextManager____c(__MultiplayerOtherPlayersScoreDiffTextManager____c const&) = delete;
+  MultiplayerOtherPlayersScoreDiffTextManager___c(MultiplayerOtherPlayersScoreDiffTextManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4592 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerOtherPlayersScoreDiffTextManager
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager*
+// CS Name: MultiplayerOtherPlayersScoreDiffTextManager
 class CORDL_TYPE MultiplayerOtherPlayersScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c;
+  using __c = ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c;
 
   /// @brief Field _initData, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::CoreGameHUDController_InitData* _initData;
 
   /// @brief Field _layoutProvider, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
@@ -132,41 +130,41 @@ public:
   /// @brief Field _timeToNextUpdate, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToNextUpdate, put = __cordl_internal_set__timeToNextUpdate)) float_t _timeToNextUpdate;
 
-  /// @brief Method HandleStateChanged, addr 0x3b771bc, size 0x168, virtual false, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
+  /// @brief Method HandleStateChanged, addr 0x3bd8c8c, size 0x168, virtual false, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State newState);
 
-  /// @brief Method HideAll, addr 0x3b76940, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method HideAll, addr 0x3bd8410, size 0x3c0, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method InitLeftRightPositions, addr 0x3b76d00, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method InitLeftRightPositions, addr 0x3bd87d0, size 0x4bc, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b764a8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bd7f7c, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b763f0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bd7ec8, size 0xb4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b76578, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3bd8048, size 0x3c8, virtual false, abstract: false, final false
   inline void Update();
 
-  constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::CoreGameHUDController_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CoreGameHUDController__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::CoreGameHUDController_InitData*& __cordl_internal_get__initData();
+
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
   constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__playersManager() const;
 
@@ -180,7 +178,7 @@ public:
 
   constexpr float_t& __cordl_internal_get__timeToNextUpdate();
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::CoreGameHUDController_InitData* value);
 
   constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
@@ -194,7 +192,7 @@ public:
 
   constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b77324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd8df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -210,6 +208,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOtherPlayersScoreDiffTextManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerOtherPlayersScoreDiffTextManager(MultiplayerOtherPlayersScoreDiffTextManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4593 };
+
+  /// @brief Field kUpdateInterval offset 0xffffffff size 0x4
+  static constexpr float_t kUpdateInterval{ static_cast<float_t>(0.5f) };
 
   /// @brief Field _multiplayerController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
@@ -227,22 +231,14 @@ public:
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
   /// @brief Field _initData, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::__CoreGameHUDController__InitData* ____initData;
+  ::GlobalNamespace::CoreGameHUDController_InitData* ____initData;
 
   /// @brief Field _timeToNextUpdate, offset: 0x50, size: 0x4, def value: None
   float_t ____timeToNextUpdate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4581 };
-
-  /// @brief Field kUpdateInterval offset 0xffffffff size 0x4
-  static constexpr float_t kUpdateInterval{ 0.5 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager, ____multiplayerController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager, ____playersManager) == 0x28, "Offset mismatch!");
@@ -257,8 +253,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextMa
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager, ____timeToNextUpdate) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager*, "", "MultiplayerOtherPlayersScoreDiffTextManager");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c*, "", "MultiplayerOtherPlayersScoreDiffTextManager/<>c");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager___c*, "", "MultiplayerOtherPlayersScoreDiffTextManager/<>c");

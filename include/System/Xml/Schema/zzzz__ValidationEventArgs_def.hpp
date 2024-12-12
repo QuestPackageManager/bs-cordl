@@ -18,11 +18,10 @@ class ValidationEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventArgs);
-// Type: System.Xml.Schema::ValidationEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs, System.Xml.Schema.XmlSeverityType
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ValidationEventArgs*
+// CS Name: System.Xml.Schema.ValidationEventArgs
 class CORDL_TYPE ValidationEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -40,9 +39,9 @@ public:
 
   static inline ::System::Xml::Schema::ValidationEventArgs* New_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
 
-  constexpr ::System::Xml::Schema::XmlSchemaException*& __cordl_internal_get_ex();
+  constexpr ::System::Xml::Schema::XmlSchemaException* const& __cordl_internal_get_ex() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& __cordl_internal_get_ex() const;
+  constexpr ::System::Xml::Schema::XmlSchemaException*& __cordl_internal_get_ex();
 
   constexpr ::System::Xml::Schema::XmlSeverityType const& __cordl_internal_get_severity() const;
 
@@ -52,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set_severity(::System::Xml::Schema::XmlSeverityType value);
 
-  /// @brief Method .ctor, addr 0x4249c9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42aafb0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex);
 
-  /// @brief Method .ctor, addr 0x4249d0c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42ab020, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method get_Exception, addr 0x4249d88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Exception, addr 0x42ab09c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaException* get_Exception();
 
-  /// @brief Method get_Severity, addr 0x4249d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Severity, addr 0x42ab094, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSeverityType get_Severity();
 
 protected:
@@ -78,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValidationEventArgs(ValidationEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7625 };
+
   /// @brief Field ex, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaException* ___ex;
 
   /// @brief Field severity, offset: 0x18, size: 0x4, def value: None
   ::System::Xml::Schema::XmlSeverityType ___severity;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7600 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ValidationEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::ValidationEventArgs, ___ex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ValidationEventArgs, ___severity) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ValidationEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ValidationEventArgs);

@@ -14,15 +14,14 @@ class NotImplemented;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::NotImplemented);
-// Type: System::NotImplemented
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::NotImplemented*
+// CS Name: System.NotImplemented
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ByDesign, addr 0x3da3b6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ByDesign, addr 0x3e03c18, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Exception* get_ByDesign();
 
 protected:

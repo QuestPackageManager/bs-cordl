@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IgnoranceInternals)
 // Forward declare root types
 namespace IgnoranceCore {
@@ -11,17 +12,16 @@ class IgnoranceInternals;
 }
 // Write type traits
 MARK_REF_PTR_T(::IgnoranceCore::IgnoranceInternals);
-// Type: IgnoranceCore::IgnoranceInternals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace IgnoranceCore {
 // Is value type: false
-// CS Name: ::IgnoranceCore::IgnoranceInternals*
+// CS Name: IgnoranceCore.IgnoranceInternals
 class CORDL_TYPE IgnoranceInternals : public ::System::Object {
 public:
   // Declarations
   static inline ::IgnoranceCore::IgnoranceInternals* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a54140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aaadb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   static constexpr ::ConstString Version{ u"1.4.0r2 (LTS)" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17755 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

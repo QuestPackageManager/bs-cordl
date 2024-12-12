@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>*)>(&::System::Linq::Expressions::TryExpression::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x405a4a8;
+  constexpr static std::size_t addrs = 0x40bb7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TryExpression::*)()>(
     &::System::Linq::Expressions::TryExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a53c;
+  constexpr static std::size_t addrs = 0x40bb850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(), "get_Type",
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::TryExpression::*)()>(
     &::System::Linq::Expressions::TryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a544;
+  constexpr static std::size_t addrs = 0x40bb858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::TryExpression::*)()>(
     &::System::Linq::Expressions::TryExpression::get_Body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a54c;
+  constexpr static std::size_t addrs = 0x40bb860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(), "get_Body",
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* (
     ::System::Linq::Expressions::TryExpression::*)()>(&::System::Linq::Expressions::TryExpression::get_Handlers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a554;
+  constexpr static std::size_t addrs = 0x40bb868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::TryExpression::*)()>(
     &::System::Linq::Expressions::TryExpression::get_Finally)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a55c;
+  constexpr static std::size_t addrs = 0x40bb870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::TryExpression::*)()>(
     &::System::Linq::Expressions::TryExpression::get_Fault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405a564;
+  constexpr static std::size_t addrs = 0x40bb878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TryExpression*>::get(), "get_Fault",
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::TryExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::TryExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x405a56c;
+  constexpr static std::size_t addrs = 0x40bb880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::TryExpression::*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>*,
                                                    ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::TryExpression::Update)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x40561c8;
+  constexpr static std::size_t addrs = 0x40b74dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ constexpr ::System::Type*& System::Linq::Expressions::TryExpression::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Type_k__BackingField() const {
+constexpr ::System::Type* const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Type_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
@@ -163,7 +163,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Body_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Body_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Body_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Body_k__BackingField;
 }
@@ -176,7 +176,7 @@ System::Linq::Expressions::TryExpression::__cordl_internal_get__Handlers_k__Back
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Handlers_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* const&
 System::Linq::Expressions::TryExpression::__cordl_internal_get__Handlers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Handlers_k__BackingField;
@@ -190,7 +190,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Finally_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Finally_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Finally_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Finally_k__BackingField;
 }
@@ -202,19 +202,13 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Fault_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Fault_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::TryExpression::__cordl_internal_get__Fault_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Fault_k__BackingField;
 }
 constexpr void System::Linq::Expressions::TryExpression::__cordl_internal_set__Fault_k__BackingField(::System::Linq::Expressions::Expression* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Fault_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::TryExpression*
-System::Linq::Expressions::TryExpression::New_ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
-                                                   ::System::Linq::Expressions::Expression* fault,
-                                                   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::TryExpression*>(type, body, finally, fault, handlers));
 }
 inline void System::Linq::Expressions::TryExpression::_ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
                                                             ::System::Linq::Expressions::Expression* fault,
@@ -273,6 +267,12 @@ inline ::System::Linq::Expressions::TryExpression* System::Linq::Expressions::Tr
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::TryExpression*, false>(this, ___internal_method, body, handlers, finally, fault);
+}
+inline ::System::Linq::Expressions::TryExpression*
+System::Linq::Expressions::TryExpression::New_ctor(::System::Type* type, ::System::Linq::Expressions::Expression* body, ::System::Linq::Expressions::Expression* finally,
+                                                   ::System::Linq::Expressions::Expression* fault,
+                                                   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>* handlers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::TryExpression*>(type, body, finally, fault, handlers));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::TryExpression::TryExpression() {}

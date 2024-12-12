@@ -3,14 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerpentEngineBase)
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -20,18 +17,17 @@ class SerpentEngineBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase);
-// Type: Org.BouncyCastle.Crypto.Engines::SerpentEngineBase
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IBlockCipher, System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::SerpentEngineBase*
+// CS Name: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
 class CORDL_TYPE SerpentEngineBase : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field BlockSize, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_BlockSize, put = setStaticF_BlockSize)) int32_t BlockSize;
+  __declspec(property(get = getStaticF_BlockSize, put = setStaticF_BlockSize)) int32_t BlockSize;
 
   __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
 
@@ -56,87 +52,87 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method DecryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method EncryptBlock, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x2338188, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x236b474, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Ib0, addr 0x23383e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib0, addr 0x236b6cc, size 0x44, virtual false, abstract: false, final false
   inline void Ib0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib1, addr 0x2338464, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Ib1, addr 0x236b750, size 0x40, virtual false, abstract: false, final false
   inline void Ib1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib2, addr 0x23384ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib2, addr 0x236b7d8, size 0x44, virtual false, abstract: false, final false
   inline void Ib2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib3, addr 0x233857c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib3, addr 0x236b868, size 0x48, virtual false, abstract: false, final false
   inline void Ib3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib4, addr 0x2338608, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib4, addr 0x236b8f4, size 0x44, virtual false, abstract: false, final false
   inline void Ib4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib5, addr 0x2338694, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Ib5, addr 0x236b980, size 0x48, virtual false, abstract: false, final false
   inline void Ib5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib6, addr 0x233871c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Ib6, addr 0x236ba08, size 0x44, virtual false, abstract: false, final false
   inline void Ib6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Ib7, addr 0x23387a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Ib7, addr 0x236ba94, size 0x4c, virtual false, abstract: false, final false
   inline void Ib7(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Init, addr 0x2337fc4, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x236b2b0, size 0x17c, virtual true, abstract: false, final false
   inline void Init(bool encrypting, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method InverseLT, addr 0x2338890, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InverseLT, addr 0x236bb7c, size 0x8c, virtual false, abstract: false, final false
   inline void InverseLT();
 
-  /// @brief Method LT, addr 0x23387f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method LT, addr 0x236bae0, size 0x9c, virtual false, abstract: false, final false
   inline void LT();
 
-  /// @brief Method MakeWorkingKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MakeWorkingKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> MakeWorkingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x23381e0, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method ProcessBlock, addr 0x236b4cc, size 0x1a8, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x2338388, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x236b674, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method RotateLeft, addr 0x233838c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x236b678, size 0xc, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t x, int32_t bits);
 
-  /// @brief Method RotateRight, addr 0x2338398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x236b684, size 0x8, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t x, int32_t bits);
 
-  /// @brief Method Sb0, addr 0x23383a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb0, addr 0x236b68c, size 0x40, virtual false, abstract: false, final false
   inline void Sb0(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb1, addr 0x2338424, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb1, addr 0x236b710, size 0x40, virtual false, abstract: false, final false
   inline void Sb1(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb2, addr 0x23384a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb2, addr 0x236b790, size 0x48, virtual false, abstract: false, final false
   inline void Sb2(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb3, addr 0x2338530, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Sb3, addr 0x236b81c, size 0x4c, virtual false, abstract: false, final false
   inline void Sb3(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb4, addr 0x23385c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Sb4, addr 0x236b8b0, size 0x44, virtual false, abstract: false, final false
   inline void Sb4(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb5, addr 0x233864c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb5, addr 0x236b938, size 0x48, virtual false, abstract: false, final false
   inline void Sb5(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb6, addr 0x23386dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Sb6, addr 0x236b9c8, size 0x40, virtual false, abstract: false, final false
   inline void Sb6(int32_t a, int32_t b, int32_t c, int32_t d);
 
-  /// @brief Method Sb7, addr 0x2338760, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Sb7, addr 0x236ba4c, size 0x48, virtual false, abstract: false, final false
   inline void Sb7(int32_t a, int32_t b, int32_t c, int32_t d);
 
   constexpr int32_t const& __cordl_internal_get_X0() const;
@@ -175,15 +171,15 @@ public:
 
   constexpr void __cordl_internal_set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2337fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x236b2a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_BlockSize();
 
-  /// @brief Method get_AlgorithmName, addr 0x2338140, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x236b42c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x2338180, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x236b46c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
@@ -205,6 +201,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SerpentEngineBase(SerpentEngineBase const&) = delete;
 
+  /// @brief Field PHI offset 0xffffffff size 0x4
+  static constexpr int32_t PHI{ static_cast<int32_t>(0x9e3779b9) };
+
+  /// @brief Field ROUNDS offset 0xffffffff size 0x4
+  static constexpr int32_t ROUNDS{ static_cast<int32_t>(0x20) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 869 };
+
   /// @brief Field encrypting, offset: 0x10, size: 0x1, def value: None
   bool ___encrypting;
 
@@ -223,20 +228,9 @@ public:
   /// @brief Field X3, offset: 0x2c, size: 0x4, def value: None
   int32_t ___X3;
 
-  /// @brief Field PHI offset 0xffffffff size 0x4
-  static constexpr int32_t PHI{ static_cast<int32_t>(0x9e3779b9) };
-
-  /// @brief Field ROUNDS offset 0xffffffff size 0x4
-  static constexpr int32_t ROUNDS{ static_cast<int32_t>(0x20) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 869 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, ___encrypting) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, ___wKey) == 0x18, "Offset mismatch!");
@@ -248,6 +242,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, ___X2) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, ___X3) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase);

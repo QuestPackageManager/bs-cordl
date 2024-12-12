@@ -15,11 +15,10 @@ class X509KeyUsage;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509KeyUsage);
-// Type: Org.BouncyCastle.X509::X509KeyUsage
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::X509KeyUsage*
+// CS Name: Org.BouncyCastle.X509.X509KeyUsage
 class CORDL_TYPE X509KeyUsage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -28,7 +27,7 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method ToAsn1Object, addr 0x25c38c0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x25f6bac, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr int32_t const& __cordl_internal_get_usage() const;
@@ -37,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_usage(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25c3898, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f6b84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
 protected:
@@ -53,9 +52,6 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509KeyUsage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509KeyUsage(X509KeyUsage const&) = delete;
-
-  /// @brief Field usage, offset: 0x10, size: 0x4, def value: None
-  int32_t ___usage;
 
   /// @brief Field CrlSign offset 0xffffffff size 0x4
   static constexpr int32_t CrlSign{ static_cast<int32_t>(0x2) };
@@ -87,12 +83,15 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1867 };
 
+  /// @brief Field usage, offset: 0x10, size: 0x4, def value: None
+  int32_t ___usage;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509KeyUsage, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::X509::X509KeyUsage, ___usage) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509KeyUsage, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509KeyUsage);

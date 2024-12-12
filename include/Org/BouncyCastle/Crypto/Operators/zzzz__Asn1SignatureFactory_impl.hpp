@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/Asn1SignatureFactory.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__Asn1SignatureFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)(
     ::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2380304;
+  constexpr static std::size_t addrs = 0x23b35f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)(
     ::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x238030c;
+  constexpr static std::size_t addrs = 0x23b35f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2380458;
+  constexpr static std::size_t addrs = 0x23b3744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IStreamCalculator* (::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::CreateCalculator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2380460;
+  constexpr static std::size_t addrs = 0x23b374c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(
     &::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::get_SignatureAlgNames)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2380580;
+  constexpr static std::size_t addrs = 0x23b386c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,20 +87,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
-constexpr Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ISignatureFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"
-constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory* Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::i___Org__BouncyCastle__Crypto__ISignatureFactory() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ISignatureFactory*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_algID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const&
-Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_algID() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_algID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___algID;
 }
@@ -124,8 +115,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const&
-Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_privateKey() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_privateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
@@ -137,7 +127,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -145,21 +135,12 @@ constexpr void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*
-Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>(algorithm, privateKey));
-}
 inline void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, algorithm, privateKey);
-}
-inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*
-Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
-                                                                     ::Org::BouncyCastle::Security::SecureRandom* random) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>(algorithm, privateKey, random));
 }
 inline void Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
                                                                               ::Org::BouncyCastle::Security::SecureRandom* random) {
@@ -187,6 +168,23 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Crypto::Operators:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>::get(), "get_SignatureAlgNames",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(nullptr, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*
+Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>(algorithm, privateKey));
+}
+inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*
+Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey,
+                                                                     ::Org::BouncyCastle::Security::SecureRandom* random) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory*>(algorithm, privateKey, random));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
+constexpr Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ISignatureFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"
+constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory* Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::i___Org__BouncyCastle__Crypto__ISignatureFactory() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ISignatureFactory*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory::Asn1SignatureFactory() {}

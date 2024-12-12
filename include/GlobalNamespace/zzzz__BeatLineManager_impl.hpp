@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_isMidRotationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7f858;
+  constexpr static std::size_t addrs = 0x3ad7fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_midRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7f860;
+  constexpr static std::size_t addrs = 0x3ad7ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), "get_midRotation",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::get_rotationRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7f868;
+  constexpr static std::size_t addrs = 0x3ad7ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), "get_rotationRange",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a7f870;
+  constexpr static std::size_t addrs = 0x3ad8000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), "Start",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3a7f8fc;
+  constexpr static std::size_t addrs = 0x3ad808c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), "OnDestroy",
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::Update)> {
-  constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x3a7f988;
+  constexpr static std::size_t size = 0x4f4;
+  constexpr static std::size_t addrs = 0x3ad8118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), "Update",
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLineManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::BeatLineManager::HandleNoteWasSpawned)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3a7fea0;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x3ad860c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLineManager::*)()>(&::GlobalNamespace::BeatLineManager::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3a80040;
+  constexpr static std::size_t addrs = 0x3ad8780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), ".ctor",
@@ -131,7 +131,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::BeatLineMan
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -139,15 +139,15 @@ constexpr void GlobalNamespace::BeatLineManager::__cordl_internal_set__beatmapOb
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BeatLine__Pool*& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatLinePool() {
+constexpr ::GlobalNamespace::BeatLine_Pool*& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatLinePool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatLinePool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatLine__Pool*> const& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatLinePool() const {
+constexpr ::GlobalNamespace::BeatLine_Pool* const& GlobalNamespace::BeatLineManager::__cordl_internal_get__beatLinePool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatLinePool;
 }
-constexpr void GlobalNamespace::BeatLineManager::__cordl_internal_set__beatLinePool(::GlobalNamespace::__BeatLine__Pool* value) {
+constexpr void GlobalNamespace::BeatLineManager::__cordl_internal_set__beatLinePool(::GlobalNamespace::BeatLine_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatLinePool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -167,7 +167,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, :
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeBeatLines;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Vector4, ::UnityW<::GlobalNamespace::BeatLine>>* const&
 GlobalNamespace::BeatLineManager::__cordl_internal_get__activeBeatLines() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeBeatLines;
@@ -181,8 +181,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& Globa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeBeatLineKeyList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const&
-GlobalNamespace::BeatLineManager::__cordl_internal_get__removeBeatLineKeyList() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& GlobalNamespace::BeatLineManager::__cordl_internal_get__removeBeatLineKeyList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeBeatLineKeyList;
 }
@@ -262,13 +261,13 @@ inline void GlobalNamespace::BeatLineManager::HandleNoteWasSpawned(::GlobalNames
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
 }
-inline ::GlobalNamespace::BeatLineManager* GlobalNamespace::BeatLineManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatLineManager*>());
-}
 inline void GlobalNamespace::BeatLineManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLineManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatLineManager* GlobalNamespace::BeatLineManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatLineManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatLineManager::BeatLineManager() {}

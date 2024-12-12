@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(LastUsedBeatmapDataCache)
 namespace GlobalNamespace {
@@ -28,25 +27,24 @@ struct LastUsedBeatmapDataCache;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::LastUsedBeatmapDataCache);
-// Type: ::LastUsedBeatmapDataCache
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::LastUsedBeatmapDataCache
+// CS Name: LastUsedBeatmapDataCache
 struct CORDL_TYPE LastUsedBeatmapDataCache {
 public:
   // Declarations
-  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x2680a94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x26b504c, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredGameplayModifiersSame(::GlobalNamespace::GameplayModifiers* first, ::GlobalNamespace::GameplayModifiers* second);
 
-  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x2680ab0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x26b5068, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredPlayerSettingsSame(::GlobalNamespace::PlayerSpecificSettings* first, ::GlobalNamespace::PlayerSpecificSettings* second);
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x26809d4, size 0xc0, virtual false, abstract: false, final false
-  inline bool AreSameBeatmapDataCached(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+  /// @brief Method AreSameBeatmapDataCached, addr 0x26b4f8c, size 0xc0, virtual false, abstract: false, final false
+  inline bool AreSameBeatmapDataCached(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method .ctor, addr 0x26809b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b4f70, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
@@ -61,6 +59,12 @@ public:
   constexpr LastUsedBeatmapDataCache(::GlobalNamespace::IReadonlyBeatmapData* cachedReadonlyBeatmapData, ::GlobalNamespace::BeatmapKey _beatmapKey,
                                      ::GlobalNamespace::IEnvironmentInfo* _environmentInfo, ::GlobalNamespace::GameplayModifiers* _gameplayModifiers,
                                      ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12875 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field cachedReadonlyBeatmapData, offset: 0x0, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* cachedReadonlyBeatmapData;
@@ -77,17 +81,9 @@ public:
   /// @brief Field _playerSpecificSettings, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12841 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LastUsedBeatmapDataCache, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LastUsedBeatmapDataCache, cachedReadonlyBeatmapData) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LastUsedBeatmapDataCache, _beatmapKey) == 0x8, "Offset mismatch!");
@@ -97,6 +93,8 @@ static_assert(offsetof(::GlobalNamespace::LastUsedBeatmapDataCache, _environment
 static_assert(offsetof(::GlobalNamespace::LastUsedBeatmapDataCache, _gameplayModifiers) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LastUsedBeatmapDataCache, _playerSpecificSettings) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LastUsedBeatmapDataCache, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LastUsedBeatmapDataCache, "", "LastUsedBeatmapDataCache");

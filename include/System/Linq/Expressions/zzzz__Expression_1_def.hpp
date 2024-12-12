@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__LambdaExpression_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Expression_1)
 namespace System::Linq::Expressions {
 class ExpressionVisitor;
@@ -24,13 +23,12 @@ template <typename TDelegate> class Expression_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Expression_1);
-// Type: System.Linq.Expressions::Expression`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.LambdaExpression
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::Expression`1<TDelegate>*
+// CS Name: System.Linq.Expressions.Expression`1<TDelegate>
 class CORDL_TYPE Expression_1 : public ::System::Linq::Expressions::LambdaExpression {
 public:
   // Declarations
@@ -77,7 +75,7 @@ public:
   Expression_1(Expression_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

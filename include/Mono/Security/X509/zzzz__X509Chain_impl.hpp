@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::X509Chain::*)()>(&::Mono::Security::X509::X509Chain::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3bddd0c;
+  constexpr static std::size_t addrs = 0x3c3de20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509Chain*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509CertificateCollection* (::Mono::Security::X509::X509Chain::*)()>(
     &::Mono::Security::X509::X509Chain::get_TrustAnchors)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bddd70;
+  constexpr static std::size_t addrs = 0x3c3de84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509Chain*>::get(), "get_TrustAnchors",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509CertificateCollection*)>(
     &::Mono::Security::X509::X509Chain::LoadCertificates)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bddeb8;
+  constexpr static std::size_t addrs = 0x3c3dfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509Chain::Build)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x3bdded0;
+  constexpr static std::size_t addrs = 0x3c3dfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::X509Chain::*)()>(&::Mono::Security::X509::X509Chain::Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bde890;
+  constexpr static std::size_t addrs = 0x3c3e9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509Chain*>::get(), "Reset",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509Chain::IsValid)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bde7e4;
+  constexpr static std::size_t addrs = 0x3c3e8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*)>(&::Mono::Security::X509::X509Chain::FindCertificateParent)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3bde27c;
+  constexpr static std::size_t addrs = 0x3c3e390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Security::X509::X509Certificate* (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*)>(&::Mono::Security::X509::X509Chain::FindCertificateRoot)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3bde458;
+  constexpr static std::size_t addrs = 0x3c3e56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*)>(
     &::Mono::Security::X509::X509Chain::IsTrusted)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bde8d0;
+  constexpr static std::size_t addrs = 0x3c3e9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Mono::Security::X509::X509Chain::*)(::Mono::Security::X509::X509Certificate*, ::Mono::Security::X509::X509Certificate*)>(&::Mono::Security::X509::X509Chain::IsParent)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3bde6a0;
+  constexpr static std::size_t addrs = 0x3c3e7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::X5
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roots;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::X509::X509Chain::__cordl_internal_get_roots() const {
+constexpr ::Mono::Security::X509::X509CertificateCollection* const& Mono::Security::X509::X509Chain::__cordl_internal_get_roots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___roots;
 }
@@ -167,7 +167,7 @@ constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::X5
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certs;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::X509::X509Chain::__cordl_internal_get_certs() const {
+constexpr ::Mono::Security::X509::X509CertificateCollection* const& Mono::Security::X509::X509Chain::__cordl_internal_get_certs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certs;
 }
@@ -179,7 +179,7 @@ constexpr ::Mono::Security::X509::X509Certificate*& Mono::Security::X509::X509Ch
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& Mono::Security::X509::X509Chain::__cordl_internal_get__root() const {
+constexpr ::Mono::Security::X509::X509Certificate* const& Mono::Security::X509::X509Chain::__cordl_internal_get__root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____root;
 }
@@ -191,7 +191,7 @@ constexpr ::Mono::Security::X509::X509CertificateCollection*& Mono::Security::X5
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chain;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& Mono::Security::X509::X509Chain::__cordl_internal_get__chain() const {
+constexpr ::Mono::Security::X509::X509CertificateCollection* const& Mono::Security::X509::X509Chain::__cordl_internal_get__chain() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____chain;
 }
@@ -210,9 +210,6 @@ constexpr ::Mono::Security::X509::X509ChainStatusFlags const& Mono::Security::X5
 constexpr void Mono::Security::X509::X509Chain::__cordl_internal_set__status(::Mono::Security::X509::X509ChainStatusFlags value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____status = value;
-}
-inline ::Mono::Security::X509::X509Chain* Mono::Security::X509::X509Chain::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::X509Chain*>());
 }
 inline void Mono::Security::X509::X509Chain::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509Chain*>::get(), ".ctor",
@@ -271,6 +268,9 @@ inline bool Mono::Security::X509::X509Chain::IsParent(::Mono::Security::X509::X5
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Certificate*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Certificate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, child, parent);
+}
+inline ::Mono::Security::X509::X509Chain* Mono::Security::X509::X509Chain::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::X509Chain*>());
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::X509::X509Chain::X509Chain() {}

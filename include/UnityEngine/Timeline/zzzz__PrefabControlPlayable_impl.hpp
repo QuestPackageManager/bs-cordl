@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::PrefabControlPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Transform*)>(&::UnityEngine::Timeline::PrefabControlPlayable::Create)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x47c6268;
+  constexpr static std::size_t addrs = 0x482757c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Timeline::PrefabControlPlayable::*)()>(
     &::UnityEngine::Timeline::PrefabControlPlayable::get_prefabInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c662c;
+  constexpr static std::size_t addrs = 0x4827940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::PrefabControlPlayable*>::get(),
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::Timeline::PrefabControlPlayable::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Transform*)>(&::UnityEngine::Timeline::PrefabControlPlayable::Initialize)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x47c63a8;
+  constexpr static std::size_t addrs = 0x48276bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::PrefabControlPlayable::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x47c69a4;
+  constexpr static std::size_t addrs = 0x4827cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47c6a74;
+  constexpr static std::size_t addrs = 0x4827d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPause)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47c6afc;
+  constexpr static std::size_t addrs = 0x4827e10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::PrefabControlPlayable::SetHideFlagsRecursive)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x47c6634;
+  constexpr static std::size_t addrs = 0x4827948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PrefabControlPlayable::*)()>(&::UnityEngine::Timeline::PrefabControlPlayable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c6ba4;
+  constexpr static std::size_t addrs = 0x4827eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::PrefabControlPlayable*>::get(), ".ctor",
@@ -185,13 +185,13 @@ inline void UnityEngine::Timeline::PrefabControlPlayable::SetHideFlagsRecursive(
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, gameObject);
 }
-inline ::UnityEngine::Timeline::PrefabControlPlayable* UnityEngine::Timeline::PrefabControlPlayable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::PrefabControlPlayable*>());
-}
 inline void UnityEngine::Timeline::PrefabControlPlayable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::PrefabControlPlayable*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Timeline::PrefabControlPlayable* UnityEngine::Timeline::PrefabControlPlayable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::PrefabControlPlayable*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::PrefabControlPlayable::PrefabControlPlayable() {}

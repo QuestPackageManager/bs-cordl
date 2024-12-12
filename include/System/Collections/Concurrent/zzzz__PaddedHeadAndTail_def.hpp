@@ -12,11 +12,10 @@ struct PaddedHeadAndTail;
 }
 // Write type traits
 MARK_VAL_T(::System::Collections::Concurrent::PaddedHeadAndTail);
-// Type: System.Collections.Concurrent::PaddedHeadAndTail
-// SizeInfo { instance_size: 384, native_size: 384, calculated_instance_size: 260, calculated_native_size: 276, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace System::Collections::Concurrent {
 // Is value type: true
-// CS Name: ::System.Collections.Concurrent::PaddedHeadAndTail
+// CS Name: System.Collections.Concurrent.PaddedHeadAndTail
 #pragma pack(push, 0)
 struct CORDL_TYPE PaddedHeadAndTail {
 public:
@@ -80,14 +79,14 @@ private:
   };
 
 public:
-  /// @brief Size padding 0x180 - 0x104 = 0x7c, packed as 0x7c
-  uint8_t _cordl_size_padding[0x7c];
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x180 };
+
+  /// @brief Size padding 0x180 - 0x104 = 0x7c, packed as 0x7c
+  uint8_t _cordl_size_padding[0x7c];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

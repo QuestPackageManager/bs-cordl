@@ -4,19 +4,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerStatisticsViewController)
 namespace GlobalNamespace {
+class PlayerAllOverallStatsData_PlayerOverallStatsData;
+}
+namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
-}
-namespace GlobalNamespace {
-struct __PlayerStatisticsViewController__StatsScopeData;
+struct PlayerStatisticsViewController_StatsScopeData;
 }
 namespace HMUI {
 class SegmentedControl;
@@ -35,79 +34,77 @@ namespace GlobalNamespace {
 class PlayerStatisticsViewController;
 }
 namespace GlobalNamespace {
-struct __PlayerStatisticsViewController__StatsScopeData;
+struct PlayerStatisticsViewController_StatsScopeData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerStatisticsViewController);
-MARK_VAL_T(::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData);
-// Type: ::StatsScopeData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlayerStatisticsViewController::StatsScopeData
-struct CORDL_TYPE __PlayerStatisticsViewController__StatsScopeData {
+// CS Name: PlayerStatisticsViewController/StatsScopeData
+struct CORDL_TYPE PlayerStatisticsViewController_StatsScopeData {
 public:
   // Declarations
   __declspec(property(get = get_playerOverallStatsDataFunc,
-                      put = set_playerOverallStatsDataFunc)) ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* playerOverallStatsDataFunc;
+                      put = set_playerOverallStatsDataFunc)) ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* playerOverallStatsDataFunc;
 
   __declspec(property(get = get_text, put = set_text)) ::StringW text;
 
-  /// @brief Method .ctor, addr 0x3bbb6d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text, ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* playerOverallStatsDataFunc);
+  /// @brief Method .ctor, addr 0x3c1e80c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::StringW text, ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* playerOverallStatsDataFunc);
 
-  /// @brief Method get_playerOverallStatsDataFunc, addr 0x3bbbca4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
+  /// @brief Method get_playerOverallStatsDataFunc, addr 0x3c1edd8, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* get_playerOverallStatsDataFunc();
 
-  /// @brief Method get_text, addr 0x3bbbc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3c1edc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_playerOverallStatsDataFunc, addr 0x3bbbcac, size 0x8, virtual false, abstract: false, final false
-  inline void set_playerOverallStatsDataFunc(::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* value);
+  /// @brief Method set_playerOverallStatsDataFunc, addr 0x3c1ede0, size 0x8, virtual false, abstract: false, final false
+  inline void set_playerOverallStatsDataFunc(::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* value);
 
-  /// @brief Method set_text, addr 0x3bbbc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3c1edd0, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerStatisticsViewController__StatsScopeData();
+  constexpr PlayerStatisticsViewController_StatsScopeData();
 
   // Ctor Parameters [CppParam { name: "_text_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_playerOverallStatsDataFunc_k__BackingField", ty:
-  // "::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>*", modifiers: "", def_value: None }]
-  constexpr __PlayerStatisticsViewController__StatsScopeData(
-      ::StringW _text_k__BackingField, ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField) noexcept;
+  // "::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>*", modifiers: "", def_value: None }]
+  constexpr PlayerStatisticsViewController_StatsScopeData(::StringW _text_k__BackingField,
+                                                          ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4929 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field <text>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _text_k__BackingField;
 
   /// @brief Field <playerOverallStatsDataFunc>k__BackingField, offset: 0x8, size: 0x8, def value: None
-  ::System::Func_1<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4909 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+  ::System::Func_1<::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*>* _playerOverallStatsDataFunc_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, _text_k__BackingField) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, _text_k__BackingField) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, _playerOverallStatsDataFunc_k__BackingField) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, _playerOverallStatsDataFunc_k__BackingField) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerStatisticsViewController
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerStatisticsViewController*
+// CS Name: PlayerStatisticsViewController
 class CORDL_TYPE PlayerStatisticsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using StatsScopeData = ::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData;
+  using StatsScopeData = ::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData;
 
   /// @brief Field _badCutsCountCountText, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__badCutsCountCountText, put = __cordl_internal_set__badCutsCountCountText)) ::UnityW<::TMPro::TextMeshProUGUI> _badCutsCountCountText;
@@ -137,8 +134,10 @@ public:
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _statsScopeDatas, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__statsScopeDatas, put = __cordl_internal_set__statsScopeDatas)) ::ArrayW<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData,
-                                                                                                                          ::Array<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData>*>
+  __declspec(property(
+      get = __cordl_internal_get__statsScopeDatas,
+      put =
+          __cordl_internal_set__statsScopeDatas)) ::ArrayW<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, ::Array<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData>*>
       _statsScopeDatas;
 
   /// @brief Field _statsScopeSegmentedControl, offset 0x78, size 0x8
@@ -151,34 +150,34 @@ public:
   /// @brief Field _totalScoreText, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__totalScoreText, put = __cordl_internal_set__totalScoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _totalScoreText;
 
-  /// @brief Method DidActivate, addr 0x3bbb150, size 0x588, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c1e284, size 0x588, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bbbac4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c1ebf8, size 0x9c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x3bbbb60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleStatsScopeSegmentedControlDidSelectCell, addr 0x3c1ec94, size 0x50, virtual false, abstract: false, final false
   inline void HandleStatsScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
   static inline ::GlobalNamespace::PlayerStatisticsViewController* New_ctor();
 
-  /// @brief Method UpdateView, addr 0x3bbb6e0, size 0x3e4, virtual false, abstract: false, final false
-  inline void UpdateView(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* playerOverallStatsData);
+  /// @brief Method UpdateView, addr 0x3c1e814, size 0x3e4, virtual false, abstract: false, final false
+  inline void UpdateView(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
 
-  /// @brief Method <DidActivate>b__14_0, addr 0x3bbbc68, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_0();
+  /// @brief Method <DidActivate>b__14_0, addr 0x3c1ed9c, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_0();
 
-  /// @brief Method <DidActivate>b__14_1, addr 0x3bbbbb8, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_1();
+  /// @brief Method <DidActivate>b__14_1, addr 0x3c1ecec, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_1();
 
-  /// @brief Method <DidActivate>b__14_2, addr 0x3bbbbe4, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_2();
+  /// @brief Method <DidActivate>b__14_2, addr 0x3c1ed18, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_2();
 
-  /// @brief Method <DidActivate>b__14_3, addr 0x3bbbc10, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_3();
+  /// @brief Method <DidActivate>b__14_3, addr 0x3c1ed44, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_3();
 
-  /// @brief Method <DidActivate>b__14_4, addr 0x3bbbc3c, size 0x2c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* _DidActivate_b__14_4();
+  /// @brief Method <DidActivate>b__14_4, addr 0x3c1ed70, size 0x2c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* _DidActivate_b__14_4();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__badCutsCountCountText() const;
 
@@ -216,10 +215,10 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, ::Array<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, ::Array<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData>*> const&
   __cordl_internal_get__statsScopeDatas() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, ::Array<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData>*>&
+  constexpr ::ArrayW<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, ::Array<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData>*>&
   __cordl_internal_get__statsScopeDatas();
 
   constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__statsScopeSegmentedControl() const;
@@ -252,8 +251,8 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr void __cordl_internal_set__statsScopeDatas(
-      ::ArrayW<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, ::Array<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData>*> value);
+  constexpr void
+  __cordl_internal_set__statsScopeDatas(::ArrayW<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, ::Array<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData>*> value);
 
   constexpr void __cordl_internal_set__statsScopeSegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
 
@@ -261,7 +260,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3bbbbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1ece4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -277,6 +276,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerStatisticsViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerStatisticsViewController(PlayerStatisticsViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4930 };
 
   /// @brief Field _statsScopeSegmentedControl, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControl> ____statsScopeSegmentedControl;
@@ -315,16 +317,11 @@ public:
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _statsScopeDatas, offset: 0xd8, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, ::Array<::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData>*> ____statsScopeDatas;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4910 };
+  ::ArrayW<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, ::Array<::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData>*> ____statsScopeDatas;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerStatisticsViewController, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController, ____statsScopeSegmentedControl) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController, ____playedLevelsCountText) == 0x80, "Offset mismatch!");
@@ -351,7 +348,9 @@ static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController, ____pl
 
 static_assert(offsetof(::GlobalNamespace::PlayerStatisticsViewController, ____statsScopeDatas) == 0xd8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerStatisticsViewController, 0xe0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerStatisticsViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerStatisticsViewController__StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerStatisticsViewController_StatsScopeData, "", "PlayerStatisticsViewController/StatsScopeData");

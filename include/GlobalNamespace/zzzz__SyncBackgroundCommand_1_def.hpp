@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IBackgroundCommand_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SyncBackgroundCommand_1)
-namespace GlobalNamespace {
-class IBackgroundCommand;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
@@ -23,13 +21,12 @@ template <typename T> class SyncBackgroundCommand_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::SyncBackgroundCommand_1);
-// Type: ::SyncBackgroundCommand`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IBackgroundCommand, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::SyncBackgroundCommand`1<T>*
+// CS Name: SyncBackgroundCommand`1<T>
 class CORDL_TYPE SyncBackgroundCommand_1 : public ::System::Object {
 public:
   // Declarations
@@ -44,14 +41,14 @@ public:
   /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
-  /// @brief Method ExecuteInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ExecuteInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T ExecuteInternal();
 
   static inline ::GlobalNamespace::SyncBackgroundCommand_1<T>* New_ctor();
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get__taskCompletionSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>* const& __cordl_internal_get__taskCompletionSource() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get__taskCompletionSource() const;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get__taskCompletionSource();
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
 
@@ -78,11 +75,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SyncBackgroundCommand_1(SyncBackgroundCommand_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17110 };
+
   /// @brief Field _taskCompletionSource, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ____taskCompletionSource;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17175 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

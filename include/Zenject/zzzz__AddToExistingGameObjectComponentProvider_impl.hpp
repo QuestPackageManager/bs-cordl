@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::GameObject*, ::Zenject::DiContainer*, ::System::Type*, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*, ::System::Object*,
     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*)>(&::Zenject::AddToExistingGameObjectComponentProvider::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4ad5374;
+  constexpr static std::size_t addrs = 0x4b39c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToExistingGameObjectComponentProvider::*)()>(
     &::Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad548c;
+  constexpr static std::size_t addrs = 0x4b39d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::AddToExistingGameObjectComponentProvider::*)(
     ::Zenject::InjectContext*)>(&::Zenject::AddToExistingGameObjectComponentProvider::GetGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad5494;
+  constexpr static std::size_t addrs = 0x4b39da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,12 +74,6 @@ constexpr ::UnityW<::UnityEngine::GameObject> const& Zenject::AddToExistingGameO
 constexpr void Zenject::AddToExistingGameObjectComponentProvider::__cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::AddToExistingGameObjectComponentProvider*
-Zenject::AddToExistingGameObjectComponentProvider::New_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
-                                                            ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
-                                                            ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AddToExistingGameObjectComponentProvider*>(gameObject, container, componentType, extraArguments, concreteIdentifier, instantiateCallback));
 }
 inline void Zenject::AddToExistingGameObjectComponentProvider::_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
                                                                      ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
@@ -103,6 +97,12 @@ inline ::UnityW<::UnityEngine::GameObject> Zenject::AddToExistingGameObjectCompo
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AddToExistingGameObjectComponentProvider*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, context);
+}
+inline ::Zenject::AddToExistingGameObjectComponentProvider*
+Zenject::AddToExistingGameObjectComponentProvider::New_ctor(::UnityEngine::GameObject* gameObject, ::Zenject::DiContainer* container, ::System::Type* componentType,
+                                                            ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::System::Object* concreteIdentifier,
+                                                            ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::AddToExistingGameObjectComponentProvider*>(gameObject, container, componentType, extraArguments, concreteIdentifier, instantiateCallback));
 }
 // Ctor Parameters []
 constexpr ::Zenject::AddToExistingGameObjectComponentProvider::AddToExistingGameObjectComponentProvider() {}

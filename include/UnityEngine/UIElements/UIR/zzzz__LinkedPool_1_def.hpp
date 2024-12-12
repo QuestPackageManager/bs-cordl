@@ -18,13 +18,12 @@ template <typename T> class LinkedPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::LinkedPool_1);
-// Type: UnityEngine.UIElements.UIR::LinkedPool`1
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::LinkedPool`1<T>*
+// CS Name: UnityEngine.UIElements.UIR.LinkedPool`1<T>
 class CORDL_TYPE LinkedPool_1 : public ::System::Object {
 public:
   // Declarations
@@ -60,9 +59,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
-  constexpr ::System::Func_1<T>*& __cordl_internal_get_m_CreateFunc();
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_m_CreateFunc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_m_CreateFunc() const;
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_m_CreateFunc();
 
   constexpr int32_t const& __cordl_internal_get_m_Limit() const;
 
@@ -72,9 +71,9 @@ public:
 
   constexpr T& __cordl_internal_get_m_PoolFirst();
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get_m_ResetAction();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_m_ResetAction() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_m_ResetAction() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_m_ResetAction();
 
   constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
@@ -109,6 +108,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedPool_1(LinkedPool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6365 };
+
   /// @brief Field m_CreateFunc, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___m_CreateFunc;
 
@@ -123,9 +125,6 @@ public:
 
   /// @brief Field <Count>k__BackingField, offset: 0x30, size: 0x4, def value: None
   int32_t ____Count_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

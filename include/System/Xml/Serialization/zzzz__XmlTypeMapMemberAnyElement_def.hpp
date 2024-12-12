@@ -12,25 +12,24 @@ class XmlTypeMapMemberAnyElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlTypeMapMemberAnyElement);
-// Type: System.Xml.Serialization::XmlTypeMapMemberAnyElement
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlTypeMapMemberExpandable
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlTypeMapMemberAnyElement*
+// CS Name: System.Xml.Serialization.XmlTypeMapMemberAnyElement
 class CORDL_TYPE XmlTypeMapMemberAnyElement : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable {
 public:
   // Declarations
   __declspec(property(get = get_IsDefaultAny)) bool IsDefaultAny;
 
-  /// @brief Method IsElementDefined, addr 0x432a934, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method IsElementDefined, addr 0x438bc48, size 0x334, virtual false, abstract: false, final false
   inline bool IsElementDefined(::StringW name, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberAnyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x432d9f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x438ed04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDefaultAny, addr 0x432d70c, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultAny, addr 0x438ea20, size 0x2e4, virtual false, abstract: false, final false
   inline bool get_IsDefaultAny();
 
 protected:
@@ -48,7 +47,7 @@ public:
   XmlTypeMapMemberAnyElement(XmlTypeMapMemberAnyElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

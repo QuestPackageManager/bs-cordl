@@ -11,17 +11,16 @@ class SerializableAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::SerializableAttribute);
-// Type: System::SerializableAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::SerializableAttribute*
+// CS Name: System.SerializableAttribute
 class CORDL_TYPE SerializableAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::SerializableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d9c198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dfc208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

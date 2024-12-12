@@ -11,17 +11,16 @@ class WaitForEndOfFrame;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::WaitForEndOfFrame);
-// Type: UnityEngine::WaitForEndOfFrame
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::WaitForEndOfFrame*
+// CS Name: UnityEngine.WaitForEndOfFrame
 class CORDL_TYPE WaitForEndOfFrame : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
   static inline ::UnityEngine::WaitForEndOfFrame* New_ctor();
 
-  /// @brief Method .ctor, addr 0x484f810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48b0d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   WaitForEndOfFrame(WaitForEndOfFrame const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

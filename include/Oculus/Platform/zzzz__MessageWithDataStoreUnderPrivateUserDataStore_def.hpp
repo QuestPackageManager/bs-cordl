@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(MessageWithDataStoreUnderPrivateUserDataStore)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -19,23 +18,22 @@ class MessageWithDataStoreUnderPrivateUserDataStore;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore);
-// Type: Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Message`1<T>
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore*
+// CS Name: Oculus.Platform.MessageWithDataStoreUnderPrivateUserDataStore
 class CORDL_TYPE MessageWithDataStoreUnderPrivateUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f1cf94, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x3f7d040, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetDataStore, addr 0x3f1cf58, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetDataStore, addr 0x3f7d004, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();
 
   static inline ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f1a7e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f7a88c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -53,7 +51,7 @@ public:
   MessageWithDataStoreUnderPrivateUserDataStore(MessageWithDataStoreUnderPrivateUserDataStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15333 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15368 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorage_1)
 namespace System {
@@ -36,13 +35,12 @@ template <typename T> class ShaderInfoStorage_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::ShaderInfoStorage_1);
-// Type: UnityEngine.UIElements.UIR::ShaderInfoStorage`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.TextureFormat, UnityEngine.UIElements.UIR.BaseShaderInfoStorage
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
+// CS Name: UnityEngine.UIElements.UIR.ShaderInfoStorage`1<T>
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:
   // Declarations
@@ -70,7 +68,7 @@ public:
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::Texture2D> texture;
 
   /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
+  inline bool AllocateRect(int32_t width, int32_t height, ::ByRef<::UnityEngine::RectInt> uvs);
 
   /// @brief Method CpuBlit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CpuBlit(::Unity::Collections::NativeArray_1<T> src, int32_t srcWidth, int32_t srcHeight, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstWidth, int32_t dstHeight);
@@ -90,13 +88,13 @@ public:
   /// @brief Method UpdateTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateTexture();
 
+  constexpr ::UnityEngine::UIElements::UIRAtlasAllocator* const& __cordl_internal_get_m_Allocator() const;
+
   constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& __cordl_internal_get_m_Allocator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtlasAllocator*> const& __cordl_internal_get_m_Allocator() const;
+  constexpr ::System::Func_2<::UnityEngine::Color, T>* const& __cordl_internal_get_m_Convert() const;
 
   constexpr ::System::Func_2<::UnityEngine::Color, T>*& __cordl_internal_get_m_Convert();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Color, T>*> const& __cordl_internal_get_m_Convert() const;
 
   constexpr ::UnityEngine::TextureFormat const& __cordl_internal_get_m_Format() const;
 
@@ -152,6 +150,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ShaderInfoStorage_1(ShaderInfoStorage_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6386 };
+
   /// @brief Field m_InitialSize, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_InitialSize;
 
@@ -172,9 +173,6 @@ public:
 
   /// @brief Field m_Texels, offset: 0x38, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<T> ___m_Texels;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

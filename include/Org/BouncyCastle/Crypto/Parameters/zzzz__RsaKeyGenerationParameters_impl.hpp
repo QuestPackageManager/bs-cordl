@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x238bb10;
+  constexpr static std::size_t addrs = 0x23bedfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_PublicExponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238bb48;
+  constexpr static std::size_t addrs = 0x23bee34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238bb50;
+  constexpr static std::size_t addrs = 0x23bee3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x238bb58;
+  constexpr static std::size_t addrs = 0x23bee44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x238bc0c;
+  constexpr static std::size_t addrs = 0x23beef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,8 +88,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Par
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicExponent;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const&
-Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::__cordl_internal_get_publicExponent() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::__cordl_internal_get_publicExponent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicExponent;
 }
@@ -108,11 +107,6 @@ constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::RsaKeyGeneration
 constexpr void Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::__cordl_internal_set_certainty(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___certainty = value;
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*
-Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random,
-                                                                            int32_t strength, int32_t certainty) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*>(publicExponent, random, strength, certainty));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                      int32_t strength, int32_t certainty) {
@@ -146,6 +140,11 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*
+Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random,
+                                                                            int32_t strength, int32_t certainty) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*>(publicExponent, random, strength, certainty));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::RsaKeyGenerationParameters() {}

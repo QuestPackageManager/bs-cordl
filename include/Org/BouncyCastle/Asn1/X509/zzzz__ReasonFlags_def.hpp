@@ -15,11 +15,10 @@ class ReasonFlags;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ReasonFlags);
-// Type: Org.BouncyCastle.Asn1.X509::ReasonFlags
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerBitString
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::ReasonFlags*
+// CS Name: Org.BouncyCastle.Asn1.X509.ReasonFlags
 class CORDL_TYPE ReasonFlags : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor, addr 0x25cf638, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2602924, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
-  /// @brief Method .ctor, addr 0x25d8b78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260be64, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
 protected:

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullableEqualityComparer_1)
 namespace System {
@@ -20,13 +19,12 @@ template <typename T> class NullableEqualityComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::NullableEqualityComparer_1);
-// Type: System.Collections.Generic::NullableEqualityComparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.EqualityComparer`1<T>, System.Nullable`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::NullableEqualityComparer`1<T>*
+// CS Name: System.Collections.Generic.NullableEqualityComparer`1<T>
 class CORDL_TYPE NullableEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<::System::Nullable_1<T>> {
 public:
   // Declarations

@@ -11,17 +11,16 @@ class AndroidJoystick;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidJoystick);
-// Type: UnityEngine.InputSystem.Android::AndroidJoystick
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Joystick
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidJoystick*
+// CS Name: UnityEngine.InputSystem.Android.AndroidJoystick
 class CORDL_TYPE AndroidJoystick : public ::UnityEngine::InputSystem::Joystick {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidJoystick* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidJoystick(AndroidJoystick const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6834 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

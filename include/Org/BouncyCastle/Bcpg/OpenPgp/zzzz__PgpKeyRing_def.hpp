@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PgpKeyRing)
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
@@ -21,27 +20,26 @@ class PgpKeyRing;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRing
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.OpenPgp.PgpObject
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyRing*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpKeyRing
 class CORDL_TYPE PgpKeyRing : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing* New_ctor();
 
-  /// @brief Method ReadOptionalTrustPacket, addr 0x24f8494, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ReadOptionalTrustPacket, addr 0x252b780, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSignaturesAndTrust, addr 0x24f8534, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method ReadSignaturesAndTrust, addr 0x252b820, size 0x2b4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadUserIDs, addr 0x24f87e8, size 0x33c, virtual false, abstract: false, final false
-  static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ByRef<::System::Collections::IList*> ids, ByRef<::System::Collections::IList*> idTrusts,
-                                 ByRef<::System::Collections::IList*> idSigs);
+  /// @brief Method ReadUserIDs, addr 0x252bad4, size 0x33c, virtual false, abstract: false, final false
+  static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ::ByRef<::System::Collections::IList*> ids, ::ByRef<::System::Collections::IList*> idTrusts,
+                                 ::ByRef<::System::Collections::IList*> idSigs);
 
-  /// @brief Method .ctor, addr 0x24f848c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252b778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

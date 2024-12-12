@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TransformUtility)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -21,28 +20,27 @@ class TransformUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::TransformUtility);
-// Type: UnityEngine.ProBuilder::TransformUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::TransformUtility*
+// CS Name: UnityEngine.ProBuilder.TransformUtility
 class CORDL_TYPE TransformUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_ChildStack, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ChildStack, put = setStaticF_s_ChildStack)) ::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = getStaticF_s_ChildStack, put = setStaticF_s_ChildStack)) ::System::Collections::Generic::Dictionary_2<
       ::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>* s_ChildStack;
 
-  /// @brief Method InverseTransformVertex, addr 0x46e0740, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVertex, addr 0x4741a54, size 0x1f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* InverseTransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method ReparentChildren, addr 0x46e0418, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReparentChildren, addr 0x474172c, size 0x128, virtual false, abstract: false, final false
   static inline void ReparentChildren(::UnityEngine::Transform* t);
 
-  /// @brief Method TransformVertex, addr 0x46e0540, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method TransformVertex, addr 0x4741854, size 0x200, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Vertex* TransformVertex(::UnityEngine::Transform* transform, ::UnityEngine::ProBuilder::Vertex* vertex);
 
-  /// @brief Method UnparentChildren, addr 0x46e02b8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method UnparentChildren, addr 0x47415cc, size 0x160, virtual false, abstract: false, final false
   static inline void UnparentChildren(::UnityEngine::Transform* t);
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Transform>, ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>>*
@@ -66,7 +64,7 @@ public:
   TransformUtility(TransformUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

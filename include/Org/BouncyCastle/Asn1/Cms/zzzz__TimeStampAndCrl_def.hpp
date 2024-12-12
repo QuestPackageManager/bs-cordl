@@ -26,11 +26,10 @@ class TimeStampAndCrl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl);
-// Type: Org.BouncyCastle.Asn1.Cms::TimeStampAndCrl
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampAndCrl*
+// CS Name: Org.BouncyCastle.Asn1.Cms.TimeStampAndCrl
 class CORDL_TYPE TimeStampAndCrl : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -44,38 +43,38 @@ public:
   /// @brief Field timeStamp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_timeStamp, put = __cordl_internal_set_timeStamp)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp;
 
-  /// @brief Method GetInstance, addr 0x22da940, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230dc2c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method ToAsn1Object, addr 0x22da9f4, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x230dce0, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList* const& __cordl_internal_get_crl() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList*& __cordl_internal_get_crl();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CertificateList*> const& __cordl_internal_get_crl() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo* const& __cordl_internal_get_timeStamp() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_timeStamp();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_timeStamp() const;
 
   constexpr void __cordl_internal_set_crl(::Org::BouncyCastle::Asn1::X509::CertificateList* value);
 
   constexpr void __cordl_internal_set_timeStamp(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x22da8b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230dba4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x22da890, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x230db7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method get_Crl, addr 0x22da9ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Crl, addr 0x230dcd8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CertificateList* get_Crl();
 
-  /// @brief Method get_TimeStampToken, addr 0x22da9e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TimeStampToken, addr 0x230dcd0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
 protected:
@@ -92,23 +91,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TimeStampAndCrl(TimeStampAndCrl const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 98 };
+
   /// @brief Field timeStamp, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ___timeStamp;
 
   /// @brief Field crl, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::CertificateList* ___crl;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 98 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl, ___timeStamp) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl, ___crl) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl);

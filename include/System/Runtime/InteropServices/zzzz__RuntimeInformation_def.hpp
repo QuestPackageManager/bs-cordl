@@ -17,30 +17,29 @@ class RuntimeInformation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::RuntimeInformation);
-// Type: System.Runtime.InteropServices::RuntimeInformation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.InteropServices.Architecture, System.Runtime.InteropServices.OSPlatform
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::RuntimeInformation*
+// CS Name: System.Runtime.InteropServices.RuntimeInformation
 class CORDL_TYPE RuntimeInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _osArchitecture, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__osArchitecture, put = setStaticF__osArchitecture)) ::System::Runtime::InteropServices::Architecture _osArchitecture;
+  __declspec(property(get = getStaticF__osArchitecture, put = setStaticF__osArchitecture)) ::System::Runtime::InteropServices::Architecture _osArchitecture;
 
   /// @brief Field _osPlatform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__osPlatform, put = setStaticF__osPlatform)) ::System::Runtime::InteropServices::OSPlatform _osPlatform;
+  __declspec(property(get = getStaticF__osPlatform, put = setStaticF__osPlatform)) ::System::Runtime::InteropServices::OSPlatform _osPlatform;
 
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture)) ::System::Runtime::InteropServices::Architecture _processArchitecture;
+  __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture)) ::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x3cb41e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x3d1435c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x3cb41e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x3d14358, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x3cb41ec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x3d14360, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();

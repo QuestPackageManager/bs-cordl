@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ExpandableObjectConverter)
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
@@ -24,24 +23,23 @@ class ExpandableObjectConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ExpandableObjectConverter);
-// Type: System.ComponentModel::ExpandableObjectConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.TypeConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::ExpandableObjectConverter*
+// CS Name: System.ComponentModel.ExpandableObjectConverter
 class CORDL_TYPE ExpandableObjectConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method GetProperties, addr 0x43f0b74, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x4451e88, size 0x68, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x43f0bdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x4451ef0, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::ExpandableObjectConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43f0b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4451e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +57,7 @@ public:
   ExpandableObjectConverter(ExpandableObjectConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

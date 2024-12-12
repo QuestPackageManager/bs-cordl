@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::IO::PinnedBufferMemoryStream::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3cd9c54;
+  constexpr static std::size_t addrs = 0x3d39dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::PinnedBufferMemoryStream::*)(::System::Span_1<uint8_t>)>(
     &::System::IO::PinnedBufferMemoryStream::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cd9f58;
+  constexpr static std::size_t addrs = 0x3d3a0cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::System::IO::PinnedBufferMemoryStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cda180;
+  constexpr static std::size_t addrs = 0x3d3a2f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)()>(&::System::IO::PinnedBufferMemoryStream::Finalize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3cda46c;
+  constexpr static std::size_t addrs = 0x3d3a5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::PinnedBufferMemoryStream::*)(bool)>(&::System::IO::PinnedBufferMemoryStream::Dispose)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3cda510;
+  constexpr static std::size_t addrs = 0x3d3a684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,9 +102,6 @@ constexpr void System::IO::PinnedBufferMemoryStream::__cordl_internal_set__pinni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pinningHandle = value;
 }
-inline ::System::IO::PinnedBufferMemoryStream* System::IO::PinnedBufferMemoryStream::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::PinnedBufferMemoryStream*>(array));
-}
 inline void System::IO::PinnedBufferMemoryStream::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::PinnedBufferMemoryStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -130,6 +127,9 @@ inline void System::IO::PinnedBufferMemoryStream::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::PinnedBufferMemoryStream*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+}
+inline ::System::IO::PinnedBufferMemoryStream* System::IO::PinnedBufferMemoryStream::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> array) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::PinnedBufferMemoryStream*>(array));
 }
 // Ctor Parameters []
 constexpr ::System::IO::PinnedBufferMemoryStream::PinnedBufferMemoryStream() {}

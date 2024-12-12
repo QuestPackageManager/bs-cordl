@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_gameId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abbac;
+  constexpr static std::size_t addrs = 0x26e08e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsData*>::get(), "get_gameId",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerPlayerResultsData* (::GlobalNamespace::MultiplayerResultsData::*)()>(
     &::GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abbb4;
+  constexpr static std::size_t addrs = 0x26e08e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsData*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (
     ::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_otherPlayersData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abbbc;
+  constexpr static std::size_t addrs = 0x26e08f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsData*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* (
     ::GlobalNamespace::MultiplayerResultsData::*)()>(&::GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26abbc4;
+  constexpr static std::size_t addrs = 0x26e08f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsData*>::get(),
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*,
     ::GlobalNamespace::MultiplayerBadgesProvider*, ::GlobalNamespace::IMultiplayerSessionManager*)>(&::GlobalNamespace::MultiplayerResultsData::_ctor)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x26abbcc;
+  constexpr static std::size_t addrs = 0x26e0900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ constexpr ::GlobalNamespace::MultiplayerPlayerResultsData*& GlobalNamespace::Mul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerResultData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayerResultsData*> const& GlobalNamespace::MultiplayerResultsData::__cordl_internal_get__localPlayerResultData() const {
+constexpr ::GlobalNamespace::MultiplayerPlayerResultsData* const& GlobalNamespace::MultiplayerResultsData::__cordl_internal_get__localPlayerResultData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerResultData;
 }
@@ -112,7 +112,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::Mul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayersData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* const&
 GlobalNamespace::MultiplayerResultsData::__cordl_internal_get__otherPlayersData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____otherPlayersData;
@@ -126,7 +126,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::Mul
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPlayersSortedData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* const&
 GlobalNamespace::MultiplayerResultsData::__cordl_internal_get__allPlayersSortedData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allPlayersSortedData;
@@ -156,12 +156,6 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::Multip
                                                                              "get_allPlayersSortedData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerResultsData*
-GlobalNamespace::MultiplayerResultsData::New_ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
-                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
-                                                  ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerResultsData*>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager));
-}
 inline void GlobalNamespace::MultiplayerResultsData::_ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                                                            ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                                                            ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
@@ -173,6 +167,12 @@ inline void GlobalNamespace::MultiplayerResultsData::_ctor(::StringW gameId, ::G
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerBadgesProvider*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager);
+}
+inline ::GlobalNamespace::MultiplayerResultsData*
+GlobalNamespace::MultiplayerResultsData::New_ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
+                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
+                                                  ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerResultsData*>(gameId, localPlayerResultData, otherPlayersResultData, badgesProvider, multiplayerSessionManager));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerResultsData::MultiplayerResultsData() {}

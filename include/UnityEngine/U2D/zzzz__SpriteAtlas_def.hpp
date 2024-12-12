@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteAtlas)
@@ -17,11 +16,10 @@ class SpriteAtlas;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::U2D::SpriteAtlas);
-// Type: UnityEngine.U2D::SpriteAtlas
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Object
 namespace UnityEngine::U2D {
 // Is value type: false
-// CS Name: ::UnityEngine.U2D::SpriteAtlas*
+// CS Name: UnityEngine.U2D.SpriteAtlas
 class CORDL_TYPE SpriteAtlas : public ::UnityEngine::Object {
 public:
   // Declarations
@@ -31,36 +29,36 @@ public:
 
   __declspec(property(get = get_tag)) ::StringW tag;
 
-  /// @brief Method CanBindTo, addr 0x4859c6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CanBindTo, addr 0x48baff8, size 0x44, virtual false, abstract: false, final false
   inline bool CanBindTo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method GetSprite, addr 0x4859cb0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSprite, addr 0x48bb03c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> GetSprite(::StringW name);
 
-  /// @brief Method GetSprites, addr 0x4859cf4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x48bb080, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSprites, addr 0x4859d7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSprites, addr 0x48bb108, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetSprites(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
-  /// @brief Method GetSpritesScripting, addr 0x4859d38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesScripting, addr 0x48bb0c4, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetSpritesScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites);
 
-  /// @brief Method GetSpritesWithNameScripting, addr 0x4859dd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSpritesWithNameScripting, addr 0x48bb15c, size 0x54, virtual false, abstract: false, final false
   inline int32_t GetSpritesWithNameScripting(::ArrayW<::UnityEngine::Sprite*, ::Array<::UnityEngine::Sprite*>*> sprites, ::StringW name);
 
   static inline ::UnityEngine::U2D::SpriteAtlas* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4859e24, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bb1b0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isVariant, addr 0x4859bb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isVariant, addr 0x48baf44, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isVariant();
 
-  /// @brief Method get_spriteCount, addr 0x4859c30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_spriteCount, addr 0x48bafbc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_spriteCount();
 
-  /// @brief Method get_tag, addr 0x4859bf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_tag, addr 0x48baf80, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_tag();
 
 protected:
@@ -78,7 +76,7 @@ public:
   SpriteAtlas(SpriteAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10968 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

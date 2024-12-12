@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::InverseLerp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2281130;
+  constexpr static std::size_t addrs = 0x22b4314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::RotatedAroundPivot)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2281180;
+  constexpr static std::size_t addrs = 0x22b4364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::Vector3Extensions::MirrorOnYZPlane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22811e0;
+  constexpr static std::size_t addrs = 0x22b43c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::Vector3Extensions::MirrorEulerAnglesOnYZPlane)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22811e8;
+  constexpr static std::size_t addrs = 0x22b43cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,14 +70,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::Vector3Extensions.Abs
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::Vector3Extensions::Abs)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22811f4;
+  constexpr static std::size_t addrs = 0x22b43d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3Extensions*>::get(), "Abs", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
     return ___internal_method;
   }
 };
@@ -109,10 +109,10 @@ inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::MirrorEulerAng
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, vector);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(ByRef<::UnityEngine::Vector3> vector) {
+inline ::UnityEngine::Vector3 GlobalNamespace::Vector3Extensions::Abs(::ByRef<::UnityEngine::Vector3> vector) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Vector3Extensions*>::get(), "Abs", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, vector);
 }
 // Ctor Parameters []

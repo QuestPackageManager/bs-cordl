@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__InstantiateCallbackConditionCopyNonLazyBinder_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ArgConditionCopyNonLazyBinder)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -27,17 +26,16 @@ class ArgConditionCopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ArgConditionCopyNonLazyBinder);
-// Type: Zenject::ArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.InstantiateCallbackConditionCopyNonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ArgConditionCopyNonLazyBinder*
+// CS Name: Zenject.ArgConditionCopyNonLazyBinder
 class CORDL_TYPE ArgConditionCopyNonLazyBinder : public ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithArguments, addr 0x4a984d0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method WithArguments, addr 0x4afcde0, size 0x188, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method WithArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -61,10 +59,10 @@ public:
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6);
 
-  /// @brief Method WithArgumentsExplicit, addr 0x4a98658, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method WithArgumentsExplicit, addr 0x4afcf68, size 0x39c, virtual false, abstract: false, final false
   inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* WithArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method .ctor, addr 0x4a984c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afcdd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -82,7 +80,7 @@ public:
   ArgConditionCopyNonLazyBinder(ArgConditionCopyNonLazyBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,11 +25,10 @@ class Challenge;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Challenge);
-// Type: Oculus.Platform.Models::Challenge
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.ChallengeCreationType, Oculus.Platform.ChallengeVisibility, System.DateTime, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::Challenge*
+// CS Name: Oculus.Platform.Models.Challenge
 class CORDL_TYPE Challenge : public ::System::Object {
 public:
   // Declarations
@@ -83,25 +82,25 @@ public:
 
   constexpr ::System::DateTime& __cordl_internal_get_EndDate();
 
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsers() const;
+
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsers() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsersOptional() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsersOptional() const;
+  constexpr ::Oculus::Platform::Models::Leaderboard* const& __cordl_internal_get_Leaderboard() const;
 
   constexpr ::Oculus::Platform::Models::Leaderboard*& __cordl_internal_get_Leaderboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Leaderboard*> const& __cordl_internal_get_Leaderboard() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_Participants() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Participants();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Participants() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_ParticipantsOptional() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_ParticipantsOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_ParticipantsOptional() const;
 
   constexpr ::System::DateTime const& __cordl_internal_get_StartDate() const;
 
@@ -143,7 +142,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2eba8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8ec54, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -159,6 +158,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Challenge(Challenge const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15508 };
 
   /// @brief Field CreationType, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::ChallengeCreationType ___CreationType;
@@ -196,14 +198,9 @@ public:
   /// @brief Field Visibility, offset: 0x68, size: 0x4, def value: None
   ::Oculus::Platform::ChallengeVisibility ___Visibility;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15473 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Challenge, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___CreationType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Description) == 0x18, "Offset mismatch!");
@@ -227,6 +224,8 @@ static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___StartDate) == 0
 static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Title) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Challenge, ___Visibility) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Challenge, 0x70>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Challenge);

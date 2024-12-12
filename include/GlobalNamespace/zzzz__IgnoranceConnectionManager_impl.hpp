@@ -1,9 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IgnoranceConnectionManager.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_impl.hpp"
+#include "GlobalNamespace/zzzz__IConnection_impl.hpp"
+#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
 #include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
@@ -12,10 +18,8 @@
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceChannelTypes_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClient_def.hpp"
@@ -23,831 +27,823 @@
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::__IgnoranceConnectionManager__ConnectionState(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState::IgnoranceConnectionManager_ConnectionState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::__IgnoranceConnectionManager__ConnectionState() {}
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::Connecting{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::Connected{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::Disconnecting{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::Disconnected{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState GlobalNamespace::__IgnoranceConnectionManager__ConnectionState::Disposed{ static_cast<int32_t>(0x4) };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState::IgnoranceConnectionManager_ConnectionState() {}
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState GlobalNamespace::IgnoranceConnectionManager_ConnectionState::Connecting{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState GlobalNamespace::IgnoranceConnectionManager_ConnectionState::Connected{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState GlobalNamespace::IgnoranceConnectionManager_ConnectionState::Disconnecting{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState GlobalNamespace::IgnoranceConnectionManager_ConnectionState::Disconnected{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState GlobalNamespace::IgnoranceConnectionManager_ConnectionState::Disposed{ static_cast<int32_t>(0x4) };
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2298f90;
+  constexpr static std::size_t addrs = 0x22cc27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::IConnectionRequestHandler*& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_connectionRequestHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___connectionRequestHandler;
+}
+constexpr ::GlobalNamespace::IConnectionRequestHandler* const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_connectionRequestHandler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___connectionRequestHandler;
+}
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionRequestHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_useSsl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useSsl;
+}
+constexpr bool const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_useSsl() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___useSsl;
+}
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_set_useSsl(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___useSsl = value;
+}
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_userId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userId;
+}
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_userId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userId;
+}
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_set_userId(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_userName() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userName;
+}
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_userName() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___userName;
+}
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_set_userName(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_enableBackgroundSentry() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enableBackgroundSentry;
+}
+constexpr bool const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_get_enableBackgroundSentry() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___enableBackgroundSentry;
+}
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::__cordl_internal_set_enableBackgroundSentry(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___enableBackgroundSentry = value;
+}
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase* GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase*>());
+}
 /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
-constexpr GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::operator ::GlobalNamespace::IConnectionInitParams_1<
-    ::GlobalNamespace::IgnoranceConnectionManager*>*() noexcept {
+constexpr GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*() noexcept {
   return static_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
 constexpr ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*
-GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__IgnoranceConnectionManager__() noexcept {
+GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__IgnoranceConnectionManager__() noexcept {
   return static_cast<::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::IConnectionRequestHandler*& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_connectionRequestHandler() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___connectionRequestHandler;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const&
-GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_connectionRequestHandler() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___connectionRequestHandler;
-}
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionRequestHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_useSsl() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useSsl;
-}
-constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_useSsl() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useSsl;
-}
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_set_useSsl(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___useSsl = value;
-}
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_userId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userId;
-}
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_userId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userId;
-}
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_set_userId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_userName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userName;
-}
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_userName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userName;
-}
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_set_userName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_enableBackgroundSentry() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableBackgroundSentry;
-}
-constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_get_enableBackgroundSentry() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enableBackgroundSentry;
-}
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__cordl_internal_set_enableBackgroundSentry(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enableBackgroundSentry = value;
-}
-inline ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase* GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase::IgnoranceConnectionManager_IgnoranceConnectionParamsBase() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_StartServerParams._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2298fa0;
+  constexpr static std::size_t addrs = 0x22cc28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_StartServerParams*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_port() {
+constexpr int32_t& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_port() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
-constexpr int32_t const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_port() const {
+constexpr int32_t const& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_port() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_set_port(int32_t value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_set_port(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_certificatePath() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_certificatePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePath;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_certificatePath() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_certificatePath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificatePath;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_set_certificatePath(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_set_certificatePath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_certificate() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_certificate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_certificate() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_certificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certificate;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_set_certificate(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_set_certificate(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_privateKeyPath() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_privateKeyPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyPath;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_privateKeyPath() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_privateKeyPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKeyPath;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_set_privateKeyPath(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_set_privateKeyPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKeyPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_privateKey() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_privateKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_get_privateKey() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_get_privateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___privateKey;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__cordl_internal_set_privateKey(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::__cordl_internal_set_privateKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___privateKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams* GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::_ctor() {
+inline void GlobalNamespace::IgnoranceConnectionManager_StartServerParams::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_StartServerParams*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager_StartServerParams* GlobalNamespace::IgnoranceConnectionManager_StartServerParams::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager_StartServerParams*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams::__IgnoranceConnectionManager__StartServerParams() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_StartServerParams::IgnoranceConnectionManager_StartServerParams() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2293078;
+  constexpr static std::size_t addrs = 0x22c6364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_hostName() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_hostName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_hostName() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_hostName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hostName;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_hostName(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_hostName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_port() {
+constexpr int32_t& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_port() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
-constexpr int32_t const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_port() const {
+constexpr int32_t const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_port() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___port;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_port(int32_t value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_port(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___port = value;
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_serverUserId() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_serverUserId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserId;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_serverUserId() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_serverUserId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserId;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_serverUserId(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_serverUserId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverUserId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_serverUserName() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_serverUserName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserName;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_serverUserName() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_serverUserName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverUserName;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_serverUserName(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_serverUserName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverUserName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_validateCertificate() {
+constexpr bool& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_validateCertificate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validateCertificate;
 }
-constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_validateCertificate() const {
+constexpr bool const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_validateCertificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___validateCertificate;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_validateCertificate(bool value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_validateCertificate(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___validateCertificate = value;
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_rootCertificatePath() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_rootCertificatePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificatePath;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_rootCertificatePath() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_rootCertificatePath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificatePath;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_rootCertificatePath(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_rootCertificatePath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootCertificatePath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_rootCertificate() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_rootCertificate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificate;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_get_rootCertificate() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_get_rootCertificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootCertificate;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__cordl_internal_set_rootCertificate(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::__cordl_internal_set_rootCertificate(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rootCertificate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams* GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::_ctor() {
+inline void GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams* GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams::__IgnoranceConnectionManager__ConnectToServerParams() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.get_userId
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams::IgnoranceConnectionManager_ConnectToServerParams() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.get_userId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_userId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2298fb0;
+  constexpr static std::size_t addrs = 0x22cc29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "get_userId",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "get_userId",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.set_userId
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.set_userId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)(::StringW)>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_userId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2298fb8;
+  constexpr static std::size_t addrs = 0x22cc2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_userId",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_userId",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.get_userName
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.get_userName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_userName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2298fc0;
+  constexpr static std::size_t addrs = 0x22cc2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "get_userName",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "get_userName",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.set_userName
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.set_userName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)(::StringW)>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_userName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(::StringW)>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2298fc8;
+  constexpr static std::size_t addrs = 0x22cc2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_userName",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_userName",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.get_isConnectionOwner
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.get_isConnectionOwner
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_isConnectionOwner)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2298fd0;
+  constexpr static std::size_t addrs = 0x22cc2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(),
                                                  "get_isConnectionOwner", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.set_isConnectionOwner
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.set_isConnectionOwner
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)(bool)>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_isConnectionOwner)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(bool)>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_isConnectionOwner)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2298fd8;
+  constexpr static std::size_t addrs = 0x22cc2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_isConnectionOwner",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_isConnectionOwner",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection._ctor
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)(
-    ::GlobalNamespace::IgnoranceConnectionManager*, uint32_t, ::StringW, ::StringW, bool)>(&::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(
+    ::GlobalNamespace::IgnoranceConnectionManager*, uint32_t, ::StringW, ::StringW, bool)>(&::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x229867c;
+  constexpr static std::size_t addrs = 0x22cb968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.Send
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.Send
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)(
-    ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::Send)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)(
+    ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Send)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2298fe4;
+  constexpr static std::size_t addrs = 0x22cc2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "Send", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "Send", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataWriter*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::DeliveryMethod>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection.Disconnect
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection.Disconnect
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::Disconnect)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Disconnect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x229900c;
+  constexpr static std::size_t addrs = 0x22cc2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "Disconnect",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "Disconnect",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IConnection"
-constexpr GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::operator ::GlobalNamespace::IConnection*() noexcept {
-  return static_cast<::GlobalNamespace::IConnection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IConnection"
-constexpr ::GlobalNamespace::IConnection* GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::i___GlobalNamespace__IConnection() noexcept {
-  return static_cast<::GlobalNamespace::IConnection*>(static_cast<void*>(this));
-}
-constexpr ::GlobalNamespace::IgnoranceConnectionManager*& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__connectionManager() {
+constexpr ::GlobalNamespace::IgnoranceConnectionManager*& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__connectionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IgnoranceConnectionManager*> const&
-GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__connectionManager() const {
+constexpr ::GlobalNamespace::IgnoranceConnectionManager* const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__connectionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionManager;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_set__connectionManager(::GlobalNamespace::IgnoranceConnectionManager* value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_set__connectionManager(::GlobalNamespace::IgnoranceConnectionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connectionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint32_t& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get_peerId() {
+constexpr uint32_t& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get_peerId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peerId;
 }
-constexpr uint32_t const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get_peerId() const {
+constexpr uint32_t const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get_peerId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___peerId;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_set_peerId(uint32_t value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_set_peerId(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___peerId = value;
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__userId_k__BackingField() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__userId_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__userId_k__BackingField() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__userId_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userId_k__BackingField;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_set__userId_k__BackingField(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_set__userId_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userId_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__userName_k__BackingField() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__userName_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__userName_k__BackingField() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__userName_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userName_k__BackingField;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_set__userName_k__BackingField(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_set__userName_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userName_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__isConnectionOwner_k__BackingField() {
+constexpr bool& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__isConnectionOwner_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner_k__BackingField;
 }
-constexpr bool const& GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_get__isConnectionOwner_k__BackingField() const {
+constexpr bool const& GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_get__isConnectionOwner_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isConnectionOwner_k__BackingField;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__cordl_internal_set__isConnectionOwner_k__BackingField(bool value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::__cordl_internal_set__isConnectionOwner_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isConnectionOwner_k__BackingField = value;
 }
-inline ::StringW GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_userId() {
+inline ::StringW GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userId() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "get_userId",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "get_userId",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_userId(::StringW value) {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userId(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_userId",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_userId",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_userName() {
+inline ::StringW GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_userName() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "get_userName",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "get_userName",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_userName(::StringW value) {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_userName(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_userName",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_userName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::get_isConnectionOwner() {
+inline bool GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::get_isConnectionOwner() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(),
                                                "get_isConnectionOwner", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::set_isConnectionOwner(bool value) {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::set_isConnectionOwner(bool value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "set_isConnectionOwner",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "set_isConnectionOwner",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*
-GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::New_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName,
-                                                                             bool isConnectionOwner) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>(connectionManager, peerId, userId, userName, isConnectionOwner));
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId,
-                                                                                      ::StringW userName, bool isConnectionOwner) {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId,
+                                                                                   ::StringW userName, bool isConnectionOwner) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectionManager, peerId, userId, userName, isConnectionOwner);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod) {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "Send", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "Send", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataWriter*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::DeliveryMethod>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, deliveryMethod);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::Disconnect() {
+inline void GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::Disconnect() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get(), "Disconnect",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get(), "Disconnect",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*
+GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::New_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName,
+                                                                          bool isConnectionOwner) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>(connectionManager, peerId, userId, userName, isConnectionOwner));
+}
+/// @brief Convert operator to "::GlobalNamespace::IConnection"
+constexpr GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::operator ::GlobalNamespace::IConnection*() noexcept {
+  return static_cast<::GlobalNamespace::IConnection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IConnection"
+constexpr ::GlobalNamespace::IConnection* GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::i___GlobalNamespace__IConnection() noexcept {
+  return static_cast<::GlobalNamespace::IConnection*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection::__IgnoranceConnectionManager__IgnoranceConnection() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection::IgnoranceConnectionManager_IgnoranceConnection() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2299030;
+  constexpr static std::size_t addrs = 0x22cc31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0._DisposeAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0._DisposeAsync_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::_DisposeAsync_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_DisposeAsync_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2299038;
+  constexpr static std::size_t addrs = 0x22cc324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*>::get(),
                                                  "<DisposeAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::IgnoranceCore::IgnoranceClient*& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__cordl_internal_get_client() {
+constexpr ::IgnoranceCore::IgnoranceClient*& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::__cordl_internal_get_client() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__cordl_internal_get_client() const {
+constexpr ::IgnoranceCore::IgnoranceClient* const& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::__cordl_internal_get_client() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___client;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__cordl_internal_set_client(::IgnoranceCore::IgnoranceClient* value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::__cordl_internal_set_client(::IgnoranceCore::IgnoranceClient* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0* GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::_ctor() {
+inline void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::_DisposeAsync_b__0() {
+inline void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::_DisposeAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*>::get(),
                                                "<DisposeAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0* GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0::__IgnoranceConnectionManager____c__DisplayClass77_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0::IgnoranceConnectionManager___c__DisplayClass77_0() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2299040;
+  constexpr static std::size_t addrs = 0x22cc32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1._DisposeAsync_b__1
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1._DisposeAsync_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::_DisposeAsync_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_DisposeAsync_b__1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2299048;
+  constexpr static std::size_t addrs = 0x22cc334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*>::get(),
                                                  "<DisposeAsync>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::IgnoranceCore::IgnoranceServer*& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__cordl_internal_get_server() {
+constexpr ::IgnoranceCore::IgnoranceServer*& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::__cordl_internal_get_server() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__cordl_internal_get_server() const {
+constexpr ::IgnoranceCore::IgnoranceServer* const& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::__cordl_internal_get_server() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___server;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__cordl_internal_set_server(::IgnoranceCore::IgnoranceServer* value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::__cordl_internal_set_server(::IgnoranceCore::IgnoranceServer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___server)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1* GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::_ctor() {
+inline void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::_DisposeAsync_b__1() {
+inline void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::_DisposeAsync_b__1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*>::get(),
                                                "<DisposeAsync>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1* GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1::__IgnoranceConnectionManager____c__DisplayClass77_1() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0._ctor
+constexpr ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1::IgnoranceConnectionManager___c__DisplayClass77_1() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22986d4;
+  constexpr static std::size_t addrs = 0x22cb9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0._HandleIncomingEvents_b__0
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0._HandleIncomingEvents_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::*)(
-    ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*)>(&::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::_HandleIncomingEvents_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::*)(
+    ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_HandleIncomingEvents_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2299050;
+  constexpr static std::size_t addrs = 0x22cc33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*>::get(), "<HandleIncomingEvents>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*>::get(), "<HandleIncomingEvents>b__0",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::__cordl_internal_get_userId() {
+constexpr ::StringW& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::__cordl_internal_get_userId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
-constexpr ::StringW const& GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::__cordl_internal_get_userId() const {
+constexpr ::StringW const& GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::__cordl_internal_get_userId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___userId;
 }
-constexpr void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::__cordl_internal_set_userId(::StringW value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::__cordl_internal_set_userId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0* GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*>());
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::_ctor() {
+inline void GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool
-GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::_HandleIncomingEvents_b__0(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection* existingConnections) {
+inline bool GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::_HandleIncomingEvents_b__0(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection* existingConnections) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*>::get(), "<HandleIncomingEvents>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*>::get(), "<HandleIncomingEvents>b__0",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, existingConnections);
 }
+inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0* GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0::__IgnoranceConnectionManager____c__DisplayClass80_0() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99.MoveNext
+constexpr ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0::IgnoranceConnectionManager___c__DisplayClass80_0() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::MoveNext)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x2299074;
+  constexpr static std::size_t addrs = 0x22cc360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22994d0;
+  constexpr static std::size_t addrs = 0x22cc7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99>::get(),
-                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::MoveNext() {
+inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "", def_value: Some("{}") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99(
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
     ::System::Threading::CancellationToken _cancellationToken_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -857,78 +853,78 @@ constexpr ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnect
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99() {}
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77.MoveNext
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99() {}
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::*)()>(
-    &::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::*)()>(
+    &::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::MoveNext)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x2299538;
+  constexpr static std::size_t addrs = 0x22cc824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2299968;
+  constexpr static std::size_t addrs = 0x22ccc54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::MoveNext() {
+inline void GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::__IgnoranceConnectionManager___DisposeAsync_d__77(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::IgnoranceConnectionManager__DisposeAsync_d__77(int32_t __1__state,
+                                                                                                                            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                                                            ::GlobalNamespace::IgnoranceConnectionManager* __4__this,
+                                                                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77::__IgnoranceConnectionManager___DisposeAsync_d__77() {}
+constexpr ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77::IgnoranceConnectionManager__DisposeAsync_d__77() {}
 //  Writing Method size for method: ::GlobalNamespace::IgnoranceConnectionManager.add_onInitializedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2296cf8;
+  constexpr static std::size_t addrs = 0x22c9fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -943,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onInitializedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2296d94;
+  constexpr static std::size_t addrs = 0x22ca080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -958,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2296e30;
+  constexpr static std::size_t addrs = 0x22ca11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -973,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2296ecc;
+  constexpr static std::size_t addrs = 0x22ca1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -988,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2296f68;
+  constexpr static std::size_t addrs = 0x22ca254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1003,7 +999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::DisconnectedReason>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297018;
+  constexpr static std::size_t addrs = 0x22ca304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1018,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22970c8;
+  constexpr static std::size_t addrs = 0x22ca3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1033,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionFailedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297178;
+  constexpr static std::size_t addrs = 0x22ca464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1048,7 +1044,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297228;
+  constexpr static std::size_t addrs = 0x22ca514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1063,7 +1059,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_1<::GlobalNamespace::IConnection*>*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionConnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22972d8;
+  constexpr static std::size_t addrs = 0x22ca5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1078,7 +1074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::add_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297388;
+  constexpr static std::size_t addrs = 0x22ca674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1094,7 +1090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*)>(&::GlobalNamespace::IgnoranceConnectionManager::remove_onConnectionDisconnectedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297438;
+  constexpr static std::size_t addrs = 0x22ca724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1111,7 +1107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::add_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22974e8;
+  constexpr static std::size_t addrs = 0x22ca7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1128,7 +1124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*)>(
         &::GlobalNamespace::IgnoranceConnectionManager::remove_onReceivedDataEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2297598;
+  constexpr static std::size_t addrs = 0x22ca884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1144,7 +1140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297648;
+  constexpr static std::size_t addrs = 0x22ca934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1158,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_userId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297650;
+  constexpr static std::size_t addrs = 0x22ca93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1173,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297658;
+  constexpr static std::size_t addrs = 0x22ca944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1187,7 +1183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297660;
+  constexpr static std::size_t addrs = 0x22ca94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1202,7 +1198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnected)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2297668;
+  constexpr static std::size_t addrs = 0x22ca954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1216,7 +1212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2297678;
+  constexpr static std::size_t addrs = 0x22ca964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1230,7 +1226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isDisconnecting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2297688;
+  constexpr static std::size_t addrs = 0x22ca974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1244,7 +1240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_connectionCount)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2297698;
+  constexpr static std::size_t addrs = 0x22ca984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1258,7 +1254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isConnectionOwner)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22976e0;
+  constexpr static std::size_t addrs = 0x22ca9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1272,7 +1268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_isDisposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22976f0;
+  constexpr static std::size_t addrs = 0x22ca9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1286,7 +1282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297700;
+  constexpr static std::size_t addrs = 0x22ca9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1300,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_serverUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297708;
+  constexpr static std::size_t addrs = 0x22ca9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::get_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297710;
+  constexpr static std::size_t addrs = 0x22ca9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1329,7 +1325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::StringW)>(
     &::GlobalNamespace::IgnoranceConnectionManager::set_serverUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2297718;
+  constexpr static std::size_t addrs = 0x22caa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1343,7 +1339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22921c8;
+  constexpr static std::size_t addrs = 0x22c54b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), ".ctor",
@@ -1357,7 +1353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::BGNet::Core::ITimeProvider*, ::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::IgnoranceConnectionManager::_ctor)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2297720;
+  constexpr static std::size_t addrs = 0x22caa0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1373,7 +1369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::PollUpdate)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22978c4;
+  constexpr static std::size_t addrs = 0x22cabb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1387,7 +1383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisposeAsync)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2298088;
+  constexpr static std::size_t addrs = 0x22cb374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1400,7 +1396,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(&::GlobalNamespace::IgnoranceConnectionManager::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2298148;
+  constexpr static std::size_t addrs = 0x22cb434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "Dispose",
@@ -1414,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleConnectionEvents)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x22979d8;
+  constexpr static std::size_t addrs = 0x22cacc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1428,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleIncomingEvents)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2297c48;
+  constexpr static std::size_t addrs = 0x22caf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1442,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::HandleDisconnectionEvents)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2297fcc;
+  constexpr static std::size_t addrs = 0x22cb2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1456,7 +1452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetDataWriter* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2298488;
+  constexpr static std::size_t addrs = 0x22cb774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1468,16 +1464,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(
-    ::LiteNetLib::Utils::NetDataReader*, ByRef<::StringW>, ByRef<::StringW>, ByRef<bool>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage)> {
+    ::LiteNetLib::Utils::NetDataReader*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<bool>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22986dc;
+  constexpr static std::size_t addrs = 0x22cb9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "TryParseConnectionMessage", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -1487,7 +1483,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     uint32_t, ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::Send)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2298598;
+  constexpr static std::size_t addrs = 0x22cb884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1504,7 +1500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(uint32_t, ::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::DisconnectPeer)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2298810;
+  constexpr static std::size_t addrs = 0x22cbafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1518,15 +1514,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IgnoranceConnectionManager::*)(
-    uint32_t, ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryGetConnection)> {
+    uint32_t, ::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>)>(&::GlobalNamespace::IgnoranceConnectionManager::TryGetConnection)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2298900;
+  constexpr static std::size_t addrs = 0x22cbbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "TryGetConnection", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>>::get() })));
     return ___internal_method;
   }
 };
@@ -1536,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2298a10;
+  constexpr static std::size_t addrs = 0x22cbcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1552,7 +1548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::BGNet::Core::DeliveryMethod, ::GlobalNamespace::IConnection*)>(&::GlobalNamespace::IgnoranceConnectionManager::SendToAll)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2298ac8;
+  constexpr static std::size_t addrs = 0x22cbdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1569,7 +1565,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::IgnoranceConnectionManager::Disconnect)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x229817c;
+  constexpr static std::size_t addrs = 0x22cb468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1584,7 +1580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IConnection* (::GlobalNamespace::IgnoranceConnectionManager::*)(int32_t)>(
     &::GlobalNamespace::IgnoranceConnectionManager::GetConnection)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2298ba8;
+  constexpr static std::size_t addrs = 0x22cbe94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1598,7 +1594,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Core::DeliveryMethod (*)(uint8_t)>(&::GlobalNamespace::IgnoranceConnectionManager::ToDeliveryMethod)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22989f4;
+  constexpr static std::size_t addrs = 0x22cbce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1612,7 +1608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::BGNet::Core::DeliveryMethod)>(&::GlobalNamespace::IgnoranceConnectionManager::ToChannel)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2298a00;
+  constexpr static std::size_t addrs = 0x22cbcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1626,7 +1622,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::IgnoranceCore::IgnoranceClient*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForClientShutdown)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2298330;
+  constexpr static std::size_t addrs = 0x22cb61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1640,7 +1636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::IgnoranceCore::IgnoranceServer*)>(&::GlobalNamespace::IgnoranceConnectionManager::WaitForServerShutdown)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22983dc;
+  constexpr static std::size_t addrs = 0x22cb6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1654,7 +1650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2298c8c;
+  constexpr static std::size_t addrs = 0x22cbf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1668,7 +1664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::IgnoranceConnectionManager::LogError)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2298c00;
+  constexpr static std::size_t addrs = 0x22cbeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1683,7 +1679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::StartBackgroundSentry)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2298d18;
+  constexpr static std::size_t addrs = 0x22cc004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1697,7 +1693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::CheckSentryState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22979b4;
+  constexpr static std::size_t addrs = 0x22caca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1711,7 +1707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IgnoranceConnectionManager::*)()>(
     &::GlobalNamespace::IgnoranceConnectionManager::BackgroundDisconnectSentry)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2298ecc;
+  constexpr static std::size_t addrs = 0x22cc1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
@@ -1719,35 +1715,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IConnectionManager"
-constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::GlobalNamespace::IConnectionManager*() noexcept {
-  return static_cast<::GlobalNamespace::IConnectionManager*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IConnectionManager"
-constexpr ::GlobalNamespace::IConnectionManager* GlobalNamespace::IgnoranceConnectionManager::i___GlobalNamespace__IConnectionManager() noexcept {
-  return static_cast<::GlobalNamespace::IConnectionManager*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::GlobalNamespace::IPollable"
-constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::GlobalNamespace::IPollable*() noexcept {
-  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IPollable"
-constexpr ::GlobalNamespace::IPollable* GlobalNamespace::IgnoranceConnectionManager::i___GlobalNamespace__IPollable() noexcept {
-  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::IgnoranceConnectionManager::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Action*& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onInitializedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInitializedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onInitializedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onInitializedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onInitializedEvent;
 }
@@ -1759,7 +1731,7 @@ constexpr ::System::Action*& GlobalNamespace::IgnoranceConnectionManager::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectedEvent;
 }
@@ -1771,8 +1743,7 @@ constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& GlobalName
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDisconnectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const&
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onDisconnectedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onDisconnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onDisconnectedEvent;
 }
@@ -1784,8 +1755,7 @@ constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& Global
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionFailedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const&
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionFailedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionFailedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionFailedEvent;
 }
@@ -1797,8 +1767,7 @@ constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionConnectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const&
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionConnectedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::IConnection*>* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionConnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionConnectedEvent;
 }
@@ -1811,7 +1780,7 @@ GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionDi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionDisconnectedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const&
+constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* const&
 GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onConnectionDisconnectedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onConnectionDisconnectedEvent;
@@ -1826,7 +1795,7 @@ GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onReceivedData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceivedDataEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*> const&
+constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* const&
 GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get_onReceivedDataEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___onReceivedDataEvent;
@@ -1873,15 +1842,15 @@ constexpr void GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____channels)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__state() {
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
-constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__state() const {
+constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____state;
 }
-constexpr void GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set__state(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState value) {
+constexpr void GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set__state(::GlobalNamespace::IgnoranceConnectionManager_ConnectionState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____state = value;
 }
@@ -1889,7 +1858,7 @@ constexpr ::IgnoranceCore::IgnoranceClient*& GlobalNamespace::IgnoranceConnectio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__client() const {
+constexpr ::IgnoranceCore::IgnoranceClient* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__client() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____client;
 }
@@ -1901,7 +1870,7 @@ constexpr ::IgnoranceCore::IgnoranceServer*& GlobalNamespace::IgnoranceConnectio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____server;
 }
-constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__server() const {
+constexpr ::IgnoranceCore::IgnoranceServer* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__server() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____server;
 }
@@ -1913,8 +1882,7 @@ constexpr ::GlobalNamespace::IConnectionRequestHandler*& GlobalNamespace::Ignora
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const&
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connectionRequestHandler() const {
+constexpr ::GlobalNamespace::IConnectionRequestHandler* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connectionRequestHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestHandler;
 }
@@ -1926,7 +1894,7 @@ constexpr ::System::Collections::Generic::List_1<uint32_t>*& GlobalNamespace::Ig
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingConnections;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__pendingConnections() const {
+constexpr ::System::Collections::Generic::List_1<uint32_t>* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__pendingConnections() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingConnections;
 }
@@ -1934,18 +1902,18 @@ constexpr void GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingConnections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>*&
 GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connections() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connections;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* const&
 GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connections() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connections;
 }
 constexpr void
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>* value) {
+GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____connections)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1953,7 +1921,7 @@ constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::IgnoranceConnect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataWriter;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__incomingDataWriter() const {
+constexpr ::LiteNetLib::Utils::NetDataWriter* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__incomingDataWriter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataWriter;
 }
@@ -1965,7 +1933,7 @@ constexpr ::LiteNetLib::Utils::NetDataReader*& GlobalNamespace::IgnoranceConnect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataReader;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__incomingDataReader() const {
+constexpr ::LiteNetLib::Utils::NetDataReader* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__incomingDataReader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____incomingDataReader;
 }
@@ -1977,7 +1945,7 @@ constexpr ::LiteNetLib::Utils::NetDataWriter*& GlobalNamespace::IgnoranceConnect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestWriter;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connectionRequestWriter() const {
+constexpr ::LiteNetLib::Utils::NetDataWriter* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__connectionRequestWriter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectionRequestWriter;
 }
@@ -1989,8 +1957,7 @@ constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::Ignora
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundSentryDisconnectCts;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
-GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__backgroundSentryDisconnectCts() const {
+constexpr ::System::Threading::CancellationTokenSource* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__backgroundSentryDisconnectCts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundSentryDisconnectCts;
 }
@@ -2026,7 +1993,7 @@ constexpr ::BGNet::Core::ITimeProvider*& GlobalNamespace::IgnoranceConnectionMan
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__timeProvider() const {
+constexpr ::BGNet::Core::ITimeProvider* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__timeProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeProvider;
 }
@@ -2038,7 +2005,7 @@ constexpr ::BGNet::Core::ITaskUtility*& GlobalNamespace::IgnoranceConnectionMana
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
-constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__taskUtility() const {
+constexpr ::BGNet::Core::ITaskUtility* const& GlobalNamespace::IgnoranceConnectionManager::__cordl_internal_get__taskUtility() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskUtility;
 }
@@ -2234,16 +2201,10 @@ inline void GlobalNamespace::IgnoranceConnectionManager::set_serverUserName(::St
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::IgnoranceConnectionManager* GlobalNamespace::IgnoranceConnectionManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager*>());
-}
 inline void GlobalNamespace::IgnoranceConnectionManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::IgnoranceConnectionManager* GlobalNamespace::IgnoranceConnectionManager::New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager*>(timeProvider, taskUtility));
 }
 inline void GlobalNamespace::IgnoranceConnectionManager::_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -2296,13 +2257,13 @@ inline ::LiteNetLib::Utils::NetDataWriter* GlobalNamespace::IgnoranceConnectionM
                                                                              "GetConnectionMessage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::Utils::NetDataWriter*, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName,
-                                                                                   ByRef<bool> isConnectionOwner) {
+inline bool GlobalNamespace::IgnoranceConnectionManager::TryParseConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName,
+                                                                                   ::ByRef<bool> isConnectionOwner) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "TryParseConnectionMessage", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, reader, userId, userName, isConnectionOwner);
 }
 inline void GlobalNamespace::IgnoranceConnectionManager::Send(uint32_t peerId, ::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod) {
@@ -2313,7 +2274,6 @@ inline void GlobalNamespace::IgnoranceConnectionManager::Send(uint32_t peerId, :
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::DeliveryMethod>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peerId, writer, deliveryMethod);
 }
-/// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
 inline void GlobalNamespace::IgnoranceConnectionManager::DisconnectPeer(uint32_t peerId, ::GlobalNamespace::DisconnectedReason disconnectedReason) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "DisconnectPeer", std::span<Il2CppClass const* const, 0>(),
@@ -2321,11 +2281,11 @@ inline void GlobalNamespace::IgnoranceConnectionManager::DisconnectPeer(uint32_t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DisconnectedReason>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peerId, disconnectedReason);
 }
-inline bool GlobalNamespace::IgnoranceConnectionManager::TryGetConnection(uint32_t peerId, ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*> connection) {
+inline bool GlobalNamespace::IgnoranceConnectionManager::TryGetConnection(uint32_t peerId, ::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*> connection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "TryGetConnection", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, peerId, connection);
 }
 inline void GlobalNamespace::IgnoranceConnectionManager::SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod) {
@@ -2344,7 +2304,6 @@ inline void GlobalNamespace::IgnoranceConnectionManager::SendToAll(::LiteNetLib:
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer, deliveryMethod, excludingConnection);
 }
-/// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
 inline void GlobalNamespace::IgnoranceConnectionManager::Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(), "Disconnect", std::span<Il2CppClass const* const, 0>(),
@@ -2407,6 +2366,36 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::IgnoranceConnectionMan
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IgnoranceConnectionManager*>::get(),
                                                                              "BackgroundDisconnectSentry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::IgnoranceConnectionManager* GlobalNamespace::IgnoranceConnectionManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager*>());
+}
+inline ::GlobalNamespace::IgnoranceConnectionManager* GlobalNamespace::IgnoranceConnectionManager::New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::IgnoranceConnectionManager*>(timeProvider, taskUtility));
+}
+/// @brief Convert operator to "::GlobalNamespace::IConnectionManager"
+constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::GlobalNamespace::IConnectionManager*() noexcept {
+  return static_cast<::GlobalNamespace::IConnectionManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IConnectionManager"
+constexpr ::GlobalNamespace::IConnectionManager* GlobalNamespace::IgnoranceConnectionManager::i___GlobalNamespace__IConnectionManager() noexcept {
+  return static_cast<::GlobalNamespace::IConnectionManager*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::GlobalNamespace::IPollable"
+constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::GlobalNamespace::IPollable*() noexcept {
+  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IPollable"
+constexpr ::GlobalNamespace::IPollable* GlobalNamespace::IgnoranceConnectionManager::i___GlobalNamespace__IPollable() noexcept {
+  return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::IgnoranceConnectionManager::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::IgnoranceConnectionManager::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::IgnoranceConnectionManager::IgnoranceConnectionManager() {}

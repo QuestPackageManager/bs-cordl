@@ -20,27 +20,26 @@ class InputExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputExtensions);
-// Type: UnityEngine.InputSystem::InputExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputExtensions*
+// CS Name: UnityEngine.InputSystem.InputExtensions
 class CORDL_TYPE InputExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsActive, addr 0x4567398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x45c86ac, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsActive(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsEndedOrCanceled, addr 0x4567a64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEndedOrCanceled, addr 0x45c8d78, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndedOrCanceled(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsInProgress, addr 0x4567a54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInProgress, addr 0x45c8d68, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInProgress(::UnityEngine::InputSystem::InputActionPhase phase);
 
-  /// @brief Method IsModifierKey, addr 0x4567a74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x45c8d88, size 0x10, virtual false, abstract: false, final false
   static inline bool IsModifierKey(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method IsTextInputKey, addr 0x4567a84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsTextInputKey, addr 0x45c8d98, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsTextInputKey(::UnityEngine::InputSystem::Key key);
 
 protected:
@@ -58,7 +57,7 @@ public:
   InputExtensions(InputExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,16 +9,16 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequest*, ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>)>(
+    static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequest*, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>)>(
         &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::RequestHasErrors)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4736284;
+  constexpr static std::size_t addrs = 0x4797598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "RequestHasErrors", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>>::get() })));
     return ___internal_method;
   }
 };
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::IsAssetBundleDownloaded)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x472f4a0;
+  constexpr static std::size_t addrs = 0x47907b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47364ac;
+  constexpr static std::size_t addrs = 0x47977c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,11 +54,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq,
-                                                                                              ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result) {
+                                                                                              ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "RequestHasErrors", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequest*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, webReq, result);
 }
 inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op) {
@@ -68,14 +68,14 @@ inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::IsA
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, op);
 }
-inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>());
-}
 inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::UnityWebRequestUtilities() {}

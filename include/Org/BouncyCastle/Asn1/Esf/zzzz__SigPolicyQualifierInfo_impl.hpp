@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f0284;
+  constexpr static std::size_t addrs = 0x2323570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::_ctor)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x22f1520;
+  constexpr static std::size_t addrs = 0x232480c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22f1720;
+  constexpr static std::size_t addrs = 0x2324a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::get_SigPolicyQualifierId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f1768;
+  constexpr static std::size_t addrs = 0x2324a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::get_SigQualifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f1770;
+  constexpr static std::size_t addrs = 0x2324a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22f1778;
+  constexpr static std::size_t addrs = 0x2324a64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,8 +101,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyQualifierId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const&
-Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::__cordl_internal_get_sigPolicyQualifierId() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::__cordl_internal_get_sigPolicyQualifierId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyQualifierId;
 }
@@ -114,7 +113,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& Org::BouncyCastle::Asn1::Esf::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigQualifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::__cordl_internal_get_sigQualifier() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::__cordl_internal_get_sigQualifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigQualifier;
 }
@@ -128,18 +127,11 @@ inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* Org::BouncyCastle
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId,
-                                                                                                                              ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>(sigPolicyQualifierId, sigQualifier));
 }
 inline void Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,6 +155,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::SigP
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId,
+                                                                                                                              ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>(sigPolicyQualifierId, sigQualifier));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo::SigPolicyQualifierInfo() {}

@@ -14,84 +14,82 @@
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TParam1, typename TParam2>
 constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*&
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get___4__this() {
+Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TParam1, typename TParam2>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*> const&
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get___4__this() const {
+constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* const&
+Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TParam1, typename TParam2>
-constexpr void Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_set___4__this(
+constexpr void Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_set___4__this(
     ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TParam1, typename TParam2>
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*&
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get_args() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get_args() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
 template <typename TParam1, typename TParam2>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get_args() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const&
+Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_get_args() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
 template <typename TParam1, typename TParam2>
 constexpr void
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
+Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
-template <typename TParam1, typename TParam2>
-inline ::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*
-Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*>());
-}
-template <typename TParam1, typename TParam2> inline void Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::_ctor() {
+template <typename TParam1, typename TParam2> inline void Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*>::get(),
-                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2>
-inline void Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
+inline void Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*>::get(), "<AddInstallers>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*>::get(), "<AddInstallers>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subContainer);
 }
 template <typename TParam1, typename TParam2>
-inline ::System::Object* Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*>::get(),
                                   "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2>
-inline ::Zenject::InjectTypeInfo* Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__zenCreateInjectTypeInfo() {
+inline ::Zenject::InjectTypeInfo* Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*>::get(),
                                   "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+template <typename TParam1, typename TParam2>
+inline ::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*
+Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>*>());
+}
 // Ctor Parameters []
 template <typename TParam1, typename TParam2>
-constexpr ::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0() {}
+constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0<TParam1, TParam2>::SubContainerCreatorByNewGameObjectMethod_2___c__DisplayClass2_0() {}
 template <typename TParam1, typename TParam2>
 constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*& Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::__cordl_internal_get__installerMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
 }
 template <typename TParam1, typename TParam2>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*> const&
-Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::__cordl_internal_get__installerMethod() const {
+constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* const& Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::__cordl_internal_get__installerMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
 }
@@ -99,12 +97,6 @@ template <typename TParam1, typename TParam2>
 constexpr void Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::__cordl_internal_set__installerMethod(::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____installerMethod, value);
-}
-template <typename TParam1, typename TParam2>
-inline ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*
-Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
-                                                                                ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* installerMethod) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*>(container, gameObjectBindInfo, installerMethod));
 }
 template <typename TParam1, typename TParam2>
 inline void Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -123,6 +115,12 @@ inline void Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
+}
+template <typename TParam1, typename TParam2>
+inline ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*
+Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
+                                                                                ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* installerMethod) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*>(container, gameObjectBindInfo, installerMethod));
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2> constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>::SubContainerCreatorByNewGameObjectMethod_2() {}

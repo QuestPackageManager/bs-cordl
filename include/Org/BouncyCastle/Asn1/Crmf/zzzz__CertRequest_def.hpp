@@ -30,11 +30,10 @@ class CertRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::CertRequest);
-// Type: Org.BouncyCastle.Asn1.Crmf::CertRequest
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Crmf::CertRequest*
+// CS Name: Org.BouncyCastle.Asn1.Crmf.CertRequest
 class CORDL_TYPE CertRequest : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field controls, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_controls, put = __cordl_internal_set_controls)) ::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
 
-  /// @brief Method GetInstance, addr 0x22dc9d4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230fcc0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate,
@@ -64,20 +63,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22dd2f0, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23105dc, size 0x170, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_certReqId() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_certReqId() const;
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* const& __cordl_internal_get_certTemplate() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __cordl_internal_get_certTemplate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __cordl_internal_get_certTemplate() const;
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls* const& __cordl_internal_get_controls() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& __cordl_internal_get_controls();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& __cordl_internal_get_controls() const;
 
   constexpr void __cordl_internal_set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
 
@@ -85,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
-  /// @brief Method .ctor, addr 0x22dd29c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2310588, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x22dd218, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2310504, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x22dcf58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2310244, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReqID, addr 0x22dd2d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x23105c4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CertTemplate, addr 0x22dd2e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertTemplate, addr 0x23105cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertTemplate();
 
-  /// @brief Method get_Controls, addr 0x22dd2e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Controls, addr 0x23105d4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::Controls* get_Controls();
 
 protected:
@@ -117,6 +116,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertRequest(CertRequest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 106 };
+
   /// @brief Field certReqId, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___certReqId;
 
@@ -126,19 +128,16 @@ public:
   /// @brief Field controls, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Crmf::Controls* ___controls;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 106 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::CertRequest, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___certReqId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___certTemplate) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Crmf::CertRequest, ___controls) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Crmf::CertRequest, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Crmf::CertRequest);

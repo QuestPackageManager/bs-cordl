@@ -11,15 +11,14 @@ class EnvironmentHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::EnvironmentHelpers);
-// Type: System::EnvironmentHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::EnvironmentHelpers*
+// CS Name: System.EnvironmentHelpers
 class CORDL_TYPE EnvironmentHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsWindowsVistaOrAbove, addr 0x43acf4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsWindowsVistaOrAbove, addr 0x440e260, size 0x8, virtual false, abstract: false, final false
   static inline bool IsWindowsVistaOrAbove();
 
 protected:
@@ -37,7 +36,7 @@ public:
   EnvironmentHelpers(EnvironmentHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9206 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,6 @@ template <typename TArgs> inline bool UnityEngine::UIElements::IDragAndDropContr
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IDragAndDropController_1<TArgs>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, itemIds);
 }
-/// @param skipText: bool (default: false)
 template <typename TArgs>
 inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::IDragAndDropController_1<TArgs>::SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds,
                                                                                                                            bool skipText) {

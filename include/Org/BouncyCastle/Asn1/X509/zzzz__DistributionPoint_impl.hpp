@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::DistributionPoint* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25cf49c;
+  constexpr static std::size_t addrs = 0x2602788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::DistributionPoint* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::GetInstance)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x25ce538;
+  constexpr static std::size_t addrs = 0x2601824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x25cf4b4;
+  constexpr static std::size_t addrs = 0x26027a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::DistributionPointName*, ::Org::BouncyCastle::Asn1::X509::ReasonFlags*, ::Org::BouncyCastle::Asn1::X509::GeneralNames*)>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25cf6e4;
+  constexpr static std::size_t addrs = 0x26029d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::DistributionPointName* (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::get_DistributionPointName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cf720;
+  constexpr static std::size_t addrs = 0x2602a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ReasonFlags* (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::get_Reasons)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cf728;
+  constexpr static std::size_t addrs = 0x2602a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>::get(),
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::get_CrlIssuer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cf730;
+  constexpr static std::size_t addrs = 0x2602a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>::get(),
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x25cf738;
+  constexpr static std::size_t addrs = 0x2602a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::DistributionPoint::ToString)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x25cf80c;
+  constexpr static std::size_t addrs = 0x2602af8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::DistributionPoint::*)(
     ::System::Text::StringBuilder*, ::StringW, ::StringW, ::StringW)>(&::Org::BouncyCastle::Asn1::X509::DistributionPoint::appendObject)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25cf9c4;
+  constexpr static std::size_t addrs = 0x2602cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,8 +169,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& Org::BouncyCa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const&
-Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_distributionPoint() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName* const& Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_distributionPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionPoint;
 }
@@ -182,7 +181,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reasons;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_reasons() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags* const& Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_reasons() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reasons;
 }
@@ -194,7 +193,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cRLIssuer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_cRLIssuer() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& Org::BouncyCastle::Asn1::X509::DistributionPoint::__cordl_internal_get_cRLIssuer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cRLIssuer;
 }
@@ -215,19 +214,11 @@ inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* Org::BouncyCastle::As
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName,
-                                                                                                                      ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons,
-                                                                                                                      ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>(distributionPointName, reasons, crlIssuer));
 }
 inline void Org::BouncyCastle::Asn1::X509::DistributionPoint::_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName,
                                                                     ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons, ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer) {
@@ -270,6 +261,14 @@ inline void Org::BouncyCastle::Asn1::X509::DistributionPoint::appendObject(::Sys
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buf, sep, name, val);
+}
+inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* Org::BouncyCastle::Asn1::X509::DistributionPoint::New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName,
+                                                                                                                      ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons,
+                                                                                                                      ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>(distributionPointName, reasons, crlIssuer));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPoint::DistributionPoint() {}

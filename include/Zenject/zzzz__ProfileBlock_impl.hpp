@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ProfileBlock.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProfileBlock_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::ProfileBlock._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProfileBlock::*)(::StringW, bool)>(&::Zenject::ProfileBlock::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed0a0;
+  constexpr static std::size_t addrs = 0x4b519b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProfileBlock::*)(::StringW)>(&::Zenject::ProfileBlock::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed0a8;
+  constexpr static std::size_t addrs = 0x4b519b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Regex* (*)()>(&::Zenject::ProfileBlock::get_ProfilePattern)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4aed0b0;
+  constexpr static std::size_t addrs = 0x4b519c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get(), "get_ProfilePattern",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::RegularExpressions::Regex*)>(&::Zenject::ProfileBlock::set_ProfilePattern)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4aed0f8;
+  constexpr static std::size_t addrs = 0x4b51a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ProfileBlock* (*)()>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed144;
+  constexpr static std::size_t addrs = 0x4b51a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get(), "Start",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ProfileBlock* (*)(::StringW, ::System::Object*, ::System::Object*)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed14c;
+  constexpr static std::size_t addrs = 0x4b51a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ProfileBlock* (*)(::StringW, ::System::Object*)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed154;
+  constexpr static std::size_t addrs = 0x4b51a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ProfileBlock* (*)(::StringW)>(&::Zenject::ProfileBlock::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aed15c;
+  constexpr static std::size_t addrs = 0x4b51a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ProfileBlock::*)()>(&::Zenject::ProfileBlock::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4aed164;
+  constexpr static std::size_t addrs = 0x4b51a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get(), "Dispose",
@@ -130,14 +130,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Zenject::ProfileBlock::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Zenject::ProfileBlock::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 inline void Zenject::ProfileBlock::setStaticF__ProfilePattern_k__BackingField(::System::Text::RegularExpressions::Regex* value) {
   ::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex*, "<ProfilePattern>k__BackingField",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get>(std::forward<::System::Text::RegularExpressions::Regex*>(value));
@@ -146,17 +138,11 @@ inline ::System::Text::RegularExpressions::Regex* Zenject::ProfileBlock::getStat
   return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "<ProfilePattern>k__BackingField",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get>();
 }
-inline ::Zenject::ProfileBlock* Zenject::ProfileBlock::New_ctor(::StringW sampleName, bool rootBlock) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ProfileBlock*>(sampleName, rootBlock));
-}
 inline void Zenject::ProfileBlock::_ctor(::StringW sampleName, bool rootBlock) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sampleName, rootBlock);
-}
-inline ::Zenject::ProfileBlock* Zenject::ProfileBlock::New_ctor(::StringW sampleName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ProfileBlock*>(sampleName));
 }
 inline void Zenject::ProfileBlock::_ctor(::StringW sampleName) {
   static auto* ___internal_method =
@@ -203,6 +189,20 @@ inline void Zenject::ProfileBlock::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ProfileBlock*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::ProfileBlock* Zenject::ProfileBlock::New_ctor(::StringW sampleName, bool rootBlock) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ProfileBlock*>(sampleName, rootBlock));
+}
+inline ::Zenject::ProfileBlock* Zenject::ProfileBlock::New_ctor(::StringW sampleName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ProfileBlock*>(sampleName));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Zenject::ProfileBlock::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Zenject::ProfileBlock::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::ProfileBlock::ProfileBlock() {}

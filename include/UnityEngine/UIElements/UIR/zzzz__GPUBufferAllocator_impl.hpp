@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4954c58;
+  constexpr static std::size_t addrs = 0x49b9568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(uint32_t, bool)>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::Allocate)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4950b50;
+  constexpr static std::size_t addrs = 0x49b5460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)(::UnityEngine::UIElements::UIR::Alloc)>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::Free)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4950c7c;
+  constexpr static std::size_t addrs = 0x49b558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::get_isEmpty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4954d18;
+  constexpr static std::size_t addrs = 0x49b9628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::GPUBufferAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::GPUBufferAllocator::HighLowCollide)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4954ce0;
+  constexpr static std::size_t addrs = 0x49b95f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>::get(),
@@ -81,7 +81,7 @@ constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElem
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Low;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::GPUBufferAllocator::__cordl_internal_get_m_Low() const {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator* const& UnityEngine::UIElements::UIR::GPUBufferAllocator::__cordl_internal_get_m_Low() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Low;
 }
@@ -93,16 +93,13 @@ constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& UnityEngine::UIElem
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_High;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& UnityEngine::UIElements::UIR::GPUBufferAllocator::__cordl_internal_get_m_High() const {
+constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator* const& UnityEngine::UIElements::UIR::GPUBufferAllocator::__cordl_internal_get_m_High() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_High;
 }
 constexpr void UnityEngine::UIElements::UIR::GPUBufferAllocator::__cordl_internal_set_m_High(::UnityEngine::UIElements::UIR::BestFitAllocator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_High)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* UnityEngine::UIElements::UIR::GPUBufferAllocator::New_ctor(uint32_t maxSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>(maxSize));
 }
 inline void UnityEngine::UIElements::UIR::GPUBufferAllocator::_ctor(uint32_t maxSize) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -131,6 +128,9 @@ inline bool UnityEngine::UIElements::UIR::GPUBufferAllocator::HighLowCollide() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>::get(),
                                                                              "HighLowCollide", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* UnityEngine::UIElements::UIR::GPUBufferAllocator::New_ctor(uint32_t maxSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::GPUBufferAllocator*>(maxSize));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator::GPUBufferAllocator() {}

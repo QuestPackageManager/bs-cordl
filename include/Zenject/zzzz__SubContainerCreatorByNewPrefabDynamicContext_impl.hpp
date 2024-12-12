@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabDynamicContext::*)(
     ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*)>(&::Zenject::SubContainerCreatorByNewPrefabDynamicContext::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4adb1b4;
+  constexpr static std::size_t addrs = 0x4b3fac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,10 +26,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabDynamicContext.CreateGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::SubContainerCreatorByNewPrefabDynamicContext::*)(ByRef<bool>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::SubContainerCreatorByNewPrefabDynamicContext::*)(::ByRef<bool>)>(
     &::Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4adb1f0;
+  constexpr static std::size_t addrs = 0x4b3fb00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ constexpr ::Zenject::IPrefabProvider*& Zenject::SubContainerCreatorByNewPrefabDy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__cordl_internal_get__prefabProvider() const {
+constexpr ::Zenject::IPrefabProvider* const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__cordl_internal_get__prefabProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prefabProvider;
 }
@@ -55,18 +55,13 @@ constexpr ::Zenject::GameObjectCreationParameters*& Zenject::SubContainerCreator
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__cordl_internal_get__gameObjectBindInfo() const {
+constexpr ::Zenject::GameObjectCreationParameters* const& Zenject::SubContainerCreatorByNewPrefabDynamicContext::__cordl_internal_get__gameObjectBindInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameObjectBindInfo;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefabDynamicContext::__cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameObjectBindInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* Zenject::SubContainerCreatorByNewPrefabDynamicContext::New_ctor(::Zenject::DiContainer* container,
-                                                                                                                                ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                                                                ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabDynamicContext*>(container, prefabProvider, gameObjectBindInfo));
 }
 inline void Zenject::SubContainerCreatorByNewPrefabDynamicContext::_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                          ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
@@ -77,11 +72,16 @@ inline void Zenject::SubContainerCreatorByNewPrefabDynamicContext::_ctor(::Zenje
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::GameObjectCreationParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, prefabProvider, gameObjectBindInfo);
 }
-inline ::UnityW<::UnityEngine::GameObject> Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject(ByRef<bool> shouldMakeActive) {
+inline ::UnityW<::UnityEngine::GameObject> Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject(::ByRef<bool> shouldMakeActive) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabDynamicContext*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, shouldMakeActive);
+}
+inline ::Zenject::SubContainerCreatorByNewPrefabDynamicContext* Zenject::SubContainerCreatorByNewPrefabDynamicContext::New_ctor(::Zenject::DiContainer* container,
+                                                                                                                                ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                                                                ::Zenject::GameObjectCreationParameters* gameObjectBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabDynamicContext*>(container, prefabProvider, gameObjectBindInfo));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefabDynamicContext::SubContainerCreatorByNewPrefabDynamicContext() {}

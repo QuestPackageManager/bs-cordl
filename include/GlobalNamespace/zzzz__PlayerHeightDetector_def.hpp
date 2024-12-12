@@ -20,10 +20,10 @@ namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
+class PlayerHeightDetector_InitData;
 }
 namespace GlobalNamespace {
-class __PlayerHeightDetector__InitData;
+class PlayerTransforms;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -33,17 +33,16 @@ namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
-class __PlayerHeightDetector__InitData;
+class PlayerHeightDetector_InitData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightDetector);
-MARK_REF_PTR_T(::GlobalNamespace::__PlayerHeightDetector__InitData);
-// Type: ::InitData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightDetector_InitData);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerHeightDetector::InitData*
-class CORDL_TYPE __PlayerHeightDetector__InitData : public ::System::Object {
+// CS Name: PlayerHeightDetector/InitData
+class CORDL_TYPE PlayerHeightDetector_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field headPosToPlayerHeightOffset, offset 0x10, size 0x4
@@ -52,7 +51,7 @@ public:
   /// @brief Field startPlayerHeight, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_startPlayerHeight, put = __cordl_internal_set_startPlayerHeight)) float_t startPlayerHeight;
 
-  static inline ::GlobalNamespace::__PlayerHeightDetector__InitData* New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
+  static inline ::GlobalNamespace::PlayerHeightDetector_InitData* New_ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
   constexpr float_t const& __cordl_internal_get_headPosToPlayerHeightOffset() const;
 
@@ -66,22 +65,25 @@ public:
 
   constexpr void __cordl_internal_set_startPlayerHeight(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b82f94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be481c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t headPosToPlayerHeightOffset, float_t startPlayerHeight);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerHeightDetector__InitData();
+  constexpr PlayerHeightDetector_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PlayerHeightDetector__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PlayerHeightDetector__InitData(__PlayerHeightDetector__InitData&&) = delete;
+  PlayerHeightDetector_InitData(PlayerHeightDetector_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PlayerHeightDetector__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightDetector_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PlayerHeightDetector__InitData(__PlayerHeightDetector__InitData const&) = delete;
+  PlayerHeightDetector_InitData(PlayerHeightDetector_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4639 };
 
   /// @brief Field headPosToPlayerHeightOffset, offset: 0x10, size: 0x4, def value: None
   float_t ___headPosToPlayerHeightOffset;
@@ -89,28 +91,24 @@ public:
   /// @brief Field startPlayerHeight, offset: 0x14, size: 0x4, def value: None
   float_t ___startPlayerHeight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4627 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerHeightDetector__InitData, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector_InitData, ___headPosToPlayerHeightOffset) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerHeightDetector__InitData, ___headPosToPlayerHeightOffset) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector_InitData, ___startPlayerHeight) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerHeightDetector__InitData, ___startPlayerHeight) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightDetector_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerHeightDetector
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerHeightDetector*
+// CS Name: PlayerHeightDetector
 class CORDL_TYPE PlayerHeightDetector : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using InitData = ::GlobalNamespace::__PlayerHeightDetector__InitData;
+  using InitData = ::GlobalNamespace::PlayerHeightDetector_InitData;
 
   /// @brief Field _audioTimeSyncController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
@@ -130,7 +128,7 @@ public:
   __declspec(property(get = __cordl_internal_get__computedPlayerHeight, put = __cordl_internal_set__computedPlayerHeight)) float_t _computedPlayerHeight;
 
   /// @brief Field _initData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__PlayerHeightDetector__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::PlayerHeightDetector_InitData* _initData;
 
   /// @brief Field _lastReportedHeight, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__lastReportedHeight, put = __cordl_internal_set__lastReportedHeight)) float_t _lastReportedHeight;
@@ -146,31 +144,31 @@ public:
   /// @brief Field playerHeightDidChangeEvent, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_playerHeightDidChangeEvent, put = __cordl_internal_set_playerHeightDidChangeEvent)) ::System::Action_1<float_t>* playerHeightDidChangeEvent;
 
-  /// @brief Method BeatmapObjectSpawnCallback, addr 0x3b82f48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method BeatmapObjectSpawnCallback, addr 0x3be47d0, size 0x44, virtual false, abstract: false, final false
   inline void BeatmapObjectSpawnCallback(::GlobalNamespace::ObstacleData* obstacleData);
 
-  /// @brief Method LateUpdate, addr 0x3b82d7c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3be4604, size 0x1cc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlayerHeightDetector* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b82d60, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be45e8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b82c80, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be4508, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSyncController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapObjectCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapObjectCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapObjectCallbackWrapper() const;
 
   constexpr float_t const& __cordl_internal_get__changeWeight() const;
 
@@ -180,9 +178,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__computedPlayerHeight();
 
-  constexpr ::GlobalNamespace::__PlayerHeightDetector__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::PlayerHeightDetector_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerHeightDetector__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::PlayerHeightDetector_InitData*& __cordl_internal_get__initData();
 
   constexpr float_t const& __cordl_internal_get__lastReportedHeight() const;
 
@@ -196,9 +194,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_playerHeightDidChangeEvent();
+  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_playerHeightDidChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_playerHeightDidChangeEvent() const;
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_playerHeightDidChangeEvent();
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
 
@@ -210,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__computedPlayerHeight(float_t value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__PlayerHeightDetector__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::PlayerHeightDetector_InitData* value);
 
   constexpr void __cordl_internal_set__lastReportedHeight(float_t value);
 
@@ -220,16 +218,16 @@ public:
 
   constexpr void __cordl_internal_set_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b82f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be4814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerHeightDidChangeEvent, addr 0x3b82b18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playerHeightDidChangeEvent, addr 0x3be43a0, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_playerHeight, addr 0x3b82c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerHeight, addr 0x3be4500, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playerHeight();
 
-  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x3b82bc8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playerHeightDidChangeEvent, addr 0x3be4450, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerHeightDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -246,6 +244,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerHeightDetector(PlayerHeightDetector const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4640 };
+
   /// @brief Field _playerTransforms, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
@@ -256,7 +257,7 @@ public:
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
 
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__PlayerHeightDetector__InitData* ____initData;
+  ::GlobalNamespace::PlayerHeightDetector_InitData* ____initData;
 
   /// @brief Field playerHeightDidChangeEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___playerHeightDidChangeEvent;
@@ -276,14 +277,9 @@ public:
   /// @brief Field _lastReportedHeight, offset: 0x5c, size: 0x4, def value: None
   float_t ____lastReportedHeight;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4628 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightDetector, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____playerTransforms) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____beatmapCallbacksController) == 0x28, "Offset mismatch!");
@@ -304,8 +300,10 @@ static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____changeWeight
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightDetector, ____lastReportedHeight) == 0x5c, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerHeightDetector, 0x60>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerHeightDetector);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");
-NEED_NO_BOX(::GlobalNamespace::__PlayerHeightDetector__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerHeightDetector__InitData*, "", "PlayerHeightDetector/InitData");
+NEED_NO_BOX(::GlobalNamespace::PlayerHeightDetector_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeightDetector_InitData*, "", "PlayerHeightDetector/InitData");

@@ -19,11 +19,10 @@ class ExceptionHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ExceptionHandler);
-// Type: System.Linq.Expressions.Interpreter::ExceptionHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::ExceptionHandler*
+// CS Name: System.Linq.Expressions.Interpreter.ExceptionHandler
 class CORDL_TYPE ExceptionHandler : public ::System::Object {
 public:
   // Declarations
@@ -42,18 +41,18 @@ public:
   /// @brief Field _exceptionType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__exceptionType, put = __cordl_internal_set__exceptionType)) ::System::Type* _exceptionType;
 
-  /// @brief Method Matches, addr 0x4074f90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Matches, addr 0x40d62a4, size 0x24, virtual false, abstract: false, final false
   inline bool Matches(::System::Type* exceptionType);
 
   static inline ::System::Linq::Expressions::Interpreter::ExceptionHandler* New_ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType,
                                                                                      ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
-  /// @brief Method ToString, addr 0x4074fb4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40d62c8, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& __cordl_internal_get_Filter();
+  constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter* const& __cordl_internal_get_Filter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::ExceptionFilter*> const& __cordl_internal_get_Filter() const;
+  constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter*& __cordl_internal_get_Filter();
 
   constexpr int32_t const& __cordl_internal_get_HandlerEndIndex() const;
 
@@ -67,9 +66,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_LabelIndex();
 
-  constexpr ::System::Type*& __cordl_internal_get__exceptionType();
+  constexpr ::System::Type* const& __cordl_internal_get__exceptionType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__exceptionType() const;
+  constexpr ::System::Type*& __cordl_internal_get__exceptionType();
 
   constexpr void __cordl_internal_set_Filter(::System::Linq::Expressions::Interpreter::ExceptionFilter* value);
 
@@ -81,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__exceptionType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4074f3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d6250, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, ::System::Type* exceptionType, ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter);
 
 protected:
@@ -98,6 +97,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExceptionHandler(ExceptionHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13936 };
+
   /// @brief Field _exceptionType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____exceptionType;
 
@@ -113,14 +115,9 @@ public:
   /// @brief Field Filter, offset: 0x28, size: 0x8, def value: None
   ::System::Linq::Expressions::Interpreter::ExceptionFilter* ___Filter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13902 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExceptionHandler, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionHandler, ____exceptionType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionHandler, ___LabelIndex) == 0x18, "Offset mismatch!");
@@ -130,6 +127,8 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionHandle
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionHandler, ___HandlerEndIndex) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ExceptionHandler, ___Filter) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExceptionHandler, 0x30>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ExceptionHandler);

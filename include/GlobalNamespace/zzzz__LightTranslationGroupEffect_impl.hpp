@@ -16,18 +16,18 @@
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__LightTranslationGroupEffect__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightTranslationGroupEffect__InitData::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect_InitData::*)(
     int32_t, int32_t, bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
-    ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::__LightTranslationGroupEffect__InitData::_ctor)> {
+    ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::LightTranslationGroupEffect_InitData::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b2dfdc;
+  constexpr static std::size_t addrs = 0x3b8f574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 14>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -39,190 +39,181 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_groupId() {
+constexpr int32_t& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_groupId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
-constexpr int32_t const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_groupId() const {
+constexpr int32_t const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_groupId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___groupId;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_groupId(int32_t value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_groupId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___groupId = value;
 }
-constexpr int32_t& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_elementId() {
+constexpr int32_t& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_elementId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr int32_t const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_elementId() const {
+constexpr int32_t const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_elementId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_elementId(int32_t value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_elementId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
-constexpr bool& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xMirrored() {
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xMirrored() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xMirrored;
 }
-constexpr bool const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xMirrored() const {
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xMirrored() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xMirrored;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_xMirrored(bool value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_xMirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xMirrored = value;
 }
-constexpr bool& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yMirrored() {
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yMirrored() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yMirrored;
 }
-constexpr bool const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yMirrored() const {
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yMirrored() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yMirrored;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_yMirrored(bool value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_yMirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___yMirrored = value;
 }
-constexpr bool& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zMirrored() {
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zMirrored() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zMirrored;
 }
-constexpr bool const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zMirrored() const {
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zMirrored() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zMirrored;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_zMirrored(bool value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_zMirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zMirrored = value;
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xTransform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xTransform;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xTransform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xTransform;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_xTransform(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_xTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___xTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yTransform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yTransform;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yTransform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yTransform;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_yTransform(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_yTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___yTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zTransform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zTransform;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zTransform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zTransform;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_zTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___zTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xTranslationLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_xTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_xTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_xDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_xDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___xDistributionLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_xDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_xDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xDistributionLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yTranslationLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_yTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_yTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___yTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_yDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_yDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___yDistributionLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_yDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_yDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___yDistributionLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zTranslationLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_get_zDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_get_zDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zDistributionLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect__InitData::__cordl_internal_set_zDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect_InitData::__cordl_internal_set_zDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zDistributionLimits = value;
 }
-inline ::GlobalNamespace::__LightTranslationGroupEffect__InitData*
-GlobalNamespace::__LightTranslationGroupEffect__InitData::New_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
-                                                                   ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits,
-                                                                   ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
-                                                                   ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LightTranslationGroupEffect__InitData*>(groupId, elementId, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform,
-                                                                                                               xTranslationLimits, xDistributionLimits, yTranslationLimits, yDistributionLimits,
-                                                                                                               zTranslationLimits, zDistributionLimits));
-}
-inline void GlobalNamespace::__LightTranslationGroupEffect__InitData::_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
-                                                                            ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits,
-                                                                            ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
-                                                                            ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits,
-                                                                            ::UnityEngine::Vector2 zDistributionLimits) {
+inline void GlobalNamespace::LightTranslationGroupEffect_InitData::_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
+                                                                         ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits,
+                                                                         ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
+                                                                         ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits,
+                                                                         ::UnityEngine::Vector2 zDistributionLimits) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 14>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -234,131 +225,139 @@ inline void GlobalNamespace::__LightTranslationGroupEffect__InitData::_ctor(int3
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform, xTranslationLimits,
                                                           xDistributionLimits, yTranslationLimits, yDistributionLimits, zTranslationLimits, zDistributionLimits);
 }
+inline ::GlobalNamespace::LightTranslationGroupEffect_InitData*
+GlobalNamespace::LightTranslationGroupEffect_InitData::New_ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform,
+                                                                ::UnityEngine::Transform* yTransform, ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits,
+                                                                ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits, ::UnityEngine::Vector2 yDistributionLimits,
+                                                                ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroupEffect_InitData*>(groupId, elementId, xMirrored, yMirrored, zMirrored, xTransform, yTransform, zTransform,
+                                                                                                            xTranslationLimits, xDistributionLimits, yTranslationLimits, yDistributionLimits,
+                                                                                                            zTranslationLimits, zDistributionLimits));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LightTranslationGroupEffect__InitData::__LightTranslationGroupEffect__InitData() {}
-//  Writing Method size for method: ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0._ctor
+constexpr ::GlobalNamespace::LightTranslationGroupEffect_InitData::LightTranslationGroupEffect_InitData() {}
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::*)()>(
-    &::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)()>(
+    &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2dd84;
+  constexpr static std::size_t addrs = 0x3b8f31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0._GetTranslationEventHandler_b__0
+//  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0._GetTranslationEventHandler_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::*)(
-    ::GlobalNamespace::LightTranslationBeatmapEventData*)>(&::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::_GetTranslationEventHandler_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)(
+    ::GlobalNamespace::LightTranslationBeatmapEventData*)>(&::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_GetTranslationEventHandler_b__0)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3b2e0b4;
+  constexpr static std::size_t addrs = 0x3b8f64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>::get(),
                                     "<GetTranslationEventHandler>b__0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightTranslationBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::Tweening::FloatTween*& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_translationTween() {
+constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationTween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_translationTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationTween;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_set_translationTween(::Tweening::FloatTween* value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_translationTween(::Tweening::FloatTween* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___translationTween)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_translationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_translationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_translationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___translationLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_set_translationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_translationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___translationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_distributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_distributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_distributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_distributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionLimits;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_distributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distributionLimits = value;
 }
-constexpr bool& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_mirrored() {
+constexpr bool& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_mirrored() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrored;
 }
-constexpr bool const& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get_mirrored() const {
+constexpr bool const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get_mirrored() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mirrored;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_set_mirrored(bool value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set_mirrored(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mirrored = value;
 }
-constexpr ::GlobalNamespace::LightTranslationGroupEffect*& GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::LightTranslationGroupEffect*& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightTranslationGroupEffect*> const&
-GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::LightTranslationGroupEffect* const& GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__cordl_internal_set___4__this(::GlobalNamespace::LightTranslationGroupEffect* value) {
+constexpr void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::__cordl_internal_set___4__this(::GlobalNamespace::LightTranslationGroupEffect* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0* GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0*>());
-}
-inline void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::_ctor() {
+inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::_GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData) {
+inline void GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>::get(),
                                   "<GetTranslationEventHandler>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightTranslationBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentEventData);
 }
+inline ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0* GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__LightTranslationGroupEffect____c__DisplayClass12_0::__LightTranslationGroupEffect____c__DisplayClass12_0() {}
+constexpr ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::LightTranslationGroupEffect___c__DisplayClass12_0() {}
 //  Writing Method size for method: ::GlobalNamespace::LightTranslationGroupEffect._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(
-    ::GlobalNamespace::__LightTranslationGroupEffect__InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
+    ::GlobalNamespace::LightTranslationGroupEffect_InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightTranslationGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0xbd4;
-  constexpr static std::size_t addrs = 0x3b2d05c;
+  constexpr static std::size_t addrs = 0x3b8e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightTranslationGroupEffect__InitData*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightTranslationGroupEffect_InitData*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
     return ___internal_method;
@@ -370,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(
     &::GlobalNamespace::LightTranslationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b2dd1c;
+  constexpr static std::size_t addrs = 0x3b8f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect*>::get(),
@@ -385,7 +384,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::LightTranslationGroupEffect::*)(::Tweening::FloatTween*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::GetTranslationEventHandler)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b2dc30;
+  constexpr static std::size_t addrs = 0x3b8f1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(float_t)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTranslation)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3b2dd8c;
+  constexpr static std::size_t addrs = 0x3b8f324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -417,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTweenData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b2df54;
+  constexpr static std::size_t addrs = 0x3b8f4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -435,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b2df90;
+  constexpr static std::size_t addrs = 0x3b8f528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -462,8 +461,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -476,7 +474,7 @@ GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__transformMas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformMask;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>*> const&
+constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::UnityEngine::Transform>, ::UnityEngine::Vector3>>* const&
 GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__transformMask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transformMask;
@@ -490,7 +488,7 @@ constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__xTranslationTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__xTranslationTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationTween;
 }
@@ -502,7 +500,7 @@ constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__yTranslationTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__yTranslationTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationTween;
 }
@@ -514,7 +512,7 @@ constexpr ::Tweening::FloatTween*& GlobalNamespace::LightTranslationGroupEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__zTranslationTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__zTranslationTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationTween;
 }
@@ -526,8 +524,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationXBeatmapEventCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationXBeatmapEventCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationXBeatmapEventCallbackWrapper;
 }
@@ -540,8 +537,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationYBeatmapEventCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationYBeatmapEventCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationYBeatmapEventCallbackWrapper;
 }
@@ -554,8 +550,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Light
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationZBeatmapEventCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_get__lightTranslationZBeatmapEventCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationZBeatmapEventCallbackWrapper;
 }
@@ -564,16 +559,11 @@ constexpr void GlobalNamespace::LightTranslationGroupEffect::__cordl_internal_se
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightTranslationZBeatmapEventCallbackWrapper)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::LightTranslationGroupEffect* GlobalNamespace::LightTranslationGroupEffect::New_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData,
-                                                                                                              ::Tweening::SongTimeTweeningManager* tweeningManager,
-                                                                                                              ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroupEffect*>(initData, tweeningManager, beatmapCallbacksController));
-}
-inline void GlobalNamespace::LightTranslationGroupEffect::_ctor(::GlobalNamespace::__LightTranslationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
+inline void GlobalNamespace::LightTranslationGroupEffect::_ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightTranslationGroupEffect__InitData*>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightTranslationGroupEffect_InitData*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCallbacksController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initData, tweeningManager, beatmapCallbacksController);
@@ -618,6 +608,11 @@ inline float_t GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, translation, translationLimits, distribution, distributionLimits, mirrored);
+}
+inline ::GlobalNamespace::LightTranslationGroupEffect* GlobalNamespace::LightTranslationGroupEffect::New_ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData,
+                                                                                                              ::Tweening::SongTimeTweeningManager* tweeningManager,
+                                                                                                              ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroupEffect*>(initData, tweeningManager, beatmapCallbacksController));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightTranslationGroupEffect::LightTranslationGroupEffect() {}

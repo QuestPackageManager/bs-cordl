@@ -10,81 +10,81 @@
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapCharacteristicsDropdown____c::*)()>(
-    &::GlobalNamespace::__BeatmapCharacteristicsDropdown____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown___c::*)()>(
+    &::GlobalNamespace::BeatmapCharacteristicsDropdown___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af5504;
+  constexpr static std::size_t addrs = 0x3b54d5c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c._Start_b__5_0
+//  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown___c._Start_b__5_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BeatmapCharacteristicsDropdown____c::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
-    &::GlobalNamespace::__BeatmapCharacteristicsDropdown____c::_Start_b__5_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicsDropdown___c::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
+    &::GlobalNamespace::BeatmapCharacteristicsDropdown___c::_Start_b__5_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3af550c;
+  constexpr static std::size_t addrs = 0x3b54d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get(), "<Start>b__5_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get(), "<Start>b__5_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__BeatmapCharacteristicsDropdown____c::setStaticF___9(::GlobalNamespace::__BeatmapCharacteristicsDropdown____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get>(
-      std::forward<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>(value));
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::setStaticF___9(::GlobalNamespace::BeatmapCharacteristicsDropdown___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get>(
+      std::forward<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>(value));
 }
-inline ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c* GlobalNamespace::__BeatmapCharacteristicsDropdown____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get>();
+inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* GlobalNamespace::BeatmapCharacteristicsDropdown___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get>();
 }
-inline void GlobalNamespace::__BeatmapCharacteristicsDropdown____c::setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* GlobalNamespace::__BeatmapCharacteristicsDropdown____c::getStaticF___9__5_0() {
+inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* GlobalNamespace::BeatmapCharacteristicsDropdown___c::getStaticF___9__5_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get>();
 }
-inline ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c* GlobalNamespace::__BeatmapCharacteristicsDropdown____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>());
-}
-inline void GlobalNamespace::__BeatmapCharacteristicsDropdown____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get(),
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__BeatmapCharacteristicsDropdown____c::_Start_b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x) {
+inline ::StringW GlobalNamespace::BeatmapCharacteristicsDropdown___c::_Start_b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapCharacteristicsDropdown____c*>::get(), "<Start>b__5_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>::get(), "<Start>b__5_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
 }
+inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* GlobalNamespace::BeatmapCharacteristicsDropdown___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicsDropdown___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapCharacteristicsDropdown____c::__BeatmapCharacteristicsDropdown____c() {}
+constexpr ::GlobalNamespace::BeatmapCharacteristicsDropdown___c::BeatmapCharacteristicsDropdown___c() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapCharacteristicsDropdown.add_didSelectCellWithIdxEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent)> {
+    ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*)>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af4d30;
+  constexpr static std::size_t addrs = 0x3b54588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(), "add_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -92,14 +92,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(
-    ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent)> {
+    ::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*)>(&::GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af4de0;
+  constexpr static std::size_t addrs = 0x3b54638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(), "remove_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::Start)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3af4e90;
+  constexpr static std::size_t addrs = 0x3b546e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3af5040;
+  constexpr static std::size_t addrs = 0x3b54898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::GetSelectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3af5110;
+  constexpr static std::size_t addrs = 0x3b54968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3af51c8;
+  constexpr static std::size_t addrs = 0x3b54a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::StringW)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::SelectCellWithBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3af5240;
+  constexpr static std::size_t addrs = 0x3b54a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3af53c4;
+  constexpr static std::size_t addrs = 0x3b54c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsDropdown::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsDropdown::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af54a0;
+  constexpr static std::size_t addrs = 0x3b54cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(),
@@ -223,8 +223,7 @@ constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const&
-GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__beatmapCharacteristicCollection() const {
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get__beatmapCharacteristicCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
@@ -236,8 +235,7 @@ constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const&
-GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal_get_didSelectCellWithIdxEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didSelectCellWithIdxEvent;
 }
@@ -245,16 +243,16 @@ constexpr void GlobalNamespace::BeatmapCharacteristicsDropdown::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didSelectCellWithIdxEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::add_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(), "add_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value) {
+inline void GlobalNamespace::BeatmapCharacteristicsDropdown::remove_didSelectCellWithIdxEvent(::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(), "remove_didSelectCellWithIdxEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::BeatmapCharacteristicSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BeatmapCharacteristicsDropdown::Start() {
@@ -292,13 +290,13 @@ inline void GlobalNamespace::BeatmapCharacteristicsDropdown::HandleSimpleTextDro
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropdownWithTableView, idx);
 }
-inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* GlobalNamespace::BeatmapCharacteristicsDropdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicsDropdown*>());
-}
 inline void GlobalNamespace::BeatmapCharacteristicsDropdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsDropdown*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* GlobalNamespace::BeatmapCharacteristicsDropdown::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicsDropdown*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicsDropdown::BeatmapCharacteristicsDropdown() {}

@@ -12,23 +12,22 @@ class ExtensionType;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ExtensionType);
-// Type: Org.BouncyCastle.Crypto.Tls::ExtensionType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::ExtensionType*
+// CS Name: Org.BouncyCastle.Crypto.Tls.ExtensionType
 class CORDL_TYPE ExtensionType : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DRAFT_token_binding, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_DRAFT_token_binding, put = setStaticF_DRAFT_token_binding)) int32_t DRAFT_token_binding;
+  __declspec(property(get = getStaticF_DRAFT_token_binding, put = setStaticF_DRAFT_token_binding)) int32_t DRAFT_token_binding;
 
   /// @brief Field negotiated_ff_dhe_groups, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_negotiated_ff_dhe_groups, put = setStaticF_negotiated_ff_dhe_groups)) int32_t negotiated_ff_dhe_groups;
+  __declspec(property(get = getStaticF_negotiated_ff_dhe_groups, put = setStaticF_negotiated_ff_dhe_groups)) int32_t negotiated_ff_dhe_groups;
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ExtensionType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e158c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414878, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DRAFT_token_binding();

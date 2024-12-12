@@ -7,50 +7,47 @@
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 template <typename T0, typename T1, typename T2>
-constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value0() {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value0;
 }
 template <typename T0, typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const&
-GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value0() const {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* const& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value0;
 }
 template <typename T0, typename T1, typename T2>
-constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value) {
+constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value0(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____value0, value);
 }
 template <typename T0, typename T1, typename T2>
-constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value1() {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value1;
 }
 template <typename T0, typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*> const&
-GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value1() const {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* const& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value1;
 }
 template <typename T0, typename T1, typename T2>
-constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value1(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* value) {
+constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value1(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____value1, value);
 }
 template <typename T0, typename T1, typename T2>
-constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value2() {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>*& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value2;
 }
 template <typename T0, typename T1, typename T2>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>*> const&
-GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value2() const {
+constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* const& GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_get__value2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value2;
 }
 template <typename T0, typename T1, typename T2>
-constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value2(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* value) {
+constexpr void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::__cordl_internal_set__value2(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____value2, value);
 }
@@ -93,13 +90,13 @@ template <typename T0, typename T1, typename T2> inline void GlobalNamespace::Re
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T0, typename T1, typename T2> inline ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>* GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>());
-}
 template <typename T0, typename T1, typename T2> inline void GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T0, typename T1, typename T2> inline ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>* GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>*>());
 }
 // Ctor Parameters []
 template <typename T0, typename T1, typename T2> constexpr ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>::RemoteProcedureCall_3() {}

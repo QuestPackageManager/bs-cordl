@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterText::*)(::GlobalNamespace::GameServersFilter*, bool)>(
     &::GlobalNamespace::GameServersFilterText::Setup)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3aa2ef8;
+  constexpr static std::size_t addrs = 0x3b0038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterText::*)(
     ::GlobalNamespace::BeatmapDifficultyMask, ::GlobalNamespace::SongPackMask, bool)>(&::GlobalNamespace::GameServersFilterText::Setup)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3aa3180;
+  constexpr static std::size_t addrs = 0x3b00614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterText::*)()>(&::GlobalNamespace::GameServersFilterText::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3aa33b0;
+  constexpr static std::size_t addrs = 0x3b00844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterText*>::get(), ".ctor",
@@ -70,7 +70,7 @@ constexpr ::GlobalNamespace::SongPackMasksModel*& GlobalNamespace::GameServersFi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& GlobalNamespace::GameServersFilterText::__cordl_internal_get__songPackMasksModel() const {
+constexpr ::GlobalNamespace::SongPackMasksModel* const& GlobalNamespace::GameServersFilterText::__cordl_internal_get__songPackMasksModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
@@ -82,7 +82,7 @@ constexpr ::System::Text::StringBuilder*& GlobalNamespace::GameServersFilterText
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& GlobalNamespace::GameServersFilterText::__cordl_internal_get__stringBuilder() const {
+constexpr ::System::Text::StringBuilder* const& GlobalNamespace::GameServersFilterText::__cordl_internal_get__stringBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stringBuilder;
 }
@@ -105,13 +105,13 @@ inline void GlobalNamespace::GameServersFilterText::Setup(::GlobalNamespace::Bea
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapDifficultyMask, songPackMask, visible);
 }
-inline ::GlobalNamespace::GameServersFilterText* GlobalNamespace::GameServersFilterText::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServersFilterText*>());
-}
 inline void GlobalNamespace::GameServersFilterText::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterText*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GameServersFilterText* GlobalNamespace::GameServersFilterText::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServersFilterText*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServersFilterText::GameServersFilterText() {}

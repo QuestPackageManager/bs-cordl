@@ -3,65 +3,63 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/Settings/zzzz__QualitySettings_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QualitySettings)
 namespace BeatSaber::Settings {
-struct __QualitySettings__BloomQuality;
+struct QualitySettings_BloomQuality;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__MainEffectOption;
+struct QualitySettings_MainEffectOption;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__MirrorQuality;
+struct QualitySettings_MirrorQuality;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__ObstacleQuality;
+struct QualitySettings_ObstacleQuality;
 }
 // Forward declare root types
 namespace BeatSaber::Settings {
-struct __QualitySettings__BloomQuality;
+struct QualitySettings_BloomQuality;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__MainEffectOption;
+struct QualitySettings_MainEffectOption;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__MirrorQuality;
+struct QualitySettings_MirrorQuality;
 }
 namespace BeatSaber::Settings {
-struct __QualitySettings__ObstacleQuality;
+struct QualitySettings_ObstacleQuality;
 }
 namespace BeatSaber::Settings {
 struct QualitySettings;
 }
 // Write type traits
-MARK_VAL_T(::BeatSaber::Settings::__QualitySettings__BloomQuality);
-MARK_VAL_T(::BeatSaber::Settings::__QualitySettings__MainEffectOption);
-MARK_VAL_T(::BeatSaber::Settings::__QualitySettings__MirrorQuality);
-MARK_VAL_T(::BeatSaber::Settings::__QualitySettings__ObstacleQuality);
+MARK_VAL_T(::BeatSaber::Settings::QualitySettings_BloomQuality);
+MARK_VAL_T(::BeatSaber::Settings::QualitySettings_MainEffectOption);
+MARK_VAL_T(::BeatSaber::Settings::QualitySettings_MirrorQuality);
+MARK_VAL_T(::BeatSaber::Settings::QualitySettings_ObstacleQuality);
 MARK_VAL_T(::BeatSaber::Settings::QualitySettings);
-// Type: ::MainEffectOption
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QualitySettings::MainEffectOption
-struct CORDL_TYPE __QualitySettings__MainEffectOption {
+// CS Name: BeatSaber.Settings.QualitySettings/MainEffectOption
+struct CORDL_TYPE QualitySettings_MainEffectOption {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QualitySettings__MainEffectOption_Unwrapped
-  enum struct ____QualitySettings__MainEffectOption_Unwrapped : int32_t {
+  /// @brief Nested struct __QualitySettings_MainEffectOption_Unwrapped
+  enum struct __QualitySettings_MainEffectOption_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Game = static_cast<int32_t>(0x1),
     __E_LightBaking = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QualitySettings__MainEffectOption_Unwrapped() const noexcept {
-    return static_cast<____QualitySettings__MainEffectOption_Unwrapped>(this->value__);
+  constexpr operator __QualitySettings_MainEffectOption_Unwrapped() const noexcept {
+    return static_cast<__QualitySettings_MainEffectOption_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -71,56 +69,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QualitySettings__MainEffectOption();
+  constexpr QualitySettings_MainEffectOption();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QualitySettings__MainEffectOption(int32_t value__) noexcept;
+  constexpr QualitySettings_MainEffectOption(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Game value: I32(1)
+  static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Game;
 
-  /// @brief Field Game value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QualitySettings__MainEffectOption const Game;
+  /// @brief Field LightBaking value: I32(2)
+  static ::BeatSaber::Settings::QualitySettings_MainEffectOption const LightBaking;
 
-  /// @brief Field LightBaking value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__QualitySettings__MainEffectOption const LightBaking;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QualitySettings__MainEffectOption const Off;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::QualitySettings_MainEffectOption const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18011 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QualitySettings__MainEffectOption, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QualitySettings_MainEffectOption, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QualitySettings__MainEffectOption, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings_MainEffectOption, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::BloomQuality
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QualitySettings::BloomQuality
-struct CORDL_TYPE __QualitySettings__BloomQuality {
+// CS Name: BeatSaber.Settings.QualitySettings/BloomQuality
+struct CORDL_TYPE QualitySettings_BloomQuality {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QualitySettings__BloomQuality_Unwrapped
-  enum struct ____QualitySettings__BloomQuality_Unwrapped : int32_t {
+  /// @brief Nested struct __QualitySettings_BloomQuality_Unwrapped
+  enum struct __QualitySettings_BloomQuality_Unwrapped : int32_t {
     __E_Game = static_cast<int32_t>(0x0),
     __E_LightBaking = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QualitySettings__BloomQuality_Unwrapped() const noexcept {
-    return static_cast<____QualitySettings__BloomQuality_Unwrapped>(this->value__);
+  constexpr operator __QualitySettings_BloomQuality_Unwrapped() const noexcept {
+    return static_cast<__QualitySettings_BloomQuality_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -130,46 +127,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QualitySettings__BloomQuality();
+  constexpr QualitySettings_BloomQuality();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QualitySettings__BloomQuality(int32_t value__) noexcept;
+  constexpr QualitySettings_BloomQuality(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Game value: I32(0)
+  static ::BeatSaber::Settings::QualitySettings_BloomQuality const Game;
 
-  /// @brief Field Game value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QualitySettings__BloomQuality const Game;
-
-  /// @brief Field LightBaking value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QualitySettings__BloomQuality const LightBaking;
+  /// @brief Field LightBaking value: I32(1)
+  static ::BeatSaber::Settings::QualitySettings_BloomQuality const LightBaking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18012 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QualitySettings__BloomQuality, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QualitySettings_BloomQuality, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QualitySettings__BloomQuality, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings_BloomQuality, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::MirrorQuality
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QualitySettings::MirrorQuality
-struct CORDL_TYPE __QualitySettings__MirrorQuality {
+// CS Name: BeatSaber.Settings.QualitySettings/MirrorQuality
+struct CORDL_TYPE QualitySettings_MirrorQuality {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QualitySettings__MirrorQuality_Unwrapped
-  enum struct ____QualitySettings__MirrorQuality_Unwrapped : int32_t {
+  /// @brief Nested struct __QualitySettings_MirrorQuality_Unwrapped
+  enum struct __QualitySettings_MirrorQuality_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_Low = static_cast<int32_t>(0x1),
     __E_Medium = static_cast<int32_t>(0x2),
@@ -177,8 +173,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QualitySettings__MirrorQuality_Unwrapped() const noexcept {
-    return static_cast<____QualitySettings__MirrorQuality_Unwrapped>(this->value__);
+  constexpr operator __QualitySettings_MirrorQuality_Unwrapped() const noexcept {
+    return static_cast<__QualitySettings_MirrorQuality_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -188,60 +184,59 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QualitySettings__MirrorQuality();
+  constexpr QualitySettings_MirrorQuality();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QualitySettings__MirrorQuality(int32_t value__) noexcept;
+  constexpr QualitySettings_MirrorQuality(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field High value: I32(3)
+  static ::BeatSaber::Settings::QualitySettings_MirrorQuality const High;
 
-  /// @brief Field High value: static_cast<int32_t>(0x3)
-  static ::BeatSaber::Settings::__QualitySettings__MirrorQuality const High;
+  /// @brief Field Low value: I32(1)
+  static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Low;
 
-  /// @brief Field Low value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QualitySettings__MirrorQuality const Low;
+  /// @brief Field Medium value: I32(2)
+  static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Medium;
 
-  /// @brief Field Medium value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__QualitySettings__MirrorQuality const Medium;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QualitySettings__MirrorQuality const Off;
+  /// @brief Field Off value: I32(0)
+  static ::BeatSaber::Settings::QualitySettings_MirrorQuality const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18013 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QualitySettings__MirrorQuality, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QualitySettings_MirrorQuality, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QualitySettings__MirrorQuality, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings_MirrorQuality, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: ::ObstacleQuality
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::QualitySettings::ObstacleQuality
-struct CORDL_TYPE __QualitySettings__ObstacleQuality {
+// CS Name: BeatSaber.Settings.QualitySettings/ObstacleQuality
+struct CORDL_TYPE QualitySettings_ObstacleQuality {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____QualitySettings__ObstacleQuality_Unwrapped
-  enum struct ____QualitySettings__ObstacleQuality_Unwrapped : int32_t {
+  /// @brief Nested struct __QualitySettings_ObstacleQuality_Unwrapped
+  enum struct __QualitySettings_ObstacleQuality_Unwrapped : int32_t {
     __E_Low = static_cast<int32_t>(0x0),
     __E_Medium = static_cast<int32_t>(0x1),
     __E_High = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____QualitySettings__ObstacleQuality_Unwrapped() const noexcept {
-    return static_cast<____QualitySettings__ObstacleQuality_Unwrapped>(this->value__);
+  constexpr operator __QualitySettings_ObstacleQuality_Unwrapped() const noexcept {
+    return static_cast<__QualitySettings_ObstacleQuality_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -251,52 +246,52 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QualitySettings__ObstacleQuality();
+  constexpr QualitySettings_ObstacleQuality();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __QualitySettings__ObstacleQuality(int32_t value__) noexcept;
+  constexpr QualitySettings_ObstacleQuality(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field High value: I32(2)
+  static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const High;
 
-  /// @brief Field High value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::Settings::__QualitySettings__ObstacleQuality const High;
+  /// @brief Field Low value: I32(0)
+  static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Low;
 
-  /// @brief Field Low value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::Settings::__QualitySettings__ObstacleQuality const Low;
-
-  /// @brief Field Medium value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::Settings::__QualitySettings__ObstacleQuality const Medium;
+  /// @brief Field Medium value: I32(1)
+  static ::BeatSaber::Settings::QualitySettings_ObstacleQuality const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18014 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::__QualitySettings__ObstacleQuality, 0x4>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::QualitySettings_ObstacleQuality, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::Settings::__QualitySettings__ObstacleQuality, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings_ObstacleQuality, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
-// Type: BeatSaber.Settings::QualitySettings
-// SizeInfo { instance_size: 56, native_size: 68, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Settings.QualitySettings::BloomQuality, BeatSaber.Settings.QualitySettings::MainEffectOption, BeatSaber.Settings.QualitySettings::MirrorQuality,
+// BeatSaber.Settings.QualitySettings::ObstacleQuality
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::BeatSaber.Settings::QualitySettings
+// CS Name: BeatSaber.Settings.QualitySettings
 struct CORDL_TYPE QualitySettings {
 public:
   // Declarations
-  using BloomQuality = ::BeatSaber::Settings::__QualitySettings__BloomQuality;
+  using BloomQuality = ::BeatSaber::Settings::QualitySettings_BloomQuality;
 
-  using MainEffectOption = ::BeatSaber::Settings::__QualitySettings__MainEffectOption;
+  using MainEffectOption = ::BeatSaber::Settings::QualitySettings_MainEffectOption;
 
-  using MirrorQuality = ::BeatSaber::Settings::__QualitySettings__MirrorQuality;
+  using MirrorQuality = ::BeatSaber::Settings::QualitySettings_MirrorQuality;
 
-  using ObstacleQuality = ::BeatSaber::Settings::__QualitySettings__ObstacleQuality;
+  using ObstacleQuality = ::BeatSaber::Settings::QualitySettings_ObstacleQuality;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -305,16 +300,22 @@ public:
   // Ctor Parameters [CppParam { name: "renderViewportScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "vrResolutionScale", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "menuVRResolutionScaleMultiplier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "antiAliasingLevel", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "targetFramerate", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vSyncCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mainEffect", ty: "::BeatSaber::Settings::__QualitySettings__MainEffectOption", modifiers: "", def_value: None
-  // }, CppParam { name: "bloom", ty: "::BeatSaber::Settings::__QualitySettings__BloomQuality", modifiers: "", def_value: None }, CppParam { name: "mirror", ty:
-  // "::BeatSaber::Settings::__QualitySettings__MirrorQuality", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "::BeatSaber::Settings::__QualitySettings__ObstacleQuality",
-  // modifiers: "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smokeGraphics", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "depthTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mainEffect", ty: "::BeatSaber::Settings::QualitySettings_MainEffectOption", modifiers: "", def_value: None },
+  // CppParam { name: "bloom", ty: "::BeatSaber::Settings::QualitySettings_BloomQuality", modifiers: "", def_value: None }, CppParam { name: "mirror", ty:
+  // "::BeatSaber::Settings::QualitySettings_MirrorQuality", modifiers: "", def_value: None }, CppParam { name: "obstacles", ty: "::BeatSaber::Settings::QualitySettings_ObstacleQuality", modifiers:
+  // "", def_value: None }, CppParam { name: "screenDisplacementEffects", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smokeGraphics", ty: "bool", modifiers: "", def_value: None },
+  // CppParam { name: "depthTexture", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "burnMarkTrails", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr QualitySettings(float_t renderViewportScale, float_t vrResolutionScale, float_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, int32_t targetFramerate, int32_t vSyncCount,
-                            int32_t maxQueuedFrames, ::BeatSaber::Settings::__QualitySettings__MainEffectOption mainEffect, ::BeatSaber::Settings::__QualitySettings__BloomQuality bloom,
-                            ::BeatSaber::Settings::__QualitySettings__MirrorQuality mirror, ::BeatSaber::Settings::__QualitySettings__ObstacleQuality obstacles, bool screenDisplacementEffects,
+                            int32_t maxQueuedFrames, ::BeatSaber::Settings::QualitySettings_MainEffectOption mainEffect, ::BeatSaber::Settings::QualitySettings_BloomQuality bloom,
+                            ::BeatSaber::Settings::QualitySettings_MirrorQuality mirror, ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacles, bool screenDisplacementEffects,
                             bool smokeGraphics, bool depthTexture, bool burnMarkTrails, int32_t maxShockwaveParticles, int32_t maxNumberOfCutSoundEffects) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18015 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field renderViewportScale, offset: 0x0, size: 0x4, def value: None
   float_t renderViewportScale;
@@ -338,16 +339,16 @@ public:
   int32_t maxQueuedFrames;
 
   /// @brief Field mainEffect, offset: 0x1c, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QualitySettings__MainEffectOption mainEffect;
+  ::BeatSaber::Settings::QualitySettings_MainEffectOption mainEffect;
 
   /// @brief Field bloom, offset: 0x20, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QualitySettings__BloomQuality bloom;
+  ::BeatSaber::Settings::QualitySettings_BloomQuality bloom;
 
   /// @brief Field mirror, offset: 0x24, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QualitySettings__MirrorQuality mirror;
+  ::BeatSaber::Settings::QualitySettings_MirrorQuality mirror;
 
   /// @brief Field obstacles, offset: 0x28, size: 0x4, def value: None
-  ::BeatSaber::Settings::__QualitySettings__ObstacleQuality obstacles;
+  ::BeatSaber::Settings::QualitySettings_ObstacleQuality obstacles;
 
   /// @brief Field screenDisplacementEffects, offset: 0x2c, size: 0x1, def value: None
   bool screenDisplacementEffects;
@@ -367,17 +368,9 @@ public:
   /// @brief Field maxNumberOfCutSoundEffects, offset: 0x34, size: 0x4, def value: None
   int32_t maxNumberOfCutSoundEffects;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17965 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::QualitySettings, renderViewportScale) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::QualitySettings, vrResolutionScale) == 0x4, "Offset mismatch!");
@@ -412,9 +405,11 @@ static_assert(offsetof(::BeatSaber::Settings::QualitySettings, maxShockwaveParti
 
 static_assert(offsetof(::BeatSaber::Settings::QualitySettings, maxNumberOfCutSoundEffects) == 0x34, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::QualitySettings, 0x38>, "Size mismatch!");
+
 } // namespace BeatSaber::Settings
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QualitySettings__BloomQuality, "BeatSaber.Settings", "QualitySettings/BloomQuality");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QualitySettings__MainEffectOption, "BeatSaber.Settings", "QualitySettings/MainEffectOption");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QualitySettings__MirrorQuality, "BeatSaber.Settings", "QualitySettings/MirrorQuality");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::__QualitySettings__ObstacleQuality, "BeatSaber.Settings", "QualitySettings/ObstacleQuality");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QualitySettings_BloomQuality, "BeatSaber.Settings", "QualitySettings/BloomQuality");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QualitySettings_MainEffectOption, "BeatSaber.Settings", "QualitySettings/MainEffectOption");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QualitySettings_MirrorQuality, "BeatSaber.Settings", "QualitySettings/MirrorQuality");
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QualitySettings_ObstacleQuality, "BeatSaber.Settings", "QualitySettings/ObstacleQuality");
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::QualitySettings, "BeatSaber.Settings", "QualitySettings");

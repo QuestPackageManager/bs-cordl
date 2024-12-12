@@ -26,13 +26,12 @@ template <typename TContract> class MemoryPoolExpandBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolExpandBinder_1);
-// Type: Zenject::MemoryPoolExpandBinder`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.FactoryArgumentsToChoiceBinder`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
+// CS Name: Zenject.MemoryPoolExpandBinder`1<TContract>
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
   // Declarations
@@ -51,9 +50,9 @@ public:
   static inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                          ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField();
+  constexpr ::Zenject::MemoryPoolBindInfo* const& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const;
+  constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField();
 
   constexpr void __cordl_internal_set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value);
 
@@ -80,11 +79,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MemoryPoolExpandBinder_1(MemoryPoolExpandBinder_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12203 };
+
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset: 0x38, size: 0x8, def value: None
   ::Zenject::MemoryPoolBindInfo* ____MemoryPoolBindInfo_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12170 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

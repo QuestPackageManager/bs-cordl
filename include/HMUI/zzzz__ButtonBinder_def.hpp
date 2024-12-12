@@ -26,11 +26,10 @@ class ButtonBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ButtonBinder);
-// Type: HMUI::ButtonBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ButtonBinder*
+// CS Name: HMUI.ButtonBinder
 class CORDL_TYPE ButtonBinder : public ::System::Object {
 public:
   // Declarations
@@ -39,38 +38,37 @@ public:
       get = __cordl_internal_get__bindings,
       put = __cordl_internal_set__bindings)) ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* _bindings;
 
-  /// @brief Method AddBinding, addr 0x39935d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x39ea150, size 0x148, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::UI::Button* button, ::System::Action* action);
 
-  /// @brief Method AddBindings, addr 0x39936cc, size 0x164, virtual false, abstract: false, final false
-  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
+  /// @brief Method AddBindings, addr 0x39ea2cc, size 0x164, virtual false, abstract: false, final false
+  inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x3993830, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x39ea430, size 0x220, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x3993520, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x39ea0a0, size 0x74, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::HMUI::ButtonBinder* New_ctor();
 
-  static inline ::HMUI::ButtonBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
+  static inline ::HMUI::ButtonBinder* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
 
   static inline ::HMUI::ButtonBinder* New_ctor(::UnityEngine::UI::Button* button, ::System::Action* action);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>*& __cordl_internal_get__bindings();
+  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* const& __cordl_internal_get__bindings() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>*> const&
-  __cordl_internal_get__bindings() const;
+  constexpr ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>*& __cordl_internal_get__bindings();
 
   constexpr void __cordl_internal_set__bindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* value);
 
-  /// @brief Method .ctor, addr 0x3993504, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ea084, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3993698, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>* bindingData);
+  /// @brief Method .ctor, addr 0x39ea298, size 0x34, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::Button*, ::System::Action*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x3993594, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ea114, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Button* button, ::System::Action* action);
 
 protected:
@@ -87,18 +85,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonBinder(ButtonBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16013 };
+
   /// @brief Field _bindings, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::UnityEngine::Events::UnityAction*>*>* ____bindings;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15978 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ButtonBinder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ButtonBinder, ____bindings) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ButtonBinder, 0x18>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ButtonBinder);

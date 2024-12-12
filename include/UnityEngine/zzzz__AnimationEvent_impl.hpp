@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AnimationEvent::*)()>(&::UnityEngine::AnimationEvent::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47eac50;
+  constexpr static std::size_t addrs = 0x484bf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AnimationEvent*>::get(), ".ctor",
@@ -120,7 +120,7 @@ constexpr ::UnityEngine::AnimationState*& UnityEngine::AnimationEvent::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSender;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationState*> const& UnityEngine::AnimationEvent::__cordl_internal_get_m_StateSender() const {
+constexpr ::UnityEngine::AnimationState* const& UnityEngine::AnimationEvent::__cordl_internal_get_m_StateSender() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StateSender;
 }
@@ -152,13 +152,13 @@ constexpr void UnityEngine::AnimationEvent::__cordl_internal_set_m_AnimatorClipI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AnimatorClipInfo = value;
 }
-inline ::UnityEngine::AnimationEvent* UnityEngine::AnimationEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AnimationEvent*>());
-}
 inline void UnityEngine::AnimationEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AnimationEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::AnimationEvent* UnityEngine::AnimationEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AnimationEvent*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimationEvent::AnimationEvent() {}

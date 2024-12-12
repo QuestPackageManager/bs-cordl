@@ -27,11 +27,10 @@ class RecipientInformationStore;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformationStore);
-// Type: Org.BouncyCastle.Cms::RecipientInformationStore
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::RecipientInformationStore*
+// CS Name: Org.BouncyCastle.Cms.RecipientInformationStore
 class CORDL_TYPE RecipientInformationStore : public ::System::Object {
 public:
   // Declarations
@@ -45,36 +44,36 @@ public:
   /// @brief Field table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table)) ::System::Collections::IDictionary* table;
 
-  /// @brief Method GetFirstRecipient, addr 0x2648598, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRecipient, addr 0x267b884, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetRecipients, addr 0x26487cc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x267bab8, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients, addr 0x2648828, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x267bb14, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
 
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_all() const;
+
   constexpr ::System::Collections::IList*& __cordl_internal_get_all();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_all() const;
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_table() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get_table();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_table() const;
 
   constexpr void __cordl_internal_set_all(::System::Collections::IList* value);
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x26235b4, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26568a0, size 0x5b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Count, addr 0x2648728, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x267ba14, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2648594, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x267b880, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
 protected:
@@ -91,23 +90,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RecipientInformationStore(RecipientInformationStore const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 687 };
+
   /// @brief Field all, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___all;
 
   /// @brief Field table, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IDictionary* ___table;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 687 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::RecipientInformationStore, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformationStore, ___all) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformationStore, ___table) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::RecipientInformationStore, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::RecipientInformationStore);

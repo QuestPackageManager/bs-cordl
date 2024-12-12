@@ -48,8 +48,8 @@ template <typename T> inline void UnityEngine::UIElements::TreeViewItemData_1<T>
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TreeViewItemData_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newChild);
 }
-// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty: "T", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "m_Children", ty: "::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "_id_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Data", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "m_Children", ty: "::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>*", modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::UnityEngine::UIElements::TreeViewItemData_1<T>::TreeViewItemData_1(int32_t _id_k__BackingField, T m_Data,
                                                                                ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::TreeViewItemData_1<T>>* m_Children) noexcept {

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__ArgumentException_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DecoderFallbackException)
@@ -20,11 +19,10 @@ class DecoderFallbackException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::DecoderFallbackException);
-// Type: System.Text::DecoderFallbackException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ArgumentException
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::DecoderFallbackException*
+// CS Name: System.Text.DecoderFallbackException
 class CORDL_TYPE DecoderFallbackException : public ::System::ArgumentException {
 public:
   // Declarations
@@ -53,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e0da98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6db44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e0da68, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6db14, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3e0daf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6dba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -76,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DecoderFallbackException(DecoderFallbackException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2835 };
+
   /// @brief Field _bytesUnknown, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____bytesUnknown;
 
   /// @brief Field _index, offset: 0xa0, size: 0x4, def value: None
   int32_t ____index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2835 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::DecoderFallbackException, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::DecoderFallbackException, ____bytesUnknown) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::DecoderFallbackException, ____index) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::DecoderFallbackException, 0xa8>, "Size mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::DecoderFallbackException);

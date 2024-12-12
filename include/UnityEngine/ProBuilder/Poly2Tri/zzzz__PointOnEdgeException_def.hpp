@@ -15,11 +15,10 @@ class PointOnEdgeException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);
-// Type: UnityEngine.ProBuilder.Poly2Tri::PointOnEdgeException
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.NotImplementedException
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointOnEdgeException*
+// CS Name: UnityEngine.ProBuilder.Poly2Tri.PointOnEdgeException
 class CORDL_TYPE PointOnEdgeException : public ::System::NotImplementedException {
 public:
   // Declarations
@@ -36,17 +35,17 @@ public:
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                                                                                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_A() const;
+
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_A();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_A() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_B() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_B();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_B() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& __cordl_internal_get_C() const;
 
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_C();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_C() const;
 
   constexpr void __cordl_internal_set_A(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
@@ -54,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_C(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method .ctor, addr 0x46997c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46faadc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* a, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* b,
                     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* c);
 
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointOnEdgeException(PointOnEdgeException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17825 };
+
   /// @brief Field A, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___A;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field C, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* ___C;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17742 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___A) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___B) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, ___C) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException);

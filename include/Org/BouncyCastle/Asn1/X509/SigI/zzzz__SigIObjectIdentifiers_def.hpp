@@ -14,38 +14,37 @@ class SigIObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::SigIObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.X509.SigI.SigIObjectIdentifiers
 class CORDL_TYPE SigIObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdSigI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigI, put = setStaticF_IdSigI)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigI;
+  __declspec(property(get = getStaticF_IdSigI, put = setStaticF_IdSigI)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigI;
 
   /// @brief Field IdSigICP, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigICP, put = setStaticF_IdSigICP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICP;
+  __declspec(property(get = getStaticF_IdSigICP, put = setStaticF_IdSigICP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICP;
 
   /// @brief Field IdSigICPSigConform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigICPSigConform, put = setStaticF_IdSigICPSigConform)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICPSigConform;
+  __declspec(property(get = getStaticF_IdSigICPSigConform, put = setStaticF_IdSigICPSigConform)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigICPSigConform;
 
   /// @brief Field IdSigIKP, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
+  __declspec(property(get = getStaticF_IdSigIKP, put = setStaticF_IdSigIKP)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKP;
 
   /// @brief Field IdSigIKPDirectoryService, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
+  __declspec(property(get = getStaticF_IdSigIKPDirectoryService, put = setStaticF_IdSigIKPDirectoryService)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIKPDirectoryService;
 
   /// @brief Field IdSigION, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
+  __declspec(property(get = getStaticF_IdSigION, put = setStaticF_IdSigION)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigION;
 
   /// @brief Field IdSigIONPersonalData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
+  __declspec(property(get = getStaticF_IdSigIONPersonalData, put = setStaticF_IdSigIONPersonalData)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdSigIONPersonalData;
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::SigIObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24cf418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2502704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdSigI();

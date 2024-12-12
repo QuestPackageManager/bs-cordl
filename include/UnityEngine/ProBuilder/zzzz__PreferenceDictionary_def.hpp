@@ -3,6 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/ProBuilder/zzzz__IHasDefault_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -14,14 +16,8 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::ProBuilder {
-class IHasDefault;
-}
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-class ISerializationCallbackReceiver;
 }
 namespace UnityEngine {
 class Material;
@@ -32,11 +28,10 @@ class PreferenceDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::PreferenceDictionary);
-// Type: UnityEngine.ProBuilder::PreferenceDictionary
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ISerializationCallbackReceiver, UnityEngine.ProBuilder.IHasDefault, UnityEngine.ScriptableObject
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::PreferenceDictionary*
+// CS Name: UnityEngine.ProBuilder.PreferenceDictionary
 class CORDL_TYPE PreferenceDictionary : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -102,52 +97,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
 
-  /// @brief Method Clear, addr 0x46bba7c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x471cd90, size 0xe0, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method DeleteKey, addr 0x46bb268, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method DeleteKey, addr 0x471c57c, size 0x234, virtual false, abstract: false, final false
   inline void DeleteKey(::StringW key);
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Get(::StringW key, T fallback);
 
-  /// @brief Method GetBool, addr 0x46bb49c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetBool, addr 0x471c7b0, size 0x88, virtual false, abstract: false, final false
   inline bool GetBool(::StringW key, bool fallback);
 
-  /// @brief Method GetBoolDictionary, addr 0x46bba4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBoolDictionary, addr 0x471cd60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, bool>* GetBoolDictionary();
 
-  /// @brief Method GetColor, addr 0x46bb698, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetColor, addr 0x471c9ac, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::StringW key, ::UnityEngine::Color fallback);
 
-  /// @brief Method GetColorDictionary, addr 0x46bba6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetColorDictionary, addr 0x471cd80, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* GetColorDictionary();
 
-  /// @brief Method GetFloat, addr 0x46bb5a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetFloat, addr 0x471c8b4, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetFloat(::StringW key, float_t fallback);
 
-  /// @brief Method GetFloatDictionary, addr 0x46bba5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetFloatDictionary, addr 0x471cd70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* GetFloatDictionary();
 
-  /// @brief Method GetInt, addr 0x46bb524, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x471c838, size 0x7c, virtual false, abstract: false, final false
   inline int32_t GetInt(::StringW key, int32_t fallback);
 
-  /// @brief Method GetIntDictionary, addr 0x46bba54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIntDictionary, addr 0x471cd68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* GetIntDictionary();
 
-  /// @brief Method GetMaterial, addr 0x46bb740, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x471ca54, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::StringW key, ::UnityEngine::Material* fallback);
 
-  /// @brief Method GetMaterialDictionary, addr 0x46bba74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialDictionary, addr 0x471cd88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* GetMaterialDictionary();
 
-  /// @brief Method GetString, addr 0x46bb61c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x471c930, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetString(::StringW key, ::StringW fallback);
 
-  /// @brief Method GetStringDictionary, addr 0x46bba64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetStringDictionary, addr 0x471cd78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetStringDictionary();
 
-  /// @brief Method HasKey, addr 0x46bb124, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HasKey, addr 0x471c438, size 0x144, virtual false, abstract: false, final false
   inline bool HasKey(::StringW key);
 
   /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -155,107 +150,107 @@ public:
 
   static inline ::UnityEngine::ProBuilder::PreferenceDictionary* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x46bac58, size 0x3c8, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x471bf6c, size 0x3c8, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x46ba944, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x471bc58, size 0x314, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
   /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Set(::StringW key, T value);
 
-  /// @brief Method SetBool, addr 0x46bb7bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetBool, addr 0x471cad0, size 0x68, virtual false, abstract: false, final false
   inline void SetBool(::StringW key, bool value);
 
-  /// @brief Method SetColor, addr 0x46bb95c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x471cc70, size 0x88, virtual false, abstract: false, final false
   inline void SetColor(::StringW key, ::UnityEngine::Color value);
 
-  /// @brief Method SetDefaultValues, addr 0x46bb020, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SetDefaultValues, addr 0x471c334, size 0x104, virtual true, abstract: false, final true
   inline void SetDefaultValues();
 
-  /// @brief Method SetFloat, addr 0x46bb88c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x471cba0, size 0x68, virtual false, abstract: false, final false
   inline void SetFloat(::StringW key, float_t value);
 
-  /// @brief Method SetInt, addr 0x46bb824, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetInt, addr 0x471cb38, size 0x68, virtual false, abstract: false, final false
   inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method SetMaterial, addr 0x46bb9e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x471ccf8, size 0x68, virtual false, abstract: false, final false
   inline void SetMaterial(::StringW key, ::UnityEngine::Material* value);
 
-  /// @brief Method SetString, addr 0x46bb8f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetString, addr 0x471cc08, size 0x68, virtual false, abstract: false, final false
   inline void SetString(::StringW key, ::StringW value);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>* const& __cordl_internal_get_m_Bool() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, bool>*& __cordl_internal_get_m_Bool();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, bool>*> const& __cordl_internal_get_m_Bool() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Bool_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Bool_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Bool_keys() const;
+  constexpr ::System::Collections::Generic::List_1<bool>* const& __cordl_internal_get_m_Bool_values() const;
 
   constexpr ::System::Collections::Generic::List_1<bool>*& __cordl_internal_get_m_Bool_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<bool>*> const& __cordl_internal_get_m_Bool_values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>* const& __cordl_internal_get_m_Color() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*& __cordl_internal_get_m_Color();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color>*> const& __cordl_internal_get_m_Color() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Color_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Color_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Color_keys() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>* const& __cordl_internal_get_m_Color_values() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Color_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Color_values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>* const& __cordl_internal_get_m_Float() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __cordl_internal_get_m_Float();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __cordl_internal_get_m_Float() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Float_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Float_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Float_keys() const;
+  constexpr ::System::Collections::Generic::List_1<float_t>* const& __cordl_internal_get_m_Float_values() const;
 
   constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get_m_Float_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get_m_Float_values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get_m_Int() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_m_Int();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_m_Int() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Int_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Int_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Int_keys() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_Int_values() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_Int_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_Int_values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get_m_Material() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_Material();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_m_Material() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Material_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Material_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Material_keys() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get_m_Material_values() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_m_Material_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_m_Material_values() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* const& __cordl_internal_get_m_String() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get_m_String();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get_m_String() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_String_keys() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_String_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_String_keys() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_String_values() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_String_values();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_String_values() const;
 
   constexpr void __cordl_internal_set_m_Bool(::System::Collections::Generic::Dictionary_2<::StringW, bool>* value);
 
@@ -293,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set_m_String_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x46bbb5c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x471ce70, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -315,6 +310,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PreferenceDictionary", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PreferenceDictionary(PreferenceDictionary const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14264 };
 
   /// @brief Field m_Bool, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, bool>* ___m_Bool;
@@ -370,14 +368,9 @@ public:
   /// @brief Field m_Material_values, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___m_Material_values;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14230 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PreferenceDictionary, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::PreferenceDictionary, ___m_Bool) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::PreferenceDictionary, ___m_Int) == 0x20, "Offset mismatch!");
@@ -413,6 +406,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::PreferenceDictionary, ___m_Str
 static_assert(offsetof(::UnityEngine::ProBuilder::PreferenceDictionary, ___m_Color_values) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::PreferenceDictionary, ___m_Material_values) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::PreferenceDictionary, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::PreferenceDictionary);

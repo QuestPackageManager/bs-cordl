@@ -1,33 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PrefabResourceFactory_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__IFactory_3_impl.hpp"
+#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__PrefabResourceFactory_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IFactory_3_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-/// @brief Convert operator to "::Zenject::IFactory_3<::StringW,P1,T>"
-template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory_3<::StringW, P1, T>*() noexcept {
-  return static_cast<::Zenject::IFactory_3<::StringW, P1, T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory_3<::StringW,P1,T>"
-template <typename P1, typename T> constexpr ::Zenject::IFactory_3<::StringW, P1, T>* Zenject::PrefabResourceFactory_2<P1, T>::i___Zenject__IFactory_3___StringW_P1_T_() noexcept {
-  return static_cast<::Zenject::IFactory_3<::StringW, P1, T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Zenject::IFactory"
-template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory*() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::IFactory"
-template <typename P1, typename T> constexpr ::Zenject::IFactory* Zenject::PrefabResourceFactory_2<P1, T>::i___Zenject__IFactory() noexcept {
-  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
-}
 template <typename P1, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabResourceFactory_2<P1, T>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-template <typename P1, typename T> constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& Zenject::PrefabResourceFactory_2<P1, T>::__cordl_internal_get__container() const {
+template <typename P1, typename T> constexpr ::Zenject::DiContainer* const& Zenject::PrefabResourceFactory_2<P1, T>::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
@@ -44,9 +28,6 @@ template <typename P1, typename T> inline T Zenject::PrefabResourceFactory_2<P1,
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, prefabResourceName, param);
-}
-template <typename P1, typename T> inline ::Zenject::PrefabResourceFactory_2<P1, T>* Zenject::PrefabResourceFactory_2<P1, T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabResourceFactory_2<P1, T>*>());
 }
 template <typename P1, typename T> inline void Zenject::PrefabResourceFactory_2<P1, T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(), ".ctor",
@@ -70,6 +51,25 @@ template <typename P1, typename T> inline ::Zenject::InjectTypeInfo* Zenject::Pr
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename P1, typename T> inline ::Zenject::PrefabResourceFactory_2<P1, T>* Zenject::PrefabResourceFactory_2<P1, T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabResourceFactory_2<P1, T>*>());
+}
+/// @brief Convert operator to "::Zenject::IFactory_3<::StringW,P1,T>"
+template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory_3<::StringW, P1, T>*() noexcept {
+  return static_cast<::Zenject::IFactory_3<::StringW, P1, T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory_3<::StringW,P1,T>"
+template <typename P1, typename T> constexpr ::Zenject::IFactory_3<::StringW, P1, T>* Zenject::PrefabResourceFactory_2<P1, T>::i___Zenject__IFactory_3___StringW_P1_T_() noexcept {
+  return static_cast<::Zenject::IFactory_3<::StringW, P1, T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Zenject::IFactory"
+template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory*() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::IFactory"
+template <typename P1, typename T> constexpr ::Zenject::IFactory* Zenject::PrefabResourceFactory_2<P1, T>::i___Zenject__IFactory() noexcept {
+  return static_cast<::Zenject::IFactory*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename P1, typename T> constexpr ::Zenject::PrefabResourceFactory_2<P1, T>::PrefabResourceFactory_2() {}

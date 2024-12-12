@@ -12,11 +12,10 @@ struct X509ChainStatusFlags;
 }
 // Write type traits
 MARK_VAL_T(::Mono::Security::X509::X509ChainStatusFlags);
-// Type: Mono.Security.X509::X509ChainStatusFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono::Security::X509 {
 // Is value type: true
-// CS Name: ::Mono.Security.X509::X509ChainStatusFlags
+// CS Name: Mono.Security.X509.X509ChainStatusFlags
 struct CORDL_TYPE X509ChainStatusFlags {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr X509ChainStatusFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field InvalidBasicConstraints value: static_cast<int32_t>(0x400)
+  /// @brief Field InvalidBasicConstraints value: I32(1024)
   static ::Mono::Security::X509::X509ChainStatusFlags const InvalidBasicConstraints;
 
-  /// @brief Field NoError value: static_cast<int32_t>(0x0)
+  /// @brief Field NoError value: I32(0)
   static ::Mono::Security::X509::X509ChainStatusFlags const NoError;
 
-  /// @brief Field NotSignatureValid value: static_cast<int32_t>(0x8)
+  /// @brief Field NotSignatureValid value: I32(8)
   static ::Mono::Security::X509::X509ChainStatusFlags const NotSignatureValid;
 
-  /// @brief Field NotTimeNested value: static_cast<int32_t>(0x2)
+  /// @brief Field NotTimeNested value: I32(2)
   static ::Mono::Security::X509::X509ChainStatusFlags const NotTimeNested;
 
-  /// @brief Field NotTimeValid value: static_cast<int32_t>(0x1)
+  /// @brief Field NotTimeValid value: I32(1)
   static ::Mono::Security::X509::X509ChainStatusFlags const NotTimeValid;
 
-  /// @brief Field PartialChain value: static_cast<int32_t>(0x10000)
+  /// @brief Field PartialChain value: I32(65536)
   static ::Mono::Security::X509::X509ChainStatusFlags const PartialChain;
 
-  /// @brief Field UntrustedRoot value: static_cast<int32_t>(0x20)
+  /// @brief Field UntrustedRoot value: I32(32)
   static ::Mono::Security::X509::X509ChainStatusFlags const UntrustedRoot;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ChainStatusFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509ChainStatusFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509ChainStatusFlags, 0x4>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509ChainStatusFlags, "Mono.Security.X509", "X509ChainStatusFlags");

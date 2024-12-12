@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReaderWriterLockSlim)
@@ -18,48 +18,50 @@ namespace System::Threading {
 class ReaderWriterCount;
 }
 namespace System::Threading {
-struct __ReaderWriterLockSlim__TimeoutTracker;
-}
-namespace System {
-class IDisposable;
+struct ReaderWriterLockSlim_TimeoutTracker;
 }
 // Forward declare root types
 namespace System::Threading {
 class ReaderWriterLockSlim;
 }
 namespace System::Threading {
-struct __ReaderWriterLockSlim__TimeoutTracker;
+struct ReaderWriterLockSlim_TimeoutTracker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ReaderWriterLockSlim);
-MARK_VAL_T(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker);
-// Type: ::TimeoutTracker
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::System::Threading::ReaderWriterLockSlim_TimeoutTracker);
+// Dependencies
 namespace System::Threading {
 // Is value type: true
-// CS Name: ::ReaderWriterLockSlim::TimeoutTracker
-struct CORDL_TYPE __ReaderWriterLockSlim__TimeoutTracker {
+// CS Name: System.Threading.ReaderWriterLockSlim/TimeoutTracker
+struct CORDL_TYPE ReaderWriterLockSlim_TimeoutTracker {
 public:
   // Declarations
   __declspec(property(get = get_IsExpired)) bool IsExpired;
 
   __declspec(property(get = get_RemainingMilliseconds)) int32_t RemainingMilliseconds;
 
-  /// @brief Method .ctor, addr 0x40a4e14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4106128, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(int32_t millisecondsTimeout);
 
-  /// @brief Method get_IsExpired, addr 0x40a522c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsExpired, addr 0x4106540, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsExpired();
 
-  /// @brief Method get_RemainingMilliseconds, addr 0x40a6180, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_RemainingMilliseconds, addr 0x4107494, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_RemainingMilliseconds();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReaderWriterLockSlim__TimeoutTracker();
+  constexpr ReaderWriterLockSlim_TimeoutTracker();
 
   // Ctor Parameters [CppParam { name: "m_total", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_start", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ReaderWriterLockSlim__TimeoutTracker(int32_t m_total, int32_t m_start) noexcept;
+  constexpr ReaderWriterLockSlim_TimeoutTracker(int32_t m_total, int32_t m_start) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14195 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field m_total, offset: 0x0, size: 0x4, def value: None
   int32_t m_total;
@@ -67,31 +69,24 @@ public:
   /// @brief Field m_start, offset: 0x4, size: 0x4, def value: None
   int32_t m_start;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14161 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::__ReaderWriterLockSlim__TimeoutTracker, 0x8>, "Size mismatch!");
+static_assert(offsetof(::System::Threading::ReaderWriterLockSlim_TimeoutTracker, m_total) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker, m_total) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::System::Threading::ReaderWriterLockSlim_TimeoutTracker, m_start) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker, m_start) == 0x4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLockSlim_TimeoutTracker, 0x8>, "Size mismatch!");
 
 } // namespace System::Threading
-// Type: System.Threading::ReaderWriterLockSlim
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ReaderWriterLockSlim*
+// CS Name: System.Threading.ReaderWriterLockSlim
 class CORDL_TYPE ReaderWriterLockSlim : public ::System::Object {
 public:
   // Declarations
-  using TimeoutTracker = ::System::Threading::__ReaderWriterLockSlim__TimeoutTracker;
+  using TimeoutTracker = ::System::Threading::ReaderWriterLockSlim_TimeoutTracker;
 
   __declspec(property(get = get_IsReadLockHeld)) bool IsReadLockHeld;
 
@@ -148,10 +143,10 @@ public:
   __declspec(property(get = __cordl_internal_get_readEvent, put = __cordl_internal_set_readEvent)) ::System::Threading::EventWaitHandle* readEvent;
 
   /// @brief Field s_nextLockID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_nextLockID, put = setStaticF_s_nextLockID)) int64_t s_nextLockID;
+  __declspec(property(get = getStaticF_s_nextLockID, put = setStaticF_s_nextLockID)) int64_t s_nextLockID;
 
   /// @brief Field t_rwc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_t_rwc, put = setStaticF_t_rwc)) ::System::Threading::ReaderWriterCount* t_rwc;
+  __declspec(property(get = getStaticF_t_rwc, put = setStaticF_t_rwc)) ::System::Threading::ReaderWriterCount* t_rwc;
 
   /// @brief Field upgradeEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_upgradeEvent, put = __cordl_internal_set_upgradeEvent)) ::System::Threading::EventWaitHandle* upgradeEvent;
@@ -171,123 +166,123 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ClearUpgraderWaiting, addr 0x40a62f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearUpgraderWaiting, addr 0x4107604, size 0x10, virtual false, abstract: false, final false
   inline void ClearUpgraderWaiting();
 
-  /// @brief Method ClearWriterAcquired, addr 0x40a5fb8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearWriterAcquired, addr 0x41072cc, size 0x10, virtual false, abstract: false, final false
   inline void ClearWriterAcquired();
 
-  /// @brief Method ClearWritersWaiting, addr 0x40a62e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearWritersWaiting, addr 0x41075f4, size 0x10, virtual false, abstract: false, final false
   inline void ClearWritersWaiting();
 
-  /// @brief Method Dispose, addr 0x40a640c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4107720, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x40a6414, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4107728, size 0x140, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnterMyLock, addr 0x40a6300, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method EnterMyLock, addr 0x4107614, size 0x34, virtual false, abstract: false, final false
   inline void EnterMyLock();
 
-  /// @brief Method EnterMyLockSpin, addr 0x40a6334, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method EnterMyLockSpin, addr 0x4107648, size 0xd8, virtual false, abstract: false, final false
   inline void EnterMyLockSpin();
 
-  /// @brief Method EnterReadLock, addr 0x40a4de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterReadLock, addr 0x41060f4, size 0x8, virtual false, abstract: false, final false
   inline void EnterReadLock();
 
-  /// @brief Method EnterUpgradeableReadLock, addr 0x40a5940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterUpgradeableReadLock, addr 0x4106c54, size 0x8, virtual false, abstract: false, final false
   inline void EnterUpgradeableReadLock();
 
-  /// @brief Method EnterWriteLock, addr 0x40a54fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnterWriteLock, addr 0x4106810, size 0x8, virtual false, abstract: false, final false
   inline void EnterWriteLock();
 
-  /// @brief Method ExitAndWakeUpAppropriateReadWaiters, addr 0x40a624c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateReadWaiters, addr 0x4107560, size 0x94, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateReadWaiters();
 
-  /// @brief Method ExitAndWakeUpAppropriateWaiters, addr 0x40a5e44, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateWaiters, addr 0x4107158, size 0x2c, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateWaiters();
 
-  /// @brief Method ExitAndWakeUpAppropriateWaitersPreferringWriters, addr 0x40a61c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ExitAndWakeUpAppropriateWaitersPreferringWriters, addr 0x41074dc, size 0x84, virtual false, abstract: false, final false
   inline void ExitAndWakeUpAppropriateWaitersPreferringWriters();
 
-  /// @brief Method ExitMyLock, addr 0x40a5214, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ExitMyLock, addr 0x4106528, size 0x18, virtual false, abstract: false, final false
   inline void ExitMyLock();
 
-  /// @brief Method ExitReadLock, addr 0x40a5cd8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ExitReadLock, addr 0x4106fec, size 0x16c, virtual false, abstract: false, final false
   inline void ExitReadLock();
 
-  /// @brief Method ExitUpgradeableReadLock, addr 0x40a5fc8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ExitUpgradeableReadLock, addr 0x41072dc, size 0x198, virtual false, abstract: false, final false
   inline void ExitUpgradeableReadLock();
 
-  /// @brief Method ExitWriteLock, addr 0x40a5e70, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ExitWriteLock, addr 0x4107184, size 0x148, virtual false, abstract: false, final false
   inline void ExitWriteLock();
 
-  /// @brief Method GetNumReaders, addr 0x40a5934, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumReaders, addr 0x4106c48, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetNumReaders();
 
-  /// @brief Method GetThreadRWCount, addr 0x40a4cb4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetThreadRWCount, addr 0x4105fc8, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Threading::ReaderWriterCount* GetThreadRWCount(bool dontAllocate);
 
-  /// @brief Method InitializeThreadCounts, addr 0x40a4bb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitializeThreadCounts, addr 0x4105ecc, size 0xc, virtual false, abstract: false, final false
   inline void InitializeThreadCounts();
 
-  /// @brief Method IsRWEntryEmpty, addr 0x40a4c50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsRWEntryEmpty, addr 0x4105f64, size 0x40, virtual false, abstract: false, final false
   static inline bool IsRWEntryEmpty(::System::Threading::ReaderWriterCount* rwc);
 
-  /// @brief Method IsRwHashEntryChanged, addr 0x40a4c90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsRwHashEntryChanged, addr 0x4105fa4, size 0x24, virtual false, abstract: false, final false
   inline bool IsRwHashEntryChanged(::System::Threading::ReaderWriterCount* lrwc);
 
-  /// @brief Method IsWriterAcquired, addr 0x40a5914, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsWriterAcquired, addr 0x4106c28, size 0x10, virtual false, abstract: false, final false
   inline bool IsWriterAcquired();
 
-  /// @brief Method LazyCreateEvent, addr 0x40a52dc, size 0xfc, virtual false, abstract: false, final false
-  inline void LazyCreateEvent(ByRef<::System::Threading::EventWaitHandle*> waitEvent, bool makeAutoResetEvent);
+  /// @brief Method LazyCreateEvent, addr 0x41065f0, size 0xfc, virtual false, abstract: false, final false
+  inline void LazyCreateEvent(::ByRef<::System::Threading::EventWaitHandle*> waitEvent, bool makeAutoResetEvent);
 
   static inline ::System::Threading::ReaderWriterLockSlim* New_ctor();
 
   static inline ::System::Threading::ReaderWriterLockSlim* New_ctor(::System::Threading::LockRecursionPolicy recursionPolicy);
 
-  /// @brief Method SetUpgraderWaiting, addr 0x40a6170, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetUpgraderWaiting, addr 0x4107484, size 0x10, virtual false, abstract: false, final false
   inline void SetUpgraderWaiting();
 
-  /// @brief Method SetWriterAcquired, addr 0x40a5924, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWriterAcquired, addr 0x4106c38, size 0x10, virtual false, abstract: false, final false
   inline void SetWriterAcquired();
 
-  /// @brief Method SetWritersWaiting, addr 0x40a6160, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetWritersWaiting, addr 0x4107474, size 0x10, virtual false, abstract: false, final false
   inline void SetWritersWaiting();
 
-  /// @brief Method SpinWait, addr 0x40a5244, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SpinWait, addr 0x4106558, size 0x98, virtual false, abstract: false, final false
   static inline void SpinWait(int32_t SpinCount);
 
-  /// @brief Method TryEnterReadLock, addr 0x40a4de8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterReadLock, addr 0x41060fc, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterReadLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterReadLock, addr 0x40a4e98, size 0x4, virtual false, abstract: false, final false
-  inline bool TryEnterReadLock(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterReadLock, addr 0x41061ac, size 0x4, virtual false, abstract: false, final false
+  inline bool TryEnterReadLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterReadLockCore, addr 0x40a4e9c, size 0x378, virtual false, abstract: false, final false
-  inline bool TryEnterReadLockCore(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterReadLockCore, addr 0x41061b0, size 0x378, virtual false, abstract: false, final false
+  inline bool TryEnterReadLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterUpgradeableReadLock, addr 0x40a5948, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterUpgradeableReadLock, addr 0x4106c5c, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterUpgradeableReadLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterUpgradeableReadLock, addr 0x40a5974, size 0x4, virtual false, abstract: false, final false
-  inline bool TryEnterUpgradeableReadLock(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterUpgradeableReadLock, addr 0x4106c88, size 0x4, virtual false, abstract: false, final false
+  inline bool TryEnterUpgradeableReadLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterUpgradeableReadLockCore, addr 0x40a5978, size 0x360, virtual false, abstract: false, final false
-  inline bool TryEnterUpgradeableReadLockCore(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterUpgradeableReadLockCore, addr 0x4106c8c, size 0x360, virtual false, abstract: false, final false
+  inline bool TryEnterUpgradeableReadLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterWriteLock, addr 0x40a5504, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryEnterWriteLock, addr 0x4106818, size 0x2c, virtual false, abstract: false, final false
   inline bool TryEnterWriteLock(int32_t millisecondsTimeout);
 
-  /// @brief Method TryEnterWriteLock, addr 0x40a5530, size 0x4, virtual false, abstract: false, final false
-  inline bool TryEnterWriteLock(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterWriteLock, addr 0x4106844, size 0x4, virtual false, abstract: false, final false
+  inline bool TryEnterWriteLock(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method TryEnterWriteLockCore, addr 0x40a5534, size 0x3e0, virtual false, abstract: false, final false
-  inline bool TryEnterWriteLockCore(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout);
+  /// @brief Method TryEnterWriteLockCore, addr 0x4106848, size 0x3e0, virtual false, abstract: false, final false
+  inline bool TryEnterWriteLockCore(::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout);
 
-  /// @brief Method WaitOnEvent, addr 0x40a53d8, size 0x124, virtual false, abstract: false, final false
-  inline bool WaitOnEvent(::System::Threading::EventWaitHandle* waitEvent, ByRef<uint32_t> numWaiters, ::System::Threading::__ReaderWriterLockSlim__TimeoutTracker timeout, bool isWriteWaiter);
+  /// @brief Method WaitOnEvent, addr 0x41066ec, size 0x124, virtual false, abstract: false, final false
+  inline bool WaitOnEvent(::System::Threading::EventWaitHandle* waitEvent, ::ByRef<uint32_t> numWaiters, ::System::Threading::ReaderWriterLockSlim_TimeoutTracker timeout, bool isWriteWaiter);
 
   constexpr bool const& __cordl_internal_get_fDisposed() const;
 
@@ -333,25 +328,25 @@ public:
 
   constexpr uint32_t& __cordl_internal_get_owners();
 
+  constexpr ::System::Threading::EventWaitHandle* const& __cordl_internal_get_readEvent() const;
+
   constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_readEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_readEvent() const;
+  constexpr ::System::Threading::EventWaitHandle* const& __cordl_internal_get_upgradeEvent() const;
 
   constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_upgradeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_upgradeEvent() const;
 
   constexpr int32_t const& __cordl_internal_get_upgradeLockOwnerId() const;
 
   constexpr int32_t& __cordl_internal_get_upgradeLockOwnerId();
 
+  constexpr ::System::Threading::EventWaitHandle* const& __cordl_internal_get_waitUpgradeEvent() const;
+
   constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_waitUpgradeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_waitUpgradeEvent() const;
+  constexpr ::System::Threading::EventWaitHandle* const& __cordl_internal_get_writeEvent() const;
 
   constexpr ::System::Threading::EventWaitHandle*& __cordl_internal_get_writeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::EventWaitHandle*> const& __cordl_internal_get_writeEvent() const;
 
   constexpr int32_t const& __cordl_internal_get_writeLockOwnerId() const;
 
@@ -391,41 +386,41 @@ public:
 
   constexpr void __cordl_internal_set_writeLockOwnerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40a4bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4105ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x40a4bcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4105ee0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::LockRecursionPolicy recursionPolicy);
 
   static inline int64_t getStaticF_s_nextLockID();
 
   static inline ::System::Threading::ReaderWriterCount* getStaticF_t_rwc();
 
-  /// @brief Method get_IsReadLockHeld, addr 0x40a6554, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsReadLockHeld, addr 0x4107868, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsReadLockHeld();
 
-  /// @brief Method get_IsUpgradeableReadLockHeld, addr 0x40a656c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpgradeableReadLockHeld, addr 0x4107880, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsUpgradeableReadLockHeld();
 
-  /// @brief Method get_IsWriteLockHeld, addr 0x40a6584, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriteLockHeld, addr 0x4107898, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsWriteLockHeld();
 
-  /// @brief Method get_RecursiveReadCount, addr 0x40a659c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveReadCount, addr 0x41078b0, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_RecursiveReadCount();
 
-  /// @brief Method get_RecursiveUpgradeCount, addr 0x40a661c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveUpgradeCount, addr 0x4107930, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_RecursiveUpgradeCount();
 
-  /// @brief Method get_RecursiveWriteCount, addr 0x40a66cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_RecursiveWriteCount, addr 0x41079e0, size 0xb0, virtual false, abstract: false, final false
   inline int32_t get_RecursiveWriteCount();
 
-  /// @brief Method get_WaitingReadCount, addr 0x40a677c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingReadCount, addr 0x4107a90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WaitingReadCount();
 
-  /// @brief Method get_WaitingUpgradeCount, addr 0x40a6784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingUpgradeCount, addr 0x4107a98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WaitingUpgradeCount();
 
-  /// @brief Method get_WaitingWriteCount, addr 0x40a678c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_WaitingWriteCount, addr 0x4107aa0, size 0x134, virtual false, abstract: false, final false
   inline int32_t get_WaitingWriteCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -448,6 +443,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLockSlim", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReaderWriterLockSlim(ReaderWriterLockSlim const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14196 };
 
   /// @brief Field fIsReentrant, offset: 0x10, size: 0x1, def value: None
   bool ___fIsReentrant;
@@ -500,14 +498,9 @@ public:
   /// @brief Field fDisposed, offset: 0x68, size: 0x1, def value: None
   bool ___fDisposed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14162 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLockSlim, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::ReaderWriterLockSlim, ___fIsReentrant) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ReaderWriterLockSlim, ___myLock) == 0x14, "Offset mismatch!");
@@ -542,7 +535,9 @@ static_assert(offsetof(::System::Threading::ReaderWriterLockSlim, ___owners) == 
 
 static_assert(offsetof(::System::Threading::ReaderWriterLockSlim, ___fDisposed) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLockSlim, 0x70>, "Size mismatch!");
+
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ReaderWriterLockSlim);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::__ReaderWriterLockSlim__TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterLockSlim_TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");

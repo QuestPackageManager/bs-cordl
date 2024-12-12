@@ -18,90 +18,88 @@ namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class __UxmlDoubleAttributeDescription____c;
+class UxmlDoubleAttributeDescription___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class UxmlDoubleAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class __UxmlDoubleAttributeDescription____c;
+class UxmlDoubleAttributeDescription___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlDoubleAttributeDescription);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UxmlDoubleAttributeDescription::<>c*
-class CORDL_TYPE __UxmlDoubleAttributeDescription____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UxmlDoubleAttributeDescription/<>c
+class CORDL_TYPE UxmlDoubleAttributeDescription___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, double_t, double_t>* __9__3_0;
+  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_3<::StringW, double_t, double_t>* __9__3_0;
 
-  static inline ::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c* New_ctor();
+  static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4a3bd28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa0638, size 0x8, virtual false, abstract: false, final false
   inline double_t _GetValueFromBag_b__3_0(::StringW s, double_t d);
 
-  /// @brief Method .ctor, addr 0x4a3bd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* getStaticF___9();
 
   static inline ::System::Func_3<::StringW, double_t, double_t>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* value);
 
   static inline void setStaticF___9__3_0(::System::Func_3<::StringW, double_t, double_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UxmlDoubleAttributeDescription____c();
+  constexpr UxmlDoubleAttributeDescription___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlDoubleAttributeDescription____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlDoubleAttributeDescription___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UxmlDoubleAttributeDescription____c(__UxmlDoubleAttributeDescription____c&&) = delete;
+  UxmlDoubleAttributeDescription___c(UxmlDoubleAttributeDescription___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UxmlDoubleAttributeDescription____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UxmlDoubleAttributeDescription___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UxmlDoubleAttributeDescription____c(__UxmlDoubleAttributeDescription____c const&) = delete;
+  UxmlDoubleAttributeDescription___c(UxmlDoubleAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6246 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::UxmlDoubleAttributeDescription
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TypedUxmlAttributeDescription`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlDoubleAttributeDescription*
+// CS Name: UnityEngine.UIElements.UxmlDoubleAttributeDescription
 class CORDL_TYPE UxmlDoubleAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<double_t> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c;
+  using __c = ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c;
 
-  /// @brief Method ConvertValueToDouble, addr 0x4a3bc28, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToDouble, addr 0x4aa0538, size 0x9c, virtual false, abstract: false, final false
   static inline double_t ConvertValueToDouble(::StringW v, double_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4a3badc, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x4aa03ec, size 0x14c, virtual true, abstract: false, final false
   inline double_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3ba44, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aa0354, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +117,7 @@ public:
   UxmlDoubleAttributeDescription(UxmlDoubleAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6247 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,5 +127,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlDou
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlDoubleAttributeDescription);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlDoubleAttributeDescription*, "UnityEngine.UIElements", "UxmlDoubleAttributeDescription");
-NEED_NO_BOX(::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__UxmlDoubleAttributeDescription____c*, "UnityEngine.UIElements", "UxmlDoubleAttributeDescription/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c*, "UnityEngine.UIElements", "UxmlDoubleAttributeDescription/<>c");

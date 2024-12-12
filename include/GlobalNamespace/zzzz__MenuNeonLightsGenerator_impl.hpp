@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuNeonLightsGenerator::*)()>(&::GlobalNamespace::MenuNeonLightsGenerator::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3a7f2bc;
+  constexpr static std::size_t addrs = 0x3ad79e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuNeonLightsGenerator*>::get(), ".ctor",
@@ -70,7 +70,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::MenuNeonLightsGenerat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensityCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__intensityCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__intensityCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensityCurve;
 }
@@ -94,7 +94,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::MenuNeonLightsGenerat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lengthCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__lengthCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__lengthCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lengthCurve;
 }
@@ -118,7 +118,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::MenuNeonLightsGenerat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____widthCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__widthCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_get__widthCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____widthCurve;
 }
@@ -162,13 +162,13 @@ constexpr void GlobalNamespace::MenuNeonLightsGenerator::__cordl_internal_set__a
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterSpawnRotation = value;
 }
-inline ::GlobalNamespace::MenuNeonLightsGenerator* GlobalNamespace::MenuNeonLightsGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MenuNeonLightsGenerator*>());
-}
 inline void GlobalNamespace::MenuNeonLightsGenerator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuNeonLightsGenerator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MenuNeonLightsGenerator* GlobalNamespace::MenuNeonLightsGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MenuNeonLightsGenerator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MenuNeonLightsGenerator::MenuNeonLightsGenerator() {}

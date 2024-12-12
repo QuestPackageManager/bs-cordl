@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0xd38;
-  constexpr static std::size_t addrs = 0x3b9182c;
+  constexpr static std::size_t size = 0xe70;
+  constexpr static std::size_t addrs = 0x3bf3618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialInstaller::*)()>(&::GlobalNamespace::TutorialInstaller::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b92564;
+  constexpr static std::size_t addrs = 0x3bf4488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), ".ctor",
@@ -85,7 +85,7 @@ constexpr ::GlobalNamespace::TutorialSceneSetupData*& GlobalNamespace::TutorialI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::TutorialSceneSetupData* const& GlobalNamespace::TutorialInstaller::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -98,13 +98,13 @@ inline void GlobalNamespace::TutorialInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TutorialInstaller* GlobalNamespace::TutorialInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TutorialInstaller*>());
-}
 inline void GlobalNamespace::TutorialInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TutorialInstaller* GlobalNamespace::TutorialInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TutorialInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TutorialInstaller::TutorialInstaller() {}

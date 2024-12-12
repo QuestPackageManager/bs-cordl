@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "BGNet/Logging/ConsoleLogger.hpp"
+#include "BGNet/Logging/zzzz__Debug_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__ConsoleLogger_def.hpp"
-#include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::BGNet::Logging::ConsoleLogger.LogInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::ConsoleLogger::*)(::StringW)>(&::BGNet::Logging::ConsoleLogger::LogInfo)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22baf4c;
+  constexpr static std::size_t addrs = 0x22ee238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::ConsoleLogger::*)(::StringW)>(&::BGNet::Logging::ConsoleLogger::LogError)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x22bb02c;
+  constexpr static std::size_t addrs = 0x22ee318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::ConsoleLogger::*)(::System::Exception*, ::StringW)>(
     &::BGNet::Logging::ConsoleLogger::LogException)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x22bb1d4;
+  constexpr static std::size_t addrs = 0x22ee4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::ConsoleLogger::*)(::StringW)>(&::BGNet::Logging::ConsoleLogger::LogWarning)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22bb308;
+  constexpr static std::size_t addrs = 0x22ee5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::ConsoleLogger::*)()>(&::BGNet::Logging::ConsoleLogger::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bb3e8;
+  constexpr static std::size_t addrs = 0x22ee6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::ConsoleLogger*>::get(), ".ctor",
@@ -75,14 +75,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BGNet::Logging::__Debug__ILogger"
-constexpr BGNet::Logging::ConsoleLogger::operator ::BGNet::Logging::__Debug__ILogger*() noexcept {
-  return static_cast<::BGNet::Logging::__Debug__ILogger*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
-constexpr ::BGNet::Logging::__Debug__ILogger* BGNet::Logging::ConsoleLogger::i___BGNet__Logging____Debug__ILogger() noexcept {
-  return static_cast<::BGNet::Logging::__Debug__ILogger*>(static_cast<void*>(this));
-}
 inline void BGNet::Logging::ConsoleLogger::LogInfo(::StringW message) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::ConsoleLogger*>::get(), "LogInfo", std::span<Il2CppClass const* const, 0>(),
@@ -108,13 +100,21 @@ inline void BGNet::Logging::ConsoleLogger::LogWarning(::StringW message) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline ::BGNet::Logging::ConsoleLogger* BGNet::Logging::ConsoleLogger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGNet::Logging::ConsoleLogger*>());
-}
 inline void BGNet::Logging::ConsoleLogger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::ConsoleLogger*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BGNet::Logging::ConsoleLogger* BGNet::Logging::ConsoleLogger::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGNet::Logging::ConsoleLogger*>());
+}
+/// @brief Convert operator to "::BGNet::Logging::Debug_ILogger"
+constexpr BGNet::Logging::ConsoleLogger::operator ::BGNet::Logging::Debug_ILogger*() noexcept {
+  return static_cast<::BGNet::Logging::Debug_ILogger*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGNet::Logging::Debug_ILogger"
+constexpr ::BGNet::Logging::Debug_ILogger* BGNet::Logging::ConsoleLogger::i___BGNet__Logging__Debug_ILogger() noexcept {
+  return static_cast<::BGNet::Logging::Debug_ILogger*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::BGNet::Logging::ConsoleLogger::ConsoleLogger() {}

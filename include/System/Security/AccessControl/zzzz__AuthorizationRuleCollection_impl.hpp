@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*>)>(
     &::System::Security::AccessControl::AuthorizationRuleCollection::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c61574;
+  constexpr static std::size_t addrs = 0x3cc16e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,10 +20,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Security::AccessControl::AuthorizationRuleCollection* System::Security::AccessControl::AuthorizationRuleCollection::New_ctor(
-    ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::AuthorizationRuleCollection*>(rules));
-}
 inline void System::Security::AccessControl::AuthorizationRuleCollection::_ctor(
     ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,6 +27,10 @@ inline void System::Security::AccessControl::AuthorizationRuleCollection::_ctor(
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rules);
+}
+inline ::System::Security::AccessControl::AuthorizationRuleCollection* System::Security::AccessControl::AuthorizationRuleCollection::New_ctor(
+    ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::AuthorizationRuleCollection*>(rules));
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::AuthorizationRuleCollection::AuthorizationRuleCollection() {}

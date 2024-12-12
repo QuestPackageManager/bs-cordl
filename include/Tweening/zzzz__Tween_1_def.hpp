@@ -18,13 +18,12 @@ template <typename T> class Tween_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Tweening::Tween_1);
-// Type: Tweening::Tween`1
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tweening.Tween
 namespace Tweening {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Tweening::Tween`1<T>*
+// CS Name: Tweening.Tween`1<T>
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:
   // Declarations
@@ -66,9 +65,9 @@ public:
 
   constexpr T& __cordl_internal_get_fromValue();
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get_onUpdate();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_onUpdate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onUpdate() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onUpdate();
 
   constexpr T const& __cordl_internal_get_toValue() const;
 
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Tween_1(Tween_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18666 };
+
   /// @brief Field fromValue, offset: 0x48, size: 0x8, def value: None
   T ___fromValue;
 
@@ -108,9 +110,6 @@ public:
 
   /// @brief Field onUpdate, offset: 0x58, size: 0x8, def value: None
   ::System::Action_1<T>* ___onUpdate;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

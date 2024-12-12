@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> (
     ::GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&::GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22672c0;
+  constexpr static std::size_t addrs = 0x2299b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)(
     ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*>)>(&::GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22672c8;
+  constexpr static std::size_t addrs = 0x2299b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)(::System::Action*)>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::add_beforeScenesWillBeActivatedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22672d0;
+  constexpr static std::size_t addrs = 0x2299b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)(::System::Action*)>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::remove_beforeScenesWillBeActivatedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x226736c;
+  constexpr static std::size_t addrs = 0x2299bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*>, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*>)>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226727c;
+  constexpr static std::size_t addrs = 0x2299ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::BeforeScenesWillBeActivated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2267408;
+  constexpr static std::size_t addrs = 0x2299c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::BeforeScenesWillBeActivatedAsync)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2267424;
+  constexpr static std::size_t addrs = 0x2299c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::InstallBindings)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2264f24;
+  constexpr static std::size_t addrs = 0x229776c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&::GlobalNamespace::ScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226728c;
+  constexpr static std::size_t addrs = 0x2299ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(), ".ctor",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::ScenesTransitionSetupDataSO::_BeforeScenesWillBeActivatedAsync_b__10_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22674c8;
+  constexpr static std::size_t addrs = 0x2299d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,7 +192,7 @@ constexpr ::System::Action*& GlobalNamespace::ScenesTransitionSetupDataSO::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beforeScenesWillBeActivatedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::ScenesTransitionSetupDataSO::__cordl_internal_get_beforeScenesWillBeActivatedEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::ScenesTransitionSetupDataSO::__cordl_internal_get_beforeScenesWillBeActivatedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beforeScenesWillBeActivatedEvent;
 }
@@ -247,9 +247,6 @@ inline void GlobalNamespace::ScenesTransitionSetupDataSO::InstallBindings(::Zenj
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
-inline ::GlobalNamespace::ScenesTransitionSetupDataSO* GlobalNamespace::ScenesTransitionSetupDataSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScenesTransitionSetupDataSO*>());
-}
 inline void GlobalNamespace::ScenesTransitionSetupDataSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -260,6 +257,9 @@ inline void GlobalNamespace::ScenesTransitionSetupDataSO::_BeforeScenesWillBeAct
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get(),
                                                "<BeforeScenesWillBeActivatedAsync>b__10_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ScenesTransitionSetupDataSO* GlobalNamespace::ScenesTransitionSetupDataSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ScenesTransitionSetupDataSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO::ScenesTransitionSetupDataSO() {}

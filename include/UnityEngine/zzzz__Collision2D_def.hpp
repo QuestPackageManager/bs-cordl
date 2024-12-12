@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Collision2D)
 namespace UnityEngine {
@@ -17,11 +16,10 @@ class Collision2D;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Collision2D);
-// Type: UnityEngine::Collision2D
-// SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::Collision2D*
+// CS Name: UnityEngine.Collision2D
 class CORDL_TYPE Collision2D : public ::System::Object {
 public:
   // Declarations
@@ -122,6 +120,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Collision2D(Collision2D const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18646 };
+
   /// @brief Field m_Collider, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Collider;
 
@@ -149,14 +150,9 @@ public:
   /// @brief Field m_LegacyContacts, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::ContactPoint2D, ::Array<::UnityEngine::ContactPoint2D>*> ___m_LegacyContacts;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18565 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Collision2D, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Collision2D, ___m_Collider) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Collision2D, ___m_OtherCollider) == 0x14, "Offset mismatch!");
@@ -174,6 +170,8 @@ static_assert(offsetof(::UnityEngine::Collision2D, ___m_ContactCount) == 0x2c, "
 static_assert(offsetof(::UnityEngine::Collision2D, ___m_ReusedContacts) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Collision2D, ___m_LegacyContacts) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Collision2D, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Collision2D);

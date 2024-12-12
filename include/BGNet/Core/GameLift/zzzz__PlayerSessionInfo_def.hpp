@@ -15,11 +15,10 @@ class PlayerSessionInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Core::GameLift::PlayerSessionInfo);
-// Type: BGNet.Core.GameLift::PlayerSessionInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, System.Object
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// CS Name: ::BGNet.Core.GameLift::PlayerSessionInfo*
+// CS Name: BGNet.Core.GameLift.PlayerSessionInfo
 class CORDL_TYPE PlayerSessionInfo : public ::System::Object {
 public:
   // Declarations
@@ -99,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_privateGameSecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22bae78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ee164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,6 +114,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSessionInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerSessionInfo(PlayerSessionInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15019 };
 
   /// @brief Field playerSessionId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___playerSessionId;
@@ -140,14 +142,9 @@ public:
   /// @brief Field privateGameCode, offset: 0x78, size: 0x8, def value: None
   ::StringW ___privateGameCode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14985 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::PlayerSessionInfo, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___playerSessionId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___gameSessionId) == 0x18, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___gameplaySe
 static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___privateGameSecret) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::BGNet::Core::GameLift::PlayerSessionInfo, ___privateGameCode) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::PlayerSessionInfo, 0x80>, "Size mismatch!");
 
 } // namespace BGNet::Core::GameLift
 NEED_NO_BOX(::BGNet::Core::GameLift::PlayerSessionInfo);

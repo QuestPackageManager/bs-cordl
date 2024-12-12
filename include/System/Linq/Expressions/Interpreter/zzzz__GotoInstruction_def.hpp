@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/Interpreter/zzzz__IndexedBranchInstruction_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GotoInstruction)
@@ -17,11 +16,10 @@ class GotoInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::GotoInstruction);
-// Type: System.Linq.Expressions.Interpreter::GotoInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 23, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.IndexedBranchInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::GotoInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.GotoInstruction
 class CORDL_TYPE GotoInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
   // Declarations
@@ -41,16 +39,16 @@ public:
   __declspec(property(get = __cordl_internal_get__labelTargetGetsValue, put = __cordl_internal_set__labelTargetGetsValue)) bool _labelTargetGetsValue;
 
   /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_cache,
-                             put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*, ::Array<::System::Linq::Expressions::Interpreter::GotoInstruction*>*>
+  __declspec(property(get = getStaticF_s_cache,
+                      put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*, ::Array<::System::Linq::Expressions::Interpreter::GotoInstruction*>*>
       s_cache;
 
-  /// @brief Method Create, addr 0x4061780, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40c2a94, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::GotoInstruction* Create(int32_t labelIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
   static inline ::System::Linq::Expressions::Interpreter::GotoInstruction* New_ctor(int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
-  /// @brief Method Run, addr 0x40618e8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c2bfc, size 0xc8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasResult() const;
@@ -71,18 +69,18 @@ public:
 
   constexpr void __cordl_internal_set__labelTargetGetsValue(bool value);
 
-  /// @brief Method .ctor, addr 0x4061738, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c2a4c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex, bool hasResult, bool hasValue, bool labelTargetGetsValue);
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*, ::Array<::System::Linq::Expressions::Interpreter::GotoInstruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x4061728, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c2a3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40616e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c29fc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4061730, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40c2a44, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::GotoInstruction*, ::Array<::System::Linq::Expressions::Interpreter::GotoInstruction*>*> value);
@@ -101,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GotoInstruction(GotoInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13782 };
+
   /// @brief Field _hasResult, offset: 0x14, size: 0x1, def value: None
   bool ____hasResult;
 
@@ -110,19 +111,16 @@ public:
   /// @brief Field _labelTargetGetsValue, offset: 0x16, size: 0x1, def value: None
   bool ____labelTargetGetsValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13748 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::GotoInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::GotoInstruction, ____hasResult) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::GotoInstruction, ____hasValue) == 0x15, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::GotoInstruction, ____labelTargetGetsValue) == 0x16, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::GotoInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::GotoInstruction);

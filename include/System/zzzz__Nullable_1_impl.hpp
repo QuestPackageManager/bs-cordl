@@ -62,7 +62,7 @@ template <typename T> inline ::System::Nullable_1<T> System::Nullable_1<T>::Unbo
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<T>, false>(nullptr, ___internal_method, o);
 }
-// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "T", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Nullable_1<T>::Nullable_1(bool hasValue, T value) noexcept {
   this->hasValue = hasValue;
   this->value = value;

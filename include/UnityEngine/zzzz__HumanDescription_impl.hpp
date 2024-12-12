@@ -3,12 +3,12 @@
 #include "UnityEngine/zzzz__HumanDescription_def.hpp"
 #include "UnityEngine/zzzz__HumanBone_def.hpp"
 #include "UnityEngine/zzzz__SkeletonBone_def.hpp"
-// Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone,::Array<::UnityEngine::HumanBone>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "skeleton", ty:
-// "::ArrayW<::UnityEngine::SkeletonBone,::Array<::UnityEngine::SkeletonBone>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "human", ty: "::ArrayW<::UnityEngine::HumanBone,::Array<::UnityEngine::HumanBone>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "skeleton", ty:
+// "::ArrayW<::UnityEngine::SkeletonBone,::Array<::UnityEngine::SkeletonBone>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ArmTwist", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "m_ForeArmTwist", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UpperLegTwist", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_LegTwist", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ArmStretch", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "m_LegStretch", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_FeetSpacing", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_GlobalScale", ty:
-// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_HasTranslationDoF", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RootMotionBoneName", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HasTranslationDoF", ty:
 // "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HasExtraRoot", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SkeletonHasParents", ty: "bool",
 // modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::HumanDescription::HumanDescription(::ArrayW<::UnityEngine::HumanBone, ::Array<::UnityEngine::HumanBone>*> human,

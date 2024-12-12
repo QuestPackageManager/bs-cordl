@@ -12,11 +12,10 @@ struct EVREventType;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVREventType);
-// Type: OVR.OpenVR::EVREventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVREventType
+// CS Name: OVR.OpenVR.EVREventType
 struct CORDL_TYPE EVREventType {
 public:
   // Declarations
@@ -191,465 +190,465 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVREventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field VREvent_ActionBindingReloaded value: static_cast<int32_t>(0x199)
+  /// @brief Field VREvent_ActionBindingReloaded value: I32(409)
   static ::OVR::OpenVR::EVREventType const VREvent_ActionBindingReloaded;
 
-  /// @brief Field VREvent_ApplicationListUpdated value: static_cast<int32_t>(0x517)
+  /// @brief Field VREvent_ApplicationListUpdated value: I32(1303)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationListUpdated;
 
-  /// @brief Field VREvent_ApplicationMimeTypeLoad value: static_cast<int32_t>(0x518)
+  /// @brief Field VREvent_ApplicationMimeTypeLoad value: I32(1304)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationMimeTypeLoad;
 
-  /// @brief Field VREvent_ApplicationTransitionAborted value: static_cast<int32_t>(0x515)
+  /// @brief Field VREvent_ApplicationTransitionAborted value: I32(1301)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionAborted;
 
-  /// @brief Field VREvent_ApplicationTransitionNewAppLaunchComplete value: static_cast<int32_t>(0x519)
+  /// @brief Field VREvent_ApplicationTransitionNewAppLaunchComplete value: I32(1305)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppLaunchComplete;
 
-  /// @brief Field VREvent_ApplicationTransitionNewAppStarted value: static_cast<int32_t>(0x516)
+  /// @brief Field VREvent_ApplicationTransitionNewAppStarted value: I32(1302)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionNewAppStarted;
 
-  /// @brief Field VREvent_ApplicationTransitionStarted value: static_cast<int32_t>(0x514)
+  /// @brief Field VREvent_ApplicationTransitionStarted value: I32(1300)
   static ::OVR::OpenVR::EVREventType const VREvent_ApplicationTransitionStarted;
 
-  /// @brief Field VREvent_AudioSettingsHaveChanged value: static_cast<int32_t>(0x334)
+  /// @brief Field VREvent_AudioSettingsHaveChanged value: I32(820)
   static ::OVR::OpenVR::EVREventType const VREvent_AudioSettingsHaveChanged;
 
-  /// @brief Field VREvent_BackgroundSettingHasChanged value: static_cast<int32_t>(0x352)
+  /// @brief Field VREvent_BackgroundSettingHasChanged value: I32(850)
   static ::OVR::OpenVR::EVREventType const VREvent_BackgroundSettingHasChanged;
 
-  /// @brief Field VREvent_ButtonPress value: static_cast<int32_t>(0xc8)
+  /// @brief Field VREvent_ButtonPress value: I32(200)
   static ::OVR::OpenVR::EVREventType const VREvent_ButtonPress;
 
-  /// @brief Field VREvent_ButtonTouch value: static_cast<int32_t>(0xca)
+  /// @brief Field VREvent_ButtonTouch value: I32(202)
   static ::OVR::OpenVR::EVREventType const VREvent_ButtonTouch;
 
-  /// @brief Field VREvent_ButtonUnpress value: static_cast<int32_t>(0xc9)
+  /// @brief Field VREvent_ButtonUnpress value: I32(201)
   static ::OVR::OpenVR::EVREventType const VREvent_ButtonUnpress;
 
-  /// @brief Field VREvent_ButtonUntouch value: static_cast<int32_t>(0xcb)
+  /// @brief Field VREvent_ButtonUntouch value: I32(203)
   static ::OVR::OpenVR::EVREventType const VREvent_ButtonUntouch;
 
-  /// @brief Field VREvent_CameraSettingsHaveChanged value: static_cast<int32_t>(0x353)
+  /// @brief Field VREvent_CameraSettingsHaveChanged value: I32(851)
   static ::OVR::OpenVR::EVREventType const VREvent_CameraSettingsHaveChanged;
 
-  /// @brief Field VREvent_ChaperoneDataHasChanged value: static_cast<int32_t>(0x320)
+  /// @brief Field VREvent_ChaperoneDataHasChanged value: I32(800)
   static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneDataHasChanged;
 
-  /// @brief Field VREvent_ChaperoneSettingsHaveChanged value: static_cast<int32_t>(0x323)
+  /// @brief Field VREvent_ChaperoneSettingsHaveChanged value: I32(803)
   static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneSettingsHaveChanged;
 
-  /// @brief Field VREvent_ChaperoneTempDataHasChanged value: static_cast<int32_t>(0x322)
+  /// @brief Field VREvent_ChaperoneTempDataHasChanged value: I32(802)
   static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneTempDataHasChanged;
 
-  /// @brief Field VREvent_ChaperoneUniverseHasChanged value: static_cast<int32_t>(0x321)
+  /// @brief Field VREvent_ChaperoneUniverseHasChanged value: I32(801)
   static ::OVR::OpenVR::EVREventType const VREvent_ChaperoneUniverseHasChanged;
 
-  /// @brief Field VREvent_Compositor_ChaperoneBoundsHidden value: static_cast<int32_t>(0x583)
+  /// @brief Field VREvent_Compositor_ChaperoneBoundsHidden value: I32(1411)
   static ::OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsHidden;
 
-  /// @brief Field VREvent_Compositor_ChaperoneBoundsShown value: static_cast<int32_t>(0x582)
+  /// @brief Field VREvent_Compositor_ChaperoneBoundsShown value: I32(1410)
   static ::OVR::OpenVR::EVREventType const VREvent_Compositor_ChaperoneBoundsShown;
 
-  /// @brief Field VREvent_Compositor_MirrorWindowHidden value: static_cast<int32_t>(0x579)
+  /// @brief Field VREvent_Compositor_MirrorWindowHidden value: I32(1401)
   static ::OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowHidden;
 
-  /// @brief Field VREvent_Compositor_MirrorWindowShown value: static_cast<int32_t>(0x578)
+  /// @brief Field VREvent_Compositor_MirrorWindowShown value: I32(1400)
   static ::OVR::OpenVR::EVREventType const VREvent_Compositor_MirrorWindowShown;
 
-  /// @brief Field VREvent_ConsoleClosed value: static_cast<int32_t>(0x1a5)
+  /// @brief Field VREvent_ConsoleClosed value: I32(421)
   static ::OVR::OpenVR::EVREventType const VREvent_ConsoleClosed;
 
-  /// @brief Field VREvent_ConsoleOpened value: static_cast<int32_t>(0x1a4)
+  /// @brief Field VREvent_ConsoleOpened value: I32(420)
   static ::OVR::OpenVR::EVREventType const VREvent_ConsoleOpened;
 
-  /// @brief Field VREvent_DashboardActivated value: static_cast<int32_t>(0x1f6)
+  /// @brief Field VREvent_DashboardActivated value: I32(502)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardActivated;
 
-  /// @brief Field VREvent_DashboardDeactivated value: static_cast<int32_t>(0x1f7)
+  /// @brief Field VREvent_DashboardDeactivated value: I32(503)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardDeactivated;
 
-  /// @brief Field VREvent_DashboardOverlayCreated value: static_cast<int32_t>(0x206)
+  /// @brief Field VREvent_DashboardOverlayCreated value: I32(518)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardOverlayCreated;
 
-  /// @brief Field VREvent_DashboardRequested value: static_cast<int32_t>(0x1f9)
+  /// @brief Field VREvent_DashboardRequested value: I32(505)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardRequested;
 
-  /// @brief Field VREvent_DashboardSectionSettingChanged value: static_cast<int32_t>(0x360)
+  /// @brief Field VREvent_DashboardSectionSettingChanged value: I32(864)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardSectionSettingChanged;
 
-  /// @brief Field VREvent_DashboardThumbSelected value: static_cast<int32_t>(0x1f8)
+  /// @brief Field VREvent_DashboardThumbSelected value: I32(504)
   static ::OVR::OpenVR::EVREventType const VREvent_DashboardThumbSelected;
 
-  /// @brief Field VREvent_DriverRequestedQuit value: static_cast<int32_t>(0x2c0)
+  /// @brief Field VREvent_DriverRequestedQuit value: I32(704)
   static ::OVR::OpenVR::EVREventType const VREvent_DriverRequestedQuit;
 
-  /// @brief Field VREvent_DualAnalog_Cancel value: static_cast<int32_t>(0x101)
+  /// @brief Field VREvent_DualAnalog_Cancel value: I32(257)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Cancel;
 
-  /// @brief Field VREvent_DualAnalog_ModeSwitch1 value: static_cast<int32_t>(0xff)
+  /// @brief Field VREvent_DualAnalog_ModeSwitch1 value: I32(255)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch1;
 
-  /// @brief Field VREvent_DualAnalog_ModeSwitch2 value: static_cast<int32_t>(0x100)
+  /// @brief Field VREvent_DualAnalog_ModeSwitch2 value: I32(256)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_ModeSwitch2;
 
-  /// @brief Field VREvent_DualAnalog_Move value: static_cast<int32_t>(0xfe)
+  /// @brief Field VREvent_DualAnalog_Move value: I32(254)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Move;
 
-  /// @brief Field VREvent_DualAnalog_Press value: static_cast<int32_t>(0xfa)
+  /// @brief Field VREvent_DualAnalog_Press value: I32(250)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Press;
 
-  /// @brief Field VREvent_DualAnalog_Touch value: static_cast<int32_t>(0xfc)
+  /// @brief Field VREvent_DualAnalog_Touch value: I32(252)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Touch;
 
-  /// @brief Field VREvent_DualAnalog_Unpress value: static_cast<int32_t>(0xfb)
+  /// @brief Field VREvent_DualAnalog_Unpress value: I32(251)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Unpress;
 
-  /// @brief Field VREvent_DualAnalog_Untouch value: static_cast<int32_t>(0xfd)
+  /// @brief Field VREvent_DualAnalog_Untouch value: I32(253)
   static ::OVR::OpenVR::EVREventType const VREvent_DualAnalog_Untouch;
 
-  /// @brief Field VREvent_EnableHomeAppSettingsHaveChanged value: static_cast<int32_t>(0x358)
+  /// @brief Field VREvent_EnableHomeAppSettingsHaveChanged value: I32(856)
   static ::OVR::OpenVR::EVREventType const VREvent_EnableHomeAppSettingsHaveChanged;
 
-  /// @brief Field VREvent_EnterStandbyMode value: static_cast<int32_t>(0x6a)
+  /// @brief Field VREvent_EnterStandbyMode value: I32(106)
   static ::OVR::OpenVR::EVREventType const VREvent_EnterStandbyMode;
 
-  /// @brief Field VREvent_EnvironmentSettingsHaveChanged value: static_cast<int32_t>(0x356)
+  /// @brief Field VREvent_EnvironmentSettingsHaveChanged value: I32(854)
   static ::OVR::OpenVR::EVREventType const VREvent_EnvironmentSettingsHaveChanged;
 
-  /// @brief Field VREvent_FirmwareUpdateFinished value: static_cast<int32_t>(0x44d)
+  /// @brief Field VREvent_FirmwareUpdateFinished value: I32(1101)
   static ::OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateFinished;
 
-  /// @brief Field VREvent_FirmwareUpdateStarted value: static_cast<int32_t>(0x44c)
+  /// @brief Field VREvent_FirmwareUpdateStarted value: I32(1100)
   static ::OVR::OpenVR::EVREventType const VREvent_FirmwareUpdateStarted;
 
-  /// @brief Field VREvent_FocusEnter value: static_cast<int32_t>(0x12f)
+  /// @brief Field VREvent_FocusEnter value: I32(303)
   static ::OVR::OpenVR::EVREventType const VREvent_FocusEnter;
 
-  /// @brief Field VREvent_FocusLeave value: static_cast<int32_t>(0x130)
+  /// @brief Field VREvent_FocusLeave value: I32(304)
   static ::OVR::OpenVR::EVREventType const VREvent_FocusLeave;
 
-  /// @brief Field VREvent_HideKeyboard value: static_cast<int32_t>(0x1fe)
+  /// @brief Field VREvent_HideKeyboard value: I32(510)
   static ::OVR::OpenVR::EVREventType const VREvent_HideKeyboard;
 
-  /// @brief Field VREvent_HideRenderModels value: static_cast<int32_t>(0x19a)
+  /// @brief Field VREvent_HideRenderModels value: I32(410)
   static ::OVR::OpenVR::EVREventType const VREvent_HideRenderModels;
 
-  /// @brief Field VREvent_ImageFailed value: static_cast<int32_t>(0x205)
+  /// @brief Field VREvent_ImageFailed value: I32(517)
   static ::OVR::OpenVR::EVREventType const VREvent_ImageFailed;
 
-  /// @brief Field VREvent_ImageLoaded value: static_cast<int32_t>(0x1fc)
+  /// @brief Field VREvent_ImageLoaded value: I32(508)
   static ::OVR::OpenVR::EVREventType const VREvent_ImageLoaded;
 
-  /// @brief Field VREvent_InputFocusCaptured value: static_cast<int32_t>(0x190)
+  /// @brief Field VREvent_InputFocusCaptured value: I32(400)
   static ::OVR::OpenVR::EVREventType const VREvent_InputFocusCaptured;
 
-  /// @brief Field VREvent_InputFocusChanged value: static_cast<int32_t>(0x196)
+  /// @brief Field VREvent_InputFocusChanged value: I32(406)
   static ::OVR::OpenVR::EVREventType const VREvent_InputFocusChanged;
 
-  /// @brief Field VREvent_InputFocusReleased value: static_cast<int32_t>(0x191)
+  /// @brief Field VREvent_InputFocusReleased value: I32(401)
   static ::OVR::OpenVR::EVREventType const VREvent_InputFocusReleased;
 
-  /// @brief Field VREvent_Input_ActionManifestLoadFailed value: static_cast<int32_t>(0x6a8)
+  /// @brief Field VREvent_Input_ActionManifestLoadFailed value: I32(1704)
   static ::OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestLoadFailed;
 
-  /// @brief Field VREvent_Input_ActionManifestReloaded value: static_cast<int32_t>(0x6a7)
+  /// @brief Field VREvent_Input_ActionManifestReloaded value: I32(1703)
   static ::OVR::OpenVR::EVREventType const VREvent_Input_ActionManifestReloaded;
 
-  /// @brief Field VREvent_Input_BindingLoadFailed value: static_cast<int32_t>(0x6a5)
+  /// @brief Field VREvent_Input_BindingLoadFailed value: I32(1701)
   static ::OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadFailed;
 
-  /// @brief Field VREvent_Input_BindingLoadSuccessful value: static_cast<int32_t>(0x6a6)
+  /// @brief Field VREvent_Input_BindingLoadSuccessful value: I32(1702)
   static ::OVR::OpenVR::EVREventType const VREvent_Input_BindingLoadSuccessful;
 
-  /// @brief Field VREvent_Input_HapticVibration value: static_cast<int32_t>(0x6a4)
+  /// @brief Field VREvent_Input_HapticVibration value: I32(1700)
   static ::OVR::OpenVR::EVREventType const VREvent_Input_HapticVibration;
 
-  /// @brief Field VREvent_IpdChanged value: static_cast<int32_t>(0x69)
+  /// @brief Field VREvent_IpdChanged value: I32(105)
   static ::OVR::OpenVR::EVREventType const VREvent_IpdChanged;
 
-  /// @brief Field VREvent_KeyboardCharInput value: static_cast<int32_t>(0x4b1)
+  /// @brief Field VREvent_KeyboardCharInput value: I32(1201)
   static ::OVR::OpenVR::EVREventType const VREvent_KeyboardCharInput;
 
-  /// @brief Field VREvent_KeyboardClosed value: static_cast<int32_t>(0x4b0)
+  /// @brief Field VREvent_KeyboardClosed value: I32(1200)
   static ::OVR::OpenVR::EVREventType const VREvent_KeyboardClosed;
 
-  /// @brief Field VREvent_KeyboardDone value: static_cast<int32_t>(0x4b2)
+  /// @brief Field VREvent_KeyboardDone value: I32(1202)
   static ::OVR::OpenVR::EVREventType const VREvent_KeyboardDone;
 
-  /// @brief Field VREvent_KeyboardSectionSettingChanged value: static_cast<int32_t>(0x35e)
+  /// @brief Field VREvent_KeyboardSectionSettingChanged value: I32(862)
   static ::OVR::OpenVR::EVREventType const VREvent_KeyboardSectionSettingChanged;
 
-  /// @brief Field VREvent_LeaveStandbyMode value: static_cast<int32_t>(0x6b)
+  /// @brief Field VREvent_LeaveStandbyMode value: I32(107)
   static ::OVR::OpenVR::EVREventType const VREvent_LeaveStandbyMode;
 
-  /// @brief Field VREvent_LensDistortionChanged value: static_cast<int32_t>(0x6e)
+  /// @brief Field VREvent_LensDistortionChanged value: I32(110)
   static ::OVR::OpenVR::EVREventType const VREvent_LensDistortionChanged;
 
-  /// @brief Field VREvent_LighthouseSectionSettingChanged value: static_cast<int32_t>(0x35a)
+  /// @brief Field VREvent_LighthouseSectionSettingChanged value: I32(858)
   static ::OVR::OpenVR::EVREventType const VREvent_LighthouseSectionSettingChanged;
 
-  /// @brief Field VREvent_MCImageUpdated value: static_cast<int32_t>(0x3e8)
+  /// @brief Field VREvent_MCImageUpdated value: I32(1000)
   static ::OVR::OpenVR::EVREventType const VREvent_MCImageUpdated;
 
-  /// @brief Field VREvent_MessageOverlayCloseRequested value: static_cast<int32_t>(0x673)
+  /// @brief Field VREvent_MessageOverlayCloseRequested value: I32(1651)
   static ::OVR::OpenVR::EVREventType const VREvent_MessageOverlayCloseRequested;
 
-  /// @brief Field VREvent_MessageOverlay_Closed value: static_cast<int32_t>(0x672)
+  /// @brief Field VREvent_MessageOverlay_Closed value: I32(1650)
   static ::OVR::OpenVR::EVREventType const VREvent_MessageOverlay_Closed;
 
-  /// @brief Field VREvent_ModelSkinSettingsHaveChanged value: static_cast<int32_t>(0x355)
+  /// @brief Field VREvent_ModelSkinSettingsHaveChanged value: I32(853)
   static ::OVR::OpenVR::EVREventType const VREvent_ModelSkinSettingsHaveChanged;
 
-  /// @brief Field VREvent_MouseButtonDown value: static_cast<int32_t>(0x12d)
+  /// @brief Field VREvent_MouseButtonDown value: I32(301)
   static ::OVR::OpenVR::EVREventType const VREvent_MouseButtonDown;
 
-  /// @brief Field VREvent_MouseButtonUp value: static_cast<int32_t>(0x12e)
+  /// @brief Field VREvent_MouseButtonUp value: I32(302)
   static ::OVR::OpenVR::EVREventType const VREvent_MouseButtonUp;
 
-  /// @brief Field VREvent_MouseMove value: static_cast<int32_t>(0x12c)
+  /// @brief Field VREvent_MouseMove value: I32(300)
   static ::OVR::OpenVR::EVREventType const VREvent_MouseMove;
 
-  /// @brief Field VREvent_None value: static_cast<int32_t>(0x0)
+  /// @brief Field VREvent_None value: I32(0)
   static ::OVR::OpenVR::EVREventType const VREvent_None;
 
-  /// @brief Field VREvent_Notification_BeginInteraction value: static_cast<int32_t>(0x25a)
+  /// @brief Field VREvent_Notification_BeginInteraction value: I32(602)
   static ::OVR::OpenVR::EVREventType const VREvent_Notification_BeginInteraction;
 
-  /// @brief Field VREvent_Notification_Destroyed value: static_cast<int32_t>(0x25b)
+  /// @brief Field VREvent_Notification_Destroyed value: I32(603)
   static ::OVR::OpenVR::EVREventType const VREvent_Notification_Destroyed;
 
-  /// @brief Field VREvent_Notification_Hidden value: static_cast<int32_t>(0x259)
+  /// @brief Field VREvent_Notification_Hidden value: I32(601)
   static ::OVR::OpenVR::EVREventType const VREvent_Notification_Hidden;
 
-  /// @brief Field VREvent_Notification_Shown value: static_cast<int32_t>(0x258)
+  /// @brief Field VREvent_Notification_Shown value: I32(600)
   static ::OVR::OpenVR::EVREventType const VREvent_Notification_Shown;
 
-  /// @brief Field VREvent_NotificationsSectionSettingChanged value: static_cast<int32_t>(0x35d)
+  /// @brief Field VREvent_NotificationsSectionSettingChanged value: I32(861)
   static ::OVR::OpenVR::EVREventType const VREvent_NotificationsSectionSettingChanged;
 
-  /// @brief Field VREvent_NullSectionSettingChanged value: static_cast<int32_t>(0x35b)
+  /// @brief Field VREvent_NullSectionSettingChanged value: I32(859)
   static ::OVR::OpenVR::EVREventType const VREvent_NullSectionSettingChanged;
 
-  /// @brief Field VREvent_OverlayFocusChanged value: static_cast<int32_t>(0x133)
+  /// @brief Field VREvent_OverlayFocusChanged value: I32(307)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlayFocusChanged;
 
-  /// @brief Field VREvent_OverlayGamepadFocusGained value: static_cast<int32_t>(0x1ff)
+  /// @brief Field VREvent_OverlayGamepadFocusGained value: I32(511)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusGained;
 
-  /// @brief Field VREvent_OverlayGamepadFocusLost value: static_cast<int32_t>(0x200)
+  /// @brief Field VREvent_OverlayGamepadFocusLost value: I32(512)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlayGamepadFocusLost;
 
-  /// @brief Field VREvent_OverlayHidden value: static_cast<int32_t>(0x1f5)
+  /// @brief Field VREvent_OverlayHidden value: I32(501)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlayHidden;
 
-  /// @brief Field VREvent_OverlaySharedTextureChanged value: static_cast<int32_t>(0x201)
+  /// @brief Field VREvent_OverlaySharedTextureChanged value: I32(513)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlaySharedTextureChanged;
 
-  /// @brief Field VREvent_OverlayShown value: static_cast<int32_t>(0x1f4)
+  /// @brief Field VREvent_OverlayShown value: I32(500)
   static ::OVR::OpenVR::EVREventType const VREvent_OverlayShown;
 
-  /// @brief Field VREvent_PerfSectionSettingChanged value: static_cast<int32_t>(0x35f)
+  /// @brief Field VREvent_PerfSectionSettingChanged value: I32(863)
   static ::OVR::OpenVR::EVREventType const VREvent_PerfSectionSettingChanged;
 
-  /// @brief Field VREvent_PerformanceTest_DisableCapture value: static_cast<int32_t>(0x641)
+  /// @brief Field VREvent_PerformanceTest_DisableCapture value: I32(1601)
   static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_DisableCapture;
 
-  /// @brief Field VREvent_PerformanceTest_EnableCapture value: static_cast<int32_t>(0x640)
+  /// @brief Field VREvent_PerformanceTest_EnableCapture value: I32(1600)
   static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_EnableCapture;
 
-  /// @brief Field VREvent_PerformanceTest_FidelityLevel value: static_cast<int32_t>(0x642)
+  /// @brief Field VREvent_PerformanceTest_FidelityLevel value: I32(1602)
   static ::OVR::OpenVR::EVREventType const VREvent_PerformanceTest_FidelityLevel;
 
-  /// @brief Field VREvent_PowerSettingsHaveChanged value: static_cast<int32_t>(0x357)
+  /// @brief Field VREvent_PowerSettingsHaveChanged value: I32(855)
   static ::OVR::OpenVR::EVREventType const VREvent_PowerSettingsHaveChanged;
 
-  /// @brief Field VREvent_PrimaryDashboardDeviceChanged value: static_cast<int32_t>(0x20d)
+  /// @brief Field VREvent_PrimaryDashboardDeviceChanged value: I32(525)
   static ::OVR::OpenVR::EVREventType const VREvent_PrimaryDashboardDeviceChanged;
 
-  /// @brief Field VREvent_ProcessConnected value: static_cast<int32_t>(0x51a)
+  /// @brief Field VREvent_ProcessConnected value: I32(1306)
   static ::OVR::OpenVR::EVREventType const VREvent_ProcessConnected;
 
-  /// @brief Field VREvent_ProcessDisconnected value: static_cast<int32_t>(0x51b)
+  /// @brief Field VREvent_ProcessDisconnected value: I32(1307)
   static ::OVR::OpenVR::EVREventType const VREvent_ProcessDisconnected;
 
-  /// @brief Field VREvent_ProcessQuit value: static_cast<int32_t>(0x2bd)
+  /// @brief Field VREvent_ProcessQuit value: I32(701)
   static ::OVR::OpenVR::EVREventType const VREvent_ProcessQuit;
 
-  /// @brief Field VREvent_PropertyChanged value: static_cast<int32_t>(0x6f)
+  /// @brief Field VREvent_PropertyChanged value: I32(111)
   static ::OVR::OpenVR::EVREventType const VREvent_PropertyChanged;
 
-  /// @brief Field VREvent_Quit value: static_cast<int32_t>(0x2bc)
+  /// @brief Field VREvent_Quit value: I32(700)
   static ::OVR::OpenVR::EVREventType const VREvent_Quit;
 
-  /// @brief Field VREvent_QuitAborted_UserPrompt value: static_cast<int32_t>(0x2be)
+  /// @brief Field VREvent_QuitAborted_UserPrompt value: I32(702)
   static ::OVR::OpenVR::EVREventType const VREvent_QuitAborted_UserPrompt;
 
-  /// @brief Field VREvent_QuitAcknowledged value: static_cast<int32_t>(0x2bf)
+  /// @brief Field VREvent_QuitAcknowledged value: I32(703)
   static ::OVR::OpenVR::EVREventType const VREvent_QuitAcknowledged;
 
-  /// @brief Field VREvent_RenderToast value: static_cast<int32_t>(0x1fb)
+  /// @brief Field VREvent_RenderToast value: I32(507)
   static ::OVR::OpenVR::EVREventType const VREvent_RenderToast;
 
-  /// @brief Field VREvent_ReprojectionSettingHasChanged value: static_cast<int32_t>(0x354)
+  /// @brief Field VREvent_ReprojectionSettingHasChanged value: I32(852)
   static ::OVR::OpenVR::EVREventType const VREvent_ReprojectionSettingHasChanged;
 
-  /// @brief Field VREvent_RequestScreenshot value: static_cast<int32_t>(0x208)
+  /// @brief Field VREvent_RequestScreenshot value: I32(520)
   static ::OVR::OpenVR::EVREventType const VREvent_RequestScreenshot;
 
-  /// @brief Field VREvent_ResetDashboard value: static_cast<int32_t>(0x1fa)
+  /// @brief Field VREvent_ResetDashboard value: I32(506)
   static ::OVR::OpenVR::EVREventType const VREvent_ResetDashboard;
 
-  /// @brief Field VREvent_RoomViewHidden value: static_cast<int32_t>(0x20f)
+  /// @brief Field VREvent_RoomViewHidden value: I32(527)
   static ::OVR::OpenVR::EVREventType const VREvent_RoomViewHidden;
 
-  /// @brief Field VREvent_RoomViewShown value: static_cast<int32_t>(0x20e)
+  /// @brief Field VREvent_RoomViewShown value: I32(526)
   static ::OVR::OpenVR::EVREventType const VREvent_RoomViewShown;
 
-  /// @brief Field VREvent_SceneApplicationChanged value: static_cast<int32_t>(0x194)
+  /// @brief Field VREvent_SceneApplicationChanged value: I32(404)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationChanged;
 
-  /// @brief Field VREvent_SceneApplicationSecondaryRenderingStarted value: static_cast<int32_t>(0x197)
+  /// @brief Field VREvent_SceneApplicationSecondaryRenderingStarted value: I32(407)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationSecondaryRenderingStarted;
 
-  /// @brief Field VREvent_SceneApplicationUsingWrongGraphicsAdapter value: static_cast<int32_t>(0x198)
+  /// @brief Field VREvent_SceneApplicationUsingWrongGraphicsAdapter value: I32(408)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneApplicationUsingWrongGraphicsAdapter;
 
-  /// @brief Field VREvent_SceneFocusChanged value: static_cast<int32_t>(0x195)
+  /// @brief Field VREvent_SceneFocusChanged value: I32(405)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusChanged;
 
-  /// @brief Field VREvent_SceneFocusGained value: static_cast<int32_t>(0x193)
+  /// @brief Field VREvent_SceneFocusGained value: I32(403)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusGained;
 
-  /// @brief Field VREvent_SceneFocusLost value: static_cast<int32_t>(0x192)
+  /// @brief Field VREvent_SceneFocusLost value: I32(402)
   static ::OVR::OpenVR::EVREventType const VREvent_SceneFocusLost;
 
-  /// @brief Field VREvent_ScreenshotFailed value: static_cast<int32_t>(0x20a)
+  /// @brief Field VREvent_ScreenshotFailed value: I32(522)
   static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotFailed;
 
-  /// @brief Field VREvent_ScreenshotProgressToDashboard value: static_cast<int32_t>(0x20c)
+  /// @brief Field VREvent_ScreenshotProgressToDashboard value: I32(524)
   static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotProgressToDashboard;
 
-  /// @brief Field VREvent_ScreenshotTaken value: static_cast<int32_t>(0x209)
+  /// @brief Field VREvent_ScreenshotTaken value: I32(521)
   static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotTaken;
 
-  /// @brief Field VREvent_ScreenshotTriggered value: static_cast<int32_t>(0x204)
+  /// @brief Field VREvent_ScreenshotTriggered value: I32(516)
   static ::OVR::OpenVR::EVREventType const VREvent_ScreenshotTriggered;
 
-  /// @brief Field VREvent_Scroll value: static_cast<int32_t>(0x131)
+  /// @brief Field VREvent_Scroll value: I32(305)
   static ::OVR::OpenVR::EVREventType const VREvent_Scroll;
 
-  /// @brief Field VREvent_SeatedZeroPoseReset value: static_cast<int32_t>(0x324)
+  /// @brief Field VREvent_SeatedZeroPoseReset value: I32(804)
   static ::OVR::OpenVR::EVREventType const VREvent_SeatedZeroPoseReset;
 
-  /// @brief Field VREvent_ShowKeyboard value: static_cast<int32_t>(0x1fd)
+  /// @brief Field VREvent_ShowKeyboard value: I32(509)
   static ::OVR::OpenVR::EVREventType const VREvent_ShowKeyboard;
 
-  /// @brief Field VREvent_ShowRenderModels value: static_cast<int32_t>(0x19b)
+  /// @brief Field VREvent_ShowRenderModels value: I32(411)
   static ::OVR::OpenVR::EVREventType const VREvent_ShowRenderModels;
 
-  /// @brief Field VREvent_SpatialAnchors_DescriptorUpdated value: static_cast<int32_t>(0x709)
+  /// @brief Field VREvent_SpatialAnchors_DescriptorUpdated value: I32(1801)
   static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_DescriptorUpdated;
 
-  /// @brief Field VREvent_SpatialAnchors_PoseUpdated value: static_cast<int32_t>(0x708)
+  /// @brief Field VREvent_SpatialAnchors_PoseUpdated value: I32(1800)
   static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_PoseUpdated;
 
-  /// @brief Field VREvent_SpatialAnchors_RequestDescriptorUpdate value: static_cast<int32_t>(0x70b)
+  /// @brief Field VREvent_SpatialAnchors_RequestDescriptorUpdate value: I32(1803)
   static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestDescriptorUpdate;
 
-  /// @brief Field VREvent_SpatialAnchors_RequestPoseUpdate value: static_cast<int32_t>(0x70a)
+  /// @brief Field VREvent_SpatialAnchors_RequestPoseUpdate value: I32(1802)
   static ::OVR::OpenVR::EVREventType const VREvent_SpatialAnchors_RequestPoseUpdate;
 
-  /// @brief Field VREvent_StatusUpdate value: static_cast<int32_t>(0x384)
+  /// @brief Field VREvent_StatusUpdate value: I32(900)
   static ::OVR::OpenVR::EVREventType const VREvent_StatusUpdate;
 
-  /// @brief Field VREvent_SteamVRSectionSettingChanged value: static_cast<int32_t>(0x359)
+  /// @brief Field VREvent_SteamVRSectionSettingChanged value: I32(857)
   static ::OVR::OpenVR::EVREventType const VREvent_SteamVRSectionSettingChanged;
 
-  /// @brief Field VREvent_SubmitScreenshotToDashboard value: static_cast<int32_t>(0x20b)
+  /// @brief Field VREvent_SubmitScreenshotToDashboard value: I32(523)
   static ::OVR::OpenVR::EVREventType const VREvent_SubmitScreenshotToDashboard;
 
-  /// @brief Field VREvent_SwitchGamepadFocus value: static_cast<int32_t>(0x207)
+  /// @brief Field VREvent_SwitchGamepadFocus value: I32(519)
   static ::OVR::OpenVR::EVREventType const VREvent_SwitchGamepadFocus;
 
-  /// @brief Field VREvent_TouchPadMove value: static_cast<int32_t>(0x132)
+  /// @brief Field VREvent_TouchPadMove value: I32(306)
   static ::OVR::OpenVR::EVREventType const VREvent_TouchPadMove;
 
-  /// @brief Field VREvent_TrackedCamera_EditingSurface value: static_cast<int32_t>(0x60e)
+  /// @brief Field VREvent_TrackedCamera_EditingSurface value: I32(1550)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_EditingSurface;
 
-  /// @brief Field VREvent_TrackedCamera_PauseVideoStream value: static_cast<int32_t>(0x5de)
+  /// @brief Field VREvent_TrackedCamera_PauseVideoStream value: I32(1502)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_PauseVideoStream;
 
-  /// @brief Field VREvent_TrackedCamera_ResumeVideoStream value: static_cast<int32_t>(0x5df)
+  /// @brief Field VREvent_TrackedCamera_ResumeVideoStream value: I32(1503)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_ResumeVideoStream;
 
-  /// @brief Field VREvent_TrackedCamera_StartVideoStream value: static_cast<int32_t>(0x5dc)
+  /// @brief Field VREvent_TrackedCamera_StartVideoStream value: I32(1500)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StartVideoStream;
 
-  /// @brief Field VREvent_TrackedCamera_StopVideoStream value: static_cast<int32_t>(0x5dd)
+  /// @brief Field VREvent_TrackedCamera_StopVideoStream value: I32(1501)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedCamera_StopVideoStream;
 
-  /// @brief Field VREvent_TrackedDeviceActivated value: static_cast<int32_t>(0x64)
+  /// @brief Field VREvent_TrackedDeviceActivated value: I32(100)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceActivated;
 
-  /// @brief Field VREvent_TrackedDeviceDeactivated value: static_cast<int32_t>(0x65)
+  /// @brief Field VREvent_TrackedDeviceDeactivated value: I32(101)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceDeactivated;
 
-  /// @brief Field VREvent_TrackedDeviceRoleChanged value: static_cast<int32_t>(0x6c)
+  /// @brief Field VREvent_TrackedDeviceRoleChanged value: I32(108)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceRoleChanged;
 
-  /// @brief Field VREvent_TrackedDeviceUpdated value: static_cast<int32_t>(0x66)
+  /// @brief Field VREvent_TrackedDeviceUpdated value: I32(102)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUpdated;
 
-  /// @brief Field VREvent_TrackedDeviceUserInteractionEnded value: static_cast<int32_t>(0x68)
+  /// @brief Field VREvent_TrackedDeviceUserInteractionEnded value: I32(104)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionEnded;
 
-  /// @brief Field VREvent_TrackedDeviceUserInteractionStarted value: static_cast<int32_t>(0x67)
+  /// @brief Field VREvent_TrackedDeviceUserInteractionStarted value: I32(103)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackedDeviceUserInteractionStarted;
 
-  /// @brief Field VREvent_TrackersSectionSettingChanged value: static_cast<int32_t>(0x362)
+  /// @brief Field VREvent_TrackersSectionSettingChanged value: I32(866)
   static ::OVR::OpenVR::EVREventType const VREvent_TrackersSectionSettingChanged;
 
-  /// @brief Field VREvent_UserInterfaceSectionSettingChanged value: static_cast<int32_t>(0x35c)
+  /// @brief Field VREvent_UserInterfaceSectionSettingChanged value: I32(860)
   static ::OVR::OpenVR::EVREventType const VREvent_UserInterfaceSectionSettingChanged;
 
-  /// @brief Field VREvent_VendorSpecific_Reserved_End value: static_cast<int32_t>(0x4e1f)
+  /// @brief Field VREvent_VendorSpecific_Reserved_End value: I32(19999)
   static ::OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_End;
 
-  /// @brief Field VREvent_VendorSpecific_Reserved_Start value: static_cast<int32_t>(0x2710)
+  /// @brief Field VREvent_VendorSpecific_Reserved_Start value: I32(10000)
   static ::OVR::OpenVR::EVREventType const VREvent_VendorSpecific_Reserved_Start;
 
-  /// @brief Field VREvent_WatchdogWakeUpRequested value: static_cast<int32_t>(0x6d)
+  /// @brief Field VREvent_WatchdogWakeUpRequested value: I32(109)
   static ::OVR::OpenVR::EVREventType const VREvent_WatchdogWakeUpRequested;
 
-  /// @brief Field VREvent_WebInterfaceSectionSettingChanged value: static_cast<int32_t>(0x361)
+  /// @brief Field VREvent_WebInterfaceSectionSettingChanged value: I32(865)
   static ::OVR::OpenVR::EVREventType const VREvent_WebInterfaceSectionSettingChanged;
 
-  /// @brief Field VREvent_WebInterface_InstallDriverCompleted value: static_cast<int32_t>(0x3b6)
+  /// @brief Field VREvent_WebInterface_InstallDriverCompleted value: I32(950)
   static ::OVR::OpenVR::EVREventType const VREvent_WebInterface_InstallDriverCompleted;
 
-  /// @brief Field VREvent_WirelessDisconnect value: static_cast<int32_t>(0x70)
+  /// @brief Field VREvent_WirelessDisconnect value: I32(112)
   static ::OVR::OpenVR::EVREventType const VREvent_WirelessDisconnect;
 
-  /// @brief Field VREvent_WirelessReconnect value: static_cast<int32_t>(0x71)
+  /// @brief Field VREvent_WirelessReconnect value: I32(113)
   static ::OVR::OpenVR::EVREventType const VREvent_WirelessReconnect;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVREventType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVREventType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVREventType, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVREventType, "OVR.OpenVR", "EVREventType");

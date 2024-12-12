@@ -12,11 +12,10 @@ struct ETrackedPropertyError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::ETrackedPropertyError);
-// Type: OVR.OpenVR::ETrackedPropertyError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::ETrackedPropertyError
+// CS Name: OVR.OpenVR.ETrackedPropertyError
 struct CORDL_TYPE ETrackedPropertyError {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ETrackedPropertyError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field TrackedProp_BufferTooSmall value: static_cast<int32_t>(0x3)
+  /// @brief Field TrackedProp_BufferTooSmall value: I32(3)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_BufferTooSmall;
 
-  /// @brief Field TrackedProp_CannotWriteToWildcards value: static_cast<int32_t>(0xc)
+  /// @brief Field TrackedProp_CannotWriteToWildcards value: I32(12)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_CannotWriteToWildcards;
 
-  /// @brief Field TrackedProp_CouldNotContactServer value: static_cast<int32_t>(0x6)
+  /// @brief Field TrackedProp_CouldNotContactServer value: I32(6)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_CouldNotContactServer;
 
-  /// @brief Field TrackedProp_InvalidDevice value: static_cast<int32_t>(0x5)
+  /// @brief Field TrackedProp_InvalidDevice value: I32(5)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidDevice;
 
-  /// @brief Field TrackedProp_InvalidOperation value: static_cast<int32_t>(0xb)
+  /// @brief Field TrackedProp_InvalidOperation value: I32(11)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_InvalidOperation;
 
-  /// @brief Field TrackedProp_NotYetAvailable value: static_cast<int32_t>(0x9)
+  /// @brief Field TrackedProp_NotYetAvailable value: I32(9)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_NotYetAvailable;
 
-  /// @brief Field TrackedProp_PermissionDenied value: static_cast<int32_t>(0xa)
+  /// @brief Field TrackedProp_PermissionDenied value: I32(10)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_PermissionDenied;
 
-  /// @brief Field TrackedProp_StringExceedsMaximumLength value: static_cast<int32_t>(0x8)
+  /// @brief Field TrackedProp_StringExceedsMaximumLength value: I32(8)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_StringExceedsMaximumLength;
 
-  /// @brief Field TrackedProp_Success value: static_cast<int32_t>(0x0)
+  /// @brief Field TrackedProp_Success value: I32(0)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_Success;
 
-  /// @brief Field TrackedProp_UnknownProperty value: static_cast<int32_t>(0x4)
+  /// @brief Field TrackedProp_UnknownProperty value: I32(4)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_UnknownProperty;
 
-  /// @brief Field TrackedProp_ValueNotProvidedByDevice value: static_cast<int32_t>(0x7)
+  /// @brief Field TrackedProp_ValueNotProvidedByDevice value: I32(7)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_ValueNotProvidedByDevice;
 
-  /// @brief Field TrackedProp_WrongDataType value: static_cast<int32_t>(0x1)
+  /// @brief Field TrackedProp_WrongDataType value: I32(1)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDataType;
 
-  /// @brief Field TrackedProp_WrongDeviceClass value: static_cast<int32_t>(0x2)
+  /// @brief Field TrackedProp_WrongDeviceClass value: I32(2)
   static ::OVR::OpenVR::ETrackedPropertyError const TrackedProp_WrongDeviceClass;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8901 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETrackedPropertyError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::ETrackedPropertyError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETrackedPropertyError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedPropertyError, "OVR.OpenVR", "ETrackedPropertyError");

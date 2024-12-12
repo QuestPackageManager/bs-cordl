@@ -41,11 +41,10 @@ class KeyboardTextEditorEventHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);
-// Type: UnityEngine.UIElements::KeyboardTextEditorEventHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TextEditorEventHandler
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::KeyboardTextEditorEventHandler*
+// CS Name: UnityEngine.UIElements.KeyboardTextEditorEventHandler
 class CORDL_TYPE KeyboardTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
   // Declarations
@@ -55,45 +54,45 @@ public:
   /// @brief Field m_ImguiEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event* m_ImguiEvent;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4986dc8, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49eb6d8, size 0x2b0, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
-  /// @brief Method OnBlur, addr 0x4987160, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnBlur, addr 0x49eba70, size 0x54, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnExecuteCommandEvent, addr 0x4987d90, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x49ec6a0, size 0x26c, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method OnFocus, addr 0x498707c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x49eb98c, size 0xe4, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnKeyDown, addr 0x49871b4, size 0x9c8, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x49ebac4, size 0x9c8, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TEvent> inline void OnNavigationEvent(::UnityEngine::UIElements::NavigationEventBase_1<TEvent>* evt);
 
-  /// @brief Method OnValidateCommandEvent, addr 0x4987b7c, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnValidateCommandEvent, addr 0x49ec48c, size 0x214, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method UpdateLabel, addr 0x4987ffc, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x49ec90c, size 0x2b8, virtual false, abstract: false, final false
   inline void UpdateLabel();
 
   constexpr bool const& __cordl_internal_get_m_Changed() const;
 
   constexpr bool& __cordl_internal_get_m_Changed();
 
-  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
+  constexpr ::UnityEngine::Event* const& __cordl_internal_get_m_ImguiEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_ImguiEvent() const;
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
 
   constexpr void __cordl_internal_set_m_Changed(bool value);
 
   constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x4986c90, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49eb5a0, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:
@@ -110,23 +109,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyboardTextEditorEventHandler(KeyboardTextEditorEventHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5604 };
+
   /// @brief Field m_ImguiEvent, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Event* ___m_ImguiEvent;
 
   /// @brief Field m_Changed, offset: 0x28, size: 0x1, def value: None
   bool ___m_Changed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardTextEditorEventHandler, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardTextEditorEventHandler, ___m_ImguiEvent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::KeyboardTextEditorEventHandler, ___m_Changed) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::KeyboardTextEditorEventHandler, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);

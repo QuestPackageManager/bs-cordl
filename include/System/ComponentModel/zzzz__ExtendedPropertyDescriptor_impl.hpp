@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::ReflectPropertyDescriptor*, ::System::Type*, ::System::ComponentModel::IExtenderProvider*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x43f0be4;
+  constexpr static std::size_t addrs = 0x4451ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f0eb0;
+  constexpr static std::size_t addrs = 0x44521c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_ComponentType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f0ed8;
+  constexpr static std::size_t addrs = 0x44521ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43f0efc;
+  constexpr static std::size_t addrs = 0x4452210;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_PropertyType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43f0ff4;
+  constexpr static std::size_t addrs = 0x4452308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_DisplayName)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x43f1018;
+  constexpr static std::size_t addrs = 0x445232c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::GetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f11f4;
+  constexpr static std::size_t addrs = 0x4452508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f121c;
+  constexpr static std::size_t addrs = 0x4452530;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43f1244;
+  constexpr static std::size_t addrs = 0x4452558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f1270;
+  constexpr static std::size_t addrs = 0x4452584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,8 +174,7 @@ constexpr ::System::ComponentModel::ReflectPropertyDescriptor*& System::Componen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extenderInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReflectPropertyDescriptor*> const&
-System::ComponentModel::ExtendedPropertyDescriptor::__cordl_internal_get__extenderInfo() const {
+constexpr ::System::ComponentModel::ReflectPropertyDescriptor* const& System::ComponentModel::ExtendedPropertyDescriptor::__cordl_internal_get__extenderInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extenderInfo;
 }
@@ -187,19 +186,13 @@ constexpr ::System::ComponentModel::IExtenderProvider*& System::ComponentModel::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& System::ComponentModel::ExtendedPropertyDescriptor::__cordl_internal_get__provider() const {
+constexpr ::System::ComponentModel::IExtenderProvider* const& System::ComponentModel::ExtendedPropertyDescriptor::__cordl_internal_get__provider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____provider;
 }
 constexpr void System::ComponentModel::ExtendedPropertyDescriptor::__cordl_internal_set__provider(::System::ComponentModel::IExtenderProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::ComponentModel::ExtendedPropertyDescriptor* System::ComponentModel::ExtendedPropertyDescriptor::New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo,
-                                                                                                                          ::System::Type* receiverType,
-                                                                                                                          ::System::ComponentModel::IExtenderProvider* provider,
-                                                                                                                          ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ExtendedPropertyDescriptor*>(extenderInfo, receiverType, provider, attributes));
 }
 inline void System::ComponentModel::ExtendedPropertyDescriptor::_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType,
                                                                       ::System::ComponentModel::IExtenderProvider* provider,
@@ -264,6 +257,12 @@ inline bool System::ComponentModel::ExtendedPropertyDescriptor::ShouldSerializeV
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ExtendedPropertyDescriptor*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, comp);
+}
+inline ::System::ComponentModel::ExtendedPropertyDescriptor* System::ComponentModel::ExtendedPropertyDescriptor::New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo,
+                                                                                                                          ::System::Type* receiverType,
+                                                                                                                          ::System::ComponentModel::IExtenderProvider* provider,
+                                                                                                                          ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ExtendedPropertyDescriptor*>(extenderInfo, receiverType, provider, attributes));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ExtendedPropertyDescriptor::ExtendedPropertyDescriptor() {}

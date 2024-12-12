@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -22,11 +21,10 @@ class AlphaFloatFxGroupEffectTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AlphaFloatFxGroupEffectTarget);
-// Type: ::AlphaFloatFxGroupEffectTarget
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AlphaFloatFxGroupEffectTarget*
+// CS Name: AlphaFloatFxGroupEffectTarget
 class CORDL_TYPE AlphaFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -48,21 +46,21 @@ public:
   /// @brief Field _staticColor, offset 0x20, size 0x10
   __declspec(property(get = __cordl_internal_get__staticColor, put = __cordl_internal_set__staticColor)) ::UnityEngine::Color _staticColor;
 
-  /// @brief Method Awake, addr 0x3b27800, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b88d98, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x3b27830, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3b88dc8, size 0x30, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::AlphaFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method SetColor, addr 0x3b27878, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x3b88e10, size 0xdc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetValue, addr 0x3b27860, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b88df8, size 0x18, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b27954, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b88eec, size 0x18, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr bool const& __cordl_internal_get__isInitialized() const;
@@ -98,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__staticColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b2796c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b88f04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -115,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AlphaFloatFxGroupEffectTarget(AlphaFloatFxGroupEffectTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4259 };
+
   /// @brief Field _staticColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____staticColor;
 
@@ -130,14 +131,9 @@ public:
   /// @brief Field _isInitialized, offset: 0x44, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4248 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphaFloatFxGroupEffectTarget, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AlphaFloatFxGroupEffectTarget, ____staticColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AlphaFloatFxGroupEffectTarget, ____property) == 0x30, "Offset mismatch!");
@@ -147,6 +143,8 @@ static_assert(offsetof(::GlobalNamespace::AlphaFloatFxGroupEffectTarget, ____mat
 static_assert(offsetof(::GlobalNamespace::AlphaFloatFxGroupEffectTarget, ____propertyId) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AlphaFloatFxGroupEffectTarget, ____isInitialized) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AlphaFloatFxGroupEffectTarget, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AlphaFloatFxGroupEffectTarget);

@@ -13,30 +13,30 @@
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyView.add_didFavoriteToggleChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityEngine::UI::Toggle*>*)>(
     &::GlobalNamespace::StandardLevelBuyView::add_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aa915c;
+  constexpr static std::size_t addrs = 0x3b060f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "add_didFavoriteToggleChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::UI::Toggle*>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelBuyView.remove_didFavoriteToggleChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityEngine::UI::Toggle*>*)>(
     &::GlobalNamespace::StandardLevelBuyView::remove_didFavoriteToggleChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aa920c;
+  constexpr static std::size_t addrs = 0x3b061a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "remove_didFavoriteToggleChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::UI::Toggle*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyView::*)()>(
     &::GlobalNamespace::StandardLevelBuyView::get_buyButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa92bc;
+  constexpr static std::size_t addrs = 0x3b06250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "get_buyButton",
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::Awake)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3aa92c4;
+  constexpr static std::size_t addrs = 0x3b06258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "Awake",
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa93a4;
+  constexpr static std::size_t addrs = 0x3b06338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "OnDestroy",
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::StandardLevelBuyView::SetContent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3aa93b8;
+  constexpr static std::size_t addrs = 0x3b0634c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(
     &::GlobalNamespace::StandardLevelBuyView::RefreshFavouriteToggle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3aa9430;
+  constexpr static std::size_t addrs = 0x3b063c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(),
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa9474;
+  constexpr static std::size_t addrs = 0x3b06408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), ".ctor",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(bool)>(&::GlobalNamespace::StandardLevelBuyView::_Awake_b__12_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3aa947c;
+  constexpr static std::size_t addrs = 0x3b06410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -200,8 +200,7 @@ constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*& GlobalNamesp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFavoriteToggleChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*> const&
-GlobalNamespace::StandardLevelBuyView::__cordl_internal_get_didFavoriteToggleChangeEvent() const {
+constexpr ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* const& GlobalNamespace::StandardLevelBuyView::__cordl_internal_get_didFavoriteToggleChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFavoriteToggleChangeEvent;
 }
@@ -213,7 +212,7 @@ constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::StandardLevelBuyVie
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::StandardLevelBuyView::__cordl_internal_get__beatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::StandardLevelBuyView::__cordl_internal_get__beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
@@ -225,7 +224,7 @@ constexpr ::HMUI::ToggleBinder*& GlobalNamespace::StandardLevelBuyView::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::StandardLevelBuyView::__cordl_internal_get__toggleBinder() const {
+constexpr ::HMUI::ToggleBinder* const& GlobalNamespace::StandardLevelBuyView::__cordl_internal_get__toggleBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
@@ -233,16 +232,16 @@ constexpr void GlobalNamespace::StandardLevelBuyView::__cordl_internal_set__togg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::StandardLevelBuyView::add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value) {
+inline void GlobalNamespace::StandardLevelBuyView::add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "add_didFavoriteToggleChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::UI::Toggle*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::StandardLevelBuyView::remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value) {
+inline void GlobalNamespace::StandardLevelBuyView::remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityEngine::UI::Toggle*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "remove_didFavoriteToggleChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::UI::Toggle*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::UI::Button> GlobalNamespace::StandardLevelBuyView::get_buyButton() {
@@ -271,9 +270,6 @@ inline void GlobalNamespace::StandardLevelBuyView::RefreshFavouriteToggle() {
                                                                              "RefreshFavouriteToggle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::StandardLevelBuyView* GlobalNamespace::StandardLevelBuyView::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelBuyView*>());
-}
 inline void GlobalNamespace::StandardLevelBuyView::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -284,6 +280,9 @@ inline void GlobalNamespace::StandardLevelBuyView::_Awake_b__12_0(bool _) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "<Awake>b__12_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
+}
+inline ::GlobalNamespace::StandardLevelBuyView* GlobalNamespace::StandardLevelBuyView::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelBuyView*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::StandardLevelBuyView::StandardLevelBuyView() {}

@@ -12,11 +12,10 @@ struct UriSyntaxFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::UriSyntaxFlags);
-// Type: System::UriSyntaxFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::UriSyntaxFlags
+// CS Name: System.UriSyntaxFlags
 struct CORDL_TYPE UriSyntaxFlags {
 public:
   // Declarations
@@ -72,108 +71,108 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UriSyntaxFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AllowAnInternetHost value: static_cast<int32_t>(0xe00)
+  /// @brief Field AllowAnInternetHost value: I32(3584)
   static ::System::UriSyntaxFlags const AllowAnInternetHost;
 
-  /// @brief Field AllowAnyOtherHost value: static_cast<int32_t>(0x1000)
+  /// @brief Field AllowAnyOtherHost value: I32(4096)
   static ::System::UriSyntaxFlags const AllowAnyOtherHost;
 
-  /// @brief Field AllowDOSPath value: static_cast<int32_t>(0x100000)
+  /// @brief Field AllowDOSPath value: I32(1048576)
   static ::System::UriSyntaxFlags const AllowDOSPath;
 
-  /// @brief Field AllowDnsHost value: static_cast<int32_t>(0x200)
+  /// @brief Field AllowDnsHost value: I32(512)
   static ::System::UriSyntaxFlags const AllowDnsHost;
 
-  /// @brief Field AllowEmptyHost value: static_cast<int32_t>(0x80)
+  /// @brief Field AllowEmptyHost value: I32(128)
   static ::System::UriSyntaxFlags const AllowEmptyHost;
 
-  /// @brief Field AllowIPv4Host value: static_cast<int32_t>(0x400)
+  /// @brief Field AllowIPv4Host value: I32(1024)
   static ::System::UriSyntaxFlags const AllowIPv4Host;
 
-  /// @brief Field AllowIPv6Host value: static_cast<int32_t>(0x800)
+  /// @brief Field AllowIPv6Host value: I32(2048)
   static ::System::UriSyntaxFlags const AllowIPv6Host;
 
-  /// @brief Field AllowIdn value: static_cast<int32_t>(0x4000000)
+  /// @brief Field AllowIdn value: I32(67108864)
   static ::System::UriSyntaxFlags const AllowIdn;
 
-  /// @brief Field AllowIriParsing value: static_cast<int32_t>(0x10000000)
+  /// @brief Field AllowIriParsing value: I32(268435456)
   static ::System::UriSyntaxFlags const AllowIriParsing;
 
-  /// @brief Field AllowUncHost value: static_cast<int32_t>(0x100)
+  /// @brief Field AllowUncHost value: I32(256)
   static ::System::UriSyntaxFlags const AllowUncHost;
 
-  /// @brief Field BuiltInSyntax value: static_cast<int32_t>(0x40000)
+  /// @brief Field BuiltInSyntax value: I32(262144)
   static ::System::UriSyntaxFlags const BuiltInSyntax;
 
-  /// @brief Field CanonicalizeAsFilePath value: static_cast<int32_t>(0x1000000)
+  /// @brief Field CanonicalizeAsFilePath value: I32(16777216)
   static ::System::UriSyntaxFlags const CanonicalizeAsFilePath;
 
-  /// @brief Field CompressPath value: static_cast<int32_t>(0x800000)
+  /// @brief Field CompressPath value: I32(8388608)
   static ::System::UriSyntaxFlags const CompressPath;
 
-  /// @brief Field ConvertPathSlashes value: static_cast<int32_t>(0x400000)
+  /// @brief Field ConvertPathSlashes value: I32(4194304)
   static ::System::UriSyntaxFlags const ConvertPathSlashes;
 
-  /// @brief Field FileLikeUri value: static_cast<int32_t>(0x2000)
+  /// @brief Field FileLikeUri value: I32(8192)
   static ::System::UriSyntaxFlags const FileLikeUri;
 
-  /// @brief Field MailToLikeUri value: static_cast<int32_t>(0x4000)
+  /// @brief Field MailToLikeUri value: I32(16384)
   static ::System::UriSyntaxFlags const MailToLikeUri;
 
-  /// @brief Field MayHaveFragment value: static_cast<int32_t>(0x40)
+  /// @brief Field MayHaveFragment value: I32(64)
   static ::System::UriSyntaxFlags const MayHaveFragment;
 
-  /// @brief Field MayHavePath value: static_cast<int32_t>(0x10)
+  /// @brief Field MayHavePath value: I32(16)
   static ::System::UriSyntaxFlags const MayHavePath;
 
-  /// @brief Field MayHavePort value: static_cast<int32_t>(0x8)
+  /// @brief Field MayHavePort value: I32(8)
   static ::System::UriSyntaxFlags const MayHavePort;
 
-  /// @brief Field MayHaveQuery value: static_cast<int32_t>(0x20)
+  /// @brief Field MayHaveQuery value: I32(32)
   static ::System::UriSyntaxFlags const MayHaveQuery;
 
-  /// @brief Field MayHaveUserInfo value: static_cast<int32_t>(0x4)
+  /// @brief Field MayHaveUserInfo value: I32(4)
   static ::System::UriSyntaxFlags const MayHaveUserInfo;
 
-  /// @brief Field MustHaveAuthority value: static_cast<int32_t>(0x1)
+  /// @brief Field MustHaveAuthority value: I32(1)
   static ::System::UriSyntaxFlags const MustHaveAuthority;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::UriSyntaxFlags const None;
 
-  /// @brief Field OptionalAuthority value: static_cast<int32_t>(0x2)
+  /// @brief Field OptionalAuthority value: I32(2)
   static ::System::UriSyntaxFlags const OptionalAuthority;
 
-  /// @brief Field ParserSchemeOnly value: static_cast<int32_t>(0x80000)
+  /// @brief Field ParserSchemeOnly value: I32(524288)
   static ::System::UriSyntaxFlags const ParserSchemeOnly;
 
-  /// @brief Field PathIsRooted value: static_cast<int32_t>(0x200000)
+  /// @brief Field PathIsRooted value: I32(2097152)
   static ::System::UriSyntaxFlags const PathIsRooted;
 
-  /// @brief Field SimpleUserSyntax value: static_cast<int32_t>(0x20000)
+  /// @brief Field SimpleUserSyntax value: I32(131072)
   static ::System::UriSyntaxFlags const SimpleUserSyntax;
 
-  /// @brief Field UnEscapeDotsAndSlashes value: static_cast<int32_t>(0x2000000)
+  /// @brief Field UnEscapeDotsAndSlashes value: I32(33554432)
   static ::System::UriSyntaxFlags const UnEscapeDotsAndSlashes;
 
-  /// @brief Field V1_UnknownUri value: static_cast<int32_t>(0x10000)
+  /// @brief Field V1_UnknownUri value: I32(65536)
   static ::System::UriSyntaxFlags const V1_UnknownUri;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9205 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::UriSyntaxFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::UriSyntaxFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::UriSyntaxFlags, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::UriSyntaxFlags, "System", "UriSyntaxFlags");

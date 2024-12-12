@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/RecipientInfo.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KekRecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
@@ -11,7 +12,6 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Cms::RecipientInfo._ctor
 template <>
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22d6414;
+  constexpr static std::size_t addrs = 0x2309700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22d643c;
+  constexpr static std::size_t addrs = 0x2309728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22d64b8;
+  constexpr static std::size_t addrs = 0x23097a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22d6534;
+  constexpr static std::size_t addrs = 0x2309820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22d65b0;
+  constexpr static std::size_t addrs = 0x230989c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22d662c;
+  constexpr static std::size_t addrs = 0x2309918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::RecipientInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::GetInstance)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x22d10e4;
+  constexpr static std::size_t addrs = 0x23043d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::get_Version)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x22d1288;
+  constexpr static std::size_t addrs = 0x2304574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(),
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::get_IsTagged)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22d667c;
+  constexpr static std::size_t addrs = 0x2309968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::get_Info)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x22d66f8;
+  constexpr static std::size_t addrs = 0x23099e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(),
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* (
     ::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&::Org::BouncyCastle::Asn1::Cms::RecipientInfo::GetKekInfo)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22d6654;
+  constexpr static std::size_t addrs = 0x2309940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::RecipientInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientInfo::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22d6834;
+  constexpr static std::size_t addrs = 0x2309b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,19 +190,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr Org::BouncyCastle::Asn1::Cms::RecipientInfo::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::Cms::RecipientInfo::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& Org::BouncyCastle::Asn1::Cms::RecipientInfo::__cordl_internal_get_info() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& Org::BouncyCastle::Asn1::Cms::RecipientInfo::__cordl_internal_get_info() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& Org::BouncyCastle::Asn1::Cms::RecipientInfo::__cordl_internal_get_info() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___info;
 }
@@ -210,17 +202,11 @@ constexpr void Org::BouncyCastle::Asn1::Cms::RecipientInfo::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___info)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
-}
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info);
-}
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
 }
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -228,17 +214,11 @@ inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCast
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
-}
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info);
-}
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
 }
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -246,17 +226,11 @@ inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCast
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info);
 }
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
-}
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info);
-}
-inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
 }
 inline void Org::BouncyCastle::Asn1::Cms::RecipientInfo::_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -295,6 +269,32 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Reci
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyTransRecipientInfo* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Cms::OtherRecipientInfo* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Org::BouncyCastle::Asn1::Cms::RecipientInfo::New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* info) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::RecipientInfo*>(info));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr Org::BouncyCastle::Asn1::Cms::RecipientInfo::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::Cms::RecipientInfo::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientInfo::RecipientInfo() {}

@@ -4,12 +4,8 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncVoidMethodBuilder)
-namespace System::Runtime::CompilerServices {
-struct AsyncMethodBuilderCore;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
@@ -28,41 +24,40 @@ struct AsyncVoidMethodBuilder;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder);
-// Type: System.Runtime.CompilerServices::AsyncVoidMethodBuilder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncMethodBuilderCore
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// CS Name: ::System.Runtime.CompilerServices::AsyncVoidMethodBuilder
+// CS Name: System.Runtime.CompilerServices.AsyncVoidMethodBuilder
 struct CORDL_TYPE AsyncVoidMethodBuilder {
 public:
   // Declarations
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task* Task;
 
   /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x3cb83c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3d18534, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
 
-  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x3cb8584, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x3d186f8, size 0xa4, virtual false, abstract: false, final false
   inline void NotifySynchronizationContextOfCompletion();
 
-  /// @brief Method SetException, addr 0x3cb8628, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x3d1879c, size 0x130, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x3cb84c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x3d18638, size 0x5c, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x3cb8400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x3d18574, size 0x8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
+  template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x3cb8520, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x3d18694, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   // Ctor Parameters []
@@ -75,6 +70,12 @@ public:
   constexpr AsyncVoidMethodBuilder(::System::Threading::SynchronizationContext* m_synchronizationContext, ::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState,
                                    ::System::Threading::Tasks::Task* m_task) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3400 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+
   /// @brief Field m_synchronizationContext, offset: 0x0, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* m_synchronizationContext;
 
@@ -84,22 +85,16 @@ public:
   /// @brief Field m_task, offset: 0x18, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* m_task;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3400 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, m_synchronizationContext) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, m_coreState) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, m_task) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, 0x20>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");

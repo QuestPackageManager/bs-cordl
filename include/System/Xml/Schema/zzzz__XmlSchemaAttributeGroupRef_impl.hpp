@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaAttributeGroupRef::get_RefName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4257ec4;
+  constexpr static std::size_t addrs = 0x42b91d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaAttributeGroupRef::set_RefName)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4257ecc;
+  constexpr static std::size_t addrs = 0x42b91e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAttributeGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaAttributeGroupRef::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4257f64;
+  constexpr static std::size_t addrs = 0x42b9278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>::get(),
@@ -50,7 +50,7 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Schema::XmlSchemaAttrib
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___refName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Schema::XmlSchemaAttributeGroupRef::__cordl_internal_get_refName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Schema::XmlSchemaAttributeGroupRef::__cordl_internal_get_refName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___refName;
 }
@@ -69,13 +69,13 @@ inline void System::Xml::Schema::XmlSchemaAttributeGroupRef::set_RefName(::Syste
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlQualifiedName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Xml::Schema::XmlSchemaAttributeGroupRef* System::Xml::Schema::XmlSchemaAttributeGroupRef::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>());
-}
 inline void System::Xml::Schema::XmlSchemaAttributeGroupRef::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaAttributeGroupRef* System::Xml::Schema::XmlSchemaAttributeGroupRef::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaAttributeGroupRef*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaAttributeGroupRef::XmlSchemaAttributeGroupRef() {}

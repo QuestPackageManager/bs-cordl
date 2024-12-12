@@ -21,11 +21,10 @@ class HEU_AssetEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetEventData);
-// Type: HoudiniEngineUnity::HEU_AssetEventData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_AssetEventType, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_AssetEventData*
+// CS Name: HoudiniEngineUnity.HEU_AssetEventData
 class CORDL_TYPE HEU_AssetEventData : public ::System::Object {
 public:
   // Declarations
@@ -42,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get_OutputObjects, put = __cordl_internal_set_OutputObjects)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* OutputObjects;
 
   static inline ::HoudiniEngineUnity::HEU_AssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+                                                                   ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get_Asset() const;
 
@@ -56,9 +55,9 @@ public:
 
   constexpr ::HoudiniEngineUnity::HEU_AssetEventType& __cordl_internal_get_EventType();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_OutputObjects();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_OutputObjects() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_OutputObjects() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_OutputObjects();
 
   constexpr void __cordl_internal_set_Asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
@@ -68,8 +67,8 @@ public:
 
   constexpr void __cordl_internal_set_OutputObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method .ctor, addr 0x39afa0c, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+  /// @brief Method .ctor, addr 0x3a0667c, size 0x40, virtual false, abstract: false, final false
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
 
 protected:
   // Ctor Parameters []
@@ -85,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_AssetEventData(HEU_AssetEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11577 };
+
   /// @brief Field Asset, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ___Asset;
 
@@ -97,14 +99,9 @@ public:
   /// @brief Field EventType, offset: 0x28, size: 0x4, def value: None
   ::HoudiniEngineUnity::HEU_AssetEventType ___EventType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11544 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetEventData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___Asset) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___CookSuccess) == 0x18, "Offset mismatch!");
@@ -112,6 +109,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___CookSuccess)
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___OutputObjects) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetEventData, ___EventType) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetEventData, 0x30>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetEventData);

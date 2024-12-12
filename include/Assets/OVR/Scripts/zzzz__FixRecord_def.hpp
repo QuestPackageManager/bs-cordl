@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Assets/OVR/Scripts/zzzz__Record_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixRecord)
@@ -20,11 +19,10 @@ class FixRecord;
 }
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::FixRecord);
-// Type: Assets.OVR.Scripts::FixRecord
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Assets.OVR.Scripts.Record
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// CS Name: ::Assets.OVR.Scripts::FixRecord*
+// CS Name: Assets.OVR.Scripts.FixRecord
 class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
 public:
   // Declarations
@@ -58,9 +56,9 @@ public:
 
   constexpr bool& __cordl_internal_get_editModeRequired();
 
-  constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& __cordl_internal_get_fixMethod();
+  constexpr ::Assets::OVR::Scripts::FixMethodDelegate* const& __cordl_internal_get_fixMethod() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Assets::OVR::Scripts::FixMethodDelegate*> const& __cordl_internal_get_fixMethod() const;
+  constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& __cordl_internal_get_fixMethod();
 
   constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get_targetObject() const;
 
@@ -76,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x40175a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4077654, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 
@@ -94,6 +92,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FixRecord(FixRecord const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9050 };
+
   /// @brief Field fixMethod, offset: 0x28, size: 0x8, def value: None
   ::Assets::OVR::Scripts::FixMethodDelegate* ___fixMethod;
 
@@ -109,14 +110,9 @@ public:
   /// @brief Field complete, offset: 0x41, size: 0x1, def value: None
   bool ___complete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9025 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::FixRecord, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___fixMethod) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___targetObject) == 0x30, "Offset mismatch!");
@@ -126,6 +122,8 @@ static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___buttonNames) == 0x3
 static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___editModeRequired) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::Assets::OVR::Scripts::FixRecord, ___complete) == 0x41, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::FixRecord, 0x48>, "Size mismatch!");
 
 } // namespace Assets::OVR::Scripts
 NEED_NO_BOX(::Assets::OVR::Scripts::FixRecord);

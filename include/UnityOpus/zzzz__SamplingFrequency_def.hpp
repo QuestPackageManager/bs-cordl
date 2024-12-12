@@ -12,11 +12,10 @@ struct SamplingFrequency;
 }
 // Write type traits
 MARK_VAL_T(::UnityOpus::SamplingFrequency);
-// Type: UnityOpus::SamplingFrequency
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityOpus {
 // Is value type: true
-// CS Name: ::UnityOpus::SamplingFrequency
+// CS Name: UnityOpus.SamplingFrequency
 struct CORDL_TYPE SamplingFrequency {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SamplingFrequency(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Frequency_12000 value: static_cast<int32_t>(0x2ee0)
+  /// @brief Field Frequency_12000 value: I32(12000)
   static ::UnityOpus::SamplingFrequency const Frequency_12000;
 
-  /// @brief Field Frequency_16000 value: static_cast<int32_t>(0x3e80)
+  /// @brief Field Frequency_16000 value: I32(16000)
   static ::UnityOpus::SamplingFrequency const Frequency_16000;
 
-  /// @brief Field Frequency_24000 value: static_cast<int32_t>(0x5dc0)
+  /// @brief Field Frequency_24000 value: I32(24000)
   static ::UnityOpus::SamplingFrequency const Frequency_24000;
 
-  /// @brief Field Frequency_48000 value: static_cast<int32_t>(0xbb80)
+  /// @brief Field Frequency_48000 value: I32(48000)
   static ::UnityOpus::SamplingFrequency const Frequency_48000;
 
-  /// @brief Field Frequency_8000 value: static_cast<int32_t>(0x1f40)
+  /// @brief Field Frequency_8000 value: I32(8000)
   static ::UnityOpus::SamplingFrequency const Frequency_8000;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19070 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityOpus::SamplingFrequency, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityOpus::SamplingFrequency, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityOpus::SamplingFrequency, 0x4>, "Size mismatch!");
 
 } // namespace UnityOpus
 DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::SamplingFrequency, "UnityOpus", "SamplingFrequency");

@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HkdfBytesGenerator)
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -12,9 +12,6 @@ class HMac;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
@@ -28,11 +25,10 @@ class HkdfBytesGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
-// Type: Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.IDerivationFunction, System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator*
+// CS Name: Org.BouncyCastle.Crypto.Generators.HkdfBytesGenerator
 class CORDL_TYPE HkdfBytesGenerator : public ::System::Object {
 public:
   // Declarations
@@ -56,16 +52,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method ExpandNext, addr 0x23520b4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ExpandNext, addr 0x23853a0, size 0x100, virtual false, abstract: false, final false
   inline void ExpandNext();
 
-  /// @brief Method Extract, addr 0x2351f50, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Extract, addr 0x238523c, size 0x164, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* Extract(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> ikm);
 
-  /// @brief Method GenerateBytes, addr 0x23521d4, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method GenerateBytes, addr 0x23854c0, size 0x1b8, virtual true, abstract: false, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t len);
 
-  /// @brief Method Init, addr 0x2351d80, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x238506c, size 0x1d0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
@@ -78,9 +74,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_generatedBytes();
 
-  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __cordl_internal_get_hMacHash();
+  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac* const& __cordl_internal_get_hMacHash() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __cordl_internal_get_hMacHash() const;
+  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __cordl_internal_get_hMacHash();
 
   constexpr int32_t const& __cordl_internal_get_hashLen() const;
 
@@ -100,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2351c90, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2384f7c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method get_Digest, addr 0x23521b4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Digest, addr 0x23854a0, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
@@ -123,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HkdfBytesGenerator(HkdfBytesGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 906 };
+
   /// @brief Field hMacHash, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::Macs::HMac* ___hMacHash;
 
@@ -138,14 +137,9 @@ public:
   /// @brief Field generatedBytes, offset: 0x30, size: 0x4, def value: None
   int32_t ___generatedBytes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 906 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___hMacHash) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___hashLen) == 0x18, "Offset mismatch!");
@@ -155,6 +149,8 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerat
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___currentT) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, ___generatedBytes) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);

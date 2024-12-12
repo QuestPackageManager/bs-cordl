@@ -22,32 +22,31 @@ class VRLaserPointer;
 }
 // Write type traits
 MARK_REF_PTR_T(::VRUIControls::VRLaserPointer);
-// Type: VRUIControls::VRLaserPointer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace VRUIControls {
 // Is value type: false
-// CS Name: ::VRUIControls::VRLaserPointer*
+// CS Name: VRUIControls.VRLaserPointer
 class CORDL_TYPE VRLaserPointer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fadeStartNormalizedDistanceId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__fadeStartNormalizedDistanceId, put = setStaticF__fadeStartNormalizedDistanceId)) int32_t _fadeStartNormalizedDistanceId;
+  __declspec(property(get = getStaticF__fadeStartNormalizedDistanceId, put = setStaticF__fadeStartNormalizedDistanceId)) int32_t _fadeStartNormalizedDistanceId;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   /// @brief Field _renderer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::MeshRenderer> _renderer;
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method SetFadeDistance, addr 0x4a8a608, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x4aeef18, size 0xf8, virtual false, abstract: false, final false
   inline void SetFadeDistance(float_t distance);
 
-  /// @brief Method SetLocalPosition, addr 0x4a8a578, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x4aeee88, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetLocalScale, addr 0x4a8a5c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x4aeeed0, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalScale(::UnityEngine::Vector3 scale);
 
   constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
@@ -56,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x4a8a700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4aef010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeStartNormalizedDistanceId();
@@ -81,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRLaserPointer(VRLaserPointer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18252 };
+
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::VRUIControls::VRLaserPointer, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::VRUIControls::VRLaserPointer, ____renderer) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::VRUIControls::VRLaserPointer, 0x28>, "Size mismatch!");
 
 } // namespace VRUIControls
 NEED_NO_BOX(::VRUIControls::VRLaserPointer);

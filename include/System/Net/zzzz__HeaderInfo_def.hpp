@@ -15,11 +15,10 @@ class HeaderInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HeaderInfo);
-// Type: System.Net::HeaderInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HeaderInfo*
+// CS Name: System.Net.HeaderInfo
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
@@ -56,9 +55,9 @@ public:
 
   constexpr bool& __cordl_internal_get_IsResponseRestricted();
 
-  constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser();
+  constexpr ::System::Net::HeaderParser* const& __cordl_internal_get_Parser() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HeaderParser*> const& __cordl_internal_get_Parser() const;
+  constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser();
 
   constexpr void __cordl_internal_set_AllowMultiValues(bool value);
 
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x4446024, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44a7338, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HeaderInfo(HeaderInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9618 };
+
   /// @brief Field IsRequestRestricted, offset: 0x10, size: 0x1, def value: None
   bool ___IsRequestRestricted;
 
@@ -102,14 +104,9 @@ public:
   /// @brief Field AllowMultiValues, offset: 0x28, size: 0x1, def value: None
   bool ___AllowMultiValues;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9593 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HeaderInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HeaderInfo, ___IsRequestRestricted) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HeaderInfo, ___IsResponseRestricted) == 0x11, "Offset mismatch!");
@@ -119,6 +116,8 @@ static_assert(offsetof(::System::Net::HeaderInfo, ___Parser) == 0x18, "Offset mi
 static_assert(offsetof(::System::Net::HeaderInfo, ___HeaderName) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HeaderInfo, ___AllowMultiValues) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::HeaderInfo, 0x30>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::HeaderInfo);

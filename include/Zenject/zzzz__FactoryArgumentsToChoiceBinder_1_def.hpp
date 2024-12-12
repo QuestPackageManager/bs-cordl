@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryToChoiceBinder_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_1)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -33,13 +32,12 @@ template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::FactoryArgumentsToChoiceBinder_1);
-// Type: Zenject::FactoryArgumentsToChoiceBinder`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.FactoryToChoiceBinder`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::FactoryArgumentsToChoiceBinder`1<TContract>*
+// CS Name: Zenject.FactoryArgumentsToChoiceBinder`1<TContract>
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_1 : public ::Zenject::FactoryToChoiceBinder_1<TContract> {
 public:
   // Declarations
@@ -90,7 +88,7 @@ public:
   FactoryArgumentsToChoiceBinder_1(FactoryArgumentsToChoiceBinder_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12007 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

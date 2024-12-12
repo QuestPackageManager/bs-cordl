@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ClothRandomFluctuation)
 namespace GlobalNamespace {
-class __ClothRandomFluctuation__SineLayer;
+class ClothRandomFluctuation_SineLayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -22,17 +22,16 @@ namespace GlobalNamespace {
 class ClothRandomFluctuation;
 }
 namespace GlobalNamespace {
-class __ClothRandomFluctuation__SineLayer;
+class ClothRandomFluctuation_SineLayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ClothRandomFluctuation);
-MARK_REF_PTR_T(::GlobalNamespace::__ClothRandomFluctuation__SineLayer);
-// Type: ::SineLayer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::ClothRandomFluctuation_SineLayer);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ClothRandomFluctuation::SineLayer*
-class CORDL_TYPE __ClothRandomFluctuation__SineLayer : public ::System::Object {
+// CS Name: ClothRandomFluctuation/SineLayer
+class CORDL_TYPE ClothRandomFluctuation_SineLayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field multiplier, offset 0x10, size 0x4
@@ -41,7 +40,7 @@ public:
   /// @brief Field offset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
-  static inline ::GlobalNamespace::__ClothRandomFluctuation__SineLayer* New_ctor();
+  static inline ::GlobalNamespace::ClothRandomFluctuation_SineLayer* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_multiplier() const;
 
@@ -55,22 +54,25 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a73904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acac74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ClothRandomFluctuation__SineLayer();
+  constexpr ClothRandomFluctuation_SineLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ClothRandomFluctuation__SineLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ClothRandomFluctuation__SineLayer(__ClothRandomFluctuation__SineLayer&&) = delete;
+  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ClothRandomFluctuation__SineLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation_SineLayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ClothRandomFluctuation__SineLayer(__ClothRandomFluctuation__SineLayer const&) = delete;
+  ClothRandomFluctuation_SineLayer(ClothRandomFluctuation_SineLayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3976 };
 
   /// @brief Field multiplier, offset: 0x10, size: 0x4, def value: None
   float_t ___multiplier;
@@ -78,35 +80,31 @@ public:
   /// @brief Field offset, offset: 0x14, size: 0x4, def value: None
   float_t ___offset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3971 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ClothRandomFluctuation__SineLayer, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation_SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation_SineLayer, ___offset) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ClothRandomFluctuation__SineLayer, ___offset) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation_SineLayer, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ClothRandomFluctuation
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ClothRandomFluctuation*
+// CS Name: ClothRandomFluctuation
 class CORDL_TYPE ClothRandomFluctuation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using SineLayer = ::GlobalNamespace::__ClothRandomFluctuation__SineLayer;
+  using SineLayer = ::GlobalNamespace::ClothRandomFluctuation_SineLayer;
 
   /// @brief Field _cloth, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth)) ::UnityW<::UnityEngine::Cloth> _cloth;
 
   /// @brief Field _compoundSins, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
-                      put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* _compoundSins;
+                      put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* _compoundSins;
 
   /// @brief Field _externalFluctuations, offset 0x2c, size 0xc
   __declspec(property(get = __cordl_internal_get__externalFluctuations, put = __cordl_internal_set__externalFluctuations)) ::UnityEngine::Vector3 _externalFluctuations;
@@ -126,24 +124,24 @@ public:
   /// @brief Field _useLocalRandomFluctuations, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalRandomFluctuations, put = __cordl_internal_set__useLocalRandomFluctuations)) bool _useLocalRandomFluctuations;
 
-  /// @brief Method FluctuateCloth, addr 0x3a73688, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FluctuateCloth, addr 0x3aca9f8, size 0x170, virtual false, abstract: false, final false
   inline void FluctuateCloth(::UnityEngine::Cloth* cloth);
 
-  /// @brief Method GetNoise, addr 0x3a737f8, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x3acab68, size 0x104, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
   static inline ::GlobalNamespace::ClothRandomFluctuation* New_ctor();
 
-  /// @brief Method Update, addr 0x3a73680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3aca9f0, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
 
   constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*& __cordl_internal_get__compoundSins();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* const& __cordl_internal_get__compoundSins() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>*> const& __cordl_internal_get__compoundSins() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>*& __cordl_internal_get__compoundSins();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__externalFluctuations() const;
 
@@ -171,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
 
-  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* value);
+  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* value);
 
   constexpr void __cordl_internal_set__externalFluctuations(::UnityEngine::Vector3 value);
 
@@ -185,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set__useLocalRandomFluctuations(bool value);
 
-  /// @brief Method .ctor, addr 0x3a738fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acac6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,6 +199,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ClothRandomFluctuation", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ClothRandomFluctuation(ClothRandomFluctuation const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3977 };
 
   /// @brief Field _cloth, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cloth> ____cloth;
@@ -221,19 +222,14 @@ public:
   ::UnityEngine::Vector3 ____maxFluctuations;
 
   /// @brief Field _compoundSins, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__ClothRandomFluctuation__SineLayer*>* ____compoundSins;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::ClothRandomFluctuation_SineLayer*>* ____compoundSins;
 
   /// @brief Field _speed, offset: 0x60, size: 0x4, def value: None
   float_t ____speed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3972 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____cloth) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____useLocalExternalFluctuations) == 0x28, "Offset mismatch!");
@@ -250,8 +246,10 @@ static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____compoundSi
 
 static_assert(offsetof(::GlobalNamespace::ClothRandomFluctuation, ____speed) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ClothRandomFluctuation, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ClothRandomFluctuation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ClothRandomFluctuation*, "", "ClothRandomFluctuation");
-NEED_NO_BOX(::GlobalNamespace::__ClothRandomFluctuation__SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ClothRandomFluctuation__SineLayer*, "", "ClothRandomFluctuation/SineLayer");
+NEED_NO_BOX(::GlobalNamespace::ClothRandomFluctuation_SineLayer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ClothRandomFluctuation_SineLayer*, "", "ClothRandomFluctuation/SineLayer");

@@ -14,20 +14,19 @@ class X509Attributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Attributes);
-// Type: Org.BouncyCastle.Asn1.X509::X509Attributes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::X509Attributes*
+// CS Name: Org.BouncyCastle.Asn1.X509.X509Attributes
 class CORDL_TYPE X509Attributes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RoleSyntax, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RoleSyntax, put = setStaticF_RoleSyntax)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RoleSyntax;
+  __declspec(property(get = getStaticF_RoleSyntax, put = setStaticF_RoleSyntax)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* RoleSyntax;
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Attributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e05e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26138cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_RoleSyntax();

@@ -11,17 +11,16 @@ class OculusNetworkPlayerModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusNetworkPlayerModel);
-// Type: ::OculusNetworkPlayerModel
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PlatformNetworkPlayerModel
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OculusNetworkPlayerModel*
+// CS Name: OculusNetworkPlayerModel
 class CORDL_TYPE OculusNetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
   // Declarations
   static inline ::GlobalNamespace::OculusNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e11130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e711dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   OculusNetworkPlayerModel(OculusNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17363 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

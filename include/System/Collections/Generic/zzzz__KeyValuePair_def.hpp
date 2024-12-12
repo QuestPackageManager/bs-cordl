@@ -15,15 +15,14 @@ class KeyValuePair;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Generic::KeyValuePair);
-// Type: System.Collections.Generic::KeyValuePair
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // Is value type: false
-// CS Name: ::System.Collections.Generic::KeyValuePair*
+// CS Name: System.Collections.Generic.KeyValuePair
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PairToString, addr 0x3d67cf8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PairToString, addr 0x3dc7e6c, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
 protected:

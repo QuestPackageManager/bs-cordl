@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SimulatedTlsSrpIdentityManager.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SimulatedTlsSrpIdentityManager_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6VerifierGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager.GetRfc5054Default
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* (*)(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::GetRfc5054Default)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x23e6bd8;
+  constexpr static std::size_t addrs = 0x2419ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*, ::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23e6d4c;
+  constexpr static std::size_t addrs = 0x241a038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* (::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::GetLoginParameters)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x23e6d88;
+  constexpr static std::size_t addrs = 0x241a074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,21 +59,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
-constexpr Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*
-Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::i___Org__BouncyCastle__Crypto__Tls__TlsSrpIdentityManager() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mGroup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const&
-Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mGroup() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* const& Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mGroup;
 }
@@ -85,8 +75,7 @@ constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*& O
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mVerifierGenerator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*> const&
-Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mVerifierGenerator() const {
+constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* const& Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mVerifierGenerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mVerifierGenerator;
 }
@@ -98,7 +87,7 @@ constexpr ::Org::BouncyCastle::Crypto::IMac*& Org::BouncyCastle::Crypto::Tls::Si
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mMac() const {
+constexpr ::Org::BouncyCastle::Crypto::IMac* const& Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::__cordl_internal_get_mMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMac;
 }
@@ -132,12 +121,6 @@ Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::GetRfc5054Defaul
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*, false>(nullptr, ___internal_method, group, seedKey);
 }
-inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*
-Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
-                                                                         ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
-                                                                         ::Org::BouncyCastle::Crypto::IMac* mac) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*>(group, verifierGenerator, mac));
-}
 inline void Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
                                                                                   ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                                                                                   ::Org::BouncyCastle::Crypto::IMac* mac) {
@@ -153,6 +136,21 @@ inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* Org::BouncyCastl
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters*, false>(this, ___internal_method, identity);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*
+Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
+                                                                         ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
+                                                                         ::Org::BouncyCastle::Crypto::IMac* mac) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager*>(group, verifierGenerator, mac));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
+constexpr Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*
+Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::i___Org__BouncyCastle__Crypto__Tls__TlsSrpIdentityManager() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::SimulatedTlsSrpIdentityManager() {}

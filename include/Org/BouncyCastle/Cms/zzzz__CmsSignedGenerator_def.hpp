@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsSignedGenerator)
@@ -50,64 +49,63 @@ class CmsSignedGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSignedGenerator);
-// Type: Org.BouncyCastle.Cms::CmsSignedGenerator
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsSignedGenerator*
+// CS Name: Org.BouncyCastle.Cms.CmsSignedGenerator
 class CORDL_TYPE CmsSignedGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Data, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::StringW Data;
+  __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::StringW Data;
 
   /// @brief Field DigestGost3411, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestGost3411, put = setStaticF_DigestGost3411)) ::StringW DigestGost3411;
+  __declspec(property(get = getStaticF_DigestGost3411, put = setStaticF_DigestGost3411)) ::StringW DigestGost3411;
 
   /// @brief Field DigestMD5, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestMD5, put = setStaticF_DigestMD5)) ::StringW DigestMD5;
+  __declspec(property(get = getStaticF_DigestMD5, put = setStaticF_DigestMD5)) ::StringW DigestMD5;
 
   /// @brief Field DigestRipeMD128, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestRipeMD128, put = setStaticF_DigestRipeMD128)) ::StringW DigestRipeMD128;
+  __declspec(property(get = getStaticF_DigestRipeMD128, put = setStaticF_DigestRipeMD128)) ::StringW DigestRipeMD128;
 
   /// @brief Field DigestRipeMD160, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestRipeMD160, put = setStaticF_DigestRipeMD160)) ::StringW DigestRipeMD160;
+  __declspec(property(get = getStaticF_DigestRipeMD160, put = setStaticF_DigestRipeMD160)) ::StringW DigestRipeMD160;
 
   /// @brief Field DigestRipeMD256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestRipeMD256, put = setStaticF_DigestRipeMD256)) ::StringW DigestRipeMD256;
+  __declspec(property(get = getStaticF_DigestRipeMD256, put = setStaticF_DigestRipeMD256)) ::StringW DigestRipeMD256;
 
   /// @brief Field DigestSha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestSha1, put = setStaticF_DigestSha1)) ::StringW DigestSha1;
+  __declspec(property(get = getStaticF_DigestSha1, put = setStaticF_DigestSha1)) ::StringW DigestSha1;
 
   /// @brief Field DigestSha224, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestSha224, put = setStaticF_DigestSha224)) ::StringW DigestSha224;
+  __declspec(property(get = getStaticF_DigestSha224, put = setStaticF_DigestSha224)) ::StringW DigestSha224;
 
   /// @brief Field DigestSha256, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestSha256, put = setStaticF_DigestSha256)) ::StringW DigestSha256;
+  __declspec(property(get = getStaticF_DigestSha256, put = setStaticF_DigestSha256)) ::StringW DigestSha256;
 
   /// @brief Field DigestSha384, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestSha384, put = setStaticF_DigestSha384)) ::StringW DigestSha384;
+  __declspec(property(get = getStaticF_DigestSha384, put = setStaticF_DigestSha384)) ::StringW DigestSha384;
 
   /// @brief Field DigestSha512, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DigestSha512, put = setStaticF_DigestSha512)) ::StringW DigestSha512;
+  __declspec(property(get = getStaticF_DigestSha512, put = setStaticF_DigestSha512)) ::StringW DigestSha512;
 
   /// @brief Field EncryptionDsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionDsa, put = setStaticF_EncryptionDsa)) ::StringW EncryptionDsa;
+  __declspec(property(get = getStaticF_EncryptionDsa, put = setStaticF_EncryptionDsa)) ::StringW EncryptionDsa;
 
   /// @brief Field EncryptionECDsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionECDsa, put = setStaticF_EncryptionECDsa)) ::StringW EncryptionECDsa;
+  __declspec(property(get = getStaticF_EncryptionECDsa, put = setStaticF_EncryptionECDsa)) ::StringW EncryptionECDsa;
 
   /// @brief Field EncryptionECGost3410, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionECGost3410, put = setStaticF_EncryptionECGost3410)) ::StringW EncryptionECGost3410;
+  __declspec(property(get = getStaticF_EncryptionECGost3410, put = setStaticF_EncryptionECGost3410)) ::StringW EncryptionECGost3410;
 
   /// @brief Field EncryptionGost3410, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionGost3410, put = setStaticF_EncryptionGost3410)) ::StringW EncryptionGost3410;
+  __declspec(property(get = getStaticF_EncryptionGost3410, put = setStaticF_EncryptionGost3410)) ::StringW EncryptionGost3410;
 
   /// @brief Field EncryptionRsa, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionRsa, put = setStaticF_EncryptionRsa)) ::StringW EncryptionRsa;
+  __declspec(property(get = getStaticF_EncryptionRsa, put = setStaticF_EncryptionRsa)) ::StringW EncryptionRsa;
 
   /// @brief Field EncryptionRsaPss, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncryptionRsaPss, put = setStaticF_EncryptionRsaPss)) ::StringW EncryptionRsaPss;
+  __declspec(property(get = getStaticF_EncryptionRsaPss, put = setStaticF_EncryptionRsaPss)) ::StringW EncryptionRsaPss;
 
   __declspec(property(get = get_UseDerForCerts, put = set_UseDerForCerts)) bool UseDerForCerts;
 
@@ -134,56 +132,56 @@ public:
   /// @brief Field rand, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand)) ::Org::BouncyCastle::Security::SecureRandom* rand;
 
-  /// @brief Method AddAttributeCertificates, addr 0x2628f28, size 0x5b8, virtual false, abstract: false, final false
+  /// @brief Method AddAttributeCertificates, addr 0x265c214, size 0x5b8, virtual false, abstract: false, final false
   inline void AddAttributeCertificates(::Org::BouncyCastle::X509::Store::IX509Store* store);
 
-  /// @brief Method AddCertificates, addr 0x2628ee0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCertificates, addr 0x265c1cc, size 0x24, virtual false, abstract: false, final false
   inline void AddCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certStore);
 
-  /// @brief Method AddCrls, addr 0x2628f04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCrls, addr 0x265c1f0, size 0x24, virtual false, abstract: false, final false
   inline void AddCrls(::Org::BouncyCastle::X509::Store::IX509Store* crlStore);
 
-  /// @brief Method AddSignerCallback, addr 0x2629948, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSignerCallback, addr 0x265cc34, size 0x4, virtual true, abstract: false, final false
   inline void AddSignerCallback(::Org::BouncyCastle::Cms::SignerInformation* si);
 
-  /// @brief Method AddSigners, addr 0x26294e0, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method AddSigners, addr 0x265c7cc, size 0x3e4, virtual false, abstract: false, final false
   inline void AddSigners(::Org::BouncyCastle::Cms::SignerInformationStore* signerStore);
 
-  /// @brief Method GetAttributeSet, addr 0x2628e6c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetAttributeSet, addr 0x265c158, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* GetAttributeSet(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attr);
 
-  /// @brief Method GetBaseParameters, addr 0x2628c30, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method GetBaseParameters, addr 0x265bf1c, size 0x23c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetBaseParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgId,
                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method GetGeneratedDigests, addr 0x26298c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetGeneratedDigests, addr 0x265cbb0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetGeneratedDigests();
 
-  /// @brief Method GetSignerIdentifier, addr 0x262994c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x265cc38, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetSignerIdentifier, addr 0x2629a48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x265cd34, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__certs() const;
+
   constexpr ::System::Collections::IList*& __cordl_internal_get__certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__certs() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__crls() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get__crls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__crls() const;
+  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__digests() const;
 
   constexpr ::System::Collections::IDictionary*& __cordl_internal_get__digests();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__digests() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get__signers() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get__signers();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__signers() const;
 
   constexpr bool const& __cordl_internal_get__useDerForCerts() const;
 
@@ -193,9 +191,9 @@ public:
 
   constexpr bool& __cordl_internal_get__useDerForCrls();
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_rand() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
 
   constexpr void __cordl_internal_set__certs(::System::Collections::IList* value);
 
@@ -211,10 +209,10 @@ public:
 
   constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2628b34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265be20, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2628b90, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265be7c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline ::StringW getStaticF_Data();
@@ -251,10 +249,10 @@ public:
 
   static inline ::StringW getStaticF_EncryptionRsaPss();
 
-  /// @brief Method get_UseDerForCerts, addr 0x2629920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCerts, addr 0x265cc0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCerts();
 
-  /// @brief Method get_UseDerForCrls, addr 0x2629934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCrls, addr 0x265cc20, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCrls();
 
   static inline void setStaticF_Data(::StringW value);
@@ -291,10 +289,10 @@ public:
 
   static inline void setStaticF_EncryptionRsaPss(::StringW value);
 
-  /// @brief Method set_UseDerForCerts, addr 0x2629928, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCerts, addr 0x265cc14, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCerts(bool value);
 
-  /// @brief Method set_UseDerForCrls, addr 0x262993c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCrls, addr 0x265cc28, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCrls(bool value);
 
 protected:
@@ -310,6 +308,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CmsSignedGenerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CmsSignedGenerator(CmsSignedGenerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 649 };
 
   /// @brief Field _certs, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____certs;
@@ -332,14 +333,9 @@ public:
   /// @brief Field rand, offset: 0x38, size: 0x8, def value: None
   ::Org::BouncyCastle::Security::SecureRandom* ___rand;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 649 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsSignedGenerator, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsSignedGenerator, ____certs) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsSignedGenerator, ____crls) == 0x18, "Offset mismatch!");
@@ -353,6 +349,8 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::CmsSignedGenerator, ____useDerF
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsSignedGenerator, ____useDerForCrls) == 0x31, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::CmsSignedGenerator, ___rand) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsSignedGenerator, 0x40>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsSignedGenerator);

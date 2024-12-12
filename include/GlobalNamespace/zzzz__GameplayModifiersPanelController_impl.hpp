@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameplayModifiersPanelController.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -9,90 +10,89 @@
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::*)()>(
-    &::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::*)()>(
+    &::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af7ce0;
+  constexpr static std::size_t addrs = 0x3b57538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0._Awake_b__0
+//  Writing Method size for method: ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0._Awake_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::*)(bool)>(
-    &::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::_Awake_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::*)(bool)>(
+    &::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::_Awake_b__0)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3af8168;
+  constexpr static std::size_t addrs = 0x3b579c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*>::get(), "<Awake>b__0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*>::get(), "<Awake>b__0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle>& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_get_gameplayModifierToggle() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle>& GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_get_gameplayModifierToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifierToggle;
 }
-constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle> const& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_get_gameplayModifierToggle() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle> const& GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_get_gameplayModifierToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifierToggle;
 }
-constexpr void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle> value) {
+constexpr void GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___gameplayModifierToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value) {
+constexpr void GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0* GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*>());
-}
-inline void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::_ctor() {
+inline void GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::_Awake_b__0(bool on) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0*>::get(), "<Awake>b__0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+inline void GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::_Awake_b__0(bool on) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*>::get(), "<Awake>b__0",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, on);
 }
+inline ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0* GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GameplayModifiersPanelController____c__DisplayClass16_0::__GameplayModifiersPanelController____c__DisplayClass16_0() {}
+constexpr ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0::GameplayModifiersPanelController___c__DisplayClass16_0() {}
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifiersPanelController.add_didChangeGameplayModifiersEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayModifiersPanelController::add_didChangeGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3af7a1c;
+  constexpr static std::size_t addrs = 0x3b57274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayModifiersPanelController::remove_didChangeGameplayModifiersEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3af7ab8;
+  constexpr static std::size_t addrs = 0x3b57310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af7b54;
+  constexpr static std::size_t addrs = 0x3b573ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::GameplayModifiersPanelController::SetData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af7b5c;
+  constexpr static std::size_t addrs = 0x3b573b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::Awake)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3af7b64;
+  constexpr static std::size_t addrs = 0x3b573bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3af7ce8;
+  constexpr static std::size_t addrs = 0x3b57540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)(::GlobalNamespace::GameplayModifierParamsSO*, bool)>(
     &::GlobalNamespace::GameplayModifiersPanelController::SetToggleValueWithGameplayModifierParams)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3af7cfc;
+  constexpr static std::size_t addrs = 0x3b57554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifiersPanelController::*)(::GlobalNamespace::GameplayModifierParamsSO*)>(
     &::GlobalNamespace::GameplayModifiersPanelController::GetToggleValueWithGameplayModifierParams)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3af7d84;
+  constexpr static std::size_t addrs = 0x3b575dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::RefreshTotalMultiplierAndRankUI)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3af7e10;
+  constexpr static std::size_t addrs = 0x3b57668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::IRefreshable_Refresh)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3af7fe4;
+  constexpr static std::size_t addrs = 0x3b5783c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifiersPanelController::*)()>(
     &::GlobalNamespace::GameplayModifiersPanelController::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3af80e8;
+  constexpr static std::size_t addrs = 0x3b57940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
@@ -248,14 +248,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IRefreshable"
-constexpr GlobalNamespace::GameplayModifiersPanelController::operator ::GlobalNamespace::IRefreshable*() noexcept {
-  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IRefreshable"
-constexpr ::GlobalNamespace::IRefreshable* GlobalNamespace::GameplayModifiersPanelController::i___GlobalNamespace__IRefreshable() noexcept {
-  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__gameplayModifiersModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModel;
@@ -320,7 +312,7 @@ constexpr ::System::Action*& GlobalNamespace::GameplayModifiersPanelController::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeGameplayModifiersEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get_didChangeGameplayModifiersEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get_didChangeGameplayModifiersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didChangeGameplayModifiersEvent;
 }
@@ -332,7 +324,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::GameplayModifi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
@@ -344,7 +336,7 @@ constexpr ::HMUI::ToggleBinder*& GlobalNamespace::GameplayModifiersPanelControll
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__toggleBinder() const {
+constexpr ::HMUI::ToggleBinder* const& GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__toggleBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
@@ -384,7 +376,7 @@ GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__toggleF
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleForGameplayModifierParam;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* const&
 GlobalNamespace::GameplayModifiersPanelController::__cordl_internal_get__toggleForGameplayModifierParam() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleForGameplayModifierParam;
@@ -451,13 +443,21 @@ inline void GlobalNamespace::GameplayModifiersPanelController::IRefreshable_Refr
                                                                              "IRefreshable.Refresh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifiersPanelController* GlobalNamespace::GameplayModifiersPanelController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersPanelController*>());
-}
 inline void GlobalNamespace::GameplayModifiersPanelController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifiersPanelController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GameplayModifiersPanelController* GlobalNamespace::GameplayModifiersPanelController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifiersPanelController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IRefreshable"
+constexpr GlobalNamespace::GameplayModifiersPanelController::operator ::GlobalNamespace::IRefreshable*() noexcept {
+  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IRefreshable"
+constexpr ::GlobalNamespace::IRefreshable* GlobalNamespace::GameplayModifiersPanelController::i___GlobalNamespace__IRefreshable() noexcept {
+  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameplayModifiersPanelController::GameplayModifiersPanelController() {}

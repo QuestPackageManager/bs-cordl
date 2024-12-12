@@ -32,11 +32,10 @@ class MetaData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::MetaData);
-// Type: Org.BouncyCastle.Asn1.Cms::MetaData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::MetaData*
+// CS Name: Org.BouncyCastle.Asn1.Cms.MetaData
 class CORDL_TYPE MetaData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -60,7 +59,7 @@ public:
   /// @brief Field otherMetaData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_otherMetaData, put = __cordl_internal_set_otherMetaData)) ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData;
 
-  /// @brief Method GetInstance, addr 0x22d4258, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2307544, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
@@ -68,24 +67,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22d42fc, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23075e8, size 0x19c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_fileName() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_fileName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_fileName() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean* const& __cordl_internal_get_hashProtected() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_hashProtected();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_hashProtected() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerIA5String* const& __cordl_internal_get_mediaType() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_mediaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_mediaType() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cms::Attributes* const& __cordl_internal_get_otherMetaData() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::Attributes*& __cordl_internal_get_otherMetaData();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Attributes*> const& __cordl_internal_get_otherMetaData() const;
 
   constexpr void __cordl_internal_set_fileName(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
@@ -95,23 +94,23 @@ public:
 
   constexpr void __cordl_internal_set_otherMetaData(::Org::BouncyCastle::Asn1::Cms::Attributes* value);
 
-  /// @brief Method .ctor, addr 0x22d4004, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23072f0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName, ::Org::BouncyCastle::Asn1::DerIA5String* mediaType,
                     ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
-  /// @brief Method .ctor, addr 0x22d4044, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2307330, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_FileName, addr 0x22d44b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x23077a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_FileName();
 
-  /// @brief Method get_IsHashProtected, addr 0x22d4498, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsHashProtected, addr 0x2307784, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsHashProtected();
 
-  /// @brief Method get_MediaType, addr 0x22d44bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MediaType, addr 0x23077a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_MediaType();
 
-  /// @brief Method get_OtherMetaData, addr 0x22d44c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OtherMetaData, addr 0x23077b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* get_OtherMetaData();
 
 protected:
@@ -128,6 +127,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MetaData(MetaData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 80 };
+
   /// @brief Field hashProtected, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerBoolean* ___hashProtected;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field otherMetaData, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Cms::Attributes* ___otherMetaData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 80 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::MetaData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::MetaData, ___hashProtected) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::MetaData, ___fileName) == 0x18, "Offset mismatch!");
@@ -155,6 +152,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::MetaData, ___fileName) ==
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::MetaData, ___mediaType) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::MetaData, ___otherMetaData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::MetaData, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::MetaData);

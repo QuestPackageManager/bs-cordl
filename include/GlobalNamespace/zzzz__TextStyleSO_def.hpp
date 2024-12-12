@@ -17,11 +17,10 @@ class TextStyleSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TextStyleSO);
-// Type: ::TextStyleSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TextStyleSO*
+// CS Name: TextStyleSO
 class CORDL_TYPE TextStyleSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -32,16 +31,16 @@ public:
 
   static inline ::GlobalNamespace::TextStyleSO* New_ctor();
 
-  constexpr ::GlobalNamespace::TextStyle*& __cordl_internal_get__textStyle();
+  constexpr ::GlobalNamespace::TextStyle* const& __cordl_internal_get__textStyle() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextStyle*> const& __cordl_internal_get__textStyle() const;
+  constexpr ::GlobalNamespace::TextStyle*& __cordl_internal_get__textStyle();
 
   constexpr void __cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value);
 
-  /// @brief Method .ctor, addr 0x224e218, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2280698, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_textStyle, addr 0x224e210, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textStyle, addr 0x2280690, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyTextStyle* get_textStyle();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextStyleSO(TextStyleSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19131 };
+
   /// @brief Field _textStyle, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TextStyle* ____textStyle;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19050 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextStyleSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TextStyleSO, ____textStyle) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextStyleSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextStyleSO);

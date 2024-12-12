@@ -14,11 +14,10 @@ struct FontAssetCreationEditorSettings;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings);
-// Type: UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 101, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::FontAssetCreationEditorSettings
+// CS Name: UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
 struct CORDL_TYPE FontAssetCreationEditorSettings {
 public:
   // Declarations
@@ -38,6 +37,12 @@ public:
                                             int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence,
                                             ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode,
                                             bool includeFontFeatures) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15234 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
 
   /// @brief Field sourceFontFileGUID, offset: 0x0, size: 0x8, def value: None
   ::StringW sourceFontFileGUID;
@@ -90,17 +95,9 @@ public:
   /// @brief Field includeFontFeatures, offset: 0x54, size: 0x1, def value: None
   bool includeFontFeatures;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15199 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, sourceFontFileGUID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, faceIndex) == 0x8, "Offset mismatch!");
@@ -134,6 +131,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSet
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, renderMode) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, includeFontFeatures) == 0x54, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, 0x58>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::FontAssetCreationEditorSettings, "UnityEngine.TextCore.Text", "FontAssetCreationEditorSettings");

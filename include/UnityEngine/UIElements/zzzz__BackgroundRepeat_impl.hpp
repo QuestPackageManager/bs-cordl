@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BackgroundRepeat.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Repeat_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Repeat_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::BackgroundRepeat._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::BackgroundRepeat::*)(::UnityEngine::UIElements::Repeat, ::UnityEngine::UIElements::Repeat)>(&::UnityEngine::UIElements::BackgroundRepeat::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49097f4;
+  constexpr static std::size_t addrs = 0x496dfa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundRepeat (*)()>(&::UnityEngine::UIElements::BackgroundRepeat::Initial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4909cf4;
+  constexpr static std::size_t addrs = 0x496e4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BackgroundRepeat>::get(), "Initial",
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BackgroundRepeat::*)(::System::Object*)>(
     &::UnityEngine::UIElements::BackgroundRepeat::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4909cfc;
+  constexpr static std::size_t addrs = 0x496e4ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BackgroundRepeat::*)(::UnityEngine::UIElements::BackgroundRepeat)>(
     &::UnityEngine::UIElements::BackgroundRepeat::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4909d84;
+  constexpr static std::size_t addrs = 0x496e534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::BackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::BackgroundRepeat::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4909dac;
+  constexpr static std::size_t addrs = 0x496e55c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat)>(
     &::UnityEngine::UIElements::BackgroundRepeat::op_Equality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4909ca4;
+  constexpr static std::size_t addrs = 0x496e454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::BackgroundRepeat, ::UnityEngine::UIElements::BackgroundRepeat)>(
     &::UnityEngine::UIElements::BackgroundRepeat::op_Inequality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4909df4;
+  constexpr static std::size_t addrs = 0x496e5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::BackgroundRepeat::*)()>(
     &::UnityEngine::UIElements::BackgroundRepeat::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4909e14;
+  constexpr static std::size_t addrs = 0x496e5c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,14 +126,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
-constexpr UnityEngine::UIElements::BackgroundRepeat::operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* UnityEngine::UIElements::BackgroundRepeat::i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::UIElements::BackgroundRepeat::_ctor(::UnityEngine::UIElements::Repeat repeatX, ::UnityEngine::UIElements::Repeat repeatY) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BackgroundRepeat>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -180,6 +172,14 @@ inline ::StringW UnityEngine::UIElements::BackgroundRepeat::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BackgroundRepeat>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
+constexpr UnityEngine::UIElements::BackgroundRepeat::operator ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>* UnityEngine::UIElements::BackgroundRepeat::i___System__IEquatable_1___UnityEngine__UIElements__BackgroundRepeat_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::BackgroundRepeat>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::UIElements::Repeat", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "::UnityEngine::UIElements::Repeat", modifiers: "",
 // def_value: Some("{}") }]

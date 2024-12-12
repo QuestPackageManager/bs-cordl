@@ -3,9 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyDictionary_2)
@@ -22,22 +31,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> struct __ReadOnlyDictionary_2__DictionaryEnumerator;
+template <typename TKey, typename TValue> struct ReadOnlyDictionary_2_DictionaryEnumerator;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> class __ReadOnlyDictionary_2__KeyCollection;
+template <typename TKey, typename TValue> class ReadOnlyDictionary_2_KeyCollection;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> class __ReadOnlyDictionary_2__ValueCollection;
+template <typename TKey, typename TValue> class ReadOnlyDictionary_2_ValueCollection;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -47,12 +50,6 @@ class ICollection;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -68,27 +65,26 @@ namespace System::Collections::ObjectModel {
 template <typename TKey, typename TValue> class ReadOnlyDictionary_2;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> class __ReadOnlyDictionary_2__KeyCollection;
+template <typename TKey, typename TValue> class ReadOnlyDictionary_2_KeyCollection;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> class __ReadOnlyDictionary_2__ValueCollection;
+template <typename TKey, typename TValue> class ReadOnlyDictionary_2_ValueCollection;
 }
 namespace System::Collections::ObjectModel {
-template <typename TKey, typename TValue> struct __ReadOnlyDictionary_2__DictionaryEnumerator;
+template <typename TKey, typename TValue> struct ReadOnlyDictionary_2_DictionaryEnumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2);
-MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection);
-MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection);
-MARK_GEN_VAL_T(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__DictionaryEnumerator);
-// Type: ::DictionaryEnumerator
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection);
+MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection);
+MARK_GEN_VAL_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_DictionaryEnumerator);
+// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// CS Name: ::ReadOnlyDictionary`2::DictionaryEnumerator<TKey,TValue>
-struct CORDL_TYPE __ReadOnlyDictionary_2__DictionaryEnumerator {
+// CS Name: System.Collections.ObjectModel.ReadOnlyDictionary`2/DictionaryEnumerator<TKey,TValue>
+struct CORDL_TYPE ReadOnlyDictionary_2_DictionaryEnumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) ::System::Object* Current;
@@ -134,18 +130,12 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReadOnlyDictionary_2__DictionaryEnumerator();
+  constexpr ReadOnlyDictionary_2_DictionaryEnumerator();
 
   // Ctor Parameters [CppParam { name: "_dictionary", ty: "::System::Collections::Generic::IDictionary_2<TKey,TValue>*", modifiers: "", def_value: None }, CppParam { name: "_enumerator", ty:
   // "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>*", modifiers: "", def_value: None }]
-  constexpr __ReadOnlyDictionary_2__DictionaryEnumerator(::System::Collections::Generic::IDictionary_2<TKey, TValue>* _dictionary,
-                                                         ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator) noexcept;
-
-  /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::IDictionary_2<TKey, TValue>* _dictionary;
-
-  /// @brief Field _enumerator, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator;
+  constexpr ReadOnlyDictionary_2_DictionaryEnumerator(::System::Collections::Generic::IDictionary_2<TKey, TValue>* _dictionary,
+                                                      ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3826 };
@@ -153,18 +143,24 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// @brief Field _dictionary, offset: 0x0, size: 0x8, def value: None
+  ::System::Collections::Generic::IDictionary_2<TKey, TValue>* _dictionary;
+
+  /// @brief Field _enumerator, offset: 0x8, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Type: ::KeyCollection
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::ReadOnlyDictionary`2::KeyCollection<TKey,TValue>*
-class CORDL_TYPE __ReadOnlyDictionary_2__KeyCollection : public ::System::Object {
+// CS Name: System.Collections.ObjectModel.ReadOnlyDictionary`2/KeyCollection<TKey,TValue>
+class CORDL_TYPE ReadOnlyDictionary_2_KeyCollection : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
@@ -202,9 +198,9 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TKey>* GetEnumerator();
 
-  static inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* New_ctor();
+  static inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* New_ctor();
 
-  static inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::ICollection_1<TKey>* collection);
+  static inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::ICollection_1<TKey>* collection);
 
   /// @brief Method System.Collections.Generic.ICollection<TKey>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TKey__Add(TKey item);
@@ -233,13 +229,13 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  constexpr ::System::Collections::Generic::ICollection_1<TKey>* const& __cordl_internal_get__collection() const;
+
   constexpr ::System::Collections::Generic::ICollection_1<TKey>*& __cordl_internal_get__collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<TKey>*> const& __cordl_internal_get__collection() const;
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
   constexpr void __cordl_internal_set__collection(::System::Collections::Generic::ICollection_1<TKey>* value);
 
@@ -272,16 +268,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReadOnlyDictionary_2__KeyCollection();
+  constexpr ReadOnlyDictionary_2_KeyCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyDictionary_2__KeyCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReadOnlyDictionary_2__KeyCollection(__ReadOnlyDictionary_2__KeyCollection&&) = delete;
+  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyDictionary_2__KeyCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_KeyCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReadOnlyDictionary_2__KeyCollection(__ReadOnlyDictionary_2__KeyCollection const&) = delete;
+  ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3827 };
 
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::ICollection_1<TKey>* ____collection;
@@ -289,21 +288,18 @@ public:
   /// @brief Field _syncRoot, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3827 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Type: ::ValueCollection
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::ReadOnlyDictionary`2::ValueCollection<TKey,TValue>*
-class CORDL_TYPE __ReadOnlyDictionary_2__ValueCollection : public ::System::Object {
+// CS Name: System.Collections.ObjectModel.ReadOnlyDictionary`2/ValueCollection<TKey,TValue>
+class CORDL_TYPE ReadOnlyDictionary_2_ValueCollection : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
@@ -341,9 +337,9 @@ public:
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* GetEnumerator();
 
-  static inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* New_ctor();
+  static inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* New_ctor();
 
-  static inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::ICollection_1<TValue>* collection);
+  static inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::ICollection_1<TValue>* collection);
 
   /// @brief Method System.Collections.Generic.ICollection<TValue>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TValue__Add(TValue item);
@@ -372,13 +368,13 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  constexpr ::System::Collections::Generic::ICollection_1<TValue>* const& __cordl_internal_get__collection() const;
+
   constexpr ::System::Collections::Generic::ICollection_1<TValue>*& __cordl_internal_get__collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<TValue>*> const& __cordl_internal_get__collection() const;
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
   constexpr void __cordl_internal_set__collection(::System::Collections::Generic::ICollection_1<TValue>* value);
 
@@ -411,16 +407,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReadOnlyDictionary_2__ValueCollection();
+  constexpr ReadOnlyDictionary_2_ValueCollection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyDictionary_2__ValueCollection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReadOnlyDictionary_2__ValueCollection(__ReadOnlyDictionary_2__ValueCollection&&) = delete;
+  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyDictionary_2__ValueCollection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyDictionary_2_ValueCollection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReadOnlyDictionary_2__ValueCollection(__ReadOnlyDictionary_2__ValueCollection const&) = delete;
+  ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
 
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::ICollection_1<TValue>* ____collection;
@@ -428,34 +427,32 @@ public:
   /// @brief Field _syncRoot, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____syncRoot;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Type: System.Collections.ObjectModel::ReadOnlyDictionary`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
+// System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
+// System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Collections.ObjectModel::ReadOnlyDictionary`2<TKey,TValue>*
+// CS Name: System.Collections.ObjectModel.ReadOnlyDictionary`2<TKey,TValue>
 class CORDL_TYPE ReadOnlyDictionary_2 : public ::System::Object {
 public:
   // Declarations
-  using DictionaryEnumerator = ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__DictionaryEnumerator<TKey, TValue>;
+  using DictionaryEnumerator = ::System::Collections::ObjectModel::ReadOnlyDictionary_2_DictionaryEnumerator<TKey, TValue>;
 
-  using KeyCollection = ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>;
+  using KeyCollection = ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>;
 
-  using ValueCollection = ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>;
+  using ValueCollection = ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_Item)) TValue Item[];
 
-  __declspec(property(get = get_Keys)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* Keys;
+  __declspec(property(get = get_Keys)) ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* Keys;
 
   __declspec(property(get = System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly)) bool
       System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___IsReadOnly;
@@ -490,16 +487,16 @@ public:
 
   __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
 
-  __declspec(property(get = get_Values)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* Values;
+  __declspec(property(get = get_Values)) ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* Values;
 
   /// @brief Field _keys, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys)) ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* _keys;
 
   /// @brief Field _syncRoot, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot)) ::System::Object* _syncRoot;
 
   /// @brief Field _values, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* _values;
 
   /// @brief Field m_dictionary, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_dictionary, put = __cordl_internal_set_m_dictionary)) ::System::Collections::Generic::IDictionary_2<TKey, TValue>* m_dictionary;
@@ -627,29 +624,29 @@ public:
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool TryGetValue(TKey key, ByRef<TValue> value);
+  inline bool TryGetValue(TKey key, ::ByRef<TValue> value);
 
-  constexpr ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>*& __cordl_internal_get__keys();
+  constexpr ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* const& __cordl_internal_get__keys() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>*> const& __cordl_internal_get__keys() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>*& __cordl_internal_get__keys();
+
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+  constexpr ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* const& __cordl_internal_get__values() const;
 
-  constexpr ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>*& __cordl_internal_get__values();
+  constexpr ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>*& __cordl_internal_get__values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>*> const& __cordl_internal_get__values() const;
+  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>* const& __cordl_internal_get_m_dictionary() const;
 
   constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*& __cordl_internal_get_m_dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TKey, TValue>*> const& __cordl_internal_get_m_dictionary() const;
-
-  constexpr void __cordl_internal_set__keys(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__keys(::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  constexpr void __cordl_internal_set__values(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__values(::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* value);
 
   constexpr void __cordl_internal_set_m_dictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value);
 
@@ -660,10 +657,10 @@ public:
   inline TValue get_Item(TKey key);
 
   /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* get_Keys();
+  inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* get_Keys();
 
   /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* get_Values();
+  inline ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* get_Values();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
@@ -706,6 +703,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReadOnlyDictionary_2(ReadOnlyDictionary_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
+
   /// @brief Field m_dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<TKey, TValue>* ___m_dictionary;
 
@@ -713,19 +713,16 @@ public:
   ::System::Object* ____syncRoot;
 
   /// @brief Field _keys, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection<TKey, TValue>* ____keys;
+  ::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection<TKey, TValue>* ____keys;
 
   /// @brief Field _values, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection<TKey, TValue>* ____values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
+  ::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection<TKey, TValue>* ____values;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::ReadOnlyDictionary_2, "System.Collections.ObjectModel", "ReadOnlyDictionary`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__KeyCollection, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/KeyCollection");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__ValueCollection, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/ValueCollection");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::ObjectModel::__ReadOnlyDictionary_2__DictionaryEnumerator, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/DictionaryEnumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/KeyCollection");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/ValueCollection");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::ObjectModel::ReadOnlyDictionary_2_DictionaryEnumerator, "System.Collections.ObjectModel", "ReadOnlyDictionary`2/DictionaryEnumerator");

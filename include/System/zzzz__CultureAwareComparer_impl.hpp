@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/CultureAwareComparer.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__StringComparer_impl.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3d9f60c;
+  constexpr static std::size_t addrs = 0x3dff6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CompareInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d9fad4;
+  constexpr static std::size_t addrs = 0x3dffb80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3d9fbb4;
+  constexpr static std::size_t addrs = 0x3dffc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Compare)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d9fdc0;
+  constexpr static std::size_t addrs = 0x3dffe6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d9fe14;
+  constexpr static std::size_t addrs = 0x3dffec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW)>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d9fe64;
+  constexpr static std::size_t addrs = 0x3dfff10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::System::Object*)>(&::System::CultureAwareComparer::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d9fed4;
+  constexpr static std::size_t addrs = 0x3dfff80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)()>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d9ff6c;
+  constexpr static std::size_t addrs = 0x3e00018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::GetObjectData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d9ffa0;
+  constexpr static std::size_t addrs = 0x3e0004c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,19 +144,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::CultureAwareComparer::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::CultureAwareComparer::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::System::Globalization::CompareInfo*& System::CultureAwareComparer::__cordl_internal_get__compareInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& System::CultureAwareComparer::__cordl_internal_get__compareInfo() const {
+constexpr ::System::Globalization::CompareInfo* const& System::CultureAwareComparer::__cordl_internal_get__compareInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compareInfo;
 }
@@ -176,9 +168,6 @@ constexpr void System::CultureAwareComparer::__cordl_internal_set__options(::Sys
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____options = value;
 }
-inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(culture, options));
-}
 inline void System::CultureAwareComparer::_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CultureAwareComparer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -186,18 +175,12 @@ inline void System::CultureAwareComparer::_ctor(::System::Globalization::Culture
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, culture, options);
 }
-inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(compareInfo, options));
-}
 inline void System::CultureAwareComparer::_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CultureAwareComparer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareInfo*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, compareInfo, options);
-}
-inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(info, context));
 }
 inline void System::CultureAwareComparer::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -237,6 +220,23 @@ inline void System::CultureAwareComparer::GetObjectData(::System::Runtime::Seria
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(culture, options));
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(compareInfo, options));
+}
+inline ::System::CultureAwareComparer* System::CultureAwareComparer::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::CultureAwareComparer*>(info, context));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::CultureAwareComparer::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::CultureAwareComparer::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::CultureAwareComparer::CultureAwareComparer() {}

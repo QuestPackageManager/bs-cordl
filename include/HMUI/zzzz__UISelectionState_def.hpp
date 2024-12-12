@@ -12,11 +12,10 @@ struct UISelectionState;
 }
 // Write type traits
 MARK_VAL_T(::HMUI::UISelectionState);
-// Type: HMUI::UISelectionState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: true
-// CS Name: ::HMUI::UISelectionState
+// CS Name: HMUI.UISelectionState
 struct CORDL_TYPE UISelectionState {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UISelectionState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Disabled value: static_cast<int32_t>(0x5)
+  /// @brief Field Disabled value: I32(5)
   static ::HMUI::UISelectionState const Disabled;
 
-  /// @brief Field Highlighted value: static_cast<int32_t>(0x1)
+  /// @brief Field Highlighted value: I32(1)
   static ::HMUI::UISelectionState const Highlighted;
 
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
+  /// @brief Field Normal value: I32(0)
   static ::HMUI::UISelectionState const Normal;
 
-  /// @brief Field Pressed value: static_cast<int32_t>(0x2)
+  /// @brief Field Pressed value: I32(2)
   static ::HMUI::UISelectionState const Pressed;
 
-  /// @brief Field Selected value: static_cast<int32_t>(0x3)
+  /// @brief Field Selected value: I32(3)
   static ::HMUI::UISelectionState const Selected;
 
-  /// @brief Field SelectedAndHighlighted value: static_cast<int32_t>(0x4)
+  /// @brief Field SelectedAndHighlighted value: I32(4)
   static ::HMUI::UISelectionState const SelectedAndHighlighted;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16024 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16059 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::UISelectionState, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::UISelectionState, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::UISelectionState, 0x4>, "Size mismatch!");
 
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::UISelectionState, "HMUI", "UISelectionState");

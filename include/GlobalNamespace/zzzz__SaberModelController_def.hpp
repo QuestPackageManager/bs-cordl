@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SaberModelController)
 namespace GlobalNamespace {
 class ColorManager;
@@ -39,11 +38,10 @@ class SaberModelController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberModelController);
-// Type: ::SaberModelController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberModelController*
+// CS Name: SaberModelController
 class CORDL_TYPE SaberModelController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -66,17 +64,17 @@ public:
                       put = __cordl_internal_set__setSaberGlowColors)) ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*>
       _setSaberGlowColors;
 
-  /// @brief Method Init, addr 0x3b85f88, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3be77d8, size 0x18c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber, ::UnityEngine::Color trailTintColor);
 
-  /// @brief Method InitColor, addr 0x3b861dc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitColor, addr 0x3be7a2c, size 0x174, virtual false, abstract: false, final false
   inline void InitColor(::GlobalNamespace::SaberType saberType);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__saberLight() const;
 
@@ -104,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b86368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be7bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SaberModelController(SaberModelController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4659 };
+
   /// @brief Field _saberTrail, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberTrail> ____saberTrail;
 
@@ -136,14 +137,9 @@ public:
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberModelController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberModelController, ____saberTrail) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberModelController, ____setSaberGlowColors) == 0x28, "Offset mismatch!");
@@ -153,6 +149,8 @@ static_assert(offsetof(::GlobalNamespace::SaberModelController, ____setSaberFake
 static_assert(offsetof(::GlobalNamespace::SaberModelController, ____saberLight) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberModelController, ____colorManager) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberModelController, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberModelController);

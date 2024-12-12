@@ -15,11 +15,10 @@ class SettingsSubMenuInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SettingsSubMenuInfo);
-// Type: ::SettingsSubMenuInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SettingsSubMenuInfo*
+// CS Name: SettingsSubMenuInfo
 class CORDL_TYPE SettingsSubMenuInfo : public ::System::Object {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__viewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x3bb5140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c18278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedMenuName, addr 0x3bb5134, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localizedMenuName, addr 0x3c1826c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedMenuName();
 
-  /// @brief Method get_viewController, addr 0x3bb512c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewController, addr 0x3c18264, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_viewController();
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SettingsSubMenuInfo(SettingsSubMenuInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4908 };
+
   /// @brief Field _viewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ____viewController;
 
   /// @brief Field _menuName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____menuName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4888 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsSubMenuInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SettingsSubMenuInfo, ____viewController) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SettingsSubMenuInfo, ____menuName) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsSubMenuInfo, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SettingsSubMenuInfo);

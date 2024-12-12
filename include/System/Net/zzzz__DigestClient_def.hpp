@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -12,9 +13,6 @@ class Hashtable;
 }
 namespace System::Net {
 class Authorization;
-}
-namespace System::Net {
-class IAuthenticationModule;
 }
 namespace System::Net {
 class ICredentials;
@@ -28,42 +26,41 @@ class DigestClient;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::DigestClient);
-// Type: System.Net::DigestClient
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.IAuthenticationModule, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::DigestClient*
+// CS Name: System.Net.DigestClient
 class CORDL_TYPE DigestClient : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_AuthenticationType)) ::StringW AuthenticationType;
 
   /// @brief Field cache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_cache, put = setStaticF_cache)) ::System::Collections::Hashtable* cache;
+  __declspec(property(get = getStaticF_cache, put = setStaticF_cache)) ::System::Collections::Hashtable* cache;
 
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x445c88c, size 0x298, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x44bdba0, size 0x298, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method CheckExpired, addr 0x445c034, size 0x858, virtual false, abstract: false, final false
+  /// @brief Method CheckExpired, addr 0x44bd348, size 0x858, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x445cb24, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x44bde38, size 0x180, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x44584e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44b97fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x445cca4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x44bdfb8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Cache, addr 0x445bed0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x44bd1e4, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -86,7 +83,7 @@ public:
   DigestClient(DigestClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

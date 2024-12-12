@@ -14,35 +14,34 @@ class NttObjectIdentifiers;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers);
-// Type: Org.BouncyCastle.Asn1.Ntt::NttObjectIdentifiers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Ntt {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ntt::NttObjectIdentifiers*
+// CS Name: Org.BouncyCastle.Asn1.Ntt.NttObjectIdentifiers
 class CORDL_TYPE NttObjectIdentifiers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IdCamellia128Cbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia128Cbc, put = setStaticF_IdCamellia128Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia128Cbc;
+  __declspec(property(get = getStaticF_IdCamellia128Cbc, put = setStaticF_IdCamellia128Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia128Cbc;
 
   /// @brief Field IdCamellia128Wrap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia128Wrap, put = setStaticF_IdCamellia128Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia128Wrap;
+  __declspec(property(get = getStaticF_IdCamellia128Wrap, put = setStaticF_IdCamellia128Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia128Wrap;
 
   /// @brief Field IdCamellia192Cbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia192Cbc, put = setStaticF_IdCamellia192Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia192Cbc;
+  __declspec(property(get = getStaticF_IdCamellia192Cbc, put = setStaticF_IdCamellia192Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia192Cbc;
 
   /// @brief Field IdCamellia192Wrap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia192Wrap, put = setStaticF_IdCamellia192Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia192Wrap;
+  __declspec(property(get = getStaticF_IdCamellia192Wrap, put = setStaticF_IdCamellia192Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia192Wrap;
 
   /// @brief Field IdCamellia256Cbc, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia256Cbc, put = setStaticF_IdCamellia256Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia256Cbc;
+  __declspec(property(get = getStaticF_IdCamellia256Cbc, put = setStaticF_IdCamellia256Cbc)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia256Cbc;
 
   /// @brief Field IdCamellia256Wrap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IdCamellia256Wrap, put = setStaticF_IdCamellia256Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia256Wrap;
+  __declspec(property(get = getStaticF_IdCamellia256Wrap, put = setStaticF_IdCamellia256Wrap)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IdCamellia256Wrap;
 
   static inline ::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23cfa9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2402d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdCamellia128Cbc();

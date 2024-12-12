@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierPath* (::GlobalNamespace::PathsHolder::*)()>(
     &::GlobalNamespace::PathsHolder::get_bezierPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad0620;
+  constexpr static std::size_t addrs = 0x3b2fc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_bezierPath",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VertexPath* (::GlobalNamespace::PathsHolder::*)()>(
     &::GlobalNamespace::PathsHolder::get_vertexPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad0628;
+  constexpr static std::size_t addrs = 0x3b2fc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), "get_vertexPath",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)(int32_t, bool)>(&::GlobalNamespace::PathsHolder::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3ad0630;
+  constexpr static std::size_t addrs = 0x3b2fc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PathsHolder::*)()>(&::GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ad0c98;
+  constexpr static std::size_t addrs = 0x3b302dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
@@ -63,7 +63,7 @@ constexpr ::GlobalNamespace::BezierPath*& GlobalNamespace::PathsHolder::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierPath;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierPath*> const& GlobalNamespace::PathsHolder::__cordl_internal_get__bezierPath() const {
+constexpr ::GlobalNamespace::BezierPath* const& GlobalNamespace::PathsHolder::__cordl_internal_get__bezierPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bezierPath;
 }
@@ -75,7 +75,7 @@ constexpr ::GlobalNamespace::VertexPath*& GlobalNamespace::PathsHolder::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexPath;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VertexPath*> const& GlobalNamespace::PathsHolder::__cordl_internal_get__vertexPath() const {
+constexpr ::GlobalNamespace::VertexPath* const& GlobalNamespace::PathsHolder::__cordl_internal_get__vertexPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexPath;
 }
@@ -93,11 +93,6 @@ inline ::GlobalNamespace::VertexPath* GlobalNamespace::PathsHolder::get_vertexPa
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::VertexPath*, false>(this, ___internal_method);
 }
-/// @param updateVertexPath: bool (default: true)
-inline ::GlobalNamespace::PathsHolder* GlobalNamespace::PathsHolder::New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PathsHolder*>(numberOfFixedVertexPathSegments, updateVertexPath));
-}
-/// @param updateVertexPath: bool (default: true)
 inline void GlobalNamespace::PathsHolder::_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -108,6 +103,9 @@ inline void GlobalNamespace::PathsHolder::UpdateVertexPathByBezierPath() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PathsHolder*>::get(),
                                                                              "UpdateVertexPathByBezierPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PathsHolder* GlobalNamespace::PathsHolder::New_ctor(int32_t numberOfFixedVertexPathSegments, bool updateVertexPath) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PathsHolder*>(numberOfFixedVertexPathSegments, updateVertexPath));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PathsHolder::PathsHolder() {}

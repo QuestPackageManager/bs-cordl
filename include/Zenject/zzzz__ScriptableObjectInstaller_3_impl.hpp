@@ -24,10 +24,6 @@ inline TDerived Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get() })));
   return ::cordl_internals::RunMethodRethrow<TDerived, false>(nullptr, ___internal_method, resourcePath, container, p1, p2);
 }
-template <typename TParam1, typename TParam2, typename TDerived>
-inline ::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>* Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>*>());
-}
 template <typename TParam1, typename TParam2, typename TDerived> inline void Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>*>::get(), ".ctor",
@@ -46,6 +42,10 @@ template <typename TParam1, typename TParam2, typename TDerived> inline ::Zenjec
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>*>::get(),
                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TParam1, typename TParam2, typename TDerived>
+inline ::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>* Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>*>());
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TDerived> constexpr ::Zenject::ScriptableObjectInstaller_3<TParam1, TParam2, TDerived>::ScriptableObjectInstaller_3() {}

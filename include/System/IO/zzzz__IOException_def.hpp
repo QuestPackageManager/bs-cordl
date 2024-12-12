@@ -22,11 +22,10 @@ class IOException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::IOException);
-// Type: System.IO::IOException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::IOException*
+// CS Name: System.IO.IOException
 class CORDL_TYPE IOException : public ::System::SystemException {
 public:
   // Declarations
@@ -40,19 +39,19 @@ public:
 
   static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3cd6754, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d368c8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cd5b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d35ca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cd5ae0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d35c54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cd67b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d36924, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t hresult);
 
-  /// @brief Method .ctor, addr 0x3cd67d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d3694c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

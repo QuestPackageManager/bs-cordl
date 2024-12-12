@@ -19,54 +19,53 @@ class Utils;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::Utils);
-// Type: Unity.XR.Oculus::Utils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::XR::Oculus {
 // Is value type: false
-// CS Name: ::Unity.XR.Oculus::Utils*
+// CS Name: Unity.XR.Oculus.Utils
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnableDynamicFFR, addr 0x47d032c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnableDynamicFFR, addr 0x4831640, size 0x8c, virtual false, abstract: false, final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel, addr 0x47d03b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFoveationLevel, addr 0x48316cc, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetFoveationLevel();
 
-  /// @brief Method GetSystemHeadsetType, addr 0x47cff2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x4831240, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method IsEyeTrackingPermissionGranted, addr 0x47cffa0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsEyeTrackingPermissionGranted, addr 0x48312b4, size 0x44, virtual false, abstract: false, final false
   static inline bool IsEyeTrackingPermissionGranted();
 
-  /// @brief Method PermissionGrantedCallback, addr 0x47cff34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PermissionGrantedCallback, addr 0x4831248, size 0x64, virtual false, abstract: false, final false
   static inline void PermissionGrantedCallback(::StringW permissionName);
 
-  /// @brief Method SetColorScaleAndOffset, addr 0x47cfee4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x48311f8, size 0x40, virtual false, abstract: false, final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
 
-  /// @brief Method SetFoveationLevel, addr 0x47d02a0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetFoveationLevel, addr 0x48315b4, size 0x8c, virtual false, abstract: false, final false
   static inline bool SetFoveationLevel(int32_t level);
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x47d0174, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x4831488, size 0x20, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x47d016c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x4831480, size 0x4, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingSupported();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x47d0070, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x4831384, size 0x78, virtual false, abstract: false, final false
   static inline int32_t get_foveatedRenderingLevel();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x47cffe4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x48312f8, size 0x4, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
-  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x47d0198, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x48314ac, size 0x108, virtual false, abstract: false, final false
   static inline void set_eyeTrackedFoveatedRenderingEnabled(bool value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x47d00ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x4831400, size 0x7c, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(int32_t value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x47cffec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x4831300, size 0x7c, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
 protected:
@@ -84,7 +83,7 @@ public:
   Utils(Utils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17385 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,39 +26,38 @@ class InputDevices;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::InputDevices);
-// Type: UnityEngine.XR::InputDevices
-// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.XR::InputDevices*
+// CS Name: UnityEngine.XR.InputDevices
 class CORDL_TYPE InputDevices : public ::System::Object {
 public:
   // Declarations
   /// @brief Field deviceConfigChanged, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceConfigChanged, put = setStaticF_deviceConfigChanged)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConfigChanged;
+  __declspec(property(get = getStaticF_deviceConfigChanged, put = setStaticF_deviceConfigChanged)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConfigChanged;
 
   /// @brief Field deviceConnected, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceConnected, put = setStaticF_deviceConnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConnected;
+  __declspec(property(get = getStaticF_deviceConnected, put = setStaticF_deviceConnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceConnected;
 
   /// @brief Field deviceDisconnected, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
+  __declspec(property(get = getStaticF_deviceDisconnected, put = setStaticF_deviceDisconnected)) ::System::Action_1<::UnityEngine::XR::InputDevice>* deviceDisconnected;
 
-  /// @brief Method GetDeviceAtXRNode, addr 0x4a84708, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x4ae9018, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetDeviceManufacturer, addr 0x4a840d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceManufacturer, addr 0x4ae89e8, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
-  /// @brief Method InvokeConnectionEvent, addr 0x4a8474c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InvokeConnectionEvent, addr 0x4ae905c, size 0xbc, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method IsDeviceValid, addr 0x4a84040, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsDeviceValid, addr 0x4ae8950, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method SendHapticImpulse, addr 0x4a8420c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x4ae8b1c, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x4a842c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x4ae8bd0, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
@@ -88,7 +87,7 @@ public:
   InputDevices(InputDevices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

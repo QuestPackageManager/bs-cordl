@@ -12,32 +12,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct PointLight;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::PointLight);
-// Type: UnityEngine.Experimental.GlobalIllumination::PointLight
-// SizeInfo { instance_size: 80, native_size: 84, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LinearColor,
+// UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::PointLight
+// CS Name: UnityEngine.Experimental.GlobalIllumination.PointLight
 struct CORDL_TYPE PointLight {
 public:
   // Declarations
@@ -54,6 +39,12 @@ public:
   constexpr PointLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                        ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range,
                        float_t sphereRadius, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11296 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;
@@ -85,17 +76,9 @@ public:
   /// @brief Field falloff, offset: 0x4c, size: 0x1, def value: None
   ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11263 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::PointLight, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::PointLight, instanceID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::PointLight, shadow) == 0x4, "Offset mismatch!");
@@ -115,6 +98,8 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::PointLig
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::PointLight, sphereRadius) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::PointLight, falloff) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::PointLight, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::PointLight, "UnityEngine.Experimental.GlobalIllumination", "PointLight");

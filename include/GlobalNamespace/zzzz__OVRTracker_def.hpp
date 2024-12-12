@@ -13,36 +13,38 @@ namespace GlobalNamespace {
 struct OVRPose;
 }
 namespace GlobalNamespace {
-struct __OVRTracker__Frustum;
-}
-namespace UnityEngine {
-struct Vector2;
+struct OVRTracker_Frustum;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRTracker;
 }
 namespace GlobalNamespace {
-struct __OVRTracker__Frustum;
+struct OVRTracker_Frustum;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRTracker);
-MARK_VAL_T(::GlobalNamespace::__OVRTracker__Frustum);
-// Type: ::Frustum
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::OVRTracker_Frustum);
+// Dependencies UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRTracker::Frustum
-struct CORDL_TYPE __OVRTracker__Frustum {
+// CS Name: OVRTracker/Frustum
+struct CORDL_TYPE OVRTracker_Frustum {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRTracker__Frustum();
+  constexpr OVRTracker_Frustum();
 
   // Ctor Parameters [CppParam { name: "nearZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farZ", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fov", ty:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr __OVRTracker__Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
+  constexpr OVRTracker_Frustum(float_t nearZ, float_t farZ, ::UnityEngine::Vector2 fov) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8355 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field nearZ, offset: 0x0, size: 0x4, def value: None
   float_t nearZ;
@@ -53,33 +55,26 @@ public:
   /// @brief Field fov, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 fov;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8330 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTracker__Frustum, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, nearZ) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRTracker__Frustum, nearZ) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, farZ) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRTracker__Frustum, farZ) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRTracker_Frustum, fov) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRTracker__Frustum, fov) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTracker_Frustum, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRTracker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRTracker*
+// CS Name: OVRTracker
 class CORDL_TYPE OVRTracker : public ::System::Object {
 public:
   // Declarations
-  using Frustum = ::GlobalNamespace::__OVRTracker__Frustum;
+  using Frustum = ::GlobalNamespace::OVRTracker_Frustum;
 
   __declspec(property(get = get_count)) int32_t count;
 
@@ -89,36 +84,36 @@ public:
 
   __declspec(property(get = get_isPresent)) bool isPresent;
 
-  /// @brief Method GetFrustum, addr 0x3fbfb1c, size 0xa4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__OVRTracker__Frustum GetFrustum(int32_t tracker);
+  /// @brief Method GetFrustum, addr 0x401fbc8, size 0xa4, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRTracker_Frustum GetFrustum(int32_t tracker);
 
-  /// @brief Method GetPose, addr 0x3fbfbc0, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetPose, addr 0x401fc6c, size 0x2b0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPose GetPose(int32_t tracker);
 
-  /// @brief Method GetPoseValid, addr 0x3fbfe70, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPoseValid, addr 0x401ff1c, size 0x11c, virtual false, abstract: false, final false
   inline bool GetPoseValid(int32_t tracker);
 
-  /// @brief Method GetPresent, addr 0x3fbfa00, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetPresent, addr 0x401faac, size 0x11c, virtual false, abstract: false, final false
   inline bool GetPresent(int32_t tracker);
 
   static inline ::GlobalNamespace::OVRTracker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3fbff8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4020038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_count, addr 0x3fbf9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x401fa70, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_isEnabled, addr 0x3fbf8a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isEnabled, addr 0x401f94c, size 0x90, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method get_isPositionTracked, addr 0x3fbf850, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isPositionTracked, addr 0x401f8fc, size 0x50, virtual false, abstract: false, final false
   inline bool get_isPositionTracked();
 
-  /// @brief Method get_isPresent, addr 0x3fbf7c0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_isPresent, addr 0x401f86c, size 0x90, virtual false, abstract: false, final false
   inline bool get_isPresent();
 
-  /// @brief Method set_isEnabled, addr 0x3fbf930, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method set_isEnabled, addr 0x401f9dc, size 0x94, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
 protected:
@@ -136,7 +131,7 @@ public:
   OVRTracker(OVRTracker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -146,4 +141,4 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTracker, 0x1
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRTracker);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker*, "", "OVRTracker");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRTracker__Frustum, "", "OVRTracker/Frustum");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTracker_Frustum, "", "OVRTracker/Frustum");

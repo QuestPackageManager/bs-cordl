@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "HMUI/HoverHint.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_impl.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverHint_def.hpp"
 #include "HMUI/zzzz__HoverHintController_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3996fd8;
+  constexpr static std::size_t addrs = 0x39edbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_text",
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::StringW)>(&::HMUI::HoverHint::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3996fe0;
+  constexpr static std::size_t addrs = 0x39edbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_size)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3996fe8;
+  constexpr static std::size_t addrs = 0x39edbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_size",
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::get_worldCenter)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3997060;
+  constexpr static std::size_t addrs = 0x39edc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "get_worldCenter",
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHint::OnPointerEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x399715c;
+  constexpr static std::size_t addrs = 0x39edd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::HoverHint::OnPointerExit)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x39971c4;
+  constexpr static std::size_t addrs = 0x39eddc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::OnDisable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39972f8;
+  constexpr static std::size_t addrs = 0x39edef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), "OnDisable",
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverHint::*)()>(&::HMUI::HoverHint::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3997378;
+  constexpr static std::size_t addrs = 0x39edf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), ".ctor",
@@ -116,30 +116,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
-constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
-constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-constexpr ::UnityEngine::EventSystems::IEventSystemHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
-constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
-constexpr ::UnityEngine::EventSystems::IPointerExitHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IPointerExitHandler() noexcept {
-  return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
-}
 constexpr ::StringW& HMUI::HoverHint::__cordl_internal_get__text() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____text;
@@ -214,13 +190,37 @@ inline void HMUI::HoverHint::OnDisable() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HMUI::HoverHint* HMUI::HoverHint::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::HoverHint*>());
-}
 inline void HMUI::HoverHint::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverHint*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::HoverHint* HMUI::HoverHint::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::HoverHint*>());
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
+constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerEnterHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IEventSystemHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IEventSystemHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr HMUI::HoverHint::operator ::UnityEngine::EventSystems::IPointerExitHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
+constexpr ::UnityEngine::EventSystems::IPointerExitHandler* HMUI::HoverHint::i___UnityEngine__EventSystems__IPointerExitHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::IPointerExitHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HMUI::HoverHint::HoverHint() {}

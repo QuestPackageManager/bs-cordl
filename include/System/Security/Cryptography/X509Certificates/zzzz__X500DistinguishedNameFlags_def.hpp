@@ -12,11 +12,10 @@ struct X500DistinguishedNameFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags);
-// Type: System.Security.Cryptography.X509Certificates::X500DistinguishedNameFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::X500DistinguishedNameFlags
+// CS Name: System.Security.Cryptography.X509Certificates.X500DistinguishedNameFlags
 struct CORDL_TYPE X500DistinguishedNameFlags {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr X500DistinguishedNameFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field DoNotUsePlusSign value: static_cast<int32_t>(0x20)
+  /// @brief Field DoNotUsePlusSign value: I32(32)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUsePlusSign;
 
-  /// @brief Field DoNotUseQuotes value: static_cast<int32_t>(0x40)
+  /// @brief Field DoNotUseQuotes value: I32(64)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const DoNotUseQuotes;
 
-  /// @brief Field ForceUTF8Encoding value: static_cast<int32_t>(0x4000)
+  /// @brief Field ForceUTF8Encoding value: I32(16384)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const ForceUTF8Encoding;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const None;
 
-  /// @brief Field Reversed value: static_cast<int32_t>(0x1)
+  /// @brief Field Reversed value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const Reversed;
 
-  /// @brief Field UseCommas value: static_cast<int32_t>(0x80)
+  /// @brief Field UseCommas value: I32(128)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseCommas;
 
-  /// @brief Field UseNewLines value: static_cast<int32_t>(0x100)
+  /// @brief Field UseNewLines value: I32(256)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseNewLines;
 
-  /// @brief Field UseSemicolons value: static_cast<int32_t>(0x10)
+  /// @brief Field UseSemicolons value: I32(16)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseSemicolons;
 
-  /// @brief Field UseT61Encoding value: static_cast<int32_t>(0x2000)
+  /// @brief Field UseT61Encoding value: I32(8192)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseT61Encoding;
 
-  /// @brief Field UseUTF8Encoding value: static_cast<int32_t>(0x1000)
+  /// @brief Field UseUTF8Encoding value: I32(4096)
   static ::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags const UseUTF8Encoding;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9272 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9297 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags, "System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags");

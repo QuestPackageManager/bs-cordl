@@ -13,11 +13,10 @@ class AddComponentMenu;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddComponentMenu);
-// Type: UnityEngine::AddComponentMenu
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AddComponentMenu*
+// CS Name: UnityEngine.AddComponentMenu
 class CORDL_TYPE AddComponentMenu : public ::System::Attribute {
 public:
   // Declarations
@@ -43,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ordering(int32_t value);
 
-  /// @brief Method .ctor, addr 0x484565c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6390, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x4845688, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a63bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
 protected:
@@ -63,23 +62,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AddComponentMenu(AddComponentMenu const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
+
   /// @brief Field m_AddComponentMenu, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_AddComponentMenu;
 
   /// @brief Field m_Ordering, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_Ordering;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10824 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddComponentMenu, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AddComponentMenu, ___m_AddComponentMenu) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddComponentMenu, ___m_Ordering) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddComponentMenu, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AddComponentMenu);

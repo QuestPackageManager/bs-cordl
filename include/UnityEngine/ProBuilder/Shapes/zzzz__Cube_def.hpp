@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Cube)
 namespace UnityEngine::ProBuilder::Shapes {
@@ -28,29 +27,28 @@ class Cube;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Cube);
-// Type: UnityEngine.ProBuilder.Shapes::Cube
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::Cube*
+// CS Name: UnityEngine.ProBuilder.Shapes.Cube
 class CORDL_TYPE Cube : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field k_CubeTriangles, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_CubeTriangles, put = setStaticF_k_CubeTriangles)) ::ArrayW<int32_t, ::Array<int32_t>*> k_CubeTriangles;
+  __declspec(property(get = getStaticF_k_CubeTriangles, put = setStaticF_k_CubeTriangles)) ::ArrayW<int32_t, ::Array<int32_t>*> k_CubeTriangles;
 
   /// @brief Field k_CubeVertices, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_CubeVertices, put = setStaticF_k_CubeVertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_CubeVertices;
+  __declspec(property(get = getStaticF_k_CubeVertices, put = setStaticF_k_CubeVertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_CubeVertices;
 
-  /// @brief Method CopyShape, addr 0x46eb980, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x474cc94, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cube* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46eb984, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x474cc98, size 0x20c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x46ebb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x474cea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_CubeTriangles();
@@ -76,7 +74,7 @@ public:
   Cube(Cube const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14305 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14339 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

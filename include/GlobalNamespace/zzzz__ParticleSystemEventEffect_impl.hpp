@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)()>(&::GlobalNamespace::ParticleSystemEventEffect::Start)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3b32c80;
+  constexpr static std::size_t addrs = 0x3b941c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(), "Start",
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)()>(&::GlobalNamespace::ParticleSystemEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b32f84;
+  constexpr static std::size_t addrs = 0x3b944c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(),
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)()>(&::GlobalNamespace::ParticleSystemEventEffect::Update)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3b32fa0;
+  constexpr static std::size_t addrs = 0x3b944e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(), "Update",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::ParticleSystemEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b33068;
+  constexpr static std::size_t addrs = 0x3b945ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)()>(
     &::GlobalNamespace::ParticleSystemEventEffect::RefreshParticles)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3b32e5c;
+  constexpr static std::size_t addrs = 0x3b943a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(),
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParticleSystemEventEffect::*)()>(&::GlobalNamespace::ParticleSystemEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b3322c;
+  constexpr static std::size_t addrs = 0x3b94770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(), ".ctor",
@@ -179,8 +179,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Parti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -260,29 +259,28 @@ constexpr void GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___kFadeSpeed = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__MainModule& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__mainModule() {
+constexpr ::UnityEngine::ParticleSystem_MainModule& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__mainModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__MainModule const& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__mainModule() const {
+constexpr ::UnityEngine::ParticleSystem_MainModule const& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__mainModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainModule;
 }
-constexpr void GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_set__mainModule(::UnityEngine::__ParticleSystem__MainModule value) {
+constexpr void GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_set__mainModule(::UnityEngine::ParticleSystem_MainModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mainModule = value;
 }
-constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__particles() {
+constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*>& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__particles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particles;
 }
-constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> const&
+constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> const&
 GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__particles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particles;
 }
-constexpr void
-GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value) {
+constexpr void GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_set__particles(::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -302,8 +300,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::Parti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const&
-GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::ParticleSystemEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDataCallbackWrapper;
 }
@@ -337,13 +334,13 @@ inline void GlobalNamespace::ParticleSystemEventEffect::RefreshParticles() {
                                                                              "RefreshParticles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ParticleSystemEventEffect* GlobalNamespace::ParticleSystemEventEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ParticleSystemEventEffect*>());
-}
 inline void GlobalNamespace::ParticleSystemEventEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemEventEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ParticleSystemEventEffect* GlobalNamespace::ParticleSystemEventEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ParticleSystemEventEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ParticleSystemEventEffect::ParticleSystemEventEffect() {}

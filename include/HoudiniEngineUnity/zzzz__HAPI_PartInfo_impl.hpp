@@ -4,14 +4,13 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GroupType_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_PartType_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_PartInfo.getElementCountByAttributeOwner
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)(::HoudiniEngineUnity::HAPI_AttributeOwner)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::getElementCountByAttributeOwner)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39f2118;
+  constexpr static std::size_t addrs = 0x3a48d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)(::HoudiniEngineUnity::HAPI_GroupType)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::getElementCountByGroupType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f2164;
+  constexpr static std::size_t addrs = 0x3a48dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39e728c;
+  constexpr static std::size_t addrs = 0x3a3defc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(), "init",
@@ -53,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_pointAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39f218c;
+  constexpr static std::size_t addrs = 0x3a48dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -67,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_pointAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39f21c0;
+  constexpr static std::size_t addrs = 0x3a48e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(
     &::HoudiniEngineUnity::HAPI_PartInfo::get_primitiveAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39f2200;
+  constexpr static std::size_t addrs = 0x3a48e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -96,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_primitiveAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39f2234;
+  constexpr static std::size_t addrs = 0x3a48ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_vertexAttributeCount)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39f2274;
+  constexpr static std::size_t addrs = 0x3a48ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -124,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_vertexAttributeCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39f22a4;
+  constexpr static std::size_t addrs = 0x3a48f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HAPI_PartInfo::*)()>(&::HoudiniEngineUnity::HAPI_PartInfo::get_detailAttributeCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39f22e0;
+  constexpr static std::size_t addrs = 0x3a48f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_PartInfo>::get(),
@@ -152,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_PartInfo::*)(int32_t)>(
     &::HoudiniEngineUnity::HAPI_PartInfo::set_detailAttributeCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39f2314;
+  constexpr static std::size_t addrs = 0x3a48f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +224,7 @@ inline void HoudiniEngineUnity::HAPI_PartInfo::set_detailAttributeCount(int32_t 
 // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "type", ty: "::HoudiniEngineUnity::HAPI_PartType", modifiers: "", def_value: Some("{}") }, CppParam { name: "faceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "vertexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pointCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "attributeCounts", ty:
-// "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "isInstanced", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "instancedPartCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "instanceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasChanged",
 // ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_PartInfo::HAPI_PartInfo(int32_t id, int32_t nameSH, ::HoudiniEngineUnity::HAPI_PartType type, int32_t faceCount, int32_t vertexCount, int32_t pointCount,

@@ -15,11 +15,10 @@ class OcspException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspException);
-// Type: Org.BouncyCastle.Ocsp::OcspException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Ocsp::OcspException*
+// CS Name: Org.BouncyCastle.Ocsp.OcspException
 class CORDL_TYPE OcspException : public ::System::Exception {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x24e9ddc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d0c8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x24e9e34, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251d120, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24e675c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2519a48, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

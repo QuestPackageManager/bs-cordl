@@ -1,27 +1,26 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Controls/AxisControl.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp::__AxisControl__Clamp(int32_t value__) noexcept {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp::AxisControl_Clamp(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp::__AxisControl__Clamp() {}
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp UnityEngine::InputSystem::Controls::__AxisControl__Clamp::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp UnityEngine::InputSystem::Controls::__AxisControl__Clamp::BeforeNormalize{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp UnityEngine::InputSystem::Controls::__AxisControl__Clamp::AfterNormalize{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp UnityEngine::InputSystem::Controls::__AxisControl__Clamp::ToConstantBeforeNormalize{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp::AxisControl_Clamp() {}
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp UnityEngine::InputSystem::Controls::AxisControl_Clamp::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp UnityEngine::InputSystem::Controls::AxisControl_Clamp::BeforeNormalize{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp UnityEngine::InputSystem::Controls::AxisControl_Clamp::AfterNormalize{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp UnityEngine::InputSystem::Controls::AxisControl_Clamp::ToConstantBeforeNormalize{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AxisControl.Preprocess
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Preprocess)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x44fe80c;
+  constexpr static std::size_t addrs = 0x455fb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Unpreprocess)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44fe8e0;
+  constexpr static std::size_t addrs = 0x455fbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44fe92c;
+  constexpr static std::size_t addrs = 0x455fc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(),
@@ -65,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::FinishSetup)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x44fe9b4;
+  constexpr static std::size_t addrs = 0x455fcc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x44fea9c;
+  constexpr static std::size_t addrs = 0x455fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x44fec1c;
+  constexpr static std::size_t addrs = 0x455ff30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::AxisControl::*)(
     ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::AxisControl::CompareValue)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x44fecf8;
+  constexpr static std::size_t addrs = 0x456000c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x44fede4;
+  constexpr static std::size_t addrs = 0x45600f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44fee44;
+  constexpr static std::size_t addrs = 0x4560158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x44feef8;
+  constexpr static std::size_t addrs = 0x456020c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,15 +169,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp& UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_get_clamp() {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp& UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_get_clamp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clamp;
 }
-constexpr ::UnityEngine::InputSystem::Controls::__AxisControl__Clamp const& UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_get_clamp() const {
+constexpr ::UnityEngine::InputSystem::Controls::AxisControl_Clamp const& UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_get_clamp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clamp;
 }
-constexpr void UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_set_clamp(::UnityEngine::InputSystem::Controls::__AxisControl__Clamp value) {
+constexpr void UnityEngine::InputSystem::Controls::AxisControl::__cordl_internal_set_clamp(::UnityEngine::InputSystem::Controls::AxisControl_Clamp value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clamp = value;
 }
@@ -314,9 +313,6 @@ inline float_t UnityEngine::InputSystem::Controls::AxisControl::Unpreprocess(flo
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::InputSystem::Controls::AxisControl* UnityEngine::InputSystem::Controls::AxisControl::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::AxisControl*>());
-}
 inline void UnityEngine::InputSystem::Controls::AxisControl::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -357,6 +353,9 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::C
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::Controls::AxisControl* UnityEngine::InputSystem::Controls::AxisControl::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Controls::AxisControl*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::Controls::AxisControl::AxisControl() {}

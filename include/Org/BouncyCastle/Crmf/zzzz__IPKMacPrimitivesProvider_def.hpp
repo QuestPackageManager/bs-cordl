@@ -19,23 +19,18 @@ class IPKMacPrimitivesProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider);
-// Type: Org.BouncyCastle.Crmf::IPKMacPrimitivesProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crmf::IPKMacPrimitivesProvider*
+// CS Name: Org.BouncyCastle.Crmf.IPKMacPrimitivesProvider
 class CORDL_TYPE IPKMacPrimitivesProvider {
 public:
   // Declarations
-  /// @brief Method CreateDigest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateDigest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateMac, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPKMacPrimitivesProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPKMacPrimitivesProvider(IPKMacPrimitivesProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPKMacPrimitivesProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

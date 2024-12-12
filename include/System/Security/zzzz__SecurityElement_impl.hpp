@@ -5,100 +5,100 @@
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
-//  Writing Method size for method: ::System::Security::__SecurityElement__SecurityAttribute._ctor
+//  Writing Method size for method: ::System::Security::SecurityElement_SecurityAttribute._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::__SecurityElement__SecurityAttribute::*)(::StringW, ::StringW)>(
-    &::System::Security::__SecurityElement__SecurityAttribute::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement_SecurityAttribute::*)(::StringW, ::StringW)>(
+    &::System::Security::SecurityElement_SecurityAttribute::_ctor)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3c34c30;
+  constexpr static std::size_t addrs = 0x3c94da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::__SecurityElement__SecurityAttribute.get_Name
+//  Writing Method size for method: ::System::Security::SecurityElement_SecurityAttribute.get_Name
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::__SecurityElement__SecurityAttribute::*)()>(
-    &::System::Security::__SecurityElement__SecurityAttribute::get_Name)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityElement_SecurityAttribute::*)()>(
+    &::System::Security::SecurityElement_SecurityAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c35c50;
+  constexpr static std::size_t addrs = 0x3c95dc4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(),
                                                                                "get_Name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Security::__SecurityElement__SecurityAttribute.get_Value
+//  Writing Method size for method: ::System::Security::SecurityElement_SecurityAttribute.get_Value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::__SecurityElement__SecurityAttribute::*)()>(
-    &::System::Security::__SecurityElement__SecurityAttribute::get_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityElement_SecurityAttribute::*)()>(
+    &::System::Security::SecurityElement_SecurityAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c35c58;
+  constexpr static std::size_t addrs = 0x3c95dcc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(),
                                                                                "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_get__name() {
+constexpr ::StringW& System::Security::SecurityElement_SecurityAttribute::__cordl_internal_get__name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
-constexpr ::StringW const& System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_get__name() const {
+constexpr ::StringW const& System::Security::SecurityElement_SecurityAttribute::__cordl_internal_get__name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____name;
 }
-constexpr void System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_set__name(::StringW value) {
+constexpr void System::Security::SecurityElement_SecurityAttribute::__cordl_internal_set__name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_get__value() {
+constexpr ::StringW& System::Security::SecurityElement_SecurityAttribute::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr ::StringW const& System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_get__value() const {
+constexpr ::StringW const& System::Security::SecurityElement_SecurityAttribute::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr void System::Security::__SecurityElement__SecurityAttribute::__cordl_internal_set__value(::StringW value) {
+constexpr void System::Security::SecurityElement_SecurityAttribute::__cordl_internal_set__value(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Security::__SecurityElement__SecurityAttribute* System::Security::__SecurityElement__SecurityAttribute::New_ctor(::StringW name, ::StringW value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::__SecurityElement__SecurityAttribute*>(name, value));
-}
-inline void System::Security::__SecurityElement__SecurityAttribute::_ctor(::StringW name, ::StringW value) {
+inline void System::Security::SecurityElement_SecurityAttribute::_ctor(::StringW name, ::StringW value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, value);
 }
-inline ::StringW System::Security::__SecurityElement__SecurityAttribute::get_Name() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(),
+inline ::StringW System::Security::SecurityElement_SecurityAttribute::get_Name() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(),
                                                                              "get_Name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Security::__SecurityElement__SecurityAttribute::get_Value() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::__SecurityElement__SecurityAttribute*>::get(),
+inline ::StringW System::Security::SecurityElement_SecurityAttribute::get_Value() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement_SecurityAttribute*>::get(),
                                                                              "get_Value", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
+inline ::System::Security::SecurityElement_SecurityAttribute* System::Security::SecurityElement_SecurityAttribute::New_ctor(::StringW name, ::StringW value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecurityElement_SecurityAttribute*>(name, value));
+}
 // Ctor Parameters []
-constexpr ::System::Security::__SecurityElement__SecurityAttribute::__SecurityElement__SecurityAttribute() {}
+constexpr ::System::Security::SecurityElement_SecurityAttribute::SecurityElement_SecurityAttribute() {}
 //  Writing Method size for method: ::System::Security::SecurityElement._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::StringW)>(&::System::Security::SecurityElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c32790;
+  constexpr static std::size_t addrs = 0x3c92904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::StringW, ::StringW)>(&::System::Security::SecurityElement::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3c3441c;
+  constexpr static std::size_t addrs = 0x3c94590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Security::SecurityElement::*)()>(
     &::System::Security::SecurityElement::get_Children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c346d0;
+  constexpr static std::size_t addrs = 0x3c94844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "get_Children",
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityElement::*)()>(&::System::Security::SecurityElement::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c346d8;
+  constexpr static std::size_t addrs = 0x3c9484c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "get_Tag",
@@ -153,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::StringW)>(&::System::Security::SecurityElement::set_Text)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c345dc;
+  constexpr static std::size_t addrs = 0x3c94750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::StringW, ::StringW)>(
     &::System::Security::SecurityElement::AddAttribute)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3c32798;
+  constexpr static std::size_t addrs = 0x3c9290c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::System::Security::SecurityElement*)>(
     &::System::Security::SecurityElement::AddChild)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3c3292c;
+  constexpr static std::size_t addrs = 0x3c92aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Security::SecurityElement::Escape)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3c34d8c;
+  constexpr static std::size_t addrs = 0x3c94f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Security::SecurityElement::Unescape)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3c3475c;
+  constexpr static std::size_t addrs = 0x3c948d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Security::SecurityElement::IsValidAttributeName)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c34f94;
+  constexpr static std::size_t addrs = 0x3c95108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Security::SecurityElement::IsValidAttributeValue)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c35010;
+  constexpr static std::size_t addrs = 0x3c95184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Security::SecurityElement::IsValidTag)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c34560;
+  constexpr static std::size_t addrs = 0x3c946d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Security::SecurityElement::IsValidText)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c346e0;
+  constexpr static std::size_t addrs = 0x3c94854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::SecurityElement::*)(::StringW)>(
     &::System::Security::SecurityElement::SearchForChildByTag)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3c3508c;
+  constexpr static std::size_t addrs = 0x3c95200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityElement::*)()>(&::System::Security::SecurityElement::ToString)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c351b0;
+  constexpr static std::size_t addrs = 0x3c95324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -308,15 +308,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Security::SecurityElement.ToXml
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(ByRef<::System::Text::StringBuilder*>, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::ByRef<::System::Text::StringBuilder*>, int32_t)>(
     &::System::Security::SecurityElement::ToXml)> {
   constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x3c35234;
+  constexpr static std::size_t addrs = 0x3c953a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "ToXml", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::StringBuilder*>>::get(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::StringBuilder*>>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -324,10 +324,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Security::SecurityElement.GetAttribute
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::__SecurityElement__SecurityAttribute* (::System::Security::SecurityElement::*)(::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement_SecurityAttribute* (::System::Security::SecurityElement::*)(::StringW)>(
     &::System::Security::SecurityElement::GetAttribute)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3c3492c;
+  constexpr static std::size_t addrs = 0x3c94aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::SecurityElement::*)(::StringW)>(&::System::Security::SecurityElement::set_m_strText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c35888;
+  constexpr static std::size_t addrs = 0x3c959fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::SecurityElement::*)(::StringW)>(
     &::System::Security::SecurityElement::SearchForTextOfLocalName)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3c35890;
+  constexpr static std::size_t addrs = 0x3c95a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ constexpr ::System::Collections::ArrayList*& System::Security::SecurityElement::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::SecurityElement::__cordl_internal_get_attributes() const {
+constexpr ::System::Collections::ArrayList* const& System::Security::SecurityElement::__cordl_internal_get_attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attributes;
 }
@@ -405,7 +405,7 @@ constexpr ::System::Collections::ArrayList*& System::Security::SecurityElement::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Security::SecurityElement::__cordl_internal_get_children() const {
+constexpr ::System::Collections::ArrayList* const& System::Security::SecurityElement::__cordl_internal_get_children() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
@@ -453,17 +453,11 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Security::SecurityElement:
   return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "invalid_chars",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get>();
 }
-inline ::System::Security::SecurityElement* System::Security::SecurityElement::New_ctor(::StringW tag) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecurityElement*>(tag));
-}
 inline void System::Security::SecurityElement::_ctor(::StringW tag) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tag);
-}
-inline ::System::Security::SecurityElement* System::Security::SecurityElement::New_ctor(::StringW tag, ::StringW text) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecurityElement*>(tag, text));
 }
 inline void System::Security::SecurityElement::_ctor(::StringW tag, ::StringW text) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -546,18 +540,18 @@ inline ::StringW System::Security::SecurityElement::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::Security::SecurityElement::ToXml(ByRef<::System::Text::StringBuilder*> s, int32_t level) {
+inline void System::Security::SecurityElement::ToXml(::ByRef<::System::Text::StringBuilder*> s, int32_t level) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "ToXml", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Text::StringBuilder*>>::get(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Text::StringBuilder*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s, level);
 }
-inline ::System::Security::__SecurityElement__SecurityAttribute* System::Security::SecurityElement::GetAttribute(::StringW name) {
+inline ::System::Security::SecurityElement_SecurityAttribute* System::Security::SecurityElement::GetAttribute(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "GetAttribute", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Security::__SecurityElement__SecurityAttribute*, false>(this, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::System::Security::SecurityElement_SecurityAttribute*, false>(this, ___internal_method, name);
 }
 inline void System::Security::SecurityElement::set_m_strText(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -570,6 +564,12 @@ inline ::StringW System::Security::SecurityElement::SearchForTextOfLocalName(::S
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityElement*>::get(), "SearchForTextOfLocalName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, strLocalName);
+}
+inline ::System::Security::SecurityElement* System::Security::SecurityElement::New_ctor(::StringW tag) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecurityElement*>(tag));
+}
+inline ::System::Security::SecurityElement* System::Security::SecurityElement::New_ctor(::StringW tag, ::StringW text) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::SecurityElement*>(tag, text));
 }
 // Ctor Parameters []
 constexpr ::System::Security::SecurityElement::SecurityElement() {}

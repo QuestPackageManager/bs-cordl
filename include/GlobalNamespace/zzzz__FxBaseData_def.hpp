@@ -12,11 +12,10 @@ class FxBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FxBaseData);
-// Type: ::FxBaseData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FxBaseData*
+// CS Name: FxBaseData
 class CORDL_TYPE FxBaseData : public ::System::Object {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  /// @brief Method .ctor, addr 0x26870e0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb8d0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FxBaseData(FxBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12903 };
+
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;
 
   /// @brief Field usePreviousEventValue, offset: 0x14, size: 0x1, def value: None
   bool ___usePreviousEventValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12869 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FxBaseData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FxBaseData, ___beat) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FxBaseData, ___usePreviousEventValue) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FxBaseData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FxBaseData);

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40209d8;
+  constexpr static std::size_t addrs = 0x4081cec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x40209e0;
+  constexpr static std::size_t addrs = 0x4081cf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4020b20;
+  constexpr static std::size_t addrs = 0x4081e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), "OnDisable",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x40209fc;
+  constexpr static std::size_t addrs = 0x4081d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4020b50;
+  constexpr static std::size_t addrs = 0x4081e64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(&::GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x4020bb4;
+  constexpr static std::size_t addrs = 0x4081ec8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4020e30;
+  constexpr static std::size_t addrs = 0x4082144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",
@@ -226,51 +226,51 @@ constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alphaWeights = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preFilterPass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preFilterPass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__preFilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__preFilterPass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____preFilterPass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__downsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__upsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____upsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() const {
+constexpr ::GlobalNamespace::PyramidBloomRendererSO_Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__finalUpsamplePass(::GlobalNamespace::PyramidBloomRendererSO_Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finalUpsamplePass = value;
 }
@@ -383,13 +383,13 @@ inline void GlobalNamespace::PyramidBloomMainEffectSO::Render(::UnityEngine::Ren
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, fade);
 }
-inline ::GlobalNamespace::PyramidBloomMainEffectSO* GlobalNamespace::PyramidBloomMainEffectSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PyramidBloomMainEffectSO*>());
-}
 inline void GlobalNamespace::PyramidBloomMainEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PyramidBloomMainEffectSO* GlobalNamespace::PyramidBloomMainEffectSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PyramidBloomMainEffectSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PyramidBloomMainEffectSO::PyramidBloomMainEffectSO() {}

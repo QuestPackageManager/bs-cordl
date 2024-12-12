@@ -12,11 +12,10 @@ struct VREvent_Controller_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Controller_t);
-// Type: OVR.OpenVR::VREvent_Controller_t
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::VREvent_Controller_t
+// CS Name: OVR.OpenVR.VREvent_Controller_t
 struct CORDL_TYPE VREvent_Controller_t {
 public:
   // Declarations
@@ -27,21 +26,21 @@ public:
   // Ctor Parameters [CppParam { name: "button", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr VREvent_Controller_t(uint32_t button) noexcept;
 
-  /// @brief Field button, offset: 0x0, size: 0x4, def value: None
-  uint32_t button;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8979 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field button, offset: 0x0, size: 0x4, def value: None
+  uint32_t button;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_Controller_t, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::VREvent_Controller_t, button) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VREvent_Controller_t, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VREvent_Controller_t, "OVR.OpenVR", "VREvent_Controller_t");

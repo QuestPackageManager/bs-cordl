@@ -16,35 +16,34 @@ class SetArrayItemInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::SetArrayItemInstruction);
-// Type: System.Linq.Expressions.Interpreter::SetArrayItemInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::SetArrayItemInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.SetArrayItemInstruction
 class CORDL_TYPE SetArrayItemInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* Instance;
+  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* Instance;
 
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
   static inline ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x405f158, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c046c, size 0xc0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x405f108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c041c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* getStaticF_Instance();
 
-  /// @brief Method get_ConsumedStack, addr 0x405f110, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40c0424, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x405f118, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40c042c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::SetArrayItemInstruction* value);
@@ -64,7 +63,7 @@ public:
   SetArrayItemInstruction(SetArrayItemInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

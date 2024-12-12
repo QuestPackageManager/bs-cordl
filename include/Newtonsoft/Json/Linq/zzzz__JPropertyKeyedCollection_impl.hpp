@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3eb62b4;
+  constexpr static std::size_t addrs = 0x3f16360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::AddKey)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3ebc47c;
+  constexpr static std::size_t addrs = 0x3f1c528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::Newtonsoft::Json::Linq::JToken*, ::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::ChangeItemKey)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3ebc594;
+  constexpr static std::size_t addrs = 0x3f1c640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::ClearItems)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ebc884;
+  constexpr static std::size_t addrs = 0x3f1c930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::Contains)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3eb8348;
+  constexpr static std::size_t addrs = 0x3f183f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::ContainsItem)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ebc718;
+  constexpr static std::size_t addrs = 0x3f1c7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::EnsureDictionary)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ebc4ec;
+  constexpr static std::size_t addrs = 0x3f1c598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::GetKeyForItem)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ebc7a4;
+  constexpr static std::size_t addrs = 0x3f1c850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::InsertItem)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ebc8fc;
+  constexpr static std::size_t addrs = 0x3f1c9a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::Remove)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ebc974;
+  constexpr static std::size_t addrs = 0x3f1ca20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(int32_t)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::RemoveItem)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ebca5c;
+  constexpr static std::size_t addrs = 0x3f1cb08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::RemoveKey)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ebc824;
+  constexpr static std::size_t addrs = 0x3f1c8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(int32_t, ::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::SetItem)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3ebcb50;
+  constexpr static std::size_t addrs = 0x3f1cbfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::get_Item)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ebcd58;
+  constexpr static std::size_t addrs = 0x3f1ce04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,16 +223,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JPropertyKeyedCollection.TryGetValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW, ByRef<::Newtonsoft::Json::Linq::JToken*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::StringW, ::ByRef<::Newtonsoft::Json::Linq::JToken*>)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::TryGetValue)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3eb6be8;
+  constexpr static std::size_t addrs = 0x3f16c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Linq::JToken*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Linq::JToken*>>::get() })));
     return ___internal_method;
   }
 };
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)()>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::get_Keys)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3eb840c;
+  constexpr static std::size_t addrs = 0x3f184b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(),
@@ -256,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* (
     ::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)()>(&::Newtonsoft::Json::Linq::JPropertyKeyedCollection::get_Values)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ebce18;
+  constexpr static std::size_t addrs = 0x3f1cec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(),
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::IndexOfReference)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3eb68bc;
+  constexpr static std::size_t addrs = 0x3f16968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JPropertyKeyedCollection::*)(::Newtonsoft::Json::Linq::JPropertyKeyedCollection*)>(
     &::Newtonsoft::Json::Linq::JPropertyKeyedCollection::Compare)> {
   constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3eb6534;
+  constexpr static std::size_t addrs = 0x3f165e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -298,7 +298,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* const&
 Newtonsoft::Json::Linq::JPropertyKeyedCollection::__cordl_internal_get__dictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dictionary;
@@ -315,9 +315,6 @@ inline void Newtonsoft::Json::Linq::JPropertyKeyedCollection::setStaticF_Compare
 inline ::System::Collections::Generic::IEqualityComparer_1<::StringW>* Newtonsoft::Json::Linq::JPropertyKeyedCollection::getStaticF_Comparer() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::IEqualityComparer_1<::StringW>*, "Comparer",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get>();
-}
-inline ::Newtonsoft::Json::Linq::JPropertyKeyedCollection* Newtonsoft::Json::Linq::JPropertyKeyedCollection::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>());
 }
 inline void Newtonsoft::Json::Linq::JPropertyKeyedCollection::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(),
@@ -399,11 +396,11 @@ inline ::Newtonsoft::Json::Linq::JToken* Newtonsoft::Json::Linq::JPropertyKeyedC
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Newtonsoft::Json::Linq::JToken*, false>(this, ___internal_method, key);
 }
-inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::TryGetValue(::StringW key, ByRef<::Newtonsoft::Json::Linq::JToken*> value) {
+inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::TryGetValue(::StringW key, ::ByRef<::Newtonsoft::Json::Linq::JToken*> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Newtonsoft::Json::Linq::JToken*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Newtonsoft::Json::Linq::JToken*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
 inline ::System::Collections::Generic::ICollection_1<::StringW>* Newtonsoft::Json::Linq::JPropertyKeyedCollection::get_Keys() {
@@ -427,6 +424,9 @@ inline bool Newtonsoft::Json::Linq::JPropertyKeyedCollection::Compare(::Newtonso
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline ::Newtonsoft::Json::Linq::JPropertyKeyedCollection* Newtonsoft::Json::Linq::JPropertyKeyedCollection::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Linq::JPropertyKeyedCollection*>());
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Linq::JPropertyKeyedCollection::JPropertyKeyedCollection() {}

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c37360;
+  constexpr static std::size_t addrs = 0x3c974d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int16_t)>(&::System::Security::Util::TokenizerStream::AddToken)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c376e0;
+  constexpr static std::size_t addrs = 0x3c97854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)(::StringW)>(
     &::System::Security::Util::TokenizerStream::AddString)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c377dc;
+  constexpr static std::size_t addrs = 0x3c97950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::Reset)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c37404;
+  constexpr static std::size_t addrs = 0x3c97578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(), "Reset",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::Security::Util::TokenizerStream::*)()>(
     &::System::Security::Util::TokenizerStream::GetNextFullToken)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c37420;
+  constexpr static std::size_t addrs = 0x3c97594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(),
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::Security::Util::TokenizerStream::*)()>(&::System::Security::Util::TokenizerStream::GetNextToken)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c36390;
+  constexpr static std::size_t addrs = 0x3c96504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Util::TokenizerStream::*)()>(
     &::System::Security::Util::TokenizerStream::GetNextString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c3641c;
+  constexpr static std::size_t addrs = 0x3c96590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)()>(
     &::System::Security::Util::TokenizerStream::ThrowAwayNextString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c363a4;
+  constexpr static std::size_t addrs = 0x3c96518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int16_t)>(
     &::System::Security::Util::TokenizerStream::TagLastToken)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c363a8;
+  constexpr static std::size_t addrs = 0x3c9651c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Util::TokenizerStream::*)()>(
     &::System::Security::Util::TokenizerStream::GetTokenCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c37b94;
+  constexpr static std::size_t addrs = 0x3c97d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerStream::*)(int32_t)>(
     &::System::Security::Util::TokenizerStream::GoToPosition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c36de8;
+  constexpr static std::size_t addrs = 0x3c96f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headTokens;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_headTokens() const {
+constexpr ::System::Security::Util::TokenizerShortBlock* const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_headTokens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headTokens;
 }
@@ -186,7 +186,7 @@ constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTokens;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_lastTokens() const {
+constexpr ::System::Security::Util::TokenizerShortBlock* const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_lastTokens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lastTokens;
 }
@@ -198,7 +198,7 @@ constexpr ::System::Security::Util::TokenizerShortBlock*& System::Security::Util
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentTokens;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_currentTokens() const {
+constexpr ::System::Security::Util::TokenizerShortBlock* const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_currentTokens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentTokens;
 }
@@ -222,7 +222,7 @@ constexpr ::System::Security::Util::TokenizerStringBlock*& System::Security::Uti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headStrings;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_headStrings() const {
+constexpr ::System::Security::Util::TokenizerStringBlock* const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_headStrings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_headStrings;
 }
@@ -234,7 +234,7 @@ constexpr ::System::Security::Util::TokenizerStringBlock*& System::Security::Uti
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentStrings;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_currentStrings() const {
+constexpr ::System::Security::Util::TokenizerStringBlock* const& System::Security::Util::TokenizerStream::__cordl_internal_get_m_currentStrings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_currentStrings;
 }
@@ -253,9 +253,6 @@ constexpr int32_t const& System::Security::Util::TokenizerStream::__cordl_intern
 constexpr void System::Security::Util::TokenizerStream::__cordl_internal_set_m_indexStrings(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_indexStrings = value;
-}
-inline ::System::Security::Util::TokenizerStream* System::Security::Util::TokenizerStream::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Util::TokenizerStream*>());
 }
 inline void System::Security::Util::TokenizerStream::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(), ".ctor",
@@ -315,6 +312,9 @@ inline void System::Security::Util::TokenizerStream::GoToPosition(int32_t positi
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerStream*>::get(), "GoToPosition",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position);
+}
+inline ::System::Security::Util::TokenizerStream* System::Security::Util::TokenizerStream::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Util::TokenizerStream*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Util::TokenizerStream::TokenizerStream() {}

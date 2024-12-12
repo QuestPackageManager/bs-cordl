@@ -12,11 +12,10 @@ struct XRNode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::XR::XRNode);
-// Type: UnityEngine.XR::XRNode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::XR {
 // Is value type: true
-// CS Name: ::UnityEngine.XR::XRNode
+// CS Name: UnityEngine.XR.XRNode
 struct CORDL_TYPE XRNode {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XRNode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CenterEye value: static_cast<int32_t>(0x2)
+  /// @brief Field CenterEye value: I32(2)
   static ::UnityEngine::XR::XRNode const CenterEye;
 
-  /// @brief Field GameController value: static_cast<int32_t>(0x6)
+  /// @brief Field GameController value: I32(6)
   static ::UnityEngine::XR::XRNode const GameController;
 
-  /// @brief Field HardwareTracker value: static_cast<int32_t>(0x8)
+  /// @brief Field HardwareTracker value: I32(8)
   static ::UnityEngine::XR::XRNode const HardwareTracker;
 
-  /// @brief Field Head value: static_cast<int32_t>(0x3)
+  /// @brief Field Head value: I32(3)
   static ::UnityEngine::XR::XRNode const Head;
 
-  /// @brief Field LeftEye value: static_cast<int32_t>(0x0)
+  /// @brief Field LeftEye value: I32(0)
   static ::UnityEngine::XR::XRNode const LeftEye;
 
-  /// @brief Field LeftHand value: static_cast<int32_t>(0x4)
+  /// @brief Field LeftHand value: I32(4)
   static ::UnityEngine::XR::XRNode const LeftHand;
 
-  /// @brief Field RightEye value: static_cast<int32_t>(0x1)
+  /// @brief Field RightEye value: I32(1)
   static ::UnityEngine::XR::XRNode const RightEye;
 
-  /// @brief Field RightHand value: static_cast<int32_t>(0x5)
+  /// @brief Field RightHand value: I32(5)
   static ::UnityEngine::XR::XRNode const RightHand;
 
-  /// @brief Field TrackingReference value: static_cast<int32_t>(0x7)
+  /// @brief Field TrackingReference value: I32(7)
   static ::UnityEngine::XR::XRNode const TrackingReference;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18260 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRNode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::XR::XRNode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::XRNode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::XR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRNode, "UnityEngine.XR", "XRNode");

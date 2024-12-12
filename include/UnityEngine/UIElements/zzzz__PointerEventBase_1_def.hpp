@@ -4,6 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__PenStatus_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -17,9 +19,6 @@ class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
-}
-namespace UnityEngine::UIElements {
-class IPointerEventInternal;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
@@ -54,13 +53,13 @@ template <typename T> class PointerEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PointerEventBase_1);
-// Type: UnityEngine.UIElements::PointerEventBase`1
-// SizeInfo { instance_size: 264, native_size: 262, calculated_instance_size: 264, calculated_native_size: 262, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventModifiers, UnityEngine.PenStatus, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.IPointerEvent, UnityEngine.UIElements.IPointerEventInternal,
+// UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.PointerEventBase`1<T>
 class CORDL_TYPE PointerEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -581,6 +580,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerEventBase_1(PointerEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5905 };
+
   /// @brief Field m_AltitudeNeedsConversion, offset: 0x84, size: 0x1, def value: None
   bool ___m_AltitudeNeedsConversion;
 
@@ -655,9 +657,6 @@ public:
 
   /// @brief Field <UnityEngine.UIElements.IPointerEventInternal.recomputeTopElementUnderPointer>k__BackingField, offset: 0x105, size: 0x1, def value: None
   bool ____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5880 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

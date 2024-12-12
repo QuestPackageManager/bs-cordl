@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)(
     ::Org::BouncyCastle::Asn1::X509::DigestInfo*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22bd5b4;
+  constexpr static std::size_t addrs = 0x22f08a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::DigestInfo*, ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::X509Name*, ::Org::BouncyCastle::Asn1::X509::GeneralNames*)>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22bd5e4;
+  constexpr static std::size_t addrs = 0x22f08d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x22bd624;
+  constexpr static std::size_t addrs = 0x22f0910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::BC::LinkedCertificate* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22bd7e8;
+  constexpr static std::size_t addrs = 0x22f0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::DigestInfo* (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::get_Digest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bd88c;
+  constexpr static std::size_t addrs = 0x22f0b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::get_CertLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bd894;
+  constexpr static std::size_t addrs = 0x22f0b80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::get_CertIssuer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bd89c;
+  constexpr static std::size_t addrs = 0x22f0b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::get_CACerts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22bd8a4;
+  constexpr static std::size_t addrs = 0x22f0b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BC::LinkedCertificate::*)()>(
     &::Org::BouncyCastle::Asn1::BC::LinkedCertificate::ToAsn1Object)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x22bd8ac;
+  constexpr static std::size_t addrs = 0x22f0b98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::DigestInfo*& Org::BouncyCastle::Asn1:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDigest;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DigestInfo*> const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mDigest() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::DigestInfo* const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mDigest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDigest;
 }
@@ -170,7 +170,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertLocation;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCertLocation() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCertLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertLocation;
 }
@@ -182,7 +182,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& Org::BouncyCastle::Asn1::B
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertIssuer;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCertIssuer() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Name* const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCertIssuer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertIssuer;
 }
@@ -194,7 +194,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCACerts;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCACerts() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_get_mCACerts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCACerts;
 }
@@ -202,22 +202,12 @@ constexpr void Org::BouncyCastle::Asn1::BC::LinkedCertificate::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mCACerts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest,
-                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(digest, certLocation));
-}
 inline void Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::DigestInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, digest, certLocation);
-}
-inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest,
-                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation,
-                                                                                                                  ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer,
-                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(digest, certLocation, certIssuer, caCerts));
 }
 inline void Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest, ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation,
                                                                   ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer, ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts) {
@@ -228,9 +218,6 @@ inline void Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor(::Org::BouncyC
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Name*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralNames*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, digest, certLocation, certIssuer, caCerts);
-}
-inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::BC::LinkedCertificate::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -268,6 +255,19 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::BC::Linke
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest,
+                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(digest, certLocation));
+}
+inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::DigestInfo* digest,
+                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralName* certLocation,
+                                                                                                                  ::Org::BouncyCastle::Asn1::X509::X509Name* certIssuer,
+                                                                                                                  ::Org::BouncyCastle::Asn1::X509::GeneralNames* caCerts) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(digest, certLocation, certIssuer, caCerts));
+}
+inline ::Org::BouncyCastle::Asn1::BC::LinkedCertificate* Org::BouncyCastle::Asn1::BC::LinkedCertificate::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BC::LinkedCertificate*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BC::LinkedCertificate::LinkedCertificate() {}

@@ -4,13 +4,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerCaptureEventInternal_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerCaptureEventBase_1)
 namespace UnityEngine::UIElements {
 class IEventHandler;
-}
-namespace UnityEngine::UIElements {
-class IPointerCaptureEventInternal;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -18,13 +16,12 @@ template <typename T> class PointerCaptureEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureEventBase_1);
-// Type: UnityEngine.UIElements::PointerCaptureEventBase`1
-// SizeInfo { instance_size: 152, native_size: 148, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.IPointerCaptureEventInternal
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.PointerCaptureEventBase`1<T>
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -57,9 +54,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__pointerId_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__relatedTarget_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IEventHandler* const& __cordl_internal_get__relatedTarget_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__relatedTarget_k__BackingField();
 
   constexpr void __cordl_internal_set__pointerId_k__BackingField(int32_t value);
 
@@ -94,14 +91,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerCaptureEventBase_1(PointerCaptureEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5779 };
+
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::IEventHandler* ____relatedTarget_k__BackingField;
 
   /// @brief Field <pointerId>k__BackingField, offset: 0x90, size: 0x4, def value: None
   int32_t ____pointerId_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5754 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

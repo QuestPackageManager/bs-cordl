@@ -11,13 +11,12 @@ template <typename TKey, typename TValue> class DictionaryKeyCollectionDebugView
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::DictionaryKeyCollectionDebugView_2);
-// Type: System.Collections.Generic::DictionaryKeyCollectionDebugView`2
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::DictionaryKeyCollectionDebugView`2<TKey,TValue>*
+// CS Name: System.Collections.Generic.DictionaryKeyCollectionDebugView`2<TKey,TValue>
 class CORDL_TYPE DictionaryKeyCollectionDebugView_2 : public ::System::Object {
 public:
   // Declarations

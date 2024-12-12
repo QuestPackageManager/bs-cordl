@@ -15,11 +15,10 @@ class EnvironmentSceneSetup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetup);
-// Type: ::EnvironmentSceneSetup
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentSceneSetup*
+// CS Name: EnvironmentSceneSetup
 class CORDL_TYPE EnvironmentSceneSetup : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -27,20 +26,20 @@ public:
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::EnvironmentSceneSetupData* _sceneSetupData;
 
   /// @brief Field trackLaneYPositionPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_trackLaneYPositionPropertyId, put = setStaticF_trackLaneYPositionPropertyId)) int32_t trackLaneYPositionPropertyId;
+  __declspec(property(get = getStaticF_trackLaneYPositionPropertyId, put = setStaticF_trackLaneYPositionPropertyId)) int32_t trackLaneYPositionPropertyId;
 
-  /// @brief Method InstallBindings, addr 0x3ad5cbc, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3b35300, size 0x184, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::EnvironmentSceneSetup* New_ctor();
 
-  constexpr ::GlobalNamespace::EnvironmentSceneSetupData*& __cordl_internal_get__sceneSetupData();
+  constexpr ::GlobalNamespace::EnvironmentSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+  constexpr ::GlobalNamespace::EnvironmentSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::EnvironmentSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3ad5e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b35484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_trackLaneYPositionPropertyId();
@@ -61,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentSceneSetup(EnvironmentSceneSetup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5216 };
+
   /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSceneSetupData* ____sceneSetupData;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5196 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSceneSetup, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetup, ____sceneSetupData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSceneSetup, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentSceneSetup);

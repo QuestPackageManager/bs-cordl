@@ -24,11 +24,10 @@ class ResultObjectiveListItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItem);
-// Type: ::ResultObjectiveListItem
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResultObjectiveListItem*
+// CS Name: ResultObjectiveListItem
 class CORDL_TYPE ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -95,31 +94,31 @@ public:
 
   constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa77c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b04c68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x3aa7714, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x3b04bb8, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideConditionText, addr 0x3aa7738, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideConditionText, addr 0x3b04bdc, size 0x34, virtual false, abstract: false, final false
   inline void set_hideConditionText(bool value);
 
-  /// @brief Method set_hideValueText, addr 0x3aa7790, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideValueText, addr 0x3b04c34, size 0x34, virtual false, abstract: false, final false
   inline void set_hideValueText(bool value);
 
-  /// @brief Method set_icon, addr 0x3aa76b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_icon, addr 0x3b04b5c, size 0x1c, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_iconColor, addr 0x3aa7694, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_iconColor, addr 0x3b04b38, size 0x24, virtual false, abstract: false, final false
   inline void set_iconColor(::UnityEngine::Color value);
 
-  /// @brief Method set_iconGlow, addr 0x3aa76d4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_iconGlow, addr 0x3b04b78, size 0x1c, virtual false, abstract: false, final false
   inline void set_iconGlow(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_title, addr 0x3aa76f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x3b04b94, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_valueText, addr 0x3aa776c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_valueText, addr 0x3b04c10, size 0x24, virtual false, abstract: false, final false
   inline void set_valueText(::StringW value);
 
 protected:
@@ -136,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResultObjectiveListItem(ResultObjectiveListItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4996 };
+
   /// @brief Field _icon, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;
 
@@ -151,14 +153,9 @@ public:
   /// @brief Field _valueText, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4976 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultObjectiveListItem, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____icon) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____iconGlow) == 0x28, "Offset mismatch!");
@@ -168,6 +165,8 @@ static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____titleText
 static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____conditionText) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____valueText) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultObjectiveListItem, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultObjectiveListItem);

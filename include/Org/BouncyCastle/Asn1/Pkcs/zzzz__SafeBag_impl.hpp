@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::SafeBag* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23df550;
+  constexpr static std::size_t addrs = 0x241283c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Object*)>(&::Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23df7c0;
+  constexpr static std::size_t addrs = 0x2412aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Object*, ::Org::BouncyCastle::Asn1::Asn1Set*)>(&::Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23df7f0;
+  constexpr static std::size_t addrs = 0x2412adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x23df5f4;
+  constexpr static std::size_t addrs = 0x24128e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::get_BagID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23df82c;
+  constexpr static std::size_t addrs = 0x2412b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>::get(), "get_BagID",
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::get_BagValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23df834;
+  constexpr static std::size_t addrs = 0x2412b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>::get(), "get_BagValue",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Set* (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::get_BagAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23df83c;
+  constexpr static std::size_t addrs = 0x2412b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::SafeBag::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::SafeBag::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x23df844;
+  constexpr static std::size_t addrs = 0x2412b30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagID() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagID;
 }
@@ -143,7 +143,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& Org::BouncyCastle::Asn1::Pkcs:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagValue() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagValue;
 }
@@ -155,7 +155,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& Org::BouncyCastle::Asn1::Pkcs::Sa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagAttributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagAttributes() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& Org::BouncyCastle::Asn1::Pkcs::SafeBag::__cordl_internal_get_bagAttributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bagAttributes;
 }
@@ -169,19 +169,12 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(oid, obj));
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid, obj);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj,
-                                                                                                  ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(oid, obj, bagAttributes));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj,
                                                           ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes) {
@@ -191,9 +184,6 @@ inline void Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor(::Org::BouncyCastle::A
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Object*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Set*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid, obj, bagAttributes);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::SafeBag::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -220,6 +210,16 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Saf
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(oid, obj));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Object* obj,
+                                                                                                  ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(oid, obj, bagAttributes));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::SafeBag* Org::BouncyCastle::Asn1::Pkcs::SafeBag::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::SafeBag*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::SafeBag::SafeBag() {}

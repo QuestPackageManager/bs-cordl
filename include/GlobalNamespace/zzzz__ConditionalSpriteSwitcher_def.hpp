@@ -23,11 +23,10 @@ class ConditionalSpriteSwitcher;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ConditionalSpriteSwitcher);
-// Type: ::ConditionalSpriteSwitcher
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ConditionalSpriteSwitcher*
+// CS Name: ConditionalSpriteSwitcher
 class CORDL_TYPE ConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -53,10 +52,10 @@ public:
 
   __declspec(property(get = get_trueSprite, put = set_trueSprite)) ::UnityW<::UnityEngine::Sprite> trueSprite;
 
-  /// @brief Method Apply, addr 0x3acd8d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x3b2cf1c, size 0xa4, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Awake, addr 0x3acd8d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b2cf18, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalSpriteSwitcher* New_ctor();
@@ -97,19 +96,19 @@ public:
 
   constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3acd97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2cfc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_falseSprite, addr 0x3acd8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_falseSprite, addr 0x3b2cef8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_falseSprite();
 
-  /// @brief Method get_trueSprite, addr 0x3acd8c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trueSprite, addr 0x3b2cf08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_trueSprite();
 
-  /// @brief Method set_falseSprite, addr 0x3acd8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_falseSprite, addr 0x3b2cf00, size 0x8, virtual false, abstract: false, final false
   inline void set_falseSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_trueSprite, addr 0x3acd8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trueSprite, addr 0x3b2cf10, size 0x8, virtual false, abstract: false, final false
   inline void set_trueSprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConditionalSpriteSwitcher(ConditionalSpriteSwitcher const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5164 };
 
   /// @brief Field _sprite0, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite0;
@@ -144,14 +146,9 @@ public:
   /// @brief Field _spriteRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5144 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalSpriteSwitcher, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ConditionalSpriteSwitcher, ____sprite0) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ConditionalSpriteSwitcher, ____material0) == 0x28, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::GlobalNamespace::ConditionalSpriteSwitcher, ____materia
 static_assert(offsetof(::GlobalNamespace::ConditionalSpriteSwitcher, ____value) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ConditionalSpriteSwitcher, ____spriteRenderer) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConditionalSpriteSwitcher, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConditionalSpriteSwitcher);

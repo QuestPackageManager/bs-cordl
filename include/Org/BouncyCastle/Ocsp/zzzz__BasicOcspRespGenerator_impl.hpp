@@ -18,18 +18,18 @@
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::System::DateTime, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
-    &::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor)> {
+    &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x24e7e54;
+  constexpr static std::size_t addrs = 0x251b140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTime>::get(),
@@ -37,18 +37,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::System::DateTime, ::System::DateTime, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
-    &::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor)> {
+    &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24e8144;
+  constexpr static std::size_t addrs = 0x251b430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTime>::get(),
@@ -57,18 +57,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*, ::Org::BouncyCastle::Asn1::DerGeneralizedTime*,
-    ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor)> {
+    ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(&::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x24e937c;
+  constexpr static std::size_t addrs = 0x251c668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -77,110 +77,96 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject.ToResponse
+//  Writing Method size for method: ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject.ToResponse
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* (
-    ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::*)()>(&::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::ToResponse)> {
+    ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::*)()>(&::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::ToResponse)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24e8ef0;
+  constexpr static std::size_t addrs = 0x251c1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), "ToResponse",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), "ToResponse",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_certId() {
+constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_certId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::CertificateID*> const& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_certId() const {
+constexpr ::Org::BouncyCastle::Ocsp::CertificateID* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_certId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
-constexpr void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value) {
+constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertStatus*& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_certStatus() {
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertStatus*& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_certStatus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certStatus;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertStatus*> const&
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_certStatus() const {
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_certStatus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certStatus;
 }
-constexpr void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_set_certStatus(::Org::BouncyCastle::Asn1::Ocsp::CertStatus* value) {
+constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_set_certStatus(::Org::BouncyCastle::Asn1::Ocsp::CertStatus* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___certStatus)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_thisUpdate() {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_thisUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thisUpdate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const&
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_thisUpdate() const {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_thisUpdate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thisUpdate;
 }
-constexpr void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value) {
+constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___thisUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_nextUpdate() {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_nextUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextUpdate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const&
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_nextUpdate() const {
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_nextUpdate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextUpdate;
 }
-constexpr void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_set_nextUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value) {
+constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_set_nextUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextUpdate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_extensions() {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_extensions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const&
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_get_extensions() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_get_extensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___extensions;
 }
-constexpr void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value) {
+constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::__cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___extensions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                            ::System::DateTime thisUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>(certId, certStatus, thisUpdate, extensions));
-}
-inline void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                                     ::System::DateTime thisUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+inline void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                                  ::System::DateTime thisUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTime>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Extensions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certId, certStatus, thisUpdate, extensions);
 }
-inline ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                            ::System::DateTime thisUpdate, ::System::DateTime nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>(certId, certStatus, thisUpdate, nextUpdate, extensions));
-}
-inline void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                                     ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
-                                                                                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+inline void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                                  ::System::DateTime thisUpdate, ::System::DateTime nextUpdate,
+                                                                                  ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::DateTime>::get(),
@@ -188,18 +174,11 @@ inline void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Extensions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certId, certStatus, thisUpdate, nextUpdate, extensions);
 }
-inline ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*
-Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                            ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate,
-                                                                            ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>(certId, certStatus, thisUpdate, nextUpdate, extensions));
-}
-inline void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
-                                                                                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate,
-                                                                                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate,
-                                                                                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+inline void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                                  ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate,
+                                                                                  ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateID*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::CertificateStatus*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -207,21 +186,37 @@ inline void Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Extensions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certId, certStatus, thisUpdate, nextUpdate, extensions);
 }
-inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::ToResponse() {
+inline ::Org::BouncyCastle::Asn1::Ocsp::SingleResponse* Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::ToResponse() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject*>::get(), "ToResponse",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>::get(), "ToResponse",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Ocsp::SingleResponse*, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*
+Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                         ::System::DateTime thisUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>(certId, certStatus, thisUpdate, extensions));
+}
+inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*
+Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                         ::System::DateTime thisUpdate, ::System::DateTime nextUpdate, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>(certId, certStatus, thisUpdate, nextUpdate, extensions));
+}
+inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*
+Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId, ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus,
+                                                                         ::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate,
+                                                                         ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject*>(certId, certStatus, thisUpdate, nextUpdate, extensions));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject::__BasicOcspRespGenerator__ResponseObject() {}
+constexpr ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator_ResponseObject::BasicOcspRespGenerator_ResponseObject() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::*)(::Org::BouncyCastle::Ocsp::RespID*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24e7a2c;
+  constexpr static std::size_t addrs = 0x251ad18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -236,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x24e7aa4;
+  constexpr static std::size_t addrs = 0x251ad90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -251,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::*)(
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*)>(&::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::AddResponse)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x24e7d34;
+  constexpr static std::size_t addrs = 0x251b020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,7 +263,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::AddResponse)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x24e7ee4;
+  constexpr static std::size_t addrs = 0x251b1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +281,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::System::DateTime, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::AddResponse)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x24e8010;
+  constexpr static std::size_t addrs = 0x251b2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +300,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Ocsp::CertificateID*, ::Org::BouncyCastle::Ocsp::CertificateStatus*, ::System::DateTime, ::System::DateTime, ::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::AddResponse)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x24e81f8;
+  constexpr static std::size_t addrs = 0x251b4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::SetResponseExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e8304;
+  constexpr static std::size_t addrs = 0x251b5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +336,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                           ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*>, ::System::DateTime)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::GenerateResponse)> {
   constexpr static std::size_t size = 0xbe4;
-  constexpr static std::size_t addrs = 0x24e830c;
+  constexpr static std::size_t addrs = 0x251b5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -361,7 +356,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                           ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*>, ::System::DateTime)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::Generate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24e90ec;
+  constexpr static std::size_t addrs = 0x251c3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +376,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                           ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*>, ::System::DateTime,
                                                           ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::Generate)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24e90f4;
+  constexpr static std::size_t addrs = 0x251c3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,7 +397,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                           ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*>, ::System::DateTime)>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::Generate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x24e91d4;
+  constexpr static std::size_t addrs = 0x251c4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::*)()>(
     &::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::get_SignatureAlgNames)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x24e9228;
+  constexpr static std::size_t addrs = 0x251c514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>::get(),
@@ -432,7 +427,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Ocsp::BasicOcspRespG
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_list() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
@@ -444,8 +439,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& Org::BouncyCastle::O
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responseExtensions;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const&
-Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_responseExtensions() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_responseExtensions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responseExtensions;
 }
@@ -457,7 +451,7 @@ constexpr ::Org::BouncyCastle::Ocsp::RespID*& Org::BouncyCastle::Ocsp::BasicOcsp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responderID;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::RespID*> const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_responderID() const {
+constexpr ::Org::BouncyCastle::Ocsp::RespID* const& Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal_get_responderID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___responderID;
 }
@@ -465,17 +459,11 @@ constexpr void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___responderID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>(responderID));
-}
 inline void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Ocsp::RespID*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, responderID);
-}
-inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>(publicKey));
 }
 inline void Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -580,6 +568,12 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Ocsp::BasicOcspRes
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>::get(),
                                                                              "get_SignatureAlgNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>(responderID));
+}
+inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator*>(publicKey));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator::BasicOcspRespGenerator() {}

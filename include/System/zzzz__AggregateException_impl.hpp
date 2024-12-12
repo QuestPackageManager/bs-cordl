@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)()>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3cf2eac;
+  constexpr static std::size_t addrs = 0x3d53020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor",
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cf2fd0;
+  constexpr static std::size_t addrs = 0x3d53144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cf30e4;
+  constexpr static std::size_t addrs = 0x3d53258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cf3028;
+  constexpr static std::size_t addrs = 0x3d5319c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::StringW, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cf313c;
+  constexpr static std::size_t addrs = 0x3d532b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(::StringW, ::System::Collections::Generic::IList_1<::System::Exception*>*)>(
     &::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x3cf3140;
+  constexpr static std::size_t addrs = 0x3d532b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cf3534;
+  constexpr static std::size_t addrs = 0x3d536a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3cf358c;
+  constexpr static std::size_t addrs = 0x3d53700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::StringW, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3cf3648;
+  constexpr static std::size_t addrs = 0x3d537bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3cf3a94;
+  constexpr static std::size_t addrs = 0x3d53c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AggregateException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::AggregateException::GetObjectData)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3cf3c6c;
+  constexpr static std::size_t addrs = 0x3d53de0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* (::System::AggregateException::*)()>(
     &::System::AggregateException::get_InnerExceptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf3db8;
+  constexpr static std::size_t addrs = 0x3d53f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), "get_InnerExceptions",
@@ -200,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::AggregateException* (::System::AggregateException::*)()>(&::System::AggregateException::Flatten)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x3cf3dc0;
+  constexpr static std::size_t addrs = 0x3d53f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), "Flatten",
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::get_Message)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3cf4174;
+  constexpr static std::size_t addrs = 0x3d542e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::AggregateException::*)()>(&::System::AggregateException::ToString)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3cf4300;
+  constexpr static std::size_t addrs = 0x3d54474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,8 +240,7 @@ constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerExceptions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*> const&
-System::AggregateException::__cordl_internal_get_m_innerExceptions() const {
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* const& System::AggregateException::__cordl_internal_get_m_innerExceptions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_innerExceptions;
 }
@@ -249,16 +248,10 @@ constexpr void System::AggregateException::__cordl_internal_set_m_innerException
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_innerExceptions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>());
-}
 inline void System::AggregateException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::AggregateException* System::AggregateException::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptions));
 }
 inline void System::AggregateException::_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,17 +259,11 @@ inline void System::AggregateException::_ctor(::System::Collections::Generic::IE
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Exception*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, innerExceptions);
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptions));
-}
 inline void System::AggregateException::_ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, innerExceptions);
-}
-inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
 }
 inline void System::AggregateException::_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,18 +272,12 @@ inline void System::AggregateException::_ctor(::StringW message, ::System::Colle
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Exception*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerExceptions);
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
-}
 inline void System::AggregateException::_ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerExceptions);
-}
-inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
 }
 inline void System::AggregateException::_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -305,20 +286,12 @@ inline void System::AggregateException::_ctor(::StringW message, ::System::Colle
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Exception*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerExceptions);
 }
-inline ::System::AggregateException*
-System::AggregateException::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptionInfos));
-}
 inline void System::AggregateException::_ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, innerExceptionInfos);
-}
-inline ::System::AggregateException*
-System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptionInfos));
 }
 inline void System::AggregateException::_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -328,10 +301,6 @@ inline void System::AggregateException::_ctor(::StringW message, ::System::Colle
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerExceptionInfos);
 }
-inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message,
-                                                                          ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptionInfos));
-}
 inline void System::AggregateException::_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -339,9 +308,6 @@ inline void System::AggregateException::_ctor(::StringW message, ::System::Colle
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, innerExceptionInfos);
-}
-inline ::System::AggregateException* System::AggregateException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(info, context));
 }
 inline void System::AggregateException::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -374,6 +340,39 @@ inline ::StringW System::AggregateException::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AggregateException*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>());
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptions));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptions));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Exception*>* innerExceptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> innerExceptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IList_1<::System::Exception*>* innerExceptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptions));
+}
+inline ::System::AggregateException*
+System::AggregateException::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(innerExceptionInfos));
+}
+inline ::System::AggregateException*
+System::AggregateException::New_ctor(::StringW message, ::System::Collections::Generic::IEnumerable_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptionInfos));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::StringW message,
+                                                                          ::System::Collections::Generic::IList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* innerExceptionInfos) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(message, innerExceptionInfos));
+}
+inline ::System::AggregateException* System::AggregateException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AggregateException*>(info, context));
 }
 // Ctor Parameters []
 constexpr ::System::AggregateException::AggregateException() {}

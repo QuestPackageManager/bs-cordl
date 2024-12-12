@@ -63,7 +63,6 @@ template <typename U> inline void UnityEngine::Playables::PlayableOutputExtensio
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, output, value);
 }
-/// @param context: ::System::Object* (default: nullptr)
 template <typename U>
 inline void UnityEngine::Playables::PlayableOutputExtensions::PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification,
                                                                                ::System::Object* context) {

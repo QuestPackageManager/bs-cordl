@@ -5,9 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -38,37 +35,36 @@ namespace UnityEngine::InputSystem {
 class InputControl;
 }
 namespace UnityEngine::InputSystem {
-struct __InputDevice__ControlBitRangeNode;
+struct InputDevice_ControlBitRangeNode;
 }
 namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
+struct InputDevice_DeviceFlags;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-struct __InputDevice__DeviceFlags;
+struct InputDevice_DeviceFlags;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-struct __InputDevice__ControlBitRangeNode;
+struct InputDevice_ControlBitRangeNode;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::InputSystem::__InputDevice__DeviceFlags);
+MARK_VAL_T(::UnityEngine::InputSystem::InputDevice_DeviceFlags);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputDevice);
-MARK_VAL_T(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode);
-// Type: ::DeviceFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode);
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputDevice::DeviceFlags
-struct CORDL_TYPE __InputDevice__DeviceFlags {
+// CS Name: UnityEngine.InputSystem.InputDevice/DeviceFlags
+struct CORDL_TYPE InputDevice_DeviceFlags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputDevice__DeviceFlags_Unwrapped
-  enum struct ____InputDevice__DeviceFlags_Unwrapped : int32_t {
+  /// @brief Nested struct __InputDevice_DeviceFlags_Unwrapped
+  enum struct __InputDevice_DeviceFlags_Unwrapped : int32_t {
     __E_UpdateBeforeRender = static_cast<int32_t>(0x1),
     __E_HasStateCallbacks = static_cast<int32_t>(0x2),
     __E_HasControlsWithDefaultState = static_cast<int32_t>(0x4),
@@ -86,8 +82,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputDevice__DeviceFlags_Unwrapped() const noexcept {
-    return static_cast<____InputDevice__DeviceFlags_Unwrapped>(this->value__);
+  constexpr operator __InputDevice_DeviceFlags_Unwrapped() const noexcept {
+    return static_cast<__InputDevice_DeviceFlags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -97,89 +93,94 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputDevice__DeviceFlags();
+  constexpr InputDevice_DeviceFlags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputDevice__DeviceFlags(int32_t value__) noexcept;
+  constexpr InputDevice_DeviceFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CanRunInBackground value: I32(2048)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const CanRunInBackground;
 
-  /// @brief Field CanRunInBackground value: static_cast<int32_t>(0x800)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const CanRunInBackground;
+  /// @brief Field CanRunInBackgroundHasBeenQueried value: I32(4096)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const CanRunInBackgroundHasBeenQueried;
 
-  /// @brief Field CanRunInBackgroundHasBeenQueried value: static_cast<int32_t>(0x1000)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const CanRunInBackgroundHasBeenQueried;
+  /// @brief Field DisabledInFrontend value: I32(32)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const DisabledInFrontend;
 
-  /// @brief Field DisabledInFrontend value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const DisabledInFrontend;
+  /// @brief Field DisabledInRuntime value: I32(128)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const DisabledInRuntime;
 
-  /// @brief Field DisabledInRuntime value: static_cast<int32_t>(0x80)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const DisabledInRuntime;
+  /// @brief Field DisabledStateHasBeenQueriedFromRuntime value: I32(64)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const DisabledStateHasBeenQueriedFromRuntime;
 
-  /// @brief Field DisabledStateHasBeenQueriedFromRuntime value: static_cast<int32_t>(0x40)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const DisabledStateHasBeenQueriedFromRuntime;
+  /// @brief Field DisabledWhileInBackground value: I32(256)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const DisabledWhileInBackground;
 
-  /// @brief Field DisabledWhileInBackground value: static_cast<int32_t>(0x100)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const DisabledWhileInBackground;
+  /// @brief Field HasControlsWithDefaultState value: I32(4)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const HasControlsWithDefaultState;
 
-  /// @brief Field HasControlsWithDefaultState value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const HasControlsWithDefaultState;
+  /// @brief Field HasDontResetControls value: I32(1024)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const HasDontResetControls;
 
-  /// @brief Field HasDontResetControls value: static_cast<int32_t>(0x400)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const HasDontResetControls;
+  /// @brief Field HasEventMerger value: I32(8192)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const HasEventMerger;
 
-  /// @brief Field HasEventMerger value: static_cast<int32_t>(0x2000)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const HasEventMerger;
+  /// @brief Field HasEventPreProcessor value: I32(16384)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const HasEventPreProcessor;
 
-  /// @brief Field HasEventPreProcessor value: static_cast<int32_t>(0x4000)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const HasEventPreProcessor;
+  /// @brief Field HasStateCallbacks value: I32(2)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const HasStateCallbacks;
 
-  /// @brief Field HasStateCallbacks value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const HasStateCallbacks;
+  /// @brief Field Native value: I32(16)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const Native;
 
-  /// @brief Field Native value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const Native;
+  /// @brief Field Remote value: I32(8)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const Remote;
 
-  /// @brief Field Remote value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const Remote;
-
-  /// @brief Field UpdateBeforeRender value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const UpdateBeforeRender;
+  /// @brief Field UpdateBeforeRender value: I32(1)
+  static ::UnityEngine::InputSystem::InputDevice_DeviceFlags const UpdateBeforeRender;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputDevice__DeviceFlags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice_DeviceFlags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__DeviceFlags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDevice_DeviceFlags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: ::ControlBitRangeNode
-// SizeInfo { instance_size: 7, native_size: 7, calculated_instance_size: 7, calculated_native_size: 23, minimum_alignment: 1, packing: Some(1), specified_packing: Some(1) }
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::InputDevice::ControlBitRangeNode
+// CS Name: UnityEngine.InputSystem.InputDevice/ControlBitRangeNode
 #pragma pack(push, 1)
-struct CORDL_TYPE __InputDevice__ControlBitRangeNode {
+struct CORDL_TYPE InputDevice_ControlBitRangeNode {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4522954, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4583c68, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint16_t endOffset);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputDevice__ControlBitRangeNode();
+  constexpr InputDevice_ControlBitRangeNode();
 
   // Ctor Parameters [CppParam { name: "endBitOffset", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "leftChildIndex", ty: "int16_t", modifiers: "", def_value: None }, CppParam {
   // name: "controlStartIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "controlCount", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr __InputDevice__ControlBitRangeNode(uint16_t endBitOffset, int16_t leftChildIndex, uint16_t controlStartIndex, uint8_t controlCount) noexcept;
+  constexpr InputDevice_ControlBitRangeNode(uint16_t endBitOffset, int16_t leftChildIndex, uint16_t controlStartIndex, uint8_t controlCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x7 };
 
   /// @brief Field endBitOffset, offset: 0x0, size: 0x2, def value: None
   uint16_t endBitOffset;
@@ -193,38 +194,31 @@ public:
   /// @brief Field controlCount, offset: 0x6, size: 0x1, def value: None
   uint8_t controlCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6616 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x7 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, 0x7>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, endBitOffset) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, endBitOffset) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, leftChildIndex) == 0x2, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, leftChildIndex) == 0x2, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, controlStartIndex) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, controlStartIndex) == 0x4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, controlCount) == 0x6, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, controlCount) == 0x6, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, 0x7>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Type: UnityEngine.InputSystem::InputDevice
-// SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputControl, UnityEngine.InputSystem.InputDevice::DeviceFlags, UnityEngine.InputSystem.Layouts.InputDeviceDescription
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputDevice*
+// CS Name: UnityEngine.InputSystem.InputDevice
 class CORDL_TYPE InputDevice : public ::UnityEngine::InputSystem::InputControl {
 public:
   // Declarations
-  using ControlBitRangeNode = ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode;
+  using ControlBitRangeNode = ::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode;
 
-  using DeviceFlags = ::UnityEngine::InputSystem::__InputDevice__DeviceFlags;
+  using DeviceFlags = ::UnityEngine::InputSystem::InputDevice_DeviceFlags;
 
   __declspec(property(get = get_added)) bool added;
 
@@ -273,7 +267,7 @@ public:
   /// @brief Field m_ControlTreeNodes, offset 0x160, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_ControlTreeNodes,
-      put = __cordl_internal_set_m_ControlTreeNodes)) ::ArrayW<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>*>
+      put = __cordl_internal_set_m_ControlTreeNodes)) ::ArrayW<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>*>
       m_ControlTreeNodes;
 
   /// @brief Field m_CurrentUpdateStepCount, offset 0x130, size 0x4
@@ -283,7 +277,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_Description, put = __cordl_internal_set_m_Description)) ::UnityEngine::InputSystem::Layouts::InputDeviceDescription m_Description;
 
   /// @brief Field m_DeviceFlags, offset 0xdc, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DeviceFlags, put = __cordl_internal_set_m_DeviceFlags)) ::UnityEngine::InputSystem::__InputDevice__DeviceFlags m_DeviceFlags;
+  __declspec(property(get = __cordl_internal_get_m_DeviceFlags, put = __cordl_internal_set_m_DeviceFlags)) ::UnityEngine::InputSystem::InputDevice_DeviceFlags m_DeviceFlags;
 
   /// @brief Field m_DeviceId, offset 0xe0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DeviceId, put = __cordl_internal_set_m_DeviceId)) int32_t m_DeviceId;
@@ -323,104 +317,104 @@ public:
 
   __declspec(property(get = get_wasUpdatedThisFrame)) bool wasUpdatedThisFrame;
 
-  /// @brief Method AddDeviceUsage, addr 0x45219a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddDeviceUsage, addr 0x4582cb4, size 0xb4, virtual false, abstract: false, final false
   inline void AddDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage);
 
   /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice>
   static inline TDevice Build(::StringW layoutName, ::StringW layoutVariants, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription, bool noPrecompiledLayouts);
 
-  /// @brief Method ClearDeviceUsages, addr 0x4521b30, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ClearDeviceUsages, addr 0x4582e44, size 0x60, virtual false, abstract: false, final false
   inline void ClearDeviceUsages();
 
-  /// @brief Method CompareValue, addr 0x4521620, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method CompareValue, addr 0x4582934, size 0x100, virtual true, abstract: false, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method DecodeStateOffsetToControlMapEntry, addr 0x451c7e8, size 0x1c, virtual false, abstract: false, final false
-  static inline void DecodeStateOffsetToControlMapEntry(uint32_t entry, ByRef<uint32_t> controlIndex, ByRef<uint32_t> stateOffset, ByRef<uint32_t> stateSize);
+  /// @brief Method DecodeStateOffsetToControlMapEntry, addr 0x457dafc, size 0x1c, virtual false, abstract: false, final false
+  static inline void DecodeStateOffsetToControlMapEntry(uint32_t entry, ::ByRef<uint32_t> controlIndex, ::ByRef<uint32_t> stateOffset, ::ByRef<uint32_t> stateSize);
 
-  /// @brief Method DumpControlBitRangeNode, addr 0x45222e4, size 0x418, virtual false, abstract: false, final false
-  inline void DumpControlBitRangeNode(int32_t nodeIndex, ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode node, uint32_t startOffset, uint32_t sizeInBits,
+  /// @brief Method DumpControlBitRangeNode, addr 0x45835f8, size 0x418, virtual false, abstract: false, final false
+  inline void DumpControlBitRangeNode(int32_t nodeIndex, ::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode node, uint32_t startOffset, uint32_t sizeInBits,
                                       ::System::Collections::Generic::List_1<::StringW>* output);
 
-  /// @brief Method DumpControlTree, addr 0x4522820, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method DumpControlTree, addr 0x4583b34, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW DumpControlTree();
 
-  /// @brief Method DumpControlTree, addr 0x45226fc, size 0x124, virtual false, abstract: false, final false
-  inline void DumpControlTree(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode parentNode, uint32_t startOffset, ::System::Collections::Generic::List_1<::StringW>* output);
+  /// @brief Method DumpControlTree, addr 0x4583a10, size 0x124, virtual false, abstract: false, final false
+  inline void DumpControlTree(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode parentNode, uint32_t startOffset, ::System::Collections::Generic::List_1<::StringW>* output);
 
-  /// @brief Method EncodeStateOffsetToControlMapEntry, addr 0x4521904, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method EncodeStateOffsetToControlMapEntry, addr 0x4582c18, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t EncodeStateOffsetToControlMapEntry(uint32_t controlIndex, uint32_t stateOffsetInBits, uint32_t stateSizeInBits);
 
   /// @brief Method ExecuteCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TCommand> inline int64_t ExecuteCommand(ByRef<TCommand> command);
+  template <typename TCommand> inline int64_t ExecuteCommand(::ByRef<TCommand> command);
 
-  /// @brief Method ExecuteCommand, addr 0x45217a8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ExecuteCommand, addr 0x4582abc, size 0xd8, virtual true, abstract: false, final false
   inline int64_t ExecuteCommand(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandPtr);
 
-  /// @brief Method ExecuteDisableCommand, addr 0x4521c08, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDisableCommand, addr 0x4582f1c, size 0x6c, virtual false, abstract: false, final false
   inline bool ExecuteDisableCommand();
 
-  /// @brief Method ExecuteEnableCommand, addr 0x4521b90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ExecuteEnableCommand, addr 0x4582ea4, size 0x78, virtual false, abstract: false, final false
   inline bool ExecuteEnableCommand();
 
-  /// @brief Method HasDataChangedInRange, addr 0x45228ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HasDataChangedInRange, addr 0x4583c00, size 0x68, virtual false, abstract: false, final false
   static inline bool HasDataChangedInRange(::cordl_internals::Ptr<uint8_t> deviceStatePtr, ::cordl_internals::Ptr<void> statePtr, uint32_t startOffset, uint32_t sizeInBits);
 
-  /// @brief Method MakeCurrent, addr 0x4520d48, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x458205c, size 0x4, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::InputDevice* New_ctor();
 
-  /// @brief Method NotifyAdded, addr 0x4521c74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotifyAdded, addr 0x4582f88, size 0x10, virtual false, abstract: false, final false
   inline void NotifyAdded();
 
-  /// @brief Method NotifyConfigurationChanged, addr 0x4521720, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method NotifyConfigurationChanged, addr 0x4582a34, size 0x7c, virtual false, abstract: false, final false
   inline void NotifyConfigurationChanged();
 
-  /// @brief Method NotifyRemoved, addr 0x4521c84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method NotifyRemoved, addr 0x4582f98, size 0x10, virtual false, abstract: false, final false
   inline void NotifyRemoved();
 
-  /// @brief Method OnAdded, addr 0x452179c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAdded, addr 0x4582ab0, size 0x4, virtual true, abstract: false, final false
   inline void OnAdded();
 
-  /// @brief Method OnConfigurationChanged, addr 0x45217a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnConfigurationChanged, addr 0x4582ab8, size 0x4, virtual true, abstract: false, final false
   inline void OnConfigurationChanged();
 
-  /// @brief Method OnRemoved, addr 0x45217a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x4582ab4, size 0x4, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method QueryEnabledStateFromRuntime, addr 0x4520f94, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method QueryEnabledStateFromRuntime, addr 0x45822a8, size 0xa0, virtual false, abstract: false, final false
   inline bool QueryEnabledStateFromRuntime();
 
-  /// @brief Method ReadValueFromBufferAsObject, addr 0x452132c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromBufferAsObject, addr 0x4582640, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueFromStateAsObject, addr 0x4521364, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromStateAsObject, addr 0x4582678, size 0x104, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueFromStateAsObject(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadValueFromStateIntoBuffer, addr 0x4521468, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ReadValueFromStateIntoBuffer, addr 0x458277c, size 0x1b8, virtual true, abstract: false, final false
   inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
 
-  /// @brief Method RemoveDeviceUsage, addr 0x4521a54, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method RemoveDeviceUsage, addr 0x4582d68, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveDeviceUsage(::UnityEngine::InputSystem::Utilities::InternedString usage);
 
-  /// @brief Method RequestReset, addr 0x4515630, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RequestReset, addr 0x4576944, size 0x78, virtual false, abstract: false, final false
   inline bool RequestReset();
 
-  /// @brief Method RequestSync, addr 0x45154e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RequestSync, addr 0x45767f8, size 0x78, virtual false, abstract: false, final false
   inline bool RequestSync();
 
-  /// @brief Method WriteChangedControlStates, addr 0x4521c94, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method WriteChangedControlStates, addr 0x4582fa8, size 0x154, virtual false, abstract: false, final false
   inline void WriteChangedControlStates(::cordl_internals::Ptr<uint8_t> deviceStateBuffer, ::cordl_internals::Ptr<void> statePtr, uint32_t stateSizeInBytes, uint32_t stateOffsetInDevice);
 
-  /// @brief Method WriteChangedControlStatesInternal, addr 0x4522060, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method WriteChangedControlStatesInternal, addr 0x4583374, size 0x284, virtual false, abstract: false, final false
   inline void WriteChangedControlStatesInternal(::cordl_internals::Ptr<void> statePtr, uint32_t stateSizeInBits, ::cordl_internals::Ptr<uint8_t> deviceStatePtr,
-                                                ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode parentNode, uint32_t startOffset);
+                                                ::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode parentNode, uint32_t startOffset);
 
-  /// @brief Method WritePartialChangedControlStatesInternal, addr 0x4521de8, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method WritePartialChangedControlStatesInternal, addr 0x45830fc, size 0x278, virtual false, abstract: false, final false
   inline void WritePartialChangedControlStatesInternal(::cordl_internals::Ptr<void> statePtr, uint32_t stateSizeInBits, uint32_t stateOffsetInDeviceInBits,
-                                                       ::cordl_internals::Ptr<uint8_t> deviceStatePtr, ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode parentNode, uint32_t startOffset);
+                                                       ::cordl_internals::Ptr<uint8_t> deviceStatePtr, ::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode parentNode, uint32_t startOffset);
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> const&
   __cordl_internal_get_m_AliasesForEachControl() const;
@@ -435,11 +429,10 @@ public:
 
   constexpr ::ArrayW<uint16_t, ::Array<uint16_t>*>& __cordl_internal_get_m_ControlTreeIndices();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>*> const&
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>*> const&
   __cordl_internal_get_m_ControlTreeNodes() const;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>*>&
-  __cordl_internal_get_m_ControlTreeNodes();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>*>& __cordl_internal_get_m_ControlTreeNodes();
 
   constexpr uint32_t const& __cordl_internal_get_m_CurrentUpdateStepCount() const;
 
@@ -449,9 +442,9 @@ public:
 
   constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceDescription& __cordl_internal_get_m_Description();
 
-  constexpr ::UnityEngine::InputSystem::__InputDevice__DeviceFlags const& __cordl_internal_get_m_DeviceFlags() const;
+  constexpr ::UnityEngine::InputSystem::InputDevice_DeviceFlags const& __cordl_internal_get_m_DeviceFlags() const;
 
-  constexpr ::UnityEngine::InputSystem::__InputDevice__DeviceFlags& __cordl_internal_get_m_DeviceFlags();
+  constexpr ::UnityEngine::InputSystem::InputDevice_DeviceFlags& __cordl_internal_get_m_DeviceFlags();
 
   constexpr int32_t const& __cordl_internal_get_m_DeviceId() const;
 
@@ -488,13 +481,13 @@ public:
   constexpr void __cordl_internal_set_m_ControlTreeIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
 
   constexpr void
-  __cordl_internal_set_m_ControlTreeNodes(::ArrayW<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>*> value);
+  __cordl_internal_set_m_ControlTreeNodes(::ArrayW<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>*> value);
 
   constexpr void __cordl_internal_set_m_CurrentUpdateStepCount(uint32_t value);
 
   constexpr void __cordl_internal_set_m_Description(::UnityEngine::InputSystem::Layouts::InputDeviceDescription value);
 
-  constexpr void __cordl_internal_set_m_DeviceFlags(::UnityEngine::InputSystem::__InputDevice__DeviceFlags value);
+  constexpr void __cordl_internal_set_m_DeviceFlags(::UnityEngine::InputSystem::InputDevice_DeviceFlags value);
 
   constexpr void __cordl_internal_set_m_DeviceId(int32_t value);
 
@@ -510,97 +503,97 @@ public:
 
   constexpr void __cordl_internal_set_m_UsagesForEachControl(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> value);
 
-  /// @brief Method .ctor, addr 0x4520f3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4582250, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_added, addr 0x45154d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_added, addr 0x45767e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_added();
 
-  /// @brief Method get_all, addr 0x45212e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_all, addr 0x45825f4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> get_all();
 
-  /// @brief Method get_allControls, addr 0x45211bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_allControls, addr 0x45824d0, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_allControls();
 
-  /// @brief Method get_canRunInBackground, addr 0x4521034, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_canRunInBackground, addr 0x4582348, size 0xb0, virtual false, abstract: false, final false
   inline bool get_canRunInBackground();
 
-  /// @brief Method get_description, addr 0x4520f5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_description, addr 0x4582270, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceDescription get_description();
 
-  /// @brief Method get_deviceId, addr 0x4521108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x458241c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_deviceId();
 
-  /// @brief Method get_disabledInFrontend, addr 0x4521880, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledInFrontend, addr 0x4582b94, size 0xc, virtual false, abstract: false, final false
   inline bool get_disabledInFrontend();
 
-  /// @brief Method get_disabledInRuntime, addr 0x45218ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledInRuntime, addr 0x4582bc0, size 0xc, virtual false, abstract: false, final false
   inline bool get_disabledInRuntime();
 
-  /// @brief Method get_disabledWhileInBackground, addr 0x45218d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledWhileInBackground, addr 0x4582bec, size 0xc, virtual false, abstract: false, final false
   inline bool get_disabledWhileInBackground();
 
-  /// @brief Method get_enabled, addr 0x4520f78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x458228c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_hasControlsWithDefaultState, addr 0x4521910, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasControlsWithDefaultState, addr 0x4582c24, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasControlsWithDefaultState();
 
-  /// @brief Method get_hasDontResetControls, addr 0x452191c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasDontResetControls, addr 0x4582c30, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasDontResetControls();
 
-  /// @brief Method get_hasEventMerger, addr 0x4521948, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasEventMerger, addr 0x4582c5c, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasEventMerger();
 
-  /// @brief Method get_hasEventPreProcessor, addr 0x4521974, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasEventPreProcessor, addr 0x4582c88, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasEventPreProcessor();
 
-  /// @brief Method get_hasStateCallbacks, addr 0x451b04c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasStateCallbacks, addr 0x457c360, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasStateCallbacks();
 
-  /// @brief Method get_lastUpdateTime, addr 0x4521110, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_lastUpdateTime, addr 0x4582424, size 0x54, virtual false, abstract: false, final false
   inline double_t get_lastUpdateTime();
 
-  /// @brief Method get_native, addr 0x45210f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_native, addr 0x4582404, size 0xc, virtual false, abstract: false, final false
   inline bool get_native();
 
-  /// @brief Method get_remote, addr 0x45210e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_remote, addr 0x45823f8, size 0xc, virtual false, abstract: false, final false
   inline bool get_remote();
 
-  /// @brief Method get_updateBeforeRender, addr 0x45210fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x4582410, size 0xc, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x4521288, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x458259c, size 0x58, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0x452121c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x4582530, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_wasUpdatedThisFrame, addr 0x4521164, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_wasUpdatedThisFrame, addr 0x4582478, size 0x58, virtual false, abstract: false, final false
   inline bool get_wasUpdatedThisFrame();
 
-  /// @brief Method set_disabledInFrontend, addr 0x452188c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_disabledInFrontend, addr 0x4582ba0, size 0x20, virtual false, abstract: false, final false
   inline void set_disabledInFrontend(bool value);
 
-  /// @brief Method set_disabledInRuntime, addr 0x45218b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_disabledInRuntime, addr 0x4582bcc, size 0x20, virtual false, abstract: false, final false
   inline void set_disabledInRuntime(bool value);
 
-  /// @brief Method set_disabledWhileInBackground, addr 0x45218e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_disabledWhileInBackground, addr 0x4582bf8, size 0x20, virtual false, abstract: false, final false
   inline void set_disabledWhileInBackground(bool value);
 
-  /// @brief Method set_hasControlsWithDefaultState, addr 0x451ca98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hasControlsWithDefaultState, addr 0x457ddac, size 0x20, virtual false, abstract: false, final false
   inline void set_hasControlsWithDefaultState(bool value);
 
-  /// @brief Method set_hasDontResetControls, addr 0x451cb94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hasDontResetControls, addr 0x457dea8, size 0x20, virtual false, abstract: false, final false
   inline void set_hasDontResetControls(bool value);
 
-  /// @brief Method set_hasEventMerger, addr 0x4521954, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hasEventMerger, addr 0x4582c68, size 0x20, virtual false, abstract: false, final false
   inline void set_hasEventMerger(bool value);
 
-  /// @brief Method set_hasEventPreProcessor, addr 0x4521980, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hasEventPreProcessor, addr 0x4582c94, size 0x20, virtual false, abstract: false, final false
   inline void set_hasEventPreProcessor(bool value);
 
-  /// @brief Method set_hasStateCallbacks, addr 0x4521928, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hasStateCallbacks, addr 0x4582c3c, size 0x20, virtual false, abstract: false, final false
   inline void set_hasStateCallbacks(bool value);
 
 protected:
@@ -617,8 +610,29 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputDevice(InputDevice const&) = delete;
 
+  /// @brief Field InvalidDeviceId offset 0xffffffff size 0x4
+  static constexpr int32_t InvalidDeviceId{ static_cast<int32_t>(0x0) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6642 };
+
+  /// @brief Field kControlIndexBits offset 0xffffffff size 0x4
+  static constexpr int32_t kControlIndexBits{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field kInvalidDeviceIndex offset 0xffffffff size 0x4
+  static constexpr int32_t kInvalidDeviceIndex{ static_cast<int32_t>(0xffffffff) };
+
+  /// @brief Field kLocalParticipantId offset 0xffffffff size 0x4
+  static constexpr int32_t kLocalParticipantId{ static_cast<int32_t>(0x0) };
+
+  /// @brief Field kStateOffsetBits offset 0xffffffff size 0x4
+  static constexpr int32_t kStateOffsetBits{ static_cast<int32_t>(0xd) };
+
+  /// @brief Field kStateSizeBits offset 0xffffffff size 0x4
+  static constexpr int32_t kStateSizeBits{ static_cast<int32_t>(0x9) };
+
   /// @brief Field m_DeviceFlags, offset: 0xdc, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::__InputDevice__DeviceFlags ___m_DeviceFlags;
+  ::UnityEngine::InputSystem::InputDevice_DeviceFlags ___m_DeviceFlags;
 
   /// @brief Field m_DeviceId, offset: 0xe0, size: 0x4, def value: None
   int32_t ___m_DeviceId;
@@ -654,37 +668,14 @@ public:
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ___m_StateOffsetToControlMap;
 
   /// @brief Field m_ControlTreeNodes, offset: 0x160, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>*> ___m_ControlTreeNodes;
+  ::ArrayW<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, ::Array<::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode>*> ___m_ControlTreeNodes;
 
   /// @brief Field m_ControlTreeIndices, offset: 0x168, size: 0x8, def value: None
   ::ArrayW<uint16_t, ::Array<uint16_t>*> ___m_ControlTreeIndices;
 
-  /// @brief Field InvalidDeviceId offset 0xffffffff size 0x4
-  static constexpr int32_t InvalidDeviceId{ static_cast<int32_t>(0x0) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
-
-  /// @brief Field kControlIndexBits offset 0xffffffff size 0x4
-  static constexpr int32_t kControlIndexBits{ static_cast<int32_t>(0xa) };
-
-  /// @brief Field kInvalidDeviceIndex offset 0xffffffff size 0x4
-  static constexpr int32_t kInvalidDeviceIndex{ static_cast<int32_t>(0xffffffff) };
-
-  /// @brief Field kLocalParticipantId offset 0xffffffff size 0x4
-  static constexpr int32_t kLocalParticipantId{ static_cast<int32_t>(0x0) };
-
-  /// @brief Field kStateOffsetBits offset 0xffffffff size 0x4
-  static constexpr int32_t kStateOffsetBits{ static_cast<int32_t>(0xd) };
-
-  /// @brief Field kStateSizeBits offset 0xffffffff size 0x4
-  static constexpr int32_t kStateSizeBits{ static_cast<int32_t>(0x9) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDevice, 0x170>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_DeviceFlags) == 0xdc, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_DeviceId) == 0xe0, "Offset mismatch!");
@@ -713,8 +704,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_ControlTree
 
 static_assert(offsetof(::UnityEngine::InputSystem::InputDevice, ___m_ControlTreeIndices) == 0x168, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDevice, 0x170>, "Size mismatch!");
+
 } // namespace UnityEngine::InputSystem
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputDevice__DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDevice_DeviceFlags, "UnityEngine.InputSystem", "InputDevice/DeviceFlags");
 NEED_NO_BOX(::UnityEngine::InputSystem::InputDevice);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDevice*, "UnityEngine.InputSystem", "InputDevice");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode, "UnityEngine.InputSystem", "InputDevice/ControlBitRangeNode");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDevice_ControlBitRangeNode, "UnityEngine.InputSystem", "InputDevice/ControlBitRangeNode");

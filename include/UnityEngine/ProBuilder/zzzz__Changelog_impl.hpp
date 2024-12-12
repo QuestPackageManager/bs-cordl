@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* (
     ::UnityEngine::ProBuilder::Changelog::*)()>(&::UnityEngine::ProBuilder::Changelog::get_entries)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x46a1cb4;
+  constexpr static std::size_t addrs = 0x4702fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Changelog*>::get(), "get_entries",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Changelog::*)(::StringW)>(&::UnityEngine::ProBuilder::Changelog::_ctor)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x46a1d30;
+  constexpr static std::size_t addrs = 0x4703044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ChangelogEntry* (::UnityEngine::ProBuilder::Changelog::*)(::StringW, ::StringW)>(
     &::UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x46a202c;
+  constexpr static std::size_t addrs = 0x4703340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,8 +52,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Chan
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>*> const&
-UnityEngine::ProBuilder::Changelog::__cordl_internal_get_m_Entries() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* const& UnityEngine::ProBuilder::Changelog::__cordl_internal_get_m_Entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
@@ -66,9 +65,6 @@ inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::P
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ProBuilder::Changelog* UnityEngine::ProBuilder::Changelog::New_ctor(::StringW log) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Changelog*>(log));
-}
 inline void UnityEngine::ProBuilder::Changelog::_ctor(::StringW log) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Changelog*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -80,6 +76,9 @@ inline ::UnityEngine::ProBuilder::ChangelogEntry* UnityEngine::ProBuilder::Chang
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Changelog*>::get(), "CreateEntry", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::ChangelogEntry*, false>(this, ___internal_method, version, contents);
+}
+inline ::UnityEngine::ProBuilder::Changelog* UnityEngine::ProBuilder::Changelog::New_ctor(::StringW log) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Changelog*>(log));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Changelog::Changelog() {}

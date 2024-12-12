@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::NewArrayExpression::*)(
     ::System::Type*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::NewArrayExpression::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4059960;
+  constexpr static std::size_t addrs = 0x40bac74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                      ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::NewArrayExpression::Make)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x40599d0;
+  constexpr static std::size_t addrs = 0x40bace4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::NewArrayExpression::*)()>(
     &::System::Linq::Expressions::NewArrayExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4059a68;
+  constexpr static std::size_t addrs = 0x40bad7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::NewArrayExpression*>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::NewArrayExpression::*)()>(&::System::Linq::Expressions::NewArrayExpression::get_Expressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4059a70;
+  constexpr static std::size_t addrs = 0x40bad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::NewArrayExpression*>::get(),
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::NewArrayExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::NewArrayExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4059a78;
+  constexpr static std::size_t addrs = 0x40bad8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::NewArrayExpression::*)(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::NewArrayExpression::Update)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4055ed8;
+  constexpr static std::size_t addrs = 0x40b71ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +108,7 @@ constexpr ::System::Type*& System::Linq::Expressions::NewArrayExpression::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::NewArrayExpression::__cordl_internal_get__Type_k__BackingField() const {
+constexpr ::System::Type* const& System::Linq::Expressions::NewArrayExpression::__cordl_internal_get__Type_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
@@ -121,7 +121,7 @@ System::Linq::Expressions::NewArrayExpression::__cordl_internal_get__Expressions
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expressions_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*> const&
+constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* const&
 System::Linq::Expressions::NewArrayExpression::__cordl_internal_get__Expressions_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Expressions_k__BackingField;
@@ -130,10 +130,6 @@ constexpr void System::Linq::Expressions::NewArrayExpression::__cordl_internal_s
     ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Expressions_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::NewArrayExpression*
-System::Linq::Expressions::NewArrayExpression::New_ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::NewArrayExpression*>(type, expressions));
 }
 inline void System::Linq::Expressions::NewArrayExpression::_ctor(::System::Type* type,
                                                                  ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions) {
@@ -175,6 +171,10 @@ System::Linq::Expressions::NewArrayExpression::Update(::System::Collections::Gen
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::NewArrayExpression*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::NewArrayExpression*, false>(this, ___internal_method, expressions);
+}
+inline ::System::Linq::Expressions::NewArrayExpression*
+System::Linq::Expressions::NewArrayExpression::New_ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::NewArrayExpression*>(type, expressions));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::NewArrayExpression::NewArrayExpression() {}

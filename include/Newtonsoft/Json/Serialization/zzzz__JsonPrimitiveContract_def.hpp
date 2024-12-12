@@ -24,16 +24,15 @@ class JsonPrimitiveContract;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPrimitiveContract);
-// Type: Newtonsoft.Json.Serialization::JsonPrimitiveContract
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Serialization.JsonContract, Newtonsoft.Json.Utilities.PrimitiveTypeCode
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::JsonPrimitiveContract*
+// CS Name: Newtonsoft.Json.Serialization.JsonPrimitiveContract
 class CORDL_TYPE JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
   // Declarations
   /// @brief Field ReadTypeMap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ReadTypeMap, put = setStaticF_ReadTypeMap)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* ReadTypeMap;
+  __declspec(property(get = getStaticF_ReadTypeMap, put = setStaticF_ReadTypeMap)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* ReadTypeMap;
 
   __declspec(property(get = get_TypeCode, put = set_TypeCode)) ::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
 
@@ -49,17 +48,17 @@ public:
 
   constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
-  /// @brief Method .ctor, addr 0x3e7f6bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edf768, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* getStaticF_ReadTypeMap();
 
-  /// @brief Method get_TypeCode, addr 0x3e869d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x3ee6a84, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
   static inline void setStaticF_ReadTypeMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* value);
 
-  /// @brief Method set_TypeCode, addr 0x3e869e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TypeCode, addr 0x3ee6a8c, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
 protected:
@@ -76,18 +75,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonPrimitiveContract(JsonPrimitiveContract const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
+
   /// @brief Field <TypeCode>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   ::Newtonsoft::Json::Utilities::PrimitiveTypeCode ____TypeCode_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10297 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonPrimitiveContract, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonPrimitiveContract, ____TypeCode_k__BackingField) == 0x8c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonPrimitiveContract, 0x90>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonPrimitiveContract);

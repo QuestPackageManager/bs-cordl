@@ -18,11 +18,10 @@ class BloomPrePassBackgroundColorsGradientTintColorWithLightId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId);
-// Type: ::BloomPrePassBackgroundColorsGradientTintColorWithLightId
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies RuntimeLightWithIds
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassBackgroundColorsGradientTintColorWithLightId*
+// CS Name: BloomPrePassBackgroundColorsGradientTintColorWithLightId
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientTintColorWithLightId : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
   /// @brief Field grayscaleFactor, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_grayscaleFactor, put = __cordl_internal_set_grayscaleFactor)) float_t grayscaleFactor;
 
-  /// @brief Method ColorWasSet, addr 0x398adbc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e178c, size 0x70, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor();
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x398ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e17fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundColorsGradientTintColorWithLightId(BloomPrePassBackgroundColorsGradientTintColorWithLightId const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16295 };
+
   /// @brief Field _bloomPrePassBackgroundColorsGradient, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> ____bloomPrePassBackgroundColorsGradient;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field grayscaleFactor, offset: 0x5c, size: 0x4, def value: None
   float_t ___grayscaleFactor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16260 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId, ____bloomPrePassBackgroundColorsGradient) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId, ____useGrayscale) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId, ___grayscaleFactor) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId);

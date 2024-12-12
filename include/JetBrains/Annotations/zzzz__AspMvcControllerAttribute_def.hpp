@@ -12,11 +12,10 @@ class AspMvcControllerAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcControllerAttribute);
-// Type: JetBrains.Annotations::AspMvcControllerAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::AspMvcControllerAttribute*
+// CS Name: JetBrains.Annotations.AspMvcControllerAttribute
 class CORDL_TYPE AspMvcControllerAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -35,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a8c548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0e58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a8c550, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0e60, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x4a8c578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x4af0e88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x4a8c580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x4af0e90, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:
@@ -61,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AspMvcControllerAttribute(AspMvcControllerAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18473 };
+
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18392 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcControllerAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::JetBrains::Annotations::AspMvcControllerAttribute, ____AnonymousProperty_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcControllerAttribute, 0x18>, "Size mismatch!");
 
 } // namespace JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcControllerAttribute);

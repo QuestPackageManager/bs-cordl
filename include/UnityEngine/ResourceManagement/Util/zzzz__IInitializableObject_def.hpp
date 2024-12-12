@@ -17,30 +17,25 @@ class IInitializableObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IInitializableObject);
-// Type: UnityEngine.ResourceManagement.Util::IInitializableObject
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::IInitializableObject*
+// CS Name: UnityEngine.ResourceManagement.Util.IInitializableObject
 class CORDL_TYPE IInitializableObject {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Initialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Initialize(::StringW id, ::StringW data);
 
-  /// @brief Method InitializeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InitializeAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager* rm, ::StringW id, ::StringW data);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IInitializableObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IInitializableObject(IInitializableObject&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IInitializableObject", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IInitializableObject(IInitializableObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15630 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

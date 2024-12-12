@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MessageEventArgs)
 // Forward declare root types
@@ -13,11 +12,10 @@ class MessageEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
-// Type: UnityEngine.Networking.PlayerConnection::MessageEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// CS Name: ::UnityEngine.Networking.PlayerConnection::MessageEventArgs*
+// CS Name: UnityEngine.Networking.PlayerConnection.MessageEventArgs
 class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
   // Declarations
@@ -41,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_playerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x485e2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bf660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MessageEventArgs(MessageEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11157 };
+
   /// @brief Field playerId, offset: 0x10, size: 0x4, def value: None
   int32_t ___playerId;
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11124 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::MessageEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEventArgs, ___playerId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEventArgs, ___data) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::MessageEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Networking::PlayerConnection
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);

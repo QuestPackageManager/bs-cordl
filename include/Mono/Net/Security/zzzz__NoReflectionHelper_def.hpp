@@ -14,15 +14,14 @@ class NoReflectionHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::NoReflectionHelper);
-// Type: Mono.Net.Security::NoReflectionHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Net::Security {
 // Is value type: false
-// CS Name: ::Mono.Net.Security::NoReflectionHelper*
+// CS Name: Mono.Net.Security.NoReflectionHelper
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x40b5c78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x4116f8c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* GetProvider();
 
 protected:
@@ -40,7 +39,7 @@ public:
   NoReflectionHelper(NoReflectionHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

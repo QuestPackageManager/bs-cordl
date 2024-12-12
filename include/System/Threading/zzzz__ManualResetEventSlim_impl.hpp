@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/ManualResetEventSlim.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ManualResetEventSlim_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::ManualResetEventSlim.get_WaitHandle
 template <>
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::Threading::ManualResetEventSlim::*)()>(
     &::System::Threading::ManualResetEventSlim::get_WaitHandle)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3deccc4;
+  constexpr static std::size_t addrs = 0x3e4cd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(),
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_IsSet)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3deced8;
+  constexpr static std::size_t addrs = 0x3e4cf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), "get_IsSet",
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::set_IsSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3decf3c;
+  constexpr static std::size_t addrs = 0x3e4cfe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ManualResetEventSlim::*)()>(
     &::System::Threading::ManualResetEventSlim::get_SpinCount)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ded034;
+  constexpr static std::size_t addrs = 0x3e4d0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t)>(
     &::System::Threading::ManualResetEventSlim::set_SpinCount)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ded09c;
+  constexpr static std::size_t addrs = 0x3e4d148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::get_Waiters)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ded0d0;
+  constexpr static std::size_t addrs = 0x3e4d17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), "get_Waiters",
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t)>(
     &::System::Threading::ManualResetEventSlim::set_Waiters)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3ded12c;
+  constexpr static std::size_t addrs = 0x3e4d1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ded1b8;
+  constexpr static std::size_t addrs = 0x3e4d264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool, int32_t)>(
     &::System::Threading::ManualResetEventSlim::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3ded2e4;
+  constexpr static std::size_t addrs = 0x3e4d390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool, int32_t)>(
     &::System::Threading::ManualResetEventSlim::Initialize)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ded234;
+  constexpr static std::size_t addrs = 0x3e4d2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(
     &::System::Threading::ManualResetEventSlim::EnsureLockObjectCreated)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ded3fc;
+  constexpr static std::size_t addrs = 0x3e4d4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(),
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)()>(
     &::System::Threading::ManualResetEventSlim::LazyInitializeEvent)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3decd60;
+  constexpr static std::size_t addrs = 0x3e4ce0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(),
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::Set)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ded4f8;
+  constexpr static std::size_t addrs = 0x3e4d5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), "Set",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::Set)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3ded500;
+  constexpr static std::size_t addrs = 0x3e4d5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ManualResetEventSlim::*)(int32_t, ::System::Threading::CancellationToken)>(
     &::System::Threading::ManualResetEventSlim::Wait)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x3ded700;
+  constexpr static std::size_t addrs = 0x3e4d7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3dedd44;
+  constexpr static std::size_t addrs = 0x3e4ddf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), "Dispose",
@@ -239,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(bool)>(&::System::Threading::ManualResetEventSlim::Dispose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3deddb0;
+  constexpr static std::size_t addrs = 0x3e4de5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)()>(&::System::Threading::ManualResetEventSlim::ThrowIfDisposed)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3decd00;
+  constexpr static std::size_t addrs = 0x3e4cdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(),
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::ManualResetEventSlim::CancellationTokenCallback)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3dedea0;
+  constexpr static std::size_t addrs = 0x3e4df4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ManualResetEventSlim::*)(int32_t, int32_t)>(
     &::System::Threading::ManualResetEventSlim::UpdateStateAtomically)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3decf5c;
+  constexpr static std::size_t addrs = 0x3e4d008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(
     &::System::Threading::ManualResetEventSlim::ExtractStatePortionAndShiftRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ded090;
+  constexpr static std::size_t addrs = 0x3e4d13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Threading::ManualResetEventSlim::ExtractStatePortion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3decf34;
+  constexpr static std::size_t addrs = 0x3e4cfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,19 +320,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Threading::ManualResetEventSlim::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Threading::ManualResetEventSlim::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Object*& System::Threading::ManualResetEventSlim::__cordl_internal_get_m_lock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lock;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::ManualResetEventSlim::__cordl_internal_get_m_lock() const {
+constexpr ::System::Object* const& System::Threading::ManualResetEventSlim::__cordl_internal_get_m_lock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lock;
 }
@@ -344,7 +336,7 @@ constexpr ::System::Threading::ManualResetEvent*& System::Threading::ManualReset
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eventObj;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Threading::ManualResetEventSlim::__cordl_internal_get_m_eventObj() const {
+constexpr ::System::Threading::ManualResetEvent* const& System::Threading::ManualResetEventSlim::__cordl_internal_get_m_eventObj() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_eventObj;
 }
@@ -411,17 +403,11 @@ inline void System::Threading::ManualResetEventSlim::set_Waiters(int32_t value) 
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Threading::ManualResetEventSlim* System::Threading::ManualResetEventSlim::New_ctor(bool initialState) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ManualResetEventSlim*>(initialState));
-}
 inline void System::Threading::ManualResetEventSlim::_ctor(bool initialState) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initialState);
-}
-inline ::System::Threading::ManualResetEventSlim* System::Threading::ManualResetEventSlim::New_ctor(bool initialState, int32_t spinCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ManualResetEventSlim*>(initialState, spinCount));
 }
 inline void System::Threading::ManualResetEventSlim::_ctor(bool initialState, int32_t spinCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -502,6 +488,20 @@ inline int32_t System::Threading::ManualResetEventSlim::ExtractStatePortion(int3
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ManualResetEventSlim*>::get(), "ExtractStatePortion", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, state, mask);
+}
+inline ::System::Threading::ManualResetEventSlim* System::Threading::ManualResetEventSlim::New_ctor(bool initialState) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ManualResetEventSlim*>(initialState));
+}
+inline ::System::Threading::ManualResetEventSlim* System::Threading::ManualResetEventSlim::New_ctor(bool initialState, int32_t spinCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ManualResetEventSlim*>(initialState, spinCount));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Threading::ManualResetEventSlim::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Threading::ManualResetEventSlim::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ManualResetEventSlim::ManualResetEventSlim() {}

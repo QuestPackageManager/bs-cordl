@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IdCacheKey)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -22,11 +21,10 @@ class IdCacheKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IdCacheKey);
-// Type: UnityEngine.ResourceManagement.Util::IdCacheKey
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, System.Object, UnityEngine.ResourceManagement.Util.IOperationCacheKey
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::IdCacheKey*
+// CS Name: UnityEngine.ResourceManagement.Util.IdCacheKey
 class CORDL_TYPE IdCacheKey : public ::System::Object {
 public:
   // Declarations
@@ -39,16 +37,16 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
 
-  /// @brief Method Equals, addr 0x47345d4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x47958e8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4734668, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x479597c, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals, addr 0x4734584, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4795898, size 0x30, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IdCacheKey* other);
 
-  /// @brief Method GetHashCode, addr 0x47345b4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x47958c8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::ResourceManagement::Util::IdCacheKey* New_ctor(::StringW id);
@@ -59,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x473455c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4795870, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
@@ -82,18 +80,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IdCacheKey(IdCacheKey const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15624 };
+
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   ::StringW ____cordl_ID;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15589 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::IdCacheKey, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::Util::IdCacheKey, ____cordl_ID) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::IdCacheKey, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IdCacheKey);

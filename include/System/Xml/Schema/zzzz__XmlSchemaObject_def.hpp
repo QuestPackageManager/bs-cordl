@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaObject)
@@ -29,11 +28,10 @@ class XmlSchemaObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaObject);
-// Type: System.Xml.Schema::XmlSchemaObject
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaObject*
+// CS Name: System.Xml.Schema.XmlSchemaObject
 class CORDL_TYPE XmlSchemaObject : public ::System::Object {
 public:
   // Declarations
@@ -71,24 +69,24 @@ public:
   /// @brief Field sourceUri, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_sourceUri, put = __cordl_internal_set_sourceUri)) ::StringW sourceUri;
 
-  /// @brief Method AddAnnotation, addr 0x425ca38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42bdd4c, size 0x4, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
-  /// @brief Method Clone, addr 0x425ca5c, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42bdd70, size 0x80, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaObject* New_ctor();
 
-  /// @brief Method OnAdd, addr 0x425ca1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnAdd, addr 0x42bdd30, size 0x4, virtual true, abstract: false, final false
   inline void OnAdd(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method OnClear, addr 0x425ca24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnClear, addr 0x42bdd38, size 0x4, virtual true, abstract: false, final false
   inline void OnClear(::System::Xml::Schema::XmlSchemaObjectCollection* container);
 
-  /// @brief Method OnRemove, addr 0x425ca20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRemove, addr 0x42bdd34, size 0x4, virtual true, abstract: false, final false
   inline void OnRemove(::System::Xml::Schema::XmlSchemaObjectCollection* container, ::System::Object* item);
 
-  /// @brief Method SetUnhandledAttributes, addr 0x425ca34, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x42bdd48, size 0x4, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr bool const& __cordl_internal_get_isProcessing() const;
@@ -103,13 +101,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_linePos();
 
+  constexpr ::System::Xml::Serialization::XmlSerializerNamespaces* const& __cordl_internal_get_namespaces() const;
+
   constexpr ::System::Xml::Serialization::XmlSerializerNamespaces*& __cordl_internal_get_namespaces();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializerNamespaces*> const& __cordl_internal_get_namespaces() const;
+  constexpr ::System::Xml::Schema::XmlSchemaObject* const& __cordl_internal_get_parent() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaObject*& __cordl_internal_get_parent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& __cordl_internal_get_parent() const;
 
   constexpr ::StringW const& __cordl_internal_get_sourceUri() const;
 
@@ -127,55 +125,55 @@ public:
 
   constexpr void __cordl_internal_set_sourceUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4254ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b6310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IdAttribute, addr 0x425ca28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x42bdd3c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_IsProcessing, addr 0x425ca48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsProcessing, addr 0x42bdd5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsProcessing();
 
-  /// @brief Method get_LineNumber, addr 0x425c9d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x42bdce8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x425c9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x42bdcf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_NameAttribute, addr 0x425ca3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42bdd50, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_Namespaces, addr 0x4255854, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Namespaces, addr 0x42b6b68, size 0x64, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializerNamespaces* get_Namespaces();
 
-  /// @brief Method get_Parent, addr 0x425ca04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x42bdd18, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_Parent();
 
-  /// @brief Method get_SourceUri, addr 0x425c9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceUri, addr 0x42bdd08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceUri();
 
-  /// @brief Method set_IdAttribute, addr 0x425ca30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x42bdd44, size 0x4, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_IsProcessing, addr 0x425ca50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsProcessing, addr 0x42bdd64, size 0xc, virtual false, abstract: false, final false
   inline void set_IsProcessing(bool value);
 
-  /// @brief Method set_LineNumber, addr 0x425c9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LineNumber, addr 0x42bdcf0, size 0x8, virtual false, abstract: false, final false
   inline void set_LineNumber(int32_t value);
 
-  /// @brief Method set_LinePosition, addr 0x425c9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LinePosition, addr 0x42bdd00, size 0x8, virtual false, abstract: false, final false
   inline void set_LinePosition(int32_t value);
 
-  /// @brief Method set_NameAttribute, addr 0x425ca44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42bdd58, size 0x4, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_Namespaces, addr 0x425ca14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespaces, addr 0x42bdd28, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespaces(::System::Xml::Serialization::XmlSerializerNamespaces* value);
 
-  /// @brief Method set_Parent, addr 0x425ca0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x42bdd20, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::System::Xml::Schema::XmlSchemaObject* value);
 
-  /// @brief Method set_SourceUri, addr 0x425c9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SourceUri, addr 0x42bdd10, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceUri(::StringW value);
 
 protected:
@@ -191,6 +189,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaObject", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaObject(XmlSchemaObject const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7701 };
 
   /// @brief Field lineNum, offset: 0x10, size: 0x4, def value: None
   int32_t ___lineNum;
@@ -210,14 +211,9 @@ public:
   /// @brief Field isProcessing, offset: 0x30, size: 0x1, def value: None
   bool ___isProcessing;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7676 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaObject, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaObject, ___lineNum) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaObject, ___linePos) == 0x14, "Offset mismatch!");
@@ -229,6 +225,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaObject, ___namespaces) ==
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaObject, ___parent) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaObject, ___isProcessing) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaObject, 0x38>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaObject);

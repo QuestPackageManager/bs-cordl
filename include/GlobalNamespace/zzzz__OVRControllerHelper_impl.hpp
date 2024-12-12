@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRControllerHelper.hpp"
-#include "GlobalNamespace/zzzz__OVRControllerHelper_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
@@ -8,22 +7,22 @@
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType::__OVRControllerHelper__ControllerType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType::OVRControllerHelper_ControllerType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType::__OVRControllerHelper__ControllerType() {}
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType GlobalNamespace::__OVRControllerHelper__ControllerType::QuestAndRiftS{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType GlobalNamespace::__OVRControllerHelper__ControllerType::Rift{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType GlobalNamespace::__OVRControllerHelper__ControllerType::Quest2{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType GlobalNamespace::__OVRControllerHelper__ControllerType::TouchPro{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType GlobalNamespace::__OVRControllerHelper__ControllerType::TouchPlus{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType::OVRControllerHelper_ControllerType() {}
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace::OVRControllerHelper_ControllerType::QuestAndRiftS{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace::OVRControllerHelper_ControllerType::Rift{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace::OVRControllerHelper_ControllerType::Quest2{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace::OVRControllerHelper_ControllerType::TouchPro{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace::OVRControllerHelper_ControllerType::TouchPlus{ static_cast<int32_t>(0x5) };
 //  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Start)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3fc8630;
+  constexpr static std::size_t addrs = 0x40286dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "Start",
@@ -37,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(
     &::GlobalNamespace::OVRControllerHelper::InitializeControllerModels)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x3fc86a0;
+  constexpr static std::size_t addrs = 0x402874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
@@ -50,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Update)> {
   constexpr static std::size_t size = 0x868;
-  constexpr static std::size_t addrs = 0x3fc8b34;
+  constexpr static std::size_t addrs = 0x4028be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "Update",
@@ -63,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusAquired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fc939c;
+  constexpr static std::size_t addrs = 0x4029448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
@@ -76,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fc93a8;
+  constexpr static std::size_t addrs = 0x4029454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "InputFocusLost",
@@ -89,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3fc93b0;
+  constexpr static std::size_t addrs = 0x402945c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), ".ctor",
@@ -223,27 +222,27 @@ constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_mode
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_modelMetaTouchPlusRightController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_controller() {
+constexpr ::GlobalNamespace::OVRInput_Controller& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_controller() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
-constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_controller() const {
+constexpr ::GlobalNamespace::OVRInput_Controller const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_controller() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
-constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value) {
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_controller(::GlobalNamespace::OVRInput_Controller value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controller = value;
 }
-constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_showState() {
+constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_showState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
-constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_showState() const {
+constexpr ::GlobalNamespace::OVRInput_InputDeviceShowState const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_showState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_showState;
 }
-constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value) {
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_showState(::GlobalNamespace::OVRInput_InputDeviceShowState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_showState = value;
 }
@@ -319,15 +318,15 @@ constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_hasI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocusPrev = value;
 }
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_activeControllerType() {
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_activeControllerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeControllerType;
 }
-constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_activeControllerType() const {
+constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_activeControllerType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeControllerType;
 }
-constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_activeControllerType(::GlobalNamespace::__OVRControllerHelper__ControllerType value) {
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_activeControllerType(::GlobalNamespace::OVRControllerHelper_ControllerType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___activeControllerType = value;
 }
@@ -355,15 +354,15 @@ constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_prev
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevControllerConnectedCached = value;
 }
-constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_prevControllerInHandState() {
+constexpr ::GlobalNamespace::OVRInput_ControllerInHandState& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_prevControllerInHandState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerInHandState;
 }
-constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_prevControllerInHandState() const {
+constexpr ::GlobalNamespace::OVRInput_ControllerInHandState const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_prevControllerInHandState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_prevControllerInHandState;
 }
-constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_prevControllerInHandState(::GlobalNamespace::__OVRInput__ControllerInHandState value) {
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_prevControllerInHandState(::GlobalNamespace::OVRInput_ControllerInHandState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_prevControllerInHandState = value;
 }
@@ -392,13 +391,13 @@ inline void GlobalNamespace::OVRControllerHelper::InputFocusLost() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRControllerHelper* GlobalNamespace::OVRControllerHelper::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRControllerHelper*>());
-}
 inline void GlobalNamespace::OVRControllerHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRControllerHelper* GlobalNamespace::OVRControllerHelper::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRControllerHelper*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRControllerHelper::OVRControllerHelper() {}

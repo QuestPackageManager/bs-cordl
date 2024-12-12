@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::CustomFormatRangeValuesSlider::*)(float_t)>(
     &::HMUI::CustomFormatRangeValuesSlider::TextForValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x399ae74;
+  constexpr static std::size_t addrs = 0x39f1a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CustomFormatRangeValuesSlider::*)()>(&::HMUI::CustomFormatRangeValuesSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x399aee4;
+  constexpr static std::size_t addrs = 0x39f1ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CustomFormatRangeValuesSlider*>::get(), ".ctor",
@@ -47,13 +47,13 @@ inline ::StringW HMUI::CustomFormatRangeValuesSlider::TextForValue(float_t value
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CustomFormatRangeValuesSlider*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-inline ::HMUI::CustomFormatRangeValuesSlider* HMUI::CustomFormatRangeValuesSlider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CustomFormatRangeValuesSlider*>());
-}
 inline void HMUI::CustomFormatRangeValuesSlider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CustomFormatRangeValuesSlider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::CustomFormatRangeValuesSlider* HMUI::CustomFormatRangeValuesSlider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::CustomFormatRangeValuesSlider*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::CustomFormatRangeValuesSlider::CustomFormatRangeValuesSlider() {}

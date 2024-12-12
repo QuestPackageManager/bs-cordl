@@ -17,11 +17,10 @@ class Contract;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Contracts::Contract);
-// Type: System.Diagnostics.Contracts::Contract
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Diagnostics::Contracts {
 // Is value type: false
-// CS Name: ::System.Diagnostics.Contracts::Contract*
+// CS Name: System.Diagnostics.Contracts.Contract
 class CORDL_TYPE Contract : public ::System::Object {
 public:
   // Declarations

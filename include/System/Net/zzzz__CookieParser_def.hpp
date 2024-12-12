@@ -18,32 +18,31 @@ class CookieParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::CookieParser);
-// Type: System.Net::CookieParser
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::CookieParser*
+// CS Name: System.Net.CookieParser
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_tokenizer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer)) ::System::Net::CookieTokenizer* m_tokenizer;
 
-  /// @brief Method CheckQuoted, addr 0x444ce0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckQuoted, addr 0x44ae120, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CheckQuoted(::StringW value);
 
-  /// @brief Method Get, addr 0x444c8a8, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x44adbbc, size 0x564, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* Get();
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
 
-  constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer();
+  constexpr ::System::Net::CookieTokenizer* const& __cordl_internal_get_m_tokenizer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieTokenizer*> const& __cordl_internal_get_m_tokenizer() const;
+  constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer();
 
   constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
-  /// @brief Method .ctor, addr 0x444c834, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44adb48, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CookieParser(CookieParser const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9640 };
+
   /// @brief Field m_tokenizer, offset: 0x10, size: 0x8, def value: None
   ::System::Net::CookieTokenizer* ___m_tokenizer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9615 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::CookieParser, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::CookieParser, ___m_tokenizer) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::CookieParser, 0x18>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::CookieParser);

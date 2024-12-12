@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadOnlyTextStyle* (::GlobalNamespace::TextStyleSO::*)()>(
     &::GlobalNamespace::TextStyleSO::get_textStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224e210;
+  constexpr static std::size_t addrs = 0x2280690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(), "get_textStyle",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextStyleSO::*)()>(&::GlobalNamespace::TextStyleSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224e218;
+  constexpr static std::size_t addrs = 0x2280698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(), ".ctor",
@@ -35,7 +35,7 @@ constexpr ::GlobalNamespace::TextStyle*& GlobalNamespace::TextStyleSO::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textStyle;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextStyle*> const& GlobalNamespace::TextStyleSO::__cordl_internal_get__textStyle() const {
+constexpr ::GlobalNamespace::TextStyle* const& GlobalNamespace::TextStyleSO::__cordl_internal_get__textStyle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textStyle;
 }
@@ -48,13 +48,13 @@ inline ::GlobalNamespace::IReadOnlyTextStyle* GlobalNamespace::TextStyleSO::get_
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadOnlyTextStyle*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TextStyleSO* GlobalNamespace::TextStyleSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextStyleSO*>());
-}
 inline void GlobalNamespace::TextStyleSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextStyleSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TextStyleSO* GlobalNamespace::TextStyleSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextStyleSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TextStyleSO::TextStyleSO() {}

@@ -22,11 +22,10 @@ class DataViewSetting;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataViewSetting);
-// Type: System.Data::DataViewSetting
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.DataViewRowState, System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::DataViewSetting*
+// CS Name: System.Data.DataViewSetting
 class CORDL_TYPE DataViewSetting : public ::System::Object {
 public:
   // Declarations
@@ -58,19 +57,19 @@ public:
 
   static inline ::System::Data::DataViewSetting* New_ctor();
 
-  /// @brief Method SetDataTable, addr 0x410bd74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataTable, addr 0x416d088, size 0x14, virtual false, abstract: false, final false
   inline void SetDataTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetDataViewManager, addr 0x410bd60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataViewManager, addr 0x416d074, size 0x14, virtual false, abstract: false, final false
   inline void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
 
   constexpr bool const& __cordl_internal_get__applyDefaultSort() const;
 
   constexpr bool& __cordl_internal_get__applyDefaultSort();
 
-  constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();
+  constexpr ::System::Data::DataViewManager* const& __cordl_internal_get__dataViewManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewManager*> const& __cordl_internal_get__dataViewManager() const;
+  constexpr ::System::Data::DataViewManager*& __cordl_internal_get__dataViewManager();
 
   constexpr ::StringW const& __cordl_internal_get__rowFilter() const;
 
@@ -84,9 +83,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__sort();
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
+  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get__table() const;
+  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
 
   constexpr void __cordl_internal_set__applyDefaultSort(bool value);
 
@@ -100,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x410bcf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x416d00c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ApplyDefaultSort, addr 0x410bd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplyDefaultSort, addr 0x416d06c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ApplyDefaultSort();
 
-  /// @brief Method get_RowFilter, addr 0x410bd88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowFilter, addr 0x416d09c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RowFilter();
 
-  /// @brief Method get_RowStateFilter, addr 0x410bd90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowStateFilter, addr 0x416d0a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RowStateFilter();
 
-  /// @brief Method get_Sort, addr 0x410bd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sort, addr 0x416d0ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sort();
 
 protected:
@@ -128,6 +127,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DataViewSetting", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DataViewSetting(DataViewSetting const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11410 };
 
   /// @brief Field _dataViewManager, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataViewManager* ____dataViewManager;
@@ -147,14 +149,9 @@ public:
   /// @brief Field _applyDefaultSort, offset: 0x34, size: 0x1, def value: None
   bool ____applyDefaultSort;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11377 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataViewSetting, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataViewSetting, ____dataViewManager) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::DataViewSetting, ____table) == 0x18, "Offset mismatch!");
@@ -166,6 +163,8 @@ static_assert(offsetof(::System::Data::DataViewSetting, ____rowFilter) == 0x28, 
 static_assert(offsetof(::System::Data::DataViewSetting, ____rowStateFilter) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::DataViewSetting, ____applyDefaultSort) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataViewSetting, 0x38>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::DataViewSetting);

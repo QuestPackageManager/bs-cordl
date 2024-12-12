@@ -8,36 +8,35 @@
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-template <typename T> constexpr int32_t& BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::__cordl_internal_get_indentation() {
+template <typename T> constexpr int32_t& BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::__cordl_internal_get_indentation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentation;
 }
-template <typename T> constexpr int32_t const& BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::__cordl_internal_get_indentation() const {
+template <typename T> constexpr int32_t const& BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::__cordl_internal_get_indentation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___indentation;
 }
-template <typename T> constexpr void BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::__cordl_internal_set_indentation(int32_t value) {
+template <typename T> constexpr void BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::__cordl_internal_set_indentation(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___indentation = value;
 }
-template <typename T> inline ::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>* BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>*>());
-}
-template <typename T> inline void BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::_ctor() {
+template <typename T> inline void BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::_WriteIndentedWithDefault_b__0(::Newtonsoft::Json::JsonTextWriter* writer) {
+template <typename T> inline void BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::_WriteIndentedWithDefault_b__0(::Newtonsoft::Json::JsonTextWriter* writer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>*>::get(), "<WriteIndentedWithDefault>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>*>::get(), "<WriteIndentedWithDefault>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Newtonsoft::Json::JsonTextWriter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
 }
+template <typename T> inline ::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>* BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::BGLib::JsonExtension::__JsonFileHandler____c__DisplayClass0_0_1<T>::__JsonFileHandler____c__DisplayClass0_0_1() {}
-/// @param indentation: int32_t (default: static_cast<int32_t>(0x4))
+template <typename T> constexpr ::BGLib::JsonExtension::JsonFileHandler___c__DisplayClass0_0_1<T>::JsonFileHandler___c__DisplayClass0_0_1() {}
 template <typename T> inline void BGLib::JsonExtension::JsonFileHandler::WriteIndentedWithDefault(T content, ::StringW filePath, int32_t indentation) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::JsonFileHandler*>::get(), "WriteIndentedWithDefault",
@@ -57,7 +56,6 @@ template <typename T> inline void BGLib::JsonExtension::JsonFileHandler::WriteCo
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, content, filePath);
 }
-/// @param beforeSerialize: ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* (default: nullptr)
 template <typename T>
 inline void BGLib::JsonExtension::JsonFileHandler::WriteToFile(T content, ::StringW filePath, ::Newtonsoft::Json::JsonSerializerSettings* settings,
                                                                ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {
@@ -71,7 +69,6 @@ inline void BGLib::JsonExtension::JsonFileHandler::WriteToFile(T content, ::Stri
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, content, filePath, settings, beforeSerialize);
 }
-/// @param beforeSerialize: ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* (default: nullptr)
 template <typename T>
 inline void BGLib::JsonExtension::JsonFileHandler::WriteToText(::System::IO::TextWriter* writer, T content, ::Newtonsoft::Json::JsonSerializerSettings* settings,
                                                                ::System::Action_1<::Newtonsoft::Json::JsonTextWriter*>* beforeSerialize) {

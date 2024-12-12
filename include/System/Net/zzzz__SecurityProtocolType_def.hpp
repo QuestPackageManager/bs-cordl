@@ -12,11 +12,10 @@ struct SecurityProtocolType;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::SecurityProtocolType);
-// Type: System.Net::SecurityProtocolType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::SecurityProtocolType
+// CS Name: System.Net.SecurityProtocolType
 struct CORDL_TYPE SecurityProtocolType {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SecurityProtocolType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Ssl3 value: static_cast<int32_t>(0x30)
+  /// @brief Field Ssl3 value: I32(48)
   static ::System::Net::SecurityProtocolType const Ssl3;
 
-  /// @brief Field SystemDefault value: static_cast<int32_t>(0x0)
+  /// @brief Field SystemDefault value: I32(0)
   static ::System::Net::SecurityProtocolType const SystemDefault;
 
-  /// @brief Field Tls value: static_cast<int32_t>(0xc0)
+  /// @brief Field Tls value: I32(192)
   static ::System::Net::SecurityProtocolType const Tls;
 
-  /// @brief Field Tls11 value: static_cast<int32_t>(0x300)
+  /// @brief Field Tls11 value: I32(768)
   static ::System::Net::SecurityProtocolType const Tls11;
 
-  /// @brief Field Tls12 value: static_cast<int32_t>(0xc00)
+  /// @brief Field Tls12 value: I32(3072)
   static ::System::Net::SecurityProtocolType const Tls12;
 
-  /// @brief Field Tls13 value: static_cast<int32_t>(0x3000)
+  /// @brief Field Tls13 value: I32(12288)
   static ::System::Net::SecurityProtocolType const Tls13;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9571 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::SecurityProtocolType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::SecurityProtocolType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::SecurityProtocolType, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::SecurityProtocolType, "System.Net", "SecurityProtocolType");

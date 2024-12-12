@@ -12,20 +12,19 @@ class NameType;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::NameType);
-// Type: Org.BouncyCastle.Crypto.Tls::NameType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::NameType*
+// CS Name: Org.BouncyCastle.Crypto.Tls.NameType
 class CORDL_TYPE NameType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x23e201c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2415308, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t nameType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NameType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e2028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415314, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

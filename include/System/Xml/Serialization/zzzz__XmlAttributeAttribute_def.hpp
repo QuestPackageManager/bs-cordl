@@ -22,11 +22,10 @@ class XmlAttributeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlAttributeAttribute);
-// Type: System.Xml.Serialization::XmlAttributeAttribute
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Xml.Schema.XmlSchemaForm
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlAttributeAttribute*
+// CS Name: System.Xml.Serialization.XmlAttributeAttribute
 class CORDL_TYPE XmlAttributeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field type, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x430c3a4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436d6b8, size 0x134, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAttributeAttribute* New_ctor(::StringW attributeName);
@@ -74,9 +73,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_attributeName(::StringW value);
 
@@ -88,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x430c2bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436d5d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attributeName);
 
-  /// @brief Method get_AttributeName, addr 0x430c2e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeName, addr 0x436d5f8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_AttributeName();
 
-  /// @brief Method get_DataType, addr 0x430c338, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x436d64c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Form, addr 0x430c394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x436d6a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_Namespace, addr 0x430c39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x436d6b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_DataType, addr 0x430c38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x436d6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_DataType(::StringW value);
 
 protected:
@@ -120,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAttributeAttribute(XmlAttributeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7407 };
+
   /// @brief Field attributeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___attributeName;
 
@@ -135,14 +137,9 @@ public:
   /// @brief Field ns, offset: 0x30, size: 0x8, def value: None
   ::StringW ___ns;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7382 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributeAttribute, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeAttribute, ___attributeName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeAttribute, ___dataType) == 0x18, "Offset mismatch!");
@@ -152,6 +149,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlAttributeAttribute, ___t
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeAttribute, ___form) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributeAttribute, ___ns) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributeAttribute, 0x38>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlAttributeAttribute);

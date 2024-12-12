@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d48b4;
+  constexpr static std::size_t addrs = 0x2706224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationEventBox*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d48bc;
+  constexpr static std::size_t addrs = 0x270622c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationEventBox*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::Axis (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_axis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d48c4;
+  constexpr static std::size_t addrs = 0x2706234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationEventBox*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_flipTranslation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d48cc;
+  constexpr static std::size_t addrs = 0x270623c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationEventBox*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionShouldAffectFirstBaseEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d48dc;
+  constexpr static std::size_t addrs = 0x270624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationEventBox::get_gapDistributionEaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d48ec;
+  constexpr static std::size_t addrs = 0x270625c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationEventBox*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* (
     ::BeatmapSaveDataVersion3::LightTranslationEventBox::*)()>(&::BeatmapSaveDataVersion3::LightTranslationEventBox::get_lightTranslationBaseDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d48f4;
+  constexpr static std::size_t addrs = 0x2706264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType, float_t, ::BeatmapSaveDataCommon::DistributionParamType, bool, ::BeatmapSaveDataCommon::EaseType,
     ::BeatmapSaveDataCommon::Axis, bool, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*)>(&::BeatmapSaveDataVersion3::LightTranslationEventBox::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26d48fc;
+  constexpr static std::size_t addrs = 0x270626c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,8 +210,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Ligh
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*> const&
-BeatmapSaveDataVersion3::LightTranslationEventBox::__cordl_internal_get_l() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* const& BeatmapSaveDataVersion3::LightTranslationEventBox::__cordl_internal_get_l() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
@@ -255,14 +254,6 @@ inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3
                                                                              "get_lightTranslationBaseDataList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::LightTranslationEventBox* BeatmapSaveDataVersion3::LightTranslationEventBox::New_ctor(
-    ::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t gapDistributionParam,
-    ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType,
-    ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightTranslationEventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, gapDistributionParam,
-                                                                                                        gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType,
-                                                                                                        axis, flipTranslation, lightTranslationBaseDataList));
-}
 inline void BeatmapSaveDataVersion3::LightTranslationEventBox::_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
                                                                      ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t gapDistributionParam,
                                                                      ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent,
@@ -279,6 +270,14 @@ inline void BeatmapSaveDataVersion3::LightTranslationEventBox::_ctor(::BeatmapSa
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParam, beatDistributionParamType, gapDistributionParam, gapDistributionParamType,
                                                           gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType, axis, flipTranslation, lightTranslationBaseDataList);
+}
+inline ::BeatmapSaveDataVersion3::LightTranslationEventBox* BeatmapSaveDataVersion3::LightTranslationEventBox::New_ctor(
+    ::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t gapDistributionParam,
+    ::BeatmapSaveDataCommon::DistributionParamType gapDistributionParamType, bool gapDistributionShouldAffectFirstBaseEvent, ::BeatmapSaveDataCommon::EaseType gapDistributionEaseType,
+    ::BeatmapSaveDataCommon::Axis axis, bool flipTranslation, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationBaseData*>* lightTranslationBaseDataList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightTranslationEventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, gapDistributionParam,
+                                                                                                        gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent, gapDistributionEaseType,
+                                                                                                        axis, flipTranslation, lightTranslationBaseDataList));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightTranslationEventBox::LightTranslationEventBox() {}

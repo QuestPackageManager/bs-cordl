@@ -12,11 +12,10 @@ class ProviderLoadRequestOptions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::ProviderLoadRequestOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProviderLoadRequestOptions*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.ProviderLoadRequestOptions
 class CORDL_TYPE ProviderLoadRequestOptions : public ::System::Object {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
   /// @brief Field m_WebRequestTimeout, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_WebRequestTimeout, put = __cordl_internal_set_m_WebRequestTimeout)) int32_t m_WebRequestTimeout;
 
-  /// @brief Method Copy, addr 0x473ce14, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x479e128, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* Copy();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* New_ctor();
@@ -47,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequestTimeout(int32_t value);
 
-  /// @brief Method .ctor, addr 0x473ceb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x479e1cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IgnoreFailures, addr 0x473ce94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreFailures, addr 0x479e1a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();
 
-  /// @brief Method get_WebRequestTimeout, addr 0x473cea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestTimeout, addr 0x479e1bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_WebRequestTimeout();
 
-  /// @brief Method set_IgnoreFailures, addr 0x473ce9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreFailures, addr 0x479e1b0, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreFailures(bool value);
 
-  /// @brief Method set_WebRequestTimeout, addr 0x473ceb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestTimeout, addr 0x479e1c4, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestTimeout(int32_t value);
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ProviderLoadRequestOptions(ProviderLoadRequestOptions const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15674 };
+
   /// @brief Field m_IgnoreFailures, offset: 0x10, size: 0x1, def value: None
   bool ___m_IgnoreFailures;
 
   /// @brief Field m_WebRequestTimeout, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_WebRequestTimeout;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15639 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, ___m_IgnoreFailures) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, ___m_WebRequestTimeout) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions);

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 CORDL_MODULE_EXPORT(Group)
 namespace MS::Internal::Xml::XPath {
-class AstNode;
+struct AstNode_AstType;
 }
 namespace MS::Internal::Xml::XPath {
-struct __AstNode__AstType;
+class AstNode;
 }
 namespace System::Xml::XPath {
 struct XPathResultType;
@@ -20,37 +20,36 @@ class Group;
 }
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Group);
-// Type: MS.Internal.Xml.XPath::Group
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MS.Internal.Xml.XPath.AstNode
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.XPath::Group*
+// CS Name: MS.Internal.Xml.XPath.Group
 class CORDL_TYPE Group : public ::MS::Internal::Xml::XPath::AstNode {
 public:
   // Declarations
   __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType Type;
 
   /// @brief Field _groupNode, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__groupNode, put = __cordl_internal_set__groupNode)) ::MS::Internal::Xml::XPath::AstNode* _groupNode;
 
   static inline ::MS::Internal::Xml::XPath::Group* New_ctor(::MS::Internal::Xml::XPath::AstNode* groupNode);
 
-  constexpr ::MS::Internal::Xml::XPath::AstNode*& __cordl_internal_get__groupNode();
+  constexpr ::MS::Internal::Xml::XPath::AstNode* const& __cordl_internal_get__groupNode() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::XPath::AstNode*> const& __cordl_internal_get__groupNode() const;
+  constexpr ::MS::Internal::Xml::XPath::AstNode*& __cordl_internal_get__groupNode();
 
   constexpr void __cordl_internal_set__groupNode(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method .ctor, addr 0x42a40c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43053dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::AstNode* groupNode);
 
-  /// @brief Method get_ReturnType, addr 0x42a40f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x430540c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x42a40f0, size 0x8, virtual true, abstract: false, final false
-  inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
+  /// @brief Method get_Type, addr 0x4305404, size 0x8, virtual true, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
   // Ctor Parameters []
@@ -66,18 +65,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Group(Group const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7774 };
+
   /// @brief Field _groupNode, offset: 0x10, size: 0x8, def value: None
   ::MS::Internal::Xml::XPath::AstNode* ____groupNode;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::Group, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::MS::Internal::Xml::XPath::Group, ____groupNode) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::Group, 0x18>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::XPath
 NEED_NO_BOX(::MS::Internal::Xml::XPath::Group);

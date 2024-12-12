@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW, ::StringW, ::StringW, bool)>(
     &::SFB::StandaloneFileBrowser::OpenFilePanel)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b14110;
+  constexpr static std::size_t addrs = 0x3b73af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(
     ::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*>, bool)>(&::SFB::StandaloneFileBrowser::OpenFilePanel)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b14220;
+  constexpr static std::size_t addrs = 0x3b73c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::StringW, bool, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>*)>(
     &::SFB::StandaloneFileBrowser::OpenFilePanelAsync)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b14318;
+  constexpr static std::size_t addrs = 0x3b73cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*>, bool, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>*)>(
         &::SFB::StandaloneFileBrowser::OpenFilePanelAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b14438;
+  constexpr static std::size_t addrs = 0x3b73e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)(::StringW, ::StringW, bool)>(
     &::SFB::StandaloneFileBrowser::OpenFolderPanel)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b1453c;
+  constexpr static std::size_t addrs = 0x3b73f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, bool, ::System::Action_1<::ArrayW<::StringW, ::Array<::StringW>*>>*)>(
     &::SFB::StandaloneFileBrowser::OpenFolderPanelAsync)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b14628;
+  constexpr static std::size_t addrs = 0x3b74008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::StringW)>(&::SFB::StandaloneFileBrowser::SaveFilePanel)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b14724;
+  constexpr static std::size_t addrs = 0x3b74104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*>)>(
     &::SFB::StandaloneFileBrowser::SaveFilePanel)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b14834;
+  constexpr static std::size_t addrs = 0x3b74214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::StringW, ::StringW, ::System::Action_1<::StringW>*)>(
     &::SFB::StandaloneFileBrowser::SaveFilePanelAsync)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b14930;
+  constexpr static std::size_t addrs = 0x3b74310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, ::StringW, ::ArrayW<::SFB::ExtensionFilter, ::Array<::SFB::ExtensionFilter>*>,
                                                                                            ::System::Action_1<::StringW>*)>(&::SFB::StandaloneFileBrowser::SaveFilePanelAsync)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b14a50;
+  constexpr static std::size_t addrs = 0x3b74430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::SFB::StandaloneFileBrowser::*)()>(&::SFB::StandaloneFileBrowser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b14b54;
+  constexpr static std::size_t addrs = 0x3b74534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::SFB::StandaloneFileBrowser*>::get(), ".ctor",
@@ -277,13 +277,13 @@ inline void SFB::StandaloneFileBrowser::SaveFilePanelAsync(::StringW title, ::St
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, title, directory, defaultName, extensions, cb);
 }
-inline ::SFB::StandaloneFileBrowser* SFB::StandaloneFileBrowser::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::SFB::StandaloneFileBrowser*>());
-}
 inline void SFB::StandaloneFileBrowser::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::SFB::StandaloneFileBrowser*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::SFB::StandaloneFileBrowser* SFB::StandaloneFileBrowser::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::SFB::StandaloneFileBrowser*>());
 }
 // Ctor Parameters []
 constexpr ::SFB::StandaloneFileBrowser::StandaloneFileBrowser() {}

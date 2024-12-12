@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpObjectFactory)
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -31,43 +30,42 @@ class PgpObjectFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory);
-// Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpObjectFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpObjectFactory*
+// CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpObjectFactory
 class CORDL_TYPE PgpObjectFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bcpgIn, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_bcpgIn, put = __cordl_internal_set_bcpgIn)) ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn;
 
-  /// @brief Method AllPgpObjects, addr 0x24fb8d4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method AllPgpObjects, addr 0x252ebc0, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::IList* AllPgpObjects();
 
-  /// @brief Method FilterPgpObjects, addr 0x24fb9d8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method FilterPgpObjects, addr 0x252ecc4, size 0x134, virtual false, abstract: false, final false
   inline ::System::Collections::IList* FilterPgpObjects(::System::Type* type);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory* New_ctor(::System::IO::Stream* inputStream);
 
-  /// @brief Method NextObject, addr 0x24fb8d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method NextObject, addr 0x252ebbc, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* NextObject();
 
-  /// @brief Method NextPgpObject, addr 0x24faddc, size 0xa0c, virtual false, abstract: false, final false
+  /// @brief Method NextPgpObject, addr 0x252e0c8, size 0xa0c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject* NextPgpObject();
+
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream* const& __cordl_internal_get_bcpgIn() const;
 
   constexpr ::Org::BouncyCastle::Bcpg::BcpgInputStream*& __cordl_internal_get_bcpgIn();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgInputStream*> const& __cordl_internal_get_bcpgIn() const;
-
   constexpr void __cordl_internal_set_bcpgIn(::Org::BouncyCastle::Bcpg::BcpgInputStream* value);
 
-  /// @brief Method .ctor, addr 0x24fad58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252e044, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method .ctor, addr 0x24fad24, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252e010, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inputStream);
 
 protected:
@@ -84,18 +82,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PgpObjectFactory(PgpObjectFactory const&) = delete;
 
-  /// @brief Field bcpgIn, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Bcpg::BcpgInputStream* ___bcpgIn;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1653 };
+
+  /// @brief Field bcpgIn, offset: 0x10, size: 0x8, def value: None
+  ::Org::BouncyCastle::Bcpg::BcpgInputStream* ___bcpgIn;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory, ___bcpgIn) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpObjectFactory);

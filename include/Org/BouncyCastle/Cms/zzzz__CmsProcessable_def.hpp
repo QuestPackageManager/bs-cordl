@@ -16,23 +16,18 @@ class CmsProcessable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessable);
-// Type: Org.BouncyCastle.Cms::CmsProcessable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::CmsProcessable*
+// CS Name: Org.BouncyCastle.Cms.CmsProcessable
 class CORDL_TYPE CmsProcessable {
 public:
   // Declarations
-  /// @brief Method GetContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetContent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Write, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* outStream);
-
-  // Ctor Parameters [CppParam { name: "", ty: "CmsProcessable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsProcessable(CmsProcessable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

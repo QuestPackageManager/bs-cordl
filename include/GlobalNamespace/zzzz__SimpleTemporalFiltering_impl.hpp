@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)()>(&::GlobalNamespace::SimpleTemporalFiltering::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4023b64;
+  constexpr static std::size_t addrs = 0x4084e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTemporalFiltering*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::SimpleTemporalFiltering::*)(::UnityEngine::RenderTexture*)>(&::GlobalNamespace::SimpleTemporalFiltering::FilterTexture)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4023c28;
+  constexpr static std::size_t addrs = 0x4084f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SimpleTemporalFiltering::*)(int32_t, int32_t)>(
     &::GlobalNamespace::SimpleTemporalFiltering::CreateRenderTexturesIfNeeded)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4023da8;
+  constexpr static std::size_t addrs = 0x40850bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,9 +98,6 @@ constexpr void GlobalNamespace::SimpleTemporalFiltering::__cordl_internal_set__b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bufferTexID = value;
 }
-inline ::GlobalNamespace::SimpleTemporalFiltering* GlobalNamespace::SimpleTemporalFiltering::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleTemporalFiltering*>());
-}
 inline void GlobalNamespace::SimpleTemporalFiltering::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTemporalFiltering*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -117,6 +114,9 @@ inline void GlobalNamespace::SimpleTemporalFiltering::CreateRenderTexturesIfNeed
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SimpleTemporalFiltering*>::get(), "CreateRenderTexturesIfNeeded", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, width, height);
+}
+inline ::GlobalNamespace::SimpleTemporalFiltering* GlobalNamespace::SimpleTemporalFiltering::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SimpleTemporalFiltering*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SimpleTemporalFiltering::SimpleTemporalFiltering() {}

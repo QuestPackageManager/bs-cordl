@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x487e28c;
+  constexpr static std::size_t addrs = 0x48e2844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcWidth)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x487e2e8;
+  constexpr static std::size_t addrs = 0x48e28a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetHorizontal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x487e364;
+  constexpr static std::size_t addrs = 0x48e291c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcHeight)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x487e460;
+  constexpr static std::size_t addrs = 0x48e2a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetVertical)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x487e55c;
+  constexpr static std::size_t addrs = 0x48e2b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +196,7 @@ constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___horizontalScrollbar;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::GUIScrollGroup::__cordl_internal_get_horizontalScrollbar() const {
+constexpr ::UnityEngine::GUIStyle* const& UnityEngine::GUIScrollGroup::__cordl_internal_get_horizontalScrollbar() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___horizontalScrollbar;
 }
@@ -208,16 +208,13 @@ constexpr ::UnityEngine::GUIStyle*& UnityEngine::GUIScrollGroup::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verticalScrollbar;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& UnityEngine::GUIScrollGroup::__cordl_internal_get_verticalScrollbar() const {
+constexpr ::UnityEngine::GUIStyle* const& UnityEngine::GUIScrollGroup::__cordl_internal_get_verticalScrollbar() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___verticalScrollbar;
 }
 constexpr void UnityEngine::GUIScrollGroup::__cordl_internal_set_verticalScrollbar(::UnityEngine::GUIStyle* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___verticalScrollbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::GUIScrollGroup* UnityEngine::GUIScrollGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUIScrollGroup*>());
 }
 inline void UnityEngine::GUIScrollGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), ".ctor",
@@ -243,6 +240,9 @@ inline void UnityEngine::GUIScrollGroup::SetVertical(float_t y, float_t height) 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, y, height);
+}
+inline ::UnityEngine::GUIScrollGroup* UnityEngine::GUIScrollGroup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUIScrollGroup*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::GUIScrollGroup::GUIScrollGroup() {}

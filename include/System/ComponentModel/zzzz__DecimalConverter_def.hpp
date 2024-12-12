@@ -28,11 +28,10 @@ class DecimalConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::DecimalConverter);
-// Type: System.ComponentModel::DecimalConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.BaseNumberConverter
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::DecimalConverter*
+// CS Name: System.ComponentModel.DecimalConverter
 class CORDL_TYPE DecimalConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
   // Declarations
@@ -40,31 +39,31 @@ public:
 
   __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
 
-  /// @brief Method CanConvertTo, addr 0x43ee5e4, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x444f8f8, size 0xc4, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x43ee6a8, size 0x320, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x444f9bc, size 0x320, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method FromString, addr 0x43eeab4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x444fdc8, size 0xac, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x43ee9c8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x444fcdc, size 0xec, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DecimalConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x43eeb60, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x444fe74, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x43eec48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x444ff5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x43ee570, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x444f884, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x43ee578, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x444f88c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:
@@ -82,7 +81,7 @@ public:
   DecimalConverter(DecimalConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

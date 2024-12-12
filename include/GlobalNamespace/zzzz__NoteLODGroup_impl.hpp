@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshFilter> (::GlobalNamespace::NoteLODGroup::*)()>(
     &::GlobalNamespace::NoteLODGroup::get_meshFilter)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b1892c;
+  constexpr static std::size_t addrs = 0x3b79b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLODGroup*>::get(), "get_meshFilter",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::MeshRenderer> (::GlobalNamespace::NoteLODGroup::*)()>(
     &::GlobalNamespace::NoteLODGroup::get_meshRenderer)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b189a4;
+  constexpr static std::size_t addrs = 0x3b79ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLODGroup*>::get(), "get_meshRenderer",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::GetStartupLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b18a1c;
+  constexpr static std::size_t addrs = 0x3b79c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteLODGroup::*)()>(&::GlobalNamespace::NoteLODGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b18a24;
+  constexpr static std::size_t addrs = 0x3b79c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLODGroup*>::get(), ".ctor",
@@ -87,13 +87,13 @@ inline int32_t GlobalNamespace::NoteLODGroup::GetStartupLevel() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLODGroup*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteLODGroup* GlobalNamespace::NoteLODGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteLODGroup*>());
-}
 inline void GlobalNamespace::NoteLODGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteLODGroup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoteLODGroup* GlobalNamespace::NoteLODGroup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteLODGroup*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteLODGroup::NoteLODGroup() {}

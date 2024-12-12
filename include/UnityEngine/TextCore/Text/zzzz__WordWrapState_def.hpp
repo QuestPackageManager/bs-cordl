@@ -20,55 +20,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WordWrapState)
 namespace UnityEngine::TextCore::Text {
-struct Extents;
-}
-namespace UnityEngine::TextCore::Text {
 class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyleStack;
-}
-namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine::TextCore::Text {
-struct HighlightState;
-}
-namespace UnityEngine::TextCore::Text {
-struct LineInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct MaterialReference;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
-}
-namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextFontWeight;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
 }
-namespace UnityEngine::TextCore::Text {
-template <typename T> struct TextProcessingStack_1;
-}
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -76,11 +40,12 @@ struct WordWrapState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::WordWrapState);
-// Type: UnityEngine.TextCore.Text::WordWrapState
-// SizeInfo { instance_size: 920, native_size: -1, calculated_instance_size: 920, calculated_native_size: 932, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.Quaternion, UnityEngine.TextCore.Text.Extents, UnityEngine.TextCore.Text.FontStyleStack, UnityEngine.TextCore.Text.FontStyles,
+// UnityEngine.TextCore.Text.HighlightState, UnityEngine.TextCore.Text.LineInfo, UnityEngine.TextCore.Text.MaterialReference, UnityEngine.TextCore.Text.TextAlignment,
+// UnityEngine.TextCore.Text.TextFontWeight, UnityEngine.TextCore.Text.TextProcessingStack`1<T>, UnityEngine.Vector3
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::WordWrapState
+// CS Name: UnityEngine.TextCore.Text.WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -150,6 +115,12 @@ public:
                           int32_t spriteAnimationId, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> currentFontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> currentSpriteAsset,
                           ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing,
                           bool isNonBreakingSpace, bool isDrivenLineSpacing, ::UnityEngine::Vector3 fxScale, ::UnityEngine::Quaternion fxRotation) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15276 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x398 };
 
   /// @brief Field previousWordBreak, offset: 0x0, size: 0x4, def value: None
   int32_t previousWordBreak;
@@ -346,17 +317,9 @@ public:
   /// @brief Field fxRotation, offset: 0x384, size: 0x10, def value: None
   ::UnityEngine::Quaternion fxRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15241 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x398 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::WordWrapState, 0x398>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, previousWordBreak) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, totalCharacterCount) == 0x4, "Offset mismatch!");
@@ -486,6 +449,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, isDrivenLin
 static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fxScale) == 0x378, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::WordWrapState, fxRotation) == 0x384, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::WordWrapState, 0x398>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::WordWrapState, "UnityEngine.TextCore.Text", "WordWrapState");

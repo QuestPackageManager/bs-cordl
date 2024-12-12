@@ -16,11 +16,10 @@ class TextAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextAsset);
-// Type: UnityEngine.TextCore.Text::TextAsset
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextAsset*
+// CS Name: UnityEngine.TextCore.Text.TextAsset
 class CORDL_TYPE TextAsset : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -81,34 +80,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48c5a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492a0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hashCode, addr 0x48c7eec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hashCode, addr 0x492c57c, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method get_instanceID, addr 0x48c1228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x49258b8, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_material, addr 0x48ca624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x492ecb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materialHashCode, addr 0x48c7f1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_materialHashCode, addr 0x492c5ac, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method get_version, addr 0x48ca60c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x492ec9c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_hashCode, addr 0x48ca61c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_hashCode, addr 0x492ecac, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method set_material, addr 0x48ca62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x492ecbc, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materialHashCode, addr 0x48ca634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_materialHashCode, addr 0x492ecc4, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
-  /// @brief Method set_version, addr 0x48ca614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_version, addr 0x492eca4, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
 protected:
@@ -125,6 +124,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextAsset(TextAsset const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15253 };
+
   /// @brief Field m_Version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___m_Version;
 
@@ -140,14 +142,9 @@ public:
   /// @brief Field m_MaterialHashCode, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_MaterialHashCode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15218 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextAsset, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextAsset, ___m_Version) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextAsset, ___m_InstanceID) == 0x20, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextAsset, ___m_HashCode) 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextAsset, ___m_Material) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextAsset, ___m_MaterialHashCode) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextAsset, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextAsset);

@@ -12,32 +12,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectangleLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LinearColor;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct RectangleLight;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::RectangleLight);
-// Type: UnityEngine.Experimental.GlobalIllumination::RectangleLight
-// SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 97, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LinearColor,
+// UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
+// CS Name: UnityEngine.Experimental.GlobalIllumination.RectangleLight
 struct CORDL_TYPE RectangleLight {
 public:
   // Declarations
@@ -54,6 +39,12 @@ public:
   constexpr RectangleLight(int32_t instanceID, bool shadow, ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion orientation,
                            ::UnityEngine::Experimental::GlobalIllumination::LinearColor color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, float_t range, float_t width,
                            float_t height, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11298 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
 
   /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
   int32_t instanceID;
@@ -88,17 +79,9 @@ public:
   /// @brief Field falloff, offset: 0x50, size: 0x1, def value: None
   ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11265 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::RectangleLight, 0x54>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, instanceID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, shadow) == 0x4, "Offset mismatch!");
@@ -120,6 +103,8 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::Rectangl
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, height) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, falloff) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::RectangleLight, 0x54>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::RectangleLight, "UnityEngine.Experimental.GlobalIllumination", "RectangleLight");

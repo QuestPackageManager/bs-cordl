@@ -19,29 +19,28 @@ class BeatToTimeAndRotationConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatToTimeAndRotationConverter);
-// Type: ::BeatToTimeAndRotationConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatToTimeConverter
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatToTimeAndRotationConverter*
+// CS Name: BeatToTimeAndRotationConverter
 class CORDL_TYPE BeatToTimeAndRotationConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
   // Declarations
   /// @brief Field _rotationTimeProcessor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__rotationTimeProcessor, put = __cordl_internal_set__rotationTimeProcessor)) ::GlobalNamespace::RotationTimeProcessor* _rotationTimeProcessor;
 
-  /// @brief Method BeatToRotation, addr 0x2683920, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeatToRotation, addr 0x26b7f70, size 0x18, virtual false, abstract: false, final false
   inline int32_t BeatToRotation(float_t beat);
 
   static inline ::GlobalNamespace::BeatToTimeAndRotationConverter* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
-  constexpr ::GlobalNamespace::RotationTimeProcessor*& __cordl_internal_get__rotationTimeProcessor();
+  constexpr ::GlobalNamespace::RotationTimeProcessor* const& __cordl_internal_get__rotationTimeProcessor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RotationTimeProcessor*> const& __cordl_internal_get__rotationTimeProcessor() const;
+  constexpr ::GlobalNamespace::RotationTimeProcessor*& __cordl_internal_get__rotationTimeProcessor();
 
   constexpr void __cordl_internal_set__rotationTimeProcessor(::GlobalNamespace::RotationTimeProcessor* value);
 
-  /// @brief Method .ctor, addr 0x26838f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b7f44, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor, ::GlobalNamespace::RotationTimeProcessor* rotationTimeProcessor);
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BeatToTimeAndRotationConverter(BeatToTimeAndRotationConverter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12885 };
+
   /// @brief Field _rotationTimeProcessor, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::RotationTimeProcessor* ____rotationTimeProcessor;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatToTimeAndRotationConverter, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatToTimeAndRotationConverter, ____rotationTimeProcessor) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatToTimeAndRotationConverter, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatToTimeAndRotationConverter);

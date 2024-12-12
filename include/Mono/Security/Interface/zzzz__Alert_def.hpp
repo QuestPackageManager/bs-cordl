@@ -20,11 +20,10 @@ class Alert;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::Alert);
-// Type: Mono.Security.Interface::Alert
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.Interface.AlertDescription, Mono.Security.Interface.AlertLevel, System.Object
 namespace Mono::Security::Interface {
 // Is value type: false
-// CS Name: ::Mono.Security.Interface::Alert*
+// CS Name: Mono.Security.Interface.Alert
 class CORDL_TYPE Alert : public ::System::Object {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   static inline ::Mono::Security::Interface::Alert* New_ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method ToString, addr 0x3be47ac, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c448c0, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::AlertDescription const& __cordl_internal_get_description() const;
@@ -55,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_level(::Mono::Security::Interface::AlertLevel value);
 
-  /// @brief Method .ctor, addr 0x3be4700, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c44814, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description);
 
-  /// @brief Method get_Description, addr 0x3be46f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Description, addr 0x3c4480c, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertDescription get_Description();
 
-  /// @brief Method get_Level, addr 0x3be46f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Level, addr 0x3c44804, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::AlertLevel get_Level();
 
-  /// @brief Method inferAlertLevel, addr 0x3be476c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method inferAlertLevel, addr 0x3c44880, size 0x40, virtual false, abstract: false, final false
   inline void inferAlertLevel();
 
 protected:
@@ -81,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Alert(Alert const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15945 };
+
   /// @brief Field level, offset: 0x10, size: 0x1, def value: None
   ::Mono::Security::Interface::AlertLevel ___level;
 
   /// @brief Field description, offset: 0x11, size: 0x1, def value: None
   ::Mono::Security::Interface::AlertDescription ___description;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15910 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::Alert, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Interface::Alert, ___level) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Interface::Alert, ___description) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::Alert, 0x18>, "Size mismatch!");
 
 } // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::Alert);

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::Character::*)()>(&::UnityEngine::TextCore::Text::Character::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48bc7f0;
+  constexpr static std::size_t addrs = 0x4920e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Character*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::Character::*)(
     uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::TextCore::Glyph*)>(&::UnityEngine::TextCore::Text::Character::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48bc828;
+  constexpr static std::size_t addrs = 0x4920eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::Character::*)(uint32_t, uint32_t)>(
     &::UnityEngine::TextCore::Text::Character::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48bc8a8;
+  constexpr static std::size_t addrs = 0x4920f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,17 +49,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>());
-}
 inline void UnityEngine::TextCore::Text::Character::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Character*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
-                                                                                                  ::UnityEngine::TextCore::Glyph* glyph) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>(unicode, fontAsset, glyph));
 }
 inline void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -69,14 +62,21 @@ inline void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, ::Un
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Glyph*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, fontAsset, glyph);
 }
-inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, uint32_t glyphIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>(unicode, glyphIndex));
-}
 inline void UnityEngine::TextCore::Text::Character::_ctor(uint32_t unicode, uint32_t glyphIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Character*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, glyphIndex);
+}
+inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>());
+}
+inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
+                                                                                                  ::UnityEngine::TextCore::Glyph* glyph) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>(unicode, fontAsset, glyph));
+}
+inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::Character::New_ctor(uint32_t unicode, uint32_t glyphIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::Character*>(unicode, glyphIndex));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::Character::Character() {}

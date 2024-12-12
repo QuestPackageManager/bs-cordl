@@ -4,9 +4,6 @@
 #include "UnityEngine/zzzz__PenStatus_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__PenData_def.hpp"
-#include "UnityEngine/zzzz__PenEventType_def.hpp"
-#include "UnityEngine/zzzz__PenStatus_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "tilt", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "penStatus", ty: "::UnityEngine::PenStatus", modifiers: "", def_value: Some("{}") }, CppParam { name: "twist", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "pressure", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "contactType", ty: "::UnityEngine::PenEventType", modifiers: "", def_value: Some("{}") },

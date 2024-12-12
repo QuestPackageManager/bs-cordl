@@ -11,17 +11,16 @@ class EmbeddedAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Microsoft::CodeAnalysis::EmbeddedAttribute);
-// Type: Microsoft.CodeAnalysis::EmbeddedAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Microsoft::CodeAnalysis {
 // Is value type: false
-// CS Name: ::Microsoft.CodeAnalysis::EmbeddedAttribute*
+// CS Name: Microsoft.CodeAnalysis.EmbeddedAttribute
 class CORDL_TYPE EmbeddedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Microsoft::CodeAnalysis::EmbeddedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f35d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x485d280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   EmbeddedAttribute(EmbeddedAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

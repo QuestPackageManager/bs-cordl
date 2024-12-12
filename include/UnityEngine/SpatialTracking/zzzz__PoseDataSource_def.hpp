@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoseDataSource)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -13,7 +12,7 @@ namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
 }
 namespace UnityEngine::SpatialTracking {
-struct __TrackedPoseDriver__TrackedPose;
+struct TrackedPoseDriver_TrackedPose;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
@@ -30,25 +29,24 @@ class PoseDataSource;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SpatialTracking::PoseDataSource);
-// Type: UnityEngine.SpatialTracking::PoseDataSource
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
-// CS Name: ::UnityEngine.SpatialTracking::PoseDataSource*
+// CS Name: UnityEngine.SpatialTracking.PoseDataSource
 class CORDL_TYPE PoseDataSource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nodeStates, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
+  __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
 
-  /// @brief Method GetDataFromSource, addr 0x48b31c8, size 0x29c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
+  /// @brief Method GetDataFromSource, addr 0x4917858, size 0x29c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method GetNodePoseData, addr 0x48b2ed8, size 0x280, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ByRef<::UnityEngine::Pose> resultPose);
+  /// @brief Method GetNodePoseData, addr 0x4917568, size 0x280, virtual false, abstract: false, final false
+  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Pose> resultPose);
 
-  /// @brief Method TryGetDataFromSource, addr 0x48b3158, size 0x70, virtual false, abstract: false, final false
-  static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::__TrackedPoseDriver__TrackedPose poseSource, ByRef<::UnityEngine::Pose> resultPose);
+  /// @brief Method TryGetDataFromSource, addr 0x49177e8, size 0x70, virtual false, abstract: false, final false
+  static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::ByRef<::UnityEngine::Pose> resultPose);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();
 
@@ -69,7 +67,7 @@ public:
   PoseDataSource(PoseDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

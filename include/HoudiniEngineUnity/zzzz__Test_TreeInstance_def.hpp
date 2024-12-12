@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__TreeInstance_def.hpp"
 CORDL_MODULE_EXPORT(Test_TreeInstance)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 struct TreeInstance;
 }
@@ -18,11 +16,10 @@ class Test_TreeInstance;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TreeInstance);
-// Type: HoudiniEngineUnity::Test_TreeInstance
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.IEquivable`1<T>, System.Object, UnityEngine.TreeInstance
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_TreeInstance*
+// CS Name: HoudiniEngineUnity.Test_TreeInstance
 class CORDL_TYPE Test_TreeInstance : public ::System::Object {
 public:
   // Declarations
@@ -32,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a45844, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a9c4b4, size 0x21c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
@@ -43,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::TreeInstance value);
 
-  /// @brief Method .ctor, addr 0x3a45810, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a9c480, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TreeInstance self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
@@ -63,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_TreeInstance(Test_TreeInstance const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11921 };
+
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::UnityEngine::TreeInstance ___self;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11888 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_TreeInstance, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::Test_TreeInstance, ___self) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_TreeInstance, 0x38>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_TreeInstance);

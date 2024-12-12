@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteCutSoundEffectManager.hpp"
+#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffectManager_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
-#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
@@ -17,63 +17,63 @@
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__NoteCutSoundEffectManager__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__NoteCutSoundEffectManager__InitData::*)(bool, bool)>(
-    &::GlobalNamespace::__NoteCutSoundEffectManager__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager_InitData::*)(bool, bool)>(
+    &::GlobalNamespace::NoteCutSoundEffectManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3a7bf68;
+  constexpr static std::size_t addrs = 0x3ad3388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_get_useTestAudioClips() {
+constexpr bool& GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_get_useTestAudioClips() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useTestAudioClips;
 }
-constexpr bool const& GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_get_useTestAudioClips() const {
+constexpr bool const& GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_get_useTestAudioClips() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useTestAudioClips;
 }
-constexpr void GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_set_useTestAudioClips(bool value) {
+constexpr void GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_set_useTestAudioClips(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useTestAudioClips = value;
 }
-constexpr bool& GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_get_ignoreBadCuts() {
+constexpr bool& GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_get_ignoreBadCuts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreBadCuts;
 }
-constexpr bool const& GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_get_ignoreBadCuts() const {
+constexpr bool const& GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_get_ignoreBadCuts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ignoreBadCuts;
 }
-constexpr void GlobalNamespace::__NoteCutSoundEffectManager__InitData::__cordl_internal_set_ignoreBadCuts(bool value) {
+constexpr void GlobalNamespace::NoteCutSoundEffectManager_InitData::__cordl_internal_set_ignoreBadCuts(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ignoreBadCuts = value;
 }
-inline ::GlobalNamespace::__NoteCutSoundEffectManager__InitData* GlobalNamespace::__NoteCutSoundEffectManager__InitData::New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*>(useTestAudioClips, ignoreBadCuts));
-}
-inline void GlobalNamespace::__NoteCutSoundEffectManager__InitData::_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
+inline void GlobalNamespace::NoteCutSoundEffectManager_InitData::_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, useTestAudioClips, ignoreBadCuts);
 }
+inline ::GlobalNamespace::NoteCutSoundEffectManager_InitData* GlobalNamespace::NoteCutSoundEffectManager_InitData::New_ctor(bool useTestAudioClips, bool ignoreBadCuts) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutSoundEffectManager_InitData*>(useTestAudioClips, ignoreBadCuts));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__NoteCutSoundEffectManager__InitData::__NoteCutSoundEffectManager__InitData() {}
+constexpr ::GlobalNamespace::NoteCutSoundEffectManager_InitData::NoteCutSoundEffectManager_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::NoteCutSoundEffectManager.get_handleWrongSaberTypeAsGood
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(
     &::GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a7adb4;
+  constexpr static std::size_t addrs = 0x3ad21cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(bool)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3a7adbc;
+  constexpr static std::size_t addrs = 0x3ad21d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::Start)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3a7adc8;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x3ad21e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), "Start",
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3a7b1b4;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x3ad25d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(
     &::GlobalNamespace::NoteCutSoundEffectManager::LateUpdate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3a7b45c;
+  constexpr static std::size_t addrs = 0x3ad287c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x3a7b504;
+  constexpr static std::size_t addrs = 0x3ad2924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,15 +155,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(
-    ::GlobalNamespace::NoteController*, ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut)> {
+    ::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3a7bac8;
+  constexpr static std::size_t addrs = 0x3ad2ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
     return ___internal_method;
   }
 };
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3a7bc78;
+  constexpr static std::size_t addrs = 0x3ad3098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteCutSoundEffect*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a7be18;
+  constexpr static std::size_t addrs = 0x3ad3238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::IsSupportedNote)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3a7ba94;
+  constexpr static std::size_t addrs = 0x3ad2eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a7bef0;
+  constexpr static std::size_t addrs = 0x3ad3310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), ".ctor",
@@ -225,14 +225,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
-constexpr GlobalNamespace::NoteCutSoundEffectManager::operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*() noexcept {
-  return static_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
-constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* GlobalNamespace::NoteCutSoundEffectManager::i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept {
-  return static_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
@@ -297,15 +289,15 @@ constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____testAudioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__NoteCutSoundEffectManager__InitData*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::NoteCutSoundEffectManager_InitData*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*> const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::NoteCutSoundEffectManager_InitData* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__initData(::GlobalNamespace::__NoteCutSoundEffectManager__InitData* value) {
+constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__initData(::GlobalNamespace::NoteCutSoundEffectManager_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -313,7 +305,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::NoteCutSoun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -333,15 +325,15 @@ constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__NoteCutSoundEffect__Pool*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEffectPool() {
+constexpr ::GlobalNamespace::NoteCutSoundEffect_Pool*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEffectPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutSoundEffectPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffect__Pool*> const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEffectPool() const {
+constexpr ::GlobalNamespace::NoteCutSoundEffect_Pool* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEffectPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutSoundEffectPool;
 }
-constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__noteCutSoundEffectPool(::GlobalNamespace::__NoteCutSoundEffect__Pool* value) {
+constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__noteCutSoundEffectPool(::GlobalNamespace::NoteCutSoundEffect_Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____noteCutSoundEffectPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -373,8 +365,7 @@ constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomLongCutSoundPicker;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const&
-GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__randomLongCutSoundPicker() const {
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__randomLongCutSoundPicker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomLongCutSoundPicker;
 }
@@ -386,8 +377,7 @@ constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomShortCutSoundPicker;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const&
-GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__randomShortCutSoundPicker() const {
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__randomShortCutSoundPicker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomShortCutSoundPicker;
 }
@@ -472,7 +462,7 @@ GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutSoundEffectPoolContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>*> const&
+constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>* const&
 GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__noteCutSoundEffectPoolContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteCutSoundEffectPoolContainer;
@@ -514,11 +504,11 @@ inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned(::G
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController);
 }
-inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
+inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), "HandleNoteWasCut", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteController*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteController, noteCutInfo);
 }
 inline void GlobalNamespace::NoteCutSoundEffectManager::HandleNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController) {
@@ -539,13 +529,21 @@ inline bool GlobalNamespace::NoteCutSoundEffectManager::IsSupportedNote(::Global
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, noteData);
 }
-inline ::GlobalNamespace::NoteCutSoundEffectManager* GlobalNamespace::NoteCutSoundEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutSoundEffectManager*>());
-}
 inline void GlobalNamespace::NoteCutSoundEffectManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoteCutSoundEffectManager* GlobalNamespace::NoteCutSoundEffectManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutSoundEffectManager*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
+constexpr GlobalNamespace::NoteCutSoundEffectManager::operator ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*() noexcept {
+  return static_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
+constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* GlobalNamespace::NoteCutSoundEffectManager::i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept {
+  return static_cast<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutSoundEffectManager::NoteCutSoundEffectManager() {}

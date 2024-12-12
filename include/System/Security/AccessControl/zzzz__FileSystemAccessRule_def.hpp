@@ -26,11 +26,10 @@ class FileSystemAccessRule;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemAccessRule);
-// Type: System.Security.AccessControl::FileSystemAccessRule
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.AccessRule
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::FileSystemAccessRule*
+// CS Name: System.Security.AccessControl.FileSystemAccessRule
 class CORDL_TYPE FileSystemAccessRule : public ::System::Security::AccessControl::AccessRule {
 public:
   // Declarations
@@ -42,12 +41,12 @@ public:
                                                                                   ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x3c6403c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc41b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                     ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                     ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_FileSystemRights, addr 0x3c64044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileSystemRights, addr 0x3cc41b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
 
 protected:

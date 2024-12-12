@@ -19,42 +19,41 @@ class UIRUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIRUtility);
-// Type: UnityEngine.UIElements::UIRUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UIRUtility*
+// CS Name: UnityEngine.UIElements.UIRUtility
 class CORDL_TYPE UIRUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field k_DefaultShaderName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_DefaultShaderName, put = setStaticF_k_DefaultShaderName)) ::StringW k_DefaultShaderName;
+  __declspec(property(get = getStaticF_k_DefaultShaderName, put = setStaticF_k_DefaultShaderName)) ::StringW k_DefaultShaderName;
 
   /// @brief Field k_DefaultWorldSpaceShaderName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName)) ::StringW k_DefaultWorldSpaceShaderName;
+  __declspec(property(get = getStaticF_k_DefaultWorldSpaceShaderName, put = setStaticF_k_DefaultWorldSpaceShaderName)) ::StringW k_DefaultWorldSpaceShaderName;
 
-  /// @brief Method Destroy, addr 0x4a0108c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4a6599c, size 0xcc, virtual false, abstract: false, final false
   static inline void Destroy(::UnityEngine::Object* obj);
 
-  /// @brief Method GetNextPow2, addr 0x4a0118c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2, addr 0x4a65a9c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2(int32_t n);
 
-  /// @brief Method GetNextPow2Exp, addr 0x4a011a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetNextPow2Exp, addr 0x4a65ab8, size 0x30, virtual false, abstract: false, final false
   static inline int32_t GetNextPow2Exp(int32_t n);
 
-  /// @brief Method GetPrevPow2, addr 0x4a01158, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetPrevPow2, addr 0x4a65a68, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetPrevPow2(int32_t n);
 
-  /// @brief Method IsElementSelfHidden, addr 0x4a00fe0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsElementSelfHidden, addr 0x4a658f0, size 0xac, virtual false, abstract: false, final false
   static inline bool IsElementSelfHidden(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsRoundRect, addr 0x4a00d54, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method IsRoundRect, addr 0x4a65664, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsRoundRect(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsVectorImageBackground, addr 0x4a00f48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsVectorImageBackground, addr 0x4a65858, size 0x88, virtual false, abstract: false, final false
   static inline bool IsVectorImageBackground(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method ShapeWindingIsClockwise, addr 0x4a00cd4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShapeWindingIsClockwise, addr 0x4a655e4, size 0x80, virtual false, abstract: false, final false
   static inline bool ShapeWindingIsClockwise(int32_t maskDepth, int32_t stencilRef);
 
   static inline ::StringW getStaticF_k_DefaultShaderName();
@@ -80,7 +79,7 @@ public:
   UIRUtility(UIRUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

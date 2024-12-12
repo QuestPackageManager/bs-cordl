@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Cryptography::MD2Managed::*)(int32_t)>(
     &::Mono::Security::Cryptography::MD2Managed::Padding)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c01f4c;
+  constexpr static std::size_t addrs = 0x3c62060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)()>(&::Mono::Security::Cryptography::MD2Managed::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c01ea8;
+  constexpr static std::size_t addrs = 0x3c61fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::MD2Managed*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)()>(&::Mono::Security::Cryptography::MD2Managed::Initialize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c01fe8;
+  constexpr static std::size_t addrs = 0x3c620fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Security::Cryptography::MD2Managed::HashCore)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c02048;
+  constexpr static std::size_t addrs = 0x3c6215c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Cryptography::MD2Managed::*)()>(
     &::Mono::Security::Cryptography::MD2Managed::HashFinal)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c02388;
+  constexpr static std::size_t addrs = 0x3c6249c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::MD2Managed::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3c02124;
+  constexpr static std::size_t addrs = 0x3c62238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -166,9 +166,6 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::MD2Man
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, nLength);
 }
-inline ::Mono::Security::Cryptography::MD2Managed* Mono::Security::Cryptography::MD2Managed::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Cryptography::MD2Managed*>());
-}
 inline void Mono::Security::Cryptography::MD2Managed::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::MD2Managed*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -198,6 +195,9 @@ inline void Mono::Security::Cryptography::MD2Managed::MD2Transform(::ArrayW<uint
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, checksum, block, index);
+}
+inline ::Mono::Security::Cryptography::MD2Managed* Mono::Security::Cryptography::MD2Managed::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Cryptography::MD2Managed*>());
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Cryptography::MD2Managed::MD2Managed() {}

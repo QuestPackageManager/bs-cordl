@@ -6,298 +6,290 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Initialization)
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__AsyncUploadTimeSlicedUpdate;
+struct Initialization_AsyncUploadTimeSlicedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__DirectorSampleTime;
+struct Initialization_DirectorSampleTime;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__ProfilerStartFrame;
+struct Initialization_ProfilerStartFrame;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeInputs;
+struct Initialization_SynchronizeInputs;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeState;
+struct Initialization_SynchronizeState;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__UpdateCameraMotionVectors;
+struct Initialization_UpdateCameraMotionVectors;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__XREarlyUpdate;
+struct Initialization_XREarlyUpdate;
 }
 // Forward declare root types
 namespace UnityEngine::PlayerLoop {
 struct Initialization;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__AsyncUploadTimeSlicedUpdate;
+struct Initialization_AsyncUploadTimeSlicedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__DirectorSampleTime;
+struct Initialization_DirectorSampleTime;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__ProfilerStartFrame;
+struct Initialization_ProfilerStartFrame;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeInputs;
+struct Initialization_SynchronizeInputs;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__SynchronizeState;
+struct Initialization_SynchronizeState;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__UpdateCameraMotionVectors;
+struct Initialization_UpdateCameraMotionVectors;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__XREarlyUpdate;
+struct Initialization_XREarlyUpdate;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__AsyncUploadTimeSlicedUpdate);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__DirectorSampleTime);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__ProfilerStartFrame);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__SynchronizeState);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__UpdateCameraMotionVectors);
-MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate);
-// Type: ::ProfilerStartFrame
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_SynchronizeState);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors);
+MARK_VAL_T(::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate);
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::ProfilerStartFrame
+// CS Name: UnityEngine.PlayerLoop.Initialization/ProfilerStartFrame
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__ProfilerStartFrame {
+struct CORDL_TYPE Initialization_ProfilerStartFrame {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__ProfilerStartFrame();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_ProfilerStartFrame();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10982 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__ProfilerStartFrame, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::UpdateCameraMotionVectors
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::UpdateCameraMotionVectors
+// CS Name: UnityEngine.PlayerLoop.Initialization/UpdateCameraMotionVectors
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__UpdateCameraMotionVectors {
+struct CORDL_TYPE Initialization_UpdateCameraMotionVectors {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__UpdateCameraMotionVectors();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_UpdateCameraMotionVectors();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__UpdateCameraMotionVectors, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::DirectorSampleTime
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::DirectorSampleTime
+// CS Name: UnityEngine.PlayerLoop.Initialization/DirectorSampleTime
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__DirectorSampleTime {
+struct CORDL_TYPE Initialization_DirectorSampleTime {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__DirectorSampleTime();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_DirectorSampleTime();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__DirectorSampleTime, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::AsyncUploadTimeSlicedUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::AsyncUploadTimeSlicedUpdate
+// CS Name: UnityEngine.PlayerLoop.Initialization/AsyncUploadTimeSlicedUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__AsyncUploadTimeSlicedUpdate {
+struct CORDL_TYPE Initialization_AsyncUploadTimeSlicedUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__AsyncUploadTimeSlicedUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_AsyncUploadTimeSlicedUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__AsyncUploadTimeSlicedUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::SynchronizeState
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::SynchronizeState
+// CS Name: UnityEngine.PlayerLoop.Initialization/SynchronizeState
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__SynchronizeState {
+struct CORDL_TYPE Initialization_SynchronizeState {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__SynchronizeState();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_SynchronizeState();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__SynchronizeState, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_SynchronizeState, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::SynchronizeInputs
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::SynchronizeInputs
+// CS Name: UnityEngine.PlayerLoop.Initialization/SynchronizeInputs
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__SynchronizeInputs {
+struct CORDL_TYPE Initialization_SynchronizeInputs {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__SynchronizeInputs();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_SynchronizeInputs();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: ::XREarlyUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::Initialization::XREarlyUpdate
+// CS Name: UnityEngine.PlayerLoop.Initialization/XREarlyUpdate
 #pragma pack(push, 0)
-struct CORDL_TYPE __Initialization__XREarlyUpdate {
+struct CORDL_TYPE Initialization_XREarlyUpdate {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Initialization__XREarlyUpdate();
-
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+  constexpr Initialization_XREarlyUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11021 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate, 0x1>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::PlayerLoop
-// Type: UnityEngine.PlayerLoop::Initialization
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// CS Name: ::UnityEngine.PlayerLoop::Initialization
+// CS Name: UnityEngine.PlayerLoop.Initialization
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization {
 public:
   // Declarations
-  using AsyncUploadTimeSlicedUpdate = ::UnityEngine::PlayerLoop::__Initialization__AsyncUploadTimeSlicedUpdate;
+  using AsyncUploadTimeSlicedUpdate = ::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate;
 
-  using DirectorSampleTime = ::UnityEngine::PlayerLoop::__Initialization__DirectorSampleTime;
+  using DirectorSampleTime = ::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime;
 
-  using ProfilerStartFrame = ::UnityEngine::PlayerLoop::__Initialization__ProfilerStartFrame;
+  using ProfilerStartFrame = ::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame;
 
-  using SynchronizeInputs = ::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs;
+  using SynchronizeInputs = ::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs;
 
-  using SynchronizeState = ::UnityEngine::PlayerLoop::__Initialization__SynchronizeState;
+  using SynchronizeState = ::UnityEngine::PlayerLoop::Initialization_SynchronizeState;
 
-  using UpdateCameraMotionVectors = ::UnityEngine::PlayerLoop::__Initialization__UpdateCameraMotionVectors;
+  using UpdateCameraMotionVectors = ::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors;
 
-  using XREarlyUpdate = ::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate;
+  using XREarlyUpdate = ::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Initialization();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10989 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -307,10 +299,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::Initial
 
 } // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization, "UnityEngine.PlayerLoop", "Initialization");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__AsyncUploadTimeSlicedUpdate, "UnityEngine.PlayerLoop", "Initialization/AsyncUploadTimeSlicedUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__DirectorSampleTime, "UnityEngine.PlayerLoop", "Initialization/DirectorSampleTime");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__ProfilerStartFrame, "UnityEngine.PlayerLoop", "Initialization/ProfilerStartFrame");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__SynchronizeInputs, "UnityEngine.PlayerLoop", "Initialization/SynchronizeInputs");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__SynchronizeState, "UnityEngine.PlayerLoop", "Initialization/SynchronizeState");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__UpdateCameraMotionVectors, "UnityEngine.PlayerLoop", "Initialization/UpdateCameraMotionVectors");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate, "UnityEngine.PlayerLoop", "Initialization/XREarlyUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_AsyncUploadTimeSlicedUpdate, "UnityEngine.PlayerLoop", "Initialization/AsyncUploadTimeSlicedUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_DirectorSampleTime, "UnityEngine.PlayerLoop", "Initialization/DirectorSampleTime");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_ProfilerStartFrame, "UnityEngine.PlayerLoop", "Initialization/ProfilerStartFrame");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_SynchronizeInputs, "UnityEngine.PlayerLoop", "Initialization/SynchronizeInputs");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_SynchronizeState, "UnityEngine.PlayerLoop", "Initialization/SynchronizeState");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_UpdateCameraMotionVectors, "UnityEngine.PlayerLoop", "Initialization/UpdateCameraMotionVectors");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::Initialization_XREarlyUpdate, "UnityEngine.PlayerLoop", "Initialization/XREarlyUpdate");

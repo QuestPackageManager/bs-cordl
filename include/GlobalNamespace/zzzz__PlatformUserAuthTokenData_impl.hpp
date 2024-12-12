@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformUserAuthTokenData::*)()>(
     &::GlobalNamespace::PlatformUserAuthTokenData::get_token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401c668;
+  constexpr static std::size_t addrs = 0x407d920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformUserAuthTokenData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformUserAuthTokenData::*)(::StringW)>(
     &::GlobalNamespace::PlatformUserAuthTokenData::set_token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401c670;
+  constexpr static std::size_t addrs = 0x407d928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlatformEnvironment (::GlobalNamespace::PlatformUserAuthTokenData::*)()>(
     &::GlobalNamespace::PlatformUserAuthTokenData::get_validPlatformEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401c678;
+  constexpr static std::size_t addrs = 0x407d930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformUserAuthTokenData*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformUserAuthTokenData::*)(::GlobalNamespace::PlatformEnvironment)>(
     &::GlobalNamespace::PlatformUserAuthTokenData::set_validPlatformEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401c680;
+  constexpr static std::size_t addrs = 0x407d938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformUserAuthTokenData::*)(::StringW, ::GlobalNamespace::PlatformEnvironment)>(
     &::GlobalNamespace::PlatformUserAuthTokenData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x401c688;
+  constexpr static std::size_t addrs = 0x407d940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,15 +124,15 @@ inline void GlobalNamespace::PlatformUserAuthTokenData::set_validPlatformEnviron
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformEnvironment>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::PlatformUserAuthTokenData* GlobalNamespace::PlatformUserAuthTokenData::New_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlatformUserAuthTokenData*>(token, validPlatformEnvironment));
-}
 inline void GlobalNamespace::PlatformUserAuthTokenData::_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformUserAuthTokenData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformEnvironment>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, token, validPlatformEnvironment);
+}
+inline ::GlobalNamespace::PlatformUserAuthTokenData* GlobalNamespace::PlatformUserAuthTokenData::New_ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlatformUserAuthTokenData*>(token, validPlatformEnvironment));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlatformUserAuthTokenData::PlatformUserAuthTokenData() {}

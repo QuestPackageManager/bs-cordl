@@ -11,20 +11,19 @@ class AbstractPoolContainer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AbstractPoolContainer);
-// Type: ::AbstractPoolContainer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AbstractPoolContainer*
+// CS Name: AbstractPoolContainer
 class CORDL_TYPE AbstractPoolContainer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method DespawnAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method DespawnAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DespawnAll();
 
   static inline ::GlobalNamespace::AbstractPoolContainer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3aa94ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b06440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   AbstractPoolContainer(AbstractPoolContainer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5006 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

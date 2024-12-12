@@ -16,108 +16,107 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__PauseMenuManager__InitData._ctor
+//  Writing Method size for method: ::GlobalNamespace::PauseMenuManager_InitData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__PauseMenuManager__InitData::*)(
-    ::StringW, ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, bool, bool)>(&::GlobalNamespace::__PauseMenuManager__InitData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager_InitData::*)(
+    ::StringW, ::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, bool, bool)>(&::GlobalNamespace::PauseMenuManager_InitData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b4b130;
+  constexpr static std::size_t addrs = 0x3bacb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PauseMenuManager__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_backButtonText() {
+constexpr ::StringW& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_backButtonText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backButtonText;
 }
-constexpr ::StringW const& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_backButtonText() const {
+constexpr ::StringW const& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_backButtonText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backButtonText;
 }
-constexpr void GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_set_backButtonText(::StringW value) {
+constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_backButtonText(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___backButtonText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_beatmapKey() {
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_beatmapKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_beatmapKey() const {
+constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_beatmapKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapKey;
 }
-constexpr void GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
+constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beatmapKey = value;
 }
-constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_beatmapLevel() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_beatmapLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_beatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr void GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
+constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_beatmapLevel(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_showRestartButton() {
+constexpr bool& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_showRestartButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showRestartButton;
 }
-constexpr bool const& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_showRestartButton() const {
+constexpr bool const& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_showRestartButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showRestartButton;
 }
-constexpr void GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_set_showRestartButton(bool value) {
+constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_showRestartButton(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showRestartButton = value;
 }
-constexpr bool& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_showLevelBar() {
+constexpr bool& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_showLevelBar() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLevelBar;
 }
-constexpr bool const& GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_get_showLevelBar() const {
+constexpr bool const& GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_get_showLevelBar() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showLevelBar;
 }
-constexpr void GlobalNamespace::__PauseMenuManager__InitData::__cordl_internal_set_showLevelBar(bool value) {
+constexpr void GlobalNamespace::PauseMenuManager_InitData::__cordl_internal_set_showLevelBar(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showLevelBar = value;
 }
-inline ::GlobalNamespace::__PauseMenuManager__InitData* GlobalNamespace::__PauseMenuManager__InitData::New_ctor(::StringW backButtonText, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                                                                ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton,
-                                                                                                                bool showLevelBar) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__PauseMenuManager__InitData*>(backButtonText, beatmapKey, beatmapLevel, showRestartButton, showLevelBar));
-}
-inline void GlobalNamespace::__PauseMenuManager__InitData::_ctor(::StringW backButtonText, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                 bool showRestartButton, bool showLevelBar) {
+inline void GlobalNamespace::PauseMenuManager_InitData::_ctor(::StringW backButtonText, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                              bool showRestartButton, bool showLevelBar) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__PauseMenuManager__InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, backButtonText, beatmapKey, beatmapLevel, showRestartButton, showLevelBar);
 }
+inline ::GlobalNamespace::PauseMenuManager_InitData* GlobalNamespace::PauseMenuManager_InitData::New_ctor(::StringW backButtonText, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
+                                                                                                          ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool showRestartButton, bool showLevelBar) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PauseMenuManager_InitData*>(backButtonText, beatmapKey, beatmapLevel, showRestartButton, showLevelBar));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__PauseMenuManager__InitData::__PauseMenuManager__InitData() {}
+constexpr ::GlobalNamespace::PauseMenuManager_InitData::PauseMenuManager_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::PauseMenuManager.add_didPressContinueButtonEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::add_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b49c04;
+  constexpr static std::size_t addrs = 0x3bab404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::remove_didPressContinueButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4a4a0;
+  constexpr static std::size_t addrs = 0x3babd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::add_didPressMenuButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b49d3c;
+  constexpr static std::size_t addrs = 0x3bab53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::remove_didPressMenuButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4a5d8;
+  constexpr static std::size_t addrs = 0x3babeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::add_didPressRestartButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b49ca0;
+  constexpr static std::size_t addrs = 0x3bab4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,11 +191,41 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::remove_didPressRestartButtonEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4a53c;
+  constexpr static std::size_t addrs = 0x3babe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "remove_didPressRestartButtonEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PauseMenuManager.add_didStartResumeAnimationEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
+    &::GlobalNamespace::PauseMenuManager::add_didStartResumeAnimationEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3bab2cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "add_didStartResumeAnimationEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PauseMenuManager.remove_didStartResumeAnimationEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
+    &::GlobalNamespace::PauseMenuManager::remove_didStartResumeAnimationEvent)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3babc48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "remove_didStartResumeAnimationEvent",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
@@ -207,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::add_didFinishResumeAnimationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b49b68;
+  constexpr static std::size_t addrs = 0x3bab368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)(::System::Action*)>(
     &::GlobalNamespace::PauseMenuManager::remove_didFinishResumeAnimationEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b4a404;
+  constexpr static std::size_t addrs = 0x3babce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Awake)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3b4ab60;
+  constexpr static std::size_t addrs = 0x3bac56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "Awake",
@@ -249,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3b4ad1c;
+  constexpr static std::size_t addrs = 0x3bac728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "Start",
@@ -262,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b4ae44;
+  constexpr static std::size_t addrs = 0x3bac850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "OnDestroy",
@@ -275,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::Update)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b4af20;
+  constexpr static std::size_t addrs = 0x3bac92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "Update",
@@ -288,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::ShowMenu)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b4a720;
+  constexpr static std::size_t addrs = 0x3bac000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "ShowMenu",
@@ -300,8 +329,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::StartResumeAnimation)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b4a9a0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x3bac32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(),
@@ -315,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(
     &::GlobalNamespace::PauseMenuManager::HandleResumeFromPauseAnimationDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b4b10c;
+  constexpr static std::size_t addrs = 0x3bacb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +358,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::MenuButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b4b0d4;
+  constexpr static std::size_t addrs = 0x3bacae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "MenuButtonPressed",
@@ -342,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::RestartButtonPressed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b4b088;
+  constexpr static std::size_t addrs = 0x3baca94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(),
@@ -355,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::ContinueButtonPressed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b4b050;
+  constexpr static std::size_t addrs = 0x3baca5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(),
@@ -368,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PauseMenuManager::*)()>(&::GlobalNamespace::PauseMenuManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4b128;
+  constexpr static std::size_t addrs = 0x3bacb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), ".ctor",
@@ -460,15 +489,15 @@ constexpr void GlobalNamespace::PauseMenuManager::__cordl_internal_set__pauseCon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pauseContainerTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__PauseMenuManager__InitData*& GlobalNamespace::PauseMenuManager::__cordl_internal_get__initData() {
+constexpr ::GlobalNamespace::PauseMenuManager_InitData*& GlobalNamespace::PauseMenuManager::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PauseMenuManager__InitData*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__initData() const {
+constexpr ::GlobalNamespace::PauseMenuManager_InitData* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::PauseMenuManager::__cordl_internal_set__initData(::GlobalNamespace::__PauseMenuManager__InitData* value) {
+constexpr void GlobalNamespace::PauseMenuManager::__cordl_internal_set__initData(::GlobalNamespace::PauseMenuManager_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -476,7 +505,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::PauseMenuManag
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -500,7 +529,7 @@ constexpr ::System::Action*& GlobalNamespace::PauseMenuManager::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressContinueButtonEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressContinueButtonEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressContinueButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressContinueButtonEvent;
 }
@@ -512,7 +541,7 @@ constexpr ::System::Action*& GlobalNamespace::PauseMenuManager::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressMenuButtonEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressMenuButtonEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressMenuButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressMenuButtonEvent;
 }
@@ -524,7 +553,7 @@ constexpr ::System::Action*& GlobalNamespace::PauseMenuManager::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressRestartButtonEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressRestartButtonEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didPressRestartButtonEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didPressRestartButtonEvent;
 }
@@ -532,11 +561,23 @@ constexpr void GlobalNamespace::PauseMenuManager::__cordl_internal_set_didPressR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressRestartButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::System::Action*& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didStartResumeAnimationEvent() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___didStartResumeAnimationEvent;
+}
+constexpr ::System::Action* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didStartResumeAnimationEvent() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___didStartResumeAnimationEvent;
+}
+constexpr void GlobalNamespace::PauseMenuManager::__cordl_internal_set_didStartResumeAnimationEvent(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didStartResumeAnimationEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Action*& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didFinishResumeAnimationEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishResumeAnimationEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didFinishResumeAnimationEvent() const {
+constexpr ::System::Action* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get_didFinishResumeAnimationEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishResumeAnimationEvent;
 }
@@ -548,7 +589,7 @@ constexpr ::HMUI::ButtonBinder*& GlobalNamespace::PauseMenuManager::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& GlobalNamespace::PauseMenuManager::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
@@ -601,6 +642,18 @@ inline void GlobalNamespace::PauseMenuManager::add_didPressRestartButtonEvent(::
 inline void GlobalNamespace::PauseMenuManager::remove_didPressRestartButtonEvent(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "remove_didPressRestartButtonEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::PauseMenuManager::add_didStartResumeAnimationEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "add_didStartResumeAnimationEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::PauseMenuManager::remove_didStartResumeAnimationEvent(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), "remove_didStartResumeAnimationEvent",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
@@ -667,13 +720,13 @@ inline void GlobalNamespace::PauseMenuManager::ContinueButtonPressed() {
                                                                              "ContinueButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PauseMenuManager* GlobalNamespace::PauseMenuManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PauseMenuManager*>());
-}
 inline void GlobalNamespace::PauseMenuManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PauseMenuManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::PauseMenuManager* GlobalNamespace::PauseMenuManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PauseMenuManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PauseMenuManager::PauseMenuManager() {}

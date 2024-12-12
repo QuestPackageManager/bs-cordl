@@ -14,11 +14,10 @@ class UxmlStyleTraits;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlStyleTraits);
-// Type: UnityEngine.UIElements::UxmlStyleTraits
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlStyleTraits*
+// CS Name: UnityEngine.UIElements.UxmlStyleTraits
 class CORDL_TYPE UxmlStyleTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
   // Declarations
@@ -33,17 +32,17 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlStyleTraits* New_ctor();
 
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Name() const;
+
   constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Name() const;
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Path() const;
 
   constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Path();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Path() const;
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Src() const;
 
   constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Src();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Src() const;
 
   constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Src(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a3a9e8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9f2f8, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,6 +67,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UxmlStyleTraits(UxmlStyleTraits const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
+
   /// @brief Field m_Name, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Name;
 
@@ -77,19 +79,16 @@ public:
   /// @brief Field m_Src, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Src;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlStyleTraits, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UxmlStyleTraits, ___m_Name) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UxmlStyleTraits, ___m_Path) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UxmlStyleTraits, ___m_Src) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlStyleTraits, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlStyleTraits);

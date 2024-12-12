@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::get_assetRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26e1a7c;
+  constexpr static std::size_t addrs = 0x27135e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e1abc;
+  constexpr static std::size_t addrs = 0x2713620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> (*)()>(
         &::GlobalNamespace::BeatmapCharacteristicInstaller::LoadCharacteristicCollectionAsync)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e1b38;
+  constexpr static std::size_t addrs = 0x271369c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicInstaller::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicInstaller::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26e1bb4;
+  constexpr static std::size_t addrs = 0x2713718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicInstaller*>::get(),
@@ -84,13 +84,13 @@ GlobalNamespace::BeatmapCharacteristicInstaller::LoadCharacteristicCollectionAsy
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>>, false>(
       nullptr, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapCharacteristicInstaller* GlobalNamespace::BeatmapCharacteristicInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicInstaller*>());
-}
 inline void GlobalNamespace::BeatmapCharacteristicInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapCharacteristicInstaller* GlobalNamespace::BeatmapCharacteristicInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapCharacteristicInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapCharacteristicInstaller::BeatmapCharacteristicInstaller() {}

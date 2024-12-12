@@ -5,44 +5,40 @@
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
+constexpr ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_get__receivedStates() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStates;
 }
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
+constexpr ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>,
+                   ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_get__receivedStates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedStates;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_set__receivedStates(
-    ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
-        value) {
+    ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____receivedStates, value);
 }
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
+constexpr ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*>&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_get__receivedDeltas() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
-constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
+constexpr ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>,
+                   ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*> const&
 GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_get__receivedDeltas() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedDeltas;
 }
 template <typename TStateTable, typename TType, typename TState>
 constexpr void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::__cordl_internal_set__receivedDeltas(
-    ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
-        value) {
+    ::ArrayW<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::StateBuffer_3_TimestampedStateTable<TStateTable, TType, TState>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____receivedDeltas, value);
 }
@@ -130,23 +126,21 @@ template <typename TStateTable, typename TType, typename TState> inline void Glo
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
 template <typename TStateTable, typename TType, typename TState>
-inline ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*
-GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::New_ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                                                                           ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>(size, interpolator, smoother));
-}
-/// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
-template <typename TStateTable, typename TType, typename TState>
-inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::_ctor(int32_t size, ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                                                                                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother) {
+inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::_ctor(int32_t size, ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                                                                                    ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, size, interpolator, smoother);
+}
+template <typename TStateTable, typename TType, typename TState>
+inline ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*
+GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::New_ctor(int32_t size, ::GlobalNamespace::StateBuffer_3_InterpolationDelegate<TStateTable, TType, TState>* interpolator,
+                                                                           ::GlobalNamespace::StateBuffer_3_SmoothingDelegate<TStateTable, TType, TState>* smoother) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>(size, interpolator, smoother));
 }
 // Ctor Parameters []
 template <typename TStateTable, typename TType, typename TState> constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::RemoteStateBuffer_3() {}

@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> (
         ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(&::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_Cache)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4061114;
+  constexpr static std::size_t addrs = 0x40c2428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4061198;
+  constexpr static std::size_t addrs = 0x40c24ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40611d8;
+  constexpr static std::size_t addrs = 0x40c24ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40611e0;
+  constexpr static std::size_t addrs = 0x40c24f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::Run)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40611e8;
+  constexpr static std::size_t addrs = 0x40c24fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x406121c;
+  constexpr static std::size_t addrs = 0x40c2530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,14 +143,14 @@ inline int32_t System::Linq::Expressions::Interpreter::CoalescingBranchInstructi
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
 }
-inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction*>());
-}
 inline void System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction*>());
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction::CoalescingBranchInstruction() {}

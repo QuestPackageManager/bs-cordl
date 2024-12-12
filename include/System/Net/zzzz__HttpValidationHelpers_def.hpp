@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpValidationHelpers)
 // Forward declare root types
@@ -13,18 +12,17 @@ class HttpValidationHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpValidationHelpers);
-// Type: System.Net::HttpValidationHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpValidationHelpers*
+// CS Name: System.Net.HttpValidationHelpers
 class CORDL_TYPE HttpValidationHelpers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_httpTrimCharacters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters)) ::ArrayW<char16_t, ::Array<char16_t>*> s_httpTrimCharacters;
+  __declspec(property(get = getStaticF_s_httpTrimCharacters, put = setStaticF_s_httpTrimCharacters)) ::ArrayW<char16_t, ::Array<char16_t>*> s_httpTrimCharacters;
 
-  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x44289c4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method IsInvalidMethodOrHeaderString, addr 0x4489cd8, size 0x100, virtual false, abstract: false, final false
   static inline bool IsInvalidMethodOrHeaderString(::StringW stringValue);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_httpTrimCharacters();
@@ -46,7 +44,7 @@ public:
   HttpValidationHelpers(HttpValidationHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9513 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

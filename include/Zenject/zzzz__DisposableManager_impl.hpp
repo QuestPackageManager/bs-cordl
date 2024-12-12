@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/DisposableManager.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
@@ -12,605 +13,605 @@
 #include "Zenject/zzzz__DisposableManager_def.hpp"
 #include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-//  Writing Method size for method: ::Zenject::__DisposableManager__DisposableInfo._ctor
+//  Writing Method size for method: ::Zenject::DisposableManager_DisposableInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager__DisposableInfo::*)(::System::IDisposable*, int32_t)>(
-    &::Zenject::__DisposableManager__DisposableInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager_DisposableInfo::*)(::System::IDisposable*, int32_t)>(
+    &::Zenject::DisposableManager_DisposableInfo::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ade750;
+  constexpr static std::size_t addrs = 0x4b43060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__DisposableInfo>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_DisposableInfo>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IDisposable*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void Zenject::__DisposableManager__DisposableInfo::_ctor(::System::IDisposable* disposable, int32_t priority) {
+inline void Zenject::DisposableManager_DisposableInfo::_ctor(::System::IDisposable* disposable, int32_t priority) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__DisposableInfo>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_DisposableInfo>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IDisposable*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposable, priority);
 }
-// Ctor Parameters [CppParam { name: "Disposable", ty: "::System::IDisposable*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Priority", ty: "int32_t", modifiers: "", def_value:
+// Ctor Parameters [CppParam { name: "Disposable", ty: "::System::IDisposable*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Priority", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::Zenject::__DisposableManager__DisposableInfo::__DisposableManager__DisposableInfo(::System::IDisposable* Disposable, int32_t Priority) noexcept {
+constexpr ::Zenject::DisposableManager_DisposableInfo::DisposableManager_DisposableInfo(::System::IDisposable* Disposable, int32_t Priority) noexcept {
   this->Disposable = Disposable;
   this->Priority = Priority;
 }
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager__DisposableInfo::__DisposableManager__DisposableInfo() {}
-//  Writing Method size for method: ::Zenject::__DisposableManager__LateDisposableInfo._ctor
+constexpr ::Zenject::DisposableManager_DisposableInfo::DisposableManager_DisposableInfo() {}
+//  Writing Method size for method: ::Zenject::DisposableManager_LateDisposableInfo._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager__LateDisposableInfo::*)(::Zenject::ILateDisposable*, int32_t)>(
-    &::Zenject::__DisposableManager__LateDisposableInfo::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager_LateDisposableInfo::*)(::Zenject::ILateDisposable*, int32_t)>(
+    &::Zenject::DisposableManager_LateDisposableInfo::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4ade764;
+  constexpr static std::size_t addrs = 0x4b43074;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ILateDisposable*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ILateDisposable*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager__LateDisposableInfo.__zenCreate
+//  Writing Method size for method: ::Zenject::DisposableManager_LateDisposableInfo.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__DisposableManager__LateDisposableInfo::__zenCreate)> {
+    &::Zenject::DisposableManager_LateDisposableInfo::__zenCreate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4adf8b4;
+  constexpr static std::size_t addrs = 0x4b441c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager__LateDisposableInfo.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::DisposableManager_LateDisposableInfo.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__DisposableManager__LateDisposableInfo::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager_LateDisposableInfo::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4adf9c0;
+  constexpr static std::size_t addrs = 0x4b442d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::ILateDisposable*& Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_get_LateDisposable() {
+constexpr ::Zenject::ILateDisposable*& Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_get_LateDisposable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateDisposable;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_get_LateDisposable() const {
+constexpr ::Zenject::ILateDisposable* const& Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_get_LateDisposable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___LateDisposable;
 }
-constexpr void Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_set_LateDisposable(::Zenject::ILateDisposable* value) {
+constexpr void Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_set_LateDisposable(::Zenject::ILateDisposable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___LateDisposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_get_Priority() {
+constexpr int32_t& Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_get_Priority() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
-constexpr int32_t const& Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_get_Priority() const {
+constexpr int32_t const& Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_get_Priority() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Priority;
 }
-constexpr void Zenject::__DisposableManager__LateDisposableInfo::__cordl_internal_set_Priority(int32_t value) {
+constexpr void Zenject::DisposableManager_LateDisposableInfo::__cordl_internal_set_Priority(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Priority = value;
 }
-inline ::Zenject::__DisposableManager__LateDisposableInfo* Zenject::__DisposableManager__LateDisposableInfo::New_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__DisposableManager__LateDisposableInfo*>(lateDisposable, priority));
-}
-inline void Zenject::__DisposableManager__LateDisposableInfo::_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority) {
+inline void Zenject::DisposableManager_LateDisposableInfo::_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::ILateDisposable*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lateDisposable, priority);
 }
-inline ::System::Object* Zenject::__DisposableManager__LateDisposableInfo::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::DisposableManager_LateDisposableInfo::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__DisposableManager__LateDisposableInfo::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager__LateDisposableInfo*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager_LateDisposableInfo::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager_LateDisposableInfo*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::DisposableManager_LateDisposableInfo* Zenject::DisposableManager_LateDisposableInfo::New_ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager_LateDisposableInfo*>(lateDisposable, priority));
+}
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager__LateDisposableInfo::__DisposableManager__LateDisposableInfo() {}
-//  Writing Method size for method: ::Zenject::__DisposableManager____c._ctor
+constexpr ::Zenject::DisposableManager_LateDisposableInfo::DisposableManager_LateDisposableInfo() {}
+//  Writing Method size for method: ::Zenject::DisposableManager___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager____c::*)()>(&::Zenject::__DisposableManager____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager___c::*)()>(&::Zenject::DisposableManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adfd14;
+  constexpr static std::size_t addrs = 0x4b44624;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c.__ctor_b__4_1
+//  Writing Method size for method: ::Zenject::DisposableManager___c.__ctor_b__4_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Zenject::__DisposableManager____c::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__DisposableManager____c::__ctor_b__4_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Nullable_1<int32_t> (::Zenject::DisposableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::DisposableManager___c::__ctor_b__4_1)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4adfd1c;
+  constexpr static std::size_t addrs = 0x4b4462c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c.__ctor_b__4_3
+//  Writing Method size for method: ::Zenject::DisposableManager___c.__ctor_b__4_3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::Zenject::__DisposableManager____c::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__DisposableManager____c::__ctor_b__4_3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Nullable_1<int32_t> (::Zenject::DisposableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::DisposableManager___c::__ctor_b__4_3)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4adfd7c;
+  constexpr static std::size_t addrs = 0x4b4468c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<.ctor>b__4_3", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<.ctor>b__4_3", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c._LateDispose_b__10_0
+//  Writing Method size for method: ::Zenject::DisposableManager___c._LateDispose_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__DisposableManager____c::*)(::Zenject::__DisposableManager__LateDisposableInfo*)>(
-    &::Zenject::__DisposableManager____c::_LateDispose_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::DisposableManager___c::*)(::Zenject::DisposableManager_LateDisposableInfo*)>(
+    &::Zenject::DisposableManager___c::_LateDispose_b__10_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4adfddc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<LateDispose>b__10_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__LateDisposableInfo*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::__DisposableManager____c._Dispose_b__11_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__DisposableManager____c::*)(::Zenject::__DisposableManager__DisposableInfo)>(
-    &::Zenject::__DisposableManager____c::_Dispose_b__11_0)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adfdf4;
+  constexpr static std::size_t addrs = 0x4b446ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<Dispose>b__11_0", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__DisposableInfo>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<LateDispose>b__10_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_LateDisposableInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c.__zenCreate
+//  Writing Method size for method: ::Zenject::DisposableManager___c._Dispose_b__11_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::DisposableManager___c::*)(::Zenject::DisposableManager_DisposableInfo)>(
+    &::Zenject::DisposableManager___c::_Dispose_b__11_0)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x4b44704;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<Dispose>b__11_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_DisposableInfo>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::DisposableManager___c.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__DisposableManager____c::__zenCreate)> {
+    &::Zenject::DisposableManager___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4adfdfc;
+  constexpr static std::size_t addrs = 0x4b4470c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::DisposableManager___c.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__DisposableManager____c::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4adfe50;
+  constexpr static std::size_t addrs = 0x4b44760;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Zenject::__DisposableManager____c::setStaticF___9(::Zenject::__DisposableManager____c* value) {
-  ::cordl_internals::setStaticField<::Zenject::__DisposableManager____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>(
-      std::forward<::Zenject::__DisposableManager____c*>(value));
+inline void Zenject::DisposableManager___c::setStaticF___9(::Zenject::DisposableManager___c* value) {
+  ::cordl_internals::setStaticField<::Zenject::DisposableManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>(
+      std::forward<::Zenject::DisposableManager___c*>(value));
 }
-inline ::Zenject::__DisposableManager____c* Zenject::__DisposableManager____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__DisposableManager____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>();
+inline ::Zenject::DisposableManager___c* Zenject::DisposableManager___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::DisposableManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>();
 }
-inline void Zenject::__DisposableManager____c::setStaticF___9__4_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* value) {
+inline void Zenject::DisposableManager___c::setStaticF___9__4_1(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*, "<>9__4_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* Zenject::__DisposableManager____c::getStaticF___9__4_1() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* Zenject::DisposableManager___c::getStaticF___9__4_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*, "<>9__4_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>();
 }
-inline void Zenject::__DisposableManager____c::setStaticF___9__4_3(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* value) {
+inline void Zenject::DisposableManager___c::setStaticF___9__4_3(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*, "<>9__4_3",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* Zenject::__DisposableManager____c::getStaticF___9__4_3() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>* Zenject::DisposableManager___c::getStaticF___9__4_3() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Nullable_1<int32_t>>*, "<>9__4_3",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>();
 }
-inline void Zenject::__DisposableManager____c::setStaticF___9__10_0(::System::Func_2<::Zenject::__DisposableManager__LateDisposableInfo*, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::__DisposableManager__LateDisposableInfo*, int32_t>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>(
-      std::forward<::System::Func_2<::Zenject::__DisposableManager__LateDisposableInfo*, int32_t>*>(value));
+inline void Zenject::DisposableManager___c::setStaticF___9__10_0(::System::Func_2<::Zenject::DisposableManager_LateDisposableInfo*, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::DisposableManager_LateDisposableInfo*, int32_t>*, "<>9__10_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>(
+      std::forward<::System::Func_2<::Zenject::DisposableManager_LateDisposableInfo*, int32_t>*>(value));
 }
-inline ::System::Func_2<::Zenject::__DisposableManager__LateDisposableInfo*, int32_t>* Zenject::__DisposableManager____c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::__DisposableManager__LateDisposableInfo*, int32_t>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>();
+inline ::System::Func_2<::Zenject::DisposableManager_LateDisposableInfo*, int32_t>* Zenject::DisposableManager___c::getStaticF___9__10_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::DisposableManager_LateDisposableInfo*, int32_t>*, "<>9__10_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>();
 }
-inline void Zenject::__DisposableManager____c::setStaticF___9__11_0(::System::Func_2<::Zenject::__DisposableManager__DisposableInfo, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::__DisposableManager__DisposableInfo, int32_t>*, "<>9__11_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>(
-      std::forward<::System::Func_2<::Zenject::__DisposableManager__DisposableInfo, int32_t>*>(value));
+inline void Zenject::DisposableManager___c::setStaticF___9__11_0(::System::Func_2<::Zenject::DisposableManager_DisposableInfo, int32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::Zenject::DisposableManager_DisposableInfo, int32_t>*, "<>9__11_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>(
+      std::forward<::System::Func_2<::Zenject::DisposableManager_DisposableInfo, int32_t>*>(value));
 }
-inline ::System::Func_2<::Zenject::__DisposableManager__DisposableInfo, int32_t>* Zenject::__DisposableManager____c::getStaticF___9__11_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::__DisposableManager__DisposableInfo, int32_t>*, "<>9__11_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get>();
+inline ::System::Func_2<::Zenject::DisposableManager_DisposableInfo, int32_t>* Zenject::DisposableManager___c::getStaticF___9__11_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::Zenject::DisposableManager_DisposableInfo, int32_t>*, "<>9__11_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get>();
 }
-inline ::Zenject::__DisposableManager____c* Zenject::__DisposableManager____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__DisposableManager____c*>());
-}
-inline void Zenject::__DisposableManager____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), ".ctor",
+inline void Zenject::DisposableManager___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Nullable_1<int32_t> Zenject::__DisposableManager____c::__ctor_b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline ::System::Nullable_1<int32_t> Zenject::DisposableManager___c::__ctor_b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<.ctor>b__4_1", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>, false>(this, ___internal_method, x);
 }
-inline ::System::Nullable_1<int32_t> Zenject::__DisposableManager____c::__ctor_b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline ::System::Nullable_1<int32_t> Zenject::DisposableManager___c::__ctor_b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<.ctor>b__4_3", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<.ctor>b__4_3", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<int32_t>, false>(this, ___internal_method, x);
 }
-inline int32_t Zenject::__DisposableManager____c::_LateDispose_b__10_0(::Zenject::__DisposableManager__LateDisposableInfo* x) {
+inline int32_t Zenject::DisposableManager___c::_LateDispose_b__10_0(::Zenject::DisposableManager_LateDisposableInfo* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<LateDispose>b__10_0", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__LateDisposableInfo*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<LateDispose>b__10_0", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_LateDisposableInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline int32_t Zenject::__DisposableManager____c::_Dispose_b__11_0(::Zenject::__DisposableManager__DisposableInfo x) {
+inline int32_t Zenject::DisposableManager___c::_Dispose_b__11_0(::Zenject::DisposableManager_DisposableInfo x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "<Dispose>b__11_0", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__DisposableInfo>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "<Dispose>b__11_0", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_DisposableInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__DisposableManager____c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::DisposableManager___c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__DisposableManager____c::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager___c::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::DisposableManager___c* Zenject::DisposableManager___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager___c*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager____c::__DisposableManager____c() {}
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_0._ctor
+constexpr ::Zenject::DisposableManager___c::DisposableManager___c() {}
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager____c__DisplayClass4_0::*)()>(
-    &::Zenject::__DisposableManager____c__DisplayClass4_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager___c__DisplayClass4_0::*)()>(
+    &::Zenject::DisposableManager___c__DisplayClass4_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ade748;
+  constexpr static std::size_t addrs = 0x4b43058;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_0.__ctor_b__0
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_0.__ctor_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__DisposableManager____c__DisplayClass4_0::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__DisposableManager____c__DisplayClass4_0::__ctor_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::DisposableManager___c__DisplayClass4_0::*)(
+    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::DisposableManager___c__DisplayClass4_0::__ctor_b__0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4ae0008;
+  constexpr static std::size_t addrs = 0x4b44918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(), "<.ctor>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(), "<.ctor>b__0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_0.__zenCreate
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__DisposableManager____c__DisplayClass4_0::__zenCreate)> {
+    &::Zenject::DisposableManager___c__DisplayClass4_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ae0088;
+  constexpr static std::size_t addrs = 0x4b44998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__DisposableManager____c__DisplayClass4_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager___c__DisplayClass4_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ae00dc;
+  constexpr static std::size_t addrs = 0x4b449ec;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::IDisposable*& Zenject::__DisposableManager____c__DisplayClass4_0::__cordl_internal_get_disposable() {
+constexpr ::System::IDisposable*& Zenject::DisposableManager___c__DisplayClass4_0::__cordl_internal_get_disposable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& Zenject::__DisposableManager____c__DisplayClass4_0::__cordl_internal_get_disposable() const {
+constexpr ::System::IDisposable* const& Zenject::DisposableManager___c__DisplayClass4_0::__cordl_internal_get_disposable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
-constexpr void Zenject::__DisposableManager____c__DisplayClass4_0::__cordl_internal_set_disposable(::System::IDisposable* value) {
+constexpr void Zenject::DisposableManager___c__DisplayClass4_0::__cordl_internal_set_disposable(::System::IDisposable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__DisposableManager____c__DisplayClass4_0* Zenject::__DisposableManager____c__DisplayClass4_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__DisposableManager____c__DisplayClass4_0*>());
-}
-inline void Zenject::__DisposableManager____c__DisplayClass4_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::DisposableManager___c__DisplayClass4_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__DisposableManager____c__DisplayClass4_0::__ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline bool Zenject::DisposableManager___c__DisplayClass4_0::__ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(), "<.ctor>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(), "<.ctor>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__DisposableManager____c__DisplayClass4_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::DisposableManager___c__DisplayClass4_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__DisposableManager____c__DisplayClass4_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_0*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager___c__DisplayClass4_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_0*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::DisposableManager___c__DisplayClass4_0* Zenject::DisposableManager___c__DisplayClass4_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager___c__DisplayClass4_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager____c__DisplayClass4_0::__DisposableManager____c__DisplayClass4_0() {}
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_1._ctor
+constexpr ::Zenject::DisposableManager___c__DisplayClass4_0::DisposableManager___c__DisplayClass4_0() {}
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_1._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager____c__DisplayClass4_1::*)()>(
-    &::Zenject::__DisposableManager____c__DisplayClass4_1::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager___c__DisplayClass4_1::*)()>(
+    &::Zenject::DisposableManager___c__DisplayClass4_1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ade75c;
+  constexpr static std::size_t addrs = 0x4b4306c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_1.__ctor_b__2
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_1.__ctor_b__2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__DisposableManager____c__DisplayClass4_1::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__DisposableManager____c__DisplayClass4_1::__ctor_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::DisposableManager___c__DisplayClass4_1::*)(
+    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::DisposableManager___c__DisplayClass4_1::__ctor_b__2)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4ae0294;
+  constexpr static std::size_t addrs = 0x4b44ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(), "<.ctor>b__2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(), "<.ctor>b__2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_1.__zenCreate
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_1.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__DisposableManager____c__DisplayClass4_1::__zenCreate)> {
+    &::Zenject::DisposableManager___c__DisplayClass4_1::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ae0314;
+  constexpr static std::size_t addrs = 0x4b44c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass4_1.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass4_1.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__DisposableManager____c__DisplayClass4_1::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager___c__DisplayClass4_1::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ae0368;
+  constexpr static std::size_t addrs = 0x4b44c78;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::ILateDisposable*& Zenject::__DisposableManager____c__DisplayClass4_1::__cordl_internal_get_lateDisposable() {
+constexpr ::Zenject::ILateDisposable*& Zenject::DisposableManager___c__DisplayClass4_1::__cordl_internal_get_lateDisposable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lateDisposable;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateDisposable*> const& Zenject::__DisposableManager____c__DisplayClass4_1::__cordl_internal_get_lateDisposable() const {
+constexpr ::Zenject::ILateDisposable* const& Zenject::DisposableManager___c__DisplayClass4_1::__cordl_internal_get_lateDisposable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lateDisposable;
 }
-constexpr void Zenject::__DisposableManager____c__DisplayClass4_1::__cordl_internal_set_lateDisposable(::Zenject::ILateDisposable* value) {
+constexpr void Zenject::DisposableManager___c__DisplayClass4_1::__cordl_internal_set_lateDisposable(::Zenject::ILateDisposable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lateDisposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__DisposableManager____c__DisplayClass4_1* Zenject::__DisposableManager____c__DisplayClass4_1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__DisposableManager____c__DisplayClass4_1*>());
-}
-inline void Zenject::__DisposableManager____c__DisplayClass4_1::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::DisposableManager___c__DisplayClass4_1::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__DisposableManager____c__DisplayClass4_1::__ctor_b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline bool Zenject::DisposableManager___c__DisplayClass4_1::__ctor_b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(), "<.ctor>b__2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(), "<.ctor>b__2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__DisposableManager____c__DisplayClass4_1::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::DisposableManager___c__DisplayClass4_1::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__DisposableManager____c__DisplayClass4_1::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass4_1*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager___c__DisplayClass4_1::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass4_1*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::DisposableManager___c__DisplayClass4_1* Zenject::DisposableManager___c__DisplayClass4_1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager___c__DisplayClass4_1*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager____c__DisplayClass4_1::__DisposableManager____c__DisplayClass4_1() {}
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass9_0._ctor
+constexpr ::Zenject::DisposableManager___c__DisplayClass4_1::DisposableManager___c__DisplayClass4_1() {}
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass9_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DisposableManager____c__DisplayClass9_0::*)()>(
-    &::Zenject::__DisposableManager____c__DisplayClass9_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager___c__DisplayClass9_0::*)()>(
+    &::Zenject::DisposableManager___c__DisplayClass9_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adea6c;
+  constexpr static std::size_t addrs = 0x4b4337c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass9_0._Remove_b__0
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass9_0._Remove_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__DisposableManager____c__DisplayClass9_0::*)(::Zenject::__DisposableManager__DisposableInfo)>(
-    &::Zenject::__DisposableManager____c__DisplayClass9_0::_Remove_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::DisposableManager___c__DisplayClass9_0::*)(::Zenject::DisposableManager_DisposableInfo)>(
+    &::Zenject::DisposableManager___c__DisplayClass9_0::_Remove_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4ae0520;
+  constexpr static std::size_t addrs = 0x4b44e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__DisposableInfo>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_DisposableInfo>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass9_0.__zenCreate
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass9_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__DisposableManager____c__DisplayClass9_0::__zenCreate)> {
+    &::Zenject::DisposableManager___c__DisplayClass9_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ae0530;
+  constexpr static std::size_t addrs = 0x4b44e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__DisposableManager____c__DisplayClass9_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::DisposableManager___c__DisplayClass9_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__DisposableManager____c__DisplayClass9_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager___c__DisplayClass9_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ae0584;
+  constexpr static std::size_t addrs = 0x4b44e94;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::IDisposable*& Zenject::__DisposableManager____c__DisplayClass9_0::__cordl_internal_get_disposable() {
+constexpr ::System::IDisposable*& Zenject::DisposableManager___c__DisplayClass9_0::__cordl_internal_get_disposable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& Zenject::__DisposableManager____c__DisplayClass9_0::__cordl_internal_get_disposable() const {
+constexpr ::System::IDisposable* const& Zenject::DisposableManager___c__DisplayClass9_0::__cordl_internal_get_disposable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposable;
 }
-constexpr void Zenject::__DisposableManager____c__DisplayClass9_0::__cordl_internal_set_disposable(::System::IDisposable* value) {
+constexpr void Zenject::DisposableManager___c__DisplayClass9_0::__cordl_internal_set_disposable(::System::IDisposable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___disposable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__DisposableManager____c__DisplayClass9_0* Zenject::__DisposableManager____c__DisplayClass9_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__DisposableManager____c__DisplayClass9_0*>());
-}
-inline void Zenject::__DisposableManager____c__DisplayClass9_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::DisposableManager___c__DisplayClass9_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__DisposableManager____c__DisplayClass9_0::_Remove_b__0(::Zenject::__DisposableManager__DisposableInfo x) {
+inline bool Zenject::DisposableManager___c__DisplayClass9_0::_Remove_b__0(::Zenject::DisposableManager_DisposableInfo x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::__DisposableManager__DisposableInfo>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(), "<Remove>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DisposableManager_DisposableInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__DisposableManager____c__DisplayClass9_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::DisposableManager___c__DisplayClass9_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__DisposableManager____c__DisplayClass9_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__DisposableManager____c__DisplayClass9_0*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager___c__DisplayClass9_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager___c__DisplayClass9_0*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::DisposableManager___c__DisplayClass9_0* Zenject::DisposableManager___c__DisplayClass9_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager___c__DisplayClass9_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__DisposableManager____c__DisplayClass9_0::__DisposableManager____c__DisplayClass9_0() {}
+constexpr ::Zenject::DisposableManager___c__DisplayClass9_0::DisposableManager___c__DisplayClass9_0() {}
 //  Writing Method size for method: ::Zenject::DisposableManager._ctor
 template <>
 
@@ -619,7 +620,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>*, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*)>(
     &::Zenject::DisposableManager::_ctor)> {
   constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x4addf78;
+  constexpr static std::size_t addrs = 0x4b42888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -637,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)(::System::IDisposable*)>(&::Zenject::DisposableManager::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ade794;
+  constexpr static std::size_t addrs = 0x4b430a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -651,7 +652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)(::System::IDisposable*, int32_t)>(&::Zenject::DisposableManager::Add)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4ade79c;
+  constexpr static std::size_t addrs = 0x4b430ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -666,7 +667,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)(::Zenject::ILateDisposable*)>(&::Zenject::DisposableManager::AddLate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ade854;
+  constexpr static std::size_t addrs = 0x4b43164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -681,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)(::Zenject::ILateDisposable*, int32_t)>(
     &::Zenject::DisposableManager::AddLate)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4ade85c;
+  constexpr static std::size_t addrs = 0x4b4316c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -696,7 +697,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)(::System::IDisposable*)>(&::Zenject::DisposableManager::Remove)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4ade944;
+  constexpr static std::size_t addrs = 0x4b43254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -710,7 +711,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)()>(&::Zenject::DisposableManager::LateDispose)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x4adea74;
+  constexpr static std::size_t addrs = 0x4b43384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager*>::get(), "LateDispose",
@@ -723,7 +724,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposableManager::*)()>(&::Zenject::DisposableManager::Dispose)> {
   constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x4adeeb8;
+  constexpr static std::size_t addrs = 0x4b437c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager*>::get(), "Dispose",
@@ -737,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::DisposableManager::__zenCreate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4adf2dc;
+  constexpr static std::size_t addrs = 0x4b43bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -751,7 +752,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DisposableManager::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4adf49c;
+  constexpr static std::size_t addrs = 0x4b43dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager*>::get(),
@@ -759,37 +760,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr Zenject::DisposableManager::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* Zenject::DisposableManager::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& Zenject::DisposableManager::__cordl_internal_get__disposables() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposableManager_DisposableInfo>*& Zenject::DisposableManager::__cordl_internal_get__disposables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*> const&
-Zenject::DisposableManager::__cordl_internal_get__disposables() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposableManager_DisposableInfo>* const& Zenject::DisposableManager::__cordl_internal_get__disposables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disposables;
 }
-constexpr void Zenject::DisposableManager::__cordl_internal_set__disposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>* value) {
+constexpr void Zenject::DisposableManager::__cordl_internal_set__disposables(::System::Collections::Generic::List_1<::Zenject::DisposableManager_DisposableInfo>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*& Zenject::DisposableManager::__cordl_internal_get__lateDisposables() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposableManager_LateDisposableInfo*>*& Zenject::DisposableManager::__cordl_internal_get__lateDisposables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>*> const&
-Zenject::DisposableManager::__cordl_internal_get__lateDisposables() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::DisposableManager_LateDisposableInfo*>* const& Zenject::DisposableManager::__cordl_internal_get__lateDisposables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateDisposables;
 }
-constexpr void Zenject::DisposableManager::__cordl_internal_set__lateDisposables(::System::Collections::Generic::List_1<::Zenject::__DisposableManager__LateDisposableInfo*>* value) {
+constexpr void Zenject::DisposableManager::__cordl_internal_set__lateDisposables(::System::Collections::Generic::List_1<::Zenject::DisposableManager_LateDisposableInfo*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lateDisposables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -816,12 +807,6 @@ constexpr bool const& Zenject::DisposableManager::__cordl_internal_get__lateDisp
 constexpr void Zenject::DisposableManager::__cordl_internal_set__lateDisposed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lateDisposed = value;
-}
-inline ::Zenject::DisposableManager* Zenject::DisposableManager::New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
-                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
-                                                                          ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
-                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager*>(disposables, priorities, lateDisposables, latePriorities));
 }
 inline void Zenject::DisposableManager::_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
                                               ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
@@ -888,6 +873,20 @@ inline ::Zenject::InjectTypeInfo* Zenject::DisposableManager::__zenCreateInjectT
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposableManager*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::DisposableManager* Zenject::DisposableManager::New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
+                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
+                                                                          ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
+                                                                          ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DisposableManager*>(disposables, priorities, lateDisposables, latePriorities));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr Zenject::DisposableManager::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* Zenject::DisposableManager::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::DisposableManager::DisposableManager() {}

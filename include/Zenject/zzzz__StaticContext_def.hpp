@@ -14,26 +14,25 @@ class StaticContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::StaticContext);
-// Type: Zenject::StaticContext
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::StaticContext*
+// CS Name: Zenject.StaticContext
 class CORDL_TYPE StaticContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__container, put = setStaticF__container)) ::Zenject::DiContainer* _container;
+  __declspec(property(get = getStaticF__container, put = setStaticF__container)) ::Zenject::DiContainer* _container;
 
-  /// @brief Method Clear, addr 0x4ac4c94, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4b295a4, size 0x48, virtual false, abstract: false, final false
   static inline void Clear();
 
   static inline ::Zenject::DiContainer* getStaticF__container();
 
-  /// @brief Method get_Container, addr 0x4ac07d8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4b250e8, size 0x88, virtual false, abstract: false, final false
   static inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_HasContainer, addr 0x4ac4cdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_HasContainer, addr 0x4b295ec, size 0x50, virtual false, abstract: false, final false
   static inline bool get_HasContainer();
 
   static inline void setStaticF__container(::Zenject::DiContainer* value);
@@ -53,7 +52,7 @@ public:
   StaticContext(StaticContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

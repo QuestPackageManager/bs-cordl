@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(NetworkPlayerOptionsTableCell)
 namespace GlobalNamespace {
 class INetworkPlayer;
@@ -24,11 +23,10 @@ class NetworkPlayerOptionsTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerOptionsTableCell);
-// Type: ::NetworkPlayerOptionsTableCell
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetworkPlayerOptionsTableCell*
+// CS Name: NetworkPlayerOptionsTableCell
 class CORDL_TYPE NetworkPlayerOptionsTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -47,32 +45,32 @@ public:
 
   __declspec(property(get = get_player, put = set_player)) ::GlobalNamespace::INetworkPlayer* player;
 
-  /// @brief Method Block, addr 0x3ba98b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x3c0c240, size 0xac, virtual false, abstract: false, final false
   inline void Block();
 
-  /// @brief Method Invite, addr 0x3ba9ab8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Invite, addr 0x3c0c444, size 0xac, virtual false, abstract: false, final false
   inline void Invite();
 
-  /// @brief Method Join, addr 0x3ba9a0c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x3c0c398, size 0xac, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Kick, addr 0x3ba9b64, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Kick, addr 0x3c0c4f0, size 0xac, virtual false, abstract: false, final false
   inline void Kick();
 
-  /// @brief Method Leave, addr 0x3ba9c10, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Leave, addr 0x3c0c59c, size 0xac, virtual false, abstract: false, final false
   inline void Leave();
 
   static inline ::GlobalNamespace::NetworkPlayerOptionsTableCell* New_ctor();
 
-  /// @brief Method Refresh, addr 0x3ba8d1c, size 0xb98, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3c0b6a8, size 0xb98, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Unblock, addr 0x3ba9960, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Unblock, addr 0x3c0c2ec, size 0xac, virtual false, abstract: false, final false
   inline void Unblock();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__buttonTexts() const;
 
@@ -82,9 +80,9 @@ public:
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get__buttons();
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__player();
+  constexpr ::GlobalNamespace::INetworkPlayer* const& __cordl_internal_get__player() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get__player() const;
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__player();
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -94,13 +92,13 @@ public:
 
   constexpr void __cordl_internal_set__player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3ba9cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0c648, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_player, addr 0x3ba8d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_player, addr 0x3c0b698, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
 
-  /// @brief Method set_player, addr 0x3ba8d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_player, addr 0x3c0b6a0, size 0x8, virtual false, abstract: false, final false
   inline void set_player(::GlobalNamespace::INetworkPlayer* value);
 
 protected:
@@ -117,6 +115,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetworkPlayerOptionsTableCell(NetworkPlayerOptionsTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
+
   /// @brief Field _buttons, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ____buttons;
 
@@ -129,14 +130,9 @@ public:
   /// @brief Field _player, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPlayer* ____player;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4826 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerOptionsTableCell, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttons) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonTexts) == 0x70, "Offset mismatch!");
@@ -144,6 +140,8 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____but
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____buttonBinder) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkPlayerOptionsTableCell, ____player) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayerOptionsTableCell, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NetworkPlayerOptionsTableCell);

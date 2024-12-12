@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EssCertIDv2)
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -28,16 +27,15 @@ class EssCertIDv2;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2);
-// Type: Org.BouncyCastle.Asn1.Ess::EssCertIDv2
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ess::EssCertIDv2*
+// CS Name: Org.BouncyCastle.Asn1.Ess.EssCertIDv2
 class CORDL_TYPE EssCertIDv2 : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field DefaultAlgID, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultAlgID, put = setStaticF_DefaultAlgID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultAlgID;
+  __declspec(property(get = getStaticF_DefaultAlgID, put = setStaticF_DefaultAlgID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DefaultAlgID;
 
   __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
@@ -52,10 +50,10 @@ public:
   /// @brief Field issuerSerial, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial)) ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
 
-  /// @brief Method GetCertHash, addr 0x22f27ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x2325ad8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method GetInstance, addr 0x22f2438, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2325724, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
@@ -69,20 +67,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22f2850, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2325b3c, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_certHash() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_certHash();
 
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
+
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial* const& __cordl_internal_get_issuerSerial() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_issuerSerial();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __cordl_internal_get_issuerSerial() const;
 
   constexpr void __cordl_internal_set_certHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -90,27 +88,27 @@ public:
 
   constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method .ctor, addr 0x22f27cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2325ab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0x22f2744, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2325a30, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x22f2734, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2325a20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0x22f27d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2325ac0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x22f24dc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23257c8, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultAlgID();
 
-  /// @brief Method get_HashAlgorithm, addr 0x22f27e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x2325ad0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IssuerSerial, addr 0x22f2848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x2325b34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
   static inline void setStaticF_DefaultAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
@@ -129,6 +127,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EssCertIDv2(EssCertIDv2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 163 };
+
   /// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___hashAlgorithm;
 
@@ -138,19 +139,16 @@ public:
   /// @brief Field issuerSerial, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::IssuerSerial* ___issuerSerial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 163 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2, ___hashAlgorithm) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2, ___certHash) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2, ___issuerSerial) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ess
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2);

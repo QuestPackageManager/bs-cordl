@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryFacetsChecker)
 namespace System::Collections {
@@ -25,29 +24,28 @@ class BinaryFacetsChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::BinaryFacetsChecker);
-// Type: System.Xml.Schema::BinaryFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.FacetsChecker
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::BinaryFacetsChecker*
+// CS Name: System.Xml.Schema.BinaryFacetsChecker
 class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x41ff004, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4260318, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x41fef74, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x4260288, size 0x90, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41ff1d0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x42604e4, size 0x124, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x41ff2f4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x4260608, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x41ff378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x426068c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +63,7 @@ public:
   BinaryFacetsChecker(BinaryFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7593 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/ExecutionContext.hpp"
-#include "System/Threading/zzzz__ExecutionContext_impl.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IllogicalCallContext_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
@@ -17,218 +17,217 @@
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Threading::__ExecutionContext__Flags::__ExecutionContext__Flags(int32_t value__) noexcept {
+constexpr ::System::Threading::ExecutionContext_Flags::ExecutionContext_Flags(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Threading::__ExecutionContext__Flags::__ExecutionContext__Flags() {}
-constexpr ::System::Threading::__ExecutionContext__Flags System::Threading::__ExecutionContext__Flags::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::Threading::__ExecutionContext__Flags System::Threading::__ExecutionContext__Flags::IsNewCapture{ static_cast<int32_t>(0x1) };
-constexpr ::System::Threading::__ExecutionContext__Flags System::Threading::__ExecutionContext__Flags::IsFlowSuppressed{ static_cast<int32_t>(0x2) };
-constexpr ::System::Threading::__ExecutionContext__Flags System::Threading::__ExecutionContext__Flags::IsPreAllocatedDefault{ static_cast<int32_t>(0x4) };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader._ctor
+constexpr ::System::Threading::ExecutionContext_Flags::ExecutionContext_Flags() {}
+constexpr ::System::Threading::ExecutionContext_Flags System::Threading::ExecutionContext_Flags::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Threading::ExecutionContext_Flags System::Threading::ExecutionContext_Flags::IsNewCapture{ static_cast<int32_t>(0x1) };
+constexpr ::System::Threading::ExecutionContext_Flags System::Threading::ExecutionContext_Flags::IsFlowSuppressed{ static_cast<int32_t>(0x2) };
+constexpr ::System::Threading::ExecutionContext_Flags System::Threading::ExecutionContext_Flags::IsPreAllocatedDefault{ static_cast<int32_t>(0x4) };
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__ExecutionContext__Reader::*)(::System::Threading::ExecutionContext*)>(
-    &::System::Threading::__ExecutionContext__Reader::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext_Reader::*)(::System::Threading::ExecutionContext*)>(
+    &::System::Threading::ExecutionContext_Reader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df4880;
+  constexpr static std::size_t addrs = 0x3e5492c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.DangerousGetRawExecutionContext
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.DangerousGetRawExecutionContext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (::System::Threading::__ExecutionContext__Reader::*)()>(
-    &::System::Threading::__ExecutionContext__Reader::DangerousGetRawExecutionContext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (::System::Threading::ExecutionContext_Reader::*)()>(
+    &::System::Threading::ExecutionContext_Reader::DangerousGetRawExecutionContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df4888;
+  constexpr static std::size_t addrs = 0x3e54934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "DangerousGetRawExecutionContext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "DangerousGetRawExecutionContext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.get_IsNull
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.get_IsNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::__ExecutionContext__Reader::*)()>(
-    &::System::Threading::__ExecutionContext__Reader::get_IsNull)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext_Reader::*)()>(
+    &::System::Threading::ExecutionContext_Reader::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3df3e64;
+  constexpr static std::size_t addrs = 0x3e53f10;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                                "get_IsNull", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.IsDefaultFTContext
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.IsDefaultFTContext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::__ExecutionContext__Reader::*)(bool)>(
-    &::System::Threading::__ExecutionContext__Reader::IsDefaultFTContext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext_Reader::*)(bool)>(
+    &::System::Threading::ExecutionContext_Reader::IsDefaultFTContext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3df3e74;
+  constexpr static std::size_t addrs = 0x3e53f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "IsDefaultFTContext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "IsDefaultFTContext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.get_IsFlowSuppressed
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.get_IsFlowSuppressed
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::__ExecutionContext__Reader::*)()>(
-    &::System::Threading::__ExecutionContext__Reader::get_IsFlowSuppressed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext_Reader::*)()>(
+    &::System::Threading::ExecutionContext_Reader::get_IsFlowSuppressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3df4890;
+  constexpr static std::size_t addrs = 0x3e5493c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                                "get_IsFlowSuppressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.get_SynchronizationContext
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.get_SynchronizationContext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::__ExecutionContext__Reader::*)()>(
-    &::System::Threading::__ExecutionContext__Reader::get_SynchronizationContext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::ExecutionContext_Reader::*)()>(
+    &::System::Threading::ExecutionContext_Reader::get_SynchronizationContext)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3df4150;
+  constexpr static std::size_t addrs = 0x3e541fc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                                "get_SynchronizationContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.get_SynchronizationContextNoFlow
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.get_SynchronizationContextNoFlow
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::__ExecutionContext__Reader::*)()>(
-    &::System::Threading::__ExecutionContext__Reader::get_SynchronizationContextNoFlow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::ExecutionContext_Reader::*)()>(
+    &::System::Threading::ExecutionContext_Reader::get_SynchronizationContextNoFlow)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3df4168;
+  constexpr static std::size_t addrs = 0x3e54214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "get_SynchronizationContextNoFlow",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "get_SynchronizationContextNoFlow",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.get_LogicalCallContext
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.get_LogicalCallContext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader (
-    ::System::Threading::__ExecutionContext__Reader::*)()>(&::System::Threading::__ExecutionContext__Reader::get_LogicalCallContext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader (
+    ::System::Threading::ExecutionContext_Reader::*)()>(&::System::Threading::ExecutionContext_Reader::get_LogicalCallContext)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3df45d8;
+  constexpr static std::size_t addrs = 0x3e54684;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                                "get_LogicalCallContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__ExecutionContext__Reader.HasSameLocalValues
+//  Writing Method size for method: ::System::Threading::ExecutionContext_Reader.HasSameLocalValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::__ExecutionContext__Reader::*)(::System::Threading::ExecutionContext*)>(
-    &::System::Threading::__ExecutionContext__Reader::HasSameLocalValues)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext_Reader::*)(::System::Threading::ExecutionContext*)>(
+    &::System::Threading::ExecutionContext_Reader::HasSameLocalValues)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3df3ee0;
+  constexpr static std::size_t addrs = 0x3e53f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "HasSameLocalValues", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "HasSameLocalValues", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Threading::__ExecutionContext__Reader::_ctor(::System::Threading::ExecutionContext* ec) {
+inline void System::Threading::ExecutionContext_Reader::_ctor(::System::Threading::ExecutionContext* ec) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ec);
 }
-inline ::System::Threading::ExecutionContext* System::Threading::__ExecutionContext__Reader::DangerousGetRawExecutionContext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext_Reader::DangerousGetRawExecutionContext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                              "DangerousGetRawExecutionContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::ExecutionContext*, false>(this, ___internal_method);
 }
-inline bool System::Threading::__ExecutionContext__Reader::get_IsNull() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
-                                                                             "get_IsNull", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool System::Threading::ExecutionContext_Reader::get_IsNull() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "get_IsNull",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Threading::__ExecutionContext__Reader::IsDefaultFTContext(bool ignoreSyncCtx) {
+inline bool System::Threading::ExecutionContext_Reader::IsDefaultFTContext(bool ignoreSyncCtx) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "IsDefaultFTContext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "IsDefaultFTContext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ignoreSyncCtx);
 }
-inline bool System::Threading::__ExecutionContext__Reader::get_IsFlowSuppressed() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+inline bool System::Threading::ExecutionContext_Reader::get_IsFlowSuppressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                              "get_IsFlowSuppressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Threading::SynchronizationContext* System::Threading::__ExecutionContext__Reader::get_SynchronizationContext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+inline ::System::Threading::SynchronizationContext* System::Threading::ExecutionContext_Reader::get_SynchronizationContext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                              "get_SynchronizationContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::SynchronizationContext*, false>(this, ___internal_method);
 }
-inline ::System::Threading::SynchronizationContext* System::Threading::__ExecutionContext__Reader::get_SynchronizationContextNoFlow() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+inline ::System::Threading::SynchronizationContext* System::Threading::ExecutionContext_Reader::get_SynchronizationContextNoFlow() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                              "get_SynchronizationContextNoFlow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::SynchronizationContext*, false>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader System::Threading::__ExecutionContext__Reader::get_LogicalCallContext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(),
+inline ::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader System::Threading::ExecutionContext_Reader::get_LogicalCallContext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(),
                                                                              "get_LogicalCallContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader, false>(this, ___internal_method);
 }
-inline bool System::Threading::__ExecutionContext__Reader::HasSameLocalValues(::System::Threading::ExecutionContext* other) {
+inline bool System::Threading::ExecutionContext_Reader::HasSameLocalValues(::System::Threading::ExecutionContext* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__ExecutionContext__Reader>::get(), "HasSameLocalValues", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext_Reader>::get(), "HasSameLocalValues", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-// Ctor Parameters [CppParam { name: "m_ec", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::System::Threading::__ExecutionContext__Reader::__ExecutionContext__Reader(::System::Threading::ExecutionContext* m_ec) noexcept {
+// Ctor Parameters [CppParam { name: "m_ec", ty: "::System::Threading::ExecutionContext*", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Threading::ExecutionContext_Reader::ExecutionContext_Reader(::System::Threading::ExecutionContext* m_ec) noexcept {
   this->m_ec = m_ec;
 }
 // Ctor Parameters []
-constexpr ::System::Threading::__ExecutionContext__Reader::__ExecutionContext__Reader() {}
+constexpr ::System::Threading::ExecutionContext_Reader::ExecutionContext_Reader() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Threading::__ExecutionContext__CaptureOptions::__ExecutionContext__CaptureOptions(int32_t value__) noexcept {
+constexpr ::System::Threading::ExecutionContext_CaptureOptions::ExecutionContext_CaptureOptions(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Threading::__ExecutionContext__CaptureOptions::__ExecutionContext__CaptureOptions() {}
-constexpr ::System::Threading::__ExecutionContext__CaptureOptions System::Threading::__ExecutionContext__CaptureOptions::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::Threading::__ExecutionContext__CaptureOptions System::Threading::__ExecutionContext__CaptureOptions::IgnoreSyncCtx{ static_cast<int32_t>(0x1) };
-constexpr ::System::Threading::__ExecutionContext__CaptureOptions System::Threading::__ExecutionContext__CaptureOptions::OptimizeDefaultCase{ static_cast<int32_t>(0x2) };
+constexpr ::System::Threading::ExecutionContext_CaptureOptions::ExecutionContext_CaptureOptions() {}
+constexpr ::System::Threading::ExecutionContext_CaptureOptions System::Threading::ExecutionContext_CaptureOptions::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Threading::ExecutionContext_CaptureOptions System::Threading::ExecutionContext_CaptureOptions::IgnoreSyncCtx{ static_cast<int32_t>(0x1) };
+constexpr ::System::Threading::ExecutionContext_CaptureOptions System::Threading::ExecutionContext_CaptureOptions::OptimizeDefaultCase{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::System::Threading::ExecutionContext.get_isNewCapture
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext::*)()>(&::System::Threading::ExecutionContext::get_isNewCapture)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3df36a0;
+  constexpr static std::size_t addrs = 0x3e5374c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -241,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(bool)>(&::System::Threading::ExecutionContext::set_isNewCapture)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3df36b4;
+  constexpr static std::size_t addrs = 0x3e53760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext::*)()>(&::System::Threading::ExecutionContext::get_isFlowSuppressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3df36c4;
+  constexpr static std::size_t addrs = 0x3e53770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -269,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(bool)>(
     &::System::Threading::ExecutionContext::set_isFlowSuppressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3df36d0;
+  constexpr static std::size_t addrs = 0x3e5377c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -284,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::get_IsPreAllocatedDefault)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3df36f0;
+  constexpr static std::size_t addrs = 0x3e5379c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -297,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)()>(&::System::Threading::ExecutionContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df36fc;
+  constexpr static std::size_t addrs = 0x3e537a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), ".ctor",
@@ -310,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(bool)>(&::System::Threading::ExecutionContext::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3df3704;
+  constexpr static std::size_t addrs = 0x3e537b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::IAsyncLocal*, ::System::Object*, bool)>(
     &::System::Threading::ExecutionContext::SetLocalValue)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3df3734;
+  constexpr static std::size_t addrs = 0x3e537e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::ExecutionContext*, ::System::Threading::ExecutionContext*)>(
     &::System::Threading::ExecutionContext::OnAsyncLocalContextChanged)> {
   constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x3df31e8;
+  constexpr static std::size_t addrs = 0x3e53294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::get_LogicalCallContext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3df3a88;
+  constexpr static std::size_t addrs = 0x3e53b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -371,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(
     &::System::Threading::ExecutionContext::set_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3aec;
+  constexpr static std::size_t addrs = 0x3e53b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IllogicalCallContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::get_IllogicalCallContext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3df3af4;
+  constexpr static std::size_t addrs = 0x3e53ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -400,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(::System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(
     &::System::Threading::ExecutionContext::set_IllogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3b58;
+  constexpr static std::size_t addrs = 0x3e53c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::get_SynchronizationContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3b60;
+  constexpr static std::size_t addrs = 0x3e53c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -429,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(::System::Threading::SynchronizationContext*)>(
     &::System::Threading::ExecutionContext::set_SynchronizationContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3b68;
+  constexpr static std::size_t addrs = 0x3e53c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::get_SynchronizationContextNoFlow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3b70;
+  constexpr static std::size_t addrs = 0x3e53c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -459,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(::System::Threading::SynchronizationContext*)>(
     &::System::Threading::ExecutionContext::set_SynchronizationContextNoFlow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df3b78;
+  constexpr static std::size_t addrs = 0x3e53c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -473,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)()>(&::System::Threading::ExecutionContext::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3df3b80;
+  constexpr static std::size_t addrs = 0x3e53c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "Dispose",
@@ -487,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::ExecutionContext*, ::System::Threading::ContextCallback*, ::System::Object*)>(
     &::System::Threading::ExecutionContext::Run)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3df0164;
+  constexpr static std::size_t addrs = 0x3e50210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -504,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::ExecutionContext*, ::System::Threading::ContextCallback*, ::System::Object*, bool)>(
     &::System::Threading::ExecutionContext::Run)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3df3b84;
+  constexpr static std::size_t addrs = 0x3e53c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -521,7 +520,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::ExecutionContext*, ::System::Threading::ContextCallback*, ::System::Object*)>(
     &::System::Threading::ExecutionContext::RunInternal)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3df3df4;
+  constexpr static std::size_t addrs = 0x3e53ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::ExecutionContext*, ::System::Threading::ContextCallback*, ::System::Object*, bool)>(
     &::System::Threading::ExecutionContext::RunInternal)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3df3c00;
+  constexpr static std::size_t addrs = 0x3e53cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,32 +551,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Threading::ExecutionContext.EstablishCopyOnWriteScope
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::Threading::ExecutionContextSwitcher>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::System::Threading::ExecutionContextSwitcher>)>(
     &::System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3df40ac;
+  constexpr static std::size_t addrs = 0x3e54158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "EstablishCopyOnWriteScope", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Threading::ExecutionContext.EstablishCopyOnWriteScope
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Thread*, bool, ByRef<::System::Threading::ExecutionContextSwitcher>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Thread*, bool, ::ByRef<::System::Threading::ExecutionContextSwitcher>)>(
     &::System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3df3f08;
+  constexpr static std::size_t addrs = 0x3e53fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "EstablishCopyOnWriteScope", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Thread*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
     return ___internal_method;
   }
 };
@@ -587,7 +586,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContextSwitcher (*)(::System::Threading::ExecutionContext*, bool)>(
     &::System::Threading::ExecutionContext::SetExecutionContext)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3df3f3c;
+  constexpr static std::size_t addrs = 0x3e53fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -603,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::CreateCopy)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3df4194;
+  constexpr static std::size_t addrs = 0x3e54240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "CreateCopy",
@@ -617,7 +616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (::System::Threading::ExecutionContext::*)()>(
     &::System::Threading::ExecutionContext::CreateMutableCopy)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3df42d4;
+  constexpr static std::size_t addrs = 0x3e54380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -630,7 +629,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::ExecutionContext::IsFlowSuppressed)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3df43cc;
+  constexpr static std::size_t addrs = 0x3e54478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(),
@@ -643,7 +642,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (*)()>(&::System::Threading::ExecutionContext::Capture)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3dec560;
+  constexpr static std::size_t addrs = 0x3e4c60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "Capture",
@@ -656,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ExecutionContext* (*)()>(&::System::Threading::ExecutionContext::FastCapture)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3df4588;
+  constexpr static std::size_t addrs = 0x3e54634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "FastCapture",
@@ -668,15 +667,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Threading::ExecutionContext* (*)(ByRef<::System::Threading::StackCrawlMark>, ::System::Threading::__ExecutionContext__CaptureOptions)>(&::System::Threading::ExecutionContext::Capture)> {
+    ::System::Threading::ExecutionContext* (*)(::ByRef<::System::Threading::StackCrawlMark>, ::System::Threading::ExecutionContext_CaptureOptions)>(&::System::Threading::ExecutionContext::Capture)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3df43fc;
+  constexpr static std::size_t addrs = 0x3e544a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "Capture", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::StackCrawlMark>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::__ExecutionContext__CaptureOptions>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext_CaptureOptions>::get() })));
     return ___internal_method;
   }
 };
@@ -686,7 +685,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::ExecutionContext::GetObjectData)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3df45f0;
+  constexpr static std::size_t addrs = 0x3e5469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -702,7 +701,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ExecutionContext::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Threading::ExecutionContext::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3df46fc;
+  constexpr static std::size_t addrs = 0x3e547a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ExecutionContext::*)(bool)>(&::System::Threading::ExecutionContext::IsDefaultFTContext)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3df3e90;
+  constexpr static std::size_t addrs = 0x3e53f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -726,27 +725,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::Threading::ExecutionContext::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Threading::ExecutionContext::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-constexpr System::Threading::ExecutionContext::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-constexpr ::System::Runtime::Serialization::ISerializable* System::Threading::ExecutionContext::i___System__Runtime__Serialization__ISerializable() noexcept {
-  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
-}
 constexpr ::System::Threading::SynchronizationContext*& System::Threading::ExecutionContext::__cordl_internal_get__syncContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& System::Threading::ExecutionContext::__cordl_internal_get__syncContext() const {
+constexpr ::System::Threading::SynchronizationContext* const& System::Threading::ExecutionContext::__cordl_internal_get__syncContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncContext;
 }
@@ -758,7 +741,7 @@ constexpr ::System::Threading::SynchronizationContext*& System::Threading::Execu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncContextNoFlow;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& System::Threading::ExecutionContext::__cordl_internal_get__syncContextNoFlow() const {
+constexpr ::System::Threading::SynchronizationContext* const& System::Threading::ExecutionContext::__cordl_internal_get__syncContextNoFlow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____syncContextNoFlow;
 }
@@ -770,8 +753,7 @@ constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext*& System::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logicalCallContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::LogicalCallContext*> const&
-System::Threading::ExecutionContext::__cordl_internal_get__logicalCallContext() const {
+constexpr ::System::Runtime::Remoting::Messaging::LogicalCallContext* const& System::Threading::ExecutionContext::__cordl_internal_get__logicalCallContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logicalCallContext;
 }
@@ -783,8 +765,7 @@ constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext*& System:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____illogicalCallContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IllogicalCallContext*> const&
-System::Threading::ExecutionContext::__cordl_internal_get__illogicalCallContext() const {
+constexpr ::System::Runtime::Remoting::Messaging::IllogicalCallContext* const& System::Threading::ExecutionContext::__cordl_internal_get__illogicalCallContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____illogicalCallContext;
 }
@@ -792,15 +773,15 @@ constexpr void System::Threading::ExecutionContext::__cordl_internal_set__illogi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____illogicalCallContext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::__ExecutionContext__Flags& System::Threading::ExecutionContext::__cordl_internal_get__flags() {
+constexpr ::System::Threading::ExecutionContext_Flags& System::Threading::ExecutionContext::__cordl_internal_get__flags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
-constexpr ::System::Threading::__ExecutionContext__Flags const& System::Threading::ExecutionContext::__cordl_internal_get__flags() const {
+constexpr ::System::Threading::ExecutionContext_Flags const& System::Threading::ExecutionContext::__cordl_internal_get__flags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flags;
 }
-constexpr void System::Threading::ExecutionContext::__cordl_internal_set__flags(::System::Threading::__ExecutionContext__Flags value) {
+constexpr void System::Threading::ExecutionContext::__cordl_internal_set__flags(::System::Threading::ExecutionContext_Flags value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____flags = value;
 }
@@ -808,8 +789,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localValues;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>*> const&
-System::Threading::ExecutionContext::__cordl_internal_get__localValues() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Threading::IAsyncLocal*, ::System::Object*>* const& System::Threading::ExecutionContext::__cordl_internal_get__localValues() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localValues;
 }
@@ -821,8 +801,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLoca
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localChangeNotifications;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>*> const&
-System::Threading::ExecutionContext::__cordl_internal_get__localChangeNotifications() const {
+constexpr ::System::Collections::Generic::List_1<::System::Threading::IAsyncLocal*>* const& System::Threading::ExecutionContext::__cordl_internal_get__localChangeNotifications() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localChangeNotifications;
 }
@@ -872,16 +851,10 @@ inline bool System::Threading::ExecutionContext::get_IsPreAllocatedDefault() {
                                                                              "get_IsPreAllocatedDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>());
-}
 inline void System::Threading::ExecutionContext::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor(bool isPreAllocatedDefault) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>(isPreAllocatedDefault));
 }
 inline void System::Threading::ExecutionContext::_ctor(bool isPreAllocatedDefault) {
   static auto* ___internal_method =
@@ -986,19 +959,19 @@ inline void System::Threading::ExecutionContext::RunInternal(::System::Threading
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, executionContext, callback, state, preserveSyncCtx);
 }
-inline void System::Threading::ExecutionContext::EstablishCopyOnWriteScope(ByRef<::System::Threading::ExecutionContextSwitcher> ecsw) {
+inline void System::Threading::ExecutionContext::EstablishCopyOnWriteScope(::ByRef<::System::Threading::ExecutionContextSwitcher> ecsw) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "EstablishCopyOnWriteScope", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ecsw);
 }
 inline void System::Threading::ExecutionContext::EstablishCopyOnWriteScope(::System::Threading::Thread* currentThread, bool knownNullWindowsIdentity,
-                                                                           ByRef<::System::Threading::ExecutionContextSwitcher> ecsw) {
+                                                                           ::ByRef<::System::Threading::ExecutionContextSwitcher> ecsw) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "EstablishCopyOnWriteScope", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Thread*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::ExecutionContextSwitcher>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, currentThread, knownNullWindowsIdentity, ecsw);
 }
 inline ::System::Threading::ExecutionContextSwitcher System::Threading::ExecutionContext::SetExecutionContext(::System::Threading::ExecutionContext* executionContext, bool preserveSyncCtx) {
@@ -1033,12 +1006,12 @@ inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContex
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::ExecutionContext*, false>(nullptr, ___internal_method);
 }
-inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::Capture(ByRef<::System::Threading::StackCrawlMark> stackMark,
-                                                                                           ::System::Threading::__ExecutionContext__CaptureOptions options) {
+inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::Capture(::ByRef<::System::Threading::StackCrawlMark> stackMark,
+                                                                                           ::System::Threading::ExecutionContext_CaptureOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "Capture", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::StackCrawlMark>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::__ExecutionContext__CaptureOptions>::get() })));
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ExecutionContext_CaptureOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::ExecutionContext*, false>(nullptr, ___internal_method, stackMark, options);
 }
 inline void System::Threading::ExecutionContext::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
@@ -1047,10 +1020,6 @@ inline void System::Threading::ExecutionContext::GetObjectData(::System::Runtime
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
-}
-inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                            ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>(info, context));
 }
 inline void System::Threading::ExecutionContext::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -1064,6 +1033,32 @@ inline bool System::Threading::ExecutionContext::IsDefaultFTContext(bool ignoreS
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ExecutionContext*>::get(), "IsDefaultFTContext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ignoreSyncCtx);
+}
+inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>());
+}
+inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor(bool isPreAllocatedDefault) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>(isPreAllocatedDefault));
+}
+inline ::System::Threading::ExecutionContext* System::Threading::ExecutionContext::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                            ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ExecutionContext*>(info, context));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr System::Threading::ExecutionContext::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* System::Threading::ExecutionContext::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr System::Threading::ExecutionContext::operator ::System::Runtime::Serialization::ISerializable*() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* System::Threading::ExecutionContext::i___System__Runtime__Serialization__ISerializable() noexcept {
+  return static_cast<::System::Runtime::Serialization::ISerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ExecutionContext::ExecutionContext() {}

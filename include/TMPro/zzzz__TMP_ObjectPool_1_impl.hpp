@@ -8,7 +8,7 @@ template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>*& TMP
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_Stack() const {
+template <typename T> constexpr ::System::Collections::Generic::Stack_1<T>* const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_Stack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Stack;
 }
@@ -20,7 +20,7 @@ template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() const {
+template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>* const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
@@ -32,7 +32,7 @@ template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>*& TMPro:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() const {
+template <typename T> constexpr ::UnityEngine::Events::UnityAction_1<T>* const& TMPro::TMP_ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
@@ -73,10 +73,6 @@ template <typename T> inline int32_t TMPro::TMP_ObjectPool_1<T>::get_countInacti
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename T>
-inline ::TMPro::TMP_ObjectPool_1<T>* TMPro::TMP_ObjectPool_1<T>::New_ctor(::UnityEngine::Events::UnityAction_1<T>* actionOnGet, ::UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
-}
 template <typename T> inline void TMPro::TMP_ObjectPool_1<T>::_ctor(::UnityEngine::Events::UnityAction_1<T>* actionOnGet, ::UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -94,6 +90,10 @@ template <typename T> inline void TMPro::TMP_ObjectPool_1<T>::Release(T element)
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ObjectPool_1<T>*>::get(), "Release", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element);
+}
+template <typename T>
+inline ::TMPro::TMP_ObjectPool_1<T>* TMPro::TMP_ObjectPool_1<T>::New_ctor(::UnityEngine::Events::UnityAction_1<T>* actionOnGet, ::UnityEngine::Events::UnityAction_1<T>* actionOnRelease) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_ObjectPool_1<T>*>(actionOnGet, actionOnRelease));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::TMPro::TMP_ObjectPool_1<T>::TMP_ObjectPool_1() {}

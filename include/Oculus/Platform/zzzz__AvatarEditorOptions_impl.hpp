@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)()>(&::Oculus::Platform::AvatarEditorOptions::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3efaaf0;
+  constexpr static std::size_t addrs = 0x3f5ab9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AvatarEditorOptions*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)(::StringW)>(
     &::Oculus::Platform::AvatarEditorOptions::SetSourceOverride)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3efabbc;
+  constexpr static std::size_t addrs = 0x3f5ac68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Oculus::Platform::AvatarEditorOptions*)>(
     &::Oculus::Platform::AvatarEditorOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3efacc4;
+  constexpr static std::size_t addrs = 0x3f5ad70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AvatarEditorOptions::*)()>(&::Oculus::Platform::AvatarEditorOptions::Finalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3efacd0;
+  constexpr static std::size_t addrs = 0x3f5ad7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,9 +72,6 @@ constexpr ::System::IntPtr const& Oculus::Platform::AvatarEditorOptions::__cordl
 constexpr void Oculus::Platform::AvatarEditorOptions::__cordl_internal_set_Handle(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Handle = value;
-}
-inline ::Oculus::Platform::AvatarEditorOptions* Oculus::Platform::AvatarEditorOptions::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::AvatarEditorOptions*>());
 }
 inline void Oculus::Platform::AvatarEditorOptions::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AvatarEditorOptions*>::get(), ".ctor",
@@ -97,6 +94,9 @@ inline void Oculus::Platform::AvatarEditorOptions::Finalize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AvatarEditorOptions*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Oculus::Platform::AvatarEditorOptions* Oculus::Platform::AvatarEditorOptions::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::AvatarEditorOptions*>());
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::AvatarEditorOptions::AvatarEditorOptions() {}

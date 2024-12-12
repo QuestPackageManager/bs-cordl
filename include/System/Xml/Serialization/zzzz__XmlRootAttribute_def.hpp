@@ -15,11 +15,10 @@ class XmlRootAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlRootAttribute);
-// Type: System.Xml.Serialization::XmlRootAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlRootAttribute*
+// CS Name: System.Xml.Serialization.XmlRootAttribute
 class CORDL_TYPE XmlRootAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -43,7 +42,7 @@ public:
   /// @brief Field ns, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
 
-  /// @brief Method AddKeyHash, addr 0x430e57c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436f890, size 0xb8, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlRootAttribute* New_ctor();
@@ -74,34 +73,34 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43171f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437850c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4317208, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437851c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName);
 
-  /// @brief Method get_DataType, addr 0x4317238, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x437854c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x4313400, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x4374714, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_IsNullable, addr 0x431729c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x43785b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_Namespace, addr 0x43172b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x43785c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method set_DataType, addr 0x431728c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DataType, addr 0x43785a0, size 0x8, virtual false, abstract: false, final false
   inline void set_DataType(::StringW value);
 
-  /// @brief Method set_ElementName, addr 0x4317294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ElementName, addr 0x43785a8, size 0x8, virtual false, abstract: false, final false
   inline void set_ElementName(::StringW value);
 
-  /// @brief Method set_IsNullable, addr 0x43172a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsNullable, addr 0x43785b8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsNullable(bool value);
 
-  /// @brief Method set_Namespace, addr 0x43172b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Namespace, addr 0x43785cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Namespace(::StringW value);
 
 protected:
@@ -118,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlRootAttribute(XmlRootAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7426 };
+
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dataType;
 
@@ -130,14 +132,9 @@ public:
   /// @brief Field ns, offset: 0x28, size: 0x8, def value: None
   ::StringW ___ns;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7401 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlRootAttribute, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlRootAttribute, ___dataType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlRootAttribute, ___elementName) == 0x18, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlRootAttribute, ___elemen
 static_assert(offsetof(::System::Xml::Serialization::XmlRootAttribute, ___isNullable) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlRootAttribute, ___ns) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlRootAttribute, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlRootAttribute);

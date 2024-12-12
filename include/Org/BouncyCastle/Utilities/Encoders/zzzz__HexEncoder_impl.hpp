@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/HexEncoder.hpp"
+#include "Org/BouncyCastle/Utilities/Encoders/zzzz__IEncoder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__HexEncoder_def.hpp"
-#include "Org/BouncyCastle/Utilities/Encoders/zzzz__IEncoder_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Encoders::HexEncoder.InitialiseDecodingTable
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x25a36f8;
+  constexpr static std::size_t addrs = 0x25d69e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25a365c;
+  constexpr static std::size_t addrs = 0x25d6948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25a385c;
+  constexpr static std::size_t addrs = 0x25d6b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x25a28a8;
+  constexpr static std::size_t addrs = 0x25d5b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Ignore)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25a3934;
+  constexpr static std::size_t addrs = 0x25d6c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::Decode)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x25a2b9c;
+  constexpr static std::size_t addrs = 0x25d5e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::StringW, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x25a2f60;
+  constexpr static std::size_t addrs = 0x25d624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(
     ::StringW, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x25a3338;
+  constexpr static std::size_t addrs = 0x25d6624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,14 +130,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
-constexpr Org::BouncyCastle::Utilities::Encoders::HexEncoder::operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::Encoders::IEncoder*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
-constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* Org::BouncyCastle::Utilities::Encoders::HexEncoder::i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept {
-  return static_cast<::Org::BouncyCastle::Utilities::Encoders::IEncoder*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Utilities::Encoders::HexEncoder::__cordl_internal_get_encodingTable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encodingTable;
@@ -166,9 +158,6 @@ inline void Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodi
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
                                                                              "InitialiseDecodingTable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>());
 }
 inline void Org::BouncyCastle::Utilities::Encoders::HexEncoder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>::get(),
@@ -220,6 +209,17 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Utilities::Encode
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, str, off, len);
+}
+inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Utilities::Encoders::HexEncoder*>());
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+constexpr Org::BouncyCastle::Utilities::Encoders::HexEncoder::operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::Encoders::IEncoder*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
+constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* Org::BouncyCastle::Utilities::Encoders::HexEncoder::i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept {
+  return static_cast<::Org::BouncyCastle::Utilities::Encoders::IEncoder*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Utilities::Encoders::HexEncoder::HexEncoder() {}

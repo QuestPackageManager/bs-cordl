@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Collider_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CapsuleCollider)
@@ -23,11 +22,10 @@ class CapsuleCollider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CapsuleCollider);
-// Type: UnityEngine::CapsuleCollider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Collider
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::CapsuleCollider*
+// CS Name: UnityEngine.CapsuleCollider
 class CORDL_TYPE CapsuleCollider : public ::UnityEngine::Collider {
 public:
   // Declarations
@@ -39,51 +37,51 @@ public:
 
   __declspec(property(get = get_radius, put = set_radius)) float_t radius;
 
-  /// @brief Method CalculateTransform, addr 0x48a39a8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CalculateTransform, addr 0x4908038, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 CalculateTransform();
 
-  /// @brief Method CalculateTransform_Injected, addr 0x48a3a14, size 0x44, virtual false, abstract: false, final false
-  inline void CalculateTransform_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+  /// @brief Method CalculateTransform_Injected, addr 0x49080a4, size 0x44, virtual false, abstract: false, final false
+  inline void CalculateTransform_Injected(::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetGlobalExtents, addr 0x48a3918, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalExtents, addr 0x4907fa8, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetGlobalExtents();
 
-  /// @brief Method GetGlobalExtents_Injected, addr 0x48a3964, size 0x44, virtual false, abstract: false, final false
-  inline void GetGlobalExtents_Injected(ByRef<::UnityEngine::Vector2> ret);
+  /// @brief Method GetGlobalExtents_Injected, addr 0x4907ff4, size 0x44, virtual false, abstract: false, final false
+  inline void GetGlobalExtents_Injected(::ByRef<::UnityEngine::Vector2> ret);
 
   static inline ::UnityEngine::CapsuleCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48a3a58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49080e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x48a3650, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x4907ce0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x48a36ac, size 0x44, virtual false, abstract: false, final false
-  inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method get_center_Injected, addr 0x4907d3c, size 0x44, virtual false, abstract: false, final false
+  inline void get_center_Injected(::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_direction, addr 0x48a3898, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x4907f28, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_direction();
 
-  /// @brief Method get_height, addr 0x48a3810, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x4907ea0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_radius, addr 0x48a3788, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x4907e18, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x48a36f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x4907d80, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x48a3744, size 0x44, virtual false, abstract: false, final false
-  inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_center_Injected, addr 0x4907dd4, size 0x44, virtual false, abstract: false, final false
+  inline void set_center_Injected(::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_direction, addr 0x48a38d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x4907f64, size 0x44, virtual false, abstract: false, final false
   inline void set_direction(int32_t value);
 
-  /// @brief Method set_height, addr 0x48a384c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x4907edc, size 0x4c, virtual false, abstract: false, final false
   inline void set_height(float_t value);
 
-  /// @brief Method set_radius, addr 0x48a37c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x4907e54, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:
@@ -101,7 +99,7 @@ public:
   CapsuleCollider(CapsuleCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

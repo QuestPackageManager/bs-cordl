@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::UnexceptionalStreamReader::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::UnexceptionalStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d21a4c;
+  constexpr static std::size_t addrs = 0x3d81bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Peek)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d21abc;
+  constexpr static std::size_t addrs = 0x3d81c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d21b44;
+  constexpr static std::size_t addrs = 0x3d81cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,9 +52,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>, int32_t, int32_t)>(&::System::IO::UnexceptionalStreamReader::Read)> {
+    static_cast<int32_t (::System::IO::UnexceptionalStreamReader::*)(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>, int32_t, int32_t)>(&::System::IO::UnexceptionalStreamReader::Read)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3d21bcc;
+  constexpr static std::size_t addrs = 0x3d81d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::UnexceptionalStreamReader::*)(char16_t)>(&::System::IO::UnexceptionalStreamReader::CheckEOL)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3d21e54;
+  constexpr static std::size_t addrs = 0x3d81fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadLine)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d21fec;
+  constexpr static std::size_t addrs = 0x3d82160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::UnexceptionalStreamReader::*)()>(&::System::IO::UnexceptionalStreamReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d22074;
+  constexpr static std::size_t addrs = 0x3d821e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,9 +118,6 @@ inline void System::IO::UnexceptionalStreamReader::setStaticF_newlineChar(char16
 inline char16_t System::IO::UnexceptionalStreamReader::getStaticF_newlineChar() {
   return ::cordl_internals::getStaticField<char16_t, "newlineChar", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::UnexceptionalStreamReader*>::get>();
 }
-inline ::System::IO::UnexceptionalStreamReader* System::IO::UnexceptionalStreamReader::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::UnexceptionalStreamReader*>(stream, encoding));
-}
 inline void System::IO::UnexceptionalStreamReader::_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::UnexceptionalStreamReader*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -138,7 +135,7 @@ inline int32_t System::IO::UnexceptionalStreamReader::Read() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::UnexceptionalStreamReader*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t System::IO::UnexceptionalStreamReader::Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count) {
+inline int32_t System::IO::UnexceptionalStreamReader::Read(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::UnexceptionalStreamReader*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, dest_buffer, index, count);
@@ -158,6 +155,9 @@ inline ::StringW System::IO::UnexceptionalStreamReader::ReadToEnd() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::UnexceptionalStreamReader*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::IO::UnexceptionalStreamReader* System::IO::UnexceptionalStreamReader::New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::UnexceptionalStreamReader*>(stream, encoding));
 }
 // Ctor Parameters []
 constexpr ::System::IO::UnexceptionalStreamReader::UnexceptionalStreamReader() {}

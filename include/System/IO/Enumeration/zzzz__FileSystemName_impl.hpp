@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::IO::Enumeration::FileSystemName::TranslateWin32Expression)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3d23d38;
+  constexpr static std::size_t addrs = 0x3d83eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesWin32Expression)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d24360;
+  constexpr static std::size_t addrs = 0x3d844d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchesSimpleExpression)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d242d8;
+  constexpr static std::size_t addrs = 0x3d8444c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, bool, bool)>(
     &::System::IO::Enumeration::FileSystemName::MatchPattern)> {
   constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x3d25410;
+  constexpr static std::size_t addrs = 0x3d85584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,6 @@ inline ::StringW System::IO::Enumeration::FileSystemName::TranslateWin32Expressi
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, expression);
 }
-/// @param ignoreCase: bool (default: true)
 inline bool System::IO::Enumeration::FileSystemName::MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemName*>::get(), "MatchesWin32Expression", std::span<Il2CppClass const* const, 0>(),
@@ -100,7 +99,6 @@ inline bool System::IO::Enumeration::FileSystemName::MatchesWin32Expression(::Sy
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, expression, name, ignoreCase);
 }
-/// @param ignoreCase: bool (default: true)
 inline bool System::IO::Enumeration::FileSystemName::MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemName*>::get(), "MatchesSimpleExpression", std::span<Il2CppClass const* const, 0>(),

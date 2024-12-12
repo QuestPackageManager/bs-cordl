@@ -11,54 +11,53 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __InitializeLocalInstruction__ParameterBox;
+namespace GlobalNamespace {
+class InitializeLocalInstruction_ParameterBox;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox);
-// Type: ::ParameterBox
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::InitializeLocalInstruction_ParameterBox);
+// Dependencies System.Linq.Expressions.Interpreter.InitializeLocalInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::InitializeLocalInstruction::ParameterBox*
-class CORDL_TYPE __InitializeLocalInstruction__ParameterBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.InitializeLocalInstruction/ParameterBox
+class CORDL_TYPE InitializeLocalInstruction_ParameterBox : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction {
 public:
   // Declarations
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
-  static inline ::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox* New_ctor(int32_t index);
+  static inline ::GlobalNamespace::InitializeLocalInstruction_ParameterBox* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x4087bb8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40e8ecc, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4087b90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40e8ea4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x4087c94, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40e8fa8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InitializeLocalInstruction__ParameterBox();
+  constexpr InitializeLocalInstruction_ParameterBox();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InitializeLocalInstruction__ParameterBox", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ParameterBox", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InitializeLocalInstruction__ParameterBox(__InitializeLocalInstruction__ParameterBox&&) = delete;
+  InitializeLocalInstruction_ParameterBox(InitializeLocalInstruction_ParameterBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InitializeLocalInstruction__ParameterBox", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InitializeLocalInstruction_ParameterBox", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InitializeLocalInstruction__ParameterBox(__InitializeLocalInstruction__ParameterBox const&) = delete;
+  InitializeLocalInstruction_ParameterBox(InitializeLocalInstruction_ParameterBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InitializeLocalInstruction_ParameterBox, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__InitializeLocalInstruction__ParameterBox*, "System.Linq.Expressions.Interpreter", "InitializeLocalInstruction/ParameterBox");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::InitializeLocalInstruction_ParameterBox);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InitializeLocalInstruction_ParameterBox*, "System.Linq.Expressions.Interpreter", "InitializeLocalInstruction/ParameterBox");

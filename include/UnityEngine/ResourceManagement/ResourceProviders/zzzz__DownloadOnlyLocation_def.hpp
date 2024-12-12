@@ -14,17 +14,16 @@ class DownloadOnlyLocation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation);
-// Type: UnityEngine.ResourceManagement.ResourceProviders::DownloadOnlyLocation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ResourceManagement.ResourceLocations.LocationWrapper
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::DownloadOnlyLocation*
+// CS Name: UnityEngine.ResourceManagement.ResourceProviders.DownloadOnlyLocation
 class CORDL_TYPE DownloadOnlyLocation : public ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper {
 public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnlyLocation* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x473695c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4797c70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
 protected:
@@ -42,7 +41,7 @@ public:
   DownloadOnlyLocation(DownloadOnlyLocation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15644 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

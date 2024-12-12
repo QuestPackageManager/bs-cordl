@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::*)()>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cdedc;
+  constexpr static std::size_t addrs = 0x24011c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::DefineCurveAlias)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x23cdee4;
+  constexpr static std::size_t addrs = 0x24011d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByName)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x23ce39c;
+  constexpr static std::size_t addrs = 0x2401688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByOid)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23ce570;
+  constexpr static std::size_t addrs = 0x240185c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetOid)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x23ce41c;
+  constexpr static std::size_t addrs = 0x2401708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23ce5c8;
+  constexpr static std::size_t addrs = 0x24018b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::get_Names)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23ce6c8;
+  constexpr static std::size_t addrs = 0x24019b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>::get(),
@@ -124,9 +124,6 @@ inline void Org::BouncyCastle::Asn1::Nist::NistNamedCurves::setStaticF_names(::S
 inline ::System::Collections::IDictionary* Org::BouncyCastle::Asn1::Nist::NistNamedCurves::getStaticF_names() {
   return ::cordl_internals::getStaticField<::System::Collections::IDictionary*, "names",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>::get>();
-}
-inline ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves* Org::BouncyCastle::Asn1::Nist::NistNamedCurves::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>());
 }
 inline void Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>::get(), ".ctor",
@@ -168,6 +165,9 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::Nist::NistNa
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>::get(),
                                                                              "get_Names", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(nullptr, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves* Org::BouncyCastle::Asn1::Nist::NistNamedCurves::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Nist::NistNamedCurves*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Nist::NistNamedCurves::NistNamedCurves() {}

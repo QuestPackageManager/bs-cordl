@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlSchemaAnnotated)
 namespace System::Xml::Schema {
@@ -19,11 +18,10 @@ class XmlSchemaAnnotated;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAnnotated);
-// Type: System.Xml.Schema::XmlSchemaAnnotated
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaObject
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaAnnotated*
+// CS Name: System.Xml.Schema.XmlSchemaAnnotated
 class CORDL_TYPE XmlSchemaAnnotated : public ::System::Xml::Schema::XmlSchemaObject {
 public:
   // Declarations
@@ -45,17 +43,17 @@ public:
   __declspec(property(get = __cordl_internal_get_moreAttributes, put = __cordl_internal_set_moreAttributes)) ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>
       moreAttributes;
 
-  /// @brief Method AddAnnotation, addr 0x4256a84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x42b7d98, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x4256a7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x42b7d90, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
-  constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
+  constexpr ::System::Xml::Schema::XmlSchemaAnnotation* const& __cordl_internal_get_annotation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnnotation*> const& __cordl_internal_get_annotation() const;
+  constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& __cordl_internal_get_annotation();
 
   constexpr ::StringW const& __cordl_internal_get_id() const;
 
@@ -71,31 +69,31 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x4256a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b7da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Annotation, addr 0x4256a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Annotation, addr 0x42b7d60, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotation* get_Annotation();
 
-  /// @brief Method get_Id, addr 0x4256a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x42b7d50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x4256a6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x42b7d80, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_UnhandledAttributes, addr 0x4256a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnhandledAttributes, addr 0x42b7d70, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> get_UnhandledAttributes();
 
-  /// @brief Method set_Annotation, addr 0x4256a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Annotation, addr 0x42b7d68, size 0x8, virtual false, abstract: false, final false
   inline void set_Annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method set_Id, addr 0x4256a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x42b7d58, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x4256a74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x42b7d88, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_UnhandledAttributes, addr 0x4256a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnhandledAttributes, addr 0x42b7d78, size 0x8, virtual false, abstract: false, final false
   inline void set_UnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
 protected:
@@ -112,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaAnnotated(XmlSchemaAnnotated const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7646 };
+
   /// @brief Field id, offset: 0x38, size: 0x8, def value: None
   ::StringW ___id;
 
@@ -121,19 +122,16 @@ public:
   /// @brief Field moreAttributes, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> ___moreAttributes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7621 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnnotated, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnnotated, ___id) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnnotated, ___annotation) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAnnotated, ___moreAttributes) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAnnotated, 0x50>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAnnotated);

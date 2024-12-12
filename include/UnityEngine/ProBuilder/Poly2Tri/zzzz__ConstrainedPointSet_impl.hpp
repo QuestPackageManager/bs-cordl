@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::get_EdgeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x469b130;
+  constexpr static std::size_t addrs = 0x46fc444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::set_EdgeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x469b138;
+  constexpr static std::size_t addrs = 0x46fc44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x469b140;
+  constexpr static std::size_t addrs = 0x46fc454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (
     ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::get_TriangulationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x469b1ec;
+  constexpr static std::size_t addrs = 0x46fc500;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(&::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::Prepare)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x469b1f4;
+  constexpr static std::size_t addrs = 0x46fc508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,11 +108,6 @@ inline void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::set_EdgeInde
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*
-UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points,
-                                                                 ::ArrayW<int32_t, ::Array<int32_t>*> index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>(points, index));
-}
 inline void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points,
                                                                           ::ArrayW<int32_t, ::Array<int32_t>*> index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,6 +128,11 @@ inline void UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::Prepare(::Un
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tcx);
+}
+inline ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*
+UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::New_ctor(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* points,
+                                                                 ::ArrayW<int32_t, ::Array<int32_t>*> index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*>(points, index));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet::ConstrainedPointSet() {}

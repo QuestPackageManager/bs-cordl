@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23d2658;
+  constexpr static std::size_t addrs = 0x2405944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::*)(::Org::BouncyCastle::Asn1::DerEnumerated*)>(
     &::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23d1b58;
+  constexpr static std::size_t addrs = 0x2404e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,23 +33,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(int32_t value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>(value));
-}
 inline void Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor(int32_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>(value));
-}
 inline void Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerEnumerated*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(int32_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>(value));
+}
+inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*>(value));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus::OcspResponseStatus() {}

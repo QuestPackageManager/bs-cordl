@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x235837c;
+  constexpr static std::size_t addrs = 0x238b668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::Adjust)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2358498;
+  constexpr static std::size_t addrs = 0x238b784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(
     int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedKey)> {
   constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x2358550;
+  constexpr static std::size_t addrs = 0x238b83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2358b40;
+  constexpr static std::size_t addrs = 0x238be2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(::StringW, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2358bd8;
+  constexpr static std::size_t addrs = 0x238bec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2358c74;
+  constexpr static std::size_t addrs = 0x238bf60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(::StringW, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2358d74;
+  constexpr static std::size_t addrs = 0x238c060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::GenerateDerivedMacParameters)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2358e88;
+  constexpr static std::size_t addrs = 0x238c174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Gene
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digest;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__cordl_internal_get_digest() const {
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__cordl_internal_get_digest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___digest;
 }
@@ -168,9 +168,6 @@ constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::Pkcs12Parameters
 constexpr void Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::__cordl_internal_set_v(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v = value;
-}
-inline ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator* Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*>(digest));
 }
 inline void Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,6 +220,9 @@ inline ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::ICipherParameters*, false>(this, ___internal_method, keySize);
+}
+inline ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator* Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator*>(digest));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Generators::Pkcs12ParametersGenerator::Pkcs12ParametersGenerator() {}

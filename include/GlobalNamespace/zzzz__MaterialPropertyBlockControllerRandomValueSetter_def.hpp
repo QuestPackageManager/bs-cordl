@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -21,11 +20,10 @@ class MaterialPropertyBlockControllerRandomValueSetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter);
-// Type: ::MaterialPropertyBlockControllerRandomValueSetter
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockControllerRandomValueSetter*
+// CS Name: MaterialPropertyBlockControllerRandomValueSetter
 class CORDL_TYPE MaterialPropertyBlockControllerRandomValueSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -51,18 +49,18 @@ public:
   /// @brief Field _propertyName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x398fec0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x39e6a40, size 0xbc, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x398ff7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e6afc, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x398fea0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x39e6a20, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x398fe7c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e69fc, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -101,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x398ffa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e6b20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,6 +115,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockControllerRandomValueSetter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockControllerRandomValueSetter(MaterialPropertyBlockControllerRandomValueSetter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16349 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
@@ -136,14 +137,9 @@ public:
   /// @brief Field _propertyId, offset: 0x40, size: 0x4, def value: None
   int32_t ____propertyId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16313 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____propertyName) == 0x28, "Offset mismatch!");
@@ -155,6 +151,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomV
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____materialPropertyBlocks) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, ____propertyId) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter);

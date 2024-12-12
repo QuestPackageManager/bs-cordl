@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/GcmBlockCipher.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_impl.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__GcmBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmExponentiator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmMultiplier_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher._ctor
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2371ddc;
+  constexpr static std::size_t addrs = 0x23a50c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2371de4;
+  constexpr static std::size_t addrs = 0x23a50d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::get_AlgorithmName)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2371f68;
+  constexpr static std::size_t addrs = 0x23a5254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IBlockCipher* (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetUnderlyingCipher)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2372028;
+  constexpr static std::size_t addrs = 0x23a5314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2372030;
+  constexpr static std::size_t addrs = 0x23a531c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::Init)> {
   constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x2372038;
+  constexpr static std::size_t addrs = 0x23a5324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetMac)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x23728f4;
+  constexpr static std::size_t addrs = 0x23a5be0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetOutputSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x237297c;
+  constexpr static std::size_t addrs = 0x23a5c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetUpdateOutputSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23729a4;
+  constexpr static std::size_t addrs = 0x23a5c90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessAadByte)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23729dc;
+  constexpr static std::size_t addrs = 0x23a5cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessAadBytes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2372ad0;
+  constexpr static std::size_t addrs = 0x23a5dbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::InitCipher)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2372b90;
+  constexpr static std::size_t addrs = 0x23a5e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2372d28;
+  constexpr static std::size_t addrs = 0x23a6014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessBytes)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2372f68;
+  constexpr static std::size_t addrs = 0x23a6254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::DoFinal)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x23731bc;
+  constexpr static std::size_t addrs = 0x23a64a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2373a04;
+  constexpr static std::size_t addrs = 0x23a6cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(bool)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::Reset)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x2373840;
+  constexpr static std::size_t addrs = 0x23a6b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessBlock)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2372df0;
+  constexpr static std::size_t addrs = 0x23a60dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::ProcessPartial)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x23736e8;
+  constexpr static std::size_t addrs = 0x23a69d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::gHASH)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2372754;
+  constexpr static std::size_t addrs = 0x23a5a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::gHASHBlock)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2372808;
+  constexpr static std::size_t addrs = 0x23a5af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::gHASHBlock)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2373bac;
+  constexpr static std::size_t addrs = 0x23a6e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::gHASHPartial)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2372c24;
+  constexpr static std::size_t addrs = 0x23a5f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GetNextCtrBlock)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2373a0c;
+  constexpr static std::size_t addrs = 0x23a6cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::CheckStatus)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2372a58;
+  constexpr static std::size_t addrs = 0x23a5d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>::get(),
@@ -405,27 +405,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
-constexpr Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
-constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::i___Org__BouncyCastle__Crypto__Modes__IAeadBlockCipher() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
-constexpr Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
-constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_cipher() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_cipher() const {
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* const& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_cipher() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cipher;
 }
@@ -437,8 +421,7 @@ constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*& Org::BouncyC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*> const&
-Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_multiplier() const {
+constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* const& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_multiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
@@ -450,7 +433,7 @@ constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*& Org::Boun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exp;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*> const& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_exp() const {
+constexpr ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator* const& Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_internal_get_exp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exp;
 }
@@ -710,18 +693,11 @@ constexpr void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___atLengthPre = value;
 }
-inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>(c));
-}
 inline void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::IBlockCipher*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c);
-}
-inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c,
-                                                                                                                      ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>(c, m));
 }
 inline void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c, ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -868,6 +844,29 @@ inline void Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::CheckStatus() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>::get(),
                                                                              "CheckStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>(c));
+}
+inline ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* c,
+                                                                                                                      ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier* m) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*>(c, m));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
+constexpr Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::operator ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"
+constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::i___Org__BouncyCastle__Crypto__Modes__IAeadBlockCipher() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
+constexpr Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
+constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Modes::IAeadCipher*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher::GcmBlockCipher() {}

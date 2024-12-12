@@ -14,32 +14,31 @@ class CmsAttributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CmsAttributes);
-// Type: Org.BouncyCastle.Asn1.Cms::CmsAttributes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::CmsAttributes*
+// CS Name: Org.BouncyCastle.Asn1.Cms.CmsAttributes
 class CORDL_TYPE CmsAttributes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ContentHint, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ContentHint, put = setStaticF_ContentHint)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentHint;
+  __declspec(property(get = getStaticF_ContentHint, put = setStaticF_ContentHint)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentHint;
 
   /// @brief Field ContentType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ContentType, put = setStaticF_ContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
+  __declspec(property(get = getStaticF_ContentType, put = setStaticF_ContentType)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
 
   /// @brief Field CounterSignature, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_CounterSignature, put = setStaticF_CounterSignature)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CounterSignature;
+  __declspec(property(get = getStaticF_CounterSignature, put = setStaticF_CounterSignature)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CounterSignature;
 
   /// @brief Field MessageDigest, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MessageDigest, put = setStaticF_MessageDigest)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MessageDigest;
+  __declspec(property(get = getStaticF_MessageDigest, put = setStaticF_MessageDigest)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* MessageDigest;
 
   /// @brief Field SigningTime, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SigningTime, put = setStaticF_SigningTime)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SigningTime;
+  __declspec(property(get = getStaticF_SigningTime, put = setStaticF_SigningTime)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SigningTime;
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CmsAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22cf0d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23023bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ContentHint();

@@ -10,24 +10,20 @@ CORDL_MODULE_EXPORT(LoadSceneParameters)
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
-namespace UnityEngine::SceneManagement {
-struct LocalPhysicsMode;
-}
 // Forward declare root types
 namespace UnityEngine::SceneManagement {
 struct LoadSceneParameters;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneParameters);
-// Type: UnityEngine.SceneManagement::LoadSceneParameters
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.SceneManagement.LoadSceneMode, UnityEngine.SceneManagement.LocalPhysicsMode
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// CS Name: ::UnityEngine.SceneManagement::LoadSceneParameters
+// CS Name: UnityEngine.SceneManagement.LoadSceneParameters
 struct CORDL_TYPE LoadSceneParameters {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x485db2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48beea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   // Ctor Parameters []
@@ -38,26 +34,26 @@ public:
   // "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: None }]
   constexpr LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode, ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11008 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+
   /// @brief Field m_LoadSceneMode, offset: 0x0, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode;
 
   /// @brief Field m_LocalPhysicsMode, offset: 0x4, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10975 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::LoadSceneParameters, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_LoadSceneMode) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_LocalPhysicsMode) == 0x4, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::LoadSceneParameters, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");

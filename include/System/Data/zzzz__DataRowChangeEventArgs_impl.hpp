@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRowChangeEventArgs::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::DataRowChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4103e54;
+  constexpr static std::size_t addrs = 0x4165168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ constexpr ::System::Data::DataRow*& System::Data::DataRowChangeEventArgs::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Row_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRow*> const& System::Data::DataRowChangeEventArgs::__cordl_internal_get__Row_k__BackingField() const {
+constexpr ::System::Data::DataRow* const& System::Data::DataRowChangeEventArgs::__cordl_internal_get__Row_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Row_k__BackingField;
 }
@@ -45,15 +45,15 @@ constexpr void System::Data::DataRowChangeEventArgs::__cordl_internal_set__Actio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Action_k__BackingField = value;
 }
-inline ::System::Data::DataRowChangeEventArgs* System::Data::DataRowChangeEventArgs::New_ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataRowChangeEventArgs*>(row, action));
-}
 inline void System::Data::DataRowChangeEventArgs::_ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataRowChangeEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataRow*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataRowAction>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, row, action);
+}
+inline ::System::Data::DataRowChangeEventArgs* System::Data::DataRowChangeEventArgs::New_ctor(::System::Data::DataRow* row, ::System::Data::DataRowAction action) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataRowChangeEventArgs*>(row, action));
 }
 // Ctor Parameters []
 constexpr ::System::Data::DataRowChangeEventArgs::DataRowChangeEventArgs() {}

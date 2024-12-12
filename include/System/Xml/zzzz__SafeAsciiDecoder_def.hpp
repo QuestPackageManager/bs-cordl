@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Text/zzzz__Decoder_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeAsciiDecoder)
 // Forward declare root types
@@ -14,27 +12,26 @@ class SafeAsciiDecoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::SafeAsciiDecoder);
-// Type: System.Xml::SafeAsciiDecoder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Text.Decoder
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::SafeAsciiDecoder*
+// CS Name: System.Xml.SafeAsciiDecoder
 class CORDL_TYPE SafeAsciiDecoder : public ::System::Text::Decoder {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x42fce7c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x435e190, size 0x88, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, bool flush,
-                      ByRef<int32_t> bytesUsed, ByRef<int32_t> charsUsed, ByRef<bool> completed);
+                      ::ByRef<int32_t> bytesUsed, ::ByRef<int32_t> charsUsed, ::ByRef<bool> completed);
 
-  /// @brief Method GetCharCount, addr 0x42fce08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCharCount, addr 0x435e11c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t index, int32_t count);
 
-  /// @brief Method GetChars, addr 0x42fce10, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetChars, addr 0x435e124, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   static inline ::System::Xml::SafeAsciiDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42fce00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x435e114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +49,7 @@ public:
   SafeAsciiDecoder(SafeAsciiDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

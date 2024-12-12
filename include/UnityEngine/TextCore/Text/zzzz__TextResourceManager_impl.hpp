@@ -6,27 +6,27 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextResourceManager_def.hpp"
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef._ctor
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::*)(
-    int32_t, int32_t, int32_t, ::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::*)(
+    int32_t, int32_t, int32_t, ::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48e9bb8;
+  constexpr static std::size_t addrs = 0x494e248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::_ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode,
-                                                                                    ::UnityEngine::TextCore::Text::FontAsset* fontAsset) {
+inline void UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::_ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode,
+                                                                                 ::UnityEngine::TextCore::Text::FontAsset* fontAsset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get() })));
@@ -34,10 +34,10 @@ inline void UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::_c
 }
 // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "styleNameHashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "familyNameAndStyleHashCode", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::__TextResourceManager__FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode,
-                                                                                                                  int64_t familyNameAndStyleHashCode,
-                                                                                                                  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept {
+// CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::TextResourceManager_FontAssetRef(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode,
+                                                                                                            int64_t familyNameAndStyleHashCode,
+                                                                                                            ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept {
   this->nameHashCode = nameHashCode;
   this->familyNameHashCode = familyNameHashCode;
   this->styleNameHashCode = styleNameHashCode;
@@ -45,14 +45,14 @@ constexpr ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::__
   this->fontAsset = fontAsset;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef::__TextResourceManager__FontAssetRef() {}
+constexpr ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef::TextResourceManager_FontAssetRef() {}
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextResourceManager.AddFontAsset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::FontAsset*)>(
     &::UnityEngine::TextCore::Text::TextResourceManager::AddFontAsset)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x48e96a8;
+  constexpr static std::size_t addrs = 0x494dd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,14 +62,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline void UnityEngine::TextCore::Text::TextResourceManager::setStaticF_s_FontAssetReferences(
-    ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>*, "s_FontAssetReferences",
+    ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>*, "s_FontAssetReferences",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextResourceManager*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>*>(value));
+      std::forward<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>*
+inline ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>*
 UnityEngine::TextCore::Text::TextResourceManager::getStaticF_s_FontAssetReferences() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef>*, "s_FontAssetReferences",
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextResourceManager_FontAssetRef>*, "s_FontAssetReferences",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextResourceManager*>::get>();
 }
 inline void UnityEngine::TextCore::Text::TextResourceManager::setStaticF_s_FontAssetNameReferenceLookup(

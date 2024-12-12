@@ -13,172 +13,171 @@
 #include "System/zzzz__Console_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler._ctor
+//  Writing Method size for method: ::System::WindowsConsole_Console_WindowsCancelHandler._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::*)(::System::Object*, ::System::IntPtr)>(
-    &::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WindowsConsole_Console_WindowsCancelHandler::*)(::System::Object*, ::System::IntPtr)>(
+    &::System::WindowsConsole_Console_WindowsCancelHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3dd2624;
+  constexpr static std::size_t addrs = 0x3e326d0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler.Invoke
+//  Writing Method size for method: ::System::WindowsConsole_Console_WindowsCancelHandler.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::*)(int32_t)>(
-    &::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::WindowsConsole_Console_WindowsCancelHandler::*)(int32_t)>(
+    &::System::WindowsConsole_Console_WindowsCancelHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3dd26b0;
+  constexpr static std::size_t addrs = 0x3e3275c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::New_ctor(::System::Object* object,
-                                                                                                                                                      ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>(object, method));
-}
-inline void GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::WindowsConsole_Console_WindowsCancelHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline bool GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::Invoke(int32_t keyCode) {
+inline bool System::WindowsConsole_Console_WindowsCancelHandler::Invoke(int32_t keyCode) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsole_Console_WindowsCancelHandler*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, keyCode);
 }
+inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::WindowsConsole_Console_WindowsCancelHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::WindowsConsole_Console_WindowsCancelHandler*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler::__Console__WindowsConsole__WindowsCancelHandler() {}
-//  Writing Method size for method: ::System::__Console__WindowsConsole.GetConsoleCP
+constexpr ::System::WindowsConsole_Console_WindowsCancelHandler::WindowsConsole_Console_WindowsCancelHandler() {}
+//  Writing Method size for method: ::System::Console_WindowsConsole.GetConsoleCP
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::__Console__WindowsConsole::GetConsoleCP)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleCP)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3dd2454;
+  constexpr static std::size_t addrs = 0x3e32500;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetConsoleCP",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleCP",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::__Console__WindowsConsole.GetConsoleOutputCP
+//  Writing Method size for method: ::System::Console_WindowsConsole.GetConsoleOutputCP
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::__Console__WindowsConsole::GetConsoleOutputCP)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetConsoleOutputCP)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3dd24bc;
+  constexpr static std::size_t addrs = 0x3e32568;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(),
-                                                                               "GetConsoleOutputCP", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleOutputCP",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::__Console__WindowsConsole.DoWindowsConsoleCancelEvent
+//  Writing Method size for method: ::System::Console_WindowsConsole.DoWindowsConsoleCancelEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::__Console__WindowsConsole::DoWindowsConsoleCancelEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Console_WindowsConsole::DoWindowsConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3dd2528;
+  constexpr static std::size_t addrs = 0x3e325d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "DoWindowsConsoleCancelEvent",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "DoWindowsConsoleCancelEvent",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::__Console__WindowsConsole.GetInputCodePage
+//  Writing Method size for method: ::System::Console_WindowsConsole.GetInputCodePage
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::__Console__WindowsConsole::GetInputCodePage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetInputCodePage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dd14bc;
+  constexpr static std::size_t addrs = 0x3e31568;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetInputCodePage",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetInputCodePage",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::__Console__WindowsConsole.GetOutputCodePage
+//  Writing Method size for method: ::System::Console_WindowsConsole.GetOutputCodePage
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::__Console__WindowsConsole::GetOutputCodePage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Console_WindowsConsole::GetOutputCodePage)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3dd1508;
+  constexpr static std::size_t addrs = 0x3e315b4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetOutputCodePage",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetOutputCodePage",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void System::__Console__WindowsConsole::setStaticF_ctrlHandlerAdded(bool value) {
-  ::cordl_internals::setStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get>(std::forward<bool>(value));
+inline void System::Console_WindowsConsole::setStaticF_ctrlHandlerAdded(bool value) {
+  ::cordl_internals::setStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>(std::forward<bool>(value));
 }
-inline bool System::__Console__WindowsConsole::getStaticF_ctrlHandlerAdded() {
-  return ::cordl_internals::getStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get>();
+inline bool System::Console_WindowsConsole::getStaticF_ctrlHandlerAdded() {
+  return ::cordl_internals::getStaticField<bool, "ctrlHandlerAdded", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>();
 }
-inline void System::__Console__WindowsConsole::setStaticF_cancelHandler(::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*, "cancelHandler",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get>(
-      std::forward<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*>(value));
+inline void System::Console_WindowsConsole::setStaticF_cancelHandler(::System::WindowsConsole_Console_WindowsCancelHandler* value) {
+  ::cordl_internals::setStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>(
+      std::forward<::System::WindowsConsole_Console_WindowsCancelHandler*>(value));
 }
-inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* System::__Console__WindowsConsole::getStaticF_cancelHandler() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler*, "cancelHandler",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get>();
+inline ::System::WindowsConsole_Console_WindowsCancelHandler* System::Console_WindowsConsole::getStaticF_cancelHandler() {
+  return ::cordl_internals::getStaticField<::System::WindowsConsole_Console_WindowsCancelHandler*, "cancelHandler",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get>();
 }
-inline int32_t System::__Console__WindowsConsole::GetConsoleCP() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetConsoleCP",
+inline int32_t System::Console_WindowsConsole::GetConsoleCP() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleCP",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline int32_t System::__Console__WindowsConsole::GetConsoleOutputCP() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetConsoleOutputCP",
+inline int32_t System::Console_WindowsConsole::GetConsoleOutputCP() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetConsoleOutputCP",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline bool System::__Console__WindowsConsole::DoWindowsConsoleCancelEvent(int32_t keyCode) {
+inline bool System::Console_WindowsConsole::DoWindowsConsoleCancelEvent(int32_t keyCode) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "DoWindowsConsoleCancelEvent",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "DoWindowsConsoleCancelEvent",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, keyCode);
 }
-inline int32_t System::__Console__WindowsConsole::GetInputCodePage() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetInputCodePage",
+inline int32_t System::Console_WindowsConsole::GetInputCodePage() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetInputCodePage",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline int32_t System::__Console__WindowsConsole::GetOutputCodePage() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Console__WindowsConsole*>::get(), "GetOutputCodePage",
+inline int32_t System::Console_WindowsConsole::GetOutputCodePage() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console_WindowsConsole*>::get(), "GetOutputCodePage",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::__Console__WindowsConsole::__Console__WindowsConsole() {}
+constexpr ::System::Console_WindowsConsole::Console_WindowsConsole() {}
 //  Writing Method size for method: ::System::Console.SetupStreams
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::Encoding*, ::System::Text::Encoding*)>(&::System::Console::SetupStreams)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x3dd1554;
+  constexpr static std::size_t addrs = 0x3e31600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Error)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dd1bec;
+  constexpr static std::size_t addrs = 0x3e31c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_Error",
@@ -206,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::TextWriter* (*)()>(&::System::Console::get_Out)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dd1c44;
+  constexpr static std::size_t addrs = 0x3e31cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_Out",
@@ -219,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::IntPtr, ::System::IO::FileAccess, int32_t)>(&::System::Console::Open)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3dd1c9c;
+  constexpr static std::size_t addrs = 0x3e31d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -235,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardError)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dd1b5c;
+  constexpr static std::size_t addrs = 0x3e31c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardInput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dd1a3c;
+  constexpr static std::size_t addrs = 0x3e31ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(int32_t)>(&::System::Console::OpenStandardOutput)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3dd1acc;
+  constexpr static std::size_t addrs = 0x3e31b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetError)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3dd1dec;
+  constexpr static std::size_t addrs = 0x3e31e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::TextWriter*)>(&::System::Console::SetOut)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3dd1ecc;
+  constexpr static std::size_t addrs = 0x3e31f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -305,7 +304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Console::WriteLine)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3dd1fac;
+  constexpr static std::size_t addrs = 0x3e32058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_InputEncoding)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dd2020;
+  constexpr static std::size_t addrs = 0x3e320cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_InputEncoding",
@@ -332,7 +331,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Console::get_OutputEncoding)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dd2078;
+  constexpr static std::size_t addrs = 0x3e32124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "get_OutputEncoding",
@@ -345,7 +344,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)()>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3dd20d0;
+  constexpr static std::size_t addrs = 0x3e3217c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "ReadKey",
@@ -358,7 +357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (*)(bool)>(&::System::Console::ReadKey)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3dd2128;
+  constexpr static std::size_t addrs = 0x3e321d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -372,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Console::DoConsoleCancelEvent)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3dd225c;
+  constexpr static std::size_t addrs = 0x3e32308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Console*>::get(), "DoConsoleCancelEvent",

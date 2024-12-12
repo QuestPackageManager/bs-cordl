@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 class IRemoteProcedureCall;
 }
 namespace GlobalNamespace {
-template <typename T> class __RemoteProcedureCall__TypeWrapper_1;
+template <typename T> class RemoteProcedureCall_TypeWrapper_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -24,24 +24,23 @@ template <typename T0, typename T1, typename T2> class RemoteProcedureCall_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::RemoteProcedureCall_3);
-// Type: ::RemoteProcedureCall`3
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies RemoteProcedureCall
 namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1, typename T2>
 // Is value type: false
-// CS Name: ::RemoteProcedureCall`3<T0,T1,T2>*
+// CS Name: RemoteProcedureCall`3<T0,T1,T2>
 class CORDL_TYPE RemoteProcedureCall_3 : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   /// @brief Field _value0, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value0, put = __cordl_internal_set__value0)) ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* _value0;
+  __declspec(property(get = __cordl_internal_get__value0, put = __cordl_internal_set__value0)) ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* _value0;
 
   /// @brief Field _value1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__value1, put = __cordl_internal_set__value1)) ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* _value1;
+  __declspec(property(get = __cordl_internal_get__value1, put = __cordl_internal_set__value1)) ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* _value1;
 
   /// @brief Field _value2, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__value2, put = __cordl_internal_set__value2)) ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* _value2;
+  __declspec(property(get = __cordl_internal_get__value2, put = __cordl_internal_set__value2)) ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* _value2;
 
   __declspec(property(get = get_value0)) T0 value0;
 
@@ -63,23 +62,23 @@ public:
   /// @brief Method SerializeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
 
-  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& __cordl_internal_get__value0();
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* const& __cordl_internal_get__value0() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const& __cordl_internal_get__value0() const;
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>*& __cordl_internal_get__value0();
 
-  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*& __cordl_internal_get__value1();
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* const& __cordl_internal_get__value1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*> const& __cordl_internal_get__value1() const;
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>*& __cordl_internal_get__value1();
 
-  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>*& __cordl_internal_get__value2();
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* const& __cordl_internal_get__value2() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>*> const& __cordl_internal_get__value2() const;
+  constexpr ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>*& __cordl_internal_get__value2();
 
-  constexpr void __cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value);
+  constexpr void __cordl_internal_set__value0(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* value);
 
-  constexpr void __cordl_internal_set__value1(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* value);
+  constexpr void __cordl_internal_set__value1(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* value);
 
-  constexpr void __cordl_internal_set__value2(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* value);
+  constexpr void __cordl_internal_set__value2(::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -107,17 +106,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RemoteProcedureCall_3(RemoteProcedureCall_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14944 };
+
   /// @brief Field _value0, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* ____value0;
+  ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T0>* ____value0;
 
   /// @brief Field _value1, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* ____value1;
+  ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T1>* ____value1;
 
   /// @brief Field _value2, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* ____value2;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14910 };
+  ::GlobalNamespace::RemoteProcedureCall_TypeWrapper_1<T2>* ____value2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

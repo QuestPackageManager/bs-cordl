@@ -12,11 +12,10 @@ struct EVRRenderModelError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRRenderModelError);
-// Type: OVR.OpenVR::EVRRenderModelError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRRenderModelError
+// CS Name: OVR.OpenVR.EVRRenderModelError
 struct CORDL_TYPE EVRRenderModelError {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRRenderModelError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BufferTooSmall value: static_cast<int32_t>(0x132)
+  /// @brief Field BufferTooSmall value: I32(306)
   static ::OVR::OpenVR::EVRRenderModelError const BufferTooSmall;
 
-  /// @brief Field InvalidArg value: static_cast<int32_t>(0x12c)
+  /// @brief Field InvalidArg value: I32(300)
   static ::OVR::OpenVR::EVRRenderModelError const InvalidArg;
 
-  /// @brief Field InvalidModel value: static_cast<int32_t>(0x12d)
+  /// @brief Field InvalidModel value: I32(301)
   static ::OVR::OpenVR::EVRRenderModelError const InvalidModel;
 
-  /// @brief Field InvalidTexture value: static_cast<int32_t>(0x190)
+  /// @brief Field InvalidTexture value: I32(400)
   static ::OVR::OpenVR::EVRRenderModelError const InvalidTexture;
 
-  /// @brief Field Loading value: static_cast<int32_t>(0x64)
+  /// @brief Field Loading value: I32(100)
   static ::OVR::OpenVR::EVRRenderModelError const Loading;
 
-  /// @brief Field MultipleShapes value: static_cast<int32_t>(0x12f)
+  /// @brief Field MultipleShapes value: I32(303)
   static ::OVR::OpenVR::EVRRenderModelError const MultipleShapes;
 
-  /// @brief Field MultipleTextures value: static_cast<int32_t>(0x131)
+  /// @brief Field MultipleTextures value: I32(305)
   static ::OVR::OpenVR::EVRRenderModelError const MultipleTextures;
 
-  /// @brief Field NoShapes value: static_cast<int32_t>(0x12e)
+  /// @brief Field NoShapes value: I32(302)
   static ::OVR::OpenVR::EVRRenderModelError const NoShapes;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::OVR::OpenVR::EVRRenderModelError const None;
 
-  /// @brief Field NotEnoughNormals value: static_cast<int32_t>(0x133)
+  /// @brief Field NotEnoughNormals value: I32(307)
   static ::OVR::OpenVR::EVRRenderModelError const NotEnoughNormals;
 
-  /// @brief Field NotEnoughTexCoords value: static_cast<int32_t>(0x134)
+  /// @brief Field NotEnoughTexCoords value: I32(308)
   static ::OVR::OpenVR::EVRRenderModelError const NotEnoughTexCoords;
 
-  /// @brief Field NotSupported value: static_cast<int32_t>(0xc8)
+  /// @brief Field NotSupported value: I32(200)
   static ::OVR::OpenVR::EVRRenderModelError const NotSupported;
 
-  /// @brief Field TooManyVertices value: static_cast<int32_t>(0x130)
+  /// @brief Field TooManyVertices value: I32(304)
   static ::OVR::OpenVR::EVRRenderModelError const TooManyVertices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRRenderModelError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRRenderModelError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRRenderModelError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRRenderModelError, "OVR.OpenVR", "EVRRenderModelError");

@@ -20,11 +20,10 @@ class XRDeviceDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
-// Type: UnityEngine.InputSystem.XR::XRDeviceDescriptor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.XR.InputDeviceCharacteristics
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::XRDeviceDescriptor*
+// CS Name: UnityEngine.InputSystem.XR.XRDeviceDescriptor
 class CORDL_TYPE XRDeviceDescriptor : public ::System::Object {
 public:
   // Declarations
@@ -47,12 +46,12 @@ public:
   /// @brief Field serialNumber, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::StringW serialNumber;
 
-  /// @brief Method FromJson, addr 0x4581ecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x45e31e0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* FromJson(::StringW json);
 
   static inline ::UnityEngine::InputSystem::XR::XRDeviceDescriptor* New_ctor();
 
-  /// @brief Method ToJson, addr 0x4584d1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x45e6030, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
@@ -67,9 +66,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_deviceName();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*& __cordl_internal_get_inputFeatures();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* const& __cordl_internal_get_inputFeatures() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*> const& __cordl_internal_get_inputFeatures() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*& __cordl_internal_get_inputFeatures();
 
   constexpr ::StringW const& __cordl_internal_get_manufacturer() const;
 
@@ -91,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4584d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e6038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XRDeviceDescriptor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XRDeviceDescriptor(XRDeviceDescriptor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6740 };
 
   /// @brief Field deviceName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___deviceName;
@@ -126,14 +128,9 @@ public:
   /// @brief Field inputFeatures, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* ___inputFeatures;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6715 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRDeviceDescriptor, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, ___deviceName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, ___manufacturer) == 0x18, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, ___ch
 static_assert(offsetof(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, ___deviceId) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::XR::XRDeviceDescriptor, ___inputFeatures) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRDeviceDescriptor, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);

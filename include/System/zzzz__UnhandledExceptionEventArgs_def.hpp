@@ -14,11 +14,10 @@ class UnhandledExceptionEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::UnhandledExceptionEventArgs);
-// Type: System::UnhandledExceptionEventArgs
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System {
 // Is value type: false
-// CS Name: ::System::UnhandledExceptionEventArgs*
+// CS Name: System.UnhandledExceptionEventArgs
 class CORDL_TYPE UnhandledExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -34,9 +33,9 @@ public:
 
   static inline ::System::UnhandledExceptionEventArgs* New_ctor(::System::Object* exception, bool isTerminating);
 
-  constexpr ::System::Object*& __cordl_internal_get__exception();
+  constexpr ::System::Object* const& __cordl_internal_get__exception() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__exception() const;
+  constexpr ::System::Object*& __cordl_internal_get__exception();
 
   constexpr bool const& __cordl_internal_get__isTerminating() const;
 
@@ -46,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__isTerminating(bool value);
 
-  /// @brief Method .ctor, addr 0x3da8840, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e088ec, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x3da88b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x3e08964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x3da88c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x3e0896c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
 protected:
@@ -69,23 +68,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UnhandledExceptionEventArgs(UnhandledExceptionEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2501 };
+
   /// @brief Field _exception, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____exception;
 
   /// @brief Field _isTerminating, offset: 0x18, size: 0x1, def value: None
   bool ____isTerminating;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2501 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::UnhandledExceptionEventArgs, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::UnhandledExceptionEventArgs, ____exception) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::UnhandledExceptionEventArgs, ____isTerminating) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::UnhandledExceptionEventArgs, 0x20>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::UnhandledExceptionEventArgs);

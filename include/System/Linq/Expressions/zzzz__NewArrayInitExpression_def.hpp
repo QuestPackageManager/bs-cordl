@@ -23,11 +23,10 @@ class NewArrayInitExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::NewArrayInitExpression);
-// Type: System.Linq.Expressions::NewArrayInitExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.NewArrayExpression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::NewArrayInitExpression*
+// CS Name: System.Linq.Expressions.NewArrayInitExpression
 class CORDL_TYPE NewArrayInitExpression : public ::System::Linq::Expressions::NewArrayExpression {
 public:
   // Declarations
@@ -36,10 +35,10 @@ public:
   static inline ::System::Linq::Expressions::NewArrayInitExpression* New_ctor(::System::Type* type,
                                                                               ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method .ctor, addr 0x4059a60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bad74, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method get_NodeType, addr 0x4059aa4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x40badb8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
 protected:
@@ -57,7 +56,7 @@ public:
   NewArrayInitExpression(NewArrayInitExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

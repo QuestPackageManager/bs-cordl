@@ -14,21 +14,20 @@ class TilemapRenderer;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Tilemaps::TilemapRenderer);
-// Type: UnityEngine.Tilemaps::TilemapRenderer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Renderer
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// CS Name: ::UnityEngine.Tilemaps::TilemapRenderer*
+// CS Name: UnityEngine.Tilemaps.TilemapRenderer
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method OnSpriteAtlasRegistered, addr 0x48f0174, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnSpriteAtlasRegistered, addr 0x4954804, size 0x44, virtual false, abstract: false, final false
   inline void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
 
-  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x48f0074, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x4954704, size 0x80, virtual false, abstract: false, final false
   inline void RegisterSpriteAtlasRegistered();
 
-  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x48f00f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x4954784, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterSpriteAtlasRegistered();
 
 protected:
@@ -46,7 +45,7 @@ public:
   TilemapRenderer(TilemapRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18566 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

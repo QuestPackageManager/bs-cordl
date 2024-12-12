@@ -15,13 +15,12 @@ template <typename T1, typename T2, typename T3, typename T4> class ValuePair_4;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::ModestTree::Util::ValuePair_4);
-// Type: ModestTree.Util::ValuePair`4
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: false
-// CS Name: ::ModestTree.Util::ValuePair`4<T1,T2,T3,T4>*
+// CS Name: ModestTree.Util.ValuePair`4<T1,T2,T3,T4>
 class CORDL_TYPE ValuePair_4 : public ::System::Object {
 public:
   // Declarations
@@ -94,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ValuePair_4(ValuePair_4 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11965 };
+
   /// @brief Field First, offset: 0x10, size: 0x8, def value: None
   T1 ___First;
 
@@ -105,9 +107,6 @@ public:
 
   /// @brief Field Fourth, offset: 0x28, size: 0x8, def value: None
   T4 ___Fourth;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

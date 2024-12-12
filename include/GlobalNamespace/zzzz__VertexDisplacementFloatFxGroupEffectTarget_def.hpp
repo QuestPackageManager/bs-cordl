@@ -27,11 +27,10 @@ class VertexDisplacementFloatFxGroupEffectTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget);
-// Type: ::VertexDisplacementFloatFxGroupEffectTarget
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Bounds, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::VertexDisplacementFloatFxGroupEffectTarget*
+// CS Name: VertexDisplacementFloatFxGroupEffectTarget
 class CORDL_TYPE VertexDisplacementFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -55,7 +54,7 @@ public:
   __declspec(property(get = __cordl_internal_get__useTestValue, put = __cordl_internal_set__useTestValue)) bool _useTestValue;
 
   /// @brief Field _vertexDisplacementRangeVectorPropertyID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__vertexDisplacementRangeVectorPropertyID, put = setStaticF__vertexDisplacementRangeVectorPropertyID)) int32_t _vertexDisplacementRangeVectorPropertyID;
+  __declspec(property(get = getStaticF__vertexDisplacementRangeVectorPropertyID, put = setStaticF__vertexDisplacementRangeVectorPropertyID)) int32_t _vertexDisplacementRangeVectorPropertyID;
 
   /// @brief Field _xAnimationCurve, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__xAnimationCurve, put = __cordl_internal_set__xAnimationCurve)) ::UnityEngine::AnimationCurve* _xAnimationCurve;
@@ -66,24 +65,24 @@ public:
   /// @brief Field _zAnimationCurve, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__zAnimationCurve, put = __cordl_internal_set__zAnimationCurve)) ::UnityEngine::AnimationCurve* _zAnimationCurve;
 
-  /// @brief Method CalculateDisplacementVector, addr 0x3b29cc0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CalculateDisplacementVector, addr 0x3b8b258, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t value);
 
   static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3b29bec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b8b184, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x3b29d48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3b8b2e0, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetValue, addr 0x3b29d6c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8b304, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method SetValue, addr 0x3b29d70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b8b308, size 0xd4, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b29e44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b8b3dc, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
@@ -110,17 +109,17 @@ public:
 
   constexpr bool& __cordl_internal_get__useTestValue();
 
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__xAnimationCurve() const;
+
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__xAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__xAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__yAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__yAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__yAnimationCurve() const;
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__zAnimationCurve() const;
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__zAnimationCurve();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__zAnimationCurve() const;
 
   constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
 
@@ -140,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__zAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3b29e48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8b3e0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID();
@@ -160,6 +159,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4280 };
 
   /// @brief Field _displacementRanges, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____displacementRanges;
@@ -188,14 +190,9 @@ public:
   /// @brief Field _bounds, offset: 0x60, size: 0x18, def value: None
   ::UnityEngine::Bounds ____bounds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4269 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, ____displacementRanges) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, ____xAnimationCurve) == 0x30, "Offset mismatch!");
@@ -213,6 +210,8 @@ static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTa
 static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, ____testFloatValue) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, ____bounds) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget);

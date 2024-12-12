@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* (::TMPro::TMP_StyleSheet::*)()>(
     &::TMPro::TMP_StyleSheet::get_styles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a0974;
+  constexpr static std::size_t addrs = 0x4801c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "get_styles",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47a097c;
+  constexpr static std::size_t addrs = 0x4801c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "Reset",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(int32_t)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47a0c80;
+  constexpr static std::size_t addrs = 0x4801f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(::StringW)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47a0d08;
+  constexpr static std::size_t addrs = 0x480201c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::RefreshStyles)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47a0dc0;
+  constexpr static std::size_t addrs = 0x48020d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "RefreshStyles",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x47a0980;
+  constexpr static std::size_t addrs = 0x4801c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "LoadStyleDictionaryInternal",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47a0dc4;
+  constexpr static std::size_t addrs = 0x48020d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), ".ctor",
@@ -103,7 +103,7 @@ constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& TMPro::T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*> const& TMPro::TMP_StyleSheet::__cordl_internal_get_m_StyleList() const {
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* const& TMPro::TMP_StyleSheet::__cordl_internal_get_m_StyleList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleList;
 }
@@ -115,8 +115,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Sty
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleLookupDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*> const&
-TMPro::TMP_StyleSheet::__cordl_internal_get_m_StyleLookupDictionary() const {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* const& TMPro::TMP_StyleSheet::__cordl_internal_get_m_StyleLookupDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StyleLookupDictionary;
 }
@@ -156,13 +155,13 @@ inline void TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_StyleSheet* TMPro::TMP_StyleSheet::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_StyleSheet*>());
-}
 inline void TMPro::TMP_StyleSheet::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::TMP_StyleSheet* TMPro::TMP_StyleSheet::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_StyleSheet*>());
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_StyleSheet::TMP_StyleSheet() {}

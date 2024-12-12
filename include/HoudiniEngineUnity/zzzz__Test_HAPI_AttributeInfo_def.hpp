@@ -4,13 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_AttributeInfo)
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -18,11 +16,10 @@ class Test_HAPI_AttributeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);
-// Type: HoudiniEngineUnity::Test_HAPI_AttributeInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_AttributeInfo, HoudiniEngineUnity.IEquivable`1<T>, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo*
+// CS Name: HoudiniEngineUnity.Test_HAPI_AttributeInfo
 class CORDL_TYPE Test_HAPI_AttributeInfo : public ::System::Object {
 public:
   // Declarations
@@ -32,7 +29,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x3a40d88, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a979f8, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
@@ -43,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value);
 
-  /// @brief Method .ctor, addr 0x3a40d54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a979c4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
@@ -63,18 +60,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Test_HAPI_AttributeInfo(Test_HAPI_AttributeInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11880 };
+
   /// @brief Field self, offset: 0x10, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_AttributeInfo ___self;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_AttributeInfo, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::Test_HAPI_AttributeInfo, ___self) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_HAPI_AttributeInfo, 0x38>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);

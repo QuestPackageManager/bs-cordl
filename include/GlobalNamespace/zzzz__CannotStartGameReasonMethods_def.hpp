@@ -15,15 +15,14 @@ class CannotStartGameReasonMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CannotStartGameReasonMethods);
-// Type: ::CannotStartGameReasonMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CannotStartGameReasonMethods*
+// CS Name: CannotStartGameReasonMethods
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x26a4b3c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x26d9870, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:
@@ -41,7 +40,7 @@ public:
   CannotStartGameReasonMethods(CannotStartGameReasonMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13082 };
 
   /// @brief Field kAllPlayersNotInLobby offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllPlayersNotInLobby{ u"LABEL_CANT_START_GAME_ALL_PLAYERS_NOT_IN_LOBBY" };

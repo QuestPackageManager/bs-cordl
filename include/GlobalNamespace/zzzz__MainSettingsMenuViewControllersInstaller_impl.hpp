@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b9009c;
+  constexpr static std::size_t addrs = 0x3bf1e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b90150;
+  constexpr static std::size_t addrs = 0x3bf1f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,14 +115,14 @@ inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBi
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* GlobalNamespace::MainSettingsMenuViewControllersInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>());
-}
 inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* GlobalNamespace::MainSettingsMenuViewControllersInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MainSettingsMenuViewControllersInstaller::MainSettingsMenuViewControllersInstaller() {}

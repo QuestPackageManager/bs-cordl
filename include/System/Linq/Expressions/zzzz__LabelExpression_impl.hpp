@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::LabelExpression::*)(
     ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::LabelExpression::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x40575b4;
+  constexpr static std::size_t addrs = 0x40b88c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::LabelExpression::*)()>(
     &::System::Linq::Expressions::LabelExpression::get_Type)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4057624;
+  constexpr static std::size_t addrs = 0x40b8938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LabelExpression*>::get(), "get_Type",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::LabelExpression::*)()>(
     &::System::Linq::Expressions::LabelExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057640;
+  constexpr static std::size_t addrs = 0x40b8954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LabelExpression*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (::System::Linq::Expressions::LabelExpression::*)()>(
     &::System::Linq::Expressions::LabelExpression::get_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057648;
+  constexpr static std::size_t addrs = 0x40b895c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LabelExpression*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::LabelExpression::*)()>(
     &::System::Linq::Expressions::LabelExpression::get_DefaultValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057650;
+  constexpr static std::size_t addrs = 0x40b8964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::LabelExpression*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::LabelExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::LabelExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4057658;
+  constexpr static std::size_t addrs = 0x40b896c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelExpression* (
     ::System::Linq::Expressions::LabelExpression::*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::LabelExpression::Update)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4055a90;
+  constexpr static std::size_t addrs = 0x40b6da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ constexpr ::System::Linq::Expressions::LabelTarget*& System::Linq::Expressions::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& System::Linq::Expressions::LabelExpression::__cordl_internal_get__Target_k__BackingField() const {
+constexpr ::System::Linq::Expressions::LabelTarget* const& System::Linq::Expressions::LabelExpression::__cordl_internal_get__Target_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
@@ -126,17 +126,13 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultValue_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::LabelExpression::__cordl_internal_get__DefaultValue_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::LabelExpression::__cordl_internal_get__DefaultValue_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DefaultValue_k__BackingField;
 }
 constexpr void System::Linq::Expressions::LabelExpression::__cordl_internal_set__DefaultValue_k__BackingField(::System::Linq::Expressions::Expression* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____DefaultValue_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::LabelExpression* System::Linq::Expressions::LabelExpression::New_ctor(::System::Linq::Expressions::LabelTarget* label,
-                                                                                                          ::System::Linq::Expressions::Expression* defaultValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LabelExpression*>(label, defaultValue));
 }
 inline void System::Linq::Expressions::LabelExpression::_ctor(::System::Linq::Expressions::LabelTarget* label, ::System::Linq::Expressions::Expression* defaultValue) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -177,6 +173,10 @@ inline ::System::Linq::Expressions::LabelExpression* System::Linq::Expressions::
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::LabelTarget*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::LabelExpression*, false>(this, ___internal_method, target, defaultValue);
+}
+inline ::System::Linq::Expressions::LabelExpression* System::Linq::Expressions::LabelExpression::New_ctor(::System::Linq::Expressions::LabelTarget* label,
+                                                                                                          ::System::Linq::Expressions::Expression* defaultValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::LabelExpression*>(label, defaultValue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::LabelExpression::LabelExpression() {}

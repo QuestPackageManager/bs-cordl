@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3982318;
+  constexpr static std::size_t addrs = 0x39d8be0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::Awake)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3982320;
+  constexpr static std::size_t addrs = 0x39d8be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3982384;
+  constexpr static std::size_t addrs = 0x39d8c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,14 +87,14 @@ inline void GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::Awake
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*>());
-}
 inline void GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer::BloomPrePassBackgroundParticleSystemRenderer() {}

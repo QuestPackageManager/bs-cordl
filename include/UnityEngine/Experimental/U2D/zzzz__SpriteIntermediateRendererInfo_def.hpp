@@ -10,29 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpriteIntermediateRendererInfo)
-namespace System {
-struct IntPtr;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
 // Forward declare root types
 namespace UnityEngine::Experimental::U2D {
 struct SpriteIntermediateRendererInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo);
-// Type: UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
-// SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 180, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, UnityEngine.Bounds, UnityEngine.Color, UnityEngine.Matrix4x4
 namespace UnityEngine::Experimental::U2D {
 // Is value type: true
-// CS Name: ::UnityEngine.Experimental.U2D::SpriteIntermediateRendererInfo
+// CS Name: UnityEngine.Experimental.U2D.SpriteIntermediateRendererInfo
 struct CORDL_TYPE SpriteIntermediateRendererInfo {
 public:
   // Declarations
@@ -50,6 +37,12 @@ public:
   constexpr SpriteIntermediateRendererInfo(int32_t SpriteID, int32_t TextureID, int32_t MaterialID, ::UnityEngine::Color Color, ::UnityEngine::Matrix4x4 Transform, ::UnityEngine::Bounds Bounds,
                                            int32_t Layer, int32_t SortingLayer, int32_t SortingOrder, uint64_t SceneCullingMask, ::System::IntPtr IndexData, ::System::IntPtr VertexData,
                                            int32_t IndexCount, int32_t VertexCount, int32_t ShaderChannelMask) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11288 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
 
   /// @brief Field SpriteID, offset: 0x0, size: 0x4, def value: None
   int32_t SpriteID;
@@ -96,17 +89,9 @@ public:
   /// @brief Field ShaderChannelMask, offset: 0xa0, size: 0x4, def value: None
   int32_t ShaderChannelMask;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11255 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, SpriteID) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, TextureID) == 0x4, "Offset mismatch!");
@@ -136,6 +121,8 @@ static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRende
 static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, VertexCount) == 0x9c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, ShaderChannelMask) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::Experimental::U2D
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeScatterTrees.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TreePrototypeInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeScatterTrees::*)(::HoudiniEngineUnity::HEU_VolumeScatterTrees*)>(
     &::HoudiniEngineUnity::HEU_VolumeScatterTrees::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3a476e8;
+  constexpr static std::size_t addrs = 0x3a9e358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeScatterTrees::*)()>(&::HoudiniEngineUnity::HEU_VolumeScatterTrees::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a47a5c;
+  constexpr static std::size_t addrs = 0x3a9e6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>::get(), ".ctor",
@@ -35,21 +35,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
-constexpr HoudiniEngineUnity::HEU_VolumeScatterTrees::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*
-HoudiniEngineUnity::HEU_VolumeScatterTrees::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeScatterTrees__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& HoudiniEngineUnity::HEU_VolumeScatterTrees::__cordl_internal_get__treePrototypInfos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____treePrototypInfos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>*> const&
-HoudiniEngineUnity::HEU_VolumeScatterTrees::__cordl_internal_get__treePrototypInfos() const {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo*>* const& HoudiniEngineUnity::HEU_VolumeScatterTrees::__cordl_internal_get__treePrototypInfos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____treePrototypInfos;
 }
@@ -159,13 +149,22 @@ inline bool HoudiniEngineUnity::HEU_VolumeScatterTrees::IsEquivalentTo(::Houdini
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* HoudiniEngineUnity::HEU_VolumeScatterTrees::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>());
-}
 inline void HoudiniEngineUnity::HEU_VolumeScatterTrees::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_VolumeScatterTrees* HoudiniEngineUnity::HEU_VolumeScatterTrees::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
+constexpr HoudiniEngineUnity::HEU_VolumeScatterTrees::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*
+HoudiniEngineUnity::HEU_VolumeScatterTrees::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_VolumeScatterTrees__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_VolumeScatterTrees::HEU_VolumeScatterTrees() {}

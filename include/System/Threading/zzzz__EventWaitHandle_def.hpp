@@ -15,11 +15,10 @@ class EventWaitHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::EventWaitHandle);
-// Type: System.Threading::EventWaitHandle
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.WaitHandle
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::EventWaitHandle*
+// CS Name: System.Threading.EventWaitHandle
 class CORDL_TYPE EventWaitHandle : public ::System::Threading::WaitHandle {
 public:
   // Declarations
@@ -27,16 +26,16 @@ public:
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x3df0ed4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3e50f80, size 0x5c, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x3ded49c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x3e4d548, size 0x5c, virtual false, abstract: false, final false
   inline bool Set();
 
-  /// @brief Method .ctor, addr 0x3deb9e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4ba90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x3df2dfc, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e52ea8, size 0x2ac, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
 protected:

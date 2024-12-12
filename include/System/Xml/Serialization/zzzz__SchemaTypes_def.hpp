@@ -12,11 +12,10 @@ struct SchemaTypes;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Serialization::SchemaTypes);
-// Type: System.Xml.Serialization::SchemaTypes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Serialization {
 // Is value type: true
-// CS Name: ::System.Xml.Serialization::SchemaTypes
+// CS Name: System.Xml.Serialization.SchemaTypes
 struct CORDL_TYPE SchemaTypes {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SchemaTypes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Array value: static_cast<int32_t>(0x3)
+  /// @brief Field Array value: I32(3)
   static ::System::Xml::Serialization::SchemaTypes const Array;
 
-  /// @brief Field Class value: static_cast<int32_t>(0x4)
+  /// @brief Field Class value: I32(4)
   static ::System::Xml::Serialization::SchemaTypes const Class;
 
-  /// @brief Field Enum value: static_cast<int32_t>(0x2)
+  /// @brief Field Enum value: I32(2)
   static ::System::Xml::Serialization::SchemaTypes const Enum;
 
-  /// @brief Field NotSet value: static_cast<int32_t>(0x0)
+  /// @brief Field NotSet value: I32(0)
   static ::System::Xml::Serialization::SchemaTypes const NotSet;
 
-  /// @brief Field Primitive value: static_cast<int32_t>(0x1)
+  /// @brief Field Primitive value: I32(1)
   static ::System::Xml::Serialization::SchemaTypes const Primitive;
 
-  /// @brief Field Void value: static_cast<int32_t>(0x7)
+  /// @brief Field Void value: I32(7)
   static ::System::Xml::Serialization::SchemaTypes const Void;
 
-  /// @brief Field XmlNode value: static_cast<int32_t>(0x6)
+  /// @brief Field XmlNode value: I32(6)
   static ::System::Xml::Serialization::SchemaTypes const XmlNode;
 
-  /// @brief Field XmlSerializable value: static_cast<int32_t>(0x5)
+  /// @brief Field XmlSerializable value: I32(5)
   static ::System::Xml::Serialization::SchemaTypes const XmlSerializable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::SchemaTypes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::SchemaTypes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::SchemaTypes, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::SchemaTypes, "System.Xml.Serialization", "SchemaTypes");

@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ResolveEventArgs::*)(::StringW)>(&::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d9b104;
+  constexpr static std::size_t addrs = 0x3dfb174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ResolveEventArgs::*)(::StringW, ::System::Reflection::Assembly*)>(
     &::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d9b170;
+  constexpr static std::size_t addrs = 0x3dfb1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ResolveEventArgs::*)()>(&::System::ResolveEventArgs::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d9b1e0;
+  constexpr static std::size_t addrs = 0x3dfb250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ResolveEventArgs*>::get(), "get_Name",
@@ -62,7 +62,7 @@ constexpr ::System::Reflection::Assembly*& System::ResolveEventArgs::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestingAssembly_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::ResolveEventArgs::__cordl_internal_get__RequestingAssembly_k__BackingField() const {
+constexpr ::System::Reflection::Assembly* const& System::ResolveEventArgs::__cordl_internal_get__RequestingAssembly_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestingAssembly_k__BackingField;
 }
@@ -70,17 +70,11 @@ constexpr void System::ResolveEventArgs::__cordl_internal_set__RequestingAssembl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____RequestingAssembly_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ResolveEventArgs* System::ResolveEventArgs::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ResolveEventArgs*>(name));
-}
 inline void System::ResolveEventArgs::_ctor(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ResolveEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
-}
-inline ::System::ResolveEventArgs* System::ResolveEventArgs::New_ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ResolveEventArgs*>(name, requestingAssembly));
 }
 inline void System::ResolveEventArgs::_ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly) {
   static auto* ___internal_method =
@@ -93,6 +87,12 @@ inline ::StringW System::ResolveEventArgs::get_Name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ResolveEventArgs*>::get(), "get_Name",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::ResolveEventArgs* System::ResolveEventArgs::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ResolveEventArgs*>(name));
+}
+inline ::System::ResolveEventArgs* System::ResolveEventArgs::New_ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ResolveEventArgs*>(name, requestingAssembly));
 }
 // Ctor Parameters []
 constexpr ::System::ResolveEventArgs::ResolveEventArgs() {}

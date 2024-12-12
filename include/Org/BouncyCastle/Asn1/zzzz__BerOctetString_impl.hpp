@@ -1,6 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetString_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
@@ -11,161 +13,157 @@
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator._ctor
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
+    &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25fe70c;
+  constexpr static std::size_t addrs = 0x26319f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator.get_Current
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::*)()>(
-    &::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(
+    &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x25feb80;
+  constexpr static std::size_t addrs = 0x2631e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "get_Current",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(), "get_Current",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator.MoveNext
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::*)()>(
-    &::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(
+    &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x25febc8;
+  constexpr static std::size_t addrs = 0x2631eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator.Reset
+//  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator.Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::*)()>(
-    &::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::*)()>(
+    &::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25fecf4;
+  constexpr static std::size_t addrs = 0x2631fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(), "Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_octets() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_octets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___octets;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_octets() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_octets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___octets;
 }
-constexpr void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___octets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_chunkSize() {
+constexpr int32_t& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_chunkSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkSize;
 }
-constexpr int32_t const& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_chunkSize() const {
+constexpr int32_t const& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_chunkSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkSize;
 }
-constexpr void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_set_chunkSize(int32_t value) {
+constexpr void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_set_chunkSize(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___chunkSize = value;
 }
-constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_currentChunk() {
+constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_currentChunk() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChunk;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOctetString*> const& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_currentChunk() const {
+constexpr ::Org::BouncyCastle::Asn1::DerOctetString* const& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_currentChunk() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentChunk;
 }
-constexpr void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_set_currentChunk(::Org::BouncyCastle::Asn1::DerOctetString* value) {
+constexpr void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_set_currentChunk(::Org::BouncyCastle::Asn1::DerOctetString* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___currentChunk)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_nextChunkPos() {
+constexpr int32_t& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_nextChunkPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextChunkPos;
 }
-constexpr int32_t const& Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_get_nextChunkPos() const {
+constexpr int32_t const& Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_get_nextChunkPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextChunkPos;
 }
-constexpr void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__cordl_internal_set_nextChunkPos(int32_t value) {
+constexpr void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::__cordl_internal_set_nextChunkPos(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nextChunkPos = value;
 }
-inline ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator* Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets,
-                                                                                                                                          int32_t chunkSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>(octets, chunkSize));
-}
-inline void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize) {
+inline void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, octets, chunkSize);
 }
-inline ::System::Object* Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline ::System::Object* Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::get_Current() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(),
+                                                                             "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator*>::get(), "Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::Reset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>::get(),
+                                                                             "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator* Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator*>(octets, chunkSize));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator::__BerOctetString__ChunkEnumerator() {}
+constexpr ::Org::BouncyCastle::Asn1::BerOctetString_ChunkEnumerator::BerOctetString_ChunkEnumerator() {}
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerOctetString.FromSequence
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::BerOctetString* (*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::FromSequence)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25f9364;
+  constexpr static std::size_t addrs = 0x262c650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>)>(&::Org::BouncyCastle::Asn1::BerOctetString::ToBytes)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x25fe204;
+  constexpr static std::size_t addrs = 0x26314f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> (*)(
     ::System::Collections::IEnumerable*)>(&::Org::BouncyCastle::Asn1::BerOctetString::ToOctetStringArray)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x25fe2e0;
+  constexpr static std::size_t addrs = 0x26315cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25fe4cc;
+  constexpr static std::size_t addrs = 0x26317b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x25fe538;
+  constexpr static std::size_t addrs = 0x2631824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>)>(&::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25f6c2c;
+  constexpr static std::size_t addrs = 0x2629f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25fe5b4;
+  constexpr static std::size_t addrs = 0x26318a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>, int32_t)>(&::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x25fe5dc;
+  constexpr static std::size_t addrs = 0x26318c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +289,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>, int32_t)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25fe658;
+  constexpr static std::size_t addrs = 0x2631944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::BerOctetString::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetString::GetEnumerator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25fe684;
+  constexpr static std::size_t addrs = 0x2631970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(),
@@ -323,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Asn1::BerOctetString::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetString::GetObjects)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25fe744;
+  constexpr static std::size_t addrs = 0x2631a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(), "GetObjects",
@@ -337,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::BerOctetString::Encode)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x25fe748;
+  constexpr static std::size_t addrs = 0x2631a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,14 +344,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr Org::BouncyCastle::Asn1::BerOctetString::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::BerOctetString::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 constexpr int32_t& Org::BouncyCastle::Asn1::BerOctetString::__cordl_internal_get_chunkSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunkSize;
@@ -406,27 +396,17 @@ Org::BouncyCastle::Asn1::BerOctetString::ToOctetStringArray(::System::Collection
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>, false>(nullptr, ___internal_method, e);
 }
-inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::System::Collections::IEnumerable* e) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(e));
-}
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::System::Collections::IEnumerable* e) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IEnumerable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
-inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str));
-}
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str);
-}
-inline ::Org::BouncyCastle::Asn1::BerOctetString*
-Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(octs));
 }
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -435,19 +415,12 @@ inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<::Org::Bounc
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, octs);
 }
-inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str, chunkSize));
-}
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str, chunkSize);
-}
-inline ::Org::BouncyCastle::Asn1::BerOctetString*
-Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(octs, chunkSize));
 }
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -456,11 +429,6 @@ inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<::Org::Bounc
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, octs, chunkSize);
-}
-inline ::Org::BouncyCastle::Asn1::BerOctetString*
-Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str,
-                                                  ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str, octs, chunkSize));
 }
 inline void Org::BouncyCastle::Asn1::BerOctetString::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str,
                                                            ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
@@ -486,6 +454,36 @@ inline void Org::BouncyCastle::Asn1::BerOctetString::Encode(::Org::BouncyCastle:
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetString*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, derOut);
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::System::Collections::IEnumerable* e) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(e));
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str));
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString*
+Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(octs));
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString* Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str, int32_t chunkSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str, chunkSize));
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString*
+Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(octs, chunkSize));
+}
+inline ::Org::BouncyCastle::Asn1::BerOctetString*
+Org::BouncyCastle::Asn1::BerOctetString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str,
+                                                  ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs, int32_t chunkSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::BerOctetString*>(str, octs, chunkSize));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr Org::BouncyCastle::Asn1::BerOctetString::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* Org::BouncyCastle::Asn1::BerOctetString::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::BerOctetString::BerOctetString() {}

@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43dcb9c;
+  constexpr static std::size_t addrs = 0x443deb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_ExtraStore)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x43ddafc;
+  constexpr static std::size_t addrs = 0x443ee10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509RevocationFlag (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationFlag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfbd4;
+  constexpr static std::size_t addrs = 0x4440ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(
     ::System::Security::Cryptography::X509Certificates::X509RevocationFlag)>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationFlag)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43dfbdc;
+  constexpr static std::size_t addrs = 0x4440ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509RevocationMode (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_RevocationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfc3c;
+  constexpr static std::size_t addrs = 0x4440f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_RevocationMode)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43dfc44;
+  constexpr static std::size_t addrs = 0x4440f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(::System::TimeSpan)>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_UrlRetrievalTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfca4;
+  constexpr static std::size_t addrs = 0x4440fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509VerificationFlags (
     ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfcac;
+  constexpr static std::size_t addrs = 0x4440fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(
     ::System::Security::Cryptography::X509Certificates::X509VerificationFlags)>(&::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationFlags)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43dfcb4;
+  constexpr static std::size_t addrs = 0x4440fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::get_VerificationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfd14;
+  constexpr static std::size_t addrs = 0x4441028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)(::System::DateTime)>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::set_VerificationTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dfd1c;
+  constexpr static std::size_t addrs = 0x4441030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509ChainPolicy::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509ChainPolicy::Reset)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x43dfaec;
+  constexpr static std::size_t addrs = 0x4440e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,8 +202,7 @@ constexpr ::System::Security::Cryptography::OidCollection*& System::Security::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___apps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const&
-System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_apps() const {
+constexpr ::System::Security::Cryptography::OidCollection* const& System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_apps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___apps;
 }
@@ -215,8 +214,7 @@ constexpr ::System::Security::Cryptography::OidCollection*& System::Security::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const&
-System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_cert() const {
+constexpr ::System::Security::Cryptography::OidCollection* const& System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_cert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cert;
 }
@@ -228,8 +226,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCol
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const&
-System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_store() const {
+constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* const& System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_store() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store;
 }
@@ -241,7 +238,7 @@ constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store2;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const&
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* const&
 System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_get_store2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___store2;
@@ -309,9 +306,6 @@ constexpr ::System::DateTime const& System::Security::Cryptography::X509Certific
 constexpr void System::Security::Cryptography::X509Certificates::X509ChainPolicy::__cordl_internal_set_vtime(::System::DateTime value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___vtime = value;
-}
-inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*>());
 }
 inline void System::Security::Cryptography::X509Certificates::X509ChainPolicy::_ctor() {
   static auto* ___internal_method =
@@ -387,6 +381,9 @@ inline void System::Security::Cryptography::X509Certificates::X509ChainPolicy::R
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*>::get(), "Reset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* System::Security::Cryptography::X509Certificates::X509ChainPolicy::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509ChainPolicy*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509ChainPolicy::X509ChainPolicy() {}

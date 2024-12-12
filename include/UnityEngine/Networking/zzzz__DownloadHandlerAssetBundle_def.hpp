@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Networking/zzzz__DownloadHandler_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DownloadHandlerAssetBundle)
@@ -27,11 +25,10 @@ class DownloadHandlerAssetBundle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerAssetBundle);
-// Type: UnityEngine.Networking::DownloadHandlerAssetBundle
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Networking.DownloadHandler
 namespace UnityEngine::Networking {
 // Is value type: false
-// CS Name: ::UnityEngine.Networking::DownloadHandlerAssetBundle*
+// CS Name: UnityEngine.Networking.DownloadHandlerAssetBundle
 class CORDL_TYPE DownloadHandlerAssetBundle : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
@@ -41,47 +38,47 @@ public:
 
   __declspec(property(get = get_isDownloadComplete)) bool isDownloadComplete;
 
-  /// @brief Method Create, addr 0x4a7c48c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4ae0d9c, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, uint32_t crc);
 
-  /// @brief Method CreateCached, addr 0x4a7c4e0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateCached, addr 0x4ae0df0, size 0x70, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateCached(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name, ::UnityEngine::Hash128 hash, uint32_t crc);
 
-  /// @brief Method CreateCached_Injected, addr 0x4a7c550, size 0x6c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name, ByRef<::UnityEngine::Hash128> hash, uint32_t crc);
+  /// @brief Method CreateCached_Injected, addr 0x4ae0e60, size 0x6c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name, ::ByRef<::UnityEngine::Hash128> hash, uint32_t crc);
 
-  /// @brief Method GetData, addr 0x4a7c630, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x4ae0f40, size 0x4c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method GetText, addr 0x4a7c67c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetText, addr 0x4ae0f8c, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW GetText();
 
-  /// @brief Method InternalCreateAssetBundle, addr 0x4a7c5bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAssetBundle, addr 0x4ae0ecc, size 0x5c, virtual false, abstract: false, final false
   inline void InternalCreateAssetBundle(::StringW url, uint32_t crc);
 
-  /// @brief Method InternalCreateAssetBundleCached, addr 0x4a7c618, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAssetBundleCached, addr 0x4ae0f28, size 0x18, virtual false, abstract: false, final false
   inline void InternalCreateAssetBundleCached(::StringW url, ::StringW name, ::UnityEngine::Hash128 hash, uint32_t crc);
 
   static inline ::UnityEngine::Networking::DownloadHandlerAssetBundle* New_ctor(::StringW url, ::UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc);
 
   static inline ::UnityEngine::Networking::DownloadHandlerAssetBundle* New_ctor(::StringW url, uint32_t crc);
 
-  /// @brief Method .ctor, addr 0x4a7c41c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae0d2c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::UnityEngine::CachedAssetBundle cachedBundle, uint32_t crc);
 
-  /// @brief Method .ctor, addr 0x4a7c2c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ae0bd4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, uint32_t crc);
 
-  /// @brief Method get_assetBundle, addr 0x4a7c6c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle, addr 0x4ae0fd8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
-  /// @brief Method get_autoLoadAssetBundle, addr 0x4a7c704, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_autoLoadAssetBundle, addr 0x4ae1014, size 0x3c, virtual false, abstract: false, final false
   inline bool get_autoLoadAssetBundle();
 
-  /// @brief Method get_isDownloadComplete, addr 0x4a7c784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isDownloadComplete, addr 0x4ae1094, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isDownloadComplete();
 
-  /// @brief Method set_autoLoadAssetBundle, addr 0x4a7c740, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_autoLoadAssetBundle, addr 0x4ae1050, size 0x44, virtual false, abstract: false, final false
   inline void set_autoLoadAssetBundle(bool value);
 
 protected:
@@ -99,7 +96,7 @@ public:
   DownloadHandlerAssetBundle(DownloadHandlerAssetBundle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

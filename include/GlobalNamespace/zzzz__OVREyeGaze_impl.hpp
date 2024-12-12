@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVREyeGaze.hpp"
-#include "GlobalNamespace/zzzz__OVREyeGaze_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -11,28 +10,28 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId::__OVREyeGaze__EyeId(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId::OVREyeGaze_EyeId(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId::__OVREyeGaze__EyeId() {}
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId GlobalNamespace::__OVREyeGaze__EyeId::Left{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId GlobalNamespace::__OVREyeGaze__EyeId::Right{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId::OVREyeGaze_EyeId() {}
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId GlobalNamespace::OVREyeGaze_EyeId::Left{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId GlobalNamespace::OVREyeGaze_EyeId::Right{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode::__OVREyeGaze__EyeTrackingMode(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode::OVREyeGaze_EyeTrackingMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode::__OVREyeGaze__EyeTrackingMode() {}
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode GlobalNamespace::__OVREyeGaze__EyeTrackingMode::HeadSpace{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode GlobalNamespace::__OVREyeGaze__EyeTrackingMode::WorldSpace{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode GlobalNamespace::__OVREyeGaze__EyeTrackingMode::TrackingSpace{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode::OVREyeGaze_EyeTrackingMode() {}
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode GlobalNamespace::OVREyeGaze_EyeTrackingMode::HeadSpace{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode GlobalNamespace::OVREyeGaze_EyeTrackingMode::WorldSpace{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode GlobalNamespace::OVREyeGaze_EyeTrackingMode::TrackingSpace{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::OVREyeGaze.get_EyeTrackingEnabled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::get_EyeTrackingEnabled)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3f47880;
+  constexpr static std::size_t addrs = 0x3fa792c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "get_EyeTrackingEnabled",
@@ -45,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::get_Confidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f478d0;
+  constexpr static std::size_t addrs = 0x3fa797c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "get_Confidence",
@@ -58,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)(float_t)>(&::GlobalNamespace::OVREyeGaze::set_Confidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f478d8;
+  constexpr static std::size_t addrs = 0x3fa7984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f478e0;
+  constexpr static std::size_t addrs = 0x3fa798c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "Awake",
@@ -85,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f4795c;
+  constexpr static std::size_t addrs = 0x3fa7a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "Start",
@@ -98,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::OnEnable)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f47be4;
+  constexpr static std::size_t addrs = 0x3fa7c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "OnEnable",
@@ -111,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)(::StringW)>(&::GlobalNamespace::OVREyeGaze::OnPermissionGranted)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f47d34;
+  constexpr static std::size_t addrs = 0x3fa7de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::StartEyeTracking)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3f47c5c;
+  constexpr static std::size_t addrs = 0x3fa7d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "StartEyeTracking",
@@ -138,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f47d94;
+  constexpr static std::size_t addrs = 0x3fa7e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "OnDisable",
@@ -151,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f47e1c;
+  constexpr static std::size_t addrs = 0x3fa7ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "OnDestroy",
@@ -164,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::Update)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3f47e28;
+  constexpr static std::size_t addrs = 0x3fa7ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "Update",
@@ -178,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::OVREyeGaze::*)(::UnityEngine::Quaternion)>(
     &::GlobalNamespace::OVREyeGaze::CalculateEyeRotation)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3f48020;
+  constexpr static std::size_t addrs = 0x3fa80cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::PrepareHeadDirection)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3f47960;
+  constexpr static std::size_t addrs = 0x3fa7a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), "PrepareHeadDirection",
@@ -205,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVREyeGaze::*)()>(&::GlobalNamespace::OVREyeGaze::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3f481e0;
+  constexpr static std::size_t addrs = 0x3fa828c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), ".ctor",
@@ -213,15 +212,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId& GlobalNamespace::OVREyeGaze::__cordl_internal_get_Eye() {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId& GlobalNamespace::OVREyeGaze::__cordl_internal_get_Eye() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Eye;
 }
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeId const& GlobalNamespace::OVREyeGaze::__cordl_internal_get_Eye() const {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeId const& GlobalNamespace::OVREyeGaze::__cordl_internal_get_Eye() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Eye;
 }
-constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_Eye(::GlobalNamespace::__OVREyeGaze__EyeId value) {
+constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_Eye(::GlobalNamespace::OVREyeGaze_EyeId value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Eye = value;
 }
@@ -273,15 +272,15 @@ constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_ApplyRotation(b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ApplyRotation = value;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__EyeGazesState& GlobalNamespace::OVREyeGaze::__cordl_internal_get__currentEyeGazesState() {
+constexpr ::GlobalNamespace::OVRPlugin_EyeGazesState& GlobalNamespace::OVREyeGaze::__cordl_internal_get__currentEyeGazesState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEyeGazesState;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__EyeGazesState const& GlobalNamespace::OVREyeGaze::__cordl_internal_get__currentEyeGazesState() const {
+constexpr ::GlobalNamespace::OVRPlugin_EyeGazesState const& GlobalNamespace::OVREyeGaze::__cordl_internal_get__currentEyeGazesState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentEyeGazesState;
 }
-constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set__currentEyeGazesState(::GlobalNamespace::__OVRPlugin__EyeGazesState value) {
+constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set__currentEyeGazesState(::GlobalNamespace::OVRPlugin_EyeGazesState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentEyeGazesState = value;
 }
@@ -297,15 +296,15 @@ constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_ReferenceFrame(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ReferenceFrame)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode& GlobalNamespace::OVREyeGaze::__cordl_internal_get_TrackingMode() {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode& GlobalNamespace::OVREyeGaze::__cordl_internal_get_TrackingMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingMode;
 }
-constexpr ::GlobalNamespace::__OVREyeGaze__EyeTrackingMode const& GlobalNamespace::OVREyeGaze::__cordl_internal_get_TrackingMode() const {
+constexpr ::GlobalNamespace::OVREyeGaze_EyeTrackingMode const& GlobalNamespace::OVREyeGaze::__cordl_internal_get_TrackingMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TrackingMode;
 }
-constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_TrackingMode(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode value) {
+constexpr void GlobalNamespace::OVREyeGaze::__cordl_internal_set_TrackingMode(::GlobalNamespace::OVREyeGaze_EyeTrackingMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TrackingMode = value;
 }
@@ -337,7 +336,7 @@ constexpr ::System::Action_1<::StringW>*& GlobalNamespace::OVREyeGaze::__cordl_i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& GlobalNamespace::OVREyeGaze::__cordl_internal_get__onPermissionGranted() const {
+constexpr ::System::Action_1<::StringW>* const& GlobalNamespace::OVREyeGaze::__cordl_internal_get__onPermissionGranted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onPermissionGranted;
 }
@@ -419,14 +418,14 @@ inline void GlobalNamespace::OVREyeGaze::PrepareHeadDirection() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVREyeGaze* GlobalNamespace::OVREyeGaze::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVREyeGaze*>());
-}
 inline void GlobalNamespace::OVREyeGaze::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVREyeGaze*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::OVREyeGaze* GlobalNamespace::OVREyeGaze::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVREyeGaze*>());
+}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVREyeGaze::OVREyeGaze() {}
-constexpr ::GlobalNamespace::__OVRPermissionsRequester__Permission GlobalNamespace::OVREyeGaze::EyeTrackingPermission{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRPermissionsRequester_Permission GlobalNamespace::OVREyeGaze::EyeTrackingPermission{ static_cast<int32_t>(0x2) };

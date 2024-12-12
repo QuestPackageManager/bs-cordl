@@ -12,11 +12,10 @@ class ILayoutElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::ILayoutElement);
-// Type: UnityEngine.UI::ILayoutElement
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::ILayoutElement*
+// CS Name: UnityEngine.UI.ILayoutElement
 class CORDL_TYPE ILayoutElement {
 public:
   // Declarations
@@ -34,43 +33,39 @@ public:
 
   __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method get_flexibleHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_flexibleHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_flexibleWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_layoutPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_layoutPriority, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_minHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_minHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_minWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_preferredHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_preferredHeight, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_preferredWidth, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ILayoutElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ILayoutElement(ILayoutElement&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILayoutElement(ILayoutElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15095 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

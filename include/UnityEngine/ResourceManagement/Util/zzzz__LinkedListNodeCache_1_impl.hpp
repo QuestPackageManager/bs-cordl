@@ -20,9 +20,7 @@ template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const&
-UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__cordl_internal_get_m_NodeCache() const {
+template <typename T> constexpr ::System::Collections::Generic::LinkedList_1<T>* const& UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::__cordl_internal_get_m_NodeCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NodeCache;
 }
@@ -60,14 +58,14 @@ template <typename T> inline void UnityEngine::ResourceManagement::Util::LinkedL
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>*>());
-}
 template <typename T> inline void UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>::LinkedListNodeCache_1() {}

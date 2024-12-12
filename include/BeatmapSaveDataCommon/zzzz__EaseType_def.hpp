@@ -12,11 +12,10 @@ struct EaseType;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataCommon::EaseType);
-// Type: BeatmapSaveDataCommon::EaseType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataCommon::EaseType
+// CS Name: BeatmapSaveDataCommon.EaseType
 struct CORDL_TYPE EaseType {
 public:
   // Declarations
@@ -78,126 +77,126 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EaseType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BeatSaberInOutBack value: static_cast<int32_t>(0x64)
+  /// @brief Field BeatSaberInOutBack value: I32(100)
   static ::BeatmapSaveDataCommon::EaseType const BeatSaberInOutBack;
 
-  /// @brief Field BeatSaberInOutBounce value: static_cast<int32_t>(0x66)
+  /// @brief Field BeatSaberInOutBounce value: I32(102)
   static ::BeatmapSaveDataCommon::EaseType const BeatSaberInOutBounce;
 
-  /// @brief Field BeatSaberInOutElastic value: static_cast<int32_t>(0x65)
+  /// @brief Field BeatSaberInOutElastic value: I32(101)
   static ::BeatmapSaveDataCommon::EaseType const BeatSaberInOutElastic;
 
-  /// @brief Field InBack value: static_cast<int32_t>(0x16)
+  /// @brief Field InBack value: I32(22)
   static ::BeatmapSaveDataCommon::EaseType const InBack;
 
-  /// @brief Field InBounce value: static_cast<int32_t>(0x1c)
+  /// @brief Field InBounce value: I32(28)
   static ::BeatmapSaveDataCommon::EaseType const InBounce;
 
-  /// @brief Field InCirc value: static_cast<int32_t>(0x13)
+  /// @brief Field InCirc value: I32(19)
   static ::BeatmapSaveDataCommon::EaseType const InCirc;
 
-  /// @brief Field InCubic value: static_cast<int32_t>(0x7)
+  /// @brief Field InCubic value: I32(7)
   static ::BeatmapSaveDataCommon::EaseType const InCubic;
 
-  /// @brief Field InElastic value: static_cast<int32_t>(0x19)
+  /// @brief Field InElastic value: I32(25)
   static ::BeatmapSaveDataCommon::EaseType const InElastic;
 
-  /// @brief Field InExpo value: static_cast<int32_t>(0x10)
+  /// @brief Field InExpo value: I32(16)
   static ::BeatmapSaveDataCommon::EaseType const InExpo;
 
-  /// @brief Field InOutBack value: static_cast<int32_t>(0x18)
+  /// @brief Field InOutBack value: I32(24)
   static ::BeatmapSaveDataCommon::EaseType const InOutBack;
 
-  /// @brief Field InOutBounce value: static_cast<int32_t>(0x1e)
+  /// @brief Field InOutBounce value: I32(30)
   static ::BeatmapSaveDataCommon::EaseType const InOutBounce;
 
-  /// @brief Field InOutCirc value: static_cast<int32_t>(0x15)
+  /// @brief Field InOutCirc value: I32(21)
   static ::BeatmapSaveDataCommon::EaseType const InOutCirc;
 
-  /// @brief Field InOutCubic value: static_cast<int32_t>(0x9)
+  /// @brief Field InOutCubic value: I32(9)
   static ::BeatmapSaveDataCommon::EaseType const InOutCubic;
 
-  /// @brief Field InOutElastic value: static_cast<int32_t>(0x1b)
+  /// @brief Field InOutElastic value: I32(27)
   static ::BeatmapSaveDataCommon::EaseType const InOutElastic;
 
-  /// @brief Field InOutExpo value: static_cast<int32_t>(0x12)
+  /// @brief Field InOutExpo value: I32(18)
   static ::BeatmapSaveDataCommon::EaseType const InOutExpo;
 
-  /// @brief Field InOutQuad value: static_cast<int32_t>(0x3)
+  /// @brief Field InOutQuad value: I32(3)
   static ::BeatmapSaveDataCommon::EaseType const InOutQuad;
 
-  /// @brief Field InOutQuart value: static_cast<int32_t>(0xc)
+  /// @brief Field InOutQuart value: I32(12)
   static ::BeatmapSaveDataCommon::EaseType const InOutQuart;
 
-  /// @brief Field InOutQuint value: static_cast<int32_t>(0xf)
+  /// @brief Field InOutQuint value: I32(15)
   static ::BeatmapSaveDataCommon::EaseType const InOutQuint;
 
-  /// @brief Field InOutSine value: static_cast<int32_t>(0x6)
+  /// @brief Field InOutSine value: I32(6)
   static ::BeatmapSaveDataCommon::EaseType const InOutSine;
 
-  /// @brief Field InQuad value: static_cast<int32_t>(0x1)
+  /// @brief Field InQuad value: I32(1)
   static ::BeatmapSaveDataCommon::EaseType const InQuad;
 
-  /// @brief Field InQuart value: static_cast<int32_t>(0xa)
+  /// @brief Field InQuart value: I32(10)
   static ::BeatmapSaveDataCommon::EaseType const InQuart;
 
-  /// @brief Field InQuint value: static_cast<int32_t>(0xd)
+  /// @brief Field InQuint value: I32(13)
   static ::BeatmapSaveDataCommon::EaseType const InQuint;
 
-  /// @brief Field InSine value: static_cast<int32_t>(0x4)
+  /// @brief Field InSine value: I32(4)
   static ::BeatmapSaveDataCommon::EaseType const InSine;
 
-  /// @brief Field Linear value: static_cast<int32_t>(0x0)
+  /// @brief Field Linear value: I32(0)
   static ::BeatmapSaveDataCommon::EaseType const Linear;
 
-  /// @brief Field None value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field None value: I32(-1)
   static ::BeatmapSaveDataCommon::EaseType const None;
 
-  /// @brief Field OutBack value: static_cast<int32_t>(0x17)
+  /// @brief Field OutBack value: I32(23)
   static ::BeatmapSaveDataCommon::EaseType const OutBack;
 
-  /// @brief Field OutBounce value: static_cast<int32_t>(0x1d)
+  /// @brief Field OutBounce value: I32(29)
   static ::BeatmapSaveDataCommon::EaseType const OutBounce;
 
-  /// @brief Field OutCirc value: static_cast<int32_t>(0x14)
+  /// @brief Field OutCirc value: I32(20)
   static ::BeatmapSaveDataCommon::EaseType const OutCirc;
 
-  /// @brief Field OutCubic value: static_cast<int32_t>(0x8)
+  /// @brief Field OutCubic value: I32(8)
   static ::BeatmapSaveDataCommon::EaseType const OutCubic;
 
-  /// @brief Field OutElastic value: static_cast<int32_t>(0x1a)
+  /// @brief Field OutElastic value: I32(26)
   static ::BeatmapSaveDataCommon::EaseType const OutElastic;
 
-  /// @brief Field OutExpo value: static_cast<int32_t>(0x11)
+  /// @brief Field OutExpo value: I32(17)
   static ::BeatmapSaveDataCommon::EaseType const OutExpo;
 
-  /// @brief Field OutQuad value: static_cast<int32_t>(0x2)
+  /// @brief Field OutQuad value: I32(2)
   static ::BeatmapSaveDataCommon::EaseType const OutQuad;
 
-  /// @brief Field OutQuart value: static_cast<int32_t>(0xb)
+  /// @brief Field OutQuart value: I32(11)
   static ::BeatmapSaveDataCommon::EaseType const OutQuart;
 
-  /// @brief Field OutQuint value: static_cast<int32_t>(0xe)
+  /// @brief Field OutQuint value: I32(14)
   static ::BeatmapSaveDataCommon::EaseType const OutQuint;
 
-  /// @brief Field OutSine value: static_cast<int32_t>(0x5)
+  /// @brief Field OutSine value: I32(5)
   static ::BeatmapSaveDataCommon::EaseType const OutSine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13444 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::EaseType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataCommon::EaseType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataCommon::EaseType, 0x4>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataCommon
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataCommon::EaseType, "BeatmapSaveDataCommon", "EaseType");

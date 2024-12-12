@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d98928;
+  constexpr static std::size_t addrs = 0x3df8998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d989c0;
+  constexpr static std::size_t addrs = 0x3df8a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW, ::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d98988;
+  constexpr static std::size_t addrs = 0x3df89f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d98a2c;
+  constexpr static std::size_t addrs = 0x3df8a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::GetObjectData)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d98ab4;
+  constexpr static std::size_t addrs = 0x3df8b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_Message)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d98c88;
+  constexpr static std::size_t addrs = 0x3df8cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_ObjectName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3d98bbc;
+  constexpr static std::size_t addrs = 0x3df8c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), "get_ObjectName",
@@ -115,16 +115,10 @@ constexpr void System::ObjectDisposedException::__cordl_internal_set__objectName
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>());
-}
 inline void System::ObjectDisposedException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::StringW objectName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(objectName));
 }
 inline void System::ObjectDisposedException::_ctor(::StringW objectName) {
   static auto* ___internal_method =
@@ -132,18 +126,11 @@ inline void System::ObjectDisposedException::_ctor(::StringW objectName) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectName);
 }
-inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::StringW objectName, ::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(objectName, message));
-}
 inline void System::ObjectDisposedException::_ctor(::StringW objectName, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectName, message);
-}
-inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                    ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(info, context));
 }
 inline void System::ObjectDisposedException::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -166,6 +153,19 @@ inline ::StringW System::ObjectDisposedException::get_ObjectName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), "get_ObjectName",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>());
+}
+inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::StringW objectName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(objectName));
+}
+inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::StringW objectName, ::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(objectName, message));
+}
+inline ::System::ObjectDisposedException* System::ObjectDisposedException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                    ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ObjectDisposedException*>(info, context));
 }
 // Ctor Parameters []
 constexpr ::System::ObjectDisposedException::ObjectDisposedException() {}

@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionUtils)
@@ -13,22 +11,22 @@ namespace Newtonsoft::Json::Serialization {
 class ISerializationBinder;
 }
 namespace Newtonsoft::Json::Utilities {
+class ReflectionUtils___c;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionUtils___c__DisplayClass31_0;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionUtils___c__DisplayClass44_0;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionUtils___c__DisplayClass44_1;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionUtils___c__DisplayClass45_0;
+}
+namespace Newtonsoft::Json::Utilities {
 template <typename T1, typename T2> struct StructMultiKey_2;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass31_0;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass44_0;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass44_1;
-}
-namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass45_0;
 }
 namespace Newtonsoft::Json {
 struct TypeNameAssemblyFormatHandling;
@@ -83,68 +81,67 @@ namespace Newtonsoft::Json::Utilities {
 class ReflectionUtils;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c;
+class ReflectionUtils___c;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass31_0;
+class ReflectionUtils___c__DisplayClass31_0;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass44_0;
+class ReflectionUtils___c__DisplayClass44_0;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass44_1;
+class ReflectionUtils___c__DisplayClass44_1;
 }
 namespace Newtonsoft::Json::Utilities {
-class __ReflectionUtils____c__DisplayClass45_0;
+class ReflectionUtils___c__DisplayClass45_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils);
-MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c);
-MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0);
-MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0);
-MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1);
-MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils___c);
+MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0);
+MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0);
+MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1);
+MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0);
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::ReflectionUtils::<>c*
-class CORDL_TYPE __ReflectionUtils____c : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils/<>c
+class CORDL_TYPE ReflectionUtils___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Newtonsoft::Json::Utilities::ReflectionUtils___c* __9;
 
   /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_0;
+  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* __9__11_0;
 
   /// @brief Field <>9__31_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__31_0, put = setStaticF___9__31_0)) ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* __9__31_0;
+  __declspec(property(get = getStaticF___9__31_0, put = setStaticF___9__31_0)) ::System::Func_2<::System::Reflection::MemberInfo*, ::StringW>* __9__31_0;
 
   /// @brief Field <>9__39_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__39_0, put = setStaticF___9__39_0)) ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* __9__39_0;
+  __declspec(property(get = getStaticF___9__39_0, put = setStaticF___9__39_0)) ::System::Func_2<::System::Reflection::ParameterInfo*, ::System::Type*>* __9__39_0;
 
   /// @brief Field <>9__41_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__41_0, put = setStaticF___9__41_0)) ::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__41_0;
+  __declspec(property(get = getStaticF___9__41_0, put = setStaticF___9__41_0)) ::System::Func_2<::System::Reflection::FieldInfo*, bool>* __9__41_0;
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c* New_ctor();
 
-  /// @brief Method <GetChildPrivateFields>b__41_0, addr 0x3e756ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateFields>b__41_0, addr 0x3ed5758, size 0x18, virtual false, abstract: false, final false
   inline bool _GetChildPrivateFields_b__41_0(::System::Reflection::FieldInfo* f);
 
-  /// @brief Method <GetDefaultConstructor>b__11_0, addr 0x3e755f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <GetDefaultConstructor>b__11_0, addr 0x3ed56a4, size 0x6c, virtual false, abstract: false, final false
   inline bool _GetDefaultConstructor_b__11_0(::System::Reflection::ConstructorInfo* c);
 
-  /// @brief Method <GetFieldsAndProperties>b__31_0, addr 0x3e75664, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetFieldsAndProperties>b__31_0, addr 0x3ed5710, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _GetFieldsAndProperties_b__31_0(::System::Reflection::MemberInfo* m);
 
-  /// @brief Method <GetMemberInfoFromType>b__39_0, addr 0x3e75688, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <GetMemberInfoFromType>b__39_0, addr 0x3ed5734, size 0x24, virtual false, abstract: false, final false
   inline ::System::Type* _GetMemberInfoFromType_b__39_0(::System::Reflection::ParameterInfo* p);
 
-  /// @brief Method .ctor, addr 0x3e755f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed569c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c* getStaticF___9();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* getStaticF___9__11_0();
 
@@ -154,7 +151,7 @@ public:
 
   static inline ::System::Func_2<::System::Reflection::FieldInfo*, bool>* getStaticF___9__41_0();
 
-  static inline void setStaticF___9(::Newtonsoft::Json::Utilities::__ReflectionUtils____c* value);
+  static inline void setStaticF___9(::Newtonsoft::Json::Utilities::ReflectionUtils___c* value);
 
   static inline void setStaticF___9__11_0(::System::Func_2<::System::Reflection::ConstructorInfo*, bool>* value);
 
@@ -167,208 +164,204 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionUtils____c();
+  constexpr ReflectionUtils___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionUtils____c(__ReflectionUtils____c&&) = delete;
+  ReflectionUtils___c(ReflectionUtils___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionUtils____c(__ReflectionUtils____c const&) = delete;
+  ReflectionUtils___c(ReflectionUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10238 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__ReflectionUtils____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ReflectionUtils___c, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: ::<>c__DisplayClass31_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::ReflectionUtils::<>c__DisplayClass31_0*
-class CORDL_TYPE __ReflectionUtils____c__DisplayClass31_0 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils/<>c__DisplayClass31_0
+class CORDL_TYPE ReflectionUtils___c__DisplayClass31_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field memberInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_memberInfo, put = __cordl_internal_set_memberInfo)) ::System::Reflection::MemberInfo* memberInfo;
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method <GetFieldsAndProperties>b__1, addr 0x3e756cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <GetFieldsAndProperties>b__1, addr 0x3ed5778, size 0x9c, virtual false, abstract: false, final false
   inline bool _GetFieldsAndProperties_b__1(::System::Reflection::MemberInfo* m);
+
+  constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get_memberInfo() const;
 
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get_memberInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get_memberInfo() const;
-
   constexpr void __cordl_internal_set_memberInfo(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method .ctor, addr 0x3e756c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed5770, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionUtils____c__DisplayClass31_0();
+  constexpr ReflectionUtils___c__DisplayClass31_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass31_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass31_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionUtils____c__DisplayClass31_0(__ReflectionUtils____c__DisplayClass31_0&&) = delete;
+  ReflectionUtils___c__DisplayClass31_0(ReflectionUtils___c__DisplayClass31_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass31_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass31_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionUtils____c__DisplayClass31_0(__ReflectionUtils____c__DisplayClass31_0 const&) = delete;
+  ReflectionUtils___c__DisplayClass31_0(ReflectionUtils___c__DisplayClass31_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10264 };
 
   /// @brief Field memberInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MemberInfo* ___memberInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10239 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0, ___memberInfo) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0, ___memberInfo) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0, 0x18>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: ::<>c__DisplayClass44_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::ReflectionUtils::<>c__DisplayClass44_0*
-class CORDL_TYPE __ReflectionUtils____c__DisplayClass44_0 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils/<>c__DisplayClass44_0
+class CORDL_TYPE ReflectionUtils___c__DisplayClass44_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subTypeProperty, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subTypeProperty, put = __cordl_internal_set_subTypeProperty)) ::System::Reflection::PropertyInfo* subTypeProperty;
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* New_ctor();
 
-  /// @brief Method <GetChildPrivateProperties>b__0, addr 0x3e75770, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__0, addr 0x3ed581c, size 0x54, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__0(::System::Reflection::PropertyInfo* p);
 
-  /// @brief Method <GetChildPrivateProperties>b__1, addr 0x3e757c4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__1, addr 0x3ed5870, size 0xec, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__1(::System::Reflection::PropertyInfo* p);
+
+  constexpr ::System::Reflection::PropertyInfo* const& __cordl_internal_get_subTypeProperty() const;
 
   constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_subTypeProperty();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_subTypeProperty() const;
-
   constexpr void __cordl_internal_set_subTypeProperty(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method .ctor, addr 0x3e75768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed5814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionUtils____c__DisplayClass44_0();
+  constexpr ReflectionUtils___c__DisplayClass44_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass44_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionUtils____c__DisplayClass44_0(__ReflectionUtils____c__DisplayClass44_0&&) = delete;
+  ReflectionUtils___c__DisplayClass44_0(ReflectionUtils___c__DisplayClass44_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass44_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionUtils____c__DisplayClass44_0(__ReflectionUtils____c__DisplayClass44_0 const&) = delete;
+  ReflectionUtils___c__DisplayClass44_0(ReflectionUtils___c__DisplayClass44_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10265 };
 
   /// @brief Field subTypeProperty, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::PropertyInfo* ___subTypeProperty;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10240 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0, ___subTypeProperty) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0, ___subTypeProperty) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0, 0x18>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: ::<>c__DisplayClass44_1
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::ReflectionUtils::<>c__DisplayClass44_1*
-class CORDL_TYPE __ReflectionUtils____c__DisplayClass44_1 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils/<>c__DisplayClass44_1
+class CORDL_TYPE ReflectionUtils___c__DisplayClass44_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1)) ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1)) ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* CS$__8__locals1;
 
   /// @brief Field subTypePropertyDeclaringType, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subTypePropertyDeclaringType, put = __cordl_internal_set_subTypePropertyDeclaringType)) ::System::Type* subTypePropertyDeclaringType;
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1* New_ctor();
 
-  /// @brief Method <GetChildPrivateProperties>b__2, addr 0x3e758b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <GetChildPrivateProperties>b__2, addr 0x3ed5964, size 0x114, virtual false, abstract: false, final false
   inline bool _GetChildPrivateProperties_b__2(::System::Reflection::PropertyInfo* p);
 
-  constexpr ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*& __cordl_internal_get_CS$__8__locals1();
+  constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*> const& __cordl_internal_get_CS$__8__locals1() const;
+  constexpr ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*& __cordl_internal_get_CS$__8__locals1();
+
+  constexpr ::System::Type* const& __cordl_internal_get_subTypePropertyDeclaringType() const;
 
   constexpr ::System::Type*& __cordl_internal_get_subTypePropertyDeclaringType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_subTypePropertyDeclaringType() const;
-
-  constexpr void __cordl_internal_set_CS$__8__locals1(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* value);
 
   constexpr void __cordl_internal_set_subTypePropertyDeclaringType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e758b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed595c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionUtils____c__DisplayClass44_1();
+  constexpr ReflectionUtils___c__DisplayClass44_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass44_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionUtils____c__DisplayClass44_1(__ReflectionUtils____c__DisplayClass44_1&&) = delete;
+  ReflectionUtils___c__DisplayClass44_1(ReflectionUtils___c__DisplayClass44_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass44_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass44_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionUtils____c__DisplayClass44_1(__ReflectionUtils____c__DisplayClass44_1 const&) = delete;
+  ReflectionUtils___c__DisplayClass44_1(ReflectionUtils___c__DisplayClass44_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10266 };
 
   /// @brief Field subTypePropertyDeclaringType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___subTypePropertyDeclaringType;
 
   /// @brief Field CS$<>8__locals1, offset: 0x18, size: 0x8, def value: None
-  ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0* ___CS$__8__locals1;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10241 };
+  ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0* ___CS$__8__locals1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1, 0x20>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1, ___subTypePropertyDeclaringType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1, ___subTypePropertyDeclaringType) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1, ___CS$__8__locals1) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: ::<>c__DisplayClass45_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::ReflectionUtils::<>c__DisplayClass45_0*
-class CORDL_TYPE __ReflectionUtils____c__DisplayClass45_0 : public ::System::Object {
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils/<>c__DisplayClass45_0
+class CORDL_TYPE ReflectionUtils___c__DisplayClass45_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
@@ -377,39 +370,42 @@ public:
   /// @brief Field methodDeclaringType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_methodDeclaringType, put = __cordl_internal_set_methodDeclaringType)) ::System::Type* methodDeclaringType;
 
-  static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0* New_ctor();
+  static inline ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <IsMethodOverridden>b__0, addr 0x3e759d4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method <IsMethodOverridden>b__0, addr 0x3ed5a80, size 0x114, virtual false, abstract: false, final false
   inline bool _IsMethodOverridden_b__0(::System::Reflection::MethodInfo* info);
 
   constexpr ::StringW const& __cordl_internal_get_method() const;
 
   constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::System::Type*& __cordl_internal_get_methodDeclaringType();
+  constexpr ::System::Type* const& __cordl_internal_get_methodDeclaringType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_methodDeclaringType() const;
+  constexpr ::System::Type*& __cordl_internal_get_methodDeclaringType();
 
   constexpr void __cordl_internal_set_method(::StringW value);
 
   constexpr void __cordl_internal_set_methodDeclaringType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e759cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ed5a78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectionUtils____c__DisplayClass45_0();
+  constexpr ReflectionUtils___c__DisplayClass45_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass45_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass45_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectionUtils____c__DisplayClass45_0(__ReflectionUtils____c__DisplayClass45_0&&) = delete;
+  ReflectionUtils___c__DisplayClass45_0(ReflectionUtils___c__DisplayClass45_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectionUtils____c__DisplayClass45_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtils___c__DisplayClass45_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectionUtils____c__DisplayClass45_0(__ReflectionUtils____c__DisplayClass45_0 const&) = delete;
+  ReflectionUtils___c__DisplayClass45_0(ReflectionUtils___c__DisplayClass45_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10267 };
 
   /// @brief Field method, offset: 0x10, size: 0x8, def value: None
   ::StringW ___method;
@@ -417,53 +413,49 @@ public:
   /// @brief Field methodDeclaringType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___methodDeclaringType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10242 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0, ___method) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0, ___method) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0, ___methodDeclaringType) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0, ___methodDeclaringType) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0, 0x20>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
-// Type: Newtonsoft.Json.Utilities::ReflectionUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::ReflectionUtils*
+// CS Name: Newtonsoft.Json.Utilities.ReflectionUtils
 class CORDL_TYPE ReflectionUtils : public ::System::Object {
 public:
   // Declarations
-  using __c = ::Newtonsoft::Json::Utilities::__ReflectionUtils____c;
+  using __c = ::Newtonsoft::Json::Utilities::ReflectionUtils___c;
 
-  using __c__DisplayClass31_0 = ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0;
+  using __c__DisplayClass31_0 = ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0;
 
-  using __c__DisplayClass44_0 = ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0;
+  using __c__DisplayClass44_0 = ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0;
 
-  using __c__DisplayClass44_1 = ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1;
+  using __c__DisplayClass44_1 = ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1;
 
-  using __c__DisplayClass45_0 = ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0;
+  using __c__DisplayClass45_0 = ::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0;
 
   /// @brief Field EmptyTypes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EmptyTypes, put = setStaticF_EmptyTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> EmptyTypes;
+  __declspec(property(get = getStaticF_EmptyTypes, put = setStaticF_EmptyTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> EmptyTypes;
 
-  /// @brief Method CanReadMemberValue, addr 0x3e7115c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CanReadMemberValue, addr 0x3ed1208, size 0x154, virtual false, abstract: false, final false
   static inline bool CanReadMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic);
 
-  /// @brief Method CanSetMemberValue, addr 0x3e712b0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CanSetMemberValue, addr 0x3ed135c, size 0x188, virtual false, abstract: false, final false
   static inline bool CanSetMemberValue(::System::Reflection::MemberInfo* member, bool nonPublic, bool canSetReadOnly);
 
-  /// @brief Method EnsureNotByRefType, addr 0x3e72050, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EnsureNotByRefType, addr 0x3ed20fc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Type* EnsureNotByRefType(::System::Type* t);
 
-  /// @brief Method EnsureNotNullableType, addr 0x3e71fdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method EnsureNotNullableType, addr 0x3ed2088, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Type* EnsureNotNullableType(::System::Type* t);
 
-  /// @brief Method GetAssemblyDelimiterIndex, addr 0x3e747dc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAssemblyDelimiterIndex, addr 0x3ed4888, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> GetAssemblyDelimiterIndex(::StringW fullyQualifiedTypeName);
 
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -472,120 +464,120 @@ public:
   /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetAttribute(::System::Object* attributeProvider, bool inherit);
 
-  /// @brief Method GetAttributes, addr 0x3e72ba8, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x3ed2c54, size 0x514, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetAttributes(::System::Object* attributeProvider, ::System::Type* attributeType, bool inherit);
 
   /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetAttributes(::System::Object* attributeProvider, bool inherit);
 
-  /// @brief Method GetBaseDefinition, addr 0x3e71964, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetBaseDefinition, addr 0x3ed1a10, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* GetBaseDefinition(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method GetChildPrivateFields, addr 0x3e74b18, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetChildPrivateFields, addr 0x3ed4bc4, size 0x1e0, virtual false, abstract: false, final false
   static inline void GetChildPrivateFields(::System::Collections::Generic::IList_1<::System::Reflection::MemberInfo*>* initialFields, ::System::Type* type,
                                            ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetChildPrivateProperties, addr 0x3e74d08, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method GetChildPrivateProperties, addr 0x3ed4db4, size 0x55c, virtual false, abstract: false, final false
   static inline void GetChildPrivateProperties(::System::Collections::Generic::IList_1<::System::Reflection::PropertyInfo*>* initialProperties, ::System::Type* type,
                                                ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetCollectionItemType, addr 0x3e72660, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetCollectionItemType, addr 0x3ed270c, size 0x220, virtual false, abstract: false, final false
   static inline ::System::Type* GetCollectionItemType(::System::Type* type);
 
-  /// @brief Method GetDefaultConstructor, addr 0x3e71f84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConstructor, addr 0x3ed2030, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t);
 
-  /// @brief Method GetDefaultConstructor, addr 0x3e71e58, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultConstructor, addr 0x3ed1f04, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Reflection::ConstructorInfo* GetDefaultConstructor(::System::Type* t, bool nonPublic);
 
-  /// @brief Method GetDefaultValue, addr 0x3e7535c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultValue, addr 0x3ed5408, size 0x238, virtual false, abstract: false, final false
   static inline ::System::Object* GetDefaultValue(::System::Type* type);
 
-  /// @brief Method GetDictionaryKeyValueTypes, addr 0x3e72880, size 0x224, virtual false, abstract: false, final false
-  static inline void GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ByRef<::System::Type*> keyType, ByRef<::System::Type*> valueType);
+  /// @brief Method GetDictionaryKeyValueTypes, addr 0x3ed292c, size 0x224, virtual false, abstract: false, final false
+  static inline void GetDictionaryKeyValueTypes(::System::Type* dictionaryType, ::ByRef<::System::Type*> keyType, ::ByRef<::System::Type*> valueType);
 
-  /// @brief Method GetFields, addr 0x3e740f0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetFields, addr 0x3ed419c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* GetFields(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetFieldsAndProperties, addr 0x3e73674, size 0xa7c, virtual false, abstract: false, final false
+  /// @brief Method GetFieldsAndProperties, addr 0x3ed3720, size 0xa7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Reflection::MemberInfo*>* GetFieldsAndProperties(::System::Type* type, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetFullyQualifiedTypeName, addr 0x3e71b94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetFullyQualifiedTypeName, addr 0x3ed1c40, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW GetFullyQualifiedTypeName(::System::Type* t, ::Newtonsoft::Json::Serialization::ISerializationBinder* binder);
 
-  /// @brief Method GetMemberInfoFromType, addr 0x3e748b4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetMemberInfoFromType, addr 0x3ed4960, size 0x264, virtual false, abstract: false, final false
   static inline ::System::Reflection::MemberInfo* GetMemberInfoFromType(::System::Type* targetType, ::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method GetMemberUnderlyingType, addr 0x3e71448, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetMemberUnderlyingType, addr 0x3ed14f4, size 0x22c, virtual false, abstract: false, final false
   static inline ::System::Type* GetMemberUnderlyingType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method GetMemberValue, addr 0x3e73138, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetMemberValue, addr 0x3ed31e4, size 0x320, virtual false, abstract: false, final false
   static inline ::System::Object* GetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target);
 
-  /// @brief Method GetObjectType, addr 0x3e6145c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetObjectType, addr 0x3ec1508, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Type* GetObjectType(::System::Object* v);
 
-  /// @brief Method GetProperties, addr 0x3e7420c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x3ed42b8, size 0x304, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::PropertyInfo*>* GetProperties(::System::Type* targetType, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method GetTypeName, addr 0x3e71abc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x3ed1b68, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW GetTypeName(::System::Type* t, ::Newtonsoft::Json::TypeNameAssemblyFormatHandling assemblyFormat, ::Newtonsoft::Json::Serialization::ISerializationBinder* binder);
 
-  /// @brief Method HasDefaultConstructor, addr 0x3e7106c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultConstructor, addr 0x3ed1118, size 0xe8, virtual false, abstract: false, final false
   static inline bool HasDefaultConstructor(::System::Type* t, bool nonPublic);
 
-  /// @brief Method ImplementsGenericDefinition, addr 0x3e5e430, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ImplementsGenericDefinition, addr 0x3ebe4dc, size 0x74, virtual false, abstract: false, final false
   static inline bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
 
-  /// @brief Method ImplementsGenericDefinition, addr 0x3e72144, size 0x264, virtual false, abstract: false, final false
-  static inline bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ByRef<::System::Type*> implementingType);
+  /// @brief Method ImplementsGenericDefinition, addr 0x3ed21f0, size 0x264, virtual false, abstract: false, final false
+  static inline bool ImplementsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition, ::ByRef<::System::Type*> implementingType);
 
-  /// @brief Method InheritsGenericDefinition, addr 0x3e723a8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InheritsGenericDefinition, addr 0x3ed2454, size 0x74, virtual false, abstract: false, final false
   static inline bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition);
 
-  /// @brief Method InheritsGenericDefinition, addr 0x3e7241c, size 0x150, virtual false, abstract: false, final false
-  static inline bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
+  /// @brief Method InheritsGenericDefinition, addr 0x3ed24c8, size 0x150, virtual false, abstract: false, final false
+  static inline bool InheritsGenericDefinition(::System::Type* type, ::System::Type* genericClassDefinition, ::ByRef<::System::Type*> implementingType);
 
-  /// @brief Method InheritsGenericDefinitionInternal, addr 0x3e7256c, size 0xf4, virtual false, abstract: false, final false
-  static inline bool InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition, ByRef<::System::Type*> implementingType);
+  /// @brief Method InheritsGenericDefinitionInternal, addr 0x3ed2618, size 0xf4, virtual false, abstract: false, final false
+  static inline bool InheritsGenericDefinitionInternal(::System::Type* type, ::System::Type* genericClassDefinition, ::ByRef<::System::Type*> implementingType);
 
-  /// @brief Method IsByRefLikeType, addr 0x3e72aa4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method IsByRefLikeType, addr 0x3ed2b50, size 0x104, virtual false, abstract: false, final false
   static inline bool IsByRefLikeType(::System::Type* type);
 
-  /// @brief Method IsGenericDefinition, addr 0x3e720a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsGenericDefinition, addr 0x3ed214c, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsGenericDefinition(::System::Type* type, ::System::Type* genericInterfaceDefinition);
 
-  /// @brief Method IsIndexedProperty, addr 0x3e730bc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsIndexedProperty, addr 0x3ed3168, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsIndexedProperty(::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method IsMethodOverridden, addr 0x3e75264, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsMethodOverridden, addr 0x3ed5310, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsMethodOverridden(::System::Type* currentType, ::System::Type* methodDeclaringType, ::StringW method);
 
-  /// @brief Method IsNullable, addr 0x3e61034, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method IsNullable, addr 0x3ec10e0, size 0x98, virtual false, abstract: false, final false
   static inline bool IsNullable(::System::Type* t);
 
-  /// @brief Method IsNullableType, addr 0x3e5f47c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsNullableType, addr 0x3ebf528, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsNullableType(::System::Type* t);
 
-  /// @brief Method IsOverridenGenericMember, addr 0x3e74510, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method IsOverridenGenericMember, addr 0x3ed45bc, size 0x1d0, virtual false, abstract: false, final false
   static inline bool IsOverridenGenericMember(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::BindingFlags bindingAttr);
 
-  /// @brief Method IsPublic, addr 0x3e71a2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsPublic, addr 0x3ed1ad8, size 0x90, virtual false, abstract: false, final false
   static inline bool IsPublic(::System::Reflection::PropertyInfo* property);
 
-  /// @brief Method IsVirtual, addr 0x3e71880, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsVirtual, addr 0x3ed192c, size 0xe4, virtual false, abstract: false, final false
   static inline bool IsVirtual(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method RemoveAssemblyDetails, addr 0x3e71cc4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RemoveAssemblyDetails, addr 0x3ed1d70, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW RemoveAssemblyDetails(::StringW fullyQualifiedTypeName);
 
-  /// @brief Method RemoveFlag, addr 0x3e74cf8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method RemoveFlag, addr 0x3ed4da4, size 0x10, virtual false, abstract: false, final false
   static inline ::System::Reflection::BindingFlags RemoveFlag(::System::Reflection::BindingFlags bindingAttr, ::System::Reflection::BindingFlags flag);
 
-  /// @brief Method SetMemberValue, addr 0x3e73458, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method SetMemberValue, addr 0x3ed3504, size 0x21c, virtual false, abstract: false, final false
   static inline void SetMemberValue(::System::Reflection::MemberInfo* member, ::System::Object* target, ::System::Object* value);
 
-  /// @brief Method SplitFullyQualifiedTypeName, addr 0x3e746e0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SplitFullyQualifiedTypeName, addr 0x3ed478c, size 0xfc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW> SplitFullyQualifiedTypeName(::StringW fullyQualifiedTypeName);
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_EmptyTypes();
@@ -607,7 +599,7 @@ public:
   ReflectionUtils(ReflectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -617,13 +609,13 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::Ref
 } // namespace Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils*, "Newtonsoft.Json.Utilities", "ReflectionUtils");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::__ReflectionUtils____c);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__ReflectionUtils____c*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass31_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass31_0");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_0");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass44_1*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_1");
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass45_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass45_0");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils___c);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils___c*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass31_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass31_0");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_0");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass44_1*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass44_1");
+NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0);
+DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionUtils___c__DisplayClass45_0*, "Newtonsoft.Json.Utilities", "ReflectionUtils/<>c__DisplayClass45_0");

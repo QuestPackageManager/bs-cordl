@@ -1,76 +1,25 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_SerializableDictionary_2.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SerializableDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
-template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
-  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
-HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
-  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey,
-                                                           TValue>::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey,
-                                                           TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
-HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename TKey, typename TValue>
-constexpr ::System::Collections::IEnumerable* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
-  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-template <typename TKey, typename TValue>
-constexpr ::UnityEngine::ISerializationCallbackReceiver* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
-  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
-}
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_get__dictionary() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dictionary;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const&
-HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_get__dictionary() const {
+constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>* const& HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::__cordl_internal_get__dictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dictionary;
 }
@@ -198,10 +147,10 @@ template <typename TKey, typename TValue> inline bool HoudiniEngineUnity::HEU_Se
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
-template <typename TKey, typename TValue> inline bool HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::TryGetValue(TKey key, ByRef<TValue> value) {
+template <typename TKey, typename TValue> inline bool HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::TryGetValue(TKey key, ::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>*>::get(), "TryGetValue", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::IEnumerator* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::System_Collections_IEnumerable_GetEnumerator() {
@@ -222,14 +171,66 @@ template <typename TKey, typename TValue> inline void HoudiniEngineUnity::HEU_Se
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline ::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>*>());
-}
 template <typename TKey, typename TValue> inline void HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TKey, typename TValue> inline ::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::System::Collections::Generic::IDictionary_2<TKey, TValue>*() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IDictionary_2<TKey,TValue>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*
+HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__IDictionary_2_TKey_TValue_() noexcept {
+  return static_cast<::System::Collections::Generic::IDictionary_2<TKey, TValue>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey,
+                                                           TValue>::operator ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__ICollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey,
+                                                           TValue>::operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
+HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__Generic__IEnumerable_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TKey, typename TValue>
+constexpr ::System::Collections::IEnumerable* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+template <typename TKey, typename TValue> constexpr HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+template <typename TKey, typename TValue>
+constexpr ::UnityEngine::ISerializationCallbackReceiver* HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::i___UnityEngine__ISerializationCallbackReceiver() noexcept {
+  return static_cast<::UnityEngine::ISerializationCallbackReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::HoudiniEngineUnity::HEU_SerializableDictionary_2<TKey, TValue>::HEU_SerializableDictionary_2() {}

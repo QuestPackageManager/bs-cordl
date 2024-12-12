@@ -7,69 +7,69 @@
 #include "UnityEngine/UIElements/zzzz__Focusable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusChangeTarget_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::*)()>(
-    &::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(
+    &::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4937e8c;
+  constexpr static std::size_t addrs = 0x499c79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c.__cctor_b__9_0
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c.__cctor_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (
-    ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::*)()>(&::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::__cctor_b__9_0)> {
+    ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::*)()>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::__cctor_b__9_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4937e94;
+  constexpr static std::size_t addrs = 0x499c7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get(), "<.cctor>b__9_0",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get(), "<.cctor>b__9_0",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::setStaticF___9(::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>(value));
+inline void UnityEngine::UIElements::VisualElementFocusChangeTarget___c::setStaticF___9(::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get>(
+      std::forward<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>(value));
 }
-inline ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c* UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get>();
+inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* UnityEngine::UIElements::VisualElementFocusChangeTarget___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c* UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>());
-}
-inline void UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::_ctor() {
+inline void UnityEngine::UIElements::VisualElementFocusChangeTarget___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::__cctor_b__9_0() {
+inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* UnityEngine::UIElements::VisualElementFocusChangeTarget___c::__cctor_b__9_0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c*>::get(), "<.cctor>b__9_0",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>::get(), "<.cctor>b__9_0",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElementFocusChangeTarget*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c* UnityEngine::UIElements::VisualElementFocusChangeTarget___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualElementFocusChangeTarget___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__VisualElementFocusChangeTarget____c::__VisualElementFocusChangeTarget____c() {}
+constexpr ::UnityEngine::UIElements::VisualElementFocusChangeTarget___c::VisualElementFocusChangeTarget___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::VisualElementFocusChangeTarget.GetPooled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElementFocusChangeTarget* (*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::GetPooled)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4937b28;
+  constexpr static std::size_t addrs = 0x499c438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::Dispose)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4937bb0;
+  constexpr static std::size_t addrs = 0x499c4c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(
     ::UnityEngine::UIElements::FocusController*, ::UnityEngine::UIElements::Focusable*)>(&::UnityEngine::UIElements::VisualElementFocusChangeTarget::ApplyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4937c34;
+  constexpr static std::size_t addrs = 0x499c544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4937c70;
+  constexpr static std::size_t addrs = 0x499c580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Focusable* (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)()>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4937d10;
+  constexpr static std::size_t addrs = 0x499c620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementFocusChangeTarget::*)(::UnityEngine::UIElements::Focusable*)>(
     &::UnityEngine::UIElements::VisualElementFocusChangeTarget::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4937d18;
+  constexpr static std::size_t addrs = 0x499c628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,8 +159,7 @@ constexpr ::UnityEngine::UIElements::Focusable*& UnityEngine::UIElements::Visual
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____target_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const&
-UnityEngine::UIElements::VisualElementFocusChangeTarget::__cordl_internal_get__target_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::Focusable* const& UnityEngine::UIElements::VisualElementFocusChangeTarget::__cordl_internal_get__target_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____target_k__BackingField;
 }
@@ -195,9 +194,6 @@ inline void UnityEngine::UIElements::VisualElementFocusChangeTarget::ApplyTo(::U
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, focusController, f);
 }
-inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* UnityEngine::UIElements::VisualElementFocusChangeTarget::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>());
-}
 inline void UnityEngine::UIElements::VisualElementFocusChangeTarget::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -213,6 +209,9 @@ inline void UnityEngine::UIElements::VisualElementFocusChangeTarget::set_target(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>::get(), "set_target", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Focusable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* UnityEngine::UIElements::VisualElementFocusChangeTarget::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualElementFocusChangeTarget::VisualElementFocusChangeTarget() {}

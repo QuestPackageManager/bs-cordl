@@ -14,20 +14,19 @@ class RecordingToolScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
-// Type: ::RecordingToolScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SingleFixedSceneScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RecordingToolScenesTransitionSetupDataSO*
+// CS Name: RecordingToolScenesTransitionSetupDataSO
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3add8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b37dc0, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3add8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b3d994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5266 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

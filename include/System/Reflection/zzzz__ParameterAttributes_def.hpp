@@ -12,11 +12,10 @@ struct ParameterAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::ParameterAttributes);
-// Type: System.Reflection::ParameterAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::ParameterAttributes
+// CS Name: System.Reflection.ParameterAttributes
 struct CORDL_TYPE ParameterAttributes {
 public:
   // Declarations
@@ -54,40 +53,37 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ParameterAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HasDefault value: static_cast<int32_t>(0x1000)
+  /// @brief Field HasDefault value: I32(4096)
   static ::System::Reflection::ParameterAttributes const HasDefault;
 
-  /// @brief Field HasFieldMarshal value: static_cast<int32_t>(0x2000)
+  /// @brief Field HasFieldMarshal value: I32(8192)
   static ::System::Reflection::ParameterAttributes const HasFieldMarshal;
 
-  /// @brief Field In value: static_cast<int32_t>(0x1)
+  /// @brief Field In value: I32(1)
   static ::System::Reflection::ParameterAttributes const In;
 
-  /// @brief Field Lcid value: static_cast<int32_t>(0x4)
+  /// @brief Field Lcid value: I32(4)
   static ::System::Reflection::ParameterAttributes const Lcid;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Reflection::ParameterAttributes const None;
 
-  /// @brief Field Optional value: static_cast<int32_t>(0x10)
+  /// @brief Field Optional value: I32(16)
   static ::System::Reflection::ParameterAttributes const Optional;
 
-  /// @brief Field Out value: static_cast<int32_t>(0x2)
+  /// @brief Field Out value: I32(2)
   static ::System::Reflection::ParameterAttributes const Out;
 
-  /// @brief Field Reserved3 value: static_cast<int32_t>(0x4000)
+  /// @brief Field Reserved3 value: I32(16384)
   static ::System::Reflection::ParameterAttributes const Reserved3;
 
-  /// @brief Field Reserved4 value: static_cast<int32_t>(0x8000)
+  /// @brief Field Reserved4 value: I32(32768)
   static ::System::Reflection::ParameterAttributes const Reserved4;
 
-  /// @brief Field ReservedMask value: static_cast<int32_t>(0xf000)
+  /// @brief Field ReservedMask value: I32(61440)
   static ::System::Reflection::ParameterAttributes const ReservedMask;
 
-  /// @brief Field Retval value: static_cast<int32_t>(0x8)
+  /// @brief Field Retval value: I32(8)
   static ::System::Reflection::ParameterAttributes const Retval;
 
   /// @brief IL2CPP Metadata Type Index
@@ -96,12 +92,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::ParameterAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::ParameterAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::ParameterAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");

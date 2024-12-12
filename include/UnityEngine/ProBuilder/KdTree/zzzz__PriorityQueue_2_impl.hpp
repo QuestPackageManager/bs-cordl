@@ -1,29 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/PriorityQueue_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
-/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
-template <typename TItem, typename TPriority>
-constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
-template <typename TItem, typename TPriority>
-constexpr ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*
-UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::i___UnityEngine__ProBuilder__KdTree__IPriorityQueue_2_TItem_TPriority_() noexcept {
-  return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
-}
 template <typename TItem, typename TPriority>
 constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__cordl_internal_get_priorityMath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityMath;
 }
 template <typename TItem, typename TPriority>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*> const&
-UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__cordl_internal_get_priorityMath() const {
+constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* const& UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::__cordl_internal_get_priorityMath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___priorityMath;
 }
@@ -75,11 +63,6 @@ template <typename TItem, typename TPriority> constexpr void UnityEngine::ProBui
   this->___count = value;
 }
 template <typename TItem, typename TPriority>
-inline ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*
-UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::New_ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*>(capacity, priorityMath));
-}
-template <typename TItem, typename TPriority>
 inline void UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::_ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -128,6 +111,22 @@ template <typename TItem, typename TPriority> inline TPriority UnityEngine::ProB
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*>::get(),
                                                "GetHighestPriority", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TPriority, false>(this, ___internal_method);
+}
+template <typename TItem, typename TPriority>
+inline ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*
+UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::New_ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>*>(capacity, priorityMath));
+}
+/// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
+template <typename TItem, typename TPriority>
+constexpr ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*
+UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::i___UnityEngine__ProBuilder__KdTree__IPriorityQueue_2_TItem_TPriority_() noexcept {
+  return static_cast<::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TItem, typename TPriority> constexpr ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::PriorityQueue_2() {}

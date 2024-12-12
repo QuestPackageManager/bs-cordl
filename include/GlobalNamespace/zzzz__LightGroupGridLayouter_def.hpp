@@ -13,11 +13,10 @@ class LightGroupGridLayouter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupGridLayouter);
-// Type: ::LightGroupGridLayouter
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightGroupSubsystem, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightGroupGridLayouter*
+// CS Name: LightGroupGridLayouter
 class CORDL_TYPE LightGroupGridLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
@@ -95,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set__transposeOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x3b2be8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8d424, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,6 +110,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupGridLayouter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupGridLayouter(LightGroupGridLayouter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
 
   /// @brief Field _columns, offset: 0x28, size: 0x4, def value: None
   int32_t ____columns;
@@ -136,14 +138,9 @@ public:
   /// @brief Field _defaultRotation, offset: 0x4c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____defaultRotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4282 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupGridLayouter, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____columns) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____columnStep) == 0x2c, "Offset mismatch!");
@@ -159,6 +156,8 @@ static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____transposeO
 static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____alternateOrder) == 0x4a, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupGridLayouter, ____defaultRotation) == 0x4c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupGridLayouter, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupGridLayouter);

@@ -3,25 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__PlaybackRenderer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaybackRenderer)
 namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
+class PlaybackRenderer_PlaybackScreenshot;
 }
 namespace GlobalNamespace {
-struct __PlaybackRenderer__PlaybackScreenshot__Type;
+struct PlaybackScreenshot_PlaybackRenderer_Type;
 }
 namespace GlobalNamespace {
-class __PosesRecordingData__ExternalCameraCalibration;
+class PosesRecordingData_ExternalCameraCalibration;
 }
 namespace System {
 class Action;
@@ -52,37 +50,36 @@ class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __PlaybackRenderer__PlaybackScreenshot__Type;
+struct PlaybackScreenshot_PlaybackRenderer_Type;
 }
 namespace GlobalNamespace {
 class PlaybackRenderer;
 }
 namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
+class PlaybackRenderer_PlaybackScreenshot;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type);
+MARK_VAL_T(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type);
 MARK_REF_PTR_T(::GlobalNamespace::PlaybackRenderer);
-MARK_REF_PTR_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot);
-// Type: ::Type
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlaybackRenderer::PlaybackScreenshot::Type
-struct CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot__Type {
+// CS Name: PlaybackRenderer/PlaybackScreenshot/Type
+struct CORDL_TYPE PlaybackScreenshot_PlaybackRenderer_Type {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped
-  enum struct ____PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped : int32_t {
+  /// @brief Nested struct __PlaybackScreenshot_PlaybackRenderer_Type_Unwrapped
+  enum struct __PlaybackScreenshot_PlaybackRenderer_Type_Unwrapped : int32_t {
     __E_Foreground = static_cast<int32_t>(0x1),
     __E_Background = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped() const noexcept {
-    return static_cast<____PlaybackRenderer__PlaybackScreenshot__Type_Unwrapped>(this->value__);
+  constexpr operator __PlaybackScreenshot_PlaybackRenderer_Type_Unwrapped() const noexcept {
+    return static_cast<__PlaybackScreenshot_PlaybackRenderer_Type_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -92,43 +89,42 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlaybackRenderer__PlaybackScreenshot__Type();
+  constexpr PlaybackScreenshot_PlaybackRenderer_Type();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PlaybackRenderer__PlaybackScreenshot__Type(int32_t value__) noexcept;
+  constexpr PlaybackScreenshot_PlaybackRenderer_Type(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Background value: I32(2)
+  static ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type const Background;
 
-  /// @brief Field Background value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const Background;
-
-  /// @brief Field Foreground value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const Foreground;
+  /// @brief Field Foreground value: I32(1)
+  static ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type const Foreground;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5087 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlaybackScreenshot
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PlaybackRenderer::PlaybackScreenshot::Type, System.Object, UnityEngine.Color, UnityEngine.LayerMask
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlaybackRenderer::PlaybackScreenshot*
-class CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot : public ::System::Object {
+// CS Name: PlaybackRenderer/PlaybackScreenshot
+class CORDL_TYPE PlaybackRenderer_PlaybackScreenshot : public ::System::Object {
 public:
   // Declarations
-  using Type = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type;
+  using Type = ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type;
 
   /// @brief Field _backgroundColor, offset 0x30, size 0x10
   __declspec(property(get = __cordl_internal_get__backgroundColor, put = __cordl_internal_set__backgroundColor)) ::UnityEngine::Color _backgroundColor;
@@ -146,7 +142,7 @@ public:
   __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture)) ::UnityW<::UnityEngine::RenderTexture> _texture;
 
   /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type _type;
 
   __declspec(property(get = get_backgroundColor)) ::UnityEngine::Color backgroundColor;
 
@@ -158,13 +154,13 @@ public:
 
   __declspec(property(get = get_texture)) ::UnityW<::UnityEngine::RenderTexture> texture;
 
-  __declspec(property(get = get_type)) ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type;
+  __declspec(property(get = get_type)) ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type;
 
-  /// @brief Method CreateTexture, addr 0x3abbc00, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x3b18b44, size 0xc4, virtual false, abstract: false, final false
   inline void CreateTexture(int32_t width, int32_t height);
 
-  static inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask,
-                                                                                    ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type, ::UnityEngine::Color backgroundColor);
+  static inline ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type,
+                                                                                 ::UnityEngine::Color backgroundColor);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__backgroundColor() const;
 
@@ -186,9 +182,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__texture();
 
-  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const& __cordl_internal_get__type() const;
+  constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type const& __cordl_internal_get__type() const;
 
-  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type& __cordl_internal_get__type();
+  constexpr ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type& __cordl_internal_get__type();
 
   constexpr void __cordl_internal_set__backgroundColor(::UnityEngine::Color value);
 
@@ -200,45 +196,48 @@ public:
 
   constexpr void __cordl_internal_set__texture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr void __cordl_internal_set__type(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type value);
+  constexpr void __cordl_internal_set__type(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type value);
 
-  /// @brief Method .ctor, addr 0x3abc50c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type, ::UnityEngine::Color backgroundColor);
+  /// @brief Method .ctor, addr 0x3b19450, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method get_backgroundColor, addr 0x3abc500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundColor, addr 0x3b19444, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
-  /// @brief Method get_layerMask, addr 0x3abc4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layerMask, addr 0x3b19424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
 
-  /// @brief Method get_name, addr 0x3abc4d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x3b19414, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_path, addr 0x3abc4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x3b19434, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_texture, addr 0x3abc4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x3b1941c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_texture();
 
-  /// @brief Method get_type, addr 0x3abc4e8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type get_type();
+  /// @brief Method get_type, addr 0x3b1942c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type get_type();
 
-  /// @brief Method set_path, addr 0x3abc4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_path, addr 0x3b1943c, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlaybackRenderer__PlaybackScreenshot();
+  constexpr PlaybackRenderer_PlaybackScreenshot();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PlaybackRenderer__PlaybackScreenshot", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __PlaybackRenderer__PlaybackScreenshot(__PlaybackRenderer__PlaybackScreenshot&&) = delete;
+  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PlaybackRenderer__PlaybackScreenshot", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer_PlaybackScreenshot", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __PlaybackRenderer__PlaybackScreenshot(__PlaybackRenderer__PlaybackScreenshot const&) = delete;
+  PlaybackRenderer_PlaybackScreenshot(PlaybackRenderer_PlaybackScreenshot const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5088 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
@@ -247,7 +246,7 @@ public:
   ::UnityEngine::LayerMask ____layerMask;
 
   /// @brief Field _type, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type ____type;
+  ::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type ____type;
 
   /// @brief Field _texture, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____texture;
@@ -258,43 +257,39 @@ public:
   /// @brief Field _backgroundColor, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____backgroundColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5069 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____name) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____name) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____layerMask) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____layerMask) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____type) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____type) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____texture) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____texture) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____path) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____path) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, ____backgroundColor) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot, ____backgroundColor) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlaybackRenderer
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlaybackRenderer*
+// CS Name: PlaybackRenderer
 class CORDL_TYPE PlaybackRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using PlaybackScreenshot = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot;
+  using PlaybackScreenshot = ::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot;
 
   /// @brief Field _camera, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _cameraCalibration, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__cameraCalibration,
-                      put = __cordl_internal_set__cameraCalibration)) ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* _cameraCalibration;
+                      put = __cordl_internal_set__cameraCalibration)) ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* _cameraCalibration;
 
   /// @brief Field _clearBackgroundShader, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__clearBackgroundShader, put = __cordl_internal_set__clearBackgroundShader)) ::UnityW<::UnityEngine::Shader> _clearBackgroundShader;
@@ -313,52 +308,51 @@ public:
 
   /// @brief Field _screenshots, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__screenshots,
-                      put =
-                          __cordl_internal_set__screenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>
+                      put = __cordl_internal_set__screenshots)) ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>
       _screenshots;
 
-  __declspec(property(get = get_screenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots;
+  __declspec(property(get = get_screenshots)) ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> screenshots;
 
   /// @brief Field texturesReadyEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent)) ::System::Action* texturesReadyEvent;
 
-  /// @brief Method CreateClipQuad, addr 0x3abb910, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method CreateClipQuad, addr 0x3b18854, size 0x27c, virtual false, abstract: false, final false
   inline void CreateClipQuad();
 
-  /// @brief Method CreateTextures, addr 0x3abbb8c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTextures, addr 0x3b18ad0, size 0x74, virtual false, abstract: false, final false
   inline void CreateTextures(int32_t width, int32_t height);
 
-  /// @brief Method GetDistanceToHMD, addr 0x3abbcc4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GetDistanceToHMD, addr 0x3b18c08, size 0x30c, virtual false, abstract: false, final false
   inline float_t GetDistanceToHMD();
 
-  /// @brief Method InitCamera, addr 0x3abb828, size 0xe8, virtual false, abstract: false, final false
-  inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration);
+  /// @brief Method InitCamera, addr 0x3b1876c, size 0xe8, virtual false, abstract: false, final false
+  inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration);
 
-  /// @brief Method LateUpdate, addr 0x3abc424, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b19368, size 0xa4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlaybackRenderer* New_ctor();
 
-  /// @brief Method OrientClipQuad, addr 0x3abbfd0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OrientClipQuad, addr 0x3b18f14, size 0x140, virtual false, abstract: false, final false
   inline void OrientClipQuad();
 
-  /// @brief Method RenderBackground, addr 0x3abc2d0, size 0x154, virtual false, abstract: false, final false
-  inline void RenderBackground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
+  /// @brief Method RenderBackground, addr 0x3b19214, size 0x154, virtual false, abstract: false, final false
+  inline void RenderBackground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method RenderForeground, addr 0x3abc110, size 0x1c0, virtual false, abstract: false, final false
-  inline void RenderForeground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
+  /// @brief Method RenderForeground, addr 0x3b19054, size 0x1c0, virtual false, abstract: false, final false
+  inline void RenderForeground(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot* screenshot);
 
-  /// @brief Method Setup, addr 0x3abadbc, size 0x88, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
-                    int32_t textureHeight, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots);
+  /// @brief Method Setup, addr 0x3b17d00, size 0x88, virtual false, abstract: false, final false
+  inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
+                    int32_t textureHeight, ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> screenshots);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __cordl_internal_get__cameraCalibration();
+  constexpr ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* const& __cordl_internal_get__cameraCalibration() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const& __cordl_internal_get__cameraCalibration() const;
+  constexpr ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration*& __cordl_internal_get__cameraCalibration();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__clearBackgroundShader() const;
 
@@ -380,17 +374,17 @@ public:
 
   constexpr bool& __cordl_internal_get__isSetup();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const& __cordl_internal_get__screenshots() const;
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const& __cordl_internal_get__screenshots() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get__screenshots();
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>& __cordl_internal_get__screenshots();
+
+  constexpr ::System::Action* const& __cordl_internal_get_texturesReadyEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_texturesReadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_texturesReadyEvent() const;
-
   constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr void __cordl_internal_set__cameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value);
+  constexpr void __cordl_internal_set__cameraCalibration(::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* value);
 
   constexpr void __cordl_internal_set__clearBackgroundShader(::UnityW<::UnityEngine::Shader> value);
 
@@ -402,20 +396,20 @@ public:
 
   constexpr void __cordl_internal_set__isSetup(bool value);
 
-  constexpr void __cordl_internal_set__screenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void __cordl_internal_set__screenshots(::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value);
 
   constexpr void __cordl_internal_set_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3abc4c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1940c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_texturesReadyEvent, addr 0x3abb6e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_texturesReadyEvent, addr 0x3b1862c, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method get_screenshots, addr 0x3abb820, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> get_screenshots();
+  /// @brief Method get_screenshots, addr 0x3b18764, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> get_screenshots();
 
-  /// @brief Method remove_texturesReadyEvent, addr 0x3abb784, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_texturesReadyEvent, addr 0x3b186c8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
 protected:
@@ -431,6 +425,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PlaybackRenderer(PlaybackRenderer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5089 };
 
   /// @brief Field texturesReadyEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___texturesReadyEvent;
@@ -448,7 +445,7 @@ public:
   ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _cameraCalibration, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* ____cameraCalibration;
+  ::GlobalNamespace::PosesRecordingData_ExternalCameraCalibration* ____cameraCalibration;
 
   /// @brief Field _clipQuad, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____clipQuad;
@@ -457,16 +454,11 @@ public:
   ::UnityW<::UnityEngine::Material> ____clipMaterial;
 
   /// @brief Field _screenshots, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ____screenshots;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5070 };
+  ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> ____screenshots;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackRenderer, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ___texturesReadyEvent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clearBackgroundShader) == 0x28, "Offset mismatch!");
@@ -485,9 +477,11 @@ static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____clipMaterial) ==
 
 static_assert(offsetof(::GlobalNamespace::PlaybackRenderer, ____screenshots) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlaybackRenderer, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type, "", "PlaybackRenderer/PlaybackScreenshot/Type");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlaybackScreenshot_PlaybackRenderer_Type, "", "PlaybackRenderer/PlaybackScreenshot/Type");
 NEED_NO_BOX(::GlobalNamespace::PlaybackRenderer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlaybackRenderer*, "", "PlaybackRenderer");
-NEED_NO_BOX(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, "", "PlaybackRenderer/PlaybackScreenshot");
+NEED_NO_BOX(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, "", "PlaybackRenderer/PlaybackScreenshot");

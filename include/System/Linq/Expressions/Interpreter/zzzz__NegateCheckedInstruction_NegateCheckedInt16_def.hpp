@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __NegateCheckedInstruction__NegateCheckedInt16;
+namespace GlobalNamespace {
+class NegateCheckedInstruction_NegateCheckedInt16;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NegateCheckedInstruction__NegateCheckedInt16);
-// Type: ::NegateCheckedInt16
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16);
+// Dependencies System.Linq.Expressions.Interpreter.NegateCheckedInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NegateCheckedInstruction::NegateCheckedInt16*
-class CORDL_TYPE __NegateCheckedInstruction__NegateCheckedInt16 : public ::System::Linq::Expressions::Interpreter::NegateCheckedInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.NegateCheckedInstruction/NegateCheckedInt16
+class CORDL_TYPE NegateCheckedInstruction_NegateCheckedInt16 : public ::System::Linq::Expressions::Interpreter::NegateCheckedInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__NegateCheckedInstruction__NegateCheckedInt16* New_ctor();
+  static inline ::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16* New_ctor();
 
-  /// @brief Method Run, addr 0x408c320, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40ed634, size 0x13c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x408c1e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40ed4fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NegateCheckedInstruction__NegateCheckedInt16();
+  constexpr NegateCheckedInstruction_NegateCheckedInt16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NegateCheckedInstruction__NegateCheckedInt16", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NegateCheckedInstruction_NegateCheckedInt16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NegateCheckedInstruction__NegateCheckedInt16(__NegateCheckedInstruction__NegateCheckedInt16&&) = delete;
+  NegateCheckedInstruction_NegateCheckedInt16(NegateCheckedInstruction_NegateCheckedInt16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NegateCheckedInstruction__NegateCheckedInt16", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NegateCheckedInstruction_NegateCheckedInt16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NegateCheckedInstruction__NegateCheckedInt16(__NegateCheckedInstruction__NegateCheckedInt16 const&) = delete;
+  NegateCheckedInstruction_NegateCheckedInt16(NegateCheckedInstruction_NegateCheckedInt16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14014 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NegateCheckedInstruction__NegateCheckedInt16, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NegateCheckedInstruction__NegateCheckedInt16);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NegateCheckedInstruction__NegateCheckedInt16*, "System.Linq.Expressions.Interpreter", "NegateCheckedInstruction/NegateCheckedInt16");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NegateCheckedInstruction_NegateCheckedInt16*, "System.Linq.Expressions.Interpreter", "NegateCheckedInstruction/NegateCheckedInt16");

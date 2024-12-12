@@ -19,26 +19,25 @@ class X509NameEntryConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter);
-// Type: Org.BouncyCastle.Asn1.X509::X509NameEntryConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameEntryConverter*
+// CS Name: Org.BouncyCastle.Asn1.X509.X509NameEntryConverter
 class CORDL_TYPE X509NameEntryConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CanBePrintable, addr 0x25e0b44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanBePrintable, addr 0x2613e30, size 0xc, virtual false, abstract: false, final false
   inline bool CanBePrintable(::StringW str);
 
-  /// @brief Method ConvertHexEncoded, addr 0x25e0acc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ConvertHexEncoded, addr 0x2613db8, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertHexEncoded(::StringW hexString, int32_t offset);
 
-  /// @brief Method GetConvertedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetConvertedValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25e0b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

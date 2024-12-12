@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Proxies/RemotingProxy.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_impl.hpp"
+#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RemotingProxy_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ConstructionCall_def.hpp"
@@ -8,7 +9,6 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientIdentity_def.hpp"
-#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::RemotingProxy::*)(
     ::System::Type*, ::System::Runtime::Remoting::ClientIdentity*)>(&::System::Runtime::Remoting::Proxies::RemotingProxy::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c719c8;
+  constexpr static std::size_t addrs = 0x3cd1b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::RemotingProxy::*)(
     ::System::Type*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::Remoting::Proxies::RemotingProxy::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c70f50;
+  constexpr static std::size_t addrs = 0x3cd10c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Proxies::RemotingProxy::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Proxies::RemotingProxy::Invoke)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x3c78db4;
+  constexpr static std::size_t addrs = 0x3cd8f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::RemotingProxy::*)(::System::Runtime::Remoting::Identity*)>(
     &::System::Runtime::Remoting::Proxies::RemotingProxy::AttachIdentity)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3c79640;
+  constexpr static std::size_t addrs = 0x3cd97b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Proxies::RemotingProxy::*)(::System::Runtime::Remoting::Messaging::IMethodMessage*)>(&::System::Runtime::Remoting::Proxies::RemotingProxy::ActivateRemoteObject)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c77944;
+  constexpr static std::size_t addrs = 0x3cd7ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Proxies::RemotingProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::RemotingProxy::get_TypeName)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3c79dfc;
+  constexpr static std::size_t addrs = 0x3cd9f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::RemotingProxy*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Proxies::RemotingProxy::*)(::System::Type*, ::System::Object*)>(
     &::System::Runtime::Remoting::Proxies::RemotingProxy::CanCastTo)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3c79f34;
+  constexpr static std::size_t addrs = 0x3cda0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::RemotingProxy*>::get(),
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::RemotingProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::RemotingProxy::Finalize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3c7a150;
+  constexpr static std::size_t addrs = 0x3cda2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,19 +136,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
-constexpr System::Runtime::Remoting::Proxies::RemotingProxy::operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept {
-  return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
-constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* System::Runtime::Remoting::Proxies::RemotingProxy::i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept {
-  return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
-}
 constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& System::Runtime::Remoting::Proxies::RemotingProxy::__cordl_internal_get__sink() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sink;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& System::Runtime::Remoting::Proxies::RemotingProxy::__cordl_internal_get__sink() const {
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* const& System::Runtime::Remoting::Proxies::RemotingProxy::__cordl_internal_get__sink() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sink;
 }
@@ -172,8 +164,7 @@ constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall*& System::Run
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ctorCall;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::ConstructionCall*> const&
-System::Runtime::Remoting::Proxies::RemotingProxy::__cordl_internal_get__ctorCall() const {
+constexpr ::System::Runtime::Remoting::Messaging::ConstructionCall* const& System::Runtime::Remoting::Proxies::RemotingProxy::__cordl_internal_get__ctorCall() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ctorCall;
 }
@@ -199,19 +190,12 @@ inline ::System::Reflection::MethodInfo* System::Runtime::Remoting::Proxies::Rem
   return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "_cache_GetHashCodeMethod",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::RemotingProxy*>::get>();
 }
-inline ::System::Runtime::Remoting::Proxies::RemotingProxy* System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Proxies::RemotingProxy*>(type, identity));
-}
 inline void System::Runtime::Remoting::Proxies::RemotingProxy::_ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::RemotingProxy*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ClientIdentity*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, identity);
-}
-inline ::System::Runtime::Remoting::Proxies::RemotingProxy* System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(::System::Type* type, ::StringW activationUrl,
-                                                                                                                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Proxies::RemotingProxy*>(type, activationUrl, activationAttributes));
 }
 inline void System::Runtime::Remoting::Proxies::RemotingProxy::_ctor(::System::Type* type, ::StringW activationUrl, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,6 +237,21 @@ inline void System::Runtime::Remoting::Proxies::RemotingProxy::Finalize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::RemotingProxy*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Proxies::RemotingProxy* System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Proxies::RemotingProxy*>(type, identity));
+}
+inline ::System::Runtime::Remoting::Proxies::RemotingProxy* System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor(::System::Type* type, ::StringW activationUrl,
+                                                                                                                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Proxies::RemotingProxy*>(type, activationUrl, activationAttributes));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
+constexpr System::Runtime::Remoting::Proxies::RemotingProxy::operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept {
+  return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
+constexpr ::System::Runtime::Remoting::IRemotingTypeInfo* System::Runtime::Remoting::Proxies::RemotingProxy::i___System__Runtime__Remoting__IRemotingTypeInfo() noexcept {
+  return static_cast<::System::Runtime::Remoting::IRemotingTypeInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Proxies::RemotingProxy::RemotingProxy() {}

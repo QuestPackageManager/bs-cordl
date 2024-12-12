@@ -18,11 +18,10 @@ class CreateServerFormController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CreateServerFormController);
-// Type: ::CreateServerFormController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CreateServerFormController*
+// CS Name: CreateServerFormController
 class CORDL_TYPE CreateServerFormController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3af4cec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x3b54544, size 0x3c, virtual false, abstract: false, final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
@@ -51,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
-  /// @brief Method .ctor, addr 0x3af4d28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b54580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_formData, addr 0x3af4c00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_formData, addr 0x3b54458, size 0xec, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
 protected:
@@ -71,14 +70,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CreateServerFormController(CreateServerFormController const&) = delete;
 
-  /// @brief Field _maxPlayersList, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxPlayersList;
-
-  /// @brief Field _netDiscoverable, offset: 0x28, size: 0x1, def value: None
-  bool ____netDiscoverable;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5313 };
 
   /// @brief Field kMaxPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPlayers{ static_cast<int32_t>(0x5) };
@@ -86,14 +79,20 @@ public:
   /// @brief Field kMinPlayers offset 0xffffffff size 0x4
   static constexpr int32_t kMinPlayers{ static_cast<int32_t>(0x2) };
 
+  /// @brief Field _maxPlayersList, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____maxPlayersList;
+
+  /// @brief Field _netDiscoverable, offset: 0x28, size: 0x1, def value: None
+  bool ____netDiscoverable;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____maxPlayersList) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerFormController, ____netDiscoverable) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormController, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CreateServerFormController);

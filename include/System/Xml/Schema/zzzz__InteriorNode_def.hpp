@@ -20,11 +20,10 @@ class InteriorNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::InteriorNode);
-// Type: System.Xml.Schema::InteriorNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.SyntaxTreeNode
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::InteriorNode*
+// CS Name: System.Xml.Schema.InteriorNode
 class CORDL_TYPE InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
@@ -38,39 +37,39 @@ public:
   /// @brief Field rightChild, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_rightChild, put = __cordl_internal_set_rightChild)) ::System::Xml::Schema::SyntaxTreeNode* rightChild;
 
-  /// @brief Method ExpandTree, addr 0x43399e4, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x439acf8, size 0x64, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ExpandTreeNoRecursive, addr 0x43397fc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ExpandTreeNoRecursive, addr 0x439ab10, size 0x1e8, virtual false, abstract: false, final false
   inline void ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::InteriorNode* New_ctor();
 
+  constexpr ::System::Xml::Schema::SyntaxTreeNode* const& __cordl_internal_get_leftChild() const;
+
   constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_leftChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __cordl_internal_get_leftChild() const;
+  constexpr ::System::Xml::Schema::SyntaxTreeNode* const& __cordl_internal_get_rightChild() const;
 
   constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_rightChild();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __cordl_internal_get_rightChild() const;
 
   constexpr void __cordl_internal_set_leftChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
   constexpr void __cordl_internal_set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method .ctor, addr 0x4339a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439ad5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LeftChild, addr 0x43397dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LeftChild, addr 0x439aaf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();
 
-  /// @brief Method get_RightChild, addr 0x43397ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RightChild, addr 0x439ab00, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_RightChild();
 
-  /// @brief Method set_LeftChild, addr 0x43397e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LeftChild, addr 0x439aaf8, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method set_RightChild, addr 0x43397f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RightChild, addr 0x439ab08, size 0x8, virtual false, abstract: false, final false
   inline void set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
 protected:
@@ -87,23 +86,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteriorNode(InteriorNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7497 };
+
   /// @brief Field leftChild, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::SyntaxTreeNode* ___leftChild;
 
   /// @brief Field rightChild, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::Schema::SyntaxTreeNode* ___rightChild;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7472 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::InteriorNode, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::InteriorNode, ___leftChild) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::InteriorNode, ___rightChild) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::InteriorNode, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::InteriorNode);

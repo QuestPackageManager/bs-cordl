@@ -5,7 +5,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(IFactoryProviderBase_1)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,9 +26,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -43,13 +40,12 @@ template <typename TContract> class IFactoryProviderBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IFactoryProviderBase_1);
-// Type: Zenject::IFactoryProviderBase`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Guid, System.Object, Zenject.IProvider
 namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
+// CS Name: Zenject.IFactoryProviderBase`1<TContract>
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
 public:
   // Declarations
@@ -70,8 +66,8 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
@@ -79,9 +75,9 @@ public:
 
   static inline ::Zenject::IFactoryProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__Container_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__Container_k__BackingField() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
 
   constexpr ::System::Guid const& __cordl_internal_get__FactoryId_k__BackingField() const;
 
@@ -132,14 +128,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IFactoryProviderBase_1(IFactoryProviderBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12531 };
+
   /// @brief Field <FactoryId>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ____FactoryId_k__BackingField;
 
   /// @brief Field <Container>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____Container_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

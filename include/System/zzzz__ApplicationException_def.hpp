@@ -21,11 +21,10 @@ class ApplicationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ApplicationException);
-// Type: System::ApplicationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System {
 // Is value type: false
-// CS Name: ::System::ApplicationException*
+// CS Name: System.ApplicationException
 class CORDL_TYPE ApplicationException : public ::System::Exception {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::ApplicationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3cf4514, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54688, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cf468c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54800, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cf4594, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54708, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cf460c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d54780, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

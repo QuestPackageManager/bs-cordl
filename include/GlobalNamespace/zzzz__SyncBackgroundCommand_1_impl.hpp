@@ -1,26 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SyncBackgroundCommand_1.hpp"
+#include "GlobalNamespace/zzzz__IBackgroundCommand_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncBackgroundCommand_1_def.hpp"
-#include "GlobalNamespace/zzzz__IBackgroundCommand_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-/// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
-template <typename T> constexpr GlobalNamespace::SyncBackgroundCommand_1<T>::operator ::GlobalNamespace::IBackgroundCommand*() noexcept {
-  return static_cast<::GlobalNamespace::IBackgroundCommand*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
-template <typename T> constexpr ::GlobalNamespace::IBackgroundCommand* GlobalNamespace::SyncBackgroundCommand_1<T>::i___GlobalNamespace__IBackgroundCommand() noexcept {
-  return static_cast<::GlobalNamespace::IBackgroundCommand*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::SyncBackgroundCommand_1<T>::__cordl_internal_get__taskCompletionSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCompletionSource;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const&
-GlobalNamespace::SyncBackgroundCommand_1<T>::__cordl_internal_get__taskCompletionSource() const {
+template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>* const& GlobalNamespace::SyncBackgroundCommand_1<T>::__cordl_internal_get__taskCompletionSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____taskCompletionSource;
 }
@@ -43,13 +33,21 @@ template <typename T> inline T GlobalNamespace::SyncBackgroundCommand_1<T>::Exec
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::SyncBackgroundCommand_1<T>* GlobalNamespace::SyncBackgroundCommand_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SyncBackgroundCommand_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::SyncBackgroundCommand_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::SyncBackgroundCommand_1<T>* GlobalNamespace::SyncBackgroundCommand_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SyncBackgroundCommand_1<T>*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
+template <typename T> constexpr GlobalNamespace::SyncBackgroundCommand_1<T>::operator ::GlobalNamespace::IBackgroundCommand*() noexcept {
+  return static_cast<::GlobalNamespace::IBackgroundCommand*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IBackgroundCommand"
+template <typename T> constexpr ::GlobalNamespace::IBackgroundCommand* GlobalNamespace::SyncBackgroundCommand_1<T>::i___GlobalNamespace__IBackgroundCommand() noexcept {
+  return static_cast<::GlobalNamespace::IBackgroundCommand*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::SyncBackgroundCommand_1<T>::SyncBackgroundCommand_1() {}

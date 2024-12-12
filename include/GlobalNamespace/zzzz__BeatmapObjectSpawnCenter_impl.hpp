@@ -5,105 +5,105 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnCenter_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance.get_playerCount
+//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance.get_playerCount
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::*)()>(
-    &::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::get_playerCount)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
+    &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_playerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a87594;
+  constexpr static std::size_t addrs = 0x3adfd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(),
-                                                 "get_playerCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance.get_distance
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::*)()>(
-    &::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::get_distance)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a8759c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(), "get_distance",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), "get_playerCount",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance._ctor
+//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance.get_distance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::*)()>(
-    &::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
+    &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_distance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a875a4;
+  constexpr static std::size_t addrs = 0x3adfd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), "get_distance",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_get__playerCount() {
+//  Writing Method size for method: ::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::*)()>(
+    &::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3adfd4c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr int32_t& GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_get__playerCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerCount;
 }
-constexpr int32_t const& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_get__playerCount() const {
+constexpr int32_t const& GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_get__playerCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerCount;
 }
-constexpr void GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_set__playerCount(int32_t value) {
+constexpr void GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_set__playerCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____playerCount = value;
 }
-constexpr float_t& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_get__distance() {
+constexpr float_t& GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_get__distance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distance;
 }
-constexpr float_t const& GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_get__distance() const {
+constexpr float_t const& GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_get__distance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distance;
 }
-constexpr void GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__cordl_internal_set__distance(float_t value) {
+constexpr void GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::__cordl_internal_set__distance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____distance = value;
 }
-inline int32_t GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::get_playerCount() {
+inline int32_t GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_playerCount() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(), "get_playerCount",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), "get_playerCount",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline float_t GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::get_distance() {
+inline float_t GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::get_distance() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(), "get_distance",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), "get_distance",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance* GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>());
-}
-inline void GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::_ctor() {
+inline void GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance* GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance::__BeatmapObjectSpawnCenter__PlayerCountToDistance() {}
+constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance::BeatmapObjectSpawnCenter_PlayerCountToDistance() {}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectSpawnCenter.get_spawnCenterDistance
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a87288;
+  constexpr static std::size_t addrs = 0x3adfa30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a87290;
+  constexpr static std::size_t addrs = 0x3adfa38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a87298;
+  constexpr static std::size_t addrs = 0x3adfa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(::System::Action_1<float_t>*)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3a87348;
+  constexpr static std::size_t addrs = 0x3adfaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(int32_t)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3a873f8;
+  constexpr static std::size_t addrs = 0x3adfba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3a8755c;
+  constexpr static std::size_t addrs = 0x3adfd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&::GlobalNamespace::BeatmapObjectSpawnCenter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a87584;
+  constexpr static std::size_t addrs = 0x3adfd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter*>::get(), ".ctor",
@@ -199,18 +199,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*>&
+constexpr ::ArrayW<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*, ::Array<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>*>&
 GlobalNamespace::BeatmapObjectSpawnCenter::__cordl_internal_get__distances() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distances;
 }
-constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*, ::Array<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>*> const&
 GlobalNamespace::BeatmapObjectSpawnCenter::__cordl_internal_get__distances() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____distances;
 }
 constexpr void GlobalNamespace::BeatmapObjectSpawnCenter::__cordl_internal_set__distances(
-    ::ArrayW<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*, ::Array<::GlobalNamespace::__BeatmapObjectSpawnCenter__PlayerCountToDistance*>*> value) {
+    ::ArrayW<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*, ::Array<::GlobalNamespace::BeatmapObjectSpawnCenter_PlayerCountToDistance*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____distances)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -230,7 +230,7 @@ constexpr ::System::Action_1<float_t>*& GlobalNamespace::BeatmapObjectSpawnCente
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnCenterDistanceWasFoundEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::BeatmapObjectSpawnCenter::__cordl_internal_get_spawnCenterDistanceWasFoundEvent() const {
+constexpr ::System::Action_1<float_t>* const& GlobalNamespace::BeatmapObjectSpawnCenter::__cordl_internal_get_spawnCenterDistanceWasFoundEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spawnCenterDistanceWasFoundEvent;
 }
@@ -296,13 +296,13 @@ inline void GlobalNamespace::BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterD
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, distance);
 }
-inline ::GlobalNamespace::BeatmapObjectSpawnCenter* GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectSpawnCenter*>());
-}
 inline void GlobalNamespace::BeatmapObjectSpawnCenter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectSpawnCenter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectSpawnCenter* GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectSpawnCenter*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter::BeatmapObjectSpawnCenter() {}

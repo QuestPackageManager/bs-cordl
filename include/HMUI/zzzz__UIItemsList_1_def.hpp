@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
 namespace HMUI {
-template <typename T> class __UIItemsList_1__DataCallback;
+template <typename T> class UIItemsList_1_DataCallback;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -39,19 +39,18 @@ namespace HMUI {
 template <typename T> class UIItemsList_1;
 }
 namespace HMUI {
-template <typename T> class __UIItemsList_1__DataCallback;
+template <typename T> class UIItemsList_1_DataCallback;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::HMUI::UIItemsList_1);
-MARK_GEN_REF_PTR_T(::HMUI::__UIItemsList_1__DataCallback);
-// Type: ::DataCallback
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::HMUI::UIItemsList_1_DataCallback);
+// Dependencies System.MulticastDelegate
 namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UIItemsList`1::DataCallback<T>*
-class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
+// CS Name: HMUI.UIItemsList`1/DataCallback<T>
+class CORDL_TYPE UIItemsList_1_DataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -63,7 +62,7 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(int32_t idx, T item);
 
-  static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::HMUI::UIItemsList_1_DataCallback<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
@@ -71,35 +70,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __UIItemsList_1__DataCallback();
+  constexpr UIItemsList_1_DataCallback();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__UIItemsList_1__DataCallback", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback&&) = delete;
+  UIItemsList_1_DataCallback(UIItemsList_1_DataCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__UIItemsList_1__DataCallback", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1_DataCallback", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __UIItemsList_1__DataCallback(__UIItemsList_1__DataCallback const&) = delete;
+  UIItemsList_1_DataCallback(UIItemsList_1_DataCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HMUI
-// Type: HMUI::UIItemsList`1
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::HMUI::UIItemsList`1<T>*
+// CS Name: HMUI.UIItemsList`1<T>
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using DataCallback = ::HMUI::__UIItemsList_1__DataCallback<T>;
+  using DataCallback = ::HMUI::UIItemsList_1_DataCallback<T>;
 
   /// @brief Field _container, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
@@ -121,19 +119,19 @@ public:
   static inline ::HMUI::UIItemsList_1<T>* New_ctor();
 
   /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetData(int32_t numberOfElements, ::HMUI::__UIItemsList_1__DataCallback<T>* dataCallback);
+  inline void SetData(int32_t numberOfElements, ::HMUI::UIItemsList_1_DataCallback<T>* dataCallback);
+
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
   constexpr bool const& __cordl_internal_get__insertInTheBeginning() const;
 
   constexpr bool& __cordl_internal_get__insertInTheBeginning();
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__items();
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get__items() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__items() const;
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__items();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__itemsContainer() const;
 
@@ -173,6 +171,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIItemsList_1(UIItemsList_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16121 };
+
   /// @brief Field _prefab, offset: 0x20, size: 0x8, def value: None
   T ____prefab;
 
@@ -188,12 +189,9 @@ public:
   /// @brief Field _container, offset: 0x40, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16086 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HMUI
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HMUI::__UIItemsList_1__DataCallback, "HMUI", "UIItemsList`1/DataCallback");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::HMUI::UIItemsList_1_DataCallback, "HMUI", "UIItemsList`1/DataCallback");

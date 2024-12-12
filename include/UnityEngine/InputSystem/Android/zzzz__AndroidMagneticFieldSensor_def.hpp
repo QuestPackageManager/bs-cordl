@@ -11,17 +11,16 @@ class AndroidMagneticFieldSensor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor);
-// Type: UnityEngine.InputSystem.Android::AndroidMagneticFieldSensor
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.MagneticFieldSensor
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Android::AndroidMagneticFieldSensor*
+// CS Name: UnityEngine.InputSystem.Android.AndroidMagneticFieldSensor
 class CORDL_TYPE AndroidMagneticFieldSensor : public ::UnityEngine::InputSystem::MagneticFieldSensor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x45a30cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46043e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AndroidMagneticFieldSensor(AndroidMagneticFieldSensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6838 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Zenject/zzzz__IFactory_3_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceFactory_2)
 namespace System {
@@ -12,12 +13,6 @@ class Object;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
-}
-namespace Zenject {
-class IFactory;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -28,13 +23,12 @@ template <typename P1, typename T> class PrefabResourceFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PrefabResourceFactory_2);
-// Type: Zenject::PrefabResourceFactory`2
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`3<TParam1, TParam2, TValue>
 namespace Zenject {
 // cpp template
 template <typename P1, typename T>
 // Is value type: false
-// CS Name: ::Zenject::PrefabResourceFactory`2<P1,T>*
+// CS Name: Zenject.PrefabResourceFactory`2<P1,T>
 class CORDL_TYPE PrefabResourceFactory_2 : public ::System::Object {
 public:
   // Declarations
@@ -54,9 +48,9 @@ public:
 
   static inline ::Zenject::PrefabResourceFactory_2<P1, T>* New_ctor();
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
@@ -95,11 +89,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrefabResourceFactory_2(PrefabResourceFactory_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12443 };
+
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12410 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

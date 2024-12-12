@@ -1,119 +1,118 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PoolCleanupChecker.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ILateDisposable_impl.hpp"
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "Zenject/zzzz__ILateDisposable_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__PoolCleanupChecker_def.hpp"
-//  Writing Method size for method: ::Zenject::__PoolCleanupChecker____c._ctor
+//  Writing Method size for method: ::Zenject::PoolCleanupChecker___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__PoolCleanupChecker____c::*)()>(&::Zenject::__PoolCleanupChecker____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PoolCleanupChecker___c::*)()>(&::Zenject::PoolCleanupChecker___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab97a0;
+  constexpr static std::size_t addrs = 0x4b1e0b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__PoolCleanupChecker____c.__ctor_b__2_0
+//  Writing Method size for method: ::Zenject::PoolCleanupChecker___c.__ctor_b__2_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__PoolCleanupChecker____c::*)(::System::Type*)>(
-    &::Zenject::__PoolCleanupChecker____c::__ctor_b__2_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PoolCleanupChecker___c::*)(::System::Type*)>(&::Zenject::PoolCleanupChecker___c::__ctor_b__2_0)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4ab97a8;
+  constexpr static std::size_t addrs = 0x4b1e0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), "<.ctor>b__2_0", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), "<.ctor>b__2_0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__PoolCleanupChecker____c.__zenCreate
+//  Writing Method size for method: ::Zenject::PoolCleanupChecker___c.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__PoolCleanupChecker____c::__zenCreate)> {
+    &::Zenject::PoolCleanupChecker___c::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ab9814;
+  constexpr static std::size_t addrs = 0x4b1e124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__PoolCleanupChecker____c.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::PoolCleanupChecker___c.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__PoolCleanupChecker____c::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::PoolCleanupChecker___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4ab9868;
+  constexpr static std::size_t addrs = 0x4b1e178;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Zenject::__PoolCleanupChecker____c::setStaticF___9(::Zenject::__PoolCleanupChecker____c* value) {
-  ::cordl_internals::setStaticField<::Zenject::__PoolCleanupChecker____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get>(
-      std::forward<::Zenject::__PoolCleanupChecker____c*>(value));
+inline void Zenject::PoolCleanupChecker___c::setStaticF___9(::Zenject::PoolCleanupChecker___c* value) {
+  ::cordl_internals::setStaticField<::Zenject::PoolCleanupChecker___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get>(
+      std::forward<::Zenject::PoolCleanupChecker___c*>(value));
 }
-inline ::Zenject::__PoolCleanupChecker____c* Zenject::__PoolCleanupChecker____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__PoolCleanupChecker____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get>();
+inline ::Zenject::PoolCleanupChecker___c* Zenject::PoolCleanupChecker___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::PoolCleanupChecker___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get>();
 }
-inline void Zenject::__PoolCleanupChecker____c::setStaticF___9__2_0(::System::Func_2<::System::Type*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get>(
+inline void Zenject::PoolCleanupChecker___c::setStaticF___9__2_0(::System::Func_2<::System::Type*, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get>(
       std::forward<::System::Func_2<::System::Type*, bool>*>(value));
 }
-inline ::System::Func_2<::System::Type*, bool>* Zenject::__PoolCleanupChecker____c::getStaticF___9__2_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get>();
+inline ::System::Func_2<::System::Type*, bool>* Zenject::PoolCleanupChecker___c::getStaticF___9__2_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Type*, bool>*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get>();
 }
-inline ::Zenject::__PoolCleanupChecker____c* Zenject::__PoolCleanupChecker____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__PoolCleanupChecker____c*>());
-}
-inline void Zenject::__PoolCleanupChecker____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), ".ctor",
+inline void Zenject::PoolCleanupChecker___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__PoolCleanupChecker____c::__ctor_b__2_0(::System::Type* x) {
+inline bool Zenject::PoolCleanupChecker___c::__ctor_b__2_0(::System::Type* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), "<.ctor>b__2_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), "<.ctor>b__2_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__PoolCleanupChecker____c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::PoolCleanupChecker___c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__PoolCleanupChecker____c::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__PoolCleanupChecker____c*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::PoolCleanupChecker___c::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker___c*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::PoolCleanupChecker___c* Zenject::PoolCleanupChecker___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolCleanupChecker___c*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__PoolCleanupChecker____c::__PoolCleanupChecker____c() {}
+constexpr ::Zenject::PoolCleanupChecker___c::PoolCleanupChecker___c() {}
 //  Writing Method size for method: ::Zenject::PoolCleanupChecker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PoolCleanupChecker::*)(
     ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*, ::System::Collections::Generic::List_1<::System::Type*>*)>(&::Zenject::PoolCleanupChecker::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4ab8e50;
+  constexpr static std::size_t addrs = 0x4b1d760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PoolCleanupChecker::*)()>(&::Zenject::PoolCleanupChecker::LateDispose)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x4ab8f64;
+  constexpr static std::size_t addrs = 0x4b1d874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker*>::get(), "LateDispose",
@@ -142,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::PoolCleanupChecker::__zenCreate)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4ab9334;
+  constexpr static std::size_t addrs = 0x4b1dc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::PoolCleanupChecker::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4ab944c;
+  constexpr static std::size_t addrs = 0x4b1dd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker*>::get(),
@@ -164,19 +163,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Zenject::ILateDisposable"
-constexpr Zenject::PoolCleanupChecker::operator ::Zenject::ILateDisposable*() noexcept {
-  return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ILateDisposable"
-constexpr ::Zenject::ILateDisposable* Zenject::PoolCleanupChecker::i___Zenject__ILateDisposable() noexcept {
-  return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& Zenject::PoolCleanupChecker::__cordl_internal_get__poolFactories() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____poolFactories;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& Zenject::PoolCleanupChecker::__cordl_internal_get__poolFactories() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* const& Zenject::PoolCleanupChecker::__cordl_internal_get__poolFactories() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____poolFactories;
 }
@@ -188,17 +179,13 @@ constexpr ::System::Collections::Generic::List_1<::System::Type*>*& Zenject::Poo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoredPools;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& Zenject::PoolCleanupChecker::__cordl_internal_get__ignoredPools() const {
+constexpr ::System::Collections::Generic::List_1<::System::Type*>* const& Zenject::PoolCleanupChecker::__cordl_internal_get__ignoredPools() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoredPools;
 }
 constexpr void Zenject::PoolCleanupChecker::__cordl_internal_set__ignoredPools(::System::Collections::Generic::List_1<::System::Type*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ignoredPools)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::PoolCleanupChecker* Zenject::PoolCleanupChecker::New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
-                                                                            ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolCleanupChecker*>(poolFactories, ignoredPools));
 }
 inline void Zenject::PoolCleanupChecker::_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories, ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -222,6 +209,18 @@ inline ::Zenject::InjectTypeInfo* Zenject::PoolCleanupChecker::__zenCreateInject
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PoolCleanupChecker*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::PoolCleanupChecker* Zenject::PoolCleanupChecker::New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
+                                                                            ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PoolCleanupChecker*>(poolFactories, ignoredPools));
+}
+/// @brief Convert operator to "::Zenject::ILateDisposable"
+constexpr Zenject::PoolCleanupChecker::operator ::Zenject::ILateDisposable*() noexcept {
+  return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ILateDisposable"
+constexpr ::Zenject::ILateDisposable* Zenject::PoolCleanupChecker::i___Zenject__ILateDisposable() noexcept {
+  return static_cast<::Zenject::ILateDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Zenject::PoolCleanupChecker::PoolCleanupChecker() {}

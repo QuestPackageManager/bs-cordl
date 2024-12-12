@@ -17,11 +17,10 @@ class ConnectedPlayerName;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerName);
-// Type: BeatSaber.AvatarCore::ConnectedPlayerName
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerName*
+// CS Name: BeatSaber.AvatarCore.ConnectedPlayerName
 class CORDL_TYPE ConnectedPlayerName : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,12 +32,12 @@ public:
 
   static inline ::BeatSaber::AvatarCore::ConnectedPlayerName* New_ctor();
 
-  /// @brief Method Start, addr 0x2222290, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224d804, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
@@ -48,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2222354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224d8c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,23 +64,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectedPlayerName(ConnectedPlayerName const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17570 };
+
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17526 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerName, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerName, ____nameText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerName, ____connectedPlayer) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerName, 0x30>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::ConnectedPlayerName);

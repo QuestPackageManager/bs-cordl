@@ -6,10 +6,9 @@ CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__MonoPropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__PInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimePropertyInfo)
@@ -47,16 +46,13 @@ namespace System::Reflection {
 class RuntimeModule;
 }
 namespace System::Reflection {
-class __RuntimePropertyInfo__GetterAdapter;
+class RuntimePropertyInfo_GetterAdapter;
 }
 namespace System::Reflection {
-template <typename T, typename R> class __RuntimePropertyInfo__Getter_2;
+template <typename T, typename R> class RuntimePropertyInfo_Getter_2;
 }
 namespace System::Reflection {
-template <typename R> class __RuntimePropertyInfo__StaticGetter_1;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
+template <typename R> class RuntimePropertyInfo_StaticGetter_1;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -84,48 +80,47 @@ namespace System::Reflection {
 class RuntimePropertyInfo;
 }
 namespace System::Reflection {
-class __RuntimePropertyInfo__GetterAdapter;
+class RuntimePropertyInfo_GetterAdapter;
 }
 namespace System::Reflection {
-template <typename T, typename R> class __RuntimePropertyInfo__Getter_2;
+template <typename T, typename R> class RuntimePropertyInfo_Getter_2;
 }
 namespace System::Reflection {
-template <typename R> class __RuntimePropertyInfo__StaticGetter_1;
+template <typename R> class RuntimePropertyInfo_StaticGetter_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::RuntimePropertyInfo);
-MARK_REF_PTR_T(::System::Reflection::__RuntimePropertyInfo__GetterAdapter);
-MARK_GEN_REF_PTR_T(::System::Reflection::__RuntimePropertyInfo__Getter_2);
-MARK_GEN_REF_PTR_T(::System::Reflection::__RuntimePropertyInfo__StaticGetter_1);
-// Type: ::GetterAdapter
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Reflection::RuntimePropertyInfo_GetterAdapter);
+MARK_GEN_REF_PTR_T(::System::Reflection::RuntimePropertyInfo_Getter_2);
+MARK_GEN_REF_PTR_T(::System::Reflection::RuntimePropertyInfo_StaticGetter_1);
+// Dependencies System.MulticastDelegate
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::RuntimePropertyInfo::GetterAdapter*
-class CORDL_TYPE __RuntimePropertyInfo__GetterAdapter : public ::System::MulticastDelegate {
+// CS Name: System.Reflection.RuntimePropertyInfo/GetterAdapter
+class CORDL_TYPE RuntimePropertyInfo_GetterAdapter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3cd346c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3d335e0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* _this);
 
-  static inline ::System::Reflection::__RuntimePropertyInfo__GetterAdapter* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::System::Reflection::RuntimePropertyInfo_GetterAdapter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cd336c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d334e0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimePropertyInfo__GetterAdapter();
+  constexpr RuntimePropertyInfo_GetterAdapter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__GetterAdapter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __RuntimePropertyInfo__GetterAdapter(__RuntimePropertyInfo__GetterAdapter&&) = delete;
+  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__GetterAdapter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_GetterAdapter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __RuntimePropertyInfo__GetterAdapter(__RuntimePropertyInfo__GetterAdapter const&) = delete;
+  RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3532 };
@@ -133,23 +128,22 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::__RuntimePropertyInfo__GetterAdapter, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimePropertyInfo_GetterAdapter, 0x80>, "Size mismatch!");
 
 } // namespace System::Reflection
-// Type: ::Getter`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Reflection {
 // cpp template
 template <typename T, typename R>
 // Is value type: false
-// CS Name: ::RuntimePropertyInfo::Getter`2<T,R>*
-class CORDL_TYPE __RuntimePropertyInfo__Getter_2 : public ::System::MulticastDelegate {
+// CS Name: System.Reflection.RuntimePropertyInfo/Getter`2<T,R>
+class CORDL_TYPE RuntimePropertyInfo_Getter_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline R Invoke(T _this);
 
-  static inline ::System::Reflection::__RuntimePropertyInfo__Getter_2<T, R>* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::System::Reflection::RuntimePropertyInfo_Getter_2<T, R>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
@@ -157,16 +151,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimePropertyInfo__Getter_2();
+  constexpr RuntimePropertyInfo_Getter_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__Getter_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __RuntimePropertyInfo__Getter_2(__RuntimePropertyInfo__Getter_2&&) = delete;
+  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__Getter_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_Getter_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __RuntimePropertyInfo__Getter_2(__RuntimePropertyInfo__Getter_2 const&) = delete;
+  RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3533 };
@@ -175,20 +169,19 @@ public:
 };
 // Non member Declarations
 } // namespace System::Reflection
-// Type: ::StaticGetter`1
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Reflection {
 // cpp template
 template <typename R>
 // Is value type: false
-// CS Name: ::RuntimePropertyInfo::StaticGetter`1<R>*
-class CORDL_TYPE __RuntimePropertyInfo__StaticGetter_1 : public ::System::MulticastDelegate {
+// CS Name: System.Reflection.RuntimePropertyInfo/StaticGetter`1<R>
+class CORDL_TYPE RuntimePropertyInfo_StaticGetter_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline R Invoke();
 
-  static inline ::System::Reflection::__RuntimePropertyInfo__StaticGetter_1<R>* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::System::Reflection::RuntimePropertyInfo_StaticGetter_1<R>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
@@ -196,16 +189,16 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RuntimePropertyInfo__StaticGetter_1();
+  constexpr RuntimePropertyInfo_StaticGetter_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__StaticGetter_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __RuntimePropertyInfo__StaticGetter_1(__RuntimePropertyInfo__StaticGetter_1&&) = delete;
+  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RuntimePropertyInfo__StaticGetter_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RuntimePropertyInfo_StaticGetter_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __RuntimePropertyInfo__StaticGetter_1(__RuntimePropertyInfo__StaticGetter_1 const&) = delete;
+  RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3534 };
@@ -214,19 +207,18 @@ public:
 };
 // Non member Declarations
 } // namespace System::Reflection
-// Type: System.Reflection::RuntimePropertyInfo
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Reflection.MonoPropertyInfo, System.Reflection.PInfo, System.Reflection.PropertyInfo, System.Runtime.Serialization.ISerializable
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::RuntimePropertyInfo*
+// CS Name: System.Reflection.RuntimePropertyInfo
 class CORDL_TYPE RuntimePropertyInfo : public ::System::Reflection::PropertyInfo {
 public:
   // Declarations
-  using GetterAdapter = ::System::Reflection::__RuntimePropertyInfo__GetterAdapter;
+  using GetterAdapter = ::System::Reflection::RuntimePropertyInfo_GetterAdapter;
 
-  template <typename T, typename R> using Getter_2 = ::System::Reflection::__RuntimePropertyInfo__Getter_2<T, R>;
+  template <typename T, typename R> using Getter_2 = ::System::Reflection::RuntimePropertyInfo_Getter_2<T, R>;
 
-  template <typename R> using StaticGetter_1 = ::System::Reflection::__RuntimePropertyInfo__StaticGetter_1<R>;
+  template <typename R> using StaticGetter_1 = ::System::Reflection::RuntimePropertyInfo_StaticGetter_1<R>;
 
   __declspec(property(get = get_BindingFlags)) ::System::Reflection::BindingFlags BindingFlags;
 
@@ -252,7 +244,7 @@ public:
   __declspec(property(get = __cordl_internal_get_cached, put = __cordl_internal_set_cached)) ::System::Reflection::PInfo cached;
 
   /// @brief Field cached_getter, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_cached_getter, put = __cordl_internal_set_cached_getter)) ::System::Reflection::__RuntimePropertyInfo__GetterAdapter* cached_getter;
+  __declspec(property(get = __cordl_internal_get_cached_getter, put = __cordl_internal_set_cached_getter)) ::System::Reflection::RuntimePropertyInfo_GetterAdapter* cached_getter;
 
   /// @brief Field info, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::System::Reflection::MonoPropertyInfo info;
@@ -266,74 +258,74 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CachePropertyInfo, addr 0x3cd2878, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CachePropertyInfo, addr 0x3d329ec, size 0x40, virtual false, abstract: false, final false
   inline void CachePropertyInfo(::System::Reflection::PInfo flags);
 
-  /// @brief Method FormatNameAndSig, addr 0x3cd2634, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FormatNameAndSig, addr 0x3d327a8, size 0x170, virtual false, abstract: false, final false
   inline ::StringW FormatNameAndSig(bool serialization);
 
-  /// @brief Method GetCustomAttributes, addr 0x3cd2e24, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3d32f98, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3cd2dc8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x3d32f3c, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetDeclaringTypeInternal, addr 0x3cd2524, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringTypeInternal, addr 0x3d32698, size 0x84, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetDeclaringTypeInternal();
 
-  /// @brief Method GetGetMethod, addr 0x3cd2a90, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetGetMethod, addr 0x3d32c04, size 0x84, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
 
-  /// @brief Method GetIndexParameters, addr 0x3cd2b14, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method GetIndexParameters, addr 0x3d32c88, size 0x1c4, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetIndexParameters();
 
-  /// @brief Method GetObjectData, addr 0x3cd27a4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x3d32918, size 0xcc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPropertyFromHandle, addr 0x3cd32ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyFromHandle, addr 0x3d33420, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* GetPropertyFromHandle(::Mono::RuntimePropertyHandle handle, ::System::RuntimeTypeHandle reflectedType);
 
-  /// @brief Method GetRuntimeModule, addr 0x3cd2508, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeModule, addr 0x3d3267c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeModule* GetRuntimeModule();
 
-  /// @brief Method GetSetMethod, addr 0x3cd2cd8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetSetMethod, addr 0x3d32e4c, size 0x84, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
 
-  /// @brief Method GetValue, addr 0x3cd2e90, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3d33004, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index);
 
-  /// @brief Method GetValue, addr 0x3cd2eb0, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x3d33024, size 0x1f4, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
   /// @brief Method GetterAdapterFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T, typename R> static inline ::System::Object* GetterAdapterFrame(::System::Reflection::__RuntimePropertyInfo__Getter_2<T, R>* getter, ::System::Object* obj);
+  template <typename T, typename R> static inline ::System::Object* GetterAdapterFrame(::System::Reflection::RuntimePropertyInfo_Getter_2<T, R>* getter, ::System::Object* obj);
 
-  /// @brief Method IsDefined, addr 0x3cd2d5c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x3d32ed0, size 0x6c, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Reflection::RuntimePropertyInfo* New_ctor();
 
-  /// @brief Method SerializationToString, addr 0x3cd2870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SerializationToString, addr 0x3d329e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW SerializationToString();
 
-  /// @brief Method SetValue, addr 0x3cd30a4, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3d33218, size 0x1fc, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
   /// @brief Method StaticGetterAdapterFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename R> static inline ::System::Object* StaticGetterAdapterFrame(::System::Reflection::__RuntimePropertyInfo__StaticGetter_1<R>* getter, ::System::Object* obj);
+  template <typename R> static inline ::System::Object* StaticGetterAdapterFrame(::System::Reflection::RuntimePropertyInfo_StaticGetter_1<R>* getter, ::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x3cd262c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d327a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::PInfo const& __cordl_internal_get_cached() const;
 
   constexpr ::System::Reflection::PInfo& __cordl_internal_get_cached();
 
-  constexpr ::System::Reflection::__RuntimePropertyInfo__GetterAdapter*& __cordl_internal_get_cached_getter();
+  constexpr ::System::Reflection::RuntimePropertyInfo_GetterAdapter* const& __cordl_internal_get_cached_getter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__RuntimePropertyInfo__GetterAdapter*> const& __cordl_internal_get_cached_getter() const;
+  constexpr ::System::Reflection::RuntimePropertyInfo_GetterAdapter*& __cordl_internal_get_cached_getter();
 
   constexpr ::System::Reflection::MonoPropertyInfo const& __cordl_internal_get_info() const;
 
@@ -349,7 +341,7 @@ public:
 
   constexpr void __cordl_internal_set_cached(::System::Reflection::PInfo value);
 
-  constexpr void __cordl_internal_set_cached_getter(::System::Reflection::__RuntimePropertyInfo__GetterAdapter* value);
+  constexpr void __cordl_internal_set_cached_getter(::System::Reflection::RuntimePropertyInfo_GetterAdapter* value);
 
   constexpr void __cordl_internal_set_info(::System::Reflection::MonoPropertyInfo value);
 
@@ -357,49 +349,49 @@ public:
 
   constexpr void __cordl_internal_set_prop(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3cd3364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d334d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindingFlags, addr 0x3cd24fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingFlags, addr 0x3d32670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_BindingFlags();
 
-  /// @brief Method get_CanRead, addr 0x3cd28b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x3d32a2c, size 0x40, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x3cd28f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3d32a6c, size 0x40, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_DeclaringType, addr 0x3cd2a20, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x3d32b94, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MetadataToken, addr 0x3cd32a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x3d33414, size 0x4, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x3cd2504, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x3d32678, size 0x4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0x3cd2a58, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3d32bcc, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_PropertyType, addr 0x3cd2938, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x3d32aac, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_ReflectedType, addr 0x3cd29e8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x3d32b5c, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method get_ReflectedTypeInternal, addr 0x3cd25a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ReflectedTypeInternal, addr 0x3d3271c, size 0x84, virtual false, abstract: false, final false
   inline ::System::RuntimeType* get_ReflectedTypeInternal();
 
-  /// @brief Method get_metadata_token, addr 0x3cd32a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_metadata_token, addr 0x3d33418, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_metadata_token(::System::Reflection::RuntimePropertyInfo* monoProperty);
 
-  /// @brief Method get_property_info, addr 0x3cd24f8, size 0x4, virtual false, abstract: false, final false
-  static inline void get_property_info(::System::Reflection::RuntimePropertyInfo* prop, ByRef<::System::Reflection::MonoPropertyInfo> info, ::System::Reflection::PInfo req_info);
+  /// @brief Method get_property_info, addr 0x3d3266c, size 0x4, virtual false, abstract: false, final false
+  static inline void get_property_info(::System::Reflection::RuntimePropertyInfo* prop, ::ByRef<::System::Reflection::MonoPropertyInfo> info, ::System::Reflection::PInfo req_info);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method internal_from_handle_type, addr 0x3cd32a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_handle_type, addr 0x3d3341c, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* internal_from_handle_type(::System::IntPtr event_handle, ::System::IntPtr type_handle);
 
 protected:
@@ -416,6 +408,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RuntimePropertyInfo(RuntimePropertyInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3535 };
+
   /// @brief Field klass, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___klass;
 
@@ -429,16 +424,11 @@ public:
   ::System::Reflection::PInfo ___cached;
 
   /// @brief Field cached_getter, offset: 0x58, size: 0x8, def value: None
-  ::System::Reflection::__RuntimePropertyInfo__GetterAdapter* ___cached_getter;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3535 };
+  ::System::Reflection::RuntimePropertyInfo_GetterAdapter* ___cached_getter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimePropertyInfo, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::RuntimePropertyInfo, ___klass) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Reflection::RuntimePropertyInfo, ___prop) == 0x18, "Offset mismatch!");
@@ -449,10 +439,12 @@ static_assert(offsetof(::System::Reflection::RuntimePropertyInfo, ___cached) == 
 
 static_assert(offsetof(::System::Reflection::RuntimePropertyInfo, ___cached_getter) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimePropertyInfo, 0x60>, "Size mismatch!");
+
 } // namespace System::Reflection
 NEED_NO_BOX(::System::Reflection::RuntimePropertyInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimePropertyInfo*, "System.Reflection", "RuntimePropertyInfo");
-NEED_NO_BOX(::System::Reflection::__RuntimePropertyInfo__GetterAdapter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::__RuntimePropertyInfo__GetterAdapter*, "System.Reflection", "RuntimePropertyInfo/GetterAdapter");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Reflection::__RuntimePropertyInfo__Getter_2, "System.Reflection", "RuntimePropertyInfo/Getter`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Reflection::__RuntimePropertyInfo__StaticGetter_1, "System.Reflection", "RuntimePropertyInfo/StaticGetter`1");
+NEED_NO_BOX(::System::Reflection::RuntimePropertyInfo_GetterAdapter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimePropertyInfo_GetterAdapter*, "System.Reflection", "RuntimePropertyInfo/GetterAdapter");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Reflection::RuntimePropertyInfo_Getter_2, "System.Reflection", "RuntimePropertyInfo/Getter`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Reflection::RuntimePropertyInfo_StaticGetter_1, "System.Reflection", "RuntimePropertyInfo/StaticGetter`1");

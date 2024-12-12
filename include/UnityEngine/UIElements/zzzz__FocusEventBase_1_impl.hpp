@@ -10,8 +10,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::Focusable*& UnityEngi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relatedTarget_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__relatedTarget_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::Focusable* const& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__relatedTarget_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relatedTarget_k__BackingField;
 }
@@ -23,9 +22,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::FocusChangeDirection*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const&
-UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__direction_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::FocusChangeDirection* const& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__direction_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____direction_k__BackingField;
 }
@@ -37,9 +34,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::FocusController*& Uni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____focusController_k__BackingField;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusController*> const&
-UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__focusController_k__BackingField() const {
+template <typename T> constexpr ::UnityEngine::UIElements::FocusController* const& UnityEngine::UIElements::FocusEventBase_1<T>::__cordl_internal_get__focusController_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____focusController_k__BackingField;
 }
@@ -113,7 +108,6 @@ template <typename T> inline void UnityEngine::UIElements::FocusEventBase_1<T>::
                                                                              "LocalInit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param bIsFocusDelegated: bool (default: false)
 template <typename T>
 inline T UnityEngine::UIElements::FocusEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::Focusable* relatedTarget,
                                                                  ::UnityEngine::UIElements::FocusChangeDirection* direction, ::UnityEngine::UIElements::FocusController* focusController,
@@ -127,13 +121,13 @@ inline T UnityEngine::UIElements::FocusEventBase_1<T>::GetPooled(::UnityEngine::
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, target, relatedTarget, direction, focusController, bIsFocusDelegated);
 }
-template <typename T> inline ::UnityEngine::UIElements::FocusEventBase_1<T>* UnityEngine::UIElements::FocusEventBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FocusEventBase_1<T>*>());
-}
 template <typename T> inline void UnityEngine::UIElements::FocusEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FocusEventBase_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::UIElements::FocusEventBase_1<T>* UnityEngine::UIElements::FocusEventBase_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FocusEventBase_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::FocusEventBase_1<T>::FocusEventBase_1() {}

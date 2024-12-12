@@ -18,11 +18,10 @@ class SpecialEventsForKeyword;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword);
-// Type: BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword*
+// CS Name: BeatmapSaveDataVersion2_6_0AndEarlier.SpecialEventsForKeyword
 class CORDL_TYPE SpecialEventsForKeyword : public ::System::Object {
 public:
   // Declarations
@@ -44,21 +43,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__keyword();
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>*& __cordl_internal_get__specialEvents();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* const& __cordl_internal_get__specialEvents() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>*> const& __cordl_internal_get__specialEvents() const;
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>*& __cordl_internal_get__specialEvents();
 
   constexpr void __cordl_internal_set__keyword(::StringW value);
 
   constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* value);
 
-  /// @brief Method .ctor, addr 0x26d55ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706f5c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* specialEvents);
 
-  /// @brief Method get_keyword, addr 0x26d55dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x2706f4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents, addr 0x26d55e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_specialEvents, addr 0x2706f54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* get_specialEvents();
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpecialEventsForKeyword(SpecialEventsForKeyword const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
+
   /// @brief Field _keyword, offset: 0x10, size: 0x8, def value: None
   ::StringW ____keyword;
 
   /// @brief Field _specialEvents, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* ____specialEvents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13406 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword, ____keyword) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword, ____specialEvents) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion2_6_0AndEarlier
 NEED_NO_BOX(::BeatmapSaveDataVersion2_6_0AndEarlier::SpecialEventsForKeyword);

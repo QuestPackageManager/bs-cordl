@@ -16,11 +16,10 @@ class FloatFxBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatFxBaseData);
-// Type: ::FloatFxBaseData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies EaseType, FxBaseData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatFxBaseData*
+// CS Name: FloatFxBaseData
 class CORDL_TYPE FloatFxBaseData : public ::GlobalNamespace::FxBaseData {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x2687158, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26bb948, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventValue, float_t value, ::GlobalNamespace::EaseType easeType);
 
 protected:
@@ -61,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxBaseData(FloatFxBaseData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12905 };
+
   /// @brief Field value, offset: 0x18, size: 0x4, def value: None
   float_t ___value;
 
   /// @brief Field easeType, offset: 0x1c, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ___easeType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatFxBaseData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FloatFxBaseData, ___value) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatFxBaseData, ___easeType) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatFxBaseData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatFxBaseData);

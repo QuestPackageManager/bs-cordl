@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaChoice* (::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::get_Choice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4267570;
+  constexpr static std::size_t addrs = 0x42c8884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4267578;
+  constexpr static std::size_t addrs = 0x42c888c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ constexpr ::System::Xml::Schema::XmlSchemaChoice*& System::Xml::Schema::XmlSchem
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___choice;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaChoice*> const& System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::__cordl_internal_get_choice() const {
+constexpr ::System::Xml::Schema::XmlSchemaChoice* const& System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::__cordl_internal_get_choice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___choice;
 }
@@ -50,13 +50,13 @@ inline ::System::Xml::Schema::XmlSchemaChoice* System::Xml::Schema::XmlSchemaSub
                                                                              "get_Choice", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaChoice*, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat* System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat*>());
-}
 inline void System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat* System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::XmlSchemaSubstitutionGroupV1Compat() {}

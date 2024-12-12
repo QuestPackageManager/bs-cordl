@@ -4,7 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "Zenject/zzzz__IFactory_4_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(PrefabFactory_3)
 namespace System {
 class Object;
@@ -16,12 +17,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
-}
-namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
 class InjectTypeInfo;
 }
 // Forward declare root types
@@ -30,13 +25,12 @@ template <typename P1, typename P2, typename T> class PrefabFactory_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PrefabFactory_3);
-// Type: Zenject::PrefabFactory`3
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`4<TParam1, TParam2, TParam3, TValue>
 namespace Zenject {
 // cpp template
 template <typename P1, typename P2, typename T>
 // Is value type: false
-// CS Name: ::Zenject::PrefabFactory`3<P1,P2,T>*
+// CS Name: Zenject.PrefabFactory`3<P1,P2,T>
 class CORDL_TYPE PrefabFactory_3 : public ::System::Object {
 public:
   // Declarations
@@ -48,17 +42,17 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Convert operator to "::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>,P1,P2,T>"
-  constexpr operator ::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>*() noexcept;
+  /// @brief Convert operator to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
+  constexpr operator ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>*() noexcept;
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Create(::UnityEngine::Object* prefab, P1 param, P2 param2);
 
   static inline ::Zenject::PrefabFactory_3<P1, P2, T>* New_ctor();
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
@@ -80,8 +74,8 @@ public:
   /// @brief Convert to "::Zenject::IFactory"
   constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
-  /// @brief Convert to "::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>,P1,P2,T>"
-  constexpr ::Zenject::IFactory_4<::UnityW<::UnityEngine::Object>, P1, P2, T>* i___Zenject__IFactory_4___UnityW___UnityEngine__Object__P1_P2_T_() noexcept;
+  /// @brief Convert to "::Zenject::IFactory_4<::UnityEngine::Object*,P1,P2,T>"
+  constexpr ::Zenject::IFactory_4<::UnityEngine::Object*, P1, P2, T>* i___Zenject__IFactory_4___UnityEngine__Object__P1_P2_T_() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -97,11 +91,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PrefabFactory_3(PrefabFactory_3 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12439 };
+
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12406 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

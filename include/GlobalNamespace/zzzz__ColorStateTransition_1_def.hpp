@@ -20,13 +20,12 @@ template <typename T> class ColorStateTransition_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ColorStateTransition_1);
-// Type: ::ColorStateTransition`1
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseStateTransition`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ColorStateTransition`1<T>*
+// CS Name: ColorStateTransition`1<T>
 class CORDL_TYPE ColorStateTransition_1 : public ::GlobalNamespace::BaseStateTransition_1<T> {
 public:
   // Declarations
@@ -93,11 +92,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorStateTransition_1(ColorStateTransition_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };
+
   /// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorTransitionSO> ____transition;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

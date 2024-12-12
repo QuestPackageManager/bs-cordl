@@ -6,22 +6,25 @@ CORDL_MODULE_INIT
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PartInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MeshTopology_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_GenerateGeoCache)
-namespace GlobalNamespace {
-struct __HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType;
-}
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType;
+}
+namespace HoudiniEngineUnity {
+class HEU_GenerateGeoCache_HEU_ColliderInfo;
+}
+namespace HoudiniEngineUnity {
+class HEU_GenerateGeoCache___c;
 }
 namespace HoudiniEngineUnity {
 class HEU_GeneratedOutputData;
@@ -46,12 +49,6 @@ class HEU_SessionBase;
 }
 namespace HoudiniEngineUnity {
 class HEU_UnityMaterialInfo;
-}
-namespace HoudiniEngineUnity {
-class __HEU_GenerateGeoCache__HEU_ColliderInfo;
-}
-namespace HoudiniEngineUnity {
-class __HEU_GenerateGeoCache____c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -81,35 +78,34 @@ namespace UnityEngine {
 struct Vector3;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-struct __HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType;
+namespace HoudiniEngineUnity {
+struct HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType;
 }
 namespace HoudiniEngineUnity {
 class HEU_GenerateGeoCache;
 }
 namespace HoudiniEngineUnity {
-class __HEU_GenerateGeoCache__HEU_ColliderInfo;
+class HEU_GenerateGeoCache_HEU_ColliderInfo;
 }
 namespace HoudiniEngineUnity {
-class __HEU_GenerateGeoCache____c;
+class HEU_GenerateGeoCache___c;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GenerateGeoCache);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo);
-MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_GenerateGeoCache____c);
-// Type: ::ColliderType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo);
+MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GenerateGeoCache___c);
+// Dependencies
+namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType
-struct CORDL_TYPE __HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType {
+// CS Name: HoudiniEngineUnity.HEU_GenerateGeoCache/HEU_ColliderInfo/ColliderType
+struct CORDL_TYPE HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped
-  enum struct ____HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType_Unwrapped
+  enum struct __HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType_Unwrapped : int32_t {
     __E_NONE = static_cast<int32_t>(0x0),
     __E_BOX = static_cast<int32_t>(0x1),
     __E_SPHERE = static_cast<int32_t>(0x2),
@@ -120,8 +116,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped() const noexcept {
-    return static_cast<____HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType_Unwrapped>(this->value__);
+  constexpr operator __HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType_Unwrapped() const noexcept {
+    return static_cast<__HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -131,58 +127,57 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType();
+  constexpr HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType(int32_t value__) noexcept;
+  constexpr HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BOX value: I32(1)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const BOX;
 
-  /// @brief Field BOX value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const BOX;
+  /// @brief Field MESH value: I32(3)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const MESH;
 
-  /// @brief Field MESH value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const MESH;
+  /// @brief Field NONE value: I32(0)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const NONE;
 
-  /// @brief Field NONE value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const NONE;
+  /// @brief Field SIMPLE_BOX value: I32(4)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const SIMPLE_BOX;
 
-  /// @brief Field SIMPLE_BOX value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const SIMPLE_BOX;
+  /// @brief Field SIMPLE_CAPSULE value: I32(6)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const SIMPLE_CAPSULE;
 
-  /// @brief Field SIMPLE_CAPSULE value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const SIMPLE_CAPSULE;
+  /// @brief Field SIMPLE_SPHERE value: I32(5)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const SIMPLE_SPHERE;
 
-  /// @brief Field SIMPLE_SPHERE value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const SIMPLE_SPHERE;
-
-  /// @brief Field SPHERE value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const SPHERE;
+  /// @brief Field SPHERE value: I32(2)
+  static ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const SPHERE;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType, 0x4>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::HEU_ColliderInfo
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace HoudiniEngineUnity
+// Dependencies HoudiniEngineUnity.HEU_GenerateGeoCache::HEU_ColliderInfo::ColliderType, System.Object, UnityEngine.MeshTopology, UnityEngine.Vector3
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_GenerateGeoCache::HEU_ColliderInfo*
-class CORDL_TYPE __HEU_GenerateGeoCache__HEU_ColliderInfo : public ::System::Object {
+// CS Name: HoudiniEngineUnity.HEU_GenerateGeoCache/HEU_ColliderInfo
+class CORDL_TYPE HEU_GenerateGeoCache_HEU_ColliderInfo : public ::System::Object {
 public:
   // Declarations
-  using ColliderType = ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType;
+  using ColliderType = ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType;
 
   /// @brief Field _colliderCenter, offset 0x14, size 0xc
   __declspec(property(get = __cordl_internal_get__colliderCenter, put = __cordl_internal_set__colliderCenter)) ::UnityEngine::Vector3 _colliderCenter;
@@ -194,7 +189,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colliderSize, put = __cordl_internal_set__colliderSize)) ::UnityEngine::Vector3 _colliderSize;
 
   /// @brief Field _colliderType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__colliderType, put = __cordl_internal_set__colliderType)) ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType _colliderType;
+  __declspec(property(get = __cordl_internal_get__colliderType, put = __cordl_internal_set__colliderType)) ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType _colliderType;
 
   /// @brief Field _collisionGroupName, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__collisionGroupName, put = __cordl_internal_set__collisionGroupName)) ::StringW _collisionGroupName;
@@ -215,7 +210,7 @@ public:
   /// @brief Field _meshTopology, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__meshTopology, put = __cordl_internal_set__meshTopology)) ::UnityEngine::MeshTopology _meshTopology;
 
-  static inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* New_ctor();
+  static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo* New_ctor();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__colliderCenter() const;
 
@@ -229,9 +224,9 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__colliderSize();
 
-  constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType const& __cordl_internal_get__colliderType() const;
+  constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType const& __cordl_internal_get__colliderType() const;
 
-  constexpr ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType& __cordl_internal_get__colliderType();
+  constexpr ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType& __cordl_internal_get__colliderType();
 
   constexpr ::StringW const& __cordl_internal_get__collisionGroupName() const;
 
@@ -263,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__colliderSize(::UnityEngine::Vector3 value);
 
-  constexpr void __cordl_internal_set__colliderType(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType value);
+  constexpr void __cordl_internal_set__colliderType(::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType value);
 
   constexpr void __cordl_internal_set__collisionGroupName(::StringW value);
 
@@ -277,25 +272,28 @@ public:
 
   constexpr void __cordl_internal_set__meshTopology(::UnityEngine::MeshTopology value);
 
-  /// @brief Method .ctor, addr 0x3a21bec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7885c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_GenerateGeoCache__HEU_ColliderInfo();
+  constexpr HEU_GenerateGeoCache_HEU_ColliderInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_GenerateGeoCache__HEU_ColliderInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_GenerateGeoCache_HEU_ColliderInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_GenerateGeoCache__HEU_ColliderInfo(__HEU_GenerateGeoCache__HEU_ColliderInfo&&) = delete;
+  HEU_GenerateGeoCache_HEU_ColliderInfo(HEU_GenerateGeoCache_HEU_ColliderInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_GenerateGeoCache__HEU_ColliderInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_GenerateGeoCache_HEU_ColliderInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_GenerateGeoCache__HEU_ColliderInfo(__HEU_GenerateGeoCache__HEU_ColliderInfo const&) = delete;
+  HEU_GenerateGeoCache_HEU_ColliderInfo(HEU_GenerateGeoCache_HEU_ColliderInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11814 };
 
   /// @brief Field _colliderType, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType ____colliderType;
+  ::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType ____colliderType;
 
   /// @brief Field _colliderCenter, offset: 0x14, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____colliderCenter;
@@ -324,70 +322,66 @@ public:
   /// @brief Field _isTrigger, offset: 0x54, size: 0x1, def value: None
   bool ____isTrigger;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11781 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, 0x58>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____colliderType) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____colliderType) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____colliderCenter) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____colliderCenter) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____colliderSize) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____colliderSize) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____colliderRadius) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____colliderRadius) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____convexCollider) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____convexCollider) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____collisionGroupName) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____collisionGroupName) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____collisionVertices) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____collisionVertices) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____collisionIndices) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____collisionIndices) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____meshTopology) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____meshTopology) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, ____isTrigger) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo, ____isTrigger) == 0x54, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo, 0x58>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HEU_GenerateGeoCache::<>c*
-class CORDL_TYPE __HEU_GenerateGeoCache____c : public ::System::Object {
+// CS Name: HoudiniEngineUnity.HEU_GenerateGeoCache/<>c
+class CORDL_TYPE HEU_GenerateGeoCache___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::HoudiniEngineUnity::HEU_GenerateGeoCache___c* __9;
 
   /// @brief Field <>9__63_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__63_0, put = setStaticF___9__63_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Material>>* __9__63_0;
+  __declspec(property(get = getStaticF___9__63_0, put = setStaticF___9__63_0)) ::System::Predicate_1<::UnityW<::UnityEngine::Material>>* __9__63_0;
 
   /// @brief Field <>9__65_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__65_0, put = setStaticF___9__65_0)) ::System::Comparison_1<float_t>* __9__65_0;
+  __declspec(property(get = getStaticF___9__65_0, put = setStaticF___9__65_0)) ::System::Comparison_1<float_t>* __9__65_0;
 
-  static inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* New_ctor();
+  static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache___c* New_ctor();
 
-  /// @brief Method <GenerateLODMeshesFromGeoGroups>b__65_0, addr 0x3a23f90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <GenerateLODMeshesFromGeoGroups>b__65_0, addr 0x3a7ac00, size 0x1c, virtual false, abstract: false, final false
   inline int32_t _GenerateLODMeshesFromGeoGroups_b__65_0(float_t a, float_t b);
 
-  /// @brief Method <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0, addr 0x3a23f34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <GetFinalMaterialsFromComparingNewWithPrevious>b__63_0, addr 0x3a7aba4, size 0x5c, virtual false, abstract: false, final false
   inline bool _GetFinalMaterialsFromComparingNewWithPrevious_b__63_0(::UnityEngine::Material* material);
 
-  /// @brief Method .ctor, addr 0x3a23f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7ab9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* getStaticF___9();
+  static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache___c* getStaticF___9();
 
   static inline ::System::Predicate_1<::UnityW<::UnityEngine::Material>>* getStaticF___9__63_0();
 
   static inline ::System::Comparison_1<float_t>* getStaticF___9__65_0();
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__HEU_GenerateGeoCache____c* value);
+  static inline void setStaticF___9(::HoudiniEngineUnity::HEU_GenerateGeoCache___c* value);
 
   static inline void setStaticF___9__63_0(::System::Predicate_1<::UnityW<::UnityEngine::Material>>* value);
 
@@ -396,37 +390,36 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_GenerateGeoCache____c();
+  constexpr HEU_GenerateGeoCache___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_GenerateGeoCache____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_GenerateGeoCache___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __HEU_GenerateGeoCache____c(__HEU_GenerateGeoCache____c&&) = delete;
+  HEU_GenerateGeoCache___c(HEU_GenerateGeoCache___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_GenerateGeoCache____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "HEU_GenerateGeoCache___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_GenerateGeoCache____c(__HEU_GenerateGeoCache____c const&) = delete;
+  HEU_GenerateGeoCache___c(HEU_GenerateGeoCache___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_GenerateGeoCache____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GenerateGeoCache___c, 0x10>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_GenerateGeoCache
-// SizeInfo { instance_size: 696, native_size: -1, calculated_instance_size: 696, calculated_native_size: 696, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_AttributeInfo, HoudiniEngineUnity.HAPI_GeoInfo, HoudiniEngineUnity.HAPI_PartInfo, System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_GenerateGeoCache*
+// CS Name: HoudiniEngineUnity.HEU_GenerateGeoCache
 class CORDL_TYPE HEU_GenerateGeoCache : public ::System::Object {
 public:
   // Declarations
-  using HEU_ColliderInfo = ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo;
+  using HEU_ColliderInfo = ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo;
 
-  using __c = ::HoudiniEngineUnity::__HEU_GenerateGeoCache____c;
+  using __c = ::HoudiniEngineUnity::HEU_GenerateGeoCache___c;
 
   __declspec(property(get = get_AssetID, put = set_AssetID)) int32_t AssetID;
 
@@ -457,7 +450,7 @@ public:
 
   /// @brief Field _colliderInfos, offset 0x290, size 0x8
   __declspec(property(get = __cordl_internal_get__colliderInfos,
-                      put = __cordl_internal_set__colliderInfos)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>* _colliderInfos;
+                      put = __cordl_internal_set__colliderInfos)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* _colliderInfos;
 
   /// @brief Field _colorAttr, offset 0x228, size 0x8
   __declspec(property(get = __cordl_internal_get__colorAttr, put = __cordl_internal_set__colorAttr)) ::ArrayW<float_t, ::Array<float_t>*> _colorAttr;
@@ -591,86 +584,86 @@ public:
   /// @brief Field _vertexList, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__vertexList, put = __cordl_internal_set__vertexList)) ::ArrayW<int32_t, ::Array<int32_t>*> _vertexList;
 
-  /// @brief Method CalculateGroupMeshTopology, addr 0x3a21bf4, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method CalculateGroupMeshTopology, addr 0x3a78864, size 0x1e8, virtual false, abstract: false, final false
   static inline ::UnityEngine::MeshTopology CalculateGroupMeshTopology(::System::Collections::Generic::List_1<int32_t>* groupFaces, ::ArrayW<int32_t, ::Array<int32_t>*> allFaceCounts);
 
-  /// @brief Method CombineMeshes, addr 0x3a1ebe8, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method CombineMeshes, addr 0x3a75858, size 0x354, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CombineMeshes(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap,
                                                             ::System::Collections::Generic::List_1<int32_t>* submeshIndices, bool bGenerateUVs, bool bGenerateNormals,
                                                             ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
 
-  /// @brief Method CombineQuadMeshes, addr 0x3a1e610, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method CombineQuadMeshes, addr 0x3a75280, size 0x5d8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CombineQuadMeshes(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_MeshData*>* subMeshesMap,
                                                                 ::System::Collections::Generic::List_1<int32_t>* subMeshIndices, bool bGenerateNormals);
 
-  /// @brief Method CreateMaterialInfoEntryFromAttributeIndex, addr 0x3a1b64c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInfoEntryFromAttributeIndex, addr 0x3a722bc, size 0x118, virtual false, abstract: false, final false
   static inline void CreateMaterialInfoEntryFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t materialAttributeIndex);
 
-  /// @brief Method CreateMeshFromMeshData, addr 0x3a1e360, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshFromMeshData, addr 0x3a74fd0, size 0x2b0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> CreateMeshFromMeshData(::HoudiniEngineUnity::HEU_MeshData* submesh, bool bGenerateUVs, bool bGenerateNormals,
                                                                      ::HoudiniEngineUnity::HEU_MeshIndexFormat* meshIndexFormat);
 
-  /// @brief Method GenerateGeoGroupUsingGeoCachePoints, addr 0x3a21fb8, size 0x1f18, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeoGroupUsingGeoCachePoints, addr 0x3a78c28, size 0x1f18, virtual false, abstract: false, final false
   static inline bool GenerateGeoGroupUsingGeoCachePoints(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs,
                                                          bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
-                                                         ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int32_t> defaultMaterialKey);
+                                                         ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ::ByRef<int32_t> defaultMaterialKey);
 
-  /// @brief Method GenerateGeoGroupUsingGeoCacheVertices, addr 0x3a1f270, size 0x297c, virtual false, abstract: false, final false
+  /// @brief Method GenerateGeoGroupUsingGeoCacheVertices, addr 0x3a75ee0, size 0x297c, virtual false, abstract: false, final false
   static inline bool GenerateGeoGroupUsingGeoCacheVertices(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, bool bGenerateUVs,
                                                            bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups, bool bPartInstanced,
-                                                           ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ByRef<int32_t> defaultMaterialKey);
+                                                           ::ByRef<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>*> LODGroupMeshes, ::ByRef<int32_t> defaultMaterialKey);
 
-  /// @brief Method GenerateLODMeshesFromGeoGroups, addr 0x3a1d30c, size 0xb78, virtual false, abstract: false, final false
+  /// @brief Method GenerateLODMeshesFromGeoGroups, addr 0x3a73f7c, size 0xb78, virtual false, abstract: false, final false
   static inline bool GenerateLODMeshesFromGeoGroups(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoGroup*>* GeoGroupMeshes,
                                                     ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int32_t defaultMaterialKey,
                                                     bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced);
 
-  /// @brief Method GenerateMeshFromGeoGroup, addr 0x3a1c80c, size 0xb00, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshFromGeoGroup, addr 0x3a7347c, size 0xb00, virtual false, abstract: false, final false
   static inline bool GenerateMeshFromGeoGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
-                                              int32_t defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ByRef<::UnityEngine::Mesh*> newMesh,
-                                              ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> newMaterials);
+                                              int32_t defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bPartInstanced, ::ByRef<::UnityEngine::Mesh*> newMesh,
+                                              ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> newMaterials);
 
-  /// @brief Method GenerateMeshFromSingleGroup, addr 0x3a1c654, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GenerateMeshFromSingleGroup, addr 0x3a732c4, size 0x1b8, virtual false, abstract: false, final false
   static inline bool GenerateMeshFromSingleGroup(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_GeoGroup* GeoGroup, ::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache,
                                                  ::HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput, int32_t defaultMaterialKey, bool bGenerateUVs, bool bGenerateTangents,
                                                  bool bGenerateNormals, bool bPartInstanced);
 
-  /// @brief Method GetFinalMaterialsFromComparingNewWithPrevious, addr 0x3a1c2a0, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method GetFinalMaterialsFromComparingNewWithPrevious, addr 0x3a72f10, size 0x3b4, virtual false, abstract: false, final false
   static inline void GetFinalMaterialsFromComparingNewWithPrevious(::UnityEngine::GameObject* gameObject, ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> previousMaterials,
                                                                    ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> newMaterials,
-                                                                   ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> finalMaterials);
+                                                                   ::ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> finalMaterials);
 
-  /// @brief Method GetMaterialKeyFromAttributeIndex, addr 0x3a1b764, size 0x15c, virtual false, abstract: false, final false
-  static inline int32_t GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t attributeIndex, ByRef<::StringW> unityMaterialName,
-                                                         ByRef<::StringW> substanceName, ByRef<int32_t> substanceIndex);
+  /// @brief Method GetMaterialKeyFromAttributeIndex, addr 0x3a723d4, size 0x15c, virtual false, abstract: false, final false
+  static inline int32_t GetMaterialKeyFromAttributeIndex(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, int32_t attributeIndex, ::ByRef<::StringW> unityMaterialName,
+                                                         ::ByRef<::StringW> substanceName, ::ByRef<int32_t> substanceIndex);
 
-  /// @brief Method GetPopulatedGeoCache, addr 0x3a19130, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetPopulatedGeoCache, addr 0x3a6fda0, size 0x2fc, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* GetPopulatedGeoCache(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t assetID, int32_t geoID, int32_t partID, bool bUseLODGroups,
-                                                                                 ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* materialCache,
+                                                                                 ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_MaterialData*>* materialCache,
                                                                                  ::StringW assetCacheFolderPath);
 
   static inline ::HoudiniEngineUnity::HEU_GenerateGeoCache* New_ctor();
 
-  /// @brief Method ParseLODTransitionAttribute, addr 0x3a1b8c0, size 0x1b8, virtual false, abstract: false, final false
-  static inline void ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ByRef<::ArrayW<float_t, ::Array<float_t>*>> LODTransitionValues);
+  /// @brief Method ParseLODTransitionAttribute, addr 0x3a72530, size 0x1b8, virtual false, abstract: false, final false
+  static inline void ParseLODTransitionAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partID, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> LODTransitionValues);
 
-  /// @brief Method PopulateGeometryData, addr 0x3a19c04, size 0x1a48, virtual false, abstract: false, final false
+  /// @brief Method PopulateGeometryData, addr 0x3a70874, size 0x1a48, virtual false, abstract: false, final false
   inline bool PopulateGeometryData(::HoudiniEngineUnity::HEU_SessionBase* session, bool bUseLODGroups);
 
-  /// @brief Method PopulateUnityMaterialData, addr 0x3a1961c, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method PopulateUnityMaterialData, addr 0x3a7028c, size 0x5e8, virtual false, abstract: false, final false
   inline void PopulateUnityMaterialData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method TransferRegularAttributesToVertices, addr 0x3a1ef88, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method TransferRegularAttributesToVertices, addr 0x3a75bf8, size 0x2e8, virtual false, abstract: false, final false
   static inline void TransferRegularAttributesToVertices(::ArrayW<int32_t, ::Array<int32_t>*> groupVertexList, ::ArrayW<int32_t, ::Array<int32_t>*> allFaceCounts,
                                                          ::System::Collections::Generic::List_1<int32_t>* groupFaces, ::System::Collections::Generic::List_1<int32_t>* groupVertexOffset,
-                                                         ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float_t, ::Array<float_t>*> inData,
-                                                         ByRef<::ArrayW<float_t, ::Array<float_t>*>> outData);
+                                                         ::ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attribInfo, ::ArrayW<float_t, ::Array<float_t>*> inData,
+                                                         ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> outData);
 
-  /// @brief Method UpdateCollider, addr 0x3a1bbc8, size 0x6d8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCollider, addr 0x3a72838, size 0x6d8, virtual false, abstract: false, final false
   static inline void UpdateCollider(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData,
-                                    ::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo* colliderInfo);
+                                    ::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo* colliderInfo);
 
-  /// @brief Method UpdateColliders, addr 0x3a1ba78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method UpdateColliders, addr 0x3a726e8, size 0x150, virtual false, abstract: false, final false
   static inline void UpdateColliders(::HoudiniEngineUnity::HEU_GenerateGeoCache* geoCache, ::HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
 
   constexpr int32_t const& __cordl_internal_get__AssetID_k__BackingField() const;
@@ -701,10 +694,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__assetCacheFolderPath();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*& __cordl_internal_get__colliderInfos();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* const& __cordl_internal_get__colliderInfos() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>*> const&
-  __cordl_internal_get__colliderInfos() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>*& __cordl_internal_get__colliderInfos();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__colorAttr() const;
 
@@ -722,20 +714,17 @@ public:
 
   constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __cordl_internal_get__geoInfo();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const& __cordl_internal_get__groupSplitFaceIndices() const;
+
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get__groupSplitFaceIndices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
-  __cordl_internal_get__groupSplitFaceIndices() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>* const& __cordl_internal_get__groupSplitVertexIndices() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>*& __cordl_internal_get__groupSplitVertexIndices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<int32_t, ::Array<int32_t>*>>*> const&
-  __cordl_internal_get__groupSplitVertexIndices() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>* const& __cordl_internal_get__groupVertexOffsets() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get__groupVertexOffsets();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<int32_t>*>*> const&
-  __cordl_internal_get__groupVertexOffsets() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__groups() const;
 
@@ -753,26 +742,25 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__houdiniMaterialIDs();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__inUseMaterials();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& __cordl_internal_get__inUseMaterials() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const& __cordl_internal_get__inUseMaterials() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__inUseMaterials();
 
   constexpr bool const& __cordl_internal_get__isMeshReadWrite() const;
 
   constexpr bool& __cordl_internal_get__isMeshReadWrite();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& __cordl_internal_get__materialCache() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__materialCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const& __cordl_internal_get__materialCache() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* const& __cordl_internal_get__materialIDToDataMap() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*& __cordl_internal_get__materialIDToDataMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>*> const&
-  __cordl_internal_get__materialIDToDataMap() const;
+  constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat* const& __cordl_internal_get__meshIndexFormat() const;
 
   constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat*& __cordl_internal_get__meshIndexFormat();
-
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_MeshIndexFormat*> const& __cordl_internal_get__meshIndexFormat() const;
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__normalAttr() const;
 
@@ -826,9 +814,9 @@ public:
 
   constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get__substanceMaterialAttrNameInfo();
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__substanceMaterialAttrStringsMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* const& __cordl_internal_get__substanceMaterialAttrStringsMap() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const& __cordl_internal_get__substanceMaterialAttrStringsMap() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__substanceMaterialAttrStringsMap();
 
   constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__tangentAttr() const;
 
@@ -846,14 +834,13 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__unityMaterialAttrName();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>* const& __cordl_internal_get__unityMaterialAttrStringsMap() const;
+
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*& __cordl_internal_get__unityMaterialAttrStringsMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::StringW>*> const& __cordl_internal_get__unityMaterialAttrStringsMap() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>* const& __cordl_internal_get__unityMaterialInfos() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*& __cordl_internal_get__unityMaterialInfos();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_UnityMaterialInfo*>*> const&
-  __cordl_internal_get__unityMaterialInfos() const;
 
   constexpr ::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*> const& __cordl_internal_get__uvsAttr() const;
 
@@ -881,7 +868,7 @@ public:
 
   constexpr void __cordl_internal_set__assetCacheFolderPath(::StringW value);
 
-  constexpr void __cordl_internal_set__colliderInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>* value);
+  constexpr void __cordl_internal_set__colliderInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* value);
 
   constexpr void __cordl_internal_set__colorAttr(::ArrayW<float_t, ::Array<float_t>*> value);
 
@@ -961,19 +948,19 @@ public:
 
   constexpr void __cordl_internal_set__vertexList(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3a1942c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a7009c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssetID, addr 0x3a19120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetID, addr 0x3a6fd90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AssetID();
 
-  /// @brief Method get_GeoID, addr 0x3a19110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoID, addr 0x3a6fd80, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoID();
 
-  /// @brief Method get_PartID, addr 0x3a19118, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartID, addr 0x3a6fd88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PartID();
 
-  /// @brief Method set_AssetID, addr 0x3a19128, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AssetID, addr 0x3a6fd98, size 0x8, virtual false, abstract: false, final false
   inline void set_AssetID(int32_t value);
 
 protected:
@@ -989,6 +976,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GenerateGeoCache", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_GenerateGeoCache(HEU_GenerateGeoCache const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11816 };
 
   /// @brief Field <AssetID>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____AssetID_k__BackingField;
@@ -1117,7 +1107,7 @@ public:
   bool ____isMeshReadWrite;
 
   /// @brief Field _colliderInfos, offset: 0x290, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*>* ____colliderInfos;
+  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*>* ____colliderInfos;
 
   /// @brief Field _materialCache, offset: 0x298, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* ____materialCache;
@@ -1131,14 +1121,9 @@ public:
   /// @brief Field _meshIndexFormat, offset: 0x2b0, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_MeshIndexFormat* ____meshIndexFormat;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11783 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GenerateGeoCache, 0x2b8>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache, ____AssetID_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache, ____geoInfo) == 0x14, "Offset mismatch!");
@@ -1233,11 +1218,13 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache, ____assetCach
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_GenerateGeoCache, ____meshIndexFormat) == 0x2b0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GenerateGeoCache, 0x2b8>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HEU_GenerateGeoCache__HEU_ColliderInfo__ColliderType, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo/ColliderType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_ColliderInfo_HEU_GenerateGeoCache_ColliderType, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo/ColliderType");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_GenerateGeoCache);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GenerateGeoCache*, "HoudiniEngineUnity", "HEU_GenerateGeoCache");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_GenerateGeoCache__HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
-NEED_NO_BOX(::HoudiniEngineUnity::__HEU_GenerateGeoCache____c);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_GenerateGeoCache____c*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/<>c");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GenerateGeoCache_HEU_ColliderInfo*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/HEU_ColliderInfo");
+NEED_NO_BOX(::HoudiniEngineUnity::HEU_GenerateGeoCache___c);
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GenerateGeoCache___c*, "HoudiniEngineUnity", "HEU_GenerateGeoCache/<>c");

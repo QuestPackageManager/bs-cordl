@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Tayx/Graphy/Graph/zzzz__G_Graph_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioGraph)
@@ -29,11 +28,10 @@ class G_AudioGraph;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioGraph);
-// Type: Tayx.Graphy.Audio::G_AudioGraph
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tayx.Graphy.Graph.G_Graph
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Audio::G_AudioGraph*
+// CS Name: Tayx.Graphy.Audio.G_AudioGraph
 class CORDL_TYPE G_AudioGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
   // Declarations
@@ -73,24 +71,24 @@ public:
   /// @brief Field m_shaderGraphHighestValues, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues)) ::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
-  /// @brief Method CreatePoints, addr 0x447240c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x44d3720, size 0x214, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x4471dc4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d30d8, size 0x134, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4471b34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d2e48, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x4471b84, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d2e98, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x4471ef8, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x44d320c, size 0x4d0, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x4471c1c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d2f30, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -133,13 +131,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_resolution();
 
+  constexpr ::Tayx::Graphy::G_GraphShader* const& __cordl_internal_get_m_shaderGraph() const;
+
   constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraph();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraph() const;
+  constexpr ::Tayx::Graphy::G_GraphShader* const& __cordl_internal_get_m_shaderGraphHighestValues() const;
 
   constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraphHighestValues();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraphHighestValues() const;
 
   constexpr void __cordl_internal_set_ShaderFull(::UnityW<::UnityEngine::Shader> value);
 
@@ -165,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x4472620, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d3934, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -181,6 +179,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioGraph", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_AudioGraph(G_AudioGraph const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17229 };
 
   /// @brief Field m_imageGraph, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;
@@ -218,14 +219,9 @@ public:
   /// @brief Field m_graphArrayHighestValue, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ___m_graphArrayHighestValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17096 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioGraph, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_imageGraph) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_imageGraphHighestValues) == 0x28, "Offset mismatch!");
@@ -249,6 +245,8 @@ static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_shaderGraphHigh
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_graphArray) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Audio::G_AudioGraph, ___m_graphArrayHighestValue) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Audio::G_AudioGraph, 0x80>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Audio
 NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioGraph);

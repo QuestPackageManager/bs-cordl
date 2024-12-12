@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X9IntegerConverter)
 namespace Org::BouncyCastle::Math::EC {
@@ -22,26 +21,25 @@ class X9IntegerConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9IntegerConverter);
-// Type: Org.BouncyCastle.Asn1.X9::X9IntegerConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X9::X9IntegerConverter*
+// CS Name: Org.BouncyCastle.Asn1.X9.X9IntegerConverter
 class CORDL_TYPE X9IntegerConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByteLength, addr 0x25f4408, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x26276f4, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECCurve* c);
 
-  /// @brief Method GetByteLength, addr 0x25f40d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x26273bc, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetByteLength(::Org::BouncyCastle::Math::EC::ECFieldElement* fe);
 
-  /// @brief Method IntegerToBytes, addr 0x25f4104, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IntegerToBytes, addr 0x26273f0, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntegerToBytes(::Org::BouncyCastle::Math::BigInteger* s, int32_t qLength);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9IntegerConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f443c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2627728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

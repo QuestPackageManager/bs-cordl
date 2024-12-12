@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8c660;
+  constexpr static std::size_t addrs = 0x4af0f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::JetBrains::Annotations::CollectionAccessType (::JetBrains::Annotations::CollectionAccessAttribute::*)()>(
     &::JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c688;
+  constexpr static std::size_t addrs = 0x4af0f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c690;
+  constexpr static std::size_t addrs = 0x4af0fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,9 +60,6 @@ constexpr void JetBrains::Annotations::CollectionAccessAttribute::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CollectionAccessType_k__BackingField = value;
 }
-inline ::JetBrains::Annotations::CollectionAccessAttribute* JetBrains::Annotations::CollectionAccessAttribute::New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::CollectionAccessAttribute*>(collectionAccessType));
-}
 inline void JetBrains::Annotations::CollectionAccessAttribute::_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -79,6 +76,9 @@ inline void JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAcc
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(), "set_CollectionAccessType", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::JetBrains::Annotations::CollectionAccessType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::JetBrains::Annotations::CollectionAccessAttribute* JetBrains::Annotations::CollectionAccessAttribute::New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::CollectionAccessAttribute*>(collectionAccessType));
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::CollectionAccessAttribute::CollectionAccessAttribute() {}

@@ -15,72 +15,71 @@
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0._ctor
+//  Writing Method size for method: ::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::*)()>(
-    &::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::*)()>(
+    &::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227c4d8;
+  constexpr static std::size_t addrs = 0x22af1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0._InputFilesContains_b__0
+//  Writing Method size for method: ::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0._InputFilesContains_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::*)(::BGLib::Polyglot::LocalizationAsset*)>(
-    &::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::_InputFilesContains_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::*)(::BGLib::Polyglot::LocalizationAsset*)>(
+    &::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::_InputFilesContains_b__0)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x227c948;
+  constexpr static std::size_t addrs = 0x22af618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0*>::get(), "<InputFilesContains>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0*>::get(), "<InputFilesContains>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationAsset*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::LocalizationDocument*& BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::__cordl_internal_get_doc() {
+constexpr ::BGLib::Polyglot::LocalizationDocument*& BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::__cordl_internal_get_doc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doc;
 }
-constexpr ::cordl_internals::to_const_pointer<::BGLib::Polyglot::LocalizationDocument*> const& BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::__cordl_internal_get_doc() const {
+constexpr ::BGLib::Polyglot::LocalizationDocument* const& BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::__cordl_internal_get_doc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___doc;
 }
-constexpr void BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::__cordl_internal_set_doc(::BGLib::Polyglot::LocalizationDocument* value) {
+constexpr void BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::__cordl_internal_set_doc(::BGLib::Polyglot::LocalizationDocument* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___doc)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0* BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0*>());
-}
-inline void BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::_InputFilesContains_b__0(::BGLib::Polyglot::LocalizationAsset* inputFile) {
+inline bool BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::_InputFilesContains_b__0(::BGLib::Polyglot::LocalizationAsset* inputFile) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0*>::get(), "<InputFilesContains>b__0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationAsset*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0*>::get(), "<InputFilesContains>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationAsset*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, inputFile);
 }
+inline ::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0* BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0*>());
+}
 // Ctor Parameters []
-constexpr ::BGLib::Polyglot::__LocalizationModel____c__DisplayClass30_0::__LocalizationModel____c__DisplayClass30_0() {}
+constexpr ::BGLib::Polyglot::LocalizationModel___c__DisplayClass30_0::LocalizationModel___c__DisplayClass30_0() {}
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationModel.get_InputFiles
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (::BGLib::Polyglot::LocalizationModel::*)()>(&::BGLib::Polyglot::LocalizationModel::get_InputFiles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227bd48;
+  constexpr static std::size_t addrs = 0x22aea34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(), "get_InputFiles",
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_SelectedCultureInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227bd50;
+  constexpr static std::size_t addrs = 0x22aea3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -108,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(::System::Globalization::CultureInfo*)>(
     &::BGLib::Polyglot::LocalizationModel::set_SelectedCultureInfo)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x227bd58;
+  constexpr static std::size_t addrs = 0x22aea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_SelectedLanguage)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x227bde4;
+  constexpr static std::size_t addrs = 0x22aead0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -137,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(::BGLib::Polyglot::Language)>(
     &::BGLib::Polyglot::LocalizationModel::set_SelectedLanguage)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x227be00;
+  constexpr static std::size_t addrs = 0x22aeaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_fallbackLanguage)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x227bfe0;
+  constexpr static std::size_t addrs = 0x22ac2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -166,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LanguageDirection (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_SelectedLanguageDirection)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x227bffc;
+  constexpr static std::size_t addrs = 0x22aeccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -180,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* (
     ::BGLib::Polyglot::LocalizationModel::*)()>(&::BGLib::Polyglot::LocalizationModel::get_SupportedLanguages)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x227c024;
+  constexpr static std::size_t addrs = 0x22aecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -194,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_EnglishLanguageNames)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22799b8;
+  constexpr static std::size_t addrs = 0x22ac764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -208,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_LocalizedLanguageNames)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x227c040;
+  constexpr static std::size_t addrs = 0x22aed10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -222,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BGLib::Polyglot::LocalizationModel::*)()>(
     &::BGLib::Polyglot::LocalizationModel::get_SelectedLanguageIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2279a34;
+  constexpr static std::size_t addrs = 0x22ac7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(),
@@ -236,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*)>(
     &::BGLib::Polyglot::LocalizationModel::add__onChangeLanguage)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x227c0bc;
+  constexpr static std::size_t addrs = 0x22aed8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*)>(
     &::BGLib::Polyglot::LocalizationModel::remove__onChangeLanguage)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x227c16c;
+  constexpr static std::size_t addrs = 0x22aee3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(
     ::BGLib::Polyglot::Localization*, ::BGLib::Polyglot::Language, ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*)>(&::BGLib::Polyglot::LocalizationModel::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x227c21c;
+  constexpr static std::size_t addrs = 0x22aeeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(int32_t)>(&::BGLib::Polyglot::LocalizationModel::SelectLanguage)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x227c32c;
+  constexpr static std::size_t addrs = 0x22aeffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationModel::*)(::BGLib::Polyglot::ILocalize*)>(
     &::BGLib::Polyglot::LocalizationModel::AddOnLocalizeEvent)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2279808;
+  constexpr static std::size_t addrs = 0x22ac5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -312,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizationModel::*)(::BGLib::Polyglot::LocalizationDocument*)>(
     &::BGLib::Polyglot::LocalizationModel::InputFilesContains)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x227c404;
+  constexpr static std::size_t addrs = 0x22af0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -327,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (::BGLib::Polyglot::LocalizationModel::*)(::BGLib::Polyglot::Language)>(
     &::BGLib::Polyglot::LocalizationModel::GetCultureInfo)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x227bf30;
+  constexpr static std::size_t addrs = 0x22aec1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationModel::*)(::StringW)>(&::BGLib::Polyglot::LocalizationModel::Get)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2279f2c;
+  constexpr static std::size_t addrs = 0x22acc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -355,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationModel::*)(::StringW)>(&::BGLib::Polyglot::LocalizationModel::GetOrKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x227c788;
+  constexpr static std::size_t addrs = 0x22af458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -367,17 +366,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationModel.TryGet
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizationModel::*)(::StringW, ::BGLib::Polyglot::Language, ByRef<::StringW>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizationModel::*)(::StringW, ::BGLib::Polyglot::Language, ::ByRef<::StringW>)>(
     &::BGLib::Polyglot::LocalizationModel::TryGet)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x227c4e0;
+  constexpr static std::size_t addrs = 0x22af1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(), "TryGet", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::Language>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
     return ___internal_method;
   }
 };
@@ -387,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::BGLib::Polyglot::LocalizationModel::*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::BGLib::Polyglot::LocalizationModel::GetFormatOrKey)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x227c82c;
+  constexpr static std::size_t addrs = 0x22af4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::BGLib::Polyglot::LocalizationModel::IsValueValid)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x227c7b4;
+  constexpr static std::size_t addrs = 0x22af484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +415,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizationModel::*)(::StringW)>(&::BGLib::Polyglot::LocalizationModel::KeyExist)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x227c884;
+  constexpr static std::size_t addrs = 0x22af554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,7 +429,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::BGLib::Polyglot::Language)>(&::BGLib::Polyglot::LocalizationModel::KeyExist)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x227c8a8;
+  constexpr static std::size_t addrs = 0x22af578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -456,8 +455,7 @@ constexpr ::System::Collections::Generic::List_1<::BGLib::Polyglot::Localization
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFiles;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*> const&
-BGLib::Polyglot::LocalizationModel::__cordl_internal_get_inputFiles() const {
+constexpr ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* const& BGLib::Polyglot::LocalizationModel::__cordl_internal_get_inputFiles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inputFiles;
 }
@@ -469,7 +467,7 @@ constexpr ::System::Globalization::CultureInfo*& BGLib::Polyglot::LocalizationMo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedCulture;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& BGLib::Polyglot::LocalizationModel::__cordl_internal_get_selectedCulture() const {
+constexpr ::System::Globalization::CultureInfo* const& BGLib::Polyglot::LocalizationModel::__cordl_internal_get_selectedCulture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedCulture;
 }
@@ -481,7 +479,7 @@ constexpr ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*& BGLib::Pol
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onChangeLanguage;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*> const& BGLib::Polyglot::LocalizationModel::__cordl_internal_get__onChangeLanguage() const {
+constexpr ::System::Action_1<::BGLib::Polyglot::LocalizationModel*>* const& BGLib::Polyglot::LocalizationModel::__cordl_internal_get__onChangeLanguage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onChangeLanguage;
 }
@@ -558,10 +556,6 @@ inline void BGLib::Polyglot::LocalizationModel::remove__onChangeLanguage(::Syste
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BGLib::Polyglot::LocalizationModel*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::BGLib::Polyglot::LocalizationModel* BGLib::Polyglot::LocalizationModel::New_ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::Language language,
-                                                                                          ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationModel*>(localization, language, inputFiles));
-}
 inline void BGLib::Polyglot::LocalizationModel::_ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::Language language,
                                                       ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,12 +601,12 @@ inline ::StringW BGLib::Polyglot::LocalizationModel::GetOrKey(::StringW key) {
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key);
 }
-inline bool BGLib::Polyglot::LocalizationModel::TryGet(::StringW key, ::BGLib::Polyglot::Language language, ByRef<::StringW> value) {
+inline bool BGLib::Polyglot::LocalizationModel::TryGet(::StringW key, ::BGLib::Polyglot::Language language, ::ByRef<::StringW> value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationModel*>::get(), "TryGet", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::Language>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, language, value);
 }
 inline ::StringW BGLib::Polyglot::LocalizationModel::GetFormatOrKey(::StringW key, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments) {
@@ -640,6 +634,10 @@ inline bool BGLib::Polyglot::LocalizationModel::KeyExist(::StringW key, ::BGLib:
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::Language>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, key, language);
+}
+inline ::BGLib::Polyglot::LocalizationModel* BGLib::Polyglot::LocalizationModel::New_ctor(::BGLib::Polyglot::Localization* localization, ::BGLib::Polyglot::Language language,
+                                                                                          ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationModel*>(localization, language, inputFiles));
 }
 // Ctor Parameters []
 constexpr ::BGLib::Polyglot::LocalizationModel::LocalizationModel() {}

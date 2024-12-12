@@ -21,11 +21,10 @@ class CertificateStatusRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest);
-// Type: Org.BouncyCastle.Crypto.Tls::CertificateStatusRequest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateStatusRequest*
+// CS Name: Org.BouncyCastle.Crypto.Tls.CertificateStatusRequest
 class CORDL_TYPE CertificateStatusRequest : public ::System::Object {
 public:
   // Declarations
@@ -39,23 +38,23 @@ public:
   /// @brief Field mStatusType, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_mStatusType, put = __cordl_internal_set_mStatusType)) uint8_t mStatusType;
 
-  /// @brief Method Encode, addr 0x23b11fc, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x23e44e8, size 0x10c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method GetOcspStatusRequest, addr 0x23b112c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method GetOcspStatusRequest, addr 0x23e4418, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* GetOcspStatusRequest();
 
-  /// @brief Method IsCorrectType, addr 0x23b1038, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method IsCorrectType, addr 0x23e4324, size 0xe4, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t statusType, ::System::Object* request);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* New_ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method Parse, addr 0x23b1308, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x23e45f4, size 0xe4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* Parse(::System::IO::Stream* input);
 
-  constexpr ::System::Object*& __cordl_internal_get_mRequest();
+  constexpr ::System::Object* const& __cordl_internal_get_mRequest() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_mRequest() const;
+  constexpr ::System::Object*& __cordl_internal_get_mRequest();
 
   constexpr uint8_t const& __cordl_internal_get_mStatusType() const;
 
@@ -65,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_mStatusType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23b0f9c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e4288, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method get_Request, addr 0x23b1124, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Request, addr 0x23e4410, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Request();
 
-  /// @brief Method get_StatusType, addr 0x23b111c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusType, addr 0x23e4408, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_StatusType();
 
 protected:
@@ -88,23 +87,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertificateStatusRequest(CertificateStatusRequest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1189 };
+
   /// @brief Field mStatusType, offset: 0x10, size: 0x1, def value: None
   uint8_t ___mStatusType;
 
   /// @brief Field mRequest, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___mRequest;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1189 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest, ___mStatusType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest, ___mRequest) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest);

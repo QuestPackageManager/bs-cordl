@@ -18,18 +18,17 @@ class TransformExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransformExtensions);
-// Type: ::TransformExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TransformExtensions*
+// CS Name: TransformExtensions
 class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindChildRecursively, addr 0x2280670, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FindChildRecursively, addr 0x22b3380, size 0xf8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindChildRecursively(::UnityEngine::Transform* parent, ::StringW name);
 
-  /// @brief Method InverseTransformRotation, addr 0x22805bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRotation, addr 0x22b32cc, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
 protected:
@@ -47,7 +46,7 @@ public:
   TransformExtensions(TransformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17129 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

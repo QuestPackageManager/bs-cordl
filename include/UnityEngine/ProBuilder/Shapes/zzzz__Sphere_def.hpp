@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Sphere)
@@ -29,19 +28,18 @@ class Sphere;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Sphere);
-// Type: UnityEngine.ProBuilder.Shapes::Sphere
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ProBuilder.Shapes.Shape
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.Shapes::Sphere*
+// CS Name: UnityEngine.ProBuilder.Shapes.Sphere
 class CORDL_TYPE Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field k_IcosphereTriangles, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_IcosphereTriangles, put = setStaticF_k_IcosphereTriangles)) ::ArrayW<int32_t, ::Array<int32_t>*> k_IcosphereTriangles;
+  __declspec(property(get = getStaticF_k_IcosphereTriangles, put = setStaticF_k_IcosphereTriangles)) ::ArrayW<int32_t, ::Array<int32_t>*> k_IcosphereTriangles;
 
   /// @brief Field k_IcosphereVertices, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_IcosphereVertices, put = setStaticF_k_IcosphereVertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_IcosphereVertices;
+  __declspec(property(get = getStaticF_k_IcosphereVertices, put = setStaticF_k_IcosphereVertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_IcosphereVertices;
 
   /// @brief Field m_BottomMostVertexIndex, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BottomMostVertexIndex, put = __cordl_internal_set_m_BottomMostVertexIndex)) int32_t m_BottomMostVertexIndex;
@@ -52,18 +50,18 @@ public:
   /// @brief Field m_Subdivisions, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Subdivisions, put = __cordl_internal_set_m_Subdivisions)) int32_t m_Subdivisions;
 
-  /// @brief Method CopyShape, addr 0x46f08f8, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x4751c0c, size 0x84, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Sphere* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x46f09e8, size 0x8d8, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x4751cfc, size 0x8d8, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SubdivideIcosahedron, addr 0x46f12c0, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method SubdivideIcosahedron, addr 0x47525d4, size 0x568, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, float_t radius);
 
-  /// @brief Method UpdateBounds, addr 0x46f097c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method UpdateBounds, addr 0x4751c90, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
   constexpr int32_t const& __cordl_internal_get_m_BottomMostVertexIndex() const;
@@ -84,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Subdivisions(int32_t value);
 
-  /// @brief Method .ctor, addr 0x46f1828, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4752b3c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_IcosphereTriangles();
@@ -109,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Sphere(Sphere const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
+
   /// @brief Field m_Subdivisions, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Subdivisions;
 
@@ -118,19 +119,16 @@ public:
   /// @brief Field m_Smooth, offset: 0x18, size: 0x1, def value: None
   bool ___m_Smooth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14314 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Sphere, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Sphere, ___m_Subdivisions) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Sphere, ___m_BottomMostVertexIndex) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Shapes::Sphere, ___m_Smooth) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Sphere, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Sphere);

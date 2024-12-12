@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreMultiplierUIController)
@@ -26,11 +25,10 @@ class ScoreMultiplierUIController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierUIController);
-// Type: ::ScoreMultiplierUIController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ScoreMultiplierUIController*
+// CS Name: ScoreMultiplierUIController
 class CORDL_TYPE ScoreMultiplierUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -57,27 +55,27 @@ public:
   /// @brief Field _scoreController, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController)) ::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method HandleMultiplierDidChange, addr 0x3b44150, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x3ba5840, size 0xcc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t progress);
 
   static inline ::GlobalNamespace::ScoreMultiplierUIController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b43fcc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3ba56bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b43fc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3ba56b8, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RegisterForEvents, addr 0x3b43e34, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RegisterForEvents, addr 0x3ba5524, size 0x194, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method Start, addr 0x3b43d50, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ba5440, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UnregisterFromEvents, addr 0x3b43fd0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UnregisterFromEvents, addr 0x3ba56c0, size 0x100, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method Update, addr 0x3b440d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3ba57c0, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__multiplierAnimator() const;
@@ -104,9 +102,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__progressTarget();
 
-  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController* const& __cordl_internal_get__scoreController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
   constexpr void __cordl_internal_set__multiplierAnimator(::UnityW<::UnityEngine::Animator> value);
 
@@ -122,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x3b4421c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ba590c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,6 +136,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierUIController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScoreMultiplierUIController(ScoreMultiplierUIController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
 
   /// @brief Field _multiplierTexts, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____multiplierTexts;
@@ -160,14 +161,9 @@ public:
   /// @brief Field _progressTarget, offset: 0x48, size: 0x4, def value: None
   float_t ____progressTarget;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4403 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierUIController, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierUIController, ____multiplierTexts) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierUIController, ____multiplierProgressImage) == 0x28, "Offset mismatch!");
@@ -181,6 +177,8 @@ static_assert(offsetof(::GlobalNamespace::ScoreMultiplierUIController, ____prevM
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierUIController, ____multiplierIncreasedTriggerId) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierUIController, ____progressTarget) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierUIController, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScoreMultiplierUIController);

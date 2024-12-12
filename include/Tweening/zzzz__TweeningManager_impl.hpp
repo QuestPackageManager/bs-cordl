@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::Start)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4479374;
+  constexpr static std::size_t addrs = 0x44da688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "Start",
@@ -27,25 +27,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::LateUpdate)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x44793d8;
+  constexpr static std::size_t addrs = 0x44da6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "LateUpdate",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Tweening::TweeningManager.GetTime
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::GetTime)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), 4));
     return ___internal_method;
   }
 };
@@ -55,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::AddTween)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44797c8;
+  constexpr static std::size_t addrs = 0x44daadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::RestartTween)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4479980;
+  constexpr static std::size_t addrs = 0x44dac94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tweening::Tween* (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::ResumeTween)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4479a44;
+  constexpr static std::size_t addrs = 0x44dad58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::System::Object*)>(&::Tweening::TweeningManager::KillAllTweens)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4479a6c;
+  constexpr static std::size_t addrs = 0x44dad80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*)>(
     &::Tweening::TweeningManager::RemoveTweenFromOwnerDictionary)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x44795f8;
+  constexpr static std::size_t addrs = 0x44da90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*, bool)>(
     &::Tweening::TweeningManager::AddTweenToDataStructures)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4479818;
+  constexpr static std::size_t addrs = 0x44dab2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)(::Tweening::Tween*, ::System::Object*)>(
     &::Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4479be8;
+  constexpr static std::size_t addrs = 0x44daefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TweeningManager::*)()>(&::Tweening::TweeningManager::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44790c8;
+  constexpr static std::size_t addrs = 0x44da3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), ".ctor",
@@ -175,7 +161,7 @@ constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>*& Tweening:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeTweens;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tweening::Tween*>*> const& Tweening::TweeningManager::__cordl_internal_get__activeTweens() const {
+constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>* const& Tweening::TweeningManager::__cordl_internal_get__activeTweens() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeTweens;
 }
@@ -187,7 +173,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*& Tweeni
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeTweensSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*> const& Tweening::TweeningManager::__cordl_internal_get__activeTweensSet() const {
+constexpr ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>* const& Tweening::TweeningManager::__cordl_internal_get__activeTweensSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeTweensSet;
 }
@@ -200,7 +186,7 @@ Tweening::TweeningManager::__cordl_internal_get__tweensByOwner() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweensByOwner;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* const&
 Tweening::TweeningManager::__cordl_internal_get__tweensByOwner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweensByOwner;
@@ -214,8 +200,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::Sys
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerByTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*> const&
-Tweening::TweeningManager::__cordl_internal_get__ownerByTween() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* const& Tweening::TweeningManager::__cordl_internal_get__ownerByTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ownerByTween;
 }
@@ -227,7 +212,7 @@ constexpr ::System::Collections::Generic::Queue_1<::System::Collections::Generic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusableTweenHashSets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*> const&
+constexpr ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* const&
 Tweening::TweeningManager::__cordl_internal_get__reusableTweenHashSets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reusableTweenHashSets;
@@ -263,7 +248,6 @@ inline float_t Tweening::TweeningManager::GetTime() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-/// @param updateEveryOtherFrame: bool (default: false)
 inline ::Tweening::Tween* Tweening::TweeningManager::AddTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "AddTween", std::span<Il2CppClass const* const, 0>(),
@@ -271,7 +255,6 @@ inline ::Tweening::Tween* Tweening::TweeningManager::AddTween(::Tweening::Tween*
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*, false>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
 }
-/// @param updateEveryOtherFrame: bool (default: false)
 inline ::Tweening::Tween* Tweening::TweeningManager::RestartTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "RestartTween", std::span<Il2CppClass const* const, 0>(),
@@ -279,7 +262,6 @@ inline ::Tweening::Tween* Tweening::TweeningManager::RestartTween(::Tweening::Tw
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Tweening::Tween*, false>(this, ___internal_method, tween, owner, updateEveryOtherFrame);
 }
-/// @param updateEveryOtherFrame: bool (default: false)
 inline ::Tweening::Tween* Tweening::TweeningManager::ResumeTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "ResumeTween", std::span<Il2CppClass const* const, 0>(),
@@ -299,7 +281,6 @@ inline void Tweening::TweeningManager::RemoveTweenFromOwnerDictionary(::Tweening
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::Tween*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tween);
 }
-/// @param updateEveryOtherFrame: bool (default: false)
 inline bool Tweening::TweeningManager::AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), "AddTweenToDataStructures", std::span<Il2CppClass const* const, 0>(),
@@ -314,13 +295,13 @@ inline void Tweening::TweeningManager::AddTweenToOwnerDictionary(::Tweening::Twe
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tween, owner);
 }
-inline ::Tweening::TweeningManager* Tweening::TweeningManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::TweeningManager*>());
-}
 inline void Tweening::TweeningManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TweeningManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Tweening::TweeningManager* Tweening::TweeningManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tweening::TweeningManager*>());
 }
 // Ctor Parameters []
 constexpr ::Tweening::TweeningManager::TweeningManager() {}

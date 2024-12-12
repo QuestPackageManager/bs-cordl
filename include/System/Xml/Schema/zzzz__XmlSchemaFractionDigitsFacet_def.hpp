@@ -11,17 +11,16 @@ class XmlSchemaFractionDigitsFacet;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaFractionDigitsFacet);
-// Type: System.Xml.Schema::XmlSchemaFractionDigitsFacet
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaNumericFacet
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaFractionDigitsFacet*
+// CS Name: System.Xml.Schema.XmlSchemaFractionDigitsFacet
 class CORDL_TYPE XmlSchemaFractionDigitsFacet : public ::System::Xml::Schema::XmlSchemaNumericFacet {
 public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaFractionDigitsFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x425c31c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bd630, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlSchemaFractionDigitsFacet(XmlSchemaFractionDigitsFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

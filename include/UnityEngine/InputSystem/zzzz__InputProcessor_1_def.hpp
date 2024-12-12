@@ -18,19 +18,18 @@ template <typename TValue> class InputProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::InputProcessor_1);
-// Type: UnityEngine.InputSystem::InputProcessor`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor
 namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputProcessor`1<TValue>*
+// CS Name: UnityEngine.InputSystem.InputProcessor`1<TValue>
 class CORDL_TYPE InputProcessor_1 : public ::UnityEngine::InputSystem::InputProcessor {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::InputProcessor_1<TValue>* New_ctor();
 
-  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Process, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Process(TValue value, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -57,7 +56,7 @@ public:
   InputProcessor_1(InputProcessor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

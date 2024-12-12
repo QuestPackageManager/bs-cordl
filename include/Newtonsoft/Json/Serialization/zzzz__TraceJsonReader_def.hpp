@@ -3,15 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceJsonReader)
-namespace Newtonsoft::Json {
-class IJsonLineInfo;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
 }
@@ -48,11 +45,10 @@ class TraceJsonReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::TraceJsonReader);
-// Type: Newtonsoft.Json.Serialization::TraceJsonReader
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.IJsonLineInfo, Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::TraceJsonReader*
+// CS Name: Newtonsoft.Json.Serialization.TraceJsonReader
 class CORDL_TYPE TraceJsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
@@ -84,64 +80,64 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method Close, addr 0x3e9dadc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3efdb88, size 0x24, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetDeserializedJsonMessage, addr 0x3e9d6c4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetDeserializedJsonMessage, addr 0x3efd770, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetDeserializedJsonMessage();
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonReader* New_ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3e9db00, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3efdbac, size 0xb4, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3e9dbb4, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3efdc60, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3e9dc6c, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3efdd18, size 0xb8, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method Read, addr 0x3e9d6e4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x3efd790, size 0x44, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x3e9d8f4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x3efd9a0, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBytes, addr 0x3e9d7e8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x3efd894, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsDateTime, addr 0x3e9d938, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x3efd9e4, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3e9d984, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x3efda30, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDecimal, addr 0x3e9d82c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x3efd8d8, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDouble, addr 0x3e9d8a8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x3efd954, size 0x4c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsInt32, addr 0x3e9d760, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x3efd80c, size 0x44, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsString, addr 0x3e9d7a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x3efd850, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method WriteCurrentToken, addr 0x3e9d728, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method WriteCurrentToken, addr 0x3efd7d4, size 0x38, virtual false, abstract: false, final false
   inline void WriteCurrentToken();
+
+  constexpr ::Newtonsoft::Json::JsonReader* const& __cordl_internal_get__innerReader() const;
 
   constexpr ::Newtonsoft::Json::JsonReader*& __cordl_internal_get__innerReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonReader*> const& __cordl_internal_get__innerReader() const;
+  constexpr ::System::IO::StringWriter* const& __cordl_internal_get__sw() const;
 
   constexpr ::System::IO::StringWriter*& __cordl_internal_get__sw();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StringWriter*> const& __cordl_internal_get__sw() const;
+  constexpr ::Newtonsoft::Json::JsonTextWriter* const& __cordl_internal_get__textWriter() const;
 
   constexpr ::Newtonsoft::Json::JsonTextWriter*& __cordl_internal_get__textWriter();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonTextWriter*> const& __cordl_internal_get__textWriter() const;
 
   constexpr void __cordl_internal_set__innerReader(::Newtonsoft::Json::JsonReader* value);
 
@@ -149,31 +145,31 @@ public:
 
   constexpr void __cordl_internal_set__textWriter(::Newtonsoft::Json::JsonTextWriter* value);
 
-  /// @brief Method .ctor, addr 0x3e9d584, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efd630, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonReader* innerReader);
 
-  /// @brief Method get_Depth, addr 0x3e9d9e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x3efda8c, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path, addr 0x3e9da04, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3efdab0, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_QuoteChar, addr 0x3e9da28, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_QuoteChar, addr 0x3efdad4, size 0x24, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method get_TokenType, addr 0x3e9da70, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_TokenType, addr 0x3efdb1c, size 0x24, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value, addr 0x3e9da94, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3efdb40, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType, addr 0x3e9dab8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x3efdb64, size 0x24, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method set_QuoteChar, addr 0x3e9da4c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method set_QuoteChar, addr 0x3efdaf8, size 0x24, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
 protected:
@@ -190,6 +186,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TraceJsonReader(TraceJsonReader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10347 };
+
   /// @brief Field _innerReader, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::JsonReader* ____innerReader;
 
@@ -199,19 +198,16 @@ public:
   /// @brief Field _sw, offset: 0x88, size: 0x8, def value: None
   ::System::IO::StringWriter* ____sw;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10322 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::TraceJsonReader, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonReader, ____innerReader) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonReader, ____textWriter) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::TraceJsonReader, ____sw) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::TraceJsonReader, 0x90>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::TraceJsonReader);

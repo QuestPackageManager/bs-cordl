@@ -15,11 +15,10 @@ class ClassInterfaceAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ClassInterfaceAttribute);
-// Type: System.Runtime.InteropServices::ClassInterfaceAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.InteropServices.ClassInterfaceType
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::ClassInterfaceAttribute*
+// CS Name: System.Runtime.InteropServices.ClassInterfaceAttribute
 class CORDL_TYPE ClassInterfaceAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ClassInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x3cb3308, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1347c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::ClassInterfaceType classInterfaceType);
 
 protected:
@@ -51,18 +50,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClassInterfaceAttribute(ClassInterfaceAttribute const&) = delete;
 
-  /// @brief Field _val, offset: 0x10, size: 0x4, def value: None
-  ::System::Runtime::InteropServices::ClassInterfaceType ____val;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3318 };
+
+  /// @brief Field _val, offset: 0x10, size: 0x4, def value: None
+  ::System::Runtime::InteropServices::ClassInterfaceType ____val;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ClassInterfaceAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::ClassInterfaceAttribute, ____val) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ClassInterfaceAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::ClassInterfaceAttribute);

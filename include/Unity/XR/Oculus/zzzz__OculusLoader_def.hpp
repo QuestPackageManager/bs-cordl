@@ -11,10 +11,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::XR::Oculus {
-class OculusSettings;
+struct OculusLoader_DeviceSupportedResult;
 }
 namespace Unity::XR::Oculus {
-struct __OculusLoader__DeviceSupportedResult;
+class OculusSettings;
 }
 namespace UnityEngine::XR {
 class XRDisplaySubsystemDescriptor;
@@ -24,34 +24,33 @@ class XRInputSubsystem;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {
-struct __OculusLoader__DeviceSupportedResult;
+struct OculusLoader_DeviceSupportedResult;
 }
 namespace Unity::XR::Oculus {
 class OculusLoader;
 }
 // Write type traits
-MARK_VAL_T(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult);
+MARK_VAL_T(::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult);
 MARK_REF_PTR_T(::Unity::XR::Oculus::OculusLoader);
-// Type: ::DeviceSupportedResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::XR::Oculus {
 // Is value type: true
-// CS Name: ::OculusLoader::DeviceSupportedResult
-struct CORDL_TYPE __OculusLoader__DeviceSupportedResult {
+// CS Name: Unity.XR.Oculus.OculusLoader/DeviceSupportedResult
+struct CORDL_TYPE OculusLoader_DeviceSupportedResult {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OculusLoader__DeviceSupportedResult_Unwrapped
-  enum struct ____OculusLoader__DeviceSupportedResult_Unwrapped : int32_t {
+  /// @brief Nested struct __OculusLoader_DeviceSupportedResult_Unwrapped
+  enum struct __OculusLoader_DeviceSupportedResult_Unwrapped : int32_t {
     __E_Supported = static_cast<int32_t>(0x0),
     __E_NotSupported = static_cast<int32_t>(0x1),
     __E_ExitApplication = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OculusLoader__DeviceSupportedResult_Unwrapped() const noexcept {
-    return static_cast<____OculusLoader__DeviceSupportedResult_Unwrapped>(this->value__);
+  constexpr operator __OculusLoader_DeviceSupportedResult_Unwrapped() const noexcept {
+    return static_cast<__OculusLoader_DeviceSupportedResult_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -61,96 +60,94 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OculusLoader__DeviceSupportedResult();
+  constexpr OculusLoader_DeviceSupportedResult();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OculusLoader__DeviceSupportedResult(int32_t value__) noexcept;
+  constexpr OculusLoader_DeviceSupportedResult(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ExitApplication value: I32(2)
+  static ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult const ExitApplication;
 
-  /// @brief Field ExitApplication value: static_cast<int32_t>(0x2)
-  static ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult const ExitApplication;
+  /// @brief Field NotSupported value: I32(1)
+  static ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult const NotSupported;
 
-  /// @brief Field NotSupported value: static_cast<int32_t>(0x1)
-  static ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult const NotSupported;
-
-  /// @brief Field Supported value: static_cast<int32_t>(0x0)
-  static ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult const Supported;
+  /// @brief Field Supported value: I32(0)
+  static ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult const Supported;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17392 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult, 0x4>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus
-// Type: Unity.XR.Oculus::OculusLoader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.XR.Management.XRLoaderHelper
 namespace Unity::XR::Oculus {
 // Is value type: false
-// CS Name: ::Unity.XR.Oculus::OculusLoader*
+// CS Name: Unity.XR.Oculus.OculusLoader
 class CORDL_TYPE OculusLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {
 public:
   // Declarations
-  using DeviceSupportedResult = ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult;
+  using DeviceSupportedResult = ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult;
 
   __declspec(property(get = get_displaySubsystem)) Il2CppObject* displaySubsystem;
 
   __declspec(property(get = get_inputSubsystem)) ::UnityEngine::XR::XRInputSubsystem* inputSubsystem;
 
   /// @brief Field s_DisplaySubsystemDescriptors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DisplaySubsystemDescriptors,
-                             put = setStaticF_s_DisplaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_DisplaySubsystemDescriptors;
+  __declspec(property(get = getStaticF_s_DisplaySubsystemDescriptors,
+                      put = setStaticF_s_DisplaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_DisplaySubsystemDescriptors;
 
   /// @brief Field s_InputSubsystemDescriptors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_InputSubsystemDescriptors,
-                             put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
+  __declspec(property(get = getStaticF_s_InputSubsystemDescriptors, put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
 
-  /// @brief Method CheckUnityVersionCompatibility, addr 0x47d11f4, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method CheckUnityVersionCompatibility, addr 0x4832508, size 0x318, virtual false, abstract: false, final false
   inline bool CheckUnityVersionCompatibility();
 
-  /// @brief Method Deinitialize, addr 0x47d16d8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x48329ec, size 0x7c, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method GetSettings, addr 0x47d199c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetSettings, addr 0x4832cb0, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::Unity::XR::Oculus::OculusSettings> GetSettings();
 
-  /// @brief Method Initialize, addr 0x47d0e74, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4832188, size 0x380, virtual true, abstract: false, final false
   inline bool Initialize();
 
-  /// @brief Method IsDeviceSupported, addr 0x47d0d18, size 0x90, virtual false, abstract: false, final false
-  static inline ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult IsDeviceSupported();
+  /// @brief Method IsDeviceSupported, addr 0x483202c, size 0x90, virtual false, abstract: false, final false
+  static inline ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult IsDeviceSupported();
 
   static inline ::Unity::XR::Oculus::OculusLoader* New_ctor();
 
-  /// @brief Method RuntimeLoadOVRPlugin, addr 0x47d17f4, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLoadOVRPlugin, addr 0x4832b08, size 0x1a4, virtual false, abstract: false, final false
   static inline void RuntimeLoadOVRPlugin();
 
-  /// @brief Method Start, addr 0x47d15e0, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x48328f4, size 0x7c, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x47d165c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x4832970, size 0x7c, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x47d19e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4832cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* getStaticF_s_DisplaySubsystemDescriptors();
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_displaySubsystem, addr 0x47d0dac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x48320c0, size 0x64, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x47d0e10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x4832124, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
   static inline void setStaticF_s_DisplaySubsystemDescriptors(::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* value);
@@ -172,7 +169,7 @@ public:
   OculusLoader(OculusLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17349 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17393 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,6 +177,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::OculusLoader, 0x20>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, "Unity.XR.Oculus", "OculusLoader/DeviceSupportedResult");
+DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult, "Unity.XR.Oculus", "OculusLoader/DeviceSupportedResult");
 NEED_NO_BOX(::Unity::XR::Oculus::OculusLoader);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::OculusLoader*, "Unity.XR.Oculus", "OculusLoader");

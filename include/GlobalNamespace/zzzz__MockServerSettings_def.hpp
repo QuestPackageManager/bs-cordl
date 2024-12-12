@@ -11,17 +11,16 @@ class MockServerSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockServerSettings);
-// Type: ::MockServerSettings
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MockPlayerSettings
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MockServerSettings*
+// CS Name: MockServerSettings
 class CORDL_TYPE MockServerSettings : public ::GlobalNamespace::MockPlayerSettings {
 public:
   // Declarations
   static inline ::GlobalNamespace::MockServerSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b66dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc84e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   MockServerSettings(MockServerSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

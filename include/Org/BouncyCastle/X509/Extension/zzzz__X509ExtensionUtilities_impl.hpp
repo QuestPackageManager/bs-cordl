@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::FromExtensionValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25b38cc;
+  constexpr static std::size_t addrs = 0x25e6bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::GetIssuerAlternativeNames)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25b4108;
+  constexpr static std::size_t addrs = 0x25e73f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::GetSubjectAlternativeNames)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25b4b60;
+  constexpr static std::size_t addrs = 0x25e7e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (*)(::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::GetAlternativeName)> {
   constexpr static std::size_t size = 0x9e4;
-  constexpr static std::size_t addrs = 0x25b417c;
+  constexpr static std::size_t addrs = 0x25e7468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::*)()>(
     &::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b4bd4;
+  constexpr static std::size_t addrs = 0x25e7ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,14 +105,14 @@ inline ::System::Collections::ICollection* Org::BouncyCastle::X509::Extension::X
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1OctetString*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ICollection*, false>(nullptr, ___internal_method, extVal);
 }
-inline ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities* Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*>());
-}
 inline void Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities* Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::X509ExtensionUtilities() {}

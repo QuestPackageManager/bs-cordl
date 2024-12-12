@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContactFilter2D::*)()>(&::UnityEngine::ContactFilter2D::CheckConsistency)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x488e3c0;
+  constexpr static std::size_t addrs = 0x48f2a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ContactFilter2D>::get(), "CheckConsistency",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContactFilter2D::*)(::UnityEngine::LayerMask)>(&::UnityEngine::ContactFilter2D::SetLayerMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x488e438;
+  constexpr static std::size_t addrs = 0x48f2ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ContactFilter2D::*)(float_t, float_t)>(&::UnityEngine::ContactFilter2D::SetDepth)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x488e448;
+  constexpr static std::size_t addrs = 0x48f2ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ContactFilter2D (*)(int32_t, float_t, float_t)>(&::UnityEngine::ContactFilter2D::CreateLegacyFilter)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x488d00c;
+  constexpr static std::size_t addrs = 0x48f169c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,14 +62,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ContactFilter2D.CheckConsistency_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::ContactFilter2D>)>(&::UnityEngine::ContactFilter2D::CheckConsistency_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::ContactFilter2D>)>(&::UnityEngine::ContactFilter2D::CheckConsistency_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x488e3fc;
+  constexpr static std::size_t addrs = 0x48f2a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ContactFilter2D>::get(), "CheckConsistency_Injected", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ContactFilter2D>>::get() })));
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::ContactFilter2D>>::get() })));
     return ___internal_method;
   }
 };
@@ -97,10 +97,10 @@ inline ::UnityEngine::ContactFilter2D UnityEngine::ContactFilter2D::CreateLegacy
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ContactFilter2D, false>(nullptr, ___internal_method, layerMask, minDepth, maxDepth);
 }
-inline void UnityEngine::ContactFilter2D::CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self) {
+inline void UnityEngine::ContactFilter2D::CheckConsistency_Injected(::ByRef<::UnityEngine::ContactFilter2D> _unity_self) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ContactFilter2D>::get(), "CheckConsistency_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ContactFilter2D>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::ContactFilter2D>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self);
 }
 // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {

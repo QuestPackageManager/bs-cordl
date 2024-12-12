@@ -3,11 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Net/zzzz__CommandStream_def.hpp"
 #include "System/Net/zzzz__NetworkStreamWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,6 +14,15 @@ class Stream;
 }
 namespace System::Net::Sockets {
 class TcpClient;
+}
+namespace System::Net {
+struct CommandStream_PipelineEntryFlags;
+}
+namespace System::Net {
+class CommandStream_PipelineEntry;
+}
+namespace System::Net {
+struct CommandStream_PipelineInstruction;
 }
 namespace System::Net {
 struct FtpStatusCode;
@@ -32,15 +38,6 @@ struct WebExceptionStatus;
 }
 namespace System::Net {
 class WebRequest;
-}
-namespace System::Net {
-struct __CommandStream__PipelineEntryFlags;
-}
-namespace System::Net {
-class __CommandStream__PipelineEntry;
-}
-namespace System::Net {
-struct __CommandStream__PipelineInstruction;
 }
 namespace System::Text {
 class Decoder;
@@ -62,34 +59,33 @@ class Object;
 }
 // Forward declare root types
 namespace System::Net {
-struct __CommandStream__PipelineEntryFlags;
+struct CommandStream_PipelineEntryFlags;
 }
 namespace System::Net {
-struct __CommandStream__PipelineInstruction;
+struct CommandStream_PipelineInstruction;
 }
 namespace System::Net {
 class CommandStream;
 }
 namespace System::Net {
-class __CommandStream__PipelineEntry;
+class CommandStream_PipelineEntry;
 }
 // Write type traits
-MARK_VAL_T(::System::Net::__CommandStream__PipelineEntryFlags);
-MARK_VAL_T(::System::Net::__CommandStream__PipelineInstruction);
+MARK_VAL_T(::System::Net::CommandStream_PipelineEntryFlags);
+MARK_VAL_T(::System::Net::CommandStream_PipelineInstruction);
 MARK_REF_PTR_T(::System::Net::CommandStream);
-MARK_REF_PTR_T(::System::Net::__CommandStream__PipelineEntry);
-// Type: ::PipelineInstruction
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Net::CommandStream_PipelineEntry);
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::CommandStream::PipelineInstruction
-struct CORDL_TYPE __CommandStream__PipelineInstruction {
+// CS Name: System.Net.CommandStream/PipelineInstruction
+struct CORDL_TYPE CommandStream_PipelineInstruction {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CommandStream__PipelineInstruction_Unwrapped
-  enum struct ____CommandStream__PipelineInstruction_Unwrapped : int32_t {
+  /// @brief Nested struct __CommandStream_PipelineInstruction_Unwrapped
+  enum struct __CommandStream_PipelineInstruction_Unwrapped : int32_t {
     __E_Abort = static_cast<int32_t>(0x0),
     __E_Advance = static_cast<int32_t>(0x1),
     __E_Pause = static_cast<int32_t>(0x2),
@@ -98,8 +94,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CommandStream__PipelineInstruction_Unwrapped() const noexcept {
-    return static_cast<____CommandStream__PipelineInstruction_Unwrapped>(this->value__);
+  constexpr operator __CommandStream_PipelineInstruction_Unwrapped() const noexcept {
+    return static_cast<__CommandStream_PipelineInstruction_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -109,55 +105,54 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CommandStream__PipelineInstruction();
+  constexpr CommandStream_PipelineInstruction();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CommandStream__PipelineInstruction(int32_t value__) noexcept;
+  constexpr CommandStream_PipelineInstruction(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Abort value: I32(0)
+  static ::System::Net::CommandStream_PipelineInstruction const Abort;
 
-  /// @brief Field Abort value: static_cast<int32_t>(0x0)
-  static ::System::Net::__CommandStream__PipelineInstruction const Abort;
+  /// @brief Field Advance value: I32(1)
+  static ::System::Net::CommandStream_PipelineInstruction const Advance;
 
-  /// @brief Field Advance value: static_cast<int32_t>(0x1)
-  static ::System::Net::__CommandStream__PipelineInstruction const Advance;
+  /// @brief Field GiveStream value: I32(4)
+  static ::System::Net::CommandStream_PipelineInstruction const GiveStream;
 
-  /// @brief Field GiveStream value: static_cast<int32_t>(0x4)
-  static ::System::Net::__CommandStream__PipelineInstruction const GiveStream;
+  /// @brief Field Pause value: I32(2)
+  static ::System::Net::CommandStream_PipelineInstruction const Pause;
 
-  /// @brief Field Pause value: static_cast<int32_t>(0x2)
-  static ::System::Net::__CommandStream__PipelineInstruction const Pause;
-
-  /// @brief Field Reread value: static_cast<int32_t>(0x3)
-  static ::System::Net::__CommandStream__PipelineInstruction const Reread;
+  /// @brief Field Reread value: I32(3)
+  static ::System::Net::CommandStream_PipelineInstruction const Reread;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9549 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__CommandStream__PipelineInstruction, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::CommandStream_PipelineInstruction, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__CommandStream__PipelineInstruction, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::CommandStream_PipelineInstruction, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::PipelineEntryFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::CommandStream::PipelineEntryFlags
-struct CORDL_TYPE __CommandStream__PipelineEntryFlags {
+// CS Name: System.Net.CommandStream/PipelineEntryFlags
+struct CORDL_TYPE CommandStream_PipelineEntryFlags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____CommandStream__PipelineEntryFlags_Unwrapped
-  enum struct ____CommandStream__PipelineEntryFlags_Unwrapped : int32_t {
+  /// @brief Nested struct __CommandStream_PipelineEntryFlags_Unwrapped
+  enum struct __CommandStream_PipelineEntryFlags_Unwrapped : int32_t {
     __E_UserCommand = static_cast<int32_t>(0x1),
     __E_GiveDataStream = static_cast<int32_t>(0x2),
     __E_CreateDataConnection = static_cast<int32_t>(0x4),
@@ -165,8 +160,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____CommandStream__PipelineEntryFlags_Unwrapped() const noexcept {
-    return static_cast<____CommandStream__PipelineEntryFlags_Unwrapped>(this->value__);
+  constexpr operator __CommandStream_PipelineEntryFlags_Unwrapped() const noexcept {
+    return static_cast<__CommandStream_PipelineEntryFlags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -176,125 +171,123 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CommandStream__PipelineEntryFlags();
+  constexpr CommandStream_PipelineEntryFlags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __CommandStream__PipelineEntryFlags(int32_t value__) noexcept;
+  constexpr CommandStream_PipelineEntryFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CreateDataConnection value: I32(4)
+  static ::System::Net::CommandStream_PipelineEntryFlags const CreateDataConnection;
 
-  /// @brief Field CreateDataConnection value: static_cast<int32_t>(0x4)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const CreateDataConnection;
+  /// @brief Field DontLogParameter value: I32(8)
+  static ::System::Net::CommandStream_PipelineEntryFlags const DontLogParameter;
 
-  /// @brief Field DontLogParameter value: static_cast<int32_t>(0x8)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const DontLogParameter;
+  /// @brief Field GiveDataStream value: I32(2)
+  static ::System::Net::CommandStream_PipelineEntryFlags const GiveDataStream;
 
-  /// @brief Field GiveDataStream value: static_cast<int32_t>(0x2)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const GiveDataStream;
-
-  /// @brief Field UserCommand value: static_cast<int32_t>(0x1)
-  static ::System::Net::__CommandStream__PipelineEntryFlags const UserCommand;
+  /// @brief Field UserCommand value: I32(1)
+  static ::System::Net::CommandStream_PipelineEntryFlags const UserCommand;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9550 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__CommandStream__PipelineEntryFlags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::CommandStream_PipelineEntryFlags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__CommandStream__PipelineEntryFlags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::CommandStream_PipelineEntryFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::PipelineEntry
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.CommandStream::PipelineEntryFlags, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::CommandStream::PipelineEntry*
-class CORDL_TYPE __CommandStream__PipelineEntry : public ::System::Object {
+// CS Name: System.Net.CommandStream/PipelineEntry
+class CORDL_TYPE CommandStream_PipelineEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Command, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Command, put = __cordl_internal_set_Command)) ::StringW Command;
 
   /// @brief Field Flags, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags)) ::System::Net::__CommandStream__PipelineEntryFlags Flags;
+  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags)) ::System::Net::CommandStream_PipelineEntryFlags Flags;
 
-  /// @brief Method HasFlag, addr 0x442d31c, size 0x10, virtual false, abstract: false, final false
-  inline bool HasFlag(::System::Net::__CommandStream__PipelineEntryFlags flags);
+  /// @brief Method HasFlag, addr 0x448e630, size 0x10, virtual false, abstract: false, final false
+  inline bool HasFlag(::System::Net::CommandStream_PipelineEntryFlags flags);
 
-  static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command);
+  static inline ::System::Net::CommandStream_PipelineEntry* New_ctor(::StringW command);
 
-  static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command, ::System::Net::__CommandStream__PipelineEntryFlags flags);
+  static inline ::System::Net::CommandStream_PipelineEntry* New_ctor(::StringW command, ::System::Net::CommandStream_PipelineEntryFlags flags);
 
   constexpr ::StringW const& __cordl_internal_get_Command() const;
 
   constexpr ::StringW& __cordl_internal_get_Command();
 
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& __cordl_internal_get_Flags() const;
+  constexpr ::System::Net::CommandStream_PipelineEntryFlags const& __cordl_internal_get_Flags() const;
 
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags& __cordl_internal_get_Flags();
+  constexpr ::System::Net::CommandStream_PipelineEntryFlags& __cordl_internal_get_Flags();
 
   constexpr void __cordl_internal_set_Command(::StringW value);
 
-  constexpr void __cordl_internal_set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
+  constexpr void __cordl_internal_set_Flags(::System::Net::CommandStream_PipelineEntryFlags value);
 
-  /// @brief Method .ctor, addr 0x442e624, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448f938, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW command);
 
-  /// @brief Method .ctor, addr 0x442e64c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::StringW command, ::System::Net::__CommandStream__PipelineEntryFlags flags);
+  /// @brief Method .ctor, addr 0x448f960, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::StringW command, ::System::Net::CommandStream_PipelineEntryFlags flags);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CommandStream__PipelineEntry();
+  constexpr CommandStream_PipelineEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CommandStream__PipelineEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CommandStream__PipelineEntry(__CommandStream__PipelineEntry&&) = delete;
+  CommandStream_PipelineEntry(CommandStream_PipelineEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CommandStream__PipelineEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CommandStream_PipelineEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CommandStream__PipelineEntry(__CommandStream__PipelineEntry const&) = delete;
+  CommandStream_PipelineEntry(CommandStream_PipelineEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9551 };
 
   /// @brief Field Command, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Command;
 
   /// @brief Field Flags, offset: 0x18, size: 0x4, def value: None
-  ::System::Net::__CommandStream__PipelineEntryFlags ___Flags;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9526 };
+  ::System::Net::CommandStream_PipelineEntryFlags ___Flags;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__CommandStream__PipelineEntry, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Net::CommandStream_PipelineEntry, ___Command) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__CommandStream__PipelineEntry, ___Command) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Net::CommandStream_PipelineEntry, ___Flags) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__CommandStream__PipelineEntry, ___Flags) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::CommandStream_PipelineEntry, 0x20>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: System.Net::CommandStream
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkStreamWrapper
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::CommandStream*
+// CS Name: System.Net.CommandStream
 class CORDL_TYPE CommandStream : public ::System::Net::NetworkStreamWrapper {
 public:
   // Declarations
-  using PipelineEntry = ::System::Net::__CommandStream__PipelineEntry;
+  using PipelineEntry = ::System::Net::CommandStream_PipelineEntry;
 
-  using PipelineEntryFlags = ::System::Net::__CommandStream__PipelineEntryFlags;
+  using PipelineEntryFlags = ::System::Net::CommandStream_PipelineEntryFlags;
 
-  using PipelineInstruction = ::System::Net::__CommandStream__PipelineInstruction;
+  using PipelineInstruction = ::System::Net::CommandStream_PipelineInstruction;
 
   __declspec(property(get = get_Encoding, put = set_Encoding)) ::System::Text::Encoding* Encoding;
 
@@ -311,7 +304,7 @@ public:
 
   /// @brief Field _commands, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__commands,
-                      put = __cordl_internal_set__commands)) ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>
+                      put = __cordl_internal_set__commands)) ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*>
       _commands;
 
   /// @brief Field _currentResponseDescription, offset 0x60, size 0x8
@@ -342,73 +335,73 @@ public:
   __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request)) ::System::Net::WebRequest* _request;
 
   /// @brief Field s_readCallbackDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_readCallbackDelegate, put = setStaticF_s_readCallbackDelegate)) ::System::AsyncCallback* s_readCallbackDelegate;
+  __declspec(property(get = getStaticF_s_readCallbackDelegate, put = setStaticF_s_readCallbackDelegate)) ::System::AsyncCallback* s_readCallbackDelegate;
 
   /// @brief Field s_writeCallbackDelegate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate)) ::System::AsyncCallback* s_writeCallbackDelegate;
+  __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate)) ::System::AsyncCallback* s_writeCallbackDelegate;
 
-  /// @brief Method Abort, addr 0x442c824, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Abort, addr 0x448db38, size 0x1e8, virtual true, abstract: false, final false
   inline void Abort(::System::Exception* e);
 
-  /// @brief Method BuildCommandsList, addr 0x442d128, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* request);
+  /// @brief Method BuildCommandsList, addr 0x448e43c, size 0x8, virtual true, abstract: false, final false
+  inline ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> BuildCommandsList(::System::Net::WebRequest* request);
 
-  /// @brief Method CheckContinuePipeline, addr 0x442d268, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckContinuePipeline, addr 0x448e57c, size 0xb4, virtual false, abstract: false, final false
   inline void CheckContinuePipeline();
 
-  /// @brief Method CheckValid, addr 0x442e4b4, size 0x8, virtual true, abstract: false, final false
-  inline bool CheckValid(::System::Net::ResponseDescription* response, ByRef<int32_t> validThrough, ByRef<int32_t> completeLength);
+  /// @brief Method CheckValid, addr 0x448f7c8, size 0x8, virtual true, abstract: false, final false
+  inline bool CheckValid(::System::Net::ResponseDescription* response, ::ByRef<int32_t> validThrough, ::ByRef<int32_t> completeLength);
 
-  /// @brief Method ClearState, addr 0x442d118, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ClearState, addr 0x448e42c, size 0x10, virtual true, abstract: false, final false
   inline void ClearState();
 
-  /// @brief Method ContinueCommandPipeline, addr 0x442cc48, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method ContinueCommandPipeline, addr 0x448df5c, size 0x4d0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* ContinueCommandPipeline();
 
-  /// @brief Method Dispose, addr 0x442ca0c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x448dd20, size 0x94, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GenerateException, addr 0x442d1a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GenerateException, addr 0x448e4bc, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Exception* GenerateException(::System::Net::FtpStatusCode code, ::StringW statusDescription, ::System::Exception* innerException);
 
-  /// @brief Method GenerateException, addr 0x442d130, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GenerateException, addr 0x448e444, size 0x78, virtual false, abstract: false, final false
   inline ::System::Exception* GenerateException(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Exception* innerException);
 
-  /// @brief Method InitCommandPipeline, addr 0x442cbb4, size 0x94, virtual false, abstract: false, final false
-  inline void InitCommandPipeline(::System::Net::WebRequest* request, ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> commands,
+  /// @brief Method InitCommandPipeline, addr 0x448dec8, size 0x94, virtual false, abstract: false, final false
+  inline void InitCommandPipeline(::System::Net::WebRequest* request, ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> commands,
                                   bool isAsync);
 
-  /// @brief Method InvokeRequestCallback, addr 0x442caa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method InvokeRequestCallback, addr 0x448ddb4, size 0x74, virtual false, abstract: false, final false
   inline void InvokeRequestCallback(::System::Object* obj);
 
-  /// @brief Method MarkAsRecoverableFailure, addr 0x442cb1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRecoverableFailure, addr 0x448de30, size 0x18, virtual false, abstract: false, final false
   inline void MarkAsRecoverableFailure();
 
   static inline ::System::Net::CommandStream* New_ctor(::System::Net::Sockets::TcpClient* client);
 
-  /// @brief Method PipelineCallback, addr 0x442d9a8, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Net::__CommandStream__PipelineInstruction PipelineCallback(::System::Net::__CommandStream__PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
-                                                                              ByRef<::System::IO::Stream*> stream);
+  /// @brief Method PipelineCallback, addr 0x448ecbc, size 0x8, virtual true, abstract: false, final false
+  inline ::System::Net::CommandStream_PipelineInstruction PipelineCallback(::System::Net::CommandStream_PipelineEntry* entry, ::System::Net::ResponseDescription* response, bool timeout,
+                                                                           ::ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method PostReadCommandProcessing, addr 0x442d7a4, size 0x204, virtual false, abstract: false, final false
-  inline bool PostReadCommandProcessing(ByRef<::System::IO::Stream*> stream);
+  /// @brief Method PostReadCommandProcessing, addr 0x448eab8, size 0x204, virtual false, abstract: false, final false
+  inline bool PostReadCommandProcessing(::ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method PostSendCommandProcessing, addr 0x442d32c, size 0x130, virtual false, abstract: false, final false
-  inline bool PostSendCommandProcessing(ByRef<::System::IO::Stream*> stream);
+  /// @brief Method PostSendCommandProcessing, addr 0x448e640, size 0x130, virtual false, abstract: false, final false
+  inline bool PostSendCommandProcessing(::ByRef<::System::IO::Stream*> stream);
 
-  /// @brief Method ReadCallback, addr 0x442d9b0, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method ReadCallback, addr 0x448ecc4, size 0x2c8, virtual false, abstract: false, final false
   static inline void ReadCallback(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ReceiveCommandResponse, addr 0x442d45c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ReceiveCommandResponse, addr 0x448e770, size 0x348, virtual false, abstract: false, final false
   inline ::System::Net::ResponseDescription* ReceiveCommandResponse();
 
-  /// @brief Method ReceiveCommandResponseCallback, addr 0x442dc78, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method ReceiveCommandResponseCallback, addr 0x448ef8c, size 0x548, virtual false, abstract: false, final false
   inline void ReceiveCommandResponseCallback(::System::Net::ReceiveState* state, int32_t bytesRead);
 
-  /// @brief Method SubmitRequest, addr 0x442cb34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SubmitRequest, addr 0x448de48, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::Stream* SubmitRequest(::System::Net::WebRequest* request, bool isAsync, bool readInitalResponseOnConnect);
 
-  /// @brief Method WriteCallback, addr 0x442e1c0, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method WriteCallback, addr 0x448f4d4, size 0x2b4, virtual false, abstract: false, final false
   static inline void WriteCallback(::System::IAsyncResult* asyncResult);
 
   constexpr ::StringW const& __cordl_internal_get__abortReason() const;
@@ -423,17 +416,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> const& __cordl_internal_get__commands() const;
+  constexpr ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> const& __cordl_internal_get__commands() const;
 
-  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& __cordl_internal_get__commands();
+  constexpr ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*>& __cordl_internal_get__commands();
+
+  constexpr ::System::Net::ResponseDescription* const& __cordl_internal_get__currentResponseDescription() const;
 
   constexpr ::System::Net::ResponseDescription*& __cordl_internal_get__currentResponseDescription();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get__currentResponseDescription() const;
+  constexpr ::System::Text::Decoder* const& __cordl_internal_get__decoder() const;
 
   constexpr ::System::Text::Decoder*& __cordl_internal_get__decoder();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get__decoder() const;
 
   constexpr bool const& __cordl_internal_get__doRead() const;
 
@@ -443,9 +436,9 @@ public:
 
   constexpr bool& __cordl_internal_get__doSend();
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get__encoding() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
   constexpr int32_t const& __cordl_internal_get__index() const;
 
@@ -459,9 +452,9 @@ public:
 
   constexpr bool& __cordl_internal_get__recoverableFailure();
 
-  constexpr ::System::Net::WebRequest*& __cordl_internal_get__request();
+  constexpr ::System::Net::WebRequest* const& __cordl_internal_get__request() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get__request() const;
+  constexpr ::System::Net::WebRequest*& __cordl_internal_get__request();
 
   constexpr void __cordl_internal_set__abortReason(::StringW value);
 
@@ -469,7 +462,7 @@ public:
 
   constexpr void __cordl_internal_set__buffer(::StringW value);
 
-  constexpr void __cordl_internal_set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value);
+  constexpr void __cordl_internal_set__commands(::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> value);
 
   constexpr void __cordl_internal_set__currentResponseDescription(::System::Net::ResponseDescription* value);
 
@@ -489,24 +482,24 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Net::WebRequest* value);
 
-  /// @brief Method .ctor, addr 0x442c78c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448daa0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::TcpClient* client);
 
   static inline ::System::AsyncCallback* getStaticF_s_readCallbackDelegate();
 
   static inline ::System::AsyncCallback* getStaticF_s_writeCallbackDelegate();
 
-  /// @brief Method get_Encoding, addr 0x442e474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x448f788, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_RecoverableFailure, addr 0x442cb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecoverableFailure, addr 0x448de28, size 0x8, virtual false, abstract: false, final false
   inline bool get_RecoverableFailure();
 
   static inline void setStaticF_s_readCallbackDelegate(::System::AsyncCallback* value);
 
   static inline void setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value);
 
-  /// @brief Method set_Encoding, addr 0x442e47c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_Encoding, addr 0x448f790, size 0x38, virtual false, abstract: false, final false
   inline void set_Encoding(::System::Text::Encoding* value);
 
 protected:
@@ -523,6 +516,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CommandStream(CommandStream const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
+
   /// @brief Field _recoverableFailure, offset: 0x38, size: 0x1, def value: None
   bool ____recoverableFailure;
 
@@ -536,7 +532,7 @@ public:
   bool ____aborted;
 
   /// @brief Field _commands, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> ____commands;
+  ::ArrayW<::System::Net::CommandStream_PipelineEntry*, ::Array<::System::Net::CommandStream_PipelineEntry*>*> ____commands;
 
   /// @brief Field _index, offset: 0x58, size: 0x4, def value: None
   int32_t ____index;
@@ -562,14 +558,9 @@ public:
   /// @brief Field _decoder, offset: 0x80, size: 0x8, def value: None
   ::System::Text::Decoder* ____decoder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9527 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::CommandStream, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::CommandStream, ____recoverableFailure) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::CommandStream, ____request) == 0x40, "Offset mismatch!");
@@ -596,10 +587,12 @@ static_assert(offsetof(::System::Net::CommandStream, ____encoding) == 0x78, "Off
 
 static_assert(offsetof(::System::Net::CommandStream, ____decoder) == 0x80, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::CommandStream, 0x88>, "Size mismatch!");
+
 } // namespace System::Net
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__CommandStream__PipelineEntryFlags, "System.Net", "CommandStream/PipelineEntryFlags");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__CommandStream__PipelineInstruction, "System.Net", "CommandStream/PipelineInstruction");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::CommandStream_PipelineEntryFlags, "System.Net", "CommandStream/PipelineEntryFlags");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::CommandStream_PipelineInstruction, "System.Net", "CommandStream/PipelineInstruction");
 NEED_NO_BOX(::System::Net::CommandStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::CommandStream*, "System.Net", "CommandStream");
-NEED_NO_BOX(::System::Net::__CommandStream__PipelineEntry);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__CommandStream__PipelineEntry*, "System.Net", "CommandStream/PipelineEntry");
+NEED_NO_BOX(::System::Net::CommandStream_PipelineEntry);
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::CommandStream_PipelineEntry*, "System.Net", "CommandStream/PipelineEntry");

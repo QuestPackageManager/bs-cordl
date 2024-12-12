@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::SinkProviderData::*)(::StringW)>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c828b4;
+  constexpr static std::size_t addrs = 0x3ce2a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Children)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c82954;
+  constexpr static std::size_t addrs = 0x3ce2ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::SinkProviderData*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Channels::SinkProviderData::*)()>(
     &::System::Runtime::Remoting::Channels::SinkProviderData::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8295c;
+  constexpr static std::size_t addrs = 0x3ce2ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::SinkProviderData*>::get(),
@@ -65,7 +65,7 @@ constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::Channels
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::Channels::SinkProviderData::__cordl_internal_get_children() const {
+constexpr ::System::Collections::ArrayList* const& System::Runtime::Remoting::Channels::SinkProviderData::__cordl_internal_get_children() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___children;
 }
@@ -77,16 +77,13 @@ constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::Channels
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___properties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::Channels::SinkProviderData::__cordl_internal_get_properties() const {
+constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::Channels::SinkProviderData::__cordl_internal_get_properties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___properties;
 }
 constexpr void System::Runtime::Remoting::Channels::SinkProviderData::__cordl_internal_set_properties(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___properties)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Runtime::Remoting::Channels::SinkProviderData* System::Runtime::Remoting::Channels::SinkProviderData::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::SinkProviderData*>(name));
 }
 inline void System::Runtime::Remoting::Channels::SinkProviderData::_ctor(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -103,6 +100,9 @@ inline ::System::Collections::IDictionary* System::Runtime::Remoting::Channels::
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::SinkProviderData*>::get(),
                                                                              "get_Properties", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Channels::SinkProviderData* System::Runtime::Remoting::Channels::SinkProviderData::New_ctor(::StringW name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::SinkProviderData*>(name));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::SinkProviderData::SinkProviderData() {}

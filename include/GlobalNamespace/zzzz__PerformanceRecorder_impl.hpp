@@ -6,153 +6,213 @@
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
+#include "GlobalNamespace/zzzz__OculusMetrics_def.hpp"
+#include "GlobalNamespace/zzzz__OvrToolMetrics_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationChecks_def.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationStats_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
+#include "GlobalNamespace/zzzz__ProfilerMetrics_def.hpp"
+#include "GlobalNamespace/zzzz__RecPlayBehaviour_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_gamePause
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_StartEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::get_StartEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3b227a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
+                                                                               "get_StartEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_StartEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(bool)>(&::GlobalNamespace::PerformanceRecorder::set_StartEnabled)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3b227ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_StartEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_GamePause
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IGamePause* (::GlobalNamespace::PerformanceRecorder::*)()>(
-    &::GlobalNamespace::PerformanceRecorder::get_gamePause)> {
+    &::GlobalNamespace::PerformanceRecorder::get_GamePause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49ac;
+  constexpr static std::size_t addrs = 0x3b227b8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "get_gamePause",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "get_GamePause",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_gamePause
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_GamePause
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::IGamePause*)>(
-    &::GlobalNamespace::PerformanceRecorder::set_gamePause)> {
+    &::GlobalNamespace::PerformanceRecorder::set_GamePause)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49b4;
+  constexpr static std::size_t addrs = 0x3b227c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_gamePause", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_GamePause", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_sceneSetupData
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_SceneSetupData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayCoreSceneSetupData* (::GlobalNamespace::PerformanceRecorder::*)()>(
-    &::GlobalNamespace::PerformanceRecorder::get_sceneSetupData)> {
+    &::GlobalNamespace::PerformanceRecorder::get_SceneSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49bc;
+  constexpr static std::size_t addrs = 0x3b227c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                               "get_sceneSetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_SceneSetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_sceneSetupData
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_SceneSetupData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::GameplayCoreSceneSetupData*)>(
-    &::GlobalNamespace::PerformanceRecorder::set_sceneSetupData)> {
+    &::GlobalNamespace::PerformanceRecorder::set_SceneSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49c4;
+  constexpr static std::size_t addrs = 0x3b227d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_sceneSetupData", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_SceneSetupData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_settingsManager
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_SettingsManager
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SettingsManager* (::GlobalNamespace::PerformanceRecorder::*)()>(
-    &::GlobalNamespace::PerformanceRecorder::get_settingsManager)> {
+    &::GlobalNamespace::PerformanceRecorder::get_SettingsManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49cc;
+  constexpr static std::size_t addrs = 0x3b227d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                               "get_settingsManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_SettingsManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_settingsManager
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_SettingsManager
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::SettingsManager*)>(
-    &::GlobalNamespace::PerformanceRecorder::set_settingsManager)> {
+    &::GlobalNamespace::PerformanceRecorder::set_SettingsManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49d4;
+  constexpr static std::size_t addrs = 0x3b227e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_settingsManager", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_SettingsManager", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_playerSpecificSettings
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_PlayerSpecificSettings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::PerformanceRecorder::*)()>(
-    &::GlobalNamespace::PerformanceRecorder::get_playerSpecificSettings)> {
+    &::GlobalNamespace::PerformanceRecorder::get_PlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49dc;
+  constexpr static std::size_t addrs = 0x3b227e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                               "get_playerSpecificSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_PlayerSpecificSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_playerSpecificSettings
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_PlayerSpecificSettings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::PlayerSpecificSettings*)>(
-    &::GlobalNamespace::PerformanceRecorder::set_playerSpecificSettings)> {
+    &::GlobalNamespace::PerformanceRecorder::set_PlayerSpecificSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49e4;
+  constexpr static std::size_t addrs = 0x3b227f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_playerSpecificSettings", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_PlayerSpecificSettings", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_gameplayModifiers
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_GameplayModifiers
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifierMask (::GlobalNamespace::PerformanceRecorder::*)()>(
-    &::GlobalNamespace::PerformanceRecorder::get_gameplayModifiers)> {
+    &::GlobalNamespace::PerformanceRecorder::get_GameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49ec;
+  constexpr static std::size_t addrs = 0x3b227f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                               "get_gameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_GameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_gameplayModifiers
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_GameplayModifiers
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::GameplayModifierMask)>(
-    &::GlobalNamespace::PerformanceRecorder::set_gameplayModifiers)> {
+    &::GlobalNamespace::PerformanceRecorder::set_GameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac49f4;
+  constexpr static std::size_t addrs = 0x3b22800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_gameplayModifiers", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_GameplayModifiers", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.get_RrecPlayState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RecPlayBehaviour_State* (::GlobalNamespace::PerformanceRecorder::*)()>(
+    &::GlobalNamespace::PerformanceRecorder::get_RrecPlayState)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3b22808;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
+                                                                               "get_RrecPlayState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.set_RrecPlayState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)(::GlobalNamespace::RecPlayBehaviour_State*)>(
+    &::GlobalNamespace::PerformanceRecorder::set_RrecPlayState)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3b22810;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_RrecPlayState", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get() })));
     return ___internal_method;
   }
 };
@@ -161,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::Awake)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ac49fc;
+  constexpr static std::size_t addrs = 0x3b22818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "Awake",
@@ -173,8 +233,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::OnEnable)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ac4a08;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x3b22824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "OnEnable",
@@ -187,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ac4a74;
+  constexpr static std::size_t addrs = 0x3b229c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "OnDisable",
@@ -199,8 +259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::Update)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3ac4d80;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3b22dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "Update",
@@ -212,8 +272,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::GenerateReports)> {
-  constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3ac4a78;
+  constexpr static std::size_t size = 0x438;
+  constexpr static std::size_t addrs = 0x3b229c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
@@ -221,30 +281,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder.WriteFileReport
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::GlobalNamespace::PerformanceRecorder::WriteFileReport)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x3b23620;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "WriteFileReport", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceRecorder::*)()>(&::GlobalNamespace::PerformanceRecorder::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ac54a0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3b23b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PerformanceRecorder._GenerateReports_g__WriteFileReport_28_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::GlobalNamespace::PerformanceRecorder::_GenerateReports_g__WriteFileReport_28_0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ac546c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "<GenerateReports>g__WriteFileReport|28_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -260,74 +320,96 @@ constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set_minFps
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minFpsWindow = value;
 }
-constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gamePause_k__BackingField() {
+constexpr bool& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__StartEnabled_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gamePause_k__BackingField;
+  return this->____StartEnabled_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gamePause_k__BackingField() const {
+constexpr bool const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__StartEnabled_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gamePause_k__BackingField;
+  return this->____StartEnabled_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__gamePause_k__BackingField(::GlobalNamespace::IGamePause* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__StartEnabled_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gamePause_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->____StartEnabled_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__sceneSetupData_k__BackingField() {
+constexpr ::GlobalNamespace::IGamePause*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__GamePause_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sceneSetupData_k__BackingField;
+  return this->____GamePause_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const&
-GlobalNamespace::PerformanceRecorder::__cordl_internal_get__sceneSetupData_k__BackingField() const {
+constexpr ::GlobalNamespace::IGamePause* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__GamePause_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sceneSetupData_k__BackingField;
+  return this->____GamePause_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__sceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__GamePause_k__BackingField(::GlobalNamespace::IGamePause* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneSetupData_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____GamePause_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__settingsManager_k__BackingField() {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__SceneSetupData_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsManager_k__BackingField;
+  return this->____SceneSetupData_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__settingsManager_k__BackingField() const {
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__SceneSetupData_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsManager_k__BackingField;
+  return this->____SceneSetupData_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__settingsManager_k__BackingField(::GlobalNamespace::SettingsManager* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__SceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SceneSetupData_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__playerSpecificSettings_k__BackingField() {
+constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__SettingsManager_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerSpecificSettings_k__BackingField;
+  return this->____SettingsManager_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const&
-GlobalNamespace::PerformanceRecorder::__cordl_internal_get__playerSpecificSettings_k__BackingField() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__SettingsManager_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____playerSpecificSettings_k__BackingField;
+  return this->____SettingsManager_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__playerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__SettingsManager_k__BackingField(::GlobalNamespace::SettingsManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpecificSettings_k__BackingField)),
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____SettingsManager_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__PlayerSpecificSettings_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____PlayerSpecificSettings_k__BackingField;
+}
+constexpr ::GlobalNamespace::PlayerSpecificSettings* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__PlayerSpecificSettings_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____PlayerSpecificSettings_k__BackingField;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__PlayerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PlayerSpecificSettings_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifierMask& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gameplayModifiers_k__BackingField() {
+constexpr ::GlobalNamespace::GameplayModifierMask& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__GameplayModifiers_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers_k__BackingField;
+  return this->____GameplayModifiers_k__BackingField;
 }
-constexpr ::GlobalNamespace::GameplayModifierMask const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__gameplayModifiers_k__BackingField() const {
+constexpr ::GlobalNamespace::GameplayModifierMask const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__GameplayModifiers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers_k__BackingField;
+  return this->____GameplayModifiers_k__BackingField;
 }
-constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifierMask value) {
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__GameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifierMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____gameplayModifiers_k__BackingField = value;
+  this->____GameplayModifiers_k__BackingField = value;
+}
+constexpr ::GlobalNamespace::RecPlayBehaviour_State*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RrecPlayState_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____RrecPlayState_k__BackingField;
+}
+constexpr ::GlobalNamespace::RecPlayBehaviour_State* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__RrecPlayState_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____RrecPlayState_k__BackingField;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__RrecPlayState_k__BackingField(::GlobalNamespace::RecPlayBehaviour_State* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____RrecPlayState_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__frameTimes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameTimes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__frameTimes() const {
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__frameTimes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frameTimes;
 }
@@ -339,7 +421,7 @@ constexpr ::GlobalNamespace::PerformanceConfigurationChecks*& GlobalNamespace::P
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configChecks;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerformanceConfigurationChecks*> const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__configChecks() const {
+constexpr ::GlobalNamespace::PerformanceConfigurationChecks* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__configChecks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configChecks;
 }
@@ -351,7 +433,7 @@ constexpr ::GlobalNamespace::PerformanceConfigurationStats*& GlobalNamespace::Pe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configStats;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerformanceConfigurationStats*> const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__configStats() const {
+constexpr ::GlobalNamespace::PerformanceConfigurationStats* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__configStats() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____configStats;
 }
@@ -359,59 +441,117 @@ constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__confi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____configStats)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::IGamePause* GlobalNamespace::PerformanceRecorder::get_gamePause() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "get_gamePause",
+constexpr ::GlobalNamespace::ProfilerMetrics*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__profilerMetrics() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____profilerMetrics;
+}
+constexpr ::GlobalNamespace::ProfilerMetrics* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__profilerMetrics() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____profilerMetrics;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__profilerMetrics(::GlobalNamespace::ProfilerMetrics* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____profilerMetrics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::OculusMetrics*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__oculusMetrics() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____oculusMetrics;
+}
+constexpr ::GlobalNamespace::OculusMetrics* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__oculusMetrics() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____oculusMetrics;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__oculusMetrics(::GlobalNamespace::OculusMetrics* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusMetrics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::OvrToolMetrics*& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__ovrToolMetrics() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ovrToolMetrics;
+}
+constexpr ::GlobalNamespace::OvrToolMetrics* const& GlobalNamespace::PerformanceRecorder::__cordl_internal_get__ovrToolMetrics() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____ovrToolMetrics;
+}
+constexpr void GlobalNamespace::PerformanceRecorder::__cordl_internal_set__ovrToolMetrics(::GlobalNamespace::OvrToolMetrics* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ovrToolMetrics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline bool GlobalNamespace::PerformanceRecorder::get_StartEnabled() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "get_StartEnabled",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::PerformanceRecorder::set_StartEnabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_StartEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::GlobalNamespace::IGamePause* GlobalNamespace::PerformanceRecorder::get_GamePause() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "get_GamePause",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IGamePause*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_gamePause(::GlobalNamespace::IGamePause* value) {
+inline void GlobalNamespace::PerformanceRecorder::set_GamePause(::GlobalNamespace::IGamePause* value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_gamePause", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_GamePause", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGamePause*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::GameplayCoreSceneSetupData* GlobalNamespace::PerformanceRecorder::get_sceneSetupData() {
+inline ::GlobalNamespace::GameplayCoreSceneSetupData* GlobalNamespace::PerformanceRecorder::get_SceneSetupData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                             "get_sceneSetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_SceneSetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayCoreSceneSetupData*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
+inline void GlobalNamespace::PerformanceRecorder::set_SceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
   static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_sceneSetupData", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_SceneSetupData", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayCoreSceneSetupData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::SettingsManager* GlobalNamespace::PerformanceRecorder::get_settingsManager() {
+inline ::GlobalNamespace::SettingsManager* GlobalNamespace::PerformanceRecorder::get_SettingsManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                             "get_settingsManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_SettingsManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::SettingsManager*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_settingsManager(::GlobalNamespace::SettingsManager* value) {
+inline void GlobalNamespace::PerformanceRecorder::set_SettingsManager(::GlobalNamespace::SettingsManager* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_settingsManager", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_SettingsManager", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::PlayerSpecificSettings* GlobalNamespace::PerformanceRecorder::get_playerSpecificSettings() {
+inline ::GlobalNamespace::PlayerSpecificSettings* GlobalNamespace::PerformanceRecorder::get_PlayerSpecificSettings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                             "get_playerSpecificSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_PlayerSpecificSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerSpecificSettings*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
+inline void GlobalNamespace::PerformanceRecorder::set_PlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_playerSpecificSettings", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_PlayerSpecificSettings", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::GameplayModifierMask GlobalNamespace::PerformanceRecorder::get_gameplayModifiers() {
+inline ::GlobalNamespace::GameplayModifierMask GlobalNamespace::PerformanceRecorder::get_GameplayModifiers() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
-                                                                             "get_gameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_GameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifierMask, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::set_gameplayModifiers(::GlobalNamespace::GameplayModifierMask value) {
+inline void GlobalNamespace::PerformanceRecorder::set_GameplayModifiers(::GlobalNamespace::GameplayModifierMask value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_gameplayModifiers", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_GameplayModifiers", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierMask>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::GlobalNamespace::RecPlayBehaviour_State* GlobalNamespace::PerformanceRecorder::get_RrecPlayState() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(),
+                                                                             "get_RrecPlayState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecPlayBehaviour_State*, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::PerformanceRecorder::set_RrecPlayState(::GlobalNamespace::RecPlayBehaviour_State* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "set_RrecPlayState", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecPlayBehaviour_State*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::PerformanceRecorder::Awake() {
@@ -439,19 +579,19 @@ inline void GlobalNamespace::PerformanceRecorder::GenerateReports() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PerformanceRecorder* GlobalNamespace::PerformanceRecorder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceRecorder*>());
+inline void GlobalNamespace::PerformanceRecorder::WriteFileReport(::StringW path, ::StringW contents) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "WriteFileReport", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, contents);
 }
 inline void GlobalNamespace::PerformanceRecorder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PerformanceRecorder::_GenerateReports_g__WriteFileReport_28_0(::StringW path, ::StringW contents) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceRecorder*>::get(), "<GenerateReports>g__WriteFileReport|28_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, contents);
+inline ::GlobalNamespace::PerformanceRecorder* GlobalNamespace::PerformanceRecorder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PerformanceRecorder*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceRecorder::PerformanceRecorder() {}

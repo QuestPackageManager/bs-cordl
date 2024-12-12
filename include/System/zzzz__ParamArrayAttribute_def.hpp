@@ -11,17 +11,16 @@ class ParamArrayAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ParamArrayAttribute);
-// Type: System::ParamArrayAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System {
 // Is value type: false
-// CS Name: ::System::ParamArrayAttribute*
+// CS Name: System.ParamArrayAttribute
 class CORDL_TYPE ParamArrayAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::ParamArrayAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d99048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3df90b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

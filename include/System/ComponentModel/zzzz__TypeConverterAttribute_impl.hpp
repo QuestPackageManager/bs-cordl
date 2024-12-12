@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverterAttribute::*)()>(
     &::System::ComponentModel::TypeConverterAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43f8f04;
+  constexpr static std::size_t addrs = 0x445a218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverterAttribute::*)(::System::Type*)>(
     &::System::ComponentModel::TypeConverterAttribute::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43f8f60;
+  constexpr static std::size_t addrs = 0x445a274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TypeConverterAttribute::*)(::StringW)>(
     &::System::ComponentModel::TypeConverterAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f8fa4;
+  constexpr static std::size_t addrs = 0x445a2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::TypeConverterAttribute::*)()>(
     &::System::ComponentModel::TypeConverterAttribute::get_ConverterTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f8fcc;
+  constexpr static std::size_t addrs = 0x445a2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TypeConverterAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::TypeConverterAttribute::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43f8fd4;
+  constexpr static std::size_t addrs = 0x445a2e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::TypeConverterAttribute::*)()>(
     &::System::ComponentModel::TypeConverterAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43f9054;
+  constexpr static std::size_t addrs = 0x445a368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,25 +115,16 @@ inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel:
   return ::cordl_internals::getStaticField<::System::ComponentModel::TypeConverterAttribute*, "Default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get>();
 }
-inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>());
-}
 inline void System::ComponentModel::TypeConverterAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor(::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>(type));
 }
 inline void System::ComponentModel::TypeConverterAttribute::_ctor(::System::Type* type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
-}
-inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor(::StringW typeName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>(typeName));
 }
 inline void System::ComponentModel::TypeConverterAttribute::_ctor(::StringW typeName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -155,6 +146,15 @@ inline int32_t System::ComponentModel::TypeConverterAttribute::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TypeConverterAttribute*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>());
+}
+inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor(::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>(type));
+}
+inline ::System::ComponentModel::TypeConverterAttribute* System::ComponentModel::TypeConverterAttribute::New_ctor(::StringW typeName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::TypeConverterAttribute*>(typeName));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::TypeConverterAttribute::TypeConverterAttribute() {}

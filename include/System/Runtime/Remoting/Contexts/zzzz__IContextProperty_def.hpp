@@ -14,28 +14,23 @@ class IContextProperty;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContextProperty);
-// Type: System.Runtime.Remoting.Contexts::IContextProperty
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Contexts::IContextProperty*
+// CS Name: System.Runtime.Remoting.Contexts.IContextProperty
 class CORDL_TYPE IContextProperty {
 public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  /// @brief Method Freeze, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Freeze, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Freeze(::System::Runtime::Remoting::Contexts::Context* newContext);
 
-  /// @brief Method IsNewContextOK, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method IsNewContextOK, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsNewContextOK(::System::Runtime::Remoting::Contexts::Context* newCtx);
 
-  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IContextProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IContextProperty(IContextProperty&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IContextProperty", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

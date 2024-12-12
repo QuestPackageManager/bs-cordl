@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(
     ::System::Security::Cryptography::RC2*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RC2Transform::_ctor)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x3c528d8;
+  constexpr static std::size_t addrs = 0x3cb2a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RC2Transform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RC2Transform::ECB)> {
   constexpr static std::size_t size = 0x970;
-  constexpr static std::size_t addrs = 0x3c52e30;
+  constexpr static std::size_t addrs = 0x3cb2fa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,10 +117,6 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::RC2T
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "pitable",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RC2Transform*>::get>();
 }
-inline ::System::Security::Cryptography::RC2Transform* System::Security::Cryptography::RC2Transform::New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption,
-                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::RC2Transform*>(rc2Algo, encryption, key, iv));
-}
 inline void System::Security::Cryptography::RC2Transform::_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -135,6 +131,10 @@ inline void System::Security::Cryptography::RC2Transform::ECB(::ArrayW<uint8_t, 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RC2Transform*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, output);
+}
+inline ::System::Security::Cryptography::RC2Transform* System::Security::Cryptography::RC2Transform::New_ctor(::System::Security::Cryptography::RC2* rc2Algo, bool encryption,
+                                                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::RC2Transform*>(rc2Algo, encryption, key, iv));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::RC2Transform::RC2Transform() {}

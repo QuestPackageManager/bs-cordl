@@ -13,11 +13,10 @@ class ObstacleData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::ObstacleData);
-// Type: BeatmapSaveDataVersion3::ObstacleData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::ObstacleData*
+// CS Name: BeatmapSaveDataVersion3.ObstacleData
 class CORDL_TYPE ObstacleData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -78,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d4e7c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27067ec, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0x26d4e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x27067d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_height, addr 0x26d4e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x27067e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_layer, addr 0x26d4e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x27067cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x26d4e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x27067c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_width, addr 0x26d4e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x27067dc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -110,6 +109,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObstacleData(ObstacleData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13423 };
+
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;
 
@@ -125,14 +127,9 @@ public:
   /// @brief Field h, offset: 0x24, size: 0x4, def value: None
   int32_t ___h;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13392 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ObstacleData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::ObstacleData, ___x) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::ObstacleData, ___y) == 0x18, "Offset mismatch!");
@@ -142,6 +139,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::ObstacleData, ___d) == 0x1c, "
 static_assert(offsetof(::BeatmapSaveDataVersion3::ObstacleData, ___w) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::ObstacleData, ___h) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::ObstacleData, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::ObstacleData);

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SerializationBinder)
 namespace System {
@@ -16,23 +15,22 @@ class SerializationBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationBinder);
-// Type: System.Runtime.Serialization::SerializationBinder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SerializationBinder*
+// CS Name: System.Runtime.Serialization.SerializationBinder
 class CORDL_TYPE SerializationBinder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BindToName, addr 0x3c9296c, size 0xc, virtual true, abstract: false, final false
-  inline void BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName);
+  /// @brief Method BindToName, addr 0x3cf2ae0, size 0xc, virtual true, abstract: false, final false
+  inline void BindToName(::System::Type* serializedType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> typeName);
 
-  /// @brief Method BindToType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method BindToType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
   static inline ::System::Runtime::Serialization::SerializationBinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c92978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2aec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

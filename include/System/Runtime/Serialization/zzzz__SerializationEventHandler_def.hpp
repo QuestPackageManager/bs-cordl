@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SerializationEventHandler)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -21,20 +20,19 @@ class SerializationEventHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationEventHandler);
-// Type: System.Runtime.Serialization::SerializationEventHandler
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SerializationEventHandler*
+// CS Name: System.Runtime.Serialization.SerializationEventHandler
 class CORDL_TYPE SerializationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3c92484, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3cf25f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SerializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3c923f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf256c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

@@ -13,59 +13,59 @@
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BlocksBlade__Element._ctor
+//  Writing Method size for method: ::GlobalNamespace::BlocksBlade_Element._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BlocksBlade__Element::*)()>(&::GlobalNamespace::__BlocksBlade__Element::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade_Element::*)()>(&::GlobalNamespace::BlocksBlade_Element::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b83440;
+  constexpr static std::size_t addrs = 0x3be4cc8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BlocksBlade__Element*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade_Element*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__BlocksBlade__Element::__cordl_internal_get_idx() {
+constexpr int32_t& GlobalNamespace::BlocksBlade_Element::__cordl_internal_get_idx() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idx;
 }
-constexpr int32_t const& GlobalNamespace::__BlocksBlade__Element::__cordl_internal_get_idx() const {
+constexpr int32_t const& GlobalNamespace::BlocksBlade_Element::__cordl_internal_get_idx() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___idx;
 }
-constexpr void GlobalNamespace::__BlocksBlade__Element::__cordl_internal_set_idx(int32_t value) {
+constexpr void GlobalNamespace::BlocksBlade_Element::__cordl_internal_set_idx(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___idx = value;
 }
-constexpr float_t& GlobalNamespace::__BlocksBlade__Element::__cordl_internal_get_velocity() {
+constexpr float_t& GlobalNamespace::BlocksBlade_Element::__cordl_internal_get_velocity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___velocity;
 }
-constexpr float_t const& GlobalNamespace::__BlocksBlade__Element::__cordl_internal_get_velocity() const {
+constexpr float_t const& GlobalNamespace::BlocksBlade_Element::__cordl_internal_get_velocity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___velocity;
 }
-constexpr void GlobalNamespace::__BlocksBlade__Element::__cordl_internal_set_velocity(float_t value) {
+constexpr void GlobalNamespace::BlocksBlade_Element::__cordl_internal_set_velocity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___velocity = value;
 }
-inline ::GlobalNamespace::__BlocksBlade__Element* GlobalNamespace::__BlocksBlade__Element::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BlocksBlade__Element*>());
-}
-inline void GlobalNamespace::__BlocksBlade__Element::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BlocksBlade__Element*>::get(), ".ctor",
+inline void GlobalNamespace::BlocksBlade_Element::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade_Element*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::BlocksBlade_Element* GlobalNamespace::BlocksBlade_Element::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BlocksBlade_Element*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BlocksBlade__Element::__BlocksBlade__Element() {}
+constexpr ::GlobalNamespace::BlocksBlade_Element::BlocksBlade_Element() {}
 //  Writing Method size for method: ::GlobalNamespace::BlocksBlade.get_color
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b831fc;
+  constexpr static std::size_t addrs = 0x3be4a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "get_color",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)(::UnityEngine::Color)>(&::GlobalNamespace::BlocksBlade::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b83208;
+  constexpr static std::size_t addrs = 0x3be4a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::Start)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x3b83214;
+  constexpr static std::size_t addrs = 0x3be4a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "Start",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::Update)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x3b835b0;
+  constexpr static std::size_t addrs = 0x3be4e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "Update",
@@ -116,15 +116,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BlocksBlade.SetUpElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)(::GlobalNamespace::__BlocksBlade__Element*, float_t, ::UnityEngine::Color)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)(::GlobalNamespace::BlocksBlade_Element*, float_t, ::UnityEngine::Color)>(
     &::GlobalNamespace::BlocksBlade::SetUpElement)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3b83448;
+  constexpr static std::size_t addrs = 0x3be4cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "SetUpElement", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BlocksBlade__Element*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BlocksBlade_Element*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BlocksBlade::*)(float_t)>(
     &::GlobalNamespace::BlocksBlade::RandomPointOnCircle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b839c0;
+  constexpr static std::size_t addrs = 0x3be5248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BlocksBlade::*)()>(&::GlobalNamespace::BlocksBlade::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b83a0c;
+  constexpr static std::size_t addrs = 0x3be5294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), ".ctor",
@@ -290,16 +290,15 @@ constexpr void GlobalNamespace::BlocksBlade::__cordl_internal_set__color_k__Back
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color_k__BackingField = value;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>*& GlobalNamespace::BlocksBlade::__cordl_internal_get__elements() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BlocksBlade_Element*>*& GlobalNamespace::BlocksBlade::__cordl_internal_get__elements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>*> const&
-GlobalNamespace::BlocksBlade::__cordl_internal_get__elements() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BlocksBlade_Element*>* const& GlobalNamespace::BlocksBlade::__cordl_internal_get__elements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
-constexpr void GlobalNamespace::BlocksBlade::__cordl_internal_set__elements(::System::Collections::Generic::List_1<::GlobalNamespace::__BlocksBlade__Element*>* value) {
+constexpr void GlobalNamespace::BlocksBlade::__cordl_internal_set__elements(::System::Collections::Generic::List_1<::GlobalNamespace::BlocksBlade_Element*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -355,7 +354,7 @@ constexpr ::UnityEngine::MaterialPropertyBlock*& GlobalNamespace::BlocksBlade::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlock;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& GlobalNamespace::BlocksBlade::__cordl_internal_get__materialPropertyBlock() const {
+constexpr ::UnityEngine::MaterialPropertyBlock* const& GlobalNamespace::BlocksBlade::__cordl_internal_get__materialPropertyBlock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlock;
 }
@@ -420,10 +419,10 @@ inline void GlobalNamespace::BlocksBlade::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BlocksBlade::SetUpElement(::GlobalNamespace::__BlocksBlade__Element* element, float_t velocity, ::UnityEngine::Color color) {
+inline void GlobalNamespace::BlocksBlade::SetUpElement(::GlobalNamespace::BlocksBlade_Element* element, float_t velocity, ::UnityEngine::Color color) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), "SetUpElement", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BlocksBlade__Element*>::get(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BlocksBlade_Element*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element, velocity, color);
@@ -434,13 +433,13 @@ inline ::UnityEngine::Vector2 GlobalNamespace::BlocksBlade::RandomPointOnCircle(
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, radius);
 }
-inline ::GlobalNamespace::BlocksBlade* GlobalNamespace::BlocksBlade::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BlocksBlade*>());
-}
 inline void GlobalNamespace::BlocksBlade::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BlocksBlade*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BlocksBlade* GlobalNamespace::BlocksBlade::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BlocksBlade*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BlocksBlade::BlocksBlade() {}

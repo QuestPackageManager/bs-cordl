@@ -19,11 +19,10 @@ class XmlElementEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlElementEventArgs);
-// Type: System.Xml.Serialization::XmlElementEventArgs
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlElementEventArgs*
+// CS Name: System.Xml.Serialization.XmlElementEventArgs
 class CORDL_TYPE XmlElementEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -44,9 +43,9 @@ public:
 
   static inline ::System::Xml::Serialization::XmlElementEventArgs* New_ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
 
-  constexpr ::System::Xml::XmlElement*& __cordl_internal_get_elem();
+  constexpr ::System::Xml::XmlElement* const& __cordl_internal_get_elem() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlElement*> const& __cordl_internal_get_elem() const;
+  constexpr ::System::Xml::XmlElement*& __cordl_internal_get_elem();
 
   constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
@@ -56,9 +55,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_linePosition();
 
-  constexpr ::System::Object*& __cordl_internal_get_o();
+  constexpr ::System::Object* const& __cordl_internal_get_o() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_o() const;
+  constexpr ::System::Object*& __cordl_internal_get_o();
 
   constexpr ::StringW const& __cordl_internal_get_qnames() const;
 
@@ -74,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_qnames(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4304f50, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4366264, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* elem, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames);
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlElementEventArgs(XmlElementEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7385 };
+
   /// @brief Field o, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___o;
 
@@ -106,14 +108,9 @@ public:
   /// @brief Field linePosition, offset: 0x2c, size: 0x4, def value: None
   int32_t ___linePosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7360 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlElementEventArgs, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlElementEventArgs, ___o) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlElementEventArgs, ___elem) == 0x18, "Offset mismatch!");
@@ -123,6 +120,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlElementEventArgs, ___qna
 static_assert(offsetof(::System::Xml::Serialization::XmlElementEventArgs, ___lineNumber) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlElementEventArgs, ___linePosition) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlElementEventArgs, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlElementEventArgs);

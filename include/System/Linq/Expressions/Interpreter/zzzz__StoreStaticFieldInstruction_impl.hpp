@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)(::System::Reflection::FieldInfo*)>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4067d20;
+  constexpr static std::size_t addrs = 0x40c9034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4067d48;
+  constexpr static std::size_t addrs = 0x40c905c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4067d88;
+  constexpr static std::size_t addrs = 0x40c909c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::Run)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4067d90;
+  constexpr static std::size_t addrs = 0x40c90a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,9 +67,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction* System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::New_ctor(::System::Reflection::FieldInfo* field) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction*>(field));
-}
 inline void System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::_ctor(::System::Reflection::FieldInfo* field) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -93,6 +90,9 @@ inline int32_t System::Linq::Expressions::Interpreter::StoreStaticFieldInstructi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction* System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::New_ctor(::System::Reflection::FieldInfo* field) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction*>(field));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::StoreStaticFieldInstruction() {}

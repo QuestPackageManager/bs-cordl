@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(int32_t)>(&::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25ce868;
+  constexpr static std::size_t addrs = 0x2601b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(::Org::BouncyCastle::Asn1::DerEnumerated*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25ce8d0;
+  constexpr static std::size_t addrs = 0x2601bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::CrlReason::*)()>(&::Org::BouncyCastle::Asn1::X509::CrlReason::ToString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x25ce944;
+  constexpr static std::size_t addrs = 0x2601c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,17 +54,11 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> Org::BouncyCastle::Asn1::X509::C
   return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "ReasonString",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::CrlReason*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::X509::CrlReason* Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(int32_t reason) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::CrlReason*>(reason));
-}
 inline void Org::BouncyCastle::Asn1::X509::CrlReason::_ctor(int32_t reason) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::CrlReason*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reason);
-}
-inline ::Org::BouncyCastle::Asn1::X509::CrlReason* Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::CrlReason*>(reason));
 }
 inline void Org::BouncyCastle::Asn1::X509::CrlReason::_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -76,6 +70,12 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::CrlReason::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::CrlReason*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::CrlReason* Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(int32_t reason) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::CrlReason*>(reason));
+}
+inline ::Org::BouncyCastle::Asn1::X509::CrlReason* Org::BouncyCastle::Asn1::X509::CrlReason::New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::CrlReason*>(reason));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason::CrlReason() {}

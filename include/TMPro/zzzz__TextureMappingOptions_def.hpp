@@ -12,11 +12,10 @@ struct TextureMappingOptions;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TextureMappingOptions);
-// Type: TMPro::TextureMappingOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TextureMappingOptions
+// CS Name: TMPro.TextureMappingOptions
 struct CORDL_TYPE TextureMappingOptions {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextureMappingOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Character value: static_cast<int32_t>(0x0)
+  /// @brief Field Character value: I32(0)
   static ::TMPro::TextureMappingOptions const Character;
 
-  /// @brief Field Line value: static_cast<int32_t>(0x1)
+  /// @brief Field Line value: I32(1)
   static ::TMPro::TextureMappingOptions const Line;
 
-  /// @brief Field MatchAspect value: static_cast<int32_t>(0x3)
+  /// @brief Field MatchAspect value: I32(3)
   static ::TMPro::TextureMappingOptions const MatchAspect;
 
-  /// @brief Field Paragraph value: static_cast<int32_t>(0x2)
+  /// @brief Field Paragraph value: I32(2)
   static ::TMPro::TextureMappingOptions const Paragraph;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14554 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TextureMappingOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TextureMappingOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TextureMappingOptions, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextureMappingOptions, "TMPro", "TextureMappingOptions");

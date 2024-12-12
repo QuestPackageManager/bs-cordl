@@ -3,52 +3,50 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__SwitchView_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SwitchView)
 namespace HMUI {
+struct SwitchView_AnimationType;
+}
+namespace HMUI {
+struct ToggleWithCallbacks_SelectionState;
+}
+namespace HMUI {
 class ToggleWithCallbacks;
-}
-namespace HMUI {
-struct __SwitchView__AnimationType;
-}
-namespace HMUI {
-struct __ToggleWithCallbacks__SelectionState;
 }
 namespace UnityEngine {
 class AnimationClip;
 }
 // Forward declare root types
 namespace HMUI {
-struct __SwitchView__AnimationType;
+struct SwitchView_AnimationType;
 }
 namespace HMUI {
 class SwitchView;
 }
 // Write type traits
-MARK_VAL_T(::HMUI::__SwitchView__AnimationType);
+MARK_VAL_T(::HMUI::SwitchView_AnimationType);
 MARK_REF_PTR_T(::HMUI::SwitchView);
-// Type: ::AnimationType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: true
-// CS Name: ::SwitchView::AnimationType
-struct CORDL_TYPE __SwitchView__AnimationType {
+// CS Name: HMUI.SwitchView/AnimationType
+struct CORDL_TYPE SwitchView_AnimationType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____SwitchView__AnimationType_Unwrapped
-  enum struct ____SwitchView__AnimationType_Unwrapped : int32_t {
+  /// @brief Nested struct __SwitchView_AnimationType_Unwrapped
+  enum struct __SwitchView_AnimationType_Unwrapped : int32_t {
     __E_OnOff = static_cast<int32_t>(0x0),
     __E_SelectedState = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____SwitchView__AnimationType_Unwrapped() const noexcept {
-    return static_cast<____SwitchView__AnimationType_Unwrapped>(this->value__);
+  constexpr operator __SwitchView_AnimationType_Unwrapped() const noexcept {
+    return static_cast<__SwitchView_AnimationType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -58,46 +56,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SwitchView__AnimationType();
+  constexpr SwitchView_AnimationType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SwitchView__AnimationType(int32_t value__) noexcept;
+  constexpr SwitchView_AnimationType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field OnOff value: I32(0)
+  static ::HMUI::SwitchView_AnimationType const OnOff;
 
-  /// @brief Field OnOff value: static_cast<int32_t>(0x0)
-  static ::HMUI::__SwitchView__AnimationType const OnOff;
-
-  /// @brief Field SelectedState value: static_cast<int32_t>(0x1)
-  static ::HMUI::__SwitchView__AnimationType const SelectedState;
+  /// @brief Field SelectedState value: I32(1)
+  static ::HMUI::SwitchView_AnimationType const SelectedState;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16103 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::__SwitchView__AnimationType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HMUI::SwitchView_AnimationType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::__SwitchView__AnimationType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::SwitchView_AnimationType, 0x4>, "Size mismatch!");
 
 } // namespace HMUI
-// Type: HMUI::SwitchView
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.SwitchView::AnimationType, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::SwitchView*
+// CS Name: HMUI.SwitchView
 class CORDL_TYPE SwitchView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using AnimationType = ::HMUI::__SwitchView__AnimationType;
+  using AnimationType = ::HMUI::SwitchView_AnimationType;
 
   /// @brief Field _animationType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__animationType, put = __cordl_internal_set__animationType)) ::HMUI::__SwitchView__AnimationType _animationType;
+  __declspec(property(get = __cordl_internal_get__animationType, put = __cordl_internal_set__animationType)) ::HMUI::SwitchView_AnimationType _animationType;
 
   /// @brief Field _disabledAnimationClip, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__disabledAnimationClip, put = __cordl_internal_set__disabledAnimationClip)) ::UnityW<::UnityEngine::AnimationClip> _disabledAnimationClip;
@@ -127,29 +124,29 @@ public:
   /// @brief Field _toggle, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) ::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  /// @brief Method Awake, addr 0x39a7720, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39fe390, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleOnValueChanged, addr 0x39a7c0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x39fe87c, size 0x4, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x39a7c10, size 0x4, virtual false, abstract: false, final false
-  inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState value);
+  /// @brief Method HandleStateDidChange, addr 0x39fe880, size 0x4, virtual false, abstract: false, final false
+  inline void HandleStateDidChange(::HMUI::ToggleWithCallbacks_SelectionState value);
 
   static inline ::HMUI::SwitchView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39a7a54, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39fe6c4, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x39a7930, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x39fe5a0, size 0x124, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x39a7770, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39fe3e0, size 0x10c, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::HMUI::__SwitchView__AnimationType const& __cordl_internal_get__animationType() const;
+  constexpr ::HMUI::SwitchView_AnimationType const& __cordl_internal_get__animationType() const;
 
-  constexpr ::HMUI::__SwitchView__AnimationType& __cordl_internal_get__animationType();
+  constexpr ::HMUI::SwitchView_AnimationType& __cordl_internal_get__animationType();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__disabledAnimationClip() const;
 
@@ -187,7 +184,7 @@ public:
 
   constexpr ::UnityW<::HMUI::ToggleWithCallbacks>& __cordl_internal_get__toggle();
 
-  constexpr void __cordl_internal_set__animationType(::HMUI::__SwitchView__AnimationType value);
+  constexpr void __cordl_internal_set__animationType(::HMUI::SwitchView_AnimationType value);
 
   constexpr void __cordl_internal_set__disabledAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
@@ -207,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
-  /// @brief Method .ctor, addr 0x39a7c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fe8d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,8 +221,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SwitchView(SwitchView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16104 };
+
   /// @brief Field _animationType, offset: 0x20, size: 0x4, def value: None
-  ::HMUI::__SwitchView__AnimationType ____animationType;
+  ::HMUI::SwitchView_AnimationType ____animationType;
 
   /// @brief Field _normalAnimationClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
@@ -254,14 +254,9 @@ public:
   /// @brief Field _toggle, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::HMUI::ToggleWithCallbacks> ____toggle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16069 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::SwitchView, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::SwitchView, ____animationType) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::SwitchView, ____normalAnimationClip) == 0x28, "Offset mismatch!");
@@ -282,7 +277,9 @@ static_assert(offsetof(::HMUI::SwitchView, ____selectedAndHighlightedAnimationCl
 
 static_assert(offsetof(::HMUI::SwitchView, ____toggle) == 0x68, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HMUI::SwitchView, 0x70>, "Size mismatch!");
+
 } // namespace HMUI
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::__SwitchView__AnimationType, "HMUI", "SwitchView/AnimationType");
+DEFINE_IL2CPP_ARG_TYPE(::HMUI::SwitchView_AnimationType, "HMUI", "SwitchView/AnimationType");
 NEED_NO_BOX(::HMUI::SwitchView);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::SwitchView*, "HMUI", "SwitchView");

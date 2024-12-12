@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)()>(&::GlobalNamespace::ColorManager::get_obstaclesColor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aa9f30;
+  constexpr static std::size_t addrs = 0x3b06ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(), "get_obstaclesColor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::ColorManager::SetColorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa9f50;
+  constexpr static std::size_t addrs = 0x3b06ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::EnvironmentColorType, bool)>(
     &::GlobalNamespace::ColorManager::ColorForType)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3aa9f58;
+  constexpr static std::size_t addrs = 0x3b06eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::ColorManager::ColorForType)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3aaa044;
+  constexpr static std::size_t addrs = 0x3b06fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ColorManager::ColorForSaberType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3aaa0b8;
+  constexpr static std::size_t addrs = 0x3b0704c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::ColorManager::EffectsColorForSaberType)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3aaa10c;
+  constexpr static std::size_t addrs = 0x3b070a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorManager::*)()>(
     &::GlobalNamespace::ColorManager::GetObstacleEffectColor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3aaa19c;
+  constexpr static std::size_t addrs = 0x3b07130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(),
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorManager::*)()>(&::GlobalNamespace::ColorManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaa1f8;
+  constexpr static std::size_t addrs = 0x3b0718c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(), ".ctor",
@@ -127,7 +127,7 @@ constexpr ::GlobalNamespace::ColorScheme*& GlobalNamespace::ColorManager::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& GlobalNamespace::ColorManager::__cordl_internal_get__colorScheme() const {
+constexpr ::GlobalNamespace::ColorScheme* const& GlobalNamespace::ColorManager::__cordl_internal_get__colorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
@@ -176,13 +176,13 @@ inline ::UnityEngine::Color GlobalNamespace::ColorManager::GetObstacleEffectColo
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ColorManager* GlobalNamespace::ColorManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorManager*>());
-}
 inline void GlobalNamespace::ColorManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ColorManager* GlobalNamespace::ColorManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ColorManager*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ColorManager::ColorManager() {}

@@ -20,20 +20,19 @@ class PkixAttrCertPathValidator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator);
-// Type: Org.BouncyCastle.Pkix::PkixAttrCertPathValidator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixAttrCertPathValidator*
+// CS Name: Org.BouncyCastle.Pkix.PkixAttrCertPathValidator
 class CORDL_TYPE PkixAttrCertPathValidator : public ::System::Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator* New_ctor();
 
-  /// @brief Method Validate, addr 0x2534670, size 0x3c4, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x256795c, size 0x3c4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
 
-  /// @brief Method .ctor, addr 0x2533d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2567004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

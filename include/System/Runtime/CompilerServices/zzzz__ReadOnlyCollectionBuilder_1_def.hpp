@@ -3,46 +3,33 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyCollectionBuilder_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
 }
 namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IList;
-}
 namespace System::Runtime::CompilerServices {
-template <typename T> class __ReadOnlyCollectionBuilder_1__Enumerator;
+template <typename T> class ReadOnlyCollectionBuilder_1_Enumerator;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -52,19 +39,18 @@ namespace System::Runtime::CompilerServices {
 template <typename T> class ReadOnlyCollectionBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename T> class __ReadOnlyCollectionBuilder_1__Enumerator;
+template <typename T> class ReadOnlyCollectionBuilder_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1);
-MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ReadOnlyCollectionBuilder`1::Enumerator<T>*
-class CORDL_TYPE __ReadOnlyCollectionBuilder_1__Enumerator : public ::System::Object {
+// CS Name: System.Runtime.CompilerServices.ReadOnlyCollectionBuilder`1/Enumerator<T>
+class CORDL_TYPE ReadOnlyCollectionBuilder_1_Enumerator : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -98,7 +84,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>* New_ctor(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* builder);
+  static inline ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_Enumerator<T>* New_ctor(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* builder);
 
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
@@ -106,9 +92,9 @@ public:
   /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  constexpr ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>*& __cordl_internal_get__builder();
+  constexpr ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* const& __cordl_internal_get__builder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>*> const& __cordl_internal_get__builder() const;
+  constexpr ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>*& __cordl_internal_get__builder();
 
   constexpr T const& __cordl_internal_get__current() const;
 
@@ -148,16 +134,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReadOnlyCollectionBuilder_1__Enumerator();
+  constexpr ReadOnlyCollectionBuilder_1_Enumerator();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyCollectionBuilder_1__Enumerator", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReadOnlyCollectionBuilder_1__Enumerator(__ReadOnlyCollectionBuilder_1__Enumerator&&) = delete;
+  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReadOnlyCollectionBuilder_1__Enumerator", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyCollectionBuilder_1_Enumerator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReadOnlyCollectionBuilder_1__Enumerator(__ReadOnlyCollectionBuilder_1__Enumerator const&) = delete;
+  ReadOnlyCollectionBuilder_1_Enumerator(ReadOnlyCollectionBuilder_1_Enumerator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14134 };
 
   /// @brief Field _builder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1<T>* ____builder;
@@ -171,24 +160,21 @@ public:
   /// @brief Field _current, offset: 0x20, size: 0x8, def value: None
   T ____current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14100 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
-// Type: System.Runtime.CompilerServices::ReadOnlyCollectionBuilder`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Collections.IList, System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::ReadOnlyCollectionBuilder`1<T>*
+// CS Name: System.Runtime.CompilerServices.ReadOnlyCollectionBuilder`1<T>
 class CORDL_TYPE ReadOnlyCollectionBuilder_1 : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator<T>;
+  using Enumerator = ::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_Enumerator<T>;
 
   __declspec(property(put = set_Capacity)) int32_t Capacity;
 
@@ -391,6 +377,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReadOnlyCollectionBuilder_1(ReadOnlyCollectionBuilder_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14135 };
+
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____items;
 
@@ -400,12 +389,9 @@ public:
   /// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
   int32_t ____version;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14101 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Runtime::CompilerServices
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1, "System.Runtime.CompilerServices", "ReadOnlyCollectionBuilder`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::__ReadOnlyCollectionBuilder_1__Enumerator, "System.Runtime.CompilerServices", "ReadOnlyCollectionBuilder`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_Enumerator, "System.Runtime.CompilerServices", "ReadOnlyCollectionBuilder`1/Enumerator");

@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/EnvoyTerminatorSink.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__EnvoyTerminatorSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
         &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::SyncProcessMessage)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c8b59c;
+  constexpr static std::size_t addrs = 0x3ceb710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c8b650;
+  constexpr static std::size_t addrs = 0x3ceb7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)()>(
     &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c8b710;
+  constexpr static std::size_t addrs = 0x3ceb884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,14 +54,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
-constexpr System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
-}
 inline void System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::setStaticF_Instance(::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* value) {
   ::cordl_internals::setStaticField<::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*, "Instance",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*>::get>(
@@ -84,14 +77,22 @@ System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::AsyncProcessMessage(:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMessageSink*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageCtrl*, false>(this, ___internal_method, msg, replySink);
 }
-inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*>());
-}
 inline void System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink* System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink*>());
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::EnvoyTerminatorSink() {}

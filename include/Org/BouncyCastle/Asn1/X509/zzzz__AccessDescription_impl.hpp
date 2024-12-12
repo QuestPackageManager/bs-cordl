@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AccessDescription* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x24cf648;
+  constexpr static std::size_t addrs = 0x2502934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::_ctor)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x24cf7c4;
+  constexpr static std::size_t addrs = 0x2502ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::AccessDescription::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24cf8d8;
+  constexpr static std::size_t addrs = 0x2502bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::get_AccessMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cf904;
+  constexpr static std::size_t addrs = 0x2502bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AccessDescription*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::get_AccessLocation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24cf90c;
+  constexpr static std::size_t addrs = 0x2502bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AccessDescription*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24cf914;
+  constexpr static std::size_t addrs = 0x2502c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::AccessDescription::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AccessDescription::ToString)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x24cfa00;
+  constexpr static std::size_t addrs = 0x2502cec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& Org::BouncyCastle::Asn1::X509::AccessDescription::__cordl_internal_get_accessMethod() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::X509::AccessDescription::__cordl_internal_get_accessMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessMethod;
 }
@@ -129,7 +129,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessLocation;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Asn1::X509::AccessDescription::__cordl_internal_get_accessLocation() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::X509::AccessDescription::__cordl_internal_get_accessLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___accessLocation;
 }
@@ -161,18 +161,11 @@ inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* Org::BouncyCastle::As
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::AccessDescription*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* Org::BouncyCastle::Asn1::X509::AccessDescription::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AccessDescription*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::AccessDescription::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AccessDescription*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* Org::BouncyCastle::Asn1::X509::AccessDescription::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid,
-                                                                                                                      ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AccessDescription*>(oid, location));
 }
 inline void Org::BouncyCastle::Asn1::X509::AccessDescription::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -200,6 +193,13 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::AccessDescription::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AccessDescription*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* Org::BouncyCastle::Asn1::X509::AccessDescription::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AccessDescription*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::AccessDescription* Org::BouncyCastle::Asn1::X509::AccessDescription::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid,
+                                                                                                                      ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AccessDescription*>(oid, location));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::AccessDescription::AccessDescription() {}

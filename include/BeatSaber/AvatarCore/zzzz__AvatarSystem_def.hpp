@@ -4,6 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSystem)
@@ -21,12 +23,6 @@ struct AvatarSystemIdentifier;
 }
 namespace BeatSaber::AvatarCore {
 class Avatar;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystemMetadata;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarSystem;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
@@ -49,11 +45,10 @@ class AvatarSystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSystem);
-// Type: BeatSaber.AvatarCore::AvatarSystem
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.AvatarCore.AvatarSystemIdentifier, BeatSaber.AvatarCore.IAvatarSystem, BeatSaber.AvatarCore.IAvatarSystemMetadata, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::AvatarSystem*
+// CS Name: BeatSaber.AvatarCore.AvatarSystem
 class CORDL_TYPE AvatarSystem : public ::System::Object {
 public:
   // Declarations
@@ -91,32 +86,32 @@ public:
   /// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarSystemMetadata"
   constexpr operator ::BeatSaber::AvatarCore::IAvatarSystemMetadata*() noexcept;
 
-  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CreateDefaultAvatarIfUserCreatedAvatarDoesNotExist();
 
-  /// @brief Method DeleteUserCreatedAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method DeleteUserCreatedAvatar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DeleteUserCreatedAvatar();
 
-  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetMultiplayerAvatarOptionalDataProvider, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* GetMultiplayerAvatarOptionalDataProvider();
 
-  /// @brief Method GetMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetMultiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();
 
-  /// @brief Method InstantiateAvatar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InstantiateAvatar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
                                                                                                           ::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarEditorUI, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InstantiateAvatarEditorUI, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
-  /// @brief Method InstantiateAvatarSelectionView, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InstantiateAvatarSelectionView, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   static inline ::BeatSaber::AvatarCore::AvatarSystem* New_ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                                                                 ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
-  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method __GetRandomizedMultiplayerAvatarsData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* __GetRandomizedMultiplayerAvatarsData();
 
   constexpr bool const& __cordl_internal_get__isFallbackSystem() const;
@@ -131,9 +126,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__selectionSortOrder();
 
-  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*& __cordl_internal_get__supportedOptionalAvatarDataTypes();
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* const& __cordl_internal_get__supportedOptionalAvatarDataTypes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*> const& __cordl_internal_get__supportedOptionalAvatarDataTypes() const;
+  constexpr ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*& __cordl_internal_get__supportedOptionalAvatarDataTypes();
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemIdentifier const& __cordl_internal_get__typeIdentifier() const;
 
@@ -149,26 +144,26 @@ public:
 
   constexpr void __cordl_internal_set__typeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value);
 
-  /// @brief Method .ctor, addr 0x221f480, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224a9f4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
-  /// @brief Method get_avatarCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_avatarCreated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method get_isFallbackSystem, addr 0x221f4f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFallbackSystem, addr 0x224aa64, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFallbackSystem();
 
-  /// @brief Method get_selectableByUser, addr 0x221f4e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableByUser, addr 0x224aa5c, size 0x8, virtual true, abstract: false, final true
   inline bool get_selectableByUser();
 
-  /// @brief Method get_selectionSortOrder, addr 0x221f4f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionSortOrder, addr 0x224aa6c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_selectionSortOrder();
 
-  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x221f500, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x224aa74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
-  /// @brief Method get_typeIdentifier, addr 0x221f4dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeIdentifier, addr 0x224aa50, size 0xc, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystem"
@@ -191,6 +186,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarSystem(AvatarSystem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17559 };
+
   /// @brief Field _typeIdentifier, offset: 0x10, size: 0x10, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemIdentifier ____typeIdentifier;
 
@@ -206,14 +204,9 @@ public:
   /// @brief Field _selectableByUser, offset: 0x30, size: 0x1, def value: None
   bool ____selectableByUser;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17515 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarSystem, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystem, ____typeIdentifier) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystem, ____supportedOptionalAvatarDataTypes) == 0x20, "Offset mismatch!");
@@ -223,6 +216,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystem, ____isFallbackSyst
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystem, ____selectionSortOrder) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarSystem, ____selectableByUser) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarSystem, 0x38>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::AvatarSystem);

@@ -1,52 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/Models/DeserializableList_1.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
-template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__Data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__Data() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__Data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Data;
 }
@@ -190,13 +157,45 @@ template <typename T> inline ::StringW Oculus::Platform::Models::DeserializableL
                                                                              "get_PreviousUrl", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-template <typename T> inline ::Oculus::Platform::Models::DeserializableList_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::DeserializableList_1<T>*>());
-}
 template <typename T> inline void Oculus::Platform::Models::DeserializableList_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::DeserializableList_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::Oculus::Platform::Models::DeserializableList_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::DeserializableList_1<T>*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::IList_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IList_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__IList_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::ICollection_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__ICollection_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<T>"
+template <typename T> constexpr ::System::Collections::Generic::IEnumerable_1<T>* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__Generic__IEnumerable_1_T_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename T> constexpr Oculus::Platform::Models::DeserializableList_1<T>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename T> constexpr ::System::Collections::IEnumerable* Oculus::Platform::Models::DeserializableList_1<T>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Oculus::Platform::Models::DeserializableList_1<T>::DeserializableList_1() {}

@@ -21,11 +21,10 @@ class RemotingException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::RemotingException);
-// Type: System.Runtime.Remoting::RemotingException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::RemotingException*
+// CS Name: System.Runtime.Remoting.RemotingException
 class CORDL_TYPE RemotingException : public ::System::SystemException {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message, ::System::Exception* InnerException);
 
-  /// @brief Method .ctor, addr 0x3c6de88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ccdffc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c6de98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cce00c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c6de90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cce004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c6dea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cce014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* InnerException);
 
 protected:

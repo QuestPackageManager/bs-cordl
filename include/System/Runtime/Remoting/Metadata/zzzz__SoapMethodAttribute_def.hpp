@@ -15,11 +15,10 @@ class SoapMethodAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapMethodAttribute);
-// Type: System.Runtime.Remoting.Metadata::SoapMethodAttribute
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Metadata.SoapAttribute
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Metadata::SoapMethodAttribute*
+// CS Name: System.Runtime.Remoting.Metadata.SoapMethodAttribute
 class CORDL_TYPE SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x3c84300, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x3ce4474, size 0x1bc, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get__namespace() const;
@@ -86,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  /// @brief Method .ctor, addr 0x3c842e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce445c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x3c842f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x3ce4464, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x3c842f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x3ce446c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
 protected:
@@ -108,6 +107,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SoapMethodAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SoapMethodAttribute(SoapMethodAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3139 };
 
   /// @brief Field _responseElement, offset: 0x28, size: 0x8, def value: None
   ::StringW ____responseElement;
@@ -127,14 +129,9 @@ public:
   /// @brief Field _namespace, offset: 0x50, size: 0x8, def value: None
   ::StringW ____namespace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3139 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapMethodAttribute, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapMethodAttribute, ____responseElement) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapMethodAttribute, ____responseNamespace) == 0x30, "Offset mismatch!");
@@ -146,6 +143,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapMethodAttribut
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapMethodAttribute, ____useAttribute) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Metadata::SoapMethodAttribute, ____namespace) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Metadata::SoapMethodAttribute, 0x58>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Metadata
 NEED_NO_BOX(::System::Runtime::Remoting::Metadata::SoapMethodAttribute);

@@ -3,10 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ObjectsMovementRecorder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -19,6 +17,18 @@ class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
 class IPosesSerializer;
+}
+namespace GlobalNamespace {
+struct ObjectsMovementRecorder_CameraView;
+}
+namespace GlobalNamespace {
+class ObjectsMovementRecorder_InitData;
+}
+namespace GlobalNamespace {
+struct ObjectsMovementRecorder_Mode;
+}
+namespace GlobalNamespace {
+class PlaybackRenderer_PlaybackScreenshot;
 }
 namespace GlobalNamespace {
 class PlaybackRenderer;
@@ -38,59 +48,46 @@ class PosesPlayback;
 namespace GlobalNamespace {
 class PosesRecorder;
 }
-namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
-}
-namespace GlobalNamespace {
-class __ObjectsMovementRecorder__InitData;
-}
-namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__Mode;
-}
-namespace GlobalNamespace {
-class __PlaybackRenderer__PlaybackScreenshot;
-}
 namespace UnityEngine {
 class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
+struct ObjectsMovementRecorder_CameraView;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__Mode;
+struct ObjectsMovementRecorder_Mode;
 }
 namespace GlobalNamespace {
 class ObjectsMovementRecorder;
 }
 namespace GlobalNamespace {
-class __ObjectsMovementRecorder__InitData;
+class ObjectsMovementRecorder_InitData;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__ObjectsMovementRecorder__CameraView);
-MARK_VAL_T(::GlobalNamespace::__ObjectsMovementRecorder__Mode);
+MARK_VAL_T(::GlobalNamespace::ObjectsMovementRecorder_CameraView);
+MARK_VAL_T(::GlobalNamespace::ObjectsMovementRecorder_Mode);
 MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorder);
-MARK_REF_PTR_T(::GlobalNamespace::__ObjectsMovementRecorder__InitData);
-// Type: ::Mode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorder_InitData);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::ObjectsMovementRecorder::Mode
-struct CORDL_TYPE __ObjectsMovementRecorder__Mode {
+// CS Name: ObjectsMovementRecorder/Mode
+struct CORDL_TYPE ObjectsMovementRecorder_Mode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ObjectsMovementRecorder__Mode_Unwrapped
-  enum struct ____ObjectsMovementRecorder__Mode_Unwrapped : int32_t {
+  /// @brief Nested struct __ObjectsMovementRecorder_Mode_Unwrapped
+  enum struct __ObjectsMovementRecorder_Mode_Unwrapped : int32_t {
     __E_Record = static_cast<int32_t>(0x0),
     __E_Playback = static_cast<int32_t>(0x1),
     __E_Off = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ObjectsMovementRecorder__Mode_Unwrapped() const noexcept {
-    return static_cast<____ObjectsMovementRecorder__Mode_Unwrapped>(this->value__);
+  constexpr operator __ObjectsMovementRecorder_Mode_Unwrapped() const noexcept {
+    return static_cast<__ObjectsMovementRecorder_Mode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -100,56 +97,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ObjectsMovementRecorder__Mode();
+  constexpr ObjectsMovementRecorder_Mode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ObjectsMovementRecorder__Mode(int32_t value__) noexcept;
+  constexpr ObjectsMovementRecorder_Mode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Off value: I32(2)
+  static ::GlobalNamespace::ObjectsMovementRecorder_Mode const Off;
 
-  /// @brief Field Off value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ObjectsMovementRecorder__Mode const Off;
+  /// @brief Field Playback value: I32(1)
+  static ::GlobalNamespace::ObjectsMovementRecorder_Mode const Playback;
 
-  /// @brief Field Playback value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ObjectsMovementRecorder__Mode const Playback;
-
-  /// @brief Field Record value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ObjectsMovementRecorder__Mode const Record;
+  /// @brief Field Record value: I32(0)
+  static ::GlobalNamespace::ObjectsMovementRecorder_Mode const Record;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5081 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__Mode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_Mode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__Mode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder_Mode, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::CameraView
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::ObjectsMovementRecorder::CameraView
-struct CORDL_TYPE __ObjectsMovementRecorder__CameraView {
+// CS Name: ObjectsMovementRecorder/CameraView
+struct CORDL_TYPE ObjectsMovementRecorder_CameraView {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ObjectsMovementRecorder__CameraView_Unwrapped
-  enum struct ____ObjectsMovementRecorder__CameraView_Unwrapped : int32_t {
+  /// @brief Nested struct __ObjectsMovementRecorder_CameraView_Unwrapped
+  enum struct __ObjectsMovementRecorder_CameraView_Unwrapped : int32_t {
     __E_FirstPerson = static_cast<int32_t>(0x0),
     __E_ThirdPerson = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ObjectsMovementRecorder__CameraView_Unwrapped() const noexcept {
-    return static_cast<____ObjectsMovementRecorder__CameraView_Unwrapped>(this->value__);
+  constexpr operator __ObjectsMovementRecorder_CameraView_Unwrapped() const noexcept {
+    return static_cast<__ObjectsMovementRecorder_CameraView_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -159,47 +155,46 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ObjectsMovementRecorder__CameraView();
+  constexpr ObjectsMovementRecorder_CameraView();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ObjectsMovementRecorder__CameraView(int32_t value__) noexcept;
+  constexpr ObjectsMovementRecorder_CameraView(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field FirstPerson value: I32(0)
+  static ::GlobalNamespace::ObjectsMovementRecorder_CameraView const FirstPerson;
 
-  /// @brief Field FirstPerson value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const FirstPerson;
-
-  /// @brief Field ThirdPerson value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const ThirdPerson;
+  /// @brief Field ThirdPerson value: I32(1)
+  static ::GlobalNamespace::ObjectsMovementRecorder_CameraView const ThirdPerson;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5082 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__CameraView, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_CameraView, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder_CameraView, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::InitData
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ObjectsMovementRecorder::CameraView, ObjectsMovementRecorder::Mode, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ObjectsMovementRecorder::InitData*
-class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {
+// CS Name: ObjectsMovementRecorder/InitData
+class CORDL_TYPE ObjectsMovementRecorder_InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field addDateTimeSuffixToRecordingName, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
 
   /// @brief Field cameraView, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView)) ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView;
+  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView)) ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView;
 
   /// @brief Field framerate, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
@@ -208,12 +203,12 @@ public:
   __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger)) ::GlobalNamespace::IBeatSaberLogger* logger;
 
   /// @brief Field mode, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::GlobalNamespace::__ObjectsMovementRecorder__Mode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) ::GlobalNamespace::ObjectsMovementRecorder_Mode mode;
 
   /// @brief Field playbackScreenshots, offset 0x38, size 0x8
   __declspec(property(
       get = __cordl_internal_get_playbackScreenshots,
-      put = __cordl_internal_set_playbackScreenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>
+      put = __cordl_internal_set_playbackScreenshots)) ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>
       playbackScreenshots;
 
   /// @brief Field posesSerializer, offset 0x48, size 0x8
@@ -234,40 +229,40 @@ public:
   /// @brief Field screenshotWidth, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_screenshotWidth, put = __cordl_internal_set_screenshotWidth)) int32_t screenshotWidth;
 
-  static inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData*
-  New_ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName,
+  static inline ::GlobalNamespace::ObjectsMovementRecorder_InitData*
+  New_ctor(::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView, bool addDateTimeSuffixToRecordingName,
            bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
-           ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
+           ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
            ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer);
 
   constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
 
   constexpr bool& __cordl_internal_get_addDateTimeSuffixToRecordingName();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __cordl_internal_get_cameraView() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView const& __cordl_internal_get_cameraView() const;
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __cordl_internal_get_cameraView();
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView& __cordl_internal_get_cameraView();
 
   constexpr int32_t const& __cordl_internal_get_framerate() const;
 
   constexpr int32_t& __cordl_internal_get_framerate();
 
+  constexpr ::GlobalNamespace::IBeatSaberLogger* const& __cordl_internal_get_logger() const;
+
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get_logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get_logger() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode const& __cordl_internal_get_mode() const;
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __cordl_internal_get_mode() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode& __cordl_internal_get_mode();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __cordl_internal_get_mode();
-
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
   __cordl_internal_get_playbackScreenshots() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get_playbackScreenshots();
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>& __cordl_internal_get_playbackScreenshots();
+
+  constexpr ::GlobalNamespace::IPosesSerializer* const& __cordl_internal_get_posesSerializer() const;
 
   constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get_posesSerializer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get_posesSerializer() const;
 
   constexpr ::StringW const& __cordl_internal_get_recordingPath() const;
 
@@ -291,16 +286,15 @@ public:
 
   constexpr void __cordl_internal_set_addDateTimeSuffixToRecordingName(bool value);
 
-  constexpr void __cordl_internal_set_cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
+  constexpr void __cordl_internal_set_cameraView(::GlobalNamespace::ObjectsMovementRecorder_CameraView value);
 
   constexpr void __cordl_internal_set_framerate(int32_t value);
 
   constexpr void __cordl_internal_set_logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr void __cordl_internal_set_mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
+  constexpr void __cordl_internal_set_mode(::GlobalNamespace::ObjectsMovementRecorder_Mode value);
 
-  constexpr void
-  __cordl_internal_set_playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void __cordl_internal_set_playbackScreenshots(::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value);
 
   constexpr void __cordl_internal_set_posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
@@ -314,34 +308,37 @@ public:
 
   constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3abb2e8, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView,
+  /// @brief Method .ctor, addr 0x3b1822c, size 0xa4, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::ObjectsMovementRecorder_Mode mode, ::StringW recordingPath, ::GlobalNamespace::ObjectsMovementRecorder_CameraView cameraView,
                     bool addDateTimeSuffixToRecordingName, bool screenshotRecording, int32_t screenshotWidth, int32_t screenshotHeight, int32_t framerate,
-                    ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots,
-                    bool saveToOldFormat, ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer);
+                    ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> playbackScreenshots, bool saveToOldFormat,
+                    ::GlobalNamespace::IBeatSaberLogger* logger, ::GlobalNamespace::IPosesSerializer* posesSerializer);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ObjectsMovementRecorder__InitData();
+  constexpr ObjectsMovementRecorder_InitData();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ObjectsMovementRecorder__InitData", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ObjectsMovementRecorder__InitData(__ObjectsMovementRecorder__InitData&&) = delete;
+  ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ObjectsMovementRecorder__InitData", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder_InitData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ObjectsMovementRecorder__InitData(__ObjectsMovementRecorder__InitData const&) = delete;
+  ObjectsMovementRecorder_InitData(ObjectsMovementRecorder_InitData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5083 };
 
   /// @brief Field mode, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::__ObjectsMovementRecorder__Mode ___mode;
+  ::GlobalNamespace::ObjectsMovementRecorder_Mode ___mode;
 
   /// @brief Field recordingPath, offset: 0x18, size: 0x8, def value: None
   ::StringW ___recordingPath;
 
   /// @brief Field cameraView, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::__ObjectsMovementRecorder__CameraView ___cameraView;
+  ::GlobalNamespace::ObjectsMovementRecorder_CameraView ___cameraView;
 
   /// @brief Field addDateTimeSuffixToRecordingName, offset: 0x24, size: 0x1, def value: None
   bool ___addDateTimeSuffixToRecordingName;
@@ -359,7 +356,7 @@ public:
   int32_t ___framerate;
 
   /// @brief Field playbackScreenshots, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ___playbackScreenshots;
+  ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> ___playbackScreenshots;
 
   /// @brief Field saveToOldFormat, offset: 0x40, size: 0x1, def value: None
   bool ___saveToOldFormat;
@@ -370,59 +367,55 @@ public:
   /// @brief Field logger, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberLogger* ___logger;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObjectsMovementRecorder__InitData, 0x58>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___mode) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___mode) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___recordingPath) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___recordingPath) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___cameraView) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___cameraView) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___addDateTimeSuffixToRecordingName) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___addDateTimeSuffixToRecordingName) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___screenshotRecording) == 0x25, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotRecording) == 0x25, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___screenshotWidth) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotWidth) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___screenshotHeight) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___screenshotHeight) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___framerate) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___framerate) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___playbackScreenshots) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___playbackScreenshots) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___saveToOldFormat) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___saveToOldFormat) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___posesSerializer) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___posesSerializer) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder_InitData, ___logger) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, ___logger) == 0x50, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder_InitData, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ObjectsMovementRecorder
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ObjectsMovementRecorder::CameraView, ObjectsMovementRecorder::Mode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ObjectsMovementRecorder*
+// CS Name: ObjectsMovementRecorder
 class CORDL_TYPE ObjectsMovementRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using CameraView = ::GlobalNamespace::__ObjectsMovementRecorder__CameraView;
+  using CameraView = ::GlobalNamespace::ObjectsMovementRecorder_CameraView;
 
-  using InitData = ::GlobalNamespace::__ObjectsMovementRecorder__InitData;
+  using InitData = ::GlobalNamespace::ObjectsMovementRecorder_InitData;
 
-  using Mode = ::GlobalNamespace::__ObjectsMovementRecorder__Mode;
+  using Mode = ::GlobalNamespace::ObjectsMovementRecorder_Mode;
 
   /// @brief Field _audioTimeSyncController, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::UnityW<::GlobalNamespace::AudioTimeSyncController>
       _audioTimeSyncController;
 
   /// @brief Field _cameraView, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__cameraView, put = __cordl_internal_set__cameraView)) ::GlobalNamespace::__ObjectsMovementRecorder__CameraView _cameraView;
+  __declspec(property(get = __cordl_internal_get__cameraView, put = __cordl_internal_set__cameraView)) ::GlobalNamespace::ObjectsMovementRecorder_CameraView _cameraView;
 
   /// @brief Field _externalCamera, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__externalCamera, put = __cordl_internal_set__externalCamera)) ::UnityW<::UnityEngine::Camera> _externalCamera;
@@ -434,7 +427,7 @@ public:
   __declspec(property(get = __cordl_internal_get__hmdCamera, put = __cordl_internal_set__hmdCamera)) ::UnityW<::UnityEngine::Camera> _hmdCamera;
 
   /// @brief Field _initData, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::__ObjectsMovementRecorder__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::ObjectsMovementRecorder_InitData* _initData;
 
   /// @brief Field _livPoseObjectId, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__livPoseObjectId, put = __cordl_internal_set__livPoseObjectId)) ::UnityW<::GlobalNamespace::PoseObjectIdSO> _livPoseObjectId;
@@ -443,7 +436,7 @@ public:
   __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _mode, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode)) ::GlobalNamespace::__ObjectsMovementRecorder__Mode _mode;
+  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode)) ::GlobalNamespace::ObjectsMovementRecorder_Mode _mode;
 
   /// @brief Field _playback, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__playback, put = __cordl_internal_set__playback)) ::UnityW<::GlobalNamespace::PosesPlayback> _playback;
@@ -458,7 +451,7 @@ public:
   /// @brief Field _playbackScreenshots, offset 0x90, size 0x8
   __declspec(property(
       get = __cordl_internal_get__playbackScreenshots,
-      put = __cordl_internal_set__playbackScreenshots)) ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>
+      put = __cordl_internal_set__playbackScreenshots)) ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>
       _playbackScreenshots;
 
   /// @brief Field _poseObjects, offset 0x20, size 0x8
@@ -474,24 +467,24 @@ public:
   /// @brief Field _recordingPath, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__recordingPath, put = __cordl_internal_set__recordingPath)) ::StringW _recordingPath;
 
-  /// @brief Method HandleGameStateChanged, addr 0x3abb174, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleGameStateChanged, addr 0x3b180b8, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameStateChanged();
 
-  /// @brief Method Init, addr 0x3aba138, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3b1707c, size 0x704, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorder* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3abaf38, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b17e7c, size 0x224, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __cordl_internal_get__cameraView() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView const& __cordl_internal_get__cameraView() const;
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __cordl_internal_get__cameraView();
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_CameraView& __cordl_internal_get__cameraView();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__externalCamera() const;
 
@@ -505,21 +498,21 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__hmdCamera();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__InitData*& __cordl_internal_get__initData();
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ObjectsMovementRecorder__InitData*> const& __cordl_internal_get__initData() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_InitData*& __cordl_internal_get__initData();
 
   constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO> const& __cordl_internal_get__livPoseObjectId() const;
 
   constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& __cordl_internal_get__livPoseObjectId();
 
+  constexpr ::GlobalNamespace::IBeatSaberLogger* const& __cordl_internal_get__logger() const;
+
   constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode const& __cordl_internal_get__mode() const;
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __cordl_internal_get__mode() const;
-
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __cordl_internal_get__mode();
+  constexpr ::GlobalNamespace::ObjectsMovementRecorder_Mode& __cordl_internal_get__mode();
 
   constexpr ::UnityW<::GlobalNamespace::PosesPlayback> const& __cordl_internal_get__playback() const;
 
@@ -533,18 +526,18 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder>& __cordl_internal_get__playbackScreenshotRecorder();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> const&
   __cordl_internal_get__playbackScreenshots() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get__playbackScreenshots();
+  constexpr ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>& __cordl_internal_get__playbackScreenshots();
 
   constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> const& __cordl_internal_get__poseObjects() const;
 
   constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*>& __cordl_internal_get__poseObjects();
 
-  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
+  constexpr ::GlobalNamespace::IPosesSerializer* const& __cordl_internal_get__posesSerializer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get__posesSerializer() const;
+  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
 
   constexpr ::UnityW<::GlobalNamespace::PosesRecorder> const& __cordl_internal_get__recorder() const;
 
@@ -556,7 +549,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr void __cordl_internal_set__cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
+  constexpr void __cordl_internal_set__cameraView(::GlobalNamespace::ObjectsMovementRecorder_CameraView value);
 
   constexpr void __cordl_internal_set__externalCamera(::UnityW<::UnityEngine::Camera> value);
 
@@ -564,13 +557,13 @@ public:
 
   constexpr void __cordl_internal_set__hmdCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__ObjectsMovementRecorder__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::ObjectsMovementRecorder_InitData* value);
 
   constexpr void __cordl_internal_set__livPoseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value);
 
   constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr void __cordl_internal_set__mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
+  constexpr void __cordl_internal_set__mode(::GlobalNamespace::ObjectsMovementRecorder_Mode value);
 
   constexpr void __cordl_internal_set__playback(::UnityW<::GlobalNamespace::PosesPlayback> value);
 
@@ -578,8 +571,7 @@ public:
 
   constexpr void __cordl_internal_set__playbackScreenshotRecorder(::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> value);
 
-  constexpr void
-  __cordl_internal_set__playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void __cordl_internal_set__playbackScreenshots(::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> value);
 
   constexpr void __cordl_internal_set__poseObjects(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> value);
 
@@ -589,7 +581,7 @@ public:
 
   constexpr void __cordl_internal_set__recordingPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3abb2d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b1821c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -605,6 +597,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectsMovementRecorder(ObjectsMovementRecorder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };
 
   /// @brief Field _poseObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> ____poseObjects;
@@ -634,22 +629,22 @@ public:
   ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
   /// @brief Field _initData, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::__ObjectsMovementRecorder__InitData* ____initData;
+  ::GlobalNamespace::ObjectsMovementRecorder_InitData* ____initData;
 
   /// @brief Field _mode, offset: 0x70, size: 0x4, def value: None
-  ::GlobalNamespace::__ObjectsMovementRecorder__Mode ____mode;
+  ::GlobalNamespace::ObjectsMovementRecorder_Mode ____mode;
 
   /// @brief Field _recordingPath, offset: 0x78, size: 0x8, def value: None
   ::StringW ____recordingPath;
 
   /// @brief Field _cameraView, offset: 0x80, size: 0x4, def value: None
-  ::GlobalNamespace::__ObjectsMovementRecorder__CameraView ____cameraView;
+  ::GlobalNamespace::ObjectsMovementRecorder_CameraView ____cameraView;
 
   /// @brief Field _externalCamera, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____externalCamera;
 
   /// @brief Field _playbackScreenshots, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ____playbackScreenshots;
+  ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*> ____playbackScreenshots;
 
   /// @brief Field _logger, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberLogger* ____logger;
@@ -657,14 +652,9 @@ public:
   /// @brief Field _posesSerializer, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::IPosesSerializer* ____posesSerializer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____poseObjects) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____livPoseObjectId) == 0x28, "Offset mismatch!");
@@ -699,10 +689,12 @@ static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____logger) =
 
 static_assert(offsetof(::GlobalNamespace::ObjectsMovementRecorder, ____posesSerializer) == 0xa0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObjectsMovementRecorder, 0xa8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ObjectsMovementRecorder__CameraView, "", "ObjectsMovementRecorder/CameraView");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ObjectsMovementRecorder__Mode, "", "ObjectsMovementRecorder/Mode");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectsMovementRecorder_CameraView, "", "ObjectsMovementRecorder/CameraView");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectsMovementRecorder_Mode, "", "ObjectsMovementRecorder/Mode");
 NEED_NO_BOX(::GlobalNamespace::ObjectsMovementRecorder);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectsMovementRecorder*, "", "ObjectsMovementRecorder");
-NEED_NO_BOX(::GlobalNamespace::__ObjectsMovementRecorder__InitData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ObjectsMovementRecorder__InitData*, "", "ObjectsMovementRecorder/InitData");
+NEED_NO_BOX(::GlobalNamespace::ObjectsMovementRecorder_InitData);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObjectsMovementRecorder_InitData*, "", "ObjectsMovementRecorder/InitData");

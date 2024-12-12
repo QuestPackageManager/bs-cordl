@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlChildEnumerator.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlChildEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlChildEnumerator._ctor
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlChildEnumerator::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlChildEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x42d2d84;
+  constexpr static std::size_t addrs = 0x4334098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42d2dd4;
+  constexpr static std::size_t addrs = 0x43340e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlChildEnumerator::*)()>(&::System::Xml::XmlChildEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x42d2dd8;
+  constexpr static std::size_t addrs = 0x43340ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlChildEnumerator*>::get(), "MoveNext",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x42d2e3c;
+  constexpr static std::size_t addrs = 0x4334150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlChildEnumerator::*)()>(
     &::System::Xml::XmlChildEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x42d2e74;
+  constexpr static std::size_t addrs = 0x4334188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlChildEnumerator::*)()>(&::System::Xml::XmlChildEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42d2e78;
+  constexpr static std::size_t addrs = 0x433418c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlChildEnumerator*>::get(), "get_Current",
@@ -90,19 +90,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Xml::XmlChildEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Xml::XmlChildEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::XmlNode*& System::Xml::XmlChildEnumerator::__cordl_internal_get_container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlChildEnumerator::__cordl_internal_get_container() const {
+constexpr ::System::Xml::XmlNode* const& System::Xml::XmlChildEnumerator::__cordl_internal_get_container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___container;
 }
@@ -114,7 +106,7 @@ constexpr ::System::Xml::XmlNode*& System::Xml::XmlChildEnumerator::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___child;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& System::Xml::XmlChildEnumerator::__cordl_internal_get_child() const {
+constexpr ::System::Xml::XmlNode* const& System::Xml::XmlChildEnumerator::__cordl_internal_get_child() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___child;
 }
@@ -133,9 +125,6 @@ constexpr bool const& System::Xml::XmlChildEnumerator::__cordl_internal_get_isFi
 constexpr void System::Xml::XmlChildEnumerator::__cordl_internal_set_isFirst(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isFirst = value;
-}
-inline ::System::Xml::XmlChildEnumerator* System::Xml::XmlChildEnumerator::New_ctor(::System::Xml::XmlNode* container) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlChildEnumerator*>(container));
 }
 inline void System::Xml::XmlChildEnumerator::_ctor(::System::Xml::XmlNode* container) {
   static auto* ___internal_method =
@@ -170,6 +159,17 @@ inline ::System::Xml::XmlNode* System::Xml::XmlChildEnumerator::get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlChildEnumerator*>::get(), "get_Current",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlChildEnumerator* System::Xml::XmlChildEnumerator::New_ctor(::System::Xml::XmlNode* container) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlChildEnumerator*>(container));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr System::Xml::XmlChildEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* System::Xml::XmlChildEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlChildEnumerator::XmlChildEnumerator() {}

@@ -16,20 +16,19 @@ class InputValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputValue);
-// Type: UnityEngine.InputSystem::InputValue
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object, UnityEngine.InputSystem.InputAction::CallbackContext
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputValue*
+// CS Name: UnityEngine.InputSystem.InputValue
 class CORDL_TYPE InputValue : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_isPressed)) bool isPressed;
 
   /// @brief Field m_Context, offset 0x10, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context)) ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> m_Context;
 
-  /// @brief Method Get, addr 0x45780a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x45d93b4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* Get();
 
   /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -37,16 +36,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputValue* New_ctor();
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> const& __cordl_internal_get_m_Context() const;
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> const& __cordl_internal_get_m_Context() const;
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>& __cordl_internal_get_m_Context();
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext>& __cordl_internal_get_m_Context();
 
-  constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value);
+  constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> value);
 
-  /// @brief Method .ctor, addr 0x4578180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45d9494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPressed, addr 0x4578104, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x45d9418, size 0x7c, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
 protected:
@@ -63,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputValue(InputValue const&) = delete;
 
-  /// @brief Field m_Context, offset: 0x10, size: 0x18, def value: None
-  ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> ___m_Context;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6713 };
+
+  /// @brief Field m_Context, offset: 0x10, size: 0x18, def value: None
+  ::System::Nullable_1<::UnityEngine::InputSystem::InputAction_CallbackContext> ___m_Context;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputValue, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::InputValue, ___m_Context) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputValue, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::InputValue);

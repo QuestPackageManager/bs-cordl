@@ -7,20 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CopyClosingMeshJobData)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct CopyClosingMeshJobData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData);
-// Type: UnityEngine.UIElements.UIR::CopyClosingMeshJobData
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.UIR::CopyClosingMeshJobData
+// CS Name: UnityEngine.UIElements.UIR.CopyClosingMeshJobData
 struct CORDL_TYPE CopyClosingMeshJobData {
 public:
   // Declarations
@@ -34,6 +30,12 @@ public:
   // "", def_value: None }]
   constexpr CopyClosingMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount,
                                    int32_t indexOffset) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field vertSrc, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr vertSrc;
@@ -56,17 +58,9 @@ public:
   /// @brief Field indexOffset, offset: 0x2c, size: 0x4, def value: None
   int32_t indexOffset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, vertSrc) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, vertDst) == 0x8, "Offset mismatch!");
@@ -80,6 +74,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, i
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, indexCount) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, indexOffset) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::CopyClosingMeshJobData, "UnityEngine.UIElements.UIR", "CopyClosingMeshJobData");

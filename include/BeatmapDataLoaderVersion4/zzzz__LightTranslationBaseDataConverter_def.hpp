@@ -18,15 +18,14 @@ class LightTranslationBaseDataConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter);
-// Type: BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::LightTranslationBaseDataConverter*
+// CS Name: BeatmapDataLoaderVersion4.LightTranslationBaseDataConverter
 class CORDL_TYPE LightTranslationBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x26d9548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x270b104, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightTranslationBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightTranslationEvent lightTranslationEvent);
 
 protected:
@@ -44,7 +43,7 @@ public:
   LightTranslationBaseDataConverter(LightTranslationBaseDataConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13489 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

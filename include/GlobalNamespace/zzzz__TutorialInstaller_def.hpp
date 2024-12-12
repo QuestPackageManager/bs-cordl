@@ -24,11 +24,10 @@ class TutorialInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TutorialInstaller);
-// Type: ::TutorialInstaller
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TutorialInstaller*
+// CS Name: TutorialInstaller
 class CORDL_TYPE TutorialInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
   /// @brief Field _songBPM, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__songBPM, put = __cordl_internal_set__songBPM)) float_t _songBPM;
 
-  /// @brief Method InstallBindings, addr 0x3b9182c, size 0xd38, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3bf3618, size 0xe70, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
@@ -66,9 +65,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& __cordl_internal_get__playerHeightDetectorPrefab();
 
-  constexpr ::GlobalNamespace::TutorialSceneSetupData*& __cordl_internal_get__sceneSetupData();
+  constexpr ::GlobalNamespace::TutorialSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
+  constexpr ::GlobalNamespace::TutorialSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr float_t const& __cordl_internal_get__songBPM() const;
 
@@ -84,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__songBPM(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b92564, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf4488, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -101,6 +100,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TutorialInstaller(TutorialInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4732 };
+
   /// @brief Field _audioClip, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
@@ -116,14 +118,9 @@ public:
   /// @brief Field _sceneSetupData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::TutorialSceneSetupData* ____sceneSetupData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4716 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialInstaller, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____audioClip) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____songBPM) == 0x30, "Offset mismatch!");
@@ -133,6 +130,8 @@ static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____playerHeightDet
 static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____effectPoolsManualInstaller) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TutorialInstaller, ____sceneSetupData) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialInstaller, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TutorialInstaller);

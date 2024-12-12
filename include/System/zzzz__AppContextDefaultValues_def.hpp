@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AppContextDefaultValues)
 // Forward declare root types
@@ -13,28 +12,27 @@ class AppContextDefaultValues;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AppContextDefaultValues);
-// Type: System::AppContextDefaultValues
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::AppContextDefaultValues*
+// CS Name: System.AppContextDefaultValues
 class CORDL_TYPE AppContextDefaultValues : public ::System::Object {
 public:
   // Declarations
   /// @brief Field SwitchEnforceJapaneseEraYearRanges, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SwitchEnforceJapaneseEraYearRanges, put = setStaticF_SwitchEnforceJapaneseEraYearRanges)) ::StringW SwitchEnforceJapaneseEraYearRanges;
+  __declspec(property(get = getStaticF_SwitchEnforceJapaneseEraYearRanges, put = setStaticF_SwitchEnforceJapaneseEraYearRanges)) ::StringW SwitchEnforceJapaneseEraYearRanges;
 
   /// @brief Field SwitchEnforceLegacyJapaneseDateParsing, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SwitchEnforceLegacyJapaneseDateParsing, put = setStaticF_SwitchEnforceLegacyJapaneseDateParsing)) ::StringW SwitchEnforceLegacyJapaneseDateParsing;
+  __declspec(property(get = getStaticF_SwitchEnforceLegacyJapaneseDateParsing, put = setStaticF_SwitchEnforceLegacyJapaneseDateParsing)) ::StringW SwitchEnforceLegacyJapaneseDateParsing;
 
   /// @brief Field SwitchFormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SwitchFormatJapaneseFirstYearAsANumber, put = setStaticF_SwitchFormatJapaneseFirstYearAsANumber)) ::StringW SwitchFormatJapaneseFirstYearAsANumber;
+  __declspec(property(get = getStaticF_SwitchFormatJapaneseFirstYearAsANumber, put = setStaticF_SwitchFormatJapaneseFirstYearAsANumber)) ::StringW SwitchFormatJapaneseFirstYearAsANumber;
 
-  /// @brief Method PopulateDefaultValues, addr 0x3dceacc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PopulateDefaultValues, addr 0x3e2eb78, size 0x4, virtual false, abstract: false, final false
   static inline void PopulateDefaultValues();
 
-  /// @brief Method TryGetSwitchOverride, addr 0x3dcead0, size 0xc, virtual false, abstract: false, final false
-  static inline bool TryGetSwitchOverride(::StringW switchName, ByRef<bool> overrideValue);
+  /// @brief Method TryGetSwitchOverride, addr 0x3e2eb7c, size 0xc, virtual false, abstract: false, final false
+  static inline bool TryGetSwitchOverride(::StringW switchName, ::ByRef<bool> overrideValue);
 
   static inline ::StringW getStaticF_SwitchEnforceJapaneseEraYearRanges();
 

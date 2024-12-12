@@ -16,11 +16,10 @@ class AssetFileDownloadResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDownloadResult);
-// Type: Oculus.Platform.Models::AssetFileDownloadResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::AssetFileDownloadResult*
+// CS Name: Oculus.Platform.Models.AssetFileDownloadResult
 class CORDL_TYPE AssetFileDownloadResult : public ::System::Object {
 public:
   // Declarations
@@ -44,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_Filepath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f2e760, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8e80c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,23 +60,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssetFileDownloadResult(AssetFileDownloadResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15503 };
+
   /// @brief Field AssetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___AssetId;
 
   /// @brief Field Filepath, offset: 0x18, size: 0x8, def value: None
   ::StringW ___Filepath;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15468 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetFileDownloadResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadResult, ___AssetId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::AssetFileDownloadResult, ___Filepath) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::AssetFileDownloadResult, 0x20>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::AssetFileDownloadResult);

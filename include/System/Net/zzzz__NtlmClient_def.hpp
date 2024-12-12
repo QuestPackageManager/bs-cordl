@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmClient)
@@ -24,11 +25,10 @@ class NtlmClient;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NtlmClient);
-// Type: System.Net::NtlmClient
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.IAuthenticationModule, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::NtlmClient*
+// CS Name: System.Net.NtlmClient
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
   // Declarations
@@ -40,24 +40,24 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x4370af8, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x43d1e0c, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::System::Net::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x4370bc8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x43d1edc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+
+  constexpr ::System::Net::IAuthenticationModule* const& __cordl_internal_get_authObject() const;
 
   constexpr ::System::Net::IAuthenticationModule*& __cordl_internal_get_authObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IAuthenticationModule*> const& __cordl_internal_get_authObject() const;
-
   constexpr void __cordl_internal_set_authObject(::System::Net::IAuthenticationModule* value);
 
-  /// @brief Method .ctor, addr 0x4370a94, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43d1da8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationType, addr 0x4370bd0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x43d1ee4, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"
@@ -77,18 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NtlmClient(NtlmClient const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9713 };
+
   /// @brief Field authObject, offset: 0x10, size: 0x8, def value: None
   ::System::Net::IAuthenticationModule* ___authObject;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9688 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NtlmClient, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NtlmClient, ___authObject) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NtlmClient, 0x18>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::NtlmClient);

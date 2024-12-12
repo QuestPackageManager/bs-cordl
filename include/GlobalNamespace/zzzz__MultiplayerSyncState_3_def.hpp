@@ -18,13 +18,12 @@ template <typename TStateTable, typename TType, typename TState> class Multiplay
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncState_3);
-// Type: ::MultiplayerSyncState`3
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// CS Name: ::MultiplayerSyncState`3<TStateTable,TType,TState>*
+// CS Name: MultiplayerSyncState`3<TStateTable,TType,TState>
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:
   // Declarations
@@ -49,10 +48,10 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_player, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_player, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_player();
 
-  /// @brief Method get_stateBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_stateBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();
 
 protected:
@@ -70,7 +69,7 @@ public:
   MultiplayerSyncState_3(MultiplayerSyncState_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

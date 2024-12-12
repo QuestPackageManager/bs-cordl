@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringExtensions)
@@ -17,21 +16,20 @@ class StringExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StringExtensions);
-// Type: ::StringExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StringExtensions*
+// CS Name: StringExtensions
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AnyContains, addr 0x226b690, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AnyContains, addr 0x229dee4, size 0x8c, virtual false, abstract: false, final false
   static inline bool AnyContains(::ArrayW<::StringW, ::Array<::StringW>*> stringArray, ::StringW value, ::System::StringComparison stringComparison);
 
-  /// @brief Method Contains, addr 0x226b670, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x229dec4, size 0x20, virtual false, abstract: false, final false
   static inline bool Contains(::StringW source, ::StringW substring, ::System::StringComparison comp);
 
-  /// @brief Method Truncate, addr 0x226b5a8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Truncate, addr 0x229ddfc, size 0xc8, virtual false, abstract: false, final false
   static inline ::StringW Truncate(::StringW s, int32_t length, bool appendEllipsis);
 
 protected:
@@ -49,7 +47,7 @@ public:
   StringExtensions(StringExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16881 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

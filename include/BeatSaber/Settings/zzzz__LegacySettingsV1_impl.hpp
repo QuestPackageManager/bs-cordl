@@ -6,15 +6,15 @@
 //  Writing Method size for method: ::BeatSaber::Settings::LegacySettingsV1.ApplyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)(ByRef<::BeatSaber::Settings::Settings>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)(::ByRef<::BeatSaber::Settings::Settings>)>(
     &::BeatSaber::Settings::LegacySettingsV1::ApplyTo)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x224889c;
+  constexpr static std::size_t addrs = 0x227ade4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV1*>::get(), "ApplyTo", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::Settings::Settings>>::get() })));
     return ___internal_method;
   }
 };
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Settings::LegacySettingsV1::*)()>(&::BeatSaber::Settings::LegacySettingsV1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2248a5c;
+  constexpr static std::size_t addrs = 0x227afa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV1*>::get(), ".ctor",
@@ -619,19 +619,19 @@ constexpr void BeatSaber::Settings::LegacySettingsV1::__cordl_internal_set_enabl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___enableFPSRecorder = value;
 }
-inline void BeatSaber::Settings::LegacySettingsV1::ApplyTo(ByRef<::BeatSaber::Settings::Settings> settings) {
+inline void BeatSaber::Settings::LegacySettingsV1::ApplyTo(::ByRef<::BeatSaber::Settings::Settings> settings) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV1*>::get(), "ApplyTo", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::BeatSaber::Settings::Settings>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::BeatSaber::Settings::Settings>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settings);
-}
-inline ::BeatSaber::Settings::LegacySettingsV1* BeatSaber::Settings::LegacySettingsV1::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::Settings::LegacySettingsV1*>());
 }
 inline void BeatSaber::Settings::LegacySettingsV1::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::LegacySettingsV1*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::Settings::LegacySettingsV1* BeatSaber::Settings::LegacySettingsV1::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::Settings::LegacySettingsV1*>());
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Settings::LegacySettingsV1::LegacySettingsV1() {}

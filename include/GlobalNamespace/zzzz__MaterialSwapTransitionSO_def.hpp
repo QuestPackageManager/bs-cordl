@@ -14,11 +14,10 @@ class MaterialSwapTransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialSwapTransitionSO);
-// Type: ::MaterialSwapTransitionSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialSwapTransitionSO*
+// CS Name: MaterialSwapTransitionSO
 class CORDL_TYPE MaterialSwapTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -91,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedMaterial(::UnityW<::UnityEngine::Material> value);
 
-  /// @brief Method .ctor, addr 0x4476f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d8230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledMaterial, addr 0x4476f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledMaterial, addr 0x44d8218, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_disabledMaterial();
 
-  /// @brief Method get_highlightedMaterial, addr 0x4476ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedMaterial, addr 0x44d8208, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_highlightedMaterial();
 
-  /// @brief Method get_normalMaterial, addr 0x4476eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalMaterial, addr 0x44d8200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_normalMaterial();
 
-  /// @brief Method get_pressedMaterial, addr 0x4476efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedMaterial, addr 0x44d8210, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_pressedMaterial();
 
-  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x4476f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedMaterial, addr 0x44d8228, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedAndHighlightedMaterial();
 
-  /// @brief Method get_selectedMaterial, addr 0x4476f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMaterial, addr 0x44d8220, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_selectedMaterial();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialSwapTransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialSwapTransitionSO(MaterialSwapTransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18216 };
 
   /// @brief Field _normalMaterial, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____normalMaterial;
@@ -144,14 +146,9 @@ public:
   /// @brief Field _selectedAndHighlightedMaterial, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____selectedAndHighlightedMaterial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18136 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialSwapTransitionSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialSwapTransitionSO, ____normalMaterial) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialSwapTransitionSO, ____highlightedMaterial) == 0x28, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialSwapTransitionSO, ____disabled
 static_assert(offsetof(::GlobalNamespace::MaterialSwapTransitionSO, ____selectedMaterial) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialSwapTransitionSO, ____selectedAndHighlightedMaterial) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialSwapTransitionSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialSwapTransitionSO);

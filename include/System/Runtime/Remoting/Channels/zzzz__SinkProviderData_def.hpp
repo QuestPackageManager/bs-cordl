@@ -24,11 +24,10 @@ class SinkProviderData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::SinkProviderData);
-// Type: System.Runtime.Remoting.Channels::SinkProviderData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::SinkProviderData*
+// CS Name: System.Runtime.Remoting.Channels.SinkProviderData
 class CORDL_TYPE SinkProviderData : public ::System::Object {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_children() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_children() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_properties() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_properties();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_properties() const;
 
   constexpr ::StringW const& __cordl_internal_get_sinkName() const;
 
@@ -65,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c828b4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce2a28, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x3c82954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x3ce2ac8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x3c8295c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3ce2ad0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SinkProviderData(SinkProviderData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3127 };
+
   /// @brief Field sinkName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___sinkName;
 
@@ -97,19 +99,16 @@ public:
   /// @brief Field properties, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Hashtable* ___properties;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3127 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::SinkProviderData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Channels::SinkProviderData, ___sinkName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Channels::SinkProviderData, ___children) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Channels::SinkProviderData, ___properties) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::SinkProviderData, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::SinkProviderData);

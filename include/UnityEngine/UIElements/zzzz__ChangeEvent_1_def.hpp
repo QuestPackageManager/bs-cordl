@@ -7,32 +7,31 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(ChangeEvent_1)
 namespace UnityEngine::UIElements {
-template <typename T> class __ChangeEvent_1____c;
+template <typename T> class ChangeEvent_1___c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class __ChangeEvent_1____c;
+template <typename T> class ChangeEvent_1___c;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::ChangeEvent_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::__ChangeEvent_1____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::ChangeEvent_1___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::ChangeEvent`1::<>c<T>*
-class CORDL_TYPE __ChangeEvent_1____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.ChangeEvent`1/<>c<T>
+class CORDL_TYPE ChangeEvent_1___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__ChangeEvent_1____c<T>* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::ChangeEvent_1___c<T>* __9;
 
-  static inline ::UnityEngine::UIElements::__ChangeEvent_1____c<T>* New_ctor();
+  static inline ::UnityEngine::UIElements::ChangeEvent_1___c<T>* New_ctor();
 
   /// @brief Method <.cctor>b__0_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ChangeEvent_1<T>* __cctor_b__0_0();
@@ -40,42 +39,41 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__ChangeEvent_1____c<T>* getStaticF___9();
+  static inline ::UnityEngine::UIElements::ChangeEvent_1___c<T>* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__ChangeEvent_1____c<T>* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::ChangeEvent_1___c<T>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ChangeEvent_1____c();
+  constexpr ChangeEvent_1___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ChangeEvent_1____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ChangeEvent_1____c(__ChangeEvent_1____c&&) = delete;
+  ChangeEvent_1___c(ChangeEvent_1___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ChangeEvent_1____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ChangeEvent_1____c(__ChangeEvent_1____c const&) = delete;
+  ChangeEvent_1___c(ChangeEvent_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5789 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::ChangeEvent`1
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ChangeEvent`1<T>*
+// CS Name: UnityEngine.UIElements.ChangeEvent`1<T>
 class CORDL_TYPE ChangeEvent_1 : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::ChangeEvent_1<T>*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__ChangeEvent_1____c<T>;
+  using __c = ::UnityEngine::UIElements::ChangeEvent_1___c<T>;
 
   /// @brief Field <newValue>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__newValue_k__BackingField, put = __cordl_internal_set__newValue_k__BackingField)) T _newValue_k__BackingField;
@@ -139,18 +137,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChangeEvent_1(ChangeEvent_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5790 };
+
   /// @brief Field <previousValue>k__BackingField, offset: 0x88, size: 0x8, def value: None
   T ____previousValue_k__BackingField;
 
   /// @brief Field <newValue>k__BackingField, offset: 0x90, size: 0x8, def value: None
   T ____newValue_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::ChangeEvent_1, "UnityEngine.UIElements", "ChangeEvent`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::__ChangeEvent_1____c, "UnityEngine.UIElements", "ChangeEvent`1/<>c");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::ChangeEvent_1___c, "UnityEngine.UIElements", "ChangeEvent`1/<>c");

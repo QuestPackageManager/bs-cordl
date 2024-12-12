@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(UnityWebRequestUtilities)
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
@@ -21,23 +20,22 @@ class UnityWebRequestUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities);
-// Type: UnityEngine.ResourceManagement.Util::UnityWebRequestUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Util::UnityWebRequestUtilities*
+// CS Name: UnityEngine.ResourceManagement.Util.UnityWebRequestUtilities
 class CORDL_TYPE UnityWebRequestUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsAssetBundleDownloaded, addr 0x472f4a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsAssetBundleDownloaded, addr 0x47907b4, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsAssetBundleDownloaded(::UnityEngine::Networking::UnityWebRequestAsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities* New_ctor();
 
-  /// @brief Method RequestHasErrors, addr 0x4736284, size 0x128, virtual false, abstract: false, final false
-  static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
+  /// @brief Method RequestHasErrors, addr 0x4797598, size 0x128, virtual false, abstract: false, final false
+  static inline bool RequestHasErrors(::UnityEngine::Networking::UnityWebRequest* webReq, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> result);
 
-  /// @brief Method .ctor, addr 0x47364ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47977c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +53,7 @@ public:
   UnityWebRequestUtilities(UnityWebRequestUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

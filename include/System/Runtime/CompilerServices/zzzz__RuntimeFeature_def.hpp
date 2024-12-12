@@ -11,15 +11,14 @@ class RuntimeFeature;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeFeature);
-// Type: System.Runtime.CompilerServices::RuntimeFeature
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::RuntimeFeature*
+// CS Name: System.Runtime.CompilerServices.RuntimeFeature
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x3cb73e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x3d17558, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
 protected:

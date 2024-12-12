@@ -2,118 +2,117 @@
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputUpdate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdate_def.hpp"
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount.get_value
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount.get_value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::get_value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ae23c;
+  constexpr static std::size_t addrs = 0x460f550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "get_value",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "get_value",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount.set_value
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount.set_value
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)(uint32_t)>(
-    &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::set_value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::*)(uint32_t)>(
+    &::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ae244;
+  constexpr static std::size_t addrs = 0x460f558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "set_value",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "set_value",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount.OnBeforeUpdate
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount.OnBeforeUpdate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnBeforeUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::OnBeforeUpdate)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x45ae05c;
+  constexpr static std::size_t addrs = 0x460f370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "OnBeforeUpdate",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "OnBeforeUpdate",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount.OnUpdate
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount.OnUpdate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnUpdate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::OnUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45ae0fc;
+  constexpr static std::size_t addrs = 0x460f410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "OnUpdate",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "OnUpdate",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline uint32_t UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::get_value() {
+inline uint32_t UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::get_value() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "get_value",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "get_value",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::set_value(uint32_t value) {
+inline void UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::set_value(uint32_t value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "set_value",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "set_value",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnBeforeUpdate() {
+inline void UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::OnBeforeUpdate() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "OnBeforeUpdate",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "OnBeforeUpdate",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::OnUpdate() {
+inline void UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::OnUpdate() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>::get(), "OnUpdate",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>::get(), "OnUpdate",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_WasUpdated", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value_k__BackingField", ty: "uint32_t", modifiers: "", def_value: Some("{}")
 // }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::__InputUpdate__UpdateStepCount(bool m_WasUpdated, uint32_t _value_k__BackingField) noexcept {
+constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::InputUpdate_UpdateStepCount(bool m_WasUpdated, uint32_t _value_k__BackingField) noexcept {
   this->m_WasUpdated = m_WasUpdated;
   this->_value_k__BackingField = _value_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount::__InputUpdate__UpdateStepCount() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount::InputUpdate_UpdateStepCount() {}
 // Ctor Parameters [CppParam { name: "lastUpdateType", ty: "::UnityEngine::InputSystem::LowLevel::InputUpdateType", modifiers: "", def_value: Some("{}") }, CppParam { name: "playerUpdateStepCount",
-// ty: "::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState::__InputUpdate__SerializedState(
-    ::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType, ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount playerUpdateStepCount) noexcept {
+// ty: "::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState::InputUpdate_SerializedState(
+    ::UnityEngine::InputSystem::LowLevel::InputUpdateType lastUpdateType, ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount playerUpdateStepCount) noexcept {
   this->lastUpdateType = lastUpdateType;
   this->playerUpdateStepCount = playerUpdateStepCount;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState::__InputUpdate__SerializedState() {}
+constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState::InputUpdate_SerializedState() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate.OnBeforeUpdate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::OnBeforeUpdate)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x45adfdc;
+  constexpr static std::size_t addrs = 0x460f2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::OnUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x45ae074;
+  constexpr static std::size_t addrs = 0x460f388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,10 +139,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate.Save
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::Save)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x45ae118;
+  constexpr static std::size_t addrs = 0x460f42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get(),
@@ -154,15 +153,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputUpdate.Restore
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::Restore)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x45ae17c;
+  constexpr static std::size_t addrs = 0x460f490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get(), "Restore", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState>::get() })));
     return ___internal_method;
   }
 };
@@ -172,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdateType (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::GetUpdateTypeForPlayer)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45ae210;
+  constexpr static std::size_t addrs = 0x460f524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdate::IsPlayerUpdate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45ae230;
+  constexpr static std::size_t addrs = 0x460f544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,13 +211,13 @@ inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputS
   return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::LowLevel::InputUpdateType, "s_LatestUpdateType",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get>();
 }
-inline void UnityEngine::InputSystem::LowLevel::InputUpdate::setStaticF_s_PlayerUpdateStepCount(::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount value) {
-  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, "s_PlayerUpdateStepCount",
+inline void UnityEngine::InputSystem::LowLevel::InputUpdate::setStaticF_s_PlayerUpdateStepCount(::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount value) {
+  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, "s_PlayerUpdateStepCount",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get>(
-      std::forward<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount>(value));
+      std::forward<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount>(value));
 }
-inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount UnityEngine::InputSystem::LowLevel::InputUpdate::getStaticF_s_PlayerUpdateStepCount() {
-  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::LowLevel::__InputUpdate__UpdateStepCount, "s_PlayerUpdateStepCount",
+inline ::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount UnityEngine::InputSystem::LowLevel::InputUpdate::getStaticF_s_PlayerUpdateStepCount() {
+  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::LowLevel::InputUpdate_UpdateStepCount, "s_PlayerUpdateStepCount",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get>();
 }
 inline void UnityEngine::InputSystem::LowLevel::InputUpdate::OnBeforeUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateType type) {
@@ -233,15 +232,15 @@ inline void UnityEngine::InputSystem::LowLevel::InputUpdate::OnUpdate(::UnityEng
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, type);
 }
-inline ::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState UnityEngine::InputSystem::LowLevel::InputUpdate::Save() {
+inline ::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState UnityEngine::InputSystem::LowLevel::InputUpdate::Save() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get(), "Save",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState, false>(nullptr, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::InputUpdate::Restore(::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState state) {
+inline void UnityEngine::InputSystem::LowLevel::InputUpdate::Restore(::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputUpdate*>::get(), "Restore", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::__InputUpdate__SerializedState>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdate_SerializedState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, state);
 }
 inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputSystem::LowLevel::InputUpdate::GetUpdateTypeForPlayer(::UnityEngine::InputSystem::LowLevel::InputUpdateType mask) {

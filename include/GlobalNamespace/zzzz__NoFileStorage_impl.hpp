@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoFileStorage.hpp"
+#include "GlobalNamespace/zzzz__IFileStorage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoFileStorage_def.hpp"
-#include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::NoFileStorage::*)(::StringW, ::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::SaveFileAsync)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22712a8;
+  constexpr static std::size_t addrs = 0x22a3bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::LoadFileAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2271330;
+  constexpr static std::size_t addrs = 0x22a3c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::DeleteFileAsync)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2271398;
+  constexpr static std::size_t addrs = 0x22a3cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::FileExistsAsync)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2271420;
+  constexpr static std::size_t addrs = 0x22a3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoFileStorage::*)()>(&::GlobalNamespace::NoFileStorage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2271488;
+  constexpr static std::size_t addrs = 0x22a3da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoFileStorage*>::get(), ".ctor",
@@ -83,14 +83,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IFileStorage"
-constexpr GlobalNamespace::NoFileStorage::operator ::GlobalNamespace::IFileStorage*() noexcept {
-  return static_cast<::GlobalNamespace::IFileStorage*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IFileStorage"
-constexpr ::GlobalNamespace::IFileStorage* GlobalNamespace::NoFileStorage::i___GlobalNamespace__IFileStorage() noexcept {
-  return static_cast<::GlobalNamespace::IFileStorage*>(static_cast<void*>(this));
-}
 inline ::System::Threading::Tasks::Task* GlobalNamespace::NoFileStorage::SaveFileAsync(::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoFileStorage*>::get(), "SaveFileAsync", std::span<Il2CppClass const* const, 0>(),
@@ -119,13 +111,21 @@ inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::NoFileStorage:
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StoragePreference>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method, fileName, storageLocation);
 }
-inline ::GlobalNamespace::NoFileStorage* GlobalNamespace::NoFileStorage::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoFileStorage*>());
-}
 inline void GlobalNamespace::NoFileStorage::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoFileStorage*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoFileStorage* GlobalNamespace::NoFileStorage::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoFileStorage*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IFileStorage"
+constexpr GlobalNamespace::NoFileStorage::operator ::GlobalNamespace::IFileStorage*() noexcept {
+  return static_cast<::GlobalNamespace::IFileStorage*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IFileStorage"
+constexpr ::GlobalNamespace::IFileStorage* GlobalNamespace::NoFileStorage::i___GlobalNamespace__IFileStorage() noexcept {
+  return static_cast<::GlobalNamespace::IFileStorage*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoFileStorage::NoFileStorage() {}

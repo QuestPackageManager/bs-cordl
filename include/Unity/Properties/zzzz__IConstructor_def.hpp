@@ -13,29 +13,24 @@ class IConstructor;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Properties::IConstructor);
-// Type: Unity.Properties::IConstructor
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Properties {
 // Is value type: false
-// CS Name: ::Unity.Properties::IConstructor*
+// CS Name: Unity.Properties.IConstructor
 class CORDL_TYPE IConstructor {
 public:
   // Declarations
   __declspec(property(get = get_InstantiationKind)) ::Unity::Properties::InstantiationKind InstantiationKind;
 
-  /// @brief Method get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_InstantiationKind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Unity::Properties::InstantiationKind get_InstantiationKind();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IConstructor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IConstructor(IConstructor&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IConstructor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IConstructor(IConstructor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

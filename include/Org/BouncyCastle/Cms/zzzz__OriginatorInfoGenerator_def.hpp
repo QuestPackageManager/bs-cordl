@@ -23,11 +23,10 @@ class OriginatorInfoGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
-// Type: Org.BouncyCastle.Cms::OriginatorInfoGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::OriginatorInfoGenerator*
+// CS Name: Org.BouncyCastle.Cms.OriginatorInfoGenerator
 class CORDL_TYPE OriginatorInfoGenerator : public ::System::Object {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
   /// @brief Field origCrls, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_origCrls, put = __cordl_internal_set_origCrls)) ::System::Collections::IList* origCrls;
 
-  /// @brief Method Generate, addr 0x2646ac8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x2679db4, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
@@ -46,25 +45,25 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_origCerts() const;
+
   constexpr ::System::Collections::IList*& __cordl_internal_get_origCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCerts() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_origCrls() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_origCrls();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_origCrls() const;
 
   constexpr void __cordl_internal_set_origCerts(::System::Collections::IList* value);
 
   constexpr void __cordl_internal_set_origCrls(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x264693c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2679c28, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor, addr 0x2646a4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2679d38, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor, addr 0x2646a7c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2679d68, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
 protected:
@@ -81,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OriginatorInfoGenerator(OriginatorInfoGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 680 };
+
   /// @brief Field origCerts, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___origCerts;
 
   /// @brief Field origCrls, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IList* ___origCrls;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 680 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::OriginatorInfoGenerator, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::OriginatorInfoGenerator, ___origCerts) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::OriginatorInfoGenerator, ___origCrls) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::OriginatorInfoGenerator, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);

@@ -6,6 +6,7 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
@@ -20,9 +21,6 @@
 #include "System/Net/zzzz__WebReadStream_def.hpp"
 #include "System/Net/zzzz__WebRequestStream_def.hpp"
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
@@ -31,67 +29,67 @@
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAsync_d__40.MoveNext
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAsync_d__40.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAsync_d__40::*)()>(
-    &::System::Net::__WebResponseStream___ReadAsync_d__40::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAsync_d__40::*)()>(
+    &::System::Net::WebResponseStream__ReadAsync_d__40::MoveNext)> {
   constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x43844c4;
+  constexpr static std::size_t addrs = 0x43e57d8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAsync_d__40>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAsync_d__40>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAsync_d__40.SetStateMachine
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAsync_d__40.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAsync_d__40::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__WebResponseStream___ReadAsync_d__40::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAsync_d__40::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebResponseStream__ReadAsync_d__40::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4384e1c;
+  constexpr static std::size_t addrs = 0x43e6130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::Net::__WebResponseStream___ReadAsync_d__40::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::__WebResponseStream___ReadAsync_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Net::__WebResponseStream___ReadAsync_d__40::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAsync_d__40>::get(),
+inline void System::Net::WebResponseStream__ReadAsync_d__40::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAsync_d__40>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::__WebResponseStream___ReadAsync_d__40::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Net::WebResponseStream__ReadAsync_d__40::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAsync_d__40>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::Net::WebResponseStream__ReadAsync_d__40::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::WebResponseStream__ReadAsync_d__40::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "offset", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "offset", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "_nbytes_5__3", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_throwMe_5__4", ty: "::System::Exception*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__WebResponseStream___ReadAsync_d__40::__WebResponseStream___ReadAsync_d__40(
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_nbytes_5__3", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_throwMe_5__4", ty: "::System::Exception*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Net::WebResponseStream__ReadAsync_d__40::WebResponseStream__ReadAsync_d__40(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::System::Threading::CancellationToken cancellationToken,
     ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::WebResponseStream* __4__this, ::System::Net::WebCompletionSource* _completion_5__2, int32_t _nbytes_5__3,
-    ::System::Exception* _throwMe_5__4, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Object*> __u__1,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__2) noexcept {
+    ::System::Exception* _throwMe_5__4, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->cancellationToken = cancellationToken;
@@ -106,201 +104,196 @@ constexpr ::System::Net::__WebResponseStream___ReadAsync_d__40::__WebResponseStr
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__WebResponseStream___ReadAsync_d__40::__WebResponseStream___ReadAsync_d__40() {}
-//  Writing Method size for method: ::System::Net::__WebResponseStream____c__DisplayClass41_0._ctor
+constexpr ::System::Net::WebResponseStream__ReadAsync_d__40::WebResponseStream__ReadAsync_d__40() {}
+//  Writing Method size for method: ::System::Net::WebResponseStream___c__DisplayClass41_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream____c__DisplayClass41_0::*)()>(
-    &::System::Net::__WebResponseStream____c__DisplayClass41_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream___c__DisplayClass41_0::*)()>(
+    &::System::Net::WebResponseStream___c__DisplayClass41_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4383160;
+  constexpr static std::size_t addrs = 0x43e4474;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream____c__DisplayClass41_0._ProcessRead_b__0
+//  Writing Method size for method: ::System::Net::WebResponseStream___c__DisplayClass41_0._ProcessRead_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
-    ::System::Net::__WebResponseStream____c__DisplayClass41_0::*)(::System::Threading::CancellationToken)>(&::System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__0)> {
+    ::System::Net::WebResponseStream___c__DisplayClass41_0::*)(::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__0)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4384e98;
+  constexpr static std::size_t addrs = 0x43e61ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(), "<ProcessRead>b__0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(), "<ProcessRead>b__0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream____c__DisplayClass41_0._ProcessRead_b__1
+//  Writing Method size for method: ::System::Net::WebResponseStream___c__DisplayClass41_0._ProcessRead_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream____c__DisplayClass41_0::*)()>(
-    &::System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream___c__DisplayClass41_0::*)()>(
+    &::System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__1)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4384ed4;
+  constexpr static std::size_t addrs = 0x43e61e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(), "<ProcessRead>b__1",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
+                                                                               "<ProcessRead>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream____c__DisplayClass41_0._ProcessRead_b__2
+//  Writing Method size for method: ::System::Net::WebResponseStream___c__DisplayClass41_0._ProcessRead_b__2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::__WebResponseStream____c__DisplayClass41_0::*)()>(
-    &::System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream___c__DisplayClass41_0::*)()>(
+    &::System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4384f10;
+  constexpr static std::size_t addrs = 0x43e6224;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(), "<ProcessRead>b__2",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
+                                                                               "<ProcessRead>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Net::WebResponseStream*& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get___4__this() {
+constexpr ::System::Net::WebResponseStream*& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponseStream*> const& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get___4__this() const {
+constexpr ::System::Net::WebResponseStream* const& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_set___4__this(::System::Net::WebResponseStream* value) {
+constexpr void System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_set___4__this(::System::Net::WebResponseStream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_buffer() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_buffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_buffer() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_buffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-constexpr void System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_offset() {
+constexpr int32_t& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr int32_t const& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_offset() const {
+constexpr int32_t const& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr void System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_set_offset(int32_t value) {
+constexpr void System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_set_offset(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
-constexpr int32_t& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_size() {
+constexpr int32_t& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr int32_t const& System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_get_size() const {
+constexpr int32_t const& System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_get_size() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr void System::Net::__WebResponseStream____c__DisplayClass41_0::__cordl_internal_set_size(int32_t value) {
+constexpr void System::Net::WebResponseStream___c__DisplayClass41_0::__cordl_internal_set_size(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
-inline ::System::Net::__WebResponseStream____c__DisplayClass41_0* System::Net::__WebResponseStream____c__DisplayClass41_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__WebResponseStream____c__DisplayClass41_0*>());
-}
-inline void System::Net::__WebResponseStream____c__DisplayClass41_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(),
+inline void System::Net::WebResponseStream___c__DisplayClass41_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__0(::System::Threading::CancellationToken ct) {
+inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__0(::System::Threading::CancellationToken ct) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(), "<ProcessRead>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(), "<ProcessRead>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*, false>(this, ___internal_method, ct);
 }
-inline void System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(),
+inline void System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
                                                                              "<ProcessRead>b__1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Net::__WebResponseStream____c__DisplayClass41_0::_ProcessRead_b__2() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream____c__DisplayClass41_0*>::get(),
+inline bool System::Net::WebResponseStream___c__DisplayClass41_0::_ProcessRead_b__2() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream___c__DisplayClass41_0*>::get(),
                                                                              "<ProcessRead>b__2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline ::System::Net::WebResponseStream___c__DisplayClass41_0* System::Net::WebResponseStream___c__DisplayClass41_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebResponseStream___c__DisplayClass41_0*>());
+}
 // Ctor Parameters []
-constexpr ::System::Net::__WebResponseStream____c__DisplayClass41_0::__WebResponseStream____c__DisplayClass41_0() {}
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47.MoveNext
+constexpr ::System::Net::WebResponseStream___c__DisplayClass41_0::WebResponseStream___c__DisplayClass41_0() {}
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAllAsyncInner_d__47.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::*)()>(
-    &::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::*)()>(
+    &::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::MoveNext)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x4384f30;
+  constexpr static std::size_t addrs = 0x43e6244;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsyncInner_d__47>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47.SetStateMachine
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAllAsyncInner_d__47.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::SetStateMachine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4385500;
+  constexpr static std::size_t addrs = 0x43e6814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsyncInner_d__47>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Net::WebResponseStream__ReadAllAsyncInner_d__47::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsyncInner_d__47>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Net::WebResponseStream__ReadAllAsyncInner_d__47::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsyncInner_d__47>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::Net::WebResponseStream__ReadAllAsyncInner_d__47::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::WebResponseStream__ReadAllAsyncInner_d__47::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty:
-// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "_maximumSize_5__2", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ms_5__3", ty: "::System::IO::MemoryStream*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::__WebResponseStream___ReadAllAsyncInner_d__47(
+// "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "_maximumSize_5__2", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ms_5__3", ty: "::System::IO::MemoryStream*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "_buffer_5__4", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::WebResponseStream__ReadAllAsyncInner_d__47(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder, ::System::Threading::CancellationToken cancellationToken,
     ::System::Net::WebResponseStream* __4__this, int64_t _maximumSize_5__2, ::System::IO::MemoryStream* _ms_5__3, ::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer_5__4,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->cancellationToken = cancellationToken;
@@ -311,68 +304,68 @@ constexpr ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::__WebRes
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__WebResponseStream___ReadAllAsyncInner_d__47::__WebResponseStream___ReadAllAsyncInner_d__47() {}
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAllAsync_d__48.MoveNext
+constexpr ::System::Net::WebResponseStream__ReadAllAsyncInner_d__47::WebResponseStream__ReadAllAsyncInner_d__47() {}
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAllAsync_d__48.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAllAsync_d__48::*)()>(
-    &::System::Net::__WebResponseStream___ReadAllAsync_d__48::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAllAsync_d__48::*)()>(
+    &::System::Net::WebResponseStream__ReadAllAsync_d__48::MoveNext)> {
   constexpr static std::size_t size = 0x9ac;
-  constexpr static std::size_t addrs = 0x438557c;
+  constexpr static std::size_t addrs = 0x43e6890;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsync_d__48>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsync_d__48>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream___ReadAllAsync_d__48.SetStateMachine
+//  Writing Method size for method: ::System::Net::WebResponseStream__ReadAllAsync_d__48.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___ReadAllAsync_d__48::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__WebResponseStream___ReadAllAsync_d__48::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__ReadAllAsync_d__48::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebResponseStream__ReadAllAsync_d__48::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4385f28;
+  constexpr static std::size_t addrs = 0x43e723c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsync_d__48>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsync_d__48>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::Net::__WebResponseStream___ReadAllAsync_d__48::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::__WebResponseStream___ReadAllAsync_d__48::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Net::__WebResponseStream___ReadAllAsync_d__48::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsync_d__48>::get(),
+inline void System::Net::WebResponseStream__ReadAllAsync_d__48::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsync_d__48>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::__WebResponseStream___ReadAllAsync_d__48::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Net::WebResponseStream__ReadAllAsync_d__48::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___ReadAllAsync_d__48>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__ReadAllAsync_d__48>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::Net::WebResponseStream__ReadAllAsync_d__48::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::WebResponseStream__ReadAllAsync_d__48::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "resending", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "_timeoutCts_5__3", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_timeoutTask_5__4", ty: "::System::Threading::Tasks::Task*",
-// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__WebResponseStream___ReadAllAsync_d__48::__WebResponseStream___ReadAllAsync_d__48(
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "resending", ty: "bool",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_completion_5__2", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeoutCts_5__3",
+// ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeoutTask_5__4", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::System::Net::WebResponseStream__ReadAllAsync_d__48::WebResponseStream__ReadAllAsync_d__48(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this, ::System::Threading::CancellationToken cancellationToken,
     bool resending, ::System::Net::WebCompletionSource* _completion_5__2, ::System::Threading::CancellationTokenSource* _timeoutCts_5__3, ::System::Threading::Tasks::Task* _timeoutTask_5__4,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2) noexcept {
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1,
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -385,65 +378,65 @@ constexpr ::System::Net::__WebResponseStream___ReadAllAsync_d__48::__WebResponse
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__WebResponseStream___ReadAllAsync_d__48::__WebResponseStream___ReadAllAsync_d__48() {}
-//  Writing Method size for method: ::System::Net::__WebResponseStream___InitReadAsync_d__52.MoveNext
+constexpr ::System::Net::WebResponseStream__ReadAllAsync_d__48::WebResponseStream__ReadAllAsync_d__48() {}
+//  Writing Method size for method: ::System::Net::WebResponseStream__InitReadAsync_d__52.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___InitReadAsync_d__52::*)()>(
-    &::System::Net::__WebResponseStream___InitReadAsync_d__52::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__InitReadAsync_d__52::*)()>(
+    &::System::Net::WebResponseStream__InitReadAsync_d__52::MoveNext)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x4385f90;
+  constexpr static std::size_t addrs = 0x43e72a4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___InitReadAsync_d__52>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__InitReadAsync_d__52>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__WebResponseStream___InitReadAsync_d__52.SetStateMachine
+//  Writing Method size for method: ::System::Net::WebResponseStream__InitReadAsync_d__52.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__WebResponseStream___InitReadAsync_d__52::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__WebResponseStream___InitReadAsync_d__52::SetStateMachine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream__InitReadAsync_d__52::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebResponseStream__InitReadAsync_d__52::SetStateMachine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x438667c;
+  constexpr static std::size_t addrs = 0x43e7990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___InitReadAsync_d__52>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__InitReadAsync_d__52>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr System::Net::__WebResponseStream___InitReadAsync_d__52::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::__WebResponseStream___InitReadAsync_d__52::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-inline void System::Net::__WebResponseStream___InitReadAsync_d__52::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___InitReadAsync_d__52>::get(),
+inline void System::Net::WebResponseStream__InitReadAsync_d__52::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__InitReadAsync_d__52>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Net::__WebResponseStream___InitReadAsync_d__52::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void System::Net::WebResponseStream__InitReadAsync_d__52::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__WebResponseStream___InitReadAsync_d__52>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream__InitReadAsync_d__52>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr System::Net::WebResponseStream__InitReadAsync_d__52::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::WebResponseStream__InitReadAsync_d__52::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::System::Net::WebResponseStream*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_buffer_5__2", ty:
-// "::System::Net::BufferOffsetSize*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_state_5__3", ty: "::System::Net::ReadState", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "_position_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__WebResponseStream___InitReadAsync_d__52::__WebResponseStream___InitReadAsync_d__52(
+// def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "_buffer_5__2", ty:
+// "::System::Net::BufferOffsetSize*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_state_5__3", ty: "::System::Net::ReadState", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_position_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Net::WebResponseStream__InitReadAsync_d__52::WebResponseStream__InitReadAsync_d__52(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebResponseStream* __4__this, ::System::Threading::CancellationToken cancellationToken,
     ::System::Net::BufferOffsetSize* _buffer_5__2, ::System::Net::ReadState _state_5__3, int32_t _position_5__4,
-    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
+    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -454,14 +447,14 @@ constexpr ::System::Net::__WebResponseStream___InitReadAsync_d__52::__WebRespons
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__WebResponseStream___InitReadAsync_d__52::__WebResponseStream___InitReadAsync_d__52() {}
+constexpr ::System::Net::WebResponseStream__InitReadAsync_d__52::WebResponseStream__InitReadAsync_d__52() {}
 //  Writing Method size for method: ::System::Net::WebResponseStream.get_RequestStream
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebRequestStream* (::System::Net::WebResponseStream::*)()>(
     &::System::Net::WebResponseStream::get_RequestStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d34;
+  constexpr static std::size_t addrs = 0x43e4048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_RequestStream",
@@ -475,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::WebResponseStream::*)()>(
     &::System::Net::WebResponseStream::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d3c;
+  constexpr static std::size_t addrs = 0x43e4050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_Headers",
@@ -489,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::System::Net::WebHeaderCollection*)>(
     &::System::Net::WebResponseStream::set_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d44;
+  constexpr static std::size_t addrs = 0x43e4058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -504,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpStatusCode (::System::Net::WebResponseStream::*)()>(
     &::System::Net::WebResponseStream::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d4c;
+  constexpr static std::size_t addrs = 0x43e4060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_StatusCode",
@@ -518,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::System::Net::HttpStatusCode)>(
     &::System::Net::WebResponseStream::set_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d54;
+  constexpr static std::size_t addrs = 0x43e4068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -532,7 +525,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_StatusDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d5c;
+  constexpr static std::size_t addrs = 0x43e4070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(),
@@ -545,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::StringW)>(&::System::Net::WebResponseStream::set_StatusDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d64;
+  constexpr static std::size_t addrs = 0x43e4078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d6c;
+  constexpr static std::size_t addrs = 0x43e4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_Version",
@@ -572,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::System::Version*)>(&::System::Net::WebResponseStream::set_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d74;
+  constexpr static std::size_t addrs = 0x43e4088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_KeepAlive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d7c;
+  constexpr static std::size_t addrs = 0x43e4090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_KeepAlive",
@@ -599,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(bool)>(&::System::Net::WebResponseStream::set_KeepAlive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4382d84;
+  constexpr static std::size_t addrs = 0x43e4098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::System::Net::WebRequestStream*)>(
     &::System::Net::WebResponseStream::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x437e330;
+  constexpr static std::size_t addrs = 0x43df644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -628,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d90;
+  constexpr static std::size_t addrs = 0x43e40a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -642,7 +635,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382d98;
+  constexpr static std::size_t addrs = 0x43e40ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -656,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_ChunkedRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4382da0;
+  constexpr static std::size_t addrs = 0x43e40b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_ChunkedRead",
@@ -669,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(bool)>(&::System::Net::WebResponseStream::set_ChunkedRead)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4382da8;
+  constexpr static std::size_t addrs = 0x43e40bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -684,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::WebResponseStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream::ReadAsync)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4382db4;
+  constexpr static std::size_t addrs = 0x43e40c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -699,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::WebResponseStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream::ProcessRead)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4382ed4;
+  constexpr static std::size_t addrs = 0x43e41e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -713,10 +706,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::WebResponseStream.TryReadFromBufferedContent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(
     &::System::Net::WebResponseStream::TryReadFromBufferedContent)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4383168;
+  constexpr static std::size_t addrs = 0x43e447c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -730,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebResponseStream::*)()>(&::System::Net::WebResponseStream::get_ExpectContent)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4383234;
+  constexpr static std::size_t addrs = 0x43e4548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "get_ExpectContent",
@@ -744,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::System::Net::BufferOffsetSize*)>(
     &::System::Net::WebResponseStream::Initialize)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x43832c8;
+  constexpr static std::size_t addrs = 0x43e45dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -759,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* (
     ::System::Net::WebResponseStream::*)(::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream::ReadAllAsyncInner)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x43837d4;
+  constexpr static std::size_t addrs = 0x43e4ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::System::Net::WebResponseStream::*)(bool, ::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream::ReadAllAsync)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43838c4;
+  constexpr static std::size_t addrs = 0x43e4bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -790,7 +783,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::WebResponseStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::WebResponseStream::WriteAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x43839a8;
+  constexpr static std::size_t addrs = 0x43e4cbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -802,9 +795,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::WebResponseStream.Close_internal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(ByRef<bool>)>(&::System::Net::WebResponseStream::Close_internal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebResponseStream::*)(::ByRef<bool>)>(&::System::Net::WebResponseStream::Close_internal)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4383a44;
+  constexpr static std::size_t addrs = 0x43e4d58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -819,7 +812,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (
     ::System::Net::WebResponseStream::*)(::System::Net::WebExceptionStatus, ::System::Exception*, ::StringW)>(&::System::Net::WebResponseStream::GetReadException)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x4383acc;
+  constexpr static std::size_t addrs = 0x43e4de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -836,7 +829,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::WebResponseStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::WebResponseStream::InitReadAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x437e3ac;
+  constexpr static std::size_t addrs = 0x43df6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -849,16 +842,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::System::Net::WebResponseStream::*)(::System::Net::BufferOffsetSize*, ByRef<int32_t>, ByRef<::System::Net::ReadState>)>(&::System::Net::WebResponseStream::GetResponse)> {
+    static_cast<bool (::System::Net::WebResponseStream::*)(::System::Net::BufferOffsetSize*, ::ByRef<int32_t>, ::ByRef<::System::Net::ReadState>)>(&::System::Net::WebResponseStream::GetResponse)> {
   constexpr static std::size_t size = 0x768;
-  constexpr static std::size_t addrs = 0x4383d5c;
+  constexpr static std::size_t addrs = 0x43e5070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "GetResponse", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::BufferOffsetSize*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::ReadState>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::ReadState>>::get() })));
     return ___internal_method;
   }
 };
@@ -866,7 +859,7 @@ constexpr ::System::Net::WebReadStream*& System::Net::WebResponseStream::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerStream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebReadStream*> const& System::Net::WebResponseStream::__cordl_internal_get_innerStream() const {
+constexpr ::System::Net::WebReadStream* const& System::Net::WebResponseStream::__cordl_internal_get_innerStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___innerStream;
 }
@@ -902,7 +895,7 @@ constexpr ::System::Net::WebCompletionSource*& System::Net::WebResponseStream::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pendingRead;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& System::Net::WebResponseStream::__cordl_internal_get_pendingRead() const {
+constexpr ::System::Net::WebCompletionSource* const& System::Net::WebResponseStream::__cordl_internal_get_pendingRead() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pendingRead;
 }
@@ -914,7 +907,7 @@ constexpr ::System::Object*& System::Net::WebResponseStream::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Net::WebResponseStream::__cordl_internal_get_locker() const {
+constexpr ::System::Object* const& System::Net::WebResponseStream::__cordl_internal_get_locker() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locker;
 }
@@ -950,7 +943,7 @@ constexpr ::System::Net::WebRequestStream*& System::Net::WebResponseStream::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestStream_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& System::Net::WebResponseStream::__cordl_internal_get__RequestStream_k__BackingField() const {
+constexpr ::System::Net::WebRequestStream* const& System::Net::WebResponseStream::__cordl_internal_get__RequestStream_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____RequestStream_k__BackingField;
 }
@@ -962,7 +955,7 @@ constexpr ::System::Net::WebHeaderCollection*& System::Net::WebResponseStream::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Headers_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::WebResponseStream::__cordl_internal_get__Headers_k__BackingField() const {
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::WebResponseStream::__cordl_internal_get__Headers_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Headers_k__BackingField;
 }
@@ -998,7 +991,7 @@ constexpr ::System::Version*& System::Net::WebResponseStream::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Version_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& System::Net::WebResponseStream::__cordl_internal_get__Version_k__BackingField() const {
+constexpr ::System::Version* const& System::Net::WebResponseStream::__cordl_internal_get__Version_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Version_k__BackingField;
 }
@@ -1090,9 +1083,6 @@ inline void System::Net::WebResponseStream::set_KeepAlive(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Net::WebResponseStream* System::Net::WebResponseStream::New_ctor(::System::Net::WebRequestStream* request) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebResponseStream*>(request));
-}
 inline void System::Net::WebResponseStream::_ctor(::System::Net::WebRequestStream* request) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -1135,7 +1125,7 @@ inline ::System::Threading::Tasks::Task_1<int32_t>* System::Net::WebResponseStre
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<int32_t>*, false>(this, ___internal_method, buffer, offset, size, cancellationToken);
 }
-inline bool System::Net::WebResponseStream::TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result) {
+inline bool System::Net::WebResponseStream::TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::ByRef<int32_t> result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, buffer, offset, count, result);
@@ -1170,7 +1160,7 @@ inline ::System::Threading::Tasks::Task* System::Net::WebResponseStream::WriteAs
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, buffer, offset, count, cancellationToken);
 }
-inline void System::Net::WebResponseStream::Close_internal(ByRef<bool> disposed) {
+inline void System::Net::WebResponseStream::Close_internal(::ByRef<bool> disposed) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposed);
@@ -1189,13 +1179,16 @@ inline ::System::Threading::Tasks::Task* System::Net::WebResponseStream::InitRea
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
 }
-inline bool System::Net::WebResponseStream::GetResponse(::System::Net::BufferOffsetSize* buffer, ByRef<int32_t> pos, ByRef<::System::Net::ReadState> state) {
+inline bool System::Net::WebResponseStream::GetResponse(::System::Net::BufferOffsetSize* buffer, ::ByRef<int32_t> pos, ::ByRef<::System::Net::ReadState> state) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebResponseStream*>::get(), "GetResponse", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::BufferOffsetSize*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Net::ReadState>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::ReadState>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, buffer, pos, state);
+}
+inline ::System::Net::WebResponseStream* System::Net::WebResponseStream::New_ctor(::System::Net::WebRequestStream* request) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebResponseStream*>(request));
 }
 // Ctor Parameters []
 constexpr ::System::Net::WebResponseStream::WebResponseStream() {}

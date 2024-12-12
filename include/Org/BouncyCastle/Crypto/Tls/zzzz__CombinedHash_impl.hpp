@@ -1,5 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CombinedHash.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_impl.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CombinedHash_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
@@ -10,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23b2c90;
+  constexpr static std::size_t addrs = 0x23e5f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>::get(), ".ctor",
@@ -24,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::Org::BouncyCastle::Crypto::Tls::CombinedHash*)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23b2d0c;
+  constexpr static std::size_t addrs = 0x23e5ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b2da8;
+  constexpr static std::size_t addrs = 0x23e6094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::NotifyPrfDetermined)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23b2db0;
+  constexpr static std::size_t addrs = 0x23e609c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::TrackHashAlgorithm)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23b2db4;
+  constexpr static std::size_t addrs = 0x23e60a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::SealHashAlgorithms)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23b2e00;
+  constexpr static std::size_t addrs = 0x23e60ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::StopTracking)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23b2e04;
+  constexpr static std::size_t addrs = 0x23e60f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::ForkPrfHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23b2e5c;
+  constexpr static std::size_t addrs = 0x23e6148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetFinalHash)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23b2eb4;
+  constexpr static std::size_t addrs = 0x23e61a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23b2f00;
+  constexpr static std::size_t addrs = 0x23e61ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetByteLength)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x23b302c;
+  constexpr static std::size_t addrs = 0x23e6318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::GetDigestSize)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x23b3174;
+  constexpr static std::size_t addrs = 0x23e6460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::Update)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x23b3288;
+  constexpr static std::size_t addrs = 0x23e6574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::BlockUpdate)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x23b33a4;
+  constexpr static std::size_t addrs = 0x23e6690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::CombinedHash::DoFinal)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x23b34e0;
+  constexpr static std::size_t addrs = 0x23e67cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::Reset)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23b36c8;
+  constexpr static std::size_t addrs = 0x23e69b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::CombinedHash::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::CombinedHash::Ssl3Complete)> {
   constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x23b37d0;
+  constexpr static std::size_t addrs = 0x23e6abc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -272,27 +274,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
-constexpr Org::BouncyCastle::Crypto::Tls::CombinedHash::operator ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::i___Org__BouncyCastle__Crypto__Tls__TlsHandshakeHash() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
-constexpr Org::BouncyCastle::Crypto::Tls::CombinedHash::operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
-constexpr ::Org::BouncyCastle::Crypto::IDigest* Org::BouncyCastle::Crypto::Tls::CombinedHash::i___Org__BouncyCastle__Crypto__IDigest() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mContext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mContext() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mContext;
 }
@@ -304,7 +290,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Tls:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMd5;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mMd5() const {
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mMd5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mMd5;
 }
@@ -316,7 +302,7 @@ constexpr ::Org::BouncyCastle::Crypto::IDigest*& Org::BouncyCastle::Crypto::Tls:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSha1;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mSha1() const {
+constexpr ::Org::BouncyCastle::Crypto::IDigest* const& Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_get_mSha1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSha1;
 }
@@ -324,16 +310,10 @@ constexpr void Org::BouncyCastle::Crypto::Tls::CombinedHash::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSha1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>());
-}
 inline void Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>(t));
 }
 inline void Org::BouncyCastle::Crypto::Tls::CombinedHash::_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -416,6 +396,28 @@ inline void Org::BouncyCastle::Crypto::Tls::CombinedHash::Ssl3Complete(::Org::Bo
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, d, ipad, opad, padLength);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>());
+}
+inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::CombinedHash*>(t));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
+constexpr Org::BouncyCastle::Crypto::Tls::CombinedHash::operator ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* Org::BouncyCastle::Crypto::Tls::CombinedHash::i___Org__BouncyCastle__Crypto__Tls__TlsHandshakeHash() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr Org::BouncyCastle::Crypto::Tls::CombinedHash::operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr ::Org::BouncyCastle::Crypto::IDigest* Org::BouncyCastle::Crypto::Tls::CombinedHash::i___Org__BouncyCastle__Crypto__IDigest() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::IDigest*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::CombinedHash::CombinedHash() {}

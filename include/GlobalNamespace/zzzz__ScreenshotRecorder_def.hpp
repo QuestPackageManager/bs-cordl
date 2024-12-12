@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -11,7 +10,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenshotRecorder)
 namespace GlobalNamespace {
-struct __ScreenshotRecorder__RecordingType;
+struct ScreenshotRecorder_RecordingType;
 }
 namespace UnityEngine {
 class Camera;
@@ -24,26 +23,25 @@ class Texture2D;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __ScreenshotRecorder__RecordingType;
+struct ScreenshotRecorder_RecordingType;
 }
 namespace GlobalNamespace {
 class ScreenshotRecorder;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__ScreenshotRecorder__RecordingType);
+MARK_VAL_T(::GlobalNamespace::ScreenshotRecorder_RecordingType);
 MARK_REF_PTR_T(::GlobalNamespace::ScreenshotRecorder);
-// Type: ::RecordingType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::ScreenshotRecorder::RecordingType
-struct CORDL_TYPE __ScreenshotRecorder__RecordingType {
+// CS Name: ScreenshotRecorder/RecordingType
+struct CORDL_TYPE ScreenshotRecorder_RecordingType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ScreenshotRecorder__RecordingType_Unwrapped
-  enum struct ____ScreenshotRecorder__RecordingType_Unwrapped : int32_t {
+  /// @brief Nested struct __ScreenshotRecorder_RecordingType_Unwrapped
+  enum struct __ScreenshotRecorder_RecordingType_Unwrapped : int32_t {
     __E_Sequence = static_cast<int32_t>(0x0),
     __E_Stereo360Sequence = static_cast<int32_t>(0x1),
     __E_Mono360Sequence = static_cast<int32_t>(0x2),
@@ -53,8 +51,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ScreenshotRecorder__RecordingType_Unwrapped() const noexcept {
-    return static_cast<____ScreenshotRecorder__RecordingType_Unwrapped>(this->value__);
+  constexpr operator __ScreenshotRecorder_RecordingType_Unwrapped() const noexcept {
+    return static_cast<__ScreenshotRecorder_RecordingType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -64,55 +62,54 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ScreenshotRecorder__RecordingType();
+  constexpr ScreenshotRecorder_RecordingType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScreenshotRecorder__RecordingType(int32_t value__) noexcept;
+  constexpr ScreenshotRecorder_RecordingType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field F10ForScreenshot value: I32(3)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const F10ForScreenshot;
 
-  /// @brief Field F10ForScreenshot value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const F10ForScreenshot;
+  /// @brief Field Interval value: I32(4)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const Interval;
 
-  /// @brief Field Interval value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const Interval;
+  /// @brief Field Mono360Sequence value: I32(2)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const Mono360Sequence;
 
-  /// @brief Field Mono360Sequence value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const Mono360Sequence;
+  /// @brief Field ScreenshotOnPause value: I32(5)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const ScreenshotOnPause;
 
-  /// @brief Field ScreenshotOnPause value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const ScreenshotOnPause;
+  /// @brief Field Sequence value: I32(0)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const Sequence;
 
-  /// @brief Field Sequence value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const Sequence;
-
-  /// @brief Field Stereo360Sequence value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ScreenshotRecorder__RecordingType const Stereo360Sequence;
+  /// @brief Field Stereo360Sequence value: I32(1)
+  static ::GlobalNamespace::ScreenshotRecorder_RecordingType const Stereo360Sequence;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16427 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScreenshotRecorder__RecordingType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder_RecordingType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ScreenshotRecorder__RecordingType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenshotRecorder_RecordingType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ScreenshotRecorder
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ScreenshotRecorder::RecordingType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ScreenshotRecorder*
+// CS Name: ScreenshotRecorder
 class CORDL_TYPE ScreenshotRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using RecordingType = ::GlobalNamespace::__ScreenshotRecorder__RecordingType;
+  using RecordingType = ::GlobalNamespace::ScreenshotRecorder_RecordingType;
 
   /// @brief Field _antiAlias, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__antiAlias, put = __cordl_internal_set__antiAlias)) int32_t _antiAlias;
@@ -160,7 +157,7 @@ public:
   __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) bool _paused;
 
   /// @brief Field _recordingType, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__recordingType, put = __cordl_internal_set__recordingType)) ::GlobalNamespace::__ScreenshotRecorder__RecordingType _recordingType;
+  __declspec(property(get = __cordl_internal_get__recordingType, put = __cordl_internal_set__recordingType)) ::GlobalNamespace::ScreenshotRecorder_RecordingType _recordingType;
 
   /// @brief Field _screenshotHeight, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get__screenshotHeight, put = __cordl_internal_set__screenshotHeight)) int32_t _screenshotHeight;
@@ -170,27 +167,27 @@ public:
 
   __declspec(property(get = get_directory, put = set_directory)) ::StringW directory;
 
-  /// @brief Method ConvertRenderTexture, addr 0x396f614, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ConvertRenderTexture, addr 0x39c4afc, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> ConvertRenderTexture(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method LateUpdate, addr 0x396f4b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x39c49a0, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ScreenshotRecorder* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x396f5fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x39c4ae4, size 0x18, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x396f3f4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39c48dc, size 0xc4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x396f280, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39c4768, size 0x174, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SaveCameraScreenshot, addr 0x396f578, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SaveCameraScreenshot, addr 0x39c4a60, size 0x84, virtual false, abstract: false, final false
   inline void SaveCameraScreenshot();
 
-  /// @brief Method SaveTextureScreenshot, addr 0x396f710, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SaveTextureScreenshot, addr 0x39c4bf8, size 0x140, virtual false, abstract: false, final false
   inline void SaveTextureScreenshot(::UnityEngine::Texture2D* tex);
 
   constexpr int32_t const& __cordl_internal_get__antiAlias() const;
@@ -253,9 +250,9 @@ public:
 
   constexpr bool& __cordl_internal_get__paused();
 
-  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType const& __cordl_internal_get__recordingType() const;
+  constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType const& __cordl_internal_get__recordingType() const;
 
-  constexpr ::GlobalNamespace::__ScreenshotRecorder__RecordingType& __cordl_internal_get__recordingType();
+  constexpr ::GlobalNamespace::ScreenshotRecorder_RecordingType& __cordl_internal_get__recordingType();
 
   constexpr int32_t const& __cordl_internal_get__screenshotHeight() const;
 
@@ -295,19 +292,19 @@ public:
 
   constexpr void __cordl_internal_set__paused(bool value);
 
-  constexpr void __cordl_internal_set__recordingType(::GlobalNamespace::__ScreenshotRecorder__RecordingType value);
+  constexpr void __cordl_internal_set__recordingType(::GlobalNamespace::ScreenshotRecorder_RecordingType value);
 
   constexpr void __cordl_internal_set__screenshotHeight(int32_t value);
 
   constexpr void __cordl_internal_set__screenshotWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x396f850, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c4d38, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_directory, addr 0x396f270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_directory, addr 0x39c4758, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_directory();
 
-  /// @brief Method set_directory, addr 0x396f278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_directory, addr 0x39c4760, size 0x8, virtual false, abstract: false, final false
   inline void set_directory(::StringW value);
 
 protected:
@@ -323,6 +320,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScreenshotRecorder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScreenshotRecorder(ScreenshotRecorder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16428 };
 
   /// @brief Field _directory, offset: 0x20, size: 0x8, def value: None
   ::StringW ____directory;
@@ -340,7 +340,7 @@ public:
   int32_t ____interval;
 
   /// @brief Field _recordingType, offset: 0x3c, size: 0x4, def value: None
-  ::GlobalNamespace::__ScreenshotRecorder__RecordingType ____recordingType;
+  ::GlobalNamespace::ScreenshotRecorder_RecordingType ____recordingType;
 
   /// @brief Field _pauseWithPButton, offset: 0x40, size: 0x1, def value: None
   bool ____pauseWithPButton;
@@ -378,14 +378,9 @@ public:
   /// @brief Field _cameraRenderTexture, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ____cameraRenderTexture;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16392 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenshotRecorder, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____directory) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____camera) == 0x28, "Offset mismatch!");
@@ -422,7 +417,9 @@ static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____equirectTextur
 
 static_assert(offsetof(::GlobalNamespace::ScreenshotRecorder, ____cameraRenderTexture) == 0x78, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScreenshotRecorder, 0x80>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScreenshotRecorder__RecordingType, "", "ScreenshotRecorder/RecordingType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenshotRecorder_RecordingType, "", "ScreenshotRecorder/RecordingType");
 NEED_NO_BOX(::GlobalNamespace::ScreenshotRecorder);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScreenshotRecorder*, "", "ScreenshotRecorder");

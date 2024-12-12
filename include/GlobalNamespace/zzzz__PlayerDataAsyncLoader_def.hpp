@@ -5,25 +5,20 @@
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerDataAsyncLoader)
 namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
+class AsyncInstaller_IInstallerRegistry;
 }
 namespace GlobalNamespace {
-struct __PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+struct PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -36,26 +31,25 @@ namespace GlobalNamespace {
 class PlayerDataAsyncLoader;
 }
 namespace GlobalNamespace {
-struct __PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2;
+struct PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerDataAsyncLoader);
-MARK_VAL_T(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2);
-// Type: ::<LoadResourcesBeforeInstallAsync>d__2
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PlayerDataAsyncLoader::<LoadResourcesBeforeInstallAsync>d__2
-struct CORDL_TYPE __PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2 {
+// CS Name: PlayerDataAsyncLoader/<LoadResourcesBeforeInstallAsync>d__2
+struct CORDL_TYPE PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e5c6c, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2718290, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e5f4c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2718570, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -63,15 +57,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2();
+  constexpr PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*", modifiers: "", def_value: None },
   // CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: None }]
-  constexpr __PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                           ::Zenject::DiContainer* container, ::UnityW<::GlobalNamespace::PlayerDataAsyncLoader> __4__this,
-                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
+  constexpr PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Zenject::DiContainer* container,
+                                                                        ::UnityW<::GlobalNamespace::PlayerDataAsyncLoader> __4__this,
+                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17793 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -88,49 +88,42 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17878 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, container) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, container) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PlayerDataAsyncLoader
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.AppFlow.Initialization.AsyncInstaller
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerDataAsyncLoader*
+// CS Name: PlayerDataAsyncLoader
 class CORDL_TYPE PlayerDataAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  using _LoadResourcesBeforeInstallAsync_d__2 = ::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2;
+  using _LoadResourcesBeforeInstallAsync_d__2 = ::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2;
 
   /// @brief Field _playerDataContent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataContent, put = __cordl_internal_set__playerDataContent)) ::StringW _playerDataContent;
 
-  /// @brief Method InstallBindings, addr 0x26e5bac, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x27181d0, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x26e5a58, size 0x80, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x271807c, size 0x80, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x26e5ad8, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x27180fc, size 0xd4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::PlayerDataAsyncLoader* New_ctor();
 
@@ -140,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataContent(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e5c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718288, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,20 +150,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerDataAsyncLoader(PlayerDataAsyncLoader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17794 };
+
   /// @brief Field _playerDataContent, offset: 0x28, size: 0x8, def value: None
   ::StringW ____playerDataContent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17879 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataAsyncLoader, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerDataAsyncLoader, ____playerDataContent) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataAsyncLoader, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerDataAsyncLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataAsyncLoader*, "", "PlayerDataAsyncLoader");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerDataAsyncLoader___LoadResourcesBeforeInstallAsync_d__2, "", "PlayerDataAsyncLoader/<LoadResourcesBeforeInstallAsync>d__2");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataAsyncLoader__LoadResourcesBeforeInstallAsync_d__2, "", "PlayerDataAsyncLoader/<LoadResourcesBeforeInstallAsync>d__2");

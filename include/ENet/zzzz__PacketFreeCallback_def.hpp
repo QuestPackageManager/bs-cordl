@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(PacketFreeCallback)
 namespace ENet {
 struct Packet;
@@ -27,26 +26,25 @@ class PacketFreeCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::ENet::PacketFreeCallback);
-// Type: ENet::PacketFreeCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace ENet {
 // Is value type: false
-// CS Name: ::ENet::PacketFreeCallback*
+// CS Name: ENet.PacketFreeCallback
 class CORDL_TYPE PacketFreeCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a4c698, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3aa3308, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet packet, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a4c71c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3aa338c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a4c684, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3aa32f4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ENet::Packet packet);
 
   static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a4c5f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3aa3268, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -64,7 +62,7 @@ public:
   PacketFreeCallback(PacketFreeCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

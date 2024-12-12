@@ -12,11 +12,10 @@ struct StyleKeyword;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleKeyword);
-// Type: UnityEngine.UIElements::StyleKeyword
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleKeyword
+// CS Name: UnityEngine.UIElements.StyleKeyword
 struct CORDL_TYPE StyleKeyword {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StyleKeyword(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Auto value: static_cast<int32_t>(0x2)
+  /// @brief Field Auto value: I32(2)
   static ::UnityEngine::UIElements::StyleKeyword const Auto;
 
-  /// @brief Field Initial value: static_cast<int32_t>(0x4)
+  /// @brief Field Initial value: I32(4)
   static ::UnityEngine::UIElements::StyleKeyword const Initial;
 
-  /// @brief Field None value: static_cast<int32_t>(0x3)
+  /// @brief Field None value: I32(3)
   static ::UnityEngine::UIElements::StyleKeyword const None;
 
-  /// @brief Field Null value: static_cast<int32_t>(0x1)
+  /// @brief Field Null value: I32(1)
   static ::UnityEngine::UIElements::StyleKeyword const Null;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  /// @brief Field Undefined value: I32(0)
   static ::UnityEngine::UIElements::StyleKeyword const Undefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6107 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleKeyword, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleKeyword, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleKeyword, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleKeyword, "UnityEngine.UIElements", "StyleKeyword");

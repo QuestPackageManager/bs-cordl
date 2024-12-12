@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfoNetSerializable* (*)()>(&::GlobalNamespace::NoteCutInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26ebb90;
+  constexpr static std::size_t addrs = 0x271e22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Obtain",
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NoteCutInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x26ebbf4;
+  constexpr static std::size_t addrs = 0x271e290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NoteCutInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x26ebdd4;
+  constexpr static std::size_t addrs = 0x271e470;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)()>(&::GlobalNamespace::NoteCutInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26ec020;
+  constexpr static std::size_t addrs = 0x271e6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), ".ctor",
@@ -77,16 +77,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfoNetSerializable* (
-    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
+    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(::ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
                                                       ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x26ec080;
+  constexpr static std::size_t addrs = 0x271e71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
@@ -97,11 +97,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfoNetSerializable* (
-    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::GlobalNamespace::__NoteData__GameplayType,
+    ::GlobalNamespace::NoteCutInfoNetSerializable::*)(float_t, bool, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::GlobalNamespace::NoteData_GameplayType,
                                                       ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteLineLayer, int32_t, float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                       ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x26ec15c;
+  constexpr static std::size_t addrs = 0x271e7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__GameplayType>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -215,15 +215,15 @@ constexpr void GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noteRotation = value;
 }
-constexpr ::GlobalNamespace::__NoteData__GameplayType& GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_get_gameplayType() {
+constexpr ::GlobalNamespace::NoteData_GameplayType& GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_get_gameplayType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayType;
 }
-constexpr ::GlobalNamespace::__NoteData__GameplayType const& GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_get_gameplayType() const {
+constexpr ::GlobalNamespace::NoteData_GameplayType const& GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_get_gameplayType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayType;
 }
-constexpr void GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value) {
+constexpr void GlobalNamespace::NoteCutInfoNetSerializable::__cordl_internal_set_gameplayType(::GlobalNamespace::NoteData_GameplayType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gameplayType = value;
 }
@@ -314,21 +314,18 @@ inline void GlobalNamespace::NoteCutInfoNetSerializable::Serialize(::LiteNetLib:
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, writer);
 }
-inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutInfoNetSerializable*>());
-}
 inline void GlobalNamespace::NoteCutInfoNetSerializable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
+inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::Init(::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteData* noteData,
                                                                                                         ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation,
                                                                                                         ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::NoteCutInfo>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::NoteCutInfo>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
@@ -336,7 +333,7 @@ inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutIn
 }
 inline ::GlobalNamespace::NoteCutInfoNetSerializable*
 GlobalNamespace::NoteCutInfoNetSerializable::Init(float_t saberSpeed, bool cutWasOk, ::UnityEngine::Vector3 saberDir, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal,
-                                                  ::GlobalNamespace::__NoteData__GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer,
+                                                  ::GlobalNamespace::NoteData_GameplayType gameplayType, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                   int32_t noteLineIndex, float_t noteTime, float_t timeToNextColorNote, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation,
                                                   ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 moveVec) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -344,8 +341,7 @@ GlobalNamespace::NoteCutInfoNetSerializable::Init(float_t saberSpeed, bool cutWa
       ::std::array<Il2CppType const*, 15>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteData__GameplayType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteData_GameplayType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NoteLineLayer>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -354,6 +350,9 @@ GlobalNamespace::NoteCutInfoNetSerializable::Init(float_t saberSpeed, bool cutWa
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteCutInfoNetSerializable*, false>(this, ___internal_method, saberSpeed, cutWasOk, saberDir, cutPoint, cutNormal, gameplayType,
                                                                                                     colorType, lineLayer, noteLineIndex, noteTime, timeToNextColorNote, notePosition, noteRotation,
                                                                                                     noteScale, moveVec);
+}
+inline ::GlobalNamespace::NoteCutInfoNetSerializable* GlobalNamespace::NoteCutInfoNetSerializable::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutInfoNetSerializable*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoteCutInfoNetSerializable::NoteCutInfoNetSerializable() {}

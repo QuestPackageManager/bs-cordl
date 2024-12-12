@@ -11,20 +11,19 @@ class AOTEnforcer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AOTEnforcer);
-// Type: ::AOTEnforcer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AOTEnforcer*
+// CS Name: AOTEnforcer
 class CORDL_TYPE AOTEnforcer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x3968e44, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39be4dc, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AOTEnforcer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3968ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   AOTEnforcer(AOTEnforcer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18845 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

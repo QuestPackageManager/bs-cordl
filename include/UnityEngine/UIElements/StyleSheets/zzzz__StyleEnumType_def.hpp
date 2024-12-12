@@ -12,11 +12,10 @@ struct StyleEnumType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleEnumType);
-// Type: UnityEngine.UIElements.StyleSheets::StyleEnumType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StyleEnumType
+// CS Name: UnityEngine.UIElements.StyleSheets.StyleEnumType
 struct CORDL_TYPE StyleEnumType {
 public:
   // Declarations
@@ -65,87 +64,87 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StyleEnumType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Align value: static_cast<int32_t>(0x0)
+  /// @brief Field Align value: I32(0)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Align;
 
-  /// @brief Field BackgroundPositionKeyword value: static_cast<int32_t>(0x1)
+  /// @brief Field BackgroundPositionKeyword value: I32(1)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const BackgroundPositionKeyword;
 
-  /// @brief Field BackgroundSizeType value: static_cast<int32_t>(0x2)
+  /// @brief Field BackgroundSizeType value: I32(2)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const BackgroundSizeType;
 
-  /// @brief Field DisplayStyle value: static_cast<int32_t>(0x3)
+  /// @brief Field DisplayStyle value: I32(3)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const DisplayStyle;
 
-  /// @brief Field EasingMode value: static_cast<int32_t>(0x4)
+  /// @brief Field EasingMode value: I32(4)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const EasingMode;
 
-  /// @brief Field FlexDirection value: static_cast<int32_t>(0x5)
+  /// @brief Field FlexDirection value: I32(5)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FlexDirection;
 
-  /// @brief Field FontStyle value: static_cast<int32_t>(0x6)
+  /// @brief Field FontStyle value: I32(6)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const FontStyle;
 
-  /// @brief Field Justify value: static_cast<int32_t>(0x7)
+  /// @brief Field Justify value: I32(7)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Justify;
 
-  /// @brief Field Overflow value: static_cast<int32_t>(0x8)
+  /// @brief Field Overflow value: I32(8)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Overflow;
 
-  /// @brief Field OverflowClipBox value: static_cast<int32_t>(0x9)
+  /// @brief Field OverflowClipBox value: I32(9)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowClipBox;
 
-  /// @brief Field OverflowInternal value: static_cast<int32_t>(0xa)
+  /// @brief Field OverflowInternal value: I32(10)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const OverflowInternal;
 
-  /// @brief Field Position value: static_cast<int32_t>(0xb)
+  /// @brief Field Position value: I32(11)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Position;
 
-  /// @brief Field Repeat value: static_cast<int32_t>(0xc)
+  /// @brief Field Repeat value: I32(12)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Repeat;
 
-  /// @brief Field RepeatXY value: static_cast<int32_t>(0xd)
+  /// @brief Field RepeatXY value: I32(13)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const RepeatXY;
 
-  /// @brief Field ScaleMode value: static_cast<int32_t>(0xe)
+  /// @brief Field ScaleMode value: I32(14)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const ScaleMode;
 
-  /// @brief Field TextAnchor value: static_cast<int32_t>(0xf)
+  /// @brief Field TextAnchor value: I32(15)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextAnchor;
 
-  /// @brief Field TextOverflow value: static_cast<int32_t>(0x10)
+  /// @brief Field TextOverflow value: I32(16)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflow;
 
-  /// @brief Field TextOverflowPosition value: static_cast<int32_t>(0x11)
+  /// @brief Field TextOverflowPosition value: I32(17)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TextOverflowPosition;
 
-  /// @brief Field TransformOriginOffset value: static_cast<int32_t>(0x12)
+  /// @brief Field TransformOriginOffset value: I32(18)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const TransformOriginOffset;
 
-  /// @brief Field Visibility value: static_cast<int32_t>(0x13)
+  /// @brief Field Visibility value: I32(19)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Visibility;
 
-  /// @brief Field WhiteSpace value: static_cast<int32_t>(0x14)
+  /// @brief Field WhiteSpace value: I32(20)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const WhiteSpace;
 
-  /// @brief Field Wrap value: static_cast<int32_t>(0x15)
+  /// @brief Field Wrap value: I32(21)
   static ::UnityEngine::UIElements::StyleSheets::StyleEnumType const Wrap;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6442 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StyleEnumType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::StyleEnumType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StyleEnumType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleEnumType, "UnityEngine.UIElements.StyleSheets", "StyleEnumType");

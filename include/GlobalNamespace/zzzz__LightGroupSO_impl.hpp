@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightGroupSO.hpp"
+#include "GlobalNamespace/zzzz__ILightGroup_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
-#include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightGroupSO.get_groupName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a848;
+  constexpr static std::size_t addrs = 0x39e1218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_groupName",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_groupId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a850;
+  constexpr static std::size_t addrs = 0x39e1220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_groupId",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_startLightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a858;
+  constexpr static std::size_t addrs = 0x39e1228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_startLightId",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_numberOfElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a860;
+  constexpr static std::size_t addrs = 0x39e1230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_numberOfElements",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_sameIdElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a868;
+  constexpr static std::size_t addrs = 0x39e1238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), "get_sameIdElements",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::get_ignoreLightGroupEffectManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398a870;
+  constexpr static std::size_t addrs = 0x39e1240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroupSO::*)()>(&::GlobalNamespace::LightGroupSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x398a878;
+  constexpr static std::size_t addrs = 0x39e1248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), ".ctor",
@@ -95,14 +95,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::ILightGroup"
-constexpr GlobalNamespace::LightGroupSO::operator ::GlobalNamespace::ILightGroup*() noexcept {
-  return static_cast<::GlobalNamespace::ILightGroup*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ILightGroup"
-constexpr ::GlobalNamespace::ILightGroup* GlobalNamespace::LightGroupSO::i___GlobalNamespace__ILightGroup() noexcept {
-  return static_cast<::GlobalNamespace::ILightGroup*>(static_cast<void*>(this));
-}
 constexpr ::StringW& GlobalNamespace::LightGroupSO::__cordl_internal_get__groupName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____groupName;
@@ -218,13 +210,21 @@ inline bool GlobalNamespace::LightGroupSO::get_ignoreLightGroupEffectManager() {
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LightGroupSO* GlobalNamespace::LightGroupSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightGroupSO*>());
-}
 inline void GlobalNamespace::LightGroupSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroupSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightGroupSO* GlobalNamespace::LightGroupSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightGroupSO*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::ILightGroup"
+constexpr GlobalNamespace::LightGroupSO::operator ::GlobalNamespace::ILightGroup*() noexcept {
+  return static_cast<::GlobalNamespace::ILightGroup*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ILightGroup"
+constexpr ::GlobalNamespace::ILightGroup* GlobalNamespace::LightGroupSO::i___GlobalNamespace__ILightGroup() noexcept {
+  return static_cast<::GlobalNamespace::ILightGroup*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightGroupSO::LightGroupSO() {}

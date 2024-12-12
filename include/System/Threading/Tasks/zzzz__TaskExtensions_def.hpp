@@ -14,11 +14,10 @@ class TaskExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskExtensions);
-// Type: System.Threading.Tasks::TaskExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::TaskExtensions*
+// CS Name: System.Threading.Tasks.TaskExtensions
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
   TaskExtensions(TaskExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,12 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IChannelSender)
-namespace System::Runtime::Remoting::Channels {
-class IChannel;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
@@ -21,26 +18,21 @@ class IChannelSender;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelSender);
-// Type: System.Runtime.Remoting.Channels::IChannelSender
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Channels.IChannel
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::IChannelSender*
+// CS Name: System.Runtime.Remoting.Channels.IChannelSender
 class CORDL_TYPE IChannelSender {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
 
-  /// @brief Method CreateMessageSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* remoteChannelData, ByRef<::StringW> objectURI);
+  /// @brief Method CreateMessageSink, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* remoteChannelData, ::ByRef<::StringW> objectURI);
 
   /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr ::System::Runtime::Remoting::Channels::IChannel* i___System__Runtime__Remoting__Channels__IChannel() noexcept;
-
-  // Ctor Parameters [CppParam { name: "", ty: "IChannelSender", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IChannelSender(IChannelSender&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannelSender", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

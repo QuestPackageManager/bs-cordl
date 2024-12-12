@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e8660;
+  constexpr static std::size_t addrs = 0x261b94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW, char16_t)>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x25e8834;
+  constexpr static std::size_t addrs = 0x261bb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::HasMoreTokens)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25e88b8;
+  constexpr static std::size_t addrs = 0x261bba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x25e8668;
+  constexpr static std::size_t addrs = 0x261b954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(),
@@ -101,7 +101,7 @@ constexpr ::System::Text::StringBuilder*& Org::BouncyCastle::Asn1::X509::X509Nam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& Org::BouncyCastle::Asn1::X509::X509NameTokenizer::__cordl_internal_get_buffer() const {
+constexpr ::System::Text::StringBuilder* const& Org::BouncyCastle::Asn1::X509::X509NameTokenizer::__cordl_internal_get_buffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___buffer;
 }
@@ -109,17 +109,11 @@ constexpr void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(oid));
-}
 inline void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor(::StringW oid) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid);
-}
-inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid, char16_t separator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(oid, separator));
 }
 inline void Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor(::StringW oid, char16_t separator) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,6 +130,12 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(),
                                                                              "NextToken", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(oid));
+}
+inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* Org::BouncyCastle::Asn1::X509::X509NameTokenizer::New_ctor(::StringW oid, char16_t separator) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>(oid, separator));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::X509NameTokenizer() {}

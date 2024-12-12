@@ -15,11 +15,10 @@ struct TreeItem;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TreeItem);
-// Type: UnityEngine.UIElements::TreeItem
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::TreeItem
+// CS Name: UnityEngine.UIElements.TreeItem
 struct CORDL_TYPE TreeItem {
 public:
   // Declarations
@@ -31,19 +30,19 @@ public:
 
   __declspec(property(get = get_parentId)) int32_t parentId;
 
-  /// @brief Method .ctor, addr 0x49a79ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a0c2fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t id, int32_t parentId, ::System::Collections::Generic::IEnumerable_1<int32_t>* childrenIds);
 
-  /// @brief Method get_childrenIds, addr 0x49a798c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childrenIds, addr 0x4a0c29c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_childrenIds();
 
-  /// @brief Method get_hasChildren, addr 0x49a7994, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_hasChildren, addr 0x4a0c2a4, size 0x58, virtual false, abstract: false, final false
   inline bool get_hasChildren();
 
-  /// @brief Method get_id, addr 0x49a797c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x4a0c28c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_parentId, addr 0x49a7984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentId, addr 0x4a0c294, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentId();
 
   // Ctor Parameters []
@@ -54,6 +53,12 @@ public:
   // None }, CppParam { name: "_childrenIds_k__BackingField", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None }]
   constexpr TreeItem(int32_t _id_k__BackingField, int32_t _parentId_k__BackingField, ::System::Collections::Generic::IEnumerable_1<int32_t>* _childrenIds_k__BackingField) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5709 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field <id>k__BackingField, offset: 0x0, size: 0x4, def value: None
   int32_t _id_k__BackingField;
 
@@ -63,22 +68,16 @@ public:
   /// @brief Field <childrenIds>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<int32_t>* _childrenIds_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5684 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeItem, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::TreeItem, _id_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TreeItem, _parentId_k__BackingField) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TreeItem, _childrenIds_k__BackingField) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TreeItem, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TreeItem, "UnityEngine.UIElements", "TreeItem");

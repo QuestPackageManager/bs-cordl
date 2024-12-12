@@ -6,6 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventCallState_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PersistentCall)
 namespace System::Reflection {
@@ -24,9 +25,6 @@ namespace UnityEngine::Events {
 class UnityEventBase;
 }
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
-}
-namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
@@ -35,11 +33,10 @@ class PersistentCall;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::PersistentCall);
-// Type: UnityEngine.Events::PersistentCall
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Events.PersistentListenerMode, UnityEngine.Events.UnityEventCallState, UnityEngine.ISerializationCallbackReceiver
 namespace UnityEngine::Events {
 // Is value type: false
-// CS Name: ::UnityEngine.Events::PersistentCall*
+// CS Name: UnityEngine.Events.PersistentCall
 class CORDL_TYPE PersistentCall : public ::System::Object {
 public:
   // Declarations
@@ -74,26 +71,26 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method GetObjectCall, addr 0x485ad20, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method GetObjectCall, addr 0x48bc09c, size 0x42c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetObjectCall(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* method, ::UnityEngine::Events::ArgumentCache* arguments);
 
-  /// @brief Method GetRuntimeCall, addr 0x485a864, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeCall, addr 0x48bbbe8, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetRuntimeCall(::UnityEngine::Events::UnityEventBase* theEvent);
 
-  /// @brief Method IsValid, addr 0x485a828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x48bbbac, size 0x3c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::UnityEngine::Events::PersistentCall* New_ctor();
 
-  /// @brief Method OnAfterDeserialize, addr 0x485b16c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnAfterDeserialize, addr 0x48bc4e4, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x485b150, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x48bc4c8, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  constexpr ::UnityEngine::Events::ArgumentCache*& __cordl_internal_get_m_Arguments();
+  constexpr ::UnityEngine::Events::ArgumentCache* const& __cordl_internal_get_m_Arguments() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::ArgumentCache*> const& __cordl_internal_get_m_Arguments() const;
+  constexpr ::UnityEngine::Events::ArgumentCache*& __cordl_internal_get_m_Arguments();
 
   constexpr ::UnityEngine::Events::UnityEventCallState const& __cordl_internal_get_m_CallState() const;
 
@@ -127,22 +124,22 @@ public:
 
   constexpr void __cordl_internal_set_m_TargetAssemblyTypeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x485b188, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bc500, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_arguments, addr 0x485a820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arguments, addr 0x48bbba4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::ArgumentCache* get_arguments();
 
-  /// @brief Method get_methodName, addr 0x485a810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_methodName, addr 0x48bbb94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_methodName();
 
-  /// @brief Method get_mode, addr 0x485a818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x48bbb9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::PersistentListenerMode get_mode();
 
-  /// @brief Method get_target, addr 0x485a75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x48bbae4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_target();
 
-  /// @brief Method get_targetAssemblyTypeName, addr 0x485a764, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_targetAssemblyTypeName, addr 0x48bbaec, size 0xa8, virtual false, abstract: false, final false
   inline ::StringW get_targetAssemblyTypeName();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -162,6 +159,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PersistentCall(PersistentCall const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10981 };
+
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ___m_Target;
 
@@ -180,14 +180,9 @@ public:
   /// @brief Field m_CallState, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::Events::UnityEventCallState ___m_CallState;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10948 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::PersistentCall, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Target) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_TargetAssemblyTypeName) == 0x18, "Offset mismatch!");
@@ -199,6 +194,8 @@ static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Mode) == 0x28
 static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_Arguments) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Events::PersistentCall, ___m_CallState) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::PersistentCall, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::PersistentCall);

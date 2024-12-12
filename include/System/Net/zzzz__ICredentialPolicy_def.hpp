@@ -10,24 +10,19 @@ class ICredentialPolicy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ICredentialPolicy);
-// Type: System.Net::ICredentialPolicy
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::ICredentialPolicy*
+// CS Name: System.Net.ICredentialPolicy
 class CORDL_TYPE ICredentialPolicy {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "ICredentialPolicy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICredentialPolicy(ICredentialPolicy&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "ICredentialPolicy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICredentialPolicy(ICredentialPolicy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9679 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9704 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

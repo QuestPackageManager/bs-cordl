@@ -12,11 +12,10 @@ struct TouchFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchFlags);
-// Type: UnityEngine.InputSystem.LowLevel::TouchFlags
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.LowLevel::TouchFlags
+// CS Name: UnityEngine.InputSystem.LowLevel.TouchFlags
 struct CORDL_TYPE TouchFlags {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr TouchFlags(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field BeganInSameFrame value: static_cast<uint8_t>(0x80u)
+  /// @brief Field BeganInSameFrame value: U8(128)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const BeganInSameFrame;
 
-  /// @brief Field IndirectTouch value: static_cast<uint8_t>(0x1u)
+  /// @brief Field IndirectTouch value: U8(1)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const IndirectTouch;
 
-  /// @brief Field OrphanedPrimaryTouch value: static_cast<uint8_t>(0x40u)
+  /// @brief Field OrphanedPrimaryTouch value: U8(64)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const OrphanedPrimaryTouch;
 
-  /// @brief Field PrimaryTouch value: static_cast<uint8_t>(0x8u)
+  /// @brief Field PrimaryTouch value: U8(8)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const PrimaryTouch;
 
-  /// @brief Field TapPress value: static_cast<uint8_t>(0x10u)
+  /// @brief Field TapPress value: U8(16)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const TapPress;
 
-  /// @brief Field TapRelease value: static_cast<uint8_t>(0x20u)
+  /// @brief Field TapRelease value: U8(32)
   static ::UnityEngine::InputSystem::LowLevel::TouchFlags const TapRelease;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6918 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::TouchFlags, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::TouchFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::TouchFlags, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::TouchFlags, "UnityEngine.InputSystem.LowLevel", "TouchFlags");

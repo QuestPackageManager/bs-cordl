@@ -22,11 +22,10 @@ class MultiplayerCenterResizeController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterResizeController);
-// Type: ::MultiplayerCenterResizeController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerCenterResizeController*
+// CS Name: MultiplayerCenterResizeController
 class CORDL_TYPE MultiplayerCenterResizeController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -52,15 +51,15 @@ public:
 
   __declspec(property(get = get_isEdgeDistanceFromCenterCalculated, put = set_isEdgeDistanceFromCenterCalculated)) bool isEdgeDistanceFromCenterCalculated;
 
-  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3b67b90, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x3bc92cc, size 0x78, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t numberOfPlayers);
 
   static inline ::GlobalNamespace::MultiplayerCenterResizeController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b67c08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bc9344, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b67aec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bc9228, size 0xa4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__edgeDistanceFromCenter_k__BackingField() const;
@@ -71,17 +70,17 @@ public:
 
   constexpr bool& __cordl_internal_get__isEdgeDistanceFromCenterCalculated_k__BackingField();
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr float_t const& __cordl_internal_get__platformWidth() const;
 
   constexpr float_t& __cordl_internal_get__platformWidth();
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent();
+  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent() const;
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_edgeDistanceFromCenterWasCalculatedEvent();
 
   constexpr void __cordl_internal_set__edgeDistanceFromCenter_k__BackingField(float_t value);
 
@@ -93,25 +92,25 @@ public:
 
   constexpr void __cordl_internal_set_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b67c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc93d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3b5b65c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bbcf54, size 0xb0, virtual false, abstract: false, final false
   inline void add_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_edgeDistanceFromCenter, addr 0x3b67adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_edgeDistanceFromCenter, addr 0x3bc9218, size 0x8, virtual false, abstract: false, final false
   inline float_t get_edgeDistanceFromCenter();
 
-  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x3b67ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEdgeDistanceFromCenterCalculated, addr 0x3bc9204, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEdgeDistanceFromCenterCalculated();
 
-  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3b5b86c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_edgeDistanceFromCenterWasCalculatedEvent, addr 0x3bbd164, size 0xb0, virtual false, abstract: false, final false
   inline void remove_edgeDistanceFromCenterWasCalculatedEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method set_edgeDistanceFromCenter, addr 0x3b67ae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_edgeDistanceFromCenter, addr 0x3bc9220, size 0x8, virtual false, abstract: false, final false
   inline void set_edgeDistanceFromCenter(float_t value);
 
-  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x3b67ad0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEdgeDistanceFromCenterCalculated, addr 0x3bc920c, size 0xc, virtual false, abstract: false, final false
   inline void set_isEdgeDistanceFromCenterCalculated(bool value);
 
 protected:
@@ -128,6 +127,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerCenterResizeController(MultiplayerCenterResizeController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4552 };
+
   /// @brief Field _platformWidth, offset: 0x20, size: 0x4, def value: None
   float_t ____platformWidth;
 
@@ -143,14 +145,9 @@ public:
   /// @brief Field <edgeDistanceFromCenter>k__BackingField, offset: 0x3c, size: 0x4, def value: None
   float_t ____edgeDistanceFromCenter_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4540 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCenterResizeController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____platformWidth) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____layoutProvider) == 0x28, "Offset mismatch!");
@@ -160,6 +157,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ___
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____isEdgeDistanceFromCenterCalculated_k__BackingField) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerCenterResizeController, ____edgeDistanceFromCenter_k__BackingField) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCenterResizeController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerCenterResizeController);

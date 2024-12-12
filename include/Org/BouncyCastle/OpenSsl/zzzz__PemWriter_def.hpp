@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemWriter_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemWriter)
 namespace Org::BouncyCastle::Security {
@@ -22,23 +21,22 @@ class PemWriter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemWriter);
-// Type: Org.BouncyCastle.OpenSsl::PemWriter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Utilities.IO.Pem.PemWriter
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.OpenSsl::PemWriter*
+// CS Name: Org.BouncyCastle.OpenSsl.PemWriter
 class CORDL_TYPE PemWriter : public ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteObject, addr 0x251ec74, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x2551f60, size 0x164, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteObject, addr 0x251edd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x25520c4, size 0x84, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x251ec70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551f5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
 protected:

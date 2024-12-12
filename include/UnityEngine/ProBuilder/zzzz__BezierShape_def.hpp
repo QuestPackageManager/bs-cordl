@@ -22,11 +22,10 @@ class BezierShape;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::BezierShape);
-// Type: UnityEngine.ProBuilder::BezierShape
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::BezierShape*
+// CS Name: UnityEngine.ProBuilder.BezierShape
 class CORDL_TYPE BezierShape : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -58,12 +57,12 @@ public:
   /// @brief Field smooth, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_smooth, put = __cordl_internal_set_smooth)) bool smooth;
 
-  /// @brief Method Init, addr 0x469e284, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x46ff598, size 0x254, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::ProBuilder::BezierShape* New_ctor();
 
-  /// @brief Method Refresh, addr 0x469e4d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x46ff7ec, size 0xbc, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr bool const& __cordl_internal_get_closeLoop() const;
@@ -82,9 +81,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*& __cordl_internal_get_points();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* const& __cordl_internal_get_points() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*> const& __cordl_internal_get_points() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>*& __cordl_internal_get_points();
 
   constexpr float_t const& __cordl_internal_get_radius() const;
 
@@ -114,19 +113,19 @@ public:
 
   constexpr void __cordl_internal_set_smooth(bool value);
 
-  /// @brief Method .ctor, addr 0x469e594, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46ff8a8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEditing, addr 0x469e1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditing, addr 0x46ff4e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditing();
 
-  /// @brief Method get_mesh, addr 0x469e1e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x46ff4fc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
-  /// @brief Method set_isEditing, addr 0x469e1dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isEditing, addr 0x46ff4f0, size 0xc, virtual false, abstract: false, final false
   inline void set_isEditing(bool value);
 
-  /// @brief Method set_mesh, addr 0x469e27c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x46ff590, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BezierShape", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BezierShape(BezierShape const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14217 };
 
   /// @brief Field points, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::BezierPoint>* ___points;
@@ -167,14 +169,9 @@ public:
   /// @brief Field m_Mesh, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14183 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::BezierShape, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::BezierShape, ___points) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::BezierShape, ___closeLoop) == 0x28, "Offset mismatch!");
@@ -190,6 +187,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::BezierShape, ___smooth) == 0x3
 static_assert(offsetof(::UnityEngine::ProBuilder::BezierShape, ___m_IsEditing) == 0x39, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::BezierShape, ___m_Mesh) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::BezierShape, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::BezierShape);

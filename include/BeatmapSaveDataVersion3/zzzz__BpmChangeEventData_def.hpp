@@ -12,11 +12,10 @@ class BpmChangeEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::BpmChangeEventData);
-// Type: BeatmapSaveDataVersion3::BpmChangeEventData
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::BpmChangeEventData*
+// CS Name: BeatmapSaveDataVersion3.BpmChangeEventData
 class CORDL_TYPE BpmChangeEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4aa0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706410, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, float_t bpm);
 
-  /// @brief Method get_bpm, addr 0x26d4a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bpm, addr 0x2706408, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bpm();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BpmChangeEventData(BpmChangeEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13414 };
+
   /// @brief Field m, offset: 0x14, size: 0x4, def value: None
   float_t ___m;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BpmChangeEventData, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::BpmChangeEventData, ___m) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::BpmChangeEventData, 0x18>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::BpmChangeEventData);

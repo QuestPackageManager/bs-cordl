@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22efa44;
+  constexpr static std::size_t addrs = 0x2322d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x22efbc0;
+  constexpr static std::size_t addrs = 0x2322eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*)>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22efe94;
+  constexpr static std::size_t addrs = 0x2323180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*,
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*>)>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22efe9c;
+  constexpr static std::size_t addrs = 0x2323188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*, ::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x22eff90;
+  constexpr static std::size_t addrs = 0x232327c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::get_SigPolicyIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f0160;
+  constexpr static std::size_t addrs = 0x232344c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::get_SigPolicyHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f0168;
+  constexpr static std::size_t addrs = 0x2323454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::GetSigPolicyQualifiers)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22f0170;
+  constexpr static std::size_t addrs = 0x232345c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::ToAsn1Object)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x22f0400;
+  constexpr static std::size_t addrs = 0x23236ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,8 +155,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyIdentifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const&
-Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyIdentifier() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyIdentifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyIdentifier;
 }
@@ -168,8 +167,7 @@ constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyHash;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*> const&
-Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyHash() const {
+constexpr ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* const& Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyHash() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyHash;
 }
@@ -181,7 +179,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& Org::BouncyCastle::Asn1::Esf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyQualifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyQualifiers() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::__cordl_internal_get_sigPolicyQualifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigPolicyQualifiers;
 }
@@ -195,18 +193,11 @@ inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
-                                                                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash));
 }
 inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash) {
@@ -215,11 +206,6 @@ inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::Bouncy
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigPolicyIdentifier, sigPolicyHash);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(
-    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
-    ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> sigPolicyQualifiers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers));
 }
 inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
@@ -231,11 +217,6 @@ inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                               ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers);
-}
-inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
-                                                                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
-                                                                                                                    ::System::Collections::IEnumerable* sigPolicyQualifiers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers));
 }
 inline void Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash, ::System::Collections::IEnumerable* sigPolicyQualifiers) {
@@ -267,6 +248,23 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Esf::Sign
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
+                                                                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(
+    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
+    ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> sigPolicyQualifiers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers));
+}
+inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
+                                                                                                                    ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
+                                                                                                                    ::System::Collections::IEnumerable* sigPolicyQualifiers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>(sigPolicyIdentifier, sigPolicyHash, sigPolicyQualifiers));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::SignaturePolicyId() {}

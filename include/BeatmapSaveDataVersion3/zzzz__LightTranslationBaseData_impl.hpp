@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d498c;
+  constexpr static std::size_t addrs = 0x27062fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_usePreviousEventTranslationValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d4994;
+  constexpr static std::size_t addrs = 0x2706304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d49a4;
+  constexpr static std::size_t addrs = 0x2706314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightTranslationBaseData::get_translation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d49ac;
+  constexpr static std::size_t addrs = 0x270631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightTranslationBaseData::*)(
     float_t, bool, ::BeatmapSaveDataCommon::EaseType, float_t)>(&::BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26d49b4;
+  constexpr static std::size_t addrs = 0x2706324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,10 +147,6 @@ inline float_t BeatmapSaveDataVersion3::LightTranslationBaseData::get_translatio
                                                                              "get_translation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* BeatmapSaveDataVersion3::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue,
-                                                                                                                        ::BeatmapSaveDataCommon::EaseType easeType, float_t translation) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightTranslationBaseData*>(beat, usePreviousEventTranslationValue, easeType, translation));
-}
 inline void BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor(float_t beat, bool usePreviousEventTranslationValue, ::BeatmapSaveDataCommon::EaseType easeType, float_t translation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightTranslationBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -158,6 +154,10 @@ inline void BeatmapSaveDataVersion3::LightTranslationBaseData::_ctor(float_t bea
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::EaseType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousEventTranslationValue, easeType, translation);
+}
+inline ::BeatmapSaveDataVersion3::LightTranslationBaseData* BeatmapSaveDataVersion3::LightTranslationBaseData::New_ctor(float_t beat, bool usePreviousEventTranslationValue,
+                                                                                                                        ::BeatmapSaveDataCommon::EaseType easeType, float_t translation) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightTranslationBaseData*>(beat, usePreviousEventTranslationValue, easeType, translation));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightTranslationBaseData::LightTranslationBaseData() {}

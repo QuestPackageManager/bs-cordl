@@ -32,11 +32,10 @@ class VisualElementAnimationSystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementAnimationSystem);
-// Type: UnityEngine.UIElements::VisualElementAnimationSystem
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.BaseVisualTreeUpdater
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::VisualElementAnimationSystem*
+// CS Name: UnityEngine.UIElements.VisualElementAnimationSystem
 class CORDL_TYPE VisualElementAnimationSystem : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
@@ -60,55 +59,53 @@ public:
   __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
+  __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
 
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
+  __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
   /// @brief Field s_StylePropertyAnimationDescription, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_StylePropertyAnimationDescription, put = setStaticF_s_StylePropertyAnimationDescription)) ::StringW s_StylePropertyAnimationDescription;
+  __declspec(property(get = getStaticF_s_StylePropertyAnimationDescription, put = setStaticF_s_StylePropertyAnimationDescription)) ::StringW s_StylePropertyAnimationDescription;
 
   /// @brief Field s_StylePropertyAnimationProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_StylePropertyAnimationProfilerMarker,
-                             put = setStaticF_s_StylePropertyAnimationProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_StylePropertyAnimationProfilerMarker;
+  __declspec(property(get = getStaticF_s_StylePropertyAnimationProfilerMarker,
+                      put = setStaticF_s_StylePropertyAnimationProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_StylePropertyAnimationProfilerMarker;
 
   static inline ::UnityEngine::UIElements::VisualElementAnimationSystem* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x493aac8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x499f3d8, size 0x4, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method RegisterAnimation, addr 0x493a4fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimation, addr 0x499ee0c, size 0x64, virtual false, abstract: false, final false
   inline void RegisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method RegisterAnimations, addr 0x493a560, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimations, addr 0x499ee70, size 0x178, virtual false, abstract: false, final false
   inline void RegisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method UnregisterAnimation, addr 0x493a320, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimation, addr 0x499ec30, size 0x64, virtual false, abstract: false, final false
   inline void UnregisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterAnimations, addr 0x493a384, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimations, addr 0x499ec94, size 0x178, virtual false, abstract: false, final false
   inline void UnregisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method Update, addr 0x493a6d8, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x499efe8, size 0x3e8, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr int64_t const& __cordl_internal_get_lastUpdate() const;
 
   constexpr int64_t& __cordl_internal_get_lastUpdate();
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __cordl_internal_get_m_Animations();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* const& __cordl_internal_get_m_Animations() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*> const&
-  __cordl_internal_get_m_Animations() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __cordl_internal_get_m_Animations();
 
   constexpr bool const& __cordl_internal_get_m_HasNewAnimations() const;
 
   constexpr bool& __cordl_internal_get_m_HasNewAnimations();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __cordl_internal_get_m_IterationList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* const& __cordl_internal_get_m_IterationList() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*> const&
-  __cordl_internal_get_m_IterationList() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>*& __cordl_internal_get_m_IterationList();
 
   constexpr bool const& __cordl_internal_get_m_IterationListDirty() const;
 
@@ -124,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IterationListDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x493aacc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x499f3dc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
@@ -135,10 +132,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_StylePropertyAnimationProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x493a270, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x499eb80, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x493a2c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x499ebd8, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarker get_stylePropertyAnimationProfilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
@@ -163,6 +160,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VisualElementAnimationSystem(VisualElementAnimationSystem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6330 };
+
   /// @brief Field m_Animations, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* ___m_Animations;
 
@@ -178,14 +178,9 @@ public:
   /// @brief Field lastUpdate, offset: 0x38, size: 0x8, def value: None
   int64_t ___lastUpdate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6305 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAnimationSystem, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_Animations) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationList) == 0x28, "Offset mismatch!");
@@ -195,6 +190,8 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, 
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationListDirty) == 0x31, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___lastUpdate) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAnimationSystem, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAnimationSystem);

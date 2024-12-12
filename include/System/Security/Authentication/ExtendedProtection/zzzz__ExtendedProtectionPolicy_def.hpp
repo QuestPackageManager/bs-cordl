@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExtendedProtectionPolicy)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -24,11 +22,10 @@ class ExtendedProtectionPolicy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy);
-// Type: System.Security.Authentication.ExtendedProtection::ExtendedProtectionPolicy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.ISerializable
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: false
-// CS Name: ::System.Security.Authentication.ExtendedProtection::ExtendedProtectionPolicy*
+// CS Name: System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy
 class CORDL_TYPE ExtendedProtectionPolicy : public ::System::Object {
 public:
   // Declarations
@@ -40,16 +37,16 @@ public:
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* New_ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x43d0668, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x443197c, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x43d0660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4431974, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x43d0620, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4431934, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x43d0618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x443192c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Authentication::ExtendedProtection::PolicyEnforcement policyEnforcement);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -70,7 +67,7 @@ public:
   ExtendedProtectionPolicy(ExtendedProtectionPolicy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9257 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9282 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapBasicData::*)(float_t, float_t, ::GlobalNamespace::EnvironmentName, ::GlobalNamespace::ColorScheme*, int32_t, int32_t, int32_t, int32_t,
                                                               ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::GlobalNamespace::BeatmapBasicData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x268d6c0;
+  constexpr static std::size_t addrs = 0x26c1eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ constexpr ::GlobalNamespace::ColorScheme*& GlobalNamespace::BeatmapBasicData::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapColorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& GlobalNamespace::BeatmapBasicData::__cordl_internal_get_beatmapColorScheme() const {
+constexpr ::GlobalNamespace::ColorScheme* const& GlobalNamespace::BeatmapBasicData::__cordl_internal_get_beatmapColorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapColorScheme;
 }
@@ -147,13 +147,6 @@ constexpr void GlobalNamespace::BeatmapBasicData::__cordl_internal_set_lighters(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lighters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::BeatmapBasicData* GlobalNamespace::BeatmapBasicData::New_ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset,
-                                                                                        ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
-                                                                                        int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount,
-                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapBasicData*>(noteJumpMovementSpeed, noteJumpStartBeatOffset, environmentName, beatmapColorScheme, notesCount,
-                                                                                        cuttableObjectsCount, obstaclesCount, bombsCount, mappers, lighters));
-}
 inline void GlobalNamespace::BeatmapBasicData::_ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset, ::GlobalNamespace::EnvironmentName environmentName,
                                                      ::GlobalNamespace::ColorScheme* beatmapColorScheme, int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount,
                                                      ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters) {
@@ -168,6 +161,13 @@ inline void GlobalNamespace::BeatmapBasicData::_ctor(float_t noteJumpMovementSpe
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noteJumpMovementSpeed, noteJumpStartBeatOffset, environmentName, beatmapColorScheme, notesCount,
                                                           cuttableObjectsCount, obstaclesCount, bombsCount, mappers, lighters);
+}
+inline ::GlobalNamespace::BeatmapBasicData* GlobalNamespace::BeatmapBasicData::New_ctor(float_t noteJumpMovementSpeed, float_t noteJumpStartBeatOffset,
+                                                                                        ::GlobalNamespace::EnvironmentName environmentName, ::GlobalNamespace::ColorScheme* beatmapColorScheme,
+                                                                                        int32_t notesCount, int32_t cuttableObjectsCount, int32_t obstaclesCount, int32_t bombsCount,
+                                                                                        ::ArrayW<::StringW, ::Array<::StringW>*> mappers, ::ArrayW<::StringW, ::Array<::StringW>*> lighters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapBasicData*>(noteJumpMovementSpeed, noteJumpStartBeatOffset, environmentName, beatmapColorScheme, notesCount,
+                                                                                        cuttableObjectsCount, obstaclesCount, bombsCount, mappers, lighters));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapBasicData::BeatmapBasicData() {}

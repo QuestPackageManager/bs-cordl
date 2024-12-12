@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__PlaceholderFactory_6_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Factory_6)
 namespace System {
 class Object;
@@ -18,13 +17,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Factory_6);
-// Type: Zenject::Factory`6
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.PlaceholderFactory`6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::Factory`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>*
+// CS Name: Zenject.Factory`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>
 class CORDL_TYPE Factory_6 : public ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue> {
 public:
   // Declarations
@@ -54,7 +52,7 @@ public:
   Factory_6(Factory_6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12355 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

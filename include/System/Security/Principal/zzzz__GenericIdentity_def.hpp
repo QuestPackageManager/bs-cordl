@@ -21,11 +21,10 @@ class GenericIdentity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::GenericIdentity);
-// Type: System.Security.Principal::GenericIdentity
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Claims.ClaimsIdentity
 namespace System::Security::Principal {
 // Is value type: false
-// CS Name: ::System.Security.Principal::GenericIdentity*
+// CS Name: System.Security.Principal.GenericIdentity
 class CORDL_TYPE GenericIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
   // Declarations
@@ -41,10 +40,10 @@ public:
   /// @brief Field m_type, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type)) ::StringW m_type;
 
-  /// @brief Method AddNameClaim, addr 0x3c57430, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AddNameClaim, addr 0x3cb75a4, size 0xd0, virtual false, abstract: false, final false
   inline void AddNameClaim();
 
-  /// @brief Method Clone, addr 0x3c57740, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x3cb78b4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* Clone();
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor();
@@ -65,22 +64,22 @@ public:
 
   constexpr void __cordl_internal_set_m_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c57500, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb7674, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c5751c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb7690, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::GenericIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x3c57360, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cb74d4, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW type);
 
-  /// @brief Method get_AuthenticationType, addr 0x3c57814, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AuthenticationType, addr 0x3cb7988, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Claims, addr 0x3c57798, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Claims, addr 0x3cb790c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
 
-  /// @brief Method get_Name, addr 0x3c5780c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3cb7980, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -97,23 +96,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GenericIdentity(GenericIdentity const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2993 };
+
   /// @brief Field m_name, offset: 0x78, size: 0x8, def value: None
   ::StringW ___m_name;
 
   /// @brief Field m_type, offset: 0x80, size: 0x8, def value: None
   ::StringW ___m_type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2993 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Principal::GenericIdentity, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Principal::GenericIdentity, ___m_name) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Principal::GenericIdentity, ___m_type) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Principal::GenericIdentity, 0x88>, "Size mismatch!");
 
 } // namespace System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::GenericIdentity);

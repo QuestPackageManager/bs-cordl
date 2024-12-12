@@ -11,15 +11,14 @@ class Logging;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Logging);
-// Type: System.Net::Logging
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::Logging*
+// CS Name: System.Net.Logging
 class CORDL_TYPE Logging : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_On, addr 0x44535c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_On, addr 0x44b48dc, size 0x8, virtual false, abstract: false, final false
   static inline bool get_On();
 
 protected:
@@ -37,7 +36,7 @@ public:
   Logging(Logging const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

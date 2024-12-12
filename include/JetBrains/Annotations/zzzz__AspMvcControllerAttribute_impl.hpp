@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcControllerAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcControllerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c548;
+  constexpr static std::size_t addrs = 0x4af0e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcControllerAttribute*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcControllerAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcControllerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8c550;
+  constexpr static std::size_t addrs = 0x4af0e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::AspMvcControllerAttribute::*)()>(
     &::JetBrains::Annotations::AspMvcControllerAttribute::get_AnonymousProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c578;
+  constexpr static std::size_t addrs = 0x4af0e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcControllerAttribute*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AspMvcControllerAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8c580;
+  constexpr static std::size_t addrs = 0x4af0e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,16 +72,10 @@ constexpr void JetBrains::Annotations::AspMvcControllerAttribute::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____AnonymousProperty_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcControllerAttribute*>());
-}
 inline void JetBrains::Annotations::AspMvcControllerAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcControllerAttribute*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor(::StringW anonymousProperty) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcControllerAttribute*>(anonymousProperty));
 }
 inline void JetBrains::Annotations::AspMvcControllerAttribute::_ctor(::StringW anonymousProperty) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -99,6 +93,12 @@ inline void JetBrains::Annotations::AspMvcControllerAttribute::set_AnonymousProp
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AspMvcControllerAttribute*>::get(), "set_AnonymousProperty",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcControllerAttribute*>());
+}
+inline ::JetBrains::Annotations::AspMvcControllerAttribute* JetBrains::Annotations::AspMvcControllerAttribute::New_ctor(::StringW anonymousProperty) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::JetBrains::Annotations::AspMvcControllerAttribute*>(anonymousProperty));
 }
 // Ctor Parameters []
 constexpr ::JetBrains::Annotations::AspMvcControllerAttribute::AspMvcControllerAttribute() {}

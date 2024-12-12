@@ -6,12 +6,26 @@
 #include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+//  Writing Method size for method: ::HMUI::RangeValuesTextSlider.set_interactable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(bool)>(&::HMUI::RangeValuesTextSlider::set_interactable)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x39f1b94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "set_interactable",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::HMUI::RangeValuesTextSlider.get_minValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_minValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x399af94;
+  constexpr static std::size_t addrs = 0x39f1c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "get_minValue",
@@ -24,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_minValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x399af9c;
+  constexpr static std::size_t addrs = 0x39f1c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_maxValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x399b01c;
+  constexpr static std::size_t addrs = 0x39f1c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "get_maxValue",
@@ -51,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_maxValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x399b024;
+  constexpr static std::size_t addrs = 0x39f1c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::set_value)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x399b0a4;
+  constexpr static std::size_t addrs = 0x39f1d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::get_value)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x399b0e0;
+  constexpr static std::size_t addrs = 0x39f1d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "get_value",
@@ -90,30 +104,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::HMUI::RangeValuesTextSlider.add_valueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*)>(
     &::HMUI::RangeValuesTextSlider::add_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x399b120;
+  constexpr static std::size_t addrs = 0x39f1d90;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::RangeValuesTextSlider.remove_valueDidChangeEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*)>(
     &::HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x399b1d4;
+  constexpr static std::size_t addrs = 0x39f1e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "remove_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -122,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::Awake)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x399b288;
+  constexpr static std::size_t addrs = 0x39f1ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x399b468;
+  constexpr static std::size_t addrs = 0x39f20d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)(::HMUI::TextSlider*, float_t)>(
     &::HMUI::RangeValuesTextSlider::HandleNormalizedValueDidChange)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x399b500;
+  constexpr static std::size_t addrs = 0x39f2170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(),
@@ -166,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::ConvertFromNormalizedValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x399b108;
+  constexpr static std::size_t addrs = 0x39f1d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::NormalizeValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x399b0c0;
+  constexpr static std::size_t addrs = 0x39f1d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::TextForNormalizedValue)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x399b534;
+  constexpr static std::size_t addrs = 0x39f21a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::RangeValuesTextSlider::*)(float_t)>(&::HMUI::RangeValuesTextSlider::TextForValue)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x399b558;
+  constexpr static std::size_t addrs = 0x39f21c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x399aef0;
+  constexpr static std::size_t addrs = 0x39f1af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), ".ctor",
@@ -230,28 +244,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::RangeValuesTextSlider._Awake_b__17_0
+//  Writing Method size for method: ::HMUI::RangeValuesTextSlider._Awake_b__19_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__17_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__19_0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x399b5c0;
+  constexpr static std::size_t addrs = 0x39f2230;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__17_0",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__19_0",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::RangeValuesTextSlider._Awake_b__17_1
+//  Writing Method size for method: ::HMUI::RangeValuesTextSlider._Awake_b__19_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__17_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RangeValuesTextSlider::*)()>(&::HMUI::RangeValuesTextSlider::_Awake_b__19_1)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x399b60c;
+  constexpr static std::size_t addrs = 0x39f227c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__17_1",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__19_1",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -304,16 +318,15 @@ constexpr void HMUI::RangeValuesTextSlider::__cordl_internal_set__incButton(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____incButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*& HMUI::RangeValuesTextSlider::__cordl_internal_get_valueDidChangeEvent() {
+constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*& HMUI::RangeValuesTextSlider::__cordl_internal_get_valueDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*> const&
-HMUI::RangeValuesTextSlider::__cordl_internal_get_valueDidChangeEvent() const {
+constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* const& HMUI::RangeValuesTextSlider::__cordl_internal_get_valueDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueDidChangeEvent;
 }
-constexpr void HMUI::RangeValuesTextSlider::__cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value) {
+constexpr void HMUI::RangeValuesTextSlider::__cordl_internal_set_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___valueDidChangeEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -321,13 +334,19 @@ constexpr ::HMUI::ButtonBinder*& HMUI::RangeValuesTextSlider::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& HMUI::RangeValuesTextSlider::__cordl_internal_get__buttonBinder() const {
+constexpr ::HMUI::ButtonBinder* const& HMUI::RangeValuesTextSlider::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
 constexpr void HMUI::RangeValuesTextSlider::__cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void HMUI::RangeValuesTextSlider::set_interactable(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "set_interactable",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t HMUI::RangeValuesTextSlider::get_minValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "get_minValue",
@@ -362,16 +381,16 @@ inline float_t HMUI::RangeValuesTextSlider::get_value() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void HMUI::RangeValuesTextSlider::add_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*>::get() })));
+inline void HMUI::RangeValuesTextSlider::add_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "add_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "remove_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*>::get() })));
+inline void HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "remove_valueDidChangeEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::RangeValuesTextSlider::Awake() {
@@ -412,23 +431,23 @@ inline ::StringW HMUI::RangeValuesTextSlider::TextForValue(float_t value) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-inline ::HMUI::RangeValuesTextSlider* HMUI::RangeValuesTextSlider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::RangeValuesTextSlider*>());
-}
 inline void HMUI::RangeValuesTextSlider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::RangeValuesTextSlider::_Awake_b__17_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__17_0",
+inline void HMUI::RangeValuesTextSlider::_Awake_b__19_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__19_0",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::RangeValuesTextSlider::_Awake_b__17_1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__17_1",
+inline void HMUI::RangeValuesTextSlider::_Awake_b__19_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RangeValuesTextSlider*>::get(), "<Awake>b__19_1",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::RangeValuesTextSlider* HMUI::RangeValuesTextSlider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::RangeValuesTextSlider*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::RangeValuesTextSlider::RangeValuesTextSlider() {}

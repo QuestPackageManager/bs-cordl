@@ -12,11 +12,10 @@ struct CommandType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::CommandType);
-// Type: UnityEngine.UIElements.UIR::CommandType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements.UIR::CommandType
+// CS Name: UnityEngine.UIElements.UIR.CommandType
 struct CORDL_TYPE CommandType {
 public:
   // Declarations
@@ -55,57 +54,57 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CommandType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BlitToPreviousRT value: static_cast<int32_t>(0x9)
+  /// @brief Field BlitToPreviousRT value: I32(9)
   static ::UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
 
-  /// @brief Field Draw value: static_cast<int32_t>(0x0)
+  /// @brief Field Draw value: I32(0)
   static ::UnityEngine::UIElements::UIR::CommandType const Draw;
 
-  /// @brief Field Immediate value: static_cast<int32_t>(0x2)
+  /// @brief Field Immediate value: I32(2)
   static ::UnityEngine::UIElements::UIR::CommandType const Immediate;
 
-  /// @brief Field ImmediateCull value: static_cast<int32_t>(0x1)
+  /// @brief Field ImmediateCull value: I32(1)
   static ::UnityEngine::UIElements::UIR::CommandType const ImmediateCull;
 
-  /// @brief Field PopDefaultMaterial value: static_cast<int32_t>(0xb)
+  /// @brief Field PopDefaultMaterial value: I32(11)
   static ::UnityEngine::UIElements::UIR::CommandType const PopDefaultMaterial;
 
-  /// @brief Field PopRenderTexture value: static_cast<int32_t>(0x8)
+  /// @brief Field PopRenderTexture value: I32(8)
   static ::UnityEngine::UIElements::UIR::CommandType const PopRenderTexture;
 
-  /// @brief Field PopScissor value: static_cast<int32_t>(0x6)
+  /// @brief Field PopScissor value: I32(6)
   static ::UnityEngine::UIElements::UIR::CommandType const PopScissor;
 
-  /// @brief Field PopView value: static_cast<int32_t>(0x4)
+  /// @brief Field PopView value: I32(4)
   static ::UnityEngine::UIElements::UIR::CommandType const PopView;
 
-  /// @brief Field PushDefaultMaterial value: static_cast<int32_t>(0xa)
+  /// @brief Field PushDefaultMaterial value: I32(10)
   static ::UnityEngine::UIElements::UIR::CommandType const PushDefaultMaterial;
 
-  /// @brief Field PushRenderTexture value: static_cast<int32_t>(0x7)
+  /// @brief Field PushRenderTexture value: I32(7)
   static ::UnityEngine::UIElements::UIR::CommandType const PushRenderTexture;
 
-  /// @brief Field PushScissor value: static_cast<int32_t>(0x5)
+  /// @brief Field PushScissor value: I32(5)
   static ::UnityEngine::UIElements::UIR::CommandType const PushScissor;
 
-  /// @brief Field PushView value: static_cast<int32_t>(0x3)
+  /// @brief Field PushView value: I32(3)
   static ::UnityEngine::UIElements::UIR::CommandType const PushView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CommandType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CommandType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CommandType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::CommandType, "UnityEngine.UIElements.UIR", "CommandType");

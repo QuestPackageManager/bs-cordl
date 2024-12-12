@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4421864;
+  constexpr static std::size_t addrs = 0x4482b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Object*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4421a1c;
+  constexpr static std::size_t addrs = 0x4482d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Object*, ::System::Object*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4421c24;
+  constexpr static std::size_t addrs = 0x4482f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4421e40;
+  constexpr static std::size_t addrs = 0x4483154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeAddOrRemove)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4421c0c;
+  constexpr static std::size_t addrs = 0x4482f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventArgs::*)(
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, int32_t)>(&::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeAdd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4421998;
+  constexpr static std::size_t addrs = 0x4482cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeRemove)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4421ff0;
+  constexpr static std::size_t addrs = 0x4483304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Specialized::NotifyCollectionChangedAction, ::System::Collections::IList*, ::System::Collections::IList*, int32_t, int32_t)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventArgs::InitializeMoveOrReplace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4421dfc;
+  constexpr static std::size_t addrs = 0x4483110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +164,7 @@ constexpr ::System::Collections::IList*& System::Collections::Specialized::Notif
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newItems;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::Collections::Specialized::NotifyCollectionChangedEventArgs::__cordl_internal_get__newItems() const {
+constexpr ::System::Collections::IList* const& System::Collections::Specialized::NotifyCollectionChangedEventArgs::__cordl_internal_get__newItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newItems;
 }
@@ -176,7 +176,7 @@ constexpr ::System::Collections::IList*& System::Collections::Specialized::Notif
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oldItems;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::Collections::Specialized::NotifyCollectionChangedEventArgs::__cordl_internal_get__oldItems() const {
+constexpr ::System::Collections::IList* const& System::Collections::Specialized::NotifyCollectionChangedEventArgs::__cordl_internal_get__oldItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oldItems;
 }
@@ -208,19 +208,11 @@ constexpr void System::Collections::Specialized::NotifyCollectionChangedEventArg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____oldStartingIndex = value;
 }
-inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
-System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action));
-}
 inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Specialized::NotifyCollectionChangedAction>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, action);
-}
-inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
-System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, changedItem, index));
 }
 inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem,
                                                                                       int32_t index) {
@@ -230,11 +222,6 @@ inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, action, changedItem, index);
 }
-inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
-System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem,
-                                                                             ::System::Object* oldItem, int32_t index) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, newItem, oldItem, index));
-}
 inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem,
                                                                                       ::System::Object* oldItem, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,11 +230,6 @@ inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, action, newItem, oldItem, index);
-}
-inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
-System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems,
-                                                                             ::System::Collections::IList* oldItems, int32_t startingIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, newItems, oldItems, startingIndex));
 }
 inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems,
                                                                                       ::System::Collections::IList* oldItems, int32_t startingIndex) {
@@ -299,6 +281,24 @@ inline void System::Collections::Specialized::NotifyCollectionChangedEventArgs::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, action, newItems, oldItems, startingIndex, oldStartingIndex);
+}
+inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
+System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action));
+}
+inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
+System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, changedItem, index));
+}
+inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
+System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem,
+                                                                             ::System::Object* oldItem, int32_t index) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, newItem, oldItem, index));
+}
+inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*
+System::Collections::Specialized::NotifyCollectionChangedEventArgs::New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems,
+                                                                             ::System::Collections::IList* oldItems, int32_t startingIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Specialized::NotifyCollectionChangedEventArgs*>(action, newItems, oldItems, startingIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::Specialized::NotifyCollectionChangedEventArgs::NotifyCollectionChangedEventArgs() {}

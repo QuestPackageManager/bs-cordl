@@ -51,8 +51,7 @@ template <typename T> constexpr ::System::Func_2<::UnityEngine::Color, T>*& Unit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Convert;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Color, T>*> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Convert() const {
+template <typename T> constexpr ::System::Func_2<::UnityEngine::Color, T>* const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Convert() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Convert;
 }
@@ -64,8 +63,7 @@ template <typename T> constexpr ::UnityEngine::UIElements::UIRAtlasAllocator*& U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
-template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIRAtlasAllocator*> const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Allocator() const {
+template <typename T> constexpr ::UnityEngine::UIElements::UIRAtlasAllocator* const& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__cordl_internal_get_m_Allocator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Allocator;
 }
@@ -97,15 +95,6 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::ShaderInfoSto
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Texels = value;
 }
-/// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
-/// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
-template <typename T>
-inline ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*
-UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::New_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>(format, convert, initialSize, maxSize));
-}
-/// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
-/// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
 template <typename T>
 inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +116,7 @@ template <typename T> inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::UIE
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method);
 }
-template <typename T> inline bool UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs) {
+template <typename T> inline bool UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::AllocateRect(int32_t width, int32_t height, ::ByRef<::UnityEngine::RectInt> uvs) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 6)));
@@ -160,6 +149,11 @@ inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::CpuBlit(::Unit
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeArray_1<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, src, srcWidth, srcHeight, dst, dstWidth, dstHeight);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*
+UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::New_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>(format, convert, initialSize, maxSize));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::ShaderInfoStorage_1() {}

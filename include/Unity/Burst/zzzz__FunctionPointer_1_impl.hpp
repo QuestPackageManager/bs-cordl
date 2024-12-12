@@ -1,17 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Unity/Burst/FunctionPointer_1.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
+#include "Unity/Burst/zzzz__IFunctionPointer_impl.hpp"
 #include "Unity/Burst/zzzz__FunctionPointer_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "Unity/Burst/zzzz__IFunctionPointer_def.hpp"
-/// @brief Convert operator to "::Unity::Burst::IFunctionPointer"
-template <typename T> constexpr Unity::Burst::FunctionPointer_1<T>::operator ::Unity::Burst::IFunctionPointer*() {
-  return static_cast<::Unity::Burst::IFunctionPointer*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::Unity::Burst::IFunctionPointer"
-template <typename T> constexpr ::Unity::Burst::IFunctionPointer* Unity::Burst::FunctionPointer_1<T>::i___Unity__Burst__IFunctionPointer() {
-  return static_cast<::Unity::Burst::IFunctionPointer*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 template <typename T> inline void Unity::Burst::FunctionPointer_1<T>::_ctor(::System::IntPtr ptr) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::FunctionPointer_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -43,6 +36,14 @@ template <typename T> inline ::Unity::Burst::IFunctionPointer* Unity::Burst::Fun
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::FunctionPointer_1<T>>::get(), "Unity.Burst.IFunctionPointer.FromIntPtr",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::IFunctionPointer*, false>(this, ___internal_method, ptr);
+}
+/// @brief Convert operator to "::Unity::Burst::IFunctionPointer"
+template <typename T> constexpr Unity::Burst::FunctionPointer_1<T>::operator ::Unity::Burst::IFunctionPointer*() {
+  return static_cast<::Unity::Burst::IFunctionPointer*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::Unity::Burst::IFunctionPointer"
+template <typename T> constexpr ::Unity::Burst::IFunctionPointer* Unity::Burst::FunctionPointer_1<T>::i___Unity__Burst__IFunctionPointer() {
+  return static_cast<::Unity::Burst::IFunctionPointer*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::Unity::Burst::FunctionPointer_1<T>::FunctionPointer_1(::System::IntPtr _ptr) noexcept {

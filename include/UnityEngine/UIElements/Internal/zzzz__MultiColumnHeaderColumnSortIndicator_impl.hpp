@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)(::StringW)>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::set_sortOrderLabel)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4985130;
+  constexpr static std::size_t addrs = 0x49e9a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4985154;
+  constexpr static std::size_t addrs = 0x49e9a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,7 @@ constexpr ::UnityEngine::UIElements::Label*& UnityEngine::UIElements::Internal::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexLabel;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const&
-UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::__cordl_internal_get_m_IndexLabel() const {
+constexpr ::UnityEngine::UIElements::Label* const& UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::__cordl_internal_get_m_IndexLabel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IndexLabel;
 }
@@ -78,14 +77,14 @@ inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndica
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*>());
-}
 inline void UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator* UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator::MultiColumnHeaderColumnSortIndicator() {}

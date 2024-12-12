@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerBuffer*)>(
     &::UnityEngine::Networking::DownloadHandlerBuffer::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a7eb60;
+  constexpr static std::size_t addrs = 0x4ae3470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerBuffer::*)()>(
     &::UnityEngine::Networking::DownloadHandlerBuffer::InternalCreateBuffer)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a7eb9c;
+  constexpr static std::size_t addrs = 0x4ae34ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerBuffer*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerBuffer::*)()>(
     &::UnityEngine::Networking::DownloadHandlerBuffer::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a7ebe0;
+  constexpr static std::size_t addrs = 0x4ae34f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerBuffer*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (::UnityEngine::Networking::DownloadHandlerBuffer::*)()>(
     &::UnityEngine::Networking::DownloadHandlerBuffer::GetNativeData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7ec2c;
+  constexpr static std::size_t addrs = 0x4ae353c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerBuffer::*)()>(
     &::UnityEngine::Networking::DownloadHandlerBuffer::Dispose)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a7ec34;
+  constexpr static std::size_t addrs = 0x4ae3544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,9 +103,6 @@ inline void UnityEngine::Networking::DownloadHandlerBuffer::InternalCreateBuffer
                                                                              "InternalCreateBuffer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Networking::DownloadHandlerBuffer* UnityEngine::Networking::DownloadHandlerBuffer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::DownloadHandlerBuffer*>());
-}
 inline void UnityEngine::Networking::DownloadHandlerBuffer::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerBuffer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -120,6 +117,9 @@ inline void UnityEngine::Networking::DownloadHandlerBuffer::Dispose() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerBuffer*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Networking::DownloadHandlerBuffer* UnityEngine::Networking::DownloadHandlerBuffer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::DownloadHandlerBuffer*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Networking::DownloadHandlerBuffer::DownloadHandlerBuffer() {}

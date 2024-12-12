@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* (
     ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a84150;
+  constexpr static std::size_t addrs = 0x3adc7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::Start)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3a84158;
+  constexpr static std::size_t addrs = 0x3adc7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::OnDestroy)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3a8439c;
+  constexpr static std::size_t addrs = 0x3adca40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ScoringElement*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoringForNoteDidFinish)> {
   constexpr static std::size_t size = 0x470;
-  constexpr static std::size_t addrs = 0x3a8462c;
+  constexpr static std::size_t addrs = 0x3adccd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandlePlayerHeadDidEnterObstacle)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a84a9c;
+  constexpr static std::size_t addrs = 0x3add140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3a84bb4;
+  constexpr static std::size_t addrs = 0x3add258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(
     &::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3a84d08;
+  constexpr static std::size_t addrs = 0x3add3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>::get(),
@@ -117,7 +117,7 @@ constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::BeatmapObjectEx
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__scoreController() const {
+constexpr ::GlobalNamespace::IScoreController* const& GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__scoreController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
@@ -129,8 +129,7 @@ constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::BeatmapObje
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const&
-GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__beatmapObjectManager() const {
+constexpr ::GlobalNamespace::BeatmapObjectManager* const& GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
@@ -167,7 +166,7 @@ GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__be
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectExecutionRatings;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>*> const&
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* const&
 GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__beatmapObjectExecutionRatings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectExecutionRatings;
@@ -181,7 +180,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitObstacles;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const&
+constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* const&
 GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::__cordl_internal_get__hitObstacles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hitObstacles;
@@ -225,13 +224,13 @@ inline void GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleObstac
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ObstacleController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obstacleController);
 }
-inline ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>());
-}
 inline void GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::BeatmapObjectExecutionRatingsRecorder() {}

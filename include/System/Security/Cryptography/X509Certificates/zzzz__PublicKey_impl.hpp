@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::Oid*, ::System::Security::Cryptography::AsnEncodedData*, ::System::Security::Cryptography::AsnEncodedData*)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x43d3ad8;
+  constexpr static std::size_t addrs = 0x4434dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsnEncodedData* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedKeyValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d3c40;
+  constexpr static std::size_t addrs = 0x4434f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsnEncodedData* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_EncodedParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d3c48;
+  constexpr static std::size_t addrs = 0x4434f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::AsymmetricAlgorithm* (
     ::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(&::System::Security::Cryptography::X509Certificates::PublicKey::get_Key)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x43d3c50;
+  constexpr static std::size_t addrs = 0x4434f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::Oid* (::System::Security::Cryptography::X509Certificates::PublicKey::*)()>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::get_Oid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d4610;
+  constexpr static std::size_t addrs = 0x4435924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43d4618;
+  constexpr static std::size_t addrs = 0x443592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::DSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA)> {
   constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x43d4190;
+  constexpr static std::size_t addrs = 0x44354a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x43d3df4;
+  constexpr static std::size_t addrs = 0x4435108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,8 +136,7 @@ constexpr ::System::Security::Cryptography::AsnEncodedData*& System::Security::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsnEncodedData*> const&
-System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__keyValue() const {
+constexpr ::System::Security::Cryptography::AsnEncodedData* const& System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__keyValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyValue;
 }
@@ -149,8 +148,7 @@ constexpr ::System::Security::Cryptography::AsnEncodedData*& System::Security::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsnEncodedData*> const&
-System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__params() const {
+constexpr ::System::Security::Cryptography::AsnEncodedData* const& System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__params() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____params;
 }
@@ -162,7 +160,7 @@ constexpr ::System::Security::Cryptography::Oid*& System::Security::Cryptography
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__oid() const {
+constexpr ::System::Security::Cryptography::Oid* const& System::Security::Cryptography::X509Certificates::PublicKey::__cordl_internal_get__oid() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oid;
 }
@@ -178,11 +176,6 @@ inline void System::Security::Cryptography::X509Certificates::PublicKey::setStat
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::X509Certificates::PublicKey::getStaticF_Empty() {
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "Empty",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::PublicKey*>::get>();
-}
-inline ::System::Security::Cryptography::X509Certificates::PublicKey*
-System::Security::Cryptography::X509Certificates::PublicKey::New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
-                                                                      ::System::Security::Cryptography::AsnEncodedData* keyValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::PublicKey*>(oid, parameters, keyValue));
 }
 inline void System::Security::Cryptography::X509Certificates::PublicKey::_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
                                                                                ::System::Security::Cryptography::AsnEncodedData* keyValue) {
@@ -236,6 +229,11 @@ inline ::System::Security::Cryptography::RSA* System::Security::Cryptography::X5
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::PublicKey*>::get(), "DecodeRSA", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::RSA*, false>(nullptr, ___internal_method, rawPublicKey);
+}
+inline ::System::Security::Cryptography::X509Certificates::PublicKey*
+System::Security::Cryptography::X509Certificates::PublicKey::New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
+                                                                      ::System::Security::Cryptography::AsnEncodedData* keyValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::PublicKey*>(oid, parameters, keyValue));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::PublicKey::PublicKey() {}

@@ -5,7 +5,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelExtensions)
+namespace GlobalNamespace {
+class BeatmapLevelExtensions___c;
+}
+namespace GlobalNamespace {
+class BeatmapLevelSO_ColorScheme;
+}
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
@@ -13,7 +20,10 @@ namespace GlobalNamespace {
 class BeatmapLevel;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelExtensions____c;
+class ColorScheme;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -26,78 +36,79 @@ namespace GlobalNamespace {
 class BeatmapLevelExtensions;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelExtensions____c;
+class BeatmapLevelExtensions___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelExtensions);
-MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelExtensions____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelExtensions___c);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelExtensions::<>c*
-class CORDL_TYPE __BeatmapLevelExtensions____c : public ::System::Object {
+// CS Name: BeatmapLevelExtensions/<>c
+class CORDL_TYPE BeatmapLevelExtensions___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__BeatmapLevelExtensions____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::BeatmapLevelExtensions___c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::StringW, ::StringW>* __9__1_0;
+  __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0)) ::System::Func_2<::StringW, ::StringW>* __9__1_0;
 
-  static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* New_ctor();
+  static inline ::GlobalNamespace::BeatmapLevelExtensions___c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__1_0, addr 0x269347c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ToRuntime>b__1_0, addr 0x26c7fec, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x2693474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c7fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* getStaticF___9();
+  static inline ::GlobalNamespace::BeatmapLevelExtensions___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__BeatmapLevelExtensions____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::BeatmapLevelExtensions___c* value);
 
   static inline void setStaticF___9__1_0(::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatmapLevelExtensions____c();
+  constexpr BeatmapLevelExtensions___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelExtensions____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BeatmapLevelExtensions____c(__BeatmapLevelExtensions____c&&) = delete;
+  BeatmapLevelExtensions___c(BeatmapLevelExtensions___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelExtensions____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelExtensions___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BeatmapLevelExtensions____c(__BeatmapLevelExtensions____c const&) = delete;
+  BeatmapLevelExtensions___c(BeatmapLevelExtensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12955 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevelExtensions____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelExtensions___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::BeatmapLevelExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelExtensions*
+// CS Name: BeatmapLevelExtensions
 class CORDL_TYPE BeatmapLevelExtensions : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__BeatmapLevelExtensions____c;
+  using __c = ::GlobalNamespace::BeatmapLevelExtensions___c;
 
-  /// @brief Method ToCensoredRuntime, addr 0x2691d34, size 0x930, virtual false, abstract: false, final false
+  /// @brief Method CreateColorScheme, addr 0x26c7cf0, size 0x290, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::ColorScheme* CreateColorScheme(int32_t idx, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelSO_ColorScheme*>* colorSchemes);
+
+  /// @brief Method ToCensoredRuntime, addr 0x26c6560, size 0x930, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
 
-  /// @brief Method ToRuntime, addr 0x2692690, size 0xce8, virtual false, abstract: false, final false
+  /// @brief Method ToRuntime, addr 0x26c6ebc, size 0xd04, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:
@@ -115,7 +126,7 @@ public:
   BeatmapLevelExtensions(BeatmapLevelExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12956 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,5 +136,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelExt
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelExtensions*, "", "BeatmapLevelExtensions");
-NEED_NO_BOX(::GlobalNamespace::__BeatmapLevelExtensions____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BeatmapLevelExtensions____c*, "", "BeatmapLevelExtensions/<>c");
+NEED_NO_BOX(::GlobalNamespace::BeatmapLevelExtensions___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelExtensions___c*, "", "BeatmapLevelExtensions/<>c");

@@ -12,23 +12,22 @@ class NamedCurve;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::NamedCurve);
-// Type: Org.BouncyCastle.Crypto.Tls::NamedCurve
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::NamedCurve*
+// CS Name: Org.BouncyCastle.Crypto.Tls.NamedCurve
 class CORDL_TYPE NamedCurve : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x23e1fd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x24152c4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsValid(int32_t namedCurve);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NamedCurve* New_ctor();
 
-  /// @brief Method RefersToASpecificNamedCurve, addr 0x23e2000, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RefersToASpecificNamedCurve, addr 0x24152ec, size 0x14, virtual false, abstract: false, final false
   static inline bool RefersToASpecificNamedCurve(int32_t namedCurve);
 
-  /// @brief Method .ctor, addr 0x23e2014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

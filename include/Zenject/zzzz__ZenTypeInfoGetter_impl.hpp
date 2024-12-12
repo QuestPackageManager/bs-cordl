@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenTypeInfoGetter::*)(::System::Object*, ::System::IntPtr)>(&::Zenject::ZenTypeInfoGetter::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4aed168;
+  constexpr static std::size_t addrs = 0x4b51a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)()>(&::Zenject::ZenTypeInfoGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4aed1f0;
+  constexpr static std::size_t addrs = 0x4b51b00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::Zenject::ZenTypeInfoGetter::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::Zenject::ZenTypeInfoGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aed204;
+  constexpr static std::size_t addrs = 0x4b51b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)(::System::IAsyncResult*)>(
     &::Zenject::ZenTypeInfoGetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aed224;
+  constexpr static std::size_t addrs = 0x4b51b34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,9 +66,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Zenject::ZenTypeInfoGetter* Zenject::ZenTypeInfoGetter::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenTypeInfoGetter*>(object, method));
-}
 inline void Zenject::ZenTypeInfoGetter::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenTypeInfoGetter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -90,6 +87,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenTypeInfoGetter::EndInvoke(::System
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenTypeInfoGetter*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(this, ___internal_method, result);
+}
+inline ::Zenject::ZenTypeInfoGetter* Zenject::ZenTypeInfoGetter::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenTypeInfoGetter*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenTypeInfoGetter::ZenTypeInfoGetter() {}

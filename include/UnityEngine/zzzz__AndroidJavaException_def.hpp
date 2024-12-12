@@ -12,11 +12,10 @@ class AndroidJavaException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidJavaException);
-// Type: UnityEngine::AndroidJavaException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AndroidJavaException*
+// CS Name: UnityEngine.AndroidJavaException
 class CORDL_TYPE AndroidJavaException : public ::System::Exception {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x47df5a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48408b4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x47e2b38, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x4843e4c, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AndroidJavaException(AndroidJavaException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16756 };
+
   /// @brief Field mJavaStackTrace, offset: 0x90, size: 0x8, def value: None
   ::StringW ___mJavaStackTrace;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AndroidJavaException, ___mJavaStackTrace) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaException, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJavaException);

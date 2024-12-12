@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardGameplaySceneSetupData)
 namespace GlobalNamespace {
@@ -23,11 +22,10 @@ class StandardGameplaySceneSetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardGameplaySceneSetupData);
-// Type: ::StandardGameplaySceneSetupData
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapKey, SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandardGameplaySceneSetupData*
+// CS Name: StandardGameplaySceneSetupData
 class CORDL_TYPE StandardGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
@@ -49,7 +47,7 @@ public:
   /// @brief Field startPaused, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
 
-  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+  static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                             ::StringW backButtonText, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
   constexpr bool const& __cordl_internal_get_autoRestart() const;
@@ -64,13 +62,13 @@ public:
 
   constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
 
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get_beatmapLevel() const;
+
   constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get_gameplayModifiers() const;
 
   constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
 
   constexpr bool const& __cordl_internal_get_startPaused() const;
 
@@ -88,8 +86,8 @@ public:
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  /// @brief Method .ctor, addr 0x3ada068, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(bool autoRestart, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
+  /// @brief Method .ctor, addr 0x3b39fd8, size 0x64, virtual false, abstract: false, final false
+  inline void _ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
 protected:
@@ -105,6 +103,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "StandardGameplaySceneSetupData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
@@ -124,14 +125,9 @@ public:
   /// @brief Field startPaused, offset: 0x48, size: 0x1, def value: None
   bool ___startPaused;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5224 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardGameplaySceneSetupData, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___autoRestart) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapKey) == 0x18, "Offset mismatch!");
@@ -143,6 +139,8 @@ static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___bac
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___gameplayModifiers) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___startPaused) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardGameplaySceneSetupData, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardGameplaySceneSetupData);

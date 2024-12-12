@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/DragAndDropArgs.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropPosition_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropPosition_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DragAndDropArgs.set_target
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::System::Object*)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b336c;
+  constexpr static std::size_t addrs = 0x4a17c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_insertAtIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b3374;
+  constexpr static std::size_t addrs = 0x4a17c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_insertAtIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b337c;
+  constexpr static std::size_t addrs = 0x4a17c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b3384;
+  constexpr static std::size_t addrs = 0x4a17c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_parentId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b338c;
+  constexpr static std::size_t addrs = 0x4a17c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_childIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b3394;
+  constexpr static std::size_t addrs = 0x4a17ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(int32_t)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_childIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b339c;
+  constexpr static std::size_t addrs = 0x4a17cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragAndDropPosition (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_dragAndDropPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b33a4;
+  constexpr static std::size_t addrs = 0x4a17cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::UnityEngine::UIElements::DragAndDropPosition)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_dragAndDropPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b33ac;
+  constexpr static std::size_t addrs = 0x4a17cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragAndDropData* (::UnityEngine::UIElements::DragAndDropArgs::*)()>(
     &::UnityEngine::UIElements::DragAndDropArgs::get_dragAndDropData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b33b4;
+  constexpr static std::size_t addrs = 0x4a17cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DragAndDropArgs::*)(::UnityEngine::UIElements::DragAndDropData*)>(
     &::UnityEngine::UIElements::DragAndDropArgs::set_dragAndDropData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b33bc;
+  constexpr static std::size_t addrs = 0x4a17ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,14 +166,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
-constexpr UnityEngine::UIElements::DragAndDropArgs::operator ::UnityEngine::UIElements::IListDragAndDropArgs*() {
-  return static_cast<::UnityEngine::UIElements::IListDragAndDropArgs*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IListDragAndDropArgs"
-constexpr ::UnityEngine::UIElements::IListDragAndDropArgs* UnityEngine::UIElements::DragAndDropArgs::i___UnityEngine__UIElements__IListDragAndDropArgs() {
-  return static_cast<::UnityEngine::UIElements::IListDragAndDropArgs*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::UIElements::DragAndDropArgs::set_target(::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropArgs>::get(), "set_target", std::span<Il2CppClass const* const, 0>(),
@@ -235,10 +227,18 @@ inline void UnityEngine::UIElements::DragAndDropArgs::set_dragAndDropData(::Unit
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DragAndDropData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_insertAtIndex_k__BackingField", ty: "int32_t",
+/// @brief Convert operator to "::UnityEngine::UIElements::IListDragAndDropArgs"
+constexpr UnityEngine::UIElements::DragAndDropArgs::operator ::UnityEngine::UIElements::IListDragAndDropArgs*() {
+  return static_cast<::UnityEngine::UIElements::IListDragAndDropArgs*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IListDragAndDropArgs"
+constexpr ::UnityEngine::UIElements::IListDragAndDropArgs* UnityEngine::UIElements::DragAndDropArgs::i___UnityEngine__UIElements__IListDragAndDropArgs() {
+  return static_cast<::UnityEngine::UIElements::IListDragAndDropArgs*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_insertAtIndex_k__BackingField", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "_parentId_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_childIndex_k__BackingField", ty:
 // "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_dragAndDropPosition_k__BackingField", ty: "::UnityEngine::UIElements::DragAndDropPosition", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "_dragAndDropData_k__BackingField", ty: "::UnityEngine::UIElements::DragAndDropData*", modifiers: "", def_value: Some("nullptr") }]
+// Some("{}") }, CppParam { name: "_dragAndDropData_k__BackingField", ty: "::UnityEngine::UIElements::DragAndDropData*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::DragAndDropArgs::DragAndDropArgs(::System::Object* _target_k__BackingField, int32_t _insertAtIndex_k__BackingField, int32_t _parentId_k__BackingField,
                                                                       int32_t _childIndex_k__BackingField, ::UnityEngine::UIElements::DragAndDropPosition _dragAndDropPosition_k__BackingField,
                                                                       ::UnityEngine::UIElements::DragAndDropData* _dragAndDropData_k__BackingField) noexcept {

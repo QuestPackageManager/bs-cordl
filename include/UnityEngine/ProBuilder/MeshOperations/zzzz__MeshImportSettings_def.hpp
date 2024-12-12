@@ -13,11 +13,10 @@ class MeshImportSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
-// Type: UnityEngine.ProBuilder.MeshOperations::MeshImportSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImportSettings*
+// CS Name: UnityEngine.ProBuilder.MeshOperations.MeshImportSettings
 class CORDL_TYPE MeshImportSettings : public ::System::Object {
 public:
   // Declarations
@@ -38,7 +37,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x471a458, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x477b76c, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_Quads() const;
@@ -59,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x471a530, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x477b844, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_quads, addr 0x471a420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quads, addr 0x477b734, size 0x8, virtual false, abstract: false, final false
   inline bool get_quads();
 
-  /// @brief Method get_smoothing, addr 0x471a434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothing, addr 0x477b748, size 0x8, virtual false, abstract: false, final false
   inline bool get_smoothing();
 
-  /// @brief Method get_smoothingAngle, addr 0x471a448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothingAngle, addr 0x477b75c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smoothingAngle();
 
-  /// @brief Method set_quads, addr 0x471a428, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_quads, addr 0x477b73c, size 0xc, virtual false, abstract: false, final false
   inline void set_quads(bool value);
 
-  /// @brief Method set_smoothing, addr 0x471a43c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_smoothing, addr 0x477b750, size 0xc, virtual false, abstract: false, final false
   inline void set_smoothing(bool value);
 
-  /// @brief Method set_smoothingAngle, addr 0x471a450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothingAngle, addr 0x477b764, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothingAngle(float_t value);
 
 protected:
@@ -94,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MeshImportSettings(MeshImportSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14383 };
+
   /// @brief Field m_Quads, offset: 0x10, size: 0x1, def value: None
   bool ___m_Quads;
 
@@ -103,19 +105,16 @@ public:
   /// @brief Field m_SmoothingThreshold, offset: 0x14, size: 0x4, def value: None
   float_t ___m_SmoothingThreshold;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_Quads) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_Smoothing) == 0x11, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, ___m_SmoothingThreshold) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);

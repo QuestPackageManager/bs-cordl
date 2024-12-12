@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)()>(&::GlobalNamespace::ShockwaveEffect::Start)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3b22c8c;
+  constexpr static std::size_t addrs = 0x3b83f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShockwaveEffect*>::get(), "Start",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ShockwaveEffect::SpawnShockwave)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b22dcc;
+  constexpr static std::size_t addrs = 0x3b840cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)()>(&::GlobalNamespace::ShockwaveEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b22ea0;
+  constexpr static std::size_t addrs = 0x3b841a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShockwaveEffect*>::get(), ".ctor",
@@ -63,7 +63,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::ShockwaveEffect:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -71,15 +71,15 @@ constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__settingsM
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__shockwavePSEmitParams() {
+constexpr ::UnityEngine::ParticleSystem_EmitParams& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__shockwavePSEmitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmitParams const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__shockwavePSEmitParams() const {
+constexpr ::UnityEngine::ParticleSystem_EmitParams const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__shockwavePSEmitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shockwavePSEmitParams;
 }
-constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value) {
+constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__shockwavePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shockwavePSEmitParams = value;
 }
@@ -106,13 +106,13 @@ inline void GlobalNamespace::ShockwaveEffect::SpawnShockwave(::UnityEngine::Vect
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
 }
-inline ::GlobalNamespace::ShockwaveEffect* GlobalNamespace::ShockwaveEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ShockwaveEffect*>());
-}
 inline void GlobalNamespace::ShockwaveEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShockwaveEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ShockwaveEffect* GlobalNamespace::ShockwaveEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ShockwaveEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShockwaveEffect::ShockwaveEffect() {}

@@ -13,11 +13,10 @@ class FPSCounter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FPSCounter);
-// Type: ::FPSCounter
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FPSCounter*
+// CS Name: FPSCounter
 class CORDL_TYPE FPSCounter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,12 +49,12 @@ public:
 
   __declspec(property(get = get_lowestFPS, put = set_lowestFPS)) int32_t lowestFPS;
 
-  /// @brief Method Awake, addr 0x396921c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39be8b4, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FPSCounter* New_ctor();
 
-  /// @brief Method Update, addr 0x396922c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39be8c4, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__currentFPS_k__BackingField() const;
@@ -100,31 +99,31 @@ public:
 
   constexpr void __cordl_internal_set__timeBuffer(float_t value);
 
-  /// @brief Method .ctor, addr 0x39692d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39be970, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentFPS, addr 0x39691dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentFPS, addr 0x39be874, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();
 
-  /// @brief Method get_droppedFrames, addr 0x396920c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_droppedFrames, addr 0x39be8a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_droppedFrames();
 
-  /// @brief Method get_highestFPS, addr 0x39691fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highestFPS, addr 0x39be894, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_highestFPS();
 
-  /// @brief Method get_lowestFPS, addr 0x39691ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowestFPS, addr 0x39be884, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lowestFPS();
 
-  /// @brief Method set_currentFPS, addr 0x39691e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_currentFPS, addr 0x39be87c, size 0x8, virtual false, abstract: false, final false
   inline void set_currentFPS(int32_t value);
 
-  /// @brief Method set_droppedFrames, addr 0x3969214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_droppedFrames, addr 0x39be8ac, size 0x8, virtual false, abstract: false, final false
   inline void set_droppedFrames(int32_t value);
 
-  /// @brief Method set_highestFPS, addr 0x3969204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highestFPS, addr 0x39be89c, size 0x8, virtual false, abstract: false, final false
   inline void set_highestFPS(int32_t value);
 
-  /// @brief Method set_lowestFPS, addr 0x39691f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowestFPS, addr 0x39be88c, size 0x8, virtual false, abstract: false, final false
   inline void set_lowestFPS(int32_t value);
 
 protected:
@@ -140,6 +139,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FPSCounter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FPSCounter(FPSCounter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18853 };
 
   /// @brief Field <currentFPS>k__BackingField, offset: 0x20, size: 0x4, def value: None
   int32_t ____currentFPS_k__BackingField;
@@ -162,14 +164,9 @@ public:
   /// @brief Field _minDeltaTime, offset: 0x38, size: 0x4, def value: None
   float_t ____minDeltaTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18752 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FPSCounter, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FPSCounter, ____currentFPS_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FPSCounter, ____lowestFPS_k__BackingField) == 0x24, "Offset mismatch!");
@@ -183,6 +180,8 @@ static_assert(offsetof(::GlobalNamespace::FPSCounter, ____timeBuffer) == 0x30, "
 static_assert(offsetof(::GlobalNamespace::FPSCounter, ____frameCounter) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FPSCounter, ____minDeltaTime) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FPSCounter, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FPSCounter);

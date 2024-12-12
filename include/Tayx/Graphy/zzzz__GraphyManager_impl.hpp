@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Tayx/Graphy/GraphyManager.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_impl.hpp"
-#include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FFTWindow_impl.hpp"
@@ -19,78 +18,78 @@
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FFTWindow_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__Mode::__GraphyManager__Mode(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_Mode::GraphyManager_Mode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__Mode::__GraphyManager__Mode() {}
-constexpr ::Tayx::Graphy::__GraphyManager__Mode Tayx::Graphy::__GraphyManager__Mode::FULL{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__Mode Tayx::Graphy::__GraphyManager__Mode::LIGHT{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_Mode::GraphyManager_Mode() {}
+constexpr ::Tayx::Graphy::GraphyManager_Mode Tayx::Graphy::GraphyManager_Mode::FULL{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_Mode Tayx::Graphy::GraphyManager_Mode::LIGHT{ static_cast<int32_t>(0x1) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType::__GraphyManager__ModuleType(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType::GraphyManager_ModuleType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType::__GraphyManager__ModuleType() {}
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType Tayx::Graphy::__GraphyManager__ModuleType::FPS{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType Tayx::Graphy::__GraphyManager__ModuleType::RAM{ static_cast<int32_t>(0x1) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType Tayx::Graphy::__GraphyManager__ModuleType::AUDIO{ static_cast<int32_t>(0x2) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleType Tayx::Graphy::__GraphyManager__ModuleType::ADVANCED{ static_cast<int32_t>(0x3) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType::GraphyManager_ModuleType() {}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::FPS{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::RAM{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::AUDIO{ static_cast<int32_t>(0x2) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleType Tayx::Graphy::GraphyManager_ModuleType::ADVANCED{ static_cast<int32_t>(0x3) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState::__GraphyManager__ModuleState(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState::GraphyManager_ModuleState(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState::__GraphyManager__ModuleState() {}
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::__GraphyManager__ModuleState::FULL{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::__GraphyManager__ModuleState::TEXT{ static_cast<int32_t>(0x1) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::__GraphyManager__ModuleState::BASIC{ static_cast<int32_t>(0x2) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::__GraphyManager__ModuleState::BACKGROUND{ static_cast<int32_t>(0x3) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::__GraphyManager__ModuleState::OFF{ static_cast<int32_t>(0x4) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState::GraphyManager_ModuleState() {}
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::FULL{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::TEXT{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::BASIC{ static_cast<int32_t>(0x2) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::BACKGROUND{ static_cast<int32_t>(0x3) };
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager_ModuleState::OFF{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition::__GraphyManager__ModulePosition(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition::GraphyManager_ModulePosition(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition::__GraphyManager__ModulePosition() {}
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::__GraphyManager__ModulePosition::TOP_RIGHT{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::__GraphyManager__ModulePosition::TOP_LEFT{ static_cast<int32_t>(0x1) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::__GraphyManager__ModulePosition::BOTTOM_RIGHT{ static_cast<int32_t>(0x2) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::__GraphyManager__ModulePosition::BOTTOM_LEFT{ static_cast<int32_t>(0x3) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::__GraphyManager__ModulePosition::FREE{ static_cast<int32_t>(0x4) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition::GraphyManager_ModulePosition() {}
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::TOP_RIGHT{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::TOP_LEFT{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::BOTTOM_RIGHT{ static_cast<int32_t>(0x2) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::BOTTOM_LEFT{ static_cast<int32_t>(0x3) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager_ModulePosition::FREE{ static_cast<int32_t>(0x4) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener::__GraphyManager__LookForAudioListener(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener::GraphyManager_LookForAudioListener(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener::__GraphyManager__LookForAudioListener() {}
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener Tayx::Graphy::__GraphyManager__LookForAudioListener::ALWAYS{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener Tayx::Graphy::__GraphyManager__LookForAudioListener::ON_SCENE_LOAD{ static_cast<int32_t>(0x1) };
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener Tayx::Graphy::__GraphyManager__LookForAudioListener::NEVER{ static_cast<int32_t>(0x2) };
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener::GraphyManager_LookForAudioListener() {}
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::ALWAYS{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::ON_SCENE_LOAD{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager_LookForAudioListener::NEVER{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset::__GraphyManager__ModulePreset(int32_t value__) noexcept {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset::GraphyManager_ModulePreset(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset::__GraphyManager__ModulePreset() {}
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_BASIC{ static_cast<int32_t>(0x0) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_TEXT{ static_cast<int32_t>(0x1) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL{ static_cast<int32_t>(0x2) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_TEXT_RAM_TEXT{ static_cast<int32_t>(0x3) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_TEXT{ static_cast<int32_t>(0x4) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_FULL{ static_cast<int32_t>(0x5) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_TEXT_RAM_TEXT_AUDIO_TEXT{ static_cast<int32_t>(0x6) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_TEXT_AUDIO_TEXT{ static_cast<int32_t>(0x7) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_FULL_AUDIO_TEXT{ static_cast<int32_t>(0x8) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_FULL_AUDIO_FULL{ static_cast<int32_t>(0x9) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL{ static_cast<int32_t>(0xa) };
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset Tayx::Graphy::__GraphyManager__ModulePreset::FPS_BASIC_ADVANCED_FULL{ static_cast<int32_t>(0xb) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset::GraphyManager_ModulePreset() {}
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_BASIC{ static_cast<int32_t>(0x0) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_TEXT{ static_cast<int32_t>(0x1) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL{ static_cast<int32_t>(0x2) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_TEXT_RAM_TEXT{ static_cast<int32_t>(0x3) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_TEXT{ static_cast<int32_t>(0x4) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_FULL{ static_cast<int32_t>(0x5) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_TEXT_RAM_TEXT_AUDIO_TEXT{ static_cast<int32_t>(0x6) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_TEXT_AUDIO_TEXT{ static_cast<int32_t>(0x7) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_FULL_AUDIO_TEXT{ static_cast<int32_t>(0x8) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_FULL_AUDIO_FULL{ static_cast<int32_t>(0x9) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_FULL_RAM_FULL_AUDIO_FULL_ADVANCED_FULL{ static_cast<int32_t>(0xa) };
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset Tayx::Graphy::GraphyManager_ModulePreset::FPS_BASIC_ADVANCED_FULL{ static_cast<int32_t>(0xb) };
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4468e34;
+  constexpr static std::size_t addrs = 0x44ca148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), ".ctor",
@@ -101,10 +100,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_GraphyMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__Mode (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_Mode (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_GraphyMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468f68;
+  constexpr static std::size_t addrs = 0x44ca27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GraphyMode",
@@ -115,15 +114,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_GraphyMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__Mode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_Mode)>(
     &::Tayx::Graphy::GraphyManager::set_GraphyMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468f70;
+  constexpr static std::size_t addrs = 0x44ca284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_GraphyMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__Mode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_Mode>::get() })));
     return ___internal_method;
   }
 };
@@ -132,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_EnableOnStartup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468fb8;
+  constexpr static std::size_t addrs = 0x44ca2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_EnableOnStartup",
@@ -145,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_KeepAlive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468fc0;
+  constexpr static std::size_t addrs = 0x44ca2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_KeepAlive",
@@ -158,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_Background)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468fc8;
+  constexpr static std::size_t addrs = 0x44ca2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_Background",
@@ -171,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(bool)>(&::Tayx::Graphy::GraphyManager::set_Background)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4468fd0;
+  constexpr static std::size_t addrs = 0x44ca2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_BackgroundColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4468fdc;
+  constexpr static std::size_t addrs = 0x44ca2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_BackgroundColor",
@@ -198,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(&::Tayx::Graphy::GraphyManager::set_BackgroundColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4468fe8;
+  constexpr static std::size_t addrs = 0x44ca2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,10 +209,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_GraphModulePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModulePosition (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModulePosition (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_GraphModulePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4468ff4;
+  constexpr static std::size_t addrs = 0x44ca308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GraphModulePosition",
@@ -224,25 +223,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_GraphModulePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModulePosition)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::GraphyManager::set_GraphModulePosition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4468ffc;
+  constexpr static std::size_t addrs = 0x44ca310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_GraphModulePosition", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_FpsModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_FpsModuleState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446990c;
+  constexpr static std::size_t addrs = 0x44cac20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FpsModuleState",
@@ -253,15 +252,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_FpsModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModuleState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleState)>(
     &::Tayx::Graphy::GraphyManager::set_FpsModuleState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4469914;
+  constexpr static std::size_t addrs = 0x44cac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_FpsModuleState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
     return ___internal_method;
   }
 };
@@ -270,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_GoodFPSColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4469ae4;
+  constexpr static std::size_t addrs = 0x44cadf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GoodFPSColor",
@@ -283,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(&::Tayx::Graphy::GraphyManager::set_GoodFPSColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4469af0;
+  constexpr static std::size_t addrs = 0x44cae04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_CautionFPSColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4469d10;
+  constexpr static std::size_t addrs = 0x44cb024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_CautionFPSColor",
@@ -310,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(&::Tayx::Graphy::GraphyManager::set_CautionFPSColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4469d1c;
+  constexpr static std::size_t addrs = 0x44cb030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_CriticalFPSColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4469d40;
+  constexpr static std::size_t addrs = 0x44cb054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_CriticalFPSColor",
@@ -338,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(
     &::Tayx::Graphy::GraphyManager::set_CriticalFPSColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4469d4c;
+  constexpr static std::size_t addrs = 0x44cb060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_GoodFPSThreshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4469d70;
+  constexpr static std::size_t addrs = 0x44cb084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GoodFPSThreshold",
@@ -365,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_GoodFPSThreshold)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469d78;
+  constexpr static std::size_t addrs = 0x44cb08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -379,7 +378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_CautionFPSThreshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4469d98;
+  constexpr static std::size_t addrs = 0x44cb0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_CautionFPSThreshold",
@@ -392,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_CautionFPSThreshold)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469da0;
+  constexpr static std::size_t addrs = 0x44cb0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -406,7 +405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_FpsGraphResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4469dc0;
+  constexpr static std::size_t addrs = 0x44cb0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FpsGraphResolution",
@@ -419,7 +418,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_FpsGraphResolution)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469dc8;
+  constexpr static std::size_t addrs = 0x44cb0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,7 +432,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_FpsTextUpdateRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4469de8;
+  constexpr static std::size_t addrs = 0x44cb0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FpsTextUpdateRate",
@@ -446,7 +445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_FpsTextUpdateRate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469df0;
+  constexpr static std::size_t addrs = 0x44cb104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -460,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_CurrentFPS)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469e10;
+  constexpr static std::size_t addrs = 0x44cb124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_CurrentFPS",
@@ -473,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AverageFPS)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469e30;
+  constexpr static std::size_t addrs = 0x44cb144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AverageFPS",
@@ -486,7 +485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_MinFPS)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469e50;
+  constexpr static std::size_t addrs = 0x44cb164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_MinFPS",
@@ -499,7 +498,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_MaxFPS)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4469e70;
+  constexpr static std::size_t addrs = 0x44cb184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_MaxFPS",
@@ -510,10 +509,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_RamModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_RamModuleState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4469e90;
+  constexpr static std::size_t addrs = 0x44cb1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_RamModuleState",
@@ -524,15 +523,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_RamModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModuleState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleState)>(
     &::Tayx::Graphy::GraphyManager::set_RamModuleState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4469e98;
+  constexpr static std::size_t addrs = 0x44cb1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_RamModuleState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
     return ___internal_method;
   }
 };
@@ -541,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AllocatedRamColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x446a00c;
+  constexpr static std::size_t addrs = 0x44cb320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AllocatedRamColor",
@@ -555,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(
     &::Tayx::Graphy::GraphyManager::set_AllocatedRamColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a018;
+  constexpr static std::size_t addrs = 0x44cb32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -569,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_ReservedRamColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x446a1e8;
+  constexpr static std::size_t addrs = 0x44cb4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_ReservedRamColor",
@@ -583,7 +582,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(
     &::Tayx::Graphy::GraphyManager::set_ReservedRamColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a1f4;
+  constexpr static std::size_t addrs = 0x44cb508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -597,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_MonoRamColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x446a218;
+  constexpr static std::size_t addrs = 0x44cb52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_MonoRamColor",
@@ -610,7 +609,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(&::Tayx::Graphy::GraphyManager::set_MonoRamColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a224;
+  constexpr static std::size_t addrs = 0x44cb538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -624,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_RamGraphResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a248;
+  constexpr static std::size_t addrs = 0x44cb55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_RamGraphResolution",
@@ -637,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_RamGraphResolution)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a250;
+  constexpr static std::size_t addrs = 0x44cb564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -651,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_RamTextUpdateRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a270;
+  constexpr static std::size_t addrs = 0x44cb584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_RamTextUpdateRate",
@@ -664,7 +663,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_RamTextUpdateRate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a278;
+  constexpr static std::size_t addrs = 0x44cb58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -678,7 +677,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AllocatedRam)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446a298;
+  constexpr static std::size_t addrs = 0x44cb5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AllocatedRam",
@@ -691,7 +690,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_ReservedRam)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446a2b4;
+  constexpr static std::size_t addrs = 0x44cb5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_ReservedRam",
@@ -704,7 +703,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_MonoRam)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446a2d0;
+  constexpr static std::size_t addrs = 0x44cb5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_MonoRam",
@@ -715,10 +714,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_AudioModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_AudioModuleState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a2ec;
+  constexpr static std::size_t addrs = 0x44cb600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AudioModuleState",
@@ -729,15 +728,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_AudioModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModuleState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleState)>(
     &::Tayx::Graphy::GraphyManager::set_AudioModuleState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a2f4;
+  constexpr static std::size_t addrs = 0x44cb608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AudioModuleState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
     return ___internal_method;
   }
 };
@@ -747,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioListener> (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_AudioListener)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a468;
+  constexpr static std::size_t addrs = 0x44cb77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AudioListener",
@@ -761,7 +760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::AudioListener*)>(
     &::Tayx::Graphy::GraphyManager::set_AudioListener)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a470;
+  constexpr static std::size_t addrs = 0x44cb784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -773,10 +772,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_FindAudioListenerInCameraIfNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__LookForAudioListener (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_LookForAudioListener (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_FindAudioListenerInCameraIfNull)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a654;
+  constexpr static std::size_t addrs = 0x44cb968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -788,15 +787,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_FindAudioListenerInCameraIfNull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__LookForAudioListener)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_LookForAudioListener)>(
     &::Tayx::Graphy::GraphyManager::set_FindAudioListenerInCameraIfNull)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a65c;
+  constexpr static std::size_t addrs = 0x44cb970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_FindAudioListenerInCameraIfNull", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__LookForAudioListener>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_LookForAudioListener>::get() })));
     return ___internal_method;
   }
 };
@@ -805,7 +804,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AudioGraphColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x446a67c;
+  constexpr static std::size_t addrs = 0x44cb990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AudioGraphColor",
@@ -818,7 +817,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::Color)>(&::Tayx::Graphy::GraphyManager::set_AudioGraphColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a688;
+  constexpr static std::size_t addrs = 0x44cb99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -832,7 +831,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AudioGraphResolution)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a6ac;
+  constexpr static std::size_t addrs = 0x44cb9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(),
@@ -845,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_AudioGraphResolution)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a6b4;
+  constexpr static std::size_t addrs = 0x44cb9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -859,7 +858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_AudioTextUpdateRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a6d4;
+  constexpr static std::size_t addrs = 0x44cb9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AudioTextUpdateRate",
@@ -872,7 +871,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_AudioTextUpdateRate)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a6dc;
+  constexpr static std::size_t addrs = 0x44cb9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -886,7 +885,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::FFTWindow (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_FftWindow)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a6fc;
+  constexpr static std::size_t addrs = 0x44cba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FftWindow",
@@ -899,7 +898,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::FFTWindow)>(&::Tayx::Graphy::GraphyManager::set_FftWindow)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a704;
+  constexpr static std::size_t addrs = 0x44cba18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -913,7 +912,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_SpectrumSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a724;
+  constexpr static std::size_t addrs = 0x44cba38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_SpectrumSize",
@@ -926,7 +925,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(int32_t)>(&::Tayx::Graphy::GraphyManager::set_SpectrumSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a72c;
+  constexpr static std::size_t addrs = 0x44cba40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -941,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_Spectrum)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446a74c;
+  constexpr static std::size_t addrs = 0x44cba60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_Spectrum",
@@ -954,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::get_MaxDB)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446a768;
+  constexpr static std::size_t addrs = 0x44cba7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_MaxDB",
@@ -965,10 +964,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_AdvancedModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModuleState (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_AdvancedModuleState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a784;
+  constexpr static std::size_t addrs = 0x44cba98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AdvancedModuleState",
@@ -979,25 +978,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_AdvancedModuleState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModuleState)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleState)>(
     &::Tayx::Graphy::GraphyManager::set_AdvancedModuleState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x446a78c;
+  constexpr static std::size_t addrs = 0x44cbaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AdvancedModuleState", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.get_AdvancedModulePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::__GraphyManager__ModulePosition (::Tayx::Graphy::GraphyManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Tayx::Graphy::GraphyManager_ModulePosition (::Tayx::Graphy::GraphyManager::*)()>(
     &::Tayx::Graphy::GraphyManager::get_AdvancedModulePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x446a828;
+  constexpr static std::size_t addrs = 0x44cbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(),
@@ -1008,15 +1007,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.set_AdvancedModulePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModulePosition)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::GraphyManager::set_AdvancedModulePosition)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x446a830;
+  constexpr static std::size_t addrs = 0x44cbb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AdvancedModulePosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
     return ___internal_method;
   }
 };
@@ -1025,7 +1024,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x446affc;
+  constexpr static std::size_t addrs = 0x44cc310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "Start",
@@ -1038,7 +1037,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::OnDestroy)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x446b590;
+  constexpr static std::size_t addrs = 0x44cc8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "OnDestroy",
@@ -1051,7 +1050,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::Update)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x446b734;
+  constexpr static std::size_t addrs = 0x44cca48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "Update",
@@ -1064,7 +1063,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(bool)>(&::Tayx::Graphy::GraphyManager::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x446b8b4;
+  constexpr static std::size_t addrs = 0x44ccbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1076,16 +1075,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.SetModulePosition
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(
-    ::Tayx::Graphy::__GraphyManager__ModuleType, ::Tayx::Graphy::__GraphyManager__ModulePosition)>(&::Tayx::Graphy::GraphyManager::SetModulePosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleType, ::Tayx::Graphy::GraphyManager_ModulePosition)>(&::Tayx::Graphy::GraphyManager::SetModulePosition)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x446b910;
+  constexpr static std::size_t addrs = 0x44ccc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetModulePosition", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleType>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
     return ___internal_method;
   }
 };
@@ -1093,15 +1092,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModuleType, ::Tayx::Graphy::__GraphyManager__ModuleState)>(&::Tayx::Graphy::GraphyManager::SetModuleMode)> {
+    static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModuleType, ::Tayx::Graphy::GraphyManager_ModuleState)>(&::Tayx::Graphy::GraphyManager::SetModuleMode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x446b990;
+  constexpr static std::size_t addrs = 0x44ccca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetModuleMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleType>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
     return ___internal_method;
   }
 };
@@ -1110,7 +1109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::ToggleModes)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x446ba24;
+  constexpr static std::size_t addrs = 0x44ccd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "ToggleModes",
@@ -1121,15 +1120,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Tayx::Graphy::GraphyManager.SetPreset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::__GraphyManager__ModulePreset)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)(::Tayx::Graphy::GraphyManager_ModulePreset)>(
     &::Tayx::Graphy::GraphyManager::SetPreset)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x446bb0c;
+  constexpr static std::size_t addrs = 0x44cce20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetPreset", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePreset>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePreset>::get() })));
     return ___internal_method;
   }
 };
@@ -1138,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::ToggleActive)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x446bda0;
+  constexpr static std::size_t addrs = 0x44cd0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "ToggleActive",
@@ -1151,7 +1150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::Enable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x446bdb0;
+  constexpr static std::size_t addrs = 0x44cd0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "Enable",
@@ -1164,7 +1163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::Disable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x446be38;
+  constexpr static std::size_t addrs = 0x44cd14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "Disable",
@@ -1177,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::Init)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x446b000;
+  constexpr static std::size_t addrs = 0x44cc314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "Init",
@@ -1190,7 +1189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::CheckForHotkeyPresses)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x446b74c;
+  constexpr static std::size_t addrs = 0x44cca60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "CheckForHotkeyPresses",
@@ -1204,7 +1203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::InputSystem::Key)>(
     &::Tayx::Graphy::GraphyManager::CheckFor1KeyPress)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x446e054;
+  constexpr static std::size_t addrs = 0x44cf368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1219,7 +1218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)(::UnityEngine::InputSystem::Key, ::UnityEngine::InputSystem::Key)>(
     &::Tayx::Graphy::GraphyManager::CheckFor2KeyPress)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x446deec;
+  constexpr static std::size_t addrs = 0x44cf200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1235,7 +1234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Tayx::Graphy::GraphyManager::*)(
     ::UnityEngine::InputSystem::Key, ::UnityEngine::InputSystem::Key, ::UnityEngine::InputSystem::Key)>(&::Tayx::Graphy::GraphyManager::CheckFor3KeyPress)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x446dc18;
+  constexpr static std::size_t addrs = 0x44cef2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1251,7 +1250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::UpdateAllParameters)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4468f78;
+  constexpr static std::size_t addrs = 0x44ca28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "UpdateAllParameters",
@@ -1264,7 +1263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::GraphyManager::*)()>(&::Tayx::Graphy::GraphyManager::RefreshAllParameters)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x446b8d0;
+  constexpr static std::size_t addrs = 0x44ccbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "RefreshAllParameters",
@@ -1272,15 +1271,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::Tayx::Graphy::__GraphyManager__Mode& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphyMode() {
+constexpr ::Tayx::Graphy::GraphyManager_Mode& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphyMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyMode;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__Mode const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphyMode() const {
+constexpr ::Tayx::Graphy::GraphyManager_Mode const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphyMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphyMode;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_graphyMode(::Tayx::Graphy::__GraphyManager__Mode value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_graphyMode(::Tayx::Graphy::GraphyManager_Mode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_graphyMode = value;
 }
@@ -1416,27 +1415,27 @@ constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_toggleActiveA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_toggleActiveAlt = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphModulePosition() {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphModulePosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphModulePosition;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphModulePosition() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_graphModulePosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_graphModulePosition;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_graphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_graphModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_graphModulePosition = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_fpsModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_fpsModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_fpsModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_fpsModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsModuleState;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_fpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_fpsModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsModuleState = value;
 }
@@ -1524,15 +1523,15 @@ constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_fpsTextUpdate
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsTextUpdateRate = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_ramModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_ramModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_ramModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_ramModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ramModuleState;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_ramModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_ramModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ramModuleState = value;
 }
@@ -1596,27 +1595,27 @@ constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_ramTextUpdate
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ramTextUpdateRate = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_audioModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_audioModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_audioModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_audioModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_audioModuleState;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_audioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_audioModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_audioModuleState = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_findAudioListenerInCameraIfNull() {
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_findAudioListenerInCameraIfNull() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_findAudioListenerInCameraIfNull() const {
+constexpr ::Tayx::Graphy::GraphyManager_LookForAudioListener const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_findAudioListenerInCameraIfNull() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_findAudioListenerInCameraIfNull;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_findAudioListenerInCameraIfNull = value;
 }
@@ -1692,27 +1691,27 @@ constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_spectrumSize(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_spectrumSize = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModulePosition() {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModulePosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModulePosition;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModulePosition() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePosition const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModulePosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModulePosition;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_advancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_advancedModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_advancedModulePosition = value;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModuleState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModuleState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModuleState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModuleState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModuleState const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_advancedModuleState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_advancedModuleState;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_advancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_advancedModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_advancedModuleState = value;
 }
@@ -1836,35 +1835,32 @@ constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_audioMonitor(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_audioMonitor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_modulePresetState() {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_modulePresetState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modulePresetState;
 }
-constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_modulePresetState() const {
+constexpr ::Tayx::Graphy::GraphyManager_ModulePreset const& Tayx::Graphy::GraphyManager::__cordl_internal_get_m_modulePresetState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modulePresetState;
 }
-constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_modulePresetState(::Tayx::Graphy::__GraphyManager__ModulePreset value) {
+constexpr void Tayx::Graphy::GraphyManager::__cordl_internal_set_m_modulePresetState(::Tayx::Graphy::GraphyManager_ModulePreset value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_modulePresetState = value;
-}
-inline ::Tayx::Graphy::GraphyManager* Tayx::Graphy::GraphyManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::GraphyManager*>());
 }
 inline void Tayx::Graphy::GraphyManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Tayx::Graphy::__GraphyManager__Mode Tayx::Graphy::GraphyManager::get_GraphyMode() {
+inline ::Tayx::Graphy::GraphyManager_Mode Tayx::Graphy::GraphyManager::get_GraphyMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GraphyMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__Mode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_Mode, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_GraphyMode(::Tayx::Graphy::__GraphyManager__Mode value) {
+inline void Tayx::Graphy::GraphyManager::set_GraphyMode(::Tayx::Graphy::GraphyManager_Mode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_GraphyMode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__Mode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_Mode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool Tayx::Graphy::GraphyManager::get_EnableOnStartup() {
@@ -1899,26 +1895,26 @@ inline void Tayx::Graphy::GraphyManager::set_BackgroundColor(::UnityEngine::Colo
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::GraphyManager::get_GraphModulePosition() {
+inline ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager::get_GraphModulePosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_GraphModulePosition",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModulePosition, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModulePosition, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_GraphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
+inline void Tayx::Graphy::GraphyManager::set_GraphModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_GraphModulePosition", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::GraphyManager::get_FpsModuleState() {
+inline ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager::get_FpsModuleState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FpsModuleState",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModuleState, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModuleState, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_FpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+inline void Tayx::Graphy::GraphyManager::set_FpsModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_FpsModuleState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Color Tayx::Graphy::GraphyManager::get_GoodFPSColor() {
@@ -2018,15 +2014,15 @@ inline float_t Tayx::Graphy::GraphyManager::get_MaxFPS() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::GraphyManager::get_RamModuleState() {
+inline ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager::get_RamModuleState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_RamModuleState",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModuleState, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModuleState, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_RamModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+inline void Tayx::Graphy::GraphyManager::set_RamModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_RamModuleState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Color Tayx::Graphy::GraphyManager::get_AllocatedRamColor() {
@@ -2099,15 +2095,15 @@ inline float_t Tayx::Graphy::GraphyManager::get_MonoRam() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::GraphyManager::get_AudioModuleState() {
+inline ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager::get_AudioModuleState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AudioModuleState",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModuleState, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModuleState, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_AudioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+inline void Tayx::Graphy::GraphyManager::set_AudioModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AudioModuleState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::AudioListener> Tayx::Graphy::GraphyManager::get_AudioListener() {
@@ -2121,16 +2117,16 @@ inline void Tayx::Graphy::GraphyManager::set_AudioListener(::UnityEngine::AudioL
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioListener*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Tayx::Graphy::__GraphyManager__LookForAudioListener Tayx::Graphy::GraphyManager::get_FindAudioListenerInCameraIfNull() {
+inline ::Tayx::Graphy::GraphyManager_LookForAudioListener Tayx::Graphy::GraphyManager::get_FindAudioListenerInCameraIfNull() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_FindAudioListenerInCameraIfNull",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__LookForAudioListener, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_LookForAudioListener, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_FindAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value) {
+inline void Tayx::Graphy::GraphyManager::set_FindAudioListenerInCameraIfNull(::Tayx::Graphy::GraphyManager_LookForAudioListener value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_FindAudioListenerInCameraIfNull", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__LookForAudioListener>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_LookForAudioListener>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Color Tayx::Graphy::GraphyManager::get_AudioGraphColor() {
@@ -2198,26 +2194,26 @@ inline float_t Tayx::Graphy::GraphyManager::get_MaxDB() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModuleState Tayx::Graphy::GraphyManager::get_AdvancedModuleState() {
+inline ::Tayx::Graphy::GraphyManager_ModuleState Tayx::Graphy::GraphyManager::get_AdvancedModuleState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "get_AdvancedModuleState",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModuleState, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModuleState, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_AdvancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value) {
+inline void Tayx::Graphy::GraphyManager::set_AdvancedModuleState(::Tayx::Graphy::GraphyManager_ModuleState value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AdvancedModuleState", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Tayx::Graphy::__GraphyManager__ModulePosition Tayx::Graphy::GraphyManager::get_AdvancedModulePosition() {
+inline ::Tayx::Graphy::GraphyManager_ModulePosition Tayx::Graphy::GraphyManager::get_AdvancedModulePosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(),
                                                                              "get_AdvancedModulePosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::__GraphyManager__ModulePosition, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Tayx::Graphy::GraphyManager_ModulePosition, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::set_AdvancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value) {
+inline void Tayx::Graphy::GraphyManager::set_AdvancedModulePosition(::Tayx::Graphy::GraphyManager_ModulePosition value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "set_AdvancedModulePosition", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void Tayx::Graphy::GraphyManager::Start() {
@@ -2241,18 +2237,18 @@ inline void Tayx::Graphy::GraphyManager::OnApplicationFocus(bool isFocused) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isFocused);
 }
-inline void Tayx::Graphy::GraphyManager::SetModulePosition(::Tayx::Graphy::__GraphyManager__ModuleType moduleType, ::Tayx::Graphy::__GraphyManager__ModulePosition modulePosition) {
+inline void Tayx::Graphy::GraphyManager::SetModulePosition(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModulePosition modulePosition) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetModulePosition", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleType>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePosition>::get() })));
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePosition>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, moduleType, modulePosition);
 }
-inline void Tayx::Graphy::GraphyManager::SetModuleMode(::Tayx::Graphy::__GraphyManager__ModuleType moduleType, ::Tayx::Graphy::__GraphyManager__ModuleState moduleState) {
+inline void Tayx::Graphy::GraphyManager::SetModuleMode(::Tayx::Graphy::GraphyManager_ModuleType moduleType, ::Tayx::Graphy::GraphyManager_ModuleState moduleState) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetModuleMode", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleType>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModuleState>::get() })));
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleType>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModuleState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, moduleType, moduleState);
 }
 inline void Tayx::Graphy::GraphyManager::ToggleModes() {
@@ -2260,10 +2256,10 @@ inline void Tayx::Graphy::GraphyManager::ToggleModes() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Tayx::Graphy::GraphyManager::SetPreset(::Tayx::Graphy::__GraphyManager__ModulePreset modulePreset) {
+inline void Tayx::Graphy::GraphyManager::SetPreset(::Tayx::Graphy::GraphyManager_ModulePreset modulePreset) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "SetPreset", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::__GraphyManager__ModulePreset>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tayx::Graphy::GraphyManager_ModulePreset>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, modulePreset);
 }
 inline void Tayx::Graphy::GraphyManager::ToggleActive() {
@@ -2321,6 +2317,9 @@ inline void Tayx::Graphy::GraphyManager::RefreshAllParameters() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::GraphyManager*>::get(), "RefreshAllParameters",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Tayx::Graphy::GraphyManager* Tayx::Graphy::GraphyManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::GraphyManager*>());
 }
 // Ctor Parameters []
 constexpr ::Tayx::Graphy::GraphyManager::GraphyManager() {}

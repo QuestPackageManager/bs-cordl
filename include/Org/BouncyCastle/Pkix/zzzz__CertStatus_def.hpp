@@ -15,11 +15,10 @@ class CertStatus;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::CertStatus);
-// Type: Org.BouncyCastle.Pkix::CertStatus
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::CertStatus*
+// CS Name: Org.BouncyCastle.Pkix.CertStatus
 class CORDL_TYPE CertStatus : public ::System::Object {
 public:
   // Declarations
@@ -35,9 +34,9 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::CertStatus* New_ctor();
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_revocationDate();
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject* const& __cordl_internal_get_revocationDate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_revocationDate() const;
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_revocationDate();
 
   constexpr int32_t const& __cordl_internal_get_status() const;
 
@@ -47,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set_status(int32_t value);
 
-  /// @brief Method .ctor, addr 0x253124c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2564538, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RevocationDate, addr 0x253122c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x2564518, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
 
-  /// @brief Method get_Status, addr 0x253123c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x2564528, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method set_RevocationDate, addr 0x2531234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RevocationDate, addr 0x2564520, size 0x8, virtual false, abstract: false, final false
   inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method set_Status, addr 0x2531244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Status, addr 0x2564530, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(int32_t value);
 
 protected:
@@ -76,12 +75,6 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CertStatus(CertStatus const&) = delete;
 
-  /// @brief Field status, offset: 0x10, size: 0x4, def value: None
-  int32_t ___status;
-
-  /// @brief Field revocationDate, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Date::DateTimeObject* ___revocationDate;
-
   /// @brief Field Undetermined offset 0xffffffff size 0x4
   static constexpr int32_t Undetermined{ static_cast<int32_t>(0xc) };
 
@@ -91,14 +84,20 @@ public:
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1709 };
 
+  /// @brief Field status, offset: 0x10, size: 0x4, def value: None
+  int32_t ___status;
+
+  /// @brief Field revocationDate, offset: 0x18, size: 0x8, def value: None
+  ::Org::BouncyCastle::Utilities::Date::DateTimeObject* ___revocationDate;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::CertStatus, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Pkix::CertStatus, ___status) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::CertStatus, ___revocationDate) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::CertStatus, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::CertStatus);

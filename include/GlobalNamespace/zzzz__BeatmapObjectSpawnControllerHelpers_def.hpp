@@ -4,14 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectSpawnControllerHelpers)
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct BeatmapObjectSpawnMovementData_NoteJumpValueType;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteJumpValueType;
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,17 +18,16 @@ class BeatmapObjectSpawnControllerHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
-// Type: ::BeatmapObjectSpawnControllerHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapObjectSpawnControllerHelpers*
+// CS Name: BeatmapObjectSpawnControllerHelpers
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x3a885f4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetNoteJumpValues, addr 0x3ae0e28, size 0x38, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
-                                       ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue);
+                                       ::ByRef<::GlobalNamespace::BeatmapObjectSpawnMovementData_NoteJumpValueType> noteJumpValueType, ::ByRef<float_t> noteJumpValue);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +44,7 @@ public:
   BeatmapObjectSpawnControllerHelpers(BeatmapObjectSpawnControllerHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4070 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

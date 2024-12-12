@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DisconnectPromptView)
 namespace GlobalNamespace {
-class __DisconnectPromptView____c__DisplayClass12_0;
+class DisconnectPromptView___c__DisplayClass12_0;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -32,17 +32,16 @@ namespace GlobalNamespace {
 class DisconnectPromptView;
 }
 namespace GlobalNamespace {
-class __DisconnectPromptView____c__DisplayClass12_0;
+class DisconnectPromptView___c__DisplayClass12_0;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DisconnectPromptView);
-MARK_REF_PTR_T(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0);
-// Type: ::<>c__DisplayClass12_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DisconnectPromptView::<>c__DisplayClass12_0*
-class CORDL_TYPE __DisconnectPromptView____c__DisplayClass12_0 : public ::System::Object {
+// CS Name: DisconnectPromptView/<>c__DisplayClass12_0
+class CORDL_TYPE DisconnectPromptView___c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -51,39 +50,42 @@ public:
   /// @brief Field finishedCallback, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback)) ::System::Action* finishedCallback;
 
-  static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
+  static inline ::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Hide>b__0, addr 0x3aa1754, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Hide>b__0, addr 0x3afebe8, size 0x44, virtual false, abstract: false, final false
   inline void _Hide_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
 
   constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView>& __cordl_internal_get___4__this();
 
-  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
+  constexpr ::System::Action* const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DisconnectPromptView> value);
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3aa16ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afeb40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DisconnectPromptView____c__DisplayClass12_0();
+  constexpr DisconnectPromptView___c__DisplayClass12_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DisconnectPromptView____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __DisconnectPromptView____c__DisplayClass12_0(__DisconnectPromptView____c__DisplayClass12_0&&) = delete;
+  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DisconnectPromptView____c__DisplayClass12_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView___c__DisplayClass12_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __DisconnectPromptView____c__DisplayClass12_0(__DisconnectPromptView____c__DisplayClass12_0 const&) = delete;
+  DisconnectPromptView___c__DisplayClass12_0(DisconnectPromptView___c__DisplayClass12_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4969 };
 
   /// @brief Field finishedCallback, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
@@ -91,28 +93,24 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DisconnectPromptView> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4949 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0, ___finishedCallback) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0, ___finishedCallback) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0, _____4__this) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::DisconnectPromptView
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DisconnectPromptView*
+// CS Name: DisconnectPromptView
 class CORDL_TYPE DisconnectPromptView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c__DisplayClass12_0 = ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0;
+  using __c__DisplayClass12_0 = ::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0;
 
   /// @brief Field _buttonBinder, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
@@ -135,29 +133,29 @@ public:
   /// @brief Field didViewFinishEvent, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent)) ::System::Action_1<bool>* didViewFinishEvent;
 
-  /// @brief Method Hide, addr 0x3aa15e4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x3afea78, size 0xc8, virtual false, abstract: false, final false
   inline void Hide(::System::Action* finishedCallback);
 
   static inline ::GlobalNamespace::DisconnectPromptView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3aa1590, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3afea24, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3aa14a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3afe934, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Show, addr 0x3aa15ac, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x3afea40, size 0x38, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method <OnEnable>b__9_0, addr 0x3aa1714, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_0, addr 0x3afeba8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_0();
 
-  /// @brief Method <OnEnable>b__9_1, addr 0x3aa1734, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__9_1, addr 0x3afebc8, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__9_1();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
@@ -179,9 +177,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promptGameObject();
 
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didViewFinishEvent();
+  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_didViewFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didViewFinishEvent() const;
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didViewFinishEvent();
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
@@ -197,13 +195,13 @@ public:
 
   constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3aa16b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3afeb48, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didViewFinishEvent, addr 0x3aa1340, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didViewFinishEvent, addr 0x3afe7d4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_didViewFinishEvent, addr 0x3aa13f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didViewFinishEvent, addr 0x3afe884, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didViewFinishEvent(::System::Action_1<bool>* value);
 
 protected:
@@ -219,6 +217,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectPromptView", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   DisconnectPromptView(DisconnectPromptView const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4970 };
 
   /// @brief Field _presentPanelAnimation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
@@ -241,14 +242,9 @@ public:
   /// @brief Field _buttonBinder, offset: 0x50, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4950 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectPromptView, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DisconnectPromptView, ____presentPanelAnimation) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DisconnectPromptView, ____dismissPanelAnimation) == 0x28, "Offset mismatch!");
@@ -263,8 +259,10 @@ static_assert(offsetof(::GlobalNamespace::DisconnectPromptView, ___didViewFinish
 
 static_assert(offsetof(::GlobalNamespace::DisconnectPromptView, ____buttonBinder) == 0x50, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisconnectPromptView, 0x58>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisconnectPromptView);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectPromptView*, "", "DisconnectPromptView");
-NEED_NO_BOX(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");
+NEED_NO_BOX(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisconnectPromptView___c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");

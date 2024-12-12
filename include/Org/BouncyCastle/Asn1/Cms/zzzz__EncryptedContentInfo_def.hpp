@@ -29,11 +29,10 @@ class EncryptedContentInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo);
-// Type: Org.BouncyCastle.Asn1.Cms::EncryptedContentInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::EncryptedContentInfo*
+// CS Name: Org.BouncyCastle.Asn1.Cms.EncryptedContentInfo
 class CORDL_TYPE EncryptedContentInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field encryptedContent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_encryptedContent, put = __cordl_internal_set_encryptedContent)) ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedContent;
 
-  /// @brief Method GetInstance, addr 0x22cdde0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x23010cc, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType,
@@ -62,20 +61,20 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22d0010, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x23032fc, size 0x168, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_contentEncryptionAlgorithm() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_contentEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_contentEncryptionAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_contentType() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_contentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_contentType() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_encryptedContent() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedContent();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_encryptedContent() const;
 
   constexpr void __cordl_internal_set_contentEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
@@ -83,20 +82,20 @@ public:
 
   constexpr void __cordl_internal_set_encryptedContent(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x22cfe4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2303138, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* contentEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedContent);
 
-  /// @brief Method .ctor, addr 0x22cfe88, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2303174, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x22d0000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncryptionAlgorithm, addr 0x23032ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ContentEncryptionAlgorithm();
 
-  /// @brief Method get_ContentType, addr 0x22cfff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x23032e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_EncryptedContent, addr 0x22d0008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptedContent, addr 0x23032f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedContent();
 
 protected:
@@ -113,6 +112,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncryptedContentInfo(EncryptedContentInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 68 };
+
   /// @brief Field contentType, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___contentType;
 
@@ -122,19 +124,16 @@ public:
   /// @brief Field encryptedContent, offset: 0x20, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___encryptedContent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 68 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo, ___contentType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo, ___contentEncryptionAlgorithm) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo, ___encryptedContent) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo, 0x28>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo);

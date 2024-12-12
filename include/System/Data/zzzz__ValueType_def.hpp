@@ -12,11 +12,10 @@ struct ValueType;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::ValueType);
-// Type: System.Data::ValueType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data {
 // Is value type: true
-// CS Name: ::System.Data::ValueType
+// CS Name: System.Data.ValueType
 struct CORDL_TYPE ValueType {
 public:
   // Declarations
@@ -52,48 +51,48 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ValueType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Bool value: static_cast<int32_t>(0x1)
+  /// @brief Field Bool value: I32(1)
   static ::System::Data::ValueType const Bool;
 
-  /// @brief Field Date value: static_cast<int32_t>(0x7)
+  /// @brief Field Date value: I32(7)
   static ::System::Data::ValueType const Date;
 
-  /// @brief Field Decimal value: static_cast<int32_t>(0x5)
+  /// @brief Field Decimal value: I32(5)
   static ::System::Data::ValueType const Decimal;
 
-  /// @brief Field Float value: static_cast<int32_t>(0x4)
+  /// @brief Field Float value: I32(4)
   static ::System::Data::ValueType const Float;
 
-  /// @brief Field Null value: static_cast<int32_t>(0x0)
+  /// @brief Field Null value: I32(0)
   static ::System::Data::ValueType const Null;
 
-  /// @brief Field Numeric value: static_cast<int32_t>(0x2)
+  /// @brief Field Numeric value: I32(2)
   static ::System::Data::ValueType const Numeric;
 
-  /// @brief Field Object value: static_cast<int32_t>(0x6)
+  /// @brief Field Object value: I32(6)
   static ::System::Data::ValueType const Object;
 
-  /// @brief Field Str value: static_cast<int32_t>(0x3)
+  /// @brief Field Str value: I32(3)
   static ::System::Data::ValueType const Str;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field Unknown value: I32(-1)
   static ::System::Data::ValueType const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11421 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::ValueType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::ValueType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::ValueType, 0x4>, "Size mismatch!");
 
 } // namespace System::Data
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::ValueType, "System.Data", "ValueType");

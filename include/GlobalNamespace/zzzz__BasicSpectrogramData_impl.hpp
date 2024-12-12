@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::GlobalNamespace::BasicSpectrogramData::*)()>(
     &::GlobalNamespace::BasicSpectrogramData::get_Samples)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b391f8;
+  constexpr static std::size_t addrs = 0x3b9a7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "get_Samples",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<float_t>* (::GlobalNamespace::BasicSpectrogramData::*)()>(
     &::GlobalNamespace::BasicSpectrogramData::get_ProcessedSamples)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b39290;
+  constexpr static std::size_t addrs = 0x3b9a870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(),
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::Awake)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b3945c;
+  constexpr static std::size_t addrs = 0x3b9aa3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "Awake",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b39508;
+  constexpr static std::size_t addrs = 0x3b9aae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "LateUpdate",
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)(
     ::ArrayW<float_t, ::Array<float_t>*>, ::System::Collections::Generic::List_1<float_t>*)>(&::GlobalNamespace::BasicSpectrogramData::ProcessSamples)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3b392cc;
+  constexpr static std::size_t addrs = 0x3b9a8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b39510;
+  constexpr static std::size_t addrs = 0x3b9aaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), ".ctor",
@@ -151,7 +151,7 @@ constexpr ::System::Collections::Generic::List_1<float_t>*& GlobalNamespace::Bas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processedSamples;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& GlobalNamespace::BasicSpectrogramData::__cordl_internal_get__processedSamples() const {
+constexpr ::System::Collections::Generic::List_1<float_t>* const& GlobalNamespace::BasicSpectrogramData::__cordl_internal_get__processedSamples() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____processedSamples;
 }
@@ -186,13 +186,13 @@ inline void GlobalNamespace::BasicSpectrogramData::ProcessSamples(::ArrayW<float
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceSamples, processedSamples);
 }
-inline ::GlobalNamespace::BasicSpectrogramData* GlobalNamespace::BasicSpectrogramData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicSpectrogramData*>());
-}
 inline void GlobalNamespace::BasicSpectrogramData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BasicSpectrogramData* GlobalNamespace::BasicSpectrogramData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicSpectrogramData*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicSpectrogramData::BasicSpectrogramData() {}

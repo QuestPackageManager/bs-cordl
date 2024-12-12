@@ -18,11 +18,10 @@ class CastReferenceToEnumInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction);
-// Type: System.Linq.Expressions.Interpreter::CastReferenceToEnumInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.CastInstruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::CastReferenceToEnumInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.CastReferenceToEnumInstruction
 class CORDL_TYPE CastReferenceToEnumInstruction : public ::System::Linq::Expressions::Interpreter::CastInstruction {
 public:
   // Declarations
@@ -31,16 +30,16 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x4096d40, size 0x4cc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f8054, size 0x4cc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+
+  constexpr ::System::Type* const& __cordl_internal_get__t() const;
 
   constexpr ::System::Type*& __cordl_internal_get__t();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__t() const;
-
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4096d18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f802c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:
@@ -57,18 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CastReferenceToEnumInstruction(CastReferenceToEnumInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14117 };
+
   /// @brief Field _t, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____t;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14083 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction, ____t) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::CastReferenceToEnumInstruction);

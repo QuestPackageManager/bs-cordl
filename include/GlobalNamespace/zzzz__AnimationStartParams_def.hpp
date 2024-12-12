@@ -15,11 +15,10 @@ class AnimationStartParams;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AnimationStartParams);
-// Type: ::AnimationStartParams
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AnimationStartParams*
+// CS Name: AnimationStartParams
 class CORDL_TYPE AnimationStartParams : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::AnimationStartParams* New_ctor();
 
-  /// @brief Method Start, addr 0x396bfcc, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39c14b4, size 0x2d8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__timeOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x396c2a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c178c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -72,6 +71,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AnimationStartParams(AnimationStartParams const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16400 };
+
   /// @brief Field _timeOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____timeOffset;
 
@@ -81,19 +83,16 @@ public:
   /// @brief Field _animation, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16364 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnimationStartParams, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AnimationStartParams, ____timeOffset) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AnimationStartParams, ____speed) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AnimationStartParams, ____animation) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnimationStartParams, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnimationStartParams);

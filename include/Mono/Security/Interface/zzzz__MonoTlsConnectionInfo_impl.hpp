@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::CipherSuiteCode (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48c0;
+  constexpr static std::size_t addrs = 0x3c449d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsConnectionInfo*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::CipherSuiteCode)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48c8;
+  constexpr static std::size_t addrs = 0x3c449dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::TlsProtocols (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48d0;
+  constexpr static std::size_t addrs = 0x3c449e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsConnectionInfo*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Mono::Security::Interface::TlsProtocols)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48d8;
+  constexpr static std::size_t addrs = 0x3c449ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)(::StringW)>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be48e0;
+  constexpr static std::size_t addrs = 0x3c449f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3be48e8;
+  constexpr static std::size_t addrs = 0x3c449fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(
     &::Mono::Security::Interface::MonoTlsConnectionInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be49a4;
+  constexpr static std::size_t addrs = 0x3c44ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsConnectionInfo*>::get(),
@@ -178,13 +178,13 @@ inline ::StringW Mono::Security::Interface::MonoTlsConnectionInfo::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsConnectionInfo*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Mono::Security::Interface::MonoTlsConnectionInfo* Mono::Security::Interface::MonoTlsConnectionInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::MonoTlsConnectionInfo*>());
-}
 inline void Mono::Security::Interface::MonoTlsConnectionInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::MonoTlsConnectionInfo*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Mono::Security::Interface::MonoTlsConnectionInfo* Mono::Security::Interface::MonoTlsConnectionInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Interface::MonoTlsConnectionInfo*>());
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Interface::MonoTlsConnectionInfo::MonoTlsConnectionInfo() {}

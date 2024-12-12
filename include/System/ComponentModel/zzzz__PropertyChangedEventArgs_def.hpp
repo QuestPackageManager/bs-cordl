@@ -12,11 +12,10 @@ class PropertyChangedEventArgs;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
-// Type: System.ComponentModel::PropertyChangedEventArgs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.EventArgs
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
+// CS Name: System.ComponentModel.PropertyChangedEventArgs
 class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43fa124, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x445b438, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName);
 
 protected:
@@ -48,18 +47,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PropertyChangedEventArgs(PropertyChangedEventArgs const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9430 };
+
   /// @brief Field _propertyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____propertyName;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9405 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyChangedEventArgs, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::PropertyChangedEventArgs, ____propertyName) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyChangedEventArgs, 0x18>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::PropertyChangedEventArgs);

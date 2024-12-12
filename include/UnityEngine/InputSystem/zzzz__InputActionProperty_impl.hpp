@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/InputActionProperty.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionReference_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionProperty::*)()>(
     &::UnityEngine::InputSystem::InputActionProperty::get_action)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x44eb7f4;
+  constexpr static std::size_t addrs = 0x454cb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionProperty>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (::UnityEngine::InputSystem::InputActionProperty::*)()>(
     &::UnityEngine::InputSystem::InputActionProperty::get_reference)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44eb934;
+  constexpr static std::size_t addrs = 0x454cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionProperty>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionProperty::*)()>(
     &::UnityEngine::InputSystem::InputActionProperty::get_serializedAction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44eb94c;
+  constexpr static std::size_t addrs = 0x454cc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionProperty>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionReference> (::UnityEngine::InputSystem::InputActionProperty::*)()>(
     &::UnityEngine::InputSystem::InputActionProperty::get_serializedReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44eb954;
+  constexpr static std::size_t addrs = 0x454cc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionProperty>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionProperty::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionProperty::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44eb95c;
+  constexpr static std::size_t addrs = 0x454cc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionProperty::*)(::UnityEngine::InputSystem::InputActionReference*)>(
     &::UnityEngine::InputSystem::InputActionProperty::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44eb968;
+  constexpr static std::size_t addrs = 0x454cc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionProperty::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::InputActionProperty::Equals)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44eb978;
+  constexpr static std::size_t addrs = 0x454cc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionProperty::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionProperty::Equals)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44eba1c;
+  constexpr static std::size_t addrs = 0x454cd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionProperty::*)(::UnityEngine::InputSystem::InputActionReference*)>(
     &::UnityEngine::InputSystem::InputActionProperty::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44eba38;
+  constexpr static std::size_t addrs = 0x454cd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionProperty::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::InputActionProperty::Equals)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x44ebaa4;
+  constexpr static std::size_t addrs = 0x454cdb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionProperty::*)()>(
     &::UnityEngine::InputSystem::InputActionProperty::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44ebb70;
+  constexpr static std::size_t addrs = 0x454ce84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputActionProperty, ::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::InputActionProperty::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44ebc0c;
+  constexpr static std::size_t addrs = 0x454cf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputActionProperty, ::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::InputActionProperty::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44ebc3c;
+  constexpr static std::size_t addrs = 0x454cf50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,32 +200,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
-constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*
-UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputActionProperty_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
-constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>* UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputAction__() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
-constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*() {
-  return static_cast<::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
-constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*
-UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__() {
-  return static_cast<::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::InputSystem::InputAction* UnityEngine::InputSystem::InputActionProperty::get_action() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionProperty>::get(),
                                                                              "get_action", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -300,8 +274,34 @@ inline bool UnityEngine::InputSystem::InputActionProperty::op_Inequality(::Unity
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionProperty>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
+constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*
+UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputActionProperty_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
+constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>* UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputAction__() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
+constexpr UnityEngine::InputSystem::InputActionProperty::operator ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*
+UnityEngine::InputSystem::InputActionProperty::i___System__IEquatable_1___UnityEngine__InputSystem__InputActionReference__() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::InputActionReference*>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
 // Ctor Parameters [CppParam { name: "m_UseReference", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "m_Reference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: Some("nullptr") }]
+// def_value: Some("{}") }, CppParam { name: "m_Reference", ty: "::UnityW<::UnityEngine::InputSystem::InputActionReference>", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::InputActionProperty::InputActionProperty(bool m_UseReference, ::UnityEngine::InputSystem::InputAction* m_Action,
                                                                                ::UnityW<::UnityEngine::InputSystem::InputActionReference> m_Reference) noexcept {
   this->m_UseReference = m_UseReference;

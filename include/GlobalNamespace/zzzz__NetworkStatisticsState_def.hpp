@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStatisticsState)
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 struct NetworkStatisticsDelta;
 }
 namespace GlobalNamespace {
-class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+class NetworkStatisticsState_NetworkStatisticsUpdateDelegate;
 }
 namespace System {
 class AsyncCallback;
@@ -28,76 +27,74 @@ class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class __NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+class NetworkStatisticsState_NetworkStatisticsUpdateDelegate;
 }
 namespace GlobalNamespace {
 struct NetworkStatisticsState;
 }
 // Write type traits
-MARK_REF_PTR_T(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate);
+MARK_REF_PTR_T(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate);
 MARK_VAL_T(::GlobalNamespace::NetworkStatisticsState);
-// Type: ::NetworkStatisticsUpdateDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NetworkStatisticsState::NetworkStatisticsUpdateDelegate*
-class CORDL_TYPE __NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
+// CS Name: NetworkStatisticsState/NetworkStatisticsUpdateDelegate
+class CORDL_TYPE NetworkStatisticsState_NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x22a7dd0, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x22db0bc, size 0x8c, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22a7e5c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x22db148, size 0xc, virtual true, abstract: false, final false
+  inline void EndInvoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x22a7dbc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
+  /// @brief Method Invoke, addr 0x22db0a8, size 0x14, virtual true, abstract: false, final false
+  inline void Invoke(::ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
-  static inline ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x22a7d20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22db00c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetworkStatisticsState__NetworkStatisticsUpdateDelegate();
+  constexpr NetworkStatisticsState_NetworkStatisticsUpdateDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetworkStatisticsState__NetworkStatisticsUpdateDelegate(__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&&) = delete;
+  NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkStatisticsState_NetworkStatisticsUpdateDelegate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetworkStatisticsState__NetworkStatisticsUpdateDelegate(__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const&) = delete;
+  NetworkStatisticsState_NetworkStatisticsUpdateDelegate(NetworkStatisticsState_NetworkStatisticsUpdateDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14870 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::NetworkStatisticsState
-// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::NetworkStatisticsState
+// CS Name: NetworkStatisticsState
 struct CORDL_TYPE NetworkStatisticsState {
 public:
   // Declarations
-  using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+  using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor, addr 0x22a7c80, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22daf6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction, addr 0x22a7ca8, size 0x50, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<::GlobalNamespace::NetworkStatisticsState> a, ByRef<::GlobalNamespace::NetworkStatisticsState> b);
+  /// @brief Method op_Subtraction, addr 0x22daf94, size 0x50, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(::ByRef<::GlobalNamespace::NetworkStatisticsState> a, ::ByRef<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -113,6 +110,12 @@ public:
   constexpr NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted,
                                    int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected,
                                    int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14905 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
 
   /// @brief Field packetsSent, offset: 0x0, size: 0x8, def value: None
   int64_t packetsSent;
@@ -153,17 +156,9 @@ public:
   /// @brief Field decryptionProcessingTime, offset: 0x60, size: 0x8, def value: None
   int64_t decryptionProcessingTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14871 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsState, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsSent) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, packetsReceived) == 0x8, "Offset mismatch!");
@@ -190,7 +185,9 @@ static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, encryptionProc
 
 static_assert(offsetof(::GlobalNamespace::NetworkStatisticsState, decryptionProcessingTime) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkStatisticsState, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-NEED_NO_BOX(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate*, "", "NetworkStatisticsState/NetworkStatisticsUpdateDelegate");
+NEED_NO_BOX(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkStatisticsState_NetworkStatisticsUpdateDelegate*, "", "NetworkStatisticsState/NetworkStatisticsUpdateDelegate");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkStatisticsState, "", "NetworkStatisticsState");

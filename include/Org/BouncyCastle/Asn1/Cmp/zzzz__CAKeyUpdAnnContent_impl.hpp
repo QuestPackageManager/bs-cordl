@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22bde9c;
+  constexpr static std::size_t addrs = 0x22f1188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22be0ec;
+  constexpr static std::size_t addrs = 0x22f13d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_OldWithNew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22be268;
+  constexpr static std::size_t addrs = 0x22f1554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_NewWithOld)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22be270;
+  constexpr static std::size_t addrs = 0x22f155c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::get_NewWithNew)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22be278;
+  constexpr static std::size_t addrs = 0x22f1564;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22be280;
+  constexpr static std::size_t addrs = 0x22f156c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldWithNew;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_oldWithNew() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_oldWithNew() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___oldWithNew;
 }
@@ -116,7 +116,7 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newWithOld;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_newWithOld() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_newWithOld() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newWithOld;
 }
@@ -128,16 +128,13 @@ constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newWithNew;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_newWithNew() const {
+constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_get_newWithNew() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___newWithNew;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::__cordl_internal_set_newWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___newWithNew)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -170,6 +167,9 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::CAKe
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent::CAKeyUpdAnnContent() {}

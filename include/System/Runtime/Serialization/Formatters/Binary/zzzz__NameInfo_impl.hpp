@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cae07c;
+  constexpr static std::size_t addrs = 0x3d0e1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cae05c;
+  constexpr static std::size_t addrs = 0x3d0e1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_IsSealed)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3caddc0;
+  constexpr static std::size_t addrs = 0x3d0df34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3cb2230;
+  constexpr static std::size_t addrs = 0x3d123a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb2268;
+  constexpr static std::size_t addrs = 0x3d123dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::Formatters::Binary::N
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NItype;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::Formatters::Binary::NameInfo::__cordl_internal_get_NItype() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::Formatters::Binary::NameInfo::__cordl_internal_get_NItype() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___NItype;
 }
@@ -238,9 +238,6 @@ constexpr void System::Runtime::Serialization::Formatters::Binary::NameInfo::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___NIsealedStatusChecked = value;
 }
-inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* System::Runtime::Serialization::Formatters::Binary::NameInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>());
-}
 inline void System::Runtime::Serialization::Formatters::Binary::NameInfo::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>::get(), ".ctor",
@@ -270,6 +267,9 @@ inline void System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NI
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>::get(), "set_NIname",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* System::Runtime::Serialization::Formatters::Binary::NameInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::NameInfo*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::NameInfo::NameInfo() {}

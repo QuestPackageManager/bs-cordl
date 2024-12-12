@@ -15,21 +15,20 @@ class PointerManipulator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::PointerManipulator);
-// Type: UnityEngine.UIElements::PointerManipulator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.MouseManipulator
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PointerManipulator*
+// CS Name: UnityEngine.UIElements.PointerManipulator
 class CORDL_TYPE PointerManipulator : public ::UnityEngine::UIElements::MouseManipulator {
 public:
   // Declarations
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  /// @brief Method CanStartManipulation, addr 0x49e0760, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x4a45070, size 0x1e4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x49e0944, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x4a45254, size 0xb4, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49e09f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a45308, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,18 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PointerManipulator(PointerManipulator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6017 };
+
   /// @brief Field m_CurrentPointerId, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_CurrentPointerId;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerManipulator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::PointerManipulator, ___m_CurrentPointerId) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerManipulator, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerManipulator);

@@ -16,11 +16,10 @@ class PemHeader;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
-// Type: Org.BouncyCastle.Utilities.IO.Pem::PemHeader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemHeader*
+// CS Name: Org.BouncyCastle.Utilities.IO.Pem.PemHeader
 class CORDL_TYPE PemHeader : public ::System::Object {
 public:
   // Declarations
@@ -34,13 +33,13 @@ public:
   /// @brief Field val, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val)) ::StringW val;
 
-  /// @brief Method Equals, addr 0x25a47f8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x25d7ae4, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25a4788, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25d7a74, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x25a47e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x25d7acc, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetHashCode(::StringW s);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
@@ -57,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_val(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25a474c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d7a38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW val);
 
-  /// @brief Method get_Name, addr 0x25a4778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x25d7a64, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x25a4780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25d7a6c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -80,23 +79,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PemHeader(PemHeader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1805 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
 
   /// @brief Field val, offset: 0x18, size: 0x8, def value: None
   ::StringW ___val;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1805 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, ___val) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Pem::PemHeader, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::IO::Pem
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);

@@ -15,18 +15,17 @@ class AttributeUsageAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::AttributeUsageAttribute);
-// Type: System::AttributeUsageAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.AttributeTargets
 namespace System {
 // Is value type: false
-// CS Name: ::System::AttributeUsageAttribute*
+// CS Name: System.AttributeUsageAttribute
 class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {
 public:
   // Declarations
   __declspec(property(get = get_AllowMultiple, put = set_AllowMultiple)) bool AllowMultiple;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::AttributeUsageAttribute* Default;
+  __declspec(property(get = getStaticF_Default, put = setStaticF_Default)) ::System::AttributeUsageAttribute* Default;
 
   __declspec(property(get = get_Inherited, put = set_Inherited)) bool Inherited;
 
@@ -59,23 +58,23 @@ public:
 
   constexpr void __cordl_internal_set__inherited(bool value);
 
-  /// @brief Method .ctor, addr 0x3cf5158, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d552cc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::AttributeTargets validOn);
 
   static inline ::System::AttributeUsageAttribute* getStaticF_Default();
 
-  /// @brief Method get_AllowMultiple, addr 0x3cf5190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowMultiple, addr 0x3d55304, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowMultiple();
 
-  /// @brief Method get_Inherited, addr 0x3cf51a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Inherited, addr 0x3d55318, size 0x8, virtual false, abstract: false, final false
   inline bool get_Inherited();
 
   static inline void setStaticF_Default(::System::AttributeUsageAttribute* value);
 
-  /// @brief Method set_AllowMultiple, addr 0x3cf5198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowMultiple, addr 0x3d5530c, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowMultiple(bool value);
 
-  /// @brief Method set_Inherited, addr 0x3cf51ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Inherited, addr 0x3d55320, size 0xc, virtual false, abstract: false, final false
   inline void set_Inherited(bool value);
 
 protected:
@@ -92,6 +91,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttributeUsageAttribute(AttributeUsageAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2357 };
+
   /// @brief Field _attributeTarget, offset: 0x10, size: 0x4, def value: None
   ::System::AttributeTargets ____attributeTarget;
 
@@ -101,19 +103,16 @@ public:
   /// @brief Field _inherited, offset: 0x15, size: 0x1, def value: None
   bool ____inherited;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2357 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::AttributeUsageAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::AttributeUsageAttribute, ____attributeTarget) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::AttributeUsageAttribute, ____allowMultiple) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::AttributeUsageAttribute, ____inherited) == 0x15, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::AttributeUsageAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::AttributeUsageAttribute);

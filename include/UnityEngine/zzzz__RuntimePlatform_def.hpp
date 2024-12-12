@@ -12,11 +12,10 @@ struct RuntimePlatform;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::RuntimePlatform);
-// Type: UnityEngine::RuntimePlatform
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::RuntimePlatform
+// CS Name: UnityEngine.RuntimePlatform
 struct CORDL_TYPE RuntimePlatform {
 public:
   // Declarations
@@ -95,177 +94,177 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RuntimePlatform(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Android value: static_cast<int32_t>(0xb)
+  /// @brief Field Android value: I32(11)
   static ::UnityEngine::RuntimePlatform const Android;
 
-  /// @brief Field BlackBerryPlayer value: static_cast<int32_t>(0x16)
+  /// @brief Field BlackBerryPlayer value: I32(22)
   static ::UnityEngine::RuntimePlatform const BlackBerryPlayer;
 
-  /// @brief Field CloudRendering value: static_cast<int32_t>(0x23)
+  /// @brief Field CloudRendering value: I32(35)
   static ::UnityEngine::RuntimePlatform const CloudRendering;
 
-  /// @brief Field EmbeddedLinuxArm32 value: static_cast<int32_t>(0x28)
+  /// @brief Field EmbeddedLinuxArm32 value: I32(40)
   static ::UnityEngine::RuntimePlatform const EmbeddedLinuxArm32;
 
-  /// @brief Field EmbeddedLinuxArm64 value: static_cast<int32_t>(0x27)
+  /// @brief Field EmbeddedLinuxArm64 value: I32(39)
   static ::UnityEngine::RuntimePlatform const EmbeddedLinuxArm64;
 
-  /// @brief Field EmbeddedLinuxX64 value: static_cast<int32_t>(0x29)
+  /// @brief Field EmbeddedLinuxX64 value: I32(41)
   static ::UnityEngine::RuntimePlatform const EmbeddedLinuxX64;
 
-  /// @brief Field EmbeddedLinuxX86 value: static_cast<int32_t>(0x2a)
+  /// @brief Field EmbeddedLinuxX86 value: I32(42)
   static ::UnityEngine::RuntimePlatform const EmbeddedLinuxX86;
 
-  /// @brief Field FlashPlayer value: static_cast<int32_t>(0xf)
+  /// @brief Field FlashPlayer value: I32(15)
   static ::UnityEngine::RuntimePlatform const FlashPlayer;
 
-  /// @brief Field GameCoreScarlett value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field GameCoreScarlett value: I32(-1)
   static ::UnityEngine::RuntimePlatform const GameCoreScarlett;
 
-  /// @brief Field GameCoreXboxOne value: static_cast<int32_t>(0x25)
+  /// @brief Field GameCoreXboxOne value: I32(37)
   static ::UnityEngine::RuntimePlatform const GameCoreXboxOne;
 
-  /// @brief Field GameCoreXboxSeries value: static_cast<int32_t>(0x24)
+  /// @brief Field GameCoreXboxSeries value: I32(36)
   static ::UnityEngine::RuntimePlatform const GameCoreXboxSeries;
 
-  /// @brief Field IPhonePlayer value: static_cast<int32_t>(0x8)
+  /// @brief Field IPhonePlayer value: I32(8)
   static ::UnityEngine::RuntimePlatform const IPhonePlayer;
 
-  /// @brief Field LinuxEditor value: static_cast<int32_t>(0x10)
+  /// @brief Field LinuxEditor value: I32(16)
   static ::UnityEngine::RuntimePlatform const LinuxEditor;
 
-  /// @brief Field LinuxPlayer value: static_cast<int32_t>(0xd)
+  /// @brief Field LinuxPlayer value: I32(13)
   static ::UnityEngine::RuntimePlatform const LinuxPlayer;
 
-  /// @brief Field LinuxServer value: static_cast<int32_t>(0x2b)
+  /// @brief Field LinuxServer value: I32(43)
   static ::UnityEngine::RuntimePlatform const LinuxServer;
 
-  /// @brief Field Lumin value: static_cast<int32_t>(0x21)
+  /// @brief Field Lumin value: I32(33)
   static ::UnityEngine::RuntimePlatform const Lumin;
 
-  /// @brief Field MetroPlayerARM value: static_cast<int32_t>(0x14)
+  /// @brief Field MetroPlayerARM value: I32(20)
   static ::UnityEngine::RuntimePlatform const MetroPlayerARM;
 
-  /// @brief Field MetroPlayerX64 value: static_cast<int32_t>(0x13)
+  /// @brief Field MetroPlayerX64 value: I32(19)
   static ::UnityEngine::RuntimePlatform const MetroPlayerX64;
 
-  /// @brief Field MetroPlayerX86 value: static_cast<int32_t>(0x12)
+  /// @brief Field MetroPlayerX86 value: I32(18)
   static ::UnityEngine::RuntimePlatform const MetroPlayerX86;
 
-  /// @brief Field NaCl value: static_cast<int32_t>(0xc)
+  /// @brief Field NaCl value: I32(12)
   static ::UnityEngine::RuntimePlatform const NaCl;
 
-  /// @brief Field OSXDashboardPlayer value: static_cast<int32_t>(0x4)
+  /// @brief Field OSXDashboardPlayer value: I32(4)
   static ::UnityEngine::RuntimePlatform const OSXDashboardPlayer;
 
-  /// @brief Field OSXEditor value: static_cast<int32_t>(0x0)
+  /// @brief Field OSXEditor value: I32(0)
   static ::UnityEngine::RuntimePlatform const OSXEditor;
 
-  /// @brief Field OSXPlayer value: static_cast<int32_t>(0x1)
+  /// @brief Field OSXPlayer value: I32(1)
   static ::UnityEngine::RuntimePlatform const OSXPlayer;
 
-  /// @brief Field OSXServer value: static_cast<int32_t>(0x2d)
+  /// @brief Field OSXServer value: I32(45)
   static ::UnityEngine::RuntimePlatform const OSXServer;
 
-  /// @brief Field OSXWebPlayer value: static_cast<int32_t>(0x3)
+  /// @brief Field OSXWebPlayer value: I32(3)
   static ::UnityEngine::RuntimePlatform const OSXWebPlayer;
 
-  /// @brief Field PS3 value: static_cast<int32_t>(0x9)
+  /// @brief Field PS3 value: I32(9)
   static ::UnityEngine::RuntimePlatform const PS3;
 
-  /// @brief Field PS4 value: static_cast<int32_t>(0x19)
+  /// @brief Field PS4 value: I32(25)
   static ::UnityEngine::RuntimePlatform const PS4;
 
-  /// @brief Field PS5 value: static_cast<int32_t>(0x26)
+  /// @brief Field PS5 value: I32(38)
   static ::UnityEngine::RuntimePlatform const PS5;
 
-  /// @brief Field PSM value: static_cast<int32_t>(0x1a)
+  /// @brief Field PSM value: I32(26)
   static ::UnityEngine::RuntimePlatform const PSM;
 
-  /// @brief Field PSP2 value: static_cast<int32_t>(0x18)
+  /// @brief Field PSP2 value: I32(24)
   static ::UnityEngine::RuntimePlatform const PSP2;
 
-  /// @brief Field QNXArm32 value: static_cast<int32_t>(0x2e)
+  /// @brief Field QNXArm32 value: I32(46)
   static ::UnityEngine::RuntimePlatform const QNXArm32;
 
-  /// @brief Field QNXArm64 value: static_cast<int32_t>(0x2f)
+  /// @brief Field QNXArm64 value: I32(47)
   static ::UnityEngine::RuntimePlatform const QNXArm64;
 
-  /// @brief Field QNXX64 value: static_cast<int32_t>(0x30)
+  /// @brief Field QNXX64 value: I32(48)
   static ::UnityEngine::RuntimePlatform const QNXX64;
 
-  /// @brief Field QNXX86 value: static_cast<int32_t>(0x31)
+  /// @brief Field QNXX86 value: I32(49)
   static ::UnityEngine::RuntimePlatform const QNXX86;
 
-  /// @brief Field SamsungTVPlayer value: static_cast<int32_t>(0x1c)
+  /// @brief Field SamsungTVPlayer value: I32(28)
   static ::UnityEngine::RuntimePlatform const SamsungTVPlayer;
 
-  /// @brief Field Stadia value: static_cast<int32_t>(0x22)
+  /// @brief Field Stadia value: I32(34)
   static ::UnityEngine::RuntimePlatform const Stadia;
 
-  /// @brief Field Switch value: static_cast<int32_t>(0x20)
+  /// @brief Field Switch value: I32(32)
   static ::UnityEngine::RuntimePlatform const Switch;
 
-  /// @brief Field TizenPlayer value: static_cast<int32_t>(0x17)
+  /// @brief Field TizenPlayer value: I32(23)
   static ::UnityEngine::RuntimePlatform const TizenPlayer;
 
-  /// @brief Field VisionOS value: static_cast<int32_t>(0x32)
+  /// @brief Field VisionOS value: I32(50)
   static ::UnityEngine::RuntimePlatform const VisionOS;
 
-  /// @brief Field WP8Player value: static_cast<int32_t>(0x15)
+  /// @brief Field WP8Player value: I32(21)
   static ::UnityEngine::RuntimePlatform const WP8Player;
 
-  /// @brief Field WSAPlayerARM value: static_cast<int32_t>(0x14)
+  /// @brief Field WSAPlayerARM value: I32(20)
   static ::UnityEngine::RuntimePlatform const WSAPlayerARM;
 
-  /// @brief Field WSAPlayerX64 value: static_cast<int32_t>(0x13)
+  /// @brief Field WSAPlayerX64 value: I32(19)
   static ::UnityEngine::RuntimePlatform const WSAPlayerX64;
 
-  /// @brief Field WSAPlayerX86 value: static_cast<int32_t>(0x12)
+  /// @brief Field WSAPlayerX86 value: I32(18)
   static ::UnityEngine::RuntimePlatform const WSAPlayerX86;
 
-  /// @brief Field WebGLPlayer value: static_cast<int32_t>(0x11)
+  /// @brief Field WebGLPlayer value: I32(17)
   static ::UnityEngine::RuntimePlatform const WebGLPlayer;
 
-  /// @brief Field WiiU value: static_cast<int32_t>(0x1e)
+  /// @brief Field WiiU value: I32(30)
   static ::UnityEngine::RuntimePlatform const WiiU;
 
-  /// @brief Field WindowsEditor value: static_cast<int32_t>(0x7)
+  /// @brief Field WindowsEditor value: I32(7)
   static ::UnityEngine::RuntimePlatform const WindowsEditor;
 
-  /// @brief Field WindowsPlayer value: static_cast<int32_t>(0x2)
+  /// @brief Field WindowsPlayer value: I32(2)
   static ::UnityEngine::RuntimePlatform const WindowsPlayer;
 
-  /// @brief Field WindowsServer value: static_cast<int32_t>(0x2c)
+  /// @brief Field WindowsServer value: I32(44)
   static ::UnityEngine::RuntimePlatform const WindowsServer;
 
-  /// @brief Field WindowsWebPlayer value: static_cast<int32_t>(0x5)
+  /// @brief Field WindowsWebPlayer value: I32(5)
   static ::UnityEngine::RuntimePlatform const WindowsWebPlayer;
 
-  /// @brief Field XBOX360 value: static_cast<int32_t>(0xa)
+  /// @brief Field XBOX360 value: I32(10)
   static ::UnityEngine::RuntimePlatform const XBOX360;
 
-  /// @brief Field XboxOne value: static_cast<int32_t>(0x1b)
+  /// @brief Field XboxOne value: I32(27)
   static ::UnityEngine::RuntimePlatform const XboxOne;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10624 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10657 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field tvOS value: static_cast<int32_t>(0x1f)
+  /// @brief Field tvOS value: I32(31)
   static ::UnityEngine::RuntimePlatform const tvOS;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RuntimePlatform, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::RuntimePlatform, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RuntimePlatform, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimePlatform, "UnityEngine", "RuntimePlatform");

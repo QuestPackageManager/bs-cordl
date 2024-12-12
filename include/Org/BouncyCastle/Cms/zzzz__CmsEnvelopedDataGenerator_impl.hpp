@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x261ee44;
+  constexpr static std::size_t addrs = 0x2652130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x261ee98;
+  constexpr static std::size_t addrs = 0x2652184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW, ::Org::BouncyCastle::Crypto::CipherKeyGenerator*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
   constexpr static std::size_t size = 0xc5c;
-  constexpr static std::size_t addrs = 0x261eefc;
+  constexpr static std::size_t addrs = 0x26521e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW)>(&::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x261fb58;
+  constexpr static std::size_t addrs = 0x2652e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
   constexpr static std::size_t size = 0xc94;
-  constexpr static std::size_t addrs = 0x261fcfc;
+  constexpr static std::size_t addrs = 0x2652fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW, int32_t)>(&::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2620990;
+  constexpr static std::size_t addrs = 0x2653c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,16 +103,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>());
-}
 inline void Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>(rand));
 }
 inline void Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor(::Org::BouncyCastle::Security::SecureRandom* rand) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -151,6 +145,12 @@ inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* Org::BouncyCastle::Cms::CmsEn
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Cms::CmsProcessable*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Cms::CmsEnvelopedData*, false>(this, ___internal_method, content, encryptionOid, keySize);
+}
+inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>());
+}
+inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>(rand));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::CmsEnvelopedDataGenerator() {}

@@ -13,11 +13,10 @@ class SortVersion;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::SortVersion);
-// Type: System.Globalization::SortVersion
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Guid, System.Object
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::SortVersion*
+// CS Name: System.Globalization.SortVersion
 class CORDL_TYPE SortVersion : public ::System::Object {
 public:
   // Declarations
@@ -53,23 +52,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortVersion(SortVersion const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3686 };
+
   /// @brief Field m_NlsVersion, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_NlsVersion;
 
   /// @brief Field m_SortId, offset: 0x14, size: 0x10, def value: None
   ::System::Guid ___m_SortId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3686 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::SortVersion, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::SortVersion, ___m_NlsVersion) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::SortVersion, ___m_SortId) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::SortVersion, 0x28>, "Size mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::SortVersion);

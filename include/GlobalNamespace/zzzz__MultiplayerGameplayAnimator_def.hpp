@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerGameplayAnimator)
@@ -18,13 +17,13 @@ namespace GlobalNamespace {
 class LightsAnimator;
 }
 namespace GlobalNamespace {
+struct MultiplayerController_State;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace GlobalNamespace {
 class MultiplayerLeadPlayerProvider;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
 }
 namespace Tweening {
 class TimeTweeningManager;
@@ -35,11 +34,10 @@ class MultiplayerGameplayAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerGameplayAnimator);
-// Type: ::MultiplayerGameplayAnimator
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerGameplayAnimator*
+// CS Name: MultiplayerGameplayAnimator
 class CORDL_TYPE MultiplayerGameplayAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -77,21 +75,21 @@ public:
   /// @brief Field tweeningManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_tweeningManager, put = __cordl_internal_set_tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x3b6e200, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x3bd038c, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x3b6dff4, size 0x15c, virtual true, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
+  /// @brief Method HandleStateChanged, addr 0x3bd0180, size 0x15c, virtual true, abstract: false, final false
+  inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6ddbc, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bcff4c, size 0x184, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b6dd28, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x3bcfebc, size 0x90, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -126,9 +124,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get_connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get_connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_connectedPlayer();
 
   constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get_tweeningManager() const;
 
@@ -154,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b6e2e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd0474, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,6 +168,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerGameplayAnimator(MultiplayerGameplayAnimator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
 
   /// @brief Field _activeLightsColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____activeLightsColor;
@@ -201,14 +202,9 @@ public:
   /// @brief Field connectedPlayer, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ___connectedPlayer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4554 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerGameplayAnimator, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerGameplayAnimator, ____activeLightsColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerGameplayAnimator, ____leadingLightsColor) == 0x28, "Offset mismatch!");
@@ -228,6 +224,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerGameplayAnimator, ____multi
 static_assert(offsetof(::GlobalNamespace::MultiplayerGameplayAnimator, ___tweeningManager) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerGameplayAnimator, ___connectedPlayer) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerGameplayAnimator, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerGameplayAnimator);

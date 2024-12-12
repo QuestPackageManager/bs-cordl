@@ -15,11 +15,10 @@ class X509Stores;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Stores);
-// Type: Mono.Security.X509::X509Stores
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509Stores*
+// CS Name: Mono.Security.X509.X509Stores
 class CORDL_TYPE X509Stores : public ::System::Object {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   static inline ::Mono::Security::X509::X509Stores* New_ctor(::StringW path, bool newFormat);
 
-  /// @brief Method Open, addr 0x3be0014, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x3c40128, size 0x114, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* Open(::StringW storeName, bool create);
 
   constexpr bool const& __cordl_internal_get__newFormat() const;
@@ -47,9 +46,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__storePath();
 
-  constexpr ::Mono::Security::X509::X509Store*& __cordl_internal_get__trusted();
+  constexpr ::Mono::Security::X509::X509Store* const& __cordl_internal_get__trusted() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Store*> const& __cordl_internal_get__trusted() const;
+  constexpr ::Mono::Security::X509::X509Store*& __cordl_internal_get__trusted();
 
   constexpr void __cordl_internal_set__newFormat(bool value);
 
@@ -57,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set__trusted(::Mono::Security::X509::X509Store* value);
 
-  /// @brief Method .ctor, addr 0x3bdfe78, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3ff8c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool newFormat);
 
-  /// @brief Method get_TrustedRoot, addr 0x3bdff40, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_TrustedRoot, addr 0x3c40054, size 0xd4, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_TrustedRoot();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Stores(X509Stores const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15931 };
+
   /// @brief Field _storePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____storePath;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field _trusted, offset: 0x20, size: 0x8, def value: None
   ::Mono::Security::X509::X509Store* ____trusted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15896 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Stores, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509Stores, ____storePath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Stores, ____newFormat) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Stores, ____trusted) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Stores, 0x28>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Stores);

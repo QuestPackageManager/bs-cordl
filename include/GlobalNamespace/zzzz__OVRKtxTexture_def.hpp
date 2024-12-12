@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRKtxTexture)
 namespace GlobalNamespace {
@@ -17,20 +15,19 @@ class OVRKtxTexture;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRKtxTexture);
-// Type: ::OVRKtxTexture
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRKtxTexture*
+// CS Name: OVRKtxTexture
 class CORDL_TYPE OVRKtxTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Load, addr 0x3f62044, size 0x254, virtual false, abstract: false, final false
-  static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<::GlobalNamespace::OVRTextureData> ktxData);
+  /// @brief Method Load, addr 0x3fc20f0, size 0x254, virtual false, abstract: false, final false
+  static inline bool Load(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<::GlobalNamespace::OVRTextureData> ktxData);
 
   static inline ::GlobalNamespace::OVRKtxTexture* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f62298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fc2344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +51,7 @@ public:
   static constexpr uint32_t KTX_TTF_BC7_RGBA{ static_cast<uint32_t>(0x400a06u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7937 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

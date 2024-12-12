@@ -8,69 +8,67 @@
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
-//  Writing Method size for method: ::UnityEngine::__UnitySynchronizationContext__WorkRequest._ctor
+//  Writing Method size for method: ::UnityEngine::UnitySynchronizationContext_WorkRequest._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnitySynchronizationContext__WorkRequest::*)(
-    ::System::Threading::SendOrPostCallback*, ::System::Object*, ::System::Threading::ManualResetEvent*)>(&::UnityEngine::__UnitySynchronizationContext__WorkRequest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext_WorkRequest::*)(
+    ::System::Threading::SendOrPostCallback*, ::System::Object*, ::System::Threading::ManualResetEvent*)>(&::UnityEngine::UnitySynchronizationContext_WorkRequest::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x484f17c;
+  constexpr static std::size_t addrs = 0x48b06d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnitySynchronizationContext__WorkRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext_WorkRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::SendOrPostCallback*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ManualResetEvent*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::__UnitySynchronizationContext__WorkRequest.Invoke
+//  Writing Method size for method: ::UnityEngine::UnitySynchronizationContext_WorkRequest.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnitySynchronizationContext__WorkRequest::*)()>(
-    &::UnityEngine::__UnitySynchronizationContext__WorkRequest::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext_WorkRequest::*)()>(
+    &::UnityEngine::UnitySynchronizationContext_WorkRequest::Invoke)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x484f548;
+  constexpr static std::size_t addrs = 0x48b0a9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnitySynchronizationContext__WorkRequest>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext_WorkRequest>::get(),
                                                                                "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @param waitHandle: ::System::Threading::ManualResetEvent* (default: nullptr)
-inline void UnityEngine::__UnitySynchronizationContext__WorkRequest::_ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state,
-                                                                           ::System::Threading::ManualResetEvent* waitHandle) {
+inline void UnityEngine::UnitySynchronizationContext_WorkRequest::_ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnitySynchronizationContext__WorkRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext_WorkRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::SendOrPostCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ManualResetEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, state, waitHandle);
 }
-inline void UnityEngine::__UnitySynchronizationContext__WorkRequest::Invoke() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnitySynchronizationContext__WorkRequest>::get(),
+inline void UnityEngine::UnitySynchronizationContext_WorkRequest::Invoke() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext_WorkRequest>::get(),
                                                                              "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_DelagateState", ty:
-// "::System::Object*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::__UnitySynchronizationContext__WorkRequest::__UnitySynchronizationContext__WorkRequest(::System::Threading::SendOrPostCallback* m_DelagateCallback,
-                                                                                                                ::System::Object* m_DelagateState,
-                                                                                                                ::System::Threading::ManualResetEvent* m_WaitHandle) noexcept {
+// Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_DelagateState", ty:
+// "::System::Object*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_WaitHandle", ty: "::System::Threading::ManualResetEvent*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UnitySynchronizationContext_WorkRequest::UnitySynchronizationContext_WorkRequest(::System::Threading::SendOrPostCallback* m_DelagateCallback,
+                                                                                                          ::System::Object* m_DelagateState,
+                                                                                                          ::System::Threading::ManualResetEvent* m_WaitHandle) noexcept {
   this->m_DelagateCallback = m_DelagateCallback;
   this->m_DelagateState = m_DelagateState;
   this->m_WaitHandle = m_WaitHandle;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__UnitySynchronizationContext__WorkRequest::__UnitySynchronizationContext__WorkRequest() {}
+constexpr ::UnityEngine::UnitySynchronizationContext_WorkRequest::UnitySynchronizationContext_WorkRequest() {}
 //  Writing Method size for method: ::UnityEngine::UnitySynchronizationContext._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(int32_t)>(&::UnityEngine::UnitySynchronizationContext::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x484ed14;
+  constexpr static std::size_t addrs = 0x48b0268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,16 +81,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*, int32_t)>(&::UnityEngine::UnitySynchronizationContext::_ctor)> {
+    ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*, int32_t)>(&::UnityEngine::UnitySynchronizationContext::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x484edc0;
+  constexpr static std::size_t addrs = 0x48b0314;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{
-                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*>::get(),
-                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -102,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::UnityEngine::UnitySynchronizationContext::Send)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x484ee60;
+  constexpr static std::size_t addrs = 0x48b03b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::OperationStarted)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x484f188;
+  constexpr static std::size_t addrs = 0x48b06dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::OperationCompleted)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x484f194;
+  constexpr static std::size_t addrs = 0x48b06e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::UnityEngine::UnitySynchronizationContext::Post)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x484f1a0;
+  constexpr static std::size_t addrs = 0x48b06f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::CreateCopy)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x484f304;
+  constexpr static std::size_t addrs = 0x48b0858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(&::UnityEngine::UnitySynchronizationContext::Exec)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x484f368;
+  constexpr static std::size_t addrs = 0x48b08bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), "Exec",
@@ -190,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::HasPendingTasks)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x484f5f4;
+  constexpr static std::size_t addrs = 0x48b0b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
@@ -203,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnitySynchronizationContext::InitializeSynchronizationContext)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x484f654;
+  constexpr static std::size_t addrs = 0x48b0ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnitySynchronizationContext::ExecuteTasks)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x484f6cc;
+  constexpr static std::size_t addrs = 0x48b0c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
@@ -230,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&::UnityEngine::UnitySynchronizationContext::ExecutePendingTasks)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x484f724;
+  constexpr static std::size_t addrs = 0x48b0c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,31 +237,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_AsyncWorkQueue() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*& UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_AsyncWorkQueue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncWorkQueue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* const&
 UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_AsyncWorkQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AsyncWorkQueue;
 }
-constexpr void
-UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_AsyncWorkQueue(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value) {
+constexpr void UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_AsyncWorkQueue(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_AsyncWorkQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_CurrentFrameWork() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*& UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_CurrentFrameWork() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentFrameWork;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* const&
 UnityEngine::UnitySynchronizationContext::__cordl_internal_get_m_CurrentFrameWork() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentFrameWork;
 }
 constexpr void
-UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_CurrentFrameWork(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value) {
+UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_CurrentFrameWork(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CurrentFrameWork)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -291,25 +288,17 @@ constexpr void UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TrackedCount = value;
 }
-inline ::UnityEngine::UnitySynchronizationContext* UnityEngine::UnitySynchronizationContext::New_ctor(int32_t mainThreadID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UnitySynchronizationContext*>(mainThreadID));
-}
 inline void UnityEngine::UnitySynchronizationContext::_ctor(int32_t mainThreadID) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mainThreadID);
 }
-inline ::UnityEngine::UnitySynchronizationContext*
-UnityEngine::UnitySynchronizationContext::New_ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UnitySynchronizationContext*>(queue, mainThreadID));
-}
-inline void UnityEngine::UnitySynchronizationContext::_ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline void UnityEngine::UnitySynchronizationContext::_ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* queue, int32_t mainThreadID) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, queue, mainThreadID);
 }
 inline void UnityEngine::UnitySynchronizationContext::Send(::System::Threading::SendOrPostCallback* callback, ::System::Object* state) {
@@ -362,6 +351,13 @@ inline bool UnityEngine::UnitySynchronizationContext::ExecutePendingTasks(int64_
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), "ExecutePendingTasks",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, millisecondsTimeout);
+}
+inline ::UnityEngine::UnitySynchronizationContext* UnityEngine::UnitySynchronizationContext::New_ctor(int32_t mainThreadID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UnitySynchronizationContext*>(mainThreadID));
+}
+inline ::UnityEngine::UnitySynchronizationContext*
+UnityEngine::UnitySynchronizationContext::New_ctor(::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>* queue, int32_t mainThreadID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UnitySynchronizationContext*>(queue, mainThreadID));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnitySynchronizationContext::UnitySynchronizationContext() {}

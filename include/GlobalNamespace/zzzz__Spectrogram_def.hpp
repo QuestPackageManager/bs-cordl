@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Spectrogram)
 namespace GlobalNamespace {
@@ -25,16 +24,15 @@ class Spectrogram;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Spectrogram);
-// Type: ::Spectrogram
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Spectrogram*
+// CS Name: Spectrogram
 class CORDL_TYPE Spectrogram : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   /// @brief Field _materialPropertyBlockController, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
@@ -53,16 +51,16 @@ public:
   __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData)) ::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
 
   /// @brief Field _spectrogramDataID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
+  __declspec(property(get = getStaticF__spectrogramDataID, put = setStaticF__spectrogramDataID)) int32_t _spectrogramDataID;
 
   __declspec(property(get = get_materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
 
-  /// @brief Method Awake, addr 0x3b39674, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9ac54, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Spectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x3b3975c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9ad3c, size 0x1a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -89,14 +87,14 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x3b39904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9aee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__spectrogramDataID();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x3b395c0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x3b9aba0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -117,6 +115,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Spectrogram(Spectrogram const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4371 };
+
   /// @brief Field _setAsGlobal, offset: 0x20, size: 0x1, def value: None
   bool ____setAsGlobal;
 
@@ -129,14 +130,9 @@ public:
   /// @brief Field _spectrogramData, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4359 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Spectrogram, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Spectrogram, ____setAsGlobal) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Spectrogram, ____meshRenderers) == 0x28, "Offset mismatch!");
@@ -144,6 +140,8 @@ static_assert(offsetof(::GlobalNamespace::Spectrogram, ____meshRenderers) == 0x2
 static_assert(offsetof(::GlobalNamespace::Spectrogram, ____materialPropertyBlockController) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Spectrogram, ____spectrogramData) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Spectrogram, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Spectrogram);

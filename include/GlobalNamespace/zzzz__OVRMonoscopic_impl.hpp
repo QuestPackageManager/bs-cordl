@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMonoscopic::*)()>(&::GlobalNamespace::OVRMonoscopic::Update)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3fd98a0;
+  constexpr static std::size_t addrs = 0x403994c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMonoscopic*>::get(), "Update",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMonoscopic::*)()>(&::GlobalNamespace::OVRMonoscopic::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3fd9990;
+  constexpr static std::size_t addrs = 0x4039a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMonoscopic*>::get(), ".ctor",
@@ -29,15 +29,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRInput__RawButton& GlobalNamespace::OVRMonoscopic::__cordl_internal_get_toggleButton() {
+constexpr ::GlobalNamespace::OVRInput_RawButton& GlobalNamespace::OVRMonoscopic::__cordl_internal_get_toggleButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
-constexpr ::GlobalNamespace::__OVRInput__RawButton const& GlobalNamespace::OVRMonoscopic::__cordl_internal_get_toggleButton() const {
+constexpr ::GlobalNamespace::OVRInput_RawButton const& GlobalNamespace::OVRMonoscopic::__cordl_internal_get_toggleButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___toggleButton;
 }
-constexpr void GlobalNamespace::OVRMonoscopic::__cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value) {
+constexpr void GlobalNamespace::OVRMonoscopic::__cordl_internal_set_toggleButton(::GlobalNamespace::OVRInput_RawButton value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___toggleButton = value;
 }
@@ -58,13 +58,13 @@ inline void GlobalNamespace::OVRMonoscopic::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRMonoscopic* GlobalNamespace::OVRMonoscopic::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMonoscopic*>());
-}
 inline void GlobalNamespace::OVRMonoscopic::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMonoscopic*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRMonoscopic* GlobalNamespace::OVRMonoscopic::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMonoscopic*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRMonoscopic::OVRMonoscopic() {}

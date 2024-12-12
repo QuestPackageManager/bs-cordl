@@ -13,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43cb0c4;
+  constexpr static std::size_t addrs = 0x442c3d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)(bool)>(&::System::Diagnostics::AsyncStreamReader::Dispose)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x43cb0d4;
+  constexpr static std::size_t addrs = 0x442c3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::AsyncStreamReader::*)()>(&::System::Diagnostics::AsyncStreamReader::CancelOperation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43cb444;
+  constexpr static std::size_t addrs = 0x442c758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::AsyncStreamReader*>::get(),
@@ -53,7 +53,7 @@ constexpr ::System::IO::Stream*& System::Diagnostics::AsyncStreamReader::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_stream() const {
+constexpr ::System::IO::Stream* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_stream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stream;
 }
@@ -65,7 +65,7 @@ constexpr ::System::Text::Encoding*& System::Diagnostics::AsyncStreamReader::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_encoding() const {
+constexpr ::System::Text::Encoding* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_encoding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encoding;
 }
@@ -77,7 +77,7 @@ constexpr ::System::Text::Decoder*& System::Diagnostics::AsyncStreamReader::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decoder;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_decoder() const {
+constexpr ::System::Text::Decoder* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_decoder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decoder;
 }
@@ -125,7 +125,7 @@ constexpr ::System::Threading::ManualResetEvent*& System::Diagnostics::AsyncStre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eofEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_eofEvent() const {
+constexpr ::System::Threading::ManualResetEvent* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_eofEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eofEvent;
 }
@@ -137,7 +137,7 @@ constexpr ::System::Object*& System::Diagnostics::AsyncStreamReader::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_syncObject() const {
+constexpr ::System::Object* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_syncObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___syncObject;
 }
@@ -149,7 +149,7 @@ constexpr ::System::IAsyncResult*& System::Diagnostics::AsyncStreamReader::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncReadResult;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_asyncReadResult() const {
+constexpr ::System::IAsyncResult* const& System::Diagnostics::AsyncStreamReader::__cordl_internal_get_asyncReadResult() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___asyncReadResult;
 }

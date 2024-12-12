@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)()>(&::Mono::Xml::SecurityParser::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3bf4890;
+  constexpr static std::size_t addrs = 0x3c549a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::LoadXml)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bf49fc;
+  constexpr static std::size_t addrs = 0x3c54b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::Mono::Xml::SecurityParser::*)()>(&::Mono::Xml::SecurityParser::ToXml)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf4c4c;
+  constexpr static std::size_t addrs = 0x3c54d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), "ToXml",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::Mono::Xml::SmallXmlParser*)>(&::Mono::Xml::SecurityParser::OnStartParsing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf4c54;
+  constexpr static std::size_t addrs = 0x3c54d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW, ::StringW)>(&::Mono::Xml::SecurityParser::OnProcessingInstruction)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf4c58;
+  constexpr static std::size_t addrs = 0x3c54d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnIgnorableWhitespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf4c5c;
+  constexpr static std::size_t addrs = 0x3c54d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,16 +90,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Xml::SecurityParser.OnStartElement
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW, ::Mono::Xml::__SmallXmlParser__IAttrList*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::Mono::Xml::SecurityParser::OnStartElement)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3bf4c60;
+  constexpr static std::size_t addrs = 0x3c54d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), "OnStartElement", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Xml::__SmallXmlParser__IAttrList*>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Xml::SmallXmlParser_IAttrList*>::get() })));
     return ___internal_method;
   }
 };
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnEndElement)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bf4ed8;
+  constexpr static std::size_t addrs = 0x3c54fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnChars)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bf4f60;
+  constexpr static std::size_t addrs = 0x3c55074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::Mono::Xml::SmallXmlParser*)>(&::Mono::Xml::SecurityParser::OnEndParsing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf4fe0;
+  constexpr static std::size_t addrs = 0x3c550f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,19 +145,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
-constexpr Mono::Xml::SecurityParser::operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept {
-  return static_cast<::Mono::Xml::__SmallXmlParser__IContentHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
-constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* Mono::Xml::SecurityParser::i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept {
-  return static_cast<::Mono::Xml::__SmallXmlParser__IContentHandler*>(static_cast<void*>(this));
-}
 constexpr ::System::Security::SecurityElement*& Mono::Xml::SecurityParser::__cordl_internal_get_root() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& Mono::Xml::SecurityParser::__cordl_internal_get_root() const {
+constexpr ::System::Security::SecurityElement* const& Mono::Xml::SecurityParser::__cordl_internal_get_root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
@@ -169,7 +161,7 @@ constexpr ::System::Security::SecurityElement*& Mono::Xml::SecurityParser::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityElement*> const& Mono::Xml::SecurityParser::__cordl_internal_get_current() const {
+constexpr ::System::Security::SecurityElement* const& Mono::Xml::SecurityParser::__cordl_internal_get_current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
@@ -181,16 +173,13 @@ constexpr ::System::Collections::Stack*& Mono::Xml::SecurityParser::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& Mono::Xml::SecurityParser::__cordl_internal_get_stack() const {
+constexpr ::System::Collections::Stack* const& Mono::Xml::SecurityParser::__cordl_internal_get_stack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___stack;
 }
 constexpr void Mono::Xml::SecurityParser::__cordl_internal_set_stack(::System::Collections::Stack* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Mono::Xml::SecurityParser* Mono::Xml::SecurityParser::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Xml::SecurityParser*>());
 }
 inline void Mono::Xml::SecurityParser::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), ".ctor",
@@ -226,11 +215,11 @@ inline void Mono::Xml::SecurityParser::OnIgnorableWhitespace(::StringW s) {
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, s);
 }
-inline void Mono::Xml::SecurityParser::OnStartElement(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs) {
+inline void Mono::Xml::SecurityParser::OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), "OnStartElement", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Xml::__SmallXmlParser__IAttrList*>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Xml::SmallXmlParser_IAttrList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, attrs);
 }
 inline void Mono::Xml::SecurityParser::OnEndElement(::StringW name) {
@@ -250,6 +239,17 @@ inline void Mono::Xml::SecurityParser::OnEndParsing(::Mono::Xml::SmallXmlParser*
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), "OnEndParsing", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Xml::SmallXmlParser*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parser);
+}
+inline ::Mono::Xml::SecurityParser* Mono::Xml::SecurityParser::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Xml::SecurityParser*>());
+}
+/// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
+constexpr Mono::Xml::SecurityParser::operator ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept {
+  return static_cast<::Mono::Xml::SmallXmlParser_IContentHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"
+constexpr ::Mono::Xml::SmallXmlParser_IContentHandler* Mono::Xml::SecurityParser::i___Mono__Xml__SmallXmlParser_IContentHandler() noexcept {
+  return static_cast<::Mono::Xml::SmallXmlParser_IContentHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Mono::Xml::SecurityParser::SecurityParser() {}

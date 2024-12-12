@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::GetInstance)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x23d65c4;
+  constexpr static std::size_t addrs = 0x24098b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d67d8;
+  constexpr static std::size_t addrs = 0x2409ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23d67e0;
+  constexpr static std::size_t addrs = 0x2409acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x23d6694;
+  constexpr static std::size_t addrs = 0x2409980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* (
     ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(&::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::GetCertificationRequestInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d68c0;
+  constexpr static std::size_t addrs = 0x2409bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::get_SignatureAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d68c8;
+  constexpr static std::size_t addrs = 0x2409bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::get_Signature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23d68d0;
+  constexpr static std::size_t addrs = 0x2409bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::GetSignatureOctets)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23d68d8;
+  constexpr static std::size_t addrs = 0x2409bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x23d68f8;
+  constexpr static std::size_t addrs = 0x2409be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,8 +146,7 @@ constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& Org::Bounc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reqInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*> const&
-Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_reqInfo() const {
+constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* const& Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_reqInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reqInfo;
 }
@@ -159,7 +158,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigAlgId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_sigAlgId() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_sigAlgId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigAlgId;
 }
@@ -171,7 +170,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerBitString*& Org::BouncyCastle::Asn1::Pkc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigBits;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_sigBits() const {
+constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::__cordl_internal_get_sigBits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sigBits;
 }
@@ -185,18 +184,10 @@ inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle:
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>());
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo,
-                                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
-                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* signature) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(requestInfo, algorithm, signature));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo,
                                                                        ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm, ::Org::BouncyCastle::Asn1::DerBitString* signature) {
@@ -206,9 +197,6 @@ inline void Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor(::Org::Bo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerBitString*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, requestInfo, algorithm, signature);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,6 +229,17 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Cer
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>());
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* requestInfo,
+                                                                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithm,
+                                                                                                                            ::Org::BouncyCastle::Asn1::DerBitString* signature) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(requestInfo, algorithm, signature));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest::CertificationRequest() {}

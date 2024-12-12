@@ -18,13 +18,12 @@ template <typename T> class QueueSet_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::QueueSet_1);
-// Type: ::QueueSet`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::QueueSet`1<T>*
+// CS Name: QueueSet`1<T>
 class CORDL_TYPE QueueSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   static inline ::GlobalNamespace::QueueSet_1<T>* New_ctor();
 
+  constexpr ::System::Collections::Generic::LinkedList_1<T>* const& __cordl_internal_get__linkedList() const;
+
   constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get__linkedList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get__linkedList() const;
+  constexpr ::System::Collections::Generic::HashSet_1<T>* const& __cordl_internal_get__set() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<T>*& __cordl_internal_get__set();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __cordl_internal_get__set() const;
 
   constexpr void __cordl_internal_set__linkedList(::System::Collections::Generic::LinkedList_1<T>* value);
 
@@ -79,14 +78,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QueueSet_1(QueueSet_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16909 };
+
   /// @brief Field _linkedList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* ____linkedList;
 
   /// @brief Field _set, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<T>* ____set;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Cache.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__Cache_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Cache.get_handle
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Cache::*)()>(&::UnityEngine::Cache::get_handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4800a30;
+  constexpr static std::size_t addrs = 0x48625d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cache>::get(), "get_handle",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Cache::*)()>(&::UnityEngine::Cache::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4800a38;
+  constexpr static std::size_t addrs = 0x48625d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Cache::*)(::System::Object*)>(&::UnityEngine::Cache::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4800a40;
+  constexpr static std::size_t addrs = 0x48625e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Cache::*)(::UnityEngine::Cache)>(&::UnityEngine::Cache::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4800ab8;
+  constexpr static std::size_t addrs = 0x4862658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Cache::*)()>(&::UnityEngine::Cache::get_valid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4800ac8;
+  constexpr static std::size_t addrs = 0x4862668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cache>::get(), "get_valid",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::UnityEngine::Cache::Cache_IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4800b04;
+  constexpr static std::size_t addrs = 0x48626a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Cache::*)()>(&::UnityEngine::Cache::get_path)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4800b40;
+  constexpr static std::size_t addrs = 0x48626e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cache>::get(), "get_path",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::UnityEngine::Cache::Cache_GetPath)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4800b7c;
+  constexpr static std::size_t addrs = 0x486271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Cache::*)(int64_t)>(&::UnityEngine::Cache::set_maximumAvailableStorageSpace)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4800bb8;
+  constexpr static std::size_t addrs = 0x4862758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int64_t)>(&::UnityEngine::Cache::Cache_SetMaximumDiskSpaceAvailable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4800bfc;
+  constexpr static std::size_t addrs = 0x486279c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Cache::*)(int32_t)>(&::UnityEngine::Cache::set_expirationDelay)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4800c40;
+  constexpr static std::size_t addrs = 0x48627e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::Cache::Cache_SetExpirationDelay)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4800c84;
+  constexpr static std::size_t addrs = 0x4862824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,14 +168,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Cache>"
-constexpr UnityEngine::Cache::operator ::System::IEquatable_1<::UnityEngine::Cache>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Cache>"
-constexpr ::System::IEquatable_1<::UnityEngine::Cache>* UnityEngine::Cache::i___System__IEquatable_1___UnityEngine__Cache_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline int32_t UnityEngine::Cache::get_handle() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cache>::get(), "get_handle",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -242,6 +234,14 @@ inline void UnityEngine::Cache::Cache_SetExpirationDelay(int32_t handle, int32_t
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cache>::get(), "Cache_SetExpirationDelay", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, value);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Cache>"
+constexpr UnityEngine::Cache::operator ::System::IEquatable_1<::UnityEngine::Cache>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Cache>"
+constexpr ::System::IEquatable_1<::UnityEngine::Cache>* UnityEngine::Cache::i___System__IEquatable_1___UnityEngine__Cache_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Cache>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Handle", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Cache::Cache(int32_t m_Handle) noexcept {

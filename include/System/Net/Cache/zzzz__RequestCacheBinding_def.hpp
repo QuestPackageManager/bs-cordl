@@ -20,11 +20,10 @@ class RequestCacheBinding;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCacheBinding);
-// Type: System.Net.Cache::RequestCacheBinding
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Cache {
 // Is value type: false
-// CS Name: ::System.Net.Cache::RequestCacheBinding*
+// CS Name: System.Net.Cache.RequestCacheBinding
 class CORDL_TYPE RequestCacheBinding : public ::System::Object {
 public:
   // Declarations
@@ -46,17 +45,17 @@ public:
   static inline ::System::Net::Cache::RequestCacheBinding* New_ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator,
                                                                     ::System::Net::Cache::RequestCachePolicy* policy);
 
+  constexpr ::System::Net::Cache::RequestCacheValidator* const& __cordl_internal_get_m_CacheValidator() const;
+
   constexpr ::System::Net::Cache::RequestCacheValidator*& __cordl_internal_get_m_CacheValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCacheValidator*> const& __cordl_internal_get_m_CacheValidator() const;
+  constexpr ::System::Net::Cache::RequestCachePolicy* const& __cordl_internal_get_m_Policy() const;
 
   constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_m_Policy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get_m_Policy() const;
+  constexpr ::System::Net::Cache::RequestCache* const& __cordl_internal_get_m_RequestCache() const;
 
   constexpr ::System::Net::Cache::RequestCache*& __cordl_internal_get_m_RequestCache();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCache*> const& __cordl_internal_get_m_RequestCache() const;
 
   constexpr void __cordl_internal_set_m_CacheValidator(::System::Net::Cache::RequestCacheValidator* value);
 
@@ -64,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  /// @brief Method .ctor, addr 0x438c98c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43edca0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x438ca00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x43edd14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Policy, addr 0x438ca10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x43edd24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
-  /// @brief Method get_Validator, addr 0x438ca08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x43edd1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RequestCacheBinding(RequestCacheBinding const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9836 };
+
   /// @brief Field m_RequestCache, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Cache::RequestCache* ___m_RequestCache;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field m_Policy, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Cache::RequestCachePolicy* ___m_Policy;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9811 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheBinding, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_RequestCache) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_CacheValidator) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Cache::RequestCacheBinding, ___m_Policy) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Cache::RequestCacheBinding, 0x28>, "Size mismatch!");
 
 } // namespace System::Net::Cache
 NEED_NO_BOX(::System::Net::Cache::RequestCacheBinding);

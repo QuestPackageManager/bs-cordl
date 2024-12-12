@@ -26,11 +26,10 @@ class ColorSchemeColorsToggleGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorsToggleGroup);
-// Type: ::ColorSchemeColorsToggleGroup
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSchemeColorsToggleGroup*
+// CS Name: ColorSchemeColorsToggleGroup
 class CORDL_TYPE ColorSchemeColorsToggleGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -84,47 +83,47 @@ public:
   __declspec(property(get = __cordl_internal_get_selectedColorDidChangeEvent,
                       put = __cordl_internal_set_selectedColorDidChangeEvent)) ::System::Action_1<::UnityEngine::Color>* selectedColorDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x3b92f38, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3bf4db4, size 0x2f8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x3b9328c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method CreateColorSchemeFromEditedColors, addr 0x3bf510c, size 0x1e4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* CreateColorSchemeFromEditedColors();
 
-  /// @brief Method HandleToggleWasSelected, addr 0x3b9324c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleToggleWasSelected, addr 0x3bf50c8, size 0x44, virtual false, abstract: false, final false
   inline void HandleToggleWasSelected(::GlobalNamespace::ColorSchemeColorToggleController* toggleController, bool isOn);
 
   static inline ::GlobalNamespace::ColorSchemeColorsToggleGroup* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b93230, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bf50ac, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColorScheme, addr 0x3b92e58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x3bf4cb4, size 0x100, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
-  /// @brief Method <Awake>b__17_0, addr 0x3b93454, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_0, addr 0x3bf52f8, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_0(bool isOn);
 
-  /// @brief Method <Awake>b__17_1, addr 0x3b93464, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_1, addr 0x3bf5308, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_1(bool isOn);
 
-  /// @brief Method <Awake>b__17_2, addr 0x3b93474, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_2, addr 0x3bf5318, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_2(bool isOn);
 
-  /// @brief Method <Awake>b__17_3, addr 0x3b93484, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_3, addr 0x3bf5328, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_3(bool isOn);
 
-  /// @brief Method <Awake>b__17_4, addr 0x3b93494, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_4, addr 0x3bf5338, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_4(bool isOn);
 
-  /// @brief Method <Awake>b__17_5, addr 0x3b934a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_5, addr 0x3bf5348, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_5(bool isOn);
 
-  /// @brief Method <Awake>b__17_6, addr 0x3b934b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__17_6, addr 0x3bf5358, size 0x10, virtual false, abstract: false, final false
   inline void _Awake_b__17_6(bool isOn);
 
-  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> const& __cordl_internal_get__environmentColor0BoostToggleController() const;
 
@@ -158,13 +157,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController>& __cordl_internal_get__selectedColorToggleController();
 
+  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+
   constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
+  constexpr ::System::Action_1<::UnityEngine::Color>* const& __cordl_internal_get_selectedColorDidChangeEvent() const;
 
   constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_selectedColorDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_selectedColorDidChangeEvent() const;
 
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
@@ -188,19 +187,19 @@ public:
 
   constexpr void __cordl_internal_set_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x3b9344c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf52f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectedColorDidChangeEvent, addr 0x3b92bf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectedColorDidChangeEvent, addr 0x3bf4b1c, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method get_color, addr 0x3b92d58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3bf4c7c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x3b92ca8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectedColorDidChangeEvent, addr 0x3bf4bcc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectedColorDidChangeEvent(::System::Action_1<::UnityEngine::Color>* value);
 
-  /// @brief Method set_color, addr 0x3b92da8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3bf4c98, size 0x1c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -216,6 +215,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeColorsToggleGroup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeColorsToggleGroup(ColorSchemeColorsToggleGroup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4735 };
 
   /// @brief Field _saberAColorToggleController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeColorToggleController> ____saberAColorToggleController;
@@ -250,14 +252,9 @@ public:
   /// @brief Field _colorScheme, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4719 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeColorsToggleGroup, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____saberAColorToggleController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____saberBColorToggleController) == 0x28, "Offset mismatch!");
@@ -279,6 +276,8 @@ static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____togg
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____selectedColorToggleController) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeColorsToggleGroup, ____colorScheme) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeColorsToggleGroup, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeColorsToggleGroup);

@@ -13,30 +13,25 @@ class ICursorManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ICursorManager);
-// Type: UnityEngine.UIElements::ICursorManager
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ICursorManager*
+// CS Name: UnityEngine.UIElements.ICursorManager
 class CORDL_TYPE ICursorManager {
 public:
   // Declarations
-  /// @brief Method ResetCursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ResetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ResetCursor();
 
-  /// @brief Method SetCursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetCursor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ICursorManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICursorManager(ICursorManager&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICursorManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ICursorManager(ICursorManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

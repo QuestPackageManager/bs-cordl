@@ -10,27 +10,22 @@ class ILateTickable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ILateTickable);
-// Type: Zenject::ILateTickable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ILateTickable*
+// CS Name: Zenject.ILateTickable
 class CORDL_TYPE ILateTickable {
 public:
   // Declarations
-  /// @brief Method LateTick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LateTick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void LateTick();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ILateTickable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ILateTickable(ILateTickable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ILateTickable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ILateTickable(ILateTickable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18358 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18439 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

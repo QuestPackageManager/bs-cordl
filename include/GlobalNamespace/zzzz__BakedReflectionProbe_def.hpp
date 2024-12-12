@@ -22,11 +22,10 @@ class BakedReflectionProbe;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BakedReflectionProbe);
-// Type: ::BakedReflectionProbe
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BakedReflectionProbe*
+// CS Name: BakedReflectionProbe
 class CORDL_TYPE BakedReflectionProbe : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -40,22 +39,22 @@ public:
   __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) ::UnityEngine::Vector3 _offset;
 
   /// @brief Field _reflectionProbeBoundsMaxPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__reflectionProbeBoundsMaxPropertyId, put = setStaticF__reflectionProbeBoundsMaxPropertyId)) int32_t _reflectionProbeBoundsMaxPropertyId;
+  __declspec(property(get = getStaticF__reflectionProbeBoundsMaxPropertyId, put = setStaticF__reflectionProbeBoundsMaxPropertyId)) int32_t _reflectionProbeBoundsMaxPropertyId;
 
   /// @brief Field _reflectionProbeBoundsMinPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__reflectionProbeBoundsMinPropertyId, put = setStaticF__reflectionProbeBoundsMinPropertyId)) int32_t _reflectionProbeBoundsMinPropertyId;
+  __declspec(property(get = getStaticF__reflectionProbeBoundsMinPropertyId, put = setStaticF__reflectionProbeBoundsMinPropertyId)) int32_t _reflectionProbeBoundsMinPropertyId;
 
   /// @brief Field _reflectionProbeData, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__reflectionProbeData, put = __cordl_internal_set__reflectionProbeData)) ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> _reflectionProbeData;
 
   /// @brief Field _reflectionProbePositionPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__reflectionProbePositionPropertyId, put = setStaticF__reflectionProbePositionPropertyId)) int32_t _reflectionProbePositionPropertyId;
+  __declspec(property(get = getStaticF__reflectionProbePositionPropertyId, put = setStaticF__reflectionProbePositionPropertyId)) int32_t _reflectionProbePositionPropertyId;
 
   /// @brief Field _reflectionProbeTexture1PropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__reflectionProbeTexture1PropertyId, put = setStaticF__reflectionProbeTexture1PropertyId)) int32_t _reflectionProbeTexture1PropertyId;
+  __declspec(property(get = getStaticF__reflectionProbeTexture1PropertyId, put = setStaticF__reflectionProbeTexture1PropertyId)) int32_t _reflectionProbeTexture1PropertyId;
 
   /// @brief Field _reflectionProbeTexture2PropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__reflectionProbeTexture2PropertyId, put = setStaticF__reflectionProbeTexture2PropertyId)) int32_t _reflectionProbeTexture2PropertyId;
+  __declspec(property(get = getStaticF__reflectionProbeTexture2PropertyId, put = setStaticF__reflectionProbeTexture2PropertyId)) int32_t _reflectionProbeTexture2PropertyId;
 
   /// @brief Field _resolutionBeforeDownsample, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__resolutionBeforeDownsample, put = __cordl_internal_set__resolutionBeforeDownsample)) int32_t _resolutionBeforeDownsample;
@@ -73,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::BakedReflectionProbe* New_ctor();
 
-  /// @brief Method SendDataToShaders, addr 0x3ab6a38, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SendDataToShaders, addr 0x3b1397c, size 0x22c, virtual false, abstract: false, final false
   inline void SendDataToShaders();
 
-  /// @brief Method Start, addr 0x3ab6980, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b138c4, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Cubemap> const& __cordl_internal_get__blackCubemap() const;
@@ -115,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__size(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3ab6c64, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b13ba8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__reflectionProbeBoundsMaxPropertyId();
@@ -128,16 +127,16 @@ public:
 
   static inline int32_t getStaticF__reflectionProbeTexture2PropertyId();
 
-  /// @brief Method get_downsampleByHalfCount, addr 0x3ab6978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_downsampleByHalfCount, addr 0x3b138bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_downsampleByHalfCount();
 
-  /// @brief Method get_position, addr 0x3ab6950, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3b13894, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_reflectionProbeData, addr 0x3ab6940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeData, addr 0x3b13884, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> get_reflectionProbeData();
 
-  /// @brief Method get_resolutionBeforeDownsample, addr 0x3ab6970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resolutionBeforeDownsample, addr 0x3b138b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_resolutionBeforeDownsample();
 
   static inline void setStaticF__reflectionProbeBoundsMaxPropertyId(int32_t value);
@@ -150,7 +149,7 @@ public:
 
   static inline void setStaticF__reflectionProbeTexture2PropertyId(int32_t value);
 
-  /// @brief Method set_reflectionProbeData, addr 0x3ab6948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeData, addr 0x3b1388c, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
 
 protected:
@@ -166,6 +165,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BakedReflectionProbe", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BakedReflectionProbe(BakedReflectionProbe const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5048 };
 
   /// @brief Field _resolutionBeforeDownsample, offset: 0x20, size: 0x4, def value: None
   int32_t ____resolutionBeforeDownsample;
@@ -185,14 +187,9 @@ public:
   /// @brief Field _blackCubemap, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cubemap> ____blackCubemap;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5029 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BakedReflectionProbe, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____resolutionBeforeDownsample) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____downsampleByHalfCount) == 0x24, "Offset mismatch!");
@@ -204,6 +201,8 @@ static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____offset) == 0
 static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____reflectionProbeData) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BakedReflectionProbe, ____blackCubemap) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BakedReflectionProbe, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BakedReflectionProbe);

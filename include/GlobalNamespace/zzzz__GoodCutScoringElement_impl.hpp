@@ -1,44 +1,43 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GoodCutScoringElement.hpp"
+#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__GoodCutScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__GoodCutScoringElement_def.hpp"
-#include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__GoodCutScoringElement__Pool._ctor
+//  Writing Method size for method: ::GlobalNamespace::GoodCutScoringElement_Pool._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GoodCutScoringElement__Pool::*)()>(
-    &::GlobalNamespace::__GoodCutScoringElement__Pool::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GoodCutScoringElement_Pool::*)()>(&::GlobalNamespace::GoodCutScoringElement_Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b89c60;
+  constexpr static std::size_t addrs = 0x3beb478;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GoodCutScoringElement__Pool*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement_Pool*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__GoodCutScoringElement__Pool* GlobalNamespace::__GoodCutScoringElement__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__GoodCutScoringElement__Pool*>());
-}
-inline void GlobalNamespace::__GoodCutScoringElement__Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GoodCutScoringElement__Pool*>::get(), ".ctor",
+inline void GlobalNamespace::GoodCutScoringElement_Pool::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement_Pool*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::GoodCutScoringElement_Pool* GlobalNamespace::GoodCutScoringElement_Pool::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GoodCutScoringElement_Pool*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__GoodCutScoringElement__Pool::__GoodCutScoringElement__Pool() {}
+constexpr ::GlobalNamespace::GoodCutScoringElement_Pool::GoodCutScoringElement_Pool() {}
 //  Writing Method size for method: ::GlobalNamespace::GoodCutScoringElement.get_cutScore
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GoodCutScoringElement::*)()>(&::GlobalNamespace::GoodCutScoringElement::get_cutScore)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b89b4c;
+  constexpr static std::size_t addrs = 0x3beb364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,10 +49,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GoodCutScoringElement.get_wouldBeCorrectCutBestPossibleMultiplierEventType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::GoodCutScoringElement::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::GoodCutScoringElement::*)()>(
     &::GlobalNamespace::GoodCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89b8c;
+  constexpr static std::size_t addrs = 0x3beb3a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,10 +64,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GoodCutScoringElement.get_multiplierEventType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::GoodCutScoringElement::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType (::GlobalNamespace::GoodCutScoringElement::*)()>(
     &::GlobalNamespace::GoodCutScoringElement::get_multiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89b94;
+  constexpr static std::size_t addrs = 0x3beb3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyCutScoreBuffer* (::GlobalNamespace::GoodCutScoringElement::*)()>(
     &::GlobalNamespace::GoodCutScoringElement::get_cutScoreBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b89b9c;
+  constexpr static std::size_t addrs = 0x3beb3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(),
@@ -97,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GoodCutScoringElement::*)()>(
     &::GlobalNamespace::GoodCutScoringElement::get_executionOrder)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b89ba4;
+  constexpr static std::size_t addrs = 0x3beb3bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GoodCutScoringElement::*)()>(&::GlobalNamespace::GoodCutScoringElement::Reinitialize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b89bc8;
+  constexpr static std::size_t addrs = 0x3beb3e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GoodCutScoringElement::*)(::GlobalNamespace::NoteCutInfo)>(
     &::GlobalNamespace::GoodCutScoringElement::Init)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b896ac;
+  constexpr static std::size_t addrs = 0x3beaec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GoodCutScoringElement::*)(::GlobalNamespace::CutScoreBuffer*)>(
     &::GlobalNamespace::GoodCutScoringElement::HandleCutScoreBufferDidFinish)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b89be0;
+  constexpr static std::size_t addrs = 0x3beb3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GoodCutScoringElement::*)()>(&::GlobalNamespace::GoodCutScoringElement::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b89c04;
+  constexpr static std::size_t addrs = 0x3beb41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(), ".ctor",
@@ -163,19 +162,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
-constexpr GlobalNamespace::GoodCutScoringElement::operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
-constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* GlobalNamespace::GoodCutScoringElement::i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::CutScoreBuffer*& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__cutScoreBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutScoreBuffer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutScoreBuffer*> const& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__cutScoreBuffer() const {
+constexpr ::GlobalNamespace::CutScoreBuffer* const& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__cutScoreBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutScoreBuffer;
 }
@@ -183,28 +174,27 @@ constexpr void GlobalNamespace::GoodCutScoringElement::__cordl_internal_set__cut
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutScoreBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__multiplierEventType() {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__multiplierEventType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierEventType;
 }
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__multiplierEventType() const {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__multiplierEventType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierEventType;
 }
-constexpr void GlobalNamespace::GoodCutScoringElement::__cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value) {
+constexpr void GlobalNamespace::GoodCutScoringElement::__cordl_internal_set__multiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplierEventType = value;
 }
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wouldBeCorrectCutBestPossibleMultiplierEventType;
 }
-constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const&
-GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const {
+constexpr ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const& GlobalNamespace::GoodCutScoringElement::__cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____wouldBeCorrectCutBestPossibleMultiplierEventType;
 }
-constexpr void GlobalNamespace::GoodCutScoringElement::__cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value) {
+constexpr void GlobalNamespace::GoodCutScoringElement::__cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____wouldBeCorrectCutBestPossibleMultiplierEventType = value;
 }
@@ -213,15 +203,15 @@ inline int32_t GlobalNamespace::GoodCutScoringElement::get_cutScore() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType GlobalNamespace::GoodCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType() {
+inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType GlobalNamespace::GoodCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType GlobalNamespace::GoodCutScoringElement::get_multiplierEventType() {
+inline ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType GlobalNamespace::GoodCutScoringElement::get_multiplierEventType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::IReadonlyCutScoreBuffer* GlobalNamespace::GoodCutScoringElement::get_cutScoreBuffer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(),
@@ -250,13 +240,21 @@ inline void GlobalNamespace::GoodCutScoringElement::HandleCutScoreBufferDidFinis
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer);
 }
-inline ::GlobalNamespace::GoodCutScoringElement* GlobalNamespace::GoodCutScoringElement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GoodCutScoringElement*>());
-}
 inline void GlobalNamespace::GoodCutScoringElement::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GoodCutScoringElement*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GoodCutScoringElement* GlobalNamespace::GoodCutScoringElement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GoodCutScoringElement*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
+constexpr GlobalNamespace::GoodCutScoringElement::operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept {
+  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
+constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* GlobalNamespace::GoodCutScoringElement::i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept {
+  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GoodCutScoringElement::GoodCutScoringElement() {}

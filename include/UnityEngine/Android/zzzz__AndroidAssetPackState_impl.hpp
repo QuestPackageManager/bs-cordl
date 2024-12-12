@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::AndroidAssetPackState::*)(
     ::StringW, ::UnityEngine::Android::AndroidAssetPackStatus, ::UnityEngine::Android::AndroidAssetPackError)>(&::UnityEngine::Android::AndroidAssetPackState::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47e84f8;
+  constexpr static std::size_t addrs = 0x484980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,10 +59,6 @@ constexpr void UnityEngine::Android::AndroidAssetPackState::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____error_k__BackingField = value;
 }
-inline ::UnityEngine::Android::AndroidAssetPackState* UnityEngine::Android::AndroidAssetPackState::New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status,
-                                                                                                            ::UnityEngine::Android::AndroidAssetPackError error) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::AndroidAssetPackState*>(name, status, error));
-}
 inline void UnityEngine::Android::AndroidAssetPackState::_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::AndroidAssetPackState*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -70,6 +66,10 @@ inline void UnityEngine::Android::AndroidAssetPackState::_ctor(::StringW name, :
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackStatus>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Android::AndroidAssetPackError>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, status, error);
+}
+inline ::UnityEngine::Android::AndroidAssetPackState* UnityEngine::Android::AndroidAssetPackState::New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status,
+                                                                                                            ::UnityEngine::Android::AndroidAssetPackError error) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::AndroidAssetPackState*>(name, status, error));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::AndroidAssetPackState::AndroidAssetPackState() {}

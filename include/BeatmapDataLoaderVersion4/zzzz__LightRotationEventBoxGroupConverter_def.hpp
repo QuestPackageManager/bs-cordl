@@ -26,21 +26,20 @@ class LightRotationEventBoxGroupConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter);
-// Type: BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapDataLoaderVersion4.EventBoxGroupConverter
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter*
+// CS Name: BeatmapDataLoaderVersion4.LightRotationEventBoxGroupConverter
 class CORDL_TYPE LightRotationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x26d9030, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x270abec, size 0x248, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                            ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x26d84c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a080, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:
@@ -58,7 +57,7 @@ public:
   LightRotationEventBoxGroupConverter(LightRotationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

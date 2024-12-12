@@ -12,11 +12,10 @@ struct UnmanagedType;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::InteropServices::UnmanagedType);
-// Type: System.Runtime.InteropServices::UnmanagedType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: true
-// CS Name: ::System.Runtime.InteropServices::UnmanagedType
+// CS Name: System.Runtime.InteropServices.UnmanagedType
 struct CORDL_TYPE UnmanagedType {
 public:
   // Declarations
@@ -81,121 +80,118 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UnmanagedType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AnsiBStr value: static_cast<int32_t>(0x23)
+  /// @brief Field AnsiBStr value: I32(35)
   static ::System::Runtime::InteropServices::UnmanagedType const AnsiBStr;
 
-  /// @brief Field AsAny value: static_cast<int32_t>(0x28)
+  /// @brief Field AsAny value: I32(40)
   static ::System::Runtime::InteropServices::UnmanagedType const AsAny;
 
-  /// @brief Field BStr value: static_cast<int32_t>(0x13)
+  /// @brief Field BStr value: I32(19)
   static ::System::Runtime::InteropServices::UnmanagedType const BStr;
 
-  /// @brief Field Bool value: static_cast<int32_t>(0x2)
+  /// @brief Field Bool value: I32(2)
   static ::System::Runtime::InteropServices::UnmanagedType const Bool;
 
-  /// @brief Field ByValArray value: static_cast<int32_t>(0x1e)
+  /// @brief Field ByValArray value: I32(30)
   static ::System::Runtime::InteropServices::UnmanagedType const ByValArray;
 
-  /// @brief Field ByValTStr value: static_cast<int32_t>(0x17)
+  /// @brief Field ByValTStr value: I32(23)
   static ::System::Runtime::InteropServices::UnmanagedType const ByValTStr;
 
-  /// @brief Field Currency value: static_cast<int32_t>(0xf)
+  /// @brief Field Currency value: I32(15)
   static ::System::Runtime::InteropServices::UnmanagedType const Currency;
 
-  /// @brief Field CustomMarshaler value: static_cast<int32_t>(0x2c)
+  /// @brief Field CustomMarshaler value: I32(44)
   static ::System::Runtime::InteropServices::UnmanagedType const CustomMarshaler;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x2d)
+  /// @brief Field Error value: I32(45)
   static ::System::Runtime::InteropServices::UnmanagedType const Error;
 
-  /// @brief Field FunctionPtr value: static_cast<int32_t>(0x26)
+  /// @brief Field FunctionPtr value: I32(38)
   static ::System::Runtime::InteropServices::UnmanagedType const FunctionPtr;
 
-  /// @brief Field HString value: static_cast<int32_t>(0x2f)
+  /// @brief Field HString value: I32(47)
   static ::System::Runtime::InteropServices::UnmanagedType const HString;
 
-  /// @brief Field I1 value: static_cast<int32_t>(0x3)
+  /// @brief Field I1 value: I32(3)
   static ::System::Runtime::InteropServices::UnmanagedType const I1;
 
-  /// @brief Field I2 value: static_cast<int32_t>(0x5)
+  /// @brief Field I2 value: I32(5)
   static ::System::Runtime::InteropServices::UnmanagedType const I2;
 
-  /// @brief Field I4 value: static_cast<int32_t>(0x7)
+  /// @brief Field I4 value: I32(7)
   static ::System::Runtime::InteropServices::UnmanagedType const I4;
 
-  /// @brief Field I8 value: static_cast<int32_t>(0x9)
+  /// @brief Field I8 value: I32(9)
   static ::System::Runtime::InteropServices::UnmanagedType const I8;
 
-  /// @brief Field IDispatch value: static_cast<int32_t>(0x1a)
+  /// @brief Field IDispatch value: I32(26)
   static ::System::Runtime::InteropServices::UnmanagedType const IDispatch;
 
-  /// @brief Field IInspectable value: static_cast<int32_t>(0x2e)
+  /// @brief Field IInspectable value: I32(46)
   static ::System::Runtime::InteropServices::UnmanagedType const IInspectable;
 
-  /// @brief Field IUnknown value: static_cast<int32_t>(0x19)
+  /// @brief Field IUnknown value: I32(25)
   static ::System::Runtime::InteropServices::UnmanagedType const IUnknown;
 
-  /// @brief Field Interface value: static_cast<int32_t>(0x1c)
+  /// @brief Field Interface value: I32(28)
   static ::System::Runtime::InteropServices::UnmanagedType const Interface;
 
-  /// @brief Field LPArray value: static_cast<int32_t>(0x2a)
+  /// @brief Field LPArray value: I32(42)
   static ::System::Runtime::InteropServices::UnmanagedType const LPArray;
 
-  /// @brief Field LPStr value: static_cast<int32_t>(0x14)
+  /// @brief Field LPStr value: I32(20)
   static ::System::Runtime::InteropServices::UnmanagedType const LPStr;
 
-  /// @brief Field LPStruct value: static_cast<int32_t>(0x2b)
+  /// @brief Field LPStruct value: I32(43)
   static ::System::Runtime::InteropServices::UnmanagedType const LPStruct;
 
-  /// @brief Field LPTStr value: static_cast<int32_t>(0x16)
+  /// @brief Field LPTStr value: I32(22)
   static ::System::Runtime::InteropServices::UnmanagedType const LPTStr;
 
-  /// @brief Field LPUTF8Str value: static_cast<int32_t>(0x30)
+  /// @brief Field LPUTF8Str value: I32(48)
   static ::System::Runtime::InteropServices::UnmanagedType const LPUTF8Str;
 
-  /// @brief Field LPWStr value: static_cast<int32_t>(0x15)
+  /// @brief Field LPWStr value: I32(21)
   static ::System::Runtime::InteropServices::UnmanagedType const LPWStr;
 
-  /// @brief Field R4 value: static_cast<int32_t>(0xb)
+  /// @brief Field R4 value: I32(11)
   static ::System::Runtime::InteropServices::UnmanagedType const R4;
 
-  /// @brief Field R8 value: static_cast<int32_t>(0xc)
+  /// @brief Field R8 value: I32(12)
   static ::System::Runtime::InteropServices::UnmanagedType const R8;
 
-  /// @brief Field SafeArray value: static_cast<int32_t>(0x1d)
+  /// @brief Field SafeArray value: I32(29)
   static ::System::Runtime::InteropServices::UnmanagedType const SafeArray;
 
-  /// @brief Field Struct value: static_cast<int32_t>(0x1b)
+  /// @brief Field Struct value: I32(27)
   static ::System::Runtime::InteropServices::UnmanagedType const Struct;
 
-  /// @brief Field SysInt value: static_cast<int32_t>(0x1f)
+  /// @brief Field SysInt value: I32(31)
   static ::System::Runtime::InteropServices::UnmanagedType const SysInt;
 
-  /// @brief Field SysUInt value: static_cast<int32_t>(0x20)
+  /// @brief Field SysUInt value: I32(32)
   static ::System::Runtime::InteropServices::UnmanagedType const SysUInt;
 
-  /// @brief Field TBStr value: static_cast<int32_t>(0x24)
+  /// @brief Field TBStr value: I32(36)
   static ::System::Runtime::InteropServices::UnmanagedType const TBStr;
 
-  /// @brief Field U1 value: static_cast<int32_t>(0x4)
+  /// @brief Field U1 value: I32(4)
   static ::System::Runtime::InteropServices::UnmanagedType const U1;
 
-  /// @brief Field U2 value: static_cast<int32_t>(0x6)
+  /// @brief Field U2 value: I32(6)
   static ::System::Runtime::InteropServices::UnmanagedType const U2;
 
-  /// @brief Field U4 value: static_cast<int32_t>(0x8)
+  /// @brief Field U4 value: I32(8)
   static ::System::Runtime::InteropServices::UnmanagedType const U4;
 
-  /// @brief Field U8 value: static_cast<int32_t>(0xa)
+  /// @brief Field U8 value: I32(10)
   static ::System::Runtime::InteropServices::UnmanagedType const U8;
 
-  /// @brief Field VBByRefStr value: static_cast<int32_t>(0x22)
+  /// @brief Field VBByRefStr value: I32(34)
   static ::System::Runtime::InteropServices::UnmanagedType const VBByRefStr;
 
-  /// @brief Field VariantBool value: static_cast<int32_t>(0x25)
+  /// @brief Field VariantBool value: I32(37)
   static ::System::Runtime::InteropServices::UnmanagedType const VariantBool;
 
   /// @brief IL2CPP Metadata Type Index
@@ -204,12 +200,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::UnmanagedType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::UnmanagedType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::UnmanagedType, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::UnmanagedType, "System.Runtime.InteropServices", "UnmanagedType");

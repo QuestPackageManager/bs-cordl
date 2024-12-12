@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __AddInstruction__AddInt64;
+namespace GlobalNamespace {
+class AddInstruction_AddInt64;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__AddInstruction__AddInt64);
-// Type: ::AddInt64
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::AddInstruction_AddInt64);
+// Dependencies System.Linq.Expressions.Interpreter.AddInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AddInstruction::AddInt64*
-class CORDL_TYPE __AddInstruction__AddInt64 : public ::System::Linq::Expressions::Interpreter::AddInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.AddInstruction/AddInt64
+class CORDL_TYPE AddInstruction_AddInt64 : public ::System::Linq::Expressions::Interpreter::AddInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__AddInstruction__AddInt64* New_ctor();
+  static inline ::GlobalNamespace::AddInstruction_AddInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x405c6c8, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40bd9dc, size 0x148, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x405c418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40bd72c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __AddInstruction__AddInt64();
+  constexpr AddInstruction_AddInt64();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AddInstruction__AddInt64", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt64", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __AddInstruction__AddInt64(__AddInstruction__AddInt64&&) = delete;
+  AddInstruction_AddInt64(AddInstruction_AddInt64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AddInstruction__AddInt64", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddInt64", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __AddInstruction__AddInt64(__AddInstruction__AddInt64 const&) = delete;
+  AddInstruction_AddInt64(AddInstruction_AddInt64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13740 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__AddInstruction__AddInt64, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddInstruction_AddInt64, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__AddInstruction__AddInt64);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__AddInstruction__AddInt64*, "System.Linq.Expressions.Interpreter", "AddInstruction/AddInt64");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::AddInstruction_AddInt64);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddInstruction_AddInt64*, "System.Linq.Expressions.Interpreter", "AddInstruction/AddInt64");

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b37f2c;
+  constexpr static std::size_t addrs = 0x3b99470;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::SpawnChevronObjectPoolsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b37fb0;
+  constexpr static std::size_t addrs = 0x3b994f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>::get(),
@@ -50,13 +50,13 @@ inline void GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings()
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SpawnChevronObjectPoolsInstaller* GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>());
-}
 inline void GlobalNamespace::SpawnChevronObjectPoolsInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::SpawnChevronObjectPoolsInstaller* GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SpawnChevronObjectPoolsInstaller::SpawnChevronObjectPoolsInstaller() {}

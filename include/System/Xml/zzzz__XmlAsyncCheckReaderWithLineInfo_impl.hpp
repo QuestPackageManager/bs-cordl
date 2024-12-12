@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfo.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReader_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfo_def.hpp"
 #include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42aab60;
+  constexpr static std::size_t addrs = 0x430be74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x42aba10;
+  constexpr static std::size_t addrs = 0x430cd24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42abab0;
+  constexpr static std::size_t addrs = 0x430cdc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x42abb54;
+  constexpr static std::size_t addrs = 0x430ce68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,28 +68,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
-constexpr System::Xml::XmlAsyncCheckReaderWithLineInfo::operator ::System::Xml::IXmlLineInfo*() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Xml::IXmlLineInfo"
-constexpr ::System::Xml::IXmlLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::i___System__Xml__IXmlLineInfo() noexcept {
-  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
-}
 constexpr ::System::Xml::IXmlLineInfo*& System::Xml::XmlAsyncCheckReaderWithLineInfo::__cordl_internal_get_readerAsIXmlLineInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readerAsIXmlLineInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlLineInfo*> const& System::Xml::XmlAsyncCheckReaderWithLineInfo::__cordl_internal_get_readerAsIXmlLineInfo() const {
+constexpr ::System::Xml::IXmlLineInfo* const& System::Xml::XmlAsyncCheckReaderWithLineInfo::__cordl_internal_get_readerAsIXmlLineInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readerAsIXmlLineInfo;
 }
 constexpr void System::Xml::XmlAsyncCheckReaderWithLineInfo::__cordl_internal_set_readerAsIXmlLineInfo(::System::Xml::IXmlLineInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___readerAsIXmlLineInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::New_ctor(::System::Xml::XmlReader* reader) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(reader));
 }
 inline void System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor(::System::Xml::XmlReader* reader) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -110,6 +100,17 @@ inline int32_t System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition() 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::New_ctor(::System::Xml::XmlReader* reader) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>(reader));
+}
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr System::Xml::XmlAsyncCheckReaderWithLineInfo::operator ::System::Xml::IXmlLineInfo*() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::i___System__Xml__IXmlLineInfo() noexcept {
+  return static_cast<::System::Xml::IXmlLineInfo*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::XmlAsyncCheckReaderWithLineInfo::XmlAsyncCheckReaderWithLineInfo() {}

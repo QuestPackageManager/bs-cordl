@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x22dea04;
+  constexpr static std::size_t addrs = 0x2311cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22de8b0;
+  constexpr static std::size_t addrs = 0x2311b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22debfc;
+  constexpr static std::size_t addrs = 0x2311ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_IntendedAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dec9c;
+  constexpr static std::size_t addrs = 0x2311f88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_SymmAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22deca4;
+  constexpr static std::size_t addrs = 0x2311f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_EncSymmKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22decac;
+  constexpr static std::size_t addrs = 0x2311f98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_KeyAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22decb4;
+  constexpr static std::size_t addrs = 0x2311fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_ValueHint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22decbc;
+  constexpr static std::size_t addrs = 0x2311fa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_EncValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22decc4;
+  constexpr static std::size_t addrs = 0x2311fb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::ToAsn1Object)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22deccc;
+  constexpr static std::size_t addrs = 0x2311fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intendedAlg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_intendedAlg() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_intendedAlg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intendedAlg;
 }
@@ -188,7 +188,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symmAlg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_symmAlg() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_symmAlg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symmAlg;
 }
@@ -200,7 +200,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerBitString*& Org::BouncyCastle::Asn1::Crm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encSymmKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_encSymmKey() const {
+constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_encSymmKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encSymmKey;
 }
@@ -212,7 +212,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyAlg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_keyAlg() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_keyAlg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyAlg;
 }
@@ -224,7 +224,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& Org::BouncyCastle::Asn1::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueHint;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_valueHint() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_valueHint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___valueHint;
 }
@@ -236,16 +236,13 @@ constexpr ::Org::BouncyCastle::Asn1::DerBitString*& Org::BouncyCastle::Asn1::Crm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_encValue() const {
+constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_get_encValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encValue;
 }
 constexpr void Org::BouncyCastle::Asn1::Crmf::EncryptedValue::__cordl_internal_set_encValue(::Org::BouncyCastle::Asn1::DerBitString* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Org::BouncyCastle::Asn1::Crmf::EncryptedValue::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -258,12 +255,6 @@ inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Org::BouncyCastle::Asn1:
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>::get(), "GetInstance",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*, false>(nullptr, ___internal_method, obj);
-}
-inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*
-Org::BouncyCastle::Asn1::Crmf::EncryptedValue::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg,
-                                                        ::Org::BouncyCastle::Asn1::DerBitString* encSymmKey, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg,
-                                                        ::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint, ::Org::BouncyCastle::Asn1::DerBitString* encValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>(intendedAlg, symmAlg, encSymmKey, keyAlg, valueHint, encValue));
 }
 inline void Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg,
                                                                  ::Org::BouncyCastle::Asn1::DerBitString* encSymmKey, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg,
@@ -312,6 +303,15 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Crmf::Enc
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* Org::BouncyCastle::Asn1::Crmf::EncryptedValue::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*
+Org::BouncyCastle::Asn1::Crmf::EncryptedValue::New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg,
+                                                        ::Org::BouncyCastle::Asn1::DerBitString* encSymmKey, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg,
+                                                        ::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint, ::Org::BouncyCastle::Asn1::DerBitString* encValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*>(intendedAlg, symmAlg, encSymmKey, keyAlg, valueHint, encValue));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::EncryptedValue() {}

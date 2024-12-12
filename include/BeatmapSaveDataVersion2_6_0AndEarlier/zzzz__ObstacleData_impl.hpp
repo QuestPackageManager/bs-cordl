@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d5524;
+  constexpr static std::size_t addrs = 0x2706e94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d552c;
+  constexpr static std::size_t addrs = 0x2706e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d5534;
+  constexpr static std::size_t addrs = 0x2706ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d553c;
+  constexpr static std::size_t addrs = 0x2706eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d5544;
+  constexpr static std::size_t addrs = 0x2706eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::*)(
     float_t, int32_t, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType, float_t, int32_t)>(&::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26d554c;
+  constexpr static std::size_t addrs = 0x2706ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,10 +179,6 @@ inline int32_t BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::get_width() 
                                                                              "get_width", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*
-BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::New_ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>(time, lineIndex, type, duration, width));
-}
 inline void BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::_ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -190,6 +186,10 @@ inline void BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::_ctor(float_t t
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time, lineIndex, type, duration, width);
+}
+inline ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*
+BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::New_ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleType type, float_t duration, int32_t width) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData*>(time, lineIndex, type, duration, width));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ObstacleData::ObstacleData() {}

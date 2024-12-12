@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStreamAsyncResult)
@@ -27,11 +28,10 @@ class FileStreamAsyncResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
-// Type: System.IO::FileStreamAsyncResult
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IAsyncResult, System.Object
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::FileStreamAsyncResult*
+// CS Name: System.IO.FileStreamAsyncResult
 class CORDL_TYPE FileStreamAsyncResult : public ::System::Object {
 public:
   // Declarations
@@ -73,7 +73,7 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method CBWrapper, addr 0x3d1ca80, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x3d7cbf4, size 0x94, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -90,9 +90,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_OriginalCount();
 
-  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
+  constexpr ::System::AsyncCallback* const& __cordl_internal_get_cb() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_cb() const;
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
 
   constexpr bool const& __cordl_internal_get_completed() const;
 
@@ -102,17 +102,17 @@ public:
 
   constexpr bool& __cordl_internal_get_completedSynch();
 
+  constexpr ::System::AsyncCallback* const& __cordl_internal_get_realcb() const;
+
   constexpr ::System::AsyncCallback*& __cordl_internal_get_realcb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_realcb() const;
+  constexpr ::System::Object* const& __cordl_internal_get_state() const;
 
   constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
+  constexpr ::System::Threading::ManualResetEvent* const& __cordl_internal_get_wh() const;
 
   constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_wh();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_wh() const;
 
   constexpr void __cordl_internal_set_BytesRead(int32_t value);
 
@@ -132,19 +132,19 @@ public:
 
   constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x3d1c9b4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d7cb28, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method get_AsyncState, addr 0x3d1cb14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x3d7cc88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x3d1cb24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x3d7cc98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x3d1cb1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x3d7cc90, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x3d1cb2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x3d7cca0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -163,6 +163,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FileStreamAsyncResult", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FileStreamAsyncResult(FileStreamAsyncResult const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };
 
   /// @brief Field state, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___state;
@@ -191,14 +194,9 @@ public:
   /// @brief Field realcb, offset: 0x40, size: 0x8, def value: None
   ::System::AsyncCallback* ___realcb;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::FileStreamAsyncResult, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___state) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___completed) == 0x18, "Offset mismatch!");
@@ -216,6 +214,8 @@ static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___OriginalCount) ==
 static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___BytesRead) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::System::IO::FileStreamAsyncResult, ___realcb) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::IO::FileStreamAsyncResult, 0x48>, "Size mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::FileStreamAsyncResult);

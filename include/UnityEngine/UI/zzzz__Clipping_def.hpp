@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(Clipping)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -21,16 +20,15 @@ class Clipping;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::Clipping);
-// Type: UnityEngine.UI::Clipping
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::Clipping*
+// CS Name: UnityEngine.UI.Clipping
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x48f29e0, size 0x1d8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ByRef<bool> validRect);
+  /// @brief Method FindCullAndClipWorldRect, addr 0x4957190, size 0x1d8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* rectMaskParents, ::ByRef<bool> validRect);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +45,7 @@ public:
   Clipping(Clipping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15001 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15036 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

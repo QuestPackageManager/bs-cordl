@@ -12,20 +12,19 @@ class XRControllerWithRumble;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRControllerWithRumble);
-// Type: UnityEngine.InputSystem.XR::XRControllerWithRumble
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.XR.XRController
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.XR::XRControllerWithRumble*
+// CS Name: UnityEngine.InputSystem.XR.XRControllerWithRumble
 class CORDL_TYPE XRControllerWithRumble : public ::UnityEngine::InputSystem::XR::XRController {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-  /// @brief Method SendImpulse, addr 0x4581f1c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendImpulse, addr 0x45e3230, size 0xac, virtual false, abstract: false, final false
   inline void SendImpulse(float_t amplitude, float_t duration);
 
-  /// @brief Method .ctor, addr 0x4582044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x45e3358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +42,7 @@ public:
   XRControllerWithRumble(XRControllerWithRumble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6729 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

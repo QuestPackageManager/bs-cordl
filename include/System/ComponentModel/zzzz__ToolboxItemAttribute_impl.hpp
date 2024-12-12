@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43ef044;
+  constexpr static std::size_t addrs = 0x4450358;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(bool)>(
     &::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43ef0ac;
+  constexpr static std::size_t addrs = 0x44503c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ToolboxItemAttribute::*)(::StringW)>(
     &::System::ComponentModel::ToolboxItemAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43ef108;
+  constexpr static std::size_t addrs = 0x445041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::get_ToolboxItemTypeName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43ef194;
+  constexpr static std::size_t addrs = 0x44504a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ToolboxItemAttribute*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ToolboxItemAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ToolboxItemAttribute::Equals)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x43ef1e8;
+  constexpr static std::size_t addrs = 0x44504fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ToolboxItemAttribute::*)()>(
     &::System::ComponentModel::ToolboxItemAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43ef2e4;
+  constexpr static std::size_t addrs = 0x44505f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,17 +130,11 @@ inline bool System::ComponentModel::ToolboxItemAttribute::IsDefaultAttribute() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ToolboxItemAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::ComponentModel::ToolboxItemAttribute* System::ComponentModel::ToolboxItemAttribute::New_ctor(bool defaultType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ToolboxItemAttribute*>(defaultType));
-}
 inline void System::ComponentModel::ToolboxItemAttribute::_ctor(bool defaultType) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ToolboxItemAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, defaultType);
-}
-inline ::System::ComponentModel::ToolboxItemAttribute* System::ComponentModel::ToolboxItemAttribute::New_ctor(::StringW toolboxItemTypeName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ToolboxItemAttribute*>(toolboxItemTypeName));
 }
 inline void System::ComponentModel::ToolboxItemAttribute::_ctor(::StringW toolboxItemTypeName) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -162,6 +156,12 @@ inline int32_t System::ComponentModel::ToolboxItemAttribute::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ToolboxItemAttribute*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::ToolboxItemAttribute* System::ComponentModel::ToolboxItemAttribute::New_ctor(bool defaultType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ToolboxItemAttribute*>(defaultType));
+}
+inline ::System::ComponentModel::ToolboxItemAttribute* System::ComponentModel::ToolboxItemAttribute::New_ctor(::StringW toolboxItemTypeName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ToolboxItemAttribute*>(toolboxItemTypeName));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ToolboxItemAttribute::ToolboxItemAttribute() {}

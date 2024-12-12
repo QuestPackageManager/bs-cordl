@@ -26,32 +26,31 @@ class CertificateHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Security::CertificateHelper);
-// Type: System.Net.Security::CertificateHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Security {
 // Is value type: false
-// CS Name: ::System.Net.Security::CertificateHelper*
+// CS Name: System.Net.Security.CertificateHelper
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x43a3020, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x4404334, size 0x1b4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x43a2dd0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x44040e4, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x43a2d3c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x4404050, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-  /// @brief Method IsValidClientCertificate, addr 0x43a2e64, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsValidClientCertificate, addr 0x4404178, size 0xf8, virtual false, abstract: false, final false
   static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x43a2f5c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x4404270, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x43a3000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x4404314, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:
@@ -69,7 +68,7 @@ public:
   CertificateHelper(CertificateHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class FloatFxGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatFxGroup);
-// Type: ::FloatFxGroup
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightGroupSubsystem
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatFxGroup*
+// CS Name: FloatFxGroup
 class CORDL_TYPE FloatFxGroup : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
@@ -45,21 +44,21 @@ public:
 
   constexpr bool& __cordl_internal_get__isTriggerOnly();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*& __cordl_internal_get__targets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* const& __cordl_internal_get__targets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> const& __cordl_internal_get__targets() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*& __cordl_internal_get__targets();
 
   constexpr void __cordl_internal_set__isTriggerOnly(bool value);
 
   constexpr void __cordl_internal_set__targets(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* value);
 
-  /// @brief Method .ctor, addr 0x3b28024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b895bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isTriggerOnly, addr 0x3b28014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTriggerOnly, addr 0x3b895ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_isTriggerOnly();
 
-  /// @brief Method get_targets, addr 0x3b2801c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targets, addr 0x3b895b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* get_targets();
 
 protected:
@@ -76,23 +75,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatFxGroup(FloatFxGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4264 };
+
   /// @brief Field _isTriggerOnly, offset: 0x28, size: 0x1, def value: None
   bool ____isTriggerOnly;
 
   /// @brief Field _targets, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>* ____targets;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4253 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatFxGroup, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FloatFxGroup, ____isTriggerOnly) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatFxGroup, ____targets) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatFxGroup, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatFxGroup);

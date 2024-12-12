@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RsaBlindingParameters.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaBlindingParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters._ctor
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x238ba7c;
+  constexpr static std::size_t addrs = 0x23bed68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_PublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238bb00;
+  constexpr static std::size_t addrs = 0x23bedec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::get_BlindingFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238bb08;
+  constexpr static std::size_t addrs = 0x23bedf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,20 +51,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
-constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
-  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_get_publicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const&
-Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_get_publicKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* const& Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_get_publicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___publicKey;
 }
@@ -76,17 +67,13 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Par
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blindingFactor;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_get_blindingFactor() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_get_blindingFactor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___blindingFactor;
 }
 constexpr void Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::__cordl_internal_set_blindingFactor(::Org::BouncyCastle::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___blindingFactor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*
-Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*>(publicKey, blindingFactor));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey,
                                                                                 ::Org::BouncyCastle::Math::BigInteger* blindingFactor) {
@@ -107,6 +94,18 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Paramet
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*>::get(), "get_BlindingFactor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*
+Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters*>(publicKey, blindingFactor));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
+constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept {
+  return static_cast<::Org::BouncyCastle::Crypto::ICipherParameters*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters::RsaBlindingParameters() {}

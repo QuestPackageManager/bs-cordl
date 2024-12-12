@@ -14,11 +14,10 @@ class IReadOnlyTextStyle;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IReadOnlyTextStyle);
-// Type: ::IReadOnlyTextStyle
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IReadOnlyTextStyle*
+// CS Name: IReadOnlyTextStyle
 class CORDL_TYPE IReadOnlyTextStyle {
 public:
   // Declarations
@@ -36,37 +35,33 @@ public:
 
   __declspec(property(get = get_lineSpacingMax)) float_t lineSpacingMax;
 
-  /// @brief Method get_autoSizing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_autoSizing, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_autoSizing();
 
-  /// @brief Method get_charWidthMaxAdj, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_charWidthMaxAdj, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_charWidthMaxAdj();
 
-  /// @brief Method get_fontSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fontSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method get_fontSizeMax, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fontSizeMax, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_fontSizeMax();
 
-  /// @brief Method get_fontSizeMin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fontSizeMin, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_fontSizeMin();
 
-  /// @brief Method get_fontStyle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_fontStyle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::TMPro::FontStyles get_fontStyle();
 
-  /// @brief Method get_lineSpacingMax, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_lineSpacingMax, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_lineSpacingMax();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyTextStyle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IReadOnlyTextStyle(IReadOnlyTextStyle&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyTextStyle", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IReadOnlyTextStyle(IReadOnlyTextStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19046 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

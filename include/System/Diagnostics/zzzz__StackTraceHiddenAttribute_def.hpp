@@ -11,17 +11,16 @@ class StackTraceHiddenAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::StackTraceHiddenAttribute);
-// Type: System.Diagnostics::StackTraceHiddenAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::StackTraceHiddenAttribute*
+// CS Name: System.Diagnostics.StackTraceHiddenAttribute
 class CORDL_TYPE StackTraceHiddenAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::StackTraceHiddenAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d54da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db4f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

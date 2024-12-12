@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionLevelRestartController)
-namespace GlobalNamespace {
-class ILevelRestartController;
-}
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
@@ -23,11 +21,10 @@ class MissionLevelRestartController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionLevelRestartController);
-// Type: ::MissionLevelRestartController
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILevelRestartController, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionLevelRestartController*
+// CS Name: MissionLevelRestartController
 class CORDL_TYPE MissionLevelRestartController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,7 +47,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x3b4ba50, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x3bad45c, size 0xac, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -71,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3b4bafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bad508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -91,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionLevelRestartController(MissionLevelRestartController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4448 };
+
   /// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;
 
@@ -100,19 +100,16 @@ public:
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelRestartController, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionLevelSceneSetupData) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____prepareLevelCompletionResults) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionLevelRestartController, ____missionObjectiveCheckersManager) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelRestartController, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelRestartController);

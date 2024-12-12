@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSelectorHelper)
@@ -41,28 +40,27 @@ class StyleSelectorHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper);
-// Type: UnityEngine.UIElements.StyleSheets::StyleSelectorHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSelectorHelper*
+// CS Name: UnityEngine.UIElements.StyleSheets.StyleSelectorHelper
 class CORDL_TYPE StyleSelectorHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FastLookup, addr 0x49730ac, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method FastLookup, addr 0x49d79bc, size 0x1f0, virtual false, abstract: false, final false
   static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
-                                ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
+                                ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ::ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
 
-  /// @brief Method FindMatches, addr 0x497329c, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method FindMatches, addr 0x49d7bac, size 0x548, virtual false, abstract: false, final false
   static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
 
-  /// @brief Method MatchRightToLeft, addr 0x4972ee4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method MatchRightToLeft, addr 0x49d77f4, size 0x1c8, virtual false, abstract: false, final false
   static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
                                       ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
 
-  /// @brief Method MatchesSelector, addr 0x4972c28, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method MatchesSelector, addr 0x49d7538, size 0x2bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
 
 protected:
@@ -80,7 +78,7 @@ public:
   StyleSelectorHelper(StyleSelectorHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

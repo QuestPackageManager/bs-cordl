@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DependenciesCacheKey.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DependenciesCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
@@ -14,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x472cd20;
+  constexpr static std::size_t addrs = 0x478e034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)()>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4734bc0;
+  constexpr static std::size_t addrs = 0x4795ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4734bc8;
+  constexpr static std::size_t addrs = 0x4795edc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(
     ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*)>(&::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4734c80;
+  constexpr static std::size_t addrs = 0x4795f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(
     ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*)>(&::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4734c58;
+  constexpr static std::size_t addrs = 0x4795f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,30 +88,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
-constexpr UnityEngine::ResourceManagement::Util::DependenciesCacheKey::operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
-constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*
-UnityEngine::ResourceManagement::Util::DependenciesCacheKey::i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
-constexpr UnityEngine::ResourceManagement::Util::DependenciesCacheKey::operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept {
-  return static_cast<::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
-constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*
-UnityEngine::ResourceManagement::Util::DependenciesCacheKey::i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept {
-  return static_cast<::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
 UnityEngine::ResourceManagement::Util::DependenciesCacheKey::__cordl_internal_get_m_Dependencies() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dependencies;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* const&
 UnityEngine::ResourceManagement::Util::DependenciesCacheKey::__cordl_internal_get_m_Dependencies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Dependencies;
@@ -131,11 +114,6 @@ constexpr int32_t const& UnityEngine::ResourceManagement::Util::DependenciesCach
 constexpr void UnityEngine::ResourceManagement::Util::DependenciesCacheKey::__cordl_internal_set_m_DependenciesHash(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DependenciesHash = value;
-}
-inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
-UnityEngine::ResourceManagement::Util::DependenciesCacheKey::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies,
-                                                                      int32_t dependenciesHash) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*>(dependencies, dependenciesHash));
 }
 inline void
 UnityEngine::ResourceManagement::Util::DependenciesCacheKey::_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies,
@@ -170,6 +148,29 @@ inline bool UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
+UnityEngine::ResourceManagement::Util::DependenciesCacheKey::New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies,
+                                                                      int32_t dependenciesHash) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*>(dependencies, dependenciesHash));
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+constexpr UnityEngine::ResourceManagement::Util::DependenciesCacheKey::operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
+constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*
+UnityEngine::ResourceManagement::Util::DependenciesCacheKey::i___UnityEngine__ResourceManagement__Util__IOperationCacheKey() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+constexpr UnityEngine::ResourceManagement::Util::DependenciesCacheKey::operator ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
+constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*
+UnityEngine::ResourceManagement::Util::DependenciesCacheKey::i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept {
+  return static_cast<::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::DependenciesCacheKey() {}

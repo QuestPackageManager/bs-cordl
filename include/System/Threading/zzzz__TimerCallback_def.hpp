@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(TimerCallback)
 namespace System {
 struct IntPtr;
@@ -18,20 +17,19 @@ class TimerCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::TimerCallback);
-// Type: System.Threading::TimerCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::TimerCallback*
+// CS Name: System.Threading.TimerCallback
 class CORDL_TYPE TimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3dfd534, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e5d5e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   static inline ::System::Threading::TimerCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3dfd434, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e5d4e0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

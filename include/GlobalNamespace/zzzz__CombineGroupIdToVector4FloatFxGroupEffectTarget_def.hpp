@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -16,16 +15,16 @@ namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
+struct CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex;
+}
+namespace GlobalNamespace {
+class CombineGroupIdToVector4FloatFxGroupEffectTarget___c;
+}
+namespace GlobalNamespace {
 class LightGroupSO;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-struct __CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex;
-}
-namespace GlobalNamespace {
-class __CombineGroupIdToVector4FloatFxGroupEffectTarget____c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -38,30 +37,35 @@ namespace GlobalNamespace {
 class CombineGroupIdToVector4FloatFxGroupEffectTarget;
 }
 namespace GlobalNamespace {
-class __CombineGroupIdToVector4FloatFxGroupEffectTarget____c;
+class CombineGroupIdToVector4FloatFxGroupEffectTarget___c;
 }
 namespace GlobalNamespace {
-struct __CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex;
+struct CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget);
-MARK_REF_PTR_T(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c);
-MARK_VAL_T(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex);
-// Type: ::LightGroupSOToIndex
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c);
+MARK_VAL_T(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::CombineGroupIdToVector4FloatFxGroupEffectTarget::LightGroupSOToIndex
-struct CORDL_TYPE __CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex {
+// CS Name: CombineGroupIdToVector4FloatFxGroupEffectTarget/LightGroupSOToIndex
+struct CORDL_TYPE CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex();
+  constexpr CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex();
 
   // Ctor Parameters [CppParam { name: "lightGroup", ty: "::UnityW<::GlobalNamespace::LightGroupSO>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "",
   // def_value: None }]
-  constexpr __CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex(::UnityW<::GlobalNamespace::LightGroupSO> lightGroup, int32_t index) noexcept;
+  constexpr CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex(::UnityW<::GlobalNamespace::LightGroupSO> lightGroup, int32_t index) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4260 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field lightGroup, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> lightGroup;
@@ -69,98 +73,90 @@ public:
   /// @brief Field index, offset: 0x8, size: 0x4, def value: None
   int32_t index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, lightGroup) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, lightGroup) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, index) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, index) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CombineGroupIdToVector4FloatFxGroupEffectTarget::<>c*
-class CORDL_TYPE __CombineGroupIdToVector4FloatFxGroupEffectTarget____c : public ::System::Object {
+// CS Name: CombineGroupIdToVector4FloatFxGroupEffectTarget/<>c
+class CORDL_TYPE CombineGroupIdToVector4FloatFxGroupEffectTarget___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0,
-                             put = setStaticF___9__10_0)) ::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0,
+                      put = setStaticF___9__10_0)) ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* __9__10_0;
 
   /// @brief Field <>9__10_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_1,
-                             put = setStaticF___9__10_1)) ::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* __9__10_1;
+  __declspec(property(get = getStaticF___9__10_1,
+                      put = setStaticF___9__10_1)) ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* __9__10_1;
 
-  static inline ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* New_ctor();
+  static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* New_ctor();
 
-  /// @brief Method <Awake>b__10_0, addr 0x3b27f04, size 0x18, virtual false, abstract: false, final false
-  inline int32_t _Awake_b__10_0(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex item);
+  /// @brief Method <Awake>b__10_0, addr 0x3b894a4, size 0x18, virtual false, abstract: false, final false
+  inline int32_t _Awake_b__10_0(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item);
 
-  /// @brief Method <Awake>b__10_1, addr 0x3b27f1c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t _Awake_b__10_1(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex item);
+  /// @brief Method <Awake>b__10_1, addr 0x3b894bc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t _Awake_b__10_1(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item);
 
-  /// @brief Method .ctor, addr 0x3b27efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8949c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* getStaticF___9();
+  static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* getStaticF___9();
 
-  static inline ::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* getStaticF___9__10_0();
+  static inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* getStaticF___9__10_0();
 
-  static inline ::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* getStaticF___9__10_1();
+  static inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* getStaticF___9__10_1();
 
-  static inline void setStaticF___9(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c* value);
+  static inline void setStaticF___9(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* value);
 
-  static inline void setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* value);
+  static inline void setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* value);
 
-  static inline void setStaticF___9__10_1(::System::Func_2<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, int32_t>* value);
+  static inline void setStaticF___9__10_1(::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __CombineGroupIdToVector4FloatFxGroupEffectTarget____c();
+  constexpr CombineGroupIdToVector4FloatFxGroupEffectTarget___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__CombineGroupIdToVector4FloatFxGroupEffectTarget____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineGroupIdToVector4FloatFxGroupEffectTarget___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __CombineGroupIdToVector4FloatFxGroupEffectTarget____c(__CombineGroupIdToVector4FloatFxGroupEffectTarget____c&&) = delete;
+  CombineGroupIdToVector4FloatFxGroupEffectTarget___c(CombineGroupIdToVector4FloatFxGroupEffectTarget___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__CombineGroupIdToVector4FloatFxGroupEffectTarget____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CombineGroupIdToVector4FloatFxGroupEffectTarget___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __CombineGroupIdToVector4FloatFxGroupEffectTarget____c(__CombineGroupIdToVector4FloatFxGroupEffectTarget____c const&) = delete;
+  CombineGroupIdToVector4FloatFxGroupEffectTarget___c(CombineGroupIdToVector4FloatFxGroupEffectTarget___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::CombineGroupIdToVector4FloatFxGroupEffectTarget
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Vector4
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CombineGroupIdToVector4FloatFxGroupEffectTarget*
+// CS Name: CombineGroupIdToVector4FloatFxGroupEffectTarget
 class CORDL_TYPE CombineGroupIdToVector4FloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
-  using LightGroupSOToIndex = ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex;
+  using LightGroupSOToIndex = ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex;
 
-  using __c = ::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c;
+  using __c = ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c;
 
   /// @brief Field _beatmapCallbacksController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
@@ -180,8 +176,8 @@ public:
 
   /// @brief Field _lightGroupsToIndices, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroupsToIndices,
-                      put = __cordl_internal_set__lightGroupsToIndices)) ::ArrayW<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex,
-                                                                                  ::Array<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex>*>
+                      put = __cordl_internal_set__lightGroupsToIndices)) ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,
+                                                                                  ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>
       _lightGroupsToIndices;
 
   /// @brief Field _materialPropertyBlockController, offset 0x28, size 0x8
@@ -195,29 +191,29 @@ public:
   /// @brief Field _propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
 
-  /// @brief Method Awake, addr 0x3b27974, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b88f14, size 0x198, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b27e3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b893dc, size 0x5c, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
   static inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b27b9c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b8913c, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetValue, addr 0x3b27c2c, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b891cc, size 0x108, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method Start, addr 0x3b27b0c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b890ac, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TriggerValue, addr 0x3b27d34, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b892d4, size 0x108, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
   constexpr ::UnityEngine::Vector4 const& __cordl_internal_get__data() const;
 
@@ -231,16 +227,16 @@ public:
 
   constexpr bool& __cordl_internal_get__didReceiveEventThisFrame();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get__groupIdToIndex() const;
+
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get__groupIdToIndex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get__groupIdToIndex() const;
-
-  constexpr ::ArrayW<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex,
-                     ::Array<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex>*> const&
+  constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,
+                     ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*> const&
   __cordl_internal_get__lightGroupsToIndices() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex,
-                     ::Array<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex>*>&
+  constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,
+                     ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>&
   __cordl_internal_get__lightGroupsToIndices();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -265,9 +261,9 @@ public:
 
   constexpr void __cordl_internal_set__groupIdToIndex(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  constexpr void __cordl_internal_set__lightGroupsToIndices(::ArrayW<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex,
-                                                                     ::Array<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex>*>
-                                                                value);
+  constexpr void __cordl_internal_set__lightGroupsToIndices(
+      ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>
+          value);
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
@@ -275,7 +271,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b27e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b89438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -292,6 +288,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CombineGroupIdToVector4FloatFxGroupEffectTarget(CombineGroupIdToVector4FloatFxGroupEffectTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4262 };
+
   /// @brief Field _propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____propertyName;
 
@@ -302,8 +301,7 @@ public:
   ::UnityEngine::Vector4 ____defaultValue;
 
   /// @brief Field _lightGroupsToIndices, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex,
-           ::Array<::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex>*>
+  ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>
       ____lightGroupsToIndices;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x48, size: 0x8, def value: None
@@ -321,14 +319,9 @@ public:
   /// @brief Field _data, offset: 0x64, size: 0x10, def value: None
   ::UnityEngine::Vector4 ____data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4251 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget, ____propertyName) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget, ____materialPropertyBlockController) == 0x28, "Offset mismatch!");
@@ -347,9 +340,11 @@ static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEff
 
 static_assert(offsetof(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget, ____data) == 0x64, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget, 0x78>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*, "", "CombineGroupIdToVector4FloatFxGroupEffectTarget");
-NEED_NO_BOX(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget____c*, "", "CombineGroupIdToVector4FloatFxGroupEffectTarget/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__CombineGroupIdToVector4FloatFxGroupEffectTarget__LightGroupSOToIndex, "", "CombineGroupIdToVector4FloatFxGroupEffectTarget/LightGroupSOToIndex");
+NEED_NO_BOX(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*, "", "CombineGroupIdToVector4FloatFxGroupEffectTarget/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, "", "CombineGroupIdToVector4FloatFxGroupEffectTarget/LightGroupSOToIndex");

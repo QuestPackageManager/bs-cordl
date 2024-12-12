@@ -14,11 +14,10 @@ class RangedRecord;
 }
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::RangedRecord);
-// Type: Assets.OVR.Scripts::RangedRecord
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Assets.OVR.Scripts.Record
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// CS Name: ::Assets.OVR.Scripts::RangedRecord*
+// CS Name: Assets.OVR.Scripts.RangedRecord
 class CORDL_TYPE RangedRecord : public ::Assets::OVR::Scripts::Record {
 public:
   // Declarations
@@ -51,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x401735c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4077408, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:
@@ -68,6 +67,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RangedRecord(RangedRecord const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9048 };
+
   /// @brief Field value, offset: 0x28, size: 0x4, def value: None
   float_t ___value;
 
@@ -77,19 +79,16 @@ public:
   /// @brief Field max, offset: 0x30, size: 0x4, def value: None
   float_t ___max;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9023 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::RangedRecord, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Assets::OVR::Scripts::RangedRecord, ___value) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Assets::OVR::Scripts::RangedRecord, ___min) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::Assets::OVR::Scripts::RangedRecord, ___max) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::RangedRecord, 0x38>, "Size mismatch!");
 
 } // namespace Assets::OVR::Scripts
 NEED_NO_BOX(::Assets::OVR::Scripts::RangedRecord);

@@ -3,8 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
@@ -18,44 +21,37 @@ namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __InlinedArray_1__Enumerator;
+template <typename TValue> struct InlinedArray_1_Enumerator;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct InlinedArray_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct __InlinedArray_1__Enumerator;
+template <typename TValue> struct InlinedArray_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1);
-MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator);
-// Type: UnityEngine.InputSystem.Utilities::InlinedArray`1
-// SizeInfo { instance_size: 24, native_size: 40, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::InlinedArray`1<TValue>
+// CS Name: UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 struct CORDL_TYPE InlinedArray_1 {
 public:
   // Declarations
-  using Enumerator = ::UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator<TValue>;
+  using Enumerator = ::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator<TValue>;
 
   __declspec(property(get = get_Capacity)) int32_t Capacity;
 
@@ -159,6 +155,12 @@ public:
   // "additionalValues", ty: "::ArrayW<TValue,::Array<TValue>*>", modifiers: "", def_value: None }]
   constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7074 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+
   /// @brief Field length, offset: 0x0, size: 0x4, def value: None
   int32_t length;
 
@@ -168,24 +170,17 @@ public:
   /// @brief Field additionalValues, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<TValue, ::Array<TValue>*> additionalValues;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7049 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: ::Enumerator
-// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// CS Name: ::InlinedArray`1::Enumerator<TValue>
-struct CORDL_TYPE __InlinedArray_1__Enumerator {
+// CS Name: UnityEngine.InputSystem.Utilities.InlinedArray`1/Enumerator<TValue>
+struct CORDL_TYPE InlinedArray_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) TValue Current;
@@ -227,11 +222,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InlinedArray_1__Enumerator();
+  constexpr InlinedArray_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "array", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
   // modifiers: "", def_value: None }]
-  constexpr __InlinedArray_1__Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
+  constexpr InlinedArray_1_Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7073 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field array, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array;
@@ -239,15 +240,9 @@ public:
   /// @brief Field index, offset: 0x18, size: 0x4, def value: None
   int32_t index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7048 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::InlinedArray_1, "UnityEngine.InputSystem.Utilities", "InlinedArray`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::__InlinedArray_1__Enumerator, "UnityEngine.InputSystem.Utilities", "InlinedArray`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator, "UnityEngine.InputSystem.Utilities", "InlinedArray`1/Enumerator");

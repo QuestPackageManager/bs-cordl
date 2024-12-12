@@ -19,11 +19,10 @@ class ReliabilityContractAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);
-// Type: System.Runtime.ConstrainedExecution::ReliabilityContractAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.ConstrainedExecution.Cer, System.Runtime.ConstrainedExecution.Consistency
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: false
-// CS Name: ::System.Runtime.ConstrainedExecution::ReliabilityContractAttribute*
+// CS Name: System.Runtime.ConstrainedExecution.ReliabilityContractAttribute
 class CORDL_TYPE ReliabilityContractAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -49,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__ConsistencyGuarantee_k__BackingField(::System::Runtime::ConstrainedExecution::Consistency value);
 
-  /// @brief Method .ctor, addr 0x3cb67d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1694c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::ConstrainedExecution::Consistency consistencyGuarantee, ::System::Runtime::ConstrainedExecution::Cer cer);
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReliabilityContractAttribute(ReliabilityContractAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3352 };
+
   /// @brief Field <ConsistencyGuarantee>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::ConstrainedExecution::Consistency ____ConsistencyGuarantee_k__BackingField;
 
   /// @brief Field <Cer>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::System::Runtime::ConstrainedExecution::Cer ____Cer_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3352 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, ____ConsistencyGuarantee_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, ____Cer_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::ConstrainedExecution
 NEED_NO_BOX(::System::Runtime::ConstrainedExecution::ReliabilityContractAttribute);

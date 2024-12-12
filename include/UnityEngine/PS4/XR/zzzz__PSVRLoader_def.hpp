@@ -21,11 +21,10 @@ class PSVRLoader;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::PS4::XR::PSVRLoader);
-// Type: UnityEngine.PS4.XR::PSVRLoader
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.XR.Management.XRLoaderHelper
 namespace UnityEngine::PS4::XR {
 // Is value type: false
-// CS Name: ::UnityEngine.PS4.XR::PSVRLoader*
+// CS Name: UnityEngine.PS4.XR.PSVRLoader
 class CORDL_TYPE PSVRLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {
 public:
   // Declarations
@@ -34,40 +33,39 @@ public:
   __declspec(property(get = get_inputSubsystem)) ::UnityEngine::XR::XRInputSubsystem* inputSubsystem;
 
   /// @brief Field s_DisplayName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DisplayName, put = setStaticF_s_DisplayName)) ::StringW s_DisplayName;
+  __declspec(property(get = getStaticF_s_DisplayName, put = setStaticF_s_DisplayName)) ::StringW s_DisplayName;
 
   /// @brief Field s_DisplaySubsystemDescriptors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DisplaySubsystemDescriptors,
-                             put = setStaticF_s_DisplaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_DisplaySubsystemDescriptors;
+  __declspec(property(get = getStaticF_s_DisplaySubsystemDescriptors,
+                      put = setStaticF_s_DisplaySubsystemDescriptors)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRDisplaySubsystemDescriptor*>* s_DisplaySubsystemDescriptors;
 
   /// @brief Field s_InputName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_InputName, put = setStaticF_s_InputName)) ::StringW s_InputName;
+  __declspec(property(get = getStaticF_s_InputName, put = setStaticF_s_InputName)) ::StringW s_InputName;
 
   /// @brief Field s_InputSubsystemDescriptors, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_InputSubsystemDescriptors,
-                             put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
+  __declspec(property(get = getStaticF_s_InputSubsystemDescriptors, put = setStaticF_s_InputSubsystemDescriptors)) ::System::Collections::Generic::List_1<Il2CppObject*>* s_InputSubsystemDescriptors;
 
-  /// @brief Method Deinitialize, addr 0x47d64c8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x48377dc, size 0x78, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
-  /// @brief Method DisableVRAndEnable2DReprojection, addr 0x47d6540, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DisableVRAndEnable2DReprojection, addr 0x4837854, size 0xa0, virtual false, abstract: false, final false
   inline bool DisableVRAndEnable2DReprojection();
 
-  /// @brief Method EnableVRAndDisable2DReprojection, addr 0x47d65e0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnableVRAndDisable2DReprojection, addr 0x48378f4, size 0xbc, virtual false, abstract: false, final false
   inline bool EnableVRAndDisable2DReprojection();
 
-  /// @brief Method Initialize, addr 0x47d6304, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4837618, size 0xd4, virtual true, abstract: false, final false
   inline bool Initialize();
 
   static inline ::UnityEngine::PS4::XR::PSVRLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x47d63d8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x48376ec, size 0x78, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x47d6450, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x4837764, size 0x78, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x47d669c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48379b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_DisplayName();
@@ -78,10 +76,10 @@ public:
 
   static inline ::System::Collections::Generic::List_1<Il2CppObject*>* getStaticF_s_InputSubsystemDescriptors();
 
-  /// @brief Method get_displaySubsystem, addr 0x47d623c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_displaySubsystem, addr 0x4837550, size 0x64, virtual false, abstract: false, final false
   inline Il2CppObject* get_displaySubsystem();
 
-  /// @brief Method get_inputSubsystem, addr 0x47d62a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_inputSubsystem, addr 0x48375b4, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRInputSubsystem* get_inputSubsystem();
 
   static inline void setStaticF_s_DisplayName(::StringW value);
@@ -107,7 +105,7 @@ public:
   PSVRLoader(PSVRLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)(
     ::StringW, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2653d14;
+  constexpr static std::size_t addrs = 0x2687000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::get_ParticipantId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265485c;
+  constexpr static std::size_t addrs = 0x2687b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::get_MacTag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2654864;
+  constexpr static std::size_t addrs = 0x2687b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,17 +67,13 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Agr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macTag;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::__cordl_internal_get_macTag() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::__cordl_internal_get_macTag() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___macTag;
 }
 constexpr void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::__cordl_internal_set_macTag(::Org::BouncyCastle::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___macTag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::New_ctor(::StringW participantId,
-                                                                                                                                                    ::Org::BouncyCastle::Math::BigInteger* magTag) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload*>(participantId, magTag));
 }
 inline void Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::_ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* magTag) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,6 +93,10 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Agreeme
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::New_ctor(::StringW participantId,
+                                                                                                                                                    ::Org::BouncyCastle::Math::BigInteger* magTag) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload*>(participantId, magTag));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload::JPakeRound3Payload() {}

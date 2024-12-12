@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SparselyPopulatedArrayFragment_1)
 // Forward declare root types
@@ -13,13 +12,12 @@ template <typename T> class SparselyPopulatedArrayFragment_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::SparselyPopulatedArrayFragment_1);
-// Type: System.Threading::SparselyPopulatedArrayFragment`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Threading::SparselyPopulatedArrayFragment`1<T>*
+// CS Name: System.Threading.SparselyPopulatedArrayFragment`1<T>
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {
 public:
   // Declarations
@@ -56,13 +54,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get__freeCount();
 
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& __cordl_internal_get__next() const;
+
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__next() const;
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>* const& __cordl_internal_get__prev() const;
 
   constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__prev();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__prev() const;
 
   constexpr void __cordl_internal_set__elements(::ArrayW<T, ::Array<T>*> value);
 
@@ -101,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SparselyPopulatedArrayFragment_1(SparselyPopulatedArrayFragment_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2697 };
+
   /// @brief Field _elements, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____elements;
 
@@ -112,9 +113,6 @@ public:
 
   /// @brief Field _prev, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::SparselyPopulatedArrayFragment_1<T>* ____prev;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -2,7 +2,6 @@
 // IWYU pragma private; include "BeatSaber/Settings/SmoothCameraSettings.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "BeatSaber/Settings/zzzz__SmoothCameraSettings_def.hpp"
-#include "Unity/Mathematics/zzzz__float3_def.hpp"
 // Ctor Parameters [CppParam { name: "enabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "smoothPosition", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "smoothRotation", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "thirdPersonEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "thirdPersonPosition", ty: "::Unity::Mathematics::float3", modifiers: "", def_value: Some("{}") },

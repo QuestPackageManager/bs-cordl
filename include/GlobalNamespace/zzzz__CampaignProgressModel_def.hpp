@@ -19,11 +19,10 @@ class CampaignProgressModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CampaignProgressModel);
-// Type: ::CampaignProgressModel
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CampaignProgressModel*
+// CS Name: CampaignProgressModel
 class CORDL_TYPE CampaignProgressModel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,45 +43,45 @@ public:
 
   __declspec(property(get = get_numberOfClearedMissions)) int32_t numberOfClearedMissions;
 
-  /// @brief Method Awake, addr 0x269f170, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26d3ea4, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method IsMissionCleared, addr 0x269f2a0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsMissionCleared, addr 0x26d3fd4, size 0x30, virtual false, abstract: false, final false
   inline bool IsMissionCleared(::StringW missionId);
 
-  /// @brief Method IsMissionFinal, addr 0x269f2d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsMissionFinal, addr 0x26d4004, size 0xc, virtual false, abstract: false, final false
   inline bool IsMissionFinal(::StringW missionId);
 
-  /// @brief Method IsMissionRegistered, addr 0x269f1e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsMissionRegistered, addr 0x26d3f18, size 0x58, virtual false, abstract: false, final false
   inline bool IsMissionRegistered(::StringW missionId);
 
   static inline ::GlobalNamespace::CampaignProgressModel* New_ctor();
 
-  /// @brief Method RegisterMissionId, addr 0x269f23c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterMissionId, addr 0x26d3f70, size 0x64, virtual false, abstract: false, final false
   inline void RegisterMissionId(::StringW missionId);
 
-  /// @brief Method SetFinalMissionId, addr 0x269f2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetFinalMissionId, addr 0x26d4010, size 0x8, virtual false, abstract: false, final false
   inline void SetFinalMissionId(::StringW missionId);
 
-  /// @brief Method SetMissionCleared, addr 0x269f32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMissionCleared, addr 0x26d4060, size 0x8, virtual false, abstract: false, final false
   inline void SetMissionCleared(::StringW missionId);
 
-  /// @brief Method UpdateNumberOfClearedMissions, addr 0x269efe4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method UpdateNumberOfClearedMissions, addr 0x26d3d18, size 0x18c, virtual false, abstract: false, final false
   inline int32_t UpdateNumberOfClearedMissions();
 
-  /// @brief Method WillFinishGameAfterThisMission, addr 0x269f2e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WillFinishGameAfterThisMission, addr 0x26d4018, size 0x48, virtual false, abstract: false, final false
   inline bool WillFinishGameAfterThisMission(::StringW missionId);
 
-  /// @brief Method __SetMissionCleared, addr 0x269f334, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method __SetMissionCleared, addr 0x26d4068, size 0x4c, virtual false, abstract: false, final false
   inline void __SetMissionCleared(::StringW missionId, bool cleared);
 
   constexpr ::StringW const& __cordl_internal_get__finalMissionId() const;
 
   constexpr ::StringW& __cordl_internal_get__finalMissionId();
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__missionIds();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>* const& __cordl_internal_get__missionIds() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__missionIds() const;
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__missionIds();
 
   constexpr int32_t const& __cordl_internal_get__numberOfClearedMissions() const;
 
@@ -106,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x269f380, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d40b4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_numberOfClearedMissions, addr 0x269efbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfClearedMissions, addr 0x26d3cf0, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_numberOfClearedMissions();
 
 protected:
@@ -126,6 +125,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CampaignProgressModel(CampaignProgressModel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13036 };
+
   /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
@@ -141,14 +143,9 @@ public:
   /// @brief Field _numberOfClearedMissions, offset: 0x3c, size: 0x4, def value: None
   int32_t ____numberOfClearedMissions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13001 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CampaignProgressModel, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CampaignProgressModel, ____playerDataModel) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CampaignProgressModel, ____missionIds) == 0x28, "Offset mismatch!");
@@ -158,6 +155,8 @@ static_assert(offsetof(::GlobalNamespace::CampaignProgressModel, ____finalMissio
 static_assert(offsetof(::GlobalNamespace::CampaignProgressModel, ____numberOfClearedMissionsDirty) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CampaignProgressModel, ____numberOfClearedMissions) == 0x3c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CampaignProgressModel, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CampaignProgressModel);

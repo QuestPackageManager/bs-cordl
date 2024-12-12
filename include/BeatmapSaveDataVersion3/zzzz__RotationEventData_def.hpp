@@ -16,11 +16,10 @@ class RotationEventData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::RotationEventData);
-// Type: BeatmapSaveDataVersion3::RotationEventData
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.ExecutionTime, BeatmapSaveDataVersion3.BeatmapSaveDataItem
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::RotationEventData*
+// CS Name: BeatmapSaveDataVersion3.RotationEventData
 class CORDL_TYPE RotationEventData : public ::BeatmapSaveDataVersion3::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -48,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d4adc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270644c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x26d4acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x270643c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x26d4ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2706444, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RotationEventData(RotationEventData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13415 };
+
   /// @brief Field e, offset: 0x14, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::ExecutionTime ___e;
 
   /// @brief Field r, offset: 0x18, size: 0x4, def value: None
   float_t ___r;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13384 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::RotationEventData, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::RotationEventData, ___e) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::RotationEventData, ___r) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::RotationEventData, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::RotationEventData);

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMaskUtil)
 // Forward declare root types
@@ -13,25 +12,24 @@ class BitMaskUtil;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BitMaskUtil);
-// Type: ::BitMaskUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BitMaskUtil*
+// CS Name: BitMaskUtil
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0x22156bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x2240730, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0x221c840, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x2247db4, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0x221c8a4, size 0x44, virtual false, abstract: false, final false
-  static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
+  /// @brief Method ShiftLeft, addr 0x2247e18, size 0x44, virtual false, abstract: false, final false
+  static inline uint64_t ShiftLeft(::ByRef<uint64_t> value, ::ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0x221c8e8, size 0x5c, virtual false, abstract: false, final false
-  static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
+  /// @brief Method ShiftRight, addr 0x2247e5c, size 0x5c, virtual false, abstract: false, final false
+  static inline uint64_t ShiftRight(::ByRef<uint64_t> value, ::ByRef<int32_t> shift);
 
 protected:
   // Ctor Parameters []
@@ -48,7 +46,7 @@ public:
   BitMaskUtil(BitMaskUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17088 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

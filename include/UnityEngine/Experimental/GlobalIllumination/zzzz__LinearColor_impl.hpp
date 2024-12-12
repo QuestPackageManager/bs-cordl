@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_red)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x486b710;
+  constexpr static std::size_t addrs = 0x48cca94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_red)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x486b718;
+  constexpr static std::size_t addrs = 0x48cca9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_green)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x486b7c4;
+  constexpr static std::size_t addrs = 0x48ccb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_green)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x486b7cc;
+  constexpr static std::size_t addrs = 0x48ccb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_blue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x486b878;
+  constexpr static std::size_t addrs = 0x48ccbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_blue)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x486b880;
+  constexpr static std::size_t addrs = 0x48ccc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(::UnityEngine::Color, float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x486b92c;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x48cccb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::Black)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x486bbf0;
+  constexpr static std::size_t addrs = 0x48ccf58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

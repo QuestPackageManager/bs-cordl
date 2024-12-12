@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::SequencedChannel::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3a60754;
+  constexpr static std::size_t addrs = 0x3ab73c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SequencedChannel::*)()>(&::LiteNetLib::SequencedChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3a64a50;
+  constexpr static std::size_t addrs = 0x3abb6c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::SequencedChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3a64d5c;
+  constexpr static std::size_t addrs = 0x3abb9cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ constexpr ::LiteNetLib::NetPacket*& LiteNetLib::SequencedChannel::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacket;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::SequencedChannel::__cordl_internal_get__lastPacket() const {
+constexpr ::LiteNetLib::NetPacket* const& LiteNetLib::SequencedChannel::__cordl_internal_get__lastPacket() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastPacket;
 }
@@ -100,7 +100,7 @@ constexpr ::LiteNetLib::NetPacket*& LiteNetLib::SequencedChannel::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ackPacket;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::SequencedChannel::__cordl_internal_get__ackPacket() const {
+constexpr ::LiteNetLib::NetPacket* const& LiteNetLib::SequencedChannel::__cordl_internal_get__ackPacket() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ackPacket;
 }
@@ -144,9 +144,6 @@ constexpr void LiteNetLib::SequencedChannel::__cordl_internal_set__lastPacketSen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPacketSendTime = value;
 }
-inline ::LiteNetLib::SequencedChannel* LiteNetLib::SequencedChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::SequencedChannel*>(peer, reliable, id));
-}
 inline void LiteNetLib::SequencedChannel::_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::SequencedChannel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -163,6 +160,9 @@ inline bool LiteNetLib::SequencedChannel::ProcessPacket(::LiteNetLib::NetPacket*
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::SequencedChannel*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, packet);
+}
+inline ::LiteNetLib::SequencedChannel* LiteNetLib::SequencedChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::SequencedChannel*>(peer, reliable, id));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::SequencedChannel::SequencedChannel() {}

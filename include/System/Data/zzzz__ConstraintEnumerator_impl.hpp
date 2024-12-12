@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ConstraintEnumerator::*)(::System::Data::DataSet*)>(
     &::System::Data::ConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x40f63ec;
+  constexpr static std::size_t addrs = 0x4157700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ConstraintEnumerator::*)()>(&::System::Data::ConstraintEnumerator::GetNext)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x40f6440;
+  constexpr static std::size_t addrs = 0x4157754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(), "GetNext",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(
     &::System::Data::ConstraintEnumerator::GetConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f6720;
+  constexpr static std::size_t addrs = 0x4157a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(), "GetConstraint",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f6728;
+  constexpr static std::size_t addrs = 0x4157a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(
     &::System::Data::ConstraintEnumerator::get_CurrentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f6730;
+  constexpr static std::size_t addrs = 0x4157a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(),
@@ -80,7 +80,7 @@ constexpr ::System::Collections::IEnumerator*& System::Data::ConstraintEnumerato
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Data::ConstraintEnumerator::__cordl_internal_get__tables() const {
+constexpr ::System::Collections::IEnumerator* const& System::Data::ConstraintEnumerator::__cordl_internal_get__tables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tables;
 }
@@ -92,7 +92,7 @@ constexpr ::System::Collections::IEnumerator*& System::Data::ConstraintEnumerato
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraints;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& System::Data::ConstraintEnumerator::__cordl_internal_get__constraints() const {
+constexpr ::System::Collections::IEnumerator* const& System::Data::ConstraintEnumerator::__cordl_internal_get__constraints() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraints;
 }
@@ -104,16 +104,13 @@ constexpr ::System::Data::Constraint*& System::Data::ConstraintEnumerator::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::Constraint*> const& System::Data::ConstraintEnumerator::__cordl_internal_get__currentObject() const {
+constexpr ::System::Data::Constraint* const& System::Data::ConstraintEnumerator::__cordl_internal_get__currentObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentObject;
 }
 constexpr void System::Data::ConstraintEnumerator::__cordl_internal_set__currentObject(::System::Data::Constraint* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Data::ConstraintEnumerator* System::Data::ConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ConstraintEnumerator*>(dataSet));
 }
 inline void System::Data::ConstraintEnumerator::_ctor(::System::Data::DataSet* dataSet) {
   static auto* ___internal_method =
@@ -140,6 +137,9 @@ inline ::System::Data::Constraint* System::Data::ConstraintEnumerator::get_Curre
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(), "get_CurrentObject",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Data::Constraint*, false>(this, ___internal_method);
+}
+inline ::System::Data::ConstraintEnumerator* System::Data::ConstraintEnumerator::New_ctor(::System::Data::DataSet* dataSet) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::ConstraintEnumerator*>(dataSet));
 }
 // Ctor Parameters []
 constexpr ::System::Data::ConstraintEnumerator::ConstraintEnumerator() {}

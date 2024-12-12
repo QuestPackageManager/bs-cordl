@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x3bbf0f0;
+  constexpr static std::size_t addrs = 0x3af7508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3bbf610;
+  constexpr static std::size_t addrs = 0x3af7a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3bbf8c8;
+  constexpr static std::size_t addrs = 0x3af7ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3bbf9ec;
+  constexpr static std::size_t addrs = 0x3af7e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbfb04;
+  constexpr static std::size_t addrs = 0x3af7f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,8 +162,7 @@ constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::ControllersTra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const&
-GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -175,7 +174,7 @@ constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::ControllersTrans
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__settingsManager() const {
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__settingsManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
 }
@@ -211,14 +210,14 @@ inline void GlobalNamespace::ControllersTransformSettingsViewController::HandleR
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slider, value);
 }
-inline ::GlobalNamespace::ControllersTransformSettingsViewController* GlobalNamespace::ControllersTransformSettingsViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ControllersTransformSettingsViewController*>());
-}
 inline void GlobalNamespace::ControllersTransformSettingsViewController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ControllersTransformSettingsViewController* GlobalNamespace::ControllersTransformSettingsViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ControllersTransformSettingsViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ControllersTransformSettingsViewController::ControllersTransformSettingsViewController() {}

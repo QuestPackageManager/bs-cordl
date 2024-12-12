@@ -12,11 +12,10 @@ struct AvatarDisplayContext;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::AvatarCore::AvatarDisplayContext);
-// Type: BeatSaber.AvatarCore::AvatarDisplayContext
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// CS Name: ::BeatSaber.AvatarCore::AvatarDisplayContext
+// CS Name: BeatSaber.AvatarCore.AvatarDisplayContext
 struct CORDL_TYPE AvatarDisplayContext {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AvatarDisplayContext(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field MultiplayerBigAvatar value: static_cast<int32_t>(0x5)
+  /// @brief Field MultiplayerBigAvatar value: I32(5)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const MultiplayerBigAvatar;
 
-  /// @brief Field MultiplayerGameplay value: static_cast<int32_t>(0x3)
+  /// @brief Field MultiplayerGameplay value: I32(3)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const MultiplayerGameplay;
 
-  /// @brief Field MultiplayerLobby value: static_cast<int32_t>(0x2)
+  /// @brief Field MultiplayerLobby value: I32(2)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const MultiplayerLobby;
 
-  /// @brief Field MultiplayerResults value: static_cast<int32_t>(0x4)
+  /// @brief Field MultiplayerResults value: I32(4)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const MultiplayerResults;
 
-  /// @brief Field UI value: static_cast<int32_t>(0x1)
+  /// @brief Field UI value: I32(1)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const UI;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  /// @brief Field Unknown value: I32(0)
   static ::BeatSaber::AvatarCore::AvatarDisplayContext const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17549 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarDisplayContext, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::AvatarDisplayContext, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::AvatarDisplayContext, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::AvatarDisplayContext, "BeatSaber.AvatarCore", "AvatarDisplayContext");

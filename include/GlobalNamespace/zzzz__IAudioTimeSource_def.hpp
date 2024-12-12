@@ -11,11 +11,10 @@ class IAudioTimeSource;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IAudioTimeSource);
-// Type: ::IAudioTimeSource
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IAudioTimeSource*
+// CS Name: IAudioTimeSource
 class CORDL_TYPE IAudioTimeSource {
 public:
   // Declarations
@@ -31,34 +30,30 @@ public:
 
   __declspec(property(get = get_timeScale)) float_t timeScale;
 
-  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_songEndTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_songLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_songTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_songTime();
 
-  /// @brief Method get_timeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_timeScale, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_timeScale();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAudioTimeSource(IAudioTimeSource&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IAudioTimeSource(IAudioTimeSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4009 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

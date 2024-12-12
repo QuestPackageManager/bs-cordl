@@ -19,11 +19,10 @@ class InspectorOrderAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InspectorOrderAttribute);
-// Type: UnityEngine::InspectorOrderAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InspectorSort, UnityEngine.InspectorSortDirection, UnityEngine.PropertyAttribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::InspectorOrderAttribute*
+// CS Name: UnityEngine.InspectorOrderAttribute
 class CORDL_TYPE InspectorOrderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
@@ -51,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__m_sortDirection_k__BackingField(::UnityEngine::InspectorSortDirection value);
 
-  /// @brief Method get_m_inspectorSort, addr 0x484a358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_inspectorSort, addr 0x48ab018, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSort get_m_inspectorSort();
 
-  /// @brief Method get_m_sortDirection, addr 0x484a360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_sortDirection, addr 0x48ab020, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSortDirection get_m_sortDirection();
 
 protected:
@@ -71,23 +70,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InspectorOrderAttribute(InspectorOrderAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10887 };
+
   /// @brief Field <m_inspectorSort>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::InspectorSort ____m_inspectorSort_k__BackingField;
 
   /// @brief Field <m_sortDirection>k__BackingField, offset: 0x14, size: 0x4, def value: None
   ::UnityEngine::InspectorSortDirection ____m_sortDirection_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10854 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InspectorOrderAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_inspectorSort_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_sortDirection_k__BackingField) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InspectorOrderAttribute, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::InspectorOrderAttribute);

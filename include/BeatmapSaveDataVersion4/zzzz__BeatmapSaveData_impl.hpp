@@ -4,18 +4,20 @@
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ArcBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Arc_def.hpp"
+#include "BeatmapSaveDataVersion4/zzzz__BeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BombNote_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ChainBeatIndex_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Chain_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorNote_def.hpp"
+#include "BeatmapSaveDataVersion4/zzzz__NoteJumpMovementSpeedEvent_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Obstacle_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion4::BeatmapSaveData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::BeatmapSaveData::*)()>(&::BeatmapSaveDataVersion4::BeatmapSaveData::_ctor)> {
-  constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x26d2c04;
+  constexpr static std::size_t size = 0x510;
+  constexpr static std::size_t addrs = 0x27044a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapSaveData*>::get(), ".ctor",
@@ -162,13 +164,40 @@ constexpr void BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_ar
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___arcsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BeatmapSaveDataVersion4::BeatmapSaveData* BeatmapSaveDataVersion4::BeatmapSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::BeatmapSaveData*>());
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*>& BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_njsEvents() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___njsEvents;
+}
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> const& BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_njsEvents() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___njsEvents;
+}
+constexpr void BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_njsEvents(::ArrayW<::BeatmapSaveDataVersion4::BeatIndex*, ::Array<::BeatmapSaveDataVersion4::BeatIndex*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___njsEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*>&
+BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_njsEventData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___njsEventData;
+}
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> const&
+BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_get_njsEventData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___njsEventData;
+}
+constexpr void BeatmapSaveDataVersion4::BeatmapSaveData::__cordl_internal_set_njsEventData(
+    ::ArrayW<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent, ::Array<::BeatmapSaveDataVersion4::NoteJumpMovementSpeedEvent>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___njsEventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void BeatmapSaveDataVersion4::BeatmapSaveData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatmapSaveData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatmapSaveDataVersion4::BeatmapSaveData* BeatmapSaveDataVersion4::BeatmapSaveData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::BeatmapSaveData*>());
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::BeatmapSaveData::BeatmapSaveData() {}

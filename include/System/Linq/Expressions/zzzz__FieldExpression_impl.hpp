@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::FieldExpression::*)(
     ::System::Linq::Expressions::Expression*, ::System::Reflection::FieldInfo*)>(&::System::Linq::Expressions::FieldExpression::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4057bac;
+  constexpr static std::size_t addrs = 0x40b8ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::System::Linq::Expressions::FieldExpression::*)()>(
     &::System::Linq::Expressions::FieldExpression::GetMember)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4057c2c;
+  constexpr static std::size_t addrs = 0x40b8f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::FieldExpression::*)()>(
     &::System::Linq::Expressions::FieldExpression::get_Type)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4057c34;
+  constexpr static std::size_t addrs = 0x40b8f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::FieldExpression*>::get(), "get_Type",
@@ -55,17 +55,13 @@ constexpr ::System::Reflection::FieldInfo*& System::Linq::Expressions::FieldExpr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____field;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& System::Linq::Expressions::FieldExpression::__cordl_internal_get__field() const {
+constexpr ::System::Reflection::FieldInfo* const& System::Linq::Expressions::FieldExpression::__cordl_internal_get__field() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____field;
 }
 constexpr void System::Linq::Expressions::FieldExpression::__cordl_internal_set__field(::System::Reflection::FieldInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____field)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::FieldExpression* System::Linq::Expressions::FieldExpression::New_ctor(::System::Linq::Expressions::Expression* expression,
-                                                                                                          ::System::Reflection::FieldInfo* member) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::FieldExpression*>(expression, member));
 }
 inline void System::Linq::Expressions::FieldExpression::_ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* member) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -83,6 +79,10 @@ inline ::System::Type* System::Linq::Expressions::FieldExpression::get_Type() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::FieldExpression*>::get(), "get_Type",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+}
+inline ::System::Linq::Expressions::FieldExpression* System::Linq::Expressions::FieldExpression::New_ctor(::System::Linq::Expressions::Expression* expression,
+                                                                                                          ::System::Reflection::FieldInfo* member) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::FieldExpression*>(expression, member));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::FieldExpression::FieldExpression() {}

@@ -48,13 +48,13 @@ template <typename T> inline void StyledUITemplates::OverridableData_1<T>::set_d
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::StyledUITemplates::OverridableData_1<T>* StyledUITemplates::OverridableData_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::StyledUITemplates::OverridableData_1<T>*>());
-}
 template <typename T> inline void StyledUITemplates::OverridableData_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::OverridableData_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::StyledUITemplates::OverridableData_1<T>* StyledUITemplates::OverridableData_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::StyledUITemplates::OverridableData_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::StyledUITemplates::OverridableData_1<T>::OverridableData_1() {}

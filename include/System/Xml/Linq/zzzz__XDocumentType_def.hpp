@@ -21,11 +21,10 @@ class XDocumentType;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XDocumentType);
-// Type: System.Xml.Linq::XDocumentType
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Linq.XNode
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XDocumentType*
+// CS Name: System.Xml.Linq.XDocumentType
 class CORDL_TYPE XDocumentType : public ::System::Xml::Linq::XNode {
 public:
   // Declarations
@@ -51,14 +50,14 @@ public:
   /// @brief Field _systemId, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__systemId, put = __cordl_internal_set__systemId)) ::StringW _systemId;
 
-  /// @brief Method CloneNode, addr 0x41e8588, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x424989c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
   static inline ::System::Xml::Linq::XDocumentType* New_ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method WriteTo, addr 0x41e8518, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x424982c, size 0x70, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get__internalSubset() const;
@@ -85,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x41e7634, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4248948, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset);
 
-  /// @brief Method .ctor, addr 0x41e8470, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4249784, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDocumentType* other);
 
-  /// @brief Method get_InternalSubset, addr 0x41e84f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalSubset, addr 0x4249804, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_Name, addr 0x41e84f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x424980c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x41e8500, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x4249814, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_PublicId, addr 0x41e8508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicId, addr 0x424981c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId, addr 0x41e8510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemId, addr 0x4249824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
 protected:
@@ -120,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XDocumentType(XDocumentType const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17954 };
+
   /// @brief Field _name, offset: 0x28, size: 0x8, def value: None
   ::StringW ____name;
 
@@ -132,14 +134,9 @@ public:
   /// @brief Field _internalSubset, offset: 0x40, size: 0x8, def value: None
   ::StringW ____internalSubset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17905 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XDocumentType, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::XDocumentType, ____name) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::XDocumentType, ____publicId) == 0x30, "Offset mismatch!");
@@ -147,6 +144,8 @@ static_assert(offsetof(::System::Xml::Linq::XDocumentType, ____publicId) == 0x30
 static_assert(offsetof(::System::Xml::Linq::XDocumentType, ____systemId) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::XDocumentType, ____internalSubset) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XDocumentType, 0x48>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XDocumentType);

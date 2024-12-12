@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECNamedDomainParameters)
 namespace Org::BouncyCastle::Asn1::X9 {
@@ -31,11 +30,10 @@ class ECNamedDomainParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::ECNamedDomainParameters
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Parameters.ECDomainParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECNamedDomainParameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters
 class CORDL_TYPE ECNamedDomainParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters {
 public:
   // Declarations
@@ -60,31 +58,31 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_name();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_name() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_name() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_name();
 
   constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23865f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b98e4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor, addr 0x2386628, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b9914, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor, addr 0x2386598, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b9884, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0x2386530, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b981c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp);
 
-  /// @brief Method .ctor, addr 0x23865d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b98bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method get_Name, addr 0x2386528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x23b9814, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();
 
 protected:
@@ -101,18 +99,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECNamedDomainParameters(ECNamedDomainParameters const&) = delete;
 
-  /// @brief Field name, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___name;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1034 };
+
+  /// @brief Field name, offset: 0x40, size: 0x8, def value: None
+  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___name;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters, ___name) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters, 0x48>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters);

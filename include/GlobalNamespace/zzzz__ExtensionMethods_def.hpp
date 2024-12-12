@@ -62,51 +62,50 @@ class ExtensionMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ExtensionMethods);
-// Type: ::ExtensionMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ExtensionMethods*
+// CS Name: ExtensionMethods
 class CORDL_TYPE ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ContainsLayer, addr 0x227eeb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ContainsLayer, addr 0x22b1bc4, size 0x30, virtual false, abstract: false, final false
   static inline bool ContainsLayer(::UnityEngine::LayerMask layerMask, int32_t layer);
 
-  /// @brief Method CreateTexture2D, addr 0x227f350, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture2D, addr 0x22b2060, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> CreateTexture2D(::UnityEngine::RenderTexture* renderTexture, ::UnityEngine::TextureFormat textureFormat);
 
-  /// @brief Method GetPath, addr 0x227f0c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetPath, addr 0x22b1dd8, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetPath(::UnityEngine::Transform* current);
 
   /// @brief Method GetRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* GetRange(::System::Collections::Generic::IReadOnlyList_1<T>* list, int32_t index, int32_t count);
 
-  /// @brief Method IsDescendantOf, addr 0x227efa4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOf, addr 0x22b1cb4, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsDescendantOf(::UnityEngine::Transform* transform, ::UnityEngine::Transform* parent);
 
   /// @brief Method LastUnsafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T LastUnsafe(::System::Collections::Generic::IReadOnlyList_1<T>* list);
 
-  /// @brief Method Reflect, addr 0x227f1c8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Reflect, addr 0x22b1ed8, size 0x188, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Reflect(::UnityEngine::Quaternion source, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method Rotate, addr 0x227f478, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x22b2188, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Rotate(::UnityEngine::Vector2 vector, float_t rads);
 
-  /// @brief Method SetLocalPositionAndRotation, addr 0x227f070, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation, addr 0x22b1d80, size 0x58, virtual false, abstract: false, final false
   static inline void SetLocalPositionAndRotation(::UnityEngine::Transform* tr, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
-  /// @brief Method SetSeed, addr 0x227f4c0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x22b21d0, size 0x74, virtual false, abstract: false, final false
   static inline void SetSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t seed);
 
-  /// @brief Method StartUniqueCoroutine, addr 0x227eee4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method StartUniqueCoroutine, addr 0x22b1bf4, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// @brief Method StartUniqueCoroutine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityEngine::Coroutine* StartUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_2<T, ::System::Collections::IEnumerator*>* func, T value);
 
-  /// @brief Method StopUniqueCoroutine, addr 0x227ef60, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopUniqueCoroutine, addr 0x22b1c70, size 0x44, virtual false, abstract: false, final false
   static inline void StopUniqueCoroutine(::UnityEngine::MonoBehaviour* m, ::System::Func_1<::System::Collections::IEnumerator*>* func);
 
   /// @brief Method StopUniqueCoroutine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -127,7 +126,7 @@ public:
   ExtensionMethods(ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17121 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

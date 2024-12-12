@@ -18,46 +18,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WordWrapState)
 namespace TMPro {
-struct Extents;
-}
-namespace TMPro {
-struct FontStyles;
-}
-namespace TMPro {
-struct FontWeight;
-}
-namespace TMPro {
-struct HighlightState;
-}
-namespace TMPro {
-struct HorizontalAlignmentOptions;
-}
-namespace TMPro {
-struct MaterialReference;
-}
-namespace TMPro {
 class TMP_ColorGradient;
 }
 namespace TMPro {
 class TMP_FontAsset;
 }
 namespace TMPro {
-struct TMP_FontStyleStack;
-}
-namespace TMPro {
-struct TMP_LineInfo;
-}
-namespace TMPro {
 class TMP_SpriteAsset;
 }
 namespace TMPro {
 class TMP_TextInfo;
-}
-namespace TMPro {
-template <typename T> struct TMP_TextProcessingStack_1;
-}
-namespace UnityEngine {
-struct Color32;
 }
 namespace UnityEngine {
 class Material;
@@ -68,11 +38,11 @@ struct WordWrapState;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::WordWrapState);
-// Type: TMPro::WordWrapState
-// SizeInfo { instance_size: 888, native_size: -1, calculated_instance_size: 888, calculated_native_size: 902, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TMPro.Extents, TMPro.FontStyles, TMPro.FontWeight, TMPro.HighlightState, TMPro.HorizontalAlignmentOptions, TMPro.MaterialReference, TMPro.TMP_FontStyleStack, TMPro.TMP_LineInfo,
+// TMPro.TMP_TextProcessingStack`1<T>, UnityEngine.Color32
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::WordWrapState
+// CS Name: TMPro.WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -133,6 +103,12 @@ public:
                           ::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions> lineJustificationStack, int32_t spriteAnimationID, ::UnityW<::TMPro::TMP_FontAsset> currentFontAsset,
                           ::UnityW<::TMPro::TMP_SpriteAsset> currentSpriteAsset, ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::TMPro::Extents meshExtents,
                           bool tagNoParsing, bool isNonBreakingSpace) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14441 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x378 };
 
   /// @brief Field previous_WordBreak, offset: 0x0, size: 0x4, def value: None
   int32_t previous_WordBreak;
@@ -329,17 +305,9 @@ public:
   /// @brief Field isNonBreakingSpace, offset: 0x375, size: 0x1, def value: None
   bool isNonBreakingSpace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14407 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x378 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::WordWrapState, 0x378>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::WordWrapState, previous_WordBreak) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::WordWrapState, total_CharacterCount) == 0x4, "Offset mismatch!");
@@ -469,6 +437,8 @@ static_assert(offsetof(::TMPro::WordWrapState, meshExtents) == 0x364, "Offset mi
 static_assert(offsetof(::TMPro::WordWrapState, tagNoParsing) == 0x374, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::WordWrapState, isNonBreakingSpace) == 0x375, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::WordWrapState, 0x378>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::WordWrapState, "TMPro", "WordWrapState");

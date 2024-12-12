@@ -10,26 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMarshallingStruct)
-namespace UnityEngine::TextCore {
-struct GlyphClassDefinitionType;
-}
-namespace UnityEngine::TextCore {
-struct GlyphMetrics;
-}
-namespace UnityEngine::TextCore {
-struct GlyphRect;
-}
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphMarshallingStruct;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
-// Type: UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
-// SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.GlyphClassDefinitionType, UnityEngine.TextCore.GlyphMetrics, UnityEngine.TextCore.GlyphRect
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
+// CS Name: UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct
 struct CORDL_TYPE GlyphMarshallingStruct {
 public:
   // Declarations
@@ -43,6 +33,12 @@ public:
   // def_value: None }]
   constexpr GlyphMarshallingStruct(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex,
                                    ::UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18180 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
 
   /// @brief Field index, offset: 0x0, size: 0x4, def value: None
   uint32_t index;
@@ -62,17 +58,9 @@ public:
   /// @brief Field classDefinitionType, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::TextCore::GlyphClassDefinitionType classDefinitionType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18100 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, 0x34>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, index) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, metrics) == 0x4, "Offset mismatch!");
@@ -84,6 +72,8 @@ static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, atlasIndex) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, classDefinitionType) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, 0x34>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");

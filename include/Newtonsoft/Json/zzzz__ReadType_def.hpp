@@ -12,11 +12,10 @@ struct ReadType;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::ReadType);
-// Type: Newtonsoft.Json::ReadType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Newtonsoft::Json {
 // Is value type: true
-// CS Name: ::Newtonsoft.Json::ReadType
+// CS Name: Newtonsoft.Json.ReadType
 struct CORDL_TYPE ReadType {
 public:
   // Declarations
@@ -53,51 +52,51 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ReadType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Read value: static_cast<int32_t>(0x0)
+  /// @brief Field Read value: I32(0)
   static ::Newtonsoft::Json::ReadType const Read;
 
-  /// @brief Field ReadAsBoolean value: static_cast<int32_t>(0x9)
+  /// @brief Field ReadAsBoolean value: I32(9)
   static ::Newtonsoft::Json::ReadType const ReadAsBoolean;
 
-  /// @brief Field ReadAsBytes value: static_cast<int32_t>(0x3)
+  /// @brief Field ReadAsBytes value: I32(3)
   static ::Newtonsoft::Json::ReadType const ReadAsBytes;
 
-  /// @brief Field ReadAsDateTime value: static_cast<int32_t>(0x6)
+  /// @brief Field ReadAsDateTime value: I32(6)
   static ::Newtonsoft::Json::ReadType const ReadAsDateTime;
 
-  /// @brief Field ReadAsDateTimeOffset value: static_cast<int32_t>(0x7)
+  /// @brief Field ReadAsDateTimeOffset value: I32(7)
   static ::Newtonsoft::Json::ReadType const ReadAsDateTimeOffset;
 
-  /// @brief Field ReadAsDecimal value: static_cast<int32_t>(0x5)
+  /// @brief Field ReadAsDecimal value: I32(5)
   static ::Newtonsoft::Json::ReadType const ReadAsDecimal;
 
-  /// @brief Field ReadAsDouble value: static_cast<int32_t>(0x8)
+  /// @brief Field ReadAsDouble value: I32(8)
   static ::Newtonsoft::Json::ReadType const ReadAsDouble;
 
-  /// @brief Field ReadAsInt32 value: static_cast<int32_t>(0x1)
+  /// @brief Field ReadAsInt32 value: I32(1)
   static ::Newtonsoft::Json::ReadType const ReadAsInt32;
 
-  /// @brief Field ReadAsInt64 value: static_cast<int32_t>(0x2)
+  /// @brief Field ReadAsInt64 value: I32(2)
   static ::Newtonsoft::Json::ReadType const ReadAsInt64;
 
-  /// @brief Field ReadAsString value: static_cast<int32_t>(0x4)
+  /// @brief Field ReadAsString value: I32(4)
   static ::Newtonsoft::Json::ReadType const ReadAsString;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10124 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::ReadType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::ReadType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::ReadType, 0x4>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::ReadType, "Newtonsoft.Json", "ReadType");

@@ -3,8 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_5)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -22,9 +22,6 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class IValidatable;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -36,13 +33,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TContra
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableMemoryPoolProvider_5);
-// Type: Zenject::PoolableMemoryPoolProvider`5
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.IValidatable, Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
 // Is value type: false
-// CS Name: ::Zenject::PoolableMemoryPoolProvider`5<TParam1,TParam2,TParam3,TContract,TMemoryPool>*
+// CS Name: Zenject.PoolableMemoryPoolProvider`5<TParam1,TParam2,TParam3,TContract,TMemoryPool>
 class CORDL_TYPE PoolableMemoryPoolProvider_5 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
 public:
   // Declarations
@@ -53,7 +49,7 @@ public:
   constexpr operator ::Zenject::IValidatable*() noexcept;
 
   /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   static inline ::Zenject::PoolableMemoryPoolProvider_5<TParam1, TParam2, TParam3, TContract, TMemoryPool>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
@@ -87,11 +83,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PoolableMemoryPoolProvider_5(PoolableMemoryPoolProvider_5 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12560 };
+
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12527 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

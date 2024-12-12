@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2615000;
+  constexpr static std::size_t addrs = 0x26482ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::SignatureSubpacket* (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::ReadPacket)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x2615028;
+  constexpr static std::size_t addrs = 0x2648314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::StringW)>(&::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::CheckData)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26161ec;
+  constexpr static std::size_t addrs = 0x26494d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,16 +54,13 @@ constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::SignatureSubpacketsPar
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::__cordl_internal_get_input() const {
+constexpr ::System::IO::Stream* const& Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::__cordl_internal_get_input() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___input;
 }
 constexpr void Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::__cordl_internal_set_input(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___input)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::New_ctor(::System::IO::Stream* input) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>(input));
 }
 inline void Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::_ctor(::System::IO::Stream* input) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -84,6 +81,9 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::SignatureSu
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, data, expected, bytesRead, name);
+}
+inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::New_ctor(::System::IO::Stream* input) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser*>(input));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser::SignatureSubpacketsParser() {}

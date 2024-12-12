@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TickablesTaskUpdater)
 namespace System {
 class Object;
@@ -21,26 +20,25 @@ class TickablesTaskUpdater;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::TickablesTaskUpdater);
-// Type: Zenject::TickablesTaskUpdater
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.TaskUpdater`1<TTask>
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::TickablesTaskUpdater*
+// CS Name: Zenject.TickablesTaskUpdater
 class CORDL_TYPE TickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ITickable*> {
 public:
   // Declarations
   static inline ::Zenject::TickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x4ae7a68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x4b4c378, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::ITickable* task);
 
-  /// @brief Method __zenCreate, addr 0x4ae7b4c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x4b4c45c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae7b9c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4c4ac, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ae7b04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b4c414, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +56,7 @@ public:
   TickablesTaskUpdater(TickablesTaskUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12675 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,20 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Compositor_FrameTiming)
-namespace OVR::OpenVR {
-struct TrackedDevicePose_t;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct Compositor_FrameTiming;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::Compositor_FrameTiming);
-// Type: OVR.OpenVR::Compositor_FrameTiming
-// SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.TrackedDevicePose_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::Compositor_FrameTiming
+// CS Name: OVR.OpenVR.Compositor_FrameTiming
 struct CORDL_TYPE Compositor_FrameTiming {
 public:
   // Declarations
@@ -46,6 +42,12 @@ public:
                                    float_t m_flCompositorRenderCpuMs, float_t m_flCompositorIdleCpuMs, float_t m_flClientFrameIntervalMs, float_t m_flPresentCallCpuMs, float_t m_flWaitForPresentCpuMs,
                                    float_t m_flSubmitFrameMs, float_t m_flWaitGetPosesCalledMs, float_t m_flNewPosesReadyMs, float_t m_flNewFrameReadyMs, float_t m_flCompositorUpdateStartMs,
                                    float_t m_flCompositorUpdateEndMs, float_t m_flCompositorRenderStartMs, ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
 
   /// @brief Field m_nSize, offset: 0x0, size: 0x4, def value: None
   uint32_t m_nSize;
@@ -119,17 +121,9 @@ public:
   /// @brief Field m_HmdPose, offset: 0x60, size: 0x50, def value: None
   ::OVR::OpenVR::TrackedDevicePose_t m_HmdPose;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8992 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xb0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_FrameTiming, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nSize) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_nFrameIndex) == 0x4, "Offset mismatch!");
@@ -177,6 +171,8 @@ static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorUpda
 static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_flCompositorRenderStartMs) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::Compositor_FrameTiming, m_HmdPose) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::Compositor_FrameTiming, 0xb0>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::Compositor_FrameTiming, "OVR.OpenVR", "Compositor_FrameTiming");

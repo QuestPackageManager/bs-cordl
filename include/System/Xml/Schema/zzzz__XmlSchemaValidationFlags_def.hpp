@@ -12,11 +12,10 @@ struct XmlSchemaValidationFlags;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XmlSchemaValidationFlags);
-// Type: System.Xml.Schema::XmlSchemaValidationFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::XmlSchemaValidationFlags
+// CS Name: System.Xml.Schema.XmlSchemaValidationFlags
 struct CORDL_TYPE XmlSchemaValidationFlags {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlSchemaValidationFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AllowXmlAttributes value: static_cast<int32_t>(0x10)
+  /// @brief Field AllowXmlAttributes value: I32(16)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const AllowXmlAttributes;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const None;
 
-  /// @brief Field ProcessIdentityConstraints value: static_cast<int32_t>(0x8)
+  /// @brief Field ProcessIdentityConstraints value: I32(8)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const ProcessIdentityConstraints;
 
-  /// @brief Field ProcessInlineSchema value: static_cast<int32_t>(0x1)
+  /// @brief Field ProcessInlineSchema value: I32(1)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const ProcessInlineSchema;
 
-  /// @brief Field ProcessSchemaLocation value: static_cast<int32_t>(0x2)
+  /// @brief Field ProcessSchemaLocation value: I32(2)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const ProcessSchemaLocation;
 
-  /// @brief Field ReportValidationWarnings value: static_cast<int32_t>(0x4)
+  /// @brief Field ReportValidationWarnings value: I32(4)
   static ::System::Xml::Schema::XmlSchemaValidationFlags const ReportValidationWarnings;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7730 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaValidationFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaValidationFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaValidationFlags, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaValidationFlags, "System.Xml.Schema", "XmlSchemaValidationFlags");

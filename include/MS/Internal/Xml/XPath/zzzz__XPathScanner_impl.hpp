@@ -1,53 +1,52 @@
 #pragma once
 // IWYU pragma private; include "MS/Internal/Xml/XPath/XPathScanner.hpp"
-#include "MS/Internal/Xml/XPath/zzzz__XPathScanner_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__XPathScanner_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__XPathScanner_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind::__XPathScanner__LexKind(int32_t value__) noexcept {
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind::XPathScanner_LexKind(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind::__XPathScanner__LexKind() {}
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Comma{ static_cast<int32_t>(0x2c) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Slash{ static_cast<int32_t>(0x2f) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::At{ static_cast<int32_t>(0x40) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Dot{ static_cast<int32_t>(0x2e) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::LParens{ static_cast<int32_t>(0x28) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::RParens{ static_cast<int32_t>(0x29) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::LBracket{ static_cast<int32_t>(0x5b) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::RBracket{ static_cast<int32_t>(0x5d) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Star{ static_cast<int32_t>(0x2a) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Plus{ static_cast<int32_t>(0x2b) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Minus{ static_cast<int32_t>(0x2d) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Eq{ static_cast<int32_t>(0x3d) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Lt{ static_cast<int32_t>(0x3c) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Gt{ static_cast<int32_t>(0x3e) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Bang{ static_cast<int32_t>(0x21) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Dollar{ static_cast<int32_t>(0x24) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Apos{ static_cast<int32_t>(0x27) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Quote{ static_cast<int32_t>(0x22) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Union{ static_cast<int32_t>(0x7c) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Ne{ static_cast<int32_t>(0x4e) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Le{ static_cast<int32_t>(0x4c) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Ge{ static_cast<int32_t>(0x47) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::And{ static_cast<int32_t>(0x41) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Or{ static_cast<int32_t>(0x4f) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::DotDot{ static_cast<int32_t>(0x44) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::SlashSlash{ static_cast<int32_t>(0x53) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Name{ static_cast<int32_t>(0x6e) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::String{ static_cast<int32_t>(0x73) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Number{ static_cast<int32_t>(0x64) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Axe{ static_cast<int32_t>(0x61) };
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::__XPathScanner__LexKind::Eof{ static_cast<int32_t>(0x45) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind::XPathScanner_LexKind() {}
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Comma{ static_cast<int32_t>(0x2c) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Slash{ static_cast<int32_t>(0x2f) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::At{ static_cast<int32_t>(0x40) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Dot{ static_cast<int32_t>(0x2e) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::LParens{ static_cast<int32_t>(0x28) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::RParens{ static_cast<int32_t>(0x29) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::LBracket{ static_cast<int32_t>(0x5b) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::RBracket{ static_cast<int32_t>(0x5d) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Star{ static_cast<int32_t>(0x2a) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Plus{ static_cast<int32_t>(0x2b) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Minus{ static_cast<int32_t>(0x2d) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Eq{ static_cast<int32_t>(0x3d) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Lt{ static_cast<int32_t>(0x3c) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Gt{ static_cast<int32_t>(0x3e) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Bang{ static_cast<int32_t>(0x21) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Dollar{ static_cast<int32_t>(0x24) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Apos{ static_cast<int32_t>(0x27) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Quote{ static_cast<int32_t>(0x22) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Union{ static_cast<int32_t>(0x7c) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Ne{ static_cast<int32_t>(0x4e) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Le{ static_cast<int32_t>(0x4c) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Ge{ static_cast<int32_t>(0x47) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::And{ static_cast<int32_t>(0x41) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Or{ static_cast<int32_t>(0x4f) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::DotDot{ static_cast<int32_t>(0x44) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::SlashSlash{ static_cast<int32_t>(0x53) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Name{ static_cast<int32_t>(0x6e) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::String{ static_cast<int32_t>(0x73) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Number{ static_cast<int32_t>(0x64) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Axe{ static_cast<int32_t>(0x61) };
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner_LexKind::Eof{ static_cast<int32_t>(0x45) };
 //  Writing Method size for method: ::MS::Internal::Xml::XPath::XPathScanner._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::XPathScanner::*)(::StringW)>(&::MS::Internal::Xml::XPath::XPathScanner::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42a4410;
+  constexpr static std::size_t addrs = 0x4305724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
     &::MS::Internal::Xml::XPath::XPathScanner::get_SourceText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a74e8;
+  constexpr static std::size_t addrs = 0x43087fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(),
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
     &::MS::Internal::Xml::XPath::XPathScanner::get_CurrentChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a74f0;
+  constexpr static std::size_t addrs = 0x4308804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(),
@@ -89,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::NextChar)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42a7488;
+  constexpr static std::size_t addrs = 0x430879c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "NextChar",
@@ -100,10 +99,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::MS::Internal::Xml::XPath::XPathScanner.get_Kind
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::__XPathScanner__LexKind (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::XPathScanner_LexKind (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
     &::MS::Internal::Xml::XPath::XPathScanner::get_Kind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a74f8;
+  constexpr static std::size_t addrs = 0x430880c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "get_Kind",
@@ -116,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a7500;
+  constexpr static std::size_t addrs = 0x4308814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "get_Name",
@@ -129,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::get_Prefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a7508;
+  constexpr static std::size_t addrs = 0x430881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "get_Prefix",
@@ -143,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
     &::MS::Internal::Xml::XPath::XPathScanner::get_StringValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a7510;
+  constexpr static std::size_t addrs = 0x4308824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(),
@@ -157,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::MS::Internal::Xml::XPath::XPathScanner::*)()>(
     &::MS::Internal::Xml::XPath::XPathScanner::get_NumberValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a7518;
+  constexpr static std::size_t addrs = 0x430882c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(),
@@ -170,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::get_CanBeFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42a7520;
+  constexpr static std::size_t addrs = 0x4308834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(),
@@ -183,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::SkipSpace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x42a7528;
+  constexpr static std::size_t addrs = 0x430883c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "SkipSpace",
@@ -196,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::NextLex)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x42a60cc;
+  constexpr static std::size_t addrs = 0x43073e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "NextLex",
@@ -209,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::ScanNumber)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x42a76c4;
+  constexpr static std::size_t addrs = 0x43089d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "ScanNumber",
@@ -222,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::ScanFraction)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42a7564;
+  constexpr static std::size_t addrs = 0x4308878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "ScanFraction",
@@ -235,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::ScanString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42a7614;
+  constexpr static std::size_t addrs = 0x4308928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "ScanString",
@@ -248,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::XPath::XPathScanner::*)()>(&::MS::Internal::Xml::XPath::XPathScanner::ScanName)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x42a779c;
+  constexpr static std::size_t addrs = 0x4308ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "ScanName",
@@ -280,15 +279,15 @@ constexpr void MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_set__xpa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xpathExprIndex = value;
 }
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind& MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_get__kind() {
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind& MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_get__kind() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kind;
 }
-constexpr ::MS::Internal::Xml::XPath::__XPathScanner__LexKind const& MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_get__kind() const {
+constexpr ::MS::Internal::Xml::XPath::XPathScanner_LexKind const& MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_get__kind() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kind;
 }
-constexpr void MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_set__kind(::MS::Internal::Xml::XPath::__XPathScanner__LexKind value) {
+constexpr void MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_set__kind(::MS::Internal::Xml::XPath::XPathScanner_LexKind value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____kind = value;
 }
@@ -376,9 +375,6 @@ constexpr void MS::Internal::Xml::XPath::XPathScanner::__cordl_internal_set__xml
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xmlCharType = value;
 }
-inline ::MS::Internal::Xml::XPath::XPathScanner* MS::Internal::Xml::XPath::XPathScanner::New_ctor(::StringW xpathExpr) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::XPathScanner*>(xpathExpr));
-}
 inline void MS::Internal::Xml::XPath::XPathScanner::_ctor(::StringW xpathExpr) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -400,10 +396,10 @@ inline bool MS::Internal::Xml::XPath::XPathScanner::NextChar() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::MS::Internal::Xml::XPath::__XPathScanner__LexKind MS::Internal::Xml::XPath::XPathScanner::get_Kind() {
+inline ::MS::Internal::Xml::XPath::XPathScanner_LexKind MS::Internal::Xml::XPath::XPathScanner::get_Kind() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "get_Kind",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::__XPathScanner__LexKind, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::MS::Internal::Xml::XPath::XPathScanner_LexKind, false>(this, ___internal_method);
 }
 inline ::StringW MS::Internal::Xml::XPath::XPathScanner::get_Name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "get_Name",
@@ -459,6 +455,9 @@ inline ::StringW MS::Internal::Xml::XPath::XPathScanner::ScanName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::XPath::XPathScanner*>::get(), "ScanName",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::MS::Internal::Xml::XPath::XPathScanner* MS::Internal::Xml::XPath::XPathScanner::New_ctor(::StringW xpathExpr) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::MS::Internal::Xml::XPath::XPathScanner*>(xpathExpr));
 }
 // Ctor Parameters []
 constexpr ::MS::Internal::Xml::XPath::XPathScanner::XPathScanner() {}

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BcpgObject)
 namespace Org::BouncyCastle::Bcpg {
@@ -16,23 +15,22 @@ class BcpgObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgObject);
-// Type: Org.BouncyCastle.Bcpg::BcpgObject
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::BcpgObject*
+// CS Name: Org.BouncyCastle.Bcpg.BcpgObject
 class CORDL_TYPE BcpgObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x2610e40, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x264412c, size 0xb8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::BcpgObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2610f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2644280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

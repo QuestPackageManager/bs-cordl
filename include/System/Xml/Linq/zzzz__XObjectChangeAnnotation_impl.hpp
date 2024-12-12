@@ -8,8 +8,7 @@ constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___changing;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const&
-System::Xml::Linq::XObjectChangeAnnotation::__cordl_internal_get_changing() const {
+constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* const& System::Xml::Linq::XObjectChangeAnnotation::__cordl_internal_get_changing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___changing;
 }
@@ -21,8 +20,7 @@ constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___changed;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const&
-System::Xml::Linq::XObjectChangeAnnotation::__cordl_internal_get_changed() const {
+constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* const& System::Xml::Linq::XObjectChangeAnnotation::__cordl_internal_get_changed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___changed;
 }

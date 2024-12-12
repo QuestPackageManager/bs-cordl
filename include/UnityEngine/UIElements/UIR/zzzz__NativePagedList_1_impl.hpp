@@ -1,20 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/NativePagedList_1.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__NativePagedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr UnityEngine::UIElements::UIR::NativePagedList_1<T>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::NativePagedList_1<T>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_k_PoolCapacity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k_PoolCapacity;
@@ -32,8 +24,7 @@ template <typename T> constexpr ::System::Collections::Generic::List_1<::Unity::
   return this->___m_Pages;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>*> const&
-UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Pages() const {
+constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeArray_1<T>>* const& UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Pages() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Pages;
 }
@@ -72,8 +63,7 @@ constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSli
   return this->___m_Enumerator;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>*> const&
-UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Enumerator() const {
+constexpr ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* const& UnityEngine::UIElements::UIR::NativePagedList_1<T>::__cordl_internal_get_m_Enumerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Enumerator;
 }
@@ -94,19 +84,16 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::NativePagedLi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disposed_k__BackingField = value;
 }
-template <typename T> inline ::UnityEngine::UIElements::UIR::NativePagedList_1<T>* UnityEngine::UIElements::UIR::NativePagedList_1<T>::New_ctor(int32_t poolCapacity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::NativePagedList_1<T>*>(poolCapacity));
-}
 template <typename T> inline void UnityEngine::UIElements::UIR::NativePagedList_1<T>::_ctor(int32_t poolCapacity) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::NativePagedList_1<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, poolCapacity);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::NativePagedList_1<T>::Add(ByRef<T> data) {
+template <typename T> inline void UnityEngine::UIElements::UIR::NativePagedList_1<T>::Add(::ByRef<T> data) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::NativePagedList_1<T>*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
 }
 template <typename T> inline ::System::Collections::Generic::List_1<::Unity::Collections::NativeSlice_1<T>>* UnityEngine::UIElements::UIR::NativePagedList_1<T>::GetPages() {
@@ -140,6 +127,17 @@ template <typename T> inline void UnityEngine::UIElements::UIR::NativePagedList_
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::NativePagedList_1<T>*>::get(), "Dispose",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+}
+template <typename T> inline ::UnityEngine::UIElements::UIR::NativePagedList_1<T>* UnityEngine::UIElements::UIR::NativePagedList_1<T>::New_ctor(int32_t poolCapacity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::NativePagedList_1<T>*>(poolCapacity));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr UnityEngine::UIElements::UIR::NativePagedList_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::NativePagedList_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::NativePagedList_1<T>::NativePagedList_1() {}

@@ -18,11 +18,10 @@ class ChallengeList;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeList);
-// Type: Oculus.Platform.Models::ChallengeList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Models.DeserializableList`1<T>
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::ChallengeList*
+// CS Name: Oculus.Platform.Models.ChallengeList
 class CORDL_TYPE ChallengeList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
@@ -37,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2f09c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8f148, size 0x230, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -54,18 +53,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChallengeList(ChallengeList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15509 };
+
   /// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
   uint64_t ___TotalCount;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15474 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ChallengeList, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeList, ___TotalCount) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ChallengeList, 0x30>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ChallengeList);

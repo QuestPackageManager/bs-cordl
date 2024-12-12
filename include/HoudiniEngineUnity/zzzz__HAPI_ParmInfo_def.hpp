@@ -14,57 +14,36 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_ParmInfo)
-namespace HoudiniEngineUnity {
-struct HAPI_ChoiceListType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeFlags;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_NodeType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Permissions;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_PrmScriptType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_RampType;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_ParmInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
-// Type: HoudiniEngineUnity::HAPI_ParmInfo
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_ChoiceListType, HoudiniEngineUnity.HAPI_NodeFlags, HoudiniEngineUnity.HAPI_NodeType, HoudiniEngineUnity.HAPI_ParmType, HoudiniEngineUnity.HAPI_Permissions,
+// HoudiniEngineUnity.HAPI_PrmScriptType, HoudiniEngineUnity.HAPI_RampType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
+// CS Name: HoudiniEngineUnity.HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isFloat, addr 0x39f206c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x3a48cdc, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isInt, addr 0x39f2050, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method isInt, addr 0x3a48cc0, size 0x1c, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isNode, addr 0x39f20cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x3a48d3c, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x39f20dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x3a48d4c, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
-  /// @brief Method isPath, addr 0x39f20ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isPath, addr 0x3a48d1c, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isString, addr 0x39f2080, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method isString, addr 0x3a48cf0, size 0x2c, virtual false, abstract: false, final false
   inline bool isString();
 
   // Ctor Parameters []
@@ -97,6 +76,12 @@ public:
                           int32_t choiceIndex, ::HoudiniEngineUnity::HAPI_NodeType inputNodeType, ::HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag, bool isChildOfMultiParm, int32_t instanceNum,
                           int32_t instanceLength, int32_t instanceCount, int32_t instanceStartOffset, ::HoudiniEngineUnity::HAPI_RampType rampType, int32_t visibilityConditionSH,
                           int32_t disabledConditionSH) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11716 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
   /// @brief Field id, offset: 0x0, size: 0x4, def value: None
   int32_t id;
@@ -224,17 +209,9 @@ public:
   /// @brief Field disabledConditionSH, offset: 0x8c, size: 0x4, def value: None
   int32_t disabledConditionSH;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11683 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ParmInfo, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, id) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, parentId) == 0x4, "Offset mismatch!");
@@ -318,6 +295,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, rampType) == 0x84, "
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, visibilityConditionSH) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ParmInfo, disabledConditionSH) == 0x8c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ParmInfo, 0x90>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ParmInfo, "HoudiniEngineUnity", "HAPI_ParmInfo");

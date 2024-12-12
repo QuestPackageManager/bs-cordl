@@ -19,11 +19,10 @@ class TypeIsInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::TypeIsInstruction);
-// Type: System.Linq.Expressions.Interpreter::TypeIsInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::TypeIsInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.TypeIsInstruction
 class CORDL_TYPE TypeIsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
@@ -38,28 +37,28 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::TypeIsInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x40957e0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f6af4, size 0x60, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x4095840, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x40f6b54, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
+
+  constexpr ::System::Type* const& __cordl_internal_get__type() const;
 
   constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
-
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4095768, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f6a7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ConsumedStack, addr 0x4095790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40f6aa4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40957a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f6ab4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4095798, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f6aac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -76,18 +75,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeIsInstruction(TypeIsInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14100 };
+
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TypeIsInstruction, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TypeIsInstruction, ____type) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TypeIsInstruction, 0x18>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::TypeIsInstruction);

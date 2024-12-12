@@ -19,11 +19,10 @@ class ActiveAxis;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ActiveAxis);
-// Type: System.Xml.Schema::ActiveAxis
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ActiveAxis*
+// CS Name: System.Xml.Schema.ActiveAxis
 class CORDL_TYPE ActiveAxis : public ::System::Object {
 public:
   // Declarations
@@ -41,27 +40,27 @@ public:
   /// @brief Field _isActive, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
-  /// @brief Method EndElement, addr 0x4331ee4, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method EndElement, addr 0x43931f8, size 0x110, virtual true, abstract: false, final false
   inline bool EndElement(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToAttribute, addr 0x4331ff4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x4393308, size 0x10c, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW localname, ::StringW URN);
 
-  /// @brief Method MoveToStartElement, addr 0x4331da4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MoveToStartElement, addr 0x43930b8, size 0x140, virtual false, abstract: false, final false
   inline bool MoveToStartElement(::StringW localname, ::StringW URN);
 
   static inline ::System::Xml::Schema::ActiveAxis* New_ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method Reactivate, addr 0x4331bec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reactivate, addr 0x4392f00, size 0x14, virtual false, abstract: false, final false
   inline void Reactivate();
+
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__axisStack() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__axisStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__axisStack() const;
+  constexpr ::System::Xml::Schema::Asttree* const& __cordl_internal_get__axisTree() const;
 
   constexpr ::System::Xml::Schema::Asttree*& __cordl_internal_get__axisTree();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Asttree*> const& __cordl_internal_get__axisTree() const;
 
   constexpr int32_t const& __cordl_internal_get__currentDepth() const;
 
@@ -79,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set__isActive(bool value);
 
-  /// @brief Method .ctor, addr 0x4331c00, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4392f14, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::Asttree* axisTree);
 
-  /// @brief Method get_CurrentDepth, addr 0x4331be4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentDepth, addr 0x4392ef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentDepth();
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ActiveAxis(ActiveAxis const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7472 };
+
   /// @brief Field _currentDepth, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentDepth;
 
@@ -111,14 +113,9 @@ public:
   /// @brief Field _axisStack, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____axisStack;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7447 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ActiveAxis, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::ActiveAxis, ____currentDepth) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ActiveAxis, ____isActive) == 0x14, "Offset mismatch!");
@@ -126,6 +123,8 @@ static_assert(offsetof(::System::Xml::Schema::ActiveAxis, ____isActive) == 0x14,
 static_assert(offsetof(::System::Xml::Schema::ActiveAxis, ____axisTree) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ActiveAxis, ____axisStack) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ActiveAxis, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ActiveAxis);

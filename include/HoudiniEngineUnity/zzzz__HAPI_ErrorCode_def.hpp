@@ -12,11 +12,10 @@ struct HAPI_ErrorCode;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_ErrorCode);
-// Type: HoudiniEngineUnity::HAPI_ErrorCode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_ErrorCode
+// CS Name: HoudiniEngineUnity.HAPI_ErrorCode
 struct CORDL_TYPE HAPI_ErrorCode {
 public:
   // Declarations
@@ -45,27 +44,27 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_ErrorCode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field HAPI_ERRORCODE_ASSET_DEF_NOT_FOUND value: static_cast<int32_t>(0x1)
+  /// @brief Field HAPI_ERRORCODE_ASSET_DEF_NOT_FOUND value: I32(1)
   static ::HoudiniEngineUnity::HAPI_ErrorCode const HAPI_ERRORCODE_ASSET_DEF_NOT_FOUND;
 
-  /// @brief Field HAPI_ERRORCODE_PYTHON_NODE_ERROR value: static_cast<int32_t>(0x2)
+  /// @brief Field HAPI_ERRORCODE_PYTHON_NODE_ERROR value: I32(2)
   static ::HoudiniEngineUnity::HAPI_ErrorCode const HAPI_ERRORCODE_PYTHON_NODE_ERROR;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11639 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ErrorCode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_ErrorCode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_ErrorCode, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_ErrorCode, "HoudiniEngineUnity", "HAPI_ErrorCode");

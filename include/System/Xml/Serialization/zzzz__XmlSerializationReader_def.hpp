@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Serialization/zzzz__XmlSerializationGeneratedCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSerializationReader)
@@ -29,19 +27,19 @@ namespace System::Xml::Serialization {
 class XmlSerializationReadCallback;
 }
 namespace System::Xml::Serialization {
+class XmlSerializationReader_CollectionFixup;
+}
+namespace System::Xml::Serialization {
+class XmlSerializationReader_CollectionItemFixup;
+}
+namespace System::Xml::Serialization {
+class XmlSerializationReader_Fixup;
+}
+namespace System::Xml::Serialization {
+class XmlSerializationReader_WriteCallbackInfo;
+}
+namespace System::Xml::Serialization {
 class XmlSerializer;
-}
-namespace System::Xml::Serialization {
-class __XmlSerializationReader__CollectionFixup;
-}
-namespace System::Xml::Serialization {
-class __XmlSerializationReader__CollectionItemFixup;
-}
-namespace System::Xml::Serialization {
-class __XmlSerializationReader__Fixup;
-}
-namespace System::Xml::Serialization {
-class __XmlSerializationReader__WriteCallbackInfo;
 }
 namespace System::Xml {
 class XmlAttribute;
@@ -78,29 +76,28 @@ namespace System::Xml::Serialization {
 class XmlSerializationReader;
 }
 namespace System::Xml::Serialization {
-class __XmlSerializationReader__CollectionFixup;
+class XmlSerializationReader_CollectionFixup;
 }
 namespace System::Xml::Serialization {
-class __XmlSerializationReader__CollectionItemFixup;
+class XmlSerializationReader_CollectionItemFixup;
 }
 namespace System::Xml::Serialization {
-class __XmlSerializationReader__Fixup;
+class XmlSerializationReader_Fixup;
 }
 namespace System::Xml::Serialization {
-class __XmlSerializationReader__WriteCallbackInfo;
+class XmlSerializationReader_WriteCallbackInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationReader);
-MARK_REF_PTR_T(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup);
-MARK_REF_PTR_T(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup);
-MARK_REF_PTR_T(::System::Xml::Serialization::__XmlSerializationReader__Fixup);
-MARK_REF_PTR_T(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo);
-// Type: ::WriteCallbackInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup);
+MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup);
+MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationReader_Fixup);
+MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo);
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::XmlSerializationReader::WriteCallbackInfo*
-class CORDL_TYPE __XmlSerializationReader__WriteCallbackInfo : public ::System::Object {
+// CS Name: System.Xml.Serialization.XmlSerializationReader/WriteCallbackInfo
+class CORDL_TYPE XmlSerializationReader_WriteCallbackInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Callback, offset 0x28, size 0x8
@@ -115,15 +112,15 @@ public:
   /// @brief Field TypeNs, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_TypeNs, put = __cordl_internal_set_TypeNs)) ::StringW TypeNs;
 
-  static inline ::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo* New_ctor();
+  static inline ::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo* New_ctor();
+
+  constexpr ::System::Xml::Serialization::XmlSerializationReadCallback* const& __cordl_internal_get_Callback() const;
 
   constexpr ::System::Xml::Serialization::XmlSerializationReadCallback*& __cordl_internal_get_Callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializationReadCallback*> const& __cordl_internal_get_Callback() const;
+  constexpr ::System::Type* const& __cordl_internal_get_Type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_Type();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_Type() const;
 
   constexpr ::StringW const& __cordl_internal_get_TypeName() const;
 
@@ -141,22 +138,25 @@ public:
 
   constexpr void __cordl_internal_set_TypeNs(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4317c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4378f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlSerializationReader__WriteCallbackInfo();
+  constexpr XmlSerializationReader_WriteCallbackInfo();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__WriteCallbackInfo", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XmlSerializationReader__WriteCallbackInfo(__XmlSerializationReader__WriteCallbackInfo&&) = delete;
+  XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__WriteCallbackInfo", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_WriteCallbackInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XmlSerializationReader__WriteCallbackInfo(__XmlSerializationReader__WriteCallbackInfo const&) = delete;
+  XmlSerializationReader_WriteCallbackInfo(XmlSerializationReader_WriteCallbackInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7432 };
 
   /// @brief Field Type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___Type;
@@ -170,29 +170,25 @@ public:
   /// @brief Field Callback, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationReadCallback* ___Callback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7407 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo, 0x30>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo, ___Type) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo, ___Type) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo, ___TypeName) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo, ___TypeName) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo, ___TypeNs) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo, ___TypeNs) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo, ___Callback) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo, ___Callback) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
-// Type: ::CollectionFixup
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::XmlSerializationReader::CollectionFixup*
-class CORDL_TYPE __XmlSerializationReader__CollectionFixup : public ::System::Object {
+// CS Name: System.Xml.Serialization.XmlSerializationReader/CollectionFixup
+class CORDL_TYPE XmlSerializationReader_CollectionFixup : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Callback)) ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* Callback;
@@ -215,20 +211,20 @@ public:
   /// @brief Field id, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
 
-  static inline ::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup* New_ctor(::System::Object* collection,
-                                                                                                  ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback, ::StringW id);
+  static inline ::System::Xml::Serialization::XmlSerializationReader_CollectionFixup* New_ctor(::System::Object* collection,
+                                                                                               ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback, ::StringW id);
+
+  constexpr ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* const& __cordl_internal_get_callback() const;
 
   constexpr ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializationCollectionFixupCallback*> const& __cordl_internal_get_callback() const;
+  constexpr ::System::Object* const& __cordl_internal_get_collection() const;
 
   constexpr ::System::Object*& __cordl_internal_get_collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_collection() const;
+  constexpr ::System::Object* const& __cordl_internal_get_collectionItems() const;
 
   constexpr ::System::Object*& __cordl_internal_get_collectionItems();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_collectionItems() const;
 
   constexpr ::StringW const& __cordl_internal_get_id() const;
 
@@ -242,37 +238,40 @@ public:
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x431bb4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437ce60, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* collection, ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* callback, ::StringW id);
 
-  /// @brief Method get_Callback, addr 0x431bb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x437ce9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* get_Callback();
 
-  /// @brief Method get_Collection, addr 0x431bb90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Collection, addr 0x437cea4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Collection();
 
-  /// @brief Method get_CollectionItems, addr 0x431bba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionItems, addr 0x437ceb4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_CollectionItems();
 
-  /// @brief Method get_Id, addr 0x431bb98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x437ceac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method set_CollectionItems, addr 0x431bba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionItems, addr 0x437cebc, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionItems(::System::Object* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlSerializationReader__CollectionFixup();
+  constexpr XmlSerializationReader_CollectionFixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__CollectionFixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XmlSerializationReader__CollectionFixup(__XmlSerializationReader__CollectionFixup&&) = delete;
+  XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__CollectionFixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionFixup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XmlSerializationReader__CollectionFixup(__XmlSerializationReader__CollectionFixup const&) = delete;
+  XmlSerializationReader_CollectionFixup(XmlSerializationReader_CollectionFixup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7433 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationCollectionFixupCallback* ___callback;
@@ -286,29 +285,25 @@ public:
   /// @brief Field id, offset: 0x28, size: 0x8, def value: None
   ::StringW ___id;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7408 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup, 0x30>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup, ___callback) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup, ___callback) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup, ___collection) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup, ___collection) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup, ___collectionItems) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup, ___collectionItems) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup, ___id) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup, ___id) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader_CollectionFixup, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
-// Type: ::Fixup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::XmlSerializationReader::Fixup*
-class CORDL_TYPE __XmlSerializationReader__Fixup : public ::System::Object {
+// CS Name: System.Xml.Serialization.XmlSerializationReader/Fixup
+class CORDL_TYPE XmlSerializationReader_Fixup : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Callback)) ::System::Xml::Serialization::XmlSerializationFixupCallback* Callback;
@@ -326,19 +321,19 @@ public:
   /// @brief Field source, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Object* source;
 
-  static inline ::System::Xml::Serialization::__XmlSerializationReader__Fixup* New_ctor(::System::Object* o, ::System::Xml::Serialization::XmlSerializationFixupCallback* callback, int32_t count);
+  static inline ::System::Xml::Serialization::XmlSerializationReader_Fixup* New_ctor(::System::Object* o, ::System::Xml::Serialization::XmlSerializationFixupCallback* callback, int32_t count);
+
+  constexpr ::System::Xml::Serialization::XmlSerializationFixupCallback* const& __cordl_internal_get_callback() const;
 
   constexpr ::System::Xml::Serialization::XmlSerializationFixupCallback*& __cordl_internal_get_callback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializationFixupCallback*> const& __cordl_internal_get_callback() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_ids() const;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_ids();
 
-  constexpr ::System::Object*& __cordl_internal_get_source();
+  constexpr ::System::Object* const& __cordl_internal_get_source() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_source() const;
+  constexpr ::System::Object*& __cordl_internal_get_source();
 
   constexpr void __cordl_internal_set_callback(::System::Xml::Serialization::XmlSerializationFixupCallback* value);
 
@@ -346,31 +341,34 @@ public:
 
   constexpr void __cordl_internal_set_source(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x431bbb0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437cec4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* o, ::System::Xml::Serialization::XmlSerializationFixupCallback* callback, int32_t count);
 
-  /// @brief Method get_Callback, addr 0x431bc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Callback, addr 0x437cf44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationFixupCallback* get_Callback();
 
-  /// @brief Method get_Ids, addr 0x431bc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Ids, addr 0x437cf4c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Ids();
 
-  /// @brief Method get_Source, addr 0x431bc40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Source, addr 0x437cf54, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Source();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlSerializationReader__Fixup();
+  constexpr XmlSerializationReader_Fixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__Fixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XmlSerializationReader__Fixup(__XmlSerializationReader__Fixup&&) = delete;
+  XmlSerializationReader_Fixup(XmlSerializationReader_Fixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__Fixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_Fixup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XmlSerializationReader__Fixup(__XmlSerializationReader__Fixup const&) = delete;
+  XmlSerializationReader_Fixup(XmlSerializationReader_Fixup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7434 };
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___source;
@@ -381,27 +379,23 @@ public:
   /// @brief Field callback, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlSerializationFixupCallback* ___callback;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7409 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::__XmlSerializationReader__Fixup, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_Fixup, ___source) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__Fixup, ___source) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_Fixup, ___ids) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__Fixup, ___ids) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_Fixup, ___callback) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__Fixup, ___callback) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader_Fixup, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
-// Type: ::CollectionItemFixup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::XmlSerializationReader::CollectionItemFixup*
-class CORDL_TYPE __XmlSerializationReader__CollectionItemFixup : public ::System::Object {
+// CS Name: System.Xml.Serialization.XmlSerializationReader/CollectionItemFixup
+class CORDL_TYPE XmlSerializationReader_CollectionItemFixup : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Collection)) ::System::Array* Collection;
@@ -419,7 +413,7 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Array* list;
 
-  static inline ::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup* New_ctor(::System::Array* list, int32_t index, ::StringW id);
+  static inline ::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup* New_ctor(::System::Array* list, int32_t index, ::StringW id);
 
   constexpr ::StringW const& __cordl_internal_get_id() const;
 
@@ -429,9 +423,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr ::System::Array*& __cordl_internal_get_list();
+  constexpr ::System::Array* const& __cordl_internal_get_list() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __cordl_internal_get_list() const;
+  constexpr ::System::Array*& __cordl_internal_get_list();
 
   constexpr void __cordl_internal_set_id(::StringW value);
 
@@ -439,31 +433,34 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Array* value);
 
-  /// @brief Method .ctor, addr 0x4319f4c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x437b260, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* list, int32_t index, ::StringW id);
 
-  /// @brief Method get_Collection, addr 0x431bc48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Collection, addr 0x437cf5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Array* get_Collection();
 
-  /// @brief Method get_Id, addr 0x431bc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x437cf6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_Index, addr 0x431bc50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x437cf64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XmlSerializationReader__CollectionItemFixup();
+  constexpr XmlSerializationReader_CollectionItemFixup();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__CollectionItemFixup", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XmlSerializationReader__CollectionItemFixup(__XmlSerializationReader__CollectionItemFixup&&) = delete;
+  XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlSerializationReader__CollectionItemFixup", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader_CollectionItemFixup", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XmlSerializationReader__CollectionItemFixup(__XmlSerializationReader__CollectionItemFixup const&) = delete;
+  XmlSerializationReader_CollectionItemFixup(XmlSerializationReader_CollectionItemFixup const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7435 };
 
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Array* ___list;
@@ -474,36 +471,32 @@ public:
   /// @brief Field id, offset: 0x20, size: 0x8, def value: None
   ::StringW ___id;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7410 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup, ___list) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup, ___list) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup, ___index) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup, ___index) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup, ___id) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup, ___id) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
-// Type: System.Xml.Serialization::XmlSerializationReader
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Serialization.XmlSerializationGeneratedCode
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializationReader*
+// CS Name: System.Xml.Serialization.XmlSerializationReader
 class CORDL_TYPE XmlSerializationReader : public ::System::Xml::Serialization::XmlSerializationGeneratedCode {
 public:
   // Declarations
-  using CollectionFixup = ::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup;
+  using CollectionFixup = ::System::Xml::Serialization::XmlSerializationReader_CollectionFixup;
 
-  using CollectionItemFixup = ::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup;
+  using CollectionItemFixup = ::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup;
 
-  using Fixup = ::System::Xml::Serialization::__XmlSerializationReader__Fixup;
+  using Fixup = ::System::Xml::Serialization::XmlSerializationReader_Fixup;
 
-  using WriteCallbackInfo = ::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo;
+  using WriteCallbackInfo = ::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo;
 
   __declspec(property(get = get_Document)) ::System::Xml::XmlDocument* Document;
 
@@ -584,195 +577,195 @@ public:
   /// @brief Field wsdlNS, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_wsdlNS, put = __cordl_internal_set_wsdlNS)) ::StringW wsdlNS;
 
-  /// @brief Method AddFixup, addr 0x4317a4c, size 0xb4, virtual false, abstract: false, final false
-  inline void AddFixup(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup* fixup);
+  /// @brief Method AddFixup, addr 0x4378d60, size 0xb4, virtual false, abstract: false, final false
+  inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup* fixup);
 
-  /// @brief Method AddFixup, addr 0x4317b44, size 0x44, virtual false, abstract: false, final false
-  inline void AddFixup(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup* fixup);
+  /// @brief Method AddFixup, addr 0x4378e58, size 0x44, virtual false, abstract: false, final false
+  inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup* fixup);
 
-  /// @brief Method AddFixup, addr 0x4317b00, size 0x44, virtual false, abstract: false, final false
-  inline void AddFixup(::System::Xml::Serialization::__XmlSerializationReader__Fixup* fixup);
+  /// @brief Method AddFixup, addr 0x4378e14, size 0x44, virtual false, abstract: false, final false
+  inline void AddFixup(::System::Xml::Serialization::XmlSerializationReader_Fixup* fixup);
 
-  /// @brief Method AddReadCallback, addr 0x4317b88, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method AddReadCallback, addr 0x4378e9c, size 0xe0, virtual false, abstract: false, final false
   inline void AddReadCallback(::StringW name, ::StringW ns, ::System::Type* type, ::System::Xml::Serialization::XmlSerializationReadCallback* read);
 
-  /// @brief Method AddTarget, addr 0x4317c70, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddTarget, addr 0x4378f84, size 0xa8, virtual false, abstract: false, final false
   inline void AddTarget(::StringW id, ::System::Object* o);
 
-  /// @brief Method CreateReadOnlyCollectionException, addr 0x4317e78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateReadOnlyCollectionException, addr 0x437918c, size 0x90, virtual false, abstract: false, final false
   inline ::System::Exception* CreateReadOnlyCollectionException(::StringW name);
 
-  /// @brief Method CreateUnknownConstantException, addr 0x4317f08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownConstantException, addr 0x437921c, size 0x98, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownConstantException(::StringW value, ::System::Type* enumType);
 
-  /// @brief Method CreateUnknownNodeException, addr 0x4317fa0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownNodeException, addr 0x43792b4, size 0x94, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownNodeException();
 
-  /// @brief Method CreateUnknownTypeException, addr 0x4318034, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method CreateUnknownTypeException, addr 0x4379348, size 0x154, virtual false, abstract: false, final false
   inline ::System::Exception* CreateUnknownTypeException(::System::Xml::XmlQualifiedName* type);
 
-  /// @brief Method CurrentTag, addr 0x4317d18, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method CurrentTag, addr 0x437902c, size 0x160, virtual false, abstract: false, final false
   inline ::StringW CurrentTag();
 
-  /// @brief Method EnsureArrayIndex, addr 0x4318188, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnsureArrayIndex, addr 0x437949c, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Array* EnsureArrayIndex(::System::Array* a, int32_t index, ::System::Type* elementType);
 
-  /// @brief Method EnsureArrayList, addr 0x43178f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureArrayList, addr 0x4378c0c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* EnsureArrayList(::System::Collections::ArrayList* list);
 
-  /// @brief Method EnsureHashtable, addr 0x4317954, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureHashtable, addr 0x4378c68, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* EnsureHashtable(::System::Collections::Hashtable* hash);
 
-  /// @brief Method GetCallbackInfo, addr 0x431900c, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo* GetCallbackInfo(::System::Xml::XmlQualifiedName* qname);
+  /// @brief Method GetCallbackInfo, addr 0x437a320, size 0xdc, virtual false, abstract: false, final false
+  inline ::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo* GetCallbackInfo(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method GetNullAttr, addr 0x4318214, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetNullAttr, addr 0x4379528, size 0xa8, virtual false, abstract: false, final false
   inline bool GetNullAttr();
 
-  /// @brief Method GetTarget, addr 0x43182bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetTarget, addr 0x43795d0, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Object* GetTarget(::StringW id);
 
-  /// @brief Method GetXsiType, addr 0x4318390, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetXsiType, addr 0x43796a4, size 0x214, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* GetXsiType();
 
-  /// @brief Method InitCallbacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InitCallbacks, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InitCallbacks();
 
-  /// @brief Method InitIDs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method InitIDs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InitIDs();
 
-  /// @brief Method Initialize, addr 0x43175d4, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x43788e8, size 0x324, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::XmlReader* reader, ::System::Xml::Serialization::XmlSerializer* eventSource);
 
-  /// @brief Method IsXmlnsAttribute, addr 0x43185a4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method IsXmlnsAttribute, addr 0x43798b8, size 0xa0, virtual false, abstract: false, final false
   inline bool IsXmlnsAttribute(::StringW name);
 
   static inline ::System::Xml::Serialization::XmlSerializationReader* New_ctor();
 
-  /// @brief Method OnUnknownNode, addr 0x431b3d0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method OnUnknownNode, addr 0x437c6e4, size 0x278, virtual false, abstract: false, final false
   inline void OnUnknownNode(::System::Xml::XmlNode* node, ::System::Object* o, ::StringW qnames);
 
-  /// @brief Method ParseWsdlArrayType, addr 0x4318644, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method ParseWsdlArrayType, addr 0x4379958, size 0x184, virtual false, abstract: false, final false
   inline void ParseWsdlArrayType(::System::Xml::XmlAttribute* attr);
 
-  /// @brief Method ReadElementQualifiedName, addr 0x43187c8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadElementQualifiedName, addr 0x4379adc, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ReadElementQualifiedName();
 
-  /// @brief Method ReadEndElement, addr 0x4318af0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ReadEndElement, addr 0x4379e04, size 0x98, virtual false, abstract: false, final false
   inline void ReadEndElement();
 
-  /// @brief Method ReadList, addr 0x43190e8, size 0x4d8, virtual false, abstract: false, final false
-  inline bool ReadList(ByRef<::System::Object*> resultList);
+  /// @brief Method ReadList, addr 0x437a3fc, size 0x4d8, virtual false, abstract: false, final false
+  inline bool ReadList(::ByRef<::System::Object*> resultList);
 
-  /// @brief Method ReadNull, addr 0x4318b88, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ReadNull, addr 0x4379e9c, size 0xc8, virtual false, abstract: false, final false
   inline bool ReadNull();
 
-  /// @brief Method ReadNullableQualifiedName, addr 0x4318c84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ReadNullableQualifiedName, addr 0x4379f98, size 0x28, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ReadNullableQualifiedName();
 
-  /// @brief Method ReadNullableString, addr 0x4318cac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadNullableString, addr 0x4379fc0, size 0x48, virtual false, abstract: false, final false
   inline ::StringW ReadNullableString();
 
-  /// @brief Method ReadReferencedElement, addr 0x4318cf4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElement, addr 0x437a008, size 0x58, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencedElement();
 
-  /// @brief Method ReadReferencedElement, addr 0x4318d4c, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElement, addr 0x437a060, size 0x2c0, virtual false, abstract: false, final false
   inline ::System::Object* ReadReferencedElement(::StringW name, ::StringW ns);
 
-  /// @brief Method ReadReferencedElements, addr 0x4319f8c, size 0xea8, virtual false, abstract: false, final false
+  /// @brief Method ReadReferencedElements, addr 0x437b2a0, size 0xea8, virtual false, abstract: false, final false
   inline void ReadReferencedElements();
 
-  /// @brief Method ReadReferencingElement, addr 0x431aec8, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Object* ReadReferencingElement(ByRef<::StringW> fixupReference);
+  /// @brief Method ReadReferencingElement, addr 0x437c1dc, size 0x64, virtual false, abstract: false, final false
+  inline ::System::Object* ReadReferencingElement(::ByRef<::StringW> fixupReference);
 
-  /// @brief Method ReadReferencingElement, addr 0x431af2c, size 0x30c, virtual false, abstract: false, final false
-  inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, bool elementCanBeType, ByRef<::StringW> fixupReference);
+  /// @brief Method ReadReferencingElement, addr 0x437c240, size 0x30c, virtual false, abstract: false, final false
+  inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, bool elementCanBeType, ::ByRef<::StringW> fixupReference);
 
-  /// @brief Method ReadReferencingElement, addr 0x4319f40, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, ByRef<::StringW> fixupReference);
+  /// @brief Method ReadReferencingElement, addr 0x437b254, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Object* ReadReferencingElement(::StringW name, ::StringW ns, ::ByRef<::StringW> fixupReference);
 
-  /// @brief Method ReadSerializable, addr 0x431b238, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ReadSerializable, addr 0x437c54c, size 0x190, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::IXmlSerializable* ReadSerializable(::System::Xml::Serialization::IXmlSerializable* serializable);
 
-  /// @brief Method ReadTypedPrimitive, addr 0x43195c0, size 0x980, virtual false, abstract: false, final false
+  /// @brief Method ReadTypedPrimitive, addr 0x437a8d4, size 0x980, virtual false, abstract: false, final false
   inline ::System::Object* ReadTypedPrimitive(::System::Xml::XmlQualifiedName* qname, bool reportUnknown);
 
-  /// @brief Method ReadTypedPrimitive, addr 0x431b3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadTypedPrimitive, addr 0x437c6dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* ReadTypedPrimitive(::System::Xml::XmlQualifiedName* type);
 
-  /// @brief Method ReadXmlDocument, addr 0x431b6b0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlDocument, addr 0x437c9c4, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* ReadXmlDocument(bool wrapped);
 
-  /// @brief Method ReadXmlNode, addr 0x431b648, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadXmlNode, addr 0x437c95c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* ReadXmlNode(bool wrapped);
 
-  /// @brief Method ShrinkArray, addr 0x431b7cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ShrinkArray, addr 0x437cae0, size 0x90, virtual false, abstract: false, final false
   inline ::System::Array* ShrinkArray(::System::Array* a, int32_t length, ::System::Type* elementType, bool isNullable);
 
-  /// @brief Method TargetReady, addr 0x4318374, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method TargetReady, addr 0x4379688, size 0x1c, virtual false, abstract: false, final false
   inline bool TargetReady(::StringW id);
 
-  /// @brief Method ToXmlQualifiedName, addr 0x43188c4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ToXmlQualifiedName, addr 0x4379bd8, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* ToXmlQualifiedName(::StringW value);
 
-  /// @brief Method UnknownAttribute, addr 0x431b85c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method UnknownAttribute, addr 0x437cb70, size 0x15c, virtual false, abstract: false, final false
   inline void UnknownAttribute(::System::Object* o, ::System::Xml::XmlAttribute* attr, ::StringW qnames);
 
-  /// @brief Method UnknownElement, addr 0x431b9b8, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method UnknownElement, addr 0x437cccc, size 0x15c, virtual false, abstract: false, final false
   inline void UnknownElement(::System::Object* o, ::System::Xml::XmlElement* elem, ::StringW qnames);
 
-  /// @brief Method UnknownNode, addr 0x4318c50, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UnknownNode, addr 0x4379f64, size 0x34, virtual false, abstract: false, final false
   inline void UnknownNode(::System::Object* o);
 
-  /// @brief Method UnknownNode, addr 0x431bb14, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UnknownNode, addr 0x437ce28, size 0x38, virtual false, abstract: false, final false
   inline void UnknownNode(::System::Object* o, ::StringW qnames);
 
-  /// @brief Method UnreferencedObject, addr 0x431ae34, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UnreferencedObject, addr 0x437c148, size 0x94, virtual false, abstract: false, final false
   inline void UnreferencedObject(::StringW id, ::System::Object* o);
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_arrayQName();
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_arrayQName() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_arrayQName() const;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_arrayQName();
 
   constexpr ::StringW const& __cordl_internal_get_arrayType() const;
 
   constexpr ::StringW& __cordl_internal_get_arrayType();
 
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_collFixups() const;
+
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_collFixups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_collFixups() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_collItemFixups() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_collItemFixups();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_collItemFixups() const;
 
   constexpr int32_t const& __cordl_internal_get_delayedFixupId() const;
 
   constexpr int32_t& __cordl_internal_get_delayedFixupId();
 
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_delayedListFixups() const;
+
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_delayedListFixups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_delayedListFixups() const;
+  constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get_document() const;
 
   constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_document();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get_document() const;
+  constexpr ::System::Xml::Serialization::XmlSerializer* const& __cordl_internal_get_eventSource() const;
 
   constexpr ::System::Xml::Serialization::XmlSerializer*& __cordl_internal_get_eventSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlSerializer*> const& __cordl_internal_get_eventSource() const;
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_fixups() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_fixups();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_fixups() const;
 
   constexpr ::StringW const& __cordl_internal_get_nil() const;
 
   constexpr ::StringW& __cordl_internal_get_nil();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_noIDTargets();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_noIDTargets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_noIDTargets() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_noIDTargets();
 
   constexpr ::StringW const& __cordl_internal_get_nullX() const;
 
@@ -782,29 +775,29 @@ public:
 
   constexpr int32_t& __cordl_internal_get_readCount();
 
+  constexpr ::System::Xml::XmlReader* const& __cordl_internal_get_reader() const;
+
   constexpr ::System::Xml::XmlReader*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_reader() const;
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_referencedObjects() const;
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_referencedObjects();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_referencedObjects() const;
 
   constexpr ::StringW const& __cordl_internal_get_soapNS() const;
 
   constexpr ::StringW& __cordl_internal_get_soapNS();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_targets();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_targets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_targets() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_targets();
 
   constexpr ::StringW const& __cordl_internal_get_typeX() const;
 
   constexpr ::StringW& __cordl_internal_get_typeX();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_typesCallbacks();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_typesCallbacks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_typesCallbacks() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_typesCallbacks();
 
   constexpr ::StringW const& __cordl_internal_get_w3InstanceNS() const;
 
@@ -880,13 +873,13 @@ public:
 
   constexpr void __cordl_internal_set_wsdlNS(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43179b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4378cc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Document, addr 0x43179b8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x4378ccc, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlDocument* get_Document();
 
-  /// @brief Method get_Reader, addr 0x4317a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reader, addr 0x4378d58, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlReader* get_Reader();
 
 protected:
@@ -902,6 +895,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSerializationReader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSerializationReader(XmlSerializationReader const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7436 };
 
   /// @brief Field document, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ___document;
@@ -978,14 +974,9 @@ public:
   /// @brief Field arrayQName, offset: 0xc8, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___arrayQName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7411 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader, 0xd0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader, ___document) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader, ___reader) == 0x18, "Offset mismatch!");
@@ -1036,14 +1027,16 @@ static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader, ___
 
 static_assert(offsetof(::System::Xml::Serialization::XmlSerializationReader, ___arrayQName) == 0xc8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlSerializationReader, 0xd0>, "Size mismatch!");
+
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader*, "System.Xml.Serialization", "XmlSerializationReader");
-NEED_NO_BOX(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::__XmlSerializationReader__CollectionFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionFixup");
-NEED_NO_BOX(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::__XmlSerializationReader__CollectionItemFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionItemFixup");
-NEED_NO_BOX(::System::Xml::Serialization::__XmlSerializationReader__Fixup);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::__XmlSerializationReader__Fixup*, "System.Xml.Serialization", "XmlSerializationReader/Fixup");
-NEED_NO_BOX(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::__XmlSerializationReader__WriteCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReader/WriteCallbackInfo");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader_CollectionFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionFixup");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader_CollectionItemFixup*, "System.Xml.Serialization", "XmlSerializationReader/CollectionItemFixup");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader_Fixup);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader_Fixup*, "System.Xml.Serialization", "XmlSerializationReader/Fixup");
+NEED_NO_BOX(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo);
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSerializationReader_WriteCallbackInfo*, "System.Xml.Serialization", "XmlSerializationReader/WriteCallbackInfo");

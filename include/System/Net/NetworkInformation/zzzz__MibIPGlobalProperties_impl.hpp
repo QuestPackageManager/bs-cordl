@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MibIPGlobalProperties::*)(::StringW)>(
     &::System::Net::NetworkInformation::MibIPGlobalProperties::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x438bc24;
+  constexpr static std::size_t addrs = 0x43ecf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,14 +98,14 @@ inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Net::NetworkInformation::M
   return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "wsChars",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MibIPGlobalProperties*>::get>();
 }
-inline ::System::Net::NetworkInformation::MibIPGlobalProperties* System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor(::StringW procDir) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::MibIPGlobalProperties*>(procDir));
-}
 inline void System::Net::NetworkInformation::MibIPGlobalProperties::_ctor(::StringW procDir) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MibIPGlobalProperties*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, procDir);
+}
+inline ::System::Net::NetworkInformation::MibIPGlobalProperties* System::Net::NetworkInformation::MibIPGlobalProperties::New_ctor(::StringW procDir) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::MibIPGlobalProperties*>(procDir));
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::MibIPGlobalProperties::MibIPGlobalProperties() {}

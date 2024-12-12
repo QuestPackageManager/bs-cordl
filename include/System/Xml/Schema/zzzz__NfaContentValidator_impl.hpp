@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*,
     int32_t, ::System::Xml::Schema::XmlSchemaContentType, bool, bool)>(&::System::Xml::Schema::NfaContentValidator::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x433cbc0;
+  constexpr static std::size_t addrs = 0x439ded4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::NfaContentValidator::InitValidation)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x433cc74;
+  constexpr static std::size_t addrs = 0x439df88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,10 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ByRef<int32_t>)>(
+    static_cast<::System::Object* (::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::XmlQualifiedName*, ::System::Xml::Schema::ValidationState*, ::ByRef<int32_t>)>(
         &::System::Xml::Schema::NfaContentValidator::ValidateElement)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x433cd30;
+  constexpr static std::size_t addrs = 0x439e044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::Schema::ValidationState*)>(
     &::System::Xml::Schema::NfaContentValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x433cee0;
+  constexpr static std::size_t addrs = 0x439e1f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (
     ::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool)>(&::System::Xml::Schema::NfaContentValidator::ExpectedElements)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x433cf28;
+  constexpr static std::size_t addrs = 0x439e23c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::ArrayList* (::System::Xml::Schema::NfaContentValidator::*)(::System::Xml::Schema::ValidationState*, bool, ::System::Xml::Schema::XmlSchemaSet*)>(
         &::System::Xml::Schema::NfaContentValidator::ExpectedParticles)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x433d10c;
+  constexpr static std::size_t addrs = 0x439e420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::NfaContentValidat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstpos;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_firstpos() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_firstpos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___firstpos;
 }
@@ -138,7 +138,7 @@ constexpr ::System::Xml::Schema::SymbolsDictionary*& System::Xml::Schema::NfaCon
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_symbols() const {
+constexpr ::System::Xml::Schema::SymbolsDictionary* const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_symbols() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___symbols;
 }
@@ -150,7 +150,7 @@ constexpr ::System::Xml::Schema::Positions*& System::Xml::Schema::NfaContentVali
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_positions() const {
+constexpr ::System::Xml::Schema::Positions* const& System::Xml::Schema::NfaContentValidator::__cordl_internal_get_positions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___positions;
 }
@@ -169,13 +169,6 @@ constexpr int32_t const& System::Xml::Schema::NfaContentValidator::__cordl_inter
 constexpr void System::Xml::Schema::NfaContentValidator::__cordl_internal_set_endMarkerPos(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endMarkerPos = value;
-}
-inline ::System::Xml::Schema::NfaContentValidator* System::Xml::Schema::NfaContentValidator::New_ctor(::System::Xml::Schema::BitSet* firstpos,
-                                                                                                      ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
-                                                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions,
-                                                                                                      int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,
-                                                                                                      bool isEmptiable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NfaContentValidator*>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isOpen, isEmptiable));
 }
 inline void System::Xml::Schema::NfaContentValidator::_ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                                                             ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
@@ -196,7 +189,7 @@ inline void System::Xml::Schema::NfaContentValidator::InitValidation(::System::X
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NfaContentValidator*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
 }
-inline ::System::Object* System::Xml::Schema::NfaContentValidator::ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode) {
+inline ::System::Object* System::Xml::Schema::NfaContentValidator::ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::ByRef<int32_t> errorCode) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NfaContentValidator*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name, context, errorCode);
@@ -216,6 +209,13 @@ inline ::System::Collections::ArrayList* System::Xml::Schema::NfaContentValidato
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NfaContentValidator*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ArrayList*, false>(this, ___internal_method, context, isRequiredOnly, schemaSet);
+}
+inline ::System::Xml::Schema::NfaContentValidator* System::Xml::Schema::NfaContentValidator::New_ctor(::System::Xml::Schema::BitSet* firstpos,
+                                                                                                      ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
+                                                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions,
+                                                                                                      int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,
+                                                                                                      bool isEmptiable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NfaContentValidator*>(firstpos, followpos, symbols, positions, endMarkerPos, contentType, isOpen, isEmptiable));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NfaContentValidator::NfaContentValidator() {}

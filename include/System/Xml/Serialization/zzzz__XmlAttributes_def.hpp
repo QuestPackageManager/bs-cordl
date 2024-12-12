@@ -57,11 +57,10 @@ class XmlAttributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlAttributes);
-// Type: System.Xml.Serialization::XmlAttributes
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlAttributes*
+// CS Name: System.Xml.Serialization.XmlAttributes
 class CORDL_TYPE XmlAttributes : public ::System::Object {
 public:
   // Declarations
@@ -137,64 +136,64 @@ public:
   /// @brief Field xmlns, offset 0x59, size 0x1
   __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns)) bool xmlns;
 
-  /// @brief Method AddKeyHash, addr 0x430cbc8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436dedc, size 0x270, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAttributes* New_ctor();
 
   static inline ::System::Xml::Serialization::XmlAttributes* New_ctor(::System::Reflection::ICustomAttributeProvider* provider);
 
+  constexpr ::System::Xml::Serialization::XmlAnyAttributeAttribute* const& __cordl_internal_get_xmlAnyAttribute() const;
+
   constexpr ::System::Xml::Serialization::XmlAnyAttributeAttribute*& __cordl_internal_get_xmlAnyAttribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlAnyAttributeAttribute*> const& __cordl_internal_get_xmlAnyAttribute() const;
+  constexpr ::System::Xml::Serialization::XmlAnyElementAttributes* const& __cordl_internal_get_xmlAnyElements() const;
 
   constexpr ::System::Xml::Serialization::XmlAnyElementAttributes*& __cordl_internal_get_xmlAnyElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlAnyElementAttributes*> const& __cordl_internal_get_xmlAnyElements() const;
+  constexpr ::System::Xml::Serialization::XmlArrayAttribute* const& __cordl_internal_get_xmlArray() const;
 
   constexpr ::System::Xml::Serialization::XmlArrayAttribute*& __cordl_internal_get_xmlArray();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlArrayAttribute*> const& __cordl_internal_get_xmlArray() const;
+  constexpr ::System::Xml::Serialization::XmlArrayItemAttributes* const& __cordl_internal_get_xmlArrayItems() const;
 
   constexpr ::System::Xml::Serialization::XmlArrayItemAttributes*& __cordl_internal_get_xmlArrayItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlArrayItemAttributes*> const& __cordl_internal_get_xmlArrayItems() const;
+  constexpr ::System::Xml::Serialization::XmlAttributeAttribute* const& __cordl_internal_get_xmlAttribute() const;
 
   constexpr ::System::Xml::Serialization::XmlAttributeAttribute*& __cordl_internal_get_xmlAttribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlAttributeAttribute*> const& __cordl_internal_get_xmlAttribute() const;
+  constexpr ::System::Xml::Serialization::XmlChoiceIdentifierAttribute* const& __cordl_internal_get_xmlChoiceIdentifier() const;
 
   constexpr ::System::Xml::Serialization::XmlChoiceIdentifierAttribute*& __cordl_internal_get_xmlChoiceIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlChoiceIdentifierAttribute*> const& __cordl_internal_get_xmlChoiceIdentifier() const;
+  constexpr ::System::Object* const& __cordl_internal_get_xmlDefaultValue() const;
 
   constexpr ::System::Object*& __cordl_internal_get_xmlDefaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_xmlDefaultValue() const;
+  constexpr ::System::Xml::Serialization::XmlElementAttributes* const& __cordl_internal_get_xmlElements() const;
 
   constexpr ::System::Xml::Serialization::XmlElementAttributes*& __cordl_internal_get_xmlElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlElementAttributes*> const& __cordl_internal_get_xmlElements() const;
+  constexpr ::System::Xml::Serialization::XmlEnumAttribute* const& __cordl_internal_get_xmlEnum() const;
 
   constexpr ::System::Xml::Serialization::XmlEnumAttribute*& __cordl_internal_get_xmlEnum();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlEnumAttribute*> const& __cordl_internal_get_xmlEnum() const;
 
   constexpr bool const& __cordl_internal_get_xmlIgnore() const;
 
   constexpr bool& __cordl_internal_get_xmlIgnore();
 
+  constexpr ::System::Xml::Serialization::XmlRootAttribute* const& __cordl_internal_get_xmlRoot() const;
+
   constexpr ::System::Xml::Serialization::XmlRootAttribute*& __cordl_internal_get_xmlRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlRootAttribute*> const& __cordl_internal_get_xmlRoot() const;
+  constexpr ::System::Xml::Serialization::XmlTextAttribute* const& __cordl_internal_get_xmlText() const;
 
   constexpr ::System::Xml::Serialization::XmlTextAttribute*& __cordl_internal_get_xmlText();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlTextAttribute*> const& __cordl_internal_get_xmlText() const;
+  constexpr ::System::Xml::Serialization::XmlTypeAttribute* const& __cordl_internal_get_xmlType() const;
 
   constexpr ::System::Xml::Serialization::XmlTypeAttribute*& __cordl_internal_get_xmlType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Serialization::XmlTypeAttribute*> const& __cordl_internal_get_xmlType() const;
 
   constexpr bool const& __cordl_internal_get_xmlns() const;
 
@@ -228,55 +227,55 @@ public:
 
   constexpr void __cordl_internal_set_xmlns(bool value);
 
-  /// @brief Method .ctor, addr 0x430ce38, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436e14c, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x430cf34, size 0x62c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x436e248, size 0x62c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ICustomAttributeProvider* provider);
 
-  /// @brief Method get_Order, addr 0x430e6b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x436f9c4, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_Order();
 
-  /// @brief Method get_SortableOrder, addr 0x430ea38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_SortableOrder, addr 0x436fd4c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_SortableOrder();
 
-  /// @brief Method get_XmlAnyAttribute, addr 0x430d618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAnyAttribute, addr 0x436e92c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAnyAttributeAttribute* get_XmlAnyAttribute();
 
-  /// @brief Method get_XmlAnyElements, addr 0x430d620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAnyElements, addr 0x436e934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAnyElementAttributes* get_XmlAnyElements();
 
-  /// @brief Method get_XmlArray, addr 0x430d628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlArray, addr 0x436e93c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayAttribute* get_XmlArray();
 
-  /// @brief Method get_XmlArrayItems, addr 0x430d630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlArrayItems, addr 0x436e944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlArrayItemAttributes* get_XmlArrayItems();
 
-  /// @brief Method get_XmlAttribute, addr 0x430d638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlAttribute, addr 0x436e94c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAttributeAttribute* get_XmlAttribute();
 
-  /// @brief Method get_XmlChoiceIdentifier, addr 0x430d640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlChoiceIdentifier, addr 0x436e954, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlChoiceIdentifierAttribute* get_XmlChoiceIdentifier();
 
-  /// @brief Method get_XmlDefaultValue, addr 0x430d648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlDefaultValue, addr 0x436e95c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_XmlDefaultValue();
 
-  /// @brief Method get_XmlElements, addr 0x430d650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlElements, addr 0x436e964, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlElementAttributes* get_XmlElements();
 
-  /// @brief Method get_XmlIgnore, addr 0x430d658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlIgnore, addr 0x436e96c, size 0x8, virtual false, abstract: false, final false
   inline bool get_XmlIgnore();
 
-  /// @brief Method get_XmlRoot, addr 0x430d668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlRoot, addr 0x436e97c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlRootAttribute* get_XmlRoot();
 
-  /// @brief Method get_XmlText, addr 0x430d670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlText, addr 0x436e984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTextAttribute* get_XmlText();
 
-  /// @brief Method get_XmlType, addr 0x430d678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x436e98c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlTypeAttribute* get_XmlType();
 
-  /// @brief Method get_Xmlns, addr 0x430d660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Xmlns, addr 0x436e974, size 0x8, virtual false, abstract: false, final false
   inline bool get_Xmlns();
 
 protected:
@@ -292,6 +291,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlAttributes", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAttributes(XmlAttributes const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7409 };
 
   /// @brief Field xmlAnyAttribute, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlAnyAttributeAttribute* ___xmlAnyAttribute;
@@ -335,14 +337,9 @@ public:
   /// @brief Field xmlType, offset: 0x70, size: 0x8, def value: None
   ::System::Xml::Serialization::XmlTypeAttribute* ___xmlType;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7384 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributes, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributes, ___xmlAnyAttribute) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributes, ___xmlAnyElements) == 0x18, "Offset mismatch!");
@@ -370,6 +367,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlAttributes, ___xmlRoot) 
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributes, ___xmlText) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlAttributes, ___xmlType) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlAttributes, 0x78>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlAttributes);

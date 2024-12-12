@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLeaderboardList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLeaderboardList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f1ab50;
+  constexpr static std::size_t addrs = 0x3f7abfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardList* (::Oculus::Platform::MessageWithLeaderboardList::*)()>(
     &::Oculus::Platform::MessageWithLeaderboardList::GetLeaderboardList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f1d958;
+  constexpr static std::size_t addrs = 0x3f7da04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardList* (::Oculus::Platform::MessageWithLeaderboardList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithLeaderboardList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f1d994;
+  constexpr static std::size_t addrs = 0x3f7da40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,9 +51,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::MessageWithLeaderboardList* Oculus::Platform::MessageWithLeaderboardList::New_ctor(::System::IntPtr c_message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLeaderboardList*>(c_message));
-}
 inline void Oculus::Platform::MessageWithLeaderboardList::_ctor(::System::IntPtr c_message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLeaderboardList*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -69,6 +66,9 @@ inline ::Oculus::Platform::Models::LeaderboardList* Oculus::Platform::MessageWit
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithLeaderboardList*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::LeaderboardList*, false>(this, ___internal_method, c_message);
+}
+inline ::Oculus::Platform::MessageWithLeaderboardList* Oculus::Platform::MessageWithLeaderboardList::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::MessageWithLeaderboardList*>(c_message));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::MessageWithLeaderboardList::MessageWithLeaderboardList() {}

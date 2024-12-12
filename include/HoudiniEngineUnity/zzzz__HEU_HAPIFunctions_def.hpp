@@ -11,11 +11,10 @@ class HEU_HAPIFunctions;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIFunctions);
-// Type: HoudiniEngineUnity::HEU_HAPIFunctions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HAPIFunctions*
+// CS Name: HoudiniEngineUnity.HEU_HAPIFunctions
 class CORDL_TYPE HEU_HAPIFunctions : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   HEU_HAPIFunctions(HEU_HAPIFunctions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

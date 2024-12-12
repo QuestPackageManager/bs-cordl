@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CountdownController)
 namespace GlobalNamespace {
@@ -25,11 +24,10 @@ class CountdownController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CountdownController);
-// Type: ::CountdownController
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CountdownController*
+// CS Name: CountdownController
 class CORDL_TYPE CountdownController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,31 +60,30 @@ public:
   /// @brief Field _timeProvider, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider)) ::GlobalNamespace::ITimeProvider* _timeProvider;
 
-  /// @brief Method Awake, addr 0x3ba62e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3c08c6c, size 0x18, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CountdownController* New_ctor();
 
-  /// @brief Method StartCountdown, addr 0x3ba6538, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method StartCountdown, addr 0x3c08ec4, size 0xf4, virtual false, abstract: false, final false
   inline void StartCountdown(int64_t countdownEndTime);
 
-  /// @brief Method StopCountdown, addr 0x3ba66b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StopCountdown, addr 0x3c09044, size 0x78, virtual false, abstract: false, final false
   inline void StopCountdown();
 
-  /// @brief Method Update, addr 0x3ba62f8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c08c84, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCountdown, addr 0x3ba6650, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateCountdown, addr 0x3c08fdc, size 0x68, virtual false, abstract: false, final false
   inline void UpdateCountdown(int64_t countdownEndTime);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
   constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*& __cordl_internal_get__countdownElementControllerQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* const& __cordl_internal_get__countdownElementControllerQueue() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
-  __cordl_internal_get__countdownElementControllerQueue() const;
+  constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*& __cordl_internal_get__countdownElementControllerQueue();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
   __cordl_internal_get__countdownElementControllers() const;
@@ -109,9 +106,9 @@ public:
 
   constexpr bool& __cordl_internal_get__gongSounded();
 
-  constexpr ::GlobalNamespace::ITimeProvider*& __cordl_internal_get__timeProvider();
+  constexpr ::GlobalNamespace::ITimeProvider* const& __cordl_internal_get__timeProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
+  constexpr ::GlobalNamespace::ITimeProvider*& __cordl_internal_get__timeProvider();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
@@ -130,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
 
-  /// @brief Method .ctor, addr 0x3ba6730, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c090bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,6 +143,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CountdownController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CountdownController(CountdownController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4826 };
+
+  /// @brief Field kGongTime offset 0xffffffff size 0x8
+  static constexpr int64_t kGongTime{ static_cast<int64_t>(0x1388) };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
@@ -171,17 +174,9 @@ public:
   /// @brief Field _countdownElementControllerQueue, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* ____countdownElementControllerQueue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4809 };
-
-  /// @brief Field kGongTime offset 0xffffffff size 0x8
-  static constexpr int64_t kGongTime{ static_cast<int64_t>(0x1388) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CountdownController, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::CountdownController, ____audioSource) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CountdownController, ____countdownElementControllers) == 0x28, "Offset mismatch!");
@@ -197,6 +192,8 @@ static_assert(offsetof(::GlobalNamespace::CountdownController, ____gongSounded) 
 static_assert(offsetof(::GlobalNamespace::CountdownController, ____countdownRunning) == 0x45, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CountdownController, ____countdownElementControllerQueue) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CountdownController, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CountdownController);

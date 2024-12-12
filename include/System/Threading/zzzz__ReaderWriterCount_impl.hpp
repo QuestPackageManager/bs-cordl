@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterCount::*)()>(&::System::Threading::ReaderWriterCount::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a4bb0;
+  constexpr static std::size_t addrs = 0x4105ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterCount*>::get(), ".ctor",
@@ -67,7 +67,7 @@ constexpr ::System::Threading::ReaderWriterCount*& System::Threading::ReaderWrit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterCount*> const& System::Threading::ReaderWriterCount::__cordl_internal_get_next() const {
+constexpr ::System::Threading::ReaderWriterCount* const& System::Threading::ReaderWriterCount::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -75,13 +75,13 @@ constexpr void System::Threading::ReaderWriterCount::__cordl_internal_set_next(:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Threading::ReaderWriterCount* System::Threading::ReaderWriterCount::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ReaderWriterCount*>());
-}
 inline void System::Threading::ReaderWriterCount::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterCount*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Threading::ReaderWriterCount* System::Threading::ReaderWriterCount::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ReaderWriterCount*>());
 }
 // Ctor Parameters []
 constexpr ::System::Threading::ReaderWriterCount::ReaderWriterCount() {}

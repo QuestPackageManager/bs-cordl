@@ -21,13 +21,12 @@ template <typename TDelegate> class FullExpression_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::FullExpression_1);
-// Type: System.Linq.Expressions::FullExpression`1
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.ExpressionN`1<TDelegate>
 namespace System::Linq::Expressions {
 // cpp template
 template <typename TDelegate>
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::FullExpression`1<TDelegate>*
+// CS Name: System.Linq.Expressions.FullExpression`1<TDelegate>
 class CORDL_TYPE FullExpression_1 : public ::System::Linq::Expressions::ExpressionN_1<TDelegate> {
 public:
   // Declarations
@@ -80,14 +79,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FullExpression_1(FullExpression_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13693 };
+
   /// @brief Field <NameCore>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____NameCore_k__BackingField;
 
   /// @brief Field <TailCallCore>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____TailCallCore_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

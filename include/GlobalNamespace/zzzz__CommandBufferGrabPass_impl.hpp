@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::CommandBufferGrabPass::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x401e478;
+  constexpr static std::size_t addrs = 0x407f78c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (::GlobalNamespace::CommandBufferGrabPass::*)()>(
         &::GlobalNamespace::CommandBufferGrabPass::CamerasDict)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x401e664;
+  constexpr static std::size_t addrs = 0x407f978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferGrabPass::*)()>(
     &::GlobalNamespace::CommandBufferGrabPass::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e6bc;
+  constexpr static std::size_t addrs = 0x407f9d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGrabPass::*)()>(&::GlobalNamespace::CommandBufferGrabPass::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x401e6c4;
+  constexpr static std::size_t addrs = 0x407f9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGrabPass*>::get(), ".ctor",
@@ -115,13 +115,13 @@ inline ::UnityEngine::Rendering::CameraEvent GlobalNamespace::CommandBufferGrabP
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGrabPass*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CameraEvent, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::CommandBufferGrabPass* GlobalNamespace::CommandBufferGrabPass::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CommandBufferGrabPass*>());
-}
 inline void GlobalNamespace::CommandBufferGrabPass::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGrabPass*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::CommandBufferGrabPass* GlobalNamespace::CommandBufferGrabPass::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CommandBufferGrabPass*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CommandBufferGrabPass::CommandBufferGrabPass() {}

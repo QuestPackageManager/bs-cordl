@@ -23,19 +23,18 @@ class BeatmapDataLoaderUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataLoaderUtils);
-// Type: ::BeatmapDataLoaderUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDataLoaderUtils*
+// CS Name: BeatmapDataLoaderUtils
 class CORDL_TYPE BeatmapDataLoaderUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEnvironmentKeywords, addr 0x268283c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentKeywords, addr 0x26b6dd0, size 0x14c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentKeywords* GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                                                                                ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion);
 
-  /// @brief Method GetEnvironmentLightGroups, addr 0x2682988, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentLightGroups, addr 0x26b6f1c, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IEnvironmentLightGroups* GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo* environmentInfo);
 
 protected:
@@ -53,7 +52,7 @@ public:
   BeatmapDataLoaderUtils(BeatmapDataLoaderUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12879 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,52 +3,46 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitiateUserAccountPairingCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __InitiateUserAccountPairingCommand__Result;
+struct InitiateUserAccountPairingCommand_Result;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
-struct __InitiateUserAccountPairingCommand__Result;
+struct InitiateUserAccountPairingCommand_Result;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InitiateUserAccountPairingCommand;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result);
+MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result);
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand);
-// Type: ::Result
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// CS Name: ::InitiateUserAccountPairingCommand::Result
-struct CORDL_TYPE __InitiateUserAccountPairingCommand__Result {
+// CS Name: UnityEngine.InputSystem.LowLevel.InitiateUserAccountPairingCommand/Result
+struct CORDL_TYPE InitiateUserAccountPairingCommand_Result {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InitiateUserAccountPairingCommand__Result_Unwrapped
-  enum struct ____InitiateUserAccountPairingCommand__Result_Unwrapped : int32_t {
+  /// @brief Nested struct __InitiateUserAccountPairingCommand_Result_Unwrapped
+  enum struct __InitiateUserAccountPairingCommand_Result_Unwrapped : int32_t {
     __E_SuccessfullyInitiated = static_cast<int32_t>(0x1),
     __E_ErrorNotSupported = static_cast<int32_t>(0xffffffff),
     __E_ErrorAlreadyInProgress = static_cast<int32_t>(0xfffffffe),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InitiateUserAccountPairingCommand__Result_Unwrapped() const noexcept {
-    return static_cast<____InitiateUserAccountPairingCommand__Result_Unwrapped>(this->value__);
+  constexpr operator __InitiateUserAccountPairingCommand_Result_Unwrapped() const noexcept {
+    return static_cast<__InitiateUserAccountPairingCommand_Result_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -58,47 +52,46 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InitiateUserAccountPairingCommand__Result();
+  constexpr InitiateUserAccountPairingCommand_Result();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InitiateUserAccountPairingCommand__Result(int32_t value__) noexcept;
+  constexpr InitiateUserAccountPairingCommand_Result(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ErrorAlreadyInProgress value: I32(-2)
+  static ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result const ErrorAlreadyInProgress;
 
-  /// @brief Field ErrorAlreadyInProgress value: static_cast<int32_t>(0xfffffffe)
-  static ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result const ErrorAlreadyInProgress;
+  /// @brief Field ErrorNotSupported value: I32(-1)
+  static ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result const ErrorNotSupported;
 
-  /// @brief Field ErrorNotSupported value: static_cast<int32_t>(0xffffffff)
-  static ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result const ErrorNotSupported;
-
-  /// @brief Field SuccessfullyInitiated value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result const SuccessfullyInitiated;
+  /// @brief Field SuccessfullyInitiated value: I32(1)
+  static ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result const SuccessfullyInitiated;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6872 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Type: UnityEngine.InputSystem.LowLevel::InitiateUserAccountPairingCommand
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.InputDeviceCommand
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.LowLevel::InitiateUserAccountPairingCommand
+// CS Name: UnityEngine.InputSystem.LowLevel.InitiateUserAccountPairingCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE InitiateUserAccountPairingCommand {
 public:
   // Declarations
-  using Result = ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result;
+  using Result = ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
   __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand)) ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
@@ -108,7 +101,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x45a4dcc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x46060e0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -117,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type, addr 0x45a4d6c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x4606080, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x45a4d9c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x46060b0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -154,7 +147,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6873 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -169,5 +162,5 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result, "UnityEngine.InputSystem.LowLevel", "InitiateUserAccountPairingCommand/Result");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand_Result, "UnityEngine.InputSystem.LowLevel", "InitiateUserAccountPairingCommand/Result");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand, "UnityEngine.InputSystem.LowLevel", "InitiateUserAccountPairingCommand");

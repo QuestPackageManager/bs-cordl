@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(
     &::GlobalNamespace::MissionClearedEnvironmentEffect::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b30ef0;
+  constexpr static std::size_t addrs = 0x3b92424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionClearedEnvironmentEffect*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(
     &::GlobalNamespace::MissionClearedEnvironmentEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b30f80;
+  constexpr static std::size_t addrs = 0x3b924b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionClearedEnvironmentEffect*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(
     &::GlobalNamespace::MissionClearedEnvironmentEffect::HandleMissionObjectiveCheckersManagerObjectiveWasCleared)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b31010;
+  constexpr static std::size_t addrs = 0x3b92544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionClearedEnvironmentEffect::*)()>(
     &::GlobalNamespace::MissionClearedEnvironmentEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b31088;
+  constexpr static std::size_t addrs = 0x3b925bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionClearedEnvironmentEffect*>::get(),
@@ -77,8 +77,7 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::Missi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const&
-GlobalNamespace::MissionClearedEnvironmentEffect::__cordl_internal_get__beatmapCallbacksController() const {
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::MissionClearedEnvironmentEffect::__cordl_internal_get__beatmapCallbacksController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCallbacksController;
 }
@@ -102,13 +101,13 @@ inline void GlobalNamespace::MissionClearedEnvironmentEffect::HandleMissionObjec
                                                "HandleMissionObjectiveCheckersManagerObjectiveWasCleared", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionClearedEnvironmentEffect* GlobalNamespace::MissionClearedEnvironmentEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionClearedEnvironmentEffect*>());
-}
 inline void GlobalNamespace::MissionClearedEnvironmentEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionClearedEnvironmentEffect*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionClearedEnvironmentEffect* GlobalNamespace::MissionClearedEnvironmentEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionClearedEnvironmentEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionClearedEnvironmentEffect::MissionClearedEnvironmentEffect() {}

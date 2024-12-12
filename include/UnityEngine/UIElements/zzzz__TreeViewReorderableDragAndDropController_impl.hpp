@@ -15,99 +15,99 @@
 #include "UnityEngine/UIElements/zzzz__StartDragArgs_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewReorderableDragAndDropController_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::*)()>(
-    &::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::*)()>(
+    &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x49ba624;
+  constexpr static std::size_t addrs = 0x4a1ef34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandedIdsBeforeDrag() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandedIdsBeforeDrag() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandedIdsBeforeDrag;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandedIdsBeforeDrag() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandedIdsBeforeDrag() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandedIdsBeforeDrag;
 }
-constexpr void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_set_expandedIdsBeforeDrag(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_set_expandedIdsBeforeDrag(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___expandedIdsBeforeDrag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_draggedIds() {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_draggedIds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___draggedIds;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_draggedIds() const {
+constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_draggedIds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___draggedIds;
 }
-constexpr void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_set_draggedIds(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_set_draggedIds(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___draggedIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_lastItemId() {
+constexpr int32_t& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_lastItemId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastItemId;
 }
-constexpr int32_t const& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_lastItemId() const {
+constexpr int32_t const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_lastItemId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastItemId;
 }
-constexpr void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_set_lastItemId(int32_t value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_set_lastItemId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastItemId = value;
 }
-constexpr float_t& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandItemBeginTimerMs() {
+constexpr float_t& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandItemBeginTimerMs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandItemBeginTimerMs;
 }
-constexpr float_t const& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandItemBeginTimerMs() const {
+constexpr float_t const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandItemBeginTimerMs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandItemBeginTimerMs;
 }
-constexpr void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_set_expandItemBeginTimerMs(float_t value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_set_expandItemBeginTimerMs(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expandItemBeginTimerMs = value;
 }
-constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandItemBeginPosition() {
+constexpr ::UnityEngine::Vector2& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandItemBeginPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandItemBeginPosition;
 }
-constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_get_expandItemBeginPosition() const {
+constexpr ::UnityEngine::Vector2 const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_get_expandItemBeginPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expandItemBeginPosition;
 }
-constexpr void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__cordl_internal_set_expandItemBeginPosition(::UnityEngine::Vector2 value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::__cordl_internal_set_expandItemBeginPosition(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___expandItemBeginPosition = value;
 }
-inline ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*>());
-}
-inline void UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::_ctor() {
+inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData::__TreeViewReorderableDragAndDropController__DropData() {}
+constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData::TreeViewReorderableDragAndDropController_DropData() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::BaseTreeView*)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x49b8c58;
+  constexpr static std::size_t addrs = 0x4a1d568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::CompareId)> {
   constexpr static std::size_t size = 0x644;
-  constexpr static std::size_t addrs = 0x49b8d1c;
+  constexpr static std::size_t addrs = 0x4a1d62c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StartDragArgs (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::System::Collections::Generic::IEnumerable_1<int32_t>*, bool)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::SetupDragAndDrop)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49b9360;
+  constexpr static std::size_t addrs = 0x4a1dc70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleDragAndDrop)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x49b9404;
+  constexpr static std::size_t addrs = 0x4a1dd14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::IListDragAndDropArgs*)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::OnDrop)> {
   constexpr static std::size_t size = 0x7ac;
-  constexpr static std::size_t addrs = 0x49b94ec;
+  constexpr static std::size_t addrs = 0x4a1ddfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DragCleanup)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x49b9c98;
+  constexpr static std::size_t addrs = 0x4a1e5a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::System::Collections::Generic::List_1<int32_t>*)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::RestoreExpanded)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x49b9dd8;
+  constexpr static std::size_t addrs = 0x4a1e6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::HandleAutoExpand)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x49ba134;
+  constexpr static std::size_t addrs = 0x4a1ea44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::DelayExpandDropItem)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x49ba268;
+  constexpr static std::size_t addrs = 0x4a1eb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::*)()>(
     &::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::ExpandDropItem)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x49ba480;
+  constexpr static std::size_t addrs = 0x4a1ed90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -258,17 +258,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_DropData() {
+constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData*& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_DropData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DropData;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData*> const&
+constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* const&
 UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_DropData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DropData;
 }
-constexpr void
-UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_set_m_DropData(::UnityEngine::UIElements::__TreeViewReorderableDragAndDropController__DropData* value) {
+constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_set_m_DropData(::UnityEngine::UIElements::TreeViewReorderableDragAndDropController_DropData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DropData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -276,8 +275,7 @@ constexpr ::UnityEngine::UIElements::BaseTreeView*& UnityEngine::UIElements::Tre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeView;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseTreeView*> const&
-UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_TreeView() const {
+constexpr ::UnityEngine::UIElements::BaseTreeView* const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_TreeView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TreeView;
 }
@@ -289,8 +287,7 @@ constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpandDropItemScheduledItem;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const&
-UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_ExpandDropItemScheduledItem() const {
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_ExpandDropItemScheduledItem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpandDropItemScheduledItem;
 }
@@ -302,16 +299,13 @@ constexpr ::System::Action*& UnityEngine::UIElements::TreeViewReorderableDragAnd
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpandDropItemCallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_ExpandDropItemCallback() const {
+constexpr ::System::Action* const& UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_get_m_ExpandDropItemCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ExpandDropItemCallback;
 }
 constexpr void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::__cordl_internal_set_m_ExpandDropItemCallback(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ExpandDropItemCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController* UnityEngine::UIElements::TreeViewReorderableDragAndDropController::New_ctor(::UnityEngine::UIElements::BaseTreeView* view) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(view));
 }
 inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::_ctor(::UnityEngine::UIElements::BaseTreeView* view) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,7 +319,6 @@ inline int32_t UnityEngine::UIElements::TreeViewReorderableDragAndDropController
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, id1, id2);
 }
-/// @param skipText: bool (default: false)
 inline ::UnityEngine::UIElements::StartDragArgs UnityEngine::UIElements::TreeViewReorderableDragAndDropController::SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds,
                                                                                                                                     bool skipText) {
   auto* ___internal_method =
@@ -374,6 +367,9 @@ inline void UnityEngine::UIElements::TreeViewReorderableDragAndDropController::E
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>::get(), "ExpandDropItem",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController* UnityEngine::UIElements::TreeViewReorderableDragAndDropController::New_ctor(::UnityEngine::UIElements::BaseTreeView* view) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TreeViewReorderableDragAndDropController*>(view));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TreeViewReorderableDragAndDropController::TreeViewReorderableDragAndDropController() {}

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22d5580;
+  constexpr static std::size_t addrs = 0x230886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22d55ac;
+  constexpr static std::size_t addrs = 0x2308898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22d5658;
+  constexpr static std::size_t addrs = 0x2308944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22d5670;
+  constexpr static std::size_t addrs = 0x230895c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::get_InfoFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d5714;
+  constexpr static std::size_t addrs = 0x2308a00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::get_Info)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d571c;
+  constexpr static std::size_t addrs = 0x2308a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22d5724;
+  constexpr static std::size_t addrs = 0x2308a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,8 +122,7 @@ constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevInfoFormat;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const&
-Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::__cordl_internal_get_otherRevInfoFormat() const {
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::__cordl_internal_get_otherRevInfoFormat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevInfoFormat;
 }
@@ -135,7 +134,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& Org::BouncyCastle::Asn1::Cm
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevInfo;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::__cordl_internal_get_otherRevInfo() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::__cordl_internal_get_otherRevInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___otherRevInfo;
 }
@@ -143,19 +142,12 @@ constexpr void Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___otherRevInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat,
-                                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>(otherRevInfoFormat, otherRevInfo));
-}
 inline void Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Encodable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherRevInfoFormat, otherRevInfo);
-}
-inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,6 +186,13 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cms::Othe
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat,
+                                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>(otherRevInfoFormat, otherRevInfo));
+}
+inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::OtherRevocationInfoFormat() {}

@@ -30,11 +30,10 @@ class DrawParams;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::DrawParams);
-// Type: UnityEngine.UIElements.UIR::DrawParams
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Rect
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::DrawParams*
+// CS Name: UnityEngine.UIElements.UIR.DrawParams
 class CORDL_TYPE DrawParams : public ::System::Object {
 public:
   // Declarations
@@ -43,10 +42,10 @@ public:
                       put = __cordl_internal_set_defaultMaterial)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* defaultMaterial;
 
   /// @brief Field k_FullNormalizedRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_FullNormalizedRect, put = setStaticF_k_FullNormalizedRect)) ::UnityEngine::Rect k_FullNormalizedRect;
+  __declspec(property(get = getStaticF_k_FullNormalizedRect, put = setStaticF_k_FullNormalizedRect)) ::UnityEngine::Rect k_FullNormalizedRect;
 
   /// @brief Field k_UnlimitedRect, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_k_UnlimitedRect, put = setStaticF_k_UnlimitedRect)) ::UnityEngine::Rect k_UnlimitedRect;
+  __declspec(property(get = getStaticF_k_UnlimitedRect, put = setStaticF_k_UnlimitedRect)) ::UnityEngine::Rect k_UnlimitedRect;
 
   /// @brief Field renderTexture, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_renderTexture,
@@ -60,24 +59,24 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x4952ea4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x49b77b4, size 0x1c8, virtual false, abstract: false, final false
   inline void Reset();
+
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get_defaultMaterial() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_defaultMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_defaultMaterial() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>* const& __cordl_internal_get_renderTexture() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_renderTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_renderTexture() const;
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Rect>* const& __cordl_internal_get_scissor() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Rect>*& __cordl_internal_get_scissor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::Rect>*> const& __cordl_internal_get_scissor() const;
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* const& __cordl_internal_get_view() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>*& __cordl_internal_get_view();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_view() const;
 
   constexpr void __cordl_internal_set_defaultMaterial(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* value);
 
@@ -87,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x494ec6c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49b357c, size 0x164, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
@@ -112,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DrawParams(DrawParams const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6429 };
+
   /// @brief Field view, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* ___view;
 
@@ -124,14 +126,9 @@ public:
   /// @brief Field defaultMaterial, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* ___defaultMaterial;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::DrawParams, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___view) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___scissor) == 0x18, "Offset mismatch!");
@@ -139,6 +136,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___scissor) =
 static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___renderTexture) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::DrawParams, ___defaultMaterial) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::DrawParams, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::DrawParams);

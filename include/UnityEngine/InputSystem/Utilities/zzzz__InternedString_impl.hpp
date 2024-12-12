@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/InternedString.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::InternedString.get_length
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::InternedString::*)()>(
     &::UnityEngine::InputSystem::Utilities::InternedString::get_length)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4505e5c;
+  constexpr static std::size_t addrs = 0x4567170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::InternedString>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::InternedString::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44fdaf4;
+  constexpr static std::size_t addrs = 0x455ee08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::InternedString::*)()>(
     &::UnityEngine::InputSystem::Utilities::InternedString::IsEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4505e74;
+  constexpr static std::size_t addrs = 0x4567188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::InternedString>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::InternedString::*)()>(
     &::UnityEngine::InputSystem::Utilities::InternedString::ToLower)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4505e84;
+  constexpr static std::size_t addrs = 0x4567198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::InternedString>::get(),
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::InternedString::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::Equals)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4505e8c;
+  constexpr static std::size_t addrs = 0x45671a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::InternedString::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4505fa0;
+  constexpr static std::size_t addrs = 0x45672b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::InternedString::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::CompareTo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4505fb0;
+  constexpr static std::size_t addrs = 0x45672c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::InternedString::*)()>(
     &::UnityEngine::InputSystem::Utilities::InternedString::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4505fc4;
+  constexpr static std::size_t addrs = 0x45672d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::InternedString::*)()>(
     &::UnityEngine::InputSystem::Utilities::InternedString::ToString)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x44fccc8;
+  constexpr static std::size_t addrs = 0x455dfdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44fcb78;
+  constexpr static std::size_t addrs = 0x455de8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44fd80c;
+  constexpr static std::size_t addrs = 0x455eb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::InternedString, ::StringW)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::op_Equality)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4505fdc;
+  constexpr static std::size_t addrs = 0x45672f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::InternedString, ::StringW)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::op_Inequality)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4506074;
+  constexpr static std::size_t addrs = 0x4567388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::op_Equality)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x450610c;
+  constexpr static std::size_t addrs = 0x4567420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::op_Inequality)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x45061a0;
+  constexpr static std::size_t addrs = 0x45674b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::op_LessThan)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4506234;
+  constexpr static std::size_t addrs = 0x4567548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::Utilities::InternedString::op_GreaterThan)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4506258;
+  constexpr static std::size_t addrs = 0x456756c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::InternedString::op_Implicit___StringW)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x44fdeb4;
+  constexpr static std::size_t addrs = 0x455f1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -282,24 +282,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
-constexpr UnityEngine::InputSystem::Utilities::InternedString::operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*
-UnityEngine::InputSystem::Utilities::InternedString::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__InternedString_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
-constexpr UnityEngine::InputSystem::Utilities::InternedString::operator ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*() {
-  return static_cast<::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
-constexpr ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*
-UnityEngine::InputSystem::Utilities::InternedString::i___System__IComparable_1___UnityEngine__InputSystem__Utilities__InternedString_() {
-  return static_cast<::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline int32_t UnityEngine::InputSystem::Utilities::InternedString::get_length() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::InternedString>::get(),
                                                                              "get_length", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -411,8 +393,26 @@ inline ::StringW UnityEngine::InputSystem::Utilities::InternedString::op_Implici
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Utilities::InternedString>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, str);
 }
-// Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "",
-// def_value: Some("nullptr") }]
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+constexpr UnityEngine::InputSystem::Utilities::InternedString::operator ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*
+UnityEngine::InputSystem::Utilities::InternedString::i___System__IEquatable_1___UnityEngine__InputSystem__Utilities__InternedString_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+constexpr UnityEngine::InputSystem::Utilities::InternedString::operator ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*() {
+  return static_cast<::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
+constexpr ::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*
+UnityEngine::InputSystem::Utilities::InternedString::i___System__IComparable_1___UnityEngine__InputSystem__Utilities__InternedString_() {
+  return static_cast<::System::IComparable_1<::UnityEngine::InputSystem::Utilities::InternedString>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_StringOriginalCase", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StringLowerCase", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Utilities::InternedString::InternedString(::StringW m_StringOriginalCase, ::StringW m_StringLowerCase) noexcept {
   this->m_StringOriginalCase = m_StringOriginalCase;
   this->m_StringLowerCase = m_StringLowerCase;

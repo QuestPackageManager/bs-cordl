@@ -14,9 +14,6 @@ class SegmentedControlCell;
 namespace HMUI {
 class TextSegmentedControlCell;
 }
-namespace HMUI {
-class __SegmentedControl__IDataSource;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
@@ -29,11 +26,10 @@ class TextSegmentedControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::TextSegmentedControl);
-// Type: HMUI::TextSegmentedControl
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.SegmentedControl, HMUI.SegmentedControl::IDataSource
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::TextSegmentedControl*
+// CS Name: HMUI.TextSegmentedControl
 class CORDL_TYPE TextSegmentedControl : public ::HMUI::SegmentedControl {
 public:
   // Declarations
@@ -73,23 +69,23 @@ public:
   /// @brief Field _texts, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* _texts;
 
-  /// @brief Convert operator to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr operator ::HMUI::__SegmentedControl__IDataSource*() noexcept;
+  /// @brief Convert operator to "::HMUI::SegmentedControl_IDataSource"
+  constexpr operator ::HMUI::SegmentedControl_IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x40286ac, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x40899c0, size 0x308, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
   static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x4028600, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x4089914, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetTexts, addr 0x40285e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x40898fc, size 0x18, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts, ::System::Collections::Generic::HashSet_1<int32_t>* disabledIndexes);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__disabledIndexes();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__disabledIndexes() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get__disabledIndexes() const;
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__disabledIndexes();
 
   constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
 
@@ -131,9 +127,9 @@ public:
 
   constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__texts();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& __cordl_internal_get__texts() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __cordl_internal_get__texts() const;
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__texts();
 
   constexpr void __cordl_internal_set__disabledIndexes(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -159,11 +155,11 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x4028a3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4089d50, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::HMUI::__SegmentedControl__IDataSource"
-  constexpr ::HMUI::__SegmentedControl__IDataSource* i___HMUI____SegmentedControl__IDataSource() noexcept;
+  /// @brief Convert to "::HMUI::SegmentedControl_IDataSource"
+  constexpr ::HMUI::SegmentedControl_IDataSource* i___HMUI__SegmentedControl_IDataSource() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -178,6 +174,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextSegmentedControl(TextSegmentedControl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18794 };
 
   /// @brief Field _fontSize, offset: 0x80, size: 0x4, def value: None
   float_t ____fontSize;
@@ -215,14 +214,9 @@ public:
   /// @brief Field _disabledIndexes, offset: 0xc0, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ____disabledIndexes;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18713 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControl, 0xc8>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____fontSize) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____overrideCellSize) == 0x84, "Offset mismatch!");
@@ -246,6 +240,8 @@ static_assert(offsetof(::HMUI::TextSegmentedControl, ____middleCellPrefab) == 0x
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____texts) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____disabledIndexes) == 0xc0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControl, 0xc8>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::TextSegmentedControl);

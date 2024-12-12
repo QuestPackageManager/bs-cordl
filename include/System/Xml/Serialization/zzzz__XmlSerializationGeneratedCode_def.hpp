@@ -11,17 +11,16 @@ class XmlSerializationGeneratedCode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationGeneratedCode);
-// Type: System.Xml.Serialization::XmlSerializationGeneratedCode
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializationGeneratedCode*
+// CS Name: System.Xml.Serialization.XmlSerializationGeneratedCode
 class CORDL_TYPE XmlSerializationGeneratedCode : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlSerializationGeneratedCode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4317530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4378844, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   XmlSerializationGeneratedCode(XmlSerializationGeneratedCode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7430 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

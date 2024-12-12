@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::LeafRangeNode::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x433a360;
+  constexpr static std::size_t addrs = 0x439b674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(int32_t, ::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::LeafRangeNode::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x433a3a8;
+  constexpr static std::size_t addrs = 0x439b6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x433a3f8;
+  constexpr static std::size_t addrs = 0x439b70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), "get_Max",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x433a404;
+  constexpr static std::size_t addrs = 0x439b718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), "get_Min",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::BitSet* (::System::Xml::Schema::LeafRangeNode::*)()>(
     &::System::Xml::Schema::LeafRangeNode::get_NextIteration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433a410;
+  constexpr static std::size_t addrs = 0x439b724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::LeafRangeNode::set_NextIteration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433a418;
+  constexpr static std::size_t addrs = 0x439b72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_IsRangeNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x433a420;
+  constexpr static std::size_t addrs = 0x439b734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::LeafRangeNode::ExpandTree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x433a428;
+  constexpr static std::size_t addrs = 0x439b73c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,7 +152,7 @@ constexpr ::System::Xml::Schema::BitSet*& System::Xml::Schema::LeafRangeNode::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextIteration;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_nextIteration() const {
+constexpr ::System::Xml::Schema::BitSet* const& System::Xml::Schema::LeafRangeNode::__cordl_internal_get_nextIteration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___nextIteration;
 }
@@ -160,18 +160,12 @@ constexpr void System::Xml::Schema::LeafRangeNode::__cordl_internal_set_nextIter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextIteration)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(::System::Decimal min, ::System::Decimal max) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LeafRangeNode*>(min, max));
-}
 inline void System::Xml::Schema::LeafRangeNode::_ctor(::System::Decimal min, ::System::Decimal max) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Decimal>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, min, max);
-}
-inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(int32_t pos, ::System::Decimal min, ::System::Decimal max) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LeafRangeNode*>(pos, min, max));
 }
 inline void System::Xml::Schema::LeafRangeNode::_ctor(int32_t pos, ::System::Decimal min, ::System::Decimal max) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,6 +205,12 @@ inline void System::Xml::Schema::LeafRangeNode::ExpandTree(::System::Xml::Schema
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parent, symbols, positions);
+}
+inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(::System::Decimal min, ::System::Decimal max) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LeafRangeNode*>(min, max));
+}
+inline ::System::Xml::Schema::LeafRangeNode* System::Xml::Schema::LeafRangeNode::New_ctor(int32_t pos, ::System::Decimal min, ::System::Decimal max) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::LeafRangeNode*>(pos, min, max));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::LeafRangeNode::LeafRangeNode() {}

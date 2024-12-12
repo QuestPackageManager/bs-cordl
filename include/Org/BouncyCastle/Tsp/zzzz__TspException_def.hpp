@@ -15,11 +15,10 @@ class TspException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspException);
-// Type: Org.BouncyCastle.Tsp::TspException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Tsp::TspException*
+// CS Name: Org.BouncyCastle.Tsp.TspException
 class CORDL_TYPE TspException : public ::System::Exception {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2599458, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cc744, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2598dc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cc0ac, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2595c98, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c8f84, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

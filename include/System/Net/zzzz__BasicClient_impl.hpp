@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Net/BasicClient.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__BasicClient_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 //  Writing Method size for method: ::System::Net::BasicClient.Authenticate
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::System::Net::BasicClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::BasicClient::Authenticate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x445908c;
+  constexpr static std::size_t addrs = 0x44ba3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(&::System::Net::BasicClient::GetBytes)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4459438;
+  constexpr static std::size_t addrs = 0x44ba74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::BasicClient::InternalAuthenticate)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x4459138;
+  constexpr static std::size_t addrs = 0x44ba44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::System::Net::BasicClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::BasicClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44594d4;
+  constexpr static std::size_t addrs = 0x44ba7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::BasicClient::*)()>(&::System::Net::BasicClient::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44594e0;
+  constexpr static std::size_t addrs = 0x44ba7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BasicClient*>::get(), "get_AuthenticationType",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BasicClient::*)()>(&::System::Net::BasicClient::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44584f0;
+  constexpr static std::size_t addrs = 0x44b9804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BasicClient*>::get(), ".ctor",
@@ -95,14 +95,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Net::IAuthenticationModule"
-constexpr System::Net::BasicClient::operator ::System::Net::IAuthenticationModule*() noexcept {
-  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Net::IAuthenticationModule"
-constexpr ::System::Net::IAuthenticationModule* System::Net::BasicClient::i___System__Net__IAuthenticationModule() noexcept {
-  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
-}
 inline ::System::Net::Authorization* System::Net::BasicClient::Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BasicClient*>::get(), "Authenticate", std::span<Il2CppClass const* const, 0>(),
@@ -136,13 +128,21 @@ inline ::StringW System::Net::BasicClient::get_AuthenticationType() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Net::BasicClient* System::Net::BasicClient::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BasicClient*>());
-}
 inline void System::Net::BasicClient::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::BasicClient*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::BasicClient* System::Net::BasicClient::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::BasicClient*>());
+}
+/// @brief Convert operator to "::System::Net::IAuthenticationModule"
+constexpr System::Net::BasicClient::operator ::System::Net::IAuthenticationModule*() noexcept {
+  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Net::IAuthenticationModule"
+constexpr ::System::Net::IAuthenticationModule* System::Net::BasicClient::i___System__Net__IAuthenticationModule() noexcept {
+  return static_cast<::System::Net::IAuthenticationModule*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Net::BasicClient::BasicClient() {}

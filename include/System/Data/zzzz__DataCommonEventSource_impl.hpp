@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataCommonEventSource::*)(::StringW)>(&::System::Data::DataCommonEventSource::Trace)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40f3478;
+  constexpr static std::size_t addrs = 0x415478c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::DataCommonEventSource::*)(::StringW)>(&::System::Data::DataCommonEventSource::EnterScope)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40f3488;
+  constexpr static std::size_t addrs = 0x415479c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataCommonEventSource::*)(int64_t)>(&::System::Data::DataCommonEventSource::ExitScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40f354c;
+  constexpr static std::size_t addrs = 0x4154860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataCommonEventSource::*)()>(&::System::Data::DataCommonEventSource::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f355c;
+  constexpr static std::size_t addrs = 0x4154870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataCommonEventSource*>::get(), ".ctor",
@@ -214,13 +214,13 @@ inline void System::Data::DataCommonEventSource::ExitScope(int64_t scopeId) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scopeId);
 }
-inline ::System::Data::DataCommonEventSource* System::Data::DataCommonEventSource::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataCommonEventSource*>());
-}
 inline void System::Data::DataCommonEventSource::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataCommonEventSource*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Data::DataCommonEventSource* System::Data::DataCommonEventSource::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataCommonEventSource*>());
 }
 // Ctor Parameters []
 constexpr ::System::Data::DataCommonEventSource::DataCommonEventSource() {}

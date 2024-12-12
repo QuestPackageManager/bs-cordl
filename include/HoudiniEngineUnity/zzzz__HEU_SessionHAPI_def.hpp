@@ -11,17 +11,16 @@ class HEU_SessionHAPI;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionHAPI);
-// Type: HoudiniEngineUnity::HEU_SessionHAPI
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_SessionBase
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_SessionHAPI*
+// CS Name: HoudiniEngineUnity.HEU_SessionHAPI
 class CORDL_TYPE HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_SessionHAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a02da4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a59a14, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   HEU_SessionHAPI(HEU_SessionHAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11767 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

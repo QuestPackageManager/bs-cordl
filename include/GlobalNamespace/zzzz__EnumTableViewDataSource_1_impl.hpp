@@ -1,18 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EnumTableViewDataSource_1.hpp"
+#include "HMUI/zzzz__TableView_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnumTableViewDataSource_1_def.hpp"
 #include "GlobalNamespace/zzzz__TextOnlyTableCell_def.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__TableView_def.hpp"
-/// @brief Convert operator to "::HMUI::__TableView__IDataSource"
-template <typename T> constexpr GlobalNamespace::EnumTableViewDataSource_1<T>::operator ::HMUI::__TableView__IDataSource*() noexcept {
-  return static_cast<::HMUI::__TableView__IDataSource*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HMUI::__TableView__IDataSource"
-template <typename T> constexpr ::HMUI::__TableView__IDataSource* GlobalNamespace::EnumTableViewDataSource_1<T>::i___HMUI____TableView__IDataSource() noexcept {
-  return static_cast<::HMUI::__TableView__IDataSource*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::UnityW<::GlobalNamespace::TextOnlyTableCell>& GlobalNamespace::EnumTableViewDataSource_1<T>::__cordl_internal_get__cellPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cellPrefab;
@@ -89,13 +82,21 @@ template <typename T> inline ::StringW GlobalNamespace::EnumTableViewDataSource_
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnumTableViewDataSource_1<T>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
-template <typename T> inline ::GlobalNamespace::EnumTableViewDataSource_1<T>* GlobalNamespace::EnumTableViewDataSource_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnumTableViewDataSource_1<T>*>());
-}
 template <typename T> inline void GlobalNamespace::EnumTableViewDataSource_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnumTableViewDataSource_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::GlobalNamespace::EnumTableViewDataSource_1<T>* GlobalNamespace::EnumTableViewDataSource_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnumTableViewDataSource_1<T>*>());
+}
+/// @brief Convert operator to "::HMUI::TableView_IDataSource"
+template <typename T> constexpr GlobalNamespace::EnumTableViewDataSource_1<T>::operator ::HMUI::TableView_IDataSource*() noexcept {
+  return static_cast<::HMUI::TableView_IDataSource*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HMUI::TableView_IDataSource"
+template <typename T> constexpr ::HMUI::TableView_IDataSource* GlobalNamespace::EnumTableViewDataSource_1<T>::i___HMUI__TableView_IDataSource() noexcept {
+  return static_cast<::HMUI::TableView_IDataSource*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::EnumTableViewDataSource_1<T>::EnumTableViewDataSource_1() {}

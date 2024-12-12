@@ -12,11 +12,10 @@ struct InputDeviceChange;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::InputDeviceChange);
-// Type: UnityEngine.InputSystem::InputDeviceChange
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem::InputDeviceChange
+// CS Name: UnityEngine.InputSystem.InputDeviceChange
 struct CORDL_TYPE InputDeviceChange {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr InputDeviceChange(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Added value: static_cast<int32_t>(0x0)
+  /// @brief Field Added value: I32(0)
   static ::UnityEngine::InputSystem::InputDeviceChange const Added;
 
-  /// @brief Field ConfigurationChanged value: static_cast<int32_t>(0x7)
+  /// @brief Field ConfigurationChanged value: I32(7)
   static ::UnityEngine::InputSystem::InputDeviceChange const ConfigurationChanged;
 
-  /// @brief Field Destroyed value: static_cast<int32_t>(0xa)
+  /// @brief Field Destroyed value: I32(10)
   static ::UnityEngine::InputSystem::InputDeviceChange const Destroyed;
 
-  /// @brief Field Disabled value: static_cast<int32_t>(0x5)
+  /// @brief Field Disabled value: I32(5)
   static ::UnityEngine::InputSystem::InputDeviceChange const Disabled;
 
-  /// @brief Field Disconnected value: static_cast<int32_t>(0x2)
+  /// @brief Field Disconnected value: I32(2)
   static ::UnityEngine::InputSystem::InputDeviceChange const Disconnected;
 
-  /// @brief Field Enabled value: static_cast<int32_t>(0x4)
+  /// @brief Field Enabled value: I32(4)
   static ::UnityEngine::InputSystem::InputDeviceChange const Enabled;
 
-  /// @brief Field HardReset value: static_cast<int32_t>(0x9)
+  /// @brief Field HardReset value: I32(9)
   static ::UnityEngine::InputSystem::InputDeviceChange const HardReset;
 
-  /// @brief Field Reconnected value: static_cast<int32_t>(0x3)
+  /// @brief Field Reconnected value: I32(3)
   static ::UnityEngine::InputSystem::InputDeviceChange const Reconnected;
 
-  /// @brief Field Removed value: static_cast<int32_t>(0x1)
+  /// @brief Field Removed value: I32(1)
   static ::UnityEngine::InputSystem::InputDeviceChange const Removed;
 
-  /// @brief Field SoftReset value: static_cast<int32_t>(0x8)
+  /// @brief Field SoftReset value: I32(8)
   static ::UnityEngine::InputSystem::InputDeviceChange const SoftReset;
 
-  /// @brief Field UsageChanged value: static_cast<int32_t>(0x6)
+  /// @brief Field UsageChanged value: I32(6)
   static ::UnityEngine::InputSystem::InputDeviceChange const UsageChanged;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6643 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDeviceChange, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::InputDeviceChange, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputDeviceChange, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDeviceChange, "UnityEngine.InputSystem", "InputDeviceChange");

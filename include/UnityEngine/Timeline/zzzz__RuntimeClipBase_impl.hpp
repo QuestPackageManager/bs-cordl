@@ -2,41 +2,13 @@
 // IWYU pragma private; include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_start
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_start)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_duration
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::get_duration)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), 12));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_intervalStart
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(
     &::UnityEngine::Timeline::RuntimeClipBase::get_intervalStart)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47c27b8;
+  constexpr static std::size_t addrs = 0x4823acc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::Timeline::RuntimeClipBase::*)()>(
     &::UnityEngine::Timeline::RuntimeClipBase::get_intervalEnd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47c2828;
+  constexpr static std::size_t addrs = 0x4823b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeClipBase::*)()>(&::UnityEngine::Timeline::RuntimeClipBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c21d8;
+  constexpr static std::size_t addrs = 0x48234ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), ".ctor",
@@ -93,13 +65,13 @@ inline int64_t UnityEngine::Timeline::RuntimeClipBase::get_intervalEnd() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Timeline::RuntimeClipBase* UnityEngine::Timeline::RuntimeClipBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::RuntimeClipBase*>());
-}
 inline void UnityEngine::Timeline::RuntimeClipBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeClipBase*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Timeline::RuntimeClipBase* UnityEngine::Timeline::RuntimeClipBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::RuntimeClipBase*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Timeline::RuntimeClipBase::RuntimeClipBase() {}

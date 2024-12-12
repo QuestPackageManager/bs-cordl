@@ -12,80 +12,80 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::*)()>(
-    &::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::*)()>(
+    &::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb6120;
+  constexpr static std::size_t addrs = 0x3c19258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0._RefreshContent_b__0
+//  Writing Method size for method: ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0._RefreshContent_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::*)(
-    int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::_RefreshContent_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::*)(
+    int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::_RefreshContent_b__0)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bb6130;
+  constexpr static std::size_t addrs = 0x3c19268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0*>::get(),
-                                    "<RefreshContent>b__0", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*>::get(), "<RefreshContent>b__0",
+                                    std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
     return ___internal_method;
   }
 };
 constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*&
-GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::__cordl_internal_get_modifierParamsList() {
+GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::__cordl_internal_get_modifierParamsList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifierParamsList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const&
-GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::__cordl_internal_get_modifierParamsList() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const&
+GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::__cordl_internal_get_modifierParamsList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifierParamsList;
 }
-constexpr void GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::__cordl_internal_set_modifierParamsList(
+constexpr void GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::__cordl_internal_set_modifierParamsList(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___modifierParamsList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0* GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0*>());
-}
-inline void GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::_ctor() {
+inline void GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::_RefreshContent_b__0(int32_t idx,
-                                                                                                               ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem) {
+inline void GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::_RefreshContent_b__0(int32_t idx,
+                                                                                                            ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*>::get(),
                                                "<RefreshContent>b__0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, idx, gameplayModifierInfoListItem);
 }
+inline ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0* GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0::__MissionLevelModifiersViewController____c__DisplayClass7_0() {}
+constexpr ::GlobalNamespace::MissionLevelModifiersViewController___c__DisplayClass7_0::MissionLevelModifiersViewController___c__DisplayClass7_0() {}
 //  Writing Method size for method: ::GlobalNamespace::MissionLevelModifiersViewController.Setup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::MissionLevelModifiersViewController::Setup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bb5f64;
+  constexpr static std::size_t addrs = 0x3c1909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MissionLevelModifiersViewController::DidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bb611c;
+  constexpr static std::size_t addrs = 0x3c19254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController::*)()>(
     &::GlobalNamespace::MissionLevelModifiersViewController::RefreshContent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3bb5f90;
+  constexpr static std::size_t addrs = 0x3c190c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelModifiersViewController::*)()>(
     &::GlobalNamespace::MissionLevelModifiersViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb6128;
+  constexpr static std::size_t addrs = 0x3c19260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController*>::get(),
@@ -190,7 +190,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MissionLevelMo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::MissionLevelModifiersViewController::__cordl_internal_get__gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::MissionLevelModifiersViewController::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
@@ -215,13 +215,13 @@ inline void GlobalNamespace::MissionLevelModifiersViewController::RefreshContent
                                                                              "RefreshContent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MissionLevelModifiersViewController* GlobalNamespace::MissionLevelModifiersViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelModifiersViewController*>());
-}
 inline void GlobalNamespace::MissionLevelModifiersViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelModifiersViewController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MissionLevelModifiersViewController* GlobalNamespace::MissionLevelModifiersViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelModifiersViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MissionLevelModifiersViewController::MissionLevelModifiersViewController() {}

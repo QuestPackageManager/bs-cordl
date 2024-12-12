@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::*)()>(
     &::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ce7d0;
+  constexpr static std::size_t addrs = 0x2401abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*>::get(),
@@ -566,13 +566,13 @@ inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, "IdRsassaPkcs1V15WithSha3_512",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers* Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*>());
-}
 inline void Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers* Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Nist::NistObjectIdentifiers::NistObjectIdentifiers() {}

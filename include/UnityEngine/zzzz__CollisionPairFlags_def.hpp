@@ -12,11 +12,10 @@ struct CollisionPairFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::CollisionPairFlags);
-// Type: UnityEngine::CollisionPairFlags
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::CollisionPairFlags
+// CS Name: UnityEngine.CollisionPairFlags
 struct CORDL_TYPE CollisionPairFlags {
 public:
   // Declarations
@@ -49,39 +48,39 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr CollisionPairFlags(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field ActorPairHasFirstTouch value: static_cast<uint16_t>(0x4u)
+  /// @brief Field ActorPairHasFirstTouch value: U16(4)
   static ::UnityEngine::CollisionPairFlags const ActorPairHasFirstTouch;
 
-  /// @brief Field ActorPairLostTouch value: static_cast<uint16_t>(0x8u)
+  /// @brief Field ActorPairLostTouch value: U16(8)
   static ::UnityEngine::CollisionPairFlags const ActorPairLostTouch;
 
-  /// @brief Field InternalContactsAreFlipped value: static_cast<uint16_t>(0x20u)
+  /// @brief Field InternalContactsAreFlipped value: U16(32)
   static ::UnityEngine::CollisionPairFlags const InternalContactsAreFlipped;
 
-  /// @brief Field InternalHasImpulses value: static_cast<uint16_t>(0x10u)
+  /// @brief Field InternalHasImpulses value: U16(16)
   static ::UnityEngine::CollisionPairFlags const InternalHasImpulses;
 
-  /// @brief Field RemovedOtherShape value: static_cast<uint16_t>(0x2u)
+  /// @brief Field RemovedOtherShape value: U16(2)
   static ::UnityEngine::CollisionPairFlags const RemovedOtherShape;
 
-  /// @brief Field RemovedShape value: static_cast<uint16_t>(0x1u)
+  /// @brief Field RemovedShape value: U16(1)
   static ::UnityEngine::CollisionPairFlags const RemovedShape;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::CollisionPairFlags, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::CollisionPairFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::CollisionPairFlags, 0x2>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CollisionPairFlags, "UnityEngine", "CollisionPairFlags");

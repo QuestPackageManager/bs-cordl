@@ -4,13 +4,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarPoseDataProvider)
 namespace BeatSaber::AvatarCore {
 struct AvatarPoseData;
-}
-namespace BeatSaber::AvatarCore {
-class IAvatarPoseDataProvider;
 }
 namespace BeatSaber::AvatarCore {
 class IAvatarPoseRestriction;
@@ -24,20 +23,16 @@ class INodePoseSyncStateManager;
 namespace System {
 template <typename T> class Action_1;
 }
-namespace Zenject {
-class ITickable;
-}
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
 class ConnectedPlayerAvatarPoseDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);
-// Type: BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.AvatarCore.AvatarPoseData, BeatSaber.AvatarCore.IAvatarPoseDataProvider, System.Object, Zenject.ITickable
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
+// CS Name: BeatSaber.AvatarCore.ConnectedPlayerAvatarPoseDataProvider
 class CORDL_TYPE ConnectedPlayerAvatarPoseDataProvider : public ::System::Object {
 public:
   // Declarations
@@ -69,28 +64,28 @@ public:
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0x2221c48, size 0x558, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x224d1bc, size 0x558, virtual true, abstract: false, final true
   inline void Tick();
+
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& __cordl_internal_get__avatarPoseRestriction() const;
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const& __cordl_internal_get__avatarPoseRestriction() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
   constexpr ::BeatSaber::AvatarCore::AvatarPoseData const& __cordl_internal_get__currentPose() const;
 
   constexpr ::BeatSaber::AvatarCore::AvatarPoseData& __cordl_internal_get__currentPose();
 
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
+
   constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
+  constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* const& __cordl_internal_get_poseDidChangeEvent() const;
 
   constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*& __cordl_internal_get_poseDidChangeEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*> const& __cordl_internal_get_poseDidChangeEvent() const;
 
   constexpr void __cordl_internal_set__avatarPoseRestriction(::BeatSaber::AvatarCore::IAvatarPoseRestriction* value);
 
@@ -102,14 +97,14 @@ public:
 
   constexpr void __cordl_internal_set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method .ctor, addr 0x2221c0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224d180, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method add_poseDidChangeEvent, addr 0x2221aac, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0x224d020, size 0xb0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method get_currentPose, addr 0x2221a9c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0x224d010, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
@@ -118,7 +113,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0x2221b5c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0x224d0d0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
 protected:
@@ -135,6 +130,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConnectedPlayerAvatarPoseDataProvider(ConnectedPlayerAvatarPoseDataProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17568 };
+
   /// @brief Field poseDidChangeEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* ___poseDidChangeEvent;
 
@@ -150,14 +148,9 @@ public:
   /// @brief Field _currentPose, offset: 0x30, size: 0x54, def value: None
   ::BeatSaber::AvatarCore::AvatarPoseData ____currentPose;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17524 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, ___poseDidChangeEvent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, ____connectedPlayer) == 0x18, "Offset mismatch!");
@@ -167,6 +160,8 @@ static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataPro
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, ____avatarPoseRestriction) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, ____currentPose) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider, 0x88>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider);

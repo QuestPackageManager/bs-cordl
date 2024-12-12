@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise_1)
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -17,19 +14,18 @@ namespace System::Threading::Tasks {
 class Task;
 }
 // Forward declare root types
-namespace System::Threading::Tasks {
-template <typename T> class __Task__WhenAllPromise_1;
+namespace GlobalNamespace {
+template <typename T> class Task_WhenAllPromise_1;
 }
 // Write type traits
-MARK_GEN_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise_1);
-// Type: ::WhenAllPromise`1
-// SizeInfo { instance_size: 104, native_size: 100, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Threading::Tasks {
+MARK_GEN_REF_PTR_T(::GlobalNamespace::Task_WhenAllPromise_1);
+// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>
+namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Task::WhenAllPromise`1<T>*
-class CORDL_TYPE __Task__WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {
+// CS Name: System.Threading.Tasks.Task/WhenAllPromise`1<T>
+class CORDL_TYPE Task_WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {
 public:
   // Declarations
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
@@ -49,7 +45,7 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
-  static inline ::System::Threading::Tasks::__Task__WhenAllPromise_1<T>* New_ctor(::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> tasks);
+  static inline ::GlobalNamespace::Task_WhenAllPromise_1<T>* New_ctor(::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> tasks);
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
 
@@ -78,16 +74,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Task__WhenAllPromise_1();
+  constexpr Task_WhenAllPromise_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_WhenAllPromise_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Task__WhenAllPromise_1(__Task__WhenAllPromise_1&&) = delete;
+  Task_WhenAllPromise_1(Task_WhenAllPromise_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_WhenAllPromise_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Task__WhenAllPromise_1(__Task__WhenAllPromise_1 const&) = delete;
+  Task_WhenAllPromise_1(Task_WhenAllPromise_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2788 };
 
   /// @brief Field m_tasks, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> ___m_tasks;
@@ -95,11 +94,8 @@ public:
   /// @brief Field m_count, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2788 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::__Task__WhenAllPromise_1, "System.Threading.Tasks", "Task/WhenAllPromise`1");
+} // namespace GlobalNamespace
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::Task_WhenAllPromise_1, "System.Threading.Tasks", "Task/WhenAllPromise`1");

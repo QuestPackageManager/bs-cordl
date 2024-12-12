@@ -11,11 +11,10 @@ class FailedToLoadScriptObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::FailedToLoadScriptObject);
-// Type: UnityEngine::FailedToLoadScriptObject
-// SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::FailedToLoadScriptObject*
+// CS Name: UnityEngine.FailedToLoadScriptObject
 class CORDL_TYPE FailedToLoadScriptObject : public ::UnityEngine::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   FailedToLoadScriptObject(FailedToLoadScriptObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

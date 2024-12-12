@@ -4,8 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Numerics/zzzz__Register_def.hpp"
-#include "System/Numerics/zzzz__Vector_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -14,16 +14,10 @@ namespace System::Numerics {
 struct Register;
 }
 namespace System::Numerics {
-template <typename T> struct __Vector_1__VectorSizeHelper;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+template <typename T> struct Vector_1_VectorSizeHelper;
 }
 namespace System {
 class IFormatProvider;
-}
-namespace System {
-class IFormattable;
 }
 namespace System {
 class Object;
@@ -33,36 +27,35 @@ namespace System::Numerics {
 template <typename T> struct Vector_1;
 }
 namespace System::Numerics {
-template <typename T> struct __Vector_1__VectorSizeHelper;
+template <typename T> struct Vector_1_VectorSizeHelper;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Numerics::Vector_1);
-MARK_GEN_VAL_T(::System::Numerics::__Vector_1__VectorSizeHelper);
-// Type: System.Numerics::Vector`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Numerics::Vector_1_VectorSizeHelper);
+// Dependencies System.IEquatable`1<T>, System.IFormattable, System.Numerics.Register
 namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::System.Numerics::Vector`1<T>
+// CS Name: System.Numerics.Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations
-  using VectorSizeHelper = ::System::Numerics::__Vector_1__VectorSizeHelper<T>;
+  using VectorSizeHelper = ::System::Numerics::Vector_1_VectorSizeHelper<T>;
 
   __declspec(property(get = get_Item)) T Item[];
 
   /// @brief Field s_allOnes, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_allOnes, put = setStaticF_s_allOnes)) ::System::Numerics::Vector_1<T> s_allOnes;
+  __declspec(property(get = getStaticF_s_allOnes, put = setStaticF_s_allOnes)) ::System::Numerics::Vector_1<T> s_allOnes;
 
   /// @brief Field s_count, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_count, put = setStaticF_s_count)) int32_t s_count;
+  __declspec(property(get = getStaticF_s_count, put = setStaticF_s_count)) int32_t s_count;
 
   /// @brief Field s_one, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_one, put = setStaticF_s_one)) ::System::Numerics::Vector_1<T> s_one;
+  __declspec(property(get = getStaticF_s_one, put = setStaticF_s_one)) ::System::Numerics::Vector_1<T> s_one;
 
   /// @brief Field s_zero, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_zero, put = setStaticF_s_zero)) ::System::Numerics::Vector_1<T> s_zero;
+  __declspec(property(get = getStaticF_s_zero, put = setStaticF_s_zero)) ::System::Numerics::Vector_1<T> s_zero;
 
   /// @brief Convert operator to "::System::IEquatable_1<::System::Numerics::Vector_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::Numerics::Vector_1<T>>*();
@@ -107,7 +100,7 @@ public:
   inline void _ctor(::cordl_internals::Ptr<void> dataPointer, int32_t offset);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(ByRef<::System::Numerics::Register> existingRegister);
+  inline void _ctor(::ByRef<::System::Numerics::Register> existingRegister);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
@@ -159,42 +152,35 @@ public:
   // Ctor Parameters [CppParam { name: "_cordl_register", ty: "::System::Numerics::Register", modifiers: "", def_value: None }]
   constexpr Vector_1(::System::Numerics::Register _cordl_register) noexcept;
 
-  /// @brief Field register, offset: 0x0, size: 0x10, def value: None
-  ::System::Numerics::Register _cordl_register;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// @brief Field register, offset: 0x0, size: 0x10, def value: None
+  ::System::Numerics::Register _cordl_register;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Numerics
-// Type: ::VectorSizeHelper
-// SizeInfo { instance_size: 24, native_size: 33, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Numerics.Vector`1<T>
 namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Vector`1::VectorSizeHelper<T>
-struct CORDL_TYPE __Vector_1__VectorSizeHelper {
+// CS Name: System.Numerics.Vector`1/VectorSizeHelper<T>
+struct CORDL_TYPE Vector_1_VectorSizeHelper {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Vector_1__VectorSizeHelper();
+  constexpr Vector_1_VectorSizeHelper();
 
   // Ctor Parameters [CppParam { name: "_placeholder", ty: "::System::Numerics::Vector_1<T>", modifiers: "", def_value: None }, CppParam { name: "_byte", ty: "uint8_t", modifiers: "", def_value: None
   // }]
-  constexpr __Vector_1__VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept;
-
-  /// @brief Field _placeholder, offset: 0x0, size: 0x10, def value: None
-  ::System::Numerics::Vector_1<T> _placeholder;
-
-  /// @brief Field _byte, offset: 0x10, size: 0x1, def value: None
-  uint8_t _byte;
+  constexpr Vector_1_VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3555 };
@@ -202,9 +188,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
+  /// @brief Field _placeholder, offset: 0x0, size: 0x10, def value: None
+  ::System::Numerics::Vector_1<T> _placeholder;
+
+  /// @brief Field _byte, offset: 0x10, size: 0x1, def value: None
+  uint8_t _byte;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Numerics
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Numerics::Vector_1, "System.Numerics", "Vector`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Numerics::__Vector_1__VectorSizeHelper, "System.Numerics", "Vector`1/VectorSizeHelper");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Numerics::Vector_1_VectorSizeHelper, "System.Numerics", "Vector`1/VectorSizeHelper");

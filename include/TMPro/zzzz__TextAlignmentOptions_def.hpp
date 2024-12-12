@@ -12,11 +12,10 @@ struct TextAlignmentOptions;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::TextAlignmentOptions);
-// Type: TMPro::TextAlignmentOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::TextAlignmentOptions
+// CS Name: TMPro.TextAlignmentOptions
 struct CORDL_TYPE TextAlignmentOptions {
 public:
   // Declarations
@@ -80,132 +79,132 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TextAlignmentOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Baseline value: static_cast<int32_t>(0x802)
+  /// @brief Field Baseline value: I32(2050)
   static ::TMPro::TextAlignmentOptions const Baseline;
 
-  /// @brief Field BaselineFlush value: static_cast<int32_t>(0x810)
+  /// @brief Field BaselineFlush value: I32(2064)
   static ::TMPro::TextAlignmentOptions const BaselineFlush;
 
-  /// @brief Field BaselineGeoAligned value: static_cast<int32_t>(0x820)
+  /// @brief Field BaselineGeoAligned value: I32(2080)
   static ::TMPro::TextAlignmentOptions const BaselineGeoAligned;
 
-  /// @brief Field BaselineJustified value: static_cast<int32_t>(0x808)
+  /// @brief Field BaselineJustified value: I32(2056)
   static ::TMPro::TextAlignmentOptions const BaselineJustified;
 
-  /// @brief Field BaselineLeft value: static_cast<int32_t>(0x801)
+  /// @brief Field BaselineLeft value: I32(2049)
   static ::TMPro::TextAlignmentOptions const BaselineLeft;
 
-  /// @brief Field BaselineRight value: static_cast<int32_t>(0x804)
+  /// @brief Field BaselineRight value: I32(2052)
   static ::TMPro::TextAlignmentOptions const BaselineRight;
 
-  /// @brief Field Bottom value: static_cast<int32_t>(0x402)
+  /// @brief Field Bottom value: I32(1026)
   static ::TMPro::TextAlignmentOptions const Bottom;
 
-  /// @brief Field BottomFlush value: static_cast<int32_t>(0x410)
+  /// @brief Field BottomFlush value: I32(1040)
   static ::TMPro::TextAlignmentOptions const BottomFlush;
 
-  /// @brief Field BottomGeoAligned value: static_cast<int32_t>(0x420)
+  /// @brief Field BottomGeoAligned value: I32(1056)
   static ::TMPro::TextAlignmentOptions const BottomGeoAligned;
 
-  /// @brief Field BottomJustified value: static_cast<int32_t>(0x408)
+  /// @brief Field BottomJustified value: I32(1032)
   static ::TMPro::TextAlignmentOptions const BottomJustified;
 
-  /// @brief Field BottomLeft value: static_cast<int32_t>(0x401)
+  /// @brief Field BottomLeft value: I32(1025)
   static ::TMPro::TextAlignmentOptions const BottomLeft;
 
-  /// @brief Field BottomRight value: static_cast<int32_t>(0x404)
+  /// @brief Field BottomRight value: I32(1028)
   static ::TMPro::TextAlignmentOptions const BottomRight;
 
-  /// @brief Field Capline value: static_cast<int32_t>(0x2002)
+  /// @brief Field Capline value: I32(8194)
   static ::TMPro::TextAlignmentOptions const Capline;
 
-  /// @brief Field CaplineFlush value: static_cast<int32_t>(0x2010)
+  /// @brief Field CaplineFlush value: I32(8208)
   static ::TMPro::TextAlignmentOptions const CaplineFlush;
 
-  /// @brief Field CaplineGeoAligned value: static_cast<int32_t>(0x2020)
+  /// @brief Field CaplineGeoAligned value: I32(8224)
   static ::TMPro::TextAlignmentOptions const CaplineGeoAligned;
 
-  /// @brief Field CaplineJustified value: static_cast<int32_t>(0x2008)
+  /// @brief Field CaplineJustified value: I32(8200)
   static ::TMPro::TextAlignmentOptions const CaplineJustified;
 
-  /// @brief Field CaplineLeft value: static_cast<int32_t>(0x2001)
+  /// @brief Field CaplineLeft value: I32(8193)
   static ::TMPro::TextAlignmentOptions const CaplineLeft;
 
-  /// @brief Field CaplineRight value: static_cast<int32_t>(0x2004)
+  /// @brief Field CaplineRight value: I32(8196)
   static ::TMPro::TextAlignmentOptions const CaplineRight;
 
-  /// @brief Field Center value: static_cast<int32_t>(0x202)
+  /// @brief Field Center value: I32(514)
   static ::TMPro::TextAlignmentOptions const Center;
 
-  /// @brief Field CenterGeoAligned value: static_cast<int32_t>(0x220)
+  /// @brief Field CenterGeoAligned value: I32(544)
   static ::TMPro::TextAlignmentOptions const CenterGeoAligned;
 
-  /// @brief Field Converted value: static_cast<int32_t>(0xffff)
+  /// @brief Field Converted value: I32(65535)
   static ::TMPro::TextAlignmentOptions const Converted;
 
-  /// @brief Field Flush value: static_cast<int32_t>(0x210)
+  /// @brief Field Flush value: I32(528)
   static ::TMPro::TextAlignmentOptions const Flush;
 
-  /// @brief Field Justified value: static_cast<int32_t>(0x208)
+  /// @brief Field Justified value: I32(520)
   static ::TMPro::TextAlignmentOptions const Justified;
 
-  /// @brief Field Left value: static_cast<int32_t>(0x201)
+  /// @brief Field Left value: I32(513)
   static ::TMPro::TextAlignmentOptions const Left;
 
-  /// @brief Field Midline value: static_cast<int32_t>(0x1002)
+  /// @brief Field Midline value: I32(4098)
   static ::TMPro::TextAlignmentOptions const Midline;
 
-  /// @brief Field MidlineFlush value: static_cast<int32_t>(0x1010)
+  /// @brief Field MidlineFlush value: I32(4112)
   static ::TMPro::TextAlignmentOptions const MidlineFlush;
 
-  /// @brief Field MidlineGeoAligned value: static_cast<int32_t>(0x1020)
+  /// @brief Field MidlineGeoAligned value: I32(4128)
   static ::TMPro::TextAlignmentOptions const MidlineGeoAligned;
 
-  /// @brief Field MidlineJustified value: static_cast<int32_t>(0x1008)
+  /// @brief Field MidlineJustified value: I32(4104)
   static ::TMPro::TextAlignmentOptions const MidlineJustified;
 
-  /// @brief Field MidlineLeft value: static_cast<int32_t>(0x1001)
+  /// @brief Field MidlineLeft value: I32(4097)
   static ::TMPro::TextAlignmentOptions const MidlineLeft;
 
-  /// @brief Field MidlineRight value: static_cast<int32_t>(0x1004)
+  /// @brief Field MidlineRight value: I32(4100)
   static ::TMPro::TextAlignmentOptions const MidlineRight;
 
-  /// @brief Field Right value: static_cast<int32_t>(0x204)
+  /// @brief Field Right value: I32(516)
   static ::TMPro::TextAlignmentOptions const Right;
 
-  /// @brief Field Top value: static_cast<int32_t>(0x102)
+  /// @brief Field Top value: I32(258)
   static ::TMPro::TextAlignmentOptions const Top;
 
-  /// @brief Field TopFlush value: static_cast<int32_t>(0x110)
+  /// @brief Field TopFlush value: I32(272)
   static ::TMPro::TextAlignmentOptions const TopFlush;
 
-  /// @brief Field TopGeoAligned value: static_cast<int32_t>(0x120)
+  /// @brief Field TopGeoAligned value: I32(288)
   static ::TMPro::TextAlignmentOptions const TopGeoAligned;
 
-  /// @brief Field TopJustified value: static_cast<int32_t>(0x108)
+  /// @brief Field TopJustified value: I32(264)
   static ::TMPro::TextAlignmentOptions const TopJustified;
 
-  /// @brief Field TopLeft value: static_cast<int32_t>(0x101)
+  /// @brief Field TopLeft value: I32(257)
   static ::TMPro::TextAlignmentOptions const TopLeft;
 
-  /// @brief Field TopRight value: static_cast<int32_t>(0x104)
+  /// @brief Field TopRight value: I32(260)
   static ::TMPro::TextAlignmentOptions const TopRight;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14512 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14546 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TextAlignmentOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TextAlignmentOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TextAlignmentOptions, 0x4>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextAlignmentOptions, "TMPro", "TextAlignmentOptions");

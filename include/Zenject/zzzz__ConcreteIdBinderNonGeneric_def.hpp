@@ -26,20 +26,19 @@ class ConcreteIdBinderNonGeneric;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ConcreteIdBinderNonGeneric);
-// Type: Zenject::ConcreteIdBinderNonGeneric
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.ConcreteBinderNonGeneric
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ConcreteIdBinderNonGeneric*
+// CS Name: Zenject.ConcreteIdBinderNonGeneric
 class CORDL_TYPE ConcreteIdBinderNonGeneric : public ::Zenject::ConcreteBinderNonGeneric {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method WithId, addr 0x4a99164, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x4afda74, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x4a99130, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afda40, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:
@@ -57,7 +56,7 @@ public:
   ConcreteIdBinderNonGeneric(ConcreteIdBinderNonGeneric const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12011 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

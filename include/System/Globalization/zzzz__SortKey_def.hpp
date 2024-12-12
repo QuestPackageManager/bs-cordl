@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKey)
@@ -21,11 +20,10 @@ class SortKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::SortKey);
-// Type: System.Globalization::SortKey
-// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Globalization.CompareOptions, System.Object
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::SortKey*
+// CS Name: System.Globalization.SortKey
 class CORDL_TYPE SortKey : public ::System::Object {
 public:
   // Declarations
@@ -45,13 +43,13 @@ public:
   /// @brief Field source, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::StringW source;
 
-  /// @brief Method Compare, addr 0x3d4639c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3da6510, size 0x16c, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::Globalization::SortKey* sortkey1, ::System::Globalization::SortKey* sortkey2);
 
-  /// @brief Method Equals, addr 0x3d4666c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3da67e0, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3d4671c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3da6890, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Globalization::SortKey* New_ctor();
@@ -64,7 +62,7 @@ public:
 
   static inline ::System::Globalization::SortKey* New_ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method ToString, addr 0x3d46784, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3da68f8, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
@@ -91,23 +89,23 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d468bc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da6a30, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d465dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da6750, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length,
                     int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength);
 
-  /// @brief Method .ctor, addr 0x3d46508, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da667c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method .ctor, addr 0x3d4661c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3da6790, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method get_KeyData, addr 0x3d46664, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeyData, addr 0x3da67d8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyData();
 
-  /// @brief Method get_OriginalString, addr 0x3d4665c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_OriginalString, addr 0x3da67d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_OriginalString();
 
 protected:
@@ -124,6 +122,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SortKey(SortKey const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3716 };
+
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::StringW ___source;
 
@@ -136,14 +137,9 @@ public:
   /// @brief Field lcid, offset: 0x24, size: 0x4, def value: None
   int32_t ___lcid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3716 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::SortKey, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::SortKey, ___source) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::SortKey, ___key) == 0x18, "Offset mismatch!");
@@ -151,6 +147,8 @@ static_assert(offsetof(::System::Globalization::SortKey, ___key) == 0x18, "Offse
 static_assert(offsetof(::System::Globalization::SortKey, ___options) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::SortKey, ___lcid) == 0x24, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::SortKey, 0x28>, "Size mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::SortKey);

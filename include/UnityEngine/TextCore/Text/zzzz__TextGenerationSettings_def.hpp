@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
@@ -19,9 +20,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -49,11 +47,12 @@ class TextGenerationSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
-// Type: UnityEngine.TextCore.Text::TextGenerationSettings
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, System.Object, UnityEngine.Color, UnityEngine.Rect, UnityEngine.TextCore.Text.FontStyles, UnityEngine.TextCore.Text.TextAlignment,
+// UnityEngine.TextCore.Text.TextFontWeight, UnityEngine.TextCore.Text.TextInputSource, UnityEngine.TextCore.Text.TextOverflowMode, UnityEngine.TextCore.Text.TextWrappingMode,
+// UnityEngine.TextCore.Text.TextureMapping, UnityEngine.TextCore.Text.VertexSortingOrder, UnityEngine.Vector4
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
+// CS Name: UnityEngine.TextCore.Text.TextGenerationSettings
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:
   // Declarations
@@ -214,18 +213,18 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x48cc3ec, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4930a7c, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48cbf44, size 0x4a8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x49305d4, size 0x4a8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method GetHashCode, addr 0x48cc4f8, size 0x4d0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4930b88, size 0x4d0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x48cc9d0, size 0x1aa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4931060, size 0x1aa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_autoSize() const;
@@ -534,13 +533,13 @@ public:
 
   constexpr void __cordl_internal_set_wordWrappingRatio(float_t value);
 
-  /// @brief Method .ctor, addr 0x48ce478, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4932b08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
   constexpr ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>* i___System__IEquatable_1___UnityEngine__TextCore__Text__TextGenerationSettings__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x48cc9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4931058, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::TextCore::Text::TextGenerationSettings* left, ::UnityEngine::TextCore::Text::TextGenerationSettings* right);
 
 protected:
@@ -556,6 +555,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextGenerationSettings(TextGenerationSettings const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
 
   /// @brief Field text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___text;
@@ -710,14 +712,9 @@ public:
   /// @brief Field inputSource, offset: 0x10c, size: 0x4, def value: None
   ::UnityEngine::TextCore::Text::TextInputSource ___inputSource;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15225 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerationSettings, 0x110>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___text) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___screenRect) == 0x18, "Offset mismatch!");
@@ -819,6 +816,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, __
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___charWidthMaxAdj) == 0x108, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___inputSource) == 0x10c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerationSettings, 0x110>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerationSettings);

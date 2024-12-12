@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectNull::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ca0a3c;
+  constexpr static std::size_t addrs = 0x3d00bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectNull::SetNullCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ca0a44;
+  constexpr static std::size_t addrs = 0x3d00bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Write)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ca0a4c;
+  constexpr static std::size_t addrs = 0x3d00bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum)>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ca0af8;
+  constexpr static std::size_t addrs = 0x3d00c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectNull::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectNull::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ca0b58;
+  constexpr static std::size_t addrs = 0x3d00ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,9 +93,6 @@ constexpr int32_t const& System::Runtime::Serialization::Formatters::Binary::Obj
 constexpr void System::Runtime::Serialization::Formatters::Binary::ObjectNull::__cordl_internal_set_nullCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___nullCount = value;
-}
-inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* System::Runtime::Serialization::Formatters::Binary::ObjectNull::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>());
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::_ctor() {
   static auto* ___internal_method =
@@ -128,6 +125,9 @@ inline void System::Runtime::Serialization::Formatters::Binary::ObjectNull::Dump
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>::get(), "Dump",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* System::Runtime::Serialization::Formatters::Binary::ObjectNull::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull::ObjectNull() {}

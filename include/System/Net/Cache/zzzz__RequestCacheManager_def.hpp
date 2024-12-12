@@ -18,33 +18,32 @@ class RequestCacheManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Cache::RequestCacheManager);
-// Type: System.Net.Cache::RequestCacheManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Cache {
 // Is value type: false
-// CS Name: ::System.Net.Cache::RequestCacheManager*
+// CS Name: System.Net.Cache.RequestCacheManager
 class CORDL_TYPE RequestCacheManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_BypassCacheBinding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_BypassCacheBinding, put = setStaticF_s_BypassCacheBinding)) ::System::Net::Cache::RequestCacheBinding* s_BypassCacheBinding;
+  __declspec(property(get = getStaticF_s_BypassCacheBinding, put = setStaticF_s_BypassCacheBinding)) ::System::Net::Cache::RequestCacheBinding* s_BypassCacheBinding;
 
   /// @brief Field s_CacheConfigSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CacheConfigSettings, put = setStaticF_s_CacheConfigSettings)) ::System::Net::Cache::RequestCachingSectionInternal* s_CacheConfigSettings;
+  __declspec(property(get = getStaticF_s_CacheConfigSettings, put = setStaticF_s_CacheConfigSettings)) ::System::Net::Cache::RequestCachingSectionInternal* s_CacheConfigSettings;
 
   /// @brief Field s_DefaultFtpBinding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultFtpBinding, put = setStaticF_s_DefaultFtpBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultFtpBinding;
+  __declspec(property(get = getStaticF_s_DefaultFtpBinding, put = setStaticF_s_DefaultFtpBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultFtpBinding;
 
   /// @brief Field s_DefaultGlobalBinding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultGlobalBinding, put = setStaticF_s_DefaultGlobalBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultGlobalBinding;
+  __declspec(property(get = getStaticF_s_DefaultGlobalBinding, put = setStaticF_s_DefaultGlobalBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultGlobalBinding;
 
   /// @brief Field s_DefaultHttpBinding, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultHttpBinding, put = setStaticF_s_DefaultHttpBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultHttpBinding;
+  __declspec(property(get = getStaticF_s_DefaultHttpBinding, put = setStaticF_s_DefaultHttpBinding)) ::System::Net::Cache::RequestCacheBinding* s_DefaultHttpBinding;
 
-  /// @brief Method GetBinding, addr 0x438c4e8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetBinding, addr 0x43ed7fc, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Net::Cache::RequestCacheBinding* GetBinding(::StringW internedScheme);
 
-  /// @brief Method LoadConfigSettings, addr 0x438c6e0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigSettings, addr 0x43ed9f4, size 0x174, virtual false, abstract: false, final false
   static inline void LoadConfigSettings();
 
   static inline ::System::Net::Cache::RequestCacheBinding* getStaticF_s_BypassCacheBinding();
@@ -82,7 +81,7 @@ public:
   RequestCacheManager(RequestCacheManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9833 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

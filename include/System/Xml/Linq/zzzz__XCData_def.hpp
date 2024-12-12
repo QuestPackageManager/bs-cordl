@@ -21,33 +21,32 @@ class XCData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::XCData);
-// Type: System.Xml.Linq::XCData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Linq.XText
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::XCData*
+// CS Name: System.Xml.Linq.XCData
 class CORDL_TYPE XCData : public ::System::Xml::Linq::XText {
 public:
   // Declarations
   __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x41e3f18, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x424522c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Linq::XNode* CloneNode();
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::System::Xml::Linq::XCData* other);
 
   static inline ::System::Xml::Linq::XCData* New_ctor(::StringW value);
 
-  /// @brief Method WriteTo, addr 0x41e3ea8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x42451bc, size 0x70, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method .ctor, addr 0x41e3e24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4245138, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XCData* other);
 
-  /// @brief Method .ctor, addr 0x41e3dac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42450c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method get_NodeType, addr 0x41e3ea0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x42451b4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:
@@ -65,7 +64,7 @@ public:
   XCData(XCData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17947 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

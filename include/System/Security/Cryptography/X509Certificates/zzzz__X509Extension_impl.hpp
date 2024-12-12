@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Extension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Extension::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e0740;
+  constexpr static std::size_t addrs = 0x4441a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Extension::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::System::Security::Cryptography::X509Certificates::X509Extension::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43e0748;
+  constexpr static std::size_t addrs = 0x4441a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::X509Certificates::X509Extension::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Extension::get_Critical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43e0770;
+  constexpr static std::size_t addrs = 0x4441a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Extension::*)(bool)>(
     &::System::Security::Cryptography::X509Certificates::X509Extension::set_Critical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43e0778;
+  constexpr static std::size_t addrs = 0x4441a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Extension::*)(
     ::System::Security::Cryptography::AsnEncodedData*)>(&::System::Security::Cryptography::X509Certificates::X509Extension::CopyFrom)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x43e0784;
+  constexpr static std::size_t addrs = 0x4441a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::X509Certificates::X509Extension::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x43e08a8;
+  constexpr static std::size_t addrs = 0x4441bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,18 +108,11 @@ constexpr void System::Security::Cryptography::X509Certificates::X509Extension::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____critical = value;
 }
-inline ::System::Security::Cryptography::X509Certificates::X509Extension* System::Security::Cryptography::X509Certificates::X509Extension::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Extension*>());
-}
 inline void System::Security::Cryptography::X509Certificates::X509Extension::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Extension*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Security::Cryptography::X509Certificates::X509Extension*
-System::Security::Cryptography::X509Certificates::X509Extension::New_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Extension*>(oid, rawData, critical));
 }
 inline void System::Security::Cryptography::X509Certificates::X509Extension::_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,6 +145,13 @@ inline ::StringW System::Security::Cryptography::X509Certificates::X509Extension
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::X509Certificates::X509Extension*>::get(), "FormatUnkownData", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, data);
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Extension* System::Security::Cryptography::X509Certificates::X509Extension::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Extension*>());
+}
+inline ::System::Security::Cryptography::X509Certificates::X509Extension*
+System::Security::Cryptography::X509Certificates::X509Extension::New_ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::X509Certificates::X509Extension*>(oid, rawData, critical));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::X509Certificates::X509Extension::X509Extension() {}

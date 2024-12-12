@@ -11,11 +11,10 @@ class Mutex;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Mutex);
-// Type: System.Threading::Mutex
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.WaitHandle
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::Mutex*
+// CS Name: System.Threading.Mutex
 class CORDL_TYPE Mutex : public ::System::Threading::WaitHandle {
 public:
   // Declarations

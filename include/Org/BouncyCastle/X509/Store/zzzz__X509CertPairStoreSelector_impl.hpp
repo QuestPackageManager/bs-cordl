@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CertPairStoreSelector.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_impl.hpp"
+#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertPairStoreSelector_def.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector.CloneSelector
 template <>
@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (*)(::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(
         &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::CloneSelector)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25b5e80;
+  constexpr static std::size_t addrs = 0x25e916c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b5f0c;
+  constexpr static std::size_t addrs = 0x25e91f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25b5f14;
+  constexpr static std::size_t addrs = 0x25e9200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509CertificatePair* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b5f70;
+  constexpr static std::size_t addrs = 0x25e925c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::X509CertificatePair*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b5f78;
+  constexpr static std::size_t addrs = 0x25e9264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ForwardSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b5f60;
+  constexpr static std::size_t addrs = 0x25e924c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ForwardSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25b5f80;
+  constexpr static std::size_t addrs = 0x25e926c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ReverseSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b5f68;
+  constexpr static std::size_t addrs = 0x25e9254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ReverseSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25b5f9c;
+  constexpr static std::size_t addrs = 0x25e9288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(::System::Object*)>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Match)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25b5fb8;
+  constexpr static std::size_t addrs = 0x25e92a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Clone)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25b60e0;
+  constexpr static std::size_t addrs = 0x25e93cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,27 +173,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
-constexpr Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept {
-  return static_cast<::Org::BouncyCastle::X509::Store::IX509Selector*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
-constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept {
-  return static_cast<::Org::BouncyCastle::X509::Store::IX509Selector*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::ICloneable"
-constexpr Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::operator ::System::ICloneable*() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::ICloneable"
-constexpr ::System::ICloneable* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::i___System__ICloneable() noexcept {
-  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::X509::X509CertificatePair*& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_certPair() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPair;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificatePair*> const& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_certPair() const {
+constexpr ::Org::BouncyCastle::X509::X509CertificatePair* const& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_certPair() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certPair;
 }
@@ -205,8 +189,7 @@ constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& Org::BouncyC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forwardSelector;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const&
-Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_forwardSelector() const {
+constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* const& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_forwardSelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___forwardSelector;
 }
@@ -218,8 +201,7 @@ constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*& Org::BouncyC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseSelector;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*> const&
-Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_reverseSelector() const {
+constexpr ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* const& Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::__cordl_internal_get_reverseSelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reverseSelector;
 }
@@ -233,18 +215,11 @@ inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* Org::BouncyCastl
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::X509::Store::X509CertStoreSelector*, false>(nullptr, ___internal_method, s);
 }
-inline ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>());
-}
 inline void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*
-Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor(::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* o) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>(o));
 }
 inline void Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor(::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* o) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,6 +274,29 @@ inline ::System::Object* Org::BouncyCastle::X509::Store::X509CertPairStoreSelect
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>::get(), "Clone",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>());
+}
+inline ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*
+Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::New_ctor(::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector* o) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*>(o));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
+constexpr Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept {
+  return static_cast<::Org::BouncyCastle::X509::Store::IX509Selector*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept {
+  return static_cast<::Org::BouncyCastle::X509::Store::IX509Selector*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::ICloneable"
+constexpr Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::operator ::System::ICloneable*() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::i___System__ICloneable() noexcept {
+  return static_cast<::System::ICloneable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::X509CertPairStoreSelector() {}

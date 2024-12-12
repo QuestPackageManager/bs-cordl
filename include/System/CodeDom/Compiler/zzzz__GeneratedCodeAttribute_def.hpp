@@ -12,11 +12,10 @@ class GeneratedCodeAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::CodeDom::Compiler::GeneratedCodeAttribute);
-// Type: System.CodeDom.Compiler::GeneratedCodeAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::CodeDom::Compiler {
 // Is value type: false
-// CS Name: ::System.CodeDom.Compiler::GeneratedCodeAttribute*
+// CS Name: System.CodeDom.Compiler.GeneratedCodeAttribute
 class CORDL_TYPE GeneratedCodeAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43c831c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4429630, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::StringW tool, ::StringW version);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   GeneratedCodeAttribute(GeneratedCodeAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9248 };
+
   /// @brief Field tool, offset: 0x10, size: 0x8, def value: None
   ::StringW ___tool;
 
   /// @brief Field version, offset: 0x18, size: 0x8, def value: None
   ::StringW ___version;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9223 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::CodeDom::Compiler::GeneratedCodeAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::CodeDom::Compiler::GeneratedCodeAttribute, ___tool) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::CodeDom::Compiler::GeneratedCodeAttribute, ___version) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::CodeDom::Compiler::GeneratedCodeAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::CodeDom::Compiler
 NEED_NO_BOX(::System::CodeDom::Compiler::GeneratedCodeAttribute);

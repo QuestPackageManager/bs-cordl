@@ -16,27 +16,22 @@ class IRemoteCatalogLoader;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::IRemoteCatalogLoader);
-// Type: BGLib.MetaRemoteAssets::IRemoteCatalogLoader
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
-// CS Name: ::BGLib.MetaRemoteAssets::IRemoteCatalogLoader*
+// CS Name: BGLib.MetaRemoteAssets.IRemoteCatalogLoader
 class CORDL_TYPE IRemoteCatalogLoader {
 public:
   // Declarations
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LoadRemoteCatalogAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IRemoteCatalogLoader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IRemoteCatalogLoader(IRemoteCatalogLoader&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IRemoteCatalogLoader", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IRemoteCatalogLoader(IRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18340 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ConsoleCancelEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::ConsoleCancelEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3daa3a8;
+  constexpr static std::size_t addrs = 0x3e0a454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ConsoleCancelEventHandler::*)(::System::Object*, ::System::ConsoleCancelEventArgs*)>(
     &::System::ConsoleCancelEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3daa4ac;
+  constexpr static std::size_t addrs = 0x3e0a558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,9 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::ConsoleCancelEventHandler* System::ConsoleCancelEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ConsoleCancelEventHandler*>(object, method));
-}
 inline void System::ConsoleCancelEventHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleCancelEventHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -50,6 +47,9 @@ inline void System::ConsoleCancelEventHandler::Invoke(::System::Object* sender, 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleCancelEventHandler*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender, e);
+}
+inline ::System::ConsoleCancelEventHandler* System::ConsoleCancelEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ConsoleCancelEventHandler*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::ConsoleCancelEventHandler::ConsoleCancelEventHandler() {}

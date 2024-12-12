@@ -1,81 +1,81 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TestAnalyticsModel.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TestAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberSessionEventType_def.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__TestAnalyticsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__TestAnalyticsModel____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::TestAnalyticsModel___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__TestAnalyticsModel____c::*)()>(&::GlobalNamespace::__TestAnalyticsModel____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel___c::*)()>(&::GlobalNamespace::TestAnalyticsModel___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2214f3c;
+  constexpr static std::size_t addrs = 0x223ffb0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__TestAnalyticsModel____c._LogEvent_b__3_0
+//  Writing Method size for method: ::GlobalNamespace::TestAnalyticsModel___c._LogEvent_b__3_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__TestAnalyticsModel____c::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::GlobalNamespace::__TestAnalyticsModel____c::_LogEvent_b__3_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TestAnalyticsModel___c::*)(
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::GlobalNamespace::TestAnalyticsModel___c::_LogEvent_b__3_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2214f44;
+  constexpr static std::size_t addrs = 0x223ffb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get(), "<LogEvent>b__3_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get(), "<LogEvent>b__3_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__TestAnalyticsModel____c::setStaticF___9(::GlobalNamespace::__TestAnalyticsModel____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__TestAnalyticsModel____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get>(
-      std::forward<::GlobalNamespace::__TestAnalyticsModel____c*>(value));
+inline void GlobalNamespace::TestAnalyticsModel___c::setStaticF___9(::GlobalNamespace::TestAnalyticsModel___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::TestAnalyticsModel___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get>(
+      std::forward<::GlobalNamespace::TestAnalyticsModel___c*>(value));
 }
-inline ::GlobalNamespace::__TestAnalyticsModel____c* GlobalNamespace::__TestAnalyticsModel____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__TestAnalyticsModel____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get>();
+inline ::GlobalNamespace::TestAnalyticsModel___c* GlobalNamespace::TestAnalyticsModel___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::TestAnalyticsModel___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get>();
 }
-inline void GlobalNamespace::__TestAnalyticsModel____c::setStaticF___9__3_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* value) {
+inline void GlobalNamespace::TestAnalyticsModel___c::setStaticF___9__3_0(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>*, "<>9__3_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* GlobalNamespace::__TestAnalyticsModel____c::getStaticF___9__3_0() {
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>* GlobalNamespace::TestAnalyticsModel___c::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, ::StringW>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get>();
 }
-inline ::GlobalNamespace::__TestAnalyticsModel____c* GlobalNamespace::__TestAnalyticsModel____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__TestAnalyticsModel____c*>());
-}
-inline void GlobalNamespace::__TestAnalyticsModel____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get(), ".ctor",
+inline void GlobalNamespace::TestAnalyticsModel___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__TestAnalyticsModel____c::_LogEvent_b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp) {
+inline ::StringW GlobalNamespace::TestAnalyticsModel___c::_LogEvent_b__3_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__TestAnalyticsModel____c*>::get(), "<LogEvent>b__3_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel___c*>::get(), "<LogEvent>b__3_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, kvp);
 }
+inline ::GlobalNamespace::TestAnalyticsModel___c* GlobalNamespace::TestAnalyticsModel___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TestAnalyticsModel___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__TestAnalyticsModel____c::__TestAnalyticsModel____c() {}
+constexpr ::GlobalNamespace::TestAnalyticsModel___c::TestAnalyticsModel___c() {}
 //  Writing Method size for method: ::GlobalNamespace::TestAnalyticsModel.get_supportsOpenDataPrivacyPage
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TestAnalyticsModel::*)()>(
     &::GlobalNamespace::TestAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2214764;
+  constexpr static std::size_t addrs = 0x223f7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)()>(&::GlobalNamespace::TestAnalyticsModel::OpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x221476c;
+  constexpr static std::size_t addrs = 0x223f7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::TestAnalyticsModel::LogEvent)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2214770;
+  constexpr static std::size_t addrs = 0x223f7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::TestAnalyticsModel::LogEditAvatarEvent)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x22148fc;
+  constexpr static std::size_t addrs = 0x223f970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(::GlobalNamespace::BeatSaberSessionEventType, int32_t)>(
     &::GlobalNamespace::TestAnalyticsModel::LogSessionEvent)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x22149d4;
+  constexpr static std::size_t addrs = 0x223fa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::TestAnalyticsModel::LogClick)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2214c50;
+  constexpr static std::size_t addrs = 0x223fcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::TestAnalyticsModel::LogImpression)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2214d28;
+  constexpr static std::size_t addrs = 0x223fd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::TestAnalyticsModel::LogExposure)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2214e00;
+  constexpr static std::size_t addrs = 0x223fe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TestAnalyticsModel::*)()>(&::GlobalNamespace::TestAnalyticsModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2214ed8;
+  constexpr static std::size_t addrs = 0x223ff4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel*>::get(), ".ctor",
@@ -206,14 +206,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
-constexpr GlobalNamespace::TestAnalyticsModel::operator ::GlobalNamespace::IAnalyticsModel*() noexcept {
-  return static_cast<::GlobalNamespace::IAnalyticsModel*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
-constexpr ::GlobalNamespace::IAnalyticsModel* GlobalNamespace::TestAnalyticsModel::i___GlobalNamespace__IAnalyticsModel() noexcept {
-  return static_cast<::GlobalNamespace::IAnalyticsModel*>(static_cast<void*>(this));
-}
 inline bool GlobalNamespace::TestAnalyticsModel::get_supportsOpenDataPrivacyPage() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel*>::get(),
                                                                              "get_supportsOpenDataPrivacyPage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -266,13 +258,21 @@ inline void GlobalNamespace::TestAnalyticsModel::LogExposure(::StringW exposureT
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exposureType, exposureData);
 }
-inline ::GlobalNamespace::TestAnalyticsModel* GlobalNamespace::TestAnalyticsModel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TestAnalyticsModel*>());
-}
 inline void GlobalNamespace::TestAnalyticsModel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TestAnalyticsModel*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::TestAnalyticsModel* GlobalNamespace::TestAnalyticsModel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TestAnalyticsModel*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
+constexpr GlobalNamespace::TestAnalyticsModel::operator ::GlobalNamespace::IAnalyticsModel*() noexcept {
+  return static_cast<::GlobalNamespace::IAnalyticsModel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IAnalyticsModel"
+constexpr ::GlobalNamespace::IAnalyticsModel* GlobalNamespace::TestAnalyticsModel::i___GlobalNamespace__IAnalyticsModel() noexcept {
+  return static_cast<::GlobalNamespace::IAnalyticsModel*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::TestAnalyticsModel::TestAnalyticsModel() {}

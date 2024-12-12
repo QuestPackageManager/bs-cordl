@@ -10,18 +10,13 @@ class IX509StoreParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509StoreParameters);
-// Type: Org.BouncyCastle.X509.Store::IX509StoreParameters
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509.Store::IX509StoreParameters*
+// CS Name: Org.BouncyCastle.X509.Store.IX509StoreParameters
 class CORDL_TYPE IX509StoreParameters {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IX509StoreParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IX509StoreParameters(IX509StoreParameters&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IX509StoreParameters", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IX509StoreParameters(IX509StoreParameters const&) = delete;

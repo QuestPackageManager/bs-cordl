@@ -27,11 +27,10 @@ class OnWillRenderObjectTrigger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OnWillRenderObjectTrigger);
-// Type: ::OnWillRenderObjectTrigger
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OnWillRenderObjectTrigger*
+// CS Name: OnWillRenderObjectTrigger
 class CORDL_TYPE OnWillRenderObjectTrigger : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -55,10 +54,10 @@ public:
 
   static inline ::GlobalNamespace::OnWillRenderObjectTrigger* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3990c98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39e7818, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39908c0, size 0x3d8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39e7440, size 0x3d8, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
@@ -97,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__renderQueue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3990cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e7848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,6 +112,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OnWillRenderObjectTrigger", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OnWillRenderObjectTrigger(OnWillRenderObjectTrigger const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16362 };
 
   /// @brief Field _overrideShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____overrideShader;
@@ -132,14 +134,9 @@ public:
   /// @brief Field _meshRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16326 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OnWillRenderObjectTrigger, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OnWillRenderObjectTrigger, ____overrideShader) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OnWillRenderObjectTrigger, ____renderQueue) == 0x28, "Offset mismatch!");
@@ -151,6 +148,8 @@ static_assert(offsetof(::GlobalNamespace::OnWillRenderObjectTrigger, ____mesh) =
 static_assert(offsetof(::GlobalNamespace::OnWillRenderObjectTrigger, ____meshFilter) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OnWillRenderObjectTrigger, ____meshRenderer) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OnWillRenderObjectTrigger, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OnWillRenderObjectTrigger);

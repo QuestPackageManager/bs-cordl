@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -52,11 +51,10 @@ class MultiplayerIntroAnimationController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroAnimationController);
-// Type: ::MultiplayerIntroAnimationController
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.PropertyName
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerIntroAnimationController*
+// CS Name: MultiplayerIntroAnimationController
 class CORDL_TYPE MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -109,7 +107,7 @@ public:
   __declspec(property(get = __cordl_internal_get__playerTimelineTrackNames, put = __cordl_internal_set__playerTimelineTrackNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _playerTimelineTrackNames;
 
   /// @brief Field _random, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__random, put = setStaticF__random)) ::System::Random* _random;
+  __declspec(property(get = getStaticF__random, put = setStaticF__random)) ::System::Random* _random;
 
   /// @brief Field _ringTimelineTrackNames, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ringTimelineTrackNames, put = __cordl_internal_set__ringTimelineTrackNames)) ::ArrayW<::StringW, ::Array<::StringW>*> _ringTimelineTrackNames;
@@ -120,33 +118,33 @@ public:
   /// @brief Field _spawnDuration, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnDuration, put = __cordl_internal_set__spawnDuration)) float_t _spawnDuration;
 
-  /// @brief Method BindRingsAndSetTiming, addr 0x3b6fb90, size 0x800, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndSetTiming, addr 0x3bd17fc, size 0x800, virtual false, abstract: false, final false
   inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings, ::UnityEngine::GameObject* localRing);
 
-  /// @brief Method BindTimeline, addr 0x3b6e988, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method BindTimeline, addr 0x3bd0a04, size 0x774, virtual false, abstract: false, final false
   inline void BindTimeline();
 
-  /// @brief Method CalculatePlayerIndexSequence, addr 0x3b6f50c, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method CalculatePlayerIndexSequence, addr 0x3bd1178, size 0x580, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<int32_t>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
 
-  /// @brief Method Completed, addr 0x3b70464, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x3bd1ffc, size 0x38, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method GetFullIntroAnimationTime, addr 0x3b6f0fc, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetFullIntroAnimationTime, addr 0x3bcbcb0, size 0x410, virtual false, abstract: false, final false
   inline int64_t GetFullIntroAnimationTime();
 
   static inline ::GlobalNamespace::MultiplayerIntroAnimationController* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3b6e2fc, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x3bd0488, size 0x57c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PlayIntroAnimation, addr 0x3b6e878, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method PlayIntroAnimation, addr 0x3bcc0c0, size 0x110, virtual false, abstract: false, final false
   inline void PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
 
-  /// @brief Method SetBeforeIntroValue, addr 0x3b6c768, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValue, addr 0x3bce904, size 0x474, virtual false, abstract: false, final false
   inline void SetBeforeIntroValue();
 
-  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x3b70390, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x3bcc1d0, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();
 
   constexpr bool const& __cordl_internal_get__bindingFinished() const;
@@ -169,9 +167,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__introPlayableDirector();
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
   constexpr ::StringW const& __cordl_internal_get__localPlayerRingTrackName() const;
 
@@ -189,13 +187,13 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
 
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::System::Action* const& __cordl_internal_get__onCompleted() const;
 
   constexpr ::System::Action*& __cordl_internal_get__onCompleted();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onCompleted() const;
 
   constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& __cordl_internal_get__playerTimelinePropertyNames() const;
 
@@ -251,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7049c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd2034, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF__random();
@@ -271,6 +269,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerIntroAnimationController(MultiplayerIntroAnimationController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4567 };
 
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;
@@ -323,14 +324,9 @@ public:
   /// @brief Field _bindingFinished, offset: 0x98, size: 0x1, def value: None
   bool ____bindingFinished;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4555 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroAnimationController, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____introPlayableDirector) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____playerTimelineTrackNames) == 0x28, "Offset mismatch!");
@@ -364,6 +360,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, _
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____introDuration) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____bindingFinished) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroAnimationController, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroAnimationController);

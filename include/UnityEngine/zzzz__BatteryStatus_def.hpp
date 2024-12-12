@@ -12,11 +12,10 @@ struct BatteryStatus;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::BatteryStatus);
-// Type: UnityEngine::BatteryStatus
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::BatteryStatus
+// CS Name: UnityEngine.BatteryStatus
 struct CORDL_TYPE BatteryStatus {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BatteryStatus(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Charging value: static_cast<int32_t>(0x1)
+  /// @brief Field Charging value: I32(1)
   static ::UnityEngine::BatteryStatus const Charging;
 
-  /// @brief Field Discharging value: static_cast<int32_t>(0x2)
+  /// @brief Field Discharging value: I32(2)
   static ::UnityEngine::BatteryStatus const Discharging;
 
-  /// @brief Field Full value: static_cast<int32_t>(0x4)
+  /// @brief Field Full value: I32(4)
   static ::UnityEngine::BatteryStatus const Full;
 
-  /// @brief Field NotCharging value: static_cast<int32_t>(0x3)
+  /// @brief Field NotCharging value: I32(3)
   static ::UnityEngine::BatteryStatus const NotCharging;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  /// @brief Field Unknown value: I32(0)
   static ::UnityEngine::BatteryStatus const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::BatteryStatus, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::BatteryStatus, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::BatteryStatus, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BatteryStatus, "UnityEngine", "BatteryStatus");

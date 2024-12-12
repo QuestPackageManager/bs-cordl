@@ -23,11 +23,10 @@ class HapticFeedbackManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HapticFeedbackManager);
-// Type: ::HapticFeedbackManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HapticFeedbackManager*
+// CS Name: HapticFeedbackManager
 class CORDL_TYPE HapticFeedbackManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,12 +43,12 @@ public:
 
   static inline ::GlobalNamespace::HapticFeedbackManager* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39717e8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method PlayHapticFeedback, addr 0x39c6d44, size 0x16c, virtual false, abstract: false, final false
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  constexpr ::GlobalNamespace::IHapticFeedbackPlayer*& __cordl_internal_get__advancedHapticFeedbackPlayer();
+  constexpr ::GlobalNamespace::IHapticFeedbackPlayer* const& __cordl_internal_get__advancedHapticFeedbackPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IHapticFeedbackPlayer*> const& __cordl_internal_get__advancedHapticFeedbackPlayer() const;
+  constexpr ::GlobalNamespace::IHapticFeedbackPlayer*& __cordl_internal_get__advancedHapticFeedbackPlayer();
 
   constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> const& __cordl_internal_get__rumbleHapticFeedbackPlayer() const;
 
@@ -65,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_hapticFeedbackEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x3971a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39c6f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HapticFeedbackManager(HapticFeedbackManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16454 };
+
   /// @brief Field _rumbleHapticFeedbackPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer> ____rumbleHapticFeedbackPlayer;
 
@@ -91,19 +93,16 @@ public:
   /// @brief Field hapticFeedbackEnabled, offset: 0x30, size: 0x1, def value: None
   bool ___hapticFeedbackEnabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16418 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HapticFeedbackManager, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HapticFeedbackManager, ____rumbleHapticFeedbackPlayer) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HapticFeedbackManager, ____advancedHapticFeedbackPlayer) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HapticFeedbackManager, ___hapticFeedbackEnabled) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HapticFeedbackManager, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HapticFeedbackManager);

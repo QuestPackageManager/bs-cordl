@@ -13,27 +13,22 @@ class IBackgroundCommand;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBackgroundCommand);
-// Type: ::IBackgroundCommand
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IBackgroundCommand*
+// CS Name: IBackgroundCommand
 class CORDL_TYPE IBackgroundCommand {
 public:
   // Declarations
-  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Execute, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Execute();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IBackgroundCommand", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IBackgroundCommand(IBackgroundCommand&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IBackgroundCommand", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IBackgroundCommand(IBackgroundCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17106 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

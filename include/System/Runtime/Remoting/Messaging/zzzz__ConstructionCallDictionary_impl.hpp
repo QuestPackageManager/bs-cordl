@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(
     ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c89564;
+  constexpr static std::size_t addrs = 0x3ce96d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::GetMethodProperty)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x3c8a514;
+  constexpr static std::size_t addrs = 0x3cea688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::SetMethodProperty)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3c8ae44;
+  constexpr static std::size_t addrs = 0x3ceafb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,10 +60,6 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Runtime::Remoting::Messa
   return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "InternalKeys",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>::get>();
 }
-inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*
-System::Runtime::Remoting::Messaging::ConstructionCallDictionary::New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>(message));
-}
 inline void System::Runtime::Remoting::Messaging::ConstructionCallDictionary::_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -81,6 +77,10 @@ inline void System::Runtime::Remoting::Messaging::ConstructionCallDictionary::Se
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
+}
+inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*
+System::Runtime::Remoting::Messaging::ConstructionCallDictionary::New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::ConstructionCallDictionary*>(message));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary::ConstructionCallDictionary() {}

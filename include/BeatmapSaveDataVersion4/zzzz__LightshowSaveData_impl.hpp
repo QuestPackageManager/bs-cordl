@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::LightshowSaveData::*)()>(&::BeatmapSaveDataVersion4::LightshowSaveData::_ctor)> {
   constexpr static std::size_t size = 0x730;
-  constexpr static std::size_t addrs = 0x26d3054;
+  constexpr static std::size_t addrs = 0x27049c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(), ".ctor",
@@ -272,8 +272,7 @@ constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& BeatmapSaveData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*> const&
-BeatmapSaveDataVersion4::LightshowSaveData::__cordl_internal_get_basicEventTypesWithKeywords() const {
+constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* const& BeatmapSaveDataVersion4::LightshowSaveData::__cordl_internal_get_basicEventTypesWithKeywords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
@@ -293,13 +292,13 @@ constexpr void BeatmapSaveDataVersion4::LightshowSaveData::__cordl_internal_set_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useNormalEventsAsCompatibleEvents = value;
 }
-inline ::BeatmapSaveDataVersion4::LightshowSaveData* BeatmapSaveDataVersion4::LightshowSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::LightshowSaveData*>());
-}
 inline void BeatmapSaveDataVersion4::LightshowSaveData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatmapSaveDataVersion4::LightshowSaveData* BeatmapSaveDataVersion4::LightshowSaveData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion4::LightshowSaveData*>());
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion4::LightshowSaveData::LightshowSaveData() {}

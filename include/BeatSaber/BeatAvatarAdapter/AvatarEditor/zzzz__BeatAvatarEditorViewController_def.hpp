@@ -6,9 +6,9 @@ CORDL_MODULE_INIT
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPart_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,13 +17,13 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class AvatarEditHistory;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-struct __BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57;
+struct BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __BeatAvatarEditorViewController____c__DisplayClass60_0;
+class BeatAvatarEditorViewController___c__DisplayClass60_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass62_0_1;
+template <typename T> class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
 }
 namespace BeatSaber::BeatAvatarSDK {
 class AvatarDataModel;
@@ -44,16 +44,16 @@ namespace GlobalNamespace {
 class ColorPickerButtonController;
 }
 namespace GlobalNamespace {
+class NamedColorListController_ColorValuePair;
+}
+namespace GlobalNamespace {
 class NamedColorListController;
 }
 namespace GlobalNamespace {
+class NamedIntListController_TextValuePair;
+}
+namespace GlobalNamespace {
 class NamedIntListController;
-}
-namespace GlobalNamespace {
-class __NamedColorListController__ColorValuePair;
-}
-namespace GlobalNamespace {
-class __NamedIntListController__TextValuePair;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -65,13 +65,7 @@ namespace HMUI {
 template <typename T> class ValueChangedBinder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -99,25 +93,24 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 class BeatAvatarEditorViewController;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-class __BeatAvatarEditorViewController____c__DisplayClass60_0;
+class BeatAvatarEditorViewController___c__DisplayClass60_0;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-template <typename T> class __BeatAvatarEditorViewController____c__DisplayClass62_0_1;
+template <typename T> class BeatAvatarEditorViewController___c__DisplayClass62_0_1;
 }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
-struct __BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57;
+struct BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController);
-MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0);
-MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0_1);
-MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57);
-// Type: ::<>c__DisplayClass60_0
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0);
+MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1);
+MARK_VAL_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57);
+// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart, System.Object
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass60_0*
-class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass60_0 : public ::System::Object {
+// CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.BeatAvatarEditorViewController/<>c__DisplayClass60_0
+class CORDL_TYPE BeatAvatarEditorViewController___c__DisplayClass60_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -135,9 +128,9 @@ public:
   /// @brief Field uvSegment, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_uvSegment, put = __cordl_internal_set_uvSegment)) int32_t uvSegment;
 
-  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0* New_ctor();
+  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0* New_ctor();
 
-  /// @brief Method <SetupColorButton>b__0, addr 0x222ac50, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <SetupColorButton>b__0, addr 0x22561c4, size 0x58, virtual false, abstract: false, final false
   inline void _SetupColorButton_b__0();
 
   constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get___4__this() const;
@@ -148,13 +141,13 @@ public:
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __cordl_internal_get_avatarEditPart();
 
+  constexpr ::System::Action_1<::UnityEngine::Color>* const& __cordl_internal_get_colorSetter() const;
+
   constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorSetter() const;
+  constexpr ::System::Func_1<::UnityEngine::Color>* const& __cordl_internal_get_currentColorGetter() const;
 
   constexpr ::System::Func_1<::UnityEngine::Color>*& __cordl_internal_get_currentColorGetter();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::Color>*> const& __cordl_internal_get_currentColorGetter() const;
 
   constexpr int32_t const& __cordl_internal_get_uvSegment() const;
 
@@ -170,22 +163,25 @@ public:
 
   constexpr void __cordl_internal_set_uvSegment(int32_t value);
 
-  /// @brief Method .ctor, addr 0x222a96c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255ee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatAvatarEditorViewController____c__DisplayClass60_0();
+  constexpr BeatAvatarEditorViewController___c__DisplayClass60_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatAvatarEditorViewController____c__DisplayClass60_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass60_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BeatAvatarEditorViewController____c__DisplayClass60_0(__BeatAvatarEditorViewController____c__DisplayClass60_0&&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass60_0(BeatAvatarEditorViewController___c__DisplayClass60_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatAvatarEditorViewController____c__DisplayClass60_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass60_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BeatAvatarEditorViewController____c__DisplayClass60_0(__BeatAvatarEditorViewController____c__DisplayClass60_0 const&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass60_0(BeatAvatarEditorViewController___c__DisplayClass60_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17709 };
 
   /// @brief Field currentColorGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::Color>* ___currentColorGetter;
@@ -202,33 +198,29 @@ public:
   /// @brief Field uvSegment, offset: 0x2c, size: 0x4, def value: None
   int32_t ___uvSegment;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, 0x30>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, ___currentColorGetter) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, ___currentColorGetter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, _____4__this) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, _____4__this) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, ___colorSetter) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, ___colorSetter) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, ___avatarEditPart) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, ___avatarEditPart) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, ___uvSegment) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0, ___uvSegment) == 0x2c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0, 0x30>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
-// Type: ::<>c__DisplayClass62_0`1
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart, System.Object
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass62_0`1<T>*
-class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass62_0_1 : public ::System::Object {
+// CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.BeatAvatarEditorViewController/<>c__DisplayClass62_0`1<T>
+class CORDL_TYPE BeatAvatarEditorViewController___c__DisplayClass62_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x20, size 0x8
@@ -243,7 +235,7 @@ public:
   /// @brief Field setIdAction, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_setIdAction, put = __cordl_internal_set_setIdAction)) ::System::Action_1<::StringW>* setIdAction;
 
-  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0_1<T>* New_ctor();
+  static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>* New_ctor();
 
   /// @brief Method <SetupValuePicker>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SetupValuePicker_b__0(int32_t idx);
@@ -256,13 +248,13 @@ public:
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __cordl_internal_get_avatarEditPart();
 
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* const& __cordl_internal_get_partCollection() const;
+
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*& __cordl_internal_get_partCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*> const& __cordl_internal_get_partCollection() const;
+  constexpr ::System::Action_1<::StringW>* const& __cordl_internal_get_setIdAction() const;
 
   constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_setIdAction();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_setIdAction() const;
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
 
@@ -278,16 +270,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatAvatarEditorViewController____c__DisplayClass62_0_1();
+  constexpr BeatAvatarEditorViewController___c__DisplayClass62_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatAvatarEditorViewController____c__DisplayClass62_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass62_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BeatAvatarEditorViewController____c__DisplayClass62_0_1(__BeatAvatarEditorViewController____c__DisplayClass62_0_1&&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass62_0_1(BeatAvatarEditorViewController___c__DisplayClass62_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatAvatarEditorViewController____c__DisplayClass62_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController___c__DisplayClass62_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BeatAvatarEditorViewController____c__DisplayClass62_0_1(__BeatAvatarEditorViewController____c__DisplayClass62_0_1 const&) = delete;
+  BeatAvatarEditorViewController___c__DisplayClass62_0_1(BeatAvatarEditorViewController___c__DisplayClass62_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17710 };
 
   /// @brief Field setIdAction, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___setIdAction;
@@ -301,28 +296,24 @@ public:
   /// @brief Field avatarEditPart, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPart ___avatarEditPart;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17666 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
-// Type: ::<HandleCancelButtonWasPressed>d__57
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: true
-// CS Name: ::BeatAvatarEditorViewController::<HandleCancelButtonWasPressed>d__57
-struct CORDL_TYPE __BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57 {
+// CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.BeatAvatarEditorViewController/<HandleCancelButtonWasPressed>d__57
+struct CORDL_TYPE BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x222aca8, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x225621c, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x222af08, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x225647c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -330,15 +321,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57();
+  constexpr BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> __4__this,
-                                                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                               ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> __4__this,
+                                                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17711 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -352,39 +349,32 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17667 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, 0x38>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, 0x38>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
-// Type: BeatSaber.BeatAvatarAdapter.AvatarEditor::BeatAvatarEditorViewController
-// SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 348, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.BeatAvatarSDK.AvatarPart, HMUI.ViewController
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::BeatAvatarEditorViewController*
+// CS Name: BeatSaber.BeatAvatarAdapter.AvatarEditor.BeatAvatarEditorViewController
 class CORDL_TYPE BeatAvatarEditorViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _HandleCancelButtonWasPressed_d__57 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57;
+  using _HandleCancelButtonWasPressed_d__57 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57;
 
-  using __c__DisplayClass60_0 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0;
+  using __c__DisplayClass60_0 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0;
 
-  template <typename T> using __c__DisplayClass62_0_1 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0_1<T>;
+  template <typename T> using __c__DisplayClass62_0_1 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1<T>;
 
   /// @brief Field _applyButton, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__applyButton, put = __cordl_internal_set__applyButton)) ::UnityW<::UnityEngine::UI::Button> _applyButton;
@@ -488,66 +478,66 @@ public:
   /// @brief Field randomizeAllButtonWasPressedEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_randomizeAllButtonWasPressedEvent, put = __cordl_internal_set_randomizeAllButtonWasPressedEvent)) ::System::Action* randomizeAllButtonWasPressedEvent;
 
-  /// @brief Method CreateColorValuePairsForAvatarPartCollection, addr 0x222a25c, size 0x118, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::__NamedColorListController__ColorValuePair*, ::Array<::GlobalNamespace::__NamedColorListController__ColorValuePair*>*>
+  /// @brief Method CreateColorValuePairsForAvatarPartCollection, addr 0x22557d0, size 0x118, virtual false, abstract: false, final false
+  inline ::ArrayW<::GlobalNamespace::NamedColorListController_ColorValuePair*, ::Array<::GlobalNamespace::NamedColorListController_ColorValuePair*>*>
   CreateColorValuePairsForAvatarPartCollection(::ArrayW<::BeatSaber::BeatAvatarSDK::SkinColorSO*, ::Array<::BeatSaber::BeatAvatarSDK::SkinColorSO*>*> colors);
 
   /// @brief Method CreateTextValuePairsForAvatarPartCollection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
-  static inline ::ArrayW<::GlobalNamespace::__NamedIntListController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListController__TextValuePair*>*>
+  static inline ::ArrayW<::GlobalNamespace::NamedIntListController_TextValuePair*, ::Array<::GlobalNamespace::NamedIntListController_TextValuePair*>*>
   CreateTextValuePairsForAvatarPartCollection(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection);
 
-  /// @brief Method DidActivate, addr 0x2229938, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2254eac, size 0x3c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method EyesValuePickerHasChanged, addr 0x222a59c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method EyesValuePickerHasChanged, addr 0x2255b10, size 0x98, virtual false, abstract: false, final false
   inline void EyesValuePickerHasChanged(::StringW eyesId);
 
-  /// @brief Method HandleApplyButtonWasPressed, addr 0x222a81c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleApplyButtonWasPressed, addr 0x2255d90, size 0xc0, virtual false, abstract: false, final false
   inline void HandleApplyButtonWasPressed();
 
-  /// @brief Method HandleCancelButtonWasPressed, addr 0x222a8dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonWasPressed, addr 0x2255e50, size 0x90, virtual false, abstract: false, final false
   inline void HandleCancelButtonWasPressed();
 
-  /// @brief Method HandleRandomizeAllButtonWasPressed, addr 0x222a3b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeAllButtonWasPressed, addr 0x225592c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleRandomizeAllButtonWasPressed();
 
-  /// @brief Method HandleRandomizeColorsButtonWasPressed, addr 0x222a7ac, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeColorsButtonWasPressed, addr 0x2255d20, size 0x70, virtual false, abstract: false, final false
   inline void HandleRandomizeColorsButtonWasPressed();
 
-  /// @brief Method HandleRandomizeModelsButtonWasPressed, addr 0x222a734, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleRandomizeModelsButtonWasPressed, addr 0x2255ca8, size 0x78, virtual false, abstract: false, final false
   inline void HandleRandomizeModelsButtonWasPressed();
 
-  /// @brief Method HandleRedoButtonWasPressed, addr 0x222a634, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HandleRedoButtonWasPressed, addr 0x2255ba8, size 0xa8, virtual false, abstract: false, final false
   inline void HandleRedoButtonWasPressed();
 
-  /// @brief Method HandleSkinColorDidChanged, addr 0x222a508, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleSkinColorDidChanged, addr 0x2255a7c, size 0x94, virtual false, abstract: false, final false
   inline void HandleSkinColorDidChanged(int32_t value);
 
-  /// @brief Method HandleUndoButtonWasPressed, addr 0x222a454, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleUndoButtonWasPressed, addr 0x22559c8, size 0xb4, virtual false, abstract: false, final false
   inline void HandleUndoButtonWasPressed();
 
-  /// @brief Method InitHistory, addr 0x22252a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InitHistory, addr 0x2250814, size 0x40, virtual false, abstract: false, final false
   inline void InitHistory();
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* New_ctor();
 
-  /// @brief Method OneTimeInitialize, addr 0x2229974, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method OneTimeInitialize, addr 0x2254ee8, size 0x7f8, virtual false, abstract: false, final false
   inline void OneTimeInitialize();
 
-  /// @brief Method RefreshUi, addr 0x2225440, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method RefreshUi, addr 0x22509b4, size 0x32c, virtual false, abstract: false, final false
   inline void RefreshUi();
 
-  /// @brief Method ReportAllChangedAndUpdate, addr 0x222a6dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReportAllChangedAndUpdate, addr 0x2255c50, size 0x58, virtual false, abstract: false, final false
   inline void ReportAllChangedAndUpdate();
 
-  /// @brief Method SaveColorChange, addr 0x222624c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SaveColorChange, addr 0x22517c0, size 0x28, virtual false, abstract: false, final false
   inline void SaveColorChange(::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
-  /// @brief Method Setup, addr 0x2224a04, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x224ff78, size 0x90, virtual false, abstract: false, final false
   inline void Setup(bool showAsCreateView);
 
-  /// @brief Method SetupColorButton, addr 0x222a16c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetupColorButton, addr 0x22556e0, size 0xf0, virtual false, abstract: false, final false
   inline void SetupColorButton(::UnityEngine::UI::Button* button, ::System::Action_1<::UnityEngine::Color>* colorSetter, ::System::Func_1<::UnityEngine::Color>* currentColorGetter,
                                ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart, int32_t uvSegment);
 
@@ -556,55 +546,55 @@ public:
   inline void SetupValuePicker(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection, ::GlobalNamespace::NamedIntListController* valuePicker,
                                ::System::Action_1<::StringW>* setIdAction, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
-  /// @brief Method Update, addr 0x222a374, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x22558e8, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateButtons, addr 0x22298e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method UpdateButtons, addr 0x2254e54, size 0x58, virtual false, abstract: false, final false
   inline void UpdateButtons();
 
-  /// @brief Method <OneTimeInitialize>b__45_0, addr 0x222aa04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_0, addr 0x2255f78, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_0(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_1, addr 0x222aa2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_1, addr 0x2255fa0, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_1();
 
-  /// @brief Method <OneTimeInitialize>b__45_10, addr 0x222ab94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_10, addr 0x2256108, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_10(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_11, addr 0x222abbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_11, addr 0x2256130, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_11();
 
-  /// @brief Method <OneTimeInitialize>b__45_12, addr 0x222abe4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_12, addr 0x2256158, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_12(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__45_13, addr 0x222ac08, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_13, addr 0x225617c, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_13(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__45_14, addr 0x222ac2c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_14, addr 0x22561a0, size 0x24, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_14(::StringW s);
 
-  /// @brief Method <OneTimeInitialize>b__45_2, addr 0x222aa54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_2, addr 0x2255fc8, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_2(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_3, addr 0x222aa7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_3, addr 0x2255ff0, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_3();
 
-  /// @brief Method <OneTimeInitialize>b__45_4, addr 0x222aaa4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_4, addr 0x2256018, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_4(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_5, addr 0x222aacc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_5, addr 0x2256040, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_5();
 
-  /// @brief Method <OneTimeInitialize>b__45_6, addr 0x222aaf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_6, addr 0x2256068, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_6(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_7, addr 0x222ab1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_7, addr 0x2256090, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_7();
 
-  /// @brief Method <OneTimeInitialize>b__45_8, addr 0x222ab44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_8, addr 0x22560b8, size 0x28, virtual false, abstract: false, final false
   inline void _OneTimeInitialize_b__45_8(::UnityEngine::Color color);
 
-  /// @brief Method <OneTimeInitialize>b__45_9, addr 0x222ab6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <OneTimeInitialize>b__45_9, addr 0x22560e0, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Color _OneTimeInitialize_b__45_9();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -615,21 +605,21 @@ public:
 
   constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__applyButtonText();
 
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel* const& __cordl_internal_get__avatarDataModel() const;
+
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
+  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* const& __cordl_internal_get__avatarEditHistory() const;
 
   constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*& __cordl_internal_get__avatarEditHistory();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*> const& __cordl_internal_get__avatarEditHistory() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* const& __cordl_internal_get__avatarPartsModel() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __cordl_internal_get__avatarPartsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __cordl_internal_get__avatarPartsModel() const;
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
-
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
@@ -679,9 +669,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NamedIntListController>& __cordl_internal_get__headTopValuePicker();
 
-  constexpr ::HMUI::ValueChangedBinder_1<int32_t>*& __cordl_internal_get__intPickerBinder();
+  constexpr ::HMUI::ValueChangedBinder_1<int32_t>* const& __cordl_internal_get__intPickerBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ValueChangedBinder_1<int32_t>*> const& __cordl_internal_get__intPickerBinder() const;
+  constexpr ::HMUI::ValueChangedBinder_1<int32_t>*& __cordl_internal_get__intPickerBinder();
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __cordl_internal_get__lastEditedPart() const;
 
@@ -703,26 +693,26 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__undoButton();
 
+  constexpr ::System::Action* const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_cancelButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
+  constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* const& __cordl_internal_get_didChangedAvatarPartEvent() const;
 
   constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*& __cordl_internal_get_didChangedAvatarPartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*> const& __cordl_internal_get_didChangedAvatarPartEvent() const;
+  constexpr ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* const&
+  __cordl_internal_get_didRequestColorChangeEvent() const;
 
   constexpr ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*& __cordl_internal_get_didRequestColorChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*> const&
-  __cordl_internal_get_didRequestColorChangeEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_okButtonWasPressedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_okButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_okButtonWasPressedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_randomizeAllButtonWasPressedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_randomizeAllButtonWasPressedEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_randomizeAllButtonWasPressedEvent() const;
 
   constexpr void __cordl_internal_set__applyButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -783,37 +773,37 @@ public:
 
   constexpr void __cordl_internal_set_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x222a974, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2255ee8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x22250c0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x2250634, size 0xa0, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_didChangedAvatarPartEvent, addr 0x222500c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didChangedAvatarPartEvent, addr 0x2250580, size 0xb4, virtual false, abstract: false, final false
   inline void add_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
 
-  /// @brief Method add_didRequestColorChangeEvent, addr 0x2224f58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestColorChangeEvent, addr 0x22504cc, size 0xb4, virtual false, abstract: false, final false
   inline void add_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x2225160, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x22506d4, size 0xa0, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0x2225200, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0x2250774, size 0xa0, virtual false, abstract: false, final false
   inline void add_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x2225b9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x2251110, size 0xa0, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangedAvatarPartEvent, addr 0x2225ae8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangedAvatarPartEvent, addr 0x225105c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
 
-  /// @brief Method remove_didRequestColorChangeEvent, addr 0x2225a34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestColorChangeEvent, addr 0x2250fa8, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x2225c3c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x22511b0, size 0xa0, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0x2225cdc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0x2251250, size 0xa0, virtual false, abstract: false, final false
   inline void remove_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
 protected:
@@ -829,6 +819,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatAvatarEditorViewController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatAvatarEditorViewController(BeatAvatarEditorViewController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17712 };
+
+  /// @brief Field kCreateApplyButtonLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kCreateApplyButtonLocalizationKey{ u"BUTTON_CREATE_AVATAR" };
+
+  /// @brief Field kEditApplyButtonLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEditApplyButtonLocalizationKey{ u"BUTTON_APPLY" };
 
   /// @brief Field _skinColorValuePicker, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedColorListController> ____skinColorValuePicker;
@@ -917,20 +916,9 @@ public:
   /// @brief Field _lastEditedPart, offset: 0x158, size: 0x4, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPart ____lastEditedPart;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17668 };
-
-  /// @brief Field kCreateApplyButtonLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kCreateApplyButtonLocalizationKey{ u"BUTTON_CREATE_AVATAR" };
-
-  /// @brief Field kEditApplyButtonLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEditApplyButtonLocalizationKey{ u"BUTTON_APPLY" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController, 0x160>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController, ____skinColorValuePicker) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController, ____headTopValuePicker) == 0x80, "Offset mismatch!");
@@ -989,13 +977,15 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarE
 
 static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController, ____lastEditedPart) == 0x158, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController, 0x160>, "Size mismatch!");
+
 } // namespace BeatSaber::BeatAvatarAdapter::AvatarEditor
 NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*, "BeatSaber.BeatAvatarAdapter.AvatarEditor", "BeatAvatarEditorViewController");
-NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass60_0*, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
+NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass60_0*, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
                        "BeatAvatarEditorViewController/<>c__DisplayClass60_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0_1, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController___c__DisplayClass62_0_1, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
                                      "BeatAvatarEditorViewController/<>c__DisplayClass62_0`1");
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController___HandleCancelButtonWasPressed_d__57, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController__HandleCancelButtonWasPressed_d__57, "BeatSaber.BeatAvatarAdapter.AvatarEditor",
                        "BeatAvatarEditorViewController/<HandleCancelButtonWasPressed>d__57");

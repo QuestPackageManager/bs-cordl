@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::DefaultDependencyAttribute::*)(
     ::System::Runtime::CompilerServices::LoadHint)>(&::System::Runtime::CompilerServices::DefaultDependencyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cb9694;
+  constexpr static std::size_t addrs = 0x3d19808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,15 +31,15 @@ constexpr void System::Runtime::CompilerServices::DefaultDependencyAttribute::__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___loadHint = value;
 }
-inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute*
-System::Runtime::CompilerServices::DefaultDependencyAttribute::New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>(loadHintArgument));
-}
 inline void System::Runtime::CompilerServices::DefaultDependencyAttribute::_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::LoadHint>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, loadHintArgument);
+}
+inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute*
+System::Runtime::CompilerServices::DefaultDependencyAttribute::New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::DefaultDependencyAttribute*>(loadHintArgument));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::DefaultDependencyAttribute::DefaultDependencyAttribute() {}

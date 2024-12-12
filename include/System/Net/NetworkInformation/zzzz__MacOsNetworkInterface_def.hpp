@@ -19,11 +19,10 @@ class MacOsNetworkInterface;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterface);
-// Type: System.Net.NetworkInformation::MacOsNetworkInterface
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.UnixNetworkInterface
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterface*
+// CS Name: System.Net.NetworkInformation.MacOsNetworkInterface
 class CORDL_TYPE MacOsNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
   /// @brief Field _ifa_flags, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__ifa_flags, put = __cordl_internal_set__ifa_flags)) uint32_t _ifa_flags;
 
-  /// @brief Method GetIPProperties, addr 0x438b7a0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x43ecab4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::MacOsNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags);
@@ -43,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__ifa_flags(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x438b77c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43eca90, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, uint32_t ifa_flags);
 
-  /// @brief Method get_OperationalStatus, addr 0x438b80c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x43ecb20, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:
@@ -63,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MacOsNetworkInterface(MacOsNetworkInterface const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9796 };
+
   /// @brief Field _ifa_flags, offset: 0x34, size: 0x4, def value: None
   uint32_t ____ifa_flags;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9771 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterface, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsNetworkInterface, ____ifa_flags) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterface, 0x38>, "Size mismatch!");
 
 } // namespace System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterface);

@@ -13,31 +13,15 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerBadgeAwardData* (
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::GlobalNamespace::PlayerDataModel*,
-                                                           ByRef<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData)> {
+                                                           ::ByRef<::GlobalNamespace::BeatmapKey>, float_t)>(&::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26a2334;
+  constexpr static std::size_t addrs = 0x26d7068;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(), 4));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO.GetValue
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
-    &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::GetValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(), 5));
     return ___internal_method;
   }
 };
@@ -48,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMax)> {
   constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x26a2348;
+  constexpr static std::size_t addrs = 0x26d707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +50,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, float_t)>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMin)> {
   constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x26a28d8;
+  constexpr static std::size_t addrs = 0x26d760c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26a12a8;
+  constexpr static std::size_t addrs = 0x26d5fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(),
@@ -117,7 +101,7 @@ constexpr void GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::__cordl_interna
 }
 inline ::GlobalNamespace::MultiplayerBadgeAwardData*
 GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, float_t randomMultiplier) {
+                                                                     ::GlobalNamespace::PlayerDataModel* playerDataModel, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, float_t randomMultiplier) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerBadgeAwardData*, false>(this, ___internal_method, resultsData, playerDataModel, beatmapKey, randomMultiplier);
@@ -147,13 +131,13 @@ GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMin(::System::Collect
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerBadgeAwardData*, false>(this, ___internal_method, resultsData, randomMultiplier);
 }
-inline ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO* GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>());
-}
 inline void GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO* GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::MultiplayerBadgeDataMinMaxIntSO() {}

@@ -2,7 +2,6 @@
 // IWYU pragma private; include "LiteNetLib/NetEvent.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
-#include "LiteNetLib/zzzz__NetEvent_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
@@ -14,26 +13,26 @@
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::LiteNetLib::__NetEvent__EType::__NetEvent__EType(int32_t value__) noexcept {
+constexpr ::LiteNetLib::NetEvent_EType::NetEvent_EType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::LiteNetLib::__NetEvent__EType::__NetEvent__EType() {}
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::Connect{ static_cast<int32_t>(0x0) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::Disconnect{ static_cast<int32_t>(0x1) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::Receive{ static_cast<int32_t>(0x2) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::ReceiveUnconnected{ static_cast<int32_t>(0x3) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::Error{ static_cast<int32_t>(0x4) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::ConnectionLatencyUpdated{ static_cast<int32_t>(0x5) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::Broadcast{ static_cast<int32_t>(0x6) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::ConnectionRequest{ static_cast<int32_t>(0x7) };
-constexpr ::LiteNetLib::__NetEvent__EType LiteNetLib::__NetEvent__EType::MessageDelivered{ static_cast<int32_t>(0x8) };
+constexpr ::LiteNetLib::NetEvent_EType::NetEvent_EType() {}
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::Connect{ static_cast<int32_t>(0x0) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::Disconnect{ static_cast<int32_t>(0x1) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::Receive{ static_cast<int32_t>(0x2) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::ReceiveUnconnected{ static_cast<int32_t>(0x3) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::Error{ static_cast<int32_t>(0x4) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::ConnectionLatencyUpdated{ static_cast<int32_t>(0x5) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::Broadcast{ static_cast<int32_t>(0x6) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::ConnectionRequest{ static_cast<int32_t>(0x7) };
+constexpr ::LiteNetLib::NetEvent_EType LiteNetLib::NetEvent_EType::MessageDelivered{ static_cast<int32_t>(0x8) };
 //  Writing Method size for method: ::LiteNetLib::NetEvent._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetEvent::*)(::LiteNetLib::NetManager*)>(&::LiteNetLib::NetEvent::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3a5995c;
+  constexpr static std::size_t addrs = 0x3ab05cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,15 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::LiteNetLib::__NetEvent__EType& LiteNetLib::NetEvent::__cordl_internal_get_Type() {
+constexpr ::LiteNetLib::NetEvent_EType& LiteNetLib::NetEvent::__cordl_internal_get_Type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
-constexpr ::LiteNetLib::__NetEvent__EType const& LiteNetLib::NetEvent::__cordl_internal_get_Type() const {
+constexpr ::LiteNetLib::NetEvent_EType const& LiteNetLib::NetEvent::__cordl_internal_get_Type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Type;
 }
-constexpr void LiteNetLib::NetEvent::__cordl_internal_set_Type(::LiteNetLib::__NetEvent__EType value) {
+constexpr void LiteNetLib::NetEvent::__cordl_internal_set_Type(::LiteNetLib::NetEvent_EType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Type = value;
 }
@@ -58,7 +57,7 @@ constexpr ::LiteNetLib::NetPeer*& LiteNetLib::NetEvent::__cordl_internal_get_Pee
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Peer;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& LiteNetLib::NetEvent::__cordl_internal_get_Peer() const {
+constexpr ::LiteNetLib::NetPeer* const& LiteNetLib::NetEvent::__cordl_internal_get_Peer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Peer;
 }
@@ -70,7 +69,7 @@ constexpr ::System::Net::IPEndPoint*& LiteNetLib::NetEvent::__cordl_internal_get
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteEndPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& LiteNetLib::NetEvent::__cordl_internal_get_RemoteEndPoint() const {
+constexpr ::System::Net::IPEndPoint* const& LiteNetLib::NetEvent::__cordl_internal_get_RemoteEndPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___RemoteEndPoint;
 }
@@ -82,7 +81,7 @@ constexpr ::System::Object*& LiteNetLib::NetEvent::__cordl_internal_get_UserData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& LiteNetLib::NetEvent::__cordl_internal_get_UserData() const {
+constexpr ::System::Object* const& LiteNetLib::NetEvent::__cordl_internal_get_UserData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UserData;
 }
@@ -130,7 +129,7 @@ constexpr ::LiteNetLib::ConnectionRequest*& LiteNetLib::NetEvent::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionRequest;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::ConnectionRequest*> const& LiteNetLib::NetEvent::__cordl_internal_get_ConnectionRequest() const {
+constexpr ::LiteNetLib::ConnectionRequest* const& LiteNetLib::NetEvent::__cordl_internal_get_ConnectionRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ConnectionRequest;
 }
@@ -154,7 +153,7 @@ constexpr ::LiteNetLib::NetPacketReader*& LiteNetLib::NetEvent::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DataReader;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacketReader*> const& LiteNetLib::NetEvent::__cordl_internal_get_DataReader() const {
+constexpr ::LiteNetLib::NetPacketReader* const& LiteNetLib::NetEvent::__cordl_internal_get_DataReader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DataReader;
 }
@@ -162,14 +161,14 @@ constexpr void LiteNetLib::NetEvent::__cordl_internal_set_DataReader(::LiteNetLi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DataReader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::LiteNetLib::NetEvent* LiteNetLib::NetEvent::New_ctor(::LiteNetLib::NetManager* manager) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetEvent*>(manager));
-}
 inline void LiteNetLib::NetEvent::_ctor(::LiteNetLib::NetManager* manager) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetEvent*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, manager);
+}
+inline ::LiteNetLib::NetEvent* LiteNetLib::NetEvent::New_ctor(::LiteNetLib::NetManager* manager) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetEvent*>(manager));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetEvent::NetEvent() {}

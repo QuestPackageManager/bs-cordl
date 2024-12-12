@@ -12,11 +12,10 @@ class ErrorWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ErrorWrapper);
-// Type: System.Runtime.InteropServices::ErrorWrapper
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::ErrorWrapper*
+// CS Name: System.Runtime.InteropServices.ErrorWrapper
 class CORDL_TYPE ErrorWrapper : public ::System::Object {
 public:
   // Declarations
@@ -43,18 +42,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ErrorWrapper(ErrorWrapper const&) = delete;
 
-  /// @brief Field m_ErrorCode, offset: 0x10, size: 0x4, def value: None
-  int32_t ___m_ErrorCode;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3311 };
+
+  /// @brief Field m_ErrorCode, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_ErrorCode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ErrorWrapper, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::ErrorWrapper, ___m_ErrorCode) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ErrorWrapper, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::ErrorWrapper);

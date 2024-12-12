@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::RuleMatcher::*)()>(&::UnityEngine::UIElements::RuleMatcher::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a39a58;
+  constexpr static std::size_t addrs = 0x4a9e368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,8 +22,8 @@ inline ::StringW UnityEngine::UIElements::RuleMatcher::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuleMatcher>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "complexSelector", ty:
-// "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: Some("{}") }, CppParam { name: "complexSelector", ty:
+// "::UnityEngine::UIElements::StyleComplexSelector*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::RuleMatcher::RuleMatcher(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept {
   this->sheet = sheet;
   this->complexSelector = complexSelector;

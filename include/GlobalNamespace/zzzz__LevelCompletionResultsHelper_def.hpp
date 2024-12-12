@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResultsHelper)
@@ -25,6 +23,12 @@ namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
+struct LevelCompletionResults_LevelEndAction;
+}
+namespace GlobalNamespace {
+struct LevelCompletionResults_LevelEndStateType;
+}
+namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
@@ -36,37 +40,30 @@ class PlayerData;
 namespace GlobalNamespace {
 class PlayerLevelStatsData;
 }
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LevelCompletionResultsHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResultsHelper);
-// Type: ::LevelCompletionResultsHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelCompletionResultsHelper*
+// CS Name: LevelCompletionResultsHelper
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x267e134, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x26b26ec, size 0x464, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults*
   Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
          ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
          ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int32_t multipliedScore, int32_t modifiedScore, int32_t maxCombo,
          ::ArrayW<float_t, ::Array<float_t>*> saberActivityValues, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, ::ArrayW<float_t, ::Array<float_t>*> handActivityValues,
-         float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
-         ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
+         float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
+         ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
 
-  /// @brief Method ProcessScore, addr 0x267e598, size 0x114, virtual false, abstract: false, final false
-  static inline void ProcessScore(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
+  /// @brief Method ProcessScore, addr 0x26b2b50, size 0x114, virtual false, abstract: false, final false
+  static inline void ProcessScore(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
                                   ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                   ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
 
@@ -85,7 +82,7 @@ public:
   LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12860 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

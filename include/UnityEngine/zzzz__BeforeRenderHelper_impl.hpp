@@ -6,19 +6,19 @@
 #include "UnityEngine/Events/zzzz__UnityAction_def.hpp"
 #include "UnityEngine/zzzz__BeforeRenderHelper_def.hpp"
 // Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction*", modifiers: "", def_value:
-// Some("nullptr") }]
-constexpr ::UnityEngine::__BeforeRenderHelper__OrderBlock::__BeforeRenderHelper__OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept {
+// Some("{}") }]
+constexpr ::UnityEngine::BeforeRenderHelper_OrderBlock::BeforeRenderHelper_OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction* callback) noexcept {
   this->order = order;
   this->callback = callback;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__BeforeRenderHelper__OrderBlock::__BeforeRenderHelper__OrderBlock() {}
+constexpr ::UnityEngine::BeforeRenderHelper_OrderBlock::BeforeRenderHelper_OrderBlock() {}
 //  Writing Method size for method: ::UnityEngine::BeforeRenderHelper.GetUpdateOrder
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Events::UnityAction*)>(&::UnityEngine::BeforeRenderHelper::GetUpdateOrder)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x480fe58;
+  constexpr static std::size_t addrs = 0x48719f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction*)>(&::UnityEngine::BeforeRenderHelper::RegisterCallback)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x47ff480;
+  constexpr static std::size_t addrs = 0x4861020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Events::UnityAction*)>(&::UnityEngine::BeforeRenderHelper::UnregisterCallback)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x47ff820;
+  constexpr static std::size_t addrs = 0x48613c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::BeforeRenderHelper::Invoke)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x48003d4;
+  constexpr static std::size_t addrs = 0x4861f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BeforeRenderHelper*>::get(), "Invoke",
@@ -68,13 +68,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void UnityEngine::BeforeRenderHelper::setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>*, "s_OrderBlocks",
+inline void UnityEngine::BeforeRenderHelper::setStaticF_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>*, "s_OrderBlocks",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BeforeRenderHelper*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* UnityEngine::BeforeRenderHelper::getStaticF_s_OrderBlocks() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>*, "s_OrderBlocks",
+inline ::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>* UnityEngine::BeforeRenderHelper::getStaticF_s_OrderBlocks() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::BeforeRenderHelper_OrderBlock>*, "s_OrderBlocks",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BeforeRenderHelper*>::get>();
 }
 inline int32_t UnityEngine::BeforeRenderHelper::GetUpdateOrder(::UnityEngine::Events::UnityAction* callback) {

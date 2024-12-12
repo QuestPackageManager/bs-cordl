@@ -5,8 +5,14 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(SelectLanguageViewController)
+namespace BGLib::Polyglot {
+struct Language;
+}
 namespace GlobalNamespace {
 class LanguageSettingsController;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Action;
@@ -20,11 +26,10 @@ class SelectLanguageViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectLanguageViewController);
-// Type: ::SelectLanguageViewController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectLanguageViewController*
+// CS Name: SelectLanguageViewController
 class CORDL_TYPE SelectLanguageViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -36,23 +41,23 @@ public:
       _languageSettingsController;
 
   /// @brief Field didChangeLanguageEvent, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeLanguageEvent, put = __cordl_internal_set_didChangeLanguageEvent)) ::System::Action* didChangeLanguageEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeLanguageEvent, put = __cordl_internal_set_didChangeLanguageEvent)) ::System::Action_1<::BGLib::Polyglot::Language>* didChangeLanguageEvent;
 
   /// @brief Field didPressContinueButtonEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent)) ::System::Action* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x3b0e03c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3b6e0c0, size 0xf8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b0e210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x3b6e294, size 0x38, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b0e134, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b6e1b8, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x3b0e234, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x3b6e2d4, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -63,35 +68,35 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController>& __cordl_internal_get__languageSettingsController();
 
-  constexpr ::System::Action*& __cordl_internal_get_didChangeLanguageEvent();
+  constexpr ::System::Action_1<::BGLib::Polyglot::Language>* const& __cordl_internal_get_didChangeLanguageEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeLanguageEvent() const;
+  constexpr ::System::Action_1<::BGLib::Polyglot::Language>*& __cordl_internal_get_didChangeLanguageEvent();
+
+  constexpr ::System::Action* const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_didPressContinueButtonEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
   constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
   constexpr void __cordl_internal_set__languageSettingsController(::UnityW<::GlobalNamespace::LanguageSettingsController> value);
 
-  constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b0e22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b6e2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x3b0ddcc, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didChangeLanguageEvent(::System::Action* value);
+  /// @brief Method add_didChangeLanguageEvent, addr 0x3b6de28, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b0df04, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x3b6df88, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b0de68, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didChangeLanguageEvent(::System::Action* value);
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x3b6ded8, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didChangeLanguageEvent(::System::Action_1<::BGLib::Polyglot::Language>* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b0dfa0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3b6e024, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
 protected:
@@ -108,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectLanguageViewController(SelectLanguageViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5384 };
+
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
@@ -115,19 +123,14 @@ public:
   ::UnityW<::GlobalNamespace::LanguageSettingsController> ____languageSettingsController;
 
   /// @brief Field didChangeLanguageEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action* ___didChangeLanguageEvent;
+  ::System::Action_1<::BGLib::Polyglot::Language>* ___didChangeLanguageEvent;
 
   /// @brief Field didPressContinueButtonEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ___didPressContinueButtonEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5360 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLanguageViewController, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SelectLanguageViewController, ____continueButton) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SelectLanguageViewController, ____languageSettingsController) == 0x80, "Offset mismatch!");
@@ -135,6 +138,8 @@ static_assert(offsetof(::GlobalNamespace::SelectLanguageViewController, ____lang
 static_assert(offsetof(::GlobalNamespace::SelectLanguageViewController, ___didChangeLanguageEvent) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SelectLanguageViewController, ___didPressContinueButtonEvent) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectLanguageViewController, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SelectLanguageViewController);

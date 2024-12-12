@@ -12,11 +12,10 @@ struct FtpStatusCode;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::FtpStatusCode);
-// Type: System.Net::FtpStatusCode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::System.Net::FtpStatusCode
+// CS Name: System.Net.FtpStatusCode
 struct CORDL_TYPE FtpStatusCode {
 public:
   // Declarations
@@ -80,132 +79,132 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FtpStatusCode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AccountNeeded value: static_cast<int32_t>(0x214)
+  /// @brief Field AccountNeeded value: I32(532)
   static ::System::Net::FtpStatusCode const AccountNeeded;
 
-  /// @brief Field ActionAbortedLocalProcessingError value: static_cast<int32_t>(0x1c3)
+  /// @brief Field ActionAbortedLocalProcessingError value: I32(451)
   static ::System::Net::FtpStatusCode const ActionAbortedLocalProcessingError;
 
-  /// @brief Field ActionAbortedUnknownPageType value: static_cast<int32_t>(0x227)
+  /// @brief Field ActionAbortedUnknownPageType value: I32(551)
   static ::System::Net::FtpStatusCode const ActionAbortedUnknownPageType;
 
-  /// @brief Field ActionNotTakenFileUnavailable value: static_cast<int32_t>(0x226)
+  /// @brief Field ActionNotTakenFileUnavailable value: I32(550)
   static ::System::Net::FtpStatusCode const ActionNotTakenFileUnavailable;
 
-  /// @brief Field ActionNotTakenFileUnavailableOrBusy value: static_cast<int32_t>(0x1c2)
+  /// @brief Field ActionNotTakenFileUnavailableOrBusy value: I32(450)
   static ::System::Net::FtpStatusCode const ActionNotTakenFileUnavailableOrBusy;
 
-  /// @brief Field ActionNotTakenFilenameNotAllowed value: static_cast<int32_t>(0x229)
+  /// @brief Field ActionNotTakenFilenameNotAllowed value: I32(553)
   static ::System::Net::FtpStatusCode const ActionNotTakenFilenameNotAllowed;
 
-  /// @brief Field ActionNotTakenInsufficientSpace value: static_cast<int32_t>(0x1c4)
+  /// @brief Field ActionNotTakenInsufficientSpace value: I32(452)
   static ::System::Net::FtpStatusCode const ActionNotTakenInsufficientSpace;
 
-  /// @brief Field ArgumentSyntaxError value: static_cast<int32_t>(0x1f5)
+  /// @brief Field ArgumentSyntaxError value: I32(501)
   static ::System::Net::FtpStatusCode const ArgumentSyntaxError;
 
-  /// @brief Field BadCommandSequence value: static_cast<int32_t>(0x1f7)
+  /// @brief Field BadCommandSequence value: I32(503)
   static ::System::Net::FtpStatusCode const BadCommandSequence;
 
-  /// @brief Field CantOpenData value: static_cast<int32_t>(0x1a9)
+  /// @brief Field CantOpenData value: I32(425)
   static ::System::Net::FtpStatusCode const CantOpenData;
 
-  /// @brief Field ClosingControl value: static_cast<int32_t>(0xdd)
+  /// @brief Field ClosingControl value: I32(221)
   static ::System::Net::FtpStatusCode const ClosingControl;
 
-  /// @brief Field ClosingData value: static_cast<int32_t>(0xe2)
+  /// @brief Field ClosingData value: I32(226)
   static ::System::Net::FtpStatusCode const ClosingData;
 
-  /// @brief Field CommandExtraneous value: static_cast<int32_t>(0xca)
+  /// @brief Field CommandExtraneous value: I32(202)
   static ::System::Net::FtpStatusCode const CommandExtraneous;
 
-  /// @brief Field CommandNotImplemented value: static_cast<int32_t>(0x1f6)
+  /// @brief Field CommandNotImplemented value: I32(502)
   static ::System::Net::FtpStatusCode const CommandNotImplemented;
 
-  /// @brief Field CommandOK value: static_cast<int32_t>(0xc8)
+  /// @brief Field CommandOK value: I32(200)
   static ::System::Net::FtpStatusCode const CommandOK;
 
-  /// @brief Field CommandSyntaxError value: static_cast<int32_t>(0x1f4)
+  /// @brief Field CommandSyntaxError value: I32(500)
   static ::System::Net::FtpStatusCode const CommandSyntaxError;
 
-  /// @brief Field ConnectionClosed value: static_cast<int32_t>(0x1aa)
+  /// @brief Field ConnectionClosed value: I32(426)
   static ::System::Net::FtpStatusCode const ConnectionClosed;
 
-  /// @brief Field DataAlreadyOpen value: static_cast<int32_t>(0x7d)
+  /// @brief Field DataAlreadyOpen value: I32(125)
   static ::System::Net::FtpStatusCode const DataAlreadyOpen;
 
-  /// @brief Field DirectoryStatus value: static_cast<int32_t>(0xd4)
+  /// @brief Field DirectoryStatus value: I32(212)
   static ::System::Net::FtpStatusCode const DirectoryStatus;
 
-  /// @brief Field EnteringPassive value: static_cast<int32_t>(0xe3)
+  /// @brief Field EnteringPassive value: I32(227)
   static ::System::Net::FtpStatusCode const EnteringPassive;
 
-  /// @brief Field FileActionAborted value: static_cast<int32_t>(0x228)
+  /// @brief Field FileActionAborted value: I32(552)
   static ::System::Net::FtpStatusCode const FileActionAborted;
 
-  /// @brief Field FileActionOK value: static_cast<int32_t>(0xfa)
+  /// @brief Field FileActionOK value: I32(250)
   static ::System::Net::FtpStatusCode const FileActionOK;
 
-  /// @brief Field FileCommandPending value: static_cast<int32_t>(0x15e)
+  /// @brief Field FileCommandPending value: I32(350)
   static ::System::Net::FtpStatusCode const FileCommandPending;
 
-  /// @brief Field FileStatus value: static_cast<int32_t>(0xd5)
+  /// @brief Field FileStatus value: I32(213)
   static ::System::Net::FtpStatusCode const FileStatus;
 
-  /// @brief Field LoggedInProceed value: static_cast<int32_t>(0xe6)
+  /// @brief Field LoggedInProceed value: I32(230)
   static ::System::Net::FtpStatusCode const LoggedInProceed;
 
-  /// @brief Field NeedLoginAccount value: static_cast<int32_t>(0x14c)
+  /// @brief Field NeedLoginAccount value: I32(332)
   static ::System::Net::FtpStatusCode const NeedLoginAccount;
 
-  /// @brief Field NotLoggedIn value: static_cast<int32_t>(0x212)
+  /// @brief Field NotLoggedIn value: I32(530)
   static ::System::Net::FtpStatusCode const NotLoggedIn;
 
-  /// @brief Field OpeningData value: static_cast<int32_t>(0x96)
+  /// @brief Field OpeningData value: I32(150)
   static ::System::Net::FtpStatusCode const OpeningData;
 
-  /// @brief Field PathnameCreated value: static_cast<int32_t>(0x101)
+  /// @brief Field PathnameCreated value: I32(257)
   static ::System::Net::FtpStatusCode const PathnameCreated;
 
-  /// @brief Field RestartMarker value: static_cast<int32_t>(0x6e)
+  /// @brief Field RestartMarker value: I32(110)
   static ::System::Net::FtpStatusCode const RestartMarker;
 
-  /// @brief Field SendPasswordCommand value: static_cast<int32_t>(0x14b)
+  /// @brief Field SendPasswordCommand value: I32(331)
   static ::System::Net::FtpStatusCode const SendPasswordCommand;
 
-  /// @brief Field SendUserCommand value: static_cast<int32_t>(0xdc)
+  /// @brief Field SendUserCommand value: I32(220)
   static ::System::Net::FtpStatusCode const SendUserCommand;
 
-  /// @brief Field ServerWantsSecureSession value: static_cast<int32_t>(0xea)
+  /// @brief Field ServerWantsSecureSession value: I32(234)
   static ::System::Net::FtpStatusCode const ServerWantsSecureSession;
 
-  /// @brief Field ServiceNotAvailable value: static_cast<int32_t>(0x1a5)
+  /// @brief Field ServiceNotAvailable value: I32(421)
   static ::System::Net::FtpStatusCode const ServiceNotAvailable;
 
-  /// @brief Field ServiceTemporarilyNotAvailable value: static_cast<int32_t>(0x78)
+  /// @brief Field ServiceTemporarilyNotAvailable value: I32(120)
   static ::System::Net::FtpStatusCode const ServiceTemporarilyNotAvailable;
 
-  /// @brief Field SystemType value: static_cast<int32_t>(0xd7)
+  /// @brief Field SystemType value: I32(215)
   static ::System::Net::FtpStatusCode const SystemType;
 
-  /// @brief Field Undefined value: static_cast<int32_t>(0x0)
+  /// @brief Field Undefined value: I32(0)
   static ::System::Net::FtpStatusCode const Undefined;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9578 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::FtpStatusCode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::FtpStatusCode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::FtpStatusCode, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpStatusCode, "System.Net", "FtpStatusCode");

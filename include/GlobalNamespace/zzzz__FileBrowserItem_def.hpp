@@ -12,11 +12,10 @@ class FileBrowserItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileBrowserItem);
-// Type: ::FileBrowserItem
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FileBrowserItem*
+// CS Name: FileBrowserItem
 class CORDL_TYPE FileBrowserItem : public ::System::Object {
 public:
   // Declarations
@@ -55,25 +54,25 @@ public:
 
   constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x26781f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac788, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-  /// @brief Method get_displayName, addr 0x267a5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x26aeb78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_fullPath, addr 0x267a5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullPath, addr 0x26aeb88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
-  /// @brief Method get_isDirectory, addr 0x267a5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectory, addr 0x26aeb98, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
-  /// @brief Method set_displayName, addr 0x267a5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x26aeb80, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_fullPath, addr 0x267a5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullPath, addr 0x26aeb90, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
-  /// @brief Method set_isDirectory, addr 0x267a5e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDirectory, addr 0x26aeba0, size 0xc, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
 protected:
@@ -90,6 +89,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileBrowserItem(FileBrowserItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12851 };
+
   /// @brief Field <displayName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____displayName_k__BackingField;
 
@@ -99,19 +101,16 @@ public:
   /// @brief Field <isDirectory>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____isDirectory_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12817 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserItem, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FileBrowserItem, ____displayName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FileBrowserItem, ____fullPath_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FileBrowserItem, ____isDirectory_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileBrowserItem, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileBrowserItem);

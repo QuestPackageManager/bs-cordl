@@ -4,12 +4,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__INavigationEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 CORDL_MODULE_EXPORT(NavigationEventBase_1)
-namespace UnityEngine::UIElements {
-class INavigationEvent;
-}
 namespace UnityEngine::UIElements {
 struct NavigationDeviceType;
 }
@@ -22,13 +20,12 @@ template <typename T> class NavigationEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::NavigationEventBase_1);
-// Type: UnityEngine.UIElements::NavigationEventBase`1
-// SizeInfo { instance_size: 144, native_size: 140, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.INavigationEvent, UnityEngine.UIElements.NavigationDeviceType
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::NavigationEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.NavigationEventBase`1<T>
 class CORDL_TYPE NavigationEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -114,14 +111,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NavigationEventBase_1(NavigationEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5882 };
+
   /// @brief Field <modifiers>k__BackingField, offset: 0x84, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
   /// @brief Field <deviceType>k__BackingField, offset: 0x88, size: 0x4, def value: None
   ::UnityEngine::UIElements::NavigationDeviceType ____deviceType_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

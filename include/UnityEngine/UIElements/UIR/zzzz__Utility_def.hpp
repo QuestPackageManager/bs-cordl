@@ -3,11 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Utility)
@@ -16,9 +15,6 @@ template <typename T> class Action_1;
 }
 namespace System {
 class Action;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -36,10 +32,10 @@ namespace UnityEngine::UIElements::UIR {
 struct GfxUpdateBufferRange;
 }
 namespace UnityEngine::UIElements::UIR {
-struct __Utility__GPUBufferType;
+struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Utility__GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -61,37 +57,36 @@ struct RectInt;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
-struct __Utility__GPUBufferType;
+struct Utility_GPUBufferType;
 }
 namespace UnityEngine::UIElements::UIR {
 class Utility;
 }
 namespace UnityEngine::UIElements::UIR {
-template <typename T> class __Utility__GPUBuffer_1;
+template <typename T> class Utility_GPUBuffer_1;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::UIElements::UIR::__Utility__GPUBufferType);
+MARK_VAL_T(::UnityEngine::UIElements::UIR::Utility_GPUBufferType);
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Utility);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1);
-// Type: ::GPUBufferType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1);
+// Dependencies
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// CS Name: ::Utility::GPUBufferType
-struct CORDL_TYPE __Utility__GPUBufferType {
+// CS Name: UnityEngine.UIElements.UIR.Utility/GPUBufferType
+struct CORDL_TYPE Utility_GPUBufferType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____Utility__GPUBufferType_Unwrapped
-  enum struct ____Utility__GPUBufferType_Unwrapped : int32_t {
+  /// @brief Nested struct __Utility_GPUBufferType_Unwrapped
+  enum struct __Utility_GPUBufferType_Unwrapped : int32_t {
     __E_Vertex = static_cast<int32_t>(0x0),
     __E_Index = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____Utility__GPUBufferType_Unwrapped() const noexcept {
-    return static_cast<____Utility__GPUBufferType_Unwrapped>(this->value__);
+  constexpr operator __Utility_GPUBufferType_Unwrapped() const noexcept {
+    return static_cast<__Utility_GPUBufferType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -101,42 +96,41 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Utility__GPUBufferType();
+  constexpr Utility_GPUBufferType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Utility__GPUBufferType(int32_t value__) noexcept;
+  constexpr Utility_GPUBufferType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Index value: I32(1)
+  static ::UnityEngine::UIElements::UIR::Utility_GPUBufferType const Index;
 
-  /// @brief Field Index value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType const Index;
-
-  /// @brief Field Vertex value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType const Vertex;
+  /// @brief Field Vertex value: I32(0)
+  static ::UnityEngine::UIElements::UIR::Utility_GPUBufferType const Vertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__Utility__GPUBufferType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::Utility_GPUBufferType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::__Utility__GPUBufferType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Utility_GPUBufferType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Type: ::GPUBuffer`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.IntPtr, System.Object
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Utility::GPUBuffer`1<T>*
-class CORDL_TYPE __Utility__GPUBuffer_1 : public ::System::Object {
+// CS Name: UnityEngine.UIElements.UIR.Utility/GPUBuffer`1<T>
+class CORDL_TYPE Utility_GPUBuffer_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_BufferPointer)) ::System::IntPtr BufferPointer;
@@ -158,7 +152,7 @@ public:
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  static inline ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* New_ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType type);
+  static inline ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>* New_ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::Utility_GPUBufferType type);
 
   /// @brief Method UpdateRanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateRanges(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> ranges, int32_t rangesMin, int32_t rangesMax);
@@ -182,7 +176,7 @@ public:
   constexpr void __cordl_internal_set_elemStride(int32_t value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType type);
+  inline void _ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::Utility_GPUBufferType type);
 
   /// @brief Method get_BufferPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IntPtr get_BufferPointer();
@@ -196,16 +190,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Utility__GPUBuffer_1();
+  constexpr Utility_GPUBuffer_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Utility__GPUBuffer_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Utility__GPUBuffer_1(__Utility__GPUBuffer_1&&) = delete;
+  Utility_GPUBuffer_1(Utility_GPUBuffer_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Utility__GPUBuffer_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Utility_GPUBuffer_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Utility__GPUBuffer_1(__Utility__GPUBuffer_1 const&) = delete;
+  Utility_GPUBuffer_1(Utility_GPUBuffer_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6349 };
 
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___buffer;
@@ -216,173 +213,169 @@ public:
   /// @brief Field elemStride, offset: 0x1c, size: 0x4, def value: None
   int32_t ___elemStride;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6324 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
-// Type: UnityEngine.UIElements.UIR::Utility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Profiling.ProfilerMarker
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.UIR::Utility*
+// CS Name: UnityEngine.UIElements.UIR.Utility
 class CORDL_TYPE Utility : public ::System::Object {
 public:
   // Declarations
-  using GPUBufferType = ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType;
+  using GPUBufferType = ::UnityEngine::UIElements::UIR::Utility_GPUBufferType;
 
-  template <typename T> using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>;
+  template <typename T> using GPUBuffer_1 = ::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1<T>;
 
   /// @brief Field EngineUpdate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EngineUpdate, put = setStaticF_EngineUpdate)) ::System::Action* EngineUpdate;
+  __declspec(property(get = getStaticF_EngineUpdate, put = setStaticF_EngineUpdate)) ::System::Action* EngineUpdate;
 
   /// @brief Field FlushPendingResources, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FlushPendingResources, put = setStaticF_FlushPendingResources)) ::System::Action* FlushPendingResources;
+  __declspec(property(get = getStaticF_FlushPendingResources, put = setStaticF_FlushPendingResources)) ::System::Action* FlushPendingResources;
 
   /// @brief Field GraphicsResourcesRecreate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_GraphicsResourcesRecreate, put = setStaticF_GraphicsResourcesRecreate)) ::System::Action_1<bool>* GraphicsResourcesRecreate;
+  __declspec(property(get = getStaticF_GraphicsResourcesRecreate, put = setStaticF_GraphicsResourcesRecreate)) ::System::Action_1<bool>* GraphicsResourcesRecreate;
 
   /// @brief Field RegisterIntermediateRenderers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RegisterIntermediateRenderers,
-                             put = setStaticF_RegisterIntermediateRenderers)) ::System::Action_1<::UnityW<::UnityEngine::Camera>>* RegisterIntermediateRenderers;
+  __declspec(property(get = getStaticF_RegisterIntermediateRenderers,
+                      put = setStaticF_RegisterIntermediateRenderers)) ::System::Action_1<::UnityW<::UnityEngine::Camera>>* RegisterIntermediateRenderers;
 
   /// @brief Field RenderNodeAdd, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RenderNodeAdd, put = setStaticF_RenderNodeAdd)) ::System::Action_1<::System::IntPtr>* RenderNodeAdd;
+  __declspec(property(get = getStaticF_RenderNodeAdd, put = setStaticF_RenderNodeAdd)) ::System::Action_1<::System::IntPtr>* RenderNodeAdd;
 
   /// @brief Field RenderNodeCleanup, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RenderNodeCleanup, put = setStaticF_RenderNodeCleanup)) ::System::Action_1<::System::IntPtr>* RenderNodeCleanup;
+  __declspec(property(get = getStaticF_RenderNodeCleanup, put = setStaticF_RenderNodeCleanup)) ::System::Action_1<::System::IntPtr>* RenderNodeCleanup;
 
   /// @brief Field RenderNodeExecute, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RenderNodeExecute, put = setStaticF_RenderNodeExecute)) ::System::Action_1<::System::IntPtr>* RenderNodeExecute;
+  __declspec(property(get = getStaticF_RenderNodeExecute, put = setStaticF_RenderNodeExecute)) ::System::Action_1<::System::IntPtr>* RenderNodeExecute;
 
   /// @brief Field s_MarkerRaiseEngineUpdate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MarkerRaiseEngineUpdate, put = setStaticF_s_MarkerRaiseEngineUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerRaiseEngineUpdate;
+  __declspec(property(get = getStaticF_s_MarkerRaiseEngineUpdate, put = setStaticF_s_MarkerRaiseEngineUpdate)) ::Unity::Profiling::ProfilerMarker s_MarkerRaiseEngineUpdate;
 
-  /// @brief Method AllocateBuffer, addr 0x493f6bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AllocateBuffer, addr 0x49a3fcc, size 0x54, virtual false, abstract: false, final false
   static inline ::System::IntPtr AllocateBuffer(int32_t elementCount, int32_t elementStride, bool vertexBuffer);
 
-  /// @brief Method CPUFencePassed, addr 0x493fce4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CPUFencePassed, addr 0x49a45f4, size 0x3c, virtual false, abstract: false, final false
   static inline bool CPUFencePassed(uint32_t fence);
 
-  /// @brief Method CreateStencilState, addr 0x493fb90, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateStencilState, addr 0x49a44a0, size 0x84, virtual false, abstract: false, final false
   static inline ::System::IntPtr CreateStencilState(::UnityEngine::Rendering::StencilState stencilState);
 
-  /// @brief Method CreateStencilState_Injected, addr 0x493fc14, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr CreateStencilState_Injected(ByRef<::UnityEngine::Rendering::StencilState> stencilState);
+  /// @brief Method CreateStencilState_Injected, addr 0x49a4524, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CreateStencilState_Injected(::ByRef<::UnityEngine::Rendering::StencilState> stencilState);
 
-  /// @brief Method DisableScissor, addr 0x493fb68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DisableScissor, addr 0x49a4478, size 0x28, virtual false, abstract: false, final false
   static inline void DisableScissor();
 
-  /// @brief Method DrawRanges, addr 0x493f9fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method DrawRanges, addr 0x49a430c, size 0x74, virtual false, abstract: false, final false
   static inline void DrawRanges(::System::IntPtr ib, ::cordl_internals::Ptr<::System::IntPtr> vertexStreams, int32_t streamCount, ::System::IntPtr ranges, int32_t rangeCount,
                                 ::System::IntPtr vertexDecl);
 
-  /// @brief Method FreeBuffer, addr 0x493f710, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method FreeBuffer, addr 0x49a4020, size 0x3c, virtual false, abstract: false, final false
   static inline void FreeBuffer(::System::IntPtr buffer);
 
-  /// @brief Method GetActiveViewport, addr 0x493fd84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetActiveViewport, addr 0x49a4694, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt GetActiveViewport();
 
-  /// @brief Method GetActiveViewport_Injected, addr 0x493fe08, size 0x3c, virtual false, abstract: false, final false
-  static inline void GetActiveViewport_Injected(ByRef<::UnityEngine::RectInt> ret);
+  /// @brief Method GetActiveViewport_Injected, addr 0x49a4718, size 0x3c, virtual false, abstract: false, final false
+  static inline void GetActiveViewport_Injected(::ByRef<::UnityEngine::RectInt> ret);
 
-  /// @brief Method GetUnityProjectionMatrix, addr 0x493fed0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetUnityProjectionMatrix, addr 0x49a47e0, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetUnityProjectionMatrix();
 
-  /// @brief Method GetUnityProjectionMatrix_Injected, addr 0x493ff6c, size 0x3c, virtual false, abstract: false, final false
-  static inline void GetUnityProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
+  /// @brief Method GetUnityProjectionMatrix_Injected, addr 0x49a487c, size 0x3c, virtual false, abstract: false, final false
+  static inline void GetUnityProjectionMatrix_Injected(::ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method GetVertexDeclaration, addr 0x493f814, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetVertexDeclaration, addr 0x49a4124, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetVertexDeclaration(::ArrayW<::UnityEngine::Rendering::VertexAttributeDescriptor, ::Array<::UnityEngine::Rendering::VertexAttributeDescriptor>*> vertexAttributes);
 
-  /// @brief Method HasMappedBufferRange, addr 0x493fc94, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HasMappedBufferRange, addr 0x49a45a4, size 0x28, virtual false, abstract: false, final false
   static inline bool HasMappedBufferRange();
 
-  /// @brief Method InsertCPUFence, addr 0x493fcbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method InsertCPUFence, addr 0x49a45cc, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t InsertCPUFence();
 
-  /// @brief Method NotifyOfUIREvents, addr 0x493fe94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NotifyOfUIREvents, addr 0x49a47a4, size 0x3c, virtual false, abstract: false, final false
   static inline void NotifyOfUIREvents(bool subscribe);
 
-  /// @brief Method ProfileDrawChainBegin, addr 0x493fe44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ProfileDrawChainBegin, addr 0x49a4754, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainBegin();
 
-  /// @brief Method ProfileDrawChainEnd, addr 0x493fe6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ProfileDrawChainEnd, addr 0x49a477c, size 0x28, virtual false, abstract: false, final false
   static inline void ProfileDrawChainEnd();
 
-  /// @brief Method RaiseEngineUpdate, addr 0x493f3c4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RaiseEngineUpdate, addr 0x49a3cd4, size 0x94, virtual false, abstract: false, final false
   static inline void RaiseEngineUpdate();
 
-  /// @brief Method RaiseFlushPendingResources, addr 0x493f458, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RaiseFlushPendingResources, addr 0x49a3d68, size 0x74, virtual false, abstract: false, final false
   static inline void RaiseFlushPendingResources();
 
-  /// @brief Method RaiseGraphicsResourcesRecreate, addr 0x493f348, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaiseGraphicsResourcesRecreate, addr 0x49a3c58, size 0x7c, virtual false, abstract: false, final false
   static inline void RaiseGraphicsResourcesRecreate(bool recreate);
 
-  /// @brief Method RaiseRegisterIntermediateRenderers, addr 0x493f4cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaiseRegisterIntermediateRenderers, addr 0x49a3ddc, size 0x7c, virtual false, abstract: false, final false
   static inline void RaiseRegisterIntermediateRenderers(::UnityEngine::Camera* camera);
 
-  /// @brief Method RaiseRenderNodeAdd, addr 0x493f548, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaiseRenderNodeAdd, addr 0x49a3e58, size 0x7c, virtual false, abstract: false, final false
   static inline void RaiseRenderNodeAdd(::System::IntPtr userData);
 
-  /// @brief Method RaiseRenderNodeCleanup, addr 0x493f640, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaiseRenderNodeCleanup, addr 0x49a3f50, size 0x7c, virtual false, abstract: false, final false
   static inline void RaiseRenderNodeCleanup(::System::IntPtr userData);
 
-  /// @brief Method RaiseRenderNodeExecute, addr 0x493f5c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method RaiseRenderNodeExecute, addr 0x49a3ed4, size 0x7c, virtual false, abstract: false, final false
   static inline void RaiseRenderNodeExecute(::System::IntPtr userData);
 
-  /// @brief Method RegisterIntermediateRenderer, addr 0x493f850, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method RegisterIntermediateRenderer, addr 0x49a4160, size 0xec, virtual false, abstract: false, final false
   static inline void RegisterIntermediateRenderer(::UnityEngine::Camera* camera, ::UnityEngine::Material* material, ::UnityEngine::Matrix4x4 transform, ::UnityEngine::Bounds aabb, int32_t renderLayer,
                                                   int32_t shadowCasting, bool receiveShadows, int32_t sameDistanceSortPriority, uint64_t sceneCullingMask, int32_t rendererCallbackFlags,
                                                   ::System::IntPtr userData, int32_t userDataSize);
 
-  /// @brief Method RegisterIntermediateRenderer_Injected, addr 0x493f93c, size 0xc0, virtual false, abstract: false, final false
-  static inline void RegisterIntermediateRenderer_Injected(::UnityEngine::Camera* camera, ::UnityEngine::Material* material, ByRef<::UnityEngine::Matrix4x4> transform,
-                                                           ByRef<::UnityEngine::Bounds> aabb, int32_t renderLayer, int32_t shadowCasting, bool receiveShadows, int32_t sameDistanceSortPriority,
+  /// @brief Method RegisterIntermediateRenderer_Injected, addr 0x49a424c, size 0xc0, virtual false, abstract: false, final false
+  static inline void RegisterIntermediateRenderer_Injected(::UnityEngine::Camera* camera, ::UnityEngine::Material* material, ::ByRef<::UnityEngine::Matrix4x4> transform,
+                                                           ::ByRef<::UnityEngine::Bounds> aabb, int32_t renderLayer, int32_t shadowCasting, bool receiveShadows, int32_t sameDistanceSortPriority,
                                                            uint64_t sceneCullingMask, int32_t rendererCallbackFlags, ::System::IntPtr userData, int32_t userDataSize);
 
-  /// @brief Method SetPropertyBlock, addr 0x493fa70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyBlock, addr 0x49a4380, size 0x3c, virtual false, abstract: false, final false
   static inline void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* props);
 
-  /// @brief Method SetScissorRect, addr 0x493faac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SetScissorRect, addr 0x49a43bc, size 0x80, virtual false, abstract: false, final false
   static inline void SetScissorRect(::UnityEngine::RectInt scissorRect);
 
-  /// @brief Method SetScissorRect_Injected, addr 0x493fb2c, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetScissorRect_Injected(ByRef<::UnityEngine::RectInt> scissorRect);
+  /// @brief Method SetScissorRect_Injected, addr 0x49a443c, size 0x3c, virtual false, abstract: false, final false
+  static inline void SetScissorRect_Injected(::ByRef<::UnityEngine::RectInt> scissorRect);
 
-  /// @brief Method SetStencilState, addr 0x493fc50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetStencilState, addr 0x49a4560, size 0x44, virtual false, abstract: false, final false
   static inline void SetStencilState(::System::IntPtr stencilState, int32_t stencilRef);
 
-  /// @brief Method SetVectorArray, addr 0x493f7b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetVectorArray, addr 0x49a40c8, size 0x5c, virtual false, abstract: false, final false
   static inline void SetVectorArray(::UnityEngine::MaterialPropertyBlock* props, int32_t name, ::System::IntPtr vector4s, int32_t count);
 
   /// @brief Method SetVectorArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void SetVectorArray(::UnityEngine::MaterialPropertyBlock* props, int32_t name, ::Unity::Collections::NativeSlice_1<T> vector4s);
 
-  /// @brief Method SyncRenderThread, addr 0x493fd5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SyncRenderThread, addr 0x49a466c, size 0x28, virtual false, abstract: false, final false
   static inline void SyncRenderThread();
 
-  /// @brief Method UpdateBufferRanges, addr 0x493f74c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateBufferRanges, addr 0x49a405c, size 0x6c, virtual false, abstract: false, final false
   static inline void UpdateBufferRanges(::System::IntPtr buffer, ::System::IntPtr ranges, int32_t rangeCount, int32_t writeRangeStart, int32_t writeRangeEnd);
 
-  /// @brief Method WaitForCPUFencePassed, addr 0x493fd20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCPUFencePassed, addr 0x49a4630, size 0x3c, virtual false, abstract: false, final false
   static inline void WaitForCPUFencePassed(uint32_t fence);
 
-  /// @brief Method add_EngineUpdate, addr 0x493ec08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_EngineUpdate, addr 0x49a3518, size 0xdc, virtual false, abstract: false, final false
   static inline void add_EngineUpdate(::System::Action* value);
 
-  /// @brief Method add_FlushPendingResources, addr 0x493edc0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method add_FlushPendingResources, addr 0x49a36d0, size 0xdc, virtual false, abstract: false, final false
   static inline void add_FlushPendingResources(::System::Action* value);
 
-  /// @brief Method add_GraphicsResourcesRecreate, addr 0x493ea28, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method add_GraphicsResourcesRecreate, addr 0x49a3338, size 0xf0, virtual false, abstract: false, final false
   static inline void add_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
-  /// @brief Method add_RegisterIntermediateRenderers, addr 0x493ef78, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
+  /// @brief Method add_RegisterIntermediateRenderers, addr 0x49a3888, size 0xf4, virtual false, abstract: false, final false
+  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
 
-  /// @brief Method add_RenderNodeExecute, addr 0x493f160, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method add_RenderNodeExecute, addr 0x49a3a70, size 0xf4, virtual false, abstract: false, final false
   static inline void add_RenderNodeExecute(::System::Action_1<::System::IntPtr>* value);
 
   static inline ::System::Action* getStaticF_EngineUpdate();
@@ -401,19 +394,19 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerRaiseEngineUpdate();
 
-  /// @brief Method remove_EngineUpdate, addr 0x493ece4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_EngineUpdate, addr 0x49a35f4, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_EngineUpdate(::System::Action* value);
 
-  /// @brief Method remove_FlushPendingResources, addr 0x493ee9c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method remove_FlushPendingResources, addr 0x49a37ac, size 0xdc, virtual false, abstract: false, final false
   static inline void remove_FlushPendingResources(::System::Action* value);
 
-  /// @brief Method remove_GraphicsResourcesRecreate, addr 0x493eb18, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method remove_GraphicsResourcesRecreate, addr 0x49a3428, size 0xf0, virtual false, abstract: false, final false
   static inline void remove_GraphicsResourcesRecreate(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_RegisterIntermediateRenderers, addr 0x493f06c, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
+  /// @brief Method remove_RegisterIntermediateRenderers, addr 0x49a397c, size 0xf4, virtual false, abstract: false, final false
+  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
 
-  /// @brief Method remove_RenderNodeExecute, addr 0x493f254, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method remove_RenderNodeExecute, addr 0x49a3b64, size 0xf4, virtual false, abstract: false, final false
   static inline void remove_RenderNodeExecute(::System::Action_1<::System::IntPtr>* value);
 
   static inline void setStaticF_EngineUpdate(::System::Action* value);
@@ -447,7 +440,7 @@ public:
   Utility(Utility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6350 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -455,7 +448,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::Utility, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::__Utility__GPUBufferType, "UnityEngine.UIElements.UIR", "Utility/GPUBufferType");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Utility_GPUBufferType, "UnityEngine.UIElements.UIR", "Utility/GPUBufferType");
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::Utility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::Utility*, "UnityEngine.UIElements.UIR", "Utility");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1, "UnityEngine.UIElements.UIR", "Utility/GPUBuffer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::UIR::Utility_GPUBuffer_1, "UnityEngine.UIElements.UIR", "Utility/GPUBuffer`1");

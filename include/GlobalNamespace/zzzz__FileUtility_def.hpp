@@ -12,16 +12,15 @@ class FileUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileUtility);
-// Type: ::FileUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FileUtility*
+// CS Name: FileUtility
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x3aaeed0, size 0x50, virtual false, abstract: false, final false
-  static inline ::StringW GetPlatformPersistentDataPath();
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x22a3afc, size 0xcc, virtual false, abstract: false, final false
+  static inline ::StringW GetPlatformPersistentDataPath(bool local);
 
 protected:
   // Ctor Parameters []
@@ -38,7 +37,7 @@ public:
   FileUtility(FileUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18915 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

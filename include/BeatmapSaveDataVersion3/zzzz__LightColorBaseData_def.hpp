@@ -21,11 +21,10 @@ class LightColorBaseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::LightColorBaseData);
-// Type: BeatmapSaveDataVersion3::LightColorBaseData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.EnvironmentColorType, BeatmapSaveDataVersion3.TransitionType, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::LightColorBaseData*
+// CS Name: BeatmapSaveDataVersion3.LightColorBaseData
 class CORDL_TYPE LightColorBaseData : public ::System::Object {
 public:
   // Declarations
@@ -109,29 +108,29 @@ public:
 
   constexpr void __cordl_internal_set_sf(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26d46d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2706044, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataVersion3::TransitionType transitionType, ::BeatmapSaveDataCommon::EnvironmentColorType colorType, float_t brightness, int32_t strobeFrequency,
                     float_t strobeBrightness, bool strobeFade);
 
-  /// @brief Method get_beat, addr 0x26d4694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x2706004, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_brightness, addr 0x26d46ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightness, addr 0x270601c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightness();
 
-  /// @brief Method get_colorType, addr 0x26d46a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x2706014, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EnvironmentColorType get_colorType();
 
-  /// @brief Method get_strobeBeatFrequency, addr 0x26d46b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBeatFrequency, addr 0x2706024, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_strobeBeatFrequency();
 
-  /// @brief Method get_strobeBrightness, addr 0x26d46bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strobeBrightness, addr 0x270602c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_strobeBrightness();
 
-  /// @brief Method get_strobeFade, addr 0x26d46c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_strobeFade, addr 0x2706034, size 0x10, virtual false, abstract: false, final false
   inline bool get_strobeFade();
 
-  /// @brief Method get_transitionType, addr 0x26d469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transitionType, addr 0x270600c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::TransitionType get_transitionType();
 
 protected:
@@ -147,6 +146,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightColorBaseData(LightColorBaseData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13407 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;
@@ -169,14 +171,9 @@ public:
   /// @brief Field sf, offset: 0x28, size: 0x4, def value: None
   int32_t ___sf;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13376 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightColorBaseData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorBaseData, ___b) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorBaseData, ___i) == 0x14, "Offset mismatch!");
@@ -190,6 +187,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorBaseData, ___f) == 0
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorBaseData, ___sb) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::LightColorBaseData, ___sf) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::LightColorBaseData, 0x30>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::LightColorBaseData);

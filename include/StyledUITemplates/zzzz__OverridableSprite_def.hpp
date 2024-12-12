@@ -14,17 +14,16 @@ class OverridableSprite;
 }
 // Write type traits
 MARK_REF_PTR_T(::StyledUITemplates::OverridableSprite);
-// Type: StyledUITemplates::OverridableSprite
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies StyledUITemplates.OverridableData`1<T>
 namespace StyledUITemplates {
 // Is value type: false
-// CS Name: ::StyledUITemplates::OverridableSprite*
-class CORDL_TYPE OverridableSprite : public ::StyledUITemplates::OverridableData_1<::UnityW<::UnityEngine::Sprite>> {
+// CS Name: StyledUITemplates.OverridableSprite
+class CORDL_TYPE OverridableSprite : public ::StyledUITemplates::OverridableData_1<::UnityEngine::Sprite*> {
 public:
   // Declarations
   static inline ::StyledUITemplates::OverridableSprite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401bdd0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x407d088, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   OverridableSprite(OverridableSprite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19178 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

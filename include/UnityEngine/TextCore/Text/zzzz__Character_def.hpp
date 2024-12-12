@@ -18,11 +18,10 @@ class Character;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::Character);
-// Type: UnityEngine.TextCore.Text::Character
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.Text.TextElement
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::Character*
+// CS Name: UnityEngine.TextCore.Text.Character
 class CORDL_TYPE Character : public ::UnityEngine::TextCore::Text::TextElement {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x48bc7f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4920e80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48bc828, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4920eb8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x48bc8a8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4920f38, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:
@@ -56,7 +55,7 @@ public:
   Character(Character const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15230 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -12,11 +12,10 @@ struct PacketFlags;
 }
 // Write type traits
 MARK_VAL_T(::ENet::PacketFlags);
-// Type: ENet::PacketFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace ENet {
 // Is value type: true
-// CS Name: ::ENet::PacketFlags
+// CS Name: ENet.PacketFlags
 struct CORDL_TYPE PacketFlags {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PacketFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Instant value: static_cast<int32_t>(0x10)
+  /// @brief Field Instant value: I32(16)
   static ::ENet::PacketFlags const Instant;
 
-  /// @brief Field NoAllocate value: static_cast<int32_t>(0x4)
+  /// @brief Field NoAllocate value: I32(4)
   static ::ENet::PacketFlags const NoAllocate;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::ENet::PacketFlags const None;
 
-  /// @brief Field Reliable value: static_cast<int32_t>(0x1)
+  /// @brief Field Reliable value: I32(1)
   static ::ENet::PacketFlags const Reliable;
 
-  /// @brief Field Sent value: static_cast<int32_t>(0x100)
+  /// @brief Field Sent value: I32(256)
   static ::ENet::PacketFlags const Sent;
 
-  /// @brief Field UnreliableFragmented value: static_cast<int32_t>(0x8)
+  /// @brief Field UnreliableFragmented value: I32(8)
   static ::ENet::PacketFlags const UnreliableFragmented;
 
-  /// @brief Field Unsequenced value: static_cast<int32_t>(0x2)
+  /// @brief Field Unsequenced value: I32(2)
   static ::ENet::PacketFlags const Unsequenced;
 
-  /// @brief Field Unthrottled value: static_cast<int32_t>(0x20)
+  /// @brief Field Unthrottled value: I32(32)
   static ::ENet::PacketFlags const Unthrottled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17725 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::ENet::PacketFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::ENet::PacketFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::ENet::PacketFlags, 0x4>, "Size mismatch!");
 
 } // namespace ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::PacketFlags, "ENet", "PacketFlags");

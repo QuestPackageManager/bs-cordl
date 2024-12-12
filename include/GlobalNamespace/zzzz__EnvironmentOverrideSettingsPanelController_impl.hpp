@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EnvironmentOverrideSettingsPanelController.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
@@ -8,7 +9,6 @@
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
@@ -18,212 +18,211 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements.get_environmentInfos
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements.get_environmentInfos
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
-    ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::*)()>(&::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::get_environmentInfos)> {
+    ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::get_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d354;
+  constexpr static std::size_t addrs = 0x3bff4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(),
                                                  "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements.set_environmentInfos
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements.set_environmentInfos
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::*)(
-    ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*)>(&::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::set_environmentInfos)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)(
+    ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::set_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d35c;
+  constexpr static std::size_t addrs = 0x3bff4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(), "set_environmentInfos",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(), "set_environmentInfos",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements._ctor
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::*)()>(
-    &::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(
+    &::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d364;
+  constexpr static std::size_t addrs = 0x3bff4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_label() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_label() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___label;
 }
-constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_label() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_label() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___label;
 }
-constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_set_label(::UnityW<::TMPro::TextMeshProUGUI> value) {
+constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_set_label(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___label)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::SimpleTextDropdown>& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_simpleTextDropdown() {
+constexpr ::UnityW<::HMUI::SimpleTextDropdown>& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_simpleTextDropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTextDropdown;
 }
-constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_simpleTextDropdown() const {
+constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_simpleTextDropdown() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___simpleTextDropdown;
 }
-constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_set_simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value) {
+constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_set_simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___simpleTextDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnvironmentType& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_environmentType() {
+constexpr ::GlobalNamespace::EnvironmentType& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_environmentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
-constexpr ::GlobalNamespace::EnvironmentType const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_environmentType() const {
+constexpr ::GlobalNamespace::EnvironmentType const& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_environmentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
-constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_set_environmentType(::GlobalNamespace::EnvironmentType value) {
+constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_set_environmentType(::GlobalNamespace::EnvironmentType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___environmentType = value;
 }
-constexpr ::StringW& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_localizationKey() {
+constexpr ::StringW& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_localizationKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizationKey;
 }
-constexpr ::StringW const& GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get_localizationKey() const {
+constexpr ::StringW const& GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get_localizationKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localizationKey;
 }
-constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_set_localizationKey(::StringW value) {
+constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_set_localizationKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___localizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*&
-GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get__environmentInfos_k__BackingField() {
+GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get__environmentInfos_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> const&
-GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_get__environmentInfos_k__BackingField() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* const&
+GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_get__environmentInfos_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentInfos_k__BackingField;
 }
-constexpr void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__cordl_internal_set__environmentInfos_k__BackingField(
+constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::__cordl_internal_set__environmentInfos_k__BackingField(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentInfos_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::get_environmentInfos() {
+inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::get_environmentInfos() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(),
                                                "get_environmentInfos", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*, false>(this, ___internal_method);
 }
-inline void
-GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::set_environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value) {
+inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::set_environmentInfos(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(), "set_environmentInfos",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(), "set_environmentInfos",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements* GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>());
-}
-inline void GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::_ctor() {
+inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements* GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements::__EnvironmentOverrideSettingsPanelController__Elements() {}
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c._ctor
+constexpr ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::EnvironmentOverrideSettingsPanelController_Elements() {}
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::*)()>(
-    &::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)()>(
+    &::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d3c8;
+  constexpr static std::size_t addrs = 0x3bff518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c._SetData_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c._SetData_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::*)(
-    ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::_SetData_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)(
+    ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_SetData_b__10_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b9d3d0;
+  constexpr static std::size_t addrs = 0x3bff520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get(), "<SetData>b__10_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get(), "<SetData>b__10_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::setStaticF___9(::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get>(
-      std::forward<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>(value));
+inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::setStaticF___9(::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get>(
+      std::forward<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>(value));
 }
-inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get>();
+inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get>();
 }
-inline void GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::setStaticF___9__10_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
+inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::setStaticF___9__10_0(::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::getStaticF___9__10_0() {
+inline ::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>* GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::getStaticF___9__10_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::StringW>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get>();
 }
-inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>());
-}
-inline void GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::_ctor() {
+inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::_SetData_b__10_0(::GlobalNamespace::EnvironmentInfoSO* x) {
+inline ::StringW GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_SetData_b__10_0(::GlobalNamespace::EnvironmentInfoSO* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c*>::get(), "<SetData>b__10_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>::get(), "<SetData>b__10_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
 }
+inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c* GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c::__EnvironmentOverrideSettingsPanelController____c() {}
+constexpr ::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::EnvironmentOverrideSettingsPanelController___c() {}
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentOverrideSettingsPanelController.SetData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(
     ::GlobalNamespace::OverrideEnvironmentSettings*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3b9c8c4;
+  constexpr static std::size_t addrs = 0x3bfea14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3b9cb68;
+  constexpr static std::size_t addrs = 0x3bfecb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Refresh)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3b9ccfc;
+  constexpr static std::size_t addrs = 0x3bfee4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3b9ce54;
+  constexpr static std::size_t addrs = 0x3bfefa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3b9d0d0;
+  constexpr static std::size_t addrs = 0x3bff220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d32c;
+  constexpr static std::size_t addrs = 0x3bff47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_HandleOverrideEnvironmentsToggleValueChanged_b__14_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b9d334;
+  constexpr static std::size_t addrs = 0x3bff484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -324,14 +323,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IRefreshable"
-constexpr GlobalNamespace::EnvironmentOverrideSettingsPanelController::operator ::GlobalNamespace::IRefreshable*() noexcept {
-  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IRefreshable"
-constexpr ::GlobalNamespace::IRefreshable* GlobalNamespace::EnvironmentOverrideSettingsPanelController::i___GlobalNamespace__IRefreshable() noexcept {
-  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
-}
 constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__overrideEnvironmentsToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentsToggle;
@@ -356,18 +347,18 @@ constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementsGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*>&
+constexpr ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*, ::Array<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>*>&
 GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__elements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
-constexpr ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> const&
+constexpr ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*, ::Array<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>*> const&
 GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__elements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr void GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_set__elements(
-    ::ArrayW<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*, ::Array<::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements*>*> value) {
+    ::ArrayW<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*, ::Array<::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -399,8 +390,7 @@ constexpr ::GlobalNamespace::EnvironmentsListModel*& GlobalNamespace::Environmen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentListModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListModel*> const&
-GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__environmentListModel() const {
+constexpr ::GlobalNamespace::EnvironmentsListModel* const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__environmentListModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentListModel;
 }
@@ -412,7 +402,7 @@ constexpr ::GlobalNamespace::IAnalyticsModel*& GlobalNamespace::EnvironmentOverr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__analyticsModel() const {
+constexpr ::GlobalNamespace::IAnalyticsModel* const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__analyticsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____analyticsModel;
 }
@@ -424,8 +414,7 @@ constexpr ::GlobalNamespace::OverrideEnvironmentSettings*& GlobalNamespace::Envi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OverrideEnvironmentSettings*> const&
-GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__overrideEnvironmentSettings() const {
+constexpr ::GlobalNamespace::OverrideEnvironmentSettings* const& GlobalNamespace::EnvironmentOverrideSettingsPanelController::__cordl_internal_get__overrideEnvironmentSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideEnvironmentSettings;
 }
@@ -477,9 +466,6 @@ inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleO
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isOn);
 }
-inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>());
-}
 inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>::get(), ".ctor",
@@ -491,6 +477,17 @@ inline void GlobalNamespace::EnvironmentOverrideSettingsPanelController::_Handle
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>::get(),
                                                "<HandleOverrideEnvironmentsToggleValueChanged>b__14_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentOverrideSettingsPanelController*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IRefreshable"
+constexpr GlobalNamespace::EnvironmentOverrideSettingsPanelController::operator ::GlobalNamespace::IRefreshable*() noexcept {
+  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IRefreshable"
+constexpr ::GlobalNamespace::IRefreshable* GlobalNamespace::EnvironmentOverrideSettingsPanelController::i___GlobalNamespace__IRefreshable() noexcept {
+  return static_cast<::GlobalNamespace::IRefreshable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EnvironmentOverrideSettingsPanelController::EnvironmentOverrideSettingsPanelController() {}

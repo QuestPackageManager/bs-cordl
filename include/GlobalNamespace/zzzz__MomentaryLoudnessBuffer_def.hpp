@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MomentaryLoudnessBuffer)
@@ -14,11 +13,10 @@ class MomentaryLoudnessBuffer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MomentaryLoudnessBuffer);
-// Type: ::MomentaryLoudnessBuffer
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MomentaryLoudnessBuffer*
+// CS Name: MomentaryLoudnessBuffer
 class CORDL_TYPE MomentaryLoudnessBuffer : public ::System::Object {
 public:
   // Declarations
@@ -35,7 +33,7 @@ public:
   /// @brief Field nextDataIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_nextDataIndex, put = __cordl_internal_set_nextDataIndex)) int32_t nextDataIndex;
 
-  /// @brief Method AddSample, addr 0x3a76848, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddSample, addr 0x3acdbb8, size 0x44, virtual false, abstract: false, final false
   inline void AddSample(float_t data);
 
   static inline ::GlobalNamespace::MomentaryLoudnessBuffer* New_ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
@@ -58,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_nextDataIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3a7678c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acdafc, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(int32_t numChannels, int32_t sampleFrequency, float_t momentaryWindowDuration, int32_t readingsPerBuffer);
 
-  /// @brief Method get_buffer, addr 0x3a7a318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buffer, addr 0x3ad1730, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_buffer();
 
-  /// @brief Method get_isNextReadingIntervalReady, addr 0x3a7688c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_isNextReadingIntervalReady, addr 0x3acdbfc, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isNextReadingIntervalReady();
 
 protected:
@@ -81,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MomentaryLoudnessBuffer(MomentaryLoudnessBuffer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
+
   /// @brief Field nextDataIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___nextDataIndex;
 
@@ -90,19 +91,16 @@ public:
   /// @brief Field _readingInterval, offset: 0x20, size: 0x4, def value: None
   int32_t ____readingInterval;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4008 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MomentaryLoudnessBuffer, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MomentaryLoudnessBuffer, ___nextDataIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MomentaryLoudnessBuffer, ____buffer) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MomentaryLoudnessBuffer, ____readingInterval) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MomentaryLoudnessBuffer, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MomentaryLoudnessBuffer);

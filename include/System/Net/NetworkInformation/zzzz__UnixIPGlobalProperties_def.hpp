@@ -11,17 +11,16 @@ class UnixIPGlobalProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPGlobalProperties);
-// Type: System.Net.NetworkInformation::UnixIPGlobalProperties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.CommonUnixIPGlobalProperties
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::UnixIPGlobalProperties*
+// CS Name: System.Net.NetworkInformation.UnixIPGlobalProperties
 class CORDL_TYPE UnixIPGlobalProperties : public ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x438bbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ecee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   UnixIPGlobalProperties(UnixIPGlobalProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

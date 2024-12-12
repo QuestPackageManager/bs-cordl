@@ -16,11 +16,10 @@ class ClampProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ClampProcessor);
-// Type: UnityEngine.InputSystem.Processors::ClampProcessor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::ClampProcessor*
+// CS Name: UnityEngine.InputSystem.Processors.ClampProcessor
 class CORDL_TYPE ClampProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ClampProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b5a60, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4616d74, size 0x18, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b5a78, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4616d8c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -50,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x45b5b18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4616e2c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClampProcessor(ClampProcessor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6986 };
+
   /// @brief Field min, offset: 0x10, size: 0x4, def value: None
   float_t ___min;
 
   /// @brief Field max, offset: 0x14, size: 0x4, def value: None
   float_t ___max;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6961 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ClampProcessor, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::ClampProcessor, ___min) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::ClampProcessor, ___max) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ClampProcessor, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ClampProcessor);

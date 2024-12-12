@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Panel_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRuntimePanel)
@@ -17,10 +16,10 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-class EventDispatcher;
+class BaseRuntimePanel___c;
 }
 namespace UnityEngine::UIElements {
-class __BaseRuntimePanel____c;
+class EventDispatcher;
 }
 namespace UnityEngine {
 class Event;
@@ -45,70 +44,68 @@ namespace UnityEngine::UIElements {
 class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
-class __BaseRuntimePanel____c;
+class BaseRuntimePanel___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::BaseRuntimePanel);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__BaseRuntimePanel____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::BaseRuntimePanel___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::BaseRuntimePanel::<>c*
-class CORDL_TYPE __BaseRuntimePanel____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.BaseRuntimePanel/<>c
+class CORDL_TYPE BaseRuntimePanel___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__BaseRuntimePanel____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::BaseRuntimePanel___c* __9;
 
-  static inline ::UnityEngine::UIElements::__BaseRuntimePanel____c* New_ctor();
+  static inline ::UnityEngine::UIElements::BaseRuntimePanel___c* New_ctor();
 
-  /// @brief Method <.cctor>b__47_0, addr 0x49df3a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__47_0, addr 0x4a43cb4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 __cctor_b__47_0(::UnityEngine::Vector2 p);
 
-  /// @brief Method .ctor, addr 0x49df39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a43cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__BaseRuntimePanel____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::BaseRuntimePanel___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__BaseRuntimePanel____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::BaseRuntimePanel___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BaseRuntimePanel____c();
+  constexpr BaseRuntimePanel___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BaseRuntimePanel____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BaseRuntimePanel____c(__BaseRuntimePanel____c&&) = delete;
+  BaseRuntimePanel___c(BaseRuntimePanel___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BaseRuntimePanel____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BaseRuntimePanel____c(__BaseRuntimePanel____c const&) = delete;
+  BaseRuntimePanel___c(BaseRuntimePanel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseRuntimePanel____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseRuntimePanel___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::BaseRuntimePanel
-// SizeInfo { instance_size: 488, native_size: -1, calculated_instance_size: 488, calculated_native_size: 488, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Matrix4x4, UnityEngine.UIElements.Panel
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BaseRuntimePanel*
+// CS Name: UnityEngine.UIElements.BaseRuntimePanel
 class CORDL_TYPE BaseRuntimePanel : public ::UnityEngine::UIElements::Panel {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__BaseRuntimePanel____c;
+  using __c = ::UnityEngine::UIElements::BaseRuntimePanel___c;
 
   /// @brief Field DefaultScreenToPanelSpace, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_DefaultScreenToPanelSpace,
-                             put = setStaticF_DefaultScreenToPanelSpace)) ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* DefaultScreenToPanelSpace;
+  __declspec(property(get = getStaticF_DefaultScreenToPanelSpace,
+                      put = setStaticF_DefaultScreenToPanelSpace)) ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* DefaultScreenToPanelSpace;
 
   /// @brief Field <targetDisplay>k__BackingField, offset 0x1d8, size 0x4
   __declspec(property(get = __cordl_internal_get__targetDisplay_k__BackingField, put = __cordl_internal_set__targetDisplay_k__BackingField)) int32_t _targetDisplay_k__BackingField;
@@ -144,7 +141,7 @@ public:
   __declspec(property(get = __cordl_internal_get_resolvedSortingIndex, put = __cordl_internal_set_resolvedSortingIndex)) int32_t resolvedSortingIndex;
 
   /// @brief Field s_CurrentRuntimePanelCounter, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_CurrentRuntimePanelCounter, put = setStaticF_s_CurrentRuntimePanelCounter)) int32_t s_CurrentRuntimePanelCounter;
+  __declspec(property(get = getStaticF_s_CurrentRuntimePanelCounter, put = setStaticF_s_CurrentRuntimePanelCounter)) int32_t s_CurrentRuntimePanelCounter;
 
   __declspec(property(get = get_screenRenderingHeight)) int32_t screenRenderingHeight;
 
@@ -163,37 +160,37 @@ public:
   /// @brief Field targetTexture, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get_targetTexture, put = __cordl_internal_set_targetTexture)) ::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  /// @brief Method AssignPanelToComponents, addr 0x49de594, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AssignPanelToComponents, addr 0x4a42ea4, size 0x334, virtual false, abstract: false, final false
   inline void AssignPanelToComponents(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method Dispose, addr 0x49dea10, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x4a43320, size 0x54, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::BaseRuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
-  /// @brief Method PointerEntersPanel, addr 0x49df1d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PointerEntersPanel, addr 0x4a43ae0, size 0xa0, virtual false, abstract: false, final false
   inline void PointerEntersPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
-  /// @brief Method PointerLeavesPanel, addr 0x49df118, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method PointerLeavesPanel, addr 0x4a43a28, size 0xb8, virtual false, abstract: false, final false
   inline void PointerLeavesPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
-  /// @brief Method Repaint, addr 0x49ded60, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method Repaint, addr 0x4a43670, size 0x1dc, virtual true, abstract: false, final false
   inline void Repaint(::UnityEngine::Event* e);
 
-  /// @brief Method ScreenToPanel, addr 0x49defbc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ScreenToPanel, addr 0x4a438cc, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ScreenToPanel(::UnityEngine::Vector2 screen);
 
-  /// @brief Method ScreenToPanel, addr 0x49deff4, size 0x124, virtual false, abstract: false, final false
-  inline bool ScreenToPanel(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 screenDelta, ByRef<::UnityEngine::Vector2> panelPosition, ByRef<::UnityEngine::Vector2> panelDelta,
+  /// @brief Method ScreenToPanel, addr 0x4a43904, size 0x124, virtual false, abstract: false, final false
+  inline bool ScreenToPanel(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 screenDelta, ::ByRef<::UnityEngine::Vector2> panelPosition, ::ByRef<::UnityEngine::Vector2> panelDelta,
                             bool allowOutside);
 
   constexpr int32_t const& __cordl_internal_get__targetDisplay_k__BackingField() const;
 
   constexpr int32_t& __cordl_internal_get__targetDisplay_k__BackingField();
 
-  constexpr ::System::Action*& __cordl_internal_get_destroyed();
+  constexpr ::System::Action* const& __cordl_internal_get_destroyed() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_destroyed() const;
+  constexpr ::System::Action*& __cordl_internal_get_destroyed();
 
   constexpr bool const& __cordl_internal_get_m_DrawToCameras() const;
 
@@ -203,9 +200,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_RuntimePanelCreationIndex();
 
-  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& __cordl_internal_get_m_ScreenToPanelSpace();
+  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* const& __cordl_internal_get_m_ScreenToPanelSpace() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*> const& __cordl_internal_get_m_ScreenToPanelSpace() const;
+  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>*& __cordl_internal_get_m_ScreenToPanelSpace();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_SelectableGameObject() const;
 
@@ -253,66 +250,66 @@ public:
 
   constexpr void __cordl_internal_set_targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method .ctor, addr 0x49d3e04, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a38714, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
-  /// @brief Method add_destroyed, addr 0x49de8d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_destroyed, addr 0x4a431e0, size 0xa0, virtual false, abstract: false, final false
   inline void add_destroyed(::System::Action* value);
 
-  /// @brief Method getScreenRenderingHeight, addr 0x49deca0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method getScreenRenderingHeight, addr 0x4a435b0, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t getScreenRenderingHeight(int32_t display);
 
-  /// @brief Method getScreenRenderingWidth, addr 0x49deb88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method getScreenRenderingWidth, addr 0x4a43498, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t getScreenRenderingWidth(int32_t display);
 
   static inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* getStaticF_DefaultScreenToPanelSpace();
 
   static inline int32_t getStaticF_s_CurrentRuntimePanelCounter();
 
-  /// @brief Method get_drawToCameras, addr 0x49dea6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawToCameras, addr 0x4a4337c, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawToCameras();
 
-  /// @brief Method get_screenRenderingHeight, addr 0x49dec48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_screenRenderingHeight, addr 0x4a43558, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingHeight();
 
-  /// @brief Method get_screenRenderingWidth, addr 0x49deb30, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_screenRenderingWidth, addr 0x4a43440, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingWidth();
 
-  /// @brief Method get_screenToPanelSpace, addr 0x49def3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenToPanelSpace, addr 0x4a4384c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* get_screenToPanelSpace();
 
-  /// @brief Method get_selectableGameObject, addr 0x49de4f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableGameObject, addr 0x4a42e00, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
-  /// @brief Method get_sortingPriority, addr 0x49de8c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingPriority, addr 0x4a431d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingPriority();
 
-  /// @brief Method get_standardWorldSpaceShader, addr 0x49dea64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_standardWorldSpaceShader, addr 0x4a43374, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_standardWorldSpaceShader();
 
-  /// @brief Method get_targetDisplay, addr 0x49deb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetDisplay, addr 0x4a43430, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
-  /// @brief Method remove_destroyed, addr 0x49de970, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_destroyed, addr 0x4a43280, size 0xa0, virtual false, abstract: false, final false
   inline void remove_destroyed(::System::Action* value);
 
   static inline void setStaticF_DefaultScreenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
   static inline void setStaticF_s_CurrentRuntimePanelCounter(int32_t value);
 
-  /// @brief Method set_drawToCameras, addr 0x49dea74, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_drawToCameras, addr 0x4a43384, size 0xac, virtual false, abstract: false, final false
   inline void set_drawToCameras(bool value);
 
-  /// @brief Method set_screenToPanelSpace, addr 0x49def44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_screenToPanelSpace, addr 0x4a43854, size 0x78, virtual false, abstract: false, final false
   inline void set_screenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method set_selectableGameObject, addr 0x49de4f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method set_selectableGameObject, addr 0x4a42e08, size 0x9c, virtual true, abstract: false, final true
   inline void set_selectableGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sortingPriority, addr 0x49d3458, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method set_sortingPriority, addr 0x4a37d68, size 0xfc, virtual false, abstract: false, final false
   inline void set_sortingPriority(float_t value);
 
-  /// @brief Method set_targetDisplay, addr 0x49deb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetDisplay, addr 0x4a43438, size 0x8, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
 protected:
@@ -328,6 +325,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BaseRuntimePanel(BaseRuntimePanel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6013 };
 
   /// @brief Field m_SelectableGameObject, offset: 0x160, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_SelectableGameObject;
@@ -362,14 +362,9 @@ public:
   /// @brief Field m_ScreenToPanelSpace, offset: 0x1e0, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* ___m_ScreenToPanelSpace;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5988 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseRuntimePanel, 0x1e8>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::BaseRuntimePanel, ___m_SelectableGameObject) == 0x160, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::BaseRuntimePanel, ___m_RuntimePanelCreationIndex) == 0x168, "Offset mismatch!");
@@ -392,8 +387,10 @@ static_assert(offsetof(::UnityEngine::UIElements::BaseRuntimePanel, ____targetDi
 
 static_assert(offsetof(::UnityEngine::UIElements::BaseRuntimePanel, ___m_ScreenToPanelSpace) == 0x1e0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BaseRuntimePanel, 0x1e8>, "Size mismatch!");
+
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BaseRuntimePanel);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BaseRuntimePanel*, "UnityEngine.UIElements", "BaseRuntimePanel");
-NEED_NO_BOX(::UnityEngine::UIElements::__BaseRuntimePanel____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__BaseRuntimePanel____c*, "UnityEngine.UIElements", "BaseRuntimePanel/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::BaseRuntimePanel___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BaseRuntimePanel___c*, "UnityEngine.UIElements", "BaseRuntimePanel/<>c");

@@ -3,13 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IgnoranceConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -33,46 +36,40 @@ namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
 }
 namespace GlobalNamespace {
-class IConnectionManager;
-}
-namespace GlobalNamespace {
 class IConnectionRequestHandler;
 }
 namespace GlobalNamespace {
 class IConnection;
 }
 namespace GlobalNamespace {
-class IPollable;
+class IgnoranceConnectionManager_ConnectToServerParams;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__ConnectToServerParams;
+struct IgnoranceConnectionManager_ConnectionState;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager__ConnectionState;
+class IgnoranceConnectionManager_IgnoranceConnectionParamsBase;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
+class IgnoranceConnectionManager_IgnoranceConnection;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnection;
+class IgnoranceConnectionManager_StartServerParams;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__StartServerParams;
+struct IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
+struct IgnoranceConnectionManager__DisposeAsync_d__77;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___DisposeAsync_d__77;
+class IgnoranceConnectionManager___c__DisplayClass77_0;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_0;
+class IgnoranceConnectionManager___c__DisplayClass77_1;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_1;
-}
-namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass80_0;
+class IgnoranceConnectionManager___c__DisplayClass80_0;
 }
 namespace IgnoranceCore {
 struct IgnoranceChannelTypes;
@@ -93,22 +90,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading {
 class CancellationTokenSource;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -122,67 +110,63 @@ template <typename T1, typename T2, typename T3> class Action_3;
 namespace System {
 class Action;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager__ConnectionState;
+struct IgnoranceConnectionManager_ConnectionState;
 }
 namespace GlobalNamespace {
 class IgnoranceConnectionManager;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__ConnectToServerParams;
+class IgnoranceConnectionManager_ConnectToServerParams;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnection;
+class IgnoranceConnectionManager_IgnoranceConnection;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
+class IgnoranceConnectionManager_IgnoranceConnectionParamsBase;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager__StartServerParams;
+class IgnoranceConnectionManager_StartServerParams;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_0;
+class IgnoranceConnectionManager___c__DisplayClass77_0;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass77_1;
+class IgnoranceConnectionManager___c__DisplayClass77_1;
 }
 namespace GlobalNamespace {
-class __IgnoranceConnectionManager____c__DisplayClass80_0;
+class IgnoranceConnectionManager___c__DisplayClass80_0;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
+struct IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99;
 }
 namespace GlobalNamespace {
-struct __IgnoranceConnectionManager___DisposeAsync_d__77;
+struct IgnoranceConnectionManager__DisposeAsync_d__77;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState);
+MARK_VAL_T(::GlobalNamespace::IgnoranceConnectionManager_ConnectionState);
 MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1);
-MARK_REF_PTR_T(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0);
-MARK_VAL_T(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99);
-MARK_VAL_T(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77);
-// Type: ::ConnectionState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1);
+MARK_REF_PTR_T(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0);
+MARK_VAL_T(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99);
+MARK_VAL_T(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::IgnoranceConnectionManager::ConnectionState
-struct CORDL_TYPE __IgnoranceConnectionManager__ConnectionState {
+// CS Name: IgnoranceConnectionManager/ConnectionState
+struct CORDL_TYPE IgnoranceConnectionManager_ConnectionState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____IgnoranceConnectionManager__ConnectionState_Unwrapped
-  enum struct ____IgnoranceConnectionManager__ConnectionState_Unwrapped : int32_t {
+  /// @brief Nested struct __IgnoranceConnectionManager_ConnectionState_Unwrapped
+  enum struct __IgnoranceConnectionManager_ConnectionState_Unwrapped : int32_t {
     __E_Connecting = static_cast<int32_t>(0x0),
     __E_Connected = static_cast<int32_t>(0x1),
     __E_Disconnecting = static_cast<int32_t>(0x2),
@@ -191,8 +175,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____IgnoranceConnectionManager__ConnectionState_Unwrapped() const noexcept {
-    return static_cast<____IgnoranceConnectionManager__ConnectionState_Unwrapped>(this->value__);
+  constexpr operator __IgnoranceConnectionManager_ConnectionState_Unwrapped() const noexcept {
+    return static_cast<__IgnoranceConnectionManager_ConnectionState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -202,49 +186,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager__ConnectionState();
+  constexpr IgnoranceConnectionManager_ConnectionState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __IgnoranceConnectionManager__ConnectionState(int32_t value__) noexcept;
+  constexpr IgnoranceConnectionManager_ConnectionState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Connected value: I32(1)
+  static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Connected;
 
-  /// @brief Field Connected value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const Connected;
+  /// @brief Field Connecting value: I32(0)
+  static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Connecting;
 
-  /// @brief Field Connecting value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const Connecting;
+  /// @brief Field Disconnected value: I32(3)
+  static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Disconnected;
 
-  /// @brief Field Disconnected value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const Disconnected;
+  /// @brief Field Disconnecting value: I32(2)
+  static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Disconnecting;
 
-  /// @brief Field Disconnecting value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const Disconnecting;
-
-  /// @brief Field Disposed value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const Disposed;
+  /// @brief Field Disposed value: I32(4)
+  static ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const Disposed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14787 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectionState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager_ConnectionState, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::IgnoranceConnectionParamsBase
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IConnectionInitParams`1<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::IgnoranceConnectionParamsBase*
-class CORDL_TYPE __IgnoranceConnectionManager__IgnoranceConnectionParamsBase : public ::System::Object {
+// CS Name: IgnoranceConnectionManager/IgnoranceConnectionParamsBase
+class CORDL_TYPE IgnoranceConnectionManager_IgnoranceConnectionParamsBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field connectionRequestHandler, offset 0x10, size 0x8
@@ -265,11 +248,11 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>*() noexcept;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase* New_ctor();
+
+  constexpr ::GlobalNamespace::IConnectionRequestHandler* const& __cordl_internal_get_connectionRequestHandler() const;
 
   constexpr ::GlobalNamespace::IConnectionRequestHandler*& __cordl_internal_get_connectionRequestHandler();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __cordl_internal_get_connectionRequestHandler() const;
 
   constexpr bool const& __cordl_internal_get_enableBackgroundSentry() const;
 
@@ -297,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2298f90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cc27c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::IgnoranceConnectionManager*>"
@@ -307,16 +290,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager__IgnoranceConnectionParamsBase();
+  constexpr IgnoranceConnectionManager_IgnoranceConnectionParamsBase();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__IgnoranceConnectionParamsBase", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager__IgnoranceConnectionParamsBase(__IgnoranceConnectionManager__IgnoranceConnectionParamsBase&&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__IgnoranceConnectionParamsBase", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnectionParamsBase", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager__IgnoranceConnectionParamsBase(__IgnoranceConnectionManager__IgnoranceConnectionParamsBase const&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnectionParamsBase(IgnoranceConnectionManager_IgnoranceConnectionParamsBase const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14788 };
 
   /// @brief Field connectionRequestHandler, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectionRequestHandler* ___connectionRequestHandler;
@@ -333,31 +319,27 @@ public:
   /// @brief Field enableBackgroundSentry, offset: 0x30, size: 0x1, def value: None
   bool ___enableBackgroundSentry;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14754 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, ___connectionRequestHandler) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, ___connectionRequestHandler) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, ___useSsl) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, ___useSsl) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, ___userId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, ___userId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, ___userName) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, ___userName) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, ___enableBackgroundSentry) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase, ___enableBackgroundSentry) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::StartServerParams
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IgnoranceConnectionManager::IgnoranceConnectionParamsBase
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::StartServerParams*
-class CORDL_TYPE __IgnoranceConnectionManager__StartServerParams : public ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase {
+// CS Name: IgnoranceConnectionManager/StartServerParams
+class CORDL_TYPE IgnoranceConnectionManager_StartServerParams : public ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase {
 public:
   // Declarations
   /// @brief Field certificate, offset 0x40, size 0x8
@@ -375,7 +357,7 @@ public:
   /// @brief Field privateKeyPath, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_privateKeyPath, put = __cordl_internal_set_privateKeyPath)) ::StringW privateKeyPath;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager_StartServerParams* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_certificate() const;
 
@@ -407,22 +389,25 @@ public:
 
   constexpr void __cordl_internal_set_privateKeyPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2298fa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cc28c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager__StartServerParams();
+  constexpr IgnoranceConnectionManager_StartServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__StartServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager__StartServerParams(__IgnoranceConnectionManager__StartServerParams&&) = delete;
+  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__StartServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_StartServerParams", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager__StartServerParams(__IgnoranceConnectionManager__StartServerParams const&) = delete;
+  IgnoranceConnectionManager_StartServerParams(IgnoranceConnectionManager_StartServerParams const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14789 };
 
   /// @brief Field port, offset: 0x34, size: 0x4, def value: None
   int32_t ___port;
@@ -439,31 +424,27 @@ public:
   /// @brief Field privateKey, offset: 0x50, size: 0x8, def value: None
   ::StringW ___privateKey;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14755 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, 0x58>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, ___port) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, ___port) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, ___certificatePath) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, ___certificatePath) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, ___certificate) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, ___certificate) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, ___privateKeyPath) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, ___privateKeyPath) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, ___privateKey) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams, ___privateKey) == 0x50, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager_StartServerParams, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ConnectToServerParams
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IgnoranceConnectionManager::IgnoranceConnectionParamsBase
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::ConnectToServerParams*
-class CORDL_TYPE __IgnoranceConnectionManager__ConnectToServerParams : public ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase {
+// CS Name: IgnoranceConnectionManager/ConnectToServerParams
+class CORDL_TYPE IgnoranceConnectionManager_ConnectToServerParams : public ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase {
 public:
   // Declarations
   /// @brief Field hostName, offset 0x38, size 0x8
@@ -487,7 +468,7 @@ public:
   /// @brief Field validateCertificate, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_validateCertificate, put = __cordl_internal_set_validateCertificate)) bool validateCertificate;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams* New_ctor();
 
   constexpr ::StringW const& __cordl_internal_get_hostName() const;
 
@@ -531,22 +512,25 @@ public:
 
   constexpr void __cordl_internal_set_validateCertificate(bool value);
 
-  /// @brief Method .ctor, addr 0x2293078, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c6364, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager__ConnectToServerParams();
+  constexpr IgnoranceConnectionManager_ConnectToServerParams();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__ConnectToServerParams", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager__ConnectToServerParams(__IgnoranceConnectionManager__ConnectToServerParams&&) = delete;
+  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__ConnectToServerParams", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_ConnectToServerParams", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager__ConnectToServerParams(__IgnoranceConnectionManager__ConnectToServerParams const&) = delete;
+  IgnoranceConnectionManager_ConnectToServerParams(IgnoranceConnectionManager_ConnectToServerParams const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14790 };
 
   /// @brief Field hostName, offset: 0x38, size: 0x8, def value: None
   ::StringW ___hostName;
@@ -569,35 +553,31 @@ public:
   /// @brief Field rootCertificate, offset: 0x68, size: 0x8, def value: None
   ::StringW ___rootCertificate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14756 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, 0x70>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___hostName) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___hostName) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___port) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___port) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___serverUserId) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___serverUserId) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___serverUserName) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___serverUserName) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___validateCertificate) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___validateCertificate) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___rootCertificatePath) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___rootCertificatePath) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, ___rootCertificate) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams, ___rootCertificate) == 0x68, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::IgnoranceConnection
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IConnection, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::IgnoranceConnection*
-class CORDL_TYPE __IgnoranceConnectionManager__IgnoranceConnection : public ::System::Object {
+// CS Name: IgnoranceConnectionManager/IgnoranceConnection
+class CORDL_TYPE IgnoranceConnectionManager_IgnoranceConnection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _connectionManager, offset 0x10, size 0x8
@@ -624,18 +604,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IConnection"
   constexpr operator ::GlobalNamespace::IConnection*() noexcept;
 
-  /// @brief Method Disconnect, addr 0x229900c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x22cc2f8, size 0x24, virtual true, abstract: false, final true
   inline void Disconnect();
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection* New_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId,
-                                                                                               ::StringW userName, bool isConnectionOwner);
+  static inline ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection* New_ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId,
+                                                                                            ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method Send, addr 0x2298fe4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Send, addr 0x22cc2d0, size 0x28, virtual true, abstract: false, final true
   inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  constexpr ::GlobalNamespace::IgnoranceConnectionManager*& __cordl_internal_get__connectionManager();
+  constexpr ::GlobalNamespace::IgnoranceConnectionManager* const& __cordl_internal_get__connectionManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IgnoranceConnectionManager*> const& __cordl_internal_get__connectionManager() const;
+  constexpr ::GlobalNamespace::IgnoranceConnectionManager*& __cordl_internal_get__connectionManager();
 
   constexpr bool const& __cordl_internal_get__isConnectionOwner_k__BackingField() const;
 
@@ -663,43 +643,46 @@ public:
 
   constexpr void __cordl_internal_set_peerId(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x229867c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cb968, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IgnoranceConnectionManager* connectionManager, uint32_t peerId, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method get_isConnectionOwner, addr 0x2298fd0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x22cc2bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_userId, addr 0x2298fb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x22cc29c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x2298fc0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x22cc2ac, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnection"
   constexpr ::GlobalNamespace::IConnection* i___GlobalNamespace__IConnection() noexcept;
 
-  /// @brief Method set_isConnectionOwner, addr 0x2298fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isConnectionOwner, addr 0x22cc2c4, size 0xc, virtual false, abstract: false, final false
   inline void set_isConnectionOwner(bool value);
 
-  /// @brief Method set_userId, addr 0x2298fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x22cc2a4, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method set_userName, addr 0x2298fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x22cc2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager__IgnoranceConnection();
+  constexpr IgnoranceConnectionManager_IgnoranceConnection();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__IgnoranceConnection", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager__IgnoranceConnection(__IgnoranceConnectionManager__IgnoranceConnection&&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager__IgnoranceConnection", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager_IgnoranceConnection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager__IgnoranceConnection(__IgnoranceConnectionManager__IgnoranceConnection const&) = delete;
+  IgnoranceConnectionManager_IgnoranceConnection(IgnoranceConnectionManager_IgnoranceConnection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14791 };
 
   /// @brief Field _connectionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IgnoranceConnectionManager* ____connectionManager;
@@ -716,146 +699,140 @@ public:
   /// @brief Field <isConnectionOwner>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____isConnectionOwner_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14757 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, ____connectionManager) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, ____connectionManager) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, ___peerId) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, ___peerId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, ____userId_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, ____userId_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, ____userName_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, ____userName_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, ____isConnectionOwner_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection, ____isConnectionOwner_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass77_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::<>c__DisplayClass77_0*
-class CORDL_TYPE __IgnoranceConnectionManager____c__DisplayClass77_0 : public ::System::Object {
+// CS Name: IgnoranceConnectionManager/<>c__DisplayClass77_0
+class CORDL_TYPE IgnoranceConnectionManager___c__DisplayClass77_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field client, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_client, put = __cordl_internal_set_client)) ::IgnoranceCore::IgnoranceClient* client;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0* New_ctor();
 
-  /// @brief Method <DisposeAsync>b__0, addr 0x2299038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__0, addr 0x22cc324, size 0x8, virtual false, abstract: false, final false
   inline void _DisposeAsync_b__0();
+
+  constexpr ::IgnoranceCore::IgnoranceClient* const& __cordl_internal_get_client() const;
 
   constexpr ::IgnoranceCore::IgnoranceClient*& __cordl_internal_get_client();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& __cordl_internal_get_client() const;
-
   constexpr void __cordl_internal_set_client(::IgnoranceCore::IgnoranceClient* value);
 
-  /// @brief Method .ctor, addr 0x2299030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cc31c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager____c__DisplayClass77_0();
+  constexpr IgnoranceConnectionManager___c__DisplayClass77_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass77_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass77_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager____c__DisplayClass77_0(__IgnoranceConnectionManager____c__DisplayClass77_0&&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass77_0(IgnoranceConnectionManager___c__DisplayClass77_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass77_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass77_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager____c__DisplayClass77_0(__IgnoranceConnectionManager____c__DisplayClass77_0 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass77_0(IgnoranceConnectionManager___c__DisplayClass77_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14792 };
 
   /// @brief Field client, offset: 0x10, size: 0x8, def value: None
   ::IgnoranceCore::IgnoranceClient* ___client;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14758 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0, ___client) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0, ___client) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass77_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::<>c__DisplayClass77_1*
-class CORDL_TYPE __IgnoranceConnectionManager____c__DisplayClass77_1 : public ::System::Object {
+// CS Name: IgnoranceConnectionManager/<>c__DisplayClass77_1
+class CORDL_TYPE IgnoranceConnectionManager___c__DisplayClass77_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field server, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_server, put = __cordl_internal_set_server)) ::IgnoranceCore::IgnoranceServer* server;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1* New_ctor();
 
-  /// @brief Method <DisposeAsync>b__1, addr 0x2299048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__1, addr 0x22cc334, size 0x8, virtual false, abstract: false, final false
   inline void _DisposeAsync_b__1();
+
+  constexpr ::IgnoranceCore::IgnoranceServer* const& __cordl_internal_get_server() const;
 
   constexpr ::IgnoranceCore::IgnoranceServer*& __cordl_internal_get_server();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& __cordl_internal_get_server() const;
-
   constexpr void __cordl_internal_set_server(::IgnoranceCore::IgnoranceServer* value);
 
-  /// @brief Method .ctor, addr 0x2299040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cc32c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager____c__DisplayClass77_1();
+  constexpr IgnoranceConnectionManager___c__DisplayClass77_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass77_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass77_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager____c__DisplayClass77_1(__IgnoranceConnectionManager____c__DisplayClass77_1&&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass77_1(IgnoranceConnectionManager___c__DisplayClass77_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass77_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass77_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager____c__DisplayClass77_1(__IgnoranceConnectionManager____c__DisplayClass77_1 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass77_1(IgnoranceConnectionManager___c__DisplayClass77_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14793 };
 
   /// @brief Field server, offset: 0x10, size: 0x8, def value: None
   ::IgnoranceCore::IgnoranceServer* ___server;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14759 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1, ___server) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1, ___server) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass80_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager::<>c__DisplayClass80_0*
-class CORDL_TYPE __IgnoranceConnectionManager____c__DisplayClass80_0 : public ::System::Object {
+// CS Name: IgnoranceConnectionManager/<>c__DisplayClass80_0
+class CORDL_TYPE IgnoranceConnectionManager___c__DisplayClass80_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field userId, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId)) ::StringW userId;
 
-  static inline ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0* New_ctor();
+  static inline ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0* New_ctor();
 
-  /// @brief Method <HandleIncomingEvents>b__0, addr 0x2299050, size 0x24, virtual false, abstract: false, final false
-  inline bool _HandleIncomingEvents_b__0(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection* existingConnections);
+  /// @brief Method <HandleIncomingEvents>b__0, addr 0x22cc33c, size 0x24, virtual false, abstract: false, final false
+  inline bool _HandleIncomingEvents_b__0(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection* existingConnections);
 
   constexpr ::StringW const& __cordl_internal_get_userId() const;
 
@@ -863,52 +840,52 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22986d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22cb9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager____c__DisplayClass80_0();
+  constexpr IgnoranceConnectionManager___c__DisplayClass80_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass80_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass80_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IgnoranceConnectionManager____c__DisplayClass80_0(__IgnoranceConnectionManager____c__DisplayClass80_0&&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass80_0(IgnoranceConnectionManager___c__DisplayClass80_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IgnoranceConnectionManager____c__DisplayClass80_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager___c__DisplayClass80_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IgnoranceConnectionManager____c__DisplayClass80_0(__IgnoranceConnectionManager____c__DisplayClass80_0 const&) = delete;
+  IgnoranceConnectionManager___c__DisplayClass80_0(IgnoranceConnectionManager___c__DisplayClass80_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14794 };
 
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
   ::StringW ___userId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14760 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0, ___userId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0, ___userId) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<BackgroundDisconnectSentry>d__99
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::IgnoranceConnectionManager::<BackgroundDisconnectSentry>d__99
-struct CORDL_TYPE __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99 {
+// CS Name: IgnoranceConnectionManager/<BackgroundDisconnectSentry>d__99
+struct CORDL_TYPE IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2299074, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22cc360, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22994d0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22cc7bc, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -916,15 +893,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99();
+  constexpr IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "",
   // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                            ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Threading::CancellationToken _cancellationToken_5__2,
-                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                         ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Threading::CancellationToken _cancellationToken_5__2,
+                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14795 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -941,43 +924,36 @@ public:
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14761 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, _cancellationToken_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, __u__1) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, __u__1) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<DisposeAsync>d__77
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::IgnoranceConnectionManager::<DisposeAsync>d__77
-struct CORDL_TYPE __IgnoranceConnectionManager___DisposeAsync_d__77 {
+// CS Name: IgnoranceConnectionManager/<DisposeAsync>d__77
+struct CORDL_TYPE IgnoranceConnectionManager__DisposeAsync_d__77 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2299538, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x22cc824, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2299968, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x22ccc54, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -985,13 +961,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IgnoranceConnectionManager___DisposeAsync_d__77();
+  constexpr IgnoranceConnectionManager__DisposeAsync_d__77();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::IgnoranceConnectionManager*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __IgnoranceConnectionManager___DisposeAsync_d__77(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                              ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr IgnoranceConnectionManager__DisposeAsync_d__77(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                           ::GlobalNamespace::IgnoranceConnectionManager* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14796 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -1005,53 +987,46 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14762 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, __u__1) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::IgnoranceConnectionManager
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IConnectionManager, IPollable, IgnoranceConnectionManager::ConnectionState, System.IDisposable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IgnoranceConnectionManager*
+// CS Name: IgnoranceConnectionManager
 class CORDL_TYPE IgnoranceConnectionManager : public ::System::Object {
 public:
   // Declarations
-  using ConnectToServerParams = ::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams;
+  using ConnectToServerParams = ::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams;
 
-  using ConnectionState = ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState;
+  using ConnectionState = ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState;
 
-  using IgnoranceConnection = ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection;
+  using IgnoranceConnection = ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection;
 
-  using IgnoranceConnectionParamsBase = ::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase;
+  using IgnoranceConnectionParamsBase = ::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase;
 
-  using StartServerParams = ::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams;
+  using StartServerParams = ::GlobalNamespace::IgnoranceConnectionManager_StartServerParams;
 
-  using _BackgroundDisconnectSentry_d__99 = ::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99;
+  using _BackgroundDisconnectSentry_d__99 = ::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99;
 
-  using _DisposeAsync_d__77 = ::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77;
+  using _DisposeAsync_d__77 = ::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77;
 
-  using __c__DisplayClass77_0 = ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0;
+  using __c__DisplayClass77_0 = ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0;
 
-  using __c__DisplayClass77_1 = ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1;
+  using __c__DisplayClass77_1 = ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1;
 
-  using __c__DisplayClass80_0 = ::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0;
+  using __c__DisplayClass80_0 = ::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0;
 
   /// @brief Field _backgroundSentryDisconnectCts, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__backgroundSentryDisconnectCts,
@@ -1073,7 +1048,7 @@ public:
 
   /// @brief Field _connections, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__connections,
-                      put = __cordl_internal_set__connections)) ::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>* _connections;
+                      put = __cordl_internal_set__connections)) ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* _connections;
 
   /// @brief Field _incomingDataReader, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__incomingDataReader, put = __cordl_internal_set__incomingDataReader)) ::LiteNetLib::Utils::NetDataReader* _incomingDataReader;
@@ -1100,7 +1075,7 @@ public:
   __declspec(property(get = __cordl_internal_get__serverUserName_k__BackingField, put = __cordl_internal_set__serverUserName_k__BackingField)) ::StringW _serverUserName_k__BackingField;
 
   /// @brief Field _state, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState _state;
 
   /// @brief Field _taskUtility, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility)) ::BGNet::Core::ITaskUtility* _taskUtility;
@@ -1170,133 +1145,132 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BackgroundDisconnectSentry, addr 0x2298ecc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method BackgroundDisconnectSentry, addr 0x22cc1b8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BackgroundDisconnectSentry();
 
-  /// @brief Method CheckSentryState, addr 0x22979b4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CheckSentryState, addr 0x22caca0, size 0x24, virtual false, abstract: false, final false
   inline void CheckSentryState();
 
-  /// @brief Method Disconnect, addr 0x229817c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Disconnect, addr 0x22cb468, size 0x1b4, virtual true, abstract: false, final true
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method DisconnectPeer, addr 0x2298810, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DisconnectPeer, addr 0x22cbafc, size 0xf0, virtual false, abstract: false, final false
   inline void DisconnectPeer(uint32_t peerId, ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method Dispose, addr 0x2298148, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x22cb434, size 0x34, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x2298088, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x22cb374, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
-  /// @brief Method GetConnection, addr 0x2298ba8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetConnection, addr 0x22cbe94, size 0x58, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method GetConnectionMessage, addr 0x2298488, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionMessage, addr 0x22cb774, size 0x110, virtual false, abstract: false, final false
   inline ::LiteNetLib::Utils::NetDataWriter* GetConnectionMessage();
 
-  /// @brief Method HandleConnectionEvents, addr 0x22979d8, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectionEvents, addr 0x22cacc4, size 0x270, virtual false, abstract: false, final false
   inline void HandleConnectionEvents();
 
-  /// @brief Method HandleDisconnectionEvents, addr 0x2297fcc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HandleDisconnectionEvents, addr 0x22cb2b8, size 0xbc, virtual false, abstract: false, final false
   inline void HandleDisconnectionEvents();
 
-  /// @brief Method HandleIncomingEvents, addr 0x2297c48, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method HandleIncomingEvents, addr 0x22caf34, size 0x384, virtual false, abstract: false, final false
   inline void HandleIncomingEvents();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
-  /// @brief Method Log, addr 0x2298c8c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x22cbf78, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW msg);
 
-  /// @brief Method LogError, addr 0x2298c00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LogError, addr 0x22cbeec, size 0x8c, virtual false, abstract: false, final false
   static inline void LogError(::StringW msg);
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager* New_ctor();
 
   static inline ::GlobalNamespace::IgnoranceConnectionManager* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method PollUpdate, addr 0x22978c4, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x22cabb0, size 0xf0, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Send, addr 0x2298598, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x22cb884, size 0xe4, virtual false, abstract: false, final false
   inline void Send(uint32_t peerId, ::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x2298a10, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x22cbcfc, size 0xb8, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll, addr 0x2298ac8, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method SendToAll, addr 0x22cbdb4, size 0xe0, virtual true, abstract: false, final true
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
-  /// @brief Method StartBackgroundSentry, addr 0x2298d18, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundSentry, addr 0x22cc004, size 0x1b4, virtual false, abstract: false, final false
   inline void StartBackgroundSentry();
 
-  /// @brief Method ToChannel, addr 0x2298a00, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ToChannel, addr 0x22cbcec, size 0x10, virtual false, abstract: false, final false
   static inline uint8_t ToChannel(::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method ToDeliveryMethod, addr 0x22989f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToDeliveryMethod, addr 0x22cbce0, size 0xc, virtual false, abstract: false, final false
   static inline ::BGNet::Core::DeliveryMethod ToDeliveryMethod(uint8_t channel);
 
-  /// @brief Method TryGetConnection, addr 0x2298900, size 0xf4, virtual false, abstract: false, final false
-  inline bool TryGetConnection(uint32_t peerId, ByRef<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*> connection);
+  /// @brief Method TryGetConnection, addr 0x22cbbec, size 0xf4, virtual false, abstract: false, final false
+  inline bool TryGetConnection(uint32_t peerId, ::ByRef<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*> connection);
 
-  /// @brief Method TryParseConnectionMessage, addr 0x22986dc, size 0x134, virtual false, abstract: false, final false
-  inline bool TryParseConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
+  /// @brief Method TryParseConnectionMessage, addr 0x22cb9c8, size 0x134, virtual false, abstract: false, final false
+  inline bool TryParseConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ::ByRef<::StringW> userId, ::ByRef<::StringW> userName, ::ByRef<bool> isConnectionOwner);
 
-  /// @brief Method WaitForClientShutdown, addr 0x2298330, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WaitForClientShutdown, addr 0x22cb61c, size 0xac, virtual false, abstract: false, final false
   static inline void WaitForClientShutdown(::IgnoranceCore::IgnoranceClient* client);
 
-  /// @brief Method WaitForServerShutdown, addr 0x22983dc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WaitForServerShutdown, addr 0x22cb6c8, size 0xac, virtual false, abstract: false, final false
   static inline void WaitForServerShutdown(::IgnoranceCore::IgnoranceServer* server);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__backgroundSentryDisconnectCts();
+  constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__backgroundSentryDisconnectCts() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__backgroundSentryDisconnectCts() const;
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__backgroundSentryDisconnectCts();
 
   constexpr ::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*> const& __cordl_internal_get__channels() const;
 
   constexpr ::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*>& __cordl_internal_get__channels();
 
+  constexpr ::IgnoranceCore::IgnoranceClient* const& __cordl_internal_get__client() const;
+
   constexpr ::IgnoranceCore::IgnoranceClient*& __cordl_internal_get__client();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceClient*> const& __cordl_internal_get__client() const;
+  constexpr ::GlobalNamespace::IConnectionRequestHandler* const& __cordl_internal_get__connectionRequestHandler() const;
 
   constexpr ::GlobalNamespace::IConnectionRequestHandler*& __cordl_internal_get__connectionRequestHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __cordl_internal_get__connectionRequestHandler() const;
+  constexpr ::LiteNetLib::Utils::NetDataWriter* const& __cordl_internal_get__connectionRequestWriter() const;
 
   constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__connectionRequestWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__connectionRequestWriter() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* const& __cordl_internal_get__connections() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*& __cordl_internal_get__connections();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>*& __cordl_internal_get__connections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>*> const&
-  __cordl_internal_get__connections() const;
+  constexpr ::LiteNetLib::Utils::NetDataReader* const& __cordl_internal_get__incomingDataReader() const;
 
   constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get__incomingDataReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get__incomingDataReader() const;
+  constexpr ::LiteNetLib::Utils::NetDataWriter* const& __cordl_internal_get__incomingDataWriter() const;
 
   constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__incomingDataWriter();
-
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__incomingDataWriter() const;
 
   constexpr int64_t const& __cordl_internal_get__lastPollUpdateTime() const;
 
   constexpr int64_t& __cordl_internal_get__lastPollUpdateTime();
 
-  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get__pendingConnections();
+  constexpr ::System::Collections::Generic::List_1<uint32_t>* const& __cordl_internal_get__pendingConnections() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<uint32_t>*> const& __cordl_internal_get__pendingConnections() const;
+  constexpr ::System::Collections::Generic::List_1<uint32_t>*& __cordl_internal_get__pendingConnections();
 
   constexpr bool const& __cordl_internal_get__sentryDisconnected() const;
 
   constexpr bool& __cordl_internal_get__sentryDisconnected();
 
-  constexpr ::IgnoranceCore::IgnoranceServer*& __cordl_internal_get__server();
+  constexpr ::IgnoranceCore::IgnoranceServer* const& __cordl_internal_get__server() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceCore::IgnoranceServer*> const& __cordl_internal_get__server() const;
+  constexpr ::IgnoranceCore::IgnoranceServer*& __cordl_internal_get__server();
 
   constexpr ::StringW const& __cordl_internal_get__serverUserId_k__BackingField() const;
 
@@ -1306,17 +1280,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__serverUserName_k__BackingField();
 
-  constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState const& __cordl_internal_get__state() const;
+  constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState const& __cordl_internal_get__state() const;
 
-  constexpr ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState& __cordl_internal_get__state();
+  constexpr ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState& __cordl_internal_get__state();
+
+  constexpr ::BGNet::Core::ITaskUtility* const& __cordl_internal_get__taskUtility() const;
 
   constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
+  constexpr ::BGNet::Core::ITimeProvider* const& __cordl_internal_get__timeProvider() const;
 
   constexpr ::BGNet::Core::ITimeProvider*& __cordl_internal_get__timeProvider();
-
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
   constexpr ::StringW const& __cordl_internal_get__userId_k__BackingField() const;
 
@@ -1326,35 +1300,33 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
 
+  constexpr ::System::Action* const& __cordl_internal_get_onConnectedEvent() const;
+
   constexpr ::System::Action*& __cordl_internal_get_onConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onConnectedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::IConnection*>* const& __cordl_internal_get_onConnectionConnectedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& __cordl_internal_get_onConnectionConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& __cordl_internal_get_onConnectionConnectedEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* const& __cordl_internal_get_onConnectionDisconnectedEvent() const;
 
   constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onConnectionDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const&
-  __cordl_internal_get_onConnectionDisconnectedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* const& __cordl_internal_get_onConnectionFailedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __cordl_internal_get_onConnectionFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __cordl_internal_get_onConnectionFailedEvent() const;
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>* const& __cordl_internal_get_onDisconnectedEvent() const;
 
   constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get_onDisconnectedEvent() const;
+  constexpr ::System::Action* const& __cordl_internal_get_onInitializedEvent() const;
 
   constexpr ::System::Action*& __cordl_internal_get_onInitializedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onInitializedEvent() const;
+  constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* const& __cordl_internal_get_onReceivedDataEvent() const;
 
   constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*& __cordl_internal_get_onReceivedDataEvent();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*> const&
-  __cordl_internal_get_onReceivedDataEvent() const;
 
   constexpr void __cordl_internal_set__backgroundSentryDisconnectCts(::System::Threading::CancellationTokenSource* value);
 
@@ -1366,7 +1338,7 @@ public:
 
   constexpr void __cordl_internal_set__connectionRequestWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
-  constexpr void __cordl_internal_set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>* value);
+  constexpr void __cordl_internal_set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* value);
 
   constexpr void __cordl_internal_set__incomingDataReader(::LiteNetLib::Utils::NetDataReader* value);
 
@@ -1384,7 +1356,7 @@ public:
 
   constexpr void __cordl_internal_set__serverUserName_k__BackingField(::StringW value);
 
-  constexpr void __cordl_internal_set__state(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::IgnoranceConnectionManager_ConnectionState value);
 
   constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
@@ -1408,61 +1380,61 @@ public:
 
   constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method .ctor, addr 0x22921c8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22c54b4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2297720, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22caa0c, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method add_onConnectedEvent, addr 0x2296e30, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectedEvent, addr 0x22ca11c, size 0x9c, virtual true, abstract: false, final true
   inline void add_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method add_onConnectionConnectedEvent, addr 0x2297228, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x22ca514, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x2297388, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x22ca674, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onConnectionFailedEvent, addr 0x22970c8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onConnectionFailedEvent, addr 0x22ca3b4, size 0xb0, virtual true, abstract: false, final true
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_onDisconnectedEvent, addr 0x2296f68, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onDisconnectedEvent, addr 0x22ca254, size 0xb0, virtual true, abstract: false, final true
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onInitializedEvent, addr 0x2296cf8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_onInitializedEvent, addr 0x22c9fe4, size 0x9c, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method add_onReceivedDataEvent, addr 0x22974e8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onReceivedDataEvent, addr 0x22ca7d4, size 0xb0, virtual true, abstract: false, final true
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method get_connectionCount, addr 0x2297698, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method get_connectionCount, addr 0x22ca984, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_isConnected, addr 0x2297668, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnected, addr 0x22ca954, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting, addr 0x2297678, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnecting, addr 0x22ca964, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isConnectionOwner, addr 0x22976e0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isConnectionOwner, addr 0x22ca9cc, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisconnecting, addr 0x2297688, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisconnecting, addr 0x22ca974, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_isDisposed, addr 0x22976f0, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_isDisposed, addr 0x22ca9dc, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisposed();
 
-  /// @brief Method get_serverUserId, addr 0x2297700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serverUserId, addr 0x22ca9ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserId();
 
-  /// @brief Method get_serverUserName, addr 0x2297710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serverUserName, addr 0x22ca9fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serverUserName();
 
-  /// @brief Method get_userId, addr 0x2297648, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userId, addr 0x22ca934, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x2297658, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_userName, addr 0x22ca944, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IConnectionManager"
@@ -1474,37 +1446,37 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_onConnectedEvent, addr 0x2296ecc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectedEvent, addr 0x22ca1b8, size 0x9c, virtual true, abstract: false, final true
   inline void remove_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_onConnectionConnectedEvent, addr 0x22972d8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x22ca5c4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x2297438, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x22ca724, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onConnectionFailedEvent, addr 0x2297178, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x22ca464, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_onDisconnectedEvent, addr 0x2297018, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onDisconnectedEvent, addr 0x22ca304, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onInitializedEvent, addr 0x2296d94, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_onInitializedEvent, addr 0x22ca080, size 0x9c, virtual true, abstract: false, final true
   inline void remove_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method remove_onReceivedDataEvent, addr 0x2297598, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onReceivedDataEvent, addr 0x22ca884, size 0xb0, virtual true, abstract: false, final true
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method set_serverUserId, addr 0x2297708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serverUserId, addr 0x22ca9f4, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserId(::StringW value);
 
-  /// @brief Method set_serverUserName, addr 0x2297718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_serverUserName, addr 0x22caa04, size 0x8, virtual false, abstract: false, final false
   inline void set_serverUserName(::StringW value);
 
-  /// @brief Method set_userId, addr 0x2297650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userId, addr 0x22ca93c, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method set_userName, addr 0x2297660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userName, addr 0x22ca94c, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
 protected:
@@ -1520,6 +1492,21 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "IgnoranceConnectionManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IgnoranceConnectionManager(IgnoranceConnectionManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14797 };
+
+  /// @brief Field kBackgroundDisconnectTimeoutMs offset 0xffffffff size 0x8
+  static constexpr int64_t kBackgroundDisconnectTimeoutMs{ static_cast<int64_t>(0x1d4c0) };
+
+  /// @brief Field kIgnoranceConnectHeader offset 0xffffffff size 0x8
+  static constexpr ::ConstString kIgnoranceConnectHeader{ u"IgnCon" };
+
+  /// @brief Field kMaxClientShutdownTimeMs offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxClientShutdownTimeMs{ static_cast<int32_t>(0x1e) };
+
+  /// @brief Field kMaxServerShutdownTimeMs offset 0xffffffff size 0x4
+  static constexpr int32_t kMaxServerShutdownTimeMs{ static_cast<int32_t>(0x12c) };
 
   /// @brief Field onInitializedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___onInitializedEvent;
@@ -1552,7 +1539,7 @@ public:
   ::ArrayW<::IgnoranceCore::IgnoranceChannelTypes, ::Array<::IgnoranceCore::IgnoranceChannelTypes>*> ____channels;
 
   /// @brief Field _state, offset: 0x60, size: 0x4, def value: None
-  ::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState ____state;
+  ::GlobalNamespace::IgnoranceConnectionManager_ConnectionState ____state;
 
   /// @brief Field _client, offset: 0x68, size: 0x8, def value: None
   ::IgnoranceCore::IgnoranceClient* ____client;
@@ -1567,7 +1554,7 @@ public:
   ::System::Collections::Generic::List_1<uint32_t>* ____pendingConnections;
 
   /// @brief Field _connections, offset: 0x88, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*>* ____connections;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*>* ____connections;
 
   /// @brief Field _incomingDataWriter, offset: 0x90, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataWriter* ____incomingDataWriter;
@@ -1599,26 +1586,9 @@ public:
   /// @brief Field <serverUserName>k__BackingField, offset: 0xd8, size: 0x8, def value: None
   ::StringW ____serverUserName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14763 };
-
-  /// @brief Field kBackgroundDisconnectTimeoutMs offset 0xffffffff size 0x8
-  static constexpr int64_t kBackgroundDisconnectTimeoutMs{ static_cast<int64_t>(0x1d4c0) };
-
-  /// @brief Field kIgnoranceConnectHeader offset 0xffffffff size 0x8
-  static constexpr ::ConstString kIgnoranceConnectHeader{ u"IgnCon" };
-
-  /// @brief Field kMaxClientShutdownTimeMs offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxClientShutdownTimeMs{ static_cast<int32_t>(0x1e) };
-
-  /// @brief Field kMaxServerShutdownTimeMs offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxServerShutdownTimeMs{ static_cast<int32_t>(0x12c) };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager, ___onInitializedEvent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager, ___onConnectedEvent) == 0x18, "Offset mismatch!");
@@ -1671,23 +1641,25 @@ static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager, ____server
 
 static_assert(offsetof(::GlobalNamespace::IgnoranceConnectionManager, ____serverUserName_k__BackingField) == 0xd8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::IgnoranceConnectionManager, 0xe0>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager__ConnectionState, "", "IgnoranceConnectionManager/ConnectionState");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager_ConnectionState, "", "IgnoranceConnectionManager/ConnectionState");
 NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager*, "", "IgnoranceConnectionManager");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager__ConnectToServerParams*, "", "IgnoranceConnectionManager/ConnectToServerParams");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnection*, "", "IgnoranceConnectionManager/IgnoranceConnection");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager__IgnoranceConnectionParamsBase*, "", "IgnoranceConnectionManager/IgnoranceConnectionParamsBase");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager__StartServerParams*, "", "IgnoranceConnectionManager/StartServerParams");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_0*, "", "IgnoranceConnectionManager/<>c__DisplayClass77_0");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass77_1*, "", "IgnoranceConnectionManager/<>c__DisplayClass77_1");
-NEED_NO_BOX(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager____c__DisplayClass80_0*, "", "IgnoranceConnectionManager/<>c__DisplayClass80_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager___BackgroundDisconnectSentry_d__99, "", "IgnoranceConnectionManager/<BackgroundDisconnectSentry>d__99");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IgnoranceConnectionManager___DisposeAsync_d__77, "", "IgnoranceConnectionManager/<DisposeAsync>d__77");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager_ConnectToServerParams*, "", "IgnoranceConnectionManager/ConnectToServerParams");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnection*, "", "IgnoranceConnectionManager/IgnoranceConnection");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager_IgnoranceConnectionParamsBase*, "", "IgnoranceConnectionManager/IgnoranceConnectionParamsBase");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager_StartServerParams*, "", "IgnoranceConnectionManager/StartServerParams");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_0*, "", "IgnoranceConnectionManager/<>c__DisplayClass77_0");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass77_1*, "", "IgnoranceConnectionManager/<>c__DisplayClass77_1");
+NEED_NO_BOX(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager___c__DisplayClass80_0*, "", "IgnoranceConnectionManager/<>c__DisplayClass80_0");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager__BackgroundDisconnectSentry_d__99, "", "IgnoranceConnectionManager/<BackgroundDisconnectSentry>d__99");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IgnoranceConnectionManager__DisposeAsync_d__77, "", "IgnoranceConnectionManager/<DisposeAsync>d__77");

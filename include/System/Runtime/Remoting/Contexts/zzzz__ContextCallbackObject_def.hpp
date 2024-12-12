@@ -14,20 +14,19 @@ class ContextCallbackObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::ContextCallbackObject);
-// Type: System.Runtime.Remoting.Contexts::ContextCallbackObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ContextBoundObject
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Contexts::ContextCallbackObject*
+// CS Name: System.Runtime.Remoting.Contexts.ContextCallbackObject
 class CORDL_TYPE ContextCallbackObject : public ::System::ContextBoundObject {
 public:
   // Declarations
-  /// @brief Method DoCallBack, addr 0x3c7df10, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DoCallBack, addr 0x3cde084, size 0x4, virtual false, abstract: false, final false
   inline void DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg);
 
   static inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c7df08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cde07c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

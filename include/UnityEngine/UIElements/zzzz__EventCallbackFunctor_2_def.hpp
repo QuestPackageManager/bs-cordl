@@ -30,13 +30,12 @@ template <typename TEventType, typename TCallbackArgs> class EventCallbackFuncto
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctor_2);
-// Type: UnityEngine.UIElements::EventCallbackFunctor`2
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventCallbackFunctorBase
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType, typename TCallbackArgs>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`2<TEventType,TCallbackArgs>*
+// CS Name: UnityEngine.UIElements.EventCallbackFunctor`2<TEventType,TCallbackArgs>
 class CORDL_TYPE EventCallbackFunctor_2 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
   // Declarations
@@ -65,9 +64,9 @@ public:
 
   constexpr TCallbackArgs& __cordl_internal_get__userArgs_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>*& __cordl_internal_get_m_Callback();
+  constexpr ::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* const& __cordl_internal_get_m_Callback() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>*> const& __cordl_internal_get_m_Callback() const;
+  constexpr ::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>*& __cordl_internal_get_m_Callback();
 
   constexpr int64_t const& __cordl_internal_get_m_EventTypeId() const;
 
@@ -103,6 +102,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventCallbackFunctor_2(EventCallbackFunctor_2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5809 };
+
   /// @brief Field m_Callback, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_2<TEventType, TCallbackArgs>* ___m_Callback;
 
@@ -111,9 +113,6 @@ public:
 
   /// @brief Field <userArgs>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TCallbackArgs ____userArgs_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5784 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

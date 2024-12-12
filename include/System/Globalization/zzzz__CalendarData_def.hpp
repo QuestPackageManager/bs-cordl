@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CalendarData)
@@ -14,22 +13,21 @@ class CalendarData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::CalendarData);
-// Type: System.Globalization::CalendarData
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Globalization {
 // Is value type: false
-// CS Name: ::System.Globalization::CalendarData*
+// CS Name: System.Globalization.CalendarData
 class CORDL_TYPE CalendarData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field HEBREW_LEAP_MONTH_NAMES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEBREW_LEAP_MONTH_NAMES, put = setStaticF_HEBREW_LEAP_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_LEAP_MONTH_NAMES;
+  __declspec(property(get = getStaticF_HEBREW_LEAP_MONTH_NAMES, put = setStaticF_HEBREW_LEAP_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_LEAP_MONTH_NAMES;
 
   /// @brief Field HEBREW_MONTH_NAMES, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_HEBREW_MONTH_NAMES, put = setStaticF_HEBREW_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_MONTH_NAMES;
+  __declspec(property(get = getStaticF_HEBREW_MONTH_NAMES, put = setStaticF_HEBREW_MONTH_NAMES)) ::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_MONTH_NAMES;
 
   /// @brief Field Invariant, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant)) ::System::Globalization::CalendarData* Invariant;
+  __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant)) ::System::Globalization::CalendarData* Invariant;
 
   /// @brief Field bUseUserOverrides, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get_bUseUserOverrides, put = __cordl_internal_set_bUseUserOverrides)) bool bUseUserOverrides;
@@ -89,22 +87,22 @@ public:
   /// @brief Field saYearMonths, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths)) ::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
 
-  /// @brief Method CalendarIdToCultureName, addr 0x3d3bea4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CalendarIdToCultureName, addr 0x3d9c018, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW CalendarIdToCultureName(int32_t calendarId);
 
-  /// @brief Method GetCalendarData, addr 0x3d39bb4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetCalendarData, addr 0x3d99d28, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CalendarData* GetCalendarData(int32_t calendarId);
 
-  /// @brief Method GetJapaneseEnglishEraNames, addr 0x3d3bb34, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEnglishEraNames, addr 0x3d9bca8, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEnglishEraNames();
 
-  /// @brief Method GetJapaneseEraNames, addr 0x3d3bc18, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetJapaneseEraNames, addr 0x3d9bd8c, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetJapaneseEraNames();
 
-  /// @brief Method InitializeAbbreviatedEraNames, addr 0x3d3b878, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InitializeAbbreviatedEraNames, addr 0x3d9b9ec, size 0x2bc, virtual false, abstract: false, final false
   inline void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId);
 
-  /// @brief Method InitializeEraNames, addr 0x3d3b4ac, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method InitializeEraNames, addr 0x3d9b620, size 0x3cc, virtual false, abstract: false, final false
   inline void InitializeEraNames(::StringW localeName, int32_t calendarId);
 
   static inline ::System::Globalization::CalendarData* New_ctor();
@@ -225,13 +223,13 @@ public:
 
   constexpr void __cordl_internal_set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3d3a2a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9a414, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d3aef8, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d9b06c, size 0x4f4, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides);
 
-  /// @brief Method fill_calendar_data, addr 0x3d3c084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method fill_calendar_data, addr 0x3d9c1f8, size 0x4, virtual false, abstract: false, final false
   inline bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_HEBREW_LEAP_MONTH_NAMES();
@@ -240,10 +238,10 @@ public:
 
   static inline ::System::Globalization::CalendarData* getStaticF_Invariant();
 
-  /// @brief Method nativeGetCalendarData, addr 0x3d3b3ec, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetCalendarData, addr 0x3d9b560, size 0xb8, virtual false, abstract: false, final false
   static inline bool nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId);
 
-  /// @brief Method nativeGetTwoDigitYearMax, addr 0x3d3a298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetTwoDigitYearMax, addr 0x3d9a40c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t nativeGetTwoDigitYearMax(int32_t calID);
 
   static inline void setStaticF_HEBREW_LEAP_MONTH_NAMES(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -265,6 +263,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CalendarData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CalendarData(CalendarData const&) = delete;
+
+  /// @brief Field MAX_CALENDARS offset 0xffffffff size 0x4
+  static constexpr int32_t MAX_CALENDARS{ static_cast<int32_t>(0x17) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3703 };
 
   /// @brief Field sNativeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___sNativeName;
@@ -323,17 +327,9 @@ public:
   /// @brief Field bUseUserOverrides, offset: 0x98, size: 0x1, def value: None
   bool ___bUseUserOverrides;
 
-  /// @brief Field MAX_CALENDARS offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_CALENDARS{ static_cast<int32_t>(0x17) };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3703 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarData, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Globalization::CalendarData, ___sNativeName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::CalendarData, ___saShortDates) == 0x18, "Offset mismatch!");
@@ -371,6 +367,8 @@ static_assert(offsetof(::System::Globalization::CalendarData, ___iTwoDigitYearMa
 static_assert(offsetof(::System::Globalization::CalendarData, ___iCurrentEra) == 0x94, "Offset mismatch!");
 
 static_assert(offsetof(::System::Globalization::CalendarData, ___bUseUserOverrides) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Globalization::CalendarData, 0xa0>, "Size mismatch!");
 
 } // namespace System::Globalization
 NEED_NO_BOX(::System::Globalization::CalendarData);

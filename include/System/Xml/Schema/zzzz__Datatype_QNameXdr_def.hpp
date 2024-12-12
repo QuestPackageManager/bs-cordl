@@ -27,11 +27,10 @@ class Datatype_QNameXdr;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_QNameXdr);
-// Type: System.Xml.Schema::Datatype_QNameXdr
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_anySimpleType
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_QNameXdr*
+// CS Name: System.Xml.Schema.Datatype_QNameXdr
 class CORDL_TYPE Datatype_QNameXdr : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
@@ -42,30 +41,30 @@ public:
   __declspec(property(get = get_ValueType)) ::System::Type* ValueType;
 
   /// @brief Field atomicValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
+  __declspec(property(get = getStaticF_atomicValueType, put = setStaticF_atomicValueType)) ::System::Type* atomicValueType;
 
   /// @brief Field listValueType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
+  __declspec(property(get = getStaticF_listValueType, put = setStaticF_listValueType)) ::System::Type* listValueType;
 
   static inline ::System::Xml::Schema::Datatype_QNameXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x434dfa8, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x43af2bc, size 0x26c, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x4342fe8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a42fc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method get_ListValueType, addr 0x434e26c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x43af580, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TokenizedType, addr 0x434dfa0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TokenizedType, addr 0x43af2b4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType, addr 0x434e214, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x43af528, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);
@@ -87,7 +86,7 @@ public:
   Datatype_QNameXdr(Datatype_QNameXdr const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,11 +14,10 @@ class MonoListItem;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MonoListItem);
-// Type: System::MonoListItem
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::MonoListItem*
+// CS Name: System.MonoListItem
 class CORDL_TYPE MonoListItem : public ::System::Object {
 public:
   // Declarations
@@ -30,19 +29,19 @@ public:
 
   static inline ::System::MonoListItem* New_ctor();
 
+  constexpr ::System::Object* const& __cordl_internal_get_data() const;
+
   constexpr ::System::Object*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_data() const;
+  constexpr ::System::MonoListItem* const& __cordl_internal_get_next() const;
 
   constexpr ::System::MonoListItem*& __cordl_internal_get_next();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::MonoListItem*> const& __cordl_internal_get_next() const;
 
   constexpr void __cordl_internal_set_data(::System::Object* value);
 
   constexpr void __cordl_internal_set_next(::System::MonoListItem* value);
 
-  /// @brief Method .ctor, addr 0x3dd9398, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e39444, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,23 +58,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoListItem(MonoListItem const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2611 };
+
   /// @brief Field next, offset: 0x10, size: 0x8, def value: None
   ::System::MonoListItem* ___next;
 
   /// @brief Field data, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ___data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2611 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::MonoListItem, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::MonoListItem, ___next) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::MonoListItem, ___data) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::MonoListItem, 0x20>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::MonoListItem);

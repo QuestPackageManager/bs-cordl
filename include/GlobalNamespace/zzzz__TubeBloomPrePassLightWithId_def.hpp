@@ -17,11 +17,10 @@ class TubeBloomPrePassLightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TubeBloomPrePassLightWithId);
-// Type: ::TubeBloomPrePassLightWithId
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightWithIdMonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TubeBloomPrePassLightWithId*
+// CS Name: TubeBloomPrePassLightWithId
 class CORDL_TYPE TubeBloomPrePassLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x398effc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e59cc, size 0x58, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightWithId* New_ctor();
@@ -59,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x398f054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e5a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x398efdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e59ac, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -79,6 +78,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TubeBloomPrePassLightWithId(TubeBloomPrePassLightWithId const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16339 };
+
   /// @brief Field _tubeBloomPrePassLight, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
@@ -88,19 +90,16 @@ public:
   /// @brief Field _setColorOnly, offset: 0x41, size: 0x1, def value: None
   bool ____setColorOnly;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16304 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeBloomPrePassLightWithId, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightWithId, ____tubeBloomPrePassLight) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightWithId, ____setOnlyOnce) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightWithId, ____setColorOnly) == 0x41, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeBloomPrePassLightWithId, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeBloomPrePassLightWithId);

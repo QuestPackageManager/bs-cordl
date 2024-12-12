@@ -24,7 +24,7 @@ namespace System::Linq::Expressions::Interpreter {
 class LocalVariable;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __QuoteInstruction__ExpressionQuoter;
+class QuoteInstruction_ExpressionQuoter;
 }
 namespace System::Linq::Expressions {
 class BlockExpression;
@@ -49,17 +49,16 @@ namespace System::Linq::Expressions::Interpreter {
 class QuoteInstruction;
 }
 namespace System::Linq::Expressions::Interpreter {
-class __QuoteInstruction__ExpressionQuoter;
+class QuoteInstruction_ExpressionQuoter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::QuoteInstruction);
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter);
-// Type: ::ExpressionQuoter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter);
+// Dependencies System.Linq.Expressions.ExpressionVisitor
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::QuoteInstruction::ExpressionQuoter*
-class CORDL_TYPE __QuoteInstruction__ExpressionQuoter : public ::System::Linq::Expressions::ExpressionVisitor {
+// CS Name: System.Linq.Expressions.Interpreter.QuoteInstruction/ExpressionQuoter
+class CORDL_TYPE QuoteInstruction_ExpressionQuoter : public ::System::Linq::Expressions::ExpressionVisitor {
 public:
   // Declarations
   /// @brief Field _frame, offset 0x18, size 0x8
@@ -75,40 +74,38 @@ public:
                       put = __cordl_internal_set__variables)) ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*,
                                                                                                            ::System::Linq::Expressions::Interpreter::LocalVariable*>* _variables;
 
-  /// @brief Method GetBox, addr 0x40977b4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetBox, addr 0x40f8ac8, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::IStrongBox* GetBox(::System::Linq::Expressions::ParameterExpression* variable);
 
-  static inline ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*
+  static inline ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*
   New_ctor(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
            ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method VisitBlock, addr 0x40973b8, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method VisitBlock, addr 0x40f86cc, size 0x194, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitBlock(::System::Linq::Expressions::BlockExpression* node);
 
-  /// @brief Method VisitCatchBlock, addr 0x409754c, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method VisitCatchBlock, addr 0x40f8860, size 0x19c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::CatchBlock* VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node);
 
   /// @brief Method VisitLambda, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Linq::Expressions::Expression* VisitLambda(::System::Linq::Expressions::Expression_1<T>* node);
 
-  /// @brief Method VisitParameter, addr 0x40976e8, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method VisitParameter, addr 0x40f89fc, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitParameter(::System::Linq::Expressions::ParameterExpression* node);
+
+  constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const& __cordl_internal_get__frame() const;
 
   constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& __cordl_internal_get__frame();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::InterpretedFrame*> const& __cordl_internal_get__frame() const;
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* const& __cordl_internal_get__shadowedVars() const;
 
   constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>*& __cordl_internal_get__shadowedVars();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>*> const&
-  __cordl_internal_get__shadowedVars() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
+  __cordl_internal_get__variables() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
   __cordl_internal_get__variables();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*> const&
-  __cordl_internal_get__variables() const;
 
   constexpr void __cordl_internal_set__frame(::System::Linq::Expressions::Interpreter::InterpretedFrame* value);
 
@@ -117,23 +114,26 @@ public:
   constexpr void
   __cordl_internal_set__variables(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* value);
 
-  /// @brief Method .ctor, addr 0x4097324, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f8638, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
                     ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __QuoteInstruction__ExpressionQuoter();
+  constexpr QuoteInstruction_ExpressionQuoter();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__QuoteInstruction__ExpressionQuoter", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __QuoteInstruction__ExpressionQuoter(__QuoteInstruction__ExpressionQuoter&&) = delete;
+  QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__QuoteInstruction__ExpressionQuoter", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "QuoteInstruction_ExpressionQuoter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __QuoteInstruction__ExpressionQuoter(__QuoteInstruction__ExpressionQuoter const&) = delete;
+  QuoteInstruction_ExpressionQuoter(QuoteInstruction_ExpressionQuoter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14118 };
 
   /// @brief Field _variables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ____variables;
@@ -144,30 +144,26 @@ public:
   /// @brief Field _shadowedVars, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* ____shadowedVars;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14084 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter, ____variables) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter, ____variables) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter, ____frame) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter, ____frame) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter, ____shadowedVars) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter, ____shadowedVars) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter, 0x28>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
-// Type: System.Linq.Expressions.Interpreter::QuoteInstruction
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::QuoteInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.QuoteInstruction
 class CORDL_TYPE QuoteInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using ExpressionQuoter = ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter;
+  using ExpressionQuoter = ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter;
 
   __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
 
@@ -185,33 +181,32 @@ public:
   New_ctor(::System::Linq::Expressions::Expression* operand,
            ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables);
 
-  /// @brief Method Run, addr 0x4097280, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40f8594, size 0xa4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
+  __cordl_internal_get__hoistedVariables() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
   __cordl_internal_get__hoistedVariables();
 
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*> const&
-  __cordl_internal_get__hoistedVariables() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__operand() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__operand();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__operand() const;
 
   constexpr void __cordl_internal_set__hoistedVariables(
       ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* value);
 
   constexpr void __cordl_internal_set__operand(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x409720c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40f8520, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* operand,
                     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables);
 
-  /// @brief Method get_InstructionName, addr 0x4097240, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40f8554, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4097238, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40f854c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -228,26 +223,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuoteInstruction(QuoteInstruction const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14119 };
+
   /// @brief Field _operand, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____operand;
 
   /// @brief Field _hoistedVariables, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* ____hoistedVariables;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14085 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::QuoteInstruction, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::QuoteInstruction, ____operand) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::QuoteInstruction, ____hoistedVariables) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::QuoteInstruction, 0x20>, "Size mismatch!");
+
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::QuoteInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::QuoteInstruction*, "System.Linq.Expressions.Interpreter", "QuoteInstruction");
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*, "System.Linq.Expressions.Interpreter", "QuoteInstruction/ExpressionQuoter");
+NEED_NO_BOX(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter);
+DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*, "System.Linq.Expressions.Interpreter", "QuoteInstruction/ExpressionQuoter");

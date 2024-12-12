@@ -12,11 +12,10 @@ struct BinaryArrayTypeEnum;
 }
 // Write type traits
 MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryArrayTypeEnum
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArrayTypeEnum
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum
 struct CORDL_TYPE BinaryArrayTypeEnum {
 public:
   // Declarations
@@ -49,25 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr BinaryArrayTypeEnum(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Jagged value: static_cast<int32_t>(0x1)
+  /// @brief Field Jagged value: I32(1)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Jagged;
 
-  /// @brief Field JaggedOffset value: static_cast<int32_t>(0x4)
+  /// @brief Field JaggedOffset value: I32(4)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const JaggedOffset;
 
-  /// @brief Field Rectangular value: static_cast<int32_t>(0x2)
+  /// @brief Field Rectangular value: I32(2)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Rectangular;
 
-  /// @brief Field RectangularOffset value: static_cast<int32_t>(0x5)
+  /// @brief Field RectangularOffset value: I32(5)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const RectangularOffset;
 
-  /// @brief Field Single value: static_cast<int32_t>(0x0)
+  /// @brief Field Single value: I32(0)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const Single;
 
-  /// @brief Field SingleOffset value: static_cast<int32_t>(0x3)
+  /// @brief Field SingleOffset value: I32(3)
   static ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum const SingleOffset;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,12 +72,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, 0x4>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, "System.Runtime.Serialization.Formatters.Binary", "BinaryArrayTypeEnum");

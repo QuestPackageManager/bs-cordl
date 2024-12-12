@@ -12,11 +12,10 @@ struct DataSetDateTime;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::DataSetDateTime);
-// Type: System.Data::DataSetDateTime
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data {
 // Is value type: true
-// CS Name: ::System.Data::DataSetDateTime
+// CS Name: System.Data.DataSetDateTime
 struct CORDL_TYPE DataSetDateTime {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr DataSetDateTime(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Local value: static_cast<int32_t>(0x1)
+  /// @brief Field Local value: I32(1)
   static ::System::Data::DataSetDateTime const Local;
 
-  /// @brief Field Unspecified value: static_cast<int32_t>(0x2)
+  /// @brief Field Unspecified value: I32(2)
   static ::System::Data::DataSetDateTime const Unspecified;
 
-  /// @brief Field UnspecifiedLocal value: static_cast<int32_t>(0x3)
+  /// @brief Field UnspecifiedLocal value: I32(3)
   static ::System::Data::DataSetDateTime const UnspecifiedLocal;
 
-  /// @brief Field Utc value: static_cast<int32_t>(0x4)
+  /// @brief Field Utc value: I32(4)
   static ::System::Data::DataSetDateTime const Utc;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::DataSetDateTime, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::DataSetDateTime, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::DataSetDateTime, 0x4>, "Size mismatch!");
 
 } // namespace System::Data
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataSetDateTime, "System.Data", "DataSetDateTime");

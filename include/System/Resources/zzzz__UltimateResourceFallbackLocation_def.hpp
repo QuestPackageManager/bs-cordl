@@ -12,11 +12,10 @@ struct UltimateResourceFallbackLocation;
 }
 // Write type traits
 MARK_VAL_T(::System::Resources::UltimateResourceFallbackLocation);
-// Type: System.Resources::UltimateResourceFallbackLocation
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Resources {
 // Is value type: true
-// CS Name: ::System.Resources::UltimateResourceFallbackLocation
+// CS Name: System.Resources.UltimateResourceFallbackLocation
 struct CORDL_TYPE UltimateResourceFallbackLocation {
 public:
   // Declarations
@@ -45,13 +44,10 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr UltimateResourceFallbackLocation(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field MainAssembly value: static_cast<int32_t>(0x0)
+  /// @brief Field MainAssembly value: I32(0)
   static ::System::Resources::UltimateResourceFallbackLocation const MainAssembly;
 
-  /// @brief Field Satellite value: static_cast<int32_t>(0x1)
+  /// @brief Field Satellite value: I32(1)
   static ::System::Resources::UltimateResourceFallbackLocation const Satellite;
 
   /// @brief IL2CPP Metadata Type Index
@@ -60,12 +56,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Resources::UltimateResourceFallbackLocation, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Resources::UltimateResourceFallbackLocation, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Resources::UltimateResourceFallbackLocation, 0x4>, "Size mismatch!");
 
 } // namespace System::Resources
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::UltimateResourceFallbackLocation, "System.Resources", "UltimateResourceFallbackLocation");

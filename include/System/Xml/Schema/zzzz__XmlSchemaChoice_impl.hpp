@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaChoice::*)()>(
     &::System::Xml::Schema::XmlSchemaChoice::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4257fcc;
+  constexpr static std::size_t addrs = 0x42b92e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaChoice::*)()>(&::System::Xml::Schema::XmlSchemaChoice::get_IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4257fd4;
+  constexpr static std::size_t addrs = 0x42b92e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaChoice::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Xml::Schema::XmlSchemaChoice::SetItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4257fdc;
+  constexpr static std::size_t addrs = 0x42b92f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaChoice::*)()>(&::System::Xml::Schema::XmlSchemaChoice::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4257fe4;
+  constexpr static std::size_t addrs = 0x42b92f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaChoice*>::get(), ".ctor",
@@ -64,7 +64,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Xml::Schema
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& System::Xml::Schema::XmlSchemaChoice::__cordl_internal_get_items() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Xml::Schema::XmlSchemaChoice::__cordl_internal_get_items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
@@ -87,13 +87,13 @@ inline void System::Xml::Schema::XmlSchemaChoice::SetItems(::System::Xml::Schema
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaChoice*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newItems);
 }
-inline ::System::Xml::Schema::XmlSchemaChoice* System::Xml::Schema::XmlSchemaChoice::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaChoice*>());
-}
 inline void System::Xml::Schema::XmlSchemaChoice::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaChoice*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::XmlSchemaChoice* System::Xml::Schema::XmlSchemaChoice::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaChoice*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaChoice::XmlSchemaChoice() {}

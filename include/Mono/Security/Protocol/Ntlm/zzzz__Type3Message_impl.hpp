@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::Mono::Security::Protocol::Ntlm::Type2Message*)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::_ctor)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3be3a48;
+  constexpr static std::size_t addrs = 0x3c43b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)()>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::Finalize)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3be3c34;
+  constexpr static std::size_t addrs = 0x3c43d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::set_Domain)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3be3d14;
+  constexpr static std::size_t addrs = 0x3c43e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::set_Password)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be3d98;
+  constexpr static std::size_t addrs = 0x3c43eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::set_Username)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be3da0;
+  constexpr static std::size_t addrs = 0x3c43eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::Decode)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3be3da8;
+  constexpr static std::size_t addrs = 0x3c43ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Mono::Security::Protocol::Ntlm::Type3Message::DecodeString)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3be3fc8;
+  constexpr static std::size_t addrs = 0x3c440dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::Type3Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::EncodeString)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3be4020;
+  constexpr static std::size_t addrs = 0x3c44134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::Type3Message::*)()>(
     &::Mono::Security::Protocol::Ntlm::Type3Message::GetBytes)> {
   constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x3be40b0;
+  constexpr static std::size_t addrs = 0x3c441c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ constexpr ::Mono::Security::Protocol::Ntlm::Type2Message*& Mono::Security::Proto
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type2;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::Type2Message*> const& Mono::Security::Protocol::Ntlm::Type3Message::__cordl_internal_get__type2() const {
+constexpr ::Mono::Security::Protocol::Ntlm::Type2Message* const& Mono::Security::Protocol::Ntlm::Type3Message::__cordl_internal_get__type2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type2;
 }
@@ -250,9 +250,6 @@ constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Mono::Security::Protocol::
 constexpr void Mono::Security::Protocol::Ntlm::Type3Message::__cordl_internal_set__nt(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nt)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Mono::Security::Protocol::Ntlm::Type3Message* Mono::Security::Protocol::Ntlm::Type3Message::New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Protocol::Ntlm::Type3Message*>(type2));
 }
 inline void Mono::Security::Protocol::Ntlm::Type3Message::_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -305,6 +302,9 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Protocol::Ntlm::Type
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::Type3Message*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::Mono::Security::Protocol::Ntlm::Type3Message* Mono::Security::Protocol::Ntlm::Type3Message::New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Protocol::Ntlm::Type3Message*>(type2));
 }
 // Ctor Parameters []
 constexpr ::Mono::Security::Protocol::Ntlm::Type3Message::Type3Message() {}

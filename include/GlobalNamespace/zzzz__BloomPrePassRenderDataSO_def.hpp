@@ -11,7 +11,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BloomPrePassRenderDataSO)
 namespace GlobalNamespace {
-class __BloomPrePassRenderDataSO__Data;
+class BloomPrePassRenderDataSO_Data;
 }
 namespace UnityEngine {
 class RenderTexture;
@@ -21,17 +21,16 @@ namespace GlobalNamespace {
 class BloomPrePassRenderDataSO;
 }
 namespace GlobalNamespace {
-class __BloomPrePassRenderDataSO__Data;
+class BloomPrePassRenderDataSO_Data;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassRenderDataSO);
-MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
-// Type: ::Data
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassRenderDataSO_Data);
+// Dependencies System.Object, ToneMapping, UnityEngine.Matrix4x4, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassRenderDataSO::Data*
-class CORDL_TYPE __BloomPrePassRenderDataSO__Data : public ::System::Object {
+// CS Name: BloomPrePassRenderDataSO/Data
+class CORDL_TYPE BloomPrePassRenderDataSO_Data : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bloomPrePassRenderTexture, offset 0x10, size 0x8
@@ -52,7 +51,7 @@ public:
   /// @brief Field viewMatrix, offset 0x20, size 0x40
   __declspec(property(get = __cordl_internal_get_viewMatrix, put = __cordl_internal_set_viewMatrix)) ::UnityEngine::Matrix4x4 viewMatrix;
 
-  static inline ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* New_ctor();
+  static inline ::GlobalNamespace::BloomPrePassRenderDataSO_Data* New_ctor();
 
   constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get_bloomPrePassRenderTexture() const;
 
@@ -90,22 +89,25 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x397efcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d5894, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BloomPrePassRenderDataSO__Data();
+  constexpr BloomPrePassRenderDataSO_Data();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRenderDataSO__Data", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BloomPrePassRenderDataSO__Data(__BloomPrePassRenderDataSO__Data&&) = delete;
+  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRenderDataSO__Data", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRenderDataSO_Data", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BloomPrePassRenderDataSO__Data(__BloomPrePassRenderDataSO__Data const&) = delete;
+  BloomPrePassRenderDataSO_Data(BloomPrePassRenderDataSO_Data const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16257 };
 
   /// @brief Field bloomPrePassRenderTexture, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RenderTexture> ___bloomPrePassRenderTexture;
@@ -125,49 +127,45 @@ public:
   /// @brief Field toneMapping, offset: 0xa4, size: 0x4, def value: None
   ::GlobalNamespace::ToneMapping ___toneMapping;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16222 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BloomPrePassRenderDataSO__Data, 0xa8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___bloomPrePassRenderTexture) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___bloomPrePassRenderTexture) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___textureToScreenRatio) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___textureToScreenRatio) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___viewMatrix) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___viewMatrix) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___projectionMatrix) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___projectionMatrix) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___stereoCameraEyeOffset) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___stereoCameraEyeOffset) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO_Data, ___toneMapping) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__BloomPrePassRenderDataSO__Data, ___toneMapping) == 0xa4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassRenderDataSO_Data, 0xa8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::BloomPrePassRenderDataSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassRenderDataSO*
+// CS Name: BloomPrePassRenderDataSO
 class CORDL_TYPE BloomPrePassRenderDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using Data = ::GlobalNamespace::__BloomPrePassRenderDataSO__Data;
+  using Data = ::GlobalNamespace::BloomPrePassRenderDataSO_Data;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::GlobalNamespace::BloomPrePassRenderDataSO_Data* data;
 
   static inline ::GlobalNamespace::BloomPrePassRenderDataSO* New_ctor();
 
-  constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& __cordl_internal_get_data();
+  constexpr ::GlobalNamespace::BloomPrePassRenderDataSO_Data* const& __cordl_internal_get_data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& __cordl_internal_get_data() const;
+  constexpr ::GlobalNamespace::BloomPrePassRenderDataSO_Data*& __cordl_internal_get_data();
 
-  constexpr void __cordl_internal_set_data(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
+  constexpr void __cordl_internal_set_data(::GlobalNamespace::BloomPrePassRenderDataSO_Data* value);
 
-  /// @brief Method .ctor, addr 0x3983490, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d9d58, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -184,21 +182,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassRenderDataSO(BloomPrePassRenderDataSO const&) = delete;
 
-  /// @brief Field data, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::__BloomPrePassRenderDataSO__Data* ___data;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16258 };
+
+  /// @brief Field data, offset: 0x18, size: 0x8, def value: None
+  ::GlobalNamespace::BloomPrePassRenderDataSO_Data* ___data;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassRenderDataSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassRenderDataSO, ___data) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassRenderDataSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassRenderDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassRenderDataSO*, "", "BloomPrePassRenderDataSO");
-NEED_NO_BOX(::GlobalNamespace::__BloomPrePassRenderDataSO__Data);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__BloomPrePassRenderDataSO__Data*, "", "BloomPrePassRenderDataSO/Data");
+NEED_NO_BOX(::GlobalNamespace::BloomPrePassRenderDataSO_Data);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassRenderDataSO_Data*, "", "BloomPrePassRenderDataSO/Data");

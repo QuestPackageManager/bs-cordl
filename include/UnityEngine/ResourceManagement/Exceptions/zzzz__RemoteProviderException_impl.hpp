@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x472fd90;
+  constexpr static std::size_t addrs = 0x47910a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_Message)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x472fdbc;
+  constexpr static std::size_t addrs = 0x47910d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (
     ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_WebRequestResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472fdc8;
+  constexpr static std::size_t addrs = 0x47910dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::ToString)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x472fdd0;
+  constexpr static std::size_t addrs = 0x47910e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WebRequestResult_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> const&
+constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* const&
 UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__cordl_internal_get__WebRequestResult_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____WebRequestResult_k__BackingField;
@@ -86,17 +86,6 @@ UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____WebRequestResult_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-/// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
-/// @param uwrResult: ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (default: nullptr)
-/// @param innerException: ::System::Exception* (default: nullptr)
-inline ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*
-UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
-                                                                               ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult, ::System::Exception* innerException) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*>(message, location, uwrResult, innerException));
-}
-/// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
-/// @param uwrResult: ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (default: nullptr)
-/// @param innerException: ::System::Exception* (default: nullptr)
 inline void UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                         ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,
                                                                                         ::System::Exception* innerException) {
@@ -125,6 +114,11 @@ inline ::StringW UnityEngine::ResourceManagement::Exceptions::RemoteProviderExce
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*
+UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
+                                                                               ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult, ::System::Exception* innerException) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException*>(message, location, uwrResult, innerException));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::RemoteProviderException() {}

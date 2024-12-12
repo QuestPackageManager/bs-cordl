@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_GeoInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoType;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_GroupType;
 }
 // Forward declare root types
@@ -19,15 +16,14 @@ struct HAPI_GeoInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoInfo);
-// Type: HoudiniEngineUnity::HAPI_GeoInfo
-// SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_GeoType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_GeoInfo
+// CS Name: HoudiniEngineUnity.HAPI_GeoInfo
 struct CORDL_TYPE HAPI_GeoInfo {
 public:
   // Declarations
-  /// @brief Method getGroupCountByType, addr 0x39f20f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getGroupCountByType, addr 0x3a48d60, size 0x28, virtual false, abstract: false, final false
   inline int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
 
   // Ctor Parameters []
@@ -42,6 +38,12 @@ public:
   // "int32_t", modifiers: "", def_value: None }]
   constexpr HAPI_GeoInfo(::HoudiniEngineUnity::HAPI_GeoType type, int32_t nameSH, int32_t nodeId, bool isEditable, bool isTemplated, bool isDisplayGeo, bool hasGeoChanged, bool hasMaterialChanged,
                          int32_t pointGroupCount, int32_t primitiveGroupCount, int32_t edgeGroupCount, int32_t partCount) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11721 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::HoudiniEngineUnity::HAPI_GeoType type;
@@ -79,17 +81,9 @@ public:
   /// @brief Field partCount, offset: 0x20, size: 0x4, def value: None
   int32_t partCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11688 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_GeoInfo, 0x24>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoInfo, type) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoInfo, nameSH) == 0x4, "Offset mismatch!");
@@ -113,6 +107,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoInfo, primitiveGroupCount) 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoInfo, edgeGroupCount) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_GeoInfo, partCount) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_GeoInfo, 0x24>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_GeoInfo, "HoudiniEngineUnity", "HAPI_GeoInfo");

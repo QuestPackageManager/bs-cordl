@@ -27,11 +27,10 @@ class X509Extension;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Extension);
-// Type: Org.BouncyCastle.Asn1.X509::X509Extension
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::X509Extension*
+// CS Name: Org.BouncyCastle.Asn1.X509.X509Extension
 class CORDL_TYPE X509Extension : public ::System::Object {
 public:
   // Declarations
@@ -45,16 +44,16 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::Org::BouncyCastle::Asn1::Asn1OctetString* value;
 
-  /// @brief Method ConvertValueToObject, addr 0x25d05b0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToObject, addr 0x260389c, size 0x104, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
 
-  /// @brief Method Equals, addr 0x25e0fb0, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x261429c, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x25e0f80, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x261426c, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetParsedValue, addr 0x25e0f7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetParsedValue, addr 0x2614268, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetParsedValue();
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
@@ -65,24 +64,24 @@ public:
 
   constexpr bool& __cordl_internal_get_critical();
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_value();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_value() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_value() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_value();
 
   constexpr void __cordl_internal_set_critical(bool value);
 
   constexpr void __cordl_internal_set_value(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x25e0ee0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26141cc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x25df2e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26125d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method get_IsCritical, addr 0x25e0f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCritical, addr 0x2614258, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Value, addr 0x25e0f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2614260, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
 protected:
@@ -99,23 +98,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509Extension(X509Extension const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 405 };
+
   /// @brief Field critical, offset: 0x10, size: 0x1, def value: None
   bool ___critical;
 
   /// @brief Field value, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::Asn1OctetString* ___value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 405 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509Extension, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Extension, ___critical) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::X509Extension, ___value) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::X509Extension, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::X509Extension);

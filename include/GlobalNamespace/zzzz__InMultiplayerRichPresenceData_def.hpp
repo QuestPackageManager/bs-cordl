@@ -3,26 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InMultiplayerRichPresenceData)
-namespace GlobalNamespace {
-class IMultiplayerRichPresenceData;
-}
-namespace GlobalNamespace {
-class IRichPresenceData;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class InMultiplayerRichPresenceData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InMultiplayerRichPresenceData);
-// Type: ::InMultiplayerRichPresenceData
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IMultiplayerRichPresenceData, IRichPresenceData, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::InMultiplayerRichPresenceData*
+// CS Name: InMultiplayerRichPresenceData
 class CORDL_TYPE InMultiplayerRichPresenceData : public ::System::Object {
 public:
   // Declarations
@@ -92,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSecret_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3acbcfc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2b340, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW multiplayerSecret, bool canInvite, bool atMaxPartySize);
 
-  /// @brief Method get_apiName, addr 0x3acbc6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x3b2b2b0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_atMaxPartySize, addr 0x3acbc9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_atMaxPartySize, addr 0x3b2b2e0, size 0x8, virtual true, abstract: false, final true
   inline bool get_atMaxPartySize();
 
-  /// @brief Method get_canInvite, addr 0x3acbcb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canInvite, addr 0x3b2b2f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method get_isJoinable, addr 0x3acbcc4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_isJoinable, addr 0x3b2b308, size 0x38, virtual true, abstract: false, final true
   inline bool get_isJoinable();
 
-  /// @brief Method get_localizedDescription, addr 0x3acbc7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x3b2b2c0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
-  /// @brief Method get_multiplayerSecret, addr 0x3acbc8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_multiplayerSecret, addr 0x3b2b2d0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerSecret();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerRichPresenceData"
@@ -119,19 +114,19 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
-  /// @brief Method set_apiName, addr 0x3acbc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_apiName, addr 0x3b2b2b8, size 0x8, virtual false, abstract: false, final false
   inline void set_apiName(::StringW value);
 
-  /// @brief Method set_atMaxPartySize, addr 0x3acbca4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_atMaxPartySize, addr 0x3b2b2e8, size 0xc, virtual true, abstract: false, final true
   inline void set_atMaxPartySize(bool value);
 
-  /// @brief Method set_canInvite, addr 0x3acbcb8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_canInvite, addr 0x3b2b2fc, size 0xc, virtual true, abstract: false, final true
   inline void set_canInvite(bool value);
 
-  /// @brief Method set_localizedDescription, addr 0x3acbc84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localizedDescription, addr 0x3b2b2c8, size 0x8, virtual false, abstract: false, final false
   inline void set_localizedDescription(::StringW value);
 
-  /// @brief Method set_multiplayerSecret, addr 0x3acbc94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_multiplayerSecret, addr 0x3b2b2d8, size 0x8, virtual true, abstract: false, final true
   inline void set_multiplayerSecret(::StringW value);
 
 protected:
@@ -148,6 +143,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InMultiplayerRichPresenceData(InMultiplayerRichPresenceData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5149 };
+
+  /// @brief Field kInMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kInMultiplayerLobbyRichPresenceLocalizationKey{ u"IN_MULTIPLAYER_LOBBY_PRESENCE" };
+
   /// @brief Field <apiName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____apiName_k__BackingField;
 
@@ -163,17 +164,9 @@ public:
   /// @brief Field <canInvite>k__BackingField, offset: 0x29, size: 0x1, def value: None
   bool ____canInvite_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };
-
-  /// @brief Field kInMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kInMultiplayerLobbyRichPresenceLocalizationKey{ u"IN_MULTIPLAYER_LOBBY_PRESENCE" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InMultiplayerRichPresenceData, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::InMultiplayerRichPresenceData, ____apiName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InMultiplayerRichPresenceData, ____localizedDescription_k__BackingField) == 0x18, "Offset mismatch!");
@@ -183,6 +176,8 @@ static_assert(offsetof(::GlobalNamespace::InMultiplayerRichPresenceData, ____mul
 static_assert(offsetof(::GlobalNamespace::InMultiplayerRichPresenceData, ____atMaxPartySize_k__BackingField) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::InMultiplayerRichPresenceData, ____canInvite_k__BackingField) == 0x29, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InMultiplayerRichPresenceData, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InMultiplayerRichPresenceData);

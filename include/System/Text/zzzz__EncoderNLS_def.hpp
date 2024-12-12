@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Text/zzzz__Encoder_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncoderNLS)
 namespace System::Text {
@@ -17,11 +15,10 @@ class EncoderNLS;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderNLS);
-// Type: System.Text::EncoderNLS
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Text.Encoder
 namespace System::Text {
 // Is value type: false
-// CS Name: ::System.Text::EncoderNLS*
+// CS Name: System.Text.EncoderNLS
 class CORDL_TYPE EncoderNLS : public ::System::Text::Encoder {
 public:
   // Declarations
@@ -46,32 +43,32 @@ public:
   /// @brief Field _throwOnOverflow, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__throwOnOverflow, put = __cordl_internal_set__throwOnOverflow)) bool _throwOnOverflow;
 
-  /// @brief Method ClearMustFlush, addr 0x3c18e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearMustFlush, addr 0x3c78fb8, size 0x8, virtual false, abstract: false, final false
   inline void ClearMustFlush();
 
-  /// @brief Method Convert, addr 0x3c18a14, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x3c78b30, size 0x2b4, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, bool flush,
-                      ByRef<int32_t> charsUsed, ByRef<int32_t> bytesUsed, ByRef<bool> completed);
+                      ::ByRef<int32_t> charsUsed, ::ByRef<int32_t> bytesUsed, ::ByRef<bool> completed);
 
-  /// @brief Method Convert, addr 0x3c18cc8, size 0x1b4, virtual true, abstract: false, final false
-  inline void Convert(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush, ByRef<int32_t> charsUsed,
-                      ByRef<int32_t> bytesUsed, ByRef<bool> completed);
+  /// @brief Method Convert, addr 0x3c78de4, size 0x1b4, virtual true, abstract: false, final false
+  inline void Convert(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush, ::ByRef<int32_t> charsUsed,
+                      ::ByRef<int32_t> bytesUsed, ::ByRef<bool> completed);
 
-  /// @brief Method GetByteCount, addr 0x3c183c0, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x3c784dc, size 0x1cc, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetByteCount, addr 0x3c1858c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x3c786a8, size 0xf0, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, bool flush);
 
-  /// @brief Method GetBytes, addr 0x3c1867c, size 0x280, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3c78798, size 0x280, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, bool flush);
 
-  /// @brief Method GetBytes, addr 0x3c188fc, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3c78a18, size 0x118, virtual true, abstract: false, final false
   inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush);
 
   static inline ::System::Text::EncoderNLS* New_ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method Reset, addr 0x3c183a0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3c784bc, size 0x20, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr char16_t const& __cordl_internal_get__charLeftOver() const;
@@ -82,9 +79,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__charsUsed();
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+  constexpr ::System::Text::Encoding* const& __cordl_internal_get__encoding() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
   constexpr bool const& __cordl_internal_get__mustFlush() const;
 
@@ -104,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set__throwOnOverflow(bool value);
 
-  /// @brief Method .ctor, addr 0x3c1835c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c78478, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_Encoding, addr 0x3c18e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x3c78f98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_HasState, addr 0x3c18e8c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasState, addr 0x3c78fa8, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasState();
 
-  /// @brief Method get_MustFlush, addr 0x3c18e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustFlush, addr 0x3c78fa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustFlush();
 
 protected:
@@ -130,6 +127,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EncoderNLS(EncoderNLS const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2849 };
+
   /// @brief Field _charLeftOver, offset: 0x20, size: 0x2, def value: None
   char16_t ____charLeftOver;
 
@@ -145,14 +145,9 @@ public:
   /// @brief Field _charsUsed, offset: 0x34, size: 0x4, def value: None
   int32_t ____charsUsed;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2849 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Text::EncoderNLS, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Text::EncoderNLS, ____charLeftOver) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::EncoderNLS, ____encoding) == 0x28, "Offset mismatch!");
@@ -162,6 +157,8 @@ static_assert(offsetof(::System::Text::EncoderNLS, ____mustFlush) == 0x30, "Offs
 static_assert(offsetof(::System::Text::EncoderNLS, ____throwOnOverflow) == 0x31, "Offset mismatch!");
 
 static_assert(offsetof(::System::Text::EncoderNLS, ____charsUsed) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Text::EncoderNLS, 0x38>, "Size mismatch!");
 
 } // namespace System::Text
 NEED_NO_BOX(::System::Text::EncoderNLS);

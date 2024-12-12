@@ -20,11 +20,10 @@ class ECGost3410Parameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters);
-// Type: Org.BouncyCastle.Crypto.Parameters::ECGost3410Parameters
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Parameters.ECNamedDomainParameters
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECGost3410Parameters*
+// CS Name: Org.BouncyCastle.Crypto.Parameters.ECGost3410Parameters
 class CORDL_TYPE ECGost3410Parameters : public ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters {
 public:
   // Declarations
@@ -53,17 +52,17 @@ public:
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get__digestParamSet() const;
+
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__digestParamSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get__digestParamSet() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get__encryptionParamSet() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__encryptionParamSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get__encryptionParamSet() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get__publicKeyParamSet() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__publicKeyParamSet();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get__publicKeyParamSet() const;
 
   constexpr void __cordl_internal_set__digestParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
@@ -71,21 +70,21 @@ public:
 
   constexpr void __cordl_internal_set__publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23866f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b99e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor, addr 0x2386678, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23b9964, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method get_DigestParamSet, addr 0x2386668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestParamSet, addr 0x23b9954, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-  /// @brief Method get_EncryptionParamSet, addr 0x2386670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionParamSet, addr 0x23b995c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x2386660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x23b994c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:
@@ -102,6 +101,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ECGost3410Parameters(ECGost3410Parameters const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1035 };
+
   /// @brief Field _publicKeyParamSet, offset: 0x48, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ____publicKeyParamSet;
 
@@ -111,19 +113,16 @@ public:
   /// @brief Field _encryptionParamSet, offset: 0x58, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ____encryptionParamSet;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1035 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters, ____publicKeyParamSet) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters, ____digestParamSet) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters, ____encryptionParamSet) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters, 0x60>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters);

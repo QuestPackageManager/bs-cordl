@@ -8,37 +8,27 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(UIVertex)
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Vector4;
-}
 // Forward declare root types
 namespace UnityEngine {
 struct UIVertex;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIVertex);
-// Type: UnityEngine::UIVertex
-// SizeInfo { instance_size: 108, native_size: 108, calculated_instance_size: 108, calculated_native_size: 124, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.Vector3, UnityEngine.Vector4
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::UIVertex
+// CS Name: UnityEngine.UIVertex
 struct CORDL_TYPE UIVertex {
 public:
   // Declarations
   /// @brief Field s_DefaultColor, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor)) ::UnityEngine::Color32 s_DefaultColor;
+  __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor)) ::UnityEngine::Color32 s_DefaultColor;
 
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
+  __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
 
   /// @brief Field simpleVert, offset 0xffffffff, size 0x6c
-  static __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert)) ::UnityEngine::UIVertex simpleVert;
+  __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert)) ::UnityEngine::UIVertex simpleVert;
 
   static inline ::UnityEngine::Color32 getStaticF_s_DefaultColor();
 
@@ -62,6 +52,12 @@ public:
   // "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
   constexpr UIVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0,
                      ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18405 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };
 
   /// @brief Field position, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 position;
@@ -87,17 +83,9 @@ public:
   /// @brief Field uv3, offset: 0x5c, size: 0x10, def value: None
   ::UnityEngine::Vector4 uv3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18324 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIVertex, 0x6c>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIVertex, position) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIVertex, normal) == 0xc, "Offset mismatch!");
@@ -113,6 +101,8 @@ static_assert(offsetof(::UnityEngine::UIVertex, uv1) == 0x3c, "Offset mismatch!"
 static_assert(offsetof(::UnityEngine::UIVertex, uv2) == 0x4c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIVertex, uv3) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIVertex, 0x6c>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIVertex, "UnityEngine", "UIVertex");

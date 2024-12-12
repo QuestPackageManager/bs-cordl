@@ -17,13 +17,12 @@ template <typename TElement> class HashSetPropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::HashSetPropertyBag_1);
-// Type: Unity.Properties::HashSetPropertyBag`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.SetPropertyBagBase`2<TSet, TElement>
 namespace Unity::Properties {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// CS Name: ::Unity.Properties::HashSetPropertyBag`1<TElement>*
+// CS Name: Unity.Properties.HashSetPropertyBag`1<TElement>
 class CORDL_TYPE HashSetPropertyBag_1 : public ::Unity::Properties::SetPropertyBagBase_2<::System::Collections::Generic::HashSet_1<TElement>*, TElement> {
 public:
   // Declarations
@@ -55,7 +54,7 @@ public:
   HashSetPropertyBag_1(HashSetPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17410 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

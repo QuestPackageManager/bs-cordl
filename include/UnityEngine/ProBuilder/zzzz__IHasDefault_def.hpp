@@ -10,27 +10,22 @@ class IHasDefault;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::IHasDefault);
-// Type: UnityEngine.ProBuilder::IHasDefault
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::IHasDefault*
+// CS Name: UnityEngine.ProBuilder.IHasDefault
 class CORDL_TYPE IHasDefault {
 public:
   // Declarations
-  /// @brief Method SetDefaultValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetDefaultValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetDefaultValues();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IHasDefault(IHasDefault&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IHasDefault(IHasDefault const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

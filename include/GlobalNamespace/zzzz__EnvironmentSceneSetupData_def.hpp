@@ -17,11 +17,10 @@ class EnvironmentSceneSetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetupData);
-// Type: ::EnvironmentSceneSetupData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SceneSetupData
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EnvironmentSceneSetupData*
+// CS Name: EnvironmentSceneSetupData
 class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
@@ -36,9 +35,9 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
-  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
+  constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get_beatmapLevel() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& __cordl_internal_get_beatmapLevel() const;
+  constexpr ::GlobalNamespace::BeatmapLevel*& __cordl_internal_get_beatmapLevel();
 
   constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get_environmentInfo() const;
 
@@ -54,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_hideBranding(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad8a94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b38a04, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hideBranding);
 
 protected:
@@ -71,6 +70,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnvironmentSceneSetupData(EnvironmentSceneSetupData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5234 };
+
   /// @brief Field hideBranding, offset: 0x10, size: 0x1, def value: None
   bool ___hideBranding;
 
@@ -80,19 +82,16 @@ public:
   /// @brief Field beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5214 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSceneSetupData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___hideBranding) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___environmentInfo) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentSceneSetupData, ___beatmapLevel) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentSceneSetupData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EnvironmentSceneSetupData);

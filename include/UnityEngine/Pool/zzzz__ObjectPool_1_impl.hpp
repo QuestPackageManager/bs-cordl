@@ -1,34 +1,18 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Pool/ObjectPool_1.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/Pool/zzzz__IObjectPool_1_impl.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
-/// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* UnityEngine::Pool::ObjectPool_1<T>::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::Pool::IObjectPool_1<T>"
-template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::UnityEngine::Pool::IObjectPool_1<T>*() noexcept {
-  return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::Pool::IObjectPool_1<T>"
-template <typename T> constexpr ::UnityEngine::Pool::IObjectPool_1<T>* UnityEngine::Pool::ObjectPool_1<T>::i___UnityEngine__Pool__IObjectPool_1_T_() noexcept {
-  return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
-}
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_List() const {
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_List() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_List;
 }
@@ -40,7 +24,7 @@ template <typename T> constexpr ::System::Func_1<T>*& UnityEngine::Pool::ObjectP
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_CreateFunc() const {
+template <typename T> constexpr ::System::Func_1<T>* const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_CreateFunc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CreateFunc;
 }
@@ -52,7 +36,7 @@ template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() const {
+template <typename T> constexpr ::System::Action_1<T>* const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnGet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnGet;
 }
@@ -64,7 +48,7 @@ template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() const {
+template <typename T> constexpr ::System::Action_1<T>* const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnRelease() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnRelease;
 }
@@ -76,7 +60,7 @@ template <typename T> constexpr ::System::Action_1<T>*& UnityEngine::Pool::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnDestroy;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnDestroy() const {
+template <typename T> constexpr ::System::Action_1<T>* const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_ActionOnDestroy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ActionOnDestroy;
 }
@@ -136,23 +120,6 @@ template <typename T> inline int32_t UnityEngine::Pool::ObjectPool_1<T>::get_Cou
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-/// @param actionOnGet: ::System::Action_1<T>* (default: nullptr)
-/// @param actionOnRelease: ::System::Action_1<T>* (default: nullptr)
-/// @param actionOnDestroy: ::System::Action_1<T>* (default: nullptr)
-/// @param collectionCheck: bool (default: true)
-/// @param defaultCapacity: int32_t (default: static_cast<int32_t>(0xa))
-/// @param maxSize: int32_t (default: static_cast<int32_t>(0x2710))
-template <typename T>
-inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Pool::ObjectPool_1<T>::New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease,
-                                                                                          ::System::Action_1<T>* actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Pool::ObjectPool_1<T>*>(createFunc, actionOnGet, actionOnRelease, actionOnDestroy, collectionCheck, defaultCapacity, maxSize));
-}
-/// @param actionOnGet: ::System::Action_1<T>* (default: nullptr)
-/// @param actionOnRelease: ::System::Action_1<T>* (default: nullptr)
-/// @param actionOnDestroy: ::System::Action_1<T>* (default: nullptr)
-/// @param collectionCheck: bool (default: true)
-/// @param defaultCapacity: int32_t (default: static_cast<int32_t>(0xa))
-/// @param maxSize: int32_t (default: static_cast<int32_t>(0x2710))
 template <typename T>
 inline void UnityEngine::Pool::ObjectPool_1<T>::_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease,
                                                       ::System::Action_1<T>* actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) {
@@ -170,10 +137,10 @@ template <typename T> inline T UnityEngine::Pool::ObjectPool_1<T>::Get() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
-template <typename T> inline ::UnityEngine::Pool::PooledObject_1<T> UnityEngine::Pool::ObjectPool_1<T>::Get(ByRef<T> v) {
+template <typename T> inline ::UnityEngine::Pool::PooledObject_1<T> UnityEngine::Pool::ObjectPool_1<T>::Get(::ByRef<T> v) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Pool::ObjectPool_1<T>*>::get(), "Get", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Pool::PooledObject_1<T>, false>(this, ___internal_method, v);
 }
 template <typename T> inline void UnityEngine::Pool::ObjectPool_1<T>::Release(T element) {
@@ -191,6 +158,27 @@ template <typename T> inline void UnityEngine::Pool::ObjectPool_1<T>::Dispose() 
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Pool::ObjectPool_1<T>*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T>
+inline ::UnityEngine::Pool::ObjectPool_1<T>* UnityEngine::Pool::ObjectPool_1<T>::New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease,
+                                                                                          ::System::Action_1<T>* actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Pool::ObjectPool_1<T>*>(createFunc, actionOnGet, actionOnRelease, actionOnDestroy, collectionCheck, defaultCapacity, maxSize));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename T> constexpr ::System::IDisposable* UnityEngine::Pool::ObjectPool_1<T>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::Pool::IObjectPool_1<T>"
+template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::UnityEngine::Pool::IObjectPool_1<T>*() noexcept {
+  return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Pool::IObjectPool_1<T>"
+template <typename T> constexpr ::UnityEngine::Pool::IObjectPool_1<T>* UnityEngine::Pool::ObjectPool_1<T>::i___UnityEngine__Pool__IObjectPool_1_T_() noexcept {
+  return static_cast<::UnityEngine::Pool::IObjectPool_1<T>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Pool::ObjectPool_1<T>::ObjectPool_1() {}

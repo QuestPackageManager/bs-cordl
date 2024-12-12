@@ -22,11 +22,10 @@ class JsonSchemaException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaException);
-// Type: Newtonsoft.Json.Schema::JsonSchemaException
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonException
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Schema::JsonSchemaException*
+// CS Name: Newtonsoft.Json.Schema.JsonSchemaException
 class CORDL_TYPE JsonSchemaException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
@@ -73,28 +72,28 @@ public:
 
   constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ea5ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f060a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ea6014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f060c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3ea6004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f060b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3ea600c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f060b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3ea601c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f060c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::StringW path, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method get_LineNumber, addr 0x3ea5fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x3f06090, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x3ea5fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x3f06098, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Path, addr 0x3ea5ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Path, addr 0x3f060a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
 protected:
@@ -111,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonSchemaException(JsonSchemaException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10356 };
+
   /// @brief Field <LineNumber>k__BackingField, offset: 0x8c, size: 0x4, def value: None
   int32_t ____LineNumber_k__BackingField;
 
@@ -120,19 +122,16 @@ public:
   /// @brief Field <Path>k__BackingField, offset: 0x98, size: 0x8, def value: None
   ::StringW ____Path_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10331 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::JsonSchemaException, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaException, ____LineNumber_k__BackingField) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaException, ____LinePosition_k__BackingField) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaException, ____Path_k__BackingField) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::JsonSchemaException, 0xa0>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::JsonSchemaException);

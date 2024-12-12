@@ -13,11 +13,10 @@ class CustomFormatRangeValuesSlider;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::CustomFormatRangeValuesSlider);
-// Type: HMUI::CustomFormatRangeValuesSlider
-// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.RangeValuesTextSlider
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::CustomFormatRangeValuesSlider*
+// CS Name: HMUI.CustomFormatRangeValuesSlider
 class CORDL_TYPE CustomFormatRangeValuesSlider : public ::HMUI::RangeValuesTextSlider {
 public:
   // Declarations
@@ -26,7 +25,7 @@ public:
 
   static inline ::HMUI::CustomFormatRangeValuesSlider* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x399ae74, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x39f1a74, size 0x70, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr ::StringW const& __cordl_internal_get__formatString() const;
@@ -35,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__formatString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x399aee4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f1ae4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,18 +51,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CustomFormatRangeValuesSlider(CustomFormatRangeValuesSlider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16048 };
+
   /// @brief Field _formatString, offset: 0x170, size: 0x8, def value: None
   ::StringW ____formatString;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16013 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::CustomFormatRangeValuesSlider, 0x178>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::CustomFormatRangeValuesSlider, ____formatString) == 0x170, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::CustomFormatRangeValuesSlider, 0x178>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::CustomFormatRangeValuesSlider);

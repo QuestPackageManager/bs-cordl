@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelColorSchemeSaveData::*)()>(
     &::GlobalNamespace::BeatmapLevelColorSchemeSaveData::IsDefault)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x26c5760;
+  constexpr static std::size_t addrs = 0x26fa4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelColorSchemeSaveData::*)()>(
     &::GlobalNamespace::BeatmapLevelColorSchemeSaveData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c58bc;
+  constexpr static std::size_t addrs = 0x26fa63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>::get(),
@@ -43,15 +43,15 @@ constexpr void GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useOverride = value;
 }
-constexpr ::GlobalNamespace::__PlayerSaveData__ColorScheme*& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_get_colorScheme() {
+constexpr ::GlobalNamespace::PlayerSaveData_ColorScheme*& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_get_colorScheme() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorScheme*> const& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_get_colorScheme() const {
+constexpr ::GlobalNamespace::PlayerSaveData_ColorScheme* const& GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_get_colorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorScheme;
 }
-constexpr void GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value) {
+constexpr void GlobalNamespace::BeatmapLevelColorSchemeSaveData::__cordl_internal_set_colorScheme(::GlobalNamespace::PlayerSaveData_ColorScheme* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -60,13 +60,13 @@ inline bool GlobalNamespace::BeatmapLevelColorSchemeSaveData::IsDefault() {
                                                                              "IsDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* GlobalNamespace::BeatmapLevelColorSchemeSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>());
-}
 inline void GlobalNamespace::BeatmapLevelColorSchemeSaveData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapLevelColorSchemeSaveData* GlobalNamespace::BeatmapLevelColorSchemeSaveData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapLevelColorSchemeSaveData*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapLevelColorSchemeSaveData::BeatmapLevelColorSchemeSaveData() {}

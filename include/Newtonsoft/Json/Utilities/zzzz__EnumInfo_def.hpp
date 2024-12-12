@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumInfo)
@@ -14,11 +13,10 @@ class EnumInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::EnumInfo);
-// Type: Newtonsoft.Json.Utilities::EnumInfo
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::EnumInfo*
+// CS Name: Newtonsoft.Json.Utilities.EnumInfo
 class CORDL_TYPE EnumInfo : public ::System::Object {
 public:
   // Declarations
@@ -61,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3e684a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ec854c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
 
 protected:
@@ -78,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EnumInfo(EnumInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10225 };
+
   /// @brief Field IsFlags, offset: 0x10, size: 0x1, def value: None
   bool ___IsFlags;
 
@@ -90,14 +91,9 @@ public:
   /// @brief Field ResolvedNames, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___ResolvedNames;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10200 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::EnumInfo, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Utilities::EnumInfo, ___IsFlags) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Utilities::EnumInfo, ___Values) == 0x18, "Offset mismatch!");
@@ -105,6 +101,8 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::EnumInfo, ___Values) == 0x
 static_assert(offsetof(::Newtonsoft::Json::Utilities::EnumInfo, ___Names) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Utilities::EnumInfo, ___ResolvedNames) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::EnumInfo, 0x30>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::EnumInfo);

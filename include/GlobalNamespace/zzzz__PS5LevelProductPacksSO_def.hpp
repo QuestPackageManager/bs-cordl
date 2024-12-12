@@ -11,17 +11,16 @@ class PS5LevelProductPacksSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS5LevelProductPacksSO);
-// Type: ::PS5LevelProductPacksSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SonyLevelProductPackSO
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PS5LevelProductPacksSO*
+// CS Name: PS5LevelProductPacksSO
 class CORDL_TYPE PS5LevelProductPacksSO : public ::GlobalNamespace::SonyLevelProductPackSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5LevelProductPacksSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b26f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e71c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   PS5LevelProductPacksSO(PS5LevelProductPacksSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

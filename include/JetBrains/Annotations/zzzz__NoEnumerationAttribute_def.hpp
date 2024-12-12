@@ -11,17 +11,16 @@ class NoEnumerationAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::JetBrains::Annotations::NoEnumerationAttribute);
-// Type: JetBrains.Annotations::NoEnumerationAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace JetBrains::Annotations {
 // Is value type: false
-// CS Name: ::JetBrains.Annotations::NoEnumerationAttribute*
+// CS Name: JetBrains.Annotations.NoEnumerationAttribute
 class CORDL_TYPE NoEnumerationAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::NoEnumerationAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a8c6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4af0ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   NoEnumerationAttribute(NoEnumerationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

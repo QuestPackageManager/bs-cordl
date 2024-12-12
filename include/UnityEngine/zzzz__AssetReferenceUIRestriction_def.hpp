@@ -15,23 +15,22 @@ class AssetReferenceUIRestriction;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AssetReferenceUIRestriction);
-// Type: UnityEngine::AssetReferenceUIRestriction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AssetReferenceUIRestriction*
+// CS Name: UnityEngine.AssetReferenceUIRestriction
 class CORDL_TYPE AssetReferenceUIRestriction : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method ValidateAsset, addr 0x447a874, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44dbb88, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x447a87c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x44dbb90, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x447a884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44dbb98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +48,7 @@ public:
   AssetReferenceUIRestriction(AssetReferenceUIRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

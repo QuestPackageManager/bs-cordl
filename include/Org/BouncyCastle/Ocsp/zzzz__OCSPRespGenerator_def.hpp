@@ -18,20 +18,19 @@ class OCSPRespGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OCSPRespGenerator);
-// Type: Org.BouncyCastle.Ocsp::OCSPRespGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Ocsp::OCSPRespGenerator*
+// CS Name: Org.BouncyCastle.Ocsp.OCSPRespGenerator
 class CORDL_TYPE OCSPRespGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x24eca10, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x251fcfc, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspResp* Generate(int32_t status, ::System::Object* response);
 
   static inline ::Org::BouncyCastle::Ocsp::OCSPRespGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24eccf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x251ffe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

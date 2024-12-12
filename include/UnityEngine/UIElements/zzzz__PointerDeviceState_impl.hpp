@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/PointerDeviceState.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__PointerDeviceState_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDeviceState_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"
@@ -9,180 +8,180 @@
 #include "UnityEngine/UIElements/zzzz__PointerDeviceState_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag::__PointerDeviceState__LocationFlag(int32_t value__) noexcept {
+constexpr ::UnityEngine::UIElements::PointerDeviceState_LocationFlag::PointerDeviceState_LocationFlag(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag::__PointerDeviceState__LocationFlag() {}
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag UnityEngine::UIElements::__PointerDeviceState__LocationFlag::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag UnityEngine::UIElements::__PointerDeviceState__LocationFlag::OutsidePanel{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.get_Position
+constexpr ::UnityEngine::UIElements::PointerDeviceState_LocationFlag::PointerDeviceState_LocationFlag() {}
+constexpr ::UnityEngine::UIElements::PointerDeviceState_LocationFlag UnityEngine::UIElements::PointerDeviceState_LocationFlag::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::PointerDeviceState_LocationFlag UnityEngine::UIElements::PointerDeviceState_LocationFlag::OutsidePanel{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.get_Position
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)()>(
-    &::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Position)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
+    &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca23c;
+  constexpr static std::size_t addrs = 0x4a2eb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Position",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Position",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.set_Position
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.set_Position
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)(::UnityEngine::Vector2)>(
-    &::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Position)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::Vector2)>(
+    &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca244;
+  constexpr static std::size_t addrs = 0x4a2eb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Position", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Position", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.get_Panel
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.get_Panel
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)()>(
-    &::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Panel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
+    &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca24c;
+  constexpr static std::size_t addrs = 0x4a2eb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Panel",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Panel",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.set_Panel
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.set_Panel
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)(::UnityEngine::UIElements::IPanel*)>(
-    &::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Panel)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::UIElements::IPanel*)>(
+    &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca254;
+  constexpr static std::size_t addrs = 0x4a2eb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Panel", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Panel", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.get_Flags
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.get_Flags
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag (
-    ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)()>(&::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Flags)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerDeviceState_LocationFlag (
+    ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca25c;
+  constexpr static std::size_t addrs = 0x4a2eb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Flags",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Flags",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.set_Flags
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.set_Flags
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)(
-    ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag)>(&::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Flags)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(
+    ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ca264;
+  constexpr static std::size_t addrs = 0x4a2eb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Flags", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Flags", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation.SetLocation
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState_PointerLocation.SetLocation
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::*)(
-    ::UnityEngine::Vector2, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::SetLocation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(
+    ::UnityEngine::Vector2, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::SetLocation)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49c9c2c;
+  constexpr static std::size_t addrs = 0x4a2e53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "SetLocation", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "SetLocation", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get() })));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Vector2 UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Position() {
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Position() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Position",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Position",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Position(::UnityEngine::Vector2 value) {
+inline void UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Position(::UnityEngine::Vector2 value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Position", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Position", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Panel() {
+inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Panel() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Panel",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Panel",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPanel*, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Panel(::UnityEngine::UIElements::IPanel* value) {
+inline void UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Panel(::UnityEngine::UIElements::IPanel* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Panel", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Panel", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag UnityEngine::UIElements::__PointerDeviceState__PointerLocation::get_Flags() {
+inline ::UnityEngine::UIElements::PointerDeviceState_LocationFlag UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Flags() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "get_Flags",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "get_Flags",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PointerDeviceState_LocationFlag, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__PointerDeviceState__PointerLocation::set_Flags(::UnityEngine::UIElements::__PointerDeviceState__LocationFlag value) {
+inline void UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Flags(::UnityEngine::UIElements::PointerDeviceState_LocationFlag value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "set_Flags", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "set_Flags", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::__PointerDeviceState__PointerLocation::SetLocation(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::IPanel* panel) {
+inline void UnityEngine::UIElements::PointerDeviceState_PointerLocation::SetLocation(::UnityEngine::Vector2 position, ::UnityEngine::UIElements::IPanel* panel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>::get(), "SetLocation", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>::get(), "SetLocation", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, panel);
 }
 // Ctor Parameters [CppParam { name: "_Position_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Panel_k__BackingField", ty:
-// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_Flags_k__BackingField", ty: "::UnityEngine::UIElements::__PointerDeviceState__LocationFlag",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::__PointerDeviceState__PointerLocation(
+// "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Flags_k__BackingField", ty: "::UnityEngine::UIElements::PointerDeviceState_LocationFlag", modifiers:
+// "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::PointerDeviceState_PointerLocation(
     ::UnityEngine::Vector2 _Position_k__BackingField, ::UnityEngine::UIElements::IPanel* _Panel_k__BackingField,
-    ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag _Flags_k__BackingField) noexcept {
+    ::UnityEngine::UIElements::PointerDeviceState_LocationFlag _Flags_k__BackingField) noexcept {
   this->_Position_k__BackingField = _Position_k__BackingField;
   this->_Panel_k__BackingField = _Panel_k__BackingField;
   this->_Flags_k__BackingField = _Flags_k__BackingField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__PointerDeviceState__PointerLocation::__PointerDeviceState__PointerLocation() {}
+constexpr ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::PointerDeviceState_PointerLocation() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerDeviceState.RemovePanelData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerDeviceState::RemovePanelData)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x49c9a48;
+  constexpr static std::size_t addrs = 0x4a2e358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     int32_t, ::UnityEngine::Vector2, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::ContextType)>(&::UnityEngine::UIElements::PointerDeviceState::SavePointerPosition)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49c9d34;
+  constexpr static std::size_t addrs = 0x4a2e644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::PressButton)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49c59a0;
+  constexpr static std::size_t addrs = 0x4a2a2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseButton)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49c5efc;
+  constexpr static std::size_t addrs = 0x4a2a80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseAllButtons)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49c7584;
+  constexpr static std::size_t addrs = 0x4a2be94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPointerPosition)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49bf8d8;
+  constexpr static std::size_t addrs = 0x4a241e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPanel)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49c9ddc;
+  constexpr static std::size_t addrs = 0x4a2e6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,15 +285,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag, ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasFlagFast)> {
+    ::UnityEngine::UIElements::PointerDeviceState_LocationFlag, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasFlagFast)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49c9e5c;
+  constexpr static std::size_t addrs = 0x4a2e76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get(), "HasFlagFast", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
     return ___internal_method;
   }
 };
@@ -302,16 +301,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    int32_t, ::UnityEngine::UIElements::ContextType, ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasLocationFlag)> {
+    int32_t, ::UnityEngine::UIElements::ContextType, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasLocationFlag)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x49c9e68;
+  constexpr static std::size_t addrs = 0x4a2e778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get(), "HasLocationFlag", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ContextType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
     return ___internal_method;
   }
 };
@@ -320,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::GetPressedButtons)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49c9efc;
+  constexpr static std::size_t addrs = 0x4a2e80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::HasAdditionalPressedButtons)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49c9f78;
+  constexpr static std::size_t addrs = 0x4a2e888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -349,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerDeviceState::SetPlayerPanelWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x49ca010;
+  constexpr static std::size_t addrs = 0x4a2e920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPlayerPanelWithSoftPointerCapture)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49ca0bc;
+  constexpr static std::size_t addrs = 0x4a2e9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,14 +374,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline void UnityEngine::UIElements::PointerDeviceState::setStaticF_s_PlayerPointerLocations(
-    ::ArrayW<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation, ::Array<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation, ::Array<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>*>,
+    ::ArrayW<::UnityEngine::UIElements::PointerDeviceState_PointerLocation, ::Array<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::UIElements::PointerDeviceState_PointerLocation, ::Array<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>*>,
                                     "s_PlayerPointerLocations", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get>(
-      std::forward<::ArrayW<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation, ::Array<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>*>>(value));
+      std::forward<::ArrayW<::UnityEngine::UIElements::PointerDeviceState_PointerLocation, ::Array<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>*>>(value));
 }
-inline ::ArrayW<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation, ::Array<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>*>
+inline ::ArrayW<::UnityEngine::UIElements::PointerDeviceState_PointerLocation, ::Array<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>*>
 UnityEngine::UIElements::PointerDeviceState::getStaticF_s_PlayerPointerLocations() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation, ::Array<::UnityEngine::UIElements::__PointerDeviceState__PointerLocation>*>,
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::UIElements::PointerDeviceState_PointerLocation, ::Array<::UnityEngine::UIElements::PointerDeviceState_PointerLocation>*>,
                                            "s_PlayerPointerLocations", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get>();
 }
 inline void UnityEngine::UIElements::PointerDeviceState::setStaticF_s_PressedButtons(::ArrayW<int32_t, ::Array<int32_t>*> value) {
@@ -451,21 +450,21 @@ inline ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::PointerDevice
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ContextType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IPanel*, false>(nullptr, ___internal_method, pointerId, contextType);
 }
-inline bool UnityEngine::UIElements::PointerDeviceState::HasFlagFast(::UnityEngine::UIElements::__PointerDeviceState__LocationFlag flagSet,
-                                                                     ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag flag) {
+inline bool UnityEngine::UIElements::PointerDeviceState::HasFlagFast(::UnityEngine::UIElements::PointerDeviceState_LocationFlag flagSet,
+                                                                     ::UnityEngine::UIElements::PointerDeviceState_LocationFlag flag) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get(), "HasFlagFast", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, flagSet, flag);
 }
 inline bool UnityEngine::UIElements::PointerDeviceState::HasLocationFlag(int32_t pointerId, ::UnityEngine::UIElements::ContextType contextType,
-                                                                         ::UnityEngine::UIElements::__PointerDeviceState__LocationFlag flag) {
+                                                                         ::UnityEngine::UIElements::PointerDeviceState_LocationFlag flag) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerDeviceState*>::get(), "HasLocationFlag", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ContextType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__PointerDeviceState__LocationFlag>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDeviceState_LocationFlag>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, pointerId, contextType, flag);
 }
 inline int32_t UnityEngine::UIElements::PointerDeviceState::GetPressedButtons(int32_t pointerId) {

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::SingleCallIdentity::*)(
     ::StringW, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*)>(&::System::Runtime::Remoting::SingleCallIdentity::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c72408;
+  constexpr static std::size_t addrs = 0x3cd257c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::SingleCallIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::SingleCallIdentity::SyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3c74860;
+  constexpr static std::size_t addrs = 0x3cd49d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::SingleCallIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::SingleCallIdentity::AsyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3c74a80;
+  constexpr static std::size_t addrs = 0x3cd4bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,10 +57,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Runtime::Remoting::SingleCallIdentity* System::Runtime::Remoting::SingleCallIdentity::New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context,
-                                                                                                                ::System::Type* objectType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::SingleCallIdentity*>(objectUri, context, objectType));
-}
 inline void System::Runtime::Remoting::SingleCallIdentity::_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SingleCallIdentity*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -79,6 +75,10 @@ inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* System::Runtime::Re
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SingleCallIdentity*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageCtrl*, false>(this, ___internal_method, msg, replySink);
+}
+inline ::System::Runtime::Remoting::SingleCallIdentity* System::Runtime::Remoting::SingleCallIdentity::New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context,
+                                                                                                                ::System::Type* objectType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::SingleCallIdentity*>(objectUri, context, objectType));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::SingleCallIdentity::SingleCallIdentity() {}

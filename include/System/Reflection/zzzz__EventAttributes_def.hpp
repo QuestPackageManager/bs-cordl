@@ -12,11 +12,10 @@ struct EventAttributes;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::EventAttributes);
-// Type: System.Reflection::EventAttributes
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::EventAttributes
+// CS Name: System.Reflection.EventAttributes
 struct CORDL_TYPE EventAttributes {
 public:
   // Declarations
@@ -47,19 +46,16 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventAttributes(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Reflection::EventAttributes const None;
 
-  /// @brief Field RTSpecialName value: static_cast<int32_t>(0x400)
+  /// @brief Field RTSpecialName value: I32(1024)
   static ::System::Reflection::EventAttributes const RTSpecialName;
 
-  /// @brief Field ReservedMask value: static_cast<int32_t>(0x400)
+  /// @brief Field ReservedMask value: I32(1024)
   static ::System::Reflection::EventAttributes const ReservedMask;
 
-  /// @brief Field SpecialName value: static_cast<int32_t>(0x200)
+  /// @brief Field SpecialName value: I32(512)
   static ::System::Reflection::EventAttributes const SpecialName;
 
   /// @brief IL2CPP Metadata Type Index
@@ -68,12 +64,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::EventAttributes, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::EventAttributes, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::EventAttributes, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::EventAttributes, "System.Reflection", "EventAttributes");

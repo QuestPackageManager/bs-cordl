@@ -15,11 +15,10 @@ class CertificateNotYetValidException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException);
-// Type: Org.BouncyCastle.Security.Certificates::CertificateNotYetValidException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.Certificates.CertificateException
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security.Certificates::CertificateNotYetValidException*
+// CS Name: Org.BouncyCastle.Security.Certificates.CertificateNotYetValidException
 class CORDL_TYPE CertificateNotYetValidException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateNotYetValidException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x2564f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2564f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2564f44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2598230, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerConditionalActiveByLayout.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_def.hpp"
@@ -8,20 +7,20 @@
 #include "GlobalNamespace/zzzz__MultiplayerLayoutProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition::__MultiplayerConditionalActiveByLayout__Condition(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition::MultiplayerConditionalActiveByLayout_Condition(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition::__MultiplayerConditionalActiveByLayout__Condition() {}
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition::ShowIf{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition::HideIf{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition::MultiplayerConditionalActiveByLayout_Condition() {}
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition::ShowIf{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition::HideIf{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConditionalActiveByLayout.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)()>(
     &::GlobalNamespace::MultiplayerConditionalActiveByLayout::Start)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b6856c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3bc9ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
@@ -35,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)(
     ::GlobalNamespace::MultiplayerPlayerLayout, int32_t)>(&::GlobalNamespace::MultiplayerConditionalActiveByLayout::HandlePlayersLayoutWasCalculated)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b6860c;
+  constexpr static std::size_t addrs = 0x3bc9d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConditionalActiveByLayout::*)()>(
     &::GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b68664;
+  constexpr static std::size_t addrs = 0x3bc9e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
@@ -60,15 +59,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() {
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() const {
+constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
-constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value) {
+constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_set__condition(::GlobalNamespace::MultiplayerConditionalActiveByLayout_Condition value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____condition = value;
 }
@@ -88,8 +87,7 @@ constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::Multip
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const&
-GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layoutProvider() const {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
@@ -110,13 +108,13 @@ inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::HandlePlayers
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, layout, playersCount);
 }
-inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>());
-}
 inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerConditionalActiveByLayout::MultiplayerConditionalActiveByLayout() {}

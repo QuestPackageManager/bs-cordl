@@ -23,18 +23,17 @@ class StandaloneMonobehaviorExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandaloneMonobehaviorExtensions);
-// Type: ::StandaloneMonobehaviorExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StandaloneMonobehaviorExtensions*
+// CS Name: StandaloneMonobehaviorExtensions
 class CORDL_TYPE StandaloneMonobehaviorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Dispatch, addr 0x2299aec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x22ccdd8, size 0xa4, virtual false, abstract: false, final false
   static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Action* action);
 
-  /// @brief Method DispatchAsync, addr 0x2299b90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method DispatchAsync, addr 0x22cce7c, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
 protected:
@@ -52,7 +51,7 @@ public:
   StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

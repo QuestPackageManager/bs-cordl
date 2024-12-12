@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObservable)
 namespace GlobalNamespace {
 class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class IMultiplayerObservable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,11 +16,10 @@ class MultiplayerConnectedPlayerObservable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObservable);
-// Type: ::MultiplayerConnectedPlayerObservable
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IMultiplayerObservable, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerObservable*
+// CS Name: MultiplayerConnectedPlayerObservable
 class CORDL_TYPE MultiplayerConnectedPlayerObservable : public ::System::Object {
 public:
   // Declarations
@@ -38,19 +35,19 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObservable* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x3b6866c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bc9e54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_isFailed, addr 0x3b68738, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x3bc9f20, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3b68694, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x3bc9e7c, size 0xa4, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -70,18 +67,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerObservable(MultiplayerConnectedPlayerObservable const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
+
   /// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObservable, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObservable, ____connectedPlayer) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObservable, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObservable);

@@ -12,11 +12,10 @@ struct EVRApplicationError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVRApplicationError);
-// Type: OVR.OpenVR::EVRApplicationError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVRApplicationError
+// CS Name: OVR.OpenVR.EVRApplicationError
 struct CORDL_TYPE EVRApplicationError {
 public:
   // Declarations
@@ -64,84 +63,84 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVRApplicationError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AppKeyAlreadyExists value: static_cast<int32_t>(0x64)
+  /// @brief Field AppKeyAlreadyExists value: I32(100)
   static ::OVR::OpenVR::EVRApplicationError const AppKeyAlreadyExists;
 
-  /// @brief Field ApplicationAlreadyRunning value: static_cast<int32_t>(0x6a)
+  /// @brief Field ApplicationAlreadyRunning value: I32(106)
   static ::OVR::OpenVR::EVRApplicationError const ApplicationAlreadyRunning;
 
-  /// @brief Field ApplicationAlreadyStarting value: static_cast<int32_t>(0x6e)
+  /// @brief Field ApplicationAlreadyStarting value: I32(110)
   static ::OVR::OpenVR::EVRApplicationError const ApplicationAlreadyStarting;
 
-  /// @brief Field BufferTooSmall value: static_cast<int32_t>(0xc8)
+  /// @brief Field BufferTooSmall value: I32(200)
   static ::OVR::OpenVR::EVRApplicationError const BufferTooSmall;
 
-  /// @brief Field IPCFailed value: static_cast<int32_t>(0x69)
+  /// @brief Field IPCFailed value: I32(105)
   static ::OVR::OpenVR::EVRApplicationError const IPCFailed;
 
-  /// @brief Field InvalidApplication value: static_cast<int32_t>(0x6c)
+  /// @brief Field InvalidApplication value: I32(108)
   static ::OVR::OpenVR::EVRApplicationError const InvalidApplication;
 
-  /// @brief Field InvalidIndex value: static_cast<int32_t>(0x67)
+  /// @brief Field InvalidIndex value: I32(103)
   static ::OVR::OpenVR::EVRApplicationError const InvalidIndex;
 
-  /// @brief Field InvalidManifest value: static_cast<int32_t>(0x6b)
+  /// @brief Field InvalidManifest value: I32(107)
   static ::OVR::OpenVR::EVRApplicationError const InvalidManifest;
 
-  /// @brief Field InvalidParameter value: static_cast<int32_t>(0xcb)
+  /// @brief Field InvalidParameter value: I32(203)
   static ::OVR::OpenVR::EVRApplicationError const InvalidParameter;
 
-  /// @brief Field IsTemplate value: static_cast<int32_t>(0x72)
+  /// @brief Field IsTemplate value: I32(114)
   static ::OVR::OpenVR::EVRApplicationError const IsTemplate;
 
-  /// @brief Field LaunchFailed value: static_cast<int32_t>(0x6d)
+  /// @brief Field LaunchFailed value: I32(109)
   static ::OVR::OpenVR::EVRApplicationError const LaunchFailed;
 
-  /// @brief Field LaunchInProgress value: static_cast<int32_t>(0x6f)
+  /// @brief Field LaunchInProgress value: I32(111)
   static ::OVR::OpenVR::EVRApplicationError const LaunchInProgress;
 
-  /// @brief Field NoApplication value: static_cast<int32_t>(0x66)
+  /// @brief Field NoApplication value: I32(102)
   static ::OVR::OpenVR::EVRApplicationError const NoApplication;
 
-  /// @brief Field NoManifest value: static_cast<int32_t>(0x65)
+  /// @brief Field NoManifest value: I32(101)
   static ::OVR::OpenVR::EVRApplicationError const NoManifest;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::OVR::OpenVR::EVRApplicationError const None;
 
-  /// @brief Field OldApplicationQuitting value: static_cast<int32_t>(0x70)
+  /// @brief Field OldApplicationQuitting value: I32(112)
   static ::OVR::OpenVR::EVRApplicationError const OldApplicationQuitting;
 
-  /// @brief Field PropertyNotSet value: static_cast<int32_t>(0xc9)
+  /// @brief Field PropertyNotSet value: I32(201)
   static ::OVR::OpenVR::EVRApplicationError const PropertyNotSet;
 
-  /// @brief Field SteamVRIsExiting value: static_cast<int32_t>(0x73)
+  /// @brief Field SteamVRIsExiting value: I32(115)
   static ::OVR::OpenVR::EVRApplicationError const SteamVRIsExiting;
 
-  /// @brief Field TransitionAborted value: static_cast<int32_t>(0x71)
+  /// @brief Field TransitionAborted value: I32(113)
   static ::OVR::OpenVR::EVRApplicationError const TransitionAborted;
 
-  /// @brief Field UnknownApplication value: static_cast<int32_t>(0x68)
+  /// @brief Field UnknownApplication value: I32(104)
   static ::OVR::OpenVR::EVRApplicationError const UnknownApplication;
 
-  /// @brief Field UnknownProperty value: static_cast<int32_t>(0xca)
+  /// @brief Field UnknownProperty value: I32(202)
   static ::OVR::OpenVR::EVRApplicationError const UnknownProperty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8929 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVRApplicationError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVRApplicationError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationError, "OVR.OpenVR", "EVRApplicationError");

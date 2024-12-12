@@ -4,37 +4,35 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastBitConverter)
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperDouble;
+struct FastBitConverter_ConverterHelperDouble;
 }
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperFloat;
+struct FastBitConverter_ConverterHelperFloat;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
 class FastBitConverter;
 }
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperDouble;
+struct FastBitConverter_ConverterHelperDouble;
 }
 namespace LiteNetLib::Utils {
-struct __FastBitConverter__ConverterHelperFloat;
+struct FastBitConverter_ConverterHelperFloat;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::Utils::FastBitConverter);
-MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble);
-MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat);
-// Type: ::ConverterHelperDouble
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble);
+MARK_VAL_T(::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat);
+// Dependencies
 namespace LiteNetLib::Utils {
 // Is value type: true
-// CS Name: ::FastBitConverter::ConverterHelperDouble
-struct CORDL_TYPE __FastBitConverter__ConverterHelperDouble {
+// CS Name: LiteNetLib.Utils.FastBitConverter/ConverterHelperDouble
+struct CORDL_TYPE FastBitConverter_ConverterHelperDouble {
 public:
   // Declarations
   /// @brief Field Adouble, offset 0x0, size 0x8
@@ -57,10 +55,10 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FastBitConverter__ConverterHelperDouble();
+  constexpr FastBitConverter_ConverterHelperDouble();
 
   // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
-  constexpr __FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
+  constexpr FastBitConverter_ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -97,7 +95,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16564 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -105,15 +103,14 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble, 0x8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble, 0x8>, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
-// Type: ::ConverterHelperFloat
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace LiteNetLib::Utils {
 // Is value type: true
-// CS Name: ::FastBitConverter::ConverterHelperFloat
-struct CORDL_TYPE __FastBitConverter__ConverterHelperFloat {
+// CS Name: LiteNetLib.Utils.FastBitConverter/ConverterHelperFloat
+struct CORDL_TYPE FastBitConverter_ConverterHelperFloat {
 public:
   // Declarations
   /// @brief Field Afloat, offset 0x0, size 0x4
@@ -136,10 +133,10 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FastBitConverter__ConverterHelperFloat();
+  constexpr FastBitConverter_ConverterHelperFloat();
 
   // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
+  constexpr FastBitConverter_ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -176,7 +173,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16565 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,52 +181,51 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat, 0x4>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat, 0x4>, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
-// Type: LiteNetLib.Utils::FastBitConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
-// CS Name: ::LiteNetLib.Utils::FastBitConverter*
+// CS Name: LiteNetLib.Utils.FastBitConverter
 class CORDL_TYPE FastBitConverter : public ::System::Object {
 public:
   // Declarations
-  using ConverterHelperDouble = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble;
+  using ConverterHelperDouble = ::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble;
 
-  using ConverterHelperFloat = ::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat;
+  using ConverterHelperFloat = ::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat;
 
-  /// @brief Method GetBytes, addr 0x3a6577c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3abc3ec, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, double_t value);
 
-  /// @brief Method GetBytes, addr 0x3a65784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3abc3f4, size 0x8, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, float_t value);
 
-  /// @brief Method GetBytes, addr 0x3a6578c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3abc3fc, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int16_t value);
 
-  /// @brief Method GetBytes, addr 0x3a600cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3ab6d3c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int32_t value);
 
-  /// @brief Method GetBytes, addr 0x3a5c364, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3ab2fd4, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, int64_t value);
 
-  /// @brief Method GetBytes, addr 0x3a5fbdc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3ab684c, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint16_t value);
 
-  /// @brief Method GetBytes, addr 0x3a65790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3abc400, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint32_t value);
 
-  /// @brief Method GetBytes, addr 0x3a65794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x3abc404, size 0x4, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t startIndex, uint64_t value);
 
-  /// @brief Method WriteLittleEndian, addr 0x3a65734, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3abc3a4, size 0x48, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int16_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x3a656b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3abc324, size 0x80, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t data);
 
-  /// @brief Method WriteLittleEndian, addr 0x3a655c4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method WriteLittleEndian, addr 0x3abc234, size 0xf0, virtual false, abstract: false, final false
   static inline void WriteLittleEndian(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, uint64_t data);
 
 protected:
@@ -247,7 +243,7 @@ public:
   FastBitConverter(FastBitConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16566 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -257,5 +253,5 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::FastBitConver
 } // namespace LiteNetLib::Utils
 NEED_NO_BOX(::LiteNetLib::Utils::FastBitConverter);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::FastBitConverter*, "LiteNetLib.Utils", "FastBitConverter");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::FastBitConverter_ConverterHelperDouble, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperDouble");
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::FastBitConverter_ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");

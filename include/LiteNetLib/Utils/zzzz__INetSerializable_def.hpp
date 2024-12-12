@@ -16,30 +16,25 @@ class INetSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::Utils::INetSerializable);
-// Type: LiteNetLib.Utils::INetSerializable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace LiteNetLib::Utils {
 // Is value type: false
-// CS Name: ::LiteNetLib.Utils::INetSerializable*
+// CS Name: LiteNetLib.Utils.INetSerializable
 class CORDL_TYPE INetSerializable {
 public:
   // Declarations
-  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Deserialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Serialize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
-
-  // Ctor Parameters [CppParam { name: "", ty: "INetSerializable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INetSerializable(INetSerializable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "INetSerializable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INetSerializable(INetSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

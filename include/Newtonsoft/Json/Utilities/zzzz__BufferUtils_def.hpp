@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferUtils)
 namespace Newtonsoft::Json {
@@ -16,21 +15,20 @@ class BufferUtils;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BufferUtils);
-// Type: Newtonsoft.Json.Utilities::BufferUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Utilities::BufferUtils*
+// CS Name: Newtonsoft.Json.Utilities.BufferUtils
 class CORDL_TYPE BufferUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureBufferSize, addr 0x3e6c028, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferSize, addr 0x3ecc0d4, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureBufferSize(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t size, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
-  /// @brief Method RentBuffer, addr 0x3e6beb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RentBuffer, addr 0x3ecbf5c, size 0xc8, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> RentBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, int32_t minSize);
 
-  /// @brief Method ReturnBuffer, addr 0x3e6bf78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ReturnBuffer, addr 0x3ecc024, size 0xb0, virtual false, abstract: false, final false
   static inline void ReturnBuffer(::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
 
 protected:
@@ -48,7 +46,7 @@ public:
   BufferUtils(BufferUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10239 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

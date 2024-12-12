@@ -8,20 +8,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifaddrs)
-namespace System {
-struct IntPtr;
-}
 // Forward declare root types
 namespace System::Net::NetworkInformation::MacOsStructs {
 struct ifaddrs;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::ifaddrs);
-// Type: System.Net.NetworkInformation.MacOsStructs::ifaddrs
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// CS Name: ::System.Net.NetworkInformation.MacOsStructs::ifaddrs
+// CS Name: System.Net.NetworkInformation.MacOsStructs.ifaddrs
 struct CORDL_TYPE ifaddrs {
 public:
   // Declarations
@@ -35,6 +31,12 @@ public:
   // "::System::IntPtr", modifiers: "", def_value: None }]
   constexpr ifaddrs(::System::IntPtr ifa_next, ::StringW ifa_name, uint32_t ifa_flags, ::System::IntPtr ifa_addr, ::System::IntPtr ifa_netmask, ::System::IntPtr ifa_dstaddr,
                     ::System::IntPtr ifa_data) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9810 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
 
   /// @brief Field ifa_next, offset: 0x0, size: 0x8, def value: None
   ::System::IntPtr ifa_next;
@@ -57,17 +59,9 @@ public:
   /// @brief Field ifa_data, offset: 0x30, size: 0x8, def value: None
   ::System::IntPtr ifa_data;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9785 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::ifaddrs, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_next) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_name) == 0x8, "Offset mismatch!");
@@ -81,6 +75,8 @@ static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs,
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_dstaddr) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, ifa_data) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsStructs::ifaddrs, 0x38>, "Size mismatch!");
 
 } // namespace System::Net::NetworkInformation::MacOsStructs
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");

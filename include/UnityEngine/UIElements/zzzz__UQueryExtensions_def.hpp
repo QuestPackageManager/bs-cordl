@@ -16,51 +16,50 @@ class UQueryExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UQueryExtensions);
-// Type: UnityEngine.UIElements::UQueryExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.UQueryState`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UQueryExtensions*
+// CS Name: UnityEngine.UIElements.UQueryExtensions
 class CORDL_TYPE UQueryExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field SingleElementClassQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementClassQuery, put = setStaticF_SingleElementClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementClassQuery, put = setStaticF_SingleElementClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementClassQuery;
 
   /// @brief Field SingleElementEmptyQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementEmptyQuery, put = setStaticF_SingleElementEmptyQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementEmptyQuery, put = setStaticF_SingleElementEmptyQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementEmptyQuery;
 
   /// @brief Field SingleElementNameAndClassQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementNameAndClassQuery,
-                             put = setStaticF_SingleElementNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementNameAndClassQuery,
+                      put = setStaticF_SingleElementNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementNameAndClassQuery;
 
   /// @brief Field SingleElementNameQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementNameQuery, put = setStaticF_SingleElementNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementNameQuery, put = setStaticF_SingleElementNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementNameQuery;
 
   /// @brief Field SingleElementTypeAndClassQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementTypeAndClassQuery,
-                             put = setStaticF_SingleElementTypeAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementTypeAndClassQuery,
+                      put = setStaticF_SingleElementTypeAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeAndClassQuery;
 
   /// @brief Field SingleElementTypeAndNameAndClassQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementTypeAndNameAndClassQuery,
-                             put = setStaticF_SingleElementTypeAndNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementTypeAndNameAndClassQuery,
+                      put = setStaticF_SingleElementTypeAndNameAndClassQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeAndNameAndClassQuery;
 
   /// @brief Field SingleElementTypeAndNameQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementTypeAndNameQuery,
-                             put = setStaticF_SingleElementTypeAndNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementTypeAndNameQuery,
+                      put = setStaticF_SingleElementTypeAndNameQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeAndNameQuery;
 
   /// @brief Field SingleElementTypeQuery, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
+  __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x4a39e1c, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x4a9e72c, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -113,7 +112,7 @@ public:
   UQueryExtensions(UQueryExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6227 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

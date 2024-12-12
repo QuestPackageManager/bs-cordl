@@ -15,15 +15,14 @@ class CryptoConfigForwarder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::CryptoConfigForwarder);
-// Type: System.Security.Cryptography::CryptoConfigForwarder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::CryptoConfigForwarder*
+// CS Name: System.Security.Cryptography.CryptoConfigForwarder
 class CORDL_TYPE CryptoConfigForwarder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateFromName, addr 0x3c558d8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x3cb5a4c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
 protected:

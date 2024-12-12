@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(DroneHover)
 namespace GlobalNamespace {
-class __DroneHover__SineLayer;
+class DroneHover_SineLayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -28,17 +28,16 @@ namespace GlobalNamespace {
 class DroneHover;
 }
 namespace GlobalNamespace {
-class __DroneHover__SineLayer;
+class DroneHover_SineLayer;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DroneHover);
-MARK_REF_PTR_T(::GlobalNamespace::__DroneHover__SineLayer);
-// Type: ::SineLayer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::DroneHover_SineLayer);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DroneHover::SineLayer*
-class CORDL_TYPE __DroneHover__SineLayer : public ::System::Object {
+// CS Name: DroneHover/SineLayer
+class CORDL_TYPE DroneHover_SineLayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field multiplier, offset 0x10, size 0x4
@@ -47,7 +46,7 @@ public:
   /// @brief Field offset, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) float_t offset;
 
-  static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
+  static inline ::GlobalNamespace::DroneHover_SineLayer* New_ctor();
 
   constexpr float_t const& __cordl_internal_get_multiplier() const;
 
@@ -61,22 +60,25 @@ public:
 
   constexpr void __cordl_internal_set_offset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a73ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acb214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __DroneHover__SineLayer();
+  constexpr DroneHover_SineLayer();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __DroneHover__SineLayer(__DroneHover__SineLayer&&) = delete;
+  DroneHover_SineLayer(DroneHover_SineLayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "DroneHover_SineLayer", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __DroneHover__SineLayer(__DroneHover__SineLayer const&) = delete;
+  DroneHover_SineLayer(DroneHover_SineLayer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3978 };
 
   /// @brief Field multiplier, offset: 0x10, size: 0x4, def value: None
   float_t ___multiplier;
@@ -84,35 +86,31 @@ public:
   /// @brief Field offset, offset: 0x14, size: 0x4, def value: None
   float_t ___offset;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3973 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__DroneHover__SineLayer, 0x18>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::DroneHover_SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___multiplier) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DroneHover_SineLayer, ___offset) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroneHover_SineLayer, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::DroneHover
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DroneHover*
+// CS Name: DroneHover
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using SineLayer = ::GlobalNamespace::__DroneHover__SineLayer;
+  using SineLayer = ::GlobalNamespace::DroneHover_SineLayer;
 
   /// @brief Field _cloth, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__cloth, put = __cordl_internal_set__cloth)) ::UnityW<::UnityEngine::Cloth> _cloth;
 
   /// @brief Field _compoundSins, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__compoundSins,
-                      put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* _compoundSins;
+                      put = __cordl_internal_set__compoundSins)) ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* _compoundSins;
 
   /// @brief Field _hoverAreaPerAxis, offset 0x20, size 0xc
   __declspec(property(get = __cordl_internal_get__hoverAreaPerAxis, put = __cordl_internal_set__hoverAreaPerAxis)) ::UnityEngine::Vector3 _hoverAreaPerAxis;
@@ -139,30 +137,30 @@ public:
   __declspec(property(get = __cordl_internal_get__tiltTransforms,
                       put = __cordl_internal_set__tiltTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _tiltTransforms;
 
-  /// @brief Method GetNoise, addr 0x3a73d94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetNoise, addr 0x3acb104, size 0xf4, virtual false, abstract: false, final false
   inline float_t GetNoise(float_t time, float_t offset);
 
-  /// @brief Method GetNoiseVec3, addr 0x3a73a54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetNoiseVec3, addr 0x3acadc4, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method Start, addr 0x3a7390c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3acac7c, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3a7393c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3acacac, size 0x118, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateTiltTransform, addr 0x3a73ad0, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTiltTransform, addr 0x3acae40, size 0x2c4, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
 
   constexpr ::UnityW<::UnityEngine::Cloth> const& __cordl_internal_get__cloth() const;
 
   constexpr ::UnityW<::UnityEngine::Cloth>& __cordl_internal_get__cloth();
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*& __cordl_internal_get__compoundSins();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* const& __cordl_internal_get__compoundSins() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*> const& __cordl_internal_get__compoundSins() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>*& __cordl_internal_get__compoundSins();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__hoverAreaPerAxis() const;
 
@@ -192,13 +190,13 @@ public:
 
   constexpr bool& __cordl_internal_get__tiltToTarget();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__tiltTransforms();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& __cordl_internal_get__tiltTransforms() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__tiltTransforms() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__tiltTransforms();
 
   constexpr void __cordl_internal_set__cloth(::UnityW<::UnityEngine::Cloth> value);
 
-  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* value);
+  constexpr void __cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* value);
 
   constexpr void __cordl_internal_set__hoverAreaPerAxis(::UnityEngine::Vector3 value);
 
@@ -216,7 +214,7 @@ public:
 
   constexpr void __cordl_internal_set__tiltTransforms(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method .ctor, addr 0x3a73e88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acb1f8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,6 +231,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DroneHover(DroneHover const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3979 };
+
   /// @brief Field _hoverAreaPerAxis, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____hoverAreaPerAxis;
 
@@ -240,7 +241,7 @@ public:
   float_t ____speed;
 
   /// @brief Field _compoundSins, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* ____compoundSins;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* ____compoundSins;
 
   /// @brief Field _tiltTransforms, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____tiltTransforms;
@@ -263,14 +264,9 @@ public:
   /// @brief Field _cloth, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Cloth> ____cloth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3974 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroneHover, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::DroneHover, ____hoverAreaPerAxis) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::DroneHover, ____speed) == 0x2c, "Offset mismatch!");
@@ -291,8 +287,10 @@ static_assert(offsetof(::GlobalNamespace::DroneHover, ____startPos) == 0x50, "Of
 
 static_assert(offsetof(::GlobalNamespace::DroneHover, ____cloth) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DroneHover, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DroneHover);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DroneHover*, "", "DroneHover");
-NEED_NO_BOX(::GlobalNamespace::__DroneHover__SineLayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__DroneHover__SineLayer*, "", "DroneHover/SineLayer");
+NEED_NO_BOX(::GlobalNamespace::DroneHover_SineLayer);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DroneHover_SineLayer*, "", "DroneHover/SineLayer");

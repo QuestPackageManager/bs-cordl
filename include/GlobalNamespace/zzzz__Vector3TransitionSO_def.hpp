@@ -15,11 +15,10 @@ class Vector3TransitionSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Vector3TransitionSO);
-// Type: ::Vector3TransitionSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BaseTransitionSO, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Vector3TransitionSO*
+// CS Name: Vector3TransitionSO
 class CORDL_TYPE Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
@@ -91,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x4476fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d82d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x4476f98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x44d82ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x4476f80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x44d8294, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x4476f74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x44d8288, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x4476f8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x44d82a0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x4476fb0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x44d82c4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x4476fa4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x44d82b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Vector3TransitionSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Vector3TransitionSO(Vector3TransitionSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18219 };
 
   /// @brief Field _normalState, offset: 0x20, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____normalState;
@@ -144,14 +146,9 @@ public:
   /// @brief Field _selectedAndHighlightedState, offset: 0x5c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____selectedAndHighlightedState;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18139 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Vector3TransitionSO, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::Vector3TransitionSO, ____normalState) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Vector3TransitionSO, ____highlightedState) == 0x2c, "Offset mismatch!");
@@ -163,6 +160,8 @@ static_assert(offsetof(::GlobalNamespace::Vector3TransitionSO, ____disabledState
 static_assert(offsetof(::GlobalNamespace::Vector3TransitionSO, ____selectedState) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::Vector3TransitionSO, ____selectedAndHighlightedState) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Vector3TransitionSO, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Vector3TransitionSO);

@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/Field/GF2Polynomial.hpp"
+#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__GF2Polynomial_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Field::GF2Polynomial._ctor
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24a7830;
+  constexpr static std::size_t addrs = 0x24dab1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24a7f08;
+  constexpr static std::size_t addrs = 0x24db1f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24a7f3c;
+  constexpr static std::size_t addrs = 0x24db228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x24a7f98;
+  constexpr static std::size_t addrs = 0x24db284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(
     &::Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x24a8070;
+  constexpr static std::size_t addrs = 0x24db35c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,14 +83,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
-constexpr Org::BouncyCastle::Math::Field::GF2Polynomial::operator ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
-constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* Org::BouncyCastle::Math::Field::GF2Polynomial::i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(static_cast<void*>(this));
-}
 constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& Org::BouncyCastle::Math::Field::GF2Polynomial::__cordl_internal_get_exponents() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___exponents;
@@ -102,9 +94,6 @@ constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& Org::BouncyCastle::Math::F
 constexpr void Org::BouncyCastle::Math::Field::GF2Polynomial::__cordl_internal_set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___exponents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Field::GF2Polynomial*>(exponents));
 }
 inline void Org::BouncyCastle::Math::Field::GF2Polynomial::_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -131,6 +120,17 @@ inline int32_t Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Field::GF2Polynomial*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::Field::GF2Polynomial*>(exponents));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
+constexpr Org::BouncyCastle::Math::Field::GF2Polynomial::operator ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
+constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* Org::BouncyCastle::Math::Field::GF2Polynomial::i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::Field::IPolynomial*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::Field::GF2Polynomial::GF2Polynomial() {}

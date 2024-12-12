@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::GotoExpressionKind, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::GotoExpression::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4056678;
+  constexpr static std::size_t addrs = 0x40b798c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::GotoExpression::*)()>(
     &::System::Linq::Expressions::GotoExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056700;
+  constexpr static std::size_t addrs = 0x40b7a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::GotoExpression*>::get(), "get_Type",
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::GotoExpression::*)()>(
     &::System::Linq::Expressions::GotoExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056708;
+  constexpr static std::size_t addrs = 0x40b7a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::GotoExpression*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::GotoExpression::*)()>(
     &::System::Linq::Expressions::GotoExpression::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056710;
+  constexpr static std::size_t addrs = 0x40b7a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::GotoExpression*>::get(), "get_Value",
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (::System::Linq::Expressions::GotoExpression::*)()>(
     &::System::Linq::Expressions::GotoExpression::get_Target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056718;
+  constexpr static std::size_t addrs = 0x40b7a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::GotoExpression*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::GotoExpressionKind (::System::Linq::Expressions::GotoExpression::*)()>(
     &::System::Linq::Expressions::GotoExpression::get_Kind)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056720;
+  constexpr static std::size_t addrs = 0x40b7a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::GotoExpression*>::get(), "get_Kind",
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::GotoExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::GotoExpression::Accept)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4056728;
+  constexpr static std::size_t addrs = 0x40b7a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::GotoExpression* (
     ::System::Linq::Expressions::GotoExpression::*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::GotoExpression::Update)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40558f0;
+  constexpr static std::size_t addrs = 0x40b6c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,7 +133,7 @@ constexpr ::System::Type*& System::Linq::Expressions::GotoExpression::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Type_k__BackingField() const {
+constexpr ::System::Type* const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Type_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Type_k__BackingField;
 }
@@ -145,7 +145,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::G
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Value_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Value_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Value_k__BackingField;
 }
@@ -157,7 +157,7 @@ constexpr ::System::Linq::Expressions::LabelTarget*& System::Linq::Expressions::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::LabelTarget*> const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Target_k__BackingField() const {
+constexpr ::System::Linq::Expressions::LabelTarget* const& System::Linq::Expressions::GotoExpression::__cordl_internal_get__Target_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Target_k__BackingField;
 }
@@ -176,11 +176,6 @@ constexpr ::System::Linq::Expressions::GotoExpressionKind const& System::Linq::E
 constexpr void System::Linq::Expressions::GotoExpression::__cordl_internal_set__Kind_k__BackingField(::System::Linq::Expressions::GotoExpressionKind value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Kind_k__BackingField = value;
-}
-inline ::System::Linq::Expressions::GotoExpression* System::Linq::Expressions::GotoExpression::New_ctor(::System::Linq::Expressions::GotoExpressionKind kind,
-                                                                                                        ::System::Linq::Expressions::LabelTarget* target,
-                                                                                                        ::System::Linq::Expressions::Expression* value, ::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::GotoExpression*>(kind, target, value, type));
 }
 inline void System::Linq::Expressions::GotoExpression::_ctor(::System::Linq::Expressions::GotoExpressionKind kind, ::System::Linq::Expressions::LabelTarget* target,
                                                              ::System::Linq::Expressions::Expression* value, ::System::Type* type) {
@@ -229,6 +224,11 @@ inline ::System::Linq::Expressions::GotoExpression* System::Linq::Expressions::G
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::LabelTarget*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::GotoExpression*, false>(this, ___internal_method, target, value);
+}
+inline ::System::Linq::Expressions::GotoExpression* System::Linq::Expressions::GotoExpression::New_ctor(::System::Linq::Expressions::GotoExpressionKind kind,
+                                                                                                        ::System::Linq::Expressions::LabelTarget* target,
+                                                                                                        ::System::Linq::Expressions::Expression* value, ::System::Type* type) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::GotoExpression*>(kind, target, value, type));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::GotoExpression::GotoExpression() {}

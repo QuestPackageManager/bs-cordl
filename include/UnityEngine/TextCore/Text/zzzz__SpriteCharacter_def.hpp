@@ -12,11 +12,10 @@ class SpriteCharacter;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::SpriteCharacter);
-// Type: UnityEngine.TextCore.Text::SpriteCharacter
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.TextCore.Text.TextElement
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::SpriteCharacter*
+// CS Name: UnityEngine.TextCore.Text.SpriteCharacter
 class CORDL_TYPE SpriteCharacter : public ::UnityEngine::TextCore::Text::TextElement {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x48ca5e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x492ec74, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x48c9704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x492dd94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteCharacter(SpriteCharacter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15251 };
+
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::SpriteCharacter, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::SpriteCharacter, ___m_Name) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::SpriteCharacter, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::SpriteCharacter);

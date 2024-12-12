@@ -3,43 +3,32 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedList_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __LinkedList_1__Enumerator;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> struct LinkedList_1_Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -51,9 +40,6 @@ namespace System {
 class Array;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 // Forward declare root types
@@ -61,19 +47,19 @@ namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __LinkedList_1__Enumerator;
+template <typename T> struct LinkedList_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LinkedList_1);
-MARK_GEN_VAL_T(::System::Collections::Generic::__LinkedList_1__Enumerator);
-// Type: ::Enumerator
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::System::Collections::Generic::LinkedList_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Runtime.Serialization.IDeserializationCallback,
+// System.Runtime.Serialization.ISerializable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::LinkedList`1::Enumerator<T>
-struct CORDL_TYPE __LinkedList_1__Enumerator {
+// CS Name: System.Collections.Generic.LinkedList`1/Enumerator<T>
+struct CORDL_TYPE LinkedList_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -139,13 +125,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LinkedList_1__Enumerator();
+  constexpr LinkedList_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_node", ty:
   // "::System::Collections::Generic::LinkedListNode_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "_current", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LinkedList_1__Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list, ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,
-                                       int32_t _index) noexcept;
+  constexpr LinkedList_1_Enumerator(::System::Collections::Generic::LinkedList_1<T>* _list, ::System::Collections::Generic::LinkedListNode_1<T>* _node, int32_t _version, T _current,
+                                    int32_t _index) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9511 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field _list, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* _list;
@@ -162,27 +154,21 @@ public:
   /// @brief Field _index, offset: 0x20, size: 0x4, def value: None
   int32_t _index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9486 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Type: System.Collections.Generic::LinkedList`1
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
+// System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::LinkedList`1<T>*
+// CS Name: System.Collections.Generic.LinkedList`1<T>
 class CORDL_TYPE LinkedList_1 : public ::System::Object {
 public:
   // Declarations
-  using Enumerator = ::System::Collections::Generic::__LinkedList_1__Enumerator<T>;
+  using Enumerator = ::System::Collections::Generic::LinkedList_1_Enumerator<T>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -266,7 +252,7 @@ public:
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Find(T value);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::__LinkedList_1__Enumerator<T> GetEnumerator();
+  inline ::System::Collections::Generic::LinkedList_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
@@ -326,21 +312,21 @@ public:
   /// @brief Method ValidateNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ValidateNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
+  constexpr ::System::Runtime::Serialization::SerializationInfo* const& __cordl_internal_get__siInfo() const;
+
   constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__siInfo() const;
+  constexpr ::System::Object* const& __cordl_internal_get__syncRoot() const;
 
   constexpr ::System::Object*& __cordl_internal_get__syncRoot();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
   constexpr int32_t const& __cordl_internal_get_count() const;
 
   constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_head();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>* const& __cordl_internal_get_head() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_head() const;
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_head();
 
   constexpr int32_t const& __cordl_internal_get_version() const;
 
@@ -406,6 +392,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LinkedList_1(LinkedList_1 const&) = delete;
 
+  /// @brief Field CountName offset 0xffffffff size 0x8
+  static constexpr ::ConstString CountName{ u"Count" };
+
+  /// @brief Field ValuesName offset 0xffffffff size 0x8
+  static constexpr ::ConstString ValuesName{ u"Data" };
+
+  /// @brief Field VersionName offset 0xffffffff size 0x8
+  static constexpr ::ConstString VersionName{ u"Version" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9512 };
+
   /// @brief Field head, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<T>* ___head;
 
@@ -421,21 +419,9 @@ public:
   /// @brief Field _siInfo, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationInfo* ____siInfo;
 
-  /// @brief Field CountName offset 0xffffffff size 0x8
-  static constexpr ::ConstString CountName{ u"Count" };
-
-  /// @brief Field ValuesName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ValuesName{ u"Data" };
-
-  /// @brief Field VersionName offset 0xffffffff size 0x8
-  static constexpr ::ConstString VersionName{ u"Version" };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9487 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::LinkedList_1, "System.Collections.Generic", "LinkedList`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::__LinkedList_1__Enumerator, "System.Collections.Generic", "LinkedList`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::LinkedList_1_Enumerator, "System.Collections.Generic", "LinkedList`1/Enumerator");

@@ -14,23 +14,22 @@ class SmimeAttributes;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeAttributes);
-// Type: Org.BouncyCastle.Asn1.Smime::SmimeAttributes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeAttributes*
+// CS Name: Org.BouncyCastle.Asn1.Smime.SmimeAttributes
 class CORDL_TYPE SmimeAttributes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field EncrypKeyPref, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EncrypKeyPref, put = setStaticF_EncrypKeyPref)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncrypKeyPref;
+  __declspec(property(get = getStaticF_EncrypKeyPref, put = setStaticF_EncrypKeyPref)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* EncrypKeyPref;
 
   /// @brief Field SmimeCapabilities, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SmimeCapabilities, put = setStaticF_SmimeCapabilities)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SmimeCapabilities;
+  __declspec(property(get = getStaticF_SmimeCapabilities, put = setStaticF_SmimeCapabilities)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* SmimeCapabilities;
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bf670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f295c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_EncrypKeyPref();

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Oculus::Platform::Core::IsInitialized)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f20290;
+  constexpr static std::size_t addrs = 0x3f8033c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "IsInitialized",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::Core::ForceInitialized)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3f202e8;
+  constexpr static std::size_t addrs = 0x3f80394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "ForceInitialized",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Oculus::Platform::Core::getAppID)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3f20344;
+  constexpr static std::size_t addrs = 0x3f803f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(::StringW)>(
     &::Oculus::Platform::Core::AsyncInitialize)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x3ef5d10;
+  constexpr static std::size_t addrs = 0x3f55dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(::StringW, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>*,
                                                                                         ::StringW)>(&::Oculus::Platform::Core::AsyncInitialize)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3f207b0;
+  constexpr static std::size_t addrs = 0x3f8085c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Oculus::Platform::Core::Initialize)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3f20b60;
+  constexpr static std::size_t addrs = 0x3f80c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::Core::GetAppIDFromConfig)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f204e4;
+  constexpr static std::size_t addrs = 0x3f80590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "GetAppIDFromConfig",
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Core::*)()>(&::Oculus::Platform::Core::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f20fc4;
+  constexpr static std::size_t addrs = 0x3f81070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), ".ctor",
@@ -147,21 +147,18 @@ inline void Oculus::Platform::Core::ForceInitialized() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-/// @param appId: ::StringW (default: nullptr)
 inline ::StringW Oculus::Platform::Core::getAppID(::StringW appId) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "getAppID", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, appId);
 }
-/// @param appId: ::StringW (default: nullptr)
 inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* Oculus::Platform::Core::AsyncInitialize(::StringW appId) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "AsyncInitialize", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*, false>(nullptr, ___internal_method, appId);
 }
-/// @param appId: ::StringW (default: nullptr)
 inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
 Oculus::Platform::Core::AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +169,6 @@ Oculus::Platform::Core::AsyncInitialize(::StringW accessToken, ::System::Collect
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*, false>(nullptr, ___internal_method, accessToken, initConfigOptions,
                                                                                                                                      appId);
 }
-/// @param appId: ::StringW (default: nullptr)
 inline void Oculus::Platform::Core::Initialize(::StringW appId) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
@@ -184,13 +180,13 @@ inline ::StringW Oculus::Platform::Core::GetAppIDFromConfig() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
-inline ::Oculus::Platform::Core* Oculus::Platform::Core::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Core*>());
-}
 inline void Oculus::Platform::Core::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Core*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Oculus::Platform::Core* Oculus::Platform::Core::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Core*>());
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Core::Core() {}

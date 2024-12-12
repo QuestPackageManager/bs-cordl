@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SetPropertyUtility)
 namespace UnityEngine {
 struct Color;
@@ -15,22 +14,21 @@ class SetPropertyUtility;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::SetPropertyUtility);
-// Type: HMUI::SetPropertyUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::SetPropertyUtility*
+// CS Name: HMUI.SetPropertyUtility
 class CORDL_TYPE SetPropertyUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Method SetClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SetClass(ByRef<T> currentValue, T newValue);
+  template <typename T> static inline bool SetClass(::ByRef<T> currentValue, T newValue);
 
-  /// @brief Method SetColor, addr 0x39a6d60, size 0x48, virtual false, abstract: false, final false
-  static inline bool SetColor(ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
+  /// @brief Method SetColor, addr 0x39fd9d0, size 0x48, virtual false, abstract: false, final false
+  static inline bool SetColor(::ByRef<::UnityEngine::Color> currentValue, ::UnityEngine::Color newValue);
 
   /// @brief Method SetStruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool SetStruct(ByRef<T> currentValue, T newValue);
+  template <typename T> static inline bool SetStruct(::ByRef<T> currentValue, T newValue);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +45,7 @@ public:
   SetPropertyUtility(SetPropertyUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

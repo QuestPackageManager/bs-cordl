@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LightGroupDuplicationGroup)
 namespace GlobalNamespace {
@@ -16,11 +15,10 @@ class LightGroupDuplicationGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup);
-// Type: BeatSaber.TrackDefinitions::LightGroupDuplicationGroup
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace BeatSaber::TrackDefinitions {
 // Is value type: false
-// CS Name: ::BeatSaber.TrackDefinitions::LightGroupDuplicationGroup*
+// CS Name: BeatSaber.TrackDefinitions.LightGroupDuplicationGroup
 class CORDL_TYPE LightGroupDuplicationGroup : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -50,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x224eae4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2280f64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duplicationGroupName, addr 0x224ead4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duplicationGroupName, addr 0x2280f54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
-  /// @brief Method get_lightGroups, addr 0x224eadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x2280f5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
 protected:
@@ -73,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupDuplicationGroup(LightGroupDuplicationGroup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18630 };
+
   /// @brief Field _duplicationGroupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____duplicationGroupName;
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> ____lightGroups;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18549 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup, ____duplicationGroupName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup, ____lightGroups) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions
 NEED_NO_BOX(::BeatSaber::TrackDefinitions::LightGroupDuplicationGroup);

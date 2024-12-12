@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionDataExtensions)
 namespace GlobalNamespace {
-struct __MissionObjective__ReferenceValueComparisonType;
+struct MissionObjective_ReferenceValueComparisonType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,16 +15,15 @@ class MissionDataExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionDataExtensions);
-// Type: ::MissionDataExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionDataExtensions*
+// CS Name: MissionDataExtensions
 class CORDL_TYPE MissionDataExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Name, addr 0x269f6ec, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW Name(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType comparisonType);
+  /// @brief Method Name, addr 0x26d4420, size 0x94, virtual false, abstract: false, final false
+  static inline ::StringW Name(::GlobalNamespace::MissionObjective_ReferenceValueComparisonType comparisonType);
 
 protected:
   // Ctor Parameters []
@@ -41,7 +40,7 @@ public:
   MissionDataExtensions(MissionDataExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

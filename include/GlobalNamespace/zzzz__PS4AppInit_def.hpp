@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/Init/zzzz__BSAppInit_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -22,22 +23,16 @@ namespace GlobalNamespace {
 class PS4ActivePublisherSKUSettingsSO;
 }
 namespace GlobalNamespace {
+struct PS4AppInit__PreloadAsync_d__7;
+}
+namespace GlobalNamespace {
 class SettingsApplicatorSO;
 }
 namespace GlobalNamespace {
 class SonyOnGoingToBackgroundSaveHandler;
 }
-namespace GlobalNamespace {
-struct __PS4AppInit___PreloadAsync_d__7;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -47,26 +42,25 @@ namespace GlobalNamespace {
 class PS4AppInit;
 }
 namespace GlobalNamespace {
-struct __PS4AppInit___PreloadAsync_d__7;
+struct PS4AppInit__PreloadAsync_d__7;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PS4AppInit);
-MARK_VAL_T(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7);
-// Type: ::<PreloadAsync>d__7
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7);
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::PS4AppInit::<PreloadAsync>d__7
-struct CORDL_TYPE __PS4AppInit___PreloadAsync_d__7 {
+// CS Name: PS4AppInit/<PreloadAsync>d__7
+struct CORDL_TYPE PS4AppInit__PreloadAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e6520, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2718b48, size 0x1ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e670c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2718d34, size 0x68, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -74,13 +68,19 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PS4AppInit___PreloadAsync_d__7();
+  constexpr PS4AppInit__PreloadAsync_d__7();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PS4AppInit>", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __PS4AppInit___PreloadAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PS4AppInit> __4__this,
-                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+  constexpr PS4AppInit__PreloadAsync_d__7(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PS4AppInit> __4__this,
+                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17795 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -94,35 +94,28 @@ public:
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17880 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, __u__1) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, __u__1) == 0x28, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::PS4AppInit
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Init.BSAppInit
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PS4AppInit*
+// CS Name: PS4AppInit
 class CORDL_TYPE PS4AppInit : public ::BeatSaber::Init::BSAppInit {
 public:
   // Declarations
-  using _PreloadAsync_d__7 = ::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7;
+  using _PreloadAsync_d__7 = ::GlobalNamespace::PS4AppInit__PreloadAsync_d__7;
 
   /// @brief Field _activePublisherSKUSettingsSO, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__activePublisherSKUSettingsSO, put = __cordl_internal_set__activePublisherSKUSettingsSO)) ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO>
@@ -149,24 +142,24 @@ public:
                       put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler)) ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>
       _sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26e60dc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2718700, size 0x68, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InitializeModules, addr 0x26e5fb4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InitializeModules, addr 0x27185d8, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
 
-  /// @brief Method InstallBindings, addr 0x26e62ac, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x27188d4, size 0x214, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::PS4AppInit* New_ctor();
 
-  /// @brief Method PreloadAsync, addr 0x26e601c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method PreloadAsync, addr 0x2718640, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* PreloadAsync();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x26e6144, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2718768, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x26e61e4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x2718808, size 0xcc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> const& __cordl_internal_get__activePublisherSKUSettingsSO() const;
@@ -205,10 +198,10 @@ public:
 
   constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
-  /// @brief Method <>n__0, addr 0x26e6518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x2718b40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0();
 
-  /// @brief Method .ctor, addr 0x26e64c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2718ae8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -224,6 +217,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PS4AppInit", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PS4AppInit(PS4AppInit const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17796 };
 
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
@@ -243,14 +239,9 @@ public:
   /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> ____sonyOnGoingToBackgroundSaveHandler;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17881 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4AppInit, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____mainSystemInit) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____settingsApplicator) == 0x70, "Offset mismatch!");
@@ -263,7 +254,9 @@ static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____activePublisherSKUSett
 
 static_assert(offsetof(::GlobalNamespace::PS4AppInit, ____sonyOnGoingToBackgroundSaveHandler) == 0x90, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PS4AppInit, 0x98>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PS4AppInit);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4AppInit*, "", "PS4AppInit");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PS4AppInit___PreloadAsync_d__7, "", "PS4AppInit/<PreloadAsync>d__7");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4AppInit__PreloadAsync_d__7, "", "PS4AppInit/<PreloadAsync>d__7");

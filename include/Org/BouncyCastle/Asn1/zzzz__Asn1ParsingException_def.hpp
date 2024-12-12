@@ -15,11 +15,10 @@ class Asn1ParsingException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1ParsingException);
-// Type: Org.BouncyCastle.Asn1::Asn1ParsingException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.InvalidOperationException
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1ParsingException*
+// CS Name: Org.BouncyCastle.Asn1.Asn1ParsingException
 class CORDL_TYPE Asn1ParsingException : public ::System::InvalidOperationException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25f9e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262d140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25f9e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262d148, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25f9e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262d150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

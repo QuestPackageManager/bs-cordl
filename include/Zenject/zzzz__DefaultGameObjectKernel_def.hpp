@@ -14,20 +14,19 @@ class DefaultGameObjectKernel;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::DefaultGameObjectKernel);
-// Type: Zenject::DefaultGameObjectKernel
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoKernel
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::DefaultGameObjectKernel*
+// CS Name: Zenject.DefaultGameObjectKernel
 class CORDL_TYPE DefaultGameObjectKernel : public ::Zenject::MonoKernel {
 public:
   // Declarations
   static inline ::Zenject::DefaultGameObjectKernel* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4ae3754, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b48064, size 0x16c, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4ae3744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b48054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   DefaultGameObjectKernel(DefaultGameObjectKernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12625 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

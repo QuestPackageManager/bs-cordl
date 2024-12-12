@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AddressablesConstants)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -11,11 +12,10 @@ class AddressablesConstants;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AddressablesConstants);
-// Type: ::AddressablesConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AddressablesConstants*
+// CS Name: AddressablesConstants
 class CORDL_TYPE AddressablesConstants : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +34,7 @@ public:
   AddressablesConstants(AddressablesConstants const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19183 };
 
   /// @brief Field kAllBeatmapCharacteristicsCollectionKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kAllBeatmapCharacteristicsCollectionKey{ u"AllBeatmapCharacteristicsCollection" };

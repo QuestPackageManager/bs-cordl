@@ -3,15 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace System {
 class Object;
 }
@@ -24,13 +20,12 @@ template <typename T> struct ReadOnlyMemory_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ReadOnlyMemory_1);
-// Type: System::ReadOnlyMemory`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>
 namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::System::ReadOnlyMemory`1<T>
+// CS Name: System.ReadOnlyMemory`1<T>
 struct CORDL_TYPE ReadOnlyMemory_1 {
 public:
   // Declarations
@@ -57,7 +52,7 @@ public:
   inline int32_t GetHashCode();
 
   /// @brief Method GetObjectStartLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Object* GetObjectStartLength(ByRef<int32_t> start, ByRef<int32_t> length);
+  inline ::System::Object* GetObjectStartLength(::ByRef<int32_t> start, ::ByRef<int32_t> length);
 
   /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlyMemory_1<T> Slice(int32_t start);
@@ -91,6 +86,12 @@ public:
   // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ReadOnlyMemory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2462 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field _object, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _object;
 
@@ -99,12 +100,6 @@ public:
 
   /// @brief Field _length, offset: 0xc, size: 0x4, def value: None
   int32_t _length;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2462 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

@@ -13,8 +13,7 @@ constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& System::Thread
   return this->___m_antecedent;
 }
 template <typename TAntecedentResult>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const&
-System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::__cordl_internal_get_m_antecedent() const {
+constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>* const& System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::__cordl_internal_get_m_antecedent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_antecedent;
 }
@@ -22,13 +21,6 @@ template <typename TAntecedentResult>
 constexpr void System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::__cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_antecedent, value);
-}
-template <typename TAntecedentResult>
-inline ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>*
-System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
-                                                                                        ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                                        ::System::Threading::Tasks::InternalTaskOptions internalOptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>*>(antecedent, action, state, creationOptions, internalOptions));
 }
 template <typename TAntecedentResult>
 inline void System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
@@ -49,6 +41,13 @@ template <typename TAntecedentResult> inline void System::Threading::Tasks::Cont
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TAntecedentResult>
+inline ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>*
+System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
+                                                                                        ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                                                        ::System::Threading::Tasks::InternalTaskOptions internalOptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>*>(antecedent, action, state, creationOptions, internalOptions));
 }
 // Ctor Parameters []
 template <typename TAntecedentResult> constexpr ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>::ContinuationTaskFromResultTask_1() {}

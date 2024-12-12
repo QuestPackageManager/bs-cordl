@@ -14,24 +14,23 @@ class TMP_Math;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_Math);
-// Type: TMPro::TMP_Math
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_Math*
+// CS Name: TMPro.TMP_Math
 class CORDL_TYPE TMP_Math : public ::System::Object {
 public:
   // Declarations
   /// @brief Field MAX_16BIT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MAX_16BIT, put = setStaticF_MAX_16BIT)) ::UnityEngine::Vector2 MAX_16BIT;
+  __declspec(property(get = getStaticF_MAX_16BIT, put = setStaticF_MAX_16BIT)) ::UnityEngine::Vector2 MAX_16BIT;
 
   /// @brief Field MIN_16BIT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MIN_16BIT, put = setStaticF_MIN_16BIT)) ::UnityEngine::Vector2 MIN_16BIT;
+  __declspec(property(get = getStaticF_MIN_16BIT, put = setStaticF_MIN_16BIT)) ::UnityEngine::Vector2 MIN_16BIT;
 
-  /// @brief Method Approximately, addr 0x4762a24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x47c3d38, size 0x30, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x4762a54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x47c3d68, size 0x14, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t a, int32_t b);
 
   static inline ::UnityEngine::Vector2 getStaticF_MAX_16BIT();
@@ -57,19 +56,19 @@ public:
   TMP_Math(TMP_Math const&) = delete;
 
   /// @brief Field FLOAT_MAX offset 0xffffffff size 0x4
-  static constexpr float_t FLOAT_MAX{ 32767.0 };
+  static constexpr float_t FLOAT_MAX{ static_cast<float_t>(32767.0f) };
 
   /// @brief Field FLOAT_MIN offset 0xffffffff size 0x4
-  static constexpr float_t FLOAT_MIN{ -32767.0 };
+  static constexpr float_t FLOAT_MIN{ static_cast<float_t>(-32767.0f) };
 
   /// @brief Field FLOAT_UNSET offset 0xffffffff size 0x4
-  static constexpr float_t FLOAT_UNSET{ -32767.0 };
+  static constexpr float_t FLOAT_UNSET{ static_cast<float_t>(-32767.0f) };
 
   /// @brief Field INT_UNSET offset 0xffffffff size 0x4
   static constexpr int32_t INT_UNSET{ static_cast<int32_t>(0xffff8001) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };
 
   /// @brief Field INT_MAX offset 0xffffffff size 0x4
   static constexpr int32_t _cordl_INT_MAX{ static_cast<int32_t>(0x7fffffff) };

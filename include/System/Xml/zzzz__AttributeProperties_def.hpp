@@ -12,11 +12,10 @@ struct AttributeProperties;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::AttributeProperties);
-// Type: System.Xml::AttributeProperties
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml {
 // Is value type: true
-// CS Name: ::System.Xml::AttributeProperties
+// CS Name: System.Xml.AttributeProperties
 struct CORDL_TYPE AttributeProperties {
 public:
   // Declarations
@@ -47,33 +46,33 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr AttributeProperties(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field BOOLEAN value: static_cast<uint32_t>(0x2000402u)
+  /// @brief Field BOOLEAN value: U32(33555458)
   static ::System::Xml::AttributeProperties const BOOLEAN;
 
-  /// @brief Field DEFAULT value: static_cast<uint32_t>(0x4020100u)
+  /// @brief Field DEFAULT value: U32(67240192)
   static ::System::Xml::AttributeProperties const DEFAULT;
 
-  /// @brief Field NAME value: static_cast<uint32_t>(0x4020004u)
+  /// @brief Field NAME value: U32(67239940)
   static ::System::Xml::AttributeProperties const NAME;
 
-  /// @brief Field URI value: static_cast<uint32_t>(0x40201u)
+  /// @brief Field URI value: U32(262657)
   static ::System::Xml::AttributeProperties const URI;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7198 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::AttributeProperties, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::AttributeProperties, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::AttributeProperties, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::AttributeProperties, "System.Xml", "AttributeProperties");

@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(XmlSerializationFixupCallback)
 namespace System {
 struct IntPtr;
@@ -18,20 +17,19 @@ class XmlSerializationFixupCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlSerializationFixupCallback);
-// Type: System.Xml.Serialization::XmlSerializationFixupCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlSerializationFixupCallback*
+// CS Name: System.Xml.Serialization.XmlSerializationFixupCallback
 class CORDL_TYPE XmlSerializationFixupCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x431751c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4378830, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* fixup);
 
   static inline ::System::Xml::Serialization::XmlSerializationFixupCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x431741c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4378730, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -49,7 +47,7 @@ public:
   XmlSerializationFixupCallback(XmlSerializationFixupCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

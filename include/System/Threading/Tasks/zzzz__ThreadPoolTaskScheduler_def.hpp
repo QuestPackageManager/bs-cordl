@@ -10,7 +10,7 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-class __ThreadPoolTaskScheduler____c;
+class ThreadPoolTaskScheduler___c;
 }
 namespace System::Threading {
 class ParameterizedThreadStart;
@@ -23,47 +23,46 @@ namespace System::Threading::Tasks {
 class ThreadPoolTaskScheduler;
 }
 namespace System::Threading::Tasks {
-class __ThreadPoolTaskScheduler____c;
+class ThreadPoolTaskScheduler___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::ThreadPoolTaskScheduler);
-MARK_REF_PTR_T(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Threading::Tasks::ThreadPoolTaskScheduler___c);
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::ThreadPoolTaskScheduler::<>c*
-class CORDL_TYPE __ThreadPoolTaskScheduler____c : public ::System::Object {
+// CS Name: System.Threading.Tasks.ThreadPoolTaskScheduler/<>c
+class CORDL_TYPE ThreadPoolTaskScheduler___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Threading::Tasks::ThreadPoolTaskScheduler___c* __9;
 
-  static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* New_ctor();
+  static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler___c* New_ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x3e0a79c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x3e6a848, size 0x84, virtual false, abstract: false, final false
   inline void __cctor_b__10_0(::System::Object* s);
 
-  /// @brief Method .ctor, addr 0x3e0a794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6a840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* getStaticF___9();
+  static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler___c* getStaticF___9();
 
-  static inline void setStaticF___9(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c* value);
+  static inline void setStaticF___9(::System::Threading::Tasks::ThreadPoolTaskScheduler___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ThreadPoolTaskScheduler____c();
+  constexpr ThreadPoolTaskScheduler___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ThreadPoolTaskScheduler____c(__ThreadPoolTaskScheduler____c&&) = delete;
+  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ThreadPoolTaskScheduler____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolTaskScheduler___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ThreadPoolTaskScheduler____c(__ThreadPoolTaskScheduler____c const&) = delete;
+  ThreadPoolTaskScheduler___c(ThreadPoolTaskScheduler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2817 };
@@ -71,44 +70,43 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__ThreadPoolTaskScheduler____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::ThreadPoolTaskScheduler___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
-// Type: System.Threading.Tasks::ThreadPoolTaskScheduler
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.Tasks.TaskScheduler
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::ThreadPoolTaskScheduler*
+// CS Name: System.Threading.Tasks.ThreadPoolTaskScheduler
 class CORDL_TYPE ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler {
 public:
   // Declarations
-  using __c = ::System::Threading::Tasks::__ThreadPoolTaskScheduler____c;
+  using __c = ::System::Threading::Tasks::ThreadPoolTaskScheduler___c;
 
   __declspec(property(get = get_RequiresAtomicStartTransition)) bool RequiresAtomicStartTransition;
 
   /// @brief Field s_longRunningThreadWork, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_longRunningThreadWork, put = setStaticF_s_longRunningThreadWork)) ::System::Threading::ParameterizedThreadStart* s_longRunningThreadWork;
+  __declspec(property(get = getStaticF_s_longRunningThreadWork, put = setStaticF_s_longRunningThreadWork)) ::System::Threading::ParameterizedThreadStart* s_longRunningThreadWork;
 
   static inline ::System::Threading::Tasks::ThreadPoolTaskScheduler* New_ctor();
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x3e0a65c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x3e6a708, size 0x10, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method QueueTask, addr 0x3e0a3ac, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method QueueTask, addr 0x3e6a458, size 0x1c8, virtual true, abstract: false, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryDequeue, addr 0x3e0a654, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x3e6a700, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryExecuteTaskInline, addr 0x3e0a574, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method TryExecuteTaskInline, addr 0x3e6a620, size 0xe0, virtual true, abstract: false, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method .ctor, addr 0x3e0a354, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e6a400, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ParameterizedThreadStart* getStaticF_s_longRunningThreadWork();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x3e0a66c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x3e6a718, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline void setStaticF_s_longRunningThreadWork(::System::Threading::ParameterizedThreadStart* value);
@@ -138,5 +136,5 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::Thread
 } // namespace System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::ThreadPoolTaskScheduler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
-NEED_NO_BOX(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::__ThreadPoolTaskScheduler____c*, "System.Threading.Tasks", "ThreadPoolTaskScheduler/<>c");
+NEED_NO_BOX(::System::Threading::Tasks::ThreadPoolTaskScheduler___c);
+DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::ThreadPoolTaskScheduler___c*, "System.Threading.Tasks", "ThreadPoolTaskScheduler/<>c");

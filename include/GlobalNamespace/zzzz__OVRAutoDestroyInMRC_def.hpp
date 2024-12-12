@@ -11,23 +11,22 @@ class OVRAutoDestroyInMRC;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRAutoDestroyInMRC);
-// Type: ::OVRAutoDestroyInMRC
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRAutoDestroyInMRC*
+// CS Name: OVRAutoDestroyInMRC
 class CORDL_TYPE OVRAutoDestroyInMRC : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::OVRAutoDestroyInMRC* New_ctor();
 
-  /// @brief Method Start, addr 0x3fc8370, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x402841c, size 0x118, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fc8488, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4028534, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method .ctor, addr 0x3fc848c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4028538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   OVRAutoDestroyInMRC(OVRAutoDestroyInMRC const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

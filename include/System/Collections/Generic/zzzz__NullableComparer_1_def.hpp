@@ -19,13 +19,12 @@ template <typename T> class NullableComparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::NullableComparer_1);
-// Type: System.Collections.Generic::NullableComparer`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.Comparer`1<T>, System.Nullable`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Collections.Generic::NullableComparer`1<T>*
+// CS Name: System.Collections.Generic.NullableComparer`1<T>
 class CORDL_TYPE NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>> {
 public:
   // Declarations

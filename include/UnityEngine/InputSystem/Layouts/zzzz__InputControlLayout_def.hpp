@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_def.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceMatcher_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
@@ -15,37 +19,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControlLayout)
-namespace GlobalNamespace {
-struct __InputControlLayout__Builder__ControlBuilder;
-}
-namespace GlobalNamespace {
-class __InputControlLayout__Builder__ControlBuilder____c;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Collection__LayoutMatcher;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Collection__PrecompiledLayout;
-}
-namespace GlobalNamespace {
-class __InputControlLayout__Collection___GetBaseLayouts_d__24;
-}
-namespace GlobalNamespace {
-class __InputControlLayout__ControlItemJson____c;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__ControlItem__Flags;
-}
-namespace GlobalNamespace {
-class __InputControlLayout__LayoutJson____c;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -60,9 +38,6 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -86,9 +61,6 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
@@ -98,7 +70,61 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem::Layouts {
+struct Builder_InputControlLayout_ControlBuilder;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct Collection_InputControlLayout_LayoutMatcher;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct Collection_InputControlLayout_PrecompiledLayout;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class Collection_InputControlLayout__GetBaseLayouts_d__24;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class ControlBuilder_Builder_InputControlLayout___c;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class ControlItemJson_InputControlLayout___c;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct ControlItem_InputControlLayout_Flags;
+}
+namespace UnityEngine::InputSystem::Layouts {
 class InputControlAttribute;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout_Builder;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_Cache;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_Collection;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout_ControlItemJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_ControlItem;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_Flags;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_LayoutJsonNameAndDescriptorOnly;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_LayoutJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout_LayoutNotFoundException;
+}
+namespace UnityEngine::InputSystem::Layouts {
+class InputControlLayout___c;
 }
 namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceDescription;
@@ -107,40 +133,7 @@ namespace UnityEngine::InputSystem::Layouts {
 struct InputDeviceMatcher;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__Builder;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__CacheRefInstance;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Cache;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Collection;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__ControlItemJson;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__ControlItem;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Flags;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJsonNameAndDescriptorOnly;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJson;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__LayoutNotFoundException;
-}
-namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout____c;
-}
-namespace UnityEngine::InputSystem::Layouts {
-struct __InputDeviceMatcher__MatcherJson;
+class LayoutJson_InputControlLayout___c;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -170,99 +163,98 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-struct __InputControlLayout__ControlItem__Flags;
+namespace UnityEngine::InputSystem::Layouts {
+struct ControlItem_InputControlLayout_Flags;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Flags;
+struct InputControlLayout_Flags;
 }
-namespace GlobalNamespace {
-class __InputControlLayout__Builder__ControlBuilder____c;
+namespace UnityEngine::InputSystem::Layouts {
+class Collection_InputControlLayout__GetBaseLayouts_d__24;
 }
-namespace GlobalNamespace {
-class __InputControlLayout__Collection___GetBaseLayouts_d__24;
+namespace UnityEngine::InputSystem::Layouts {
+class ControlBuilder_Builder_InputControlLayout___c;
 }
-namespace GlobalNamespace {
-class __InputControlLayout__ControlItemJson____c;
-}
-namespace GlobalNamespace {
-class __InputControlLayout__LayoutJson____c;
+namespace UnityEngine::InputSystem::Layouts {
+class ControlItemJson_InputControlLayout___c;
 }
 namespace UnityEngine::InputSystem::Layouts {
 class InputControlLayout;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__Builder;
+class InputControlLayout_Builder;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__ControlItemJson;
+class InputControlLayout_ControlItemJson;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout__LayoutNotFoundException;
+class InputControlLayout_LayoutNotFoundException;
 }
 namespace UnityEngine::InputSystem::Layouts {
-class __InputControlLayout____c;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Builder__ControlBuilder;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Collection__LayoutMatcher;
-}
-namespace GlobalNamespace {
-struct __InputControlLayout__Collection__PrecompiledLayout;
+class InputControlLayout___c;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Cache;
+class LayoutJson_InputControlLayout___c;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__CacheRefInstance;
+struct Builder_InputControlLayout_ControlBuilder;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__Collection;
+struct Collection_InputControlLayout_LayoutMatcher;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__ControlItem;
+struct Collection_InputControlLayout_PrecompiledLayout;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJson;
+struct InputControlLayout_Cache;
 }
 namespace UnityEngine::InputSystem::Layouts {
-struct __InputControlLayout__LayoutJsonNameAndDescriptorOnly;
+struct InputControlLayout_CacheRefInstance;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_Collection;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_ControlItem;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_LayoutJson;
+}
+namespace UnityEngine::InputSystem::Layouts {
+struct InputControlLayout_LayoutJsonNameAndDescriptorOnly;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__InputControlLayout__ControlItem__Flags);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags);
-MARK_REF_PTR_T(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c);
-MARK_REF_PTR_T(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24);
-MARK_REF_PTR_T(::GlobalNamespace::__InputControlLayout__ControlItemJson____c);
-MARK_REF_PTR_T(::GlobalNamespace::__InputControlLayout__LayoutJson____c);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayout);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout____c);
-MARK_VAL_T(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder);
-MARK_VAL_T(::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher);
-MARK_VAL_T(::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson);
-MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly);
-// Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputControlLayout___c);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson);
+MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly);
+// Dependencies
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::ControlItem::Flags
-struct CORDL_TYPE __InputControlLayout__ControlItem__Flags {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem/Flags
+struct CORDL_TYPE ControlItem_InputControlLayout_Flags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputControlLayout__ControlItem__Flags_Unwrapped
-  enum struct ____InputControlLayout__ControlItem__Flags_Unwrapped : int32_t {
+  /// @brief Nested struct __ControlItem_InputControlLayout_Flags_Unwrapped
+  enum struct __ControlItem_InputControlLayout_Flags_Unwrapped : int32_t {
     __E_isModifyingExistingControl = static_cast<int32_t>(0x1),
     __E_IsNoisy = static_cast<int32_t>(0x2),
     __E_IsSynthetic = static_cast<int32_t>(0x4),
@@ -271,8 +263,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputControlLayout__ControlItem__Flags_Unwrapped() const noexcept {
-    return static_cast<____InputControlLayout__ControlItem__Flags_Unwrapped>(this->value__);
+  constexpr operator __ControlItem_InputControlLayout_Flags_Unwrapped() const noexcept {
+    return static_cast<__ControlItem_InputControlLayout_Flags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -282,52 +274,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__ControlItem__Flags();
+  constexpr ControlItem_InputControlLayout_Flags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__ControlItem__Flags(int32_t value__) noexcept;
+  constexpr ControlItem_InputControlLayout_Flags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field DontReset value: I32(16)
+  static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const DontReset;
 
-  /// @brief Field DontReset value: static_cast<int32_t>(0x10)
-  static ::GlobalNamespace::__InputControlLayout__ControlItem__Flags const DontReset;
+  /// @brief Field IsFirstDefinedInThisLayout value: I32(8)
+  static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const IsFirstDefinedInThisLayout;
 
-  /// @brief Field IsFirstDefinedInThisLayout value: static_cast<int32_t>(0x8)
-  static ::GlobalNamespace::__InputControlLayout__ControlItem__Flags const IsFirstDefinedInThisLayout;
+  /// @brief Field IsNoisy value: I32(2)
+  static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const IsNoisy;
 
-  /// @brief Field IsNoisy value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__InputControlLayout__ControlItem__Flags const IsNoisy;
-
-  /// @brief Field IsSynthetic value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__InputControlLayout__ControlItem__Flags const IsSynthetic;
+  /// @brief Field IsSynthetic value: I32(4)
+  static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const IsSynthetic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7001 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field isModifyingExistingControl value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__InputControlLayout__ControlItem__Flags const isModifyingExistingControl;
+  /// @brief Field isModifyingExistingControl value: I32(1)
+  static ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags const isModifyingExistingControl;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__ControlItem__Flags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__ControlItem__Flags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags, 0x4>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::ControlItem
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies UnityEngine.InputSystem.Layouts.InputControlLayout::ControlItem::Flags, UnityEngine.InputSystem.Utilities.FourCC, UnityEngine.InputSystem.Utilities.InternedString,
+// UnityEngine.InputSystem.Utilities.NameAndParameters, UnityEngine.InputSystem.Utilities.NamedValue, UnityEngine.InputSystem.Utilities.PrimitiveValue,
+// UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<TValue>
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::ControlItem
-struct CORDL_TYPE __InputControlLayout__ControlItem {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItem
+struct CORDL_TYPE InputControlLayout_ControlItem {
 public:
   // Declarations
-  using Flags = ::GlobalNamespace::__InputControlLayout__ControlItem__Flags;
+  using Flags = ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags;
 
   __declspec(property(get = get_aliases, put = set_aliases)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> aliases;
 
@@ -341,7 +334,7 @@ public:
 
   __declspec(property(get = get_dontReset, put = set_dontReset)) bool dontReset;
 
-  __declspec(property(get = get_flags, put = set_flags)) ::GlobalNamespace::__InputControlLayout__ControlItem__Flags flags;
+  __declspec(property(get = get_flags, put = set_flags)) ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags flags;
 
   __declspec(property(get = get_format, put = set_format)) ::UnityEngine::InputSystem::Utilities::FourCC format;
 
@@ -379,159 +372,159 @@ public:
 
   __declspec(property(get = get_variants, put = set_variants)) ::UnityEngine::InputSystem::Utilities::InternedString variants;
 
-  /// @brief Method Merge, addr 0x45bbae8, size 0x39c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem Merge(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem other);
+  /// @brief Method Merge, addr 0x461cdfc, size 0x39c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem Merge(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem other);
 
-  /// @brief Method get_aliases, addr 0x45bc3c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x461d6d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_aliases();
 
-  /// @brief Method get_arraySize, addr 0x45bc450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_arraySize, addr 0x461d764, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_arraySize();
 
-  /// @brief Method get_bit, addr 0x45bc410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bit, addr 0x461d724, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_bit();
 
-  /// @brief Method get_defaultState, addr 0x45bc460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_defaultState, addr 0x461d774, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_defaultState();
 
-  /// @brief Method get_displayName, addr 0x45bc390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x461d6a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_dontReset, addr 0x45bc4c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x461d7d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method get_flags, addr 0x45bc440, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__ControlItem__Flags get_flags();
+  /// @brief Method get_flags, addr 0x461d754, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags get_flags();
 
-  /// @brief Method get_format, addr 0x45bc430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_format, addr 0x461d744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_isArray, addr 0x45b7bf4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isArray, addr 0x4618f08, size 0x10, virtual false, abstract: false, final false
   inline bool get_isArray();
 
-  /// @brief Method get_isFirstDefinedInThisLayout, addr 0x45bc4cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isFirstDefinedInThisLayout, addr 0x461d7e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isFirstDefinedInThisLayout();
 
-  /// @brief Method get_isModifyingExistingControl, addr 0x45bc49c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isModifyingExistingControl, addr 0x461d7b0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isModifyingExistingControl();
 
-  /// @brief Method get_isNoisy, addr 0x45bc4a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x461d7bc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method get_isSynthetic, addr 0x45bc4b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isSynthetic, addr 0x461d7c8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isSynthetic();
 
-  /// @brief Method get_layout, addr 0x45bc358, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x461d66c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_layout();
 
-  /// @brief Method get_maxValue, addr 0x45bc488, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_maxValue, addr 0x461d79c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_maxValue();
 
-  /// @brief Method get_minValue, addr 0x45bc474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_minValue, addr 0x461d788, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue get_minValue();
 
-  /// @brief Method get_name, addr 0x45bc344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x461d658, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_name();
 
-  /// @brief Method get_offset, addr 0x45bc400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offset, addr 0x461d714, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_offset();
 
-  /// @brief Method get_parameters, addr 0x45bc3d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_parameters, addr 0x461d6ec, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> get_parameters();
 
-  /// @brief Method get_processors, addr 0x45bc3ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processors, addr 0x461d700, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> get_processors();
 
-  /// @brief Method get_shortDisplayName, addr 0x45bc3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x461d6b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method get_sizeInBits, addr 0x45bc420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sizeInBits, addr 0x461d734, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_sizeInBits();
 
-  /// @brief Method get_usages, addr 0x45bc3b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x461d6c4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_usages();
 
-  /// @brief Method get_useStateFrom, addr 0x45bc380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useStateFrom, addr 0x461d694, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_useStateFrom();
 
-  /// @brief Method get_variants, addr 0x45bc36c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x461d680, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_variants();
 
-  /// @brief Method set_aliases, addr 0x45bc3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_aliases, addr 0x461d6e4, size 0x8, virtual false, abstract: false, final false
   inline void set_aliases(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  /// @brief Method set_arraySize, addr 0x45bc458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_arraySize, addr 0x461d76c, size 0x8, virtual false, abstract: false, final false
   inline void set_arraySize(int32_t value);
 
-  /// @brief Method set_bit, addr 0x45bc418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bit, addr 0x461d72c, size 0x8, virtual false, abstract: false, final false
   inline void set_bit(uint32_t value);
 
-  /// @brief Method set_defaultState, addr 0x45bc46c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultState, addr 0x461d780, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_displayName, addr 0x45bc398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x461d6ac, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_dontReset, addr 0x45ba22c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x461b540, size 0x20, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method set_flags, addr 0x45bc448, size 0x8, virtual false, abstract: false, final false
-  inline void set_flags(::GlobalNamespace::__InputControlLayout__ControlItem__Flags value);
+  /// @brief Method set_flags, addr 0x461d75c, size 0x8, virtual false, abstract: false, final false
+  inline void set_flags(::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags value);
 
-  /// @brief Method set_format, addr 0x45bc438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_format, addr 0x461d74c, size 0x8, virtual false, abstract: false, final false
   inline void set_format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_isFirstDefinedInThisLayout, addr 0x45ba1ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isFirstDefinedInThisLayout, addr 0x461b500, size 0x20, virtual false, abstract: false, final false
   inline void set_isFirstDefinedInThisLayout(bool value);
 
-  /// @brief Method set_isModifyingExistingControl, addr 0x45ba1dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isModifyingExistingControl, addr 0x461b4f0, size 0x10, virtual false, abstract: false, final false
   inline void set_isModifyingExistingControl(bool value);
 
-  /// @brief Method set_isNoisy, addr 0x45ba20c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x461b520, size 0x20, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method set_isSynthetic, addr 0x45ba24c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isSynthetic, addr 0x461b560, size 0x20, virtual false, abstract: false, final false
   inline void set_isSynthetic(bool value);
 
-  /// @brief Method set_layout, addr 0x45bc364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x461d678, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method set_maxValue, addr 0x45bc494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxValue, addr 0x461d7a8, size 0x8, virtual false, abstract: false, final false
   inline void set_maxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_minValue, addr 0x45bc480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minValue, addr 0x461d794, size 0x8, virtual false, abstract: false, final false
   inline void set_minValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method set_name, addr 0x45bc350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x461d664, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method set_offset, addr 0x45bc408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offset, addr 0x461d71c, size 0x8, virtual false, abstract: false, final false
   inline void set_offset(uint32_t value);
 
-  /// @brief Method set_parameters, addr 0x45bc3e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parameters, addr 0x461d6f8, size 0x8, virtual false, abstract: false, final false
   inline void set_parameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> value);
 
-  /// @brief Method set_processors, addr 0x45bc3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processors, addr 0x461d70c, size 0x8, virtual false, abstract: false, final false
   inline void set_processors(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> value);
 
-  /// @brief Method set_shortDisplayName, addr 0x45bc3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x461d6bc, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method set_sizeInBits, addr 0x45bc428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sizeInBits, addr 0x461d73c, size 0x8, virtual false, abstract: false, final false
   inline void set_sizeInBits(uint32_t value);
 
-  /// @brief Method set_usages, addr 0x45bc3bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_usages, addr 0x461d6d0, size 0x8, virtual false, abstract: false, final false
   inline void set_usages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  /// @brief Method set_useStateFrom, addr 0x45bc388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_useStateFrom, addr 0x461d69c, size 0x8, virtual false, abstract: false, final false
   inline void set_useStateFrom(::StringW value);
 
-  /// @brief Method set_variants, addr 0x45bc378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variants, addr 0x461d68c, size 0x8, virtual false, abstract: false, final false
   inline void set_variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__ControlItem();
+  constexpr InputControlLayout_ControlItem();
 
   // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::InternedString", modifiers: "", def_value: None }, CppParam { name:
   // "_layout_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::InternedString", modifiers: "", def_value: None }, CppParam { name: "_variants_k__BackingField", ty:
@@ -543,24 +536,30 @@ public:
   // def_value: None }, CppParam { name: "_processors_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>",
   // modifiers: "", def_value: None }, CppParam { name: "_offset_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_bit_k__BackingField", ty: "uint32_t", modifiers:
   // "", def_value: None }, CppParam { name: "_sizeInBits_k__BackingField", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "_format_k__BackingField", ty:
-  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "_flags_k__BackingField", ty: "::GlobalNamespace::__InputControlLayout__ControlItem__Flags",
-  // modifiers: "", def_value: None }, CppParam { name: "_arraySize_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_defaultState_k__BackingField", ty:
-  // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }, CppParam { name: "_minValue_k__BackingField", ty:
-  // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }, CppParam { name: "_maxValue_k__BackingField", ty:
+  // "::UnityEngine::InputSystem::Utilities::FourCC", modifiers: "", def_value: None }, CppParam { name: "_flags_k__BackingField", ty:
+  // "::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags", modifiers: "", def_value: None }, CppParam { name: "_arraySize_k__BackingField", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "_defaultState_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }, CppParam { name:
+  // "_minValue_k__BackingField", ty: "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }, CppParam { name: "_maxValue_k__BackingField", ty:
   // "::UnityEngine::InputSystem::Utilities::PrimitiveValue", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__ControlItem(::UnityEngine::InputSystem::Utilities::InternedString _name_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::InternedString _layout_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::InternedString _variants_k__BackingField, ::StringW _useStateFrom_k__BackingField,
-                                              ::StringW _displayName_k__BackingField, ::StringW _shortDisplayName_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> _usages_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> _aliases_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> _processors_k__BackingField,
-                                              uint32_t _offset_k__BackingField, uint32_t _bit_k__BackingField, uint32_t _sizeInBits_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::FourCC _format_k__BackingField, ::GlobalNamespace::__InputControlLayout__ControlItem__Flags _flags_k__BackingField,
-                                              int32_t _arraySize_k__BackingField, ::UnityEngine::InputSystem::Utilities::PrimitiveValue _defaultState_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::PrimitiveValue _minValue_k__BackingField,
-                                              ::UnityEngine::InputSystem::Utilities::PrimitiveValue _maxValue_k__BackingField) noexcept;
+  constexpr InputControlLayout_ControlItem(::UnityEngine::InputSystem::Utilities::InternedString _name_k__BackingField, ::UnityEngine::InputSystem::Utilities::InternedString _layout_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::InternedString _variants_k__BackingField, ::StringW _useStateFrom_k__BackingField,
+                                           ::StringW _displayName_k__BackingField, ::StringW _shortDisplayName_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> _usages_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> _aliases_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> _parameters_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> _processors_k__BackingField,
+                                           uint32_t _offset_k__BackingField, uint32_t _bit_k__BackingField, uint32_t _sizeInBits_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::FourCC _format_k__BackingField,
+                                           ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags _flags_k__BackingField, int32_t _arraySize_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::PrimitiveValue _defaultState_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::PrimitiveValue _minValue_k__BackingField,
+                                           ::UnityEngine::InputSystem::Utilities::PrimitiveValue _maxValue_k__BackingField) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7002 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
 
   /// @brief Field <name>k__BackingField, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::InternedString _name_k__BackingField;
@@ -605,7 +604,7 @@ public:
   ::UnityEngine::InputSystem::Utilities::FourCC _format_k__BackingField;
 
   /// @brief Field <flags>k__BackingField, offset: 0x98, size: 0x4, def value: None
-  ::GlobalNamespace::__InputControlLayout__ControlItem__Flags _flags_k__BackingField;
+  ::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags _flags_k__BackingField;
 
   /// @brief Field <arraySize>k__BackingField, offset: 0x9c, size: 0x4, def value: None
   int32_t _arraySize_k__BackingField;
@@ -619,216 +618,207 @@ public:
   /// @brief Field <maxValue>k__BackingField, offset: 0xc0, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::PrimitiveValue _maxValue_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6977 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, 0xd0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _name_k__BackingField) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _name_k__BackingField) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _layout_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _layout_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _variants_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _variants_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _useStateFrom_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _useStateFrom_k__BackingField) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _displayName_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _displayName_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _shortDisplayName_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _shortDisplayName_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _usages_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _usages_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _aliases_k__BackingField) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _aliases_k__BackingField) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _parameters_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _parameters_k__BackingField) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _processors_k__BackingField) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _processors_k__BackingField) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _offset_k__BackingField) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _offset_k__BackingField) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _bit_k__BackingField) == 0x8c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _bit_k__BackingField) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _sizeInBits_k__BackingField) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _sizeInBits_k__BackingField) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _format_k__BackingField) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _format_k__BackingField) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _flags_k__BackingField) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _flags_k__BackingField) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _arraySize_k__BackingField) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _arraySize_k__BackingField) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _defaultState_k__BackingField) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _defaultState_k__BackingField) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _minValue_k__BackingField) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _minValue_k__BackingField) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, _maxValue_k__BackingField) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, _maxValue_k__BackingField) == 0xc0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, 0xd0>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::Builder::ControlBuilder::<>c*
-class CORDL_TYPE __InputControlLayout__Builder__ControlBuilder____c : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Builder/ControlBuilder/<>c
+class CORDL_TYPE ControlBuilder_Builder_InputControlLayout___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* __9;
 
   /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__14_0;
+  __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__14_0;
 
-  static inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <WithUsages>b__14_0, addr 0x45bd45c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <WithUsages>b__14_0, addr 0x461e770, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _WithUsages_b__14_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x45bd454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461e768, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c* getStaticF___9();
+  static inline ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* getStaticF___9__14_0();
 
-  static inline void setStaticF___9(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c* value);
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c* value);
 
   static inline void setStaticF___9__14_0(::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Builder__ControlBuilder____c();
+  constexpr ControlBuilder_Builder_InputControlLayout___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Builder__ControlBuilder____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlBuilder_Builder_InputControlLayout___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__Builder__ControlBuilder____c(__InputControlLayout__Builder__ControlBuilder____c&&) = delete;
+  ControlBuilder_Builder_InputControlLayout___c(ControlBuilder_Builder_InputControlLayout___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Builder__ControlBuilder____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlBuilder_Builder_InputControlLayout___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__Builder__ControlBuilder____c(__InputControlLayout__Builder__ControlBuilder____c const&) = delete;
+  ControlBuilder_Builder_InputControlLayout___c(ControlBuilder_Builder_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7003 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::ControlBuilder
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Builder::ControlBuilder
-struct CORDL_TYPE __InputControlLayout__Builder__ControlBuilder {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Builder/ControlBuilder
+struct CORDL_TYPE Builder_InputControlLayout_ControlBuilder {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c;
+  using __c = ::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c;
 
-  /// @brief Method AsArrayOfControlsWithSize, addr 0x45bd3b0, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder AsArrayOfControlsWithSize(int32_t arraySize);
+  /// @brief Method AsArrayOfControlsWithSize, addr 0x461e6c4, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder AsArrayOfControlsWithSize(int32_t arraySize);
 
-  /// @brief Method DontReset, addr 0x45bcd3c, size 0x60, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder DontReset(bool value);
+  /// @brief Method DontReset, addr 0x461e050, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder DontReset(bool value);
 
-  /// @brief Method IsNoisy, addr 0x45bccdc, size 0x60, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder IsNoisy(bool value);
+  /// @brief Method IsNoisy, addr 0x461dff0, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder IsNoisy(bool value);
 
-  /// @brief Method IsSynthetic, addr 0x45bcc7c, size 0x60, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder IsSynthetic(bool value);
+  /// @brief Method IsSynthetic, addr 0x461df90, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder IsSynthetic(bool value);
 
-  /// @brief Method UsingStateFrom, addr 0x45bd34c, size 0x64, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder UsingStateFrom(::StringW path);
+  /// @brief Method UsingStateFrom, addr 0x461e660, size 0x64, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder UsingStateFrom(::StringW path);
 
-  /// @brief Method WithBitOffset, addr 0x45bcc34, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithBitOffset(uint32_t bit);
+  /// @brief Method WithBitOffset, addr 0x461df48, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithBitOffset(uint32_t bit);
 
-  /// @brief Method WithByteOffset, addr 0x45bcbec, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithByteOffset(uint32_t offset);
+  /// @brief Method WithByteOffset, addr 0x461df00, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithByteOffset(uint32_t offset);
 
-  /// @brief Method WithDefaultState, addr 0x45bd304, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithDefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+  /// @brief Method WithDefaultState, addr 0x461e618, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithDefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  /// @brief Method WithDisplayName, addr 0x45bca40, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithDisplayName(::StringW displayName);
+  /// @brief Method WithDisplayName, addr 0x461dd54, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithFormat, addr 0x45bcbb8, size 0x34, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithFormat(::StringW format);
+  /// @brief Method WithFormat, addr 0x461decc, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithFormat(::StringW format);
 
-  /// @brief Method WithFormat, addr 0x45bcb70, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
+  /// @brief Method WithFormat, addr 0x461de84, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
-  /// @brief Method WithLayout, addr 0x45bca88, size 0xe8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithLayout(::StringW layout);
+  /// @brief Method WithLayout, addr 0x461dd9c, size 0xe8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithLayout(::StringW layout);
 
-  /// @brief Method WithParameters, addr 0x45bd178, size 0xb8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithParameters(::StringW parameters);
+  /// @brief Method WithParameters, addr 0x461e48c, size 0xb8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithParameters(::StringW parameters);
 
-  /// @brief Method WithProcessors, addr 0x45bd230, size 0xd4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithProcessors(::StringW processors);
+  /// @brief Method WithProcessors, addr 0x461e544, size 0xd4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithProcessors(::StringW processors);
 
-  /// @brief Method WithRange, addr 0x45bcde4, size 0x9c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithRange(float_t minValue, float_t maxValue);
+  /// @brief Method WithRange, addr 0x461e0f8, size 0x9c, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithRange(float_t minValue, float_t maxValue);
 
-  /// @brief Method WithSizeInBits, addr 0x45bcd9c, size 0x48, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithSizeInBits(uint32_t sizeInBits);
+  /// @brief Method WithSizeInBits, addr 0x461e0b0, size 0x48, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithSizeInBits(uint32_t sizeInBits);
 
-  /// @brief Method WithUsages, addr 0x45bd174, size 0x4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithUsages(::ArrayW<::StringW, ::Array<::StringW>*> usages);
+  /// @brief Method WithUsages, addr 0x461e488, size 0x4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithUsages(::ArrayW<::StringW, ::Array<::StringW>*> usages);
 
-  /// @brief Method WithUsages, addr 0x45bce80, size 0x1d0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder
+  /// @brief Method WithUsages, addr 0x461e194, size 0x1d0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder
   WithUsages(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> usages);
 
-  /// @brief Method WithUsages, addr 0x45bd050, size 0x124, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder WithUsages(::System::Collections::Generic::IEnumerable_1<::StringW>* usages);
+  /// @brief Method WithUsages, addr 0x461e364, size 0x124, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder WithUsages(::System::Collections::Generic::IEnumerable_1<::StringW>* usages);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Builder__ControlBuilder();
+  constexpr Builder_InputControlLayout_ControlBuilder();
 
-  // Ctor Parameters [CppParam { name: "builder", ty: "::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder*", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
+  // Ctor Parameters [CppParam { name: "builder", ty: "::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder*", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t",
   // modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__Builder__ControlBuilder(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* builder, int32_t index) noexcept;
-
-  /// @brief Field builder, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* builder;
-
-  /// @brief Field index, offset: 0x8, size: 0x4, def value: None
-  int32_t index;
+  constexpr Builder_InputControlLayout_ControlBuilder(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* builder, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
+  /// @brief Field builder, offset: 0x0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* builder;
+
+  /// @brief Field index, offset: 0x8, size: 0x4, def value: None
+  int32_t index;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder, 0x10>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder, builder) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder, builder) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder, index) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder, index) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::Builder
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies System.Nullable`1<T>, System.Object, UnityEngine.InputSystem.Utilities.FourCC
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::Builder*
-class CORDL_TYPE __InputControlLayout__Builder : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Builder
+class CORDL_TYPE InputControlLayout_Builder : public ::System::Object {
 public:
   // Declarations
-  using ControlBuilder = ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder;
+  using ControlBuilder = ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder;
 
   /// @brief Field <displayName>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField)) ::StringW _displayName_k__BackingField;
@@ -850,7 +840,7 @@ public:
   __declspec(property(get = __cordl_internal_get__updateBeforeRender_k__BackingField, put = __cordl_internal_set__updateBeforeRender_k__BackingField)) ::System::Nullable_1<bool>
       _updateBeforeRender_k__BackingField;
 
-  __declspec(property(get = get_controls)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controls;
+  __declspec(property(get = get_controls)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> controls;
 
   __declspec(property(get = get_displayName, put = set_displayName)) ::StringW displayName;
 
@@ -860,8 +850,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ControlCount, put = __cordl_internal_set_m_ControlCount)) int32_t m_ControlCount;
 
   /// @brief Field m_Controls, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Controls, put = __cordl_internal_set_m_Controls)) ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
-                                                                                                              ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>
+  __declspec(property(
+      get = __cordl_internal_get_m_Controls,
+      put =
+          __cordl_internal_set_m_Controls)) ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*>
       m_Controls;
 
   /// @brief Field m_ExtendsLayout, offset 0x30, size 0x8
@@ -877,34 +869,34 @@ public:
 
   __declspec(property(get = get_updateBeforeRender, put = set_updateBeforeRender)) ::System::Nullable_1<bool> updateBeforeRender;
 
-  /// @brief Method AddControl, addr 0x45bc5dc, size 0x1a4, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder AddControl(::StringW name);
+  /// @brief Method AddControl, addr 0x461d8f0, size 0x1a4, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder AddControl(::StringW name);
 
-  /// @brief Method Build, addr 0x45bc80c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x461db20, size 0x22c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
-  /// @brief Method Extend, addr 0x45bc7d4, size 0x38, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* Extend(::StringW baseLayoutName);
+  /// @brief Method Extend, addr 0x461dae8, size 0x38, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* Extend(::StringW baseLayoutName);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* New_ctor();
 
-  /// @brief Method WithDisplayName, addr 0x45bc788, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithDisplayName(::StringW displayName);
+  /// @brief Method WithDisplayName, addr 0x461da9c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithDisplayName(::StringW displayName);
 
-  /// @brief Method WithFormat, addr 0x45bc798, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithFormat(::StringW format);
+  /// @brief Method WithFormat, addr 0x461daac, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithFormat(::StringW format);
 
-  /// @brief Method WithFormat, addr 0x45bc790, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
+  /// @brief Method WithFormat, addr 0x461daa4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithFormat(::UnityEngine::InputSystem::Utilities::FourCC format);
 
-  /// @brief Method WithName, addr 0x45bc780, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithName(::StringW name);
+  /// @brief Method WithName, addr 0x461da94, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithName(::StringW name);
 
-  /// @brief Method WithSizeInBytes, addr 0x45bc7cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithSizeInBytes(int32_t sizeInBytes);
+  /// @brief Method WithSizeInBytes, addr 0x461dae0, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithSizeInBytes(int32_t sizeInBytes);
 
   /// @brief Method WithType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder* WithType();
+  template <typename T> inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder* WithType();
 
   constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
 
@@ -922,9 +914,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__stateSizeInBytes_k__BackingField();
 
-  constexpr ::System::Type*& __cordl_internal_get__type_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__type_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__type_k__BackingField();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__updateBeforeRender_k__BackingField() const;
 
@@ -934,10 +926,10 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_ControlCount();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> const&
   __cordl_internal_get_m_Controls() const;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*>&
   __cordl_internal_get_m_Controls();
 
   constexpr ::StringW const& __cordl_internal_get_m_ExtendsLayout() const;
@@ -958,72 +950,75 @@ public:
 
   constexpr void __cordl_internal_set_m_ControlCount(int32_t value);
 
-  constexpr void __cordl_internal_set_m_Controls(
-      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
+  constexpr void
+  __cordl_internal_set_m_Controls(::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> value);
 
   constexpr void __cordl_internal_set_m_ExtendsLayout(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45bca38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461dd4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controls, addr 0x45bc574, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> get_controls();
+  /// @brief Method get_controls, addr 0x461d888, size 0x68, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> get_controls();
 
-  /// @brief Method get_displayName, addr 0x45bc4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x461d7fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_extendsLayout, addr 0x45bc528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_extendsLayout, addr 0x461d83c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_extendsLayout();
 
-  /// @brief Method get_name, addr 0x45bc4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x461d7ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_stateFormat, addr 0x45bc508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x461d81c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x45bc518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x461d82c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateSizeInBytes();
 
-  /// @brief Method get_type, addr 0x45bc4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x461d80c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
-  /// @brief Method get_updateBeforeRender, addr 0x45bc564, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x461d878, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_updateBeforeRender();
 
-  /// @brief Method set_displayName, addr 0x45bc4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x461d804, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_extendsLayout, addr 0x45bc530, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_extendsLayout, addr 0x461d844, size 0x34, virtual false, abstract: false, final false
   inline void set_extendsLayout(::StringW value);
 
-  /// @brief Method set_name, addr 0x45bc4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x461d7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_stateFormat, addr 0x45bc510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateFormat, addr 0x461d824, size 0x8, virtual false, abstract: false, final false
   inline void set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  /// @brief Method set_stateSizeInBytes, addr 0x45bc520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_stateSizeInBytes, addr 0x461d834, size 0x8, virtual false, abstract: false, final false
   inline void set_stateSizeInBytes(int32_t value);
 
-  /// @brief Method set_type, addr 0x45bc500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_type, addr 0x461d814, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::System::Type* value);
 
-  /// @brief Method set_updateBeforeRender, addr 0x45bc56c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_updateBeforeRender, addr 0x461d880, size 0x8, virtual false, abstract: false, final false
   inline void set_updateBeforeRender(::System::Nullable_1<bool> value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Builder();
+  constexpr InputControlLayout_Builder();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Builder", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_Builder", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__Builder(__InputControlLayout__Builder&&) = delete;
+  InputControlLayout_Builder(InputControlLayout_Builder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Builder", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_Builder", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__Builder(__InputControlLayout__Builder const&) = delete;
+  InputControlLayout_Builder(InputControlLayout_Builder const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7005 };
 
   /// @brief Field <name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name_k__BackingField;
@@ -1050,47 +1045,43 @@ public:
   int32_t ___m_ControlCount;
 
   /// @brief Field m_Controls, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> ___m_Controls;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6980 };
+  ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> ___m_Controls;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, 0x48>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____name_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____name_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____displayName_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____displayName_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____type_k__BackingField) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____type_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____stateFormat_k__BackingField) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____stateFormat_k__BackingField) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____stateSizeInBytes_k__BackingField) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____stateSizeInBytes_k__BackingField) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ___m_ExtendsLayout) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ___m_ExtendsLayout) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ____updateBeforeRender_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ____updateBeforeRender_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ___m_ControlCount) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ___m_ControlCount) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, ___m_Controls) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder, ___m_Controls) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::Flags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Flags
-struct CORDL_TYPE __InputControlLayout__Flags {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Flags
+struct CORDL_TYPE InputControlLayout_Flags {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____InputControlLayout__Flags_Unwrapped
-  enum struct ____InputControlLayout__Flags_Unwrapped : int32_t {
+  /// @brief Nested struct __InputControlLayout_Flags_Unwrapped
+  enum struct __InputControlLayout_Flags_Unwrapped : int32_t {
     __E_IsGenericTypeOfDevice = static_cast<int32_t>(0x1),
     __E_HideInUI = static_cast<int32_t>(0x2),
     __E_IsOverride = static_cast<int32_t>(0x4),
@@ -1100,8 +1091,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____InputControlLayout__Flags_Unwrapped() const noexcept {
-    return static_cast<____InputControlLayout__Flags_Unwrapped>(this->value__);
+  constexpr operator __InputControlLayout_Flags_Unwrapped() const noexcept {
+    return static_cast<__InputControlLayout_Flags_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -1111,63 +1102,68 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Flags();
+  constexpr InputControlLayout_Flags();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__Flags(int32_t value__) noexcept;
+  constexpr InputControlLayout_Flags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CanRunInBackground value: I32(8)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const CanRunInBackground;
 
-  /// @brief Field CanRunInBackground value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const CanRunInBackground;
+  /// @brief Field CanRunInBackgroundIsSet value: I32(16)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const CanRunInBackgroundIsSet;
 
-  /// @brief Field CanRunInBackgroundIsSet value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const CanRunInBackgroundIsSet;
+  /// @brief Field HideInUI value: I32(2)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const HideInUI;
 
-  /// @brief Field HideInUI value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const HideInUI;
+  /// @brief Field IsGenericTypeOfDevice value: I32(1)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const IsGenericTypeOfDevice;
 
-  /// @brief Field IsGenericTypeOfDevice value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const IsGenericTypeOfDevice;
+  /// @brief Field IsNoisy value: I32(32)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const IsNoisy;
 
-  /// @brief Field IsNoisy value: static_cast<int32_t>(0x20)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const IsNoisy;
-
-  /// @brief Field IsOverride value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const IsOverride;
+  /// @brief Field IsOverride value: I32(4)
+  static ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const IsOverride;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7006 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::LayoutJsonNameAndDescriptorOnly
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Layouts.InputDeviceMatcher::MatcherJson
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::LayoutJsonNameAndDescriptorOnly
-struct CORDL_TYPE __InputControlLayout__LayoutJsonNameAndDescriptorOnly {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/LayoutJsonNameAndDescriptorOnly
+struct CORDL_TYPE InputControlLayout_LayoutJsonNameAndDescriptorOnly {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__LayoutJsonNameAndDescriptorOnly();
+  constexpr InputControlLayout_LayoutJsonNameAndDescriptorOnly();
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "extend", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "extendMultiple", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "device", ty:
-  // "::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher__MatcherJson", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__LayoutJsonNameAndDescriptorOnly(::StringW name, ::StringW extend, ::ArrayW<::StringW, ::Array<::StringW>*> extendMultiple,
-                                                                  ::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher__MatcherJson device) noexcept;
+  // "::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson", modifiers: "", def_value: None }]
+  constexpr InputControlLayout_LayoutJsonNameAndDescriptorOnly(::StringW name, ::StringW extend, ::ArrayW<::StringW, ::Array<::StringW>*> extendMultiple,
+                                                               ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson device) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7007 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;
@@ -1179,63 +1175,56 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> extendMultiple;
 
   /// @brief Field device, offset: 0x18, size: 0x58, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher__MatcherJson device;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6982 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+  ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson device;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, 0x70>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, name) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, name) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, extend) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, extend) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, extendMultiple) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, extendMultiple) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, device) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, device) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, 0x70>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::LayoutJson::<>c*
-class CORDL_TYPE __InputControlLayout__LayoutJson____c : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/LayoutJson/<>c
+class CORDL_TYPE LayoutJson_InputControlLayout___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__InputControlLayout__LayoutJson____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* __9;
 
   /// @brief Field <>9__14_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__14_0;
+  __declspec(property(get = getStaticF___9__14_0, put = setStaticF___9__14_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__14_0;
 
   /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__15_0;
+  __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__15_0;
 
   /// @brief Field <>9__15_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__15_1;
+  __declspec(property(get = getStaticF___9__15_1, put = setStaticF___9__15_1)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__15_1;
 
-  static inline ::GlobalNamespace::__InputControlLayout__LayoutJson____c* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <FromLayout>b__15_0, addr 0x45be21c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromLayout>b__15_0, addr 0x461f530, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromLayout_b__15_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <FromLayout>b__15_1, addr 0x45be240, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromLayout>b__15_1, addr 0x461f554, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromLayout_b__15_1(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <ToLayout>b__14_0, addr 0x45be1f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__14_0, addr 0x461f508, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__14_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x45be1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461f500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__InputControlLayout__LayoutJson____c* getStaticF___9();
+  static inline ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* getStaticF___9__14_0();
 
@@ -1243,7 +1232,7 @@ public:
 
   static inline ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* getStaticF___9__15_1();
 
-  static inline void setStaticF___9(::GlobalNamespace::__InputControlLayout__LayoutJson____c* value);
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c* value);
 
   static inline void setStaticF___9__14_0(::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* value);
 
@@ -1254,45 +1243,44 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__LayoutJson____c();
+  constexpr LayoutJson_InputControlLayout___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__LayoutJson____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutJson_InputControlLayout___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__LayoutJson____c(__InputControlLayout__LayoutJson____c&&) = delete;
+  LayoutJson_InputControlLayout___c(LayoutJson_InputControlLayout___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__LayoutJson____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LayoutJson_InputControlLayout___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__LayoutJson____c(__InputControlLayout__LayoutJson____c const&) = delete;
+  LayoutJson_InputControlLayout___c(LayoutJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6983 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__LayoutJson____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::LayoutJson
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::LayoutJson
-struct CORDL_TYPE __InputControlLayout__LayoutJson {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/LayoutJson
+struct CORDL_TYPE InputControlLayout_LayoutJson {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__InputControlLayout__LayoutJson____c;
+  using __c = ::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c;
 
-  /// @brief Method FromLayout, addr 0x45b8280, size 0x340, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson FromLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout);
+  /// @brief Method FromLayout, addr 0x4619594, size 0x340, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson FromLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout);
 
-  /// @brief Method ToLayout, addr 0x45b8630, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method ToLayout, addr 0x4619944, size 0x94c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* ToLayout();
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__LayoutJson();
+  constexpr InputControlLayout_LayoutJson();
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "extend", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "extendMultiple", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
@@ -1300,12 +1288,18 @@ public:
   // "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "displayName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "description", ty:
   // "::StringW", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "variant", ty: "::StringW", modifiers: "", def_value:
   // None }, CppParam { name: "isGenericTypeOfDevice", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "hideInUI", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "controls", ty: "::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*,::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*>*>",
-  // modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__LayoutJson(
+  // "controls", ty: "::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*,::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*>", modifiers:
+  // "", def_value: None }]
+  constexpr InputControlLayout_LayoutJson(
       ::StringW name, ::StringW extend, ::ArrayW<::StringW, ::Array<::StringW>*> extendMultiple, ::StringW format, ::StringW beforeRender, ::StringW runInBackground,
       ::ArrayW<::StringW, ::Array<::StringW>*> commonUsages, ::StringW displayName, ::StringW description, ::StringW type, ::StringW variant, bool isGenericTypeOfDevice, bool hideInUI,
-      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*>*> controls) noexcept;
+      ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*> controls) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7009 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
   ::StringW name;
@@ -1347,101 +1341,94 @@ public:
   bool hideInUI;
 
   /// @brief Field controls, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*>*> controls;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6984 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+  ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*> controls;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, 0x68>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, name) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, name) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, extend) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, extend) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, extendMultiple) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, extendMultiple) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, format) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, format) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, beforeRender) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, beforeRender) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, runInBackground) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, runInBackground) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, commonUsages) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, commonUsages) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, displayName) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, displayName) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, description) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, description) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, type) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, type) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, variant) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, variant) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, isGenericTypeOfDevice) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, isGenericTypeOfDevice) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, hideInUI) == 0x59, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, hideInUI) == 0x59, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, controls) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, controls) == 0x60, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, 0x68>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Object
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::ControlItemJson::<>c*
-class CORDL_TYPE __InputControlLayout__ControlItemJson____c : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItemJson/<>c
+class CORDL_TYPE ControlItemJson_InputControlLayout___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::__InputControlLayout__ControlItemJson____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* __9;
 
   /// @brief Field <>9__24_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__24_0;
+  __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__24_0;
 
   /// @brief Field <>9__24_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__24_1, put = setStaticF___9__24_1)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__24_1;
+  __declspec(property(get = getStaticF___9__24_1, put = setStaticF___9__24_1)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__24_1;
 
   /// @brief Field <>9__25_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NamedValue, ::StringW>* __9__25_0;
+  __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NamedValue, ::StringW>* __9__25_0;
 
   /// @brief Field <>9__25_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NameAndParameters, ::StringW>* __9__25_1;
+  __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::NameAndParameters, ::StringW>* __9__25_1;
 
   /// @brief Field <>9__25_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_2, put = setStaticF___9__25_2)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__25_2;
+  __declspec(property(get = getStaticF___9__25_2, put = setStaticF___9__25_2)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__25_2;
 
   /// @brief Field <>9__25_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_3, put = setStaticF___9__25_3)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__25_3;
+  __declspec(property(get = getStaticF___9__25_3, put = setStaticF___9__25_3)) ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* __9__25_3;
 
-  static inline ::GlobalNamespace::__InputControlLayout__ControlItemJson____c* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* New_ctor();
 
-  /// @brief Method <FromControlItems>b__25_0, addr 0x45be338, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_0, addr 0x461f64c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_0(::UnityEngine::InputSystem::Utilities::NamedValue x);
 
-  /// @brief Method <FromControlItems>b__25_1, addr 0x45be344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_1, addr 0x461f658, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_1(::UnityEngine::InputSystem::Utilities::NameAndParameters x);
 
-  /// @brief Method <FromControlItems>b__25_2, addr 0x45be350, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_2, addr 0x461f664, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_2(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <FromControlItems>b__25_3, addr 0x45be374, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <FromControlItems>b__25_3, addr 0x461f688, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _FromControlItems_b__25_3(::UnityEngine::InputSystem::Utilities::InternedString x);
 
-  /// @brief Method <ToLayout>b__24_0, addr 0x45be2e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__24_0, addr 0x461f5fc, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__24_0(::StringW x);
 
-  /// @brief Method <ToLayout>b__24_1, addr 0x45be310, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <ToLayout>b__24_1, addr 0x461f624, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _ToLayout_b__24_1(::StringW x);
 
-  /// @brief Method .ctor, addr 0x45be2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461f5f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::GlobalNamespace::__InputControlLayout__ControlItemJson____c* getStaticF___9();
+  static inline ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* getStaticF___9__24_0();
 
@@ -1455,7 +1442,7 @@ public:
 
   static inline ::System::Func_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* getStaticF___9__25_3();
 
-  static inline void setStaticF___9(::GlobalNamespace::__InputControlLayout__ControlItemJson____c* value);
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c* value);
 
   static inline void setStaticF___9__24_0(::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* value);
 
@@ -1472,35 +1459,34 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__ControlItemJson____c();
+  constexpr ControlItemJson_InputControlLayout___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__ControlItemJson____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlItemJson_InputControlLayout___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__ControlItemJson____c(__InputControlLayout__ControlItemJson____c&&) = delete;
+  ControlItemJson_InputControlLayout___c(ControlItemJson_InputControlLayout___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__ControlItemJson____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ControlItemJson_InputControlLayout___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__ControlItemJson____c(__InputControlLayout__ControlItemJson____c const&) = delete;
+  ControlItemJson_InputControlLayout___c(ControlItemJson_InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__ControlItemJson____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::ControlItemJson
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::ControlItemJson*
-class CORDL_TYPE __InputControlLayout__ControlItemJson : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/ControlItemJson
+class CORDL_TYPE InputControlLayout_ControlItemJson : public ::System::Object {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__InputControlLayout__ControlItemJson____c;
+  using __c = ::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c;
 
   /// @brief Field alias, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_alias, put = __cordl_internal_set_alias)) ::StringW alias;
@@ -1571,14 +1557,14 @@ public:
   /// @brief Field variants, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_variants, put = __cordl_internal_set_variants)) ::StringW variants;
 
-  /// @brief Method FromControlItems, addr 0x45bdac4, size 0x6cc, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*>*>
-  FromControlItems(::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> items);
+  /// @brief Method FromControlItems, addr 0x461edd8, size 0x6cc, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*>*>
+  FromControlItems(::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> items);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson* New_ctor();
 
-  /// @brief Method ToLayout, addr 0x45bd484, size 0x640, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem ToLayout();
+  /// @brief Method ToLayout, addr 0x461e798, size 0x640, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem ToLayout();
 
   constexpr ::StringW const& __cordl_internal_get_alias() const;
 
@@ -1718,22 +1704,25 @@ public:
 
   constexpr void __cordl_internal_set_variants(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45be264, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x461f578, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__ControlItemJson();
+  constexpr InputControlLayout_ControlItemJson();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__ControlItemJson", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_ControlItemJson", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__ControlItemJson(__InputControlLayout__ControlItemJson&&) = delete;
+  InputControlLayout_ControlItemJson(InputControlLayout_ControlItemJson&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__ControlItemJson", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_ControlItemJson", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__ControlItemJson(__InputControlLayout__ControlItemJson const&) = delete;
+  InputControlLayout_ControlItemJson(InputControlLayout_ControlItemJson const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7011 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -1804,77 +1793,79 @@ public:
   /// @brief Field maxValue, offset: 0xa8, size: 0x8, def value: None
   ::StringW ___maxValue;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6986 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, 0xb0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___name) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___name) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___layout) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___layout) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___variants) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___variants) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___usage) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___usage) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___alias) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___alias) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___useStateFrom) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___useStateFrom) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___offset) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___offset) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___bit) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___bit) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___sizeInBits) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___sizeInBits) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___format) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___format) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___arraySize) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___arraySize) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___usages) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___usages) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___aliases) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___aliases) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___parameters) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___parameters) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___processors) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___processors) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___displayName) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___displayName) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___shortDisplayName) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___shortDisplayName) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___noisy) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___noisy) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___dontReset) == 0x91, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___dontReset) == 0x91, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___synthetic) == 0x92, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___synthetic) == 0x92, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___defaultState) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___defaultState) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___minValue) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___minValue) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, ___maxValue) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson, ___maxValue) == 0xa8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson, 0xb0>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::LayoutMatcher
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies UnityEngine.InputSystem.Layouts.InputDeviceMatcher, UnityEngine.InputSystem.Utilities.InternedString
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Collection::LayoutMatcher
-struct CORDL_TYPE __InputControlLayout__Collection__LayoutMatcher {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/LayoutMatcher
+struct CORDL_TYPE Collection_InputControlLayout_LayoutMatcher {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Collection__LayoutMatcher();
+  constexpr Collection_InputControlLayout_LayoutMatcher();
 
   // Ctor Parameters [CppParam { name: "layoutName", ty: "::UnityEngine::InputSystem::Utilities::InternedString", modifiers: "", def_value: None }, CppParam { name: "deviceMatcher", ty:
   // "::UnityEngine::InputSystem::Layouts::InputDeviceMatcher", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__Collection__LayoutMatcher(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
-                                                            ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher) noexcept;
+  constexpr Collection_InputControlLayout_LayoutMatcher(::UnityEngine::InputSystem::Utilities::InternedString layoutName,
+                                                        ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7012 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field layoutName, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::InternedString layoutName;
@@ -1882,37 +1873,36 @@ public:
   /// @brief Field deviceMatcher, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher deviceMatcher;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher, 0x18>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher, layoutName) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher, layoutName) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher, deviceMatcher) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher, deviceMatcher) == 0x10, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::PrecompiledLayout
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Collection::PrecompiledLayout
-struct CORDL_TYPE __InputControlLayout__Collection__PrecompiledLayout {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/PrecompiledLayout
+struct CORDL_TYPE Collection_InputControlLayout_PrecompiledLayout {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Collection__PrecompiledLayout();
+  constexpr Collection_InputControlLayout_PrecompiledLayout();
 
   // Ctor Parameters [CppParam { name: "factoryMethod", ty: "::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*", modifiers: "", def_value: None }, CppParam { name: "metadata", ty:
   // "::StringW", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__Collection__PrecompiledLayout(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* factoryMethod, ::StringW metadata) noexcept;
+  constexpr Collection_InputControlLayout_PrecompiledLayout(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* factoryMethod, ::StringW metadata) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7013 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field factoryMethod, offset: 0x0, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* factoryMethod;
@@ -1920,92 +1910,85 @@ public:
   /// @brief Field metadata, offset: 0x8, size: 0x8, def value: None
   ::StringW metadata;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6988 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout, 0x10>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout, factoryMethod) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout, factoryMethod) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout, metadata) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout, metadata) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::Collection
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Collection
-struct CORDL_TYPE __InputControlLayout__Collection {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Collection
+struct CORDL_TYPE InputControlLayout_Collection {
 public:
   // Declarations
-  using LayoutMatcher = ::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher;
+  using LayoutMatcher = ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher;
 
-  using PrecompiledLayout = ::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout;
+  using PrecompiledLayout = ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout;
 
-  using _GetBaseLayouts_d__24 = ::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24;
+  using _GetBaseLayouts_d__24 = ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24;
 
-  /// @brief Method AddMatcher, addr 0x45bf6b0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method AddMatcher, addr 0x46209c4, size 0x178, virtual false, abstract: false, final false
   inline void AddMatcher(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
-  /// @brief Method Allocate, addr 0x45be398, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x461f6ac, size 0x24c, virtual false, abstract: false, final false
   inline void Allocate();
 
-  /// @brief Method ComputeDistanceInInheritanceHierarchy, addr 0x45bef08, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ComputeDistanceInInheritanceHierarchy, addr 0x462021c, size 0x134, virtual false, abstract: false, final false
   inline bool ComputeDistanceInInheritanceHierarchy(::UnityEngine::InputSystem::Utilities::InternedString firstLayout, ::UnityEngine::InputSystem::Utilities::InternedString secondLayout,
-                                                    ByRef<int32_t> distance);
+                                                    ::ByRef<int32_t> distance);
 
-  /// @brief Method FindLayoutThatIntroducesControl, addr 0x45bf03c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method FindLayoutThatIntroducesControl, addr 0x4620350, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString FindLayoutThatIntroducesControl(::UnityEngine::InputSystem::InputControl* control,
-                                                                                               ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache cache);
+                                                                                               ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache cache);
 
-  /// @brief Method GetBaseLayoutName, addr 0x45bede8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetBaseLayoutName, addr 0x46200fc, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString GetBaseLayoutName(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method GetBaseLayouts, addr 0x45bf52c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetBaseLayouts, addr 0x4620840, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* GetBaseLayouts(::UnityEngine::InputSystem::Utilities::InternedString layout,
                                                                                                                               bool includeSelf);
 
-  /// @brief Method GetControlTypeForLayout, addr 0x45bf250, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetControlTypeForLayout, addr 0x4620564, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Type* GetControlTypeForLayout(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method GetRootLayoutName, addr 0x45bee74, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetRootLayoutName, addr 0x4620188, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString GetRootLayoutName(::UnityEngine::InputSystem::Utilities::InternedString layoutName);
 
-  /// @brief Method HasLayout, addr 0x45ba41c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HasLayout, addr 0x461b730, size 0xdc, virtual false, abstract: false, final false
   inline bool HasLayout(::UnityEngine::InputSystem::Utilities::InternedString name);
 
-  /// @brief Method IsBasedOn, addr 0x45bf604, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method IsBasedOn, addr 0x4620918, size 0xac, virtual false, abstract: false, final false
   inline bool IsBasedOn(::UnityEngine::InputSystem::Utilities::InternedString parentLayout, ::UnityEngine::InputSystem::Utilities::InternedString childLayout);
 
-  /// @brief Method IsGeneratedLayout, addr 0x45bf4c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method IsGeneratedLayout, addr 0x46207d8, size 0x68, virtual false, abstract: false, final false
   inline bool IsGeneratedLayout(::UnityEngine::InputSystem::Utilities::InternedString layout);
 
-  /// @brief Method TryFindLayoutForType, addr 0x45ba26c, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TryFindLayoutForType, addr 0x461b580, size 0x1b0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindLayoutForType(::System::Type* layoutType);
 
-  /// @brief Method TryFindMatchingLayout, addr 0x45be5e4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TryFindMatchingLayout, addr 0x461f8f8, size 0x1d0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString TryFindMatchingLayout(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method TryLoadLayout, addr 0x45be9a8, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method TryLoadLayout, addr 0x461fcbc, size 0x384, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout*
   TryLoadLayout(::UnityEngine::InputSystem::Utilities::InternedString name,
                 ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table);
 
-  /// @brief Method TryLoadLayoutInternal, addr 0x45be7b4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method TryLoadLayoutInternal, addr 0x461fac8, size 0x1f4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* TryLoadLayoutInternal(::UnityEngine::InputSystem::Utilities::InternedString name);
 
-  /// @brief Method ValueTypeIsAssignableFrom, addr 0x45bf39c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ValueTypeIsAssignableFrom, addr 0x46206b0, size 0x128, virtual false, abstract: false, final false
   inline bool ValueTypeIsAssignableFrom(::UnityEngine::InputSystem::Utilities::InternedString layoutName, ::System::Type* valueType);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Collection();
+  constexpr InputControlLayout_Collection();
 
   // Ctor Parameters [CppParam { name: "layoutTypes", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::System::Type*>*", modifiers: "",
   // def_value: None }, CppParam { name: "layoutStrings", ty: "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::StringW>*", modifiers: "",
@@ -2017,10 +2000,10 @@ public:
   // "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString,::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>>*",
   // modifiers: "", def_value: None }, CppParam { name: "layoutOverrideNames", ty: "::System::Collections::Generic::HashSet_1<::UnityEngine::InputSystem::Utilities::InternedString>*", modifiers: "",
   // def_value: None }, CppParam { name: "precompiledLayouts", ty:
-  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout>*", modifiers: "",
-  // def_value: None }, CppParam { name: "layoutMatchers", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher>*", modifiers: "", def_value:
-  // None }]
-  constexpr __InputControlLayout__Collection(
+  // "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout>*",
+  // modifiers: "", def_value: None }, CppParam { name: "layoutMatchers", ty:
+  // "::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher>*", modifiers: "", def_value: None }]
+  constexpr InputControlLayout_Collection(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* layoutTypes,
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>* layoutStrings,
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*>* layoutBuilders,
@@ -2028,8 +2011,18 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,
                                                    ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>>* layoutOverrides,
       ::System::Collections::Generic::HashSet_1<::UnityEngine::InputSystem::Utilities::InternedString>* layoutOverrideNames,
-      ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout>* precompiledLayouts,
-      ::System::Collections::Generic::List_1<::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher>* layoutMatchers) noexcept;
+      ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout>*
+          precompiledLayouts,
+      ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher>* layoutMatchers) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7015 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+
+  /// @brief Field kBaseScoreForNonGeneratedLayouts offset 0xffffffff size 0x4
+  static constexpr float_t kBaseScoreForNonGeneratedLayouts{ static_cast<float_t>(1.0f) };
 
   /// @brief Field layoutTypes, offset: 0x0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>* layoutTypes;
@@ -2051,48 +2044,40 @@ public:
   ::System::Collections::Generic::HashSet_1<::UnityEngine::InputSystem::Utilities::InternedString>* layoutOverrideNames;
 
   /// @brief Field precompiledLayouts, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout>* precompiledLayouts;
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout>*
+      precompiledLayouts;
 
   /// @brief Field layoutMatchers, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher>* layoutMatchers;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
-  /// @brief Field kBaseScoreForNonGeneratedLayouts offset 0xffffffff size 0x4
-  static constexpr float_t kBaseScoreForNonGeneratedLayouts{ 1.0 };
+  ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher>* layoutMatchers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, 0x40>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutTypes) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutTypes) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutStrings) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutStrings) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutBuilders) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutBuilders) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, baseLayoutTable) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, baseLayoutTable) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutOverrides) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutOverrides) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutOverrideNames) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutOverrideNames) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, precompiledLayouts) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, precompiledLayouts) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, layoutMatchers) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, layoutMatchers) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::<GetBaseLayouts>d__24
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object, UnityEngine.InputSystem.Layouts.InputControlLayout::Collection, UnityEngine.InputSystem.Utilities.InternedString
+namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::Collection::<GetBaseLayouts>d__24*
-class CORDL_TYPE __InputControlLayout__Collection___GetBaseLayouts_d__24 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Collection/<GetBaseLayouts>d__24
+class CORDL_TYPE Collection_InputControlLayout__GetBaseLayouts_d__24 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_InternedString__get_Current)) ::UnityEngine::InputSystem::Utilities::InternedString
@@ -2107,7 +2092,7 @@ public:
   __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::UnityEngine::InputSystem::Utilities::InternedString __2__current;
 
   /// @brief Field <>3__<>4__this, offset 0x90, size 0x40
-  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection __3____4__this;
 
   /// @brief Field <>3__includeSelf, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get___3__includeSelf, put = __cordl_internal_set___3__includeSelf)) bool __3__includeSelf;
@@ -2116,7 +2101,7 @@ public:
   __declspec(property(get = __cordl_internal_get___3__layout, put = __cordl_internal_set___3__layout)) ::UnityEngine::InputSystem::Utilities::InternedString __3__layout;
 
   /// @brief Field <>4__this, offset 0x50, size 0x40
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection __4__this;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
@@ -2142,28 +2127,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x45bf82c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4620b40, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.InternedString>.GetEnumerator, addr 0x45bf988, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.InternedString>.GetEnumerator, addr 0x4620c9c, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::InternedString>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_Utilities_InternedString__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.InternedString>.get_Current, addr 0x45bf8e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.InternedString>.get_Current, addr 0x4620bfc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::InternedString System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_InternedString__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x45bfa4c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4620d60, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x45bf8f4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4620c08, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x45bf92c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4620c40, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x45bf828, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x4620b3c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -2174,9 +2159,9 @@ public:
 
   constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get___3____4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection const& __cordl_internal_get___3____4__this() const;
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get___3____4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection& __cordl_internal_get___3____4__this();
 
   constexpr bool const& __cordl_internal_get___3__includeSelf() const;
 
@@ -2186,9 +2171,9 @@ public:
 
   constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get___3__layout();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get___4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get___4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection& __cordl_internal_get___4__this();
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
@@ -2206,13 +2191,13 @@ public:
 
   constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection value);
 
   constexpr void __cordl_internal_set___3__includeSelf(bool value);
 
   constexpr void __cordl_internal_set___3__layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection value);
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
@@ -2220,7 +2205,7 @@ public:
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method .ctor, addr 0x45bf5d0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46208e4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>"
@@ -2243,16 +2228,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Collection___GetBaseLayouts_d__24();
+  constexpr Collection_InputControlLayout__GetBaseLayouts_d__24();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Collection___GetBaseLayouts_d__24", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collection_InputControlLayout__GetBaseLayouts_d__24", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__Collection___GetBaseLayouts_d__24(__InputControlLayout__Collection___GetBaseLayouts_d__24&&) = delete;
+  Collection_InputControlLayout__GetBaseLayouts_d__24(Collection_InputControlLayout__GetBaseLayouts_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__Collection___GetBaseLayouts_d__24", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Collection_InputControlLayout__GetBaseLayouts_d__24", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__Collection___GetBaseLayouts_d__24(__InputControlLayout__Collection___GetBaseLayouts_d__24 const&) = delete;
+  Collection_InputControlLayout__GetBaseLayouts_d__24(Collection_InputControlLayout__GetBaseLayouts_d__24 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7014 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2276,44 +2264,40 @@ public:
   ::UnityEngine::InputSystem::Utilities::InternedString _____3__layout;
 
   /// @brief Field <>4__this, offset: 0x50, size: 0x40, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection _____4__this;
+  ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection _____4__this;
 
   /// @brief Field <>3__<>4__this, offset: 0x90, size: 0x40, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection _____3____4__this;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6989 };
+  ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection _____3____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, 0xd0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____l__initialThreadId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____l__initialThreadId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, ___includeSelf) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, ___includeSelf) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____3__includeSelf) == 0x2d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____3__includeSelf) == 0x2d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, ___layout) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, ___layout) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____3__layout) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____3__layout) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____4__this) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____4__this) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, _____3____4__this) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24, _____3____4__this) == 0x90, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24, 0xd0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::LayoutNotFoundException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+} // namespace UnityEngine::InputSystem::Layouts
+// Dependencies System.Exception
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::LayoutNotFoundException*
-class CORDL_TYPE __InputControlLayout__LayoutNotFoundException : public ::System::Exception {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/LayoutNotFoundException
+class CORDL_TYPE InputControlLayout_LayoutNotFoundException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field <layout>k__BackingField, offset 0x90, size 0x8
@@ -2321,16 +2305,16 @@ public:
 
   __declspec(property(get = get_layout)) ::StringW layout;
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException* New_ctor();
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                             ::System::Runtime::Serialization::StreamingContext context);
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                          ::System::Runtime::Serialization::StreamingContext context);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException* New_ctor(::StringW message, ::System::Exception* innerException);
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException* New_ctor(::StringW name);
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException* New_ctor(::StringW name);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException* New_ctor(::StringW name, ::StringW message);
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException* New_ctor(::StringW name, ::StringW message);
 
   constexpr ::StringW const& __cordl_internal_get__layout_k__BackingField() const;
 
@@ -2338,104 +2322,102 @@ public:
 
   constexpr void __cordl_internal_set__layout_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45bfa58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4620d6c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x45bfb94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4620ea8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x45bfb24, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4620e38, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x45bed2c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4620040, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x45bfab0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4620dc4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW message);
 
-  /// @brief Method get_layout, addr 0x45bfa50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x4620d64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__LayoutNotFoundException();
+  constexpr InputControlLayout_LayoutNotFoundException();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__LayoutNotFoundException", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_LayoutNotFoundException", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout__LayoutNotFoundException(__InputControlLayout__LayoutNotFoundException&&) = delete;
+  InputControlLayout_LayoutNotFoundException(InputControlLayout_LayoutNotFoundException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout__LayoutNotFoundException", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout_LayoutNotFoundException", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout__LayoutNotFoundException(__InputControlLayout__LayoutNotFoundException const&) = delete;
+  InputControlLayout_LayoutNotFoundException(InputControlLayout_LayoutNotFoundException const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7016 };
 
   /// @brief Field <layout>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____layout_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException, 0x98>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException, ____layout_k__BackingField) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException, ____layout_k__BackingField) == 0x90, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::Cache
-// SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::Cache
-struct CORDL_TYPE __InputControlLayout__Cache {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/Cache
+struct CORDL_TYPE InputControlLayout_Cache {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x45bfc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4620f28, size 0x8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method FindOrLoadLayout, addr 0x45bf134, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FindOrLoadLayout, addr 0x4620448, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW name, bool throwIfNotFound);
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__Cache();
+  constexpr InputControlLayout_Cache();
 
   // Ctor Parameters [CppParam { name: "table", ty:
   // "::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString,::UnityEngine::InputSystem::Layouts::InputControlLayout*>*", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__Cache(
+  constexpr InputControlLayout_Cache(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table) noexcept;
 
-  /// @brief Field table, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7017 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field table, offset: 0x0, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Layouts::InputControlLayout*>* table;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache, 0x8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache, table) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache, table) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::CacheRefInstance
-// SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies System.IDisposable
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// CS Name: ::InputControlLayout::CacheRefInstance
-struct CORDL_TYPE __InputControlLayout__CacheRefInstance {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/CacheRefInstance
+struct CORDL_TYPE InputControlLayout_CacheRefInstance {
 public:
   // Declarations
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x45bfc1c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4620f30, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -2443,63 +2425,62 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout__CacheRefInstance();
+  constexpr InputControlLayout_CacheRefInstance();
 
   // Ctor Parameters [CppParam { name: "valid", ty: "bool", modifiers: "", def_value: None }]
-  constexpr __InputControlLayout__CacheRefInstance(bool valid) noexcept;
-
-  /// @brief Field valid, offset: 0x0, size: 0x1, def value: None
-  bool valid;
+  constexpr InputControlLayout_CacheRefInstance(bool valid) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field valid, offset: 0x0, size: 0x1, def value: None
+  bool valid;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance, 0x1>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance, valid) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance, valid) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::InputControlLayout::<>c*
-class CORDL_TYPE __InputControlLayout____c : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout/<>c
+class CORDL_TYPE InputControlLayout___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::InputControlLayout___c* __9;
 
   /// @brief Field <>9__52_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__52_0, put = setStaticF___9__52_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__52_0;
+  __declspec(property(get = getStaticF___9__52_0, put = setStaticF___9__52_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__52_0;
 
   /// @brief Field <>9__75_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__75_0, put = setStaticF___9__75_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__75_0;
+  __declspec(property(get = getStaticF___9__75_0, put = setStaticF___9__75_0)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__75_0;
 
   /// @brief Field <>9__75_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__75_1, put = setStaticF___9__75_1)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__75_1;
+  __declspec(property(get = getStaticF___9__75_1, put = setStaticF___9__75_1)) ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* __9__75_1;
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout____c* New_ctor();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout___c* New_ctor();
 
-  /// @brief Method <CreateControlItemFromMember>b__75_0, addr 0x45bfd40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateControlItemFromMember>b__75_0, addr 0x4621054, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _CreateControlItemFromMember_b__75_0(::StringW x);
 
-  /// @brief Method <CreateControlItemFromMember>b__75_1, addr 0x45bfd68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <CreateControlItemFromMember>b__75_1, addr 0x462107c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _CreateControlItemFromMember_b__75_1(::StringW x);
 
-  /// @brief Method <FromType>b__52_0, addr 0x45bfd18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <FromType>b__52_0, addr 0x462102c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString _FromType_b__52_0(::StringW x);
 
-  /// @brief Method .ctor, addr 0x45bfd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4621024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout____c* getStaticF___9();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout___c* getStaticF___9();
 
   static inline ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* getStaticF___9__52_0();
 
@@ -2507,7 +2488,7 @@ public:
 
   static inline ::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* getStaticF___9__75_1();
 
-  static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::__InputControlLayout____c* value);
+  static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::InputControlLayout___c* value);
 
   static inline void setStaticF___9__52_0(::System::Func_2<::StringW, ::UnityEngine::InputSystem::Utilities::InternedString>* value);
 
@@ -2518,57 +2499,58 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __InputControlLayout____c();
+  constexpr InputControlLayout___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __InputControlLayout____c(__InputControlLayout____c&&) = delete;
+  InputControlLayout___c(InputControlLayout___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__InputControlLayout____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __InputControlLayout____c(__InputControlLayout____c const&) = delete;
+  InputControlLayout___c(InputControlLayout___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7019 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputControlLayout____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Type: UnityEngine.InputSystem.Layouts::InputControlLayout
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object, UnityEngine.InputSystem.Layouts.InputControlLayout::Cache, UnityEngine.InputSystem.Layouts.InputControlLayout::Collection,
+// UnityEngine.InputSystem.Layouts.InputControlLayout::Flags, UnityEngine.InputSystem.Utilities.FourCC, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>,
+// UnityEngine.InputSystem.Utilities.InternedString
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayout*
+// CS Name: UnityEngine.InputSystem.Layouts.InputControlLayout
 class CORDL_TYPE InputControlLayout : public ::System::Object {
 public:
   // Declarations
-  using Builder = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder;
+  using Builder = ::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder;
 
-  using Cache = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache;
+  using Cache = ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache;
 
-  using CacheRefInstance = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance;
+  using CacheRefInstance = ::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance;
 
-  using Collection = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection;
+  using Collection = ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection;
 
-  using ControlItem = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem;
+  using ControlItem = ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem;
 
-  using ControlItemJson = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson;
+  using ControlItemJson = ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson;
 
-  using Flags = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags;
+  using Flags = ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags;
 
-  using LayoutJson = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson;
+  using LayoutJson = ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson;
 
-  using LayoutJsonNameAndDescriptorOnly = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly;
+  using LayoutJsonNameAndDescriptorOnly = ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly;
 
-  using LayoutNotFoundException = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException;
+  using LayoutNotFoundException = ::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException;
 
-  using __c = ::UnityEngine::InputSystem::Layouts::__InputControlLayout____c;
+  using __c = ::UnityEngine::InputSystem::Layouts::InputControlLayout___c;
 
-  __declspec(property(get = get_Item)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem Item[];
+  __declspec(property(get = get_Item)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem Item[];
 
   __declspec(property(get = get_appliedOverrides)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* appliedOverrides;
 
@@ -2578,7 +2560,7 @@ public:
 
   __declspec(property(get = get_commonUsages)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> commonUsages;
 
-  __declspec(property(get = get_controls)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controls;
+  __declspec(property(get = get_controls)) ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> controls;
 
   __declspec(property(get = get_displayName)) ::StringW displayName;
 
@@ -2610,8 +2592,10 @@ public:
       m_CommonUsages;
 
   /// @brief Field m_Controls, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Controls, put = __cordl_internal_set_m_Controls)) ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
-                                                                                                              ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>
+  __declspec(property(
+      get = __cordl_internal_get_m_Controls,
+      put =
+          __cordl_internal_set_m_Controls)) ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*>
       m_Controls;
 
   /// @brief Field m_Description, offset 0xa0, size 0x8
@@ -2621,7 +2605,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName)) ::StringW m_DisplayName;
 
   /// @brief Field m_Flags, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags m_Flags;
 
   /// @brief Field m_Name, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::UnityEngine::InputSystem::Utilities::InternedString m_Name;
@@ -2644,16 +2628,16 @@ public:
   __declspec(property(get = get_name)) ::UnityEngine::InputSystem::Utilities::InternedString name;
 
   /// @brief Field s_CacheInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CacheInstance, put = setStaticF_s_CacheInstance)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache s_CacheInstance;
+  __declspec(property(get = getStaticF_s_CacheInstance, put = setStaticF_s_CacheInstance)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache s_CacheInstance;
 
   /// @brief Field s_CacheInstanceRef, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_CacheInstanceRef, put = setStaticF_s_CacheInstanceRef)) int32_t s_CacheInstanceRef;
+  __declspec(property(get = getStaticF_s_CacheInstanceRef, put = setStaticF_s_CacheInstanceRef)) int32_t s_CacheInstanceRef;
 
   /// @brief Field s_DefaultVariant, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_s_DefaultVariant, put = setStaticF_s_DefaultVariant)) ::UnityEngine::InputSystem::Utilities::InternedString s_DefaultVariant;
+  __declspec(property(get = getStaticF_s_DefaultVariant, put = setStaticF_s_DefaultVariant)) ::UnityEngine::InputSystem::Utilities::InternedString s_DefaultVariant;
 
   /// @brief Field s_Layouts, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_s_Layouts, put = setStaticF_s_Layouts)) ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection s_Layouts;
+  __declspec(property(get = getStaticF_s_Layouts, put = setStaticF_s_Layouts)) ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection s_Layouts;
 
   __declspec(property(get = get_stateFormat)) ::UnityEngine::InputSystem::Utilities::FourCC stateFormat;
 
@@ -2665,78 +2649,78 @@ public:
 
   __declspec(property(get = get_variants)) ::UnityEngine::InputSystem::Utilities::InternedString variants;
 
-  /// @brief Method AddControlItems, addr 0x45b8138, size 0x7c, virtual false, abstract: false, final false
-  static inline void AddControlItems(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* controlLayouts,
+  /// @brief Method AddControlItems, addr 0x461944c, size 0x7c, virtual false, abstract: false, final false
+  static inline void AddControlItems(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                      ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromFields, addr 0x45b8f7c, size 0x94, virtual false, abstract: false, final false
-  static inline void AddControlItemsFromFields(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* controlLayouts,
+  /// @brief Method AddControlItemsFromFields, addr 0x461a290, size 0x94, virtual false, abstract: false, final false
+  static inline void AddControlItemsFromFields(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                                ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromMember, addr 0x45b95c0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromMember, addr 0x461a8d4, size 0x270, virtual false, abstract: false, final false
   static inline void AddControlItemsFromMember(::System::Reflection::MemberInfo* member,
                                                ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlAttribute*, ::Array<::UnityEngine::InputSystem::Layouts::InputControlAttribute*>*> attributes,
-                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* controlItems);
+                                               ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems);
 
-  /// @brief Method AddControlItemsFromMembers, addr 0x45b90a4, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method AddControlItemsFromMembers, addr 0x461a3b8, size 0x51c, virtual false, abstract: false, final false
   static inline void AddControlItemsFromMembers(::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members,
-                                                ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* controlItems, ::StringW layoutName);
+                                                ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlItems, ::StringW layoutName);
 
-  /// @brief Method AddControlItemsFromProperties, addr 0x45b9010, size 0x94, virtual false, abstract: false, final false
-  static inline void AddControlItemsFromProperties(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* controlLayouts,
+  /// @brief Method AddControlItemsFromProperties, addr 0x461a324, size 0x94, virtual false, abstract: false, final false
+  static inline void AddControlItemsFromProperties(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* controlLayouts,
                                                    ::StringW layoutName);
 
-  /// @brief Method CacheRef, addr 0x45bc1f0, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance CacheRef();
+  /// @brief Method CacheRef, addr 0x461d504, size 0x64, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance CacheRef();
 
-  /// @brief Method CreateControlItemFromMember, addr 0x45b9830, size 0x7f8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem CreateControlItemFromMember(::System::Reflection::MemberInfo* member,
-                                                                                                                   ::UnityEngine::InputSystem::Layouts::InputControlAttribute* attribute);
+  /// @brief Method CreateControlItemFromMember, addr 0x461ab44, size 0x7f8, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem CreateControlItemFromMember(::System::Reflection::MemberInfo* member,
+                                                                                                                ::UnityEngine::InputSystem::Layouts::InputControlAttribute* attribute);
 
-  /// @brief Method CreateLookupTableForControls, addr 0x45bb6e0, size 0x408, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* CreateLookupTableForControls(
-      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> controlItems,
+  /// @brief Method CreateLookupTableForControls, addr 0x461c9f4, size 0x408, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>* CreateLookupTableForControls(
+      ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> controlItems,
       ::System::Collections::Generic::List_1<::StringW>* variants);
 
-  /// @brief Method FindControl, addr 0x45b777c, size 0x190, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> FindControl(::UnityEngine::InputSystem::Utilities::InternedString path);
+  /// @brief Method FindControl, addr 0x4618a90, size 0x190, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControl(::UnityEngine::InputSystem::Utilities::InternedString path);
 
-  /// @brief Method FindControlIncludingArrayElements, addr 0x45b790c, size 0x2e8, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> FindControlIncludingArrayElements(::StringW path, ByRef<int32_t> arrayIndex);
+  /// @brief Method FindControlIncludingArrayElements, addr 0x4618c20, size 0x2e8, virtual false, abstract: false, final false
+  inline ::System::Nullable_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> FindControlIncludingArrayElements(::StringW path, ::ByRef<int32_t> arrayIndex);
 
-  /// @brief Method FromJson, addr 0x45b85c0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x46198d4, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FromJson(::StringW json);
 
-  /// @brief Method FromType, addr 0x45b7c94, size 0x4a4, virtual false, abstract: false, final false
+  /// @brief Method FromType, addr 0x4618fa8, size 0x4a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FromType(::StringW name, ::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x45b7c04, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x4618f18, size 0x90, virtual false, abstract: false, final false
   inline ::System::Type* GetValueType();
 
-  /// @brief Method InferLayoutFromValueType, addr 0x45ba028, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method InferLayoutFromValueType, addr 0x461b33c, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW InferLayoutFromValueType(::System::Type* type);
 
-  /// @brief Method MergeLayout, addr 0x45ba4f8, size 0x11e8, virtual false, abstract: false, final false
+  /// @brief Method MergeLayout, addr 0x461b80c, size 0x11e8, virtual false, abstract: false, final false
   inline void MergeLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* other);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* New_ctor(::StringW name, ::System::Type* type);
 
-  /// @brief Method ParseHeaderFieldsFromJson, addr 0x45bc014, size 0x184, virtual false, abstract: false, final false
-  static inline void ParseHeaderFieldsFromJson(::StringW json, ByRef<::UnityEngine::InputSystem::Utilities::InternedString> name,
-                                               ByRef<::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>> baseLayouts,
-                                               ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> deviceMatcher);
+  /// @brief Method ParseHeaderFieldsFromJson, addr 0x461d328, size 0x184, virtual false, abstract: false, final false
+  static inline void ParseHeaderFieldsFromJson(::StringW json, ::ByRef<::UnityEngine::InputSystem::Utilities::InternedString> name,
+                                               ::ByRef<::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>> baseLayouts,
+                                               ::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher> deviceMatcher);
 
-  /// @brief Method ToJson, addr 0x45b8204, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x4619518, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method VariantsMatch, addr 0x45bbe84, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method VariantsMatch, addr 0x461d198, size 0x12c, virtual false, abstract: false, final false
   static inline bool VariantsMatch(::StringW expected, ::StringW actual);
 
-  /// @brief Method VariantsMatch, addr 0x45bbfb0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method VariantsMatch, addr 0x461d2c4, size 0x64, virtual false, abstract: false, final false
   static inline bool VariantsMatch(::UnityEngine::InputSystem::Utilities::InternedString expected, ::UnityEngine::InputSystem::Utilities::InternedString actual);
 
-  /// @brief Method <MergeLayout>b__77_0, addr 0x45bc2d0, size 0x74, virtual false, abstract: false, final false
-  inline bool _MergeLayout_b__77_0(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem x);
+  /// @brief Method <MergeLayout>b__77_0, addr 0x461d5e4, size 0x74, virtual false, abstract: false, final false
+  inline bool _MergeLayout_b__77_0(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem x);
 
   constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __cordl_internal_get_m_AppliedOverrides() const;
 
@@ -2750,10 +2734,10 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>& __cordl_internal_get_m_CommonUsages();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> const&
   __cordl_internal_get_m_Controls() const;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*>&
   __cordl_internal_get_m_Controls();
 
   constexpr ::StringW const& __cordl_internal_get_m_Description() const;
@@ -2764,9 +2748,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_m_DisplayName();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const& __cordl_internal_get_m_Flags() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags& __cordl_internal_get_m_Flags();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags& __cordl_internal_get_m_Flags();
 
   constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Name() const;
 
@@ -2780,9 +2764,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_StateSizeInBytes();
 
-  constexpr ::System::Type*& __cordl_internal_get_m_Type();
+  constexpr ::System::Type* const& __cordl_internal_get_m_Type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
+  constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_m_UpdateBeforeRender() const;
 
@@ -2798,14 +2782,14 @@ public:
 
   constexpr void __cordl_internal_set_m_CommonUsages(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> value);
 
-  constexpr void __cordl_internal_set_m_Controls(
-      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
+  constexpr void
+  __cordl_internal_set_m_Controls(::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> value);
 
   constexpr void __cordl_internal_set_m_Description(::StringW value);
 
   constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
 
-  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags value);
 
   constexpr void __cordl_internal_set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
 
@@ -2819,101 +2803,101 @@ public:
 
   constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method .ctor, addr 0x45b81b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46194c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Type* type);
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache getStaticF_s_CacheInstance();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache getStaticF_s_CacheInstance();
 
   static inline int32_t getStaticF_s_CacheInstanceRef();
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_s_DefaultVariant();
 
-  static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection getStaticF_s_Layouts();
+  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection getStaticF_s_Layouts();
 
-  /// @brief Method get_DefaultVariant, addr 0x45b7150, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultVariant, addr 0x4618464, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::InternedString get_DefaultVariant();
 
-  /// @brief Method get_Item, addr 0x45b7604, size 0x178, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem get_Item(::StringW path);
+  /// @brief Method get_Item, addr 0x4618918, size 0x178, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem get_Item(::StringW path);
 
-  /// @brief Method get_appliedOverrides, addr 0x45b7258, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_appliedOverrides, addr 0x461856c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_appliedOverrides();
 
-  /// @brief Method get_baseLayouts, addr 0x45b71f8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_baseLayouts, addr 0x461850c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::InternedString>* get_baseLayouts();
 
-  /// @brief Method get_cache, addr 0x45bc198, size 0x58, virtual false, abstract: false, final false
-  static inline ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache> get_cache();
+  /// @brief Method get_cache, addr 0x461d4ac, size 0x58, virtual false, abstract: false, final false
+  static inline ::ByRef<::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache> get_cache();
 
-  /// @brief Method get_canRunInBackground, addr 0x45b7500, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_canRunInBackground, addr 0x4618814, size 0x68, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_canRunInBackground();
 
-  /// @brief Method get_commonUsages, addr 0x45b72b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_commonUsages, addr 0x46185cc, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_commonUsages();
 
-  /// @brief Method get_controls, addr 0x45b7318, size 0x60, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> get_controls();
+  /// @brief Method get_controls, addr 0x461862c, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem> get_controls();
 
-  /// @brief Method get_displayName, addr 0x45b71b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x46184c8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_hideInUI, addr 0x45b74a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hideInUI, addr 0x46187bc, size 0xc, virtual false, abstract: false, final false
   inline bool get_hideInUI();
 
-  /// @brief Method get_isControlLayout, addr 0x45b7448, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_isControlLayout, addr 0x461875c, size 0x18, virtual false, abstract: false, final false
   inline bool get_isControlLayout();
 
-  /// @brief Method get_isDeviceLayout, addr 0x45b73b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_isDeviceLayout, addr 0x46186c8, size 0x94, virtual false, abstract: false, final false
   inline bool get_isDeviceLayout();
 
-  /// @brief Method get_isGenericTypeOfDevice, addr 0x45b748c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isGenericTypeOfDevice, addr 0x46187a0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isGenericTypeOfDevice();
 
-  /// @brief Method get_isNoisy, addr 0x45b74d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNoisy, addr 0x46187e8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNoisy();
 
-  /// @brief Method get_isOverride, addr 0x45b7460, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isOverride, addr 0x4618774, size 0xc, virtual false, abstract: false, final false
   inline bool get_isOverride();
 
-  /// @brief Method get_name, addr 0x45b71a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x46184bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_name();
 
-  /// @brief Method get_stateFormat, addr 0x45b71e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateFormat, addr 0x46184fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_stateFormat();
 
-  /// @brief Method get_stateSizeInBytes, addr 0x45b71f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stateSizeInBytes, addr 0x4618504, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_stateSizeInBytes();
 
-  /// @brief Method get_type, addr 0x45b71d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x46184e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_type();
 
-  /// @brief Method get_updateBeforeRender, addr 0x45b7378, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateBeforeRender, addr 0x461868c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_updateBeforeRender();
 
-  /// @brief Method get_variants, addr 0x45b71dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x46184f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::InternedString get_variants();
 
-  static inline void setStaticF_s_CacheInstance(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache value);
+  static inline void setStaticF_s_CacheInstance(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache value);
 
   static inline void setStaticF_s_CacheInstanceRef(int32_t value);
 
   static inline void setStaticF_s_DefaultVariant(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  static inline void setStaticF_s_Layouts(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  static inline void setStaticF_s_Layouts(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection value);
 
-  /// @brief Method set_canRunInBackground, addr 0x45b7568, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_canRunInBackground, addr 0x461887c, size 0x9c, virtual false, abstract: false, final false
   inline void set_canRunInBackground(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_hideInUI, addr 0x45b74b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_hideInUI, addr 0x46187c8, size 0x20, virtual false, abstract: false, final false
   inline void set_hideInUI(bool value);
 
-  /// @brief Method set_isGenericTypeOfDevice, addr 0x45b7498, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isGenericTypeOfDevice, addr 0x46187ac, size 0x10, virtual false, abstract: false, final false
   inline void set_isGenericTypeOfDevice(bool value);
 
-  /// @brief Method set_isNoisy, addr 0x45b74e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isNoisy, addr 0x46187f4, size 0x20, virtual false, abstract: false, final false
   inline void set_isNoisy(bool value);
 
-  /// @brief Method set_isOverride, addr 0x45b746c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isOverride, addr 0x4618780, size 0x20, virtual false, abstract: false, final false
   inline void set_isOverride(bool value);
 
 protected:
@@ -2929,6 +2913,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "InputControlLayout", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   InputControlLayout(InputControlLayout const&) = delete;
+
+  /// @brief Field VariantSeparator offset 0xffffffff size 0x8
+  static constexpr ::ConstString VariantSeparator{ u";" };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7020 };
 
   /// @brief Field m_Name, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::InputSystem::Utilities::InternedString ___m_Name;
@@ -2958,7 +2948,7 @@ public:
   ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> ___m_CommonUsages;
 
   /// @brief Field m_Controls, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> ___m_Controls;
+  ::ArrayW<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem>*> ___m_Controls;
 
   /// @brief Field m_DisplayName, offset: 0x98, size: 0x8, def value: None
   ::StringW ___m_DisplayName;
@@ -2967,19 +2957,11 @@ public:
   ::StringW ___m_Description;
 
   /// @brief Field m_Flags, offset: 0xa8, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags ___m_Flags;
-
-  /// @brief Field VariantSeparator offset 0xffffffff size 0x8
-  static constexpr ::ConstString VariantSeparator{ u";" };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6995 };
+  ::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags ___m_Flags;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout, 0xb0>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout, ___m_Name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout, ___m_Type) == 0x20, "Offset mismatch!");
@@ -3006,34 +2988,37 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout, 
 
 static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputControlLayout, ___m_Flags) == 0xa8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputControlLayout, 0xb0>, "Size mismatch!");
+
 } // namespace UnityEngine::InputSystem::Layouts
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__ControlItem__Flags, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItem/Flags");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Flags");
-NEED_NO_BOX(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder____c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder/ControlBuilder/<>c");
-NEED_NO_BOX(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection/<GetBaseLayouts>d__24");
-NEED_NO_BOX(::GlobalNamespace::__InputControlLayout__ControlItemJson____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__ControlItemJson____c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItemJson/<>c");
-NEED_NO_BOX(::GlobalNamespace::__InputControlLayout__LayoutJson____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__LayoutJson____c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutJson/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::ControlItem_InputControlLayout_Flags, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItem/Flags");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_Flags, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Flags");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout__GetBaseLayouts_d__24*, "UnityEngine.InputSystem.Layouts",
+                       "InputControlLayout/Collection/<GetBaseLayouts>d__24");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::ControlBuilder_Builder_InputControlLayout___c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder/ControlBuilder/<>c");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::ControlItemJson_InputControlLayout___c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItemJson/<>c");
 NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayout);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout*, "UnityEngine.InputSystem.Layouts", "InputControlLayout");
-NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder");
-NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItemJson");
-NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutNotFoundException*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutNotFoundException");
-NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::__InputControlLayout____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout____c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder/ControlBuilder");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__Collection__LayoutMatcher, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection/LayoutMatcher");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__InputControlLayout__Collection__PrecompiledLayout, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection/PrecompiledLayout");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Cache, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Cache");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance, "UnityEngine.InputSystem.Layouts", "InputControlLayout/CacheRefInstance");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItem");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutJson");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJsonNameAndDescriptorOnly, "UnityEngine.InputSystem.Layouts",
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_Builder*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItemJson*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItemJson");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutNotFoundException*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutNotFoundException");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputControlLayout___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout___c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/<>c");
+NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::LayoutJson_InputControlLayout___c*, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutJson/<>c");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::Builder_InputControlLayout_ControlBuilder, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Builder/ControlBuilder");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_LayoutMatcher, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection/LayoutMatcher");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::Collection_InputControlLayout_PrecompiledLayout, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection/PrecompiledLayout");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_Cache, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Cache");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_CacheRefInstance, "UnityEngine.InputSystem.Layouts", "InputControlLayout/CacheRefInstance");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_Collection, "UnityEngine.InputSystem.Layouts", "InputControlLayout/Collection");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_ControlItem, "UnityEngine.InputSystem.Layouts", "InputControlLayout/ControlItem");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJson, "UnityEngine.InputSystem.Layouts", "InputControlLayout/LayoutJson");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputControlLayout_LayoutJsonNameAndDescriptorOnly, "UnityEngine.InputSystem.Layouts",
                        "InputControlLayout/LayoutJsonNameAndDescriptorOnly");

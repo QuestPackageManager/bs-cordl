@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(UIPainter2D)
 namespace System {
 struct IntPtr;
@@ -15,21 +14,20 @@ class UIPainter2D;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIPainter2D);
-// Type: UnityEngine.UIElements::UIPainter2D
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UIPainter2D*
+// CS Name: UnityEngine.UIElements.UIPainter2D
 class CORDL_TYPE UIPainter2D : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x49db1b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x4a3fac4, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::IntPtr Create(bool computeBBox);
 
-  /// @brief Method Destroy, addr 0x49db1f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x4a3fb00, size 0x3c, virtual false, abstract: false, final false
   static inline void Destroy(::System::IntPtr handle);
 
-  /// @brief Method Reset, addr 0x49db22c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4a3fb3c, size 0x3c, virtual false, abstract: false, final false
   static inline void Reset(::System::IntPtr handle);
 
 protected:
@@ -47,7 +45,7 @@ public:
   UIPainter2D(UIPainter2D const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5990 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

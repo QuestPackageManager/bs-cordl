@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace GlobalNamespace {
-struct __TubeLightBehaviour__ParameterType;
+struct TubeLightBehaviour_ParameterType;
 }
 namespace System {
 class Object;
@@ -33,33 +32,32 @@ struct Playable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __TubeLightBehaviour__ParameterType;
+struct TubeLightBehaviour_ParameterType;
 }
 namespace GlobalNamespace {
 class TubeLightBehaviour;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__TubeLightBehaviour__ParameterType);
+MARK_VAL_T(::GlobalNamespace::TubeLightBehaviour_ParameterType);
 MARK_REF_PTR_T(::GlobalNamespace::TubeLightBehaviour);
-// Type: ::ParameterType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::TubeLightBehaviour::ParameterType
-struct CORDL_TYPE __TubeLightBehaviour__ParameterType {
+// CS Name: TubeLightBehaviour/ParameterType
+struct CORDL_TYPE TubeLightBehaviour_ParameterType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____TubeLightBehaviour__ParameterType_Unwrapped
-  enum struct ____TubeLightBehaviour__ParameterType_Unwrapped : int32_t {
+  /// @brief Nested struct __TubeLightBehaviour_ParameterType_Unwrapped
+  enum struct __TubeLightBehaviour_ParameterType_Unwrapped : int32_t {
     __E_Values = static_cast<int32_t>(0x0),
     __E_References = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____TubeLightBehaviour__ParameterType_Unwrapped() const noexcept {
-    return static_cast<____TubeLightBehaviour__ParameterType_Unwrapped>(this->value__);
+  constexpr operator __TubeLightBehaviour_ParameterType_Unwrapped() const noexcept {
+    return static_cast<__TubeLightBehaviour_ParameterType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -69,43 +67,42 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __TubeLightBehaviour__ParameterType();
+  constexpr TubeLightBehaviour_ParameterType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __TubeLightBehaviour__ParameterType(int32_t value__) noexcept;
+  constexpr TubeLightBehaviour_ParameterType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field References value: I32(1)
+  static ::GlobalNamespace::TubeLightBehaviour_ParameterType const References;
 
-  /// @brief Field References value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const References;
-
-  /// @brief Field Values value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__TubeLightBehaviour__ParameterType const Values;
+  /// @brief Field Values value: I32(0)
+  static ::GlobalNamespace::TubeLightBehaviour_ParameterType const Values;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5208 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TubeLightBehaviour__ParameterType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour_ParameterType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightBehaviour_ParameterType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::TubeLightBehaviour
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.Playables.PlayableBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TubeLightBehaviour*
+// CS Name: TubeLightBehaviour
 class CORDL_TYPE TubeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
-  using ParameterType = ::GlobalNamespace::__TubeLightBehaviour__ParameterType;
+  using ParameterType = ::GlobalNamespace::TubeLightBehaviour_ParameterType;
 
   /// @brief Field _directionalLights, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__directionalLights,
@@ -143,10 +140,10 @@ public:
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x3ad5400, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x3b34a44, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x3ad4ff4, size 0x40c, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x3b34638, size 0x40c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -209,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method .ctor, addr 0x3ad54cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b34b10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,6 +222,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TubeLightBehaviour(TubeLightBehaviour const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5209 };
 
   /// @brief Field _noPredefinedStartValue, offset: 0x10, size: 0x1, def value: None
   bool ____noPredefinedStartValue;
@@ -256,14 +256,9 @@ public:
   /// @brief Field _firstFrameColor, offset: 0x54, size: 0x10, def value: None
   ::UnityEngine::Color ____firstFrameColor;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5189 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightBehaviour, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____noPredefinedStartValue) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___startColor) == 0x18, "Offset mismatch!");
@@ -284,7 +279,9 @@ static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ___started) == 0x5
 
 static_assert(offsetof(::GlobalNamespace::TubeLightBehaviour, ____firstFrameColor) == 0x54, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeLightBehaviour, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TubeLightBehaviour__ParameterType, "", "TubeLightBehaviour/ParameterType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightBehaviour_ParameterType, "", "TubeLightBehaviour/ParameterType");
 NEED_NO_BOX(::GlobalNamespace::TubeLightBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeLightBehaviour*, "", "TubeLightBehaviour");

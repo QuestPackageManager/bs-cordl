@@ -3,28 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeserializableList_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,13 +26,12 @@ template <typename T> class DeserializableList_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Oculus::Platform::Models::DeserializableList_1);
-// Type: Oculus.Platform.Models::DeserializableList`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.IEnumerable, System.Object
 namespace Oculus::Platform::Models {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::DeserializableList`1<T>*
+// CS Name: Oculus.Platform.Models.DeserializableList`1<T>
 class CORDL_TYPE DeserializableList_1 : public ::System::Object {
 public:
   // Declarations
@@ -120,9 +110,9 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__Data();
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get__Data() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__Data() const;
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__Data();
 
   constexpr ::StringW const& __cordl_internal_get__NextUrl() const;
 
@@ -191,6 +181,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DeserializableList_1(DeserializableList_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15512 };
+
   /// @brief Field _Data, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ____Data;
 
@@ -199,9 +192,6 @@ public:
 
   /// @brief Field _PreviousUrl, offset: 0x20, size: 0x8, def value: None
   ::StringW ____PreviousUrl;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15477 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,35 +17,30 @@ class ITextElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::ITextElement);
-// Type: TMPro::ITextElement
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::ITextElement*
+// CS Name: TMPro.ITextElement
 class CORDL_TYPE ITextElement {
 public:
   // Declarations
   __declspec(property(get = get_sharedMaterial)) ::UnityW<::UnityEngine::Material> sharedMaterial;
 
-  /// @brief Method GetInstanceID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetInstanceID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetInstanceID();
 
-  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Rebuild, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_sharedMaterial, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITextElement(ITextElement&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ITextElement(ITextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14545 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

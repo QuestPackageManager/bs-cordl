@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::TimeSpan)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c7acc0;
+  constexpr static std::size_t addrs = 0x3cdae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::Runtime::Remoting::ServerIdentity*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c7adb4;
+  constexpr static std::size_t addrs = 0x3cdaf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::StartManager)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3c7aee4;
+  constexpr static std::size_t addrs = 0x3cdb058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LeaseManager*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::StopManager)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c7b038;
+  constexpr static std::size_t addrs = 0x3cdb1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LeaseManager*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::ManageLeases)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3c7b054;
+  constexpr static std::size_t addrs = 0x3cdb1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseManager::*)()>(
     &::System::Runtime::Remoting::Lifetime::LeaseManager::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c7b2b4;
+  constexpr static std::size_t addrs = 0x3cdb428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LeaseManager*>::get(),
@@ -98,7 +98,7 @@ constexpr ::System::Collections::ArrayList*& System::Runtime::Remoting::Lifetime
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Runtime::Remoting::Lifetime::LeaseManager::__cordl_internal_get__objects() const {
+constexpr ::System::Collections::ArrayList* const& System::Runtime::Remoting::Lifetime::LeaseManager::__cordl_internal_get__objects() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____objects;
 }
@@ -110,7 +110,7 @@ constexpr ::System::Threading::Timer*& System::Runtime::Remoting::Lifetime::Leas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& System::Runtime::Remoting::Lifetime::LeaseManager::__cordl_internal_get__timer() const {
+constexpr ::System::Threading::Timer* const& System::Runtime::Remoting::Lifetime::LeaseManager::__cordl_internal_get__timer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timer;
 }
@@ -146,13 +146,13 @@ inline void System::Runtime::Remoting::Lifetime::LeaseManager::ManageLeases(::Sy
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
-inline ::System::Runtime::Remoting::Lifetime::LeaseManager* System::Runtime::Remoting::Lifetime::LeaseManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Lifetime::LeaseManager*>());
-}
 inline void System::Runtime::Remoting::Lifetime::LeaseManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::LeaseManager*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::Lifetime::LeaseManager* System::Runtime::Remoting::Lifetime::LeaseManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Lifetime::LeaseManager*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Lifetime::LeaseManager::LeaseManager() {}

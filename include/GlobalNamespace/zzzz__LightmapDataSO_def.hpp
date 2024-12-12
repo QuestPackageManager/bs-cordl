@@ -14,11 +14,10 @@ class LightmapDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightmapDataSO);
-// Type: ::LightmapDataSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightmapDataSO*
+// CS Name: LightmapDataSO
 class CORDL_TYPE LightmapDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -46,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__lightmap2(::UnityW<::UnityEngine::Texture2D> value);
 
-  /// @brief Method .ctor, addr 0x3ab7d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b14c5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightmap1, addr 0x3ab7cf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap1, addr 0x3b14c3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap1();
 
-  /// @brief Method get_lightmap2, addr 0x3ab7d08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmap2, addr 0x3b14c4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_lightmap2();
 
-  /// @brief Method set_lightmap1, addr 0x3ab7d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap1, addr 0x3b14c44, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap1(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_lightmap2, addr 0x3ab7d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmap2, addr 0x3b14c54, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmap2(::UnityEngine::Texture2D* value);
 
 protected:
@@ -75,23 +74,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightmapDataSO(LightmapDataSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5057 };
+
   /// @brief Field _lightmap1, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____lightmap1;
 
   /// @brief Field _lightmap2, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Texture2D> ____lightmap2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5038 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapDataSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightmapDataSO, ____lightmap1) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightmapDataSO, ____lightmap2) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmapDataSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightmapDataSO);

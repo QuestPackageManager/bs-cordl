@@ -15,15 +15,14 @@ struct NamespaceCache;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Linq::NamespaceCache);
-// Type: System.Xml.Linq::NamespaceCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Linq {
 // Is value type: true
-// CS Name: ::System.Xml.Linq::NamespaceCache
+// CS Name: System.Xml.Linq.NamespaceCache
 struct CORDL_TYPE NamespaceCache {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x41e7474, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x4248788, size 0x34, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
   // Ctor Parameters []
@@ -34,26 +33,26 @@ public:
   // None }]
   constexpr NamespaceCache(::System::Xml::Linq::XNamespace* _ns, ::StringW _namespaceName) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field _ns, offset: 0x0, size: 0x8, def value: None
   ::System::Xml::Linq::XNamespace* _ns;
 
   /// @brief Field _namespaceName, offset: 0x8, size: 0x8, def value: None
   ::StringW _namespaceName;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17912 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::NamespaceCache, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::NamespaceCache, _ns) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::NamespaceCache, _namespaceName) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::NamespaceCache, 0x10>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::NamespaceCache, "System.Xml.Linq", "NamespaceCache");

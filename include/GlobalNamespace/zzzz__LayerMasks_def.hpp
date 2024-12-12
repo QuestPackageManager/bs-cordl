@@ -17,44 +17,43 @@ class LayerMasks;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LayerMasks);
-// Type: ::LayerMasks
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.LayerMask
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LayerMasks*
+// CS Name: LayerMasks
 class CORDL_TYPE LayerMasks : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cutEffectParticlesLayer, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_cutEffectParticlesLayer, put = setStaticF_cutEffectParticlesLayer)) int32_t cutEffectParticlesLayer;
+  __declspec(property(get = getStaticF_cutEffectParticlesLayer, put = setStaticF_cutEffectParticlesLayer)) int32_t cutEffectParticlesLayer;
 
   /// @brief Field cutEffectParticlesLayerMask, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_cutEffectParticlesLayerMask, put = setStaticF_cutEffectParticlesLayerMask)) ::UnityEngine::LayerMask cutEffectParticlesLayerMask;
+  __declspec(property(get = getStaticF_cutEffectParticlesLayerMask, put = setStaticF_cutEffectParticlesLayerMask)) ::UnityEngine::LayerMask cutEffectParticlesLayerMask;
 
   /// @brief Field noteDebrisLayer, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_noteDebrisLayer, put = setStaticF_noteDebrisLayer)) int32_t noteDebrisLayer;
+  __declspec(property(get = getStaticF_noteDebrisLayer, put = setStaticF_noteDebrisLayer)) int32_t noteDebrisLayer;
 
   /// @brief Field noteDebrisLayerMask, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_noteDebrisLayerMask, put = setStaticF_noteDebrisLayerMask)) ::UnityEngine::LayerMask noteDebrisLayerMask;
+  __declspec(property(get = getStaticF_noteDebrisLayerMask, put = setStaticF_noteDebrisLayerMask)) ::UnityEngine::LayerMask noteDebrisLayerMask;
 
   /// @brief Field noteLayerMask, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_noteLayerMask, put = setStaticF_noteLayerMask)) ::UnityEngine::LayerMask noteLayerMask;
+  __declspec(property(get = getStaticF_noteLayerMask, put = setStaticF_noteLayerMask)) ::UnityEngine::LayerMask noteLayerMask;
 
   /// @brief Field saberLayerMask, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
+  __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
 
-  /// @brief Method GetLayer, addr 0x266c5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLayer, addr 0x26a0494, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetLayer(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x266c594, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x26a043c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayerMask, addr 0x266c5c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x26a046c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
 
   static inline ::GlobalNamespace::LayerMasks* New_ctor();
 
-  /// @brief Method .ctor, addr 0x266c5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a049c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_cutEffectParticlesLayer();
@@ -96,7 +95,7 @@ public:
   LayerMasks(LayerMasks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

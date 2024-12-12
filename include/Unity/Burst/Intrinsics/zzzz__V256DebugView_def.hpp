@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v256_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(V256DebugView)
@@ -18,11 +17,10 @@ class V256DebugView;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::Intrinsics::V256DebugView);
-// Type: Unity.Burst.Intrinsics::V256DebugView
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Unity.Burst.Intrinsics.v256
 namespace Unity::Burst::Intrinsics {
 // Is value type: false
-// CS Name: ::Unity.Burst.Intrinsics::V256DebugView*
+// CS Name: Unity.Burst.Intrinsics.V256DebugView
 class CORDL_TYPE V256DebugView : public ::System::Object {
 public:
   // Declarations
@@ -57,37 +55,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::Unity::Burst::Intrinsics::v256 value);
 
-  /// @brief Method .ctor, addr 0x44c5d48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x452705c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::Intrinsics::v256 value);
 
-  /// @brief Method get_Byte, addr 0x44c5d74, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method get_Byte, addr 0x4527088, size 0x258, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Byte();
 
-  /// @brief Method get_Double, addr 0x44c688c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Double, addr 0x4527ba0, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<double_t, ::Array<double_t>*> get_Double();
 
-  /// @brief Method get_Float, addr 0x44c6684, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_Float, addr 0x4527998, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Float();
 
-  /// @brief Method get_SByte, addr 0x44c5fcc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method get_SByte, addr 0x45272e0, size 0x258, virtual false, abstract: false, final false
   inline ::ArrayW<int8_t, ::Array<int8_t>*> get_SByte();
 
-  /// @brief Method get_SInt, addr 0x44c65ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_SInt, addr 0x45278c0, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_SInt();
 
-  /// @brief Method get_SLong, addr 0x44c675c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_SLong, addr 0x4527a70, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> get_SLong();
 
-  /// @brief Method get_SShort, addr 0x44c637c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_SShort, addr 0x4527690, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<int16_t, ::Array<int16_t>*> get_SShort();
 
-  /// @brief Method get_UInt, addr 0x44c64d4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_UInt, addr 0x45277e8, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_UInt();
 
-  /// @brief Method get_ULong, addr 0x44c67f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ULong, addr 0x4527b08, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<uint64_t, ::Array<uint64_t>*> get_ULong();
 
-  /// @brief Method get_UShort, addr 0x44c6224, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_UShort, addr 0x4527538, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> get_UShort();
 
 protected:
@@ -104,18 +102,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   V256DebugView(V256DebugView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14640 };
+
   /// @brief Field m_Value, offset: 0x10, size: 0x20, def value: None
   ::Unity::Burst::Intrinsics::v256 ___m_Value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14606 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Burst::Intrinsics::V256DebugView, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Burst::Intrinsics::V256DebugView, ___m_Value) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Burst::Intrinsics::V256DebugView, 0x30>, "Size mismatch!");
 
 } // namespace Unity::Burst::Intrinsics
 NEED_NO_BOX(::Unity::Burst::Intrinsics::V256DebugView);

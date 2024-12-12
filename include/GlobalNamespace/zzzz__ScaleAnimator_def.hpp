@@ -30,11 +30,10 @@ class ScaleAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ScaleAnimator);
-// Type: ::ScaleAnimator
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ScaleAnimator*
+// CS Name: ScaleAnimator
 class CORDL_TYPE ScaleAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -56,36 +55,36 @@ public:
   /// @brief Field _tweeningManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x3b7ece8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x3be0534, size 0x100, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method HideInstant, addr 0x3b7ebd0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x3be041c, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x3b7e914, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x3be0160, size 0x244, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b7e88c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3be00d8, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x3b7eb58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3be03a4, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ShowInstant, addr 0x3b7ec78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShowInstant, addr 0x3be04c4, size 0x70, virtual false, abstract: false, final false
   inline void ShowInstant();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x3b7edf8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x3be0644, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x3b7ee48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x3be0694, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x3b7ee1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x3be0668, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x3b7ee6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x3be06b8, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
   constexpr float_t const& __cordl_internal_get__displayedScale() const;
@@ -96,13 +95,13 @@ public:
 
   constexpr bool& __cordl_internal_get__initialized();
 
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__scaleDownTween() const;
+
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleDownTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleDownTween() const;
+  constexpr ::Tweening::Tween_1<float_t>* const& __cordl_internal_get__scaleUpTween() const;
 
   constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
-
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
@@ -124,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b7ede8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be0634, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,6 +139,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ScaleAnimator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ScaleAnimator(ScaleAnimator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4617 };
 
   /// @brief Field _displayedScale, offset: 0x20, size: 0x4, def value: None
   float_t ____displayedScale;
@@ -159,14 +161,9 @@ public:
   /// @brief Field _initialized, offset: 0x48, size: 0x1, def value: None
   bool ____initialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4605 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScaleAnimator, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ScaleAnimator, ____displayedScale) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScaleAnimator, ____targetTransform) == 0x28, "Offset mismatch!");
@@ -178,6 +175,8 @@ static_assert(offsetof(::GlobalNamespace::ScaleAnimator, ____scaleUpTween) == 0x
 static_assert(offsetof(::GlobalNamespace::ScaleAnimator, ____scaleDownTween) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScaleAnimator, ____initialized) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScaleAnimator, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScaleAnimator);

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23b9628;
+  constexpr static std::size_t addrs = 0x23ec914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::ProcessFinished)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x23b969c;
+  constexpr static std::size_t addrs = 0x23ec988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*, int16_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::ApplyMaxFragmentLengthExtension)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x23b97c0;
+  constexpr static std::size_t addrs = 0x23ecaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(bool, ::System::Collections::IDictionary*, ::System::Collections::IDictionary*, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::EvaluateMaxFragmentLengthExtension)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23b9854;
+  constexpr static std::size_t addrs = 0x23ecb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::Tls::Certificate*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::GenerateCertificate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23b98f8;
+  constexpr static std::size_t addrs = 0x23ecbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::GenerateSupplementalData)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23b997c;
+  constexpr static std::size_t addrs = 0x23ecc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::ValidateSelectedCipherSuite)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23b99f8;
+  constexpr static std::size_t addrs = 0x23ecce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,16 +119,13 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecureRandom;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Tls::DtlsProtocol::__cordl_internal_get_mSecureRandom() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::Tls::DtlsProtocol::__cordl_internal_get_mSecureRandom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mSecureRandom;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::__cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mSecureRandom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* Org::BouncyCastle::Crypto::Tls::DtlsProtocol::New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DtlsProtocol*>(secureRandom));
 }
 inline void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -174,6 +171,9 @@ inline void Org::BouncyCastle::Crypto::Tls::DtlsProtocol::ValidateSelectedCipher
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsProtocol*>::get(), "ValidateSelectedCipherSuite", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, selectedCipherSuite, alertDescription);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol* Org::BouncyCastle::Crypto::Tls::DtlsProtocol::New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DtlsProtocol*>(secureRandom));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsProtocol::DtlsProtocol() {}

@@ -12,11 +12,10 @@ struct NoteType;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType);
-// Type: BeatmapSaveDataVersion2_6_0AndEarlier::NoteType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType
+// CS Name: BeatmapSaveDataVersion2_6_0AndEarlier.NoteType
 struct CORDL_TYPE NoteType {
 public:
   // Declarations
@@ -48,36 +47,36 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NoteType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Bomb value: static_cast<int32_t>(0x3)
+  /// @brief Field Bomb value: I32(3)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const Bomb;
 
-  /// @brief Field GhostNote value: static_cast<int32_t>(0x2)
+  /// @brief Field GhostNote value: I32(2)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const GhostNote;
 
-  /// @brief Field None value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field None value: I32(-1)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const None;
 
-  /// @brief Field NoteA value: static_cast<int32_t>(0x0)
+  /// @brief Field NoteA value: I32(0)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const NoteA;
 
-  /// @brief Field NoteB value: static_cast<int32_t>(0x1)
+  /// @brief Field NoteB value: I32(1)
   static ::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType const NoteB;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13427 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType, 0x4>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion2_6_0AndEarlier
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion2_6_0AndEarlier::NoteType, "BeatmapSaveDataVersion2_6_0AndEarlier", "NoteType");

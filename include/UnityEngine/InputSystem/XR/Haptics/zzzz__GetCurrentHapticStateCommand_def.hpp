@@ -3,16 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetCurrentHapticStateCommand)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -25,11 +20,10 @@ struct GetCurrentHapticStateCommand;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand);
-// Type: UnityEngine.InputSystem.XR.Haptics::GetCurrentHapticStateCommand
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: Some(0) }
+// Dependencies UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.InputDeviceCommand
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.XR.Haptics::GetCurrentHapticStateCommand
+// CS Name: UnityEngine.InputSystem.XR.Haptics.GetCurrentHapticStateCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE GetCurrentHapticStateCommand {
 public:
@@ -50,7 +44,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x45862d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x45e75e8, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -71,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_samplesQueued(uint32_t value);
 
-  /// @brief Method get_Type, addr 0x458626c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x45e7580, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_currentState, addr 0x45862cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentState, addr 0x45e75e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Haptics::HapticState get_currentState();
 
-  /// @brief Method get_typeStatic, addr 0x458629c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x45e75b0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -140,7 +134,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6748 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

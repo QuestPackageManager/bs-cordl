@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__FtpMethodFlags_def.hpp"
 #include "System/Net/zzzz__FtpOperation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FtpMethodInfo)
 namespace System::Net {
@@ -21,11 +20,10 @@ class FtpMethodInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
-// Type: System.Net::FtpMethodInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.FtpMethodFlags, System.Net.FtpOperation, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::FtpMethodInfo*
+// CS Name: System.Net.FtpMethodInfo
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {
 public:
   // Declarations
@@ -50,13 +48,12 @@ public:
   __declspec(property(get = get_ShouldParseForResponseUri)) bool ShouldParseForResponseUri;
 
   /// @brief Field s_knownMethodInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_knownMethodInfo, put = setStaticF_s_knownMethodInfo)) ::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*>
-      s_knownMethodInfo;
+  __declspec(property(get = getStaticF_s_knownMethodInfo, put = setStaticF_s_knownMethodInfo)) ::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> s_knownMethodInfo;
 
-  /// @brief Method GetMethodInfo, addr 0x4434040, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetMethodInfo, addr 0x4495354, size 0x160, virtual false, abstract: false, final false
   static inline ::System::Net::FtpMethodInfo* GetMethodInfo(::StringW method);
 
-  /// @brief Method HasFlag, addr 0x4431c98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x4492fac, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Net::FtpMethodFlags flags);
 
   static inline ::System::Net::FtpMethodInfo* New_ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
@@ -85,21 +82,21 @@ public:
 
   constexpr void __cordl_internal_set_Operation(::System::Net::FtpOperation value);
 
-  /// @brief Method .ctor, addr 0x4433ffc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4495310, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW method, ::System::Net::FtpOperation operation, ::System::Net::FtpMethodFlags flags, ::StringW httpCommand);
 
   static inline ::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> getStaticF_s_knownMethodInfo();
 
-  /// @brief Method get_IsCommandOnly, addr 0x4431e38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsCommandOnly, addr 0x449314c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsCommandOnly();
 
-  /// @brief Method get_IsDownload, addr 0x4432c2c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDownload, addr 0x4493f40, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDownload();
 
-  /// @brief Method get_IsUpload, addr 0x4432c20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsUpload, addr 0x4493f34, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsUpload();
 
-  /// @brief Method get_ShouldParseForResponseUri, addr 0x44304cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ShouldParseForResponseUri, addr 0x44917e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_ShouldParseForResponseUri();
 
   static inline void setStaticF_s_knownMethodInfo(::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> value);
@@ -118,6 +115,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FtpMethodInfo(FtpMethodInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9562 };
+
   /// @brief Field Method, offset: 0x10, size: 0x8, def value: None
   ::StringW ___Method;
 
@@ -130,14 +130,9 @@ public:
   /// @brief Field HttpCommand, offset: 0x20, size: 0x8, def value: None
   ::StringW ___HttpCommand;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9537 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::FtpMethodInfo, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::FtpMethodInfo, ___Method) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::FtpMethodInfo, ___Operation) == 0x18, "Offset mismatch!");
@@ -145,6 +140,8 @@ static_assert(offsetof(::System::Net::FtpMethodInfo, ___Operation) == 0x18, "Off
 static_assert(offsetof(::System::Net::FtpMethodInfo, ___Flags) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::FtpMethodInfo, ___HttpCommand) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::FtpMethodInfo, 0x28>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::FtpMethodInfo);

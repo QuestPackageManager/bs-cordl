@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)(
     ::StringW, ::StringW, ::StringW, ::System::Runtime::Remoting::WellKnownObjectMode)>(&::System::Runtime::Remoting::WellKnownServiceTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c762f0;
+  constexpr static std::size_t addrs = 0x3cd6464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::WellKnownObjectMode (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c76424;
+  constexpr static std::size_t addrs = 0x3cd6598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c7642c;
+  constexpr static std::size_t addrs = 0x3cd65a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::get_ObjectUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c76434;
+  constexpr static std::size_t addrs = 0x3cd65a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownServiceTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownServiceTypeEntry::ToString)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c7643c;
+  constexpr static std::size_t addrs = 0x3cd65b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ constexpr ::System::Type*& System::Runtime::Remoting::WellKnownServiceTypeEntry:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Remoting::WellKnownServiceTypeEntry::__cordl_internal_get_obj_type() const {
+constexpr ::System::Type* const& System::Runtime::Remoting::WellKnownServiceTypeEntry::__cordl_internal_get_obj_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obj_type;
 }
@@ -116,10 +116,6 @@ constexpr void System::Runtime::Remoting::WellKnownServiceTypeEntry::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___obj_mode = value;
 }
-inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* System::Runtime::Remoting::WellKnownServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
-                                                                                                                              ::System::Runtime::Remoting::WellKnownObjectMode mode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(typeName, assemblyName, objectUri, mode));
-}
 inline void System::Runtime::Remoting::WellKnownServiceTypeEntry::_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri, ::System::Runtime::Remoting::WellKnownObjectMode mode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -148,6 +144,10 @@ inline ::StringW System::Runtime::Remoting::WellKnownServiceTypeEntry::ToString(
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* System::Runtime::Remoting::WellKnownServiceTypeEntry::New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
+                                                                                                                              ::System::Runtime::Remoting::WellKnownObjectMode mode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::WellKnownServiceTypeEntry*>(typeName, assemblyName, objectUri, mode));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::WellKnownServiceTypeEntry::WellKnownServiceTypeEntry() {}

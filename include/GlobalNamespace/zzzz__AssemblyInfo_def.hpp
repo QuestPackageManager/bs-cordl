@@ -12,25 +12,24 @@ class AssemblyInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AssemblyInfo);
-// Type: ::AssemblyInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AssemblyInfo*
+// CS Name: AssemblyInfo
 class CORDL_TYPE AssemblyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field version, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_version, put = setStaticF_version)) ::StringW version;
+  __declspec(property(get = getStaticF_version, put = setStaticF_version)) ::StringW version;
 
   static inline ::GlobalNamespace::AssemblyInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cbe84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff170, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_version();
 
-  /// @brief Method get_Version, addr 0x25cbd10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x25feffc, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW get_Version();
 
   static inline void setStaticF_version(::StringW value);

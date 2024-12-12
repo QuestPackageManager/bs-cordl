@@ -17,11 +17,10 @@ class XmlLinkedNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlLinkedNode);
-// Type: System.Xml::XmlLinkedNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.XmlNode
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlLinkedNode*
+// CS Name: System.Xml.XmlLinkedNode
 class CORDL_TYPE XmlLinkedNode : public ::System::Xml::XmlNode {
 public:
   // Declarations
@@ -34,19 +33,19 @@ public:
 
   static inline ::System::Xml::XmlLinkedNode* New_ctor(::System::Xml::XmlDocument* doc);
 
-  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_next();
+  constexpr ::System::Xml::XmlLinkedNode* const& __cordl_internal_get_next() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __cordl_internal_get_next() const;
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_next();
 
   constexpr void __cordl_internal_set_next(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method .ctor, addr 0x42d2c04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4333f18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_NextSibling, addr 0x42dad74, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method get_NextSibling, addr 0x433c088, size 0x50, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_NextSibling();
 
-  /// @brief Method get_PreviousSibling, addr 0x42dad0c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_PreviousSibling, addr 0x433c020, size 0x68, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_PreviousSibling();
 
 protected:
@@ -63,18 +62,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlLinkedNode(XmlLinkedNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7298 };
+
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::System::Xml::XmlLinkedNode* ___next;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlLinkedNode, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlLinkedNode, ___next) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlLinkedNode, 0x20>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlLinkedNode);

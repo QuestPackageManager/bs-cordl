@@ -24,15 +24,14 @@ class JsonException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonException);
-// Type: Newtonsoft.Json::JsonException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonException*
+// CS Name: Newtonsoft.Json.JsonException
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3e1a594, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3e7a640, size 0xa4, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
@@ -43,16 +42,16 @@ public:
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e1a3e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a490, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e1a514, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a5c0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e1a43c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a4e8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e1a4a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7a550, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -70,7 +69,7 @@ public:
   JsonException(JsonException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10039 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,9 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(PerformanceReport)
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -20,25 +20,30 @@ class PerformanceReport;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PerformanceReport);
-// Type: ::PerformanceReport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PerformanceReport*
+// CS Name: PerformanceReport
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateReportDescriptor, addr 0x3ac5374, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x3b23528, size 0xf8, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x3ac5300, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x3b234b4, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListAggregatedFps, addr 0x3ac4fec, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ListAggregatedFps, addr 0x3b231a0, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
 
-  /// @brief Method ListFrameDurations, addr 0x3ac4ed0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ListFrameDurations, addr 0x3b23084, size 0x11c, virtual false, abstract: false, final false
   static inline ::StringW ListFrameDurations(::ArrayW<float_t, ::Array<float_t>*> frameDurations);
+
+  /// @brief Method ListStat, addr 0x3b23bec, size 0x11c, virtual false, abstract: false, final false
+  static inline ::StringW ListStat(::ArrayW<float_t, ::Array<float_t>*> statList);
+
+  /// @brief Method ListStat, addr 0x3b23d08, size 0x104, virtual false, abstract: false, final false
+  static inline ::StringW ListStat(::ArrayW<int64_t, ::Array<int64_t>*> statList);
 
 protected:
   // Ctor Parameters []
@@ -55,10 +60,10 @@ public:
   PerformanceReport(PerformanceReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5124 };
 
   /// @brief Field kDefaultFpsWindow offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultFpsWindow{ 1.0 };
+  static constexpr float_t kDefaultFpsWindow{ static_cast<float_t>(1.0f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -10,172 +10,168 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Vector3PropertyBag)
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__XProperty;
+class Vector3PropertyBag_XProperty;
 }
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__YProperty;
+class Vector3PropertyBag_YProperty;
 }
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__ZProperty;
+class Vector3PropertyBag_ZProperty;
 }
 // Forward declare root types
 namespace Unity::Properties::Internal {
 class Vector3PropertyBag;
 }
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__XProperty;
+class Vector3PropertyBag_XProperty;
 }
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__YProperty;
+class Vector3PropertyBag_YProperty;
 }
 namespace Unity::Properties::Internal {
-class __Vector3PropertyBag__ZProperty;
+class Vector3PropertyBag_ZProperty;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Properties::Internal::Vector3PropertyBag);
-MARK_REF_PTR_T(::Unity::Properties::Internal::__Vector3PropertyBag__XProperty);
-MARK_REF_PTR_T(::Unity::Properties::Internal::__Vector3PropertyBag__YProperty);
-MARK_REF_PTR_T(::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty);
-// Type: ::XProperty
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Unity::Properties::Internal::Vector3PropertyBag_XProperty);
+MARK_REF_PTR_T(::Unity::Properties::Internal::Vector3PropertyBag_YProperty);
+MARK_REF_PTR_T(::Unity::Properties::Internal::Vector3PropertyBag_ZProperty);
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector3
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Vector3PropertyBag::XProperty*
-class CORDL_TYPE __Vector3PropertyBag__XProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
+// CS Name: Unity.Properties.Internal.Vector3PropertyBag/XProperty
+class CORDL_TYPE Vector3PropertyBag_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  static inline ::Unity::Properties::Internal::__Vector3PropertyBag__XProperty* New_ctor();
+  static inline ::Unity::Properties::Internal::Vector3PropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48af7cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913e5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x48af8a4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4913f34, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Vector3PropertyBag__XProperty();
+  constexpr Vector3PropertyBag_XProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__XProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_XProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Vector3PropertyBag__XProperty(__Vector3PropertyBag__XProperty&&) = delete;
+  Vector3PropertyBag_XProperty(Vector3PropertyBag_XProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__XProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_XProperty", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Vector3PropertyBag__XProperty(__Vector3PropertyBag__XProperty const&) = delete;
+  Vector3PropertyBag_XProperty(Vector3PropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::__Vector3PropertyBag__XProperty, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector3PropertyBag_XProperty, 0x18>, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Type: ::YProperty
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector3
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Vector3PropertyBag::YProperty*
-class CORDL_TYPE __Vector3PropertyBag__YProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
+// CS Name: Unity.Properties.Internal.Vector3PropertyBag/YProperty
+class CORDL_TYPE Vector3PropertyBag_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  static inline ::Unity::Properties::Internal::__Vector3PropertyBag__YProperty* New_ctor();
+  static inline ::Unity::Properties::Internal::Vector3PropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48af814, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913ea4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x48af8e4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4913f74, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Vector3PropertyBag__YProperty();
+  constexpr Vector3PropertyBag_YProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__YProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_YProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Vector3PropertyBag__YProperty(__Vector3PropertyBag__YProperty&&) = delete;
+  Vector3PropertyBag_YProperty(Vector3PropertyBag_YProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__YProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_YProperty", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Vector3PropertyBag__YProperty(__Vector3PropertyBag__YProperty const&) = delete;
+  Vector3PropertyBag_YProperty(Vector3PropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17450 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::__Vector3PropertyBag__YProperty, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector3PropertyBag_YProperty, 0x18>, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Type: ::ZProperty
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Vector3
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Vector3PropertyBag::ZProperty*
-class CORDL_TYPE __Vector3PropertyBag__ZProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
+// CS Name: Unity.Properties.Internal.Vector3PropertyBag/ZProperty
+class CORDL_TYPE Vector3PropertyBag_ZProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
   __declspec(property(get = get_Name)) ::StringW Name;
 
-  static inline ::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty* New_ctor();
+  static inline ::Unity::Properties::Internal::Vector3PropertyBag_ZProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48af85c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913eec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x48af924, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4913fb4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Vector3PropertyBag__ZProperty();
+  constexpr Vector3PropertyBag_ZProperty();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__ZProperty", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_ZProperty", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Vector3PropertyBag__ZProperty(__Vector3PropertyBag__ZProperty&&) = delete;
+  Vector3PropertyBag_ZProperty(Vector3PropertyBag_ZProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Vector3PropertyBag__ZProperty", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Vector3PropertyBag_ZProperty", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Vector3PropertyBag__ZProperty(__Vector3PropertyBag__ZProperty const&) = delete;
+  Vector3PropertyBag_ZProperty(Vector3PropertyBag_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17495 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vector3PropertyBag_ZProperty, 0x18>, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Type: Unity.Properties.Internal::Vector3PropertyBag
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.Vector3
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Unity.Properties.Internal::Vector3PropertyBag*
+// CS Name: Unity.Properties.Internal.Vector3PropertyBag
 class CORDL_TYPE Vector3PropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::Vector3> {
 public:
   // Declarations
-  using XProperty = ::Unity::Properties::Internal::__Vector3PropertyBag__XProperty;
+  using XProperty = ::Unity::Properties::Internal::Vector3PropertyBag_XProperty;
 
-  using YProperty = ::Unity::Properties::Internal::__Vector3PropertyBag__YProperty;
+  using YProperty = ::Unity::Properties::Internal::Vector3PropertyBag_YProperty;
 
-  using ZProperty = ::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty;
+  using ZProperty = ::Unity::Properties::Internal::Vector3PropertyBag_ZProperty;
 
   static inline ::Unity::Properties::Internal::Vector3PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48ae9f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4913084, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +189,7 @@ public:
   Vector3PropertyBag(Vector3PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17496 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -203,9 +199,9 @@ static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::Vec
 } // namespace Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::Vector3PropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector3PropertyBag*, "Unity.Properties.Internal", "Vector3PropertyBag");
-NEED_NO_BOX(::Unity::Properties::Internal::__Vector3PropertyBag__XProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::__Vector3PropertyBag__XProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/XProperty");
-NEED_NO_BOX(::Unity::Properties::Internal::__Vector3PropertyBag__YProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::__Vector3PropertyBag__YProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/YProperty");
-NEED_NO_BOX(::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::__Vector3PropertyBag__ZProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/ZProperty");
+NEED_NO_BOX(::Unity::Properties::Internal::Vector3PropertyBag_XProperty);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector3PropertyBag_XProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/XProperty");
+NEED_NO_BOX(::Unity::Properties::Internal::Vector3PropertyBag_YProperty);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector3PropertyBag_YProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/YProperty");
+NEED_NO_BOX(::Unity::Properties::Internal::Vector3PropertyBag_ZProperty);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::Vector3PropertyBag_ZProperty*, "Unity.Properties.Internal", "Vector3PropertyBag/ZProperty");

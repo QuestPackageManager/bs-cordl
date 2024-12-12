@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(
     ::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c61728;
+  constexpr static std::size_t addrs = 0x3cc189c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c61938;
+  constexpr static std::size_t addrs = 0x3cc1aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceQualifier (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_AceQualifier)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c62710;
+  constexpr static std::size_t addrs = 0x3cc2884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_IsCallback)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c62eec;
+  constexpr static std::size_t addrs = 0x3cc3060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_OpaqueLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c61ad0;
+  constexpr static std::size_t addrs = 0x3cc1c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::GetOpaque)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c61c94;
+  constexpr static std::size_t addrs = 0x3cc1e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::AccessControl::QualifiedAce::SetOpaque)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c619f0;
+  constexpr static std::size_t addrs = 0x3cc1b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,11 +121,6 @@ constexpr void System::Security::AccessControl::QualifiedAce::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___opaque)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Security::AccessControl::QualifiedAce* System::Security::AccessControl::QualifiedAce::New_ctor(::System::Security::AccessControl::AceType type,
-                                                                                                                ::System::Security::AccessControl::AceFlags flags,
-                                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::QualifiedAce*>(type, flags, opaque));
-}
 inline void System::Security::AccessControl::QualifiedAce::_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -134,9 +129,6 @@ inline void System::Security::AccessControl::QualifiedAce::_ctor(::System::Secur
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::AceFlags>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, flags, opaque);
-}
-inline ::System::Security::AccessControl::QualifiedAce* System::Security::AccessControl::QualifiedAce::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::QualifiedAce*>(binaryForm, offset));
 }
 inline void System::Security::AccessControl::QualifiedAce::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -170,6 +162,14 @@ inline void System::Security::AccessControl::QualifiedAce::SetOpaque(::ArrayW<ui
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(), "SetOpaque", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, opaque);
+}
+inline ::System::Security::AccessControl::QualifiedAce* System::Security::AccessControl::QualifiedAce::New_ctor(::System::Security::AccessControl::AceType type,
+                                                                                                                ::System::Security::AccessControl::AceFlags flags,
+                                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::QualifiedAce*>(type, flags, opaque));
+}
+inline ::System::Security::AccessControl::QualifiedAce* System::Security::AccessControl::QualifiedAce::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::QualifiedAce*>(binaryForm, offset));
 }
 // Ctor Parameters []
 constexpr ::System::Security::AccessControl::QualifiedAce::QualifiedAce() {}

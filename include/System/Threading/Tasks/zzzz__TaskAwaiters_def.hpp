@@ -17,15 +17,14 @@ class TaskAwaiters;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskAwaiters);
-// Type: System.Threading.Tasks::TaskAwaiters
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading::Tasks {
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::TaskAwaiters*
+// CS Name: System.Threading.Tasks.TaskAwaiters
 class CORDL_TYPE TaskAwaiters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ForceAsync, addr 0x3dfeba8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceAsync, addr 0x3e5ec54, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ForceAsyncAwaiter ForceAsync(::System::Threading::Tasks::Task* task);
 
 protected:

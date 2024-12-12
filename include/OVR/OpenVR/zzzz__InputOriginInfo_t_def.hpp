@@ -13,17 +13,16 @@ struct InputOriginInfo_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::InputOriginInfo_t);
-// Type: OVR.OpenVR::InputOriginInfo_t
-// SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::InputOriginInfo_t
+// CS Name: OVR.OpenVR.InputOriginInfo_t
 struct CORDL_TYPE InputOriginInfo_t {
 public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName)) ::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x4015818, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x40758c4, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters []
@@ -127,6 +126,12 @@ public:
       uint8_t rchRenderModelComponentName118, uint8_t rchRenderModelComponentName119, uint8_t rchRenderModelComponentName120, uint8_t rchRenderModelComponentName121,
       uint8_t rchRenderModelComponentName122, uint8_t rchRenderModelComponentName123, uint8_t rchRenderModelComponentName124, uint8_t rchRenderModelComponentName125,
       uint8_t rchRenderModelComponentName126, uint8_t rchRenderModelComponentName127) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9037 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
 
   /// @brief Field devicePath, offset: 0x0, size: 0x8, def value: None
   uint64_t devicePath;
@@ -518,17 +523,9 @@ public:
   /// @brief Field rchRenderModelComponentName127, offset: 0x8b, size: 0x1, def value: None
   uint8_t rchRenderModelComponentName127;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9012 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputOriginInfo_t, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, devicePath) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, trackedDeviceIndex) == 0x8, "Offset mismatch!");
@@ -788,6 +785,8 @@ static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponent
 static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName126) == 0x8a, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::InputOriginInfo_t, rchRenderModelComponentName127) == 0x8b, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::InputOriginInfo_t, 0x90>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");

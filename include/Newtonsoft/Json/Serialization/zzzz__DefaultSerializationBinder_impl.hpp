@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultSerializationBinder.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)()>(
     &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3e827b8;
+  constexpr static std::size_t addrs = 0x3ee2864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeFromTypeNameKey)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x3e82888;
+  constexpr static std::size_t addrs = 0x3ee2934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::StringW, ::System::Reflection::Assembly*)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetGenericTypeFromTypeName)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3e82c78;
+  constexpr static std::size_t addrs = 0x3ee2d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeByName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e82f38;
+  constexpr static std::size_t addrs = 0x3ee2fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e82fa0;
+  constexpr static std::size_t addrs = 0x3ee304c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,9 +93,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(
-    ::System::Type*, ByRef<::StringW>, ByRef<::StringW>)>(&::Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName)> {
+    ::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e8301c;
+  constexpr static std::size_t addrs = 0x3ee30c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,20 +105,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
-constexpr Newtonsoft::Json::Serialization::DefaultSerializationBinder::operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept {
-  return static_cast<::Newtonsoft::Json::Serialization::ISerializationBinder*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Newtonsoft::Json::Serialization::ISerializationBinder"
-constexpr ::Newtonsoft::Json::Serialization::ISerializationBinder* Newtonsoft::Json::Serialization::DefaultSerializationBinder::i___Newtonsoft__Json__Serialization__ISerializationBinder() noexcept {
-  return static_cast<::Newtonsoft::Json::Serialization::ISerializationBinder*>(static_cast<void*>(this));
-}
 constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>, ::System::Type*>*&
 Newtonsoft::Json::Serialization::DefaultSerializationBinder::__cordl_internal_get__typeCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeCache;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>, ::System::Type*>*> const&
+constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>, ::System::Type*>* const&
 Newtonsoft::Json::Serialization::DefaultSerializationBinder::__cordl_internal_get__typeCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____typeCache;
@@ -136,9 +128,6 @@ inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::setStat
 inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Newtonsoft::Json::Serialization::DefaultSerializationBinder::getStaticF_Instance() {
   return ::cordl_internals::getStaticField<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*, "Instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>::get>();
-}
-inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Newtonsoft::Json::Serialization::DefaultSerializationBinder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>());
 }
 inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor() {
   static auto* ___internal_method =
@@ -172,11 +161,22 @@ inline ::System::Type* Newtonsoft::Json::Serialization::DefaultSerializationBind
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, assemblyName, typeName);
 }
-inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName(::System::Type* serializedType, ByRef<::StringW> assemblyName, ByRef<::StringW> typeName) {
+inline void Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName(::System::Type* serializedType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> typeName) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, serializedType, assemblyName, typeName);
+}
+inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Newtonsoft::Json::Serialization::DefaultSerializationBinder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::DefaultSerializationBinder*>());
+}
+/// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
+constexpr Newtonsoft::Json::Serialization::DefaultSerializationBinder::operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::ISerializationBinder*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Newtonsoft::Json::Serialization::ISerializationBinder"
+constexpr ::Newtonsoft::Json::Serialization::ISerializationBinder* Newtonsoft::Json::Serialization::DefaultSerializationBinder::i___Newtonsoft__Json__Serialization__ISerializationBinder() noexcept {
+  return static_cast<::Newtonsoft::Json::Serialization::ISerializationBinder*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::DefaultSerializationBinder::DefaultSerializationBinder() {}

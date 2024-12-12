@@ -10,7 +10,7 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class __MouseLeaveWindowEvent____c;
+class MouseLeaveWindowEvent___c;
 }
 namespace UnityEngine {
 class Event;
@@ -20,82 +20,80 @@ namespace UnityEngine::UIElements {
 class MouseLeaveWindowEvent;
 }
 namespace UnityEngine::UIElements {
-class __MouseLeaveWindowEvent____c;
+class MouseLeaveWindowEvent___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::MouseLeaveWindowEvent);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__MouseLeaveWindowEvent____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::MouseLeaveWindowEvent___c);
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::MouseLeaveWindowEvent::<>c*
-class CORDL_TYPE __MouseLeaveWindowEvent____c : public ::System::Object {
+// CS Name: UnityEngine.UIElements.MouseLeaveWindowEvent/<>c
+class CORDL_TYPE MouseLeaveWindowEvent___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* __9;
 
-  static inline ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* New_ctor();
+  static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x49c77c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x4a2c0d0, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x49c77b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2c0c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* getStaticF___9();
+  static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent___c* getStaticF___9();
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::__MouseLeaveWindowEvent____c* value);
+  static inline void setStaticF___9(::UnityEngine::UIElements::MouseLeaveWindowEvent___c* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MouseLeaveWindowEvent____c();
+  constexpr MouseLeaveWindowEvent___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MouseLeaveWindowEvent____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MouseLeaveWindowEvent____c(__MouseLeaveWindowEvent____c&&) = delete;
+  MouseLeaveWindowEvent___c(MouseLeaveWindowEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MouseLeaveWindowEvent____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MouseLeaveWindowEvent___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MouseLeaveWindowEvent____c(__MouseLeaveWindowEvent____c const&) = delete;
+  MouseLeaveWindowEvent___c(MouseLeaveWindowEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5844 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__MouseLeaveWindowEvent____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseLeaveWindowEvent___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::MouseLeaveWindowEvent
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.MouseEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::MouseLeaveWindowEvent*
+// CS Name: UnityEngine.UIElements.MouseLeaveWindowEvent
 class CORDL_TYPE MouseLeaveWindowEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseLeaveWindowEvent*> {
 public:
   // Declarations
-  using __c = ::UnityEngine::UIElements::__MouseLeaveWindowEvent____c;
+  using __c = ::UnityEngine::UIElements::MouseLeaveWindowEvent___c;
 
-  /// @brief Method GetPooled, addr 0x49c74d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x4a2bde0, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x49c738c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x4a2bc9c, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x49c73dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x4a2bcec, size 0xa4, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x49c7600, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x4a2bf10, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x49c7480, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2bd90, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -113,7 +111,7 @@ public:
   MouseLeaveWindowEvent(MouseLeaveWindowEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,5 +121,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseLe
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseLeaveWindowEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseLeaveWindowEvent*, "UnityEngine.UIElements", "MouseLeaveWindowEvent");
-NEED_NO_BOX(::UnityEngine::UIElements::__MouseLeaveWindowEvent____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__MouseLeaveWindowEvent____c*, "UnityEngine.UIElements", "MouseLeaveWindowEvent/<>c");
+NEED_NO_BOX(::UnityEngine::UIElements::MouseLeaveWindowEvent___c);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseLeaveWindowEvent___c*, "UnityEngine.UIElements", "MouseLeaveWindowEvent/<>c");

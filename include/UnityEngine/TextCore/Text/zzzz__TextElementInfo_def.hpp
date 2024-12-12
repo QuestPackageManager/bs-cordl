@@ -18,34 +18,16 @@ namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
-struct FontStyles;
-}
-namespace UnityEngine::TextCore::Text {
-struct HighlightState;
-}
-namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
-struct TextElementType;
-}
-namespace UnityEngine::TextCore::Text {
 class TextElement;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextVertex;
 }
 namespace UnityEngine::TextCore {
 class Glyph;
 }
 namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
 class Material;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -53,15 +35,15 @@ struct TextElementInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
-// Type: UnityEngine.TextCore.Text::TextElementInfo
-// SizeInfo { instance_size: 392, native_size: -1, calculated_instance_size: 392, calculated_native_size: 401, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color32, UnityEngine.TextCore.Text.FontStyles, UnityEngine.TextCore.Text.HighlightState, UnityEngine.TextCore.Text.TextElementType, UnityEngine.TextCore.Text.TextVertex,
+// UnityEngine.Vector3
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.Text::TextElementInfo
+// CS Name: UnityEngine.TextCore.Text.TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x48ca84c, size 0x16f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x492eedc, size 0x16f8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -100,6 +82,12 @@ public:
                             float_t adjustedHorizontalAdvance, float_t xAdvance, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor,
                             int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex, ::UnityEngine::Color32 highlightColor,
                             ::UnityEngine::TextCore::Text::HighlightState highlightState, ::UnityEngine::TextCore::Text::FontStyles style, bool isVisible) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15259 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };
 
   /// @brief Field character, offset: 0x0, size: 0x2, def value: None
   char16_t character;
@@ -230,17 +218,9 @@ public:
   /// @brief Field isVisible, offset: 0x180, size: 0x1, def value: None
   bool isVisible;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15224 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextElementInfo, 0x188>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, character) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, index) == 0x4, "Offset mismatch!");
@@ -326,6 +306,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, highlight
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, style) == 0x17c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextElementInfo, isVisible) == 0x180, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextElementInfo, 0x188>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextElementInfo, "UnityEngine.TextCore.Text", "TextElementInfo");

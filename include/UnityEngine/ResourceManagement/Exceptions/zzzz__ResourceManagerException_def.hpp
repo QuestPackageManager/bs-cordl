@@ -21,11 +21,10 @@ class ResourceManagerException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException);
-// Type: UnityEngine.ResourceManagement.Exceptions::ResourceManagerException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// CS Name: ::UnityEngine.ResourceManagement.Exceptions::ResourceManagerException*
+// CS Name: UnityEngine.ResourceManagement.Exceptions.ResourceManagerException
 class CORDL_TYPE ResourceManagerException : public ::System::Exception {
 public:
   // Declarations
@@ -38,19 +37,19 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ResourceManagerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                   ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x472fa44, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4790d58, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x472f894, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4790ba8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x472f8ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4790c00, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x472f954, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4790c68, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x472f9c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4790cd8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -68,7 +67,7 @@ public:
   ResourceManagerException(ResourceManagerException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15599 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

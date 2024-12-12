@@ -14,15 +14,14 @@ class DefaultEnvironmentEventsFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DefaultEnvironmentEventsFactory);
-// Type: ::DefaultEnvironmentEventsFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::DefaultEnvironmentEventsFactory*
+// CS Name: DefaultEnvironmentEventsFactory
 class CORDL_TYPE DefaultEnvironmentEventsFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsertDefaultEvents, addr 0x2683a34, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InsertDefaultEvents, addr 0x26b8084, size 0xac, virtual false, abstract: false, final false
   static inline void InsertDefaultEvents(::GlobalNamespace::BeatmapData* beatmapData);
 
 protected:
@@ -40,7 +39,7 @@ public:
   DefaultEnvironmentEventsFactory(DefaultEnvironmentEventsFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

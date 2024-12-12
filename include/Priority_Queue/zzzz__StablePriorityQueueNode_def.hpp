@@ -12,11 +12,10 @@ class StablePriorityQueueNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::Priority_Queue::StablePriorityQueueNode);
-// Type: Priority_Queue::StablePriorityQueueNode
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Priority_Queue.FastPriorityQueueNode
 namespace Priority_Queue {
 // Is value type: false
-// CS Name: ::Priority_Queue::StablePriorityQueueNode*
+// CS Name: Priority_Queue.StablePriorityQueueNode
 class CORDL_TYPE StablePriorityQueueNode : public ::Priority_Queue::FastPriorityQueueNode {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method .ctor, addr 0x226cc68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229f4bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InsertionIndex, addr 0x226cc58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InsertionIndex, addr 0x229f4ac, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex, addr 0x226cc60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InsertionIndex, addr 0x229f4b4, size 0x8, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
 protected:
@@ -56,18 +55,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StablePriorityQueueNode(StablePriorityQueueNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16943 };
+
   /// @brief Field <InsertionIndex>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____InsertionIndex_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16904 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Priority_Queue::StablePriorityQueueNode, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Priority_Queue::StablePriorityQueueNode, ____InsertionIndex_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Priority_Queue::StablePriorityQueueNode, 0x20>, "Size mismatch!");
 
 } // namespace Priority_Queue
 NEED_NO_BOX(::Priority_Queue::StablePriorityQueueNode);

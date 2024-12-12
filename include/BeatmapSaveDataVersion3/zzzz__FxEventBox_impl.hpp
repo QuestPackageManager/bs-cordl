@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d41ec;
+  constexpr static std::size_t addrs = 0x2705b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBox*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::DistributionParamType (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionParamType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d41f4;
+  constexpr static std::size_t addrs = 0x2705b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBox*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionEaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d41fc;
+  constexpr static std::size_t addrs = 0x2705b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBox*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxDistributionShouldAffectFirstBaseEvent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d4204;
+  constexpr static std::size_t addrs = 0x2705b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<int32_t>* (::BeatmapSaveDataVersion3::FxEventBox::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBox::get_vfxBaseDataList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4214;
+  constexpr static std::size_t addrs = 0x2705b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBox*>::get(),
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BeatmapSaveDataVersion3::IndexFilter*, float_t, ::BeatmapSaveDataCommon::DistributionParamType, float_t, ::BeatmapSaveDataCommon::DistributionParamType, ::BeatmapSaveDataCommon::EaseType, bool,
     ::System::Collections::Generic::List_1<int32_t>*)>(&::BeatmapSaveDataVersion3::FxEventBox::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26d421c;
+  constexpr static std::size_t addrs = 0x2705b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& BeatmapSaveDataVersi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& BeatmapSaveDataVersion3::FxEventBox::__cordl_internal_get_l() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& BeatmapSaveDataVersion3::FxEventBox::__cordl_internal_get_l() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___l;
 }
@@ -187,14 +187,6 @@ inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* BeatmapSaveData
                                                                              "get_vfxBaseDataList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<int32_t>*, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::FxEventBox* BeatmapSaveDataVersion3::FxEventBox::New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
-                                                                                            ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t vfxDistributionParam,
-                                                                                            ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType,
-                                                                                            ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType, bool vfxDistributionShouldAffectFirstBaseEvent,
-                                                                                            ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FxEventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, vfxDistributionParam, vfxDistributionParamType,
-                                                                                          vfxDistributionEaseType, vfxDistributionShouldAffectFirstBaseEvent, effectsBaseDataList));
-}
 inline void BeatmapSaveDataVersion3::FxEventBox::_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
                                                        ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t vfxDistributionParam,
                                                        ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType, ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType,
@@ -209,6 +201,14 @@ inline void BeatmapSaveDataVersion3::FxEventBox::_ctor(::BeatmapSaveDataVersion3
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParam, beatDistributionParamType, vfxDistributionParam, vfxDistributionParamType,
                                                           vfxDistributionEaseType, vfxDistributionShouldAffectFirstBaseEvent, effectsBaseDataList);
+}
+inline ::BeatmapSaveDataVersion3::FxEventBox* BeatmapSaveDataVersion3::FxEventBox::New_ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam,
+                                                                                            ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType, float_t vfxDistributionParam,
+                                                                                            ::BeatmapSaveDataCommon::DistributionParamType vfxDistributionParamType,
+                                                                                            ::BeatmapSaveDataCommon::EaseType vfxDistributionEaseType, bool vfxDistributionShouldAffectFirstBaseEvent,
+                                                                                            ::System::Collections::Generic::List_1<int32_t>* effectsBaseDataList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FxEventBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, vfxDistributionParam, vfxDistributionParamType,
+                                                                                          vfxDistributionEaseType, vfxDistributionShouldAffectFirstBaseEvent, effectsBaseDataList));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FxEventBox::FxEventBox() {}

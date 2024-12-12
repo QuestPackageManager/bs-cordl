@@ -11,13 +11,12 @@ template <typename T> class CollectionDebuggerProxy_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Text::RegularExpressions::CollectionDebuggerProxy_1);
-// Type: System.Text.RegularExpressions::CollectionDebuggerProxy`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Text::RegularExpressions {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::System.Text.RegularExpressions::CollectionDebuggerProxy`1<T>*
+// CS Name: System.Text.RegularExpressions.CollectionDebuggerProxy`1<T>
 class CORDL_TYPE CollectionDebuggerProxy_1 : public ::System::Object {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
   CollectionDebuggerProxy_1(CollectionDebuggerProxy_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9217 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

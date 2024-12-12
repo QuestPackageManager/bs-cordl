@@ -6,10 +6,12 @@
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidancePathEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceTiltEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceYOffsetEvaluator_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapObjectSpawnController_def.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectSpawnController_def.hpp"
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
+#include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -19,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2232ee0;
+  constexpr static std::size_t addrs = 0x225e4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Awake",
@@ -31,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Start)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2232efc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x225e4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Start",
@@ -44,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::OnDestroy)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2233400;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x225e894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "OnDestroy",
@@ -58,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::Update)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x2233500;
+  constexpr static std::size_t addrs = 0x225e964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "Update",
@@ -70,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::SetupAndRun)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x223307c;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x225e570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(),
@@ -84,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(
     &::GlobalNamespace::BeatmapObjectsAvoidance::BuildAnimationCurvePath)> {
-  constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x2233690;
+  constexpr static std::size_t size = 0x55c;
+  constexpr static std::size_t addrs = 0x225eaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(),
@@ -97,14 +99,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)(
-    ByRef<::UnityEngine::Vector2>, int32_t, ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::BeatmapObjectsAvoidance::AdjustPositionWithOffsetDirection)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x2233cdc;
+    ::ByRef<::UnityEngine::Vector2>, int32_t, ::GlobalNamespace::OffsetDirection)>(&::GlobalNamespace::BeatmapObjectsAvoidance::AdjustPositionWithOffsetDirection)> {
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x225f114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "AdjustPositionWithOffsetDirection", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector2>>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OffsetDirection>::get() })));
     return ___internal_method;
@@ -116,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(
     &::GlobalNamespace::BeatmapObjectsAvoidance::HandleBeatmapObjectSpawnControllerDidInit)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22347fc;
+  constexpr static std::size_t addrs = 0x225fab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsAvoidance::*)()>(&::GlobalNamespace::BeatmapObjectsAvoidance::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2234800;
+  constexpr static std::size_t addrs = 0x225fabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), ".ctor",
@@ -190,7 +192,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BeatmapObjectsA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -202,7 +204,7 @@ constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::BeatmapObje
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapData() const {
+constexpr ::GlobalNamespace::IReadonlyBeatmapData* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
@@ -210,18 +212,41 @@ constexpr void GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_set__b
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapObjectSpawnController() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapObjectSpawnController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const&
-GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapObjectSpawnController() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__beatmapObjectSpawnController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectSpawnController;
 }
-constexpr void GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value) {
+constexpr void GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_set__beatmapObjectSpawnController(::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectSpawnController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::IVariableMovementDataProvider*& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__variableMovementDataProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
+}
+constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__variableMovementDataProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____variableMovementDataProvider;
+}
+constexpr void GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variableMovementDataProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::IJumpOffsetYProvider*& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__jumpOffsetYProvider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____jumpOffsetYProvider;
+}
+constexpr ::GlobalNamespace::IJumpOffsetYProvider* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__jumpOffsetYProvider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____jumpOffsetYProvider;
+}
+constexpr void GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_set__jumpOffsetYProvider(::GlobalNamespace::IJumpOffsetYProvider* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____jumpOffsetYProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__playerTransforms() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -239,8 +264,7 @@ constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*& GlobalName
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avoidanceYOffsetEvaluatorProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator*> const&
-GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__avoidanceYOffsetEvaluatorProvider() const {
+constexpr ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__avoidanceYOffsetEvaluatorProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avoidanceYOffsetEvaluatorProvider;
 }
@@ -252,7 +276,7 @@ constexpr ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*& GlobalNamespa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__pathEvaluator() const {
+constexpr ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__pathEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathEvaluator;
 }
@@ -264,7 +288,7 @@ constexpr ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*& GlobalNamespa
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tiltEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__tiltEvaluator() const {
+constexpr ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__tiltEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tiltEvaluator;
 }
@@ -276,7 +300,7 @@ constexpr ::GlobalNamespace::BezierSplineEvaluator*& GlobalNamespace::BeatmapObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBezierSplineEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__pathBezierSplineEvaluator() const {
+constexpr ::GlobalNamespace::BezierSplineEvaluator* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__pathBezierSplineEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBezierSplineEvaluator;
 }
@@ -288,8 +312,7 @@ constexpr ::GlobalNamespace::BezierSplineEvaluator*& GlobalNamespace::BeatmapObj
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accelerationBezierSplineEvaluator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BezierSplineEvaluator*> const&
-GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__accelerationBezierSplineEvaluator() const {
+constexpr ::GlobalNamespace::BezierSplineEvaluator* const& GlobalNamespace::BeatmapObjectsAvoidance::__cordl_internal_get__accelerationBezierSplineEvaluator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accelerationBezierSplineEvaluator;
 }
@@ -339,10 +362,11 @@ inline bool GlobalNamespace::BeatmapObjectsAvoidance::BuildAnimationCurvePath() 
                                                                              "BuildAnimationCurvePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BeatmapObjectsAvoidance::AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection) {
+inline void GlobalNamespace::BeatmapObjectsAvoidance::AdjustPositionWithOffsetDirection(::ByRef<::UnityEngine::Vector2> position, int32_t lineIndex,
+                                                                                        ::GlobalNamespace::OffsetDirection offsetDirection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), "AdjustPositionWithOffsetDirection", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector2>>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OffsetDirection>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, lineIndex, offsetDirection);
@@ -353,13 +377,13 @@ inline void GlobalNamespace::BeatmapObjectsAvoidance::HandleBeatmapObjectSpawnCo
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapObjectsAvoidance* GlobalNamespace::BeatmapObjectsAvoidance::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectsAvoidance*>());
-}
 inline void GlobalNamespace::BeatmapObjectsAvoidance::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsAvoidance*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BeatmapObjectsAvoidance* GlobalNamespace::BeatmapObjectsAvoidance::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapObjectsAvoidance*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BeatmapObjectsAvoidance::BeatmapObjectsAvoidance() {}

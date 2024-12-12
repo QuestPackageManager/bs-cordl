@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspException::*)()>(&::Org::BouncyCastle::Tsp::TspException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2599458;
+  constexpr static std::size_t addrs = 0x25cc744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspException*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspException::*)(::StringW)>(&::Org::BouncyCastle::Tsp::TspException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2598dc0;
+  constexpr static std::size_t addrs = 0x25cc0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TspException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Tsp::TspException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2595c98;
+  constexpr static std::size_t addrs = 0x25c8f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,16 +46,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>());
-}
 inline void Org::BouncyCastle::Tsp::TspException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>(message));
 }
 inline void Org::BouncyCastle::Tsp::TspException::_ctor(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -63,15 +57,21 @@ inline void Org::BouncyCastle::Tsp::TspException::_ctor(::StringW message) {
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor(::StringW message, ::System::Exception* e) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>(message, e));
-}
 inline void Org::BouncyCastle::Tsp::TspException::_ctor(::StringW message, ::System::Exception* e) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TspException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, e);
+}
+inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>());
+}
+inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>(message));
+}
+inline ::Org::BouncyCastle::Tsp::TspException* Org::BouncyCastle::Tsp::TspException::New_ctor(::StringW message, ::System::Exception* e) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Tsp::TspException*>(message, e));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Tsp::TspException::TspException() {}

@@ -4,9 +4,6 @@
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ConvertMeshJobData_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
-#include "UnityEngine/zzzz__Color32_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 // Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "transformUVs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "xformClipPages", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") },

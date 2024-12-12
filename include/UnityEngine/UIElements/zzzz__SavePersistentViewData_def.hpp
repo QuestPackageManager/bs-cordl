@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SavePersistentViewData)
 namespace System {
 struct IntPtr;
@@ -18,20 +17,19 @@ class SavePersistentViewData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::SavePersistentViewData);
-// Type: UnityEngine.UIElements::SavePersistentViewData
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::SavePersistentViewData*
+// CS Name: UnityEngine.UIElements.SavePersistentViewData
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x49dcd80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x4a41690, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x49dccf8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a41608, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -49,7 +47,7 @@ public:
   SavePersistentViewData(SavePersistentViewData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5985 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

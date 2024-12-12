@@ -21,20 +21,19 @@ class HttpContinueDelegate;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpContinueDelegate);
-// Type: System.Net::HttpContinueDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpContinueDelegate*
+// CS Name: System.Net.HttpContinueDelegate
 class CORDL_TYPE HttpContinueDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x443ed14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x44a0028, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(int32_t StatusCode, ::System::Net::WebHeaderCollection* httpHeaders);
 
   static inline ::System::Net::HttpContinueDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x443ec88, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x449ff9c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -52,7 +51,7 @@ public:
   HttpContinueDelegate(HttpContinueDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9594 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

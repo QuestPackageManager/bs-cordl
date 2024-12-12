@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TimerEventScheduler.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IScheduler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TimerEventScheduler.Schedule
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Schedule)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4a01670;
+  constexpr static std::size_t addrs = 0x4a65f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(int32_t)>(
     &::UnityEngine::UIElements::TimerEventScheduler::RemovedScheduledItemAt)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a01828;
+  constexpr static std::size_t addrs = 0x4a66138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Unschedule)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4a018a4;
+  constexpr static std::size_t addrs = 0x4a661b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::PrivateUnSchedule)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a01a34;
+  constexpr static std::size_t addrs = 0x4a66344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)()>(
     &::UnityEngine::UIElements::TimerEventScheduler::UpdateScheduledEvents)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x4a01ad4;
+  constexpr static std::size_t addrs = 0x4a663e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)()>(&::UnityEngine::UIElements::TimerEventScheduler::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a01de8;
+  constexpr static std::size_t addrs = 0x4a666f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), ".ctor",
@@ -93,20 +93,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IScheduler"
-constexpr UnityEngine::UIElements::TimerEventScheduler::operator ::UnityEngine::UIElements::IScheduler*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IScheduler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IScheduler"
-constexpr ::UnityEngine::UIElements::IScheduler* UnityEngine::UIElements::TimerEventScheduler::i___UnityEngine__UIElements__IScheduler() noexcept {
-  return static_cast<::UnityEngine::UIElements::IScheduler*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*& UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_ScheduledItems() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScheduledItems;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const&
-UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_ScheduledItems() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* const& UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_ScheduledItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScheduledItems;
 }
@@ -130,8 +121,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Sche
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScheduleTransactions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>*> const&
-UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_ScheduleTransactions() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ScheduledItem*>* const& UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_ScheduleTransactions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ScheduleTransactions;
 }
@@ -143,7 +133,7 @@ constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnscheduleTransactions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>*> const&
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::ScheduledItem*>* const&
 UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_m_UnscheduleTransactions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnscheduleTransactions;
@@ -206,13 +196,21 @@ inline void UnityEngine::UIElements::TimerEventScheduler::UpdateScheduledEvents(
                                                                              "UpdateScheduledEvents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::TimerEventScheduler* UnityEngine::UIElements::TimerEventScheduler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TimerEventScheduler*>());
-}
 inline void UnityEngine::UIElements::TimerEventScheduler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TimerEventScheduler* UnityEngine::UIElements::TimerEventScheduler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TimerEventScheduler*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IScheduler"
+constexpr UnityEngine::UIElements::TimerEventScheduler::operator ::UnityEngine::UIElements::IScheduler*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IScheduler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IScheduler"
+constexpr ::UnityEngine::UIElements::IScheduler* UnityEngine::UIElements::TimerEventScheduler::i___UnityEngine__UIElements__IScheduler() noexcept {
+  return static_cast<::UnityEngine::UIElements::IScheduler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimerEventScheduler::TimerEventScheduler() {}

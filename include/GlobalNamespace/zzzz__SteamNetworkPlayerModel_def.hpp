@@ -3,22 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 CORDL_MODULE_EXPORT(SteamNetworkPlayerModel)
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class SteamNetworkPlayerModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SteamNetworkPlayerModel);
-// Type: ::SteamNetworkPlayerModel
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies INetworkPlayerModel, PlatformNetworkPlayerModel
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SteamNetworkPlayerModel*
+// CS Name: SteamNetworkPlayerModel
 class CORDL_TYPE SteamNetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {
 public:
   // Declarations
@@ -27,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::SteamNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e120b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e72164, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
@@ -48,7 +45,7 @@ public:
   SteamNetworkPlayerModel(SteamNetworkPlayerModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17370 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

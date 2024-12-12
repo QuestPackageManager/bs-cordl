@@ -29,13 +29,12 @@ template <typename TParam1> class SubContainerCreatorByMethod_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::SubContainerCreatorByMethod_1);
-// Type: Zenject::SubContainerCreatorByMethod`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.SubContainerCreatorByMethodBase
 namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// CS Name: ::Zenject::SubContainerCreatorByMethod`1<TParam1>*
+// CS Name: Zenject.SubContainerCreatorByMethod`1<TParam1>
 class CORDL_TYPE SubContainerCreatorByMethod_1 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
   // Declarations
@@ -48,9 +47,9 @@ public:
   static inline ::Zenject::SubContainerCreatorByMethod_1<TParam1>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
                                                                             ::System::Action_2<::Zenject::DiContainer*, TParam1>* installMethod);
 
-  constexpr ::System::Action_2<::Zenject::DiContainer*, TParam1>*& __cordl_internal_get__installMethod();
+  constexpr ::System::Action_2<::Zenject::DiContainer*, TParam1>* const& __cordl_internal_get__installMethod() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::DiContainer*, TParam1>*> const& __cordl_internal_get__installMethod() const;
+  constexpr ::System::Action_2<::Zenject::DiContainer*, TParam1>*& __cordl_internal_get__installMethod();
 
   constexpr void __cordl_internal_set__installMethod(::System::Action_2<::Zenject::DiContainer*, TParam1>* value);
 
@@ -71,11 +70,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByMethod_1(SubContainerCreatorByMethod_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12585 };
+
   /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<::Zenject::DiContainer*, TParam1>* ____installMethod;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12552 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class ListInitExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::ListInitExpression);
-// Type: System.Linq.Expressions::ListInitExpression
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::ListInitExpression*
+// CS Name: System.Linq.Expressions.ListInitExpression
 class CORDL_TYPE ListInitExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
@@ -41,23 +40,22 @@ public:
   __declspec(property(get = __cordl_internal_get__NewExpression_k__BackingField,
                       put = __cordl_internal_set__NewExpression_k__BackingField)) ::System::Linq::Expressions::NewExpression* _NewExpression_k__BackingField;
 
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* const& __cordl_internal_get__Initializers_k__BackingField() const;
+
   constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*& __cordl_internal_get__Initializers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>*> const&
-  __cordl_internal_get__Initializers_k__BackingField() const;
+  constexpr ::System::Linq::Expressions::NewExpression* const& __cordl_internal_get__NewExpression_k__BackingField() const;
 
   constexpr ::System::Linq::Expressions::NewExpression*& __cordl_internal_get__NewExpression_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::NewExpression*> const& __cordl_internal_get__NewExpression_k__BackingField() const;
 
   constexpr void __cordl_internal_set__Initializers_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* value);
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Initializers, addr 0x40578d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initializers, addr 0x40b8be4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
-  /// @brief Method get_NewExpression, addr 0x40578c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x40b8bdc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:
@@ -74,23 +72,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ListInitExpression(ListInitExpression const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13694 };
+
   /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;
 
   /// @brief Field <Initializers>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* ____Initializers_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13660 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ListInitExpression, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::ListInitExpression, ____NewExpression_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::ListInitExpression, ____Initializers_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::ListInitExpression, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::ListInitExpression);

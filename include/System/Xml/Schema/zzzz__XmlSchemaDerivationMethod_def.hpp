@@ -12,11 +12,10 @@ struct XmlSchemaDerivationMethod;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::XmlSchemaDerivationMethod);
-// Type: System.Xml.Schema::XmlSchemaDerivationMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::System.Xml.Schema::XmlSchemaDerivationMethod
+// CS Name: System.Xml.Schema.XmlSchemaDerivationMethod
 struct CORDL_TYPE XmlSchemaDerivationMethod {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr XmlSchemaDerivationMethod(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0xff)
+  /// @brief Field All value: I32(255)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const All;
 
-  /// @brief Field Empty value: static_cast<int32_t>(0x0)
+  /// @brief Field Empty value: I32(0)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Empty;
 
-  /// @brief Field Extension value: static_cast<int32_t>(0x2)
+  /// @brief Field Extension value: I32(2)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Extension;
 
-  /// @brief Field List value: static_cast<int32_t>(0x8)
+  /// @brief Field List value: I32(8)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const List;
 
-  /// @brief Field None value: static_cast<int32_t>(0x100)
+  /// @brief Field None value: I32(256)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const None;
 
-  /// @brief Field Restriction value: static_cast<int32_t>(0x4)
+  /// @brief Field Restriction value: I32(4)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Restriction;
 
-  /// @brief Field Substitution value: static_cast<int32_t>(0x1)
+  /// @brief Field Substitution value: I32(1)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Substitution;
 
-  /// @brief Field Union value: static_cast<int32_t>(0x10)
+  /// @brief Field Union value: I32(16)
   static ::System::Xml::Schema::XmlSchemaDerivationMethod const Union;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaDerivationMethod, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaDerivationMethod, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaDerivationMethod, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaDerivationMethod, "System.Xml.Schema", "XmlSchemaDerivationMethod");

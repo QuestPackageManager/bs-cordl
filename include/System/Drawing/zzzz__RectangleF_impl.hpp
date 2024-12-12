@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Drawing/RectangleF.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Drawing/zzzz__RectangleF_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Drawing::RectangleF.get_X
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af630;
+  constexpr static std::size_t addrs = 0x4210944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), "get_X",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::get_Y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af638;
+  constexpr static std::size_t addrs = 0x421094c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), "get_Y",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af640;
+  constexpr static std::size_t addrs = 0x4210954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), "get_Width",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41af648;
+  constexpr static std::size_t addrs = 0x421095c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), "get_Height",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::RectangleF::*)(::System::Object*)>(&::System::Drawing::RectangleF::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x41af650;
+  constexpr static std::size_t addrs = 0x4210964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::RectangleF::*)(::System::Drawing::RectangleF)>(&::System::Drawing::RectangleF::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x41af700;
+  constexpr static std::size_t addrs = 0x4210a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::RectangleF, ::System::Drawing::RectangleF)>(
     &::System::Drawing::RectangleF::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x41af73c;
+  constexpr static std::size_t addrs = 0x4210a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::GetHashCode)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x41af764;
+  constexpr static std::size_t addrs = 0x4210a78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::RectangleF::*)()>(&::System::Drawing::RectangleF::ToString)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x41af83c;
+  constexpr static std::size_t addrs = 0x4210b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,14 +127,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::RectangleF>"
-constexpr System::Drawing::RectangleF::operator ::System::IEquatable_1<::System::Drawing::RectangleF>*() {
-  return static_cast<::System::IEquatable_1<::System::Drawing::RectangleF>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::Drawing::RectangleF>"
-constexpr ::System::IEquatable_1<::System::Drawing::RectangleF>* System::Drawing::RectangleF::i___System__IEquatable_1___System__Drawing__RectangleF_() {
-  return static_cast<::System::IEquatable_1<::System::Drawing::RectangleF>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline float_t System::Drawing::RectangleF::get_X() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), "get_X",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -182,6 +174,14 @@ inline ::StringW System::Drawing::RectangleF::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::RectangleF>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::RectangleF>"
+constexpr System::Drawing::RectangleF::operator ::System::IEquatable_1<::System::Drawing::RectangleF>*() {
+  return static_cast<::System::IEquatable_1<::System::Drawing::RectangleF>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::Drawing::RectangleF>"
+constexpr ::System::IEquatable_1<::System::Drawing::RectangleF>* System::Drawing::RectangleF::i___System__IEquatable_1___System__Drawing__RectangleF_() {
+  return static_cast<::System::IEquatable_1<::System::Drawing::RectangleF>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "width",
 // ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: Some("{}") }]

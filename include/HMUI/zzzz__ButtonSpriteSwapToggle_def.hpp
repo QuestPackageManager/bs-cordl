@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ButtonSpriteSwap_def.hpp"
 CORDL_MODULE_EXPORT(ButtonSpriteSwapToggle)
 namespace HMUI {
-struct __NoTransitionsButton__SelectionState;
+struct NoTransitionsButton_SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -14,11 +14,10 @@ class ButtonSpriteSwapToggle;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ButtonSpriteSwapToggle);
-// Type: HMUI::ButtonSpriteSwapToggle
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ButtonSpriteSwap
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ButtonSpriteSwapToggle*
+// CS Name: HMUI.ButtonSpriteSwapToggle
 class CORDL_TYPE ButtonSpriteSwapToggle : public ::HMUI::ButtonSpriteSwap {
 public:
   // Declarations
@@ -33,12 +32,12 @@ public:
 
   __declspec(property(get = get_isToggled, put = set_isToggled)) bool isToggled;
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x399e49c, size 0x14c, virtual true, abstract: false, final false
-  inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x39f510c, size 0x14c, virtual true, abstract: false, final false
+  inline void HandleButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwapToggle* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x399e46c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39f50dc, size 0x30, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__ignoreHighlight() const;
@@ -59,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__resetToggleOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x399e5e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f5258, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isToggled, addr 0x399e424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isToggled, addr 0x39f5094, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();
 
-  /// @brief Method set_isToggled, addr 0x399e42c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_isToggled, addr 0x39f509c, size 0x40, virtual false, abstract: false, final false
   inline void set_isToggled(bool value);
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonSpriteSwapToggle(ButtonSpriteSwapToggle const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16065 };
+
   /// @brief Field _resetToggleOnEnable, offset: 0x51, size: 0x1, def value: None
   bool ____resetToggleOnEnable;
 
@@ -91,19 +93,16 @@ public:
   /// @brief Field _isToggled, offset: 0x53, size: 0x1, def value: None
   bool ____isToggled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16030 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ButtonSpriteSwapToggle, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ButtonSpriteSwapToggle, ____resetToggleOnEnable) == 0x51, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ButtonSpriteSwapToggle, ____ignoreHighlight) == 0x52, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ButtonSpriteSwapToggle, ____isToggled) == 0x53, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ButtonSpriteSwapToggle, 0x58>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ButtonSpriteSwapToggle);

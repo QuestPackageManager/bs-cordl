@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSceneSetup::*)()>(
     &::GlobalNamespace::RecordingToolSceneSetup::InstallBindings)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ad8950;
+  constexpr static std::size_t addrs = 0x3b388bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSceneSetup::*)()>(&::GlobalNamespace::RecordingToolSceneSetup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad8a10;
+  constexpr static std::size_t addrs = 0x3b3897c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSceneSetup*>::get(), ".ctor",
@@ -35,7 +35,7 @@ constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& GlobalNamespace::Reco
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const& GlobalNamespace::RecordingToolSceneSetup::__cordl_internal_get__sceneSetupData() const {
+constexpr ::GlobalNamespace::RecordingToolSceneSetupData* const& GlobalNamespace::RecordingToolSceneSetup::__cordl_internal_get__sceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
 }
@@ -48,13 +48,13 @@ inline void GlobalNamespace::RecordingToolSceneSetup::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSceneSetup*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::RecordingToolSceneSetup* GlobalNamespace::RecordingToolSceneSetup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSceneSetup*>());
-}
 inline void GlobalNamespace::RecordingToolSceneSetup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSceneSetup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingToolSceneSetup* GlobalNamespace::RecordingToolSceneSetup::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSceneSetup*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolSceneSetup::RecordingToolSceneSetup() {}

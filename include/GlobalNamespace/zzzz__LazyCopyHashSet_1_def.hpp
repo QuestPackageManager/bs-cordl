@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LazyCopyHashSet_1)
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
@@ -21,13 +19,12 @@ template <typename T> class LazyCopyHashSet_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::LazyCopyHashSet_1);
-// Type: ::LazyCopyHashSet`1
-// SizeInfo { instance_size: 40, native_size: 33, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILazyCopyHashSet`1<T>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::LazyCopyHashSet`1<T>*
+// CS Name: LazyCopyHashSet`1<T>
 class CORDL_TYPE LazyCopyHashSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -62,13 +59,13 @@ public:
 
   constexpr bool& __cordl_internal_get__dirty();
 
+  constexpr ::System::Collections::Generic::HashSet_1<T>* const& __cordl_internal_get__items() const;
+
   constexpr ::System::Collections::Generic::HashSet_1<T>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __cordl_internal_get__items() const;
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get__itemsCopy() const;
 
   constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__itemsCopy();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__itemsCopy() const;
 
   constexpr void __cordl_internal_set__dirty(bool value);
 
@@ -102,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LazyCopyHashSet_1(LazyCopyHashSet_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16908 };
+
   /// @brief Field _itemsCopy, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ____itemsCopy;
 
@@ -110,9 +110,6 @@ public:
 
   /// @brief Field _dirty, offset: 0x20, size: 0x1, def value: None
   bool ____dirty;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

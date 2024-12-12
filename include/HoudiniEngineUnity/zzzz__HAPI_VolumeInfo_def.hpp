@@ -10,26 +10,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_VolumeInfo)
-namespace HoudiniEngineUnity {
-struct HAPI_StorageType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_VolumeType;
-}
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_VolumeInfo;
 }
 // Write type traits
 MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeInfo);
-// Type: HoudiniEngineUnity::HAPI_VolumeInfo
-// SizeInfo { instance_size: 104, native_size: 112, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HAPI_StorageType, HoudiniEngineUnity.HAPI_Transform, HoudiniEngineUnity.HAPI_VolumeType
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HoudiniEngineUnity::HAPI_VolumeInfo
+// CS Name: HoudiniEngineUnity.HAPI_VolumeInfo
 struct CORDL_TYPE HAPI_VolumeInfo {
 public:
   // Declarations
@@ -46,6 +36,12 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "yTaper", ty: "float_t", modifiers: "", def_value: None }]
   constexpr HAPI_VolumeInfo(int32_t nameSH, ::HoudiniEngineUnity::HAPI_VolumeType type, int32_t xLength, int32_t yLength, int32_t zLength, int32_t minX, int32_t minY, int32_t minZ, int32_t tupleSize,
                             ::HoudiniEngineUnity::HAPI_StorageType storage, int32_t tileSize, ::HoudiniEngineUnity::HAPI_Transform transform, bool hasTaper, float_t xTaper, float_t yTaper) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11728 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
 
   /// @brief Field nameSH, offset: 0x0, size: 0x4, def value: None
   int32_t nameSH;
@@ -92,17 +88,9 @@ public:
   /// @brief Field yTaper, offset: 0x60, size: 0x4, def value: None
   float_t yTaper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11695 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeInfo, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, nameSH) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, type) == 0x4, "Offset mismatch!");
@@ -132,6 +120,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, hasTaper) == 0x58,
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, xTaper) == 0x5c, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HAPI_VolumeInfo, yTaper) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HAPI_VolumeInfo, 0x68>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_VolumeInfo, "HoudiniEngineUnity", "HAPI_VolumeInfo");

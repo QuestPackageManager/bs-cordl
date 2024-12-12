@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteCutSoundEffect)
 namespace GlobalNamespace {
@@ -28,13 +26,13 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
+class NoteCutSoundEffect_Pool;
+}
+namespace GlobalNamespace {
 template <typename T> class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class __NoteCutSoundEffect__Pool;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -50,56 +48,54 @@ namespace GlobalNamespace {
 class NoteCutSoundEffect;
 }
 namespace GlobalNamespace {
-class __NoteCutSoundEffect__Pool;
+class NoteCutSoundEffect_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutSoundEffect);
-MARK_REF_PTR_T(::GlobalNamespace::__NoteCutSoundEffect__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::NoteCutSoundEffect_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteCutSoundEffect::Pool*
-class CORDL_TYPE __NoteCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>> {
+// CS Name: NoteCutSoundEffect/Pool
+class CORDL_TYPE NoteCutSoundEffect_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__NoteCutSoundEffect__Pool* New_ctor();
+  static inline ::GlobalNamespace::NoteCutSoundEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3a7ad6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad2184, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NoteCutSoundEffect__Pool();
+  constexpr NoteCutSoundEffect_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteCutSoundEffect__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NoteCutSoundEffect__Pool(__NoteCutSoundEffect__Pool&&) = delete;
+  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NoteCutSoundEffect__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NoteCutSoundEffect__Pool(__NoteCutSoundEffect__Pool const&) = delete;
+  NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutSoundEffect__Pool, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutSoundEffect_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::NoteCutSoundEffect
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteCutSoundEffect*
+// CS Name: NoteCutSoundEffect
 class CORDL_TYPE NoteCutSoundEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__NoteCutSoundEffect__Pool;
+  using Pool = ::GlobalNamespace::NoteCutSoundEffect_Pool;
 
   /// @brief Field _aheadTime, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__aheadTime, put = __cordl_internal_set__aheadTime)) float_t _aheadTime;
@@ -189,31 +185,31 @@ public:
 
   __declspec(property(get = get_volumeMultiplier, put = set_volumeMultiplier)) float_t volumeMultiplier;
 
-  /// @brief Method Awake, addr 0x3a7a364, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3ad177c, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeDSPTimes, addr 0x3a7a5b4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDSPTimes, addr 0x3ad19cc, size 0xac, virtual false, abstract: false, final false
   inline void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote);
 
-  /// @brief Method Init, addr 0x3a7a408, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3ad1820, size 0x1ac, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote,
                    float_t timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
 
   static inline ::GlobalNamespace::NoteCutSoundEffect* New_ctor();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x3a7ac6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x3ad2084, size 0x7c, virtual false, abstract: false, final false
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method NoteWasCut, addr 0x3a7aa60, size 0x20c, virtual false, abstract: false, final false
-  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+  /// @brief Method NoteWasCut, addr 0x3ad1e78, size 0x20c, virtual false, abstract: false, final false
+  inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method OnLateUpdate, addr 0x3a7a660, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnLateUpdate, addr 0x3ad1a78, size 0x210, virtual false, abstract: false, final false
   inline void OnLateUpdate();
 
-  /// @brief Method Start, addr 0x3a7a3e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3ad1800, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x3a7a870, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x3ad1c88, size 0x1f0, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -224,9 +220,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__badCutRandomSoundPicker();
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& __cordl_internal_get__badCutRandomSoundPicker() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__badCutRandomSoundPicker() const;
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__badCutRandomSoundPicker();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__badCutSoundEffectAudioClips() const;
 
@@ -240,9 +236,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__beforeCutVolume();
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*> const& __cordl_internal_get__didFinishEvent() const;
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
 
   constexpr double_t const& __cordl_internal_get__endDSPtime() const;
 
@@ -300,9 +296,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__speedToVolumeCurve();
+  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__speedToVolumeCurve() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__speedToVolumeCurve() const;
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__speedToVolumeCurve();
 
   constexpr double_t const& __cordl_internal_get__startDSPTime() const;
 
@@ -372,19 +368,19 @@ public:
 
   constexpr void __cordl_internal_set__volumeMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7ace8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad2100, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x3a7a320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x3ad1738, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method get_time, addr 0x3a7a338, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3ad1750, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_volumeMultiplier, addr 0x3a7a330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeMultiplier, addr 0x3ad1748, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeMultiplier();
 
-  /// @brief Method set_volumeMultiplier, addr 0x3a7a328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeMultiplier, addr 0x3ad1740, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeMultiplier(float_t value);
 
 protected:
@@ -400,6 +396,15 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutSoundEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutSoundEffect(NoteCutSoundEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
+
+  /// @brief Field kEndFadeLength offset 0xffffffff size 0x4
+  static constexpr float_t kEndFadeLength{ static_cast<float_t>(0.0f) };
+
+  /// @brief Field kEndOverlap offset 0xffffffff size 0x4
+  static constexpr float_t kEndOverlap{ static_cast<float_t>(100.0f) };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
@@ -479,20 +484,9 @@ public:
   /// @brief Field _didFinishEvent, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* ____didFinishEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
-
-  /// @brief Field kEndFadeLength offset 0xffffffff size 0x4
-  static constexpr float_t kEndFadeLength{ 0.01 };
-
-  /// @brief Field kEndOverlap offset 0xffffffff size 0x4
-  static constexpr float_t kEndOverlap{ 100.01 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutSoundEffect, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffect, ____audioSource) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffect, ____speedToVolumeCurve) == 0x28, "Offset mismatch!");
@@ -545,8 +539,10 @@ static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffect, ____ignoreBadCuts)
 
 static_assert(offsetof(::GlobalNamespace::NoteCutSoundEffect, ____didFinishEvent) == 0xa0, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutSoundEffect, 0xa8>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteCutSoundEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutSoundEffect*, "", "NoteCutSoundEffect");
-NEED_NO_BOX(::GlobalNamespace::__NoteCutSoundEffect__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteCutSoundEffect__Pool*, "", "NoteCutSoundEffect/Pool");
+NEED_NO_BOX(::GlobalNamespace::NoteCutSoundEffect_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutSoundEffect_Pool*, "", "NoteCutSoundEffect/Pool");

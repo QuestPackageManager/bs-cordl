@@ -20,10 +20,10 @@ namespace UnityEngine::UIElements {
 class TextElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+struct VisualElement_MeasureMode;
 }
 namespace UnityEngine::UIElements {
-struct __VisualElement__MeasureMode;
+class VisualElement;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -34,33 +34,32 @@ class TextUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::TextUtilities);
-// Type: UnityEngine.UIElements::TextUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TextUtilities*
+// CS Name: UnityEngine.UIElements.TextUtilities
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x4a2eff0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ConvertPixelUnitsToTextCoreRelativeUnits, addr 0x4a93900, size 0xb8, virtual false, abstract: false, final false
   static inline float_t ConvertPixelUnitsToTextCoreRelativeUnits(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method GetFontAsset, addr 0x4a2eba0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetFontAsset, addr 0x4a934b0, size 0x1bc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetFontAsset(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextCoreSettingsForElement, addr 0x4a2f334, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method GetTextCoreSettingsForElement, addr 0x4a93c44, size 0x3dc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::TextCoreSettings GetTextCoreSettingsForElement(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method GetTextSettingsFrom, addr 0x4a2eadc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetTextSettingsFrom, addr 0x4a933ec, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> GetTextSettingsFrom(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method IsFontAssigned, addr 0x4a2f270, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method IsFontAssigned, addr 0x4a93b80, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsFontAssigned(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method MeasureVisualElementTextSize, addr 0x4a2f0f4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method MeasureVisualElementTextSize, addr 0x4a93a04, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 MeasureVisualElementTextSize(::UnityEngine::UIElements::TextElement* te, ::StringW textToMeasure, float_t width,
-                                                                    ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t height,
-                                                                    ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
+                                                                    ::UnityEngine::UIElements::VisualElement_MeasureMode widthMode, float_t height,
+                                                                    ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode);
 
 protected:
   // Ctor Parameters []
@@ -77,7 +76,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6197 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,23 +20,22 @@ class LightColorBeatmapEventDataProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataProcessor);
-// Type: ::LightColorBeatmapEventDataProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapEventDataProcessor`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightColorBeatmapEventDataProcessor*
+// CS Name: LightColorBeatmapEventDataProcessor
 class CORDL_TYPE LightColorBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightColorBeatmapEventData*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LightColorBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x22175b4, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x224280c, size 0x11c, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x2217464, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x22426bc, size 0x150, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0x22176d0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2242928, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +53,7 @@ public:
   LightColorBeatmapEventDataProcessor(LightColorBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17059 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

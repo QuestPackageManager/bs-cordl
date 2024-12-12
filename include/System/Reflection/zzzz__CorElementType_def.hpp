@@ -12,11 +12,10 @@ struct CorElementType;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::CorElementType);
-// Type: System.Reflection::CorElementType
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::CorElementType
+// CS Name: System.Reflection.CorElementType
 struct CORDL_TYPE CorElementType {
 public:
   // Declarations
@@ -115,223 +114,220 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr CorElementType(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field Array value: static_cast<uint8_t>(0x14u)
+  /// @brief Field Array value: U8(20)
   static ::System::Reflection::CorElementType const Array;
 
-  /// @brief Field Boolean value: static_cast<uint8_t>(0x2u)
+  /// @brief Field Boolean value: U8(2)
   static ::System::Reflection::CorElementType const Boolean;
 
-  /// @brief Field ByRef value: static_cast<uint8_t>(0x10u)
+  /// @brief Field ByRef value: U8(16)
   static ::System::Reflection::CorElementType const ByRef;
 
-  /// @brief Field CModOpt value: static_cast<uint8_t>(0x20u)
+  /// @brief Field CModOpt value: U8(32)
   static ::System::Reflection::CorElementType const CModOpt;
 
-  /// @brief Field CModReqd value: static_cast<uint8_t>(0x1fu)
+  /// @brief Field CModReqd value: U8(31)
   static ::System::Reflection::CorElementType const CModReqd;
 
-  /// @brief Field Char value: static_cast<uint8_t>(0x3u)
+  /// @brief Field Char value: U8(3)
   static ::System::Reflection::CorElementType const Char;
 
-  /// @brief Field Class value: static_cast<uint8_t>(0x12u)
+  /// @brief Field Class value: U8(18)
   static ::System::Reflection::CorElementType const Class;
 
-  /// @brief Field ELEMENT_TYPE_ARRAY value: static_cast<uint8_t>(0x14u)
+  /// @brief Field ELEMENT_TYPE_ARRAY value: U8(20)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_ARRAY;
 
-  /// @brief Field ELEMENT_TYPE_BOOLEAN value: static_cast<uint8_t>(0x2u)
+  /// @brief Field ELEMENT_TYPE_BOOLEAN value: U8(2)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_BOOLEAN;
 
-  /// @brief Field ELEMENT_TYPE_BYREF value: static_cast<uint8_t>(0x10u)
+  /// @brief Field ELEMENT_TYPE_BYREF value: U8(16)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_BYREF;
 
-  /// @brief Field ELEMENT_TYPE_CHAR value: static_cast<uint8_t>(0x3u)
+  /// @brief Field ELEMENT_TYPE_CHAR value: U8(3)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_CHAR;
 
-  /// @brief Field ELEMENT_TYPE_CLASS value: static_cast<uint8_t>(0x12u)
+  /// @brief Field ELEMENT_TYPE_CLASS value: U8(18)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_CLASS;
 
-  /// @brief Field ELEMENT_TYPE_CMOD_OPT value: static_cast<uint8_t>(0x20u)
+  /// @brief Field ELEMENT_TYPE_CMOD_OPT value: U8(32)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_OPT;
 
-  /// @brief Field ELEMENT_TYPE_CMOD_REQD value: static_cast<uint8_t>(0x1fu)
+  /// @brief Field ELEMENT_TYPE_CMOD_REQD value: U8(31)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_CMOD_REQD;
 
-  /// @brief Field ELEMENT_TYPE_END value: static_cast<uint8_t>(0x0u)
+  /// @brief Field ELEMENT_TYPE_END value: U8(0)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_END;
 
-  /// @brief Field ELEMENT_TYPE_FNPTR value: static_cast<uint8_t>(0x1bu)
+  /// @brief Field ELEMENT_TYPE_FNPTR value: U8(27)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_FNPTR;
 
-  /// @brief Field ELEMENT_TYPE_GENERICINST value: static_cast<uint8_t>(0x15u)
+  /// @brief Field ELEMENT_TYPE_GENERICINST value: U8(21)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_GENERICINST;
 
-  /// @brief Field ELEMENT_TYPE_I value: static_cast<uint8_t>(0x18u)
+  /// @brief Field ELEMENT_TYPE_I value: U8(24)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_I;
 
-  /// @brief Field ELEMENT_TYPE_I1 value: static_cast<uint8_t>(0x4u)
+  /// @brief Field ELEMENT_TYPE_I1 value: U8(4)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_I1;
 
-  /// @brief Field ELEMENT_TYPE_I2 value: static_cast<uint8_t>(0x6u)
+  /// @brief Field ELEMENT_TYPE_I2 value: U8(6)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_I2;
 
-  /// @brief Field ELEMENT_TYPE_I4 value: static_cast<uint8_t>(0x8u)
+  /// @brief Field ELEMENT_TYPE_I4 value: U8(8)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_I4;
 
-  /// @brief Field ELEMENT_TYPE_I8 value: static_cast<uint8_t>(0xau)
+  /// @brief Field ELEMENT_TYPE_I8 value: U8(10)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_I8;
 
-  /// @brief Field ELEMENT_TYPE_INTERNAL value: static_cast<uint8_t>(0x21u)
+  /// @brief Field ELEMENT_TYPE_INTERNAL value: U8(33)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_INTERNAL;
 
-  /// @brief Field ELEMENT_TYPE_MAX value: static_cast<uint8_t>(0x22u)
+  /// @brief Field ELEMENT_TYPE_MAX value: U8(34)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_MAX;
 
-  /// @brief Field ELEMENT_TYPE_MODIFIER value: static_cast<uint8_t>(0x40u)
+  /// @brief Field ELEMENT_TYPE_MODIFIER value: U8(64)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_MODIFIER;
 
-  /// @brief Field ELEMENT_TYPE_MVAR value: static_cast<uint8_t>(0x1eu)
+  /// @brief Field ELEMENT_TYPE_MVAR value: U8(30)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_MVAR;
 
-  /// @brief Field ELEMENT_TYPE_OBJECT value: static_cast<uint8_t>(0x1cu)
+  /// @brief Field ELEMENT_TYPE_OBJECT value: U8(28)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_OBJECT;
 
-  /// @brief Field ELEMENT_TYPE_PINNED value: static_cast<uint8_t>(0x45u)
+  /// @brief Field ELEMENT_TYPE_PINNED value: U8(69)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_PINNED;
 
-  /// @brief Field ELEMENT_TYPE_PTR value: static_cast<uint8_t>(0xfu)
+  /// @brief Field ELEMENT_TYPE_PTR value: U8(15)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_PTR;
 
-  /// @brief Field ELEMENT_TYPE_R4 value: static_cast<uint8_t>(0xcu)
+  /// @brief Field ELEMENT_TYPE_R4 value: U8(12)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_R4;
 
-  /// @brief Field ELEMENT_TYPE_R8 value: static_cast<uint8_t>(0xdu)
+  /// @brief Field ELEMENT_TYPE_R8 value: U8(13)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_R8;
 
-  /// @brief Field ELEMENT_TYPE_SENTINEL value: static_cast<uint8_t>(0x41u)
+  /// @brief Field ELEMENT_TYPE_SENTINEL value: U8(65)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_SENTINEL;
 
-  /// @brief Field ELEMENT_TYPE_STRING value: static_cast<uint8_t>(0xeu)
+  /// @brief Field ELEMENT_TYPE_STRING value: U8(14)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_STRING;
 
-  /// @brief Field ELEMENT_TYPE_SZARRAY value: static_cast<uint8_t>(0x1du)
+  /// @brief Field ELEMENT_TYPE_SZARRAY value: U8(29)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_SZARRAY;
 
-  /// @brief Field ELEMENT_TYPE_TYPEDBYREF value: static_cast<uint8_t>(0x16u)
+  /// @brief Field ELEMENT_TYPE_TYPEDBYREF value: U8(22)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_TYPEDBYREF;
 
-  /// @brief Field ELEMENT_TYPE_U value: static_cast<uint8_t>(0x19u)
+  /// @brief Field ELEMENT_TYPE_U value: U8(25)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_U;
 
-  /// @brief Field ELEMENT_TYPE_U1 value: static_cast<uint8_t>(0x5u)
+  /// @brief Field ELEMENT_TYPE_U1 value: U8(5)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_U1;
 
-  /// @brief Field ELEMENT_TYPE_U2 value: static_cast<uint8_t>(0x7u)
+  /// @brief Field ELEMENT_TYPE_U2 value: U8(7)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_U2;
 
-  /// @brief Field ELEMENT_TYPE_U4 value: static_cast<uint8_t>(0x9u)
+  /// @brief Field ELEMENT_TYPE_U4 value: U8(9)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_U4;
 
-  /// @brief Field ELEMENT_TYPE_U8 value: static_cast<uint8_t>(0xbu)
+  /// @brief Field ELEMENT_TYPE_U8 value: U8(11)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_U8;
 
-  /// @brief Field ELEMENT_TYPE_VALUETYPE value: static_cast<uint8_t>(0x11u)
+  /// @brief Field ELEMENT_TYPE_VALUETYPE value: U8(17)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_VALUETYPE;
 
-  /// @brief Field ELEMENT_TYPE_VAR value: static_cast<uint8_t>(0x13u)
+  /// @brief Field ELEMENT_TYPE_VAR value: U8(19)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_VAR;
 
-  /// @brief Field ELEMENT_TYPE_VOID value: static_cast<uint8_t>(0x1u)
+  /// @brief Field ELEMENT_TYPE_VOID value: U8(1)
   static ::System::Reflection::CorElementType const ELEMENT_TYPE_VOID;
 
-  /// @brief Field End value: static_cast<uint8_t>(0x0u)
+  /// @brief Field End value: U8(0)
   static ::System::Reflection::CorElementType const End;
 
-  /// @brief Field FnPtr value: static_cast<uint8_t>(0x1bu)
+  /// @brief Field FnPtr value: U8(27)
   static ::System::Reflection::CorElementType const FnPtr;
 
-  /// @brief Field GenericInst value: static_cast<uint8_t>(0x15u)
+  /// @brief Field GenericInst value: U8(21)
   static ::System::Reflection::CorElementType const GenericInst;
 
-  /// @brief Field I value: static_cast<uint8_t>(0x18u)
+  /// @brief Field I value: U8(24)
   static ::System::Reflection::CorElementType const I;
 
-  /// @brief Field I1 value: static_cast<uint8_t>(0x4u)
+  /// @brief Field I1 value: U8(4)
   static ::System::Reflection::CorElementType const I1;
 
-  /// @brief Field I2 value: static_cast<uint8_t>(0x6u)
+  /// @brief Field I2 value: U8(6)
   static ::System::Reflection::CorElementType const I2;
 
-  /// @brief Field I4 value: static_cast<uint8_t>(0x8u)
+  /// @brief Field I4 value: U8(8)
   static ::System::Reflection::CorElementType const I4;
 
-  /// @brief Field I8 value: static_cast<uint8_t>(0xau)
+  /// @brief Field I8 value: U8(10)
   static ::System::Reflection::CorElementType const I8;
 
-  /// @brief Field Internal value: static_cast<uint8_t>(0x21u)
+  /// @brief Field Internal value: U8(33)
   static ::System::Reflection::CorElementType const Internal;
 
-  /// @brief Field MVar value: static_cast<uint8_t>(0x1eu)
+  /// @brief Field MVar value: U8(30)
   static ::System::Reflection::CorElementType const MVar;
 
-  /// @brief Field Max value: static_cast<uint8_t>(0x22u)
+  /// @brief Field Max value: U8(34)
   static ::System::Reflection::CorElementType const Max;
 
-  /// @brief Field Modifier value: static_cast<uint8_t>(0x40u)
+  /// @brief Field Modifier value: U8(64)
   static ::System::Reflection::CorElementType const Modifier;
 
-  /// @brief Field Object value: static_cast<uint8_t>(0x1cu)
+  /// @brief Field Object value: U8(28)
   static ::System::Reflection::CorElementType const Object;
 
-  /// @brief Field Pinned value: static_cast<uint8_t>(0x45u)
+  /// @brief Field Pinned value: U8(69)
   static ::System::Reflection::CorElementType const Pinned;
 
-  /// @brief Field Ptr value: static_cast<uint8_t>(0xfu)
+  /// @brief Field Ptr value: U8(15)
   static ::System::Reflection::CorElementType const Ptr;
 
-  /// @brief Field R4 value: static_cast<uint8_t>(0xcu)
+  /// @brief Field R4 value: U8(12)
   static ::System::Reflection::CorElementType const R4;
 
-  /// @brief Field R8 value: static_cast<uint8_t>(0xdu)
+  /// @brief Field R8 value: U8(13)
   static ::System::Reflection::CorElementType const R8;
 
-  /// @brief Field Sentinel value: static_cast<uint8_t>(0x41u)
+  /// @brief Field Sentinel value: U8(65)
   static ::System::Reflection::CorElementType const Sentinel;
 
-  /// @brief Field String value: static_cast<uint8_t>(0xeu)
+  /// @brief Field String value: U8(14)
   static ::System::Reflection::CorElementType const String;
 
-  /// @brief Field SzArray value: static_cast<uint8_t>(0x1du)
+  /// @brief Field SzArray value: U8(29)
   static ::System::Reflection::CorElementType const SzArray;
 
-  /// @brief Field TypedByRef value: static_cast<uint8_t>(0x16u)
+  /// @brief Field TypedByRef value: U8(22)
   static ::System::Reflection::CorElementType const TypedByRef;
 
-  /// @brief Field U value: static_cast<uint8_t>(0x19u)
+  /// @brief Field U value: U8(25)
   static ::System::Reflection::CorElementType const U;
 
-  /// @brief Field U1 value: static_cast<uint8_t>(0x5u)
+  /// @brief Field U1 value: U8(5)
   static ::System::Reflection::CorElementType const U1;
 
-  /// @brief Field U2 value: static_cast<uint8_t>(0x7u)
+  /// @brief Field U2 value: U8(7)
   static ::System::Reflection::CorElementType const U2;
 
-  /// @brief Field U4 value: static_cast<uint8_t>(0x9u)
+  /// @brief Field U4 value: U8(9)
   static ::System::Reflection::CorElementType const U4;
 
-  /// @brief Field U8 value: static_cast<uint8_t>(0xbu)
+  /// @brief Field U8 value: U8(11)
   static ::System::Reflection::CorElementType const U8;
 
-  /// @brief Field ValueType value: static_cast<uint8_t>(0x11u)
+  /// @brief Field ValueType value: U8(17)
   static ::System::Reflection::CorElementType const ValueType;
 
-  /// @brief Field Var value: static_cast<uint8_t>(0x13u)
+  /// @brief Field Var value: U8(19)
   static ::System::Reflection::CorElementType const Var;
 
-  /// @brief Field Void value: static_cast<uint8_t>(0x1u)
+  /// @brief Field Void value: U8(1)
   static ::System::Reflection::CorElementType const Void;
 
   /// @brief IL2CPP Metadata Type Index
@@ -340,12 +336,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::CorElementType, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::CorElementType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::CorElementType, 0x1>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CorElementType, "System.Reflection", "CorElementType");

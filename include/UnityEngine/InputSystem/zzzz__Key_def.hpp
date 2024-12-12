@@ -12,11 +12,10 @@ struct Key;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Key);
-// Type: UnityEngine.InputSystem::Key
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem::Key
+// CS Name: UnityEngine.InputSystem.Key
 struct CORDL_TYPE Key {
 public:
   // Declarations
@@ -162,378 +161,378 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Key(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field A value: static_cast<int32_t>(0xf)
+  /// @brief Field A value: I32(15)
   static ::UnityEngine::InputSystem::Key const A;
 
-  /// @brief Field AltGr value: static_cast<int32_t>(0x36)
+  /// @brief Field AltGr value: I32(54)
   static ::UnityEngine::InputSystem::Key const AltGr;
 
-  /// @brief Field B value: static_cast<int32_t>(0x10)
+  /// @brief Field B value: I32(16)
   static ::UnityEngine::InputSystem::Key const B;
 
-  /// @brief Field Backquote value: static_cast<int32_t>(0x4)
+  /// @brief Field Backquote value: I32(4)
   static ::UnityEngine::InputSystem::Key const Backquote;
 
-  /// @brief Field Backslash value: static_cast<int32_t>(0xa)
+  /// @brief Field Backslash value: I32(10)
   static ::UnityEngine::InputSystem::Key const Backslash;
 
-  /// @brief Field Backspace value: static_cast<int32_t>(0x41)
+  /// @brief Field Backspace value: I32(65)
   static ::UnityEngine::InputSystem::Key const Backspace;
 
-  /// @brief Field C value: static_cast<int32_t>(0x11)
+  /// @brief Field C value: I32(17)
   static ::UnityEngine::InputSystem::Key const C;
 
-  /// @brief Field CapsLock value: static_cast<int32_t>(0x48)
+  /// @brief Field CapsLock value: I32(72)
   static ::UnityEngine::InputSystem::Key const CapsLock;
 
-  /// @brief Field Comma value: static_cast<int32_t>(0x7)
+  /// @brief Field Comma value: I32(7)
   static ::UnityEngine::InputSystem::Key const Comma;
 
-  /// @brief Field ContextMenu value: static_cast<int32_t>(0x3b)
+  /// @brief Field ContextMenu value: I32(59)
   static ::UnityEngine::InputSystem::Key const ContextMenu;
 
-  /// @brief Field D value: static_cast<int32_t>(0x12)
+  /// @brief Field D value: I32(18)
   static ::UnityEngine::InputSystem::Key const D;
 
-  /// @brief Field Delete value: static_cast<int32_t>(0x47)
+  /// @brief Field Delete value: I32(71)
   static ::UnityEngine::InputSystem::Key const Delete;
 
-  /// @brief Field Digit0 value: static_cast<int32_t>(0x32)
+  /// @brief Field Digit0 value: I32(50)
   static ::UnityEngine::InputSystem::Key const Digit0;
 
-  /// @brief Field Digit1 value: static_cast<int32_t>(0x29)
+  /// @brief Field Digit1 value: I32(41)
   static ::UnityEngine::InputSystem::Key const Digit1;
 
-  /// @brief Field Digit2 value: static_cast<int32_t>(0x2a)
+  /// @brief Field Digit2 value: I32(42)
   static ::UnityEngine::InputSystem::Key const Digit2;
 
-  /// @brief Field Digit3 value: static_cast<int32_t>(0x2b)
+  /// @brief Field Digit3 value: I32(43)
   static ::UnityEngine::InputSystem::Key const Digit3;
 
-  /// @brief Field Digit4 value: static_cast<int32_t>(0x2c)
+  /// @brief Field Digit4 value: I32(44)
   static ::UnityEngine::InputSystem::Key const Digit4;
 
-  /// @brief Field Digit5 value: static_cast<int32_t>(0x2d)
+  /// @brief Field Digit5 value: I32(45)
   static ::UnityEngine::InputSystem::Key const Digit5;
 
-  /// @brief Field Digit6 value: static_cast<int32_t>(0x2e)
+  /// @brief Field Digit6 value: I32(46)
   static ::UnityEngine::InputSystem::Key const Digit6;
 
-  /// @brief Field Digit7 value: static_cast<int32_t>(0x2f)
+  /// @brief Field Digit7 value: I32(47)
   static ::UnityEngine::InputSystem::Key const Digit7;
 
-  /// @brief Field Digit8 value: static_cast<int32_t>(0x30)
+  /// @brief Field Digit8 value: I32(48)
   static ::UnityEngine::InputSystem::Key const Digit8;
 
-  /// @brief Field Digit9 value: static_cast<int32_t>(0x31)
+  /// @brief Field Digit9 value: I32(49)
   static ::UnityEngine::InputSystem::Key const Digit9;
 
-  /// @brief Field DownArrow value: static_cast<int32_t>(0x40)
+  /// @brief Field DownArrow value: I32(64)
   static ::UnityEngine::InputSystem::Key const DownArrow;
 
-  /// @brief Field E value: static_cast<int32_t>(0x13)
+  /// @brief Field E value: I32(19)
   static ::UnityEngine::InputSystem::Key const E;
 
-  /// @brief Field End value: static_cast<int32_t>(0x45)
+  /// @brief Field End value: I32(69)
   static ::UnityEngine::InputSystem::Key const End;
 
-  /// @brief Field Enter value: static_cast<int32_t>(0x2)
+  /// @brief Field Enter value: I32(2)
   static ::UnityEngine::InputSystem::Key const Enter;
 
-  /// @brief Field Equals value: static_cast<int32_t>(0xe)
+  /// @brief Field Equals value: I32(14)
   static ::UnityEngine::InputSystem::Key const Equals;
 
-  /// @brief Field Escape value: static_cast<int32_t>(0x3c)
+  /// @brief Field Escape value: I32(60)
   static ::UnityEngine::InputSystem::Key const Escape;
 
-  /// @brief Field F value: static_cast<int32_t>(0x14)
+  /// @brief Field F value: I32(20)
   static ::UnityEngine::InputSystem::Key const F;
 
-  /// @brief Field F1 value: static_cast<int32_t>(0x5e)
+  /// @brief Field F1 value: I32(94)
   static ::UnityEngine::InputSystem::Key const F1;
 
-  /// @brief Field F10 value: static_cast<int32_t>(0x67)
+  /// @brief Field F10 value: I32(103)
   static ::UnityEngine::InputSystem::Key const F10;
 
-  /// @brief Field F11 value: static_cast<int32_t>(0x68)
+  /// @brief Field F11 value: I32(104)
   static ::UnityEngine::InputSystem::Key const F11;
 
-  /// @brief Field F12 value: static_cast<int32_t>(0x69)
+  /// @brief Field F12 value: I32(105)
   static ::UnityEngine::InputSystem::Key const F12;
 
-  /// @brief Field F2 value: static_cast<int32_t>(0x5f)
+  /// @brief Field F2 value: I32(95)
   static ::UnityEngine::InputSystem::Key const F2;
 
-  /// @brief Field F3 value: static_cast<int32_t>(0x60)
+  /// @brief Field F3 value: I32(96)
   static ::UnityEngine::InputSystem::Key const F3;
 
-  /// @brief Field F4 value: static_cast<int32_t>(0x61)
+  /// @brief Field F4 value: I32(97)
   static ::UnityEngine::InputSystem::Key const F4;
 
-  /// @brief Field F5 value: static_cast<int32_t>(0x62)
+  /// @brief Field F5 value: I32(98)
   static ::UnityEngine::InputSystem::Key const F5;
 
-  /// @brief Field F6 value: static_cast<int32_t>(0x63)
+  /// @brief Field F6 value: I32(99)
   static ::UnityEngine::InputSystem::Key const F6;
 
-  /// @brief Field F7 value: static_cast<int32_t>(0x64)
+  /// @brief Field F7 value: I32(100)
   static ::UnityEngine::InputSystem::Key const F7;
 
-  /// @brief Field F8 value: static_cast<int32_t>(0x65)
+  /// @brief Field F8 value: I32(101)
   static ::UnityEngine::InputSystem::Key const F8;
 
-  /// @brief Field F9 value: static_cast<int32_t>(0x66)
+  /// @brief Field F9 value: I32(102)
   static ::UnityEngine::InputSystem::Key const F9;
 
-  /// @brief Field G value: static_cast<int32_t>(0x15)
+  /// @brief Field G value: I32(21)
   static ::UnityEngine::InputSystem::Key const G;
 
-  /// @brief Field H value: static_cast<int32_t>(0x16)
+  /// @brief Field H value: I32(22)
   static ::UnityEngine::InputSystem::Key const H;
 
-  /// @brief Field Home value: static_cast<int32_t>(0x44)
+  /// @brief Field Home value: I32(68)
   static ::UnityEngine::InputSystem::Key const Home;
 
-  /// @brief Field I value: static_cast<int32_t>(0x17)
+  /// @brief Field I value: I32(23)
   static ::UnityEngine::InputSystem::Key const I;
 
-  /// @brief Field IMESelected value: static_cast<int32_t>(0x6f)
+  /// @brief Field IMESelected value: I32(111)
   static ::UnityEngine::InputSystem::Key const IMESelected;
 
-  /// @brief Field Insert value: static_cast<int32_t>(0x46)
+  /// @brief Field Insert value: I32(70)
   static ::UnityEngine::InputSystem::Key const Insert;
 
-  /// @brief Field J value: static_cast<int32_t>(0x18)
+  /// @brief Field J value: I32(24)
   static ::UnityEngine::InputSystem::Key const J;
 
-  /// @brief Field K value: static_cast<int32_t>(0x19)
+  /// @brief Field K value: I32(25)
   static ::UnityEngine::InputSystem::Key const K;
 
-  /// @brief Field L value: static_cast<int32_t>(0x1a)
+  /// @brief Field L value: I32(26)
   static ::UnityEngine::InputSystem::Key const L;
 
-  /// @brief Field LeftAlt value: static_cast<int32_t>(0x35)
+  /// @brief Field LeftAlt value: I32(53)
   static ::UnityEngine::InputSystem::Key const LeftAlt;
 
-  /// @brief Field LeftApple value: static_cast<int32_t>(0x39)
+  /// @brief Field LeftApple value: I32(57)
   static ::UnityEngine::InputSystem::Key const LeftApple;
 
-  /// @brief Field LeftArrow value: static_cast<int32_t>(0x3d)
+  /// @brief Field LeftArrow value: I32(61)
   static ::UnityEngine::InputSystem::Key const LeftArrow;
 
-  /// @brief Field LeftBracket value: static_cast<int32_t>(0xb)
+  /// @brief Field LeftBracket value: I32(11)
   static ::UnityEngine::InputSystem::Key const LeftBracket;
 
-  /// @brief Field LeftCommand value: static_cast<int32_t>(0x39)
+  /// @brief Field LeftCommand value: I32(57)
   static ::UnityEngine::InputSystem::Key const LeftCommand;
 
-  /// @brief Field LeftCtrl value: static_cast<int32_t>(0x37)
+  /// @brief Field LeftCtrl value: I32(55)
   static ::UnityEngine::InputSystem::Key const LeftCtrl;
 
-  /// @brief Field LeftMeta value: static_cast<int32_t>(0x39)
+  /// @brief Field LeftMeta value: I32(57)
   static ::UnityEngine::InputSystem::Key const LeftMeta;
 
-  /// @brief Field LeftShift value: static_cast<int32_t>(0x33)
+  /// @brief Field LeftShift value: I32(51)
   static ::UnityEngine::InputSystem::Key const LeftShift;
 
-  /// @brief Field LeftWindows value: static_cast<int32_t>(0x39)
+  /// @brief Field LeftWindows value: I32(57)
   static ::UnityEngine::InputSystem::Key const LeftWindows;
 
-  /// @brief Field M value: static_cast<int32_t>(0x1b)
+  /// @brief Field M value: I32(27)
   static ::UnityEngine::InputSystem::Key const M;
 
-  /// @brief Field Minus value: static_cast<int32_t>(0xd)
+  /// @brief Field Minus value: I32(13)
   static ::UnityEngine::InputSystem::Key const Minus;
 
-  /// @brief Field N value: static_cast<int32_t>(0x1c)
+  /// @brief Field N value: I32(28)
   static ::UnityEngine::InputSystem::Key const N;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::UnityEngine::InputSystem::Key const None;
 
-  /// @brief Field NumLock value: static_cast<int32_t>(0x49)
+  /// @brief Field NumLock value: I32(73)
   static ::UnityEngine::InputSystem::Key const NumLock;
 
-  /// @brief Field Numpad0 value: static_cast<int32_t>(0x54)
+  /// @brief Field Numpad0 value: I32(84)
   static ::UnityEngine::InputSystem::Key const Numpad0;
 
-  /// @brief Field Numpad1 value: static_cast<int32_t>(0x55)
+  /// @brief Field Numpad1 value: I32(85)
   static ::UnityEngine::InputSystem::Key const Numpad1;
 
-  /// @brief Field Numpad2 value: static_cast<int32_t>(0x56)
+  /// @brief Field Numpad2 value: I32(86)
   static ::UnityEngine::InputSystem::Key const Numpad2;
 
-  /// @brief Field Numpad3 value: static_cast<int32_t>(0x57)
+  /// @brief Field Numpad3 value: I32(87)
   static ::UnityEngine::InputSystem::Key const Numpad3;
 
-  /// @brief Field Numpad4 value: static_cast<int32_t>(0x58)
+  /// @brief Field Numpad4 value: I32(88)
   static ::UnityEngine::InputSystem::Key const Numpad4;
 
-  /// @brief Field Numpad5 value: static_cast<int32_t>(0x59)
+  /// @brief Field Numpad5 value: I32(89)
   static ::UnityEngine::InputSystem::Key const Numpad5;
 
-  /// @brief Field Numpad6 value: static_cast<int32_t>(0x5a)
+  /// @brief Field Numpad6 value: I32(90)
   static ::UnityEngine::InputSystem::Key const Numpad6;
 
-  /// @brief Field Numpad7 value: static_cast<int32_t>(0x5b)
+  /// @brief Field Numpad7 value: I32(91)
   static ::UnityEngine::InputSystem::Key const Numpad7;
 
-  /// @brief Field Numpad8 value: static_cast<int32_t>(0x5c)
+  /// @brief Field Numpad8 value: I32(92)
   static ::UnityEngine::InputSystem::Key const Numpad8;
 
-  /// @brief Field Numpad9 value: static_cast<int32_t>(0x5d)
+  /// @brief Field Numpad9 value: I32(93)
   static ::UnityEngine::InputSystem::Key const Numpad9;
 
-  /// @brief Field NumpadDivide value: static_cast<int32_t>(0x4e)
+  /// @brief Field NumpadDivide value: I32(78)
   static ::UnityEngine::InputSystem::Key const NumpadDivide;
 
-  /// @brief Field NumpadEnter value: static_cast<int32_t>(0x4d)
+  /// @brief Field NumpadEnter value: I32(77)
   static ::UnityEngine::InputSystem::Key const NumpadEnter;
 
-  /// @brief Field NumpadEquals value: static_cast<int32_t>(0x53)
+  /// @brief Field NumpadEquals value: I32(83)
   static ::UnityEngine::InputSystem::Key const NumpadEquals;
 
-  /// @brief Field NumpadMinus value: static_cast<int32_t>(0x51)
+  /// @brief Field NumpadMinus value: I32(81)
   static ::UnityEngine::InputSystem::Key const NumpadMinus;
 
-  /// @brief Field NumpadMultiply value: static_cast<int32_t>(0x4f)
+  /// @brief Field NumpadMultiply value: I32(79)
   static ::UnityEngine::InputSystem::Key const NumpadMultiply;
 
-  /// @brief Field NumpadPeriod value: static_cast<int32_t>(0x52)
+  /// @brief Field NumpadPeriod value: I32(82)
   static ::UnityEngine::InputSystem::Key const NumpadPeriod;
 
-  /// @brief Field NumpadPlus value: static_cast<int32_t>(0x50)
+  /// @brief Field NumpadPlus value: I32(80)
   static ::UnityEngine::InputSystem::Key const NumpadPlus;
 
-  /// @brief Field O value: static_cast<int32_t>(0x1d)
+  /// @brief Field O value: I32(29)
   static ::UnityEngine::InputSystem::Key const O;
 
-  /// @brief Field OEM1 value: static_cast<int32_t>(0x6a)
+  /// @brief Field OEM1 value: I32(106)
   static ::UnityEngine::InputSystem::Key const OEM1;
 
-  /// @brief Field OEM2 value: static_cast<int32_t>(0x6b)
+  /// @brief Field OEM2 value: I32(107)
   static ::UnityEngine::InputSystem::Key const OEM2;
 
-  /// @brief Field OEM3 value: static_cast<int32_t>(0x6c)
+  /// @brief Field OEM3 value: I32(108)
   static ::UnityEngine::InputSystem::Key const OEM3;
 
-  /// @brief Field OEM4 value: static_cast<int32_t>(0x6d)
+  /// @brief Field OEM4 value: I32(109)
   static ::UnityEngine::InputSystem::Key const OEM4;
 
-  /// @brief Field OEM5 value: static_cast<int32_t>(0x6e)
+  /// @brief Field OEM5 value: I32(110)
   static ::UnityEngine::InputSystem::Key const OEM5;
 
-  /// @brief Field P value: static_cast<int32_t>(0x1e)
+  /// @brief Field P value: I32(30)
   static ::UnityEngine::InputSystem::Key const P;
 
-  /// @brief Field PageDown value: static_cast<int32_t>(0x42)
+  /// @brief Field PageDown value: I32(66)
   static ::UnityEngine::InputSystem::Key const PageDown;
 
-  /// @brief Field PageUp value: static_cast<int32_t>(0x43)
+  /// @brief Field PageUp value: I32(67)
   static ::UnityEngine::InputSystem::Key const PageUp;
 
-  /// @brief Field Pause value: static_cast<int32_t>(0x4c)
+  /// @brief Field Pause value: I32(76)
   static ::UnityEngine::InputSystem::Key const Pause;
 
-  /// @brief Field Period value: static_cast<int32_t>(0x8)
+  /// @brief Field Period value: I32(8)
   static ::UnityEngine::InputSystem::Key const Period;
 
-  /// @brief Field PrintScreen value: static_cast<int32_t>(0x4a)
+  /// @brief Field PrintScreen value: I32(74)
   static ::UnityEngine::InputSystem::Key const PrintScreen;
 
-  /// @brief Field Q value: static_cast<int32_t>(0x1f)
+  /// @brief Field Q value: I32(31)
   static ::UnityEngine::InputSystem::Key const Q;
 
-  /// @brief Field Quote value: static_cast<int32_t>(0x5)
+  /// @brief Field Quote value: I32(5)
   static ::UnityEngine::InputSystem::Key const Quote;
 
-  /// @brief Field R value: static_cast<int32_t>(0x20)
+  /// @brief Field R value: I32(32)
   static ::UnityEngine::InputSystem::Key const R;
 
-  /// @brief Field RightAlt value: static_cast<int32_t>(0x36)
+  /// @brief Field RightAlt value: I32(54)
   static ::UnityEngine::InputSystem::Key const RightAlt;
 
-  /// @brief Field RightApple value: static_cast<int32_t>(0x3a)
+  /// @brief Field RightApple value: I32(58)
   static ::UnityEngine::InputSystem::Key const RightApple;
 
-  /// @brief Field RightArrow value: static_cast<int32_t>(0x3e)
+  /// @brief Field RightArrow value: I32(62)
   static ::UnityEngine::InputSystem::Key const RightArrow;
 
-  /// @brief Field RightBracket value: static_cast<int32_t>(0xc)
+  /// @brief Field RightBracket value: I32(12)
   static ::UnityEngine::InputSystem::Key const RightBracket;
 
-  /// @brief Field RightCommand value: static_cast<int32_t>(0x3a)
+  /// @brief Field RightCommand value: I32(58)
   static ::UnityEngine::InputSystem::Key const RightCommand;
 
-  /// @brief Field RightCtrl value: static_cast<int32_t>(0x38)
+  /// @brief Field RightCtrl value: I32(56)
   static ::UnityEngine::InputSystem::Key const RightCtrl;
 
-  /// @brief Field RightMeta value: static_cast<int32_t>(0x3a)
+  /// @brief Field RightMeta value: I32(58)
   static ::UnityEngine::InputSystem::Key const RightMeta;
 
-  /// @brief Field RightShift value: static_cast<int32_t>(0x34)
+  /// @brief Field RightShift value: I32(52)
   static ::UnityEngine::InputSystem::Key const RightShift;
 
-  /// @brief Field RightWindows value: static_cast<int32_t>(0x3a)
+  /// @brief Field RightWindows value: I32(58)
   static ::UnityEngine::InputSystem::Key const RightWindows;
 
-  /// @brief Field S value: static_cast<int32_t>(0x21)
+  /// @brief Field S value: I32(33)
   static ::UnityEngine::InputSystem::Key const S;
 
-  /// @brief Field ScrollLock value: static_cast<int32_t>(0x4b)
+  /// @brief Field ScrollLock value: I32(75)
   static ::UnityEngine::InputSystem::Key const ScrollLock;
 
-  /// @brief Field Semicolon value: static_cast<int32_t>(0x6)
+  /// @brief Field Semicolon value: I32(6)
   static ::UnityEngine::InputSystem::Key const Semicolon;
 
-  /// @brief Field Slash value: static_cast<int32_t>(0x9)
+  /// @brief Field Slash value: I32(9)
   static ::UnityEngine::InputSystem::Key const Slash;
 
-  /// @brief Field Space value: static_cast<int32_t>(0x1)
+  /// @brief Field Space value: I32(1)
   static ::UnityEngine::InputSystem::Key const Space;
 
-  /// @brief Field T value: static_cast<int32_t>(0x22)
+  /// @brief Field T value: I32(34)
   static ::UnityEngine::InputSystem::Key const T;
 
-  /// @brief Field Tab value: static_cast<int32_t>(0x3)
+  /// @brief Field Tab value: I32(3)
   static ::UnityEngine::InputSystem::Key const Tab;
 
-  /// @brief Field U value: static_cast<int32_t>(0x23)
+  /// @brief Field U value: I32(35)
   static ::UnityEngine::InputSystem::Key const U;
 
-  /// @brief Field UpArrow value: static_cast<int32_t>(0x3f)
+  /// @brief Field UpArrow value: I32(63)
   static ::UnityEngine::InputSystem::Key const UpArrow;
 
-  /// @brief Field V value: static_cast<int32_t>(0x24)
+  /// @brief Field V value: I32(36)
   static ::UnityEngine::InputSystem::Key const V;
 
-  /// @brief Field W value: static_cast<int32_t>(0x25)
+  /// @brief Field W value: I32(37)
   static ::UnityEngine::InputSystem::Key const W;
 
-  /// @brief Field X value: static_cast<int32_t>(0x26)
+  /// @brief Field X value: I32(38)
   static ::UnityEngine::InputSystem::Key const X;
 
-  /// @brief Field Y value: static_cast<int32_t>(0x27)
+  /// @brief Field Y value: I32(39)
   static ::UnityEngine::InputSystem::Key const Y;
 
-  /// @brief Field Z value: static_cast<int32_t>(0x28)
+  /// @brief Field Z value: I32(40)
   static ::UnityEngine::InputSystem::Key const Z;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6645 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Key, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Key, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Key, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Key, "UnityEngine.InputSystem", "Key");

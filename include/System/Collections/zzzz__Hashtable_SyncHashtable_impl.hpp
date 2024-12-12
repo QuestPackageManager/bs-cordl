@@ -1,506 +1,485 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Hashtable_SyncHashtable.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Collections/zzzz__Hashtable_SyncHashtable_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable._ctor
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Collections::Hashtable*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Collections::Hashtable*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d65b60;
+  constexpr static std::size_t addrs = 0x3dc5cd4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable._ctor
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(
-    ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::__Hashtable__SyncHashtable::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(
+    ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::GlobalNamespace::Hashtable_SyncHashtable::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d66dfc;
+  constexpr static std::size_t addrs = 0x3dc6f70;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.GetObjectData
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.GetObjectData
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(
-    ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::__Hashtable__SyncHashtable::GetObjectData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(
+    ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::GlobalNamespace::Hashtable_SyncHashtable::GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d66e38;
+  constexpr static std::size_t addrs = 0x3dc6fac;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 42));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 42));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_Count
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_Count
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_Count)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d66e70;
+  constexpr static std::size_t addrs = 0x3dc6fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 41));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 41));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_IsReadOnly
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_IsReadOnly
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_IsReadOnly)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d66e94;
+  constexpr static std::size_t addrs = 0x3dc7008;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 33));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 33));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_IsFixedSize
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_IsFixedSize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_IsFixedSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_IsFixedSize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d66eb8;
+  constexpr static std::size_t addrs = 0x3dc702c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 34));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 34));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_IsSynchronized
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_IsSynchronized
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_IsSynchronized)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66edc;
+  constexpr static std::size_t addrs = 0x3dc7050;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 35));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 35));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_Item
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d66ee4;
+  constexpr static std::size_t addrs = 0x3dc7058;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 29));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 29));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.set_Item
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.set_Item
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*, ::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::set_Item)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*, ::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::set_Item)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d66f08;
+  constexpr static std::size_t addrs = 0x3dc707c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 30));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 30));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_SyncRoot
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_SyncRoot
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_SyncRoot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d67004;
+  constexpr static std::size_t addrs = 0x3dc7178;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 40));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 40));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.Add
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.Add
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*, ::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*, ::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::Add)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d67028;
+  constexpr static std::size_t addrs = 0x3dc719c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 23));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 23));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.Clear
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.Clear
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::Clear)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(&::GlobalNamespace::Hashtable_SyncHashtable::Clear)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d67124;
+  constexpr static std::size_t addrs = 0x3dc7298;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 24));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 24));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.Contains
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.Contains
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::Contains)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::Contains)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d67210;
+  constexpr static std::size_t addrs = 0x3dc7384;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 26));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 26));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.ContainsKey
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.ContainsKey
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::ContainsKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::ContainsKey)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d67234;
+  constexpr static std::size_t addrs = 0x3dc73a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 27));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 27));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.CopyTo
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.CopyTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Array*, int32_t)>(
-    &::System::Collections::__Hashtable__SyncHashtable::CopyTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Array*, int32_t)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::CopyTo)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d672c0;
+  constexpr static std::size_t addrs = 0x3dc7434;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 28));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 28));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.Clone
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.Clone
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::Clone)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::Clone)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3d673bc;
+  constexpr static std::size_t addrs = 0x3dc7530;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 25));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 25));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d6751c;
+  constexpr static std::size_t addrs = 0x3dc7690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d67540;
+  constexpr static std::size_t addrs = 0x3dc76b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 31));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 31));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_Keys
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_Keys
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_Keys)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_Keys)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d67564;
+  constexpr static std::size_t addrs = 0x3dc76d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 37));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 37));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.get_Values
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.get_Values
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Collections::__Hashtable__SyncHashtable::*)()>(
-    &::System::Collections::__Hashtable__SyncHashtable::get_Values)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::GlobalNamespace::Hashtable_SyncHashtable::*)()>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::get_Values)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d67660;
+  constexpr static std::size_t addrs = 0x3dc77d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 38));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 38));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.Remove
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.Remove
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::Remove)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6775c;
+  constexpr static std::size_t addrs = 0x3dc78d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 39));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 39));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Collections::__Hashtable__SyncHashtable.OnDeserialization
+//  Writing Method size for method: ::GlobalNamespace::Hashtable_SyncHashtable.OnDeserialization
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::__Hashtable__SyncHashtable::*)(::System::Object*)>(
-    &::System::Collections::__Hashtable__SyncHashtable::OnDeserialization)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Hashtable_SyncHashtable::*)(::System::Object*)>(
+    &::GlobalNamespace::Hashtable_SyncHashtable::OnDeserialization)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d67850;
+  constexpr static std::size_t addrs = 0x3dc79c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 43));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 43));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::__Hashtable__SyncHashtable::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::__Hashtable__SyncHashtable::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-constexpr ::System::Collections::Hashtable*& System::Collections::__Hashtable__SyncHashtable::__cordl_internal_get__table() {
+constexpr ::System::Collections::Hashtable*& GlobalNamespace::Hashtable_SyncHashtable::__cordl_internal_get__table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Collections::__Hashtable__SyncHashtable::__cordl_internal_get__table() const {
+constexpr ::System::Collections::Hashtable* const& GlobalNamespace::Hashtable_SyncHashtable::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr void System::Collections::__Hashtable__SyncHashtable::__cordl_internal_set__table(::System::Collections::Hashtable* value) {
+constexpr void GlobalNamespace::Hashtable_SyncHashtable::__cordl_internal_set__table(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Collections::__Hashtable__SyncHashtable* System::Collections::__Hashtable__SyncHashtable::New_ctor(::System::Collections::Hashtable* table) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__Hashtable__SyncHashtable*>(table));
-}
-inline void System::Collections::__Hashtable__SyncHashtable::_ctor(::System::Collections::Hashtable* table) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::_ctor(::System::Collections::Hashtable* table) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Hashtable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, table);
 }
-inline ::System::Collections::__Hashtable__SyncHashtable* System::Collections::__Hashtable__SyncHashtable::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                                                    ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::__Hashtable__SyncHashtable*>(info, context));
-}
-inline void System::Collections::__Hashtable__SyncHashtable::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 42)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
-inline int32_t System::Collections::__Hashtable__SyncHashtable::get_Count() {
+inline int32_t GlobalNamespace::Hashtable_SyncHashtable::get_Count() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 41)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 41)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Collections::__Hashtable__SyncHashtable::get_IsReadOnly() {
+inline bool GlobalNamespace::Hashtable_SyncHashtable::get_IsReadOnly() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 33)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__Hashtable__SyncHashtable::get_IsFixedSize() {
+inline bool GlobalNamespace::Hashtable_SyncHashtable::get_IsFixedSize() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Collections::__Hashtable__SyncHashtable::get_IsSynchronized() {
+inline bool GlobalNamespace::Hashtable_SyncHashtable::get_IsSynchronized() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Collections::__Hashtable__SyncHashtable::get_Item(::System::Object* key) {
+inline ::System::Object* GlobalNamespace::Hashtable_SyncHashtable::get_Item(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::set_Item(::System::Object* key, ::System::Object* value) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::set_Item(::System::Object* key, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
 }
-inline ::System::Object* System::Collections::__Hashtable__SyncHashtable::get_SyncRoot() {
+inline ::System::Object* GlobalNamespace::Hashtable_SyncHashtable::get_SyncRoot() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 40)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 40)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::Add(::System::Object* key, ::System::Object* value) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::Add(::System::Object* key, ::System::Object* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::Clear() {
+inline void GlobalNamespace::Hashtable_SyncHashtable::Clear() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool System::Collections::__Hashtable__SyncHashtable::Contains(::System::Object* key) {
+inline bool GlobalNamespace::Hashtable_SyncHashtable::Contains(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
 }
-inline bool System::Collections::__Hashtable__SyncHashtable::ContainsKey(::System::Object* key) {
+inline bool GlobalNamespace::Hashtable_SyncHashtable::ContainsKey(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::CopyTo(::System::Array* array, int32_t arrayIndex) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::CopyTo(::System::Array* array, int32_t arrayIndex) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, arrayIndex);
 }
-inline ::System::Object* System::Collections::__Hashtable__SyncHashtable::Clone() {
+inline ::System::Object* GlobalNamespace::Hashtable_SyncHashtable::Clone() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* System::Collections::__Hashtable__SyncHashtable::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::Hashtable_SyncHashtable::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IDictionaryEnumerator* System::Collections::__Hashtable__SyncHashtable::GetEnumerator() {
+inline ::System::Collections::IDictionaryEnumerator* GlobalNamespace::Hashtable_SyncHashtable::GetEnumerator() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionaryEnumerator*, false>(this, ___internal_method);
 }
-inline ::System::Collections::ICollection* System::Collections::__Hashtable__SyncHashtable::get_Keys() {
+inline ::System::Collections::ICollection* GlobalNamespace::Hashtable_SyncHashtable::get_Keys() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 37)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 37)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ICollection*, false>(this, ___internal_method);
 }
-inline ::System::Collections::ICollection* System::Collections::__Hashtable__SyncHashtable::get_Values() {
+inline ::System::Collections::ICollection* GlobalNamespace::Hashtable_SyncHashtable::get_Values() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 38)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 38)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::ICollection*, false>(this, ___internal_method);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::Remove(::System::Object* key) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::Remove(::System::Object* key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 39)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 39)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key);
 }
-inline void System::Collections::__Hashtable__SyncHashtable::OnDeserialization(::System::Object* sender) {
+inline void GlobalNamespace::Hashtable_SyncHashtable::OnDeserialization(::System::Object* sender) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::__Hashtable__SyncHashtable*>::get(), 43)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Hashtable_SyncHashtable*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
+inline ::GlobalNamespace::Hashtable_SyncHashtable* GlobalNamespace::Hashtable_SyncHashtable::New_ctor(::System::Collections::Hashtable* table) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Hashtable_SyncHashtable*>(table));
+}
+inline ::GlobalNamespace::Hashtable_SyncHashtable* GlobalNamespace::Hashtable_SyncHashtable::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
+                                                                                                      ::System::Runtime::Serialization::StreamingContext context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::Hashtable_SyncHashtable*>(info, context));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr GlobalNamespace::Hashtable_SyncHashtable::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::Hashtable_SyncHashtable::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Collections::__Hashtable__SyncHashtable::__Hashtable__SyncHashtable() {}
+constexpr ::GlobalNamespace::Hashtable_SyncHashtable::Hashtable_SyncHashtable() {}

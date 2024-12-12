@@ -11,17 +11,16 @@ class RSAPKCS1SHA384SignatureDescription;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription);
-// Type: System.Security.Cryptography::RSAPKCS1SHA384SignatureDescription
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.Cryptography.RSAPKCS1SignatureDescription
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::RSAPKCS1SHA384SignatureDescription*
+// CS Name: System.Security.Cryptography.RSAPKCS1SHA384SignatureDescription
 class CORDL_TYPE RSAPKCS1SHA384SignatureDescription : public ::System::Security::Cryptography::RSAPKCS1SignatureDescription {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::RSAPKCS1SHA384SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c4b434, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cab5a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

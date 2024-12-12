@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainSink.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CrossAppDomainSink_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -11,22 +12,22 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-// Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "cadMrm", ty:
-// "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes::__CrossAppDomainSink__ProcessMessageRes(
+// Ctor Parameters [CppParam { name: "arrResponse", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "cadMrm", ty:
+// "::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes::CrossAppDomainSink_ProcessMessageRes(
     ::ArrayW<uint8_t, ::Array<uint8_t>*> arrResponse, ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm) noexcept {
   this->arrResponse = arrResponse;
   this->cadMrm = cadMrm;
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes::__CrossAppDomainSink__ProcessMessageRes() {}
+constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes::CrossAppDomainSink_ProcessMessageRes() {}
 //  Writing Method size for method: ::System::Runtime::Remoting::Channels::CrossAppDomainSink._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c81ba8;
+  constexpr static std::size_t addrs = 0x3ce1d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Channels::CrossAppDomainSink* (*)(int32_t)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::GetSink)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3c818a8;
+  constexpr static std::size_t addrs = 0x3ce1a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)()>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::get_TargetDomainId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c81bd0;
+  constexpr static std::size_t addrs = 0x3ce1d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,10 +69,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Runtime::Remoting::Channels::CrossAppDomainSink.ProcessMessageInDomain
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&::System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c81bd8;
+  constexpr static std::size_t addrs = 0x3ce1d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Channels::CrossAppDomainSink::SyncProcessMessage)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3c81e44;
+  constexpr static std::size_t addrs = 0x3ce1fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c8232c;
+  constexpr static std::size_t addrs = 0x3ce24a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::SendAsyncMessage)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3c82420;
+  constexpr static std::size_t addrs = 0x3ce2594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CrossAppDomainSink::_AsyncProcessMessage_b__10_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c82624;
+  constexpr static std::size_t addrs = 0x3ce2798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,14 +145,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
-constexpr System::Runtime::Remoting::Channels::CrossAppDomainSink::operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Channels::CrossAppDomainSink::i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept {
-  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
-}
 constexpr int32_t& System::Runtime::Remoting::Channels::CrossAppDomainSink::__cordl_internal_get__domainID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____domainID;
@@ -182,9 +175,6 @@ inline ::System::Reflection::MethodInfo* System::Runtime::Remoting::Channels::Cr
   return ::cordl_internals::getStaticField<::System::Reflection::MethodInfo*, "processMessageMethod",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>::get>();
 }
-inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* System::Runtime::Remoting::Channels::CrossAppDomainSink::New_ctor(int32_t domainID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>(domainID));
-}
 inline void System::Runtime::Remoting::Channels::CrossAppDomainSink::_ctor(int32_t domainID) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>::get(), ".ctor",
@@ -202,13 +192,13 @@ inline int32_t System::Runtime::Remoting::Channels::CrossAppDomainSink::get_Targ
                                                                              "get_TargetDomainId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes
+inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes
 System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>::get(), "ProcessMessageInDomain", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::CADMethodCallMessage*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes, false>(nullptr, ___internal_method, arrRequest, cadMsg);
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Channels::CrossAppDomainSink_ProcessMessageRes, false>(nullptr, ___internal_method, arrRequest, cadMsg);
 }
 inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Channels::CrossAppDomainSink::SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msgRequest) {
   auto* ___internal_method =
@@ -235,6 +225,17 @@ inline void System::Runtime::Remoting::Channels::CrossAppDomainSink::_AsyncProce
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>::get(), "<AsyncProcessMessage>b__10_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+}
+inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* System::Runtime::Remoting::Channels::CrossAppDomainSink::New_ctor(int32_t domainID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Channels::CrossAppDomainSink*>(domainID));
+}
+/// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr System::Runtime::Remoting::Channels::CrossAppDomainSink::operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
+constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Channels::CrossAppDomainSink::i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept {
+  return static_cast<::System::Runtime::Remoting::Messaging::IMessageSink*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::Channels::CrossAppDomainSink::CrossAppDomainSink() {}

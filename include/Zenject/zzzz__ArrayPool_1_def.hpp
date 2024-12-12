@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayPool_1)
 namespace System::Collections::Generic {
@@ -16,13 +15,12 @@ template <typename T> class ArrayPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ArrayPool_1);
-// Type: Zenject::ArrayPool`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.StaticMemoryPoolBaseBase`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Zenject::ArrayPool`1<T>*
+// CS Name: Zenject.ArrayPool`1<T>
 class CORDL_TYPE ArrayPool_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T, ::Array<T>*>> {
 public:
   // Declarations
@@ -30,7 +28,7 @@ public:
   __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _pools, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__pools, put = setStaticF__pools)) ::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
+  __declspec(property(get = getStaticF__pools, put = setStaticF__pools)) ::System::Collections::Generic::Dictionary_2<int32_t, ::Zenject::ArrayPool_1<T>*>* _pools;
 
   /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Alloc();
@@ -73,11 +71,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ArrayPool_1(ArrayPool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
+
   /// @brief Field _length, offset: 0x24, size: 0x4, def value: None
   int32_t ____length;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12398 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

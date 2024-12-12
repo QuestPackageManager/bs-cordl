@@ -12,11 +12,10 @@ struct HierarchyChangeType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::HierarchyChangeType);
-// Type: UnityEngine.UIElements::HierarchyChangeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::HierarchyChangeType
+// CS Name: UnityEngine.UIElements.HierarchyChangeType
 struct CORDL_TYPE HierarchyChangeType {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HierarchyChangeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Add value: static_cast<int32_t>(0x0)
+  /// @brief Field Add value: I32(0)
   static ::UnityEngine::UIElements::HierarchyChangeType const Add;
 
-  /// @brief Field Move value: static_cast<int32_t>(0x2)
+  /// @brief Field Move value: I32(2)
   static ::UnityEngine::UIElements::HierarchyChangeType const Move;
 
-  /// @brief Field Remove value: static_cast<int32_t>(0x1)
+  /// @brief Field Remove value: I32(1)
   static ::UnityEngine::UIElements::HierarchyChangeType const Remove;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HierarchyChangeType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::HierarchyChangeType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HierarchyChangeType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::HierarchyChangeType, "UnityEngine.UIElements", "HierarchyChangeType");

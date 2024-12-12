@@ -12,11 +12,10 @@ struct StyleValueType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleValueType);
-// Type: UnityEngine.UIElements::StyleValueType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleValueType
+// CS Name: UnityEngine.UIElements.StyleValueType
 struct CORDL_TYPE StyleValueType {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StyleValueType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AssetReference value: static_cast<int32_t>(0x6)
+  /// @brief Field AssetReference value: I32(6)
   static ::UnityEngine::UIElements::StyleValueType const AssetReference;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x4)
+  /// @brief Field Color value: I32(4)
   static ::UnityEngine::UIElements::StyleValueType const Color;
 
-  /// @brief Field CommaSeparator value: static_cast<int32_t>(0xb)
+  /// @brief Field CommaSeparator value: I32(11)
   static ::UnityEngine::UIElements::StyleValueType const CommaSeparator;
 
-  /// @brief Field Dimension value: static_cast<int32_t>(0x3)
+  /// @brief Field Dimension value: I32(3)
   static ::UnityEngine::UIElements::StyleValueType const Dimension;
 
-  /// @brief Field Enum value: static_cast<int32_t>(0x7)
+  /// @brief Field Enum value: I32(7)
   static ::UnityEngine::UIElements::StyleValueType const Enum;
 
-  /// @brief Field Float value: static_cast<int32_t>(0x2)
+  /// @brief Field Float value: I32(2)
   static ::UnityEngine::UIElements::StyleValueType const Float;
 
-  /// @brief Field Function value: static_cast<int32_t>(0xa)
+  /// @brief Field Function value: I32(10)
   static ::UnityEngine::UIElements::StyleValueType const Function;
 
-  /// @brief Field Invalid value: static_cast<int32_t>(0x0)
+  /// @brief Field Invalid value: I32(0)
   static ::UnityEngine::UIElements::StyleValueType const Invalid;
 
-  /// @brief Field Keyword value: static_cast<int32_t>(0x1)
+  /// @brief Field Keyword value: I32(1)
   static ::UnityEngine::UIElements::StyleValueType const Keyword;
 
-  /// @brief Field MissingAssetReference value: static_cast<int32_t>(0xd)
+  /// @brief Field MissingAssetReference value: I32(13)
   static ::UnityEngine::UIElements::StyleValueType const MissingAssetReference;
 
-  /// @brief Field ResourcePath value: static_cast<int32_t>(0x5)
+  /// @brief Field ResourcePath value: I32(5)
   static ::UnityEngine::UIElements::StyleValueType const ResourcePath;
 
-  /// @brief Field ScalableImage value: static_cast<int32_t>(0xc)
+  /// @brief Field ScalableImage value: I32(12)
   static ::UnityEngine::UIElements::StyleValueType const ScalableImage;
 
-  /// @brief Field String value: static_cast<int32_t>(0x9)
+  /// @brief Field String value: I32(9)
   static ::UnityEngine::UIElements::StyleValueType const String;
 
-  /// @brief Field Variable value: static_cast<int32_t>(0x8)
+  /// @brief Field Variable value: I32(8)
   static ::UnityEngine::UIElements::StyleValueType const Variable;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6182 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleValueType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::StyleValueType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleValueType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueType, "UnityEngine.UIElements", "StyleValueType");

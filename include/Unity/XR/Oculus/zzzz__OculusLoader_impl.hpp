@@ -8,21 +8,21 @@
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::__OculusLoader__DeviceSupportedResult(int32_t value__) noexcept {
+constexpr ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult::OculusLoader_DeviceSupportedResult(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::__OculusLoader__DeviceSupportedResult() {}
-constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::Supported{ static_cast<int32_t>(0x0) };
-constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::NotSupported{ static_cast<int32_t>(0x1) };
-constexpr ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult::ExitApplication{ static_cast<int32_t>(0x2) };
+constexpr ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult::OculusLoader_DeviceSupportedResult() {}
+constexpr ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult Unity::XR::Oculus::OculusLoader_DeviceSupportedResult::Supported{ static_cast<int32_t>(0x0) };
+constexpr ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult Unity::XR::Oculus::OculusLoader_DeviceSupportedResult::NotSupported{ static_cast<int32_t>(0x1) };
+constexpr ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult Unity::XR::Oculus::OculusLoader_DeviceSupportedResult::ExitApplication{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::Unity::XR::Oculus::OculusLoader.IsDeviceSupported
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult (*)()>(
     &::Unity::XR::Oculus::OculusLoader::IsDeviceSupported)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x47d0d18;
+  constexpr static std::size_t addrs = 0x483202c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), "IsDeviceSupported",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Il2CppObject* (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::get_displaySubsystem)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47d0dac;
+  constexpr static std::size_t addrs = 0x48320c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRInputSubsystem* (::Unity::XR::Oculus::OculusLoader::*)()>(
     &::Unity::XR::Oculus::OculusLoader::get_inputSubsystem)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47d0e10;
+  constexpr static std::size_t addrs = 0x4832124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), "get_inputSubsystem",
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::Initialize)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x47d0e74;
+  constexpr static std::size_t addrs = 0x4832188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::Start)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47d15e0;
+  constexpr static std::size_t addrs = 0x48328f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::Stop)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47d165c;
+  constexpr static std::size_t addrs = 0x4832970;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::Deinitialize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47d16d8;
+  constexpr static std::size_t addrs = 0x48329ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::OculusLoader::RuntimeLoadOVRPlugin)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x47d17f4;
+  constexpr static std::size_t addrs = 0x4832b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Unity::XR::Oculus::OculusSettings> (::Unity::XR::Oculus::OculusLoader::*)()>(
     &::Unity::XR::Oculus::OculusLoader::GetSettings)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47d199c;
+  constexpr static std::size_t addrs = 0x4832cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), "GetSettings",
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::CheckUnityVersionCompatibility)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x47d11f4;
+  constexpr static std::size_t addrs = 0x4832508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(),
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusLoader::*)()>(&::Unity::XR::Oculus::OculusLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d19e4;
+  constexpr static std::size_t addrs = 0x4832cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), ".ctor",
@@ -184,10 +184,10 @@ inline ::System::Collections::Generic::List_1<Il2CppObject*>* Unity::XR::Oculus:
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<Il2CppObject*>*, "s_InputSubsystemDescriptors",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get>();
 }
-inline ::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult Unity::XR::Oculus::OculusLoader::IsDeviceSupported() {
+inline ::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult Unity::XR::Oculus::OculusLoader::IsDeviceSupported() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), "IsDeviceSupported",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResult, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Unity::XR::Oculus::OculusLoader_DeviceSupportedResult, false>(nullptr, ___internal_method);
 }
 inline Il2CppObject* Unity::XR::Oculus::OculusLoader::get_displaySubsystem() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), "get_displaySubsystem",
@@ -234,13 +234,13 @@ inline bool Unity::XR::Oculus::OculusLoader::CheckUnityVersionCompatibility() {
                                                                              "CheckUnityVersionCompatibility", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::Unity::XR::Oculus::OculusLoader* Unity::XR::Oculus::OculusLoader::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::XR::Oculus::OculusLoader*>());
-}
 inline void Unity::XR::Oculus::OculusLoader::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusLoader*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Unity::XR::Oculus::OculusLoader* Unity::XR::Oculus::OculusLoader::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::XR::Oculus::OculusLoader*>());
 }
 // Ctor Parameters []
 constexpr ::Unity::XR::Oculus::OculusLoader::OculusLoader() {}

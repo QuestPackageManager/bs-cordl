@@ -1,28 +1,27 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ZenjectBinding.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
-#include "Zenject/zzzz__ZenjectBinding_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Zenject::__ZenjectBinding__BindTypes::__ZenjectBinding__BindTypes(int32_t value__) noexcept {
+constexpr ::Zenject::ZenjectBinding_BindTypes::ZenjectBinding_BindTypes(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Zenject::__ZenjectBinding__BindTypes::__ZenjectBinding__BindTypes() {}
-constexpr ::Zenject::__ZenjectBinding__BindTypes Zenject::__ZenjectBinding__BindTypes::Self{ static_cast<int32_t>(0x0) };
-constexpr ::Zenject::__ZenjectBinding__BindTypes Zenject::__ZenjectBinding__BindTypes::AllInterfaces{ static_cast<int32_t>(0x1) };
-constexpr ::Zenject::__ZenjectBinding__BindTypes Zenject::__ZenjectBinding__BindTypes::AllInterfacesAndSelf{ static_cast<int32_t>(0x2) };
-constexpr ::Zenject::__ZenjectBinding__BindTypes Zenject::__ZenjectBinding__BindTypes::BaseType{ static_cast<int32_t>(0x3) };
+constexpr ::Zenject::ZenjectBinding_BindTypes::ZenjectBinding_BindTypes() {}
+constexpr ::Zenject::ZenjectBinding_BindTypes Zenject::ZenjectBinding_BindTypes::Self{ static_cast<int32_t>(0x0) };
+constexpr ::Zenject::ZenjectBinding_BindTypes Zenject::ZenjectBinding_BindTypes::AllInterfaces{ static_cast<int32_t>(0x1) };
+constexpr ::Zenject::ZenjectBinding_BindTypes Zenject::ZenjectBinding_BindTypes::AllInterfacesAndSelf{ static_cast<int32_t>(0x2) };
+constexpr ::Zenject::ZenjectBinding_BindTypes Zenject::ZenjectBinding_BindTypes::BaseType{ static_cast<int32_t>(0x3) };
 //  Writing Method size for method: ::Zenject::ZenjectBinding.get_UseSceneContext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_UseSceneContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f4c;
+  constexpr static std::size_t addrs = 0x4b2a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_UseSceneContext",
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_IfNotBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f54;
+  constexpr static std::size_t addrs = 0x4b2a864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_IfNotBound",
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::Context> (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_Context)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f5c;
+  constexpr static std::size_t addrs = 0x4b2a86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_Context",
@@ -61,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectBinding::*)(::Zenject::Context*)>(&::Zenject::ZenjectBinding::set_Context)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f64;
+  constexpr static std::size_t addrs = 0x4b2a874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_Components)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f6c;
+  constexpr static std::size_t addrs = 0x4b2a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_Components",
@@ -89,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f74;
+  constexpr static std::size_t addrs = 0x4b2a884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_Identifier",
@@ -100,9 +99,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Zenject::ZenjectBinding.get_BindType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::__ZenjectBinding__BindTypes (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_BindType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenjectBinding_BindTypes (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::get_BindType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac5f7c;
+  constexpr static std::size_t addrs = 0x4b2a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_BindType",
@@ -115,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ac5f84;
+  constexpr static std::size_t addrs = 0x4b2a894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "Start",
@@ -128,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectBinding::*)()>(&::Zenject::ZenjectBinding::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ac5f88;
+  constexpr static std::size_t addrs = 0x4b2a898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), ".ctor",
@@ -141,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ZenjectBinding::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4ac5fe0;
+  constexpr static std::size_t addrs = 0x4b2a8f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "__zenCreateInjectTypeInfo",
@@ -209,15 +208,15 @@ constexpr void Zenject::ZenjectBinding::__cordl_internal_set__context(::UnityW<:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____context)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::__ZenjectBinding__BindTypes& Zenject::ZenjectBinding::__cordl_internal_get__bindType() {
+constexpr ::Zenject::ZenjectBinding_BindTypes& Zenject::ZenjectBinding::__cordl_internal_get__bindType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindType;
 }
-constexpr ::Zenject::__ZenjectBinding__BindTypes const& Zenject::ZenjectBinding::__cordl_internal_get__bindType() const {
+constexpr ::Zenject::ZenjectBinding_BindTypes const& Zenject::ZenjectBinding::__cordl_internal_get__bindType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindType;
 }
-constexpr void Zenject::ZenjectBinding::__cordl_internal_set__bindType(::Zenject::__ZenjectBinding__BindTypes value) {
+constexpr void Zenject::ZenjectBinding::__cordl_internal_set__bindType(::Zenject::ZenjectBinding_BindTypes value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bindType = value;
 }
@@ -252,18 +251,15 @@ inline ::StringW Zenject::ZenjectBinding::get_Identifier() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::Zenject::__ZenjectBinding__BindTypes Zenject::ZenjectBinding::get_BindType() {
+inline ::Zenject::ZenjectBinding_BindTypes Zenject::ZenjectBinding::get_BindType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "get_BindType",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::__ZenjectBinding__BindTypes, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Zenject::ZenjectBinding_BindTypes, false>(this, ___internal_method);
 }
 inline void Zenject::ZenjectBinding::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "Start",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Zenject::ZenjectBinding* Zenject::ZenjectBinding::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenjectBinding*>());
 }
 inline void Zenject::ZenjectBinding::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), ".ctor",
@@ -274,6 +270,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::ZenjectBinding::__zenCreateInjectType
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectBinding*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::ZenjectBinding* Zenject::ZenjectBinding::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::ZenjectBinding*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::ZenjectBinding::ZenjectBinding() {}

@@ -3,23 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(LightGroupLinearLayouter)
-namespace GlobalNamespace {
-class IEditTimeValidated;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LightGroupLinearLayouter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupLinearLayouter);
-// Type: ::LightGroupLinearLayouter
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies IEditTimeValidated, LightGroupSubsystem, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightGroupLinearLayouter*
+// CS Name: LightGroupLinearLayouter
 class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
@@ -55,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__startFromCenter(bool value);
 
-  /// @brief Method .ctor, addr 0x3b2bf14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b8d4ac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
@@ -75,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupLinearLayouter(LightGroupLinearLayouter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
+
   /// @brief Field _movementStep, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____movementStep;
 
@@ -84,19 +84,16 @@ public:
   /// @brief Field _startFromCenter, offset: 0x40, size: 0x1, def value: None
   bool ____startFromCenter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4283 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupLinearLayouter, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____movementStep) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____defaultRotation) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupLinearLayouter, ____startFromCenter) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupLinearLayouter, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupLinearLayouter);

@@ -14,20 +14,15 @@ class IEntropySourceProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IEntropySourceProvider);
-// Type: Org.BouncyCastle.Crypto::IEntropySourceProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::IEntropySourceProvider*
+// CS Name: Org.BouncyCastle.Crypto.IEntropySourceProvider
 class CORDL_TYPE IEntropySourceProvider {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IEntropySourceProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IEntropySourceProvider(IEntropySourceProvider&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IEntropySourceProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

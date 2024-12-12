@@ -4,10 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Component)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -36,11 +33,10 @@ class Component;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Component);
-// Type: UnityEngine::Component
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::Component*
+// CS Name: UnityEngine.Component
 class CORDL_TYPE Component : public ::UnityEngine::Object {
 public:
   // Declarations
@@ -50,26 +46,26 @@ public:
 
   __declspec(property(get = get_transform)) ::UnityW<::UnityEngine::Transform> transform;
 
-  /// @brief Method BroadcastMessage, addr 0x4846e10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BroadcastMessage, addr 0x48a7b48, size 0x5c, virtual false, abstract: false, final false
   inline void BroadcastMessage(::StringW methodName, ::System::Object* parameter, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method CompareTag, addr 0x4846ca0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CompareTag, addr 0x48a79d8, size 0x78, virtual false, abstract: false, final false
   inline bool CompareTag(::StringW tag);
 
-  /// @brief Method GetComponent, addr 0x4846574, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Component> GetComponent(::StringW type);
+  /// @brief Method GetComponent, addr 0x48a72ac, size 0x44, virtual false, abstract: false, final false
+  inline ::UnityEngine::Component* GetComponent(::StringW type);
 
-  /// @brief Method GetComponent, addr 0x4846368, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Component> GetComponent(::System::Type* type);
+  /// @brief Method GetComponent, addr 0x48a709c, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::Component* GetComponent(::System::Type* type);
 
   /// @brief Method GetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponent();
 
-  /// @brief Method GetComponentFastPath, addr 0x4846424, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentFastPath, addr 0x48a7158, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentFastPath(::System::Type* type, ::System::IntPtr oneFurtherThanResultValue);
 
-  /// @brief Method GetComponentInChildren, addr 0x48465b8, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Component> GetComponentInChildren(::System::Type* t, bool includeInactive);
+  /// @brief Method GetComponentInChildren, addr 0x48a72f0, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::Component* GetComponentInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInChildren();
@@ -77,14 +73,14 @@ public:
   /// @brief Method GetComponentInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInChildren(bool includeInactive);
 
-  /// @brief Method GetComponentInParent, addr 0x48467a8, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Component> GetComponentInParent(::System::Type* t, bool includeInactive);
+  /// @brief Method GetComponentInParent, addr 0x48a74e0, size 0x88, virtual false, abstract: false, final false
+  inline ::UnityEngine::Component* GetComponentInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetComponentInParent();
 
-  /// @brief Method GetComponents, addr 0x4846998, size 0x50, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponents(::System::Type* type);
+  /// @brief Method GetComponents, addr 0x48a76d0, size 0x50, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponents(::System::Type* type);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponents();
@@ -92,14 +88,14 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponents(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponents, addr 0x4846ae4, size 0x54, virtual false, abstract: false, final false
-  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* results);
+  /// @brief Method GetComponents, addr 0x48a781c, size 0x54, virtual false, abstract: false, final false
+  inline void GetComponents(::System::Type* type, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* results);
 
-  /// @brief Method GetComponentsForListInternal, addr 0x4846a90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsForListInternal, addr 0x48a77c8, size 0x54, virtual false, abstract: false, final false
   inline void GetComponentsForListInternal(::System::Type* searchType, ::System::Object* resultList);
 
-  /// @brief Method GetComponentsInChildren, addr 0x4846694, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
+  /// @brief Method GetComponentsInChildren, addr 0x48a73cc, size 0x60, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInChildren(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInChildren();
@@ -113,8 +109,8 @@ public:
   /// @brief Method GetComponentsInChildren, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void GetComponentsInChildren(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetComponentsInParent, addr 0x4846884, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::Component>, ::Array<::UnityW<::UnityEngine::Component>>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
+  /// @brief Method GetComponentsInParent, addr 0x48a75bc, size 0x60, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> GetComponentsInParent(::System::Type* t, bool includeInactive);
 
   /// @brief Method GetComponentsInParent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetComponentsInParent();
@@ -127,31 +123,31 @@ public:
 
   static inline ::UnityEngine::Component* New_ctor();
 
-  /// @brief Method SendMessage, addr 0x4846db8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x48a7af0, size 0x58, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::UnityEngine::SendMessageOptions options);
 
-  /// @brief Method SendMessage, addr 0x4846d5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x48a7a94, size 0x5c, virtual false, abstract: false, final false
   inline void SendMessage(::StringW methodName, ::System::Object* value, ::UnityEngine::SendMessageOptions options);
 
   /// @brief Method TryGetComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> inline bool TryGetComponent(ByRef<T> component);
+  template <typename T> inline bool TryGetComponent(::ByRef<T> component);
 
-  /// @brief Method TryGetComponent, addr 0x4846478, size 0x60, virtual false, abstract: false, final false
-  inline bool TryGetComponent(::System::Type* type, ByRef<::UnityEngine::Component*> component);
+  /// @brief Method TryGetComponent, addr 0x48a71ac, size 0x60, virtual false, abstract: false, final false
+  inline bool TryGetComponent(::System::Type* type, ::ByRef<::UnityEngine::Component*> component);
 
-  /// @brief Method .ctor, addr 0x48458f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6628, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameObject, addr 0x484632c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x48a7060, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_tag, addr 0x4846b38, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_tag, addr 0x48a7870, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_tag();
 
-  /// @brief Method get_transform, addr 0x48462f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x48a7024, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
-  /// @brief Method set_tag, addr 0x4846be4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_tag, addr 0x48a791c, size 0x78, virtual false, abstract: false, final false
   inline void set_tag(::StringW value);
 
 protected:
@@ -169,7 +165,7 @@ public:
   Component(Component const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

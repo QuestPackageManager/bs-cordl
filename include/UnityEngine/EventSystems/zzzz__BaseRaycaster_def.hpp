@@ -25,69 +25,68 @@ class BaseRaycaster;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseRaycaster);
-// Type: UnityEngine.EventSystems::BaseRaycaster
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.UIBehaviour
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// CS Name: ::UnityEngine.EventSystems::BaseRaycaster*
+// CS Name: UnityEngine.EventSystems.BaseRaycaster
 class CORDL_TYPE BaseRaycaster : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
 
   /// @brief Field m_RootRaycaster, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RootRaycaster, put = __cordl_internal_set_m_RootRaycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> m_RootRaycaster;
+  __declspec(property(get = __cordl_internal_get_m_RootRaycaster, put = __cordl_internal_set_m_RootRaycaster)) ::UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster;
 
   __declspec(property(get = get_priority)) int32_t priority;
 
   __declspec(property(get = get_renderOrderPriority)) int32_t renderOrderPriority;
 
-  __declspec(property(get = get_rootRaycaster)) ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> rootRaycaster;
+  __declspec(property(get = get_rootRaycaster)) ::UnityEngine::EventSystems::BaseRaycaster* rootRaycaster;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
   static inline ::UnityEngine::EventSystems::BaseRaycaster* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x4a7ade8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x4adf6f8, size 0x8, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDisable, addr 0x4a7ad94, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x4adf6a4, size 0x54, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4a7ad40, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4adf650, size 0x54, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4a7adf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x4adf704, size 0x8, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Raycast, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Raycast, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method ToString, addr 0x4a7ab78, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4adf488, size 0x1c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> const& __cordl_internal_get_m_RootRaycaster() const;
+  constexpr ::UnityEngine::EventSystems::BaseRaycaster* const& __cordl_internal_get_m_RootRaycaster() const;
 
-  constexpr ::UnityW<::UnityEngine::EventSystems::BaseRaycaster>& __cordl_internal_get_m_RootRaycaster();
+  constexpr ::UnityEngine::EventSystems::BaseRaycaster*& __cordl_internal_get_m_RootRaycaster();
 
-  constexpr void __cordl_internal_set_m_RootRaycaster(::UnityW<::UnityEngine::EventSystems::BaseRaycaster> value);
+  constexpr void __cordl_internal_set_m_RootRaycaster(::UnityEngine::EventSystems::BaseRaycaster* value);
 
-  /// @brief Method .ctor, addr 0x4a6fe4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad475c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventCamera, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_eventCamera, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_priority, addr 0x4a7ab60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_priority, addr 0x4adf470, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_priority();
 
-  /// @brief Method get_renderOrderPriority, addr 0x4a7ab70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderOrderPriority, addr 0x4adf480, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_renderOrderPriority();
 
-  /// @brief Method get_rootRaycaster, addr 0x4a71b58, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> get_rootRaycaster();
+  /// @brief Method get_rootRaycaster, addr 0x4ad6468, size 0xb8, virtual false, abstract: false, final false
+  inline ::UnityEngine::EventSystems::BaseRaycaster* get_rootRaycaster();
 
-  /// @brief Method get_sortOrderPriority, addr 0x4a7ab68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_sortOrderPriority, addr 0x4adf478, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
 protected:
@@ -104,18 +103,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BaseRaycaster(BaseRaycaster const&) = delete;
 
-  /// @brief Field m_RootRaycaster, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::EventSystems::BaseRaycaster> ___m_RootRaycaster;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15219 };
+
+  /// @brief Field m_RootRaycaster, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::EventSystems::BaseRaycaster* ___m_RootRaycaster;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseRaycaster, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventSystems::BaseRaycaster, ___m_RootRaycaster) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::BaseRaycaster, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::BaseRaycaster);

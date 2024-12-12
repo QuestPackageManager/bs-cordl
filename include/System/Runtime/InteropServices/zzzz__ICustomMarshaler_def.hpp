@@ -17,32 +17,27 @@ class ICustomMarshaler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ICustomMarshaler);
-// Type: System.Runtime.InteropServices::ICustomMarshaler
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::ICustomMarshaler*
+// CS Name: System.Runtime.InteropServices.ICustomMarshaler
 class CORDL_TYPE ICustomMarshaler {
 public:
   // Declarations
-  /// @brief Method CleanUpManagedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CleanUpManagedData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CleanUpManagedData(::System::Object* ManagedObj);
 
-  /// @brief Method CleanUpNativeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CleanUpNativeData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CleanUpNativeData(::System::IntPtr pNativeData);
 
-  /// @brief Method GetNativeDataSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetNativeDataSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetNativeDataSize();
 
-  /// @brief Method MarshalManagedToNative, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MarshalManagedToNative, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IntPtr MarshalManagedToNative(::System::Object* ManagedObj);
 
-  /// @brief Method MarshalNativeToManaged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method MarshalNativeToManaged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* MarshalNativeToManaged(::System::IntPtr pNativeData);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ICustomMarshaler(ICustomMarshaler&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

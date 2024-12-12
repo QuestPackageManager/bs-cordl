@@ -18,691 +18,685 @@
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._ctor
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x471162c;
+  constexpr static std::size_t addrs = 0x4772940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetPerimeterEdges_b__5_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetPerimeterEdges_b__5_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(::UnityEngine::ProBuilder::Face*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(::UnityEngine::ProBuilder::Face*)>(
+        &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4711634;
+  constexpr static std::size_t addrs = 0x4772948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetPerimeterEdges_b__5_1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetPerimeterEdges_b__5_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_1)> {
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_1)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x471164c;
+  constexpr static std::size_t addrs = 0x4772960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_1",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
             ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetPerimeterEdges_b__5_2
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetPerimeterEdges_b__5_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_2)> {
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47116a4;
+  constexpr static std::size_t addrs = 0x47729b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_2",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
             ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetPerimeterFaces_b__7_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetPerimeterFaces_b__7_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterFaces_b__7_0)> {
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterFaces_b__7_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4711704;
+  constexpr static std::size_t addrs = 0x4772a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterFaces>b__7_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterFaces>b__7_0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
             ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetPerimeterFaces_b__7_1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetPerimeterFaces_b__7_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge,
-                                                                                                                          ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterFaces_b__7_1)> {
+    ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge,
+                                                                                                                       ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>)>(
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterFaces_b__7_1)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x471175c;
+  constexpr static std::size_t addrs = 0x4772a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterFaces>b__7_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterFaces>b__7_1",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
             ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeRing_b__10_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeRing_b__10_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeRing_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeRing_b__10_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47117bc;
+  constexpr static std::size_t addrs = 0x4772ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeRing>b__10_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeRing>b__10_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeRingIterative_b__11_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeRingIterative_b__11_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeRingIterative_b__11_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeRingIterative_b__11_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47117c4;
+  constexpr static std::size_t addrs = 0x4772ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeRingIterative>b__11_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeRingIterative>b__11_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeLoop_b__12_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeLoop_b__12_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoop_b__12_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoop_b__12_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47117cc;
+  constexpr static std::size_t addrs = 0x4772ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoop>b__12_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoop>b__12_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeLoopIterative_b__13_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeLoopIterative_b__13_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopIterative_b__13_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopIterative_b__13_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47117d4;
+  constexpr static std::size_t addrs = 0x4772ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopIterative>b__13_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopIterative>b__13_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeLoopInternal_b__14_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeLoopInternal_b__14_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternal_b__14_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternal_b__14_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47117dc;
+  constexpr static std::size_t addrs = 0x4772af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternal>b__14_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternal>b__14_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeLoopInternalIterative_b__15_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeLoopInternalIterative_b__15_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternalIterative_b__15_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternalIterative_b__15_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47117f4;
+  constexpr static std::size_t addrs = 0x4772b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternalIterative>b__15_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternalIterative>b__15_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._GetEdgeLoopInternalIterative_b__15_1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._GetEdgeLoopInternalIterative_b__15_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternalIterative_b__15_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternalIterative_b__15_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x471180c;
+  constexpr static std::size_t addrs = 0x4772b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternalIterative>b__15_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternalIterative>b__15_1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._FindHoles_b__26_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._FindHoles_b__26_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_FindHoles_b__26_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_FindHoles_b__26_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4711824;
+  constexpr static std::size_t addrs = 0x4772b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<FindHoles>b__26_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<FindHoles>b__26_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c._FindHoles_b__27_0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c._FindHoles_b__27_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::*)(
     ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>, ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_FindHoles_b__27_0)> {
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_FindHoles_b__27_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x471183c;
+  constexpr static std::size_t addrs = 0x4772b50;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<FindHoles>b__27_0",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<FindHoles>b__27_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
-      std::forward<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
+      std::forward<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>(value));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__5_0(
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__5_0(
     ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*>(value));
 }
 inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__5_0() {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__5_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__5_1(
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__5_1(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>*, "<>9__5_1",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>*>(
           value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__5_1() {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__5_1() {
   return ::cordl_internals::getStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>, bool>*, "<>9__5_1",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__5_2(
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__5_2(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>,
                      ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>,
                        ::UnityEngine::ProBuilder::Edge>*,
-      "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+      "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>,
                                     ::UnityEngine::ProBuilder::Edge>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>,
                         ::UnityEngine::ProBuilder::Edge>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__5_2() {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__5_2() {
   return ::cordl_internals::getStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>,
                        ::UnityEngine::ProBuilder::Edge>*,
-      "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+      "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__7_0(
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__7_0(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>*, "<>9__7_0",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>*>(
           value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__7_0() {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__7_0() {
   return ::cordl_internals::getStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>, bool>*, "<>9__7_0",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__7_1(
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__7_1(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
                      ::UnityEngine::ProBuilder::Face*>* value) {
   ::cordl_internals::setStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
                        ::UnityEngine::ProBuilder::Face*>*,
-      "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+      "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
                                     ::UnityEngine::ProBuilder::Face*>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
                         ::UnityEngine::ProBuilder::Face*>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__7_1() {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__7_1() {
   return ::cordl_internals::getStaticField<
       ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>,
                        ::UnityEngine::ProBuilder::Face*>*,
-      "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+      "<>9__7_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__10_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__10_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__10_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__10_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__11_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__11_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__11_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__11_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__11_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__11_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__12_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__12_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__12_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__12_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__12_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__12_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__13_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__13_0(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__13_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__13_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__13_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__13_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__14_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__14_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__14_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__14_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__14_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__14_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__15_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__15_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__15_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__15_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__15_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__15_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__15_1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__15_1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__15_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__15_1() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__15_1() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__15_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__26_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__26_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__26_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__26_0() {
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__26_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__26_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::setStaticF___9__27_0(::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* value) {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::setStaticF___9__27_0(::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* value) {
   ::cordl_internals::setStaticField<::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>*, "<>9__27_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>(
       std::forward<::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>*>(value));
 }
-inline ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::getStaticF___9__27_0() {
+inline ::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::getStaticF___9__27_0() {
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>*, "<>9__27_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get>();
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_ctor() {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_0(::UnityEngine::ProBuilder::Face* x) {
+UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_0(::UnityEngine::ProBuilder::Face* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, false>(this, ___internal_method, x);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_1(
+inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_1(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_1",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterEdges_b__5_2(
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterEdges_b__5_2(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*> x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterEdges>b__5_2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterEdges>b__5_2",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterFaces_b__7_0(
+inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterFaces_b__7_0(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterFaces>b__7_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterFaces>b__7_0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetPerimeterFaces_b__7_1(
+inline ::UnityEngine::ProBuilder::Face* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetPerimeterFaces_b__7_1(
     ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*> x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetPerimeterFaces>b__7_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetPerimeterFaces>b__7_1",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Face*, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeRing_b__10_0(::UnityEngine::ProBuilder::EdgeLookup x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeRing_b__10_0(::UnityEngine::ProBuilder::EdgeLookup x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeRing>b__10_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeRing>b__10_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
+}
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeRingIterative_b__11_0(::UnityEngine::ProBuilder::EdgeLookup x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeRingIterative>b__11_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeRingIterative_b__11_0(::UnityEngine::ProBuilder::EdgeLookup x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoop_b__12_0(::UnityEngine::ProBuilder::EdgeLookup x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeRingIterative>b__11_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoop>b__12_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
+}
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopIterative_b__13_0(::UnityEngine::ProBuilder::EdgeLookup x) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopIterative>b__13_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoop_b__12_0(::UnityEngine::ProBuilder::EdgeLookup x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternal_b__14_0(::UnityEngine::ProBuilder::WingedEdge* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoop>b__12_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
-}
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopIterative_b__13_0(::UnityEngine::ProBuilder::EdgeLookup x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopIterative>b__13_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
-}
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternal_b__14_0(::UnityEngine::ProBuilder::WingedEdge* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternal>b__14_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternal>b__14_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternalIterative_b__15_0(::UnityEngine::ProBuilder::WingedEdge* x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternalIterative_b__15_0(::UnityEngine::ProBuilder::WingedEdge* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternalIterative>b__15_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternalIterative>b__15_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_GetEdgeLoopInternalIterative_b__15_1(::UnityEngine::ProBuilder::WingedEdge* x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_GetEdgeLoopInternalIterative_b__15_1(::UnityEngine::ProBuilder::WingedEdge* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<GetEdgeLoopInternalIterative>b__15_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<GetEdgeLoopInternalIterative>b__15_1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_FindHoles_b__26_0(::UnityEngine::ProBuilder::WingedEdge* x) {
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_FindHoles_b__26_0(::UnityEngine::ProBuilder::WingedEdge* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<FindHoles>b__26_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<FindHoles>b__26_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::_FindHoles_b__27_0(::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> x,
-                                                                                                    ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> y) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c*>::get(), "<FindHoles>b__27_0",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get() })));
+inline int32_t UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::_FindHoles_b__27_0(::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> x,
+                                                                                                 ::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t> y) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>::get(), "<FindHoles>b__27_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::SimpleTuple_2<int32_t, int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
+inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c::__ElementSelection____c() {}
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0._ctor
+constexpr ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c::ElementSelection___c() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4711894;
+  constexpr static std::size_t addrs = 0x4772ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0._GetFaceLoop_b__0
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0._GetFaceLoop_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::_GetFaceLoop_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::_GetFaceLoop_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x471189c;
+  constexpr static std::size_t addrs = 0x4772bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*>::get(), "<GetFaceLoop>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*>::get(), "<GetFaceLoop>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::ProBuilder::Face*& UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::__cordl_internal_get_face() {
+constexpr ::UnityEngine::ProBuilder::Face*& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::__cordl_internal_get_face() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const&
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::__cordl_internal_get_face() const {
+constexpr ::UnityEngine::ProBuilder::Face* const& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::__cordl_internal_get_face() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___face;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::__cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value) {
+constexpr void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::__cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___face)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::_ctor() {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::_GetFaceLoop_b__0(::UnityEngine::ProBuilder::WingedEdge* x) {
+inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::_GetFaceLoop_b__0(::UnityEngine::ProBuilder::WingedEdge* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0*>::get(), "<GetFaceLoop>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*>::get(), "<GetFaceLoop>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
+inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0::__ElementSelection____c__DisplayClass25_0() {}
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0._ctor
+constexpr ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass25_0::ElementSelection___c__DisplayClass25_0() {}
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::*)()>(
+    &::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47118c0;
+  constexpr static std::size_t addrs = 0x4772bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0._FindHoles_b__1
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0._FindHoles_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_FindHoles_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_FindHoles_b__1)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47118c8;
+  constexpr static std::size_t addrs = 0x4772bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(), "<FindHoles>b__1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(), "<FindHoles>b__1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0._FindHoles_b__2
+//  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0._FindHoles_b__2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_FindHoles_b__2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::*)(
+    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_FindHoles_b__2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4711924;
+  constexpr static std::size_t addrs = 0x4772c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(), "<FindHoles>b__2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(), "<FindHoles>b__2",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get_common() {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get_common() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___common;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const&
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get_common() const {
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get_common() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___common;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value) {
+constexpr void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___common)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get___9__1() {
+constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get___9__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__1;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const&
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get___9__1() const {
+constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* const& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get___9__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__1;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_set___9__1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value) {
+constexpr void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_set___9__1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get___9__2() {
+constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get___9__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__2;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const&
-UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_get___9__2() const {
+constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* const& UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_get___9__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____9__2;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__cordl_internal_set___9__2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value) {
+constexpr void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::__cordl_internal_set___9__2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____9__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0* UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>());
-}
-inline void UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_ctor() {
+inline void UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_FindHoles_b__1(::UnityEngine::ProBuilder::WingedEdge* w) {
+inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_FindHoles_b__1(::UnityEngine::ProBuilder::WingedEdge* w) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(), "<FindHoles>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(), "<FindHoles>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, w);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::_FindHoles_b__2(::UnityEngine::ProBuilder::WingedEdge* w) {
+inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::_FindHoles_b__2(::UnityEngine::ProBuilder::WingedEdge* w) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0*>::get(), "<FindHoles>b__2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>::get(), "<FindHoles>b__2",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, w);
+}
+inline ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0* UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0::__ElementSelection____c__DisplayClass27_0() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::ElementSelection___c__DisplayClass27_0::ElementSelection___c__DisplayClass27_0() {}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ElementSelection.GetNeighborFaces
 template <>
 
@@ -710,7 +704,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x470bdfc;
+  constexpr static std::size_t addrs = 0x476d110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -728,7 +722,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::Edge>>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x46f9c58;
+  constexpr static std::size_t addrs = 0x475af6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -745,7 +739,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetNeighborFaces)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x470c080;
+  constexpr static std::size_t addrs = 0x476d394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -761,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetConnectedEdges)> {
   constexpr static std::size_t size = 0x680;
-  constexpr static std::size_t addrs = 0x470c334;
+  constexpr static std::size_t addrs = 0x476d648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -778,7 +772,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterEdges)> {
   constexpr static std::size_t size = 0x600;
-  constexpr static std::size_t addrs = 0x470c9b4;
+  constexpr static std::size_t addrs = 0x476dcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -795,7 +789,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterEdges)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x470cfb4;
+  constexpr static std::size_t addrs = 0x476e2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -812,7 +806,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterFaces)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x470d338;
+  constexpr static std::size_t addrs = 0x476e64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -829,7 +823,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetPerimeterVertices)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x470dad4;
+  constexpr static std::size_t addrs = 0x476ede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -846,7 +840,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::EdgeRingNext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x470de20;
+  constexpr static std::size_t addrs = 0x476f134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -862,7 +856,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeRing)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x470dea4;
+  constexpr static std::size_t addrs = 0x476f1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -879,7 +873,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeRingIterative)> {
   constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x470e32c;
+  constexpr static std::size_t addrs = 0x476f640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -894,9 +888,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*,
-                         ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop)> {
+                         ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x470e7cc;
+  constexpr static std::size_t addrs = 0x476fae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -904,7 +898,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -913,9 +907,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*,
-    ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative)> {
+    ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x470ed64;
+  constexpr static std::size_t addrs = 0x4770078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -923,7 +917,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 3>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
     return ___internal_method;
   }
 };
@@ -934,7 +928,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopInternal)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x470eb3c;
+  constexpr static std::size_t addrs = 0x476fe50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -952,7 +946,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::EdgeLookup>*)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopInternalIterative)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x470f054;
+  constexpr static std::size_t addrs = 0x4770368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -970,7 +964,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::NextSpoke)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x470f6e0;
+  constexpr static std::size_t addrs = 0x47709f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -987,7 +981,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t, bool)>(
         &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetSpokes)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x470f3d4;
+  constexpr static std::size_t addrs = 0x47706e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1004,7 +998,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GrowSelection)> {
   constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x470f7c0;
+  constexpr static std::size_t addrs = 0x4770ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1021,7 +1015,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::Flood)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x470fd64;
+  constexpr static std::size_t addrs = 0x4771078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1038,7 +1032,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            float_t, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::Flood)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x470fde0;
+  constexpr static std::size_t addrs = 0x47710f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1057,7 +1051,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>*, float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::FloodSelection)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x4710088;
+  constexpr static std::size_t addrs = 0x477139c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1075,7 +1069,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>, bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4710334;
+  constexpr static std::size_t addrs = 0x4771648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1093,7 +1087,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::Face*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceRingAndLoop)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x471070c;
+  constexpr static std::size_t addrs = 0x4771a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1110,7 +1104,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::UnityEngine::ProBuilder::Face*,
                                                                                      bool)>(&::UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4710538;
+  constexpr static std::size_t addrs = 0x477184c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1128,7 +1122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::FindHoles)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x4710928;
+  constexpr static std::size_t addrs = 0x4771c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1145,7 +1139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::WingedEdge*>*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::HashSet_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::FindHoles)> {
   constexpr static std::size_t size = 0x840;
-  constexpr static std::size_t addrs = 0x4710cc4;
+  constexpr static std::size_t addrs = 0x4771fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1161,7 +1155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (*)(::UnityEngine::ProBuilder::WingedEdge*, int32_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::ElementSelection::FindNextEdgeInHole)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4711504;
+  constexpr static std::size_t addrs = 0x4772818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1276,24 +1270,24 @@ UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeRingIterative(
 }
 inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                    ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
-                                                                                   ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop) {
+                                                                                   ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection*>::get(), "GetEdgeLoop", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, mesh, edges, loop);
 }
 inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopIterative(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                             ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
-                                                                                            ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop) {
+                                                                                            ::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> loop) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ElementSelection*>::get(), "GetEdgeLoopIterative", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, mesh, edges, loop);
 }
 inline bool UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetEdgeLoopInternal(::UnityEngine::ProBuilder::WingedEdge* start, int32_t startIndex,
@@ -1322,7 +1316,6 @@ inline ::UnityEngine::ProBuilder::WingedEdge* UnityEngine::ProBuilder::MeshOpera
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::WingedEdge*, false>(nullptr, ___internal_method, wing, pivot, opp);
 }
-/// @param allowHoles: bool (default: false)
 inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetSpokes(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                                                                                                             int32_t sharedIndex, bool allowHoles) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1331,7 +1324,6 @@ inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedE
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, false>(nullptr, ___internal_method, wing, sharedIndex, allowHoles);
 }
-/// @param maxAngleDiff: float_t (default: -1.0)
 inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
 UnityEngine::ProBuilder::MeshOperations::ElementSelection::GrowSelection(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                          ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, float_t maxAngleDiff) {
@@ -1370,7 +1362,6 @@ UnityEngine::ProBuilder::MeshOperations::ElementSelection::FloodSelection(::Unit
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*, false>(nullptr, ___internal_method, mesh, faces, maxAngleDiff);
 }
-/// @param ring: bool (default: false)
 inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*
 UnityEngine::ProBuilder::MeshOperations::ElementSelection::GetFaceLoop(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                        ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> faces, bool ring) {

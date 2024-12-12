@@ -12,11 +12,10 @@ struct AudioType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AudioType);
-// Type: UnityEngine::AudioType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AudioType
+// CS Name: UnityEngine.AudioType
 struct CORDL_TYPE AudioType {
 public:
   // Declarations
@@ -56,60 +55,60 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AudioType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ACC value: static_cast<int32_t>(0x1)
+  /// @brief Field ACC value: I32(1)
   static ::UnityEngine::AudioType const ACC;
 
-  /// @brief Field AIFF value: static_cast<int32_t>(0x2)
+  /// @brief Field AIFF value: I32(2)
   static ::UnityEngine::AudioType const AIFF;
 
-  /// @brief Field AUDIOQUEUE value: static_cast<int32_t>(0x18)
+  /// @brief Field AUDIOQUEUE value: I32(24)
   static ::UnityEngine::AudioType const AUDIOQUEUE;
 
-  /// @brief Field IT value: static_cast<int32_t>(0xa)
+  /// @brief Field IT value: I32(10)
   static ::UnityEngine::AudioType const IT;
 
-  /// @brief Field MOD value: static_cast<int32_t>(0xc)
+  /// @brief Field MOD value: I32(12)
   static ::UnityEngine::AudioType const MOD;
 
-  /// @brief Field MPEG value: static_cast<int32_t>(0xd)
+  /// @brief Field MPEG value: I32(13)
   static ::UnityEngine::AudioType const MPEG;
 
-  /// @brief Field OGGVORBIS value: static_cast<int32_t>(0xe)
+  /// @brief Field OGGVORBIS value: I32(14)
   static ::UnityEngine::AudioType const OGGVORBIS;
 
-  /// @brief Field S3M value: static_cast<int32_t>(0x11)
+  /// @brief Field S3M value: I32(17)
   static ::UnityEngine::AudioType const S3M;
 
-  /// @brief Field UNKNOWN value: static_cast<int32_t>(0x0)
+  /// @brief Field UNKNOWN value: I32(0)
   static ::UnityEngine::AudioType const UNKNOWN;
 
-  /// @brief Field VAG value: static_cast<int32_t>(0x17)
+  /// @brief Field VAG value: I32(23)
   static ::UnityEngine::AudioType const VAG;
 
-  /// @brief Field WAV value: static_cast<int32_t>(0x14)
+  /// @brief Field WAV value: I32(20)
   static ::UnityEngine::AudioType const WAV;
 
-  /// @brief Field XM value: static_cast<int32_t>(0x15)
+  /// @brief Field XM value: I32(21)
   static ::UnityEngine::AudioType const XM;
 
-  /// @brief Field XMA value: static_cast<int32_t>(0x16)
+  /// @brief Field XMA value: I32(22)
   static ::UnityEngine::AudioType const XMA;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10653 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AudioType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioType, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioType, "UnityEngine", "AudioType");

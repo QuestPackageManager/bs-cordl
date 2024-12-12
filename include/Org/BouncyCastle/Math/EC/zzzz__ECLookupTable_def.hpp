@@ -14,28 +14,23 @@ class ECLookupTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ECLookupTable);
-// Type: Org.BouncyCastle.Math.EC::ECLookupTable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC::ECLookupTable*
+// CS Name: Org.BouncyCastle.Math.EC.ECLookupTable
 class CORDL_TYPE ECLookupTable {
 public:
   // Declarations
   __declspec(property(get = get_Size)) int32_t Size;
 
-  /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Lookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method LookupVar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
-  /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_Size, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_Size();
-
-  // Ctor Parameters [CppParam { name: "", ty: "ECLookupTable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ECLookupTable(ECLookupTable&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ECLookupTable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

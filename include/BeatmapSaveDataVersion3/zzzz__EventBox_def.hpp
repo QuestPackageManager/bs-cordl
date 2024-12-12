@@ -19,11 +19,10 @@ class EventBox;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion3::EventBox);
-// Type: BeatmapSaveDataVersion3::EventBox
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataCommon.DistributionParamType, System.Object
 namespace BeatmapSaveDataVersion3 {
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::EventBox*
+// CS Name: BeatmapSaveDataVersion3.EventBox
 class CORDL_TYPE EventBox : public ::System::Object {
 public:
   // Declarations
@@ -49,9 +48,9 @@ public:
 
   constexpr ::BeatmapSaveDataCommon::DistributionParamType& __cordl_internal_get_d();
 
-  constexpr ::BeatmapSaveDataVersion3::IndexFilter*& __cordl_internal_get_f();
+  constexpr ::BeatmapSaveDataVersion3::IndexFilter* const& __cordl_internal_get_f() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::IndexFilter*> const& __cordl_internal_get_f() const;
+  constexpr ::BeatmapSaveDataVersion3::IndexFilter*& __cordl_internal_get_f();
 
   constexpr float_t const& __cordl_internal_get_w() const;
 
@@ -63,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d41ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2705b1c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
-  /// @brief Method get_beatDistributionParam, addr 0x26d419c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParam, addr 0x2705b0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatDistributionParam();
 
-  /// @brief Method get_beatDistributionParamType, addr 0x26d41a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParamType, addr 0x2705b14, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
 
-  /// @brief Method get_indexFilter, addr 0x26d4194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x2705b04, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBox(EventBox const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13401 };
+
   /// @brief Field f, offset: 0x10, size: 0x8, def value: None
   ::BeatmapSaveDataVersion3::IndexFilter* ___f;
 
@@ -98,19 +100,16 @@ public:
   /// @brief Field d, offset: 0x1c, size: 0x4, def value: None
   ::BeatmapSaveDataCommon::DistributionParamType ___d;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13370 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::EventBox, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapSaveDataVersion3::EventBox, ___f) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::EventBox, ___w) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapSaveDataVersion3::EventBox, ___d) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion3::EventBox, 0x20>, "Size mismatch!");
 
 } // namespace BeatmapSaveDataVersion3
 NEED_NO_BOX(::BeatmapSaveDataVersion3::EventBox);

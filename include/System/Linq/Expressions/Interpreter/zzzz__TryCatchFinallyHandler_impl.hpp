@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsFinallyBlockExist)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40750b0;
+  constexpr static std::size_t addrs = 0x40d63c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> (
         ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(&::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_Handlers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40750c4;
+  constexpr static std::size_t addrs = 0x40d63d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_IsCatchBlockExist)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40750cc;
+  constexpr static std::size_t addrs = 0x40d63e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x40750dc;
+  constexpr static std::size_t addrs = 0x40d63f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, int32_t, int32_t, int32_t, ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4075128;
+  constexpr static std::size_t addrs = 0x40d643c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,18 +98,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::*)(
-    ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Exception*, ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>, ByRef<::System::Object*>)>(
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Exception*, ::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>, ::ByRef<::System::Object*>)>(
     &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::HasHandler)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4075180;
+  constexpr static std::size_t addrs = 0x40d6494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>::get(), "HasHandler", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
     return ___internal_method;
   }
 };
@@ -117,16 +117,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ByRef<::System::Object*>, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(
+    static_cast<bool (*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::ByRef<::System::Object*>, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(
         &::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x40752d4;
+  constexpr static std::size_t addrs = 0x40d65e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>::get(), "FilterPasses", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::ExceptionFilter*>::get() })));
     return ___internal_method;
   }
@@ -226,11 +226,6 @@ inline bool System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::get_
                                                "get_IsCatchBlockExist", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::New_ctor(
-    int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex,
-    ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(tryStart, tryEnd, gotoEndTargetIndex, handlers));
-}
 inline void System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor(
     int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex,
     ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers) {
@@ -241,11 +236,6 @@ inline void System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_cto
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                               ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tryStart, tryEnd, gotoEndTargetIndex, handlers);
-}
-inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::New_ctor(
-    int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
-    ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(tryStart, tryEnd, gotoEndLabelIndex, finallyStart, finallyEnd, handlers));
 }
 inline void System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_ctor(
     int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
@@ -260,24 +250,34 @@ inline void System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::_cto
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tryStart, tryEnd, gotoEndLabelIndex, finallyStart, finallyEnd, handlers);
 }
 inline bool System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::HasHandler(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Exception* exception,
-                                                                                       ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*> handler,
-                                                                                       ByRef<::System::Object*> unwrappedException) {
+                                                                                       ::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*> handler,
+                                                                                       ::ByRef<::System::Object*> unwrappedException) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>::get(), "HasHandler", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Linq::Expressions::Interpreter::ExceptionHandler*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, frame, exception, handler, unwrappedException);
 }
-inline bool System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ByRef<::System::Object*> exception,
+inline bool System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::FilterPasses(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::ByRef<::System::Object*> exception,
                                                                                          ::System::Linq::Expressions::Interpreter::ExceptionFilter* filter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>::get(), "FilterPasses", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::InterpretedFrame*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Interpreter::ExceptionFilter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, frame, exception, filter);
+}
+inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::New_ctor(
+    int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex,
+    ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(tryStart, tryEnd, gotoEndTargetIndex, handlers));
+}
+inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::New_ctor(
+    int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd,
+    ::ArrayW<::System::Linq::Expressions::Interpreter::ExceptionHandler*, ::Array<::System::Linq::Expressions::Interpreter::ExceptionHandler*>*> handlers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler*>(tryStart, tryEnd, gotoEndLabelIndex, finallyStart, finallyEnd, handlers));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler::TryCatchFinallyHandler() {}

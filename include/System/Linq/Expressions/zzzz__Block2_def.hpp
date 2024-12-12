@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__BlockExpression_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Block2)
 namespace System::Collections::ObjectModel {
@@ -28,11 +27,10 @@ class Block2;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Block2);
-// Type: System.Linq.Expressions::Block2
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.BlockExpression
 namespace System::Linq::Expressions {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions::Block2*
+// CS Name: System.Linq.Expressions.Block2
 class CORDL_TYPE Block2 : public ::System::Linq::Expressions::BlockExpression {
 public:
   // Declarations
@@ -44,34 +42,34 @@ public:
   /// @brief Field _arg1, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__arg1, put = __cordl_internal_set__arg1)) ::System::Linq::Expressions::Expression* _arg1;
 
-  /// @brief Method GetExpression, addr 0x404aa14, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x40abd28, size 0x94, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression(int32_t index);
 
-  /// @brief Method GetOrMakeExpressions, addr 0x404ab0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOrMakeExpressions, addr 0x40abe20, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* GetOrMakeExpressions();
 
   static inline ::System::Linq::Expressions::Block2* New_ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method Rewrite, addr 0x404ab14, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x40abe28, size 0x78, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::BlockExpression* Rewrite(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* variables,
                                                                ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> args);
 
+  constexpr ::System::Object* const& __cordl_internal_get__arg0() const;
+
   constexpr ::System::Object*& __cordl_internal_get__arg0();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__arg0() const;
+  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__arg1() const;
 
   constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__arg1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__arg1() const;
 
   constexpr void __cordl_internal_set__arg0(::System::Object* value);
 
   constexpr void __cordl_internal_set__arg1(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x404a9ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40abd00, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1);
 
-  /// @brief Method get_ExpressionCount, addr 0x404ab04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ExpressionCount, addr 0x40abe18, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ExpressionCount();
 
 protected:
@@ -88,23 +86,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Block2(Block2 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
+
   /// @brief Field _arg0, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____arg0;
 
   /// @brief Field _arg1, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____arg1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13609 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Block2, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Block2, ____arg0) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Block2, ____arg1) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Block2, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::Block2);

@@ -15,11 +15,10 @@ class PlayerAgreements;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerAgreements);
-// Type: ::PlayerAgreements
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerAgreements*
+// CS Name: PlayerAgreements
 class CORDL_TYPE PlayerAgreements : public ::System::Object {
 public:
   // Declarations
@@ -41,49 +40,49 @@ public:
   /// @brief Field privacyPolicyVersion, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
 
-  /// @brief Method AgreeToEndOfLifeNotice, addr 0x26b93d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEndOfLifeNotice, addr 0x26eded0, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToEndOfLifeNotice();
 
-  /// @brief Method AgreeToEula, addr 0x26b9388, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEula, addr 0x26ede88, size 0x24, virtual false, abstract: false, final false
   inline void AgreeToEula();
 
-  /// @brief Method AgreeToHealthAndSafety, addr 0x26b93b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToHealthAndSafety, addr 0x26edeb8, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToHealthAndSafety();
 
-  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x26b93c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x26edec4, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPlayerSensitivityFlag();
 
-  /// @brief Method AgreeToPrivacyPolicy, addr 0x26b93ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicy, addr 0x26edeac, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPrivacyPolicy();
 
-  /// @brief Method AgreedToAnyPreviousEula, addr 0x26b93ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousEula, addr 0x26edeec, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousEula();
 
-  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x26b9424, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x26edf24, size 0xc, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousHealthAndSafety();
 
-  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x26b9430, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x26edf30, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPlayerSensitivityFlag();
 
-  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x26b9408, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x26edf08, size 0x1c, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToEndOfLifeNotice, addr 0x26b948c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEndOfLifeNotice, addr 0x26edf8c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEndOfLifeNotice();
 
-  /// @brief Method AgreedToEula, addr 0x26b944c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEula, addr 0x26edf4c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEula();
 
-  /// @brief Method AgreedToHealthAndSafety, addr 0x26b946c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToHealthAndSafety, addr 0x26edf6c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToHealthAndSafety();
 
-  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x26b947c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x26edf7c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPlayerSenstivityFlag();
 
-  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x26b93dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x26ededc, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToPrivacyPolicy, addr 0x26b945c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPrivacyPolicy, addr 0x26edf5c, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPrivacyPolicy();
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor();
@@ -91,9 +90,9 @@ public:
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion,
                                                               int32_t endOfLifeNoticeVersion);
 
-  constexpr ::System::Action*& __cordl_internal_get_agreedToEulaEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_agreedToEulaEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_agreedToEulaEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_agreedToEulaEvent();
 
   constexpr int32_t const& __cordl_internal_get_endOfLifeNoticeVersion() const;
 
@@ -127,16 +126,16 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26b9318, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ede18, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b9338, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ede38, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion, int32_t endOfLifeNoticeVersion);
 
-  /// @brief Method add_agreedToEulaEvent, addr 0x26b91e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_agreedToEulaEvent, addr 0x26edce0, size 0x9c, virtual false, abstract: false, final false
   inline void add_agreedToEulaEvent(::System::Action* value);
 
-  /// @brief Method remove_agreedToEulaEvent, addr 0x26b927c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_agreedToEulaEvent, addr 0x26edd7c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_agreedToEulaEvent(::System::Action* value);
 
 protected:
@@ -153,26 +152,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerAgreements(PlayerAgreements const&) = delete;
 
-  /// @brief Field agreedToEulaEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___agreedToEulaEvent;
-
-  /// @brief Field eulaVersion, offset: 0x18, size: 0x4, def value: None
-  int32_t ___eulaVersion;
-
-  /// @brief Field privacyPolicyVersion, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___privacyPolicyVersion;
-
-  /// @brief Field healthAndSafetyVersion, offset: 0x20, size: 0x4, def value: None
-  int32_t ___healthAndSafetyVersion;
-
-  /// @brief Field playerSensitivityFlagVersion, offset: 0x24, size: 0x4, def value: None
-  int32_t ___playerSensitivityFlagVersion;
-
-  /// @brief Field endOfLifeNoticeVersion, offset: 0x28, size: 0x4, def value: None
-  int32_t ___endOfLifeNoticeVersion;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
 
   /// @brief Field kCurrentEndOfLifeNoticeVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentEndOfLifeNoticeVersion{ static_cast<int32_t>(0x1) };
@@ -195,11 +176,27 @@ public:
   /// @brief Field kFirstPrivacyPolicyVersion offset 0xffffffff size 0x4
   static constexpr int32_t kFirstPrivacyPolicyVersion{ static_cast<int32_t>(0x1) };
 
+  /// @brief Field agreedToEulaEvent, offset: 0x10, size: 0x8, def value: None
+  ::System::Action* ___agreedToEulaEvent;
+
+  /// @brief Field eulaVersion, offset: 0x18, size: 0x4, def value: None
+  int32_t ___eulaVersion;
+
+  /// @brief Field privacyPolicyVersion, offset: 0x1c, size: 0x4, def value: None
+  int32_t ___privacyPolicyVersion;
+
+  /// @brief Field healthAndSafetyVersion, offset: 0x20, size: 0x4, def value: None
+  int32_t ___healthAndSafetyVersion;
+
+  /// @brief Field playerSensitivityFlagVersion, offset: 0x24, size: 0x4, def value: None
+  int32_t ___playerSensitivityFlagVersion;
+
+  /// @brief Field endOfLifeNoticeVersion, offset: 0x28, size: 0x4, def value: None
+  int32_t ___endOfLifeNoticeVersion;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerAgreements, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerAgreements, ___agreedToEulaEvent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerAgreements, ___eulaVersion) == 0x18, "Offset mismatch!");
@@ -211,6 +208,8 @@ static_assert(offsetof(::GlobalNamespace::PlayerAgreements, ___healthAndSafetyVe
 static_assert(offsetof(::GlobalNamespace::PlayerAgreements, ___playerSensitivityFlagVersion) == 0x24, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerAgreements, ___endOfLifeNoticeVersion) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerAgreements, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerAgreements);

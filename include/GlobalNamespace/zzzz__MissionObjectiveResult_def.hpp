@@ -15,11 +15,10 @@ class MissionObjectiveResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveResult);
-// Type: ::MissionObjectiveResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MissionObjectiveResult*
+// CS Name: MissionObjectiveResult
 class CORDL_TYPE MissionObjectiveResult : public ::System::Object {
 public:
   // Declarations
@@ -45,9 +44,9 @@ public:
 
   constexpr bool& __cordl_internal_get__cleared_k__BackingField();
 
-  constexpr ::GlobalNamespace::MissionObjective*& __cordl_internal_get__missionObjective_k__BackingField();
+  constexpr ::GlobalNamespace::MissionObjective* const& __cordl_internal_get__missionObjective_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& __cordl_internal_get__missionObjective_k__BackingField() const;
+  constexpr ::GlobalNamespace::MissionObjective*& __cordl_internal_get__missionObjective_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__value_k__BackingField() const;
 
@@ -59,25 +58,25 @@ public:
 
   constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x269f7b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d44e8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MissionObjective* missionObjective, bool cleared, int32_t value);
 
-  /// @brief Method get_cleared, addr 0x269f790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cleared, addr 0x26d44c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_cleared();
 
-  /// @brief Method get_missionObjective, addr 0x269f780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x26d44b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_value, addr 0x269f7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x26d44d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_cleared, addr 0x269f798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_cleared, addr 0x26d44cc, size 0xc, virtual false, abstract: false, final false
   inline void set_cleared(bool value);
 
-  /// @brief Method set_missionObjective, addr 0x269f788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionObjective, addr 0x26d44bc, size 0x8, virtual false, abstract: false, final false
   inline void set_missionObjective(::GlobalNamespace::MissionObjective* value);
 
-  /// @brief Method set_value, addr 0x269f7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x26d44e0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
 protected:
@@ -94,6 +93,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MissionObjectiveResult(MissionObjectiveResult const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
+
   /// @brief Field <missionObjective>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MissionObjective* ____missionObjective_k__BackingField;
 
@@ -103,19 +105,16 @@ public:
   /// @brief Field <value>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   int32_t ____value_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13010 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveResult, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____missionObjective_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____cleared_k__BackingField) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveResult, ____value_k__BackingField) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveResult, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveResult);

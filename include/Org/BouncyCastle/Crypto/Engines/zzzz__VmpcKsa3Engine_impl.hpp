@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2349a54;
+  constexpr static std::size_t addrs = 0x237cd40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x2349a94;
+  constexpr static std::size_t addrs = 0x237cd80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2349d34;
+  constexpr static std::size_t addrs = 0x237d020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*>::get(),
@@ -59,13 +59,13 @@ inline void Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::InitKey(::ArrayW
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyBytes, ivBytes);
 }
-inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*>());
-}
 inline void Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine* Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine::VmpcKsa3Engine() {}

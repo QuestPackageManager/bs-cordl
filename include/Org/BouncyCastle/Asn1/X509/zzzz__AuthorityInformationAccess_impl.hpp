@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>)>(
         &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::Copy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24d1364;
+  constexpr static std::size_t addrs = 0x2504650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24d13dc;
+  constexpr static std::size_t addrs = 0x25046c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::FromExtensions)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x24d1644;
+  constexpr static std::size_t addrs = 0x2504930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x24d1480;
+  constexpr static std::size_t addrs = 0x250476c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::Org::BouncyCastle::Asn1::X509::AccessDescription*)>(&::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x24d16ac;
+  constexpr static std::size_t addrs = 0x2504998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x24d1754;
+  constexpr static std::size_t addrs = 0x2504a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x24d1784;
+  constexpr static std::size_t addrs = 0x2504a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetAccessDescriptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d17f4;
+  constexpr static std::size_t addrs = 0x2504ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24d17fc;
+  constexpr static std::size_t addrs = 0x2504ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToString)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x24d185c;
+  constexpr static std::size_t addrs = 0x2504b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,28 +205,17 @@ Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::FromExtensions(::Org:
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509Extensions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*, false>(nullptr, ___internal_method, extensions);
 }
-inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(seq));
-}
 inline void Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Sequence*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seq);
 }
-inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*
-Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::X509::AccessDescription* description) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(description));
-}
 inline void Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor(::Org::BouncyCastle::Asn1::X509::AccessDescription* description) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::AccessDescription*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, description);
-}
-inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(
-    ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(descriptions));
 }
 inline void Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor(
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions) {
@@ -235,10 +224,6 @@ inline void Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor(
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
           ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, descriptions);
-}
-inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid,
-                                                                                                                                        ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(oid, location));
 }
 inline void Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,6 +251,21 @@ inline ::StringW Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToSt
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(seq));
+}
+inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*
+Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::X509::AccessDescription* description) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(description));
+}
+inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(
+    ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(descriptions));
+}
+inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid,
+                                                                                                                                        ::Org::BouncyCastle::Asn1::X509::GeneralName* location) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess*>(oid, location));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::AuthorityInformationAccess() {}

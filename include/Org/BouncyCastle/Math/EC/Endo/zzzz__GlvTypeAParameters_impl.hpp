@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*)>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x248200c;
+  constexpr static std::size_t addrs = 0x24b52f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::get_I)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482048;
+  constexpr static std::size_t addrs = 0x24b5334;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::get_Lambda)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482050;
+  constexpr static std::size_t addrs = 0x24b533c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::*)()>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::get_SplitParams)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482058;
+  constexpr static std::size_t addrs = 0x24b5344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_i;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_i() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_i() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_i;
 }
@@ -86,7 +86,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Math::EC::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lambda;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_lambda() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_lambda() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_lambda;
 }
@@ -98,19 +98,13 @@ constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& Org::Boun
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_splitParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*> const&
-Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_splitParams() const {
+constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* const& Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_get_m_splitParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_splitParams;
 }
 constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::__cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_splitParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*
-Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
-                                                                ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*>(i, lambda, splitParams));
 }
 inline void Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                          ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
@@ -138,6 +132,11 @@ inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* Org::BouncyCa
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*
+Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
+                                                                ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*>(i, lambda, splitParams));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters::GlvTypeAParameters() {}

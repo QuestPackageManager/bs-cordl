@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::InternalFE::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::InternalFE::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb2228;
+  constexpr static std::size_t addrs = 0x3d1239c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,14 +71,14 @@ System::Runtime::Serialization::Formatters::Binary::InternalFE::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FEserializerTypeEnum = value;
 }
-inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::InternalFE*>());
-}
 inline void System::Runtime::Serialization::Formatters::Binary::InternalFE::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::InternalFE*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* System::Runtime::Serialization::Formatters::Binary::InternalFE::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::InternalFE*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalFE::InternalFE() {}

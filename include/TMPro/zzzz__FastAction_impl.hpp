@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)(::System::Action*)>(&::TMPro::FastAction::Add)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x475226c;
+  constexpr static std::size_t addrs = 0x47b3580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)(::System::Action*)>(&::TMPro::FastAction::Remove)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x475232c;
+  constexpr static std::size_t addrs = 0x47b3640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)()>(&::TMPro::FastAction::Call)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47523ec;
+  constexpr static std::size_t addrs = 0x47b3700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction*>::get(), "Call",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)()>(&::TMPro::FastAction::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4752484;
+  constexpr static std::size_t addrs = 0x47b3798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction*>::get(), ".ctor",
@@ -64,7 +64,7 @@ constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>*& TMPr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegates;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action*>*> const& TMPro::FastAction::__cordl_internal_get_delegates() const {
+constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>* const& TMPro::FastAction::__cordl_internal_get_delegates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delegates;
 }
@@ -76,7 +76,7 @@ constexpr ::System::Collections::Generic::Dictionary_2<::System::Action*, ::Syst
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* const&
 TMPro::FastAction::__cordl_internal_get_lookup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookup;
@@ -103,13 +103,13 @@ inline void TMPro::FastAction::Call() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::TMPro::FastAction* TMPro::FastAction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::FastAction*>());
-}
 inline void TMPro::FastAction::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::TMPro::FastAction* TMPro::FastAction::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::FastAction*>());
 }
 // Ctor Parameters []
 constexpr ::TMPro::FastAction::FastAction() {}

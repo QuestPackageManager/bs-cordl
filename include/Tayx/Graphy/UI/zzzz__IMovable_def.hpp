@@ -5,7 +5,7 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMovable)
 namespace Tayx::Graphy {
-struct __GraphyManager__ModulePosition;
+struct GraphyManager_ModulePosition;
 }
 // Forward declare root types
 namespace Tayx::Graphy::UI {
@@ -13,27 +13,22 @@ class IMovable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::UI::IMovable);
-// Type: Tayx.Graphy.UI::IMovable
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Tayx::Graphy::UI {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.UI::IMovable*
+// CS Name: Tayx.Graphy.UI.IMovable
 class CORDL_TYPE IMovable {
 public:
   // Declarations
-  /// @brief Method SetPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IMovable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IMovable(IMovable&&) = delete;
+  /// @brief Method SetPosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMovable", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMovable(IMovable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

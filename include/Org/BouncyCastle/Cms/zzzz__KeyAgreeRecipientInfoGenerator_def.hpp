@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(KeyAgreeRecipientInfoGenerator)
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -16,9 +17,6 @@ class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedHelper;
-}
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -44,16 +42,15 @@ class KeyAgreeRecipientInfoGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator);
-// Type: Org.BouncyCastle.Cms::KeyAgreeRecipientInfoGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Cms.RecipientInfoGenerator, System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Cms::KeyAgreeRecipientInfoGenerator*
+// CS Name: Org.BouncyCastle.Cms.KeyAgreeRecipientInfoGenerator
 class CORDL_TYPE KeyAgreeRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Helper, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
+  __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper)) ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
 
   __declspec(property(put = set_KeyAgreementOID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* KeyAgreementOID;
 
@@ -78,29 +75,29 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method CreateOriginatorPublicKey, addr 0x2643d34, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CreateOriginatorPublicKey, addr 0x2677020, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* CreateOriginatorPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method Generate, addr 0x2642be8, size 0x114c, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x2675ed4, size 0x114c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator* New_ctor();
 
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_keyAgreementOID() const;
+
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyAgreementOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyAgreementOID() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_keyEncryptionOID() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyEncryptionOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyEncryptionOID() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_recipientCerts() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_recipientCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_recipientCerts() const;
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* const& __cordl_internal_get_senderKeyPair() const;
 
   constexpr ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*& __cordl_internal_get_senderKeyPair();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*> const& __cordl_internal_get_senderKeyPair() const;
 
   constexpr void __cordl_internal_set_keyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
@@ -110,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_senderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
-  /// @brief Method .ctor, addr 0x2642b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675e48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -120,16 +117,16 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KeyAgreementOID, addr 0x2642b64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyAgreementOID, addr 0x2675e50, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionOID, addr 0x2642b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionOID, addr 0x2675e58, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_RecipientCerts, addr 0x2642b74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_RecipientCerts, addr 0x2675e60, size 0x6c, virtual false, abstract: false, final false
   inline void set_RecipientCerts(::System::Collections::ICollection* value);
 
-  /// @brief Method set_SenderKeyPair, addr 0x2642be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SenderKeyPair, addr 0x2675ecc, size 0x8, virtual false, abstract: false, final false
   inline void set_SenderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
 protected:
@@ -146,6 +143,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyAgreeRecipientInfoGenerator(KeyAgreeRecipientInfoGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 673 };
+
   /// @brief Field keyAgreementOID, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___keyAgreementOID;
 
@@ -158,14 +158,9 @@ public:
   /// @brief Field senderKeyPair, offset: 0x28, size: 0x8, def value: None
   ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* ___senderKeyPair;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 673 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, ___keyAgreementOID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, ___keyEncryptionOID) == 0x18, "Offset mismatch!");
@@ -173,6 +168,8 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator,
 static_assert(offsetof(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, ___recipientCerts) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, ___senderKeyPair) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator);

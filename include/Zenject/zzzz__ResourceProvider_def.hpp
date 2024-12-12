@@ -4,7 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceProvider)
 namespace System::Collections::Generic {
@@ -20,9 +20,6 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -34,11 +31,10 @@ class ResourceProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ResourceProvider);
-// Type: Zenject::ResourceProvider
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.IProvider
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ResourceProvider*
+// CS Name: Zenject.ResourceProvider
 class CORDL_TYPE ResourceProvider : public ::System::Object {
 public:
   // Declarations
@@ -58,11 +54,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4ad9128, size 0x1d4, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3da38, size 0x1d4, virtual true, abstract: false, final true
+  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4ad9120, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x4b3da30, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::ResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
@@ -75,9 +71,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__resourcePath();
 
-  constexpr ::System::Type*& __cordl_internal_get__resourceType();
+  constexpr ::System::Type* const& __cordl_internal_get__resourceType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__resourceType() const;
+  constexpr ::System::Type*& __cordl_internal_get__resourceType();
 
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
@@ -85,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set__resourceType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ad90d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3d9e4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x4ad9110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x4b3da20, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4ad9118, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3da28, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -111,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceProvider(ResourceProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12573 };
+
   /// @brief Field _resourceType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____resourceType;
 
@@ -120,19 +119,16 @@ public:
   /// @brief Field _matchSingle, offset: 0x20, size: 0x1, def value: None
   bool ____matchSingle;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12540 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::ResourceProvider, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::ResourceProvider, ____resourceType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::ResourceProvider, ____resourcePath) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::ResourceProvider, ____matchSingle) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::ResourceProvider, 0x28>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::ResourceProvider);

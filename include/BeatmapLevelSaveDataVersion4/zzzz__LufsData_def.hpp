@@ -13,11 +13,10 @@ struct LufsData;
 }
 // Write type traits
 MARK_VAL_T(::BeatmapLevelSaveDataVersion4::LufsData);
-// Type: BeatmapLevelSaveDataVersion4::LufsData
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatmapLevelSaveDataVersion4 {
 // Is value type: true
-// CS Name: ::BeatmapLevelSaveDataVersion4::LufsData
+// CS Name: BeatmapLevelSaveDataVersion4.LufsData
 struct CORDL_TYPE LufsData {
 public:
   // Declarations
@@ -29,6 +28,12 @@ public:
   // "float_t", modifiers: "", def_value: None }]
   constexpr LufsData(int32_t si, int32_t ei, float_t l) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13466 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field si, offset: 0x0, size: 0x4, def value: None
   int32_t si;
 
@@ -38,22 +43,16 @@ public:
   /// @brief Field l, offset: 0x8, size: 0x4, def value: None
   float_t l;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13434 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::LufsData, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::BeatmapLevelSaveDataVersion4::LufsData, si) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapLevelSaveDataVersion4::LufsData, ei) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::BeatmapLevelSaveDataVersion4::LufsData, l) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatmapLevelSaveDataVersion4::LufsData, 0xc>, "Size mismatch!");
 
 } // namespace BeatmapLevelSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapLevelSaveDataVersion4::LufsData, "BeatmapLevelSaveDataVersion4", "LufsData");

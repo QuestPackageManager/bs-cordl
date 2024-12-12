@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24289f0;
+  constexpr static std::size_t addrs = 0x245bcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, bool)>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2428bf4;
+  constexpr static std::size_t addrs = 0x245bee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Org::BouncyCastle::Math::EC::ECFieldElement*,
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>, bool)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2428d00;
+  constexpr static std::size_t addrs = 0x245bfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::Detach)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2429418;
+  constexpr static std::size_t addrs = 0x245c704;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::Add)> {
   constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x24294a8;
+  constexpr static std::size_t addrs = 0x245c794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::Twice)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x2429b94;
+  constexpr static std::size_t addrs = 0x245ce80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::TwicePlus)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2429fe8;
+  constexpr static std::size_t addrs = 0x245d2d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::ThreeTimes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x242a0b4;
+  constexpr static std::size_t addrs = 0x245d3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::*)()>(
     &::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::Negate)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x242a12c;
+  constexpr static std::size_t addrs = 0x245d418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,11 +159,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
-                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
-                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y));
-}
 inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,12 +167,6 @@ inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor(::Or
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, curve, x, y);
-}
-inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
-                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
-                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
-                                                                                                                                      bool withCompression) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y, withCompression));
 }
 inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression) {
@@ -188,11 +177,6 @@ inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor(::Or
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Math::EC::ECFieldElement*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, curve, x, y, withCompression);
-}
-inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(
-    ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
-    ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y, zs, withCompression));
 }
 inline void Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
                                                                             ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
@@ -243,6 +227,22 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Cust
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
+                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
+                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y));
+}
+inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
+                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
+                                                                                                                                      ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
+                                                                                                                                      bool withCompression) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y, withCompression));
+}
+inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point* Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::New_ctor(
+    ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
+    ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point*>(curve, x, y, zs, withCompression));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Point::SecP160K1Point() {}

@@ -15,11 +15,10 @@ class SupportsChildTracksAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
-// Type: UnityEngine.Timeline::SupportsChildTracksAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine::Timeline {
 // Is value type: false
-// CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
+// CS Name: UnityEngine.Timeline.SupportsChildTracksAttribute
 class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -31,9 +30,9 @@ public:
 
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 
-  constexpr ::System::Type*& __cordl_internal_get_childType();
+  constexpr ::System::Type* const& __cordl_internal_get_childType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_childType() const;
+  constexpr ::System::Type*& __cordl_internal_get_childType();
 
   constexpr int32_t const& __cordl_internal_get_levels() const;
 
@@ -43,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_levels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x47c7f90, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48292a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
 protected:
@@ -60,23 +59,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SupportsChildTracksAttribute(SupportsChildTracksAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15877 };
+
   /// @brief Field childType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___childType;
 
   /// @brief Field levels, offset: 0x18, size: 0x4, def value: None
   int32_t ___levels;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15842 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::SupportsChildTracksAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Timeline::SupportsChildTracksAttribute, ___childType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Timeline::SupportsChildTracksAttribute, ___levels) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::SupportsChildTracksAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::SupportsChildTracksAttribute);

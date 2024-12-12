@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509KeyUsage::*)(int32_t)>(&::Org::BouncyCastle::X509::X509KeyUsage::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25c3898;
+  constexpr static std::size_t addrs = 0x25f6b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::X509::X509KeyUsage::*)()>(
     &::Org::BouncyCastle::X509::X509KeyUsage::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25c38c0;
+  constexpr static std::size_t addrs = 0x25f6bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,9 +44,6 @@ constexpr void Org::BouncyCastle::X509::X509KeyUsage::__cordl_internal_set_usage
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___usage = value;
 }
-inline ::Org::BouncyCastle::X509::X509KeyUsage* Org::BouncyCastle::X509::X509KeyUsage::New_ctor(int32_t usage) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::X509KeyUsage*>(usage));
-}
 inline void Org::BouncyCastle::X509::X509KeyUsage::_ctor(int32_t usage) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509KeyUsage*>::get(), ".ctor",
@@ -57,6 +54,9 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::X509::X509KeyUs
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509KeyUsage*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::X509::X509KeyUsage* Org::BouncyCastle::X509::X509KeyUsage::New_ctor(int32_t usage) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::X509::X509KeyUsage*>(usage));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::X509::X509KeyUsage::X509KeyUsage() {}

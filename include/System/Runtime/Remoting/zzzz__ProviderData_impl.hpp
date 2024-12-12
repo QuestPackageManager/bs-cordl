@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ProviderData::*)(::System::Runtime::Remoting::ProviderData*)>(
     &::System::Runtime::Remoting::ProviderData::CopyFrom)> {
   constexpr static std::size_t size = 0x700;
-  constexpr static std::size_t addrs = 0x3c6d6d8;
+  constexpr static std::size_t addrs = 0x3ccd84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ProviderData::*)()>(&::System::Runtime::Remoting::ProviderData::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c6d678;
+  constexpr static std::size_t addrs = 0x3ccd7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ProviderData*>::get(), ".ctor",
@@ -72,7 +72,7 @@ constexpr ::System::Collections::Hashtable*& System::Runtime::Remoting::Provider
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomProperties;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Runtime::Remoting::ProviderData::__cordl_internal_get_CustomProperties() const {
+constexpr ::System::Collections::Hashtable* const& System::Runtime::Remoting::ProviderData::__cordl_internal_get_CustomProperties() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomProperties;
 }
@@ -84,7 +84,7 @@ constexpr ::System::Collections::IList*& System::Runtime::Remoting::ProviderData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& System::Runtime::Remoting::ProviderData::__cordl_internal_get_CustomData() const {
+constexpr ::System::Collections::IList* const& System::Runtime::Remoting::ProviderData::__cordl_internal_get_CustomData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___CustomData;
 }
@@ -98,13 +98,13 @@ inline void System::Runtime::Remoting::ProviderData::CopyFrom(::System::Runtime:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::ProviderData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline ::System::Runtime::Remoting::ProviderData* System::Runtime::Remoting::ProviderData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ProviderData*>());
-}
 inline void System::Runtime::Remoting::ProviderData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ProviderData*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Runtime::Remoting::ProviderData* System::Runtime::Remoting::ProviderData::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::ProviderData*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Remoting::ProviderData::ProviderData() {}

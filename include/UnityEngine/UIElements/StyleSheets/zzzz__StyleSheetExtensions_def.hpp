@@ -18,18 +18,17 @@ class StyleSheetExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions);
-// Type: UnityEngine.UIElements.StyleSheets::StyleSheetExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetExtensions*
+// CS Name: UnityEngine.UIElements.StyleSheets.StyleSheetExtensions
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsVarFunction, addr 0x4975868, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsVarFunction, addr 0x49da178, size 0x34, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method ReadAsString, addr 0x4975584, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x49d9e94, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
 protected:
@@ -47,7 +46,7 @@ public:
   StyleSheetExtensions(StyleSheetExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6459 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

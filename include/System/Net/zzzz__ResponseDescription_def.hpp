@@ -16,11 +16,10 @@ class ResponseDescription;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::ResponseDescription);
-// Type: System.Net::ResponseDescription
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::ResponseDescription*
+// CS Name: System.Net.ResponseDescription
 class CORDL_TYPE ResponseDescription : public ::System::Object {
 public:
   // Declarations
@@ -59,9 +58,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_Status();
 
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_StatusBuffer();
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_StatusBuffer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_StatusBuffer() const;
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_StatusBuffer();
 
   constexpr ::StringW const& __cordl_internal_get_StatusCodeString() const;
 
@@ -81,22 +80,22 @@ public:
 
   constexpr void __cordl_internal_set_StatusDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x442e6e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x448f9f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InvalidStatusCode, addr 0x442e6cc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidStatusCode, addr 0x448f9e0, size 0x14, virtual false, abstract: false, final false
   inline bool get_InvalidStatusCode();
 
-  /// @brief Method get_PermanentFailure, addr 0x442e6b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PermanentFailure, addr 0x448f9cc, size 0x14, virtual false, abstract: false, final false
   inline bool get_PermanentFailure();
 
-  /// @brief Method get_PositiveCompletion, addr 0x442e690, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveCompletion, addr 0x448f9a4, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveCompletion();
 
-  /// @brief Method get_PositiveIntermediate, addr 0x442e67c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PositiveIntermediate, addr 0x448f990, size 0x14, virtual false, abstract: false, final false
   inline bool get_PositiveIntermediate();
 
-  /// @brief Method get_TransientFailure, addr 0x442e6a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_TransientFailure, addr 0x448f9b8, size 0x14, virtual false, abstract: false, final false
   inline bool get_TransientFailure();
 
 protected:
@@ -113,6 +112,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResponseDescription(ResponseDescription const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9553 };
+
   /// @brief Field Multiline, offset: 0x10, size: 0x1, def value: None
   bool ___Multiline;
 
@@ -128,14 +130,9 @@ public:
   /// @brief Field StatusCodeString, offset: 0x28, size: 0x8, def value: None
   ::StringW ___StatusCodeString;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9528 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::ResponseDescription, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::ResponseDescription, ___Multiline) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::ResponseDescription, ___Status) == 0x14, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::System::Net::ResponseDescription, ___StatusDescription)
 static_assert(offsetof(::System::Net::ResponseDescription, ___StatusBuffer) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::ResponseDescription, ___StatusCodeString) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::ResponseDescription, 0x30>, "Size mismatch!");
 
 } // namespace System::Net
 NEED_NO_BOX(::System::Net::ResponseDescription);

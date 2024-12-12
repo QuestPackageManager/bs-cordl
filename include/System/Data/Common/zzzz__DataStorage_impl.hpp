@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(
     ::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4178de0;
+  constexpr static std::size_t addrs = 0x41da0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(
     ::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Object*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x417d848;
+  constexpr static std::size_t addrs = 0x41deb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(
     ::System::Data::DataColumn*, ::System::Type*, ::System::Object*, ::System::Object*, bool, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x417d73c;
+  constexpr static std::size_t addrs = 0x41dea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSetDateTime (::System::Data::Common::DataStorage::*)()>(
     &::System::Data::Common::DataStorage::get_DateTimeMode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x417d8b4;
+  constexpr static std::size_t addrs = 0x41debc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), "get_DateTimeMode",
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::System::Data::Common::DataStorage::*)()>(
     &::System::Data::Common::DataStorage::get_FormatProvider)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x417a184;
+  constexpr static std::size_t addrs = 0x41db498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::DataStorage::Aggregate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x417adc0;
+  constexpr static std::size_t addrs = 0x41dc0d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::Common::DataStorage::AggregateCount)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x417d8d0;
+  constexpr static std::size_t addrs = 0x41debe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,41 +137,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::DataStorage::CompareBits)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4178fbc;
+  constexpr static std::size_t addrs = 0x41da2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), "CompareBits", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.Compare
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::Compare)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.CompareValueTo
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*)>(
-    &::System::Data::Common::DataStorage::CompareValueTo)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -181,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::System::Object*)>(
     &::System::Data::Common::DataStorage::ConvertValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x417d99c;
+  constexpr static std::size_t addrs = 0x41decb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::CopyBits)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x417a1f4;
+  constexpr static std::size_t addrs = 0x41db508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,40 +175,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Data::Common::DataStorage.Copy
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, int32_t)>(&::System::Data::Common::DataStorage::Copy)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 8));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.Get
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::Get)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 9));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Data::Common::DataStorage.GetBits
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetBits)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x417a2f0;
+  constexpr static std::size_t addrs = 0x41db604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::GetStringLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x417d9a4;
+  constexpr static std::size_t addrs = 0x41decb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::HasValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4179154;
+  constexpr static std::size_t addrs = 0x41da468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::IsNull)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x417d9ac;
+  constexpr static std::size_t addrs = 0x41decc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,27 +231,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Data::Common::DataStorage.Set
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*)>(
-    &::System::Data::Common::DataStorage::Set)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 12));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Data::Common::DataStorage.SetNullBit
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, bool)>(&::System::Data::Common::DataStorage::SetNullBit)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417a454;
+  constexpr static std::size_t addrs = 0x41db768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t)>(&::System::Data::Common::DataStorage::SetCapacity)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x417a534;
+  constexpr static std::size_t addrs = 0x41db848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -334,25 +262,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertXmlToObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(::StringW)>(
-    &::System::Data::Common::DataStorage::ConvertXmlToObject)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 14));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertXmlToObject
-template <>
-
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::DataStorage::*)(::System::Xml::XmlReader*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::DataStorage::ConvertXmlToObject)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x417d9c8;
+  constexpr static std::size_t addrs = 0x41decdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -364,25 +277,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertObjectToXml
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::DataStorage::*)(::System::Object*)>(
-    &::System::Data::Common::DataStorage::ConvertObjectToXml)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 16));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.ConvertObjectToXml
-template <>
-
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(
     ::System::Object*, ::System::Xml::XmlWriter*, ::System::Xml::Serialization::XmlRootAttribute*)>(&::System::Data::Common::DataStorage::ConvertObjectToXml)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x417da08;
+  constexpr static std::size_t addrs = 0x41ded1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Data::Common::DataStorage* (*)(::System::Data::DataColumn*, ::System::Type*, ::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::CreateStorage)> {
   constexpr static std::size_t size = 0x76c;
-  constexpr static std::size_t addrs = 0x417da44;
+  constexpr static std::size_t addrs = 0x41ded58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (*)(::System::Type*)>(&::System::Data::Common::DataStorage::GetStorageType)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x417f0e0;
+  constexpr static std::size_t addrs = 0x41e03f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::GetTypeStorage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x417f1fc;
+  constexpr static std::size_t addrs = 0x41e0510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,7 +339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Data::Common::DataStorage::IsTypeCustomType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x417f278;
+  constexpr static std::size_t addrs = 0x41e058c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::IsTypeCustomType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x417d854;
+  constexpr static std::size_t addrs = 0x41deb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType)>(&::System::Data::Common::DataStorage::IsSqlType)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x417f2f0;
+  constexpr static std::size_t addrs = 0x41e0604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,7 +381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Data::Common::DataStorage::IsSqlType)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x417f2fc;
+  constexpr static std::size_t addrs = 0x41e0610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(
     &::System::Data::Common::DataStorage::DetermineIfValueType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x417d878;
+  constexpr static std::size_t addrs = 0x41deb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -511,18 +409,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Data::Common::DataStorage.ImplementsInterfaces
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::Common::StorageType, ::System::Type*, ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<bool>,
-                                                                                           ByRef<bool>)>(&::System::Data::Common::DataStorage::ImplementsInterfaces)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::Common::StorageType, ::System::Type*, ::ByRef<bool>, ::ByRef<bool>, ::ByRef<bool>,
+                                                                                           ::ByRef<bool>, ::ByRef<bool>)>(&::System::Data::Common::DataStorage::ImplementsInterfaces)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x417f3f8;
+  constexpr static std::size_t addrs = 0x41e070c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), "ImplementsInterfaces", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -532,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Tuple_4<bool, bool, bool, bool>* (*)(::System::Type*)>(
     &::System::Data::Common::DataStorage::InspectTypeForInterfaces)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x417f54c;
+  constexpr static std::size_t addrs = 0x41e0860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -547,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::Common::StorageType, ::System::Type*)>(
     &::System::Data::Common::DataStorage::ImplementsINullableValue)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x417f704;
+  constexpr static std::size_t addrs = 0x41e0a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -562,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Data::Common::DataStorage::IsObjectNull)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x417f7d8;
+  constexpr static std::size_t addrs = 0x41e0aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -576,7 +475,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Data::Common::DataStorage::IsObjectSqlNull)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x417f878;
+  constexpr static std::size_t addrs = 0x41e0b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -591,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(
     &::System::Data::Common::DataStorage::GetEmptyStorageInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x417f92c;
+  constexpr static std::size_t addrs = 0x41e0c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -606,7 +505,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
     &::System::Data::Common::DataStorage::CopyValueInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x417f93c;
+  constexpr static std::size_t addrs = 0x41e0c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -623,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::DataStorage::SetStorageInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x417f94c;
+  constexpr static std::size_t addrs = 0x41e0c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -633,58 +532,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Data::Common::DataStorage.GetEmptyStorage
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DataStorage::*)(int32_t)>(
-    &::System::Data::Common::DataStorage::GetEmptyStorage)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 18));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.CopyValue
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(
-    &::System::Data::Common::DataStorage::CopyValue)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 19));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Data::Common::DataStorage.SetStorage
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
-    &::System::Data::Common::DataStorage::SetStorage)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), 20));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::Data::Common::DataStorage.SetNullStorage
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DataStorage::*)(::System::Collections::BitArray*)>(
     &::System::Data::Common::DataStorage::SetNullStorage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x417f95c;
+  constexpr static std::size_t addrs = 0x41e0c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -698,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW)>(&::System::Data::Common::DataStorage::GetType)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x417f964;
+  constexpr static std::size_t addrs = 0x41e0c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -712,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Data::Common::DataStorage::GetQualifiedName)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x417faa0;
+  constexpr static std::size_t addrs = 0x41e0db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -725,7 +579,7 @@ constexpr ::System::Data::DataColumn*& System::Data::Common::DataStorage::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataColumn*> const& System::Data::Common::DataStorage::__cordl_internal_get__column() const {
+constexpr ::System::Data::DataColumn* const& System::Data::Common::DataStorage::__cordl_internal_get__column() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____column;
 }
@@ -737,7 +591,7 @@ constexpr ::System::Data::DataTable*& System::Data::Common::DataStorage::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& System::Data::Common::DataStorage::__cordl_internal_get__table() const {
+constexpr ::System::Data::DataTable* const& System::Data::Common::DataStorage::__cordl_internal_get__table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____table;
 }
@@ -749,7 +603,7 @@ constexpr ::System::Type*& System::Data::Common::DataStorage::__cordl_internal_g
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Data::Common::DataStorage::__cordl_internal_get__dataType() const {
+constexpr ::System::Type* const& System::Data::Common::DataStorage::__cordl_internal_get__dataType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataType;
 }
@@ -773,7 +627,7 @@ constexpr ::System::Collections::BitArray*& System::Data::Common::DataStorage::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dbNullBits;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::BitArray*> const& System::Data::Common::DataStorage::__cordl_internal_get__dbNullBits() const {
+constexpr ::System::Collections::BitArray* const& System::Data::Common::DataStorage::__cordl_internal_get__dbNullBits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dbNullBits;
 }
@@ -785,7 +639,7 @@ constexpr ::System::Object*& System::Data::Common::DataStorage::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Data::Common::DataStorage::__cordl_internal_get__defaultValue() const {
+constexpr ::System::Object* const& System::Data::Common::DataStorage::__cordl_internal_get__defaultValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultValue;
 }
@@ -797,7 +651,7 @@ constexpr ::System::Object*& System::Data::Common::DataStorage::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Data::Common::DataStorage::__cordl_internal_get__nullValue() const {
+constexpr ::System::Object* const& System::Data::Common::DataStorage::__cordl_internal_get__nullValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullValue;
 }
@@ -882,10 +736,6 @@ System::Data::Common::DataStorage::getStaticF_s_typeImplementsInterface() {
   return ::cordl_internals::getStaticField<::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Tuple_4<bool, bool, bool, bool>*>*, "s_typeImplementsInterface",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get>();
 }
-inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
-                                                                                        ::System::Data::Common::StorageType storageType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, storageType));
-}
 inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Data::Common::StorageType storageType) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -894,10 +744,6 @@ inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn*
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column, type, defaultValue, storageType);
-}
-inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
-                                                                                        ::System::Object* nullValue, ::System::Data::Common::StorageType storageType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, storageType));
 }
 inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Object* nullValue,
                                                      ::System::Data::Common::StorageType storageType) {
@@ -909,10 +755,6 @@ inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn*
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column, type, defaultValue, nullValue, storageType);
-}
-inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
-                                                                                        ::System::Object* nullValue, bool isICloneable, ::System::Data::Common::StorageType storageType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, isICloneable, storageType));
 }
 inline void System::Data::Common::DataStorage::_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue, ::System::Object* nullValue, bool isICloneable,
                                                      ::System::Data::Common::StorageType storageType) {
@@ -1092,14 +934,14 @@ inline bool System::Data::Common::DataStorage::DetermineIfValueType(::System::Da
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, typeCode, dataType);
 }
-inline void System::Data::Common::DataStorage::ImplementsInterfaces(::System::Data::Common::StorageType typeCode, ::System::Type* dataType, ByRef<bool> sqlType, ByRef<bool> nullable,
-                                                                    ByRef<bool> xmlSerializable, ByRef<bool> changeTracking, ByRef<bool> revertibleChangeTracking) {
+inline void System::Data::Common::DataStorage::ImplementsInterfaces(::System::Data::Common::StorageType typeCode, ::System::Type* dataType, ::ByRef<bool> sqlType, ::ByRef<bool> nullable,
+                                                                    ::ByRef<bool> xmlSerializable, ::ByRef<bool> changeTracking, ::ByRef<bool> revertibleChangeTracking) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), "ImplementsInterfaces", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::Common::StorageType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, typeCode, dataType, sqlType, nullable, xmlSerializable, changeTracking, revertibleChangeTracking);
 }
 inline ::System::Tuple_4<bool, bool, bool, bool>* System::Data::Common::DataStorage::InspectTypeForInterfaces(::System::Type* dataType) {
@@ -1180,6 +1022,18 @@ inline ::StringW System::Data::Common::DataStorage::GetQualifiedName(::System::T
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Common::DataStorage*>::get(), "GetQualifiedName", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
+                                                                                        ::System::Data::Common::StorageType storageType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, storageType));
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
+                                                                                        ::System::Object* nullValue, ::System::Data::Common::StorageType storageType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, storageType));
+}
+inline ::System::Data::Common::DataStorage* System::Data::Common::DataStorage::New_ctor(::System::Data::DataColumn* column, ::System::Type* type, ::System::Object* defaultValue,
+                                                                                        ::System::Object* nullValue, bool isICloneable, ::System::Data::Common::StorageType storageType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::Common::DataStorage*>(column, type, defaultValue, nullValue, isICloneable, storageType));
 }
 // Ctor Parameters []
 constexpr ::System::Data::Common::DataStorage::DataStorage() {}

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Request_1)
 namespace Oculus::Platform {
-class Message;
+template <typename T> class Message_1_Callback;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+class Message;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -18,18 +18,17 @@ template <typename T> class Request_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Oculus::Platform::Request_1);
-// Type: Oculus.Platform::Request`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Request
 namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::Oculus.Platform::Request`1<T>*
+// CS Name: Oculus.Platform.Request`1<T>
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:
   // Declarations
   /// @brief Field callback_, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_)) ::Oculus::Platform::__Message_1__Callback<T>* callback_;
+  __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_)) ::Oculus::Platform::Message_1_Callback<T>* callback_;
 
   /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
@@ -37,13 +36,13 @@ public:
   static inline ::Oculus::Platform::Request_1<T>* New_ctor(uint64_t requestID);
 
   /// @brief Method OnComplete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Oculus::Platform::Request_1<T>* OnComplete(::Oculus::Platform::__Message_1__Callback<T>* callback);
+  inline ::Oculus::Platform::Request_1<T>* OnComplete(::Oculus::Platform::Message_1_Callback<T>* callback);
 
-  constexpr ::Oculus::Platform::__Message_1__Callback<T>*& __cordl_internal_get_callback_();
+  constexpr ::Oculus::Platform::Message_1_Callback<T>* const& __cordl_internal_get_callback_() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& __cordl_internal_get_callback_() const;
+  constexpr ::Oculus::Platform::Message_1_Callback<T>*& __cordl_internal_get_callback_();
 
-  constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value);
+  constexpr void __cordl_internal_set_callback_(::Oculus::Platform::Message_1_Callback<T>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
@@ -62,11 +61,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Request_1(Request_1 const&) = delete;
 
-  /// @brief Field callback_, offset: 0x20, size: 0x8, def value: None
-  ::Oculus::Platform::__Message_1__Callback<T>* ___callback_;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15462 };
+
+  /// @brief Field callback_, offset: 0x20, size: 0x8, def value: None
+  ::Oculus::Platform::Message_1_Callback<T>* ___callback_;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,79 +1,79 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BitMaskSparse.hpp"
+#include "GlobalNamespace/zzzz__IBitMask_1_impl.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
-#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__BitMaskSparse____c._ctor
+//  Writing Method size for method: ::GlobalNamespace::BitMaskSparse___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BitMaskSparse____c::*)()>(&::GlobalNamespace::__BitMaskSparse____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse___c::*)()>(&::GlobalNamespace::BitMaskSparse___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e97e8;
+  constexpr static std::size_t addrs = 0x271be84;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__BitMaskSparse____c._ToString_b__8_0
+//  Writing Method size for method: ::GlobalNamespace::BitMaskSparse___c._ToString_b__8_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BitMaskSparse____c::*)(uint32_t)>(
-    &::GlobalNamespace::__BitMaskSparse____c::_ToString_b__8_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BitMaskSparse___c::*)(uint32_t)>(
+    &::GlobalNamespace::BitMaskSparse___c::_ToString_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26e97f0;
+  constexpr static std::size_t addrs = 0x271be8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), "<ToString>b__8_0",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get(), "<ToString>b__8_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::__BitMaskSparse____c::setStaticF___9(::GlobalNamespace::__BitMaskSparse____c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::__BitMaskSparse____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get>(
-      std::forward<::GlobalNamespace::__BitMaskSparse____c*>(value));
+inline void GlobalNamespace::BitMaskSparse___c::setStaticF___9(::GlobalNamespace::BitMaskSparse___c* value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::BitMaskSparse___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get>(
+      std::forward<::GlobalNamespace::BitMaskSparse___c*>(value));
 }
-inline ::GlobalNamespace::__BitMaskSparse____c* GlobalNamespace::__BitMaskSparse____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::__BitMaskSparse____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get>();
+inline ::GlobalNamespace::BitMaskSparse___c* GlobalNamespace::BitMaskSparse___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::BitMaskSparse___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get>();
 }
-inline void GlobalNamespace::__BitMaskSparse____c::setStaticF___9__8_0(::System::Func_2<uint32_t, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<uint32_t, ::StringW>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get>(
+inline void GlobalNamespace::BitMaskSparse___c::setStaticF___9__8_0(::System::Func_2<uint32_t, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<uint32_t, ::StringW>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get>(
       std::forward<::System::Func_2<uint32_t, ::StringW>*>(value));
 }
-inline ::System::Func_2<uint32_t, ::StringW>* GlobalNamespace::__BitMaskSparse____c::getStaticF___9__8_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<uint32_t, ::StringW>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get>();
+inline ::System::Func_2<uint32_t, ::StringW>* GlobalNamespace::BitMaskSparse___c::getStaticF___9__8_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<uint32_t, ::StringW>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get>();
 }
-inline ::GlobalNamespace::__BitMaskSparse____c* GlobalNamespace::__BitMaskSparse____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BitMaskSparse____c*>());
-}
-inline void GlobalNamespace::__BitMaskSparse____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), ".ctor",
+inline void GlobalNamespace::BitMaskSparse___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__BitMaskSparse____c::_ToString_b__8_0(uint32_t i) {
+inline ::StringW GlobalNamespace::BitMaskSparse___c::_ToString_b__8_0(uint32_t i) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BitMaskSparse____c*>::get(), "<ToString>b__8_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get(), "<ToString>b__8_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, i);
 }
+inline ::GlobalNamespace::BitMaskSparse___c* GlobalNamespace::BitMaskSparse___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BitMaskSparse___c*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BitMaskSparse____c::__BitMaskSparse____c() {}
+constexpr ::GlobalNamespace::BitMaskSparse___c::BitMaskSparse___c() {}
 //  Writing Method size for method: ::GlobalNamespace::BitMaskSparse.get_bitCount
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BitMaskSparse::*)()>(&::GlobalNamespace::BitMaskSparse::get_bitCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e94cc;
+  constexpr static std::size_t addrs = 0x271bb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "get_bitCount",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(int32_t)>(&::GlobalNamespace::BitMaskSparse::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26e7bc0;
+  constexpr static std::size_t addrs = 0x271a25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BitMaskSparse::*)(::GlobalNamespace::BitMaskSparse*)>(
     &::GlobalNamespace::BitMaskSparse::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26e94d4;
+  constexpr static std::size_t addrs = 0x271bb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMaskSparse* (::GlobalNamespace::BitMaskSparse::*)(int32_t, uint64_t)>(
     &::GlobalNamespace::BitMaskSparse::SetBits)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26e9540;
+  constexpr static std::size_t addrs = 0x271bbdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::BitMaskSparse::*)(int32_t, int32_t)>(&::GlobalNamespace::BitMaskSparse::GetBits)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26e95d0;
+  constexpr static std::size_t addrs = 0x271bc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BitMaskSparse::*)()>(&::GlobalNamespace::BitMaskSparse::ToString)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x26e9668;
+  constexpr static std::size_t addrs = 0x271bd04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BitMaskSparse::Serialize)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x26e7f4c;
+  constexpr static std::size_t addrs = 0x271a5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BitMaskSparse::Deserialize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26e8150;
+  constexpr static std::size_t addrs = 0x271a7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,30 +183,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
-constexpr GlobalNamespace::BitMaskSparse::operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
-  return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
-constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskSparse__() noexcept {
-  return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
-constexpr GlobalNamespace::BitMaskSparse::operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___System__IEquatable_1___GlobalNamespace__BitMaskSparse__() noexcept {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
-constexpr GlobalNamespace::BitMaskSparse::operator ::LiteNetLib::Utils::INetSerializable*() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
-constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BitMaskSparse::i___LiteNetLib__Utils__INetSerializable() noexcept {
-  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
-}
 constexpr int32_t& GlobalNamespace::BitMaskSparse::__cordl_internal_get__bitCount_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bitCount_k__BackingField;
@@ -223,7 +199,7 @@ constexpr ::System::Collections::Generic::SortedSet_1<uint32_t>*& GlobalNamespac
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparseSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::SortedSet_1<uint32_t>*> const& GlobalNamespace::BitMaskSparse::__cordl_internal_get__sparseSet() const {
+constexpr ::System::Collections::Generic::SortedSet_1<uint32_t>* const& GlobalNamespace::BitMaskSparse::__cordl_internal_get__sparseSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparseSet;
 }
@@ -235,9 +211,6 @@ inline int32_t GlobalNamespace::BitMaskSparse::get_bitCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "get_bitCount",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::BitMaskSparse* GlobalNamespace::BitMaskSparse::New_ctor(int32_t bitCount) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BitMaskSparse*>(bitCount));
 }
 inline void GlobalNamespace::BitMaskSparse::_ctor(int32_t bitCount) {
   static auto* ___internal_method =
@@ -279,6 +252,33 @@ inline void GlobalNamespace::BitMaskSparse::Deserialize(::LiteNetLib::Utils::Net
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "Deserialize", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::Utils::NetDataReader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader);
+}
+inline ::GlobalNamespace::BitMaskSparse* GlobalNamespace::BitMaskSparse::New_ctor(int32_t bitCount) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BitMaskSparse*>(bitCount));
+}
+/// @brief Convert operator to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr GlobalNamespace::BitMaskSparse::operator ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
+  return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr ::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___GlobalNamespace__IBitMask_1___GlobalNamespace__BitMaskSparse__() noexcept {
+  return static_cast<::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr GlobalNamespace::BitMaskSparse::operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>* GlobalNamespace::BitMaskSparse::i___System__IEquatable_1___GlobalNamespace__BitMaskSparse__() noexcept {
+  return static_cast<::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
+constexpr GlobalNamespace::BitMaskSparse::operator ::LiteNetLib::Utils::INetSerializable*() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
+constexpr ::LiteNetLib::Utils::INetSerializable* GlobalNamespace::BitMaskSparse::i___LiteNetLib__Utils__INetSerializable() noexcept {
+  return static_cast<::LiteNetLib::Utils::INetSerializable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BitMaskSparse::BitMaskSparse() {}

@@ -14,11 +14,10 @@ class ZTauElement;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
-// Type: Org.BouncyCastle.Math.EC.Abc::ZTauElement
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Abc::ZTauElement*
+// CS Name: Org.BouncyCastle.Math.EC.Abc.ZTauElement
 class CORDL_TYPE ZTauElement : public ::System::Object {
 public:
   // Declarations
@@ -30,19 +29,19 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_u() const;
+
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_u();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_u() const;
+  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_v() const;
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_v();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_v() const;
 
   constexpr void __cordl_internal_set_u(::Org::BouncyCastle::Math::BigInteger* value);
 
   constexpr void __cordl_internal_set_v(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x2416bd0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2449ebc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
 protected:
@@ -59,23 +58,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ZTauElement(ZTauElement const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1358 };
+
   /// @brief Field u, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___u;
 
   /// @brief Field v, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Math::BigInteger* ___v;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1358 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Abc::ZTauElement, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Abc::ZTauElement, ___u) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Abc::ZTauElement, ___v) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Abc::ZTauElement, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Abc
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);

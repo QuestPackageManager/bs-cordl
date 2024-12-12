@@ -17,31 +17,30 @@ class DependencyInjector;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::DependencyInjector);
-// Type: Mono::DependencyInjector
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Mono {
 // Is value type: false
-// CS Name: ::Mono::DependencyInjector*
+// CS Name: Mono.DependencyInjector
 class CORDL_TYPE DependencyInjector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field locker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_locker, put = setStaticF_locker)) ::System::Object* locker;
+  __declspec(property(get = getStaticF_locker, put = setStaticF_locker)) ::System::Object* locker;
 
   /// @brief Field systemDependency, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency)) ::Mono::ISystemDependencyProvider* systemDependency;
+  __declspec(property(get = getStaticF_systemDependency, put = setStaticF_systemDependency)) ::Mono::ISystemDependencyProvider* systemDependency;
 
-  /// @brief Method ReflectionLoad, addr 0x3bf3b5c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReflectionLoad, addr 0x3c53c70, size 0x14c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
-  /// @brief Method Register, addr 0x3bf3ca8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3c53dbc, size 0x198, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
   static inline ::System::Object* getStaticF_locker();
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider, addr 0x3bf3964, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method get_SystemProvider, addr 0x3c53a78, size 0x1f8, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
   static inline void setStaticF_locker(::System::Object* value);

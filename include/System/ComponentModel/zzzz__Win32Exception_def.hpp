@@ -4,12 +4,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__ExternalException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Win32Exception)
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -22,11 +20,10 @@ class Win32Exception;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Win32Exception);
-// Type: System.ComponentModel::Win32Exception
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.InteropServices.ExternalException, System.Runtime.Serialization.ISerializable
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::Win32Exception*
+// CS Name: System.ComponentModel.Win32Exception
 class CORDL_TYPE Win32Exception : public ::System::Runtime::InteropServices::ExternalException {
 public:
   // Declarations
@@ -38,10 +35,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetErrorMessage, addr 0x441a8cc, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMessage, addr 0x447bbe0, size 0x8f4, virtual false, abstract: false, final false
   static inline ::StringW GetErrorMessage(int32_t error);
 
-  /// @brief Method GetObjectData, addr 0x441b27c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x447c590, size 0xc8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ComponentModel::Win32Exception* New_ctor();
@@ -58,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_nativeErrorCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x441a820, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447bb34, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x441a894, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447bba8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t error);
 
-  /// @brief Method .ctor, addr 0x441b1c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447c4d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t error, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x441b1ec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x447c500, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_NativeErrorCode, addr 0x441b274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeErrorCode, addr 0x447c588, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NativeErrorCode();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -90,18 +87,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Win32Exception(Win32Exception const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9458 };
+
   /// @brief Field nativeErrorCode, offset: 0x8c, size: 0x4, def value: None
   int32_t ___nativeErrorCode;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Win32Exception, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::Win32Exception, ___nativeErrorCode) == 0x8c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::Win32Exception, 0x90>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::Win32Exception);

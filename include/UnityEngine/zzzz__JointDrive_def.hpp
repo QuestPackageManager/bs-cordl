@@ -16,11 +16,10 @@ struct JointDrive;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::JointDrive);
-// Type: UnityEngine::JointDrive
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::JointDrive
+// CS Name: UnityEngine.JointDrive
 struct CORDL_TYPE JointDrive {
 public:
   // Declarations
@@ -34,34 +33,34 @@ public:
 
   __declspec(property(get = get_useAcceleration, put = set_useAcceleration)) bool useAcceleration;
 
-  /// @brief Method get_maximumForce, addr 0x488e644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maximumForce, addr 0x48f2cd4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maximumForce();
 
-  /// @brief Method get_mode, addr 0x488e670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mode, addr 0x48f2d00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::JointDriveMode get_mode();
 
-  /// @brief Method get_positionDamper, addr 0x488e634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionDamper, addr 0x48f2cc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionDamper();
 
-  /// @brief Method get_positionSpring, addr 0x488e624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positionSpring, addr 0x48f2cb4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_positionSpring();
 
-  /// @brief Method get_useAcceleration, addr 0x488e654, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x48f2ce4, size 0x10, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method set_maximumForce, addr 0x488e64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maximumForce, addr 0x48f2cdc, size 0x8, virtual false, abstract: false, final false
   inline void set_maximumForce(float_t value);
 
-  /// @brief Method set_mode, addr 0x488e678, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x48f2d08, size 0x4, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::JointDriveMode value);
 
-  /// @brief Method set_positionDamper, addr 0x488e63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionDamper, addr 0x48f2ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_positionDamper(float_t value);
 
-  /// @brief Method set_positionSpring, addr 0x488e62c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_positionSpring, addr 0x48f2cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_positionSpring(float_t value);
 
-  /// @brief Method set_useAcceleration, addr 0x488e664, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x48f2cf4, size 0xc, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
   // Ctor Parameters []
@@ -71,6 +70,12 @@ public:
   // Ctor Parameters [CppParam { name: "m_PositionSpring", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_PositionDamper", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "m_MaximumForce", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_UseAcceleration", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr JointDrive(float_t m_PositionSpring, float_t m_PositionDamper, float_t m_MaximumForce, int32_t m_UseAcceleration) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15714 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_PositionSpring, offset: 0x0, size: 0x4, def value: None
   float_t m_PositionSpring;
@@ -84,17 +89,9 @@ public:
   /// @brief Field m_UseAcceleration, offset: 0xc, size: 0x4, def value: None
   int32_t m_UseAcceleration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15679 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::JointDrive, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::JointDrive, m_PositionSpring) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::JointDrive, m_PositionDamper) == 0x4, "Offset mismatch!");
@@ -102,6 +99,8 @@ static_assert(offsetof(::UnityEngine::JointDrive, m_PositionDamper) == 0x4, "Off
 static_assert(offsetof(::UnityEngine::JointDrive, m_MaximumForce) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::JointDrive, m_UseAcceleration) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::JointDrive, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::JointDrive, "UnityEngine", "JointDrive");

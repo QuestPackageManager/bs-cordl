@@ -15,11 +15,10 @@ class PemException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::PemException);
-// Type: Org.BouncyCastle.OpenSsl::PemException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.IOException
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.OpenSsl::PemException*
+// CS Name: Org.BouncyCastle.OpenSsl.PemException
 class CORDL_TYPE PemException : public ::System::IO::IOException {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::OpenSsl::PemException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x251b554, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254e840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x251b55c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254e848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

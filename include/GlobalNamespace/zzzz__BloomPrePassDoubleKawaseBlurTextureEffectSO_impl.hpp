@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40240fc;
+  constexpr static std::size_t addrs = 0x4085410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4024134;
+  constexpr static std::size_t addrs = 0x4085448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom1KernelSize() {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom1KernelSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloom1KernelSize;
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom1KernelSize() const {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom1KernelSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloom1KernelSize;
 }
-constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_set__bloom1KernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value) {
+constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_set__bloom1KernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloom1KernelSize = value;
 }
@@ -60,15 +60,15 @@ constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloom1Boost = value;
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom2KernelSize() {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom2KernelSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloom2KernelSize;
 }
-constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom2KernelSize() const {
+constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_get__bloom2KernelSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloom2KernelSize;
 }
-constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_set__bloom2KernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value) {
+constexpr void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::__cordl_internal_set__bloom2KernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloom2KernelSize = value;
 }
@@ -138,14 +138,14 @@ inline void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest);
 }
-inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>());
-}
 inline void GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::BloomPrePassDoubleKawaseBlurTextureEffectSO() {}

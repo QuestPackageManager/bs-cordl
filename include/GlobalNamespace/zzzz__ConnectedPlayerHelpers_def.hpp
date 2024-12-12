@@ -14,30 +14,29 @@ class ConnectedPlayerHelpers;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ConnectedPlayerHelpers);
-// Type: ::ConnectedPlayerHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ConnectedPlayerHelpers*
+// CS Name: ConnectedPlayerHelpers
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasFinishedLevel, addr 0x228cc6c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HasFinishedLevel, addr 0x22bff58, size 0xbc, virtual false, abstract: false, final false
   static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActive, addr 0x228cbb0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x22bfe9c, size 0xbc, virtual false, abstract: false, final false
   static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActiveOrFinished, addr 0x228cd28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsActiveOrFinished, addr 0x22c0014, size 0x28, virtual false, abstract: false, final false
   static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsFailed, addr 0x228cd50, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFailed, addr 0x22c003c, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WantsToPlayNextLevel, addr 0x228ca38, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WantsToPlayNextLevel, addr 0x22bfd24, size 0xbc, virtual false, abstract: false, final false
   static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WasActiveAtLevelStart, addr 0x228caf4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WasActiveAtLevelStart, addr 0x22bfde0, size 0xbc, virtual false, abstract: false, final false
   static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
 protected:
@@ -55,7 +54,7 @@ public:
   ConnectedPlayerHelpers(ConnectedPlayerHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

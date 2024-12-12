@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(
     int32_t, ::System::Collections::IList*, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(&::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23f3840;
+  constexpr static std::size_t addrs = 0x2426b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::System::Collections::IList*, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23f38c4;
+  constexpr static std::size_t addrs = 0x2426bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::Init)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x23f39f8;
+  constexpr static std::size_t addrs = 0x2426ce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::SkipServerCredentials)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x23f3ab8;
+  constexpr static std::size_t addrs = 0x2426da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::Org::BouncyCastle::Crypto::Tls::Certificate*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ProcessServerCertificate)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x23f3b08;
+  constexpr static std::size_t addrs = 0x2426df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::get_RequiresServerKeyExchange)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23f3eb0;
+  constexpr static std::size_t addrs = 0x242719c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::GenerateServerKeyExchange)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x23f3ed8;
+  constexpr static std::size_t addrs = 0x24271c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ProcessServerKeyExchange)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x23f4178;
+  constexpr static std::size_t addrs = 0x2427464;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::Org::BouncyCastle::Crypto::Tls::CertificateRequest*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ValidateCertificateRequest)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x23f4438;
+  constexpr static std::size_t addrs = 0x2427724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::Org::BouncyCastle::Crypto::Tls::TlsCredentials*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ProcessClientCredentials)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x23f4508;
+  constexpr static std::size_t addrs = 0x24277f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::GenerateClientKeyExchange)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23f4618;
+  constexpr static std::size_t addrs = 0x2427904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::Org::BouncyCastle::Crypto::Tls::Certificate*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ProcessClientCertificate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x23f4834;
+  constexpr static std::size_t addrs = 0x2427b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::ProcessClientKeyExchange)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23f4884;
+  constexpr static std::size_t addrs = 0x2427b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::GeneratePremasterSecret)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x23f4930;
+  constexpr static std::size_t addrs = 0x2427c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +247,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mTlsSigner;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSigner*> const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mTlsSigner() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mTlsSigner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mTlsSigner;
 }
@@ -259,7 +259,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& Org::BouncyCastle::C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHVerifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHVerifier() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHVerifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHVerifier;
 }
@@ -271,8 +271,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& Org::BouncyCas
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHParameters;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const&
-Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHParameters() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHParameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHParameters;
 }
@@ -284,8 +283,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerPublicKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const&
-Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mServerPublicKey() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mServerPublicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerPublicKey;
 }
@@ -297,8 +295,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*& Org::Bounc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mAgreementCredentials;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*> const&
-Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mAgreementCredentials() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mAgreementCredentials() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mAgreementCredentials;
 }
@@ -310,8 +307,7 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& Org:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHAgreePrivateKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const&
-Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHAgreePrivateKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHAgreePrivateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHAgreePrivateKey;
 }
@@ -323,18 +319,13 @@ constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*& Org::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHAgreePublicKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*> const&
-Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHAgreePublicKey() const {
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* const& Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_get_mDHAgreePublicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDHAgreePublicKey;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::__cordl_internal_set_mDHAgreePublicKey(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mDHAgreePublicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                                                                      ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(keyExchange, supportedSignatureAlgorithms, dhParameters));
 }
 inline void Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                     ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
@@ -344,11 +335,6 @@ inline void Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::_ctor(int32_t keyE
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Parameters::DHParameters*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyExchange, supportedSignatureAlgorithms, dhParameters);
-}
-inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                                                                      ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
-                                                                                                                      ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(keyExchange, supportedSignatureAlgorithms, dhVerifier, dhParameters));
 }
 inline void Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                     ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
@@ -419,6 +405,15 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::TlsD
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
+                                                                                                                      ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(keyExchange, supportedSignatureAlgorithms, dhParameters));
+}
+inline ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange* Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
+                                                                                                                      ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
+                                                                                                                      ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange*>(keyExchange, supportedSignatureAlgorithms, dhVerifier, dhParameters));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange::TlsDHKeyExchange() {}

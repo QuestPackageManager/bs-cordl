@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TripleDESTransform::*)(
     ::System::Security::Cryptography::TripleDES*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::TripleDESTransform::_ctor)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x3c553d8;
+  constexpr static std::size_t addrs = 0x3cb554c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::TripleDESTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::TripleDESTransform::ECB)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c5579c;
+  constexpr static std::size_t addrs = 0x3cb5910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::System::Security::Cryptography::TripleDESTransform::GetStrongKey)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c556f4;
+  constexpr static std::size_t addrs = 0x3cb5868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::TripleDESTransform*>::get(),
@@ -55,7 +55,7 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E1;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E1() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E1;
 }
@@ -67,7 +67,7 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D2;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D2() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D2;
 }
@@ -79,7 +79,7 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E3;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E3() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E3;
 }
@@ -91,7 +91,7 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D1;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D1() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D1;
 }
@@ -103,7 +103,7 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E2;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E2() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_E2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___E2;
 }
@@ -115,18 +115,13 @@ constexpr ::System::Security::Cryptography::DESTransform*& System::Security::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D3;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D3() const {
+constexpr ::System::Security::Cryptography::DESTransform* const& System::Security::Cryptography::TripleDESTransform::__cordl_internal_get_D3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___D3;
 }
 constexpr void System::Security::Cryptography::TripleDESTransform::__cordl_internal_set_D3(::System::Security::Cryptography::DESTransform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___D3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Security::Cryptography::TripleDESTransform* System::Security::Cryptography::TripleDESTransform::New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption,
-                                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
-                                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::TripleDESTransform*>(algo, encryption, key, iv));
 }
 inline void System::Security::Cryptography::TripleDESTransform::_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
@@ -148,6 +143,11 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::Trip
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::TripleDESTransform*>::get(),
                                                                              "GetStrongKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method);
+}
+inline ::System::Security::Cryptography::TripleDESTransform* System::Security::Cryptography::TripleDESTransform::New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption,
+                                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
+                                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> iv) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::TripleDESTransform*>(algo, encryption, key, iv));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::TripleDESTransform::TripleDESTransform() {}

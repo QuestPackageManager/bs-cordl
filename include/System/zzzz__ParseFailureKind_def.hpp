@@ -12,11 +12,10 @@ struct ParseFailureKind;
 }
 // Write type traits
 MARK_VAL_T(::System::ParseFailureKind);
-// Type: System::ParseFailureKind
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::ParseFailureKind
+// CS Name: System.ParseFailureKind
 struct CORDL_TYPE ParseFailureKind {
 public:
   // Declarations
@@ -51,31 +50,28 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ParseFailureKind(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ArgumentNull value: static_cast<int32_t>(0x1)
+  /// @brief Field ArgumentNull value: I32(1)
   static ::System::ParseFailureKind const ArgumentNull;
 
-  /// @brief Field Format value: static_cast<int32_t>(0x2)
+  /// @brief Field Format value: I32(2)
   static ::System::ParseFailureKind const Format;
 
-  /// @brief Field FormatBadDateTimeCalendar value: static_cast<int32_t>(0x7)
+  /// @brief Field FormatBadDateTimeCalendar value: I32(7)
   static ::System::ParseFailureKind const FormatBadDateTimeCalendar;
 
-  /// @brief Field FormatWithFormatSpecifier value: static_cast<int32_t>(0x5)
+  /// @brief Field FormatWithFormatSpecifier value: I32(5)
   static ::System::ParseFailureKind const FormatWithFormatSpecifier;
 
-  /// @brief Field FormatWithOriginalDateTime value: static_cast<int32_t>(0x4)
+  /// @brief Field FormatWithOriginalDateTime value: I32(4)
   static ::System::ParseFailureKind const FormatWithOriginalDateTime;
 
-  /// @brief Field FormatWithOriginalDateTimeAndParameter value: static_cast<int32_t>(0x6)
+  /// @brief Field FormatWithOriginalDateTimeAndParameter value: I32(6)
   static ::System::ParseFailureKind const FormatWithOriginalDateTimeAndParameter;
 
-  /// @brief Field FormatWithParameter value: static_cast<int32_t>(0x3)
+  /// @brief Field FormatWithParameter value: I32(3)
   static ::System::ParseFailureKind const FormatWithParameter;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::ParseFailureKind const None;
 
   /// @brief IL2CPP Metadata Type Index
@@ -84,12 +80,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ParseFailureKind, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::ParseFailureKind, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ParseFailureKind, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ParseFailureKind, "System", "ParseFailureKind");

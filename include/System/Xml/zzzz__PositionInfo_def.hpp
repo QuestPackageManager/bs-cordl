@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PositionInfo)
-namespace System::Xml {
-class IXmlLineInfo;
-}
 namespace System {
 class Object;
 }
@@ -18,11 +16,10 @@ class PositionInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::PositionInfo);
-// Type: System.Xml::PositionInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.IXmlLineInfo
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::PositionInfo*
+// CS Name: System.Xml.PositionInfo
 class CORDL_TYPE PositionInfo : public ::System::Object {
 public:
   // Declarations
@@ -33,21 +30,21 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method GetPositionInfo, addr 0x42e80a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPositionInfo, addr 0x43493bc, size 0xb0, virtual false, abstract: false, final false
   static inline ::System::Xml::PositionInfo* GetPositionInfo(::System::Object* o);
 
-  /// @brief Method HasLineInfo, addr 0x42e8090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLineInfo, addr 0x43493a4, size 0x8, virtual true, abstract: false, final false
   inline bool HasLineInfo();
 
   static inline ::System::Xml::PositionInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42e8180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4349494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LineNumber, addr 0x42e8098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x43493ac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x42e80a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x43493b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_LinePosition();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"
@@ -68,7 +65,7 @@ public:
   PositionInfo(PositionInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

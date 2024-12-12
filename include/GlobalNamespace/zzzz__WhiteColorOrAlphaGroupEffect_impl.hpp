@@ -15,15 +15,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WhiteColorOrAlphaGroupEffect::*)(
-    ::GlobalNamespace::__LightColorGroupEffect__InitData*, ::UnityEngine::Color, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*,
+    ::GlobalNamespace::LightColorGroupEffect_InitData*, ::UnityEngine::Color, ::GlobalNamespace::LightWithIdManager*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::ColorManager*,
     ::GlobalNamespace::BeatmapCallbacksController*, ::GlobalNamespace::IBpmController*)>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffect::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b2b960;
+  constexpr static std::size_t addrs = 0x3b8cef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightColorGroupEffect__InitData*>::get(),
+                                    ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightColorGroupEffect_InitData*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightWithIdManager*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::WhiteColorOrAlphaGroupEffect::*)(
     ::GlobalNamespace::EnvironmentColorType, bool, float_t)>(&::GlobalNamespace::WhiteColorOrAlphaGroupEffect::GetColor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b2b99c;
+  constexpr static std::size_t addrs = 0x3b8cf34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,22 +61,13 @@ constexpr void GlobalNamespace::WhiteColorOrAlphaGroupEffect::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultColor = value;
 }
-inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* GlobalNamespace::WhiteColorOrAlphaGroupEffect::New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData,
-                                                                                                                ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
-                                                                                                                ::Tweening::SongTimeTweeningManager* tweeningManager,
-                                                                                                                ::GlobalNamespace::ColorManager* colorManager,
-                                                                                                                ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
-                                                                                                                ::GlobalNamespace::IBpmController* bpmController) {
-  return THROW_UNLESS(
-      ::il2cpp_utils::NewSpecific<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>(initData, defaultColor, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController));
-}
-inline void GlobalNamespace::WhiteColorOrAlphaGroupEffect::_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::UnityEngine::Color defaultColor,
+inline void GlobalNamespace::WhiteColorOrAlphaGroupEffect::_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor,
                                                                  ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                  ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
                                                                  ::GlobalNamespace::IBpmController* bpmController) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LightColorGroupEffect__InitData*>::get(),
+                                  ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightColorGroupEffect_InitData*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightWithIdManager*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Tweening::SongTimeTweeningManager*>::get(),
@@ -89,6 +80,15 @@ inline ::UnityEngine::Color GlobalNamespace::WhiteColorOrAlphaGroupEffect::GetCo
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method, colorType, colorBoost, brightness);
+}
+inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* GlobalNamespace::WhiteColorOrAlphaGroupEffect::New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData,
+                                                                                                                ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
+                                                                                                                ::Tweening::SongTimeTweeningManager* tweeningManager,
+                                                                                                                ::GlobalNamespace::ColorManager* colorManager,
+                                                                                                                ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
+                                                                                                                ::GlobalNamespace::IBpmController* bpmController) {
+  return THROW_UNLESS(
+      ::il2cpp_utils::NewSpecific<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>(initData, defaultColor, lightManager, tweeningManager, colorManager, beatmapCallbacksController, bpmController));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::WhiteColorOrAlphaGroupEffect::WhiteColorOrAlphaGroupEffect() {}

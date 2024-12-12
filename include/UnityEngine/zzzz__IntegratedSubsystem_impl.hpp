@@ -2,16 +2,16 @@
 // IWYU pragma private; include "UnityEngine/IntegratedSubsystem.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__ISubsystem_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"
 #include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
-#include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::IntegratedSubsystem.SetHandle
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystem::*)(::UnityEngine::IntegratedSubsystem*)>(
     &::UnityEngine::IntegratedSubsystem::SetHandle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48b3d48;
+  constexpr static std::size_t addrs = 0x49183d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b3d8c;
+  constexpr static std::size_t addrs = 0x491841c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "Start",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::Stop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b3dc8;
+  constexpr static std::size_t addrs = 0x4918458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "Stop",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::Destroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x48b3e04;
+  constexpr static std::size_t addrs = 0x4918494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "Destroy",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::get_running)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48b4020;
+  constexpr static std::size_t addrs = 0x49186b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "get_running",
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::get_valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48b4080;
+  constexpr static std::size_t addrs = 0x4918710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "get_valid",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::IsRunning)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48b4090;
+  constexpr static std::size_t addrs = 0x4918720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), "IsRunning",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystem::*)()>(&::UnityEngine::IntegratedSubsystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48b40cc;
+  constexpr static std::size_t addrs = 0x491875c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), ".ctor",
@@ -111,14 +111,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::ISubsystem"
-constexpr UnityEngine::IntegratedSubsystem::operator ::UnityEngine::ISubsystem*() noexcept {
-  return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ISubsystem"
-constexpr ::UnityEngine::ISubsystem* UnityEngine::IntegratedSubsystem::i___UnityEngine__ISubsystem() noexcept {
-  return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
-}
 constexpr ::System::IntPtr& UnityEngine::IntegratedSubsystem::__cordl_internal_get_m_Ptr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Ptr;
@@ -135,7 +127,7 @@ constexpr ::UnityEngine::ISubsystemDescriptor*& UnityEngine::IntegratedSubsystem
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubsystemDescriptor;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ISubsystemDescriptor*> const& UnityEngine::IntegratedSubsystem::__cordl_internal_get_m_SubsystemDescriptor() const {
+constexpr ::UnityEngine::ISubsystemDescriptor* const& UnityEngine::IntegratedSubsystem::__cordl_internal_get_m_SubsystemDescriptor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SubsystemDescriptor;
 }
@@ -179,13 +171,21 @@ inline bool UnityEngine::IntegratedSubsystem::IsRunning() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::UnityEngine::IntegratedSubsystem* UnityEngine::IntegratedSubsystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::IntegratedSubsystem*>());
-}
 inline void UnityEngine::IntegratedSubsystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystem*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::IntegratedSubsystem* UnityEngine::IntegratedSubsystem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::IntegratedSubsystem*>());
+}
+/// @brief Convert operator to "::UnityEngine::ISubsystem"
+constexpr UnityEngine::IntegratedSubsystem::operator ::UnityEngine::ISubsystem*() noexcept {
+  return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ISubsystem"
+constexpr ::UnityEngine::ISubsystem* UnityEngine::IntegratedSubsystem::i___UnityEngine__ISubsystem() noexcept {
+  return static_cast<::UnityEngine::ISubsystem*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::IntegratedSubsystem::IntegratedSubsystem() {}

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -19,11 +18,10 @@ class FloatArrayMaterialPropertyEffectTarget;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget);
-// Type: ::FloatArrayMaterialPropertyEffectTarget
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies FloatFxGroupEffectTarget, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatArrayMaterialPropertyEffectTarget*
+// CS Name: FloatArrayMaterialPropertyEffectTarget
 class CORDL_TYPE FloatArrayMaterialPropertyEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
@@ -42,18 +40,18 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x3b27f24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b894c4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b27f48, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x3b894e8, size 0xac, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b27f44, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x3b894e4, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b27ff4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x3b89594, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
@@ -83,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b27ff8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b89598, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FloatArrayMaterialPropertyEffectTarget(FloatArrayMaterialPropertyEffectTarget const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4263 };
+
   /// @brief Field _materialPropertyBlockControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;
 
@@ -112,14 +113,9 @@ public:
   /// @brief Field _propertyId, offset: 0x38, size: 0x4, def value: None
   int32_t ____propertyId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4252 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, ____materialPropertyBlockControllers) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, ____propertyName) == 0x28, "Offset mismatch!");
@@ -127,6 +123,8 @@ static_assert(offsetof(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget
 static_assert(offsetof(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, ____valueBounds) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, ____propertyId) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatArrayMaterialPropertyEffectTarget);

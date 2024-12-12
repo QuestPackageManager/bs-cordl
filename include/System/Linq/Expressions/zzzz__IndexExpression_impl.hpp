@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/IndexExpression.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_impl.hpp"
 #include "System/Linq/Expressions/zzzz__IndexExpression_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionVisitor_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::IndexExpression._ctor
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::IndexExpression::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4056750;
+  constexpr static std::size_t addrs = 0x40b7a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40567e0;
+  constexpr static std::size_t addrs = 0x40b7af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::IndexExpression*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_Type)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x40567e8;
+  constexpr static std::size_t addrs = 0x40b7afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::IndexExpression*>::get(), "get_Type",
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405684c;
+  constexpr static std::size_t addrs = 0x40b7b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::IndexExpression*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::PropertyInfo* (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_Indexer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4056854;
+  constexpr static std::size_t addrs = 0x40b7b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::IndexExpression*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::IndexExpression::*)(int32_t)>(
     &::System::Linq::Expressions::IndexExpression::GetArgument)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4054f98;
+  constexpr static std::size_t addrs = 0x40b62ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::IndexExpression::*)()>(
     &::System::Linq::Expressions::IndexExpression::get_ArgumentCount)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4054ef8;
+  constexpr static std::size_t addrs = 0x40b620c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::IndexExpression*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::IndexExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::IndexExpression::Accept)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x405685c;
+  constexpr static std::size_t addrs = 0x40b7b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::IndexExpression::*)(::System::Linq::Expressions::Expression*, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
     &::System::Linq::Expressions::IndexExpression::Rewrite)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4055d90;
+  constexpr static std::size_t addrs = 0x40b70a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,20 +146,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
-constexpr System::Linq::Expressions::IndexExpression::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
-  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
-constexpr ::System::Linq::Expressions::IArgumentProvider* System::Linq::Expressions::IndexExpression::i___System__Linq__Expressions__IArgumentProvider() noexcept {
-  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*& System::Linq::Expressions::IndexExpression::__cordl_internal_get__arguments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*> const&
-System::Linq::Expressions::IndexExpression::__cordl_internal_get__arguments() const {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* const& System::Linq::Expressions::IndexExpression::__cordl_internal_get__arguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
@@ -171,7 +162,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::I
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Object_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::IndexExpression::__cordl_internal_get__Object_k__BackingField() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::IndexExpression::__cordl_internal_get__Object_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Object_k__BackingField;
 }
@@ -183,18 +174,13 @@ constexpr ::System::Reflection::PropertyInfo*& System::Linq::Expressions::IndexE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Indexer_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& System::Linq::Expressions::IndexExpression::__cordl_internal_get__Indexer_k__BackingField() const {
+constexpr ::System::Reflection::PropertyInfo* const& System::Linq::Expressions::IndexExpression::__cordl_internal_get__Indexer_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Indexer_k__BackingField;
 }
 constexpr void System::Linq::Expressions::IndexExpression::__cordl_internal_set__Indexer_k__BackingField(::System::Reflection::PropertyInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Indexer_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::IndexExpression*
-System::Linq::Expressions::IndexExpression::New_ctor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
-                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::IndexExpression*>(instance, indexer, arguments));
 }
 inline void System::Linq::Expressions::IndexExpression::_ctor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
                                                               ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments) {
@@ -250,6 +236,19 @@ System::Linq::Expressions::IndexExpression::Rewrite(::System::Linq::Expressions:
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::Expression*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, instance, arguments);
+}
+inline ::System::Linq::Expressions::IndexExpression*
+System::Linq::Expressions::IndexExpression::New_ctor(::System::Linq::Expressions::Expression* instance, ::System::Reflection::PropertyInfo* indexer,
+                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::IndexExpression*>(instance, indexer, arguments));
+}
+/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
+constexpr System::Linq::Expressions::IndexExpression::operator ::System::Linq::Expressions::IArgumentProvider*() noexcept {
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
+constexpr ::System::Linq::Expressions::IArgumentProvider* System::Linq::Expressions::IndexExpression::i___System__Linq__Expressions__IArgumentProvider() noexcept {
+  return static_cast<::System::Linq::Expressions::IArgumentProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::IndexExpression::IndexExpression() {}

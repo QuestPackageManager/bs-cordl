@@ -10,8 +10,7 @@ constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue
   return this->____concurrentStore;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const&
-Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__concurrentStore() const {
+constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* const& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__concurrentStore() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____concurrentStore;
 }
@@ -24,18 +23,13 @@ template <typename TKey, typename TValue> constexpr ::System::Func_2<TKey, TValu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
-template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, TValue>*> const& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__creator() const {
+template <typename TKey, typename TValue> constexpr ::System::Func_2<TKey, TValue>* const& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_get__creator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____creator;
 }
 template <typename TKey, typename TValue> constexpr void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__cordl_internal_set__creator(::System::Func_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____creator, value);
-}
-template <typename TKey, typename TValue>
-inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::New_ctor(::System::Func_2<TKey, TValue>* creator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>*>(creator));
 }
 template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::_ctor(::System::Func_2<TKey, TValue>* creator) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,6 +42,10 @@ template <typename TKey, typename TValue> inline TValue Newtonsoft::Json::Utilit
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>*>::get(), "Get",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, key);
+}
+template <typename TKey, typename TValue>
+inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::New_ctor(::System::Func_2<TKey, TValue>* creator) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>*>(creator));
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::ThreadSafeStore_2() {}

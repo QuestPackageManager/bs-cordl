@@ -3,24 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightGroupSO)
-namespace GlobalNamespace {
-class ILightGroup;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LightGroupSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightGroupSO);
-// Type: ::LightGroupSO
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ILightGroup, PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LightGroupSO*
+// CS Name: LightGroupSO
 class CORDL_TYPE LightGroupSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -104,25 +101,25 @@ public:
 
   constexpr void __cordl_internal_set__startLightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x398a878, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e1248, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupId, addr 0x398a850, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_groupId, addr 0x39e1220, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_groupId();
 
-  /// @brief Method get_groupName, addr 0x398a848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x39e1218, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_groupName();
 
-  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x398a870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x39e1240, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method get_numberOfElements, addr 0x398a860, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfElements, addr 0x39e1230, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_sameIdElements, addr 0x398a868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sameIdElements, addr 0x39e1238, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_startLightId, addr 0x398a858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startLightId, addr 0x39e1228, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
   /// @brief Convert to "::GlobalNamespace::ILightGroup"
@@ -141,6 +138,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LightGroupSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LightGroupSO(LightGroupSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16290 };
 
   /// @brief Field _groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____groupName;
@@ -163,14 +163,9 @@ public:
   /// @brief Field _ignoreLightGroupEffectManager, offset: 0x38, size: 0x1, def value: None
   bool ____ignoreLightGroupEffectManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16255 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupSO, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupName) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____groupDescription) == 0x20, "Offset mismatch!");
@@ -184,6 +179,8 @@ static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____numberOfElements) ==
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____sameIdElements) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LightGroupSO, ____ignoreLightGroupEffectManager) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightGroupSO, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightGroupSO);

@@ -12,20 +12,19 @@ class Asn1Null;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Null);
-// Type: Org.BouncyCastle.Asn1::Asn1Null
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1Null*
+// CS Name: Org.BouncyCastle.Asn1.Asn1Null
 class CORDL_TYPE Asn1Null : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* New_ctor();
 
-  /// @brief Method ToString, addr 0x25f9234, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x262c520, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x25f922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262c518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,11 +12,10 @@ class EventSourceAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventSourceAttribute);
-// Type: System.Diagnostics.Tracing::EventSourceAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// CS Name: ::System.Diagnostics.Tracing::EventSourceAttribute*
+// CS Name: System.Diagnostics.Tracing.EventSourceAttribute
 class CORDL_TYPE EventSourceAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d572e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3db7458, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Guid, addr 0x3d572d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x3db7448, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name, addr 0x3d572dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x3db7450, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventSourceAttribute(EventSourceAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };
+
   /// @brief Field <Guid>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Guid_k__BackingField;
 
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventSourceAttribute, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Diagnostics::Tracing::EventSourceAttribute, ____Guid_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Diagnostics::Tracing::EventSourceAttribute, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::EventSourceAttribute, 0x20>, "Size mismatch!");
 
 } // namespace System::Diagnostics::Tracing
 NEED_NO_BOX(::System::Diagnostics::Tracing::EventSourceAttribute);

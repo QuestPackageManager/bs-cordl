@@ -16,11 +16,10 @@ class CrossAppDomainData;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainData);
-// Type: System.Runtime.Remoting.Channels::CrossAppDomainData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainData*
+// CS Name: System.Runtime.Remoting.Channels.CrossAppDomainData
 class CORDL_TYPE CrossAppDomainData : public ::System::Object {
 public:
   // Declarations
@@ -39,9 +38,9 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 
-  constexpr ::System::Object*& __cordl_internal_get__ContextID();
+  constexpr ::System::Object* const& __cordl_internal_get__ContextID() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__ContextID() const;
+  constexpr ::System::Object*& __cordl_internal_get__ContextID();
 
   constexpr int32_t const& __cordl_internal_get__DomainID() const;
 
@@ -57,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c815bc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ce1730, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x3c81664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x3ce17d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x3c8166c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x3ce17e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
 protected:
@@ -80,6 +79,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CrossAppDomainData(CrossAppDomainData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3114 };
+
   /// @brief Field _ContextID, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____ContextID;
 
@@ -89,19 +91,16 @@ public:
   /// @brief Field _processGuid, offset: 0x20, size: 0x8, def value: None
   ::StringW ____processGuid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3114 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::CrossAppDomainData, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____ContextID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____DomainID) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Channels::CrossAppDomainData, ____processGuid) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::CrossAppDomainData, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::CrossAppDomainData);

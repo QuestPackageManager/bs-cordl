@@ -11,11 +11,10 @@ class CustomRenderTexture;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CustomRenderTexture);
-// Type: UnityEngine::CustomRenderTexture
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.RenderTexture
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::CustomRenderTexture*
+// CS Name: UnityEngine.CustomRenderTexture
 class CORDL_TYPE CustomRenderTexture : public ::UnityEngine::RenderTexture {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   CustomRenderTexture(CustomRenderTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10794 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

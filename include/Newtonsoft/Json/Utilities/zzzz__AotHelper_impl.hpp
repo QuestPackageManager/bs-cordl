@@ -4,110 +4,109 @@
 #include "Newtonsoft/Json/Utilities/zzzz__AotHelper_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__AotHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>(value));
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>(value));
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get>();
+template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::setStaticF___9__1_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get>(
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::setStaticF___9__1_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get>(
       std::forward<::System::Action*>(value));
 }
-template <typename T> inline ::System::Action* Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::getStaticF___9__1_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get>();
+template <typename T> inline ::System::Action* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::getStaticF___9__1_0() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__1_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get>();
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>* Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get(),
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::_EnsureType_b__1_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>*>::get(),
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::_EnsureType_b__1_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>::get(),
                                                                              "<EnsureType>b__1_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__AotHelper____c__1_1<T>::__AotHelper____c__1_1() {}
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>(value));
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::AotHelper___c__1_1<T>::AotHelper___c__1_1() {}
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>(value));
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get>();
+template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get>();
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::setStaticF___9__2_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get>(
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::setStaticF___9__2_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get>(
       std::forward<::System::Action*>(value));
 }
-template <typename T> inline ::System::Action* Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::getStaticF___9__2_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get>();
+template <typename T> inline ::System::Action* Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::getStaticF___9__2_0() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__2_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get>();
 }
-template <typename T> inline ::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>* Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>());
-}
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get(),
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::_EnsureList_b__2_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>*>::get(),
+template <typename T> inline void Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::_EnsureList_b__2_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>::get(),
                                                                              "<EnsureList>b__2_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>* Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::Newtonsoft::Json::Utilities::__AotHelper____c__2_1<T>::__AotHelper____c__2_1() {}
+template <typename T> constexpr ::Newtonsoft::Json::Utilities::AotHelper___c__2_1<T>::AotHelper___c__2_1() {}
 template <typename TKey, typename TValue>
-inline void Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::setStaticF___9(::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* value) {
-  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get>(
-      std::forward<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>(value));
+inline void Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::setStaticF___9(::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>* value) {
+  ::cordl_internals::setStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get>(
+      std::forward<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>(value));
 }
-template <typename TKey, typename TValue>
-inline ::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get>();
+template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>* Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get>();
 }
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::setStaticF___9__3_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get>(
+template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::setStaticF___9__3_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get>(
       std::forward<::System::Action*>(value));
 }
-template <typename TKey, typename TValue> inline ::System::Action* Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::getStaticF___9__3_0() {
+template <typename TKey, typename TValue> inline ::System::Action* Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::getStaticF___9__3_0() {
   return ::cordl_internals::getStaticField<::System::Action*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get>();
 }
-template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>* Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>());
-}
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::_ctor() {
+template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::_EnsureDictionary_b__3_0() {
+template <typename TKey, typename TValue> inline void Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::_EnsureDictionary_b__3_0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>::get(),
                                                "<EnsureDictionary>b__3_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TKey, typename TValue> inline ::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>* Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>*>());
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::__AotHelper____c__3_2<TKey, TValue>::__AotHelper____c__3_2() {}
+template <typename TKey, typename TValue> constexpr ::Newtonsoft::Json::Utilities::AotHelper___c__3_2<TKey, TValue>::AotHelper___c__3_2() {}
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::AotHelper.Ensure
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Newtonsoft::Json::Utilities::AotHelper::Ensure)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3e5c270;
+  constexpr static std::size_t addrs = 0x3ebc31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Newtonsoft::Json::Utilities::AotHelper::IsFalse)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e5c3d4;
+  constexpr static std::size_t addrs = 0x3ebc480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::AotHelper*>::get(), "IsFalse",

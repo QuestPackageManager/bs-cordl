@@ -27,29 +27,28 @@ class X509SignatureUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509SignatureUtilities);
-// Type: Org.BouncyCastle.X509::X509SignatureUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::X509SignatureUtilities*
+// CS Name: Org.BouncyCastle.X509.X509SignatureUtilities
 class CORDL_TYPE X509SignatureUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field derNull, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_derNull, put = setStaticF_derNull)) ::Org::BouncyCastle::Asn1::Asn1Null* derNull;
+  __declspec(property(get = getStaticF_derNull, put = setStaticF_derNull)) ::Org::BouncyCastle::Asn1::Asn1Null* derNull;
 
-  /// @brief Method GetDigestAlgName, addr 0x25c399c, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x25f6c88, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
-  /// @brief Method GetSignatureName, addr 0x25bc064, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureName, addr 0x25ef350, size 0x2ec, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
   static inline ::Org::BouncyCastle::X509::X509SignatureUtilities* New_ctor();
 
-  /// @brief Method SetSignatureParameters, addr 0x25c3920, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureParameters, addr 0x25f6c0c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner* signature, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x25c3d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f7070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull();

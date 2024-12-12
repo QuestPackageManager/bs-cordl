@@ -27,11 +27,10 @@ class SaberClashEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SaberClashEffect);
-// Type: ::SaberClashEffect
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.ParticleSystem::EmissionModule
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SaberClashEffect*
+// CS Name: SaberClashEffect
 class CORDL_TYPE SaberClashEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -43,7 +42,7 @@ public:
 
   /// @brief Field _glowParticleSystemEmmisionModule, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__glowParticleSystemEmmisionModule,
-                      put = __cordl_internal_set__glowParticleSystemEmmisionModule)) ::UnityEngine::__ParticleSystem__EmissionModule _glowParticleSystemEmmisionModule;
+                      put = __cordl_internal_set__glowParticleSystemEmmisionModule)) ::UnityEngine::ParticleSystem_EmissionModule _glowParticleSystemEmmisionModule;
 
   /// @brief Field _hapticFeedbackController, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__hapticFeedbackController, put = __cordl_internal_set__hapticFeedbackController)) ::UnityW<::GlobalNamespace::HapticFeedbackManager>
@@ -63,30 +62,30 @@ public:
 
   /// @brief Field _sparkleParticleSystemEmmisionModule, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__sparkleParticleSystemEmmisionModule,
-                      put = __cordl_internal_set__sparkleParticleSystemEmmisionModule)) ::UnityEngine::__ParticleSystem__EmissionModule _sparkleParticleSystemEmmisionModule;
+                      put = __cordl_internal_set__sparkleParticleSystemEmmisionModule)) ::UnityEngine::ParticleSystem_EmissionModule _sparkleParticleSystemEmmisionModule;
 
-  /// @brief Method LateUpdate, addr 0x3b34518, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3b95a5c, size 0x10c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberClashEffect* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b34508, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b95a4c, size 0x10, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x3b34360, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b958a4, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__glowParticleSystem() const;
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__glowParticleSystem();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __cordl_internal_get__glowParticleSystemEmmisionModule() const;
+  constexpr ::UnityEngine::ParticleSystem_EmissionModule const& __cordl_internal_get__glowParticleSystemEmmisionModule() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __cordl_internal_get__glowParticleSystemEmmisionModule();
+  constexpr ::UnityEngine::ParticleSystem_EmissionModule& __cordl_internal_get__glowParticleSystemEmmisionModule();
 
   constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackController() const;
 
@@ -96,9 +95,9 @@ public:
 
   constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__rumblePreset();
 
-  constexpr ::GlobalNamespace::SaberClashChecker*& __cordl_internal_get__saberClashChecker();
+  constexpr ::GlobalNamespace::SaberClashChecker* const& __cordl_internal_get__saberClashChecker() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberClashChecker*> const& __cordl_internal_get__saberClashChecker() const;
+  constexpr ::GlobalNamespace::SaberClashChecker*& __cordl_internal_get__saberClashChecker();
 
   constexpr bool const& __cordl_internal_get__sabersAreClashing() const;
 
@@ -108,15 +107,15 @@ public:
 
   constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__sparkleParticleSystem();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& __cordl_internal_get__sparkleParticleSystemEmmisionModule() const;
+  constexpr ::UnityEngine::ParticleSystem_EmissionModule const& __cordl_internal_get__sparkleParticleSystemEmmisionModule() const;
 
-  constexpr ::UnityEngine::__ParticleSystem__EmissionModule& __cordl_internal_get__sparkleParticleSystemEmmisionModule();
+  constexpr ::UnityEngine::ParticleSystem_EmissionModule& __cordl_internal_get__sparkleParticleSystemEmmisionModule();
 
   constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
   constexpr void __cordl_internal_set__glowParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr void __cordl_internal_set__glowParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
+  constexpr void __cordl_internal_set__glowParticleSystemEmmisionModule(::UnityEngine::ParticleSystem_EmissionModule value);
 
   constexpr void __cordl_internal_set__hapticFeedbackController(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
@@ -128,9 +127,9 @@ public:
 
   constexpr void __cordl_internal_set__sparkleParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr void __cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::__ParticleSystem__EmissionModule value);
+  constexpr void __cordl_internal_set__sparkleParticleSystemEmmisionModule(::UnityEngine::ParticleSystem_EmissionModule value);
 
-  /// @brief Method .ctor, addr 0x3b34624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b95b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -146,6 +145,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "SaberClashEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   SaberClashEffect(SaberClashEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4337 };
 
   /// @brief Field _sparkleParticleSystem, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____sparkleParticleSystem;
@@ -166,22 +168,17 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field _sparkleParticleSystemEmmisionModule, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::__ParticleSystem__EmissionModule ____sparkleParticleSystemEmmisionModule;
+  ::UnityEngine::ParticleSystem_EmissionModule ____sparkleParticleSystemEmmisionModule;
 
   /// @brief Field _glowParticleSystemEmmisionModule, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::__ParticleSystem__EmissionModule ____glowParticleSystemEmmisionModule;
+  ::UnityEngine::ParticleSystem_EmissionModule ____glowParticleSystemEmmisionModule;
 
   /// @brief Field _sabersAreClashing, offset: 0x60, size: 0x1, def value: None
   bool ____sabersAreClashing;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4326 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberClashEffect, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sparkleParticleSystem) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____glowParticleSystem) == 0x28, "Offset mismatch!");
@@ -199,6 +196,8 @@ static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sparkleParticleS
 static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____glowParticleSystemEmmisionModule) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SaberClashEffect, ____sabersAreClashing) == 0x60, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberClashEffect, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberClashEffect);

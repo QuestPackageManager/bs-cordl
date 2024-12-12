@@ -11,17 +11,16 @@ class ViveLighthouse;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::OpenVR::ViveLighthouse);
-// Type: Unity.XR.OpenVR::ViveLighthouse
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// CS Name: ::Unity.XR.OpenVR::ViveLighthouse*
+// CS Name: Unity.XR.OpenVR.ViveLighthouse
 class CORDL_TYPE ViveLighthouse : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
   static inline ::Unity::XR::OpenVR::ViveLighthouse* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44d9624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x453a938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   ViveLighthouse(ViveLighthouse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6519 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

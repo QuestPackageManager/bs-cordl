@@ -29,11 +29,10 @@ class IssuerAndSerialNumber;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber);
-// Type: Org.BouncyCastle.Asn1.Cms::IssuerAndSerialNumber
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Cms::IssuerAndSerialNumber*
+// CS Name: Org.BouncyCastle.Asn1.Cms.IssuerAndSerialNumber
 class CORDL_TYPE IssuerAndSerialNumber : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
   /// @brief Field serialNumber, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
-  /// @brief Method GetInstance, addr 0x22d1eb0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x230519c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
@@ -56,34 +55,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22d2124, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2305410, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name* const& __cordl_internal_get_name() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_name() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_serialNumber() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_serialNumber();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_serialNumber() const;
 
   constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
   constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x22d20e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23053d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x22d206c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2305358, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name, ::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method .ctor, addr 0x22d1f54, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2305240, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Name, addr 0x22d2114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2305400, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
 
-  /// @brief Method get_SerialNumber, addr 0x22d211c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x2305408, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
 protected:
@@ -100,23 +99,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   IssuerAndSerialNumber(IssuerAndSerialNumber const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 74 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Name* ___name;
 
   /// @brief Field serialNumber, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::DerInteger* ___serialNumber;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 74 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber, ___serialNumber) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber);

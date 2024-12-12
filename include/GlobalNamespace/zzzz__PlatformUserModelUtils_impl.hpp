@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::PlatformUserModelUtils::ValidateXPlatformAccessToken)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401dee8;
+  constexpr static std::size_t addrs = 0x407f1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

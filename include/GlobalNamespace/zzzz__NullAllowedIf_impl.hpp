@@ -9,16 +9,16 @@
 //  Writing Method size for method: ::GlobalNamespace::NullAllowedIf._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(::StringW, ::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(::StringW, ::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(
     &::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2269944;
+  constexpr static std::size_t addrs = 0x229c198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullAllowedIf*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
     return ___internal_method;
   }
 };
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(
-    ::StringW, ::GlobalNamespace::ComparisonOperation, ::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(&::GlobalNamespace::NullAllowedIf::_ctor)> {
+    ::StringW, ::GlobalNamespace::ComparisonOperation, ::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(&::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2269984;
+  constexpr static std::size_t addrs = 0x229c1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,23 +36,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ComparisonOperation>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NullAllowedIf.IsNullAllowedFor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NullAllowedIf::*)(::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NullAllowedIf::*)(::System::Object*, ::GlobalNamespace::NullAllowed_Context)>(
     &::GlobalNamespace::NullAllowedIf::IsNullAllowedFor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x22699c8;
+  constexpr static std::size_t addrs = 0x229c21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullAllowedIf*>::get(), "IsNullAllowedFor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
     return ___internal_method;
   }
 };
@@ -72,7 +72,7 @@ constexpr ::System::Object*& GlobalNamespace::NullAllowedIf::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueToCompare;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::NullAllowedIf::__cordl_internal_get__valueToCompare() const {
+constexpr ::System::Object* const& GlobalNamespace::NullAllowedIf::__cordl_internal_get__valueToCompare() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____valueToCompare;
 }
@@ -92,40 +92,36 @@ constexpr void GlobalNamespace::NullAllowedIf::__cordl_internal_set__comparisonO
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____comparisonOperation = value;
 }
-/// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-inline ::GlobalNamespace::NullAllowedIf* GlobalNamespace::NullAllowedIf::New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NullAllowedIf*>(propertyName, equalsTo, context));
-}
-/// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-inline void GlobalNamespace::NullAllowedIf::_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context) {
+inline void GlobalNamespace::NullAllowedIf::_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::NullAllowed_Context context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullAllowedIf*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, propertyName, equalsTo, context);
 }
-/// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
-inline ::GlobalNamespace::NullAllowedIf* GlobalNamespace::NullAllowedIf::New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
-                                                                                  ::GlobalNamespace::__NullAllowed__Context context) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NullAllowedIf*>(propertyName, comparisonOperation, valueToCompare, context));
-}
-/// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
 inline void GlobalNamespace::NullAllowedIf::_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
-                                                  ::GlobalNamespace::__NullAllowed__Context context) {
+                                                  ::GlobalNamespace::NullAllowed_Context context) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullAllowedIf*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ComparisonOperation>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, propertyName, comparisonOperation, valueToCompare, context);
 }
-inline bool GlobalNamespace::NullAllowedIf::IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::__NullAllowed__Context context) {
+inline bool GlobalNamespace::NullAllowedIf::IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::NullAllowed_Context context) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullAllowedIf*>::get(), "IsNullAllowedFor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NullAllowed__Context>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NullAllowed_Context>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, context);
+}
+inline ::GlobalNamespace::NullAllowedIf* GlobalNamespace::NullAllowedIf::New_ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::NullAllowed_Context context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NullAllowedIf*>(propertyName, equalsTo, context));
+}
+inline ::GlobalNamespace::NullAllowedIf* GlobalNamespace::NullAllowedIf::New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
+                                                                                  ::GlobalNamespace::NullAllowed_Context context) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NullAllowedIf*>(propertyName, comparisonOperation, valueToCompare, context));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NullAllowedIf::NullAllowedIf() {}

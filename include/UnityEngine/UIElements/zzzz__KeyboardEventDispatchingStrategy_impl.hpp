@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventDispatchingStrategy.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy.CanDispatchEvent
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49c2fdc;
+  constexpr static std::size_t addrs = 0x4a278ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x49c3030;
+  constexpr static std::size_t addrs = 0x4a27940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bcd1c;
+  constexpr static std::size_t addrs = 0x4a2162c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,14 +51,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
-constexpr UnityEngine::UIElements::KeyboardEventDispatchingStrategy::operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept {
-  return static_cast<::UnityEngine::UIElements::IEventDispatchingStrategy*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
-constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* UnityEngine::UIElements::KeyboardEventDispatchingStrategy::i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept {
-  return static_cast<::UnityEngine::UIElements::IEventDispatchingStrategy*>(static_cast<void*>(this));
-}
 inline bool UnityEngine::UIElements::KeyboardEventDispatchingStrategy::CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventDispatchingStrategy*>::get(), "CanDispatchEvent", std::span<Il2CppClass const* const, 0>(),
@@ -72,14 +64,22 @@ inline void UnityEngine::UIElements::KeyboardEventDispatchingStrategy::DispatchE
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPanel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, panel);
 }
-inline ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy* UnityEngine::UIElements::KeyboardEventDispatchingStrategy::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::KeyboardEventDispatchingStrategy*>());
-}
 inline void UnityEngine::UIElements::KeyboardEventDispatchingStrategy::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventDispatchingStrategy*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy* UnityEngine::UIElements::KeyboardEventDispatchingStrategy::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::KeyboardEventDispatchingStrategy*>());
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+constexpr UnityEngine::UIElements::KeyboardEventDispatchingStrategy::operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEventDispatchingStrategy*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
+constexpr ::UnityEngine::UIElements::IEventDispatchingStrategy* UnityEngine::UIElements::KeyboardEventDispatchingStrategy::i___UnityEngine__UIElements__IEventDispatchingStrategy() noexcept {
+  return static_cast<::UnityEngine::UIElements::IEventDispatchingStrategy*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy::KeyboardEventDispatchingStrategy() {}

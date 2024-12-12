@@ -4,12 +4,10 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IEventDispatchingStrategy_def.hpp"
 CORDL_MODULE_EXPORT(KeyboardEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
 class EventBase;
-}
-namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
@@ -20,26 +18,25 @@ class KeyboardEventDispatchingStrategy;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardEventDispatchingStrategy);
-// Type: UnityEngine.UIElements::KeyboardEventDispatchingStrategy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.IEventDispatchingStrategy
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::KeyboardEventDispatchingStrategy*
+// CS Name: UnityEngine.UIElements.KeyboardEventDispatchingStrategy
 class CORDL_TYPE KeyboardEventDispatchingStrategy : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent, addr 0x49c2fdc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method CanDispatchEvent, addr 0x4a278ec, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent, addr 0x49c3030, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method DispatchEvent, addr 0x4a27940, size 0x270, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::KeyboardEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49bcd1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a2162c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IEventDispatchingStrategy"
@@ -60,7 +57,7 @@ public:
   KeyboardEventDispatchingStrategy(KeyboardEventDispatchingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

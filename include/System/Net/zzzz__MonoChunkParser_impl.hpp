@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Net/MonoChunkParser.hpp"
-#include "System/Net/zzzz__MonoChunkParser_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__MonoChunkParser_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -8,96 +7,96 @@
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::Net::__MonoChunkParser__State::__MonoChunkParser__State(int32_t value__) noexcept {
+constexpr ::System::Net::MonoChunkParser_State::MonoChunkParser_State(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::Net::__MonoChunkParser__State::__MonoChunkParser__State() {}
-constexpr ::System::Net::__MonoChunkParser__State System::Net::__MonoChunkParser__State::None{ static_cast<int32_t>(0x0) };
-constexpr ::System::Net::__MonoChunkParser__State System::Net::__MonoChunkParser__State::PartialSize{ static_cast<int32_t>(0x1) };
-constexpr ::System::Net::__MonoChunkParser__State System::Net::__MonoChunkParser__State::Body{ static_cast<int32_t>(0x2) };
-constexpr ::System::Net::__MonoChunkParser__State System::Net::__MonoChunkParser__State::BodyFinished{ static_cast<int32_t>(0x3) };
-constexpr ::System::Net::__MonoChunkParser__State System::Net::__MonoChunkParser__State::Trailer{ static_cast<int32_t>(0x4) };
-//  Writing Method size for method: ::System::Net::__MonoChunkParser__Chunk._ctor
+constexpr ::System::Net::MonoChunkParser_State::MonoChunkParser_State() {}
+constexpr ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser_State::None{ static_cast<int32_t>(0x0) };
+constexpr ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser_State::PartialSize{ static_cast<int32_t>(0x1) };
+constexpr ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser_State::Body{ static_cast<int32_t>(0x2) };
+constexpr ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser_State::BodyFinished{ static_cast<int32_t>(0x3) };
+constexpr ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser_State::Trailer{ static_cast<int32_t>(0x4) };
+//  Writing Method size for method: ::System::Net::MonoChunkParser_Chunk._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__MonoChunkParser__Chunk::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
-    &::System::Net::__MonoChunkParser__Chunk::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::MonoChunkParser_Chunk::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
+    &::System::Net::MonoChunkParser_Chunk::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x436fdc8;
+  constexpr static std::size_t addrs = 0x43d10dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkParser__Chunk*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser_Chunk*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::__MonoChunkParser__Chunk.Read
+//  Writing Method size for method: ::System::Net::MonoChunkParser_Chunk.Read
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::__MonoChunkParser__Chunk::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
-    &::System::Net::__MonoChunkParser__Chunk::Read)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::MonoChunkParser_Chunk::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
+    &::System::Net::MonoChunkParser_Chunk::Read)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x436f2f8;
+  constexpr static std::size_t addrs = 0x43d060c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkParser__Chunk*>::get(), "Read", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser_Chunk*>::get(), "Read", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::__MonoChunkParser__Chunk::__cordl_internal_get_Bytes() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Net::MonoChunkParser_Chunk::__cordl_internal_get_Bytes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Bytes;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::__MonoChunkParser__Chunk::__cordl_internal_get_Bytes() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Net::MonoChunkParser_Chunk::__cordl_internal_get_Bytes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Bytes;
 }
-constexpr void System::Net::__MonoChunkParser__Chunk::__cordl_internal_set_Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void System::Net::MonoChunkParser_Chunk::__cordl_internal_set_Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Bytes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Net::__MonoChunkParser__Chunk::__cordl_internal_get_Offset() {
+constexpr int32_t& System::Net::MonoChunkParser_Chunk::__cordl_internal_get_Offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Offset;
 }
-constexpr int32_t const& System::Net::__MonoChunkParser__Chunk::__cordl_internal_get_Offset() const {
+constexpr int32_t const& System::Net::MonoChunkParser_Chunk::__cordl_internal_get_Offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Offset;
 }
-constexpr void System::Net::__MonoChunkParser__Chunk::__cordl_internal_set_Offset(int32_t value) {
+constexpr void System::Net::MonoChunkParser_Chunk::__cordl_internal_set_Offset(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Offset = value;
 }
-inline ::System::Net::__MonoChunkParser__Chunk* System::Net::__MonoChunkParser__Chunk::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::__MonoChunkParser__Chunk*>(chunk));
-}
-inline void System::Net::__MonoChunkParser__Chunk::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkParser__Chunk*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+inline void System::Net::MonoChunkParser_Chunk::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser_Chunk*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, chunk);
 }
-inline int32_t System::Net::__MonoChunkParser__Chunk::Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
+inline int32_t System::Net::MonoChunkParser_Chunk::Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkParser__Chunk*>::get(), "Read", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser_Chunk*>::get(), "Read", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buffer, offset, size);
 }
+inline ::System::Net::MonoChunkParser_Chunk* System::Net::MonoChunkParser_Chunk::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::MonoChunkParser_Chunk*>(chunk));
+}
 // Ctor Parameters []
-constexpr ::System::Net::__MonoChunkParser__Chunk::__MonoChunkParser__Chunk() {}
+constexpr ::System::Net::MonoChunkParser_Chunk::MonoChunkParser_Chunk() {}
 //  Writing Method size for method: ::System::Net::MonoChunkParser._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::MonoChunkParser::*)(::System::Net::WebHeaderCollection*)>(
     &::System::Net::MonoChunkParser::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x436ef30;
+  constexpr static std::size_t addrs = 0x43d0244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::MonoChunkParser::Read)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x436efdc;
+  constexpr static std::size_t addrs = 0x43d02f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::MonoChunkParser::ReadFromChunks)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x436efe0;
+  constexpr static std::size_t addrs = 0x43d02f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::MonoChunkParser::Write)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x436f358;
+  constexpr static std::size_t addrs = 0x43d066c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,16 +156,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::MonoChunkParser.InternalWrite
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(
     &::System::Net::MonoChunkParser::InternalWrite)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x436f378;
+  constexpr static std::size_t addrs = 0x43d068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "InternalWrite", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -175,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_WantMore)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x436fc98;
+  constexpr static std::size_t addrs = 0x43d0fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "get_WantMore",
@@ -188,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_DataAvailable)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x436fcbc;
+  constexpr static std::size_t addrs = 0x43d0fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "get_DataAvailable",
@@ -201,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::MonoChunkParser::*)()>(&::System::Net::MonoChunkParser::get_ChunkLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x436fdbc;
+  constexpr static std::size_t addrs = 0x43d10d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "get_ChunkLeft",
@@ -212,32 +211,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::MonoChunkParser.ReadBody
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__MonoChunkParser__State (::System::Net::MonoChunkParser::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadBody)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadBody)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x436f7ac;
+  constexpr static std::size_t addrs = 0x43d0ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadBody", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::MonoChunkParser.GetChunkSize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__MonoChunkParser__State (::System::Net::MonoChunkParser::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::GetChunkSize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::GetChunkSize)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x436f4b4;
+  constexpr static std::size_t addrs = 0x43d07c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "GetChunkSize", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -246,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::MonoChunkParser::RemoveChunkExtension)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x436fe40;
+  constexpr static std::size_t addrs = 0x43d1154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,32 +257,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::MonoChunkParser.ReadCRLF
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__MonoChunkParser__State (::System::Net::MonoChunkParser::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadCRLF)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadCRLF)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x436f8e0;
+  constexpr static std::size_t addrs = 0x43d0bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadCRLF", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::MonoChunkParser.ReadTrailer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::__MonoChunkParser__State (::System::Net::MonoChunkParser::*)(
-    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadTrailer)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::MonoChunkParser_State (::System::Net::MonoChunkParser::*)(
+    ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, int32_t)>(&::System::Net::MonoChunkParser::ReadTrailer)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x436f9e0;
+  constexpr static std::size_t addrs = 0x43d0cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadTrailer", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -292,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::MonoChunkParser::ThrowProtocolViolation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x436fdf0;
+  constexpr static std::size_t addrs = 0x43d1104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +304,7 @@ constexpr ::System::Net::WebHeaderCollection*& System::Net::MonoChunkParser::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& System::Net::MonoChunkParser::__cordl_internal_get_headers() const {
+constexpr ::System::Net::WebHeaderCollection* const& System::Net::MonoChunkParser::__cordl_internal_get_headers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___headers;
 }
@@ -349,15 +348,15 @@ constexpr void System::Net::MonoChunkParser::__cordl_internal_set_totalWritten(i
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___totalWritten = value;
 }
-constexpr ::System::Net::__MonoChunkParser__State& System::Net::MonoChunkParser::__cordl_internal_get_state() {
+constexpr ::System::Net::MonoChunkParser_State& System::Net::MonoChunkParser::__cordl_internal_get_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::System::Net::__MonoChunkParser__State const& System::Net::MonoChunkParser::__cordl_internal_get_state() const {
+constexpr ::System::Net::MonoChunkParser_State const& System::Net::MonoChunkParser::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr void System::Net::MonoChunkParser::__cordl_internal_set_state(::System::Net::__MonoChunkParser__State value) {
+constexpr void System::Net::MonoChunkParser::__cordl_internal_set_state(::System::Net::MonoChunkParser_State value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
@@ -365,7 +364,7 @@ constexpr ::System::Text::StringBuilder*& System::Net::MonoChunkParser::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saved;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& System::Net::MonoChunkParser::__cordl_internal_get_saved() const {
+constexpr ::System::Text::StringBuilder* const& System::Net::MonoChunkParser::__cordl_internal_get_saved() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saved;
 }
@@ -413,16 +412,13 @@ constexpr ::System::Collections::ArrayList*& System::Net::MonoChunkParser::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunks;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Net::MonoChunkParser::__cordl_internal_get_chunks() const {
+constexpr ::System::Collections::ArrayList* const& System::Net::MonoChunkParser::__cordl_internal_get_chunks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chunks;
 }
 constexpr void System::Net::MonoChunkParser::__cordl_internal_set_chunks(::System::Collections::ArrayList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chunks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Net::MonoChunkParser* System::Net::MonoChunkParser::New_ctor(::System::Net::WebHeaderCollection* headers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::MonoChunkParser*>(headers));
 }
 inline void System::Net::MonoChunkParser::_ctor(::System::Net::WebHeaderCollection* headers) {
   static auto* ___internal_method =
@@ -451,11 +447,11 @@ inline void System::Net::MonoChunkParser::Write(::ArrayW<uint8_t, ::Array<uint8_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, offset, size);
 }
-inline void System::Net::MonoChunkParser::InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size) {
+inline void System::Net::MonoChunkParser::InternalWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "InternalWrite", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, offset, size);
 }
 inline bool System::Net::MonoChunkParser::get_WantMore() {
@@ -473,19 +469,19 @@ inline int32_t System::Net::MonoChunkParser::get_ChunkLeft() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Net::__MonoChunkParser__State System::Net::MonoChunkParser::ReadBody(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size) {
+inline ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser::ReadBody(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadBody", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::__MonoChunkParser__State, false>(this, ___internal_method, buffer, offset, size);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::MonoChunkParser_State, false>(this, ___internal_method, buffer, offset, size);
 }
-inline ::System::Net::__MonoChunkParser__State System::Net::MonoChunkParser::GetChunkSize(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size) {
+inline ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser::GetChunkSize(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "GetChunkSize", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::__MonoChunkParser__State, false>(this, ___internal_method, buffer, offset, size);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::MonoChunkParser_State, false>(this, ___internal_method, buffer, offset, size);
 }
 inline ::StringW System::Net::MonoChunkParser::RemoveChunkExtension(::StringW input) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -493,25 +489,28 @@ inline ::StringW System::Net::MonoChunkParser::RemoveChunkExtension(::StringW in
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, input);
 }
-inline ::System::Net::__MonoChunkParser__State System::Net::MonoChunkParser::ReadCRLF(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size) {
+inline ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser::ReadCRLF(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadCRLF", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::__MonoChunkParser__State, false>(this, ___internal_method, buffer, offset, size);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::MonoChunkParser_State, false>(this, ___internal_method, buffer, offset, size);
 }
-inline ::System::Net::__MonoChunkParser__State System::Net::MonoChunkParser::ReadTrailer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> offset, int32_t size) {
+inline ::System::Net::MonoChunkParser_State System::Net::MonoChunkParser::ReadTrailer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ByRef<int32_t> offset, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ReadTrailer", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::__MonoChunkParser__State, false>(this, ___internal_method, buffer, offset, size);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Net::MonoChunkParser_State, false>(this, ___internal_method, buffer, offset, size);
 }
 inline void System::Net::MonoChunkParser::ThrowProtocolViolation(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkParser*>::get(), "ThrowProtocolViolation", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
+}
+inline ::System::Net::MonoChunkParser* System::Net::MonoChunkParser::New_ctor(::System::Net::WebHeaderCollection* headers) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::MonoChunkParser*>(headers));
 }
 // Ctor Parameters []
 constexpr ::System::Net::MonoChunkParser::MonoChunkParser() {}

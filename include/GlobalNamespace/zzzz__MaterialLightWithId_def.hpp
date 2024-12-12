@@ -24,11 +24,10 @@ class MaterialLightWithId;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialLightWithId);
-// Type: ::MaterialLightWithId
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightWithIdMonoBehaviour, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialLightWithId*
+// CS Name: MaterialLightWithId
 class CORDL_TYPE MaterialLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
@@ -51,7 +50,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorProperty, put = __cordl_internal_set__colorProperty)) ::StringW _colorProperty;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   /// @brief Field _meshRenderer, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
@@ -73,10 +72,10 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x398dd90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39e4760, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x398de10, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x39e47e0, size 0x188, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithId* New_ctor();
@@ -153,12 +152,12 @@ public:
 
   constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x398df98, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e4968, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_color, addr 0x398dd84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e4754, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -176,6 +175,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MaterialLightWithId", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialLightWithId(MaterialLightWithId const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16326 };
 
   /// @brief Field _meshRenderer, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
@@ -213,14 +215,9 @@ public:
   /// @brief Field _propertyId, offset: 0x70, size: 0x4, def value: None
   int32_t ____propertyId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16291 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialLightWithId, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____meshRenderer) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____setAlphaOnly) == 0x40, "Offset mismatch!");
@@ -244,6 +241,8 @@ static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____color) == 0x5
 static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____alpha) == 0x6c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MaterialLightWithId, ____propertyId) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialLightWithId, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialLightWithId);

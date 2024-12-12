@@ -19,11 +19,10 @@ class HEU_VolumeCachePreset;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
-// Type: HoudiniEngineUnity::HEU_VolumeCachePreset
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
+// CS Name: HoudiniEngineUnity.HEU_VolumeCachePreset
 class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
   // Declarations
@@ -68,9 +67,9 @@ public:
 
   constexpr bool& __cordl_internal_get__uiExpanded();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& __cordl_internal_get__volumeLayersPresets();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* const& __cordl_internal_get__volumeLayersPresets() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*> const& __cordl_internal_get__volumeLayersPresets() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>*& __cordl_internal_get__volumeLayersPresets();
 
   constexpr void __cordl_internal_set__geoName(::StringW value);
 
@@ -84,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeLayersPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeLayerPreset*>* value);
 
-  /// @brief Method .ctor, addr 0x39b002c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a06c9c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,6 +99,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeCachePreset", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_VolumeCachePreset(HEU_VolumeCachePreset const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11594 };
 
   /// @brief Field _objName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____objName;
@@ -119,14 +121,9 @@ public:
   /// @brief Field _tile, offset: 0x38, size: 0x4, def value: None
   int32_t ____tile;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11561 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeCachePreset, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____objName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____geoName) == 0x18, "Offset mismatch!");
@@ -138,6 +135,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____volumeLa
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____terrainDataPath) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_VolumeCachePreset, ____tile) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_VolumeCachePreset, 0x40>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeCachePreset);

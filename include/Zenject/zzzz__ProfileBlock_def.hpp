@@ -3,14 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProfileBlock)
 namespace System::Text::RegularExpressions {
 class Regex;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -21,49 +19,47 @@ class ProfileBlock;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ProfileBlock);
-// Type: Zenject::ProfileBlock
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ProfileBlock*
+// CS Name: Zenject.ProfileBlock
 class CORDL_TYPE ProfileBlock : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <ProfilePattern>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__ProfilePattern_k__BackingField,
-                             put = setStaticF__ProfilePattern_k__BackingField)) ::System::Text::RegularExpressions::Regex* _ProfilePattern_k__BackingField;
+  __declspec(property(get = getStaticF__ProfilePattern_k__BackingField, put = setStaticF__ProfilePattern_k__BackingField)) ::System::Text::RegularExpressions::Regex* _ProfilePattern_k__BackingField;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x4aed164, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x4b51a74, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName);
 
   static inline ::Zenject::ProfileBlock* New_ctor(::StringW sampleName, bool rootBlock);
 
-  /// @brief Method Start, addr 0x4aed144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b51a54, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start();
 
-  /// @brief Method Start, addr 0x4aed15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b51a6c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleName);
 
-  /// @brief Method Start, addr 0x4aed154, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b51a64, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj);
 
-  /// @brief Method Start, addr 0x4aed14c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4b51a5c, size 0x8, virtual false, abstract: false, final false
   static inline ::Zenject::ProfileBlock* Start(::StringW sampleNameFormat, ::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method .ctor, addr 0x4aed0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b519b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName);
 
-  /// @brief Method .ctor, addr 0x4aed0a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b519b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW sampleName, bool rootBlock);
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF__ProfilePattern_k__BackingField();
 
-  /// @brief Method get_ProfilePattern, addr 0x4aed0b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_ProfilePattern, addr 0x4b519c0, size 0x48, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_ProfilePattern();
 
   /// @brief Convert to "::System::IDisposable"
@@ -71,7 +67,7 @@ public:
 
   static inline void setStaticF__ProfilePattern_k__BackingField(::System::Text::RegularExpressions::Regex* value);
 
-  /// @brief Method set_ProfilePattern, addr 0x4aed0f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ProfilePattern, addr 0x4b51a08, size 0x4c, virtual false, abstract: false, final false
   static inline void set_ProfilePattern(::System::Text::RegularExpressions::Regex* value);
 
 protected:
@@ -89,7 +85,7 @@ public:
   ProfileBlock(ProfileBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12689 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

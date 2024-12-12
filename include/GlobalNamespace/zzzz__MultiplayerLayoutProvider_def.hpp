@@ -19,11 +19,10 @@ class MultiplayerLayoutProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLayoutProvider);
-// Type: ::MultiplayerLayoutProvider
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MultiplayerPlayerLayout, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerLayoutProvider*
+// CS Name: MultiplayerLayoutProvider
 class CORDL_TYPE MultiplayerLayoutProvider : public ::System::Object {
 public:
   // Declarations
@@ -42,7 +41,7 @@ public:
   __declspec(property(get = __cordl_internal_get_playersLayoutWasCalculatedEvent,
                       put = __cordl_internal_set_playersLayoutWasCalculatedEvent)) ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* playersLayoutWasCalculatedEvent;
 
-  /// @brief Method CalculateLayout, addr 0x3b71858, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayout, addr 0x3bd3340, size 0x5c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout CalculateLayout(int32_t activePlayersCount);
 
   static inline ::GlobalNamespace::MultiplayerLayoutProvider* New_ctor();
@@ -55,9 +54,9 @@ public:
 
   constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __cordl_internal_get__layout_k__BackingField();
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*& __cordl_internal_get_playersLayoutWasCalculatedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* const& __cordl_internal_get_playersLayoutWasCalculatedEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*> const& __cordl_internal_get_playersLayoutWasCalculatedEvent() const;
+  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>*& __cordl_internal_get_playersLayoutWasCalculatedEvent();
 
   constexpr void __cordl_internal_set__activePlayerSpotsCount_k__BackingField(int32_t value);
 
@@ -65,25 +64,25 @@ public:
 
   constexpr void __cordl_internal_set_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b718b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bd339c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x3b716f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_playersLayoutWasCalculatedEvent, addr 0x3bc9d9c, size 0xb0, virtual false, abstract: false, final false
   inline void add_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method get_activePlayerSpotsCount, addr 0x3b716e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activePlayerSpotsCount, addr 0x3bd3280, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_activePlayerSpotsCount();
 
-  /// @brief Method get_layout, addr 0x3b716d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x3bd3270, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerLayout get_layout();
 
-  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x3b717a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_playersLayoutWasCalculatedEvent, addr 0x3bd3290, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playersLayoutWasCalculatedEvent(::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* value);
 
-  /// @brief Method set_activePlayerSpotsCount, addr 0x3b716f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activePlayerSpotsCount, addr 0x3bd3288, size 0x8, virtual false, abstract: false, final false
   inline void set_activePlayerSpotsCount(int32_t value);
 
-  /// @brief Method set_layout, addr 0x3b716e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_layout, addr 0x3bd3278, size 0x8, virtual false, abstract: false, final false
   inline void set_layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerLayoutProvider(MultiplayerLayoutProvider const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4574 };
+
   /// @brief Field <layout>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerPlayerLayout ____layout_k__BackingField;
 
@@ -109,19 +111,16 @@ public:
   /// @brief Field playersLayoutWasCalculatedEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::MultiplayerPlayerLayout, int32_t>* ___playersLayoutWasCalculatedEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4562 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLayoutProvider, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerLayoutProvider, ____layout_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLayoutProvider, ____activePlayerSpotsCount_k__BackingField) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLayoutProvider, ___playersLayoutWasCalculatedEvent) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLayoutProvider, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLayoutProvider);

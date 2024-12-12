@@ -17,15 +17,14 @@ class RenderTextureExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RenderTextureExtensions);
-// Type: ::RenderTextureExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RenderTextureExtensions*
+// CS Name: RenderTextureExtensions
 class CORDL_TYPE RenderTextureExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture2D, addr 0x396b900, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetTexture2D, addr 0x39c0dec, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Texture2D> GetTexture2D(::UnityEngine::RenderTexture* rt);
 
 protected:
@@ -43,7 +42,7 @@ public:
   RenderTextureExtensions(RenderTextureExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16360 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16396 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

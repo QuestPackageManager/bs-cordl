@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::FieldByRefUpdater::*)(
     ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::System::Reflection::FieldInfo*, int32_t)>(&::System::Linq::Expressions::Interpreter::FieldByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4083354;
+  constexpr static std::size_t addrs = 0x40e4668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::FieldByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::FieldByRefUpdater::Update)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x408339c;
+  constexpr static std::size_t addrs = 0x40e46b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(
     &::System::Linq::Expressions::Interpreter::FieldByRefUpdater::UndefineTemps)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4083440;
+  constexpr static std::size_t addrs = 0x40e4754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,18 +77,13 @@ constexpr ::System::Reflection::FieldInfo*& System::Linq::Expressions::Interpret
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____field;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& System::Linq::Expressions::Interpreter::FieldByRefUpdater::__cordl_internal_get__field() const {
+constexpr ::System::Reflection::FieldInfo* const& System::Linq::Expressions::Interpreter::FieldByRefUpdater::__cordl_internal_get__field() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____field;
 }
 constexpr void System::Linq::Expressions::Interpreter::FieldByRefUpdater::__cordl_internal_set__field(::System::Reflection::FieldInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____field)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::FieldByRefUpdater*
-System::Linq::Expressions::Interpreter::FieldByRefUpdater::New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field,
-                                                                    int32_t argumentIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::FieldByRefUpdater*>(obj, field, argumentIndex));
 }
 inline void System::Linq::Expressions::Interpreter::FieldByRefUpdater::_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                                                                              ::System::Reflection::FieldInfo* field, int32_t argumentIndex) {
@@ -111,6 +106,11 @@ inline void System::Linq::Expressions::Interpreter::FieldByRefUpdater::UndefineT
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::FieldByRefUpdater*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instructions, locals);
+}
+inline ::System::Linq::Expressions::Interpreter::FieldByRefUpdater*
+System::Linq::Expressions::Interpreter::FieldByRefUpdater::New_ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj, ::System::Reflection::FieldInfo* field,
+                                                                    int32_t argumentIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::FieldByRefUpdater*>(obj, field, argumentIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::FieldByRefUpdater::FieldByRefUpdater() {}

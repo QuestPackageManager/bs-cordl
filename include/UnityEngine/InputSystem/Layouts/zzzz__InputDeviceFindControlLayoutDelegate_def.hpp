@@ -4,9 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceFindControlLayoutDelegate)
 namespace System {
 class AsyncCallback;
@@ -32,29 +30,28 @@ class InputDeviceFindControlLayoutDelegate;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate);
-// Type: UnityEngine.InputSystem.Layouts::InputDeviceFindControlLayoutDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceFindControlLayoutDelegate*
+// CS Name: UnityEngine.InputSystem.Layouts.InputDeviceFindControlLayoutDelegate
 class CORDL_TYPE InputDeviceFindControlLayoutDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x45b7094, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
+  /// @brief Method BeginInvoke, addr 0x46183a8, size 0xa0, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                              ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x45b7134, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW EndInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x4618448, size 0x1c, virtual true, abstract: false, final false
+  inline ::StringW EndInvoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x45b7080, size 0x14, virtual true, abstract: false, final false
-  inline ::StringW Invoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
+  /// @brief Method Invoke, addr 0x4618394, size 0x14, virtual true, abstract: false, final false
+  inline ::StringW Invoke(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                           ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x45b6fe0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46182f4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -72,7 +69,7 @@ public:
   InputDeviceFindControlLayoutDelegate(InputDeviceFindControlLayoutDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7000 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,11 +19,10 @@ class OneTimeLightColorEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OneTimeLightColorEffect);
-// Type: ::OneTimeLightColorEffect
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OneTimeLightColorEffect*
+// CS Name: OneTimeLightColorEffect
 class CORDL_TYPE OneTimeLightColorEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -41,7 +40,7 @@ public:
 
   static inline ::GlobalNamespace::OneTimeLightColorEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x3b201f4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b813a0, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__alpha() const;
@@ -68,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__lightsId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b20250, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b813fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OneTimeLightColorEffect(OneTimeLightColorEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4231 };
+
   /// @brief Field _color, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____color;
 
@@ -97,14 +99,9 @@ public:
   /// @brief Field _lightWithIdManager, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightWithIdManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OneTimeLightColorEffect, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____color) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____alpha) == 0x28, "Offset mismatch!");
@@ -112,6 +109,8 @@ static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____alpha) ==
 static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____lightsId) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OneTimeLightColorEffect, ____lightWithIdManager) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OneTimeLightColorEffect, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OneTimeLightColorEffect);

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(Converter_2)
 namespace System {
 struct IntPtr;
@@ -18,13 +17,12 @@ template <typename TInput, typename TOutput> class Converter_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Converter_2);
-// Type: System::Converter`2
-// SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System {
 // cpp template
 template <typename TInput, typename TOutput>
 // Is value type: false
-// CS Name: ::System::Converter`2<TInput,TOutput>*
+// CS Name: System.Converter`2<TInput,TOutput>
 class CORDL_TYPE Converter_2 : public ::System::MulticastDelegate {
 public:
   // Declarations

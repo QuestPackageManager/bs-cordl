@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthenticationTokenPlatformExtensions)
 namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+struct AuthenticationToken_Platform;
 }
 namespace GlobalNamespace {
-struct __UserInfo__Platform;
+struct UserInfo_Platform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,19 +17,18 @@ class AuthenticationTokenPlatformExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AuthenticationTokenPlatformExtensions);
-// Type: ::AuthenticationTokenPlatformExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AuthenticationTokenPlatformExtensions*
+// CS Name: AuthenticationTokenPlatformExtensions
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x401be94, size 0x28, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__AuthenticationToken__Platform ToAuthenticationTokenPlatform(::GlobalNamespace::__UserInfo__Platform platform);
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x407d14c, size 0x28, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::AuthenticationToken_Platform ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform platform);
 
-  /// @brief Method ToUserInfoPlatform, addr 0x401bebc, size 0x2c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::__UserInfo__Platform ToUserInfoPlatform(::GlobalNamespace::__AuthenticationToken__Platform platform);
+  /// @brief Method ToUserInfoPlatform, addr 0x407d174, size 0x2c, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::UserInfo_Platform ToUserInfoPlatform(::GlobalNamespace::AuthenticationToken_Platform platform);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +45,7 @@ public:
   AuthenticationTokenPlatformExtensions(AuthenticationTokenPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

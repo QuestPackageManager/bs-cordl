@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifconf.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifconf_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 constexpr int32_t& System::Net::NetworkInformation::AixStructs::ifconf::__cordl_internal_get_ifc_len() {
   return this->___ifc_len;
 }

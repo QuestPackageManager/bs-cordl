@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WNafPreCompInfo)
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -19,11 +16,10 @@ class WNafPreCompInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
-// Type: Org.BouncyCastle.Math.EC.Multiplier::WNafPreCompInfo
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo, System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::WNafPreCompInfo*
+// CS Name: Org.BouncyCastle.Math.EC.Multiplier.WNafPreCompInfo
 class CORDL_TYPE WNafPreCompInfo : public ::System::Object {
 public:
   // Declarations
@@ -65,7 +61,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
 
-  /// @brief Method DecrementPromotionCountdown, addr 0x24849a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DecrementPromotionCountdown, addr 0x24b7c94, size 0x38, virtual false, abstract: false, final false
   inline int32_t DecrementPromotionCountdown();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* New_ctor();
@@ -86,9 +82,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_promotionCountdown();
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_twice();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_m_twice() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_twice() const;
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_twice();
 
   constexpr int32_t const& __cordl_internal_get_m_width() const;
 
@@ -106,49 +102,49 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2484a88, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24b7d74, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ConfWidth, addr 0x2484a38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConfWidth, addr 0x24b7d24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConfWidth();
 
-  /// @brief Method get_IsPromoted, addr 0x2484a1c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_IsPromoted, addr 0x24b7d08, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsPromoted();
 
-  /// @brief Method get_PreComp, addr 0x2484a48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreComp, addr 0x24b7d34, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> get_PreComp();
 
-  /// @brief Method get_PreCompNeg, addr 0x2484a58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreCompNeg, addr 0x24b7d44, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> get_PreCompNeg();
 
-  /// @brief Method get_PromotionCountdown, addr 0x24849e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PromotionCountdown, addr 0x24b7ccc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_PromotionCountdown();
 
-  /// @brief Method get_Twice, addr 0x2484a68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Twice, addr 0x24b7d54, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
 
-  /// @brief Method get_Width, addr 0x2484a78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x24b7d64, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_ConfWidth, addr 0x2484a40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_ConfWidth, addr 0x24b7d2c, size 0x8, virtual true, abstract: false, final false
   inline void set_ConfWidth(int32_t value);
 
-  /// @brief Method set_PreComp, addr 0x2484a50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreComp, addr 0x24b7d3c, size 0x8, virtual true, abstract: false, final false
   inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  /// @brief Method set_PreCompNeg, addr 0x2484a60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreCompNeg, addr 0x24b7d4c, size 0x8, virtual true, abstract: false, final false
   inline void set_PreCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  /// @brief Method set_PromotionCountdown, addr 0x24849f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_PromotionCountdown, addr 0x24b7ce4, size 0x24, virtual false, abstract: false, final false
   inline void set_PromotionCountdown(int32_t value);
 
-  /// @brief Method set_Twice, addr 0x2484a70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Twice, addr 0x24b7d5c, size 0x8, virtual true, abstract: false, final false
   inline void set_Twice(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method set_Width, addr 0x2484a80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x24b7d6c, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
 protected:
@@ -164,6 +160,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "WNafPreCompInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   WNafPreCompInfo(WNafPreCompInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1541 };
 
   /// @brief Field m_promotionCountdown, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_promotionCountdown;
@@ -183,14 +182,9 @@ public:
   /// @brief Field m_width, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_width;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1541 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, ___m_promotionCountdown) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, ___m_confWidth) == 0x14, "Offset mismatch!");
@@ -202,6 +196,8 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInf
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, ___m_twice) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, ___m_width) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, 0x38>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);

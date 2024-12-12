@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimaryUserId)
 // Forward declare root types
@@ -13,28 +12,27 @@ class PrimaryUserId;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId);
-// Type: Org.BouncyCastle.Bcpg.Sig::PrimaryUserId
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.SignatureSubpacket
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg.Sig::PrimaryUserId*
+// CS Name: Org.BouncyCastle.Bcpg.Sig.PrimaryUserId
 class CORDL_TYPE PrimaryUserId : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x2609edc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BooleanToByteArray, addr 0x263d1c8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
 
-  /// @brief Method IsPrimaryUserId, addr 0x2609fdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsPrimaryUserId, addr 0x263d2c8, size 0x30, virtual false, abstract: false, final false
   inline bool IsPrimaryUserId();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::PrimaryUserId* New_ctor(bool critical, bool isPrimaryUserId);
 
-  /// @brief Method .ctor, addr 0x2609f48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d234, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2609f90, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d27c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isPrimaryUserId);
 
 protected:

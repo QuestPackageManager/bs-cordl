@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ca11ec;
+  constexpr static std::size_t addrs = 0x3d01360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ca1254;
+  constexpr static std::size_t addrs = 0x3d013c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(int32_t)>(
     &::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ArrayCountIncrement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ca12a4;
+  constexpr static std::size_t addrs = 0x3d01418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,15 +59,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(
-    ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ByRef<::System::Object*>)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
+    ::ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::ByRef<::System::Object*>)>(&::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3ca12b4;
+  constexpr static std::size_t addrs = 0x3d01428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*>::get(), "GetNext", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
     return ___internal_method;
   }
 };
@@ -111,7 +111,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectedTypeInformation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_expectedTypeInformation() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_expectedTypeInformation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___expectedTypeInformation;
 }
@@ -177,7 +177,7 @@ constexpr ::System::Type*& System::Runtime::Serialization::Formatters::Binary::O
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_dtType() const {
+constexpr ::System::Type* const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_dtType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dtType;
 }
@@ -213,7 +213,7 @@ constexpr ::System::Object*& System::Runtime::Serialization::Formatters::Binary:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeInformation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_typeInformation() const {
+constexpr ::System::Object* const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_typeInformation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeInformation;
 }
@@ -300,8 +300,7 @@ constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& Sy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*> const&
-System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_pr() const {
+constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* const& System::Runtime::Serialization::Formatters::Binary::ObjectProgress::__cordl_internal_get_pr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pr;
 }
@@ -316,9 +315,6 @@ inline void System::Runtime::Serialization::Formatters::Binary::ObjectProgress::
 inline int32_t System::Runtime::Serialization::Formatters::Binary::ObjectProgress::getStaticF_opRecordIdCount() {
   return ::cordl_internals::getStaticField<int32_t, "opRecordIdCount",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*>::get>();
-}
-inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* System::Runtime::Serialization::Formatters::Binary::ObjectProgress::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*>());
 }
 inline void System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_ctor() {
   static auto* ___internal_method =
@@ -338,13 +334,16 @@ inline void System::Runtime::Serialization::Formatters::Binary::ObjectProgress::
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum,
-                                                                                        ByRef<::System::Object*> outTypeInformation) {
+inline bool System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext(::ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum,
+                                                                                        ::ByRef<::System::Object*> outTypeInformation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*>::get(), "GetNext", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Object*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, outBinaryTypeEnum, outTypeInformation);
+}
+inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* System::Runtime::Serialization::Formatters::Binary::ObjectProgress::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress*>());
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ObjectProgress() {}

@@ -4,64 +4,64 @@
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEnterEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEnterEvent_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerEnterEvent____c._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerEnterEvent___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__PointerEnterEvent____c::*)()>(
-    &::UnityEngine::UIElements::__PointerEnterEvent____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEnterEvent___c::*)()>(
+    &::UnityEngine::UIElements::PointerEnterEvent___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49cd1c4;
+  constexpr static std::size_t addrs = 0x4a31ad4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__PointerEnterEvent____c.__cctor_b__0_0
+//  Writing Method size for method: ::UnityEngine::UIElements::PointerEnterEvent___c.__cctor_b__0_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerEnterEvent* (::UnityEngine::UIElements::__PointerEnterEvent____c::*)()>(
-    &::UnityEngine::UIElements::__PointerEnterEvent____c::__cctor_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerEnterEvent* (::UnityEngine::UIElements::PointerEnterEvent___c::*)()>(
+    &::UnityEngine::UIElements::PointerEnterEvent___c::__cctor_b__0_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49cd1cc;
+  constexpr static std::size_t addrs = 0x4a31adc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get(),
                                                                                "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::__PointerEnterEvent____c::setStaticF___9(::UnityEngine::UIElements::__PointerEnterEvent____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::__PointerEnterEvent____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get>(
-      std::forward<::UnityEngine::UIElements::__PointerEnterEvent____c*>(value));
+inline void UnityEngine::UIElements::PointerEnterEvent___c::setStaticF___9(::UnityEngine::UIElements::PointerEnterEvent___c* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::PointerEnterEvent___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get>(
+      std::forward<::UnityEngine::UIElements::PointerEnterEvent___c*>(value));
 }
-inline ::UnityEngine::UIElements::__PointerEnterEvent____c* UnityEngine::UIElements::__PointerEnterEvent____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::__PointerEnterEvent____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get>();
+inline ::UnityEngine::UIElements::PointerEnterEvent___c* UnityEngine::UIElements::PointerEnterEvent___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::PointerEnterEvent___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get>();
 }
-inline ::UnityEngine::UIElements::__PointerEnterEvent____c* UnityEngine::UIElements::__PointerEnterEvent____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__PointerEnterEvent____c*>());
-}
-inline void UnityEngine::UIElements::__PointerEnterEvent____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void UnityEngine::UIElements::PointerEnterEvent___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PointerEnterEvent* UnityEngine::UIElements::__PointerEnterEvent____c::__cctor_b__0_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__PointerEnterEvent____c*>::get(),
+inline ::UnityEngine::UIElements::PointerEnterEvent* UnityEngine::UIElements::PointerEnterEvent___c::__cctor_b__0_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent___c*>::get(),
                                                                              "<.cctor>b__0_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PointerEnterEvent*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::PointerEnterEvent___c* UnityEngine::UIElements::PointerEnterEvent___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerEnterEvent___c*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__PointerEnterEvent____c::__PointerEnterEvent____c() {}
+constexpr ::UnityEngine::UIElements::PointerEnterEvent___c::PointerEnterEvent___c() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerEnterEvent.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEnterEvent::*)()>(&::UnityEngine::UIElements::PointerEnterEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49cd0b4;
+  constexpr static std::size_t addrs = 0x4a319c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEnterEvent::*)()>(&::UnityEngine::UIElements::PointerEnterEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49cd108;
+  constexpr static std::size_t addrs = 0x4a31a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent*>::get(),
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEnterEvent::*)()>(&::UnityEngine::UIElements::PointerEnterEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49cd114;
+  constexpr static std::size_t addrs = 0x4a31a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent*>::get(), ".ctor",
@@ -106,13 +106,13 @@ inline void UnityEngine::UIElements::PointerEnterEvent::LocalInit() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PointerEnterEvent* UnityEngine::UIElements::PointerEnterEvent::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerEnterEvent*>());
-}
 inline void UnityEngine::UIElements::PointerEnterEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEnterEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PointerEnterEvent* UnityEngine::UIElements::PointerEnterEvent::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PointerEnterEvent*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PointerEnterEvent::PointerEnterEvent() {}

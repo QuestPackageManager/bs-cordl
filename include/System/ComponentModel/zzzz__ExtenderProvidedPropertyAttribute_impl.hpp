@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ComponentModel::ExtenderProvidedPropertyAttribute* (*)(::System::ComponentModel::PropertyDescriptor*, ::System::Type*, ::System::ComponentModel::IExtenderProvider*)>(
         &::System::ComponentModel::ExtenderProvidedPropertyAttribute::Create)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43f0e38;
+  constexpr static std::size_t addrs = 0x445214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f1298;
+  constexpr static std::size_t addrs = 0x44525ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::PropertyDescriptor* (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::get_ExtenderProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12a0;
+  constexpr static std::size_t addrs = 0x44525b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)(::System::ComponentModel::PropertyDescriptor*)>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::set_ExtenderProperty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12a8;
+  constexpr static std::size_t addrs = 0x44525bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::IExtenderProvider* (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::get_Provider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12b0;
+  constexpr static std::size_t addrs = 0x44525c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)(::System::ComponentModel::IExtenderProvider*)>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::set_Provider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12b8;
+  constexpr static std::size_t addrs = 0x44525cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::get_ReceiverType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12c0;
+  constexpr static std::size_t addrs = 0x44525d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)(::System::Type*)>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::set_ReceiverType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f12c8;
+  constexpr static std::size_t addrs = 0x44525dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::Equals)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x43f12d0;
+  constexpr static std::size_t addrs = 0x44525e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f13a4;
+  constexpr static std::size_t addrs = 0x44526b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtenderProvidedPropertyAttribute::*)()>(
     &::System::ComponentModel::ExtenderProvidedPropertyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43f13ac;
+  constexpr static std::size_t addrs = 0x44526c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,8 +181,7 @@ constexpr ::System::ComponentModel::PropertyDescriptor*& System::ComponentModel:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExtenderProperty_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptor*> const&
-System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__ExtenderProperty_k__BackingField() const {
+constexpr ::System::ComponentModel::PropertyDescriptor* const& System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__ExtenderProperty_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ExtenderProperty_k__BackingField;
 }
@@ -194,8 +193,7 @@ constexpr ::System::ComponentModel::IExtenderProvider*& System::ComponentModel::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Provider_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const&
-System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__Provider_k__BackingField() const {
+constexpr ::System::ComponentModel::IExtenderProvider* const& System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__Provider_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Provider_k__BackingField;
 }
@@ -207,7 +205,7 @@ constexpr ::System::Type*& System::ComponentModel::ExtenderProvidedPropertyAttri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReceiverType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__ReceiverType_k__BackingField() const {
+constexpr ::System::Type* const& System::ComponentModel::ExtenderProvidedPropertyAttribute::__cordl_internal_get__ReceiverType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ReceiverType_k__BackingField;
 }
@@ -224,9 +222,6 @@ inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* System::Comp
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::IExtenderProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ExtenderProvidedPropertyAttribute*, false>(nullptr, ___internal_method, extenderProperty, receiverType, provider);
-}
-inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* System::ComponentModel::ExtenderProvidedPropertyAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ExtenderProvidedPropertyAttribute*>());
 }
 inline void System::ComponentModel::ExtenderProvidedPropertyAttribute::_ctor() {
   static auto* ___internal_method =
@@ -287,6 +282,9 @@ inline bool System::ComponentModel::ExtenderProvidedPropertyAttribute::IsDefault
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ExtenderProvidedPropertyAttribute*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* System::ComponentModel::ExtenderProvidedPropertyAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ExtenderProvidedPropertyAttribute*>());
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::ExtenderProvidedPropertyAttribute::ExtenderProvidedPropertyAttribute() {}

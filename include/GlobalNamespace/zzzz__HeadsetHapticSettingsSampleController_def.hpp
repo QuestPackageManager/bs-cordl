@@ -21,11 +21,10 @@ class HeadsetHapticSettingsSampleController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HeadsetHapticSettingsSampleController);
-// Type: ::HeadsetHapticSettingsSampleController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::HeadsetHapticSettingsSampleController*
+// CS Name: HeadsetHapticSettingsSampleController
 class CORDL_TYPE HeadsetHapticSettingsSampleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -52,18 +51,18 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x3bac994, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x3c0f30c, size 0x50, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bac860, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3c0f1d8, size 0xcc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bac7c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3c0f13c, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3bac92c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3c0f2a4, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
@@ -108,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bac9e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c0f35c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,6 +123,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4860 };
 
   /// @brief Field _formattedFloatListSettingsController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____formattedFloatListSettingsController;
@@ -146,14 +148,9 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset: 0x44, size: 0x4, def value: None
   float_t ____nextHapticSamplePlayTimeEnd;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4843 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadsetHapticSettingsSampleController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController, ____formattedFloatListSettingsController) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController, ____hapticSamplePlayDelay) == 0x28, "Offset mismatch!");
@@ -167,6 +164,8 @@ static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController,
 static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController, ____nextHapticSamplePlayTime) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController, ____nextHapticSamplePlayTimeEnd) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadsetHapticSettingsSampleController, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HeadsetHapticSettingsSampleController);

@@ -12,17 +12,16 @@ class CertPolicyID;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CertPolicyID);
-// Type: Org.BouncyCastle.Asn1.X509::CertPolicyID
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerObjectIdentifier
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::CertPolicyID*
+// CS Name: Org.BouncyCastle.Asn1.X509.CertPolicyID
 class CORDL_TYPE CertPolicyID : public ::Org::BouncyCastle::Asn1::DerObjectIdentifier {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::CertPolicyID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x25ce1ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26014d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

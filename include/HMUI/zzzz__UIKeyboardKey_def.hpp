@@ -19,11 +19,10 @@ class UIKeyboardKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
-// Type: HMUI::UIKeyboardKey
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.KeyCode, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::UIKeyboardKey*
+// CS Name: HMUI.UIKeyboardKey
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -46,12 +45,12 @@ public:
 
   __declspec(property(get = get_keyCode)) ::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method Awake, addr 0x3998968, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39ef568, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3998a10, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39ef610, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get__canBeUppercase() const;
@@ -84,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3998af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ef6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeUppercase, addr 0x3998960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canBeUppercase, addr 0x39ef560, size 0x8, virtual false, abstract: false, final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method get_keyCode, addr 0x3998958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x39ef558, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   UIKeyboardKey(UIKeyboardKey const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16039 };
+
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;
 
@@ -122,14 +124,9 @@ public:
   /// @brief Field _dontSetText, offset: 0x39, size: 0x1, def value: None
   bool ____dontSetText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16004 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboardKey, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::UIKeyboardKey, ____keyCode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::UIKeyboardKey, ____text) == 0x28, "Offset mismatch!");
@@ -139,6 +136,8 @@ static_assert(offsetof(::HMUI::UIKeyboardKey, ____overrideText) == 0x30, "Offset
 static_assert(offsetof(::HMUI::UIKeyboardKey, ____canBeUppercase) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::UIKeyboardKey, ____dontSetText) == 0x39, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::UIKeyboardKey, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::UIKeyboardKey);

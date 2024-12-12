@@ -32,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*,
     ::BeatmapSaveDataVersion3::FxEventsCollection*, ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*, bool)>(&::BeatmapSaveDataVersion3::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26d389c;
+  constexpr static std::size_t addrs = 0x270520c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -74,8 +74,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpmEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_bpmEvents() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_bpmEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bpmEvents;
 }
@@ -87,8 +86,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Rota
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_rotationEvents() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_rotationEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rotationEvents;
 }
@@ -100,8 +98,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Colo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorNotes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_colorNotes() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_colorNotes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorNotes;
 }
@@ -113,8 +110,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Bomb
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bombNotes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_bombNotes() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_bombNotes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bombNotes;
 }
@@ -126,8 +122,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Obst
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacles;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_obstacles() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_obstacles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___obstacles;
 }
@@ -139,8 +134,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Slid
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_sliders() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_sliders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sliders;
 }
@@ -152,8 +146,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Burs
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burstSliders;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_burstSliders() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_burstSliders() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___burstSliders;
 }
@@ -165,8 +158,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Wayp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waypoints;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_waypoints() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_waypoints() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___waypoints;
 }
@@ -178,8 +170,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Basi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_basicBeatmapEvents() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_basicBeatmapEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
@@ -191,7 +182,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Colo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_colorBoostBeatmapEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
@@ -204,7 +195,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::Ligh
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_lightColorEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
@@ -219,7 +210,7 @@ BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_lightRotationEven
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_lightRotationEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
@@ -234,7 +225,7 @@ BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_lightTranslationE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*> const&
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* const&
 BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_lightTranslationEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
@@ -248,8 +239,7 @@ constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEv
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_vfxEventBoxGroups() const {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_vfxEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
@@ -261,7 +251,7 @@ constexpr ::BeatmapSaveDataVersion3::FxEventsCollection*& BeatmapSaveDataVersion
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::FxEventsCollection*> const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get__fxEventsCollection() const {
+constexpr ::BeatmapSaveDataVersion3::FxEventsCollection* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get__fxEventsCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
@@ -273,8 +263,7 @@ constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*& BeatmapSaveData
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*> const&
-BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_basicEventTypesWithKeywords() const {
+constexpr ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_get_basicEventTypesWithKeywords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicEventTypesWithKeywords;
 }
@@ -293,23 +282,6 @@ constexpr bool const& BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal
 constexpr void BeatmapSaveDataVersion3::BeatmapSaveData::__cordl_internal_set_useNormalEventsAsCompatibleEvents(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useNormalEventsAsCompatibleEvents = value;
-}
-inline ::BeatmapSaveDataVersion3::BeatmapSaveData* BeatmapSaveDataVersion3::BeatmapSaveData::New_ctor(
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>* colorNotes, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>* bombNotes,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>* obstacles, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>* sliders,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>* burstSliders, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* waypoints,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* basicBeatmapEvents,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* colorBoostBeatmapEvents,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* lightColorEventBoxGroups,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* lightRotationEventBoxGroups,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups,
-    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* vfxEventBoxGroups, ::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection,
-    ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BeatmapSaveData*>(
-      bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents, colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups,
-      lightTranslationEventBoxGroups, vfxEventBoxGroups, fxEventsCollection, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents));
 }
 inline void BeatmapSaveDataVersion3::BeatmapSaveData::_ctor(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
@@ -346,6 +318,23 @@ inline void BeatmapSaveDataVersion3::BeatmapSaveData::_ctor(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents,
                                                           colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups, lightTranslationEventBoxGroups, vfxEventBoxGroups,
                                                           fxEventsCollection, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents);
+}
+inline ::BeatmapSaveDataVersion3::BeatmapSaveData* BeatmapSaveDataVersion3::BeatmapSaveData::New_ctor(
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorNoteData*>* colorNotes, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BombNoteData*>* bombNotes,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ObstacleData*>* obstacles, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::SliderData*>* sliders,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BurstSliderData*>* burstSliders, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* waypoints,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BasicEventData*>* basicBeatmapEvents,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::ColorBoostEventData*>* colorBoostBeatmapEvents,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>* lightColorEventBoxGroups,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup*>* lightRotationEventBoxGroups,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>* lightTranslationEventBoxGroups,
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* vfxEventBoxGroups, ::BeatmapSaveDataVersion3::FxEventsCollection* fxEventsCollection,
+    ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords* basicEventTypesWithKeywords, bool useNormalEventsAsCompatibleEvents) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BeatmapSaveData*>(
+      bpmEvents, rotationEvents, colorNotes, bombNotes, obstacles, sliders, burstSliders, waypoints, basicBeatmapEvents, colorBoostBeatmapEvents, lightColorEventBoxGroups, lightRotationEventBoxGroups,
+      lightTranslationEventBoxGroups, vfxEventBoxGroups, fxEventsCollection, basicEventTypesWithKeywords, useNormalEventsAsCompatibleEvents));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData::BeatmapSaveData() {}

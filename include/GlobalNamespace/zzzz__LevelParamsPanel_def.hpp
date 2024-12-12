@@ -16,11 +16,10 @@ class LevelParamsPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelParamsPanel);
-// Type: ::LevelParamsPanel
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LevelParamsPanel*
+// CS Name: LevelParamsPanel
 class CORDL_TYPE LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -70,19 +69,19 @@ public:
 
   constexpr void __cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3aa6dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b04280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_bombsCount, addr 0x3aa6da4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_bombsCount, addr 0x3b04238, size 0x48, virtual false, abstract: false, final false
   inline void set_bombsCount(int32_t value);
 
-  /// @brief Method set_notesCount, addr 0x3aa6d14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_notesCount, addr 0x3b041a8, size 0x48, virtual false, abstract: false, final false
   inline void set_notesCount(int32_t value);
 
-  /// @brief Method set_notesPerSecond, addr 0x3aa6c94, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_notesPerSecond, addr 0x3b04128, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
 
-  /// @brief Method set_obstaclesCount, addr 0x3aa6d5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_obstaclesCount, addr 0x3b041f0, size 0x48, virtual false, abstract: false, final false
   inline void set_obstaclesCount(int32_t value);
 
 protected:
@@ -99,6 +98,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LevelParamsPanel(LevelParamsPanel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4987 };
+
   /// @brief Field _notesPerSecondText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____notesPerSecondText;
 
@@ -111,14 +113,9 @@ public:
   /// @brief Field _bombsCountText, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____bombsCountText;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4967 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelParamsPanel, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____notesPerSecondText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____notesCountText) == 0x28, "Offset mismatch!");
@@ -126,6 +123,8 @@ static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____notesCountText) 
 static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____obstaclesCountText) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelParamsPanel, ____bombsCountText) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelParamsPanel, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelParamsPanel);

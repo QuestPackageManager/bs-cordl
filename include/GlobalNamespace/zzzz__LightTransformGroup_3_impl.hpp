@@ -46,8 +46,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transfo
   return this->____xTransforms;
 }
 template <typename TX, typename TY, typename TZ>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const&
-GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__xTransforms() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__xTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTransforms;
 }
@@ -62,8 +61,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transfo
   return this->____yTransforms;
 }
 template <typename TX, typename TY, typename TZ>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const&
-GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__yTransforms() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__yTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTransforms;
 }
@@ -78,8 +76,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transfo
   return this->____zTransforms;
 }
 template <typename TX, typename TY, typename TZ>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const&
-GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__zTransforms() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::__cordl_internal_get__zTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTransforms;
 }
@@ -126,13 +123,13 @@ template <typename TX, typename TY, typename TZ> inline int32_t GlobalNamespace:
                                                                              "get_count", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename TX, typename TY, typename TZ> inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>());
-}
 template <typename TX, typename TY, typename TZ> inline void GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TX, typename TY, typename TZ> inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>*>());
 }
 // Ctor Parameters []
 template <typename TX, typename TY, typename TZ> constexpr ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>::LightTransformGroup_3() {}

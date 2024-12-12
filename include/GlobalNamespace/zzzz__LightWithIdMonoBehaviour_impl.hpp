@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightWithIdMonoBehaviour.hpp"
+#include "GlobalNamespace/zzzz__ILightWithId_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
-#include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightWithIdMonoBehaviour.get_lightId
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::get_lightId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398d3ac;
+  constexpr static std::size_t addrs = 0x39e3d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::get_isRegistered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398d3b4;
+  constexpr static std::size_t addrs = 0x39e3d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::__SetIsRegistered)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x398d3bc;
+  constexpr static std::size_t addrs = 0x39e3d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
@@ -53,26 +53,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::__SetIsUnRegistered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x398d3c8;
+  constexpr static std::size_t addrs = 0x39e3d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
                                                                                "__SetIsUnRegistered", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightWithIdMonoBehaviour.ColorWasSet
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)(::UnityEngine::Color)>(
-    &::GlobalNamespace::LightWithIdMonoBehaviour::ColorWasSet)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -81,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&::GlobalNamespace::LightWithIdMonoBehaviour::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398d3d0;
+  constexpr static std::size_t addrs = 0x39e3da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&::GlobalNamespace::LightWithIdMonoBehaviour::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x398d458;
+  constexpr static std::size_t addrs = 0x39e3e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&::GlobalNamespace::LightWithIdMonoBehaviour::OnDisable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x398d45c;
+  constexpr static std::size_t addrs = 0x39e3e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::RegisterLight)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x398d3d4;
+  constexpr static std::size_t addrs = 0x39e3da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(),
@@ -138,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)(int32_t)>(
     &::GlobalNamespace::LightWithIdMonoBehaviour::SetLightId)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x398d4e0;
+  constexpr static std::size_t addrs = 0x39e3eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&::GlobalNamespace::LightWithIdMonoBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x398ad9c;
+  constexpr static std::size_t addrs = 0x39e176c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(), ".ctor",
@@ -160,14 +145,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::ILightWithId"
-constexpr GlobalNamespace::LightWithIdMonoBehaviour::operator ::GlobalNamespace::ILightWithId*() noexcept {
-  return static_cast<::GlobalNamespace::ILightWithId*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::ILightWithId"
-constexpr ::GlobalNamespace::ILightWithId* GlobalNamespace::LightWithIdMonoBehaviour::i___GlobalNamespace__ILightWithId() noexcept {
-  return static_cast<::GlobalNamespace::ILightWithId*>(static_cast<void*>(this));
-}
 constexpr int32_t& GlobalNamespace::LightWithIdMonoBehaviour::__cordl_internal_get__ID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ID;
@@ -255,13 +232,21 @@ inline void GlobalNamespace::LightWithIdMonoBehaviour::SetLightId(int32_t newLig
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newLightId);
 }
-inline ::GlobalNamespace::LightWithIdMonoBehaviour* GlobalNamespace::LightWithIdMonoBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightWithIdMonoBehaviour*>());
-}
 inline void GlobalNamespace::LightWithIdMonoBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightWithIdMonoBehaviour*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::LightWithIdMonoBehaviour* GlobalNamespace::LightWithIdMonoBehaviour::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightWithIdMonoBehaviour*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::ILightWithId"
+constexpr GlobalNamespace::LightWithIdMonoBehaviour::operator ::GlobalNamespace::ILightWithId*() noexcept {
+  return static_cast<::GlobalNamespace::ILightWithId*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::ILightWithId"
+constexpr ::GlobalNamespace::ILightWithId* GlobalNamespace::LightWithIdMonoBehaviour::i___GlobalNamespace__ILightWithId() noexcept {
+  return static_cast<::GlobalNamespace::ILightWithId*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::LightWithIdMonoBehaviour::LightWithIdMonoBehaviour() {}

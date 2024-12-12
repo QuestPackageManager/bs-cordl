@@ -18,11 +18,10 @@ class CompressedDataPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::CompressedDataPacket);
-// Type: Org.BouncyCastle.Bcpg::CompressedDataPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.CompressionAlgorithmTag, Org.BouncyCastle.Bcpg.InputStreamPacket
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::CompressedDataPacket*
+// CS Name: Org.BouncyCastle.Bcpg.CompressedDataPacket
 class CORDL_TYPE CompressedDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
@@ -39,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
-  /// @brief Method .ctor, addr 0x26102d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26435c4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x2611c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2644f2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CompressedDataPacket(CompressedDataPacket const&) = delete;
 
-  /// @brief Field algorithm, offset: 0x18, size: 0x4, def value: None
-  ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag ___algorithm;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 558 };
+
+  /// @brief Field algorithm, offset: 0x18, size: 0x4, def value: None
+  ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag ___algorithm;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::CompressedDataPacket, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::CompressedDataPacket, ___algorithm) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::CompressedDataPacket, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::CompressedDataPacket);

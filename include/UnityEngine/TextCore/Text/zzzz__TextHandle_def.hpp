@@ -27,11 +27,10 @@ class TextHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextHandle);
-// Type: UnityEngine.TextCore.Text::TextHandle
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// CS Name: ::UnityEngine.TextCore.Text::TextHandle*
+// CS Name: UnityEngine.TextCore.Text.TextHandle
 class CORDL_TYPE TextHandle : public ::System::Object {
 public:
   // Declarations
@@ -39,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get_isDirty, put = __cordl_internal_set_isDirty)) bool isDirty;
 
   /// @brief Field m_LayoutTextInfo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_LayoutTextInfo, put = setStaticF_m_LayoutTextInfo)) ::UnityEngine::TextCore::Text::TextInfo* m_LayoutTextInfo;
+  __declspec(property(get = getStaticF_m_LayoutTextInfo, put = setStaticF_m_LayoutTextInfo)) ::UnityEngine::TextCore::Text::TextInfo* m_LayoutTextInfo;
 
   /// @brief Field m_PreferredSize, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreferredSize, put = __cordl_internal_set_m_PreferredSize)) ::UnityEngine::Vector2 m_PreferredSize;
@@ -51,7 +50,7 @@ public:
   __declspec(property(get = __cordl_internal_get_m_TextInfo, put = __cordl_internal_set_m_TextInfo)) ::UnityEngine::TextCore::Text::TextInfo* m_TextInfo;
 
   /// @brief Field s_LayoutSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_LayoutSettings, put = setStaticF_s_LayoutSettings)) ::UnityEngine::TextCore::Text::TextGenerationSettings* s_LayoutSettings;
+  __declspec(property(get = getStaticF_s_LayoutSettings, put = setStaticF_s_LayoutSettings)) ::UnityEngine::TextCore::Text::TextGenerationSettings* s_LayoutSettings;
 
   /// @brief Field textGenerationSettings, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_textGenerationSettings,
@@ -59,75 +58,75 @@ public:
 
   __declspec(property(get = get_textInfo)) ::UnityEngine::TextCore::Text::TextInfo* textInfo;
 
-  /// @brief Method ComputeTextHeight, addr 0x48e8fd8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextHeight, addr 0x494d668, size 0x18, virtual false, abstract: false, final false
   inline float_t ComputeTextHeight(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method ComputeTextWidth, addr 0x48e8f4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ComputeTextWidth, addr 0x494d5dc, size 0x18, virtual false, abstract: false, final false
   inline float_t ComputeTextWidth(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method DistanceToLine, addr 0x48e8648, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DistanceToLine, addr 0x494ccd8, size 0xc8, virtual false, abstract: false, final false
   static inline float_t DistanceToLine(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 point);
 
-  /// @brief Method FindIntersectingLink, addr 0x48e8710, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method FindIntersectingLink, addr 0x494cda0, size 0x2c4, virtual false, abstract: false, final false
   inline int32_t FindIntersectingLink(::UnityEngine::Vector3 position, bool inverseYAxis);
 
-  /// @brief Method FindNearestCharacterOnLine, addr 0x48e7f24, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method FindNearestCharacterOnLine, addr 0x494c5b4, size 0x2c0, virtual false, abstract: false, final false
   inline int32_t FindNearestCharacterOnLine(::UnityEngine::Vector2 position, int32_t line, bool visibleOnly);
 
-  /// @brief Method FindNearestLine, addr 0x48e7e54, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method FindNearestLine, addr 0x494c4e4, size 0xd0, virtual false, abstract: false, final false
   inline int32_t FindNearestLine(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetCharacterHeightFromIndex, addr 0x48e8b88, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCharacterHeightFromIndex, addr 0x494d218, size 0x98, virtual false, abstract: false, final false
   inline float_t GetCharacterHeightFromIndex(int32_t index);
 
-  /// @brief Method GetCursorIndexFromPosition, addr 0x48e7d3c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetCursorIndexFromPosition, addr 0x494c3cc, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetCursorIndexFromPosition(::UnityEngine::Vector2 position, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x48e7a60, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingCharacterHeight, addr 0x494c0f0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingCharacterHeight(int32_t index, bool inverseYAxis);
 
-  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x48e7bb0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetCursorPositionFromStringIndexUsingLineHeight, addr 0x494c240, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetCursorPositionFromStringIndexUsingLineHeight(int32_t index, bool useXAdvance, bool inverseYAxis);
 
-  /// @brief Method GetLineHeight, addr 0x48e8a64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeight, addr 0x494d0f4, size 0x90, virtual false, abstract: false, final false
   inline float_t GetLineHeight(int32_t lineNumber);
 
-  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x48e8af4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetLineHeightFromCharacterIndex, addr 0x494d184, size 0x94, virtual false, abstract: false, final false
   inline float_t GetLineHeightFromCharacterIndex(int32_t index);
 
-  /// @brief Method GetLineNumber, addr 0x48e89d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetLineNumber, addr 0x494d064, size 0x90, virtual false, abstract: false, final false
   inline int32_t GetLineNumber(int32_t index);
 
-  /// @brief Method IndexOf, addr 0x48e8d98, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x494d428, size 0xe8, virtual false, abstract: false, final false
   inline int32_t IndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method IsDirty, addr 0x48e7a10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x494c0a0, size 0x50, virtual false, abstract: false, final false
   inline bool IsDirty();
 
-  /// @brief Method IsElided, addr 0x48e8c20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsElided, addr 0x494d2b0, size 0x40, virtual false, abstract: false, final false
   inline bool IsElided();
 
-  /// @brief Method LastIndexOf, addr 0x48e8e80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x494d510, size 0xcc, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(char16_t value, int32_t startIndex);
 
-  /// @brief Method LineDownCharacterPosition, addr 0x48e81e4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x494c874, size 0x1dc, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x48e83c0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x494ca50, size 0x1c8, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos);
 
   static inline ::UnityEngine::TextCore::Text::TextHandle* New_ctor();
 
-  /// @brief Method PointIntersectRectangle, addr 0x48e8588, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointIntersectRectangle, addr 0x494cc18, size 0xc0, virtual false, abstract: false, final false
   static inline bool PointIntersectRectangle(::UnityEngine::Vector3 m, ::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 c, ::UnityEngine::Vector3 d);
 
-  /// @brief Method Substring, addr 0x48e8c60, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Substring, addr 0x494d2f0, size 0x138, virtual false, abstract: false, final false
   inline ::StringW Substring(int32_t startIndex, int32_t length);
 
-  /// @brief Method Update, addr 0x48e8ff0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x494d680, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
-  /// @brief Method UpdatePreferredValues, addr 0x48e8f64, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredValues, addr 0x494d5f4, size 0x74, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
 
   constexpr bool const& __cordl_internal_get_isDirty() const;
@@ -142,13 +141,13 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_PreviousGenerationSettingsHash();
 
+  constexpr ::UnityEngine::TextCore::Text::TextInfo* const& __cordl_internal_get_m_TextInfo() const;
+
   constexpr ::UnityEngine::TextCore::Text::TextInfo*& __cordl_internal_get_m_TextInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::TextInfo*> const& __cordl_internal_get_m_TextInfo() const;
+  constexpr ::UnityEngine::TextCore::Text::TextGenerationSettings* const& __cordl_internal_get_textGenerationSettings() const;
 
   constexpr ::UnityEngine::TextCore::Text::TextGenerationSettings*& __cordl_internal_get_textGenerationSettings();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::TextGenerationSettings*> const& __cordl_internal_get_textGenerationSettings() const;
 
   constexpr void __cordl_internal_set_isDirty(bool value);
 
@@ -160,17 +159,17 @@ public:
 
   constexpr void __cordl_internal_set_textGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* value);
 
-  /// @brief Method .ctor, addr 0x48e775c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x494bdec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* getStaticF_m_LayoutTextInfo();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* getStaticF_s_LayoutSettings();
 
-  /// @brief Method get_layoutTextInfo, addr 0x48e7958, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_layoutTextInfo, addr 0x494bfe8, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextInfo* get_layoutTextInfo();
 
-  /// @brief Method get_textInfo, addr 0x48e77c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_textInfo, addr 0x494be50, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfo();
 
   static inline void setStaticF_m_LayoutTextInfo(::UnityEngine::TextCore::Text::TextInfo* value);
@@ -191,6 +190,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TextHandle(TextHandle const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15278 };
+
   /// @brief Field m_PreferredSize, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_PreferredSize;
 
@@ -206,14 +208,9 @@ public:
   /// @brief Field isDirty, offset: 0x30, size: 0x1, def value: None
   bool ___isDirty;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15243 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextHandle, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandle, ___m_PreferredSize) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandle, ___m_TextInfo) == 0x18, "Offset mismatch!");
@@ -223,6 +220,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandle, ___m_PreviousG
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandle, ___textGenerationSettings) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextHandle, ___isDirty) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextHandle, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextHandle);

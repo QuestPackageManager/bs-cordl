@@ -11,36 +11,35 @@ namespace GlobalNamespace {
 class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
-struct SaberType;
+struct NoteCutHapticEffect_Type;
 }
 namespace GlobalNamespace {
-struct __NoteCutHapticEffect__Type;
+struct SaberType;
 }
 namespace Libraries::HM::HMLib::VR {
 class HapticPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __NoteCutHapticEffect__Type;
+struct NoteCutHapticEffect_Type;
 }
 namespace GlobalNamespace {
 class NoteCutHapticEffect;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__NoteCutHapticEffect__Type);
+MARK_VAL_T(::GlobalNamespace::NoteCutHapticEffect_Type);
 MARK_REF_PTR_T(::GlobalNamespace::NoteCutHapticEffect);
-// Type: ::Type
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::NoteCutHapticEffect::Type
-struct CORDL_TYPE __NoteCutHapticEffect__Type {
+// CS Name: NoteCutHapticEffect/Type
+struct CORDL_TYPE NoteCutHapticEffect_Type {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____NoteCutHapticEffect__Type_Unwrapped
-  enum struct ____NoteCutHapticEffect__Type_Unwrapped : int32_t {
+  /// @brief Nested struct __NoteCutHapticEffect_Type_Unwrapped
+  enum struct __NoteCutHapticEffect_Type_Unwrapped : int32_t {
     __E_Normal = static_cast<int32_t>(0x0),
     __E_ChainHead = static_cast<int32_t>(0x1),
     __E_ChainLink = static_cast<int32_t>(0x2),
@@ -52,8 +51,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____NoteCutHapticEffect__Type_Unwrapped() const noexcept {
-    return static_cast<____NoteCutHapticEffect__Type_Unwrapped>(this->value__);
+  constexpr operator __NoteCutHapticEffect_Type_Unwrapped() const noexcept {
+    return static_cast<__NoteCutHapticEffect_Type_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -63,61 +62,60 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NoteCutHapticEffect__Type();
+  constexpr NoteCutHapticEffect_Type();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __NoteCutHapticEffect__Type(int32_t value__) noexcept;
+  constexpr NoteCutHapticEffect_Type(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ArcHead value: I32(5)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const ArcHead;
 
-  /// @brief Field ArcHead value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const ArcHead;
+  /// @brief Field ArcHeadAndTail value: I32(7)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const ArcHeadAndTail;
 
-  /// @brief Field ArcHeadAndTail value: static_cast<int32_t>(0x7)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const ArcHeadAndTail;
+  /// @brief Field ArcTail value: I32(6)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const ArcTail;
 
-  /// @brief Field ArcTail value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const ArcTail;
+  /// @brief Field BadCut value: I32(4)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const BadCut;
 
-  /// @brief Field BadCut value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const BadCut;
+  /// @brief Field Bomb value: I32(3)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const Bomb;
 
-  /// @brief Field Bomb value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const Bomb;
+  /// @brief Field ChainHead value: I32(1)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const ChainHead;
 
-  /// @brief Field ChainHead value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const ChainHead;
+  /// @brief Field ChainLink value: I32(2)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const ChainLink;
 
-  /// @brief Field ChainLink value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const ChainLink;
-
-  /// @brief Field Normal value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__NoteCutHapticEffect__Type const Normal;
+  /// @brief Field Normal value: I32(0)
+  static ::GlobalNamespace::NoteCutHapticEffect_Type const Normal;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4227 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NoteCutHapticEffect__Type, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect_Type, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__NoteCutHapticEffect__Type, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutHapticEffect_Type, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::NoteCutHapticEffect
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoteCutHapticEffect*
+// CS Name: NoteCutHapticEffect
 class CORDL_TYPE NoteCutHapticEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using Type = ::GlobalNamespace::__NoteCutHapticEffect__Type;
+  using Type = ::GlobalNamespace::NoteCutHapticEffect_Type;
 
   /// @brief Field _arcHeadAndTailPreset, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__arcHeadAndTailPreset, put = __cordl_internal_set__arcHeadAndTailPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _arcHeadAndTailPreset;
@@ -146,8 +144,8 @@ public:
   /// @brief Field _normalPreset, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalPreset, put = __cordl_internal_set__normalPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _normalPreset;
 
-  /// @brief Method HitNote, addr 0x3b1f960, size 0xa0, virtual false, abstract: false, final false
-  inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type);
+  /// @brief Method HitNote, addr 0x3b80b0c, size 0xa0, virtual false, abstract: false, final false
+  inline void HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::NoteCutHapticEffect_Type type);
 
   static inline ::GlobalNamespace::NoteCutHapticEffect* New_ctor();
 
@@ -205,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  /// @brief Method .ctor, addr 0x3b1fa00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b80bac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,6 +219,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutHapticEffect", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   NoteCutHapticEffect(NoteCutHapticEffect const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4228 };
 
   /// @brief Field _normalPreset, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____normalPreset;
@@ -249,14 +250,9 @@ public:
   /// @brief Field _hapticFeedbackManager, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4217 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutHapticEffect, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____normalPreset) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____chainHeadPreset) == 0x28, "Offset mismatch!");
@@ -275,7 +271,9 @@ static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____arcHeadAndTai
 
 static_assert(offsetof(::GlobalNamespace::NoteCutHapticEffect, ____hapticFeedbackManager) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteCutHapticEffect, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NoteCutHapticEffect__Type, "", "NoteCutHapticEffect/Type");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutHapticEffect_Type, "", "NoteCutHapticEffect/Type");
 NEED_NO_BOX(::GlobalNamespace::NoteCutHapticEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");

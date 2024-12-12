@@ -11,8 +11,7 @@ template <typename TElement, typename TKey> constexpr ::System::Linq::OrderedEnu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
-template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_parent() const {
+template <typename TElement, typename TKey> constexpr ::System::Linq::OrderedEnumerable_1<TElement>* const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_parent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parent;
 }
@@ -24,8 +23,7 @@ template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement,
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySelector;
 }
-template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_keySelector() const {
+template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement, TKey>* const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_keySelector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySelector;
 }
@@ -38,7 +36,7 @@ template <typename TElement, typename TKey> constexpr ::System::Collections::Gen
   return this->___comparer;
 }
 template <typename TElement, typename TKey>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_comparer() const {
+constexpr ::System::Collections::Generic::IComparer_1<TKey>* const& System::Linq::OrderedEnumerable_2<TElement, TKey>::__cordl_internal_get_comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
@@ -59,12 +57,6 @@ template <typename TElement, typename TKey> constexpr void System::Linq::Ordered
   this->___descending = value;
 }
 template <typename TElement, typename TKey>
-inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* System::Linq::OrderedEnumerable_2<TElement, TKey>::New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source,
-                                                                                                                        ::System::Func_2<TElement, TKey>* keySelector,
-                                                                                                                        ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::OrderedEnumerable_2<TElement, TKey>*>(source, keySelector, comparer, descending));
-}
-template <typename TElement, typename TKey>
 inline void System::Linq::OrderedEnumerable_2<TElement, TKey>::_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector,
                                                                      ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -80,6 +72,12 @@ inline ::System::Linq::EnumerableSorter_1<TElement>* System::Linq::OrderedEnumer
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::OrderedEnumerable_2<TElement, TKey>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal_method, next);
+}
+template <typename TElement, typename TKey>
+inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* System::Linq::OrderedEnumerable_2<TElement, TKey>::New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source,
+                                                                                                                        ::System::Func_2<TElement, TKey>* keySelector,
+                                                                                                                        ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::OrderedEnumerable_2<TElement, TKey>*>(source, keySelector, comparer, descending));
 }
 // Ctor Parameters []
 template <typename TElement, typename TKey> constexpr ::System::Linq::OrderedEnumerable_2<TElement, TKey>::OrderedEnumerable_2() {}

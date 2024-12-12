@@ -12,11 +12,10 @@ class AutomaticSFXVolumeParamsSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AutomaticSFXVolumeParamsSO);
-// Type: ::AutomaticSFXVolumeParamsSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AutomaticSFXVolumeParamsSO*
+// CS Name: AutomaticSFXVolumeParamsSO
 class CORDL_TYPE AutomaticSFXVolumeParamsSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -110,31 +109,31 @@ public:
 
   constexpr void __cordl_internal_set__volumeSmooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x3a7848c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3acf9a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_attackTime, addr 0x3a78464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attackTime, addr 0x3acf978, size 0x8, virtual false, abstract: false, final false
   inline float_t get_attackTime();
 
-  /// @brief Method get_impact, addr 0x3a7845c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_impact, addr 0x3acf970, size 0x8, virtual false, abstract: false, final false
   inline float_t get_impact();
 
-  /// @brief Method get_maxVolume, addr 0x3a7847c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxVolume, addr 0x3acf990, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxVolume();
 
-  /// @brief Method get_minVolume, addr 0x3a78474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minVolume, addr 0x3acf988, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minVolume();
 
-  /// @brief Method get_musicVolumeMultiplier, addr 0x3a7844c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_musicVolumeMultiplier, addr 0x3acf960, size 0x8, virtual false, abstract: false, final false
   inline float_t get_musicVolumeMultiplier();
 
-  /// @brief Method get_releaseTime, addr 0x3a7846c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_releaseTime, addr 0x3acf980, size 0x8, virtual false, abstract: false, final false
   inline float_t get_releaseTime();
 
-  /// @brief Method get_threshold, addr 0x3a78454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_threshold, addr 0x3acf968, size 0x8, virtual false, abstract: false, final false
   inline float_t get_threshold();
 
-  /// @brief Method get_volumeSmooth, addr 0x3a78484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeSmooth, addr 0x3acf998, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeSmooth();
 
 protected:
@@ -150,6 +149,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AutomaticSFXVolumeParamsSO", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AutomaticSFXVolumeParamsSO(AutomaticSFXVolumeParamsSO const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4000 };
 
   /// @brief Field _musicVolumeMultiplier, offset: 0x18, size: 0x4, def value: None
   float_t ____musicVolumeMultiplier;
@@ -175,14 +177,9 @@ public:
   /// @brief Field _volumeSmooth, offset: 0x34, size: 0x4, def value: None
   float_t ____volumeSmooth;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3994 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutomaticSFXVolumeParamsSO, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolumeParamsSO, ____musicVolumeMultiplier) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolumeParamsSO, ____threshold) == 0x1c, "Offset mismatch!");
@@ -198,6 +195,8 @@ static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolumeParamsSO, ____minVol
 static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolumeParamsSO, ____maxVolume) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AutomaticSFXVolumeParamsSO, ____volumeSmooth) == 0x34, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AutomaticSFXVolumeParamsSO, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AutomaticSFXVolumeParamsSO);

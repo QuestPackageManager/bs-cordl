@@ -5,8 +5,8 @@
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__DataKey_def.hpp"
 #include "System/Data/zzzz__DataView_def.hpp"
+#include "System/Data/zzzz__IFilter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RelatedView)
 namespace System::Data {
@@ -39,11 +39,10 @@ class RelatedView;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::RelatedView);
-// Type: System.Data::RelatedView
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.DataKey, System.Data.DataView, System.Data.IFilter, System.Nullable`1<T>
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::RelatedView*
+// CS Name: System.Data.RelatedView
 class CORDL_TYPE RelatedView : public ::System::Data::DataView {
 public:
   // Declarations
@@ -62,16 +61,16 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method AddNew, addr 0x4122e7c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AddNew, addr 0x4184190, size 0x60, virtual true, abstract: false, final false
   inline ::System::Data::DataRowView* AddNew();
 
-  /// @brief Method GetFilter, addr 0x4122e78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetFilter, addr 0x418418c, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::IFilter* GetFilter();
 
-  /// @brief Method GetParentValues, addr 0x4122c58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetParentValues, addr 0x4183f6c, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetParentValues();
 
-  /// @brief Method Invoke, addr 0x4122cf0, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x4184004, size 0x188, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::RelatedView* New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
@@ -80,7 +79,7 @@ public:
   static inline ::System::Data::RelatedView* New_ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey,
                                                       ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
-  /// @brief Method SetIndex, addr 0x4122edc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x41841f0, size 0x24, virtual true, abstract: false, final false
   inline void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
 
   constexpr ::System::Data::DataKey const& __cordl_internal_get__childKey() const;
@@ -95,9 +94,9 @@ public:
 
   constexpr ::System::Nullable_1<::System::Data::DataKey>& __cordl_internal_get__parentKey();
 
-  constexpr ::System::Data::DataRowView*& __cordl_internal_get__parentRowView();
+  constexpr ::System::Data::DataRowView* const& __cordl_internal_get__parentRowView() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRowView*> const& __cordl_internal_get__parentRowView() const;
+  constexpr ::System::Data::DataRowView*& __cordl_internal_get__parentRowView();
 
   constexpr void __cordl_internal_set__childKey(::System::Data::DataKey value);
 
@@ -107,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__parentRowView(::System::Data::DataRowView* value);
 
-  /// @brief Method .ctor, addr 0x4122a38, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4183d4c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method .ctor, addr 0x4122b50, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4183e64, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
   /// @brief Convert to "::System::Data::IFilter"
@@ -130,6 +129,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RelatedView(RelatedView const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11455 };
+
   /// @brief Field _parentKey, offset: 0xb8, size: 0x10, def value: None
   ::System::Nullable_1<::System::Data::DataKey> ____parentKey;
 
@@ -142,14 +144,9 @@ public:
   /// @brief Field _filterValues, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____filterValues;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11422 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::RelatedView, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::RelatedView, ____parentKey) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::RelatedView, ____childKey) == 0xc8, "Offset mismatch!");
@@ -157,6 +154,8 @@ static_assert(offsetof(::System::Data::RelatedView, ____childKey) == 0xc8, "Offs
 static_assert(offsetof(::System::Data::RelatedView, ____parentRowView) == 0xd0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::RelatedView, ____filterValues) == 0xd8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::RelatedView, 0xe0>, "Size mismatch!");
 
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::RelatedView);

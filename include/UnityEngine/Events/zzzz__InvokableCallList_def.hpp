@@ -23,11 +23,10 @@ class InvokableCallList;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::InvokableCallList);
-// Type: UnityEngine.Events::InvokableCallList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::Events {
 // Is value type: false
-// CS Name: ::UnityEngine.Events::InvokableCallList*
+// CS Name: UnityEngine.Events.InvokableCallList
 class CORDL_TYPE InvokableCallList : public ::System::Object {
 public:
   // Declarations
@@ -46,41 +45,41 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RuntimeCalls,
                       put = __cordl_internal_set_m_RuntimeCalls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls;
 
-  /// @brief Method AddListener, addr 0x485b4f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x48bc86c, size 0xa8, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method AddPersistentInvokableCall, addr 0x485b44c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddPersistentInvokableCall, addr 0x48bc7c4, size 0xa8, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method Clear, addr 0x485b80c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x48bcb84, size 0xbc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearPersistent, addr 0x485b8c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearPersistent, addr 0x48bcc40, size 0xbc, virtual false, abstract: false, final false
   inline void ClearPersistent();
 
   static inline ::UnityEngine::Events::InvokableCallList* New_ctor();
 
-  /// @brief Method PrepareInvoke, addr 0x485b984, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PrepareInvoke, addr 0x48bccfc, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
-  /// @brief Method RemoveListener, addr 0x485b59c, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x48bc914, size 0x270, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_ExecutingCalls();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* const& __cordl_internal_get_m_ExecutingCalls() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_ExecutingCalls() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_ExecutingCalls();
 
   constexpr bool const& __cordl_internal_get_m_NeedsUpdate() const;
 
   constexpr bool& __cordl_internal_get_m_NeedsUpdate();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* const& __cordl_internal_get_m_PersistentCalls() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_PersistentCalls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_PersistentCalls() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* const& __cordl_internal_get_m_RuntimeCalls() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_RuntimeCalls();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_RuntimeCalls() const;
 
   constexpr void __cordl_internal_set_m_ExecutingCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
@@ -90,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  /// @brief Method .ctor, addr 0x485ba38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48bcdb0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InvokableCallList(InvokableCallList const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10983 };
+
   /// @brief Field m_PersistentCalls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* ___m_PersistentCalls;
 
@@ -119,14 +121,9 @@ public:
   /// @brief Field m_NeedsUpdate, offset: 0x28, size: 0x1, def value: None
   bool ___m_NeedsUpdate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10950 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::InvokableCallList, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Events::InvokableCallList, ___m_PersistentCalls) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Events::InvokableCallList, ___m_RuntimeCalls) == 0x18, "Offset mismatch!");
@@ -134,6 +131,8 @@ static_assert(offsetof(::UnityEngine::Events::InvokableCallList, ___m_RuntimeCal
 static_assert(offsetof(::UnityEngine::Events::InvokableCallList, ___m_ExecutingCalls) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::Events::InvokableCallList, ___m_NeedsUpdate) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::InvokableCallList, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::InvokableCallList);

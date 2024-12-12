@@ -24,11 +24,10 @@ class XmlComment;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlComment);
-// Type: System.Xml::XmlComment
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.XmlCharacterData
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlComment*
+// CS Name: System.Xml.XmlComment
 class CORDL_TYPE XmlComment : public ::System::Xml::XmlCharacterData {
 public:
   // Declarations
@@ -38,27 +37,27 @@ public:
 
   __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x42d30f0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x4334404, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x42d318c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x43344a0, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x42d314c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x4334460, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x42d306c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4334380, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_LocalName, addr 0x42d30c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x43343d4, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x42d3098, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x43343ac, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x42d30e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x43343fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:
@@ -76,7 +75,7 @@ public:
   XmlComment(XmlComment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7288 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

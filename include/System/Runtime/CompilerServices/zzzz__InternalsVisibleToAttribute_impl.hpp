@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(::StringW)>(
     &::System::Runtime::CompilerServices::InternalsVisibleToAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cb9744;
+  constexpr static std::size_t addrs = 0x3d198b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(bool)>(
     &::System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_AllInternalsVisible)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cb9774;
+  constexpr static std::size_t addrs = 0x3d198e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,9 +56,6 @@ constexpr void System::Runtime::CompilerServices::InternalsVisibleToAttribute::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____allInternalsVisible = value;
 }
-inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor(::StringW assemblyName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::InternalsVisibleToAttribute*>(assemblyName));
-}
 inline void System::Runtime::CompilerServices::InternalsVisibleToAttribute::_ctor(::StringW assemblyName) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::InternalsVisibleToAttribute*>::get(), ".ctor",
@@ -70,6 +67,9 @@ inline void System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::InternalsVisibleToAttribute*>::get(), "set_AllInternalsVisible",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor(::StringW assemblyName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::InternalsVisibleToAttribute*>(assemblyName));
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::CompilerServices::InternalsVisibleToAttribute::InternalsVisibleToAttribute() {}

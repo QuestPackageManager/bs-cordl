@@ -3,54 +3,51 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHeadsetEmulator)
 namespace GlobalNamespace {
-class OVRManager;
+struct OVRHeadsetEmulator_OpMode;
 }
 namespace GlobalNamespace {
-struct __OVRHeadsetEmulator__OpMode;
+class OVRManager;
 }
 namespace UnityEngine {
 struct KeyCode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __OVRHeadsetEmulator__OpMode;
+struct OVRHeadsetEmulator_OpMode;
 }
 namespace GlobalNamespace {
 class OVRHeadsetEmulator;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__OVRHeadsetEmulator__OpMode);
+MARK_VAL_T(::GlobalNamespace::OVRHeadsetEmulator_OpMode);
 MARK_REF_PTR_T(::GlobalNamespace::OVRHeadsetEmulator);
-// Type: ::OpMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRHeadsetEmulator::OpMode
-struct CORDL_TYPE __OVRHeadsetEmulator__OpMode {
+// CS Name: OVRHeadsetEmulator/OpMode
+struct CORDL_TYPE OVRHeadsetEmulator_OpMode {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OVRHeadsetEmulator__OpMode_Unwrapped
-  enum struct ____OVRHeadsetEmulator__OpMode_Unwrapped : int32_t {
+  /// @brief Nested struct __OVRHeadsetEmulator_OpMode_Unwrapped
+  enum struct __OVRHeadsetEmulator_OpMode_Unwrapped : int32_t {
     __E_Off = static_cast<int32_t>(0x0),
     __E_EditorOnly = static_cast<int32_t>(0x1),
     __E_AlwaysOn = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRHeadsetEmulator__OpMode_Unwrapped() const noexcept {
-    return static_cast<____OVRHeadsetEmulator__OpMode_Unwrapped>(this->value__);
+  constexpr operator __OVRHeadsetEmulator_OpMode_Unwrapped() const noexcept {
+    return static_cast<__OVRHeadsetEmulator_OpMode_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -60,46 +57,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRHeadsetEmulator__OpMode();
+  constexpr OVRHeadsetEmulator_OpMode();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRHeadsetEmulator__OpMode(int32_t value__) noexcept;
+  constexpr OVRHeadsetEmulator_OpMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field AlwaysOn value: I32(2)
+  static ::GlobalNamespace::OVRHeadsetEmulator_OpMode const AlwaysOn;
 
-  /// @brief Field AlwaysOn value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const AlwaysOn;
+  /// @brief Field EditorOnly value: I32(1)
+  static ::GlobalNamespace::OVRHeadsetEmulator_OpMode const EditorOnly;
 
-  /// @brief Field EditorOnly value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const EditorOnly;
-
-  /// @brief Field Off value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const Off;
+  /// @brief Field Off value: I32(0)
+  static ::GlobalNamespace::OVRHeadsetEmulator_OpMode const Off;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRHeadsetEmulator__OpMode, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHeadsetEmulator_OpMode, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRHeadsetEmulator__OpMode, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHeadsetEmulator_OpMode, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRHeadsetEmulator
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRHeadsetEmulator::OpMode, UnityEngine.CursorLockMode, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRHeadsetEmulator*
+// CS Name: OVRHeadsetEmulator
 class CORDL_TYPE OVRHeadsetEmulator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using OpMode = ::GlobalNamespace::__OVRHeadsetEmulator__OpMode;
+  using OpMode = ::GlobalNamespace::OVRHeadsetEmulator_OpMode;
 
   /// @brief Field activateKeys, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_activateKeys, put = __cordl_internal_set_activateKeys)) ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> activateKeys;
@@ -117,7 +113,7 @@ public:
   __declspec(property(get = __cordl_internal_get_manager, put = __cordl_internal_set_manager)) ::UnityW<::GlobalNamespace::OVRManager> manager;
 
   /// @brief Field opMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_opMode, put = __cordl_internal_set_opMode)) ::GlobalNamespace::__OVRHeadsetEmulator__OpMode opMode;
+  __declspec(property(get = __cordl_internal_get_opMode, put = __cordl_internal_set_opMode)) ::GlobalNamespace::OVRHeadsetEmulator_OpMode opMode;
 
   /// @brief Field pitchKeys, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_pitchKeys, put = __cordl_internal_set_pitchKeys)) ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> pitchKeys;
@@ -139,18 +135,18 @@ public:
   /// @brief Field resetHmdPoseOnRelease, offset 0x24, size 0x1
   __declspec(property(get = __cordl_internal_get_resetHmdPoseOnRelease, put = __cordl_internal_set_resetHmdPoseOnRelease)) bool resetHmdPoseOnRelease;
 
-  /// @brief Method IsEmulationActivated, addr 0x3f54600, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method IsEmulationActivated, addr 0x3fb46ac, size 0xc8, virtual false, abstract: false, final false
   inline bool IsEmulationActivated();
 
-  /// @brief Method IsTweakingPitch, addr 0x3f546c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsTweakingPitch, addr 0x3fb4774, size 0x7c, virtual false, abstract: false, final false
   inline bool IsTweakingPitch();
 
   static inline ::GlobalNamespace::OVRHeadsetEmulator* New_ctor();
 
-  /// @brief Method Start, addr 0x3f54198, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fb4244, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3f5419c, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fb4248, size 0x464, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_activateKeys() const;
@@ -173,9 +169,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::OVRManager>& __cordl_internal_get_manager();
 
-  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const& __cordl_internal_get_opMode() const;
+  constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode const& __cordl_internal_get_opMode() const;
 
-  constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode& __cordl_internal_get_opMode();
+  constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode& __cordl_internal_get_opMode();
 
   constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_pitchKeys() const;
 
@@ -211,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_manager(::UnityW<::GlobalNamespace::OVRManager> value);
 
-  constexpr void __cordl_internal_set_opMode(::GlobalNamespace::__OVRHeadsetEmulator__OpMode value);
+  constexpr void __cordl_internal_set_opMode(::GlobalNamespace::OVRHeadsetEmulator_OpMode value);
 
   constexpr void __cordl_internal_set_pitchKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value);
 
@@ -225,7 +221,7 @@ public:
 
   constexpr void __cordl_internal_set_resetHmdPoseOnRelease(bool value);
 
-  /// @brief Method .ctor, addr 0x3f54744, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fb47f0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -242,8 +238,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OVRHeadsetEmulator(OVRHeadsetEmulator const&) = delete;
 
+  /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
+  static constexpr float_t MAX_ROLL{ static_cast<float_t>(85.0f) };
+
+  /// @brief Field MOUSE_SCALE_HEIGHT offset 0xffffffff size 0x4
+  static constexpr float_t MOUSE_SCALE_HEIGHT{ static_cast<float_t>(1.0f) };
+
+  /// @brief Field MOUSE_SCALE_X offset 0xffffffff size 0x4
+  static constexpr float_t MOUSE_SCALE_X{ static_cast<float_t>(-2.0f) };
+
+  /// @brief Field MOUSE_SCALE_X_PITCH offset 0xffffffff size 0x4
+  static constexpr float_t MOUSE_SCALE_X_PITCH{ static_cast<float_t>(-2.0f) };
+
+  /// @brief Field MOUSE_SCALE_Y offset 0xffffffff size 0x4
+  static constexpr float_t MOUSE_SCALE_Y{ static_cast<float_t>(2.0f) };
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7890 };
+
   /// @brief Field opMode, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRHeadsetEmulator__OpMode ___opMode;
+  ::GlobalNamespace::OVRHeadsetEmulator_OpMode ___opMode;
 
   /// @brief Field resetHmdPoseOnRelease, offset: 0x24, size: 0x1, def value: None
   bool ___resetHmdPoseOnRelease;
@@ -278,29 +292,9 @@ public:
   /// @brief Field previousCursorLockMode, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::CursorLockMode ___previousCursorLockMode;
 
-  /// @brief Field MAX_ROLL offset 0xffffffff size 0x4
-  static constexpr float_t MAX_ROLL{ 85.0 };
-
-  /// @brief Field MOUSE_SCALE_HEIGHT offset 0xffffffff size 0x4
-  static constexpr float_t MOUSE_SCALE_HEIGHT{ 1.0 };
-
-  /// @brief Field MOUSE_SCALE_X offset 0xffffffff size 0x4
-  static constexpr float_t MOUSE_SCALE_X{ -2.0 };
-
-  /// @brief Field MOUSE_SCALE_X_PITCH offset 0xffffffff size 0x4
-  static constexpr float_t MOUSE_SCALE_X_PITCH{ -2.0 };
-
-  /// @brief Field MOUSE_SCALE_Y offset 0xffffffff size 0x4
-  static constexpr float_t MOUSE_SCALE_Y{ 2.0 };
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7865 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHeadsetEmulator, 0x68>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRHeadsetEmulator, ___opMode) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRHeadsetEmulator, ___resetHmdPoseOnRelease) == 0x24, "Offset mismatch!");
@@ -325,7 +319,9 @@ static_assert(offsetof(::GlobalNamespace::OVRHeadsetEmulator, ___emulatorHasInit
 
 static_assert(offsetof(::GlobalNamespace::OVRHeadsetEmulator, ___previousCursorLockMode) == 0x60, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHeadsetEmulator, 0x68>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRHeadsetEmulator__OpMode, "", "OVRHeadsetEmulator/OpMode");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHeadsetEmulator_OpMode, "", "OVRHeadsetEmulator/OpMode");
 NEED_NO_BOX(::GlobalNamespace::OVRHeadsetEmulator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");

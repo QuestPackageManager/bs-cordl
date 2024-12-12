@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectIDGenerator)
 namespace System {
@@ -17,11 +15,10 @@ class ObjectIDGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectIDGenerator);
-// Type: System.Runtime.Serialization::ObjectIDGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::ObjectIDGenerator*
+// CS Name: System.Runtime.Serialization.ObjectIDGenerator
 class CORDL_TYPE ObjectIDGenerator : public ::System::Object {
 public:
   // Declarations
@@ -38,20 +35,20 @@ public:
   __declspec(property(get = __cordl_internal_get_m_objs, put = __cordl_internal_set_m_objs)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_objs;
 
   /// @brief Field sizes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes)) ::ArrayW<int32_t, ::Array<int32_t>*> sizes;
+  __declspec(property(get = getStaticF_sizes, put = setStaticF_sizes)) ::ArrayW<int32_t, ::Array<int32_t>*> sizes;
 
-  /// @brief Method FindElement, addr 0x3c95f3c, size 0xc4, virtual false, abstract: false, final false
-  inline int32_t FindElement(::System::Object* obj, ByRef<bool> found);
+  /// @brief Method FindElement, addr 0x3cf60b0, size 0xc4, virtual false, abstract: false, final false
+  inline int32_t FindElement(::System::Object* obj, ::ByRef<bool> found);
 
-  /// @brief Method GetId, addr 0x3c96000, size 0x180, virtual true, abstract: false, final false
-  inline int64_t GetId(::System::Object* obj, ByRef<bool> firstTime);
+  /// @brief Method GetId, addr 0x3cf6174, size 0x180, virtual true, abstract: false, final false
+  inline int64_t GetId(::System::Object* obj, ::ByRef<bool> firstTime);
 
-  /// @brief Method HasId, addr 0x3c9642c, size 0xd0, virtual true, abstract: false, final false
-  inline int64_t HasId(::System::Object* obj, ByRef<bool> firstTime);
+  /// @brief Method HasId, addr 0x3cf65a0, size 0xd0, virtual true, abstract: false, final false
+  inline int64_t HasId(::System::Object* obj, ::ByRef<bool> firstTime);
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method Rehash, addr 0x3c96180, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Rehash, addr 0x3cf62f4, size 0x2ac, virtual false, abstract: false, final false
   inline void Rehash();
 
   constexpr int32_t const& __cordl_internal_get_m_currentCount() const;
@@ -78,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_m_objs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x3c95e64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf5fd8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_sizes();
@@ -99,6 +96,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectIDGenerator(ObjectIDGenerator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3216 };
+
   /// @brief Field m_currentCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_currentCount;
 
@@ -111,14 +111,9 @@ public:
   /// @brief Field m_objs, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_objs;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3216 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ObjectIDGenerator, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::ObjectIDGenerator, ___m_currentCount) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::ObjectIDGenerator, ___m_currentSize) == 0x14, "Offset mismatch!");
@@ -126,6 +121,8 @@ static_assert(offsetof(::System::Runtime::Serialization::ObjectIDGenerator, ___m
 static_assert(offsetof(::System::Runtime::Serialization::ObjectIDGenerator, ___m_ids) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::ObjectIDGenerator, ___m_objs) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::ObjectIDGenerator, 0x28>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::ObjectIDGenerator);

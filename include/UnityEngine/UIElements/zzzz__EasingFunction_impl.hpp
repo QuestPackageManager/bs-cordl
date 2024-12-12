@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/EasingFunction.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingFunction_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EasingFunction.get_mode
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EasingMode (::UnityEngine::UIElements::EasingFunction::*)()>(
     &::UnityEngine::UIElements::EasingFunction::get_mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0497c;
+  constexpr static std::size_t addrs = 0x4a6928c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EasingFunction>::get(), "get_mode",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a04984;
+  constexpr static std::size_t addrs = 0x4a69294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EasingFunction (*)(::UnityEngine::UIElements::EasingMode)>(
     &::UnityEngine::UIElements::EasingFunction::op_Implicit___UnityEngine__UIElements__EasingFunction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a03b04;
+  constexpr static std::size_t addrs = 0x4a68414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::EasingFunction, ::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a0498c;
+  constexpr static std::size_t addrs = 0x4a6929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::UnityEngine::UIElements::EasingFunction)>(
     &::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a04998;
+  constexpr static std::size_t addrs = 0x4a692a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EasingFunction::*)(::System::Object*)>(
     &::UnityEngine::UIElements::EasingFunction::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a049a8;
+  constexpr static std::size_t addrs = 0x4a692b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a04a20;
+  constexpr static std::size_t addrs = 0x4a69330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::EasingFunction::*)()>(&::UnityEngine::UIElements::EasingFunction::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a036e4;
+  constexpr static std::size_t addrs = 0x4a67ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,14 +123,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
-constexpr UnityEngine::UIElements::EasingFunction::operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::EasingFunction::i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline ::UnityEngine::UIElements::EasingMode UnityEngine::UIElements::EasingFunction::get_mode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EasingFunction>::get(), "get_mode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -175,6 +167,14 @@ inline int32_t UnityEngine::UIElements::EasingFunction::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EasingFunction>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
+constexpr UnityEngine::UIElements::EasingFunction::operator ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>* UnityEngine::UIElements::EasingFunction::i___System__IEquatable_1___UnityEngine__UIElements__EasingFunction_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::EasingFunction>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UIElements::EasingMode", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::EasingFunction::EasingFunction(::UnityEngine::UIElements::EasingMode m_Mode) noexcept {

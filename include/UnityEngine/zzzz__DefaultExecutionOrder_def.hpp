@@ -12,11 +12,10 @@ class DefaultExecutionOrder;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::DefaultExecutionOrder);
-// Type: UnityEngine::DefaultExecutionOrder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::DefaultExecutionOrder*
+// CS Name: UnityEngine.DefaultExecutionOrder
 class CORDL_TYPE DefaultExecutionOrder : public ::System::Attribute {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Order(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4845804, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48a6538, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t order);
 
-  /// @brief Method get_order, addr 0x4845530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x48a6264, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultExecutionOrder(DefaultExecutionOrder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10864 };
+
   /// @brief Field m_Order, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Order;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::DefaultExecutionOrder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::DefaultExecutionOrder, ___m_Order) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::DefaultExecutionOrder, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::DefaultExecutionOrder);

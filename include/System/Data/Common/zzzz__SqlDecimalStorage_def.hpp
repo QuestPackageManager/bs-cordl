@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Data/Common/zzzz__DataStorage_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SqlDecimalStorage)
@@ -29,59 +28,58 @@ class SqlDecimalStorage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::Common::SqlDecimalStorage);
-// Type: System.Data.Common::SqlDecimalStorage
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.Common.DataStorage
 namespace System::Data::Common {
 // Is value type: false
-// CS Name: ::System.Data.Common::SqlDecimalStorage*
+// CS Name: System.Data.Common.SqlDecimalStorage
 class CORDL_TYPE SqlDecimalStorage : public ::System::Data::Common::DataStorage {
 public:
   // Declarations
   /// @brief Field _values, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlDecimal, ::Array<::System::Data::SqlTypes::SqlDecimal>*> _values;
 
-  /// @brief Method Aggregate, addr 0x4194ff0, size 0xf68, virtual true, abstract: false, final false
+  /// @brief Method Aggregate, addr 0x41f6304, size 0xf68, virtual true, abstract: false, final false
   inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
 
-  /// @brief Method Compare, addr 0x4195f58, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x41f726c, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CompareValueTo, addr 0x4196028, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method CompareValueTo, addr 0x41f733c, size 0xdc, virtual true, abstract: false, final false
   inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
 
-  /// @brief Method ConvertObjectToXml, addr 0x4196714, size 0x2a4, virtual true, abstract: false, final false
+  /// @brief Method ConvertObjectToXml, addr 0x41f7a28, size 0x2a4, virtual true, abstract: false, final false
   inline ::StringW ConvertObjectToXml(::System::Object* value);
 
-  /// @brief Method ConvertValue, addr 0x4196104, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method ConvertValue, addr 0x41f7418, size 0x80, virtual true, abstract: false, final false
   inline ::System::Object* ConvertValue(::System::Object* value);
 
-  /// @brief Method ConvertXmlToObject, addr 0x4196420, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method ConvertXmlToObject, addr 0x41f7734, size 0x2f4, virtual true, abstract: false, final false
   inline ::System::Object* ConvertXmlToObject(::StringW s);
 
-  /// @brief Method Copy, addr 0x4196184, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x41f7498, size 0x68, virtual true, abstract: false, final false
   inline void Copy(int32_t recordNo1, int32_t recordNo2);
 
-  /// @brief Method CopyValue, addr 0x4196a00, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CopyValue, addr 0x41f7d14, size 0x130, virtual true, abstract: false, final false
   inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
 
-  /// @brief Method Get, addr 0x41961ec, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x41f7500, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* Get(int32_t record);
 
-  /// @brief Method GetEmptyStorage, addr 0x41969b8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetEmptyStorage, addr 0x41f7ccc, size 0x48, virtual true, abstract: false, final false
   inline ::System::Object* GetEmptyStorage(int32_t recordCount);
 
-  /// @brief Method IsNull, addr 0x4196278, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method IsNull, addr 0x41f758c, size 0x80, virtual true, abstract: false, final false
   inline bool IsNull(int32_t record);
 
   static inline ::System::Data::Common::SqlDecimalStorage* New_ctor(::System::Data::DataColumn* column);
 
-  /// @brief Method Set, addr 0x41962f8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Set, addr 0x41f760c, size 0x70, virtual true, abstract: false, final false
   inline void Set(int32_t record, ::System::Object* value);
 
-  /// @brief Method SetCapacity, addr 0x4196368, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method SetCapacity, addr 0x41f767c, size 0xb8, virtual true, abstract: false, final false
   inline void SetCapacity(int32_t capacity);
 
-  /// @brief Method SetStorage, addr 0x4196b30, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetStorage, addr 0x41f7e44, size 0x98, virtual true, abstract: false, final false
   inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
 
   constexpr ::ArrayW<::System::Data::SqlTypes::SqlDecimal, ::Array<::System::Data::SqlTypes::SqlDecimal>*> const& __cordl_internal_get__values() const;
@@ -90,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlDecimal, ::Array<::System::Data::SqlTypes::SqlDecimal>*> value);
 
-  /// @brief Method .ctor, addr 0x417ef90, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x41e02a4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataColumn* column);
 
 protected:
@@ -107,18 +105,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SqlDecimalStorage(SqlDecimalStorage const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11540 };
+
   /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::System::Data::SqlTypes::SqlDecimal, ::Array<::System::Data::SqlTypes::SqlDecimal>*> ____values;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11507 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::Common::SqlDecimalStorage, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::Common::SqlDecimalStorage, ____values) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Data::Common::SqlDecimalStorage, 0x58>, "Size mismatch!");
 
 } // namespace System::Data::Common
 NEED_NO_BOX(::System::Data::Common::SqlDecimalStorage);

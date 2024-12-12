@@ -15,11 +15,10 @@ class OVRDebugHeadController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRDebugHeadController);
-// Type: ::OVRDebugHeadController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRDebugHeadController*
+// CS Name: OVRDebugHeadController
 class CORDL_TYPE OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,15 +49,15 @@ public:
   /// @brief Field StrafeSpeed, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_StrafeSpeed, put = __cordl_internal_set_StrafeSpeed)) float_t StrafeSpeed;
 
-  /// @brief Method Awake, addr 0x3f463cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3fa6478, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method Start, addr 0x3f464c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3fa6574, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3f464cc, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3fa6578, size 0x534, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_AllowMovement() const;
@@ -115,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_StrafeSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f46a00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3fa6aac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -131,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRDebugHeadController(OVRDebugHeadController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7849 };
 
   /// @brief Field AllowPitchLook, offset: 0x20, size: 0x1, def value: None
   bool ___AllowPitchLook;
@@ -159,14 +161,9 @@ public:
   /// @brief Field CameraRig, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___CameraRig;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7824 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDebugHeadController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___AllowPitchLook) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___AllowYawLook) == 0x21, "Offset mismatch!");
@@ -184,6 +181,8 @@ static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___ForwardSpee
 static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___StrafeSpeed) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRDebugHeadController, ___CameraRig) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDebugHeadController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRDebugHeadController);

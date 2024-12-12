@@ -15,11 +15,10 @@ class ZenjectException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ZenjectException);
-// Type: Zenject::ZenjectException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::ZenjectException*
+// CS Name: Zenject.ZenjectException
 class CORDL_TYPE ZenjectException : public ::System::Exception {
 public:
   // Declarations
@@ -27,10 +26,10 @@ public:
 
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x4aeec60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b53570, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x4aeecc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b535d8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -48,7 +47,7 @@ public:
   ZenjectException(ZenjectException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

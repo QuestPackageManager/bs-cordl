@@ -6,110 +6,105 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRDeserialize)
 namespace GlobalNamespace {
-struct __OVRDeserialize__DisplayRefreshRateChangedData;
+struct OVRDeserialize_DisplayRefreshRateChangedData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SceneCaptureCompleteData;
+struct OVRDeserialize_SceneCaptureCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceEraseCompleteData;
+struct OVRDeserialize_SpaceEraseCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceListSaveResultData;
+struct OVRDeserialize_SpaceListSaveResultData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
+struct OVRDeserialize_SpaceQueryCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryResultsData;
+struct OVRDeserialize_SpaceQueryResultsData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSaveCompleteData;
+struct OVRDeserialize_SpaceSaveCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
+struct OVRDeserialize_SpaceSetComponentStatusCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceShareResultData;
+struct OVRDeserialize_SpaceShareResultData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceComponentType;
-}
-namespace GlobalNamespace {
-struct __OVRPlugin__SpaceStorageLocation;
-}
-namespace System {
-struct Guid;
+struct OVRDeserialize_SpatialAnchorCreateCompleteData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRDeserialize;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__DisplayRefreshRateChangedData;
+struct OVRDeserialize_DisplayRefreshRateChangedData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SceneCaptureCompleteData;
+struct OVRDeserialize_SceneCaptureCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceEraseCompleteData;
+struct OVRDeserialize_SpaceEraseCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceListSaveResultData;
+struct OVRDeserialize_SpaceListSaveResultData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryCompleteData;
+struct OVRDeserialize_SpaceQueryCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceQueryResultsData;
+struct OVRDeserialize_SpaceQueryResultsData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSaveCompleteData;
+struct OVRDeserialize_SpaceSaveCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceSetComponentStatusCompleteData;
+struct OVRDeserialize_SpaceSetComponentStatusCompleteData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpaceShareResultData;
+struct OVRDeserialize_SpaceShareResultData;
 }
 namespace GlobalNamespace {
-struct __OVRDeserialize__SpatialAnchorCreateCompleteData;
+struct OVRDeserialize_SpatialAnchorCreateCompleteData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRDeserialize);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData);
-MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData);
-// Type: ::DisplayRefreshRateChangedData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceQueryResultsData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpaceShareResultData);
+MARK_VAL_T(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData);
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::DisplayRefreshRateChangedData
-struct CORDL_TYPE __OVRDeserialize__DisplayRefreshRateChangedData {
+// CS Name: OVRDeserialize/DisplayRefreshRateChangedData
+struct CORDL_TYPE OVRDeserialize_DisplayRefreshRateChangedData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__DisplayRefreshRateChangedData();
+  constexpr OVRDeserialize_DisplayRefreshRateChangedData();
 
   // Ctor Parameters [CppParam { name: "FromRefreshRate", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ToRefreshRate", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__DisplayRefreshRateChangedData(float_t FromRefreshRate, float_t ToRefreshRate) noexcept;
+  constexpr OVRDeserialize_DisplayRefreshRateChangedData(float_t FromRefreshRate, float_t ToRefreshRate) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8404 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field FromRefreshRate, offset: 0x0, size: 0x4, def value: None
   float_t FromRefreshRate;
@@ -117,68 +112,66 @@ public:
   /// @brief Field ToRefreshRate, offset: 0x4, size: 0x4, def value: None
   float_t ToRefreshRate;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8379 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, 0x8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData, FromRefreshRate) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, FromRefreshRate) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData, ToRefreshRate) == 0x4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, ToRefreshRate) == 0x4, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData, 0x8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceQueryResultsData
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceQueryResultsData
-struct CORDL_TYPE __OVRDeserialize__SpaceQueryResultsData {
+// CS Name: OVRDeserialize/SpaceQueryResultsData
+struct CORDL_TYPE OVRDeserialize_SpaceQueryResultsData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceQueryResultsData();
+  constexpr OVRDeserialize_SpaceQueryResultsData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceQueryResultsData(uint64_t RequestId) noexcept;
-
-  /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
-  uint64_t RequestId;
+  constexpr OVRDeserialize_SpaceQueryResultsData(uint64_t RequestId) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
+  uint64_t RequestId;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData, 0x8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceQueryResultsData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceQueryResultsData, 0x8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceQueryCompleteData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceQueryCompleteData
-struct CORDL_TYPE __OVRDeserialize__SpaceQueryCompleteData {
+// CS Name: OVRDeserialize/SpaceQueryCompleteData
+struct CORDL_TYPE OVRDeserialize_SpaceQueryCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceQueryCompleteData();
+  constexpr OVRDeserialize_SpaceQueryCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceQueryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
+  constexpr OVRDeserialize_SpaceQueryCompleteData(uint64_t RequestId, int32_t Result) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8406 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -186,36 +179,35 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8381 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, Result) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SceneCaptureCompleteData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SceneCaptureCompleteData
-struct CORDL_TYPE __OVRDeserialize__SceneCaptureCompleteData {
+// CS Name: OVRDeserialize/SceneCaptureCompleteData
+struct CORDL_TYPE OVRDeserialize_SceneCaptureCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SceneCaptureCompleteData();
+  constexpr OVRDeserialize_SceneCaptureCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SceneCaptureCompleteData(uint64_t RequestId, int32_t Result) noexcept;
+  constexpr OVRDeserialize_SceneCaptureCompleteData(uint64_t RequestId, int32_t Result) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8407 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -223,37 +215,36 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8382 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, Result) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpatialAnchorCreateCompleteData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Guid
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpatialAnchorCreateCompleteData
-struct CORDL_TYPE __OVRDeserialize__SpatialAnchorCreateCompleteData {
+// CS Name: OVRDeserialize/SpatialAnchorCreateCompleteData
+struct CORDL_TYPE OVRDeserialize_SpatialAnchorCreateCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpatialAnchorCreateCompleteData();
+  constexpr OVRDeserialize_SpatialAnchorCreateCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpatialAnchorCreateCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid) noexcept;
+  constexpr OVRDeserialize_SpatialAnchorCreateCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8408 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -267,43 +258,42 @@ public:
   /// @brief Field Uuid, offset: 0x18, size: 0x10, def value: None
   ::System::Guid Uuid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Result) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, Space) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Space) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, Uuid) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, Uuid) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceSetComponentStatusCompleteData
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRPlugin::SpaceComponentType, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceSetComponentStatusCompleteData
-struct CORDL_TYPE __OVRDeserialize__SpaceSetComponentStatusCompleteData {
+// CS Name: OVRDeserialize/SpaceSetComponentStatusCompleteData
+struct CORDL_TYPE OVRDeserialize_SpaceSetComponentStatusCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceSetComponentStatusCompleteData();
+  constexpr OVRDeserialize_SpaceSetComponentStatusCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "ComponentType", ty:
-  // "::GlobalNamespace::__OVRPlugin__SpaceComponentType", modifiers: "", def_value: None }, CppParam { name: "Enabled", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceSetComponentStatusCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid,
-                                                                  ::GlobalNamespace::__OVRPlugin__SpaceComponentType ComponentType, int32_t Enabled) noexcept;
+  // "::GlobalNamespace::OVRPlugin_SpaceComponentType", modifiers: "", def_value: None }, CppParam { name: "Enabled", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OVRDeserialize_SpaceSetComponentStatusCompleteData(uint64_t RequestId, int32_t Result, uint64_t Space, ::System::Guid Uuid, ::GlobalNamespace::OVRPlugin_SpaceComponentType ComponentType,
+                                                               int32_t Enabled) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8409 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -318,50 +308,49 @@ public:
   ::System::Guid Uuid;
 
   /// @brief Field ComponentType, offset: 0x28, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRPlugin__SpaceComponentType ComponentType;
+  ::GlobalNamespace::OVRPlugin_SpaceComponentType ComponentType;
 
   /// @brief Field Enabled, offset: 0x2c, size: 0x4, def value: None
   int32_t Enabled;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8384 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Result) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, Space) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Space) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, Uuid) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Uuid) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, ComponentType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, ComponentType) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, Enabled) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, Enabled) == 0x2c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceSaveCompleteData
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Guid
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceSaveCompleteData
-struct CORDL_TYPE __OVRDeserialize__SpaceSaveCompleteData {
+// CS Name: OVRDeserialize/SpaceSaveCompleteData
+struct CORDL_TYPE OVRDeserialize_SpaceSaveCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceSaveCompleteData();
+  constexpr OVRDeserialize_SpaceSaveCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Space", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name:
   // "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceSaveCompleteData(uint64_t RequestId, uint64_t Space, int32_t Result, ::System::Guid Uuid) noexcept;
+  constexpr OVRDeserialize_SpaceSaveCompleteData(uint64_t RequestId, uint64_t Space, int32_t Result, ::System::Guid Uuid) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8410 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -375,41 +364,40 @@ public:
   /// @brief Field Uuid, offset: 0x14, size: 0x10, def value: None
   ::System::Guid Uuid;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8385 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, Space) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Space) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, Result) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Result) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, Uuid) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, Uuid) == 0x14, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceEraseCompleteData
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVRPlugin::SpaceStorageLocation, System.Guid
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceEraseCompleteData
-struct CORDL_TYPE __OVRDeserialize__SpaceEraseCompleteData {
+// CS Name: OVRDeserialize/SpaceEraseCompleteData
+struct CORDL_TYPE OVRDeserialize_SpaceEraseCompleteData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceEraseCompleteData();
+  constexpr OVRDeserialize_SpaceEraseCompleteData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "Location", ty: "::GlobalNamespace::__OVRPlugin__SpaceStorageLocation", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceEraseCompleteData(uint64_t RequestId, int32_t Result, ::System::Guid Uuid, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation Location) noexcept;
+  // "Uuid", ty: "::System::Guid", modifiers: "", def_value: None }, CppParam { name: "Location", ty: "::GlobalNamespace::OVRPlugin_SpaceStorageLocation", modifiers: "", def_value: None }]
+  constexpr OVRDeserialize_SpaceEraseCompleteData(uint64_t RequestId, int32_t Result, ::System::Guid Uuid, ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8411 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -421,42 +409,41 @@ public:
   ::System::Guid Uuid;
 
   /// @brief Field Location, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation Location;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8386 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+  ::GlobalNamespace::OVRPlugin_SpaceStorageLocation Location;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Result) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, Uuid) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Uuid) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, Location) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, Location) == 0x1c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceShareResultData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceShareResultData
-struct CORDL_TYPE __OVRDeserialize__SpaceShareResultData {
+// CS Name: OVRDeserialize/SpaceShareResultData
+struct CORDL_TYPE OVRDeserialize_SpaceShareResultData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceShareResultData();
+  constexpr OVRDeserialize_SpaceShareResultData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceShareResultData(uint64_t RequestId, int32_t Result) noexcept;
+  constexpr OVRDeserialize_SpaceShareResultData(uint64_t RequestId, int32_t Result) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8412 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -464,36 +451,35 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8387 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceShareResultData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceShareResultData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, Result) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceShareResultData, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpaceListSaveResultData
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::OVRDeserialize::SpaceListSaveResultData
-struct CORDL_TYPE __OVRDeserialize__SpaceListSaveResultData {
+// CS Name: OVRDeserialize/SpaceListSaveResultData
+struct CORDL_TYPE OVRDeserialize_SpaceListSaveResultData {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __OVRDeserialize__SpaceListSaveResultData();
+  constexpr OVRDeserialize_SpaceListSaveResultData();
 
   // Ctor Parameters [CppParam { name: "RequestId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Result", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRDeserialize__SpaceListSaveResultData(uint64_t RequestId, int32_t Result) noexcept;
+  constexpr OVRDeserialize_SpaceListSaveResultData(uint64_t RequestId, int32_t Result) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8413 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field RequestId, offset: 0x0, size: 0x8, def value: None
   uint64_t RequestId;
@@ -501,49 +487,42 @@ public:
   /// @brief Field Result, offset: 0x8, size: 0x4, def value: None
   int32_t Result;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8388 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, 0x10>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData, RequestId) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, RequestId) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData, Result) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, Result) == 0x8, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::OVRDeserialize
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRDeserialize*
+// CS Name: OVRDeserialize
 class CORDL_TYPE OVRDeserialize : public ::System::Object {
 public:
   // Declarations
-  using DisplayRefreshRateChangedData = ::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData;
+  using DisplayRefreshRateChangedData = ::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData;
 
-  using SceneCaptureCompleteData = ::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData;
+  using SceneCaptureCompleteData = ::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData;
 
-  using SpaceEraseCompleteData = ::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData;
+  using SpaceEraseCompleteData = ::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData;
 
-  using SpaceListSaveResultData = ::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData;
+  using SpaceListSaveResultData = ::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData;
 
-  using SpaceQueryCompleteData = ::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData;
+  using SpaceQueryCompleteData = ::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData;
 
-  using SpaceQueryResultsData = ::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData;
+  using SpaceQueryResultsData = ::GlobalNamespace::OVRDeserialize_SpaceQueryResultsData;
 
-  using SpaceSaveCompleteData = ::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData;
+  using SpaceSaveCompleteData = ::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData;
 
-  using SpaceSetComponentStatusCompleteData = ::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData;
+  using SpaceSetComponentStatusCompleteData = ::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData;
 
-  using SpaceShareResultData = ::GlobalNamespace::__OVRDeserialize__SpaceShareResultData;
+  using SpaceShareResultData = ::GlobalNamespace::OVRDeserialize_SpaceShareResultData;
 
-  using SpatialAnchorCreateCompleteData = ::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData;
+  using SpatialAnchorCreateCompleteData = ::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData;
 
   /// @brief Method ByteArrayToStructure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ByteArrayToStructure(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
@@ -563,7 +542,7 @@ public:
   OVRDeserialize(OVRDeserialize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -573,13 +552,13 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRDeserialize,
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRDeserialize);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize*, "", "OVRDeserialize");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateChangedData, "", "OVRDeserialize/DisplayRefreshRateChangedData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SceneCaptureCompleteData, "", "OVRDeserialize/SceneCaptureCompleteData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteData, "", "OVRDeserialize/SpaceEraseCompleteData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultData, "", "OVRDeserialize/SpaceListSaveResultData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteData, "", "OVRDeserialize/SpaceQueryCompleteData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsData, "", "OVRDeserialize/SpaceQueryResultsData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteData, "", "OVRDeserialize/SpaceSaveCompleteData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentStatusCompleteData, "", "OVRDeserialize/SpaceSetComponentStatusCompleteData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData, "", "OVRDeserialize/SpaceShareResultData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData, "", "OVRDeserialize/SpatialAnchorCreateCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_DisplayRefreshRateChangedData, "", "OVRDeserialize/DisplayRefreshRateChangedData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SceneCaptureCompleteData, "", "OVRDeserialize/SceneCaptureCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceEraseCompleteData, "", "OVRDeserialize/SpaceEraseCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceListSaveResultData, "", "OVRDeserialize/SpaceListSaveResultData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceQueryCompleteData, "", "OVRDeserialize/SpaceQueryCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceQueryResultsData, "", "OVRDeserialize/SpaceQueryResultsData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceSaveCompleteData, "", "OVRDeserialize/SpaceSaveCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceSetComponentStatusCompleteData, "", "OVRDeserialize/SpaceSetComponentStatusCompleteData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpaceShareResultData, "", "OVRDeserialize/SpaceShareResultData");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRDeserialize_SpatialAnchorCreateCompleteData, "", "OVRDeserialize/SpatialAnchorCreateCompleteData");

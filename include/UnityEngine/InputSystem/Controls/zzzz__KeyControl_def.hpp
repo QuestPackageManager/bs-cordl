@@ -16,11 +16,10 @@ class KeyControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::KeyControl);
-// Type: UnityEngine.InputSystem.Controls::KeyControl
-// SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.Controls.ButtonControl, UnityEngine.InputSystem.Key
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Controls::KeyControl*
+// CS Name: UnityEngine.InputSystem.Controls.KeyControl
 class CORDL_TYPE KeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
@@ -36,7 +35,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Controls::KeyControl* New_ctor();
 
-  /// @brief Method RefreshConfiguration, addr 0x4500620, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x4561934, size 0x170, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
   constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__keyCode_k__BackingField() const;
@@ -51,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4500790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4561aa4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyCode, addr 0x45005f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x4561908, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
-  /// @brief Method get_scanCode, addr 0x4500604, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_scanCode, addr 0x4561918, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
-  /// @brief Method set_keyCode, addr 0x45005fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x4561910, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
 protected:
@@ -77,23 +76,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeyControl(KeyControl const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7043 };
+
   /// @brief Field <keyCode>k__BackingField, offset: 0x130, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____keyCode_k__BackingField;
 
   /// @brief Field m_ScanCode, offset: 0x134, size: 0x4, def value: None
   int32_t ___m_ScanCode;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7018 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::KeyControl, 0x138>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ____keyCode_k__BackingField) == 0x130, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ___m_ScanCode) == 0x134, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::KeyControl, 0x138>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::KeyControl);

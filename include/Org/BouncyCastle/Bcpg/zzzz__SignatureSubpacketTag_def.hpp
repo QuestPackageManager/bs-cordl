@@ -12,11 +12,10 @@ struct SignatureSubpacketTag;
 }
 // Write type traits
 MARK_VAL_T(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag);
-// Type: Org.BouncyCastle.Bcpg::SignatureSubpacketTag
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacketTag
+// CS Name: Org.BouncyCastle.Bcpg.SignatureSubpacketTag
 struct CORDL_TYPE SignatureSubpacketTag {
 public:
   // Declarations
@@ -67,79 +66,76 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SignatureSubpacketTag(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field CreationTime value: static_cast<int32_t>(0x2)
+  /// @brief Field CreationTime value: I32(2)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const CreationTime;
 
-  /// @brief Field EmbeddedSignature value: static_cast<int32_t>(0x20)
+  /// @brief Field EmbeddedSignature value: I32(32)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const EmbeddedSignature;
 
-  /// @brief Field ExpireTime value: static_cast<int32_t>(0x3)
+  /// @brief Field ExpireTime value: I32(3)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const ExpireTime;
 
-  /// @brief Field Exportable value: static_cast<int32_t>(0x4)
+  /// @brief Field Exportable value: I32(4)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Exportable;
 
-  /// @brief Field Features value: static_cast<int32_t>(0x1e)
+  /// @brief Field Features value: I32(30)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Features;
 
-  /// @brief Field IssuerKeyId value: static_cast<int32_t>(0x10)
+  /// @brief Field IssuerKeyId value: I32(16)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const IssuerKeyId;
 
-  /// @brief Field KeyExpireTime value: static_cast<int32_t>(0x9)
+  /// @brief Field KeyExpireTime value: I32(9)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyExpireTime;
 
-  /// @brief Field KeyFlags value: static_cast<int32_t>(0x1b)
+  /// @brief Field KeyFlags value: I32(27)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyFlags;
 
-  /// @brief Field KeyServerPreferences value: static_cast<int32_t>(0x17)
+  /// @brief Field KeyServerPreferences value: I32(23)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const KeyServerPreferences;
 
-  /// @brief Field NotationData value: static_cast<int32_t>(0x14)
+  /// @brief Field NotationData value: I32(20)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const NotationData;
 
-  /// @brief Field Placeholder value: static_cast<int32_t>(0xa)
+  /// @brief Field Placeholder value: I32(10)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Placeholder;
 
-  /// @brief Field PolicyUrl value: static_cast<int32_t>(0x1a)
+  /// @brief Field PolicyUrl value: I32(26)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PolicyUrl;
 
-  /// @brief Field PreferredCompressionAlgorithms value: static_cast<int32_t>(0x16)
+  /// @brief Field PreferredCompressionAlgorithms value: I32(22)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredCompressionAlgorithms;
 
-  /// @brief Field PreferredHashAlgorithms value: static_cast<int32_t>(0x15)
+  /// @brief Field PreferredHashAlgorithms value: I32(21)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredHashAlgorithms;
 
-  /// @brief Field PreferredKeyServer value: static_cast<int32_t>(0x18)
+  /// @brief Field PreferredKeyServer value: I32(24)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredKeyServer;
 
-  /// @brief Field PreferredSymmetricAlgorithms value: static_cast<int32_t>(0xb)
+  /// @brief Field PreferredSymmetricAlgorithms value: I32(11)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PreferredSymmetricAlgorithms;
 
-  /// @brief Field PrimaryUserId value: static_cast<int32_t>(0x19)
+  /// @brief Field PrimaryUserId value: I32(25)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const PrimaryUserId;
 
-  /// @brief Field RegExp value: static_cast<int32_t>(0x6)
+  /// @brief Field RegExp value: I32(6)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RegExp;
 
-  /// @brief Field Revocable value: static_cast<int32_t>(0x7)
+  /// @brief Field Revocable value: I32(7)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const Revocable;
 
-  /// @brief Field RevocationKey value: static_cast<int32_t>(0xc)
+  /// @brief Field RevocationKey value: I32(12)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationKey;
 
-  /// @brief Field RevocationReason value: static_cast<int32_t>(0x1d)
+  /// @brief Field RevocationReason value: I32(29)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const RevocationReason;
 
-  /// @brief Field SignatureTarget value: static_cast<int32_t>(0x1f)
+  /// @brief Field SignatureTarget value: I32(31)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignatureTarget;
 
-  /// @brief Field SignerUserId value: static_cast<int32_t>(0x1c)
+  /// @brief Field SignerUserId value: I32(28)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const SignerUserId;
 
-  /// @brief Field TrustSig value: static_cast<int32_t>(0x5)
+  /// @brief Field TrustSig value: I32(5)
   static ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const TrustSig;
 
   /// @brief IL2CPP Metadata Type Index
@@ -148,12 +144,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, 0x4>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, "Org.BouncyCastle.Bcpg", "SignatureSubpacketTag");

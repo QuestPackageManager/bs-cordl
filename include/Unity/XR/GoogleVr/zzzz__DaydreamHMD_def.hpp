@@ -11,17 +11,16 @@ class DaydreamHMD;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::GoogleVr::DaydreamHMD);
-// Type: Unity.XR.GoogleVr::DaydreamHMD
-// SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.XR.XRHMD
 namespace Unity::XR::GoogleVr {
 // Is value type: false
-// CS Name: ::Unity.XR.GoogleVr::DaydreamHMD*
+// CS Name: Unity.XR.GoogleVr.DaydreamHMD
 class CORDL_TYPE DaydreamHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
   // Declarations
   static inline ::Unity::XR::GoogleVr::DaydreamHMD* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44d9ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x453aeb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   DaydreamHMD(DaydreamHMD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6523 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

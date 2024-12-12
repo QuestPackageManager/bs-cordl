@@ -3,19 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
 namespace System::Collections {
 class ArrayList;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -38,18 +33,17 @@ class X509ExtensionCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ExtensionCollection);
-// Type: System.Security.Cryptography.X509Certificates::X509ExtensionCollection
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography.X509Certificates::X509ExtensionCollection*
+// CS Name: System.Security.Cryptography.X509Certificates.X509ExtensionCollection
 class CORDL_TYPE X509ExtensionCollection : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Empty;
+  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Empty;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
@@ -66,41 +60,41 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x43e0e08, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x444211c, size 0x70, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Extension* extension);
 
-  /// @brief Method GetEnumerator, addr 0x43e0f70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x4442284, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x43e0e78, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x444218c, size 0xf8, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x43e1010, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4442324, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__list() const;
-
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x43e09c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4441cd8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_Empty();
 
-  /// @brief Method get_Count, addr 0x43e0a28, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x4441d3c, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x43e0a4c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x4441d60, size 0x24, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x43e0a74, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x4441d88, size 0x394, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Extension* get_Item(::StringW oid);
 
-  /// @brief Method get_SyncRoot, addr 0x43e0a70, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x4441d84, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -125,18 +119,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9328 };
+
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ExtensionCollection, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::X509ExtensionCollection, ____list) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::X509ExtensionCollection, 0x18>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509ExtensionCollection);

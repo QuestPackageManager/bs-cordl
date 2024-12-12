@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d42ec;
+  constexpr static std::size_t addrs = 0x2705c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_usePreviousEventValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d42f4;
+  constexpr static std::size_t addrs = 0x2705c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4304;
+  constexpr static std::size_t addrs = 0x2705c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)()>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d430c;
+  constexpr static std::size_t addrs = 0x2705c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::FloatFxEventBaseData::*)(float_t, bool, float_t, ::BeatmapSaveDataCommon::EaseType)>(
     &::BeatmapSaveDataVersion3::FloatFxEventBaseData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26d4314;
+  constexpr static std::size_t addrs = 0x2705c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,10 +145,6 @@ inline ::BeatmapSaveDataCommon::EaseType BeatmapSaveDataVersion3::FloatFxEventBa
                                                                              "get_easeType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataCommon::EaseType, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::FloatFxEventBaseData* BeatmapSaveDataVersion3::FloatFxEventBaseData::New_ctor(float_t beat, bool usePreviousEventValue, float_t value,
-                                                                                                                ::BeatmapSaveDataCommon::EaseType easeType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>(beat, usePreviousEventValue, value, easeType));
-}
 inline void BeatmapSaveDataVersion3::FloatFxEventBaseData::_ctor(float_t beat, bool usePreviousEventValue, float_t value, ::BeatmapSaveDataCommon::EaseType easeType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -156,6 +152,10 @@ inline void BeatmapSaveDataVersion3::FloatFxEventBaseData::_ctor(float_t beat, b
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataCommon::EaseType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, usePreviousEventValue, value, easeType);
+}
+inline ::BeatmapSaveDataVersion3::FloatFxEventBaseData* BeatmapSaveDataVersion3::FloatFxEventBaseData::New_ctor(float_t beat, bool usePreviousEventValue, float_t value,
+                                                                                                                ::BeatmapSaveDataCommon::EaseType easeType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>(beat, usePreviousEventValue, value, easeType));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FloatFxEventBaseData::FloatFxEventBaseData() {}

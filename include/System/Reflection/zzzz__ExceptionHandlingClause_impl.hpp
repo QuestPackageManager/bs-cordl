@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::ExceptionHandlingClause::*)()>(&::System::Reflection::ExceptionHandlingClause::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ccc704;
+  constexpr static std::size_t addrs = 0x3d2c878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ExceptionHandlingClause*>::get(), ".ctor",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::ExceptionHandlingClause::*)()>(
     &::System::Reflection::ExceptionHandlingClause::ToString)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3ccc70c;
+  constexpr static std::size_t addrs = 0x3d2c880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ constexpr ::System::Type*& System::Reflection::ExceptionHandlingClause::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catch_type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_catch_type() const {
+constexpr ::System::Type* const& System::Reflection::ExceptionHandlingClause::__cordl_internal_get_catch_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catch_type;
 }
@@ -116,9 +116,6 @@ constexpr void System::Reflection::ExceptionHandlingClause::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handler_length = value;
 }
-inline ::System::Reflection::ExceptionHandlingClause* System::Reflection::ExceptionHandlingClause::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::ExceptionHandlingClause*>());
-}
 inline void System::Reflection::ExceptionHandlingClause::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ExceptionHandlingClause*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -128,6 +125,9 @@ inline ::StringW System::Reflection::ExceptionHandlingClause::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ExceptionHandlingClause*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Reflection::ExceptionHandlingClause* System::Reflection::ExceptionHandlingClause::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::ExceptionHandlingClause*>());
 }
 // Ctor Parameters []
 constexpr ::System::Reflection::ExceptionHandlingClause::ExceptionHandlingClause() {}

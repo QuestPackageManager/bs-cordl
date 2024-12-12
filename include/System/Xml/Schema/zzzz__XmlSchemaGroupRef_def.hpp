@@ -20,11 +20,10 @@ class XmlSchemaGroupRef;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaGroupRef);
-// Type: System.Xml.Schema::XmlSchemaGroupRef
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaParticle
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaGroupRef*
+// CS Name: System.Xml.Schema.XmlSchemaGroupRef
 class CORDL_TYPE XmlSchemaGroupRef : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
@@ -45,20 +44,20 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaGroupRef* New_ctor();
 
-  /// @brief Method SetParticle, addr 0x425c44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetParticle, addr 0x42bd760, size 0x8, virtual false, abstract: false, final false
   inline void SetParticle(::System::Xml::Schema::XmlSchemaGroupBase* value);
+
+  constexpr ::System::Xml::Schema::XmlSchemaGroupBase* const& __cordl_internal_get_particle() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaGroupBase*& __cordl_internal_get_particle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaGroupBase*> const& __cordl_internal_get_particle() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_refName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_refName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_refName() const;
+  constexpr ::System::Xml::Schema::XmlSchemaGroup* const& __cordl_internal_get_refined() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaGroup*& __cordl_internal_get_refined();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaGroup*> const& __cordl_internal_get_refined() const;
 
   constexpr void __cordl_internal_set_particle(::System::Xml::Schema::XmlSchemaGroupBase* value);
 
@@ -66,22 +65,22 @@ public:
 
   constexpr void __cordl_internal_set_refined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method .ctor, addr 0x425c464, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42bd778, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Particle, addr 0x425c444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Particle, addr 0x42bd758, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroupBase* get_Particle();
 
-  /// @brief Method get_Redefined, addr 0x425c454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Redefined, addr 0x42bd768, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaGroup* get_Redefined();
 
-  /// @brief Method get_RefName, addr 0x425c43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42bd750, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method set_Redefined, addr 0x425c45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Redefined, addr 0x42bd770, size 0x8, virtual false, abstract: false, final false
   inline void set_Redefined(::System::Xml::Schema::XmlSchemaGroup* value);
 
-  /// @brief Method set_RefName, addr 0x425a224, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42bb538, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
 protected:
@@ -98,6 +97,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaGroupRef(XmlSchemaGroupRef const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7691 };
+
   /// @brief Field refName, offset: 0x78, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___refName;
 
@@ -107,19 +109,16 @@ public:
   /// @brief Field refined, offset: 0x88, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaGroup* ___refined;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7666 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaGroupRef, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaGroupRef, ___refName) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaGroupRef, ___particle) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaGroupRef, ___refined) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaGroupRef, 0x90>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaGroupRef);

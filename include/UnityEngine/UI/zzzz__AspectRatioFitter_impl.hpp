@@ -1,32 +1,31 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/AspectRatioFitter.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__AspectRatioFitter_impl.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutController_impl.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutSelfController_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "UnityEngine/UI/zzzz__AspectRatioFitter_def.hpp"
 #include "UnityEngine/UI/zzzz__AspectRatioFitter_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode::__AspectRatioFitter__AspectMode(int32_t value__) noexcept {
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode::AspectRatioFitter_AspectMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode::__AspectRatioFitter__AspectMode() {}
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::__AspectRatioFitter__AspectMode::None{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::__AspectRatioFitter__AspectMode::WidthControlsHeight{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::__AspectRatioFitter__AspectMode::HeightControlsWidth{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::__AspectRatioFitter__AspectMode::FitInParent{ static_cast<int32_t>(0x3) };
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::__AspectRatioFitter__AspectMode::EnvelopeParent{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode::AspectRatioFitter_AspectMode() {}
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter_AspectMode::None{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter_AspectMode::WidthControlsHeight{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter_AspectMode::HeightControlsWidth{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter_AspectMode::FitInParent{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter_AspectMode::EnvelopeParent{ static_cast<int32_t>(0x4) };
 //  Writing Method size for method: ::UnityEngine::UI::AspectRatioFitter.get_aspectMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::__AspectRatioFitter__AspectMode (::UnityEngine::UI::AspectRatioFitter::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::AspectRatioFitter_AspectMode (::UnityEngine::UI::AspectRatioFitter::*)()>(
     &::UnityEngine::UI::AspectRatioFitter::get_aspectMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a50304;
+  constexpr static std::size_t addrs = 0x4ab4c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "get_aspectMode",
@@ -37,15 +36,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UI::AspectRatioFitter.set_aspectMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)(::UnityEngine::UI::__AspectRatioFitter__AspectMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)(::UnityEngine::UI::AspectRatioFitter_AspectMode)>(
     &::UnityEngine::UI::AspectRatioFitter::set_aspectMode)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a5030c;
+  constexpr static std::size_t addrs = 0x4ab4c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "set_aspectMode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__AspectRatioFitter__AspectMode>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::AspectRatioFitter_AspectMode>::get() })));
     return ___internal_method;
   }
 };
@@ -54,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::get_aspectRatio)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a50384;
+  constexpr static std::size_t addrs = 0x4ab4c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "get_aspectRatio",
@@ -67,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)(float_t)>(&::UnityEngine::UI::AspectRatioFitter::set_aspectRatio)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a5038c;
+  constexpr static std::size_t addrs = 0x4ab4c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::AspectRatioFitter::*)()>(
     &::UnityEngine::UI::AspectRatioFitter::get_rectTransform)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a50400;
+  constexpr static std::size_t addrs = 0x4ab4d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(),
@@ -95,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a50494;
+  constexpr static std::size_t addrs = 0x4ab4da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), ".ctor",
@@ -108,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnEnable)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a504a4;
+  constexpr static std::size_t addrs = 0x4ab4db4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::Start)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a5053c;
+  constexpr static std::size_t addrs = 0x4ab4e4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnDisable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a50680;
+  constexpr static std::size_t addrs = 0x4ab4f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a50afc;
+  constexpr static std::size_t addrs = 0x4ab540c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::Update)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a50b94;
+  constexpr static std::size_t addrs = 0x4ab54a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(
     &::UnityEngine::UI::AspectRatioFitter::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a50ba8;
+  constexpr static std::size_t addrs = 0x4ab54b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::UpdateRect)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x4a50bac;
+  constexpr static std::size_t addrs = 0x4ab54bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "UpdateRect",
@@ -207,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::AspectRatioFitter::*)(float_t, int32_t)>(
     &::UnityEngine::UI::AspectRatioFitter::GetSizeDeltaToProduceSize)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4a50f90;
+  constexpr static std::size_t addrs = 0x4ab58a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::AspectRatioFitter::*)()>(
     &::UnityEngine::UI::AspectRatioFitter::GetParentSize)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4a50e98;
+  constexpr static std::size_t addrs = 0x4ab57a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "GetParentSize",
@@ -235,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a51084;
+  constexpr static std::size_t addrs = 0x4ab5994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a51088;
+  constexpr static std::size_t addrs = 0x4ab5998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::SetDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a50380;
+  constexpr static std::size_t addrs = 0x4ab4c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "SetDirty",
@@ -276,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::IsComponentValidOnObject)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4a5058c;
+  constexpr static std::size_t addrs = 0x4ab4e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(),
@@ -289,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::IsAspectModeValid)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a50658;
+  constexpr static std::size_t addrs = 0x4ab4f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(),
@@ -302,7 +301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::AspectRatioFitter::*)()>(&::UnityEngine::UI::AspectRatioFitter::DoesParentExists)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a5108c;
+  constexpr static std::size_t addrs = 0x4ab599c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "DoesParentExists",
@@ -310,31 +309,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
-constexpr UnityEngine::UI::AspectRatioFitter::operator ::UnityEngine::UI::ILayoutSelfController*() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
-constexpr ::UnityEngine::UI::ILayoutSelfController* UnityEngine::UI::AspectRatioFitter::i___UnityEngine__UI__ILayoutSelfController() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
-constexpr UnityEngine::UI::AspectRatioFitter::operator ::UnityEngine::UI::ILayoutController*() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UI::ILayoutController"
-constexpr ::UnityEngine::UI::ILayoutController* UnityEngine::UI::AspectRatioFitter::i___UnityEngine__UI__ILayoutController() noexcept {
-  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
-}
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode& UnityEngine::UI::AspectRatioFitter::__cordl_internal_get_m_AspectMode() {
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode& UnityEngine::UI::AspectRatioFitter::__cordl_internal_get_m_AspectMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AspectMode;
 }
-constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode const& UnityEngine::UI::AspectRatioFitter::__cordl_internal_get_m_AspectMode() const {
+constexpr ::UnityEngine::UI::AspectRatioFitter_AspectMode const& UnityEngine::UI::AspectRatioFitter::__cordl_internal_get_m_AspectMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AspectMode;
 }
-constexpr void UnityEngine::UI::AspectRatioFitter::__cordl_internal_set_m_AspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value) {
+constexpr void UnityEngine::UI::AspectRatioFitter::__cordl_internal_set_m_AspectMode(::UnityEngine::UI::AspectRatioFitter_AspectMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AspectMode = value;
 }
@@ -398,15 +381,15 @@ constexpr void UnityEngine::UI::AspectRatioFitter::__cordl_internal_set_m_Tracke
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Tracker = value;
 }
-inline ::UnityEngine::UI::__AspectRatioFitter__AspectMode UnityEngine::UI::AspectRatioFitter::get_aspectMode() {
+inline ::UnityEngine::UI::AspectRatioFitter_AspectMode UnityEngine::UI::AspectRatioFitter::get_aspectMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "get_aspectMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::__AspectRatioFitter__AspectMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::AspectRatioFitter_AspectMode, false>(this, ___internal_method);
 }
-inline void UnityEngine::UI::AspectRatioFitter::set_aspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value) {
+inline void UnityEngine::UI::AspectRatioFitter::set_aspectMode(::UnityEngine::UI::AspectRatioFitter_AspectMode value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "set_aspectMode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::__AspectRatioFitter__AspectMode>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::AspectRatioFitter_AspectMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::UI::AspectRatioFitter::get_aspectRatio() {
@@ -424,9 +407,6 @@ inline ::UnityW<::UnityEngine::RectTransform> UnityEngine::UI::AspectRatioFitter
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "get_rectTransform",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(this, ___internal_method);
-}
-inline ::UnityEngine::UI::AspectRatioFitter* UnityEngine::UI::AspectRatioFitter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::AspectRatioFitter*>());
 }
 inline void UnityEngine::UI::AspectRatioFitter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), ".ctor",
@@ -508,6 +488,25 @@ inline bool UnityEngine::UI::AspectRatioFitter::DoesParentExists() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::AspectRatioFitter*>::get(), "DoesParentExists",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UI::AspectRatioFitter* UnityEngine::UI::AspectRatioFitter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UI::AspectRatioFitter*>());
+}
+/// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
+constexpr UnityEngine::UI::AspectRatioFitter::operator ::UnityEngine::UI::ILayoutSelfController*() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
+constexpr ::UnityEngine::UI::ILayoutSelfController* UnityEngine::UI::AspectRatioFitter::i___UnityEngine__UI__ILayoutSelfController() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutSelfController*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UI::ILayoutController"
+constexpr UnityEngine::UI::AspectRatioFitter::operator ::UnityEngine::UI::ILayoutController*() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UI::ILayoutController"
+constexpr ::UnityEngine::UI::ILayoutController* UnityEngine::UI::AspectRatioFitter::i___UnityEngine__UI__ILayoutController() noexcept {
+  return static_cast<::UnityEngine::UI::ILayoutController*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UI::AspectRatioFitter::AspectRatioFitter() {}

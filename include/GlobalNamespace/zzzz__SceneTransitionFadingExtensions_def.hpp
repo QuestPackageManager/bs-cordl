@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SceneTransitionFadingExtensions)
 namespace GlobalNamespace {
-struct __GameScenesManager__SceneTransitionType;
+struct GameScenesManager_SceneTransitionType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -14,16 +14,15 @@ class SceneTransitionFadingExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneTransitionFadingExtensions);
-// Type: ::SceneTransitionFadingExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SceneTransitionFadingExtensions*
+// CS Name: SceneTransitionFadingExtensions
 class CORDL_TYPE SceneTransitionFadingExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldFadeOnSceneTransition, addr 0x4023340, size 0x10, virtual false, abstract: false, final false
-  static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::__GameScenesManager__SceneTransitionType sceneTransitionType);
+  /// @brief Method ShouldFadeOnSceneTransition, addr 0x4084654, size 0x10, virtual false, abstract: false, final false
+  static inline bool ShouldFadeOnSceneTransition(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType);
 
 protected:
   // Ctor Parameters []
@@ -40,7 +39,7 @@ public:
   SceneTransitionFadingExtensions(SceneTransitionFadingExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

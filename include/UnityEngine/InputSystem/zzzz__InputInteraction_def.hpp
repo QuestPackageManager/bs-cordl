@@ -16,24 +16,23 @@ class InputInteraction;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputInteraction);
-// Type: UnityEngine.InputSystem::InputInteraction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.InputSystem.Utilities.TypeTable
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem::InputInteraction*
+// CS Name: UnityEngine.InputSystem.InputInteraction
 class CORDL_TYPE InputInteraction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Interactions, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
+  __declspec(property(get = getStaticF_s_Interactions, put = setStaticF_s_Interactions)) ::UnityEngine::InputSystem::Utilities::TypeTable s_Interactions;
 
-  /// @brief Method GetDisplayName, addr 0x44da620, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x453b934, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::StringW interaction);
 
-  /// @brief Method GetDisplayName, addr 0x44da720, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x453ba34, size 0x194, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::System::Type* interactionType);
 
-  /// @brief Method GetValueType, addr 0x44da530, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x453b844, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Type* interactionType);
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Interactions();
@@ -55,7 +54,7 @@ public:
   InputInteraction(InputInteraction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6532 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

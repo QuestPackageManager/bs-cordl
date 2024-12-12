@@ -4,8 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__FileStatus_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemInfo)
@@ -14,9 +14,6 @@ struct FileAttributes;
 }
 namespace System::IO {
 struct FileStatus;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -36,11 +33,10 @@ class FileSystemInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::FileSystemInfo);
-// Type: System.IO::FileSystemInfo
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.FileStatus, System.MarshalByRefObject, System.Runtime.Serialization.ISerializable
 namespace System::IO {
 // Is value type: false
-// CS Name: ::System.IO::FileSystemInfo*
+// CS Name: System.IO.FileSystemInfo
 class CORDL_TYPE FileSystemInfo : public ::System::MarshalByRefObject {
 public:
   // Declarations
@@ -79,29 +75,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Create, addr 0x3d09aa0, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::IO::FileSystemInfo* Create(::StringW fullPath, ::StringW fileName, ByRef<::System::IO::FileStatus> fileStatus);
+  /// @brief Method Create, addr 0x3d69c14, size 0xd0, virtual false, abstract: false, final false
+  static inline ::System::IO::FileSystemInfo* Create(::StringW fullPath, ::StringW fileName, ::ByRef<::System::IO::FileStatus> fileStatus);
 
-  /// @brief Method Delete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method Delete, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Delete();
 
-  /// @brief Method GetObjectData, addr 0x3d09d60, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3d69ed4, size 0x148, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Init, addr 0x3d09b70, size 0x7c, virtual false, abstract: false, final false
-  inline void Init(ByRef<::System::IO::FileStatus> fileStatus);
+  /// @brief Method Init, addr 0x3d69ce4, size 0x7c, virtual false, abstract: false, final false
+  inline void Init(::ByRef<::System::IO::FileStatus> fileStatus);
 
   static inline ::System::IO::FileSystemInfo* New_ctor();
 
   static inline ::System::IO::FileSystemInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Refresh, addr 0x3d09cf0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3d69e64, size 0x68, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method ThrowNotFound, addr 0x3d09a08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotFound, addr 0x3d69b7c, size 0x98, virtual false, abstract: false, final false
   static inline void ThrowNotFound(::StringW path);
 
-  /// @brief Method ToString, addr 0x3d0a028, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3d6a19c, size 0x54, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_FullPath() const;
@@ -128,40 +124,40 @@ public:
 
   constexpr void __cordl_internal_set__name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d04bc4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d64d38, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d052a4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d65418, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Attributes, addr 0x3d081b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x3d6832c, size 0xcc, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Exists, addr 0x3d09eb8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Exists, addr 0x3d6a02c, size 0x88, virtual true, abstract: false, final false
   inline bool get_Exists();
 
-  /// @brief Method get_ExistsCore, addr 0x3d09bec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_ExistsCore, addr 0x3d69d60, size 0x98, virtual false, abstract: false, final false
   inline bool get_ExistsCore();
 
-  /// @brief Method get_FullName, addr 0x3d09ea8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FullName, addr 0x3d6a01c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_FullName();
 
-  /// @brief Method get_LastWriteTime, addr 0x3d09f40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTime, addr 0x3d6a0b4, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTime();
 
-  /// @brief Method get_LastWriteTimeCore, addr 0x3d09c84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeCore, addr 0x3d69df8, size 0x6c, virtual false, abstract: false, final false
   inline ::System::DateTimeOffset get_LastWriteTimeCore();
 
-  /// @brief Method get_LastWriteTimeUtc, addr 0x3d09fb4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_LastWriteTimeUtc, addr 0x3d6a128, size 0x74, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastWriteTimeUtc();
 
-  /// @brief Method get_LengthCore, addr 0x3d08284, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_LengthCore, addr 0x3d683f8, size 0x74, virtual false, abstract: false, final false
   inline int64_t get_LengthCore();
 
-  /// @brief Method get_Name, addr 0x3d09eb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3d6a024, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NormalizedPath, addr 0x3d09d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NormalizedPath, addr 0x3d69ecc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NormalizedPath();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -181,6 +177,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileSystemInfo(FileSystemInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3602 };
+
   /// @brief Field _fileStatus, offset: 0x18, size: 0x78, def value: None
   ::System::IO::FileStatus ____fileStatus;
 
@@ -193,14 +192,9 @@ public:
   /// @brief Field _name, offset: 0xa0, size: 0x8, def value: None
   ::StringW ____name;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3602 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::FileSystemInfo, 0xa8>, "Size mismatch!");
-
 static_assert(offsetof(::System::IO::FileSystemInfo, ____fileStatus) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::IO::FileSystemInfo, ___FullPath) == 0x90, "Offset mismatch!");
@@ -208,6 +202,8 @@ static_assert(offsetof(::System::IO::FileSystemInfo, ___FullPath) == 0x90, "Offs
 static_assert(offsetof(::System::IO::FileSystemInfo, ___OriginalPath) == 0x98, "Offset mismatch!");
 
 static_assert(offsetof(::System::IO::FileSystemInfo, ____name) == 0xa0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::IO::FileSystemInfo, 0xa8>, "Size mismatch!");
 
 } // namespace System::IO
 NEED_NO_BOX(::System::IO::FileSystemInfo);

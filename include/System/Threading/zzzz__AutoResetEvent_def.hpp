@@ -11,17 +11,16 @@ class AutoResetEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::AutoResetEvent);
-// Type: System.Threading::AutoResetEvent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.EventWaitHandle
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::AutoResetEvent*
+// CS Name: System.Threading.AutoResetEvent
 class CORDL_TYPE AutoResetEvent : public ::System::Threading::EventWaitHandle {
 public:
   // Declarations
   static inline ::System::Threading::AutoResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x3deb9d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e4ba80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

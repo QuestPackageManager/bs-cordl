@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/EventSystems/EventSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__EventSystem_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,81 +12,81 @@
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-// Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityW<::UnityEngine::EventSystems::EventSystem>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "sendEvents", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig::__EventSystem__UIToolkitOverrideConfig(::UnityW<::UnityEngine::EventSystems::EventSystem> activeEventSystem,
-                                                                                                                      bool sendEvents, bool createPanelGameObjectsOnStart) noexcept {
+// Ctor Parameters [CppParam { name: "activeEventSystem", ty: "::UnityW<::UnityEngine::EventSystems::EventSystem>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sendEvents", ty: "bool",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "createPanelGameObjectsOnStart", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig::EventSystem_UIToolkitOverrideConfig(::UnityW<::UnityEngine::EventSystems::EventSystem> activeEventSystem, bool sendEvents,
+                                                                                                                bool createPanelGameObjectsOnStart) noexcept {
   this->activeEventSystem = activeEventSystem;
   this->sendEvents = sendEvents;
   this->createPanelGameObjectsOnStart = createPanelGameObjectsOnStart;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig::__EventSystem__UIToolkitOverrideConfig() {}
-//  Writing Method size for method: ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0._ctor
+constexpr ::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig::EventSystem_UIToolkitOverrideConfig() {}
+//  Writing Method size for method: ::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::*)()>(
-    &::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::*)()>(
+    &::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7279c;
+  constexpr static std::size_t addrs = 0x4ad70ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0._CreateUIToolkitPanelGameObject_b__0
+//  Writing Method size for method: ::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0._CreateUIToolkitPanelGameObject_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::*)()>(
-    &::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::_CreateUIToolkitPanelGameObject_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::*)()>(
+    &::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::_CreateUIToolkitPanelGameObject_b__0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4a730a8;
+  constexpr static std::size_t addrs = 0x4ad79b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0*>::get(),
                                                  "<CreateUIToolkitPanelGameObject>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::__cordl_internal_get_go() {
+constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::__cordl_internal_get_go() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___go;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::__cordl_internal_get_go() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::__cordl_internal_get_go() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___go;
 }
-constexpr void UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::__cordl_internal_set_go(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::__cordl_internal_set_go(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___go)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0* UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0*>());
-}
-inline void UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::_ctor() {
+inline void UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::_CreateUIToolkitPanelGameObject_b__0() {
+inline void UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::_CreateUIToolkitPanelGameObject_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0*>::get(),
                                                "<CreateUIToolkitPanelGameObject>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0* UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::EventSystems::__EventSystem____c__DisplayClass56_0::__EventSystem____c__DisplayClass56_0() {}
+constexpr ::UnityEngine::EventSystems::EventSystem___c__DisplayClass56_0::EventSystem___c__DisplayClass56_0() {}
 //  Writing Method size for method: ::UnityEngine::EventSystems::EventSystem.get_current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::EventSystem> (*)()>(&::UnityEngine::EventSystems::EventSystem::get_current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::EventSystem* (*)()>(&::UnityEngine::EventSystems::EventSystem::get_current)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a712b4;
+  constexpr static std::size_t addrs = 0x4ad5bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "get_current",
@@ -100,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::EventSystem*)>(&::UnityEngine::EventSystems::EventSystem::set_current)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4a71378;
+  constexpr static std::size_t addrs = 0x4ad5c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_sendNavigationEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a7150c;
+  constexpr static std::size_t addrs = 0x4ad5e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -129,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(bool)>(
     &::UnityEngine::EventSystems::EventSystem::set_sendNavigationEvents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a71514;
+  constexpr static std::size_t addrs = 0x4ad5e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_pixelDragThreshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71520;
+  constexpr static std::size_t addrs = 0x4ad5e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -158,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(int32_t)>(
     &::UnityEngine::EventSystems::EventSystem::set_pixelDragThreshold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71528;
+  constexpr static std::size_t addrs = 0x4ad5e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseInputModule> (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_currentInputModule)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71530;
+  constexpr static std::size_t addrs = 0x4ad5e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -187,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_firstSelectedGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71538;
+  constexpr static std::size_t addrs = 0x4ad5e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -201,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::EventSystems::EventSystem::set_firstSelectedGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71540;
+  constexpr static std::size_t addrs = 0x4ad5e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_currentSelectedGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71548;
+  constexpr static std::size_t addrs = 0x4ad5e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -230,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_lastSelectedGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71550;
+  constexpr static std::size_t addrs = 0x4ad5e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -243,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::get_isFocused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71558;
+  constexpr static std::size_t addrs = 0x4ad5e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -256,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a71560;
+  constexpr static std::size_t addrs = 0x4ad5e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), ".ctor",
@@ -269,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::UpdateModules)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4a715f0;
+  constexpr static std::size_t addrs = 0x4ad5f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -283,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_alreadySelecting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71730;
+  constexpr static std::size_t addrs = 0x4ad6040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -297,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*)>(&::UnityEngine::EventSystems::EventSystem::SetSelectedGameObject)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x4a6ff7c;
+  constexpr static std::size_t addrs = 0x4ad488c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::BaseEventData* (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_baseEventDataCache)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a71738;
+  constexpr static std::size_t addrs = 0x4ad6048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -327,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::EventSystems::EventSystem::SetSelectedGameObject)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a6d1b0;
+  constexpr static std::size_t addrs = 0x4ad1ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -342,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::EventSystems::RaycastResult, ::UnityEngine::EventSystems::RaycastResult)>(
     &::UnityEngine::EventSystems::EventSystem::RaycastComparer)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x4a717a0;
+  constexpr static std::size_t addrs = 0x4ad60b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::EventSystems::EventSystem::RaycastAll)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4a71c10;
+  constexpr static std::size_t addrs = 0x4ad6520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::IsPointerOverGameObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a71e00;
+  constexpr static std::size_t addrs = 0x4ad6710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -388,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)(int32_t)>(
     &::UnityEngine::EventSystems::EventSystem::IsPointerOverGameObject)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a71e08;
+  constexpr static std::size_t addrs = 0x4ad6718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -403,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_isUIToolkitActiveEventSystem)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4a71eac;
+  constexpr static std::size_t addrs = 0x4ad67bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -418,7 +417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_sendUIToolkitEvents)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a71f9c;
+  constexpr static std::size_t addrs = 0x4ad68ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -432,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::get_createUIToolkitPanelGameObjectsOnStart)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a72010;
+  constexpr static std::size_t addrs = 0x4ad6920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -447,7 +446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::EventSystem*, bool, bool)>(
     &::UnityEngine::EventSystems::EventSystem::SetUITookitEventSystemOverride)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x4a72084;
+  constexpr static std::size_t addrs = 0x4ad6994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -463,7 +462,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::StartTrackingUIToolkitPanels)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x4a72220;
+  constexpr static std::size_t addrs = 0x4ad6b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -477,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(
     &::UnityEngine::EventSystems::EventSystem::StopTrackingUIToolkitPanels)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a726f0;
+  constexpr static std::size_t addrs = 0x4ad7000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(),
@@ -491,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(::UnityEngine::UIElements::BaseRuntimePanel*)>(
     &::UnityEngine::EventSystems::EventSystem::CreateUIToolkitPanelGameObject)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x4a72458;
+  constexpr static std::size_t addrs = 0x4ad6d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -505,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::Start)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a727a4;
+  constexpr static std::size_t addrs = 0x4ad70b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -519,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::OnEnable)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a727b4;
+  constexpr static std::size_t addrs = 0x4ad70c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -533,7 +532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::OnDisable)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4a728d8;
+  constexpr static std::size_t addrs = 0x4ad71e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -547,7 +546,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::TickModules)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a729e8;
+  constexpr static std::size_t addrs = 0x4ad72f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "TickModules",
@@ -561,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(bool)>(
     &::UnityEngine::EventSystems::EventSystem::OnApplicationFocus)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a72ae8;
+  constexpr static std::size_t addrs = 0x4ad73f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -575,7 +574,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::Update)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x4a72afc;
+  constexpr static std::size_t addrs = 0x4ad740c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -590,7 +589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::EventSystem::*)(::UnityEngine::EventSystems::BaseInputModule*)>(
     &::UnityEngine::EventSystems::EventSystem::ChangeEventModule)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4a72d64;
+  constexpr static std::size_t addrs = 0x4ad7674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -604,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::EventSystem::*)()>(&::UnityEngine::EventSystems::EventSystem::ToString)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4a72e5c;
+  constexpr static std::size_t addrs = 0x4ad776c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -617,7 +616,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SystemInputModules;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>*> const&
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseInputModule>>* const&
 UnityEngine::EventSystems::EventSystem::__cordl_internal_get_m_SystemInputModules() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_SystemInputModules;
@@ -715,7 +714,7 @@ constexpr ::UnityEngine::EventSystems::BaseEventData*& UnityEngine::EventSystems
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DummyData;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::BaseEventData*> const& UnityEngine::EventSystems::EventSystem::__cordl_internal_get_m_DummyData() const {
+constexpr ::UnityEngine::EventSystems::BaseEventData* const& UnityEngine::EventSystems::EventSystem::__cordl_internal_get_m_DummyData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DummyData;
 }
@@ -747,13 +746,13 @@ constexpr void UnityEngine::EventSystems::EventSystem::__cordl_internal_set_m_Is
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsTrackingUIToolkitPanels = value;
 }
-inline void UnityEngine::EventSystems::EventSystem::setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*, "m_EventSystems",
+inline void UnityEngine::EventSystems::EventSystem::setStaticF_m_EventSystems(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*, "m_EventSystems",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*>(value));
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>* UnityEngine::EventSystems::EventSystem::getStaticF_m_EventSystems() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::EventSystem>>*, "m_EventSystems",
+inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>* UnityEngine::EventSystems::EventSystem::getStaticF_m_EventSystems() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::EventSystem*>*, "m_EventSystems",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>();
 }
 inline void UnityEngine::EventSystems::EventSystem::setStaticF_s_RaycastComparer(::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* value) {
@@ -765,19 +764,19 @@ inline ::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>* Unity
   return ::cordl_internals::getStaticField<::System::Comparison_1<::UnityEngine::EventSystems::RaycastResult>*, "s_RaycastComparer",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>();
 }
-inline void UnityEngine::EventSystems::EventSystem::setStaticF_s_UIToolkitOverride(::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig value) {
-  ::cordl_internals::setStaticField<::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, "s_UIToolkitOverride",
+inline void UnityEngine::EventSystems::EventSystem::setStaticF_s_UIToolkitOverride(::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig value) {
+  ::cordl_internals::setStaticField<::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig, "s_UIToolkitOverride",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>(
-      std::forward<::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig>(value));
+      std::forward<::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig>(value));
 }
-inline ::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig UnityEngine::EventSystems::EventSystem::getStaticF_s_UIToolkitOverride() {
-  return ::cordl_internals::getStaticField<::UnityEngine::EventSystems::__EventSystem__UIToolkitOverrideConfig, "s_UIToolkitOverride",
+inline ::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig UnityEngine::EventSystems::EventSystem::getStaticF_s_UIToolkitOverride() {
+  return ::cordl_internals::getStaticField<::UnityEngine::EventSystems::EventSystem_UIToolkitOverrideConfig, "s_UIToolkitOverride",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get>();
 }
-inline ::UnityW<::UnityEngine::EventSystems::EventSystem> UnityEngine::EventSystems::EventSystem::get_current() {
+inline ::UnityEngine::EventSystems::EventSystem* UnityEngine::EventSystems::EventSystem::get_current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "get_current",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::EventSystems::EventSystem>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::EventSystem*, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::EventSystems::EventSystem::set_current(::UnityEngine::EventSystems::EventSystem* value) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -837,9 +836,6 @@ inline bool UnityEngine::EventSystems::EventSystem::get_isFocused() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "get_isFocused",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::UnityEngine::EventSystems::EventSystem* UnityEngine::EventSystems::EventSystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::EventSystem*>());
 }
 inline void UnityEngine::EventSystems::EventSystem::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), ".ctor",
@@ -916,8 +912,6 @@ inline bool UnityEngine::EventSystems::EventSystem::get_createUIToolkitPanelGame
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-/// @param sendEvents: bool (default: true)
-/// @param createPanelGameObjectsOnStart: bool (default: true)
 inline void UnityEngine::EventSystems::EventSystem::SetUITookitEventSystemOverride(::UnityEngine::EventSystems::EventSystem* activeEventSystem, bool sendEvents, bool createPanelGameObjectsOnStart) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), "SetUITookitEventSystemOverride", std::span<Il2CppClass const* const, 0>(),
@@ -981,6 +975,9 @@ inline ::StringW UnityEngine::EventSystems::EventSystem::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::EventSystem*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::EventSystems::EventSystem* UnityEngine::EventSystems::EventSystem::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::EventSystem*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::EventSystems::EventSystem::EventSystem() {}

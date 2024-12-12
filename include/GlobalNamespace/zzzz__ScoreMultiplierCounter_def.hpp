@@ -9,38 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreMultiplierCounter)
 namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+struct ScoreMultiplierCounter_MultiplierEventType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+struct ScoreMultiplierCounter_MultiplierEventType;
 }
 namespace GlobalNamespace {
 class ScoreMultiplierCounter;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType);
+MARK_VAL_T(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType);
 MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierCounter);
-// Type: ::MultiplierEventType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::ScoreMultiplierCounter::MultiplierEventType
-struct CORDL_TYPE __ScoreMultiplierCounter__MultiplierEventType {
+// CS Name: ScoreMultiplierCounter/MultiplierEventType
+struct CORDL_TYPE ScoreMultiplierCounter_MultiplierEventType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ScoreMultiplierCounter__MultiplierEventType_Unwrapped
-  enum struct ____ScoreMultiplierCounter__MultiplierEventType_Unwrapped : int32_t {
+  /// @brief Nested struct __ScoreMultiplierCounter_MultiplierEventType_Unwrapped
+  enum struct __ScoreMultiplierCounter_MultiplierEventType_Unwrapped : int32_t {
     __E_Positive = static_cast<int32_t>(0x0),
     __E_Neutral = static_cast<int32_t>(0x1),
     __E_Negative = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ScoreMultiplierCounter__MultiplierEventType_Unwrapped() const noexcept {
-    return static_cast<____ScoreMultiplierCounter__MultiplierEventType_Unwrapped>(this->value__);
+  constexpr operator __ScoreMultiplierCounter_MultiplierEventType_Unwrapped() const noexcept {
+    return static_cast<__ScoreMultiplierCounter_MultiplierEventType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -50,46 +49,45 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ScoreMultiplierCounter__MultiplierEventType();
+  constexpr ScoreMultiplierCounter_MultiplierEventType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept;
+  constexpr ScoreMultiplierCounter_MultiplierEventType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Negative value: I32(2)
+  static ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const Negative;
 
-  /// @brief Field Negative value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Negative;
+  /// @brief Field Neutral value: I32(1)
+  static ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const Neutral;
 
-  /// @brief Field Neutral value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Neutral;
-
-  /// @brief Field Positive value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const Positive;
+  /// @brief Field Positive value: I32(0)
+  static ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType const Positive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13309 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::ScoreMultiplierCounter
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ScoreMultiplierCounter*
+// CS Name: ScoreMultiplierCounter
 class CORDL_TYPE ScoreMultiplierCounter : public ::System::Object {
 public:
   // Declarations
-  using MultiplierEventType = ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType;
+  using MultiplierEventType = ::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType;
 
   /// @brief Field _multiplier, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) int32_t _multiplier;
@@ -106,10 +104,10 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x26c764c, size 0x90, virtual false, abstract: false, final false
-  inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
+  /// @brief Method ProcessMultiplierEvent, addr 0x26fc3cc, size 0x90, virtual false, abstract: false, final false
+  inline bool ProcessMultiplierEvent(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType multiplierEventType);
 
-  /// @brief Method Reset, addr 0x26c7634, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x26fc3b4, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
@@ -130,13 +128,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c7adc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fc920, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplier, addr 0x26c7ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x26fc9e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x26c7bac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x26fc9f0, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
 protected:
@@ -153,6 +151,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ScoreMultiplierCounter(ScoreMultiplierCounter const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13310 };
+
   /// @brief Field _multiplier, offset: 0x10, size: 0x4, def value: None
   int32_t ____multiplier;
 
@@ -162,21 +163,18 @@ public:
   /// @brief Field _multiplierIncreaseMaxProgress, offset: 0x18, size: 0x4, def value: None
   int32_t ____multiplierIncreaseMaxProgress;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13272 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierCounter, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplier) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplierIncreaseProgress) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ScoreMultiplierCounter, ____multiplierIncreaseMaxProgress) == 0x18, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScoreMultiplierCounter, 0x20>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType, "", "ScoreMultiplierCounter/MultiplierEventType");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreMultiplierCounter_MultiplierEventType, "", "ScoreMultiplierCounter/MultiplierEventType");
 NEED_NO_BOX(::GlobalNamespace::ScoreMultiplierCounter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreMultiplierCounter*, "", "ScoreMultiplierCounter");

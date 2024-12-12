@@ -24,13 +24,12 @@ template <typename T> class DelegateList_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::DelegateList_1);
-// Type: ::DelegateList`1
-// SizeInfo { instance_size: 48, native_size: 41, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::DelegateList`1<T>*
+// CS Name: DelegateList`1<T>
 class CORDL_TYPE DelegateList_1 : public ::System::Object {
 public:
   // Declarations
@@ -68,22 +67,21 @@ public:
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Action_1<T>* action);
 
+  constexpr ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* const& __cordl_internal_get_m_acquireFunc() const;
+
   constexpr ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*& __cordl_internal_get_m_acquireFunc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*> const&
-  __cordl_internal_get_m_acquireFunc() const;
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>* const& __cordl_internal_get_m_callbacks() const;
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>*& __cordl_internal_get_m_callbacks();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_1<T>*>*> const& __cordl_internal_get_m_callbacks() const;
 
   constexpr bool const& __cordl_internal_get_m_invoking() const;
 
   constexpr bool& __cordl_internal_get_m_invoking();
 
-  constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*& __cordl_internal_get_m_releaseFunc();
+  constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* const& __cordl_internal_get_m_releaseFunc() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*> const& __cordl_internal_get_m_releaseFunc() const;
+  constexpr ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>*& __cordl_internal_get_m_releaseFunc();
 
   constexpr void __cordl_internal_set_m_acquireFunc(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* value);
 
@@ -114,6 +112,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DelegateList_1(DelegateList_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15582 };
+
   /// @brief Field m_acquireFunc, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* ___m_acquireFunc;
 
@@ -125,9 +126,6 @@ public:
 
   /// @brief Field m_invoking, offset: 0x28, size: 0x1, def value: None
   bool ___m_invoking;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

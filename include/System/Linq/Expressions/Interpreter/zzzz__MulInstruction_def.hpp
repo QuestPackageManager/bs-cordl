@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MulInstruction)
+namespace GlobalNamespace {
+class MulInstruction_MulDouble;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulInt16;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulInt32;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulInt64;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulSingle;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulUInt16;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulUInt32;
+}
+namespace GlobalNamespace {
+class MulInstruction_MulUInt64;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulDouble;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulInt64;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulSingle;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulUInt16;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulUInt32;
-}
-namespace System::Linq::Expressions::Interpreter {
-class __MulInstruction__MulUInt64;
 }
 namespace System {
 class Type;
@@ -43,29 +43,28 @@ class MulInstruction;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::MulInstruction);
-// Type: System.Linq.Expressions.Interpreter::MulInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Linq.Expressions.Interpreter.Instruction
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::MulInstruction*
+// CS Name: System.Linq.Expressions.Interpreter.MulInstruction
 class CORDL_TYPE MulInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
   // Declarations
-  using MulDouble = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulDouble;
+  using MulDouble = ::GlobalNamespace::MulInstruction_MulDouble;
 
-  using MulInt16 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulInt16;
+  using MulInt16 = ::GlobalNamespace::MulInstruction_MulInt16;
 
-  using MulInt32 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulInt32;
+  using MulInt32 = ::GlobalNamespace::MulInstruction_MulInt32;
 
-  using MulInt64 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulInt64;
+  using MulInt64 = ::GlobalNamespace::MulInstruction_MulInt64;
 
-  using MulSingle = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulSingle;
+  using MulSingle = ::GlobalNamespace::MulInstruction_MulSingle;
 
-  using MulUInt16 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt16;
+  using MulUInt16 = ::GlobalNamespace::MulInstruction_MulUInt16;
 
-  using MulUInt32 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt32;
+  using MulUInt32 = ::GlobalNamespace::MulInstruction_MulUInt32;
 
-  using MulUInt64 = ::System::Linq::Expressions::Interpreter::__MulInstruction__MulUInt64;
+  using MulUInt64 = ::GlobalNamespace::MulInstruction_MulUInt64;
 
   __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
 
@@ -74,35 +73,35 @@ public:
   __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
 
   /// @brief Field s_Double, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
+  __declspec(property(get = getStaticF_s_Double, put = setStaticF_s_Double)) ::System::Linq::Expressions::Interpreter::Instruction* s_Double;
 
   /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+  __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
 
   /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+  __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
 
   /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+  __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
 
   /// @brief Field s_Single, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
+  __declspec(property(get = getStaticF_s_Single, put = setStaticF_s_Single)) ::System::Linq::Expressions::Interpreter::Instruction* s_Single;
 
   /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+  __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
 
   /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+  __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
 
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+  __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x4089c24, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x40eaf38, size 0x368, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::MulInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4089c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40eaf30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Double();
@@ -121,13 +120,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x4089bcc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x40eaee0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x4089bdc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x40eaef0, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x4089bd4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x40eaee8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Double(::System::Linq::Expressions::Interpreter::Instruction* value);
@@ -161,7 +160,7 @@ public:
   MulInstruction(MulInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,11 +16,10 @@ class NetSyncSession;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSession);
-// Type: Oculus.Platform.Models::NetSyncSession
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::NetSyncSession*
+// CS Name: Oculus.Platform.Models.NetSyncSession
 class CORDL_TYPE NetSyncSession : public ::System::Object {
 public:
   // Declarations
@@ -71,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f30e28, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90ed4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -88,6 +87,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetSyncSession(NetSyncSession const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15541 };
+
   /// @brief Field ConnectionId, offset: 0x10, size: 0x8, def value: None
   int64_t ___ConnectionId;
 
@@ -103,14 +105,9 @@ public:
   /// @brief Field VoipGroup, offset: 0x30, size: 0x8, def value: None
   ::StringW ___VoipGroup;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15506 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncSession, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___ConnectionId) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___Muted) == 0x18, "Offset mismatch!");
@@ -120,6 +117,8 @@ static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___SessionId)
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___UserId) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::NetSyncSession, ___VoipGroup) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::NetSyncSession, 0x38>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::NetSyncSession);

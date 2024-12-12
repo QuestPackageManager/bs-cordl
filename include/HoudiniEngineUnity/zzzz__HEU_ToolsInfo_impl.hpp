@@ -1,37 +1,36 @@
 #pragma once
 // IWYU pragma private; include "HoudiniEngineUnity/HEU_ToolsInfo.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_impl.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_def.hpp"
-#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::__HEU_ToolsInfo__PaintMergeMode(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::HEU_ToolsInfo_PaintMergeMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::__HEU_ToolsInfo__PaintMergeMode() {}
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::REPLACE{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::ADD{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::SUBTRACT{ static_cast<int32_t>(0x2) };
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode::MULTIPLY{ static_cast<int32_t>(0x3) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::HEU_ToolsInfo_PaintMergeMode() {}
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::REPLACE{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::ADD{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::SUBTRACT{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode::MULTIPLY{ static_cast<int32_t>(0x3) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility::__HEU_ToolsInfo__PaintMeshVisibility(int32_t value__) noexcept {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility::HEU_ToolsInfo_PaintMeshVisibility(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility::__HEU_ToolsInfo__PaintMeshVisibility() {}
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility::AUTO{ static_cast<int32_t>(0x0) };
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility::SHOW{ static_cast<int32_t>(0x1) };
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility::HIDE{ static_cast<int32_t>(0x2) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility::HEU_ToolsInfo_PaintMeshVisibility() {}
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility::AUTO{ static_cast<int32_t>(0x0) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility::SHOW{ static_cast<int32_t>(0x1) };
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility::HIDE{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_ToolsInfo.IsEquivalentTo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ToolsInfo::*)(::HoudiniEngineUnity::HEU_ToolsInfo*)>(
     &::HoudiniEngineUnity::HEU_ToolsInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x3a46c64;
+  constexpr static std::size_t addrs = 0x3a9d8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ToolsInfo::*)()>(&::HoudiniEngineUnity::HEU_ToolsInfo::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a47274;
+  constexpr static std::size_t addrs = 0x3a9dee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ToolsInfo*>::get(), ".ctor",
@@ -53,15 +52,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
-constexpr HoudiniEngineUnity::HEU_ToolsInfo::operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>"
-constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*
-HoudiniEngineUnity::HEU_ToolsInfo::i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept {
-  return static_cast<::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo>>*>(static_cast<void*>(this));
-}
 constexpr float_t& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintBrushSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paintBrushSize;
@@ -266,15 +256,15 @@ constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__recacheR
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____recacheRequired = value;
 }
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMergeMode() {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMergeMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paintMergeMode;
 }
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode const& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMergeMode() const {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode const& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMergeMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paintMergeMode;
 }
-constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__paintMergeMode(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMergeMode value) {
+constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__paintMergeMode(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMergeMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paintMergeMode = value;
 }
@@ -302,15 +292,15 @@ constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__alwaysCo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alwaysCookUpstream = value;
 }
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMeshVisiblity() {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMeshVisiblity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paintMeshVisiblity;
 }
-constexpr ::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility const& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMeshVisiblity() const {
+constexpr ::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility const& HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_get__paintMeshVisiblity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paintMeshVisiblity;
 }
-constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__paintMeshVisiblity(::HoudiniEngineUnity::__HEU_ToolsInfo__PaintMeshVisibility value) {
+constexpr void HoudiniEngineUnity::HEU_ToolsInfo::__cordl_internal_set__paintMeshVisiblity(::HoudiniEngineUnity::HEU_ToolsInfo_PaintMeshVisibility value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paintMeshVisiblity = value;
 }
@@ -320,13 +310,22 @@ inline bool HoudiniEngineUnity::HEU_ToolsInfo::IsEquivalentTo(::HoudiniEngineUni
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_ToolsInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::HoudiniEngineUnity::HEU_ToolsInfo* HoudiniEngineUnity::HEU_ToolsInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ToolsInfo*>());
-}
 inline void HoudiniEngineUnity::HEU_ToolsInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ToolsInfo*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_ToolsInfo* HoudiniEngineUnity::HEU_ToolsInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_ToolsInfo*>());
+}
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
+constexpr HoudiniEngineUnity::HEU_ToolsInfo::operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*
+HoudiniEngineUnity::HEU_ToolsInfo::i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ToolsInfo__() noexcept {
+  return static_cast<::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ToolsInfo*>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_ToolsInfo::HEU_ToolsInfo() {}

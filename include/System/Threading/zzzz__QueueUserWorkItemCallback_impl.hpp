@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/QueueUserWorkItemCallback.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__QueueUserWorkItemCallback_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
@@ -13,16 +13,16 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)(
-    ::System::Threading::WaitCallback*, ::System::Object*, bool, ByRef<::System::Threading::StackCrawlMark>)>(&::System::Threading::QueueUserWorkItemCallback::_ctor)> {
+    ::System::Threading::WaitCallback*, ::System::Object*, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(&::System::Threading::QueueUserWorkItemCallback::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3df8d34;
+  constexpr static std::size_t addrs = 0x3e58de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::QueueUserWorkItemCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::WaitCallback*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::StackCrawlMark>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
     return ___internal_method;
   }
 };
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)()>(
     &::System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3df8dec;
+  constexpr static std::size_t addrs = 0x3e58e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3df8ec4;
+  constexpr static std::size_t addrs = 0x3e58f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::QueueUserWorkItemCallback::WaitCallback_Context)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3df8ec8;
+  constexpr static std::size_t addrs = 0x3e58f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,19 +70,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
-constexpr System::Threading::QueueUserWorkItemCallback::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
-  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
-constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::QueueUserWorkItemCallback::i___System__Threading__IThreadPoolWorkItem() noexcept {
-  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
-}
 constexpr ::System::Threading::WaitCallback*& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_callback() const {
+constexpr ::System::Threading::WaitCallback* const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
@@ -94,7 +86,7 @@ constexpr ::System::Threading::ExecutionContext*& System::Threading::QueueUserWo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_context() const {
+constexpr ::System::Threading::ExecutionContext* const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_context() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___context;
 }
@@ -106,7 +98,7 @@ constexpr ::System::Object*& System::Threading::QueueUserWorkItemCallback::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_state() const {
+constexpr ::System::Object* const& System::Threading::QueueUserWorkItemCallback::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
@@ -122,17 +114,13 @@ inline ::System::Threading::ContextCallback* System::Threading::QueueUserWorkIte
   return ::cordl_internals::getStaticField<::System::Threading::ContextCallback*, "ccb",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::QueueUserWorkItemCallback*>::get>();
 }
-inline ::System::Threading::QueueUserWorkItemCallback* System::Threading::QueueUserWorkItemCallback::New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj,
-                                                                                                              bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::QueueUserWorkItemCallback*>(waitCallback, stateObj, compressStack, stackMark));
-}
 inline void System::Threading::QueueUserWorkItemCallback::_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack,
-                                                                ByRef<::System::Threading::StackCrawlMark> stackMark) {
+                                                                ::ByRef<::System::Threading::StackCrawlMark> stackMark) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::QueueUserWorkItemCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::WaitCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Threading::StackCrawlMark>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, waitCallback, stateObj, compressStack, stackMark);
 }
 inline void System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem() {
@@ -152,6 +140,18 @@ inline void System::Threading::QueueUserWorkItemCallback::WaitCallback_Context(:
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::QueueUserWorkItemCallback*>::get(), "WaitCallback_Context",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, state);
+}
+inline ::System::Threading::QueueUserWorkItemCallback* System::Threading::QueueUserWorkItemCallback::New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj,
+                                                                                                              bool compressStack, ::ByRef<::System::Threading::StackCrawlMark> stackMark) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::QueueUserWorkItemCallback*>(waitCallback, stateObj, compressStack, stackMark));
+}
+/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
+constexpr System::Threading::QueueUserWorkItemCallback::operator ::System::Threading::IThreadPoolWorkItem*() noexcept {
+  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* System::Threading::QueueUserWorkItemCallback::i___System__Threading__IThreadPoolWorkItem() noexcept {
+  return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::QueueUserWorkItemCallback::QueueUserWorkItemCallback() {}

@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "TMPro/zzzz__MaskingTypes_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -25,19 +25,16 @@ namespace TMPro {
 class TMP_TextInfo;
 }
 namespace TMPro {
+struct TMP_Text_UnicodeChar;
+}
+namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
 }
 namespace TMPro {
 class TextContainer;
 }
-namespace TMPro {
-struct __TMP_Text__UnicodeChar;
-}
 namespace UnityEngine::UI {
 struct CanvasUpdate;
-}
-namespace UnityEngine::UI {
-class ILayoutElement;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -72,11 +69,10 @@ class TextMeshPro;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TextMeshPro);
-// Type: TMPro::TextMeshPro
-// SizeInfo { instance_size: 1896, native_size: -1, calculated_instance_size: 1896, calculated_native_size: 1889, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies TMPro.MaskingTypes, TMPro.TMP_Text, Unity.Profiling.ProfilerMarker, UnityEngine.Matrix4x4, UnityEngine.UI.ILayoutElement
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TextMeshPro*
+// CS Name: TMPro.TextMeshPro
 class CORDL_TYPE TextMeshPro : public ::TMPro::TMP_Text {
 public:
   // Declarations
@@ -95,67 +91,65 @@ public:
   __declspec(property(get = get_autoSizeTextContainer, put = set_autoSizeTextContainer)) bool autoSizeTextContainer;
 
   /// @brief Field k_CalculateVerticesPositionMarker, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF_k_CalculateVerticesPositionMarker, put = setStaticF_k_CalculateVerticesPositionMarker)) ::Unity::Profiling::ProfilerMarker k_CalculateVerticesPositionMarker;
+  __declspec(property(get = getStaticF_k_CalculateVerticesPositionMarker, put = setStaticF_k_CalculateVerticesPositionMarker)) ::Unity::Profiling::ProfilerMarker k_CalculateVerticesPositionMarker;
 
   /// @brief Field k_CharacterLookupMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_CharacterLookupMarker, put = setStaticF_k_CharacterLookupMarker)) ::Unity::Profiling::ProfilerMarker k_CharacterLookupMarker;
+  __declspec(property(get = getStaticF_k_CharacterLookupMarker, put = setStaticF_k_CharacterLookupMarker)) ::Unity::Profiling::ProfilerMarker k_CharacterLookupMarker;
 
   /// @brief Field k_ComputeCharacterAdvanceMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ComputeCharacterAdvanceMarker, put = setStaticF_k_ComputeCharacterAdvanceMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeCharacterAdvanceMarker;
+  __declspec(property(get = getStaticF_k_ComputeCharacterAdvanceMarker, put = setStaticF_k_ComputeCharacterAdvanceMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeCharacterAdvanceMarker;
 
   /// @brief Field k_ComputeTextMetricsMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ComputeTextMetricsMarker, put = setStaticF_k_ComputeTextMetricsMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeTextMetricsMarker;
+  __declspec(property(get = getStaticF_k_ComputeTextMetricsMarker, put = setStaticF_k_ComputeTextMetricsMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeTextMetricsMarker;
 
   /// @brief Field k_GenerateTextMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_GenerateTextMarker, put = setStaticF_k_GenerateTextMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextMarker;
+  __declspec(property(get = getStaticF_k_GenerateTextMarker, put = setStaticF_k_GenerateTextMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextMarker;
 
   /// @brief Field k_GenerateTextPhaseIIIMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_GenerateTextPhaseIIIMarker, put = setStaticF_k_GenerateTextPhaseIIIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIIIMarker;
+  __declspec(property(get = getStaticF_k_GenerateTextPhaseIIIMarker, put = setStaticF_k_GenerateTextPhaseIIIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIIIMarker;
 
   /// @brief Field k_GenerateTextPhaseIIMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_GenerateTextPhaseIIMarker, put = setStaticF_k_GenerateTextPhaseIIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIIMarker;
+  __declspec(property(get = getStaticF_k_GenerateTextPhaseIIMarker, put = setStaticF_k_GenerateTextPhaseIIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIIMarker;
 
   /// @brief Field k_GenerateTextPhaseIMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_GenerateTextPhaseIMarker, put = setStaticF_k_GenerateTextPhaseIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIMarker;
+  __declspec(property(get = getStaticF_k_GenerateTextPhaseIMarker, put = setStaticF_k_GenerateTextPhaseIMarker)) ::Unity::Profiling::ProfilerMarker k_GenerateTextPhaseIMarker;
 
   /// @brief Field k_HandleCarriageReturnMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleCarriageReturnMarker, put = setStaticF_k_HandleCarriageReturnMarker)) ::Unity::Profiling::ProfilerMarker k_HandleCarriageReturnMarker;
+  __declspec(property(get = getStaticF_k_HandleCarriageReturnMarker, put = setStaticF_k_HandleCarriageReturnMarker)) ::Unity::Profiling::ProfilerMarker k_HandleCarriageReturnMarker;
 
   /// @brief Field k_HandleGPOSFeaturesMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleGPOSFeaturesMarker, put = setStaticF_k_HandleGPOSFeaturesMarker)) ::Unity::Profiling::ProfilerMarker k_HandleGPOSFeaturesMarker;
+  __declspec(property(get = getStaticF_k_HandleGPOSFeaturesMarker, put = setStaticF_k_HandleGPOSFeaturesMarker)) ::Unity::Profiling::ProfilerMarker k_HandleGPOSFeaturesMarker;
 
   /// @brief Field k_HandleHorizontalLineBreakingMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleHorizontalLineBreakingMarker,
-                             put = setStaticF_k_HandleHorizontalLineBreakingMarker)) ::Unity::Profiling::ProfilerMarker k_HandleHorizontalLineBreakingMarker;
+  __declspec(property(get = getStaticF_k_HandleHorizontalLineBreakingMarker,
+                      put = setStaticF_k_HandleHorizontalLineBreakingMarker)) ::Unity::Profiling::ProfilerMarker k_HandleHorizontalLineBreakingMarker;
 
   /// @brief Field k_HandleLineTerminationMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleLineTerminationMarker, put = setStaticF_k_HandleLineTerminationMarker)) ::Unity::Profiling::ProfilerMarker k_HandleLineTerminationMarker;
+  __declspec(property(get = getStaticF_k_HandleLineTerminationMarker, put = setStaticF_k_HandleLineTerminationMarker)) ::Unity::Profiling::ProfilerMarker k_HandleLineTerminationMarker;
 
   /// @brief Field k_HandleVerticalLineBreakingMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleVerticalLineBreakingMarker,
-                             put = setStaticF_k_HandleVerticalLineBreakingMarker)) ::Unity::Profiling::ProfilerMarker k_HandleVerticalLineBreakingMarker;
+  __declspec(property(get = getStaticF_k_HandleVerticalLineBreakingMarker, put = setStaticF_k_HandleVerticalLineBreakingMarker)) ::Unity::Profiling::ProfilerMarker k_HandleVerticalLineBreakingMarker;
 
   /// @brief Field k_HandleVisibleCharacterMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleVisibleCharacterMarker, put = setStaticF_k_HandleVisibleCharacterMarker)) ::Unity::Profiling::ProfilerMarker k_HandleVisibleCharacterMarker;
+  __declspec(property(get = getStaticF_k_HandleVisibleCharacterMarker, put = setStaticF_k_HandleVisibleCharacterMarker)) ::Unity::Profiling::ProfilerMarker k_HandleVisibleCharacterMarker;
 
   /// @brief Field k_HandleWhiteSpacesMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_HandleWhiteSpacesMarker, put = setStaticF_k_HandleWhiteSpacesMarker)) ::Unity::Profiling::ProfilerMarker k_HandleWhiteSpacesMarker;
+  __declspec(property(get = getStaticF_k_HandleWhiteSpacesMarker, put = setStaticF_k_HandleWhiteSpacesMarker)) ::Unity::Profiling::ProfilerMarker k_HandleWhiteSpacesMarker;
 
   /// @brief Field k_ParseMarkupTextMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ParseMarkupTextMarker, put = setStaticF_k_ParseMarkupTextMarker)) ::Unity::Profiling::ProfilerMarker k_ParseMarkupTextMarker;
+  __declspec(property(get = getStaticF_k_ParseMarkupTextMarker, put = setStaticF_k_ParseMarkupTextMarker)) ::Unity::Profiling::ProfilerMarker k_ParseMarkupTextMarker;
 
   /// @brief Field k_SaveGlyphVertexDataMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_SaveGlyphVertexDataMarker, put = setStaticF_k_SaveGlyphVertexDataMarker)) ::Unity::Profiling::ProfilerMarker k_SaveGlyphVertexDataMarker;
+  __declspec(property(get = getStaticF_k_SaveGlyphVertexDataMarker, put = setStaticF_k_SaveGlyphVertexDataMarker)) ::Unity::Profiling::ProfilerMarker k_SaveGlyphVertexDataMarker;
 
   /// @brief Field k_SavePageInfoMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_SavePageInfoMarker, put = setStaticF_k_SavePageInfoMarker)) ::Unity::Profiling::ProfilerMarker k_SavePageInfoMarker;
+  __declspec(property(get = getStaticF_k_SavePageInfoMarker, put = setStaticF_k_SavePageInfoMarker)) ::Unity::Profiling::ProfilerMarker k_SavePageInfoMarker;
 
   /// @brief Field k_SaveProcessingStatesMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_SaveProcessingStatesMarker, put = setStaticF_k_SaveProcessingStatesMarker)) ::Unity::Profiling::ProfilerMarker k_SaveProcessingStatesMarker;
+  __declspec(property(get = getStaticF_k_SaveProcessingStatesMarker, put = setStaticF_k_SaveProcessingStatesMarker)) ::Unity::Profiling::ProfilerMarker k_SaveProcessingStatesMarker;
 
   /// @brief Field k_SetArraySizesMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_SetArraySizesMarker, put = setStaticF_k_SetArraySizesMarker)) ::Unity::Profiling::ProfilerMarker k_SetArraySizesMarker;
+  __declspec(property(get = getStaticF_k_SetArraySizesMarker, put = setStaticF_k_SetArraySizesMarker)) ::Unity::Profiling::ProfilerMarker k_SetArraySizesMarker;
 
   /// @brief Field m_EnvMapMatrix, offset 0x714, size 0x40
   __declspec(property(get = __cordl_internal_get_m_EnvMapMatrix, put = __cordl_internal_set_m_EnvMapMatrix)) ::UnityEngine::Matrix4x4 m_EnvMapMatrix;
@@ -217,188 +211,188 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method Awake, addr 0x4755720, size 0x3a0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x47b6a34, size 0x3a0, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x4755718, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x47b6a2c, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x475571c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputVertical, addr 0x47b6a30, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method ClearMesh, addr 0x4755158, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x47b646c, size 0xc0, virtual true, abstract: false, final false
   inline void ClearMesh(bool updateMesh);
 
-  /// @brief Method ComputeMarginSize, addr 0x4759350, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x47ba664, size 0xdc, virtual true, abstract: false, final false
   inline void ComputeMarginSize();
 
-  /// @brief Method CreateMaterialInstance, addr 0x47567f4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateMaterialInstance, addr 0x47b7b08, size 0xc4, virtual false, abstract: false, final false
   inline void CreateMaterialInstance();
 
-  /// @brief Method DestroySubMeshObjects, addr 0x4759c7c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method DestroySubMeshObjects, addr 0x47baf90, size 0xdc, virtual true, abstract: false, final false
   inline void DestroySubMeshObjects();
 
-  /// @brief Method DisableMasking, addr 0x4756700, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method DisableMasking, addr 0x47b7a14, size 0xf4, virtual false, abstract: false, final false
   inline void DisableMasking();
 
-  /// @brief Method EnableMasking, addr 0x4756588, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method EnableMasking, addr 0x47b789c, size 0xf8, virtual false, abstract: false, final false
   inline void EnableMasking();
 
-  /// @brief Method ForceMeshUpdate, addr 0x47550d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ForceMeshUpdate, addr 0x47b63ec, size 0x14, virtual true, abstract: false, final false
   inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
-  /// @brief Method GenerateTextMesh, addr 0x47439f0, size 0x7260, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x47a4d04, size 0x7260, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
-  /// @brief Method GetCompoundBounds, addr 0x4759d58, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method GetCompoundBounds, addr 0x47bb06c, size 0x1f0, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds GetCompoundBounds();
 
-  /// @brief Method GetMaterial, addr 0x47568b8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x47b7bcc, size 0x110, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetMaterials, addr 0x47569c8, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method GetMaterials, addr 0x47b7cdc, size 0x1a8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> mats);
 
-  /// @brief Method GetSharedMaterials, addr 0x4756ba8, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetSharedMaterials, addr 0x47b7ebc, size 0x190, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterials();
 
-  /// @brief Method GetTextContainerLocalCorners, addr 0x4759914, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetTextContainerLocalCorners, addr 0x47bac28, size 0x98, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetTextContainerLocalCorners();
 
-  /// @brief Method GetTextInfo, addr 0x47550ec, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetTextInfo, addr 0x47b6400, size 0x6c, virtual true, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
 
-  /// @brief Method InternalUpdate, addr 0x47595cc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method InternalUpdate, addr 0x47ba8e0, size 0x9c, virtual true, abstract: false, final false
   inline void InternalUpdate();
 
-  /// @brief Method LoadFontAsset, addr 0x4755d34, size 0x5e0, virtual true, abstract: false, final false
+  /// @brief Method LoadFontAsset, addr 0x47b7048, size 0x5e0, virtual true, abstract: false, final false
   inline void LoadFontAsset();
 
   static inline ::TMPro::TextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4755c68, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x47b6f7c, size 0xcc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x475942c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x47ba740, size 0x1c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x4755bbc, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x47b6ed0, size 0xac, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4755ac0, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x47b6dd4, size 0xfc, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPreRenderObject, addr 0x4754c5c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method OnPreRenderObject, addr 0x47b5f70, size 0x248, virtual false, abstract: false, final false
   inline void OnPreRenderObject();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4759478, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x47ba78c, size 0x154, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x4759448, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x47ba75c, size 0x30, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Rebuild, addr 0x4754b74, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x47b5e88, size 0xe8, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method SetActiveSubMeshes, addr 0x4759b6c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method SetActiveSubMeshes, addr 0x47bae80, size 0x110, virtual true, abstract: false, final false
   inline void SetActiveSubMeshes(bool state);
 
-  /// @brief Method SetActiveSubTextObjectRenderers, addr 0x47597e4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetActiveSubTextObjectRenderers, addr 0x47baaf8, size 0x130, virtual false, abstract: false, final false
   inline void SetActiveSubTextObjectRenderers(bool state);
 
-  /// @brief Method SetAllDirty, addr 0x4754b30, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method SetAllDirty, addr 0x47b5e44, size 0x44, virtual true, abstract: false, final false
   inline void SetAllDirty();
 
-  /// @brief Method SetArraySizes, addr 0x4757824, size 0x1b2c, virtual true, abstract: false, final false
-  inline int32_t SetArraySizes(::ArrayW<::TMPro::__TMP_Text__UnicodeChar, ::Array<::TMPro::__TMP_Text__UnicodeChar>*> unicodeChars);
+  /// @brief Method SetArraySizes, addr 0x47b8b38, size 0x1b2c, virtual true, abstract: false, final false
+  inline int32_t SetArraySizes(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> unicodeChars);
 
-  /// @brief Method SetCulling, addr 0x4757504, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method SetCulling, addr 0x47b8818, size 0x29c, virtual true, abstract: false, final false
   inline void SetCulling();
 
-  /// @brief Method SetFaceColor, addr 0x47571cc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method SetFaceColor, addr 0x47b84e0, size 0x128, virtual true, abstract: false, final false
   inline void SetFaceColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetLayoutDirty, addr 0x4754a50, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutDirty, addr 0x47b5d64, size 0xd0, virtual true, abstract: false, final false
   inline void SetLayoutDirty();
 
-  /// @brief Method SetMask, addr 0x4754620, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x47b5934, size 0x148, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes maskType);
 
-  /// @brief Method SetMask, addr 0x4754768, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x47b5a7c, size 0x48, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes type, ::UnityEngine::Vector4 maskCoords);
 
-  /// @brief Method SetMask, addr 0x4754850, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetMask, addr 0x47b5b64, size 0x60, virtual false, abstract: false, final false
   inline void SetMask(::TMPro::MaskingTypes type, ::UnityEngine::Vector4 maskCoords, float_t softnessX, float_t softnessY);
 
-  /// @brief Method SetMaskCoordinates, addr 0x47547b0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetMaskCoordinates, addr 0x47b5ac4, size 0xa0, virtual false, abstract: false, final false
   inline void SetMaskCoordinates(::UnityEngine::Vector4 coords);
 
-  /// @brief Method SetMaskCoordinates, addr 0x47548b0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetMaskCoordinates, addr 0x47b5bc4, size 0xf0, virtual false, abstract: false, final false
   inline void SetMaskCoordinates(::UnityEngine::Vector4 coords, float_t softX, float_t softY);
 
-  /// @brief Method SetMaterialDirty, addr 0x4754b20, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method SetMaterialDirty, addr 0x47b5e34, size 0x10, virtual true, abstract: false, final false
   inline void SetMaterialDirty();
 
-  /// @brief Method SetMeshFilters, addr 0x47599ac, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method SetMeshFilters, addr 0x47bacc0, size 0x1c0, virtual false, abstract: false, final false
   inline void SetMeshFilters(bool state);
 
-  /// @brief Method SetOutlineColor, addr 0x47572f4, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineColor, addr 0x47b8608, size 0x128, virtual true, abstract: false, final false
   inline void SetOutlineColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetOutlineThickness, addr 0x47570a0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineThickness, addr 0x47b83b4, size 0x12c, virtual true, abstract: false, final false
   inline void SetOutlineThickness(float_t thickness);
 
-  /// @brief Method SetPerspectiveCorrection, addr 0x47577a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPerspectiveCorrection, addr 0x47b8ab4, size 0x84, virtual false, abstract: false, final false
   inline void SetPerspectiveCorrection();
 
-  /// @brief Method SetShaderDepth, addr 0x475741c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method SetShaderDepth, addr 0x47b8730, size 0xe8, virtual true, abstract: false, final false
   inline void SetShaderDepth();
 
-  /// @brief Method SetSharedMaterial, addr 0x4756b70, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterial, addr 0x47b7e84, size 0x38, virtual true, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetSharedMaterials, addr 0x4756d38, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterials, addr 0x47b804c, size 0x368, virtual true, abstract: false, final false
   inline void SetSharedMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials);
 
-  /// @brief Method SetVerticesDirty, addr 0x47549a0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method SetVerticesDirty, addr 0x47b5cb4, size 0xb0, virtual true, abstract: false, final false
   inline void SetVerticesDirty();
 
-  /// @brief Method UpdateEnvMapMatrix, addr 0x4756314, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method UpdateEnvMapMatrix, addr 0x47b7628, size 0x274, virtual false, abstract: false, final false
   inline void UpdateEnvMapMatrix();
 
-  /// @brief Method UpdateFontAsset, addr 0x4755708, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontAsset, addr 0x47b6a1c, size 0x10, virtual false, abstract: false, final false
   inline void UpdateFontAsset();
 
-  /// @brief Method UpdateGeometry, addr 0x4755380, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x47b6694, size 0x18, virtual true, abstract: false, final false
   inline void UpdateGeometry(::UnityEngine::Mesh* mesh, int32_t index);
 
-  /// @brief Method UpdateMask, addr 0x4756680, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method UpdateMask, addr 0x47b7994, size 0x80, virtual false, abstract: false, final false
   inline void UpdateMask();
 
-  /// @brief Method UpdateMaterial, addr 0x4754ea4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x47b61b8, size 0x134, virtual true, abstract: false, final false
   inline void UpdateMaterial();
 
-  /// @brief Method UpdateMeshPadding, addr 0x4754fd8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method UpdateMeshPadding, addr 0x47b62ec, size 0x100, virtual true, abstract: false, final false
   inline void UpdateMeshPadding();
 
-  /// @brief Method UpdateSDFScale, addr 0x4759668, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSDFScale, addr 0x47ba97c, size 0x17c, virtual false, abstract: false, final false
   inline void UpdateSDFScale(float_t scaleDelta);
 
-  /// @brief Method UpdateSubMeshSortingLayerID, addr 0x4753fc0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubMeshSortingLayerID, addr 0x47b52d4, size 0x10c, virtual false, abstract: false, final false
   inline void UpdateSubMeshSortingLayerID(int32_t id);
 
-  /// @brief Method UpdateSubMeshSortingOrder, addr 0x4754214, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubMeshSortingOrder, addr 0x47b5528, size 0x10c, virtual false, abstract: false, final false
   inline void UpdateSubMeshSortingOrder(int32_t order);
 
-  /// @brief Method UpdateVertexData, addr 0x4755538, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x47b684c, size 0x1d0, virtual true, abstract: false, final false
   inline void UpdateVertexData();
 
-  /// @brief Method UpdateVertexData, addr 0x4755398, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x47b66ac, size 0x1a0, virtual true, abstract: false, final false
   inline void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
 
-  constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>*& __cordl_internal_get_OnPreRenderText();
+  constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>* const& __cordl_internal_get_OnPreRenderText() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::TMPro::TMP_TextInfo*>*> const& __cordl_internal_get_OnPreRenderText() const;
+  constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>*& __cordl_internal_get_OnPreRenderText();
 
   constexpr int32_t const& __cordl_internal_get__SortingLayer() const;
 
@@ -498,10 +492,10 @@ public:
 
   constexpr void __cordl_internal_set_m_subTextObjects(::ArrayW<::UnityW<::TMPro::TMP_SubMesh>, ::Array<::UnityW<::TMPro::TMP_SubMesh>>*> value);
 
-  /// @brief Method .ctor, addr 0x4759f48, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47bb25c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnPreRenderText, addr 0x4755218, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method add_OnPreRenderText, addr 0x47b652c, size 0xb4, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_CalculateVerticesPositionMarker();
@@ -544,37 +538,37 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_SetArraySizesMarker();
 
-  /// @brief Method get_autoSizeTextContainer, addr 0x4754320, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autoSizeTextContainer, addr 0x47b5634, size 0x8, virtual true, abstract: false, final false
   inline bool get_autoSizeTextContainer();
 
-  /// @brief Method get_maskType, addr 0x4754610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maskType, addr 0x47b5924, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::MaskingTypes get_maskType();
 
-  /// @brief Method get_mesh, addr 0x4754464, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x47b5778, size 0xb0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_meshFilter, addr 0x4754514, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x47b5828, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_renderer, addr 0x4753e78, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x47b518c, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_sortingLayerID, addr 0x4753de4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerID, addr 0x47b50f8, size 0x94, virtual false, abstract: false, final false
   inline int32_t get_sortingLayerID();
 
-  /// @brief Method get_sortingOrder, addr 0x47540cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x47b53e0, size 0x94, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method get_textContainer, addr 0x47543c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textContainer, addr 0x47b56dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TextContainer> get_textContainer();
 
-  /// @brief Method get_transform, addr 0x47543d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_transform, addr 0x47b56e4, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  /// @brief Method remove_OnPreRenderText, addr 0x47552cc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method remove_OnPreRenderText, addr 0x47b65e0, size 0xb4, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline void setStaticF_k_CalculateVerticesPositionMarker(::Unity::Profiling::ProfilerMarker value);
@@ -617,16 +611,16 @@ public:
 
   static inline void setStaticF_k_SetArraySizesMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_autoSizeTextContainer, addr 0x4754328, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method set_autoSizeTextContainer, addr 0x47b563c, size 0xa0, virtual true, abstract: false, final false
   inline void set_autoSizeTextContainer(bool value);
 
-  /// @brief Method set_maskType, addr 0x4754618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maskType, addr 0x47b592c, size 0x8, virtual false, abstract: false, final false
   inline void set_maskType(::TMPro::MaskingTypes value);
 
-  /// @brief Method set_sortingLayerID, addr 0x4753f0c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerID, addr 0x47b5220, size 0xb4, virtual false, abstract: false, final false
   inline void set_sortingLayerID(int32_t value);
 
-  /// @brief Method set_sortingOrder, addr 0x4754160, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x47b5474, size 0xb4, virtual false, abstract: false, final false
   inline void set_sortingOrder(int32_t value);
 
 protected:
@@ -642,6 +636,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TextMeshPro", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TextMeshPro(TextMeshPro const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14424 };
 
   /// @brief Field _SortingLayer, offset: 0x6c8, size: 0x4, def value: None
   int32_t ____SortingLayer;
@@ -694,14 +691,9 @@ public:
   /// @brief Field m_isRegisteredForEvents, offset: 0x760, size: 0x1, def value: None
   bool ___m_isRegisteredForEvents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14390 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshPro, 0x768>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TextMeshPro, ____SortingLayer) == 0x6c8, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TextMeshPro, ____SortingLayerID) == 0x6cc, "Offset mismatch!");
@@ -735,6 +727,8 @@ static_assert(offsetof(::TMPro::TextMeshPro, ___m_EnvMapMatrix) == 0x714, "Offse
 static_assert(offsetof(::TMPro::TextMeshPro, ___m_RectTransformCorners) == 0x758, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TextMeshPro, ___m_isRegisteredForEvents) == 0x760, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshPro, 0x768>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TextMeshPro);

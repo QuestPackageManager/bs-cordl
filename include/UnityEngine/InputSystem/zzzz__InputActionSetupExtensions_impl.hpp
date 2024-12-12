@@ -13,989 +13,973 @@
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlScheme_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.get_valid
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.get_valid
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_valid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_valid)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44ef2c4;
+  constexpr static std::size_t addrs = 0x45505d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "get_valid",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "get_valid",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.get_bindingIndex
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.get_bindingIndex
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_bindingIndex)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_bindingIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44ef330;
+  constexpr static std::size_t addrs = 0x4550644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(),
                                                  "get_bindingIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.get_binding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.get_binding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_binding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_binding)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44ef368;
+  constexpr static std::size_t addrs = 0x455067c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "get_binding",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "get_binding",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(
-    ::UnityEngine::InputSystem::InputActionMap*, int32_t, ::UnityEngine::InputSystem::InputAction*)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(
+    ::UnityEngine::InputSystem::InputActionMap*, int32_t, ::UnityEngine::InputSystem::InputAction*)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ed708;
+  constexpr static std::size_t addrs = 0x454ea1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithName
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x44ef410;
+  constexpr static std::size_t addrs = 0x4550724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithName",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithName",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithPath
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithPath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithPath)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x44ef4cc;
+  constexpr static std::size_t addrs = 0x45507e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithPath",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithPath",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithGroup
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithGroup
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithGroup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithGroup)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44ef588;
+  constexpr static std::size_t addrs = 0x455089c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithGroup",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithGroup",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithGroups
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithGroups
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithGroups)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithGroups)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44ef724;
+  constexpr static std::size_t addrs = 0x4550a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithGroups",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithGroups",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithInteraction
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithInteraction
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithInteraction)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithInteraction)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44ef8b0;
+  constexpr static std::size_t addrs = 0x4550bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithInteraction",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithInteraction",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithInteractions
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithInteractions
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithInteractions)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithInteractions)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44efa4c;
+  constexpr static std::size_t addrs = 0x4550d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithInteractions",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithInteractions",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithProcessor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithProcessor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithProcessor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithProcessor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44efbd8;
+  constexpr static std::size_t addrs = 0x4550eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithProcessor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithProcessor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.WithProcessors
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.WithProcessors
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithProcessors)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithProcessors)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44efd74;
+  constexpr static std::size_t addrs = 0x4551088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithProcessors",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithProcessors",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.Triggering
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.Triggering
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::UnityEngine::InputSystem::InputAction*)>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Triggering)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::UnityEngine::InputSystem::InputAction*)>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Triggering)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x44eff00;
+  constexpr static std::size_t addrs = 0x4551214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Triggering", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Triggering", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.To
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.To
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::UnityEngine::InputSystem::InputBinding)>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::To)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::To)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x44f0070;
+  constexpr static std::size_t addrs = 0x4551384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "To", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "To", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.NextBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.NextBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextBinding)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f01a0;
+  constexpr static std::size_t addrs = 0x45514b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextBinding",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextBinding",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.PreviousBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.PreviousBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousBinding)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44f028c;
+  constexpr static std::size_t addrs = 0x45515a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(),
-                                                 "PreviousBinding", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousBinding",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.NextPartBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.NextPartBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextPartBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextPartBinding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44f02c0;
+  constexpr static std::size_t addrs = 0x45515d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextPartBinding",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextPartBinding",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.PreviousPartBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.PreviousPartBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousPartBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousPartBinding)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44f0474;
+  constexpr static std::size_t addrs = 0x4551788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "PreviousPartBinding",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousPartBinding",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.NextCompositeBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.NextCompositeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextCompositeBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextCompositeBinding)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44f0518;
+  constexpr static std::size_t addrs = 0x455182c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextCompositeBinding",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextCompositeBinding",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.PreviousCompositeBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.PreviousCompositeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousCompositeBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousCompositeBinding)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44f0644;
+  constexpr static std::size_t addrs = 0x4551958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "PreviousCompositeBinding",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousCompositeBinding",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.Iterate
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.Iterate
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(bool)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Iterate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(bool)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Iterate)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44f01d4;
+  constexpr static std::size_t addrs = 0x45514e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Iterate",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Iterate",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.IterateCompositeBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.IterateCompositeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(bool, ::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::IterateCompositeBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(bool, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::IterateCompositeBinding)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44f0550;
+  constexpr static std::size_t addrs = 0x4551864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "IterateCompositeBinding",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "IterateCompositeBinding",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.IteratePartBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.IteratePartBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(bool, ::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::IteratePartBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(bool, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::IteratePartBinding)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x44f0364;
+  constexpr static std::size_t addrs = 0x4551678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "IteratePartBinding",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "IteratePartBinding",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.Erase
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.Erase
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)()>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Erase)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Erase)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44f0688;
+  constexpr static std::size_t addrs = 0x455199c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Erase",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Erase",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax.InsertPartBinding
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax.InsertPartBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::*)(::StringW, ::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::InsertPartBinding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::*)(::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::InsertPartBinding)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x44f0820;
+  constexpr static std::size_t addrs = 0x4551b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "InsertPartBinding",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "InsertPartBinding",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_valid() {
+inline bool UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_valid() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "get_valid",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "get_valid",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_bindingIndex() {
+inline int32_t UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_bindingIndex() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(),
-                                               "get_bindingIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "get_bindingIndex",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::get_binding() {
+inline ::UnityEngine::InputSystem::InputBinding UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::get_binding() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "get_binding",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "get_binding",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputBinding, false>(this, ___internal_method);
 }
-/// @param action: ::UnityEngine::InputSystem::InputAction* (default: nullptr)
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::_ctor(::UnityEngine::InputSystem::InputActionMap* map, int32_t bindingIndexInMap,
-                                                                                         ::UnityEngine::InputSystem::InputAction* action) {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::_ctor(::UnityEngine::InputSystem::InputActionMap* map, int32_t bindingIndexInMap,
+                                                                                      ::UnityEngine::InputSystem::InputAction* action) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, map, bindingIndexInMap, action);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithName(::StringW name) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithName(::StringW name) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithName",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, name);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithPath(::StringW path) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithPath(::StringW path) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithPath",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithPath",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, path);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, path);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithGroup(::StringW group) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithGroup(::StringW group) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithGroup",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithGroup",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, group);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, group);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithGroups(::StringW groups) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithGroups(::StringW groups) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithGroups",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithGroups",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, groups);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, groups);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithInteraction(::StringW interaction) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithInteraction(::StringW interaction) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithInteraction",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithInteraction",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, interaction);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, interaction);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithInteractions(::StringW interactions) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithInteractions(::StringW interactions) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithInteractions",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithInteractions",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, interactions);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, interactions);
 }
-template <typename TInteraction>
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithInteraction() {
+template <typename TInteraction> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithInteraction() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithInteraction",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithInteraction",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInteraction>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInteraction>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithProcessor(::StringW processor) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithProcessor(::StringW processor) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithProcessor",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithProcessor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, processor);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, processor);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithProcessors(::StringW processors) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithProcessors(::StringW processors) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithProcessors",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithProcessors",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, processors);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, processors);
 }
-template <typename TProcessor> inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::WithProcessor() {
+template <typename TProcessor> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::WithProcessor() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "WithProcessor",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "WithProcessor",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TProcessor>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TProcessor>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Triggering(::UnityEngine::InputSystem::InputAction* action) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax
+UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Triggering(::UnityEngine::InputSystem::InputAction* action) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Triggering", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Triggering", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, action);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, action);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::To(::UnityEngine::InputSystem::InputBinding binding) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::To(::UnityEngine::InputSystem::InputBinding binding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "To", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "To", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, binding);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, binding);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextBinding() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextBinding() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextBinding",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextBinding",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousBinding() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousBinding() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(),
-                                               "PreviousBinding", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method);
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousBinding",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextPartBinding(::StringW partName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextPartBinding(::StringW partName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextPartBinding",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextPartBinding",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, partName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, partName);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousPartBinding(::StringW partName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousPartBinding(::StringW partName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "PreviousPartBinding",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousPartBinding",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, partName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, partName);
 }
-/// @param compositeName: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::NextCompositeBinding(::StringW compositeName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::NextCompositeBinding(::StringW compositeName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "NextCompositeBinding",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "NextCompositeBinding",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, compositeName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, compositeName);
 }
-/// @param compositeName: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::PreviousCompositeBinding(::StringW compositeName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::PreviousCompositeBinding(::StringW compositeName) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "PreviousCompositeBinding",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "PreviousCompositeBinding",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, compositeName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, compositeName);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Iterate(bool next) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Iterate(bool next) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Iterate",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Iterate",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, next);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, next);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::IterateCompositeBinding(bool next,
-                                                                                                                                                                              ::StringW compositeName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::IterateCompositeBinding(bool next,
+                                                                                                                                                                        ::StringW compositeName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "IterateCompositeBinding",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "IterateCompositeBinding",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, next, compositeName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, next, compositeName);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::IteratePartBinding(bool next,
-                                                                                                                                                                         ::StringW partName) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::IteratePartBinding(bool next, ::StringW partName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "IteratePartBinding",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "IteratePartBinding",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, next, partName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, next, partName);
 }
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::Erase() {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::Erase() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "Erase",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "Erase",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::InsertPartBinding(::StringW partName,
-                                                                                                                                                                        ::StringW path) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::InsertPartBinding(::StringW partName, ::StringW path) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax>::get(), "InsertPartBinding",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax>::get(), "InsertPartBinding",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(this, ___internal_method, partName, path);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(this, ___internal_method, partName, path);
 }
-// Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Action", ty:
-// "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::__InputActionSetupExtensions__BindingSyntax(::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
-                                                                                                                               ::UnityEngine::InputSystem::InputAction* m_Action,
-                                                                                                                               int32_t m_BindingIndexInMap) noexcept {
+// Ctor Parameters [CppParam { name: "m_ActionMap", ty: "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Action", ty:
+// "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::InputActionSetupExtensions_BindingSyntax(::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
+                                                                                                                         ::UnityEngine::InputSystem::InputAction* m_Action,
+                                                                                                                         int32_t m_BindingIndexInMap) noexcept {
   this->m_ActionMap = m_ActionMap;
   this->m_Action = m_Action;
   this->m_BindingIndexInMap = m_BindingIndexInMap;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax::__InputActionSetupExtensions__BindingSyntax() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax.get_bindingIndex
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax::InputActionSetupExtensions_BindingSyntax() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax.get_bindingIndex
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::*)()>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::get_bindingIndex)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::get_bindingIndex)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44f099c;
+  constexpr static std::size_t addrs = 0x4551cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(),
                                                  "get_bindingIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::*)(
-    ::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputAction*, int32_t)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::*)(
+    ::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputAction*, int32_t)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44edc30;
+  constexpr static std::size_t addrs = 0x454ef44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax.With
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax.With
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::With)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::With)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x44f09c8;
+  constexpr static std::size_t addrs = 0x4551cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(), "With", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(), "With", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-inline int32_t UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::get_bindingIndex() {
+inline int32_t UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::get_bindingIndex() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(),
                                                "get_bindingIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::_ctor(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputAction* action,
-                                                                                           int32_t compositeIndex) {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::_ctor(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputAction* action,
+                                                                                        int32_t compositeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, map, action, compositeIndex);
 }
-/// @param groups: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::With(::StringW name, ::StringW binding,
-                                                                                                                                                               ::StringW groups, ::StringW processors) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::With(::StringW name, ::StringW binding,
+                                                                                                                                                         ::StringW groups, ::StringW processors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax>::get(), "With", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax>::get(), "With", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax, false>(this, ___internal_method, name, binding, groups, processors);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax, false>(this, ___internal_method, name, binding, groups, processors);
 }
-// Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ActionMap", ty:
-// "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::__InputActionSetupExtensions__CompositeSyntax(::UnityEngine::InputSystem::InputAction* m_Action,
-                                                                                                                                   ::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
-                                                                                                                                   int32_t m_BindingIndexInMap) noexcept {
+// Ctor Parameters [CppParam { name: "m_Action", ty: "::UnityEngine::InputSystem::InputAction*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ActionMap", ty:
+// "::UnityEngine::InputSystem::InputActionMap*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BindingIndexInMap", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::InputActionSetupExtensions_CompositeSyntax(::UnityEngine::InputSystem::InputAction* m_Action,
+                                                                                                                             ::UnityEngine::InputSystem::InputActionMap* m_ActionMap,
+                                                                                                                             int32_t m_BindingIndexInMap) noexcept {
   this->m_Action = m_Action;
   this->m_ActionMap = m_ActionMap;
   this->m_BindingIndexInMap = m_BindingIndexInMap;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax::__InputActionSetupExtensions__CompositeSyntax() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax._ctor
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax::InputActionSetupExtensions_CompositeSyntax() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(
-    ::UnityEngine::InputSystem::InputActionAsset*, int32_t)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(
+    ::UnityEngine::InputSystem::InputActionAsset*, int32_t)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44eeabc;
+  constexpr static std::size_t addrs = 0x454fdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionAsset*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(
-    ::UnityEngine::InputSystem::InputControlScheme)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(
+    ::UnityEngine::InputSystem::InputControlScheme)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44eecb0;
+  constexpr static std::size_t addrs = 0x454ffc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControlScheme>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.WithBindingGroup
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.WithBindingGroup
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithBindingGroup)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithBindingGroup)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x44eecd0;
+  constexpr static std::size_t addrs = 0x454ffe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithBindingGroup",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithBindingGroup",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.WithRequiredDevice
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.WithRequiredDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithRequiredDevice)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithRequiredDevice)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44eef94;
+  constexpr static std::size_t addrs = 0x45502a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithRequiredDevice",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithRequiredDevice",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.WithOptionalDevice
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.WithOptionalDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithOptionalDevice)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithOptionalDevice)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44eefc8;
+  constexpr static std::size_t addrs = 0x45502dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithOptionalDevice",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithOptionalDevice",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.OrWithRequiredDevice
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.OrWithRequiredDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(::StringW)>(
-        &::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithRequiredDevice)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithRequiredDevice)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44ef1c4;
+  constexpr static std::size_t addrs = 0x45504d8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
-                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.OrWithOptionalDevice
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.OrWithOptionalDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(::StringW)>(
-        &::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithOptionalDevice)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithOptionalDevice)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x44ef290;
+  constexpr static std::size_t addrs = 0x45505a4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
-                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.Done
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.Done
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (
-    ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)()>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::Done)> {
+    ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)()>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::Done)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x44eedf0;
+  constexpr static std::size_t addrs = 0x4550104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "Done",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "Done",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax.AddDeviceEntry
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax.AddDeviceEntry
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::*)(
-    ::StringW, ::GlobalNamespace::__InputControlScheme__DeviceRequirement__Flags)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::AddDeviceEntry)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::*)(
+    ::StringW, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags)>(&::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::AddDeviceEntry)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x44f0c10;
+  constexpr static std::size_t addrs = 0x4551f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "AddDeviceEntry",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "AddDeviceEntry",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__InputControlScheme__DeviceRequirement__Flags>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::_ctor(::UnityEngine::InputSystem::InputActionAsset* asset, int32_t index) {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::_ctor(::UnityEngine::InputSystem::InputActionAsset* asset, int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, asset, index);
 }
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::_ctor(::UnityEngine::InputSystem::InputControlScheme controlScheme) {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::_ctor(::UnityEngine::InputSystem::InputControlScheme controlScheme) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControlScheme>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, controlScheme);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithBindingGroup(::StringW bindingGroup) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithBindingGroup(::StringW bindingGroup) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithBindingGroup",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithBindingGroup",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method, bindingGroup);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method, bindingGroup);
 }
 template <typename TDevice>
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithRequiredDevice() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithRequiredDevice() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithRequiredDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithRequiredDevice",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method);
 }
 template <typename TDevice>
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithOptionalDevice() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithOptionalDevice() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithOptionalDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithOptionalDevice",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method);
 }
 template <typename TDevice>
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithRequiredDevice() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithRequiredDevice() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method);
 }
 template <typename TDevice>
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithOptionalDevice() {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithOptionalDevice() {
   static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
                                   std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithRequiredDevice(::StringW controlPath) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithRequiredDevice(::StringW controlPath) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithRequiredDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithRequiredDevice",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::WithOptionalDevice(::StringW controlPath) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::WithOptionalDevice(::StringW controlPath) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "WithOptionalDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "WithOptionalDevice",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithRequiredDevice(::StringW controlPath) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax
+UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithRequiredDevice(::StringW controlPath) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithRequiredDevice",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
-UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::OrWithOptionalDevice(::StringW controlPath) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax
+UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::OrWithOptionalDevice(::StringW controlPath) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "OrWithOptionalDevice",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(this, ___internal_method, controlPath);
 }
-template <typename TDevice> inline ::StringW UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::DeviceTypeToControlPath() {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "DeviceTypeToControlPath",
-      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
+template <typename TDevice> inline ::StringW UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::DeviceTypeToControlPath() {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "DeviceTypeToControlPath",
+                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }, ::std::span<Il2CppType const* const, 0>())));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TDevice>::get() }));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputControlScheme UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::Done() {
+inline ::UnityEngine::InputSystem::InputControlScheme UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::Done() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "Done",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "Done",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControlScheme, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::AddDeviceEntry(::StringW controlPath,
-                                                                                                        ::GlobalNamespace::__InputControlScheme__DeviceRequirement__Flags flags) {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::AddDeviceEntry(::StringW controlPath,
+                                                                                                     ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags flags) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax>::get(), "AddDeviceEntry",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax>::get(), "AddDeviceEntry",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__InputControlScheme__DeviceRequirement__Flags>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, controlPath, flags);
 }
-// Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_ControlSchemeIndex", ty:
+// Ctor Parameters [CppParam { name: "m_Asset", ty: "::UnityW<::UnityEngine::InputSystem::InputActionAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ControlSchemeIndex", ty:
 // "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ControlScheme", ty: "::UnityEngine::InputSystem::InputControlScheme", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::__InputActionSetupExtensions__ControlSchemeSyntax(
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::InputActionSetupExtensions_ControlSchemeSyntax(
     ::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset, int32_t m_ControlSchemeIndex, ::UnityEngine::InputSystem::InputControlScheme m_ControlScheme) noexcept {
   this->m_Asset = m_Asset;
   this->m_ControlSchemeIndex = m_ControlSchemeIndex;
   this->m_ControlScheme = m_ControlScheme;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax::__InputActionSetupExtensions__ControlSchemeSyntax() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0._ctor
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax::InputActionSetupExtensions_ControlSchemeSyntax() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::*)()>(
-    &::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::*)()>(
+    &::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ed2fc;
+  constexpr static std::size_t addrs = 0x454e610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0._RemoveAction_b__0
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0._RemoveAction_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::*)(
-    ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::_RemoveAction_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::*)(
+    ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::_RemoveAction_b__0)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44f0e04;
+  constexpr static std::size_t addrs = 0x4552118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0*>::get(), "<RemoveAction>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0*>::get(), "<RemoveAction>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::InputSystem::InputBinding& UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::__cordl_internal_get_binding() {
+constexpr ::UnityEngine::InputSystem::InputBinding& UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::__cordl_internal_get_binding() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
-constexpr ::UnityEngine::InputSystem::InputBinding const& UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::__cordl_internal_get_binding() const {
+constexpr ::UnityEngine::InputSystem::InputBinding const& UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::__cordl_internal_get_binding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
-constexpr void UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::__cordl_internal_set_binding(::UnityEngine::InputSystem::InputBinding value) {
+constexpr void UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::__cordl_internal_set_binding(::UnityEngine::InputSystem::InputBinding value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binding = value;
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0* UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0*>());
-}
-inline void UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::_ctor() {
+inline void UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::_RemoveAction_b__0(::UnityEngine::InputSystem::InputBinding b) {
+inline bool UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::_RemoveAction_b__0(::UnityEngine::InputSystem::InputBinding b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0*>::get(), "<RemoveAction>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0*>::get(), "<RemoveAction>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, b);
 }
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0* UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::__InputActionSetupExtensions____c__DisplayClass5_0::__InputActionSetupExtensions____c__DisplayClass5_0() {}
+constexpr ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0::InputActionSetupExtensions___c__DisplayClass5_0() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddActionMap
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionMap* (*)(::UnityEngine::InputSystem::InputActionAsset*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::AddActionMap)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x44ec558;
+  constexpr static std::size_t addrs = 0x454d86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1011,7 +995,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::UnityEngine::InputSystem::InputActionMap*)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::AddActionMap)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x44ec718;
+  constexpr static std::size_t addrs = 0x454da2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1027,7 +1011,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::UnityEngine::InputSystem::InputActionMap*)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::RemoveActionMap)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x44ec960;
+  constexpr static std::size_t addrs = 0x454dc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1043,7 +1027,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::RemoveActionMap)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x44ecac4;
+  constexpr static std::size_t addrs = 0x454ddd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1060,7 +1044,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::InputAction* (*)(::UnityEngine::InputSystem::InputActionMap*, ::StringW, ::UnityEngine::InputSystem::InputActionType, ::StringW, ::StringW, ::StringW,
                                                              ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddAction)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x44ecbd8;
+  constexpr static std::size_t addrs = 0x454deec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1079,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::RemoveAction)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x44ecf90;
+  constexpr static std::size_t addrs = 0x454e2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1094,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::RemoveAction)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x44ed304;
+  constexpr static std::size_t addrs = 0x454e618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1107,10 +1091,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW, ::StringW, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44ecf44;
+  constexpr static std::size_t addrs = 0x454e258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1124,10 +1108,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44ed4c0;
+  constexpr static std::size_t addrs = 0x454e7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1140,10 +1124,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44ed410;
+  constexpr static std::size_t addrs = 0x454e724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1156,10 +1140,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputActionMap*, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44ed714;
+  constexpr static std::size_t addrs = 0x454ea28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1174,10 +1158,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputActionMap*, ::StringW, ::UnityEngine::InputSystem::InputAction*, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44ed8b0;
+  constexpr static std::size_t addrs = 0x454ebc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1192,10 +1176,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputActionMap*, ::StringW, ::System::Guid, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44ed9d4;
+  constexpr static std::size_t addrs = 0x454ece8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1209,10 +1193,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x44ed7c8;
+  constexpr static std::size_t addrs = 0x454eadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1225,10 +1209,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddCompositeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddCompositeBinding)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x44edac8;
+  constexpr static std::size_t addrs = 0x454eddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1245,7 +1229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::InputActionMap*, ::UnityEngine::InputSystem::InputBinding, int32_t)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::AddBindingInternal)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44ed578;
+  constexpr static std::size_t addrs = 0x454e88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1259,10 +1243,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, int32_t)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x44edc70;
+  constexpr static std::size_t addrs = 0x454ef84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1275,10 +1259,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x44edcfc;
+  constexpr static std::size_t addrs = 0x454f010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1291,10 +1275,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputActionMap*, int32_t)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44ede88;
+  constexpr static std::size_t addrs = 0x454f19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1307,10 +1291,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBindingWithId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x44edf7c;
+  constexpr static std::size_t addrs = 0x454f290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1323,10 +1307,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBindingWithId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::System::Guid)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44ee010;
+  constexpr static std::size_t addrs = 0x454f324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1339,10 +1323,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBindingWithGroup
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithGroup)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x44ee0ec;
+  constexpr static std::size_t addrs = 0x454f400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1355,10 +1339,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBindingWithPath
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithPath)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44ee180;
+  constexpr static std::size_t addrs = 0x454f494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1371,10 +1355,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::UnityEngine::InputSystem::InputBinding)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x44edd4c;
+  constexpr static std::size_t addrs = 0x454f060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1387,10 +1371,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.ChangeCompositeBinding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax (*)(
     ::UnityEngine::InputSystem::InputAction*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::ChangeCompositeBinding)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x44ee21c;
+  constexpr static std::size_t addrs = 0x454f530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1406,7 +1390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputAction*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::Rename)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x44ee42c;
+  constexpr static std::size_t addrs = 0x454f740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1422,7 +1406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::UnityEngine::InputSystem::InputControlScheme)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::AddControlScheme)> {
   constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x44ee690;
+  constexpr static std::size_t addrs = 0x454f9a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1435,10 +1419,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionSetupExtensions.AddControlScheme
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax (*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax (*)(
     ::UnityEngine::InputSystem::InputActionAsset*, ::StringW)>(&::UnityEngine::InputSystem::InputActionSetupExtensions::AddControlScheme)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x44ee958;
+  constexpr static std::size_t addrs = 0x454fc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1454,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputActionAsset*, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::RemoveControlScheme)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x44eead0;
+  constexpr static std::size_t addrs = 0x454fde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1470,7 +1454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::WithBindingGroup)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44eec04;
+  constexpr static std::size_t addrs = 0x454ff18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1486,7 +1470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::WithDevice)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x44eeeb0;
+  constexpr static std::size_t addrs = 0x45501c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1502,7 +1486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::WithRequiredDevice)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44eeffc;
+  constexpr static std::size_t addrs = 0x4550310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1518,7 +1502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::WithOptionalDevice)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44ef094;
+  constexpr static std::size_t addrs = 0x45503a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1534,7 +1518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::OrWithRequiredDevice)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44ef12c;
+  constexpr static std::size_t addrs = 0x4550440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1550,7 +1534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControlScheme (*)(::UnityEngine::InputSystem::InputControlScheme, ::StringW)>(
     &::UnityEngine::InputSystem::InputActionSetupExtensions::OrWithOptionalDevice)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44ef1f8;
+  constexpr static std::size_t addrs = 0x455050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1588,12 +1572,6 @@ inline void UnityEngine::InputSystem::InputActionSetupExtensions::RemoveActionMa
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asset, nameOrId);
 }
-/// @param type: ::UnityEngine::InputSystem::InputActionType (default: static_cast<int32_t>(0x0))
-/// @param binding: ::StringW (default: nullptr)
-/// @param interactions: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-/// @param expectedControlLayout: ::StringW (default: nullptr)
 inline ::UnityEngine::InputSystem::InputAction* UnityEngine::InputSystem::InputActionSetupExtensions::AddAction(::UnityEngine::InputSystem::InputActionMap* map, ::StringW name,
                                                                                                                 ::UnityEngine::InputSystem::InputActionType type, ::StringW binding,
                                                                                                                 ::StringW interactions, ::StringW processors, ::StringW groups,
@@ -1621,102 +1599,82 @@ inline void UnityEngine::InputSystem::InputActionSetupExtensions::RemoveAction(:
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asset, nameOrId);
 }
-/// @param interactions: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax
 UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW path, ::StringW interactions, ::StringW processors, ::StringW groups) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, path, interactions, processors,
-                                                                                                                             groups);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, path, interactions, processors, groups);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                ::UnityEngine::InputSystem::InputControl* control) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                             ::UnityEngine::InputSystem::InputControl* control) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, control);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, control);
 }
-/// @param binding: ::UnityEngine::InputSystem::InputBinding (default: {})
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                ::UnityEngine::InputSystem::InputBinding binding) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                             ::UnityEngine::InputSystem::InputBinding binding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, binding);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, binding);
 }
-/// @param interactions: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-/// @param action: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
-                                                                                                                                                ::StringW path, ::StringW interactions,
-                                                                                                                                                ::StringW groups, ::StringW action,
-                                                                                                                                                ::StringW processors) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
+                                                                                                                                             ::StringW path, ::StringW interactions, ::StringW groups,
+                                                                                                                                             ::StringW action, ::StringW processors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, interactions, groups, action,
-                                                                                                                             processors);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, interactions, groups, action,
+                                                                                                                          processors);
 }
-/// @param interactions: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
-                                                                                                                                                ::StringW path,
-                                                                                                                                                ::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                ::StringW interactions, ::StringW groups) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
+                                                                                                                                             ::StringW path,
+                                                                                                                                             ::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                             ::StringW interactions, ::StringW groups) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, action, interactions,
-                                                                                                                             groups);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, action, interactions, groups);
 }
-/// @param interactions: ::StringW (default: nullptr)
-/// @param groups: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
-                                                                                                                                                ::StringW path, ::System::Guid action,
-                                                                                                                                                ::StringW interactions, ::StringW groups) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
+                                                                                                                                             ::StringW path, ::System::Guid action,
+                                                                                                                                             ::StringW interactions, ::StringW groups) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, action, interactions,
-                                                                                                                             groups);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, actionMap, path, action, interactions, groups);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
-                                                                                                                                                ::UnityEngine::InputSystem::InputBinding binding) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
+                                                                                                                                             ::UnityEngine::InputSystem::InputBinding binding) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, actionMap, binding);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, actionMap, binding);
 }
-/// @param interactions: ::StringW (default: nullptr)
-/// @param processors: ::StringW (default: nullptr)
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax
 UnityEngine::InputSystem::InputActionSetupExtensions::AddCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW composite, ::StringW interactions, ::StringW processors) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddCompositeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__CompositeSyntax, false>(nullptr, ___internal_method, action, composite, interactions,
-                                                                                                                               processors);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax, false>(nullptr, ___internal_method, action, composite, interactions, processors);
 }
-/// @param bindingIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
 inline int32_t UnityEngine::InputSystem::InputActionSetupExtensions::AddBindingInternal(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputBinding binding,
                                                                                         int32_t bindingIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1726,77 +1684,77 @@ inline int32_t UnityEngine::InputSystem::InputActionSetupExtensions::AddBindingI
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, map, binding, bindingIndex);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                   int32_t index) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, index);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                   ::StringW name) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, name);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, int32_t index) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
+                                                                                                                                                int32_t index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionMap*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, actionMap, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, actionMap, index);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::StringW id) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                      ::StringW id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBindingWithId", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, id);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, id);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::System::Guid id) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                      ::System::Guid id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBindingWithId", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, id);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, id);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax
 UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithGroup(::UnityEngine::InputSystem::InputAction* action, ::StringW group) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBindingWithGroup", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, group);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, group);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
-UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithPath(::UnityEngine::InputSystem::InputAction* action, ::StringW path) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBindingWithPath(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                        ::StringW path) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBindingWithPath", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, path);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, path);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
-                                                                                                                                                   ::UnityEngine::InputSystem::InputBinding match) {
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax UnityEngine::InputSystem::InputActionSetupExtensions::ChangeBinding(::UnityEngine::InputSystem::InputAction* action,
+                                                                                                                                                ::UnityEngine::InputSystem::InputBinding match) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputBinding>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, match);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, match);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax
 UnityEngine::InputSystem::InputActionSetupExtensions::ChangeCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW compositeName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "ChangeCompositeBinding", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__BindingSyntax, false>(nullptr, ___internal_method, action, compositeName);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax, false>(nullptr, ___internal_method, action, compositeName);
 }
 inline void UnityEngine::InputSystem::InputActionSetupExtensions::Rename(::UnityEngine::InputSystem::InputAction* action, ::StringW newName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1812,13 +1770,13 @@ inline void UnityEngine::InputSystem::InputActionSetupExtensions::AddControlSche
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControlScheme>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, asset, controlScheme);
 }
-inline ::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax
+inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax
 UnityEngine::InputSystem::InputActionSetupExtensions::AddControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionSetupExtensions*>::get(), "AddControlScheme", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::__InputActionSetupExtensions__ControlSchemeSyntax, false>(nullptr, ___internal_method, asset, name);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax, false>(nullptr, ___internal_method, asset, name);
 }
 inline void UnityEngine::InputSystem::InputActionSetupExtensions::RemoveControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

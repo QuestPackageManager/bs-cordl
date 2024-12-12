@@ -1,28 +1,28 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/Target.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__Target_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__GeneralName_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__Target_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Org::BouncyCastle::Asn1::X509::__Target__Choice::__Target__Choice(int32_t value__) noexcept {
+constexpr ::Org::BouncyCastle::Asn1::X509::Target_Choice::Target_Choice(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::X509::__Target__Choice::__Target__Choice() {}
-constexpr ::Org::BouncyCastle::Asn1::X509::__Target__Choice Org::BouncyCastle::Asn1::X509::__Target__Choice::Name{ static_cast<int32_t>(0x0) };
-constexpr ::Org::BouncyCastle::Asn1::X509::__Target__Choice Org::BouncyCastle::Asn1::X509::__Target__Choice::Group{ static_cast<int32_t>(0x1) };
+constexpr ::Org::BouncyCastle::Asn1::X509::Target_Choice::Target_Choice() {}
+constexpr ::Org::BouncyCastle::Asn1::X509::Target_Choice Org::BouncyCastle::Asn1::X509::Target_Choice::Name{ static_cast<int32_t>(0x0) };
+constexpr ::Org::BouncyCastle::Asn1::X509::Target_Choice Org::BouncyCastle::Asn1::X509::Target_Choice::Group{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::Target.GetInstance
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::Target* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::Target::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x25daf44;
+  constexpr static std::size_t addrs = 0x260e230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Target::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::X509::Target::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x25db0c0;
+  constexpr static std::size_t addrs = 0x260e3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,14 +50,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::Target::*)(
-    ::Org::BouncyCastle::Asn1::X509::__Target__Choice, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::Target::_ctor)> {
+    ::Org::BouncyCastle::Asn1::X509::Target_Choice, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::Target::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25db1cc;
+  constexpr static std::size_t addrs = 0x260e4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Target*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::__Target__Choice>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::Target_Choice>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get() })));
     return ___internal_method;
   }
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::X509::Target::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Target::get_TargetGroup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25db240;
+  constexpr static std::size_t addrs = 0x260e52c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::X509::Target::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Target::get_TargetName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25db248;
+  constexpr static std::size_t addrs = 0x260e534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::Target::*)()>(
     &::Org::BouncyCastle::Asn1::X509::Target::ToAsn1Object)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25db250;
+  constexpr static std::size_t addrs = 0x260e53c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,19 +107,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr Org::BouncyCastle::Asn1::X509::Target::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::X509::Target::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1::X509::Target::__cordl_internal_get_targetName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetName;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Asn1::X509::Target::__cordl_internal_get_targetName() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::X509::Target::__cordl_internal_get_targetName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetName;
 }
@@ -131,7 +123,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Asn1::X509::Target::__cordl_internal_get_targetGroup() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Asn1::X509::Target::__cordl_internal_get_targetGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___targetGroup;
 }
@@ -145,23 +137,16 @@ inline ::Org::BouncyCastle::Asn1::X509::Target* Org::BouncyCastle::Asn1::X509::T
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::X509::Target*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::Target* Org::BouncyCastle::Asn1::X509::Target::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Target*>(tagObj));
-}
 inline void Org::BouncyCastle::Asn1::X509::Target::_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Target*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tagObj);
 }
-inline ::Org::BouncyCastle::Asn1::X509::Target* Org::BouncyCastle::Asn1::X509::Target::New_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type,
-                                                                                                ::Org::BouncyCastle::Asn1::X509::GeneralName* name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Target*>(type, name));
-}
-inline void Org::BouncyCastle::Asn1::X509::Target::_ctor(::Org::BouncyCastle::Asn1::X509::__Target__Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name) {
+inline void Org::BouncyCastle::Asn1::X509::Target::_ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Target*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::__Target__Choice>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::Target_Choice>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::GeneralName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, name);
 }
@@ -179,6 +164,21 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Tar
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::Target*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::Target* Org::BouncyCastle::Asn1::X509::Target::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Target*>(tagObj));
+}
+inline ::Org::BouncyCastle::Asn1::X509::Target* Org::BouncyCastle::Asn1::X509::Target::New_ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type,
+                                                                                                ::Org::BouncyCastle::Asn1::X509::GeneralName* name) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::Target*>(type, name));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr Org::BouncyCastle::Asn1::X509::Target::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::X509::Target::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
+  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::Target::Target() {}

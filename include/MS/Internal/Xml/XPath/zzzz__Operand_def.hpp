@@ -9,7 +9,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Operand)
 namespace MS::Internal::Xml::XPath {
-struct __AstNode__AstType;
+struct AstNode_AstType;
 }
 namespace System::Xml::XPath {
 struct XPathResultType;
@@ -23,17 +23,16 @@ class Operand;
 }
 // Write type traits
 MARK_REF_PTR_T(::MS::Internal::Xml::XPath::Operand);
-// Type: MS.Internal.Xml.XPath::Operand
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MS.Internal.Xml.XPath.AstNode, System.Xml.XPath.XPathResultType
 namespace MS::Internal::Xml::XPath {
 // Is value type: false
-// CS Name: ::MS.Internal.Xml.XPath::Operand*
+// CS Name: MS.Internal.Xml.XPath.Operand
 class CORDL_TYPE Operand : public ::MS::Internal::Xml::XPath::AstNode {
 public:
   // Declarations
   __declspec(property(get = get_ReturnType)) ::System::Xml::XPath::XPathResultType ReturnType;
 
-  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::__AstNode__AstType Type;
+  __declspec(property(get = get_Type)) ::MS::Internal::Xml::XPath::AstNode_AstType Type;
 
   /// @brief Field _type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Xml::XPath::XPathResultType _type;
@@ -49,25 +48,25 @@ public:
 
   constexpr ::System::Xml::XPath::XPathResultType& __cordl_internal_get__type();
 
-  constexpr ::System::Object*& __cordl_internal_get__val();
+  constexpr ::System::Object* const& __cordl_internal_get__val() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__val() const;
+  constexpr ::System::Object*& __cordl_internal_get__val();
 
   constexpr void __cordl_internal_set__type(::System::Xml::XPath::XPathResultType value);
 
   constexpr void __cordl_internal_set__val(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x42a4100, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4305414, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW val);
 
-  /// @brief Method .ctor, addr 0x42a4130, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4305444, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(double_t val);
 
-  /// @brief Method get_ReturnType, addr 0x42a41a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x43054bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x42a41a0, size 0x8, virtual true, abstract: false, final false
-  inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
+  /// @brief Method get_Type, addr 0x43054b4, size 0x8, virtual true, abstract: false, final false
+  inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
   // Ctor Parameters []
@@ -83,23 +82,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Operand(Operand const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7775 };
+
   /// @brief Field _type, offset: 0x10, size: 0x4, def value: None
   ::System::Xml::XPath::XPathResultType ____type;
 
   /// @brief Field _val, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____val;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7750 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::Operand, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::MS::Internal::Xml::XPath::Operand, ____type) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::MS::Internal::Xml::XPath::Operand, ____val) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::MS::Internal::Xml::XPath::Operand, 0x20>, "Size mismatch!");
 
 } // namespace MS::Internal::Xml::XPath
 NEED_NO_BOX(::MS::Internal::Xml::XPath::Operand);

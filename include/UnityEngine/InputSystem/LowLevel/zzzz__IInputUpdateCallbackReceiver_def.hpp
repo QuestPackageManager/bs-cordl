@@ -10,27 +10,22 @@ class IInputUpdateCallbackReceiver;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputUpdateCallbackReceiver);
-// Type: UnityEngine.InputSystem.LowLevel::IInputUpdateCallbackReceiver
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.LowLevel::IInputUpdateCallbackReceiver*
+// CS Name: UnityEngine.InputSystem.LowLevel.IInputUpdateCallbackReceiver
 class CORDL_TYPE IInputUpdateCallbackReceiver {
 public:
   // Declarations
-  /// @brief Method OnUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnUpdate();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IInputUpdateCallbackReceiver", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IInputUpdateCallbackReceiver(IInputUpdateCallbackReceiver&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputUpdateCallbackReceiver", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IInputUpdateCallbackReceiver(IInputUpdateCallbackReceiver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6903 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

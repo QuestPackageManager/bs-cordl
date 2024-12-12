@@ -11,17 +11,16 @@ class AvatarColorTrack;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AvatarColorTrack);
-// Type: ::AvatarColorTrack
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Timeline.TrackAsset
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AvatarColorTrack*
+// CS Name: AvatarColorTrack
 class CORDL_TYPE AvatarColorTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
   // Declarations
   static inline ::GlobalNamespace::AvatarColorTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad33dc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b32a20, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   AvatarColorTrack(AvatarColorTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

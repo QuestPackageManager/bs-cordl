@@ -3,19 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Mono/Xml/zzzz__SmallXmlParser_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConfigHandler)
 namespace Mono::Xml {
+class SmallXmlParser_IAttrList;
+}
+namespace Mono::Xml {
 class SmallXmlParser;
-}
-namespace Mono::Xml {
-class __SmallXmlParser__IAttrList;
-}
-namespace Mono::Xml {
-class __SmallXmlParser__IContentHandler;
 }
 namespace System::Collections {
 class ArrayList;
@@ -38,11 +34,10 @@ class ConfigHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ConfigHandler);
-// Type: System.Runtime.Remoting::ConfigHandler
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Xml.SmallXmlParser::IContentHandler, System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting::ConfigHandler*
+// CS Name: System.Runtime.Remoting.ConfigHandler
 class CORDL_TYPE ConfigHandler : public ::System::Object {
 public:
   // Declarations
@@ -70,99 +65,99 @@ public:
   /// @brief Field typeEntries, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_typeEntries, put = __cordl_internal_set_typeEntries)) ::System::Collections::ArrayList* typeEntries;
 
-  /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
-  constexpr operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept;
+  /// @brief Convert operator to "::Mono::Xml::SmallXmlParser_IContentHandler"
+  constexpr operator ::Mono::Xml::SmallXmlParser_IContentHandler*() noexcept;
 
-  /// @brief Method CheckPath, addr 0x3c69a58, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CheckPath, addr 0x3cc9bcc, size 0xe0, virtual false, abstract: false, final false
   inline bool CheckPath(::StringW path);
 
-  /// @brief Method ExtractAssembly, addr 0x3c6ca5c, size 0xc0, virtual false, abstract: false, final false
-  inline ::StringW ExtractAssembly(ByRef<::StringW> type);
+  /// @brief Method ExtractAssembly, addr 0x3cccbd0, size 0xc0, virtual false, abstract: false, final false
+  inline ::StringW ExtractAssembly(::ByRef<::StringW> type);
 
-  /// @brief Method GetNotNull, addr 0x3c6c928, size 0x134, virtual false, abstract: false, final false
-  inline ::StringW GetNotNull(::Mono::Xml::__SmallXmlParser__IAttrList* attrs, ::StringW name);
+  /// @brief Method GetNotNull, addr 0x3ccca9c, size 0x134, virtual false, abstract: false, final false
+  inline ::StringW GetNotNull(::Mono::Xml::SmallXmlParser_IAttrList* attrs, ::StringW name);
 
   static inline ::System::Runtime::Remoting::ConfigHandler* New_ctor(bool onlyDelayedChannels);
 
-  /// @brief Method OnChars, addr 0x3c6cb1c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnChars, addr 0x3cccc90, size 0x4, virtual true, abstract: false, final true
   inline void OnChars(::StringW ch);
 
-  /// @brief Method OnEndElement, addr 0x3c6c4cc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method OnEndElement, addr 0x3ccc640, size 0x80, virtual true, abstract: false, final true
   inline void OnEndElement(::StringW name);
 
-  /// @brief Method OnEndParsing, addr 0x3c6cb20, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method OnEndParsing, addr 0x3cccc94, size 0xf4, virtual true, abstract: false, final true
   inline void OnEndParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method OnIgnorableWhitespace, addr 0x3c69b40, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnIgnorableWhitespace, addr 0x3cc9cb4, size 0x4, virtual true, abstract: false, final true
   inline void OnIgnorableWhitespace(::StringW s);
 
-  /// @brief Method OnProcessingInstruction, addr 0x3c69b3c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnProcessingInstruction, addr 0x3cc9cb0, size 0x4, virtual true, abstract: false, final true
   inline void OnProcessingInstruction(::StringW name, ::StringW text);
 
-  /// @brief Method OnStartElement, addr 0x3c69b44, size 0x1b4, virtual true, abstract: false, final true
-  inline void OnStartElement(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method OnStartElement, addr 0x3cc9cb8, size 0x1b4, virtual true, abstract: false, final true
+  inline void OnStartElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method OnStartParsing, addr 0x3c69b38, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnStartParsing, addr 0x3cc9cac, size 0x4, virtual true, abstract: false, final true
   inline void OnStartParsing(::Mono::Xml::SmallXmlParser* parser);
 
-  /// @brief Method ParseElement, addr 0x3c69cf8, size 0xe70, virtual false, abstract: false, final false
-  inline void ParseElement(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ParseElement, addr 0x3cc9e6c, size 0xe70, virtual false, abstract: false, final false
+  inline void ParseElement(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ParseTime, addr 0x3c6c54c, size 0x3dc, virtual false, abstract: false, final false
+  /// @brief Method ParseTime, addr 0x3ccc6c0, size 0x3dc, virtual false, abstract: false, final false
   inline ::System::TimeSpan ParseTime(::StringW s);
 
-  /// @brief Method ReadChannel, addr 0x3c6b418, size 0x3bc, virtual false, abstract: false, final false
-  inline void ReadChannel(::Mono::Xml::__SmallXmlParser__IAttrList* attrs, bool isTemplate);
+  /// @brief Method ReadChannel, addr 0x3ccb58c, size 0x3bc, virtual false, abstract: false, final false
+  inline void ReadChannel(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-  /// @brief Method ReadClientActivated, addr 0x3c6bea4, size 0x140, virtual false, abstract: false, final false
-  inline void ReadClientActivated(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadClientActivated, addr 0x3ccc018, size 0x140, virtual false, abstract: false, final false
+  inline void ReadClientActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadClientWellKnown, addr 0x3c6bbd0, size 0xf0, virtual false, abstract: false, final false
-  inline void ReadClientWellKnown(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadClientWellKnown, addr 0x3ccbd44, size 0xf0, virtual false, abstract: false, final false
+  inline void ReadClientWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadCustomProviderData, addr 0x3c6ab68, size 0x360, virtual false, abstract: false, final false
-  inline void ReadCustomProviderData(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadCustomProviderData, addr 0x3ccacdc, size 0x360, virtual false, abstract: false, final false
+  inline void ReadCustomProviderData(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadInteropXml, addr 0x3c6c0a8, size 0x1a0, virtual false, abstract: false, final false
-  inline void ReadInteropXml(::Mono::Xml::__SmallXmlParser__IAttrList* attrs, bool isElement);
+  /// @brief Method ReadInteropXml, addr 0x3ccc21c, size 0x1a0, virtual false, abstract: false, final false
+  inline void ReadInteropXml(::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isElement);
 
-  /// @brief Method ReadLifetine, addr 0x3c6aec8, size 0x550, virtual false, abstract: false, final false
-  inline void ReadLifetine(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadLifetine, addr 0x3ccb03c, size 0x550, virtual false, abstract: false, final false
+  inline void ReadLifetine(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadPreload, addr 0x3c6c248, size 0x284, virtual false, abstract: false, final false
-  inline void ReadPreload(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadPreload, addr 0x3ccc3bc, size 0x284, virtual false, abstract: false, final false
+  inline void ReadPreload(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadProvider, addr 0x3c6b7d4, size 0x3fc, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::ProviderData* ReadProvider(::StringW name, ::Mono::Xml::__SmallXmlParser__IAttrList* attrs, bool isTemplate);
+  /// @brief Method ReadProvider, addr 0x3ccb948, size 0x3fc, virtual false, abstract: false, final false
+  inline ::System::Runtime::Remoting::ProviderData* ReadProvider(::StringW name, ::Mono::Xml::SmallXmlParser_IAttrList* attrs, bool isTemplate);
 
-  /// @brief Method ReadServiceActivated, addr 0x3c6bfe4, size 0xc4, virtual false, abstract: false, final false
-  inline void ReadServiceActivated(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadServiceActivated, addr 0x3ccc158, size 0xc4, virtual false, abstract: false, final false
+  inline void ReadServiceActivated(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ReadServiceWellKnown, addr 0x3c6bcc0, size 0x1e4, virtual false, abstract: false, final false
-  inline void ReadServiceWellKnown(::Mono::Xml::__SmallXmlParser__IAttrList* attrs);
+  /// @brief Method ReadServiceWellKnown, addr 0x3ccbe34, size 0x1e4, virtual false, abstract: false, final false
+  inline void ReadServiceWellKnown(::Mono::Xml::SmallXmlParser_IAttrList* attrs);
 
-  /// @brief Method ValidatePath, addr 0x3c69978, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidatePath, addr 0x3cc9aec, size 0xe0, virtual false, abstract: false, final false
   inline void ValidatePath(::StringW element, ::ArrayW<::StringW, ::Array<::StringW>*> paths);
 
   constexpr ::StringW const& __cordl_internal_get_appName() const;
 
   constexpr ::StringW& __cordl_internal_get_appName();
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_channelInstances() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_channelInstances();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_channelInstances() const;
+  constexpr ::System::Runtime::Remoting::ChannelData* const& __cordl_internal_get_currentChannel() const;
 
   constexpr ::System::Runtime::Remoting::ChannelData*& __cordl_internal_get_currentChannel();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ChannelData*> const& __cordl_internal_get_currentChannel() const;
 
   constexpr ::StringW const& __cordl_internal_get_currentClientUrl() const;
 
   constexpr ::StringW& __cordl_internal_get_currentClientUrl();
 
-  constexpr ::System::Collections::Stack*& __cordl_internal_get_currentProviderData();
+  constexpr ::System::Collections::Stack* const& __cordl_internal_get_currentProviderData() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_currentProviderData() const;
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_currentProviderData();
 
   constexpr ::StringW const& __cordl_internal_get_currentXmlPath() const;
 
@@ -172,9 +167,9 @@ public:
 
   constexpr bool& __cordl_internal_get_onlyDelayedChannels();
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_typeEntries();
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_typeEntries() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_typeEntries() const;
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_typeEntries();
 
   constexpr void __cordl_internal_set_appName(::StringW value);
 
@@ -192,11 +187,11 @@ public:
 
   constexpr void __cordl_internal_set_typeEntries(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3c67570, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc76e4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(bool onlyDelayedChannels);
 
-  /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
-  constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept;
+  /// @brief Convert to "::Mono::Xml::SmallXmlParser_IContentHandler"
+  constexpr ::Mono::Xml::SmallXmlParser_IContentHandler* i___Mono__Xml__SmallXmlParser_IContentHandler() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -211,6 +206,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ConfigHandler", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ConfigHandler(ConfigHandler const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3064 };
 
   /// @brief Field typeEntries, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ___typeEntries;
@@ -236,14 +234,9 @@ public:
   /// @brief Field onlyDelayedChannels, offset: 0x48, size: 0x1, def value: None
   bool ___onlyDelayedChannels;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3064 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ConfigHandler, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___typeEntries) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___channelInstances) == 0x18, "Offset mismatch!");
@@ -259,6 +252,8 @@ static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___appName) =
 static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___currentXmlPath) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::ConfigHandler, ___onlyDelayedChannels) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ConfigHandler, 0x50>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ConfigHandler);

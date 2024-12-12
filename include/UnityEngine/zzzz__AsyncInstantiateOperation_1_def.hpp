@@ -14,13 +14,12 @@ template <typename T> class AsyncInstantiateOperation_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::AsyncInstantiateOperation_1);
-// Type: UnityEngine::AsyncInstantiateOperation`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.CustomYieldInstruction
 namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine::AsyncInstantiateOperation`1<T>*
+// CS Name: UnityEngine.AsyncInstantiateOperation`1<T>
 class CORDL_TYPE AsyncInstantiateOperation_1 : public ::UnityEngine::CustomYieldInstruction {
 public:
   // Declarations
@@ -31,9 +30,9 @@ public:
 
   static inline ::UnityEngine::AsyncInstantiateOperation_1<T>* New_ctor(::UnityEngine::AsyncInstantiateOperation* op);
 
-  constexpr ::UnityEngine::AsyncInstantiateOperation*& __cordl_internal_get_m_op();
+  constexpr ::UnityEngine::AsyncInstantiateOperation* const& __cordl_internal_get_m_op() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncInstantiateOperation*> const& __cordl_internal_get_m_op() const;
+  constexpr ::UnityEngine::AsyncInstantiateOperation*& __cordl_internal_get_m_op();
 
   constexpr void __cordl_internal_set_m_op(::UnityEngine::AsyncInstantiateOperation* value);
 
@@ -57,11 +56,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AsyncInstantiateOperation_1(AsyncInstantiateOperation_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10851 };
+
   /// @brief Field m_op, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AsyncInstantiateOperation* ___m_op;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10818 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

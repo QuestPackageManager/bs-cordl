@@ -1,213 +1,214 @@
 #pragma once
 // IWYU pragma private; include "System/Text/RegularExpressions/GroupCollection.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_impl.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/Collections/zzzz__IList_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__GroupCollection_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Group_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Match_def.hpp"
 #include "System/zzzz__Array_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator._ctor
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)(
-    ::System::Text::RegularExpressions::GroupCollection*)>(&::System::Text::RegularExpressions::__GroupCollection__Enumerator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)(
+    ::System::Text::RegularExpressions::GroupCollection*)>(&::System::Text::RegularExpressions::GroupCollection_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43ae4f8;
+  constexpr static std::size_t addrs = 0x440f80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::GroupCollection*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator.MoveNext
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)()>(
-    &::System::Text::RegularExpressions::__GroupCollection__Enumerator::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)()>(
+    &::System::Text::RegularExpressions::GroupCollection_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43af1f8;
+  constexpr static std::size_t addrs = 0x441050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator.get_Current
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator.get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)()>(
-    &::System::Text::RegularExpressions::__GroupCollection__Enumerator::get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)()>(
+    &::System::Text::RegularExpressions::GroupCollection_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43af23c;
+  constexpr static std::size_t addrs = 0x4410550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), "get_Current",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), "get_Current",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)()>(
-    &::System::Text::RegularExpressions::__GroupCollection__Enumerator::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)()>(
+    &::System::Text::RegularExpressions::GroupCollection_Enumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43af2c8;
+  constexpr static std::size_t addrs = 0x44105dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)()>(
-    &::System::Text::RegularExpressions::__GroupCollection__Enumerator::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)()>(
+    &::System::Text::RegularExpressions::GroupCollection_Enumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43af2cc;
+  constexpr static std::size_t addrs = 0x44105e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Text::RegularExpressions::__GroupCollection__Enumerator.System_IDisposable_Dispose
+//  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection_Enumerator.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::__GroupCollection__Enumerator::*)()>(
-    &::System::Text::RegularExpressions::__GroupCollection__Enumerator::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection_Enumerator::*)()>(
+    &::System::Text::RegularExpressions::GroupCollection_Enumerator::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43af2d8;
+  constexpr static std::size_t addrs = 0x44105ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
+constexpr ::System::Text::RegularExpressions::GroupCollection*& System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_get__collection() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____collection;
+}
+constexpr ::System::Text::RegularExpressions::GroupCollection* const& System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_get__collection() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____collection;
+}
+constexpr void System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_set__collection(::System::Text::RegularExpressions::GroupCollection* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_get__index() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____index;
+}
+constexpr int32_t const& System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_get__index() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____index;
+}
+constexpr void System::Text::RegularExpressions::GroupCollection_Enumerator::__cordl_internal_set__index(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____index = value;
+}
+inline void System::Text::RegularExpressions::GroupCollection_Enumerator::_ctor(::System::Text::RegularExpressions::GroupCollection* collection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::GroupCollection*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
+}
+inline bool System::Text::RegularExpressions::GroupCollection_Enumerator::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::Group* System::Text::RegularExpressions::GroupCollection_Enumerator::get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(), "get_Current",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::Group*, false>(this, ___internal_method);
+}
+inline ::System::Object* System::Text::RegularExpressions::GroupCollection_Enumerator::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline void System::Text::RegularExpressions::GroupCollection_Enumerator::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void System::Text::RegularExpressions::GroupCollection_Enumerator::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection_Enumerator*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::GroupCollection_Enumerator*
+System::Text::RegularExpressions::GroupCollection_Enumerator::New_ctor(::System::Text::RegularExpressions::GroupCollection* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::GroupCollection_Enumerator*>(collection));
+}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::__GroupCollection__Enumerator::operator ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+constexpr System::Text::RegularExpressions::GroupCollection_Enumerator::operator ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::__GroupCollection__Enumerator::i___System__Collections__Generic__IEnumerator_1___System__Text__RegularExpressions__Group__() noexcept {
+System::Text::RegularExpressions::GroupCollection_Enumerator::i___System__Collections__Generic__IEnumerator_1___System__Text__RegularExpressions__Group__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr System::Text::RegularExpressions::__GroupCollection__Enumerator::operator ::System::IDisposable*() noexcept {
+constexpr System::Text::RegularExpressions::GroupCollection_Enumerator::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::Text::RegularExpressions::__GroupCollection__Enumerator::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* System::Text::RegularExpressions::GroupCollection_Enumerator::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr System::Text::RegularExpressions::__GroupCollection__Enumerator::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr System::Text::RegularExpressions::GroupCollection_Enumerator::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* System::Text::RegularExpressions::__GroupCollection__Enumerator::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* System::Text::RegularExpressions::GroupCollection_Enumerator::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-constexpr ::System::Text::RegularExpressions::GroupCollection*& System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_get__collection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____collection;
-}
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::GroupCollection*> const&
-System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_get__collection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____collection;
-}
-constexpr void System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_set__collection(::System::Text::RegularExpressions::GroupCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_get__index() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____index;
-}
-constexpr int32_t const& System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_get__index() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____index;
-}
-constexpr void System::Text::RegularExpressions::__GroupCollection__Enumerator::__cordl_internal_set__index(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____index = value;
-}
-inline ::System::Text::RegularExpressions::__GroupCollection__Enumerator*
-System::Text::RegularExpressions::__GroupCollection__Enumerator::New_ctor(::System::Text::RegularExpressions::GroupCollection* collection) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>(collection));
-}
-inline void System::Text::RegularExpressions::__GroupCollection__Enumerator::_ctor(::System::Text::RegularExpressions::GroupCollection* collection) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::GroupCollection*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
-}
-inline bool System::Text::RegularExpressions::__GroupCollection__Enumerator::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::System::Text::RegularExpressions::Group* System::Text::RegularExpressions::__GroupCollection__Enumerator::get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(), "get_Current",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Text::RegularExpressions::Group*, false>(this, ___internal_method);
-}
-inline ::System::Object* System::Text::RegularExpressions::__GroupCollection__Enumerator::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline void System::Text::RegularExpressions::__GroupCollection__Enumerator::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void System::Text::RegularExpressions::__GroupCollection__Enumerator::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::__GroupCollection__Enumerator*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
 // Ctor Parameters []
-constexpr ::System::Text::RegularExpressions::__GroupCollection__Enumerator::__GroupCollection__Enumerator() {}
+constexpr ::System::Text::RegularExpressions::GroupCollection_Enumerator::GroupCollection_Enumerator() {}
 //  Writing Method size for method: ::System::Text::RegularExpressions::GroupCollection._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(
     ::System::Text::RegularExpressions::Match*, ::System::Collections::Hashtable*)>(&::System::Text::RegularExpressions::GroupCollection::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43ae164;
+  constexpr static std::size_t addrs = 0x440f478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ae190;
+  constexpr static std::size_t addrs = 0x440f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43ae198;
+  constexpr static std::size_t addrs = 0x440f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -251,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43ae1bc;
+  constexpr static std::size_t addrs = 0x440f4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection::*)(::StringW)>(
     &::System::Text::RegularExpressions::GroupCollection::get_Item)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43ae2c4;
+  constexpr static std::size_t addrs = 0x440f5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -281,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43ae494;
+  constexpr static std::size_t addrs = 0x440f7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -296,7 +297,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>* (::System::Text::RegularExpressions::GroupCollection::*)()>(
         &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IEnumerable_System_Text_RegularExpressions_Group__GetEnumerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43ae528;
+  constexpr static std::size_t addrs = 0x440f83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -311,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::GetGroup)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x43ae1c0;
+  constexpr static std::size_t addrs = 0x440f4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::GetGroupImpl)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x43ae58c;
+  constexpr static std::size_t addrs = 0x440f8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ae888;
+  constexpr static std::size_t addrs = 0x440fb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -355,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ae890;
+  constexpr static std::size_t addrs = 0x440fba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(::System::Array*, int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::CopyTo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x43ae898;
+  constexpr static std::size_t addrs = 0x440fbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(
     ::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*>, int32_t)>(&::System::Text::RegularExpressions::GroupCollection::CopyTo)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x43ae954;
+  constexpr static std::size_t addrs = 0x440fc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::GroupCollection::*)(::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IList_System_Text_RegularExpressions_Group__IndexOf)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x43aeacc;
+  constexpr static std::size_t addrs = 0x440fde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -417,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t, ::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IList_System_Text_RegularExpressions_Group__Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aeb84;
+  constexpr static std::size_t addrs = 0x440fe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -434,7 +435,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IList_System_Text_RegularExpressions_Group__RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aebd0;
+  constexpr static std::size_t addrs = 0x440fee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -450,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::Group* (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IList_System_Text_RegularExpressions_Group__get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43aec1c;
+  constexpr static std::size_t addrs = 0x440ff30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -466,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t, ::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_IList_System_Text_RegularExpressions_Group__set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aec20;
+  constexpr static std::size_t addrs = 0x440ff34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -483,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aec6c;
+  constexpr static std::size_t addrs = 0x440ff80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -499,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aecb8;
+  constexpr static std::size_t addrs = 0x440ffcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -514,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)(::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Contains)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43aed04;
+  constexpr static std::size_t addrs = 0x4410018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -530,7 +531,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)(::System::Text::RegularExpressions::Group*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aedb8;
+  constexpr static std::size_t addrs = 0x44100cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -546,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::GroupCollection::*)(::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_Add)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aee04;
+  constexpr static std::size_t addrs = 0x4410118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_Clear)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43aee50;
+  constexpr static std::size_t addrs = 0x4410164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -575,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)(::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_Contains)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x43aee9c;
+  constexpr static std::size_t addrs = 0x44101b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -590,7 +591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::GroupCollection::*)(::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_IndexOf)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x43aef90;
+  constexpr static std::size_t addrs = 0x44102a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t, ::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_Insert)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43af084;
+  constexpr static std::size_t addrs = 0x4410398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43af0d0;
+  constexpr static std::size_t addrs = 0x44103e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -636,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_Remove)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43af0d8;
+  constexpr static std::size_t addrs = 0x44103ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -651,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_RemoveAt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43af124;
+  constexpr static std::size_t addrs = 0x4410438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Text::RegularExpressions::GroupCollection::*)(int32_t)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43af170;
+  constexpr static std::size_t addrs = 0x4410484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -681,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)(int32_t, ::System::Object*)>(
     &::System::Text::RegularExpressions::GroupCollection::System_Collections_IList_set_Item)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43af174;
+  constexpr static std::size_t addrs = 0x4410488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -697,7 +698,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::GroupCollection::*)()>(
     &::System::Text::RegularExpressions::GroupCollection::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43af1c0;
+  constexpr static std::size_t addrs = 0x44104d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
@@ -705,80 +706,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>"
-constexpr ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IList_1___System__Text__RegularExpressions__Group__() noexcept {
-  return static_cast<::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>"
-constexpr ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__ICollection_1___System__Text__RegularExpressions__Group__() noexcept {
-  return static_cast<::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IEnumerable_1___System__Text__RegularExpressions__Group__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Text::RegularExpressions::GroupCollection::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>"
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IReadOnlyList_1___System__Text__RegularExpressions__Group__() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>"
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*
-System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IReadOnlyCollection_1___System__Text__RegularExpressions__Group__() noexcept {
-  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IList"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::IList*() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IList"
-constexpr ::System::Collections::IList* System::Text::RegularExpressions::GroupCollection::i___System__Collections__IList() noexcept {
-  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Text::RegularExpressions::GroupCollection::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
 constexpr ::System::Text::RegularExpressions::Match*& System::Text::RegularExpressions::GroupCollection::__cordl_internal_get__match() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____match;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& System::Text::RegularExpressions::GroupCollection::__cordl_internal_get__match() const {
+constexpr ::System::Text::RegularExpressions::Match* const& System::Text::RegularExpressions::GroupCollection::__cordl_internal_get__match() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____match;
 }
@@ -790,7 +722,7 @@ constexpr ::System::Collections::Hashtable*& System::Text::RegularExpressions::G
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Text::RegularExpressions::GroupCollection::__cordl_internal_get__captureMap() const {
+constexpr ::System::Collections::Hashtable* const& System::Text::RegularExpressions::GroupCollection::__cordl_internal_get__captureMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____captureMap;
 }
@@ -812,10 +744,6 @@ constexpr void
 System::Text::RegularExpressions::GroupCollection::__cordl_internal_set__groups(::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Text::RegularExpressions::GroupCollection* System::Text::RegularExpressions::GroupCollection::New_ctor(::System::Text::RegularExpressions::Match* match,
-                                                                                                                        ::System::Collections::Hashtable* caps) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::GroupCollection*>(match, caps));
 }
 inline void System::Text::RegularExpressions::GroupCollection::_ctor(::System::Text::RegularExpressions::Match* match, ::System::Collections::Hashtable* caps) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -1021,13 +949,86 @@ inline void System::Text::RegularExpressions::GroupCollection::System_Collection
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, value);
 }
-inline ::System::Text::RegularExpressions::GroupCollection* System::Text::RegularExpressions::GroupCollection::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::GroupCollection*>());
-}
 inline void System::Text::RegularExpressions::GroupCollection::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::GroupCollection*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::GroupCollection* System::Text::RegularExpressions::GroupCollection::New_ctor(::System::Text::RegularExpressions::Match* match,
+                                                                                                                        ::System::Collections::Hashtable* caps) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::GroupCollection*>(match, caps));
+}
+inline ::System::Text::RegularExpressions::GroupCollection* System::Text::RegularExpressions::GroupCollection::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::GroupCollection*>());
+}
+/// @brief Convert operator to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>"
+constexpr ::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*
+System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IList_1___System__Text__RegularExpressions__Group__() noexcept {
+  return static_cast<::System::Collections::Generic::IList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>"
+constexpr ::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*
+System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__ICollection_1___System__Text__RegularExpressions__Group__() noexcept {
+  return static_cast<::System::Collections::Generic::ICollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*
+System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IEnumerable_1___System__Text__RegularExpressions__Group__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Text::RegularExpressions::GroupCollection::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>"
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*
+System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IReadOnlyList_1___System__Text__RegularExpressions__Group__() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>"
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*
+System::Text::RegularExpressions::GroupCollection::i___System__Collections__Generic__IReadOnlyCollection_1___System__Text__RegularExpressions__Group__() noexcept {
+  return static_cast<::System::Collections::Generic::IReadOnlyCollection_1<::System::Text::RegularExpressions::Group*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::IList*() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* System::Text::RegularExpressions::GroupCollection::i___System__Collections__IList() noexcept {
+  return static_cast<::System::Collections::IList*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Text::RegularExpressions::GroupCollection::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Text::RegularExpressions::GroupCollection::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::GroupCollection::GroupCollection() {}

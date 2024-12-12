@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusMRCManager.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
+#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusMRCManager_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_enableMixedReality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973838;
+  constexpr static std::size_t addrs = 0x39c8e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(&::GlobalNamespace::OculusMRCManager::set_enableMixedReality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973840;
+  constexpr static std::size_t addrs = 0x39c8e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397384c;
+  constexpr static std::size_t addrs = 0x39c8e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OculusMRCManager::set_extraHiddenLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973854;
+  constexpr static std::size_t addrs = 0x39c8e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397385c;
+  constexpr static std::size_t addrs = 0x39c8ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::UnityEngine::LayerMask)>(
     &::GlobalNamespace::OculusMRCManager::set_extraVisibleLayers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973864;
+  constexpr static std::size_t addrs = 0x39c8eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_dynamicCullingMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397386c;
+  constexpr static std::size_t addrs = 0x39c8eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(&::GlobalNamespace::OculusMRCManager::set_dynamicCullingMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973874;
+  constexpr static std::size_t addrs = 0x39c8ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,10 +127,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_compositionMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__CompositionMethod (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_CompositionMethod (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973880;
+  constexpr static std::size_t addrs = 0x39c8ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -141,15 +141,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_compositionMethod
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__CompositionMethod)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_CompositionMethod)>(
     &::GlobalNamespace::OculusMRCManager::set_compositionMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973888;
+  constexpr static std::size_t addrs = 0x39c8ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_compositionMethod", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__CompositionMethod>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_CompositionMethod>::get() })));
     return ___internal_method;
   }
 };
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973890;
+  constexpr static std::size_t addrs = 0x39c8ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OculusMRCManager::set_externalCompositionBackdropColorRift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x397389c;
+  constexpr static std::size_t addrs = 0x39c8ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39738a8;
+  constexpr static std::size_t addrs = 0x39c8ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OculusMRCManager::set_externalCompositionBackdropColorQuest)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39738b4;
+  constexpr static std::size_t addrs = 0x39c8efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,10 +216,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_capturingCameraDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__CameraDevice (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_CameraDevice (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39738c0;
+  constexpr static std::size_t addrs = 0x39c8f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -230,15 +230,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_capturingCameraDevice
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__CameraDevice)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_CameraDevice)>(
     &::GlobalNamespace::OculusMRCManager::set_capturingCameraDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39738c8;
+  constexpr static std::size_t addrs = 0x39c8f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_capturingCameraDevice", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__CameraDevice>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_CameraDevice>::get() })));
     return ___internal_method;
   }
 };
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39738d0;
+  constexpr static std::size_t addrs = 0x39c8f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(
     &::GlobalNamespace::OculusMRCManager::set_flipCameraFrameHorizontally)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39738d8;
+  constexpr static std::size_t addrs = 0x39c8f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39738e4;
+  constexpr static std::size_t addrs = 0x39c8f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -292,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(
     &::GlobalNamespace::OculusMRCManager::set_flipCameraFrameVertically)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39738ec;
+  constexpr static std::size_t addrs = 0x39c8f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39738f8;
+  constexpr static std::size_t addrs = 0x39c8f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_handPoseStateLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973900;
+  constexpr static std::size_t addrs = 0x39c8f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973908;
+  constexpr static std::size_t addrs = 0x39c8f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_sandwichCompositionRenderLatency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973910;
+  constexpr static std::size_t addrs = 0x39c8f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973918;
+  constexpr static std::size_t addrs = 0x39c8f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(int32_t)>(
     &::GlobalNamespace::OculusMRCManager::set_sandwichCompositionBufferedFrames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973920;
+  constexpr static std::size_t addrs = 0x39c8f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -395,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973928;
+  constexpr static std::size_t addrs = 0x39c8f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::OculusMRCManager::set_chromaKeyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973934;
+  constexpr static std::size_t addrs = 0x39c8f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973940;
+  constexpr static std::size_t addrs = 0x39c8f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_chromaKeySimilarity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973948;
+  constexpr static std::size_t addrs = 0x39c8f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973950;
+  constexpr static std::size_t addrs = 0x39c8f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_chromaKeySmoothRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973958;
+  constexpr static std::size_t addrs = 0x39c8fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -479,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973960;
+  constexpr static std::size_t addrs = 0x39c8fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_chromaKeySpillRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973968;
+  constexpr static std::size_t addrs = 0x39c8fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -507,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::get_useDynamicLighting)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973970;
+  constexpr static std::size_t addrs = 0x39c8fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -520,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(&::GlobalNamespace::OculusMRCManager::set_useDynamicLighting)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3973978;
+  constexpr static std::size_t addrs = 0x39c8fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -532,10 +532,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_depthQuality
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__DepthQuality (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_DepthQuality (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973984;
+  constexpr static std::size_t addrs = 0x39c8fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "get_depthQuality",
@@ -546,15 +546,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_depthQuality
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__DepthQuality)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_DepthQuality)>(
     &::GlobalNamespace::OculusMRCManager::set_depthQuality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397398c;
+  constexpr static std::size_t addrs = 0x39c8fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_depthQuality", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__DepthQuality>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_DepthQuality>::get() })));
     return ___internal_method;
   }
 };
@@ -564,7 +564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973994;
+  constexpr static std::size_t addrs = 0x39c8fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -579,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_dynamicLightingSmoothFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x397399c;
+  constexpr static std::size_t addrs = 0x39c8fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739a4;
+  constexpr static std::size_t addrs = 0x39c8fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_dynamicLightingDepthVariationClampingValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739ac;
+  constexpr static std::size_t addrs = 0x39c8ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -621,10 +621,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_virtualGreenScreenType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__VirtualGreenScreenType (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_VirtualGreenScreenType (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739b4;
+  constexpr static std::size_t addrs = 0x39c8ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -635,15 +635,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_virtualGreenScreenType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__VirtualGreenScreenType)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_VirtualGreenScreenType)>(
     &::GlobalNamespace::OculusMRCManager::set_virtualGreenScreenType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739bc;
+  constexpr static std::size_t addrs = 0x39c9004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_virtualGreenScreenType", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__VirtualGreenScreenType>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_VirtualGreenScreenType>::get() })));
     return ___internal_method;
   }
 };
@@ -653,7 +653,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739c4;
+  constexpr static std::size_t addrs = 0x39c900c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -667,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_virtualGreenScreenTopY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739cc;
+  constexpr static std::size_t addrs = 0x39c9014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739d4;
+  constexpr static std::size_t addrs = 0x39c901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -696,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_virtualGreenScreenBottomY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739dc;
+  constexpr static std::size_t addrs = 0x39c9024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -711,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739e4;
+  constexpr static std::size_t addrs = 0x39c902c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -726,7 +726,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(bool)>(
     &::GlobalNamespace::OculusMRCManager::set_virtualGreenScreenApplyDepthCulling)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39739ec;
+  constexpr static std::size_t addrs = 0x39c9034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -741,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39739f8;
+  constexpr static std::size_t addrs = 0x39c9040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(float_t)>(
     &::GlobalNamespace::OculusMRCManager::set_virtualGreenScreenDepthTolerance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973a00;
+  constexpr static std::size_t addrs = 0x39c9048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -768,10 +768,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_mrcActivationMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__MrcActivationMode (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_MrcActivationMode (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973a08;
+  constexpr static std::size_t addrs = 0x39c9050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
@@ -782,25 +782,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_mrcActivationMode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__MrcActivationMode)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_MrcActivationMode)>(
     &::GlobalNamespace::OculusMRCManager::set_mrcActivationMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3973a10;
+  constexpr static std::size_t addrs = 0x39c9058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_mrcActivationMode", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__MrcActivationMode>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_MrcActivationMode>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.get_instantiateMixedRealityCameraGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* (::GlobalNamespace::OculusMRCManager::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (::GlobalNamespace::OculusMRCManager::*)()>(
     &::GlobalNamespace::OculusMRCManager::get_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3973a18;
+  constexpr static std::size_t addrs = 0x39c9060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -812,15 +812,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OculusMRCManager.set_instantiateMixedRealityCameraGameObject
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(
     &::GlobalNamespace::OculusMRCManager::set_instantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3973a98;
+  constexpr static std::size_t addrs = 0x39c90e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_instantiateMixedRealityCameraGameObject", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*>::get() })));
     return ___internal_method;
   }
 };
@@ -829,7 +829,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::Update)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3973a9c;
+  constexpr static std::size_t addrs = 0x39c90e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Update",
@@ -842,7 +842,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::OnDestroy)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3973b10;
+  constexpr static std::size_t addrs = 0x39c9158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "OnDestroy",
@@ -854,17 +854,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)(
-    ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*, ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*)>(
+    ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*, ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*)>(
     &::GlobalNamespace::OculusMRCManager::Init)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3973b68;
+  constexpr static std::size_t addrs = 0x39c91b0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -872,15 +871,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::OculusMRCManager::*)(
-    ::UnityEngine::GameObject*, ::GlobalNamespace::__OVRManager__MrcCameraType)>(&::GlobalNamespace::OculusMRCManager::InstantiateMixedRealityCameraGameObject)> {
+    ::UnityEngine::GameObject*, ::GlobalNamespace::OVRManager_MrcCameraType)>(&::GlobalNamespace::OculusMRCManager::InstantiateMixedRealityCameraGameObject)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3973cc8;
+  constexpr static std::size_t addrs = 0x39c9310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "InstantiateMixedRealityCameraGameObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__MrcCameraType>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_MrcCameraType>::get() })));
     return ___internal_method;
   }
 };
@@ -889,7 +888,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMRCManager::*)()>(&::GlobalNamespace::OculusMRCManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3973cfc;
+  constexpr static std::size_t addrs = 0x39c9344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), ".ctor",
@@ -897,19 +896,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
-constexpr GlobalNamespace::OculusMRCManager::operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept {
-  return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
-constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* GlobalNamespace::OculusMRCManager::i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept {
-  return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
-}
 constexpr ::GlobalNamespace::IVRPlatformHelper*& GlobalNamespace::OculusMRCManager::__cordl_internal_get__vrPlatformHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__vrPlatformHelper() const {
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__vrPlatformHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vrPlatformHelper;
 }
@@ -922,7 +913,7 @@ GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedReality
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityBackgroundCameraGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*> const&
+constexpr ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* const&
 GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityBackgroundCameraGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityBackgroundCameraGameObject;
@@ -938,7 +929,7 @@ GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedReality
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityForegroundCameraGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*> const&
+constexpr ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* const&
 GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityForegroundCameraGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityForegroundCameraGameObject;
@@ -997,15 +988,15 @@ constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__dynamicC
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dynamicCullingMask_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& GlobalNamespace::OculusMRCManager::__cordl_internal_get__compositionMethod_k__BackingField() {
+constexpr ::GlobalNamespace::OVRManager_CompositionMethod& GlobalNamespace::OculusMRCManager::__cordl_internal_get__compositionMethod_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compositionMethod_k__BackingField;
 }
-constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__compositionMethod_k__BackingField() const {
+constexpr ::GlobalNamespace::OVRManager_CompositionMethod const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__compositionMethod_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compositionMethod_k__BackingField;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__compositionMethod_k__BackingField(::GlobalNamespace::__OVRManager__CompositionMethod value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__compositionMethod_k__BackingField(::GlobalNamespace::OVRManager_CompositionMethod value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____compositionMethod_k__BackingField = value;
 }
@@ -1033,15 +1024,15 @@ constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__external
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____externalCompositionBackdropColorQuest_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__CameraDevice& GlobalNamespace::OculusMRCManager::__cordl_internal_get__capturingCameraDevice_k__BackingField() {
+constexpr ::GlobalNamespace::OVRManager_CameraDevice& GlobalNamespace::OculusMRCManager::__cordl_internal_get__capturingCameraDevice_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capturingCameraDevice_k__BackingField;
 }
-constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__capturingCameraDevice_k__BackingField() const {
+constexpr ::GlobalNamespace::OVRManager_CameraDevice const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__capturingCameraDevice_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____capturingCameraDevice_k__BackingField;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__capturingCameraDevice_k__BackingField(::GlobalNamespace::__OVRManager__CameraDevice value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__capturingCameraDevice_k__BackingField(::GlobalNamespace::OVRManager_CameraDevice value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____capturingCameraDevice_k__BackingField = value;
 }
@@ -1165,15 +1156,15 @@ constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__useDynam
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useDynamicLighting_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__DepthQuality& GlobalNamespace::OculusMRCManager::__cordl_internal_get__depthQuality_k__BackingField() {
+constexpr ::GlobalNamespace::OVRManager_DepthQuality& GlobalNamespace::OculusMRCManager::__cordl_internal_get__depthQuality_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthQuality_k__BackingField;
 }
-constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__depthQuality_k__BackingField() const {
+constexpr ::GlobalNamespace::OVRManager_DepthQuality const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__depthQuality_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____depthQuality_k__BackingField;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__depthQuality_k__BackingField(::GlobalNamespace::__OVRManager__DepthQuality value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__depthQuality_k__BackingField(::GlobalNamespace::OVRManager_DepthQuality value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____depthQuality_k__BackingField = value;
 }
@@ -1201,15 +1192,15 @@ constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__dynamicL
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____dynamicLightingDepthVariationClampingValue_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& GlobalNamespace::OculusMRCManager::__cordl_internal_get__virtualGreenScreenType_k__BackingField() {
+constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType& GlobalNamespace::OculusMRCManager::__cordl_internal_get__virtualGreenScreenType_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenType_k__BackingField;
 }
-constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__virtualGreenScreenType_k__BackingField() const {
+constexpr ::GlobalNamespace::OVRManager_VirtualGreenScreenType const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__virtualGreenScreenType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____virtualGreenScreenType_k__BackingField;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__virtualGreenScreenType_k__BackingField(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__virtualGreenScreenType_k__BackingField(::GlobalNamespace::OVRManager_VirtualGreenScreenType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenType_k__BackingField = value;
 }
@@ -1261,28 +1252,27 @@ constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__virtualG
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____virtualGreenScreenDepthTolerance_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& GlobalNamespace::OculusMRCManager::__cordl_internal_get__mrcActivationMode_k__BackingField() {
+constexpr ::GlobalNamespace::OVRManager_MrcActivationMode& GlobalNamespace::OculusMRCManager::__cordl_internal_get__mrcActivationMode_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcActivationMode_k__BackingField;
 }
-constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__mrcActivationMode_k__BackingField() const {
+constexpr ::GlobalNamespace::OVRManager_MrcActivationMode const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__mrcActivationMode_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mrcActivationMode_k__BackingField;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__mrcActivationMode_k__BackingField(::GlobalNamespace::__OVRManager__MrcActivationMode value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__mrcActivationMode_k__BackingField(::GlobalNamespace::OVRManager_MrcActivationMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mrcActivationMode_k__BackingField = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityCameraGameObject() {
+constexpr ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*& GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityCameraGameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityCameraGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const&
-GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityCameraGameObject() const {
+constexpr ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* const& GlobalNamespace::OculusMRCManager::__cordl_internal_get__instantiateMixedRealityCameraGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____instantiateMixedRealityCameraGameObject;
 }
-constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value) {
+constexpr void GlobalNamespace::OculusMRCManager::__cordl_internal_set__instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____instantiateMixedRealityCameraGameObject)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -1331,15 +1321,15 @@ inline void GlobalNamespace::OculusMRCManager::set_dynamicCullingMask(bool value
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__CompositionMethod GlobalNamespace::OculusMRCManager::get_compositionMethod() {
+inline ::GlobalNamespace::OVRManager_CompositionMethod GlobalNamespace::OculusMRCManager::get_compositionMethod() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
                                                                              "get_compositionMethod", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__CompositionMethod, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_CompositionMethod, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value) {
+inline void GlobalNamespace::OculusMRCManager::set_compositionMethod(::GlobalNamespace::OVRManager_CompositionMethod value) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_compositionMethod", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__CompositionMethod>::get() })));
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_CompositionMethod>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Color GlobalNamespace::OculusMRCManager::get_externalCompositionBackdropColorRift() {
@@ -1366,15 +1356,15 @@ inline void GlobalNamespace::OculusMRCManager::set_externalCompositionBackdropCo
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__CameraDevice GlobalNamespace::OculusMRCManager::get_capturingCameraDevice() {
+inline ::GlobalNamespace::OVRManager_CameraDevice GlobalNamespace::OculusMRCManager::get_capturingCameraDevice() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
                                                                              "get_capturingCameraDevice", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__CameraDevice, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_CameraDevice, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value) {
+inline void GlobalNamespace::OculusMRCManager::set_capturingCameraDevice(::GlobalNamespace::OVRManager_CameraDevice value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_capturingCameraDevice", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__CameraDevice>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_CameraDevice>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool GlobalNamespace::OculusMRCManager::get_flipCameraFrameHorizontally() {
@@ -1489,15 +1479,15 @@ inline void GlobalNamespace::OculusMRCManager::set_useDynamicLighting(bool value
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__DepthQuality GlobalNamespace::OculusMRCManager::get_depthQuality() {
+inline ::GlobalNamespace::OVRManager_DepthQuality GlobalNamespace::OculusMRCManager::get_depthQuality() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "get_depthQuality",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__DepthQuality, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_DepthQuality, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value) {
+inline void GlobalNamespace::OculusMRCManager::set_depthQuality(::GlobalNamespace::OVRManager_DepthQuality value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_depthQuality", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__DepthQuality>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_DepthQuality>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::OculusMRCManager::get_dynamicLightingSmoothFactor() {
@@ -1523,15 +1513,15 @@ inline void GlobalNamespace::OculusMRCManager::set_dynamicLightingDepthVariation
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__VirtualGreenScreenType GlobalNamespace::OculusMRCManager::get_virtualGreenScreenType() {
+inline ::GlobalNamespace::OVRManager_VirtualGreenScreenType GlobalNamespace::OculusMRCManager::get_virtualGreenScreenType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
                                                                              "get_virtualGreenScreenType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__VirtualGreenScreenType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_VirtualGreenScreenType, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value) {
+inline void GlobalNamespace::OculusMRCManager::set_virtualGreenScreenType(::GlobalNamespace::OVRManager_VirtualGreenScreenType value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_virtualGreenScreenType", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__VirtualGreenScreenType>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_VirtualGreenScreenType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::OculusMRCManager::get_virtualGreenScreenTopY() {
@@ -1580,27 +1570,27 @@ inline void GlobalNamespace::OculusMRCManager::set_virtualGreenScreenDepthTolera
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__MrcActivationMode GlobalNamespace::OculusMRCManager::get_mrcActivationMode() {
+inline ::GlobalNamespace::OVRManager_MrcActivationMode GlobalNamespace::OculusMRCManager::get_mrcActivationMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(),
                                                                              "get_mrcActivationMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__MrcActivationMode, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_MrcActivationMode, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value) {
+inline void GlobalNamespace::OculusMRCManager::set_mrcActivationMode(::GlobalNamespace::OVRManager_MrcActivationMode value) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_mrcActivationMode", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__MrcActivationMode>::get() })));
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_MrcActivationMode>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* GlobalNamespace::OculusMRCManager::get_instantiateMixedRealityCameraGameObject() {
+inline ::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* GlobalNamespace::OculusMRCManager::get_instantiateMixedRealityCameraGameObject() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "get_instantiateMixedRealityCameraGameObject",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value) {
+inline void GlobalNamespace::OculusMRCManager::set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "set_instantiateMixedRealityCameraGameObject", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::OculusMRCManager::Update() {
@@ -1613,30 +1603,37 @@ inline void GlobalNamespace::OculusMRCManager::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OculusMRCManager::Init(::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityBackgroundCameraGameObject,
-                                                    ::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>* instantiateMixedRealityForegroundCameraGameObject) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::GameObject>>*>::get() })));
+inline void GlobalNamespace::OculusMRCManager::Init(::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityBackgroundCameraGameObject,
+                                                    ::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>* instantiateMixedRealityForegroundCameraGameObject) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::UnityEngine::GameObject*, ::UnityEngine::GameObject*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instantiateMixedRealityBackgroundCameraGameObject, instantiateMixedRealityForegroundCameraGameObject);
 }
 inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::OculusMRCManager::InstantiateMixedRealityCameraGameObject(::UnityEngine::GameObject* mainCameraGameObject,
-                                                                                                                      ::GlobalNamespace::__OVRManager__MrcCameraType cameraType) {
+                                                                                                                      ::GlobalNamespace::OVRManager_MrcCameraType cameraType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), "InstantiateMixedRealityCameraGameObject", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRManager__MrcCameraType>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRManager_MrcCameraType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, mainCameraGameObject, cameraType);
-}
-inline ::GlobalNamespace::OculusMRCManager* GlobalNamespace::OculusMRCManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusMRCManager*>());
 }
 inline void GlobalNamespace::OculusMRCManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMRCManager*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OculusMRCManager* GlobalNamespace::OculusMRCManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OculusMRCManager*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
+constexpr GlobalNamespace::OculusMRCManager::operator ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*() noexcept {
+  return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
+constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* GlobalNamespace::OculusMRCManager::i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept {
+  return static_cast<::GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OculusMRCManager::OculusMRCManager() {}

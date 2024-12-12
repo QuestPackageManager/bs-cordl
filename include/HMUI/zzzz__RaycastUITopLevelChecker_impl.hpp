@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::Awake)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39990ac;
+  constexpr static std::size_t addrs = 0x39efcac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RaycastUITopLevelChecker*>::get(), "Awake",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3999120;
+  constexpr static std::size_t addrs = 0x39efd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RaycastUITopLevelChecker*>::get(), "get_isOnTop",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::RaycastUITopLevelChecker::*)()>(&::HMUI::RaycastUITopLevelChecker::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3999328;
+  constexpr static std::size_t addrs = 0x39eff28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RaycastUITopLevelChecker*>::get(), ".ctor",
@@ -48,8 +48,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::Ra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___results;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const&
-HMUI::RaycastUITopLevelChecker::__cordl_internal_get_results() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* const& HMUI::RaycastUITopLevelChecker::__cordl_internal_get_results() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___results;
 }
@@ -79,13 +78,13 @@ inline bool HMUI::RaycastUITopLevelChecker::get_isOnTop() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::HMUI::RaycastUITopLevelChecker* HMUI::RaycastUITopLevelChecker::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::RaycastUITopLevelChecker*>());
-}
 inline void HMUI::RaycastUITopLevelChecker::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::RaycastUITopLevelChecker*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HMUI::RaycastUITopLevelChecker* HMUI::RaycastUITopLevelChecker::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::RaycastUITopLevelChecker*>());
 }
 // Ctor Parameters []
 constexpr ::HMUI::RaycastUITopLevelChecker::RaycastUITopLevelChecker() {}

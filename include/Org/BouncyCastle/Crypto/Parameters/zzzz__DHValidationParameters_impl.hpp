@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2384d64;
+  constexpr static std::size_t addrs = 0x23b8050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::GetSeed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2384e5c;
+  constexpr static std::size_t addrs = 0x23b8148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2384ed4;
+  constexpr static std::size_t addrs = 0x23b81c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2384edc;
+  constexpr static std::size_t addrs = 0x23b81c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2384f78;
+  constexpr static std::size_t addrs = 0x23b8264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2385008;
+  constexpr static std::size_t addrs = 0x23b82f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,10 +119,6 @@ constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::DHValidationPara
 constexpr void Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::__cordl_internal_set_counter(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___counter = value;
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed,
-                                                                                                                                                int32_t counter) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*>(seed, counter));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t counter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,6 +156,10 @@ inline int32_t Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Ge
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed,
+                                                                                                                                                int32_t counter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*>(seed, counter));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::DHValidationParameters() {}

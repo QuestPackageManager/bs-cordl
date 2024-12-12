@@ -14,11 +14,10 @@ class SetGlobalShaderFloat;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetGlobalShaderFloat);
-// Type: ::SetGlobalShaderFloat
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SetGlobalShaderFloat*
+// CS Name: SetGlobalShaderFloat
 class CORDL_TYPE SetGlobalShaderFloat : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,13 +32,13 @@ public:
 
   static inline ::GlobalNamespace::SetGlobalShaderFloat* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3990d04, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x39e7884, size 0x20, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Start, addr 0x3990cd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39e7850, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3990cf0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x39e7870, size 0x14, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__propertyId() const;
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__value(float_t value);
 
-  /// @brief Method .ctor, addr 0x3990d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e78a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SetGlobalShaderFloat(SetGlobalShaderFloat const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16363 };
+
   /// @brief Field _propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____propertyName;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field _propertyId, offset: 0x2c, size: 0x4, def value: None
   int32_t ____propertyId;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16327 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetGlobalShaderFloat, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SetGlobalShaderFloat, ____propertyName) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SetGlobalShaderFloat, ____value) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SetGlobalShaderFloat, ____propertyId) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetGlobalShaderFloat, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetGlobalShaderFloat);

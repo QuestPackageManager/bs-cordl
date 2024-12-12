@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixCertPath)
@@ -38,11 +37,10 @@ class PkixCertPath;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPath);
-// Type: Org.BouncyCastle.Pkix::PkixCertPath
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Pkix::PkixCertPath*
+// CS Name: Org.BouncyCastle.Pkix.PkixCertPath
 class CORDL_TYPE PkixCertPath : public ::System::Object {
 public:
   // Declarations
@@ -51,21 +49,21 @@ public:
   __declspec(property(get = get_Encodings)) ::System::Collections::IEnumerable* Encodings;
 
   /// @brief Field certPathEncodings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_certPathEncodings, put = setStaticF_certPathEncodings)) ::System::Collections::IList* certPathEncodings;
+  __declspec(property(get = getStaticF_certPathEncodings, put = setStaticF_certPathEncodings)) ::System::Collections::IList* certPathEncodings;
 
   /// @brief Field certificates, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates)) ::System::Collections::IList* certificates;
 
-  /// @brief Method Equals, addr 0x253a04c, size 0x420, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x256d338, size 0x420, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEncoded, addr 0x253a494, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x256d780, size 0x330, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x253a7c4, size 0x88c, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x256dab0, size 0x88c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x253a46c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x256d758, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::Collections::ICollection* certificates);
@@ -74,36 +72,36 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method SortCerts, addr 0x2538a0c, size 0xd1c, virtual false, abstract: false, final false
+  /// @brief Method SortCerts, addr 0x256bcf8, size 0xd1c, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* SortCerts(::System::Collections::IList* certs);
 
-  /// @brief Method ToAsn1Object, addr 0x253b050, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x256e33c, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToDerEncoded, addr 0x253b150, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ToDerEncoded, addr 0x256e43c, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToDerEncoded(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_certificates() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_certificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_certificates() const;
-
   constexpr void __cordl_internal_set_certificates(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x2533e08, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25670f4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* certificates);
 
-  /// @brief Method .ctor, addr 0x2539728, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256ca14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x2539780, size 0x844, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256ca6c, size 0x844, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
   static inline ::System::Collections::IList* getStaticF_certPathEncodings();
 
-  /// @brief Method get_Certificates, addr 0x253b268, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x256e554, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_Certificates();
 
-  /// @brief Method get_Encodings, addr 0x2539fc4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method get_Encodings, addr 0x256d2b0, size 0x88, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Encodings();
 
   static inline void setStaticF_certPathEncodings(::System::Collections::IList* value);
@@ -122,18 +120,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PkixCertPath(PkixCertPath const&) = delete;
 
-  /// @brief Field certificates, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ___certificates;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1715 };
+
+  /// @brief Field certificates, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::IList* ___certificates;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPath, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixCertPath, ___certificates) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixCertPath, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPath);

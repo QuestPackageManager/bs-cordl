@@ -20,11 +20,10 @@ class OcspStatusRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);
-// Type: Org.BouncyCastle.Crypto.Tls::OcspStatusRequest
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::OcspStatusRequest*
+// CS Name: Org.BouncyCastle.Crypto.Tls.OcspStatusRequest
 class CORDL_TYPE OcspStatusRequest : public ::System::Object {
 public:
   // Declarations
@@ -38,33 +37,33 @@ public:
   /// @brief Field mResponderIDList, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mResponderIDList, put = __cordl_internal_set_mResponderIDList)) ::System::Collections::IList* mResponderIDList;
 
-  /// @brief Method Encode, addr 0x23e21c8, size 0x3c0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x24154b4, size 0x3c0, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method Parse, addr 0x23e2588, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2415874, size 0x2a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* Parse(::System::IO::Stream* input);
+
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_mRequestExtensions() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_mRequestExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_mRequestExtensions() const;
+  constexpr ::System::Collections::IList* const& __cordl_internal_get_mResponderIDList() const;
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_mResponderIDList();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mResponderIDList() const;
 
   constexpr void __cordl_internal_set_mRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   constexpr void __cordl_internal_set_mResponderIDList(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x23e218c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2415478, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 
-  /// @brief Method get_RequestExtensions, addr 0x23e21c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequestExtensions, addr 0x24154ac, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_RequestExtensions();
 
-  /// @brief Method get_ResponderIDList, addr 0x23e21b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponderIDList, addr 0x24154a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ResponderIDList();
 
 protected:
@@ -81,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OcspStatusRequest(OcspStatusRequest const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1258 };
+
   /// @brief Field mResponderIDList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ___mResponderIDList;
 
   /// @brief Field mRequestExtensions, offset: 0x18, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___mRequestExtensions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1258 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, ___mResponderIDList) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, ___mRequestExtensions) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);

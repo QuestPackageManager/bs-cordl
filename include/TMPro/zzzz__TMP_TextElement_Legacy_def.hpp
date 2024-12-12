@@ -13,11 +13,10 @@ class TMP_TextElement_Legacy;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_TextElement_Legacy);
-// Type: TMPro::TMP_TextElement_Legacy
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_TextElement_Legacy*
+// CS Name: TMPro.TMP_TextElement_Legacy
 class CORDL_TYPE TMP_TextElement_Legacy : public ::System::Object {
 public:
   // Declarations
@@ -104,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x479d9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47fecf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,6 +119,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement_Legacy", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_TextElement_Legacy(TMP_TextElement_Legacy const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14566 };
 
   /// @brief Field id, offset: 0x10, size: 0x4, def value: None
   int32_t ___id;
@@ -148,14 +150,9 @@ public:
   /// @brief Field scale, offset: 0x30, size: 0x4, def value: None
   float_t ___scale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14532 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextElement_Legacy, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_TextElement_Legacy, ___id) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_TextElement_Legacy, ___x) == 0x14, "Offset mismatch!");
@@ -173,6 +170,8 @@ static_assert(offsetof(::TMPro::TMP_TextElement_Legacy, ___yOffset) == 0x28, "Of
 static_assert(offsetof(::TMPro::TMP_TextElement_Legacy, ___xAdvance) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_TextElement_Legacy, ___scale) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextElement_Legacy, 0x38>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_TextElement_Legacy);

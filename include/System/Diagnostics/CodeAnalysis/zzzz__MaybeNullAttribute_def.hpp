@@ -11,17 +11,16 @@ class MaybeNullAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::MaybeNullAttribute);
-// Type: System.Diagnostics.CodeAnalysis::MaybeNullAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
-// CS Name: ::System.Diagnostics.CodeAnalysis::MaybeNullAttribute*
+// CS Name: System.Diagnostics.CodeAnalysis.MaybeNullAttribute
 class CORDL_TYPE MaybeNullAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Diagnostics::CodeAnalysis::MaybeNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e15c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e75cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   MaybeNullAttribute(MaybeNullAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10040 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

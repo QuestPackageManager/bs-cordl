@@ -10,32 +10,27 @@ template <typename TParam1, typename TParam2> class IPoolable_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IPoolable_2);
-// Type: Zenject::IPoolable`2
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// CS Name: ::Zenject::IPoolable`2<TParam1,TParam2>*
+// CS Name: Zenject.IPoolable`2<TParam1,TParam2>
 class CORDL_TYPE IPoolable_2 {
 public:
   // Declarations
-  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnDespawned, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method OnSpawned, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnSpawned(TParam1 p1, TParam2 p2);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IPoolable_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPoolable_2(IPoolable_2&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolable_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IPoolable_2(IPoolable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

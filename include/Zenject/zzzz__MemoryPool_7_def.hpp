@@ -3,26 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IFactory_7_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_7_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_7)
 namespace System {
 class Object;
-}
-namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IFactory_7;
-}
-namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class IMemoryPool_7;
-}
-namespace Zenject {
-class IMemoryPool;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -33,13 +22,13 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPool_7);
-// Type: Zenject::MemoryPool`7
-// SizeInfo { instance_size: 56, native_size: 52, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IFactory, Zenject.IFactory`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>, Zenject.IMemoryPool,
+// Zenject.IMemoryPool`7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>, Zenject.MemoryPoolBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// CS Name: ::Zenject::MemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
+// CS Name: Zenject.MemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>
 class CORDL_TYPE MemoryPool_7 : public ::Zenject::MemoryPoolBase_1<TValue> {
 public:
   // Declarations
@@ -108,7 +97,7 @@ public:
   MemoryPool_7(MemoryPool_7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12348 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12381 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

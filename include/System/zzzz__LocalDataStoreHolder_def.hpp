@@ -14,11 +14,10 @@ class LocalDataStoreHolder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::LocalDataStoreHolder);
-// Type: System::LocalDataStoreHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::LocalDataStoreHolder*
+// CS Name: System.LocalDataStoreHolder
 class CORDL_TYPE LocalDataStoreHolder : public ::System::Object {
 public:
   // Declarations
@@ -27,21 +26,21 @@ public:
   /// @brief Field m_Store, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store)) ::System::LocalDataStore* m_Store;
 
-  /// @brief Method Finalize, addr 0x3db2ab8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3e12b64, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
 
-  constexpr ::System::LocalDataStore*& __cordl_internal_get_m_Store();
+  constexpr ::System::LocalDataStore* const& __cordl_internal_get_m_Store() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStore*> const& __cordl_internal_get_m_Store() const;
+  constexpr ::System::LocalDataStore*& __cordl_internal_get_m_Store();
 
   constexpr void __cordl_internal_set_m_Store(::System::LocalDataStore* value);
 
-  /// @brief Method .ctor, addr 0x3db2a90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e12b3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method get_Store, addr 0x3db2b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x3e12c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStore* get_Store();
 
 protected:
@@ -58,18 +57,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LocalDataStoreHolder(LocalDataStoreHolder const&) = delete;
 
-  /// @brief Field m_Store, offset: 0x10, size: 0x8, def value: None
-  ::System::LocalDataStore* ___m_Store;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2542 };
+
+  /// @brief Field m_Store, offset: 0x10, size: 0x8, def value: None
+  ::System::LocalDataStore* ___m_Store;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreHolder, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::LocalDataStoreHolder, ___m_Store) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::LocalDataStoreHolder, 0x18>, "Size mismatch!");
 
 } // namespace System
 NEED_NO_BOX(::System::LocalDataStoreHolder);

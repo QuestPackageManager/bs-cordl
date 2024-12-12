@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e5260;
+  constexpr static std::size_t addrs = 0x231854c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::GetByOid)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22e598c;
+  constexpr static std::size_t addrs = 0x2318c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::get_Names)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x22e5aa8;
+  constexpr static std::size_t addrs = 0x2318d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::GetByName)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x22e5bb0;
+  constexpr static std::size_t addrs = 0x2318e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::GetOid)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x22e5d9c;
+  constexpr static std::size_t addrs = 0x2319088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,9 +126,6 @@ inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* Org::Bo
   return ::cordl_internals::getStaticField<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*, "cryptoProXchA",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*>::get>();
 }
-inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*>());
-}
 inline void Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*>::get(), ".ctor",
@@ -158,6 +155,9 @@ inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Org::BouncyCastle::Asn1::
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*>::get(), "GetOid",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, false>(nullptr, ___internal_method, name);
+}
+inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters::Gost3410NamedParameters() {}

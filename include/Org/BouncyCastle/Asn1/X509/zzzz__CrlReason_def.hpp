@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrlReason)
@@ -17,28 +16,27 @@ class CrlReason;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::CrlReason);
-// Type: Org.BouncyCastle.Asn1.X509::CrlReason
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.DerEnumerated
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X509::CrlReason*
+// CS Name: Org.BouncyCastle.Asn1.X509.CrlReason
 class CORDL_TYPE CrlReason : public ::Org::BouncyCastle::Asn1::DerEnumerated {
 public:
   // Declarations
   /// @brief Field ReasonString, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ReasonString, put = setStaticF_ReasonString)) ::ArrayW<::StringW, ::Array<::StringW>*> ReasonString;
+  __declspec(property(get = getStaticF_ReasonString, put = setStaticF_ReasonString)) ::ArrayW<::StringW, ::Array<::StringW>*> ReasonString;
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(int32_t reason);
 
-  /// @brief Method ToString, addr 0x25ce944, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2601c30, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x25ce8d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2601bbc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
-  /// @brief Method .ctor, addr 0x25ce868, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2601b54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reason);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_ReasonString();

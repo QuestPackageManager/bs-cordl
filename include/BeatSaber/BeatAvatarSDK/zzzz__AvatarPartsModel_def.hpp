@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarPartsModel)
@@ -35,11 +34,10 @@ class AvatarPartsModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartsModel);
-// Type: BeatSaber.BeatAvatarSDK::AvatarPartsModel
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPartsModel*
+// CS Name: BeatSaber.BeatAvatarSDK.AvatarPartsModel
 class CORDL_TYPE AvatarPartsModel : public ::System::Object {
 public:
   // Declarations
@@ -102,55 +100,48 @@ public:
 
   __declspec(property(get = get_skinColors)) ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> skinColors;
 
-  /// @brief Method GetColorIndexById, addr 0x222df0c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetColorIndexById, addr 0x2259480, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetColorIndexById(::StringW id);
 
-  /// @brief Method GetRandomColor, addr 0x222d124, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method GetRandomColor, addr 0x2258698, size 0x40, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO> GetRandomColor();
 
-  /// @brief Method GetSkinColorById, addr 0x222df90, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetSkinColorById, addr 0x2259504, size 0x34, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO> GetSkinColorById(::StringW id);
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* New_ctor(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* avatarPartData, ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* skinColorSet);
 
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* const& __cordl_internal_get__clothesCollection_k__BackingField() const;
+
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*& __cordl_internal_get__clothesCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> const&
-  __cordl_internal_get__clothesCollection_k__BackingField() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* const& __cordl_internal_get__eyesCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*& __cordl_internal_get__eyesCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> const&
-  __cordl_internal_get__eyesCollection_k__BackingField() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* const& __cordl_internal_get__facialHairCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*& __cordl_internal_get__facialHairCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> const&
-  __cordl_internal_get__facialHairCollection_k__BackingField() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* const& __cordl_internal_get__glassesCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*& __cordl_internal_get__glassesCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> const&
-  __cordl_internal_get__glassesCollection_k__BackingField() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* const& __cordl_internal_get__handsCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*& __cordl_internal_get__handsCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> const&
-  __cordl_internal_get__handsCollection_k__BackingField() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* const& __cordl_internal_get__headTopCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*& __cordl_internal_get__headTopCollection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>*> const&
-  __cordl_internal_get__headTopCollection_k__BackingField() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get__indexById() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get__indexById();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get__indexById() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* const& __cordl_internal_get__mouthCollection_k__BackingField() const;
 
   constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*& __cordl_internal_get__mouthCollection_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>*> const&
-  __cordl_internal_get__mouthCollection_k__BackingField() const;
 
   constexpr ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> const& __cordl_internal_get__skinColors_k__BackingField() const;
 
@@ -174,31 +165,31 @@ public:
 
   constexpr void __cordl_internal_set__skinColors_k__BackingField(::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x222dccc, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259240, size 0x240, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* avatarPartData, ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* skinColorSet);
 
-  /// @brief Method get_clothesCollection, addr 0x222dcbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clothesCollection, addr 0x2259230, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_clothesCollection();
 
-  /// @brief Method get_eyesCollection, addr 0x222dc94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eyesCollection, addr 0x2259208, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_eyesCollection();
 
-  /// @brief Method get_facialHairCollection, addr 0x222dcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_facialHairCollection, addr 0x2259220, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_facialHairCollection();
 
-  /// @brief Method get_glassesCollection, addr 0x222dca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glassesCollection, addr 0x2259218, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_glassesCollection();
 
-  /// @brief Method get_handsCollection, addr 0x222dcb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handsCollection, addr 0x2259228, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_handsCollection();
 
-  /// @brief Method get_headTopCollection, addr 0x222dc8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTopCollection, addr 0x2259200, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* get_headTopCollection();
 
-  /// @brief Method get_mouthCollection, addr 0x222dc9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mouthCollection, addr 0x2259210, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO>>* get_mouthCollection();
 
-  /// @brief Method get_skinColors, addr 0x222dcc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skinColors, addr 0x2259238, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>, ::Array<::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSO>>*> get_skinColors();
 
 protected:
@@ -214,6 +205,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPartsModel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPartsModel(AvatarPartsModel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18145 };
 
   /// @brief Field <headTopCollection>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<::UnityW<::BeatSaber::BeatAvatarSDK::AvatarMeshPartSO>>* ____headTopCollection_k__BackingField;
@@ -242,14 +236,9 @@ public:
   /// @brief Field _indexById, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* ____indexById;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18065 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPartsModel, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPartsModel, ____headTopCollection_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPartsModel, ____eyesCollection_k__BackingField) == 0x18, "Offset mismatch!");
@@ -267,6 +256,8 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPartsModel, ____clothes
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPartsModel, ____skinColors_k__BackingField) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPartsModel, ____indexById) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPartsModel, 0x58>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::AvatarPartsModel);

@@ -13,50 +13,48 @@ namespace System {
 class Object;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __LessThanOrEqualInstruction__LessThanOrEqualDouble;
+namespace GlobalNamespace {
+class LessThanOrEqualInstruction_LessThanOrEqualDouble;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualDouble);
-// Type: ::LessThanOrEqualDouble
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualDouble);
+// Dependencies System.Linq.Expressions.Interpreter.LessThanOrEqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LessThanOrEqualInstruction::LessThanOrEqualDouble*
-class CORDL_TYPE __LessThanOrEqualInstruction__LessThanOrEqualDouble : public ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.LessThanOrEqualInstruction/LessThanOrEqualDouble
+class CORDL_TYPE LessThanOrEqualInstruction_LessThanOrEqualDouble : public ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualDouble* New_ctor(::System::Object* nullValue);
+  static inline ::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualDouble* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x4074e1c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40d6130, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x4074554, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d5868, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LessThanOrEqualInstruction__LessThanOrEqualDouble();
+  constexpr LessThanOrEqualInstruction_LessThanOrEqualDouble();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanOrEqualInstruction__LessThanOrEqualDouble", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualDouble", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __LessThanOrEqualInstruction__LessThanOrEqualDouble(__LessThanOrEqualInstruction__LessThanOrEqualDouble&&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualDouble(LessThanOrEqualInstruction_LessThanOrEqualDouble&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__LessThanOrEqualInstruction__LessThanOrEqualDouble", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LessThanOrEqualInstruction_LessThanOrEqualDouble", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __LessThanOrEqualInstruction__LessThanOrEqualDouble(__LessThanOrEqualInstruction__LessThanOrEqualDouble const&) = delete;
+  LessThanOrEqualInstruction_LessThanOrEqualDouble(LessThanOrEqualInstruction_LessThanOrEqualDouble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualDouble, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualDouble, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualDouble);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualDouble*, "System.Linq.Expressions.Interpreter",
-                       "LessThanOrEqualInstruction/LessThanOrEqualDouble");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualDouble);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanOrEqualInstruction_LessThanOrEqualDouble*, "System.Linq.Expressions.Interpreter", "LessThanOrEqualInstruction/LessThanOrEqualDouble");

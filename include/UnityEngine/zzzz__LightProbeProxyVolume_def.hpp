@@ -11,11 +11,10 @@ class LightProbeProxyVolume;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::LightProbeProxyVolume);
-// Type: UnityEngine::LightProbeProxyVolume
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Behaviour
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::LightProbeProxyVolume*
+// CS Name: UnityEngine.LightProbeProxyVolume
 class CORDL_TYPE LightProbeProxyVolume : public ::UnityEngine::Behaviour {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   LightProbeProxyVolume(LightProbeProxyVolume const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

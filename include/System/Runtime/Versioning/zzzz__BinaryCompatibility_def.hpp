@@ -11,19 +11,18 @@ class BinaryCompatibility;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Versioning::BinaryCompatibility);
-// Type: System.Runtime.Versioning::BinaryCompatibility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Versioning {
 // Is value type: false
-// CS Name: ::System.Runtime.Versioning::BinaryCompatibility*
+// CS Name: System.Runtime.Versioning.BinaryCompatibility
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field TargetsAtLeast_Desktop_V4_5, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_TargetsAtLeast_Desktop_V4_5, put = setStaticF_TargetsAtLeast_Desktop_V4_5)) bool TargetsAtLeast_Desktop_V4_5;
+  __declspec(property(get = getStaticF_TargetsAtLeast_Desktop_V4_5, put = setStaticF_TargetsAtLeast_Desktop_V4_5)) bool TargetsAtLeast_Desktop_V4_5;
 
   /// @brief Field TargetsAtLeast_Desktop_V4_5_1, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_TargetsAtLeast_Desktop_V4_5_1, put = setStaticF_TargetsAtLeast_Desktop_V4_5_1)) bool TargetsAtLeast_Desktop_V4_5_1;
+  __declspec(property(get = getStaticF_TargetsAtLeast_Desktop_V4_5_1, put = setStaticF_TargetsAtLeast_Desktop_V4_5_1)) bool TargetsAtLeast_Desktop_V4_5_1;
 
   static inline bool getStaticF_TargetsAtLeast_Desktop_V4_5();
 

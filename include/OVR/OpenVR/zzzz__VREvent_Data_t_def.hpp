@@ -30,92 +30,20 @@ CORDL_MODULE_INIT
 #include "OVR/OpenVR/zzzz__VREvent_WebConsole_t_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(VREvent_Data_t)
-namespace OVR::OpenVR {
-struct VREvent_ApplicationLaunch_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Chaperone_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Controller_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_DualAnalog_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_EditingCameraSurface_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_HapticVibration_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_InputBindingLoad_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Ipd_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Keyboard_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_MessageOverlay_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Mouse_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Notification_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Overlay_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_PerformanceTest_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Process_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Property_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Reserved_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_ScreenshotProgress_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Screenshot_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Scroll_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_SeatedZeroPoseReset_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_SpatialAnchor_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_Status_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_TouchPadMove_t;
-}
-namespace OVR::OpenVR {
-struct VREvent_WebConsole_t;
-}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VREvent_Data_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::VREvent_Data_t);
-// Type: OVR.OpenVR::VREvent_Data_t
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies OVR.OpenVR.VREvent_ApplicationLaunch_t, OVR.OpenVR.VREvent_Chaperone_t, OVR.OpenVR.VREvent_Controller_t, OVR.OpenVR.VREvent_DualAnalog_t, OVR.OpenVR.VREvent_EditingCameraSurface_t,
+// OVR.OpenVR.VREvent_HapticVibration_t, OVR.OpenVR.VREvent_InputBindingLoad_t, OVR.OpenVR.VREvent_Ipd_t, OVR.OpenVR.VREvent_Keyboard_t, OVR.OpenVR.VREvent_MessageOverlay_t,
+// OVR.OpenVR.VREvent_Mouse_t, OVR.OpenVR.VREvent_Notification_t, OVR.OpenVR.VREvent_Overlay_t, OVR.OpenVR.VREvent_PerformanceTest_t, OVR.OpenVR.VREvent_Process_t, OVR.OpenVR.VREvent_Property_t,
+// OVR.OpenVR.VREvent_Reserved_t, OVR.OpenVR.VREvent_ScreenshotProgress_t, OVR.OpenVR.VREvent_Screenshot_t, OVR.OpenVR.VREvent_Scroll_t, OVR.OpenVR.VREvent_SeatedZeroPoseReset_t,
+// OVR.OpenVR.VREvent_SpatialAnchor_t, OVR.OpenVR.VREvent_Status_t, OVR.OpenVR.VREvent_TouchPadMove_t, OVR.OpenVR.VREvent_WebConsole_t
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::VREvent_Data_t
+// CS Name: OVR.OpenVR.VREvent_Data_t
 struct CORDL_TYPE VREvent_Data_t {
 public:
   // Declarations
@@ -730,7 +658,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

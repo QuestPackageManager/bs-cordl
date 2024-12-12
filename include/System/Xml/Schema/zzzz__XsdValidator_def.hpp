@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__BaseValidator_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XsdValidator)
@@ -60,11 +59,10 @@ class XsdValidator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XsdValidator);
-// Type: System.Xml.Schema::XsdValidator
-// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.BaseValidator, System.Xml.Schema.XmlSchemaContentProcessing
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XsdValidator*
+// CS Name: System.Xml.Schema.XsdValidator
 class CORDL_TYPE XsdValidator : public ::System::Xml::Schema::BaseValidator {
 public:
   // Declarations
@@ -110,13 +108,13 @@ public:
   __declspec(property(get = __cordl_internal_get_bManageNamespaces, put = __cordl_internal_set_bManageNamespaces)) bool bManageNamespaces;
 
   /// @brief Field dtCDATA, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dtCDATA, put = setStaticF_dtCDATA)) ::System::Xml::Schema::XmlSchemaDatatype* dtCDATA;
+  __declspec(property(get = getStaticF_dtCDATA, put = setStaticF_dtCDATA)) ::System::Xml::Schema::XmlSchemaDatatype* dtCDATA;
 
   /// @brief Field dtQName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dtQName, put = setStaticF_dtQName)) ::System::Xml::Schema::XmlSchemaDatatype* dtQName;
+  __declspec(property(get = getStaticF_dtQName, put = setStaticF_dtQName)) ::System::Xml::Schema::XmlSchemaDatatype* dtQName;
 
   /// @brief Field dtStringArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_dtStringArray, put = setStaticF_dtStringArray)) ::System::Xml::Schema::XmlSchemaDatatype* dtStringArray;
+  __declspec(property(get = getStaticF_dtStringArray, put = setStaticF_dtStringArray)) ::System::Xml::Schema::XmlSchemaDatatype* dtStringArray;
 
   /// @brief Field idRefListHead, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_idRefListHead, put = __cordl_internal_set_idRefListHead)) ::System::Xml::Schema::IdRefNode* idRefListHead;
@@ -136,46 +134,46 @@ public:
   /// @brief Field validationStack, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_validationStack, put = __cordl_internal_set_validationStack)) ::System::Xml::HWStack* validationStack;
 
-  /// @brief Method AddID, addr 0x42a3340, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddID, addr 0x4304654, size 0x90, virtual false, abstract: false, final false
   inline void AddID(::StringW name, ::System::Object* node);
 
-  /// @brief Method AddIdentityConstraints, addr 0x42a33ec, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method AddIdentityConstraints, addr 0x4304700, size 0x3e0, virtual false, abstract: false, final false
   inline void AddIdentityConstraints();
 
-  /// @brief Method AttributeIdentityConstraints, addr 0x42a28f8, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method AttributeIdentityConstraints, addr 0x4303c0c, size 0x2dc, virtual false, abstract: false, final false
   inline void AttributeIdentityConstraints(::StringW name, ::StringW ns, ::System::Object* obj, ::StringW sobj, ::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method CheckForwardRefs, addr 0x429f824, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CheckForwardRefs, addr 0x4300b38, size 0x104, virtual false, abstract: false, final false
   inline void CheckForwardRefs();
 
-  /// @brief Method CheckValue, addr 0x42a16fc, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x4302a10, size 0x464, virtual false, abstract: false, final false
   inline void CheckValue(::StringW value, ::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method CompleteValidation, addr 0x429f820, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x4300b34, size 0x4, virtual true, abstract: false, final false
   inline void CompleteValidation();
 
-  /// @brief Method ElementIdentityConstraints, addr 0x42a37cc, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method ElementIdentityConstraints, addr 0x4304ae0, size 0x348, virtual false, abstract: false, final false
   inline void ElementIdentityConstraints();
 
-  /// @brief Method EndElementIdentityConstraints, addr 0x42a1b70, size 0xc44, virtual false, abstract: false, final false
+  /// @brief Method EndElementIdentityConstraints, addr 0x4302e84, size 0xc44, virtual false, abstract: false, final false
   inline void EndElementIdentityConstraints();
 
-  /// @brief Method FastGetElementDecl, addr 0x429fd90, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method FastGetElementDecl, addr 0x43010a4, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* FastGetElementDecl(::System::Object* particle);
 
-  /// @brief Method FindId, addr 0x42a33d0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FindId, addr 0x43046e4, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
-  /// @brief Method Init, addr 0x429ed6c, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x4300080, size 0x338, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsXSDRoot, addr 0x429fb14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsXSDRoot, addr 0x4300e28, size 0x50, virtual false, abstract: false, final false
   inline bool IsXSDRoot(::StringW localName, ::StringW ns);
 
-  /// @brief Method LoadSchema, addr 0x42a153c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x4302850, size 0x1c0, virtual false, abstract: false, final false
   inline void LoadSchema(::StringW uri, ::StringW url);
 
-  /// @brief Method LoadSchemaFromLocation, addr 0x42a2bd4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method LoadSchemaFromLocation, addr 0x4303ee8, size 0x530, virtual false, abstract: false, final false
   inline void LoadSchemaFromLocation(::StringW uri, ::StringW url);
 
   static inline ::System::Xml::Schema::XsdValidator* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection,
@@ -183,54 +181,54 @@ public:
 
   static inline ::System::Xml::Schema::XsdValidator* New_ctor(::System::Xml::Schema::BaseValidator* validator);
 
-  /// @brief Method Pop, addr 0x42a27b4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x4303ac8, size 0xc0, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method ProcessElement, addr 0x429fb64, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method ProcessElement, addr 0x4300e78, size 0x22c, virtual false, abstract: false, final false
   inline void ProcessElement(::System::Object* particle);
 
-  /// @brief Method ProcessInlineSchema, addr 0x429f274, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ProcessInlineSchema, addr 0x4300588, size 0x270, virtual false, abstract: false, final false
   inline void ProcessInlineSchema();
 
-  /// @brief Method ProcessTokenizedType, addr 0x42a313c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ProcessTokenizedType, addr 0x4304450, size 0x204, virtual false, abstract: false, final false
   inline void ProcessTokenizedType(::System::Xml::XmlTokenizedType ttype, ::StringW name);
 
-  /// @brief Method ProcessXsiAttributes, addr 0x429fe6c, size 0x7e4, virtual false, abstract: false, final false
-  inline void ProcessXsiAttributes(ByRef<::System::Xml::XmlQualifiedName*> xsiType, ByRef<::StringW> xsiNil);
+  /// @brief Method ProcessXsiAttributes, addr 0x4301180, size 0x7e4, virtual false, abstract: false, final false
+  inline void ProcessXsiAttributes(::ByRef<::System::Xml::XmlQualifiedName*> xsiType, ::ByRef<::StringW> xsiNil);
 
-  /// @brief Method Push, addr 0x429f0c8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x43003dc, size 0xe4, virtual false, abstract: false, final false
   inline void Push(::System::Xml::XmlQualifiedName* elementName);
 
-  /// @brief Method ThoroughGetElementDecl, addr 0x42a0650, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ThoroughGetElementDecl, addr 0x4301964, size 0x3d0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* ThoroughGetElementDecl(::System::Xml::Schema::SchemaElementDecl* elementDecl, ::System::Xml::XmlQualifiedName* xsiType, ::StringW xsiNil);
 
-  /// @brief Method UnWrapUnion, addr 0x42a2874, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnWrapUnion, addr 0x4303b88, size 0x84, virtual false, abstract: false, final false
   inline ::System::Object* UnWrapUnion(::System::Object* typedValue);
 
-  /// @brief Method Validate, addr 0x429f1ac, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x43004c0, size 0xb8, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method ValidateChildElement, addr 0x429f928, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method ValidateChildElement, addr 0x4300c3c, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Object* ValidateChildElement();
 
-  /// @brief Method ValidateElement, addr 0x429f4e4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x43007f8, size 0x15c, virtual false, abstract: false, final false
   inline void ValidateElement();
 
-  /// @brief Method ValidateEndElement, addr 0x429f640, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndElement, addr 0x4300954, size 0x1e0, virtual false, abstract: false, final false
   inline void ValidateEndElement();
 
-  /// @brief Method ValidateEndStartElement, addr 0x42a1158, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndStartElement, addr 0x430246c, size 0x3e4, virtual false, abstract: false, final false
   inline void ValidateEndStartElement();
 
-  /// @brief Method ValidateStartElement, addr 0x42a0a90, size 0x6c8, virtual false, abstract: false, final false
+  /// @brief Method ValidateStartElement, addr 0x4301da4, size 0x6c8, virtual false, abstract: false, final false
   inline void ValidateStartElement();
 
-  /// @brief Method ValidateStartElementIdentityConstraints, addr 0x42a0a44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ValidateStartElementIdentityConstraints, addr 0x4301d58, size 0x4c, virtual false, abstract: false, final false
   inline void ValidateStartElementIdentityConstraints();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_IDs();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_IDs() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_IDs() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_IDs();
 
   constexpr ::StringW const& __cordl_internal_get_NsXmlNs() const;
 
@@ -264,25 +262,25 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_XsiType();
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_attPresence();
+  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_attPresence() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_attPresence() const;
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_attPresence();
 
   constexpr bool const& __cordl_internal_get_bManageNamespaces() const;
 
   constexpr bool& __cordl_internal_get_bManageNamespaces();
 
+  constexpr ::System::Xml::Schema::IdRefNode* const& __cordl_internal_get_idRefListHead() const;
+
   constexpr ::System::Xml::Schema::IdRefNode*& __cordl_internal_get_idRefListHead();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& __cordl_internal_get_idRefListHead() const;
+  constexpr ::System::Xml::Schema::Parser* const& __cordl_internal_get_inlineSchemaParser() const;
 
   constexpr ::System::Xml::Schema::Parser*& __cordl_internal_get_inlineSchemaParser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Parser*> const& __cordl_internal_get_inlineSchemaParser() const;
+  constexpr ::System::Xml::XmlNamespaceManager* const& __cordl_internal_get_nsManager() const;
 
   constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_nsManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get_nsManager() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaContentProcessing const& __cordl_internal_get_processContents() const;
 
@@ -292,9 +290,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_startIDConstraint();
 
-  constexpr ::System::Xml::HWStack*& __cordl_internal_get_validationStack();
+  constexpr ::System::Xml::HWStack* const& __cordl_internal_get_validationStack() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::HWStack*> const& __cordl_internal_get_validationStack() const;
+  constexpr ::System::Xml::HWStack*& __cordl_internal_get_validationStack();
 
   constexpr void __cordl_internal_set_IDs(::System::Collections::Hashtable* value);
 
@@ -330,10 +328,10 @@ public:
 
   constexpr void __cordl_internal_set_validationStack(::System::Xml::HWStack* value);
 
-  /// @brief Method .ctor, addr 0x429f0a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43003b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method .ctor, addr 0x429ed48, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430005c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BaseValidator* validator);
 
   static inline ::System::Xml::Schema::XmlSchemaDatatype* getStaticF_dtCDATA();
@@ -342,16 +340,16 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaDatatype* getStaticF_dtStringArray();
 
-  /// @brief Method get_HasIdentityConstraints, addr 0x42a1b60, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasIdentityConstraints, addr 0x4302e74, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasIdentityConstraints();
 
-  /// @brief Method get_HasSchema, addr 0x42a0a20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_HasSchema, addr 0x4301d34, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasSchema();
 
-  /// @brief Method get_IsInlineSchemaStarted, addr 0x429f264, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsInlineSchemaStarted, addr 0x4300578, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsInlineSchemaStarted();
 
-  /// @brief Method get_PreserveWhitespace, addr 0x42a3104, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x4304418, size 0x38, virtual true, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
   static inline void setStaticF_dtCDATA(::System::Xml::Schema::XmlSchemaDatatype* value);
@@ -373,6 +371,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XsdValidator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XsdValidator(XsdValidator const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7766 };
 
   /// @brief Field startIDConstraint, offset: 0x7c, size: 0x4, def value: None
   int32_t ___startIDConstraint;
@@ -425,14 +426,9 @@ public:
   /// @brief Field XsdSchema, offset: 0xf8, size: 0x8, def value: None
   ::StringW ___XsdSchema;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7741 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdValidator, 0x100>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XsdValidator, ___startIDConstraint) == 0x7c, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XsdValidator, ___validationStack) == 0x80, "Offset mismatch!");
@@ -466,6 +462,8 @@ static_assert(offsetof(::System::Xml::Schema::XsdValidator, ___XsiSchemaLocation
 static_assert(offsetof(::System::Xml::Schema::XsdValidator, ___XsiNoNamespaceSchemaLocation) == 0xf0, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XsdValidator, ___XsdSchema) == 0xf8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XsdValidator, 0x100>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XsdValidator);

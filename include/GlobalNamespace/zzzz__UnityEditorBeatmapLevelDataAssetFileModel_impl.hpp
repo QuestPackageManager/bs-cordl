@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelDataSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelDataFromAssetDatabase)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26cb238;
+  constexpr static std::size_t addrs = 0x26fca04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelFromAssetDatabase)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26cb2ac;
+  constexpr static std::size_t addrs = 0x26fca78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (*)(::StringW)>(
     &::GlobalNamespace::UnityEditorBeatmapLevelDataAssetFileModel::LoadBeatmapLevelPackFromAssetDatabase)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26cb320;
+  constexpr static std::size_t addrs = 0x26fcaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

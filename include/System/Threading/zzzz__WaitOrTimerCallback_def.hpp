@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(WaitOrTimerCallback)
 namespace System {
 struct IntPtr;
@@ -18,20 +17,19 @@ class WaitOrTimerCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::WaitOrTimerCallback);
-// Type: System.Threading::WaitOrTimerCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::WaitOrTimerCallback*
+// CS Name: System.Threading.WaitOrTimerCallback
 class CORDL_TYPE WaitOrTimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3df6e34, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3e56ee0, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state, bool timedOut);
 
   static inline ::System::Threading::WaitOrTimerCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3df6d30, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e56ddc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:

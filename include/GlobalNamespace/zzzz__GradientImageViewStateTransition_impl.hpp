@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BaseTransitionSO> (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::get_transition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4474960;
+  constexpr static std::size_t addrs = 0x44d5c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474968;
+  constexpr static std::size_t addrs = 0x44d5c7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474c38;
+  constexpr static std::size_t addrs = 0x44d5f4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474ce0;
+  constexpr static std::size_t addrs = 0x44d5ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474d88;
+  constexpr static std::size_t addrs = 0x44d609c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474e30;
+  constexpr static std::size_t addrs = 0x44d6144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::GlobalNamespace::TransitionTimingSO*)>(
     &::GlobalNamespace::GradientImageViewStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4474ed8;
+  constexpr static std::size_t addrs = 0x44d61ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::StopCurrentTransitionAnimation)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4474f80;
+  constexpr static std::size_t addrs = 0x44d6294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4475048;
+  constexpr static std::size_t addrs = 0x44d635c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4475138;
+  constexpr static std::size_t addrs = 0x44d644c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44751b8;
+  constexpr static std::size_t addrs = 0x44d64cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4475238;
+  constexpr static std::size_t addrs = 0x44d654c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44752b8;
+  constexpr static std::size_t addrs = 0x44d65cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4475338;
+  constexpr static std::size_t addrs = 0x44d664c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::GlobalNamespace::TransitionTimingSO*)>(&::GlobalNamespace::GradientImageViewStateTransition::StartTweens)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x4474a10;
+  constexpr static std::size_t addrs = 0x44d5d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -255,10 +255,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(
-    ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, ::System::Action*, ::GlobalNamespace::TransitionTimingSO*, ByRef<::Tweening::ColorTween*>)>(
+    ::UnityEngine::Color, ::UnityEngine::Color, ::System::Action_1<::UnityEngine::Color>*, ::System::Action*, ::GlobalNamespace::TransitionTimingSO*, ::ByRef<::Tweening::ColorTween*>)>(
     &::GlobalNamespace::GradientImageViewStateTransition::StartTween)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x44753b8;
+  constexpr static std::size_t addrs = 0x44d66cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Color>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TransitionTimingSO*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Tweening::ColorTween*>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Tweening::ColorTween*>>::get() })));
     return ___internal_method;
   }
 };
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::SetColors)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44750c8;
+  constexpr static std::size_t addrs = 0x44d63dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4475504;
+  constexpr static std::size_t addrs = 0x44d6818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientImageViewStateTransition*>::get(),
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_g__Color1CompleteAction_18_0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x447554c;
+  constexpr static std::size_t addrs = 0x44d6860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)()>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_g__Color2CompleteAction_18_1)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44755d4;
+  constexpr static std::size_t addrs = 0x44d68e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -337,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__18_2)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x447565c;
+  constexpr static std::size_t addrs = 0x44d6970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GradientImageViewStateTransition::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__18_3)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4475680;
+  constexpr static std::size_t addrs = 0x44d6994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,7 +377,7 @@ constexpr ::Tweening::ColorTween*& GlobalNamespace::GradientImageViewStateTransi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenA;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& GlobalNamespace::GradientImageViewStateTransition::__cordl_internal_get__colorTweenA() const {
+constexpr ::Tweening::ColorTween* const& GlobalNamespace::GradientImageViewStateTransition::__cordl_internal_get__colorTweenA() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenA;
 }
@@ -389,7 +389,7 @@ constexpr ::Tweening::ColorTween*& GlobalNamespace::GradientImageViewStateTransi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenB;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& GlobalNamespace::GradientImageViewStateTransition::__cordl_internal_get__colorTweenB() const {
+constexpr ::Tweening::ColorTween* const& GlobalNamespace::GradientImageViewStateTransition::__cordl_internal_get__colorTweenB() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorTweenB;
 }
@@ -477,14 +477,14 @@ inline void GlobalNamespace::GradientImageViewStateTransition::StartTweens(::Uni
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::StartTween(::UnityEngine::Color startColor, ::UnityEngine::Color endColor, ::System::Action_1<::UnityEngine::Color>* tweenAction,
                                                                           ::System::Action* onCompleteAction, ::GlobalNamespace::TransitionTimingSO* transitionTiming,
-                                                                          ByRef<::Tweening::ColorTween*> colorTween) {
+                                                                          ::ByRef<::Tweening::ColorTween*> colorTween) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientImageViewStateTransition*>::get(), "StartTween", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityEngine::Color>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TransitionTimingSO*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Tweening::ColorTween*>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Tweening::ColorTween*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startColor, endColor, tweenAction, onCompleteAction, transitionTiming, colorTween);
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::SetColors(::UnityEngine::Color startColor, ::UnityEngine::Color endColor) {
@@ -493,9 +493,6 @@ inline void GlobalNamespace::GradientImageViewStateTransition::SetColors(::Unity
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startColor, endColor);
-}
-inline ::GlobalNamespace::GradientImageViewStateTransition* GlobalNamespace::GradientImageViewStateTransition::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GradientImageViewStateTransition*>());
 }
 inline void GlobalNamespace::GradientImageViewStateTransition::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientImageViewStateTransition*>::get(),
@@ -525,6 +522,9 @@ inline void GlobalNamespace::GradientImageViewStateTransition::_StartTweens_b__1
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GradientImageViewStateTransition*>::get(), "<StartTweens>b__18_3",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
+}
+inline ::GlobalNamespace::GradientImageViewStateTransition* GlobalNamespace::GradientImageViewStateTransition::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GradientImageViewStateTransition*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GradientImageViewStateTransition::GradientImageViewStateTransition() {}

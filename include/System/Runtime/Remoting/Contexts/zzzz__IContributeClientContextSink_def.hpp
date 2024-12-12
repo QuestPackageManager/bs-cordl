@@ -13,20 +13,15 @@ class IContributeClientContextSink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeClientContextSink);
-// Type: System.Runtime.Remoting.Contexts::IContributeClientContextSink
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Contexts::IContributeClientContextSink*
+// CS Name: System.Runtime.Remoting.Contexts.IContributeClientContextSink
 class CORDL_TYPE IContributeClientContextSink {
 public:
   // Declarations
-  /// @brief Method GetClientContextSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method GetClientContextSink, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSink(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IContributeClientContextSink", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IContributeClientContextSink(IContributeClientContextSink&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IContributeClientContextSink", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies

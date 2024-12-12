@@ -21,32 +21,31 @@ class ECNamedCurveTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable);
-// Type: Org.BouncyCastle.Asn1.X9::ECNamedCurveTable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.X9::ECNamedCurveTable*
+// CS Name: Org.BouncyCastle.Asn1.X9.ECNamedCurveTable
 class CORDL_TYPE ECNamedCurveTable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByName, addr 0x25ebcac, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x261ef98, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0x25ec180, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x261f46c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetName, addr 0x25ebe48, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x261f134, size 0x19c, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0x25ebfe4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x261f2d0, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::X9::ECNamedCurveTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ec4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261f7d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Names, addr 0x25ec2e8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x261f5d4, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
 protected:

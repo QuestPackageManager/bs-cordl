@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Unity::Properties::TypeTraits::IsContainer)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x48ac898;
+  constexpr static std::size_t addrs = 0x4910f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

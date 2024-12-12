@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PackBuyOption_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelPack)
 namespace GlobalNamespace {
@@ -30,11 +29,10 @@ class BeatmapLevelPack;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelPack);
-// Type: ::BeatmapLevelPack
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PackBuyOption, PlayerSensitivityFlag, System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapLevelPack*
+// CS Name: BeatmapLevelPack
 class CORDL_TYPE BeatmapLevelPack : public ::System::Object {
 public:
   // Declarations
@@ -71,16 +69,16 @@ public:
   /// @brief Field smallCoverImage, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_smallCoverImage, put = __cordl_internal_set_smallCoverImage)) ::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
-  /// @brief Method AddAdditionalBeatmapLevel, addr 0x2693678, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddAdditionalBeatmapLevel, addr 0x26c81e8, size 0xe8, virtual false, abstract: false, final false
   inline void AddAdditionalBeatmapLevel(::GlobalNamespace::BeatmapLevel* levelToAdd);
 
-  /// @brief Method AllBeatmapLevels, addr 0x26935a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AllBeatmapLevels, addr 0x26c8114, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* AllBeatmapLevels();
 
-  /// @brief Method ClearAdditionalBeatmapLevels, addr 0x2693760, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ClearAdditionalBeatmapLevels, addr 0x26c82d0, size 0xac, virtual false, abstract: false, final false
   inline void ClearAdditionalBeatmapLevels();
 
-  /// @brief Method CreateLevelPackForFiltering, addr 0x26935ac, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CreateLevelPackForFiltering, addr 0x26c811c, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevelPack* CreateLevelPackForFiltering(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels);
 
   static inline ::GlobalNamespace::BeatmapLevelPack* New_ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
@@ -88,16 +86,16 @@ public:
                                                               ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels,
                                                               ::GlobalNamespace::PlayerSensitivityFlag contentRating);
 
-  /// @brief Method SetAdditionalBeatmapLevels, addr 0x269380c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetAdditionalBeatmapLevels, addr 0x26c837c, size 0xc8, virtual false, abstract: false, final false
   inline void SetAdditionalBeatmapLevels(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* additionalBeatmapLevels);
+
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get__additionalBeatmapLevels() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get__additionalBeatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get__additionalBeatmapLevels() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get__allBeatmapLevels() const;
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get__allBeatmapLevels();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get__allBeatmapLevels() const;
 
   constexpr ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> const& __cordl_internal_get__beatmapLevels() const;
 
@@ -151,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set_smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x2693494, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8004, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::StringW packID, ::StringW packName, ::StringW shortPackName, ::UnityEngine::Sprite* coverImage, ::UnityEngine::Sprite* smallCoverImage,
                     ::GlobalNamespace::PackBuyOption packBuyOption, ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels,
                     ::GlobalNamespace::PlayerSensitivityFlag contentRating);
@@ -169,6 +167,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelPack", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BeatmapLevelPack(BeatmapLevelPack const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12957 };
+
+  /// @brief Field kFilteredLevelPackId offset 0xffffffff size 0x8
+  static constexpr ::ConstString kFilteredLevelPackId{ u"filtered_pack_id" };
 
   /// @brief Field packID, offset: 0x10, size: 0x8, def value: None
   ::StringW ___packID;
@@ -200,17 +204,9 @@ public:
   /// @brief Field _allBeatmapLevels, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevel*>* ____allBeatmapLevels;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12923 };
-
-  /// @brief Field kFilteredLevelPackId offset 0xffffffff size 0x8
-  static constexpr ::ConstString kFilteredLevelPackId{ u"filtered_pack_id" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPack, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPack, ___packID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPack, ___packName) == 0x18, "Offset mismatch!");
@@ -230,6 +226,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelPack, ____beatmapLevels) =
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPack, ____additionalBeatmapLevels) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelPack, ____allBeatmapLevels) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelPack, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelPack);

@@ -28,11 +28,10 @@ class LeafRangeNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::LeafRangeNode);
-// Type: System.Xml.Schema::LeafRangeNode
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Decimal, System.Xml.Schema.LeafNode
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::LeafRangeNode*
+// CS Name: System.Xml.Schema.LeafRangeNode
 class CORDL_TYPE LeafRangeNode : public ::System::Xml::Schema::LeafNode {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   /// @brief Field nextIteration, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_nextIteration, put = __cordl_internal_set_nextIteration)) ::System::Xml::Schema::BitSet* nextIteration;
 
-  /// @brief Method ExpandTree, addr 0x433a428, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x439b73c, size 0x34, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::LeafRangeNode* New_ctor(::System::Decimal min, ::System::Decimal max);
@@ -68,9 +67,9 @@ public:
 
   constexpr ::System::Decimal& __cordl_internal_get_min();
 
-  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_nextIteration();
+  constexpr ::System::Xml::Schema::BitSet* const& __cordl_internal_get_nextIteration() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __cordl_internal_get_nextIteration() const;
+  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_nextIteration();
 
   constexpr void __cordl_internal_set_max(::System::Decimal value);
 
@@ -78,25 +77,25 @@ public:
 
   constexpr void __cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet* value);
 
-  /// @brief Method .ctor, addr 0x433a360, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439b674, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal min, ::System::Decimal max);
 
-  /// @brief Method .ctor, addr 0x433a3a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x439b6bc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(int32_t pos, ::System::Decimal min, ::System::Decimal max);
 
-  /// @brief Method get_IsRangeNode, addr 0x433a420, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsRangeNode, addr 0x439b734, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRangeNode();
 
-  /// @brief Method get_Max, addr 0x433a3f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Max, addr 0x439b70c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Max();
 
-  /// @brief Method get_Min, addr 0x433a404, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x439b718, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Min();
 
-  /// @brief Method get_NextIteration, addr 0x433a410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextIteration, addr 0x439b724, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* get_NextIteration();
 
-  /// @brief Method set_NextIteration, addr 0x433a418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NextIteration, addr 0x439b72c, size 0x8, virtual false, abstract: false, final false
   inline void set_NextIteration(::System::Xml::Schema::BitSet* value);
 
 protected:
@@ -113,6 +112,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LeafRangeNode(LeafRangeNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7504 };
+
   /// @brief Field min, offset: 0x18, size: 0x10, def value: None
   ::System::Decimal ___min;
 
@@ -122,19 +124,16 @@ public:
   /// @brief Field nextIteration, offset: 0x38, size: 0x8, def value: None
   ::System::Xml::Schema::BitSet* ___nextIteration;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7479 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LeafRangeNode, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::LeafRangeNode, ___min) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::LeafRangeNode, ___max) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::LeafRangeNode, ___nextIteration) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::LeafRangeNode, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::LeafRangeNode);

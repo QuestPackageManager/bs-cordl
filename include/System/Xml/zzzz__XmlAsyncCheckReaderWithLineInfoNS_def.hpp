@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlAsyncCheckReaderWithLineInfoNS)
@@ -24,11 +25,10 @@ class XmlAsyncCheckReaderWithLineInfoNS;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckReaderWithLineInfoNS);
-// Type: System.Xml::XmlAsyncCheckReaderWithLineInfoNS
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IXmlNamespaceResolver, System.Xml.XmlAsyncCheckReaderWithLineInfo
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::XmlAsyncCheckReaderWithLineInfoNS*
+// CS Name: System.Xml.XmlAsyncCheckReaderWithLineInfoNS
 class CORDL_TYPE XmlAsyncCheckReaderWithLineInfoNS : public ::System::Xml::XmlAsyncCheckReaderWithLineInfo {
 public:
   // Declarations
@@ -41,22 +41,22 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithLineInfoNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x42abbf8, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x430cf0c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x42abca0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x430cfb4, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x42abd4c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x430d060, size 0xac, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
+
+  constexpr ::System::Xml::IXmlNamespaceResolver* const& __cordl_internal_get_readerAsIXmlNamespaceResolver() const;
 
   constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_readerAsIXmlNamespaceResolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __cordl_internal_get_readerAsIXmlNamespaceResolver() const;
-
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x42aaabc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x430bdd0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -76,18 +76,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlAsyncCheckReaderWithLineInfoNS(XmlAsyncCheckReaderWithLineInfoNS const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7211 };
+
   /// @brief Field readerAsIXmlNamespaceResolver, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::IXmlNamespaceResolver* ___readerAsIXmlNamespaceResolver;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7186 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::XmlAsyncCheckReaderWithLineInfoNS, ___readerAsIXmlNamespaceResolver) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::XmlAsyncCheckReaderWithLineInfoNS, 0x30>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::XmlAsyncCheckReaderWithLineInfoNS);

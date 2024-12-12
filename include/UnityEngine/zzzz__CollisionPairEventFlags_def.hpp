@@ -12,11 +12,10 @@ struct CollisionPairEventFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::CollisionPairEventFlags);
-// Type: UnityEngine::CollisionPairEventFlags
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::CollisionPairEventFlags
+// CS Name: UnityEngine.CollisionPairEventFlags
 struct CORDL_TYPE CollisionPairEventFlags {
 public:
   // Declarations
@@ -61,75 +60,75 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr CollisionPairEventFlags(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field ContactDefault value: static_cast<uint16_t>(0x401u)
+  /// @brief Field ContactDefault value: U16(1025)
   static ::UnityEngine::CollisionPairEventFlags const ContactDefault;
 
-  /// @brief Field ContactEventPose value: static_cast<uint16_t>(0x4000u)
+  /// @brief Field ContactEventPose value: U16(16384)
   static ::UnityEngine::CollisionPairEventFlags const ContactEventPose;
 
-  /// @brief Field DetectCCDContact value: static_cast<uint16_t>(0x800u)
+  /// @brief Field DetectCCDContact value: U16(2048)
   static ::UnityEngine::CollisionPairEventFlags const DetectCCDContact;
 
-  /// @brief Field DetectDiscreteContact value: static_cast<uint16_t>(0x400u)
+  /// @brief Field DetectDiscreteContact value: U16(1024)
   static ::UnityEngine::CollisionPairEventFlags const DetectDiscreteContact;
 
-  /// @brief Field ModifyContacts value: static_cast<uint16_t>(0x2u)
+  /// @brief Field ModifyContacts value: U16(2)
   static ::UnityEngine::CollisionPairEventFlags const ModifyContacts;
 
-  /// @brief Field NextFree value: static_cast<uint16_t>(0x8000u)
+  /// @brief Field NextFree value: U16(32768)
   static ::UnityEngine::CollisionPairEventFlags const NextFree;
 
-  /// @brief Field NotifyContactPoint value: static_cast<uint16_t>(0x200u)
+  /// @brief Field NotifyContactPoint value: U16(512)
   static ::UnityEngine::CollisionPairEventFlags const NotifyContactPoint;
 
-  /// @brief Field NotifyThresholdForceFound value: static_cast<uint16_t>(0x40u)
+  /// @brief Field NotifyThresholdForceFound value: U16(64)
   static ::UnityEngine::CollisionPairEventFlags const NotifyThresholdForceFound;
 
-  /// @brief Field NotifyThresholdForceLost value: static_cast<uint16_t>(0x100u)
+  /// @brief Field NotifyThresholdForceLost value: U16(256)
   static ::UnityEngine::CollisionPairEventFlags const NotifyThresholdForceLost;
 
-  /// @brief Field NotifyThresholdForcePersists value: static_cast<uint16_t>(0x80u)
+  /// @brief Field NotifyThresholdForcePersists value: U16(128)
   static ::UnityEngine::CollisionPairEventFlags const NotifyThresholdForcePersists;
 
-  /// @brief Field NotifyTouchCCD value: static_cast<uint16_t>(0x20u)
+  /// @brief Field NotifyTouchCCD value: U16(32)
   static ::UnityEngine::CollisionPairEventFlags const NotifyTouchCCD;
 
-  /// @brief Field NotifyTouchFound value: static_cast<uint16_t>(0x4u)
+  /// @brief Field NotifyTouchFound value: U16(4)
   static ::UnityEngine::CollisionPairEventFlags const NotifyTouchFound;
 
-  /// @brief Field NotifyTouchLost value: static_cast<uint16_t>(0x10u)
+  /// @brief Field NotifyTouchLost value: U16(16)
   static ::UnityEngine::CollisionPairEventFlags const NotifyTouchLost;
 
-  /// @brief Field NotifyTouchPersists value: static_cast<uint16_t>(0x8u)
+  /// @brief Field NotifyTouchPersists value: U16(8)
   static ::UnityEngine::CollisionPairEventFlags const NotifyTouchPersists;
 
-  /// @brief Field PostSolverVelocity value: static_cast<uint16_t>(0x2000u)
+  /// @brief Field PostSolverVelocity value: U16(8192)
   static ::UnityEngine::CollisionPairEventFlags const PostSolverVelocity;
 
-  /// @brief Field PreSolverVelocity value: static_cast<uint16_t>(0x1000u)
+  /// @brief Field PreSolverVelocity value: U16(4096)
   static ::UnityEngine::CollisionPairEventFlags const PreSolverVelocity;
 
-  /// @brief Field SolveContacts value: static_cast<uint16_t>(0x1u)
+  /// @brief Field SolveContacts value: U16(1)
   static ::UnityEngine::CollisionPairEventFlags const SolveContacts;
 
-  /// @brief Field TriggerDefault value: static_cast<uint16_t>(0x414u)
+  /// @brief Field TriggerDefault value: U16(1044)
   static ::UnityEngine::CollisionPairEventFlags const TriggerDefault;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15769 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::CollisionPairEventFlags, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::CollisionPairEventFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::CollisionPairEventFlags, 0x2>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CollisionPairEventFlags, "UnityEngine", "CollisionPairEventFlags");

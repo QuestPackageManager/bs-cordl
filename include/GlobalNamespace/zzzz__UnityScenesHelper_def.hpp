@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UnityScenesHelper)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
@@ -14,15 +17,17 @@ class UnityScenesHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UnityScenesHelper);
-// Type: ::UnityScenesHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UnityScenesHelper*
+// CS Name: UnityScenesHelper
 class CORDL_TYPE UnityScenesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetActiveRootObjectsInScene, addr 0x2280cbc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetComponentsInScene, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void GetComponentsInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<T>* components, bool includeInactive);
+
+  /// @brief Method SetActiveRootObjectsInScene, addr 0x22b3cb4, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:
@@ -40,7 +45,7 @@ public:
   UnityScenesHelper(UnityScenesHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

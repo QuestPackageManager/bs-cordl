@@ -5,84 +5,100 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
-#include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObstacleController)
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerObstacleClippingController;
 }
 namespace GlobalNamespace {
+class MultiplayerConnectedPlayerObstacleController_Pool;
+}
+namespace GlobalNamespace {
 class ObstacleData;
 }
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerObstacleController__Pool;
+struct ObstacleSpawnData;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace GlobalNamespace {
+class SettingsManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerObstacleController;
 }
 namespace GlobalNamespace {
-class __MultiplayerConnectedPlayerObstacleController__Pool;
+class MultiplayerConnectedPlayerObstacleController_Pool;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool);
-// Type: ::Pool
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool);
+// Dependencies Zenject.MonoMemoryPool`1<TValue>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerObstacleController::Pool*
-class CORDL_TYPE __MultiplayerConnectedPlayerObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>> {
+// CS Name: MultiplayerConnectedPlayerObstacleController/Pool
+class CORDL_TYPE MultiplayerConnectedPlayerObstacleController_Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*> {
 public:
   // Declarations
-  static inline ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool* New_ctor();
+  /// @brief Field _settingsManager, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Method .ctor, addr 0x3b560f4, size 0x48, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool* New_ctor();
+
+  /// @brief Method OnCreated, addr 0x3bb7948, size 0xa4, virtual true, abstract: false, final false
+  inline void OnCreated(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* item);
+
+  constexpr ::GlobalNamespace::SettingsManager* const& __cordl_internal_get__settingsManager() const;
+
+  constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager();
+
+  constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
+
+  /// @brief Method .ctor, addr 0x3bb79ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerConnectedPlayerObstacleController__Pool();
+  constexpr MultiplayerConnectedPlayerObstacleController_Pool();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerConnectedPlayerObstacleController__Pool(__MultiplayerConnectedPlayerObstacleController__Pool&&) = delete;
+  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Pool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerObstacleController__Pool", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObstacleController_Pool", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerConnectedPlayerObstacleController__Pool(__MultiplayerConnectedPlayerObstacleController__Pool const&) = delete;
+  MultiplayerConnectedPlayerObstacleController_Pool(MultiplayerConnectedPlayerObstacleController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4499 };
+
+  /// @brief Field _settingsManager, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::SettingsManager* ____settingsManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool, ____settingsManager) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::MultiplayerConnectedPlayerObstacleController
-// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ObstacleController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerConnectedPlayerObstacleController*
+// CS Name: MultiplayerConnectedPlayerObstacleController
 class CORDL_TYPE MultiplayerConnectedPlayerObstacleController : public ::GlobalNamespace::ObstacleController {
 public:
   // Declarations
-  using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool;
+  using Pool = ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool;
 
-  /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset 0x128, size 0x8
+  /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerConnectedPlayerObstacleClippingController,
                       put = __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController)) ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController>
       _multiplayerConnectedPlayerObstacleClippingController;
 
-  /// @brief Method Init, addr 0x3b55f24, size 0x1c8, virtual true, abstract: false, final false
-  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 midPos, ::UnityEngine::Vector3 endPos, float_t move1Duration,
-                   float_t move2Duration, float_t singleLineWidth, float_t height);
+  /// @brief Method Init, addr 0x3bb774c, size 0x1f4, virtual true, abstract: false, final false
+  inline void Init(::GlobalNamespace::ObstacleData* obstacleData, ::ByRef<::GlobalNamespace::ObstacleSpawnData> obstacleSpawnData);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController* New_ctor();
 
@@ -92,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerConnectedPlayerObstacleClippingController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> value);
 
-  /// @brief Method .ctor, addr 0x3b560ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bb7940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -109,21 +125,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerConnectedPlayerObstacleController(MultiplayerConnectedPlayerObstacleController const&) = delete;
 
-  /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset: 0x128, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> ____multiplayerConnectedPlayerObstacleClippingController;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4500 };
+
+  /// @brief Field _multiplayerConnectedPlayerObstacleClippingController, offset: 0x130, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController> ____multiplayerConnectedPlayerObstacleClippingController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, 0x130>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, ____multiplayerConnectedPlayerObstacleClippingController) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, ____multiplayerConnectedPlayerObstacleClippingController) == 0x128, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController, 0x138>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, "", "MultiplayerConnectedPlayerObstacleController");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerConnectedPlayerObstacleController__Pool*, "", "MultiplayerConnectedPlayerObstacleController/Pool");
+NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool*, "", "MultiplayerConnectedPlayerObstacleController/Pool");

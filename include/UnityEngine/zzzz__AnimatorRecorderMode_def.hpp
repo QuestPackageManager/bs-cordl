@@ -12,11 +12,10 @@ struct AnimatorRecorderMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::AnimatorRecorderMode);
-// Type: UnityEngine::AnimatorRecorderMode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::AnimatorRecorderMode
+// CS Name: UnityEngine.AnimatorRecorderMode
 struct CORDL_TYPE AnimatorRecorderMode {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AnimatorRecorderMode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Offline value: static_cast<int32_t>(0x0)
+  /// @brief Field Offline value: I32(0)
   static ::UnityEngine::AnimatorRecorderMode const Offline;
 
-  /// @brief Field Playback value: static_cast<int32_t>(0x1)
+  /// @brief Field Playback value: I32(1)
   static ::UnityEngine::AnimatorRecorderMode const Playback;
 
-  /// @brief Field Record value: static_cast<int32_t>(0x2)
+  /// @brief Field Record value: I32(2)
   static ::UnityEngine::AnimatorRecorderMode const Record;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16860 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorRecorderMode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AnimatorRecorderMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimatorRecorderMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimatorRecorderMode, "UnityEngine", "AnimatorRecorderMode");

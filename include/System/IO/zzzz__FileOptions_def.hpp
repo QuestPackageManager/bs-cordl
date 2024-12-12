@@ -12,11 +12,10 @@ struct FileOptions;
 }
 // Write type traits
 MARK_VAL_T(::System::IO::FileOptions);
-// Type: System.IO::FileOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::IO {
 // Is value type: true
-// CS Name: ::System.IO::FileOptions
+// CS Name: System.IO.FileOptions
 struct CORDL_TYPE FileOptions {
 public:
   // Declarations
@@ -50,28 +49,25 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr FileOptions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Asynchronous value: static_cast<int32_t>(0x40000000)
+  /// @brief Field Asynchronous value: I32(1073741824)
   static ::System::IO::FileOptions const Asynchronous;
 
-  /// @brief Field DeleteOnClose value: static_cast<int32_t>(0x4000000)
+  /// @brief Field DeleteOnClose value: I32(67108864)
   static ::System::IO::FileOptions const DeleteOnClose;
 
-  /// @brief Field Encrypted value: static_cast<int32_t>(0x4000)
+  /// @brief Field Encrypted value: I32(16384)
   static ::System::IO::FileOptions const Encrypted;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::IO::FileOptions const None;
 
-  /// @brief Field RandomAccess value: static_cast<int32_t>(0x10000000)
+  /// @brief Field RandomAccess value: I32(268435456)
   static ::System::IO::FileOptions const RandomAccess;
 
-  /// @brief Field SequentialScan value: static_cast<int32_t>(0x8000000)
+  /// @brief Field SequentialScan value: I32(134217728)
   static ::System::IO::FileOptions const SequentialScan;
 
-  /// @brief Field WriteThrough value: static_cast<int32_t>(0x80000000)
+  /// @brief Field WriteThrough value: I32(-2147483648)
   static ::System::IO::FileOptions const WriteThrough;
 
   /// @brief IL2CPP Metadata Type Index
@@ -80,12 +76,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::IO::FileOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::IO::FileOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::IO::FileOptions, 0x4>, "Size mismatch!");
 
 } // namespace System::IO
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileOptions, "System.IO", "FileOptions");

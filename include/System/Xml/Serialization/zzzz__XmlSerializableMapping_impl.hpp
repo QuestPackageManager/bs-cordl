@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW, ::System::Xml::Serialization::TypeData*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializableMapping::_ctor)> {
   constexpr static std::size_t size = 0x75c;
-  constexpr static std::size_t addrs = 0x432df6c;
+  constexpr static std::size_t addrs = 0x438f280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ constexpr ::System::Xml::Schema::XmlSchema*& System::Xml::Serialization::XmlSeri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schema;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchema*> const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schema() const {
+constexpr ::System::Xml::Schema::XmlSchema* const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schema() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schema;
 }
@@ -42,7 +42,7 @@ constexpr ::System::Xml::Schema::XmlSchemaComplexType*& System::Xml::Serializati
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaComplexType*> const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schemaType() const {
+constexpr ::System::Xml::Schema::XmlSchemaComplexType* const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schemaType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaType;
 }
@@ -54,18 +54,13 @@ constexpr ::System::Xml::XmlQualifiedName*& System::Xml::Serialization::XmlSeria
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaTypeName;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schemaTypeName() const {
+constexpr ::System::Xml::XmlQualifiedName* const& System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_get__schemaTypeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaTypeName;
 }
 constexpr void System::Xml::Serialization::XmlSerializableMapping::__cordl_internal_set__schemaTypeName(::System::Xml::XmlQualifiedName* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____schemaTypeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Serialization::XmlSerializableMapping* System::Xml::Serialization::XmlSerializableMapping::New_ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName,
-                                                                                                                          ::StringW ns, ::System::Xml::Serialization::TypeData* typeData,
-                                                                                                                          ::StringW xmlType, ::StringW xmlTypeNamespace) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializableMapping*>(root, elementName, ns, typeData, xmlType, xmlTypeNamespace));
 }
 inline void System::Xml::Serialization::XmlSerializableMapping::_ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName, ::StringW ns,
                                                                       ::System::Xml::Serialization::TypeData* typeData, ::StringW xmlType, ::StringW xmlTypeNamespace) {
@@ -76,6 +71,11 @@ inline void System::Xml::Serialization::XmlSerializableMapping::_ctor(::System::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Serialization::TypeData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, root, elementName, ns, typeData, xmlType, xmlTypeNamespace);
+}
+inline ::System::Xml::Serialization::XmlSerializableMapping* System::Xml::Serialization::XmlSerializableMapping::New_ctor(::System::Xml::Serialization::XmlRootAttribute* root, ::StringW elementName,
+                                                                                                                          ::StringW ns, ::System::Xml::Serialization::TypeData* typeData,
+                                                                                                                          ::StringW xmlType, ::StringW xmlTypeNamespace) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializableMapping*>(root, elementName, ns, typeData, xmlType, xmlTypeNamespace));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlSerializableMapping::XmlSerializableMapping() {}

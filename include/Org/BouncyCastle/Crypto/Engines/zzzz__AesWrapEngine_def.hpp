@@ -11,17 +11,16 @@ class AesWrapEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::AesWrapEngine);
-// Type: Org.BouncyCastle.Crypto.Engines::AesWrapEngine
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Engines.Rfc3394WrapEngine
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Engines::AesWrapEngine*
+// CS Name: Org.BouncyCastle.Crypto.Engines.AesWrapEngine
 class CORDL_TYPE AesWrapEngine : public ::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine {
 public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Engines::AesWrapEngine* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23141b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23474a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

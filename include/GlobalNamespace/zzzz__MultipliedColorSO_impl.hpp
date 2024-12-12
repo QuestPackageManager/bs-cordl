@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MultipliedColorSO::*)()>(&::GlobalNamespace::MultipliedColorSO::get_color)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x266c378;
+  constexpr static std::size_t addrs = 0x26a0220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultipliedColorSO::*)()>(&::GlobalNamespace::MultipliedColorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c3c8;
+  constexpr static std::size_t addrs = 0x26a0270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedColorSO*>::get(), ".ctor",
@@ -61,13 +61,13 @@ inline ::UnityEngine::Color GlobalNamespace::MultipliedColorSO::get_color() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedColorSO*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultipliedColorSO* GlobalNamespace::MultipliedColorSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultipliedColorSO*>());
-}
 inline void GlobalNamespace::MultipliedColorSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedColorSO*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultipliedColorSO* GlobalNamespace::MultipliedColorSO::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultipliedColorSO*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultipliedColorSO::MultipliedColorSO() {}

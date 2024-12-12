@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_negativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_negativeInteger::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434b4c4;
+  constexpr static std::size_t addrs = 0x43ac7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_negativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_negativeInteger::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434b51c;
+  constexpr static std::size_t addrs = 0x43ac830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_negativeInteger::*)()>(
     &::System::Xml::Schema::Datatype_negativeInteger::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4342e88;
+  constexpr static std::size_t addrs = 0x43a419c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_negativeInteger*>::get(), ".ctor",
@@ -69,13 +69,13 @@ inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_negative
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_negativeInteger*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::Datatype_negativeInteger* System::Xml::Schema::Datatype_negativeInteger::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_negativeInteger*>());
-}
 inline void System::Xml::Schema::Datatype_negativeInteger::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_negativeInteger*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_negativeInteger* System::Xml::Schema::Datatype_negativeInteger::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_negativeInteger*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_negativeInteger::Datatype_negativeInteger() {}

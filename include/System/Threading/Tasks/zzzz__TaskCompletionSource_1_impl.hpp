@@ -11,8 +11,7 @@ template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____task;
 }
-template <typename TResult>
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TResult>*> const& System::Threading::Tasks::TaskCompletionSource_1<TResult>::__cordl_internal_get__task() const {
+template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>* const& System::Threading::Tasks::TaskCompletionSource_1<TResult>::__cordl_internal_get__task() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____task;
 }
@@ -20,19 +19,11 @@ template <typename TResult> constexpr void System::Threading::Tasks::TaskComplet
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____task, value);
 }
-template <typename TResult> inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>());
-}
 template <typename TResult> inline void System::Threading::Tasks::TaskCompletionSource_1<TResult>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>*
-System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(creationOptions));
 }
 template <typename TResult> inline void System::Threading::Tasks::TaskCompletionSource_1<TResult>::_ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,19 +31,11 @@ template <typename TResult> inline void System::Threading::Tasks::TaskCompletion
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, creationOptions);
 }
-template <typename TResult> inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Object* state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(state));
-}
 template <typename TResult> inline void System::Threading::Tasks::TaskCompletionSource_1<TResult>::_ctor(::System::Object* state) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
-}
-template <typename TResult>
-inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>*
-System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(state, creationOptions));
 }
 template <typename TResult> inline void System::Threading::Tasks::TaskCompletionSource_1<TResult>::_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,6 +97,22 @@ template <typename TResult> inline void System::Threading::Tasks::TaskCompletion
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>::get(), "SetCanceled",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TResult> inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>());
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>*
+System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(creationOptions));
+}
+template <typename TResult> inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Object* state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(state));
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>*
+System::Threading::Tasks::TaskCompletionSource_1<TResult>::New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskCompletionSource_1<TResult>*>(state, creationOptions));
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<TResult>::TaskCompletionSource_1() {}

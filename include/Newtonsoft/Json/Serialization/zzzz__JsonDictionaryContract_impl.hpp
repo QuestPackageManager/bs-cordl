@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::StringW, ::StringW>* (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_DictionaryKeyResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84fcc;
+  constexpr static std::size_t addrs = 0x3ee5078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(::System::Func_2<::StringW, ::StringW>*)>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::set_DictionaryKeyResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84fd4;
+  constexpr static std::size_t addrs = 0x3ee5080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_DictionaryKeyType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84fdc;
+  constexpr static std::size_t addrs = 0x3ee5088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_DictionaryValueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84fe4;
+  constexpr static std::size_t addrs = 0x3ee5090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_KeyContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84fec;
+  constexpr static std::size_t addrs = 0x3ee5098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(
     ::Newtonsoft::Json::Serialization::JsonContract*)>(&::Newtonsoft::Json::Serialization::JsonDictionaryContract::set_KeyContract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84ff4;
+  constexpr static std::size_t addrs = 0x3ee50a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_ShouldCreateWrapper)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e84ffc;
+  constexpr static std::size_t addrs = 0x3ee50a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(&::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_ParameterizedCreator)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e85004;
+  constexpr static std::size_t addrs = 0x3ee50b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (
     ::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(&::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_OverrideCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e850c4;
+  constexpr static std::size_t addrs = 0x3ee5170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(
     ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*)>(&::Newtonsoft::Json::Serialization::JsonDictionaryContract::set_OverrideCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e850cc;
+  constexpr static std::size_t addrs = 0x3ee5178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_HasParameterizedCreator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e850d4;
+  constexpr static std::size_t addrs = 0x3ee5180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(bool)>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::set_HasParameterizedCreator)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e850dc;
+  constexpr static std::size_t addrs = 0x3ee5188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::get_HasParameterizedCreatorInternal)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e850e8;
+  constexpr static std::size_t addrs = 0x3ee5194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(::System::Type*)>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::_ctor)> {
   constexpr static std::size_t size = 0x9c8;
-  constexpr static std::size_t addrs = 0x3e7dc20;
+  constexpr static std::size_t addrs = 0x3eddccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::IWrappedDictionary* (
     ::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::JsonDictionaryContract::CreateWrapper)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x3e85168;
+  constexpr static std::size_t addrs = 0x3ee5214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::Newtonsoft::Json::Serialization::JsonDictionaryContract::*)()>(
     &::Newtonsoft::Json::Serialization::JsonDictionaryContract::CreateTemporaryDictionary)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3e853f0;
+  constexpr static std::size_t addrs = 0x3ee549c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,8 +255,7 @@ constexpr ::System::Func_2<::StringW, ::StringW>*& Newtonsoft::Json::Serializati
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryKeyResolver_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const&
-Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryKeyResolver_k__BackingField() const {
+constexpr ::System::Func_2<::StringW, ::StringW>* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryKeyResolver_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryKeyResolver_k__BackingField;
 }
@@ -269,7 +268,7 @@ constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonDictionaryContra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryKeyType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryKeyType_k__BackingField() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryKeyType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryKeyType_k__BackingField;
 }
@@ -281,7 +280,7 @@ constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonDictionaryContra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryValueType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryValueType_k__BackingField() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__DictionaryValueType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DictionaryValueType_k__BackingField;
 }
@@ -294,8 +293,7 @@ constexpr ::Newtonsoft::Json::Serialization::JsonContract*& Newtonsoft::Json::Se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KeyContract_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const&
-Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__KeyContract_k__BackingField() const {
+constexpr ::Newtonsoft::Json::Serialization::JsonContract* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__KeyContract_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KeyContract_k__BackingField;
 }
@@ -307,7 +305,7 @@ constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonDictionaryContra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericCollectionDefinitionType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericCollectionDefinitionType() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericCollectionDefinitionType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericCollectionDefinitionType;
 }
@@ -319,7 +317,7 @@ constexpr ::System::Type*& Newtonsoft::Json::Serialization::JsonDictionaryContra
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericWrapperType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericWrapperType() const {
+constexpr ::System::Type* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericWrapperType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericWrapperType;
 }
@@ -331,7 +329,7 @@ constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericWrapperCreator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const&
 Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericWrapperCreator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericWrapperCreator;
@@ -344,8 +342,7 @@ constexpr ::System::Func_1<::System::Object*>*& Newtonsoft::Json::Serialization:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTemporaryDictionaryCreator;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const&
-Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericTemporaryDictionaryCreator() const {
+constexpr ::System::Func_1<::System::Object*>* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__genericTemporaryDictionaryCreator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____genericTemporaryDictionaryCreator;
 }
@@ -369,8 +366,7 @@ constexpr ::System::Reflection::ConstructorInfo*& Newtonsoft::Json::Serializatio
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterizedConstructor;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const&
-Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__parameterizedConstructor() const {
+constexpr ::System::Reflection::ConstructorInfo* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__parameterizedConstructor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterizedConstructor;
 }
@@ -382,8 +378,7 @@ constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideCreator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
-Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__overrideCreator() const {
+constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const& Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__overrideCreator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____overrideCreator;
 }
@@ -395,7 +390,7 @@ constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Objec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterizedCreator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const&
+constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* const&
 Newtonsoft::Json::Serialization::JsonDictionaryContract::__cordl_internal_get__parameterizedCreator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameterizedCreator;
@@ -486,9 +481,6 @@ inline bool Newtonsoft::Json::Serialization::JsonDictionaryContract::get_HasPara
                                                "get_HasParameterizedCreatorInternal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::Newtonsoft::Json::Serialization::JsonDictionaryContract* Newtonsoft::Json::Serialization::JsonDictionaryContract::New_ctor(::System::Type* underlyingType) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(underlyingType));
-}
 inline void Newtonsoft::Json::Serialization::JsonDictionaryContract::_ctor(::System::Type* underlyingType) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>::get(), ".ctor",
@@ -505,6 +497,9 @@ inline ::System::Collections::IDictionary* Newtonsoft::Json::Serialization::Json
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>::get(),
                                                                              "CreateTemporaryDictionary", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method);
+}
+inline ::Newtonsoft::Json::Serialization::JsonDictionaryContract* Newtonsoft::Json::Serialization::JsonDictionaryContract::New_ctor(::System::Type* underlyingType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Serialization::JsonDictionaryContract*>(underlyingType));
 }
 // Ctor Parameters []
 constexpr ::Newtonsoft::Json::Serialization::JsonDictionaryContract::JsonDictionaryContract() {}

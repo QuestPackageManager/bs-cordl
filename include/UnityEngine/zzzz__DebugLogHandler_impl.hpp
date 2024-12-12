@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/DebugLogHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/zzzz__ILogHandler_impl.hpp"
 #include "UnityEngine/zzzz__DebugLogHandler_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__ILogHandler_def.hpp"
 #include "UnityEngine/zzzz__LogOption_def.hpp"
 #include "UnityEngine/zzzz__LogType_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LogType, ::UnityEngine::LogOption, ::StringW, ::UnityEngine::Object*)>(
     &::UnityEngine::DebugLogHandler::Internal_Log)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4808590;
+  constexpr static std::size_t addrs = 0x486a130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::UnityEngine::Object*)>(&::UnityEngine::DebugLogHandler::Internal_LogException)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48085ec;
+  constexpr static std::size_t addrs = 0x486a18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DebugLogHandler::*)(
     ::UnityEngine::LogType, ::UnityEngine::Object*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::UnityEngine::DebugLogHandler::LogFormat)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4808630;
+  constexpr static std::size_t addrs = 0x486a1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DebugLogHandler::*)(::System::Exception*, ::UnityEngine::Object*)>(
     &::UnityEngine::DebugLogHandler::LogException)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4808698;
+  constexpr static std::size_t addrs = 0x486a238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DebugLogHandler::*)()>(&::UnityEngine::DebugLogHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4808728;
+  constexpr static std::size_t addrs = 0x486a2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DebugLogHandler*>::get(), ".ctor",
@@ -87,14 +87,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::UnityEngine::ILogHandler"
-constexpr UnityEngine::DebugLogHandler::operator ::UnityEngine::ILogHandler*() noexcept {
-  return static_cast<::UnityEngine::ILogHandler*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ILogHandler"
-constexpr ::UnityEngine::ILogHandler* UnityEngine::DebugLogHandler::i___UnityEngine__ILogHandler() noexcept {
-  return static_cast<::UnityEngine::ILogHandler*>(static_cast<void*>(this));
-}
 inline void UnityEngine::DebugLogHandler::Internal_Log(::UnityEngine::LogType level, ::UnityEngine::LogOption options, ::StringW msg, ::UnityEngine::Object* obj) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DebugLogHandler*>::get(), "Internal_Log", std::span<Il2CppClass const* const, 0>(),
@@ -126,13 +118,21 @@ inline void UnityEngine::DebugLogHandler::LogException(::System::Exception* exce
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, exception, context);
 }
-inline ::UnityEngine::DebugLogHandler* UnityEngine::DebugLogHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::DebugLogHandler*>());
-}
 inline void UnityEngine::DebugLogHandler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DebugLogHandler*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::DebugLogHandler* UnityEngine::DebugLogHandler::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::DebugLogHandler*>());
+}
+/// @brief Convert operator to "::UnityEngine::ILogHandler"
+constexpr UnityEngine::DebugLogHandler::operator ::UnityEngine::ILogHandler*() noexcept {
+  return static_cast<::UnityEngine::ILogHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ILogHandler"
+constexpr ::UnityEngine::ILogHandler* UnityEngine::DebugLogHandler::i___UnityEngine__ILogHandler() noexcept {
+  return static_cast<::UnityEngine::ILogHandler*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::DebugLogHandler::DebugLogHandler() {}

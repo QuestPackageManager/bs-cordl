@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightAxis_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TransformSpectrogram)
 namespace GlobalNamespace {
@@ -24,11 +23,10 @@ class TransformSpectrogram;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TransformSpectrogram);
-// Type: ::TransformSpectrogram
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies LightAxis, UnityEngine.MonoBehaviour, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TransformSpectrogram*
+// CS Name: TransformSpectrogram
 class CORDL_TYPE TransformSpectrogram : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -60,12 +58,12 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Awake, addr 0x3b39d80, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b9b360, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x3b39f08, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b9b4e8, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -122,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b3a170, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9b750, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,6 +136,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TransformSpectrogram(TransformSpectrogram const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4374 };
 
   /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
@@ -166,14 +167,9 @@ public:
   /// @brief Field _defaultPositions, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____defaultPositions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4362 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransformSpectrogram, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____transforms) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____axis) == 0x28, "Offset mismatch!");
@@ -191,6 +187,8 @@ static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____spectrogramD
 static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____direction) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TransformSpectrogram, ____defaultPositions) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TransformSpectrogram, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TransformSpectrogram);

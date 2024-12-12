@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(::System::IO::Stream*, bool)>(
     &::System::Net::Security::AuthenticatedStream::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x43a34e0;
+  constexpr static std::size_t addrs = 0x44047f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::Security::AuthenticatedStream::*)()>(
     &::System::Net::Security::AuthenticatedStream::get_InnerStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43a3670;
+  constexpr static std::size_t addrs = 0x4404984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::AuthenticatedStream::*)(bool)>(
     &::System::Net::Security::AuthenticatedStream::Dispose)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x43a3678;
+  constexpr static std::size_t addrs = 0x440498c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,26 +48,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::Security::AuthenticatedStream.get_IsAuthenticated
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Security::AuthenticatedStream::*)()>(
-    &::System::Net::Security::AuthenticatedStream::get_IsAuthenticated)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0x0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(), 42));
-    return ___internal_method;
-  }
-};
 constexpr ::System::IO::Stream*& System::Net::Security::AuthenticatedStream::__cordl_internal_get__InnerStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InnerStream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& System::Net::Security::AuthenticatedStream::__cordl_internal_get__InnerStream() const {
+constexpr ::System::IO::Stream* const& System::Net::Security::AuthenticatedStream::__cordl_internal_get__InnerStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____InnerStream;
 }
@@ -86,9 +71,6 @@ constexpr bool const& System::Net::Security::AuthenticatedStream::__cordl_intern
 constexpr void System::Net::Security::AuthenticatedStream::__cordl_internal_set__LeaveStreamOpen(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LeaveStreamOpen = value;
-}
-inline ::System::Net::Security::AuthenticatedStream* System::Net::Security::AuthenticatedStream::New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Security::AuthenticatedStream*>(innerStream, leaveInnerStreamOpen));
 }
 inline void System::Net::Security::AuthenticatedStream::_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,6 +92,9 @@ inline bool System::Net::Security::AuthenticatedStream::get_IsAuthenticated() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::AuthenticatedStream*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Net::Security::AuthenticatedStream* System::Net::Security::AuthenticatedStream::New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Security::AuthenticatedStream*>(innerStream, leaveInnerStreamOpen));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Security::AuthenticatedStream::AuthenticatedStream() {}

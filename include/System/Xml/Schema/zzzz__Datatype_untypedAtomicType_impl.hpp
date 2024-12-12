@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_untypedAtomicType::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_untypedAtomicType::CreateValueConverter)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434769c;
+  constexpr static std::size_t addrs = 0x43a89b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(
     &::System::Xml::Schema::Datatype_untypedAtomicType::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43476f4;
+  constexpr static std::size_t addrs = 0x43a8a08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(
     &::System::Xml::Schema::Datatype_untypedAtomicType::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43476fc;
+  constexpr static std::size_t addrs = 0x43a8a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_untypedAtomicType::*)()>(
     &::System::Xml::Schema::Datatype_untypedAtomicType::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43434f4;
+  constexpr static std::size_t addrs = 0x43a4808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_untypedAtomicType*>::get(),
@@ -83,13 +83,13 @@ inline ::System::Xml::Schema::XmlTypeCode System::Xml::Schema::Datatype_untypedA
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_untypedAtomicType*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlTypeCode, false>(this, ___internal_method);
 }
-inline ::System::Xml::Schema::Datatype_untypedAtomicType* System::Xml::Schema::Datatype_untypedAtomicType::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_untypedAtomicType*>());
-}
 inline void System::Xml::Schema::Datatype_untypedAtomicType::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_untypedAtomicType*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::Datatype_untypedAtomicType* System::Xml::Schema::Datatype_untypedAtomicType::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Datatype_untypedAtomicType*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Datatype_untypedAtomicType::Datatype_untypedAtomicType() {}

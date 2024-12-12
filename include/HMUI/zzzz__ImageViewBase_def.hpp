@@ -14,11 +14,10 @@ class ImageViewBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ImageViewBase);
-// Type: HMUI::ImageViewBase
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UI.Image
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ImageViewBase*
+// CS Name: HMUI.ImageViewBase
 class CORDL_TYPE ImageViewBase : public ::UnityEngine::UI::Image {
 public:
   // Declarations
@@ -30,25 +29,25 @@ public:
 
   static inline ::HMUI::ImageViewBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39a251c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f918c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color0, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_color0, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color0();
 
-  /// @brief Method get_color1, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_color1, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color1();
 
-  /// @brief Method get_gradient, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_gradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_gradient();
 
-  /// @brief Method set_color0, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_color0, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_color0(::UnityEngine::Color value);
 
-  /// @brief Method set_color1, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_color1, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_color1(::UnityEngine::Color value);
 
-  /// @brief Method set_gradient, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_gradient, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_gradient(bool value);
 
 protected:
@@ -66,7 +65,7 @@ public:
   ImageViewBase(ImageViewBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

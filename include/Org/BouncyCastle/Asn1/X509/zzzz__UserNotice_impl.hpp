@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::UserNotice::*)(
     ::Org::BouncyCastle::Asn1::X509::NoticeReference*, ::Org::BouncyCastle::Asn1::X509::DisplayText*)>(&::Org::BouncyCastle::Asn1::X509::UserNotice::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25dd7f8;
+  constexpr static std::size_t addrs = 0x2610ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::UserNotice::*)(::Org::BouncyCastle::Asn1::X509::NoticeReference*, ::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25dd824;
+  constexpr static std::size_t addrs = 0x2610b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::UserNotice::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::_ctor)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x25dd898;
+  constexpr static std::size_t addrs = 0x2610b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::UserNotice* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x25dda94;
+  constexpr static std::size_t addrs = 0x2610d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::NoticeReference* (::Org::BouncyCastle::Asn1::X509::UserNotice::*)()>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::get_NoticeRef)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ddb38;
+  constexpr static std::size_t addrs = 0x2610e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::DisplayText* (::Org::BouncyCastle::Asn1::X509::UserNotice::*)()>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::get_ExplicitText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ddb40;
+  constexpr static std::size_t addrs = 0x2610e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::UserNotice::*)()>(
     &::Org::BouncyCastle::Asn1::X509::UserNotice::ToAsn1Object)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x25ddb48;
+  constexpr static std::size_t addrs = 0x2610e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference*& Org::BouncyCastle::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noticeRef;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NoticeReference*> const& Org::BouncyCastle::Asn1::X509::UserNotice::__cordl_internal_get_noticeRef() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference* const& Org::BouncyCastle::Asn1::X509::UserNotice::__cordl_internal_get_noticeRef() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noticeRef;
 }
@@ -130,17 +130,13 @@ constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& Org::BouncyCastle::Asn1
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___explicitText;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& Org::BouncyCastle::Asn1::X509::UserNotice::__cordl_internal_get_explicitText() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText* const& Org::BouncyCastle::Asn1::X509::UserNotice::__cordl_internal_get_explicitText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___explicitText;
 }
 constexpr void Org::BouncyCastle::Asn1::X509::UserNotice::__cordl_internal_set_explicitText(::Org::BouncyCastle::Asn1::X509::DisplayText* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___explicitText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef,
-                                                                                                        ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(noticeRef, explicitText));
 }
 inline void Org::BouncyCastle::Asn1::X509::UserNotice::_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -149,18 +145,12 @@ inline void Org::BouncyCastle::Asn1::X509::UserNotice::_ctor(::Org::BouncyCastle
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::DisplayText*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noticeRef, explicitText);
 }
-inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(noticeRef, str));
-}
 inline void Org::BouncyCastle::Asn1::X509::UserNotice::_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::UserNotice*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::NoticeReference*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, noticeRef, str);
-}
-inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::X509::UserNotice::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -188,6 +178,16 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Use
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::UserNotice*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef,
+                                                                                                        ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(noticeRef, explicitText));
+}
+inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::StringW str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(noticeRef, str));
+}
+inline ::Org::BouncyCastle::Asn1::X509::UserNotice* Org::BouncyCastle::Asn1::X509::UserNotice::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::UserNotice*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::UserNotice::UserNotice() {}

@@ -1,26 +1,25 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingOverride.hpp"
-#include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingOverride_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling::__ReflectionProbeBakingOverride__ActiveStateHandling(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::ReflectionProbeBakingOverride_ActiveStateHandling(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling::__ReflectionProbeBakingOverride__ActiveStateHandling() {}
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling::LeaveAsIs{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling::Enable{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling::Disable{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::ReflectionProbeBakingOverride_ActiveStateHandling() {}
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::LeaveAsIs{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::Enable{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling::Disable{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::ReflectionProbeBakingOverride.UpdateForProbeBaking
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReflectionProbeBakingOverride::*)()>(
     &::GlobalNamespace::ReflectionProbeBakingOverride::UpdateForProbeBaking)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3ab7f10;
+  constexpr static std::size_t addrs = 0x3b14e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeBakingOverride*>::get(),
@@ -34,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReflectionProbeBakingOverride::*)()>(
     &::GlobalNamespace::ReflectionProbeBakingOverride::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ab7ff8;
+  constexpr static std::size_t addrs = 0x3b14f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeBakingOverride*>::get(),
@@ -42,15 +41,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling& GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_get__stateHandling() {
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling& GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_get__stateHandling() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateHandling;
 }
-constexpr ::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling const& GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_get__stateHandling() const {
+constexpr ::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling const& GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_get__stateHandling() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stateHandling;
 }
-constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value) {
+constexpr void GlobalNamespace::ReflectionProbeBakingOverride::__cordl_internal_set__stateHandling(::GlobalNamespace::ReflectionProbeBakingOverride_ActiveStateHandling value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____stateHandling = value;
 }
@@ -131,13 +130,13 @@ inline void GlobalNamespace::ReflectionProbeBakingOverride::UpdateForProbeBaking
                                                                              "UpdateForProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ReflectionProbeBakingOverride* GlobalNamespace::ReflectionProbeBakingOverride::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ReflectionProbeBakingOverride*>());
-}
 inline void GlobalNamespace::ReflectionProbeBakingOverride::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeBakingOverride*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::ReflectionProbeBakingOverride* GlobalNamespace::ReflectionProbeBakingOverride::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ReflectionProbeBakingOverride*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ReflectionProbeBakingOverride::ReflectionProbeBakingOverride() {}

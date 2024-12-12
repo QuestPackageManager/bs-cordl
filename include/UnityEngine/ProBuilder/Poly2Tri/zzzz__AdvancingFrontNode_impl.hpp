@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46970bc;
+  constexpr static std::size_t addrs = 0x46f83d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46970f4;
+  constexpr static std::size_t addrs = 0x46f8408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4697104;
+  constexpr static std::size_t addrs = 0x46f8418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>::get(),
@@ -51,8 +51,7 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& UnityEngine:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const&
-UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Next() const {
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
@@ -64,8 +63,7 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& UnityEngine:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prev;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const&
-UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Prev() const {
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* const& UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Prev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Prev;
 }
@@ -89,8 +87,7 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& UnityEngine:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Point;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const&
-UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Point() const {
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* const& UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Point() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Point;
 }
@@ -102,17 +99,13 @@ constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& UnityEngine::P
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Triangle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const&
-UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Triangle() const {
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* const& UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_get_Triangle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Triangle;
 }
 constexpr void UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::__cordl_internal_set_Triangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Triangle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(point));
 }
 inline void UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,6 +122,9 @@ inline bool UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev()
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>::get(),
                                                                              "get_HasPrev", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*>(point));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::AdvancingFrontNode() {}

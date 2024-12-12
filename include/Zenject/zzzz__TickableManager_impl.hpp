@@ -16,549 +16,549 @@
 #include "Zenject/zzzz__LateTickablesTaskUpdater_def.hpp"
 #include "Zenject/zzzz__TickableManager_def.hpp"
 #include "Zenject/zzzz__TickablesTaskUpdater_def.hpp"
-//  Writing Method size for method: ::Zenject::__TickableManager____c._ctor
+//  Writing Method size for method: ::Zenject::TickableManager___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__TickableManager____c::*)()>(&::Zenject::__TickableManager____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager___c::*)()>(&::Zenject::TickableManager___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeae10;
+  constexpr static std::size_t addrs = 0x4b4f720;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitFixedTickables_b__17_0
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitFixedTickables_b__17_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitFixedTickables_b__17_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitFixedTickables_b__17_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae18;
+  constexpr static std::size_t addrs = 0x4b4f728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitFixedTickables>b__17_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitFixedTickables>b__17_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitFixedTickables_b__17_2
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitFixedTickables_b__17_2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitFixedTickables_b__17_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitFixedTickables_b__17_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae30;
+  constexpr static std::size_t addrs = 0x4b4f740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitFixedTickables>b__17_2", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitFixedTickables>b__17_2", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitTickables_b__18_0
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitTickables_b__18_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitTickables_b__18_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitTickables_b__18_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae48;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitTickables>b__18_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitTickables_b__18_2
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitTickables_b__18_2)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae60;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitTickables>b__18_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitLateTickables_b__19_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitLateTickables_b__19_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae78;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitLateTickables>b__19_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::__TickableManager____c._InitLateTickables_b__19_2
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__TickableManager____c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
-    &::Zenject::__TickableManager____c::_InitLateTickables_b__19_2)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeae90;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitLateTickables>b__19_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Zenject::__TickableManager____c.__zenCreate
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__TickableManager____c::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aeaea8;
+  constexpr static std::size_t addrs = 0x4b4f758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitTickables>b__18_0", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitTickables_b__18_2
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitTickables_b__18_2)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x4b4f770;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitTickables>b__18_2", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitLateTickables_b__19_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitLateTickables_b__19_0)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x4b4f788;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitLateTickables>b__19_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::TickableManager___c._InitLateTickables_b__19_2
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::TickableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
+    &::Zenject::TickableManager___c::_InitLateTickables_b__19_2)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x4b4f7a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitLateTickables>b__19_2", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Zenject::TickableManager___c.__zenCreate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
+    &::Zenject::TickableManager___c::__zenCreate)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x4b4f7b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::TickableManager___c.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__TickableManager____c::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TickableManager___c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aeaefc;
+  constexpr static std::size_t addrs = 0x4b4f80c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline void Zenject::__TickableManager____c::setStaticF___9(::Zenject::__TickableManager____c* value) {
-  ::cordl_internals::setStaticField<::Zenject::__TickableManager____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
-      std::forward<::Zenject::__TickableManager____c*>(value));
+inline void Zenject::TickableManager___c::setStaticF___9(::Zenject::TickableManager___c* value) {
+  ::cordl_internals::setStaticField<::Zenject::TickableManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
+      std::forward<::Zenject::TickableManager___c*>(value));
 }
-inline ::Zenject::__TickableManager____c* Zenject::__TickableManager____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::Zenject::__TickableManager____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+inline ::Zenject::TickableManager___c* Zenject::TickableManager___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::Zenject::TickableManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__17_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__17_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__17_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::__TickableManager____c::getStaticF___9__17_0() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::TickableManager___c::getStaticF___9__17_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__17_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__17_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__17_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__17_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::__TickableManager____c::getStaticF___9__17_2() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::TickableManager___c::getStaticF___9__17_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__17_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__18_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__18_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__18_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::__TickableManager____c::getStaticF___9__18_0() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::TickableManager___c::getStaticF___9__18_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__18_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__18_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__18_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__18_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::__TickableManager____c::getStaticF___9__18_2() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::TickableManager___c::getStaticF___9__18_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__18_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__19_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__19_0(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__19_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::__TickableManager____c::getStaticF___9__19_0() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>* Zenject::TickableManager___c::getStaticF___9__19_0() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, ::System::Type*>*, "<>9__19_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline void Zenject::__TickableManager____c::setStaticF___9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
+inline void Zenject::TickableManager___c::setStaticF___9__19_2(::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* value) {
   ::cordl_internals::setStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__19_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>(
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>(
       std::forward<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*>(value));
 }
-inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::__TickableManager____c::getStaticF___9__19_2() {
+inline ::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>* Zenject::TickableManager___c::getStaticF___9__19_2() {
   return ::cordl_internals::getStaticField<::System::Func_2<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*, int32_t>*, "<>9__19_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get>();
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get>();
 }
-inline ::Zenject::__TickableManager____c* Zenject::__TickableManager____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__TickableManager____c*>());
-}
-inline void Zenject::__TickableManager____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), ".ctor",
+inline void Zenject::TickableManager___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Type* Zenject::__TickableManager____c::_InitFixedTickables_b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline ::System::Type* Zenject::TickableManager___c::_InitFixedTickables_b__17_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitFixedTickables>b__17_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitFixedTickables>b__17_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, x);
 }
-inline int32_t Zenject::__TickableManager____c::_InitFixedTickables_b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline int32_t Zenject::TickableManager___c::_InitFixedTickables_b__17_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitFixedTickables>b__17_2", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitFixedTickables>b__17_2", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::System::Type* Zenject::__TickableManager____c::_InitTickables_b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline ::System::Type* Zenject::TickableManager___c::_InitTickables_b__18_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitTickables>b__18_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitTickables>b__18_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, x);
 }
-inline int32_t Zenject::__TickableManager____c::_InitTickables_b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline int32_t Zenject::TickableManager___c::_InitTickables_b__18_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitTickables>b__18_2", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitTickables>b__18_2", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::System::Type* Zenject::__TickableManager____c::_InitLateTickables_b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitLateTickables>b__19_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+inline ::System::Type* Zenject::TickableManager___c::_InitLateTickables_b__19_0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitLateTickables>b__19_0", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, x);
 }
-inline int32_t Zenject::__TickableManager____c::_InitLateTickables_b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "<InitLateTickables>b__19_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
+inline int32_t Zenject::TickableManager___c::_InitLateTickables_b__19_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "<InitLateTickables>b__19_2", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__TickableManager____c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::TickableManager___c::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__TickableManager____c::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::TickableManager___c::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::TickableManager___c* Zenject::TickableManager___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager___c*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__TickableManager____c::__TickableManager____c() {}
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass17_0._ctor
+constexpr ::Zenject::TickableManager___c::TickableManager___c() {}
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass17_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__TickableManager____c__DisplayClass17_0::*)()>(
-    &::Zenject::__TickableManager____c__DisplayClass17_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager___c__DisplayClass17_0::*)()>(
+    &::Zenject::TickableManager___c__DisplayClass17_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae9ad8;
+  constexpr static std::size_t addrs = 0x4b4e3e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass17_0._InitFixedTickables_b__1
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass17_0._InitFixedTickables_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__TickableManager____c__DisplayClass17_0::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__TickableManager____c__DisplayClass17_0::_InitFixedTickables_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::TickableManager___c__DisplayClass17_0::*)(
+    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::TickableManager___c__DisplayClass17_0::_InitFixedTickables_b__1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aeb0b4;
+  constexpr static std::size_t addrs = 0x4b4f9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(), "<InitFixedTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(), "<InitFixedTickables>b__1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass17_0.__zenCreate
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass17_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__TickableManager____c__DisplayClass17_0::__zenCreate)> {
+    &::Zenject::TickableManager___c__DisplayClass17_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aeb134;
+  constexpr static std::size_t addrs = 0x4b4fa44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass17_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass17_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__TickableManager____c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TickableManager___c__DisplayClass17_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aeb188;
+  constexpr static std::size_t addrs = 0x4b4fa98;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::IFixedTickable*& Zenject::__TickableManager____c__DisplayClass17_0::__cordl_internal_get_tickable() {
+constexpr ::Zenject::IFixedTickable*& Zenject::TickableManager___c__DisplayClass17_0::__cordl_internal_get_tickable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IFixedTickable*> const& Zenject::__TickableManager____c__DisplayClass17_0::__cordl_internal_get_tickable() const {
+constexpr ::Zenject::IFixedTickable* const& Zenject::TickableManager___c__DisplayClass17_0::__cordl_internal_get_tickable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr void Zenject::__TickableManager____c__DisplayClass17_0::__cordl_internal_set_tickable(::Zenject::IFixedTickable* value) {
+constexpr void Zenject::TickableManager___c__DisplayClass17_0::__cordl_internal_set_tickable(::Zenject::IFixedTickable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__TickableManager____c__DisplayClass17_0* Zenject::__TickableManager____c__DisplayClass17_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__TickableManager____c__DisplayClass17_0*>());
-}
-inline void Zenject::__TickableManager____c__DisplayClass17_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::TickableManager___c__DisplayClass17_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__TickableManager____c__DisplayClass17_0::_InitFixedTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline bool Zenject::TickableManager___c__DisplayClass17_0::_InitFixedTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(), "<InitFixedTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(), "<InitFixedTickables>b__1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__TickableManager____c__DisplayClass17_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::TickableManager___c__DisplayClass17_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__TickableManager____c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass17_0*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::TickableManager___c__DisplayClass17_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass17_0*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::TickableManager___c__DisplayClass17_0* Zenject::TickableManager___c__DisplayClass17_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager___c__DisplayClass17_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__TickableManager____c__DisplayClass17_0::__TickableManager____c__DisplayClass17_0() {}
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass18_0._ctor
+constexpr ::Zenject::TickableManager___c__DisplayClass17_0::TickableManager___c__DisplayClass17_0() {}
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass18_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__TickableManager____c__DisplayClass18_0::*)()>(
-    &::Zenject::__TickableManager____c__DisplayClass18_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager___c__DisplayClass18_0::*)()>(
+    &::Zenject::TickableManager___c__DisplayClass18_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae9ae0;
+  constexpr static std::size_t addrs = 0x4b4e3f0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass18_0._InitTickables_b__1
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass18_0._InitTickables_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__TickableManager____c__DisplayClass18_0::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__TickableManager____c__DisplayClass18_0::_InitTickables_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::TickableManager___c__DisplayClass18_0::*)(
+    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::TickableManager___c__DisplayClass18_0::_InitTickables_b__1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aeb340;
+  constexpr static std::size_t addrs = 0x4b4fc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(), "<InitTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(), "<InitTickables>b__1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass18_0.__zenCreate
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass18_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__TickableManager____c__DisplayClass18_0::__zenCreate)> {
+    &::Zenject::TickableManager___c__DisplayClass18_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aeb3c0;
+  constexpr static std::size_t addrs = 0x4b4fcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass18_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass18_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__TickableManager____c__DisplayClass18_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TickableManager___c__DisplayClass18_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aeb414;
+  constexpr static std::size_t addrs = 0x4b4fd24;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::ITickable*& Zenject::__TickableManager____c__DisplayClass18_0::__cordl_internal_get_tickable() {
+constexpr ::Zenject::ITickable*& Zenject::TickableManager___c__DisplayClass18_0::__cordl_internal_get_tickable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::ITickable*> const& Zenject::__TickableManager____c__DisplayClass18_0::__cordl_internal_get_tickable() const {
+constexpr ::Zenject::ITickable* const& Zenject::TickableManager___c__DisplayClass18_0::__cordl_internal_get_tickable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr void Zenject::__TickableManager____c__DisplayClass18_0::__cordl_internal_set_tickable(::Zenject::ITickable* value) {
+constexpr void Zenject::TickableManager___c__DisplayClass18_0::__cordl_internal_set_tickable(::Zenject::ITickable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__TickableManager____c__DisplayClass18_0* Zenject::__TickableManager____c__DisplayClass18_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__TickableManager____c__DisplayClass18_0*>());
-}
-inline void Zenject::__TickableManager____c__DisplayClass18_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::TickableManager___c__DisplayClass18_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__TickableManager____c__DisplayClass18_0::_InitTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline bool Zenject::TickableManager___c__DisplayClass18_0::_InitTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(), "<InitTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(), "<InitTickables>b__1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__TickableManager____c__DisplayClass18_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::TickableManager___c__DisplayClass18_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__TickableManager____c__DisplayClass18_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass18_0*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::TickableManager___c__DisplayClass18_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass18_0*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::TickableManager___c__DisplayClass18_0* Zenject::TickableManager___c__DisplayClass18_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager___c__DisplayClass18_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__TickableManager____c__DisplayClass18_0::__TickableManager____c__DisplayClass18_0() {}
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass19_0._ctor
+constexpr ::Zenject::TickableManager___c__DisplayClass18_0::TickableManager___c__DisplayClass18_0() {}
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass19_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__TickableManager____c__DisplayClass19_0::*)()>(
-    &::Zenject::__TickableManager____c__DisplayClass19_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager___c__DisplayClass19_0::*)()>(
+    &::Zenject::TickableManager___c__DisplayClass19_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae9ae8;
+  constexpr static std::size_t addrs = 0x4b4e3f8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass19_0._InitLateTickables_b__1
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass19_0._InitLateTickables_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::__TickableManager____c__DisplayClass19_0::*)(
-    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::__TickableManager____c__DisplayClass19_0::_InitLateTickables_b__1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::TickableManager___c__DisplayClass19_0::*)(
+    ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::TickableManager___c__DisplayClass19_0::_InitLateTickables_b__1)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aeb5cc;
+  constexpr static std::size_t addrs = 0x4b4fedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(), "<InitLateTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(), "<InitLateTickables>b__1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass19_0.__zenCreate
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass19_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__TickableManager____c__DisplayClass19_0::__zenCreate)> {
+    &::Zenject::TickableManager___c__DisplayClass19_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4aeb64c;
+  constexpr static std::size_t addrs = 0x4b4ff5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__TickableManager____c__DisplayClass19_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::TickableManager___c__DisplayClass19_0.__zenCreateInjectTypeInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__TickableManager____c__DisplayClass19_0::__zenCreateInjectTypeInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TickableManager___c__DisplayClass19_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4aeb6a0;
+  constexpr static std::size_t addrs = 0x4b4ffb0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(),
                                                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::ILateTickable*& Zenject::__TickableManager____c__DisplayClass19_0::__cordl_internal_get_tickable() {
+constexpr ::Zenject::ILateTickable*& Zenject::TickableManager___c__DisplayClass19_0::__cordl_internal_get_tickable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateTickable*> const& Zenject::__TickableManager____c__DisplayClass19_0::__cordl_internal_get_tickable() const {
+constexpr ::Zenject::ILateTickable* const& Zenject::TickableManager___c__DisplayClass19_0::__cordl_internal_get_tickable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tickable;
 }
-constexpr void Zenject::__TickableManager____c__DisplayClass19_0::__cordl_internal_set_tickable(::Zenject::ILateTickable* value) {
+constexpr void Zenject::TickableManager___c__DisplayClass19_0::__cordl_internal_set_tickable(::Zenject::ILateTickable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__TickableManager____c__DisplayClass19_0* Zenject::__TickableManager____c__DisplayClass19_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__TickableManager____c__DisplayClass19_0*>());
-}
-inline void Zenject::__TickableManager____c__DisplayClass19_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void Zenject::TickableManager___c__DisplayClass19_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool Zenject::__TickableManager____c__DisplayClass19_0::_InitLateTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
+inline bool Zenject::TickableManager___c__DisplayClass19_0::_InitLateTickables_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(), "<InitLateTickables>b__1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(), "<InitLateTickables>b__1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::System::Object* Zenject::__TickableManager____c__DisplayClass19_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::TickableManager___c__DisplayClass19_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__TickableManager____c__DisplayClass19_0::__zenCreateInjectTypeInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__TickableManager____c__DisplayClass19_0*>::get(),
+inline ::Zenject::InjectTypeInfo* Zenject::TickableManager___c__DisplayClass19_0::__zenCreateInjectTypeInfo() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager___c__DisplayClass19_0*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::TickableManager___c__DisplayClass19_0* Zenject::TickableManager___c__DisplayClass19_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager___c__DisplayClass19_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__TickableManager____c__DisplayClass19_0::__TickableManager____c__DisplayClass19_0() {}
+constexpr ::Zenject::TickableManager___c__DisplayClass19_0::TickableManager___c__DisplayClass19_0() {}
 //  Writing Method size for method: ::Zenject::TickableManager._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4ae832c;
+  constexpr static std::size_t addrs = 0x4b4cc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), ".ctor",
@@ -572,7 +572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::ITickable*>* (::Zenject::TickableManager::*)()>(
     &::Zenject::TickableManager::get_Tickables)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae83e0;
+  constexpr static std::size_t addrs = 0x4b4ccf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "get_Tickables",
@@ -585,7 +585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::get_IsPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae83e8;
+  constexpr static std::size_t addrs = 0x4b4ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "get_IsPaused",
@@ -598,7 +598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(bool)>(&::Zenject::TickableManager::set_IsPaused)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ae83f0;
+  constexpr static std::size_t addrs = 0x4b4cd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -612,7 +612,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::Initialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4ae83fc;
+  constexpr static std::size_t addrs = 0x4b4cd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "Initialize",
@@ -625,7 +625,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::InitFixedTickables)> {
   constexpr static std::size_t size = 0x794;
-  constexpr static std::size_t addrs = 0x4ae8bb0;
+  constexpr static std::size_t addrs = 0x4b4d4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "InitFixedTickables",
@@ -638,7 +638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::InitTickables)> {
   constexpr static std::size_t size = 0x794;
-  constexpr static std::size_t addrs = 0x4ae841c;
+  constexpr static std::size_t addrs = 0x4b4cd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "InitTickables",
@@ -651,7 +651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::InitLateTickables)> {
   constexpr static std::size_t size = 0x794;
-  constexpr static std::size_t addrs = 0x4ae9344;
+  constexpr static std::size_t addrs = 0x4b4dc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "InitLateTickables",
@@ -664,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ITickable*, int32_t)>(&::Zenject::TickableManager::Add)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ae9af0;
+  constexpr static std::size_t addrs = 0x4b4e400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -679,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ITickable*)>(&::Zenject::TickableManager::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae9b58;
+  constexpr static std::size_t addrs = 0x4b4e468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -693,7 +693,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ILateTickable*, int32_t)>(&::Zenject::TickableManager::AddLate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ae9b60;
+  constexpr static std::size_t addrs = 0x4b4e470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -708,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ILateTickable*)>(&::Zenject::TickableManager::AddLate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ae9bc8;
+  constexpr static std::size_t addrs = 0x4b4e4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -722,7 +722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::IFixedTickable*, int32_t)>(&::Zenject::TickableManager::AddFixed)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ae9bd0;
+  constexpr static std::size_t addrs = 0x4b4e4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::IFixedTickable*)>(&::Zenject::TickableManager::AddFixed)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ae9c38;
+  constexpr static std::size_t addrs = 0x4b4e548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -751,7 +751,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ITickable*)>(&::Zenject::TickableManager::Remove)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ae9c94;
+  constexpr static std::size_t addrs = 0x4b4e5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -765,7 +765,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::ILateTickable*)>(&::Zenject::TickableManager::RemoveLate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ae9cec;
+  constexpr static std::size_t addrs = 0x4b4e5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,7 +779,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)(::Zenject::IFixedTickable*)>(&::Zenject::TickableManager::RemoveFixed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ae9d44;
+  constexpr static std::size_t addrs = 0x4b4e654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -793,7 +793,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::Update)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ae3920;
+  constexpr static std::size_t addrs = 0x4b48230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "Update",
@@ -806,7 +806,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::FixedUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ae3a60;
+  constexpr static std::size_t addrs = 0x4b48370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "FixedUpdate",
@@ -819,7 +819,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TickableManager::*)()>(&::Zenject::TickableManager::LateUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4ae39c0;
+  constexpr static std::size_t addrs = 0x4b482d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "LateUpdate",
@@ -833,7 +833,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::TickableManager::__zenCreate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4ae9d9c;
+  constexpr static std::size_t addrs = 0x4b4e6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -847,7 +847,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter0)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4ae9dec;
+  constexpr static std::size_t addrs = 0x4b4e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -862,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter1)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4ae9f20;
+  constexpr static std::size_t addrs = 0x4b4e830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -877,7 +877,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter2)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4aea054;
+  constexpr static std::size_t addrs = 0x4b4e964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter3)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4aea188;
+  constexpr static std::size_t addrs = 0x4b4ea98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -907,7 +907,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter4)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4aea2bc;
+  constexpr static std::size_t addrs = 0x4b4ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -922,7 +922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Object*)>(&::Zenject::TickableManager::__zenFieldSetter5)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4aea3f0;
+  constexpr static std::size_t addrs = 0x4b4ed00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -938,7 +938,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::TickableManager::__zenInjectMethod0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4aea524;
+  constexpr static std::size_t addrs = 0x4b4ee34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,7 +953,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::TickableManager::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x810;
-  constexpr static std::size_t addrs = 0x4aea5a4;
+  constexpr static std::size_t addrs = 0x4b4eeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "__zenCreateInjectTypeInfo",
@@ -965,7 +965,7 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::ITickable*>*& Zenjec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ITickable*>*> const& Zenject::TickableManager::__cordl_internal_get__tickables() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::ITickable*>* const& Zenject::TickableManager::__cordl_internal_get__tickables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tickables;
 }
@@ -977,7 +977,7 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*& Z
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedTickables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*> const& Zenject::TickableManager::__cordl_internal_get__fixedTickables() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* const& Zenject::TickableManager::__cordl_internal_get__fixedTickables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedTickables;
 }
@@ -989,7 +989,7 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*& Ze
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateTickables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*> const& Zenject::TickableManager::__cordl_internal_get__lateTickables() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* const& Zenject::TickableManager::__cordl_internal_get__lateTickables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateTickables;
 }
@@ -1001,8 +1001,7 @@ constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____priorities;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const&
-Zenject::TickableManager::__cordl_internal_get__priorities() const {
+constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* const& Zenject::TickableManager::__cordl_internal_get__priorities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____priorities;
 }
@@ -1014,8 +1013,7 @@ constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedPriorities;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const&
-Zenject::TickableManager::__cordl_internal_get__fixedPriorities() const {
+constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* const& Zenject::TickableManager::__cordl_internal_get__fixedPriorities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedPriorities;
 }
@@ -1027,8 +1025,7 @@ constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latePriorities;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const&
-Zenject::TickableManager::__cordl_internal_get__latePriorities() const {
+constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* const& Zenject::TickableManager::__cordl_internal_get__latePriorities() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____latePriorities;
 }
@@ -1040,7 +1037,7 @@ constexpr ::Zenject::TickablesTaskUpdater*& Zenject::TickableManager::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updater;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::TickablesTaskUpdater*> const& Zenject::TickableManager::__cordl_internal_get__updater() const {
+constexpr ::Zenject::TickablesTaskUpdater* const& Zenject::TickableManager::__cordl_internal_get__updater() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updater;
 }
@@ -1052,7 +1049,7 @@ constexpr ::Zenject::FixedTickablesTaskUpdater*& Zenject::TickableManager::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedUpdater;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::FixedTickablesTaskUpdater*> const& Zenject::TickableManager::__cordl_internal_get__fixedUpdater() const {
+constexpr ::Zenject::FixedTickablesTaskUpdater* const& Zenject::TickableManager::__cordl_internal_get__fixedUpdater() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fixedUpdater;
 }
@@ -1064,7 +1061,7 @@ constexpr ::Zenject::LateTickablesTaskUpdater*& Zenject::TickableManager::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateUpdater;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::LateTickablesTaskUpdater*> const& Zenject::TickableManager::__cordl_internal_get__lateUpdater() const {
+constexpr ::Zenject::LateTickablesTaskUpdater* const& Zenject::TickableManager::__cordl_internal_get__lateUpdater() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lateUpdater;
 }
@@ -1083,9 +1080,6 @@ constexpr bool const& Zenject::TickableManager::__cordl_internal_get__isPaused()
 constexpr void Zenject::TickableManager::__cordl_internal_set__isPaused(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isPaused = value;
-}
-inline ::Zenject::TickableManager* Zenject::TickableManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager*>());
 }
 inline void Zenject::TickableManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), ".ctor",
@@ -1259,6 +1253,9 @@ inline ::Zenject::InjectTypeInfo* Zenject::TickableManager::__zenCreateInjectTyp
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TickableManager*>::get(), "__zenCreateInjectTypeInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+inline ::Zenject::TickableManager* Zenject::TickableManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::TickableManager*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::TickableManager::TickableManager() {}

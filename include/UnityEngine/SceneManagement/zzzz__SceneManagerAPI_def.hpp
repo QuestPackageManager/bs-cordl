@@ -19,44 +19,42 @@ class SceneManagerAPI;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::SceneManagement::SceneManagerAPI);
-// Type: UnityEngine.SceneManagement::SceneManagerAPI
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::SceneManagement {
 // Is value type: false
-// CS Name: ::UnityEngine.SceneManagement::SceneManagerAPI*
+// CS Name: UnityEngine.SceneManagement.SceneManagerAPI
 class CORDL_TYPE SceneManagerAPI : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8
-  static
-      __declspec(property(get = getStaticF__overrideAPI_k__BackingField, put = setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::SceneManagement::SceneManagerAPI* _overrideAPI_k__BackingField;
+  __declspec(property(get = getStaticF__overrideAPI_k__BackingField, put = setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::SceneManagement::SceneManagerAPI* _overrideAPI_k__BackingField;
 
   /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::SceneManagement::SceneManagerAPI* s_DefaultAPI;
+  __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::SceneManagement::SceneManagerAPI* s_DefaultAPI;
 
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x485cf98, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetNumScenesInBuildSettings, addr 0x48be310, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetNumScenesInBuildSettings();
 
-  /// @brief Method LoadFirstScene, addr 0x485d020, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method LoadFirstScene, addr 0x48be398, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool mustLoadAsync);
 
-  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x485cfc0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x48be338, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
                                                                     bool mustCompleteNextFrame);
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x485cf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48be308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField();
 
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF_s_DefaultAPI();
 
-  /// @brief Method get_ActiveAPI, addr 0x485ce90, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveAPI, addr 0x48be208, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
 
-  /// @brief Method get_overrideAPI, addr 0x485cf38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_overrideAPI, addr 0x48be2b0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
 
   static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI* value);
@@ -78,7 +76,7 @@ public:
   SceneManagerAPI(SceneManagerAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

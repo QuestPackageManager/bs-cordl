@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43d06a0;
+  constexpr static std::size_t addrs = 0x44319b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                       ::System::Object*, ::System::Type*)>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43d06d8;
+  constexpr static std::size_t addrs = 0x44319ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::*)()>(
     &::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d0710;
+  constexpr static std::size_t addrs = 0x4431a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,15 +70,15 @@ inline ::System::Object* System::Security::Authentication::ExtendedProtection::E
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, context, culture, value, destinationType);
 }
-inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*
-System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*>());
-}
 inline void System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*
+System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter*>());
 }
 // Ctor Parameters []
 constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter::ExtendedProtectionPolicyTypeConverter() {}

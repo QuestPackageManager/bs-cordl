@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationEntry::*)(::StringW, ::System::Object*, ::System::Type*)>(
     &::System::Runtime::Serialization::SerializationEntry::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c9206c;
+  constexpr static std::size_t addrs = 0x3cf21e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationEntry::*)()>(
     &::System::Runtime::Serialization::SerializationEntry::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c92078;
+  constexpr static std::size_t addrs = 0x3cf21ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationEntry>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::SerializationEntry::*)()>(
     &::System::Runtime::Serialization::SerializationEntry::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c92080;
+  constexpr static std::size_t addrs = 0x3cf21f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationEntry>::get(),
@@ -64,8 +64,8 @@ inline ::StringW System::Runtime::Serialization::SerializationEntry::get_Name() 
                                                                              "get_Name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("nullptr") }]
+// Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_value", ty: "::System::Object*", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "_type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::Serialization::SerializationEntry::SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept {
   this->_name = _name;
   this->_value = _value;

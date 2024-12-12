@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExperimentalPacket)
 namespace Org::BouncyCastle::Bcpg {
@@ -23,11 +22,10 @@ class ExperimentalPacket;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ExperimentalPacket);
-// Type: Org.BouncyCastle.Bcpg::ExperimentalPacket
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Bcpg.ContainedPacket, Org.BouncyCastle.Bcpg.PacketTag
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Bcpg::ExperimentalPacket*
+// CS Name: Org.BouncyCastle.Bcpg.ExperimentalPacket
 class CORDL_TYPE ExperimentalPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
@@ -39,10 +37,10 @@ public:
   /// @brief Field tag, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) ::Org::BouncyCastle::Bcpg::PacketTag tag;
 
-  /// @brief Method Encode, addr 0x26133f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x26466e0, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetContents, addr 0x261337c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetContents, addr 0x2646668, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContents();
 
   static inline ::Org::BouncyCastle::Bcpg::ExperimentalPacket* New_ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -59,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set_tag(::Org::BouncyCastle::Bcpg::PacketTag value);
 
-  /// @brief Method .ctor, addr 0x2610ae0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2643dcc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Tag, addr 0x2613374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x2646660, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag get_Tag();
 
 protected:
@@ -79,23 +77,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ExperimentalPacket(ExperimentalPacket const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 571 };
+
   /// @brief Field tag, offset: 0x10, size: 0x4, def value: None
   ::Org::BouncyCastle::Bcpg::PacketTag ___tag;
 
   /// @brief Field contents, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___contents;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 571 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ExperimentalPacket, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ExperimentalPacket, ___tag) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::ExperimentalPacket, ___contents) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ExperimentalPacket, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ExperimentalPacket);

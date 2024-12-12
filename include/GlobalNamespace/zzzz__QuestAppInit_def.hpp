@@ -23,11 +23,10 @@ class QuestAppInit;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::QuestAppInit);
-// Type: ::QuestAppInit
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatSaber.Init.BSAppInit
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::QuestAppInit*
+// CS Name: QuestAppInit
 class CORDL_TYPE QuestAppInit : public ::BeatSaber::Init::BSAppInit {
 public:
   // Declarations
@@ -42,18 +41,18 @@ public:
   /// @brief Field _settingsApplicator, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator)) ::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x26e6f68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2719594, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method InstallBindings, addr 0x26e70a4, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2719734, size 0x2a0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x26e6f6c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x2719598, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x26e700c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x2719638, size 0xfc, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
@@ -74,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x26e7344, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27199d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,6 +90,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   QuestAppInit(QuestAppInit const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17799 };
+
   /// @brief Field _mainSystemInit, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
@@ -100,19 +102,16 @@ public:
   /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17884 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuestAppInit, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____mainSystemInit) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____settingsApplicator) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____defaultScenesTransitionsFromInit) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuestAppInit, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::QuestAppInit);

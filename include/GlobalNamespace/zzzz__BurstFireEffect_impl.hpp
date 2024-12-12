@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BurstFireEffect.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstFireEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Awake)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x223d8b8;
+  constexpr static std::size_t addrs = 0x3ad6444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "Awake",
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x223d9dc;
+  constexpr static std::size_t addrs = 0x3ad6568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x223dbc0;
+  constexpr static std::size_t addrs = 0x3ad674c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::BurstFireEffect::HandleColorChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x223dc7c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x3ad6804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::StartEffect)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x223dddc;
+  constexpr static std::size_t addrs = 0x3ad6978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::EndEffect)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x223ddb0;
+  constexpr static std::size_t addrs = 0x3ad694c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "EndEffect",
@@ -95,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::SetInitialValues)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x223db10;
+  constexpr static std::size_t addrs = 0x3ad669c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), "SetInitialValues",
@@ -107,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)(float_t)>(&::GlobalNamespace::BurstFireEffect::UpdateFadeOutProgress)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x223df40;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x3ad6adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BurstFireEffect::*)()>(&::GlobalNamespace::BurstFireEffect::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x223e194;
+  constexpr static std::size_t addrs = 0x3ad6dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), ".ctor",
@@ -146,7 +147,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BurstFireEffect::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipbookFadeOutCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__flipbookFadeOutCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__flipbookFadeOutCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flipbookFadeOutCurve;
 }
@@ -158,7 +159,7 @@ constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::BurstFireEffect::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFadeOutCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__bloomFadeOutCurve() const {
+constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__bloomFadeOutCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFadeOutCurve;
 }
@@ -170,7 +171,7 @@ constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::BurstFireEffect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__audioTimeSource() const {
+constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__audioTimeSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
 }
@@ -190,11 +191,23 @@ constexpr void GlobalNamespace::BurstFireEffect::__cordl_internal_set__songTimeT
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songTimeTweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::EnvironmentContext& GlobalNamespace::BurstFireEffect::__cordl_internal_get__environmentContext() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentContext;
+}
+constexpr ::GlobalNamespace::EnvironmentContext const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__environmentContext() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentContext;
+}
+constexpr void GlobalNamespace::BurstFireEffect::__cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____environmentContext = value;
+}
 constexpr ::Tweening::FloatTween*& GlobalNamespace::BurstFireEffect::__cordl_internal_get__fadeOutTween() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__fadeOutTween() const {
+constexpr ::Tweening::FloatTween* const& GlobalNamespace::BurstFireEffect::__cordl_internal_get__fadeOutTween() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeOutTween;
 }
@@ -244,13 +257,13 @@ inline void GlobalNamespace::BurstFireEffect::UpdateFadeOutProgress(float_t fade
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fadeOutProgress);
 }
-inline ::GlobalNamespace::BurstFireEffect* GlobalNamespace::BurstFireEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BurstFireEffect*>());
-}
 inline void GlobalNamespace::BurstFireEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BurstFireEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BurstFireEffect* GlobalNamespace::BurstFireEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BurstFireEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BurstFireEffect::BurstFireEffect() {}

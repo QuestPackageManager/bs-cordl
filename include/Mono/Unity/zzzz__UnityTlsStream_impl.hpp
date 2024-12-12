@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, bool, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Net::Security::MobileTlsProvider*)>(
     &::Mono::Unity::UnityTlsStream::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40ac8d4;
+  constexpr static std::size_t addrs = 0x410dbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::MobileTlsContext* (::Mono::Unity::UnityTlsStream::*)(::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Unity::UnityTlsStream::CreateContext)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40ad3f4;
+  constexpr static std::size_t addrs = 0x410e708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,10 +42,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline ::Mono::Unity::UnityTlsStream* Mono::Unity::UnityTlsStream::New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
-                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTlsStream*>(innerStream, leaveInnerStreamOpen, owner, settings, provider));
-}
 inline void Mono::Unity::UnityTlsStream::_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
                                                ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,6 +56,10 @@ inline ::Mono::Net::Security::MobileTlsContext* Mono::Unity::UnityTlsStream::Cre
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), 45)));
   return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsContext*, false>(this, ___internal_method, options);
+}
+inline ::Mono::Unity::UnityTlsStream* Mono::Unity::UnityTlsStream::New_ctor(::System::IO::Stream* innerStream, bool leaveInnerStreamOpen, ::System::Net::Security::SslStream* owner,
+                                                                            ::Mono::Security::Interface::MonoTlsSettings* settings, ::Mono::Net::Security::MobileTlsProvider* provider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Unity::UnityTlsStream*>(innerStream, leaveInnerStreamOpen, owner, settings, provider));
 }
 // Ctor Parameters []
 constexpr ::Mono::Unity::UnityTlsStream::UnityTlsStream() {}

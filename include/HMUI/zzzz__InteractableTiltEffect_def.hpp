@@ -3,19 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractableTiltEffect)
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
@@ -34,11 +28,11 @@ class InteractableTiltEffect;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::InteractableTiltEffect);
-// Type: HMUI::InteractableTiltEffect
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerMoveHandler, UnityEngine.MonoBehaviour,
+// UnityEngine.Vector2
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::InteractableTiltEffect*
+// CS Name: HMUI.InteractableTiltEffect
 class CORDL_TYPE InteractableTiltEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -68,15 +62,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept;
 
-  /// @brief Method ComputeNewTargetRotation, addr 0x399e8c4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ComputeNewTargetRotation, addr 0x39f5534, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ComputeNewTargetRotation(::UnityEngine::Vector2 localPoint);
 
   static inline ::HMUI::InteractableTiltEffect* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x399e95c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x39f55cc, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerMove, addr 0x399e9ac, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method OnPointerMove, addr 0x39f561c, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerMove(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr float_t const& __cordl_internal_get__effectStrengthMultiplier() const;
@@ -109,10 +103,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x399e9fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f566c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_effectStrengthMultiplier, addr 0x399e954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_effectStrengthMultiplier, addr 0x39f55c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectStrengthMultiplier();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -124,7 +118,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr ::UnityEngine::EventSystems::IPointerMoveHandler* i___UnityEngine__EventSystems__IPointerMoveHandler() noexcept;
 
-  /// @brief Method set_effectStrengthMultiplier, addr 0x399e894, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_effectStrengthMultiplier, addr 0x39f5504, size 0x30, virtual false, abstract: false, final false
   inline void set_effectStrengthMultiplier(float_t value);
 
 protected:
@@ -141,6 +135,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InteractableTiltEffect(InteractableTiltEffect const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16067 };
+
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
@@ -156,14 +153,9 @@ public:
   /// @brief Field _effectStrengthMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ____effectStrengthMultiplier;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16032 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::InteractableTiltEffect, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::InteractableTiltEffect, ____rectTransform) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::InteractableTiltEffect, ____maxHorizontalRotation) == 0x28, "Offset mismatch!");
@@ -173,6 +165,8 @@ static_assert(offsetof(::HMUI::InteractableTiltEffect, ____maxVerticalRotation) 
 static_assert(offsetof(::HMUI::InteractableTiltEffect, ____prevLocalPoint) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::InteractableTiltEffect, ____effectStrengthMultiplier) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::InteractableTiltEffect, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::InteractableTiltEffect);

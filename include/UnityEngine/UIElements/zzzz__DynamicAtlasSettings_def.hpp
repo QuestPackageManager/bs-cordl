@@ -19,11 +19,10 @@ class DynamicAtlasSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasSettings);
-// Type: UnityEngine.UIElements::DynamicAtlasSettings
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.UIElements.DynamicAtlasFilters
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::DynamicAtlasSettings*
+// CS Name: UnityEngine.UIElements.DynamicAtlasSettings
 class CORDL_TYPE DynamicAtlasSettings : public ::System::Object {
 public:
   // Declarations
@@ -58,9 +57,9 @@ public:
 
   constexpr ::UnityEngine::UIElements::DynamicAtlasFilters& __cordl_internal_get_m_ActiveFilters();
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __cordl_internal_get_m_CustomFilter();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter* const& __cordl_internal_get_m_CustomFilter() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& __cordl_internal_get_m_CustomFilter() const;
+  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __cordl_internal_get_m_CustomFilter();
 
   constexpr int32_t const& __cordl_internal_get_m_MaxAtlasSize() const;
 
@@ -84,43 +83,43 @@ public:
 
   constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49d0ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a357e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeFilters, addr 0x49d0e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeFilters, addr 0x4a3573c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters();
 
-  /// @brief Method get_customFilter, addr 0x49d0e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customFilter, addr 0x4a35754, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* get_customFilter();
 
-  /// @brief Method get_defaultFilters, addr 0x49d0e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFilters, addr 0x4a3574c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters();
 
-  /// @brief Method get_defaults, addr 0x49d0e54, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_defaults, addr 0x4a35764, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasSettings* get_defaults();
 
-  /// @brief Method get_maxAtlasSize, addr 0x49d0e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x4a3571c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxSubTextureSize, addr 0x49d0e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubTextureSize, addr 0x4a3572c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSubTextureSize();
 
-  /// @brief Method get_minAtlasSize, addr 0x49d0dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minAtlasSize, addr 0x4a3570c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minAtlasSize();
 
-  /// @brief Method set_activeFilters, addr 0x49d0e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeFilters, addr 0x4a35744, size 0x8, virtual false, abstract: false, final false
   inline void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  /// @brief Method set_customFilter, addr 0x49d0e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customFilter, addr 0x4a3575c, size 0x8, virtual false, abstract: false, final false
   inline void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
-  /// @brief Method set_maxAtlasSize, addr 0x49d0e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxAtlasSize, addr 0x4a35724, size 0x8, virtual false, abstract: false, final false
   inline void set_maxAtlasSize(int32_t value);
 
-  /// @brief Method set_maxSubTextureSize, addr 0x49d0e24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSubTextureSize, addr 0x4a35734, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSubTextureSize(int32_t value);
 
-  /// @brief Method set_minAtlasSize, addr 0x49d0e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minAtlasSize, addr 0x4a35714, size 0x8, virtual false, abstract: false, final false
   inline void set_minAtlasSize(int32_t value);
 
 protected:
@@ -137,6 +136,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DynamicAtlasSettings(DynamicAtlasSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5952 };
+
   /// @brief Field m_MinAtlasSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_MinAtlasSize;
 
@@ -152,14 +154,9 @@ public:
   /// @brief Field m_CustomFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::DynamicAtlasCustomFilter* ___m_CustomFilter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5927 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DynamicAtlasSettings, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasSettings, ___m_MinAtlasSize) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasSettings, ___m_MaxAtlasSize) == 0x14, "Offset mismatch!");
@@ -169,6 +166,8 @@ static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasSettings, ___m_Max
 static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasSettings, ___m_ActiveFilters) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::DynamicAtlasSettings, ___m_CustomFilter) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DynamicAtlasSettings, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DynamicAtlasSettings);

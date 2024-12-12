@@ -12,11 +12,10 @@ struct GlyphLoadFlags;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags);
-// Type: UnityEngine.TextCore.LowLevel::GlyphLoadFlags
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// CS Name: ::UnityEngine.TextCore.LowLevel::GlyphLoadFlags
+// CS Name: UnityEngine.TextCore.LowLevel.GlyphLoadFlags
 struct CORDL_TYPE GlyphLoadFlags {
 public:
   // Declarations
@@ -54,54 +53,54 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr GlyphLoadFlags(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field LOAD_BITMAP_METRICS_ONLY value: static_cast<int32_t>(0x400000)
+  /// @brief Field LOAD_BITMAP_METRICS_ONLY value: I32(4194304)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_BITMAP_METRICS_ONLY;
 
-  /// @brief Field LOAD_COLOR value: static_cast<int32_t>(0x100000)
+  /// @brief Field LOAD_COLOR value: I32(1048576)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COLOR;
 
-  /// @brief Field LOAD_COMPUTE_METRICS value: static_cast<int32_t>(0x200000)
+  /// @brief Field LOAD_COMPUTE_METRICS value: I32(2097152)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_COMPUTE_METRICS;
 
-  /// @brief Field LOAD_DEFAULT value: static_cast<int32_t>(0x0)
+  /// @brief Field LOAD_DEFAULT value: I32(0)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_DEFAULT;
 
-  /// @brief Field LOAD_FORCE_AUTOHINT value: static_cast<int32_t>(0x20)
+  /// @brief Field LOAD_FORCE_AUTOHINT value: I32(32)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_FORCE_AUTOHINT;
 
-  /// @brief Field LOAD_MONOCHROME value: static_cast<int32_t>(0x1000)
+  /// @brief Field LOAD_MONOCHROME value: I32(4096)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_MONOCHROME;
 
-  /// @brief Field LOAD_NO_AUTOHINT value: static_cast<int32_t>(0x8000)
+  /// @brief Field LOAD_NO_AUTOHINT value: I32(32768)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_AUTOHINT;
 
-  /// @brief Field LOAD_NO_BITMAP value: static_cast<int32_t>(0x8)
+  /// @brief Field LOAD_NO_BITMAP value: I32(8)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_BITMAP;
 
-  /// @brief Field LOAD_NO_HINTING value: static_cast<int32_t>(0x2)
+  /// @brief Field LOAD_NO_HINTING value: I32(2)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_HINTING;
 
-  /// @brief Field LOAD_NO_SCALE value: static_cast<int32_t>(0x1)
+  /// @brief Field LOAD_NO_SCALE value: I32(1)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_NO_SCALE;
 
-  /// @brief Field LOAD_RENDER value: static_cast<int32_t>(0x4)
+  /// @brief Field LOAD_RENDER value: I32(4)
   static ::UnityEngine::TextCore::LowLevel::GlyphLoadFlags const LOAD_RENDER;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18173 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::LowLevel
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphLoadFlags, "UnityEngine.TextCore.LowLevel", "GlyphLoadFlags");

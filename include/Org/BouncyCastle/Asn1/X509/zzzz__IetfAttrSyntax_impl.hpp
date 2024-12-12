@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::_ctor)> {
   constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x25d3a4c;
+  constexpr static std::size_t addrs = 0x2606d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::get_PolicyAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d40b0;
+  constexpr static std::size_t addrs = 0x260739c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::get_ValueType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d40b8;
+  constexpr static std::size_t addrs = 0x26073a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::GetValues)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x25d40c0;
+  constexpr static std::size_t addrs = 0x26073ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::ToAsn1Object)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x25d4408;
+  constexpr static std::size_t addrs = 0x26076f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +84,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& Org::BouncyCastle::Asn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___policyAuthority;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_internal_get_policyAuthority() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames* const& Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_internal_get_policyAuthority() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___policyAuthority;
 }
@@ -96,7 +96,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_internal_get_values() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_internal_get_values() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___values;
 }
@@ -115,9 +115,6 @@ constexpr int32_t const& Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_
 constexpr void Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::__cordl_internal_set_valueChoice(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___valueChoice = value;
-}
-inline ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax* Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -144,6 +141,9 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::X509::Iet
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax* Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax::IetfAttrSyntax() {}

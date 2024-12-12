@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetConnectAcceptPacket::*)(int64_t, uint8_t, bool)>(
     &::LiteNetLib::NetConnectAcceptPacket::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a600d0;
+  constexpr static std::size_t addrs = 0x3ab6d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetConnectAcceptPacket* (*)(::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::NetConnectAcceptPacket::FromData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3a5d054;
+  constexpr static std::size_t addrs = 0x3ab3cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&::LiteNetLib::NetConnectAcceptPacket::Make)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3a60110;
+  constexpr static std::size_t addrs = 0x3ab6d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,9 +85,6 @@ constexpr void LiteNetLib::NetConnectAcceptPacket::__cordl_internal_set_IsReused
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___IsReusedPeer = value;
 }
-inline ::LiteNetLib::NetConnectAcceptPacket* LiteNetLib::NetConnectAcceptPacket::New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetConnectAcceptPacket*>(connectionId, connectionNumber, isReusedPeer));
-}
 inline void LiteNetLib::NetConnectAcceptPacket::_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetConnectAcceptPacket*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -107,6 +104,9 @@ inline ::LiteNetLib::NetPacket* LiteNetLib::NetConnectAcceptPacket::Make(int64_t
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::LiteNetLib::NetPacket*, false>(nullptr, ___internal_method, connectId, connectNum, reusedPeer);
+}
+inline ::LiteNetLib::NetConnectAcceptPacket* LiteNetLib::NetConnectAcceptPacket::New_ctor(int64_t connectionId, uint8_t connectionNumber, bool isReusedPeer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::NetConnectAcceptPacket*>(connectionId, connectionNumber, isReusedPeer));
 }
 // Ctor Parameters []
 constexpr ::LiteNetLib::NetConnectAcceptPacket::NetConnectAcceptPacket() {}

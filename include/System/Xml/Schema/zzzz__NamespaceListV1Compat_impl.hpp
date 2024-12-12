@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::NamespaceListV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x420aa7c;
+  constexpr static std::size_t addrs = 0x426bd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::NamespaceListV1Compat::*)(::StringW)>(
     &::System::Xml::Schema::NamespaceListV1Compat::Allows)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x420aa80;
+  constexpr static std::size_t addrs = 0x426bd94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,9 +32,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Xml::Schema::NamespaceListV1Compat* System::Xml::Schema::NamespaceListV1Compat::New_ctor(::StringW namespaces, ::StringW targetNamespace) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceListV1Compat*>(namespaces, targetNamespace));
-}
 inline void System::Xml::Schema::NamespaceListV1Compat::_ctor(::StringW namespaces, ::StringW targetNamespace) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceListV1Compat*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -45,6 +42,9 @@ inline bool System::Xml::Schema::NamespaceListV1Compat::Allows(::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::NamespaceListV1Compat*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ns);
+}
+inline ::System::Xml::Schema::NamespaceListV1Compat* System::Xml::Schema::NamespaceListV1Compat::New_ctor(::StringW namespaces, ::StringW targetNamespace) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::NamespaceListV1Compat*>(namespaces, targetNamespace));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::NamespaceListV1Compat::NamespaceListV1Compat() {}

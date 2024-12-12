@@ -12,17 +12,16 @@ class FloatSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatSO);
-// Type: ::FloatSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ObservableVariableSO`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FloatSO*
+// CS Name: FloatSO
 class CORDL_TYPE FloatSO : public ::GlobalNamespace::ObservableVariableSO_1<float_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FloatSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2280ecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22b40b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -40,7 +39,7 @@ public:
   FloatSO(FloatSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17143 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

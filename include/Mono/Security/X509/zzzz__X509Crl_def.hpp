@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Crl)
@@ -13,10 +12,10 @@ namespace Mono::Security::X509 {
 class X509Certificate;
 }
 namespace Mono::Security::X509 {
-class X509ExtensionCollection;
+class X509Crl_X509CrlEntry;
 }
 namespace Mono::Security::X509 {
-class __X509Crl__X509CrlEntry;
+class X509ExtensionCollection;
 }
 namespace Mono::Security {
 class ASN1;
@@ -41,17 +40,16 @@ namespace Mono::Security::X509 {
 class X509Crl;
 }
 namespace Mono::Security::X509 {
-class __X509Crl__X509CrlEntry;
+class X509Crl_X509CrlEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509Crl);
-MARK_REF_PTR_T(::Mono::Security::X509::__X509Crl__X509CrlEntry);
-// Type: ::X509CrlEntry
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Mono::Security::X509::X509Crl_X509CrlEntry);
+// Dependencies System.DateTime, System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::X509Crl::X509CrlEntry*
-class CORDL_TYPE __X509Crl__X509CrlEntry : public ::System::Object {
+// CS Name: Mono.Security.X509.X509Crl/X509CrlEntry
+class CORDL_TYPE X509Crl_X509CrlEntry : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection* Extensions;
@@ -69,11 +67,11 @@ public:
   /// @brief Field sn, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_sn, put = __cordl_internal_set_sn)) ::ArrayW<uint8_t, ::Array<uint8_t>*> sn;
 
-  static inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry);
+  static inline ::Mono::Security::X509::X509Crl_X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry);
+
+  constexpr ::Mono::Security::X509::X509ExtensionCollection* const& __cordl_internal_get_extensions() const;
 
   constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __cordl_internal_get_extensions() const;
 
   constexpr ::System::DateTime const& __cordl_internal_get_revocationDate() const;
 
@@ -89,31 +87,34 @@ public:
 
   constexpr void __cordl_internal_set_sn(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3bdaf3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3b050, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* entry);
 
-  /// @brief Method get_Extensions, addr 0x3bdbb50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3c3bc64, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_RevocationDate, addr 0x3bdbb48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RevocationDate, addr 0x3c3bc5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationDate();
 
-  /// @brief Method get_SerialNumber, addr 0x3bdb5c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x3c3b6d8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __X509Crl__X509CrlEntry();
+  constexpr X509Crl_X509CrlEntry();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__X509Crl__X509CrlEntry", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Crl_X509CrlEntry", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __X509Crl__X509CrlEntry(__X509Crl__X509CrlEntry&&) = delete;
+  X509Crl_X509CrlEntry(X509Crl_X509CrlEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__X509Crl__X509CrlEntry", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "X509Crl_X509CrlEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __X509Crl__X509CrlEntry(__X509Crl__X509CrlEntry const&) = delete;
+  X509Crl_X509CrlEntry(X509Crl_X509CrlEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15920 };
 
   /// @brief Field sn, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___sn;
@@ -124,30 +125,26 @@ public:
   /// @brief Field extensions, offset: 0x20, size: 0x8, def value: None
   ::Mono::Security::X509::X509ExtensionCollection* ___extensions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15885 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::__X509Crl__X509CrlEntry, 0x28>, "Size mismatch!");
+static_assert(offsetof(::Mono::Security::X509::X509Crl_X509CrlEntry, ___sn) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___sn) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::X509::X509Crl_X509CrlEntry, ___revocationDate) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___revocationDate) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Mono::Security::X509::X509Crl_X509CrlEntry, ___extensions) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___extensions) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Crl_X509CrlEntry, 0x28>, "Size mismatch!");
 
 } // namespace Mono::Security::X509
-// Type: Mono.Security.X509::X509Crl
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object
 namespace Mono::Security::X509 {
 // Is value type: false
-// CS Name: ::Mono.Security.X509::X509Crl*
+// CS Name: Mono.Security.X509.X509Crl
 class CORDL_TYPE X509Crl : public ::System::Object {
 public:
   // Declarations
-  using X509CrlEntry = ::Mono::Security::X509::__X509Crl__X509CrlEntry;
+  using X509CrlEntry = ::Mono::Security::X509::X509Crl_X509CrlEntry;
 
   __declspec(property(get = get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection* Extensions;
 
@@ -187,40 +184,40 @@ public:
   /// @brief Field version, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
-  /// @brief Method Compare, addr 0x3bdb374, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Compare, addr 0x3c3b488, size 0x90, virtual false, abstract: false, final false
   inline bool Compare(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
 
-  /// @brief Method GetCrlEntry, addr 0x3bdb480, size 0x144, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber);
+  /// @brief Method GetCrlEntry, addr 0x3c3b594, size 0x144, virtual false, abstract: false, final false
+  inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t, ::Array<uint8_t>*> serialNumber);
 
-  /// @brief Method GetCrlEntry, addr 0x3bdb404, size 0x7c, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
+  /// @brief Method GetCrlEntry, addr 0x3c3b518, size 0x7c, virtual false, abstract: false, final false
+  inline ::Mono::Security::X509::X509Crl_X509CrlEntry* GetCrlEntry(::Mono::Security::X509::X509Certificate* x509);
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method Parse, addr 0x3bda8e8, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x3c3a9fc, size 0x654, virtual false, abstract: false, final false
   inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method VerifySignature, addr 0x3bdb9d4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3bae8, size 0x174, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
 
-  /// @brief Method VerifySignature, addr 0x3bdb63c, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3b750, size 0x2c4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
 
-  /// @brief Method VerifySignature, addr 0x3bdb900, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3c3ba14, size 0xd4, virtual false, abstract: false, final false
   inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encoded();
 
+  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_entries() const;
+
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_entries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_entries() const;
+  constexpr ::Mono::Security::X509::X509ExtensionCollection* const& __cordl_internal_get_extensions() const;
 
   constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions();
-
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __cordl_internal_get_extensions() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hash_value() const;
 
@@ -270,19 +267,19 @@ public:
 
   constexpr void __cordl_internal_set_version(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x3bda7f4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c3a908, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 
-  /// @brief Method get_Extensions, addr 0x3bdb144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x3c3b258, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
 
-  /// @brief Method get_Hash, addr 0x3bdb14c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method get_Hash, addr 0x3c3b260, size 0x218, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
 
-  /// @brief Method get_IssuerName, addr 0x3bdb364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerName, addr 0x3c3b478, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IssuerName();
 
-  /// @brief Method get_NextUpdate, addr 0x3bdb36c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NextUpdate, addr 0x3c3b480, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_NextUpdate();
 
 protected:
@@ -298,6 +295,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "X509Crl", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   X509Crl(X509Crl const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15921 };
 
   /// @brief Field issuer, offset: 0x10, size: 0x8, def value: None
   ::StringW ___issuer;
@@ -329,14 +329,9 @@ public:
   /// @brief Field hash_value, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___hash_value;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15886 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Crl, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::X509::X509Crl, ___issuer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::X509::X509Crl, ___version) == 0x18, "Offset mismatch!");
@@ -357,8 +352,10 @@ static_assert(offsetof(::Mono::Security::X509::X509Crl, ___encoded) == 0x50, "Of
 
 static_assert(offsetof(::Mono::Security::X509::X509Crl, ___hash_value) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Crl, 0x60>, "Size mismatch!");
+
 } // namespace Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Crl);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
-NEED_NO_BOX(::Mono::Security::X509::__X509Crl__X509CrlEntry);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::__X509Crl__X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");
+NEED_NO_BOX(::Mono::Security::X509::X509Crl_X509CrlEntry);
+DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Crl_X509CrlEntry*, "Mono.Security.X509", "X509Crl/X509CrlEntry");

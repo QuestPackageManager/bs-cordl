@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::FxEventType (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)()>(
     &::BeatmapSaveDataVersion3::FxEventBoxGroup::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3a08;
+  constexpr static std::size_t addrs = 0x2705378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::FxEventBoxGroup*>::get(), "get_type",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::FxEventBoxGroup::*)(
     float_t, int32_t, ::BeatmapSaveDataVersion3::FxEventType, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>*)>(&::BeatmapSaveDataVersion3::FxEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26d3a10;
+  constexpr static std::size_t addrs = 0x2705380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,10 +54,6 @@ inline ::BeatmapSaveDataVersion3::FxEventType BeatmapSaveDataVersion3::FxEventBo
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataVersion3::FxEventType, false>(this, ___internal_method);
 }
-inline ::BeatmapSaveDataVersion3::FxEventBoxGroup* BeatmapSaveDataVersion3::FxEventBoxGroup::New_ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type,
-                                                                                                      ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FxEventBoxGroup*>(beat, groupId, type, eventBoxes));
-}
 inline void BeatmapSaveDataVersion3::FxEventBoxGroup::_ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type,
                                                             ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,6 +62,10 @@ inline void BeatmapSaveDataVersion3::FxEventBoxGroup::_ctor(float_t beat, int32_
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion3::FxEventType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, groupId, type, eventBoxes);
+}
+inline ::BeatmapSaveDataVersion3::FxEventBoxGroup* BeatmapSaveDataVersion3::FxEventBoxGroup::New_ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type,
+                                                                                                      ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::FxEventBoxGroup*>(beat, groupId, type, eventBoxes));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::FxEventBoxGroup::FxEventBoxGroup() {}

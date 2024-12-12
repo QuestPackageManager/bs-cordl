@@ -18,11 +18,10 @@ class NativeSliceExtensions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::NativeSliceExtensions);
-// Type: Unity.Collections::NativeSliceExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Collections {
 // Is value type: false
-// CS Name: ::Unity.Collections::NativeSliceExtensions*
+// CS Name: Unity.Collections.NativeSliceExtensions
 class CORDL_TYPE NativeSliceExtensions : public ::System::Object {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
   NativeSliceExtensions(NativeSliceExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

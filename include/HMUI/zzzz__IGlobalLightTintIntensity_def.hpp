@@ -11,32 +11,27 @@ class IGlobalLightTintIntensity;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::IGlobalLightTintIntensity);
-// Type: HMUI::IGlobalLightTintIntensity
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::IGlobalLightTintIntensity*
+// CS Name: HMUI.IGlobalLightTintIntensity
 class CORDL_TYPE IGlobalLightTintIntensity {
 public:
   // Declarations
   __declspec(property(get = get_globalLightTintIntensity, put = set_globalLightTintIntensity)) float_t globalLightTintIntensity;
 
-  /// @brief Method get_globalLightTintIntensity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_globalLightTintIntensity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_globalLightTintIntensity();
 
-  /// @brief Method set_globalLightTintIntensity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method set_globalLightTintIntensity, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_globalLightTintIntensity(float_t value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IGlobalLightTintIntensity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IGlobalLightTintIntensity(IGlobalLightTintIntensity&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IGlobalLightTintIntensity", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IGlobalLightTintIntensity(IGlobalLightTintIntensity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/Message.hpp"
-#include "Oculus/Platform/zzzz__Message_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
@@ -75,338 +74,338 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::Oculus::Platform::__Message__Callback._ctor
+//  Writing Method size for method: ::Oculus::Platform::Message_Callback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Message__Callback::*)(::System::Object*, ::System::IntPtr)>(
-    &::Oculus::Platform::__Message__Callback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::Object*, ::System::IntPtr)>(
+    &::Oculus::Platform::Message_Callback::_ctor)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3ef6518;
+  constexpr static std::size_t addrs = 0x3f565c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__Callback.Invoke
+//  Writing Method size for method: ::Oculus::Platform::Message_Callback.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Message__Callback::*)(::Oculus::Platform::Message*)>(
-    &::Oculus::Platform::__Message__Callback::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*)>(
+    &::Oculus::Platform::Message_Callback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f1bdec;
+  constexpr static std::size_t addrs = 0x3f7be98;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 13));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__Callback.BeginInvoke
+//  Writing Method size for method: ::Oculus::Platform::Message_Callback.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::Oculus::Platform::__Message__Callback::*)(::Oculus::Platform::Message*, ::System::AsyncCallback*, ::System::Object*)>(&::Oculus::Platform::__Message__Callback::BeginInvoke)> {
+    ::Oculus::Platform::Message_Callback::*)(::Oculus::Platform::Message*, ::System::AsyncCallback*, ::System::Object*)>(&::Oculus::Platform::Message_Callback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f1be00;
+  constexpr static std::size_t addrs = 0x3f7beac;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 14));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__Callback.EndInvoke
+//  Writing Method size for method: ::Oculus::Platform::Message_Callback.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Message__Callback::*)(::System::IAsyncResult*)>(
-    &::Oculus::Platform::__Message__Callback::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_Callback::*)(::System::IAsyncResult*)>(
+    &::Oculus::Platform::Message_Callback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f1be20;
+  constexpr static std::size_t addrs = 0x3f7becc;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 15));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::__Message__Callback* Oculus::Platform::__Message__Callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::__Message__Callback*>(object, method));
-}
-inline void Oculus::Platform::__Message__Callback::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void Oculus::Platform::Message_Callback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void Oculus::Platform::__Message__Callback::Invoke(::Oculus::Platform::Message* message) {
+inline void Oculus::Platform::Message_Callback::Invoke(::Oculus::Platform::Message* message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline ::System::IAsyncResult* Oculus::Platform::__Message__Callback::BeginInvoke(::Oculus::Platform::Message* message, ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* Oculus::Platform::Message_Callback::BeginInvoke(::Oculus::Platform::Message* message, ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, message, callback, object);
 }
-inline void Oculus::Platform::__Message__Callback::EndInvoke(::System::IAsyncResult* result) {
+inline void Oculus::Platform::Message_Callback::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__Callback*>::get(), 15)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_Callback*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
+inline ::Oculus::Platform::Message_Callback* Oculus::Platform::Message_Callback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Message_Callback*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::Oculus::Platform::__Message__Callback::__Message__Callback() {}
+constexpr ::Oculus::Platform::Message_Callback::Message_Callback() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Oculus::Platform::__Message__MessageType::__Message__MessageType(uint32_t value__) noexcept {
+constexpr ::Oculus::Platform::Message_MessageType::Message_MessageType(uint32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Oculus::Platform::__Message__MessageType::__Message__MessageType() {}
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Unknown{ static_cast<uint32_t>(0xfc86f000u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AbuseReport_ReportRequestHandled{ static_cast<uint32_t>(0x8efc86f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_AddCount{ static_cast<uint32_t>(0x3162e7c3u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_AddFields{ static_cast<uint32_t>(0x2921aad4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetAllDefinitions{ static_cast<uint32_t>(0x8d45d3c3u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetAllProgress{ static_cast<uint32_t>(0x9fde1df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetDefinitionsByName{ static_cast<uint32_t>(0x9101bcf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetNextAchievementDefinitionArrayPage{ static_cast<uint32_t>(0x7dd255f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetNextAchievementProgressArrayPage{ static_cast<uint32_t>(0x42e727f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_GetProgressByName{ static_cast<uint32_t>(0xb16326d5u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Achievements_Unlock{ static_cast<uint32_t>(0x3ccbddf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::ApplicationLifecycle_GetRegisteredPIDs{ static_cast<uint32_t>(0x62cfe5c4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::ApplicationLifecycle_GetSessionKey{ static_cast<uint32_t>(0xaf591df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::ApplicationLifecycle_RegisterSessionKey{ static_cast<uint32_t>(0xb6aff8f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_CancelAppDownload{ static_cast<uint32_t>(0x2060def0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_CheckAppDownloadProgress{ static_cast<uint32_t>(0x34a924f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_GetVersion{ static_cast<uint32_t>(0x670a0ef0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_InstallAppUpdateAndRelaunch{ static_cast<uint32_t>(0x856b80d4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_LaunchOtherApp{ static_cast<uint32_t>(0xe2d1f8f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Application_StartAppDownload{ static_cast<uint32_t>(0xfc006ef0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_Delete{ static_cast<uint32_t>(0x5d7886f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DeleteById{ static_cast<uint32_t>(0xe8cd52f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DeleteByName{ static_cast<uint32_t>(0xac1cff0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_Download{ static_cast<uint32_t>(0xc59f44d1u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DownloadById{ static_cast<uint32_t>(0x8992f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DownloadByName{ static_cast<uint32_t>(0x36cefaf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DownloadCancel{ static_cast<uint32_t>(0xc7d30ac8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DownloadCancelById{ static_cast<uint32_t>(0x659514f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_DownloadCancelByName{ static_cast<uint32_t>(0x6aecfaf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_GetList{ static_cast<uint32_t>(0xfc6f74f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_Status{ static_cast<uint32_t>(0x602fd3c2u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_StatusById{ static_cast<uint32_t>(0x955d38f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::AssetFile_StatusByName{ static_cast<uint32_t>(0xcfda50f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Avatar_LaunchAvatarEditor{ static_cast<uint32_t>(0x53e1f1c5u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_Create{ static_cast<uint32_t>(0x59d641f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_DeclineInvite{ static_cast<uint32_t>(0x8e76c0f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_Delete{ static_cast<uint32_t>(0x4885caf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_Get{ static_cast<uint32_t>(0x584ef3f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetEntries{ static_cast<uint32_t>(0x5fb41ad2u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetEntriesAfterRank{ static_cast<uint32_t>(0x7f1a89c8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetEntriesByIds{ static_cast<uint32_t>(0x6509dcf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetList{ static_cast<uint32_t>(0x264356f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetNextChallenges{ static_cast<uint32_t>(0x7ca1b6f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetNextEntries{ static_cast<uint32_t>(0x4ca0c6f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetPreviousChallenges{ static_cast<uint32_t>(0xd04b4ceu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_GetPreviousEntries{ static_cast<uint32_t>(0xc90470f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_Join{ static_cast<uint32_t>(0x248069f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_Leave{ static_cast<uint32_t>(0x6116e5f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Challenges_UpdateInfo{ static_cast<uint32_t>(0x60be75d1u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::DeviceApplicationIntegrity_GetIntegrityToken{ static_cast<uint32_t>(0x71abdaf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Entitlement_GetIsViewerEntitled{ static_cast<uint32_t>(0xb1586bd8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_Clear{ static_cast<uint32_t>(0xaa9cc3f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_GetInvitableUsers{ static_cast<uint32_t>(0x4bc3f1f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_GetNextApplicationInviteArrayPage{ static_cast<uint32_t>(0xf2c0f8c4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_GetSentInvites{ static_cast<uint32_t>(0xb10a26c8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_LaunchInvitePanel{ static_cast<uint32_t>(0x9fcf9ecfu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_LaunchMultiplayerErrorDialog{ static_cast<uint32_t>(0x55af24f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_LaunchRejoinDialog{ static_cast<uint32_t>(0x6f0377d5u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_LaunchRosterPanel{ static_cast<uint32_t>(0x728882f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SendInvites{ static_cast<uint32_t>(0x64d3cbcdu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_Set{ static_cast<uint32_t>(0x5f5c24f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SetDeeplinkMessageOverride{ static_cast<uint32_t>(0x1adf0df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SetDestination{ static_cast<uint32_t>(0x5b268af0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SetIsJoinable{ static_cast<uint32_t>(0x8f1055f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SetLobbySession{ static_cast<uint32_t>(0xff55bef0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::GroupPresence_SetMatchSession{ static_cast<uint32_t>(0x4c84b8f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_ConsumePurchase{ static_cast<uint32_t>(0xd972bbdfu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_GetNextProductArrayPage{ static_cast<uint32_t>(0xaf4ad9dbu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_GetNextPurchaseArrayPage{ static_cast<uint32_t>(0x570a95f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_GetProductsBySKU{ static_cast<uint32_t>(0x9acaf5f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_GetViewerPurchases{ static_cast<uint32_t>(0xf8419f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_GetViewerPurchasesDurableCache{ static_cast<uint32_t>(0x599e2bf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::IAP_LaunchCheckoutFlow{ static_cast<uint32_t>(0x9b0d0df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::LanguagePack_GetCurrent{ static_cast<uint32_t>(0xd5f090dfu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::LanguagePack_SetCurrent{ static_cast<uint32_t>(0x4fbbe0f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_Get{ static_cast<uint32_t>(0xd44ef8f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetEntries{ static_cast<uint32_t>(0xb3474cf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetEntriesAfterRank{ static_cast<uint32_t>(0xef8b37d8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetEntriesByIds{ static_cast<uint32_t>(0x607bfcf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetNextEntries{ static_cast<uint32_t>(0x207cd9f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetNextLeaderboardArrayPage{ static_cast<uint32_t>(0xf6769bf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_GetPreviousEntries{ static_cast<uint32_t>(0x1dac0f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_WriteEntry{ static_cast<uint32_t>(0xfec87fd1u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Leaderboard_WriteEntryWithSupplementaryMetric{ static_cast<uint32_t>(0xc692faf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Media_ShareToFacebook{ static_cast<uint32_t>(0xef8ae3c0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_MarkAsRead{ static_cast<uint32_t>(0x7259e3f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Party_GetCurrent{ static_cast<uint32_t>(0x933760f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::RichPresence_Clear{ static_cast<uint32_t>(0xb752b3f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::RichPresence_GetDestinations{ static_cast<uint32_t>(0x6f2d14f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::RichPresence_GetNextDestinationArrayPage{ static_cast<uint32_t>(0x367f45f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::RichPresence_Set{ static_cast<uint32_t>(0x147509f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserAgeCategory_Get{ static_cast<uint32_t>(0xcbe0c0f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserAgeCategory_Report{ static_cast<uint32_t>(0x4dd8d6f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PrivateDeleteEntryByKey{ static_cast<uint32_t>(0x896f3ef0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PrivateGetEntries{ static_cast<uint32_t>(0x8a8228f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PrivateGetEntryByKey{ static_cast<uint32_t>(0x198306dcu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PrivateWriteEntry{ static_cast<uint32_t>(0xd2828bf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PublicDeleteEntryByKey{ static_cast<uint32_t>(0xfbe5d5ddu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PublicGetEntries{ static_cast<uint32_t>(0xc24b7dd6u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PublicGetEntryByKey{ static_cast<uint32_t>(0xc6665cd9u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::UserDataStore_PublicWriteEntry{ static_cast<uint32_t>(0x364a0af0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_Get{ static_cast<uint32_t>(0xcf9e47f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetAccessToken{ static_cast<uint32_t>(0xbe5aa8c6u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetBlockedUsers{ static_cast<uint32_t>(0x201556f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetLoggedInUser{ static_cast<uint32_t>(0x6f345df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetLoggedInUserFriends{ static_cast<uint32_t>(0x7c2a8df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetNextBlockedUserArrayPage{ static_cast<uint32_t>(0x2afdcbf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetNextUserArrayPage{ static_cast<uint32_t>(0x7cf743f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetNextUserCapabilityArrayPage{ static_cast<uint32_t>(0x9f399f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetOrgScopedID{ static_cast<uint32_t>(0x1bb0f0d8u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetSdkAccounts{ static_cast<uint32_t>(0x526a83f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_GetUserProof{ static_cast<uint32_t>(0x810483f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_LaunchBlockFlow{ static_cast<uint32_t>(0xd62528f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_LaunchFriendRequestFlow{ static_cast<uint32_t>(0x98b504c9u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::User_LaunchUnblockFlow{ static_cast<uint32_t>(0x972aa2d4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Voip_GetMicrophoneAvailability{ static_cast<uint32_t>(0x4ce345f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Voip_SetSystemVoipSuppressed{ static_cast<uint32_t>(0x3fc9aaf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_AbuseReport_ReportButtonPressed{ static_cast<uint32_t>(0x472f6cf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_ApplicationLifecycle_LaunchIntentChanged{ static_cast<uint32_t>(0xa34cb3c4u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_AssetFile_DownloadUpdate{ static_cast<uint32_t>(0xdd0ccdf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_GroupPresence_InvitationsSent{ static_cast<uint32_t>(0x9a84b6f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_GroupPresence_JoinIntentReceived{ static_cast<uint32_t>(0x3889f6f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_GroupPresence_LeaveIntentReceived{ static_cast<uint32_t>(0x37ea1df0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_HTTP_Transfer{ static_cast<uint32_t>(0xd46e2ff0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Livestreaming_StatusChange{ static_cast<uint32_t>(0x47596ef0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_NetSync_ConnectionStatusChanged{ static_cast<uint32_t>(0xca8434c7u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_NetSync_SessionsChanged{ static_cast<uint32_t>(0x7e7f36f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Party_PartyUpdate{ static_cast<uint32_t>(0xb28a11ddu) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Voip_MicrophoneAvailabilityStateUpdate{ static_cast<uint32_t>(0x20cb57f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Voip_SystemVoipState{ static_cast<uint32_t>(0xd254a5f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Vrcamera_GetDataChannelMessageUpdate{ static_cast<uint32_t>(0xe4f33cf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Notification_Vrcamera_GetSurfaceUpdate{ static_cast<uint32_t>(0xf21084f0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Platform_InitializeWithAccessToken{ static_cast<uint32_t>(0x692f2bf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Platform_InitializeStandaloneOculus{ static_cast<uint32_t>(0xf8ce0cf0u) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Platform_InitializeAndroidAsynchronous{ static_cast<uint32_t>(0xb407d3dau) };
-constexpr ::Oculus::Platform::__Message__MessageType Oculus::Platform::__Message__MessageType::Platform_InitializeWindowsAsynchronous{ static_cast<uint32_t>(0xa7ba8ff0u) };
-//  Writing Method size for method: ::Oculus::Platform::__Message__ExtraMessageTypesHandler._ctor
+constexpr ::Oculus::Platform::Message_MessageType::Message_MessageType() {}
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Unknown{ static_cast<uint32_t>(0xfc86f000u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AbuseReport_ReportRequestHandled{ static_cast<uint32_t>(0x8efc86f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_AddCount{ static_cast<uint32_t>(0x3162e7c3u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_AddFields{ static_cast<uint32_t>(0x2921aad4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetAllDefinitions{ static_cast<uint32_t>(0x8d45d3c3u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetAllProgress{ static_cast<uint32_t>(0x9fde1df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetDefinitionsByName{ static_cast<uint32_t>(0x9101bcf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetNextAchievementDefinitionArrayPage{ static_cast<uint32_t>(0x7dd255f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetNextAchievementProgressArrayPage{ static_cast<uint32_t>(0x42e727f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_GetProgressByName{ static_cast<uint32_t>(0xb16326d5u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Achievements_Unlock{ static_cast<uint32_t>(0x3ccbddf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::ApplicationLifecycle_GetRegisteredPIDs{ static_cast<uint32_t>(0x62cfe5c4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::ApplicationLifecycle_GetSessionKey{ static_cast<uint32_t>(0xaf591df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::ApplicationLifecycle_RegisterSessionKey{ static_cast<uint32_t>(0xb6aff8f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_CancelAppDownload{ static_cast<uint32_t>(0x2060def0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_CheckAppDownloadProgress{ static_cast<uint32_t>(0x34a924f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_GetVersion{ static_cast<uint32_t>(0x670a0ef0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_InstallAppUpdateAndRelaunch{ static_cast<uint32_t>(0x856b80d4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_LaunchOtherApp{ static_cast<uint32_t>(0xe2d1f8f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Application_StartAppDownload{ static_cast<uint32_t>(0xfc006ef0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_Delete{ static_cast<uint32_t>(0x5d7886f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DeleteById{ static_cast<uint32_t>(0xe8cd52f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DeleteByName{ static_cast<uint32_t>(0xac1cff0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_Download{ static_cast<uint32_t>(0xc59f44d1u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DownloadById{ static_cast<uint32_t>(0x8992f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DownloadByName{ static_cast<uint32_t>(0x36cefaf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DownloadCancel{ static_cast<uint32_t>(0xc7d30ac8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DownloadCancelById{ static_cast<uint32_t>(0x659514f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_DownloadCancelByName{ static_cast<uint32_t>(0x6aecfaf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_GetList{ static_cast<uint32_t>(0xfc6f74f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_Status{ static_cast<uint32_t>(0x602fd3c2u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_StatusById{ static_cast<uint32_t>(0x955d38f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::AssetFile_StatusByName{ static_cast<uint32_t>(0xcfda50f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Avatar_LaunchAvatarEditor{ static_cast<uint32_t>(0x53e1f1c5u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_Create{ static_cast<uint32_t>(0x59d641f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_DeclineInvite{ static_cast<uint32_t>(0x8e76c0f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_Delete{ static_cast<uint32_t>(0x4885caf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_Get{ static_cast<uint32_t>(0x584ef3f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetEntries{ static_cast<uint32_t>(0x5fb41ad2u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetEntriesAfterRank{ static_cast<uint32_t>(0x7f1a89c8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetEntriesByIds{ static_cast<uint32_t>(0x6509dcf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetList{ static_cast<uint32_t>(0x264356f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetNextChallenges{ static_cast<uint32_t>(0x7ca1b6f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetNextEntries{ static_cast<uint32_t>(0x4ca0c6f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetPreviousChallenges{ static_cast<uint32_t>(0xd04b4ceu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_GetPreviousEntries{ static_cast<uint32_t>(0xc90470f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_Join{ static_cast<uint32_t>(0x248069f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_Leave{ static_cast<uint32_t>(0x6116e5f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Challenges_UpdateInfo{ static_cast<uint32_t>(0x60be75d1u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::DeviceApplicationIntegrity_GetIntegrityToken{ static_cast<uint32_t>(0x71abdaf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Entitlement_GetIsViewerEntitled{ static_cast<uint32_t>(0xb1586bd8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_Clear{ static_cast<uint32_t>(0xaa9cc3f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_GetInvitableUsers{ static_cast<uint32_t>(0x4bc3f1f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_GetNextApplicationInviteArrayPage{ static_cast<uint32_t>(0xf2c0f8c4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_GetSentInvites{ static_cast<uint32_t>(0xb10a26c8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_LaunchInvitePanel{ static_cast<uint32_t>(0x9fcf9ecfu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_LaunchMultiplayerErrorDialog{ static_cast<uint32_t>(0x55af24f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_LaunchRejoinDialog{ static_cast<uint32_t>(0x6f0377d5u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_LaunchRosterPanel{ static_cast<uint32_t>(0x728882f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SendInvites{ static_cast<uint32_t>(0x64d3cbcdu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_Set{ static_cast<uint32_t>(0x5f5c24f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SetDeeplinkMessageOverride{ static_cast<uint32_t>(0x1adf0df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SetDestination{ static_cast<uint32_t>(0x5b268af0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SetIsJoinable{ static_cast<uint32_t>(0x8f1055f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SetLobbySession{ static_cast<uint32_t>(0xff55bef0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::GroupPresence_SetMatchSession{ static_cast<uint32_t>(0x4c84b8f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_ConsumePurchase{ static_cast<uint32_t>(0xd972bbdfu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_GetNextProductArrayPage{ static_cast<uint32_t>(0xaf4ad9dbu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_GetNextPurchaseArrayPage{ static_cast<uint32_t>(0x570a95f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_GetProductsBySKU{ static_cast<uint32_t>(0x9acaf5f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_GetViewerPurchases{ static_cast<uint32_t>(0xf8419f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_GetViewerPurchasesDurableCache{ static_cast<uint32_t>(0x599e2bf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::IAP_LaunchCheckoutFlow{ static_cast<uint32_t>(0x9b0d0df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::LanguagePack_GetCurrent{ static_cast<uint32_t>(0xd5f090dfu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::LanguagePack_SetCurrent{ static_cast<uint32_t>(0x4fbbe0f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_Get{ static_cast<uint32_t>(0xd44ef8f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetEntries{ static_cast<uint32_t>(0xb3474cf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetEntriesAfterRank{ static_cast<uint32_t>(0xef8b37d8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetEntriesByIds{ static_cast<uint32_t>(0x607bfcf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetNextEntries{ static_cast<uint32_t>(0x207cd9f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetNextLeaderboardArrayPage{ static_cast<uint32_t>(0xf6769bf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_GetPreviousEntries{ static_cast<uint32_t>(0x1dac0f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_WriteEntry{ static_cast<uint32_t>(0xfec87fd1u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Leaderboard_WriteEntryWithSupplementaryMetric{ static_cast<uint32_t>(0xc692faf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Media_ShareToFacebook{ static_cast<uint32_t>(0xef8ae3c0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_MarkAsRead{ static_cast<uint32_t>(0x7259e3f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Party_GetCurrent{ static_cast<uint32_t>(0x933760f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::RichPresence_Clear{ static_cast<uint32_t>(0xb752b3f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::RichPresence_GetDestinations{ static_cast<uint32_t>(0x6f2d14f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::RichPresence_GetNextDestinationArrayPage{ static_cast<uint32_t>(0x367f45f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::RichPresence_Set{ static_cast<uint32_t>(0x147509f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserAgeCategory_Get{ static_cast<uint32_t>(0xcbe0c0f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserAgeCategory_Report{ static_cast<uint32_t>(0x4dd8d6f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PrivateDeleteEntryByKey{ static_cast<uint32_t>(0x896f3ef0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PrivateGetEntries{ static_cast<uint32_t>(0x8a8228f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PrivateGetEntryByKey{ static_cast<uint32_t>(0x198306dcu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PrivateWriteEntry{ static_cast<uint32_t>(0xd2828bf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PublicDeleteEntryByKey{ static_cast<uint32_t>(0xfbe5d5ddu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PublicGetEntries{ static_cast<uint32_t>(0xc24b7dd6u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PublicGetEntryByKey{ static_cast<uint32_t>(0xc6665cd9u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::UserDataStore_PublicWriteEntry{ static_cast<uint32_t>(0x364a0af0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_Get{ static_cast<uint32_t>(0xcf9e47f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetAccessToken{ static_cast<uint32_t>(0xbe5aa8c6u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetBlockedUsers{ static_cast<uint32_t>(0x201556f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetLoggedInUser{ static_cast<uint32_t>(0x6f345df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetLoggedInUserFriends{ static_cast<uint32_t>(0x7c2a8df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetNextBlockedUserArrayPage{ static_cast<uint32_t>(0x2afdcbf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetNextUserArrayPage{ static_cast<uint32_t>(0x7cf743f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetNextUserCapabilityArrayPage{ static_cast<uint32_t>(0x9f399f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetOrgScopedID{ static_cast<uint32_t>(0x1bb0f0d8u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetSdkAccounts{ static_cast<uint32_t>(0x526a83f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_GetUserProof{ static_cast<uint32_t>(0x810483f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_LaunchBlockFlow{ static_cast<uint32_t>(0xd62528f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_LaunchFriendRequestFlow{ static_cast<uint32_t>(0x98b504c9u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::User_LaunchUnblockFlow{ static_cast<uint32_t>(0x972aa2d4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Voip_GetMicrophoneAvailability{ static_cast<uint32_t>(0x4ce345f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Voip_SetSystemVoipSuppressed{ static_cast<uint32_t>(0x3fc9aaf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_AbuseReport_ReportButtonPressed{ static_cast<uint32_t>(0x472f6cf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_ApplicationLifecycle_LaunchIntentChanged{ static_cast<uint32_t>(0xa34cb3c4u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_AssetFile_DownloadUpdate{ static_cast<uint32_t>(0xdd0ccdf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_GroupPresence_InvitationsSent{ static_cast<uint32_t>(0x9a84b6f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_GroupPresence_JoinIntentReceived{ static_cast<uint32_t>(0x3889f6f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_GroupPresence_LeaveIntentReceived{ static_cast<uint32_t>(0x37ea1df0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_HTTP_Transfer{ static_cast<uint32_t>(0xd46e2ff0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Livestreaming_StatusChange{ static_cast<uint32_t>(0x47596ef0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_NetSync_ConnectionStatusChanged{ static_cast<uint32_t>(0xca8434c7u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_NetSync_SessionsChanged{ static_cast<uint32_t>(0x7e7f36f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Party_PartyUpdate{ static_cast<uint32_t>(0xb28a11ddu) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Voip_MicrophoneAvailabilityStateUpdate{ static_cast<uint32_t>(0x20cb57f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Voip_SystemVoipState{ static_cast<uint32_t>(0xd254a5f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Vrcamera_GetDataChannelMessageUpdate{ static_cast<uint32_t>(0xe4f33cf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Notification_Vrcamera_GetSurfaceUpdate{ static_cast<uint32_t>(0xf21084f0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Platform_InitializeWithAccessToken{ static_cast<uint32_t>(0x692f2bf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Platform_InitializeStandaloneOculus{ static_cast<uint32_t>(0xf8ce0cf0u) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Platform_InitializeAndroidAsynchronous{ static_cast<uint32_t>(0xb407d3dau) };
+constexpr ::Oculus::Platform::Message_MessageType Oculus::Platform::Message_MessageType::Platform_InitializeWindowsAsynchronous{ static_cast<uint32_t>(0xa7ba8ff0u) };
+//  Writing Method size for method: ::Oculus::Platform::Message_ExtraMessageTypesHandler._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__Message__ExtraMessageTypesHandler::*)(::System::Object*, ::System::IntPtr)>(
-    &::Oculus::Platform::__Message__ExtraMessageTypesHandler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::Object*, ::System::IntPtr)>(
+    &::Oculus::Platform::Message_ExtraMessageTypesHandler::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3f1be2c;
+  constexpr static std::size_t addrs = 0x3f7bed8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__ExtraMessageTypesHandler.Invoke
+//  Writing Method size for method: ::Oculus::Platform::Message_ExtraMessageTypesHandler.Invoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (
-    ::Oculus::Platform::__Message__ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::__Message__MessageType)>(&::Oculus::Platform::__Message__ExtraMessageTypesHandler::Invoke)> {
+    ::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType)>(&::Oculus::Platform::Message_ExtraMessageTypesHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f1beb8;
+  constexpr static std::size_t addrs = 0x3f7bf64;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__ExtraMessageTypesHandler.BeginInvoke
+//  Writing Method size for method: ::Oculus::Platform::Message_ExtraMessageTypesHandler.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::Oculus::Platform::__Message__ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::__Message__MessageType, ::System::AsyncCallback*, ::System::Object*)>(
-    &::Oculus::Platform::__Message__ExtraMessageTypesHandler::BeginInvoke)> {
+    ::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType, ::System::AsyncCallback*, ::System::Object*)>(
+    &::Oculus::Platform::Message_ExtraMessageTypesHandler::BeginInvoke)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f1becc;
+  constexpr static std::size_t addrs = 0x3f7bf78;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::__Message__ExtraMessageTypesHandler.EndInvoke
+//  Writing Method size for method: ::Oculus::Platform::Message_ExtraMessageTypesHandler.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (::Oculus::Platform::__Message__ExtraMessageTypesHandler::*)(::System::IAsyncResult*)>(
-    &::Oculus::Platform::__Message__ExtraMessageTypesHandler::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (::Oculus::Platform::Message_ExtraMessageTypesHandler::*)(::System::IAsyncResult*)>(
+    &::Oculus::Platform::Message_ExtraMessageTypesHandler::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f1bf84;
+  constexpr static std::size_t addrs = 0x3f7c030;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::Oculus::Platform::__Message__ExtraMessageTypesHandler* Oculus::Platform::__Message__ExtraMessageTypesHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>(object, method));
-}
-inline void Oculus::Platform::__Message__ExtraMessageTypesHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(),
+inline void Oculus::Platform::Message_ExtraMessageTypesHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline ::Oculus::Platform::Message* Oculus::Platform::__Message__ExtraMessageTypesHandler::Invoke(::System::IntPtr messageHandle, ::Oculus::Platform::__Message__MessageType message_type) {
+inline ::Oculus::Platform::Message* Oculus::Platform::Message_ExtraMessageTypesHandler::Invoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message_MessageType message_type) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Message*, false>(this, ___internal_method, messageHandle, message_type);
 }
-inline ::System::IAsyncResult* Oculus::Platform::__Message__ExtraMessageTypesHandler::BeginInvoke(::System::IntPtr messageHandle, ::Oculus::Platform::__Message__MessageType message_type,
-                                                                                                  ::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* Oculus::Platform::Message_ExtraMessageTypesHandler::BeginInvoke(::System::IntPtr messageHandle, ::Oculus::Platform::Message_MessageType message_type,
+                                                                                               ::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, messageHandle, message_type, callback, object);
 }
-inline ::Oculus::Platform::Message* Oculus::Platform::__Message__ExtraMessageTypesHandler::EndInvoke(::System::IAsyncResult* result) {
+inline ::Oculus::Platform::Message* Oculus::Platform::Message_ExtraMessageTypesHandler::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Message*, false>(this, ___internal_method, result);
 }
+inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* Oculus::Platform::Message_ExtraMessageTypesHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::Oculus::Platform::__Message__ExtraMessageTypesHandler::__Message__ExtraMessageTypesHandler() {}
+constexpr ::Oculus::Platform::Message_ExtraMessageTypesHandler::Message_ExtraMessageTypesHandler() {}
 //  Writing Method size for method: ::Oculus::Platform::Message._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message::*)(::System::IntPtr)>(&::Oculus::Platform::Message::_ctor)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3f184cc;
+  constexpr static std::size_t addrs = 0x3f78578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -420,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::Finalize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18778;
+  constexpr static std::size_t addrs = 0x3f78824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -432,10 +431,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Oculus::Platform::Message.get_Type
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::__Message__MessageType (::Oculus::Platform::Message::*)()>(
-    &::Oculus::Platform::Message::get_Type)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message_MessageType (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18780;
+  constexpr static std::size_t addrs = 0x3f7882c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_Type",
@@ -448,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_IsError)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ef7104;
+  constexpr static std::size_t addrs = 0x3f571b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_IsError",
@@ -461,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::get_RequestID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18788;
+  constexpr static std::size_t addrs = 0x3f78834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_RequestID",
@@ -474,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Error* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18790;
+  constexpr static std::size_t addrs = 0x3f7883c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -489,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::HttpTransferUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetHttpTransferUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18798;
+  constexpr static std::size_t addrs = 0x3f78844;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -504,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PlatformInitialize* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPlatformInitialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187a0;
+  constexpr static std::size_t addrs = 0x3f7884c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -519,7 +517,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187a8;
+  constexpr static std::size_t addrs = 0x3f78854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -534,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementDefinitionList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementDefinitions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187b0;
+  constexpr static std::size_t addrs = 0x3f7885c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -549,7 +547,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementProgressList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementProgressList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187b8;
+  constexpr static std::size_t addrs = 0x3f78864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -564,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AchievementUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187c0;
+  constexpr static std::size_t addrs = 0x3f7886c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -579,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187c8;
+  constexpr static std::size_t addrs = 0x3f78874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -594,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187d0;
+  constexpr static std::size_t addrs = 0x3f7887c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -609,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationInviteList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetApplicationInviteList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187d8;
+  constexpr static std::size_t addrs = 0x3f78884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -624,7 +622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationVersion* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetApplicationVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187e0;
+  constexpr static std::size_t addrs = 0x3f7888c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -639,7 +637,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetails* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187e8;
+  constexpr static std::size_t addrs = 0x3f78894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -654,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetDetailsList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetDetailsList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187f0;
+  constexpr static std::size_t addrs = 0x3f7889c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -669,7 +667,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDeleteResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDeleteResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f187f8;
+  constexpr static std::size_t addrs = 0x3f788a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -684,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadCancelResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadCancelResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18800;
+  constexpr static std::size_t addrs = 0x3f788ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -699,7 +697,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18808;
+  constexpr static std::size_t addrs = 0x3f788b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -714,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadUpdate* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAssetFileDownloadUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18810;
+  constexpr static std::size_t addrs = 0x3f788bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -729,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18818;
+  constexpr static std::size_t addrs = 0x3f788c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -744,7 +742,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::BlockedUserList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetBlockedUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18820;
+  constexpr static std::size_t addrs = 0x3f788cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -759,7 +757,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Challenge* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18828;
+  constexpr static std::size_t addrs = 0x3f788d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -774,7 +772,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeEntryList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallengeEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18830;
+  constexpr static std::size_t addrs = 0x3f788dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -789,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetChallengeList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18838;
+  constexpr static std::size_t addrs = 0x3f788e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -804,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetDataStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18840;
+  constexpr static std::size_t addrs = 0x3f788ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -819,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetDestinationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18848;
+  constexpr static std::size_t addrs = 0x3f788f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -834,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceJoinIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceJoinIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18850;
+  constexpr static std::size_t addrs = 0x3f788fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -849,7 +847,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::GroupPresenceLeaveIntent* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetGroupPresenceLeaveIntent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18858;
+  constexpr static std::size_t addrs = 0x3f78904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -864,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InstalledApplicationList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetInstalledApplicationList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18860;
+  constexpr static std::size_t addrs = 0x3f7890c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -879,7 +877,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::InvitePanelResultInfo* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18868;
+  constexpr static std::size_t addrs = 0x3f78914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -894,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchBlockFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchBlockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18870;
+  constexpr static std::size_t addrs = 0x3f7891c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -909,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchFriendRequestFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchFriendRequestFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18878;
+  constexpr static std::size_t addrs = 0x3f78924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -924,7 +922,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18880;
+  constexpr static std::size_t addrs = 0x3f7892c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -939,7 +937,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchReportFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18888;
+  constexpr static std::size_t addrs = 0x3f78934;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -954,7 +952,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchUnblockFlowResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLaunchUnblockFlowResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18890;
+  constexpr static std::size_t addrs = 0x3f7893c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -968,7 +966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetLeaderboardDidUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18898;
+  constexpr static std::size_t addrs = 0x3f78944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -983,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardEntryList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLeaderboardEntryList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188a0;
+  constexpr static std::size_t addrs = 0x3f7894c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -998,7 +996,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LeaderboardList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLeaderboardList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188a8;
+  constexpr static std::size_t addrs = 0x3f78954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1013,7 +1011,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LinkedAccountList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLinkedAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188b0;
+  constexpr static std::size_t addrs = 0x3f7895c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1028,7 +1026,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188b8;
+  constexpr static std::size_t addrs = 0x3f78964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1043,7 +1041,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStartResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188c0;
+  constexpr static std::size_t addrs = 0x3f7896c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1058,7 +1056,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingStatus* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188c8;
+  constexpr static std::size_t addrs = 0x3f78974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1073,7 +1071,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingVideoStats* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetLivestreamingVideoStats)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188d0;
+  constexpr static std::size_t addrs = 0x3f7897c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1088,7 +1086,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::MicrophoneAvailabilityState* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetMicrophoneAvailabilityState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188d8;
+  constexpr static std::size_t addrs = 0x3f78984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1103,7 +1101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncConnection* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188e0;
+  constexpr static std::size_t addrs = 0x3f7898c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1118,7 +1116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSessionList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188e8;
+  constexpr static std::size_t addrs = 0x3f78994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1133,7 +1131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionsChangedNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSessionsChangedNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188f0;
+  constexpr static std::size_t addrs = 0x3f7899c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1148,7 +1146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncSetSessionPropertyResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f188f8;
+  constexpr static std::size_t addrs = 0x3f789a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1163,7 +1161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetNetSyncVoipAttenuationValueList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18900;
+  constexpr static std::size_t addrs = 0x3f789ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1178,7 +1176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::OrgScopedID* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetOrgScopedID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18908;
+  constexpr static std::size_t addrs = 0x3f789b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1192,7 +1190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetParty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18910;
+  constexpr static std::size_t addrs = 0x3f789bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1206,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyID* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPartyID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18918;
+  constexpr static std::size_t addrs = 0x3f789c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1221,7 +1219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PartyUpdateNotification* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPartyUpdateNotification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18920;
+  constexpr static std::size_t addrs = 0x3f789cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1235,7 +1233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PidList* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetPidList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18928;
+  constexpr static std::size_t addrs = 0x3f789d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1250,7 +1248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ProductList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetProductList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18930;
+  constexpr static std::size_t addrs = 0x3f789dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1265,7 +1263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Purchase* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPurchase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18938;
+  constexpr static std::size_t addrs = 0x3f789e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1280,7 +1278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::PurchaseList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetPurchaseList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18940;
+  constexpr static std::size_t addrs = 0x3f789ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1295,7 +1293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetRejoinDialogResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18948;
+  constexpr static std::size_t addrs = 0x3f789f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1310,7 +1308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SdkAccountList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSdkAccountList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18950;
+  constexpr static std::size_t addrs = 0x3f789fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1325,7 +1323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SendInvitesResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSendInvitesResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18958;
+  constexpr static std::size_t addrs = 0x3f78a04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1340,7 +1338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ShareMediaResult* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetShareMediaResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18960;
+  constexpr static std::size_t addrs = 0x3f78a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1354,7 +1352,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18968;
+  constexpr static std::size_t addrs = 0x3f78a14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1369,7 +1367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::SystemVoipState* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetSystemVoipState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18970;
+  constexpr static std::size_t addrs = 0x3f78a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1383,7 +1381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::User* (::Oculus::Platform::Message::*)()>(&::Oculus::Platform::Message::GetUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18978;
+  constexpr static std::size_t addrs = 0x3f78a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1398,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18980;
+  constexpr static std::size_t addrs = 0x3f78a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1413,7 +1411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserCapabilityList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserCapabilityList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18988;
+  constexpr static std::size_t addrs = 0x3f78a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1428,7 +1426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserDataStoreUpdateResponse* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserDataStoreUpdateResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18990;
+  constexpr static std::size_t addrs = 0x3f78a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1443,7 +1441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserList* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f18998;
+  constexpr static std::size_t addrs = 0x3f78a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1458,7 +1456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserProof* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserProof)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f189a0;
+  constexpr static std::size_t addrs = 0x3f78a4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1473,7 +1471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserReportID* (::Oculus::Platform::Message::*)()>(
     &::Oculus::Platform::Message::GetUserReportID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f189a8;
+  constexpr static std::size_t addrs = 0x3f78a54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1487,7 +1485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)(::System::IntPtr)>(&::Oculus::Platform::Message::ParseMessageHandle)> {
   constexpr static std::size_t size = 0x1800;
-  constexpr static std::size_t addrs = 0x3f189b0;
+  constexpr static std::size_t addrs = 0x3f78a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1501,7 +1499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)()>(&::Oculus::Platform::Message::PopMessage)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3efb09c;
+  constexpr static std::size_t addrs = 0x3f5b148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "PopMessage",
@@ -1512,25 +1510,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Oculus::Platform::Message.set_HandleExtraMessageTypes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message__ExtraMessageTypesHandler*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_ExtraMessageTypesHandler*)>(
     &::Oculus::Platform::Message::set_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f1bd58;
+  constexpr static std::size_t addrs = 0x3f7be04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "set_HandleExtraMessageTypes", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get() })));
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Oculus::Platform::Message.get_HandleExtraMessageTypes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::__Message__ExtraMessageTypesHandler* (*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message_ExtraMessageTypesHandler* (*)()>(
     &::Oculus::Platform::Message::get_HandleExtraMessageTypes)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3f1bda4;
+  constexpr static std::size_t addrs = 0x3f7be50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(),
@@ -1538,15 +1536,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::Oculus::Platform::__Message__MessageType& Oculus::Platform::Message::__cordl_internal_get_type() {
+constexpr ::Oculus::Platform::Message_MessageType& Oculus::Platform::Message::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::Oculus::Platform::__Message__MessageType const& Oculus::Platform::Message::__cordl_internal_get_type() const {
+constexpr ::Oculus::Platform::Message_MessageType const& Oculus::Platform::Message::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void Oculus::Platform::Message::__cordl_internal_set_type(::Oculus::Platform::__Message__MessageType value) {
+constexpr void Oculus::Platform::Message::__cordl_internal_set_type(::Oculus::Platform::Message_MessageType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___type = value;
 }
@@ -1566,7 +1564,7 @@ constexpr ::Oculus::Platform::Models::Error*& Oculus::Platform::Message::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
-constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Error*> const& Oculus::Platform::Message::__cordl_internal_get_error() const {
+constexpr ::Oculus::Platform::Models::Error* const& Oculus::Platform::Message::__cordl_internal_get_error() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___error;
 }
@@ -1574,17 +1572,14 @@ constexpr void Oculus::Platform::Message::__cordl_internal_set_error(::Oculus::P
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___error)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Oculus::Platform::Message::setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::__Message__ExtraMessageTypesHandler* value) {
-  ::cordl_internals::setStaticField<::Oculus::Platform::__Message__ExtraMessageTypesHandler*, "<HandleExtraMessageTypes>k__BackingField",
+inline void Oculus::Platform::Message::setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::Message_ExtraMessageTypesHandler* value) {
+  ::cordl_internals::setStaticField<::Oculus::Platform::Message_ExtraMessageTypesHandler*, "<HandleExtraMessageTypes>k__BackingField",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get>(
-      std::forward<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>(value));
+      std::forward<::Oculus::Platform::Message_ExtraMessageTypesHandler*>(value));
 }
-inline ::Oculus::Platform::__Message__ExtraMessageTypesHandler* Oculus::Platform::Message::getStaticF__HandleExtraMessageTypes_k__BackingField() {
-  return ::cordl_internals::getStaticField<::Oculus::Platform::__Message__ExtraMessageTypesHandler*, "<HandleExtraMessageTypes>k__BackingField",
+inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* Oculus::Platform::Message::getStaticF__HandleExtraMessageTypes_k__BackingField() {
+  return ::cordl_internals::getStaticField<::Oculus::Platform::Message_ExtraMessageTypesHandler*, "<HandleExtraMessageTypes>k__BackingField",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get>();
-}
-inline ::Oculus::Platform::Message* Oculus::Platform::Message::New_ctor(::System::IntPtr c_message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Message*>(c_message));
 }
 inline void Oculus::Platform::Message::_ctor(::System::IntPtr c_message) {
   static auto* ___internal_method =
@@ -1597,10 +1592,10 @@ inline void Oculus::Platform::Message::Finalize() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Oculus::Platform::__Message__MessageType Oculus::Platform::Message::get_Type() {
+inline ::Oculus::Platform::Message_MessageType Oculus::Platform::Message::get_Type() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_Type",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::__Message__MessageType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Message_MessageType, false>(this, ___internal_method);
 }
 inline bool Oculus::Platform::Message::get_IsError() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_IsError",
@@ -1963,16 +1958,19 @@ inline ::Oculus::Platform::Message* Oculus::Platform::Message::PopMessage() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Message*, false>(nullptr, ___internal_method);
 }
-inline void Oculus::Platform::Message::set_HandleExtraMessageTypes(::Oculus::Platform::__Message__ExtraMessageTypesHandler* value) {
+inline void Oculus::Platform::Message::set_HandleExtraMessageTypes(::Oculus::Platform::Message_ExtraMessageTypesHandler* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "set_HandleExtraMessageTypes", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::__Message__ExtraMessageTypesHandler*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Message_ExtraMessageTypesHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
-inline ::Oculus::Platform::__Message__ExtraMessageTypesHandler* Oculus::Platform::Message::get_HandleExtraMessageTypes() {
+inline ::Oculus::Platform::Message_ExtraMessageTypesHandler* Oculus::Platform::Message::get_HandleExtraMessageTypes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Message*>::get(), "get_HandleExtraMessageTypes",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::__Message__ExtraMessageTypesHandler*, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Message_ExtraMessageTypesHandler*, false>(nullptr, ___internal_method);
+}
+inline ::Oculus::Platform::Message* Oculus::Platform::Message::New_ctor(::System::IntPtr c_message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Message*>(c_message));
 }
 // Ctor Parameters []
 constexpr ::Oculus::Platform::Message::Message() {}

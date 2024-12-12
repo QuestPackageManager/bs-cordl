@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlAttributeEventArgs::*)(
     ::System::Xml::XmlAttribute*, int32_t, int32_t, ::System::Object*, ::StringW)>(&::System::Xml::Serialization::XmlAttributeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4304da4;
+  constexpr static std::size_t addrs = 0x43660b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ constexpr ::System::Object*& System::Xml::Serialization::XmlAttributeEventArgs::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Xml::Serialization::XmlAttributeEventArgs::__cordl_internal_get_o() const {
+constexpr ::System::Object* const& System::Xml::Serialization::XmlAttributeEventArgs::__cordl_internal_get_o() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___o;
 }
@@ -38,7 +38,7 @@ constexpr ::System::Xml::XmlAttribute*& System::Xml::Serialization::XmlAttribute
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlAttribute*> const& System::Xml::Serialization::XmlAttributeEventArgs::__cordl_internal_get_attr() const {
+constexpr ::System::Xml::XmlAttribute* const& System::Xml::Serialization::XmlAttributeEventArgs::__cordl_internal_get_attr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___attr;
 }
@@ -82,10 +82,6 @@ constexpr void System::Xml::Serialization::XmlAttributeEventArgs::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linePosition = value;
 }
-inline ::System::Xml::Serialization::XmlAttributeEventArgs* System::Xml::Serialization::XmlAttributeEventArgs::New_ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition,
-                                                                                                                        ::System::Object* o, ::StringW qnames) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlAttributeEventArgs*>(attr, lineNumber, linePosition, o, qnames));
-}
 inline void System::Xml::Serialization::XmlAttributeEventArgs::_ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition, ::System::Object* o, ::StringW qnames) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlAttributeEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -93,6 +89,10 @@ inline void System::Xml::Serialization::XmlAttributeEventArgs::_ctor(::System::X
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attr, lineNumber, linePosition, o, qnames);
+}
+inline ::System::Xml::Serialization::XmlAttributeEventArgs* System::Xml::Serialization::XmlAttributeEventArgs::New_ctor(::System::Xml::XmlAttribute* attr, int32_t lineNumber, int32_t linePosition,
+                                                                                                                        ::System::Object* o, ::StringW qnames) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlAttributeEventArgs*>(attr, lineNumber, linePosition, o, qnames));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Serialization::XmlAttributeEventArgs::XmlAttributeEventArgs() {}

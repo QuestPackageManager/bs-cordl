@@ -11,11 +11,10 @@ class HEU_SessionPDG;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionPDG);
-// Type: HoudiniEngineUnity::HEU_SessionPDG
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_SessionPDG*
+// CS Name: HoudiniEngineUnity.HEU_SessionPDG
 class CORDL_TYPE HEU_SessionPDG : public ::System::Object {
 public:
   // Declarations
@@ -34,7 +33,7 @@ public:
   HEU_SessionPDG(HEU_SessionPDG const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11770 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

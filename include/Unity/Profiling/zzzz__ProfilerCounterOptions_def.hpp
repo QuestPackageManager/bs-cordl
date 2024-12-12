@@ -12,11 +12,10 @@ struct ProfilerCounterOptions;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerCounterOptions);
-// Type: Unity.Profiling::ProfilerCounterOptions
-// SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::Profiling {
 // Is value type: true
-// CS Name: ::Unity.Profiling::ProfilerCounterOptions
+// CS Name: Unity.Profiling.ProfilerCounterOptions
 struct CORDL_TYPE ProfilerCounterOptions {
 public:
   // Declarations
@@ -46,30 +45,30 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: None }]
   constexpr ProfilerCounterOptions(uint16_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
-  uint16_t value__;
-
-  /// @brief Field FlushOnEndOfFrame value: static_cast<uint16_t>(0x2u)
+  /// @brief Field FlushOnEndOfFrame value: U16(2)
   static ::Unity::Profiling::ProfilerCounterOptions const FlushOnEndOfFrame;
 
-  /// @brief Field None value: static_cast<uint16_t>(0x0u)
+  /// @brief Field None value: U16(0)
   static ::Unity::Profiling::ProfilerCounterOptions const None;
 
-  /// @brief Field ResetToZeroOnFlush value: static_cast<uint16_t>(0x4u)
+  /// @brief Field ResetToZeroOnFlush value: U16(4)
   static ::Unity::Profiling::ProfilerCounterOptions const ResetToZeroOnFlush;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10562 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x2, def value: None
+  uint16_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Profiling::ProfilerCounterOptions, 0x2>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Profiling::ProfilerCounterOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Profiling::ProfilerCounterOptions, 0x2>, "Size mismatch!");
 
 } // namespace Unity::Profiling
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::ProfilerCounterOptions, "Unity.Profiling", "ProfilerCounterOptions");

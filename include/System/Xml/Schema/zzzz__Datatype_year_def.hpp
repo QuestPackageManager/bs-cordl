@@ -14,11 +14,10 @@ class Datatype_year;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_year);
-// Type: System.Xml.Schema::Datatype_year
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_dateTimeBase
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_year*
+// CS Name: System.Xml.Schema.Datatype_year
 class CORDL_TYPE Datatype_year : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
@@ -26,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_year* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4343394, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a46a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x4349744, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43aaa58, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +46,7 @@ public:
   Datatype_year(Datatype_year const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7541 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,11 +23,10 @@ class RepaintData;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::RepaintData);
-// Type: UnityEngine.UIElements::RepaintData
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::RepaintData*
+// CS Name: UnityEngine.UIElements.RepaintData
 class CORDL_TYPE RepaintData : public ::System::Object {
 public:
   // Declarations
@@ -64,9 +63,9 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__mousePosition_k__BackingField();
 
-  constexpr ::UnityEngine::Event*& __cordl_internal_get__repaintEvent_k__BackingField();
+  constexpr ::UnityEngine::Event* const& __cordl_internal_get__repaintEvent_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get__repaintEvent_k__BackingField() const;
+  constexpr ::UnityEngine::Event*& __cordl_internal_get__repaintEvent_k__BackingField();
 
   constexpr void __cordl_internal_set__currentOffset_k__BackingField(::UnityEngine::Matrix4x4 value);
 
@@ -76,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x49db9a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a402b0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentOffset, addr 0x49db970, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x4a40280, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip, addr 0x49db984, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x4a40294, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent, addr 0x49db990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x4a402a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent, addr 0x49db998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x4a402a8, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:
@@ -105,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RepaintData(RepaintData const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6003 };
+
   /// @brief Field <currentOffset>k__BackingField, offset: 0x10, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ____currentOffset_k__BackingField;
 
@@ -117,14 +119,9 @@ public:
   /// @brief Field <repaintEvent>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Event* ____repaintEvent_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5978 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepaintData, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::RepaintData, ____currentOffset_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::RepaintData, ____mousePosition_k__BackingField) == 0x50, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::UnityEngine::UIElements::RepaintData, ____mousePosition
 static_assert(offsetof(::UnityEngine::UIElements::RepaintData, ____currentWorldClip_k__BackingField) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::RepaintData, ____repaintEvent_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepaintData, 0x70>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RepaintData);

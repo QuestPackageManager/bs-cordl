@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__Gost3411_2012Digest_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3411_2012_512Digest)
@@ -17,38 +16,37 @@ class Gost3411_2012_512Digest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest);
-// Type: Org.BouncyCastle.Crypto.Digests::Gost3411_2012_512Digest
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Digests::Gost3411_2012_512Digest*
+// CS Name: Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest
 class CORDL_TYPE Gost3411_2012_512Digest : public ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
 public:
   // Declarations
   __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
 
   /// @brief Field IV, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_IV, put = setStaticF_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+  __declspec(property(get = getStaticF_IV, put = setStaticF_IV)) ::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
-  /// @brief Method Copy, addr 0x2663aec, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x2696dd8, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method GetDigestSize, addr 0x2663ae4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x2696dd0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
-  /// @brief Method .ctor, addr 0x26639b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2696ca0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2663a40, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2696d2c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV();
 
-  /// @brief Method get_AlgorithmName, addr 0x2663974, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x2696c60, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline void setStaticF_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

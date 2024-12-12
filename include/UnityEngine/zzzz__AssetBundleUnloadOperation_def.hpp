@@ -11,20 +11,19 @@ class AssetBundleUnloadOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AssetBundleUnloadOperation);
-// Type: UnityEngine::AssetBundleUnloadOperation
-// SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AssetBundleUnloadOperation*
+// CS Name: UnityEngine.AssetBundleUnloadOperation
 class CORDL_TYPE AssetBundleUnloadOperation : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
   static inline ::UnityEngine::AssetBundleUnloadOperation* New_ctor();
 
-  /// @brief Method WaitForCompletion, addr 0x47f57b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletion, addr 0x4856ac8, size 0x3c, virtual false, abstract: false, final false
   inline void WaitForCompletion();
 
-  /// @brief Method .ctor, addr 0x47f57f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4856b04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   AssetBundleUnloadOperation(AssetBundleUnloadOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

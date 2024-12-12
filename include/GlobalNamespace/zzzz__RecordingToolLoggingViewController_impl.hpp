@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolLoggingViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolLoggingViewController::DidActivate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bbce4c;
+  constexpr static std::size_t addrs = 0x3c1ff7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolLoggingViewController::*)()>(
     &::GlobalNamespace::RecordingToolLoggingViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbcee8;
+  constexpr static std::size_t addrs = 0x3c20018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolLoggingViewController*>::get(),
@@ -50,7 +50,7 @@ constexpr ::GlobalNamespace::ListLogger*& GlobalNamespace::RecordingToolLoggingV
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listLogger;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListLogger*> const& GlobalNamespace::RecordingToolLoggingViewController::__cordl_internal_get__listLogger() const {
+constexpr ::GlobalNamespace::ListLogger* const& GlobalNamespace::RecordingToolLoggingViewController::__cordl_internal_get__listLogger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____listLogger;
 }
@@ -64,13 +64,13 @@ inline void GlobalNamespace::RecordingToolLoggingViewController::DidActivate(boo
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolLoggingViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline ::GlobalNamespace::RecordingToolLoggingViewController* GlobalNamespace::RecordingToolLoggingViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolLoggingViewController*>());
-}
 inline void GlobalNamespace::RecordingToolLoggingViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolLoggingViewController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingToolLoggingViewController* GlobalNamespace::RecordingToolLoggingViewController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolLoggingViewController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RecordingToolLoggingViewController::RecordingToolLoggingViewController() {}

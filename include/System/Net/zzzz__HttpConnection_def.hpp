@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Net/zzzz__HttpConnection_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -30,6 +27,12 @@ namespace System::Net {
 class EndPointListener;
 }
 namespace System::Net {
+struct HttpConnection_InputState;
+}
+namespace System::Net {
+struct HttpConnection_LineState;
+}
+namespace System::Net {
 class HttpListenerContext;
 }
 namespace System::Net {
@@ -46,12 +49,6 @@ class RequestStream;
 }
 namespace System::Net {
 class ResponseStream;
-}
-namespace System::Net {
-struct __HttpConnection__InputState;
-}
-namespace System::Net {
-struct __HttpConnection__LineState;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
@@ -79,37 +76,36 @@ class Object;
 }
 // Forward declare root types
 namespace System::Net {
-struct __HttpConnection__InputState;
+struct HttpConnection_InputState;
 }
 namespace System::Net {
-struct __HttpConnection__LineState;
+struct HttpConnection_LineState;
 }
 namespace System::Net {
 class HttpConnection;
 }
 // Write type traits
-MARK_VAL_T(::System::Net::__HttpConnection__InputState);
-MARK_VAL_T(::System::Net::__HttpConnection__LineState);
+MARK_VAL_T(::System::Net::HttpConnection_InputState);
+MARK_VAL_T(::System::Net::HttpConnection_LineState);
 MARK_REF_PTR_T(::System::Net::HttpConnection);
-// Type: ::InputState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::HttpConnection::InputState
-struct CORDL_TYPE __HttpConnection__InputState {
+// CS Name: System.Net.HttpConnection/InputState
+struct CORDL_TYPE HttpConnection_InputState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HttpConnection__InputState_Unwrapped
-  enum struct ____HttpConnection__InputState_Unwrapped : int32_t {
+  /// @brief Nested struct __HttpConnection_InputState_Unwrapped
+  enum struct __HttpConnection_InputState_Unwrapped : int32_t {
     __E_RequestLine = static_cast<int32_t>(0x0),
     __E_Headers = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HttpConnection__InputState_Unwrapped() const noexcept {
-    return static_cast<____HttpConnection__InputState_Unwrapped>(this->value__);
+  constexpr operator __HttpConnection_InputState_Unwrapped() const noexcept {
+    return static_cast<__HttpConnection_InputState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -119,54 +115,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HttpConnection__InputState();
+  constexpr HttpConnection_InputState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpConnection__InputState(int32_t value__) noexcept;
+  constexpr HttpConnection_InputState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Headers value: I32(1)
+  static ::System::Net::HttpConnection_InputState const Headers;
 
-  /// @brief Field Headers value: static_cast<int32_t>(0x1)
-  static ::System::Net::__HttpConnection__InputState const Headers;
-
-  /// @brief Field RequestLine value: static_cast<int32_t>(0x0)
-  static ::System::Net::__HttpConnection__InputState const RequestLine;
+  /// @brief Field RequestLine value: I32(0)
+  static ::System::Net::HttpConnection_InputState const RequestLine;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9659 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9684 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__HttpConnection__InputState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::HttpConnection_InputState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__HttpConnection__InputState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpConnection_InputState, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: ::LineState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Net {
 // Is value type: true
-// CS Name: ::HttpConnection::LineState
-struct CORDL_TYPE __HttpConnection__LineState {
+// CS Name: System.Net.HttpConnection/LineState
+struct CORDL_TYPE HttpConnection_LineState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HttpConnection__LineState_Unwrapped
-  enum struct ____HttpConnection__LineState_Unwrapped : int32_t {
+  /// @brief Nested struct __HttpConnection_LineState_Unwrapped
+  enum struct __HttpConnection_LineState_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_CR = static_cast<int32_t>(0x1),
     __E_LF = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HttpConnection__LineState_Unwrapped() const noexcept {
-    return static_cast<____HttpConnection__LineState_Unwrapped>(this->value__);
+  constexpr operator __HttpConnection_LineState_Unwrapped() const noexcept {
+    return static_cast<__HttpConnection_LineState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -176,48 +171,47 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HttpConnection__LineState();
+  constexpr HttpConnection_LineState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HttpConnection__LineState(int32_t value__) noexcept;
+  constexpr HttpConnection_LineState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CR value: I32(1)
+  static ::System::Net::HttpConnection_LineState const CR;
 
-  /// @brief Field CR value: static_cast<int32_t>(0x1)
-  static ::System::Net::__HttpConnection__LineState const CR;
+  /// @brief Field LF value: I32(2)
+  static ::System::Net::HttpConnection_LineState const LF;
 
-  /// @brief Field LF value: static_cast<int32_t>(0x2)
-  static ::System::Net::__HttpConnection__LineState const LF;
-
-  /// @brief Field None value: static_cast<int32_t>(0x0)
-  static ::System::Net::__HttpConnection__LineState const None;
+  /// @brief Field None value: I32(0)
+  static ::System::Net::HttpConnection_LineState const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9685 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::__HttpConnection__LineState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Net::HttpConnection_LineState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::__HttpConnection__LineState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpConnection_LineState, 0x4>, "Size mismatch!");
 
 } // namespace System::Net
-// Type: System.Net::HttpConnection
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.HttpConnection::InputState, System.Net.HttpConnection::LineState, System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::HttpConnection*
+// CS Name: System.Net.HttpConnection
 class CORDL_TYPE HttpConnection : public ::System::Object {
 public:
   // Declarations
-  using InputState = ::System::Net::__HttpConnection__InputState;
+  using InputState = ::System::Net::HttpConnection_InputState;
 
-  using LineState = ::System::Net::__HttpConnection__LineState;
+  using LineState = ::System::Net::HttpConnection_LineState;
 
   __declspec(property(get = get_IsSecure)) bool IsSecure;
 
@@ -258,13 +252,13 @@ public:
   __declspec(property(get = __cordl_internal_get_i_stream, put = __cordl_internal_set_i_stream)) ::System::Net::RequestStream* i_stream;
 
   /// @brief Field input_state, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get_input_state, put = __cordl_internal_set_input_state)) ::System::Net::__HttpConnection__InputState input_state;
+  __declspec(property(get = __cordl_internal_get_input_state, put = __cordl_internal_set_input_state)) ::System::Net::HttpConnection_InputState input_state;
 
   /// @brief Field last_listener, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_last_listener, put = __cordl_internal_set_last_listener)) ::System::Net::HttpListener* last_listener;
 
   /// @brief Field line_state, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_line_state, put = __cordl_internal_set_line_state)) ::System::Net::__HttpConnection__LineState line_state;
+  __declspec(property(get = __cordl_internal_get_line_state, put = __cordl_internal_set_line_state)) ::System::Net::HttpConnection_LineState line_state;
 
   /// @brief Field local_ep, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_local_ep, put = __cordl_internal_set_local_ep)) ::System::Net::IPEndPoint* local_ep;
@@ -276,7 +270,7 @@ public:
   __declspec(property(get = __cordl_internal_get_o_stream, put = __cordl_internal_set_o_stream)) ::System::Net::ResponseStream* o_stream;
 
   /// @brief Field onread_cb, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_onread_cb, put = setStaticF_onread_cb)) ::System::AsyncCallback* onread_cb;
+  __declspec(property(get = getStaticF_onread_cb, put = setStaticF_onread_cb)) ::System::AsyncCallback* onread_cb;
 
   /// @brief Field position, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int32_t position;
@@ -305,125 +299,125 @@ public:
   /// @brief Field timer, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_timer, put = __cordl_internal_set_timer)) ::System::Threading::Timer* timer;
 
-  /// @brief Method BeginReadRequest, addr 0x445e77c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method BeginReadRequest, addr 0x44bfa90, size 0x1a8, virtual false, abstract: false, final false
   inline void BeginReadRequest();
 
-  /// @brief Method Close, addr 0x4460014, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x44c1328, size 0x264, virtual false, abstract: false, final false
   inline void Close(bool force_close);
 
-  /// @brief Method CloseSocket, addr 0x4462560, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CloseSocket, addr 0x44c3874, size 0x104, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method GetRequestStream, addr 0x4462694, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetRequestStream, addr 0x44c39a8, size 0x148, virtual false, abstract: false, final false
   inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
 
-  /// @brief Method GetResponseStream, addr 0x44627dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x44c3af0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Net::ResponseStream* GetResponseStream();
 
-  /// @brief Method Init, addr 0x4462328, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44c363c, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method OnRead, addr 0x44628a4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnRead, addr 0x44c3bb8, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRead(::System::IAsyncResult* ares);
 
-  /// @brief Method OnReadInternal, addr 0x4462978, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method OnReadInternal, addr 0x44c3c8c, size 0x338, virtual false, abstract: false, final false
   inline void OnReadInternal(::System::IAsyncResult* ares);
 
-  /// @brief Method OnTimeout, addr 0x4462548, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnTimeout, addr 0x44c385c, size 0x18, virtual false, abstract: false, final false
   inline void OnTimeout(::System::Object* unused);
 
-  /// @brief Method ProcessInput, addr 0x4462cd0, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ProcessInput, addr 0x44c3fe4, size 0x2b8, virtual false, abstract: false, final false
   inline bool ProcessInput(::System::IO::MemoryStream* ms);
 
-  /// @brief Method ReadLine, addr 0x44639bc, size 0x174, virtual false, abstract: false, final false
-  inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used);
+  /// @brief Method ReadLine, addr 0x44c4cd0, size 0x174, virtual false, abstract: false, final false
+  inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ::ByRef<int32_t> used);
 
-  /// @brief Method RemoveConnection, addr 0x44635bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RemoveConnection, addr 0x44c48d0, size 0x40, virtual false, abstract: false, final false
   inline void RemoveConnection();
 
-  /// @brief Method SendError, addr 0x4462cb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x44c3fc4, size 0x20, virtual false, abstract: false, final false
   inline void SendError();
 
-  /// @brief Method SendError, addr 0x445a3c4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method SendError, addr 0x44bb6d8, size 0x1dc, virtual false, abstract: false, final false
   inline void SendError(::StringW msg, int32_t status);
 
-  /// @brief Method Unbind, addr 0x4462664, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Unbind, addr 0x44c3978, size 0x30, virtual false, abstract: false, final false
   inline void Unbind();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_cert();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate* const& __cordl_internal_get_cert() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_cert() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_cert();
 
   constexpr bool const& __cordl_internal_get_chunked() const;
 
   constexpr bool& __cordl_internal_get_chunked();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_client_cert();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2* const& __cordl_internal_get_client_cert() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get_client_cert() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_client_cert();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_client_cert_errors() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_client_cert_errors();
 
-  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
+  constexpr ::System::Net::HttpListenerContext* const& __cordl_internal_get_context() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
+  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
   constexpr bool const& __cordl_internal_get_context_bound() const;
 
   constexpr bool& __cordl_internal_get_context_bound();
 
+  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_current_line() const;
+
   constexpr ::System::Text::StringBuilder*& __cordl_internal_get_current_line();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_current_line() const;
+  constexpr ::System::Net::EndPointListener* const& __cordl_internal_get_epl() const;
 
   constexpr ::System::Net::EndPointListener*& __cordl_internal_get_epl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPointListener*> const& __cordl_internal_get_epl() const;
+  constexpr ::System::Net::RequestStream* const& __cordl_internal_get_i_stream() const;
 
   constexpr ::System::Net::RequestStream*& __cordl_internal_get_i_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::RequestStream*> const& __cordl_internal_get_i_stream() const;
+  constexpr ::System::Net::HttpConnection_InputState const& __cordl_internal_get_input_state() const;
 
-  constexpr ::System::Net::__HttpConnection__InputState const& __cordl_internal_get_input_state() const;
+  constexpr ::System::Net::HttpConnection_InputState& __cordl_internal_get_input_state();
 
-  constexpr ::System::Net::__HttpConnection__InputState& __cordl_internal_get_input_state();
+  constexpr ::System::Net::HttpListener* const& __cordl_internal_get_last_listener() const;
 
   constexpr ::System::Net::HttpListener*& __cordl_internal_get_last_listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_last_listener() const;
+  constexpr ::System::Net::HttpConnection_LineState const& __cordl_internal_get_line_state() const;
 
-  constexpr ::System::Net::__HttpConnection__LineState const& __cordl_internal_get_line_state() const;
+  constexpr ::System::Net::HttpConnection_LineState& __cordl_internal_get_line_state();
 
-  constexpr ::System::Net::__HttpConnection__LineState& __cordl_internal_get_line_state();
+  constexpr ::System::Net::IPEndPoint* const& __cordl_internal_get_local_ep() const;
 
   constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_local_ep();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_local_ep() const;
+  constexpr ::System::IO::MemoryStream* const& __cordl_internal_get_ms() const;
 
   constexpr ::System::IO::MemoryStream*& __cordl_internal_get_ms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_ms() const;
+  constexpr ::System::Net::ResponseStream* const& __cordl_internal_get_o_stream() const;
 
   constexpr ::System::Net::ResponseStream*& __cordl_internal_get_o_stream();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& __cordl_internal_get_o_stream() const;
 
   constexpr int32_t const& __cordl_internal_get_position() const;
 
   constexpr int32_t& __cordl_internal_get_position();
 
-  constexpr ::System::Net::ListenerPrefix*& __cordl_internal_get_prefix();
+  constexpr ::System::Net::ListenerPrefix* const& __cordl_internal_get_prefix() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerPrefix*> const& __cordl_internal_get_prefix() const;
+  constexpr ::System::Net::ListenerPrefix*& __cordl_internal_get_prefix();
 
   constexpr int32_t const& __cordl_internal_get_reuses() const;
 
@@ -437,21 +431,21 @@ public:
 
   constexpr bool& __cordl_internal_get_secure();
 
+  constexpr ::System::Net::Sockets::Socket* const& __cordl_internal_get_sock() const;
+
   constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_sock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_sock() const;
+  constexpr ::System::Net::Security::SslStream* const& __cordl_internal_get_ssl_stream() const;
 
   constexpr ::System::Net::Security::SslStream*& __cordl_internal_get_ssl_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get_ssl_stream() const;
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_stream() const;
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+  constexpr ::System::Threading::Timer* const& __cordl_internal_get_timer() const;
 
   constexpr ::System::Threading::Timer*& __cordl_internal_get_timer();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get_timer() const;
 
   constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -473,11 +467,11 @@ public:
 
   constexpr void __cordl_internal_set_i_stream(::System::Net::RequestStream* value);
 
-  constexpr void __cordl_internal_set_input_state(::System::Net::__HttpConnection__InputState value);
+  constexpr void __cordl_internal_set_input_state(::System::Net::HttpConnection_InputState value);
 
   constexpr void __cordl_internal_set_last_listener(::System::Net::HttpListener* value);
 
-  constexpr void __cordl_internal_set_line_state(::System::Net::__HttpConnection__LineState value);
+  constexpr void __cordl_internal_set_line_state(::System::Net::HttpConnection_LineState value);
 
   constexpr void __cordl_internal_set_local_ep(::System::Net::IPEndPoint* value);
 
@@ -503,27 +497,27 @@ public:
 
   constexpr void __cordl_internal_set_timer(::System::Threading::Timer* value);
 
-  /// @brief Method <.ctor>b__24_0, addr 0x4464bec, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__24_0, addr 0x44c5f00, size 0xf0, virtual false, abstract: false, final false
   inline bool __ctor_b__24_0(::System::Object* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                              ::System::Net::Security::SslPolicyErrors e);
 
-  /// @brief Method .ctor, addr 0x445e530, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44bf844, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
   static inline ::System::AsyncCallback* getStaticF_onread_cb();
 
-  /// @brief Method get_IsSecure, addr 0x4462538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSecure, addr 0x44c384c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSecure();
 
-  /// @brief Method get_LocalEndPoint, addr 0x4462480, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalEndPoint, addr 0x44c3794, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_Reuses, addr 0x4462478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Reuses, addr 0x44c378c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Reuses();
 
   static inline void setStaticF_onread_cb(::System::AsyncCallback* value);
 
-  /// @brief Method set_Prefix, addr 0x4462540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x44c3854, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::System::Net::ListenerPrefix* value);
 
 protected:
@@ -539,6 +533,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HttpConnection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HttpConnection(HttpConnection const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9686 };
 
   /// @brief Field sock, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Sockets::Socket* ___sock;
@@ -607,22 +604,17 @@ public:
   ::System::Net::Security::SslStream* ___ssl_stream;
 
   /// @brief Field input_state, offset: 0xb0, size: 0x4, def value: None
-  ::System::Net::__HttpConnection__InputState ___input_state;
+  ::System::Net::HttpConnection_InputState ___input_state;
 
   /// @brief Field line_state, offset: 0xb4, size: 0x4, def value: None
-  ::System::Net::__HttpConnection__LineState ___line_state;
+  ::System::Net::HttpConnection_LineState ___line_state;
 
   /// @brief Field position, offset: 0xb8, size: 0x4, def value: None
   int32_t ___position;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9661 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::HttpConnection, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::HttpConnection, ___sock) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::HttpConnection, ___stream) == 0x18, "Offset mismatch!");
@@ -673,8 +665,10 @@ static_assert(offsetof(::System::Net::HttpConnection, ___line_state) == 0xb4, "O
 
 static_assert(offsetof(::System::Net::HttpConnection, ___position) == 0xb8, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Net::HttpConnection, 0xc0>, "Size mismatch!");
+
 } // namespace System::Net
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__HttpConnection__InputState, "System.Net", "HttpConnection/InputState");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::__HttpConnection__LineState, "System.Net", "HttpConnection/LineState");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpConnection_InputState, "System.Net", "HttpConnection/InputState");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpConnection_LineState, "System.Net", "HttpConnection/LineState");
 NEED_NO_BOX(::System::Net::HttpConnection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpConnection*, "System.Net", "HttpConnection");

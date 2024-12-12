@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(
     ::Zenject::BindInfo*, ::Zenject::GameObjectCreationParameters*)>(&::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a9dfd4;
+  constexpr static std::size_t addrs = 0x4b028e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* (
     ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::StringW)>(&::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4aab6b4;
+  constexpr static std::size_t addrs = 0x4b0ffc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,10 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*
-Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(bindInfo, gameObjectInfo));
-}
 inline void Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -52,6 +48,10 @@ inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* Zenject
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>::get(), "WithGameObjectName",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, false>(this, ___internal_method, gameObjectName);
+}
+inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*
+Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*>(bindInfo, gameObjectInfo));
 }
 // Ctor Parameters []
 constexpr ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder() {}

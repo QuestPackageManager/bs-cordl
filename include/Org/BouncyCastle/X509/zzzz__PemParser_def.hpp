@@ -18,11 +18,10 @@ class PemParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::PemParser);
-// Type: Org.BouncyCastle.X509::PemParser
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.X509::PemParser*
+// CS Name: Org.BouncyCastle.X509.PemParser
 class CORDL_TYPE PemParser : public ::System::Object {
 public:
   // Declarations
@@ -40,10 +39,10 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-  /// @brief Method ReadLine, addr 0x25b9688, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x25ec974, size 0xe4, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadPemObject, addr 0x25b976c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method ReadPemObject, addr 0x25eca58, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
   constexpr ::StringW const& __cordl_internal_get__footer1() const;
@@ -70,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__header2(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25b9570, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ec85c, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::StringW type);
 
 protected:
@@ -87,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PemParser(PemParser const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1855 };
+
   /// @brief Field _header1, offset: 0x10, size: 0x8, def value: None
   ::StringW ____header1;
 
@@ -99,14 +101,9 @@ public:
   /// @brief Field _footer2, offset: 0x28, size: 0x8, def value: None
   ::StringW ____footer2;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1855 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::PemParser, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____header1) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____header2) == 0x18, "Offset mismatch!");
@@ -114,6 +111,8 @@ static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____header2) == 0x1
 static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____footer1) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::X509::PemParser, ____footer2) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::PemParser, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::PemParser);

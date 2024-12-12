@@ -4,9 +4,8 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__XMLSchema_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XDRSchema)
@@ -20,13 +19,10 @@ namespace System::Data {
 class DataTable;
 }
 namespace System::Data {
-class __XDRSchema__NameType;
+class XDRSchema_NameType;
 }
 namespace System::Xml {
 class XmlElement;
-}
-namespace System {
-class IComparable;
 }
 namespace System {
 class Object;
@@ -39,17 +35,16 @@ namespace System::Data {
 class XDRSchema;
 }
 namespace System::Data {
-class __XDRSchema__NameType;
+class XDRSchema_NameType;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::XDRSchema);
-MARK_REF_PTR_T(::System::Data::__XDRSchema__NameType);
-// Type: ::NameType
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::System::Data::XDRSchema_NameType);
+// Dependencies System.IComparable, System.Object
 namespace System::Data {
 // Is value type: false
-// CS Name: ::XDRSchema::NameType*
-class CORDL_TYPE __XDRSchema__NameType : public ::System::Object {
+// CS Name: System.Data.XDRSchema/NameType
+class CORDL_TYPE XDRSchema_NameType : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
@@ -61,24 +56,24 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x412cf38, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x418e24c, size 0x70, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  static inline ::System::Data::__XDRSchema__NameType* New_ctor(::StringW n, ::System::Type* t);
+  static inline ::System::Data::XDRSchema_NameType* New_ctor(::StringW n, ::System::Type* t);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
 
   constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x412cf0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x418e220, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW n, ::System::Type* t);
 
   /// @brief Convert to "::System::IComparable"
@@ -87,16 +82,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __XDRSchema__NameType();
+  constexpr XDRSchema_NameType();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XDRSchema__NameType", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDRSchema_NameType", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __XDRSchema__NameType(__XDRSchema__NameType&&) = delete;
+  XDRSchema_NameType(XDRSchema_NameType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XDRSchema__NameType", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "XDRSchema_NameType", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __XDRSchema__NameType(__XDRSchema__NameType const&) = delete;
+  XDRSchema_NameType(XDRSchema_NameType const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11469 };
 
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___name;
@@ -104,28 +102,24 @@ public:
   /// @brief Field type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11436 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::__XDRSchema__NameType, 0x20>, "Size mismatch!");
+static_assert(offsetof(::System::Data::XDRSchema_NameType, ___name) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Data::__XDRSchema__NameType, ___name) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::System::Data::XDRSchema_NameType, ___type) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Data::__XDRSchema__NameType, ___type) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Data::XDRSchema_NameType, 0x20>, "Size mismatch!");
 
 } // namespace System::Data
-// Type: System.Data::XDRSchema
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.XMLSchema
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::XDRSchema*
+// CS Name: System.Data.XDRSchema
 class CORDL_TYPE XDRSchema : public ::System::Data::XMLSchema {
 public:
   // Declarations
-  using NameType = ::System::Data::__XDRSchema__NameType;
+  using NameType = ::System::Data::XDRSchema_NameType;
 
   /// @brief Field _ds, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__ds, put = __cordl_internal_set__ds)) ::System::Data::DataSet* _ds;
@@ -140,70 +134,70 @@ public:
   __declspec(property(get = __cordl_internal_get__schemaUri, put = __cordl_internal_set__schemaUri)) ::StringW _schemaUri;
 
   /// @brief Field s_colonArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_colonArray, put = setStaticF_s_colonArray)) ::ArrayW<char16_t, ::Array<char16_t>*> s_colonArray;
+  __declspec(property(get = getStaticF_s_colonArray, put = setStaticF_s_colonArray)) ::ArrayW<char16_t, ::Array<char16_t>*> s_colonArray;
 
   /// @brief Field s_enumerationNameType, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_enumerationNameType, put = setStaticF_s_enumerationNameType)) ::System::Data::__XDRSchema__NameType* s_enumerationNameType;
+  __declspec(property(get = getStaticF_s_enumerationNameType, put = setStaticF_s_enumerationNameType)) ::System::Data::XDRSchema_NameType* s_enumerationNameType;
 
   /// @brief Field s_mapNameTypeXdr, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_mapNameTypeXdr, put = setStaticF_s_mapNameTypeXdr)) ::ArrayW<::System::Data::__XDRSchema__NameType*, ::Array<::System::Data::__XDRSchema__NameType*>*>
+  __declspec(property(get = getStaticF_s_mapNameTypeXdr, put = setStaticF_s_mapNameTypeXdr)) ::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*>
       s_mapNameTypeXdr;
 
-  /// @brief Method FindNameType, addr 0x412aa10, size 0xd4, virtual false, abstract: false, final false
-  static inline ::System::Data::__XDRSchema__NameType* FindNameType(::StringW name);
+  /// @brief Method FindNameType, addr 0x418bd24, size 0xd4, virtual false, abstract: false, final false
+  static inline ::System::Data::XDRSchema_NameType* FindNameType(::StringW name);
 
-  /// @brief Method FindTypeNode, addr 0x4129ab8, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method FindTypeNode, addr 0x418adcc, size 0x32c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlElement* FindTypeNode(::System::Xml::XmlElement* node);
 
-  /// @brief Method GetInstanceName, addr 0x412ac20, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstanceName, addr 0x418bf34, size 0x178, virtual false, abstract: false, final false
   inline ::StringW GetInstanceName(::System::Xml::XmlElement* node);
 
-  /// @brief Method GetMinMax, addr 0x412b74c, size 0x338, virtual false, abstract: false, final false
-  inline void GetMinMax(::System::Xml::XmlElement* elNode, bool isAttribute, ByRef<int32_t> minOccurs, ByRef<int32_t> maxOccurs);
+  /// @brief Method GetMinMax, addr 0x418ca60, size 0x338, virtual false, abstract: false, final false
+  inline void GetMinMax(::System::Xml::XmlElement* elNode, bool isAttribute, ::ByRef<int32_t> minOccurs, ::ByRef<int32_t> maxOccurs);
 
-  /// @brief Method GetMinMax, addr 0x412a108, size 0x10, virtual false, abstract: false, final false
-  inline void GetMinMax(::System::Xml::XmlElement* elNode, ByRef<int32_t> minOccurs, ByRef<int32_t> maxOccurs);
+  /// @brief Method GetMinMax, addr 0x418b41c, size 0x10, virtual false, abstract: false, final false
+  inline void GetMinMax(::System::Xml::XmlElement* elNode, ::ByRef<int32_t> minOccurs, ::ByRef<int32_t> maxOccurs);
 
-  /// @brief Method HandleColumn, addr 0x412ad98, size 0x890, virtual false, abstract: false, final false
+  /// @brief Method HandleColumn, addr 0x418c0ac, size 0x890, virtual false, abstract: false, final false
   inline void HandleColumn(::System::Xml::XmlElement* node, ::System::Data::DataTable* table);
 
-  /// @brief Method HandleTable, addr 0x41298f8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method HandleTable, addr 0x418ac0c, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* HandleTable(::System::Xml::XmlElement* node);
 
-  /// @brief Method HandleTypeNode, addr 0x412bed0, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method HandleTypeNode, addr 0x418d1e4, size 0x1e8, virtual false, abstract: false, final false
   inline void HandleTypeNode(::System::Xml::XmlElement* typeNode, ::System::Data::DataTable* table, ::System::Collections::ArrayList* tableChildren);
 
-  /// @brief Method InstantiateSimpleTable, addr 0x412a118, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method InstantiateSimpleTable, addr 0x418b42c, size 0x228, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateSimpleTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node);
 
-  /// @brief Method InstantiateTable, addr 0x412a340, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method InstantiateTable, addr 0x418b654, size 0x6d0, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* InstantiateTable(::System::Data::DataSet* dataSet, ::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode);
 
-  /// @brief Method IsTextOnlyContent, addr 0x4129de4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method IsTextOnlyContent, addr 0x418b0f8, size 0x1d0, virtual false, abstract: false, final false
   inline bool IsTextOnlyContent(::System::Xml::XmlElement* node);
 
-  /// @brief Method IsXDRField, addr 0x4129fb4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method IsXDRField, addr 0x418b2c8, size 0x154, virtual false, abstract: false, final false
   inline bool IsXDRField(::System::Xml::XmlElement* node, ::System::Xml::XmlElement* typeNode);
 
-  /// @brief Method LoadSchema, addr 0x4129678, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x418a98c, size 0x20c, virtual false, abstract: false, final false
   inline void LoadSchema(::System::Xml::XmlElement* schemaRoot, ::System::Data::DataSet* ds);
 
   static inline ::System::Data::XDRSchema* New_ctor(::System::Data::DataSet* ds, bool fInline);
 
-  /// @brief Method ParseDataType, addr 0x412aae4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ParseDataType, addr 0x418bdf8, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Type* ParseDataType(::StringW dt, ::StringW dtValues);
 
-  constexpr ::System::Data::DataSet*& __cordl_internal_get__ds();
+  constexpr ::System::Data::DataSet* const& __cordl_internal_get__ds() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataSet*> const& __cordl_internal_get__ds() const;
+  constexpr ::System::Data::DataSet*& __cordl_internal_get__ds();
 
   constexpr ::StringW const& __cordl_internal_get__schemaName() const;
 
   constexpr ::StringW& __cordl_internal_get__schemaName();
 
-  constexpr ::System::Xml::XmlElement*& __cordl_internal_get__schemaRoot();
+  constexpr ::System::Xml::XmlElement* const& __cordl_internal_get__schemaRoot() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlElement*> const& __cordl_internal_get__schemaRoot() const;
+  constexpr ::System::Xml::XmlElement*& __cordl_internal_get__schemaRoot();
 
   constexpr ::StringW const& __cordl_internal_get__schemaUri() const;
 
@@ -217,20 +211,20 @@ public:
 
   constexpr void __cordl_internal_set__schemaUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4129600, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x418a914, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds, bool fInline);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_colonArray();
 
-  static inline ::System::Data::__XDRSchema__NameType* getStaticF_s_enumerationNameType();
+  static inline ::System::Data::XDRSchema_NameType* getStaticF_s_enumerationNameType();
 
-  static inline ::ArrayW<::System::Data::__XDRSchema__NameType*, ::Array<::System::Data::__XDRSchema__NameType*>*> getStaticF_s_mapNameTypeXdr();
+  static inline ::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*> getStaticF_s_mapNameTypeXdr();
 
   static inline void setStaticF_s_colonArray(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  static inline void setStaticF_s_enumerationNameType(::System::Data::__XDRSchema__NameType* value);
+  static inline void setStaticF_s_enumerationNameType(::System::Data::XDRSchema_NameType* value);
 
-  static inline void setStaticF_s_mapNameTypeXdr(::ArrayW<::System::Data::__XDRSchema__NameType*, ::Array<::System::Data::__XDRSchema__NameType*>*> value);
+  static inline void setStaticF_s_mapNameTypeXdr(::ArrayW<::System::Data::XDRSchema_NameType*, ::Array<::System::Data::XDRSchema_NameType*>*> value);
 
 protected:
   // Ctor Parameters []
@@ -246,6 +240,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XDRSchema(XDRSchema const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11470 };
+
   /// @brief Field _schemaName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____schemaName;
 
@@ -258,14 +255,9 @@ public:
   /// @brief Field _ds, offset: 0x28, size: 0x8, def value: None
   ::System::Data::DataSet* ____ds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11437 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Data::XDRSchema, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Data::XDRSchema, ____schemaName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Data::XDRSchema, ____schemaUri) == 0x18, "Offset mismatch!");
@@ -274,8 +266,10 @@ static_assert(offsetof(::System::Data::XDRSchema, ____schemaRoot) == 0x20, "Offs
 
 static_assert(offsetof(::System::Data::XDRSchema, ____ds) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Data::XDRSchema, 0x30>, "Size mismatch!");
+
 } // namespace System::Data
 NEED_NO_BOX(::System::Data::XDRSchema);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::XDRSchema*, "System.Data", "XDRSchema");
-NEED_NO_BOX(::System::Data::__XDRSchema__NameType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Data::__XDRSchema__NameType*, "System.Data", "XDRSchema/NameType");
+NEED_NO_BOX(::System::Data::XDRSchema_NameType);
+DEFINE_IL2CPP_ARG_TYPE(::System::Data::XDRSchema_NameType*, "System.Data", "XDRSchema/NameType");

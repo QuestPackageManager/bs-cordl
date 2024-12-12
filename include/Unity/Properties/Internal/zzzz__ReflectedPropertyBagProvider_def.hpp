@@ -3,8 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectedPropertyBagProvider)
 namespace System::Collections::Generic {
@@ -26,9 +30,6 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Linq {
@@ -47,22 +48,19 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
-class IDisposable;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class Type;
 }
 namespace Unity::Properties::Internal {
+class ReflectedPropertyBagProvider__GetPropertyMembers_d__22;
+}
+namespace Unity::Properties::Internal {
+class ReflectedPropertyBagProvider___c;
+}
+namespace Unity::Properties::Internal {
 template <typename TContainer> class ReflectedPropertyBag_1;
-}
-namespace Unity::Properties::Internal {
-class __ReflectedPropertyBagProvider___GetPropertyMembers_d__22;
-}
-namespace Unity::Properties::Internal {
-class __ReflectedPropertyBagProvider____c;
 }
 namespace Unity::Properties {
 class IMemberInfo;
@@ -78,50 +76,49 @@ namespace Unity::Properties::Internal {
 class ReflectedPropertyBagProvider;
 }
 namespace Unity::Properties::Internal {
-class __ReflectedPropertyBagProvider___GetPropertyMembers_d__22;
+class ReflectedPropertyBagProvider__GetPropertyMembers_d__22;
 }
 namespace Unity::Properties::Internal {
-class __ReflectedPropertyBagProvider____c;
+class ReflectedPropertyBagProvider___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Properties::Internal::ReflectedPropertyBagProvider);
-MARK_REF_PTR_T(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22);
-MARK_REF_PTR_T(::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22);
+MARK_REF_PTR_T(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c);
+// Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::ReflectedPropertyBagProvider::<>c*
-class CORDL_TYPE __ReflectedPropertyBagProvider____c : public ::System::Object {
+// CS Name: Unity.Properties.Internal.ReflectedPropertyBagProvider/<>c
+class CORDL_TYPE ReflectedPropertyBagProvider___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__10_0;
+  __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0)) ::System::Func_2<::System::Reflection::MethodInfo*, bool>* __9__10_0;
 
   /// @brief Field <>9__22_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__22_0, put = setStaticF___9__22_0)) ::System::Func_2<::System::Reflection::MemberInfo*, int32_t>* __9__22_0;
+  __declspec(property(get = getStaticF___9__22_0, put = setStaticF___9__22_0)) ::System::Func_2<::System::Reflection::MemberInfo*, int32_t>* __9__22_0;
 
-  static inline ::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c* New_ctor();
+  static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* New_ctor();
 
-  /// @brief Method <GetPropertyMembers>b__22_0, addr 0x48b1194, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetPropertyMembers>b__22_0, addr 0x4915824, size 0x28, virtual false, abstract: false, final false
   inline int32_t _GetPropertyMembers_b__22_0(::System::Reflection::MemberInfo* x);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x48b110c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__10_0, addr 0x491579c, size 0x88, virtual false, abstract: false, final false
   inline bool __ctor_b__10_0(::System::Reflection::MethodInfo* x);
 
-  /// @brief Method .ctor, addr 0x48b1104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4915794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c* getStaticF___9();
+  static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* getStaticF___9();
 
   static inline ::System::Func_2<::System::Reflection::MethodInfo*, bool>* getStaticF___9__10_0();
 
   static inline ::System::Func_2<::System::Reflection::MemberInfo*, int32_t>* getStaticF___9__22_0();
 
-  static inline void setStaticF___9(::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c* value);
+  static inline void setStaticF___9(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c* value);
 
   static inline void setStaticF___9__10_0(::System::Func_2<::System::Reflection::MethodInfo*, bool>* value);
 
@@ -130,32 +127,32 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectedPropertyBagProvider____c();
+  constexpr ReflectedPropertyBagProvider___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectedPropertyBagProvider____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectedPropertyBagProvider____c(__ReflectedPropertyBagProvider____c&&) = delete;
+  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectedPropertyBagProvider____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectedPropertyBagProvider____c(__ReflectedPropertyBagProvider____c const&) = delete;
+  ReflectedPropertyBagProvider___c(ReflectedPropertyBagProvider___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectedPropertyBagProvider___c, 0x10>, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Type: ::<GetPropertyMembers>d__22
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::ReflectedPropertyBagProvider::<GetPropertyMembers>d__22*
-class CORDL_TYPE __ReflectedPropertyBagProvider___GetPropertyMembers_d__22 : public ::System::Object {
+// CS Name: Unity.Properties.Internal.ReflectedPropertyBagProvider/<GetPropertyMembers>d__22
+class CORDL_TYPE ReflectedPropertyBagProvider__GetPropertyMembers_d__22 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current)) ::System::Reflection::MemberInfo*
@@ -217,52 +214,52 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x48b11e8, size 0x718, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x4915878, size 0x718, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22* New_ctor(int32_t __1__state);
+  static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator, addr 0x48b19f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Reflection.MemberInfo>.GetEnumerator, addr 0x4916088, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* System_Collections_Generic_IEnumerable_System_Reflection_MemberInfo__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current, addr 0x48b19b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Reflection.MemberInfo>.get_Current, addr 0x4916040, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MemberInfo* System_Collections_Generic_IEnumerator_System_Reflection_MemberInfo__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x48b1a94, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4916124, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x48b19b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4916048, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x48b19f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4916080, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x48b11bc, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x491584c, size 0x2c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
+  constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get___2__current() const;
+
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Type* const& __cordl_internal_get___3__type() const;
 
   constexpr ::System::Type*& __cordl_internal_get___3__type();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___3__type() const;
 
   constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
   constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>* const& __cordl_internal_get___s__2() const;
+
   constexpr ::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*& __cordl_internal_get___s__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get___s__2() const;
+  constexpr ::System::Reflection::FieldInfo* const& __cordl_internal_get__field_5__8() const;
 
   constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get__field_5__8();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get__field_5__8() const;
 
   constexpr bool const& __cordl_internal_get__hasCreatePropertyAttribute_5__5() const;
 
@@ -280,17 +277,17 @@ public:
 
   constexpr bool& __cordl_internal_get__hasSerializedFieldAttribute_5__7();
 
+  constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__member_5__3() const;
+
   constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__member_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get__member_5__3() const;
+  constexpr ::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>* const& __cordl_internal_get__members_5__1() const;
 
   constexpr ::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>*& __cordl_internal_get__members_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::IOrderedEnumerable_1<::System::Reflection::MemberInfo*>*> const& __cordl_internal_get__members_5__1() const;
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Type*& __cordl_internal_get_type();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
   constexpr void __cordl_internal_set___1__state(int32_t value);
 
@@ -318,10 +315,10 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method <>m__Finally1, addr 0x48b1900, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x4915f90, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x48b0e48, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49154d8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>"
@@ -342,16 +339,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ReflectedPropertyBagProvider___GetPropertyMembers_d__22();
+  constexpr ReflectedPropertyBagProvider__GetPropertyMembers_d__22();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectedPropertyBagProvider___GetPropertyMembers_d__22", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ReflectedPropertyBagProvider___GetPropertyMembers_d__22(__ReflectedPropertyBagProvider___GetPropertyMembers_d__22&&) = delete;
+  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ReflectedPropertyBagProvider___GetPropertyMembers_d__22", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider__GetPropertyMembers_d__22", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ReflectedPropertyBagProvider___GetPropertyMembers_d__22(__ReflectedPropertyBagProvider___GetPropertyMembers_d__22 const&) = delete;
+  ReflectedPropertyBagProvider__GetPropertyMembers_d__22(ReflectedPropertyBagProvider__GetPropertyMembers_d__22 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17536 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -392,52 +392,48 @@ public:
   /// @brief Field <field>5__8, offset: 0x58, size: 0x8, def value: None
   ::System::Reflection::FieldInfo* ____field_5__8;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17492 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, 0x60>, "Size mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ___type) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ___type) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, _____3__type) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, _____3__type) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____members_5__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____members_5__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, _____s__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, _____s__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____member_5__3) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____member_5__3) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____hasDontCreatePropertyAttribute_5__4) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____hasDontCreatePropertyAttribute_5__4) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____hasCreatePropertyAttribute_5__5) == 0x51, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____hasCreatePropertyAttribute_5__5) == 0x51, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____hasNonSerializedAttribute_5__6) == 0x52, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____hasNonSerializedAttribute_5__6) == 0x52, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____hasSerializedFieldAttribute_5__7) == 0x53, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____hasSerializedFieldAttribute_5__7) == 0x53, "Offset mismatch!");
+static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, ____field_5__8) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22, ____field_5__8) == 0x58, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22, 0x60>, "Size mismatch!");
 
 } // namespace Unity::Properties::Internal
-// Type: Unity.Properties.Internal::ReflectedPropertyBagProvider
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Unity.Properties.Internal::ReflectedPropertyBagProvider*
+// CS Name: Unity.Properties.Internal.ReflectedPropertyBagProvider
 class CORDL_TYPE ReflectedPropertyBagProvider : public ::System::Object {
 public:
   // Declarations
-  using _GetPropertyMembers_d__22 = ::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22;
+  using _GetPropertyMembers_d__22 = ::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22;
 
-  using __c = ::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c;
+  using __c = ::Unity::Properties::Internal::ReflectedPropertyBagProvider___c;
 
   /// @brief Field m_CreateArrayPropertyBagMethod, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CreateArrayPropertyBagMethod,
@@ -500,7 +496,7 @@ public:
   /// @brief Method CreateProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer, typename TValue> inline void CreateProperty(::Unity::Properties::IMemberInfo* member, ::Unity::Properties::Internal::ReflectedPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method CreatePropertyBag, addr 0x48b0cac, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreatePropertyBag, addr 0x491533c, size 0x124, virtual false, abstract: false, final false
   inline ::Unity::Properties::IPropertyBag* CreatePropertyBag(::System::Type* type);
 
   /// @brief Method CreatePropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -509,56 +505,56 @@ public:
   /// @brief Method CreateSetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSet, typename TValue> inline ::Unity::Properties::IPropertyBag_1<TSet>* CreateSetPropertyBag();
 
-  /// @brief Method GetPropertyMembers, addr 0x48b0dd8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyMembers, addr 0x4915468, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Reflection::MemberInfo*>* GetPropertyMembers(::System::Type* type);
 
-  /// @brief Method IsValidMember, addr 0x48b0e7c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IsValidMember, addr 0x491550c, size 0x138, virtual false, abstract: false, final false
   static inline bool IsValidMember(::System::Reflection::MemberInfo* memberInfo);
 
-  /// @brief Method IsValidPropertyType, addr 0x48b0fb4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsValidPropertyType, addr 0x4915644, size 0xf4, virtual false, abstract: false, final false
   static inline bool IsValidPropertyType(::System::Type* type);
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* New_ctor();
 
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateArrayPropertyBagMethod() const;
+
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateArrayPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateArrayPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateDictionaryPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateDictionaryPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateDictionaryPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateHashSetPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateHashSetPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateHashSetPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateIndexedCollectionPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateIndexedCollectionPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateIndexedCollectionPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateKeyValueCollectionPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateKeyValueCollectionPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateKeyValueCollectionPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateKeyValuePairPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateKeyValuePairPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateKeyValuePairPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateListPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateListPropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateListPropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreatePropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreatePropertyBagMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreatePropertyBagMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreatePropertyMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreatePropertyMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreatePropertyMethod() const;
+  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_m_CreateSetPropertyBagMethod() const;
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_m_CreateSetPropertyBagMethod();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_m_CreateSetPropertyBagMethod() const;
 
   constexpr void __cordl_internal_set_m_CreateArrayPropertyBagMethod(::System::Reflection::MethodInfo* value);
 
@@ -580,7 +576,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CreateSetPropertyBagMethod(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x48b091c, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4914fac, size 0x390, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -596,6 +592,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagProvider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ReflectedPropertyBagProvider(ReflectedPropertyBagProvider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17537 };
 
   /// @brief Field m_CreatePropertyMethod, offset: 0x10, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___m_CreatePropertyMethod;
@@ -627,14 +626,9 @@ public:
   /// @brief Field m_CreateDictionaryPropertyBagMethod, offset: 0x58, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ___m_CreateDictionaryPropertyBagMethod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17493 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectedPropertyBagProvider, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider, ___m_CreatePropertyMethod) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider, ___m_CreatePropertyBagMethod) == 0x18, "Offset mismatch!");
@@ -655,11 +649,12 @@ static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvid
 
 static_assert(offsetof(::Unity::Properties::Internal::ReflectedPropertyBagProvider, ___m_CreateDictionaryPropertyBagMethod) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectedPropertyBagProvider, 0x60>, "Size mismatch!");
+
 } // namespace Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::ReflectedPropertyBagProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ReflectedPropertyBagProvider*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider");
-NEED_NO_BOX(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::__ReflectedPropertyBagProvider___GetPropertyMembers_d__22*, "Unity.Properties.Internal",
-                       "ReflectedPropertyBagProvider/<GetPropertyMembers>d__22");
-NEED_NO_BOX(::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::__ReflectedPropertyBagProvider____c*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider/<>c");
+NEED_NO_BOX(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ReflectedPropertyBagProvider__GetPropertyMembers_d__22*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider/<GetPropertyMembers>d__22");
+NEED_NO_BOX(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c);
+DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ReflectedPropertyBagProvider___c*, "Unity.Properties.Internal", "ReflectedPropertyBagProvider/<>c");

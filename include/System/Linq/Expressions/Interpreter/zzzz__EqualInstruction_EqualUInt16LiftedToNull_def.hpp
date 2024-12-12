@@ -10,49 +10,48 @@ namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
 }
 // Forward declare root types
-namespace System::Linq::Expressions::Interpreter {
-class __EqualInstruction__EqualUInt16LiftedToNull;
+namespace GlobalNamespace {
+class EqualInstruction_EqualUInt16LiftedToNull;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull);
-// Type: ::EqualUInt16LiftedToNull
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Linq::Expressions::Interpreter {
+MARK_REF_PTR_T(::GlobalNamespace::EqualInstruction_EqualUInt16LiftedToNull);
+// Dependencies System.Linq.Expressions.Interpreter.EqualInstruction
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::EqualInstruction::EqualUInt16LiftedToNull*
-class CORDL_TYPE __EqualInstruction__EqualUInt16LiftedToNull : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
+// CS Name: System.Linq.Expressions.Interpreter.EqualInstruction/EqualUInt16LiftedToNull
+class CORDL_TYPE EqualInstruction_EqualUInt16LiftedToNull : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
   // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull* New_ctor();
+  static inline ::GlobalNamespace::EqualInstruction_EqualUInt16LiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x40665a4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x40c78b8, size 0xe8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40653d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c66ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __EqualInstruction__EqualUInt16LiftedToNull();
+  constexpr EqualInstruction_EqualUInt16LiftedToNull();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualUInt16LiftedToNull", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt16LiftedToNull", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __EqualInstruction__EqualUInt16LiftedToNull(__EqualInstruction__EqualUInt16LiftedToNull&&) = delete;
+  EqualInstruction_EqualUInt16LiftedToNull(EqualInstruction_EqualUInt16LiftedToNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualUInt16LiftedToNull", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "EqualInstruction_EqualUInt16LiftedToNull", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __EqualInstruction__EqualUInt16LiftedToNull(__EqualInstruction__EqualUInt16LiftedToNull const&) = delete;
+  EqualInstruction_EqualUInt16LiftedToNull(EqualInstruction_EqualUInt16LiftedToNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EqualInstruction_EqualUInt16LiftedToNull, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
-NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull);
-DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt16LiftedToNull*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualUInt16LiftedToNull");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::EqualInstruction_EqualUInt16LiftedToNull);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EqualInstruction_EqualUInt16LiftedToNull*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualUInt16LiftedToNull");

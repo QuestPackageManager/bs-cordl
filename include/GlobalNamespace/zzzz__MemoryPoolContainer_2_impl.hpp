@@ -9,8 +9,7 @@ template <typename T0, typename T1> constexpr ::GlobalNamespace::LazyCopyHashSet
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeItems;
 }
-template <typename T0, typename T1>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T1>*> const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_get__activeItems() const {
+template <typename T0, typename T1> constexpr ::GlobalNamespace::LazyCopyHashSet_1<T1>* const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_get__activeItems() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeItems;
 }
@@ -22,8 +21,7 @@ template <typename T0, typename T1> constexpr ::Zenject::IMemoryPool_1<T0>*& Glo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memoryPool;
 }
-template <typename T0, typename T1>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T0>*> const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_get__memoryPool() const {
+template <typename T0, typename T1> constexpr ::Zenject::IMemoryPool_1<T0>* const& GlobalNamespace::MemoryPoolContainer_2<T0, T1>::__cordl_internal_get__memoryPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____memoryPool;
 }
@@ -35,9 +33,6 @@ template <typename T0, typename T1> inline ::System::Collections::Generic::List_
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MemoryPoolContainer_2<T0, T1>*>::get(),
                                                                              "get_activeItems", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<T1>*, false>(this, ___internal_method);
-}
-template <typename T0, typename T1> inline ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>* GlobalNamespace::MemoryPoolContainer_2<T0, T1>::New_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MemoryPoolContainer_2<T0, T1>*>(memoryPool));
 }
 template <typename T0, typename T1> inline void GlobalNamespace::MemoryPoolContainer_2<T0, T1>::_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -65,6 +60,9 @@ template <typename T0, typename T1> inline void GlobalNamespace::MemoryPoolConta
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MemoryPoolContainer_2<T0, T1>*>::get(),
                                                                              "DestroyAll", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T0, typename T1> inline ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>* GlobalNamespace::MemoryPoolContainer_2<T0, T1>::New_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MemoryPoolContainer_2<T0, T1>*>(memoryPool));
 }
 // Ctor Parameters []
 template <typename T0, typename T1> constexpr ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>::MemoryPoolContainer_2() {}

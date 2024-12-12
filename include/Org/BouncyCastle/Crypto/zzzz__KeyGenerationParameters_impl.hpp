@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::KeyGenerationParameters::*)(::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(&::Org::BouncyCastle::Crypto::KeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2383a24;
+  constexpr static std::size_t addrs = 0x23b6d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (::Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2383af0;
+  constexpr static std::size_t addrs = 0x23b6ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::KeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Strength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2383af8;
+  constexpr static std::size_t addrs = 0x23b6de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>::get(),
@@ -51,7 +51,7 @@ constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::KeyGenerationParameters::__cordl_internal_get_random() const {
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& Org::BouncyCastle::Crypto::KeyGenerationParameters::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
@@ -71,9 +71,6 @@ constexpr void Org::BouncyCastle::Crypto::KeyGenerationParameters::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strength = value;
 }
-inline ::Org::BouncyCastle::Crypto::KeyGenerationParameters* Org::BouncyCastle::Crypto::KeyGenerationParameters::New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>(random, strength));
-}
 inline void Org::BouncyCastle::Crypto::KeyGenerationParameters::_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -90,6 +87,9 @@ inline int32_t Org::BouncyCastle::Crypto::KeyGenerationParameters::get_Strength(
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>::get(),
                                                                              "get_Strength", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::KeyGenerationParameters* Org::BouncyCastle::Crypto::KeyGenerationParameters::New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::KeyGenerationParameters*>(random, strength));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::KeyGenerationParameters::KeyGenerationParameters() {}

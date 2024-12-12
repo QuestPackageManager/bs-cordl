@@ -10,18 +10,13 @@ class IDerivationParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IDerivationParameters);
-// Type: Org.BouncyCastle.Crypto::IDerivationParameters
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto::IDerivationParameters*
+// CS Name: Org.BouncyCastle.Crypto.IDerivationParameters
 class CORDL_TYPE IDerivationParameters {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IDerivationParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IDerivationParameters(IDerivationParameters&&) = delete;
-
   // Ctor Parameters [CppParam { name: "", ty: "IDerivationParameters", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IDerivationParameters(IDerivationParameters const&) = delete;

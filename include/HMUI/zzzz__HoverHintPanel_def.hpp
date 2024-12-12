@@ -26,11 +26,10 @@ class HoverHintPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::HoverHintPanel);
-// Type: HMUI::HoverHintPanel
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::HoverHintPanel*
+// CS Name: HMUI.HoverHintPanel
 class CORDL_TYPE HoverHintPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -54,18 +53,18 @@ public:
 
   __declspec(property(get = get_isShown, put = set_isShown)) bool isShown;
 
-  /// @brief Method Awake, addr 0x3997d7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39ee97c, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculatePanelPosition, addr 0x3997e24, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CalculatePanelPosition, addr 0x39eea24, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePanelPosition(::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect, ::UnityEngine::Vector2 panelSize);
 
-  /// @brief Method Hide, addr 0x3997470, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x39ee070, size 0x28, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::HMUI::HoverHintPanel* New_ctor();
 
-  /// @brief Method Show, addr 0x39978c0, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x39ee4c0, size 0x258, virtual false, abstract: false, final false
   inline void Show(::StringW text, ::UnityEngine::Transform* parent, ::UnityEngine::Vector2 containerSize, ::UnityEngine::Rect spawnRect);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__containerPadding() const;
@@ -104,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3997ea4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39eeaa4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isShown, addr 0x3997d68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isShown, addr 0x39ee968, size 0x8, virtual false, abstract: false, final false
   inline bool get_isShown();
 
-  /// @brief Method set_isShown, addr 0x3997d70, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isShown, addr 0x39ee970, size 0xc, virtual false, abstract: false, final false
   inline void set_isShown(bool value);
 
 protected:
@@ -126,6 +125,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "HoverHintPanel", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   HoverHintPanel(HoverHintPanel const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
@@ -145,14 +147,9 @@ public:
   /// @brief Field <isShown>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____isShown_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16001 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintPanel, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::HoverHintPanel, ____text) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::HoverHintPanel, ____padding) == 0x28, "Offset mismatch!");
@@ -164,6 +161,8 @@ static_assert(offsetof(::HMUI::HoverHintPanel, ____separator) == 0x38, "Offset m
 static_assert(offsetof(::HMUI::HoverHintPanel, ____zOffset) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::HoverHintPanel, ____isShown_k__BackingField) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::HoverHintPanel, 0x48>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::HoverHintPanel);

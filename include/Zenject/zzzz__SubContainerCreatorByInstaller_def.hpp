@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByInstaller)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -16,9 +17,6 @@ class Type;
 }
 namespace Zenject {
 class DiContainer;
-}
-namespace Zenject {
-class ISubContainerCreator;
 }
 namespace Zenject {
 class InjectContext;
@@ -35,11 +33,10 @@ class SubContainerCreatorByInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstaller);
-// Type: Zenject::SubContainerCreatorByInstaller
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, Zenject.ISubContainerCreator
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::SubContainerCreatorByInstaller*
+// CS Name: Zenject.SubContainerCreatorByInstaller
 class CORDL_TYPE SubContainerCreatorByInstaller : public ::System::Object {
 public:
   // Declarations
@@ -58,7 +55,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4ada1d0, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x4b3eae0, size 0x180, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
@@ -66,21 +63,21 @@ public:
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                                                                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+  constexpr ::Zenject::SubContainerCreatorBindInfo* const& __cordl_internal_get__containerBindInfo() const;
 
   constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__containerBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__containerBindInfo() const;
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& __cordl_internal_get__extraArgs() const;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArgs() const;
+  constexpr ::System::Type* const& __cordl_internal_get__installerType() const;
 
   constexpr ::System::Type*& __cordl_internal_get__installerType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
@@ -90,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4ada138, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3ea48, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x4ada048, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b3e958, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -114,6 +111,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SubContainerCreatorByInstaller(SubContainerCreatorByInstaller const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12580 };
+
   /// @brief Field _installerType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____installerType;
 
@@ -126,14 +126,9 @@ public:
   /// @brief Field _containerBindInfo, offset: 0x28, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorBindInfo* ____containerBindInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12547 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByInstaller, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::SubContainerCreatorByInstaller, ____installerType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SubContainerCreatorByInstaller, ____container) == 0x18, "Offset mismatch!");
@@ -141,6 +136,8 @@ static_assert(offsetof(::Zenject::SubContainerCreatorByInstaller, ____container)
 static_assert(offsetof(::Zenject::SubContainerCreatorByInstaller, ____extraArgs) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::SubContainerCreatorByInstaller, ____containerBindInfo) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByInstaller, 0x30>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByInstaller);

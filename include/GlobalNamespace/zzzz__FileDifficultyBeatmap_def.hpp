@@ -15,11 +15,10 @@ class FileDifficultyBeatmap;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileDifficultyBeatmap);
-// Type: ::FileDifficultyBeatmap
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FileDifficultyBeatmap*
+// CS Name: FileDifficultyBeatmap
 class CORDL_TYPE FileDifficultyBeatmap : public ::System::Object {
 public:
   // Declarations
@@ -29,16 +28,16 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath)) ::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapString, addr 0x2696bb8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x26cb888, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x2696a48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x26cb718, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x2696c30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x26cb900, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x2696b00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x26cb7d0, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapPath, ::StringW lightshowPath);
@@ -55,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2696a1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb6ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:
@@ -72,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FileDifficultyBeatmap(FileDifficultyBeatmap const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12971 };
+
   /// @brief Field _beatmapPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____beatmapPath;
 
   /// @brief Field _lightshowPath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____lightshowPath;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12936 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileDifficultyBeatmap, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FileDifficultyBeatmap, ____beatmapPath) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FileDifficultyBeatmap, ____lightshowPath) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileDifficultyBeatmap, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FileDifficultyBeatmap);

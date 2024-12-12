@@ -21,11 +21,10 @@ class MoveBackWall;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MoveBackWall);
-// Type: ::MoveBackWall
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MoveBackWall*
+// CS Name: MoveBackWall
 class CORDL_TYPE MoveBackWall : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -49,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x3b81628, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3be2e20, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b8167c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3be2e74, size 0xc0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -91,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8173c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3be2f34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MoveBackWall(MoveBackWall const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4629 };
 
   /// @brief Field _fadeInRegion, offset: 0x20, size: 0x4, def value: None
   float_t ____fadeInRegion;
@@ -126,14 +128,9 @@ public:
   /// @brief Field _material, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____material;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4617 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveBackWall, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____fadeInRegion) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____meshRenderer) == 0x28, "Offset mismatch!");
@@ -145,6 +142,8 @@ static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____thisZ) == 0x38, "Off
 static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____isVisible) == 0x3c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MoveBackWall, ____material) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveBackWall, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveBackWall);

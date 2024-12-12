@@ -12,7 +12,7 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expres
   return this->____parameters;
 }
 template <typename TDelegate>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>*> const&
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* const&
 System::Linq::Expressions::ExpressionN_1<TDelegate>::__cordl_internal_get__parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parameters;
@@ -22,12 +22,6 @@ constexpr void
 System::Linq::Expressions::ExpressionN_1<TDelegate>::__cordl_internal_set__parameters(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____parameters, value);
-}
-template <typename TDelegate>
-inline ::System::Linq::Expressions::ExpressionN_1<TDelegate>*
-System::Linq::Expressions::ExpressionN_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body,
-                                                              ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::ExpressionN_1<TDelegate>*>(body, parameters));
 }
 template <typename TDelegate>
 inline void System::Linq::Expressions::ExpressionN_1<TDelegate>::_ctor(::System::Linq::Expressions::Expression* body,
@@ -59,6 +53,12 @@ System::Linq::Expressions::ExpressionN_1<TDelegate>::Rewrite(::System::Linq::Exp
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ExpressionN_1<TDelegate>*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression_1<TDelegate>*, false>(this, ___internal_method, body, parameters);
+}
+template <typename TDelegate>
+inline ::System::Linq::Expressions::ExpressionN_1<TDelegate>*
+System::Linq::Expressions::ExpressionN_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body,
+                                                              ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::ExpressionN_1<TDelegate>*>(body, parameters));
 }
 // Ctor Parameters []
 template <typename TDelegate> constexpr ::System::Linq::Expressions::ExpressionN_1<TDelegate>::ExpressionN_1() {}

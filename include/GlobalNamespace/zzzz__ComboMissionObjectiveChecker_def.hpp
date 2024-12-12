@@ -15,26 +15,25 @@ class ComboMissionObjectiveChecker;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ComboMissionObjectiveChecker);
-// Type: ::ComboMissionObjectiveChecker
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SimpleValueMissionObjectiveChecker
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ComboMissionObjectiveChecker*
+// CS Name: ComboMissionObjectiveChecker
 class CORDL_TYPE ComboMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _comboController, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController)) ::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  /// @brief Method HandleComboDidChange, addr 0x3b4d7d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleComboDidChange, addr 0x3baf0d8, size 0x54, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method Init, addr 0x3b4d5c0, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3baeec4, size 0x144, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::ComboMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b4d704, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3baf008, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
@@ -43,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
-  /// @brief Method .ctor, addr 0x3b4d824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3baf12c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComboMissionObjectiveChecker(ComboMissionObjectiveChecker const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4461 };
+
   /// @brief Field _comboController, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ComboController> ____comboController;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboMissionObjectiveChecker, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ComboMissionObjectiveChecker, ____comboController) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ComboMissionObjectiveChecker, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ComboMissionObjectiveChecker);

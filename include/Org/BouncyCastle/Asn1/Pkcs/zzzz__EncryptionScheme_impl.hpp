@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23d8ab8;
+  constexpr static std::size_t addrs = 0x240bda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23d8ae0;
+  constexpr static std::size_t addrs = 0x240bdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23d8b0c;
+  constexpr static std::size_t addrs = 0x240bdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x23d8bd0;
+  constexpr static std::size_t addrs = 0x240bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::get_Asn1Object)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23d8d4c;
+  constexpr static std::size_t addrs = 0x240c038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::*)()>(
     &::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::ToAsn1Object)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x23d8d74;
+  constexpr static std::size_t addrs = 0x240c060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,18 +98,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(objectID));
-}
 inline void Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectID);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID,
-                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(objectID, parameters));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -117,9 +110,6 @@ inline void Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor(::Org::Bouncy
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1Encodable*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, objectID, parameters);
-}
-inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -142,6 +132,16 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Pkcs::Enc
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(objectID));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* objectID,
+                                                                                                                    ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(objectID, parameters));
+}
+inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme::EncryptionScheme() {}

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FeatureAsyncInstaller)
 namespace BGLib::AppFlow::Initialization {
-class __AsyncInstaller__IInstallerRegistry;
+class AsyncInstaller_IInstallerRegistry;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
@@ -21,29 +21,28 @@ class FeatureAsyncInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AppFlow::FeatureAsyncInstaller);
-// Type: BGLib.AppFlow::FeatureAsyncInstaller
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace BGLib::AppFlow {
 // Is value type: false
-// CS Name: ::BGLib.AppFlow::FeatureAsyncInstaller*
-class CORDL_TYPE FeatureAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::Zenject::ScriptableObjectInstaller>> {
+// CS Name: BGLib.AppFlow.FeatureAsyncInstaller
+class CORDL_TYPE FeatureAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::Zenject::ScriptableObjectInstaller*> {
 public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x226794c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x229a1a0, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x22675f8, size 0x354, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
-                                         ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x2299e4c, size 0x354, virtual true, abstract: false, final false
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers,
+                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
   static inline ::BGLib::AppFlow::FeatureAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2267950, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x229a1a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x22675b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x2299e0c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -61,7 +60,7 @@ public:
   FeatureAsyncInstaller(FeatureAsyncInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17634 };
 
   /// @brief Field kFeatureAsyncInstallerLabel offset 0xffffffff size 0x8
   static constexpr ::ConstString kFeatureAsyncInstallerLabel{ u"FeatureInstaller" };

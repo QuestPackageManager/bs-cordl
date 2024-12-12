@@ -17,23 +17,22 @@ class BaseFieldMouseDragger;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::BaseFieldMouseDragger);
-// Type: UnityEngine.UIElements::BaseFieldMouseDragger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::BaseFieldMouseDragger*
+// CS Name: UnityEngine.UIElements.BaseFieldMouseDragger
 class CORDL_TYPE BaseFieldMouseDragger : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::BaseFieldMouseDragger* New_ctor();
 
-  /// @brief Method SetDragZone, addr 0x49ced94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetDragZone, addr 0x4a336a4, size 0x1c, virtual false, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement);
 
-  /// @brief Method SetDragZone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method SetDragZone, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetDragZone(::UnityEngine::UIElements::VisualElement* dragElement, ::UnityEngine::Rect hotZone);
 
-  /// @brief Method .ctor, addr 0x49cedb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a336c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +50,7 @@ public:
   BaseFieldMouseDragger(BaseFieldMouseDragger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

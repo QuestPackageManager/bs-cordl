@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MainEffectController)
 namespace GlobalNamespace {
@@ -27,11 +28,10 @@ class MainEffectController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainEffectController);
-// Type: ::MainEffectController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MainEffectController*
+// CS Name: MainEffectController
 class CORDL_TYPE MainEffectController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -50,27 +50,27 @@ public:
 
   __declspec(property(get = get_fadeValue)) float_t fadeValue;
 
-  /// @brief Method ImageEffectControllerCallback, addr 0x40205b8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ImageEffectControllerCallback, addr 0x40818cc, size 0x80, virtual false, abstract: false, final false
   inline void ImageEffectControllerCallback(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method LazySetupImageEffectController, addr 0x402039c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method LazySetupImageEffectController, addr 0x40816b0, size 0x148, virtual false, abstract: false, final false
   inline void LazySetupImageEffectController();
 
   static inline ::GlobalNamespace::MainEffectController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x40204e4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x40817f8, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4020374, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4081688, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x40206ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x4081a00, size 0x30, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreRender, addr 0x4020638, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x408194c, size 0xb4, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method OnValidate, addr 0x402056c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x4081880, size 0x4c, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__fadeValue() const;
@@ -85,9 +85,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_afterImageEffectEvent();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* const& __cordl_internal_get_afterImageEffectEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_afterImageEffectEvent() const;
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_afterImageEffectEvent();
 
   constexpr void __cordl_internal_set__fadeValue(::UnityW<::GlobalNamespace::FloatSO> value);
 
@@ -97,17 +97,17 @@ public:
 
   constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  /// @brief Method .ctor, addr 0x402071c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4081a30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_afterImageEffectEvent, addr 0x40201cc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+  /// @brief Method add_afterImageEffectEvent, addr 0x40814e0, size 0xb0, virtual false, abstract: false, final false
+  inline void add_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
 
-  /// @brief Method get_fadeValue, addr 0x402032c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_fadeValue, addr 0x4081640, size 0x48, virtual false, abstract: false, final false
   inline float_t get_fadeValue();
 
-  /// @brief Method remove_afterImageEffectEvent, addr 0x402027c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+  /// @brief Method remove_afterImageEffectEvent, addr 0x4081590, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
 
 protected:
   // Ctor Parameters []
@@ -123,6 +123,12 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MainEffectController(MainEffectController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17897 };
+
+  /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };
+
   /// @brief Field _mainEffectContainer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 
@@ -135,17 +141,9 @@ public:
   /// @brief Field _imageEffectController, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ImageEffectController> ____imageEffectController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17814 };
-
-  /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectController, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MainEffectController, ____mainEffectContainer) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainEffectController, ____fadeValue) == 0x28, "Offset mismatch!");
@@ -153,6 +151,8 @@ static_assert(offsetof(::GlobalNamespace::MainEffectController, ____fadeValue) =
 static_assert(offsetof(::GlobalNamespace::MainEffectController, ___afterImageEffectEvent) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MainEffectController, ____imageEffectController) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainEffectController, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainEffectController);

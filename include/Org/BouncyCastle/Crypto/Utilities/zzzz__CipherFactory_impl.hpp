@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::CipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x240fadc;
+  constexpr static std::size_t addrs = 0x2442dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>::get(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
         &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CreateContentCipher)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x240fae4;
+  constexpr static std::size_t addrs = 0x2442dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::BufferedBlockCipher* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CreateCipher)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x2410230;
+  constexpr static std::size_t addrs = 0x244351c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,9 +62,6 @@ inline void Org::BouncyCastle::Crypto::Utilities::CipherFactory::setStaticF_rc2E
 inline ::ArrayW<int16_t, ::Array<int16_t>*> Org::BouncyCastle::Crypto::Utilities::CipherFactory::getStaticF_rc2Ekb() {
   return ::cordl_internals::getStaticField<::ArrayW<int16_t, ::Array<int16_t>*>, "rc2Ekb",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>::get>();
-}
-inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* Org::BouncyCastle::Crypto::Utilities::CipherFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>());
 }
 inline void Org::BouncyCastle::Crypto::Utilities::CipherFactory::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>::get(),
@@ -85,6 +82,9 @@ inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* Org::BouncyCastle::Cryp
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>::get(), "CreateCipher", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::BufferedBlockCipher*, false>(nullptr, ___internal_method, algorithm);
+}
+inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* Org::BouncyCastle::Crypto::Utilities::CipherFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Utilities::CipherFactory*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Utilities::CipherFactory::CipherFactory() {}

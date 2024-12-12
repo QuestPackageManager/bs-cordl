@@ -15,19 +15,18 @@
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 #include "System/Linq/Expressions/zzzz__ParameterExpression_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IStrongBox_def.hpp"
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter._ctor
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::*)(
     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*,
-    ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::_ctor)> {
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4097324;
+  constexpr static std::size_t addrs = 0x40f8638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), ".ctor",
-        std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                 ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*>::get(),
@@ -35,128 +34,120 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter.VisitBlock
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter.VisitBlock
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::*)(::System::Linq::Expressions::BlockExpression*)>(
-        &::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitBlock)> {
+    static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::*)(::System::Linq::Expressions::BlockExpression*)>(
+        &::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitBlock)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x40973b8;
+  constexpr static std::size_t addrs = 0x40f86cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 6));
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 6));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter.VisitCatchBlock
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter.VisitCatchBlock
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Linq::Expressions::CatchBlock* (::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::*)(::System::Linq::Expressions::CatchBlock*)>(
-        &::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitCatchBlock)> {
+    static_cast<::System::Linq::Expressions::CatchBlock* (::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::*)(::System::Linq::Expressions::CatchBlock*)>(
+        &::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitCatchBlock)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x409754c;
+  constexpr static std::size_t addrs = 0x40f8860;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 22));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 22));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter.VisitParameter
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter.VisitParameter
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::*)(::System::Linq::Expressions::ParameterExpression*)>(
-        &::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitParameter)> {
+    static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::*)(::System::Linq::Expressions::ParameterExpression*)>(
+        &::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitParameter)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x40976e8;
+  constexpr static std::size_t addrs = 0x40f89fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 21));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 21));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter.GetBox
+//  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter.GetBox
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::IStrongBox* (
-    ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::*)(::System::Linq::Expressions::ParameterExpression*)>(
-    &::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::GetBox)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::Runtime::CompilerServices::IStrongBox* (::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::*)(::System::Linq::Expressions::ParameterExpression*)>(
+        &::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::GetBox)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x40977b4;
+  constexpr static std::size_t addrs = 0x40f8ac8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), "GetBox",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), "GetBox", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get() })));
     return ___internal_method;
   }
 };
 constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*&
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__variables() {
+System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__variables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variables;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*> const&
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__variables() const {
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
+System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__variables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____variables;
 }
-constexpr void System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_set__variables(
+constexpr void System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_set__variables(
     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____variables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__frame() {
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame*& System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__frame() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frame;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Interpreter::InterpretedFrame*> const&
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__frame() const {
+constexpr ::System::Linq::Expressions::Interpreter::InterpretedFrame* const& System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__frame() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____frame;
 }
-constexpr void System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_set__frame(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
+constexpr void System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_set__frame(::System::Linq::Expressions::Interpreter::InterpretedFrame* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____frame)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>*&
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__shadowedVars() {
+System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__shadowedVars() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shadowedVars;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>*> const&
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_get__shadowedVars() const {
+constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* const&
+System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_get__shadowedVars() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shadowedVars;
 }
-constexpr void System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__cordl_internal_set__shadowedVars(
+constexpr void System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::__cordl_internal_set__shadowedVars(
     ::System::Collections::Generic::Stack_1<::System::Collections::Generic::HashSet_1<::System::Linq::Expressions::ParameterExpression*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shadowedVars)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter* System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::New_ctor(
-    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
-    ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>(hoistedVariables, frame));
-}
-inline void System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::_ctor(
+inline void System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::_ctor(
     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
     ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
               ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*>::get(),
@@ -164,40 +155,43 @@ inline void System::Linq::Expressions::Interpreter::__QuoteInstruction__Expressi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, hoistedVariables, frame);
 }
 template <typename T>
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitLambda(::System::Linq::Expressions::Expression_1<T>* node) {
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitLambda(::System::Linq::Expressions::Expression_1<T>* node) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 15)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, node);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitBlock(::System::Linq::Expressions::BlockExpression* node) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 6)));
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitBlock(::System::Linq::Expressions::BlockExpression* node) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, node);
 }
-inline ::System::Linq::Expressions::CatchBlock* System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node) {
+inline ::System::Linq::Expressions::CatchBlock* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitCatchBlock(::System::Linq::Expressions::CatchBlock* node) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 22)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::CatchBlock*, false>(this, ___internal_method, node);
 }
-inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::VisitParameter(::System::Linq::Expressions::ParameterExpression* node) {
+inline ::System::Linq::Expressions::Expression* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::VisitParameter(::System::Linq::Expressions::ParameterExpression* node) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), 21)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Expression*, false>(this, ___internal_method, node);
 }
-inline ::System::Runtime::CompilerServices::IStrongBox*
-System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::GetBox(::System::Linq::Expressions::ParameterExpression* variable) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter*>::get(), "GetBox",
-                                               std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get() })));
+inline ::System::Runtime::CompilerServices::IStrongBox* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::GetBox(::System::Linq::Expressions::ParameterExpression* variable) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>::get(), "GetBox", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::Expressions::ParameterExpression*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::IStrongBox*, false>(this, ___internal_method, variable);
 }
+inline ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter* System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::New_ctor(
+    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables,
+    ::System::Linq::Expressions::Interpreter::InterpretedFrame* frame) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter*>(hoistedVariables, frame));
+}
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::__QuoteInstruction__ExpressionQuoter::__QuoteInstruction__ExpressionQuoter() {}
+constexpr ::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter::QuoteInstruction_ExpressionQuoter() {}
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::QuoteInstruction._ctor
 template <>
 
@@ -206,7 +200,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*)>(
     &::System::Linq::Expressions::Interpreter::QuoteInstruction::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x409720c;
+  constexpr static std::size_t addrs = 0x40f8520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::QuoteInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::QuoteInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4097238;
+  constexpr static std::size_t addrs = 0x40f854c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::QuoteInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::QuoteInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4097240;
+  constexpr static std::size_t addrs = 0x40f8554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::QuoteInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::QuoteInstruction::Run)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4097280;
+  constexpr static std::size_t addrs = 0x40f8594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +264,7 @@ constexpr ::System::Linq::Expressions::Expression*& System::Linq::Expressions::I
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operand;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& System::Linq::Expressions::Interpreter::QuoteInstruction::__cordl_internal_get__operand() const {
+constexpr ::System::Linq::Expressions::Expression* const& System::Linq::Expressions::Interpreter::QuoteInstruction::__cordl_internal_get__operand() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____operand;
 }
@@ -283,8 +277,7 @@ System::Linq::Expressions::Interpreter::QuoteInstruction::__cordl_internal_get__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoistedVariables;
 }
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* const&
 System::Linq::Expressions::Interpreter::QuoteInstruction::__cordl_internal_get__hoistedVariables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoistedVariables;
@@ -293,11 +286,6 @@ constexpr void System::Linq::Expressions::Interpreter::QuoteInstruction::__cordl
     ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hoistedVariables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Linq::Expressions::Interpreter::QuoteInstruction* System::Linq::Expressions::Interpreter::QuoteInstruction::New_ctor(
-    ::System::Linq::Expressions::Expression* operand,
-    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::QuoteInstruction*>(operand, hoistedVariables));
 }
 inline void System::Linq::Expressions::Interpreter::QuoteInstruction::_ctor(
     ::System::Linq::Expressions::Expression* operand,
@@ -327,6 +315,11 @@ inline int32_t System::Linq::Expressions::Interpreter::QuoteInstruction::Run(::S
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::QuoteInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::QuoteInstruction* System::Linq::Expressions::Interpreter::QuoteInstruction::New_ctor(
+    ::System::Linq::Expressions::Expression* operand,
+    ::System::Collections::Generic::Dictionary_2<::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Interpreter::LocalVariable*>* hoistedVariables) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::QuoteInstruction*>(operand, hoistedVariables));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::QuoteInstruction::QuoteInstruction() {}

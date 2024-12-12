@@ -17,11 +17,10 @@ class Transform2D;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Transform2D);
-// Type: UnityEngine.ProBuilder::Transform2D
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::Transform2D*
+// CS Name: UnityEngine.ProBuilder.Transform2D
 class CORDL_TYPE Transform2D : public ::System::Object {
 public:
   // Declarations
@@ -36,10 +35,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method ToString, addr 0x46e0168, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x474147c, size 0x150, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TransformPoint, addr 0x46e0104, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint, addr 0x4741418, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_position() const;
@@ -60,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x46e00b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47413c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
 protected:
@@ -77,6 +76,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Transform2D(Transform2D const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14320 };
+
   /// @brief Field position, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___position;
 
@@ -86,19 +88,16 @@ public:
   /// @brief Field scale, offset: 0x1c, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___scale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14286 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Transform2D, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ProBuilder::Transform2D, ___position) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Transform2D, ___rotation) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Transform2D, ___scale) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Transform2D, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::Transform2D);

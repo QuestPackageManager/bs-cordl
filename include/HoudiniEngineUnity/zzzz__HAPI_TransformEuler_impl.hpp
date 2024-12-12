@@ -3,14 +3,12 @@
 #include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_TransformEuler._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_TransformEuler::*)(bool)>(&::HoudiniEngineUnity::HAPI_TransformEuler::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39e8a44;
+  constexpr static std::size_t addrs = 0x3a3f6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_TransformEuler::*)()>(&::HoudiniEngineUnity::HAPI_TransformEuler::Init)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39f1f88;
+  constexpr static std::size_t addrs = 0x3a48bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HAPI_TransformEuler>::get(), "Init",
@@ -43,10 +41,10 @@ inline void HoudiniEngineUnity::HAPI_TransformEuler::Init() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "rotationEuler", ty:
-// "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "scale", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("nullptr") },
-// CppParam { name: "shear", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "rotationOrder", ty: "::HoudiniEngineUnity::HAPI_XYZOrder",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotationEuler", ty:
+// "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "scale", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "shear", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotationOrder", ty: "::HoudiniEngineUnity::HAPI_XYZOrder", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "rstOrder", ty: "::HoudiniEngineUnity::HAPI_RSTOrder", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_TransformEuler::HAPI_TransformEuler(::ArrayW<float_t, ::Array<float_t>*> position, ::ArrayW<float_t, ::Array<float_t>*> rotationEuler,
                                                                          ::ArrayW<float_t, ::Array<float_t>*> scale, ::ArrayW<float_t, ::Array<float_t>*> shear,
                                                                          ::HoudiniEngineUnity::HAPI_XYZOrder rotationOrder, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder) noexcept {

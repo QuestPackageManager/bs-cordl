@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(ChallengeOptions)
 namespace Oculus::Platform {
 struct ChallengeViewerFilter;
@@ -26,50 +25,49 @@ class ChallengeOptions;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::ChallengeOptions);
-// Type: Oculus.Platform::ChallengeOptions
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IntPtr, System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::ChallengeOptions*
+// CS Name: Oculus.Platform.ChallengeOptions
 class CORDL_TYPE ChallengeOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x3f18178, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3f78224, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::ChallengeOptions* New_ctor();
 
-  /// @brief Method SetDescription, addr 0x3f17d5c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetDescription, addr 0x3f77e08, size 0x68, virtual false, abstract: false, final false
   inline void SetDescription(::StringW value);
 
-  /// @brief Method SetEndDate, addr 0x3f17dc4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEndDate, addr 0x3f77e70, size 0x68, virtual false, abstract: false, final false
   inline void SetEndDate(::System::DateTime value);
 
-  /// @brief Method SetIncludeActiveChallenges, addr 0x3f17e2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeActiveChallenges, addr 0x3f77ed8, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeActiveChallenges(bool value);
 
-  /// @brief Method SetIncludeFutureChallenges, addr 0x3f17e94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludeFutureChallenges, addr 0x3f77f40, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludeFutureChallenges(bool value);
 
-  /// @brief Method SetIncludePastChallenges, addr 0x3f17efc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetIncludePastChallenges, addr 0x3f77fa8, size 0x68, virtual false, abstract: false, final false
   inline void SetIncludePastChallenges(bool value);
 
-  /// @brief Method SetLeaderboardName, addr 0x3f17f64, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetLeaderboardName, addr 0x3f78010, size 0x68, virtual false, abstract: false, final false
   inline void SetLeaderboardName(::StringW value);
 
-  /// @brief Method SetStartDate, addr 0x3f17fcc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetStartDate, addr 0x3f78078, size 0x68, virtual false, abstract: false, final false
   inline void SetStartDate(::System::DateTime value);
 
-  /// @brief Method SetTitle, addr 0x3f18034, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTitle, addr 0x3f780e0, size 0x68, virtual false, abstract: false, final false
   inline void SetTitle(::StringW value);
 
-  /// @brief Method SetViewerFilter, addr 0x3f1809c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetViewerFilter, addr 0x3f78148, size 0x68, virtual false, abstract: false, final false
   inline void SetViewerFilter(::Oculus::Platform::ChallengeViewerFilter value);
 
-  /// @brief Method SetVisibility, addr 0x3f18104, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetVisibility, addr 0x3f781b0, size 0x68, virtual false, abstract: false, final false
   inline void SetVisibility(::Oculus::Platform::ChallengeVisibility value);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
@@ -78,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3f17cf8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f77da4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x3f1816c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x3f78218, size 0xc, virtual false, abstract: false, final false
   static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::ChallengeOptions* options);
 
 protected:
@@ -98,18 +96,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ChallengeOptions(ChallengeOptions const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15324 };
+
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___Handle;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15289 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ChallengeOptions, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::ChallengeOptions, ___Handle) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::ChallengeOptions, 0x18>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::ChallengeOptions);

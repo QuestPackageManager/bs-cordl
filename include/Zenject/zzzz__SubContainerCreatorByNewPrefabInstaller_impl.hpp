@@ -13,123 +13,120 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabInstaller_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-//  Writing Method size for method: ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0._ctor
+//  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::*)()>(
-    &::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::*)()>(
+    &::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adb574;
+  constexpr static std::size_t addrs = 0x4b3fe84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0._AddInstallers_b__0
+//  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0._AddInstallers_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::*)(::Zenject::DiContainer*)>(
-    &::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::_AddInstallers_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::*)(::Zenject::DiContainer*)>(
+    &::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::_AddInstallers_b__0)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4adb57c;
+  constexpr static std::size_t addrs = 0x4b3fe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), "<AddInstallers>b__0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), "<AddInstallers>b__0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0.__zenCreate
+//  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0.__zenCreate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-    &::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__zenCreate)> {
+    &::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__zenCreate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4adb6cc;
+  constexpr static std::size_t addrs = 0x4b3ffdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), "__zenCreate",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), "__zenCreate",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0.__zenCreateInjectTypeInfo
+//  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0.__zenCreateInjectTypeInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
-    &::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__zenCreateInjectTypeInfo)> {
+    &::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4adb720;
+  constexpr static std::size_t addrs = 0x4b40030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(),
                                                  "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller*& Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_get___4__this() {
+constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller*& Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabInstaller*> const&
-Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_get___4__this() const {
+constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller* const& Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabInstaller* value) {
+constexpr void Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabInstaller* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_get_args() {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_get_args() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_get_args() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_get_args() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
-constexpr void Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
+constexpr void Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0* Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>());
-}
-inline void Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::_ctor() {
+inline void Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
+inline void Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), "<AddInstallers>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), "<AddInstallers>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subContainer);
 }
-inline ::System::Object* Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(), "__zenCreate",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+inline ::System::Object* Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
-inline ::Zenject::InjectTypeInfo* Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__zenCreateInjectTypeInfo() {
+inline ::Zenject::InjectTypeInfo* Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>::get(),
                                                "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+inline ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0* Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0*>());
+}
 // Ctor Parameters []
-constexpr ::Zenject::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0::__SubContainerCreatorByNewPrefabInstaller____c__DisplayClass3_0() {}
+constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0::SubContainerCreatorByNewPrefabInstaller___c__DisplayClass3_0() {}
 //  Writing Method size for method: ::Zenject::SubContainerCreatorByNewPrefabInstaller._ctor
 template <>
 
@@ -137,7 +134,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*, ::System::Type*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(
     &::Zenject::SubContainerCreatorByNewPrefabInstaller::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4adb3b0;
+  constexpr static std::size_t addrs = 0x4b3fcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabInstaller::*)(
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorByNewPrefabInstaller::AddInstallers)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4adb488;
+  constexpr static std::size_t addrs = 0x4b3fd98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +166,7 @@ constexpr ::System::Type*& Zenject::SubContainerCreatorByNewPrefabInstaller::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::SubContainerCreatorByNewPrefabInstaller::__cordl_internal_get__installerType() const {
+constexpr ::System::Type* const& Zenject::SubContainerCreatorByNewPrefabInstaller::__cordl_internal_get__installerType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerType;
 }
@@ -181,20 +178,13 @@ constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& Zen
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraArgs;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::SubContainerCreatorByNewPrefabInstaller::__cordl_internal_get__extraArgs() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const& Zenject::SubContainerCreatorByNewPrefabInstaller::__cordl_internal_get__extraArgs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extraArgs;
 }
 constexpr void Zenject::SubContainerCreatorByNewPrefabInstaller::__cordl_internal_set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____extraArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Zenject::SubContainerCreatorByNewPrefabInstaller* Zenject::SubContainerCreatorByNewPrefabInstaller::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                                                      ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
-                                                                                                                      ::System::Type* installerType,
-                                                                                                                      ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabInstaller*>(container, prefabProvider, gameObjectBindInfo, installerType, extraArgs));
 }
 inline void Zenject::SubContainerCreatorByNewPrefabInstaller::_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
@@ -211,6 +201,12 @@ inline void Zenject::SubContainerCreatorByNewPrefabInstaller::AddInstallers(::Sy
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabInstaller*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
+}
+inline ::Zenject::SubContainerCreatorByNewPrefabInstaller* Zenject::SubContainerCreatorByNewPrefabInstaller::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                                                      ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
+                                                                                                                      ::System::Type* installerType,
+                                                                                                                      ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabInstaller*>(container, prefabProvider, gameObjectBindInfo, installerType, extraArgs));
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorByNewPrefabInstaller::SubContainerCreatorByNewPrefabInstaller() {}

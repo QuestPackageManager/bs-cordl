@@ -3,39 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflow_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RareData)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-struct Cursor;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
-}
-namespace UnityEngine::UIElements {
-struct OverflowClipBox;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflowPosition;
-}
-namespace UnityEngine::UIElements {
-struct TextOverflow;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,11 +23,11 @@ struct RareData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RareData);
-// Type: UnityEngine.UIElements::RareData
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.Color, UnityEngine.UIElements.Cursor, UnityEngine.UIElements.IStyleDataGroup`1<T>, UnityEngine.UIElements.OverflowClipBox,
+// UnityEngine.UIElements.TextOverflow, UnityEngine.UIElements.TextOverflowPosition
 namespace UnityEngine::UIElements {
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::RareData
+// CS Name: UnityEngine.UIElements.RareData
 struct CORDL_TYPE RareData {
 public:
   // Declarations
@@ -57,19 +37,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Method Copy, addr 0x4a1b970, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x4a80280, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a1b98c, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
+  /// @brief Method CopyFrom, addr 0x4a8029c, size 0x14, virtual true, abstract: false, final true
+  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method Equals, addr 0x4a1bb08, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4a80418, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a1bac4, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x4a803d4, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method GetHashCode, addr 0x4a1bba8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4a804b8, size 0x100, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
@@ -78,7 +58,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method op_Equality, addr 0x4a1b9a0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x4a802b0, size 0x124, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
   // Ctor Parameters []
@@ -94,6 +74,12 @@ public:
   constexpr RareData(::UnityEngine::UIElements::Cursor cursor, ::UnityEngine::UIElements::TextOverflow textOverflow, ::UnityEngine::Color unityBackgroundImageTintColor,
                      ::UnityEngine::UIElements::OverflowClipBox unityOverflowClipBox, int32_t unitySliceBottom, int32_t unitySliceLeft, int32_t unitySliceRight, float_t unitySliceScale,
                      int32_t unitySliceTop, ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6080 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field cursor, offset: 0x0, size: 0x18, def value: None
   ::UnityEngine::UIElements::Cursor cursor;
@@ -125,17 +111,9 @@ public:
   /// @brief Field unityTextOverflowPosition, offset: 0x44, size: 0x4, def value: None
   ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6055 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RareData, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::RareData, cursor) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::RareData, textOverflow) == 0x18, "Offset mismatch!");
@@ -155,6 +133,8 @@ static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceScale) == 
 static_assert(offsetof(::UnityEngine::UIElements::RareData, unitySliceTop) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::RareData, unityTextOverflowPosition) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RareData, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RareData, "UnityEngine.UIElements", "RareData");

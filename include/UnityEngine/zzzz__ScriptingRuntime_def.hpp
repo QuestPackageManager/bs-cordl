@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptingRuntime)
 // Forward declare root types
@@ -13,15 +12,14 @@ class ScriptingRuntime;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ScriptingRuntime);
-// Type: UnityEngine::ScriptingRuntime
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::ScriptingRuntime*
+// CS Name: UnityEngine.ScriptingRuntime
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies, addr 0x484b604, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllUserAssemblies, addr 0x48ac2c4, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllUserAssemblies();
 
 protected:
@@ -39,7 +37,7 @@ public:
   ScriptingRuntime(ScriptingRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

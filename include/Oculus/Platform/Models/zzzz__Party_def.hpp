@@ -21,11 +21,10 @@ class Party;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Party);
-// Type: Oculus.Platform.Models::Party
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::Party*
+// CS Name: Oculus.Platform.Models.Party
 class CORDL_TYPE Party : public ::System::Object {
 public:
   // Declarations
@@ -52,29 +51,29 @@ public:
 
   static inline ::Oculus::Platform::Models::Party* New_ctor(::System::IntPtr o);
 
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsers() const;
+
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsers() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsersOptional() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsersOptional() const;
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_Leader() const;
 
   constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_Leader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_Leader() const;
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_LeaderOptional() const;
 
   constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_LeaderOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_LeaderOptional() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_Users() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Users();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Users() const;
+  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_UsersOptional() const;
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_UsersOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_UsersOptional() const;
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -94,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f31524, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f915d0, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -110,6 +109,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   Party(Party const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15548 };
 
   /// @brief Field ID, offset: 0x10, size: 0x8, def value: None
   uint64_t ____cordl_ID;
@@ -132,14 +134,9 @@ public:
   /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15513 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Party, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::Party, ____cordl_ID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Party, ___InvitedUsersOptional) == 0x18, "Offset mismatch!");
@@ -153,6 +150,8 @@ static_assert(offsetof(::Oculus::Platform::Models::Party, ___Leader) == 0x30, "O
 static_assert(offsetof(::Oculus::Platform::Models::Party, ___UsersOptional) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Party, ___Users) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Party, 0x48>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Party);

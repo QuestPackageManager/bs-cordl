@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KSStruct)
 namespace System::Xml::Schema {
@@ -19,11 +18,10 @@ class KSStruct;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::KSStruct);
-// Type: System.Xml.Schema::KSStruct
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::KSStruct*
+// CS Name: System.Xml.Schema.KSStruct
 class CORDL_TYPE KSStruct : public ::System::Object {
 public:
   // Declarations
@@ -47,9 +45,9 @@ public:
 
   constexpr ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*>& __cordl_internal_get_fields();
 
-  constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_ks();
+  constexpr ::System::Xml::Schema::KeySequence* const& __cordl_internal_get_ks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::KeySequence*> const& __cordl_internal_get_ks() const;
+  constexpr ::System::Xml::Schema::KeySequence*& __cordl_internal_get_ks();
 
   constexpr void __cordl_internal_set_depth(int32_t value);
 
@@ -57,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_ks(::System::Xml::Schema::KeySequence* value);
 
-  /// @brief Method .ctor, addr 0x4336884, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4397b98, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
 protected:
@@ -74,6 +72,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KSStruct(KSStruct const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7486 };
+
   /// @brief Field depth, offset: 0x10, size: 0x4, def value: None
   int32_t ___depth;
 
@@ -83,19 +84,16 @@ public:
   /// @brief Field fields, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::System::Xml::Schema::LocatedActiveAxis*, ::Array<::System::Xml::Schema::LocatedActiveAxis*>*> ___fields;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7461 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::KSStruct, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::KSStruct, ___depth) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::KSStruct, ___ks) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::KSStruct, ___fields) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::KSStruct, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::KSStruct);

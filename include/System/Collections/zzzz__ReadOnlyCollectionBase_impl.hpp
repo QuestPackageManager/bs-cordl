@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/ReadOnlyCollectionBase.hpp"
+#include "System/Collections/zzzz__ICollection_impl.hpp"
+#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::get_InnerList)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d5adec;
+  constexpr static std::size_t addrs = 0x3dbaf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5ae4c;
+  constexpr static std::size_t addrs = 0x3dbafc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5ae70;
+  constexpr static std::size_t addrs = 0x3dbafe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5ae94;
+  constexpr static std::size_t addrs = 0x3dbb008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ReadOnlyCollectionBase::*)(::System::Array*, int32_t)>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d5aeb8;
+  constexpr static std::size_t addrs = 0x3dbb02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d5aef4;
+  constexpr static std::size_t addrs = 0x3dbb068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ReadOnlyCollectionBase::*)()>(&::System::Collections::ReadOnlyCollectionBase::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5af18;
+  constexpr static std::size_t addrs = 0x3dbb08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(), ".ctor",
@@ -112,27 +112,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::ICollection"
-constexpr System::Collections::ReadOnlyCollectionBase::operator ::System::Collections::ICollection*() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::ICollection"
-constexpr ::System::Collections::ICollection* System::Collections::ReadOnlyCollectionBase::i___System__Collections__ICollection() noexcept {
-  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr System::Collections::ReadOnlyCollectionBase::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* System::Collections::ReadOnlyCollectionBase::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
 constexpr ::System::Collections::ArrayList*& System::Collections::ReadOnlyCollectionBase::__cordl_internal_get__list() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Collections::ReadOnlyCollectionBase::__cordl_internal_get__list() const {
+constexpr ::System::Collections::ArrayList* const& System::Collections::ReadOnlyCollectionBase::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
@@ -173,13 +157,29 @@ inline ::System::Collections::IEnumerator* System::Collections::ReadOnlyCollecti
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::System::Collections::ReadOnlyCollectionBase* System::Collections::ReadOnlyCollectionBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ReadOnlyCollectionBase*>());
-}
 inline void System::Collections::ReadOnlyCollectionBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Collections::ReadOnlyCollectionBase* System::Collections::ReadOnlyCollectionBase::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::ReadOnlyCollectionBase*>());
+}
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr System::Collections::ReadOnlyCollectionBase::operator ::System::Collections::ICollection*() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* System::Collections::ReadOnlyCollectionBase::i___System__Collections__ICollection() noexcept {
+  return static_cast<::System::Collections::ICollection*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr System::Collections::ReadOnlyCollectionBase::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* System::Collections::ReadOnlyCollectionBase::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::System::Collections::ReadOnlyCollectionBase::ReadOnlyCollectionBase() {}

@@ -23,11 +23,10 @@ class XmlArrayItemAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Serialization::XmlArrayItemAttribute);
-// Type: System.Xml.Serialization::XmlArrayItemAttribute
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Xml.Schema.XmlSchemaForm
 namespace System::Xml::Serialization {
 // Is value type: false
-// CS Name: ::System.Xml.Serialization::XmlArrayItemAttribute*
+// CS Name: System.Xml.Serialization.XmlArrayItemAttribute
 class CORDL_TYPE XmlArrayItemAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -71,7 +70,7 @@ public:
   /// @brief Field type, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x430becc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x436d1e0, size 0x164, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_dataType() const;
@@ -102,9 +101,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+  constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
   constexpr void __cordl_internal_set_dataType(::StringW value);
 
@@ -122,28 +121,28 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method get_DataType, addr 0x430bdf4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x436d108, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_ElementName, addr 0x430be48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ElementName, addr 0x436d15c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ElementName();
 
-  /// @brief Method get_Form, addr 0x430be9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x436d1b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_IsNullable, addr 0x430beac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x436d1c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsNullableSpecified, addr 0x430beb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsNullableSpecified, addr 0x436d1c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsNullableSpecified();
 
-  /// @brief Method get_Namespace, addr 0x430bea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x436d1b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_NestingLevel, addr 0x430bec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NestingLevel, addr 0x436d1d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NestingLevel();
 
-  /// @brief Method get_Type, addr 0x430bebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x436d1d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:
@@ -159,6 +158,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlArrayItemAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlArrayItemAttribute(XmlArrayItemAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7405 };
 
   /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dataType;
@@ -184,14 +186,9 @@ public:
   /// @brief Field type, offset: 0x38, size: 0x8, def value: None
   ::System::Type* ___type;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7380 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlArrayItemAttribute, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayItemAttribute, ___dataType) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayItemAttribute, ___elementName) == 0x18, "Offset mismatch!");
@@ -207,6 +204,8 @@ static_assert(offsetof(::System::Xml::Serialization::XmlArrayItemAttribute, ___i
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayItemAttribute, ___nestingLevel) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Serialization::XmlArrayItemAttribute, ___type) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlArrayItemAttribute, 0x40>, "Size mismatch!");
 
 } // namespace System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlArrayItemAttribute);

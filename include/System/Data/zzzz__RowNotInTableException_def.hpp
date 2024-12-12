@@ -18,11 +18,10 @@ class RowNotInTableException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::RowNotInTableException);
-// Type: System.Data::RowNotInTableException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.DataException
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::RowNotInTableException*
+// CS Name: System.Data.RowNotInTableException
 class CORDL_TYPE RowNotInTableException : public ::System::Data::DataException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Data::RowNotInTableException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x40db8fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413cc10, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x40db8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413cc08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x40db958, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x413cc6c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -56,7 +55,7 @@ public:
   RowNotInTableException(RowNotInTableException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11312 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11345 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

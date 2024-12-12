@@ -20,11 +20,10 @@ class MonoTlsConnectionInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsConnectionInfo);
-// Type: Mono.Security.Interface::MonoTlsConnectionInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Security.Interface.CipherSuiteCode, Mono.Security.Interface.TlsProtocols, System.Object
 namespace Mono::Security::Interface {
 // Is value type: false
-// CS Name: ::Mono.Security.Interface::MonoTlsConnectionInfo*
+// CS Name: Mono.Security.Interface.MonoTlsConnectionInfo
 class CORDL_TYPE MonoTlsConnectionInfo : public ::System::Object {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsConnectionInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x3be48e8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3c449fc, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Mono::Security::Interface::CipherSuiteCode const& __cordl_internal_get__CipherSuiteCode_k__BackingField() const;
@@ -68,22 +67,22 @@ public:
 
   constexpr void __cordl_internal_set__ProtocolVersion_k__BackingField(::Mono::Security::Interface::TlsProtocols value);
 
-  /// @brief Method .ctor, addr 0x3be49a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c44ab8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CipherSuiteCode, addr 0x3be48c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherSuiteCode, addr 0x3c449d4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::CipherSuiteCode get_CipherSuiteCode();
 
-  /// @brief Method get_ProtocolVersion, addr 0x3be48d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x3c449e4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::Interface::TlsProtocols get_ProtocolVersion();
 
-  /// @brief Method set_CipherSuiteCode, addr 0x3be48c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CipherSuiteCode, addr 0x3c449dc, size 0x8, virtual false, abstract: false, final false
   inline void set_CipherSuiteCode(::Mono::Security::Interface::CipherSuiteCode value);
 
-  /// @brief Method set_PeerDomainName, addr 0x3be48e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PeerDomainName, addr 0x3c449f4, size 0x8, virtual false, abstract: false, final false
   inline void set_PeerDomainName(::StringW value);
 
-  /// @brief Method set_ProtocolVersion, addr 0x3be48d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x3c449ec, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::Mono::Security::Interface::TlsProtocols value);
 
 protected:
@@ -100,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MonoTlsConnectionInfo(MonoTlsConnectionInfo const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15949 };
+
   /// @brief Field <CipherSuiteCode>k__BackingField, offset: 0x10, size: 0x2, def value: None
   ::Mono::Security::Interface::CipherSuiteCode ____CipherSuiteCode_k__BackingField;
 
@@ -109,19 +111,16 @@ public:
   /// @brief Field <PeerDomainName>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____PeerDomainName_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15914 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::MonoTlsConnectionInfo, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Interface::MonoTlsConnectionInfo, ____CipherSuiteCode_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Interface::MonoTlsConnectionInfo, ____ProtocolVersion_k__BackingField) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::Mono::Security::Interface::MonoTlsConnectionInfo, ____PeerDomainName_k__BackingField) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::MonoTlsConnectionInfo, 0x20>, "Size mismatch!");
 
 } // namespace Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::MonoTlsConnectionInfo);

@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransferCodingWithQualityHeaderValue)
@@ -23,24 +22,23 @@ class TransferCodingWithQualityHeaderValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue);
-// Type: System.Net.Http.Headers::TransferCodingWithQualityHeaderValue
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.Http.Headers.TransferCodingHeaderValue
 namespace System::Net::Http::Headers {
 // Is value type: false
-// CS Name: ::System.Net.Http.Headers::TransferCodingWithQualityHeaderValue*
+// CS Name: System.Net.Http.Headers.TransferCodingWithQualityHeaderValue
 class CORDL_TYPE TransferCodingWithQualityHeaderValue : public ::System::Net::Http::Headers::TransferCodingHeaderValue {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x41c6054, size 0xb0, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
+  /// @brief Method TryParse, addr 0x4227368, size 0xb0, virtual false, abstract: false, final false
+  static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x41c6104, size 0x144, virtual false, abstract: false, final false
-  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue,
-                                     ByRef<::System::Net::Http::Headers::Token> t);
+  /// @brief Method TryParseElement, addr 0x4227418, size 0x144, virtual false, abstract: false, final false
+  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*> parsedValue,
+                                     ::ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x41c604c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4227360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +56,7 @@ public:
   TransferCodingWithQualityHeaderValue(TransferCodingWithQualityHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16744 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

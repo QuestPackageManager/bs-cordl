@@ -12,11 +12,10 @@ class LingerOption;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::LingerOption);
-// Type: System.Net.Sockets::LingerOption
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net::Sockets {
 // Is value type: false
-// CS Name: ::System.Net.Sockets::LingerOption*
+// CS Name: System.Net.Sockets.LingerOption
 class CORDL_TYPE LingerOption : public ::System::Object {
 public:
   // Declarations
@@ -44,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set_lingerTime(int32_t value);
 
-  /// @brief Method .ctor, addr 0x439da0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43fed20, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool enable, int32_t seconds);
 
-  /// @brief Method set_Enabled, addr 0x439da40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x43fed54, size 0xc, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
 
-  /// @brief Method set_LingerTime, addr 0x439da4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LingerTime, addr 0x43fed60, size 0x8, virtual false, abstract: false, final false
   inline void set_LingerTime(int32_t value);
 
 protected:
@@ -67,23 +66,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LingerOption(LingerOption const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9857 };
+
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
 
   /// @brief Field lingerTime, offset: 0x14, size: 0x4, def value: None
   int32_t ___lingerTime;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9832 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::LingerOption, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Net::Sockets::LingerOption, ___enabled) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Net::Sockets::LingerOption, ___lingerTime) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::LingerOption, 0x18>, "Size mismatch!");
 
 } // namespace System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::LingerOption);

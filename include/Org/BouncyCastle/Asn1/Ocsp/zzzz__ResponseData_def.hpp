@@ -35,11 +35,10 @@ class ResponseData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::ResponseData);
-// Type: Org.BouncyCastle.Asn1.Ocsp::ResponseData
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1.Ocsp::ResponseData*
+// CS Name: Org.BouncyCastle.Asn1.Ocsp.ResponseData
 class CORDL_TYPE ResponseData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
@@ -52,7 +51,7 @@ public:
   __declspec(property(get = get_Responses)) ::Org::BouncyCastle::Asn1::Asn1Sequence* Responses;
 
   /// @brief Field V1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_V1, put = setStaticF_V1)) ::Org::BouncyCastle::Asn1::DerInteger* V1;
+  __declspec(property(get = getStaticF_V1, put = setStaticF_V1)) ::Org::BouncyCastle::Asn1::DerInteger* V1;
 
   __declspec(property(get = get_Version)) ::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -74,10 +73,10 @@ public:
   /// @brief Field versionPresent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_versionPresent, put = __cordl_internal_set_versionPresent)) bool versionPresent;
 
-  /// @brief Method GetInstance, addr 0x23d3434, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x2406720, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x23cfe30, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x240311c, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseData* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt,
@@ -89,28 +88,28 @@ public:
                                                                         ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt, ::Org::BouncyCastle::Asn1::Asn1Sequence* responses,
                                                                         ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
-  /// @brief Method ToAsn1Object, addr 0x23d3894, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x2406b80, size 0x210, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_producedAt() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_producedAt();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_producedAt() const;
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* const& __cordl_internal_get_responderID() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_responderID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __cordl_internal_get_responderID() const;
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions* const& __cordl_internal_get_responseExtensions() const;
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_responseExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_responseExtensions() const;
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_responses() const;
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_responses();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_responses() const;
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
-
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
   constexpr bool const& __cordl_internal_get_versionPresent() const;
 
@@ -128,32 +127,32 @@ public:
 
   constexpr void __cordl_internal_set_versionPresent(bool value);
 
-  /// @brief Method .ctor, addr 0x23d37d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406ac4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt, ::Org::BouncyCastle::Asn1::Asn1Sequence* responses,
                     ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
-  /// @brief Method .ctor, addr 0x23d34ac, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406798, size 0x2dc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x23d3788, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2406a74, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* version, ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* responderID, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt,
                     ::Org::BouncyCastle::Asn1::Asn1Sequence* responses, ::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_V1();
 
-  /// @brief Method get_ProducedAt, addr 0x23d387c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x2406b68, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_ProducedAt();
 
-  /// @brief Method get_ResponderID, addr 0x23d3874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponderID, addr 0x2406b60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_ResponderID();
 
-  /// @brief Method get_ResponseExtensions, addr 0x23d388c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseExtensions, addr 0x2406b78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_ResponseExtensions();
 
-  /// @brief Method get_Responses, addr 0x23d3884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Responses, addr 0x2406b70, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_Responses();
 
-  /// @brief Method get_Version, addr 0x23d386c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2406b58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
   static inline void setStaticF_V1(::Org::BouncyCastle::Asn1::DerInteger* value);
@@ -171,6 +170,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ResponseData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ResponseData(ResponseData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 218 };
 
   /// @brief Field versionPresent, offset: 0x10, size: 0x1, def value: None
   bool ___versionPresent;
@@ -190,14 +192,9 @@ public:
   /// @brief Field responseExtensions, offset: 0x38, size: 0x8, def value: None
   ::Org::BouncyCastle::Asn1::X509::X509Extensions* ___responseExtensions;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 218 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::ResponseData, 0x40>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponseData, ___versionPresent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponseData, ___version) == 0x18, "Offset mismatch!");
@@ -209,6 +206,8 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponseData, ___produce
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponseData, ___responses) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponseData, ___responseExtensions) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::ResponseData, 0x40>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::ResponseData);

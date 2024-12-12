@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::*)(
     ::Org::BouncyCastle::Crypto::Tls::Certificate*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::_ctor)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x23b3b24;
+  constexpr static std::size_t addrs = 0x23e6e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::Certificate* (
     ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::*)()>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b3dd8;
+  constexpr static std::size_t addrs = 0x23e70c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::GenerateAgreement)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x23b3de0;
+  constexpr static std::size_t addrs = 0x23e70cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,7 @@ constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& Org::BouncyCastle::Cry
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertificate;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const&
-Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mCertificate() const {
+constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate* const& Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mCertificate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mCertificate;
 }
@@ -70,8 +69,7 @@ constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& Org::BouncyCastl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrivateKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const&
-Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mPrivateKey() const {
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mPrivateKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPrivateKey;
 }
@@ -83,8 +81,7 @@ constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement*& Org::BouncyCastle::Cryp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBasicAgreement;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBasicAgreement*> const&
-Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mBasicAgreement() const {
+constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* const& Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_get_mBasicAgreement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mBasicAgreement;
 }
@@ -103,10 +100,6 @@ constexpr bool const& Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredent
 constexpr void Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::__cordl_internal_set_mTruncateAgreement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mTruncateAgreement = value;
-}
-inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*
-Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*>(certificate, privateKey));
 }
 inline void Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate,
                                                                                   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
@@ -127,6 +120,10 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Defa
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, peerPublicKey);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*
+Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::New_ctor(::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials*>(certificate, privateKey));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::DefaultTlsAgreementCredentials::DefaultTlsAgreementCredentials() {}

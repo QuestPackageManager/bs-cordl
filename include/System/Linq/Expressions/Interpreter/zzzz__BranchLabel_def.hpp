@@ -21,11 +21,10 @@ class BranchLabel;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::BranchLabel);
-// Type: System.Linq.Expressions.Interpreter::BranchLabel
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::BranchLabel*
+// CS Name: System.Linq.Expressions.Interpreter.BranchLabel
 class CORDL_TYPE BranchLabel : public ::System::Object {
 public:
   // Declarations
@@ -50,18 +49,18 @@ public:
   /// @brief Field _targetIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__targetIndex, put = __cordl_internal_set__targetIndex)) int32_t _targetIndex;
 
-  /// @brief Method AddBranch, addr 0x405f6b4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method AddBranch, addr 0x40c09c8, size 0x128, virtual false, abstract: false, final false
   inline void AddBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int32_t branchIndex);
 
-  /// @brief Method FixupBranch, addr 0x405f688, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FixupBranch, addr 0x40c099c, size 0x2c, virtual false, abstract: false, final false
   inline void FixupBranch(::System::Linq::Expressions::Interpreter::InstructionList* instructions, int32_t branchIndex);
 
-  /// @brief Method Mark, addr 0x405f50c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method Mark, addr 0x40c0820, size 0x17c, virtual false, abstract: false, final false
   inline void Mark(::System::Linq::Expressions::Interpreter::InstructionList* instructions);
 
   static inline ::System::Linq::Expressions::Interpreter::BranchLabel* New_ctor();
 
-  /// @brief Method ToRuntimeLabel, addr 0x405f500, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToRuntimeLabel, addr 0x40c0814, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::RuntimeLabel ToRuntimeLabel();
 
   constexpr int32_t const& __cordl_internal_get__LabelIndex_k__BackingField() const;
@@ -72,9 +71,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__continuationStackDepth();
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__forwardBranchFixups();
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__forwardBranchFixups() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__forwardBranchFixups() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__forwardBranchFixups();
 
   constexpr int32_t const& __cordl_internal_get__stackDepth() const;
 
@@ -94,19 +93,19 @@ public:
 
   constexpr void __cordl_internal_set__targetIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x405f7dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40c0af0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasRuntimeLabel, addr 0x405f4e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_HasRuntimeLabel, addr 0x40c07f8, size 0x14, virtual false, abstract: false, final false
   inline bool get_HasRuntimeLabel();
 
-  /// @brief Method get_LabelIndex, addr 0x405f4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LabelIndex, addr 0x40c07e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LabelIndex();
 
-  /// @brief Method get_TargetIndex, addr 0x405f4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetIndex, addr 0x40c080c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetIndex();
 
-  /// @brief Method set_LabelIndex, addr 0x405f4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LabelIndex, addr 0x40c07f0, size 0x8, virtual false, abstract: false, final false
   inline void set_LabelIndex(int32_t value);
 
 protected:
@@ -123,6 +122,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BranchLabel(BranchLabel const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13772 };
+
   /// @brief Field _targetIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____targetIndex;
 
@@ -138,14 +140,9 @@ public:
   /// @brief Field <LabelIndex>k__BackingField, offset: 0x28, size: 0x4, def value: None
   int32_t ____LabelIndex_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13738 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::BranchLabel, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::BranchLabel, ____targetIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::BranchLabel, ____stackDepth) == 0x14, "Offset mismatch!");
@@ -155,6 +152,8 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::BranchLabel, __
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::BranchLabel, ____forwardBranchFixups) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::BranchLabel, ____LabelIndex_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::BranchLabel, 0x30>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::BranchLabel);

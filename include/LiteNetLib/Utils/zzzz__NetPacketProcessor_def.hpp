@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetPacketProcessor)
 namespace LiteNetLib::Utils {
@@ -15,37 +14,37 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class NetPacketProcessor_HashCache_1;
+}
+namespace LiteNetLib::Utils {
+class NetPacketProcessor_SubscribeDelegate;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
+}
+namespace LiteNetLib::Utils {
 class NetSerializer;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor__HashCache_1;
-}
-namespace LiteNetLib::Utils {
-class __NetPacketProcessor__SubscribeDelegate;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass26_0_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass27_0_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass28_0_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass29_0_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass31_0_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass32_0_1;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
@@ -88,62 +87,61 @@ namespace LiteNetLib::Utils {
 class NetPacketProcessor;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor__HashCache_1;
+template <typename T> class NetPacketProcessor_HashCache_1;
 }
 namespace LiteNetLib::Utils {
-class __NetPacketProcessor__SubscribeDelegate;
+class NetPacketProcessor_SubscribeDelegate;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass25_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass26_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass26_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass27_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass27_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass28_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass29_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass29_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass30_0_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass31_0_2;
+template <typename T, typename TUserData> class NetPacketProcessor___c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass32_0_1;
+template <typename T> class NetPacketProcessor___c__DisplayClass32_0_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor__HashCache_1);
-MARK_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2);
-MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1);
-// Type: ::HashCache`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor_HashCache_1);
+MARK_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2);
+MARK_GEN_REF_PTR_T(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1);
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::HashCache`1<T>*
-class CORDL_TYPE __NetPacketProcessor__HashCache_1 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/HashCache`1<T>
+class CORDL_TYPE NetPacketProcessor_HashCache_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Id, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Id, put = setStaticF_Id)) uint64_t Id;
+  __declspec(property(get = getStaticF_Id, put = setStaticF_Id)) uint64_t Id;
 
   /// @brief Field Initialized, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_Initialized, put = setStaticF_Initialized)) bool Initialized;
+  __declspec(property(get = getStaticF_Initialized, put = setStaticF_Initialized)) bool Initialized;
 
   static inline uint64_t getStaticF_Id();
 
@@ -156,77 +154,75 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor__HashCache_1();
+  constexpr NetPacketProcessor_HashCache_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__HashCache_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor__HashCache_1(__NetPacketProcessor__HashCache_1&&) = delete;
+  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__HashCache_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_HashCache_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor__HashCache_1(__NetPacketProcessor__HashCache_1 const&) = delete;
+  NetPacketProcessor_HashCache_1(NetPacketProcessor_HashCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16571 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::SubscribeDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.MulticastDelegate
 namespace LiteNetLib::Utils {
 // Is value type: false
-// CS Name: ::NetPacketProcessor::SubscribeDelegate*
-class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/SubscribeDelegate
+class CORDL_TYPE NetPacketProcessor_SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3a68494, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3abf104, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3a684bc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3abf12c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3a68480, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3abf0f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+  static inline ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3a6837c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abefec, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor__SubscribeDelegate();
+  constexpr NetPacketProcessor_SubscribeDelegate();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__SubscribeDelegate", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor__SubscribeDelegate(__NetPacketProcessor__SubscribeDelegate&&) = delete;
+  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__SubscribeDelegate", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor_SubscribeDelegate", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor__SubscribeDelegate(__NetPacketProcessor__SubscribeDelegate const&) = delete;
+  NetPacketProcessor_SubscribeDelegate(NetPacketProcessor_SubscribeDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16536 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate, 0x80>, "Size mismatch!");
 
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass25_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass25_0`1<T>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass25_0_1 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass25_0`1<T>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass25_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -238,22 +234,22 @@ public:
   /// @brief Field packetConstructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>* New_ctor();
 
   /// @brief Method <Subscribe>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& __cordl_internal_get___4__this() const;
+
   constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_onReceive() const;
 
   constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_packetConstructor() const;
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
   constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
@@ -267,16 +263,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass25_0_1();
+  constexpr NetPacketProcessor___c__DisplayClass25_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass25_0_1(__NetPacketProcessor____c__DisplayClass25_0_1&&) = delete;
+  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass25_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass25_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass25_0_1(__NetPacketProcessor____c__DisplayClass25_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass25_0_1(NetPacketProcessor___c__DisplayClass25_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16573 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -287,21 +286,17 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16537 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass26_0`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass26_0`2<T,TUserData>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass26_0_2 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass26_0`2<T,TUserData>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass26_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -313,22 +308,22 @@ public:
   /// @brief Field packetConstructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>* New_ctor();
 
   /// @brief Method <Subscribe>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& __cordl_internal_get___4__this() const;
+
   constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Action_2<T, TUserData>* const& __cordl_internal_get_onReceive() const;
 
   constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_packetConstructor() const;
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
   constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
@@ -342,16 +337,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass26_0_2();
+  constexpr NetPacketProcessor___c__DisplayClass26_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass26_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass26_0_2(__NetPacketProcessor____c__DisplayClass26_0_2&&) = delete;
+  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass26_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass26_0_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass26_0_2(__NetPacketProcessor____c__DisplayClass26_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass26_0_2(NetPacketProcessor___c__DisplayClass26_0_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16574 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -362,21 +360,17 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16538 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass27_0`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass27_0`1<T>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass27_0_1 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass27_0`1<T>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass27_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -388,18 +382,18 @@ public:
   /// @brief Field reference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>* New_ctor();
 
   /// @brief Method <SubscribeReusable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& __cordl_internal_get___4__this() const;
+
   constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_onReceive() const;
 
   constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
 
   constexpr T const& __cordl_internal_get_reference() const;
 
@@ -417,16 +411,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass27_0_1();
+  constexpr NetPacketProcessor___c__DisplayClass27_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass27_0_1(__NetPacketProcessor____c__DisplayClass27_0_1&&) = delete;
+  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass27_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass27_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass27_0_1(__NetPacketProcessor____c__DisplayClass27_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass27_0_1(NetPacketProcessor___c__DisplayClass27_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16575 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetPacketProcessor* _____4__this;
@@ -437,21 +434,17 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16539 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass28_0`2
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass28_0`2<T,TUserData>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass28_0_2 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass28_0`2<T,TUserData>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass28_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -463,18 +456,18 @@ public:
   /// @brief Field reference, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>* New_ctor();
 
   /// @brief Method <SubscribeReusable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor* const& __cordl_internal_get___4__this() const;
+
   constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
+  constexpr ::System::Action_2<T, TUserData>* const& __cordl_internal_get_onReceive() const;
 
   constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
 
   constexpr T const& __cordl_internal_get_reference() const;
 
@@ -492,16 +485,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass28_0_2();
+  constexpr NetPacketProcessor___c__DisplayClass28_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass28_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass28_0_2(__NetPacketProcessor____c__DisplayClass28_0_2&&) = delete;
+  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass28_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass28_0_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass28_0_2(__NetPacketProcessor____c__DisplayClass28_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass28_0_2(NetPacketProcessor___c__DisplayClass28_0_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetPacketProcessor* _____4__this;
@@ -512,21 +508,17 @@ public:
   /// @brief Field onReceive, offset: 0x20, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16540 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass29_0`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass29_0`2<T,TUserData>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass29_0_2 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass29_0`2<T,TUserData>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass29_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
@@ -535,18 +527,18 @@ public:
   /// @brief Field packetConstructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>* New_ctor();
 
   /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::System::Action_2<T, TUserData>* const& __cordl_internal_get_onReceive() const;
+
   constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_packetConstructor() const;
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
   constexpr void __cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value);
 
@@ -558,16 +550,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass29_0_2();
+  constexpr NetPacketProcessor___c__DisplayClass29_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass29_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass29_0_2(__NetPacketProcessor____c__DisplayClass29_0_2&&) = delete;
+  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass29_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass29_0_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass29_0_2(__NetPacketProcessor____c__DisplayClass29_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass29_0_2(NetPacketProcessor___c__DisplayClass29_0_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16577 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -575,21 +570,17 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16541 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass30_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass30_0`1<T>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass30_0_1 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass30_0`1<T>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass30_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
@@ -598,18 +589,18 @@ public:
   /// @brief Field packetConstructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor)) ::System::Func_1<T>* packetConstructor;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>* New_ctor();
 
   /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_onReceive() const;
+
   constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_packetConstructor() const;
 
   constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
   constexpr void __cordl_internal_set_onReceive(::System::Action_1<T>* value);
 
@@ -621,16 +612,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass30_0_1();
+  constexpr NetPacketProcessor___c__DisplayClass30_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass30_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass30_0_1(__NetPacketProcessor____c__DisplayClass30_0_1&&) = delete;
+  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass30_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass30_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass30_0_1(__NetPacketProcessor____c__DisplayClass30_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass30_0_1(NetPacketProcessor___c__DisplayClass30_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16578 };
 
   /// @brief Field packetConstructor, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___packetConstructor;
@@ -638,21 +632,17 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16542 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass31_0`2
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass31_0`2<T,TUserData>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass31_0_2 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass31_0`2<T,TUserData>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass31_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
@@ -661,14 +651,14 @@ public:
   /// @brief Field reference, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>* New_ctor();
 
   /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
+  constexpr ::System::Action_2<T, TUserData>* const& __cordl_internal_get_onReceive() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
   constexpr T const& __cordl_internal_get_reference() const;
 
@@ -684,16 +674,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass31_0_2();
+  constexpr NetPacketProcessor___c__DisplayClass31_0_2();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass31_0_2", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass31_0_2(__NetPacketProcessor____c__DisplayClass31_0_2&&) = delete;
+  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass31_0_2", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass31_0_2", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass31_0_2(__NetPacketProcessor____c__DisplayClass31_0_2 const&) = delete;
+  NetPacketProcessor___c__DisplayClass31_0_2(NetPacketProcessor___c__DisplayClass31_0_2 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16579 };
 
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   T ___reference;
@@ -701,21 +694,17 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_2<T, TUserData>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16543 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: ::<>c__DisplayClass32_0`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::NetPacketProcessor::<>c__DisplayClass32_0`1<T>*
-class CORDL_TYPE __NetPacketProcessor____c__DisplayClass32_0_1 : public ::System::Object {
+// CS Name: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass32_0`1<T>
+class CORDL_TYPE NetPacketProcessor___c__DisplayClass32_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onReceive, offset 0x18, size 0x8
@@ -724,14 +713,14 @@ public:
   /// @brief Field reference, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
-  static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>* New_ctor();
+  static inline ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>* New_ctor();
 
   /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_onReceive() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
   constexpr T const& __cordl_internal_get_reference() const;
 
@@ -747,16 +736,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NetPacketProcessor____c__DisplayClass32_0_1();
+  constexpr NetPacketProcessor___c__DisplayClass32_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass32_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __NetPacketProcessor____c__DisplayClass32_0_1(__NetPacketProcessor____c__DisplayClass32_0_1&&) = delete;
+  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass32_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor___c__DisplayClass32_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __NetPacketProcessor____c__DisplayClass32_0_1(__NetPacketProcessor____c__DisplayClass32_0_1 const&) = delete;
+  NetPacketProcessor___c__DisplayClass32_0_1(NetPacketProcessor___c__DisplayClass32_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16580 };
 
   /// @brief Field reference, offset: 0x10, size: 0x8, def value: None
   T ___reference;
@@ -764,44 +756,40 @@ public:
   /// @brief Field onReceive, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ___onReceive;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16544 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace LiteNetLib::Utils
-// Type: LiteNetLib.Utils::NetPacketProcessor
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LiteNetLib::Utils {
 // Is value type: false
-// CS Name: ::LiteNetLib.Utils::NetPacketProcessor*
+// CS Name: LiteNetLib.Utils.NetPacketProcessor
 class CORDL_TYPE NetPacketProcessor : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using HashCache_1 = ::LiteNetLib::Utils::__NetPacketProcessor__HashCache_1<T>;
+  template <typename T> using HashCache_1 = ::LiteNetLib::Utils::NetPacketProcessor_HashCache_1<T>;
 
-  using SubscribeDelegate = ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate;
+  using SubscribeDelegate = ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate;
 
-  template <typename T> using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>;
+  template <typename T> using __c__DisplayClass25_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass26_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>;
+  template <typename T> using __c__DisplayClass27_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass28_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2<T, TUserData>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass29_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>;
+  template <typename T> using __c__DisplayClass30_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1<T>;
 
-  template <typename T, typename TUserData> using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>;
+  template <typename T, typename TUserData> using __c__DisplayClass31_0_2 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2<T, TUserData>;
 
-  template <typename T> using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>;
+  template <typename T> using __c__DisplayClass32_0_1 = ::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1<T>;
 
   /// @brief Field _callbacks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__callbacks,
-                      put = __cordl_internal_set__callbacks)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* _callbacks;
+                      put = __cordl_internal_set__callbacks)) ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>* _callbacks;
 
   /// @brief Field _netDataWriter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__netDataWriter, put = __cordl_internal_set__netDataWriter)) ::LiteNetLib::Utils::NetDataWriter* _netDataWriter;
@@ -809,8 +797,8 @@ public:
   /// @brief Field _netSerializer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer)) ::LiteNetLib::Utils::NetSerializer* _netSerializer;
 
-  /// @brief Method GetCallbackFromData, addr 0x3a6813c, size 0xcc, virtual true, abstract: false, final false
-  inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
+  /// @brief Method GetCallbackFromData, addr 0x3abedac, size 0xcc, virtual true, abstract: false, final false
+  inline ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
   /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline uint64_t GetHash();
@@ -819,16 +807,16 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method ReadAllPackets, addr 0x3a68270, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3abeee0, size 0x5c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets, addr 0x3a682d4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadAllPackets, addr 0x3abef44, size 0x60, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket, addr 0x3a682cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3abef3c, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadPacket, addr 0x3a68334, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ReadPacket, addr 0x3abefa4, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -895,29 +883,28 @@ public:
   /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*& __cordl_internal_get__callbacks();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>* const& __cordl_internal_get__callbacks() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*> const&
-  __cordl_internal_get__callbacks() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>*& __cordl_internal_get__callbacks();
+
+  constexpr ::LiteNetLib::Utils::NetDataWriter* const& __cordl_internal_get__netDataWriter() const;
 
   constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__netDataWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__netDataWriter() const;
+  constexpr ::LiteNetLib::Utils::NetSerializer* const& __cordl_internal_get__netSerializer() const;
 
   constexpr ::LiteNetLib::Utils::NetSerializer*& __cordl_internal_get__netSerializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetSerializer*> const& __cordl_internal_get__netSerializer() const;
-
-  constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* value);
+  constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>* value);
 
   constexpr void __cordl_internal_set__netDataWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
   constexpr void __cordl_internal_set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
 
-  /// @brief Method .ctor, addr 0x3a67ee8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abeb58, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3a67fd0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3abec40, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
 protected:
@@ -934,40 +921,40 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   NetPacketProcessor(NetPacketProcessor const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16581 };
+
   /// @brief Field _netSerializer, offset: 0x10, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetSerializer* ____netSerializer;
 
   /// @brief Field _callbacks, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* ____callbacks;
+  ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*>* ____callbacks;
 
   /// @brief Field _netDataWriter, offset: 0x20, size: 0x8, def value: None
   ::LiteNetLib::Utils::NetDataWriter* ____netDataWriter;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16545 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NetPacketProcessor, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::LiteNetLib::Utils::NetPacketProcessor, ____netSerializer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::Utils::NetPacketProcessor, ____callbacks) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::LiteNetLib::Utils::NetPacketProcessor, ____netDataWriter) == 0x20, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::NetPacketProcessor, 0x28>, "Size mismatch!");
+
 } // namespace LiteNetLib::Utils
 NEED_NO_BOX(::LiteNetLib::Utils::NetPacketProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetPacketProcessor*, "LiteNetLib.Utils", "NetPacketProcessor");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor__HashCache_1, "LiteNetLib.Utils", "NetPacketProcessor/HashCache`1");
-NEED_NO_BOX(::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*, "LiteNetLib.Utils", "NetPacketProcessor/SubscribeDelegate");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass25_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass26_0`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass27_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass28_0`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass29_0`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass30_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass31_0`2");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass32_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor_HashCache_1, "LiteNetLib.Utils", "NetPacketProcessor/HashCache`1");
+NEED_NO_BOX(::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate);
+DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate*, "LiteNetLib.Utils", "NetPacketProcessor/SubscribeDelegate");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass25_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass25_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass26_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass26_0`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass27_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass27_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass28_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass28_0`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass29_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass29_0`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass30_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass30_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass31_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass31_0`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::NetPacketProcessor___c__DisplayClass32_0_1, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass32_0`1");

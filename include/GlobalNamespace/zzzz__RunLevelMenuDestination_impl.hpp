@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::GameplayModifiers*,
     bool, float_t, float_t, bool, ::StringW, ::StringW, bool)>(&::GlobalNamespace::RunLevelMenuDestination::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2678400;
+  constexpr static std::size_t addrs = 0x26ac9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ constexpr ::GlobalNamespace::BeatmapLevelPack*& GlobalNamespace::RunLevelMenuDes
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPack*> const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_beatmapLevelPack() const {
+constexpr ::GlobalNamespace::BeatmapLevelPack* const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_beatmapLevelPack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevelPack;
 }
@@ -48,7 +48,7 @@ constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::RunLevelMenuDestina
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevel*> const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_beatmapLevel() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beatmapLevel;
 }
@@ -84,7 +84,7 @@ constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::RunLevelMenuDe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_gameplayModifiers() const {
+constexpr ::GlobalNamespace::GameplayModifiers* const& GlobalNamespace::RunLevelMenuDestination::__cordl_internal_get_gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gameplayModifiers;
 }
@@ -176,15 +176,6 @@ constexpr void GlobalNamespace::RunLevelMenuDestination::__cordl_internal_set_qu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___quitAppAfterRun = value;
 }
-inline ::GlobalNamespace::RunLevelMenuDestination*
-GlobalNamespace::RunLevelMenuDestination::New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                   ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
-                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
-                                                   bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RunLevelMenuDestination*>(beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, practice,
-                                                                                               startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentName,
-                                                                                               quitAppAfterRun));
-}
 inline void GlobalNamespace::RunLevelMenuDestination::_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                             ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                             ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
@@ -202,6 +193,15 @@ inline void GlobalNamespace::RunLevelMenuDestination::_ctor(::GlobalNamespace::B
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, practice,
                                                           startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentName, quitAppAfterRun);
+}
+inline ::GlobalNamespace::RunLevelMenuDestination*
+GlobalNamespace::RunLevelMenuDestination::New_ctor(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                   ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
+                                                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice, float_t startSongTime, float_t songSpeedMultiplier,
+                                                   bool overrideEnvironments, ::StringW environmentType, ::StringW environmentName, bool quitAppAfterRun) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RunLevelMenuDestination*>(beatmapLevelPack, beatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, practice,
+                                                                                               startSongTime, songSpeedMultiplier, overrideEnvironments, environmentType, environmentName,
+                                                                                               quitAppAfterRun));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::RunLevelMenuDestination::RunLevelMenuDestination() {}

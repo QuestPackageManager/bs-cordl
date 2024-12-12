@@ -24,11 +24,10 @@ class ColorSchemeTableCell;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeTableCell);
-// Type: ::ColorSchemeTableCell
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TableCell
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ColorSchemeTableCell*
+// CS Name: ColorSchemeTableCell
 class CORDL_TYPE ColorSchemeTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
@@ -47,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method SetColors, addr 0x3b93c24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x3bf5b9c, size 0x7c, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -69,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b93f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bf5e90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x3b93ef4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3bf5e6c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon, addr 0x3b93be0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showEditIcon, addr 0x3bf5b58, size 0x20, virtual false, abstract: false, final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method set_text, addr 0x3b93c00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3bf5b78, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -95,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ColorSchemeTableCell(ColorSchemeTableCell const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
+
   /// @brief Field _text, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
@@ -104,19 +106,16 @@ public:
   /// @brief Field _editIcon, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____editIcon;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4722 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeTableCell, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____text) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____colorSchemeView) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorSchemeTableCell, ____editIcon) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorSchemeTableCell, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorSchemeTableCell);

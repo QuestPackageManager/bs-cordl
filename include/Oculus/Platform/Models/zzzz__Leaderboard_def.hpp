@@ -19,11 +19,10 @@ class Leaderboard;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Leaderboard);
-// Type: Oculus.Platform.Models::Leaderboard
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::Leaderboard*
+// CS Name: Oculus.Platform.Models.Leaderboard
 class CORDL_TYPE Leaderboard : public ::System::Object {
 public:
   // Declarations
@@ -45,13 +44,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_ApiName();
 
+  constexpr ::Oculus::Platform::Models::Destination* const& __cordl_internal_get_Destination() const;
+
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_Destination() const;
+  constexpr ::Oculus::Platform::Models::Destination* const& __cordl_internal_get_DestinationOptional() const;
 
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -65,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2efa4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8f050, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -82,6 +81,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Leaderboard(Leaderboard const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15529 };
+
   /// @brief Field ApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ApiName;
 
@@ -94,14 +96,9 @@ public:
   /// @brief Field ID, offset: 0x28, size: 0x8, def value: None
   uint64_t ____cordl_ID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15494 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Leaderboard, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::Leaderboard, ___ApiName) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Leaderboard, ___DestinationOptional) == 0x18, "Offset mismatch!");
@@ -109,6 +106,8 @@ static_assert(offsetof(::Oculus::Platform::Models::Leaderboard, ___DestinationOp
 static_assert(offsetof(::Oculus::Platform::Models::Leaderboard, ___Destination) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Leaderboard, ____cordl_ID) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Leaderboard, 0x30>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Leaderboard);

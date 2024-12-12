@@ -25,11 +25,10 @@ class TrackLaneRingsPositionStepEffectSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner);
-// Type: ::TrackLaneRingsPositionStepEffectSpawner
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BasicBeatmapEventType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::TrackLaneRingsPositionStepEffectSpawner*
+// CS Name: TrackLaneRingsPositionStepEffectSpawner
 class CORDL_TYPE TrackLaneRingsPositionStepEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -56,24 +55,24 @@ public:
   /// @brief Field _trackLaneRingsManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__trackLaneRingsManager, put = __cordl_internal_set__trackLaneRingsManager)) ::UnityW<::GlobalNamespace::TrackLaneRingsManager> _trackLaneRingsManager;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b3ace8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x3b9c150, size 0x80, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3accc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3b9c134, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b3aba4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3b9c00c, size 0x128, virtual false, abstract: false, final false
   inline void Start();
+
+  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__beatmapEventType() const;
 
@@ -109,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsManager(::UnityW<::GlobalNamespace::TrackLaneRingsManager> value);
 
-  /// @brief Method .ctor, addr 0x3b3ad68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b9c1d0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -125,6 +124,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsPositionStepEffectSpawner", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TrackLaneRingsPositionStepEffectSpawner(TrackLaneRingsPositionStepEffectSpawner const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
 
   /// @brief Field _trackLaneRingsManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsManager> ____trackLaneRingsManager;
@@ -147,14 +149,9 @@ public:
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4366 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, ____trackLaneRingsManager) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, ____beatmapEventType) == 0x28, "Offset mismatch!");
@@ -168,6 +165,8 @@ static_assert(offsetof(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawne
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, ____beatmapDataCallbackWrapper) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner);

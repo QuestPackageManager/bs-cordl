@@ -9,6 +9,7 @@ module;
 #include "BeatmapSaveDataCommon/BeatmapEventTypeExtensions.hpp"
 #include "BeatmapSaveDataCommon/DistributionParamType.hpp"
 #include "BeatmapSaveDataCommon/EaseType.hpp"
+#include "BeatmapSaveDataCommon/EaseTypeConvertor.hpp"
 #include "BeatmapSaveDataCommon/EnvironmentColorType.hpp"
 #include "BeatmapSaveDataCommon/ExecutionTime.hpp"
 #include "BeatmapSaveDataCommon/IBeat.hpp"

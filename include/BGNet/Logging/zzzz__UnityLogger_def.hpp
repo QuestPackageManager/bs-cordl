@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityLogger)
-namespace BGNet::Logging {
-class __Debug__ILogger;
-}
 namespace System {
 class Exception;
 }
@@ -18,36 +16,35 @@ class UnityLogger;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Logging::UnityLogger);
-// Type: BGNet.Logging::UnityLogger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BGNet.Logging.Debug::ILogger, System.Object
 namespace BGNet::Logging {
 // Is value type: false
-// CS Name: ::BGNet.Logging::UnityLogger*
+// CS Name: BGNet.Logging.UnityLogger
 class CORDL_TYPE UnityLogger : public ::System::Object {
 public:
   // Declarations
-  /// @brief Convert operator to "::BGNet::Logging::__Debug__ILogger"
-  constexpr operator ::BGNet::Logging::__Debug__ILogger*() noexcept;
+  /// @brief Convert operator to "::BGNet::Logging::Debug_ILogger"
+  constexpr operator ::BGNet::Logging::Debug_ILogger*() noexcept;
 
-  /// @brief Method LogError, addr 0x22bbcb0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x22eef9c, size 0x58, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogException, addr 0x22bbd08, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x22eeff4, size 0x88, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::StringW message);
 
-  /// @brief Method LogInfo, addr 0x22bbcac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LogInfo, addr 0x22eef98, size 0x4, virtual true, abstract: false, final true
   inline void LogInfo(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x22bbd90, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x22ef07c, size 0x58, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
   static inline ::BGNet::Logging::UnityLogger* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22bb478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22ee764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Convert to "::BGNet::Logging::__Debug__ILogger"
-  constexpr ::BGNet::Logging::__Debug__ILogger* i___BGNet__Logging____Debug__ILogger() noexcept;
+  /// @brief Convert to "::BGNet::Logging::Debug_ILogger"
+  constexpr ::BGNet::Logging::Debug_ILogger* i___BGNet__Logging__Debug_ILogger() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -64,7 +61,7 @@ public:
   UnityLogger(UnityLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19166 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

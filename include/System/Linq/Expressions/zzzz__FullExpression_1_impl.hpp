@@ -30,12 +30,6 @@ template <typename TDelegate> constexpr void System::Linq::Expressions::FullExpr
   this->____TailCallCore_k__BackingField = value;
 }
 template <typename TDelegate>
-inline ::System::Linq::Expressions::FullExpression_1<TDelegate>*
-System::Linq::Expressions::FullExpression_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
-                                                                 ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::FullExpression_1<TDelegate>*>(body, name, tailCall, parameters));
-}
-template <typename TDelegate>
 inline void System::Linq::Expressions::FullExpression_1<TDelegate>::_ctor(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
                                                                           ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,6 +51,12 @@ template <typename TDelegate> inline bool System::Linq::Expressions::FullExpress
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::FullExpression_1<TDelegate>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+template <typename TDelegate>
+inline ::System::Linq::Expressions::FullExpression_1<TDelegate>*
+System::Linq::Expressions::FullExpression_1<TDelegate>::New_ctor(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
+                                                                 ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::ParameterExpression*>* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::FullExpression_1<TDelegate>*>(body, name, tailCall, parameters));
 }
 // Ctor Parameters []
 template <typename TDelegate> constexpr ::System::Linq::Expressions::FullExpression_1<TDelegate>::FullExpression_1() {}

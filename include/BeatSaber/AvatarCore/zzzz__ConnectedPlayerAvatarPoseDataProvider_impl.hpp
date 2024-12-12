@@ -1,22 +1,22 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/AvatarCore/ConnectedPlayerAvatarPoseDataProvider.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_impl.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__ConnectedPlayerAvatarPoseDataProvider_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider.get_currentPose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::AvatarCore::AvatarPoseData (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::get_currentPose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2221a9c;
+  constexpr static std::size_t addrs = 0x224d010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)(
     ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*)>(&::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::add_poseDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2221aac;
+  constexpr static std::size_t addrs = 0x224d020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)(
     ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*)>(&::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::remove_poseDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2221b5c;
+  constexpr static std::size_t addrs = 0x224d0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::INodePoseSyncStateManager*, ::BeatSaber::AvatarCore::IAvatarPoseRestriction*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2221c0c;
+  constexpr static std::size_t addrs = 0x224d180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::Tick)> {
   constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x2221c48;
+  constexpr static std::size_t addrs = 0x224d1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,28 +90,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
-constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*() noexcept {
-  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
-constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___BeatSaber__AvatarCore__IAvatarPoseDataProvider() noexcept {
-  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Zenject::ITickable"
-constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::Zenject::ITickable*() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Zenject::ITickable"
-constexpr ::Zenject::ITickable* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___Zenject__ITickable() noexcept {
-  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
-}
 constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get_poseDidChangeEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*> const&
-BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get_poseDidChangeEvent() const {
+constexpr ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get_poseDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___poseDidChangeEvent;
 }
@@ -123,7 +106,7 @@ constexpr ::GlobalNamespace::IConnectedPlayer*& BeatSaber::AvatarCore::Connected
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__connectedPlayer() const {
+constexpr ::GlobalNamespace::IConnectedPlayer* const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____connectedPlayer;
 }
@@ -135,8 +118,7 @@ constexpr ::GlobalNamespace::INodePoseSyncStateManager*& BeatSaber::AvatarCore::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const&
-BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__nodePoseSyncStateManager() const {
+constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__nodePoseSyncStateManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManager;
 }
@@ -148,8 +130,7 @@ constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& BeatSaber::AvatarCor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
-constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseRestriction*> const&
-BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__avatarPoseRestriction() const {
+constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction* const& BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::__cordl_internal_get__avatarPoseRestriction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____avatarPoseRestriction;
 }
@@ -189,11 +170,6 @@ inline void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::remove
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
-BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
-                                                                       ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>(connectedPlayer, nodePoseSyncStateManager, avatarPoseRestriction));
-}
 inline void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                                 ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                 ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction) {
@@ -209,6 +185,27 @@ inline void BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::Tick()
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>::get(), "Tick",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*
+BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
+                                                                       ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider*>(connectedPlayer, nodePoseSyncStateManager, avatarPoseRestriction));
+}
+/// @brief Convert operator to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
+constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*() noexcept {
+  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
+constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___BeatSaber__AvatarCore__IAvatarPoseDataProvider() noexcept {
+  return static_cast<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::operator ::Zenject::ITickable*() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::i___Zenject__ITickable() noexcept {
+  return static_cast<::Zenject::ITickable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::ConnectedPlayerAvatarPoseDataProvider() {}

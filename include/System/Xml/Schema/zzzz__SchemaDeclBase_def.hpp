@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Xml/Schema/zzzz__SchemaDeclBase_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -13,13 +12,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Xml::Schema {
+struct SchemaDeclBase_Use;
+}
+namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-struct __SchemaDeclBase__Use;
 }
 namespace System::Xml {
 class XmlQualifiedName;
@@ -29,26 +28,25 @@ class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
-struct __SchemaDeclBase__Use;
+struct SchemaDeclBase_Use;
 }
 namespace System::Xml::Schema {
 class SchemaDeclBase;
 }
 // Write type traits
-MARK_VAL_T(::System::Xml::Schema::__SchemaDeclBase__Use);
+MARK_VAL_T(::System::Xml::Schema::SchemaDeclBase_Use);
 MARK_REF_PTR_T(::System::Xml::Schema::SchemaDeclBase);
-// Type: ::Use
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Xml::Schema {
 // Is value type: true
-// CS Name: ::SchemaDeclBase::Use
-struct CORDL_TYPE __SchemaDeclBase__Use {
+// CS Name: System.Xml.Schema.SchemaDeclBase/Use
+struct CORDL_TYPE SchemaDeclBase_Use {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____SchemaDeclBase__Use_Unwrapped
-  enum struct ____SchemaDeclBase__Use_Unwrapped : int32_t {
+  /// @brief Nested struct __SchemaDeclBase_Use_Unwrapped
+  enum struct __SchemaDeclBase_Use_Unwrapped : int32_t {
     __E_Default = static_cast<int32_t>(0x0),
     __E_Required = static_cast<int32_t>(0x1),
     __E_Implied = static_cast<int32_t>(0x2),
@@ -57,8 +55,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____SchemaDeclBase__Use_Unwrapped() const noexcept {
-    return static_cast<____SchemaDeclBase__Use_Unwrapped>(this->value__);
+  constexpr operator __SchemaDeclBase_Use_Unwrapped() const noexcept {
+    return static_cast<__SchemaDeclBase_Use_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -68,52 +66,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SchemaDeclBase__Use();
+  constexpr SchemaDeclBase_Use();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SchemaDeclBase__Use(int32_t value__) noexcept;
+  constexpr SchemaDeclBase_Use(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Default value: I32(0)
+  static ::System::Xml::Schema::SchemaDeclBase_Use const Default;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Default;
+  /// @brief Field Fixed value: I32(3)
+  static ::System::Xml::Schema::SchemaDeclBase_Use const Fixed;
 
-  /// @brief Field Fixed value: static_cast<int32_t>(0x3)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Fixed;
+  /// @brief Field Implied value: I32(2)
+  static ::System::Xml::Schema::SchemaDeclBase_Use const Implied;
 
-  /// @brief Field Implied value: static_cast<int32_t>(0x2)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Implied;
+  /// @brief Field Required value: I32(1)
+  static ::System::Xml::Schema::SchemaDeclBase_Use const Required;
 
-  /// @brief Field Required value: static_cast<int32_t>(0x1)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const Required;
-
-  /// @brief Field RequiredFixed value: static_cast<int32_t>(0x4)
-  static ::System::Xml::Schema::__SchemaDeclBase__Use const RequiredFixed;
+  /// @brief Field RequiredFixed value: I32(4)
+  static ::System::Xml::Schema::SchemaDeclBase_Use const RequiredFixed;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7613 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__SchemaDeclBase__Use, 0x4>, "Size mismatch!");
+static_assert(offsetof(::System::Xml::Schema::SchemaDeclBase_Use, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::System::Xml::Schema::__SchemaDeclBase__Use, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaDeclBase_Use, 0x4>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
-// Type: System.Xml.Schema::SchemaDeclBase
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Xml.Schema.SchemaDeclBase::Use
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::SchemaDeclBase*
+// CS Name: System.Xml.Schema.SchemaDeclBase
 class CORDL_TYPE SchemaDeclBase : public ::System::Object {
 public:
   // Declarations
-  using Use = ::System::Xml::Schema::__SchemaDeclBase__Use;
+  using Use = ::System::Xml::Schema::SchemaDeclBase_Use;
 
   __declspec(property(get = get_Datatype, put = set_Datatype)) ::System::Xml::Schema::XmlSchemaDatatype* Datatype;
 
@@ -131,7 +128,7 @@ public:
 
   __declspec(property(get = get_Prefix, put = set_Prefix)) ::StringW Prefix;
 
-  __declspec(property(get = get_Presence, put = set_Presence)) ::System::Xml::Schema::__SchemaDeclBase__Use Presence;
+  __declspec(property(get = get_Presence, put = set_Presence)) ::System::Xml::Schema::SchemaDeclBase_Use Presence;
 
   __declspec(property(get = get_SchemaType, put = set_SchemaType)) ::System::Xml::Schema::XmlSchemaType* SchemaType;
 
@@ -162,7 +159,7 @@ public:
   __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix)) ::StringW prefix;
 
   /// @brief Field presence, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_presence, put = __cordl_internal_set_presence)) ::System::Xml::Schema::__SchemaDeclBase__Use presence;
+  __declspec(property(get = __cordl_internal_get_presence, put = __cordl_internal_set_presence)) ::System::Xml::Schema::SchemaDeclBase_Use presence;
 
   /// @brief Field schemaType, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType)) ::System::Xml::Schema::XmlSchemaType* schemaType;
@@ -170,30 +167,30 @@ public:
   /// @brief Field values, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::System::Collections::Generic::List_1<::StringW>* values;
 
-  /// @brief Method AddValue, addr 0x422f354, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x4290668, size 0xec, virtual false, abstract: false, final false
   inline void AddValue(::StringW value);
 
-  /// @brief Method CheckEnumeration, addr 0x422f4bc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CheckEnumeration, addr 0x42907d0, size 0xb8, virtual false, abstract: false, final false
   inline bool CheckEnumeration(::System::Object* pVal);
 
-  /// @brief Method CheckValue, addr 0x422f574, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CheckValue, addr 0x4290888, size 0x50, virtual false, abstract: false, final false
   inline bool CheckValue(::System::Object* pVal);
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor();
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_datatype();
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype* const& __cordl_internal_get_datatype() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __cordl_internal_get_datatype() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_datatype();
 
   constexpr ::StringW const& __cordl_internal_get_defaultValueRaw() const;
 
   constexpr ::StringW& __cordl_internal_get_defaultValueRaw();
 
-  constexpr ::System::Object*& __cordl_internal_get_defaultValueTyped();
+  constexpr ::System::Object* const& __cordl_internal_get_defaultValueTyped() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_defaultValueTyped() const;
+  constexpr ::System::Object*& __cordl_internal_get_defaultValueTyped();
 
   constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
 
@@ -207,25 +204,25 @@ public:
 
   constexpr int64_t& __cordl_internal_get_minLength();
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_name() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
 
   constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
   constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use const& __cordl_internal_get_presence() const;
+  constexpr ::System::Xml::Schema::SchemaDeclBase_Use const& __cordl_internal_get_presence() const;
 
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use& __cordl_internal_get_presence();
+  constexpr ::System::Xml::Schema::SchemaDeclBase_Use& __cordl_internal_get_presence();
+
+  constexpr ::System::Xml::Schema::XmlSchemaType* const& __cordl_internal_get_schemaType() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
+  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_values() const;
 
   constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_values();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_values() const;
 
   constexpr void __cordl_internal_set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
@@ -243,82 +240,82 @@ public:
 
   constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr void __cordl_internal_set_presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
+  constexpr void __cordl_internal_set_presence(::System::Xml::Schema::SchemaDeclBase_Use value);
 
   constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
 
   constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x422f21c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4290530, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x422f194, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42904a8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 
-  /// @brief Method get_Datatype, addr 0x422f344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x4290658, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_DefaultValueRaw, addr 0x422f450, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueRaw, addr 0x4290764, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValueRaw();
 
-  /// @brief Method get_DefaultValueTyped, addr 0x422f4ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValueTyped, addr 0x42907c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_IsDeclaredInExternal, addr 0x422f2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x4290604, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method get_MaxLength, addr 0x422f314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxLength, addr 0x4290628, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MaxLength();
 
-  /// @brief Method get_MinLength, addr 0x422f324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinLength, addr 0x4290638, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_MinLength();
 
-  /// @brief Method get_Name, addr 0x422f284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x4290598, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_Prefix, addr 0x422f294, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x42905a8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_Presence, addr 0x422f304, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::__SchemaDeclBase__Use get_Presence();
+  /// @brief Method get_Presence, addr 0x4290618, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Xml::Schema::SchemaDeclBase_Use get_Presence();
 
-  /// @brief Method get_SchemaType, addr 0x422f334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x4290648, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_Values, addr 0x422f440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Values, addr 0x4290754, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_Values();
 
-  /// @brief Method set_Datatype, addr 0x422f34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Datatype, addr 0x4290660, size 0x8, virtual false, abstract: false, final false
   inline void set_Datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method set_DefaultValueRaw, addr 0x422f4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueRaw, addr 0x42907b8, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueRaw(::StringW value);
 
-  /// @brief Method set_DefaultValueTyped, addr 0x422f4b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValueTyped, addr 0x42907c8, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValueTyped(::System::Object* value);
 
-  /// @brief Method set_IsDeclaredInExternal, addr 0x422f2f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDeclaredInExternal, addr 0x429060c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDeclaredInExternal(bool value);
 
-  /// @brief Method set_MaxLength, addr 0x422f31c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxLength, addr 0x4290630, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxLength(int64_t value);
 
-  /// @brief Method set_MinLength, addr 0x422f32c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinLength, addr 0x4290640, size 0x8, virtual false, abstract: false, final false
   inline void set_MinLength(int64_t value);
 
-  /// @brief Method set_Name, addr 0x422f28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42905a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_Prefix, addr 0x422f2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Prefix, addr 0x42905fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::StringW value);
 
-  /// @brief Method set_Presence, addr 0x422f30c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
+  /// @brief Method set_Presence, addr 0x4290620, size 0x8, virtual false, abstract: false, final false
+  inline void set_Presence(::System::Xml::Schema::SchemaDeclBase_Use value);
 
-  /// @brief Method set_SchemaType, addr 0x422f33c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x4290650, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  /// @brief Method set_Values, addr 0x422f448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Values, addr 0x429075c, size 0x8, virtual false, abstract: false, final false
   inline void set_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
 protected:
@@ -335,6 +332,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SchemaDeclBase(SchemaDeclBase const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7614 };
+
   /// @brief Field name, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlQualifiedName* ___name;
 
@@ -345,7 +345,7 @@ public:
   bool ___isDeclaredInExternal;
 
   /// @brief Field presence, offset: 0x24, size: 0x4, def value: None
-  ::System::Xml::Schema::__SchemaDeclBase__Use ___presence;
+  ::System::Xml::Schema::SchemaDeclBase_Use ___presence;
 
   /// @brief Field schemaType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaType* ___schemaType;
@@ -368,14 +368,9 @@ public:
   /// @brief Field values, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___values;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7589 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaDeclBase, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::SchemaDeclBase, ___name) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::SchemaDeclBase, ___prefix) == 0x18, "Offset mismatch!");
@@ -398,7 +393,9 @@ static_assert(offsetof(::System::Xml::Schema::SchemaDeclBase, ___minLength) == 0
 
 static_assert(offsetof(::System::Xml::Schema::SchemaDeclBase, ___values) == 0x58, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SchemaDeclBase, 0x60>, "Size mismatch!");
+
 } // namespace System::Xml::Schema
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::__SchemaDeclBase__Use, "System.Xml.Schema", "SchemaDeclBase/Use");
+DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaDeclBase_Use, "System.Xml.Schema", "SchemaDeclBase/Use");
 NEED_NO_BOX(::System::Xml::Schema::SchemaDeclBase);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaDeclBase*, "System.Xml.Schema", "SchemaDeclBase");

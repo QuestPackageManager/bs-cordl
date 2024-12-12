@@ -3,24 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerAvatarAudioController)
 namespace BeatSaber::AvatarCore {
-class __MultiplayerAvatarAudioController___Start_d__4;
+class MultiplayerAvatarAudioController__Start_d__4;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
@@ -33,17 +30,16 @@ namespace BeatSaber::AvatarCore {
 class MultiplayerAvatarAudioController;
 }
 namespace BeatSaber::AvatarCore {
-class __MultiplayerAvatarAudioController___Start_d__4;
+class MultiplayerAvatarAudioController__Start_d__4;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController);
-MARK_REF_PTR_T(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4);
-// Type: ::<Start>d__4
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4);
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::MultiplayerAvatarAudioController::<Start>d__4*
-class CORDL_TYPE __MultiplayerAvatarAudioController___Start_d__4 : public ::System::Object {
+// CS Name: BeatSaber.AvatarCore.MultiplayerAvatarAudioController/<Start>d__4
+class CORDL_TYPE MultiplayerAvatarAudioController__Start_d__4 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -68,30 +64,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x222292c, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x224dea0, size 0xd4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4* New_ctor(int32_t __1__state);
+  static inline ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2222a00, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x224df74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2222a08, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x224df7c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2222a40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x224dfb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2222928, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x224de9c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
 
   constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController> const& __cordl_internal_get___4__this() const;
 
@@ -103,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController> value);
 
-  /// @brief Method .ctor, addr 0x22228f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224de6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -118,16 +114,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerAvatarAudioController___Start_d__4();
+  constexpr MultiplayerAvatarAudioController__Start_d__4();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerAvatarAudioController___Start_d__4", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarAudioController__Start_d__4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerAvatarAudioController___Start_d__4(__MultiplayerAvatarAudioController___Start_d__4&&) = delete;
+  MultiplayerAvatarAudioController__Start_d__4(MultiplayerAvatarAudioController__Start_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerAvatarAudioController___Start_d__4", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerAvatarAudioController__Start_d__4", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerAvatarAudioController___Start_d__4(__MultiplayerAvatarAudioController___Start_d__4 const&) = delete;
+  MultiplayerAvatarAudioController__Start_d__4(MultiplayerAvatarAudioController__Start_d__4 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17579 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -138,30 +137,26 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController> _____4__this;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4, 0x28>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::AvatarCore
-// Type: BeatSaber.AvatarCore::MultiplayerAvatarAudioController
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// CS Name: ::BeatSaber.AvatarCore::MultiplayerAvatarAudioController*
+// CS Name: BeatSaber.AvatarCore.MultiplayerAvatarAudioController
 class CORDL_TYPE MultiplayerAvatarAudioController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _Start_d__4 = ::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4;
+  using _Start_d__4 = ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4;
 
   /// @brief Field _audioSource, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
@@ -173,25 +168,25 @@ public:
 
   static inline ::BeatSaber::AvatarCore::MultiplayerAvatarAudioController* New_ctor();
 
-  /// @brief Method Start, addr 0x2222898, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x224de0c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
   constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x2222920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x224de94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_connectedPlayer, addr 0x2222890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectedPlayer, addr 0x224de04, size 0x8, virtual false, abstract: false, final false
   inline void set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
 protected:
@@ -208,26 +203,26 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerAvatarAudioController(MultiplayerAvatarAudioController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17580 };
+
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _connectedPlayer, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17536 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController, ____audioSource) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController, ____connectedPlayer) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::MultiplayerAvatarAudioController, 0x30>, "Size mismatch!");
+
 } // namespace BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController*, "BeatSaber.AvatarCore", "MultiplayerAvatarAudioController");
-NEED_NO_BOX(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::__MultiplayerAvatarAudioController___Start_d__4*, "BeatSaber.AvatarCore", "MultiplayerAvatarAudioController/<Start>d__4");
+NEED_NO_BOX(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4);
+DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::MultiplayerAvatarAudioController__Start_d__4*, "BeatSaber.AvatarCore", "MultiplayerAvatarAudioController/<Start>d__4");

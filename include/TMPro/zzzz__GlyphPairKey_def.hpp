@@ -15,18 +15,17 @@ struct GlyphPairKey;
 }
 // Write type traits
 MARK_VAL_T(::TMPro::GlyphPairKey);
-// Type: TMPro::GlyphPairKey
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace TMPro {
 // Is value type: true
-// CS Name: ::TMPro::GlyphPairKey
+// CS Name: TMPro.GlyphPairKey
 struct CORDL_TYPE GlyphPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4773a1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47d4d30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex);
 
-  /// @brief Method .ctor, addr 0x476b69c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x47cc9b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
 
   // Ctor Parameters []
@@ -37,6 +36,12 @@ public:
   // CppParam { name: "key", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr GlyphPairKey(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex, uint32_t key) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14492 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+
   /// @brief Field firstGlyphIndex, offset: 0x0, size: 0x4, def value: None
   uint32_t firstGlyphIndex;
 
@@ -46,22 +51,16 @@ public:
   /// @brief Field key, offset: 0x8, size: 0x4, def value: None
   uint32_t key;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14458 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::GlyphPairKey, 0xc>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::GlyphPairKey, firstGlyphIndex) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::GlyphPairKey, secondGlyphIndex) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::GlyphPairKey, key) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::GlyphPairKey, 0xc>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");

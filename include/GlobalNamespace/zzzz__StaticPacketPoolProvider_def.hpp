@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(StaticPacketPoolProvider)
 namespace GlobalNamespace {
 class IPacketPool;
@@ -24,23 +23,22 @@ class StaticPacketPoolProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StaticPacketPoolProvider);
-// Type: ::StaticPacketPoolProvider
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::StaticPacketPoolProvider*
+// CS Name: StaticPacketPoolProvider
 class CORDL_TYPE StaticPacketPoolProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _staticPools, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__staticPools,
-                             put = setStaticF__staticPools)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* _staticPools;
+  __declspec(property(get = getStaticF__staticPools,
+                      put = setStaticF__staticPools)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* _staticPools;
 
   /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0x22999d0, size 0x90, virtual false, abstract: false, final false
-  static inline bool TryGetPacketPool(::System::Type* t, ByRef<::GlobalNamespace::IPacketPool*> pool);
+  /// @brief Method TryGetPacketPool, addr 0x22cccbc, size 0x90, virtual false, abstract: false, final false
+  static inline bool TryGetPacketPool(::System::Type* t, ::ByRef<::GlobalNamespace::IPacketPool*> pool);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();
 
@@ -61,7 +59,7 @@ public:
   StaticPacketPoolProvider(StaticPacketPoolProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14777 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

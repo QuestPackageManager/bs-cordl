@@ -3,97 +3,88 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Data/zzzz__RBTree_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Data/zzzz__TreeAccessMethod_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RBTree_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Data {
+template <typename K> struct RBTree_1_NodeColor;
+}
+namespace System::Data {
+template <typename K> struct RBTree_1_NodePath;
+}
+namespace System::Data {
+template <typename K> struct RBTree_1_Node;
+}
+namespace System::Data {
+template <typename K> struct RBTree_1_RBTreeEnumerator;
+}
+namespace System::Data {
+template <typename K> class RBTree_1_TreePage;
+}
+namespace System::Data {
 struct TreeAccessMethod;
-}
-namespace System::Data {
-template <typename K> struct __RBTree_1__NodeColor;
-}
-namespace System::Data {
-template <typename K> struct __RBTree_1__NodePath;
-}
-namespace System::Data {
-template <typename K> struct __RBTree_1__Node;
-}
-namespace System::Data {
-template <typename K> struct __RBTree_1__RBTreeEnumerator;
-}
-namespace System::Data {
-template <typename K> class __RBTree_1__TreePage;
 }
 namespace System {
 class Array;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 class Object;
 }
 // Forward declare root types
 namespace System::Data {
-template <typename K> struct __RBTree_1__NodeColor;
+template <typename K> struct RBTree_1_NodeColor;
 }
 namespace System::Data {
 template <typename K> class RBTree_1;
 }
 namespace System::Data {
-template <typename K> class __RBTree_1__TreePage;
+template <typename K> class RBTree_1_TreePage;
 }
 namespace System::Data {
-template <typename K> struct __RBTree_1__Node;
+template <typename K> struct RBTree_1_Node;
 }
 namespace System::Data {
-template <typename K> struct __RBTree_1__NodePath;
+template <typename K> struct RBTree_1_NodePath;
 }
 namespace System::Data {
-template <typename K> struct __RBTree_1__RBTreeEnumerator;
+template <typename K> struct RBTree_1_RBTreeEnumerator;
 }
 // Write type traits
-MARK_GEN_VAL_T(::System::Data::__RBTree_1__NodeColor);
+MARK_GEN_VAL_T(::System::Data::RBTree_1_NodeColor);
 MARK_GEN_REF_PTR_T(::System::Data::RBTree_1);
-MARK_GEN_REF_PTR_T(::System::Data::__RBTree_1__TreePage);
-MARK_GEN_VAL_T(::System::Data::__RBTree_1__Node);
-MARK_GEN_VAL_T(::System::Data::__RBTree_1__NodePath);
-MARK_GEN_VAL_T(::System::Data::__RBTree_1__RBTreeEnumerator);
-// Type: ::NodeColor
-// SizeInfo { instance_size: 4, native_size: 20, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::System::Data::RBTree_1_TreePage);
+MARK_GEN_VAL_T(::System::Data::RBTree_1_Node);
+MARK_GEN_VAL_T(::System::Data::RBTree_1_NodePath);
+MARK_GEN_VAL_T(::System::Data::RBTree_1_RBTreeEnumerator);
+// Dependencies
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: true
-// CS Name: ::RBTree`1::NodeColor<K>
-struct CORDL_TYPE __RBTree_1__NodeColor {
+// CS Name: System.Data.RBTree`1/NodeColor<K>
+struct CORDL_TYPE RBTree_1_NodeColor {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____RBTree_1__NodeColor_Unwrapped
-  enum struct ____RBTree_1__NodeColor_Unwrapped : int32_t {
+  /// @brief Nested struct __RBTree_1_NodeColor_Unwrapped
+  enum struct __RBTree_1_NodeColor_Unwrapped : int32_t {
     __E_red = static_cast<int32_t>(0x0),
     __E_black = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____RBTree_1__NodeColor_Unwrapped() const noexcept {
-    return static_cast<____RBTree_1__NodeColor_Unwrapped>(this->value__);
+  constexpr operator __RBTree_1_NodeColor_Unwrapped() const noexcept {
+    return static_cast<__RBTree_1_NodeColor_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -103,50 +94,55 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RBTree_1__NodeColor();
+  constexpr RBTree_1_NodeColor();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __RBTree_1__NodeColor(int32_t value__) noexcept;
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  constexpr RBTree_1_NodeColor(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11448 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
-  /// @brief Field black value: static_cast<int32_t>(0x1)
-  static ::System::Data::__RBTree_1__NodeColor<K> const black;
+  /// @brief Field black value: I32(1)
+  static ::System::Data::RBTree_1_NodeColor<K> const black;
 
-  /// @brief Field red value: static_cast<int32_t>(0x0)
-  static ::System::Data::__RBTree_1__NodeColor<K> const red;
+  /// @brief Field red value: I32(0)
+  static ::System::Data::RBTree_1_NodeColor<K> const red;
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Data
-// Type: ::Node
-// SizeInfo { instance_size: 40, native_size: 52, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.RBTree`1::NodeColor<K>
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: true
-// CS Name: ::RBTree`1::Node<K>
-struct CORDL_TYPE __RBTree_1__Node {
+// CS Name: System.Data.RBTree`1/Node<K>
+struct CORDL_TYPE RBTree_1_Node {
 public:
   // Declarations
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RBTree_1__Node();
+  constexpr RBTree_1_Node();
 
   // Ctor Parameters [CppParam { name: "_selfId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_leftId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "_rightId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_nextId", ty: "int32_t", modifiers:
   // "", def_value: None }, CppParam { name: "_subTreeSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_keyOfNode", ty: "K", modifiers: "", def_value: None }, CppParam { name:
-  // "_nodeColor", ty: "::System::Data::__RBTree_1__NodeColor<K>", modifiers: "", def_value: None }]
-  constexpr __RBTree_1__Node(int32_t _selfId, int32_t _leftId, int32_t _rightId, int32_t _parentId, int32_t _nextId, int32_t _subTreeSize, K _keyOfNode,
-                             ::System::Data::__RBTree_1__NodeColor<K> _nodeColor) noexcept;
+  // "_nodeColor", ty: "::System::Data::RBTree_1_NodeColor<K>", modifiers: "", def_value: None }]
+  constexpr RBTree_1_Node(int32_t _selfId, int32_t _leftId, int32_t _rightId, int32_t _parentId, int32_t _nextId, int32_t _subTreeSize, K _keyOfNode,
+                          ::System::Data::RBTree_1_NodeColor<K> _nodeColor) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11449 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field _selfId, offset: 0x0, size: 0x4, def value: None
   int32_t _selfId;
@@ -170,26 +166,19 @@ public:
   K _keyOfNode;
 
   /// @brief Field _nodeColor, offset: 0x20, size: 0x4, def value: None
-  ::System::Data::__RBTree_1__NodeColor<K> _nodeColor;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+  ::System::Data::RBTree_1_NodeColor<K> _nodeColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Data
-// Type: ::NodePath
-// SizeInfo { instance_size: 8, native_size: 24, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: true
-// CS Name: ::RBTree`1::NodePath<K>
-struct CORDL_TYPE __RBTree_1__NodePath {
+// CS Name: System.Data.RBTree`1/NodePath<K>
+struct CORDL_TYPE RBTree_1_NodePath {
 public:
   // Declarations
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -197,10 +186,16 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RBTree_1__NodePath();
+  constexpr RBTree_1_NodePath();
 
   // Ctor Parameters [CppParam { name: "_nodeID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_mainTreeNodeID", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __RBTree_1__NodePath(int32_t _nodeID, int32_t _mainTreeNodeID) noexcept;
+  constexpr RBTree_1_NodePath(int32_t _nodeID, int32_t _mainTreeNodeID) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11450 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field _nodeID, offset: 0x0, size: 0x4, def value: None
   int32_t _nodeID;
@@ -208,24 +203,17 @@ public:
   /// @brief Field _mainTreeNodeID, offset: 0x4, size: 0x4, def value: None
   int32_t _mainTreeNodeID;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11417 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Data
-// Type: ::TreePage
-// SizeInfo { instance_size: 48, native_size: 44, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: false
-// CS Name: ::RBTree`1::TreePage<K>*
-class CORDL_TYPE __RBTree_1__TreePage : public ::System::Object {
+// CS Name: System.Data.RBTree`1/TreePage<K>
+class CORDL_TYPE RBTree_1_TreePage : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_InUseCount, put = set_InUseCount)) int32_t InUseCount;
@@ -245,12 +233,12 @@ public:
   __declspec(property(get = __cordl_internal_get__slotMap, put = __cordl_internal_set__slotMap)) ::ArrayW<int32_t, ::Array<int32_t>*> _slotMap;
 
   /// @brief Field _slots, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__slots, put = __cordl_internal_set__slots)) ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> _slots;
+  __declspec(property(get = __cordl_internal_get__slots, put = __cordl_internal_set__slots)) ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> _slots;
 
   /// @brief Method AllocSlot, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t AllocSlot(::System::Data::RBTree_1<K>* tree);
 
-  static inline ::System::Data::__RBTree_1__TreePage<K>* New_ctor(int32_t size);
+  static inline ::System::Data::RBTree_1_TreePage<K>* New_ctor(int32_t size);
 
   constexpr int32_t const& __cordl_internal_get__inUseCount() const;
 
@@ -268,9 +256,9 @@ public:
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__slotMap();
 
-  constexpr ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> const& __cordl_internal_get__slots() const;
+  constexpr ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> const& __cordl_internal_get__slots() const;
 
-  constexpr ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*>& __cordl_internal_get__slots();
+  constexpr ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*>& __cordl_internal_get__slots();
 
   constexpr void __cordl_internal_set__inUseCount(int32_t value);
 
@@ -280,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set__slotMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr void __cordl_internal_set__slots(::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> value);
+  constexpr void __cordl_internal_set__slots(::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
@@ -300,19 +288,22 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RBTree_1__TreePage();
+  constexpr RBTree_1_TreePage();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RBTree_1__TreePage", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __RBTree_1__TreePage(__RBTree_1__TreePage&&) = delete;
+  RBTree_1_TreePage(RBTree_1_TreePage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RBTree_1__TreePage", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "RBTree_1_TreePage", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __RBTree_1__TreePage(__RBTree_1__TreePage const&) = delete;
+  RBTree_1_TreePage(RBTree_1_TreePage const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11451 };
 
   /// @brief Field _slots, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Data::__RBTree_1__Node<K>, ::Array<::System::Data::__RBTree_1__Node<K>>*> ____slots;
+  ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> ____slots;
 
   /// @brief Field _slotMap, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____slotMap;
@@ -326,21 +317,17 @@ public:
   /// @brief Field _nextFreeSlotLine, offset: 0x28, size: 0x4, def value: None
   int32_t ____nextFreeSlotLine;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11418 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Data
-// Type: ::RBTreeEnumerator
-// SizeInfo { instance_size: 32, native_size: 48, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: true
-// CS Name: ::RBTree`1::RBTreeEnumerator<K>
-struct CORDL_TYPE __RBTree_1__RBTreeEnumerator {
+// CS Name: System.Data.RBTree`1/RBTreeEnumerator<K>
+struct CORDL_TYPE RBTree_1_RBTreeEnumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) K Current;
@@ -388,12 +375,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __RBTree_1__RBTreeEnumerator();
+  constexpr RBTree_1_RBTreeEnumerator();
 
   // Ctor Parameters [CppParam { name: "_tree", ty: "::System::Data::RBTree_1<K>*", modifiers: "", def_value: None }, CppParam { name: "_version", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_mainTreeNodeId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_current", ty:
   // "K", modifiers: "", def_value: None }]
-  constexpr __RBTree_1__RBTreeEnumerator(::System::Data::RBTree_1<K>* _tree, int32_t _version, int32_t _index, int32_t _mainTreeNodeId, K _current) noexcept;
+  constexpr RBTree_1_RBTreeEnumerator(::System::Data::RBTree_1<K>* _tree, int32_t _version, int32_t _index, int32_t _mainTreeNodeId, K _current) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11452 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field _tree, offset: 0x0, size: 0x8, def value: None
   ::System::Data::RBTree_1<K>* _tree;
@@ -410,35 +403,28 @@ public:
   /// @brief Field _current, offset: 0x18, size: 0x8, def value: None
   K _current;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11419 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace System::Data
-// Type: System.Data::RBTree`1
-// SizeInfo { instance_size: 64, native_size: 60, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.IEnumerable, System.Data.TreeAccessMethod, System.Object
 namespace System::Data {
 // cpp template
 template <typename K>
 // Is value type: false
-// CS Name: ::System.Data::RBTree`1<K>*
+// CS Name: System.Data.RBTree`1<K>
 class CORDL_TYPE RBTree_1 : public ::System::Object {
 public:
   // Declarations
-  using Node = ::System::Data::__RBTree_1__Node<K>;
+  using Node = ::System::Data::RBTree_1_Node<K>;
 
-  using NodeColor = ::System::Data::__RBTree_1__NodeColor<K>;
+  using NodeColor = ::System::Data::RBTree_1_NodeColor<K>;
 
-  using NodePath = ::System::Data::__RBTree_1__NodePath<K>;
+  using NodePath = ::System::Data::RBTree_1_NodePath<K>;
 
-  using RBTreeEnumerator = ::System::Data::__RBTree_1__RBTreeEnumerator<K>;
+  using RBTreeEnumerator = ::System::Data::RBTree_1_RBTreeEnumerator<K>;
 
-  using TreePage = ::System::Data::__RBTree_1__TreePage<K>;
+  using TreePage = ::System::Data::RBTree_1_TreePage<K>;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -462,8 +448,7 @@ public:
   __declspec(property(get = __cordl_internal_get__nextFreePageLine, put = __cordl_internal_set__nextFreePageLine)) int32_t _nextFreePageLine;
 
   /// @brief Field _pageTable, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageTable,
-                      put = __cordl_internal_set__pageTable)) ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*>
+  __declspec(property(get = __cordl_internal_get__pageTable, put = __cordl_internal_set__pageTable)) ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*>
       _pageTable;
 
   /// @brief Field _pageTableMap, offset 0x18, size 0x8
@@ -482,15 +467,15 @@ public:
   inline int32_t Add(K item);
 
   /// @brief Method AllocPage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Data::__RBTree_1__TreePage<K>* AllocPage(int32_t size);
+  inline ::System::Data::RBTree_1_TreePage<K>* AllocPage(int32_t size);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CompareNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CompareNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t CompareNode(K record1, K record2);
 
-  /// @brief Method CompareSateliteTreeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method CompareSateliteTreeNode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t CompareSateliteTreeNode(K record1, K record2);
 
   /// @brief Method ComputeIndexByNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -500,7 +485,7 @@ public:
   inline int32_t ComputeIndexWithSatelliteByNode(int32_t nodeId);
 
   /// @brief Method ComputeNodeByIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t ComputeNodeByIndex(int32_t index, ByRef<int32_t> satelliteRootId);
+  inline int32_t ComputeNodeByIndex(int32_t index, ::ByRef<int32_t> satelliteRootId);
 
   /// @brief Method ComputeNodeByIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t ComputeNodeByIndex(int32_t x_id, int32_t index);
@@ -521,7 +506,7 @@ public:
   inline void FreeNode(int32_t nodeId);
 
   /// @brief Method FreePage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void FreePage(::System::Data::__RBTree_1__TreePage<K>* page);
+  inline void FreePage(::System::Data::RBTree_1_TreePage<K>* page);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
@@ -533,7 +518,7 @@ public:
   inline int32_t GetIndexByNode(int32_t node);
 
   /// @brief Method GetIndexByNodePath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t GetIndexByNodePath(::System::Data::__RBTree_1__NodePath<K> path);
+  inline int32_t GetIndexByNodePath(::System::Data::RBTree_1_NodePath<K> path);
 
   /// @brief Method GetIndexOfPageWithFreeSlot, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetIndexOfPageWithFreeSlot(bool allocatedPage);
@@ -545,10 +530,10 @@ public:
   inline int32_t GetNewNode(K key);
 
   /// @brief Method GetNodeByIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Data::__RBTree_1__NodePath<K> GetNodeByIndex(int32_t userIndex);
+  inline ::System::Data::RBTree_1_NodePath<K> GetNodeByIndex(int32_t userIndex);
 
   /// @brief Method GetNodeByKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Data::__RBTree_1__NodePath<K> GetNodeByKey(K key);
+  inline ::System::Data::RBTree_1_NodePath<K> GetNodeByKey(K key);
 
   /// @brief Method IncreaseSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IncreaseSize(int32_t nodeId);
@@ -578,10 +563,10 @@ public:
   inline int32_t LeftRotate(int32_t root_id, int32_t x_id, int32_t mainTreeNode);
 
   /// @brief Method MarkPageFree, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void MarkPageFree(::System::Data::__RBTree_1__TreePage<K>* page);
+  inline void MarkPageFree(::System::Data::RBTree_1_TreePage<K>* page);
 
   /// @brief Method MarkPageFull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void MarkPageFull(::System::Data::__RBTree_1__TreePage<K>* page);
+  inline void MarkPageFull(::System::Data::RBTree_1_TreePage<K>* page);
 
   /// @brief Method Minimum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Minimum(int32_t x_id);
@@ -622,7 +607,7 @@ public:
   inline int32_t SearchSubTree(int32_t root_id, K key);
 
   /// @brief Method SetColor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void SetColor(int32_t nodeId, ::System::Data::__RBTree_1__NodeColor<K> color);
+  inline void SetColor(int32_t nodeId, ::System::Data::RBTree_1_NodeColor<K> color);
 
   /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetKey(int32_t nodeId, K key);
@@ -646,7 +631,7 @@ public:
   inline int32_t SubTreeSize(int32_t nodeId);
 
   /// @brief Method Successor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool Successor(ByRef<int32_t> nodeId, ByRef<int32_t> mainTreeNodeId);
+  inline bool Successor(::ByRef<int32_t> nodeId, ::ByRef<int32_t> mainTreeNodeId);
 
   /// @brief Method Successor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Successor(int32_t x_id);
@@ -674,9 +659,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__nextFreePageLine();
 
-  constexpr ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*> const& __cordl_internal_get__pageTable() const;
+  constexpr ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*> const& __cordl_internal_get__pageTable() const;
 
-  constexpr ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*>& __cordl_internal_get__pageTable();
+  constexpr ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*>& __cordl_internal_get__pageTable();
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__pageTableMap() const;
 
@@ -700,7 +685,7 @@ public:
 
   constexpr void __cordl_internal_set__nextFreePageLine(int32_t value);
 
-  constexpr void __cordl_internal_set__pageTable(::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*> value);
+  constexpr void __cordl_internal_set__pageTable(::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*> value);
 
   constexpr void __cordl_internal_set__pageTableMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
@@ -712,7 +697,7 @@ public:
   inline void _ctor(::System::Data::TreeAccessMethod accessMethod);
 
   /// @brief Method color, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Data::__RBTree_1__NodeColor<K> color(int32_t nodeId);
+  inline ::System::Data::RBTree_1_NodeColor<K> color(int32_t nodeId);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
@@ -740,8 +725,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RBTree_1(RBTree_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
+
   /// @brief Field _pageTable, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Data::__RBTree_1__TreePage<K>*, ::Array<::System::Data::__RBTree_1__TreePage<K>*>*> ____pageTable;
+  ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*> ____pageTable;
 
   /// @brief Field _pageTableMap, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____pageTableMap;
@@ -767,16 +755,13 @@ public:
   /// @brief Field _accessMethod, offset: 0x38, size: 0x4, def value: None
   ::System::Data::TreeAccessMethod ____accessMethod;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11420 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Data
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::__RBTree_1__NodeColor, "System.Data", "RBTree`1/NodeColor");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::RBTree_1_NodeColor, "System.Data", "RBTree`1/NodeColor");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Data::RBTree_1, "System.Data", "RBTree`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Data::__RBTree_1__TreePage, "System.Data", "RBTree`1/TreePage");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::__RBTree_1__Node, "System.Data", "RBTree`1/Node");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::__RBTree_1__NodePath, "System.Data", "RBTree`1/NodePath");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::__RBTree_1__RBTreeEnumerator, "System.Data", "RBTree`1/RBTreeEnumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Data::RBTree_1_TreePage, "System.Data", "RBTree`1/TreePage");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::RBTree_1_Node, "System.Data", "RBTree`1/Node");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::RBTree_1_NodePath, "System.Data", "RBTree`1/NodePath");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Data::RBTree_1_RBTreeEnumerator, "System.Data", "RBTree`1/RBTreeEnumerator");

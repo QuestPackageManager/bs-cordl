@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SelectableCellStaticAnimations)
 namespace HMUI {
-class SelectableCell;
+struct SelectableCell_TransitionType;
 }
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+class SelectableCell;
 }
 namespace System {
 class Object;
@@ -23,11 +23,10 @@ class SelectableCellStaticAnimations;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::SelectableCellStaticAnimations);
-// Type: HMUI::SelectableCellStaticAnimations
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::SelectableCellStaticAnimations*
+// CS Name: HMUI.SelectableCellStaticAnimations
 class CORDL_TYPE SelectableCellStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -47,24 +46,24 @@ public:
   /// @brief Field _selectedAnimationClip, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedAnimationClip, put = __cordl_internal_set__selectedAnimationClip)) ::UnityW<::UnityEngine::AnimationClip> _selectedAnimationClip;
 
-  /// @brief Method Awake, addr 0x39a6b20, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39fd790, size 0xe4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleHighlightDidChange, addr 0x39a6d54, size 0x4, virtual false, abstract: false, final false
-  inline void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
+  /// @brief Method HandleHighlightDidChange, addr 0x39fd9c4, size 0x4, virtual false, abstract: false, final false
+  inline void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HandleSelectionDidChange, addr 0x39a6d50, size 0x4, virtual false, abstract: false, final false
-  inline void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
+  /// @brief Method HandleSelectionDidChange, addr 0x39fd9c0, size 0x4, virtual false, abstract: false, final false
+  inline void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
 
   static inline ::HMUI::SelectableCellStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39a6c6c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39fd8dc, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x39a6c08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x39fd878, size 0x64, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x39a6c04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x39fd874, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedAnimationClip() const;
@@ -97,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x39a6d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39fd9c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,6 +113,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectableCellStaticAnimations(SelectableCellStaticAnimations const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16100 };
+
   /// @brief Field _selectableCell, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SelectableCell> ____selectableCell;
 
@@ -129,14 +131,9 @@ public:
   /// @brief Field _selectedAndHighlightedAnimationClip, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AnimationClip> ____selectedAndHighlightedAnimationClip;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16065 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::SelectableCellStaticAnimations, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::SelectableCellStaticAnimations, ____selectableCell) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::SelectableCellStaticAnimations, ____normalAnimationClip) == 0x28, "Offset mismatch!");
@@ -146,6 +143,8 @@ static_assert(offsetof(::HMUI::SelectableCellStaticAnimations, ____highlightedAn
 static_assert(offsetof(::HMUI::SelectableCellStaticAnimations, ____selectedAnimationClip) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::SelectableCellStaticAnimations, ____selectedAndHighlightedAnimationClip) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::SelectableCellStaticAnimations, 0x48>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::SelectableCellStaticAnimations);

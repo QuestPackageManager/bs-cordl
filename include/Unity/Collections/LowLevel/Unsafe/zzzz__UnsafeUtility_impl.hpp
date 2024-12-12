@@ -8,36 +8,35 @@
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeUtility_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__LeakCategory_def.hpp"
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>::setStaticF_flags(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "flags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>>::get>(
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>::setStaticF_flags(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "flags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>>::get>(
       std::forward<int32_t>(value));
 }
-template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>::getStaticF_flags() {
-  return ::cordl_internals::getStaticField<int32_t, "flags",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>>::get>();
+template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>::getStaticF_flags() {
+  return ::cordl_internals::getStaticField<int32_t, "flags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>>::get>();
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>::Init(ByRef<int32_t> flags) {
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>::Init(::ByRef<int32_t> flags) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>>::get(), "Init",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>>::get(), "Init",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, flags);
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__TypeFlagsCache_1<T>::__UnsafeUtility__TypeFlagsCache_1() {}
-// Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("nullptr") }]
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__AlignOfHelper_1<T>::__UnsafeUtility__AlignOfHelper_1(uint8_t dummy, T data) noexcept {
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_TypeFlagsCache_1<T>::UnsafeUtility_TypeFlagsCache_1() {}
+// Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "data", ty: "T", modifiers: "", def_value: Some("{}") }]
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1(uint8_t dummy, T data) noexcept {
   this->dummy = dummy;
   this->data = data;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::__UnsafeUtility__AlignOfHelper_1<T>::__UnsafeUtility__AlignOfHelper_1() {}
+template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility_AlignOfHelper_1<T>::UnsafeUtility_AlignOfHelper_1() {}
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeUtility.LeakRecord
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::Unity::Collections::LeakCategory, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::LeakRecord)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fd780;
+  constexpr static std::size_t addrs = 0x485f320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, ::Unity::Collections::LeakCategory)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::LeakErase)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47fd7d4;
+  constexpr static std::size_t addrs = 0x485f374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (*)(int64_t, int32_t, ::Unity::Collections::Allocator, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MallocTracked)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47fd818;
+  constexpr static std::size_t addrs = 0x485f3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::Unity::Collections::Allocator)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::FreeTracked)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47fd524;
+  constexpr static std::size_t addrs = 0x485f0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (*)(int64_t, int32_t, ::Unity::Collections::Allocator)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Malloc)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fd874;
+  constexpr static std::size_t addrs = 0x485f414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::Unity::Collections::Allocator)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47fd8c8;
+  constexpr static std::size_t addrs = 0x485f468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemCpy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fd2f4;
+  constexpr static std::size_t addrs = 0x485ee94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int32_t, ::cordl_internals::Ptr<void>, int32_t, int32_t, int32_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemCpyStride)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47fd90c;
+  constexpr static std::size_t addrs = 0x485f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -170,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemMove)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fd980;
+  constexpr static std::size_t addrs = 0x485f520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint8_t, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemSet)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fd9d4;
+  constexpr static std::size_t addrs = 0x485f574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemClear)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47fda28;
+  constexpr static std::size_t addrs = 0x485f5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, int64_t)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::MemCmp)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47fda70;
+  constexpr static std::size_t addrs = 0x485f610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47fdac4;
+  constexpr static std::size_t addrs = 0x485f664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetScriptingTypeFlags)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47fdb00;
+  constexpr static std::size_t addrs = 0x485f6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -262,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47fdb3c;
+  constexpr static std::size_t addrs = 0x485f6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::StringW)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x47fdb9c;
+  constexpr static std::size_t addrs = 0x485f73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,7 +291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Array*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47fdd58;
+  constexpr static std::size_t addrs = 0x485f8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Array*)>(
     &::Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47fdd88;
+  constexpr static std::size_t addrs = 0x485f928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,10 +526,10 @@ template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUt
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, destination, index, stride, value);
 }
-template <typename T> inline ::cordl_internals::Ptr<void> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AddressOf(ByRef<T> output) {
+template <typename T> inline ::cordl_internals::Ptr<void> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AddressOf(::ByRef<T> output) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>::get(),
                                                                                   "AddressOf", std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(nullptr, ___internal_method, output);
@@ -543,24 +542,24 @@ template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::Unsaf
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-template <typename U, typename T> inline ByRef<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::As(ByRef<U> from) {
+template <typename U, typename T> inline ::ByRef<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::As(::ByRef<U> from) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>::get(), "As",
       std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<U>>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<U>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<U>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(nullptr, ___internal_method, from);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(nullptr, ___internal_method, from);
 }
-template <typename T> inline ByRef<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AsRef(::cordl_internals::Ptr<void> ptr) {
+template <typename T> inline ::ByRef<T> Unity::Collections::LowLevel::Unsafe::UnsafeUtility::AsRef(::cordl_internals::Ptr<void> ptr) {
   static auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>::get(), "AsRef",
                                                std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(nullptr, ___internal_method, ptr);
+  return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(nullptr, ___internal_method, ptr);
 }
 template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::UnsafeUtility::EnumToInt(T enumValue) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>::get(),
@@ -570,11 +569,11 @@ template <typename T> inline int32_t Unity::Collections::LowLevel::Unsafe::Unsaf
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, enumValue);
 }
-template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalEnumToInt(ByRef<T> enumValue, ByRef<int32_t> intValue) {
+template <typename T> inline void Unity::Collections::LowLevel::Unsafe::UnsafeUtility::InternalEnumToInt(::ByRef<T> enumValue, ::ByRef<int32_t> intValue) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeUtility*>::get(), "InternalEnumToInt",
       std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, enumValue, intValue);

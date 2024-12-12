@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23e524c;
+  constexpr static std::size_t addrs = 0x2418538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::get_ServerNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e52c0;
+  constexpr static std::size_t addrs = 0x24185ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerNameList::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::Encode)> {
   constexpr static std::size_t size = 0x4b0;
-  constexpr static std::size_t addrs = 0x23e52c8;
+  constexpr static std::size_t addrs = 0x24185b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ServerNameList* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::Parse)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x23e5814;
+  constexpr static std::size_t addrs = 0x2418b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::ServerNameList::CheckNameType)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23e5778;
+  constexpr static std::size_t addrs = 0x2418a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,16 +86,13 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Crypto::Tls::ServerN
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerNameList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crypto::Tls::ServerNameList::__cordl_internal_get_mServerNameList() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Crypto::Tls::ServerNameList::__cordl_internal_get_mServerNameList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mServerNameList;
 }
 constexpr void Org::BouncyCastle::Crypto::Tls::ServerNameList::__cordl_internal_set_mServerNameList(::System::Collections::IList* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mServerNameList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Org::BouncyCastle::Crypto::Tls::ServerNameList::New_ctor(::System::Collections::IList* serverNameList) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::ServerNameList*>(serverNameList));
 }
 inline void Org::BouncyCastle::Crypto::Tls::ServerNameList::_ctor(::System::Collections::IList* serverNameList) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -125,6 +122,9 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Crypto::Tls::Serv
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, nameTypesSeen, nameType);
+}
+inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Org::BouncyCastle::Crypto::Tls::ServerNameList::New_ctor(::System::Collections::IList* serverNameList) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Tls::ServerNameList*>(serverNameList));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Tls::ServerNameList::ServerNameList() {}

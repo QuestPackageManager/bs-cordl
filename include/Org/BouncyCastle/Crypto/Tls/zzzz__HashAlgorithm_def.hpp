@@ -13,29 +13,28 @@ class HashAlgorithm;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HashAlgorithm);
-// Type: Org.BouncyCastle.Crypto.Tls::HashAlgorithm
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::HashAlgorithm*
+// CS Name: Org.BouncyCastle.Crypto.Tls.HashAlgorithm
 class CORDL_TYPE HashAlgorithm : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetName, addr 0x23e15b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetName, addr 0x24148a0, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW GetName(uint8_t hashAlgorithm);
 
-  /// @brief Method GetText, addr 0x23e166c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetText, addr 0x2414958, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GetText(uint8_t hashAlgorithm);
 
-  /// @brief Method IsPrivate, addr 0x23e17e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPrivate, addr 0x2414ad4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsPrivate(uint8_t hashAlgorithm);
 
-  /// @brief Method IsRecognized, addr 0x23e17f8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsRecognized, addr 0x2414ae4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsRecognized(uint8_t hashAlgorithm);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e180c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2414af8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

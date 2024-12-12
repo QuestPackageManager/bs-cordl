@@ -26,13 +26,12 @@ template <typename TAntecedentResult> class ContinuationTaskFromResultTask_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::ContinuationTaskFromResultTask_1);
-// Type: System.Threading.Tasks::ContinuationTaskFromResultTask`1
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.Tasks.Task
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult>
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::ContinuationTaskFromResultTask`1<TAntecedentResult>*
+// CS Name: System.Threading.Tasks.ContinuationTaskFromResultTask`1<TAntecedentResult>
 class CORDL_TYPE ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task {
 public:
   // Declarations
@@ -46,9 +45,9 @@ public:
                                                                                                           ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                                                           ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>* const& __cordl_internal_get_m_antecedent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __cordl_internal_get_m_antecedent() const;
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
 
   constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
 
@@ -70,11 +69,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContinuationTaskFromResultTask_1(ContinuationTaskFromResultTask_1 const&) = delete;
 
-  /// @brief Field m_antecedent, offset: 0x50, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2802 };
+
+  /// @brief Field m_antecedent, offset: 0x50, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

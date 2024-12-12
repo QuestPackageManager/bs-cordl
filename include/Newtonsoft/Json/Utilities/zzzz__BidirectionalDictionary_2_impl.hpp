@@ -10,8 +10,7 @@ constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*& Newto
   return this->____firstToSecond;
 }
 template <typename TFirst, typename TSecond>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TFirst, TSecond>*> const&
-Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__firstToSecond() const {
+constexpr ::System::Collections::Generic::IDictionary_2<TFirst, TSecond>* const& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__firstToSecond() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstToSecond;
 }
@@ -26,8 +25,7 @@ constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*& Newto
   return this->____secondToFirst;
 }
 template <typename TFirst, typename TSecond>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TSecond, TFirst>*> const&
-Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__secondToFirst() const {
+constexpr ::System::Collections::Generic::IDictionary_2<TSecond, TFirst>* const& Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::__cordl_internal_get__secondToFirst() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____secondToFirst;
 }
@@ -63,21 +61,11 @@ constexpr void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____duplicateSecondErrorMessage, value);
 }
-template <typename TFirst, typename TSecond>
-inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>());
-}
 template <typename TFirst, typename TSecond> inline void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename TFirst, typename TSecond>
-inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*
-Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
-                                                                                  ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(firstEqualityComparer, secondEqualityComparer));
 }
 template <typename TFirst, typename TSecond>
 inline void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
@@ -87,14 +75,6 @@ inline void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSeco
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<TFirst>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<TSecond>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstEqualityComparer, secondEqualityComparer);
-}
-template <typename TFirst, typename TSecond>
-inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*
-Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
-                                                                                  ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer,
-                                                                                  ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(firstEqualityComparer, secondEqualityComparer, duplicateFirstErrorMessage,
-                                                                                                                              duplicateSecondErrorMessage));
 }
 template <typename TFirst, typename TSecond>
 inline void Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
@@ -113,19 +93,37 @@ template <typename TFirst, typename TSecond> inline void Newtonsoft::Json::Utili
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TFirst>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSecond>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, first, second);
 }
-template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetByFirst(TFirst first, ByRef<TSecond> second) {
+template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetByFirst(TFirst first, ::ByRef<TSecond> second) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>::get(), "TryGetByFirst",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TFirst>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TSecond>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TFirst>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TSecond>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, first, second);
 }
-template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetBySecond(TSecond second, ByRef<TFirst> first) {
+template <typename TFirst, typename TSecond> inline bool Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::TryGetBySecond(TSecond second, ::ByRef<TFirst> first) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>::get(), "TryGetBySecond",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSecond>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TFirst>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TSecond>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TFirst>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, second, first);
+}
+template <typename TFirst, typename TSecond>
+inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>());
+}
+template <typename TFirst, typename TSecond>
+inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*
+Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
+                                                                                  ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(firstEqualityComparer, secondEqualityComparer));
+}
+template <typename TFirst, typename TSecond>
+inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*
+Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
+                                                                                  ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer,
+                                                                                  ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>*>(firstEqualityComparer, secondEqualityComparer, duplicateFirstErrorMessage,
+                                                                                                                              duplicateSecondErrorMessage));
 }
 // Ctor Parameters []
 template <typename TFirst, typename TSecond> constexpr ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>::BidirectionalDictionary_2() {}

@@ -15,83 +15,83 @@
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*&
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get___4__this() {
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*> const&
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get___4__this() const {
+constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>* const&
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-constexpr void Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set___4__this(
+constexpr void Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set___4__this(
     ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*&
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get_args() {
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get_args() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const&
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get_args() const {
+constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* const&
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_get_args() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___args;
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr void
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___args, value);
 }
-template <typename TParam1, typename TParam2, typename TParam3>
-inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*
-Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*>());
-}
-template <typename TParam1, typename TParam2, typename TParam3> inline void Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::_ctor() {
+template <typename TParam1, typename TParam2, typename TParam3> inline void Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-inline void Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
+inline void Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::_AddInstallers_b__0(::Zenject::DiContainer* subContainer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(), "<AddInstallers>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(), "<AddInstallers>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, subContainer);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-inline ::System::Object* Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
+inline ::System::Object* Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
                                   "__zenCreate", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-inline ::Zenject::InjectTypeInfo* Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__zenCreateInjectTypeInfo() {
+inline ::Zenject::InjectTypeInfo* Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*>::get(),
                                   "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
+template <typename TParam1, typename TParam2, typename TParam3>
+inline ::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*
+Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>*>());
+}
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3>
-constexpr ::Zenject::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>::__SubContainerCreatorByNewPrefabMethod_3____c__DisplayClass2_0() {}
+constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0<TParam1, TParam2, TParam3>::SubContainerCreatorByNewPrefabMethod_3___c__DisplayClass2_0() {}
 template <typename TParam1, typename TParam2, typename TParam3>
 constexpr ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>*& Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::__cordl_internal_get__installerMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
 }
 template <typename TParam1, typename TParam2, typename TParam3>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>*> const&
+constexpr ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* const&
 Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::__cordl_internal_get__installerMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____installerMethod;
@@ -101,13 +101,6 @@ constexpr void
 Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::__cordl_internal_set__installerMethod(::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____installerMethod, value);
-}
-template <typename TParam1, typename TParam2, typename TParam3>
-inline ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*
-Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
-                                                                                     ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*>(container, prefabProvider, gameObjectBindInfo, installerMethod));
 }
 template <typename TParam1, typename TParam2, typename TParam3>
 inline void Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -128,6 +121,13 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TP
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
+}
+template <typename TParam1, typename TParam2, typename TParam3>
+inline ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*
+Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
+                                                                                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
+                                                                                     ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>*>(container, prefabProvider, gameObjectBindInfo, installerMethod));
 }
 // Ctor Parameters []
 template <typename TParam1, typename TParam2, typename TParam3> constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_3<TParam1, TParam2, TParam3>::SubContainerCreatorByNewPrefabMethod_3() {}

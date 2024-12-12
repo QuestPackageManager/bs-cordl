@@ -14,11 +14,10 @@ class StateMachineAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::StateMachineAttribute);
-// Type: System.Runtime.CompilerServices::StateMachineAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::StateMachineAttribute*
+// CS Name: System.Runtime.CompilerServices.StateMachineAttribute
 class CORDL_TYPE StateMachineAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -29,16 +28,16 @@ public:
 
   static inline ::System::Runtime::CompilerServices::StateMachineAttribute* New_ctor(::System::Type* stateMachineType);
 
-  constexpr ::System::Type*& __cordl_internal_get__StateMachineType_k__BackingField();
+  constexpr ::System::Type* const& __cordl_internal_get__StateMachineType_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__StateMachineType_k__BackingField() const;
+  constexpr ::System::Type*& __cordl_internal_get__StateMachineType_k__BackingField();
 
   constexpr void __cordl_internal_set__StateMachineType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3cb686c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d169e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
-  /// @brief Method get_StateMachineType, addr 0x3cb7698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateMachineType, addr 0x3d1780c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
 protected:
@@ -55,18 +54,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StateMachineAttribute(StateMachineAttribute const&) = delete;
 
-  /// @brief Field <StateMachineType>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____StateMachineType_k__BackingField;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3384 };
+
+  /// @brief Field <StateMachineType>k__BackingField, offset: 0x10, size: 0x8, def value: None
+  ::System::Type* ____StateMachineType_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::StateMachineAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::CompilerServices::StateMachineAttribute, ____StateMachineType_k__BackingField) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::StateMachineAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::StateMachineAttribute);

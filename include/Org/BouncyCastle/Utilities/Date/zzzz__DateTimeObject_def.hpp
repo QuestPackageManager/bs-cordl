@@ -16,11 +16,10 @@ class DateTimeObject;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
-// Type: Org.BouncyCastle.Utilities.Date::DateTimeObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
+// CS Name: Org.BouncyCastle.Utilities.Date.DateTimeObject
 class CORDL_TYPE DateTimeObject : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 
-  /// @brief Method ToString, addr 0x25a0524, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25d3810, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
@@ -40,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_dt(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x25966f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c99e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime dt);
 
-  /// @brief Method get_Value, addr 0x25a051c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x25d3808, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Value();
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DateTimeObject(DateTimeObject const&) = delete;
 
-  /// @brief Field dt, offset: 0x10, size: 0x8, def value: None
-  ::System::DateTime ___dt;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1791 };
+
+  /// @brief Field dt, offset: 0x10, size: 0x8, def value: None
+  ::System::DateTime ___dt;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Date::DateTimeObject, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Date::DateTimeObject, ___dt) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Date::DateTimeObject, 0x18>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Utilities::Date
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeObject);

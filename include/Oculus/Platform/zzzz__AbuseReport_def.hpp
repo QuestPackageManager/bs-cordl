@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AbuseReport)
 namespace Oculus::Platform {
+template <typename T> class Message_1_Callback;
+}
+namespace Oculus::Platform {
 struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
 class Request;
-}
-namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -21,19 +21,18 @@ class AbuseReport;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::AbuseReport);
-// Type: Oculus.Platform::AbuseReport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::AbuseReport*
+// CS Name: Oculus.Platform.AbuseReport
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled, addr 0x3ef8cac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReportRequestHandled, addr 0x3f58d58, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3ef8edc, size 0x74, virtual false, abstract: false, final false
-  static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x3f58f88, size 0x74, virtual false, abstract: false, final false
+  static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:
   // Ctor Parameters []
@@ -50,7 +49,7 @@ public:
   AbuseReport(AbuseReport const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

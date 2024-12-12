@@ -5,10 +5,6 @@
 #include "UnityEngine/Rendering/zzzz__BatchMaterialID_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchMeshID_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchDrawCommand_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchDrawCommandFlags_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchID_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchMaterialID_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchMeshID_def.hpp"
 // Ctor Parameters [CppParam { name: "visibleOffset", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "visibleCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "batchID", ty: "::UnityEngine::Rendering::BatchID", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialID", ty: "::UnityEngine::Rendering::BatchMaterialID",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "meshID", ty: "::UnityEngine::Rendering::BatchMeshID", modifiers: "", def_value: Some("{}") }, CppParam { name: "submeshIndex", ty:

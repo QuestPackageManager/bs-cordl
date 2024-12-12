@@ -18,11 +18,10 @@ class DllNotFoundException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::DllNotFoundException);
-// Type: System::DllNotFoundException
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.TypeLoadException
 namespace System {
 // Is value type: false
-// CS Name: ::System::DllNotFoundException*
+// CS Name: System.DllNotFoundException
 class CORDL_TYPE DllNotFoundException : public ::System::TypeLoadException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::DllNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d7222c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd23a0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d722ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd2420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d72288, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3dd23fc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

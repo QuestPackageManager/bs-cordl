@@ -1,22 +1,22 @@
 #pragma once
 // IWYU pragma private; include "System/ValueTuple.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_impl.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_impl.hpp"
+#include "System/zzzz__IComparable_1_impl.hpp"
+#include "System/zzzz__IComparable_impl.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "System/zzzz__IValueTupleInternal_impl.hpp"
 #include "System/zzzz__ValueTuple_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ValueTuple.Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3da89e0;
+  constexpr static std::size_t addrs = 0x3e08a8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::Equals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8a3c;
+  constexpr static std::size_t addrs = 0x3e08ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3da8a44;
+  constexpr static std::size_t addrs = 0x3e08af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*)>(&::System::ValueTuple::System_IComparable_CompareTo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3da8aa0;
+  constexpr static std::size_t addrs = 0x3e08b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::ValueTuple)>(&::System::ValueTuple::CompareTo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8bb4;
+  constexpr static std::size_t addrs = 0x3e08c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Object*, ::System::Collections::IComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralComparable_CompareTo)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3da8bbc;
+  constexpr static std::size_t addrs = 0x3e08c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8cd0;
+  constexpr static std::size_t addrs = 0x3e08d7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_Collections_IStructuralEquatable_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8cd8;
+  constexpr static std::size_t addrs = 0x3e08d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)(::System::Collections::IEqualityComparer*)>(
     &::System::ValueTuple::System_IValueTupleInternal_GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8ce0;
+  constexpr static std::size_t addrs = 0x3e08d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::ToString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3da8ce8;
+  constexpr static std::size_t addrs = 0x3e08d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ValueTuple::*)()>(&::System::ValueTuple::System_IValueTupleInternal_ToStringEnd)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3da8d28;
+  constexpr static std::size_t addrs = 0x3e08dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ValueTuple::*)()>(&::System::ValueTuple::System_Runtime_CompilerServices_ITuple_get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da8d68;
+  constexpr static std::size_t addrs = 0x3e08e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3da8d70;
+  constexpr static std::size_t addrs = 0x3e08e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3da8dec;
+  constexpr static std::size_t addrs = 0x3e08e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3da8e6c;
+  constexpr static std::size_t addrs = 0x3e08f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,7 +234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3da8efc;
+  constexpr static std::size_t addrs = 0x3e08fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3da8f94;
+  constexpr static std::size_t addrs = 0x3e09040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3da903c;
+  constexpr static std::size_t addrs = 0x3e090e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::System::ValueTuple::CombineHashCodes)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3da90ec;
+  constexpr static std::size_t addrs = 0x3e09198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,62 +297,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple>"
-constexpr System::ValueTuple::operator ::System::IEquatable_1<::System::ValueTuple>*() {
-  return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple>"
-constexpr ::System::IEquatable_1<::System::ValueTuple>* System::ValueTuple::i___System__IEquatable_1___System__ValueTuple_() {
-  return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IStructuralEquatable"
-constexpr System::ValueTuple::operator ::System::Collections::IStructuralEquatable*() {
-  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IStructuralEquatable"
-constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple::i___System__Collections__IStructuralEquatable() {
-  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Collections::IStructuralComparable"
-constexpr System::ValueTuple::operator ::System::Collections::IStructuralComparable*() {
-  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Collections::IStructuralComparable"
-constexpr ::System::Collections::IStructuralComparable* System::ValueTuple::i___System__Collections__IStructuralComparable() {
-  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IComparable"
-constexpr System::ValueTuple::operator ::System::IComparable*() {
-  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IComparable"
-constexpr ::System::IComparable* System::ValueTuple::i___System__IComparable() {
-  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple>"
-constexpr System::ValueTuple::operator ::System::IComparable_1<::System::ValueTuple>*() {
-  return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IComparable_1<::System::ValueTuple>"
-constexpr ::System::IComparable_1<::System::ValueTuple>* System::ValueTuple::i___System__IComparable_1___System__ValueTuple_() {
-  return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::IValueTupleInternal"
-constexpr System::ValueTuple::operator ::System::IValueTupleInternal*() {
-  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IValueTupleInternal"
-constexpr ::System::IValueTupleInternal* System::ValueTuple::i___System__IValueTupleInternal() {
-  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
-constexpr System::ValueTuple::operator ::System::Runtime::CompilerServices::ITuple*() {
-  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
-constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple::i___System__Runtime__CompilerServices__ITuple() {
-  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline bool System::ValueTuple::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple>::get(), 0)));
@@ -477,6 +421,62 @@ inline int32_t System::ValueTuple::CombineHashCodes(int32_t h1, int32_t h2, int3
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, h1, h2, h3, h4, h5, h6, h7, h8);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple>"
+constexpr System::ValueTuple::operator ::System::IEquatable_1<::System::ValueTuple>*() {
+  return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::System::ValueTuple>"
+constexpr ::System::IEquatable_1<::System::ValueTuple>* System::ValueTuple::i___System__IEquatable_1___System__ValueTuple_() {
+  return static_cast<::System::IEquatable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralEquatable"
+constexpr System::ValueTuple::operator ::System::Collections::IStructuralEquatable*() {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IStructuralEquatable"
+constexpr ::System::Collections::IStructuralEquatable* System::ValueTuple::i___System__Collections__IStructuralEquatable() {
+  return static_cast<::System::Collections::IStructuralEquatable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Collections::IStructuralComparable"
+constexpr System::ValueTuple::operator ::System::Collections::IStructuralComparable*() {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Collections::IStructuralComparable"
+constexpr ::System::Collections::IStructuralComparable* System::ValueTuple::i___System__Collections__IStructuralComparable() {
+  return static_cast<::System::Collections::IStructuralComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr System::ValueTuple::operator ::System::IComparable*() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* System::ValueTuple::i___System__IComparable() {
+  return static_cast<::System::IComparable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IComparable_1<::System::ValueTuple>"
+constexpr System::ValueTuple::operator ::System::IComparable_1<::System::ValueTuple>*() {
+  return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IComparable_1<::System::ValueTuple>"
+constexpr ::System::IComparable_1<::System::ValueTuple>* System::ValueTuple::i___System__IComparable_1___System__ValueTuple_() {
+  return static_cast<::System::IComparable_1<::System::ValueTuple>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::IValueTupleInternal"
+constexpr System::ValueTuple::operator ::System::IValueTupleInternal*() {
+  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IValueTupleInternal"
+constexpr ::System::IValueTupleInternal* System::ValueTuple::i___System__IValueTupleInternal() {
+  return static_cast<::System::IValueTupleInternal*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
+constexpr System::ValueTuple::operator ::System::Runtime::CompilerServices::ITuple*() {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
+constexpr ::System::Runtime::CompilerServices::ITuple* System::ValueTuple::i___System__Runtime__CompilerServices__ITuple() {
+  return static_cast<::System::Runtime::CompilerServices::ITuple*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters []
 constexpr ::System::ValueTuple::ValueTuple() {}

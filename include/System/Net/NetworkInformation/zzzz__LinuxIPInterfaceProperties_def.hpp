@@ -27,11 +27,10 @@ class LinuxIPInterfaceProperties;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxIPInterfaceProperties);
-// Type: System.Net.NetworkInformation::LinuxIPInterfaceProperties
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Net.NetworkInformation.UnixIPInterfaceProperties
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// CS Name: ::System.Net.NetworkInformation::LinuxIPInterfaceProperties*
+// CS Name: System.Net.NetworkInformation.LinuxIPInterfaceProperties
 class CORDL_TYPE LinuxIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {
 public:
   // Declarations
@@ -40,13 +39,13 @@ public:
   static inline ::System::Net::NetworkInformation::LinuxIPInterfaceProperties* New_ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface,
                                                                                         ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method ParseRouteInfo, addr 0x4389110, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method ParseRouteInfo, addr 0x43ea424, size 0x498, virtual false, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPAddressCollection* ParseRouteInfo(::StringW iface);
 
-  /// @brief Method .ctor, addr 0x43890a0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43ea3b4, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::NetworkInformation::LinuxNetworkInterface* iface, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses);
 
-  /// @brief Method get_GatewayAddresses, addr 0x43895a8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_GatewayAddresses, addr 0x43ea8bc, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* get_GatewayAddresses();
 
 protected:
@@ -64,7 +63,7 @@ public:
   LinuxIPInterfaceProperties(LinuxIPInterfaceProperties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9783 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

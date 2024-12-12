@@ -21,11 +21,10 @@ class RectangleFakeGlow;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RectangleFakeGlow);
-// Type: ::RectangleFakeGlow
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::RectangleFakeGlow*
+// CS Name: RectangleFakeGlow
 class CORDL_TYPE RectangleFakeGlow : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -33,7 +32,7 @@ public:
   __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
 
   /// @brief Field _colorID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
+  __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
 
   /// @brief Field _edgeSize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__edgeSize, put = __cordl_internal_set__edgeSize)) float_t _edgeSize;
@@ -47,22 +46,22 @@ public:
   __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) ::UnityEngine::Vector2 _size;
 
   /// @brief Field _sizeParamsID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
+  __declspec(property(get = getStaticF__sizeParamsID, put = setStaticF__sizeParamsID)) int32_t _sizeParamsID;
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x3b37864, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3b98da8, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RectangleFakeGlow* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b37a54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b98f98, size 0x6c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b378d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b98e14, size 0x74, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3b37944, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x3b98e88, size 0x110, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -89,21 +88,21 @@ public:
 
   constexpr void __cordl_internal_set__size(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b37ac0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b99004, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method get_color, addr 0x3b37858, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x3b98d9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorID(int32_t value);
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_color, addr 0x3b37794, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x3b98cd8, size 0xc4, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -120,6 +119,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RectangleFakeGlow(RectangleFakeGlow const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4361 };
+
   /// @brief Field _size, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____size;
 
@@ -132,14 +134,9 @@ public:
   /// @brief Field _materialPropertyBlockController, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4350 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RectangleFakeGlow, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::RectangleFakeGlow, ____size) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RectangleFakeGlow, ____edgeSize) == 0x28, "Offset mismatch!");
@@ -147,6 +144,8 @@ static_assert(offsetof(::GlobalNamespace::RectangleFakeGlow, ____edgeSize) == 0x
 static_assert(offsetof(::GlobalNamespace::RectangleFakeGlow, ____color) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RectangleFakeGlow, ____materialPropertyBlockController) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RectangleFakeGlow, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RectangleFakeGlow);

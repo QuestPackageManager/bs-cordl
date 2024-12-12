@@ -12,26 +12,25 @@ class ServerAppVersionFileManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ServerAppVersionFileManager);
-// Type: ::ServerAppVersionFileManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ServerAppVersionFileManager*
+// CS Name: ServerAppVersionFileManager
 class CORDL_TYPE ServerAppVersionFileManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BuildFilePath, addr 0x22b18dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method BuildFilePath, addr 0x22e4bc8, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW BuildFilePath(::StringW directoryPath);
 
   static inline ::GlobalNamespace::ServerAppVersionFileManager* New_ctor();
 
-  /// @brief Method ReadAppVersion, addr 0x22b194c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReadAppVersion, addr 0x22e4c38, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW ReadAppVersion(::StringW directoryPath);
 
-  /// @brief Method WriteAppVersion, addr 0x22b18c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteAppVersion, addr 0x22e4bac, size 0x1c, virtual false, abstract: false, final false
   static inline void WriteAppVersion(::StringW directoryPath, ::StringW appVersion);
 
-  /// @brief Method .ctor, addr 0x22b1960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22e4c4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +48,7 @@ public:
   ServerAppVersionFileManager(ServerAppVersionFileManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14963 };
 
   /// @brief Field kFileName offset 0xffffffff size 0x8
   static constexpr ::ConstString kFileName{ u"app_version.txt" };

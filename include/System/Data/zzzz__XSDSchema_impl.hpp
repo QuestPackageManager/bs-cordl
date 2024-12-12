@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Data/XSDSchema.hpp"
 #include "System/Data/zzzz__XMLSchema_impl.hpp"
+#include "System/zzzz__IComparable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XSDSchema_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -29,94 +30,92 @@
 #include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
 #include "System/Xml/zzzz__XmlAttribute_def.hpp"
 #include "System/Xml/zzzz__XmlElement_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-//  Writing Method size for method: ::System::Data::__XSDSchema__NameType._ctor
+//  Writing Method size for method: ::System::Data::XSDSchema_NameType._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__XSDSchema__NameType::*)(::StringW, ::System::Type*)>(
-    &::System::Data::__XSDSchema__NameType::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema_NameType::*)(::StringW, ::System::Type*)>(
+    &::System::Data::XSDSchema_NameType::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x413f8b8;
+  constexpr static std::size_t addrs = 0x41a0bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__XSDSchema__NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema_NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Data::__XSDSchema__NameType.CompareTo
+//  Writing Method size for method: ::System::Data::XSDSchema_NameType.CompareTo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::__XSDSchema__NameType::*)(::System::Object*)>(
-    &::System::Data::__XSDSchema__NameType::CompareTo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::XSDSchema_NameType::*)(::System::Object*)>(&::System::Data::XSDSchema_NameType::CompareTo)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x413f8e4;
+  constexpr static std::size_t addrs = 0x41a0bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__XSDSchema__NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema_NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IComparable"
-constexpr System::Data::__XSDSchema__NameType::operator ::System::IComparable*() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IComparable"
-constexpr ::System::IComparable* System::Data::__XSDSchema__NameType::i___System__IComparable() noexcept {
-  return static_cast<::System::IComparable*>(static_cast<void*>(this));
-}
-constexpr ::StringW& System::Data::__XSDSchema__NameType::__cordl_internal_get_name() {
+constexpr ::StringW& System::Data::XSDSchema_NameType::__cordl_internal_get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::StringW const& System::Data::__XSDSchema__NameType::__cordl_internal_get_name() const {
+constexpr ::StringW const& System::Data::XSDSchema_NameType::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr void System::Data::__XSDSchema__NameType::__cordl_internal_set_name(::StringW value) {
+constexpr void System::Data::XSDSchema_NameType::__cordl_internal_set_name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Data::__XSDSchema__NameType::__cordl_internal_get_type() {
+constexpr ::System::Type*& System::Data::XSDSchema_NameType::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::Data::__XSDSchema__NameType::__cordl_internal_get_type() const {
+constexpr ::System::Type* const& System::Data::XSDSchema_NameType::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void System::Data::__XSDSchema__NameType::__cordl_internal_set_type(::System::Type* value) {
+constexpr void System::Data::XSDSchema_NameType::__cordl_internal_set_type(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Data::__XSDSchema__NameType* System::Data::__XSDSchema__NameType::New_ctor(::StringW n, ::System::Type* t) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::__XSDSchema__NameType*>(n, t));
-}
-inline void System::Data::__XSDSchema__NameType::_ctor(::StringW n, ::System::Type* t) {
+inline void System::Data::XSDSchema_NameType::_ctor(::StringW n, ::System::Type* t) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__XSDSchema__NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema_NameType*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, n, t);
 }
-inline int32_t System::Data::__XSDSchema__NameType::CompareTo(::System::Object* obj) {
+inline int32_t System::Data::XSDSchema_NameType::CompareTo(::System::Object* obj) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::__XSDSchema__NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema_NameType*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
+inline ::System::Data::XSDSchema_NameType* System::Data::XSDSchema_NameType::New_ctor(::StringW n, ::System::Type* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XSDSchema_NameType*>(n, t));
+}
+/// @brief Convert operator to "::System::IComparable"
+constexpr System::Data::XSDSchema_NameType::operator ::System::IComparable*() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IComparable"
+constexpr ::System::IComparable* System::Data::XSDSchema_NameType::i___System__IComparable() noexcept {
+  return static_cast<::System::IComparable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::Data::__XSDSchema__NameType::__XSDSchema__NameType() {}
+constexpr ::System::Data::XSDSchema_NameType::XSDSchema_NameType() {}
 //  Writing Method size for method: ::System::Data::XSDSchema.get_FromInference
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XSDSchema::*)()>(&::System::Data::XSDSchema::get_FromInference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x412f794;
+  constexpr static std::size_t addrs = 0x4190aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get(), "get_FromInference",
@@ -129,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(bool)>(&::System::Data::XSDSchema::set_FromInference)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x412f79c;
+  constexpr static std::size_t addrs = 0x4190ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchema*)>(
     &::System::Data::XSDSchema::CollectElementsAnnotations)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x412f7a8;
+  constexpr static std::size_t addrs = 0x4190abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchema*, ::System::Collections::ArrayList*)>(
     &::System::Data::XSDSchema::CollectElementsAnnotations)> {
   constexpr static std::size_t size = 0x994;
-  constexpr static std::size_t addrs = 0x412f830;
+  constexpr static std::size_t addrs = 0x4190b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Data::XSDSchema::QualifiedName)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41302dc;
+  constexpr static std::size_t addrs = 0x41915f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>)>(
     &::System::Data::XSDSchema::SetProperties)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x4130358;
+  constexpr static std::size_t addrs = 0x419166c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>)>(
     &::System::Data::XSDSchema::SetExtProperties)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x41308c0;
+  constexpr static std::size_t addrs = 0x4191bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(
     ::System::Object*, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>)>(&::System::Data::XSDSchema::HandleColumnExpression)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4130c50;
+  constexpr static std::size_t addrs = 0x4191f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::Schema::XmlSchemaAnnotated*, ::StringW)>(
     &::System::Data::XSDSchema::GetMsdataAttribute)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x41301c4;
+  constexpr static std::size_t addrs = 0x41914d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +251,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Xml::XmlAttributeCollection*)>(&::System::Data::XSDSchema::SetExtProperties)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4130e3c;
+  constexpr static std::size_t addrs = 0x4192150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Data::XSDSchema::HandleRefTableProperties)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4131080;
+  constexpr static std::size_t addrs = 0x4192394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::XmlElement*, bool)>(&::System::Data::XSDSchema::HandleRelation)> {
   constexpr static std::size_t size = 0x840;
-  constexpr static std::size_t addrs = 0x413123c;
+  constexpr static std::size_t addrs = 0x4192550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Data::XSDSchema::HasAttributes)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x4131a7c;
+  constexpr static std::size_t addrs = 0x4192d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -314,7 +313,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaParticle*)>(
     &::System::Data::XSDSchema::IsDatasetParticle)> {
   constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x4131cfc;
+  constexpr static std::size_t addrs = 0x4193010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Data::XSDSchema::DatasetElementCount)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x4132724;
+  constexpr static std::size_t addrs = 0x4193a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -344,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(&::System::Data::XSDSchema::FindDatasetElement)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x4132abc;
+  constexpr static std::size_t addrs = 0x4193dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaSet*, ::System::Data::DataTable*)>(
     &::System::Data::XSDSchema::LoadSchema)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41330a8;
+  constexpr static std::size_t addrs = 0x41943bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaSet*, ::System::Data::DataSet*)>(
     &::System::Data::XSDSchema::LoadSchema)> {
   constexpr static std::size_t size = 0x2024;
-  constexpr static std::size_t addrs = 0x41330cc;
+  constexpr static std::size_t addrs = 0x41943e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -391,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAnnotation*, bool)>(
     &::System::Data::XSDSchema::HandleRelations)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x4136870;
+  constexpr static std::size_t addrs = 0x4197b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -407,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaParticle*)>(&::System::Data::XSDSchema::GetParticleItems)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x41322a8;
+  constexpr static std::size_t addrs = 0x41935bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(
     ::System::Xml::Schema::XmlSchemaParticle*, ::System::Data::DataTable*, ::System::Collections::ArrayList*, bool)>(&::System::Data::XSDSchema::HandleParticle)> {
   constexpr static std::size_t size = 0x9c8;
-  constexpr static std::size_t addrs = 0x4136b9c;
+  constexpr static std::size_t addrs = 0x4197eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -440,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaObjectCollection*, ::System::Data::DataTable*, bool)>(&::System::Data::XSDSchema::HandleAttributes)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x4138264;
+  constexpr static std::size_t addrs = 0x4199578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAttributeGroup*, ::System::Data::DataTable*, bool)>(&::System::Data::XSDSchema::HandleAttributeGroup)> {
   constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x4138f14;
+  constexpr static std::size_t addrs = 0x419a228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -474,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(
     ::System::Xml::Schema::XmlSchemaComplexType*, ::System::Data::DataTable*, ::System::Collections::ArrayList*, bool)>(&::System::Data::XSDSchema::HandleComplexType)> {
   constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x41392fc;
+  constexpr static std::size_t addrs = 0x419a610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,7 +491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaParticle* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaComplexType*)>(&::System::Data::XSDSchema::GetParticle)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4132f8c;
+  constexpr static std::size_t addrs = 0x41942a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -507,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataColumn* (::System::Data::XSDSchema::*)(::System::Data::DataTable*, ::StringW)>(
     &::System::Data::XSDSchema::FindField)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x413a9ec;
+  constexpr static std::size_t addrs = 0x419bd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -523,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::XSDSchema::*)(
     ::System::Xml::Schema::XmlSchemaIdentityConstraint*, ::System::Data::DataTable*)>(&::System::Data::XSDSchema::BuildKey)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x413ab68;
+  constexpr static std::size_t addrs = 0x419be7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -539,7 +538,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAnnotated*, ::StringW, bool)>(
     &::System::Data::XSDSchema::GetBooleanAttribute)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4132964;
+  constexpr static std::size_t addrs = 0x4193c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -555,7 +554,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAnnotated*, ::StringW, ::StringW)>(
     &::System::Data::XSDSchema::GetStringAttribute)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41350f0;
+  constexpr static std::size_t addrs = 0x4196404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -570,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::AcceptRejectRule (*)(::StringW)>(&::System::Data::XSDSchema::TranslateAcceptRejectRule)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x413ae3c;
+  constexpr static std::size_t addrs = 0x419c150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Rule (*)(::StringW)>(&::System::Data::XSDSchema::TranslateRule)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x413aec0;
+  constexpr static std::size_t addrs = 0x419c1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -599,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaKeyref*)>(
     &::System::Data::XSDSchema::HandleKeyref)> {
   constexpr static std::size_t size = 0x7ac;
-  constexpr static std::size_t addrs = 0x413afac;
+  constexpr static std::size_t addrs = 0x419c2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
     &::System::Data::XSDSchema::HandleConstraint)> {
   constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x413b870;
+  constexpr static std::size_t addrs = 0x419cb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Data::XSDSchema::InstantiateSimpleTable)> {
   constexpr static std::size_t size = 0x740;
-  constexpr static std::size_t addrs = 0x413bca8;
+  constexpr static std::size_t addrs = 0x419cfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -644,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAnnotated*)>(
     &::System::Data::XSDSchema::GetInstanceName)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4131164;
+  constexpr static std::size_t addrs = 0x4192478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -659,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (
     ::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Xml::Schema::XmlSchemaComplexType*, bool)>(&::System::Data::XSDSchema::InstantiateTable)> {
   constexpr static std::size_t size = 0x14d8;
-  constexpr static std::size_t addrs = 0x413c7f8;
+  constexpr static std::size_t addrs = 0x419db0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -675,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::StringW)>(&::System::Data::XSDSchema::XsdtoClr)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x413de60;
+  constexpr static std::size_t addrs = 0x419f174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -687,9 +686,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Data::XSDSchema.FindNameType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::__XSDSchema__NameType* (*)(::StringW)>(&::System::Data::XSDSchema::FindNameType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::XSDSchema_NameType* (*)(::StringW)>(&::System::Data::XSDSchema::FindNameType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x413df3c;
+  constexpr static std::size_t addrs = 0x419f250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -703,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::XSDSchema::*)(::StringW)>(&::System::Data::XSDSchema::ParseDataType)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x413e010;
+  constexpr static std::size_t addrs = 0x419f324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -717,7 +716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Data::XSDSchema::IsXsdType)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x413e178;
+  constexpr static std::size_t addrs = 0x419f48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -732,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::Schema::XmlSchemaAnnotated* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAnnotated*)>(&::System::Data::XSDSchema::FindTypeNode)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x4135174;
+  constexpr static std::size_t addrs = 0x4196488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -748,7 +747,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::XmlSchemaSimpleType*, ::StringW, ::System::Data::DataTable*, bool, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>, bool)>(
     &::System::Data::XSDSchema::HandleSimpleTypeSimpleContentColumn)> {
   constexpr static std::size_t size = 0x988;
-  constexpr static std::size_t addrs = 0x413a064;
+  constexpr static std::size_t addrs = 0x419b378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -767,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(
     ::StringW, ::System::Data::DataTable*, bool, ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>, bool)>(&::System::Data::XSDSchema::HandleSimpleContentColumn)> {
   constexpr static std::size_t size = 0x77c;
-  constexpr static std::size_t addrs = 0x41398e8;
+  constexpr static std::size_t addrs = 0x419abfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -786,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaAttribute*, ::System::Data::DataTable*, bool)>(
     &::System::Data::XSDSchema::HandleAttributeColumn)> {
   constexpr static std::size_t size = 0x9b4;
-  constexpr static std::size_t addrs = 0x4138560;
+  constexpr static std::size_t addrs = 0x4199874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -803,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*, ::System::Data::DataTable*, bool)>(
     &::System::Data::XSDSchema::HandleElementColumn)> {
   constexpr static std::size_t size = 0xd00;
-  constexpr static std::size_t addrs = 0x4137564;
+  constexpr static std::size_t addrs = 0x4198878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -820,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*, bool)>(
     &::System::Data::XSDSchema::HandleDataSet)> {
   constexpr static std::size_t size = 0x12d8;
-  constexpr static std::size_t addrs = 0x4135598;
+  constexpr static std::size_t addrs = 0x41968ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -836,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XSDSchema::*)(::System::Collections::Generic::List_1<::System::Data::DataTable*>*, ::System::Data::DataTable*)>(&::System::Data::XSDSchema::AddTablesToList)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x413e1e8;
+  constexpr static std::size_t addrs = 0x419f4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -851,7 +850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::StringW)>(&::System::Data::XSDSchema::GetPrefix)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x413c3e8;
+  constexpr static std::size_t addrs = 0x419d6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -865,7 +864,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::StringW)>(&::System::Data::XSDSchema::GetNamespaceFromPrefix)> {
   constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x413e3f4;
+  constexpr static std::size_t addrs = 0x419f708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -880,7 +879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
     &::System::Data::XSDSchema::GetTableNamespace)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x413dcd0;
+  constexpr static std::size_t addrs = 0x419efe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -895,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(
     &::System::Data::XSDSchema::GetTableName)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x413b758;
+  constexpr static std::size_t addrs = 0x419ca6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -909,7 +908,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*)>(&::System::Data::XSDSchema::IsTable)> {
   constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x41324b8;
+  constexpr static std::size_t addrs = 0x41937cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -924,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::XSDSchema::*)(::System::Xml::Schema::XmlSchemaElement*)>(
     &::System::Data::XSDSchema::HandleTable)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x4135420;
+  constexpr static std::size_t addrs = 0x4196734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -938,7 +937,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XSDSchema::*)()>(&::System::Data::XSDSchema::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x413e80c;
+  constexpr static std::size_t addrs = 0x419fb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get(), ".ctor",
@@ -950,7 +949,7 @@ constexpr ::System::Xml::Schema::XmlSchemaSet*& System::Data::XSDSchema::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaSet;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSet*> const& System::Data::XSDSchema::__cordl_internal_get__schemaSet() const {
+constexpr ::System::Xml::Schema::XmlSchemaSet* const& System::Data::XSDSchema::__cordl_internal_get__schemaSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaSet;
 }
@@ -962,7 +961,7 @@ constexpr ::System::Xml::Schema::XmlSchemaElement*& System::Data::XSDSchema::__c
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dsElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& System::Data::XSDSchema::__cordl_internal_get__dsElement() const {
+constexpr ::System::Xml::Schema::XmlSchemaElement* const& System::Data::XSDSchema::__cordl_internal_get__dsElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dsElement;
 }
@@ -974,7 +973,7 @@ constexpr ::System::Data::DataSet*& System::Data::XSDSchema::__cordl_internal_ge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ds;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataSet*> const& System::Data::XSDSchema::__cordl_internal_get__ds() const {
+constexpr ::System::Data::DataSet* const& System::Data::XSDSchema::__cordl_internal_get__ds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ds;
 }
@@ -998,7 +997,7 @@ constexpr ::System::Collections::ArrayList*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____columnExpressions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Data::XSDSchema::__cordl_internal_get__columnExpressions() const {
+constexpr ::System::Collections::ArrayList* const& System::Data::XSDSchema::__cordl_internal_get__columnExpressions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____columnExpressions;
 }
@@ -1010,7 +1009,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraintNodes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__constraintNodes() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__constraintNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraintNodes;
 }
@@ -1022,7 +1021,7 @@ constexpr ::System::Collections::ArrayList*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refTables;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Data::XSDSchema::__cordl_internal_get__refTables() const {
+constexpr ::System::Collections::ArrayList* const& System::Data::XSDSchema::__cordl_internal_get__refTables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____refTables;
 }
@@ -1034,7 +1033,7 @@ constexpr ::System::Collections::ArrayList*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____complexTypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& System::Data::XSDSchema::__cordl_internal_get__complexTypes() const {
+constexpr ::System::Collections::ArrayList* const& System::Data::XSDSchema::__cordl_internal_get__complexTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____complexTypes;
 }
@@ -1046,7 +1045,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Data::XSDSc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& System::Data::XSDSchema::__cordl_internal_get__annotations() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Data::XSDSchema::__cordl_internal_get__annotations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____annotations;
 }
@@ -1058,7 +1057,7 @@ constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& System::Data::XSDSc
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& System::Data::XSDSchema::__cordl_internal_get__elements() const {
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection* const& System::Data::XSDSchema::__cordl_internal_get__elements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
@@ -1070,7 +1069,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__attributes() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__attributes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributes;
 }
@@ -1082,7 +1081,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsTable;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__elementsTable() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__elementsTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementsTable;
 }
@@ -1094,7 +1093,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeGroups;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__attributeGroups() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__attributeGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____attributeGroups;
 }
@@ -1106,7 +1105,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaTypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__schemaTypes() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__schemaTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____schemaTypes;
 }
@@ -1118,7 +1117,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expressions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__expressions() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__expressions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____expressions;
 }
@@ -1131,7 +1130,7 @@ System::Data::XSDSchema::__cordl_internal_get__tableDictionary() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableDictionary;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataTable*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataTable*>*>* const&
 System::Data::XSDSchema::__cordl_internal_get__tableDictionary() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tableDictionary;
@@ -1145,7 +1144,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udSimpleTypes;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__udSimpleTypes() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__udSimpleTypes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____udSimpleTypes;
 }
@@ -1157,7 +1156,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::XSDSchema::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____existingSimpleTypeMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::XSDSchema::__cordl_internal_get__existingSimpleTypeMap() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::XSDSchema::__cordl_internal_get__existingSimpleTypeMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____existingSimpleTypeMap;
 }
@@ -1177,13 +1176,13 @@ constexpr void System::Data::XSDSchema::__cordl_internal_set__fromInference(bool
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fromInference = value;
 }
-inline void System::Data::XSDSchema::setStaticF_s_mapNameTypeXsd(::ArrayW<::System::Data::__XSDSchema__NameType*, ::Array<::System::Data::__XSDSchema__NameType*>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Data::__XSDSchema__NameType*, ::Array<::System::Data::__XSDSchema__NameType*>*>, "s_mapNameTypeXsd",
+inline void System::Data::XSDSchema::setStaticF_s_mapNameTypeXsd(::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*>, "s_mapNameTypeXsd",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get>(
-      std::forward<::ArrayW<::System::Data::__XSDSchema__NameType*, ::Array<::System::Data::__XSDSchema__NameType*>*>>(value));
+      std::forward<::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*>>(value));
 }
-inline ::ArrayW<::System::Data::__XSDSchema__NameType*, ::Array<::System::Data::__XSDSchema__NameType*>*> System::Data::XSDSchema::getStaticF_s_mapNameTypeXsd() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Data::__XSDSchema__NameType*, ::Array<::System::Data::__XSDSchema__NameType*>*>, "s_mapNameTypeXsd",
+inline ::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*> System::Data::XSDSchema::getStaticF_s_mapNameTypeXsd() {
+  return ::cordl_internals::getStaticField<::ArrayW<::System::Data::XSDSchema_NameType*, ::Array<::System::Data::XSDSchema_NameType*>*>, "s_mapNameTypeXsd",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get>();
 }
 inline bool System::Data::XSDSchema::get_FromInference() {
@@ -1436,11 +1435,11 @@ inline ::System::Type* System::Data::XSDSchema::XsdtoClr(::StringW xsdTypeName) 
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(nullptr, ___internal_method, xsdTypeName);
 }
-inline ::System::Data::__XSDSchema__NameType* System::Data::XSDSchema::FindNameType(::StringW name) {
+inline ::System::Data::XSDSchema_NameType* System::Data::XSDSchema::FindNameType(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get(), "FindNameType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Data::__XSDSchema__NameType*, false>(nullptr, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<::System::Data::XSDSchema_NameType*, false>(nullptr, ___internal_method, name);
 }
 inline ::System::Type* System::Data::XSDSchema::ParseDataType(::StringW dt) {
   static auto* ___internal_method =
@@ -1547,13 +1546,13 @@ inline ::System::Data::DataTable* System::Data::XSDSchema::HandleTable(::System:
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method, node);
 }
-inline ::System::Data::XSDSchema* System::Data::XSDSchema::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XSDSchema*>());
-}
 inline void System::Data::XSDSchema::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XSDSchema*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Data::XSDSchema* System::Data::XSDSchema::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::XSDSchema*>());
 }
 // Ctor Parameters []
 constexpr ::System::Data::XSDSchema::XSDSchema() {}

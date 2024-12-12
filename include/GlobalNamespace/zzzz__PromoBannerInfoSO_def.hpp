@@ -16,11 +16,10 @@ class PromoBannerInfoSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PromoBannerInfoSO);
-// Type: ::PromoBannerInfoSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PromoBannerInfoSO*
+// CS Name: PromoBannerInfoSO
 class CORDL_TYPE PromoBannerInfoSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -59,16 +58,16 @@ public:
 
   constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
 
-  /// @brief Method .ctor, addr 0x269cd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d1a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bannerImage, addr 0x269cd34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerImage, addr 0x26d1a04, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
 
-  /// @brief Method get_bannerPromoText, addr 0x269cd3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoText, addr 0x26d1a0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_bannerPromoText();
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x269cd44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bannerPromoTextPosition, addr 0x26d1a14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bannerPromoTextPosition();
 
 protected:
@@ -85,6 +84,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13009 };
+
   /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____bannerImage;
 
@@ -94,19 +96,16 @@ public:
   /// @brief Field _bannerPromoTextPosition, offset: 0x28, size: 0x4, def value: None
   float_t ____bannerPromoTextPosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12974 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PromoBannerInfoSO, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerImage) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoText) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoTextPosition) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PromoBannerInfoSO, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PromoBannerInfoSO);

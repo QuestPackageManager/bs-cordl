@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRHeadsetEmulator.hpp"
-#include "GlobalNamespace/zzzz__OVRHeadsetEmulator_impl.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -9,20 +8,20 @@
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode::__OVRHeadsetEmulator__OpMode(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode::OVRHeadsetEmulator_OpMode(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode::__OVRHeadsetEmulator__OpMode() {}
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode GlobalNamespace::__OVRHeadsetEmulator__OpMode::Off{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode GlobalNamespace::__OVRHeadsetEmulator__OpMode::EditorOnly{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode GlobalNamespace::__OVRHeadsetEmulator__OpMode::AlwaysOn{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode::OVRHeadsetEmulator_OpMode() {}
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode GlobalNamespace::OVRHeadsetEmulator_OpMode::Off{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode GlobalNamespace::OVRHeadsetEmulator_OpMode::EditorOnly{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode GlobalNamespace::OVRHeadsetEmulator_OpMode::AlwaysOn{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::OVRHeadsetEmulator.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f54198;
+  constexpr static std::size_t addrs = 0x3fb4244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "Start",
@@ -35,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::Update)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x3f5419c;
+  constexpr static std::size_t addrs = 0x3fb4248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "Update",
@@ -48,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::IsEmulationActivated)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f54600;
+  constexpr static std::size_t addrs = 0x3fb46ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(),
@@ -61,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::IsTweakingPitch)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f546c8;
+  constexpr static std::size_t addrs = 0x3fb4774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "IsTweakingPitch",
@@ -74,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f54744;
+  constexpr static std::size_t addrs = 0x3fb47f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), ".ctor",
@@ -82,15 +81,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_opMode() {
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_opMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opMode;
 }
-constexpr ::GlobalNamespace::__OVRHeadsetEmulator__OpMode const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_opMode() const {
+constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_opMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___opMode;
 }
-constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_opMode(::GlobalNamespace::__OVRHeadsetEmulator__OpMode value) {
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_opMode(::GlobalNamespace::OVRHeadsetEmulator_OpMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___opMode = value;
 }
@@ -246,13 +245,13 @@ inline bool GlobalNamespace::OVRHeadsetEmulator::IsTweakingPitch() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRHeadsetEmulator* GlobalNamespace::OVRHeadsetEmulator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRHeadsetEmulator*>());
-}
 inline void GlobalNamespace::OVRHeadsetEmulator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRHeadsetEmulator* GlobalNamespace::OVRHeadsetEmulator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRHeadsetEmulator*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRHeadsetEmulator::OVRHeadsetEmulator() {}

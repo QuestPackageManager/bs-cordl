@@ -15,17 +15,16 @@ class HEU_OutputAttributeDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttributeDictionary);
-// Type: HoudiniEngineUnity::HEU_OutputAttributeDictionary
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_SerializableDictionary`2<TKey, TValue>
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*
+// CS Name: HoudiniEngineUnity.HEU_OutputAttributeDictionary
 class CORDL_TYPE HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW, ::HoudiniEngineUnity::HEU_OutputAttribute*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39e3e60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a3aad0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -43,7 +42,7 @@ public:
   HEU_OutputAttributeDictionary(HEU_OutputAttributeDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11616 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

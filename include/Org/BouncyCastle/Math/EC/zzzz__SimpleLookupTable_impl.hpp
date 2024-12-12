@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> (*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::SimpleLookupTable::Copy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x24a74e0;
+  constexpr static std::size_t addrs = 0x24da7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::SimpleLookupTable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x24a75cc;
+  constexpr static std::size_t addrs = 0x24da8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)()>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::get_Size)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24a7614;
+  constexpr static std::size_t addrs = 0x24da900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::Lookup)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x24a7630;
+  constexpr static std::size_t addrs = 0x24da91c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::LookupVar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x24a767c;
+  constexpr static std::size_t addrs = 0x24da968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,10 +108,6 @@ Org::BouncyCastle::Math::EC::SimpleLookupTable::Copy(::ArrayW<::Org::BouncyCastl
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, false>(nullptr, ___internal_method, points, off,
                                                                                                                                                           len);
 }
-inline ::Org::BouncyCastle::Math::EC::SimpleLookupTable*
-Org::BouncyCastle::Math::EC::SimpleLookupTable::New_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off, int32_t len) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::SimpleLookupTable*>(points, off, len));
-}
 inline void Org::BouncyCastle::Math::EC::SimpleLookupTable::_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off,
                                                                   int32_t len) {
   static auto* ___internal_method = THROW_UNLESS((
@@ -135,6 +131,10 @@ inline ::Org::BouncyCastle::Math::EC::ECPoint* Org::BouncyCastle::Math::EC::Simp
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::SimpleLookupTable*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::EC::ECPoint*, false>(this, ___internal_method, index);
+}
+inline ::Org::BouncyCastle::Math::EC::SimpleLookupTable*
+Org::BouncyCastle::Math::EC::SimpleLookupTable::New_ctor(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> points, int32_t off, int32_t len) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::SimpleLookupTable*>(points, off, len));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::SimpleLookupTable::SimpleLookupTable() {}

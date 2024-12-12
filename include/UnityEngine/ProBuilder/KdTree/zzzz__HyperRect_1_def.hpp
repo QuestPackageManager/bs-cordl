@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HyperRect_1)
@@ -16,13 +15,12 @@ template <typename T> struct HyperRect_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ProBuilder::KdTree::HyperRect_1);
-// Type: UnityEngine.ProBuilder.KdTree::HyperRect`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine.ProBuilder.KdTree::HyperRect`1<T>
+// CS Name: UnityEngine.ProBuilder.KdTree.HyperRect`1<T>
 struct CORDL_TYPE HyperRect_1 {
 public:
   // Declarations
@@ -59,17 +57,17 @@ public:
   // def_value: None }]
   constexpr HyperRect_1(::ArrayW<T, ::Array<T>*> minPoint, ::ArrayW<T, ::Array<T>*> maxPoint) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18536 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field minPoint, offset: 0x0, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> minPoint;
 
   /// @brief Field maxPoint, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> maxPoint;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18455 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

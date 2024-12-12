@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x447675c;
+  constexpr static std::size_t addrs = 0x44d7a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4476918;
+  constexpr static std::size_t addrs = 0x44d7c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::HandleNoTransitionToggleSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44769a8;
+  constexpr static std::size_t addrs = 0x44d7cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)(::HMUI::UISelectionState, bool)>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4476804;
+  constexpr static std::size_t addrs = 0x44d7b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoTransitionToggleSelectableStateController::*)()>(
     &::GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44769b0;
+  constexpr static std::size_t addrs = 0x44d7cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,6 @@ inline void GlobalNamespace::NoTransitionToggleSelectableStateController::Handle
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::UISelectionState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
-/// @param animated: bool (default: true)
 inline void GlobalNamespace::NoTransitionToggleSelectableStateController::ResolveSelectionState(::HMUI::UISelectionState state, bool animated) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoTransitionToggleSelectableStateController*>::get(), "ResolveSelectionState", std::span<Il2CppClass const* const, 0>(),
@@ -107,14 +106,14 @@ inline void GlobalNamespace::NoTransitionToggleSelectableStateController::Resolv
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, animated);
 }
-inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* GlobalNamespace::NoTransitionToggleSelectableStateController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoTransitionToggleSelectableStateController*>());
-}
 inline void GlobalNamespace::NoTransitionToggleSelectableStateController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoTransitionToggleSelectableStateController*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoTransitionToggleSelectableStateController* GlobalNamespace::NoTransitionToggleSelectableStateController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoTransitionToggleSelectableStateController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::NoTransitionToggleSelectableStateController::NoTransitionToggleSelectableStateController() {}

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventCategoryAttribute::*)(::UnityEngine::UIElements::EventCategory)>(
     &::UnityEngine::UIElements::EventCategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49378ac;
+  constexpr static std::size_t addrs = 0x499c1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -31,14 +31,14 @@ constexpr void UnityEngine::UIElements::EventCategoryAttribute::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___category = value;
 }
-inline ::UnityEngine::UIElements::EventCategoryAttribute* UnityEngine::UIElements::EventCategoryAttribute::New_ctor(::UnityEngine::UIElements::EventCategory category) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCategoryAttribute*>(category));
-}
 inline void UnityEngine::UIElements::EventCategoryAttribute::_ctor(::UnityEngine::UIElements::EventCategory category) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventCategoryAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventCategory>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, category);
+}
+inline ::UnityEngine::UIElements::EventCategoryAttribute* UnityEngine::UIElements::EventCategoryAttribute::New_ctor(::UnityEngine::UIElements::EventCategory category) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventCategoryAttribute*>(category));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventCategoryAttribute::EventCategoryAttribute() {}

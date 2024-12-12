@@ -26,13 +26,13 @@ template <typename TElement> inline void System::Linq::EnumerableSorter_1<TEleme
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, map, left, right);
 }
-template <typename TElement> inline ::System::Linq::EnumerableSorter_1<TElement>* System::Linq::EnumerableSorter_1<TElement>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::EnumerableSorter_1<TElement>*>());
-}
 template <typename TElement> inline void System::Linq::EnumerableSorter_1<TElement>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_1<TElement>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TElement> inline ::System::Linq::EnumerableSorter_1<TElement>* System::Linq::EnumerableSorter_1<TElement>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::EnumerableSorter_1<TElement>*>());
 }
 // Ctor Parameters []
 template <typename TElement> constexpr ::System::Linq::EnumerableSorter_1<TElement>::EnumerableSorter_1() {}

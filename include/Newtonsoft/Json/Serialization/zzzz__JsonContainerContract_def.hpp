@@ -32,11 +32,10 @@ class JsonContainerContract;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonContainerContract);
-// Type: Newtonsoft.Json.Serialization::JsonContainerContract
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.ReferenceLoopHandling, Newtonsoft.Json.Serialization.JsonContract, Newtonsoft.Json.TypeNameHandling, System.Nullable`1<T>
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::JsonContainerContract*
+// CS Name: Newtonsoft.Json.Serialization.JsonContainerContract
 class CORDL_TYPE JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
   // Declarations
@@ -78,9 +77,9 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonContainerContract* New_ctor(::System::Type* underlyingType);
 
-  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__ItemConverter_k__BackingField();
+  constexpr ::Newtonsoft::Json::JsonConverter* const& __cordl_internal_get__ItemConverter_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonConverter*> const& __cordl_internal_get__ItemConverter_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::JsonConverter*& __cordl_internal_get__ItemConverter_k__BackingField();
 
   constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__ItemIsReference_k__BackingField() const;
 
@@ -94,13 +93,13 @@ public:
 
   constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__ItemTypeNameHandling_k__BackingField();
 
+  constexpr ::Newtonsoft::Json::Serialization::JsonContract* const& __cordl_internal_get__finalItemContract() const;
+
   constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__finalItemContract();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__finalItemContract() const;
+  constexpr ::Newtonsoft::Json::Serialization::JsonContract* const& __cordl_internal_get__itemContract() const;
 
   constexpr ::Newtonsoft::Json::Serialization::JsonContract*& __cordl_internal_get__itemContract();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonContract*> const& __cordl_internal_get__itemContract() const;
 
   constexpr void __cordl_internal_set__ItemConverter_k__BackingField(::Newtonsoft::Json::JsonConverter* value);
 
@@ -114,40 +113,40 @@ public:
 
   constexpr void __cordl_internal_set__itemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method .ctor, addr 0x3e83870, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ee391c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_FinalItemContract, addr 0x3e841ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FinalItemContract, addr 0x3ee4258, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemContract, addr 0x3e84160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemContract, addr 0x3ee420c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
-  /// @brief Method get_ItemConverter, addr 0x3e841b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemConverter, addr 0x3ee4260, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
-  /// @brief Method get_ItemIsReference, addr 0x3e841c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemIsReference, addr 0x3ee4270, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
-  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3e841d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x3ee4280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
-  /// @brief Method get_ItemTypeNameHandling, addr 0x3e841e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x3ee4290, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemContract, addr 0x3e84168, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_ItemContract, addr 0x3ee4214, size 0x44, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method set_ItemConverter, addr 0x3e841bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemConverter, addr 0x3ee4268, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method set_ItemIsReference, addr 0x3e841cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemIsReference, addr 0x3ee4278, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
-  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3e841dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x3ee4288, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method set_ItemTypeNameHandling, addr 0x3e841ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x3ee4298, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
 protected:
@@ -163,6 +162,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "JsonContainerContract", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   JsonContainerContract(JsonContainerContract const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10307 };
 
   /// @brief Field _itemContract, offset: 0x90, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonContract* ____itemContract;
@@ -182,14 +184,9 @@ public:
   /// @brief Field <ItemTypeNameHandling>k__BackingField, offset: 0xb4, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> ____ItemTypeNameHandling_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10282 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonContainerContract, 0xc0>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContainerContract, ____itemContract) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContainerContract, ____finalItemContract) == 0x98, "Offset mismatch!");
@@ -201,6 +198,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContainerContract,
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContainerContract, ____ItemReferenceLoopHandling_k__BackingField) == 0xac, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonContainerContract, ____ItemTypeNameHandling_k__BackingField) == 0xb4, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonContainerContract, 0xc0>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonContainerContract);

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvTypeBEndomorphism.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_impl.hpp"
+#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBEndomorphism_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeBParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2482060;
+  constexpr static std::size_t addrs = 0x24b534c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::DecomposeScalar)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2482114;
+  constexpr static std::size_t addrs = 0x24b5400;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPointMap* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_PointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482190;
+  constexpr static std::size_t addrs = 0x24b547c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_HasEfficientPointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2482198;
+  constexpr static std::size_t addrs = 0x24b5484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,28 +72,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
-constexpr Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
-constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::i___Org__BouncyCastle__Math__EC__Endo__GlvEndomorphism() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
-constexpr Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
-constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::i___Org__BouncyCastle__Math__EC__Endo__ECEndomorphism() noexcept {
-  return static_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(static_cast<void*>(this));
-}
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*& Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_get_m_parameters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parameters;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*> const&
-Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_get_m_parameters() const {
+constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* const& Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_get_m_parameters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_parameters;
 }
@@ -105,17 +88,13 @@ constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& Org::BouncyCastle::Math::E
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pointMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_get_m_pointMap() const {
+constexpr ::Org::BouncyCastle::Math::EC::ECPointMap* const& Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_get_m_pointMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_pointMap;
 }
 constexpr void Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::__cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_pointMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*
-Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>(curve, parameters));
 }
 inline void Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,6 +121,26 @@ inline bool Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::get_HasEffi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*
+Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism*>(curve, parameters));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
+constexpr Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::operator ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism"
+constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::i___Org__BouncyCastle__Math__EC__Endo__GlvEndomorphism() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
+constexpr Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
+constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::i___Org__BouncyCastle__Math__EC__Endo__ECEndomorphism() noexcept {
+  return static_cast<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism::GlvTypeBEndomorphism() {}

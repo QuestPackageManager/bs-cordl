@@ -12,11 +12,10 @@ struct ConsoleColor;
 }
 // Write type traits
 MARK_VAL_T(::System::ConsoleColor);
-// Type: System::ConsoleColor
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: true
-// CS Name: ::System::ConsoleColor
+// CS Name: System.ConsoleColor
 struct CORDL_TYPE ConsoleColor {
 public:
   // Declarations
@@ -59,55 +58,52 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr ConsoleColor(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Black value: static_cast<int32_t>(0x0)
+  /// @brief Field Black value: I32(0)
   static ::System::ConsoleColor const Black;
 
-  /// @brief Field Blue value: static_cast<int32_t>(0x9)
+  /// @brief Field Blue value: I32(9)
   static ::System::ConsoleColor const Blue;
 
-  /// @brief Field Cyan value: static_cast<int32_t>(0xb)
+  /// @brief Field Cyan value: I32(11)
   static ::System::ConsoleColor const Cyan;
 
-  /// @brief Field DarkBlue value: static_cast<int32_t>(0x1)
+  /// @brief Field DarkBlue value: I32(1)
   static ::System::ConsoleColor const DarkBlue;
 
-  /// @brief Field DarkCyan value: static_cast<int32_t>(0x3)
+  /// @brief Field DarkCyan value: I32(3)
   static ::System::ConsoleColor const DarkCyan;
 
-  /// @brief Field DarkGray value: static_cast<int32_t>(0x8)
+  /// @brief Field DarkGray value: I32(8)
   static ::System::ConsoleColor const DarkGray;
 
-  /// @brief Field DarkGreen value: static_cast<int32_t>(0x2)
+  /// @brief Field DarkGreen value: I32(2)
   static ::System::ConsoleColor const DarkGreen;
 
-  /// @brief Field DarkMagenta value: static_cast<int32_t>(0x5)
+  /// @brief Field DarkMagenta value: I32(5)
   static ::System::ConsoleColor const DarkMagenta;
 
-  /// @brief Field DarkRed value: static_cast<int32_t>(0x4)
+  /// @brief Field DarkRed value: I32(4)
   static ::System::ConsoleColor const DarkRed;
 
-  /// @brief Field DarkYellow value: static_cast<int32_t>(0x6)
+  /// @brief Field DarkYellow value: I32(6)
   static ::System::ConsoleColor const DarkYellow;
 
-  /// @brief Field Gray value: static_cast<int32_t>(0x7)
+  /// @brief Field Gray value: I32(7)
   static ::System::ConsoleColor const Gray;
 
-  /// @brief Field Green value: static_cast<int32_t>(0xa)
+  /// @brief Field Green value: I32(10)
   static ::System::ConsoleColor const Green;
 
-  /// @brief Field Magenta value: static_cast<int32_t>(0xd)
+  /// @brief Field Magenta value: I32(13)
   static ::System::ConsoleColor const Magenta;
 
-  /// @brief Field Red value: static_cast<int32_t>(0xc)
+  /// @brief Field Red value: I32(12)
   static ::System::ConsoleColor const Red;
 
-  /// @brief Field White value: static_cast<int32_t>(0xf)
+  /// @brief Field White value: I32(15)
   static ::System::ConsoleColor const White;
 
-  /// @brief Field Yellow value: static_cast<int32_t>(0xe)
+  /// @brief Field Yellow value: I32(14)
   static ::System::ConsoleColor const Yellow;
 
   /// @brief IL2CPP Metadata Type Index
@@ -116,12 +112,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ConsoleColor, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::ConsoleColor, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ConsoleColor, 0x4>, "Size mismatch!");
 
 } // namespace System
 DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleColor, "System", "ConsoleColor");

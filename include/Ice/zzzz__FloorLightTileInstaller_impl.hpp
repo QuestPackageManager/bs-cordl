@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTileInstaller::*)()>(&::Ice::FloorLightTileInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x223c6d4;
+  constexpr static std::size_t addrs = 0x2267918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightTileInstaller::*)()>(&::Ice::FloorLightTileInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x223c758;
+  constexpr static std::size_t addrs = 0x226799c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightTileInstaller*>::get(), ".ctor",
@@ -47,13 +47,13 @@ inline void Ice::FloorLightTileInstaller::InstallBindings() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightTileInstaller*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Ice::FloorLightTileInstaller* Ice::FloorLightTileInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Ice::FloorLightTileInstaller*>());
-}
 inline void Ice::FloorLightTileInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightTileInstaller*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Ice::FloorLightTileInstaller* Ice::FloorLightTileInstaller::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Ice::FloorLightTileInstaller*>());
 }
 // Ctor Parameters []
 constexpr ::Ice::FloorLightTileInstaller::FloorLightTileInstaller() {}

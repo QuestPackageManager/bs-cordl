@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInclude::*)()>(&::System::Xml::Schema::XmlSchemaInclude::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x425c740;
+  constexpr static std::size_t addrs = 0x42bda54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInclude*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaInclude::*)(::System::Xml::Schema::XmlSchemaAnnotation*)>(
     &::System::Xml::Schema::XmlSchemaInclude::AddAnnotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x425c760;
+  constexpr static std::size_t addrs = 0x42bda74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,16 +35,13 @@ constexpr ::System::Xml::Schema::XmlSchemaAnnotation*& System::Xml::Schema::XmlS
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotation;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnnotation*> const& System::Xml::Schema::XmlSchemaInclude::__cordl_internal_get_annotation() const {
+constexpr ::System::Xml::Schema::XmlSchemaAnnotation* const& System::Xml::Schema::XmlSchemaInclude::__cordl_internal_get_annotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___annotation;
 }
 constexpr void System::Xml::Schema::XmlSchemaInclude::__cordl_internal_set_annotation(::System::Xml::Schema::XmlSchemaAnnotation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___annotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Xml::Schema::XmlSchemaInclude* System::Xml::Schema::XmlSchemaInclude::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaInclude*>());
 }
 inline void System::Xml::Schema::XmlSchemaInclude::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInclude*>::get(), ".ctor",
@@ -55,6 +52,9 @@ inline void System::Xml::Schema::XmlSchemaInclude::AddAnnotation(::System::Xml::
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaInclude*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, annotation);
+}
+inline ::System::Xml::Schema::XmlSchemaInclude* System::Xml::Schema::XmlSchemaInclude::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::XmlSchemaInclude*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::XmlSchemaInclude::XmlSchemaInclude() {}

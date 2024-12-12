@@ -18,13 +18,12 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MonoInstaller_5);
-// Type: Zenject::MonoInstaller`5
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.MonoInstallerBase
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TDerived>
 // Is value type: false
-// CS Name: ::Zenject::MonoInstaller`5<TParam1,TParam2,TParam3,TParam4,TDerived>*
+// CS Name: Zenject.MonoInstaller`5<TParam1,TParam2,TParam3,TParam4,TDerived>
 class CORDL_TYPE MonoInstaller_5 : public ::Zenject::MonoInstallerBase {
 public:
   // Declarations
@@ -57,7 +56,7 @@ public:
   MonoInstaller_5(MonoInstaller_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12447 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12480 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

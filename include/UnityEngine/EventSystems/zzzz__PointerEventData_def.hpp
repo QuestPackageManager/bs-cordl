@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/zzzz__PenStatus_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -21,13 +20,13 @@ namespace UnityEngine::EventSystems {
 class EventSystem;
 }
 namespace UnityEngine::EventSystems {
+struct PointerEventData_FramePressState;
+}
+namespace UnityEngine::EventSystems {
+struct PointerEventData_InputButton;
+}
+namespace UnityEngine::EventSystems {
 struct RaycastResult;
-}
-namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
-}
-namespace UnityEngine::EventSystems {
-struct __PointerEventData__InputButton;
 }
 namespace UnityEngine {
 class Camera;
@@ -46,38 +45,37 @@ struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
-struct __PointerEventData__FramePressState;
+struct PointerEventData_FramePressState;
 }
 namespace UnityEngine::EventSystems {
-struct __PointerEventData__InputButton;
+struct PointerEventData_InputButton;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 // Write type traits
-MARK_VAL_T(::UnityEngine::EventSystems::__PointerEventData__FramePressState);
-MARK_VAL_T(::UnityEngine::EventSystems::__PointerEventData__InputButton);
+MARK_VAL_T(::UnityEngine::EventSystems::PointerEventData_FramePressState);
+MARK_VAL_T(::UnityEngine::EventSystems::PointerEventData_InputButton);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::PointerEventData);
-// Type: ::InputButton
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// CS Name: ::PointerEventData::InputButton
-struct CORDL_TYPE __PointerEventData__InputButton {
+// CS Name: UnityEngine.EventSystems.PointerEventData/InputButton
+struct CORDL_TYPE PointerEventData_InputButton {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____PointerEventData__InputButton_Unwrapped
-  enum struct ____PointerEventData__InputButton_Unwrapped : int32_t {
+  /// @brief Nested struct __PointerEventData_InputButton_Unwrapped
+  enum struct __PointerEventData_InputButton_Unwrapped : int32_t {
     __E_Left = static_cast<int32_t>(0x0),
     __E_Right = static_cast<int32_t>(0x1),
     __E_Middle = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PointerEventData__InputButton_Unwrapped() const noexcept {
-    return static_cast<____PointerEventData__InputButton_Unwrapped>(this->value__);
+  constexpr operator __PointerEventData_InputButton_Unwrapped() const noexcept {
+    return static_cast<__PointerEventData_InputButton_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -87,49 +85,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerEventData__InputButton();
+  constexpr PointerEventData_InputButton();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PointerEventData__InputButton(int32_t value__) noexcept;
+  constexpr PointerEventData_InputButton(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Left value: I32(0)
+  static ::UnityEngine::EventSystems::PointerEventData_InputButton const Left;
 
-  /// @brief Field Left value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventSystems::__PointerEventData__InputButton const Left;
+  /// @brief Field Middle value: I32(2)
+  static ::UnityEngine::EventSystems::PointerEventData_InputButton const Middle;
 
-  /// @brief Field Middle value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventSystems::__PointerEventData__InputButton const Middle;
-
-  /// @brief Field Right value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventSystems::__PointerEventData__InputButton const Right;
+  /// @brief Field Right value: I32(1)
+  static ::UnityEngine::EventSystems::PointerEventData_InputButton const Right;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15176 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__PointerEventData__InputButton, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData_InputButton, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::__PointerEventData__InputButton, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::PointerEventData_InputButton, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
-// Type: ::FramePressState
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// CS Name: ::PointerEventData::FramePressState
-struct CORDL_TYPE __PointerEventData__FramePressState {
+// CS Name: UnityEngine.EventSystems.PointerEventData/FramePressState
+struct CORDL_TYPE PointerEventData_FramePressState {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____PointerEventData__FramePressState_Unwrapped
-  enum struct ____PointerEventData__FramePressState_Unwrapped : int32_t {
+  /// @brief Nested struct __PointerEventData_FramePressState_Unwrapped
+  enum struct __PointerEventData_FramePressState_Unwrapped : int32_t {
     __E_Pressed = static_cast<int32_t>(0x0),
     __E_Released = static_cast<int32_t>(0x1),
     __E_PressedAndReleased = static_cast<int32_t>(0x2),
@@ -137,8 +134,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____PointerEventData__FramePressState_Unwrapped() const noexcept {
-    return static_cast<____PointerEventData__FramePressState_Unwrapped>(this->value__);
+  constexpr operator __PointerEventData_FramePressState_Unwrapped() const noexcept {
+    return static_cast<__PointerEventData_FramePressState_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -148,51 +145,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PointerEventData__FramePressState();
+  constexpr PointerEventData_FramePressState();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __PointerEventData__FramePressState(int32_t value__) noexcept;
+  constexpr PointerEventData_FramePressState(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field NotChanged value: I32(3)
+  static ::UnityEngine::EventSystems::PointerEventData_FramePressState const NotChanged;
 
-  /// @brief Field NotChanged value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::EventSystems::__PointerEventData__FramePressState const NotChanged;
+  /// @brief Field Pressed value: I32(0)
+  static ::UnityEngine::EventSystems::PointerEventData_FramePressState const Pressed;
 
-  /// @brief Field Pressed value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::EventSystems::__PointerEventData__FramePressState const Pressed;
+  /// @brief Field PressedAndReleased value: I32(2)
+  static ::UnityEngine::EventSystems::PointerEventData_FramePressState const PressedAndReleased;
 
-  /// @brief Field PressedAndReleased value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::EventSystems::__PointerEventData__FramePressState const PressedAndReleased;
-
-  /// @brief Field Released value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::EventSystems::__PointerEventData__FramePressState const Released;
+  /// @brief Field Released value: I32(1)
+  static ::UnityEngine::EventSystems::PointerEventData_FramePressState const Released;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15177 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__PointerEventData__FramePressState, 0x4>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData_FramePressState, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::__PointerEventData__FramePressState, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::PointerEventData_FramePressState, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::EventSystems
-// Type: UnityEngine.EventSystems::PointerEventData
-// SizeInfo { instance_size: 384, native_size: -1, calculated_instance_size: 384, calculated_native_size: 382, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.EventSystems.BaseEventData, UnityEngine.EventSystems.PointerEventData::InputButton, UnityEngine.EventSystems.RaycastResult, UnityEngine.PenStatus, UnityEngine.Vector2,
+// UnityEngine.Vector3
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// CS Name: ::UnityEngine.EventSystems::PointerEventData*
+// CS Name: UnityEngine.EventSystems.PointerEventData
 class CORDL_TYPE PointerEventData : public ::UnityEngine::EventSystems::BaseEventData {
 public:
   // Declarations
-  using FramePressState = ::UnityEngine::EventSystems::__PointerEventData__FramePressState;
+  using FramePressState = ::UnityEngine::EventSystems::PointerEventData_FramePressState;
 
-  using InputButton = ::UnityEngine::EventSystems::__PointerEventData__InputButton;
+  using InputButton = ::UnityEngine::EventSystems::PointerEventData_InputButton;
 
   /// @brief Field <altitudeAngle>k__BackingField, offset 0x154, size 0x4
   __declspec(property(get = __cordl_internal_get__altitudeAngle_k__BackingField, put = __cordl_internal_set__altitudeAngle_k__BackingField)) float_t _altitudeAngle_k__BackingField;
@@ -202,7 +199,7 @@ public:
 
   /// @brief Field <button>k__BackingField, offset 0x148, size 0x4
   __declspec(property(get = __cordl_internal_get__button_k__BackingField,
-                      put = __cordl_internal_set__button_k__BackingField)) ::UnityEngine::EventSystems::__PointerEventData__InputButton _button_k__BackingField;
+                      put = __cordl_internal_set__button_k__BackingField)) ::UnityEngine::EventSystems::PointerEventData_InputButton _button_k__BackingField;
 
   /// @brief Field <clickCount>k__BackingField, offset 0x138, size 0x4
   __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField, put = __cordl_internal_set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
@@ -301,7 +298,7 @@ public:
 
   __declspec(property(get = get_azimuthAngle, put = set_azimuthAngle)) float_t azimuthAngle;
 
-  __declspec(property(get = get_button, put = set_button)) ::UnityEngine::EventSystems::__PointerEventData__InputButton button;
+  __declspec(property(get = get_button, put = set_button)) ::UnityEngine::EventSystems::PointerEventData_InputButton button;
 
   __declspec(property(get = get_clickCount, put = set_clickCount)) int32_t clickCount;
 
@@ -373,15 +370,15 @@ public:
 
   __declspec(property(get = get_worldPosition, put = set_worldPosition)) ::UnityEngine::Vector3 worldPosition;
 
-  /// @brief Method IsPointerMoving, addr 0x4a70568, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsPointerMoving, addr 0x4ad4e78, size 0x20, virtual false, abstract: false, final false
   inline bool IsPointerMoving();
 
-  /// @brief Method IsScrolling, addr 0x4a70588, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScrolling, addr 0x4ad4e98, size 0x20, virtual false, abstract: false, final false
   inline bool IsScrolling();
 
   static inline ::UnityEngine::EventSystems::PointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString, addr 0x4a7074c, size 0x738, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x4ad505c, size 0x738, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get__altitudeAngle_k__BackingField() const;
@@ -392,9 +389,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__azimuthAngle_k__BackingField();
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& __cordl_internal_get__button_k__BackingField() const;
+  constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton const& __cordl_internal_get__button_k__BackingField() const;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& __cordl_internal_get__button_k__BackingField();
+  constexpr ::UnityEngine::EventSystems::PointerEventData_InputButton& __cordl_internal_get__button_k__BackingField();
 
   constexpr int32_t const& __cordl_internal_get__clickCount_k__BackingField() const;
 
@@ -512,9 +509,9 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get__worldPosition_k__BackingField();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_hovered();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* const& __cordl_internal_get_hovered() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_hovered() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_hovered();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PointerPress() const;
 
@@ -524,7 +521,7 @@ public:
 
   constexpr void __cordl_internal_set__azimuthAngle_k__BackingField(float_t value);
 
-  constexpr void __cordl_internal_set__button_k__BackingField(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
+  constexpr void __cordl_internal_set__button_k__BackingField(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
   constexpr void __cordl_internal_set__clickCount_k__BackingField(int32_t value);
 
@@ -588,211 +585,211 @@ public:
 
   constexpr void __cordl_internal_set_m_PointerPress(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x4a7043c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad4d4c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method get_altitudeAngle, addr 0x4a7038c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_altitudeAngle, addr 0x4ad4c9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_altitudeAngle();
 
-  /// @brief Method get_azimuthAngle, addr 0x4a7039c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_azimuthAngle, addr 0x4ad4cac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_azimuthAngle();
 
-  /// @brief Method get_button, addr 0x4a7035c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::__PointerEventData__InputButton get_button();
+  /// @brief Method get_button, addr 0x4ad4c6c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::EventSystems::PointerEventData_InputButton get_button();
 
-  /// @brief Method get_clickCount, addr 0x4a7030c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickCount, addr 0x4ad4c1c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method get_clickTime, addr 0x4a702fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickTime, addr 0x4ad4c0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_clickTime();
 
-  /// @brief Method get_delta, addr 0x4a7028c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x4ad4b9c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
-  /// @brief Method get_displayIndex, addr 0x4a70254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayIndex, addr 0x4ad4b64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_displayIndex();
 
-  /// @brief Method get_dragging, addr 0x4a70348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragging, addr 0x4ad4c58, size 0x8, virtual false, abstract: false, final false
   inline bool get_dragging();
 
-  /// @brief Method get_eligibleForClick, addr 0x4a70240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eligibleForClick, addr 0x4ad4b50, size 0x8, virtual false, abstract: false, final false
   inline bool get_eligibleForClick();
 
-  /// @brief Method get_enterEventCamera, addr 0x4a705a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_enterEventCamera, addr 0x4ad4eb8, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_enterEventCamera();
 
-  /// @brief Method get_fullyExited, addr 0x4a70414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullyExited, addr 0x4ad4d24, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullyExited();
 
-  /// @brief Method get_lastPress, addr 0x4a701b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lastPress, addr 0x4ad4ac0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_lastPress();
 
-  /// @brief Method get_penStatus, addr 0x4a703d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_penStatus, addr 0x4ad4ce4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::PenStatus get_penStatus();
 
-  /// @brief Method get_pointerClick, addr 0x4a701e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerClick, addr 0x4ad4af0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerClick();
 
-  /// @brief Method get_pointerCurrentRaycast, addr 0x4a701f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerCurrentRaycast, addr 0x4ad4b00, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerCurrentRaycast();
 
-  /// @brief Method get_pointerDrag, addr 0x4a701d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerDrag, addr 0x4ad4ae0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerDrag();
 
-  /// @brief Method get_pointerEnter, addr 0x4a701a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerEnter, addr 0x4ad4ab0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerEnter();
 
-  /// @brief Method get_pointerId, addr 0x4a70264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerId, addr 0x4ad4b74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pointerId();
 
-  /// @brief Method get_pointerPress, addr 0x4a706c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPress, addr 0x4ad4fd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_pointerPress();
 
-  /// @brief Method get_pointerPressRaycast, addr 0x4a70218, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_pointerPressRaycast, addr 0x4ad4b28, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::RaycastResult get_pointerPressRaycast();
 
-  /// @brief Method get_position, addr 0x4a70274, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x4ad4b84, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_pressEventCamera, addr 0x4a70638, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_pressEventCamera, addr 0x4ad4f48, size 0x90, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_pressEventCamera();
 
-  /// @brief Method get_pressPosition, addr 0x4a702a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressPosition, addr 0x4ad4bb4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pressPosition();
 
-  /// @brief Method get_pressure, addr 0x4a7036c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressure, addr 0x4ad4c7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressure();
 
-  /// @brief Method get_radius, addr 0x4a703e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x4ad4cf4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method get_radiusVariance, addr 0x4a703fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_radiusVariance, addr 0x4ad4d0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
-  /// @brief Method get_rawPointerPress, addr 0x4a701c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rawPointerPress, addr 0x4ad4ad0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_rawPointerPress();
 
-  /// @brief Method get_reentered, addr 0x4a70428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reentered, addr 0x4ad4d38, size 0x8, virtual false, abstract: false, final false
   inline bool get_reentered();
 
-  /// @brief Method get_scrollDelta, addr 0x4a7031c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_scrollDelta, addr 0x4ad4c2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_scrollDelta();
 
-  /// @brief Method get_tangentialPressure, addr 0x4a7037c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tangentialPressure, addr 0x4ad4c8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tangentialPressure();
 
-  /// @brief Method get_tilt, addr 0x4a703bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x4ad4ccc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tilt();
 
-  /// @brief Method get_twist, addr 0x4a703ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x4ad4cbc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_twist();
 
-  /// @brief Method get_useDragThreshold, addr 0x4a70334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDragThreshold, addr 0x4ad4c44, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDragThreshold();
 
-  /// @brief Method get_worldNormal, addr 0x4a702dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldNormal, addr 0x4ad4bec, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldNormal();
 
-  /// @brief Method get_worldPosition, addr 0x4a702bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_worldPosition, addr 0x4ad4bcc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldPosition();
 
-  /// @brief Method set_altitudeAngle, addr 0x4a70394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_altitudeAngle, addr 0x4ad4ca4, size 0x8, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
-  /// @brief Method set_azimuthAngle, addr 0x4a703a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_azimuthAngle, addr 0x4ad4cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
-  /// @brief Method set_button, addr 0x4a70364, size 0x8, virtual false, abstract: false, final false
-  inline void set_button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
+  /// @brief Method set_button, addr 0x4ad4c74, size 0x8, virtual false, abstract: false, final false
+  inline void set_button(::UnityEngine::EventSystems::PointerEventData_InputButton value);
 
-  /// @brief Method set_clickCount, addr 0x4a70314, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickCount, addr 0x4ad4c24, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
-  /// @brief Method set_clickTime, addr 0x4a70304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clickTime, addr 0x4ad4c14, size 0x8, virtual false, abstract: false, final false
   inline void set_clickTime(float_t value);
 
-  /// @brief Method set_delta, addr 0x4a70298, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x4ad4ba8, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_displayIndex, addr 0x4a7025c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayIndex, addr 0x4ad4b6c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayIndex(int32_t value);
 
-  /// @brief Method set_dragging, addr 0x4a70350, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dragging, addr 0x4ad4c60, size 0xc, virtual false, abstract: false, final false
   inline void set_dragging(bool value);
 
-  /// @brief Method set_eligibleForClick, addr 0x4a70248, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_eligibleForClick, addr 0x4ad4b58, size 0xc, virtual false, abstract: false, final false
   inline void set_eligibleForClick(bool value);
 
-  /// @brief Method set_fullyExited, addr 0x4a7041c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fullyExited, addr 0x4ad4d2c, size 0xc, virtual false, abstract: false, final false
   inline void set_fullyExited(bool value);
 
-  /// @brief Method set_lastPress, addr 0x4a701b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastPress, addr 0x4ad4ac8, size 0x8, virtual false, abstract: false, final false
   inline void set_lastPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_penStatus, addr 0x4a703dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_penStatus, addr 0x4ad4cec, size 0x8, virtual false, abstract: false, final false
   inline void set_penStatus(::UnityEngine::PenStatus value);
 
-  /// @brief Method set_pointerClick, addr 0x4a701e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerClick, addr 0x4ad4af8, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerClick(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerCurrentRaycast, addr 0x4a70200, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_pointerCurrentRaycast, addr 0x4ad4b10, size 0x18, virtual false, abstract: false, final false
   inline void set_pointerCurrentRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
-  /// @brief Method set_pointerDrag, addr 0x4a701d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerDrag, addr 0x4ad4ae8, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerDrag(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerEnter, addr 0x4a701a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerEnter, addr 0x4ad4ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerEnter(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerId, addr 0x4a7026c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pointerId, addr 0x4ad4b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
-  /// @brief Method set_pointerPress, addr 0x4a706d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPress, addr 0x4ad4fe0, size 0x7c, virtual false, abstract: false, final false
   inline void set_pointerPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_pointerPressRaycast, addr 0x4a70228, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_pointerPressRaycast, addr 0x4ad4b38, size 0x18, virtual false, abstract: false, final false
   inline void set_pointerPressRaycast(::UnityEngine::EventSystems::RaycastResult value);
 
-  /// @brief Method set_position, addr 0x4a70280, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x4ad4b90, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pressPosition, addr 0x4a702b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_pressPosition, addr 0x4ad4bc0, size 0xc, virtual false, abstract: false, final false
   inline void set_pressPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_pressure, addr 0x4a70374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressure, addr 0x4ad4c84, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
-  /// @brief Method set_radius, addr 0x4a703f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x4ad4d00, size 0xc, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_radiusVariance, addr 0x4a70408, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_radiusVariance, addr 0x4ad4d18, size 0xc, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_rawPointerPress, addr 0x4a701c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rawPointerPress, addr 0x4ad4ad8, size 0x8, virtual false, abstract: false, final false
   inline void set_rawPointerPress(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_reentered, addr 0x4a70430, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_reentered, addr 0x4ad4d40, size 0xc, virtual false, abstract: false, final false
   inline void set_reentered(bool value);
 
-  /// @brief Method set_scrollDelta, addr 0x4a70328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_scrollDelta, addr 0x4ad4c38, size 0xc, virtual false, abstract: false, final false
   inline void set_scrollDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_tangentialPressure, addr 0x4a70384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tangentialPressure, addr 0x4ad4c94, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
-  /// @brief Method set_tilt, addr 0x4a703c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_tilt, addr 0x4ad4cd8, size 0xc, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_twist, addr 0x4a703b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x4ad4cc4, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
-  /// @brief Method set_useDragThreshold, addr 0x4a7033c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useDragThreshold, addr 0x4ad4c4c, size 0xc, virtual false, abstract: false, final false
   inline void set_useDragThreshold(bool value);
 
-  /// @brief Method set_worldNormal, addr 0x4a702ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldNormal, addr 0x4ad4bfc, size 0x10, virtual false, abstract: false, final false
   inline void set_worldNormal(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_worldPosition, addr 0x4a702cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_worldPosition, addr 0x4ad4bdc, size 0x10, virtual false, abstract: false, final false
   inline void set_worldPosition(::UnityEngine::Vector3 value);
 
 protected:
@@ -808,6 +805,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "PointerEventData", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   PointerEventData(PointerEventData const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15178 };
 
   /// @brief Field <pointerEnter>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____pointerEnter_k__BackingField;
@@ -876,7 +876,7 @@ public:
   bool ____dragging_k__BackingField;
 
   /// @brief Field <button>k__BackingField, offset: 0x148, size: 0x4, def value: None
-  ::UnityEngine::EventSystems::__PointerEventData__InputButton ____button_k__BackingField;
+  ::UnityEngine::EventSystems::PointerEventData_InputButton ____button_k__BackingField;
 
   /// @brief Field <pressure>k__BackingField, offset: 0x14c, size: 0x4, def value: None
   float_t ____pressure_k__BackingField;
@@ -911,14 +911,9 @@ public:
   /// @brief Field <reentered>k__BackingField, offset: 0x17d, size: 0x1, def value: None
   bool ____reentered_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15143 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::PointerEventData, 0x180>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____pointerEnter_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ___m_PointerPress) == 0x28, "Offset mismatch!");
@@ -987,8 +982,10 @@ static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____fullyE
 
 static_assert(offsetof(::UnityEngine::EventSystems::PointerEventData, ____reentered_k__BackingField) == 0x17d, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::PointerEventData, 0x180>, "Size mismatch!");
+
 } // namespace UnityEngine::EventSystems
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::__PointerEventData__FramePressState, "UnityEngine.EventSystems", "PointerEventData/FramePressState");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::__PointerEventData__InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PointerEventData_FramePressState, "UnityEngine.EventSystems", "PointerEventData/FramePressState");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PointerEventData_InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");
 NEED_NO_BOX(::UnityEngine::EventSystems::PointerEventData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");

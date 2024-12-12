@@ -29,11 +29,11 @@ class JsonObjectAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonObjectAttribute);
-// Type: Newtonsoft.Json::JsonObjectAttribute
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.JsonContainerAttribute, Newtonsoft.Json.MemberSerialization, Newtonsoft.Json.MissingMemberHandling, Newtonsoft.Json.NullValueHandling, Newtonsoft.Json.Required,
+// System.Nullable`1<T>
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonObjectAttribute*
+// CS Name: Newtonsoft.Json.JsonObjectAttribute
 class CORDL_TYPE JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
@@ -89,37 +89,37 @@ public:
 
   constexpr void __cordl_internal_set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value);
 
-  /// @brief Method .ctor, addr 0x3e1abb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7ac5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e1abe0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7ac8c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x3e1abb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7ac64, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::MemberSerialization memberSerialization);
 
-  /// @brief Method get_ItemNullValueHandling, addr 0x3e1aa68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemNullValueHandling, addr 0x3e7ab14, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::NullValueHandling get_ItemNullValueHandling();
 
-  /// @brief Method get_ItemRequired, addr 0x3e1ab0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_ItemRequired, addr 0x3e7abb8, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Required get_ItemRequired();
 
-  /// @brief Method get_MemberSerialization, addr 0x3e1a9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberSerialization, addr 0x3e7aa60, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();
 
-  /// @brief Method get_MissingMemberHandling, addr 0x3e1a9c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MissingMemberHandling, addr 0x3e7aa70, size 0x3c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MissingMemberHandling get_MissingMemberHandling();
 
-  /// @brief Method set_ItemNullValueHandling, addr 0x3e1aaa4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemNullValueHandling, addr 0x3e7ab50, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemNullValueHandling(::Newtonsoft::Json::NullValueHandling value);
 
-  /// @brief Method set_ItemRequired, addr 0x3e1ab48, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_ItemRequired, addr 0x3e7abf4, size 0x68, virtual false, abstract: false, final false
   inline void set_ItemRequired(::Newtonsoft::Json::Required value);
 
-  /// @brief Method set_MemberSerialization, addr 0x3e1a9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MemberSerialization, addr 0x3e7aa68, size 0x8, virtual false, abstract: false, final false
   inline void set_MemberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  /// @brief Method set_MissingMemberHandling, addr 0x3e1aa00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_MissingMemberHandling, addr 0x3e7aaac, size 0x68, virtual false, abstract: false, final false
   inline void set_MissingMemberHandling(::Newtonsoft::Json::MissingMemberHandling value);
 
 protected:
@@ -136,6 +136,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonObjectAttribute(JsonObjectAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10068 };
+
   /// @brief Field _memberSerialization, offset: 0x68, size: 0x4, def value: None
   ::Newtonsoft::Json::MemberSerialization ____memberSerialization;
 
@@ -148,14 +151,9 @@ public:
   /// @brief Field _itemNullValueHandling, offset: 0x7c, size: 0x8, def value: None
   ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> ____itemNullValueHandling;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10043 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonObjectAttribute, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____memberSerialization) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____missingMemberHandling) == 0x6c, "Offset mismatch!");
@@ -163,6 +161,8 @@ static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____missingMembe
 static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____itemRequired) == 0x74, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::JsonObjectAttribute, ____itemNullValueHandling) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonObjectAttribute, 0x88>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonObjectAttribute);

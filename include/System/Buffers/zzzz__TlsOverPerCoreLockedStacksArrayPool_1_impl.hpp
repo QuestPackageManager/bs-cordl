@@ -7,144 +7,142 @@
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure(int32_t value__) noexcept {
+template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure() {}
+template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure() {}
 template <typename T>
-constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>::Low{ static_cast<int32_t>(0x0) };
+constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>::Low{ static_cast<int32_t>(0x0) };
 template <typename T>
-constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>::Medium{ static_cast<int32_t>(
-    0x1) };
+constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>::Medium{ static_cast<int32_t>(0x1) };
 template <typename T>
-constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>::High{ static_cast<int32_t>(0x2) };
+constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>::High{ static_cast<int32_t>(0x2) };
 template <typename T>
-constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>&
-System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__cordl_internal_get__perCoreStacks() {
+constexpr ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>*>&
+System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::__cordl_internal_get__perCoreStacks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perCoreStacks;
 }
 template <typename T>
-constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> const&
-System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__cordl_internal_get__perCoreStacks() const {
+constexpr ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>*> const&
+System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::__cordl_internal_get__perCoreStacks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perCoreStacks;
 }
 template <typename T>
-constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__cordl_internal_set__perCoreStacks(
-    ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value) {
+constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::__cordl_internal_set__perCoreStacks(
+    ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____perCoreStacks, value);
 }
-template <typename T>
-inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>());
-}
-template <typename T> inline void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::_ctor() {
+template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::TryPush(::ArrayW<T, ::Array<T>*> array) {
+template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::TryPush(::ArrayW<T, ::Array<T>*> array) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>::get(), "TryPush",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>::get(), "TryPush",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
-template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::TryPop() {
+template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::TryPop() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>::get(),
                                                "TryPop", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
 }
 template <typename T>
-inline bool System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::Trim(uint32_t tickCount, int32_t id,
-                                                                                                   ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure,
-                                                                                                   ::ArrayW<int32_t, ::Array<int32_t>*> bucketSizes) {
+inline bool System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::Trim(uint32_t tickCount, int32_t id,
+                                                                                                ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> pressure,
+                                                                                                ::ArrayW<int32_t, ::Array<int32_t>*> bucketSizes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>::get(), "Trim",
-      std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>::get(), "Trim", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, tickCount, id, pressure, bucketSizes);
 }
+template <typename T>
+inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks() {}
+template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks() {}
 template <typename T>
-constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__arrays() {
+constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__arrays() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrays;
 }
 template <typename T>
-constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__arrays() const {
+constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__arrays() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrays;
 }
 template <typename T>
-constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value) {
+constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____arrays, value);
 }
-template <typename T> constexpr int32_t& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__count() {
+template <typename T> constexpr int32_t& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
-template <typename T> constexpr int32_t const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__count() const {
+template <typename T> constexpr int32_t const& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__count() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count;
 }
-template <typename T> constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_set__count(int32_t value) {
+template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_set__count(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
 }
-template <typename T> constexpr uint32_t& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__firstStackItemMS() {
+template <typename T> constexpr uint32_t& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__firstStackItemMS() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstStackItemMS;
 }
-template <typename T> constexpr uint32_t const& System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_get__firstStackItemMS() const {
+template <typename T> constexpr uint32_t const& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_get__firstStackItemMS() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstStackItemMS;
 }
-template <typename T> constexpr void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__cordl_internal_set__firstStackItemMS(uint32_t value) {
+template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::__cordl_internal_set__firstStackItemMS(uint32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstStackItemMS = value;
 }
-template <typename T> inline bool System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::TryPush(::ArrayW<T, ::Array<T>*> array) {
+template <typename T> inline bool System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::TryPush(::ArrayW<T, ::Array<T>*> array) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>::get(), "TryPush", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>::get(), "TryPush", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, array);
 }
-template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::TryPop() {
+template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::TryPop() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>::get(), "TryPop",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>::get(), "TryPop",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method);
 }
 template <typename T>
-inline void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::Trim(uint32_t tickCount, int32_t id,
-                                                                                           ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, int32_t bucketSize) {
+inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::Trim(uint32_t tickCount, int32_t id,
+                                                                                        ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> pressure, int32_t bucketSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>::get(), "Trim", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>::get(), "Trim", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tickCount, id, pressure, bucketSize);
 }
-template <typename T> inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>* System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>());
-}
-template <typename T> inline void System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::_ctor() {
+template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>());
+}
 // Ctor Parameters []
-template <typename T> constexpr ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack() {}
+template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack() {}
 template <typename T> constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_get__bucketArraySizes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bucketArraySizes;
@@ -158,22 +156,20 @@ template <typename T> constexpr void System::Buffers::TlsOverPerCoreLockedStacks
   ::cordl_internals::setInstanceField(this, &this->____bucketArraySizes, value);
 }
 template <typename T>
-constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
+constexpr ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>*>&
 System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_get__buckets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename T>
-constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
-                   ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> const&
+constexpr ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>*> const&
 System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_get__buckets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buckets;
 }
 template <typename T>
 constexpr void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::__cordl_internal_set__buckets(
-    ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
-        value) {
+    ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____buckets, value);
 }
@@ -218,9 +214,6 @@ System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::getStaticF_s_allTlsBu
   return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>, ::System::Object*>*,
                                            "s_allTlsBuckets", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get>();
 }
-template <typename T> inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>());
-}
 template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get(), ".ctor",
@@ -228,11 +221,11 @@ template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArr
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::CreatePerCoreLockedStacks(int32_t bucketIndex) {
+inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::CreatePerCoreLockedStacks(int32_t bucketIndex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get(), "CreatePerCoreLockedStacks",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, false>(this, ___internal_method, bucketIndex);
+  return ::cordl_internals::RunMethodRethrow<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks<T>*, false>(this, ___internal_method, bucketIndex);
 }
 template <typename T> inline int32_t System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::get_Id() {
   static auto* ___internal_method =
@@ -246,7 +239,6 @@ template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Buffers::TlsOverPe
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method, minimumLength);
 }
-/// @param clearArray: bool (default: false)
 template <typename T> inline void System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::Return(::ArrayW<T, ::Array<T>*> array, bool clearArray) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -265,17 +257,20 @@ template <typename T> inline bool System::Buffers::TlsOverPerCoreLockedStacksArr
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, target);
 }
-template <typename T> inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::GetMemoryPressure() {
+template <typename T> inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::GetMemoryPressure() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get(), "GetMemoryPressure",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T>, false>(nullptr, ___internal_method);
 }
 template <typename T> inline bool System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::GetTrimBuffers() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>::get(), "GetTrimBuffers",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+template <typename T> inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>* System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>::TlsOverPerCoreLockedStacksArrayPool_1() {}

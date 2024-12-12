@@ -20,11 +20,10 @@ class CurvedCanvasSettingsHelper;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::CurvedCanvasSettingsHelper);
-// Type: HMUI::CurvedCanvasSettingsHelper
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::CurvedCanvasSettingsHelper*
+// CS Name: HMUI.CurvedCanvasSettingsHelper
 class CORDL_TYPE CurvedCanvasSettingsHelper : public ::System::Object {
 public:
   // Declarations
@@ -35,9 +34,8 @@ public:
   __declspec(property(get = __cordl_internal_get__cachedCanvasIsRootCanvas, put = __cordl_internal_set__cachedCanvasIsRootCanvas)) bool _cachedCanvasIsRootCanvas;
 
   /// @brief Field _curvedCanvasCache, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF__curvedCanvasCache,
-      put = setStaticF__curvedCanvasCache)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* _curvedCanvasCache;
+  __declspec(property(get = getStaticF__curvedCanvasCache,
+                      put = setStaticF__curvedCanvasCache)) ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* _curvedCanvasCache;
 
   /// @brief Field _curvedCanvasSettings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__curvedCanvasSettings, put = __cordl_internal_set__curvedCanvasSettings)) ::UnityW<::HMUI::CurvedCanvasSettings> _curvedCanvasSettings;
@@ -45,15 +43,15 @@ public:
   /// @brief Field _hasCachedData, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__hasCachedData, put = __cordl_internal_set__hasCachedData)) bool _hasCachedData;
 
-  /// @brief Method GetCurvedCanvasSettings, addr 0x3996608, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x39ed208, size 0x1ec, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39967f4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x39ed3f4, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityW<::HMUI::CurvedCanvasSettings> GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method Reset, addr 0x39965f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x39ed1f4, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__cachedCanvas() const;
@@ -80,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__hasCachedData(bool value);
 
-  /// @brief Method .ctor, addr 0x3996930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39ed530, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Canvas>, ::UnityW<::HMUI::CurvedCanvasSettings>>* getStaticF__curvedCanvasCache();
@@ -101,6 +99,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CurvedCanvasSettingsHelper(CurvedCanvasSettingsHelper const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+
   /// @brief Field _cachedCanvas, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ____cachedCanvas;
 
@@ -113,14 +114,9 @@ public:
   /// @brief Field _hasCachedData, offset: 0x28, size: 0x1, def value: None
   bool ____hasCachedData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15993 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::CurvedCanvasSettingsHelper, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::CurvedCanvasSettingsHelper, ____cachedCanvas) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::CurvedCanvasSettingsHelper, ____cachedCanvasIsRootCanvas) == 0x18, "Offset mismatch!");
@@ -128,6 +124,8 @@ static_assert(offsetof(::HMUI::CurvedCanvasSettingsHelper, ____cachedCanvasIsRoo
 static_assert(offsetof(::HMUI::CurvedCanvasSettingsHelper, ____curvedCanvasSettings) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::CurvedCanvasSettingsHelper, ____hasCachedData) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::CurvedCanvasSettingsHelper, 0x30>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::CurvedCanvasSettingsHelper);

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
 CORDL_MODULE_EXPORT(NoTransitionButtonSelectableStateController)
 namespace HMUI {
-class NoTransitionsButton;
+struct NoTransitionsButton_SelectionState;
 }
 namespace HMUI {
-struct __NoTransitionsButton__SelectionState;
+class NoTransitionsButton;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,29 +17,28 @@ class NoTransitionButtonSelectableStateController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoTransitionButtonSelectableStateController);
-// Type: ::NoTransitionButtonSelectableStateController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SelectableStateController`1<T>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::NoTransitionButtonSelectableStateController*
-class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::UnityW<::HMUI::NoTransitionsButton>> {
+// CS Name: NoTransitionButtonSelectableStateController
+class CORDL_TYPE NoTransitionButtonSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsButton*> {
 public:
   // Declarations
-  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x447670c, size 0x8, virtual false, abstract: false, final false
-  inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
+  /// @brief Method HandleNoTransitionButtonSelectionStateDidChange, addr 0x44d7a20, size 0x8, virtual false, abstract: false, final false
+  inline void HandleNoTransitionButtonSelectionStateDidChange(::HMUI::NoTransitionsButton_SelectionState state);
 
   static inline ::GlobalNamespace::NoTransitionButtonSelectableStateController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x447667c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x44d7990, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x447651c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x44d7830, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResolveSelectionState, addr 0x44765c4, size 0xb8, virtual false, abstract: false, final false
-  inline void ResolveSelectionState(::HMUI::__NoTransitionsButton__SelectionState state, bool animated);
+  /// @brief Method ResolveSelectionState, addr 0x44d78d8, size 0xb8, virtual false, abstract: false, final false
+  inline void ResolveSelectionState(::HMUI::NoTransitionsButton_SelectionState state, bool animated);
 
-  /// @brief Method .ctor, addr 0x4476714, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d7a28, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +56,7 @@ public:
   NoTransitionButtonSelectableStateController(NoTransitionButtonSelectableStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18207 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

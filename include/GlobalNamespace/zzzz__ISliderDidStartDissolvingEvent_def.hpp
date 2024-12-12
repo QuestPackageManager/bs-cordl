@@ -14,27 +14,22 @@ class ISliderDidStartDissolvingEvent;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ISliderDidStartDissolvingEvent);
-// Type: ::ISliderDidStartDissolvingEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ISliderDidStartDissolvingEvent*
+// CS Name: ISliderDidStartDissolvingEvent
 class CORDL_TYPE ISliderDidStartDissolvingEvent {
 public:
   // Declarations
-  /// @brief Method HandleSliderDidStartDissolving, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method HandleSliderDidStartDissolving, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
-
-  // Ctor Parameters [CppParam { name: "", ty: "ISliderDidStartDissolvingEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISliderDidStartDissolvingEvent(ISliderDidStartDissolvingEvent&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "ISliderDidStartDissolvingEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ISliderDidStartDissolvingEvent(ISliderDidStartDissolvingEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

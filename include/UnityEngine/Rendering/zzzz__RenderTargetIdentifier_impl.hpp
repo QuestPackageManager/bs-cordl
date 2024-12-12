@@ -1,14 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
+#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_def.hpp"
-#include "UnityEngine/zzzz__CubemapFace_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
 template <>
@@ -16,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Rendering::BuiltinRenderTextureType)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x486083c;
+  constexpr static std::size_t addrs = 0x48c1bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x486085c;
+  constexpr static std::size_t addrs = 0x48c1bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x486087c;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x48c1c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::UnityEngine::Rendering::BuiltinRenderTextureType)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x486099c;
+  constexpr static std::size_t addrs = 0x48c1d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(int32_t)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48609c0;
+  constexpr static std::size_t addrs = 0x48c1d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48609dc;
+  constexpr static std::size_t addrs = 0x48c1d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderTargetIdentifier::*)()>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::ToString)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x4860a24;
+  constexpr static std::size_t addrs = 0x48c1db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderTargetIdentifier::*)()>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::GetHashCode)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4860ccc;
+  constexpr static std::size_t addrs = 0x48c2058;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4860d18;
+  constexpr static std::size_t addrs = 0x48c20a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::System::Object*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4860db0;
+  constexpr static std::size_t addrs = 0x48c213c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,15 +161,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
-constexpr UnityEngine::Rendering::RenderTargetIdentifier::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
-constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*
-UnityEngine::Rendering::RenderTargetIdentifier::i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
 inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -229,6 +218,15 @@ inline bool UnityEngine::Rendering::RenderTargetIdentifier::Equals(::System::Obj
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
+constexpr UnityEngine::Rendering::RenderTargetIdentifier::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*
+UnityEngine::Rendering::RenderTargetIdentifier::i___System__IEquatable_1___UnityEngine__Rendering__RenderTargetIdentifier_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::Rendering::BuiltinRenderTextureType", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NameID", ty: "int32_t", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "m_InstanceID", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BufferPointer", ty: "::System::IntPtr", modifiers: "",

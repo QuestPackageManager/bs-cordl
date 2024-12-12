@@ -11,17 +11,16 @@ class CompilerGeneratedAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::CompilerGeneratedAttribute);
-// Type: System.Runtime.CompilerServices::CompilerGeneratedAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::CompilerGeneratedAttribute*
+// CS Name: System.Runtime.CompilerServices.CompilerGeneratedAttribute
 class CORDL_TYPE CompilerGeneratedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CompilerGeneratedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb6c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d16dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

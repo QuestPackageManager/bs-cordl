@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightColorEventBoxGroup::*)(
     float_t, int32_t, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>*)>(&::BeatmapSaveDataVersion3::LightColorEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d3dbc;
+  constexpr static std::size_t addrs = 0x270572c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::LightColorEventBoxGroup* (
     ::BeatmapSaveDataVersion3::LightColorEventBoxGroup::*)(::System::Nullable_1<float_t>, ::System::Nullable_1<int32_t>)>(&::BeatmapSaveDataVersion3::LightColorEventBoxGroup::CopyWith)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26d3e2c;
+  constexpr static std::size_t addrs = 0x270579c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,10 +37,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::BeatmapSaveDataVersion3::LightColorEventBoxGroup*
-BeatmapSaveDataVersion3::LightColorEventBoxGroup::New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>* eventBoxes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>(beat, groupId, eventBoxes));
-}
 inline void BeatmapSaveDataVersion3::LightColorEventBoxGroup::_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>* eventBoxes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -48,14 +44,16 @@ inline void BeatmapSaveDataVersion3::LightColorEventBoxGroup::_ctor(float_t beat
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, groupId, eventBoxes);
 }
-/// @param newBeat: ::System::Nullable_1<float_t> (default: {})
-/// @param newGroupId: ::System::Nullable_1<int32_t> (default: {})
 inline ::BeatmapSaveDataVersion3::LightColorEventBoxGroup* BeatmapSaveDataVersion3::LightColorEventBoxGroup::CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>::get(), "CopyWith", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<float_t>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*, false>(this, ___internal_method, newBeat, newGroupId);
+}
+inline ::BeatmapSaveDataVersion3::LightColorEventBoxGroup*
+BeatmapSaveDataVersion3::LightColorEventBoxGroup::New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightColorEventBox*>* eventBoxes) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::LightColorEventBoxGroup*>(beat, groupId, eventBoxes));
 }
 // Ctor Parameters []
 constexpr ::BeatmapSaveDataVersion3::LightColorEventBoxGroup::LightColorEventBoxGroup() {}

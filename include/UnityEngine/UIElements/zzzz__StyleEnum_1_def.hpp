@@ -3,19 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleEnum_1)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -26,13 +22,12 @@ template <typename T> struct StyleEnum_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleEnum_1);
-// Type: UnityEngine.UIElements::StyleEnum`1
-// SizeInfo { instance_size: 16, native_size: 28, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::UnityEngine.UIElements::StyleEnum`1<T>
+// CS Name: UnityEngine.UIElements.StyleEnum`1<T>
 struct CORDL_TYPE StyleEnum_1 {
 public:
   // Declarations
@@ -99,17 +94,17 @@ public:
   // }]
   constexpr StyleEnum_1(T m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6095 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field m_Value, offset: 0x0, size: 0x8, def value: None
   T m_Value;
 
   /// @brief Field m_Keyword, offset: 0x8, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleKeyword m_Keyword;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6070 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

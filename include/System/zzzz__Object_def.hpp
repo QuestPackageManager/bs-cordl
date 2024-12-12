@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Object)
@@ -17,50 +16,49 @@ class Object;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Object);
-// Type: System::Object
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace System {
 // Is value type: false
-// CS Name: ::System::Object*
+// CS Name: System.Object
 class CORDL_TYPE Object : public Il2CppObject {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3dd9e00, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e39eac, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3dd9e0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3e39eb8, size 0x2c, virtual false, abstract: false, final false
   static inline bool Equals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method FieldGetter, addr 0x3dd9e70, size 0x4, virtual false, abstract: false, final false
-  inline void FieldGetter(::StringW typeName, ::StringW fieldName, ByRef<::System::Object*> val);
+  /// @brief Method FieldGetter, addr 0x3e39f1c, size 0x4, virtual false, abstract: false, final false
+  inline void FieldGetter(::StringW typeName, ::StringW fieldName, ::ByRef<::System::Object*> val);
 
-  /// @brief Method FieldSetter, addr 0x3dd9e74, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FieldSetter, addr 0x3e39f20, size 0x4, virtual false, abstract: false, final false
   inline void FieldSetter(::StringW typeName, ::StringW fieldName, ::System::Object* val);
 
-  /// @brief Method Finalize, addr 0x3dd9e38, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3e39ee4, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x3dd9e3c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3e39ee8, size 0x4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetType, addr 0x3dccedc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x3e2cf88, size 0x4, virtual false, abstract: false, final false
   inline ::System::Type* GetType();
 
-  /// @brief Method InternalGetHashCode, addr 0x3dd9e40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetHashCode, addr 0x3e39eec, size 0x4, virtual false, abstract: false, final false
   static inline int32_t InternalGetHashCode(::System::Object* o);
 
-  /// @brief Method MemberwiseClone, addr 0x3dd438c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MemberwiseClone, addr 0x3e34438, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* MemberwiseClone();
 
   static inline ::System::Object* New_ctor();
 
-  /// @brief Method ReferenceEquals, addr 0x3dd9e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEquals, addr 0x3e39f10, size 0xc, virtual false, abstract: false, final false
   static inline bool ReferenceEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method ToString, addr 0x3dd9e44, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3e39ef0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3dcc748, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e2c7f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

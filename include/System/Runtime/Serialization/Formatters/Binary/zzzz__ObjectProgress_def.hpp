@@ -8,8 +8,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalMemberValueE_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalObjectTypeE_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectProgress)
@@ -31,11 +29,11 @@ class ObjectProgress;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress);
-// Type: System.Runtime.Serialization.Formatters.Binary::ObjectProgress
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum, System.Runtime.Serialization.Formatters.Binary.InternalMemberTypeE,
+// System.Runtime.Serialization.Formatters.Binary.InternalMemberValueE, System.Runtime.Serialization.Formatters.Binary.InternalObjectTypeE
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectProgress*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.ObjectProgress
 class CORDL_TYPE ObjectProgress : public ::System::Object {
 public:
   // Declarations
@@ -91,7 +89,7 @@ public:
   __declspec(property(get = __cordl_internal_get_objectTypeEnum, put = __cordl_internal_set_objectTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE objectTypeEnum;
 
   /// @brief Field opRecordIdCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_opRecordIdCount, put = setStaticF_opRecordIdCount)) int32_t opRecordIdCount;
+  __declspec(property(get = getStaticF_opRecordIdCount, put = setStaticF_opRecordIdCount)) int32_t opRecordIdCount;
 
   /// @brief Field pr, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_pr, put = __cordl_internal_set_pr)) ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr;
@@ -102,13 +100,13 @@ public:
   /// @brief Field typeInformationA, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_typeInformationA, put = __cordl_internal_set_typeInformationA)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA;
 
-  /// @brief Method ArrayCountIncrement, addr 0x3ca12a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ArrayCountIncrement, addr 0x3d01418, size 0x10, virtual false, abstract: false, final false
   inline void ArrayCountIncrement(int32_t value);
 
-  /// @brief Method GetNext, addr 0x3ca12b4, size 0x114, virtual false, abstract: false, final false
-  inline bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::System::Object*> outTypeInformation);
+  /// @brief Method GetNext, addr 0x3d01428, size 0x114, virtual false, abstract: false, final false
+  inline bool GetNext(::ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ::ByRef<::System::Object*> outTypeInformation);
 
-  /// @brief Method Init, addr 0x3ca1254, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3d013c8, size 0x50, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* New_ctor();
@@ -127,17 +125,17 @@ public:
 
   constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr ::System::Type*& __cordl_internal_get_dtType();
+  constexpr ::System::Type* const& __cordl_internal_get_dtType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_dtType() const;
+  constexpr ::System::Type*& __cordl_internal_get_dtType();
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum const& __cordl_internal_get_expectedType() const;
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& __cordl_internal_get_expectedType();
 
-  constexpr ::System::Object*& __cordl_internal_get_expectedTypeInformation();
+  constexpr ::System::Object* const& __cordl_internal_get_expectedTypeInformation() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_expectedTypeInformation() const;
+  constexpr ::System::Object*& __cordl_internal_get_expectedTypeInformation();
 
   constexpr bool const& __cordl_internal_get_isInitial() const;
 
@@ -179,13 +177,13 @@ public:
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalObjectTypeE& __cordl_internal_get_objectTypeEnum();
 
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* const& __cordl_internal_get_pr() const;
+
   constexpr ::System::Runtime::Serialization::Formatters::Binary::ParseRecord*& __cordl_internal_get_pr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ParseRecord*> const& __cordl_internal_get_pr() const;
+  constexpr ::System::Object* const& __cordl_internal_get_typeInformation() const;
 
   constexpr ::System::Object*& __cordl_internal_get_typeInformation();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typeInformation() const;
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_typeInformationA() const;
 
@@ -230,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set_typeInformationA(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x3ca11ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d01360, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_opRecordIdCount();
@@ -250,6 +248,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ObjectProgress", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectProgress(ObjectProgress const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3276 };
 
   /// @brief Field isInitial, offset: 0x10, size: 0x1, def value: None
   bool ___isInitial;
@@ -308,14 +309,9 @@ public:
   /// @brief Field pr, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* ___pr;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3276 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, 0x88>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___isInitial) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___count) == 0x14, "Offset mismatch!");
@@ -353,6 +349,8 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Obj
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___memberTypes) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, ___pr) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ObjectProgress, 0x88>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ObjectProgress);

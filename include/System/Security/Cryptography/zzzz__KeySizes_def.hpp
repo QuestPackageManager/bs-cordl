@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeySizes)
 // Forward declare root types
@@ -13,11 +12,10 @@ class KeySizes;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::KeySizes);
-// Type: System.Security.Cryptography::KeySizes
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Security::Cryptography {
 // Is value type: false
-// CS Name: ::System.Security.Cryptography::KeySizes*
+// CS Name: System.Security.Cryptography.KeySizes
 class CORDL_TYPE KeySizes : public ::System::Object {
 public:
   // Declarations
@@ -36,10 +34,10 @@ public:
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  /// @brief Method IsLegal, addr 0x3c3d510, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x3c9d684, size 0x4c, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x3c3d55c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x3c9d6d0, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
@@ -62,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c3d2bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c9d430, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method get_MaxSize, addr 0x3c3d500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x3c9d674, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_MinSize, addr 0x3c3d4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x3c9d66c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_SkipSize, addr 0x3c3d508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x3c9d67c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
 protected:
@@ -88,6 +86,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   KeySizes(KeySizes const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2922 };
+
   /// @brief Field m_minSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_minSize;
 
@@ -97,19 +98,16 @@ public:
   /// @brief Field m_skipSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_skipSize;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2922 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::KeySizes, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_minSize) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_maxSize) == 0x14, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::Cryptography::KeySizes, ___m_skipSize) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::KeySizes, 0x20>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::KeySizes);

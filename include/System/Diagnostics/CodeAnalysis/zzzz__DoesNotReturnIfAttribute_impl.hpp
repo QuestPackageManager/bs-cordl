@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::*)(bool)>(
     &::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e15c20;
+  constexpr static std::size_t addrs = 0x3e75ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::*)()>(
     &::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::get_ParameterValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e15c48;
+  constexpr static std::size_t addrs = 0x3e75cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,9 +44,6 @@ constexpr void System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ParameterValue_k__BackingField = value;
 }
-inline ::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute* System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::New_ctor(bool parameterValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute*>(parameterValue));
-}
 inline void System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::_ctor(bool parameterValue) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute*>::get(), ".ctor",
@@ -58,6 +55,9 @@ inline bool System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::get_Par
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute*>::get(), "get_ParameterValue",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute* System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::New_ctor(bool parameterValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute*>(parameterValue));
 }
 // Ctor Parameters []
 constexpr ::System::Diagnostics::CodeAnalysis::DoesNotReturnIfAttribute::DoesNotReturnIfAttribute() {}

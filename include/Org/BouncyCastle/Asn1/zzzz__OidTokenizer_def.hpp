@@ -13,11 +13,10 @@ class OidTokenizer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::OidTokenizer);
-// Type: Org.BouncyCastle.Asn1::OidTokenizer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::OidTokenizer*
+// CS Name: Org.BouncyCastle.Asn1.OidTokenizer
 class CORDL_TYPE OidTokenizer : public ::System::Object {
 public:
   // Declarations
@@ -31,7 +30,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method NextToken, addr 0x2608468, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x263b754, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -46,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2608430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263b71c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_HasMoreTokens, addr 0x2608458, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasMoreTokens, addr 0x263b744, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasMoreTokens();
 
 protected:
@@ -66,23 +65,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OidTokenizer(OidTokenizer const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 527 };
+
   /// @brief Field oid, offset: 0x10, size: 0x8, def value: None
   ::StringW ___oid;
 
   /// @brief Field index, offset: 0x18, size: 0x4, def value: None
   int32_t ___index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 527 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::OidTokenizer, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Asn1::OidTokenizer, ___oid) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::OidTokenizer, ___index) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::OidTokenizer, 0x20>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::OidTokenizer);

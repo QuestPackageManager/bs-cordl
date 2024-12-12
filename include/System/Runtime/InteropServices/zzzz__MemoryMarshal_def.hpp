@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryMarshal)
 namespace System {
@@ -28,11 +27,10 @@ class MemoryMarshal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::MemoryMarshal);
-// Type: System.Runtime.InteropServices::MemoryMarshal
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::MemoryMarshal*
+// CS Name: System.Runtime.InteropServices.MemoryMarshal
 class CORDL_TYPE MemoryMarshal : public ::System::Object {
 public:
   // Declarations
@@ -46,22 +44,22 @@ public:
   template <typename T> static inline ::System::Memory_1<T> AsMemory(::System::ReadOnlyMemory_1<T> memory);
 
   /// @brief Method CreateReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(ByRef<T> reference, int32_t length);
+  template <typename T> static inline ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(::ByRef<T> reference, int32_t length);
 
   /// @brief Method GetNonNullPinnableReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetNonNullPinnableReference(::System::ReadOnlySpan_1<T> span);
+  template <typename T> static inline ::ByRef<T> GetNonNullPinnableReference(::System::ReadOnlySpan_1<T> span);
 
   /// @brief Method GetNonNullPinnableReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetNonNullPinnableReference(::System::Span_1<T> span);
+  template <typename T> static inline ::ByRef<T> GetNonNullPinnableReference(::System::Span_1<T> span);
 
   /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetReference(::System::ReadOnlySpan_1<T> span);
+  template <typename T> static inline ::ByRef<T> GetReference(::System::ReadOnlySpan_1<T> span);
 
   /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> GetReference(::System::Span_1<T> span);
+  template <typename T> static inline ::ByRef<T> GetReference(::System::Span_1<T> span);
 
   /// @brief Method TryGetArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline bool TryGetArray(::System::ReadOnlyMemory_1<T> memory, ByRef<::System::ArraySegment_1<T>> segment);
+  template <typename T> static inline bool TryGetArray(::System::ReadOnlyMemory_1<T> memory, ::ByRef<::System::ArraySegment_1<T>> segment);
 
 protected:
   // Ctor Parameters []

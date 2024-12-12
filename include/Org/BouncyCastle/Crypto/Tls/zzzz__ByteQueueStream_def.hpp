@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ByteQueueStream)
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -19,11 +18,10 @@ class ByteQueueStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream);
-// Type: Org.BouncyCastle.Crypto.Tls::ByteQueueStream
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IO.Stream
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Crypto.Tls::ByteQueueStream*
+// CS Name: Org.BouncyCastle.Crypto.Tls.ByteQueueStream
 class CORDL_TYPE ByteQueueStream : public ::System::IO::Stream {
 public:
   // Declarations
@@ -42,69 +40,69 @@ public:
   /// @brief Field buffer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::Org::BouncyCastle::Crypto::Tls::ByteQueue* buffer;
 
-  /// @brief Method Flush, addr 0x23aef14, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x23e2200, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* New_ctor();
 
-  /// @brief Method Peek, addr 0x23aef50, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x23e223c, size 0xa0, virtual true, abstract: false, final false
   inline int32_t Peek(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method Read, addr 0x23af060, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x23e234c, size 0x28, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method Read, addr 0x23af088, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x23e2374, size 0xb8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte, addr 0x23af140, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x23e242c, size 0x48, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x23af188, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x23e2474, size 0x38, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x23af1c0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x23e24ac, size 0x38, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Skip, addr 0x23af1f8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Skip, addr 0x23e24e4, size 0x90, virtual true, abstract: false, final false
   inline int32_t Skip(int32_t n);
 
-  /// @brief Method Write, addr 0x23af288, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23e2574, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method Write, addr 0x23af2ac, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x23e2598, size 0x18, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x23af2c4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x23e25b0, size 0x88, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
+
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue* const& __cordl_internal_get_buffer() const;
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __cordl_internal_get_buffer() const;
-
   constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
-  /// @brief Method .ctor, addr 0x23aee58, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x23e2144, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Available, addr 0x23aeee0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Available, addr 0x23e21cc, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Available();
 
-  /// @brief Method get_CanRead, addr 0x23aeefc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x23e21e8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x23aef04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x23e21f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x23aef0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x23e21f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x23aef18, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x23e2204, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x23aeff0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x23e22dc, size 0x38, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x23af028, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x23e2314, size 0x38, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -121,18 +119,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ByteQueueStream(ByteQueueStream const&) = delete;
 
-  /// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::ByteQueue* ___buffer;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1184 };
+
+  /// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
+  ::Org::BouncyCastle::Crypto::Tls::ByteQueue* ___buffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream, ___buffer) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream, 0x30>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream);

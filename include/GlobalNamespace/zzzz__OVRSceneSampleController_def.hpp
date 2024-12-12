@@ -26,11 +26,10 @@ class OVRSceneSampleController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRSceneSampleController);
-// Type: ::OVRSceneSampleController
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.KeyCode, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::OVRSceneSampleController*
+// CS Name: OVRSceneSampleController
 class CORDL_TYPE OVRSceneSampleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -58,24 +57,24 @@ public:
   /// @brief Field visionMode, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_visionMode, put = __cordl_internal_set_visionMode)) bool visionMode;
 
-  /// @brief Method Awake, addr 0x3fe0ac0, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x4040b6c, size 0x1b4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRSceneSampleController* New_ctor();
 
-  /// @brief Method Start, addr 0x3fe0c74, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x4040d20, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3fe0d64, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x4040e10, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRecenterPose, addr 0x3fe0e38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method UpdateRecenterPose, addr 0x4040ee4, size 0xb0, virtual false, abstract: false, final false
   inline void UpdateRecenterPose();
 
-  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x3fe0fa4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method UpdateSpeedAndRotationScaleMultiplier, addr 0x4041050, size 0xac, virtual false, abstract: false, final false
   inline void UpdateSpeedAndRotationScaleMultiplier();
 
-  /// @brief Method UpdateVisionMode, addr 0x3fe0ee8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisionMode, addr 0x4040f94, size 0xbc, virtual false, abstract: false, final false
   inline void UpdateVisionMode();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraController() const;
@@ -126,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set_visionMode(bool value);
 
-  /// @brief Method .ctor, addr 0x3fe1050, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40410fc, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,6 +141,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "OVRSceneSampleController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   OVRSceneSampleController(OVRSceneSampleController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8474 };
 
   /// @brief Field quitKey, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ___quitKey;
@@ -167,14 +169,9 @@ public:
   /// @brief Field gridCube, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRGridCube> ___gridCube;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8449 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneSampleController, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::OVRSceneSampleController, ___quitKey) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRSceneSampleController, ___fadeInTexture) == 0x28, "Offset mismatch!");
@@ -190,6 +187,8 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneSampleController, ___layerName
 static_assert(offsetof(::GlobalNamespace::OVRSceneSampleController, ___visionMode) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRSceneSampleController, ___gridCube) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneSampleController, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRSceneSampleController);

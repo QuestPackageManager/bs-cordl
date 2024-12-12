@@ -11,17 +11,16 @@ class ExtensionAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::ExtensionAttribute);
-// Type: System.Runtime.CompilerServices::ExtensionAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// CS Name: ::System.Runtime.CompilerServices::ExtensionAttribute*
+// CS Name: System.Runtime.CompilerServices.ExtensionAttribute
 class CORDL_TYPE ExtensionAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::ExtensionAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb71dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d17350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

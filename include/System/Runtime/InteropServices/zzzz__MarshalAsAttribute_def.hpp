@@ -21,11 +21,10 @@ class MarshalAsAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::MarshalAsAttribute);
-// Type: System.Runtime.InteropServices::MarshalAsAttribute
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 70, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.InteropServices.UnmanagedType, System.Runtime.InteropServices.VarEnum
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::MarshalAsAttribute*
+// CS Name: System.Runtime.InteropServices.MarshalAsAttribute
 class CORDL_TYPE MarshalAsAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -61,7 +60,7 @@ public:
   /// @brief Field utype, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_utype, put = __cordl_internal_set_utype)) ::System::Runtime::InteropServices::UnmanagedType utype;
 
-  /// @brief Method Copy, addr 0x3cb6518, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x3d1668c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
 
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
@@ -82,17 +81,17 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_MarshalType();
 
-  constexpr ::System::Type*& __cordl_internal_get_MarshalTypeRef();
+  constexpr ::System::Type* const& __cordl_internal_get_MarshalTypeRef() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_MarshalTypeRef() const;
+  constexpr ::System::Type*& __cordl_internal_get_MarshalTypeRef();
 
   constexpr ::System::Runtime::InteropServices::VarEnum const& __cordl_internal_get_SafeArraySubType() const;
 
   constexpr ::System::Runtime::InteropServices::VarEnum& __cordl_internal_get_SafeArraySubType();
 
-  constexpr ::System::Type*& __cordl_internal_get_SafeArrayUserDefinedSubType();
+  constexpr ::System::Type* const& __cordl_internal_get_SafeArrayUserDefinedSubType() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_SafeArrayUserDefinedSubType() const;
+  constexpr ::System::Type*& __cordl_internal_get_SafeArrayUserDefinedSubType();
 
   constexpr int32_t const& __cordl_internal_get_SizeConst() const;
 
@@ -126,10 +125,10 @@ public:
 
   constexpr void __cordl_internal_set_utype(::System::Runtime::InteropServices::UnmanagedType value);
 
-  /// @brief Method .ctor, addr 0x3cb64e8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d1665c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method get_Value, addr 0x3cb6510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x3d16684, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::UnmanagedType get_Value();
 
 protected:
@@ -145,6 +144,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "MarshalAsAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   MarshalAsAttribute(MarshalAsAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3341 };
 
   /// @brief Field MarshalCookie, offset: 0x10, size: 0x8, def value: None
   ::StringW ___MarshalCookie;
@@ -176,14 +178,9 @@ public:
   /// @brief Field SizeParamIndex, offset: 0x44, size: 0x2, def value: None
   int16_t ___SizeParamIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3341 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::MarshalAsAttribute, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___MarshalCookie) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___MarshalType) == 0x18, "Offset mismatch!");
@@ -203,6 +200,8 @@ static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, _
 static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___IidParameterIndex) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::System::Runtime::InteropServices::MarshalAsAttribute, ___SizeParamIndex) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::MarshalAsAttribute, 0x48>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::MarshalAsAttribute);

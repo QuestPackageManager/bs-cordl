@@ -12,11 +12,10 @@ class ReaderWriterCount;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::ReaderWriterCount);
-// Type: System.Threading::ReaderWriterCount
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
-// CS Name: ::System.Threading::ReaderWriterCount*
+// CS Name: System.Threading.ReaderWriterCount
 class CORDL_TYPE ReaderWriterCount : public ::System::Object {
 public:
   // Declarations
@@ -41,9 +40,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get_lockID();
 
-  constexpr ::System::Threading::ReaderWriterCount*& __cordl_internal_get_next();
+  constexpr ::System::Threading::ReaderWriterCount* const& __cordl_internal_get_next() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterCount*> const& __cordl_internal_get_next() const;
+  constexpr ::System::Threading::ReaderWriterCount*& __cordl_internal_get_next();
 
   constexpr int32_t const& __cordl_internal_get_readercount() const;
 
@@ -67,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_writercount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40a4bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4105ec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,6 +83,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ReaderWriterCount(ReaderWriterCount const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14194 };
+
   /// @brief Field lockID, offset: 0x10, size: 0x8, def value: None
   int64_t ___lockID;
 
@@ -99,14 +101,9 @@ public:
   /// @brief Field next, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::ReaderWriterCount* ___next;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterCount, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::System::Threading::ReaderWriterCount, ___lockID) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ReaderWriterCount, ___readercount) == 0x18, "Offset mismatch!");
@@ -116,6 +113,8 @@ static_assert(offsetof(::System::Threading::ReaderWriterCount, ___writercount) =
 static_assert(offsetof(::System::Threading::ReaderWriterCount, ___upgradecount) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Threading::ReaderWriterCount, ___next) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterCount, 0x30>, "Size mismatch!");
 
 } // namespace System::Threading
 NEED_NO_BOX(::System::Threading::ReaderWriterCount);

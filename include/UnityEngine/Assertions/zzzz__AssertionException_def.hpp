@@ -12,11 +12,10 @@ class AssertionException;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
-// Type: UnityEngine.Assertions::AssertionException
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace UnityEngine::Assertions {
 // Is value type: false
-// CS Name: ::UnityEngine.Assertions::AssertionException*
+// CS Name: UnityEngine.Assertions.AssertionException
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
   // Declarations
@@ -33,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x486df74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48cf548, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message, addr 0x486e87c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x48cfe50, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -53,18 +52,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AssertionException(AssertionException const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11320 };
+
   /// @brief Field m_UserMessage, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_UserMessage;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11287 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Assertions::AssertionException, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::Assertions::AssertionException, ___m_UserMessage) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Assertions::AssertionException, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::Assertions
 NEED_NO_BOX(::UnityEngine::Assertions::AssertionException);

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)()>(
     &::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48ca63c;
+  constexpr static std::size_t addrs = 0x492eccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextColorGradient*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)(::UnityEngine::Color)>(
     &::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48ca6d8;
+  constexpr static std::size_t addrs = 0x492ed68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextColorGradient::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&::UnityEngine::TextCore::Text::TextColorGradient::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x48ca744;
+  constexpr static std::size_t addrs = 0x492edd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,26 +118,16 @@ inline void UnityEngine::TextCore::Text::TextColorGradient::setStaticF_k_Default
 inline ::UnityEngine::Color UnityEngine::TextCore::Text::TextColorGradient::getStaticF_k_DefaultColor() {
   return ::cordl_internals::getStaticField<::UnityEngine::Color, "k_DefaultColor", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextColorGradient*>::get>();
 }
-inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>());
-}
 inline void UnityEngine::TextCore::Text::TextColorGradient::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextColorGradient*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor(::UnityEngine::Color color) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>(color));
 }
 inline void UnityEngine::TextCore::Text::TextColorGradient::_ctor(::UnityEngine::Color color) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextColorGradient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
-}
-inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2,
-                                                                                                                  ::UnityEngine::Color color3) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>(color0, color1, color2, color3));
 }
 inline void UnityEngine::TextCore::Text::TextColorGradient::_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,6 +136,16 @@ inline void UnityEngine::TextCore::Text::TextColorGradient::_ctor(::UnityEngine:
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color0, color1, color2, color3);
+}
+inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>());
+}
+inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor(::UnityEngine::Color color) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>(color));
+}
+inline ::UnityEngine::TextCore::Text::TextColorGradient* UnityEngine::TextCore::Text::TextColorGradient::New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2,
+                                                                                                                  ::UnityEngine::Color color3) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextColorGradient*>(color0, color1, color2, color3));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::TextColorGradient::TextColorGradient() {}

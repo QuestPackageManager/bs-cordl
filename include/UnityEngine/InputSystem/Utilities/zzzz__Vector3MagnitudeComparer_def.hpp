@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3MagnitudeComparer)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -18,11 +17,10 @@ struct Vector3MagnitudeComparer;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector3MagnitudeComparer);
-// Type: UnityEngine.InputSystem.Utilities::Vector3MagnitudeComparer
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+// Dependencies System.Collections.Generic.IComparer`1<T>, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// CS Name: ::UnityEngine.InputSystem.Utilities::Vector3MagnitudeComparer
+// CS Name: UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer
 #pragma pack(push, 0)
 struct CORDL_TYPE Vector3MagnitudeComparer {
 public:
@@ -30,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare, addr 0x4505110, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x4566424, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
@@ -40,14 +38,14 @@ public:
   // @brief default ctor
   constexpr Vector3MagnitudeComparer();
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7067 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

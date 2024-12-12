@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_MeshIndexFormat::*)(int32_t)>(
     &::HoudiniEngineUnity::HEU_MeshIndexFormat::CalculateIndexFormat)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3a2e964;
+  constexpr static std::size_t addrs = 0x3a855d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_MeshIndexFormat::*)(::UnityEngine::Mesh*)>(
     &::HoudiniEngineUnity::HEU_MeshIndexFormat::SetFormatForMesh)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3a2e9dc;
+  constexpr static std::size_t addrs = 0x3a8564c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_MeshIndexFormat::*)()>(&::HoudiniEngineUnity::HEU_MeshIndexFormat::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a2ea00;
+  constexpr static std::size_t addrs = 0x3a85670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MeshIndexFormat*>::get(), ".ctor",
@@ -71,13 +71,13 @@ inline void HoudiniEngineUnity::HEU_MeshIndexFormat::SetFormatForMesh(::UnityEng
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Mesh*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mesh);
 }
-inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* HoudiniEngineUnity::HEU_MeshIndexFormat::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_MeshIndexFormat*>());
-}
 inline void HoudiniEngineUnity::HEU_MeshIndexFormat::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MeshIndexFormat*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* HoudiniEngineUnity::HEU_MeshIndexFormat::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_MeshIndexFormat*>());
 }
 // Ctor Parameters []
 constexpr ::HoudiniEngineUnity::HEU_MeshIndexFormat::HEU_MeshIndexFormat() {}

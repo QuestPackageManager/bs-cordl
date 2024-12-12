@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityOpus/Decoder.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityOpus/zzzz__NumChannels_impl.hpp"
 #include "UnityOpus/zzzz__Decoder_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityOpus/zzzz__NumChannels_def.hpp"
 #include "UnityOpus/zzzz__SamplingFrequency_def.hpp"
 //  Writing Method size for method: ::UnityOpus::Decoder._ctor
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityOpus::Decoder::*)(::UnityOpus::SamplingFrequency, ::UnityOpus::NumChannels)>(
     &::UnityOpus::Decoder::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3a54554;
+  constexpr static std::size_t addrs = 0x3aab1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::UnityOpus::Decoder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(&::UnityOpus::Decoder::Decode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3a54714;
+  constexpr static std::size_t addrs = 0x3aab384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityOpus::Decoder::*)(bool)>(&::UnityOpus::Decoder::Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3a54918;
+  constexpr static std::size_t addrs = 0x3aab588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityOpus::Decoder::*)()>(&::UnityOpus::Decoder::Finalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3a549d4;
+  constexpr static std::size_t addrs = 0x3aab644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityOpus::Decoder::*)()>(&::UnityOpus::Decoder::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3a54a74;
+  constexpr static std::size_t addrs = 0x3aab6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityOpus::Decoder*>::get(), "Dispose",
@@ -82,14 +82,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr UnityOpus::Decoder::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityOpus::Decoder::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::System::IntPtr& UnityOpus::Decoder::__cordl_internal_get_decoder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___decoder;
@@ -138,9 +130,6 @@ constexpr void UnityOpus::Decoder::__cordl_internal_set_disposedValue(bool value
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposedValue = value;
 }
-inline ::UnityOpus::Decoder* UnityOpus::Decoder::New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityOpus::Decoder*>(samplingFrequency, channels));
-}
 inline void UnityOpus::Decoder::_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityOpus::Decoder*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -148,7 +137,6 @@ inline void UnityOpus::Decoder::_ctor(::UnityOpus::SamplingFrequency samplingFre
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityOpus::NumChannels>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, samplingFrequency, channels);
 }
-/// @param decodeFec: int32_t (default: static_cast<int32_t>(0x0))
 inline int32_t UnityOpus::Decoder::Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityOpus::Decoder*>::get(), "Decode", std::span<Il2CppClass const* const, 0>(),
@@ -172,6 +160,17 @@ inline void UnityOpus::Decoder::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityOpus::Decoder*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityOpus::Decoder* UnityOpus::Decoder::New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityOpus::Decoder*>(samplingFrequency, channels));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityOpus::Decoder::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityOpus::Decoder::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityOpus::Decoder::Decoder() {}

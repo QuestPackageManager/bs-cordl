@@ -12,11 +12,10 @@ struct IgnoranceClientStats;
 }
 // Write type traits
 MARK_VAL_T(::IgnoranceCore::IgnoranceClientStats);
-// Type: IgnoranceCore::IgnoranceClientStats
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace IgnoranceCore {
 // Is value type: true
-// CS Name: ::IgnoranceCore::IgnoranceClientStats
+// CS Name: IgnoranceCore.IgnoranceClientStats
 struct CORDL_TYPE IgnoranceClientStats {
 public:
   // Declarations
@@ -28,6 +27,12 @@ public:
   // "BytesSent", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsSent", ty:
   // "uint64_t", modifiers: "", def_value: None }, CppParam { name: "PacketsLost", ty: "uint64_t", modifiers: "", def_value: None }]
   constexpr IgnoranceClientStats(uint32_t RTT, uint64_t BytesReceived, uint64_t BytesSent, uint64_t PacketsReceived, uint64_t PacketsSent, uint64_t PacketsLost) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17761 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field RTT, offset: 0x0, size: 0x4, def value: None
   uint32_t RTT;
@@ -47,17 +52,9 @@ public:
   /// @brief Field PacketsLost, offset: 0x28, size: 0x8, def value: None
   uint64_t PacketsLost;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17717 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceClientStats, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::IgnoranceCore::IgnoranceClientStats, RTT) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::IgnoranceCore::IgnoranceClientStats, BytesReceived) == 0x8, "Offset mismatch!");
@@ -69,6 +66,8 @@ static_assert(offsetof(::IgnoranceCore::IgnoranceClientStats, PacketsReceived) =
 static_assert(offsetof(::IgnoranceCore::IgnoranceClientStats, PacketsSent) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::IgnoranceCore::IgnoranceClientStats, PacketsLost) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceClientStats, 0x30>, "Size mismatch!");
 
 } // namespace IgnoranceCore
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceClientStats, "IgnoranceCore", "IgnoranceClientStats");

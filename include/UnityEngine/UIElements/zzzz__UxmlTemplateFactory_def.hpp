@@ -24,11 +24,10 @@ class UxmlTemplateFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateFactory);
-// Type: UnityEngine.UIElements::UxmlTemplateFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::UxmlTemplateFactory*
+// CS Name: UnityEngine.UIElements.UxmlTemplateFactory
 class CORDL_TYPE UxmlTemplateFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlTemplateTraits*> {
 public:
   // Declarations
@@ -36,18 +35,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName)) ::StringW uxmlQualifiedName;
 
-  /// @brief Method Create, addr 0x4a3ab90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Create, addr 0x4a9f4a0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTemplateFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a3ab98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a9f4a8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName, addr 0x4a3aadc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlName, addr 0x4a9f3ec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName, addr 0x4a3ab1c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x4a9f42c, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
 protected:
@@ -65,7 +64,7 @@ public:
   UxmlTemplateFactory(UxmlTemplateFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

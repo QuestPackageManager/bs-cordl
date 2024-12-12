@@ -18,11 +18,10 @@ class VRRenderingParamsSetup;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VRRenderingParamsSetup);
-// Type: ::VRRenderingParamsSetup
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies SceneType, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::VRRenderingParamsSetup*
+// CS Name: VRRenderingParamsSetup
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::GlobalNamespace::VRRenderingParamsSetup* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x3ace300, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b2d944, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
+
+  constexpr ::GlobalNamespace::IRenderingParamsApplicator* const& __cordl_internal_get__applicator() const;
 
   constexpr ::GlobalNamespace::IRenderingParamsApplicator*& __cordl_internal_get__applicator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IRenderingParamsApplicator*> const& __cordl_internal_get__applicator() const;
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr ::GlobalNamespace::SceneType const& __cordl_internal_get__sceneType() const;
 
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::SceneType value);
 
-  /// @brief Method .ctor, addr 0x3ace3d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b2da18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   VRRenderingParamsSetup(VRRenderingParamsSetup const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5174 };
+
   /// @brief Field _sceneType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SceneType ____sceneType;
 
@@ -84,19 +86,16 @@ public:
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5154 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneType) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____applicator) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::VRRenderingParamsSetup, ____sceneSetupData) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VRRenderingParamsSetup, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VRRenderingParamsSetup);

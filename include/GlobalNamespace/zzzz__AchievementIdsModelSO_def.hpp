@@ -17,11 +17,10 @@ class AchievementIdsModelSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AchievementIdsModelSO);
-// Type: ::AchievementIdsModelSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AchievementIdsModelSO*
+// CS Name: AchievementIdsModelSO
 class CORDL_TYPE AchievementIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -33,16 +32,16 @@ public:
 
   static inline ::GlobalNamespace::AchievementIdsModelSO* New_ctor();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>*& __cordl_internal_get__achievementsIds();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* const& __cordl_internal_get__achievementsIds() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>*> const& __cordl_internal_get__achievementsIds() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>*& __cordl_internal_get__achievementsIds();
 
   constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* value);
 
-  /// @brief Method .ctor, addr 0x266c928, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a07d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementsIds, addr 0x266c920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementsIds, addr 0x26a07c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* get_achievementsIds();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AchievementIdsModelSO(AchievementIdsModelSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12743 };
+
   /// @brief Field _achievementsIds, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* ____achievementsIds;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12710 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementIdsModelSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::AchievementIdsModelSO, ____achievementsIds) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementIdsModelSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AchievementIdsModelSO);

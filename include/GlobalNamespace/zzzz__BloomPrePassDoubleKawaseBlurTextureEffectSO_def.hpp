@@ -20,11 +20,10 @@ class BloomPrePassDoubleKawaseBlurTextureEffectSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);
-// Type: ::BloomPrePassDoubleKawaseBlurTextureEffectSO
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BloomPrePassEffectSO, KawaseBlurRendererSO::KernelSize
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassDoubleKawaseBlurTextureEffectSO*
+// CS Name: BloomPrePassDoubleKawaseBlurTextureEffectSO
 class CORDL_TYPE BloomPrePassDoubleKawaseBlurTextureEffectSO : public ::GlobalNamespace::BloomPrePassEffectSO {
 public:
   // Declarations
@@ -32,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bloom1Boost, put = __cordl_internal_set__bloom1Boost)) float_t _bloom1Boost;
 
   /// @brief Field _bloom1KernelSize, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloom1KernelSize, put = __cordl_internal_set__bloom1KernelSize)) ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize _bloom1KernelSize;
+  __declspec(property(get = __cordl_internal_get__bloom1KernelSize, put = __cordl_internal_set__bloom1KernelSize)) ::GlobalNamespace::KawaseBlurRendererSO_KernelSize _bloom1KernelSize;
 
   /// @brief Field _bloom2Alpha, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__bloom2Alpha, put = __cordl_internal_set__bloom2Alpha)) float_t _bloom2Alpha;
@@ -41,7 +40,7 @@ public:
   __declspec(property(get = __cordl_internal_get__bloom2Boost, put = __cordl_internal_set__bloom2Boost)) float_t _bloom2Boost;
 
   /// @brief Field _bloom2KernelSize, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloom2KernelSize, put = __cordl_internal_set__bloom2KernelSize)) ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize _bloom2KernelSize;
+  __declspec(property(get = __cordl_internal_get__bloom2KernelSize, put = __cordl_internal_set__bloom2KernelSize)) ::GlobalNamespace::KawaseBlurRendererSO_KernelSize _bloom2KernelSize;
 
   /// @brief Field _downsample, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__downsample, put = __cordl_internal_set__downsample)) int32_t _downsample;
@@ -54,16 +53,16 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x40240fc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x4085410, size 0x38, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr float_t const& __cordl_internal_get__bloom1Boost() const;
 
   constexpr float_t& __cordl_internal_get__bloom1Boost();
 
-  constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& __cordl_internal_get__bloom1KernelSize() const;
+  constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& __cordl_internal_get__bloom1KernelSize() const;
 
-  constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& __cordl_internal_get__bloom1KernelSize();
+  constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& __cordl_internal_get__bloom1KernelSize();
 
   constexpr float_t const& __cordl_internal_get__bloom2Alpha() const;
 
@@ -73,9 +72,9 @@ public:
 
   constexpr float_t& __cordl_internal_get__bloom2Boost();
 
-  constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize const& __cordl_internal_get__bloom2KernelSize() const;
+  constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const& __cordl_internal_get__bloom2KernelSize() const;
 
-  constexpr ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize& __cordl_internal_get__bloom2KernelSize();
+  constexpr ::GlobalNamespace::KawaseBlurRendererSO_KernelSize& __cordl_internal_get__bloom2KernelSize();
 
   constexpr int32_t const& __cordl_internal_get__downsample() const;
 
@@ -91,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set__bloom1Boost(float_t value);
 
-  constexpr void __cordl_internal_set__bloom1KernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value);
+  constexpr void __cordl_internal_set__bloom1KernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value);
 
   constexpr void __cordl_internal_set__bloom2Alpha(float_t value);
 
   constexpr void __cordl_internal_set__bloom2Boost(float_t value);
 
-  constexpr void __cordl_internal_set__bloom2KernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value);
+  constexpr void __cordl_internal_set__bloom2KernelSize(::GlobalNamespace::KawaseBlurRendererSO_KernelSize value);
 
   constexpr void __cordl_internal_set__downsample(int32_t value);
 
@@ -105,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x4024134, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4085448, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,14 +121,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassDoubleKawaseBlurTextureEffectSO(BloomPrePassDoubleKawaseBlurTextureEffectSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17920 };
+
   /// @brief Field _bloom1KernelSize, offset: 0x2c, size: 0x4, def value: None
-  ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize ____bloom1KernelSize;
+  ::GlobalNamespace::KawaseBlurRendererSO_KernelSize ____bloom1KernelSize;
 
   /// @brief Field _bloom1Boost, offset: 0x30, size: 0x4, def value: None
   float_t ____bloom1Boost;
 
   /// @brief Field _bloom2KernelSize, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize ____bloom2KernelSize;
+  ::GlobalNamespace::KawaseBlurRendererSO_KernelSize ____bloom2KernelSize;
 
   /// @brief Field _bloom2Boost, offset: 0x38, size: 0x4, def value: None
   float_t ____bloom2Boost;
@@ -146,14 +148,9 @@ public:
   /// @brief Field _kawaseBlurRenderer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::KawaseBlurRendererSO> ____kawaseBlurRenderer;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17837 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom1KernelSize) == 0x2c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____bloom1Boost) == 0x30, "Offset mismatch!");
@@ -169,6 +166,8 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEff
 static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____gammaCorrection) == 0x44, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, ____kawaseBlurRenderer) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO);

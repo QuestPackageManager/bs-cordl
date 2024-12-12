@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/WingedEdgeEnumerator.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdgeEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::WingedEdgeEnumerator._ctor
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46e9dd8;
+  constexpr static std::size_t addrs = 0x474b0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)()>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46e9e00;
+  constexpr static std::size_t addrs = 0x474b114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)()>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46e9e3c;
+  constexpr static std::size_t addrs = 0x474b150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>::get(), "Reset",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)()>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46e9e44;
+  constexpr static std::size_t addrs = 0x474b158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)()>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46e9e4c;
+  constexpr static std::size_t addrs = 0x474b160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdgeEnumerator::*)()>(
     &::UnityEngine::ProBuilder::WingedEdgeEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46e9e54;
+  constexpr static std::size_t addrs = 0x474b168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>::get(),
@@ -93,36 +93,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
-constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*
-UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__Collections__Generic__IEnumerator_1___UnityEngine__ProBuilder__WingedEdge__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
 constexpr ::UnityEngine::ProBuilder::WingedEdge*& UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_get_m_Start() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Start;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_get_m_Start() const {
+constexpr ::UnityEngine::ProBuilder::WingedEdge* const& UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_get_m_Start() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Start;
 }
@@ -134,16 +109,13 @@ constexpr ::UnityEngine::ProBuilder::WingedEdge*& UnityEngine::ProBuilder::Winge
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Current;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_get_m_Current() const {
+constexpr ::UnityEngine::ProBuilder::WingedEdge* const& UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_get_m_Current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Current;
 }
 constexpr void UnityEngine::ProBuilder::WingedEdgeEnumerator::__cordl_internal_set_m_Current(::UnityEngine::ProBuilder::WingedEdge* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* UnityEngine::ProBuilder::WingedEdgeEnumerator::New_ctor(::UnityEngine::ProBuilder::WingedEdge* start) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>(start));
 }
 inline void UnityEngine::ProBuilder::WingedEdgeEnumerator::_ctor(::UnityEngine::ProBuilder::WingedEdge* start) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -176,6 +148,34 @@ inline void UnityEngine::ProBuilder::WingedEdgeEnumerator::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* UnityEngine::ProBuilder::WingedEdgeEnumerator::New_ctor(::UnityEngine::ProBuilder::WingedEdge* start) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::WingedEdgeEnumerator*>(start));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
+constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*
+UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__Collections__Generic__IEnumerator_1___UnityEngine__ProBuilder__WingedEdge__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::WingedEdge*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::ProBuilder::WingedEdgeEnumerator::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::ProBuilder::WingedEdgeEnumerator::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::WingedEdgeEnumerator::WingedEdgeEnumerator() {}

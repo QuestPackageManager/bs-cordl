@@ -12,11 +12,10 @@ class KebabCaseNamingStrategy;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy);
-// Type: Newtonsoft.Json.Serialization::KebabCaseNamingStrategy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Serialization.NamingStrategy
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::KebabCaseNamingStrategy*
+// CS Name: Newtonsoft.Json.Serialization.KebabCaseNamingStrategy
 class CORDL_TYPE KebabCaseNamingStrategy : public ::Newtonsoft::Json::Serialization::NamingStrategy {
 public:
   // Declarations
@@ -26,16 +25,16 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy* New_ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
-  /// @brief Method ResolvePropertyName, addr 0x3e9c538, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ResolvePropertyName, addr 0x3efc5e4, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ResolvePropertyName(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3e9c530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc5dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e9c4a4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc550, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames);
 
-  /// @brief Method .ctor, addr 0x3e9c4e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3efc590, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool processDictionaryKeys, bool overrideSpecifiedNames, bool processExtensionDataNames);
 
 protected:
@@ -53,7 +52,7 @@ public:
   KebabCaseNamingStrategy(KebabCaseNamingStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10338 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,18 +17,17 @@ class BeatmapDataNoArrowsTransform;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataNoArrowsTransform);
-// Type: ::BeatmapDataNoArrowsTransform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BeatmapDataNoArrowsTransform*
+// CS Name: BeatmapDataNoArrowsTransform
 class CORDL_TYPE BeatmapDataNoArrowsTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x2675f88, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x26aa518, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x2676078, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x26aa608, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
 protected:
@@ -46,7 +45,7 @@ public:
   BeatmapDataNoArrowsTransform(BeatmapDataNoArrowsTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12787 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

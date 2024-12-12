@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CodePageDataItem::*)(int32_t)>(&::System::Globalization::CodePageDataItem::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3d47588;
+  constexpr static std::size_t addrs = 0x3da76fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint32_t)>(&::System::Globalization::CodePageDataItem::CreateString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d4762c;
+  constexpr static std::size_t addrs = 0x3da77a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CodePageDataItem::*)()>(
     &::System::Globalization::CodePageDataItem::get_WebName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3d476e0;
+  constexpr static std::size_t addrs = 0x3da7854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CodePageDataItem*>::get(), "get_WebName",
@@ -99,9 +99,6 @@ inline void System::Globalization::CodePageDataItem::setStaticF_sep(::ArrayW<cha
 inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Globalization::CodePageDataItem::getStaticF_sep() {
   return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "sep", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CodePageDataItem*>::get>();
 }
-inline ::System::Globalization::CodePageDataItem* System::Globalization::CodePageDataItem::New_ctor(int32_t dataIndex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::CodePageDataItem*>(dataIndex));
-}
 inline void System::Globalization::CodePageDataItem::_ctor(int32_t dataIndex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CodePageDataItem*>::get(), ".ctor",
@@ -118,6 +115,9 @@ inline ::StringW System::Globalization::CodePageDataItem::get_WebName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CodePageDataItem*>::get(), "get_WebName",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Globalization::CodePageDataItem* System::Globalization::CodePageDataItem::New_ctor(int32_t dataIndex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::CodePageDataItem*>(dataIndex));
 }
 // Ctor Parameters []
 constexpr ::System::Globalization::CodePageDataItem::CodePageDataItem() {}

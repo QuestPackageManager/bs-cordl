@@ -7,10 +7,6 @@
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__SignalBindingBindInfo_def.hpp"
-template <typename TSignal>
-inline ::Zenject::BindSignalIdToBinder_1<TSignal>* Zenject::BindSignalIdToBinder_1<TSignal>::New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::BindSignalIdToBinder_1<TSignal>*>(container, signalBindInfo));
-}
 template <typename TSignal> inline void Zenject::BindSignalIdToBinder_1<TSignal>::_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindSignalIdToBinder_1<TSignal>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -34,6 +30,10 @@ template <typename TSignal> inline ::Zenject::InjectTypeInfo* Zenject::BindSigna
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindSignalIdToBinder_1<TSignal>*>::get(),
                                                                              "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
+}
+template <typename TSignal>
+inline ::Zenject::BindSignalIdToBinder_1<TSignal>* Zenject::BindSignalIdToBinder_1<TSignal>::New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::BindSignalIdToBinder_1<TSignal>*>(container, signalBindInfo));
 }
 // Ctor Parameters []
 template <typename TSignal> constexpr ::Zenject::BindSignalIdToBinder_1<TSignal>::BindSignalIdToBinder_1() {}

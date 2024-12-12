@@ -15,15 +15,14 @@ class JSON;
 }
 // Write type traits
 MARK_REF_PTR_T(::OVRSimpleJSON::JSON);
-// Type: OVRSimpleJSON::JSON
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace OVRSimpleJSON {
 // Is value type: false
-// CS Name: ::OVRSimpleJSON::JSON*
+// CS Name: OVRSimpleJSON.JSON
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x3ff32bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x4053368, size 0x4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:
@@ -41,7 +40,7 @@ public:
   JSON(JSON const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

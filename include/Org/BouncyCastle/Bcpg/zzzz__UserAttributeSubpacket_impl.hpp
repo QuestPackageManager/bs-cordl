@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(
     ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26084f0;
+  constexpr static std::size_t addrs = 0x263b7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(
     ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2608524;
+  constexpr static std::size_t addrs = 0x263b810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::get_SubpacketType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2608564;
+  constexpr static std::size_t addrs = 0x263b850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x260856c;
+  constexpr static std::size_t addrs = 0x263b858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Encode)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2608574;
+  constexpr static std::size_t addrs = 0x263b860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::Object*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Equals)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26086ac;
+  constexpr static std::size_t addrs = 0x263b998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetHashCode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2608794;
+  constexpr static std::size_t addrs = 0x263ba80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,20 +155,12 @@ constexpr void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type,
-                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>(type, data));
-}
 inline void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, data);
-}
-inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength,
-                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>(type, forceLongLength, data));
 }
 inline void Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -202,6 +194,14 @@ inline int32_t Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type,
+                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>(type, data));
+}
+inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* Org::BouncyCastle::Bcpg::UserAttributeSubpacket::New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength,
+                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> data) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>(type, forceLongLength, data));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::UserAttributeSubpacket() {}

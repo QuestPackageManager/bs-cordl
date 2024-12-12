@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerEnvironmentSpectatingSpot.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerEnvironmentSpectatingSpot_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::add_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7f8bc;
+  constexpr static std::size_t addrs = 0x3be1108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::remove_hasBeenRemovedEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7f96c;
+  constexpr static std::size_t addrs = 0x3be11b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerObservable* (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_observable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7fa1c;
+  constexpr static std::size_t addrs = 0x3be1268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_spotName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b7fa24;
+  constexpr static std::size_t addrs = 0x3be1270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::get_isMain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7fae0;
+  constexpr static std::size_t addrs = 0x3be132c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7fae8;
+  constexpr static std::size_t addrs = 0x3be1334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::OnDisable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b7fb04;
+  constexpr static std::size_t addrs = 0x3be1350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)(bool)>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::SetIsObserved)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b7fb24;
+  constexpr static std::size_t addrs = 0x3be1370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7fb28;
+  constexpr static std::size_t addrs = 0x3be1374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7fb30;
+  constexpr static std::size_t addrs = 0x3be137c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,14 +153,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
-constexpr GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
-constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept {
-  return static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(static_cast<void*>(this));
-}
 constexpr bool& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get__preferredSpectatingSpot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preferredSpectatingSpot;
@@ -200,8 +193,7 @@ constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingSpotManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const&
-GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get__spectatingSpotManager() const {
+constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager* const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get__spectatingSpotManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingSpotManager;
 }
@@ -213,8 +205,7 @@ constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*& GlobalN
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayersTimeOffsetAverage;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*> const&
-GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get__activePlayersTimeOffsetAverage() const {
+constexpr ::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage* const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get__activePlayersTimeOffsetAverage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activePlayersTimeOffsetAverage;
 }
@@ -226,8 +217,7 @@ constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& G
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasBeenRemovedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const&
-GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get_hasBeenRemovedEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* const& GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::__cordl_internal_get_hasBeenRemovedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hasBeenRemovedEvent;
 }
@@ -278,9 +268,6 @@ inline void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::SetIsObserved
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isObserved);
 }
-inline ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot* GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>());
-}
 inline void GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -291,6 +278,17 @@ inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::MultiplayerEnvironmen
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>::get(),
                                                "IMultiplayerSpectatingSpot.get_transform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot* GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot*>());
+}
+/// @brief Convert operator to "::GlobalNamespace::IMultiplayerSpectatingSpot"
+constexpr GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::operator ::GlobalNamespace::IMultiplayerSpectatingSpot*() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
+constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept {
+  return static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerEnvironmentSpectatingSpot::MultiplayerEnvironmentSpectatingSpot() {}

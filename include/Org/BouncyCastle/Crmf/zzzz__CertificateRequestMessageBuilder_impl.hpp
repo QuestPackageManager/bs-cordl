@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x264d8f8;
+  constexpr static std::size_t addrs = 0x2680be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetPublicKey)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264d9d0;
+  constexpr static std::size_t addrs = 0x2680cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetIssuer)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264da00;
+  constexpr static std::size_t addrs = 0x2680cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetSubject)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x264da30;
+  constexpr static std::size_t addrs = 0x2680d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetSerialNumber)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x264da60;
+  constexpr static std::size_t addrs = 0x2680d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::Time*, ::Org::BouncyCastle::Asn1::X509::Time*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetValidity)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x264daec;
+  constexpr static std::size_t addrs = 0x2680dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddExtension)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x264db7c;
+  constexpr static std::size_t addrs = 0x2680e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +138,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddExtension)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x264dba8;
+  constexpr static std::size_t addrs = 0x2680e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crmf::IControl*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::AddControl)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x264dbd4;
+  constexpr static std::size_t addrs = 0x2680ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +171,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crypto::ISignatureFactory*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSignKeySigner)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x264dc88;
+  constexpr static std::size_t addrs = 0x2680f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSubsequentMessage)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x264dcf8;
+  constexpr static std::size_t addrs = 0x2680fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +205,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(int32_t, ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionSubsequentMessage)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x264ddc4;
+  constexpr static std::size_t addrs = 0x26810b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +223,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::Crmf::PKMacValue*)>(
         &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionAgreeMac)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x264ded8;
+  constexpr static std::size_t addrs = 0x26811c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)()>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetProofOfPossessionRaVerified)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x264df48;
+  constexpr static std::size_t addrs = 0x2681234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,7 +254,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Crmf::PKMacBuilder*, ::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoPKMAC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264e004;
+  constexpr static std::size_t addrs = 0x26812f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::X509Name*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoSender)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x264e00c;
+  constexpr static std::size_t addrs = 0x26812f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::SetAuthInfoSender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264e078;
+  constexpr static std::size_t addrs = 0x2681364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crmf::CertificateRequestMessage* (
     ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::*)()>(&::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::Build)> {
   constexpr static std::size_t size = 0x96c;
-  constexpr static std::size_t addrs = 0x264e080;
+  constexpr static std::size_t addrs = 0x268136c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +313,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crmf::Certi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certReqId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__certReqId() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__certReqId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____certReqId;
 }
@@ -325,8 +325,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*& Org::Bouncy
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extGenerator;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator*> const&
-Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__extGenerator() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__extGenerator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____extGenerator;
 }
@@ -338,8 +337,7 @@ constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____templateBuilder;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*> const&
-Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__templateBuilder() const {
+constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__templateBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____templateBuilder;
 }
@@ -351,7 +349,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Crmf::CertificateReq
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controls;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__controls() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__controls() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____controls;
 }
@@ -363,8 +361,7 @@ constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& Org::BouncyCastle::Cr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popSigner;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const&
-Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popSigner() const {
+constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popSigner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popSigner;
 }
@@ -376,7 +373,7 @@ constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder*& Org::BouncyCastle::Crmf::Cer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pkMacBuilder;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::PKMacBuilder*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__pkMacBuilder() const {
+constexpr ::Org::BouncyCastle::Crmf::PKMacBuilder* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__pkMacBuilder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pkMacBuilder;
 }
@@ -400,7 +397,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& Org::BouncyCastle::Crmf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sender;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__sender() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__sender() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sender;
 }
@@ -424,8 +421,7 @@ constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*& Org::BouncyCastle::Crmf
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popoPrivKey;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey*> const&
-Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popoPrivKey() const {
+constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popoPrivKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popoPrivKey;
 }
@@ -437,7 +433,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1Null*& Org::BouncyCastle::Crmf::Certifi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popRaVerified;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Null*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popRaVerified() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1Null* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__popRaVerified() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____popRaVerified;
 }
@@ -449,16 +445,13 @@ constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& Org::BouncyCastle::Crmf:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____agreeMac;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__agreeMac() const {
+constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* const& Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_get__agreeMac() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____agreeMac;
 }
 constexpr void Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::__cordl_internal_set__agreeMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____agreeMac)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::New_ctor(::Org::BouncyCastle::Math::BigInteger* certReqId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(certReqId));
 }
 inline void Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::_ctor(::Org::BouncyCastle::Math::BigInteger* certReqId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -585,6 +578,9 @@ inline ::Org::BouncyCastle::Crmf::CertificateRequestMessage* Org::BouncyCastle::
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>::get(), "Build",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crmf::CertificateRequestMessage*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder* Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::New_ctor(::Org::BouncyCastle::Math::BigInteger* certReqId) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder*>(certReqId));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crmf::CertificateRequestMessageBuilder::CertificateRequestMessageBuilder() {}

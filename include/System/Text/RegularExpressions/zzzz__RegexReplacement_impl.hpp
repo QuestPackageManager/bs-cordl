@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::StringW, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*)>(&::System::Text::RegularExpressions::RegexReplacement::_ctor)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x43c1024;
+  constexpr static std::size_t addrs = 0x4422338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                           ::System::Collections::Hashtable*, int32_t, ::System::Collections::Hashtable*,
                                                                           ::System::Text::RegularExpressions::RegexOptions)>(&::System::Text::RegularExpressions::RegexReplacement::GetOrCreate)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x43c5ab4;
+  constexpr static std::size_t addrs = 0x4426dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)()>(
     &::System::Text::RegularExpressions::RegexReplacement::get_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c5bc8;
+  constexpr static std::size_t addrs = 0x4426edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexReplacement*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Text::StringBuilder*, ::System::Text::RegularExpressions::Match*)>(&::System::Text::RegularExpressions::RegexReplacement::ReplacementImpl)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x43c5bd0;
+  constexpr static std::size_t addrs = 0x4426ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Collections::Generic::List_1<::StringW>*, ::System::Text::RegularExpressions::Match*)>(&::System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x43c5d74;
+  constexpr static std::size_t addrs = 0x4427088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Text::RegularExpressions::Regex*, ::StringW, int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexReplacement::Replace)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x43c5fa0;
+  constexpr static std::size_t addrs = 0x44272b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW>*& System::Text::Regu
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strings;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& System::Text::RegularExpressions::RegexReplacement::__cordl_internal_get__strings() const {
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& System::Text::RegularExpressions::RegexReplacement::__cordl_internal_get__strings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strings;
 }
@@ -127,7 +127,7 @@ constexpr ::System::Collections::Generic::List_1<int32_t>*& System::Text::Regula
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rules;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& System::Text::RegularExpressions::RegexReplacement::__cordl_internal_get__rules() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& System::Text::RegularExpressions::RegexReplacement::__cordl_internal_get__rules() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rules;
 }
@@ -146,10 +146,6 @@ constexpr ::StringW const& System::Text::RegularExpressions::RegexReplacement::_
 constexpr void System::Text::RegularExpressions::RegexReplacement::__cordl_internal_set__Pattern_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Pattern_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::System::Text::RegularExpressions::RegexReplacement* System::Text::RegularExpressions::RegexReplacement::New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat,
-                                                                                                                          ::System::Collections::Hashtable* _caps) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexReplacement*>(rep, concat, _caps));
 }
 inline void System::Text::RegularExpressions::RegexReplacement::_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,6 +194,10 @@ inline ::StringW System::Text::RegularExpressions::RegexReplacement::Replace(::S
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, regex, input, count, startat);
+}
+inline ::System::Text::RegularExpressions::RegexReplacement* System::Text::RegularExpressions::RegexReplacement::New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat,
+                                                                                                                          ::System::Collections::Hashtable* _caps) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexReplacement*>(rep, concat, _caps));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexReplacement::RegexReplacement() {}

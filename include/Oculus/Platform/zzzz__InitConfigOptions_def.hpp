@@ -12,11 +12,10 @@ struct InitConfigOptions;
 }
 // Write type traits
 MARK_VAL_T(::Oculus::Platform::InitConfigOptions);
-// Type: Oculus.Platform::InitConfigOptions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Oculus::Platform {
 // Is value type: true
-// CS Name: ::Oculus.Platform::InitConfigOptions
+// CS Name: Oculus.Platform.InitConfigOptions
 struct CORDL_TYPE InitConfigOptions {
 public:
   // Declarations
@@ -44,24 +43,24 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: None }]
   constexpr InitConfigOptions(uint32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  uint32_t value__;
-
-  /// @brief Field DisableP2pNetworking value: static_cast<uint32_t>(0xde5ddedcu)
+  /// @brief Field DisableP2pNetworking value: U32(3730693852)
   static ::Oculus::Platform::InitConfigOptions const DisableP2pNetworking;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15329 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  uint32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::InitConfigOptions, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::InitConfigOptions, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::InitConfigOptions, 0x4>, "Size mismatch!");
 
 } // namespace Oculus::Platform
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::InitConfigOptions, "Oculus.Platform", "InitConfigOptions");

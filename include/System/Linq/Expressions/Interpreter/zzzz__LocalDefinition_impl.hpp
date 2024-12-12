@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalDefinition::*)(
     int32_t, ::System::Linq::Expressions::ParameterExpression*)>(&::System::Linq::Expressions::Interpreter::LocalDefinition::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40884f8;
+  constexpr static std::size_t addrs = 0x40e980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LocalDefinition::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalDefinition::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4088504;
+  constexpr static std::size_t addrs = 0x40e9818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalDefinition>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ParameterExpression* (::System::Linq::Expressions::Interpreter::LocalDefinition::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalDefinition::get_Parameter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408850c;
+  constexpr static std::size_t addrs = 0x40e9820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalDefinition>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::LocalDefinition::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::LocalDefinition::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4088514;
+  constexpr static std::size_t addrs = 0x40e9828;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LocalDefinition::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalDefinition::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x408859c;
+  constexpr static std::size_t addrs = 0x40e98b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ inline int32_t System::Linq::Expressions::Interpreter::LocalDefinition::GetHashC
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_Index_k__BackingField", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "_Parameter_k__BackingField", ty:
-// "::System::Linq::Expressions::ParameterExpression*", modifiers: "", def_value: Some("nullptr") }]
+// "::System::Linq::Expressions::ParameterExpression*", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Linq::Expressions::Interpreter::LocalDefinition::LocalDefinition(int32_t _Index_k__BackingField,
                                                                                      ::System::Linq::Expressions::ParameterExpression* _Parameter_k__BackingField) noexcept {
   this->_Index_k__BackingField = _Index_k__BackingField;

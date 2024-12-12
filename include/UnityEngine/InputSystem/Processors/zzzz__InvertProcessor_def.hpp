@@ -16,23 +16,22 @@ class InvertProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertProcessor);
-// Type: UnityEngine.InputSystem.Processors::InvertProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.InputSystem.InputProcessor`1<TValue>
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Processors::InvertProcessor*
+// CS Name: UnityEngine.InputSystem.Processors.InvertProcessor
 class CORDL_TYPE InvertProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::InvertProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x45b6080, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x4617394, size 0x8, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x45b6088, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x461739c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x45b60c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x46173dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -50,7 +49,7 @@ public:
   InvertProcessor(InvertProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6989 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

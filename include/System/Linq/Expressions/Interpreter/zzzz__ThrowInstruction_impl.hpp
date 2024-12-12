@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ThrowInstruction::*)(bool, bool)>(
     &::System::Linq::Expressions::Interpreter::ThrowInstruction::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4062e14;
+  constexpr static std::size_t addrs = 0x40c4128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ThrowInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ThrowInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4062e44;
+  constexpr static std::size_t addrs = 0x40c4158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ThrowInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ThrowInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062e84;
+  constexpr static std::size_t addrs = 0x40c4198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ThrowInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::ThrowInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4062e8c;
+  constexpr static std::size_t addrs = 0x40c41a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::ThrowInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::ThrowInstruction::Run)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4062e94;
+  constexpr static std::size_t addrs = 0x40c41a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::ThrowInstruction::WrapThrownObject)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4062f1c;
+  constexpr static std::size_t addrs = 0x40c4230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,9 +159,6 @@ inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* System::Linq:
   return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::ThrowInstruction*, "VoidRethrow",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ThrowInstruction*>::get>();
 }
-inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* System::Linq::Expressions::Interpreter::ThrowInstruction::New_ctor(bool hasResult, bool isRethrow) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ThrowInstruction*>(hasResult, isRethrow));
-}
 inline void System::Linq::Expressions::Interpreter::ThrowInstruction::_ctor(bool hasResult, bool isRethrow) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ThrowInstruction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -197,6 +194,9 @@ inline ::System::Exception* System::Linq::Expressions::Interpreter::ThrowInstruc
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ThrowInstruction*>::get(), "WrapThrownObject",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, thrown);
+}
+inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* System::Linq::Expressions::Interpreter::ThrowInstruction::New_ctor(bool hasResult, bool isRethrow) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ThrowInstruction*>(hasResult, isRethrow));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ThrowInstruction::ThrowInstruction() {}

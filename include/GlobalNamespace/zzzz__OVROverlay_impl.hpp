@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVROverlay.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
-#include "GlobalNamespace/zzzz__OVROverlay_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
@@ -27,143 +26,143 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape::__OVROverlay__OverlayShape(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape::OVROverlay_OverlayShape(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape::__OVROverlay__OverlayShape() {}
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::Quad{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::Cylinder{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::Cubemap{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::OffcenterCubemap{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::Equirect{ static_cast<int32_t>(0x5) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::ReconstructionPassthrough{ static_cast<int32_t>(0x7) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::SurfaceProjectedPassthrough{ static_cast<int32_t>(0x8) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::Fisheye{ static_cast<int32_t>(0x9) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::KeyboardHandsPassthrough{ static_cast<int32_t>(0xa) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape GlobalNamespace::__OVROverlay__OverlayShape::KeyboardMaskedHandsPassthrough{ static_cast<int32_t>(0xb) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape::OVROverlay_OverlayShape() {}
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Quad{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Cylinder{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Cubemap{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::OffcenterCubemap{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Equirect{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::ReconstructionPassthrough{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::SurfaceProjectedPassthrough{ static_cast<int32_t>(0x8) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::Fisheye{ static_cast<int32_t>(0x9) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::KeyboardHandsPassthrough{ static_cast<int32_t>(0xa) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape GlobalNamespace::OVROverlay_OverlayShape::KeyboardMaskedHandsPassthrough{ static_cast<int32_t>(0xb) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType::__OVROverlay__OverlayType(int32_t value__) noexcept {
+constexpr ::GlobalNamespace::OVROverlay_OverlayType::OVROverlay_OverlayType(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType::__OVROverlay__OverlayType() {}
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType GlobalNamespace::__OVROverlay__OverlayType::None{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType GlobalNamespace::__OVROverlay__OverlayType::Underlay{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType GlobalNamespace::__OVROverlay__OverlayType::Overlay{ static_cast<int32_t>(0x2) };
-//  Writing Method size for method: ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated._ctor
+constexpr ::GlobalNamespace::OVROverlay_OverlayType::OVROverlay_OverlayType() {}
+constexpr ::GlobalNamespace::OVROverlay_OverlayType GlobalNamespace::OVROverlay_OverlayType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayType GlobalNamespace::OVROverlay_OverlayType::Underlay{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVROverlay_OverlayType GlobalNamespace::OVROverlay_OverlayType::Overlay{ static_cast<int32_t>(0x2) };
+//  Writing Method size for method: ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::*)(::System::Object*, ::System::IntPtr)>(
-    &::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::*)(::System::Object*, ::System::IntPtr)>(
+    &::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f731a0;
+  constexpr static std::size_t addrs = 0x3fd324c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated.Invoke
+//  Writing Method size for method: ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::*)()>(
-    &::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::*)()>(
+    &::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f73228;
+  constexpr static std::size_t addrs = 0x3fd32d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated.BeginInvoke
+//  Writing Method size for method: ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated.BeginInvoke
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
-    ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::*)(::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::BeginInvoke)> {
+    ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::*)(::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f7323c;
+  constexpr static std::size_t addrs = 0x3fd32e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 14));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated.EndInvoke
+//  Writing Method size for method: ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated.EndInvoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::*)(::System::IAsyncResult*)>(
-    &::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::EndInvoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::*)(::System::IAsyncResult*)>(
+    &::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f7325c;
+  constexpr static std::size_t addrs = 0x3fd3308;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 15));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 15));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated* GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>(object, method));
-}
-inline void GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::Invoke() {
+inline void GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::Invoke() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::IAsyncResult* GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object) {
+inline ::System::IAsyncResult* GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, callback, object);
 }
-inline void GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::EndInvoke(::System::IAsyncResult* result) {
+inline void GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::EndInvoke(::System::IAsyncResult* result) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*>::get(), 15)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
 }
+inline ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated* GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated::__OVROverlay__ExternalSurfaceObjectCreated() {}
-// Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "appTexturePtr", ty: "::System::IntPtr",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>,::Array<::UnityW<::UnityEngine::Texture>>*>", modifiers: "", def_value:
-// Some("nullptr") }, CppParam { name: "swapChainPtr", ty: "::ArrayW<::System::IntPtr,::Array<::System::IntPtr>*>", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::GlobalNamespace::__OVROverlay__LayerTexture::__OVROverlay__LayerTexture(::UnityW<::UnityEngine::Texture> appTexture, ::System::IntPtr appTexturePtr,
-                                                                                    ::ArrayW<::UnityW<::UnityEngine::Texture>, ::Array<::UnityW<::UnityEngine::Texture>>*> swapChain,
-                                                                                    ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> swapChainPtr) noexcept {
+constexpr ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated::OVROverlay_ExternalSurfaceObjectCreated() {}
+// Ctor Parameters [CppParam { name: "appTexture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: Some("{}") }, CppParam { name: "appTexturePtr", ty: "::System::IntPtr", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "swapChain", ty: "::ArrayW<::UnityW<::UnityEngine::Texture>,::Array<::UnityW<::UnityEngine::Texture>>*>", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "swapChainPtr", ty: "::ArrayW<::System::IntPtr,::Array<::System::IntPtr>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVROverlay_LayerTexture::OVROverlay_LayerTexture(::UnityW<::UnityEngine::Texture> appTexture, ::System::IntPtr appTexturePtr,
+                                                                              ::ArrayW<::UnityW<::UnityEngine::Texture>, ::Array<::UnityW<::UnityEngine::Texture>>*> swapChain,
+                                                                              ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> swapChainPtr) noexcept {
   this->appTexture = appTexture;
   this->appTexturePtr = appTexturePtr;
   this->swapChain = swapChain;
   this->swapChainPtr = swapChainPtr;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__OVROverlay__LayerTexture::__OVROverlay__LayerTexture() {}
+constexpr ::GlobalNamespace::OVROverlay_LayerTexture::OVROverlay_LayerTexture() {}
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.get_previewInEditor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::get_previewInEditor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f6f248;
+  constexpr static std::size_t addrs = 0x3fcf2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_previewInEditor",
@@ -176,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(bool)>(&::GlobalNamespace::OVROverlay::set_previewInEditor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3f6f250;
+  constexpr static std::size_t addrs = 0x3fcf2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(::UnityEngine::Texture*, ::System::IntPtr, ::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::OVROverlay::OverrideOverlayTextureInfo)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f6f26c;
+  constexpr static std::size_t addrs = 0x3fcf318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::get_layerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f6f328;
+  constexpr static std::size_t addrs = 0x3fcf3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_layerId",
@@ -220,7 +219,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(int32_t)>(&::GlobalNamespace::OVROverlay::set_layerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f6f330;
+  constexpr static std::size_t addrs = 0x3fcf3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,10 +231,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.get_layout
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__LayerLayout (::GlobalNamespace::OVROverlay::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_LayerLayout (::GlobalNamespace::OVROverlay::*)()>(
     &::GlobalNamespace::OVROverlay::get_layout)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3f6f338;
+  constexpr static std::size_t addrs = 0x3fcf3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_layout",
@@ -248,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::get_texturesPerStage)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f6f404;
+  constexpr static std::size_t addrs = 0x3fcf4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_texturesPerStage",
@@ -259,14 +258,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.NeedsTexturesForShape
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVROverlay__OverlayShape)>(&::GlobalNamespace::OVROverlay::NeedsTexturesForShape)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVROverlay_OverlayShape)>(&::GlobalNamespace::OVROverlay::NeedsTexturesForShape)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f6f420;
+  constexpr static std::size_t addrs = 0x3fcf4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "NeedsTexturesForShape", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVROverlay__OverlayShape>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get() })));
     return ___internal_method;
   }
 };
@@ -274,35 +273,35 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(
-    int32_t, int32_t, ::GlobalNamespace::__OVRPlugin__EyeTextureFormat, int32_t, ::GlobalNamespace::__OVRPlugin__Sizei, ::GlobalNamespace::__OVRPlugin__OverlayShape)>(
+    int32_t, int32_t, ::GlobalNamespace::OVRPlugin_EyeTextureFormat, int32_t, ::GlobalNamespace::OVRPlugin_Sizei, ::GlobalNamespace::OVRPlugin_OverlayShape)>(
     &::GlobalNamespace::OVROverlay::CreateLayer)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x3f6f4d8;
+  constexpr static std::size_t addrs = 0x3fcf584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "CreateLayer", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__EyeTextureFormat>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_EyeTextureFormat>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__OverlayShape>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_OverlayShape>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.CreateLayerTextures
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(bool, ::GlobalNamespace::__OVRPlugin__Sizei, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(bool, ::GlobalNamespace::OVRPlugin_Sizei, bool)>(
     &::GlobalNamespace::OVROverlay::CreateLayerTextures)> {
   constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x3f6f8f4;
+  constexpr static std::size_t addrs = 0x3fcf9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "CreateLayerTextures", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -312,7 +311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::DestroyLayerTextures)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3f6fe0c;
+  constexpr static std::size_t addrs = 0x3fcfeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "DestroyLayerTextures",
@@ -325,7 +324,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::DestroyLayer)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3f6ff30;
+  constexpr static std::size_t addrs = 0x3fcffdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "DestroyLayer",
@@ -339,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OVROverlay::*)(::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::Rect)>(&::GlobalNamespace::OVROverlay::SetSrcDestRects)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f701bc;
+  constexpr static std::size_t addrs = 0x3fd0268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::UpdateTextureRectMatrix)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3f701dc;
+  constexpr static std::size_t addrs = 0x3fd0288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "UpdateTextureRectMatrix",
@@ -369,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(::UnityEngine::Vector4, ::UnityEngine::Vector4)>(
     &::GlobalNamespace::OVROverlay::SetPerLayerColorScaleAndOffset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f70388;
+  constexpr static std::size_t addrs = 0x3fd0434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -384,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::LatchLayerTextures)> {
   constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3f7039c;
+  constexpr static std::size_t addrs = 0x3fd0448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "LatchLayerTextures",
@@ -395,10 +394,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.GetCurrentLayerDesc
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRPlugin__LayerDesc (::GlobalNamespace::OVROverlay::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_LayerDesc (::GlobalNamespace::OVROverlay::*)()>(
     &::GlobalNamespace::OVROverlay::GetCurrentLayerDesc)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3f707cc;
+  constexpr static std::size_t addrs = 0x3fd0878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "GetCurrentLayerDesc",
@@ -411,7 +410,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::GlobalNamespace::OVROverlay::*)(int32_t)>(&::GlobalNamespace::OVROverlay::GetBlitRect)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f70c9c;
+  constexpr static std::size_t addrs = 0x3fd0d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -426,7 +425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, ::UnityEngine::Material*, ::UnityEngine::Rect)>(&::GlobalNamespace::OVROverlay::BlitSubImage)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x3f70d04;
+  constexpr static std::size_t addrs = 0x3fd0db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -440,16 +439,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.PopulateLayer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(int32_t, bool, ::GlobalNamespace::__OVRPlugin__Sizei, int32_t, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(int32_t, bool, ::GlobalNamespace::OVRPlugin_Sizei, int32_t, int32_t)>(
     &::GlobalNamespace::OVROverlay::PopulateLayer)> {
   constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x3f70f54;
+  constexpr static std::size_t addrs = 0x3fd1000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "PopulateLayer", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -460,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::GlobalNamespace::OVROverlay::*)(bool, bool, bool, ::GlobalNamespace::OVRPose, ::UnityEngine::Vector3, int32_t)>(&::GlobalNamespace::OVROverlay::SubmitLayer)> {
   constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3f71628;
+  constexpr static std::size_t addrs = 0x3fd16d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -477,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::SetupEditorPreview)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f6f268;
+  constexpr static std::size_t addrs = 0x3fcf314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "SetupEditorPreview",
@@ -488,14 +487,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.IsPassthroughShape
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__OVROverlay__OverlayShape)>(&::GlobalNamespace::OVROverlay::IsPassthroughShape)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVROverlay_OverlayShape)>(&::GlobalNamespace::OVROverlay::IsPassthroughShape)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6f480;
+  constexpr static std::size_t addrs = 0x3fcf52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "IsPassthroughShape", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVROverlay__OverlayShape>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get() })));
     return ___internal_method;
   }
 };
@@ -504,7 +503,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::Awake)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3f71a68;
+  constexpr static std::size_t addrs = 0x3fd1b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "Awake",
@@ -517,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::OVROverlay::get_OpenVROverlayKey)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f71d7c;
+  constexpr static std::size_t addrs = 0x3fd1e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_OpenVROverlayKey",
@@ -530,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::OnEnable)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f71e1c;
+  constexpr static std::size_t addrs = 0x3fd1ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "OnEnable",
@@ -543,7 +542,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::InitOVROverlay)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3f71e8c;
+  constexpr static std::size_t addrs = 0x3fd1f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "InitOVROverlay",
@@ -556,7 +555,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::OnDisable)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3f71ff8;
+  constexpr static std::size_t addrs = 0x3fd20a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "OnDisable",
@@ -569,7 +568,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3f7211c;
+  constexpr static std::size_t addrs = 0x3fd21c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "OnDestroy",
@@ -580,34 +579,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.ComputePoseAndScale
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(ByRef<::GlobalNamespace::OVRPose>, ByRef<::UnityEngine::Vector3>, ByRef<bool>,
-                                                                                                                          ByRef<bool>)>(&::GlobalNamespace::OVROverlay::ComputePoseAndScale)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(
+    ::ByRef<::GlobalNamespace::OVRPose>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<bool>, ::ByRef<bool>)>(&::GlobalNamespace::OVROverlay::ComputePoseAndScale)> {
   constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x3f72134;
+  constexpr static std::size_t addrs = 0x3fd21e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputePoseAndScale", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::OVRPose>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputePoseAndScale", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRPose>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVROverlay.ComputeSubmit
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::GlobalNamespace::OVROverlay::*)(ByRef<::GlobalNamespace::OVRPose>, ByRef<::UnityEngine::Vector3>, ByRef<bool>, ByRef<bool>)>(&::GlobalNamespace::OVROverlay::ComputeSubmit)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVROverlay::*)(
+    ::ByRef<::GlobalNamespace::OVRPose>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<bool>, ::ByRef<bool>)>(&::GlobalNamespace::OVROverlay::ComputeSubmit)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3f724a8;
+  constexpr static std::size_t addrs = 0x3fd2554;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputeSubmit", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::OVRPose>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputeSubmit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRPose>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -617,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)(::UnityEngine::Vector3, ::GlobalNamespace::OVRPose)>(
     &::GlobalNamespace::OVROverlay::OpenVROverlayUpdate)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3f72758;
+  constexpr static std::size_t addrs = 0x3fd2804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -632,7 +633,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::LateUpdate)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x3f72a4c;
+  constexpr static std::size_t addrs = 0x3fd2af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "LateUpdate",
@@ -645,7 +646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlay::*)()>(&::GlobalNamespace::OVROverlay::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3f72fb0;
+  constexpr static std::size_t addrs = 0x3fd305c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), ".ctor",
@@ -653,15 +654,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayType() {
+constexpr ::GlobalNamespace::OVROverlay_OverlayType& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayType;
 }
-constexpr ::GlobalNamespace::__OVROverlay__OverlayType const& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayType() const {
+constexpr ::GlobalNamespace::OVROverlay_OverlayType const& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayType;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_currentOverlayType(::GlobalNamespace::__OVROverlay__OverlayType value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_currentOverlayType(::GlobalNamespace::OVROverlay_OverlayType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentOverlayType = value;
 }
@@ -749,15 +750,15 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_invertTextureRe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___invertTextureRects = value;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf& GlobalNamespace::OVROverlay::__cordl_internal_get_textureRectMatrix() {
+constexpr ::GlobalNamespace::OVRPlugin_TextureRectMatrixf& GlobalNamespace::OVROverlay::__cordl_internal_get_textureRectMatrix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRectMatrix;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf const& GlobalNamespace::OVROverlay::__cordl_internal_get_textureRectMatrix() const {
+constexpr ::GlobalNamespace::OVRPlugin_TextureRectMatrixf const& GlobalNamespace::OVROverlay::__cordl_internal_get_textureRectMatrix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textureRectMatrix;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_textureRectMatrix(::GlobalNamespace::__OVRPlugin__TextureRectMatrixf value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_textureRectMatrix(::GlobalNamespace::OVRPlugin_TextureRectMatrixf value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___textureRectMatrix = value;
 }
@@ -917,39 +918,39 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_noDepthBufferTe
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___noDepthBufferTesting = value;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__EyeTextureFormat& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextureFormat() {
+constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextureFormat() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextureFormat;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__EyeTextureFormat const& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextureFormat() const {
+constexpr ::GlobalNamespace::OVRPlugin_EyeTextureFormat const& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextureFormat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextureFormat;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerTextureFormat(::GlobalNamespace::__OVRPlugin__EyeTextureFormat value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerTextureFormat(::GlobalNamespace::OVRPlugin_EyeTextureFormat value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerTextureFormat = value;
 }
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayShape() {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayShape() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayShape;
 }
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayShape() const {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape const& GlobalNamespace::OVROverlay::__cordl_internal_get_currentOverlayShape() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentOverlayShape;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_currentOverlayShape(::GlobalNamespace::__OVROverlay__OverlayShape value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_currentOverlayShape(::GlobalNamespace::OVROverlay_OverlayShape value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentOverlayShape = value;
 }
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape& GlobalNamespace::OVROverlay::__cordl_internal_get_prevOverlayShape() {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape& GlobalNamespace::OVROverlay::__cordl_internal_get_prevOverlayShape() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevOverlayShape;
 }
-constexpr ::GlobalNamespace::__OVROverlay__OverlayShape const& GlobalNamespace::OVROverlay::__cordl_internal_get_prevOverlayShape() const {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape const& GlobalNamespace::OVROverlay::__cordl_internal_get_prevOverlayShape() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prevOverlayShape;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_prevOverlayShape(::GlobalNamespace::__OVROverlay__OverlayShape value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_prevOverlayShape(::GlobalNamespace::OVROverlay_OverlayShape value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___prevOverlayShape = value;
 }
@@ -1073,16 +1074,15 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_externalSurface
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___externalSurfaceObject = value;
 }
-constexpr ::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*& GlobalNamespace::OVROverlay::__cordl_internal_get_externalSurfaceObjectCreated() {
+constexpr ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated*& GlobalNamespace::OVROverlay::__cordl_internal_get_externalSurfaceObjectCreated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObjectCreated;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated*> const&
-GlobalNamespace::OVROverlay::__cordl_internal_get_externalSurfaceObjectCreated() const {
+constexpr ::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated* const& GlobalNamespace::OVROverlay::__cordl_internal_get_externalSurfaceObjectCreated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___externalSurfaceObjectCreated;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_externalSurfaceObjectCreated(::GlobalNamespace::__OVROverlay__ExternalSurfaceObjectCreated* value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_externalSurfaceObjectCreated(::GlobalNamespace::OVROverlay_ExternalSurfaceObjectCreated* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___externalSurfaceObjectCreated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1110,28 +1110,27 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set__layerId_k__Bac
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layerId_k__BackingField = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*>& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextures() {
+constexpr ::ArrayW<::GlobalNamespace::OVROverlay_LayerTexture, ::Array<::GlobalNamespace::OVROverlay_LayerTexture>*>& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextures() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextures;
 }
-constexpr ::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*> const&
-GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextures() const {
+constexpr ::ArrayW<::GlobalNamespace::OVROverlay_LayerTexture, ::Array<::GlobalNamespace::OVROverlay_LayerTexture>*> const& GlobalNamespace::OVROverlay::__cordl_internal_get_layerTextures() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerTextures;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerTextures(::ArrayW<::GlobalNamespace::__OVROverlay__LayerTexture, ::Array<::GlobalNamespace::__OVROverlay__LayerTexture>*> value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerTextures(::ArrayW<::GlobalNamespace::OVROverlay_LayerTexture, ::Array<::GlobalNamespace::OVROverlay_LayerTexture>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___layerTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRPlugin__LayerDesc& GlobalNamespace::OVROverlay::__cordl_internal_get_layerDesc() {
+constexpr ::GlobalNamespace::OVRPlugin_LayerDesc& GlobalNamespace::OVROverlay::__cordl_internal_get_layerDesc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerDesc;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__LayerDesc const& GlobalNamespace::OVROverlay::__cordl_internal_get_layerDesc() const {
+constexpr ::GlobalNamespace::OVRPlugin_LayerDesc const& GlobalNamespace::OVROverlay::__cordl_internal_get_layerDesc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___layerDesc;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerDesc(::GlobalNamespace::__OVRPlugin__LayerDesc value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_layerDesc(::GlobalNamespace::OVRPlugin_LayerDesc value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___layerDesc = value;
 }
@@ -1255,15 +1254,15 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_OpenVRMouseScal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___OpenVRMouseScale = value;
 }
-constexpr ::GlobalNamespace::__OVRManager__XRDevice& GlobalNamespace::OVROverlay::__cordl_internal_get_constructedOverlayXRDevice() {
+constexpr ::GlobalNamespace::OVRManager_XRDevice& GlobalNamespace::OVROverlay::__cordl_internal_get_constructedOverlayXRDevice() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructedOverlayXRDevice;
 }
-constexpr ::GlobalNamespace::__OVRManager__XRDevice const& GlobalNamespace::OVROverlay::__cordl_internal_get_constructedOverlayXRDevice() const {
+constexpr ::GlobalNamespace::OVRManager_XRDevice const& GlobalNamespace::OVROverlay::__cordl_internal_get_constructedOverlayXRDevice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___constructedOverlayXRDevice;
 }
-constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_constructedOverlayXRDevice(::GlobalNamespace::__OVRManager__XRDevice value) {
+constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_constructedOverlayXRDevice(::GlobalNamespace::OVRManager_XRDevice value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___constructedOverlayXRDevice = value;
 }
@@ -1279,13 +1278,13 @@ constexpr void GlobalNamespace::OVROverlay::__cordl_internal_set_xrDeviceConstru
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xrDeviceConstructed = value;
 }
-inline void GlobalNamespace::OVROverlay::setStaticF_instances(::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>, "instances",
+inline void GlobalNamespace::OVROverlay::setStaticF_instances(::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>, "instances",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get>(
-      std::forward<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>>(value));
+      std::forward<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>>(value));
 }
-inline ::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*> GlobalNamespace::OVROverlay::getStaticF_instances() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityW<::GlobalNamespace::OVROverlay>, ::Array<::UnityW<::GlobalNamespace::OVROverlay>>*>, "instances",
+inline ::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*> GlobalNamespace::OVROverlay::getStaticF_instances() {
+  return ::cordl_internals::getStaticField<::ArrayW<::GlobalNamespace::OVROverlay*, ::Array<::GlobalNamespace::OVROverlay*>*>, "instances",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get>();
 }
 inline void GlobalNamespace::OVROverlay::setStaticF_tex2DMaterial(::UnityW<::UnityEngine::Material> value) {
@@ -1332,38 +1331,38 @@ inline void GlobalNamespace::OVROverlay::set_layerId(int32_t value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__OVRPlugin__LayerLayout GlobalNamespace::OVROverlay::get_layout() {
+inline ::GlobalNamespace::OVRPlugin_LayerLayout GlobalNamespace::OVROverlay::get_layout() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_layout",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRPlugin__LayerLayout, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_LayerLayout, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::OVROverlay::get_texturesPerStage() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "get_texturesPerStage",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVROverlay::NeedsTexturesForShape(::GlobalNamespace::__OVROverlay__OverlayShape shape) {
+inline bool GlobalNamespace::OVROverlay::NeedsTexturesForShape(::GlobalNamespace::OVROverlay_OverlayShape shape) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "NeedsTexturesForShape", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVROverlay__OverlayShape>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, shape);
 }
-inline bool GlobalNamespace::OVROverlay::CreateLayer(int32_t mipLevels, int32_t sampleCount, ::GlobalNamespace::__OVRPlugin__EyeTextureFormat etFormat, int32_t flags,
-                                                     ::GlobalNamespace::__OVRPlugin__Sizei size, ::GlobalNamespace::__OVRPlugin__OverlayShape shape) {
+inline bool GlobalNamespace::OVROverlay::CreateLayer(int32_t mipLevels, int32_t sampleCount, ::GlobalNamespace::OVRPlugin_EyeTextureFormat etFormat, int32_t flags,
+                                                     ::GlobalNamespace::OVRPlugin_Sizei size, ::GlobalNamespace::OVRPlugin_OverlayShape shape) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "CreateLayer", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__EyeTextureFormat>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_EyeTextureFormat>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__OverlayShape>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_OverlayShape>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mipLevels, sampleCount, etFormat, flags, size, shape);
 }
-inline bool GlobalNamespace::OVROverlay::CreateLayerTextures(bool useMipmaps, ::GlobalNamespace::__OVRPlugin__Sizei size, bool isHdr) {
+inline bool GlobalNamespace::OVROverlay::CreateLayerTextures(bool useMipmaps, ::GlobalNamespace::OVRPlugin_Sizei size, bool isHdr) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "CreateLayerTextures", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, useMipmaps, size, isHdr);
 }
@@ -1402,10 +1401,10 @@ inline bool GlobalNamespace::OVROverlay::LatchLayerTextures() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__OVRPlugin__LayerDesc GlobalNamespace::OVROverlay::GetCurrentLayerDesc() {
+inline ::GlobalNamespace::OVRPlugin_LayerDesc GlobalNamespace::OVROverlay::GetCurrentLayerDesc() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "GetCurrentLayerDesc",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__OVRPlugin__LayerDesc, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_LayerDesc, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Rect GlobalNamespace::OVROverlay::GetBlitRect(int32_t eyeId) {
   static auto* ___internal_method =
@@ -1422,11 +1421,11 @@ inline void GlobalNamespace::OVROverlay::BlitSubImage(::UnityEngine::Texture* sr
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dst, mat, rect);
 }
-inline bool GlobalNamespace::OVROverlay::PopulateLayer(int32_t mipLevels, bool isHdr, ::GlobalNamespace::__OVRPlugin__Sizei size, int32_t sampleCount, int32_t stage) {
+inline bool GlobalNamespace::OVROverlay::PopulateLayer(int32_t mipLevels, bool isHdr, ::GlobalNamespace::OVRPlugin_Sizei size, int32_t sampleCount, int32_t stage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "PopulateLayer", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVRPlugin__Sizei>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_Sizei>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, mipLevels, isHdr, size, sampleCount, stage);
 }
@@ -1444,10 +1443,10 @@ inline void GlobalNamespace::OVROverlay::SetupEditorPreview() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVROverlay::IsPassthroughShape(::GlobalNamespace::__OVROverlay__OverlayShape shape) {
+inline bool GlobalNamespace::OVROverlay::IsPassthroughShape(::GlobalNamespace::OVROverlay_OverlayShape shape) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "IsPassthroughShape", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__OVROverlay__OverlayShape>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, shape);
 }
 inline void GlobalNamespace::OVROverlay::Awake() {
@@ -1480,20 +1479,20 @@ inline void GlobalNamespace::OVROverlay::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVROverlay::ComputePoseAndScale(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked) {
+inline void GlobalNamespace::OVROverlay::ComputePoseAndScale(::ByRef<::GlobalNamespace::OVRPose> pose, ::ByRef<::UnityEngine::Vector3> scale, ::ByRef<bool> overlay, ::ByRef<bool> headLocked) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputePoseAndScale", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::OVRPose>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRPose>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pose, scale, overlay, headLocked);
 }
-inline bool GlobalNamespace::OVROverlay::ComputeSubmit(ByRef<::GlobalNamespace::OVRPose> pose, ByRef<::UnityEngine::Vector3> scale, ByRef<bool> overlay, ByRef<bool> headLocked) {
+inline bool GlobalNamespace::OVROverlay::ComputeSubmit(::ByRef<::GlobalNamespace::OVRPose> pose, ::ByRef<::UnityEngine::Vector3> scale, ::ByRef<bool> overlay, ::ByRef<bool> headLocked) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), "ComputeSubmit", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::OVRPose>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRPose>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pose, scale, overlay, headLocked);
 }
 inline void GlobalNamespace::OVROverlay::OpenVROverlayUpdate(::UnityEngine::Vector3 scale, ::GlobalNamespace::OVRPose pose) {
@@ -1508,13 +1507,13 @@ inline void GlobalNamespace::OVROverlay::LateUpdate() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVROverlay* GlobalNamespace::OVROverlay::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVROverlay*>());
-}
 inline void GlobalNamespace::OVROverlay::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlay*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVROverlay* GlobalNamespace::OVROverlay::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVROverlay*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVROverlay::OVROverlay() {}

@@ -11,11 +11,10 @@ class JsonExtensionDataAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
-// Type: Newtonsoft.Json::JsonExtensionDataAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace Newtonsoft::Json {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
+// CS Name: Newtonsoft.Json.JsonExtensionDataAttribute
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -43,19 +42,19 @@ public:
 
   constexpr void __cordl_internal_set__WriteData_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3e1a98c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e7aa38, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReadData, addr 0x3e1a978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReadData, addr 0x3e7aa24, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method get_WriteData, addr 0x3e1a964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WriteData, addr 0x3e7aa10, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_ReadData, addr 0x3e1a980, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ReadData, addr 0x3e7aa2c, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
-  /// @brief Method set_WriteData, addr 0x3e1a96c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WriteData, addr 0x3e7aa18, size 0xc, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
 protected:
@@ -72,23 +71,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonExtensionDataAttribute(JsonExtensionDataAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10065 };
+
   /// @brief Field <WriteData>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WriteData_k__BackingField;
 
   /// @brief Field <ReadData>k__BackingField, offset: 0x11, size: 0x1, def value: None
   bool ____ReadData_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10040 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonExtensionDataAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::JsonExtensionDataAttribute, ____WriteData_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::JsonExtensionDataAttribute, ____ReadData_k__BackingField) == 0x11, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonExtensionDataAttribute, 0x18>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonExtensionDataAttribute);

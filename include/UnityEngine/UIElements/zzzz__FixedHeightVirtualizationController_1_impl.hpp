@@ -16,11 +16,6 @@ template <typename T> inline bool UnityEngine::UIElements::FixedHeightVirtualiza
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, i);
 }
-template <typename T>
-inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*
-UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(collectionView));
-}
 template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -63,8 +58,6 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scrollOffset);
 }
-/// @param activeItemIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
-/// @param scrollViewIndex: int32_t (default: static_cast<int32_t>(0xffffffff))
 template <typename T> inline T UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::GetOrMakeItemAtIndex(int32_t activeItemIndex, int32_t scrollViewIndex) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -76,6 +69,11 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropIndex);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*
+UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>(collectionView));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::FixedHeightVirtualizationController_1() {}

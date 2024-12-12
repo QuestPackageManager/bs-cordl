@@ -19,13 +19,12 @@ template <typename T> class TransitionEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::TransitionEventBase_1);
-// Type: UnityEngine.UIElements::TransitionEventBase`1
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.StylePropertyNameCollection
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.TransitionEventBase`1<T>
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -86,14 +85,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5934 };
+
   /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;
 
   /// @brief Field <elapsedTime>k__BackingField, offset: 0x90, size: 0x8, def value: None
   double_t ____elapsedTime_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MethodReturnDictionary)
 namespace System::Runtime::Remoting::Messaging {
@@ -16,23 +15,22 @@ class MethodReturnDictionary;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MethodReturnDictionary);
-// Type: System.Runtime.Remoting.Messaging::MethodReturnDictionary
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.Remoting.Messaging.MessageDictionary
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Messaging::MethodReturnDictionary*
+// CS Name: System.Runtime.Remoting.Messaging.MethodReturnDictionary
 class CORDL_TYPE MethodReturnDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
   // Declarations
   /// @brief Field InternalExceptionKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalExceptionKeys, put = setStaticF_InternalExceptionKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalExceptionKeys;
+  __declspec(property(get = getStaticF_InternalExceptionKeys, put = setStaticF_InternalExceptionKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalExceptionKeys;
 
   /// @brief Field InternalReturnKeys, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_InternalReturnKeys, put = setStaticF_InternalReturnKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalReturnKeys;
+  __declspec(property(get = getStaticF_InternalReturnKeys, put = setStaticF_InternalReturnKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalReturnKeys;
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor, addr 0x3c8ee78, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ceefec, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalExceptionKeys();

@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MonotonicTimeProvider.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MonotonicTimeProvider_def.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MonotonicTimeProvider._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22a4474;
+  constexpr static std::size_t addrs = 0x22d7760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::GetTimeMs)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22a4604;
+  constexpr static std::size_t addrs = 0x22d78f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), "GetTimeMs",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::GetTicks)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22a4630;
+  constexpr static std::size_t addrs = 0x22d791c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), "GetTicks",
@@ -43,14 +43,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::BGNet::Core::ITimeProvider"
-constexpr GlobalNamespace::MonotonicTimeProvider::operator ::BGNet::Core::ITimeProvider*() noexcept {
-  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::BGNet::Core::ITimeProvider"
-constexpr ::BGNet::Core::ITimeProvider* GlobalNamespace::MonotonicTimeProvider::i___BGNet__Core__ITimeProvider() noexcept {
-  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
-}
 constexpr double_t& GlobalNamespace::MonotonicTimeProvider::__cordl_internal_get__timeSpanTicksPerStopwatchTick() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeSpanTicksPerStopwatchTick;
@@ -79,7 +71,7 @@ constexpr ::System::Diagnostics::Stopwatch*& GlobalNamespace::MonotonicTimeProvi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& GlobalNamespace::MonotonicTimeProvider::__cordl_internal_get__stopwatch() const {
+constexpr ::System::Diagnostics::Stopwatch* const& GlobalNamespace::MonotonicTimeProvider::__cordl_internal_get__stopwatch() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stopwatch;
 }
@@ -95,9 +87,6 @@ inline ::GlobalNamespace::MonotonicTimeProvider* GlobalNamespace::MonotonicTimeP
   return ::cordl_internals::getStaticField<::GlobalNamespace::MonotonicTimeProvider*, "instance",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get>();
 }
-inline ::GlobalNamespace::MonotonicTimeProvider* GlobalNamespace::MonotonicTimeProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MonotonicTimeProvider*>());
-}
 inline void GlobalNamespace::MonotonicTimeProvider::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -112,6 +101,17 @@ inline int64_t GlobalNamespace::MonotonicTimeProvider::GetTicks() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), "GetTicks",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MonotonicTimeProvider* GlobalNamespace::MonotonicTimeProvider::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MonotonicTimeProvider*>());
+}
+/// @brief Convert operator to "::BGNet::Core::ITimeProvider"
+constexpr GlobalNamespace::MonotonicTimeProvider::operator ::BGNet::Core::ITimeProvider*() noexcept {
+  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::BGNet::Core::ITimeProvider"
+constexpr ::BGNet::Core::ITimeProvider* GlobalNamespace::MonotonicTimeProvider::i___BGNet__Core__ITimeProvider() noexcept {
+  return static_cast<::BGNet::Core::ITimeProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MonotonicTimeProvider::MonotonicTimeProvider() {}

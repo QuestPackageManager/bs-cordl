@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::_ctor)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x22c24b8;
+  constexpr static std::size_t addrs = 0x22f57a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::OobCertHash* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::GetInstance)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22c2808;
+  constexpr static std::size_t addrs = 0x22f5af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::get_HashAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c2984;
+  constexpr static std::size_t addrs = 0x22f5c70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::CertId* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::get_CertID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c298c;
+  constexpr static std::size_t addrs = 0x22f5c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::OobCertHash::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::OobCertHash::ToAsn1Object)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22c2994;
+  constexpr static std::size_t addrs = 0x22f5c80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& Org::BouncyCast
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashAlg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_hashAlg() const {
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_hashAlg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashAlg;
 }
@@ -99,7 +99,7 @@ constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId*& Org::BouncyCastle::Asn1::Cmp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertId*> const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_certId() const {
+constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId* const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_certId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certId;
 }
@@ -111,16 +111,13 @@ constexpr ::Org::BouncyCastle::Asn1::DerBitString*& Org::BouncyCastle::Asn1::Cmp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashVal;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_hashVal() const {
+constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_get_hashVal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___hashVal;
 }
 constexpr void Org::BouncyCastle::Asn1::Cmp::OobCertHash::__cordl_internal_set_hashVal(::Org::BouncyCastle::Asn1::DerBitString* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___hashVal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* Org::BouncyCastle::Asn1::Cmp::OobCertHash::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::OobCertHash*>(seq));
 }
 inline void Org::BouncyCastle::Asn1::Cmp::OobCertHash::_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -148,6 +145,9 @@ inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::Cmp::OobC
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::OobCertHash*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* Org::BouncyCastle::Asn1::Cmp::OobCertHash::New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::OobCertHash*>(seq));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::OobCertHash::OobCertHash() {}

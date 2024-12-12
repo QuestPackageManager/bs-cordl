@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NclUtilities)
 namespace System::Net {
@@ -25,30 +24,29 @@ class NclUtilities;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NclUtilities);
-// Type: System.Net::NclUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
-// CS Name: ::System.Net::NclUtilities*
+// CS Name: System.Net.NclUtilities
 class CORDL_TYPE NclUtilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _LocalAddresses, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalAddresses, put = setStaticF__LocalAddresses)) ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> _LocalAddresses;
+  __declspec(property(get = getStaticF__LocalAddresses, put = setStaticF__LocalAddresses)) ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> _LocalAddresses;
 
   /// @brief Field _LocalAddressesLock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalAddressesLock, put = setStaticF__LocalAddressesLock)) ::System::Object* _LocalAddressesLock;
+  __declspec(property(get = getStaticF__LocalAddressesLock, put = setStaticF__LocalAddressesLock)) ::System::Object* _LocalAddressesLock;
 
   /// @brief Field _LocalDomainName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
+  __declspec(property(get = getStaticF__LocalDomainName, put = setStaticF__LocalDomainName)) ::StringW _LocalDomainName;
 
-  /// @brief Method GetLocalHost, addr 0x443e7ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetLocalHost, addr 0x449fac0, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Net::IPHostEntry* GetLocalHost();
 
-  /// @brief Method IsAddressLocal, addr 0x443e258, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsAddressLocal, addr 0x449f56c, size 0x90, virtual false, abstract: false, final false
   static inline bool IsAddressLocal(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method IsFatal, addr 0x443e198, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsFatal, addr 0x449f4ac, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsFatal(::System::Exception* exception);
 
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> getStaticF__LocalAddresses();
@@ -57,10 +55,10 @@ public:
 
   static inline ::StringW getStaticF__LocalDomainName();
 
-  /// @brief Method get_LocalAddresses, addr 0x443e2e8, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddresses, addr 0x449f5fc, size 0x4c4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_LocalAddresses();
 
-  /// @brief Method get_LocalAddressesLock, addr 0x443e7c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalAddressesLock, addr 0x449fad8, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Object* get_LocalAddressesLock();
 
   static inline void setStaticF__LocalAddresses(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
@@ -84,7 +82,7 @@ public:
   NclUtilities(NclUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9590 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

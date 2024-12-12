@@ -7,26 +7,25 @@
 //  Writing Method size for method: ::GlobalNamespace::OculusRequestExtensions.ToPlatformException
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::PlatformException* (*)(::Oculus::Platform::Models::Error*, ::GlobalNamespace::__PlatformException__ErrorType)>(
-        &::GlobalNamespace::OculusRequestExtensions::ToPlatformException)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::GlobalNamespace::PlatformException* (*)(::Oculus::Platform::Models::Error*, ::GlobalNamespace::PlatformException_ErrorType)>(&::GlobalNamespace::OculusRequestExtensions::ToPlatformException)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2243ab4;
+  constexpr static std::size_t addrs = 0x2274410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusRequestExtensions*>::get(), "ToPlatformException", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::Error*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformException__ErrorType>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformException_ErrorType>::get() })));
     return ___internal_method;
   }
 };
 inline ::GlobalNamespace::PlatformException* GlobalNamespace::OculusRequestExtensions::ToPlatformException(::Oculus::Platform::Models::Error* error,
-                                                                                                           ::GlobalNamespace::__PlatformException__ErrorType errorType) {
+                                                                                                           ::GlobalNamespace::PlatformException_ErrorType errorType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusRequestExtensions*>::get(), "ToPlatformException", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::Models::Error*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__PlatformException__ErrorType>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformException_ErrorType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlatformException*, false>(nullptr, ___internal_method, error, errorType);
 }
 // Ctor Parameters []

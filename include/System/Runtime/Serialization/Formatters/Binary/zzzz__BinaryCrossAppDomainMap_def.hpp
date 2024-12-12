@@ -15,23 +15,22 @@ class BinaryCrossAppDomainMap;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap);
-// Type: System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap*
+// CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryCrossAppDomainMap
 class CORDL_TYPE BinaryCrossAppDomainMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  /// @brief Method Dump, addr 0x3c9fac0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x3cffc34, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method Read, addr 0x3c9fa98, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x3cffc0c, size 0x28, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c9fa90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cffc04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,18 +56,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinaryCrossAppDomainMap(BinaryCrossAppDomainMap const&) = delete;
 
-  /// @brief Field crossAppDomainArrayIndex, offset: 0x10, size: 0x4, def value: None
-  int32_t ___crossAppDomainArrayIndex;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3266 };
+
+  /// @brief Field crossAppDomainArrayIndex, offset: 0x10, size: 0x4, def value: None
+  int32_t ___crossAppDomainArrayIndex;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap, ___crossAppDomainArrayIndex) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap);

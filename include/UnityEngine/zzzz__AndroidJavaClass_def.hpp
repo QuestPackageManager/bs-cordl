@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(AndroidJavaClass)
 namespace System {
 struct IntPtr;
@@ -16,11 +15,10 @@ class AndroidJavaClass;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidJavaClass);
-// Type: UnityEngine::AndroidJavaClass
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.AndroidJavaObject
 namespace UnityEngine {
 // Is value type: false
-// CS Name: ::UnityEngine::AndroidJavaClass*
+// CS Name: UnityEngine.AndroidJavaClass
 class CORDL_TYPE AndroidJavaClass : public ::UnityEngine::AndroidJavaObject {
 public:
   // Declarations
@@ -28,13 +26,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x47e6c1c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x4847f30, size 0xbc, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x47e327c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4844590, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x47e66ac, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48479c0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr jclass);
 
 protected:
@@ -52,7 +50,7 @@ public:
   AndroidJavaClass(AndroidJavaClass const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16723 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16761 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

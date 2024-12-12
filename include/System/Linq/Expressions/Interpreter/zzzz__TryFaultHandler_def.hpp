@@ -12,11 +12,10 @@ class TryFaultHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::TryFaultHandler);
-// Type: System.Linq.Expressions.Interpreter::TryFaultHandler
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
-// CS Name: ::System.Linq.Expressions.Interpreter::TryFaultHandler*
+// CS Name: System.Linq.Expressions.Interpreter.TryFaultHandler
 class CORDL_TYPE TryFaultHandler : public ::System::Object {
 public:
   // Declarations
@@ -58,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_TryStartIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x40754cc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x40d67e0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t tryStart, int32_t tryEnd, int32_t finallyStart, int32_t finallyEnd);
 
 protected:
@@ -75,6 +74,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TryFaultHandler(TryFaultHandler const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13938 };
+
   /// @brief Field TryStartIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___TryStartIndex;
 
@@ -87,14 +89,9 @@ public:
   /// @brief Field FinallyEndIndex, offset: 0x1c, size: 0x4, def value: None
   int32_t ___FinallyEndIndex;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13904 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TryFaultHandler, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler, ___TryStartIndex) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler, ___TryEndIndex) == 0x14, "Offset mismatch!");
@@ -102,6 +99,8 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler, ___FinallyStartIndex) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::TryFaultHandler, ___FinallyEndIndex) == 0x1c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::TryFaultHandler, 0x20>, "Size mismatch!");
 
 } // namespace System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::TryFaultHandler);

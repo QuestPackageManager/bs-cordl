@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MenuLightsPresetSO)
 namespace GlobalNamespace {
 class LightIdColorPair;
@@ -15,11 +14,10 @@ class MenuLightsPresetSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuLightsPresetSO);
-// Type: ::MenuLightsPresetSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MenuLightsPresetSO*
+// CS Name: MenuLightsPresetSO
 class CORDL_TYPE MenuLightsPresetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
@@ -38,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set__lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
-  /// @brief Method .ctor, addr 0x3bc73c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c274dc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lightIdColorPairs, addr 0x3bc73b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightIdColorPairs, addr 0x3c274cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> get_lightIdColorPairs();
 
-  /// @brief Method set_lightIdColorPairs, addr 0x3bc73c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightIdColorPairs, addr 0x3c274d4, size 0x8, virtual false, abstract: false, final false
   inline void set_lightIdColorPairs(::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> value);
 
 protected:
@@ -61,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MenuLightsPresetSO(MenuLightsPresetSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19221 };
+
   /// @brief Field _lightIdColorPairs, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LightIdColorPair*, ::Array<::GlobalNamespace::LightIdColorPair*>*> ____lightIdColorPairs;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuLightsPresetSO, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MenuLightsPresetSO, ____lightIdColorPairs) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuLightsPresetSO, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuLightsPresetSO);

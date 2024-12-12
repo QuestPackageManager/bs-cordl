@@ -3,15 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceManagerDiagnostics)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace UnityEngine::AddressableAssets::Utility {
 class DiagnosticInfo;
@@ -20,10 +18,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
 namespace UnityEngine::ResourceManagement {
-class ResourceManager;
+struct ResourceManager_DiagnosticEventContext;
 }
 namespace UnityEngine::ResourceManagement {
-struct __ResourceManager__DiagnosticEventContext;
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {
@@ -31,11 +29,10 @@ class ResourceManagerDiagnostics;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics);
-// Type: UnityEngine.AddressableAssets.Utility::ResourceManagerDiagnostics
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets.Utility::ResourceManagerDiagnostics*
+// CS Name: UnityEngine.AddressableAssets.Utility.ResourceManagerDiagnostics
 class CORDL_TYPE ResourceManagerDiagnostics : public ::System::Object {
 public:
   // Declarations
@@ -50,40 +47,39 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CalculateCompletedOperationHashcode, addr 0x4494830, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CalculateCompletedOperationHashcode, addr 0x44f5b44, size 0x8c, virtual false, abstract: false, final false
   inline int32_t CalculateCompletedOperationHashcode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method CalculateHashCode, addr 0x44946ec, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CalculateHashCode, addr 0x44f5a00, size 0x144, virtual false, abstract: false, final false
   inline int32_t CalculateHashCode(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method Dispose, addr 0x44950d8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x44f63ec, size 0xd8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x44948bc, size 0x44c, virtual false, abstract: false, final false
+  /// @brief Method GenerateCompletedOperationDisplayName, addr 0x44f5bd0, size 0x44c, virtual false, abstract: false, final false
   inline ::StringW GenerateCompletedOperationDisplayName(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
   static inline ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
-  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x4494d08, size 0x3d0, virtual false, abstract: false, final false
-  inline void OnResourceManagerDiagnosticEvent(::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext eventContext);
+  /// @brief Method OnResourceManagerDiagnosticEvent, addr 0x44f601c, size 0x3d0, virtual false, abstract: false, final false
+  inline void OnResourceManagerDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext eventContext);
 
-  /// @brief Method SumDependencyNameHashCodes, addr 0x44944c0, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SumDependencyNameHashCodes, addr 0x44f57d4, size 0x22c, virtual false, abstract: false, final false
   inline int32_t SumDependencyNameHashCodes(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
+
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager* const& __cordl_internal_get_m_ResourceManager() const;
 
   constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_ResourceManager() const;
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* const& __cordl_internal_get_m_cachedDiagnosticInfo() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& __cordl_internal_get_m_cachedDiagnosticInfo();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*> const&
-  __cordl_internal_get_m_cachedDiagnosticInfo() const;
 
   constexpr void __cordl_internal_set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
 
   constexpr void __cordl_internal_set_m_cachedDiagnosticInfo(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x44943d4, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44f56e8, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   /// @brief Convert to "::System::IDisposable"
@@ -103,14 +99,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResourceManagerDiagnostics(ResourceManagerDiagnostics const&) = delete;
 
-  /// @brief Field m_ResourceManager, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ResourceManagement::ResourceManager* ___m_ResourceManager;
-
-  /// @brief Field m_cachedDiagnosticInfo, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* ___m_cachedDiagnosticInfo;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16159 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16194 };
 
   /// @brief Field k_MaximumCompletedOpResultEntryLength offset 0xffffffff size 0x4
   static constexpr int32_t k_MaximumCompletedOpResultEntryLength{ static_cast<int32_t>(0x1e) };
@@ -118,14 +108,20 @@ public:
   /// @brief Field k_NumberOfCompletedOpResultEntriesToShow offset 0xffffffff size 0x4
   static constexpr int32_t k_NumberOfCompletedOpResultEntriesToShow{ static_cast<int32_t>(0x4) };
 
+  /// @brief Field m_ResourceManager, offset: 0x10, size: 0x8, def value: None
+  ::UnityEngine::ResourceManagement::ResourceManager* ___m_ResourceManager;
+
+  /// @brief Field m_cachedDiagnosticInfo, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* ___m_cachedDiagnosticInfo;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics, ___m_ResourceManager) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics, ___m_cachedDiagnosticInfo) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets::Utility
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics);

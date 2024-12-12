@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValueType)
@@ -18,11 +16,10 @@ class ValueType;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ValueType);
-// Type: System::ValueType
-// SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::ValueType*
+// CS Name: System.ValueType
 class CORDL_TYPE ValueType : public ::System::Object {
 public:
   // Declarations

@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_HAPIConstants)
 // Forward declare root types
@@ -12,11 +13,10 @@ class HEU_HAPIConstants;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIConstants);
-// Type: HoudiniEngineUnity::HEU_HAPIConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_HAPIConstants*
+// CS Name: HoudiniEngineUnity.HEU_HAPIConstants
 class CORDL_TYPE HEU_HAPIConstants : public ::System::Object {
 public:
   // Declarations
@@ -158,7 +158,7 @@ public:
   static constexpr int32_t HAPI_UV_VECTOR_SIZE{ static_cast<int32_t>(0x2) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11667 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

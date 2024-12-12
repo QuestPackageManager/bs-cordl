@@ -33,11 +33,10 @@ class UIKeyboardManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::UIKeyboardManager);
-// Type: ::UIKeyboardManager
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::UIKeyboardManager*
+// CS Name: UIKeyboardManager
 class CORDL_TYPE UIKeyboardManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -62,36 +61,36 @@ public:
 
   __declspec(property(get = get_keyboard)) ::UnityW<::HMUI::UIKeyboard> keyboard;
 
-  /// @brief Method CloseKeyboard, addr 0x3b9b690, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CloseKeyboard, addr 0x3bfd7e0, size 0x9c, virtual false, abstract: false, final false
   inline void CloseKeyboard();
 
-  /// @brief Method HandleKeyboardOkButton, addr 0x3b9b980, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method HandleKeyboardOkButton, addr 0x3bfdad0, size 0x160, virtual false, abstract: false, final false
   inline void HandleKeyboardOkButton();
 
   static inline ::GlobalNamespace::UIKeyboardManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9b3c8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x3bfd518, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b9b338, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bfd488, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b9b2a8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bfd3f8, size 0x90, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OpenKeyboardFor, addr 0x3b9b4c8, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method OpenKeyboardFor, addr 0x3bfd618, size 0x1c8, virtual false, abstract: false, final false
   inline void OpenKeyboardFor(::HMUI::InputFieldView* input);
 
-  /// @brief Method ProcessMousePress, addr 0x3b9b818, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ProcessMousePress, addr 0x3bfd968, size 0x168, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
 
-  /// @brief Method ShouldCloseKeyboard, addr 0x3b9b7c0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ShouldCloseKeyboard, addr 0x3bfd910, size 0x58, virtual false, abstract: false, final false
   inline bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
 
-  /// @brief Method Start, addr 0x3b9b1b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3bfd308, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransferKeyboardTo, addr 0x3b9b72c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TransferKeyboardTo, addr 0x3bfd87c, size 0x94, virtual false, abstract: false, final false
   inline void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
@@ -114,9 +113,9 @@ public:
 
   constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
 
-  constexpr ::GlobalNamespace::IVRInputModule*& __cordl_internal_get__vrInputModule();
+  constexpr ::GlobalNamespace::IVRInputModule* const& __cordl_internal_get__vrInputModule() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRInputModule*> const& __cordl_internal_get__vrInputModule() const;
+  constexpr ::GlobalNamespace::IVRInputModule*& __cordl_internal_get__vrInputModule();
 
   constexpr void __cordl_internal_set__keyboardContainerTransform(::UnityW<::UnityEngine::RectTransform> value);
 
@@ -130,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set__vrInputModule(::GlobalNamespace::IVRInputModule* value);
 
-  /// @brief Method .ctor, addr 0x3b9bae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfdc30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyboard, addr 0x3b9b1b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboard, addr 0x3bfd300, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::UIKeyboard> get_keyboard();
 
 protected:
@@ -149,6 +148,12 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   UIKeyboardManager(UIKeyboardManager const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4770 };
+
+  /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
+  static constexpr float_t kKeyboardTopOffset{ static_cast<float_t>(5.0f) };
 
   /// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
@@ -168,17 +173,9 @@ public:
   /// @brief Field _selectedInput, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::HMUI::InputFieldView> ____selectedInput;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4754 };
-
-  /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
-  static constexpr float_t kKeyboardTopOffset{ 5.0 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboardManager, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____uiKeyboard) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____keyboardModalView) == 0x28, "Offset mismatch!");
@@ -190,6 +187,8 @@ static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____parentContainer
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____vrInputModule) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____selectedInput) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboardManager, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UIKeyboardManager);

@@ -8,192 +8,192 @@
 #include "UnityEngine/UIElements/zzzz__IntegerField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlIntAttributeDescription_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__UxmlFactory._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_UxmlFactory._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IntegerField__UxmlFactory::*)()>(
-    &::UnityEngine::UIElements::__IntegerField__UxmlFactory::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlFactory::*)()>(
+    &::UnityEngine::UIElements::IntegerField_UxmlFactory::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498b3fc;
+  constexpr static std::size_t addrs = 0x49efd0c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__UxmlFactory*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlFactory*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__IntegerField__UxmlFactory* UnityEngine::UIElements::__IntegerField__UxmlFactory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__IntegerField__UxmlFactory*>());
-}
-inline void UnityEngine::UIElements::__IntegerField__UxmlFactory::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__UxmlFactory*>::get(),
+inline void UnityEngine::UIElements::IntegerField_UxmlFactory::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlFactory*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::IntegerField_UxmlFactory* UnityEngine::UIElements::IntegerField_UxmlFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField_UxmlFactory*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__IntegerField__UxmlFactory::__IntegerField__UxmlFactory() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__UxmlTraits._ctor
+constexpr ::UnityEngine::UIElements::IntegerField_UxmlFactory::IntegerField_UxmlFactory() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_UxmlTraits._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IntegerField__UxmlTraits::*)()>(
-    &::UnityEngine::UIElements::__IntegerField__UxmlTraits::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_UxmlTraits::*)()>(
+    &::UnityEngine::UIElements::IntegerField_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498b444;
+  constexpr static std::size_t addrs = 0x49efd54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__UxmlTraits*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlTraits*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__IntegerField__UxmlTraits* UnityEngine::UIElements::__IntegerField__UxmlTraits::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__IntegerField__UxmlTraits*>());
-}
-inline void UnityEngine::UIElements::__IntegerField__UxmlTraits::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__UxmlTraits*>::get(),
+inline void UnityEngine::UIElements::IntegerField_UxmlTraits::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_UxmlTraits*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::IntegerField_UxmlTraits* UnityEngine::UIElements::IntegerField_UxmlTraits::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField_UxmlTraits*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__IntegerField__UxmlTraits::__IntegerField__UxmlTraits() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput.get_parentIntegerField
+constexpr ::UnityEngine::UIElements::IntegerField_UxmlTraits::IntegerField_UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.get_parentIntegerField
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IntegerField* (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)()>(
-    &::UnityEngine::UIElements::__IntegerField__IntegerInput::get_parentIntegerField)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IntegerField* (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
+    &::UnityEngine::UIElements::IntegerField_IntegerInput::get_parentIntegerField)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x498b48c;
+  constexpr static std::size_t addrs = 0x49efd9c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
                                                                                "get_parentIntegerField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)()>(
-    &::UnityEngine::UIElements::__IntegerField__IntegerInput::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
+    &::UnityEngine::UIElements::IntegerField_IntegerInput::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x498b210;
+  constexpr static std::size_t addrs = 0x49efb20;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput.get_allowedCharacters
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.get_allowedCharacters
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)()>(
-    &::UnityEngine::UIElements::__IntegerField__IntegerInput::get_allowedCharacters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)()>(
+    &::UnityEngine::UIElements::IntegerField_IntegerInput::get_allowedCharacters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x498b50c;
+  constexpr static std::size_t addrs = 0x49efe1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 104));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 104));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput.ApplyInputDeviceDelta
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.ApplyInputDeviceDelta
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::__IntegerField__IntegerInput::ApplyInputDeviceDelta)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(
+    ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField_IntegerInput::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x498b564;
+  constexpr static std::size_t addrs = 0x49efe74;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 105));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 105));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput.ValueToString
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.ValueToString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)(int32_t)>(
-    &::UnityEngine::UIElements::__IntegerField__IntegerInput::ValueToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(int32_t)>(
+    &::UnityEngine::UIElements::IntegerField_IntegerInput::ValueToString)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x498b7b4;
+  constexpr static std::size_t addrs = 0x49f00c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 106));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 106));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::__IntegerField__IntegerInput.StringToValue
+//  Writing Method size for method: ::UnityEngine::UIElements::IntegerField_IntegerInput.StringToValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::__IntegerField__IntegerInput::*)(::StringW)>(
-    &::UnityEngine::UIElements::__IntegerField__IntegerInput::StringToValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField_IntegerInput::*)(::StringW)>(
+    &::UnityEngine::UIElements::IntegerField_IntegerInput::StringToValue)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x498b800;
+  constexpr static std::size_t addrs = 0x49f0110;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 100));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 100));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::__IntegerField__IntegerInput::get_parentIntegerField() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField_IntegerInput::get_parentIntegerField() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
                                                                              "get_parentIntegerField", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IntegerField*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::__IntegerField__IntegerInput* UnityEngine::UIElements::__IntegerField__IntegerInput::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__IntegerField__IntegerInput*>());
-}
-inline void UnityEngine::UIElements::__IntegerField__IntegerInput::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(),
+inline void UnityEngine::UIElements::IntegerField_IntegerInput::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::UIElements::__IntegerField__IntegerInput::get_allowedCharacters() {
+inline ::StringW UnityEngine::UIElements::IntegerField_IntegerInput::get_allowedCharacters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 104)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 104)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::__IntegerField__IntegerInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue) {
+inline void UnityEngine::UIElements::IntegerField_IntegerInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 105)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 105)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
-inline ::StringW UnityEngine::UIElements::__IntegerField__IntegerInput::ValueToString(int32_t v) {
+inline ::StringW UnityEngine::UIElements::IntegerField_IntegerInput::ValueToString(int32_t v) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 106)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 106)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
-inline int32_t UnityEngine::UIElements::__IntegerField__IntegerInput::StringToValue(::StringW str) {
+inline int32_t UnityEngine::UIElements::IntegerField_IntegerInput::StringToValue(::StringW str) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__IntegerField__IntegerInput*>::get(), 100)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField_IntegerInput*>::get(), 100)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, str);
 }
+inline ::UnityEngine::UIElements::IntegerField_IntegerInput* UnityEngine::UIElements::IntegerField_IntegerInput::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField_IntegerInput*>());
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::__IntegerField__IntegerInput::__IntegerField__IntegerInput() {}
+constexpr ::UnityEngine::UIElements::IntegerField_IntegerInput::IntegerField_IntegerInput() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::IntegerField.get_integerInput
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::__IntegerField__IntegerInput* (::UnityEngine::UIElements::IntegerField::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IntegerField_IntegerInput* (::UnityEngine::UIElements::IntegerField::*)()>(
     &::UnityEngine::UIElements::IntegerField::get_integerInput)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x498ae9c;
+  constexpr static std::size_t addrs = 0x49ef7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::IntegerField::*)(int32_t)>(
     &::UnityEngine::UIElements::IntegerField::ValueToString)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x498af20;
+  constexpr static std::size_t addrs = 0x49ef830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::IntegerField::StringToValue)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x498afd8;
+  constexpr static std::size_t addrs = 0x49ef8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)()>(&::UnityEngine::UIElements::IntegerField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x498b0b4;
+  constexpr static std::size_t addrs = 0x49ef9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), ".ctor",
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::IntegerField::_ctor)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x498b0c0;
+  constexpr static std::size_t addrs = 0x49ef9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::IntegerField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x498b2a4;
+  constexpr static std::size_t addrs = 0x49efbb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IntegerField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, int32_t)>(&::UnityEngine::UIElements::IntegerField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x498b2c8;
+  constexpr static std::size_t addrs = 0x49efbd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,10 +309,10 @@ inline void UnityEngine::UIElements::IntegerField::setStaticF_inputUssClassName(
 inline ::StringW UnityEngine::UIElements::IntegerField::getStaticF_inputUssClassName() {
   return ::cordl_internals::getStaticField<::StringW, "inputUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get>();
 }
-inline ::UnityEngine::UIElements::__IntegerField__IntegerInput* UnityEngine::UIElements::IntegerField::get_integerInput() {
+inline ::UnityEngine::UIElements::IntegerField_IntegerInput* UnityEngine::UIElements::IntegerField::get_integerInput() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(),
                                                                              "get_integerInput", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::__IntegerField__IntegerInput*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IntegerField_IntegerInput*, false>(this, ___internal_method);
 }
 inline ::StringW UnityEngine::UIElements::IntegerField::ValueToString(int32_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -324,19 +324,11 @@ inline int32_t UnityEngine::UIElements::IntegerField::StringToValue(::StringW st
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), 119)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, str);
 }
-inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField*>());
-}
 inline void UnityEngine::UIElements::IntegerField::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-/// @param maxLength: int32_t (default: static_cast<int32_t>(0x3e8))
-inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor(::StringW label, int32_t maxLength) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField*>(label, maxLength));
-}
-/// @param maxLength: int32_t (default: static_cast<int32_t>(0x3e8))
 inline void UnityEngine::UIElements::IntegerField::_ctor(::StringW label, int32_t maxLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -352,6 +344,12 @@ inline void UnityEngine::UIElements::IntegerField::ApplyInputDeviceDelta(::Unity
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IntegerField*>::get(), 127)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
+}
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField*>());
+}
+inline ::UnityEngine::UIElements::IntegerField* UnityEngine::UIElements::IntegerField::New_ctor(::StringW label, int32_t maxLength) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IntegerField*>(label, maxLength));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::IntegerField::IntegerField() {}

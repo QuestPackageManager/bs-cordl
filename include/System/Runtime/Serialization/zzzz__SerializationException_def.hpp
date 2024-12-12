@@ -21,16 +21,15 @@ class SerializationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationException);
-// Type: System.Runtime.Serialization::SerializationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.SystemException
 namespace System::Runtime::Serialization {
 // Is value type: false
-// CS Name: ::System.Runtime.Serialization::SerializationException*
+// CS Name: System.Runtime.Serialization.SerializationException
 class CORDL_TYPE SerializationException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field s_nullMessage, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_nullMessage, put = setStaticF_s_nullMessage)) ::StringW s_nullMessage;
+  __declspec(property(get = getStaticF_s_nullMessage, put = setStaticF_s_nullMessage)) ::StringW s_nullMessage;
 
   static inline ::System::Runtime::Serialization::SerializationException* New_ctor();
 
@@ -41,16 +40,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3c91f48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf20bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c92004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c91fbc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2130, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c91fe0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cf2154, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::StringW getStaticF_s_nullMessage();

@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1Encodable)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
 }
 namespace System {
 class Object;
@@ -23,38 +20,37 @@ class Asn1Encodable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Encodable);
-// Type: Org.BouncyCastle.Asn1::Asn1Encodable
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Asn1.IAsn1Convertible, System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Asn1::Asn1Encodable*
+// CS Name: Org.BouncyCastle.Asn1.Asn1Encodable
 class CORDL_TYPE Asn1Encodable : public ::System::Object {
 public:
   // Declarations
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Equals, addr 0x22bd498, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x22f0784, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetDerEncoded, addr 0x22bd3a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0x22f0690, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerEncoded();
 
-  /// @brief Method GetEncoded, addr 0x22bd1f4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x22f04e0, size 0xbc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x22bd2b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x22f059c, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x22bd464, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x22f0750, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
 
-  /// @brief Method ToAsn1Object, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method ToAsn1Object, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0x22bd5ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x22f0898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"

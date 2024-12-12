@@ -12,11 +12,10 @@ struct HmdMatrix34_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::HmdMatrix34_t);
-// Type: OVR.OpenVR::HmdMatrix34_t
-// SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::HmdMatrix34_t
+// CS Name: OVR.OpenVR.HmdMatrix34_t
 struct CORDL_TYPE HmdMatrix34_t {
 public:
   // Declarations
@@ -30,6 +29,12 @@ public:
   // "", def_value: None }, CppParam { name: "m8", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m9", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m10", ty:
   // "float_t", modifiers: "", def_value: None }, CppParam { name: "m11", ty: "float_t", modifiers: "", def_value: None }]
   constexpr HmdMatrix34_t(float_t m0, float_t m1, float_t m2, float_t m3, float_t m4, float_t m5, float_t m6, float_t m7, float_t m8, float_t m9, float_t m10, float_t m11) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8957 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field m0, offset: 0x0, size: 0x4, def value: None
   float_t m0;
@@ -67,17 +72,9 @@ public:
   /// @brief Field m11, offset: 0x2c, size: 0x4, def value: None
   float_t m11;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8932 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdMatrix34_t, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::HmdMatrix34_t, m0) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::HmdMatrix34_t, m1) == 0x4, "Offset mismatch!");
@@ -101,6 +98,8 @@ static_assert(offsetof(::OVR::OpenVR::HmdMatrix34_t, m9) == 0x24, "Offset mismat
 static_assert(offsetof(::OVR::OpenVR::HmdMatrix34_t, m10) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::HmdMatrix34_t, m11) == 0x2c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdMatrix34_t, 0x30>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdMatrix34_t, "OVR.OpenVR", "HmdMatrix34_t");

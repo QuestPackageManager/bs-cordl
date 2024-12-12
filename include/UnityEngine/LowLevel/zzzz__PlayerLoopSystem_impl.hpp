@@ -7,62 +7,62 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoopSystem_def.hpp"
-//  Writing Method size for method: ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction._ctor
+//  Writing Method size for method: ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::*)(::System::Object*, ::System::IntPtr)>(
-    &::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::*)(::System::Object*, ::System::IntPtr)>(
+    &::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x485e24c;
+  constexpr static std::size_t addrs = 0x48bf5c4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction.Invoke
+//  Writing Method size for method: ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::*)()>(
-    &::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::*)()>(
+    &::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x485e2d4;
+  constexpr static std::size_t addrs = 0x48bf64c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>::get(), 13));
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>(object, method));
-}
-inline void UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::Invoke() {
+inline void UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::Invoke() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction::__PlayerLoopSystem__UpdateFunction() {}
+constexpr ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction::PlayerLoopSystem_UpdateFunction() {}
 //  Writing Method size for method: ::UnityEngine::LowLevel::PlayerLoopSystem.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::LowLevel::PlayerLoopSystem::*)()>(&::UnityEngine::LowLevel::PlayerLoopSystem::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x485e22c;
+  constexpr static std::size_t addrs = 0x48bf5a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,13 +76,13 @@ inline ::StringW UnityEngine::LowLevel::PlayerLoopSystem::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LowLevel::PlayerLoopSystem>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "subSystemList", ty:
-// "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem,::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "updateDelegate", ty:
-// "::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "type", ty: "::System::Type*", modifiers: "", def_value: Some("{}") }, CppParam { name: "subSystemList", ty:
+// "::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem,::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "updateDelegate", ty:
+// "::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction*", modifiers: "", def_value: Some("{}") }, CppParam { name: "updateFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}")
+// }, CppParam { name: "loopConditionFunction", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::LowLevel::PlayerLoopSystem::PlayerLoopSystem(::System::Type* type,
                                                                       ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystem, ::Array<::UnityEngine::LowLevel::PlayerLoopSystem>*> subSystemList,
-                                                                      ::UnityEngine::LowLevel::__PlayerLoopSystem__UpdateFunction* updateDelegate, ::System::IntPtr updateFunction,
+                                                                      ::UnityEngine::LowLevel::PlayerLoopSystem_UpdateFunction* updateDelegate, ::System::IntPtr updateFunction,
                                                                       ::System::IntPtr loopConditionFunction) noexcept {
   this->type = type;
   this->subSystemList = subSystemList;

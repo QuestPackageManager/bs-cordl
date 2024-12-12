@@ -8,7 +8,6 @@ CORDL_MODULE_INIT
 #include "Unity/Burst/zzzz__FloatMode_def.hpp"
 #include "Unity/Burst/zzzz__FloatPrecision_def.hpp"
 #include "Unity/Burst/zzzz__OptimizeFor_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BurstCompileAttribute)
 namespace Unity::Burst {
@@ -26,11 +25,10 @@ class BurstCompileAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::BurstCompileAttribute);
-// Type: Unity.Burst::BurstCompileAttribute
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Nullable`1<T>, Unity.Burst.FloatMode, Unity.Burst.FloatPrecision, Unity.Burst.OptimizeFor
 namespace Unity::Burst {
 // Is value type: false
-// CS Name: ::Unity.Burst::BurstCompileAttribute*
+// CS Name: Unity.Burst.BurstCompileAttribute
 class CORDL_TYPE BurstCompileAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -129,61 +127,61 @@ public:
 
   constexpr void __cordl_internal_set__disableSafetyChecks(::System::Nullable_1<bool> value);
 
-  /// @brief Method .ctor, addr 0x44a0a74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4501d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44a0a7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4501d90, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::FloatPrecision floatPrecision, ::Unity::Burst::FloatMode floatMode);
 
-  /// @brief Method .ctor, addr 0x44a0aa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4501dbc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> options);
 
-  /// @brief Method get_CompileSynchronously, addr 0x44a0704, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CompileSynchronously, addr 0x4501a18, size 0x6c, virtual false, abstract: false, final false
   inline bool get_CompileSynchronously();
 
-  /// @brief Method get_Debug, addr 0x44a07d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Debug, addr 0x4501aec, size 0x6c, virtual false, abstract: false, final false
   inline bool get_Debug();
 
-  /// @brief Method get_DisableDirectCall, addr 0x44a0980, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DisableDirectCall, addr 0x4501c94, size 0x6c, virtual false, abstract: false, final false
   inline bool get_DisableDirectCall();
 
-  /// @brief Method get_DisableSafetyChecks, addr 0x44a08ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_DisableSafetyChecks, addr 0x4501bc0, size 0x6c, virtual false, abstract: false, final false
   inline bool get_DisableSafetyChecks();
 
-  /// @brief Method get_FloatMode, addr 0x44a06e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMode, addr 0x45019f8, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatMode get_FloatMode();
 
-  /// @brief Method get_FloatPrecision, addr 0x44a06f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatPrecision, addr 0x4501a08, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::FloatPrecision get_FloatPrecision();
 
-  /// @brief Method get_OptimizeFor, addr 0x44a0a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OptimizeFor, addr 0x4501d68, size 0x8, virtual false, abstract: false, final false
   inline ::Unity::Burst::OptimizeFor get_OptimizeFor();
 
-  /// @brief Method get_Options, addr 0x44a0a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Options, addr 0x4501d78, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Options();
 
-  /// @brief Method set_CompileSynchronously, addr 0x44a0770, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_CompileSynchronously, addr 0x4501a84, size 0x68, virtual false, abstract: false, final false
   inline void set_CompileSynchronously(bool value);
 
-  /// @brief Method set_Debug, addr 0x44a0844, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Debug, addr 0x4501b58, size 0x68, virtual false, abstract: false, final false
   inline void set_Debug(bool value);
 
-  /// @brief Method set_DisableDirectCall, addr 0x44a09ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DisableDirectCall, addr 0x4501d00, size 0x68, virtual false, abstract: false, final false
   inline void set_DisableDirectCall(bool value);
 
-  /// @brief Method set_DisableSafetyChecks, addr 0x44a0918, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_DisableSafetyChecks, addr 0x4501c2c, size 0x68, virtual false, abstract: false, final false
   inline void set_DisableSafetyChecks(bool value);
 
-  /// @brief Method set_FloatMode, addr 0x44a06ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FloatMode, addr 0x4501a00, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatMode(::Unity::Burst::FloatMode value);
 
-  /// @brief Method set_FloatPrecision, addr 0x44a06fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FloatPrecision, addr 0x4501a10, size 0x8, virtual false, abstract: false, final false
   inline void set_FloatPrecision(::Unity::Burst::FloatPrecision value);
 
-  /// @brief Method set_OptimizeFor, addr 0x44a0a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OptimizeFor, addr 0x4501d70, size 0x8, virtual false, abstract: false, final false
   inline void set_OptimizeFor(::Unity::Burst::OptimizeFor value);
 
-  /// @brief Method set_Options, addr 0x44a0a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Options, addr 0x4501d80, size 0x8, virtual false, abstract: false, final false
   inline void set_Options(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
 protected:
@@ -199,6 +197,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "BurstCompileAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   BurstCompileAttribute(BurstCompileAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
 
   /// @brief Field <FloatMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Burst::FloatMode ____FloatMode_k__BackingField;
@@ -224,14 +225,9 @@ public:
   /// @brief Field <Options>k__BackingField, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____Options_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14562 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::Burst::BurstCompileAttribute, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::Unity::Burst::BurstCompileAttribute, ____FloatMode_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Unity::Burst::BurstCompileAttribute, ____FloatPrecision_k__BackingField) == 0x14, "Offset mismatch!");
@@ -247,6 +243,8 @@ static_assert(offsetof(::Unity::Burst::BurstCompileAttribute, ____disableDirectC
 static_assert(offsetof(::Unity::Burst::BurstCompileAttribute, ____OptimizeFor_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Unity::Burst::BurstCompileAttribute, ____Options_k__BackingField) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Unity::Burst::BurstCompileAttribute, 0x30>, "Size mismatch!");
 
 } // namespace Unity::Burst
 NEED_NO_BOX(::Unity::Burst::BurstCompileAttribute);

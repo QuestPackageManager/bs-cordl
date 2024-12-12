@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContainerContract_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JsonDynamicContract)
 namespace Newtonsoft::Json::Serialization {
@@ -43,11 +42,10 @@ class JsonDynamicContract;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonDynamicContract);
-// Type: Newtonsoft.Json.Serialization::JsonDynamicContract
-// SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Newtonsoft.Json.Serialization.JsonContainerContract
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Serialization::JsonDynamicContract*
+// CS Name: Newtonsoft.Json.Serialization.JsonDynamicContract
 class CORDL_TYPE JsonDynamicContract : public ::Newtonsoft::Json::Serialization::JsonContainerContract {
 public:
   // Declarations
@@ -72,45 +70,45 @@ public:
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
       _callSiteSetters;
 
-  /// @brief Method CreateCallSiteGetter, addr 0x3e8567c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteGetter, addr 0x3ee5728, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteGetter(::StringW name);
 
-  /// @brief Method CreateCallSiteSetter, addr 0x3e857a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreateCallSiteSetter, addr 0x3ee5854, size 0x12c, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*
   CreateCallSiteSetter(::StringW name);
 
   static inline ::Newtonsoft::Json::Serialization::JsonDynamicContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method TryGetMember, addr 0x3e858d4, size 0x100, virtual false, abstract: false, final false
-  inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ByRef<::System::Object*> value);
+  /// @brief Method TryGetMember, addr 0x3ee5980, size 0x100, virtual false, abstract: false, final false
+  inline bool TryGetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::ByRef<::System::Object*> value);
 
-  /// @brief Method TrySetMember, addr 0x3e859d4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method TrySetMember, addr 0x3ee5a80, size 0xfc, virtual false, abstract: false, final false
   inline bool TrySetMember(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider, ::StringW name, ::System::Object* value);
+
+  constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection* const& __cordl_internal_get__Properties_k__BackingField() const;
 
   constexpr ::Newtonsoft::Json::Serialization::JsonPropertyCollection*& __cordl_internal_get__Properties_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonPropertyCollection*> const& __cordl_internal_get__Properties_k__BackingField() const;
+  constexpr ::System::Func_2<::StringW, ::StringW>* const& __cordl_internal_get__PropertyNameResolver_k__BackingField() const;
 
   constexpr ::System::Func_2<::StringW, ::StringW>*& __cordl_internal_get__PropertyNameResolver_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __cordl_internal_get__PropertyNameResolver_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
+      ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*>* const&
+  __cordl_internal_get__callSiteGetters() const;
 
   constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*>*&
   __cordl_internal_get__callSiteGetters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
-      ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_3<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*>*>*>*> const&
-  __cordl_internal_get__callSiteGetters() const;
+  constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
+      ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>* const&
+  __cordl_internal_get__callSiteSetters() const;
 
   constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*&
   __cordl_internal_get__callSiteSetters();
-
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<
-      ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*> const&
-  __cordl_internal_get__callSiteSetters() const;
 
   constexpr void __cordl_internal_set__Properties_k__BackingField(::Newtonsoft::Json::Serialization::JsonPropertyCollection* value);
 
@@ -125,16 +123,16 @@ public:
           ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
           value);
 
-  /// @brief Method .ctor, addr 0x3e7fc8c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3edfd38, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_Properties, addr 0x3e85664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x3ee5710, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* get_Properties();
 
-  /// @brief Method get_PropertyNameResolver, addr 0x3e8566c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameResolver, addr 0x3ee5718, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::StringW, ::StringW>* get_PropertyNameResolver();
 
-  /// @brief Method set_PropertyNameResolver, addr 0x3e85674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameResolver, addr 0x3ee5720, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameResolver(::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
@@ -151,6 +149,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonDynamicContract(JsonDynamicContract const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10317 };
+
   /// @brief Field <Properties>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::Newtonsoft::Json::Serialization::JsonPropertyCollection* ____Properties_k__BackingField;
 
@@ -166,14 +167,9 @@ public:
       ::StringW, ::System::Runtime::CompilerServices::CallSite_1<::System::Func_4<::System::Runtime::CompilerServices::CallSite*, ::System::Object*, ::System::Object*, ::System::Object*>*>*>*
       ____callSiteSetters;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10292 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonDynamicContract, 0xe0>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonDynamicContract, ____Properties_k__BackingField) == 0xc0, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonDynamicContract, ____PropertyNameResolver_k__BackingField) == 0xc8, "Offset mismatch!");
@@ -181,6 +177,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonDynamicContract, _
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonDynamicContract, ____callSiteGetters) == 0xd0, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Serialization::JsonDynamicContract, ____callSiteSetters) == 0xd8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::JsonDynamicContract, 0xe0>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonDynamicContract);

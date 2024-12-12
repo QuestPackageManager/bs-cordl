@@ -14,11 +14,10 @@ class XmlSchemaComplexContent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaComplexContent);
-// Type: System.Xml.Schema::XmlSchemaComplexContent
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaContentModel
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaComplexContent*
+// CS Name: System.Xml.Schema.XmlSchemaComplexContent
 class CORDL_TYPE XmlSchemaComplexContent : public ::System::Xml::Schema::XmlSchemaContentModel {
 public:
   // Declarations
@@ -39,9 +38,9 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaComplexContent* New_ctor();
 
-  constexpr ::System::Xml::Schema::XmlSchemaContent*& __cordl_internal_get_content();
+  constexpr ::System::Xml::Schema::XmlSchemaContent* const& __cordl_internal_get_content() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaContent*> const& __cordl_internal_get_content() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContent*& __cordl_internal_get_content();
 
   constexpr bool const& __cordl_internal_get_hasMixedAttribute() const;
 
@@ -57,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set_isMixed(bool value);
 
-  /// @brief Method .ctor, addr 0x4258bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b9ed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x4258ba4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x42b9eb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContent* get_Content();
 
-  /// @brief Method get_HasMixedAttribute, addr 0x4258bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasMixedAttribute, addr 0x42b9ec8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasMixedAttribute();
 
-  /// @brief Method get_IsMixed, addr 0x4258b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsMixed, addr 0x42b9e9c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsMixed();
 
-  /// @brief Method set_Content, addr 0x4258bac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Content, addr 0x42b9ec0, size 0x8, virtual true, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaContent* value);
 
-  /// @brief Method set_IsMixed, addr 0x4258b90, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_IsMixed, addr 0x42b9ea4, size 0x14, virtual false, abstract: false, final false
   inline void set_IsMixed(bool value);
 
 protected:
@@ -89,6 +88,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaComplexContent(XmlSchemaComplexContent const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7659 };
+
   /// @brief Field content, offset: 0x50, size: 0x8, def value: None
   ::System::Xml::Schema::XmlSchemaContent* ___content;
 
@@ -98,19 +100,16 @@ public:
   /// @brief Field hasMixedAttribute, offset: 0x59, size: 0x1, def value: None
   bool ___hasMixedAttribute;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7634 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaComplexContent, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaComplexContent, ___content) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaComplexContent, ___isMixed) == 0x58, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaComplexContent, ___hasMixedAttribute) == 0x59, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaComplexContent, 0x60>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaComplexContent);

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomFilterUtil)
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass1_0_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass2_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -21,23 +21,22 @@ namespace GlobalNamespace {
 class BloomFilterUtil;
 }
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass1_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass1_0_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __BloomFilterUtil____c__DisplayClass2_0_1;
+template <typename T> class BloomFilterUtil___c__DisplayClass2_0_1;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomFilterUtil);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1);
-// Type: ::<>c__DisplayClass1_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_REF_PTR_T(::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BloomFilterUtil::<>c__DisplayClass1_0`1<T>*
-class CORDL_TYPE __BloomFilterUtil____c__DisplayClass1_0_1 : public ::System::Object {
+// CS Name: BloomFilterUtil/<>c__DisplayClass1_0`1<T>
+class CORDL_TYPE BloomFilterUtil___c__DisplayClass1_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashBits, offset 0x14, size 0x4
@@ -46,7 +45,7 @@ public:
   /// @brief Field hashCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
-  static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>* New_ctor();
+  static inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>* New_ctor();
 
   /// @brief Method <ToBloomFilter>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _ToBloomFilter_b__0(T bloomFilter, ::StringW str);
@@ -69,16 +68,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BloomFilterUtil____c__DisplayClass1_0_1();
+  constexpr BloomFilterUtil___c__DisplayClass1_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass1_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass1_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BloomFilterUtil____c__DisplayClass1_0_1(__BloomFilterUtil____c__DisplayClass1_0_1&&) = delete;
+  BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass1_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass1_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BloomFilterUtil____c__DisplayClass1_0_1(__BloomFilterUtil____c__DisplayClass1_0_1 const&) = delete;
+  BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16968 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -86,21 +88,17 @@ public:
   /// @brief Field hashBits, offset: 0x14, size: 0x4, def value: None
   int32_t ___hashBits;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16929 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass2_0`1
-// SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BloomFilterUtil::<>c__DisplayClass2_0`1<T>*
-class CORDL_TYPE __BloomFilterUtil____c__DisplayClass2_0_1 : public ::System::Object {
+// CS Name: BloomFilterUtil/<>c__DisplayClass2_0`1<T>
+class CORDL_TYPE BloomFilterUtil___c__DisplayClass2_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashBits, offset 0x14, size 0x4
@@ -109,7 +107,7 @@ public:
   /// @brief Field hashCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_hashCount, put = __cordl_internal_set_hashCount)) int32_t hashCount;
 
-  static inline ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>* New_ctor();
+  static inline ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>* New_ctor();
 
   /// @brief Method <ToBloomFilter>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _ToBloomFilter_b__0(T bloomFilter, uint32_t hash);
@@ -132,16 +130,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __BloomFilterUtil____c__DisplayClass2_0_1();
+  constexpr BloomFilterUtil___c__DisplayClass2_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass2_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __BloomFilterUtil____c__DisplayClass2_0_1(__BloomFilterUtil____c__DisplayClass2_0_1&&) = delete;
+  BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BloomFilterUtil____c__DisplayClass2_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BloomFilterUtil___c__DisplayClass2_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __BloomFilterUtil____c__DisplayClass2_0_1(__BloomFilterUtil____c__DisplayClass2_0_1 const&) = delete;
+  BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16969 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -149,24 +150,20 @@ public:
   /// @brief Field hashBits, offset: 0x14, size: 0x4, def value: None
   int32_t ___hashBits;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16930 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Type: ::BloomFilterUtil
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomFilterUtil*
+// CS Name: BloomFilterUtil
 class CORDL_TYPE BloomFilterUtil : public ::System::Object {
 public:
   // Declarations
-  template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1<T>;
+  template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1<T>;
 
-  template <typename T> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1<T>;
+  template <typename T> using __c__DisplayClass2_0_1 = ::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1<T>;
 
   /// @brief Method AddBloomFilterEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T AddBloomFilterEntry(T bitMask, ::StringW value, int32_t hashCount, int32_t hashBits);
@@ -204,7 +201,7 @@ public:
   BloomFilterUtil(BloomFilterUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16970 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -214,5 +211,5 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomFilterUtil
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomFilterUtil);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__BloomFilterUtil____c__DisplayClass1_0_1, "", "BloomFilterUtil/<>c__DisplayClass1_0`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::__BloomFilterUtil____c__DisplayClass2_0_1, "", "BloomFilterUtil/<>c__DisplayClass2_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BloomFilterUtil___c__DisplayClass1_0_1, "", "BloomFilterUtil/<>c__DisplayClass1_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BloomFilterUtil___c__DisplayClass2_0_1, "", "BloomFilterUtil/<>c__DisplayClass2_0`1");

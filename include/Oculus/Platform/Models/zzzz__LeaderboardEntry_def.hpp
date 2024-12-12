@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardEntry)
@@ -24,11 +23,10 @@ class LeaderboardEntry;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardEntry);
-// Type: Oculus.Platform.Models::LeaderboardEntry
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.DateTime, System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::LeaderboardEntry*
+// CS Name: Oculus.Platform.Models.LeaderboardEntry
 class CORDL_TYPE LeaderboardEntry : public ::System::Object {
 public:
   // Declarations
@@ -78,21 +76,21 @@ public:
 
   constexpr int64_t& __cordl_internal_get_Score();
 
+  constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetric() const;
+
   constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetric();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::SupplementaryMetric*> const& __cordl_internal_get_SupplementaryMetric() const;
+  constexpr ::Oculus::Platform::Models::SupplementaryMetric* const& __cordl_internal_get_SupplementaryMetricOptional() const;
 
   constexpr ::Oculus::Platform::Models::SupplementaryMetric*& __cordl_internal_get_SupplementaryMetricOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::SupplementaryMetric*> const& __cordl_internal_get_SupplementaryMetricOptional() const;
 
   constexpr ::System::DateTime const& __cordl_internal_get_Timestamp() const;
 
   constexpr ::System::DateTime& __cordl_internal_get_Timestamp();
 
-  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User();
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_User() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_User() const;
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_User();
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -116,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f303e8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f90494, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -132,6 +130,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   LeaderboardEntry(LeaderboardEntry const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15531 };
 
   /// @brief Field DisplayScore, offset: 0x10, size: 0x8, def value: None
   ::StringW ___DisplayScore;
@@ -160,14 +161,9 @@ public:
   /// @brief Field User, offset: 0x50, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___User;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15496 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LeaderboardEntry, 0x58>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___DisplayScore) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___ExtraData) == 0x18, "Offset mismatch!");
@@ -185,6 +181,8 @@ static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___Suppleme
 static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___Timestamp) == 0x48, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::LeaderboardEntry, ___User) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LeaderboardEntry, 0x58>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LeaderboardEntry);

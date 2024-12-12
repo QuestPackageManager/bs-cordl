@@ -12,11 +12,10 @@ struct PInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Reflection::PInfo);
-// Type: System.Reflection::PInfo
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Reflection {
 // Is value type: true
-// CS Name: ::System.Reflection::PInfo
+// CS Name: System.Reflection.PInfo
 struct CORDL_TYPE PInfo {
 public:
   // Declarations
@@ -49,25 +48,22 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr PInfo(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Attributes value: static_cast<int32_t>(0x1)
+  /// @brief Field Attributes value: I32(1)
   static ::System::Reflection::PInfo const Attributes;
 
-  /// @brief Field DeclaringType value: static_cast<int32_t>(0x10)
+  /// @brief Field DeclaringType value: I32(16)
   static ::System::Reflection::PInfo const DeclaringType;
 
-  /// @brief Field GetMethod value: static_cast<int32_t>(0x2)
+  /// @brief Field GetMethod value: I32(2)
   static ::System::Reflection::PInfo const GetMethod;
 
-  /// @brief Field Name value: static_cast<int32_t>(0x20)
+  /// @brief Field Name value: I32(32)
   static ::System::Reflection::PInfo const Name;
 
-  /// @brief Field ReflectedType value: static_cast<int32_t>(0x8)
+  /// @brief Field ReflectedType value: I32(8)
   static ::System::Reflection::PInfo const ReflectedType;
 
-  /// @brief Field SetMethod value: static_cast<int32_t>(0x4)
+  /// @brief Field SetMethod value: I32(4)
   static ::System::Reflection::PInfo const SetMethod;
 
   /// @brief IL2CPP Metadata Type Index
@@ -76,12 +72,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Reflection::PInfo, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Reflection::PInfo, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Reflection::PInfo, 0x4>, "Size mismatch!");
 
 } // namespace System::Reflection
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::PInfo, "System.Reflection", "PInfo");

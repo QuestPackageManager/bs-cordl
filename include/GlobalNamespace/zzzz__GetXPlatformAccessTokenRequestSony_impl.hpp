@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GetXPlatformAccessTokenRequestSony::*)(::StringW, ::GlobalNamespace::PlatformEnvironment)>(
     &::GlobalNamespace::GetXPlatformAccessTokenRequestSony::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x401defc;
+  constexpr static std::size_t addrs = 0x407f210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,16 +44,16 @@ constexpr void GlobalNamespace::GetXPlatformAccessTokenRequestSony::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___platformEnvironment = value;
 }
-inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSony* GlobalNamespace::GetXPlatformAccessTokenRequestSony::New_ctor(::StringW platformToken,
-                                                                                                                            ::GlobalNamespace::PlatformEnvironment platformEnvironment) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GetXPlatformAccessTokenRequestSony*>(platformToken, platformEnvironment));
-}
 inline void GlobalNamespace::GetXPlatformAccessTokenRequestSony::_ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GetXPlatformAccessTokenRequestSony*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformEnvironment>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, platformToken, platformEnvironment);
+}
+inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSony* GlobalNamespace::GetXPlatformAccessTokenRequestSony::New_ctor(::StringW platformToken,
+                                                                                                                            ::GlobalNamespace::PlatformEnvironment platformEnvironment) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GetXPlatformAccessTokenRequestSony*>(platformToken, platformEnvironment));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GetXPlatformAccessTokenRequestSony::GetXPlatformAccessTokenRequestSony() {}

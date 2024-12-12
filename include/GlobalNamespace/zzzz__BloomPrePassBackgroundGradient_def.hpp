@@ -21,11 +21,10 @@ class BloomPrePassBackgroundGradient;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundGradient);
-// Type: ::BloomPrePassBackgroundGradient
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BloomPrePassBackgroundTextureGradient
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::BloomPrePassBackgroundGradient*
+// CS Name: BloomPrePassBackgroundGradient
 class CORDL_TYPE BloomPrePassBackgroundGradient : public ::GlobalNamespace::BloomPrePassBackgroundTextureGradient {
 public:
   // Declarations
@@ -34,16 +33,16 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundGradient* New_ctor();
 
-  /// @brief Method UpdatePixels, addr 0x3980a24, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdatePixels, addr 0x39d72ec, size 0x74, virtual true, abstract: false, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);
+
+  constexpr ::UnityEngine::Gradient* const& __cordl_internal_get__gradient() const;
 
   constexpr ::UnityEngine::Gradient*& __cordl_internal_get__gradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get__gradient() const;
-
   constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
-  /// @brief Method .ctor, addr 0x3980a98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39d7360, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,18 +59,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BloomPrePassBackgroundGradient(BloomPrePassBackgroundGradient const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16237 };
+
   /// @brief Field _gradient, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Gradient* ____gradient;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundGradient, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundGradient, ____gradient) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundGradient, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundGradient);

@@ -17,22 +17,10 @@ namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct FontStyle;
-}
-namespace UnityEngine {
 class Font;
 }
 namespace UnityEngine {
-struct HorizontalWrapMode;
-}
-namespace UnityEngine {
-struct TextAnchor;
-}
-namespace UnityEngine {
 struct Vector2;
-}
-namespace UnityEngine {
-struct VerticalWrapMode;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -40,21 +28,20 @@ struct TextGenerationSettings;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextGenerationSettings);
-// Type: UnityEngine::TextGenerationSettings
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 105, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.FontStyle, UnityEngine.HorizontalWrapMode, UnityEngine.TextAnchor, UnityEngine.Vector2, UnityEngine.VerticalWrapMode
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::TextGenerationSettings
+// CS Name: UnityEngine.TextGenerationSettings
 struct CORDL_TYPE TextGenerationSettings {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x48ec260, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x49508f0, size 0x138, virtual false, abstract: false, final false
   inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-  /// @brief Method CompareVector2, addr 0x48ec398, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompareVector2, addr 0x4950a28, size 0xc8, virtual false, abstract: false, final false
   inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-  /// @brief Method Equals, addr 0x48ec460, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x4950af0, size 0x220, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextGenerationSettings other);
 
   // Ctor Parameters []
@@ -74,6 +61,12 @@ public:
                                    ::UnityEngine::FontStyle fontStyle, ::UnityEngine::TextAnchor textAnchor, bool alignByGeometry, bool resizeTextForBestFit, int32_t resizeTextMinSize,
                                    int32_t resizeTextMaxSize, bool updateBounds, ::UnityEngine::VerticalWrapMode verticalOverflow, ::UnityEngine::HorizontalWrapMode horizontalOverflow,
                                    ::UnityEngine::Vector2 generationExtents, ::UnityEngine::Vector2 pivot, bool generateOutOfBounds) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18395 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field font, offset: 0x0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Font> font;
@@ -129,17 +122,9 @@ public:
   /// @brief Field generateOutOfBounds, offset: 0x58, size: 0x1, def value: None
   bool generateOutOfBounds;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18314 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextGenerationSettings, 0x60>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::TextGenerationSettings, font) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextGenerationSettings, color) == 0x8, "Offset mismatch!");
@@ -175,6 +160,8 @@ static_assert(offsetof(::UnityEngine::TextGenerationSettings, generationExtents)
 static_assert(offsetof(::UnityEngine::TextGenerationSettings, pivot) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextGenerationSettings, generateOutOfBounds) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextGenerationSettings, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextGenerationSettings, "UnityEngine", "TextGenerationSettings");

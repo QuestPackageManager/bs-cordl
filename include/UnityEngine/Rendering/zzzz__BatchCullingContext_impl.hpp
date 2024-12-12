@@ -14,7 +14,6 @@
 #include "UnityEngine/Rendering/zzzz__BatchCullingFlags_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingProjectionType_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingViewType_def.hpp"
-#include "UnityEngine/Rendering/zzzz__BatchPackedCullingViewID_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingSplit_def.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
@@ -27,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Matrix4x4, ::UnityEngine::Rendering::BatchCullingViewType, ::UnityEngine::Rendering::BatchCullingProjectionType, ::UnityEngine::Rendering::BatchCullingFlags, uint64_t, uint32_t,
     uint64_t, int32_t, int32_t)>(&::UnityEngine::Rendering::BatchCullingContext::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48670f8;
+  constexpr static std::size_t addrs = 0x48c847c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

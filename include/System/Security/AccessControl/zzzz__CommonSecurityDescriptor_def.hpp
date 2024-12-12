@@ -27,11 +27,10 @@ class CommonSecurityDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::CommonSecurityDescriptor);
-// Type: System.Security.AccessControl::CommonSecurityDescriptor
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.ControlFlags, System.Security.AccessControl.GenericSecurityDescriptor
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::CommonSecurityDescriptor*
+// CS Name: System.Security.AccessControl.CommonSecurityDescriptor
 class CORDL_TYPE CommonSecurityDescriptor : public ::System::Security::AccessControl::GenericSecurityDescriptor {
 public:
   // Declarations
@@ -68,10 +67,10 @@ public:
   /// @brief Field system_acl, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_system_acl, put = __cordl_internal_set_system_acl)) ::System::Security::AccessControl::SystemAcl* system_acl;
 
-  /// @brief Method CheckAclConsistency, addr 0x3c63d50, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CheckAclConsistency, addr 0x3cc3ec4, size 0xbc, virtual false, abstract: false, final false
   inline void CheckAclConsistency(::System::Security::AccessControl::CommonAcl* acl);
 
-  /// @brief Method Init, addr 0x3c63b30, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3cc3ca4, size 0x84, virtual false, abstract: false, final false
   inline void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                    ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                    ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
@@ -81,17 +80,17 @@ public:
                                                                                       ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                                                                                       ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  constexpr ::System::Security::AccessControl::DiscretionaryAcl*& __cordl_internal_get_discretionary_acl();
+  constexpr ::System::Security::AccessControl::DiscretionaryAcl* const& __cordl_internal_get_discretionary_acl() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::DiscretionaryAcl*> const& __cordl_internal_get_discretionary_acl() const;
+  constexpr ::System::Security::AccessControl::DiscretionaryAcl*& __cordl_internal_get_discretionary_acl();
 
   constexpr ::System::Security::AccessControl::ControlFlags const& __cordl_internal_get_flags() const;
 
   constexpr ::System::Security::AccessControl::ControlFlags& __cordl_internal_get_flags();
 
-  constexpr ::System::Security::Principal::SecurityIdentifier*& __cordl_internal_get_group();
+  constexpr ::System::Security::Principal::SecurityIdentifier* const& __cordl_internal_get_group() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& __cordl_internal_get_group() const;
+  constexpr ::System::Security::Principal::SecurityIdentifier*& __cordl_internal_get_group();
 
   constexpr bool const& __cordl_internal_get_is_container() const;
 
@@ -101,13 +100,13 @@ public:
 
   constexpr bool& __cordl_internal_get_is_ds();
 
+  constexpr ::System::Security::Principal::SecurityIdentifier* const& __cordl_internal_get_owner() const;
+
   constexpr ::System::Security::Principal::SecurityIdentifier*& __cordl_internal_get_owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& __cordl_internal_get_owner() const;
+  constexpr ::System::Security::AccessControl::SystemAcl* const& __cordl_internal_get_system_acl() const;
 
   constexpr ::System::Security::AccessControl::SystemAcl*& __cordl_internal_get_system_acl();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::SystemAcl*> const& __cordl_internal_get_system_acl() const;
 
   constexpr void __cordl_internal_set_discretionary_acl(::System::Security::AccessControl::DiscretionaryAcl* value);
 
@@ -123,30 +122,30 @@ public:
 
   constexpr void __cordl_internal_set_system_acl(::System::Security::AccessControl::SystemAcl* value);
 
-  /// @brief Method .ctor, addr 0x3c63ab4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3c28, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags, ::System::Security::Principal::SecurityIdentifier* owner,
                     ::System::Security::Principal::SecurityIdentifier* group, ::System::Security::AccessControl::SystemAcl* systemAcl,
                     ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl);
 
-  /// @brief Method get_DiscretionaryAcl, addr 0x3c63cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DiscretionaryAcl, addr 0x3cc3e50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::DiscretionaryAcl* get_DiscretionaryAcl();
 
-  /// @brief Method get_IsContainer, addr 0x3c63e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x3cc3f88, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsDS, addr 0x3c63e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDS, addr 0x3cc3f90, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDS();
 
-  /// @brief Method set_DiscretionaryAcl, addr 0x3c63be4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_DiscretionaryAcl, addr 0x3cc3d58, size 0xf8, virtual false, abstract: false, final false
   inline void set_DiscretionaryAcl(::System::Security::AccessControl::DiscretionaryAcl* value);
 
-  /// @brief Method set_Group, addr 0x3c63e0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Group, addr 0x3cc3f80, size 0x8, virtual true, abstract: false, final false
   inline void set_Group(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_Owner, addr 0x3c63e24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Owner, addr 0x3cc3f98, size 0x8, virtual true, abstract: false, final false
   inline void set_Owner(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method set_SystemAcl, addr 0x3c63bb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_SystemAcl, addr 0x3cc3d28, size 0x30, virtual false, abstract: false, final false
   inline void set_SystemAcl(::System::Security::AccessControl::SystemAcl* value);
 
 protected:
@@ -162,6 +161,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "CommonSecurityDescriptor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   CommonSecurityDescriptor(CommonSecurityDescriptor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3026 };
 
   /// @brief Field is_container, offset: 0x10, size: 0x1, def value: None
   bool ___is_container;
@@ -184,14 +186,9 @@ public:
   /// @brief Field discretionary_acl, offset: 0x30, size: 0x8, def value: None
   ::System::Security::AccessControl::DiscretionaryAcl* ___discretionary_acl;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3026 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::CommonSecurityDescriptor, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___is_container) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___is_ds) == 0x11, "Offset mismatch!");
@@ -205,6 +202,8 @@ static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescript
 static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___system_acl) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::System::Security::AccessControl::CommonSecurityDescriptor, ___discretionary_acl) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::CommonSecurityDescriptor, 0x38>, "Size mismatch!");
 
 } // namespace System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::CommonSecurityDescriptor);

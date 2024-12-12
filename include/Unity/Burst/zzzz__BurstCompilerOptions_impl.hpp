@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW)>(
     &::Unity::Burst::BurstCompilerOptions::SerialiseCompilationOptionsSafe)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44a27cc;
+  constexpr static std::size_t addrs = 0x4503ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ValueTuple_3<::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW> (*)(::StringW)>(
         &::Unity::Burst::BurstCompilerOptions::DeserialiseCompilationOptionsSafe)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44a29c4;
+  constexpr static std::size_t addrs = 0x4503cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2cfc;
+  constexpr static std::size_t addrs = 0x4504010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), ".ctor",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(&::Unity::Burst::BurstCompilerOptions::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44a22b0;
+  constexpr static std::size_t addrs = 0x45035c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_IsGlobal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2e5c;
+  constexpr static std::size_t addrs = 0x4504170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "get_IsGlobal",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_IsEnabled)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44a2e64;
+  constexpr static std::size_t addrs = 0x4504178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "get_IsEnabled",
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_EnableBurstCompilation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2ed8;
+  constexpr static std::size_t addrs = 0x45041ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_EnableBurstCompilation)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x44a2d04;
+  constexpr static std::size_t addrs = 0x4504018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_EnableBurstCompileSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2efc;
+  constexpr static std::size_t addrs = 0x4504210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_EnableBurstCompileSynchronously)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44a2f04;
+  constexpr static std::size_t addrs = 0x4504218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_EnableBurstSafetyChecks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2f34;
+  constexpr static std::size_t addrs = 0x4504248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_EnableBurstSafetyChecks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44a2e2c;
+  constexpr static std::size_t addrs = 0x4504140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_ForceEnableBurstSafetyChecks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2f40;
+  constexpr static std::size_t addrs = 0x4504254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_ForceEnableBurstSafetyChecks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44a2f48;
+  constexpr static std::size_t addrs = 0x450425c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -218,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_EnableBurstDebug)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2f78;
+  constexpr static std::size_t addrs = 0x450428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(&::Unity::Burst::BurstCompilerOptions::set_EnableBurstDebug)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44a2f80;
+  constexpr static std::size_t addrs = 0x4504294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_DisableOptimizations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2fb0;
+  constexpr static std::size_t addrs = 0x45042c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_DisableOptimizations)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44a2fb8;
+  constexpr static std::size_t addrs = 0x45042cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_EnableFastMath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2fbc;
+  constexpr static std::size_t addrs = 0x45042d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -286,7 +286,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(&::Unity::Burst::BurstCompilerOptions::set_EnableFastMath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44a2fc4;
+  constexpr static std::size_t addrs = 0x45042d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +300,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::get_EnableBurstTimings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a2fc8;
+  constexpr static std::size_t addrs = 0x45042dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(bool)>(
     &::Unity::Burst::BurstCompilerOptions::set_EnableBurstTimings)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x44a2fd0;
+  constexpr static std::size_t addrs = 0x45042e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -329,7 +329,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_RequiresSynchronousCompilation)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44a3000;
+  constexpr static std::size_t addrs = 0x4504314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -344,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action* (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::get_OptionsChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a3074;
+  constexpr static std::size_t addrs = 0x4504388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -358,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)(::System::Action*)>(
     &::Unity::Burst::BurstCompilerOptions::set_OptionsChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a307c;
+  constexpr static std::size_t addrs = 0x4504390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Burst::BurstCompilerOptions* (::Unity::Burst::BurstCompilerOptions::*)()>(
     &::Unity::Burst::BurstCompilerOptions::Clone)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x44a3084;
+  constexpr static std::size_t addrs = 0x4504398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "Clone",
@@ -384,32 +384,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Unity::Burst::BurstCompilerOptions.TryGetAttribute
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
     &::Unity::Burst::BurstCompilerOptions::TryGetAttribute)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x44a31cc;
+  constexpr static std::size_t addrs = 0x45044e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetAttribute", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Burst::BurstCompilerOptions.TryGetAttribute
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::Assembly*, ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::Assembly*, ::ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
     &::Unity::Burst::BurstCompilerOptions::TryGetAttribute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44a3678;
+  constexpr static std::size_t addrs = 0x450498c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetAttribute", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
     return ___internal_method;
   }
 };
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Burst::BurstCompileAttribute* (*)(::System::Reflection::MemberInfo*)>(
     &::Unity::Burst::BurstCompilerOptions::GetBurstCompileAttribute)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x44a3258;
+  constexpr static std::size_t addrs = 0x450456c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -433,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*)>(&::Unity::Burst::BurstCompilerOptions::HasBurstCompileAttribute)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x44a1678;
+  constexpr static std::size_t addrs = 0x450298c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,32 +445,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Unity::Burst::BurstCompilerOptions.MergeAttributes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::Unity::Burst::BurstCompileAttribute*>, ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Burst::BurstCompileAttribute*>, ::ByRef<::Unity::Burst::BurstCompileAttribute*>)>(
     &::Unity::Burst::BurstCompilerOptions::MergeAttributes)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x44a36f4;
+  constexpr static std::size_t addrs = 0x4504a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "MergeAttributes", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Burst::BurstCompilerOptions.TryGetOptions
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)(::System::Reflection::MemberInfo*, ByRef<::StringW>, bool, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Burst::BurstCompilerOptions::*)(::System::Reflection::MemberInfo*, ::ByRef<::StringW>, bool, bool)>(
     &::Unity::Burst::BurstCompilerOptions::TryGetOptions)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x44a381c;
+  constexpr static std::size_t addrs = 0x4504b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetOptions", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -481,7 +481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Burst::BurstCompilerOptions::*)(::Unity::Burst::BurstCompileAttribute*, bool, bool)>(
     &::Unity::Burst::BurstCompilerOptions::GetOptions)> {
   constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x44a3938;
+  constexpr static std::size_t addrs = 0x4504c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -496,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(&::Unity::Burst::BurstCompilerOptions::AddOption)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44a4080;
+  constexpr static std::size_t addrs = 0x4505394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Object*)>(&::Unity::Burst::BurstCompilerOptions::GetOption)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x44a3f9c;
+  constexpr static std::size_t addrs = 0x45052b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::OnOptionsChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44a2ee0;
+  constexpr static std::size_t addrs = 0x45041f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "OnOptionsChanged",
@@ -539,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Burst::BurstCompilerOptions::*)()>(&::Unity::Burst::BurstCompilerOptions::MaybeTriggerRecompilation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44a2f3c;
+  constexpr static std::size_t addrs = 0x4504250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -552,7 +552,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::Burst::BurstCompilerOptions::CheckIsSecondaryUnityProcess)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a41dc;
+  constexpr static std::size_t addrs = 0x45054f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
@@ -648,7 +648,7 @@ constexpr ::System::Action*& Unity::Burst::BurstCompilerOptions::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OptionsChanged_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& Unity::Burst::BurstCompilerOptions::__cordl_internal_get__OptionsChanged_k__BackingField() const {
+constexpr ::System::Action* const& Unity::Burst::BurstCompilerOptions::__cordl_internal_get__OptionsChanged_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OptionsChanged_k__BackingField;
 }
@@ -693,16 +693,10 @@ Unity::Burst::BurstCompilerOptions::DeserialiseCompilationOptionsSafe(::StringW 
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_3<::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW>, false>(nullptr, ___internal_method,
                                                                                                                                                                            from);
 }
-inline ::Unity::Burst::BurstCompilerOptions* Unity::Burst::BurstCompilerOptions::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::BurstCompilerOptions*>());
-}
 inline void Unity::Burst::BurstCompilerOptions::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Unity::Burst::BurstCompilerOptions* Unity::Burst::BurstCompilerOptions::New_ctor(bool isGlobal) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::BurstCompilerOptions*>(isGlobal));
 }
 inline void Unity::Burst::BurstCompilerOptions::_ctor(bool isGlobal) {
   static auto* ___internal_method =
@@ -831,18 +825,18 @@ inline ::Unity::Burst::BurstCompilerOptions* Unity::Burst::BurstCompilerOptions:
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Unity::Burst::BurstCompilerOptions*, false>(this, ___internal_method);
 }
-inline bool Unity::Burst::BurstCompilerOptions::TryGetAttribute(::System::Reflection::MemberInfo* member, ByRef<::Unity::Burst::BurstCompileAttribute*> attribute) {
+inline bool Unity::Burst::BurstCompilerOptions::TryGetAttribute(::System::Reflection::MemberInfo* member, ::ByRef<::Unity::Burst::BurstCompileAttribute*> attribute) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetAttribute", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, member, attribute);
 }
-inline bool Unity::Burst::BurstCompilerOptions::TryGetAttribute(::System::Reflection::Assembly* assembly, ByRef<::Unity::Burst::BurstCompileAttribute*> attribute) {
+inline bool Unity::Burst::BurstCompilerOptions::TryGetAttribute(::System::Reflection::Assembly* assembly, ::ByRef<::Unity::Burst::BurstCompileAttribute*> attribute) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetAttribute", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, assembly, attribute);
 }
 inline ::Unity::Burst::BurstCompileAttribute* Unity::Burst::BurstCompilerOptions::GetBurstCompileAttribute(::System::Reflection::MemberInfo* memberInfo) {
@@ -857,26 +851,21 @@ inline bool Unity::Burst::BurstCompilerOptions::HasBurstCompileAttribute(::Syste
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, member);
 }
-inline void Unity::Burst::BurstCompilerOptions::MergeAttributes(ByRef<::Unity::Burst::BurstCompileAttribute*> memberAttribute, ByRef<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute) {
+inline void Unity::Burst::BurstCompilerOptions::MergeAttributes(::ByRef<::Unity::Burst::BurstCompileAttribute*> memberAttribute, ::ByRef<::Unity::Burst::BurstCompileAttribute*> assemblyAttribute) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "MergeAttributes", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Burst::BurstCompileAttribute*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, memberAttribute, assemblyAttribute);
 }
-/// @param isForILPostProcessing: bool (default: false)
-/// @param isForCompilerClient: bool (default: false)
-inline bool Unity::Burst::BurstCompilerOptions::TryGetOptions(::System::Reflection::MemberInfo* member, ByRef<::StringW> flagsOut, bool isForILPostProcessing, bool isForCompilerClient) {
+inline bool Unity::Burst::BurstCompilerOptions::TryGetOptions(::System::Reflection::MemberInfo* member, ::ByRef<::StringW> flagsOut, bool isForILPostProcessing, bool isForCompilerClient) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "TryGetOptions", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MemberInfo*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::StringW>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, member, flagsOut, isForILPostProcessing, isForCompilerClient);
 }
-/// @param attr: ::Unity::Burst::BurstCompileAttribute* (default: nullptr)
-/// @param isForILPostProcessing: bool (default: false)
-/// @param isForCompilerClient: bool (default: false)
 inline ::StringW Unity::Burst::BurstCompilerOptions::GetOptions(::Unity::Burst::BurstCompileAttribute* attr, bool isForILPostProcessing, bool isForCompilerClient) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "GetOptions", std::span<Il2CppClass const* const, 0>(),
@@ -891,7 +880,6 @@ inline void Unity::Burst::BurstCompilerOptions::AddOption(::System::Text::String
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, builder, option);
 }
-/// @param value: ::System::Object* (default: nullptr)
 inline ::StringW Unity::Burst::BurstCompilerOptions::GetOption(::StringW optionName, ::System::Object* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(), "GetOption", std::span<Il2CppClass const* const, 0>(),
@@ -912,6 +900,12 @@ inline bool Unity::Burst::BurstCompilerOptions::CheckIsSecondaryUnityProcess() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Burst::BurstCompilerOptions*>::get(),
                                                                              "CheckIsSecondaryUnityProcess", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline ::Unity::Burst::BurstCompilerOptions* Unity::Burst::BurstCompilerOptions::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::BurstCompilerOptions*>());
+}
+inline ::Unity::Burst::BurstCompilerOptions* Unity::Burst::BurstCompilerOptions::New_ctor(bool isGlobal) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Burst::BurstCompilerOptions*>(isGlobal));
 }
 // Ctor Parameters []
 constexpr ::Unity::Burst::BurstCompilerOptions::BurstCompilerOptions() {}

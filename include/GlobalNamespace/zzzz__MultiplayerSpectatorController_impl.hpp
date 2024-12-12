@@ -1,5 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerSpectatorController.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
+#include "System/Collections/zzzz__IEnumerator_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
@@ -9,428 +12,422 @@
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerSongSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatingSpotManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSpectatorController_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18._ctor
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)(int32_t)>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)(int32_t)>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b808c0;
+  constexpr static std::size_t addrs = 0x3be2104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8091c;
+  constexpr static std::size_t addrs = 0x3be2160;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
-                                    "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::MoveNext)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b80920;
+  constexpr static std::size_t addrs = 0x3be2164;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
-                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b80980;
+  constexpr static std::size_t addrs = 0x3be21c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b80988;
+  constexpr static std::size_t addrs = 0x3be21cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
-                                    "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b809c0;
+  constexpr static std::size_t addrs = 0x3be2204;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
-                                    "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___4__this() const {
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value) {
+constexpr void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>(__1__state));
-}
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(), ".ctor",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_IDisposable_Dispose() {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::MoveNext() {
+inline bool GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18() {}
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17._ctor
+constexpr ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18::MultiplayerSpectatorController__SwitchToDefaultSpotCoroutine_d__18() {}
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)(int32_t)>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)(int32_t)>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b80898;
+  constexpr static std::size_t addrs = 0x3be20dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b809c8;
+  constexpr static std::size_t addrs = 0x3be220c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::MoveNext)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b809cc;
+  constexpr static std::size_t addrs = 0x3be2210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
-        &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+    static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
+        &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b80ab8;
+  constexpr static std::size_t addrs = 0x3be22fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
-    &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
+    &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b80ac0;
+  constexpr static std::size_t addrs = 0x3be2304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17.System_Collections_IEnumerator_get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
-        &::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_get_Current)> {
+    static_cast<::System::Object* (::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::*)()>(
+        &::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b80af8;
+  constexpr static std::size_t addrs = 0x3be233c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                     "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr int32_t& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___4__this() const {
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value) {
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get__defaultSpot_5__2() {
+constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get__defaultSpot_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSpot_5__2;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const&
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get__defaultSpot_5__2() const {
+constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* const&
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_get__defaultSpot_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSpot_5__2;
 }
 constexpr void
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value) {
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::__cordl_internal_set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultSpot_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*
-GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>(__1__state));
-}
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::_ctor(int32_t __1__state) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_IDisposable_Dispose() {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::MoveNext() {
+inline bool GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>::get(),
                                   "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17*>(__1__state));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
+GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17() {}
+constexpr ::GlobalNamespace::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17::MultiplayerSpectatorController__SwitchToDefaultSpotWithFadeCoroutine_d__17() {}
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController.add_spectatingSpotDidChangeEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b80238;
+  constexpr static std::size_t addrs = 0x3be1a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b802e8;
+  constexpr static std::size_t addrs = 0x3be1b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerSpectatingSpot* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::get_currentSpot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b80398;
+  constexpr static std::size_t addrs = 0x3be1be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -475,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b803a0;
+  constexpr static std::size_t addrs = 0x3be1bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -488,8 +485,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::Start)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b803bc;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3be1c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -502,8 +499,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b8044c;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3be1c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -517,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpot)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b79cd4;
+  constexpr static std::size_t addrs = 0x3bdb54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -531,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToPrev)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b8057c;
+  constexpr static std::size_t addrs = 0x3be1dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -545,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToNext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b807fc;
+  constexpr static std::size_t addrs = 0x3be2040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -559,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b80838;
+  constexpr static std::size_t addrs = 0x3be207c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -574,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b8051c;
+  constexpr static std::size_t addrs = 0x3be1d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -588,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::GlobalNamespace::IMultiplayerSpectatingSpot*)>(
     &::GlobalNamespace::MultiplayerSpectatorController::SwitchToSpectatingSpot)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b805b8;
+  constexpr static std::size_t addrs = 0x3be1dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -600,15 +597,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerSpectatorController.HandleStateChanged
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::GlobalNamespace::__MultiplayerController__State)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b808e8;
+  constexpr static std::size_t addrs = 0x3be212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
     return ___internal_method;
   }
 };
@@ -618,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSpectatorController::*)()>(
     &::GlobalNamespace::MultiplayerSpectatorController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b80914;
+  constexpr static std::size_t addrs = 0x3be2158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(),
@@ -630,7 +627,7 @@ constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& GlobalNamespace:
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spotManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get__spotManager() const {
+constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager* const& GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get__spotManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spotManager;
 }
@@ -678,8 +675,7 @@ constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& G
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spectatingSpotDidChangeEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const&
-GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get_spectatingSpotDidChangeEvent() const {
+constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* const& GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get_spectatingSpotDidChangeEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spectatingSpotDidChangeEvent;
 }
@@ -703,7 +699,7 @@ constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& GlobalNamespace::Multi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSpot;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const& GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get__currentSpot() const {
+constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* const& GlobalNamespace::MultiplayerSpectatorController::__cordl_internal_get__currentSpot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentSpot;
 }
@@ -776,19 +772,19 @@ inline void GlobalNamespace::MultiplayerSpectatorController::SwitchToSpectatingS
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSpectatingSpot*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, spectatingSpot);
 }
-inline void GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state) {
+inline void GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged(::GlobalNamespace::MultiplayerController_State state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(), "HandleStateChanged", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerController__State>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerController_State>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
-}
-inline ::GlobalNamespace::MultiplayerSpectatorController* GlobalNamespace::MultiplayerSpectatorController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSpectatorController*>());
 }
 inline void GlobalNamespace::MultiplayerSpectatorController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSpectatorController*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::MultiplayerSpectatorController* GlobalNamespace::MultiplayerSpectatorController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerSpectatorController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::MultiplayerSpectatorController::MultiplayerSpectatorController() {}

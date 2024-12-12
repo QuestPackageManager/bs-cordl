@@ -21,11 +21,10 @@ class CustomAttributeFormatException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::CustomAttributeFormatException);
-// Type: System.Reflection::CustomAttributeFormatException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.FormatException
 namespace System::Reflection {
 // Is value type: false
-// CS Name: ::System.Reflection::CustomAttributeFormatException*
+// CS Name: System.Reflection.CustomAttributeFormatException
 class CORDL_TYPE CustomAttributeFormatException : public ::System::FormatException {
 public:
   // Declarations
@@ -37,16 +36,16 @@ public:
 
   static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x3cc0a58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20bcc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc0b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cc0ab8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20c2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cc0ae0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d20c54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

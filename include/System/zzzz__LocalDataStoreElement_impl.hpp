@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreElement::*)(int64_t)>(&::System::LocalDataStoreElement::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3db2b78;
+  constexpr static std::size_t addrs = 0x3e12c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::LocalDataStoreElement::*)()>(&::System::LocalDataStoreElement::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db2ba0;
+  constexpr static std::size_t addrs = 0x3e12c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreElement*>::get(), "get_Value",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreElement::*)(::System::Object*)>(&::System::LocalDataStoreElement::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db2ba8;
+  constexpr static std::size_t addrs = 0x3e12c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::LocalDataStoreElement::*)()>(&::System::LocalDataStoreElement::get_Cookie)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3db2bb0;
+  constexpr static std::size_t addrs = 0x3e12c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreElement*>::get(), "get_Cookie",
@@ -61,7 +61,7 @@ constexpr ::System::Object*& System::LocalDataStoreElement::__cordl_internal_get
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::LocalDataStoreElement::__cordl_internal_get_m_value() const {
+constexpr ::System::Object* const& System::LocalDataStoreElement::__cordl_internal_get_m_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_value;
 }
@@ -80,9 +80,6 @@ constexpr int64_t const& System::LocalDataStoreElement::__cordl_internal_get_m_c
 constexpr void System::LocalDataStoreElement::__cordl_internal_set_m_cookie(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_cookie = value;
-}
-inline ::System::LocalDataStoreElement* System::LocalDataStoreElement::New_ctor(int64_t cookie) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStoreElement*>(cookie));
 }
 inline void System::LocalDataStoreElement::_ctor(int64_t cookie) {
   static auto* ___internal_method =
@@ -105,6 +102,9 @@ inline int64_t System::LocalDataStoreElement::get_Cookie() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreElement*>::get(), "get_Cookie",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+inline ::System::LocalDataStoreElement* System::LocalDataStoreElement::New_ctor(int64_t cookie) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::LocalDataStoreElement*>(cookie));
 }
 // Ctor Parameters []
 constexpr ::System::LocalDataStoreElement::LocalDataStoreElement() {}

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Properties/zzzz__IndexedCollectionPropertyBag_2_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayPropertyBag_1)
 namespace Unity::Properties {
@@ -16,13 +15,12 @@ template <typename TElement> class ArrayPropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::ArrayPropertyBag_1);
-// Type: Unity.Properties::ArrayPropertyBag`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Unity.Properties.IndexedCollectionPropertyBag`2<TList, TElement>
 namespace Unity::Properties {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// CS Name: ::Unity.Properties::ArrayPropertyBag`1<TElement>*
+// CS Name: Unity.Properties.ArrayPropertyBag`1<TElement>
 class CORDL_TYPE ArrayPropertyBag_1 : public ::Unity::Properties::IndexedCollectionPropertyBag_2<::ArrayW<TElement, ::Array<TElement>*>, TElement> {
 public:
   // Declarations
@@ -57,7 +55,7 @@ public:
   ArrayPropertyBag_1(ArrayPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

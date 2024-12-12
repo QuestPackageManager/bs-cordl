@@ -16,11 +16,10 @@ class DefaultValueAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::DefaultValueAttribute);
-// Type: System.ComponentModel::DefaultValueAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::ComponentModel {
 // Is value type: false
-// CS Name: ::System.ComponentModel::DefaultValueAttribute*
+// CS Name: System.ComponentModel.DefaultValueAttribute
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -29,10 +28,10 @@ public:
   /// @brief Field _value, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::System::Object* _value;
 
-  /// @brief Method Equals, addr 0x43e3a90, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x4444da4, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x43e3b9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x4444eb0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(::StringW value);
@@ -45,28 +44,28 @@ public:
 
   static inline ::System::ComponentModel::DefaultValueAttribute* New_ctor(int64_t value);
 
-  constexpr ::System::Object*& __cordl_internal_get__value();
+  constexpr ::System::Object* const& __cordl_internal_get__value() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
+  constexpr ::System::Object*& __cordl_internal_get__value();
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43e3a38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444d4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
-  /// @brief Method .ctor, addr 0x43e3a60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444d74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x43e39c8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444cdc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x43e38f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444c04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x43e395c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4444c70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method get_Value, addr 0x43e3a88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x4444d9c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -83,18 +82,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   DefaultValueAttribute(DefaultValueAttribute const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9334 };
+
   /// @brief Field _value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____value;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DefaultValueAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::ComponentModel::DefaultValueAttribute, ____value) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DefaultValueAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::DefaultValueAttribute);

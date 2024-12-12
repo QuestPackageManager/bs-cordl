@@ -4,8 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TextSlider_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ColorGradientSlider)
@@ -25,12 +26,6 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
-}
-namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
@@ -42,11 +37,10 @@ class ColorGradientSlider;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::ColorGradientSlider);
-// Type: HMUI::ColorGradientSlider
-// SizeInfo { instance_size: 416, native_size: -1, calculated_instance_size: 416, calculated_native_size: 416, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.TextSlider, UnityEngine.Color, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerUpHandler
 namespace HMUI {
 // Is value type: false
-// CS Name: ::HMUI::ColorGradientSlider*
+// CS Name: HMUI.ColorGradientSlider
 class CORDL_TYPE ColorGradientSlider : public ::HMUI::TextSlider {
 public:
   // Declarations
@@ -67,7 +61,7 @@ public:
   __declspec(property(get = __cordl_internal_get__lightColor, put = __cordl_internal_set__lightColor)) ::UnityEngine::Color _lightColor;
 
   /// @brief Field _stringBuilder, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__stringBuilder, put = setStaticF__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
+  __declspec(property(get = getStaticF__stringBuilder, put = setStaticF__stringBuilder)) ::System::Text::StringBuilder* _stringBuilder;
 
   /// @brief Field _textPrefix, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__textPrefix, put = __cordl_internal_set__textPrefix)) ::StringW _textPrefix;
@@ -75,7 +69,7 @@ public:
   /// @brief Field colorDidChangeEvent, offset 0x198, size 0x8
   __declspec(property(
       get = __cordl_internal_get_colorDidChangeEvent,
-      put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
+      put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
@@ -83,27 +77,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x399a090, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x39f0c90, size 0x98, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x399ac98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x39f1898, size 0x54, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::TextSlider* slider, float_t normalizedValue);
 
   static inline ::HMUI::ColorGradientSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x399a26c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x39f0e6c, size 0x8c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x399acec, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x39f18ec, size 0x98, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetColors, addr 0x399a3ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x39f0fac, size 0x30, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
-  /// @brief Method TextForNormalizedValue, addr 0x399ab00, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method TextForNormalizedValue, addr 0x39f1700, size 0x198, virtual true, abstract: false, final false
   inline ::StringW TextForNormalizedValue(float_t normalizedValue);
 
-  /// @brief Method UpdateVisuals, addr 0x399a3dc, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x39f0fdc, size 0x1b4, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
@@ -130,10 +124,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__textPrefix();
 
-  constexpr ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorDidChangeEvent();
+  constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* const& __cordl_internal_get_colorDidChangeEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*> const&
-  __cordl_internal_get_colorDidChangeEvent() const;
+  constexpr ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorDidChangeEvent();
 
   constexpr void __cordl_internal_set__color0(::UnityEngine::Color value);
 
@@ -147,13 +140,13 @@ public:
 
   constexpr void __cordl_internal_set__textPrefix(::StringW value);
 
-  constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x399ad84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39f1984, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x3999f28, size 0xb4, virtual false, abstract: false, final false
-  inline void add_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  /// @brief Method add_colorDidChangeEvent, addr 0x39f0b28, size 0xb4, virtual false, abstract: false, final false
+  inline void add_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline ::System::Text::StringBuilder* getStaticF__stringBuilder();
 
@@ -163,8 +156,8 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x3999fdc, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_colorDidChangeEvent(::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
+  /// @brief Method remove_colorDidChangeEvent, addr 0x39f0bdc, size 0xb4, virtual false, abstract: false, final false
+  inline void remove_colorDidChangeEvent(::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
   static inline void setStaticF__stringBuilder(::System::Text::StringBuilder* value);
 
@@ -181,6 +174,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ColorGradientSlider", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ColorGradientSlider(ColorGradientSlider const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16047 };
 
   /// @brief Field _textPrefix, offset: 0x148, size: 0x8, def value: None
   ::StringW ____textPrefix;
@@ -201,16 +197,11 @@ public:
   ::UnityEngine::Color ____lightColor;
 
   /// @brief Field colorDidChangeEvent, offset: 0x198, size: 0x8, def value: None
-  ::System::Action_3<::UnityW<::HMUI::ColorGradientSlider>, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16012 };
+  ::System::Action_3<::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* ___colorDidChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::ColorGradientSlider, 0x1a0>, "Size mismatch!");
-
 static_assert(offsetof(::HMUI::ColorGradientSlider, ____textPrefix) == 0x148, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ColorGradientSlider, ____color0) == 0x150, "Offset mismatch!");
@@ -224,6 +215,8 @@ static_assert(offsetof(::HMUI::ColorGradientSlider, ____darkColor) == 0x178, "Of
 static_assert(offsetof(::HMUI::ColorGradientSlider, ____lightColor) == 0x188, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::ColorGradientSlider, ___colorDidChangeEvent) == 0x198, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HMUI::ColorGradientSlider, 0x1a0>, "Size mismatch!");
 
 } // namespace HMUI
 NEED_NO_BOX(::HMUI::ColorGradientSlider);

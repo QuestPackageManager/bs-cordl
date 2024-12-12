@@ -23,11 +23,10 @@ class AvatarPropertyBlockColorSetter;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter);
-// Type: BeatSaber.BeatAvatarSDK::AvatarPropertyBlockColorSetter
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPropertyBlockColorSetter*
+// CS Name: BeatSaber.BeatAvatarSDK.AvatarPropertyBlockColorSetter
 class CORDL_TYPE AvatarPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -53,7 +52,7 @@ public:
   __declspec(property(get = __cordl_internal_get__mainColor, put = __cordl_internal_set__mainColor)) ::UnityEngine::Color _mainColor;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   /// @brief Field _renderer, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
@@ -64,24 +63,24 @@ public:
   /// @brief Field _whiteBoost, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteBoost, put = __cordl_internal_set__whiteBoost)) float_t _whiteBoost;
 
-  /// @brief Method Awake, addr 0x222e004, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2259578, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x222e014, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2259588, size 0xc4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetColor, addr 0x222e0d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x225964c, size 0x38, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetColors, addr 0x222e110, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x2259684, size 0x14, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color mainColor, ::UnityEngine::Color rimLightColor);
 
-  /// @brief Method SetHighlight, addr 0x222e2c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHighlight, addr 0x2259834, size 0xc, virtual false, abstract: false, final false
   inline void SetHighlight(bool highlighted, int32_t uvSegment);
 
-  /// @brief Method UpdateRenderer, addr 0x222e124, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method UpdateRenderer, addr 0x2259698, size 0x19c, virtual false, abstract: false, final false
   inline void UpdateRenderer();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__boostColor() const;
@@ -144,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  /// @brief Method .ctor, addr 0x222e2cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2259840, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
@@ -164,6 +163,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "AvatarPropertyBlockColorSetter", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   AvatarPropertyBlockColorSetter(AvatarPropertyBlockColorSetter const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18149 };
 
   /// @brief Field _defaultColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____defaultColor;
@@ -195,14 +197,9 @@ public:
   /// @brief Field _highlighted, offset: 0x78, size: 0x1, def value: None
   bool ____highlighted;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18069 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, ____defaultColor) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, ____darkerColorMultiplier) == 0x30, "Offset mismatch!");
@@ -222,6 +219,8 @@ static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSette
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, ____boostColor) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, ____highlighted) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter, 0x80>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter);

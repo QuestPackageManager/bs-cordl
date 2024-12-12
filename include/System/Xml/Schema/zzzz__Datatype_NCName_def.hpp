@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_Name_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_NCName)
 namespace System::Xml::Schema {
@@ -28,11 +27,10 @@ class Datatype_NCName;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_NCName);
-// Type: System.Xml.Schema::Datatype_NCName
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_Name
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_NCName*
+// CS Name: System.Xml.Schema.Datatype_NCName
 class CORDL_TYPE Datatype_NCName : public ::System::Xml::Schema::Datatype_Name {
 public:
   // Declarations
@@ -40,13 +38,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_NCName* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x434aaac, size 0xfc, virtual true, abstract: false, final false
-  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
+  /// @brief Method TryParseValue, addr 0x43abdc0, size 0xfc, virtual true, abstract: false, final false
+  inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ::ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x4342e84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a4198, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x434aaa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43abdb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -64,7 +62,7 @@ public:
   Datatype_NCName(Datatype_NCName const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

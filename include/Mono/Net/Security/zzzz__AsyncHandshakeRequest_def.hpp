@@ -17,20 +17,19 @@ class AsyncHandshakeRequest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Net::Security::AsyncHandshakeRequest);
-// Type: Mono.Net.Security::AsyncHandshakeRequest
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Mono.Net.Security.AsyncProtocolRequest
 namespace Mono::Net::Security {
 // Is value type: false
-// CS Name: ::Mono.Net.Security::AsyncHandshakeRequest*
+// CS Name: Mono.Net.Security.AsyncHandshakeRequest
 class CORDL_TYPE AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest {
 public:
   // Declarations
   static inline ::Mono::Net::Security::AsyncHandshakeRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
-  /// @brief Method Run, addr 0x40af384, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x4110698, size 0x1c, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x40af37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4110690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync);
 
 protected:
@@ -48,7 +47,7 @@ public:
   AsyncHandshakeRequest(AsyncHandshakeRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9138 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

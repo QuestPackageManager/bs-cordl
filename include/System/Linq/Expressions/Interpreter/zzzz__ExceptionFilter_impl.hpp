@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ExceptionFilter::*)(int32_t, int32_t, int32_t)>(
     &::System::Linq::Expressions::Interpreter::ExceptionFilter::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4074f00;
+  constexpr static std::size_t addrs = 0x40d6214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,15 +54,15 @@ constexpr void System::Linq::Expressions::Interpreter::ExceptionFilter::__cordl_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___EndIndex = value;
 }
-inline ::System::Linq::Expressions::Interpreter::ExceptionFilter* System::Linq::Expressions::Interpreter::ExceptionFilter::New_ctor(int32_t labelIndex, int32_t start, int32_t end) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ExceptionFilter*>(labelIndex, start, end));
-}
 inline void System::Linq::Expressions::Interpreter::ExceptionFilter::_ctor(int32_t labelIndex, int32_t start, int32_t end) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::ExceptionFilter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, labelIndex, start, end);
+}
+inline ::System::Linq::Expressions::Interpreter::ExceptionFilter* System::Linq::Expressions::Interpreter::ExceptionFilter::New_ctor(int32_t labelIndex, int32_t start, int32_t end) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::ExceptionFilter*>(labelIndex, start, end));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::ExceptionFilter::ExceptionFilter() {}

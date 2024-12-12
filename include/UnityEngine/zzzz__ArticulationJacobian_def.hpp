@@ -16,11 +16,10 @@ struct ArticulationJacobian;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ArticulationJacobian);
-// Type: UnityEngine::ArticulationJacobian
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
-// CS Name: ::UnityEngine::ArticulationJacobian
+// CS Name: UnityEngine.ArticulationJacobian
 struct CORDL_TYPE ArticulationJacobian {
 public:
   // Declarations
@@ -32,31 +31,31 @@ public:
 
   __declspec(property(get = get_rows, put = set_rows)) int32_t rows;
 
-  /// @brief Method .ctor, addr 0x488f63c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x48f3ccc, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int32_t rows, int32_t cols);
 
-  /// @brief Method get_Item, addr 0x488f754, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x48f3de4, size 0xb8, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t row, int32_t col);
 
-  /// @brief Method get_columns, addr 0x488f8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columns, addr 0x48f3f74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columns();
 
-  /// @brief Method get_elements, addr 0x488f8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_elements, addr 0x48f3f84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<float_t>* get_elements();
 
-  /// @brief Method get_rows, addr 0x488f8d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rows, addr 0x48f3f64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rows();
 
-  /// @brief Method set_Item, addr 0x488f80c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x48f3e9c, size 0xc8, virtual false, abstract: false, final false
   inline void set_Item(int32_t row, int32_t col, float_t value);
 
-  /// @brief Method set_columns, addr 0x488f8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columns, addr 0x48f3f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_columns(int32_t value);
 
-  /// @brief Method set_elements, addr 0x488f8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elements, addr 0x48f3f8c, size 0x8, virtual false, abstract: false, final false
   inline void set_elements(::System::Collections::Generic::List_1<float_t>* value);
 
-  /// @brief Method set_rows, addr 0x488f8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rows, addr 0x48f3f6c, size 0x8, virtual false, abstract: false, final false
   inline void set_rows(int32_t value);
 
   // Ctor Parameters []
@@ -67,6 +66,12 @@ public:
   // "matrixData", ty: "::System::Collections::Generic::List_1<float_t>*", modifiers: "", def_value: None }]
   constexpr ArticulationJacobian(int32_t rowsCount, int32_t colsCount, ::System::Collections::Generic::List_1<float_t>* matrixData) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15733 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field rowsCount, offset: 0x0, size: 0x4, def value: None
   int32_t rowsCount;
 
@@ -76,22 +81,16 @@ public:
   /// @brief Field matrixData, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<float_t>* matrixData;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15698 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ArticulationJacobian, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::ArticulationJacobian, rowsCount) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ArticulationJacobian, colsCount) == 0x4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::ArticulationJacobian, matrixData) == 0x8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ArticulationJacobian, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ArticulationJacobian, "UnityEngine", "ArticulationJacobian");

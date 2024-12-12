@@ -23,13 +23,12 @@ template <typename T> class FocusEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::FocusEventBase_1);
-// Type: UnityEngine.UIElements::FocusEventBase`1
-// SizeInfo { instance_size: 168, native_size: 161, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::FocusEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.FocusEventBase`1<T>
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -72,17 +71,17 @@ public:
 
   constexpr bool& __cordl_internal_get__IsFocusDelegated_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::FocusChangeDirection* const& __cordl_internal_get__direction_k__BackingField() const;
+
   constexpr ::UnityEngine::UIElements::FocusChangeDirection*& __cordl_internal_get__direction_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const& __cordl_internal_get__direction_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::FocusController* const& __cordl_internal_get__focusController_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::FocusController*& __cordl_internal_get__focusController_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusController*> const& __cordl_internal_get__focusController_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::Focusable* const& __cordl_internal_get__relatedTarget_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get__relatedTarget_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
 
   constexpr void __cordl_internal_set__IsFocusDelegated_k__BackingField(bool value);
 
@@ -133,6 +132,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   FocusEventBase_1(FocusEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5822 };
+
   /// @brief Field <relatedTarget>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____relatedTarget_k__BackingField;
 
@@ -144,9 +146,6 @@ public:
 
   /// @brief Field <IsFocusDelegated>k__BackingField, offset: 0xa0, size: 0x1, def value: None
   bool ____IsFocusDelegated_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5797 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

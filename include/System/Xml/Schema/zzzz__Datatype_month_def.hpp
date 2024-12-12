@@ -14,11 +14,10 @@ class Datatype_month;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::Datatype_month);
-// Type: System.Xml.Schema::Datatype_month
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.Datatype_dateTimeBase
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::Datatype_month*
+// CS Name: System.Xml.Schema.Datatype_month
 class CORDL_TYPE Datatype_month : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
@@ -26,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_month* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4342dd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x43a40e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x434975c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x43aaa70, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:
@@ -47,7 +46,7 @@ public:
   Datatype_month(Datatype_month const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7544 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

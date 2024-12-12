@@ -17,36 +17,31 @@ class IComboController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IComboController);
-// Type: ::IComboController
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::IComboController*
+// CS Name: IComboController
 class CORDL_TYPE IComboController {
 public:
   // Declarations
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method add_comboDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method remove_comboDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
-
-  // Ctor Parameters [CppParam { name: "", ty: "IComboController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IComboController(IComboController&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IComboController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IComboController(IComboController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4676 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

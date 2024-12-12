@@ -4,35 +4,33 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
-#include "GlobalNamespace/zzzz__SelectSubMenuDestination_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectSubMenuDestination)
 namespace GlobalNamespace {
-struct __SelectSubMenuDestination__Destination;
+struct SelectSubMenuDestination_Destination;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct __SelectSubMenuDestination__Destination;
+struct SelectSubMenuDestination_Destination;
 }
 namespace GlobalNamespace {
 class SelectSubMenuDestination;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__SelectSubMenuDestination__Destination);
+MARK_VAL_T(::GlobalNamespace::SelectSubMenuDestination_Destination);
 MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
-// Type: ::Destination
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SelectSubMenuDestination::Destination
-struct CORDL_TYPE __SelectSubMenuDestination__Destination {
+// CS Name: SelectSubMenuDestination/Destination
+struct CORDL_TYPE SelectSubMenuDestination_Destination {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____SelectSubMenuDestination__Destination_Unwrapped
-  enum struct ____SelectSubMenuDestination__Destination_Unwrapped : int32_t {
+  /// @brief Nested struct __SelectSubMenuDestination_Destination_Unwrapped
+  enum struct __SelectSubMenuDestination_Destination_Unwrapped : int32_t {
     __E_MainMenu = static_cast<int32_t>(0x0),
     __E_Campaign = static_cast<int32_t>(0x1),
     __E_SoloFreePlay = static_cast<int32_t>(0x2),
@@ -43,8 +41,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____SelectSubMenuDestination__Destination_Unwrapped() const noexcept {
-    return static_cast<____SelectSubMenuDestination__Destination_Unwrapped>(this->value__);
+  constexpr operator __SelectSubMenuDestination_Destination_Unwrapped() const noexcept {
+    return static_cast<__SelectSubMenuDestination_Destination_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -54,72 +52,71 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SelectSubMenuDestination__Destination();
+  constexpr SelectSubMenuDestination_Destination();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __SelectSubMenuDestination__Destination(int32_t value__) noexcept;
+  constexpr SelectSubMenuDestination_Destination(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field Campaign value: I32(1)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const Campaign;
 
-  /// @brief Field Campaign value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Campaign;
+  /// @brief Field MainMenu value: I32(0)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const MainMenu;
 
-  /// @brief Field MainMenu value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const MainMenu;
+  /// @brief Field Multiplayer value: I32(6)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const Multiplayer;
 
-  /// @brief Field Multiplayer value: static_cast<int32_t>(0x6)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Multiplayer;
+  /// @brief Field PartyFreePlay value: I32(3)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const PartyFreePlay;
 
-  /// @brief Field PartyFreePlay value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const PartyFreePlay;
+  /// @brief Field Settings value: I32(4)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const Settings;
 
-  /// @brief Field Settings value: static_cast<int32_t>(0x4)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Settings;
+  /// @brief Field SoloFreePlay value: I32(2)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const SoloFreePlay;
 
-  /// @brief Field SoloFreePlay value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const SoloFreePlay;
-
-  /// @brief Field Tutorial value: static_cast<int32_t>(0x5)
-  static ::GlobalNamespace::__SelectSubMenuDestination__Destination const Tutorial;
+  /// @brief Field Tutorial value: I32(5)
+  static ::GlobalNamespace::SelectSubMenuDestination_Destination const Tutorial;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12814 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SelectSubMenuDestination__Destination, 0x4>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SelectSubMenuDestination_Destination, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destination, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectSubMenuDestination_Destination, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SelectSubMenuDestination
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MenuDestination, SelectSubMenuDestination::Destination
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SelectSubMenuDestination*
+// CS Name: SelectSubMenuDestination
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
-  using Destination = ::GlobalNamespace::__SelectSubMenuDestination__Destination;
+  using Destination = ::GlobalNamespace::SelectSubMenuDestination_Destination;
 
   /// @brief Field menuDestination, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination)) ::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
+  __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination)) ::GlobalNamespace::SelectSubMenuDestination_Destination menuDestination;
 
-  static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
+  static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::SelectSubMenuDestination_Destination menuDestination);
 
-  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& __cordl_internal_get_menuDestination() const;
+  constexpr ::GlobalNamespace::SelectSubMenuDestination_Destination const& __cordl_internal_get_menuDestination() const;
 
-  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& __cordl_internal_get_menuDestination();
+  constexpr ::GlobalNamespace::SelectSubMenuDestination_Destination& __cordl_internal_get_menuDestination();
 
-  constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value);
+  constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::SelectSubMenuDestination_Destination value);
 
-  /// @brief Method .ctor, addr 0x2678318, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
+  /// @brief Method .ctor, addr 0x26ac8d0, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::SelectSubMenuDestination_Destination menuDestination);
 
 protected:
   // Ctor Parameters []
@@ -135,20 +132,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SelectSubMenuDestination(SelectSubMenuDestination const&) = delete;
 
-  /// @brief Field menuDestination, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::__SelectSubMenuDestination__Destination ___menuDestination;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12815 };
+
+  /// @brief Field menuDestination, offset: 0x10, size: 0x4, def value: None
+  ::GlobalNamespace::SelectSubMenuDestination_Destination ___menuDestination;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectSubMenuDestination, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SelectSubMenuDestination, ___menuDestination) == 0x10, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectSubMenuDestination, 0x18>, "Size mismatch!");
+
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SelectSubMenuDestination__Destination, "", "SelectSubMenuDestination/Destination");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectSubMenuDestination_Destination, "", "SelectSubMenuDestination/Destination");
 NEED_NO_BOX(::GlobalNamespace::SelectSubMenuDestination);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SelectSubMenuDestination*, "", "SelectSubMenuDestination");

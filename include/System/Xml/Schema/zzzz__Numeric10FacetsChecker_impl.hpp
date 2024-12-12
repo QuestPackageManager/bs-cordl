@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::Numeric10FacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4348844;
+  constexpr static std::size_t addrs = 0x43a9b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4355654;
+  constexpr static std::size_t addrs = 0x43b6968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x43556c4;
+  constexpr static std::size_t addrs = 0x43b69d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(int64_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4355d98;
+  constexpr static std::size_t addrs = 0x43b70ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(int32_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4355e24;
+  constexpr static std::size_t addrs = 0x43b7138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(int16_t, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4355eb0;
+  constexpr static std::size_t addrs = 0x43b71c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Numeric10FacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::Numeric10FacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4355f3c;
+  constexpr static std::size_t addrs = 0x43b7250;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Numeric10FacetsChecker::*)(
     ::System::Decimal, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlValueConverter*)>(&::System::Xml::Schema::Numeric10FacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4355c74;
+  constexpr static std::size_t addrs = 0x43b6f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::Numeric10FacetsChecker::*)(::System::Decimal, int32_t, int32_t, bool, bool)>(&::System::Xml::Schema::Numeric10FacetsChecker::CheckTotalAndFractionDigits)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x434eac4;
+  constexpr static std::size_t addrs = 0x43afdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,9 +181,6 @@ inline void System::Xml::Schema::Numeric10FacetsChecker::setStaticF_signs(::Arra
 inline ::ArrayW<char16_t, ::Array<char16_t>*> System::Xml::Schema::Numeric10FacetsChecker::getStaticF_signs() {
   return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "signs",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Numeric10FacetsChecker*>::get>();
-}
-inline ::System::Xml::Schema::Numeric10FacetsChecker* System::Xml::Schema::Numeric10FacetsChecker::New_ctor(::System::Decimal minVal, ::System::Decimal maxVal) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Numeric10FacetsChecker*>(minVal, maxVal));
 }
 inline void System::Xml::Schema::Numeric10FacetsChecker::_ctor(::System::Decimal minVal, ::System::Decimal maxVal) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -239,6 +236,9 @@ inline ::System::Exception* System::Xml::Schema::Numeric10FacetsChecker::CheckTo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, value, totalDigits, fractionDigits, checkTotal, checkFraction);
+}
+inline ::System::Xml::Schema::Numeric10FacetsChecker* System::Xml::Schema::Numeric10FacetsChecker::New_ctor(::System::Decimal minVal, ::System::Decimal maxVal) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::Numeric10FacetsChecker*>(minVal, maxVal));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::Numeric10FacetsChecker::Numeric10FacetsChecker() {}

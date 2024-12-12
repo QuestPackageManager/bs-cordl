@@ -22,11 +22,10 @@ class ApplicationInvite;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
-// Type: Oculus.Platform.Models::ApplicationInvite
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::ApplicationInvite*
+// CS Name: Oculus.Platform.Models.ApplicationInvite
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
   // Declarations
@@ -56,13 +55,13 @@ public:
 
   static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(::System::IntPtr o);
 
+  constexpr ::Oculus::Platform::Models::Destination* const& __cordl_internal_get_Destination() const;
+
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_Destination() const;
+  constexpr ::Oculus::Platform::Models::Destination* const& __cordl_internal_get_DestinationOptional() const;
 
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
 
   constexpr bool const& __cordl_internal_get_IsActive() const;
 
@@ -76,13 +75,13 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_MatchSessionId();
 
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_Recipient() const;
+
   constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_Recipient();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_Recipient() const;
+  constexpr ::Oculus::Platform::Models::User* const& __cordl_internal_get_RecipientOptional() const;
 
   constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_RecipientOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_RecipientOptional() const;
 
   constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
@@ -104,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f2dc44, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f8dcf0, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -120,6 +119,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ApplicationInvite(ApplicationInvite const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15496 };
 
   /// @brief Field DestinationOptional, offset: 0x10, size: 0x8, def value: None
   ::Oculus::Platform::Models::Destination* ___DestinationOptional;
@@ -145,14 +147,9 @@ public:
   /// @brief Field Recipient, offset: 0x48, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___Recipient;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15461 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ApplicationInvite, 0x50>, "Size mismatch!");
-
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___DestinationOptional) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___Destination) == 0x18, "Offset mismatch!");
@@ -168,6 +165,8 @@ static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___MatchSe
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___RecipientOptional) == 0x40, "Offset mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ApplicationInvite, ___Recipient) == 0x48, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ApplicationInvite, 0x50>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ApplicationInvite);

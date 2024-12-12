@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewSetting* (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::get_Item)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x410bda0;
+  constexpr static std::size_t addrs = 0x416d0b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*, ::System::Data::DataViewSetting*)>(
     &::System::Data::DataViewSettingCollection::set_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x410be98;
+  constexpr static std::size_t addrs = 0x416d1ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataViewSettingCollection::*)(::System::Data::DataTable*)>(
     &::System::Data::DataViewSettingCollection::Remove)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x410bf18;
+  constexpr static std::size_t addrs = 0x416d22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ constexpr ::System::Data::DataViewManager*& System::Data::DataViewSettingCollect
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::DataViewManager*> const& System::Data::DataViewSettingCollection::__cordl_internal_get__dataViewManager() const {
+constexpr ::System::Data::DataViewManager* const& System::Data::DataViewSettingCollection::__cordl_internal_get__dataViewManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dataViewManager;
 }
@@ -67,7 +67,7 @@ constexpr ::System::Collections::Hashtable*& System::Data::DataViewSettingCollec
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Data::DataViewSettingCollection::__cordl_internal_get__list() const {
+constexpr ::System::Collections::Hashtable* const& System::Data::DataViewSettingCollection::__cordl_internal_get__list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____list;
 }

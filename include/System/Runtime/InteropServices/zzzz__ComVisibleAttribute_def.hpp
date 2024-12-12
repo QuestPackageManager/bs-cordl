@@ -11,11 +11,10 @@ class ComVisibleAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::ComVisibleAttribute);
-// Type: System.Runtime.InteropServices::ComVisibleAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::ComVisibleAttribute*
+// CS Name: System.Runtime.InteropServices.ComVisibleAttribute
 class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   constexpr void __cordl_internal_set__val(bool value);
 
-  /// @brief Method .ctor, addr 0x3cb3330, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d134a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visibility);
 
 protected:
@@ -47,18 +46,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ComVisibleAttribute(ComVisibleAttribute const&) = delete;
 
-  /// @brief Field _val, offset: 0x10, size: 0x1, def value: None
-  bool ____val;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3319 };
+
+  /// @brief Field _val, offset: 0x10, size: 0x1, def value: None
+  bool ____val;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ComVisibleAttribute, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Runtime::InteropServices::ComVisibleAttribute, ____val) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::ComVisibleAttribute, 0x18>, "Size mismatch!");
 
 } // namespace System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::ComVisibleAttribute);

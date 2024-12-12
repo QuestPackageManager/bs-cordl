@@ -3,29 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise)
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
 // Forward declare root types
-namespace System::Threading::Tasks {
-class __Task__WhenAllPromise;
+namespace GlobalNamespace {
+class Task_WhenAllPromise;
 }
 // Write type traits
-MARK_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise);
-// Type: ::WhenAllPromise
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, packing: None, specified_packing: None }
-namespace System::Threading::Tasks {
+MARK_REF_PTR_T(::GlobalNamespace::Task_WhenAllPromise);
+// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>, System.Threading.Tasks.VoidTaskResult
+namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::Task::WhenAllPromise*
-class CORDL_TYPE __Task__WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
+// CS Name: System.Threading.Tasks.Task/WhenAllPromise
+class CORDL_TYPE Task_WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
@@ -41,10 +37,10 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x3e078d0, size 0x2d0, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x3e6797c, size 0x2d0, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
-  static inline ::System::Threading::Tasks::__Task__WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
+  static inline ::GlobalNamespace::Task_WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
   constexpr int32_t const& __cordl_internal_get_m_count() const;
 
@@ -58,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> value);
 
-  /// @brief Method .ctor, addr 0x3e06800, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3e668ac, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3e07c14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3e67cc0, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x3e07ba0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x3e67c4c, size 0x74, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
@@ -73,16 +69,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Task__WhenAllPromise();
+  constexpr Task_WhenAllPromise();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_WhenAllPromise", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Task__WhenAllPromise(__Task__WhenAllPromise&&) = delete;
+  Task_WhenAllPromise(Task_WhenAllPromise&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Task_WhenAllPromise", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Task__WhenAllPromise(__Task__WhenAllPromise const&) = delete;
+  Task_WhenAllPromise(Task_WhenAllPromise const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };
 
   /// @brief Field m_tasks, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> ___m_tasks;
@@ -90,18 +89,15 @@ public:
   /// @brief Field m_count, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_count;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task__WhenAllPromise, 0x68>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::Task_WhenAllPromise, ___m_tasks) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::Tasks::__Task__WhenAllPromise, ___m_tasks) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::Task_WhenAllPromise, ___m_count) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::System::Threading::Tasks::__Task__WhenAllPromise, ___m_count) == 0x60, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Task_WhenAllPromise, 0x68>, "Size mismatch!");
 
-} // namespace System::Threading::Tasks
-NEED_NO_BOX(::System::Threading::Tasks::__Task__WhenAllPromise);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::__Task__WhenAllPromise*, "System.Threading.Tasks", "Task/WhenAllPromise");
+} // namespace GlobalNamespace
+NEED_NO_BOX(::GlobalNamespace::Task_WhenAllPromise);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Task_WhenAllPromise*, "System.Threading.Tasks", "Task/WhenAllPromise");

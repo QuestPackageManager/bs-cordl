@@ -12,11 +12,10 @@ struct AlertDescription;
 }
 // Write type traits
 MARK_VAL_T(::Mono::Security::Interface::AlertDescription);
-// Type: Mono.Security.Interface::AlertDescription
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono::Security::Interface {
 // Is value type: true
-// CS Name: ::Mono.Security.Interface::AlertDescription
+// CS Name: Mono.Security.Interface.AlertDescription
 struct CORDL_TYPE AlertDescription {
 public:
   // Declarations
@@ -68,96 +67,96 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
   constexpr AlertDescription(uint8_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
-
-  /// @brief Field AccessDenied value: static_cast<uint8_t>(0x31u)
+  /// @brief Field AccessDenied value: U8(49)
   static ::Mono::Security::Interface::AlertDescription const AccessDenied;
 
-  /// @brief Field BadCertificate value: static_cast<uint8_t>(0x2au)
+  /// @brief Field BadCertificate value: U8(42)
   static ::Mono::Security::Interface::AlertDescription const BadCertificate;
 
-  /// @brief Field BadRecordMAC value: static_cast<uint8_t>(0x14u)
+  /// @brief Field BadRecordMAC value: U8(20)
   static ::Mono::Security::Interface::AlertDescription const BadRecordMAC;
 
-  /// @brief Field CertificateExpired value: static_cast<uint8_t>(0x2du)
+  /// @brief Field CertificateExpired value: U8(45)
   static ::Mono::Security::Interface::AlertDescription const CertificateExpired;
 
-  /// @brief Field CertificateRevoked value: static_cast<uint8_t>(0x2cu)
+  /// @brief Field CertificateRevoked value: U8(44)
   static ::Mono::Security::Interface::AlertDescription const CertificateRevoked;
 
-  /// @brief Field CertificateUnknown value: static_cast<uint8_t>(0x2eu)
+  /// @brief Field CertificateUnknown value: U8(46)
   static ::Mono::Security::Interface::AlertDescription const CertificateUnknown;
 
-  /// @brief Field CloseNotify value: static_cast<uint8_t>(0x0u)
+  /// @brief Field CloseNotify value: U8(0)
   static ::Mono::Security::Interface::AlertDescription const CloseNotify;
 
-  /// @brief Field DecodeError value: static_cast<uint8_t>(0x32u)
+  /// @brief Field DecodeError value: U8(50)
   static ::Mono::Security::Interface::AlertDescription const DecodeError;
 
-  /// @brief Field DecompressionFailure value: static_cast<uint8_t>(0x1eu)
+  /// @brief Field DecompressionFailure value: U8(30)
   static ::Mono::Security::Interface::AlertDescription const DecompressionFailure;
 
-  /// @brief Field DecryptError value: static_cast<uint8_t>(0x33u)
+  /// @brief Field DecryptError value: U8(51)
   static ::Mono::Security::Interface::AlertDescription const DecryptError;
 
-  /// @brief Field DecryptionFailed_RESERVED value: static_cast<uint8_t>(0x15u)
+  /// @brief Field DecryptionFailed_RESERVED value: U8(21)
   static ::Mono::Security::Interface::AlertDescription const DecryptionFailed_RESERVED;
 
-  /// @brief Field ExportRestriction value: static_cast<uint8_t>(0x3cu)
+  /// @brief Field ExportRestriction value: U8(60)
   static ::Mono::Security::Interface::AlertDescription const ExportRestriction;
 
-  /// @brief Field HandshakeFailure value: static_cast<uint8_t>(0x28u)
+  /// @brief Field HandshakeFailure value: U8(40)
   static ::Mono::Security::Interface::AlertDescription const HandshakeFailure;
 
-  /// @brief Field IlegalParameter value: static_cast<uint8_t>(0x2fu)
+  /// @brief Field IlegalParameter value: U8(47)
   static ::Mono::Security::Interface::AlertDescription const IlegalParameter;
 
-  /// @brief Field InsuficientSecurity value: static_cast<uint8_t>(0x47u)
+  /// @brief Field InsuficientSecurity value: U8(71)
   static ::Mono::Security::Interface::AlertDescription const InsuficientSecurity;
 
-  /// @brief Field InternalError value: static_cast<uint8_t>(0x50u)
+  /// @brief Field InternalError value: U8(80)
   static ::Mono::Security::Interface::AlertDescription const InternalError;
 
-  /// @brief Field NoCertificate_RESERVED value: static_cast<uint8_t>(0x29u)
+  /// @brief Field NoCertificate_RESERVED value: U8(41)
   static ::Mono::Security::Interface::AlertDescription const NoCertificate_RESERVED;
 
-  /// @brief Field NoRenegotiation value: static_cast<uint8_t>(0x64u)
+  /// @brief Field NoRenegotiation value: U8(100)
   static ::Mono::Security::Interface::AlertDescription const NoRenegotiation;
 
-  /// @brief Field ProtocolVersion value: static_cast<uint8_t>(0x46u)
+  /// @brief Field ProtocolVersion value: U8(70)
   static ::Mono::Security::Interface::AlertDescription const ProtocolVersion;
 
-  /// @brief Field RecordOverflow value: static_cast<uint8_t>(0x16u)
+  /// @brief Field RecordOverflow value: U8(22)
   static ::Mono::Security::Interface::AlertDescription const RecordOverflow;
 
-  /// @brief Field UnexpectedMessage value: static_cast<uint8_t>(0xau)
+  /// @brief Field UnexpectedMessage value: U8(10)
   static ::Mono::Security::Interface::AlertDescription const UnexpectedMessage;
 
-  /// @brief Field UnknownCA value: static_cast<uint8_t>(0x30u)
+  /// @brief Field UnknownCA value: U8(48)
   static ::Mono::Security::Interface::AlertDescription const UnknownCA;
 
-  /// @brief Field UnsupportedCertificate value: static_cast<uint8_t>(0x2bu)
+  /// @brief Field UnsupportedCertificate value: U8(43)
   static ::Mono::Security::Interface::AlertDescription const UnsupportedCertificate;
 
-  /// @brief Field UnsupportedExtension value: static_cast<uint8_t>(0x6eu)
+  /// @brief Field UnsupportedExtension value: U8(110)
   static ::Mono::Security::Interface::AlertDescription const UnsupportedExtension;
 
-  /// @brief Field UserCancelled value: static_cast<uint8_t>(0x5au)
+  /// @brief Field UserCancelled value: U8(90)
   static ::Mono::Security::Interface::AlertDescription const UserCancelled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+  uint8_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::AlertDescription, 0x1>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::Security::Interface::AlertDescription, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::AlertDescription, 0x1>, "Size mismatch!");
 
 } // namespace Mono::Security::Interface
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::AlertDescription, "Mono.Security.Interface", "AlertDescription");

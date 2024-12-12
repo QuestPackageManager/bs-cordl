@@ -9,59 +9,59 @@
 #include "UnityEngine/zzzz__Cloth_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__DroneHover__SineLayer._ctor
+//  Writing Method size for method: ::GlobalNamespace::DroneHover_SineLayer._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__DroneHover__SineLayer::*)()>(&::GlobalNamespace::__DroneHover__SineLayer::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover_SineLayer::*)()>(&::GlobalNamespace::DroneHover_SineLayer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a73ea4;
+  constexpr static std::size_t addrs = 0x3acb214;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DroneHover__SineLayer*>::get(), ".ctor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover_SineLayer*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_get_multiplier() {
+constexpr float_t& GlobalNamespace::DroneHover_SineLayer::__cordl_internal_get_multiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
-constexpr float_t const& GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_get_multiplier() const {
+constexpr float_t const& GlobalNamespace::DroneHover_SineLayer::__cordl_internal_get_multiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplier;
 }
-constexpr void GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_set_multiplier(float_t value) {
+constexpr void GlobalNamespace::DroneHover_SineLayer::__cordl_internal_set_multiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___multiplier = value;
 }
-constexpr float_t& GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_get_offset() {
+constexpr float_t& GlobalNamespace::DroneHover_SineLayer::__cordl_internal_get_offset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr float_t const& GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_get_offset() const {
+constexpr float_t const& GlobalNamespace::DroneHover_SineLayer::__cordl_internal_get_offset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___offset;
 }
-constexpr void GlobalNamespace::__DroneHover__SineLayer::__cordl_internal_set_offset(float_t value) {
+constexpr void GlobalNamespace::DroneHover_SineLayer::__cordl_internal_set_offset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___offset = value;
 }
-inline ::GlobalNamespace::__DroneHover__SineLayer* GlobalNamespace::__DroneHover__SineLayer::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__DroneHover__SineLayer*>());
-}
-inline void GlobalNamespace::__DroneHover__SineLayer::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__DroneHover__SineLayer*>::get(), ".ctor",
+inline void GlobalNamespace::DroneHover_SineLayer::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover_SineLayer*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::DroneHover_SineLayer* GlobalNamespace::DroneHover_SineLayer::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DroneHover_SineLayer*>());
+}
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__DroneHover__SineLayer::__DroneHover__SineLayer() {}
+constexpr ::GlobalNamespace::DroneHover_SineLayer::DroneHover_SineLayer() {}
 //  Writing Method size for method: ::GlobalNamespace::DroneHover.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Start)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3a7390c;
+  constexpr static std::size_t addrs = 0x3acac7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "Start",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::Update)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3a7393c;
+  constexpr static std::size_t addrs = 0x3acacac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "Update",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::DroneHover::*)(float_t)>(&::GlobalNamespace::DroneHover::GetNoiseVec3)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3a73a54;
+  constexpr static std::size_t addrs = 0x3acadc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::DroneHover::*)(float_t, float_t)>(&::GlobalNamespace::DroneHover::GetNoise)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a73d94;
+  constexpr static std::size_t addrs = 0x3acb104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::UpdateTiltTransform)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3a73ad0;
+  constexpr static std::size_t addrs = 0x3acae40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "UpdateTiltTransform",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroneHover::*)()>(&::GlobalNamespace::DroneHover::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3a73e88;
+  constexpr static std::size_t addrs = 0x3acb1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), ".ctor",
@@ -160,16 +160,15 @@ constexpr void GlobalNamespace::DroneHover::__cordl_internal_set__speed(float_t 
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____speed = value;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*& GlobalNamespace::DroneHover::__cordl_internal_get__compoundSins() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>*& GlobalNamespace::DroneHover::__cordl_internal_get__compoundSins() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundSins;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>*> const&
-GlobalNamespace::DroneHover::__cordl_internal_get__compoundSins() const {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* const& GlobalNamespace::DroneHover::__cordl_internal_get__compoundSins() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____compoundSins;
 }
-constexpr void GlobalNamespace::DroneHover::__cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::__DroneHover__SineLayer*>* value) {
+constexpr void GlobalNamespace::DroneHover::__cordl_internal_set__compoundSins(::System::Collections::Generic::List_1<::GlobalNamespace::DroneHover_SineLayer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____compoundSins)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -177,8 +176,7 @@ constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transfo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tiltTransforms;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const&
-GlobalNamespace::DroneHover::__cordl_internal_get__tiltTransforms() const {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* const& GlobalNamespace::DroneHover::__cordl_internal_get__tiltTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tiltTransforms;
 }
@@ -274,7 +272,6 @@ inline ::UnityEngine::Vector3 GlobalNamespace::DroneHover::GetNoiseVec3(float_t 
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, time);
 }
-/// @param offset: float_t (default: 0.0)
 inline float_t GlobalNamespace::DroneHover::GetNoise(float_t time, float_t offset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), "GetNoise", std::span<Il2CppClass const* const, 0>(),
@@ -286,13 +283,13 @@ inline void GlobalNamespace::DroneHover::UpdateTiltTransform() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DroneHover* GlobalNamespace::DroneHover::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DroneHover*>());
-}
 inline void GlobalNamespace::DroneHover::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroneHover*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::DroneHover* GlobalNamespace::DroneHover::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DroneHover*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DroneHover::DroneHover() {}

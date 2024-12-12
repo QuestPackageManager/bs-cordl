@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OneTimeLightColorEffect::*)()>(&::GlobalNamespace::OneTimeLightColorEffect::Update)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b201f4;
+  constexpr static std::size_t addrs = 0x3b813a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OneTimeLightColorEffect*>::get(), "Update",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OneTimeLightColorEffect::*)()>(&::GlobalNamespace::OneTimeLightColorEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b20250;
+  constexpr static std::size_t addrs = 0x3b813fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OneTimeLightColorEffect*>::get(), ".ctor",
@@ -83,13 +83,13 @@ inline void GlobalNamespace::OneTimeLightColorEffect::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OneTimeLightColorEffect* GlobalNamespace::OneTimeLightColorEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OneTimeLightColorEffect*>());
-}
 inline void GlobalNamespace::OneTimeLightColorEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OneTimeLightColorEffect*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OneTimeLightColorEffect* GlobalNamespace::OneTimeLightColorEffect::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OneTimeLightColorEffect*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OneTimeLightColorEffect::OneTimeLightColorEffect() {}

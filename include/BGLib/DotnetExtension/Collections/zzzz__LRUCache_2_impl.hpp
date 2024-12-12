@@ -7,58 +7,55 @@
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
-template <typename TKey, typename TValue> constexpr TKey& BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_get__key() {
+template <typename TKey, typename TValue> constexpr TKey& BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_get__key() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-template <typename TKey, typename TValue> constexpr TKey const& BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_get__key() const {
+template <typename TKey, typename TValue> constexpr TKey const& BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_get__key() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____key;
 }
-template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_set__key(TKey value) {
+template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_set__key(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____key, value);
 }
-template <typename TKey, typename TValue> constexpr TValue& BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_get_value() {
+template <typename TKey, typename TValue> constexpr TValue& BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-template <typename TKey, typename TValue> constexpr TValue const& BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_get_value() const {
+template <typename TKey, typename TValue> constexpr TValue const& BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__cordl_internal_set_value(TValue value) {
+template <typename TKey, typename TValue> constexpr void BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::__cordl_internal_set_value(TValue value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___value, value);
 }
-template <typename TKey, typename TValue> inline TKey BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::get_key() {
+template <typename TKey, typename TValue> inline TKey BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::get_key() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>::get(),
-                                               "get_key", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>::get(), "get_key",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method);
 }
-template <typename TKey, typename TValue>
-inline ::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>* BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::New_ctor(TKey key,
-                                                                                                                                                                                TValue value) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>(key, value));
-}
-template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::_ctor(TKey key, TValue value) {
+template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::_ctor(TKey key, TValue value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>::get(), ".ctor",
-      std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
 }
+template <typename TKey, typename TValue>
+inline ::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>* BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::New_ctor(TKey key, TValue value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>(key, value));
+}
 // Ctor Parameters []
-template <typename TKey, typename TValue> constexpr ::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>::__LRUCache_2__CacheElement() {}
+template <typename TKey, typename TValue> constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>::LRUCache_2_CacheElement() {}
 template <typename TKey, typename TValue>
 constexpr ::System::Action_2<TKey, TValue>*& BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get_itemWillBeRemovedFromCacheEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemWillBeRemovedFromCacheEvent;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TKey, TValue>*> const&
-BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get_itemWillBeRemovedFromCacheEvent() const {
+constexpr ::System::Action_2<TKey, TValue>* const& BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get_itemWillBeRemovedFromCacheEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___itemWillBeRemovedFromCacheEvent;
 }
@@ -68,39 +65,38 @@ constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__
   ::cordl_internals::setInstanceField(this, &this->___itemWillBeRemovedFromCacheEvent, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*&
+constexpr ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*&
 BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get__cacheContent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheContent;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*> const&
+constexpr ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>* const&
 BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get__cacheContent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cacheContent;
 }
 template <typename TKey, typename TValue>
 constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_set__cacheContent(
-    ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* value) {
+    ::System::Collections::Generic::LinkedList_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____cacheContent, value);
 }
 template <typename TKey, typename TValue>
-constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>*&
+constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*>*&
 BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get__index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<
-    ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>*> const&
+constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*>* const&
 BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_get__index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____index;
 }
 template <typename TKey, typename TValue>
 constexpr void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::__cordl_internal_set__index(
-    ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>* value) {
+    ::System::Collections::Generic::Dictionary_2<TKey, ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____index, value);
 }
@@ -128,10 +124,6 @@ template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Co
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename TKey, typename TValue>
-inline ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::New_ctor(int32_t maxNumberElements) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>(maxNumberElements));
-}
 template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::_ctor(int32_t maxNumberElements) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>::get(), ".ctor",
@@ -152,18 +144,18 @@ template <typename TKey, typename TValue> inline int32_t BGLib::DotnetExtension:
 }
 template <typename TKey, typename TValue>
 inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::MakeNodeMostRecentlyUsed(
-    ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>* node) {
+    ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>* node) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>::get(),
                                                "MakeNodeMostRecentlyUsed", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                   ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::__LRUCache_2__CacheElement<TKey, TValue>*>*>::get() })));
+                                                   ::System::Collections::Generic::LinkedListNode_1<::BGLib::DotnetExtension::Collections::LRUCache_2_CacheElement<TKey, TValue>*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-template <typename TKey, typename TValue> inline bool BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::TryGetFromCache(TKey key, ByRef<TValue> value) {
+template <typename TKey, typename TValue> inline bool BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::TryGetFromCache(TKey key, ::ByRef<TValue> value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>::get(), "TryGetFromCache", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<TValue>>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, key, value);
 }
 template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::Add(TKey key, TValue value) {
@@ -183,6 +175,10 @@ template <typename TKey, typename TValue> inline void BGLib::DotnetExtension::Co
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>::get(), "Clear",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TKey, typename TValue>
+inline ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>* BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::New_ctor(int32_t maxNumberElements) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>*>(maxNumberElements));
 }
 // Ctor Parameters []
 template <typename TKey, typename TValue> constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<TKey, TValue>::LRUCache_2() {}

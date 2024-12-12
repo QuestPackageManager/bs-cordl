@@ -1,20 +1,19 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ArticulationReducedSpace.hpp"
-#include "UnityEngine/zzzz__ArticulationReducedSpace_impl.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "float_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuffer::__ArticulationReducedSpace___x_e__FixedBuffer(float_t FixedElementField) noexcept {
+constexpr ::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer::ArticulationReducedSpace__x_e__FixedBuffer(float_t FixedElementField) noexcept {
   this->FixedElementField = FixedElementField;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuffer::__ArticulationReducedSpace___x_e__FixedBuffer() {}
+constexpr ::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer::ArticulationReducedSpace__x_e__FixedBuffer() {}
 //  Writing Method size for method: ::UnityEngine::ArticulationReducedSpace.get_Item
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ArticulationReducedSpace::*)(int32_t)>(&::UnityEngine::ArticulationReducedSpace::get_Item)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x488f560;
+  constexpr static std::size_t addrs = 0x48f3bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationReducedSpace::*)(int32_t, float_t)>(
     &::UnityEngine::ArticulationReducedSpace::set_Item)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x488f5b4;
+  constexpr static std::size_t addrs = 0x48f3c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationReducedSpace::*)(float_t)>(&::UnityEngine::ArticulationReducedSpace::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x488f608;
+  constexpr static std::size_t addrs = 0x48f3c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationReducedSpace::*)(float_t, float_t)>(
     &::UnityEngine::ArticulationReducedSpace::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x488f618;
+  constexpr static std::size_t addrs = 0x48f3ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ArticulationReducedSpace::*)(float_t, float_t, float_t)>(
     &::UnityEngine::ArticulationReducedSpace::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x488f628;
+  constexpr static std::size_t addrs = 0x48f3cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,9 +113,9 @@ inline void UnityEngine::ArticulationReducedSpace::_ctor(float_t a, float_t b, f
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a, b, c);
 }
-// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "dofCount", ty: "int32_t",
+// Ctor Parameters [CppParam { name: "x", ty: "::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "dofCount", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::ArticulationReducedSpace::ArticulationReducedSpace(::UnityEngine::__ArticulationReducedSpace___x_e__FixedBuffer x, int32_t dofCount) noexcept {
+constexpr ::UnityEngine::ArticulationReducedSpace::ArticulationReducedSpace(::UnityEngine::ArticulationReducedSpace__x_e__FixedBuffer x, int32_t dofCount) noexcept {
   this->x = x;
   this->dofCount = dofCount;
 }

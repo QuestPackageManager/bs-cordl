@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__StereoTargetEyeMask_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FirstPersonFlyingController)
 namespace GlobalNamespace {
@@ -35,11 +34,10 @@ class FirstPersonFlyingController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
-// Type: ::FirstPersonFlyingController
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.StereoTargetEyeMask
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::FirstPersonFlyingController*
+// CS Name: FirstPersonFlyingController
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -79,25 +77,28 @@ public:
   __declspec(property(get = __cordl_internal_get__originalStereoTargetEyeMask,
                       put = __cordl_internal_set__originalStereoTargetEyeMask)) ::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
 
+  /// @brief Field _overrideDisableMovement, offset 0x80, size 0x1
+  __declspec(property(get = __cordl_internal_get__overrideDisableMovement, put = __cordl_internal_set__overrideDisableMovement)) bool _overrideDisableMovement;
+
   /// @brief Field _trackedPoseDriver, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__trackedPoseDriver, put = __cordl_internal_set__trackedPoseDriver)) ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> _trackedPoseDriver;
 
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x3aafbb8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x3b0cb7c, size 0xf8, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
-                     ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver);
+                     ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool overrideDisableMovement);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3aaf230, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3b0c1cc, size 0x24c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3aaef20, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3b0bebc, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3aaf47c, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x3b0c418, size 0x3bc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -128,9 +129,9 @@ public:
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__controllerModels();
 
-  constexpr ::GlobalNamespace::MouseLook*& __cordl_internal_get__mouseLook();
+  constexpr ::GlobalNamespace::MouseLook* const& __cordl_internal_get__mouseLook() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MouseLook*> const& __cordl_internal_get__mouseLook() const;
+  constexpr ::GlobalNamespace::MouseLook*& __cordl_internal_get__mouseLook();
 
   constexpr float_t const& __cordl_internal_get__moveSensitivity() const;
 
@@ -143,6 +144,10 @@ public:
   constexpr ::UnityEngine::StereoTargetEyeMask const& __cordl_internal_get__originalStereoTargetEyeMask() const;
 
   constexpr ::UnityEngine::StereoTargetEyeMask& __cordl_internal_get__originalStereoTargetEyeMask();
+
+  constexpr bool const& __cordl_internal_get__overrideDisableMovement() const;
+
+  constexpr bool& __cordl_internal_get__overrideDisableMovement();
 
   constexpr ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> const& __cordl_internal_get__trackedPoseDriver() const;
 
@@ -174,11 +179,13 @@ public:
 
   constexpr void __cordl_internal_set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value);
 
+  constexpr void __cordl_internal_set__overrideDisableMovement(bool value);
+
   constexpr void __cordl_internal_set__trackedPoseDriver(::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> value);
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3aafc9c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b0cc74, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,6 +201,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "FirstPersonFlyingController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   FirstPersonFlyingController(FirstPersonFlyingController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5030 };
 
   /// @brief Field _moveSensitivity, offset: 0x20, size: 0x4, def value: None
   float_t ____moveSensitivity;
@@ -234,14 +244,12 @@ public:
   /// @brief Field _originalCameraFov, offset: 0x7c, size: 0x4, def value: None
   float_t ____originalCameraFov;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5011 };
+  /// @brief Field _overrideDisableMovement, offset: 0x80, size: 0x1, def value: None
+  bool ____overrideDisableMovement;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____moveSensitivity) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____transform) == 0x28, "Offset mismatch!");
@@ -267,6 +275,10 @@ static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____camer
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalStereoTargetEyeMask) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____originalCameraFov) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____overrideDisableMovement) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingController);

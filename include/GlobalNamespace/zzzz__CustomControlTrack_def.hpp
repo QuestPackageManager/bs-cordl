@@ -11,17 +11,16 @@ class CustomControlTrack;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomControlTrack);
-// Type: ::CustomControlTrack
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Timeline.ControlTrack
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::CustomControlTrack*
+// CS Name: CustomControlTrack
 class CORDL_TYPE CustomControlTrack : public ::UnityEngine::Timeline::ControlTrack {
 public:
   // Declarations
   static inline ::GlobalNamespace::CustomControlTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad3738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3b32d7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -39,7 +38,7 @@ public:
   CustomControlTrack(CustomControlTrack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

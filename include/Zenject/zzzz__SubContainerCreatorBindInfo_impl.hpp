@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::SubContainerCreatorBindInfo::*)()>(
     &::Zenject::SubContainerCreatorBindInfo::get_DefaultParentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada00c;
+  constexpr static std::size_t addrs = 0x4b3e91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorBindInfo*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(::StringW)>(
     &::Zenject::SubContainerCreatorBindInfo::set_DefaultParentName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada014;
+  constexpr static std::size_t addrs = 0x4b3e924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::get_CreateKernel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada01c;
+  constexpr static std::size_t addrs = 0x4b3e92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorBindInfo*>::get(),
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(bool)>(&::Zenject::SubContainerCreatorBindInfo::set_CreateKernel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ada024;
+  constexpr static std::size_t addrs = 0x4b3e934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::SubContainerCreatorBindInfo::*)()>(
     &::Zenject::SubContainerCreatorBindInfo::get_KernelType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada030;
+  constexpr static std::size_t addrs = 0x4b3e940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorBindInfo*>::get(), "get_KernelType",
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)(::System::Type*)>(
     &::Zenject::SubContainerCreatorBindInfo::set_KernelType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada038;
+  constexpr static std::size_t addrs = 0x4b3e948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorBindInfo::*)()>(&::Zenject::SubContainerCreatorBindInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ada040;
+  constexpr static std::size_t addrs = 0x4b3e950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorBindInfo*>::get(), ".ctor",
@@ -129,7 +129,7 @@ constexpr ::System::Type*& Zenject::SubContainerCreatorBindInfo::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KernelType_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::SubContainerCreatorBindInfo::__cordl_internal_get__KernelType_k__BackingField() const {
+constexpr ::System::Type* const& Zenject::SubContainerCreatorBindInfo::__cordl_internal_get__KernelType_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____KernelType_k__BackingField;
 }
@@ -170,13 +170,13 @@ inline void Zenject::SubContainerCreatorBindInfo::set_KernelType(::System::Type*
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::Zenject::SubContainerCreatorBindInfo* Zenject::SubContainerCreatorBindInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorBindInfo*>());
-}
 inline void Zenject::SubContainerCreatorBindInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorBindInfo*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Zenject::SubContainerCreatorBindInfo* Zenject::SubContainerCreatorBindInfo::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::SubContainerCreatorBindInfo*>());
 }
 // Ctor Parameters []
 constexpr ::Zenject::SubContainerCreatorBindInfo::SubContainerCreatorBindInfo() {}

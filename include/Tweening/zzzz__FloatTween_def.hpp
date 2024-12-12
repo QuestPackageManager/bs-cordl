@@ -21,30 +21,29 @@ class FloatTween;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tweening::FloatTween);
-// Type: Tweening::FloatTween
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Tweening.Tween`1<T>
 namespace Tweening {
 // Is value type: false
-// CS Name: ::Tweening::FloatTween*
+// CS Name: Tweening.FloatTween
 class CORDL_TYPE FloatTween : public ::Tweening::Tween_1<float_t> {
 public:
   // Declarations
   /// @brief Field Pool, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF_Pool,
-      put = setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* Pool;
+  __declspec(property(get = getStaticF_Pool,
+                      put =
+                          setStaticF_Pool)) ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* Pool;
 
-  /// @brief Method GetValue, addr 0x4478584, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x44d9898, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(float_t t);
 
   static inline ::Tweening::FloatTween* New_ctor();
 
   static inline ::Tweening::FloatTween* New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor, addr 0x44784ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d97c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44784f4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d9808, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
   static inline ::Zenject::StaticMemoryPool_7<float_t, float_t, ::System::Action_1<float_t>*, float_t, ::GlobalNamespace::EaseType, float_t, ::Tweening::FloatTween*>* getStaticF_Pool();
@@ -66,7 +65,7 @@ public:
   FloatTween(FloatTween const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

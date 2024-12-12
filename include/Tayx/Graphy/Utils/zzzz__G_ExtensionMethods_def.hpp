@@ -21,25 +21,21 @@ class G_ExtensionMethods;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Utils::G_ExtensionMethods);
-// Type: Tayx.Graphy.Utils::G_ExtensionMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Tayx::Graphy::Utils {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Utils::G_ExtensionMethods*
+// CS Name: Tayx.Graphy.Utils.G_ExtensionMethods
 class CORDL_TYPE G_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAllActive, addr 0x446ecf8, size 0x164, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjects,
-                                                                                                          bool active);
+  /// @brief Method SetAllActive, addr 0x44d000c, size 0x164, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjects, bool active);
 
-  /// @brief Method SetAllActive, addr 0x446ef10, size 0x168, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
-                                                                                                         bool active);
+  /// @brief Method SetAllActive, addr 0x44d0224, size 0x168, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetAllActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images, bool active);
 
-  /// @brief Method SetOneActive, addr 0x446ee5c, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* images,
-                                                                                                         int32_t active);
+  /// @brief Method SetOneActive, addr 0x44d0170, size 0xb4, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* SetOneActive(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* images, int32_t active);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +52,7 @@ public:
   G_ExtensionMethods(G_ExtensionMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17213 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

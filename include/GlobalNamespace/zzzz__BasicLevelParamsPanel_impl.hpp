@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)(float_t)>(
     &::GlobalNamespace::BasicLevelParamsPanel::set_duration)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3aa0108;
+  constexpr static std::size_t addrs = 0x3afd59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)(float_t)>(&::GlobalNamespace::BasicLevelParamsPanel::set_bpm)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3aa013c;
+  constexpr static std::size_t addrs = 0x3afd5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicLevelParamsPanel::*)()>(&::GlobalNamespace::BasicLevelParamsPanel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa0184;
+  constexpr static std::size_t addrs = 0x3afd618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicLevelParamsPanel*>::get(), ".ctor",
@@ -81,13 +81,13 @@ inline void GlobalNamespace::BasicLevelParamsPanel::set_bpm(float_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::BasicLevelParamsPanel* GlobalNamespace::BasicLevelParamsPanel::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicLevelParamsPanel*>());
-}
 inline void GlobalNamespace::BasicLevelParamsPanel::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicLevelParamsPanel*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::BasicLevelParamsPanel* GlobalNamespace::BasicLevelParamsPanel::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BasicLevelParamsPanel*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BasicLevelParamsPanel::BasicLevelParamsPanel() {}

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__RunnableContext_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GameObjectContext)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -39,11 +38,10 @@ class GameObjectContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::GameObjectContext);
-// Type: Zenject::GameObjectContext
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.RunnableContext
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::GameObjectContext*
+// CS Name: Zenject.GameObjectContext
 class CORDL_TYPE GameObjectContext : public ::Zenject::RunnableContext {
 public:
   // Declarations
@@ -67,42 +65,42 @@ public:
   /// @brief Field _kernel, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__kernel, put = __cordl_internal_set__kernel)) ::UnityW<::Zenject::MonoKernel> _kernel;
 
-  /// @brief Method Construct, addr 0x4abe99c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x4b232ac, size 0x44, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* parentContainer);
 
-  /// @brief Method GetInjectableMonoBehaviours, addr 0x4abf09c, size 0x240, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x4b239ac, size 0x240, virtual true, abstract: false, final false
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
 
-  /// @brief Method GetRootGameObjects, addr 0x4abe924, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x4b23234, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
-  /// @brief Method InstallBindings, addr 0x4abee34, size 0x1f4, virtual false, abstract: false, final false
-  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
+  /// @brief Method InstallBindings, addr 0x4b23744, size 0x1f4, virtual false, abstract: false, final false
+  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
 
   static inline ::Zenject::GameObjectContext* New_ctor();
 
-  /// @brief Method RunInternal, addr 0x4abea84, size 0x394, virtual true, abstract: false, final false
+  /// @brief Method RunInternal, addr 0x4b23394, size 0x394, virtual true, abstract: false, final false
   inline void RunInternal();
+
+  constexpr ::System::Action* const& __cordl_internal_get_PostInstall() const;
 
   constexpr ::System::Action*& __cordl_internal_get_PostInstall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PostInstall() const;
+  constexpr ::System::Action* const& __cordl_internal_get_PostResolve() const;
 
   constexpr ::System::Action*& __cordl_internal_get_PostResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PostResolve() const;
+  constexpr ::System::Action* const& __cordl_internal_get_PreInstall() const;
 
   constexpr ::System::Action*& __cordl_internal_get_PreInstall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PreInstall() const;
+  constexpr ::System::Action* const& __cordl_internal_get_PreResolve() const;
 
   constexpr ::System::Action*& __cordl_internal_get_PreResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PreResolve() const;
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
-
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
   constexpr ::UnityW<::Zenject::MonoKernel> const& __cordl_internal_get__kernel() const;
 
@@ -120,40 +118,40 @@ public:
 
   constexpr void __cordl_internal_set__kernel(::UnityW<::Zenject::MonoKernel> value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4abf43c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b23d4c, size 0x2fc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x4abf354, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x4b23c64, size 0xe8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x4abf2ec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4b23bfc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_PostInstall, addr 0x4abe574, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PostInstall, addr 0x4b22e84, size 0x9c, virtual false, abstract: false, final false
   inline void add_PostInstall(::System::Action* value);
 
-  /// @brief Method add_PostResolve, addr 0x4abe7e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PostResolve, addr 0x4b230f4, size 0x9c, virtual false, abstract: false, final false
   inline void add_PostResolve(::System::Action* value);
 
-  /// @brief Method add_PreInstall, addr 0x4abe43c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreInstall, addr 0x4b22d4c, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
 
-  /// @brief Method add_PreResolve, addr 0x4abe6ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreResolve, addr 0x4b22fbc, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreResolve(::System::Action* value);
 
-  /// @brief Method get_Container, addr 0x4abe91c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Container, addr 0x4b2322c, size 0x8, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method remove_PostInstall, addr 0x4abe610, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PostInstall, addr 0x4b22f20, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PostInstall(::System::Action* value);
 
-  /// @brief Method remove_PostResolve, addr 0x4abe880, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PostResolve, addr 0x4b23190, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PostResolve(::System::Action* value);
 
-  /// @brief Method remove_PreInstall, addr 0x4abe4d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreInstall, addr 0x4b22de8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreInstall(::System::Action* value);
 
-  /// @brief Method remove_PreResolve, addr 0x4abe748, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreResolve, addr 0x4b23058, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PreResolve(::System::Action* value);
 
 protected:
@@ -169,6 +167,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectContext", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   GameObjectContext(GameObjectContext const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12457 };
 
   /// @brief Field PreInstall, offset: 0x50, size: 0x8, def value: None
   ::System::Action* ___PreInstall;
@@ -188,14 +189,9 @@ public:
   /// @brief Field _container, offset: 0x78, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12424 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::GameObjectContext, 0x80>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::GameObjectContext, ___PreInstall) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::GameObjectContext, ___PostInstall) == 0x58, "Offset mismatch!");
@@ -207,6 +203,8 @@ static_assert(offsetof(::Zenject::GameObjectContext, ___PostResolve) == 0x68, "O
 static_assert(offsetof(::Zenject::GameObjectContext, ____kernel) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::Zenject::GameObjectContext, ____container) == 0x78, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::GameObjectContext, 0x80>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::GameObjectContext);

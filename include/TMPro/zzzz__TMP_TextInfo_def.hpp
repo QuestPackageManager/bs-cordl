@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_TextInfo)
 namespace TMPro {
@@ -39,11 +37,10 @@ class TMP_TextInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_TextInfo);
-// Type: TMPro::TMP_TextInfo
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.Vector2
 namespace TMPro {
 // Is value type: false
-// CS Name: ::TMPro::TMP_TextInfo*
+// CS Name: TMPro.TMP_TextInfo
 class CORDL_TYPE TMP_TextInfo : public ::System::Object {
 public:
   // Declarations
@@ -54,10 +51,10 @@ public:
   __declspec(property(get = __cordl_internal_get_characterInfo, put = __cordl_internal_set_characterInfo)) ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> characterInfo;
 
   /// @brief Field k_InfinityVectorNegative, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_InfinityVectorNegative, put = setStaticF_k_InfinityVectorNegative)) ::UnityEngine::Vector2 k_InfinityVectorNegative;
+  __declspec(property(get = getStaticF_k_InfinityVectorNegative, put = setStaticF_k_InfinityVectorNegative)) ::UnityEngine::Vector2 k_InfinityVectorNegative;
 
   /// @brief Field k_InfinityVectorPositive, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_InfinityVectorPositive, put = setStaticF_k_InfinityVectorPositive)) ::UnityEngine::Vector2 k_InfinityVectorPositive;
+  __declspec(property(get = getStaticF_k_InfinityVectorPositive, put = setStaticF_k_InfinityVectorPositive)) ::UnityEngine::Vector2 k_InfinityVectorPositive;
 
   /// @brief Field lineCount, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_lineCount, put = __cordl_internal_set_lineCount)) int32_t lineCount;
@@ -101,28 +98,28 @@ public:
   /// @brief Field wordInfo, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo)) ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
 
-  /// @brief Method Clear, addr 0x47a3bac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x4804ec0, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearAllData, addr 0x47a3c08, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ClearAllData, addr 0x4804f1c, size 0x12c, virtual false, abstract: false, final false
   inline void ClearAllData();
 
-  /// @brief Method ClearAllMeshInfo, addr 0x47a3dec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearAllMeshInfo, addr 0x4805100, size 0xb0, virtual false, abstract: false, final false
   inline void ClearAllMeshInfo();
 
-  /// @brief Method ClearLineInfo, addr 0x47a4008, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ClearLineInfo, addr 0x480531c, size 0x180, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method ClearMeshInfo, addr 0x47a3d34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ClearMeshInfo, addr 0x4805048, size 0xb8, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearPageInfo, addr 0x47a4188, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ClearPageInfo, addr 0x480549c, size 0x98, virtual false, abstract: false, final false
   inline void ClearPageInfo();
 
-  /// @brief Method ClearUnusedVertices, addr 0x47a3f58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x480526c, size 0xb0, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materials);
 
-  /// @brief Method CopyMeshInfoVertexData, addr 0x47a4220, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method CopyMeshInfoVertexData, addr 0x4805534, size 0x3c0, virtual false, abstract: false, final false
   inline ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> CopyMeshInfoVertexData();
 
   static inline ::TMPro::TMP_TextInfo* New_ctor();
@@ -131,14 +128,14 @@ public:
 
   static inline ::TMPro::TMP_TextInfo* New_ctor(::TMPro::TMP_Text* textComponent);
 
-  /// @brief Method ResetVertexLayout, addr 0x47a3e9c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ResetVertexLayout, addr 0x48051b0, size 0xbc, virtual false, abstract: false, final false
   inline void ResetVertexLayout(bool isVolumetric);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size);
+  template <typename T> static inline void Resize(::ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size);
 
   /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size, bool isBlockAllocated);
+  template <typename T> static inline void Resize(::ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size, bool isBlockAllocated);
 
   constexpr int32_t const& __cordl_internal_get_characterCount() const;
 
@@ -236,13 +233,13 @@ public:
 
   constexpr void __cordl_internal_set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
 
-  /// @brief Method .ctor, addr 0x47a37ec, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4804b00, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x47a3914, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4804c28, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(int32_t characterCount);
 
-  /// @brief Method .ctor, addr 0x47a3a40, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4804d54, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_Text* textComponent);
 
   static inline ::UnityEngine::Vector2 getStaticF_k_InfinityVectorNegative();
@@ -266,6 +263,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "TMP_TextInfo", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   TMP_TextInfo(TMP_TextInfo const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14567 };
 
   /// @brief Field textComponent, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ___textComponent;
@@ -315,14 +315,9 @@ public:
   /// @brief Field m_CachedMeshInfo, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> ___m_CachedMeshInfo;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14533 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextInfo, 0x70>, "Size mismatch!");
-
 static_assert(offsetof(::TMPro::TMP_TextInfo, ___textComponent) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_TextInfo, ___characterCount) == 0x18, "Offset mismatch!");
@@ -354,6 +349,8 @@ static_assert(offsetof(::TMPro::TMP_TextInfo, ___pageInfo) == 0x58, "Offset mism
 static_assert(offsetof(::TMPro::TMP_TextInfo, ___meshInfo) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_TextInfo, ___m_CachedMeshInfo) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextInfo, 0x70>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_TextInfo);

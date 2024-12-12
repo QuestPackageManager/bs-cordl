@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeGPtrArrayHandle)
 namespace Mono {
-struct __RuntimeStructs__GPtrArray;
+struct RuntimeStructs_GPtrArray;
 }
 namespace System {
 struct IntPtr;
@@ -19,11 +18,10 @@ struct RuntimeGPtrArrayHandle;
 }
 // Write type traits
 MARK_VAL_T(::Mono::RuntimeGPtrArrayHandle);
-// Type: Mono::RuntimeGPtrArrayHandle
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace Mono {
 // Is value type: true
-// CS Name: ::Mono::RuntimeGPtrArrayHandle
+// CS Name: Mono.RuntimeGPtrArrayHandle
 struct CORDL_TYPE RuntimeGPtrArrayHandle {
 public:
   // Declarations
@@ -31,33 +29,30 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method DestroyAndFree, addr 0x3bf4540, size 0x1c, virtual false, abstract: false, final false
-  static inline void DestroyAndFree(ByRef<::Mono::RuntimeGPtrArrayHandle> h);
+  /// @brief Method DestroyAndFree, addr 0x3c54654, size 0x1c, virtual false, abstract: false, final false
+  static inline void DestroyAndFree(::ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  /// @brief Method GPtrArrayFree, addr 0x3bf453c, size 0x4, virtual false, abstract: false, final false
-  static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value);
+  /// @brief Method GPtrArrayFree, addr 0x3c54650, size 0x4, virtual false, abstract: false, final false
+  static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value);
 
-  /// @brief Method Lookup, addr 0x3bf44d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Lookup, addr 0x3c545ec, size 0x64, virtual false, abstract: false, final false
   inline ::System::IntPtr Lookup(int32_t i);
 
-  /// @brief Method .ctor, addr 0x3bf4498, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c545ac, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x3bf44d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3c545e8, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3bf44b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x3c545cc, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeGPtrArrayHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray>", modifiers: "", def_value: None }]
-  constexpr RuntimeGPtrArrayHandle(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value) noexcept;
-
-  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value;
+  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray>", modifiers: "", def_value: None }]
+  constexpr RuntimeGPtrArrayHandle(::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2233 };
@@ -65,12 +60,15 @@ public:
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
+  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
+  ::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Mono::RuntimeGPtrArrayHandle, 0x8>, "Size mismatch!");
-
 static_assert(offsetof(::Mono::RuntimeGPtrArrayHandle, value) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Mono::RuntimeGPtrArrayHandle, 0x8>, "Size mismatch!");
 
 } // namespace Mono
 DEFINE_IL2CPP_ARG_TYPE(::Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");

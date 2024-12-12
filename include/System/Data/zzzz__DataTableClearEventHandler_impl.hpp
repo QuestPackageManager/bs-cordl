@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTableClearEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Data::DataTableClearEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4105080;
+  constexpr static std::size_t addrs = 0x4166394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTableClearEventHandler::*)(::System::Object*, ::System::Data::DataTableClearEventArgs*)>(
     &::System::Data::DataTableClearEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4105184;
+  constexpr static std::size_t addrs = 0x4166498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,9 +36,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Data::DataTableClearEventHandler* System::Data::DataTableClearEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataTableClearEventHandler*>(object, method));
-}
 inline void System::Data::DataTableClearEventHandler::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataTableClearEventHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -50,6 +47,9 @@ inline void System::Data::DataTableClearEventHandler::Invoke(::System::Object* s
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataTableClearEventHandler*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender, e);
+}
+inline ::System::Data::DataTableClearEventHandler* System::Data::DataTableClearEventHandler::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::DataTableClearEventHandler*>(object, method));
 }
 // Ctor Parameters []
 constexpr ::System::Data::DataTableClearEventHandler::DataTableClearEventHandler() {}

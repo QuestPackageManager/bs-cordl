@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407434c;
+  constexpr static std::size_t addrs = 0x40d5660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4074354;
+  constexpr static std::size_t addrs = 0x40d5668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x407435c;
+  constexpr static std::size_t addrs = 0x40d5670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x407439c;
+  constexpr static std::size_t addrs = 0x40d56b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*, bool)>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::Create)> {
   constexpr static std::size_t size = 0x960;
-  constexpr static std::size_t addrs = 0x406ef94;
+  constexpr static std::size_t addrs = 0x40d02a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ constexpr ::System::Object*& System::Linq::Expressions::Interpreter::LessThanOrE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::__cordl_internal_get__nullValue() const {
+constexpr ::System::Object* const& System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::__cordl_internal_get__nullValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nullValue;
 }
@@ -322,21 +322,20 @@ inline ::StringW System::Linq::Expressions::Interpreter::LessThanOrEqualInstruct
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction* System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::New_ctor(::System::Object* nullValue) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction*>(nullValue));
-}
 inline void System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::_ctor(::System::Object* nullValue) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction*>::get(), ".ctor",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nullValue);
 }
-/// @param liftedToNull: bool (default: false)
 inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::Create(::System::Type* type, bool liftedToNull) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::Instruction*, false>(nullptr, ___internal_method, type, liftedToNull);
+}
+inline ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction* System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::New_ctor(::System::Object* nullValue) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction*>(nullValue));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::LessThanOrEqualInstruction() {}

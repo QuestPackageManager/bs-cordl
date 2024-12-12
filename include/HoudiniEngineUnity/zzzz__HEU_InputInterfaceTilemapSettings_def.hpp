@@ -11,11 +11,10 @@ class HEU_InputInterfaceTilemapSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
-// Type: HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*
+// CS Name: HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings
 class CORDL_TYPE HEU_InputInterfaceTilemapSettings : public ::System::Object {
 public:
   // Declarations
@@ -57,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__exportUnusedTiles(bool value);
 
-  /// @brief Method .ctor, addr 0x3a29e64, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a80ad4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,6 +73,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputInterfaceTilemapSettings(HEU_InputInterfaceTilemapSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11827 };
+
   /// @brief Field _createGroupsForTiles, offset: 0x10, size: 0x1, def value: None
   bool ____createGroupsForTiles;
 
@@ -86,14 +88,9 @@ public:
   /// @brief Field _applyTilemapOrientation, offset: 0x13, size: 0x1, def value: None
   bool ____applyTilemapOrientation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11794 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, ____createGroupsForTiles) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, ____exportUnusedTiles) == 0x11, "Offset mismatch!");
@@ -101,6 +98,8 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, ____applyTileColor) == 0x12, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, ____applyTilemapOrientation) == 0x13, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings, 0x18>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);

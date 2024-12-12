@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OptionalArgument_1)
 // Forward declare root types
@@ -13,13 +12,12 @@ template <typename T> class OptionalArgument_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::OptionalArgument_1);
-// Type: ::OptionalArgument`1
-// SizeInfo { instance_size: 56, native_size: 49, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies ArgumentBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::OptionalArgument`1<T>*
+// CS Name: OptionalArgument`1<T>
 class CORDL_TYPE OptionalArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
   // Declarations
@@ -47,7 +45,7 @@ public:
   inline ::StringW ToString();
 
   /// @brief Method TryParseWithValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool TryParseWithValue(::StringW inValue, ByRef<::StringW> outError);
+  inline bool TryParseWithValue(::StringW inValue, ::ByRef<::StringW> outError);
 
   constexpr bool const& __cordl_internal_get__hasValue() const;
 
@@ -87,14 +85,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OptionalArgument_1(OptionalArgument_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5019 };
+
   /// @brief Field _value, offset: 0x28, size: 0x8, def value: None
   T ____value;
 
   /// @brief Field _hasValue, offset: 0x30, size: 0x1, def value: None
   bool ____hasValue;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4999 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,11 +20,10 @@ class MultiplayerBadgesModelSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgesModelSO);
-// Type: ::MultiplayerBadgesModelSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.ScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiplayerBadgesModelSO*
+// CS Name: MultiplayerBadgesModelSO
 class CORDL_TYPE MultiplayerBadgesModelSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
@@ -42,25 +41,25 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerBadgesModelSO* New_ctor();
 
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* const& __cordl_internal_get__negativeBadges() const;
+
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*& __cordl_internal_get__negativeBadges();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*> const& __cordl_internal_get__negativeBadges() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* const& __cordl_internal_get__positiveBadges() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*& __cordl_internal_get__positiveBadges();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>*> const& __cordl_internal_get__positiveBadges() const;
 
   constexpr void __cordl_internal_set__negativeBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
   constexpr void __cordl_internal_set__positiveBadges(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* value);
 
-  /// @brief Method .ctor, addr 0x26a3484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d81b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_negativeBadges, addr 0x26a347c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_negativeBadges, addr 0x26d81b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_negativeBadges();
 
-  /// @brief Method get_positiveBadges, addr 0x26a3474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_positiveBadges, addr 0x26d81a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* get_positiveBadges();
 
 protected:
@@ -77,23 +76,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiplayerBadgesModelSO(MultiplayerBadgesModelSO const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13078 };
+
   /// @brief Field _positiveBadges, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* ____positiveBadges;
 
   /// @brief Field _negativeBadges, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerBadgeDataSO>>* ____negativeBadges;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13043 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesModelSO, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesModelSO, ____positiveBadges) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgesModelSO, ____negativeBadges) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgesModelSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesModelSO);

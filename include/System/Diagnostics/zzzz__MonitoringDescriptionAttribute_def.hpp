@@ -12,11 +12,10 @@ class MonitoringDescriptionAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::MonitoringDescriptionAttribute);
-// Type: System.Diagnostics::MonitoringDescriptionAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.ComponentModel.DescriptionAttribute
 namespace System::Diagnostics {
 // Is value type: false
-// CS Name: ::System.Diagnostics::MonitoringDescriptionAttribute*
+// CS Name: System.Diagnostics.MonitoringDescriptionAttribute
 class CORDL_TYPE MonitoringDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute {
 public:
   // Declarations
@@ -24,10 +23,10 @@ public:
 
   static inline ::System::Diagnostics::MonitoringDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor, addr 0x43d00cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44313e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description, addr 0x43d0134, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Description, addr 0x4431448, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
 protected:
@@ -45,7 +44,7 @@ public:
   MonitoringDescriptionAttribute(MonitoringDescriptionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9275 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

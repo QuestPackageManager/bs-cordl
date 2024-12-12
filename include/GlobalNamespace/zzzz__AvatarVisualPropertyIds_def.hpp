@@ -13,85 +13,84 @@ class AvatarVisualPropertyIds;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AvatarVisualPropertyIds);
-// Type: ::AvatarVisualPropertyIds
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::AvatarVisualPropertyIds*
+// CS Name: AvatarVisualPropertyIds
 class CORDL_TYPE AvatarVisualPropertyIds : public ::System::Object {
 public:
   // Declarations
   /// @brief Field colorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_colorPropertyId, put = setStaticF_colorPropertyId)) int32_t colorPropertyId;
+  __declspec(property(get = getStaticF_colorPropertyId, put = setStaticF_colorPropertyId)) int32_t colorPropertyId;
 
   /// @brief Field enableReflectionProbePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_enableReflectionProbePropertyId, put = setStaticF_enableReflectionProbePropertyId)) int32_t enableReflectionProbePropertyId;
+  __declspec(property(get = getStaticF_enableReflectionProbePropertyId, put = setStaticF_enableReflectionProbePropertyId)) int32_t enableReflectionProbePropertyId;
 
   /// @brief Field enableReflectionTexturePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_enableReflectionTexturePropertyId, put = setStaticF_enableReflectionTexturePropertyId)) int32_t enableReflectionTexturePropertyId;
+  __declspec(property(get = getStaticF_enableReflectionTexturePropertyId, put = setStaticF_enableReflectionTexturePropertyId)) int32_t enableReflectionTexturePropertyId;
 
   /// @brief Field enviroPrivatePointLightColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_enviroPrivatePointLightColorPropertyId, put = setStaticF_enviroPrivatePointLightColorPropertyId)) int32_t enviroPrivatePointLightColorPropertyId;
+  __declspec(property(get = getStaticF_enviroPrivatePointLightColorPropertyId, put = setStaticF_enviroPrivatePointLightColorPropertyId)) int32_t enviroPrivatePointLightColorPropertyId;
 
   /// @brief Field haloBaseColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_haloBaseColorPropertyId, put = setStaticF_haloBaseColorPropertyId)) int32_t haloBaseColorPropertyId;
+  __declspec(property(get = getStaticF_haloBaseColorPropertyId, put = setStaticF_haloBaseColorPropertyId)) int32_t haloBaseColorPropertyId;
 
   /// @brief Field haloHighlightColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_haloHighlightColorPropertyId, put = setStaticF_haloHighlightColorPropertyId)) int32_t haloHighlightColorPropertyId;
+  __declspec(property(get = getStaticF_haloHighlightColorPropertyId, put = setStaticF_haloHighlightColorPropertyId)) int32_t haloHighlightColorPropertyId;
 
   /// @brief Field holoHaltScanPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_holoHaltScanPropertyId, put = setStaticF_holoHaltScanPropertyId)) int32_t holoHaltScanPropertyId;
+  __declspec(property(get = getStaticF_holoHaltScanPropertyId, put = setStaticF_holoHaltScanPropertyId)) int32_t holoHaltScanPropertyId;
 
   /// @brief Field holoMaterializePropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_holoMaterializePropertyId, put = setStaticF_holoMaterializePropertyId)) int32_t holoMaterializePropertyId;
+  __declspec(property(get = getStaticF_holoMaterializePropertyId, put = setStaticF_holoMaterializePropertyId)) int32_t holoMaterializePropertyId;
 
   /// @brief Field hologramColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_hologramColorPropertyId, put = setStaticF_hologramColorPropertyId)) int32_t hologramColorPropertyId;
+  __declspec(property(get = getStaticF_hologramColorPropertyId, put = setStaticF_hologramColorPropertyId)) int32_t hologramColorPropertyId;
 
   /// @brief Field hologramFillPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_hologramFillPropertyId, put = setStaticF_hologramFillPropertyId)) int32_t hologramFillPropertyId;
+  __declspec(property(get = getStaticF_hologramFillPropertyId, put = setStaticF_hologramFillPropertyId)) int32_t hologramFillPropertyId;
 
   /// @brief Field hologramPhaseOffsetPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_hologramPhaseOffsetPropertyId, put = setStaticF_hologramPhaseOffsetPropertyId)) int32_t hologramPhaseOffsetPropertyId;
+  __declspec(property(get = getStaticF_hologramPhaseOffsetPropertyId, put = setStaticF_hologramPhaseOffsetPropertyId)) int32_t hologramPhaseOffsetPropertyId;
 
   /// @brief Field hologramStripeSpeedPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_hologramStripeSpeedPropertyId, put = setStaticF_hologramStripeSpeedPropertyId)) int32_t hologramStripeSpeedPropertyId;
+  __declspec(property(get = getStaticF_hologramStripeSpeedPropertyId, put = setStaticF_hologramStripeSpeedPropertyId)) int32_t hologramStripeSpeedPropertyId;
 
   /// @brief Field kUvColorsPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_kUvColorsPropertyId, put = setStaticF_kUvColorsPropertyId)) int32_t kUvColorsPropertyId;
+  __declspec(property(get = getStaticF_kUvColorsPropertyId, put = setStaticF_kUvColorsPropertyId)) int32_t kUvColorsPropertyId;
 
   /// @brief Field keywordPointLightPrivate, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_keywordPointLightPrivate, put = setStaticF_keywordPointLightPrivate)) ::StringW keywordPointLightPrivate;
+  __declspec(property(get = getStaticF_keywordPointLightPrivate, put = setStaticF_keywordPointLightPrivate)) ::StringW keywordPointLightPrivate;
 
   /// @brief Field nametagEnableReflectionProbe, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nametagEnableReflectionProbe, put = setStaticF_nametagEnableReflectionProbe)) int32_t nametagEnableReflectionProbe;
+  __declspec(property(get = getStaticF_nametagEnableReflectionProbe, put = setStaticF_nametagEnableReflectionProbe)) int32_t nametagEnableReflectionProbe;
 
   /// @brief Field nametagPointLightPositionLocal, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nametagPointLightPositionLocal, put = setStaticF_nametagPointLightPositionLocal)) int32_t nametagPointLightPositionLocal;
+  __declspec(property(get = getStaticF_nametagPointLightPositionLocal, put = setStaticF_nametagPointLightPositionLocal)) int32_t nametagPointLightPositionLocal;
 
   /// @brief Field nametagPrivatePointLight, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nametagPrivatePointLight, put = setStaticF_nametagPrivatePointLight)) int32_t nametagPrivatePointLight;
+  __declspec(property(get = getStaticF_nametagPrivatePointLight, put = setStaticF_nametagPrivatePointLight)) int32_t nametagPrivatePointLight;
 
   /// @brief Field nametagPrivatePointLightColor, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nametagPrivatePointLightColor, put = setStaticF_nametagPrivatePointLightColor)) int32_t nametagPrivatePointLightColor;
+  __declspec(property(get = getStaticF_nametagPrivatePointLightColor, put = setStaticF_nametagPrivatePointLightColor)) int32_t nametagPrivatePointLightColor;
 
   /// @brief Field nametagPrivatePointLightPosition, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nametagPrivatePointLightPosition, put = setStaticF_nametagPrivatePointLightPosition)) int32_t nametagPrivatePointLightPosition;
+  __declspec(property(get = getStaticF_nametagPrivatePointLightPosition, put = setStaticF_nametagPrivatePointLightPosition)) int32_t nametagPrivatePointLightPosition;
 
   /// @brief Field nominalDiffuseLevelPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_nominalDiffuseLevelPropertyId, put = setStaticF_nominalDiffuseLevelPropertyId)) int32_t nominalDiffuseLevelPropertyId;
+  __declspec(property(get = getStaticF_nominalDiffuseLevelPropertyId, put = setStaticF_nominalDiffuseLevelPropertyId)) int32_t nominalDiffuseLevelPropertyId;
 
   /// @brief Field rimLightColorPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rimLightColorPropertyId, put = setStaticF_rimLightColorPropertyId)) int32_t rimLightColorPropertyId;
+  __declspec(property(get = getStaticF_rimLightColorPropertyId, put = setStaticF_rimLightColorPropertyId)) int32_t rimLightColorPropertyId;
 
   /// @brief Field rimLightEdgeStartPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_rimLightEdgeStartPropertyId, put = setStaticF_rimLightEdgeStartPropertyId)) int32_t rimLightEdgeStartPropertyId;
+  __declspec(property(get = getStaticF_rimLightEdgeStartPropertyId, put = setStaticF_rimLightEdgeStartPropertyId)) int32_t rimLightEdgeStartPropertyId;
 
   /// @brief Field segmentToHighlightPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_segmentToHighlightPropertyId, put = setStaticF_segmentToHighlightPropertyId)) int32_t segmentToHighlightPropertyId;
+  __declspec(property(get = getStaticF_segmentToHighlightPropertyId, put = setStaticF_segmentToHighlightPropertyId)) int32_t segmentToHighlightPropertyId;
 
   /// @brief Field uvRimLightColorsPropertyId, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_uvRimLightColorsPropertyId, put = setStaticF_uvRimLightColorsPropertyId)) int32_t uvRimLightColorsPropertyId;
+  __declspec(property(get = getStaticF_uvRimLightColorsPropertyId, put = setStaticF_uvRimLightColorsPropertyId)) int32_t uvRimLightColorsPropertyId;
 
   static inline int32_t getStaticF_colorPropertyId();
 
@@ -204,7 +203,7 @@ public:
   AvatarVisualPropertyIds(AvatarVisualPropertyIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17540 };
 
   /// @brief Field kKeywordPointLightIsLocal offset 0xffffffff size 0x8
   static constexpr ::ConstString kKeywordPointLightIsLocal{ u"POINT_LIGHT_IS_LOCAL" };

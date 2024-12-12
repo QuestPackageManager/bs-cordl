@@ -12,11 +12,10 @@ struct SslProtocols;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Authentication::SslProtocols);
-// Type: System.Security.Authentication::SslProtocols
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Authentication {
 // Is value type: true
-// CS Name: ::System.Security.Authentication::SslProtocols
+// CS Name: System.Security.Authentication.SslProtocols
 struct CORDL_TYPE SslProtocols {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SslProtocols(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field Default value: static_cast<int32_t>(0xf0)
+  /// @brief Field Default value: I32(240)
   static ::System::Security::Authentication::SslProtocols const Default;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::System::Security::Authentication::SslProtocols const None;
 
-  /// @brief Field Ssl2 value: static_cast<int32_t>(0xc)
+  /// @brief Field Ssl2 value: I32(12)
   static ::System::Security::Authentication::SslProtocols const Ssl2;
 
-  /// @brief Field Ssl3 value: static_cast<int32_t>(0x30)
+  /// @brief Field Ssl3 value: I32(48)
   static ::System::Security::Authentication::SslProtocols const Ssl3;
 
-  /// @brief Field Tls value: static_cast<int32_t>(0xc0)
+  /// @brief Field Tls value: I32(192)
   static ::System::Security::Authentication::SslProtocols const Tls;
 
-  /// @brief Field Tls11 value: static_cast<int32_t>(0x300)
+  /// @brief Field Tls11 value: I32(768)
   static ::System::Security::Authentication::SslProtocols const Tls11;
 
-  /// @brief Field Tls12 value: static_cast<int32_t>(0xc00)
+  /// @brief Field Tls12 value: I32(3072)
   static ::System::Security::Authentication::SslProtocols const Tls12;
 
-  /// @brief Field Tls13 value: static_cast<int32_t>(0x3000)
+  /// @brief Field Tls13 value: I32(12288)
   static ::System::Security::Authentication::SslProtocols const Tls13;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Authentication::SslProtocols, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Authentication::SslProtocols, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Authentication::SslProtocols, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Authentication
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Authentication::SslProtocols, "System.Security.Authentication", "SslProtocols");

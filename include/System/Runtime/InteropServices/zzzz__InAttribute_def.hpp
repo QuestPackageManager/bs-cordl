@@ -11,17 +11,16 @@ class InAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::InAttribute);
-// Type: System.Runtime.InteropServices::InAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// CS Name: ::System.Runtime.InteropServices::InAttribute*
+// CS Name: System.Runtime.InteropServices.InAttribute
 class CORDL_TYPE InAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::InteropServices::InAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cb3390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3d13504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

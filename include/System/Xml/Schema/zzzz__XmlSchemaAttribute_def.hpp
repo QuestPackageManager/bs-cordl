@@ -35,11 +35,10 @@ class XmlSchemaAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAttribute);
-// Type: System.Xml.Schema::XmlSchemaAttribute
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.Schema.XmlSchemaAnnotated, System.Xml.Schema.XmlSchemaForm, System.Xml.Schema.XmlSchemaUse
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::XmlSchemaAttribute*
+// CS Name: System.Xml.Schema.XmlSchemaAttribute
 class CORDL_TYPE XmlSchemaAttribute : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
@@ -102,24 +101,24 @@ public:
   /// @brief Field use, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_use, put = __cordl_internal_set_use)) ::System::Xml::Schema::XmlSchemaUse use;
 
-  /// @brief Method Clone, addr 0x4257788, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x42b8a9c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaAttribute* New_ctor();
 
-  /// @brief Method SetAttributeType, addr 0x4257760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributeType, addr 0x42b8a74, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributeType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method SetQualifiedName, addr 0x4257758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x42b8a6c, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
+
+  constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get_attDef() const;
 
   constexpr ::System::Xml::Schema::SchemaAttDef*& __cordl_internal_get_attDef();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaAttDef*> const& __cordl_internal_get_attDef() const;
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& __cordl_internal_get_attributeType() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_attributeType();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_attributeType() const;
 
   constexpr ::StringW const& __cordl_internal_get_defaultValue() const;
 
@@ -137,21 +136,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_name();
 
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_qualifiedName() const;
+
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qualifiedName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qualifiedName() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_refName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_refName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_refName() const;
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType* const& __cordl_internal_get_type() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_type() const;
+  constexpr ::System::Xml::XmlQualifiedName* const& __cordl_internal_get_typeName() const;
 
   constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_typeName();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_typeName() const;
 
   constexpr ::System::Xml::Schema::XmlSchemaUse const& __cordl_internal_get_use() const;
 
@@ -179,76 +178,76 @@ public:
 
   constexpr void __cordl_internal_set_use(::System::Xml::Schema::XmlSchemaUse value);
 
-  /// @brief Method .ctor, addr 0x4257858, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x42b8b6c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttDef, addr 0x4257768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttDef, addr 0x42b8a7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* get_AttDef();
 
-  /// @brief Method get_AttributeSchemaType, addr 0x4257738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeSchemaType, addr 0x42b8a4c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_AttributeSchemaType();
 
-  /// @brief Method get_Datatype, addr 0x4257740, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x42b8a54, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_DefaultValue, addr 0x4257590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x42b88a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValue();
 
-  /// @brief Method get_FixedValue, addr 0x42575a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FixedValue, addr 0x42b88b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FixedValue();
 
-  /// @brief Method get_Form, addr 0x42575b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x42b88c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_Name, addr 0x42575c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x42b88d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x4257778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x42b8a8c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x4257730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x42b8a44, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_RefName, addr 0x42575d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x42b88e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method get_SchemaType, addr 0x4257710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x42b8a24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_SchemaType();
 
-  /// @brief Method get_SchemaTypeName, addr 0x4257670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypeName, addr 0x42b8984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_SchemaTypeName();
 
-  /// @brief Method get_Use, addr 0x4257720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Use, addr 0x42b8a34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaUse get_Use();
 
-  /// @brief Method set_AttDef, addr 0x4257770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttDef, addr 0x42b8a84, size 0x8, virtual false, abstract: false, final false
   inline void set_AttDef(::System::Xml::Schema::SchemaAttDef* value);
 
-  /// @brief Method set_DefaultValue, addr 0x4257598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x42b88ac, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValue(::StringW value);
 
-  /// @brief Method set_FixedValue, addr 0x42575a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FixedValue, addr 0x42b88bc, size 0x8, virtual false, abstract: false, final false
   inline void set_FixedValue(::StringW value);
 
-  /// @brief Method set_Form, addr 0x42575b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x42b88cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_Name, addr 0x42575c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x42b88dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x4257780, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x42b8a94, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_RefName, addr 0x42575d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x42b88ec, size 0x98, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_SchemaType, addr 0x4257718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x42b8a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_SchemaTypeName, addr 0x4257678, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaTypeName, addr 0x42b898c, size 0x98, virtual false, abstract: false, final false
   inline void set_SchemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_Use, addr 0x4257728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Use, addr 0x42b8a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_Use(::System::Xml::Schema::XmlSchemaUse value);
 
 protected:
@@ -264,6 +263,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaAttribute", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   XmlSchemaAttribute(XmlSchemaAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
 
   /// @brief Field defaultValue, offset: 0x50, size: 0x8, def value: None
   ::StringW ___defaultValue;
@@ -298,14 +300,9 @@ public:
   /// @brief Field attDef, offset: 0x98, size: 0x8, def value: None
   ::System::Xml::Schema::SchemaAttDef* ___attDef;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7626 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAttribute, 0xa0>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttribute, ___defaultValue) == 0x50, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttribute, ___fixedValue) == 0x58, "Offset mismatch!");
@@ -327,6 +324,8 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttribute, ___type) == 0x
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttribute, ___attributeType) == 0x90, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaAttribute, ___attDef) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaAttribute, 0xa0>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaAttribute);

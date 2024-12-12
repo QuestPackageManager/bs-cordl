@@ -17,10 +17,6 @@ template <typename TCreatedType, typename TTraits> constexpr void UnityEngine::U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_Traits, value);
 }
-template <typename TCreatedType, typename TTraits>
-inline ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>* UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>*>());
-}
 template <typename TCreatedType, typename TTraits> inline void UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>*>::get(), ".ctor",
@@ -57,6 +53,10 @@ inline bool UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::A
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, bag, cc);
+}
+template <typename TCreatedType, typename TTraits>
+inline ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>* UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>*>());
 }
 // Ctor Parameters []
 template <typename TCreatedType, typename TTraits> constexpr ::UnityEngine::UIElements::BaseUxmlFactory_2<TCreatedType, TTraits>::BaseUxmlFactory_2() {}

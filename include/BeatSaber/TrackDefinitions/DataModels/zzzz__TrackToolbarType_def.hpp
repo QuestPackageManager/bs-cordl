@@ -12,11 +12,10 @@ struct TrackToolbarType;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType);
-// Type: BeatSaber.TrackDefinitions.DataModels::TrackToolbarType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: true
-// CS Name: ::BeatSaber.TrackDefinitions.DataModels::TrackToolbarType
+// CS Name: BeatSaber.TrackDefinitions.DataModels.TrackToolbarType
 struct CORDL_TYPE TrackToolbarType {
 public:
   // Declarations
@@ -50,42 +49,42 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr TrackToolbarType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field BtsCharacterSelection value: static_cast<int32_t>(0x5)
+  /// @brief Field BtsCharacterSelection value: I32(5)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const BtsCharacterSelection;
 
-  /// @brief Field CarSelection value: static_cast<int32_t>(0x6)
+  /// @brief Field CarSelection value: I32(6)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const CarSelection;
 
-  /// @brief Field FloatValue value: static_cast<int32_t>(0x3)
+  /// @brief Field FloatValue value: I32(3)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const FloatValue;
 
-  /// @brief Field IntValue value: static_cast<int32_t>(0x4)
+  /// @brief Field IntValue value: I32(4)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const IntValue;
 
-  /// @brief Field Lights value: static_cast<int32_t>(0x0)
+  /// @brief Field Lights value: I32(0)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Lights;
 
-  /// @brief Field None value: static_cast<int32_t>(0xffffffff)
+  /// @brief Field None value: I32(-1)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const None;
 
-  /// @brief Field Toggle value: static_cast<int32_t>(0x1)
+  /// @brief Field Toggle value: I32(1)
   static ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType const Toggle;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::TrackDefinitions::DataModels
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType, "BeatSaber.TrackDefinitions.DataModels", "TrackToolbarType");

@@ -12,7 +12,7 @@ namespace Oculus::Platform::Models {
 class NetSyncSessionsChangedNotification;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Message_1_Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -20,19 +20,18 @@ class NetSync;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::NetSync);
-// Type: Oculus.Platform::NetSync
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::NetSync*
+// CS Name: Oculus.Platform.NetSync
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x3f29d28, size 0x74, virtual false, abstract: false, final false
-  static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
+  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x3f89dd4, size 0x74, virtual false, abstract: false, final false
+  static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
 
-  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x3f29d9c, size 0x74, virtual false, abstract: false, final false
-  static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
+  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x3f89e48, size 0x74, virtual false, abstract: false, final false
+  static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
 
 protected:
   // Ctor Parameters []
@@ -49,7 +48,7 @@ public:
   NetSync(NetSync const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15448 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

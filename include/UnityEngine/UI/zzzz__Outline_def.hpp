@@ -14,20 +14,19 @@ class Outline;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::Outline);
-// Type: UnityEngine.UI::Outline
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UI.Shadow
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: ::UnityEngine.UI::Outline*
+// CS Name: UnityEngine.UI.Outline
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x4a6bcf4, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x4ad0604, size 0x240, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::Outline* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a6bcec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4ad05fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +44,7 @@ public:
   Outline(Outline const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

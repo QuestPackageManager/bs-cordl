@@ -26,11 +26,10 @@ class PlayerOptionsViewController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerOptionsViewController);
-// Type: ::PlayerOptionsViewController
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PlayerOptionsViewController*
+// CS Name: PlayerOptionsViewController
 class CORDL_TYPE PlayerOptionsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
@@ -47,15 +46,15 @@ public:
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::HMUI::ViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3bb2ad4, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3c15c18, size 0xe8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3bb2f04, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3c16048, size 0xf4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::PlayerOptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x3bb3000, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x3c16144, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
@@ -70,9 +69,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerSettingsPanelController>& __cordl_internal_get__playerSettingsPanelController();
 
-  constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::ViewController>>*> const& __cordl_internal_get_didFinishEvent() const;
+  constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get_didFinishEvent();
 
   constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -82,14 +81,14 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x3bb2ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3c1613c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3bb2974, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
+  /// @brief Method add_didFinishEvent, addr 0x3c15ab8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3bb2a24, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
+  /// @brief Method remove_didFinishEvent, addr 0x3c15b68, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
 
 protected:
   // Ctor Parameters []
@@ -105,6 +104,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PlayerOptionsViewController(PlayerOptionsViewController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4896 };
+
   /// @brief Field _playerSettingsPanelController, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> ____playerSettingsPanelController;
 
@@ -117,14 +119,9 @@ public:
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::HMUI::ViewController>>* ___didFinishEvent;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4875 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerOptionsViewController, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____playerSettingsPanelController) == 0x78, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____okButton) == 0x80, "Offset mismatch!");
@@ -132,6 +129,8 @@ static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____okBut
 static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ____playerDataModel) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerOptionsViewController, ___didFinishEvent) == 0x90, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerOptionsViewController, 0x98>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerOptionsViewController);

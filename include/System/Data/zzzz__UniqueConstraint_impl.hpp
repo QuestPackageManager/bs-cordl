@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::DataColumn*)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4128224;
+  constexpr static std::size_t addrs = 0x4189538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x41283c0;
+  constexpr static std::size_t addrs = 0x41896d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UniqueConstraint::*)(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x41283f4;
+  constexpr static std::size_t addrs = 0x4189708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, bool)>(
     &::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4128424;
+  constexpr static std::size_t addrs = 0x4189738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, bool)>(&::System::Data::UniqueConstraint::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4128460;
+  constexpr static std::size_t addrs = 0x4189774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Data::UniqueConstraint::*)()>(
     &::System::Data::UniqueConstraint::get_ColumnNames)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x41284a4;
+  constexpr static std::size_t addrs = 0x41897b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "get_ColumnNames",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Index* (::System::Data::UniqueConstraint::*)()>(
     &::System::Data::UniqueConstraint::get_ConstraintIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41284b0;
+  constexpr static std::size_t addrs = 0x41897c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "get_ConstraintIndex",
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::ConstraintIndexClear)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x41284b8;
+  constexpr static std::size_t addrs = 0x41897cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "ConstraintIndexClear",
@@ -138,7 +138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::ConstraintIndexInitialize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41284d8;
+  constexpr static std::size_t addrs = 0x41897ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(),
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::CheckState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4128510;
+  constexpr static std::size_t addrs = 0x4189824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::NonVirtualCheckState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x412851c;
+  constexpr static std::size_t addrs = 0x4189830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "NonVirtualCheckState",
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::ConstraintCollection*)>(
     &::System::Data::UniqueConstraint::CheckCanAddToCollection)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4128528;
+  constexpr static std::size_t addrs = 0x418983c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Data::ConstraintCollection*, bool)>(
     &::System::Data::UniqueConstraint::CanBeRemovedFromCollection)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x412852c;
+  constexpr static std::size_t addrs = 0x4189840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::CanEnableConstraint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4128698;
+  constexpr static std::size_t addrs = 0x41899ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::IsConstraintViolated)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x41286e4;
+  constexpr static std::size_t addrs = 0x41899f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::UniqueConstraint::CheckConstraint)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4128944;
+  constexpr static std::size_t addrs = 0x4189c58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Data::DataColumn*)>(
     &::System::Data::UniqueConstraint::ContainsColumn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4128a44;
+  constexpr static std::size_t addrs = 0x4189d58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataSet*)>(
     &::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4128a50;
+  constexpr static std::size_t addrs = 0x4189d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataSet*, bool)>(
     &::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x4128a60;
+  constexpr static std::size_t addrs = 0x4189d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::UniqueConstraint* (::System::Data::UniqueConstraint::*)(::System::Data::DataTable*)>(
     &::System::Data::UniqueConstraint::Clone)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x4128fb0;
+  constexpr static std::size_t addrs = 0x418a2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::UniqueConstraint::*)()>(
     &::System::Data::UniqueConstraint::get_Columns)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4129464;
+  constexpr static std::size_t addrs = 0x418a778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> (::System::Data::UniqueConstraint::*)()>(
     &::System::Data::UniqueConstraint::get_ColumnsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4128a3c;
+  constexpr static std::size_t addrs = 0x4189d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "get_ColumnsReference",
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_IsPrimaryKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4129470;
+  constexpr static std::size_t addrs = 0x418a784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "get_IsPrimaryKey",
@@ -354,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UniqueConstraint::*)(::StringW, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>)>(&::System::Data::UniqueConstraint::Create)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x41282d4;
+  constexpr static std::size_t addrs = 0x41895e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,7 +369,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UniqueConstraint::*)(::System::Object*)>(&::System::Data::UniqueConstraint::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x41294b4;
+  constexpr static std::size_t addrs = 0x418a7c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x412956c;
+  constexpr static std::size_t addrs = 0x418a880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +397,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UniqueConstraint::*)(bool)>(&::System::Data::UniqueConstraint::set_InCollection)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4129574;
+  constexpr static std::size_t addrs = 0x418a888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41295c4;
+  constexpr static std::size_t addrs = 0x418a8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), "get_Key",
@@ -424,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::UniqueConstraint::*)()>(&::System::Data::UniqueConstraint::get_Table)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x41295cc;
+  constexpr static std::size_t addrs = 0x418a8e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -449,7 +449,7 @@ constexpr ::System::Data::Index*& System::Data::UniqueConstraint::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraintIndex;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Data::Index*> const& System::Data::UniqueConstraint::__cordl_internal_get__constraintIndex() const {
+constexpr ::System::Data::Index* const& System::Data::UniqueConstraint::__cordl_internal_get__constraintIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____constraintIndex;
 }
@@ -493,17 +493,11 @@ constexpr void System::Data::UniqueConstraint::__cordl_internal_set__columnNames
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____columnNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::System::Data::DataColumn* column) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(column));
-}
 inline void System::Data::UniqueConstraint::_ctor(::System::Data::DataColumn* column) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Data::DataColumn*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, column);
-}
-inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columns));
 }
 inline void System::Data::UniqueConstraint::_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,17 +506,11 @@ inline void System::Data::UniqueConstraint::_ctor(::StringW name, ::ArrayW<::Sys
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, columns);
 }
-inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(columns));
-}
 inline void System::Data::UniqueConstraint::_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, columns);
-}
-inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> columnNames, bool isPrimaryKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columnNames, isPrimaryKey));
 }
 inline void System::Data::UniqueConstraint::_ctor(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> columnNames, bool isPrimaryKey) {
   static auto* ___internal_method =
@@ -531,10 +519,6 @@ inline void System::Data::UniqueConstraint::_ctor(::StringW name, ::ArrayW<::Str
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, columnNames, isPrimaryKey);
-}
-inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
-                                                                                  bool isPrimaryKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columns, isPrimaryKey));
 }
 inline void System::Data::UniqueConstraint::_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, bool isPrimaryKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -666,6 +650,22 @@ inline ::System::Data::DataTable* System::Data::UniqueConstraint::get_Table() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::UniqueConstraint*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Data::DataTable*, false>(this, ___internal_method);
+}
+inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::System::Data::DataColumn* column) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(column));
+}
+inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columns));
+}
+inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(columns));
+}
+inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> columnNames, bool isPrimaryKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columnNames, isPrimaryKey));
+}
+inline ::System::Data::UniqueConstraint* System::Data::UniqueConstraint::New_ctor(::StringW name, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
+                                                                                  bool isPrimaryKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Data::UniqueConstraint*>(name, columns, isPrimaryKey));
 }
 // Ctor Parameters []
 constexpr ::System::Data::UniqueConstraint::UniqueConstraint() {}

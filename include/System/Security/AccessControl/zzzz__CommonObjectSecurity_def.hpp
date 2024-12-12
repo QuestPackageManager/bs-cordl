@@ -17,20 +17,19 @@ class CommonObjectSecurity;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::CommonObjectSecurity);
-// Type: System.Security.AccessControl::CommonObjectSecurity
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Security.AccessControl.ObjectSecurity
 namespace System::Security::AccessControl {
 // Is value type: false
-// CS Name: ::System.Security.AccessControl::CommonObjectSecurity*
+// CS Name: System.Security.AccessControl.CommonObjectSecurity
 class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
 public:
   // Declarations
-  /// @brief Method GetAccessRules, addr 0x3c63788, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAccessRules, addr 0x3cc38fc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor, addr 0x3c6368c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3cc3800, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer);
 
 protected:

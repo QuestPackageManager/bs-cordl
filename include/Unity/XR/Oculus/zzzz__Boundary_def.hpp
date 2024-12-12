@@ -4,45 +4,43 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Boundary)
 namespace Unity::XR::Oculus {
-struct __Boundary__BoundaryType;
+struct Boundary_BoundaryType;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 // Forward declare root types
 namespace Unity::XR::Oculus {
-struct __Boundary__BoundaryType;
+struct Boundary_BoundaryType;
 }
 namespace Unity::XR::Oculus {
 class Boundary;
 }
 // Write type traits
-MARK_VAL_T(::Unity::XR::Oculus::__Boundary__BoundaryType);
+MARK_VAL_T(::Unity::XR::Oculus::Boundary_BoundaryType);
 MARK_REF_PTR_T(::Unity::XR::Oculus::Boundary);
-// Type: ::BoundaryType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace Unity::XR::Oculus {
 // Is value type: true
-// CS Name: ::Boundary::BoundaryType
-struct CORDL_TYPE __Boundary__BoundaryType {
+// CS Name: Unity.XR.Oculus.Boundary/BoundaryType
+struct CORDL_TYPE Boundary_BoundaryType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____Boundary__BoundaryType_Unwrapped
-  enum struct ____Boundary__BoundaryType_Unwrapped : int32_t {
+  /// @brief Nested struct __Boundary_BoundaryType_Unwrapped
+  enum struct __Boundary_BoundaryType_Unwrapped : int32_t {
     __E_OuterBoundary = static_cast<int32_t>(0x0),
     __E_PlayArea = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____Boundary__BoundaryType_Unwrapped() const noexcept {
-    return static_cast<____Boundary__BoundaryType_Unwrapped>(this->value__);
+  constexpr operator __Boundary_BoundaryType_Unwrapped() const noexcept {
+    return static_cast<__Boundary_BoundaryType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -52,54 +50,53 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Boundary__BoundaryType();
+  constexpr Boundary_BoundaryType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __Boundary__BoundaryType(int32_t value__) noexcept;
+  constexpr Boundary_BoundaryType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field OuterBoundary value: I32(0)
+  static ::Unity::XR::Oculus::Boundary_BoundaryType const OuterBoundary;
 
-  /// @brief Field OuterBoundary value: static_cast<int32_t>(0x0)
-  static ::Unity::XR::Oculus::__Boundary__BoundaryType const OuterBoundary;
-
-  /// @brief Field PlayArea value: static_cast<int32_t>(0x1)
-  static ::Unity::XR::Oculus::__Boundary__BoundaryType const PlayArea;
+  /// @brief Field PlayArea value: I32(1)
+  static ::Unity::XR::Oculus::Boundary_BoundaryType const PlayArea;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17387 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__Boundary__BoundaryType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::Boundary_BoundaryType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::Oculus::__Boundary__BoundaryType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Boundary_BoundaryType, 0x4>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus
-// Type: Unity.XR.Oculus::Boundary
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::XR::Oculus {
 // Is value type: false
-// CS Name: ::Unity.XR.Oculus::Boundary*
+// CS Name: Unity.XR.Oculus.Boundary
 class CORDL_TYPE Boundary : public ::System::Object {
 public:
   // Declarations
-  using BoundaryType = ::Unity::XR::Oculus::__Boundary__BoundaryType;
+  using BoundaryType = ::Unity::XR::Oculus::Boundary_BoundaryType;
 
-  /// @brief Method GetBoundaryConfigured, addr 0x47d07c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x4831adc, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x47d07d0, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::__Boundary__BoundaryType boundaryType, ByRef<::UnityEngine::Vector3> dimensions);
+  /// @brief Method GetBoundaryDimensions, addr 0x4831ae4, size 0x4, virtual false, abstract: false, final false
+  static inline bool GetBoundaryDimensions(::Unity::XR::Oculus::Boundary_BoundaryType boundaryType, ::ByRef<::UnityEngine::Vector3> dimensions);
 
-  /// @brief Method GetBoundaryVisible, addr 0x47d07d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x4831aec, size 0x4, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method SetBoundaryVisible, addr 0x47d07e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x4831af4, size 0x8, virtual false, abstract: false, final false
   static inline void SetBoundaryVisible(bool boundaryVisible);
 
 protected:
@@ -117,7 +114,7 @@ public:
   Boundary(Boundary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17388 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,6 +122,6 @@ public:
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Boundary, 0x10>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus
-DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::__Boundary__BoundaryType, "Unity.XR.Oculus", "Boundary/BoundaryType");
+DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Boundary_BoundaryType, "Unity.XR.Oculus", "Boundary/BoundaryType");
 NEED_NO_BOX(::Unity::XR::Oculus::Boundary);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::Boundary*, "Unity.XR.Oculus", "Boundary");

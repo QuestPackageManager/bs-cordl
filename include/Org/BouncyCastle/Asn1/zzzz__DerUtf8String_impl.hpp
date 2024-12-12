@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::DerUtf8String::GetInstance)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2606f44;
+  constexpr static std::size_t addrs = 0x263a230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerUtf8String::GetInstance)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x260702c;
+  constexpr static std::size_t addrs = 0x263a318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtf8String::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::DerUtf8String::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25f913c;
+  constexpr static std::size_t addrs = 0x262c428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtf8String::*)(::StringW)>(&::Org::BouncyCastle::Asn1::DerUtf8String::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2607124;
+  constexpr static std::size_t addrs = 0x263a410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerUtf8String::*)()>(&::Org::BouncyCastle::Asn1::DerUtf8String::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2607198;
+  constexpr static std::size_t addrs = 0x263a484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::DerUtf8String::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerUtf8String::Asn1Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26071a0;
+  constexpr static std::size_t addrs = 0x263a48c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerUtf8String::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerUtf8String::Encode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2607238;
+  constexpr static std::size_t addrs = 0x263a524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,17 +135,11 @@ inline ::Org::BouncyCastle::Asn1::DerUtf8String* Org::BouncyCastle::Asn1::DerUtf
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerUtf8String*, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-inline ::Org::BouncyCastle::Asn1::DerUtf8String* Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerUtf8String*>(str));
-}
 inline void Org::BouncyCastle::Asn1::DerUtf8String::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerUtf8String*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str);
-}
-inline ::Org::BouncyCastle::Asn1::DerUtf8String* Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::StringW str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerUtf8String*>(str));
 }
 inline void Org::BouncyCastle::Asn1::DerUtf8String::_ctor(::StringW str) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -167,6 +161,12 @@ inline void Org::BouncyCastle::Asn1::DerUtf8String::Encode(::Org::BouncyCastle::
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerUtf8String*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, derOut);
+}
+inline ::Org::BouncyCastle::Asn1::DerUtf8String* Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerUtf8String*>(str));
+}
+inline ::Org::BouncyCastle::Asn1::DerUtf8String* Org::BouncyCastle::Asn1::DerUtf8String::New_ctor(::StringW str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerUtf8String*>(str));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerUtf8String::DerUtf8String() {}

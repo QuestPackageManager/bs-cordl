@@ -12,11 +12,10 @@ struct EVROverlayError;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::EVROverlayError);
-// Type: OVR.OpenVR::EVROverlayError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace OVR::OpenVR {
 // Is value type: true
-// CS Name: ::OVR.OpenVR::EVROverlayError
+// CS Name: OVR.OpenVR.EVROverlayError
 struct CORDL_TYPE EVROverlayError {
 public:
   // Declarations
@@ -67,93 +66,93 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EVROverlayError(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field ArrayTooSmall value: static_cast<int32_t>(0x16)
+  /// @brief Field ArrayTooSmall value: I32(22)
   static ::OVR::OpenVR::EVROverlayError const ArrayTooSmall;
 
-  /// @brief Field BadMaskPrimitive value: static_cast<int32_t>(0x1e)
+  /// @brief Field BadMaskPrimitive value: I32(30)
   static ::OVR::OpenVR::EVROverlayError const BadMaskPrimitive;
 
-  /// @brief Field InvalidHandle value: static_cast<int32_t>(0xb)
+  /// @brief Field InvalidHandle value: I32(11)
   static ::OVR::OpenVR::EVROverlayError const InvalidHandle;
 
-  /// @brief Field InvalidParameter value: static_cast<int32_t>(0x14)
+  /// @brief Field InvalidParameter value: I32(20)
   static ::OVR::OpenVR::EVROverlayError const InvalidParameter;
 
-  /// @brief Field InvalidTexture value: static_cast<int32_t>(0x18)
+  /// @brief Field InvalidTexture value: I32(24)
   static ::OVR::OpenVR::EVROverlayError const InvalidTexture;
 
-  /// @brief Field InvalidTrackedDevice value: static_cast<int32_t>(0x13)
+  /// @brief Field InvalidTrackedDevice value: I32(19)
   static ::OVR::OpenVR::EVROverlayError const InvalidTrackedDevice;
 
-  /// @brief Field KeyInUse value: static_cast<int32_t>(0x11)
+  /// @brief Field KeyInUse value: I32(17)
   static ::OVR::OpenVR::EVROverlayError const KeyInUse;
 
-  /// @brief Field KeyTooLong value: static_cast<int32_t>(0xf)
+  /// @brief Field KeyTooLong value: I32(15)
   static ::OVR::OpenVR::EVROverlayError const KeyTooLong;
 
-  /// @brief Field KeyboardAlreadyInUse value: static_cast<int32_t>(0x1a)
+  /// @brief Field KeyboardAlreadyInUse value: I32(26)
   static ::OVR::OpenVR::EVROverlayError const KeyboardAlreadyInUse;
 
-  /// @brief Field NameTooLong value: static_cast<int32_t>(0x10)
+  /// @brief Field NameTooLong value: I32(16)
   static ::OVR::OpenVR::EVROverlayError const NameTooLong;
 
-  /// @brief Field NoNeighbor value: static_cast<int32_t>(0x1b)
+  /// @brief Field NoNeighbor value: I32(27)
   static ::OVR::OpenVR::EVROverlayError const NoNeighbor;
 
-  /// @brief Field None value: static_cast<int32_t>(0x0)
+  /// @brief Field None value: I32(0)
   static ::OVR::OpenVR::EVROverlayError const None;
 
-  /// @brief Field OverlayLimitExceeded value: static_cast<int32_t>(0xd)
+  /// @brief Field OverlayLimitExceeded value: I32(13)
   static ::OVR::OpenVR::EVROverlayError const OverlayLimitExceeded;
 
-  /// @brief Field PermissionDenied value: static_cast<int32_t>(0xc)
+  /// @brief Field PermissionDenied value: I32(12)
   static ::OVR::OpenVR::EVROverlayError const PermissionDenied;
 
-  /// @brief Field RequestFailed value: static_cast<int32_t>(0x17)
+  /// @brief Field RequestFailed value: I32(23)
   static ::OVR::OpenVR::EVROverlayError const RequestFailed;
 
-  /// @brief Field TextureAlreadyLocked value: static_cast<int32_t>(0x1f)
+  /// @brief Field TextureAlreadyLocked value: I32(31)
   static ::OVR::OpenVR::EVROverlayError const TextureAlreadyLocked;
 
-  /// @brief Field TextureLockCapacityReached value: static_cast<int32_t>(0x20)
+  /// @brief Field TextureLockCapacityReached value: I32(32)
   static ::OVR::OpenVR::EVROverlayError const TextureLockCapacityReached;
 
-  /// @brief Field TextureNotLocked value: static_cast<int32_t>(0x21)
+  /// @brief Field TextureNotLocked value: I32(33)
   static ::OVR::OpenVR::EVROverlayError const TextureNotLocked;
 
-  /// @brief Field ThumbnailCantBeDestroyed value: static_cast<int32_t>(0x15)
+  /// @brief Field ThumbnailCantBeDestroyed value: I32(21)
   static ::OVR::OpenVR::EVROverlayError const ThumbnailCantBeDestroyed;
 
-  /// @brief Field TooManyMaskPrimitives value: static_cast<int32_t>(0x1d)
+  /// @brief Field TooManyMaskPrimitives value: I32(29)
   static ::OVR::OpenVR::EVROverlayError const TooManyMaskPrimitives;
 
-  /// @brief Field UnableToLoadFile value: static_cast<int32_t>(0x19)
+  /// @brief Field UnableToLoadFile value: I32(25)
   static ::OVR::OpenVR::EVROverlayError const UnableToLoadFile;
 
-  /// @brief Field UnknownOverlay value: static_cast<int32_t>(0xa)
+  /// @brief Field UnknownOverlay value: I32(10)
   static ::OVR::OpenVR::EVROverlayError const UnknownOverlay;
 
-  /// @brief Field WrongTransformType value: static_cast<int32_t>(0x12)
+  /// @brief Field WrongTransformType value: I32(18)
   static ::OVR::OpenVR::EVROverlayError const WrongTransformType;
 
-  /// @brief Field WrongVisibilityType value: static_cast<int32_t>(0xe)
+  /// @brief Field WrongVisibilityType value: I32(14)
   static ::OVR::OpenVR::EVROverlayError const WrongVisibilityType;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8915 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVROverlayError, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::OVR::OpenVR::EVROverlayError, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::EVROverlayError, 0x4>, "Size mismatch!");
 
 } // namespace OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVROverlayError, "OVR.OpenVR", "EVROverlayError");

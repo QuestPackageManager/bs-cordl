@@ -12,11 +12,10 @@ struct AudioSettings;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::Settings::AudioSettings);
-// Type: BeatSaber.Settings::AudioSettings
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 29, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::Settings {
 // Is value type: true
-// CS Name: ::BeatSaber.Settings::AudioSettings
+// CS Name: BeatSaber.Settings.AudioSettings
 struct CORDL_TYPE AudioSettings {
 public:
   // Declarations
@@ -27,6 +26,12 @@ public:
   // Ctor Parameters [CppParam { name: "volume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None }, CppParam {
   // name: "latency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "overrideLatency", ty: "bool", modifiers: "", def_value: None }]
   constexpr AudioSettings(float_t volume, float_t ambientVolumeScale, float_t latency, bool overrideLatency) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18008 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field volume, offset: 0x0, size: 0x4, def value: None
   float_t volume;
@@ -40,17 +45,9 @@ public:
   /// @brief Field overrideLatency, offset: 0xc, size: 0x1, def value: None
   bool overrideLatency;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17958 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::AudioSettings, 0x10>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::Settings::AudioSettings, volume) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::AudioSettings, ambientVolumeScale) == 0x4, "Offset mismatch!");
@@ -58,6 +55,8 @@ static_assert(offsetof(::BeatSaber::Settings::AudioSettings, ambientVolumeScale)
 static_assert(offsetof(::BeatSaber::Settings::AudioSettings, latency) == 0x8, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::Settings::AudioSettings, overrideLatency) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::AudioSettings, 0x10>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::AudioSettings, "BeatSaber.Settings", "AudioSettings");

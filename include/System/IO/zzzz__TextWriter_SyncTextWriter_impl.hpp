@@ -1,451 +1,453 @@
 #pragma once
 // IWYU pragma private; include "System/IO/TextWriter_SyncTextWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
+#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter._ctor
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::System::IO::TextWriter*)>(
-    &::System::IO::__TextWriter__SyncTextWriter::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::System::IO::TextWriter*)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ce3ad0;
+  constexpr static std::size_t addrs = 0x3d43c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.get_Encoding
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.get_Encoding
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
-    &::System::IO::__TextWriter__SyncTextWriter::get_Encoding)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3c84;
+  constexpr static std::size_t addrs = 0x3d43df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 13));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 13));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.get_FormatProvider
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.get_FormatProvider
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
-    &::System::IO::__TextWriter__SyncTextWriter::get_FormatProvider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IFormatProvider* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::get_FormatProvider)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce3ca8;
+  constexpr static std::size_t addrs = 0x3d43e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 8));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 8));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.get_NewLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.get_NewLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__TextWriter__SyncTextWriter::*)()>(
-    &::System::IO::__TextWriter__SyncTextWriter::get_NewLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::get_NewLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3cc8;
+  constexpr static std::size_t addrs = 0x3d43e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 14));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 14));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.set_NewLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.set_NewLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
-    &::System::IO::__TextWriter__SyncTextWriter::set_NewLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::set_NewLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3cec;
+  constexpr static std::size_t addrs = 0x3d43e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 15));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 15));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Close
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Close
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::Close)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Close)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce3d10;
+  constexpr static std::size_t addrs = 0x3d43e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 9));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 9));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Dispose
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(bool)>(&::System::IO::__TextWriter__SyncTextWriter::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(bool)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::Dispose)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3ce3d30;
+  constexpr static std::size_t addrs = 0x3d43ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 10));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 10));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Flush
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Flush
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::Flush)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::Flush)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ce3de4;
+  constexpr static std::size_t addrs = 0x3d43f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 12));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 12));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Write
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Write
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(char16_t)>(&::System::IO::__TextWriter__SyncTextWriter::Write)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3e04;
+  constexpr static std::size_t addrs = 0x3d43f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 16));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 16));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Write
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Write
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
-    &::System::IO::__TextWriter__SyncTextWriter::Write)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3e28;
+  constexpr static std::size_t addrs = 0x3d43f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 17));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 17));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Write
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Write
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
-    &::System::IO::__TextWriter__SyncTextWriter::Write)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3e4c;
+  constexpr static std::size_t addrs = 0x3d43fc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 18));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 18));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Write
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Write
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
-    &::System::IO::__TextWriter__SyncTextWriter::Write)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3e70;
+  constexpr static std::size_t addrs = 0x3d43fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 19));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 19));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.Write
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.Write
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::IO::__TextWriter__SyncTextWriter::Write)> {
+    static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::GlobalNamespace::TextWriter_SyncTextWriter::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3e94;
+  constexpr static std::size_t addrs = 0x3d44008;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 20));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 20));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)()>(&::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3eb8;
+  constexpr static std::size_t addrs = 0x3d4402c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 21));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 21));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
-    &::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3edc;
+  constexpr static std::size_t addrs = 0x3d44050;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 22));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 22));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteLine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
-    &::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3f00;
+  constexpr static std::size_t addrs = 0x3d44074;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 23));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 23));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteLine
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteLine
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::System::IO::__TextWriter__SyncTextWriter::WriteLine)> {
+    static_cast<void (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW, ::System::Object*, ::System::Object*, ::System::Object*)>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteLine)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ce3f24;
+  constexpr static std::size_t addrs = 0x3d44098;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 24));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 24));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteAsync
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)(char16_t)>(
-    &::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(char16_t)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ce3f48;
+  constexpr static std::size_t addrs = 0x3d440bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 25));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 25));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteAsync
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)(::StringW)>(
-    &::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)(::StringW)>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ce3ff8;
+  constexpr static std::size_t addrs = 0x3d4416c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 26));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 26));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.WriteAsync
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.WriteAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::System::IO::__TextWriter__SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::__TextWriter__SyncTextWriter::WriteAsync)> {
+    ::GlobalNamespace::TextWriter_SyncTextWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ce40a8;
+  constexpr static std::size_t addrs = 0x3d4421c;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 27));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 27));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::__TextWriter__SyncTextWriter.FlushAsync
+//  Writing Method size for method: ::GlobalNamespace::TextWriter_SyncTextWriter.FlushAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::__TextWriter__SyncTextWriter::*)()>(
-    &::System::IO::__TextWriter__SyncTextWriter::FlushAsync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::TextWriter_SyncTextWriter::*)()>(
+    &::GlobalNamespace::TextWriter_SyncTextWriter::FlushAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ce4170;
+  constexpr static std::size_t addrs = 0x3d442e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 28));
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 28));
     return ___internal_method;
   }
 };
-/// @brief Convert operator to "::System::IDisposable"
-constexpr System::IO::__TextWriter__SyncTextWriter::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* System::IO::__TextWriter__SyncTextWriter::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-constexpr ::System::IO::TextWriter*& System::IO::__TextWriter__SyncTextWriter::__cordl_internal_get__out() {
+constexpr ::System::IO::TextWriter*& GlobalNamespace::TextWriter_SyncTextWriter::__cordl_internal_get__out() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____out;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& System::IO::__TextWriter__SyncTextWriter::__cordl_internal_get__out() const {
+constexpr ::System::IO::TextWriter* const& GlobalNamespace::TextWriter_SyncTextWriter::__cordl_internal_get__out() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____out;
 }
-constexpr void System::IO::__TextWriter__SyncTextWriter::__cordl_internal_set__out(::System::IO::TextWriter* value) {
+constexpr void GlobalNamespace::TextWriter_SyncTextWriter::__cordl_internal_set__out(::System::IO::TextWriter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____out)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::IO::__TextWriter__SyncTextWriter* System::IO::__TextWriter__SyncTextWriter::New_ctor(::System::IO::TextWriter* t) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::__TextWriter__SyncTextWriter*>(t));
-}
-inline void System::IO::__TextWriter__SyncTextWriter::_ctor(::System::IO::TextWriter* t) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::_ctor(::System::IO::TextWriter* t) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::TextWriter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
-inline ::System::Text::Encoding* System::IO::__TextWriter__SyncTextWriter::get_Encoding() {
+inline ::System::Text::Encoding* GlobalNamespace::TextWriter_SyncTextWriter::get_Encoding() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Text::Encoding*, false>(this, ___internal_method);
 }
-inline ::System::IFormatProvider* System::IO::__TextWriter__SyncTextWriter::get_FormatProvider() {
+inline ::System::IFormatProvider* GlobalNamespace::TextWriter_SyncTextWriter::get_FormatProvider() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 8)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::IFormatProvider*, false>(this, ___internal_method);
 }
-inline ::StringW System::IO::__TextWriter__SyncTextWriter::get_NewLine() {
+inline ::StringW GlobalNamespace::TextWriter_SyncTextWriter::get_NewLine() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 14)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::set_NewLine(::StringW value) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::set_NewLine(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 15)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Close() {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Close() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 9)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Dispose(bool disposing) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Flush() {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Flush() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Write(char16_t value) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Write(char16_t value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 16)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 18)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, index, count);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Write(::StringW value) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Write(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 19)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::Write(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, format, arg0, arg1, arg2);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::WriteLine() {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::WriteLine() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::WriteLine(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, index, count);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::WriteLine(::StringW value) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::WriteLine(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::IO::__TextWriter__SyncTextWriter::WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
+inline void GlobalNamespace::TextWriter_SyncTextWriter::WriteLine(::StringW format, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, format, arg0, arg1, arg2);
 }
-inline ::System::Threading::Tasks::Task* System::IO::__TextWriter__SyncTextWriter::WriteAsync(char16_t value) {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync(char16_t value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value);
 }
-inline ::System::Threading::Tasks::Task* System::IO::__TextWriter__SyncTextWriter::WriteAsync(::StringW value) {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, value);
 }
-inline ::System::Threading::Tasks::Task* System::IO::__TextWriter__SyncTextWriter::WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::TextWriter_SyncTextWriter::WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, buffer, index, count);
 }
-inline ::System::Threading::Tasks::Task* System::IO::__TextWriter__SyncTextWriter::FlushAsync() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::TextWriter_SyncTextWriter::FlushAsync() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__TextWriter__SyncTextWriter*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextWriter_SyncTextWriter*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
+inline ::GlobalNamespace::TextWriter_SyncTextWriter* GlobalNamespace::TextWriter_SyncTextWriter::New_ctor(::System::IO::TextWriter* t) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TextWriter_SyncTextWriter*>(t));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::TextWriter_SyncTextWriter::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::TextWriter_SyncTextWriter::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
-constexpr ::System::IO::__TextWriter__SyncTextWriter::__TextWriter__SyncTextWriter() {}
+constexpr ::GlobalNamespace::TextWriter_SyncTextWriter::TextWriter_SyncTextWriter() {}

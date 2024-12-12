@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -20,19 +21,13 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue> class ReferenceCountingCache_2;
 }
 namespace GlobalNamespace {
-struct __SpriteAsyncLoader___DestroySpriteTask_d__10;
+struct SpriteAsyncLoader__DestroySpriteTask_d__10;
 }
 namespace GlobalNamespace {
-struct __SpriteAsyncLoader___UnloadSprite_d__9;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+struct SpriteAsyncLoader__UnloadSprite_d__9;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -54,30 +49,29 @@ namespace GlobalNamespace {
 class SpriteAsyncLoader;
 }
 namespace GlobalNamespace {
-struct __SpriteAsyncLoader___DestroySpriteTask_d__10;
+struct SpriteAsyncLoader__DestroySpriteTask_d__10;
 }
 namespace GlobalNamespace {
-struct __SpriteAsyncLoader___UnloadSprite_d__9;
+struct SpriteAsyncLoader__UnloadSprite_d__9;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SpriteAsyncLoader);
-MARK_VAL_T(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10);
-MARK_VAL_T(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9);
-// Type: ::<DestroySpriteTask>d__10
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10);
+MARK_VAL_T(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9);
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SpriteAsyncLoader::<DestroySpriteTask>d__10
-struct CORDL_TYPE __SpriteAsyncLoader___DestroySpriteTask_d__10 {
+// CS Name: SpriteAsyncLoader/<DestroySpriteTask>d__10
+struct CORDL_TYPE SpriteAsyncLoader__DestroySpriteTask_d__10 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bc3944, size 0x288, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c23a58, size 0x288, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bc3bcc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c23ce0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -85,15 +79,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SpriteAsyncLoader___DestroySpriteTask_d__10();
+  constexpr SpriteAsyncLoader__DestroySpriteTask_d__10();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "spriteTask", ty:
   // "::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
-  constexpr __SpriteAsyncLoader___DestroySpriteTask_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                          ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask, ::GlobalNamespace::SpriteAsyncLoader* __4__this,
-                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+  constexpr SpriteAsyncLoader__DestroySpriteTask_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                       ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask, ::GlobalNamespace::SpriteAsyncLoader* __4__this,
+                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18593 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -110,43 +110,36 @@ public:
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18512 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, spriteTask) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, spriteTask) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, __4__this) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, __4__this) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, __u__1) == 0x38, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<UnloadSprite>d__9
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::SpriteAsyncLoader::<UnloadSprite>d__9
-struct CORDL_TYPE __SpriteAsyncLoader___UnloadSprite_d__9 {
+// CS Name: SpriteAsyncLoader/<UnloadSprite>d__9
+struct CORDL_TYPE SpriteAsyncLoader__UnloadSprite_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bc3bd8, size 0x434, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3c23cec, size 0x434, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bc400c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3c24120, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -154,17 +147,22 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __SpriteAsyncLoader___UnloadSprite_d__9();
+  constexpr SpriteAsyncLoader__UnloadSprite_d__9();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "cache", ty:
   // "::GlobalNamespace::IReferenceCountingCache_2<::StringW,::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*", modifiers: "", def_value: None }, CppParam { name: "path", ty:
   // "::StringW", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SpriteAsyncLoader*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
-  constexpr __SpriteAsyncLoader___UnloadSprite_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                    ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache,
-                                                    ::StringW path, ::GlobalNamespace::SpriteAsyncLoader* __4__this,
-                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+  constexpr SpriteAsyncLoader__UnloadSprite_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                 ::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path,
+                                                 ::GlobalNamespace::SpriteAsyncLoader* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18594 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -184,41 +182,34 @@ public:
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18513 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, cache) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, cache) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, path) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, path) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, __4__this) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, __4__this) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, __u__1) == 0x40, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::SpriteAsyncLoader
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::SpriteAsyncLoader*
+// CS Name: SpriteAsyncLoader
 class CORDL_TYPE SpriteAsyncLoader : public ::System::Object {
 public:
   // Declarations
-  using _DestroySpriteTask_d__10 = ::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10;
+  using _DestroySpriteTask_d__10 = ::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10;
 
-  using _UnloadSprite_d__9 = ::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9;
+  using _UnloadSprite_d__9 = ::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9;
 
   /// @brief Field _destroyFunc, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__destroyFunc, put = __cordl_internal_set__destroyFunc)) ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* _destroyFunc;
@@ -236,48 +227,46 @@ public:
                       put = __cordl_internal_set__referenceCountingCache)) ::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*
       _referenceCountingCache;
 
-  /// @brief Method ClearCache, addr 0x3bc34bc, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ClearCache, addr 0x3c235a0, size 0x360, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method DestroySprite, addr 0x3bc38c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DestroySprite, addr 0x3c239a8, size 0xb0, virtual false, abstract: false, final false
   static inline void DestroySprite(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method DestroySpriteTask, addr 0x3bc381c, size 0x98, virtual false, abstract: false, final false
-  inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* spriteTask);
+  /// @brief Method DestroySpriteTask, addr 0x3c23900, size 0x98, virtual false, abstract: false, final false
+  inline void DestroySpriteTask(::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* spriteTask);
 
-  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x3bc38b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x3c23998, size 0x10, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW path, ::StringW _);
 
-  /// @brief Method LoadSpriteAsync, addr 0x3bc329c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x3c23380, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path);
 
   static inline ::GlobalNamespace::SpriteAsyncLoader*
-  New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
-           ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
+  New_ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
+           ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize);
 
-  /// @brief Method UnloadSprite, addr 0x3bc3418, size 0xa4, virtual false, abstract: false, final false
-  inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* cache, ::StringW path);
+  /// @brief Method UnloadSprite, addr 0x3c234fc, size 0xa4, virtual false, abstract: false, final false
+  inline void UnloadSprite(::GlobalNamespace::IReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* cache, ::StringW path);
 
-  /// @brief Method UnloadSprite, addr 0x3bc3408, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UnloadSprite, addr 0x3c234ec, size 0x10, virtual false, abstract: false, final false
   inline void UnloadSprite(::StringW path);
+
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* const& __cordl_internal_get__destroyFunc() const;
 
   constexpr ::System::Action_1<::UnityW<::UnityEngine::Sprite>>*& __cordl_internal_get__destroyFunc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::Sprite>>*> const& __cordl_internal_get__destroyFunc() const;
+  constexpr ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* const& __cordl_internal_get__loadFunc() const;
 
   constexpr ::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*& __cordl_internal_get__loadFunc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*> const&
-  __cordl_internal_get__loadFunc() const;
+  constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::StringW>* const& __cordl_internal_get__lruCache() const;
 
   constexpr ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::StringW>*& __cordl_internal_get__lruCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::StringW>*> const& __cordl_internal_get__lruCache() const;
+  constexpr ::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* const& __cordl_internal_get__referenceCountingCache() const;
 
   constexpr ::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*& __cordl_internal_get__referenceCountingCache();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>*> const&
-  __cordl_internal_get__referenceCountingCache() const;
 
   constexpr void __cordl_internal_set__destroyFunc(::System::Action_1<::UnityW<::UnityEngine::Sprite>>* value);
 
@@ -287,9 +276,9 @@ public:
 
   constexpr void __cordl_internal_set__referenceCountingCache(::GlobalNamespace::ReferenceCountingCache_2<::StringW, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* value);
 
-  /// @brief Method .ctor, addr 0x3bc3144, size 0x158, virtual false, abstract: false, final false
-  inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>*>* loadFunc,
-                    ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* destroyFunc, int32_t cacheSize);
+  /// @brief Method .ctor, addr 0x3c23228, size 0x158, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_3<::StringW, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>*>* loadFunc,
+                    ::System::Action_1<::UnityEngine::Sprite*>* destroyFunc, int32_t cacheSize);
 
 protected:
   // Ctor Parameters []
@@ -305,6 +294,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   SpriteAsyncLoader(SpriteAsyncLoader const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18595 };
+
   /// @brief Field _lruCache, offset: 0x10, size: 0x8, def value: None
   ::BGLib::DotnetExtension::Collections::LRUCache_2<::StringW, ::StringW>* ____lruCache;
 
@@ -317,14 +309,9 @@ public:
   /// @brief Field _destroyFunc, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::Sprite>>* ____destroyFunc;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18514 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteAsyncLoader, 0x30>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader, ____lruCache) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader, ____referenceCountingCache) == 0x18, "Offset mismatch!");
@@ -333,8 +320,10 @@ static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader, ____loadFunc) == 0x
 
 static_assert(offsetof(::GlobalNamespace::SpriteAsyncLoader, ____destroyFunc) == 0x28, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpriteAsyncLoader, 0x30>, "Size mismatch!");
+
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpriteAsyncLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpriteAsyncLoader*, "", "SpriteAsyncLoader");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SpriteAsyncLoader___DestroySpriteTask_d__10, "", "SpriteAsyncLoader/<DestroySpriteTask>d__10");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__SpriteAsyncLoader___UnloadSprite_d__9, "", "SpriteAsyncLoader/<UnloadSprite>d__9");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpriteAsyncLoader__DestroySpriteTask_d__10, "", "SpriteAsyncLoader/<DestroySpriteTask>d__10");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpriteAsyncLoader__UnloadSprite_d__9, "", "SpriteAsyncLoader/<UnloadSprite>d__9");

@@ -23,11 +23,10 @@ class CopyNonLazyBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::CopyNonLazyBinder);
-// Type: Zenject::CopyNonLazyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Zenject.NonLazyBinder
 namespace Zenject {
 // Is value type: false
-// CS Name: ::Zenject::CopyNonLazyBinder*
+// CS Name: Zenject.CopyNonLazyBinder
 class CORDL_TYPE CopyNonLazyBinder : public ::Zenject::NonLazyBinder {
 public:
   // Declarations
@@ -35,33 +34,33 @@ public:
   __declspec(property(get = __cordl_internal_get__secondaryBindInfos,
                       put = __cordl_internal_set__secondaryBindInfos)) ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _secondaryBindInfos;
 
-  /// @brief Method AddSecondaryCopyBindInfo, addr 0x4a9d3dc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method AddSecondaryCopyBindInfo, addr 0x4b01cec, size 0xec, virtual false, abstract: false, final false
   inline void AddSecondaryCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers, addr 0x4a97d1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x4afc62c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers, addr 0x4a9d60c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x4b01f1c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers, addr 0x4a9d628, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x4b01f38, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers, addr 0x4a9d644, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x4b01f54, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::NonLazyBinder* MoveIntoDirectSubContainers();
 
   static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method SetInheritanceMethod, addr 0x4a9d4c8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetInheritanceMethod, addr 0x4b01dd8, size 0x144, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
+
+  constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* const& __cordl_internal_get__secondaryBindInfos() const;
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__secondaryBindInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __cordl_internal_get__secondaryBindInfos() const;
-
   constexpr void __cordl_internal_set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x4a991ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4afdabc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:
@@ -78,18 +77,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   CopyNonLazyBinder(CopyNonLazyBinder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12038 };
+
   /// @brief Field _secondaryBindInfos, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::BindInfo*>* ____secondaryBindInfos;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12005 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::CopyNonLazyBinder, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::Zenject::CopyNonLazyBinder, ____secondaryBindInfos) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Zenject::CopyNonLazyBinder, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
 NEED_NO_BOX(::Zenject::CopyNonLazyBinder);

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Net::Sockets::SocketException::WSAGetLastError_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x439d860;
+  constexpr static std::size_t addrs = 0x43feb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(),
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x439d864;
+  constexpr static std::size_t addrs = 0x43feb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SocketException::*)(int32_t, ::StringW)>(
     &::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439d884;
+  constexpr static std::size_t addrs = 0x43feb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SocketException::*)(int32_t)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439a02c;
+  constexpr static std::size_t addrs = 0x43fb340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SocketException::*)(::System::Net::Sockets::SocketError)>(
     &::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439d000;
+  constexpr static std::size_t addrs = 0x43fe314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SocketException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::Sockets::SocketException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439d88c;
+  constexpr static std::size_t addrs = 0x43feba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::get_ErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439d894;
+  constexpr static std::size_t addrs = 0x43feba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Sockets::SocketException::*)()>(&::System::Net::Sockets::SocketException::get_Message)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x439d89c;
+  constexpr static std::size_t addrs = 0x43febb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::SocketError (::System::Net::Sockets::SocketException::*)()>(
     &::System::Net::Sockets::SocketException::get_SocketErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439b774;
+  constexpr static std::size_t addrs = 0x43fca88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(),
@@ -138,7 +138,7 @@ constexpr ::System::Net::EndPoint*& System::Net::Sockets::SocketException::__cor
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndPoint;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& System::Net::Sockets::SocketException::__cordl_internal_get_m_EndPoint() const {
+constexpr ::System::Net::EndPoint* const& System::Net::Sockets::SocketException::__cordl_internal_get_m_EndPoint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_EndPoint;
 }
@@ -151,16 +151,10 @@ inline int32_t System::Net::Sockets::SocketException::WSAGetLastError_icall() {
                                                                              "WSAGetLastError_icall", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>());
-}
 inline void System::Net::Sockets::SocketException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(int32_t error, ::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(error, message));
 }
 inline void System::Net::Sockets::SocketException::_ctor(int32_t error, ::StringW message) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,27 +162,17 @@ inline void System::Net::Sockets::SocketException::_ctor(int32_t error, ::String
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, error, message);
 }
-inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(int32_t errorCode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(errorCode));
-}
 inline void System::Net::Sockets::SocketException::_ctor(int32_t errorCode) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, errorCode);
 }
-inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(::System::Net::Sockets::SocketError socketError) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(socketError));
-}
 inline void System::Net::Sockets::SocketException::_ctor(::System::Net::Sockets::SocketError socketError) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Sockets::SocketError>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, socketError);
-}
-inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                                                                ::System::Runtime::Serialization::StreamingContext streamingContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(serializationInfo, streamingContext));
 }
 inline void System::Net::Sockets::SocketException::_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -211,6 +195,22 @@ inline ::System::Net::Sockets::SocketError System::Net::Sockets::SocketException
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SocketException*>::get(),
                                                                              "get_SocketErrorCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Sockets::SocketError, false>(this, ___internal_method);
+}
+inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>());
+}
+inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(int32_t error, ::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(error, message));
+}
+inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(int32_t errorCode) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(errorCode));
+}
+inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(::System::Net::Sockets::SocketError socketError) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(socketError));
+}
+inline ::System::Net::Sockets::SocketException* System::Net::Sockets::SocketException::New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
+                                                                                                ::System::Runtime::Serialization::StreamingContext streamingContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SocketException*>(serializationInfo, streamingContext));
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SocketException::SocketException() {}

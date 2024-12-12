@@ -21,11 +21,10 @@ class MultiClickButtonController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiClickButtonController);
-// Type: ::MultiClickButtonController
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MultiClickButtonController*
+// CS Name: MultiClickButtonController
 class CORDL_TYPE MultiClickButtonController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -44,24 +43,24 @@ public:
   /// @brief Field wasTriggeredEvent, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_wasTriggeredEvent, put = __cordl_internal_set_wasTriggeredEvent)) ::System::Action* wasTriggeredEvent;
 
-  /// @brief Method HandleButtonClicked, addr 0x3b9998c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleButtonClicked, addr 0x3bfbadc, size 0x38, virtual false, abstract: false, final false
   inline void HandleButtonClicked();
 
   static inline ::GlobalNamespace::MultiClickButtonController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b99970, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3bfbac0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b998d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3bfba28, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr int32_t const& __cordl_internal_get__currentNumberOfClicks() const;
 
@@ -71,9 +70,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__numberOfClicksRequired();
 
-  constexpr ::System::Action*& __cordl_internal_get_wasTriggeredEvent();
+  constexpr ::System::Action* const& __cordl_internal_get_wasTriggeredEvent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_wasTriggeredEvent() const;
+  constexpr ::System::Action*& __cordl_internal_get_wasTriggeredEvent();
 
   constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -85,13 +84,13 @@ public:
 
   constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b999c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3bfbb14, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_wasTriggeredEvent, addr 0x3b997a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_wasTriggeredEvent, addr 0x3bfb8f0, size 0x9c, virtual false, abstract: false, final false
   inline void add_wasTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_wasTriggeredEvent, addr 0x3b9983c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_wasTriggeredEvent, addr 0x3bfb98c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_wasTriggeredEvent(::System::Action* value);
 
 protected:
@@ -108,6 +107,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MultiClickButtonController(MultiClickButtonController const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4759 };
+
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____button;
 
@@ -123,14 +125,9 @@ public:
   /// @brief Field _buttonBinder, offset: 0x40, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4743 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiClickButtonController, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____button) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____numberOfClicksRequired) == 0x28, "Offset mismatch!");
@@ -140,6 +137,8 @@ static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ___wasTrig
 static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____currentNumberOfClicks) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____buttonBinder) == 0x40, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiClickButtonController, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiClickButtonController);

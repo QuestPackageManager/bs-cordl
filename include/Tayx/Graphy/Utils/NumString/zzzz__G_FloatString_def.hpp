@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -15,45 +14,44 @@ class G_FloatString;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Utils::NumString::G_FloatString);
-// Type: Tayx.Graphy.Utils.NumString::G_FloatString
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Tayx::Graphy::Utils::NumString {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Utils.NumString::G_FloatString*
+// CS Name: Tayx.Graphy.Utils.NumString.G_FloatString
 class CORDL_TYPE G_FloatString : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_decimalMultiplier, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_m_decimalMultiplier, put = setStaticF_m_decimalMultiplier)) float_t m_decimalMultiplier;
+  __declspec(property(get = getStaticF_m_decimalMultiplier, put = setStaticF_m_decimalMultiplier)) float_t m_decimalMultiplier;
 
   /// @brief Field m_negativeBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_negativeBuffer, put = setStaticF_m_negativeBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_negativeBuffer;
+  __declspec(property(get = getStaticF_m_negativeBuffer, put = setStaticF_m_negativeBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_negativeBuffer;
 
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
+  __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x446b69c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x44cc9b0, size 0x98, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method FromIndex, addr 0x446f0e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FromIndex, addr 0x44d03fc, size 0x64, virtual false, abstract: false, final false
   static inline float_t FromIndex(int32_t i);
 
-  /// @brief Method Init, addr 0x446f1b4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44d04c8, size 0x254, virtual false, abstract: false, final false
   static inline void Init(float_t minNegativeValue, float_t maxPositiveValue);
 
-  /// @brief Method ToFloat, addr 0x446f764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToFloat, addr 0x44d0a78, size 0x8, virtual false, abstract: false, final false
   static inline float_t ToFloat(int32_t i);
 
-  /// @brief Method ToIndex, addr 0x446f408, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x44d071c, size 0xc0, virtual false, abstract: false, final false
   static inline int32_t ToIndex(float_t f);
 
-  /// @brief Method ToInt, addr 0x446f748, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToInt, addr 0x44d0a5c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t ToInt(float_t f);
 
-  /// @brief Method ToStringNonAlloc, addr 0x446f4c8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x44d07dc, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value);
 
-  /// @brief Method ToStringNonAlloc, addr 0x446f608, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x44d091c, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(float_t value, ::StringW format);
 
   static inline float_t getStaticF_m_decimalMultiplier();
@@ -62,10 +60,10 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x446f14c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x44d0460, size 0x68, virtual false, abstract: false, final false
   static inline float_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x446f078, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x44d038c, size 0x70, virtual false, abstract: false, final false
   static inline float_t get_MinValue();
 
   static inline void setStaticF_m_decimalMultiplier(float_t value);
@@ -89,7 +87,7 @@ public:
   G_FloatString(G_FloatString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17215 };
 
   /// @brief Field m_floatFormat offset 0xffffffff size 0x8
   static constexpr ::ConstString m_floatFormat{ u"0.0" };

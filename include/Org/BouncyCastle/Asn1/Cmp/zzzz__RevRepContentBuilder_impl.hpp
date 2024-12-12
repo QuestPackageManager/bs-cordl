@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* (
     ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*)>(&::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c8d9c;
+  constexpr static std::size_t addrs = 0x22fc088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::*)(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*, ::Org::BouncyCastle::Asn1::Crmf::CertId*)>(
     &::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::Add)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22c8dc4;
+  constexpr static std::size_t addrs = 0x22fc0b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* (
     ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::*)(::Org::BouncyCastle::Asn1::X509::CertificateList*)>(&::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::AddCrl)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22c8e6c;
+  constexpr static std::size_t addrs = 0x22fc158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::RevRepContent* (::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::Build)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x22c8e94;
+  constexpr static std::size_t addrs = 0x22fc180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22c9020;
+  constexpr static std::size_t addrs = 0x22fc30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder*>::get(),
@@ -90,7 +90,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_status() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_status() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___status;
 }
@@ -102,7 +102,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revCerts;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_revCerts() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_revCerts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___revCerts;
 }
@@ -114,7 +114,7 @@ constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& Org::BouncyCastle::As
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crls;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_crls() const {
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::__cordl_internal_get_crls() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___crls;
 }
@@ -143,13 +143,13 @@ inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContent* Org::BouncyCastle::Asn1::C
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Cmp::RevRepContent*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder*>());
-}
 inline void Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder*>());
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder::RevRepContentBuilder() {}

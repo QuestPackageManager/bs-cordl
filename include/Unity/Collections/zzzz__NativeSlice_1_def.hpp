@@ -3,29 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSlice_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -34,29 +25,28 @@ namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct __NativeSlice_1__Enumerator;
+template <typename T> struct NativeSlice_1_Enumerator;
 }
 // Forward declare root types
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
 }
 namespace Unity::Collections {
-template <typename T> struct __NativeSlice_1__Enumerator;
+template <typename T> struct NativeSlice_1_Enumerator;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1);
-MARK_GEN_VAL_T(::Unity::Collections::__NativeSlice_1__Enumerator);
-// Type: Unity.Collections::NativeSlice`1
-// SizeInfo { instance_size: 16, native_size: 32, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1_Enumerator);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IEquatable`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::Unity.Collections::NativeSlice`1<T>
+// CS Name: Unity.Collections.NativeSlice`1<T>
 struct CORDL_TYPE NativeSlice_1 {
 public:
   // Declarations
-  using Enumerator = ::Unity::Collections::__NativeSlice_1__Enumerator<T>;
+  using Enumerator = ::Unity::Collections::NativeSlice_1_Enumerator<T>;
 
   __declspec(property(get = get_Item, put = set_Item)) T Item[];
 
@@ -86,7 +76,7 @@ public:
   inline bool Equals(::Unity::Collections::NativeSlice_1<T> other);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::Unity::Collections::__NativeSlice_1__Enumerator<T> GetEnumerator();
+  inline ::Unity::Collections::NativeSlice_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
@@ -138,6 +128,12 @@ public:
   // }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr NativeSlice_1(::cordl_internals::Ptr<uint8_t> m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10606 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
   ::cordl_internals::Ptr<uint8_t> m_Buffer;
 
@@ -147,24 +143,17 @@ public:
   /// @brief Field m_Length, offset: 0xc, size: 0x4, def value: None
   int32_t m_Length;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10573 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Type: ::Enumerator
-// SizeInfo { instance_size: 24, native_size: 36, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, Unity.Collections.NativeSlice`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// CS Name: ::NativeSlice`1::Enumerator<T>
-struct CORDL_TYPE __NativeSlice_1__Enumerator {
+// CS Name: Unity.Collections.NativeSlice`1/Enumerator<T>
+struct CORDL_TYPE NativeSlice_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
@@ -193,7 +182,7 @@ public:
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(ByRef<::Unity::Collections::NativeSlice_1<T>> array);
+  inline void _ctor(::ByRef<::Unity::Collections::NativeSlice_1<T>> array);
 
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
@@ -209,11 +198,17 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __NativeSlice_1__Enumerator();
+  constexpr NativeSlice_1_Enumerator();
 
   // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeSlice_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:
   // None }]
-  constexpr __NativeSlice_1__Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
+  constexpr NativeSlice_1_Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10605 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field m_Array, offset: 0x0, size: 0x10, def value: None
   ::Unity::Collections::NativeSlice_1<T> m_Array;
@@ -221,15 +216,9 @@ public:
   /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
   int32_t m_Index;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10572 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Collections::NativeSlice_1, "Unity.Collections", "NativeSlice`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Collections::__NativeSlice_1__Enumerator, "Unity.Collections", "NativeSlice`1/Enumerator");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Collections::NativeSlice_1_Enumerator, "Unity.Collections", "NativeSlice`1/Enumerator");

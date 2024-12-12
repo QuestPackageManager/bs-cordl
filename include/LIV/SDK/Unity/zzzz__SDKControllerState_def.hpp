@@ -8,30 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKControllerState)
-namespace LIV::SDK::Unity {
-struct SDKQuaternion;
-}
-namespace LIV::SDK::Unity {
-struct SDKVector3;
-}
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKControllerState;
 }
 // Write type traits
 MARK_VAL_T(::LIV::SDK::Unity::SDKControllerState);
-// Type: LIV.SDK.Unity::SDKControllerState
-// SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies LIV.SDK.Unity.SDKQuaternion, LIV.SDK.Unity.SDKVector3
 namespace LIV::SDK::Unity {
 // Is value type: true
-// CS Name: ::LIV.SDK.Unity::SDKControllerState
+// CS Name: LIV.SDK.Unity.SDKControllerState
 struct CORDL_TYPE SDKControllerState {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3a72358, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3ac8fc8, size 0x368, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x3a7230c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x3ac8f7c, size 0x4c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKControllerState get_empty();
 
   // Ctor Parameters []
@@ -48,6 +41,12 @@ public:
                                ::LIV::SDK::Unity::SDKQuaternion calibrationcamerarotation, ::LIV::SDK::Unity::SDKVector3 cameraposition, ::LIV::SDK::Unity::SDKQuaternion camerarotation,
                                ::LIV::SDK::Unity::SDKVector3 leftposition, ::LIV::SDK::Unity::SDKQuaternion leftrotation, ::LIV::SDK::Unity::SDKVector3 rightposition,
                                ::LIV::SDK::Unity::SDKQuaternion rightrotation) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17329 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8c };
 
   /// @brief Field hmdposition, offset: 0x0, size: 0xc, def value: None
   ::LIV::SDK::Unity::SDKVector3 hmdposition;
@@ -79,17 +78,9 @@ public:
   /// @brief Field rightrotation, offset: 0x7c, size: 0x10, def value: None
   ::LIV::SDK::Unity::SDKQuaternion rightrotation;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17285 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8c };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKControllerState, 0x8c>, "Size mismatch!");
-
 static_assert(offsetof(::LIV::SDK::Unity::SDKControllerState, hmdposition) == 0x0, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKControllerState, hmdrotation) == 0xc, "Offset mismatch!");
@@ -109,6 +100,8 @@ static_assert(offsetof(::LIV::SDK::Unity::SDKControllerState, leftrotation) == 0
 static_assert(offsetof(::LIV::SDK::Unity::SDKControllerState, rightposition) == 0x70, "Offset mismatch!");
 
 static_assert(offsetof(::LIV::SDK::Unity::SDKControllerState, rightrotation) == 0x7c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::LIV::SDK::Unity::SDKControllerState, 0x8c>, "Size mismatch!");
 
 } // namespace LIV::SDK::Unity
 DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKControllerState, "LIV.SDK.Unity", "SDKControllerState");

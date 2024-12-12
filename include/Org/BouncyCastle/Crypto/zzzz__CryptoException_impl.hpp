@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::CryptoException::*)()>(&::Org::BouncyCastle::Crypto::CryptoException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2414afc;
+  constexpr static std::size_t addrs = 0x2447de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::CryptoException*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::CryptoException::*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::CryptoException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2414b54;
+  constexpr static std::size_t addrs = 0x2447e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::CryptoException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::CryptoException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2414bbc;
+  constexpr static std::size_t addrs = 0x2447ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,16 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>());
-}
 inline void Org::BouncyCastle::Crypto::CryptoException::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::CryptoException*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor(::StringW message) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>(message));
 }
 inline void Org::BouncyCastle::Crypto::CryptoException::_ctor(::StringW message) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -64,15 +58,21 @@ inline void Org::BouncyCastle::Crypto::CryptoException::_ctor(::StringW message)
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
-inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor(::StringW message, ::System::Exception* exception) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>(message, exception));
-}
 inline void Org::BouncyCastle::Crypto::CryptoException::_ctor(::StringW message, ::System::Exception* exception) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::CryptoException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message, exception);
+}
+inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>());
+}
+inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>(message));
+}
+inline ::Org::BouncyCastle::Crypto::CryptoException* Org::BouncyCastle::Crypto::CryptoException::New_ctor(::StringW message, ::System::Exception* exception) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::CryptoException*>(message, exception));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::CryptoException::CryptoException() {}

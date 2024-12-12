@@ -18,11 +18,10 @@ class InvalidTimeZoneException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::InvalidTimeZoneException);
-// Type: System::InvalidTimeZoneException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace System {
 // Is value type: false
-// CS Name: ::System::InvalidTimeZoneException*
+// CS Name: System.InvalidTimeZoneException
 class CORDL_TYPE InvalidTimeZoneException : public ::System::Exception {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d8a974, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3deaae8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d8aa34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3deaba8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d8a9cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3deab40, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

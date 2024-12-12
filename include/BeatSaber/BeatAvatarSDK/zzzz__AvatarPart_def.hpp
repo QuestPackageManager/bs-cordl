@@ -12,11 +12,10 @@ struct AvatarPart;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::BeatAvatarSDK::AvatarPart);
-// Type: BeatSaber.BeatAvatarSDK::AvatarPart
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: true
-// CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPart
+// CS Name: BeatSaber.BeatAvatarSDK.AvatarPart
 struct CORDL_TYPE AvatarPart {
 public:
   // Declarations
@@ -57,63 +56,63 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AvatarPart(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field All value: static_cast<int32_t>(0x1)
+  /// @brief Field All value: I32(1)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const All;
 
-  /// @brief Field ClothesModel value: static_cast<int32_t>(0xa)
+  /// @brief Field ClothesModel value: I32(10)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModel;
 
-  /// @brief Field ClothesModelDetailColor value: static_cast<int32_t>(0xd)
+  /// @brief Field ClothesModelDetailColor value: I32(13)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelDetailColor;
 
-  /// @brief Field ClothesModelPrimaryColor value: static_cast<int32_t>(0xb)
+  /// @brief Field ClothesModelPrimaryColor value: I32(11)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelPrimaryColor;
 
-  /// @brief Field ClothesModelSecondaryColor value: static_cast<int32_t>(0xc)
+  /// @brief Field ClothesModelSecondaryColor value: I32(12)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const ClothesModelSecondaryColor;
 
-  /// @brief Field FacialHairColor value: static_cast<int32_t>(0x7)
+  /// @brief Field FacialHairColor value: I32(7)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const FacialHairColor;
 
-  /// @brief Field GlassesColor value: static_cast<int32_t>(0x6)
+  /// @brief Field GlassesColor value: I32(6)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const GlassesColor;
 
-  /// @brief Field HandsColor value: static_cast<int32_t>(0x9)
+  /// @brief Field HandsColor value: I32(9)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsColor;
 
-  /// @brief Field HandsModel value: static_cast<int32_t>(0x8)
+  /// @brief Field HandsModel value: I32(8)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HandsModel;
 
-  /// @brief Field HeadTopModel value: static_cast<int32_t>(0x3)
+  /// @brief Field HeadTopModel value: I32(3)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HeadTopModel;
 
-  /// @brief Field HeadTopPrimaryColor value: static_cast<int32_t>(0x4)
+  /// @brief Field HeadTopPrimaryColor value: I32(4)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HeadTopPrimaryColor;
 
-  /// @brief Field HeadTopSecondaryColor value: static_cast<int32_t>(0x5)
+  /// @brief Field HeadTopSecondaryColor value: I32(5)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const HeadTopSecondaryColor;
 
-  /// @brief Field SkinColor value: static_cast<int32_t>(0x2)
+  /// @brief Field SkinColor value: I32(2)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const SkinColor;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x0)
+  /// @brief Field Unknown value: I32(0)
   static ::BeatSaber::BeatAvatarSDK::AvatarPart const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18064 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18144 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPart, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::BeatSaber::BeatAvatarSDK::AvatarPart, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarPart, 0x4>, "Size mismatch!");
 
 } // namespace BeatSaber::BeatAvatarSDK
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarSDK::AvatarPart, "BeatSaber.BeatAvatarSDK", "AvatarPart");

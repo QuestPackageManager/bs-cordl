@@ -13,32 +13,27 @@ class IKeyEvaluator;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::IKeyEvaluator);
-// Type: UnityEngine.AddressableAssets::IKeyEvaluator
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// CS Name: ::UnityEngine.AddressableAssets::IKeyEvaluator*
+// CS Name: UnityEngine.AddressableAssets.IKeyEvaluator
 class CORDL_TYPE IKeyEvaluator {
 public:
   // Declarations
   __declspec(property(get = get_RuntimeKey)) ::System::Object* RuntimeKey;
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method RuntimeKeyIsValid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool RuntimeKeyIsValid();
 
-  /// @brief Method get_RuntimeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method get_RuntimeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* get_RuntimeKey();
-
-  // Ctor Parameters [CppParam { name: "", ty: "IKeyEvaluator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IKeyEvaluator(IKeyEvaluator&&) = delete;
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyEvaluator", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IKeyEvaluator(IKeyEvaluator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16183 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

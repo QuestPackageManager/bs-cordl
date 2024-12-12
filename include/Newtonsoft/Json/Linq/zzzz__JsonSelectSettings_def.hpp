@@ -19,11 +19,10 @@ class JsonSelectSettings;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonSelectSettings);
-// Type: Newtonsoft.Json.Linq::JsonSelectSettings
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Nullable`1<T>, System.Object, System.TimeSpan
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// CS Name: ::Newtonsoft.Json.Linq::JsonSelectSettings*
+// CS Name: Newtonsoft.Json.Linq.JsonSelectSettings
 class CORDL_TYPE JsonSelectSettings : public ::System::Object {
 public:
   // Declarations
@@ -52,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set__RegexMatchTimeout_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  /// @brief Method .ctor, addr 0x3ebddec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f1de98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ErrorWhenNoMatch, addr 0x3ebddd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ErrorWhenNoMatch, addr 0x3f1de84, size 0x8, virtual false, abstract: false, final false
   inline bool get_ErrorWhenNoMatch();
 
-  /// @brief Method get_RegexMatchTimeout, addr 0x3ebddc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_RegexMatchTimeout, addr 0x3f1de70, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::TimeSpan> get_RegexMatchTimeout();
 
-  /// @brief Method set_ErrorWhenNoMatch, addr 0x3ebdde0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ErrorWhenNoMatch, addr 0x3f1de8c, size 0xc, virtual false, abstract: false, final false
   inline void set_ErrorWhenNoMatch(bool value);
 
-  /// @brief Method set_RegexMatchTimeout, addr 0x3ebddd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RegexMatchTimeout, addr 0x3f1de7c, size 0x8, virtual false, abstract: false, final false
   inline void set_RegexMatchTimeout(::System::Nullable_1<::System::TimeSpan> value);
 
 protected:
@@ -81,23 +80,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   JsonSelectSettings(JsonSelectSettings const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10415 };
+
   /// @brief Field <RegexMatchTimeout>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Nullable_1<::System::TimeSpan> ____RegexMatchTimeout_k__BackingField;
 
   /// @brief Field <ErrorWhenNoMatch>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____ErrorWhenNoMatch_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10390 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonSelectSettings, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonSelectSettings, ____RegexMatchTimeout_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Linq::JsonSelectSettings, ____ErrorWhenNoMatch_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JsonSelectSettings, 0x28>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
 NEED_NO_BOX(::Newtonsoft::Json::Linq::JsonSelectSettings);

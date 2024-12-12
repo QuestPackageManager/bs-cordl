@@ -13,11 +13,10 @@ class TspValidationException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TspValidationException);
-// Type: Org.BouncyCastle.Tsp::TspValidationException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Tsp.TspException
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Tsp::TspValidationException*
+// CS Name: Org.BouncyCastle.Tsp.TspValidationException
 class CORDL_TYPE TspValidationException : public ::Org::BouncyCastle::Tsp::TspException {
 public:
   // Declarations
@@ -36,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set_failureCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2596200, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c94ec, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2594df4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25c80e0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t failureCode);
 
-  /// @brief Method get_FailureCode, addr 0x259bd0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FailureCode, addr 0x25ceff8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_FailureCode();
 
 protected:
@@ -59,18 +58,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TspValidationException(TspValidationException const&) = delete;
 
-  /// @brief Field failureCode, offset: 0x8c, size: 0x4, def value: None
-  int32_t ___failureCode;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1776 };
+
+  /// @brief Field failureCode, offset: 0x8c, size: 0x4, def value: None
+  int32_t ___failureCode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::TspValidationException, 0x90>, "Size mismatch!");
-
 static_assert(offsetof(::Org::BouncyCastle::Tsp::TspValidationException, ___failureCode) == 0x8c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::TspValidationException, 0x90>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Tsp::TspValidationException);

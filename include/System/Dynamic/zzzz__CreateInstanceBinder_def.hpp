@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CreateInstanceBinder)
 namespace System::Dynamic {
 class DynamicMetaObject;
@@ -15,23 +14,22 @@ class CreateInstanceBinder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Dynamic::CreateInstanceBinder);
-// Type: System.Dynamic::CreateInstanceBinder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Dynamic.DynamicMetaObjectBinder
 namespace System::Dynamic {
 // Is value type: false
-// CS Name: ::System.Dynamic::CreateInstanceBinder*
+// CS Name: System.Dynamic.CreateInstanceBinder
 class CORDL_TYPE CreateInstanceBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x4099b40, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x40fae54, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackCreateInstance, addr 0x4099b30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackCreateInstance, addr 0x40fae44, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackCreateInstance(::System::Dynamic::DynamicMetaObject* target,
                                                                       ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackCreateInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @brief Method FallbackCreateInstance, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackCreateInstance(::System::Dynamic::DynamicMetaObject* target,
                                                                       ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
                                                                       ::System::Dynamic::DynamicMetaObject* errorSuggestion);
@@ -51,7 +49,7 @@ public:
   CreateInstanceBinder(CreateInstanceBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

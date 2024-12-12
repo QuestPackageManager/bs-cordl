@@ -17,11 +17,10 @@ class ResetPitchOnGameplayFinished;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResetPitchOnGameplayFinished);
-// Type: ::ResetPitchOnGameplayFinished
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ResetPitchOnGameplayFinished*
+// CS Name: ResetPitchOnGameplayFinished
 class CORDL_TYPE ResetPitchOnGameplayFinished : public ::System::Object {
 public:
   // Declarations
@@ -32,10 +31,10 @@ public:
   __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
                       put = __cordl_internal_set__gameplayLevelSceneTransitionEvents)) ::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
-  /// @brief Method Finalize, addr 0x3a7c354, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3ad3774, size 0x104, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3a7c458, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAnyGameplayLevelDidFinish, addr 0x3ad3878, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::ResetPitchOnGameplayFinished* New_ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents,
@@ -45,15 +44,15 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
-  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
+  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents* const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
+  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
 
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
   constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  /// @brief Method .ctor, addr 0x3a7c2a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3ad36c8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayLevelSceneTransitionEvents* gameplayLevelSceneTransitionEvents, ::GlobalNamespace::AudioManagerSO* audioManager);
 
 protected:
@@ -70,23 +69,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ResetPitchOnGameplayFinished(ResetPitchOnGameplayFinished const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4023 };
+
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _audioManager, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4017 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResetPitchOnGameplayFinished, 0x20>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ResetPitchOnGameplayFinished, ____gameplayLevelSceneTransitionEvents) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ResetPitchOnGameplayFinished, ____audioManager) == 0x18, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResetPitchOnGameplayFinished, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResetPitchOnGameplayFinished);

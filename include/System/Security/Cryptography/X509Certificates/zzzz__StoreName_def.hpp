@@ -12,11 +12,10 @@ struct StoreName;
 }
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::X509Certificates::StoreName);
-// Type: System.Security.Cryptography.X509Certificates::StoreName
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// CS Name: ::System.Security.Cryptography.X509Certificates::StoreName
+// CS Name: System.Security.Cryptography.X509Certificates.StoreName
 struct CORDL_TYPE StoreName {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr StoreName(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AddressBook value: static_cast<int32_t>(0x1)
+  /// @brief Field AddressBook value: I32(1)
   static ::System::Security::Cryptography::X509Certificates::StoreName const AddressBook;
 
-  /// @brief Field AuthRoot value: static_cast<int32_t>(0x2)
+  /// @brief Field AuthRoot value: I32(2)
   static ::System::Security::Cryptography::X509Certificates::StoreName const AuthRoot;
 
-  /// @brief Field CertificateAuthority value: static_cast<int32_t>(0x3)
+  /// @brief Field CertificateAuthority value: I32(3)
   static ::System::Security::Cryptography::X509Certificates::StoreName const CertificateAuthority;
 
-  /// @brief Field Disallowed value: static_cast<int32_t>(0x4)
+  /// @brief Field Disallowed value: I32(4)
   static ::System::Security::Cryptography::X509Certificates::StoreName const Disallowed;
 
-  /// @brief Field My value: static_cast<int32_t>(0x5)
+  /// @brief Field My value: I32(5)
   static ::System::Security::Cryptography::X509Certificates::StoreName const My;
 
-  /// @brief Field Root value: static_cast<int32_t>(0x6)
+  /// @brief Field Root value: I32(6)
   static ::System::Security::Cryptography::X509Certificates::StoreName const Root;
 
-  /// @brief Field TrustedPeople value: static_cast<int32_t>(0x7)
+  /// @brief Field TrustedPeople value: I32(7)
   static ::System::Security::Cryptography::X509Certificates::StoreName const TrustedPeople;
 
-  /// @brief Field TrustedPublisher value: static_cast<int32_t>(0x8)
+  /// @brief Field TrustedPublisher value: I32(8)
   static ::System::Security::Cryptography::X509Certificates::StoreName const TrustedPublisher;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9296 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::StoreName, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::System::Security::Cryptography::X509Certificates::StoreName, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::StoreName, 0x4>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography::X509Certificates
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::StoreName, "System.Security.Cryptography.X509Certificates", "StoreName");

@@ -11,20 +11,19 @@ class ThemeStyleSheet;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ThemeStyleSheet);
-// Type: UnityEngine.UIElements::ThemeStyleSheet
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.StyleSheet
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ThemeStyleSheet*
+// CS Name: UnityEngine.UIElements.ThemeStyleSheet
 class CORDL_TYPE ThemeStyleSheet : public ::UnityEngine::UIElements::StyleSheet {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4a293a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x4a8dcb0, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x4a293c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4a8dcd4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,7 +41,7 @@ public:
   ThemeStyleSheet(ThemeStyleSheet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

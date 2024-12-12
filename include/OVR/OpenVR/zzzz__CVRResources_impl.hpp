@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRResources::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRResources::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x40147ac;
+  constexpr static std::size_t addrs = 0x4074858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, uint32_t)>(
     &::OVR::OpenVR::CVRResources::LoadSharedResource)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40148b8;
+  constexpr static std::size_t addrs = 0x4074964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRResources::GetResourceFullPath)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40148dc;
+  constexpr static std::size_t addrs = 0x4074988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,9 +64,6 @@ constexpr void OVR::OpenVR::CVRResources::__cordl_internal_set_FnTable(::OVR::Op
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___FnTable = value;
 }
-inline ::OVR::OpenVR::CVRResources* OVR::OpenVR::CVRResources::New_ctor(::System::IntPtr pInterface) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRResources*>(pInterface));
-}
 inline void OVR::OpenVR::CVRResources::_ctor(::System::IntPtr pInterface) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::CVRResources*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -87,6 +84,9 @@ inline uint32_t OVR::OpenVR::CVRResources::GetResourceFullPath(::StringW pchReso
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pchResourceName, pchResourceTypeDirectory, pchPathBuffer, unBufferLen);
+}
+inline ::OVR::OpenVR::CVRResources* OVR::OpenVR::CVRResources::New_ctor(::System::IntPtr pInterface) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVR::OpenVR::CVRResources*>(pInterface));
 }
 // Ctor Parameters []
 constexpr ::OVR::OpenVR::CVRResources::CVRResources() {}

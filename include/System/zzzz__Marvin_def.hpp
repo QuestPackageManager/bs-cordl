@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Marvin)
 namespace System {
@@ -16,35 +15,34 @@ class Marvin;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Marvin);
-// Type: System::Marvin
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System {
 // Is value type: false
-// CS Name: ::System::Marvin*
+// CS Name: System.Marvin
 class CORDL_TYPE Marvin : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <DefaultSeed>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
+  __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
 
-  /// @brief Method Block, addr 0x3d8af50, size 0x88, virtual false, abstract: false, final false
-  static inline void Block(ByRef<uint32_t> rp0, ByRef<uint32_t> rp1);
+  /// @brief Method Block, addr 0x3deb0c4, size 0x88, virtual false, abstract: false, final false
+  static inline void Block(::ByRef<uint32_t> rp0, ::ByRef<uint32_t> rp1);
 
-  /// @brief Method ComputeHash32, addr 0x3d8aab4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x3deacd4, size 0x3f0, virtual false, abstract: false, final false
+  static inline int32_t ComputeHash32(::ByRef<uint8_t> data, int32_t count, uint64_t seed);
+
+  /// @brief Method ComputeHash32, addr 0x3deac28, size 0xac, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
 
-  /// @brief Method ComputeHash32, addr 0x3d8ab60, size 0x3f0, virtual false, abstract: false, final false
-  static inline int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed);
-
-  /// @brief Method GenerateSeed, addr 0x3d8b03c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x3deb1b0, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t GenerateSeed();
 
-  /// @brief Method _rotl, addr 0x3d8afd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method _rotl, addr 0x3deb14c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
-  /// @brief Method get_DefaultSeed, addr 0x3d8afe4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSeed, addr 0x3deb158, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
   static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);

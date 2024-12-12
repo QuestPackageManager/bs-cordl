@@ -15,11 +15,10 @@ class NoSuchAlgorithmException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::NoSuchAlgorithmException);
-// Type: Org.BouncyCastle.Security::NoSuchAlgorithmException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Org.BouncyCastle.Security.GeneralSecurityException
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security::NoSuchAlgorithmException*
+// CS Name: Org.BouncyCastle.Security.NoSuchAlgorithmException
 class CORDL_TYPE NoSuchAlgorithmException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::NoSuchAlgorithmException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x25781a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ab48c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x25781a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ab494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x25781b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ab49c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

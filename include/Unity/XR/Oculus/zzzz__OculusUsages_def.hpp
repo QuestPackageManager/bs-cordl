@@ -12,22 +12,21 @@ class OculusUsages;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::OculusUsages);
-// Type: Unity.XR.Oculus::OculusUsages
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object, UnityEngine.XR.InputFeatureUsage`1<T>
 namespace Unity::XR::Oculus {
 // Is value type: false
-// CS Name: ::Unity.XR.Oculus::OculusUsages*
+// CS Name: Unity.XR.Oculus.OculusUsages
 class CORDL_TYPE OculusUsages : public ::System::Object {
 public:
   // Declarations
   /// @brief Field indexTouch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_indexTouch, put = setStaticF_indexTouch)) ::UnityEngine::XR::InputFeatureUsage_1<bool> indexTouch;
+  __declspec(property(get = getStaticF_indexTouch, put = setStaticF_indexTouch)) ::UnityEngine::XR::InputFeatureUsage_1<bool> indexTouch;
 
   /// @brief Field thumbTouch, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_thumbTouch, put = setStaticF_thumbTouch)) ::UnityEngine::XR::InputFeatureUsage_1<bool> thumbTouch;
+  __declspec(property(get = getStaticF_thumbTouch, put = setStaticF_thumbTouch)) ::UnityEngine::XR::InputFeatureUsage_1<bool> thumbTouch;
 
   /// @brief Field thumbrest, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_thumbrest, put = setStaticF_thumbrest)) ::UnityEngine::XR::InputFeatureUsage_1<bool> thumbrest;
+  __declspec(property(get = getStaticF_thumbrest, put = setStaticF_thumbrest)) ::UnityEngine::XR::InputFeatureUsage_1<bool> thumbrest;
 
   static inline ::UnityEngine::XR::InputFeatureUsage_1<bool> getStaticF_indexTouch();
 
@@ -56,7 +55,7 @@ public:
   OculusUsages(OculusUsages const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

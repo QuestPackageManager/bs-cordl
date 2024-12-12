@@ -3,13 +3,12 @@
 #include "UnityEngine/zzzz__AssemblyVersion_impl.hpp"
 #include "UnityEngine/zzzz__AssemblyFullName_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__AssemblyVersion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AssemblyFullName.Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssemblyFullName::*)(::System::Object*)>(&::UnityEngine::AssemblyFullName::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4845ff0;
+  constexpr static std::size_t addrs = 0x48a6d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AssemblyFullName::*)()>(&::UnityEngine::AssemblyFullName::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x48460c8;
+  constexpr static std::size_t addrs = 0x48a6dfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AssemblyFullName::*)()>(&::UnityEngine::AssemblyFullName::ToString)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4846150;
+  constexpr static std::size_t addrs = 0x48a6e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,9 +60,8 @@ inline ::StringW UnityEngine::AssemblyFullName::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AssemblyFullName>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: Some("nullptr")
-// }]
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::AssemblyFullName::AssemblyFullName(::StringW Name, ::UnityEngine::AssemblyVersion Version, ::StringW PublicKeyToken, ::StringW Culture) noexcept {
   this->Name = Name;
   this->Version = Version;

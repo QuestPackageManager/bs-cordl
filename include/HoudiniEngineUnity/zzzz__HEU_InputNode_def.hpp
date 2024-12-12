@@ -3,9 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HoudiniEngineUnity/zzzz__HEU_InputNode_def.hpp"
+#include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -23,6 +22,18 @@ namespace HoudiniEngineUnity {
 class HEU_InputNodeUICache;
 }
 namespace HoudiniEngineUnity {
+struct HEU_InputNode_InputActions;
+}
+namespace HoudiniEngineUnity {
+struct HEU_InputNode_InputNodeType;
+}
+namespace HoudiniEngineUnity {
+struct HEU_InputNode_InputObjectType;
+}
+namespace HoudiniEngineUnity {
+struct HEU_InputNode_InternalObjectType;
+}
+namespace HoudiniEngineUnity {
 class HEU_InputObjectInfo;
 }
 namespace HoudiniEngineUnity {
@@ -30,21 +41,6 @@ class HEU_InputPreset;
 }
 namespace HoudiniEngineUnity {
 class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputActions;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputNodeType;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputObjectType;
-}
-namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InternalObjectType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -54,46 +50,45 @@ class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputActions;
+struct HEU_InputNode_InputActions;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputNodeType;
+struct HEU_InputNode_InputNodeType;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InputObjectType;
+struct HEU_InputNode_InputObjectType;
 }
 namespace HoudiniEngineUnity {
-struct __HEU_InputNode__InternalObjectType;
+struct HEU_InputNode_InternalObjectType;
 }
 namespace HoudiniEngineUnity {
 class HEU_InputNode;
 }
 // Write type traits
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_InputNode__InputActions);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType);
-MARK_VAL_T(::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_InputNode_InputActions);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_InputNode_InputNodeType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_InputNode_InputObjectType);
+MARK_VAL_T(::HoudiniEngineUnity::HEU_InputNode_InternalObjectType);
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputNode);
-// Type: ::InputNodeType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_InputNode::InputNodeType
-struct CORDL_TYPE __HEU_InputNode__InputNodeType {
+// CS Name: HoudiniEngineUnity.HEU_InputNode/InputNodeType
+struct CORDL_TYPE HEU_InputNode_InputNodeType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_InputNode__InputNodeType_Unwrapped
-  enum struct ____HEU_InputNode__InputNodeType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_InputNode_InputNodeType_Unwrapped
+  enum struct __HEU_InputNode_InputNodeType_Unwrapped : int32_t {
     __E_CONNECTION = static_cast<int32_t>(0x0),
     __E_NODE = static_cast<int32_t>(0x1),
     __E_PARAMETER = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_InputNode__InputNodeType_Unwrapped() const noexcept {
-    return static_cast<____HEU_InputNode__InputNodeType_Unwrapped>(this->value__);
+  constexpr operator __HEU_InputNode_InputNodeType_Unwrapped() const noexcept {
+    return static_cast<__HEU_InputNode_InputNodeType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -103,49 +98,48 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_InputNode__InputNodeType();
+  constexpr HEU_InputNode_InputNodeType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_InputNode__InputNodeType(int32_t value__) noexcept;
+  constexpr HEU_InputNode_InputNodeType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field CONNECTION value: I32(0)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputNodeType const CONNECTION;
 
-  /// @brief Field CONNECTION value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const CONNECTION;
+  /// @brief Field NODE value: I32(1)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputNodeType const NODE;
 
-  /// @brief Field NODE value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const NODE;
-
-  /// @brief Field PARAMETER value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const PARAMETER;
+  /// @brief Field PARAMETER value: I32(2)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputNodeType const PARAMETER;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputNode__InputNodeType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode_InputNodeType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode_InputNodeType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::InputObjectType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_InputNode::InputObjectType
-struct CORDL_TYPE __HEU_InputNode__InputObjectType {
+// CS Name: HoudiniEngineUnity.HEU_InputNode/InputObjectType
+struct CORDL_TYPE HEU_InputNode_InputObjectType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_InputNode__InputObjectType_Unwrapped
-  enum struct ____HEU_InputNode__InputObjectType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_InputNode_InputObjectType_Unwrapped
+  enum struct __HEU_InputNode_InputObjectType_Unwrapped : int32_t {
     __E_HDA = static_cast<int32_t>(0x0),
     __E_UNITY_MESH = static_cast<int32_t>(0x1),
     __E_CURVE = static_cast<int32_t>(0x2),
@@ -155,8 +149,8 @@ public:
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_InputNode__InputObjectType_Unwrapped() const noexcept {
-    return static_cast<____HEU_InputNode__InputObjectType_Unwrapped>(this->value__);
+  constexpr operator __HEU_InputNode_InputObjectType_Unwrapped() const noexcept {
+    return static_cast<__HEU_InputNode_InputObjectType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -166,66 +160,65 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_InputNode__InputObjectType();
+  constexpr HEU_InputNode_InputObjectType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_InputNode__InputObjectType(int32_t value__) noexcept;
+  constexpr HEU_InputNode_InputObjectType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field BOUNDING_BOX value: I32(4)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const BOUNDING_BOX;
 
-  /// @brief Field BOUNDING_BOX value: static_cast<int32_t>(0x4)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const BOUNDING_BOX;
+  /// @brief Field CURVE value: I32(2)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const CURVE;
 
-  /// @brief Field CURVE value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const CURVE;
+  /// @brief Field HDA value: I32(0)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const HDA;
 
-  /// @brief Field HDA value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const HDA;
+  /// @brief Field TERRAIN value: I32(3)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const TERRAIN;
 
-  /// @brief Field TERRAIN value: static_cast<int32_t>(0x3)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const TERRAIN;
+  /// @brief Field TILEMAP value: I32(5)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const TILEMAP;
 
-  /// @brief Field TILEMAP value: static_cast<int32_t>(0x5)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const TILEMAP;
-
-  /// @brief Field UNITY_MESH value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const UNITY_MESH;
+  /// @brief Field UNITY_MESH value: I32(1)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const UNITY_MESH;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11624 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputNode__InputObjectType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode_InputObjectType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode_InputObjectType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::InternalObjectType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_InputNode::InternalObjectType
-struct CORDL_TYPE __HEU_InputNode__InternalObjectType {
+// CS Name: HoudiniEngineUnity.HEU_InputNode/InternalObjectType
+struct CORDL_TYPE HEU_InputNode_InternalObjectType {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_InputNode__InternalObjectType_Unwrapped
-  enum struct ____HEU_InputNode__InternalObjectType_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_InputNode_InternalObjectType_Unwrapped
+  enum struct __HEU_InputNode_InternalObjectType_Unwrapped : int32_t {
     __E_UNKNOWN = static_cast<int32_t>(0x0),
     __E_HDA = static_cast<int32_t>(0x1),
     __E_UNITY_MESH = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_InputNode__InternalObjectType_Unwrapped() const noexcept {
-    return static_cast<____HEU_InputNode__InternalObjectType_Unwrapped>(this->value__);
+  constexpr operator __HEU_InputNode_InternalObjectType_Unwrapped() const noexcept {
+    return static_cast<__HEU_InputNode_InternalObjectType_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -235,57 +228,56 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_InputNode__InternalObjectType();
+  constexpr HEU_InputNode_InternalObjectType();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_InputNode__InternalObjectType(int32_t value__) noexcept;
+  constexpr HEU_InputNode_InternalObjectType(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field HDA value: I32(1)
+  static ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType const HDA;
 
-  /// @brief Field HDA value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType const HDA;
+  /// @brief Field UNITY_MESH value: I32(2)
+  static ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType const UNITY_MESH;
 
-  /// @brief Field UNITY_MESH value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType const UNITY_MESH;
-
-  /// @brief Field UNKNOWN value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType const UNKNOWN;
+  /// @brief Field UNKNOWN value: I32(0)
+  static ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType const UNKNOWN;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11625 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode_InternalObjectType, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode_InternalObjectType, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: ::InputActions
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace HoudiniEngineUnity {
 // Is value type: true
-// CS Name: ::HEU_InputNode::InputActions
-struct CORDL_TYPE __HEU_InputNode__InputActions {
+// CS Name: HoudiniEngineUnity.HEU_InputNode/InputActions
+struct CORDL_TYPE HEU_InputNode_InputActions {
 public:
   // Declarations
   using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____HEU_InputNode__InputActions_Unwrapped
-  enum struct ____HEU_InputNode__InputActions_Unwrapped : int32_t {
+  /// @brief Nested struct __HEU_InputNode_InputActions_Unwrapped
+  enum struct __HEU_InputNode_InputActions_Unwrapped : int32_t {
     __E_ACTION = static_cast<int32_t>(0x0),
     __E_DELETE = static_cast<int32_t>(0x1),
     __E_INSERT = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
-  constexpr operator ____HEU_InputNode__InputActions_Unwrapped() const noexcept {
-    return static_cast<____HEU_InputNode__InputActions_Unwrapped>(this->value__);
+  constexpr operator __HEU_InputNode_InputActions_Unwrapped() const noexcept {
+    return static_cast<__HEU_InputNode_InputActions_Unwrapped>(this->value__);
   }
 
   /// @brief Conversion into unwrapped enum value
@@ -295,52 +287,51 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HEU_InputNode__InputActions();
+  constexpr HEU_InputNode_InputActions();
 
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __HEU_InputNode__InputActions(int32_t value__) noexcept;
+  constexpr HEU_InputNode_InputActions(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+  /// @brief Field ACTION value: I32(0)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputActions const ACTION;
 
-  /// @brief Field ACTION value: static_cast<int32_t>(0x0)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputActions const ACTION;
+  /// @brief Field DELETE value: I32(1)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputActions const DELETE;
 
-  /// @brief Field DELETE value: static_cast<int32_t>(0x1)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputActions const DELETE;
-
-  /// @brief Field INSERT value: static_cast<int32_t>(0x2)
-  static ::HoudiniEngineUnity::__HEU_InputNode__InputActions const INSERT;
+  /// @brief Field INSERT value: I32(2)
+  static ::HoudiniEngineUnity::HEU_InputNode_InputActions const INSERT;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11626 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_InputNode__InputActions, 0x4>, "Size mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode_InputActions, value__) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputNode__InputActions, value__) == 0x0, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode_InputActions, 0x4>, "Size mismatch!");
 
 } // namespace HoudiniEngineUnity
-// Type: HoudiniEngineUnity::HEU_InputNode
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies HoudiniEngineUnity.HEU_InputNode::InputNodeType, HoudiniEngineUnity.HEU_InputNode::InputObjectType, HoudiniEngineUnity.IEquivable`1<T>, UnityEngine.ScriptableObject
 namespace HoudiniEngineUnity {
 // Is value type: false
-// CS Name: ::HoudiniEngineUnity::HEU_InputNode*
+// CS Name: HoudiniEngineUnity.HEU_InputNode
 class CORDL_TYPE HEU_InputNode : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  using InputActions = ::HoudiniEngineUnity::__HEU_InputNode__InputActions;
+  using InputActions = ::HoudiniEngineUnity::HEU_InputNode_InputActions;
 
-  using InputNodeType = ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType;
+  using InputNodeType = ::HoudiniEngineUnity::HEU_InputNode_InputNodeType;
 
-  using InputObjectType = ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType;
+  using InputObjectType = ::HoudiniEngineUnity::HEU_InputNode_InputObjectType;
 
-  using InternalObjectType = ::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType;
+  using InternalObjectType = ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType;
 
   __declspec(property(get = get_InputName)) ::StringW InputName;
 
@@ -348,7 +339,7 @@ public:
 
   __declspec(property(get = get_InputObjects)) ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* InputObjects;
 
-  __declspec(property(get = get_InputType)) ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType InputType;
+  __declspec(property(get = get_InputType)) ::HoudiniEngineUnity::HEU_InputNode_InputNodeType InputType;
 
   __declspec(property(get = get_KeepWorldTransform, put = set_KeepWorldTransform)) bool KeepWorldTransform;
 
@@ -360,13 +351,13 @@ public:
 
   __declspec(property(get = get_ParentAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
 
-  __declspec(property(get = get_PendingInputObjectType, put = set_PendingInputObjectType)) ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType PendingInputObjectType;
+  __declspec(property(get = get_PendingInputObjectType, put = set_PendingInputObjectType)) ::HoudiniEngineUnity::HEU_InputNode_InputObjectType PendingInputObjectType;
 
   __declspec(property(get = get_RequiresCook, put = set_RequiresCook)) bool RequiresCook;
 
   __declspec(property(get = get_RequiresUpload, put = set_RequiresUpload)) bool RequiresUpload;
 
-  __declspec(property(get = get_ThisInputObjectType)) ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType ThisInputObjectType;
+  __declspec(property(get = get_ThisInputObjectType)) ::HoudiniEngineUnity::HEU_InputNode_InputObjectType ThisInputObjectType;
 
   __declspec(property(get = get_TilemapSettings)) ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* TilemapSettings;
 
@@ -390,10 +381,10 @@ public:
   __declspec(property(get = __cordl_internal_get__inputName, put = __cordl_internal_set__inputName)) ::StringW _inputName;
 
   /// @brief Field _inputNodeType, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__inputNodeType, put = __cordl_internal_set__inputNodeType)) ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType _inputNodeType;
+  __declspec(property(get = __cordl_internal_get__inputNodeType, put = __cordl_internal_set__inputNodeType)) ::HoudiniEngineUnity::HEU_InputNode_InputNodeType _inputNodeType;
 
   /// @brief Field _inputObjectType, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType)) ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _inputObjectType;
+  __declspec(property(get = __cordl_internal_get__inputObjectType, put = __cordl_internal_set__inputObjectType)) ::HoudiniEngineUnity::HEU_InputNode_InputObjectType _inputObjectType;
 
   /// @brief Field _inputObjects, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__inputObjects,
@@ -423,7 +414,7 @@ public:
 
   /// @brief Field _pendingInputObjectType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__pendingInputObjectType,
-                      put = __cordl_internal_set__pendingInputObjectType)) ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType _pendingInputObjectType;
+                      put = __cordl_internal_set__pendingInputObjectType)) ::HoudiniEngineUnity::HEU_InputNode_InputObjectType _pendingInputObjectType;
 
   /// @brief Field _requiresCook, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__requiresCook, put = __cordl_internal_set__requiresCook)) bool _requiresCook;
@@ -437,142 +428,142 @@ public:
   /// @brief Field _uiCache, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__uiCache, put = __cordl_internal_set__uiCache)) ::HoudiniEngineUnity::HEU_InputNodeUICache* _uiCache;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>*() noexcept;
 
-  /// @brief Method AddInputEntryAtEnd, addr 0x39ceb28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AddInputEntryAtEnd, addr 0x3a25798, size 0x8c, virtual false, abstract: false, final false
   inline void AddInputEntryAtEnd(::UnityEngine::GameObject* newEntryGameObject);
 
-  /// @brief Method AddInputEntryAtEndMesh, addr 0x39ced1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddInputEntryAtEndMesh, addr 0x3a2598c, size 0x2c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* AddInputEntryAtEndMesh(::UnityEngine::GameObject* newEntryGameObject);
 
-  /// @brief Method AreAnyInputHDAsConnected, addr 0x39cedcc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AreAnyInputHDAsConnected, addr 0x3a25a3c, size 0x19c, virtual false, abstract: false, final false
   inline bool AreAnyInputHDAsConnected();
 
-  /// @brief Method ChangeInputType, addr 0x39ce568, size 0x30, virtual false, abstract: false, final false
-  inline void ChangeInputType(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType newType);
+  /// @brief Method ChangeInputType, addr 0x3a251d8, size 0x30, virtual false, abstract: false, final false
+  inline void ChangeInputType(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode_InputObjectType newType);
 
-  /// @brief Method ClearConnectedInputHDAs, addr 0x39cf18c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectedInputHDAs, addr 0x3a25dfc, size 0x1b8, virtual false, abstract: false, final false
   inline void ClearConnectedInputHDAs();
 
-  /// @brief Method ClearUICache, addr 0x39ce100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearUICache, addr 0x3a24d70, size 0x8, virtual false, abstract: false, final false
   inline void ClearUICache();
 
-  /// @brief Method ConnectToMergeObject, addr 0x39cff08, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMergeObject, addr 0x3a26b78, size 0x198, virtual false, abstract: false, final false
   inline void ConnectToMergeObject(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method CopyInputValuesTo, addr 0x39d0e44, size 0x418, virtual false, abstract: false, final false
+  /// @brief Method CopyInputValuesTo, addr 0x3a27ab4, size 0x418, virtual false, abstract: false, final false
   inline void CopyInputValuesTo(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputNode* destInputNode);
 
-  /// @brief Method CreateInputHDAInfo, addr 0x39ce87c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInputHDAInfo, addr 0x3a254ec, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputHDAInfo* CreateInputHDAInfo(::UnityEngine::GameObject* inputGameObject);
 
-  /// @brief Method CreateInputObjectInfo, addr 0x39ce814, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateInputObjectInfo, addr 0x3a25484, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* CreateInputObjectInfo(::UnityEngine::GameObject* inputGameObject);
 
-  /// @brief Method CreateSetupInput, addr 0x39ce04c, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
-                                                                               ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+  /// @brief Method CreateSetupInput, addr 0x3a24cbc, size 0x90, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_InputNode* CreateSetupInput(int32_t nodeID, int32_t inputIndex, ::StringW inputName, ::StringW labelName,
+                                                                      ::HoudiniEngineUnity::HEU_InputNode_InputNodeType inputNodeType, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
 
-  /// @brief Method DestroyAllData, addr 0x39ce0e4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllData, addr 0x3a24d54, size 0x1c, virtual false, abstract: false, final false
   inline void DestroyAllData(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DisconnectAndDestroyInputs, addr 0x39ce108, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method DisconnectAndDestroyInputs, addr 0x3a24d78, size 0x230, virtual false, abstract: false, final false
   inline void DisconnectAndDestroyInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DisconnectConnectedMergeNode, addr 0x39cef68, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method DisconnectConnectedMergeNode, addr 0x3a25bd8, size 0x224, virtual false, abstract: false, final false
   inline void DisconnectConnectedMergeNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method FindAddToInputHDA, addr 0x39d1d34, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method FindAddToInputHDA, addr 0x3a289a4, size 0x158, virtual false, abstract: false, final false
   inline bool FindAddToInputHDA(::StringW gameObjectName);
 
-  /// @brief Method GetConnectedInputCount, addr 0x39d07a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedInputCount, addr 0x3a27414, size 0x84, virtual false, abstract: false, final false
   inline int32_t GetConnectedInputCount();
 
-  /// @brief Method GetConnectedNodeID, addr 0x39d0828, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedNodeID, addr 0x3a27498, size 0xd8, virtual false, abstract: false, final false
   inline int32_t GetConnectedNodeID(int32_t index);
 
-  /// @brief Method GetInputEntryGameObject, addr 0x39ce8e4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method GetInputEntryGameObject, addr 0x3a25554, size 0x244, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> GetInputEntryGameObject(int32_t index);
 
-  /// @brief Method GetInternalObjectType, addr 0x39ce7f4, size 0x20, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType GetInternalObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType type);
+  /// @brief Method GetInternalObjectType, addr 0x3a25464, size 0x20, virtual false, abstract: false, final false
+  static inline ::HoudiniEngineUnity::HEU_InputNode_InternalObjectType GetInternalObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType type);
 
-  /// @brief Method HandleSelectedObjectsForInputHDAs, addr 0x39d2030, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectedObjectsForInputHDAs, addr 0x3a28ca0, size 0x11c, virtual false, abstract: false, final false
   inline void HandleSelectedObjectsForInputHDAs(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> selectedObjects);
 
-  /// @brief Method HandleSelectedObjectsForInputObjects, addr 0x39d1f14, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectedObjectsForInputObjects, addr 0x3a28b84, size 0x11c, virtual false, abstract: false, final false
   inline void HandleSelectedObjectsForInputObjects(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> selectedObjects);
 
-  /// @brief Method HasInputNodeTransformChanged, addr 0x39d0900, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HasInputNodeTransformChanged, addr 0x3a27570, size 0x254, virtual false, abstract: false, final false
   inline bool HasInputNodeTransformChanged();
 
-  /// @brief Method InsertInputEntry, addr 0x39ce598, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method InsertInputEntry, addr 0x3a25208, size 0x25c, virtual false, abstract: false, final false
   inline void InsertInputEntry(int32_t index, ::UnityEngine::GameObject* newInputGameObject);
 
-  /// @brief Method InternalAddInputHDAAtEnd, addr 0x39cec68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InternalAddInputHDAAtEnd, addr 0x3a258d8, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputHDAInfo* InternalAddInputHDAAtEnd(::UnityEngine::GameObject* newInputHDA);
 
-  /// @brief Method InternalAddInputObjectAtEnd, addr 0x39cebb4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InternalAddInputObjectAtEnd, addr 0x3a25824, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputObjectInfo* InternalAddInputObjectAtEnd(::UnityEngine::GameObject* newInputGameObject);
 
-  /// @brief Method IsAssetInput, addr 0x39ce034, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsAssetInput, addr 0x3a24ca4, size 0x10, virtual false, abstract: false, final false
   inline bool IsAssetInput();
 
-  /// @brief Method IsEquivalentTo, addr 0x39d214c, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x3a28dbc, size 0x3fc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputNode* other);
 
-  /// @brief Method LoadPreset, addr 0x39d1810, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method LoadPreset, addr 0x3a28480, size 0x524, virtual false, abstract: false, final false
   inline void LoadPreset(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_InputPreset* inputPreset);
 
   static inline ::HoudiniEngineUnity::HEU_InputNode* New_ctor();
 
-  /// @brief Method NotifyParentRemovedInput, addr 0x39d1e8c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NotifyParentRemovedInput, addr 0x3a28afc, size 0x88, virtual false, abstract: false, final false
   inline void NotifyParentRemovedInput();
 
-  /// @brief Method NumInputEntries, addr 0x39ced48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method NumInputEntries, addr 0x3a259b8, size 0x84, virtual false, abstract: false, final false
   inline int32_t NumInputEntries();
 
-  /// @brief Method PopulateInputPreset, addr 0x39d1280, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method PopulateInputPreset, addr 0x3a27ef0, size 0x590, virtual false, abstract: false, final false
   inline void PopulateInputPreset(::HoudiniEngineUnity::HEU_InputPreset* inputPreset);
 
-  /// @brief Method ReconnectToUpstreamAsset, addr 0x39d0424, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ReconnectToUpstreamAsset, addr 0x3a27094, size 0x284, virtual false, abstract: false, final false
   inline void ReconnectToUpstreamAsset();
 
-  /// @brief Method RemoveAllInputEntries, addr 0x39ce338, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveAllInputEntries, addr 0x3a24fa8, size 0xa8, virtual false, abstract: false, final false
   inline void RemoveAllInputEntries();
 
-  /// @brief Method ResetConnectionForForceUpdate, addr 0x39ce518, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResetConnectionForForceUpdate, addr 0x3a25188, size 0x50, virtual false, abstract: false, final false
   inline void ResetConnectionForForceUpdate(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ResetInputNode, addr 0x39ce4cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ResetInputNode, addr 0x3a2513c, size 0x4c, virtual false, abstract: false, final false
   inline void ResetInputNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method ResetInputObjectTransforms, addr 0x39ce3e0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ResetInputObjectTransforms, addr 0x3a25050, size 0xec, virtual false, abstract: false, final false
   inline void ResetInputObjectTransforms();
 
-  /// @brief Method SetInputNodeID, addr 0x39ce0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetInputNodeID, addr 0x3a24d4c, size 0x8, virtual false, abstract: false, final false
   inline void SetInputNodeID(int32_t nodeID);
 
-  /// @brief Method UpdateOnAssetRecreation, addr 0x39d0cdc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method UpdateOnAssetRecreation, addr 0x3a2794c, size 0x168, virtual false, abstract: false, final false
   inline void UpdateOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadHDAInput, addr 0x39cf758, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UploadHDAInput, addr 0x3a263c8, size 0x1f0, virtual false, abstract: false, final false
   inline void UploadHDAInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadInput, addr 0x39cf344, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method UploadInput, addr 0x3a25fb4, size 0x414, virtual false, abstract: false, final false
   inline void UploadInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadInputObjectTransforms, addr 0x39d0b54, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UploadInputObjectTransforms, addr 0x3a277c4, size 0x188, virtual false, abstract: false, final false
   inline void UploadInputObjectTransforms(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadObjectMergePackGeometry, addr 0x39d01ac, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UploadObjectMergePackGeometry, addr 0x3a26e1c, size 0x10c, virtual false, abstract: false, final false
   inline bool UploadObjectMergePackGeometry(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadObjectMergeTransformType, addr 0x39d00a0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method UploadObjectMergeTransformType, addr 0x3a26d10, size 0x10c, virtual false, abstract: false, final false
   inline bool UploadObjectMergeTransformType(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadUnityInput, addr 0x39cf948, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method UploadUnityInput, addr 0x3a265b8, size 0x5c0, virtual false, abstract: false, final false
   inline void UploadUnityInput(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectedInputAsset() const;
@@ -587,9 +578,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__inputAsset();
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*& __cordl_internal_get__inputAssetInfos();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* const& __cordl_internal_get__inputAssetInfos() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*> const& __cordl_internal_get__inputAssetInfos() const;
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*& __cordl_internal_get__inputAssetInfos();
 
   constexpr int32_t const& __cordl_internal_get__inputIndex() const;
 
@@ -599,21 +590,21 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__inputName();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType const& __cordl_internal_get__inputNodeType() const;
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputNodeType const& __cordl_internal_get__inputNodeType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType& __cordl_internal_get__inputNodeType();
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputNodeType& __cordl_internal_get__inputNodeType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__inputObjectType() const;
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const& __cordl_internal_get__inputObjectType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__inputObjectType();
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType& __cordl_internal_get__inputObjectType();
+
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* const& __cordl_internal_get__inputObjects() const;
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*& __cordl_internal_get__inputObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>*> const& __cordl_internal_get__inputObjects() const;
+  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__inputObjectsConnectedAssetIDs() const;
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__inputObjectsConnectedAssetIDs();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__inputObjectsConnectedAssetIDs() const;
 
   constexpr bool const& __cordl_internal_get__keepWorldTransform() const;
 
@@ -639,9 +630,9 @@ public:
 
   constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType const& __cordl_internal_get__pendingInputObjectType() const;
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType const& __cordl_internal_get__pendingInputObjectType() const;
 
-  constexpr ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType& __cordl_internal_get__pendingInputObjectType();
+  constexpr ::HoudiniEngineUnity::HEU_InputNode_InputObjectType& __cordl_internal_get__pendingInputObjectType();
 
   constexpr bool const& __cordl_internal_get__requiresCook() const;
 
@@ -651,13 +642,13 @@ public:
 
   constexpr bool& __cordl_internal_get__requiresUpload();
 
+  constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* const& __cordl_internal_get__tilemapSettings() const;
+
   constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __cordl_internal_get__tilemapSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __cordl_internal_get__tilemapSettings() const;
+  constexpr ::HoudiniEngineUnity::HEU_InputNodeUICache* const& __cordl_internal_get__uiCache() const;
 
   constexpr ::HoudiniEngineUnity::HEU_InputNodeUICache*& __cordl_internal_get__uiCache();
-
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputNodeUICache*> const& __cordl_internal_get__uiCache() const;
 
   constexpr void __cordl_internal_set__connectedInputAsset(::UnityW<::UnityEngine::GameObject> value);
 
@@ -671,9 +662,9 @@ public:
 
   constexpr void __cordl_internal_set__inputName(::StringW value);
 
-  constexpr void __cordl_internal_set__inputNodeType(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType value);
+  constexpr void __cordl_internal_set__inputNodeType(::HoudiniEngineUnity::HEU_InputNode_InputNodeType value);
 
-  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__inputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value);
 
   constexpr void __cordl_internal_set__inputObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* value);
 
@@ -691,7 +682,7 @@ public:
 
   constexpr void __cordl_internal_set__parentAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr void __cordl_internal_set__pendingInputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  constexpr void __cordl_internal_set__pendingInputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value);
 
   constexpr void __cordl_internal_set__requiresCook(bool value);
 
@@ -701,70 +692,70 @@ public:
 
   constexpr void __cordl_internal_set__uiCache(::HoudiniEngineUnity::HEU_InputNodeUICache* value);
 
-  /// @brief Method .ctor, addr 0x39d2548, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3a291b8, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_InputName, addr 0x39cdfe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputName, addr 0x3a24c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InputName();
 
-  /// @brief Method get_InputNodeID, addr 0x39cdfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputNodeID, addr 0x3a24c24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_InputNodeID();
 
-  /// @brief Method get_InputObjects, addr 0x39cdfac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InputObjects, addr 0x3a24c1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* get_InputObjects();
 
-  /// @brief Method get_InputType, addr 0x39cdf8c, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType get_InputType();
+  /// @brief Method get_InputType, addr 0x3a24bfc, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_InputNode_InputNodeType get_InputType();
 
-  /// @brief Method get_KeepWorldTransform, addr 0x39ce004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeepWorldTransform, addr 0x3a24c74, size 0x8, virtual false, abstract: false, final false
   inline bool get_KeepWorldTransform();
 
-  /// @brief Method get_LabelName, addr 0x39cdfec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LabelName, addr 0x3a24c5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LabelName();
 
-  /// @brief Method get_PackGeometryBeforeMerging, addr 0x39ce018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PackGeometryBeforeMerging, addr 0x3a24c88, size 0x8, virtual false, abstract: false, final false
   inline bool get_PackGeometryBeforeMerging();
 
-  /// @brief Method get_ParamName, addr 0x39cdff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParamName, addr 0x3a24c64, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ParamName();
 
-  /// @brief Method get_ParentAsset, addr 0x39ce02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentAsset, addr 0x3a24c9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Method get_PendingInputObjectType, addr 0x39cdf9c, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType get_PendingInputObjectType();
+  /// @brief Method get_PendingInputObjectType, addr 0x3a24c0c, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_PendingInputObjectType();
 
-  /// @brief Method get_RequiresCook, addr 0x39cdfbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresCook, addr 0x3a24c2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresCook();
 
-  /// @brief Method get_RequiresUpload, addr 0x39cdfd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequiresUpload, addr 0x3a24c40, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequiresUpload();
 
-  /// @brief Method get_ThisInputObjectType, addr 0x39cdf94, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType get_ThisInputObjectType();
+  /// @brief Method get_ThisInputObjectType, addr 0x3a24c04, size 0x8, virtual false, abstract: false, final false
+  inline ::HoudiniEngineUnity::HEU_InputNode_InputObjectType get_ThisInputObjectType();
 
-  /// @brief Method get_TilemapSettings, addr 0x39ce044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TilemapSettings, addr 0x3a24cb4, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* get_TilemapSettings();
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InputNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InputNode__() noexcept;
 
-  /// @brief Method set_KeepWorldTransform, addr 0x39ce00c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_KeepWorldTransform, addr 0x3a24c7c, size 0xc, virtual false, abstract: false, final false
   inline void set_KeepWorldTransform(bool value);
 
-  /// @brief Method set_PackGeometryBeforeMerging, addr 0x39ce020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PackGeometryBeforeMerging, addr 0x3a24c90, size 0xc, virtual false, abstract: false, final false
   inline void set_PackGeometryBeforeMerging(bool value);
 
-  /// @brief Method set_ParamName, addr 0x39cdffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParamName, addr 0x3a24c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_ParamName(::StringW value);
 
-  /// @brief Method set_PendingInputObjectType, addr 0x39cdfa4, size 0x8, virtual false, abstract: false, final false
-  inline void set_PendingInputObjectType(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType value);
+  /// @brief Method set_PendingInputObjectType, addr 0x3a24c14, size 0x8, virtual false, abstract: false, final false
+  inline void set_PendingInputObjectType(::HoudiniEngineUnity::HEU_InputNode_InputObjectType value);
 
-  /// @brief Method set_RequiresCook, addr 0x39cdfc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresCook, addr 0x3a24c34, size 0xc, virtual false, abstract: false, final false
   inline void set_RequiresCook(bool value);
 
-  /// @brief Method set_RequiresUpload, addr 0x39cdfd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RequiresUpload, addr 0x3a24c48, size 0xc, virtual false, abstract: false, final false
   inline void set_RequiresUpload(bool value);
 
 protected:
@@ -781,14 +772,17 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HEU_InputNode(HEU_InputNode const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11627 };
+
   /// @brief Field _inputNodeType, offset: 0x18, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_InputNode__InputNodeType ____inputNodeType;
+  ::HoudiniEngineUnity::HEU_InputNode_InputNodeType ____inputNodeType;
 
   /// @brief Field _inputObjectType, offset: 0x1c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType ____inputObjectType;
+  ::HoudiniEngineUnity::HEU_InputNode_InputObjectType ____inputObjectType;
 
   /// @brief Field _pendingInputObjectType, offset: 0x20, size: 0x4, def value: None
-  ::HoudiniEngineUnity::__HEU_InputNode__InputObjectType ____pendingInputObjectType;
+  ::HoudiniEngineUnity::HEU_InputNode_InputObjectType ____pendingInputObjectType;
 
   /// @brief Field _inputObjects, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputObjectInfo*>* ____inputObjects;
@@ -844,14 +838,9 @@ public:
   /// @brief Field _uiCache, offset: 0x90, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_InputNodeUICache* ____uiCache;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11594 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode, 0x98>, "Size mismatch!");
-
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode, ____inputNodeType) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode, ____inputObjectType) == 0x1c, "Offset mismatch!");
@@ -894,10 +883,12 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode, ____tilemapSettings)
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InputNode, ____uiCache) == 0x90, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InputNode, 0x98>, "Size mismatch!");
+
 } // namespace HoudiniEngineUnity
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_InputNode__InputActions, "HoudiniEngineUnity", "HEU_InputNode/InputActions");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_InputNode__InputNodeType, "HoudiniEngineUnity", "HEU_InputNode/InputNodeType");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_InputNode__InputObjectType, "HoudiniEngineUnity", "HEU_InputNode/InputObjectType");
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::__HEU_InputNode__InternalObjectType, "HoudiniEngineUnity", "HEU_InputNode/InternalObjectType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputNode_InputActions, "HoudiniEngineUnity", "HEU_InputNode/InputActions");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputNode_InputNodeType, "HoudiniEngineUnity", "HEU_InputNode/InputNodeType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputNode_InputObjectType, "HoudiniEngineUnity", "HEU_InputNode/InputObjectType");
+DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputNode_InternalObjectType, "HoudiniEngineUnity", "HEU_InputNode/InternalObjectType");
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InputNode);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InputNode*, "HoudiniEngineUnity", "HEU_InputNode");

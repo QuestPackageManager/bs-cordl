@@ -3,8 +3,6 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__NudgeJobData_def.hpp"
-#include "System/zzzz__IntPtr_def.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 // Ctor Parameters [CppParam { name: "src", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "dst", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "closingSrc", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "closingDst", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "closingCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "transform",

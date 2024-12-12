@@ -11,13 +11,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
+class ClickDetector_ButtonClickStatus;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class __ClickDetector__ButtonClickStatus;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -27,17 +27,16 @@ namespace UnityEngine::UIElements {
 class ClickDetector;
 }
 namespace UnityEngine::UIElements {
-class __ClickDetector__ButtonClickStatus;
+class ClickDetector_ButtonClickStatus;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::ClickDetector);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus);
-// Type: ::ButtonClickStatus
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus);
+// Dependencies System.Object, UnityEngine.Vector3
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::ClickDetector::ButtonClickStatus*
-class CORDL_TYPE __ClickDetector__ButtonClickStatus : public ::System::Object {
+// CS Name: UnityEngine.UIElements.ClickDetector/ButtonClickStatus
+class CORDL_TYPE ClickDetector_ButtonClickStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ClickCount, offset 0x30, size 0x4
@@ -52,9 +51,9 @@ public:
   /// @brief Field m_Target, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityEngine::UIElements::VisualElement* m_Target;
 
-  static inline ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus* New_ctor();
+  static inline ::UnityEngine::UIElements::ClickDetector_ButtonClickStatus* New_ctor();
 
-  /// @brief Method Reset, addr 0x490c154, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x4970904, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_ClickCount() const;
@@ -69,9 +68,9 @@ public:
 
   constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_PointerDownPosition();
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Target() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
 
   constexpr void __cordl_internal_set_m_ClickCount(int32_t value);
 
@@ -81,22 +80,25 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x490bee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4970694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __ClickDetector__ButtonClickStatus();
+  constexpr ClickDetector_ButtonClickStatus();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ClickDetector__ButtonClickStatus", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __ClickDetector__ButtonClickStatus(__ClickDetector__ButtonClickStatus&&) = delete;
+  ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ClickDetector__ButtonClickStatus", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ClickDetector_ButtonClickStatus", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __ClickDetector__ButtonClickStatus(__ClickDetector__ButtonClickStatus const&) = delete;
+  ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatus const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5460 };
 
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Target;
@@ -110,78 +112,73 @@ public:
   /// @brief Field m_ClickCount, offset: 0x30, size: 0x4, def value: None
   int32_t ___m_ClickCount;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5436 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, 0x38>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus, ___m_Target) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_Target) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus, ___m_PointerDownPosition) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_PointerDownPosition) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus, ___m_LastPointerDownTime) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_LastPointerDownTime) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus, ___m_ClickCount) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus, ___m_ClickCount) == 0x30, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::ClickDetector
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::ClickDetector*
+// CS Name: UnityEngine.UIElements.ClickDetector
 class CORDL_TYPE ClickDetector : public ::System::Object {
 public:
   // Declarations
-  using ButtonClickStatus = ::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus;
+  using ButtonClickStatus = ::UnityEngine::UIElements::ClickDetector_ButtonClickStatus;
 
   /// @brief Field <s_DoubleClickTime>k__BackingField, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__s_DoubleClickTime_k__BackingField, put = setStaticF__s_DoubleClickTime_k__BackingField)) int32_t _s_DoubleClickTime_k__BackingField;
+  __declspec(property(get = getStaticF__s_DoubleClickTime_k__BackingField, put = setStaticF__s_DoubleClickTime_k__BackingField)) int32_t _s_DoubleClickTime_k__BackingField;
 
   /// @brief Field m_ClickStatus, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ClickStatus,
-                      put = __cordl_internal_set_m_ClickStatus)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* m_ClickStatus;
+                      put = __cordl_internal_set_m_ClickStatus)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* m_ClickStatus;
 
-  /// @brief Method CancelClickTracking, addr 0x490c70c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CancelClickTracking, addr 0x4970ebc, size 0xfc, virtual false, abstract: false, final false
   inline void CancelClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Cleanup, addr 0x490cd24, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x49714d4, size 0x184, virtual false, abstract: false, final false
   inline void Cleanup(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method ContainsPointer, addr 0x490c5cc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ContainsPointer, addr 0x4970d7c, size 0x140, virtual false, abstract: false, final false
   static inline bool ContainsPointer(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::Vector2 position);
 
   static inline ::UnityEngine::UIElements::ClickDetector* New_ctor();
 
-  /// @brief Method ProcessEvent, addr 0x490c808, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x4970fb8, size 0x51c, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method SendClickEvent, addr 0x490c1b8, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method SendClickEvent, addr 0x4970968, size 0x414, virtual false, abstract: false, final false
   inline void SendClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method StartClickTracking, addr 0x490beec, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method StartClickTracking, addr 0x497069c, size 0x268, virtual false, abstract: false, final false
   inline void StartClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*& __cordl_internal_get_m_ClickStatus();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* const& __cordl_internal_get_m_ClickStatus() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>*> const&
-  __cordl_internal_get_m_ClickStatus() const;
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>*& __cordl_internal_get_m_ClickStatus();
 
-  constexpr void __cordl_internal_set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* value);
+  constexpr void __cordl_internal_set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* value);
 
-  /// @brief Method .ctor, addr 0x490bc90, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4970440, size 0x254, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__s_DoubleClickTime_k__BackingField();
 
-  /// @brief Method get_s_DoubleClickTime, addr 0x490bbdc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_s_DoubleClickTime, addr 0x497038c, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_s_DoubleClickTime();
 
   static inline void setStaticF__s_DoubleClickTime_k__BackingField(int32_t value);
 
-  /// @brief Method set_s_DoubleClickTime, addr 0x490bc34, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_s_DoubleClickTime, addr 0x49703e4, size 0x5c, virtual false, abstract: false, final false
   static inline void set_s_DoubleClickTime(int32_t value);
 
 protected:
@@ -198,21 +195,21 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ClickDetector(ClickDetector const&) = delete;
 
-  /// @brief Field m_ClickStatus, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*>* ___m_ClickStatus;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5461 };
+
+  /// @brief Field m_ClickStatus, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* ___m_ClickStatus;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ClickDetector, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::UnityEngine::UIElements::ClickDetector, ___m_ClickStatus) == 0x10, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ClickDetector, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ClickDetector);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ClickDetector*, "UnityEngine.UIElements", "ClickDetector");
-NEED_NO_BOX(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__ClickDetector__ButtonClickStatus*, "UnityEngine.UIElements", "ClickDetector/ButtonClickStatus");
+NEED_NO_BOX(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*, "UnityEngine.UIElements", "ClickDetector/ButtonClickStatus");

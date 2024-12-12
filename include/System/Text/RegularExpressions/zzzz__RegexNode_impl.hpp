@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(int32_t, ::System::Text::RegularExpressions::RegexOptions)>(
     &::System::Text::RegularExpressions::RegexNode::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x43bf020;
+  constexpr static std::size_t addrs = 0x4420334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(int32_t, ::System::Text::RegularExpressions::RegexOptions, char16_t)>(&::System::Text::RegularExpressions::RegexNode::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43bf050;
+  constexpr static std::size_t addrs = 0x4420364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(int32_t, ::System::Text::RegularExpressions::RegexOptions, ::StringW)>(&::System::Text::RegularExpressions::RegexNode::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43bf090;
+  constexpr static std::size_t addrs = 0x44203a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(int32_t, ::System::Text::RegularExpressions::RegexOptions, int32_t)>(&::System::Text::RegularExpressions::RegexNode::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x43bf0d0;
+  constexpr static std::size_t addrs = 0x44203e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(
     int32_t, ::System::Text::RegularExpressions::RegexOptions, int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x43bf110;
+  constexpr static std::size_t addrs = 0x4420424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::UseOptionR)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43bf154;
+  constexpr static std::size_t addrs = 0x4420468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReverseLeft)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43bf160;
+  constexpr static std::size_t addrs = 0x4420474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexNode::MakeRep)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43bf1dc;
+  constexpr static std::size_t addrs = 0x44204f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::Reduce)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43bf1f4;
+  constexpr static std::size_t addrs = 0x4420508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), "Reduce",
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexNode::StripEnation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43bfc9c;
+  constexpr static std::size_t addrs = 0x4420fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReduceGroup)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43bfb54;
+  constexpr static std::size_t addrs = 0x4420e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReduceRep)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x43bf9cc;
+  constexpr static std::size_t addrs = 0x4420ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReduceSet)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x43bfb80;
+  constexpr static std::size_t addrs = 0x4420e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReduceAlternation)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x43bf25c;
+  constexpr static std::size_t addrs = 0x4420570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ReduceConcatenation)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x43bf630;
+  constexpr static std::size_t addrs = 0x4420944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (
     ::System::Text::RegularExpressions::RegexNode::*)(bool, int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexNode::MakeQuantifier)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x43bfd50;
+  constexpr static std::size_t addrs = 0x4421064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexNode::*)(::System::Text::RegularExpressions::RegexNode*)>(
     &::System::Text::RegularExpressions::RegexNode::AddChild)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x43bfe68;
+  constexpr static std::size_t addrs = 0x442117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexNode* (::System::Text::RegularExpressions::RegexNode::*)(int32_t)>(
     &::System::Text::RegularExpressions::RegexNode::Child)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43bbb5c;
+  constexpr static std::size_t addrs = 0x441ce70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexNode::*)()>(
     &::System::Text::RegularExpressions::RegexNode::ChildCount)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43bbb10;
+  constexpr static std::size_t addrs = 0x441ce24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(),
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexNode::*)()>(&::System::Text::RegularExpressions::RegexNode::Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43bff70;
+  constexpr static std::size_t addrs = 0x4421284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), "Type",
@@ -321,8 +321,7 @@ constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Children;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*> const&
-System::Text::RegularExpressions::RegexNode::__cordl_internal_get_Children() const {
+constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* const& System::Text::RegularExpressions::RegexNode::__cordl_internal_get_Children() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Children;
 }
@@ -394,7 +393,7 @@ constexpr ::System::Text::RegularExpressions::RegexNode*& System::Text::RegularE
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& System::Text::RegularExpressions::RegexNode::__cordl_internal_get_Next() const {
+constexpr ::System::Text::RegularExpressions::RegexNode* const& System::Text::RegularExpressions::RegexNode::__cordl_internal_get_Next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Next;
 }
@@ -402,18 +401,12 @@ constexpr void System::Text::RegularExpressions::RegexNode::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options));
-}
 inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, options);
-}
-inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, ch));
 }
 inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -423,9 +416,6 @@ inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::S
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, options, ch);
 }
-inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, str));
-}
 inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -434,9 +424,6 @@ inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::S
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, options, str);
 }
-inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, m));
-}
 inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -444,10 +431,6 @@ inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::S
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::RegularExpressions::RegexOptions>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, options, m);
-}
-inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m,
-                                                                                                            int32_t n) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, m, n));
 }
 inline void System::Text::RegularExpressions::RegexNode::_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -538,6 +521,22 @@ inline int32_t System::Text::RegularExpressions::RegexNode::Type() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexNode*>::get(), "Type",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options));
+}
+inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, ch));
+}
+inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, str));
+}
+inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, m));
+}
+inline ::System::Text::RegularExpressions::RegexNode* System::Text::RegularExpressions::RegexNode::New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m,
+                                                                                                            int32_t n) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::RegularExpressions::RegexNode*>(type, options, m, n));
 }
 // Ctor Parameters []
 constexpr ::System::Text::RegularExpressions::RegexNode::RegexNode() {}

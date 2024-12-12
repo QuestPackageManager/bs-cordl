@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionGranted)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e8ff0;
+  constexpr static std::size_t addrs = 0x484a304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionGranted)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e90a0;
+  constexpr static std::size_t addrs = 0x484a3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionDenied)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e9150;
+  constexpr static std::size_t addrs = 0x484a464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionDenied)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e9200;
+  constexpr static std::size_t addrs = 0x484a514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::add_PermissionDeniedAndDontAskAgain)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e92b0;
+  constexpr static std::size_t addrs = 0x484a5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::System::Action_1<::StringW>*)>(
     &::UnityEngine::Android::PermissionCallbacks::remove_PermissionDeniedAndDontAskAgain)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e9360;
+  constexpr static std::size_t addrs = 0x484a674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)()>(&::UnityEngine::Android::PermissionCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47e9410;
+  constexpr static std::size_t addrs = 0x484a724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::PermissionCallbacks*>::get(), ".ctor",
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::StringW)>(
     &::UnityEngine::Android::PermissionCallbacks::onPermissionGranted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e947c;
+  constexpr static std::size_t addrs = 0x484a790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::StringW)>(
     &::UnityEngine::Android::PermissionCallbacks::onPermissionDenied)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e9498;
+  constexpr static std::size_t addrs = 0x484a7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::PermissionCallbacks::*)(::StringW)>(
     &::UnityEngine::Android::PermissionCallbacks::onPermissionDeniedAndDontAskAgain)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e94b4;
+  constexpr static std::size_t addrs = 0x484a7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -155,7 +155,7 @@ constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallba
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionGranted;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionGranted() const {
+constexpr ::System::Action_1<::StringW>* const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionGranted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionGranted;
 }
@@ -167,7 +167,7 @@ constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallba
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDenied;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionDenied() const {
+constexpr ::System::Action_1<::StringW>* const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionDenied() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDenied;
 }
@@ -179,7 +179,7 @@ constexpr ::System::Action_1<::StringW>*& UnityEngine::Android::PermissionCallba
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDeniedAndDontAskAgain;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionDeniedAndDontAskAgain() const {
+constexpr ::System::Action_1<::StringW>* const& UnityEngine::Android::PermissionCallbacks::__cordl_internal_get_PermissionDeniedAndDontAskAgain() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___PermissionDeniedAndDontAskAgain;
 }
@@ -223,9 +223,6 @@ inline void UnityEngine::Android::PermissionCallbacks::remove_PermissionDeniedAn
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Android::PermissionCallbacks* UnityEngine::Android::PermissionCallbacks::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::PermissionCallbacks*>());
-}
 inline void UnityEngine::Android::PermissionCallbacks::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::PermissionCallbacks*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -248,6 +245,9 @@ inline void UnityEngine::Android::PermissionCallbacks::onPermissionDeniedAndDont
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Android::PermissionCallbacks*>::get(), "onPermissionDeniedAndDontAskAgain",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, permissionName);
+}
+inline ::UnityEngine::Android::PermissionCallbacks* UnityEngine::Android::PermissionCallbacks::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Android::PermissionCallbacks*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Android::PermissionCallbacks::PermissionCallbacks() {}

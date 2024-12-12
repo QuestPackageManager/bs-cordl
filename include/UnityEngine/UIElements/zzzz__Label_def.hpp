@@ -8,120 +8,117 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Label)
 namespace UnityEngine::UIElements {
-class __Label__UxmlFactory;
+class Label_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __Label__UxmlTraits;
+class Label_UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class Label;
 }
 namespace UnityEngine::UIElements {
-class __Label__UxmlFactory;
+class Label_UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __Label__UxmlTraits;
+class Label_UxmlTraits;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Label);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlFactory);
-MARK_REF_PTR_T(::UnityEngine::UIElements::__Label__UxmlTraits);
-// Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::UIElements::Label_UxmlFactory);
+MARK_REF_PTR_T(::UnityEngine::UIElements::Label_UxmlTraits);
+// Dependencies UnityEngine.UIElements.UxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::Label::UxmlFactory*
-class CORDL_TYPE __Label__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::__Label__UxmlTraits*> {
+// CS Name: UnityEngine.UIElements.Label/UxmlFactory
+class CORDL_TYPE Label_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::Label_UxmlTraits*> {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
+  static inline ::UnityEngine::UIElements::Label_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498ba10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f0320, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Label__UxmlFactory();
+  constexpr Label_UxmlFactory();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Label__UxmlFactory(__Label__UxmlFactory&&) = delete;
+  Label_UxmlFactory(Label_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlFactory", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Label__UxmlFactory(__Label__UxmlFactory const&) = delete;
+  Label_UxmlFactory(Label_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5618 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlFactory, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label_UxmlFactory, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: ::UxmlTraits
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::Label::UxmlTraits*
-class CORDL_TYPE __Label__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
+// CS Name: UnityEngine.UIElements.Label/UxmlTraits
+class CORDL_TYPE Label_UxmlTraits : public ::UnityEngine::UIElements::TextElement_UxmlTraits {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
+  static inline ::UnityEngine::UIElements::Label_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498ba58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f0368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __Label__UxmlTraits();
+  constexpr Label_UxmlTraits();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __Label__UxmlTraits(__Label__UxmlTraits&&) = delete;
+  Label_UxmlTraits(Label_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Label__UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __Label__UxmlTraits(__Label__UxmlTraits const&) = delete;
+  Label_UxmlTraits(Label_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5619 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Label__UxmlTraits, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label_UxmlTraits, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Type: UnityEngine.UIElements::Label
-// SizeInfo { instance_size: 1184, native_size: -1, calculated_instance_size: 1184, calculated_native_size: 1180, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.TextElement
 namespace UnityEngine::UIElements {
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::Label*
+// CS Name: UnityEngine.UIElements.Label
 class CORDL_TYPE Label : public ::UnityEngine::UIElements::TextElement {
 public:
   // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::__Label__UxmlFactory;
+  using UxmlFactory = ::UnityEngine::UIElements::Label_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::__Label__UxmlTraits;
+  using UxmlTraits = ::UnityEngine::UIElements::Label_UxmlTraits;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   static inline ::UnityEngine::UIElements::Label* New_ctor();
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x498b8a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f01b8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498b8f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x49f0208, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();
@@ -143,7 +140,7 @@ public:
   Label(Label const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5620 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +150,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Label);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Label*, "UnityEngine.UIElements", "Label");
-NEED_NO_BOX(::UnityEngine::UIElements::__Label__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Label__UxmlFactory*, "UnityEngine.UIElements", "Label/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::__Label__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__Label__UxmlTraits*, "UnityEngine.UIElements", "Label/UxmlTraits");
+NEED_NO_BOX(::UnityEngine::UIElements::Label_UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Label_UxmlFactory*, "UnityEngine.UIElements", "Label/UxmlFactory");
+NEED_NO_BOX(::UnityEngine::UIElements::Label_UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Label_UxmlTraits*, "UnityEngine.UIElements", "Label/UxmlTraits");

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Vrcamera)
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Message_1_Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -15,19 +15,18 @@ class Vrcamera;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Vrcamera);
-// Type: Oculus.Platform::Vrcamera
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
-// CS Name: ::Oculus.Platform::Vrcamera*
+// CS Name: Oculus.Platform.Vrcamera
 class CORDL_TYPE Vrcamera : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x3f2b348, size 0x74, virtual false, abstract: false, final false
-  static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
+  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x3f8b3f4, size 0x74, virtual false, abstract: false, final false
+  static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
-  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x3f2b3bc, size 0x74, virtual false, abstract: false, final false
-  static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
+  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x3f8b468, size 0x74, virtual false, abstract: false, final false
+  static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::StringW>* callback);
 
 protected:
   // Ctor Parameters []
@@ -44,7 +43,7 @@ public:
   Vrcamera(Vrcamera const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15419 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15454 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

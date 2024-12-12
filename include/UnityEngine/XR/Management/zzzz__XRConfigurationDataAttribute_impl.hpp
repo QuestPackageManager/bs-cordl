@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)()>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::get_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ce1a4;
+  constexpr static std::size_t addrs = 0x482f4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)(::StringW)>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::set_displayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ce1ac;
+  constexpr static std::size_t addrs = 0x482f4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)()>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::get_buildSettingsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ce1b4;
+  constexpr static std::size_t addrs = 0x482f4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)(::StringW)>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::set_buildSettingsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ce1bc;
+  constexpr static std::size_t addrs = 0x482f4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)()>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47ce1c4;
+  constexpr static std::size_t addrs = 0x482f4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRConfigurationDataAttribute::*)(::StringW, ::StringW)>(
     &::UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47ce1cc;
+  constexpr static std::size_t addrs = 0x482f4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,23 +140,23 @@ inline void UnityEngine::XR::Management::XRConfigurationDataAttribute::set_build
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>());
-}
 inline void UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor(::StringW displayName, ::StringW buildSettingsKey) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>(displayName, buildSettingsKey));
-}
 inline void UnityEngine::XR::Management::XRConfigurationDataAttribute::_ctor(::StringW displayName, ::StringW buildSettingsKey) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, displayName, buildSettingsKey);
+}
+inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>());
+}
+inline ::UnityEngine::XR::Management::XRConfigurationDataAttribute* UnityEngine::XR::Management::XRConfigurationDataAttribute::New_ctor(::StringW displayName, ::StringW buildSettingsKey) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::XR::Management::XRConfigurationDataAttribute*>(displayName, buildSettingsKey));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::Management::XRConfigurationDataAttribute::XRConfigurationDataAttribute() {}

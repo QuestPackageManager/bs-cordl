@@ -15,11 +15,10 @@ class GeneralSecurityException;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::GeneralSecurityException);
-// Type: Org.BouncyCastle.Security::GeneralSecurityException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Exception
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// CS Name: ::Org.BouncyCastle.Security::GeneralSecurityException*
+// CS Name: Org.BouncyCastle.Security.GeneralSecurityException
 class CORDL_TYPE GeneralSecurityException : public ::System::Exception {
 public:
   // Declarations
@@ -29,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::GeneralSecurityException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x253c72c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256fa18, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x253c784, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256fa70, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x253c7ec, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256fad8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

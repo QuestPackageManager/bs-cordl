@@ -23,31 +23,30 @@ class ParametricBoxController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxController);
-// Type: ::ParametricBoxController
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::ParametricBoxController*
+// CS Name: ParametricBoxController
 class CORDL_TYPE ParametricBoxController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _alphaEndID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__alphaEndID, put = setStaticF__alphaEndID)) int32_t _alphaEndID;
+  __declspec(property(get = getStaticF__alphaEndID, put = setStaticF__alphaEndID)) int32_t _alphaEndID;
 
   /// @brief Field _alphaStartID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__alphaStartID, put = setStaticF__alphaStartID)) int32_t _alphaStartID;
+  __declspec(property(get = getStaticF__alphaStartID, put = setStaticF__alphaStartID)) int32_t _alphaStartID;
 
   /// @brief Field <collisionHeight>k__BackingField, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get__collisionHeight_k__BackingField, put = __cordl_internal_set__collisionHeight_k__BackingField)) float_t _collisionHeight_k__BackingField;
 
   /// @brief Field _colorID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
+  __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
 
   /// @brief Field _isInitialized, offset 0x70, size 0x1
   __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
+  __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
   /// @brief Field _meshRenderer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
@@ -59,10 +58,10 @@ public:
   __declspec(property(get = __cordl_internal_get__useCollision_k__BackingField, put = __cordl_internal_set__useCollision_k__BackingField)) bool _useCollision_k__BackingField;
 
   /// @brief Field _widthEndID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__widthEndID, put = setStaticF__widthEndID)) int32_t _widthEndID;
+  __declspec(property(get = getStaticF__widthEndID, put = setStaticF__widthEndID)) int32_t _widthEndID;
 
   /// @brief Field _widthStartID, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__widthStartID, put = setStaticF__widthStartID)) int32_t _widthStartID;
+  __declspec(property(get = getStaticF__widthStartID, put = setStaticF__widthStartID)) int32_t _widthStartID;
 
   /// @brief Field alphaEnd, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_alphaEnd, put = __cordl_internal_set_alphaEnd)) float_t alphaEnd;
@@ -101,21 +100,21 @@ public:
   /// @brief Field widthStart, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_widthStart, put = __cordl_internal_set_widthStart)) float_t widthStart;
 
-  /// @brief Method Awake, addr 0x3985110, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x39db9d8, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x3985138, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x39dba00, size 0xc4, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ParametricBoxController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x398521c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x39dbae4, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39851fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x39dbac4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x398523c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x39dbb04, size 0x220, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr float_t const& __cordl_internal_get__collisionHeight_k__BackingField() const;
@@ -214,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set_widthStart(float_t value);
 
-  /// @brief Method .ctor, addr 0x398545c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39dbd24, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaEndID();
@@ -229,10 +228,10 @@ public:
 
   static inline int32_t getStaticF__widthStartID();
 
-  /// @brief Method get_collisionHeight, addr 0x3985100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collisionHeight, addr 0x39db9c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_collisionHeight();
 
-  /// @brief Method get_useCollision, addr 0x39850ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCollision, addr 0x39db9b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCollision();
 
   static inline void setStaticF__alphaEndID(int32_t value);
@@ -247,10 +246,10 @@ public:
 
   static inline void setStaticF__widthStartID(int32_t value);
 
-  /// @brief Method set_collisionHeight, addr 0x3985108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_collisionHeight, addr 0x39db9d0, size 0x8, virtual false, abstract: false, final false
   inline void set_collisionHeight(float_t value);
 
-  /// @brief Method set_useCollision, addr 0x39850f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_useCollision, addr 0x39db9bc, size 0xc, virtual false, abstract: false, final false
   inline void set_useCollision(bool value);
 
 protected:
@@ -266,6 +265,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxController", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ParametricBoxController(ParametricBoxController const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16265 };
 
   /// @brief Field width, offset: 0x20, size: 0x4, def value: None
   float_t ___width;
@@ -315,14 +317,9 @@ public:
   /// @brief Field _isInitialized, offset: 0x70, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParametricBoxController, 0x78>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___width) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ___height) == 0x24, "Offset mismatch!");
@@ -354,6 +351,8 @@ static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ____meshRende
 static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ____transform) == 0x68, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ParametricBoxController, ____isInitialized) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParametricBoxController, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParametricBoxController);

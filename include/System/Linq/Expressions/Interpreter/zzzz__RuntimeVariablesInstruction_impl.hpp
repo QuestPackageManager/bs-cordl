@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40881ac;
+  constexpr static std::size_t addrs = 0x40e94c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40881d4;
+  constexpr static std::size_t addrs = 0x40e94e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40881dc;
+  constexpr static std::size_t addrs = 0x40e94f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40881e4;
+  constexpr static std::size_t addrs = 0x40e94f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::Run)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4088224;
+  constexpr static std::size_t addrs = 0x40e9538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,9 +93,6 @@ constexpr int32_t const& System::Linq::Expressions::Interpreter::RuntimeVariable
 constexpr void System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::__cordl_internal_set__count(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count = value;
-}
-inline ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction* System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::New_ctor(int32_t count) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction*>(count));
 }
 inline void System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::_ctor(int32_t count) {
   static auto* ___internal_method =
@@ -126,6 +123,9 @@ inline int32_t System::Linq::Expressions::Interpreter::RuntimeVariablesInstructi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, frame);
+}
+inline ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction* System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::New_ctor(int32_t count) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction*>(count));
 }
 // Ctor Parameters []
 constexpr ::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction::RuntimeVariablesInstruction() {}

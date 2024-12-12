@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::SettingsBindableAttribute::*)(bool)>(
     &::System::ComponentModel::SettingsBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43f82e8;
+  constexpr static std::size_t addrs = 0x44595fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)()>(
     &::System::ComponentModel::SettingsBindableAttribute::get_Bindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43f8310;
+  constexpr static std::size_t addrs = 0x4459624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SettingsBindableAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::SettingsBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43f8318;
+  constexpr static std::size_t addrs = 0x445962c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::SettingsBindableAttribute::*)()>(
     &::System::ComponentModel::SettingsBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43f83a4;
+  constexpr static std::size_t addrs = 0x44596b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,9 +94,6 @@ inline ::System::ComponentModel::SettingsBindableAttribute* System::ComponentMod
   return ::cordl_internals::getStaticField<::System::ComponentModel::SettingsBindableAttribute*, "No",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SettingsBindableAttribute*>::get>();
 }
-inline ::System::ComponentModel::SettingsBindableAttribute* System::ComponentModel::SettingsBindableAttribute::New_ctor(bool bindable) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::SettingsBindableAttribute*>(bindable));
-}
 inline void System::ComponentModel::SettingsBindableAttribute::_ctor(bool bindable) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SettingsBindableAttribute*>::get(), ".ctor",
@@ -117,6 +114,9 @@ inline int32_t System::ComponentModel::SettingsBindableAttribute::GetHashCode() 
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SettingsBindableAttribute*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::System::ComponentModel::SettingsBindableAttribute* System::ComponentModel::SettingsBindableAttribute::New_ctor(bool bindable) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::SettingsBindableAttribute*>(bindable));
 }
 // Ctor Parameters []
 constexpr ::System::ComponentModel::SettingsBindableAttribute::SettingsBindableAttribute() {}

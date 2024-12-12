@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinHexDecoder)
 // Forward declare root types
@@ -14,11 +12,10 @@ class BinHexDecoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::BinHexDecoder);
-// Type: System.Xml::BinHexDecoder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Xml.IncrementalReadDecoder
 namespace System::Xml {
 // Is value type: false
-// CS Name: ::System.Xml::BinHexDecoder*
+// CS Name: System.Xml.BinHexDecoder
 class CORDL_TYPE BinHexDecoder : public ::System::Xml::IncrementalReadDecoder {
 public:
   // Declarations
@@ -39,15 +36,16 @@ public:
   /// @brief Field hasHalfByteCached, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_hasHalfByteCached, put = __cordl_internal_set_hasHalfByteCached)) bool hasHalfByteCached;
 
-  /// @brief Method Decode, addr 0x41d37fc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4234b10, size 0x1d8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, bool allowOddChars);
 
-  /// @brief Method Decode, addr 0x41d34e8, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Decode, addr 0x42347fc, size 0x14c, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
-  /// @brief Method Decode, addr 0x41d3634, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x4234948, size 0x1c8, virtual false, abstract: false, final false
   static inline void Decode(::cordl_internals::Ptr<char16_t> pChars, ::cordl_internals::Ptr<char16_t> pCharsEndPos, ::cordl_internals::Ptr<uint8_t> pBytes,
-                            ::cordl_internals::Ptr<uint8_t> pBytesEndPos, ByRef<bool> hasHalfByteCached, ByRef<uint8_t> cachedHalfByte, ByRef<int32_t> charsDecoded, ByRef<int32_t> bytesDecoded);
+                            ::cordl_internals::Ptr<uint8_t> pBytesEndPos, ::ByRef<bool> hasHalfByteCached, ::ByRef<uint8_t> cachedHalfByte, ::ByRef<int32_t> charsDecoded,
+                            ::ByRef<int32_t> bytesDecoded);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
@@ -79,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_hasHalfByteCached(bool value);
 
-  /// @brief Method get_IsFull, addr 0x41d34d8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_IsFull, addr 0x42347ec, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsFull();
 
 protected:
@@ -96,6 +94,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   BinHexDecoder(BinHexDecoder const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7152 };
+
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buffer;
 
@@ -111,14 +112,9 @@ public:
   /// @brief Field cachedHalfByte, offset: 0x21, size: 0x1, def value: None
   uint8_t ___cachedHalfByte;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7127 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::BinHexDecoder, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::BinHexDecoder, ___buffer) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::BinHexDecoder, ___curIndex) == 0x18, "Offset mismatch!");
@@ -128,6 +124,8 @@ static_assert(offsetof(::System::Xml::BinHexDecoder, ___endIndex) == 0x1c, "Offs
 static_assert(offsetof(::System::Xml::BinHexDecoder, ___hasHalfByteCached) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::BinHexDecoder, ___cachedHalfByte) == 0x21, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::BinHexDecoder, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml
 NEED_NO_BOX(::System::Xml::BinHexDecoder);

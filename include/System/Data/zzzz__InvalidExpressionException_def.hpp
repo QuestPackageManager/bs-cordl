@@ -18,11 +18,10 @@ class InvalidExpressionException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::InvalidExpressionException);
-// Type: System.Data::InvalidExpressionException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Data.DataException
 namespace System::Data {
 // Is value type: false
-// CS Name: ::System.Data::InvalidExpressionException*
+// CS Name: System.Data.InvalidExpressionException
 class CORDL_TYPE InvalidExpressionException : public ::System::Data::DataException {
 public:
   // Declarations
@@ -32,13 +31,13 @@ public:
 
   static inline ::System::Data::InvalidExpressionException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x411940c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4119404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x4119414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x417a728, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:
@@ -56,7 +55,7 @@ public:
   InvalidExpressionException(InvalidExpressionException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

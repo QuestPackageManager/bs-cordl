@@ -23,21 +23,20 @@ class ShapeFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::ShapeFactory);
-// Type: UnityEngine.ProBuilder::ShapeFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::ShapeFactory*
+// CS Name: UnityEngine.ProBuilder.ShapeFactory
 class CORDL_TYPE ShapeFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x46d2000, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x4733314, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x46d1d74, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x4733088, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
 protected:
@@ -55,7 +54,7 @@ public:
   ShapeFactory(ShapeFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14309 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

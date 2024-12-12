@@ -3,10 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
-#include "beatsaber-hook/shared/utils/byref.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringHelpers)
@@ -17,16 +20,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -38,34 +35,34 @@ namespace System {
 struct StringComparison;
 }
 namespace UnityEngine::InputSystem::Utilities {
+class StringHelpers__Split_d__9;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class StringHelpers__Tokenize_d__8;
+}
+namespace UnityEngine::InputSystem::Utilities {
 struct Substring;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Split_d__9;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Tokenize_d__8;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 class StringHelpers;
 }
 namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Split_d__9;
+class StringHelpers__Split_d__9;
 }
 namespace UnityEngine::InputSystem::Utilities {
-class __StringHelpers___Tokenize_d__8;
+class StringHelpers__Tokenize_d__8;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::StringHelpers);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9);
-MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8);
-// Type: ::<Split>d__9
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9);
+MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8);
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::StringHelpers::<Split>d__9*
-class CORDL_TYPE __StringHelpers___Split_d__9 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.StringHelpers/<Split>d__9
+class CORDL_TYPE StringHelpers__Split_d__9 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current)) ::StringW System_Collections_Generic_IEnumerator_System_String__Current;
@@ -114,27 +111,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x450e870, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x456fb84, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x450e9e0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x456fcf4, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x450e998, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x456fcac, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x450ea84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x456fd98, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x450e9a0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x456fcb4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x450e9d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x456fcec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x450e86c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x456fb80, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -145,9 +142,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get___2__current();
 
-  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get___3__predicate();
+  constexpr ::System::Func_2<char16_t, bool>* const& __cordl_internal_get___3__predicate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __cordl_internal_get___3__predicate() const;
+  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get___3__predicate();
 
   constexpr ::StringW const& __cordl_internal_get___3__str() const;
 
@@ -165,9 +162,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__position_5__3();
 
-  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get_predicate();
+  constexpr ::System::Func_2<char16_t, bool>* const& __cordl_internal_get_predicate() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __cordl_internal_get_predicate() const;
+  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get_predicate();
 
   constexpr ::StringW const& __cordl_internal_get_str() const;
 
@@ -191,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x450de70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456f184, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -212,16 +209,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StringHelpers___Split_d__9();
+  constexpr StringHelpers__Split_d__9();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StringHelpers___Split_d__9", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Split_d__9", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StringHelpers___Split_d__9(__StringHelpers___Split_d__9&&) = delete;
+  StringHelpers__Split_d__9(StringHelpers__Split_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StringHelpers___Split_d__9", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Split_d__9", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StringHelpers___Split_d__9(__StringHelpers___Split_d__9 const&) = delete;
+  StringHelpers__Split_d__9(StringHelpers__Split_d__9 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7112 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -250,39 +250,36 @@ public:
   /// @brief Field <position>5__3, offset: 0x4c, size: 0x4, def value: None
   int32_t ____position_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7087 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, 0x50>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, ___str) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, ___str) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, _____3__str) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, _____3__str) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, ___predicate) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, ___predicate) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, _____3__predicate) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, _____3__predicate) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, ____length_5__2) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, ____length_5__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, ____position_5__3) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9, ____position_5__3) == 0x4c, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9, 0x50>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: ::<Tokenize>d__8
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
+// System.Object, UnityEngine.InputSystem.Utilities.Substring
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::StringHelpers::<Tokenize>d__8*
-class CORDL_TYPE __StringHelpers___Tokenize_d__8 : public ::System::Object {
+// CS Name: UnityEngine.InputSystem.Utilities.StringHelpers/<Tokenize>d__8
+class CORDL_TYPE StringHelpers__Tokenize_d__8 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_Substring__get_Current)) ::UnityEngine::InputSystem::Utilities::Substring
@@ -326,28 +323,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x450ea8c, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x456fda0, size 0x25c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.Substring>.GetEnumerator, addr 0x450ed94, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.Utilities.Substring>.GetEnumerator, addr 0x45700a8, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::Utilities::Substring>*
   System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_Utilities_Substring__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.Substring>.get_Current, addr 0x450ecf4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.Utilities.Substring>.get_Current, addr 0x4570008, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::Substring System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_Substring__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x450ee30, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4570144, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x450ed00, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4570014, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x450ed38, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x457004c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x450ea88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x456fd9c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -392,7 +389,7 @@ public:
 
   constexpr void __cordl_internal_set_str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x450ddbc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x456f0d0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>"
@@ -415,16 +412,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __StringHelpers___Tokenize_d__8();
+  constexpr StringHelpers__Tokenize_d__8();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StringHelpers___Tokenize_d__8", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Tokenize_d__8", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __StringHelpers___Tokenize_d__8(__StringHelpers___Tokenize_d__8&&) = delete;
+  StringHelpers__Tokenize_d__8(StringHelpers__Tokenize_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StringHelpers___Tokenize_d__8", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "StringHelpers__Tokenize_d__8", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __StringHelpers___Tokenize_d__8(__StringHelpers___Tokenize_d__8 const&) = delete;
+  StringHelpers__Tokenize_d__8(StringHelpers__Tokenize_d__8 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7113 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -447,69 +447,65 @@ public:
   /// @brief Field <endPos>5__3, offset: 0x44, size: 0x4, def value: None
   int32_t ____endPos_5__3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7088 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, 0x48>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, _____l__initialThreadId) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, _____l__initialThreadId) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, ___str) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, ___str) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, _____3__str) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, _____3__str) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, ____length_5__2) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, ____length_5__2) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, ____endPos_5__3) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8, ____endPos_5__3) == 0x44, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
-// Type: UnityEngine.InputSystem.Utilities::StringHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// CS Name: ::UnityEngine.InputSystem.Utilities::StringHelpers*
+// CS Name: UnityEngine.InputSystem.Utilities.StringHelpers
 class CORDL_TYPE StringHelpers : public ::System::Object {
 public:
   // Declarations
-  using _Split_d__9 = ::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9;
+  using _Split_d__9 = ::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9;
 
-  using _Tokenize_d__8 = ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8;
+  using _Tokenize_d__8 = ::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8;
 
-  /// @brief Method CharacterSeparatedListsHaveAtLeastOneCommonElement, addr 0x450dea4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method CharacterSeparatedListsHaveAtLeastOneCommonElement, addr 0x456f1b8, size 0x294, virtual false, abstract: false, final false
   static inline bool CharacterSeparatedListsHaveAtLeastOneCommonElement(::StringW firstList, ::StringW secondList, char16_t separator);
 
-  /// @brief Method Contains, addr 0x450d808, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x456eb1c, size 0x20, virtual false, abstract: false, final false
   static inline bool Contains(::StringW str, char16_t ch);
 
-  /// @brief Method Contains, addr 0x450d828, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x456eb3c, size 0x20, virtual false, abstract: false, final false
   static inline bool Contains(::StringW str, ::StringW text, ::System::StringComparison comparison);
 
-  /// @brief Method CountOccurrences, addr 0x450dcdc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CountOccurrences, addr 0x456eff0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t CountOccurrences(::StringW str, char16_t ch);
 
-  /// @brief Method Escape, addr 0x450d528, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x456e83c, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW str, ::StringW chars, ::StringW replacements);
 
-  /// @brief Method ExpandTemplateString, addr 0x450e6a0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ExpandTemplateString, addr 0x456f9b4, size 0x1cc, virtual false, abstract: false, final false
   static inline ::StringW ExpandTemplateString(::StringW _cordl_template, ::System::Func_2<::StringW, ::StringW>* mapFunc);
 
-  /// @brief Method FromNicifiedMemorySize, addr 0x450db5c, size 0x180, virtual false, abstract: false, final false
-  static inline bool FromNicifiedMemorySize(::StringW text, ByRef<int64_t> result, int64_t defaultMultiplier);
+  /// @brief Method FromNicifiedMemorySize, addr 0x456ee70, size 0x180, virtual false, abstract: false, final false
+  static inline bool FromNicifiedMemorySize(::StringW text, ::ByRef<int64_t> result, int64_t defaultMultiplier);
 
-  /// @brief Method GetPlural, addr 0x450d848, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetPlural, addr 0x456eb5c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW GetPlural(::StringW str);
 
-  /// @brief Method InvariantEqualsIgnoreCase, addr 0x450e654, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvariantEqualsIgnoreCase, addr 0x456f968, size 0x4c, virtual false, abstract: false, final false
   static inline bool InvariantEqualsIgnoreCase(::StringW left, ::StringW right);
 
-  /// @brief Method IsPrintable, addr 0x450e4d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsPrintable, addr 0x456f7e8, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsPrintable(char16_t ch);
 
   /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -522,35 +518,35 @@ public:
   template <typename TExisting>
   static inline ::StringW MakeUniqueName(::StringW baseName, ::System::Collections::Generic::IEnumerable_1<TExisting>* existingSet, ::System::Func_2<TExisting, ::StringW>* getNameFunc);
 
-  /// @brief Method NicifyMemorySize, addr 0x450d9ec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method NicifyMemorySize, addr 0x456ed00, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW NicifyMemorySize(int64_t numBytes);
 
-  /// @brief Method ParseInt, addr 0x450e138, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ParseInt, addr 0x456f44c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t ParseInt(::StringW str, int32_t pos);
 
-  /// @brief Method ReadStringFromBuffer, addr 0x450e3a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ReadStringFromBuffer, addr 0x456f6b4, size 0x18, virtual false, abstract: false, final false
   static inline ::StringW ReadStringFromBuffer(::System::IntPtr buffer, int32_t bufferSize);
 
-  /// @brief Method ReadStringFromBuffer, addr 0x450e3b8, size 0x11c, virtual false, abstract: false, final false
-  static inline ::StringW ReadStringFromBuffer(::System::IntPtr buffer, int32_t bufferSize, ByRef<uint32_t> offset);
+  /// @brief Method ReadStringFromBuffer, addr 0x456f6cc, size 0x11c, virtual false, abstract: false, final false
+  static inline ::StringW ReadStringFromBuffer(::System::IntPtr buffer, int32_t bufferSize, ::ByRef<uint32_t> offset);
 
-  /// @brief Method Split, addr 0x450ddf0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Split, addr 0x456f104, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* Split(::StringW str, ::System::Func_2<char16_t, bool>* predicate);
 
-  /// @brief Method Tokenize, addr 0x450dd4c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Tokenize, addr 0x456f060, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::Utilities::Substring>* Tokenize(::StringW str);
 
-  /// @brief Method Unescape, addr 0x450d69c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Unescape, addr 0x456e9b0, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW Unescape(::StringW str, ::StringW chars, ::StringW replacements);
 
-  /// @brief Method WithAllWhitespaceStripped, addr 0x450e560, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WithAllWhitespaceStripped, addr 0x456f874, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW WithAllWhitespaceStripped(::StringW str);
 
-  /// @brief Method WriteStringToBuffer, addr 0x450e1c4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToBuffer, addr 0x456f4d8, size 0x1c, virtual false, abstract: false, final false
   static inline bool WriteStringToBuffer(::StringW text, ::System::IntPtr buffer, int32_t bufferSizeInCharacters);
 
-  /// @brief Method WriteStringToBuffer, addr 0x450e1e0, size 0x1c0, virtual false, abstract: false, final false
-  static inline bool WriteStringToBuffer(::StringW text, ::System::IntPtr buffer, int32_t bufferSizeInCharacters, ByRef<uint32_t> offset);
+  /// @brief Method WriteStringToBuffer, addr 0x456f4f4, size 0x1c0, virtual false, abstract: false, final false
+  static inline bool WriteStringToBuffer(::StringW text, ::System::IntPtr buffer, int32_t bufferSizeInCharacters, ::ByRef<uint32_t> offset);
 
 protected:
   // Ctor Parameters []
@@ -567,7 +563,7 @@ public:
   StringHelpers(StringHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7114 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -577,7 +573,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 } // namespace UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::StringHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::StringHelpers*, "UnityEngine.InputSystem.Utilities", "StringHelpers");
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9*, "UnityEngine.InputSystem.Utilities", "StringHelpers/<Split>d__9");
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8*, "UnityEngine.InputSystem.Utilities", "StringHelpers/<Tokenize>d__8");
+NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::StringHelpers__Split_d__9*, "UnityEngine.InputSystem.Utilities", "StringHelpers/<Split>d__9");
+NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::StringHelpers__Tokenize_d__8*, "UnityEngine.InputSystem.Utilities", "StringHelpers/<Tokenize>d__8");

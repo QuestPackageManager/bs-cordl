@@ -15,11 +15,10 @@ class MaterialPropertyBlockColorAnimator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorAnimator);
-// Type: ::MaterialPropertyBlockColorAnimator
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies MaterialPropertyBlockAnimator, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::MaterialPropertyBlockColorAnimator*
+// CS Name: MaterialPropertyBlockColorAnimator
 class CORDL_TYPE MaterialPropertyBlockColorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
@@ -30,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x398fb40, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x39e6510, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -39,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x398fbd8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x39e65a8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x398fb28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x39e64f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color, addr 0x398fb34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x39e6504, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -62,18 +61,18 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   MaterialPropertyBlockColorAnimator(MaterialPropertyBlockColorAnimator const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16345 };
+
   /// @brief Field _color, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16310 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorAnimator, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockColorAnimator, ____color) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockColorAnimator, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockColorAnimator);

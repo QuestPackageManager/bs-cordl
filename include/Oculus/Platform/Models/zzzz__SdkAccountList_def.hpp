@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SdkAccountList)
 namespace Oculus::Platform::Models {
 class SdkAccount;
@@ -18,17 +17,16 @@ class SdkAccountList;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccountList);
-// Type: Oculus.Platform.Models::SdkAccountList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies Oculus.Platform.Models.DeserializableList`1<T>
 namespace Oculus::Platform::Models {
 // Is value type: false
-// CS Name: ::Oculus.Platform.Models::SdkAccountList*
+// CS Name: Oculus.Platform.Models.SdkAccountList
 class CORDL_TYPE SdkAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::SdkAccount*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x3f32290, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3f9233c, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr a);
 
 protected:
@@ -46,7 +44,7 @@ public:
   SdkAccountList(SdkAccountList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15561 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

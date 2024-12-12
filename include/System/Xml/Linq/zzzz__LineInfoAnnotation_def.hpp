@@ -12,11 +12,10 @@ class LineInfoAnnotation;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Linq::LineInfoAnnotation);
-// Type: System.Xml.Linq::LineInfoAnnotation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Linq {
 // Is value type: false
-// CS Name: ::System.Xml.Linq::LineInfoAnnotation*
+// CS Name: System.Xml.Linq.LineInfoAnnotation
 class CORDL_TYPE LineInfoAnnotation : public ::System::Object {
 public:
   // Declarations
@@ -40,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  /// @brief Method .ctor, addr 0x41e2b70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4243e84, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -57,23 +56,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LineInfoAnnotation(LineInfoAnnotation const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17944 };
+
   /// @brief Field lineNumber, offset: 0x10, size: 0x4, def value: None
   int32_t ___lineNumber;
 
   /// @brief Field linePosition, offset: 0x14, size: 0x4, def value: None
   int32_t ___linePosition;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17895 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::LineInfoAnnotation, 0x18>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Linq::LineInfoAnnotation, ___lineNumber) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Linq::LineInfoAnnotation, ___linePosition) == 0x14, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::LineInfoAnnotation, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::LineInfoAnnotation);

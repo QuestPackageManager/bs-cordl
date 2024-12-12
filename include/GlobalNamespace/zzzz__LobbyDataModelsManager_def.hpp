@@ -26,11 +26,10 @@ class LobbyDataModelsManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LobbyDataModelsManager);
-// Type: ::LobbyDataModelsManager
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::LobbyDataModelsManager*
+// CS Name: LobbyDataModelsManager
 class CORDL_TYPE LobbyDataModelsManager : public ::System::Object {
 public:
   // Declarations
@@ -52,33 +51,33 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager)) ::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  /// @brief Method Activate, addr 0x26a5248, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x26d9f7c, size 0x214, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x26a5550, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x26da284, size 0x1a0, virtual false, abstract: false, final false
   inline void Deactivate();
 
   static inline ::GlobalNamespace::LobbyDataModelsManager* New_ctor();
 
+  constexpr ::GlobalNamespace::ILobbyGameStateControllerBase* const& __cordl_internal_get__lobbyGameStateController() const;
+
   constexpr ::GlobalNamespace::ILobbyGameStateControllerBase*& __cordl_internal_get__lobbyGameStateController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateControllerBase*> const& __cordl_internal_get__lobbyGameStateController() const;
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
   constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
+  constexpr ::GlobalNamespace::ILobbyPlayersDataModel* const& __cordl_internal_get__lobbyPlayersDataModel() const;
 
   constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __cordl_internal_get__lobbyPlayersDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __cordl_internal_get__lobbyPlayersDataModel() const;
+  constexpr ::GlobalNamespace::ILobbyStateDataModel* const& __cordl_internal_get__lobbyStateDataModel() const;
 
   constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager* const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
   constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
   constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateControllerBase* value);
 
@@ -90,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  /// @brief Method .ctor, addr 0x26a57e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26da518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,6 +106,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LobbyDataModelsManager(LobbyDataModelsManager const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13098 };
+
   /// @brief Field _lobbyStateDataModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;
 
@@ -122,14 +124,9 @@ public:
   /// @brief Field _lobbyGameStateController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyGameStateControllerBase* ____lobbyGameStateController;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyDataModelsManager, 0x38>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::LobbyDataModelsManager, ____lobbyStateDataModel) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyDataModelsManager, ____lobbyPlayersDataModel) == 0x18, "Offset mismatch!");
@@ -139,6 +136,8 @@ static_assert(offsetof(::GlobalNamespace::LobbyDataModelsManager, ____nodePoseSy
 static_assert(offsetof(::GlobalNamespace::LobbyDataModelsManager, ____lobbyPlayerPermissionsModel) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LobbyDataModelsManager, ____lobbyGameStateController) == 0x30, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LobbyDataModelsManager, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LobbyDataModelsManager);

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
@@ -15,22 +16,18 @@ template <typename T> class Action_1;
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 template <typename T> class ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::ObjectPool_1);
-// Type: UnityEngine.ProBuilder::ObjectPool`1
-// SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.IDisposable, System.Object
 namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.ProBuilder::ObjectPool`1<T>*
+// CS Name: UnityEngine.ProBuilder.ObjectPool`1<T>
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
   // Declarations
@@ -70,25 +67,25 @@ public:
   static inline ::UnityEngine::ProBuilder::ObjectPool_1<T>* New_ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor,
                                                                      bool lazyInitialization);
 
-  constexpr ::System::Func_1<T>*& __cordl_internal_get_constructor();
+  constexpr ::System::Func_1<T>* const& __cordl_internal_get_constructor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_constructor() const;
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_constructor();
 
   constexpr int32_t const& __cordl_internal_get_desiredSize() const;
 
   constexpr int32_t& __cordl_internal_get_desiredSize();
 
-  constexpr ::System::Action_1<T>*& __cordl_internal_get_destructor();
+  constexpr ::System::Action_1<T>* const& __cordl_internal_get_destructor() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_destructor() const;
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_destructor();
 
   constexpr bool const& __cordl_internal_get_m_IsDisposed() const;
 
   constexpr bool& __cordl_internal_get_m_IsDisposed();
 
-  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get_m_Pool();
+  constexpr ::System::Collections::Generic::Queue_1<T>* const& __cordl_internal_get_m_Pool() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<T>*> const& __cordl_internal_get_m_Pool() const;
+  constexpr ::System::Collections::Generic::Queue_1<T>*& __cordl_internal_get_m_Pool();
 
   constexpr void __cordl_internal_set_constructor(::System::Func_1<T>* value);
 
@@ -120,6 +117,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14260 };
+
   /// @brief Field m_IsDisposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_IsDisposed;
 
@@ -134,9 +134,6 @@ public:
 
   /// @brief Field destructor, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<T>* ___destructor;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

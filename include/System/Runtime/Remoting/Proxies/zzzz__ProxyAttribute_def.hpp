@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(ProxyAttribute)
 namespace System::Runtime::Remoting::Activation {
@@ -10,9 +11,6 @@ class IConstructionCallMessage;
 }
 namespace System::Runtime::Remoting::Contexts {
 class Context;
-}
-namespace System::Runtime::Remoting::Contexts {
-class IContextAttribute;
 }
 namespace System::Runtime::Remoting::Proxies {
 class RealProxy;
@@ -35,28 +33,27 @@ class ProxyAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::ProxyAttribute);
-// Type: System.Runtime.Remoting.Proxies::ProxyAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Attribute, System.Runtime.Remoting.Contexts.IContextAttribute
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// CS Name: ::System.Runtime.Remoting.Proxies::ProxyAttribute*
+// CS Name: System.Runtime.Remoting.Proxies.ProxyAttribute
 class CORDL_TYPE ProxyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method CreateInstance, addr 0x3c76580, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x3cd66f4, size 0xf8, virtual true, abstract: false, final false
   inline ::System::MarshalByRefObject* CreateInstance(::System::Type* serverType);
 
-  /// @brief Method CreateProxy, addr 0x3c76678, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method CreateProxy, addr 0x3cd67ec, size 0x54, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RealProxy* CreateProxy(::System::Runtime::Remoting::ObjRef* objRef, ::System::Type* serverType, ::System::Object* serverObject,
                                                                       ::System::Runtime::Remoting::Contexts::Context* serverContext);
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x3c766cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x3cd6840, size 0x4, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK, addr 0x3c766d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x3cd6844, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"

@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::_ctor)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x24f7440;
+  constexpr static std::size_t addrs = 0x252a72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* (
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(int32_t)>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Item)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x24f79bc;
+  constexpr static std::size_t addrs = 0x252aca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)(int32_t)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::Get)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24f7ab0;
+  constexpr static std::size_t addrs = 0x252ad9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Size)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24f7ab4;
+  constexpr static std::size_t addrs = 0x252ada0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_Count)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24f7b58;
+  constexpr static std::size_t addrs = 0x252ae44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::get_IsEmpty)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x24f7bfc;
+  constexpr static std::size_t addrs = 0x252aee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::GetEncryptedDataObjects)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24f7cac;
+  constexpr static std::size_t addrs = 0x252af98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>::get(),
@@ -113,7 +113,7 @@ constexpr ::System::Collections::IList*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::__cordl_internal_get_list() const {
+constexpr ::System::Collections::IList* const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::__cordl_internal_get_list() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___list;
 }
@@ -125,16 +125,13 @@ constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& Org::BouncyCastle::Bcpg
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::__cordl_internal_get_data() const {
+constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket* const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
 constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::__cordl_internal_set_data(::Org::BouncyCastle::Bcpg::InputStreamPacket* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(bcpgInput));
 }
 inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,6 +170,9 @@ inline ::System::Collections::IEnumerable* Org::BouncyCastle::Bcpg::OpenPgp::Pgp
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>::get(),
                                                                              "GetEncryptedDataObjects", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerable*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList*>(bcpgInput));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList::PgpEncryptedDataList() {}

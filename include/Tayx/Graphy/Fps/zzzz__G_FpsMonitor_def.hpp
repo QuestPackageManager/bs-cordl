@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsMonitor)
@@ -13,80 +12,78 @@ namespace System {
 template <typename T> class Comparison_1;
 }
 namespace Tayx::Graphy::Fps {
-class __G_FpsMonitor____c;
+class G_FpsMonitor___c;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
 }
 namespace Tayx::Graphy::Fps {
-class __G_FpsMonitor____c;
+class G_FpsMonitor___c;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsMonitor);
-MARK_REF_PTR_T(::Tayx::Graphy::Fps::__G_FpsMonitor____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsMonitor___c);
+// Dependencies System.Object
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// CS Name: ::G_FpsMonitor::<>c*
-class CORDL_TYPE __G_FpsMonitor____c : public ::System::Object {
+// CS Name: Tayx.Graphy.Fps.G_FpsMonitor/<>c
+class CORDL_TYPE G_FpsMonitor___c : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Tayx::Graphy::Fps::__G_FpsMonitor____c* __9;
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Tayx::Graphy::Fps::G_FpsMonitor___c* __9;
 
   /// @brief Field <>9__25_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Comparison_1<int16_t>* __9__25_0;
+  __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Comparison_1<int16_t>* __9__25_0;
 
-  static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* New_ctor();
+  static inline ::Tayx::Graphy::Fps::G_FpsMonitor___c* New_ctor();
 
-  /// @brief Method <Update>b__25_0, addr 0x4471774, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__25_0, addr 0x44d2a88, size 0x20, virtual false, abstract: false, final false
   inline int32_t _Update_b__25_0(int16_t x, int16_t y);
 
-  /// @brief Method .ctor, addr 0x447176c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d2a80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* getStaticF___9();
+  static inline ::Tayx::Graphy::Fps::G_FpsMonitor___c* getStaticF___9();
 
   static inline ::System::Comparison_1<int16_t>* getStaticF___9__25_0();
 
-  static inline void setStaticF___9(::Tayx::Graphy::Fps::__G_FpsMonitor____c* value);
+  static inline void setStaticF___9(::Tayx::Graphy::Fps::G_FpsMonitor___c* value);
 
   static inline void setStaticF___9__25_0(::System::Comparison_1<int16_t>* value);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __G_FpsMonitor____c();
+  constexpr G_FpsMonitor___c();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__G_FpsMonitor____c", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __G_FpsMonitor____c(__G_FpsMonitor____c&&) = delete;
+  G_FpsMonitor___c(G_FpsMonitor___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__G_FpsMonitor____c", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor___c", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __G_FpsMonitor____c(__G_FpsMonitor____c const&) = delete;
+  G_FpsMonitor___c(G_FpsMonitor___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::__G_FpsMonitor____c, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsMonitor___c, 0x10>, "Size mismatch!");
 
 } // namespace Tayx::Graphy::Fps
-// Type: Tayx.Graphy.Fps::G_FpsMonitor
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// CS Name: ::Tayx.Graphy.Fps::G_FpsMonitor*
+// CS Name: Tayx.Graphy.Fps.G_FpsMonitor
 class CORDL_TYPE G_FpsMonitor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::Tayx::Graphy::Fps::__G_FpsMonitor____c;
+  using __c = ::Tayx::Graphy::Fps::G_FpsMonitor___c;
 
   __declspec(property(get = get_AverageFPS, put = set_AverageFPS)) int16_t AverageFPS;
 
@@ -132,18 +129,18 @@ public:
   /// @brief Field m_zero1PercentSamples, offset 0x34, size 0x2
   __declspec(property(get = __cordl_internal_get_m_zero1PercentSamples, put = __cordl_internal_set_m_zero1PercentSamples)) int16_t m_zero1PercentSamples;
 
-  /// @brief Method Awake, addr 0x447135c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x44d2670, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x446bed8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x44cd1ec, size 0xa4, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsMonitor* New_ctor();
 
-  /// @brief Method Update, addr 0x4471360, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x44d2674, size 0x394, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x447109c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x44d23b0, size 0x40, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr int16_t const& __cordl_internal_get__AverageFPS_k__BackingField() const;
@@ -218,31 +215,31 @@ public:
 
   constexpr void __cordl_internal_set_m_zero1PercentSamples(int16_t value);
 
-  /// @brief Method .ctor, addr 0x44716f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x44d2a08, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AverageFPS, addr 0x447132c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AverageFPS, addr 0x44d2640, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_AverageFPS();
 
-  /// @brief Method get_CurrentFPS, addr 0x447131c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentFPS, addr 0x44d2630, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_CurrentFPS();
 
-  /// @brief Method get_OnePercentFPS, addr 0x447133c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OnePercentFPS, addr 0x44d2650, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_OnePercentFPS();
 
-  /// @brief Method get_Zero1PercentFps, addr 0x447134c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Zero1PercentFps, addr 0x44d2660, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_Zero1PercentFps();
 
-  /// @brief Method set_AverageFPS, addr 0x4471334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AverageFPS, addr 0x44d2648, size 0x8, virtual false, abstract: false, final false
   inline void set_AverageFPS(int16_t value);
 
-  /// @brief Method set_CurrentFPS, addr 0x4471324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentFPS, addr 0x44d2638, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentFPS(int16_t value);
 
-  /// @brief Method set_OnePercentFPS, addr 0x4471344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_OnePercentFPS, addr 0x44d2658, size 0x8, virtual false, abstract: false, final false
   inline void set_OnePercentFPS(int16_t value);
 
-  /// @brief Method set_Zero1PercentFps, addr 0x4471354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Zero1PercentFps, addr 0x44d2668, size 0x8, virtual false, abstract: false, final false
   inline void set_Zero1PercentFps(int16_t value);
 
 protected:
@@ -258,6 +255,9 @@ public:
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsMonitor", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   G_FpsMonitor(G_FpsMonitor const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17227 };
 
   /// @brief Field m_fpsSamples, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int16_t, ::Array<int16_t>*> ___m_fpsSamples;
@@ -295,14 +295,9 @@ public:
   /// @brief Field <Zero1PercentFps>k__BackingField, offset: 0x46, size: 0x2, def value: None
   int16_t ____Zero1PercentFps_k__BackingField;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17094 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsMonitor, 0x48>, "Size mismatch!");
-
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamples) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ___m_fpsSamplesSorted) == 0x28, "Offset mismatch!");
@@ -327,8 +322,10 @@ static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____OnePercentFPS_k__B
 
 static_assert(offsetof(::Tayx::Graphy::Fps::G_FpsMonitor, ____Zero1PercentFps_k__BackingField) == 0x46, "Offset mismatch!");
 
+static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Fps::G_FpsMonitor, 0x48>, "Size mismatch!");
+
 } // namespace Tayx::Graphy::Fps
 NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsMonitor);
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::G_FpsMonitor*, "Tayx.Graphy.Fps", "G_FpsMonitor");
-NEED_NO_BOX(::Tayx::Graphy::Fps::__G_FpsMonitor____c);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::__G_FpsMonitor____c*, "Tayx.Graphy.Fps", "G_FpsMonitor/<>c");
+NEED_NO_BOX(::Tayx::Graphy::Fps::G_FpsMonitor___c);
+DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Fps::G_FpsMonitor___c*, "Tayx.Graphy.Fps", "G_FpsMonitor/<>c");

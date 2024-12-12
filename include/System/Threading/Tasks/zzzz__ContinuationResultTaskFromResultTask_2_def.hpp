@@ -26,13 +26,12 @@ template <typename TAntecedentResult, typename TResult> class ContinuationResult
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2);
-// Type: System.Threading.Tasks::ContinuationResultTaskFromResultTask`2
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Threading.Tasks.Task`1<TResult>
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult, typename TResult>
 // Is value type: false
-// CS Name: ::System.Threading.Tasks::ContinuationResultTaskFromResultTask`2<TAntecedentResult,TResult>*
+// CS Name: System.Threading.Tasks.ContinuationResultTaskFromResultTask`2<TAntecedentResult,TResult>
 class CORDL_TYPE ContinuationResultTaskFromResultTask_2 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
   // Declarations
@@ -47,9 +46,9 @@ public:
                                                                                                                          ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                                                                          ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>* const& __cordl_internal_get_m_antecedent() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __cordl_internal_get_m_antecedent() const;
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
 
   constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
 
@@ -71,11 +70,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ContinuationResultTaskFromResultTask_2(ContinuationResultTaskFromResultTask_2 const&) = delete;
 
-  /// @brief Field m_antecedent, offset: 0x58, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
-
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2803 };
+
+  /// @brief Field m_antecedent, offset: 0x58, size: 0x8, def value: None
+  ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

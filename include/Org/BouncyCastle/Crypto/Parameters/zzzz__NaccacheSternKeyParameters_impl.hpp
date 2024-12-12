@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::*)(
     bool, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x238b2dc;
+  constexpr static std::size_t addrs = 0x23be5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238b31c;
+  constexpr static std::size_t addrs = 0x23be608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::get_LowerSigmaBound)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238b324;
+  constexpr static std::size_t addrs = 0x23be610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::get_Modulus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238b32c;
+  constexpr static std::size_t addrs = 0x23be618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Par
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__cordl_internal_get_g() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__cordl_internal_get_g() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
@@ -81,7 +81,7 @@ constexpr ::Org::BouncyCastle::Math::BigInteger*& Org::BouncyCastle::Crypto::Par
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__cordl_internal_get_n() const {
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__cordl_internal_get_n() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
@@ -100,12 +100,6 @@ constexpr int32_t const& Org::BouncyCastle::Crypto::Parameters::NaccacheSternKey
 constexpr void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::__cordl_internal_set_lowerSigmaBound(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lowerSigmaBound = value;
-}
-inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::New_ctor(bool privateKey,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g,
-                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* n,
-                                                                                                                                                        int32_t lowerSigmaBound) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*>(privateKey, g, n, lowerSigmaBound));
 }
 inline void Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::_ctor(bool privateKey, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                      int32_t lowerSigmaBound) {
@@ -133,6 +127,12 @@ inline ::Org::BouncyCastle::Math::BigInteger* Org::BouncyCastle::Crypto::Paramet
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*>::get(), "get_Modulus",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Math::BigInteger*, false>(this, ___internal_method);
+}
+inline ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters* Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::New_ctor(bool privateKey,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* g,
+                                                                                                                                                        ::Org::BouncyCastle::Math::BigInteger* n,
+                                                                                                                                                        int32_t lowerSigmaBound) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters*>(privateKey, g, n, lowerSigmaBound));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyParameters::NaccacheSternKeyParameters() {}

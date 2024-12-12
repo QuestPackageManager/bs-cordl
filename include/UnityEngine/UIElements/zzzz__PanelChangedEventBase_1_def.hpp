@@ -14,13 +14,12 @@ template <typename T> class PanelChangedEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::PanelChangedEventBase_1);
-// Type: UnityEngine.UIElements::PanelChangedEventBase`1
-// SizeInfo { instance_size: 152, native_size: 152, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::UnityEngine.UIElements::PanelChangedEventBase`1<T>*
+// CS Name: UnityEngine.UIElements.PanelChangedEventBase`1<T>
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -47,13 +46,13 @@ public:
 
   static inline ::UnityEngine::UIElements::PanelChangedEventBase_1<T>* New_ctor();
 
+  constexpr ::UnityEngine::UIElements::IPanel* const& __cordl_internal_get__destinationPanel_k__BackingField() const;
+
   constexpr ::UnityEngine::UIElements::IPanel*& __cordl_internal_get__destinationPanel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __cordl_internal_get__destinationPanel_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::IPanel* const& __cordl_internal_get__originPanel_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::IPanel*& __cordl_internal_get__originPanel_k__BackingField();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __cordl_internal_get__originPanel_k__BackingField() const;
 
   constexpr void __cordl_internal_set__destinationPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
 
@@ -88,14 +87,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PanelChangedEventBase_1(PanelChangedEventBase_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5890 };
+
   /// @brief Field <originPanel>k__BackingField, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____originPanel_k__BackingField;
 
   /// @brief Field <destinationPanel>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____destinationPanel_k__BackingField;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5865 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

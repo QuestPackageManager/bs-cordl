@@ -10,209 +10,205 @@
 #include "System/Threading/zzzz__SynchronizationContext_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate._ctor
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::*)(
-    ::System::Object*, ::System::IntPtr)>(&::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(
+    ::System::Object*, ::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3df5344;
+  constexpr static std::size_t addrs = 0x3e553f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate.Invoke
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::*)(::System::IntPtr)>(
-    &::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(::System::IntPtr)>(
+    &::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3df54b4;
+  constexpr static std::size_t addrs = 0x3e55560;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>::get(), 13));
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>::get(), 13));
     return ___internal_method;
   }
 };
-inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*
-System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::New_ctor(::System::Object* object, ::System::IntPtr method) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>(object, method));
-}
-inline void System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::_ctor(::System::Object* object, ::System::IntPtr method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+inline void System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
-inline void System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::Invoke(::System::IntPtr arg) {
+inline void System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::Invoke(::System::IntPtr arg) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate*>::get(), 13)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arg);
 }
+inline ::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate* System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::New_ctor(::System::Object* object,
+                                                                                                                                                                            ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate*>(object, method));
+}
 // Ctor Parameters []
-constexpr ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate::__OSSpecificSynchronizationContext__InvocationEntryDelegate() {}
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext._ctor
+constexpr ::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::OSSpecificSynchronizationContext_InvocationEntryDelegate() {}
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext_InvocationContext._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__OSSpecificSynchronizationContext__InvocationContext::*)(
-    ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::__OSSpecificSynchronizationContext__InvocationContext::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)(
+    ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext_InvocationContext::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3df53d0;
+  constexpr static std::size_t addrs = 0x3e5547c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::SendOrPostCallback*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext.Invoke
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext_InvocationContext.Invoke
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__OSSpecificSynchronizationContext__InvocationContext::*)()>(
-    &::System::Threading::__OSSpecificSynchronizationContext__InvocationContext::Invoke)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)()>(
+    &::System::Threading::OSSpecificSynchronizationContext_InvocationContext::Invoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3df5400;
+  constexpr static std::size_t addrs = 0x3e554ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*>::get(), "Invoke",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationContext*>::get(), "Invoke",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::SendOrPostCallback*& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_get_m_Delegate() {
+constexpr ::System::Threading::SendOrPostCallback*& System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_get_m_Delegate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Delegate;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::SendOrPostCallback*> const&
-System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_get_m_Delegate() const {
+constexpr ::System::Threading::SendOrPostCallback* const& System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_get_m_Delegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Delegate;
 }
-constexpr void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_set_m_Delegate(::System::Threading::SendOrPostCallback* value) {
+constexpr void System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_set_m_Delegate(::System::Threading::SendOrPostCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_get_m_State() {
+constexpr ::System::Object*& System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_get_m_State() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_get_m_State() const {
+constexpr ::System::Object* const& System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_get_m_State() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_State;
 }
-constexpr void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__cordl_internal_set_m_State(::System::Object* value) {
+constexpr void System::Threading::OSSpecificSynchronizationContext_InvocationContext::__cordl_internal_set_m_State(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_State)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*
-System::Threading::__OSSpecificSynchronizationContext__InvocationContext::New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*>(d, state));
-}
-inline void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state) {
+inline void System::Threading::OSSpecificSynchronizationContext_InvocationContext::_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationContext*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::SendOrPostCallback*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, d, state);
 }
-inline void System::Threading::__OSSpecificSynchronizationContext__InvocationContext::Invoke() {
+inline void System::Threading::OSSpecificSynchronizationContext_InvocationContext::Invoke() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext__InvocationContext*>::get(), "Invoke",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext_InvocationContext*>::get(), "Invoke",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::System::Threading::OSSpecificSynchronizationContext_InvocationContext*
+System::Threading::OSSpecificSynchronizationContext_InvocationContext::New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::OSSpecificSynchronizationContext_InvocationContext*>(d, state));
+}
 // Ctor Parameters []
-constexpr ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext::__OSSpecificSynchronizationContext__InvocationContext() {}
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext____c._ctor
+constexpr ::System::Threading::OSSpecificSynchronizationContext_InvocationContext::OSSpecificSynchronizationContext_InvocationContext() {}
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext___c._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::__OSSpecificSynchronizationContext____c::*)()>(
-    &::System::Threading::__OSSpecificSynchronizationContext____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext___c::*)()>(
+    &::System::Threading::OSSpecificSynchronizationContext___c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3df5524;
+  constexpr static std::size_t addrs = 0x3e555d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Threading::__OSSpecificSynchronizationContext____c._Get_b__3_0
+//  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext___c._Get_b__3_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (
-    ::System::Threading::__OSSpecificSynchronizationContext____c::*)(::System::Object*)>(&::System::Threading::__OSSpecificSynchronizationContext____c::_Get_b__3_0)> {
+    ::System::Threading::OSSpecificSynchronizationContext___c::*)(::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext___c::_Get_b__3_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3df552c;
+  constexpr static std::size_t addrs = 0x3e555d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get(), "<Get>b__3_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get(), "<Get>b__3_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-inline void System::Threading::__OSSpecificSynchronizationContext____c::setStaticF___9(::System::Threading::__OSSpecificSynchronizationContext____c* value) {
-  ::cordl_internals::setStaticField<::System::Threading::__OSSpecificSynchronizationContext____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get>(
-      std::forward<::System::Threading::__OSSpecificSynchronizationContext____c*>(value));
+inline void System::Threading::OSSpecificSynchronizationContext___c::setStaticF___9(::System::Threading::OSSpecificSynchronizationContext___c* value) {
+  ::cordl_internals::setStaticField<::System::Threading::OSSpecificSynchronizationContext___c*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get>(
+      std::forward<::System::Threading::OSSpecificSynchronizationContext___c*>(value));
 }
-inline ::System::Threading::__OSSpecificSynchronizationContext____c* System::Threading::__OSSpecificSynchronizationContext____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::System::Threading::__OSSpecificSynchronizationContext____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get>();
+inline ::System::Threading::OSSpecificSynchronizationContext___c* System::Threading::OSSpecificSynchronizationContext___c::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::System::Threading::OSSpecificSynchronizationContext___c*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get>();
 }
-inline void System::Threading::__OSSpecificSynchronizationContext____c::setStaticF___9__3_0(
-    ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* value) {
-  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*,
-                                    "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get>(
-      std::forward<::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*>(value));
+inline void System::Threading::OSSpecificSynchronizationContext___c::setStaticF___9__3_0(
+    ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>* value) {
+  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*,
+                                    "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get>(
+      std::forward<::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*>(value));
 }
-inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*
-System::Threading::__OSSpecificSynchronizationContext____c::getStaticF___9__3_0() {
-  return ::cordl_internals::getStaticField<
-      ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*, "<>9__3_0",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get>();
+inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*
+System::Threading::OSSpecificSynchronizationContext___c::getStaticF___9__3_0() {
+  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2_CreateValueCallback<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*,
+                                           "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get>();
 }
-inline ::System::Threading::__OSSpecificSynchronizationContext____c* System::Threading::__OSSpecificSynchronizationContext____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::__OSSpecificSynchronizationContext____c*>());
-}
-inline void System::Threading::__OSSpecificSynchronizationContext____c::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void System::Threading::OSSpecificSynchronizationContext___c::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Threading::OSSpecificSynchronizationContext* System::Threading::__OSSpecificSynchronizationContext____c::_Get_b__3_0(::System::Object* _osContext) {
+inline ::System::Threading::OSSpecificSynchronizationContext* System::Threading::OSSpecificSynchronizationContext___c::_Get_b__3_0(::System::Object* _osContext) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::__OSSpecificSynchronizationContext____c*>::get(), "<Get>b__3_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext___c*>::get(), "<Get>b__3_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::OSSpecificSynchronizationContext*, false>(this, ___internal_method, _osContext);
 }
+inline ::System::Threading::OSSpecificSynchronizationContext___c* System::Threading::OSSpecificSynchronizationContext___c::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::OSSpecificSynchronizationContext___c*>());
+}
 // Ctor Parameters []
-constexpr ::System::Threading::__OSSpecificSynchronizationContext____c::__OSSpecificSynchronizationContext____c() {}
+constexpr ::System::Threading::OSSpecificSynchronizationContext___c::OSSpecificSynchronizationContext___c() {}
 //  Writing Method size for method: ::System::Threading::OSSpecificSynchronizationContext._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3df512c;
+  constexpr static std::size_t addrs = 0x3e551d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (*)()>(
     &::System::Threading::OSSpecificSynchronizationContext::Get)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3df4e14;
+  constexpr static std::size_t addrs = 0x3e54ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),
@@ -241,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::OSSpecificSynchronizationContext::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext::CreateCopy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3df5158;
+  constexpr static std::size_t addrs = 0x3e55204;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -257,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext::Send)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3df51b8;
+  constexpr static std::size_t addrs = 0x3e55264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext::Post)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3df51f0;
+  constexpr static std::size_t addrs = 0x3e5529c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,7 +284,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext::InvocationEntry)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3df4fc4;
+  constexpr static std::size_t addrs = 0x3e55070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +298,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::Threading::OSSpecificSynchronizationContext::GetOSContext)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3df5154;
+  constexpr static std::size_t addrs = 0x3e55200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),
@@ -316,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::IntPtr, ::System::IntPtr)>(
     &::System::Threading::OSSpecificSynchronizationContext::PostInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3df53fc;
+  constexpr static std::size_t addrs = 0x3e554a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),
@@ -331,7 +327,7 @@ constexpr ::System::Object*& System::Threading::OSSpecificSynchronizationContext
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OSSynchronizationContext;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Threading::OSSpecificSynchronizationContext::__cordl_internal_get_m_OSSynchronizationContext() const {
+constexpr ::System::Object* const& System::Threading::OSSpecificSynchronizationContext::__cordl_internal_get_m_OSSynchronizationContext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OSSynchronizationContext;
 }
@@ -349,9 +345,6 @@ inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Obj
 System::Threading::OSSpecificSynchronizationContext::getStaticF_s_ContextCache() {
   return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Threading::OSSpecificSynchronizationContext*>*, "s_ContextCache",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get>();
-}
-inline ::System::Threading::OSSpecificSynchronizationContext* System::Threading::OSSpecificSynchronizationContext::New_ctor(::System::Object* osContext) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::OSSpecificSynchronizationContext*>(osContext));
 }
 inline void System::Threading::OSSpecificSynchronizationContext::_ctor(::System::Object* osContext) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -400,6 +393,9 @@ inline void System::Threading::OSSpecificSynchronizationContext::PostInternal(::
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, osSynchronizationContext, callback, arg);
+}
+inline ::System::Threading::OSSpecificSynchronizationContext* System::Threading::OSSpecificSynchronizationContext::New_ctor(::System::Object* osContext) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::OSSpecificSynchronizationContext*>(osContext));
 }
 // Ctor Parameters []
 constexpr ::System::Threading::OSSpecificSynchronizationContext::OSSpecificSynchronizationContext() {}

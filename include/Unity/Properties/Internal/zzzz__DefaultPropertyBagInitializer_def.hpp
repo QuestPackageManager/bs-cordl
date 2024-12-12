@@ -11,15 +11,14 @@ class DefaultPropertyBagInitializer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::Properties::Internal::DefaultPropertyBagInitializer);
-// Type: Unity.Properties.Internal::DefaultPropertyBagInitializer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace Unity::Properties::Internal {
 // Is value type: false
-// CS Name: ::Unity.Properties.Internal::DefaultPropertyBagInitializer*
+// CS Name: Unity.Properties.Internal.DefaultPropertyBagInitializer
 class CORDL_TYPE DefaultPropertyBagInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x48ae474, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x4912b04, size 0x330, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:
@@ -37,7 +36,7 @@ public:
   DefaultPropertyBagInitializer(DefaultPropertyBagInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

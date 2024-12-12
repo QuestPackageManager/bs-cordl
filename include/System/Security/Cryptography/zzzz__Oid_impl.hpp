@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d1e2c;
+  constexpr static std::size_t addrs = 0x4433140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW)>(&::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43d1e34;
+  constexpr static std::size_t addrs = 0x4433148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW, ::StringW)>(
     &::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43d1ec0;
+  constexpr static std::size_t addrs = 0x44331d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)(::System::Security::Cryptography::Oid*)>(
     &::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43d1eec;
+  constexpr static std::size_t addrs = 0x4433200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::Oid* (*)(::StringW, ::System::Security::Cryptography::OidGroup)>(
     &::System::Security::Cryptography::Oid::FromOidValue)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x43d1f6c;
+  constexpr static std::size_t addrs = 0x4433280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d20d4;
+  constexpr static std::size_t addrs = 0x44333e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(), "get_Value",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW)>(&::System::Security::Cryptography::Oid::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d20dc;
+  constexpr static std::size_t addrs = 0x44333f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::Oid::*)()>(&::System::Security::Cryptography::Oid::get_FriendlyName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43d20e4;
+  constexpr static std::size_t addrs = 0x44333f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Oid::*)(::StringW, ::StringW, ::System::Security::Cryptography::OidGroup)>(
     &::System::Security::Cryptography::Oid::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x43d2098;
+  constexpr static std::size_t addrs = 0x44333ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,16 +169,10 @@ constexpr void System::Security::Cryptography::Oid::__cordl_internal_set__group(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____group = value;
 }
-inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>());
-}
 inline void System::Security::Cryptography::Oid::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW oid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(oid));
 }
 inline void System::Security::Cryptography::Oid::_ctor(::StringW oid) {
   static auto* ___internal_method =
@@ -186,17 +180,11 @@ inline void System::Security::Cryptography::Oid::_ctor(::StringW oid) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oid);
 }
-inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(value, friendlyName));
-}
 inline void System::Security::Cryptography::Oid::_ctor(::StringW value, ::StringW friendlyName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, friendlyName);
-}
-inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::System::Security::Cryptography::Oid* oid) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(oid));
 }
 inline void System::Security::Cryptography::Oid::_ctor(::System::Security::Cryptography::Oid* oid) {
   static auto* ___internal_method =
@@ -227,15 +215,27 @@ inline ::StringW System::Security::Cryptography::Oid::get_FriendlyName() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(value, friendlyName, group));
-}
 inline void System::Security::Cryptography::Oid::_ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Oid*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Cryptography::OidGroup>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, friendlyName, group);
+}
+inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>());
+}
+inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW oid) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(oid));
+}
+inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(value, friendlyName));
+}
+inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::System::Security::Cryptography::Oid* oid) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(oid));
+}
+inline ::System::Security::Cryptography::Oid* System::Security::Cryptography::Oid::New_ctor(::StringW value, ::StringW friendlyName, ::System::Security::Cryptography::OidGroup group) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::Cryptography::Oid*>(value, friendlyName, group));
 }
 // Ctor Parameters []
 constexpr ::System::Security::Cryptography::Oid::Oid() {}

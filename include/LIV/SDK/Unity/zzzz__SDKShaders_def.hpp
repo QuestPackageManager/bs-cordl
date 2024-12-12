@@ -4,6 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKShaders)
 // Forward declare root types
@@ -12,39 +13,38 @@ class SDKShaders;
 }
 // Write type traits
 MARK_REF_PTR_T(::LIV::SDK::Unity::SDKShaders);
-// Type: LIV.SDK.Unity::SDKShaders
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace LIV::SDK::Unity {
 // Is value type: false
-// CS Name: ::LIV.SDK.Unity::SDKShaders*
+// CS Name: LIV.SDK.Unity.SDKShaders
 class CORDL_TYPE SDKShaders : public ::System::Object {
 public:
   // Declarations
   /// @brief Field LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY, put = setStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY)) int32_t LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY;
+  __declspec(property(get = getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY, put = setStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY)) int32_t LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY;
 
   /// @brief Field LIV_COLOR_MASK, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_LIV_COLOR_MASK, put = setStaticF_LIV_COLOR_MASK)) int32_t LIV_COLOR_MASK;
+  __declspec(property(get = getStaticF_LIV_COLOR_MASK, put = setStaticF_LIV_COLOR_MASK)) int32_t LIV_COLOR_MASK;
 
   /// @brief Field LIV_TESSELLATION_PROPERTY, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_LIV_TESSELLATION_PROPERTY, put = setStaticF_LIV_TESSELLATION_PROPERTY)) int32_t LIV_TESSELLATION_PROPERTY;
+  __declspec(property(get = getStaticF_LIV_TESSELLATION_PROPERTY, put = setStaticF_LIV_TESSELLATION_PROPERTY)) int32_t LIV_TESSELLATION_PROPERTY;
 
-  /// @brief Method StartBackgroundRendering, addr 0x3a6e1e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundRendering, addr 0x3ac4e58, size 0x44, virtual false, abstract: false, final false
   static inline void StartBackgroundRendering();
 
-  /// @brief Method StartForegroundRendering, addr 0x3a6e5ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartForegroundRendering, addr 0x3ac525c, size 0x44, virtual false, abstract: false, final false
   static inline void StartForegroundRendering();
 
-  /// @brief Method StartRendering, addr 0x3a6e1a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRendering, addr 0x3ac4e14, size 0x44, virtual false, abstract: false, final false
   static inline void StartRendering();
 
-  /// @brief Method StopBackgroundRendering, addr 0x3a6e390, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopBackgroundRendering, addr 0x3ac5000, size 0x44, virtual false, abstract: false, final false
   static inline void StopBackgroundRendering();
 
-  /// @brief Method StopForegroundRendering, addr 0x3a6e6a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopForegroundRendering, addr 0x3ac5310, size 0x44, virtual false, abstract: false, final false
   static inline void StopForegroundRendering();
 
-  /// @brief Method StopRendering, addr 0x3a6e3d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopRendering, addr 0x3ac5044, size 0x44, virtual false, abstract: false, final false
   static inline void StopRendering();
 
   static inline int32_t getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY();
@@ -107,7 +107,7 @@ public:
   static constexpr ::ConstString LIV_WRITE_SHADER{ u"Hidden/LIV_Write" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

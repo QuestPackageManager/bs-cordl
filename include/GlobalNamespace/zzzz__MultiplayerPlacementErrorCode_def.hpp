@@ -12,11 +12,10 @@ struct MultiplayerPlacementErrorCode;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::MultiplayerPlacementErrorCode);
-// Type: ::MultiplayerPlacementErrorCode
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::MultiplayerPlacementErrorCode
+// CS Name: MultiplayerPlacementErrorCode
 struct CORDL_TYPE MultiplayerPlacementErrorCode {
 public:
   // Declarations
@@ -51,45 +50,45 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr MultiplayerPlacementErrorCode(int32_t value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief Field AuthenticationFailed value: static_cast<int32_t>(0x5)
+  /// @brief Field AuthenticationFailed value: I32(5)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const AuthenticationFailed;
 
-  /// @brief Field ConnectionCanceled value: static_cast<int32_t>(0x2)
+  /// @brief Field ConnectionCanceled value: I32(2)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
 
-  /// @brief Field MatchmakingTimeout value: static_cast<int32_t>(0x7)
+  /// @brief Field MatchmakingTimeout value: I32(7)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
 
-  /// @brief Field RequestTimeout value: static_cast<int32_t>(0x6)
+  /// @brief Field RequestTimeout value: I32(6)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
 
-  /// @brief Field ServerAtCapacity value: static_cast<int32_t>(0x4)
+  /// @brief Field ServerAtCapacity value: I32(4)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerAtCapacity;
 
-  /// @brief Field ServerDoesNotExist value: static_cast<int32_t>(0x3)
+  /// @brief Field ServerDoesNotExist value: I32(3)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
 
-  /// @brief Field Success value: static_cast<int32_t>(0x0)
+  /// @brief Field Success value: I32(0)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Success;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x1)
+  /// @brief Field Unknown value: I32(1)
   static ::GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14741 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
 
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlacementErrorCode, 0x4>, "Size mismatch!");
-
 static_assert(offsetof(::GlobalNamespace::MultiplayerPlacementErrorCode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerPlacementErrorCode, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlacementErrorCode, "", "MultiplayerPlacementErrorCode");

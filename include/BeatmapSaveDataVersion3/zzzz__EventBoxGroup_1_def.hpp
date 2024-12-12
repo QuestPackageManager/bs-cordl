@@ -22,13 +22,12 @@ template <typename T> class EventBoxGroup_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatmapSaveDataVersion3::EventBoxGroup_1);
-// Type: BeatmapSaveDataVersion3::EventBoxGroup`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies BeatmapSaveDataVersion3.EventBoxGroup
 namespace BeatmapSaveDataVersion3 {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: ::BeatmapSaveDataVersion3::EventBoxGroup`1<T>*
+// CS Name: BeatmapSaveDataVersion3.EventBoxGroup`1<T>
 class CORDL_TYPE EventBoxGroup_1 : public ::BeatmapSaveDataVersion3::EventBoxGroup {
 public:
   // Declarations
@@ -41,9 +40,9 @@ public:
 
   static inline ::BeatmapSaveDataVersion3::EventBoxGroup_1<T>* New_ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<T>* eventBoxes);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_e();
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_e() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_e() const;
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_e();
 
   constexpr void __cordl_internal_set_e(::System::Collections::Generic::List_1<T>* value);
 
@@ -70,11 +69,11 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   EventBoxGroup_1(EventBoxGroup_1 const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13393 };
+
   /// @brief Field e, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___e;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

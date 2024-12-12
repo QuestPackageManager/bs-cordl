@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ValidationEventArgs::*)(::System::Xml::Schema::XmlSchemaException*)>(
     &::System::Xml::Schema::ValidationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4249c9c;
+  constexpr static std::size_t addrs = 0x42aafb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ValidationEventArgs::*)(
     ::System::Xml::Schema::XmlSchemaException*, ::System::Xml::Schema::XmlSeverityType)>(&::System::Xml::Schema::ValidationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4249d0c;
+  constexpr static std::size_t addrs = 0x42ab020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSeverityType (::System::Xml::Schema::ValidationEventArgs::*)()>(
     &::System::Xml::Schema::ValidationEventArgs::get_Severity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4249d80;
+  constexpr static std::size_t addrs = 0x42ab094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationEventArgs*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaException* (::System::Xml::Schema::ValidationEventArgs::*)()>(
     &::System::Xml::Schema::ValidationEventArgs::get_Exception)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4249d88;
+  constexpr static std::size_t addrs = 0x42ab09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationEventArgs*>::get(),
@@ -68,7 +68,7 @@ constexpr ::System::Xml::Schema::XmlSchemaException*& System::Xml::Schema::Valid
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ex;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaException*> const& System::Xml::Schema::ValidationEventArgs::__cordl_internal_get_ex() const {
+constexpr ::System::Xml::Schema::XmlSchemaException* const& System::Xml::Schema::ValidationEventArgs::__cordl_internal_get_ex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ex;
 }
@@ -88,17 +88,11 @@ constexpr void System::Xml::Schema::ValidationEventArgs::__cordl_internal_set_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___severity = value;
 }
-inline ::System::Xml::Schema::ValidationEventArgs* System::Xml::Schema::ValidationEventArgs::New_ctor(::System::Xml::Schema::XmlSchemaException* ex) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationEventArgs*>(ex));
-}
 inline void System::Xml::Schema::ValidationEventArgs::_ctor(::System::Xml::Schema::XmlSchemaException* ex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationEventArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::Schema::XmlSchemaException*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ex);
-}
-inline ::System::Xml::Schema::ValidationEventArgs* System::Xml::Schema::ValidationEventArgs::New_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationEventArgs*>(ex, severity));
 }
 inline void System::Xml::Schema::ValidationEventArgs::_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -116,6 +110,12 @@ inline ::System::Xml::Schema::XmlSchemaException* System::Xml::Schema::Validatio
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ValidationEventArgs*>::get(),
                                                                              "get_Exception", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::XmlSchemaException*, false>(this, ___internal_method);
+}
+inline ::System::Xml::Schema::ValidationEventArgs* System::Xml::Schema::ValidationEventArgs::New_ctor(::System::Xml::Schema::XmlSchemaException* ex) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationEventArgs*>(ex));
+}
+inline ::System::Xml::Schema::ValidationEventArgs* System::Xml::Schema::ValidationEventArgs::New_ctor(::System::Xml::Schema::XmlSchemaException* ex, ::System::Xml::Schema::XmlSeverityType severity) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Schema::ValidationEventArgs*>(ex, severity));
 }
 // Ctor Parameters []
 constexpr ::System::Xml::Schema::ValidationEventArgs::ValidationEventArgs() {}

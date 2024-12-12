@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerNumericString* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::GetInstance)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2604d74;
+  constexpr static std::size_t addrs = 0x2638060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerNumericString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::GetInstance)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2604e5c;
+  constexpr static std::size_t addrs = 0x2638148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerNumericString::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25f9020;
+  constexpr static std::size_t addrs = 0x262c30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerNumericString::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2605038;
+  constexpr static std::size_t addrs = 0x2638324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerNumericString::*)(::StringW, bool)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2604f68;
+  constexpr static std::size_t addrs = 0x2638254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerNumericString::*)()>(
     &::Org::BouncyCastle::Asn1::DerNumericString::GetString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2605104;
+  constexpr static std::size_t addrs = 0x26383f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::DerNumericString::*)()>(
     &::Org::BouncyCastle::Asn1::DerNumericString::GetOctets)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x260510c;
+  constexpr static std::size_t addrs = 0x26383f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerNumericString*>::get(), "GetOctets",
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerNumericString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::Encode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2605118;
+  constexpr static std::size_t addrs = 0x2638404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::DerNumericString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerNumericString::Asn1Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2605148;
+  constexpr static std::size_t addrs = 0x2638434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Asn1::DerNumericString::IsNumericString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2605040;
+  constexpr static std::size_t addrs = 0x263832c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,26 +180,17 @@ inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::Der
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::DerNumericString*, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str));
-}
 inline void Org::BouncyCastle::Asn1::DerNumericString::_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerNumericString*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str);
 }
-inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::StringW str) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str));
-}
 inline void Org::BouncyCastle::Asn1::DerNumericString::_ctor(::StringW str) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerNumericString*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, str);
-}
-inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::StringW str, bool validate) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str, validate));
 }
 inline void Org::BouncyCastle::Asn1::DerNumericString::_ctor(::StringW str, bool validate) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,6 +223,15 @@ inline bool Org::BouncyCastle::Asn1::DerNumericString::IsNumericString(::StringW
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerNumericString*>::get(), "IsNumericString",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, str);
+}
+inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str));
+}
+inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::StringW str) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str));
+}
+inline ::Org::BouncyCastle::Asn1::DerNumericString* Org::BouncyCastle::Asn1::DerNumericString::New_ctor(::StringW str, bool validate) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::DerNumericString*>(str, validate));
 }
 // Ctor Parameters []
 constexpr ::Org::BouncyCastle::Asn1::DerNumericString::DerNumericString() {}

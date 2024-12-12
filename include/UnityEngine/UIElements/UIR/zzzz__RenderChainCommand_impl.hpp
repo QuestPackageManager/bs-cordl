@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::Reset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4954e5c;
+  constexpr static std::size_t addrs = 0x49b976c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
@@ -32,16 +32,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)(
-    ::UnityEngine::UIElements::UIR::DrawParams*, float_t, ByRef<::System::Exception*>)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::ExecuteNonDrawMesh)> {
+    ::UnityEngine::UIElements::UIR::DrawParams*, float_t, ::ByRef<::System::Exception*>)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::ExecuteNonDrawMesh)> {
   constexpr static std::size_t size = 0xac0;
-  constexpr static std::size_t addrs = 0x49532b4;
+  constexpr static std::size_t addrs = 0x49b7bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(), "ExecuteNonDrawMesh", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::DrawParams*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Exception*>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Exception*>>::get() })));
     return ___internal_method;
   }
 };
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RenderTexture*, float_t)>(&::UnityEngine::UIElements::UIR::RenderChainCommand::Blit)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x49552f0;
+  constexpr static std::size_t addrs = 0x49b9c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::CombineScissorRects)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x49551e8;
+  constexpr static std::size_t addrs = 0x49b9af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectInt (*)(::UnityEngine::Rect, float_t)>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::RectPointsToPixelsAndFlipYAxis)> {
   constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x4954e80;
+  constexpr static std::size_t addrs = 0x49b9790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::RenderChainCommand::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainCommand::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4947b94;
+  constexpr static std::size_t addrs = 0x49ac4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
@@ -112,7 +112,7 @@ constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UI
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_owner() const {
+constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_owner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
@@ -124,7 +124,7 @@ constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& UnityEngine::UIEl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_prev() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand* const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_prev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___prev;
 }
@@ -136,7 +136,7 @@ constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& UnityEngine::UIEl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_next() const {
+constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand* const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___next;
 }
@@ -184,7 +184,7 @@ constexpr ::UnityEngine::UIElements::UIR::MeshHandle*& UnityEngine::UIElements::
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::MeshHandle*> const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_mesh() const {
+constexpr ::UnityEngine::UIElements::UIR::MeshHandle* const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_mesh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mesh;
 }
@@ -220,7 +220,7 @@ constexpr ::System::Action*& UnityEngine::UIElements::UIR::RenderChainCommand::_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_callback() const {
+constexpr ::System::Action* const& UnityEngine::UIElements::UIR::RenderChainCommand::__cordl_internal_get_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___callback;
 }
@@ -250,12 +250,12 @@ inline void UnityEngine::UIElements::UIR::RenderChainCommand::Reset() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIR::RenderChainCommand::ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint,
-                                                                                 ByRef<::System::Exception*> immediateException) {
+                                                                                 ::ByRef<::System::Exception*> immediateException) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(), "ExecuteNonDrawMesh", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::DrawParams*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Exception*>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Exception*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, drawParams, pixelsPerPoint, immediateException);
 }
 inline void UnityEngine::UIElements::UIR::RenderChainCommand::Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth) {
@@ -279,13 +279,13 @@ inline ::UnityEngine::RectInt UnityEngine::UIElements::UIR::RenderChainCommand::
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RectInt, false>(nullptr, ___internal_method, rect, pixelsPerPoint);
 }
-inline ::UnityEngine::UIElements::UIR::RenderChainCommand* UnityEngine::UIElements::UIR::RenderChainCommand::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::RenderChainCommand*>());
-}
 inline void UnityEngine::UIElements::UIR::RenderChainCommand::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainCommand*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::UIR::RenderChainCommand* UnityEngine::UIElements::UIR::RenderChainCommand::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::RenderChainCommand*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand::RenderChainCommand() {}

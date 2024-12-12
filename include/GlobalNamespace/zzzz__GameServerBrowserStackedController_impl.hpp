@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerBrowserStackedController::*)(bool, bool, bool)>(
     &::GlobalNamespace::GameServerBrowserStackedController::DidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b0b4a0;
+  constexpr static std::size_t addrs = 0x3b6b4fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerBrowserStackedController::*)(bool, bool)>(
     &::GlobalNamespace::GameServerBrowserStackedController::DidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b0b4a4;
+  constexpr static std::size_t addrs = 0x3b6b500;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerBrowserStackedController::*)()>(
     &::GlobalNamespace::GameServerBrowserStackedController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b0b4a8;
+  constexpr static std::size_t addrs = 0x3b6b504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerBrowserStackedController*>::get(),
@@ -60,13 +60,13 @@ inline void GlobalNamespace::GameServerBrowserStackedController::DidDeactivate(b
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerBrowserStackedController*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline ::GlobalNamespace::GameServerBrowserStackedController* GlobalNamespace::GameServerBrowserStackedController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerBrowserStackedController*>());
-}
 inline void GlobalNamespace::GameServerBrowserStackedController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerBrowserStackedController*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::GameServerBrowserStackedController* GlobalNamespace::GameServerBrowserStackedController::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerBrowserStackedController*>());
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GameServerBrowserStackedController::GameServerBrowserStackedController() {}

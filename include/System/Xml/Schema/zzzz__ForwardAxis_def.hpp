@@ -14,11 +14,10 @@ class ForwardAxis;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::ForwardAxis);
-// Type: System.Xml.Schema::ForwardAxis
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 35, minimum_alignment: 8, packing: None, specified_packing: None }
+// Dependencies System.Object
 namespace System::Xml::Schema {
 // Is value type: false
-// CS Name: ::System.Xml.Schema::ForwardAxis*
+// CS Name: System.Xml.Schema.ForwardAxis
 class CORDL_TYPE ForwardAxis : public ::System::Object {
 public:
   // Declarations
@@ -61,13 +60,13 @@ public:
 
   constexpr bool& __cordl_internal_get__isSelfAxis();
 
+  constexpr ::System::Xml::Schema::DoubleLinkAxis* const& __cordl_internal_get__rootNode() const;
+
   constexpr ::System::Xml::Schema::DoubleLinkAxis*& __cordl_internal_get__rootNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DoubleLinkAxis*> const& __cordl_internal_get__rootNode() const;
+  constexpr ::System::Xml::Schema::DoubleLinkAxis* const& __cordl_internal_get__topNode() const;
 
   constexpr ::System::Xml::Schema::DoubleLinkAxis*& __cordl_internal_get__topNode();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DoubleLinkAxis*> const& __cordl_internal_get__topNode() const;
 
   constexpr void __cordl_internal_set__isAttribute(bool value);
 
@@ -79,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set__topNode(::System::Xml::Schema::DoubleLinkAxis* value);
 
-  /// @brief Method .ctor, addr 0x4332250, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x4393564, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::DoubleLinkAxis* axis, bool isdesorself);
 
-  /// @brief Method get_IsAttribute, addr 0x4332238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAttribute, addr 0x439354c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAttribute();
 
-  /// @brief Method get_IsDss, addr 0x4332240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDss, addr 0x4393554, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDss();
 
-  /// @brief Method get_IsSelfAxis, addr 0x4332248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSelfAxis, addr 0x439355c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSelfAxis();
 
-  /// @brief Method get_RootNode, addr 0x4332228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootNode, addr 0x439353c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_RootNode();
 
-  /// @brief Method get_TopNode, addr 0x4332230, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TopNode, addr 0x4393544, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::DoubleLinkAxis* get_TopNode();
 
 protected:
@@ -111,6 +110,9 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ForwardAxis(ForwardAxis const&) = delete;
 
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7474 };
+
   /// @brief Field _topNode, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::DoubleLinkAxis* ____topNode;
 
@@ -126,14 +128,9 @@ public:
   /// @brief Field _isSelfAxis, offset: 0x22, size: 0x1, def value: None
   bool ____isSelfAxis;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7449 };
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ForwardAxis, 0x28>, "Size mismatch!");
-
 static_assert(offsetof(::System::Xml::Schema::ForwardAxis, ____topNode) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ForwardAxis, ____rootNode) == 0x18, "Offset mismatch!");
@@ -143,6 +140,8 @@ static_assert(offsetof(::System::Xml::Schema::ForwardAxis, ____isAttribute) == 0
 static_assert(offsetof(::System::Xml::Schema::ForwardAxis, ____isDss) == 0x21, "Offset mismatch!");
 
 static_assert(offsetof(::System::Xml::Schema::ForwardAxis, ____isSelfAxis) == 0x22, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::ForwardAxis, 0x28>, "Size mismatch!");
 
 } // namespace System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::ForwardAxis);

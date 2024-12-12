@@ -6,27 +6,25 @@
 #include "UnityEngine/Timeline/zzzz__IntervalTreeNode_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
 // Ctor Parameters [CppParam { name: "intervalStart", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "intervalEnd", ty: "int64_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "item", ty: "T", modifiers: "", def_value: Some("nullptr") }]
-template <typename T> constexpr ::UnityEngine::Timeline::__IntervalTree_1__Entry<T>::__IntervalTree_1__Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept {
+// CppParam { name: "item", ty: "T", modifiers: "", def_value: Some("{}") }]
+template <typename T> constexpr ::UnityEngine::Timeline::IntervalTree_1_Entry<T>::IntervalTree_1_Entry(int64_t intervalStart, int64_t intervalEnd, T item) noexcept {
   this->intervalStart = intervalStart;
   this->intervalEnd = intervalEnd;
   this->item = item;
 }
 // Ctor Parameters []
-template <typename T> constexpr ::UnityEngine::Timeline::__IntervalTree_1__Entry<T>::__IntervalTree_1__Entry() {}
-template <typename T>
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Entries() {
+template <typename T> constexpr ::UnityEngine::Timeline::IntervalTree_1_Entry<T>::IntervalTree_1_Entry() {}
+template <typename T> constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>*& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*> const&
-UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Entries() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* const& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Entries;
 }
 template <typename T>
-constexpr void UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* value) {
+constexpr void UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTree_1_Entry<T>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___m_Entries, value);
 }
@@ -35,8 +33,7 @@ template <typename T> constexpr ::System::Collections::Generic::List_1<::UnityEn
   return this->___m_Nodes;
 }
 template <typename T>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*> const&
-UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Nodes() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* const& UnityEngine::Timeline::IntervalTree_1<T>::__cordl_internal_get_m_Nodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Nodes;
 }
@@ -127,13 +124,13 @@ template <typename T> inline void UnityEngine::Timeline::IntervalTree_1<T>::Clea
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::UnityEngine::Timeline::IntervalTree_1<T>* UnityEngine::Timeline::IntervalTree_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::IntervalTree_1<T>*>());
-}
 template <typename T> inline void UnityEngine::Timeline::IntervalTree_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::IntervalTree_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::UnityEngine::Timeline::IntervalTree_1<T>* UnityEngine::Timeline::IntervalTree_1<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::IntervalTree_1<T>*>());
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::Timeline::IntervalTree_1<T>::IntervalTree_1() {}
